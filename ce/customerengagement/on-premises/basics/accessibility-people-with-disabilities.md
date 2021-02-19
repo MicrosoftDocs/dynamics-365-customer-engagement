@@ -48,3 +48,6 @@ For accessibility information about your browser, visit the following websites:
 
 ### See also  
  [Microsoft Accessibility](https://www.microsoft.com/enable/default.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

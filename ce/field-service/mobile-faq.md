@@ -280,3 +280,6 @@ Steps to clear app data:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the clear data dialogue for mobile passwords.](./media/mobile-password-clear-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

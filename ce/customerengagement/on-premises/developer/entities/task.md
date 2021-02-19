@@ -2095,3 +2095,5 @@ See systemuser Entity [lk_task_modifiedonbehalfby](systemuser.md#BKMK_lk_task_mo
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.task?text=task EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

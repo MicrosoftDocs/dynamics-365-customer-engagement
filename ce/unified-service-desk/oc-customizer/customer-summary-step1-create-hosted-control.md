@@ -64,3 +64,6 @@ This topic demonstrates how to create a customer summary hosted control in Unifi
 
 - [Step 3: Attach customer summary-related action calls to events](customer-summary-step3-attach-action-calls-events.md)
 - [Step 4: Add the hosted control, action calls, and events to configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ To unlink a record, select **Close** next to the customer name in the customer (
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

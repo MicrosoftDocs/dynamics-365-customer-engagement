@@ -126,3 +126,5 @@ The **Linked records** field shows the record that's linked to the conversation.
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -211,3 +211,6 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
  [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)
  
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

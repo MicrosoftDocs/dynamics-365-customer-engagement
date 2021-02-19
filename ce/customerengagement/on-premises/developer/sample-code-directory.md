@@ -384,3 +384,6 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
   
 ### See also  
  [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

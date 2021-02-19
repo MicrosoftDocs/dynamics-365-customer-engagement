@@ -97,3 +97,6 @@ No, it is only available for the supported version of Outlook C2R. For more info
 
 ### See also  
 [Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access)<br/>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

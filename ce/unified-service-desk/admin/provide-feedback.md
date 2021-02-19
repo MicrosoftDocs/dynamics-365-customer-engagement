@@ -211,3 +211,6 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 ## See also
 
 [Help improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

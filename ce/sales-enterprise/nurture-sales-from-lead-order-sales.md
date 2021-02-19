@@ -38,3 +38,6 @@ The sales process in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
 ### See Also
  [Overview of Sales](../sales-enterprise/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

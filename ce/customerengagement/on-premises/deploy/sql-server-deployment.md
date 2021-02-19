@@ -144,3 +144,6 @@ If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-serv
  [SQL Server requirements and recommendations for Microsoft Dynamics 365](sql-server-requirements-recommendations.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

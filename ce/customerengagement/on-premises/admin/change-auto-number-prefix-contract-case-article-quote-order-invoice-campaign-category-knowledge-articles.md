@@ -45,3 +45,6 @@ Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categ
   
 ### See also  
  [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

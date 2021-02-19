@@ -42,3 +42,6 @@ This sample code is for Dynamics 365 Customer Engagement (on-premises). Download
  <xref:Microsoft.Crm.Sdk.Messages.SearchByTitleKbArticleRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveByTopIncidentSubjectKbArticleRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveByTopIncidentProductKbArticleRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

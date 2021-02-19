@@ -212,3 +212,6 @@ Scheduling entities are grouped under the following logical groups:
 ### See also    
     
 [Service Scheduling FAQ](service-scheduling-faq.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

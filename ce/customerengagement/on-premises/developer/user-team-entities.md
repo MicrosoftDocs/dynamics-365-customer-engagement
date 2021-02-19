@@ -98,3 +98,6 @@ User and team management is the area of [!INCLUDE[pn_microsoftcrm](../includes/p
  [Sample: Share a record using an access team](sample-share-record-using-access-team.md)   
  [Blog: Service Accounts – Non-Interactive Users](https://go.microsoft.com/fwlink/p/?LinkId=234350)   
  [Privilege and Role Entities](privilege-role-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

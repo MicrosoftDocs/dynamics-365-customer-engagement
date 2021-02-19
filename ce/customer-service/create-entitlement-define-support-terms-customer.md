@@ -169,3 +169,5 @@ To renew a canceled or expired entitlement, open the entitlement, and then on th
 ### See also  
 
  [Set up entitlements quickly with templates](set-up-entitlements-templates.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

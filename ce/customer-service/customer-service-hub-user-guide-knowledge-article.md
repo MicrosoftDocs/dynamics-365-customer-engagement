@@ -571,3 +571,6 @@ Now, when you perform a create or update operation, the workflow process will tr
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 
 [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

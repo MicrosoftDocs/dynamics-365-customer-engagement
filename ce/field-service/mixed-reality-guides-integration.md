@@ -84,3 +84,6 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
       
       
    
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

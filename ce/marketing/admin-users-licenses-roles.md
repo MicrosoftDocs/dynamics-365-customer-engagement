@@ -19,7 +19,7 @@ search.app:
   - D365Mktg
 ---
 
-# Manage user accounts, licenses, and roles
+# Manage user accounts, user licenses, and security roles
 
 Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
@@ -209,3 +209,6 @@ The system uses this account when performing important internal tasks, and Marke
 [Manage teams](manage-teams.md)  
 [Add users individually or in bulk to Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
 [Assign licenses to users in Microsoft 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

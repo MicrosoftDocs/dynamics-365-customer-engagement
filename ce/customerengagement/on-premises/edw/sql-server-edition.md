@@ -27,3 +27,6 @@ ms.author: matp
 
 Select a [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] version and edition that is supported with this version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Server.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

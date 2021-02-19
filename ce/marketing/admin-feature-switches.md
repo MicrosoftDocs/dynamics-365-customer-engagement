@@ -40,3 +40,5 @@ The following table lists each available feature together with its preview statu
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

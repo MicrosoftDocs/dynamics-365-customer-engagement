@@ -543,3 +543,6 @@ If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   
  [Set up server-side synchronization (admins)](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

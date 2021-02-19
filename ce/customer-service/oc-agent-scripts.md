@@ -110,3 +110,6 @@ Similarly, the administrator can create more agent scripts as per your business 
 ### See also
 
 [Guide agents with scripts](../app-profile-manager/agent-scripts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

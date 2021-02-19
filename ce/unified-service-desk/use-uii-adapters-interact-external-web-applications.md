@@ -60,3 +60,6 @@ You can use [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inte
  [UII adapters](../unified-service-desk/uii-adapters.md)   
  [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)   
  [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

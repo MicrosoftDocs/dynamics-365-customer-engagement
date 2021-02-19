@@ -40,3 +40,6 @@ Associate a device in Connected Customer Service with a customer account so that
 ## See the results
 
 This device will now be associated with a customer account, and can receive IoT alerts from Azure IoT Central.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

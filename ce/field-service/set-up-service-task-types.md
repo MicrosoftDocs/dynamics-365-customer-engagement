@@ -44,3 +44,6 @@ Service task types in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365
  [Set up work order substatuses](../field-service/set-up-work-order-sub-statuses.md)   
  [Set up time groups](../field-service/set-up-time-groups.md)<br>
  [User's Guide](../field-service/user-guide.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

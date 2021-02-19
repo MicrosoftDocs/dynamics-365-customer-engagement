@@ -140,3 +140,6 @@ You must validate the configuration and validation steps given in the following 
  
 ### See also
 [Automatically create a case from an email](automatically-create-case-from-email.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -386,3 +386,6 @@ Add resource scheduling optimization users to the "Resource Scheduling Optimizat
  
 Ensure field security profiles have consistent permissions when comparing the old and new app users.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

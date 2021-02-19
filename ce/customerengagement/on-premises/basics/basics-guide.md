@@ -63,3 +63,6 @@ If it turns out that you can't see or access something described in this guide, 
 [Customization Guide](../customize/overview.md)<br />
 [Dynamics 365 Customer Engagement (on-premises) Help](../overview.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

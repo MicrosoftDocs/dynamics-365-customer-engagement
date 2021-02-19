@@ -68,3 +68,6 @@ You can reduce the complexity involved with data integration scenarios by using 
 ## Related Sections  
  [Perform specialized operations using Update](https://docs.microsoft.com/powerapps/developer/common-data-service/special-update-operation-behavior)<br /> 
  [Developers guide to customization for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-applications.md)<br /> 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

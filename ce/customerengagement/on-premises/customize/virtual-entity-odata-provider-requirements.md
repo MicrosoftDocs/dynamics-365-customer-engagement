@@ -103,3 +103,6 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
 [Create and edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md) <br/>
 [TechNet Blog: Interact with data from external systems using the new virtual entities](https://blogs.technet.microsoft.com/lystavlen/2017/09/08/virtual-entities/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

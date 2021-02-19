@@ -52,3 +52,6 @@ If you have customized entity or field text, such as field labels or drop-down l
 
 ### See also  
  [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

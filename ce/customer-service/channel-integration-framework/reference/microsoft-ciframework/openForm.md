@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[openForm](includes/openForm-description.md)]
 
 [!INCLUDE[token-openForm](../../shared/token-openForm.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ You can use the global or visual filters to show only the data that's important 
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)<br>
 [Learn the basics](learn-basics-sales-professional.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

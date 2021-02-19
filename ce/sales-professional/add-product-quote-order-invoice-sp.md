@@ -79,3 +79,6 @@ Here are the actions you can take on the products in the Products grid:
  [Create and manage quotes in Dynamics 365 Sales Professional](create-quotes-sales-professional.md)  
  [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ _orgOwnedVisualizationId = _serviceProxy.Create(newWebResourceVisualization);
  [Sample Charts](sample-charts.md)   
  [Data Visualization and Analytics](customize-visualizations-dashboards.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Chart](sample-create-retrieve-update-delete-chart.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: "Learn about the new features for developers and customizers in Uni
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 04/10/2019
+ms.date: 02/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -20,6 +20,10 @@ search.app:
 # What's new in Unified Service Desk for developers and customizers
 
 ::: moniker range="dynamics-usd-4.1"
+
+##  What's new in Unified Service Desk 4.1.1.1433
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region.
 
 ##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
@@ -253,3 +257,6 @@ More information: [Configure JAWS screen reader support](configure-jaws-screen-r
 ### See also  
  [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

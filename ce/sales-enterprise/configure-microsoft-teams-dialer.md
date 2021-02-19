@@ -79,3 +79,6 @@ Review the following requirements before you configure Microsoft Teams dialer in
 [Microsoft Teams integration](../teams-integration/teams-integration.md)     
 [Call a customer](https://docs.microsoft.com/dynamics365/ai/sales/connect-with-customers#call-a-customer)      
 [View and understand call summary pages](https://docs.microsoft.com/dynamics365/ai/sales/view-and-understand-call-summary)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

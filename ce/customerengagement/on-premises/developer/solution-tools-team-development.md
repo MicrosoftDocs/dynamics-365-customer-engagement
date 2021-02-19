@@ -38,3 +38,6 @@ A Dynamics 365 Customer Engagement (on-premises) solution is a compressed (.zip)
  [Developer Tools](developer-tools.md)  
   
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

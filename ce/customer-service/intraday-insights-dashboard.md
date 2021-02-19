@@ -174,3 +174,6 @@ When the agent steps away from the desk during the ongoing session and does not 
 
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
 [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

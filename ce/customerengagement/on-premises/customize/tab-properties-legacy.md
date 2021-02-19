@@ -60,3 +60,6 @@ The link below points to an article that shows you how to add a tab to display S
 ### See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Keep the product inventory updated by quickly revising properties for the produc
  
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ A *web resource* stores the data equivalent to files used in web development. We
 
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
  [Sample: Pass Multiple Values to a  Web Resource Through the Data Parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

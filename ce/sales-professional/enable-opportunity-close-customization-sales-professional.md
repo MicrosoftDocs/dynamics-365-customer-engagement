@@ -42,3 +42,6 @@ To enable customization:
 
 [Customize the Opportunity Close form](customize-opportunity-close-experience-sales-professional.md)  
 [Create or edit opportunities](manage-opportunities-sales-professional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ The UI Automation data-driven adapter (UIADDA) provides access to [!INCLUDE[pn_m
  [WinDDA](../unified-service-desk/windda.md)   
  [WebDDA](../unified-service-desk/web-dda.md)   
  [JavaDDA](../unified-service-desk/javadda.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_Setup](.
  [Install Microsoft Dynamics 365 Reporting Extensions](install-dynamics-365-reporting-extensions-command.md) </br>  
  [Sample Microsoft Dynamics 365 Reporting Extensions XML configuration file](sample-dynamics-365-reporting-extensions-xml-config-file.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

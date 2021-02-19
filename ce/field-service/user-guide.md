@@ -209,3 +209,6 @@ Looking for training outside of documentation? Here are some of our training res
 - [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](https://docs.microsoft.com/learn/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
   
 - [Microsoft Certified: Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); the Power Platform; cloud concepts; cloud security; Dynamics 365 security; Common Data Service; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

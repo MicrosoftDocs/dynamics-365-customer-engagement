@@ -112,3 +112,6 @@ Sometimes, you might see that conversations have been assigned to you without no
 [Take notes specific to conversation](oc-take-notes.md)  
 [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 [Manage notification templates and settings](notification-templates.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

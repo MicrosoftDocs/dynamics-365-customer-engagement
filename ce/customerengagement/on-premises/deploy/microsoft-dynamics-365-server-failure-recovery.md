@@ -36,3 +36,6 @@ Most of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] configur
  [Failure Recovery](microsoft-dynamics-365-failure-recovery.md)   </br>
  [Microsoft Dynamics 365 PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

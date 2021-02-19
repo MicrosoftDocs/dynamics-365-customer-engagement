@@ -1556,3 +1556,5 @@ See msdyn_workorder Entity [msdyn_msdyn_workorder_msdyn_workorderincident_WorkOr
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_workorderincident?text=msdyn_workorderincident EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

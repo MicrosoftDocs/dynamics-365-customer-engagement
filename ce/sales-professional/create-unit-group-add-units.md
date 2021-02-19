@@ -71,3 +71,6 @@ Units are the quantities or measurements that you sell your products or services
 
 [Create a price list](create-price-list.md)  
 [Create a product](create-products.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

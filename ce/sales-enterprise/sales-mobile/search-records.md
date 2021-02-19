@@ -38,3 +38,5 @@ Below the search box, you can see the number of records found in the search resu
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)<br>
 [Learn the basics](learn-basics-mobile-app.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

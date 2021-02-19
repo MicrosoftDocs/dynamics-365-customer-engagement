@@ -66,3 +66,6 @@ While you can create multiple email signatures depending on you needs, only one 
 [Email FAQs](email-faqs.md) 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

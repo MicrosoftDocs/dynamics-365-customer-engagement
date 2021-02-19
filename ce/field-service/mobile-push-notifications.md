@@ -144,3 +144,6 @@ To send these push notifications, the customer data detailed below must flow to 
 ### See also
 
 - For more information on sync filters, see the [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

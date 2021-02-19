@@ -113,3 +113,6 @@ New-CrmDeploymentAdministrator domain\adminName
 ## See Also  
 [Microsoft.Crm.PowerShell](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

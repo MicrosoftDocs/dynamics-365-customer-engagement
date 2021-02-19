@@ -117,3 +117,6 @@ If you want to overwrite the sample website to match the version of event manage
 
 [Localization](event-portal-localization.md)<br />
 [Build and host custom event website](event-management-web-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

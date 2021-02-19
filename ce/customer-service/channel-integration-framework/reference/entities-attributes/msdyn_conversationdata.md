@@ -17,3 +17,6 @@ ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework.md)<br />
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

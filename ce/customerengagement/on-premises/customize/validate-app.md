@@ -76,3 +76,6 @@ Publish an app to make it available to users.
 ### See also  
  [Add or edit app components](../customize/add-edit-app-components.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ search.app:
 ## Screen orientation
 
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for phones and Dynamics 365 for tablets apps cannot be changed. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

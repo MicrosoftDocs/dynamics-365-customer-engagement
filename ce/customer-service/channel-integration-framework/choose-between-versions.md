@@ -69,3 +69,6 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 [Integrate Channel Integration Framework version 2.0 with Omnichannel for Customer Service](v2/integration-multi-session-experiences.md)  
 [Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)  
 [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

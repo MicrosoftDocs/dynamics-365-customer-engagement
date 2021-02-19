@@ -145,3 +145,6 @@ public class Snippet
 ### See also
 
 [Extend customer journey using API](basic-operations-on-customer-journey.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

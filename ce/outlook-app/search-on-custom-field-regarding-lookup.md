@@ -35,3 +35,6 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 5. Choose **Save** > **Publish** on the **Home** tab.
   
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

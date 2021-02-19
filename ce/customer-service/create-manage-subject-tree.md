@@ -67,3 +67,6 @@ To remove a subject from the subject tree, select the subject and select **Remov
 ### See also
 
 [Configure Customer Service)](configure-cs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

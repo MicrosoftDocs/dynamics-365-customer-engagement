@@ -7,7 +7,7 @@
 ## Installation and environment management
 ### [Sign up for a free trial](trial-signup.md)
 ### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-### [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
+### [Integrate Marketing with a CMS system or Power Apps portals](portal-optional.md)
 ### [Open the Power Platform admin center](power-platform-admin-center.md)
 ### [Re-run the Marketing setup wizard](re-run-setup.md)
 ### [Manage Marketing environments](manage-marketing-environments.md)
@@ -276,3 +276,5 @@
 ### [Partner Sales and Marketing](learning-sales.md)
 
 ## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
+
+## [General FAQs](troubleshoot-faq.md)

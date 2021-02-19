@@ -171,3 +171,6 @@ Add default price lists for territories or customer segments. This makes it easi
  - [Getting started with Field Service](../field-service/user-guide.md)
  - [Create work order templates with incident types](../field-service/configure-incident-types.md)
  - [Entitlements](./work-order-entitlements.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

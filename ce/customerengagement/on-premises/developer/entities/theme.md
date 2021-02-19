@@ -1002,3 +1002,5 @@ See webresource Entity [lk_theme_logoid](webresource.md#BKMK_lk_theme_logoid) On
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.theme?text=theme EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

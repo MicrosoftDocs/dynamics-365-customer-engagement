@@ -57,3 +57,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [startChat](developer/reference/methods/startChat.md)<br />
 [JavaScript API reference for Live chat SDK](developer/omnichannel-reference.md)<br />
 [Customize chat widget](customize-chat-widget.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -355,3 +355,6 @@ Compared to work order incident types and service tasks, inspections have more b
 - **Easier to create**: Administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
 - **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple work order service task records.
 - **More flexible and robust**: Field Service inspections have many question formats and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

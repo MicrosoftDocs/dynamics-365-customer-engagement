@@ -71,3 +71,6 @@ These fields that will be populated automatically:
 
 3. When you're done, select **Save and Close**. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -25,3 +25,6 @@ There is currently no Help topic associated with this environment diagnostics ch
   
     -   Get help: [Microsoft Dynamics 365 for Customer Engagement support overview](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

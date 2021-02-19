@@ -30,3 +30,6 @@ Find answers to common questions regarding the timeline experience features and 
 
 [Overview of timeline](customer-service-hub-user-guide-timeline-overview.md)  	
 [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

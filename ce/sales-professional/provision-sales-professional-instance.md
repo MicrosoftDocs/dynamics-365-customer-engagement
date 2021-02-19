@@ -117,3 +117,6 @@ To install the Sales Professional solution on a Dynamics 365 environment
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Overview of admin settings](admin-settings-overview.md)  
 [User Guide (Dynamics 365 Sales Professional)](user-guide.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

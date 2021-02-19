@@ -58,3 +58,6 @@ Business rules allow for defining logic that takes place in a form. Business rul
  Add back after Web API reference regen
  [ProcessTrigger Entity]/entities/processtrigger.md)
  -->
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

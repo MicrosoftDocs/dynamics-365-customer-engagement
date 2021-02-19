@@ -59,3 +59,6 @@ After you create the hosted application (see [Create a HAT hosted application pr
  [Configure an action for the hosted application](../unified-service-desk/configure-action-hosted-application.md)   
  [Deploy your hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md#deploy)   
  [Import the hosted application from Unified Service Desk](../unified-service-desk/import-hosted-application-from-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

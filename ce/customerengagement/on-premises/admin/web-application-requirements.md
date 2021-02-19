@@ -116,3 +116,6 @@ To find the latest release for these web browsers, visit the software manufactur
 
 ### See also  
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

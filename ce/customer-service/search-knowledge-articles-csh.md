@@ -332,3 +332,6 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
 
 [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

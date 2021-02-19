@@ -52,3 +52,6 @@ Use this procedure if you have created your bot using Visual Studio Azure Bot te
 [Manage custom context](send-context-starting-chat.md)<br />
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
 [Integrate an Azure bot](configure-bot.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
