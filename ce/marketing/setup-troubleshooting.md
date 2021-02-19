@@ -273,15 +273,4 @@ More information: [About Unified Interface for model-driven apps in Power Apps](
 
 <a name="contact-support"></a>
 
-## How can I contact support if I still need help?
-
-For more support and help resources you can:
-
-- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
-- Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
-- Find more [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
-
-If you’ve already tried to set up the application several times and are still having trouble, open a support case through your applicable Microsoft Premier channel or MPN partner channel.
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
