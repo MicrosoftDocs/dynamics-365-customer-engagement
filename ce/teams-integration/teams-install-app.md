@@ -83,6 +83,31 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
     > [!div class="mx-imgBorder"] 
     > ![Finish setup](media/finish-setup.png "Finish setup")
    
+### FAQs for admins
+
+1. Does the tenant admin need to do anytong to set up Microsoft Teams Integration?
+The tenant admin must provide consent for the enterprise application to be created in Azure AD and add delegate permissions for Teams. This happens automatically when the Enhanced Collaboration Experience is enabled in the system settings of your customer engagement app.
+
+2. The documentation refers to **Microsoft 365 tenant admin permissions**, what does this mean?
+   This means the directory admin or a tenant admin.
+   
+3. Is the activation for Dynamics 365 for all enviroments or per environment?
+Consent is given at tenant level. This applies to all Dynamics 365 Instance within a tenant.
+
+4. What active directory privileges are given to the customer engagement apps?
+
+  - Delegated permissions: Group.ReadWrite.All and User.Read.All
+  - Dynamics 365 Microsoft Teams Collaboration Integration (Enterprise application), permissions: Group.ReadWrite.All and User.Read.All
+
+5. Is it enough to have only Microsoft Teams admin privileges to activate this Micrsoft Teams Integration? 
+Enabling Micrsoft Teams Integration has nothing to with Teams admin privileges. You need to have tenant admin permission to enable Micrsoft Teams Integration 
+
+6. Which Service Principle (App ID?) will receive this permissions?
+The App used in for this integration, which is customer engagement app and Microsoft Teams Integration.
+
+7. What happens when the consent is provided?
+Apart from consent, a flag is set internally in your customer engagement app that indicates the feature is enabled. The flag is also used to control the user interface behavior such as showing a user the collaborate command.
+
 
 ## In Microsoft Teams: Install the Dynamics 365 app and set up the Microsoft Teams collaboration channel tab
 
