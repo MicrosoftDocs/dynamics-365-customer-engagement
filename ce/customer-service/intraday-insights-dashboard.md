@@ -86,7 +86,12 @@ The **Agents insights** dashboard displays the following KPIs.
 | Agent status | The availability status of the agent. |
 | Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. More information: [Average handle time](#average-handle-time).|
 | Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and supervisors who are monitoring are treated as Monitor sessions. |
-
+| Total capacity | Total capacity of work items that can be assigned to agents. |
+| Available capacity | Remaining capacity of the agents after the work items are assigned. |
+| Active | The number of conversations that are ongoing. |
+| Wrap-up | The number of conversations in the post-conversation stage. | For more information on wrapping up conversations, see [Understand conversation states](oc-conversation-state.md#Wrap-up)
+| Waiting | The number of conversations that are yet to be assigned to agents. |
+| Closed | The number of conversations that have been closed by the agents. |
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents, and if needed, modify their presence. You can also hover over an agent’s name and a pop-up dialog will display, showing details such as the agent’s presence, their current conversations, and the sentiments of those conversations.
 
