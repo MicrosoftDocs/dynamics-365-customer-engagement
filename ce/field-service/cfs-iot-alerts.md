@@ -21,19 +21,28 @@ search.app:
 
 # Create IoT Alerts and convert IoT Alerts into work orders
 
+IoT alerts are a subset of IoT messages that may require attention. 
+
 
 // https://msit.microsoftstream.com/video/7a11a1ff-0400-b564-2c53-f1eb658dc97a
 
+In this doc we will review how IoT alerts are triggered, how to view IoT Alerts in Field Service, and then how to create work orders based on the IoT Alerts. 
 
-## Trigger IoT Alerts with rules
+## Trigger IoT Alerts in Azure IoT Hub 
+
+As IoT messages flow into Azure IoT Hub, you can create rules that dicatate when IoT alerts should be created based on the IoT messages.
+
+View and edit the criteria in Stream Analytics in your Resource Group.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-stream-analytics1.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics.png)
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-stream-analytics1.png)
+
 
 
 > [!div class="mx-imgBorder"]
@@ -54,6 +63,8 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-simulator3.png)
 
+> [!Note]
+> **Not using Azure IoT Hub?** Creating IoT Alerts in Field Service based on IoT messages in your custom IoT provider is supported. See the topic on [Extensible IoT data sources for Connected Field Service](cfs-custom-iot-provider.md) for more details. 
 
 
 
