@@ -31,7 +31,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
    >  - Dynamics 365 Customer Engagement (on-premises)
    >  - Microsoft Dataverse environment
    >  - Legacy web client or legacy apps
-   >  -  and Microsoft Teams are in different tenants
+   >  - If Dynamics 365 and Microsoft Teams are in different tenants
 
 
 Dynamics 365 for Microsoft Teams integration enables users to easily work with customer information in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
