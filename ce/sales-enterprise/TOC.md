@@ -1,29 +1,29 @@
-# [Help resources for Dynamics 365 Sales](help-hub.md)
-## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
+# Dynamics 365 Sales](help-hub.md)
+## [Overview](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Removed or deprecated features](../sales-enterprise/deprecations-sales.md)
-## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 
-## Try, install, or upgrade
-### Try
+## Installation and management
+### Start a free trial
 ### Install
+#### Subscribe to Dynamics 365 Sales
 #### [Set up Dynamics 365 Sales](../sales-enterprise/set-up-dynamics-365-sales.md)
 ### Upgrade
 #### [Upgrade from Dynamics 365 Sales Professional](../sales-enterprise/upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](../sales-enterprise/move-sales-enterprise-sales-professional.md)
 
-## Set up your sales organization
-### [System Settings - Sales](system-settings-sales-tab.md)
-### [Create business units](/power-platform/admin/create-edit-business-units)
-### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
-### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
-### [Add or remove sales territory members](/power-platform/admin/add-remove-territory-members)
-### [Hierarchy security to control access](/power-platform/admin/hierarchy-security)
-### Define fiscal and currency settings
-#### [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)
-#### [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings) 
+### Set up your sales organization
+#### [System Settings - Sales](system-settings-sales-tab.md)
+#### [Create business units](/power-platform/admin/create-edit-business-units)
+#### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
+#### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
+#### [Add or remove sales territory members](/power-platform/admin/add-remove-territory-members)
+#### [Hierarchy security to control access](/power-platform/admin/hierarchy-security)
+#### Define fiscal and currency settings
+##### [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)
+##### [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings) 
 
-## Basics
+## Learn the basics
 ### [Learn the basics](../sales-enterprise/user-guide-learn-basics.md)
 ### [Import data](/powerapps/user/import-data)
 ### [Export data to Excel](/powerapps/user/export-data-excel)
@@ -35,7 +35,7 @@
 ### [Create PDF files from sales records](../sales-enterprise/create-quote-pdf.md)
 ### [Create PDF documents](create-quote-pdf.md)
 
-## Administrator & Sales Manager Guide
+## Administration guide
 
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 
@@ -183,9 +183,9 @@
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
 
 
-## Seller or Sales Personal Guide
+## Seller guide
 
-### [Help resources for salespeople](../sales-enterprise/user-guide.md)
+### [Help resources for sellers](../sales-enterprise/user-guide.md)
 
 ### Use dashboard
 #### [Gain insights with dashboards](../sales-enterprise/dashboards.md)
@@ -317,31 +317,6 @@
 ##### [Manage notes](sales-mobile/view-edit-add-note.md)
 #### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
-
-## General Data Protection Regulation (GDPR)
-### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
-### [GDPR for sales premium](embedded-intelligence-gdpr.md)
-#### [Opt out of relationship analytics (GDPR)]optout-relationship-analytics-gdpr.md)
-#### [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
-#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
-
-## Troubleshooting and FAQs
-### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
-### [Troubleshooting leads](ts-leads.md)
-### [Troubleshooting opportunities](ts-opportunities.md)
-### [Troubleshooting orders](ts-orders.md)
-### [Troubleshooting products](ts-products.md)
-### [Troubleshooting common entities](ts-oqoi.md)
-### [Troubleshooting currency and price list](ts-currency-pricelist.md)
-### [Troubleshooting views](ts-views.md)
-### [Troubleshooting forecasts](ts-forecasts.md)
-### [Troubleshooting the Unified Interface](ts-unified-interface.md)
-### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
-### [Troubleshooting email](ts-email.md)
-
-### [Sales FAQs](faqs-sales.md)
-### [Sales premium FAQs](faqs-sales-insights.md)
-
 ## Developer Guide
 
 ### [Resources for developers](../sales-enterprise/developer/developer-guide.md)
@@ -467,7 +442,6 @@
 #### [UoM](../customerengagement/on-premises/developer/entities/uom.md)
 #### [UoMSchedule](../customerengagement/on-premises/developer/entities/uomschedule.md)
 
-
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
@@ -481,6 +455,33 @@
 
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
+
+
+## General Data Protection Regulation (GDPR)
+### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+### [GDPR for sales premium](embedded-intelligence-gdpr.md)
+#### [Opt out of relationship analytics (GDPR)]optout-relationship-analytics-gdpr.md)
+#### [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
+#### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+
+## Troubleshooting and FAQs
+### [Dynamics 365 Sales Troubleshooting guide](troubleshooting.md)
+### [Troubleshooting leads](ts-leads.md)
+### [Troubleshooting opportunities](ts-opportunities.md)
+### [Troubleshooting orders](ts-orders.md)
+### [Troubleshooting products](ts-products.md)
+### [Troubleshooting common entities](ts-oqoi.md)
+### [Troubleshooting currency and price list](ts-currency-pricelist.md)
+### [Troubleshooting views](ts-views.md)
+### [Troubleshooting forecasts](ts-forecasts.md)
+### [Troubleshooting the Unified Interface](ts-unified-interface.md)
+### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
+### [Troubleshooting email](ts-email.md)
+
+### [Sales FAQs](faqs-sales.md)
+### [Sales premium FAQs](faqs-sales-insights.md)
+
+## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 
 # Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
