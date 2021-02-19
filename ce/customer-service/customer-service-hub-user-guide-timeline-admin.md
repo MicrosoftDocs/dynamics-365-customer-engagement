@@ -4,7 +4,7 @@ description: "Timeline configuration overview for administrators"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/17/2020
+ms.date: 02/19/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -369,9 +369,9 @@ This section is not visible on the timeline record.
 |![Customize a card from in timeline - Footer section](media\timeline-create-and-use-card-forms-details-footer-1a.png "Customize a card from in timeline - Footer section")| ||
 |**Field 1**<BR>1. For this example we selected **Owner** for this field.<br><BR>**Field 2**<BR>2. For this example we selected **Regarding** for this field.<br><BR>**Field 3**<BR>3. For this example we selected **Priority** for this field.| |These fields are not visible on the timeline record |	
 
-### Set date in the sort activities by feature in timeline
+### Set the date to use when sorting activities in timeline
 
-How you view data is important and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default setting for **Activity types** in **Record settings**. **Last Updated** is on all activities which is why it is set as the default in ascending order.
+How you view data is important, and setting a default display view of your data varies based on the needs of your business. Admins can choose how data is sorted and create a default setting for **Activity types** in **Record settings**. **Last Updated** is on all activities, which is why it is set as the default in ascending order.
 
 ![How to set date in the sort activities by feature in timeline](media\timeline-how-to-set-date-in-sort-activities-by-feature-1a.png "Display options - Advanced - How to set date in the sort activities by feature in timeline")
 
@@ -379,17 +379,12 @@ Legend
 
 1. The **Sort activity by** feature in the **Activities record settings** allows you to control how data is sorted in timeline.  
 2. The **Sort activities by** field displays a list when selected. You can select from this list how you want your data to be sorted and displayed on timeline in the form.<BR><BR>
-There are some unique date fields, for example: 
 
-<ul> <li><b>Date sent</b> This field only occurs in email. If you sort by <b>Date sent</b>, most activities will not contain a <b>Date Sent</b> and therefore will be grouped together without any ordering.</li>
-<li><b>Sort date</b> You cannot create a custom date field.  If you create one, it will not display, so in answer to this, <b>Sort date</b> was created.  It does not have a value and therefore allows you to choose your own.  Is empty by default.</li>
-</ul>
+#### Sort date
+Some dates can only exist on specific types of activities. For example, **Date sent** or **Date delivery last attempted** only apply to email. If you sort by such dates, then non-email activities end up grouped together without any ordering. You can't create a custom date field, but if you need more flexibility, you can use **Sort date**, which is empty by default and requires that you populate it for each activity record with the date you want to use for sorting. Some of the ways you can populate the date are by using Microsoft Power Automate (previously Microsoft Flow), business rules, or Javascript. 
 
 > [!IMPORTANT]
-> Sort date is intended for users to programmatically  program and map each activity with a date of choice to have more control.  It’s a customization  option that allows you to sort activities any way you want by whatever date you want.  You will have to populate each field and it requires that you update all activities to populate the Sort date with a value.  However, once you complete configurability you have flexibility  to sort anyway you want.  
-
-> [!NOTE]
-> Sort dates have to be configured for each timeline instance and set up must be completed in all three main forms for the Account entity in order to work.
+> If you set a value in Sort date, you can use it for more customized sorting, but be aware that you have to populate it for every activity record or it won't work. Sort date has to be configured for each timeline instance, and must be set up for all three main forms in the Account entity.
 
 
 ### Set create activities form type in timeline
