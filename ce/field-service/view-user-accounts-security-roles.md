@@ -71,23 +71,32 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 
 3. Select **Settings**. 
 
+![Screenshot of the Field Security profiles in Field Service.](./media/PPAC-Settings.PNG)
+
 4. Select **Users + permissions** > **User**. 
+
+![Screenshot of the Field Security profiles in Field Service.](./media/PPAC-Users.PNG)
+
 
 5. Find and select your user's name. This takes you to a new page. 
 
 6. Select **Manage roles**. 
 
+> ![Screenshot of the Field Security profiles in Field Service.](./media/Manage-Roles.PNG)
+
 7. Select the appropriate role for your user > **OK**. View the roles and definitions to learn which one to choose. 
+
+> ![Screenshot of the Field Security profiles in Field Service.](./media/Select-User-Role.PNG)
 
 8. Select the **>** next to your user's name and then select **Field Security Profiles**. 
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Security profiles in Field Service.](./media/user-field-security-navigate.png)
+> ![Screenshot of the Field Security profiles in Field Service.](./media/Field-Security-Profiles.PNG)
 
 9. Select **Add**. 
 
 10. Select the appropriate role for your user > **Select** > **Add**. View the roles and definitions to learn which one to choose. 
+
+[Screenshot of the Field Security profiles in Field Service.](./media/Select-FS-Profile.PNG)
 
 Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
 
