@@ -30,16 +30,32 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics.png)
 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-stream-analytics1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-stream-analytics2.png)
+
 ### Trigger IoT Alerts with the simulator
 
 
-cfs-iot-alert-simulator1
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/cfs-iot-alert-simulator1.png)
 
-cfs-iot-alert-simulator2
 
-cfs-iot-alert-simulator3
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-simulator2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-simulator3.png)
+
+
+
 
 ## View IoT Alerts in Field Service
 
