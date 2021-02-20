@@ -99,7 +99,11 @@ Now you can send a test command by using the sample simulator. For example, sele
 > [!Note]
 > **Not using Azure IoT Hub?** Creating IoT Alerts in Field Service based on IoT messages in your custom IoT provider is supported. See the topic on [Extensible IoT data sources for Connected Field Service](cfs-custom-iot-provider.md) for more details. 
 
+After the rule is created in Stream Analytics, the Logic App will create IoT Alerts based on the rule criteria. 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-logic-app.png)
 
 ## View IoT Alerts in Field Service
 
@@ -108,6 +112,8 @@ In this example with the simulator, an IoT Alert was created in Field Service be
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-from-simulator.png)
 
+The IoT Alert form shows more details and the Alert Data section shows the details in the JSON message. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-form.png)
 
@@ -115,17 +121,24 @@ In this example with the simulator, an IoT Alert was created in Field Service be
 
 ## Convert an IoT Alert to a work order
 
+Use the business process flow to take action against the IoT Alert.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-list.png)
+> ![Screenshot of ](./media/cfs-iot-alert-bpf.png)
+
+Create a case related the IoT Alert to investigate remotely.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-next-stage.png)
+
+If the potential issue cannot be identified or resolved, advance to the next step in the business process flow to create a work order. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-create-work-order.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-next-stage.png)
+The IoT Alert is referenced on the work order form and can be accessed by the technician on his or her mobile device. 
 
 
 > [!div class="mx-imgBorder"]
@@ -135,22 +148,21 @@ In this example with the simulator, an IoT Alert was created in Field Service be
 
 ## Organize IoT Alerts
 
+It is possible for multiple IoT Alerts to be created for the same IoT device for the same issue.
 
-Group IoT alerts
+The system recognizes similar IoT alerts and groups them together. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-parent1.png)
 
+Select the group icon next to an IoT Alert to see similar IoT Alerts for the same device around the same time. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-parent-diagram.png)
 
+Use AI to suggest which IoT Alerts are higher priorty based on historical data like which IoT Alerts were converted to work orders. See the topic on [IoT alert AI suggestions](iot-alerts-ai-based-suggestions) for more details. 
 
-[IoT alert AI suggestions](iot-alerts-ai-based-suggestions)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-high-priority.png)
 
-
-## Configuration considerations
-## Additional Notes
