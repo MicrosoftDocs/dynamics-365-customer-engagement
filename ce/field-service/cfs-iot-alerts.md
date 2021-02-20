@@ -58,11 +58,21 @@ Go to Query in the left pane then select **IoTStream**.
 
 Set up the simulator to simulate IoT devices and data and begin to see device data pulled into Field Service.
 
-To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
+To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-simulator1.png)
+
+You’ll see the URL is in the top-right corner. Copy the URL. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-simulator2.png)
+
+Complete the following steps:
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
-2. When the simulator page opens, select **Configuration**.  
+2. When the simulator page opens, select **Connection** at the top.  
   
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
@@ -83,18 +93,6 @@ To find the simulator URL, sign in to your Azure subscription, and then select t
 Now you can send a test command by using the sample simulator. For example, select the temperature and increase it to above 70 degrees. The simulator is preprogrammed to create an IoT alert if temperature is above 70 degrees.
 
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-simulator1.png)
-
-The go to the simualtor URL. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-iot-alert-simulator2.png)
-
-
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-simulator3.png)
 
@@ -105,7 +103,7 @@ The go to the simualtor URL.
 
 ## View IoT Alerts in Field Service
 
-
+In this example with the simulator, an IoT Alert was created in Field Service because the tmperature reading in an IoT message exceeded 70 degrees. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-from-simulator.png)
