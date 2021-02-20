@@ -32,32 +32,43 @@ In this doc we will review how IoT alerts are triggered, how to view IoT Alerts 
 
 As IoT messages flow into Azure IoT Hub, you can create rules that dicatate when IoT alerts should be created based on the IoT messages.
 
-View and edit the criteria in Stream Analytics in your Resource Group.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics1.png)
 
+View and edit the criteria in Stream Analytics in your Resource Group.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics.png)
 
-
-
-
-
+Go to Query in the left pane then select **IoTStream**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-stream-analytics2.png)
 
+**(1)** the bottom pane shows all incoming IoT messages from the connected device 
+
+**(2)** the top pane shows the JSON that creates IoT Alerts from IoT messages.
+
+
+
+
 ### Trigger IoT Alerts with the simulator
 
+Field Service is deployed with simulated IoT messages and rules that create IoT Alerts.
 
+Find the simulator by going to the Simulator App Service resource in your IoT Hub resource group. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-simulator1.png)
 
+The go to the simualtor URL. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-simulator2.png)
+
+
 
 
 > [!div class="mx-imgBorder"]
