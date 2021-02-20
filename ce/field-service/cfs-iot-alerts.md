@@ -56,9 +56,33 @@ Go to Query in the left pane then select **IoTStream**.
 
 ### Trigger IoT Alerts with the simulator
 
-Field Service is deployed with simulated IoT messages and rules that create IoT Alerts.
+Set up the simulator to simulate IoT devices and data and begin to see device data pulled into Field Service.
 
-Find the simulator by going to the Simulator App Service resource in your IoT Hub resource group. 
+To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
+  
+1. Paste the URL into your browser’s address bar to load the page.  
+  
+2. When the simulator page opens, select **Configuration**.  
+  
+3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the "configure connection" dialog in Azure.](./media/cfs-iot-alert-simulator-connection.png)
+
+ The key can be accessed by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-simulator-connection.png)
+  
+1. Select the IoT hub in the **Resource Group**.  
+  
+2. On the left under **General**, select **Shared access policies** to get the host name and primary key.  
+  
+3. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
+
+Now you can send a test command by using the sample simulator. For example, select the temperature and increase it to above 70 degrees. The simulator is preprogrammed to create an IoT alert if temperature is above 70 degrees.
+
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-simulator1.png)
@@ -82,7 +106,9 @@ The go to the simualtor URL.
 ## View IoT Alerts in Field Service
 
 
-cfs-iot-alert-from-simulator
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iot-alert-from-simulator.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-iot-alert-form.png)
