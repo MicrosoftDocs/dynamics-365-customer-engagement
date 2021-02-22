@@ -146,7 +146,6 @@
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 ### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
-### [Manage activities from timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
 ### [Timeline FAQs](timeline-faqs.md)
 
 ## Knowledge management
