@@ -79,3 +79,6 @@ grammar
 ### See also  
  [Win DDA](../unified-service-desk/windda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

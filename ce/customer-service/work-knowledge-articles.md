@@ -1,8 +1,8 @@
 ---
 title: Work with knowledge articles | MicrosoftDocs
 description: "This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 05/15/2020
 search.audienceType: 
@@ -195,3 +195,6 @@ Use the following for help with migration:
 - [KnowledgeBaseRecord Entity](../customerengagement/on-premises/developer/entities/knowledgebaserecord.md)
 - [LanguageLocale Entity](../customerengagement/on-premises/developer/entities/languagelocale.md)
 - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

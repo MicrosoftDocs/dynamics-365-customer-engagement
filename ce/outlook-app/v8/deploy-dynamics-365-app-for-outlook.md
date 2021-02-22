@@ -303,3 +303,6 @@ You will receive the message **Sorry, something went wrong. Please try again, or
  [Set up server-side synchronization of email, appointments, contacts, and tasks](https://technet.microsoft.com/library/dn531109.aspx)   
  [Add users, licenses, and security roles](https://msdn.microsoft.com/23612155-f92d-4871-a109-186419d5c19d)   
  [Add interoperation features to Microsoft Dynamics 365 apps ](https://technet.microsoft.com/library/jj591548.aspx)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

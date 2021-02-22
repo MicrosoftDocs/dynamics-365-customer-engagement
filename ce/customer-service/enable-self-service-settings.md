@@ -40,3 +40,6 @@ Perform the following steps to enable self service.
 ### See also
 
 [Self service](oc-customer-summary.md#self-service)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

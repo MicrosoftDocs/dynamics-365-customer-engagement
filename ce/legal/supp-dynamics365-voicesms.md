@@ -244,3 +244,5 @@ limited, at breaching party's election: (i) for goods, to replacing, repairing,
 or supplying equivalent goods (or paying the cost of the foregoing or refunding
 the purchase price); and (ii) for services, to supplying (or paying a third
 party to supply) the services again or refunding the purchase price.**
+
+

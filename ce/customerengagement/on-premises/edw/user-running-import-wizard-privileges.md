@@ -28,3 +28,6 @@ ms.author: matp
   
  To resolve this issue, you must grant the above privileges to the user that is running the Import Wizard.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

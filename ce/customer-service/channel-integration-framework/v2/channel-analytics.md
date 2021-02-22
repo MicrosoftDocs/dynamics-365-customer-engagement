@@ -1,8 +1,8 @@
 ---
 title: "Channel Analytics | MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework version 2.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 04/24/2020
 ms.topic: reference
@@ -167,3 +167,6 @@ More information: [Sample code for softphone integration using Dynamics 365 Chan
 [Frequently asked questions](../faq-channel-integration-framework.md)<br />
 [updateConversation API](reference/microsoft-ciframework/updateConversation.md)<br />
 [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ To download the tool, see [Download the tools from NuGet](/dynamics365/customer-
 [Migration of Unified Service Desk configurations from Web Client to Unified Interface apps](overview-migration-assistant.md)
 
 [Migration steps of the configurations from Web Client to Unified Interface App](migration-steps-web-client-unified-interface-configuration.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

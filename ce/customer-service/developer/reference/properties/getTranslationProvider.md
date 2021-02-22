@@ -1,8 +1,8 @@
 ---
 title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
 description: 
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
@@ -65,3 +65,6 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 ### See also
 
 [Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

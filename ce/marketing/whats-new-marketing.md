@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/08/2020
+ms.date: 02/01/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -26,6 +26,91 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## February 2021 update
+
+Dynamics 365 Marketing 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
+
+### Version number
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10069.1058 | 1.35.10069.2058 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Early access features
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2021 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2021 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+
+- **Marketing emails**
+    - Improved toolbox and editing properties in the email designer. The email editing toolbox is simplified, showing the most used parameters by default, streamlining email creation workflows.
+
+### Monthly enhancements
+
+- **Customer journeys**
+    - The new **Recovery Items** tab in customer journeys allows system admins to track customization errors, improving the workflow creation process.
+- **Event management**
+    - The **Recovery Items** tab is also available for error tracking in event workflows.
+    - Teams event recordings are now available to owners and producers.
+- **Marketing emails**
+    - You can now customize the lookup default view for the **send now** functionality.
+- **Marketing pages**
+    - Cookies employ a new hybrid first-party/third-party approach, improving delivery reliability for customers who block third party cookies.
+- **Shared UX**
+    - Marketing settings are revamped, making settings more accessible from the left navigation pane and simplifying the **Settings overview** page.
+    - You can now access the Marketing version number directly from the **Settings overview** page.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Removed the deprecated Social insights tab from customer journeys.
+    - Fixed an error that disabled auto scheduling if the days and hours were left in the default setting.
+- **Event management**
+    - Fixed an error that caused the Teams integration section to be visible in event forms after visibility by default was disabled.
+    - Removed the deprecated Social insights tab from event forms.
+- **First run experience**
+    - Fixed an issue that prevented existing security roles from being removed when adding new users and assigning licenses.
+- **Lead management**
+    - Fixed an error that sometimes caused the description field to be missing in a lead scoring model after a lead entity was selected.
+- **Marketing emails**
+    - Fixed an error that caused plain text fields in templates to be empty when auto generate was on.
+    - Removed the Email Editor V2 feature switch.
+    - Fixed an error that caused live emails to sometimes open with unsaved changes and then autosave.
+    - Resolved an error that caused an email text element to lose focus after creating an A/B test.
+    - Improved consistency in saving email template fields.
+    - All HTML processing is now prevented when postprocessing is disabled.
+    - Improved handling of elements in the email designer in the Firefox browser.
+- **Marketing insights**
+    - Enabled uploads of images above 4 MB.
+    - Fixed an error that caused content in the **Links** area under the **Insights** tab on a Marketing email form to not be visible to users who inherited privileges to relevant entities through "owner" team membership.
+- **Marketing pages**
+    - Fixed an issue that occasionally caused the cursor to appear in a lookup form at the bottom of a marketing page when the page loaded.
+    - Resolved an issue that caused padding preferences to not be saved in marketing forms.
+    - Resolved an issue that sometimes caused a form double opt-in email to set global double opt-in settings.
+    - Removed inaccurate references to submission behavior capture in form capture scenarios.
+    - Fixed an issue that caused matching behavior to update the topic (subject) field.
+    - Resolved an error that caused default matching strategies to not pre-populate when changing the setting to update contacts and leads.
+    - Resolved an issue that caused the lead matching strategy to show email attributes, but the contact matching strategy to not have any attributes.
+    - Improved prevention of matching strategy attribute duplication.
+    - Fixed an error that caused live marketing pages to show unsaved changes and then autosave them.
+    - Improved privilege validation when saving forms with lookup fields.
+    - Made the **Website** field in **New Form Page** editable.
+    - Fixed an error that caused the **Update contacts/leads** parameter to lock when switching the marketing form type.
+    - Form submissions now show subscription list names.
+- **Segmentation**
+    - Fixed the privilege check for the process stage entity in LoadProfileLookupPlugin.
+    - Resolved an issue that prevented the segment validation context from getting cleaned correctly.
+
+## January 2021 update
+
+There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
 
 ## December 2020 update
 
@@ -962,3 +1047,6 @@ The Dynamics 365 Marketing November 2019 update includes the following bug fixes
 - Customer journeys: Individual marketing lists can now be reused across multiple customer journeys.
 - Websites: For website insights, the **Timeline** display has been renamed to **Visits**.
 - Customer Insights: Deleted contacts now sync correctly and more quickly.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

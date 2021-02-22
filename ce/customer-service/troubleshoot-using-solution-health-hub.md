@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot issues in Omnichannel for Customer Servi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/14/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -87,7 +87,7 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 |Live chat channel configuration should have work stream | Verifies that Live Chat has an active work stream. More information:[Configure a chat channel](add-chat-widget.md) |
 | Omnichannel service endpoint should be configured | Verifies that the underlying services needed for the functioning of Omnichannel for Customer Service are configured correctly. More information: [Provisioning Omnichannel for Customer Service](omnichannel-provision-license.md) |
 | Queues should have agents | Verifies that the queues that are assigned to the work streams have agents assigned. More information: [Manage queues](queues-omnichannel.md) |
-| SDK message/plugins should be active | Verifies that the SDK messages or plug-ins are active. More information: [Workaround for repeated messages](omnichannel-readme.md#messages-repeated-in-the-quick-replies-menu) |
+| SDK message/plugins should be active | Verifies that the SDK messages or plug-ins are active. More information: [Remove deactivated or disabled customizations](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/remove-deactivated-disabled-configurations) |
 |SMS channel configuration should have work stream | Verifies that SMS channel has an active work stream. More information: [Configure an SMS channel for TeleSign](configure-sms-channel.md) and [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md) |
 | SMS settings should have all required fields | Verifies that SMS settings don't have empty customer ID and API key fields. |
 |Teams channel configuration should have work stream | Verifies that the Microsoft Teams channel configuration has an active work stream. More information: [Configure a Microsoft Teams channel](configure-microsoft-teams.md) |
@@ -99,8 +99,8 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 |WhatsApp channel configuration should have work stream | Verifies that all WhatsApp phone numbers have an active work stream. More information: [Configure a WhatsApp channel](configure-whatsapp-channel.md) |
 | WhatsApp settings should have all required fields | Verifies that WhatsApp settings have a valid Twilio inbound URL and validation has not failed. |
 | Work stream capacity should be less than agents | Verifies that the capacity defined for agents is more than that defined for the work streams. More information: [Understand work streams](work-streams-introduction.md) |
-| Work stream should have notification templates set | Verifies that notification templates have been set for work streams. More information: [Associate templates with work streams](associate-templates.md) |
-| Work stream should have session template set | Verifies that session templates have been set for work streams. More information: [Associate templates with work streams](associate-templates.md) |
+| Work stream should have notification templates set | Verifies that notification templates have been set for work streams. More information: [Associate templates with work streams](../app-profile-manager/associate-templates.md) |
+| Work stream should have session template set | Verifies that session templates have been set for work streams. More information: [Associate templates with work streams](../app-profile-manager/associate-templates.md)) |
 | Work stream should not have duplicate context variables | Verifies that duplicate context variables haven't been defined for work streams. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)  |
 | Work stream should not have empty routing rules above rules with condition | Verifies that empty routing rules haven't been defined for a work stream that prevent routing rules with a lower priority from running. More information: [Create and manage routing rules](routing-rules.md) |
 | Work stream with push mode should not allow offline mode | Verifies that "Offline" isn't an allowed presence for work streams that have push mode enabled. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream) |
@@ -109,3 +109,6 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 
 [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)  
 [Frequently asked questions](faqs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

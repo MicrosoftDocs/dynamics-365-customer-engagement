@@ -1,8 +1,8 @@
 ---
 title: "addHandler (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 10/12/2018
 ms.topic: reference
@@ -31,3 +31,6 @@ applies_to:
 [onsendkbarticle](../events/onsendkbarticle.md)
 
 [onsizechanged](../events/onsizechanged.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

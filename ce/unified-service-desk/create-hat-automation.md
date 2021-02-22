@@ -123,3 +123,6 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
  [Use HAT automation activities](../unified-service-desk/use-hat-automation-activities.md)
  [Types of HAT automation activities](../unified-service-desk/types-of-hat-automation-activities.md)
  [Configure an action for the hosted application](../unified-service-desk/configure-action-hosted-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

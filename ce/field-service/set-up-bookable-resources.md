@@ -306,3 +306,6 @@ The process is similar for resources with resource type of Account or User. **Ed
  [Set up characteristics](../field-service/set-up-characteristics.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)<br>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -188,3 +188,5 @@ Here are a few important configurations for administrators to consider when init
 - [Enable maps for Field Service Mobile](mobile-enable-maps.md)
 - [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx)
 - [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

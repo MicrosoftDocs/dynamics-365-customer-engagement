@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Types of entities
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of tables](/powerapps/maker/data-platform/types-of-entities)
 
 <a name="BKMK_TypesOfEntities"></a>   
 
@@ -76,3 +76,6 @@ search.audienceType:
 
 ### See also
 [Create or edit entities](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

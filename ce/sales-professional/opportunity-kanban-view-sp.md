@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunity
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Work with opportunities in the Kanban view (Sales Professional)
@@ -121,3 +128,6 @@ Here are some important things to know about your Kanban view:
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)  
 [Create or edit opportunities](manage-opportunities-sales-professional.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

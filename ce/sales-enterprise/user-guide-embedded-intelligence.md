@@ -19,3 +19,6 @@ Using Embedded intelligence, you can continuously analyze the vast collection of
 [Email engagement](../sales-enterprise/email-engagement.md)   
 
 [Auto capture](../sales-enterprise/auto-capture.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

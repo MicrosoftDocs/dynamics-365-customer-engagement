@@ -44,3 +44,6 @@ The following XML configuration sample will search, and if found download and ap
  [Microsoft Dynamics 365 Reporting Extensions XML configuration file](dynamics-365-reporting-extensions-xml-config-file.md)  </br> 
  [Command example Microsoft Dynamics 365 Report Authoring Extension](install-report-authoring-extension-command-prompt.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

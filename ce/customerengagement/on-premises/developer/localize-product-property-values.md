@@ -115,3 +115,6 @@ Product names may be localized for different regions. With Dynamics 365 Customer
  [Product catalog entities](product-catalog-entities.md)   
  [Translate customized entity and attribute text](customize-labels-support-multiple-languages.md#BKMK_TranslatingCustomizedEntityAndAttributeText)   
  [Translate product names and properties into multiple languages](https://go.microsoft.com/fwlink/p/?LinkId=512440)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

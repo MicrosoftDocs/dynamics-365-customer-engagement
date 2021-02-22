@@ -54,3 +54,6 @@ If you're in China, use the links below to get [!INCLUDE[pn_Mobile_Express_short
 - Lenovo: https://www.lenovomm.com/appdetail/com.microsoft.crm.crmphone/306242  
 - Meizu: http://app.meizu.com/apps/public/detail?package_name=com.microsoft.crm.crmphone  
 - Xiaomi: http://app.mi.com/details?id=com.microsoft.crm.crmphone
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

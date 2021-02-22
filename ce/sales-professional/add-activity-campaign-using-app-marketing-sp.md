@@ -82,3 +82,6 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
 ### See Also  
 [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -144,3 +144,6 @@ Actions also have something that workflow processes don’t – input and output
  [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
  [Create your own actions](../developer/create-own-actions.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

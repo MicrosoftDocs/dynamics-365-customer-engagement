@@ -38,3 +38,6 @@ Categorizing entity records helps you tag the records so that you can easily sea
 ### See also  
  [Work with knowledge articles in Customer Engagement (on-premises)](work-knowledge-articles.md)   
  [Service entities in Customer Engagement (on-premises)](service-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

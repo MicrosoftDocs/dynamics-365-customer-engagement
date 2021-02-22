@@ -24,7 +24,7 @@ search.app:
 ---
 # Setup overview for mobile apps
 
-Your users can access their data stored in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) while they're out in the field by using either of the following apps:  
+Your users can access their data stored in Microsoft Dataverse while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
@@ -36,7 +36,8 @@ Your users can access their data stored in Microsoft Dataverse or Dynamics 365 C
  For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support-phones-tablets.md).  
   
 ### Required privileges  
- Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+
+Microsoft Dataverse uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
  
  The app should be shared for the security role that user has been assigned.
   
@@ -90,7 +91,7 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
-| management.azure.com |https |Between versions 4.3.19022.10 and 4.3.19081.22 (Android) or 13.19022.10 and 13.19081.22 (iOS), used to fetch the list of apps to populate the app list. |
+| management.azure.com |https |Between versions 4.3.19022.10 and 4.3.19081.22 (Android) or 13.19022.10 and 13.19081.22 (iOS), used to fetch the list of apps to populate the app list. </br> Starting with version 13.19033.0 ([for mobile app for Windows](windows-mobile-app.md)), used for email sign-in and the app list.|
 | api.businessappdiscovery.microsoft.com |https |Between versions 4.3.19091.0 and 4.3.20081.1 (Android) or 13.19091.0 and 13.20081.1 (iOS), used to fetch the list of apps to populate the app list. |
 | api.powerapps.com |https |Starting with version 4.3.20081.2 (Android) and 13.20081.2 (iOS), used to fetch the list of apps to populate the app list. |
 |<br>login.microsoft.com</br> <br>login.windows.net</br> <br>login.microsoftonline.com</br> <br>secure.aadcdn.microsoftonline-p.com</br>|https |Azure Active Directory - used for authentication (in all versions).
@@ -286,3 +287,6 @@ Things to note:
  [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md) </br>
  [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

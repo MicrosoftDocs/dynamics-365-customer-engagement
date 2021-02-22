@@ -22,3 +22,6 @@ ms.author: matp
   
  Locate the install.xml file in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation media and copy the file to the path that is specified in the error message.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

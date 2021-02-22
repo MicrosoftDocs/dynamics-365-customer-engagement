@@ -113,3 +113,5 @@ To add a Dynamics 365 Customer Voice survey to customer journey:
 ### See also
 
 [Create marketing forms](marketing-forms.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

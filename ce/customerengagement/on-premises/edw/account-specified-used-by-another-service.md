@@ -22,3 +22,6 @@ ms.author: matp
   
  For a more secure deployment, we recommend that you specify a separate least-privileged domain user account.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

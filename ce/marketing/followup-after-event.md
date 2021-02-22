@@ -57,3 +57,6 @@ By the time your event is finished, you'll have generated a wealth of new data i
 
 [Manage customer information](manage-customer-information.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

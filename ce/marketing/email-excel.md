@@ -100,3 +100,6 @@ Finish designing your journey as needed. When you're done, set the start date an
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

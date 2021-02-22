@@ -1,8 +1,8 @@
 ---
 title: "Get started with building a simple communication widget with Dynamics 365 Channel Integration Framework version 1.0 | MicrosoftDocs"
 description: "Read how to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework version 1.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -87,3 +87,6 @@ Now, proceed to the next section of this walkthrough that shows how you can sear
 [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework)
 
 [Frequently asked questions](faq-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

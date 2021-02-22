@@ -4,7 +4,7 @@ description: "Learn how to create entitlements to define the support terms for a
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/28/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -88,9 +88,9 @@ When you save the entitlement, additional sections are added for a new entitleme
   
 ### Add an entitlement channel
 
- The **Entitlement Channel** section specifies the support channel through which the customer can reach the organization and seek support.  
+The **Entitlement Channel** section specifies the support channel through which the customer can reach the organization and seek support.  
   
- Use this section to define the channels your customers are entitled to and track the customer support term for each channel. For example, you can add phone and email as the channels through which you’ll offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
+Use this section to define the channels your customers are entitled to and track the customer support term for each channel. For example, you can add phone and email as the channels through which you’ll offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
   
 > [!NOTE]
 > You must save the entitlement record before you can add entitlement channels to an entitlement.  
@@ -125,7 +125,7 @@ When you save the entitlement, additional sections are added for a new entitleme
   
 2. In the **Search** box, enter the first few letters of the contact that you want to associate with the entitlement. This contact record must belong to the account or contact specified in the **Customer** field.  
   
-    If a contact isn’t available, select **New** to create a contact record.  
+   If a contact isn’t available, select **New** to create a contact record.  
   
    All active entitlements for a customer appear in the **Active Entitlements** section of the customer record.  
   
@@ -144,7 +144,7 @@ When you save the entitlement, additional sections are added for a new entitleme
   
 ## Set an entitlement as default entitlement
 
- You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically reduced. However, if you don’t want the entitlement terms to be reduced for a case, select **Do not decrement entitlement terms** on the command bar.  
+You can activate the entitlement and then set it as the default entitlement for a customer. The entitlement terms from the associated entitlement are automatically reduced. However, if you don’t want the entitlement terms to be reduced for a case, select **Do not decrement entitlement terms** on the command bar.  
   
 1. On the command bar, select **Set As Default**.  
   
@@ -154,22 +154,20 @@ When you save the entitlement, additional sections are added for a new entitleme
   
 ## Associate entitlements to cases
 
- In a case record, in the **Entitlement** field, select the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
+In a case record, in the **Entitlement** field, select the **Lookup** button,and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
- The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-basics.md#related-section)
+The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [See recent cases and entitlements](customer-service-hub-user-guide-basics.md#related-section)
 
 ## Cancel an entitlement
 
- If the entitlement is no longer valid, you can cancel it. To cancel an active or waiting entitlement, open the entitlement, and on the command bar, select **Cancel**.  
+If the entitlement is no longer valid, you can cancel it. To cancel an active or waiting entitlement, open the entitlement, and on the command bar, select **Cancel**.  
   
 ## Renew an entitlement
 
- To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**.  
-  
- The current entitlement will be set to **Closed**, and a new entitlement will be created.  
-  
- The start date of this new entitlement is set to the current date and the end date is set to the current date plus the number of days between the end date and start date. The data in other fields is copied from the old entitlement.  
-  
+To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**. A new entitlement will be created, and its status is set to "Draft", while the canceled or expired entitlement will remain as is. The start date of the new entitlement will be set to the current date and the end date will be set to the current date plus the number of days between the end date and start date. The data in other fields is copied as is from the old entitlement.
+
 ### See also  
 
  [Set up entitlements quickly with templates](set-up-entitlements-templates.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,6 +8,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Enable creation of orders from quotes
@@ -29,3 +37,6 @@ Quotes have important data about the customers and the products they're interest
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)  
 [Create and manage orders in Dynamics 365 Sales Professional](create-orders-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

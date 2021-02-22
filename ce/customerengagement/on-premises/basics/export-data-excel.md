@@ -79,3 +79,6 @@ Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.m
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

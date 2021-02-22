@@ -64,6 +64,8 @@ Here are a few tasks that you can perform during your day-to-day activities by u
 
 - [Attend meetings with information at your fingertips](#attend-meetings-with-information-at-your-fingertips)
 
+- [Send email](#send-email)
+
 - [Take notes in a meeting](#take-notes-in-a-meeting)
 
 - [Update deals and customer information after a meeting](#update-deals-and-customer-information-after-a-meeting)
@@ -97,6 +99,44 @@ In addition, you can select the **Regarding** record to view which opportunity o
 
 > [!div class="mx-imgBorder"]
 > ![Opportunity related to appointment](media/mobile-app-appointment-details-opportunity.png "Opportunity related to an appointment")
+
+
+### Send email
+
+Use the Dynamics 365 for phones and tablets app to compose an email within the app with the following capabilities:
+
+- Full email editor formatting supported as available in the Unified Interface apps.
+- Add attachments to an email.
+- Search for and apply a predefined template to an email. 
+
+> [!NOTE]
+> This feature isn't available for mobile offline.
+
+1. You can create emails from home page grid or by using quick create. 
+
+    1. **Home page grid**: On the home page, select the site map button in the the top-left corner > **Activities**, and then select the **More** button > **Email**.
+    
+       > [!div class="mx-imgBorder"]
+       > ![Compose new email](media/create-email-1.png "Compose new email")
+
+    1. **Quick create**: On the command bar, select **+** > **Activities** > **Email**. 
+
+       > [!div class="mx-imgBorder"]
+       > ![Compose new email](media/create-email-1-1.png "Compose new email")
+
+2. Fill in the subject of the email and use the space provided to write the email. You can select the more option (**...**) in the body area of the email to expand the full formatting capabilities for your email. Select **Save** to save your changes.
+
+   > [!div class="mx-imgBorder"]
+   > ![Compose new email](media/compose-email-mobile-1.png "Compose new email")
+   
+3. To add an attachment to the email, select the **More** button > **Attach File**, and then select the file that you want to attach to the email.
+
+   > [!div class="mx-imgBorder"]
+   > ![Send email](media/more_command_email_mobile.png "Send email")
+   
+4. To use a template for the email body, select the **More** button > **Insert Template**. Select or search a template from the available templates, and select **Apply template**. 
+   
+5. When you're ready to send the email, select the **More** button > **Send**.
 
 ### Take notes in a meeting
 
@@ -300,3 +340,6 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

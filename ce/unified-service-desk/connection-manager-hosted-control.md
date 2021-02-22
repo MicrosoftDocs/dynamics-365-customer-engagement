@@ -53,3 +53,6 @@ The **Connection Manager** hosted control type manages connections to Microsoft 
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)   
  [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)   
  [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

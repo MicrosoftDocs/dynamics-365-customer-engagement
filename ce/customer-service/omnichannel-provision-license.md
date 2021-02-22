@@ -1,10 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
-description: "Provision Omnichannel for Customer Service to add or remove channels"
+description: "Provision Omnichannel for Customer Service to add or remove channels."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/29/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -29,7 +29,7 @@ To provision the Omnichannel for Customer Service application, make sure the fol
 
 ## Provide data access consent
 
-To allow Omnichannel for Customer Service to read and write data on behalf of users, follow these below steps:
+Use the following steps to allow Omnichannel for Customer Service to read and write data on behalf of users:
 
 1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838).
 2. Sign in using **Global Tenant Admin** credentials.
@@ -65,12 +65,12 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!div class=mx-imgBorder]
     > ![Select org](media/select-org.png "Select org")
 
-7. Select the **Chat** tab and set the toggle to Yes to enable the Chat channel for your organization.
+7. Select the **Chat** tab and set the toggle to **Yes** to enable the Chat channel for your organization.
 
     > [!div class=mx-imgBorder]
     > ![Enable chat](media/enable-chat.png "Enable chat")
 
-8. Select the **SMS** tab and set the toggle to Yes to enable SMS. Select the check box to confirm that you agree to the SMS terms.
+8. Select the **SMS** tab and set the toggle to **Yes** to enable SMS. Select the check box to confirm that you agree to the SMS terms.
 
     > [!div class=mx-imgBorder]
     > ![Enable SMS](media/enable-sms-with-omnichannel.png "Enable SMS")
@@ -78,12 +78,12 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!IMPORTANT]
     > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
 
-9.  Select the **Social** tab and set the toggle to Yes to enable social channels.
+9.  Select the **Social** tab and set the toggle to **Yes** to enable social channels.
 
     > [!div class=mx-imgBorder]
     > ![Enable social channels](media/enable-social.png "Enable social channels")
 
-10. Select the **Microsoft Teams** tab and set the toggle to Yes to enable Microsoft Teams. 
+10. Select the **Microsoft Teams** tab and set the toggle to **Yes** to enable Microsoft Teams. 
 
     > [!div class=mx-imgBorder]
     > ![Enable Microsoft Teams](media/enable-teams.png "Enable Microsoft Teams")
@@ -116,7 +116,7 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 
 5. Select the channel to be enabled. For example, in this procedure, we will enable the Social channels.
 
-6. On the **Social** tab, set the toggle to Yes to enable social channels in your environment.
+6. On the **Social** tab, set the toggle to **Yes** to enable social channels in your environment.
 
     > [!div class=mx-imgBorder]
     > ![Enable Social channels](media/select-oc-social.PNG "Enable Social channels")
@@ -126,9 +126,9 @@ After Omnichannel for Customer Service application is successfully provisioned, 
     > [!div class=mx-imgBorder]
     > ![Update status](media/update-oc-complete.png "Update status")
 
-8. To disable a previously enabled channel, set the toggle to No. For example, in this procedure, we will disable the Social channel.
+8. To disable a previously enabled channel, set the toggle to **No**. For example, in this procedure, we will disable the Social channel.
 
-   - On the **Social** tab, set the toggle to No to disable social channels in your environment. A confirmation message is displayed to remove the channel. Select **Remove**.
+   - On the **Social** tab, set the toggle to **No** to disable social channels in your environment. A confirmation message is displayed to remove the channel. Select **Remove**.
 
         > [!div class=mx-imgBorder]
         > ![Disable Social channel](media/disable-social.png "Disable Social channels")
@@ -144,3 +144,6 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Understand and create work streams](work-streams-introduction.md)  
 [Manage users](users-user-profiles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

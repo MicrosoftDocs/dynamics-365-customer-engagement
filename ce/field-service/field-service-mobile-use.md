@@ -365,3 +365,6 @@ If work still needs to be done, you can create a follow-up booking.
 
 - [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)
 - [Overview of Dynamics 365 Field Service](../field-service/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

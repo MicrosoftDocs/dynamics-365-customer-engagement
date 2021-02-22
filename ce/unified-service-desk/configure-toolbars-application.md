@@ -789,3 +789,6 @@ The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of
  [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

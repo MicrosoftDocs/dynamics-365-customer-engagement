@@ -10,6 +10,15 @@ ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-bulkoperation
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Get started with in-app marketing (Sales Professional)
@@ -59,3 +68,6 @@ Promote your business and improve sales with targeted marketing campaigns in [!I
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-professional/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sp.md)   
  [Track a marketing campaign response using in-app marketing](../sales-professional/track-marketing-campaign-response-using-app-marketing-sp.md)   
  [Overview of Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

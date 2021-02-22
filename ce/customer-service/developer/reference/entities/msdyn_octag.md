@@ -1,8 +1,8 @@
 ---
 title: "msdyn_octag Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_octag entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
@@ -534,3 +534,6 @@ See msdyn_personalmessage Entity [msdyn_msdyn_personalmessage_msdyn_octag](msdyn
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -14,9 +14,10 @@ ms.topic: article
 ms.assetid: e0790865-c5a4-4e86-bce2-584af2b8ed93
 search.audienceType: 
   - customizer
-
 ---
 # Work with form tabs
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add, configure, move, or delete tabs on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-tabs-on-form)
 
  In the body of a form, tabs provide horizontal separation. Tabs have a label that can be displayed. If the label is displayed, tabs can be expanded or collapsed to show or hide their content by choosing the label.  
 
@@ -59,3 +60,6 @@ The link below points to an article that shows you how to add a tab to display S
 ### See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

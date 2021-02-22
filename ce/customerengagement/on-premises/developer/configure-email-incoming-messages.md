@@ -44,3 +44,6 @@ If you want incoming email messages to be delivered directly to a queue, specify
 ### See also  
  [Queue Entities](queue-entities.md)   
  [Queue Entity](entities/queue.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

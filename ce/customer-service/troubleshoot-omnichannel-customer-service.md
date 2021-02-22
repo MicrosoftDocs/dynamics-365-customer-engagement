@@ -4,7 +4,7 @@ description: "Learn how to troubleshoot the issues you may face while working on
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/30/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -94,7 +94,7 @@ This establishes a connection with the tenant's Azure Active Directory, so you c
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
-## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled <a name="oc-csw-errors></a> 
+## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled <a name="oc-csw-errors"></a> 
 
 ### Issue
 
@@ -218,6 +218,20 @@ There may be an issue with customizations in the **Entity Records Distribution F
 Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
 
 Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+
+## Unable to deploy custom solution containing Agentscript solution
+
+### Issue
+
+When you try to deploy a custom solution, it fails on account of a dependency on the Agentscript solution, which is part of Omnichannel for Customer Service.
+
+### Cause
+
+The Agentscript solution has been deprecated and was not present in the target environment. It has been replaced by the msdyn_Agentscripts solution.
+
+### Resolution
+
+ We recommend that you remove all references of the Agentscript solution from the custom solution, and then reimport the solution.
 
 ## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat<a name="pvaendconv"></a>
 
@@ -619,7 +633,7 @@ To delete the solutions, follow these steps:
    - DynamicsUnifiedServiceDesk
    - UiiForMicrosoftDynamicsCRM
       > [!NOTE]
-      > You must the delete the solutions in the following order:
+      > You must delete the solutions in the following order:
       > 1. USDISHCustomization or USDWebClientCustomization
       > 2. USDUnifiedInterfaceCustomization
       > 3. DynamicsUnifiedServiceDesk
@@ -643,5 +657,18 @@ The issue is due to the package deployment failure.
 
 ### Resolution
 
-You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+You must deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
 
+## Conversation control becomes blank
+
+### Issue
+
+Conversation widget becomes blank while swapping between browser tabs in Google Chrome or Chromium-based Microsoft Edge.
+
+### Resolution
+
+Upgrade your browser version as per the system requirements of Dynamics 365 Channel Integration Framework version 2.0. To learn more, see [System requirements](channel-integration-framework/v2/system-requirements-channel-integration-framework-v2.md).
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

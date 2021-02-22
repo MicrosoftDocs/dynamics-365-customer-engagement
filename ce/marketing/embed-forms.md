@@ -20,14 +20,14 @@ search.app:
 
 # Embed forms on external websites
 
-Dynamics 365 Marketing provides a complete solution for designing, publishing, and hosting landing pages on a Dynamics 365 Portal running on your Dynamics 365 Marketing instance. However, you can also create or embed forms on your own external website that submit values back to Dynamics 365 Marketing. These external pages function similarly to native Dynamics 365 Marketing landing pages, so they will generate contacts and/or leads in your database when submitted. However, a few limitations apply, depending on how you implement the external forms.
+Dynamics 365 Marketing provides a complete solution for designing, publishing, and hosting landing pages on a Power Apps portal running on your Dynamics 365 Marketing instance. However, you can also create or embed forms on your own external website that submit values back to Dynamics 365 Marketing. These external pages function similarly to native Dynamics 365 Marketing landing pages, so they will generate contacts and/or leads in your database when submitted. However, a few limitations apply, depending on how you implement the external forms.
 
 There are two basic methods for integrating an external form page with Dynamics 365 Marketing:
 
 - *Embed* a Dynamics 365 Marketing form on an external page
 - Use *form capture* to integrate Dynamics 365 Marketing with a form created externally
 
-The third way of publishing a marketing page is to place a [native marketing form](marketing-forms.md) on a [native marketing page](create-deploy-marketing-pages.md) created and published by Dynamics 365 Marketing on a Dynamics 365 Portal.
+The third way of publishing a marketing page is to place a [native marketing form](marketing-forms.md) on a [native marketing page](create-deploy-marketing-pages.md) created and published by Dynamics 365 Marketing on a Power Apps portal.
 
 The following table summarizes the capabilities available with each of these approaches.
 
@@ -41,7 +41,7 @@ The following table summarizes the capabilities available with each of these app
 | Link to forms from email messages | Yes | Yes | Yes |
 | Launch inbound campaigns | Yes | Yes | Yes |
 | Use form visits or submissions as criteria for journey triggers | Yes | Yes | Yes |
-| Requires Dynamics 365 Portal | No | No | Yes |
+| Requires Power Apps portal | No | No | Yes |
 | Requires external website | Yes | Yes | No |
 | Generate leads and/or contacts | Yes | Yes | Yes |
 | Match and update leads and/or contacts | Yes | Yes | Yes |
@@ -232,6 +232,9 @@ To set up a journey that invites contacts to visit an external form and then rea
 
 ### Use external forms with inbound campaigns
 
-You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 Portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing form.
+You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Power Apps portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing form.
 
 ![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

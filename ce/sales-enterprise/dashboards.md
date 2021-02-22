@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-*
+  - D365-UI-Dashboard
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Gain insights with dashboards in Dynamics 365 Sales
@@ -44,3 +51,6 @@ To see a specific dashboard every time you sign in to Sales Professional, set it
 
 [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

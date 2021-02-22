@@ -25,7 +25,7 @@ search.app:
 # Set up mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
 > [!IMPORTANT]
-> This topic covers how to set-up mobile offline synchronization using the legacy admin interface. For instructions on how to set-up mobile offline using the latest version, see [Configure mobile offline synchronization](preview-setup-mobile-offline.md).
+> This topic covers how to set-up mobile offline synchronization using the legacy admin interface. For instructions on how to set-up mobile offline using the latest version, see [Configure mobile offline synchronization](setup-mobile-offline.md).
 
 
 Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
@@ -267,3 +267,6 @@ For information on capabilities and limitations of mobile offline, see [Mobile o
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

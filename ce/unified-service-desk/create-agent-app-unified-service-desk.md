@@ -49,3 +49,6 @@ tags: NoHandoff
 ## Reference
 
  [Unified Service Desk Team Blog](https://blogs.msdn.com/b/usd/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

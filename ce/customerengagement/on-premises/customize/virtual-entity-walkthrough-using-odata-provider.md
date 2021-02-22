@@ -18,12 +18,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-
 ---
-
 # Virtual entity walkthrough using the OData v4 Data Provider
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Virtual table walkthrough](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
 
 ## About this virtual entity walkthrough
 
@@ -181,3 +179,6 @@ Open a **Ticket** record to view the form that includes the **Title** and **Seve
 [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
 
 [Create and edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

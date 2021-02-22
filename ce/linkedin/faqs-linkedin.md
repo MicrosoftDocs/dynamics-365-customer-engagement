@@ -2,8 +2,7 @@
 title: "FAQ for LinkedIn Sales Navigator (Dynamics 365 Sales) | MicrosoftDocs"
 description: "FAQ for LinkedIn Sales Navigator in Dynamics 365 Sales."
 ms.date: 07/15/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,6 +10,10 @@ manager: shujoshi
 ---
 
 # Frequently asked questions
+
+**Is the LinkedIn Sales Navigator solution available for Dynamics 365 Sales Professional?**   
+**Answer:**   
+Yes, the LinkedIn Sales Navigator solution is available for Dynamics 365 Sales Professional. Administrator must [integrate the solution](integrate-sales-navigator.md) with your sales professional app and [add the controls to forms](add-sales-navigator-controls-forms.md).   
 
 <a name="sync-load-photos-linkedin"> </a>
 **Why am I unable to sync or load photos of my contacts from LinkedIn to the org chart?**     
@@ -43,7 +46,7 @@ The error is from the LinkedIn Sales Navigator application. Contact [LinkedIn Sa
 <a name="unable-log-in-to-linkedin-control"> </a>
 **Why am I unable to sign in to LinkedIn with Safari?**     
 **Answer:**    
-Dynamics 365 doesn't own the sign-in of users from the display widget. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.    
+Dynamics 365 doesn't own the sign in of users from the display widget. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.    
 
 <a name="incorrect-owner-name-displayed"> </a>
 **Why is an incorrect name displayed as the owner of the record instead of my name when I create contact in LinkedIn Sales Navigator?**    
@@ -65,11 +68,53 @@ If the issue persists, contact [LinkedIn Sales Navigator](https://www.linkedin.c
 The issue has occurred due to the insufficient permissions in your user account to write back to Dynamics 365 from LinkedIn Sales Navigator. Contact [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.
 
 <a name="onprem-crm-sync-capability-enabled"> </a>
-**Does Dynamics 365 on-premise version 9.0 with LinkedIn Sales Navigator have the CRM sync capability enabled?**    
-**Answer:**     
-The on-premise Microsoft Dynamics 2016 and above versions doesn’t support CRM sync and related functionalities. More information: [Prerequisites for CRM sync and write back](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback#prerequisites).
+**Does Dynamics 365 on-premises version 9.0 with LinkedIn Sales Navigator have the CRM sync capability enabled?**    
 
+**Answer:**     
+The on-premises Microsoft Dynamics 2016 and above versions don't support CRM sync or related functionalities. More information: [Prerequisites for CRM sync and write back](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/ms-dynamics-sync-activity-writeback#prerequisites)
+
+<a name="smart-links-activity-labelled-pointdrive"> </a>
+**Why is a Smart Links activity labeled as PointDrive?**      
+
+**Answer:**     
+In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label is changed to Smart Links: the functionality remains the same. If you're using LinkedIn solution version 2.x, we recommend that your system administrator or customizer change the label manually by following these steps:
+
+1. Sign in to your Dynamics 365 app.    
+2. Go to **Advanced Settings** > **Customizations** > **Customize the System**.    
+3. From the **Entities** site map, select the **PointDrive Presentation Viewed** entity.      
+   > [!div class="mx-imgBorder"]
+   > ![PointDrive Presentation Viewed entity view](media/faq-pointdrive-presentation-viewed-entity.png "PointDrive Presentation Viewed entity view")     
+4. For **Display Name** and **Plural Name**, enter **Smart Links Content Viewed**.    
+   > [!div class="mx-imgBorder"]
+   > ![Change Display Name and Plural Name to Smart Links Content Viewed](media/faq-change-name-smart-links-content-viewed.png "Change Display Name and Plural Name to Smart Links Content Viewed")     
+5. Save and publish the customizations.     
+6. Browse to an entity record and verify that the Smart Links label appears on the timeline.     
+   > [!div class="mx-imgBorder"]
+   > ![Smart Links Content Viewed confirmation on the timeline](media/faq-smart-links-content-viewed-confirmation.png "Smart links Content Viewed confirmation on the timeline")     
+
+<a name="show-smart-links-activity-on-timeline"> </a>
+**How can I show a Smart Links activity on the timeline?**    
+
+**Answer:**    
+If you've properly configured CRM sync and activity writeback, the Smart Links activity will successfully write back from LinkedIn Sales Navigator to Dynamics 365 and appear on the timeline. If the Smart Links activities don't appear on the timeline, follow these steps:    
+
+1. Sign in to your Dynamics 365 app.   
+2. Go to **Advanced Settings** > **Customizations** > **Customize the System**.      
+3. From the **Entities** site map, select the entity (Contact or Lead) and then the form for which you want to configure the timeline.     
+4. On the entity form, on the **SOCIAL PANE** tab, select **Notes Properties**, and then select **Change Properties**.     
+   > [!div class="mx-imgBorder"]
+   > ![Select the Change Properties option for notes properties](media/faq-select-notes-properties.png "Select the Change Properties option for notes properties")     
+5. In the **Activities Tab Properties** window, under **Unified Interface Properties (New)** tab, select the **Activities** tab.     
+6. In the **Filter By** section, select the following options:    
+   - From the **Show these activities** list, select **Show selected**.
+   - From the options, select the **Ctrl** key, and then select the **Smart Links Content Viewed** activity.    
+   > [!div class="mx-imgBorder"]
+   > ![Select options to show Smart Links activities](media/faq-select-options-filter-by-section.png "Select options to show Smart Links activities")         
+7. Select **OK**, and then save and publish the customizations.
 
 ### See also
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

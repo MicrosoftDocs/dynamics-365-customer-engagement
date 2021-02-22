@@ -77,3 +77,6 @@ After a masking rule is created, you can edit, activate, deactivate, or permanen
 3. Under **Masking rules**, select the ellipsis to see the options for managing an existing masking rule.
 
 4. To activate, deactivate, or delete a masking rule, select the rule, and then select the appropriate action from the list.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

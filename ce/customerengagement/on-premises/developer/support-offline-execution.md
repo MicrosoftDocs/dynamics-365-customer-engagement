@@ -44,3 +44,6 @@ General information on debugging plug-ins can be found in [Debug a plug-In](debu
 [Plug-in Development](plugin-development.md)   
 [Supported messages and entities for plug-ins](supported-messages-entities-plugin.md)
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

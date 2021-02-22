@@ -1,7 +1,7 @@
 ---
 title: "Use IFRAME and web resource controls on a form | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/18/2018
+ms.date: 02/03/2021
 ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
@@ -20,7 +20,10 @@ search.audienceType:
 IFRAME and web resource controls embed content from another location in pages by using an HTML IFRAME element.  
 
 > [!NOTE]
->  The designs you choose for the form are also used for the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] reading pane and forms used by [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. Web resources and IFRAMEs aren’t displayed using the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] reading pane, however, they are supported in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. If your IFRAME depends on access to the `Xrm` object of the page or any form event handlers, you should configure the IFRAME so that it's not visible by default.  
+>  The designs you choose for the form are also used for the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] reading pane and forms used by [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. Web resources and IFRAMEs aren’t displayed using the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] reading pane, however, they are supported in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. If your IFRAME depends on access to the `Xrm` object of the page or any form event handlers, you should configure the IFRAME so that it's not visible by default.<p/>
+> IFRAMEing content that is behind an authentication boundary is not supported through web resources or Power Apps component framework. Some embedded IFRAMEs might work in a browser client if the user directly logs into the external service, but this is not supported in mobile or tablet applications.
+The specific scenario of embedding an entity form within an IFRAME, embedded in another entity form, is not supported.
+
 
  You can use an IFRAME to display the contents from another website in a form, for example, in an [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] page. Displaying an entity form within an IFrame embedded in another entity form is not supported.  
 
@@ -52,7 +55,7 @@ IFRAME and web resource controls embed content from another location in pages by
 ### Enabling IFrame communication across domains  
  There are times when you want to enable communication for an IFRAME that contains content on a different domain. `Window.postMessage` is a browser method that provides this capability for versions of [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] no earlier than [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)]. [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)], [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)], and [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)] also support it. For more information about using `postMessage`, see the following blog posts:  
 
--   [Cross domain calls to the parent CRM 2011 form](https://blogs.msdn.com/b/devkeydet/archive/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form.aspx)  
+-   [Cross domain calls to the parent CRM 2011 form](https://devkeydet.blog/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form/)  
 
 -   [Cross-Document Messaging and RPC](https://msdn.microsoft.com/magazine/ff800814.aspx)  
 
@@ -153,3 +156,6 @@ A web resource control configured to use a certain number of rows will have diff
  [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md)   
  [Use JavaScript with Customer Engagement](use-javascript.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

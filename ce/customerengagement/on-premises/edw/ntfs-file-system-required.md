@@ -22,3 +22,6 @@ ms.author: matp
   
  For more information about how to convert a FAT or FAT32 file system to NTFS, see [Reformatting or converting a partition to use NTFS](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc783213(v=ws.10)).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

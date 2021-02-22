@@ -44,9 +44,9 @@ Follow these steps to create a holiday schedule:
   
    The holiday is created and associated with your customer service calendar. After the customer service schedule is associated with an SLA, then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
 
-   ![holiday-schedule-csh](media/holiday-schedule-csh.png)
+   ![Holiday schedule in Customer Service Hub](media/holiday-schedule-csh.png "Holiday schedule in Customer Service Hub")
  
-To resolve any issues with the SLA during holidays, see [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md).
+To resolve any issues with the SLA during holidays, see [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-issues.md).
 
 
 ## Create a holiday schedule  (Customer Service app)
@@ -81,3 +81,6 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
 
  [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,11 +1,12 @@
 ---
 title: "lcw threadUpdate | MicrosoftDocs"
-description: 
-author: ramana-hyd
-ms.author: v-rmurthy
+description: lcw threadUpdate (Omnichannel for Customer Service JavaScript API reference)
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/16/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # lcw:threadUpdate (Omnichannel for Customer Service JavaScript API reference)
 
@@ -29,3 +30,6 @@ window.addEventListener("lcw:threadUpdate", function handleLivechatThreadUpdateE
 
 [lcw:error](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

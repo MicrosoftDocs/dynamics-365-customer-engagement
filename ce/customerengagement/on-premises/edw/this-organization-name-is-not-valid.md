@@ -38,3 +38,6 @@ ms.author: matp
   
 -   If you are creating a new organization database, enter a different organization name and then continue with the operation. If you are trying to import an organization, you cannot import an organization that has the same unique name as that of another organization in the deployment.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

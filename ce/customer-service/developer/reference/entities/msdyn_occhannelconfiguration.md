@@ -1,8 +1,8 @@
 ---
 title: "msdyn_occhannelconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_occhannelconfiguration entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 08/18/2020
 ms.topic: "reference"
@@ -689,3 +689,6 @@ Same as msdyn_occhannelstateconfiguration entity [msdyn_msdyn_occhannelconfigura
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ For example, you know that opportunities related to **Adatum Corporation** and r
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INC
  [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md)   
  [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md) 
  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

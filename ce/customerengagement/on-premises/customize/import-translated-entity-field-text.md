@@ -18,11 +18,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-
 ---
 # Import translated entity and field text back into an app
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Import translated table, form, and column ](/powerapps/maker/data-platform/import-translated-entity-field-text)
 
 If you have customized entity or field text, such as field labels or drop-down list values, you can provide the users in your organization who are not working with the base language version of your environment with this customized text in their own languages. To do so, you export the text strings for all your customizations so that they can be translated into the languages you use in your organization.  
   
@@ -53,3 +52,6 @@ If you have customized entity or field text, such as field labels or drop-down l
 
 ### See also  
  [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

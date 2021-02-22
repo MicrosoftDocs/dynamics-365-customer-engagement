@@ -60,3 +60,6 @@ If you want to synchronize the LinkedIn data retroactively after migrating to a 
 
 [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](sync-linkedin-leads.md)  
 [Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

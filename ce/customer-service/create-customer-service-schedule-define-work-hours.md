@@ -91,3 +91,6 @@ To define when your service or support team is available for providing support t
 ### See also
 
  [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

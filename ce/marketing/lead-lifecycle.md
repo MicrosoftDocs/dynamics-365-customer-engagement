@@ -98,3 +98,6 @@ Business processes are highly customizable and can be used to drive further auto
 
 > [!NOTE]
 > If you are integrating Dynamics 365 Marketing with Dynamics 365 Sales, then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. More information: [Understand model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views) and [Create or edit model-driven app dashboards](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-dashboards)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

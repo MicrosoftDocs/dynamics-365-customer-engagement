@@ -1,7 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 11/24/2020
+ms.date: 02/18/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -66,8 +66,6 @@ Dynamics 365 Marketing includes a bundle of apps and solutions carefully selecte
   Create online surveys and analyze the results. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
 - **Dynamics 365 Connector for LinkedIn Lead Gen Forms**  
   Import leads generated with LinkedIn's lead tools into Dynamics 365. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
-- **Dynamics 365 Portals (optional)**  
-  The Marketing app can use Dynamics 365 Portals to publish its event website, marketing pages, and online surveys. If you don't use Dynamics 365 Portals with Marketing, you can publish your marketing pages and/or event portal on your own website or CMS system instead. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
@@ -111,7 +109,7 @@ Create and publish professional-looking landing pages to capture website visitor
 
 Other types of marketing pages include subscription centers, which enable contacts to manage their mailing list subscriptions, and forward-to-a-friend pages, which enable contacts to share your marketing messages with their colleagues.
 
-Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the email designer. When your page is ready, publish it to make it available to users on the internet. The system uses the standard Dynamics 365 Portals feature to publish and operate all marketing pages.
+Design your marketing pages by using the graphical, drag-and-drop content designer, which works just like the email designer. When your page is ready, publish it to make it available to users on the internet. The system uses the standard Power Apps portals feature to publish and operate all marketing pages.
 
 > [!div class="mx-imgBorder"]
 > ![Marketing page designer screenshot](media/designer-pages3.png)  
@@ -252,3 +250,5 @@ Use the Microsoft Dynamics 365 Connector for LinkedIn Lead Gen Forms to automati
 LinkedIn integration relies on the Lead Gen Forms capability of LinkedIn to capture leads. This is a paid LinkedIn service, which you must subscribe to enable the integration.
 
 More information: [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

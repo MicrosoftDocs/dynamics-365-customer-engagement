@@ -43,3 +43,6 @@ Before you create an entity relationship you should confirm whether the entity i
  [Entity Relationship Messages](entity-relationship-metadata-messages.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   
  [Create one-to-many or many-to-one entity relationships overview](/powerapps/maker/common-data-service/create-edit-1n-relationships)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

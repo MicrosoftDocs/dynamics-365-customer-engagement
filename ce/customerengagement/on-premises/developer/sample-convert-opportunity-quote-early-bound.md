@@ -44,3 +44,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
     
  [Opportunity Entities](opportunity-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

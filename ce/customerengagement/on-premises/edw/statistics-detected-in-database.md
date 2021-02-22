@@ -24,3 +24,6 @@ ms.author: matp
   
  In rare circumstances, statistics in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] METABASE tables can cause Setup to fail. If this happens, manually delete the statistics so that Setup can continue. For more information, see [Statistics](https://docs.microsoft.com/sql/relational-databases/statistics/statistics?view=sql-server-2017).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

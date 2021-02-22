@@ -1,8 +1,8 @@
 ---
 title: "Download attachments from your Azure bot| Microsoft Docs"
 description: "Read about the various cards and attachments supported by various channels."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 07/21/2020
 ms.topic: reference
@@ -42,3 +42,6 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 
 [Card support by channel](https://docs.microsoft.com/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)<br />
 [Asynchronous channel support](asynchronous-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

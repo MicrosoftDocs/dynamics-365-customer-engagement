@@ -3,97 +3,123 @@ title: "Set up Dynamics 365 Field Service users and security roles | MicrosoftDo
 description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/11/2020
+ms.date: 02/18/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
+ms.author: xolee
+manager: hegate
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Set up Dynamics 365 Field Service users and security roles
+# Set up Dynamics 365 Field Service users and security profiles
 
-[!INCLUDE[pn_field_service](../includes/pn-field-service.md)] comes with security roles and field security profiles unique to the Field Service application.
+In today's workforce, field service management requires several individuals with different roles to execute a work order, including administrators, dispatchers, and frontline workers. This document will provide you the steps to set up each role to successfully use Dynamics 365 Field Service through the different security profiles - security role and field security profile. 
 
-By setting security roles for users, you control the types of data and entities a user can access and edit. By setting field security profiles, you control which fields a user sees for an entity. For example, a user may have permission to see accounts but not to see specific fields for an account. 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of security roles in Dynamics 365](media/users-1.png) 
+## Dynamics 365 Field Service roles + definitions
+First, let's define the roles that are within of your workforce and understand how they are referred to in Dynamics 365 Field Service.  
 
-> [!Note]
-> Any users assigned to Field Service security roles need a Dynamics 365 license that includes the Field Service application. After you complete the steps in this article, it's recommended that you sign in to verify that the capabilities appear as expected.
+**Field Service—Resource** are designed for **frontline workers** who carry out work orders for customers on-site primarily via the Dynamics 365 Field Service mobile application. This role only has read and update abilities on work orders. For example, frontline workers can only view and update information on work orders that are assigned to them.
 
-## Field Service roles
+**Field Service—Administrator** is designed for **IT administrators or service managers**. This role has access to all field service entities including work orders, scheduling, and inventory. Additionally, this role has full create, read, update, delete (CRUD) abilities on work orders. For example, a field service administrator can create new work order types for the organization.
 
-**Field Service—Administrator** is designed for service managers and IT administrators. This role has access to all field service entities including work orders, scheduling, and inventory. Additionally, this role has full Create, Read, Update, Delete (CRUD) abilities. For example, a field service administrator can create new work order types for the organization, which other people can then use on work orders that they create.
+**Field Service—Dispatcher** is designed for **schedulers** who are responsible for managing and assigning a group of work orders to a group of frontline workers. It is characterized by limited delete (CRUD) abilities for scheduling related entities within their business unit. For example, dispatchers can edit and schedule work orders to frontline workers in the Washington territory.
 
-**Field Service—App Access** and **Field Service—Resource** are designed for field technicians and should be assigned to field technician users who carry out work orders for customers primarily via the mobile application. This role is generally characterized by read and update privileges. An example is the ability to view and update information on work orders that are assigned to this user (and only this user).
+**Field Service—Inventory Purchase** is designed for **inventory managers** who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. This role has limited delete (CRUD) abilities for inventory-related entities within their business unit. For example, inventory managers process a product return for one or more lines of business. **This security role should be given to a user in addition to the Field Service-Resource or Field Service-Dispatcher security roles**.
 
-**Field Service—Dispatcher** is designed for schedulers who are responsible for managing and assigning a group of work orders to a group of resources. It is characterized by limited CRUD abilities for scheduling related entities within their business unit. An example is editing and scheduling work orders to resources in the Washington territory.
-
-**Field Service—Inventory Purchase** is designed for inventory managers who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. It is characterized by limited CRUD abilities for inventory-related entities within their business unit. An example is processing a product return for one or many lines of business. **This security role should be given to a user in addition to the Field Service-Resource or Field Service-Dispatcher security roles**.
-
-**IoT - Administrator** is designed for users who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. These roles are characterized by full CRUD abilities for IoT  related entities. For example, a user with these roles may have access to all IoT Alerts and devices. 
+**IoT - Administrator** is designed for **IT administrators or service managers** who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. This role is characterized by full delete (CRUD) abilities for IoT related entities. For example, a user with these roles may have access to all IoT alerts and devices. 
 
 **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information on CFS security, see the article on [setting up security roles for Connected Field Service](cfs-security-roles.md).  
 
-## Prerequisites
+## Prerequisites 
+- Your organization must have a Microsoft 365 or Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permission](https://docs.microsoft.com/microsoft-365/admin/admin-overview/admin-overview?redirectSourcePath=%2Farticle%2Foffice-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870&view=o365-worldwide).
+- You'll need either a free trial of Dynamics 365 Field Service, or have paid licenses. Learn more about [starting a free trial](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice).
 
-- Dynamics 365 System Administrator access
+## Step 1: Add users + assign Dynamics 365 Field Service licenses
+After the admin has purchased trial or paid Dynamics 365 Field Service licenses for their users, they can now add and assign them licenses.
 
+See the topic on [Creating users and assigning security roles in the Power Platform](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles) for more details. 
+
+1. Log into the [Microsoft 365 administrator portal](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1) using your organization’s admin account. 
+
+2. In the left navigation bar, select **Users** > **Active Users**.
+
+3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
+
+![Screenshot of adding users in Admin Center.](./media/Admin-Center-User.PNG)
+
+4. If adding individual users, fill out your user's basic information, including first name, last name, and password. If adding multiple users, you will fill out this information in a CSV file and you must upload it. 
+
+5. Assign your users a product license. Specifically, select the Dynamics 365 Field Service to assign your users this license. 
+
+6. Fill out the settings of your users, such as job title, mobile phone number, and address. While this may be optional, it is highly recommended! Additionally, you may give administrator access ability to certains users in this section, too. 
+
+7. Review and select **Finish adding** to add and assign this users a Dynamics 365 Field Service license. 
+
+Woohoo, your users in your organization are now added and assigned Field Service licenses!
+
+## Step 2: Assign security roles and field security profiles
+After adding and assigning Dynamics 365 Field Service licenses to your users, you can now assign them specific Field Service security roles and field security profiles. By setting **security roles** for users, you control the types of data and entities a user can access and edit. By setting **field security profiles**, you control which fields a user sees for an entity. For example, a user may have permission to see accounts, but not to see specific fields for an account. Make sure you understand which role to assign your users; view the roles and definitions.  
+
+> ![NOTE]
+> These steps allow you to assign security roles and field security profiles to individual users rather than multiple users at once. 
+
+1. Sign into the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments).
+
+2. Select your environment. 
+
+3. Select **Settings**. 
+
+![Screenshot of the Settings button in Field Service.](./media/PPAC-Settings.PNG)
+
+4. Select **Users + permissions** > **Users**. 
+
+![Screenshot of selecting users in Field Service.](./media/PPAC-Users.PNG)
+
+
+5. Find and select your user's name. This takes you to a new page. 
+
+6. Select **Manage roles**. 
+
+> ![Screenshot of Managing Roles in Field Service.](./media/PPAC-Manage-Roles.PNG)
+
+7. Select the appropriate role for your user > **OK**. View the roles and definitions to learn which one to choose. 
+
+> ![Screenshot of adding Security Roles in Field Service.](./media/PPAC-Select-User-Role.PNG)
+
+8. Select the **>** next to your user's name and then select **Field Security Profiles**. 
+
+> ![Screenshot of adding Field Security profiles in Field Service.](./media/PPAC-Field-Security-Profiles.PNG)
+
+9. Select **Add**. 
+
+![Screenshot of Add button in Field Service.](./media/PPAC-Select-Add.PNG)
+
+10. Select the appropriate role for your user > **Select** > **Add**. View the roles and definitions to learn which one to choose. 
+
+> ![Screenshot of selecting the Field Security profiles in Field Service.](./media/PPAC-Select-FS-Profile.PNG)
+
+Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
+
+## Q + A 
+
+1. After adding and assigning security profiles, what should I do next? 
+
+As an admin, you can start configuring the rest of Dynamics 365 Field Service. Specifically, to fully provision your frontline workers, you will need to assign them to an [offline data profile](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-system-offline).
+
+2. Can I add multiple people to a security role and/or a field security profile? 
+
+Yes. Use the [Teams feature](https://docs.microsoft.com/power-platform/admin/manage-teams) to help you group multiple users and then assign them to a security role and/or profile. 
+
+3. Can I make a copy of security roles? 
 
 > [!Note]
-> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to *add* additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to *remove* or lower privileges, then we recommend that you make a copy of the Field Service security role, make your changes, and assign the copied security role to the user. To copy a security role, go to **Settings** > **Security** > **Security Roles**, then select a security role record and choose **Actions** > **Copy Role**. See the following screenshot for reference.
+> New product releases may update field service security roles. You can either make custom roles or copies of existing roles to mitigate the risks. If you intend to add additional privileges, we recommend creating a custom security role with the added privileges, and assigning both the Field Service security role and the add-on role. If you intend to remove or lower privileges, then we recommend that you make a copy of the Field Service security role, make your changes, and assign the copied security role to the user. To copy a security role, go to Settings > Security > Security Roles, then select a security role record and choose Actions > Copy Role. See the following screenshot for reference.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of copying a security role](media/admin-security-role-copy.png) 
-
-## Create users for Field Service
-
-Once you have a Dynamics 365 environment with Field Service, you need to create users to use the application. Many different roles interact with Field Service like system administrators, technicians, dispatchers, service managers, inventory managers, customer service representatives and more.
-
-Sign into [https://admin.microsoft.com/](https://admin.microsoft.com/) as a system administrator.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft 365 apps list.](./media/quickstart-o365-admin.png)
-
-Go to **Users** and create new users as needed. Some will represent back-office administrators and others will represent dispatchers or technicians.
-
-Assign each user a license or trial license that includes Dynamics 365 Field Service.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Microsoft 365 admin center showing active users.](./media/quickstart-o365-admin-users.png)
-
-Go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com/).
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Apps admin center.](./media/quickstart-o365-admin-powerapp.png)
-
-Select your environment that has Field Service installed. Select **Settings** > **Users + permissions** > **Users**.
-
-Add the users you created that have Field Service licenses or trial licenses to the environment.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center showing a list of users.](./media/quickstart-ppac-users-add.png)
-
-## 2. Assign appropriate security roles to your users 
-
-Next we need to assign each user the correct Field Service security role.
-
-Select **Manage users in Dynamics 365**.
-
-> [!NOTE]
-> Make sure you're seeing the "Enabled Users" view.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center showing the settings.](./media/quickstart-ppac-users.png)
-
-## Set up a dispatcher user
-
-Follow these steps to set up a dispatcher who schedules work orders for field technicians.
+Yes. Here's an example of copying the **Field Service - Dispatcher** role:
 
 1. Go to **Settings** > **Security** > **Security Roles** and copy the **Field Service - Dispatcher** role.
 
@@ -107,94 +133,5 @@ Follow these steps to set up a dispatcher who schedules work orders for field te
 
 3. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
 
-After assigning a user a security role, you must assign the user the corresponding field security profile.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Security profiles](media/users-2.png) 
-
-4. Open the dispatcher's user record, and then select **Field Security Profiles**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of field security profiles in Dynamics 365 dropdown](media/users-4.png) 
-
-1.  Assign the **Field Service – Dispatcher** field security role.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Security profile for dispatchers](media/users-5.png) 
-
-## Set up a technician user
-
-1. Go to **Settings** > **Security** > **Users**.
-
-2. Select a user other than your dispatcher/administrator user to be a field technician, and then assign the **Field Service – Resource** and **Field Service—App Access** security roles.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of adding secuirty roles for resources (field technicians)](media/users-6.png) 
-
-3. For the same user, select **Field Security Profiles**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of accessing field security profiles from the dynamics 365 dropdown menu](media/users-8.png) 
-
-5. Assign the field technician user the **Field Service – Resource** field security profile. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of adding the resource field security profiles to a user record](media/users-9.png) 
-
-> [!Note]
-> Field technicians aren't able to edit fields on the mobile work order form untl you complete this step.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of field security profile](media/users-10.png) 
-
-## Set up geocoding for a field technician user
-To set up geocoding to enable location awareness for scheduling and routing, define where each resource starts and/or ends the day. 
-
-1.  Go to **Settings** > **Users**, and then select the field technician's record.
-
-2.  Verify that the record includes an address. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 user record address](media/users-14.png) 
-
-If there isn't already an address for the user, navigate to the Microsoft 365 admin center and enter one. To display the address in the Dynamics 365 organization, refresh the page.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of office 365 user](media/users-15.png) 
-
-3.  To enable geocoding in the Dynamics 365 organization, go to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Resource Scheduling Administration in Dynamics 365 dropdown menu](media/users-17.png) 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of how to access scheduling parameters](media/users-18.png) 
-
-4.  To tag a latitude and longitude for the address on the user record, set **Connect to Maps** to **Yes**. The API key is filled out automatically to use Bing Maps API.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of connecting to maps and Bing Maps API in Dynamics](media/users-19.png) 
-
-5. Go to the user record, and then select **Geo Code**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geocoding user record](media/users-20.png) 
-
-6. On the **Found Places** dialog, choose the address.
-> [!div class="mx-imgBorder"]
-> ![Screenshot of system finding address](media/users-21.png) 
-
-7.  Select **Change**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of latitiude and longitude from geocoding process](media/users-22.png)
-
-8. Verify that the latitude and longitude display in the **Scheduling** section.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of latitiude and longitude being populated on user record](media/users-23.png) 
-
-> [!Note]
-> If you are having trouble populating an address or geocoding an address, manually enter a latitude and longitude into the fields.
-
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

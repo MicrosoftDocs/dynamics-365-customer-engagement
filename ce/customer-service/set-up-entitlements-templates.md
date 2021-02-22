@@ -89,3 +89,6 @@ Quickly create other entitlements prefilled with the basic information like the 
   
 ### See also  
  [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ With predictive travel enabled, resource scheduling optimization will generate a
 - Running resource scheduling optimization with predictive travel times can result in different travel times and different sequences of schedules.
 
 - Predictive travel time is not real-time traffic, so they will not reflect one-time events like traffic accidents or road closures. Instead, this feature will take into account general traffic patterns like high volumes of cars in the morning when many people are commuting to work.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

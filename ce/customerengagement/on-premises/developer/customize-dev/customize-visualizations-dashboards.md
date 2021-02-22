@@ -66,3 +66,6 @@ Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../incl
  [Extend Microsoft Dynamics 365 Customer Engagement](../extend-client.md)  
   
  [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

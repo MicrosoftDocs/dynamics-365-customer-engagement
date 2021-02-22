@@ -116,3 +116,6 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ### See also  
  [Work with templates](../../admin/work-with-templates.md)<br />
  [Send bulk email to customers](../../basics/send-bulk-email-customers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

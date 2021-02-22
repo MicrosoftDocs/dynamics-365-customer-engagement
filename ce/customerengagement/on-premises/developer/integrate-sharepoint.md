@@ -69,3 +69,6 @@ search.audienceType:
  [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md) 
   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

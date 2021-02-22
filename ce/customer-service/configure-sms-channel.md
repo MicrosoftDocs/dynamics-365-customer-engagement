@@ -133,3 +133,6 @@ When you validate the API key while setting up the SMS channel, a call is made t
 [Configure automated messages](configure-automated-message.md) <br />
 [Delete a configured channel](delete-channel.md)<br />
 [SMS FAQ](faqs.md#sms)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -175,3 +175,6 @@ The tables in the intraday insights dataset consists of entity attributes along 
 ### See also
 
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ The header settings are available at the top of the page. To edit the header set
 ## Design customization, validating, and going live
 
 You can [customize your registration form's design and check for errors](marketing-forms.md#design-and-validate-your-form-content) just as you would with any marketing form. You can even add custom fields or multi-select buttons. If no errors are returned after you validate your form, you are ready to [go live to make your form available for use](marketing-forms.md#go-live-to-make-your-marketing-form-available-for-use).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

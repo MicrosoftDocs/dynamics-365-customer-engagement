@@ -47,3 +47,6 @@ When you use an app, you'll see only those entities in the site map  and other p
 >   -   When you search using Advanced Find, it searches all entities and not just the entities added to the app.  
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

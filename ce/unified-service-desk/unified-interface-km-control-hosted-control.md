@@ -188,3 +188,6 @@ For information about other **General** fields, see [Create or edit a hosted con
 ### See also
  
  [Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

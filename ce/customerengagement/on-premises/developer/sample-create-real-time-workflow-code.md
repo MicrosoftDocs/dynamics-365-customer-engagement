@@ -45,3 +45,6 @@ Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blo
  [Sample: Set the State of a Workflow](sample-set-state-workflow.md)   
  [Workflow and Process Entities](workflow-process-entities.md)   
  [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: "Timeline Overview for Users"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/17/2020
+ms.date: 01/16/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -15,9 +15,9 @@ ms.reviewer: lalexms
 Timeline is a control that allows you to view information that is connected to an entity record and occurs over time in a single stream. Some information that can be logged into the timeline are notes and posts in addition to displaying activities such as emails, appointments, phone calls, and tasks.
 
 Timeline allows you to:
-- Access the command bar to perform common actions quickly.
-- Filter and view important notes, posts, and activities using multiple filter options.
-- View and manage email conversation threads with ease.
+- Access the command bar to perform common actions quickly
+- Filter and view important notes, posts, and activities using multiple filter options
+- View and manage email conversation threads with ease
 
 ![Timeline Browser Overview](media\timeline-browser-view.png "Timeline Browser Overview")
 
@@ -39,12 +39,12 @@ When enabled by your system administrator, you can use the icons that are displa
 When enabled by your system administrator, you can use the **Create a timeline record** feature to quickly create appointments, tasks, send emails, as well as make notes and posts and associate them with other records. 
 
 1. Select **Create a timeline record** icon.<BR><BR>
-![Create a timeline record](media\timeline-create-a-record-icon1c.png "Create a timeline record") 
+![Create a timeline record icon](media\timeline-create-a-record-icon1c.png "Use the Create a timeline record feature") 
 
 2. Select the type of record you want to create from the display options available. <BR><BR>
 ![Select type of timeline record](media\timeline-create-a-timeline-record-1f.png "Select the type of timeline record")
 
-For information on timeline record configuration, see [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types). 
+For information on timeline record configuration, [Configure activity record types](customer-service-hub-user-guide-timeline-admin.md#configure-activity-record-types). 
 
 ## Work with filters
 
@@ -53,11 +53,11 @@ When enabled by your system administrator, the timeline **Filter** further strea
 ![Timeline filter functionality](media\timeline-filter-12b.png "Timeline filter functionality")
 
 Legend:
-1. The Timeline **Filter** ![](media\timeline-filter-icon.png "Filter") icon is located in the top-right navigation on the timeline.
-2. The filter pane displays when the **Filter** icon is selected.
+1. The timeline **Filter** ![Filter](media\timeline-filter-icon.png "Filter") icon is located in the top-right navigation on the timeline.
+2. The filter pane displays when the filter icon is selected.
 3. Use the carats to expand or minimize selections.
 4. When enabled by your system administrator, record and activity types are displayed in the filter pane. Record and activity types can be filtered by selecting the corresponding box next to the item.
-5. The **Clear all filters** ![](media\timeline-clear-all-filters-icon.png "Clear all filters") icon removes and clears all filter selections from the filter pane.
+5. The ![Clear all filters](media\timeline-clear-all-filters-icon.png "Clear all filters") icon removes and clears all filter selections from the filter pane.
 
 ### Filter records on timeline <a name="filter-records"></a>
 
@@ -65,7 +65,7 @@ Filters are valuable for sorting data. You can easily filter through records and
 
 ### Filter icon display
 
-- When the **Filter** icon displays as transparent ![Clear Filter icon](media\timeline-filter-icon.png "Filter"), it means the filter pane is empty and nothing has been applied. 
+- When the **Filter** icon displays as a transparent ![Clear Filter icon](media\timeline-filter-icon.png "Filter"), it means the filter pane is empty and nothing has been applied. 
 - When the **Filter** icon displays as dark ![Dark Filter icon](media\timeline-filter-applied-1.png "Filter icon"), it means filters are applied. 
 
 ### Filter options
@@ -83,7 +83,7 @@ The following category and sub-category options are available on the filer menu:
 
 ## Work with records  
 
-When working with records, you can view key information at a glance or expand records to view more details. When you hover over a record, actions display you can use.
+When working with records, you can view key information at a glance or expand records to view more details. When you hover over a record, actions display that you can use.
 
 ### Expand all records
 
@@ -92,10 +92,10 @@ When enabled by your system administrator, you can view timeline records quickly
 ![Expand all records functionality](media\timeline-expand-all-records-1d.png "Expand all records functionality")
 
 Legend
-1. The ![](media\timeline-expand-icon.png "Expand all records") icon is used to expand all records listed on the timeline.
-2. Carats in the bottom right corner of records allow you to expand (^) or minimize (v) display views.
+1. The **Expand all records** ![Expand all records](media\timeline-expand-icon.png "Expand all records") icon is used to expand all records listed on the timeline.
+2. The carats in the bottom-right corner of records allow you to expand (^) or minimize (v) display views.
 3. Each record has a list of commands relevant to their record type that displays in the top right corner for ease of use. 
-4. Record backgrounds change to grey when you hover over it and becomes transparent again when you hover away.
+4. Record backgrounds change to grey when you hover over it, and it becomes transparent again when you move the mouse away.
 
 ## More commands
 
@@ -104,7 +104,7 @@ The **More commands** option contains refresh, sort, and email functionalities.
 ![More commands timeline functionality](media\timeline-more-commands-1.png "More commands timeline functionality")
 
 Legend
-1. The **More commands** ![](media\timeline-more-commands-icon.png "More commands") icon when expand provides additional functionality options.
+1. The **More commands** ![More commands](media\timeline-more-commands-icon.png "More commands") icon, when expanded, provides additional functionality options.
 2. The **Refresh timeline** command updates record details in the timeline.
 3. The **Sort newer to older** or **Sort older to newer** command is used to sort records.
 4. The **Always show email as conversations** or **Always show email as individual messages** command is used to enable or disables threaded email views.
@@ -117,15 +117,15 @@ Use the threaded email view option to save valuable space when you have emails w
 ![Collapsed threaded email view](media\timeline-threaded-email-views-1a.png "Collapsed threaded email view")
 
 Legend
-1. When enabled via the **Always show email as conversations** option under **More commands** ![](media\timeline-more-commands-icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
-2. The **Show more** link appears in the bottom left corner of the last visible email in the thread to view the complete string of email responses. 
+1. When enabled using the **Always show email as conversations** option under **More commands** ![More Commands](media\timeline-more-commands-icon.png "More commands icon"), emails with multiple responses are grouped together into threaded emails.
+2. The **Show more** link appears in the bottom-left corner of the last visible email in the thread to view the complete string of email responses. 
 
 **Expanded threaded email view**
 
 ![Expanded threaded email view](media\timeline-threaded-email-views-2a.png "Expanded threaded email view")
 
 Legend
-1. When expanded, the most recent 10 email responses in the thread will display.  To display more, select **Show more** to expand the view again.
+1. When expanded, the most recent 10 email responses in the thread will display. To display more, select **Show more** to expand the view again.
 2. Emails in the same thread are displayed as being linked together.
 
 ### Enable threaded email views in timeline
@@ -136,19 +136,19 @@ Threaded email views can be enabled in timeline via two options:
 
 **Option 1:**
 
-You can enable the threaded email view using the **More Commands** feature ![](media\timeline-more-commands-icon.png "More commands") located in the right nav in timeline.
+You can enable the threaded email view using the **More Commands** ![More Commands](media\timeline-more-commands-icon.png "More commands") feature, located on the right-hand side of the timeline.
 
 **Enable threaded email through the More Commands option**
 
 Steps:
-1. Use the **More commands** ![](media\timeline-more-commands-icon.png "More commands") icon on timeline which displays a flyout menu.
-2. Select **Always show email as conversations** to  thread and group all emails in that specific timeline. 
+1. Use the **More commands** ![More commands](media\timeline-more-commands-icon.png "More commands") icon on timeline which displays a flyout menu.
+2. Select **Always show email as conversations** to thread and group all emails in that specific timeline. 
 
 ![Enable threaded email view - option 1](media\timeline-threaded-email-views-4a.PNG "Enable threaded email view - option 1")
 
 **Option 2:**
 
-**Enable treaded email through Personal Options setting**
+**Enable threaded email through Personal Options setting**
 
 To enable threaded email via this option, go to the command bar and select **Settings**, then **Personalization Settings**. This will display the **Set Personal Options** dialog box so you can use  the following steps to enable threaded email view on timeline.
 
@@ -160,7 +160,7 @@ Steps:
 ![Enable threaded email view - option 2](media\timeline-threaded-email-views-3a.PNG "Enable threaded email view - option 2")
 
 > [!Note]
-> The **emails as conversation view** is based on the user's preference. Personal setting are tied to the user and not the form, which means once you enable the threaded email view, the setting is applied to all your timeline views. 
+> The **emails as conversation** view is based on the user's preference. Personal settings are tied to the user, not the form, which means when you enable the threaded email view, the setting is applied to all of your timeline views. 
 
 ## Search records on timeline
 
@@ -180,7 +180,7 @@ Notes allow you to record richly formatted information and images for reference,
 
 When enabled by your system administrator, you can either add a note or a post to a record on timeline. Each note has a maximum size limit of 100,000 characters.
 
-You can also enter a note and add it to a record, but you can only add one attachment per note. If note is not enabled by your system administrator, you cannot add an attachment.
+You can also enter a note and add it to a record, but you can only add one attachment per note. If note is not enabled by your system administrator, you can't add an attachment.
 
 **Note display view**
 
@@ -197,7 +197,7 @@ When enabled by your system administrator, the **Post** field is also displayed 
 ![Add a post to a record on timeline](media\timeline-add-a-post-to-a-record-1.png "Add a post to a record on timeline")
 
 > [!NOTE] 
-> You cannot add an attachment in a post.
+> You can't add an attachment in a post.
 
 ### Access the command bar to perform actions
 
@@ -216,16 +216,16 @@ The following is an overview of the command bar icons and the actions they suppo
 
 | Icon | Name | Description |
 |-----|------|-------------|
-| ![](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
-|  ![](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
-| ![](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
-| ![](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
-| ![](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
-| ![](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
-| ![](media\email-reply-all-icon.png "Replay all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
-| ![](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
-| ![](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
-| ![](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
+| ![Assign](media\email-assign-icon.png "Assign icon") |Assign | Lets you assign a task.|
+| ![Close activity](media\email-close-activity-icon.png "Close activity icon")|Close Activity| Lets you close the activity record.|
+| ![Add to queue](media\email-add-to-queue-icon.png "Add to queue icon") |Add to Queue| Lets you add a task to a queue.|
+| ![Open Record](media\email-open-record-icon.png "Open record icon")|Open Record| Lets you open a record.|
+| ![Delete](media\email-delete-icon.png "Delete icon")|Delete| Lets you delete the record.|
+| ![Reply](media\email-reply-icon.png "Reply icon")|Reply| Lets you reply to an email. **Note**: This command is only available for Email.|
+| ![Reply all](media\email-reply-all-icon.png "Reply all icon")|Reply All| Lets you reply to all for an email. **Note**: This command is only available on Email.|
+| ![Forward](media\email-forward-icon.png "Forward icon ")|Forward|Lets you forward an email. **Note**: This command is only available on Email.|
+| ![Like a post](media\email-like-a-post-icon.png "Like a post icon")|Like this post| Lets you like a post. **Note**: This command is only available on Posts.|
+| ![Edit](media\email-edit-icon.png "Edit icon")|Edit this note|Lets you edit a note. **Note**: This command is only available on Notes.|
 
 The following is an overview of the default command bars for frequently used activities, notes, and posts: 
 
@@ -268,7 +268,7 @@ When enabled by your system administrator, you can add an attachment, such as a 
 > [!NOTE]
 > The list of allowed attachments is configured by your system administrator.
 
-Select the paperclip ![](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
+Select the paperclip ![paperclip](media\timelilne-paperclip-icon.png "paperclip icon") icon to attach a file to a note. 
 
 ![Attachment icon](media\timeline-add-a-note-to-a-record.png "Attachment icon")
 
@@ -344,7 +344,7 @@ Legend
 
 ### Add references in a post in timeline records
 
-To add a reference such as links in a post to a timeline record, select the **Create a timeline record** ![](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
+To add a reference such as links in a post to a timeline record, select the ![**Create a timeline record**](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
 
 ![Add a link](media\timeline-add-link-12a.png "Add a link")
 
@@ -372,3 +372,6 @@ For more information on notes and post functionality and configuration, see:
 
 [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md)  
 [Timeline FAQs](timeline-faqs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

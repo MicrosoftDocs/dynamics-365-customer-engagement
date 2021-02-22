@@ -144,3 +144,6 @@ Time entries are not created in offline mode, but are created upon sync.
 - [Booking timestamps](booking-timestamps.md)
 
 - [Time off requests](submit-approve-time-off-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

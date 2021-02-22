@@ -10,6 +10,15 @@ ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-bulkoperation
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Create a marketing list using in-app marketing (Sales Professional)
@@ -140,3 +149,6 @@ In any marketing list record, select the **Members** tab, and on the command bar
   
 ### See also  
  [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

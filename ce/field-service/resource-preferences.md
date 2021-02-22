@@ -125,3 +125,6 @@ In the schedule assistant grid view, the available time slots for only the "must
 
 ## Additional notes
 - The resource that is added as a preferred resource (including the "Must choose from" preference type) must meet the other conditions of the requirement. For example, if a requirement calls for "Skill A," and a resource without Skill A is added as a preferred or "Must choose from" resource preference, the resource will *not* show in results or be automatically scheduled.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

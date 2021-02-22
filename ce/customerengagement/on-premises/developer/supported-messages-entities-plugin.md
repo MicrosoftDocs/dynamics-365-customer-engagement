@@ -101,3 +101,5 @@ For Outlook client offline plug-ins:
 [Write plug-ins to extend business processes](write-plugin-extend-business-processes.md)<br/>
 [Available events](/powerapps/developer/common-data-service/event-framework#available-events)<br/>
 [Plug-in Development](plugin-development.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

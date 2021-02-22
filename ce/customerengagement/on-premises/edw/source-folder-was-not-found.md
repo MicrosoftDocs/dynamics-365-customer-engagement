@@ -32,3 +32,6 @@ ms.author: matp
   
  Verify that the source folder is correct and that you have sufficient permissions to access it, and then run Setup again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

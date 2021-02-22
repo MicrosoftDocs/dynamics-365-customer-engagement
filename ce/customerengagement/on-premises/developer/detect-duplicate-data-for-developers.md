@@ -79,3 +79,6 @@ For more information: [DuplicateRecord Entity](/powerapps/developer/common-data-
 [Sample: Invoke Duplicate Detection For Creating and Updating Records](https://docs.microsoft.com/powerapps/developer/common-data-service/run-duplicate-detection)<br />
 [Sample: Detect Multiple Duplicate Records](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetectMultipleDuplicateRecords)<br />
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

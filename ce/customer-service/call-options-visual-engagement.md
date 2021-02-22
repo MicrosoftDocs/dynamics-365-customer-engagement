@@ -32,14 +32,14 @@ With calling options in live chat, you can:
 
 Make sure that the following prerequisites are met:
 
-- **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [system requirements](system-requirements-omnichannel.md).
+- **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat).
 - **Internet bandwidth:**
   - **Minimum:** 500 KBps upload speed; 1 MBps download speed
   - **Recommended:** 1 MBps  upload speed; 2 MBps download speed
 
 ### Initiate voice and video call
 
-When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select the ellipsis button ![Ellipsis](media/ellipsis.png "Ellipsis"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
+When you're chatting with the customer, you can initiate a voice or video call. In the communication panel, beside the **End** button, select More commands ![More commands](media/ellipsis.png "More commands"). The **Voice Call** and **Video Call** options are displayed. (Depending on your system configuration, you might see **Voice Call** and **Video Call**, or just **Voice call**.)
 
 > [!div class=mx-imgBorder]
 > ![Voice and video call](media/chat-voice-video-call.png "Voice and video call")
@@ -138,3 +138,6 @@ The customer experience will vary depending upon the co-browse or screen share p
 ## See also
 
 [Add a chat widget](add-chat-widget.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

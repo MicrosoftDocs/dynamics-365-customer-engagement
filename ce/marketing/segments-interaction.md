@@ -64,3 +64,5 @@ Often, you'll want to find interactions associated with a specific form, custome
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Generate dynamic segments from customer journey results](generate-segment-from-journey.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

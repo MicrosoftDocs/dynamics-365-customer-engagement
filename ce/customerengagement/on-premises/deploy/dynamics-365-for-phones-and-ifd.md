@@ -27,3 +27,6 @@ By default, Windows Integrated Authentication (WIA) is enabled in [!INCLUDE[pn_a
  [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)   
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

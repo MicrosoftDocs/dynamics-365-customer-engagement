@@ -99,3 +99,6 @@ When travel outside working hours is configured, the end time of the booking wil
 When the **Schedule within working hours** constraint is part of the goal, the end time will be within working hours _and_ travel time from the last booking to the resource's ending location will be within working hours.
 
 When the **Schedule within working hours** constraint is *not* part of the goal, the end time of the booking may be near or even slightly after working hours.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

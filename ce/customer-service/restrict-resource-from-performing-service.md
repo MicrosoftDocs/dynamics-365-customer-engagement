@@ -70,3 +70,6 @@ You can restrict a resource from performing a service and define the service cap
 [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

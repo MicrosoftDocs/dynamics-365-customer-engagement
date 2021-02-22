@@ -326,3 +326,6 @@ For more information about resource scheduling optimization, how it works, and h
 - [Scheduling optimization in resource scheduling optimization](rso-schedule-optimization.md)
 - [Resource scheduling optimization frequently asked questions](rso-faq.md)
 - [Resource scheduling optimization quickstart](rso-quickstart.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

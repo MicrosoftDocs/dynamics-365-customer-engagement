@@ -98,3 +98,6 @@ string UserDefinedCommand(string command, string request);
  [Create a CTI Connector](../unified-service-desk/create-cti-connector.md)   
  [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

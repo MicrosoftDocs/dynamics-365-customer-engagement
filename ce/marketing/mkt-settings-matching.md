@@ -43,10 +43,12 @@ The list under the **Attributes** heading specifies which contact or lead attrib
 Use the buttons in the toolbar for the **Attributes** section to add, edit, and remove attribute in the list.
 
 > [!NOTE]
-> For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the default configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). However, the page ID is only provided by marketing pages hosted on a [Dynamics 365 Portal](portal-optional.md); for captured forms and forms embedded on an [external site](embed-forms.md), no page ID is saved, so all external forms will look like the same form when it comes to lead matching.
+> For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the default configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). However, the page ID is only provided by marketing pages hosted on a [Power Apps portal](portal-optional.md); for captured forms and forms embedded on an [external site](embed-forms.md), no page ID is saved, so all external forms will look like the same form when it comes to lead matching.
 
 ### See also
 
 [Open the advanced settings](open-advanced-settings.md)  
 [Configure landing pages](mkt-settings-landing-pages.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

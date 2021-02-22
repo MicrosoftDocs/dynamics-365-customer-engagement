@@ -114,3 +114,6 @@ For frequently used pages, pin the app so that it will stay loaded even when you
 
 ## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
 This feature is no longer available for configuration.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

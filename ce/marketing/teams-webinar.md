@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 12/09/2020
+ms.date: 01/21/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -111,6 +111,9 @@ After creating the event, going live with it, and gathering registrations, you s
 
 The **Teams check-in** button generates a unique attendee URL for each registrant. When the registrant selects the button, Marketing will create a relevant check-in record for them, giving insights about the attendance of the live event in Marketing.
 
+> [!IMPORTANT]
+> Because the **Teams check-in** button generates a unique URL for each registrant, anyone who selects the **Teams check-in** button from a forwarded email will not be able to check in to the event.
+
 **To create a Teams check-in button**:
 
 1. Create [a new email](email-design.md) in the email editor.
@@ -142,3 +145,6 @@ Once the live event is over, the attendees can view the recording of the event b
 
 [Event management settings](events-settings.md)  
 [Set up a webinar](set-up-webinar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

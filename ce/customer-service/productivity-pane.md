@@ -36,3 +36,5 @@ You can set the productivity pane in collapsed mode or expanded mode, as shown i
 ### See also
 
 [App profile manager](../app-profile-manager/overview.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 ## See also
 
 [Configure a Facebook channel](configure-facebook-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

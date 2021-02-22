@@ -399,3 +399,6 @@ You may use sample code to interact with third-party services whose privacy and 
 [Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)
 
 [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -244,3 +244,6 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 > [Step 3: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

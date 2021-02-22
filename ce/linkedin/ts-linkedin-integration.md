@@ -2,11 +2,10 @@
 title: "Troubleshooting LinkedIn integration errors (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with LinkedIn integrations in Dynamics 365 Sales."
 ms.date: 05/26/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: sbmjais
-ms.author: shjais
+author: udaykirang
+ms.author: udag
 manager: shujoshi
 ---
 
@@ -55,11 +54,11 @@ To resolve this issue, you must remove the existing dependencies for the **Linke
 
 3. After the solutions are successfully deleted, install them again. More information: [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)
 
-## LinkedIn Sales Navigator display widgets are not loading properly on different web browsers.
+## LinkedIn Sales Navigator display widgets are not loading properly on different web browsers
 
 **Reason**
 
-When I try to log in to LinkedIn Sales Navigator, errors are displayed. These errors occur due to the enablement of track protection in the browser. The following are the errors:
+When I try to sign in to LinkedIn Sales Navigator, errors are displayed. These errors occur due to the enablement of track protection in the browser. The following are the errors:
 
 - Display widgets are showing the error&mdash;*LinkedIn Sales Navigator subscription not found. You need a LinkedIn Sales Navigator Team contract in order to gain access*.   
     > [!div class="mx-imgBorder"]  
@@ -73,7 +72,7 @@ When I try to log in to LinkedIn Sales Navigator, errors are displayed. These er
 
 **Resolution**
 
-To resolve this issue, you must disable the track protection in the browser ([Microsoft Edge](#microsoft-edge), [Mozilla FireFox](#mozilla-firefox), and [Google Chrome](#google-chrome)). 
+To resolve this issue, you must disable the track protection in the browser ([Microsoft Edge](#microsoft-edge), [Mozilla FireFox](#mozilla-firefox), [Google Chrome](#google-chrome), and [Apple Safari](#apple-safari)). 
 
 Microsoft Edge:<a name='microsoft-edge'></a>    
 1. Open the Microsoft Edge browser.   
@@ -97,6 +96,37 @@ While browsing the org in Incognito/Private mode, disable the **Block third-part
 > [!div class="mx-imgBorder"]  
 > ![Configure track prevention section in chrome](media/chrome-select-browser-settings.png "Configure track prevention section in chrome")
 
+Apple Safari:<a name='apple-safari'></a>
+1. Open the Apple Safari browse and open your organization.
+2. Go to **Preferences** and configure the following options:
+    - LinkedIn and your Dynamics 365 organization is not present in the block list of **Content Blockers**.    
+    - Your Dynamics 365 organization allows pop-up windows.     
+    - In **Privacy** tab, the **Prevent cross-site tracking** and **Block all Cookies** options are not selected. 
+
+## Unable to view photos on custom contact and lead forms in Unified Interface   
+**Reason**    
+By default, the photos from LinkedIn are displayed on the out-of-the-box Contact and Lead forms. For custom forms, you can't have the photos displayed by default. 
+
+**Resolution**   
+To resolve this issue, add the **msdyn_linkedinintegrationcommon.js** library and the **LinkedInIntegration.LinkedInIntegrationCommon.Instance.Form_OnLoad** function handler to your custom forms. Follow these steps:    
+1. Sign in to your Dynamics 365 app.     
+2. Go to **Advanced Settings** > **Customizations** > **Customize the System**.      
+3. From the **Entities** site map, select the entity and then custom form for which you want to display the photo.   
+    >[!NOTE]
+    >In this procedure, we are using contact custom form.   
+4. Select the **Form Properties** option.    
+    The **Form Properties** dialog opens.   
+    > [!div class="mx-imgBorder"]  
+    > ![Form properties dialog box](media/ts-linkedin-contact-form-properties.png "Form properties dialog box")    
+5. In the **Form Libraries** section, search and add the **msdyn_linkedinintegrationcommon.js** library to the form.   
+6. In the **Event Handlers** section, search and add the **LinkedInIntegration.LinkedInIntegrationCommon.Instance.Form_OnLoad** function to the form.       
+    > [!div class="mx-imgBorder"]  
+    > ![LinkedIn library and function added to the form](media/ts-linkedin-contact-form-properties-added.png "LinkedIn library and function added to the form")    
+7. Save and publish the form.    
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](../sales-enterprise/troubleshooting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

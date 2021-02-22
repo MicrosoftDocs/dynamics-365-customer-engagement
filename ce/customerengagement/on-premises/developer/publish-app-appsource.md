@@ -31,3 +31,6 @@ Instructions about publishing your apps is available in the Power Apps documenta
 ### See also
 [What is Power Apps?](/powerapps/powerapps-overview)<br/>
 [Create apps in Power Apps](/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

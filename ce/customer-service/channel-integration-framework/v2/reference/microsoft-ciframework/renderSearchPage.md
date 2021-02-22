@@ -1,8 +1,8 @@
 ---
 title: "renderSearchPage (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0| MicrosoftDocs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[renderSearchPage-description](includes/renderSearchPage-description.md)] 
 
 [!INCLUDE[token-renderSearchPage](../../../shared/token-renderSearchPage.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

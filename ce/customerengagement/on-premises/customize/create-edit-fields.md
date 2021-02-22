@@ -125,3 +125,6 @@ With Dynamics 365 Customer Engagement (on-premises), fields define the individua
  [Define calculated fields](../customize/define-calculated-fields.md)   
 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
