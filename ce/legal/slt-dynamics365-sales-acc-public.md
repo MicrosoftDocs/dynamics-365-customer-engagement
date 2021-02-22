@@ -1123,4 +1123,3 @@ against accidental loss, destruction, or alteration; unauthorized disclosure or
 access; or unlawful destruction.
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

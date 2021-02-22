@@ -166,4 +166,3 @@ you because your state, province, or country may not allow the exclusion or
 limitation of incidental, consequential, or other damages.**
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

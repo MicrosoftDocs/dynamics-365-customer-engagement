@@ -95,4 +95,3 @@ are not subject any exclusion or cap on your liability that may be included in
 the Agreement.
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
