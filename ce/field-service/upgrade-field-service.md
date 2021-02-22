@@ -102,7 +102,7 @@ There are 2 steps to upgrade the Field Service (Dynamics 365) mobile app.
 
 **Step 1.** Upgrade Field Service (as described in the section above). Upgrading Field Service will also upgrade the "Field Service Mobile" model driven app. As an example, upgrading to [Field Service v8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) includes an update to Field Service and the Field Service mobile app.
 
-**Step 2.** After Field Service is upgraded, you ust upgrade the mobile app on your mobile phone or tablet. You can do this the same way you upgrade any app on your phone or tablet,typically either manually or with automatic updates.
+**Step 2.** After Field Service is upgraded, you must upgrade the mobile app on your mobile phone or tablet. You can do this the same way you upgrade any app on your phone or tablet, either manually or with automatic updates.
 
 ### Best practices
 - Turn on automatic app updates on your device. See the topic on [iOS: automatic app updates iOS](https://support.apple.com/en-gb/HT202180#automatic) or [Android: automatic app updates](https://support.google.com/googleplay/answer/113412?hl=en). 
