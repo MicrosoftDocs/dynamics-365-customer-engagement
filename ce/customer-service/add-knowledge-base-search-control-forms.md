@@ -200,9 +200,8 @@ You can add a customized knowledge article subgrid to a form. To learn more abou
 
 7. Retain the default values for all the other fields, and then select **OK**.
 
-[!div class="mx-imgBorder"]
-
-   ![Set properties for subgrid](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
+> [!div class="mx-imgBorder"]
+> ![Set properties for subgrid](media/set-properties-for-subgrid.png "Enter the properties for the knowledge article subgrid")
 
 8. Save your knowledge subgrid, and then select **Publish**.
 

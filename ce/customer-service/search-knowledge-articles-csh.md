@@ -146,7 +146,7 @@ To link the knowledge article to an entity, you need to do the following steps. 
 4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
 
    > [!div class=mx-imgBorder]
-   > ![Add an existing knowledge article](media/add-existing-knowledge-article.PNG "Add an existing knowledge article")
+   > ![Add an existing knowledge article](media/add-existing-knowledge-article.png "Add an existing knowledge article")
 
 5. Search for the knowledge article that you want to link, and select **Link.**
 
