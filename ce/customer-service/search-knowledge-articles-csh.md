@@ -113,7 +113,7 @@ In the knowledge base search control, you can do the following:
 Type a keyword in the search box to search for knowledge articles.
 
   > [!div class=mx-imgBorder]
-  > ![Search for knowledge articles](media/search-kb-article.PNG "Search for knowledge articles using keywords")
+  > ![Search for knowledge articles](media/search-kb-article.png "Search for knowledge articles using keywords")
 
 - If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
