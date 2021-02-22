@@ -27,4 +27,3 @@ This supplement is also not subject to any references or statements made on the
 Microsoft Trust Center.
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

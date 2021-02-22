@@ -210,4 +210,3 @@ period of 7 consecutive days.
 [Back to Top](#top)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

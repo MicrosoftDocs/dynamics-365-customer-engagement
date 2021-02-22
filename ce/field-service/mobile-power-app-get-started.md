@@ -3,7 +3,7 @@ title: "Install and set up the Field Service (Dynamics 365) mobile app | Microso
 description: Learn how to install and set up the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 02/18/2021
 ms.reviewer: krbjoran
 ms.topic: troubleshooting
 ms.service: dynamics-365-customerservice
@@ -53,17 +53,20 @@ After installing or upgrading to **Field Service v8.8.22+**, the "Field Service"
 
 ## Assign mobile app users appropriate security roles
 
-- Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
-
-## Assign security roles to the Field Service Mobile app
 
 - Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
+
+## Assign security roles to the Field Service Mobile app
+
+- Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
+
+
 
 ## Download app and sign in
 
