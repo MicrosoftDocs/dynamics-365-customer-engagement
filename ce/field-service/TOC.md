@@ -47,6 +47,7 @@
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
+## [Send technician arrival time and current map location](reminders-arrival-time.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 ## [Time entry](field-service-time-entry.md)
