@@ -127,7 +127,7 @@
 #### Enable default reporting
 ##### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
 
-### Sales premium
+### Sales premium 
 
 #### [Manage sample data](manage-sample-data.md)
 
@@ -186,7 +186,6 @@
 ## Seller guide
 
 ### [Help resources for sellers](../sales-enterprise/user-guide.md)
-
 ### Use dashboard
 #### [Gain insights with dashboards](../sales-enterprise/dashboards.md)
 #### [Understand the sales pipeline chart and its phases](../sales-enterprise/sales-pipeline-chart.md)
@@ -384,7 +383,6 @@
 #### [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
 #### [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)
 
-
 ### Custom actions
 #### [Overview](../sales-enterprise/developer/reference/custom-actions-manual-forecasting.md)
 #### [DeleteOQOILineWithSkipPricingCalculation](../sales-enterprise/developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md)
@@ -455,7 +453,6 @@
 
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
-
 
 ## General Data Protection Regulation (GDPR)
 ### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
