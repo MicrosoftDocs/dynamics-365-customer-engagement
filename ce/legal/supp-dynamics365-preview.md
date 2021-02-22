@@ -14,4 +14,3 @@ PREVIEWS, AND ANY TYPE OF CUSTOMER SUPPORT FOR PREVIEWS (IF PROVIDED), ARE PROVI
 Previews are subject to reduced or different security, compliance and privacy commitments. Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of “live” or production data is at your sole risk. Previews are not subject to any statements made on the Microsoft Trust Center. Customer Data provided to Microsoft through your use of Previews may be transferred, stored, and processed in the United States, or in any other country where Microsoft or its subcontractors operate.
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
