@@ -184,12 +184,12 @@ To create a profile follow the steps below.
 
 ### Step 2.1: Add users to a mobile offline profile 
 
-Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. 
+Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. From March 2021 it will be possible to also add teams to a profile. 
 
-A user can only be added to one offline profile at a time. Each time a user is added to an offline profile the profile will need to be published again as described in **Step 2.2**.
+A user and a team can only be added to one offline profile at a time. Each time an individual user or team is added to an offline profile the profile will need to be published again as described in **Step 2.2**. It is not required to re-publish the mobile profile after users have been added as member to a team. 
 
 > [!NOTE]
-> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
+> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. If teams are used in profiles the security roles for team members must also have Read permsissions on the UserMobileOfflineProfileMembership and TeamMobileOfflineProfileMembership.
 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
@@ -199,9 +199,11 @@ A user can only be added to one offline profile at a time. Each time a user is a
     > [!div class="mx-imgBorder"]
     >![Add a user](media/mol_add_people.png "Add a user")
   
-3.  Choose the people that you want to add to the mobile offline profile.  
+3.  Choose the user or team that you want to add to the mobile offline profile.  
   
 4.  When you’re done adding people, select **Save**.
+
+The actual users added based on teams are displayed under each team. Individually  added users are displayed under Individual users.  A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might be disrupt the users experience  if the other profile is in a published state. 
 
 ### Step 2.2: Publish a mobile offline profile
 
@@ -210,7 +212,7 @@ The profile that was set up in the previous step is still in draft mode, until i
 When you publish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
 
 > [!NOTE]
-> Remember each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
+> Remember each time an indivudual user or team is added to the mobile offline profile, mobile offline profile needs to be published again. It is not required to re-publish the mobile profile after users have been added as member to a team. 
 
 Following these steps to publish the profile:
   
