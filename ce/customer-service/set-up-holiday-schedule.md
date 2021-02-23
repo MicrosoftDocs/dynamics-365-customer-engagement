@@ -1,6 +1,6 @@
 ---
-title: Set up a holiday schedule (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Understand how to set up a holiday schedule in Dynamics 365 Customer Service
+title: "Set up a holiday schedule (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Learn how to set up a holiday schedule in Dynamics 365 Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -28,7 +28,7 @@ For example, if your service organization has an SLA to reply to email cases wit
 > With the latest release of Dynamics 365 Customer Service app, holiday schedule in service management is available in the Customer Service Hub. We recommend that you create and manage holiday schedules using the new experience.
  
 ## Create a holiday schedule  (Customer Service Hub)
-Follow these steps to create a new holiday schedule:
+Follow these steps to create a holiday schedule:
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -42,7 +42,7 @@ Follow these steps to create a new holiday schedule:
   
 7. In the **Add a Holiday** dialog box, specify the **Name**, **Start Date**, **End Date**, and **Duration** of the holiday, and then select **OK**.  
   
-   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated with an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
+   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated with an SLA, then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
 
    ![Holiday schedule in Customer Service Hub](media/holiday-schedule-csh.png "Holiday schedule in Customer Service Hub")
  
@@ -59,7 +59,7 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
   
 3. Select **Holiday Schedule**.  
   
-4. Select **+** **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then select **Create**.  
+4. Select **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then select **Create**.  
   
 5. In the list of holidays, select the holiday you created.  
   
