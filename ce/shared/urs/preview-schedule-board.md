@@ -128,7 +128,32 @@ Selecting **Book resources** will find the most optimal resources and book them 
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
-## Optimization goals
+## Move bookings to a new resource, a new start date and time, or both
+
+With Field Service v8.8.39+, the new schedule board provides an easy way to reassign and reschedule bookings in the same action. Bookings can be moved to resources on the current schedule board tab or to resources on other schedule board tabs.
+
+
+### Move a booking to a resource on the current schedule board tab, or change the start date/time, or both
+
+Right click on a booking and select **Move to**.
+
+Then reassign this booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. 
+
+Click the **Update** button to apply the changes.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Move to](./Images/moveto-popup.png)
+
+### Move a booking to a resource on a different schedule board tab, or change the start date or time, or both
+
+Right click on a booking and select **Move to**. Click the filter icon in the Resource field and change the filter from **Resources on this tab** to **All resources**.
+
+Now you can reassign this booking to any resource on any tab, and change the start date and start time of the booking. Click the **Update** button to apply the changes.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Move to with Resource filter expanded](./Images/moveto-popup-filterexpanded.png)
+
+## Automatic scheduling with optimization goals
 
 The schedule board supports optimization goals. After selecting suggested resources, dispatchers can edit the optimization goal, which dictates how resources are recommended. 
 
@@ -161,6 +186,7 @@ Use the following feature comparison table to understand which version of the sc
 | Manual scheduling     | Dispatcher | Yes   | Yes   | Dispatcher can manually select a resource and create a booking for an unscheduled requirement by interactions like dragging and dropping the requirements, selecting an open timeslot, and using booking panel.    |
 | Assisted scheduling           | Dispatcher | For existing resource scheduling optimization customers, it is available in 2020 release wave 2. For other customers, it will be available in 2021 release wave 1 | Yes         | Dispatcher can select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Dispatcher can choose a timeslot and create a booking.       |
 | Automated scheduling          | Dispatcher | For existing resource scheduling optimization customers, it is available in 2020 release wave 2. For other customers, it will be available in 2021 release wave 1 | No                 | The default capabilities of resource scheduling optimizer functionality are made available in the schedule board, enabling dispatchers to manage schedules from a requirement's or resources point of view with the organization's business goals applied automatically by the optimizer.                    |
+| Auto update travel time    | Dispatcher | Yes                  | Yes                |  When a booking is manually scheduled via drag and drop, the travel time from the resource's previous location is automatically calculated and displayed in the front of the booking. [See more details](https://docs.microsoft.com/dynamics365/field-service/schedule-with-travel-time#add-travel-time-with-manual-scheduling).         |
 | View modes - Hourly, daily    | Dispatcher | Yes                               | Yes                | Show the resources and their bookings on the hourly and daily views of the schedule board.          |
 | View modes - Weekly, monthly  | Dispatcher | Yes    | Yes        | Show the resources and their bookings on the weekly and monthly views of the schedule board.      |
 | View types - List view        | Dispatcher | Yes        | Yes                | List view is a simple view, in which bookings of the resources are shown as a simple list. This list view provides accessible view to the Users to browse and create Bookings                                               |
