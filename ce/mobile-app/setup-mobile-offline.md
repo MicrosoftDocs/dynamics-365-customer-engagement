@@ -189,7 +189,7 @@ Once you have created a mobile offline profile, you can start adding users to th
 A user and a team can only be added to one offline profile at a time. Each time an individual user or team is added to an offline profile the profile will need to be published again as described in **Step 2.2**. It is not required to re-publish the mobile profile after users have been added as members to a team. 
 
 > [!NOTE]
-> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. If teams are used in profiles the security role for team members must also have Read permsissions on the UserMobileOfflineProfileMembership and the TeamMobileOfflineProfileMembership.
+> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
