@@ -4,11 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-<<<<<<< HEAD
-ms.date: 12/29/2020
-=======
 ms.date: 02/08/2021
->>>>>>> cf521d43c68f9ecbabc23b678fabdf90a0c0a178
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
