@@ -23,7 +23,7 @@ search.app:
 ---
 # Install and set up Microsoft Teams integration 
 
-By default, the Basic and Enhanced Microsoft Teams Integration is disabled for customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams](teams-basic-vs-enhanced-collaboration.md).
+By default, the Basic and Enhanced Microsoft Teams Integration is disabled for customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). To turn on these features, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams](teams-basic-vs-enhanced-collaboration.md).
 
    > [!div class="mx-imgBorder"] 
    > ![Settings page](media/teams-system-settings.png "Settings page")
@@ -41,13 +41,13 @@ Microsoft Teams integration uses SharePoint integration at the backend. Make sur
 
 - If SharePoint Integration is not configured, there should not be any active SharePoint site in your organization. Deactivated SharePoint sites should not cause a problem. If this is not met, you will get error code 800503ca when you try to enable Teams Integration with customer engagement apps in Dynamics 365. 
 
-- If SharePoint Integration is not configured, there should not be any SharePoint document locations created with an absolute URL in your organization. The locations with absolute URL must be deleted. If this is not met, you will get error code 800503ca whne you try to enable Teams Integration with customer engagement apps in Dynamics 365
+- If SharePoint Integration is not configured, there should not be any SharePoint document locations created with an absolute URL in your organization. The locations with absolute URL must be deleted. If this is not met, you will get error code 800503ca when you try to enable Teams Integration with customer engagement apps in Dynamics 365
 
 - If you are currently configured to use SharePoint on-premises for document management, you need to set up document management for a customer engagement app to use SharePoint Online. For more information, see [Set up apps in Dynamics 365 to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on a customer engagement app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
 
-If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the above prerequisites are not met. For more infomation, see [Troubleshoot Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the above prerequisites are not met. For more information, see [Troubleshoot Microsoft Teams integration](https://docs.microsoft.com/dynamics365/teams-integration/teams-troubleshoot#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
 ## For admins: enable Microsoft Teams integration feature 
 
@@ -83,15 +83,15 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
     > [!div class="mx-imgBorder"] 
     > ![Finish setup](media/finish-setup.png "Finish setup")
    
-### FAQs for admins
+### FAQs for adminss
 
-1. Does the tenant admin need to do anytong to set up Microsoft Teams Integration?
+1. Does the tenant admin need to do anthing to set up Microsoft Teams Integration?
 The tenant admin must provide consent for the enterprise application to be created in Azure AD and add delegate permissions for Teams. This happens automatically when the Enhanced Collaboration Experience is enabled in the system settings of your customer engagement app.
 
 2. The documentation refers to **Microsoft 365 tenant admin permissions**, what does this mean?
    This means the directory admin or a tenant admin.
    
-3. Is the activation for Dynamics 365 for all enviroments or per environment?
+3. Is the activation for Dynamics 365 for all environments or per environment?
 Consent is given at tenant level. This applies to all Dynamics 365 Instance within a tenant.
 
 4. What active directory privileges are given to the customer engagement apps?
@@ -99,8 +99,8 @@ Consent is given at tenant level. This applies to all Dynamics 365 Instance with
   - Delegated permissions: Group.ReadWrite.All and User.Read.All
   - Dynamics 365 Microsoft Teams Collaboration Integration (Enterprise application), permissions: Group.ReadWrite.All and User.Read.All
 
-5. Is it enough to have only Microsoft Teams admin privileges to activate this Micrsoft Teams Integration? 
-Enabling Micrsoft Teams Integration has nothing to with Teams admin privileges. You need to have tenant admin permission to enable Micrsoft Teams Integration 
+5. Is it enough to have only Microsoft Teams admin privileges to activate this Microsoft Teams Integration? 
+Enabling Microsoft Teams Integration has nothing to with Teams admin privileges. You need to have tenant admin permission to enable Microsoft Teams Integration 
 
 6. Which Service Principle (App ID?) will receive this permissions?
 The App used in for this integration, which is customer engagement app and Microsoft Teams Integration.
