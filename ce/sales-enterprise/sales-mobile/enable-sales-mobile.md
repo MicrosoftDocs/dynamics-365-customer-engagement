@@ -1,7 +1,7 @@
 ---
 title: Enable the Dynamics 365 Sales mobile app
 description: Instructions to enable the Dynamics 365 Sales mobile app
-ms.date: 01/06/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -26,6 +26,8 @@ Before field sellers can use the Dynamics 365 Sales mobile app, you must enable 
 >       -	Read permission for [Organization Entity](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/organization).
 >       -	Read permission for [Mailbox Entity](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/mailbox?view=dynamics-ce-odata-9).
 >       -	[**Dynamics 365 for mobile**](../../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#required-privileges) privilege.
+>- If the Dynamics 365 Sales mobile app is launcehd by a user having mobile offline profile defined, the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for phones).
+>- If the Dynamics 365 Sales mobile app is launcehd on a tablet device, the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for tablets).
 
 **To enable the Dynamics 365 Sales mobile app**
 
