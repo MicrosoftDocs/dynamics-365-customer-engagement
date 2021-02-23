@@ -19,7 +19,7 @@ The Omnichannel intraday insights dashboard provides information about the healt
 - [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
-The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and refreshes every 15 minutes.
+The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and refreshes every 15 minutes. The report is real time and fetches the latest data. If the report is kept open in a pre-configured Power BI workspace, then the report automatically refreshes after 15 minutes, and after every 5 minutes in a customer configured workspace.
 
 
 > [!IMPORTANT]
@@ -93,7 +93,7 @@ The **Agents insights** dashboard displays the following KPIs.
 | Waiting | The number of conversations that are yet to be assigned to agents. |
 | Closed | The number of conversations that have been closed by the agents. |
 
-You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents, and if needed, modify their presence. You can also hover over an agent’s name and a pop-up dialog will display, showing details such as the agent’s presence, their current conversations, and the sentiments of those conversations.
+You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can click on the **Status** field and modify an agent's presence. You can also hover over an agent’s name and a pop-up dialog will display, showing details such as the agent’s presence, their current conversations, and the sentiments of those conversations.
 
 The following screen shows the options for viewing agent information in a specific set of queues.
 
