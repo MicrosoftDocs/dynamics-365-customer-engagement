@@ -404,3 +404,6 @@ You should now see the device on the customer asset, under **Connected Devices**
 
 - [Overview of Connected Field Service with IoT Central](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

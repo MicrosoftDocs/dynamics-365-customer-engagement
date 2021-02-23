@@ -1,6 +1,6 @@
 ---
 title: "Manage applications in Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app"
+description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -64,3 +64,6 @@ The title of the application tab is the name of the entity. For example, dashboa
 [Manage sessions](oc-manage-sessions.md)  
 [Understand conversation states](oc-conversation-state.md)  
 [View communication panel](oc-conversation-control.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

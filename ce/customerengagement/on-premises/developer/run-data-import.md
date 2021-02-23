@@ -93,3 +93,6 @@ Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-micro
  [Configure Data Import](configure-data-import.md)   
  [Blog Post: How to Import attachments programmatically](https://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Data Import Entities](data-import-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

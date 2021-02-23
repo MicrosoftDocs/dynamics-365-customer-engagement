@@ -148,3 +148,6 @@ search.audienceType:
  <!--[Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />-->
  [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)<br />
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

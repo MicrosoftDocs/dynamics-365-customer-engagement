@@ -49,3 +49,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Demonstrate
 
 The `QueryExpression` retrieves all the attachments.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

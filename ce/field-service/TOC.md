@@ -10,14 +10,13 @@
 ## [Preview new features](field-service-preview.md)
 
 # Administration
-## [Work order process architecture](field-service-architecture.md)
-## [Sample data installation](install-sample-data-8-x.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
 ## [Territories](set-up-territories.md)
+## [Sample data installation](install-sample-data-8-x.md)
 ## [Field Service settings](configure-default-settings.md)
 
 
@@ -27,6 +26,7 @@
 
 
 # Work orders
+## [Work order process architecture](field-service-architecture.md)
 ## [Create a new work order](create-work-order.md)
 ## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Add account details to a work order](work-order-customer-account.md)
@@ -34,12 +34,14 @@
 ## [Price list](create-price-list.md)
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
+## [Knowledge articles](field-service-knowledge-management.md)
 ## [Work order summary reports](reports.md)
 ## Inspections
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
+## [Capture resolution details](work-order-resolutions.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Bookable resources
@@ -89,22 +91,23 @@
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 ### [Next-generation schedule board experience](preview-schedule-board.md)
 
-# Mobile apps
+# Mobile app
 ## [Implement and adopt the mobile app](mobile-2020-power-platform.md)
-## Dynamics 365 Field Service mobile app (Microsoft Power Platform)
-### [Overview](mobile-power-app-overview.md)
-### [System requirements](mobile-power-app-system-requirements.md)
-### [Install and setup](mobile-power-app-get-started.md)
-### [Use the mobile app](mobile-power-app-use.md)
-### [Edit sitemap, forms, and views](mobile-power-app-configure.md)
-### [Offline data and sync filters](mobile-power-app-system-offline.md)
-### [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
-### [Push notifications](mobile-power-app-push-notifications.md)
-### [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
-### [Workflows and scripts](mobile-power-app-workflows.md)
-### [Intune mobile app management](mobile-power-app-intune.md)
-### [Use Microsoft Power Platform](mobile-power-utilize-platform.md)
-### [FAQs](mobile-power-app-faq.md)
+## [Overview](mobile-power-app-overview.md)
+## [System requirements](mobile-power-app-system-requirements.md)
+## [Install and setup](mobile-power-app-get-started.md)
+## [Use the mobile app](mobile-power-app-use.md)
+## [Edit sitemap, forms, and views](mobile-power-app-configure.md)
+## [Offline data and sync filters](mobile-power-app-system-offline.md)
+## [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
+## [Push notifications](mobile-power-app-push-notifications.md)
+## [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
+## [Geofencing](mobile-powerapp-geofence.md)
+## [Technician service reports](mobile-powerapp-reporting.md)
+## [Workflows and scripts](mobile-power-app-workflows.md)
+## [Intune mobile app management](mobile-power-app-intune.md)
+## [Use Microsoft Power Platform](mobile-power-utilize-platform.md)
+## [FAQs](mobile-power-app-faq.md)
 
 ## Field Service Mobile (Xamarin app)
 ### [Overview](field-service-mobile-overview.md)
@@ -172,33 +175,38 @@
 
 # Connected Field Service (IoT)
 ## [Overview](connected-field-service.md)
+
 ## Administration
 ### [Architecture](developer/connected-field-service-architecture.md)
 ### [Security roles for Connected Field Service](cfs-security-roles.md)
 ### [Authorize API app connection](cfs-authorize-api-connection.md)
+### [Device categories](cfs-device-categories.md)
+
 ## Connect your IoT data
-### [Azure IoT Central](cfs-iot-overview.md)
-#### [Prerequisites](cfs-iot-central-setup.md)
 ### [Azure IoT Hub](developer/connected-field-service-developer-guide.md)
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
-#### [Installation and setup](installation-setup-iothub.md)
+#### [Installation](installation-setup-iothub.md)
 #### [Register IoT devices](cfs-register-devices.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Azure IoT Central](cfs-iot-overview.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
+
 ## Analyze
 ### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
-### [Visualizing device readings](cfs-visualizations-iot-hub.md)
-### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
+### [Summary tiles](cfs-summary-tiles.md)
 ### [Pull device data](cfs-pull-device-data.md)
+### [Visualizing device readings](cfs-visualizations-iot-hub.md)
+### [Reports](cfs-powerbi.md)
+### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
+
 ## Take action
 ### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
-### [Send work order updates to Azure IoT Central](cfs-iot-central-work-orders.md)
-### [Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+### [Send commands](cfs-commands.md)
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
-## [FAQs](cfs-faq.md)
+## [Troubleshoot + FAQs](cfs-troubleshoot.md) 
 
 # Integrations
 ## [Dynamics 365 Supply Chain Management](supply-chain-field-service-integration.md)

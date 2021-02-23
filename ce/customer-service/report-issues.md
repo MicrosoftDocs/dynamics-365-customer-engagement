@@ -13,40 +13,31 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The report issues feature in the Omnichannel for Customer Service app allows administrators, agents, and supervisors to capture a diagnostic report and share it with Microsoft when they come across issues while using the app.
+The report issues feature in the Omnichannel for Customer Service app allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]
 > The report issues feature is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
-The feature uses a keyboard shortcut to capture the information from the Omnichannel for Customer Service app. Users can capture the information when they are on the dashboard or while communicating with a customer.
+You can copy the information while communicating with a customer by using one of the following keyboard shortcuts.
 
-| Keyboard shortcut |
-|-------------------------|
-| **Ctrl** + **Shift** + **Alt** + **d** |
-| or |
-|**Ctrl** + **Shift** + **Alt** + **D** |
+- **Ctrl** + **Shift** + **Alt** + **d**
+- **Ctrl** + **Shift** + **Alt** + **D**
 
 ## Capture diagnostic report
 
 1. Sign in to Omnichannel for Customer Service.
 
-2. Press the keys - **Ctrl** + **Shift** + **Alt** + **d** (or) |**Ctrl** + **Shift** + **Alt** + **D**.
-
-    If the information copy is successful, you will see toast notification - **Your diagnostic report was copied to your clipboard.**
-
-    If the information copy is unsuccessful, you will see toast notification - **Something went wrong. Please try copying your report again.**
-
-    If unsuccessful, repeat step 2.
+2. Use the keyboard shortcut to copy the information. Repeat the step if a message indicates that the copy action was unsuccessful.
 
 3. Open a notepad in your computer.
 
-4. Paste the diagnostic report that was copied into the notepad, and save the notepad.
+4. Paste the diagnostic report in the notepad, and save.
 
 5. Share the diagnostic report when you contact [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
 ## Diagnostic report information
 
-The diagnostic report contains the following information that is specific to Omnichannel for Customer Service and doesn't contain any of your personal information.
+The diagnostic report doesn't contain any of your personal information and contains the following information that's specific to Omnichannel for Customer Service.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
@@ -54,7 +45,7 @@ The diagnostic report contains the following information that is specific to Omn
 |Provider name | activeProviderName |
 |Client URL| ClientUrl| 
 |App URL|AppUrl| 
-|Organization locale Id|OrgLcid| 
+|Organization locale ID|OrgLcid| 
 |Organization unique name|OrgUniqueName| 
 |Organization Id|OrgId| 
 |User locale Id|UserLcid|
@@ -62,7 +53,7 @@ The diagnostic report contains the following information that is specific to Omn
 |CRM version|crmVersion|
 |Tenant Id|TenantId|
 
-If the agent or supervisor is in a session communicating with a customer, and when the agent or supervisor captures the report, then with the details mentioned in the preceding table, the following global context and conversation context details will also be captured.
+If you, as an agent or supervisor, are in a session with a customer, and capture the report, then with the details mentioned in the preceding table, the following global context and conversation context details are also copied.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
@@ -89,3 +80,6 @@ If the agent or supervisor is in a session communicating with a customer, and wh
 ### See also
 
 [Best practices to use Omnichannel for Customer Service](best-practices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

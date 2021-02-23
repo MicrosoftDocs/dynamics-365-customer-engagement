@@ -166,3 +166,6 @@ search.audienceType:
  **6**.  Get in-context help (guided tasks, videos, eBooks, and topics).  
   
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Manage notification templates in Dynamics 365 Channel Integration Framework version 2.0| MicrosoftDocs"
 description: "Learn about managing notification templates in Dynamics 365 Channel Integration Framework version 2.0"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 08/03/2020
 ms.topic: article
@@ -123,3 +123,6 @@ As an administrator, you can edit the value of a notification field header in th
 [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
 
 [Associate templates with workstreams](associate-templates-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

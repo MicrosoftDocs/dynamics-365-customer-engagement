@@ -123,3 +123,6 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 - There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they're available to other users.  
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

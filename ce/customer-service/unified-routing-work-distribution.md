@@ -147,3 +147,6 @@ To effectively route and distribute work to agents, admins can set up the follow
 [Omnichannel for Customer Service for administrators](omnichannel-administrator.md)  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

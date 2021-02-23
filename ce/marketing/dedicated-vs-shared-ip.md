@@ -71,3 +71,6 @@ Reach out to our Deliverability and Compliance team if you need help with naviga
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Email policies and suspension standards](email-policies.md)  
 [Email bounce categories](email-bounce-categories.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

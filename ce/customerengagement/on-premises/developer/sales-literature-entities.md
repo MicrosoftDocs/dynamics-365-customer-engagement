@@ -87,3 +87,6 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in Dyn
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Schedule and Appointment Entities](schedule-appointment-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ A service requires at least one selection rule and one or more resources, resour
  [Create or edit a selection rule](create-simple-selection-rule.md)   
  [Create or change a resource group](create-edit-resource-group.md)   
  [Set work hours for a resource](set-work-hours-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Hierarchy security offers a more granular access to records for an organization 
  [The Security Model of Microsoft Dynamics 365 Customer Engagement (on-premises)](security-model.md)   
  [Security concepts for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699698.aspx)
  [Position Entity](../entities/position.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

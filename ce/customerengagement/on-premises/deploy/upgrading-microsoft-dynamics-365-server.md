@@ -33,3 +33,6 @@ This section provides best practices guidelines and procedures to install [!INCL
 ## See also
 [Upgrade from Microsoft Dynamics 2015 Server](upgrade-from-microsoft-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

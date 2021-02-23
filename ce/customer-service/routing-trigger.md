@@ -120,3 +120,6 @@ Now, based on the Flow that is defined, whenever an entity record, say lead, is 
 ### See also
 
 [Entity records routing](entity-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

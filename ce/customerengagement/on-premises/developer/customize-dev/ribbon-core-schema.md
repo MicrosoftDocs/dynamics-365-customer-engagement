@@ -143,3 +143,6 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
  [Ribbon types schema](ribbon-types-schema.md)
  [Ribbon WSS schema](ribbon-wss-schema.md)
  [Customization Solutions File Schema](customization-solutions-file-schema.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

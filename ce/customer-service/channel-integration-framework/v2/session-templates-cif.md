@@ -1,8 +1,8 @@
 ---
 title: "Manage session templates in Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
 description: "Learn about managing session templates in Dynamics 365 Channel Integration Framework version 2.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -66,3 +66,6 @@ To create a session, follow these steps:
 [Manage notification templates](notification-templates-cif.md)
 
 [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

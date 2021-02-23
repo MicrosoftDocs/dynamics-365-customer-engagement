@@ -163,3 +163,6 @@ You might see the routing rules sub grid under an entity records channel display
 ### Workaround
 
 To load the page without the error, refresh the page to load the routing rules sub grid, and proceed with routing rules configuration.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

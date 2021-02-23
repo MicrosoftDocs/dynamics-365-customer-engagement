@@ -36,3 +36,6 @@ PanelLayoutControlName/NameOfPanelInsideControl
   
 ### See also  
  [Create custom panel layout in Unified Service Desk](../unified-service-desk/create-custom-panel-layout.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ CLASS MACHINECATEGORY "Microsoft CRM"    KEYNAME "Software\Policies\Microsoft\MS
  [Install Dynamics 365 for Outlook](../../../outlook-addin/admin-guide/install.md)   </br>
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

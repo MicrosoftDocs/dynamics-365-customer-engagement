@@ -51,3 +51,6 @@ The entities described in this section help you effectively manage the [!INCLUDE
   
 ## Related Sections  
  [Model Your Business Data](model-business-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

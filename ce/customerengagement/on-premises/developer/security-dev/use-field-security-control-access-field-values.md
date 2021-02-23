@@ -188,3 +188,6 @@ In Dynamics 365 Customer Engagement (on-premises), you use field-level security 
  [The Security Model of Microsoft Dynamics 365 Customer Engagement](security-model.md)   
  [How role-based security can be used to control access to entities in Microsoft Dynamics 365 Customer Engagement](how-role-based-security-control-access-entities.md)   
  [Use record-based security to control access to records](use-record-based-security-control-access-records.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

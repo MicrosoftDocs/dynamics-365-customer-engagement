@@ -135,3 +135,6 @@ If you would like another person in your organization to handle a particular acc
 
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [The event management dashboard](event-management-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

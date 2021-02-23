@@ -1,10 +1,12 @@
-# [Help resources for Dynamics 365 Sales](help-hub.md)
+# [Help resources for Dynamics 365 Sales Enterprise](help-hub.md)
 ## [Set up Dynamics 365 Sales](set-up-dynamics-365-sales.md)
 ## [Overview of Sales and Sales Hub](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## [Deprecated features](deprecations-sales.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
+
 ## Administrator & Sales Manager Guide
+
 ### [Help resources for admins and sales managers](../sales-enterprise/admin-guide.md)
 
 ### Sales management
@@ -18,7 +20,6 @@
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
 #### [Allow adding products without associated price list](make-price-list-optional.md)
-#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
 #### [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)
@@ -42,8 +43,10 @@
 #### [Clone products](../sales-enterprise/clone-product.md)  
 #### [Retire products](../sales-enterprise/retire-product.md)
 #### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
-#### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
+#### [See relationships in a hierarchical view](/powerapps/maker/data-platform/visualize-hierarchical-data)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
+#### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
+#### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
 
 ### Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
@@ -51,12 +54,11 @@
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
 
-
 ### Forecast management
 #### [Configure forecasts in your organization](configure-forecast.md)
 #### [Select a template](select-template-forecast.md)
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
-#### [Provide viewing permissions](provide-permissions-forecast.md)
+#### [Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
 #### [Apply additional filter](add-additional-filters.md)
 #### [Configure and manage drill-down entities](configure-manage-drill-downs.md)
@@ -78,11 +80,17 @@
 #### [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 #### [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)
 
+### Integrate LinkedIn Sales Insights
+#### [Install or delete LinkedIn Sales Insights solution](install-lsi-solution.md)     
+
+### [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
+
 ### Reporting
 #### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
 
 ### General Data Protection Regulation (GDPR)
 #### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+
 ### Upgrade or downgrade
 #### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
 #### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
@@ -102,6 +110,7 @@
 
 ### Manage customers
 #### [Work with accounts and contacts](../basics/accounts-contacts.md)
+#### [Understand the LinkedIn Sales Insights tab](understand-lsi-accounts-form.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
 
@@ -129,6 +138,8 @@
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
+#### [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+
 
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
@@ -166,6 +177,7 @@
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
+### [Troubleshooting email](ts-email.md)
 ### [FAQs](faqs-sales.md)
 
 ## Integrations
@@ -307,7 +319,7 @@
 
 # Resources for other Sales apps
 ## [Help resources for Dynamics 365 Sales (Professional)](../sales-professional/help-hub.md)
-## [Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)
+## [Sales Insights Add-in for Dynamics 365 Sales](/dynamics365/ai/sales/overview)
 ## [Sales Team Member app for users with Team Member license](sales-team-member.md)
 ## Dynamics 365 Sales mobile app
 ### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
@@ -320,6 +332,7 @@
 #### [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
 #### [Learn the basics](sales-mobile/learn-basics-mobile-app.md)
 #### [View meetings](sales-mobile/view-agenda.md)
+#### [Search records](sales-mobile/search-records.md)
 #### [Manage records](sales-mobile/open-record.md)
 #### [Manage contacts](sales-mobile/create-contact.md)
 #### [Manage notes](sales-mobile/view-edit-add-note.md)

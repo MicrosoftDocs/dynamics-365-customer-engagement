@@ -4,7 +4,7 @@ description: "Describes the supported dependent and optional components you need
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 01/29/2021
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -74,13 +74,18 @@ Supported Unified Service Desk versions are:
 
 | Supported Hosting Types | Recommended Hosting Types |
 |-----------------------------|--------------------------------------|
-| <ul><li> Chrome Process </li><li> IE Process</li><li>Edge Process</li> <li> Internal WPF </li></ul> **Note:** Currently Edge Process is in Preview. | <ul><li> Chrome Process </li></ul> |
+| <ul><li> Chrome Process </li><li> IE Process (Deprecated) </li><li>Edge Process (Preview) </li> <li> Internal WPF </li></ul> | <ul><li> Chrome Process </li></ul> |
+||
+
+> [!Note]
+>
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. For information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11).
 
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
-You have deployed Unified Service Desk in a sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
+You have deployed Unified Service Desk in a sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the web client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
-After you enable the Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
+After you enable the web client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 
 <a name="appvirtual"></a>   
 ## Software requirements for Citrix XenApp application virtualization  
@@ -95,3 +100,6 @@ After you enable the Web Client experience, go to the Window Navigation Rules an
  [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
  
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

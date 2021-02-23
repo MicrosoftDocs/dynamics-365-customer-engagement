@@ -1,7 +1,7 @@
 ---
 title: "Preview: Natural language use in segments (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Example marketing segments to show various capabilities of natural language understanding in Dynamics 365 Marketing."
-ms.date: 12/09/2020
+description: "Example marketing segments to show various capabilities of Natural Language Query in Dynamics 365 Marketing."
+ms.date: 01/22/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -33,7 +33,7 @@ search.app:
 > [!IMPORTANT]
 > The the natural language feature for segments currently only supports English language queries.
 
-If your administrator has enabled the natural language feature, you can use Natural Language Understanding (NLU) to build segments in Dynamics 365 Marketing. Natural language input enables you to use common words and phrases to describe the people you want to include in dynamic and static segments without learning all the specifics of the Common Data Model (CDM) and best practices for building queries.
+If your administrator has enabled the natural language feature, you can use Natural Language Query (NLQ) to build segments in Dynamics 365 Marketing. Natural language input enables you to use common words and phrases to describe the people you want to include in dynamic and static segments without learning all the specifics of the Common Data Model (CDM) and best practices for building queries.
 
 Using the instructions in [Working with segments](segmentation-lists-subscriptions.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, leads, and activities.
 
@@ -63,8 +63,7 @@ You might name the new segment “Contacts who live in Chicago with email and an
 A more complex segment that includes both profile and behavioral queries gives better results that let you make a better-targeted customer journey, perhaps helping reactivate a lapsed customer. For instance, you can create a segment that includes:
 
 - Contacts who live in Chicago who have an email address (profile).
-- Accounts that have purchased in the last 180 days (profile).
-- Contacts with email bounces (behavioral).
+- Account name is Ford and status is active and revenue is larger than $1,000,000 (profile).
 
 This segment would find a group of contacts who have purchased from your company in the last six months in Chicago that are now unreachable through the email address in your organizational database, suggesting that a new email needs to be established for that contact.
 
@@ -118,3 +117,5 @@ Contacts in this segment might be more receptive to an email marketing campaign 
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design dynamic demographic or firmographic segments](segments-profile.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Build a smart assist bot | MicrosoftDocs"
 description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 04/15/2020
 ms.topic: article
@@ -43,3 +43,6 @@ After setting up a sample bot using above steps, you can configure your bot to s
 [Integrate an Azure bot](configure-bot.md)<br />
 [Create knowledge article template](create-templates-knowledge-article.md)<br />
 [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1781,3 +1781,5 @@ See systemuser Entity [msdyn_systemuser_msdyn_projectapproval_Manager](systemuse
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_projectapproval?text=msdyn_projectapproval EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

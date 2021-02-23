@@ -353,6 +353,9 @@ namespace TriggerFinalizeRegistration
 ### See also
 
 [Self-hosted customer event website](self-hosted.md)<br />
-[Dynamics 365 Portal hosted](portal-hosted.md)<br/>
+[Power Apps portal hosted](portal-hosted.md)<br/>
 [Customer Event Portal Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

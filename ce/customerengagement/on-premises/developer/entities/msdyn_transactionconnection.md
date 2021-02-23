@@ -939,3 +939,5 @@ See businessunit Entity [business_unit_msdyn_transactionconnection](businessunit
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_transactionconnection?text=msdyn_transactionconnection EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

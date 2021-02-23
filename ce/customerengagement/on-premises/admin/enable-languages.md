@@ -89,3 +89,6 @@ Enable languages in your organization to display the user interface and Help in 
 
 ### See also  
  [Add resources to a site](../admin/add-resources-site.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

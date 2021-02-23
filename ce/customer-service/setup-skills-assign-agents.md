@@ -112,3 +112,6 @@ Alternatively, you can also add a skill to the user (agent). To learn more, see 
 [Attach skills to conversation](attach-skills.md)
 
 [Manage users](users-user-profiles.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

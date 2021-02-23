@@ -56,3 +56,6 @@ The composite data-driven adapter is an extension of the DDA architecture introd
   
 ### See also  
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

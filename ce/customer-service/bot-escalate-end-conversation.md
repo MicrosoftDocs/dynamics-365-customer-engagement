@@ -1,8 +1,8 @@
 ---
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "How a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 06/09/2020
 ms.topic: reference
@@ -286,3 +286,6 @@ You understand that your data may be transmitted and shared with external system
 [Integrate a bot](configure-bot.md)<br />
 [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)<br />
 [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
   
 ### See Also  
  [Field level security to control access](../../admin/field-level-security.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ A few minutes after the work order system status becomes **Open - Completed** or
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image of a phone showing the emailed survey.](./media/work-order-survey-email-receive.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

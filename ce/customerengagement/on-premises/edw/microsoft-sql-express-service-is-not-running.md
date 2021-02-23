@@ -22,3 +22,6 @@ ms.author: matp
   
  Setup will try to start the service. To verify, click **Back** to restart the check. If [!INCLUDE[pn_Setup](../includes/pn-setup.md)] cannot start the service, in the Windows **Run** box, type `services.msc`, and try to start [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] (Express instance) manually.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

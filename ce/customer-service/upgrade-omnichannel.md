@@ -1,6 +1,6 @@
 ---
-title: Upgrade Omnichannel for Customer Service | MicrosoftDocs
-description: Understand how you can upgrade Omnichannel for Customer Service
+title: "Upgrade Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to upgrade Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -40,3 +40,6 @@ If you are using Omnichannel for Customer Service on Unified Service Desk, see [
 
 [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

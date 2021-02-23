@@ -67,3 +67,6 @@ Learn how to install the solution on the [LinkedIn Sales Navigator help center](
 
 [Establish a connection between Dynamics 365Connector for LinkedIn Lead Gen Forms and LinkedIn](connect-dynamics-365-linkedin.md)  
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

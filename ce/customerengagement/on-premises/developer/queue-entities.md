@@ -183,3 +183,6 @@ search.audienceType:
  [Sample Code for Queue Entities](sample-code-queue-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest>   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

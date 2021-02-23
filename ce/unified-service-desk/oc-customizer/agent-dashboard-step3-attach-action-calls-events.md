@@ -64,3 +64,6 @@ This topic describes how to attach Omnichannel Agent Dashboard-related action ca
 
 - [Step 1: Create Omnichannel Agent Dashboard hosted control](agent-dashboard-step1-create-hosted-control.md)
 - [Step 2: Create Omnichannel Agent Dashboard-related action calls](agent-dashboard-step2-create-action-calls.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

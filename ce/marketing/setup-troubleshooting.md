@@ -1,7 +1,7 @@
 ---
 title: "Administration and setup frequently asked questions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 Marketing."
-ms.date: 12/17/2020
+ms.date: 01/26/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -48,7 +48,7 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
     Your monthly email quota is equal to 10 times the number of marketing contacts you have purchased.
 
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-    Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract.
+    Marketing contacts are not reset on monthly basis. Contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract. Reductions to the total number of marketable contacts are not reflected in the [contact meter in the quota management view](https://docs.microsoft.com/dynamics365/marketing/quota-management) until the contacts are deleted.
 
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
@@ -102,7 +102,7 @@ If your setup fails for some reason, you'll be notified by email and/or by a sta
 
 ## How can I fix occasional portal issues?
 
-Marketing pages and the event website both run on the Dynamics 365 Portals app. Sometimes, you may notice that settings you make in Dynamics 365 Marketing aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
+Marketing pages and the event website both run on Power Apps portals. Sometimes, you may notice that settings you make in Dynamics 365 Marketing aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
 
 <a name="portal-cache"></a>
 
@@ -273,12 +273,4 @@ More information: [About Unified Interface for model-driven apps in Power Apps](
 
 <a name="contact-support"></a>
 
-## How can I contact support if I still need help?
-
-For more support and help resources you can:
-
-- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
-- Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
-- Find more [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
-
-If you’ve already tried to set up the application several times and are still having trouble, open a support case through your applicable Microsoft Premier channel or MPN partner channel.
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

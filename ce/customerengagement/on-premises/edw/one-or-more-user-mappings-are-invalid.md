@@ -39,3 +39,6 @@ ms.author: matp
   
 -   If you have cross-mapped users, we recommend that you map together the users that have the same log-on name. After the import is complete you can change the user log-on name in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

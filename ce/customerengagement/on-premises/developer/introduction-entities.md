@@ -247,3 +247,6 @@ More information: [Image data attributes](introduction-entity-attributes.md#BKMK
  [Sample: Merge Two Records](sample-merge-two-records.md)   
  [Sample: Validate Record State and Set State of the Record](sample-validate-record-state-set-state-record.md)   
  [Sample: Rollup records related to a specific record](sample-rollup-records-related-specific-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

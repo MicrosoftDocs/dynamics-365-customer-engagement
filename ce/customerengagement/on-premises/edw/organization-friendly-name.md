@@ -22,3 +22,6 @@ ms.author: matp
   
  Shorten the organization friendly name length so that it is 159 characters or less.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

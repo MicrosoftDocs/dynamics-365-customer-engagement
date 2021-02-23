@@ -4,7 +4,7 @@ description: "Instructions to set up quick replies in Omnichannel for Customer S
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/04/2020
+ms.date: 02/08/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -90,6 +90,16 @@ For organizations with diverse lines of businesses, agents will send a variety o
 
    If you select the work stream in the list, you can view the work stream record, and select the **Quick Replies** tab to view all the quick replies associated with that work stream.
 
+## Availability of quick replies and language settings
+
+The quick replies that the agents will see is determined by the following parameters:
+
+- The language mapped to the channel instance
+- The language configured in the agent's personal settings
+- The workstream the quick reply is mapped to
+
+For example, when you set up a live chat widget or Facebook page, the quick replies will be available in the language that is configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing agents, the agent-specific language setting, if configured, will determine the language in which the quick replies will be available to the agents. The agents will see the quick replies mapped to the workstream that is associated with the channel with other quick replies.
+
 ### See also
 
 [Add a chat widget](add-chat-widget.md)  
@@ -97,3 +107,7 @@ For organizations with diverse lines of businesses, agents will send a variety o
 [Create and manage operating hours](create-operating-hours.md)  
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)  
+[Language settings for agents](https://docs.microsoft.com/powerapps/user/set-personal-options)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

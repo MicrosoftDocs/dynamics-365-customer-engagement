@@ -196,3 +196,6 @@ Currently, you can’t create custom forms for entities based on a business proc
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
  [Workflow Processes](../customize/workflow-processes.md)   
  [Actions - Overview](../customize/actions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

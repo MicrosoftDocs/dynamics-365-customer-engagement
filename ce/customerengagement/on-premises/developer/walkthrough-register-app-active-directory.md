@@ -118,3 +118,6 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
 ### See also  
  [Adding, Updating, and Removing an Application](https://msdn.microsoft.com/library/dn132599.aspx)   
  [Authenticate Users with Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -190,3 +190,6 @@ For more information, see the developer guide, [Bring your own custom messaging 
 [Productivity tools](productivity-tools.md)  
 [Smart assist](smart-assist.md)  
 [Templates](templates-overview.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

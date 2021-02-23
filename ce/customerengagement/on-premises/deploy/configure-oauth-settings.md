@@ -56,3 +56,6 @@ if($RemoveSnapInWhenDone)
 > [!IMPORTANT]
 > - After you run the script run IISRESET on the Dynamics 365 Server running the Web Application server role. Additionally, clients must sign out and then sign in for the new setting to take effect. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

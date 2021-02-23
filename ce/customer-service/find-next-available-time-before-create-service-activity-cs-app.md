@@ -70,3 +70,6 @@ Avoid conflicts while scheduling services by finding the time the resources are 
 ### See also  
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)   
  [Navigate the service calendar](../customer-service/navigate-service-calendar-cs-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

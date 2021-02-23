@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **General settings** tab, specify the information for the following fields.
+4. On the **General settings** tab, specify the information for the following fields. The **Customer waiting** and **Chat Reconnect** options are available only for Live chat. Enter the settings in the fields depending on the type of chat you want to configure.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -28,6 +28,12 @@ ms.service: dynamics-365-customerservice
     |  | **Agent display name** | Select an agent display name type from the list: **Full name**, **First name**, **Last name**, and **Nick name**. <br> More information: [Configure agent display name](agent-display-name.md) | Full name |
     |  | **Authentication settings** |Select an authentication setting from the list. This is an optional field. More information: [Create chat authentication settings](create-chat-auth-settings.md) | Chat authentication |
     |||
+    
+
+    |Section | Field | Description | Example value |
+    |--------|-------|-------------|-------------------------------|
+    |**Conversation Mode** | **Select mode** | Select the conversation mode from the list. For more information, see: [Persistent chat](persistent-chat.md) | Persistent chat or Live Chat|
+    ||||
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -65,7 +71,7 @@ ms.service: dynamics-365-customerservice
 
 
     > [!div class=mx-imgBorder]
-    > ![Configure the basic details of a chat widget](media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
+    > ![Configure the basic details of a chat widget](media/chat-widget.png "Configure the basic details of a chat widget")
 
 6. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
 
@@ -88,17 +94,17 @@ ms.service: dynamics-365-customerservice
     | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
-    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |   
+    | Visual engagement | Co-browse provider | Select the provider from the list. | *Co-browse provider* |
        
    > [!NOTE]
-   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the drop-down lists. 
+   > You can select one co-browse provider and/or one screen sharing provider for each chat widget. Only co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
    
 9. On the **Design** tab, specify the information for the following fields. The offline settings are available only when the operating hours are set.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | Online | Theme color | Select a color from the list for the chat widget. | Blue |
-    | Online | Logo | Logo for the chat widget. | https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
+    | Online | Logo | Enter a link for the image that's hosted on a publicly available site. | https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
     | Online | Title | Specify the name for the widget that's displayed for customers in the chat widget. | Let's Chat! |        
     | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
@@ -138,3 +144,6 @@ After you configure, agents can get the capabilities while they are in a convers
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in your website or portal](embed-chat-widget-portal.md)  
 [Embed chat widget in mobile experiences](render-live-chat-widget-mobile.md)  
+[Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

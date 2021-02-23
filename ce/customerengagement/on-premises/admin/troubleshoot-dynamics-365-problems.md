@@ -57,3 +57,6 @@ We're sorry you're having a problem with Dynamics 365 Customer Engagement (on-pr
 ## Other  
   
 -   [Troubleshoot problems with data not displaying in a report](../basics/troubleshoot-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

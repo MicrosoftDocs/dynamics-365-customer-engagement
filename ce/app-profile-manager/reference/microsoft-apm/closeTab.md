@@ -38,3 +38,5 @@ Microsoft.Apm.closeTab("tab-id-8").then((response)=>{
     console.log(error)
 });
 ```
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

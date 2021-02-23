@@ -32,3 +32,6 @@ To avoid duplicating the common information between Customer Engagement (on-prem
 ## Documentation for previous version
 
 Documentation for previous version (8.x and earlier) is available here: <https://docs.microsoft.com/previous-versions/dynamics/>.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

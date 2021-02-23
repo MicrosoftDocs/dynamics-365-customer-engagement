@@ -79,3 +79,6 @@ To see information about when a specific contact tends to open your messages, ho
       - Colored squares at each day/time intersection indicate the days and times that the AI thinks are best for delivering to this contact. The darkest squares indicate the days and times that the AI thinks are best for delivering to this contact, and the lightest squares are worst. Most day/time combinations are in between, but the darker the better.
 
 When you choose to auto-schedule email delivery, the system will use these results to decide when to deliver to each contact.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

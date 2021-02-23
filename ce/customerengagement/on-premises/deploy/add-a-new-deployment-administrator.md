@@ -37,3 +37,6 @@ You can grant or remove the [!INCLUDE[pn_Deployment_Administrator](../includes/p
  [Deployment Administrators](deployment-administrators.md)   
  [Remove a Deployment Administrator](remove-a-deployment-administrator.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Send weekly updates on the leaderboards or announce award winners by using sched
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)  
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)  
  [Create weekly awards to keep players and fans engaged](define-weekly-awards.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

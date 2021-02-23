@@ -2,7 +2,7 @@
 title: "Mobile offline capabilities and limitations (Dynamics 365 apps)| MicrosoftDocs"
 description: Mobile offline capabilities and limitations for Dynamics 365 phones and tablets app and Power Apps mobile
 ms.custom: 
-ms.date: 8/28/2020
+ms.date: 1/27/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -54,10 +54,23 @@ These entities and corresponding commands are available in offline mode.
 |Team |Read only	|
 |User |Read only	|
 
-
-## Supported capabilities 
+## Supported  capabilities 
 
 - **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
+
+- **Business Process Flows**: You can use business process flows in offline mode if the following conditions are met:
+
+    - The business process flow is used in an app that you can run on Power Apps mobile.
+    - The Power Apps mobile app is enabled for offline use.
+    - The business process flow has a single entity.
+    
+    There are three commands that are available for a business process flow when you run an app in offline mode on the Power Apps mobile app.
+    
+    - Next stage
+    - Previous stage
+    - Set Active stage
+
+For more information, see [Run business process flows offline](https://docs.microsoft.com/power-automate/business-process-flows-overview#run-business-process-flows-offline).
 
 - **Lookup support**: Lookups are supported for the entities that are mobile offline-enabled. All the entities participating in the lookup should also be offline-enabled.
 
@@ -65,7 +78,7 @@ These entities and corresponding commands are available in offline mode.
 
 - **Offline search**: Available only for offline entities. User can only search one entity at a time. Only categorized search is supported in offline mode and not relevant search.
 
-- **Notes on the Timeline control**: Notes on the Timeline control is available in offline mode. You can take pictures, read notes, and add/remove attachments in offline mode.
+- **Notes on the Timeline control**: Notes on the Timeline control are available in offline mode. You can take pictures, read notes, and add/remove attachments in offline mode.
   > [!NOTE]
   > The **Date** field is not available for mobile offline search.
   
@@ -73,8 +86,6 @@ These entities and corresponding commands are available in offline mode.
 
 
 ## Limitations 
-
-- **Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
 
 - **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
@@ -144,9 +155,12 @@ Ensure that you have configured at least one of the Profile rules for each entit
 |-------------|---------|  
 |All Records|	If you are selecting this filter, you cannot define any other filter rule.|
 |Download Related Data only|If you are selecting this filter, you cannot define any other filter rule. Ensure that the entity has been defined as a Profile Item Association entity also.|
-|Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It is recommended for a master data scenario with a small data set like Country codes. |
+|Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter, then you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It is recommended for a master data scenario with a small data set like Country codes. |
 |Custom Data Filter |<=3 filters can be defined in the custom data filter. |
 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

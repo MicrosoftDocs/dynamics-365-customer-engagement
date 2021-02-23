@@ -1,8 +1,8 @@
 ---
 title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about the Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 11/02/2020
 ms.topic: reference
@@ -142,3 +142,6 @@ No, you will have to navigate to Channel Integration Framework version 2.0 from 
 [What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
 [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
 [Known issues of Dynamics 365 Channel Integration Framework](known-issues.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

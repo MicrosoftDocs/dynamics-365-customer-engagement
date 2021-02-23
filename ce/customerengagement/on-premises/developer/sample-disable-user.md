@@ -51,3 +51,6 @@ To view the summary of the specified system user in Customer Engagement, navigat
 
 [User and Team Entities](user-team-entities.md)  
 <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

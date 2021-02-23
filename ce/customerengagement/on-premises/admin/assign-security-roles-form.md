@@ -71,3 +71,6 @@ Control form and field access by assigning different security roles to different
   
 > [!NOTE]
 > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

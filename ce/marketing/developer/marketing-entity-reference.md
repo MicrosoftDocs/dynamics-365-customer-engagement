@@ -95,3 +95,6 @@ You can perform the following actions:
 
 > [!NOTE]
 > The community tools are not a product of Microsoft. Microsoft does not extend support to the community tools. If you have questions related to the tools, please contact the publisher. More information: [XrmToolBox](https://www.xrmtoolbox.com)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

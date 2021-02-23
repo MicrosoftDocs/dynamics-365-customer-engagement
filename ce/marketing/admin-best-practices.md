@@ -129,7 +129,7 @@ Dynamics 365 Marketing trial apps have special behavior. Marketing trial apps
 can only be installed on Dynamics 365 trial environments, which are automatically provided as part of the Marketing Trial sign-up process. Unlike paid environments, these environments cannot be created manually. Similarly, paid Marketing apps (sandbox or prod) cannot be deployed on trial environments.
 
 Marketing does not support converting from a trial to a paid subscription. If
-you convert a Dynamics 365 environment from trial to paid, the Marketing app will not convert. In such a scenario, you must uninstall the trial Marketing app from the converted system and deploy a paid Marketing app. In this scenario, the standard rules of [uninstalling a Marketing app (uninstall-marketing.md) apply. All interaction and behavioral data will be deleted.
+you convert a Dynamics 365 environment from trial to paid, the Marketing app will not convert. In such a scenario, you must uninstall the trial Marketing app from the converted system and deploy a paid Marketing app. In this scenario, the standard rules of [uninstalling a Marketing app](uninstall-marketing.md) apply. All interaction and behavioral data will be deleted.
 
 ## Data transfer
 
@@ -152,3 +152,5 @@ If your tenant is in a non-supported geo, you cannot deploy Marketing in that
 geo. The tenant must be enabled for multi-geo before deploying Marketing in a
 supported geo. In this scenario, open a support request to check for
 feasibility.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

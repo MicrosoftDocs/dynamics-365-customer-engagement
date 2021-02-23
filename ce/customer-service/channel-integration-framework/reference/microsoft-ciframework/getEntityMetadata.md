@@ -1,8 +1,8 @@
 ---
 title: "getEntityMetadata (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[getEntityMetadata-description](includes/getEntityMetadata-description.md)] 
 
 [!INCLUDE[token-getEntityMetadata](../../shared/token-getEntityMetadata.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

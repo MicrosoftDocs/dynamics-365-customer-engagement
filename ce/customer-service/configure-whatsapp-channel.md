@@ -179,3 +179,6 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
 [Create message templates](create-message-templates.md)<br>
 [Templates](templates-overview.md)<br>
 [Delete a configured channel](delete-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

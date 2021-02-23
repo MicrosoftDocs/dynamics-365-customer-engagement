@@ -86,3 +86,6 @@ You can get the SMS, social channels, and custom messaging channels with the fol
 You can get the Microsoft Teams channel with the following add-on license:
 
 - [Teams license](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ There are various types of predefined hosted controls available in [!INCLUDE[pn_
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

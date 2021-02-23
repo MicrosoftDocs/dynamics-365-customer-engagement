@@ -60,3 +60,6 @@ This section displays case- and customer-related activities in the form of a tim
 [Customize the conversation form](customize-session-form.md)  
 [Configure agent and supervisor configurations in Unified Service Desk](../omnichannel/customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
 [Configure notification for agents](../omnichannel/customizer/configure-notification-screen-pop-agents.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

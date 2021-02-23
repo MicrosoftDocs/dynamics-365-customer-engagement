@@ -105,3 +105,6 @@ To fix this issue, select the mobile project and select **properties** in the he
 
 Then, match the selected security roles above with the user’s security roles in **D365 > Settings > Security > Users**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

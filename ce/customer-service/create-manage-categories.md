@@ -77,3 +77,6 @@ Follow the procedure given below to create a category:
 ### See also
 
 [Use the Category entity to categorize records](../developer/use-category-entity-categorize-dynamics-365-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

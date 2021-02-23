@@ -56,3 +56,6 @@ This section provides information on how you can use the [!INCLUDE[pn_user_intef
  [Core concepts for extending Unified Service Desk](../unified-service-desk/unified-service-desk-uii-framework.md)
 
  [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -231,3 +231,6 @@ function getReportURL(action,fileName,id) {
  [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md) 
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Start Dialog by using a URL](../developer/actions-dialogs.md#StartDialog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

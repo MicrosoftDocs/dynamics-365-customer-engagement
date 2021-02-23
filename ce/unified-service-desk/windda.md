@@ -39,3 +39,6 @@ search.app:
  [WebDDA](../unified-service-desk/web-dda.md)   
  [UIADDA](../unified-service-desk/uiadda.md)   
  [JavaDDA](../unified-service-desk/javadda.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ After you create a site, you can add resources such as users, equipment, or faci
 ### See also  
  [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Regional and language options for your organization](enable-languages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

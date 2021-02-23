@@ -102,3 +102,6 @@ The following ready-to-use business processes are available that you can use as 
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

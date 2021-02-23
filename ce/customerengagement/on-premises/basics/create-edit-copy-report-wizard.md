@@ -117,3 +117,6 @@ To edit an existing Report Wizard report, first select the report. Then, in the 
 If you need to change data on the **General** or **Administration** tabs for a new report, wait until the report is saved before making the changes. Any changes on these tabs made before a report is saved will be ignored.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

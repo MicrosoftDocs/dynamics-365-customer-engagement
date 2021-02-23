@@ -24,3 +24,6 @@ ms.author: matp
   
  For more information, see [Microsoft Dynamics CRM Email Router software requirements](https://go.microsoft.com/fwlink/p/?LinkId=317864).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

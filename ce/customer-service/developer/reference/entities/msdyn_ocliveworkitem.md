@@ -1,8 +1,8 @@
 ---
 title: "msdyn_ocliveworkitem Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitem entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 07/29/2020
 ---
@@ -2452,3 +2452,6 @@ See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_oclivework
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

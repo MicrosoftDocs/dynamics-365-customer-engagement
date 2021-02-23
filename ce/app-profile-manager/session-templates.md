@@ -30,7 +30,7 @@ You can create session templates in the Omnichannel Administration app or use th
 
 The out-of-the-box session template for using in Customer Service workspace is Case entity session - default template.
 
-The following out-of-the-box session templates are for use in the Omnichannel for Customer Service app:
+The following out-of-the-box session templates are of the generic type and are for use in the Omnichannel for Customer Service app:
 
 - Case entity session - default template
 - Chat session - default
@@ -90,3 +90,6 @@ The session template is configured. Now, you must associate the session template
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with work streams](associate-templates.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

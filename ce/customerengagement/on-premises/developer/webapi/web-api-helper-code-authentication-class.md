@@ -340,3 +340,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Helper code: Configuration class](web-api-helper-code-configuration-classes.md)   
  [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

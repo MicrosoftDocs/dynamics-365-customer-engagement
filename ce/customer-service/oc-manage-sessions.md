@@ -37,6 +37,7 @@ When you start a session from a notification request that is a Chat or SMS chann
 ### Manually start a session using the gestures
 
 #### Contact and Case session
+
 Use a combination of keyboard and mouse-click gesture to start a session. You can press **Shift** and select the work item to open a case or contact session. You can also select the **Open** option from the Omnichannel Agent Dashboard to start a case or contact session.
 
 #### Channel session
@@ -60,6 +61,15 @@ As an agent, when you are working on a case, you get an incoming conversation re
 When you switch sessions, unsaved changes are not lost and you can continue to work on them.
 
 For example, you are working on a case by entering the title of the case and not yet saved the form. Now, you get a notification about the incoming conversation and you accept the request, which leads to starting of a new session. Again, you can switch back to case session and the data entered is present for you to continue.
+
+## Persistent chat for agents
+
+If your organization has chosen persistent chat as the mode of conversation, you should make sure of the following: 
+
+- You shouldn't end the conversation; instead, you should close the conversation so that it is moved into a waiting state, which is typically 28 days or the value that is configured in the work stream.
+
+- You must confirm with the customer that their issue is resolved and then end the session by selecting **End**. After you the chat, the chat history will not be shown when the customer comes back. A fresh chat session will be initiated.
+
 
 ## Close a session
 
@@ -141,3 +151,6 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

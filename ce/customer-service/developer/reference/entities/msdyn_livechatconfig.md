@@ -1,8 +1,8 @@
 ---
 title: "msdyn_livechatconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatconfig entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 08/31/2020
 ms.topic: "reference"
@@ -1873,3 +1873,6 @@ See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

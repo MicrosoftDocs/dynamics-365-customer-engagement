@@ -43,3 +43,6 @@ The knowledge article is created regardless of whether you set **Open the new kn
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

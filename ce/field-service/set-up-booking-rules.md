@@ -24,7 +24,8 @@ Booking rules are custom JavaScript methods that will be executed prior to the b
 Set up booking rules to validate a booking when it is created or modified.  
  
 > [!Note]
-> Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> - Booking rules are not available on the reassign functionality on the schedule board.
 
 ## Create a solution
 
@@ -323,3 +324,6 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
  [Create and edit web resources](../customize/create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

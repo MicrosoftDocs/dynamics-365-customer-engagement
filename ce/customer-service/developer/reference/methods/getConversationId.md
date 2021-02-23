@@ -24,7 +24,7 @@ None
 
 ## Return Value
 
-A string resolved with currently ongoing conversation id.
+A promise resolved with currently ongoing conversation id.
 
 ## Example
 
@@ -33,3 +33,6 @@ A string resolved with currently ongoing conversation id.
 ## See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

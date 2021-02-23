@@ -44,3 +44,6 @@ Dynamics 365 Marketing sets three different types of cookies:
 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Register link clicks and website visits](register-engagement.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -22,13 +22,13 @@ You can configure your chat widget to show users a survey that they must respond
 5. Select **Add question**.
 
     > [!NOTE]
-    > You can add only five questions to a pre-chat survey. Each question length can be less than or equal to 512 characters.
+    > You can add only five questions to a pre-chat survey. The length of each question should be less than or equal to 512 characters.
 
 6. In the **New Question** pane, provide the following information:
 
     - **Question name**: Enter a name for the question.
     - **Question text**: Enter the text of the question.
-    - **Question type**: Select the type of answer that is required from users:
+    - **Question type**: Select one of the following options to indicate how user response needs to be provided:
 
         - **Single line**: The user can enter a single line of text.
         - **Multiple lines**: The user can enter multiple lines of text.
@@ -70,3 +70,6 @@ More information: [Automatically identify customers using pre-chat responses](re
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
 [Embed chat widget in your website or portal](embed-chat-widget-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

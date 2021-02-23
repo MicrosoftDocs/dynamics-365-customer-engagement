@@ -10,6 +10,16 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-campaignresponse
+  - D365-Entity-bulkoperation
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Track a marketing campaign response using in-app marketing (Sales Professional)
@@ -47,3 +57,6 @@ Record the replies you get from potential customers in response to a specific ma
 ### See also  
 [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)   
 [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

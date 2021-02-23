@@ -308,3 +308,6 @@ search.app:
 ### See also
  [Upgrade Microsoft Dynamics CRM for Outlook](../admin-guide/upgrade.md)
  [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin-guide/troubleshooting-things-to-know.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

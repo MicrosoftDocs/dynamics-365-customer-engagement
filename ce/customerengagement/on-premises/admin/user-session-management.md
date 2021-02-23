@@ -1,7 +1,7 @@
 ---
 title: "Security enhancements: User session and access management | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/11/2020
+ms.date: 01/07/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -16,7 +16,6 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Security enhancements: User session and access management 
 
@@ -50,6 +49,8 @@ By default, Customer Engagement (on-premises) does not enforce an inactivity ses
 > 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
 > 4. Live Assist (Chat)
 
+Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](https://docs.microsoft.com/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+
 To enforce the inactivity session timeout for Web Resources, Web Resources need to include the ClientGlobalContext.js.aspx file in their solution.
 
 The Customer Engagement (on-premises) portal has its own settings to manage its session timeout and inactivity session timeout independent of these system settings.
@@ -69,7 +70,7 @@ The Customer Engagement (on-premises) portal has its own settings to manage its 
 These security enhancements are shipped disabled by default.  Administrators can enable these enhancements when using one of the supported Dynamics 365 for Customer Engagement apps (on-premises) builds listed below.
 
  ### Requirement
- These security enhancement features require claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
+ These security enhancement features require the Feature Control Bit FCB.UCIInactivityTimeout to be enabled and claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
  - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
  - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement apps is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement apps users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
 
@@ -133,3 +134,6 @@ Get-CrmOrganization
 Sample:
 
 ![Example Organization ID](media/ps_orgid.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

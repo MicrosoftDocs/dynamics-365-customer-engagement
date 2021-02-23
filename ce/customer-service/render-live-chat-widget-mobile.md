@@ -1,8 +1,8 @@
 ---
 title: "Render a live chat widget on the mobile app| Microsoft Docs"
 description: "Render a live chat widget on your mobile app using a code snippet or SDK"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 10/12/2020
 ms.topic: reference
@@ -94,3 +94,6 @@ We also provide a reference app using the popular UI Gifted Chat.
 [startChat](developer/reference/methods/startchat.md)<br />
 [lcw:closeChat](developer/reference/events/lcw-closechat.md)<br />
 [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

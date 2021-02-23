@@ -66,3 +66,6 @@ Use the settings on this page to determine how data is synchronized between [!IN
  [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   
  [Control field synchronization with Outlook](../../admin/control-field-synchronization-outlook.md)
  [Which fields can be synchronized between Dynamics 365 apps and Outlook?](../admin-guide/which-fields-synchronized.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -22,3 +22,6 @@ ms.author: matp
   
  Remove unused attributes or move some of the attributes to a related entity. You can also disable the Base Extension table merge process for your import.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

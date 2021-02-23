@@ -253,3 +253,6 @@ search.audienceType:
 |Value|Get or set the value to display on the gauge.|  
 |Step|Set the amount to add or subtract from the current value when entering data with this control.|  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

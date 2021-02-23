@@ -72,3 +72,6 @@ If you've created a custom report outside of Dynamics 365 Customer Engagement (o
    To share the new report, see the instructions in [Share a report with other users or teams](../basics/share-report-users-teams.md).  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Once you have created a hosted application as described in [Create a HAT hosted 
  [Configure the HAT application](../unified-service-desk/configure-hosted-application.md)   
  [Configuring an action for the HAT application](../unified-service-desk/configure-action-hosted-application.md)   
  [Import the hosted application from Unified Service Desk](../unified-service-desk/import-hosted-application-from-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

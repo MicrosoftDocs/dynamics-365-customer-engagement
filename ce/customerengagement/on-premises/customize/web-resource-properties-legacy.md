@@ -14,11 +14,10 @@ ms.topic: article
 ms.assetid: 82cd41ea-95b0-4606-9e7d-43eb5ce9ecd6
 search.audienceType: 
   - customizer
-
 ---
 # Web resource properties
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Web resource properties for model-driven app forms](/powerapps/maker/model-driven-apps/web-resource-properties-legacy)
 
  You can add or edit web resources on a form to make it more appealing or useful to app users. Form enabled web resources are images, HTML files, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] controls.  
 
@@ -64,3 +63,6 @@ You can access **Form properties** by opening solution explorer. Under **Compone
 ## See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

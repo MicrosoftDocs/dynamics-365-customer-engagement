@@ -56,3 +56,6 @@ If this is a **warning**, the following information applies.
   
  Use the setspn tool to verify that the SPN is registered with [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], and if necessary, register the SPN. For more information about setspn, see [Setspn](https://go.microsoft.com/fwlink/p/?LinkID=194151).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

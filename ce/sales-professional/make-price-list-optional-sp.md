@@ -10,6 +10,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-pricelevel
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Allow adding products without associated price list (Sales Professional)
@@ -34,3 +41,6 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
 ### See also
 [Add products to an opportunity](add-products-opportunity-sp.md)  
 [Add products to a quote, order, or invoice](add-product-quote-order-invoice-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

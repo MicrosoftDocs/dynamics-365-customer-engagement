@@ -32,3 +32,6 @@ The RDL file contains the fetchXML that the report is based on.
 5. Open the report once the download is complete.
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

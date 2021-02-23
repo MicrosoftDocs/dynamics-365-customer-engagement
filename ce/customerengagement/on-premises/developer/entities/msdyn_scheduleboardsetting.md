@@ -1743,3 +1743,5 @@ See msdyn_configuration Entity [msdyn_msdyn_configuration_msdyn_scheduleboardset
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_scheduleboardsetting?text=msdyn_scheduleboardsetting EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

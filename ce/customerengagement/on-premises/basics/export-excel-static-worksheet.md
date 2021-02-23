@@ -80,3 +80,6 @@ When you want to present Customer Engagement (on-premises) information to an ind
 ### See also  
  [Edit the default filter of a report](../basics/edit-default-filter-report.md)   
  [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

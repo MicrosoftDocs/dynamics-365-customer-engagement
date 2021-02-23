@@ -1,8 +1,8 @@
 ---
 title: "msdyn_octwitterapplication Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_octwitterapplication entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
@@ -716,3 +716,6 @@ Same as msdyn_octwitterhandle entity [msdyn_msdyn_octwitterapplication_msdyn_oct
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

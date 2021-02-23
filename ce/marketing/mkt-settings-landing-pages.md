@@ -58,7 +58,7 @@ For more information about how to create and edit matching strategies, see [Set 
 
 ## Set portal defaults
 
-Settings on the **Portal defaults** tab control how your marketing pages are hosted in Dynamics 365 Portals (if you are using a portal to host your landing pages). The following settings are available:
+Settings on the **Portal defaults** tab control how your marketing pages are hosted in Power Apps portals (if you are using a portal to host your landing pages). The following settings are available:
 
 - **Website**. Identifies the portal website where all new marketing pages will be published while the current configuration record is active. This defaults to the event website that was provisioned for you when you signed up for Dynamics 365 Marketing, but you can choose another if you have one. If you change this, pages that you've already published will remain on their current portal, but new pages will go to the new portal.
 - **Page language**. Sets the default language to use in the portal.
@@ -69,5 +69,8 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 [Open the advanced settings](open-advanced-settings.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Set matching strategies](mkt-settings-matching.md)  
-[Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)  
+[Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)  
 [Create interactive features with or without portals](portals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

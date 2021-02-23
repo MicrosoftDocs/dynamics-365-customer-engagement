@@ -21,3 +21,6 @@ search.app:
 # Set up and manage Marketing instances
 
 Topics in this section describe how to set up marketing for the first time, and how to update, backup, recall, copy, and uninstall marketing instances.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ The following sample shows how to configure the output file and the domain name 
  [Create extensions for the code generation tool](/powerapps/developer/common-data-service/org-service/extend-code-generation-tool)<br />
  [Late-bound and Early-bound programming using the Organization service](/powerapps/developer/common-data-service/org-service/early-bound-programming)<br />
  [Run a simple program using Customer Engagement web services](simple-program-web-services.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

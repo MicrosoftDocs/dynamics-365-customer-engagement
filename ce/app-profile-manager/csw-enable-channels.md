@@ -85,3 +85,6 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 [Customer Service workspace overview](../customer-service/csw-overview.md)  
 [Omnichannel agent overview](../customer-service/omnichannel-agent-overview.md)  
 [Introduction to intraday supervisor experiences](../customer-service/intro-intraday-insights-dashboard.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

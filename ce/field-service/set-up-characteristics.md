@@ -63,3 +63,6 @@ Characteristics are skills that resources possess. For example, they can be used
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)
  [User's Guide](../field-service/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

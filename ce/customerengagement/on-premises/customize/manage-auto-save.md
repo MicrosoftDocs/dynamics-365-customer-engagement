@@ -16,11 +16,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-
 ---
 # Disable auto-save
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Disable auto-save in a model-driven app](/powerapps/maker/model-driven-apps/manage-auto-save)
 
 Auto-save helps people focus on their work without having to manage saving data in the form. Most people will appreciate not having to explicitly save data each time they update a record, but some organizations may have customizations that were designed expecting an explicit save. For these organizations there are options to manage how auto-save is applied.  
   
@@ -147,3 +146,6 @@ Auto-save helps people focus on their work without having to manage saving data 
  [How main forms appear in different clients](../customize/main-form-presentations.md)   
  [Optimize form performance](../customize/optimize-form-performance.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

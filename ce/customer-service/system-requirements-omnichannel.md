@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Omnichannel for Customer Se
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/20/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -25,9 +25,9 @@ You can deploy Omnichannel for Customer Service over a Customer Service applicat
 
 This section lists the prerequisites for using Omnichannel for Customer Service.
 
-### Availability
+### International availability
 
-To find out if Omnichannel for Customer Service is available in your region, see [International availability](international-availability.md).
+Make sure that Omnichannel for Customer Service is available in your region. For more information, see [International availability](international-availability.md).
 
 ### Licensing
 
@@ -35,30 +35,29 @@ To find out if Omnichannel for Customer Service is available in your region, see
 - You must have an active subscription to the Dynamics 365 Customer Service Digital Messaging add-on for each Digital Messaging user or Chat for Dynamics 365 Customer Service for each Chat user.
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
-## System and hardware requirements of Omnichannel for Customer Service with web experience
+## System requirements of Omnichannel for Customer Service
+
+The system requirements to use Omnichannel for Customer Service are as follows.
 
 | Area | Requirements |
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app version 9.1.0000.3653 or later  |
-| Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li><li>Microsoft Edge (Legacy version) <br> **Note:** Support for the legacy version of Microsoft Edge will be deprecated on January 01, 2021. <br>  **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
+| Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 
-## System and hardware requirements of Omnichannel for Customer Service with Unified Service Desk
+### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
 
-You will need the following to use Omnichannel for Customer Service with Unified Service Desk:
+The following browsers are supported by the live chat widget in Omnichannel for Customer Service:
 
-| Area | Requirements |
-|------------|----------|
-| Desktop application | 64-bit version of Unified Service Desk 4.1.1.1253 or later <br>More information: [Download Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md#download-unified-service-desk-client-application)|
-| Model-driven app |Dynamics 365 Customer Service app version 9.1.0000.3653 or higher <br> **Note:** We recommend you use a new production Dynamics 365 Customer Service instance to use Omnichannel for Customer Service on Unified Service Desk. |
-| Hosting type |Chrome Process <br> To learn more about hosting types, see [Configure recommended settings for Unified Service Desk](../unified-service-desk/oc-usd/configure-settings-unified-service-desk.md). |
-| Operating system | Windows 10, version released in October 2018 or later|
-| Memory (Hardware) | ^8-GB RAM or more |
+- **Windows:** Chromium-based Microsoft Edge, Google Chrome, Mozilla Firefox, and Internet Explorer 11
+- **macOS and iOS:** Safari
+- **Android:** Chromium-based Microsoft Edge and Google Chrome
 
-^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations for the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
-
-For other hardware requirements of the Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
+> [!NOTE]
+>
+> - Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
+> - Support for Internet Explorer 11 is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](deprecations-customer-service.md#internetexplorer11).
 
 ## Provision Omnichannel
 
@@ -70,15 +69,12 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](upgrade-o
 >
 > - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
-> - Omnichannel for Customer Service for other regions will be available in the future.
+> - Microsoft recommends that you use browsers for Omnichannel for Customer Service in normal mode for optimal experience.
 
-## Allow access to websites or URLs
+## Allow access to websites
 
-If your organization is using a URL filter to block a category of websites or URLs, you might have to allow a specific website as an exception.
+If your organization is using a URL filter to block a category of websites, you need to allow specific websites as an exception for your users to access the Omnichannel for Customer Service app and live chat widget in the business portal:
 
-Add the following URLs for your users to access the Omnichannel for Customer Service app and live chat widget in the portal:
-
--
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
@@ -118,9 +114,11 @@ Customers must be able to access the following URLs from their browsers to use t
 - `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/*`
 
-### Geo-specific URLs
+### Geo-specific links
 
-| Geographic location | URL |
+Geographic specific links that should be accessible are as follows.
+
+| Geographic location | Links |
 |-------------------------------|----------------------------------|
 | North America | `oc-cdn-ocprod.azureedge.net/*`|
 | Europe | `oc-cdn-public-eur.azureedge.net/*`|
@@ -135,6 +133,8 @@ Customers must be able to access the following URLs from their browsers to use t
 | France | `oc-cdn-public-fra.azureedge.net/*`|
 
 ### Government Community Cloud (GCC)
+
+The Government community cloud links that should be accessible are as follows.
 
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
@@ -152,3 +152,6 @@ Customers must be able to access the following URLs from their browsers to use t
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
 [System customizers guide](omnichannel-customizer.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

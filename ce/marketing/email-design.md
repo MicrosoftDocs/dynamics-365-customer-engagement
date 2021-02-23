@@ -127,3 +127,6 @@ For complete details about these and other dynamic-content features, see [Add dy
 [Design elements reference](content-blocks-reference.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Upload and use images and files](upload-images-files.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
