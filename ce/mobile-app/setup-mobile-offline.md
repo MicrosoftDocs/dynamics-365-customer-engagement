@@ -186,10 +186,10 @@ To create a profile follow the steps below.
 
 Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. From March 2021 it will be possible to also add teams to a profile. 
 
-A user and a team can only be added to one offline profile at a time. Each time an individual user or team is added to an offline profile the profile will need to be published again as described in **Step 2.2**. It is not required to re-publish the mobile profile after users have been added as member to a team. 
+A user and a team can only be added to one offline profile at a time. Each time an individual user or team is added to an offline profile the profile will need to be published again as described in **Step 2.2**. It is not required to re-publish the mobile profile after users have been added as members to a team. 
 
 > [!NOTE]
-> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. If teams are used in profiles the security roles for team members must also have Read permsissions on the UserMobileOfflineProfileMembership and TeamMobileOfflineProfileMembership.
+> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. If teams are used in profiles the security role for team members must also have Read permsissions on the UserMobileOfflineProfileMembership and the TeamMobileOfflineProfileMembership.
 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
@@ -203,7 +203,7 @@ A user and a team can only be added to one offline profile at a time. Each time 
   
 4.  When you’re done adding people, select **Save**.
 
-The actual users added based on teams are displayed under each team. Individually  added users are displayed under Individual users.  A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might be disrupt the users experience  if the other profile is in a published state. 
+The actual users added based on teams are displayed under each team. Individually added users are displayed under Individual users. A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might be disrupt the users experience, if the other profile has been published. 
 
 ### Step 2.2: Publish a mobile offline profile
 
