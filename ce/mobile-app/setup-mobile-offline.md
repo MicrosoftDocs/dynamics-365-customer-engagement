@@ -184,7 +184,7 @@ To create a profile follow the steps below.
 
 ### Step 2.1: Add users to a mobile offline profile 
 
-Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. From March 2021 it is also possible to also add teams to the profile. 
+Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. From March 2021 it is also possible to add teams to a profile. 
 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
@@ -201,7 +201,9 @@ Once you have created a mobile offline profile, you can start adding users to th
   
 4.  When you’re done adding people, select **Save**.
 
-The actual users added based on teams are displayed under each team. Individually added users are displayed under Individual users. A user and a team can only be added to one offline profile at a time. A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might disrupt users experience, if the other profile has been published. 
+The actual users added based on teams are displayed under each team. Individually added users are displayed under Individual users. 
+
+A user and a team can only be added to one offline profile at a time. A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might disrupt users experience, if the other profile has been published. 
 
 ### Step 2.2: Publish a mobile offline profile
 
@@ -215,7 +217,7 @@ Following these steps to publish the profile:
   
 2. When you’re done adding people and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
-It is not required to re-publish the mobile profile after users or teams have been added.
+It is not required to re-publish a mobile profile after users or teams have been added.
 
    > [!div class="mx-imgBorder"]
    >![Publish offline profile](media/mol_publish.png "Publish offline profile")
