@@ -159,3 +159,6 @@ Dynamics 365 Sales Professional is a cloud-based application that runs on a Micr
 
 [Help resources for Dynamics 365 Sales Professional](help-hub.md)  
 [Dynamics 365 Sales Professional troubleshooting guide](troubleshooting-sp.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

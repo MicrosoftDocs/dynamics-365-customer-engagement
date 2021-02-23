@@ -94,3 +94,6 @@ if ((window.IsUSD != null) && (window.IsUSD == true))
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)   
  [MSDN: Use JavaScript with Microsoft Dynamics CRM](https://msdn.microsoft.com/library/hh771584.aspx)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ You can now view the details in the **Transcript** section.
 ## See also
 
 [Configure relevance search for chat transcript](relevance-search-chat-transcript.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

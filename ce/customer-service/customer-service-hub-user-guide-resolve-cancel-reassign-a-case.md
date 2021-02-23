@@ -105,3 +105,6 @@ Located on the right side of the form, is the case resolution sub-grid. Here you
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ In the form Navigation Pane, you can add links to related entities. When a user 
   
 ### See also  
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

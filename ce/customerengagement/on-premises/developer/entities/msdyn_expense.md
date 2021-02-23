@@ -1548,3 +1548,5 @@ See uomschedule Entity [msdyn_uomschedule_msdyn_expense_UnitGroup](uomschedule.m
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_expense?text=msdyn_expense EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

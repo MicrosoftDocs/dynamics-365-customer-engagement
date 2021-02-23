@@ -219,3 +219,6 @@ You need to remove **GamificationUpdate** *before* you remove **Gamification**. 
  [Set up and run games in Gamification](run-games.md)   
  [Troubleshooting guide](troubleshooting-guide.md)    
  [Privacy information and license terms for Gamification](legal-information.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ The Web data-driven adapter (WebDDA) provides access to HTML-based applications.
  [WinDDA](../unified-service-desk/windda.md)   
  [UIADDA](../unified-service-desk/uiadda.md)   
  [JavaDDA](../unified-service-desk/javadda.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

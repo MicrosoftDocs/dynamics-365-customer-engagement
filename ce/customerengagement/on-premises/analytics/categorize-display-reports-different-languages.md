@@ -36,3 +36,6 @@ You can enable additional languages in your apps by enabling Language Packs. Thi
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Use Parameters in Reports](../analytics/use-parameters-in-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

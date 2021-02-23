@@ -118,3 +118,6 @@ Here are some highlights of Dynamics 365 Sales Professional:
 [Learn the basics](learn-basics-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)  
 [What's new in Dynamics 365 Sales Professional](whats-new.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

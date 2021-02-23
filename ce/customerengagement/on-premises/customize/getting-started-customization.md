@@ -75,3 +75,6 @@ You can tailor an app to more closely fit your organization’s industry, nomenc
  [Customization concepts](../customize/overview.md)  
  [Using solutions](../customize/use-solutions-for-your-customizations.md)  
  [Create a custom theme or brand](../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ All the duplicate detection rules will be unpublished in the back end.
 [Manage Excel templates](manage-excel-templates.md)  
 [Manage Word templates](manage-word-templates.md)  
 [Export data](export-data-Word-Excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

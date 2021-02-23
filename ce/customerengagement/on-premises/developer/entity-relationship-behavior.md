@@ -162,3 +162,6 @@ The `CascadeConfiguration` (<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguratio
  [Support Multiple Languages with Labels](customize-labels-support-multiple-languages.md)   
  [Use record-based security to control access to records](security-dev/use-record-based-security-control-access-records.md)   
  [Sample: Create and retrieve entity relationships](org-service/sample-create-retrieve-entity-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

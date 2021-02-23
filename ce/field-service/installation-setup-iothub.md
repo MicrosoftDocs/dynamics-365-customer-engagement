@@ -116,3 +116,6 @@ Now you can send a test command by using the sample simulator. For example, sele
 [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/)
 
 [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

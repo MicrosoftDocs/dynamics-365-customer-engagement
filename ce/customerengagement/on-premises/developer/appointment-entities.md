@@ -41,3 +41,6 @@ appointment instance, for other appointments at the same interval.
  [Appointment Entity](entities/appointment.md)  
   
  [ServiceAppointment Entity](entities/serviceappointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

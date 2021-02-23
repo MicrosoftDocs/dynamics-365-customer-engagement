@@ -100,3 +100,6 @@ search.app:
 <li><a href="developer/marketing-organization-metadata.md" data-raw-source="[Metadata reference for your organization](developer/marketing-organization-metadata.md)">Metadata reference for your organization</a></li>
 </td></tr>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

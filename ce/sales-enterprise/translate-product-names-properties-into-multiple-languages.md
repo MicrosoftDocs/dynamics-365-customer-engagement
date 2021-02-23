@@ -90,3 +90,6 @@ When you sell your products in different regions, it is important that you trans
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
  [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

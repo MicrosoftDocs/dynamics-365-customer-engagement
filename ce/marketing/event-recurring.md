@@ -119,3 +119,6 @@ To revert a customized event-series occurrence to a standard occurrence from tha
 
 [Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

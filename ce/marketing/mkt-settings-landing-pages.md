@@ -71,3 +71,6 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 [Set matching strategies](mkt-settings-matching.md)  
 [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)  
 [Create interactive features with or without portals](portals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ The following XML configuration contents will install [!INCLUDE[pn_crm_fetch_ext
  [Microsoft Dynamics 365 Report Authoring Extension XML configuration file](dynamics-365-report-authoring-extension-xml-config-file.md)   </br>
  [Install Microsoft Dynamics 365 for Outlook using a command prompt](../../../outlook-addin/admin-guide/install-using-command-prompt.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

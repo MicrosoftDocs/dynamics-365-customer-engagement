@@ -68,3 +68,6 @@ For more information on creating forms, see [Create and design forms](../customi
 
 [Customize views](customize-views.md)  
 [Customize business process flows](customize-business-process-flows.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -893,3 +893,6 @@ IntersectEntityName: msdyn_appconfig_msdyn_channelprovider<br />
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 
 - [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

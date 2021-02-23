@@ -47,3 +47,6 @@ Download the complete sample from [Sample: Query data using LINQ](https://github
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
  [Sample: RetrieveMultiple With Condition Operators Using LINQ](sample-retrieve-multiple-with-condition-operators-using-linq.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

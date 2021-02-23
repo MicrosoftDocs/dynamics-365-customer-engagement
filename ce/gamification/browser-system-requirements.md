@@ -37,3 +37,6 @@ search.app:
 [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)  
 [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)  
 [Overview for players and fans in Gamification](for-players-fans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

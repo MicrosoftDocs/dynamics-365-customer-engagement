@@ -102,3 +102,6 @@ disabling full-text indexing** section.
 1.  Go to **Settings** \> **Administration** \> **System Settings** \> **General** tab.
 
 2.  Select **Yes** or **No** next to **Enable Relevance Search**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

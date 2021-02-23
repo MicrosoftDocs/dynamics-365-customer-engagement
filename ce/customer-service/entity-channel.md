@@ -188,3 +188,6 @@ If you are upgrading from preview release to the latest version, then earlier co
 [Create workstream for entity record routing](set-up-entity-workstream.md)
 
 [Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

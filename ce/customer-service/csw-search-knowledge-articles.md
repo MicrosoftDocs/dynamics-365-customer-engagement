@@ -157,3 +157,6 @@ The required view columns are as follows:
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 [Use sites to manage your service locations](uci-create-sites.md)
 
 [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

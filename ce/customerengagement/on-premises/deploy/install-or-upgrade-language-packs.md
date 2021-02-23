@@ -46,3 +46,6 @@ The [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-
  [Install or upgrade Dynamics 365 Server](install-or-upgrade-microsoft-dynamics-365-server.md)   </br>
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

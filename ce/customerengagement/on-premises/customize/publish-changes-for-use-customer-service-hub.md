@@ -37,3 +37,6 @@ search.audienceType:
 ### See also
 
 [Get started with app making and customization](getting-started-customization.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -351,3 +351,6 @@ Alternatively, you can find the SharePoint realm ID in the site app permissions 
 3.  The realm ID is displayed under **App Identifier** to the right of the @ sign. Copy it to the clipboard. In the Enable Server-Based SharePoint Integration wizard, paste in only the GUID. Do not paste in any part of the identifier to the left of @.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

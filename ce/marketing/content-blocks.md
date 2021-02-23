@@ -95,3 +95,6 @@ To add a content block to an email, form, or page design:
 > If a content block is unprotected, you can directly edit its elements and properties after inserting it into an email template. 
 > 
 > If you create a contact block outside of the Marketing app, it must contain user ownership, html hierarchy, and custom attributes that the content editor recognizes. To learn more about custom attributes for Marketing, visit [Use custom attributes to enable designer features in emails, pages, and forms](https://docs.microsoft.com/dynamics365/marketing/custom-template-attributes).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

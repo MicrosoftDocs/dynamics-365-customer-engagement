@@ -36,3 +36,6 @@ Dynamics 365 Customer Engagement (on-premises) is "process-driven." But what doe
 
 
 To learn more about business processes, [Watch this video (4:49) about Business Process flows](https://go.microsoft.com/fwlink/p/?linkid=842226).  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ The Overview page opens. The Overview page is a landing page that consolidates a
 [Set up enhanced email](set-up-enhanced-email.md)  
 [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)  
 [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

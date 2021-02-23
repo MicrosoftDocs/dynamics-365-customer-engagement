@@ -49,3 +49,6 @@ You can add iFrames and web resources in forms and dashboards in the [!INCLUDE[p
   
 ### See also  
  [MSDN: Create web resources and iFrame content for use with the Dynamics 365 for tablets client](https://msdn.microsoft.com/library/dn858562.aspx)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

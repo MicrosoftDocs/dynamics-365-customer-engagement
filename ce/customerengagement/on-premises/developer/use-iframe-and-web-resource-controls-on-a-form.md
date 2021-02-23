@@ -156,3 +156,6 @@ A web resource control configured to use a certain number of rows will have diff
  [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md)   
  [Use JavaScript with Customer Engagement](use-javascript.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

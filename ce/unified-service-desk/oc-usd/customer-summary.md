@@ -186,3 +186,6 @@ A *sub-agent script* is another agent script that has been invoked from the curr
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)
 - [setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

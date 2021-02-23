@@ -262,3 +262,6 @@ When you test the email configuration, an asynchronous job runs in the backgroun
 ## See also
 [Server-side synchronization](../admin/server-side-synchronization.md) </br>
 [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

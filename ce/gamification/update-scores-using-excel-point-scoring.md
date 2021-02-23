@@ -44,3 +44,6 @@ If you plan to run a game that uses one or more KPIs that can't be tracked by us
 [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)  
 [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)  
 [Configure KPIs for Gamification](configure-kpis.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

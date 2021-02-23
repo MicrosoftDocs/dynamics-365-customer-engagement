@@ -89,3 +89,6 @@ After you create and import Office Word templates into Customer Engagement, with
 
 More information: [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365) in the Power Platform admin documentation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

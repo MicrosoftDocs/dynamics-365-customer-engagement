@@ -94,3 +94,6 @@ To use event management public API, you need a web application token. The web ap
 ### See also
 
 [Build and host custom event website](event-management-web-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

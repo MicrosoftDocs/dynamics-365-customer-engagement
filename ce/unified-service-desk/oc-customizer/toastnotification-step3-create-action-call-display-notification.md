@@ -76,3 +76,6 @@ monikerRange: '>= dynamics-usd-4.1'
 - [Step 2: Create Omnichannel Toast Notification-related hosted control](toastnotification-step2-create-hosted-controls.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

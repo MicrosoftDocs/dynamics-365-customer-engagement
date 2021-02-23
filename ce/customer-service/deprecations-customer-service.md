@@ -80,3 +80,6 @@ The Customer Service Insights standalone app is planned for deprecation later th
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
 [Important changes (deprecations) coming in Power Apps, Power Automate](https://go.microsoft.com/fwlink/p/?linkid=2126541)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ This following pages are available in the **Settings** > **Advanced Settings** >
 - **Team Management**: Organize users into teams and apply roles to teams. More information: [Manage teams](manage-teams.md)
 - **Fiscal Year**: Define the fiscal year period used for reporting financial data at your organization. More information: [Define fiscal year settings](fiscal-year-settings.md)
 - **Excel and Word Templates**: Create templates that you can use to export, format, and share data from Dynamics 365. More information: [Manage Excel templates](manage-excel-templates.md) and [Manage Word templates](manage-word-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ The following procedure shows how to modify the **Customer profile** quick view 
 
 [Omnichannelsystem customizers](omnichannel-customizer.md)  
 [Customize Customer summary form](customize-customer-summary.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -138,3 +138,6 @@ If you want another person in your organization to work on an activity, you can 
 ### See also
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

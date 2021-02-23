@@ -52,3 +52,6 @@ Microsoft.CIFramework.requestFocusSession("session-id-1", correlationId).then(
         return Promise.reject(error)
 };
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

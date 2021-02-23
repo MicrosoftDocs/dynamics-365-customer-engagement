@@ -65,3 +65,5 @@ To schedule and publish a message to one of your social-media channels:
 You can edit, reschedule, or cancel any post that hasn't been sent yet. Just find and select it on the calendar to open the record, and then edit the settings or select **Delete** on the command bar as needed.
 
 Posts that were already sent are read-only, so you can't change or reschedule them, but you can remove them from the calendar or delete if you want. When you delete a post that has already been sent, it will be removed from the calendar and from the social-media sites.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

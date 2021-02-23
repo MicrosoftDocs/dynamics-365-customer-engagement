@@ -99,3 +99,6 @@ The following code shows how to emit Custom Channel Activity Create Interaction 
 [Create custom channel](create-custom-channel.md)<br/>
 [Configure the tile for custom channel](configure-tile-custom-channel.md)<br/>
 [Extend customer journey using code](extend-customer-journey-using-code.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

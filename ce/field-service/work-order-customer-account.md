@@ -179,3 +179,6 @@ Though the unit amount price of the travel charge is dictated by the price list,
 > In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ More information on:
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../customer-service/system-requirements-omnichannel.md)<br />
 [Known issues](../known-issues.md)<br />
 [FAQs for Channel Integration Framework](../faq-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

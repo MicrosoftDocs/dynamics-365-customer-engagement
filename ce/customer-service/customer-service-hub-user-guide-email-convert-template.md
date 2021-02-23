@@ -68,3 +68,6 @@ To view a complete list of all the email templates you've created:
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
 [Email FAQs](email-faqs.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

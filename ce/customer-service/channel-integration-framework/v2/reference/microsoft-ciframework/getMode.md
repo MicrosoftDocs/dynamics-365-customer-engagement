@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[getMode](includes/getMode-description.md)]
 
 [!INCLUDE[token-getMode](../../../shared/token-getMode.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ With the missed notifications feature, you can now choose to automatically set a
 
 [Manage notification settings and templates](notification-templates.md)  
 [View notifications](oc-notifications.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

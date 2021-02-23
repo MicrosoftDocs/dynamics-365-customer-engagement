@@ -89,3 +89,6 @@ After enabling global search, make sure there is a barcode field on the entity y
 > [!div class="mx-imgBorder"]
 > ![Device render showing the barcode field back in the Field Service (Dynamics 365) Field Service mobile app.](./media/mobilewithfield.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
 ### See also  
  [Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

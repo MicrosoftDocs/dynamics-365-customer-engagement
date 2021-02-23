@@ -30,3 +30,6 @@ ms.author: matp
   
  Start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] and verify whether the organization that you’re trying to upgrade is disabled. You must enable the organization before you can upgrade it.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

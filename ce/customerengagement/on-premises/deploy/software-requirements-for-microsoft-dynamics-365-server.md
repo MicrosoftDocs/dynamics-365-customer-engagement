@@ -202,3 +202,6 @@ This topic lists the software and application requirements for this version of [
  [Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)   
  [Microsoft Dynamics 365 Customer Engagement (on-premises) reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

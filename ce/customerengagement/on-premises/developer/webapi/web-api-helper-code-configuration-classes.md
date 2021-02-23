@@ -407,3 +407,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Helper code: Authentication class](web-api-helper-code-authentication-class.md)   
  [Helper code: CrmHttpResponseException class](web-api-helper-code-crmhttpresponseexception-class.md)   
  [SDK samples Helper code for Organization Service endpoint](https://www.nuget.org/packages/Microsoft.CrmSdk.Samples.HelperCode-CS)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

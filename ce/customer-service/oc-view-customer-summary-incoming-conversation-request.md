@@ -26,3 +26,6 @@ When you get an incoming conversation request, you see a notification and accept
 - [View customer summary](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

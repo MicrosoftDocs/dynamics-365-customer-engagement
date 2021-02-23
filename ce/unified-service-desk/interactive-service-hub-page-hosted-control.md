@@ -256,3 +256,6 @@ title=Sample Case
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [CRM page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

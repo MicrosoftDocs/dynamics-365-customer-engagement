@@ -35,3 +35,5 @@ As a system customizer, you might want to Customize the session forms to suit yo
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Customer summary form](customize-customer-summary.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

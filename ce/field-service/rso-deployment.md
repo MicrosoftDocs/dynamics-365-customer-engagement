@@ -52,3 +52,6 @@ Resource scheduling optimization is associated with a single Dynamics 365 organi
 
 ## Privacy notice  
 [!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

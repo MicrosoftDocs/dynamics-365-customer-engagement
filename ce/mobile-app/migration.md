@@ -49,3 +49,6 @@ Follow the steps below to ensure a smooth transition to the new app.
 > [!NOTE]
 > The Dynamics 365 phones and tablets app always opened the most recent app that you used. The Power Apps mobile app works differently in that it opens the list of apps that you have access to and you can select the app that you want to use. Or, you can pin the app that you use most on your home screen. For more information, go to [Pin an app to the home screen](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile#pin-an-app-to-the-home-screen).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

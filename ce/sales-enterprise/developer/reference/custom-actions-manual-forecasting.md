@@ -27,3 +27,6 @@ The following actions are used for forecasting:
 ### See also
 
 [Project accurate revenue with sales forecasting](../../project-accurate-revenue-sales-forecasting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

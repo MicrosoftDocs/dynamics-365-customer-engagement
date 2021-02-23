@@ -151,3 +151,6 @@ Dynamics 365 Marketing provides both a simulated preview and an inbox preview fo
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Design elements reference](content-blocks-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

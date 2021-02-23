@@ -34,3 +34,6 @@ ms.author: matp
   
  View the details for information about the errors that are listed, correct the problem, and then run Setup again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

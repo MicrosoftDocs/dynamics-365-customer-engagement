@@ -174,3 +174,6 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 ### See also  
  [Troubleshoot Microsoft Teams integration](teams-troubleshoot.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

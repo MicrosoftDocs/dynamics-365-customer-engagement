@@ -230,3 +230,6 @@ This topic provides information about the supported types and entities for proce
  [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)   
  [Custom workflow activities (workflow assemblies)](custom-workflow-activities-workflow-assemblies.md)   
  <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

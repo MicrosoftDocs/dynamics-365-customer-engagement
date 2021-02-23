@@ -372,3 +372,6 @@ For more information on notes and post functionality and configuration, see:
 
 [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md)  
 [Timeline FAQs](timeline-faqs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ To configure channel providers:
 [Configure channel provider in Channel Integration Framework version 2.0](v2/configure-channel-provider-channel-integration-framework.md)<br />
 [FAQs for Channel Integration Framework](faq-channel-integration-framework.md)<br />
 [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

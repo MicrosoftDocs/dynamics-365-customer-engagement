@@ -104,3 +104,6 @@ Only mapped fields can be saved with your lead record in Dynamics 365, and when 
 
 ### See also
 [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Set whether the Import Data wizard checks for and handles duplicate data on impo
 ### See also  
  [Import contacts](../basics/import-contacts.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

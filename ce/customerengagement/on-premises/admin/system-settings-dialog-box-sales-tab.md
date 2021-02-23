@@ -70,3 +70,6 @@ Use the settings on this page to configure system-level settings for the sales a
  [Create product bundles to sell multiple items together](../../../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)   
  [Use properties to describe a product](../../../sales-enterprise/use-properties-describe-product.md)  
  [Administrator and Sales Manager Guide](../../../sales-enterprise/admin-guide.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

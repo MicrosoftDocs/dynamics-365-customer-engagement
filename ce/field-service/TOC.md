@@ -10,14 +10,13 @@
 ## [Preview new features](field-service-preview.md)
 
 # Administration
-## [Work order process architecture](field-service-architecture.md)
-## [Sample data installation](install-sample-data-8-x.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
 ## [Territories](set-up-territories.md)
+## [Sample data installation](install-sample-data-8-x.md)
 ## [Field Service settings](configure-default-settings.md)
 
 
@@ -27,6 +26,7 @@
 
 
 # Work orders
+## [Work order process architecture](field-service-architecture.md)
 ## [Create a new work order](create-work-order.md)
 ## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Add account details to a work order](work-order-customer-account.md)

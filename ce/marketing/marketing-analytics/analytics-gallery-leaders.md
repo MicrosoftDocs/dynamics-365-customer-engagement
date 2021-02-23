@@ -83,3 +83,6 @@ This report lists all the KPIs, marketing messages, and journeys selected by the
 ![KPI breakdown and timeline](media/Leaderboards/LeaderBoards-ActivityBreakdown.png "KPI breakdown and timeline")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

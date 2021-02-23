@@ -29,3 +29,6 @@ The following table lists the requirements for using special and extended charac
 |[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] custom attribute names|Special characters / \ &#124; : * ? ‘ “ \< > ; - . and empty spaces cannot be used.|  
 |[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data|All special and extended characters can be used in the data stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.|
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

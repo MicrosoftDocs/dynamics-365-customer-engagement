@@ -104,3 +104,5 @@ Here you see a list of locations throughout the day, listed by user.
 ### See also
 
 [Geofencing](mobile-powerapp-geofence.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

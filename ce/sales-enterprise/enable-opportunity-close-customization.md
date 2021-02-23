@@ -48,3 +48,6 @@ If you're using a custom app, in addition to enabling the customization of oppor
 
 [Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
 [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

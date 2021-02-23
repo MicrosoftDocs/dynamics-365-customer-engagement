@@ -24,3 +24,6 @@ The following topics contain information about legacy Service Scheduling feature
  [Use sites to manage your service locations](../customer-service/use-sites-manage-service-locations.md)
  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

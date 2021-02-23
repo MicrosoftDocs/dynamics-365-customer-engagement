@@ -48,3 +48,6 @@ You can download an example of a data map with multiple entity types from [Micro
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Create Data Maps](create-data-maps-for-import.md)   
  [Blog Post: How to Import attachments programmatically](https://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

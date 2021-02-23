@@ -69,3 +69,6 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
   
 ### See also  
  [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

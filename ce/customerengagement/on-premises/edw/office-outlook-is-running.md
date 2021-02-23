@@ -30,3 +30,6 @@ ms.author: matp
   
 3.  Close Task Manager.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

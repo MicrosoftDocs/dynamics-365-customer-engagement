@@ -250,3 +250,6 @@ In order to effectively front load optimized bookings, add the **Schedule As Soo
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule as soon as possible constraint in correct order](./media/rso-schedule-as-soon-as-possible-objective-order.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

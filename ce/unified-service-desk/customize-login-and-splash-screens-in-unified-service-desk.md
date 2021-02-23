@@ -152,3 +152,6 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
   
 ### See also  
  [Customize themes in Unified Service Desk](../unified-service-desk/customize-themes-in-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

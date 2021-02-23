@@ -121,3 +121,6 @@ When you select one or more documents in the Documents list, you can take the fo
 ### See also
 
 [SharePoint, OneNote, and OneDrive integration with Common Data Service](/powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

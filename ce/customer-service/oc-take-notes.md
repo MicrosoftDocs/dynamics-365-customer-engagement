@@ -46,3 +46,6 @@ Again, when you switch back to the session, launch the notes panel and take the 
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

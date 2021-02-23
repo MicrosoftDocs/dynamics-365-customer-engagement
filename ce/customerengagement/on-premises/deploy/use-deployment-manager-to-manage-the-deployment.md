@@ -38,3 +38,6 @@ manager: kvivek
  [Manage organizations](manage-organizations.md)   
  [Manage servers](manage-servers.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

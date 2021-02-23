@@ -54,3 +54,6 @@ Microsoft is committed to making its products and services easier for everyone. 
  All out-of-box [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] hosted controls and custom controls that are included in the Web Client sample application package work with JAWS version 18 to provide speech output.  
   
  For information about how developers can extend custom hosted controls or hosted controls in the other [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application packages to support the JAWS screen reader, see [Configure JAWS Screen Reader in Unified Service Desk](../configure-jaws-screen-reader-support.md).  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

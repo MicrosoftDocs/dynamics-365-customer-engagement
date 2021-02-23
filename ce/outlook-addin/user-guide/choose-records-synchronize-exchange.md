@@ -89,3 +89,6 @@ search.app:
   
 ### See also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

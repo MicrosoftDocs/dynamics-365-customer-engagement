@@ -275,3 +275,6 @@ Customer journeys pass through many states while you create, edit, and run them.
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

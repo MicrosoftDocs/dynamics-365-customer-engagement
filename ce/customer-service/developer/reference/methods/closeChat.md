@@ -42,3 +42,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [startChat](startChat.md)<br />
 [setContextProvider](setContextProvider.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

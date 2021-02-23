@@ -183,3 +183,5 @@ Set server-side synchronization to be the default configuration method.
  [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
 -->
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

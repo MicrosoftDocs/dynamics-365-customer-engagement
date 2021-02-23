@@ -204,3 +204,6 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Use themes to customize the appearance of your application](../unified-service-desk/customize-appearance-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

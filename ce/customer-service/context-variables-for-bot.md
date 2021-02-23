@@ -96,3 +96,6 @@ The following steps explain how to configure a Power Automate flow to parse the 
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

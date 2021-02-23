@@ -25,3 +25,6 @@ ms.author: matp
  For more information about base and exensionbase table merge, see [Run the base and extension table merge as a separate operation](https://go.microsoft.com/fwlink/p/?LinkId=309240).
  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

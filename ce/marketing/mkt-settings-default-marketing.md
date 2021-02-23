@@ -62,3 +62,6 @@ However, some organizations need to send separate copies of the same email messa
 [Open the advanced settings](open-advanced-settings.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

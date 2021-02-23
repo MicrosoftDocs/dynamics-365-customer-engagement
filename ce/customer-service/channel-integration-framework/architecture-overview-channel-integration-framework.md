@@ -41,3 +41,6 @@ The Cloud Channel Provider is the service that you want to integrate and interac
 ## See also
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
