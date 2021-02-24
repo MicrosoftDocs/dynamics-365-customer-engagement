@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) for your organization. This dashboard consists of two sections:
 
-- [Conversations insights](#conversations-insights)
+- [Intraday Monitoring](#Intraday-Monitoring)
 - [Agent insights](#agent-insights)
 
 The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and refreshes every 15 minutes. The report is real time and fetches the latest data. If the report is kept open in a pre-configured Power BI workspace, then the report automatically refreshes after 15 minutes, and after every 5 minutes in a customer configured workspace.
@@ -25,18 +25,22 @@ The information displayed in these sections are displayed based on the conversat
 > [!IMPORTANT]
 > Best practices should be followed to ensure that metrics displayed on the dashboard are not adversely affected. To learn more, see [Best practices to use Omnichannel for Customer Service](best-practices.md).
 
-## Conversations insights
+## Intraday Monitoring
 
-The **Conversations insights** section provides insights on conversation requests that are generated in the past 24 hours with KPIs such as state of conversations and number of conversations.
+The Intraday Monitoring tab provides information on conversation insights and key performance indicators.
+
+### Conversations insights
+
+The **Conversations insights** section provides insights on conversation requests that are generated in the past 24 hours with key performance indicators such as state of conversations and number of conversations.
 
 The following screenshot is an example of the **Conversations insights** section.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Conversations insights dashboard](media/supervisor-conversations-insights-dashboard.png "Conversations insights dashboard")
 
-This section of the dashboard consists of the following KPIs.
+This section of the dashboard displays different performance indicators and their status.
 
-| KPI | Description |
+| Performance Indicator | Description |
 |-------|-------|
 | Average wait time per conversation | For a conversation, its wait time is defined as the cumulative wait times of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the session's creation and the time an agent is assigned. |
 | Exceeding 5 mins wait time | The number of conversations that are in an open status reason and have exceeded the time in the queue threshold of 5 minutes. |
@@ -46,18 +50,18 @@ This section of the dashboard consists of the following KPIs.
 | Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
 |||
 
-## Agent insights
+### Agent insights
 
-The **Agent insights** section provides information on the latest KPIs, the health of queues, the status of agents on a given day.
+The **Agent insights** section provides information on the latest key performance indicators, the health of queues, the status of agents on a given day.
 
 An example of the **Agent insights** section is as follows.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Agent insights dashboard](media/supervisor-agent-insights-dashboard.png "Agent insights dashboard")
 
-This section of the dashboard consists of the following KPIs.
+This section of the dashboard displays different performance indicators and their status.
 
-| KPI | Description |
+| Performance Indicators | Description |
 |-------|-------|
 | Agent availability | The distribution of agents by presence status. The presence status of agents can be available, busy, busy-do not disturb, away, offline, or your custom defined status. |
 | Average handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. More information: [Average handle time](#average-handle-time). |
@@ -70,56 +74,57 @@ This section of the dashboard consists of the following KPIs.
 | Conversations per online agent | The average number of active conversations and being handled by agents whose status is currently available, busy or busy-do not disturb. |
 |||
 
-### Agent Performance
+## Agent Insights
 
-You can view specific insights about the performance of individual or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
+In the Agent Insights report, you can view specific insights about the performance of individual or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
 The following screen shows an example of the specific queue for a group of agents.
  
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Agent queue](media/agent-queue-details.png "Agent queue")
 
-The **Agents insights** dashboard displays the following KPIs.
+The **Agents insights** dashboard displays the different conversation statuses.
 
-| KPI | Description |
+| Conversation status | Description |
 |-------|-------|
 | Agent status | The availability status of the agent. |
+| Conversation status reason | The latest conversation status between an agent and a customer. |
 | Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active till it is closed and includes the time the agents takes to wrap-up. More information: [Average handle time](#average-handle-time).|
 | Participation mode | The split of sessions which are of three types: Primary indicates the agent who's assigned to the session, Consult indicates agents who are engaged in a consulting session, and supervisors who are monitoring are treated as Monitor sessions. |
-| Total capacity | Total capacity of work items that can be assigned to agents. |
-| Available capacity | Remaining capacity of the agents after the work items are assigned. |
-| Active | The number of conversations that are ongoing. |
-| Wrap-up | The number of conversations in the post-conversation stage. | For more information on wrapping up conversations, see [Understand conversation states](oc-conversation-state.md#Wrap-up)
-| Waiting | The number of conversations that are yet to be assigned to agents. |
-| Closed | The number of conversations that have been closed by the agents. |
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can click on the **Status** field and modify an agent's presence. You can also hover over an agent’s name and a pop-up dialog will display, showing details such as the agent’s presence, their current conversations, and the sentiments of those conversations.
 
 The following screen shows the options for viewing agent information in a specific set of queues.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![View agent information](media/view-agent-info-queues.png "View agent information")
 
-The table in the **Agents insights** dashboard displays the following information.
+The table in the **Agents insights** dashboard displays different agent details.
 
-| KPI | Description |
+| Agent details | Description |
 |-------|-------|
 | Agent name | A list of the agent names for the queue. |
-| Status | The current presence of the agent: available, offline, do not disturb, or busy. |
+| Status | The current presence of the agent. |
 | Available capacity | The current free capacity with the agent. |
 | Total capacity | The total capacity configured for an agent. |
-| Ongoing Conversations | All the conversations that are currently in active, waiting or wrap-up status reason. |
+| Active | The number of conversations that are ongoing. |
+| Wrap-up | The number of conversations in the post-conversation stage. | For more information on wrapping up conversations, see [Understand conversation states](oc-conversation-state.md#Wrap-up)
+| Waiting | The number of conversations that are yet to be assigned to agents. |
+| Closed | The number of conversations that have been closed by the agents. |
 | Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](#average-handle-time). |
 |||
 
 You can also view specific details about an agent by right-clicking the agent's name, and then selecting **Drill through** > **Agent details**, as shown on the following screen.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Access agent's specific details](media/intraday-agent-drill-through.png "Access specific details for an agent")
+
+> [!NOTE]
+> The **Drill through** feature is not supported outside of Omnichannel for Customer Service.
 
 The agent's details are displayed, as shown on the following screen.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![View agent's specific details](media/view-agent-details.png "View agent's specific details")
 
 This section of the dashboard consists of the following details:
