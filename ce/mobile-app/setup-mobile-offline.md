@@ -180,10 +180,11 @@ To create a profile follow the steps below.
     > [!div class="mx-imgBorder"]
     >![Add entity relationship](media/mol_add_relationship.png "Add entity relationship")
   
-11. Optionally, under **Sync interval** update the default sync interval e.g., **Every 5 minutes**, to a less frequent interval to optimize the sync performance and user experience, based on the pattern of record updates for the table and business requirements. Typically the more static the data is the less frequent can the sync interval be. 
+11. Optionally, under **Sync interval** update the default sync interval e.g., **Every 5 minutes**, to a less frequent interval to optimize the sync performance and user experience, based on the pattern of record updates for the table and business requirements. Typically the more static the data is, the less need for a frequent sync interval. 
 
 > [!NOTE]
-> Even if the value for **Sync interval** is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. Relationships and dependencies are analyzed for each sync request and this might result in a sync being triggered also for related tables.
+> Even if the value for **Sync interval** is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. 
+> Relationships and dependencies are analyzed for each sync request and this might result in a sync being triggered also for related tables.
   
 12. Select **Save** to add the entity to your profile so you can continue editing it.
 
