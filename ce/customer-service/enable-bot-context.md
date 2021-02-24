@@ -15,7 +15,9 @@ ms.reviewer: nenellim
 
 As a bot author, you can enable your Azure bot to understand context while authoring a bot flow. Bot context includes context name-value pairs for the current conversation and custom context passed by API programmatically.
 
-When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the Azure bot. For information on context variables that can be configured, see [Context variables for bots](context-variables-for-bot.md).
+When customers initiate a conversation, the relevant context that is related to the customer, the issue they are facing, and recent activities performed by them can be made available for the bot to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the bot can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, the pre-conversation information, custom context, or recent pages browsed on a website by the customer can be passed on to the bot by configuring context variables for the Azure bot.
+
+For information on context variables that can be configured, see [Context variables for bots](context-variables-for-bot.md).
 
 ## Install the bot SDK in your project
 
@@ -24,13 +26,15 @@ When customers initiate a conversation, the relevant context that is related to 
 2. In the NuGet Package Manager, select the feedname **nuget.org** and search for "Microsoft.Xrm.Omnichannel.BotSDK". Select the package and select install. Refer to [Nuget page](https://www.nuget.org/packages/Microsoft.Xrm.Omnichannel.BotSDK)
 
 >![Search for Omnichannel middleware](media/enable_botcon_step2.png "Search for Omnichannel middleware")
-    
-Alternatively, you can use the following command in NuGet CLI: 
+
+Alternatively, you can use the following command in NuGet CLI:
 
 ```
 Install-Package Microsoft.Xrm.Omnichannel.BotSDK -version 1.0.0.4 
 ```
 The bot SDK is now installed and the Omnichannel middleware is available in your project.
+
+The Omnichannel for Customer Service context messages are sent as activity events to bots and you need to overridde the `OnEventActivityAsync` method to process the context messages.
 
 ## Use the Omnichannel middleware in your bot code
 
@@ -49,9 +53,8 @@ Use this procedure if you have created your bot using Visual Studio Azure Bot te
 
 ### See also
 
-[Manage custom context](send-context-starting-chat.md)<br />
+[Manage custom context](send-context-starting-chat.md)  
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
 [Integrate an Azure bot](configure-bot.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
