@@ -150,7 +150,7 @@ To review and test changes, we recommend setting up an account and contact as if
 2. Next, create a contact in Field Service with a test email address and mobile phone number.
 3. Assign the contact as the primary contact of the test account you created.
 4. Create a work order and assign the service account you created.
-5 Create a booking for the work order, and set the status to *Scheduled*. Set the start date within the range of your **Booking Reminder** notifications.
+5. Create a booking for the work order, and set the status to *Scheduled*. Set the start date within the range of your **Booking Reminder** notifications.
 6. Assign a resource to the booking. The resource assigned to the booking should have access to the Field Service mobile app, with **Location Sharing** enabled. For more information, see: [FAQ to manually enter a resource location](#q-how-can-i-manually-enter-a-resource-location-without-sharing-location-from-field-service-mobile).
 7. After saving the booking, you will receive an email or SMS notification to the test email address and mobile phone number associated with the test contact. Follow the link the notification to review the portal, and you'll find a map showing the location of the service account.
 8. Change the booking status to *Traveling*. You will receive a second email or SMS notification. This notification will include a map showing the current location of the technician and their estimated arrival time to the service account location.
