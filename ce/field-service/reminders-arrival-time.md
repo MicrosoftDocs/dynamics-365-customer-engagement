@@ -1,5 +1,5 @@
 ---
-title: "Send customers their technician's arrival times in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Send current technician location and arrival times to your customers with Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to send customers information about their upcoming service in Dynamics 365 Field Service
 ms.custom:
 - dyn365-fieldservice
@@ -19,7 +19,7 @@ search.app:
 - D365FS
 ---
 
-# Send technician arrival times to customers with Dynamics 365 Field Service
+# Send current technician location and arrival times to your customers with Dynamics 365 Field Service
 
 > [!Note]
 > This feature is currently in public preview and only available in English language in North American environments.
