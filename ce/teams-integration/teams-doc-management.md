@@ -23,7 +23,9 @@ search.app:
 ---
 # Document management in Microsoft Teams integration
 
-Document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), that are seamlessly stored in SharePoint. 
+Document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), that are seamlessly stored in SharePoint. With the Dynamics 365 and Microsoft Teams integration, this document management now extends to Teams. This allows users to co-author documents and have them automatically sync to Dynamics 365 via SharePoint.
+
+Using the Files tab in Teams or the Documents tab in Dynamics 365, you can store and manage documents in the context of a record on a SharePoint Server, and leverage the SharePoint infrastructure to share, manage, and collaborate efficiently. Because the documents are stored on a SharePoint Server, users on Teams can directly access the documents on the SharePoint Server, provided they have the appropriate permissions.
 
 To access documents between Microsoft Teams and customer engagement apps, you need explicit permission to use document management in your customer engagement app and SharePoint. For information: [Permissions required for document management tasks](Permissions required for document management tasks)
 
