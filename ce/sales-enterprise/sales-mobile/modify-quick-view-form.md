@@ -10,10 +10,12 @@ manager: shujoshi
 ---
 
 # Modify quick view forms
+<!--note from editor: I assume this article should have the disclaimer? Most of the others seem to, except search-records.md (perhaps that one should have it also?).  -->
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Dynamics 365 Sales mobile app uses the quick view form to display details of a table. It is a lightweight form and doesn't include all attributes of the table. For more information about quick view forms, see [Create a quick view form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-view-forms).
+The Dynamics 365 Sales mobile app uses the quick view form to display table details. This is a lightweight form that doesn't include all attributes of the table. More information: [Create a quick view form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-view-forms)
 
-If you have created multiple quick view forms, the mobile app uses the first form in the quick view form order. For example, if you have the following quick view forms for the Contact table, you'll see the form order as shown in the following table.
+If you've created multiple quick view forms, the mobile app uses the first form in the quick view form order. In the following example, three quick view forms were created for the **Contacts** table with the form order as shown.<!--note from editor: These edits are suggested, to make it a bit clearer that we're making up these names.-->
 
 |Form order|Form name|
 |----------|---------|
@@ -22,9 +24,9 @@ If you have created multiple quick view forms, the mobile app uses the first for
 |3|Contact quick view form three|
 |||
 
-The mobile app displays information as per the fields defined in Contact quick view form one.
+In this example, the mobile app displays information based on the fields defined in **Contact quick view form one**.
 
-If you want to change the fields to be displayed in the mobile app, modify the first quick view form in the form order. If you want a different quick view form to be used for displaying information, move the form to the top of the form order. More information on setting form order: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
+If you want to change the fields that the mobile app displays, modify the first quick view form in the form order. If you want a different quick view form to be used for displaying information, move that form to the top of the form order. More information: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
 ### See also
 
