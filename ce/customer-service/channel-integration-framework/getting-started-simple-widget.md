@@ -1,10 +1,10 @@
 ---
 title: "Get started with building a simple communication widget with Dynamics 365 Channel Integration Framework version 1.0 | MicrosoftDocs"
-description: "Read how to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework version 1.0."
+description: "How to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework version 1.0."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/24/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -78,6 +78,11 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
   ![Published sample widget in Unified Interface apps](media/cif-helloworld-configure-app.PNG "Published sample widget in Unified Interface apps")<br />
 
 Now, proceed to the next section of this walkthrough that shows how you can search and open a record in Dynamics 365  on an incoming call.<br />
+
+## How to check if Channel Integration Framework 1.0 is ready for communication
+
+You can check if Channel Integration Framework 1.0 is ready by invoking CIFInitDone event. CIFInitDone event is raised by Channel Integration Framework library after the Channel Integration Framework is loaded. This event determines if the Channel Integration Framework APIs are ready for communication. More information: [Events](reference/client-side-events.md#events)
+
 
 ### See also
 [Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)
