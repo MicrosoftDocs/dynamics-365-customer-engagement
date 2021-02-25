@@ -1,7 +1,7 @@
 ---
 title: "Use designer feature protection (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 Marketing."
-ms.date: 03/08/2019
+ms.date: 02/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -27,8 +27,7 @@ Designer feature protection lets you control which users have access to which fe
 
 To control access to these designer features:
 
-1. Go to **Settings** > **Designer feature protection**. This opens a list of currently defined protection rules, each of which shows which user or group is being denied access to which features. Each row sets a rule for exactly one user or group.    
-    ![Navigate to Designer feature protection](media/designer-protection-nav.png "Navigate to Designer feature protection")
+1. Go to **Settings** > **Email marketing** >**Designer feature protection**. This opens a list of currently defined protection rules, each of which shows which user or group is being denied access to which features. Each row sets a rule for exactly one user or group.
 
 1. Do one of the following:
     - To edit an existing rule, select it from the list and then choose **Edit** from the command bar (or double-click on it).
