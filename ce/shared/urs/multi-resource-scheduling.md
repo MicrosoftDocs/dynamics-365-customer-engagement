@@ -168,6 +168,9 @@ Select **Book** to schedule the work order.
   
 - After scheduling multiple requirements to multiple resources and thus creating multiple bookings, the work order status is driven by the same logic as scheduling crews or pools or manually scheduling the same work order multiple times. This means that if at least one booking has a status of **In Progress**, then the related work order will have a status of **Open-In Progress**. Additionally, the work order status becomes **Open-Completed** only if all related bookings have a status of **Completed** (not including canceled bookings). 
 
+ > [!NOTE]
+   > When clicked on Book button on the requirement group form, the Schedule Assistant window opens up, which shows Filter panel with a set of fields to filter the results based on. This filter layout is not customizable currently for Requirement groups. 
+
 ## Keyboard shortcuts
 
 You can use keyboard shortcuts when creating requirement groups, shown in the following table.
