@@ -1,7 +1,7 @@
 ---
 title: "Customize Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to customize lists, forms, workflows, business processes, validations, and more in Dynamics 365 Marketing."
-ms.date: 06/07/2019
+ms.date: 02/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-cust
@@ -27,12 +27,7 @@ Model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Ser
 > [!WARNING]
 > Do not include sensitive information in your customized schema and display names. Schema and display names for fields, entities, relations, attributes, and other elements are displayed in various interfaces throughout the Marketing application. They may also be referenced by other object definitions and get shared through various other channels. They may also appear in telemetry.
 
-The techniques for customizing Dynamics 365 Marketing are the same as those for customizing other model-driven apps in Dynamics 365. You'll make these customizations using the advanced-settings area. The advanced-settings area provides settings that are common for all Dynamics 365 model-driven apps on your tenant, including user, security, and customization settings.
-
-To access the customization settings in the advanced-settings area:
-
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
-1. Navigate to **Settings** > **Customizations** > **Customizations**.
+The techniques for customizing Dynamics 365 Marketing are the same as those for customizing other model-driven apps in Dynamics 365.
 
 For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
