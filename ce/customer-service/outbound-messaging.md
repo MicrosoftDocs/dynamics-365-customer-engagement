@@ -20,11 +20,11 @@ ms.reviewer: nenellim
 
 Outbound messaging enables organizations to send messages to their customers based on system-triggered or user-defined events through supported channels. 
 
-With outbound messaging, organizations can do the following:
+With outbound messaging, organizations can do the following: 
 
 - Create message templates that can be adopted for outbound messages.
 - Configure outbound messages based on certain events on any entity and send the messages when those events are triggered.
-- Configure outbound messages to send manually based on non-system events.
+- Configure outbound messages to be sent manually based on non-system events.
 
 Organizations can send messages to customers automatically based on a system event, such as case creation. Organizations also can send notices to customers based on non-system events such as a shipping delays due to weather. 
 
@@ -46,34 +46,36 @@ After completing the prerequisites, you can send outbound messages from your org
 
 ## Step 1: Set up message templates
 
-1. Consider the scenarios that require your organization to send outbound messages.
+You need to set up templates to send outbound messages. To create a template consider the scenarios that require your organization to send outbound messages.
 
-2. Log in to the Omnichannel Administration app. 
+1. Log in to the Omnichannel Administration app. 
 
-3. Create a template for your outbound message.
+2. Create a template for your outbound message.
     
     - [Create a template (SMS, Twitter)](create-message-templates.md) 
     - [Create a template (WhatsApp)](configure-whatsapp-channel.md#modify-settings-for-a-specific-whatsapp-phone-number)
 
 ## Step 2: Set up outbound configuration
 
-1. Under **Settings**, click **Outbound**.
+Perform the following steps to set up outbound configuration for your organization.
+
+1. Go to **Settings**, and select **Outbound**.
 
 2. Complete the following fields:
 
-    | Field               | Sample value                         |
-    |---------------------|--------------------------------------|
-    | Name                | Case create message                  |
-    | Show in timeline    | Yes                                  |
-    | Channel type        | SMS, Twitter, or WhatsApp                           |
-    | Channel             | (the preconfigured channel number)   |
-    | Message template    | (your previously created template)   |
+    | Field               | Requirement| Sample value                         |
+    |---------------------|------------|--------------------------|
+    | Name                | Required | Case create message                  |
+    | Show in timeline    | Required | Yes                                  |
+    | Channel type        | Required | SMS, Twitter, or WhatsApp                           |
+    | Channel             | Required | (the preconfigured channel number)   |
+    | Message template    | Required | (your previously created template)   |
 
-    The **Configuration ID** will be generated when you click **Save**. You will use this later to identify this outbound configuration when you set up the flow in Power Automate.
+    The **Configuration ID** will be generated when you select **Save**. You will use this later to identify this outbound configuration when you set up the flow in Power Automate.
 
-     **Show in timeline** displays the outbound message in the customer timeline and activities. Set to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No** in order to conserve resources in your Omnichannel environment and storage. 
+    The **Show in timeline** field displays the outbound message in the customer's timeline and activities. Set the toggle to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that will be sent to a high volume of customers, it is recommended to leave this setting at **No**, in order to conserve resources in your Omnichannel environment and storage. 
     
-    Choose a **Message template** for the outbound message. Default message language and additional localized message versions are part of message template configuration. Defaults configured there will apply to outbound messages with no requested language configured.
+    You can choose a **Message template** for the outbound message. Default message language and additional localized message versions are part of the message template configuration and will apply to outbound messages.
     
     > [!div class=mx-imgBorder]
     > ![Configure outbound messages](media/outbound-configuration.png "Configure outbound messages")
@@ -82,17 +84,17 @@ After completing the prerequisites, you can send outbound messages from your org
 
 Power Automate provides a low code platform for workflow and process automation. Omnichannel outbound messaging relies on flow based business logic. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
 
-- [Case Creation flow](https://aka.ms/CaseCreation) (ZIP file)
+- [Case Creation flow](https://aka.ms/CaseCreation) (ZIP file) : This template sends an automatic outbound message when a case is created.
 
-- [Case Resolved flow](https://aka.ms/CaseResolved) (ZIP file)
+- [Case Resolved flow](https://aka.ms/CaseResolved) (ZIP file) : This instant type template sends an outbound message manually to all customers with a case in resolved state.
 
-To set up a Power Automate flow, complete the following steps.
+To set up a Power Automate flow, you need to perform the following steps.
 
-1. Go to https://us.flow.microsoft.com/, sign in to your account, and click **My flows**.
+1. Go to https://us.flow.microsoft.com/, sign in to your account, and select **My flows**.
 
     OR
     
-    In the Omnichannel Administration app, **Message template view**, click the **Flow** button at the top of the screen, and click **Create a flow**.
+    In the Omnichannel Administration app, select **Message template view** > **Flow** at the top of the screen. Select **Create a flow**.
 
 2. In Power Automate, set up a flow that aligns with your outbound messaging scenario.
 
@@ -104,23 +106,45 @@ To set up a Power Automate flow, complete the following steps.
     
     For more information about the current limits and configuration details for flows, refer to [Limits and configuration in Power Automate](https://docs.microsoft.com/power-automate/limits-and-config).
 
-3. When you create a flow, you must add the action, incident_msdyn_ocoutboundmessages. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
+ > [!div class ="mx-imgBorder"]
+ >![Create a case](media/record-creation.png "Create a record when setting up a Power Automate Flow")
 
-    > [!div class=mx-imgBorder]
+3. Add the action, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
+
+    > [!div class="mx-imgBorder"]
     > ![Outbound message flow initialize variable](media/outbound-message-flow1.png "Outbound message flow initialize variable")
 
-4. Then, you must refer to it in the append variable step. In the example below, "entityrelationshipname" refers to the ActivityRelationship defined above.
+4. Initialize a ContactList array variable which will be used as contact information.
 
-    > [!div class=mx-imgBorder]
-    > ![Outbound message flow append variable](media/outbound-message-flow2.png "Outbound message flow append variable")
-   
-    - You must define any slugs used in your outbound message here. You can define any Microsoft Dataverse entity to be used as a slug. Once defined they can be added to the message. Slugs not defined here will not resolve. Sample message based on above flow config: “Dear {CustomerName}, we have opened case {CaseName} for you to track your inquiry. Thank you!”
-    - The message language is determined by the numerical locale id as set as “locale”: 1033, English-United States, in the example. To enable dynamic message languages, this variable must be replaced by a locale entity reference, such as preferred customer language, in contact information.
-   
-5. You must also refer to the outbound message configuration ID from Omnichannel Administration app. This will reference the correct outbound configuration for a flow run.
+    > [!div class="mx-imgBorder"]
+    > ![Initialize contactList variable](media/initialize-variable.png "Outbound message ContactList variable")
     
-    > [!div class=mx-imgBorder]
-    > ![Outbound message configuration ID](media/outbound-message-flow-config.png "Outbound message configuration ID")
+5. Get the required customer contact records that contain phone numbers and other contact details, that can be used as slugs in outbound messaging.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Customer records](media/get-customer-records.png "Get customer records to use as slugs in outbound messaging")
+
+6. Fill in the values for the ContactList in the **Append to array variable** template.
+
+    > [!div class="mx-imgBorder"]
+    > ![Append to array variable](media/append-to-array-variable.png "Values for append to array variable in the ContactList")
+
+
+| Field | Requirement | Description |
+| --------- | --------- | ------------------- |
+| **tocontactid** | Required | This value is the customer's phone number that is used by the outbound service to send messages. For Twitter, this would be the customer’s twitter handle. |
+| **Channelid** | Required | This field needs to have the customer's preferred social channel, that is, SMS, WhatsApp or Twitter. |
+| **optin** | Required | This field can have values set to **true** or **false** that shows if the customer prefers to be contacted by phone or not. |
+| **locale** | Chosen by default | To enable dynamic message languages, the default variable must be replaced by a locale column reference, such as preferred customer language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
+| **contextitems** | NA | Contains values to be processed with individual messages as they are sent. |
+| **entityrelationshipname** | Not required | This field refers to the **ActivityRelationship** that has been previously defined. While this is essentially not required, this is important if you want to be able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this will have to be added to the flow for it to work. |
+| **Customer Name** | Required | Name of the customer. This value is not case sensitive and can throw an error if values are different. |
+| **Case title** | Required | The name of the case. |
+
+7. In the **Perform an unbound action** window, you must refer to the outbound message configuration ID that you generated. The ID needs to be added to the *msdyn_ocoutboundconfigurationid* field. This will reference the correct outbound configuration for a flow run.
+
+8. Add the output from the compose action.
+
 
 When the customer responds back to the outbound messages, the customer messages will be treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation will be routed and assigned to an agent, and the agent will be able to respond back to the customer.
 
