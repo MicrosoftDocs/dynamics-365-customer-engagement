@@ -127,7 +127,9 @@
 #### Enable default reporting
 ##### [Add reporting features to your app](/powerapps/maker/model-driven-apps/add-reporting-to-app)
 
-### Sales premium 
+### Sales premium capabilities
+
+#### [Overview of premium capabilities](overview-premium-capabilities.md)
 
 #### [Manage sample data](manage-sample-data.md)
 
@@ -136,8 +138,6 @@
 ##### [Create insight cards](create-insight-cards-flow.md)
 ##### [Edit insight cards](edit-insight-cards.md)
 ##### [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
-##### [Create insight cards using solution](extend-relationship-assistant-card.md)
-###### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
 
 #### Configure relationship insights
 ##### [Configure relationship analytics and health](configure-relationship-analytics.md)
@@ -443,13 +443,16 @@
 ### Action Reference
 #### [RecalculatePrice Action](../sales-enterprise/developer/reference/recalculateprice-action.md)
 
-### Sales premium
+### Sales premium capabilities
 #### Action Reference
 ##### [msdyn_ConnectSequence](developer-sp/msdyn-ConnectSequence-action.md)
 #### Entity Reference
 ##### [Entity reference](entity-reference.md)
 ##### [msdyn_PredictiveScore](developer-sp/msdyn_predictivescore.md)
 ##### [msdyn_PredictiveModelScore](developer-sp/msdyn_predictivemodelscore.md)
+#### [Create insight cards using solution](extend-relationship-assistant-card.md)
+##### [Sample: Extend assistant card type (custom card)](sample-extend-relationship-assistant-card-type.md)
+
 
 ### Troubleshooting
 #### [Custom plugin handling through shared variable](../sales-enterprise/developer/custom-plugin-handling-shared-variable.md)
