@@ -184,7 +184,7 @@ To create a profile follow the steps below.
 
 > [!NOTE]
 > Even if the value for **Sync interval** is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. 
-> Relationships and dependencies are analyzed for each sync request and this might result in a sync being triggered also for related tables.
+> Dependencies, based on selected relationships and custom filters that includes related tables are analyzed at each sync request. This might result in a sync being triggered also for related tables.
   
 12. Select **Save** to add the entity to your profile so you can continue editing it.
 
