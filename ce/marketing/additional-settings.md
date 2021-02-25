@@ -22,7 +22,7 @@ search.app:
 
 Sample data gives you something to experiment with as you learn, and helps you see how data is organized in the system. If sample data isn't installed on your trial or sandbox instance, you might want to add it for training purposes. 
 
-To manage your sample data, go to **Settings** > **Advanced settings** > **Other settings** > **Sample data management**. From here, you can see if you have sample data installed and choose whether to add or remove it.
+To manage your sample data, go to **Settings** > **Other settings** > **Sample data**. From here, you can see if you have sample data installed and choose whether to add or remove it.
 
 > [!IMPORTANT]
 > To help prevent unwanted results, you should avoid mixing sample and production data. We recommend that you only install the sample data on trial, preview, or sandbox instances&mdash;not on production instances. Note also that although a command to remove the sample data is provided, it may still leave some sample data behind, so you might still need to manually delete some records.
