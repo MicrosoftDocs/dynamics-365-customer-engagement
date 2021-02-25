@@ -34,7 +34,7 @@ Install-Package Microsoft.Xrm.Omnichannel.BotSDK -version 1.0.0.4
 ```
 The bot SDK is now installed and the Omnichannel middleware is available in your project.
 
-The Omnichannel for Customer Service context messages are sent as activity events to bots and you need to overridde the `OnEventActivityAsync` method to process the context messages.
+The Omnichannel for Customer Service context messages are sent as event activity to bots, and you need to override the `OnEventActivityAsync` method to process the context messages. More information: [Event-driven conversations using an activity handler](/azure/bot-service/bot-activity-handler-concept.md?view=azure-bot-service-4.0&tabs=csharp)
 
 ## Use the Omnichannel middleware in your bot code
 
