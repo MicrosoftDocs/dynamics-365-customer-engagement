@@ -4,7 +4,7 @@ description: "Learn how to add timer control in the case form to track time agai
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -18,10 +18,43 @@ search.app:
   - D365CS
 ---
 
-# Add a timer control to the Case form to track time against an SLA
+# Add a timer control to Case form to track time against SLAs
 
-Add a timer control to an entity form to help users gauge the amount of time they have to complete a task—typically as specified in a service level agreement (SLA). The timer control initially displays a count-down timer to show the time remaining to complete the task.  
-  
+Add a timer control to an entity form to help users gauge the amount of time they have to complete a task—typically as specified in a service level agreement (SLA). The timer control initially displays a count-down timer to show the time remaining to complete the task.
+
+## Add SLA KPI timer to an entity
+
+You can add a subgrid for an entity and add the SLA Timer control to display the SLA KPIs that are configured for the entity. Typically, you'll configure the SLA KPIs for the case entity.
+
+You can configure the KPIs that you want to show in the SLA Timer control subgrid for an entity such as a case when agents view the case to work on.
+
+On the SLA timer control, you can view the different stages that the KPIs go through.
+When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable
+The icons are updated for the different stages that the KPIs go through.
+The KPIs are refreshed at the interval that you specify. 
+
+A sample runtime view of the SLA Timer is as follows.
+![](../customer-service/media/sla-timer-runtime.png)
+
+### How to add the SLA Timer control
+
+Do the following steps to add the SLA timer control for the case entity.
+
+> [!IMPORTANT]
+> You can add the SLA timer control only in the classic PowerApps experience.
+
+1. In your Dynamics 365 environment, use the Advanced Settings, and select Customizations.
+2. Go to the entity for which you want to add the SLA Timer control.
+3. In the **Forms** view, select **Case for interactive experience**.
+4. On the page that appears, insert a section, and then insert a subgrid.
+5. On the Set Properties dialog box, enter the necessary details.
+6. On the Controls tab, enter the following information:
+   1. Select **Add Control**, and choose SLA Timer.
+
+
+
+## Add a timer control to the Case form to track time against an SLA
+
  On a case form, the timer control can show any of the following, depending on the actions of the customer service representative (CSR) and what you specify when you set up the timer control:  
   
 -   If the CSR completes the task within the time remaining, the control shows the word **Succeeded**.  
