@@ -197,14 +197,14 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 
 ## Government GCC environment 
 
-Teams integration with customer engagements apps isn't available for Government GCC environment. However, there's a workaorund to view records using the Website app in Teams and then adding it as a tab.
+Teams integration with Dynamics 365 isn't available for Government GCC environment. However, there's a workaround to view records using the Website app in Teams and then adding it as a tab.
 
 1. Open Teams and select **Apps**.
 
   > [!div class="mx-imgBorder"] 
   > ![Open Teams and then select Apps](media/teams-apps.png "Open Teams and then select Apps")
 
-2. Seach for the **Website** app and add it.
+2. Search for the **Website** app and add it.
 
   > [!div class="mx-imgBorder"] 
   > ![Add the Website app](media/add-website.png "Add the Website app")
