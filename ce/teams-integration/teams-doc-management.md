@@ -25,7 +25,7 @@ search.app:
 
 Document management with SharePoint lets you manage common document types, such as Word, Excel, PowerPoint, and OneNote. You can also create folders to save and manage those documents in customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), that are stored in SharePoint.
 
-With Microsoft Teams integration with customer engagements apps, you can use document management with Microsoft Teams. It allows a user to co-author documents and automatically sync the documents to customer engagement apps using SharePoint.
+With Microsoft Teams integration with customer engagements apps, you can use document management with Microsoft Teams. It allows a user to co-author documents and automatically sync documents to customer engagement apps using SharePoint.
 
 There isn't an automatic relationship between SharePoint permissions and permissions to customer engagement apps. To access documents between Microsoft Teams and customer engagement apps, you need explicit permission to use document management for customer engagement apps and SharePoint. For information: [Permissions required for document management tasks](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/permissions-required-document-management-tasks)
 
