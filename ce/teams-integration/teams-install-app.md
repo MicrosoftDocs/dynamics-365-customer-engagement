@@ -204,7 +204,7 @@ Teams integration with customer engagements apps isn't available for Government 
   > [!div class="mx-imgBorder"] 
   > ![Open Teams and then select Apps](media/teams-apps.png "Open Teams and then select Apps")
 
-3. Seach for the **Website** app and add it
+3. Seach for the **Website** app and add it.
 
   > [!div class="mx-imgBorder"] 
   > ![Add the Website app](media/add-website.png "Add the Website app")
@@ -212,7 +212,7 @@ Teams integration with customer engagements apps isn't available for Government 
 > [!NOTE]
 > If you don't see the **Website** app in Teams, ask your administrator to enable this option through Microsoft 365 admin center.
 
-3. Enter a tab name and website url of your customer engagement app and then select **Save**.
+3. Enter a tab name and enter URL for your web address for the Dynamics 365 app and then select **Save**.
 
   > [!div class="mx-imgBorder"] 
   > ![Add the Website app](media/add-webiste-2.png "Add the Website app")
