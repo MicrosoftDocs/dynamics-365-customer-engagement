@@ -12,6 +12,10 @@ ms.custom:
   - "dyn365-developer"
 ---
 
+<!-- The editors are reviewing terms such as "model-driven apps" to bring them up to date with the latest style guidance. This topic uses that term in several places. Can you review the guidance and determine whether changes are needed? https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=45145 -->
+
+
+
 # Choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0
 
 This topic explains the key feature differences between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0, and helps you choose the version that suits your business requirements.
