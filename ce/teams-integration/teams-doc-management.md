@@ -27,7 +27,7 @@ Document management with SharePoint lets users manage common document types, suc
 
 Using the Files tab in Teams or the Documents tab in Dynamics 365, you can store and manage documents in the context of a record on a SharePoint Server, and leverage the SharePoint infrastructure to share, manage, and collaborate efficiently. Because the documents are stored on a SharePoint Server, users on Teams can directly access the documents on the SharePoint Server, provided they have the appropriate permissions.
 
-To access documents between Microsoft Teams and customer engagement apps, you need explicit permission to use document management in your customer engagement app and SharePoint. For information: [Permissions required for document management tasks](Permissions required for document management tasks)
+To access documents between Microsoft Teams and customer engagement apps, you need explicit permission to use document management in your customer engagement app and SharePoint. For information: [Permissions required for document management tasks](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/permissions-required-document-management-tasks)
 
 
 
