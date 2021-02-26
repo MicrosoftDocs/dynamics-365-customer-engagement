@@ -50,31 +50,25 @@
 ### [Assign roles and enable users](add-users-assign-roles.md)
 ### [Manage users](users-user-profiles.md)
 
+
+# Unified routing for conversations
+## Administrator experience
+### [Overview of unified routing](overview-unified-routing.md)
+### [Common business scenarios]
+### Configure work distribution model
+#### [Manage routing](routing-workstream-queues.md)
+#### Set up entity routing
+##### [Set up routing for converations](set-up-routing-process.md)
+##### [Create workstreams](create-workstreams.md)
+##### [Create queues](create-queues-ur.md)
+##### Configure work classification rules
+###### [Create work classification rulesets](configure-work-classification.md)
+
 ## Routing and assignment
-
 ### Administrator experience
-
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
-
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
-
 #### [Create and manage queues for conversations](queues-omnichannel.md)
-
-### Unified routing for conversations
-#### [Overview of unified routing](overview-unified-routing.md)
-#### [Common business scenarios]
-#### Configure work distribution model
-##### [Manage routing](routing-workstream-queues.md)
-###### Set up entity routing
-###### [Set up routing for converations](set-up-routing-process.md)
-###### [Create workstreams](create-workstreams.md)
-###### [Create queues](create-queues-ur.md)
-###### Configure work classification rules
-####### [Create work classification rulesets](configure-work-classification.md)
-
-
-
-
 #### Set up skill-based routing for conversations
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
 ##### [Enable skill-based routing, rating model in Customer Service admin center](enable-skill-routing-create-rating-model.md#sbr-cs-admin)
