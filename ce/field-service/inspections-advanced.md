@@ -235,6 +235,39 @@ Associating a customer asset allows the technician to see which customer asset n
 > [!Note]
 > If you relate a work order incident type to a customer asset, the related work order service tasks will be related to the customer asset automatically.
 
+### Add inspections to customer assets without work orders
+
+> [!Note]
+> The feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+
+An administrator has to perform the following steps to enable inspections on customer assets without a work order.  
+
+Go to **Advanced Settings** > **Settings** > **Customization** > **Customize the System** > **Components** > **Entities** > **Customer Asset** > **1:N Relationships**
+
+There is a new entity InspectionInstance with a display name 'Inspection' with a 1:N relationship to customer asset. By default this relationship is not visible in the related tab of the asset.
+
+Look for the row with Related Entity as 'Inspection' 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Advanced settings showing the Inspection relation with customer asset.](./media/ad-hoc-inspection-customer-asset.png)
+
+On opening the record, a property named 'Display Option' can be seen which has the value as 'Do not Display'. The value has to be updated to Use Plural Name or Custom Label. Once updated, **Save and Close** and **Publish All Customizations**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Advanced settings showing the Inspection do not display option with customer asset.](./media/ad-hoc-inspection-display-setting.png)
+
+Inspection is now visible in the Related tab of assets. To validate, go to **Service** > **Assets** and create a new asset or open an existing asset. On right click of Related tab an entry for 'Inspections' can be seen. On section it shows the interface to create a **New Inspection**.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Advanced settings showing the Inspection in the related tab of customer asset.](./media/ad-hoc-inspection-asset-related-tab.jpg)
+
+A new inspection instance can be created and an Inspection Template can be assigned to it. On save, the inspection responses can be entered and saved. On clicking 'Mark Complete' action from the ribbon the inspection becomes read only and no more responses can be entered or edited.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Advanced settings showing the Inspection in the related tab of customer asset.](./media/ad-hoc-inspection-instance-completion.jpg)
+
+In the mobile app also the technician can go the asset and do ad hoc inspections in the same way.
+
+
 ### Inspecting X number of assets at a location
 
 Let's say a technician needs to inspect 10 customer assets at a customer's location. To accommodate this scenario, administrators can:
