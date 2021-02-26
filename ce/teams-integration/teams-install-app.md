@@ -215,7 +215,7 @@ Teams integration with customer engagements apps isn't available for Government 
 3. Enter a tab name and website url of your customer engagement app and then select **Save**.
 
   > [!div class="mx-imgBorder"] 
-  > ![Add the Website app](media/add-webiste-2/png "Add the Website app")
+  > ![Add the Website app](media/add-webiste-2.png "Add the Website app")
 
 
 ### See also  
