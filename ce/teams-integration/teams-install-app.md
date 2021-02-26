@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Microsoft Teams."
-ms.date: 08/26/2020
+ms.date: 02/26/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -194,6 +194,28 @@ Set up the personal dashboard (My Dashboard) to interact with customer engagemen
 3. Select the **My Dashboard** tab.
 
 See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
+
+## Government GCC environment 
+
+Teams integration with customer engagements apps isn't available for Government GCC environment. However, there's a workaorund to view records using the Website app in Teams and adding it as a tab.
+
+1. Open Teams and select **Apps**.
+
+  > [!div class="mx-imgBorder"] 
+  > ![Open Teams and then select Apps](media/teams-apps.png "Open Teams and then select Apps")
+
+3. Seach for the **Website** app and add it
+
+  > [!div class="mx-imgBorder"] 
+  > ![Add the Website app](media/add-website.png "Add the Website app")
+  
+> [!NOTE]
+> If you don't see the **Website** app in Teams, ask your administrator to enable this option through Microsoft 365 admin center.
+
+3. Enter a tab name and website url of your customer engagement app and then select **Save**.
+
+  > [!div class="mx-imgBorder"] 
+  > ![Add the Website app](media/add-website-2/png "Add the Website app")
 
 
 ### See also  
