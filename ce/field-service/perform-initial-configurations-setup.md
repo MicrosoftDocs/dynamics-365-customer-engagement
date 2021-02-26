@@ -60,13 +60,9 @@ Set **Connect to Maps** to **Yes**.
 
 Save and close.
 
-> [!Important]
-> By connecting to a mapping service, you are allowing the system to share your data, including but not limited to addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. (Mapping service refers to Bing Maps or other third-party mapping service designated by you or your operating system). This also applies to Government Cloud environments. Your use of the mapping service will also be subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-For information on enabling maps for the work order form, see the article on [managing Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-bing-maps-organization).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of work order map](media/work-order-map.png) 
+
 
 Later in this article, we'll test geocoding and location services to make sure they're working properly.
 
@@ -83,14 +79,7 @@ Next, verify that work orders are enabled for resource scheduling.
 
 ## Step 2: Field Service settings
 
-Go to **Field Service** > **Settings** > **Field Service Settings**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu](media/quickstart-fs-settings.png)  
-
-In the **Other** section, decide if you would like the application to auto geocode addresses. The recommended setting is **Yes.**
- 
-"Auto geocode addresses" means that after entering an address on entities such as accounts, contacts, users, and work orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Disallowing auto geocoding for addresses  requires the user to select a Geocode button.
 
 Next, navigate to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
 
