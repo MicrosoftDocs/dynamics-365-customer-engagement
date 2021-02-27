@@ -80,7 +80,7 @@ Field service users can quickly enter account service addresses using Bing Maps 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/workordernewaddress.png)
 
-Address recommendations are available on the mobile app too for technicians. 
+Address recommendations are available on the mobile app too for technicians with the appropriate security role. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-address-suggestion6.png)
