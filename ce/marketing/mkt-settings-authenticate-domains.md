@@ -54,7 +54,7 @@ Set up as many authenticated domains as you need to cover all the from-addresses
 
 To set up Dynamics 365 Marketing and the DNS to authenticate marketing email messages and embedded forms for a given domain:
 
-1. Go to **Settings** > **Advanced settings** > **Domain authentication**. A list of existing authenticated domains opens.
+1. Go to **Settings** > **Email marketing** > **Domain authentication**. A list of existing authenticated domains opens.
 1. Select **New** on the command bar to add a new domain.
 1. A new authenticated domain record opens. Make the following settings:
 
