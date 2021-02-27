@@ -1,7 +1,7 @@
 ---
 title: "Landing page configuration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records in Dynamics 365 Marketing."
-ms.date: 10/04/2019
+ms.date: 27/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,11 +20,12 @@ search.app:
 
 # Configure landing pages
 
-Use the **Settings** > **Advanced settings** > **Marketing settings** > **Landing pages** page to set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records.
+Use the **Settings**> **Email marketing** > **Landing pages** page to set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records.
 
-When you first arrive at **Settings** > **Advanced settings** > **Marketing settings** > **Landing pages**, you'll see a list of all marketing-page configuration sets. This is a standard list page, where you can view, sort, search, and filter the list to find a specific record, and use the command bar buttons to add or remove a record. Select any configuration set in the list to open, view, and edit it.
+When you first arrive at **Settings** > **Email marketing** > **Landing pages**, you'll see a list of all marketing-page configuration sets. This is a standard list page, where you can view, sort, search, and filter the list to find a specific record, and use the command bar buttons to add or remove a record. Select any configuration set in the list to open, view, and edit it.
 
-![The Marketing Page Configuration page](media/marketing-page-config.png "The Marketing Page Configuration page")
+![The Marketing Page Configuration page](https://user-images.githubusercontent.com/73484213/109381772-90a80200-78dc-11eb-8e03-ddd36003a383.jpg "The Marketing Page Configuration page")
+
 
 ## Set the default (active) configuration set
 
@@ -47,14 +48,14 @@ Most of your landing pages will include an input form that visitors can use to s
 
 The **Contact creation context capture** and **Lead creation context capture** sections show where various types of information about the marketing context are stored when a submission results in a new contact or lead record. Here, you can see which fields in the contact or lead entity store each type of context information.
 
-Use the **Default matching strategy** section to set defaults for which types of entities your marketing forms will create and update (leads and/or contacts), and how incoming values are matched against existing records to decide whether to create a new record or update an existing one. These defaults will be applied to each new marketing form that you create and they are saved with the form, so you can override them at the from level by changing them there. Changing these settings won't affect any existing forms. The following settings are available:
+Use the **Default form matching** section to set defaults for which types of entities your marketing forms will create and update (leads and/or contacts), and how incoming values are matched against existing records to decide whether to create a new record or update an existing one. These defaults will be applied to each new marketing form that you create and they are saved with the form, so you can override them at the from level by changing them there. Changing these settings won't affect any existing forms. The following settings are available:
 
 - **Update contacts/leads**. When a landing page submission is received, this setting establishes which types of records it can create or update&mdash;leads, contacts, or both.
-- **Default contact matching strategy**. Shows the name of the field-matching strategy that you have set up to match incoming data against existing contact records. If a match is found according to this strategy, it will update that record. If no match is found, it will create a new contact. You can choose from among existing strategies here or select **New** to create a new one. See the next section for information about how to set up your field-matching strategies.
-- **Default lead matching strategy**. Same as the **Default contact matching strategy** setting, but for lead records.
+- **Default contact form matching**. Shows the name of the field-matching strategy that you have set up to match incoming data against existing contact records. If a match is found according to this strategy, it will update that record. If no match is found, it will create a new contact. You can choose from among existing strategies here or select **New** to create a new one. See the next section for information about how to set up your field-matching strategies.
+- **Default lead form matching**. Same as the **Default contact form matching** setting, but for lead records.
 - **Store all form submissions**. Marketing-form records  provide a tab called **Form submissions**, where you can see all incoming submissions for the current form that haven't been processed yet. Failed submissions will remain listed here so you can inspect,  possibly fix, and resubmit them. Set this option to **Yes** if you'd also like to keep a record of all successfully processed submission here, which you'll also be able to inspect, update, and resubmit if needed. Set this to **No** to keep only pending and failed submission in the list. Either way, all successfully processed submissions will be applied to your database, and you'll always be able to see these submissions on the **Insights** > **Submissions** tab (but you can't edit or resubmit from there). More information: [Edit and resubmit form submissions](failed-submissions.md)
 
-For more information about how to create and edit matching strategies, see [Set matching strategies](mkt-settings-matching.md).
+For more information about how to create and edit form matching, see [Set form matching](mkt-settings-matching.md).
 
 ## Set portal defaults
 
@@ -68,7 +69,7 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 [Open the advanced settings](open-advanced-settings.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Set matching strategies](mkt-settings-matching.md)  
+[Set form matching](mkt-settings-matching.md)  
 [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)  
 [Create interactive features with or without portals](portals.md)
 
