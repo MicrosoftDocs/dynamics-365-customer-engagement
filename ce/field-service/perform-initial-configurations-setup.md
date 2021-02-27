@@ -2,7 +2,7 @@
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to perform initial configurations for Dynamics 365 Field Service.
 ms.custom: dyn365-fieldservice
-ms.date: 11/11/2020
+ms.date: 02/26/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -34,7 +34,16 @@ Sign in as a system administrator and verify that the Field Service application 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 showing Field Service in the menu.](./media/quickstart-apps.png)
 
-## Step 1: Resource scheduling
+## Step 1: Field Service settings
+
+Review Field Service Settings. 
+
+Next, navigate to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
+
+An example is **WO** and **100**. This is recommended, but not required.
+
+
+## Step 2: Resource scheduling
 
 ### Scheduling parameters
 
@@ -61,9 +70,6 @@ Set **Connect to Maps** to **Yes**.
 Save and close.
 
 
-
-
-
 Later in this article, we'll test geocoding and location services to make sure they're working properly.
 
 ### Enable resource scheduling for entities
@@ -77,17 +83,25 @@ This is where administrators decide which entities can be scheduled to Resources
 
 Next, verify that work orders are enabled for resource scheduling.
 
-## Step 2: Field Service settings
+### Enable map and location settings
+
+Perform the following to
+1. Connect to map service
+2. Enable auto geocoding of addresses
+3. Enable address suggestions
+4. Enable Bing Maps (Show Bing Maps on forms)
+
+See the topic on [Location and map settings](field-service-maps-address-locations.md) for instructions.
 
 
-
-Next, navigate to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
-
-An example, as seen below, is **WO** and **100**. This is recommended, but not required.
 
 ## Step 3: Test geocoding
 
 Finally, let’s test geocoding.
+
+Geocoding is associating a latitude and longitude to an address. This allows dispatchers to locate work orders more effectively than an address.
+
+"Geocoding" an addresses means that after entering an address on entities such as accounts, contacts, users, and work orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Disallowing auto geocoding for addresses requires the user to select a Geocode button to manually geocode an address.
 
 Go to **Field Service > Work Orders** and select **+New**.
 

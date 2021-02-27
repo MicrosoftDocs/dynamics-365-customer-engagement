@@ -25,8 +25,8 @@ Locations and maps are important for getting the most value out of Field Service
 
 Enable location and map settings to perform functions like:
 
-- Attach latitude and longitude values to addresses (geocode)
 - Get directions with one click so technicians can arrive on time for customer service appointments
+- Attach latitude and longitude values to addresses (geocode)
 - See work orders on a map
 - Geofencing 
 
@@ -80,15 +80,19 @@ Field service users can quickly enter account service addresses using Bing Maps 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/workordernewaddress.png)
 
+Address recommendations are available on the mobile app too for technicians. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-address-suggestion6.png)
 
 To enable Location Recommendations: 
 
 From the Field Service App go to **Settings > Field Service Settings > Other tab** 
-Field Service [App] / Settings [Area] / Field Service Settings [Page] / Other [Tab] 
 
+Address recommendations are on the account, work order, and booking forms.
 
 > [!Note]
-> By default the Field Service - Resource security role has read only privileges and cannot edit addresses.
+> By default the _Field Service - Resource_ security role has read only privileges and cannot edit addresses.
 
 ## Enable Bing Maps (Show Bing Maps on forms)
 
@@ -145,6 +149,10 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 
 
 
+## See also
+
+- [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
+- [Geofencing](mobile-powerapp-geofence.md)
 
 
 
@@ -152,31 +160,6 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/FSMaddressrecobookingworkorder.png)
-
-
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/accountformaddress.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/accountformgeocoding.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/Accountnewaddress.png)
-
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/workordergeocode.png)
 
 
 
@@ -184,5 +167,6 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 
 
 
-## Configuration considerations
-## Additional Notes
+
+
+
