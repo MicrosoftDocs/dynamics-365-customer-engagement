@@ -67,7 +67,7 @@ To sync a new entity with the insights service:
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)  
+[Open the settings](open-advanced-settings.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design lead-scoring models](score-manage-leads.md)
