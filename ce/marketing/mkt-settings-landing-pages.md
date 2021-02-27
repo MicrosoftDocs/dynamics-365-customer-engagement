@@ -1,7 +1,7 @@
 ---
 title: "Landing page configuration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records in Dynamics 365 Marketing."
-ms.date: 27/02/2021
+ms.date: 02/27/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -67,7 +67,7 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)  
+[Open the settings](open-advanced-settings.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Set form matching](mkt-settings-matching.md)  
 [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)  
