@@ -199,7 +199,7 @@ See [Use the personal dashboard](teams-personal-use.md) for information on how y
 
 Teams integration with Dynamics 365 isn't available for Government GCC environment. However, there's a workaround to view records using the Website app in Teams and then adding it as a tab.
 
-1. Open Teams and select **Apps**.
+1. Open a Teams channel and select **Add a tab**.
 
   > [!div class="mx-imgBorder"] 
   > ![Open Teams and then select Apps](media/teams-apps.png "Open Teams and then select Apps")
