@@ -26,15 +26,15 @@ Add a timer control to an entity form to help users gauge the amount of time the
 
 You can add a subgrid for an entity and add the SLA Timer control to display the SLA KPIs that are configured for the entity. Typically, you'll configure the SLA KPIs for the case entity.
 
-You can configure the KPIs that you want to show in the SLA Timer control subgrid for an entity such as a case when agents view the case to work on.
+You can configure the KPIs that you want to show in the SLA Timer control subgrid for an entity, such as a case, when agents view the case to work on in Customer Service Hub. The following details are available to the agents:
 
-On the SLA timer control, you can view the different stages that the KPIs go through.
-When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable
-The icons are updated for the different stages that the KPIs go through.
-The KPIs are refreshed at the interval that you specify. 
+- The different stages that the KPIs go through are displayed on the SLA timer control.
+- When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable.
+- The icons are updated for the different stages that the KPIs go through.
+- The KPIs are refreshed at the interval that you specify at the time of configuration.
 
 A sample runtime view of the SLA Timer is as follows.
-![](../customer-service/media/sla-timer-runtime.png)
+![Run time view of SLA timers](../customer-service/media/sla-timer-runtime.png "Run time view of SLA timers")
 
 ### How to add the SLA Timer control
 
@@ -43,15 +43,18 @@ Do the following steps to add the SLA timer control for the case entity.
 > [!IMPORTANT]
 > You can add the SLA timer control only in the classic PowerApps experience.
 
-1. In your Dynamics 365 environment, use the Advanced Settings, and select Customizations.
-2. Go to the entity for which you want to add the SLA Timer control.
-3. In the **Forms** view, select **Case for interactive experience**.
-4. On the page that appears, insert a section, and then insert a subgrid.
-5. On the Set Properties dialog box, enter the necessary details.
-6. On the Controls tab, enter the following information:
+1. In your Dynamics 365 environment, go to **Customizations**.
+2. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select **Case for interactive experience**.
+3. On the page that appears, insert a section, and then insert a subgrid.
+4. On the **Set Properties** dialog box, enter the necessary details.
+   - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime.  
+5. On the **Controls** tab, enter the following information:
    1. Select **Add Control**, and choose SLA Timer.
+   2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. By default, the interval is set to 30 minutes.
 
+   > ![Configure SLA Timer in customizations](../customer-service/media/sla-timer-properties.png "Configure SLA Timer in customizations")
 
+6. Save and publish the solution.
 
 ## Add a timer control to the Case form to track time against an SLA
 
