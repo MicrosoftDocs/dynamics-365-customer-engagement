@@ -86,7 +86,7 @@ To enable an table for mobile offline synchronization, follow the steps below.
    >![Select settings](media/select_settings.png "Select setting")
  
   
-5. On the **Edit entity** pane, expand **More settings** > **Offline** and then make sure **Enable for mobile offline** check box is selected and then select **Done**.
+5. On the **Edit table** pane, expand **More settings** > **Offline** and then make sure **Enable for mobile offline** check box is selected and then select **Done**.
 
    > [!div class="mx-imgBorder"]
    >![Select enable mobile offline check box](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
@@ -94,12 +94,12 @@ To enable an table for mobile offline synchronization, follow the steps below.
 
    > [!NOTE]
    > Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates  for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
-   > -   The number of entities you enable for mobile offline.  
+   > -   The number of tables that you enable for mobile offline.  
    > -   The filters you set while creating mobile offline profiles.  
  
 ## Step 2: Create a mobile offline profile to determine what data will be available while offline
  
-Create a mobile offline profile to enable users for offline and configure filters that will determine how much data will be available to the user when they work in offline mode. 
+Create a mobile offline profile to enable users for offline and configure filters that will determine how much data will be available to the user when they're working in offline mode. 
 
 To create a profile follow the steps below.
   
@@ -120,7 +120,7 @@ To create a profile follow the steps below.
    > [!div class="mx-imgBorder"]
    >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
   
-5. Select **New Profiles** to create a new mobile offline profile. If you already have a profile that you want to edit, select it from the list.
+5. Select **New Profile** to create a new mobile offline profile. If you already have a profile that you want to edit, select it from the list.
 
    > [!div class="mx-imgBorder"]
    >![Mobile Offline Profile screen](media/mol_new_profile.png "Crearte new Mobile Offline Profile")
@@ -132,28 +132,28 @@ To create a profile follow the steps below.
    >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
   
   
-7. In the **Data available offline** area, select **Add entity** to add an entity to the profile. 
+7. In the **Data available offline** area, select **Add table** to add an entity to the profile. 
 
    > [!div class="mx-imgBorder"]
-   >![Add entity to the profile](media/mol_add_entity.png "Add entity to the profile")
+   >![Add table to the profile](media/mol_add_table.png "Add table to the profile")
    
   
-8. Select an entity from the list of entities shown. Only entities that can be enabled for mobile offline appear in the **Entity** list and then select **Next**.
+8. Select an table from the list of tables shown. Only tables that can be enabled for mobile offline appear in the **Table** list and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   >![Entity list](media/mol_add_entity_1.png "Entity list")
+   >![Table list](media/mol_add_table_1.png "Table list")
  
 
-9. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+9. Select a filter based on the ownership type for the table. Table ownership is decided when you create a table. For more information, see [Types of tables](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
 
 
 
    |Entity ownership type|Available Data Download Filter options |  
   |---------------|-----------------|  
-  |**User or Team**| <ul><li>**Download Related records only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other data filter** - Make only the specified records for this entity available offline and then choose from the following: </li> <ul><li> **Download user records** - Make only your records available offline.</li>  <li> **Download team records** - Make your team’s records available offline.</li> <li>**Download my business unit’s records** - Make your business unit’s records available offline.</lu>|  
-  |**Organization**|<ul><li>**Download related records only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline. </li>|  
-  |**Business**|<ul><li>**Download related data only** -  Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available. </li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other records** - Make only the specified records for this entity available offline and choose from the following:</li> <ul><li> **Download my business unit’s records** - Make your business unit’s records available offline.</li>   |  
-  |**None**|  <ul><li>**Download related records only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |        
+  |**User or Team**| <ul><li>**Download Related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other data filter** - Make only the specified rows for this table available offline and then choose from the following: </li> <ul><li> **Download user rows** - Make only your rows available offline.</li>  <li> **Download team rows** - Make your team’s rows available offline.</li> <li>**Download my business unit’s rows** - Make your business unit’s rows available offline.</lu>|  
+  |**Organization**|<ul><li>**Download related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this talbe will be available.</li> <li>**All rows** - Make all rows for this table available offline. </li>|  
+  |**Business**|<ul><li>**Download related data only** -  Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available. </li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other rows** - Make only the specified rows for this table available offline and choose from the following:</li> <ul><li> **Download my business unit’s rows** - Make your business unit’s rows available offline.</li>   |  
+  |**None**|  <ul><li>**Download related rows only**. Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> |        
  
     
    **Custom** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
@@ -171,12 +171,12 @@ To create a profile follow the steps below.
    |not-end-with    |       |         |
 
  
-10. In the **Include [selected entity name] records related to these entities** area, select the related entity relationships. You need to have already added the entity you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact entities, you need to add both to this mobile offline profile. 
+10. In the **Include [table name] records related to these tables** area, select the related table relationships. You need to have added the table you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact tables, then you need to add both tables to the mobile offline profile. 
 
     For example, if you select **Contact | Field name: Primary contact** this means for every contact, the system will also download the account related to it. 
      
     > [!div class="mx-imgBorder"]
-    >![Add entity relationship](media/mol_add_relationship.png "Add entity relationship")
+    >![Add table relationship](media/mol_add_relationship.png "Add table relationship")
   
 11. Optionally, under **Sync interval** update the default sync interval e.g., **Every 5 minutes**, to a less frequent interval to optimize the sync performance and user experience, based on the pattern of record updates for the table and business requirements. Typically the more static the data is, the less need for a frequent sync interval. 
 
