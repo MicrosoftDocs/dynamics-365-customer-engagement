@@ -27,16 +27,14 @@ search.app:
 # Configure mobile offline synchronization for your mobile app
 
 
-Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the mobile app in offline mode to interact with their data, even when they are not connected to the internet. 
+Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows users to use the Dynamics 365 for phones and tablets app in offline mode and interact with their data without internet connection.
 
-The mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the mobile app are automatically synchronized with Microsoft Dataverse.
-
-To allows users to use this feature, an administrator will need to set up mobile offline for their organization as outlined below.
+The mobile app provides a rich offline experience that helps users stay productive. You can use basic commands such as create, read, update, and delete when you're offline. Once you're back online, the changes that you made on the mobile app are automatically synchronized with Microsoft Dataverse.
   
-This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the mobile app so synchronized records are available when users’ mobile devices are disconnected. 
+The offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize tables with the mobile app so that synchronized rows are available when a user's mobile devices is disconneted from the interent. 
 
 > [!IMPORTANT]
-> The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this toipc.
+> To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
 
 ## Install the mobile app
 
@@ -44,9 +42,9 @@ Mobile offline is available for iOS and Android devices. To use the mobile offli
 
 ### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
 
-For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+For customer engagement apps (such as [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-professional/help-hub), [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub), and [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub)) [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
 
-These are the supported devices to use mobile offline:
+Supported devices for mobile offline:
 
 - For iOS, version 13.19043.32 or later is supported.
 - for Android, version 4.3.19043.33 or later supported.
@@ -54,32 +52,32 @@ These are the supported devices to use mobile offline:
 > [!NOTE]
 > - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
 
-### Install Power Apps mobile app (for Power Apps)
+### Install Power Apps mobile (for Power Apps)
 
-For model-drvien app and canvas apps [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
+For model-drvien app and canvas apps [Install the Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
 
-For information on supported devices for Power Apps mobile app, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
+For information on supported devices for Power Apps mobile, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
 
 
-## Step 1: Enable entities for mobile offline synchronization 
+## Step 1: Enable tables for mobile offline synchronization 
  
-One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
+One of the first things you need to do is enable tables that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported tables for offline mode.
 
-To enable an entity for mobile offline synchronization, follow the steps below.
+To enable an table for mobile offline synchronization, follow the steps below.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
   
-2. On the left nav select **Data** to expand it and then select **Entities**.  
+2. On the left nav select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to Entities](media/signin_make_site.png "Go to Entities")
+   >![Go to tables](media/maker-data-tables.png "Go to tables")
    
   
-3. Select the entity you want to enable for mobile offline (for example, **Account**).  
+3. Select a table to enable for mobile offline such as **Account**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select the Account Entity](media/select_account_entity.png "Select the Account Entity")
+   >![Select Account](media/select_account_table.png "Select Account")
  
 
 4. On the command bar, select **Settings**. 
