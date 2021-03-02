@@ -19,7 +19,7 @@ Product catalog helps companies sell products and services with greater efficien
   
 1. In the Sales Hub app, at the bottom of the site map, select the <area> **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
-2. Under **Prodcut Catalog**, select **Product Catalog Settings**.
+2. Under **Product Catalog**, select **Product Catalog Settings**.
 
 3. In the **Product Catalog Settings** page, set the appropriate values for the following settings and save the changes:  
   
