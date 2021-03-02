@@ -1,7 +1,7 @@
 ---
 title: Modify quick view forms for the Dynamics 365 Sales mobile app
 description: Learn to modify quick view forms for the Dynamics 365 Sales mobile app.
-ms.date: 02/18/2021
+ms.date: 03/02/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,12 +10,12 @@ manager: shujoshi
 ---
 
 # Modify quick view forms
-<!--note from editor: I assume this article should have the disclaimer? Most of the others seem to, except search-records.md (perhaps that one should have it also?).  -->
+
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Dynamics 365 Sales mobile app uses the quick view form to display table details. This is a lightweight form that doesn't include all attributes of the table. More information: [Create a quick view form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-view-forms)
 
-If you've created multiple quick view forms, the mobile app uses the first form in the quick view form order. In the following example, three quick view forms were created for the **Contacts** table with the form order as shown.<!--note from editor: These edits are suggested, to make it a bit clearer that we're making up these names.-->
+If you've created multiple quick view forms, the mobile app uses the first form in the quick view form order. In the following example, three quick view forms were created for the **Contacts** table with the form order as shown.
 
 |Form order|Form name|
 |----------|---------|
