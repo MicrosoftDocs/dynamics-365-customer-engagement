@@ -207,7 +207,7 @@ Before using inline images, keep in mind the following:
 **Drag and drop an image**
 
 > [!Note]
-> You can only drop an image an an editable area of the KB editor, and it only works in Microsoft Edge.
+> You can only drag and drop an image in an editable area of the KB editor, and it only works in Microsoft Edge.
 
 1. Drag and drop the image either on top of the content or in the middle of the content in the knowledge base editor.
 
@@ -216,7 +216,7 @@ Before using inline images, keep in mind the following:
 **Copy and paste an image**
 
 > [!Note]
-> Copying and pasting images isn't supported in Microsoft Edge. To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>Also, using the **Insert Picture** functionality in Microsoft Word may not work. Copying and pasting an image that was added to Word using the drag and drop or copy and paste functionality is supported.
+> Copying and pasting images isn't supported in Microsoft Edge. To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>Also, using the **Insert Picture** functionality in Microsoft Word may not work. You can drag and drop or copy and paste an image into Microsoft Word and then copy and paste it into the KB editor.
 
 1. Open the image file that you want to copy to the KB editor.
 
@@ -226,7 +226,7 @@ Before using inline images, keep in mind the following:
 
 **Insert a URL for an image**
 
-To insert an image using a URL or navigating to the local image:
+To insert an image by using a URL or navigating to the local image:
 
 1. In the KB editor, choose **Insert Image**.
 2. In the **Image** property dialog, choose from the following options:
