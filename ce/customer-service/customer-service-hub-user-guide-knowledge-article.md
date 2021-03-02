@@ -202,7 +202,7 @@ Before using inline images, keep in mind the following:
 
 - The following formats are supported: .PNG, .JPG., or .GIF
 - The following browsers are supported: Microsoft Edge, Chrome, Firefox, Safari
-- The inlinme image feature isn't available for on-prem, 6CY, 6PD, GCC, GER and ZAF organizations because they aren't configured for file storage.
+- The inline image feature isn't available for on-prem, 6CY, 6PD, GCC, GER and ZAF organizations because these organizations aren't configured for file storage.
 
 **Drag and drop an image**
 
