@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Microsoft Teams."
-ms.date: 08/26/2020
+ms.date: 02/26/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -194,6 +194,28 @@ Set up the personal dashboard (My Dashboard) to interact with customer engagemen
 3. Select the **My Dashboard** tab.
 
 See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
+
+## Government GCC environment 
+
+Teams integration with Dynamics 365 isn't available for Government GCC environment. However, there's a workaround to view records using the Website app in Teams and then adding it as a tab.
+
+1. Open a Teams channel and select **Add a tab**.
+
+  > [!div class="mx-imgBorder"] 
+  > ![Open Teams and then select Apps](media/teams-apps.png "Open Teams and then select Apps")
+
+2. Search for the **Website** app and add it.
+
+  > [!div class="mx-imgBorder"] 
+  > ![Add the Website app](media/add-website.png "Add the Website app")
+  
+> [!NOTE]
+> If you don't see the **Website** app in Teams, ask your administrator to enable this option through [Microsoft 365 admin center](https://docs.microsoft.com/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+
+3. Enter a name for the tab and the URL for your web address for the Dynamics 365 app and then select **Save**.
+
+  > [!div class="mx-imgBorder"] 
+  > ![Add the Website app](media/add-webiste-2.png "Add the Website app")
 
 
 ### See also  

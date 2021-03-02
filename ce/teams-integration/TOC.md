@@ -4,7 +4,7 @@
 ## Use Teams integration
 ### [Basic Collaboration with Teams](teams-collaboration.md)
 ### [Enhanced Collaboration with Teams](teams-collaboration-enhanced-experience.md)
-### [Use the bot](teams-bot-search.md)
+### [Use document management](teams-doc-management.md)
 ### [Use the personal dashboard](teams-personal-use.md)
 ## [Troubleshoot](teams-troubleshoot.md)
 ## [Dynamics 365 assistant for Microsoft Teams](https://docs.microsoft.com/dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams)
