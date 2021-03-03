@@ -37,7 +37,7 @@ To resolve the error, perform the following steps:
  
 8.	In the **Name** section, clear the **Display the label on the Form** option.
  
-9.	Click **OK**.    
+9.	Select **OK**.    
 10.	Repeat the steps 5 to 9 for Accounts and Leads.    
 11.	Save and publish the form.    
 
@@ -112,7 +112,7 @@ To resolve this issue, enable the workflow background process. Follow these step
     >[!NOTE]
     > You can also check an approximate time in the quick campaign.   
 
-3.	Verify that an error message is displayed under details section, stating that the async operation was skipped because the org is in **Disable Background Processing** mode. You must update the settings for your environment.    
+3.	Verify that an error message is displayed under details section, stating that the async operation was skipped because the org is in **Disable Background Processing** mode. Update the settings for your environment.    
 4.	Go to admin center, select your instance, and then select **Admin Settings**.    
 
 5.	Clear the **Disable background operations** option.    
@@ -122,7 +122,7 @@ To resolve this issue, enable the workflow background process. Follow these step
 ### Why is my quick campaign failed and set to aborted   
 
 **Reason**    
-The issue is occurring due to the failure of a stack trace that are related the custom plugins in the workflow process.    
+The issue is occurring due to the failure of a stack trace that is related the custom plugins in the workflow process.    
 
 **Resolution**   
 To resolve the issue, follow these steps:   
@@ -137,7 +137,7 @@ To resolve the issue, follow these steps:
 ### Quick campaign is executing unstoppable and generating thousands of failure records   
 
 **Reason**    
-When workflow fails to create campaign activities due to unknown condition, the workflow goes into an unstoppable loop and keeps create campaign activities which fail. You can observe that the number of failure count of quick campaign keeps increasing to much more than the total number of members in the targeting marketing list.     
+When workflow fails to create campaign activities due to unknown condition, the workflow goes into an unstoppable loop and keeps creating campaign activities, which fail. You can observe that the number of failure counts of quick campaign keeps increasing to much more than the total number of members in the targeting marketing list.     
 
 **Resolution**    
 To resolve the issue, deactivate the **ActivityPropagation** workflow and activate it again. Follow these steps:
