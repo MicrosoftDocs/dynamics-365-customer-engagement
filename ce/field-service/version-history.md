@@ -59,37 +59,38 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 # 8.8.39.110 (2021 Wave 1 early access update)
 (Includes Universal Resource Scheduling version [3.12.42.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312425))
 
-The early access update release is only applied when an environment is opted into Early Access and applies below fixes/changes to the Early Access release:
+The early access update release is only applied when an environment is opted into early access and applies below fixes and changes to the early access release:
  
--	New note-taking experience in Field Service (Dynamics 365) mobile app allow users to quickly attach text, photo, video and file notes to bookings.
--	Inspections:
+-	New note-taking experience in Field Service (Dynamics 365) mobile app allows users to quickly attach text, photo, video, and file notes to bookings.
+-	For inspections:
     -	New capability to enable an inspection to be added to an asset directly for ad hoc inspection scenarios.
-    -	New ability to export inspection responses as pdf for a work order service task.
+    -	New ability to export inspection responses as PDF for a work order service task.
     -	Textbox question can now have a read only value along with a default one.
-    -	New Inspection setting added to disable automatic numbering of questions.
-    -	In Matrix(dynamic) control a new setting  has been added to allow 'Add New' button to be removed.
+    -	New inspection setting added to disable automatic numbering of questions.
+    -	In matrix (dynamic) control a new setting has been added to allow "Add New" button to be removed.
 
-Others:
--	Fixed an issue with work order service were discount % was getting cleared on the form when line status was changed from estimated to used.
+Additional updates:
+
+-	Fixed an issue with work order service were discount percentage was getting cleared on the form when line status was changed from estimated to used.
 -	Corrected an issue to throw an error if an agreement booking incident is created with a customer asset that is not associated to the service account on the corresponding agreement.
 
 
 ## 8.8.35.27
 (Includes Universal Resource Scheduling version [3.12.36.2](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312362))
  
--	Fixed an issue wherein an error was being thrown when clicking on save and close button after creation of Time Entry record or clicking on Save button and navigating back to Time Entry grid.
--	Fixed an issue with Agreement Booking Setup when the currency in Product and Services was not getting picked up from its associated service account but the base currency in some cases. 
--	Fixed an issue in Agreement setup wherein the billing account was not getting populated correctly for an agreement when the agreement was being created from an account.
--	Corrected an issue that all the requirements were not being canceled once the work order status was changed to closed - canceled.
--	Inspections 'Export to PDF' now includes support for Japanese text too.
--	Fixed an issue in work order service task creation with an inspection containing some special characters like '&' in the title.
-- Corrected an issue with Inspections containing date time type question where the question no longer remained editable after saving the work order service task and user needed to refresh the page.
--	Fixed an issue for Inspections in Arabic language where uploaded file in a File type question was not showing up after form refresh/reopen and the delete and clear files buttons at the uploaded file were also not working.
--	Corrected an issue where update quantity failed for Purchase Order Receipt Product.
--	Fixed an issue of failure in receiving Notifications on iPhone in the PowerApps mobile App after scheduling a work order and when Geofence record status is changed.
--	Added a new Solution Health Rule to check if the recurrence setting for Agreement Booking Setup is present and is valid.
--	Fixed an issue where Help Center page was showing up in English instead of Japanese.
--	Updated behavior where Estimated Duration from Agreement Booking Setup was not carried over to Work Order. Earlier, duration from the Resource Requirement was not being used to calculate Total Estimated Duration in the work order. Now this has been updated and if no work order service task or incident are present, Total Estimated Duration would be obtained from the Requirement. If Requirement Duration is null, then we get value from Booking Setup Metadata. 
+- Fixed an issue where an error was being thrown when clicking on save and close button after creation of time entry record or clicking on save button and going back to time entry grid.
+- Fixed an issue with agreement booking setup when the currency in product and services was not getting picked up from its associated service account but the base currency in some cases. 
+- Fixed an issue in agreement setup wherein the billing account was not getting populated correctly for an agreement when the agreement was being created from an account.
+- Corrected an issue where all the requirements were not being canceled once the work order status was changed to closed - canceled.
+- Inspections "Export to PDF" now includes support for Japanese text.
+- Fixed an issue in work order service task creation with an inspection containing some special characters like '&' in the title.
+- Corrected an issue with inspections containing date time type question where the question no longer remained editable after saving the work order service task and user needed to refresh the page.
+- Fixed an issue for inspections in Arabic language where uploaded file in a file type question was not showing up after form refresh and reopen, and the delete and clear files buttons at the uploaded file were also not working.
+- Corrected an issue where update quantity failed for purchase order receipt product.
+- Fixed an issue of failure in receiving notifications on iPhone in the Power Apps mobile app after scheduling a work order and when geofence record status is changed.
+- Added a new solution health rule to check if the recurrence setting for agreement booking setup is present and is valid.
+- Fixed an issue where the help center page was showing up in English instead of Japanese.
+- Updated behavior where estimated duration from agreement booking setup was not carried over to work order. Previously, duration from the resource requirement was not being used to calculate total estimated duration in the work order. This behavior has been updated; if no work order service task or incident is present, total estimated duration is obtained from the Requirement. If requirement duration is null, then we get value from booking setup metadata. 
 
 
 ## 8.8.39.37 (2021 Wave 1 early access)
