@@ -114,7 +114,7 @@ The release is only applied when an environment is opted into Early Access and i
 
 In addition, this release also includes the following changes:
 -	Tax code has been made optional so that user is not forced to enter data that is not capable of supporting the complexity of the tax scenarios.
--	Recently a new flag for ```workorderincidentitem.statecodeupdate.optout``` had been introduced. The dependency on this flag has now been removed. The ```workorderincident``` items state code would be updated only when new statecode is different from old state code.
+-	Recently a new flag for ```workorderincidentitem.statecodeupdate.optout``` had been introduced. The dependency on this flag has now been removed. The ```workorderincident``` items state code would be updated only when new state code is different from old state code.
 -	Fixed and issue with work order product that estimate discount % is cleared on the form when using a decimal.
 -	Corrected an error with work order product that discount % is cleared on the form when line status is changed from estimated to used.
 -	Fixed an issue of missing details tab in the sales hub order.
