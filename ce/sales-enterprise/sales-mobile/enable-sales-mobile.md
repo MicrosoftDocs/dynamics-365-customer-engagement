@@ -1,7 +1,7 @@
 ---
 title: Enable the Dynamics 365 Sales mobile app
 description: Instructions to enable the Dynamics 365 Sales mobile app
-ms.date: 02/23/2021
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
