@@ -1,7 +1,7 @@
 ---
 title: Modify quick view forms for the Dynamics 365 Sales mobile app
 description: Learn to modify quick view forms for the Dynamics 365 Sales mobile app.
-ms.date: 03/02/2021
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
