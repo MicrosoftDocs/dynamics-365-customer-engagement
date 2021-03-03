@@ -132,7 +132,7 @@ To create a profile follow the steps below.
    >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
   
   
-7. In the **Data available offline** area, select **Add table** to add an entity to the profile. 
+7. In the **Data available offline** area, select **Add table** to add an table to the profile. 
 
    > [!div class="mx-imgBorder"]
    >![Add table to the profile](media/mol_add_table.png "Add table to the profile")
@@ -148,7 +148,7 @@ To create a profile follow the steps below.
 
 
 
-   |Entity ownership type|Available Data Download Filter options |  
+   |Table ownership type|Available Data Download Filter options |  
   |---------------|-----------------|  
   |**User or Team**| <ul><li>**Download Related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other data filter** - Make only the specified rows for this table available offline and then choose from the following: </li> <ul><li> **Download user rows** - Make only your rows available offline.</li>  <li> **Download team rows** - Make your team’s rows available offline.</li> <li>**Download my business unit’s rows** - Make your business unit’s rows available offline.</lu>|  
   |**Organization**|<ul><li>**Download related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this talbe will be available.</li> <li>**All rows** - Make all rows for this table available offline. </li>|  
@@ -171,58 +171,60 @@ To create a profile follow the steps below.
    |not-end-with    |       |         |
 
  
-10. In the **Include [table name] records related to these tables** area, select the related table relationships. You need to have added the table you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact tables, then you need to add both tables to the mobile offline profile. 
+10. In the **Include [table name] rows related to these tables** area, select the related table relationships. You need to have added the table you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact tables, then you need to add both tables to the mobile offline profile. 
 
     For example, if you select **Contact | Field name: Primary contact** this means for every contact, the system will also download the account related to it. 
      
     > [!div class="mx-imgBorder"]
     >![Add table relationship](media/mol_add_relationship.png "Add table relationship")
   
-11. Optionally, under **Sync interval** update the default sync interval e.g., **Every 5 minutes**, to a less frequent interval to optimize the sync performance and user experience, based on the pattern of record updates for the table and business requirements. Typically the more static the data is, the less need for a frequent sync interval. 
+11. (optional) Select **Sync interval** and choose how often you want the table's data to automatically sync to people's devices. You can select a short interval such as **Every 5 minutes** or choose a less frequent interval to optimize the sync performance and user experience. Make the selection based on your business requirements and how often users make udpates to the table. Typically the more static the data is, the less need for a frequent sync interval. 
 
 > [!NOTE]
 > Even if the value for **Sync interval** is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. 
-> A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. Specific to Android is that the sync once initiated can be completed even in background.      
+> A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated it can be completed even in background.      
 > Dependencies, based on selected relationships and custom filters that includes related tables are analyzed at each sync request. This might result in a sync being triggered also for related tables.
   
-12. Select **Save** to add the entity to your profile so you can continue editing it.
+12. Select **Save** to add the table to your profile so you can continue editing it.
 
-### Step 2.1: Add users to a mobile offline profile 
+### Step 2.1: Add users or team to a mobile offline profile 
 
-Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. From March 2021 it is also possible to add teams to a profile. 
+Once you have created a mobile offline profile, you can start adding users or team to the profile. This will make the profile available to the users or team so they can get the mobile offline experience that you've set up. 
+
+A user or team can only be added to one offline profile at a time. A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might disrupt users experience, if the other profile has been published. 
 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
 
   
-1.  If it’s not already open, open the mobile offline profile you want to add users to.  
+1.  If it’s not already open, select the profile name to open the mobile offline profile you want to add users to.
+
+    > [!div class="mx-imgBorder"]
+    >![Select offline profile](media/select-offlineprofile.png "Select offline profile")
  
 2.  In the **People with offline access** area, select **Add people**.  
 
     > [!div class="mx-imgBorder"]
     >![Add a user](media/mol_add_people.png "Add a user")
   
-3.  Choose the user or team that you want to add to the mobile offline profile.  
+3.  Choose the user or team that you want to add to the mobile offline profile. The actual users added based on teams are displayed under each team. User's that are added individually are displayed under individual users. 
   
 4.  When you’re done adding people, select **Save**.
 
-The actual users added based on teams are displayed under each team. Individually added users are displayed under Individual users. 
-
-A user and a team can only be added to one offline profile at a time. A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might disrupt users experience, if the other profile has been published. 
 
 ### Step 2.2: Publish a mobile offline profile
 
-The profile that was set up in the previous step is still in draft mode, until it is published. In order to deploy your changes to a user's device, the draft profile needs to be published.
+The profile that was set up in the previous step is still in draft mode, until you publish it. In order to deploy your changes to a user's device, the draft profile needs to be published.
 
 When you publish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
 
 Following these steps to publish the profile:
   
-1. If it’s not already open, open the mobile offline profile you want to publish.  
+1. If it’s not already open, open the mobile offline profile that you want to publish.  
   
 2. When you’re done adding people and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
-It is not required to re-publish a mobile profile after users or teams have been added.
+It is not required to re-publish a mobile profile after users or team have been added.
 
    > [!div class="mx-imgBorder"]
    >![Publish offline profile](media/mol_publish.png "Publish offline profile")
@@ -230,7 +232,7 @@ It is not required to re-publish a mobile profile after users or teams have been
    > [!TIP]
    > **Solution export and import**  
    >   
-   >  When exporting a solution that includes a mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
+   >  When exporting a solution that includes a mobile offline profile, always select the **Include table metadata** check box for each table you export.  
    >   
    >  After importing the solution into the target organization, publish all mobile offline profiles.  
 
