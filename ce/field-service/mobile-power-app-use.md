@@ -100,7 +100,7 @@ On the **Service tab**, you'll see work order details like work order service ta
 
 ## Take notes with attached pictures, videos and files
 
-On the **Notes** tab, you can quickly and easily capture multiple text, photo, audio and video notes and associate them with the booking. You can also attach files. These notes help you record and build relevant work history. Customer signature can also be captured. The **Timeline** tab is available for other historical data connected to the booking.
+On the **Notes** tab, you can easily capture multiple text, photo, audio, and video notes and associate them with the booking. You can also attach files. These notes help you record and build relevant work history. Customer signatures can also be captured. The **Timeline** tab is available for other historical data connected to the booking.
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the notes tab with options to attach notes. Middle screenshot shows camera view. Right screenshot shows the notes tab with photo notes added.](./media/mobile-uci-quick-notes.png)
