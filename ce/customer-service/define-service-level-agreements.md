@@ -1,6 +1,6 @@
 ---
-title: Define service-level agreements (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to define service-level agreements in Dynamics 365 Customer Service
+title: "Define service-level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -51,11 +51,11 @@ Perform the following steps to configure SLAs in Customer Service Hub:
 Review the following requirements before configuring SLAs for your organization:
 
 - The System Administrator, System Customizer, or Customer Service Manager role is assigned to you. Additionally, make sure that the following permissions have been granted in **Security** > **Security Roles** > **Custom Entities**:
-  - **CSR Manager:**
-    - **Connector:** All permissions at the business unit level.
-    - **SLAKPI:** Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
-    - **ProcessStageParameter:** All permissions at the business unit level.
-  - **Customer Service Representative:** Read permission at the organization level for the SLAKPI entity.
+  - **CSR Manager**
+    - **Connector**: All permissions at the business unit level.
+    - **SLAKPI**: Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
+    - **ProcessStageParameter**: All permissions at the business unit level.
+  - **Customer Service Representative**: Read permission at the organization level for the SLAKPI entity.
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
    1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
@@ -79,15 +79,15 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 4. Enter the following details on the **General** tab:
 
-   - **Name:** The name of the SLA KPI.
+   - **Name**: The name of the SLA KPI.
 
-   - **Owner:** The user creating the SLA is populated by default. You can specify a different owner.
+   - **Owner**: The user creating the SLA is populated by default. You can specify a different owner.
 
-   - **Entity Name:** Select the entity for which the KPI must be measured.
+   - **Entity Name**: Select the entity for which the KPI must be measured.
 
-   - **KPI Field:** Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a first response should be sent to the customer, select **FirstResponseByKPI** in the list.
+   - **KPI Field**: Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a first response should be sent to the customer, select **FirstResponseByKPI** in the list.
 
-   - **Applicable From:** Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
+   - **Applicable From**: Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
 
 5. Select **Save**.
 
@@ -117,9 +117,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 3. On the **General** tab, do the following:
 
-   - **Name:** Enter a name for the SLA.
-   - **Primary Entity:** Select a value in the box.
-   - **Description:** Enter a description for the SLA.
+   - **Name**: Enter a name for the SLA.
+   - **Primary Entity**: Select a value in the box.
+   - **Description**: Enter a description for the SLA.
 
 4. Select **Save**. The **SLA Items** section appears on the page, and the SLA is saved. You can perform the steps to create SLA items as described in the following section.
 
@@ -131,10 +131,10 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 3. On the **General** tab, enter the following details.
 
-   - **Name:** Enter a name.
-   - **KPI:** Select an SLA KPI.
-   - **Allow Pause and Resume:** (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
-   - **Business Hours:** (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
+   - **Name**: Enter a name.
+   - **KPI**: Select an SLA KPI.
+   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
+   - **Business Hours**: (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
@@ -250,9 +250,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 9. Enter the following information in the **New SLA Item** form:  
 
-   - **Name**. Type a meaningful name.  
+   - **Name**: Type a meaningful name.  
 
-   - **Related Case Field**. Select a field of DateTime type of the case record that this SLA item refers to. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By** option from the drop-down list. If necessary, ask your system customizer to create new fields of type DateTime.  
+   - **Related Case Field**: Select a field of DateTime type of the case record that this SLA item refers to. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By** option from the drop-down list. If necessary, ask your system customizer to create new fields of type DateTime.  
 
         When a case record is created or updated, this field is set to the date and time when the failure time will be reached for the respective SLA item. For example, select **First Response By** in **Related Case Field**, and set **Failure After** to two hours from the time the case was created. If the case was created at 09:00, the **First Response By** field in the case record will be set to 11:00, assuming the business hours are all day, every day.  
 
@@ -323,18 +323,18 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 6. Enter your information as follows:
 
-   - **Applicable From**. Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the record was created.  
+   - **Applicable From**: Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the record was created.  
 
        > [!NOTE]
        >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the **Applicable From** field value.  
 
-   - **Business Hours**. Select a customer service schedule record that defines your support organization's business hours. This is useful for SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day. 
+   - **Business Hours**: Select a customer service schedule record that defines your support organization's business hours. This is useful for SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day. 
 
-   - **SLA Type**. Select **Enhanced**.  
+   - **SLA Type**: Select **Enhanced**.  
 
         If you're creating an SLA for an entity other than the Case entity, this field is automatically set to **Enhanced** and can't be changed.  
 
-   - **Allow Pause and Resume**. Select **Allow** if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for SLA, you can select each status that will be considered "on hold" by using the **Service** tab of the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md)
+   - **Allow Pause and Resume**: Select **Allow** if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for SLA, you can select each status that will be considered "on hold" by using the **Service** tab of the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md)
 
 7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
@@ -342,9 +342,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 9. Enter the following information in the SLA Item form:  
 
-   - **Name**. Type a meaningful name.  
+   - **Name**: Type a meaningful name.  
 
-   - **SLA KPI**. Select the KPI the SLA item is about. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By KPI** option from the drop-down list.  
+   - **SLA KPI**: Select the KPI the SLA item is about. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By KPI** option from the drop-down list.  
 
         For example, select **First Response By KPI** in the **SLA KPI** field, and set **Failure After** to two hours from the time the record was created. If the record was created at 09:00, the **Failure Time** field of the SLA KPI Instance record is set to 11:00, assuming business hours are all day, every day.  
 

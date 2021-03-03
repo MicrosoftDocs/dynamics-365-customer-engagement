@@ -50,3 +50,4 @@ Admins can use the [Help + support experience](https://docs.microsoft.com/power-
 ### See also
 
 [Administration and setup FAQ](setup-troubleshooting.md)   
+[Installation and management FAQ](install-manage-faq.md)   
