@@ -187,9 +187,9 @@ To create a profile, follow the steps below.
 
 ### Step 2.1: Add users or team to a mobile offline profile 
 
-Once you have created a mobile offline profile, you can start adding users or team to the profile. This will make the profile available to the users or team so they can get the mobile offline experience that you've set up. 
+Once you've created a mobile offline profile, you can start adding users or team to the profile. This will make the profile available to the users or team so they can get the mobile offline experience that you've set up. 
 
-A user or team can only be added to one offline profile at a time. A warning will be displayed when a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might disrupt users experience, if the other profile has been published. 
+A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile then you will get a warning stating that the user is already added to another offline profile. If you continue with the change then the user or team will be moved to the new profile. This may disrupt your users so it's recommended that you notify them when you move them to a different profile. 
 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
