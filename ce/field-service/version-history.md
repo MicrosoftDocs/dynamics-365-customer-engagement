@@ -57,10 +57,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 ## 8.8.35.44 
-This release is a hotfix on Field Service version [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527))
--	Resolved an issue where, under certain circumstances, work orders with a Primary Incident Type which also executes a synchronous workflow, could result in null fields on the Work Order and related primary Resource Requirement.
+This release is a hotfix on Field Service version [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527).
 
-# 8.8.39.110 (2021 Wave 1 early access update)
+-	Resolved an issue where, under certain circumstances, work orders with a primary incident type that also executes a synchronous workflow, could result in null fields on the work order and related primary resource requirement.
+
+## 8.8.39.110 (2021 Wave 1 early access update)
 (Includes Universal Resource Scheduling version [3.12.42.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312425))
 
 The early access update release is only applied when an environment is opted into early access and applies below fixes and changes to the early access release:
