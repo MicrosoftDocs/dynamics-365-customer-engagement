@@ -28,33 +28,70 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/19/2021
+| | <i>First Release</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
-| | <i>Canada</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
-| | <i>India</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
-| | <i>France</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
-| | <i>United Arab Emirates</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
-| | <i>South Africa</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
-| | <i>Germany</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
-| | <i>Switzerland</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 02/26/2021
+| | <i>South America</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>Canada</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>India</i> | [[8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>France</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>United Arab Emirates</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>South Africa</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>Germany</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>Switzerland</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 03/05/2021
-| | <i>Asia Pacific</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 03/05/2021
-| | <i>Great Britain</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 03/05/2021
-| | <i>Oceana</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | TBD | 03/05/2021
+| | <i>Japan</i> |  [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) |[8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | 03/05/2021
+| | <i>Asia Pacific</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | 03/05/2021
+| | <i>Great Britain</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | 03/05/2021
+| | <i>Oceana</i> | [8.8.34.18](https://docs.microsoft.com/dynamics365/field-service/version-history#883418) | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | 03/05/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.33.98](https://docs.microsoft.com/dynamics365/field-service/version-history#883398)| [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/19/2021
+| | <i>Europe</i> | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463)| [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | 03/12/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/26/2021
+| | <i>North America</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/23/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) |[8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/26/2021
-| | <i>China</i> | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 02/26/2021
-| | <i>Dedicated Scale Groups</i> | [8.8.32.61](https://docs.microsoft.com/dynamics365/field-service/version-history#883261) | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) |  02/19/2021
+| | <i>Government Community Cloud</i> | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | 03/19/2021
+| | <i>China</i> |  [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | 03/19/2021
+| | <i>Dedicated Scale Groups</i> | [8.8.33.99](https://docs.microsoft.com/dynamics365/field-service/version-history#883399) |[8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | 03/05/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+# 8.8.39.110 (2021 Wave 1 early access update)
+(Includes Universal Resource Scheduling version [3.12.42.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312425))
+
+The early access update release is only applied when an environment is opted into early access and applies below fixes and changes to the early access release:
+ 
+-	New note-taking experience in Field Service (Dynamics 365) mobile app allows users to quickly attach text, photo, video, and file notes to bookings.
+-	For inspections:
+    -	New capability to enable an inspection to be added to an asset directly for ad hoc inspection scenarios.
+    -	New ability to export inspection responses as PDF for a work order service task.
+    -	Textbox question can now have a read only value along with a default one.
+    -	New inspection setting added to disable automatic numbering of questions.
+    -	In matrix (dynamic) control a new setting has been added to allow "Add New" button to be removed.
+
+Additional updates:
+
+-	Fixed an issue with work order service were discount percentage was getting cleared on the form when line status was changed from estimated to used.
+-	Corrected an issue to throw an error if an agreement booking incident is created with a customer asset that is not associated to the service account on the corresponding agreement.
+
+
+## 8.8.35.27
+(Includes Universal Resource Scheduling version [3.12.36.2](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312362))
+ 
+- Fixed an issue where an error was being thrown when clicking on save and close button after creation of time entry record or clicking on save button and going back to time entry grid.
+- Fixed an issue with agreement booking setup when the currency in product and services was not getting picked up from its associated service account but the base currency in some cases. 
+- Fixed an issue in agreement setup wherein the billing account was not getting populated correctly for an agreement when the agreement was being created from an account.
+- Corrected an issue where all the requirements were not being canceled once the work order status was changed to closed - canceled.
+- Inspections "Export to PDF" now includes support for Japanese text.
+- Fixed an issue in work order service task creation with an inspection containing some special characters like '&' in the title.
+- Corrected an issue with inspections containing date time type question where the question no longer remained editable after saving the work order service task and user needed to refresh the page.
+- Fixed an issue for inspections in Arabic language where uploaded file in a file type question was not showing up after form refresh and reopen, and the delete and clear files buttons at the uploaded file were also not working.
+- Corrected an issue where update quantity failed for purchase order receipt product.
+- Fixed an issue of failure in receiving notifications on iPhone in the Power Apps mobile app after scheduling a work order and when geofence record status is changed.
+- Added a new solution health rule to check if the recurrence setting for agreement booking setup is present and is valid.
+- Fixed an issue where the help center page was showing up in English instead of Japanese.
+- Updated behavior where estimated duration from agreement booking setup was not carried over to work order. Previously, duration from the resource requirement was not being used to calculate total estimated duration in the work order. This behavior has been updated; if no work order service task or incident is present, total estimated duration is obtained from the Requirement. If requirement duration is null, then we get value from booking setup metadata. 
+
 
 ## 8.8.39.37 (2021 Wave 1 early access)
 (Includes Universal Resource Scheduling version [3.12.40.15](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124015))
@@ -77,7 +114,7 @@ The release is only applied when an environment is opted into Early Access and i
 
 In addition, this release also includes the following changes:
 -	Tax code has been made optional so that user is not forced to enter data that is not capable of supporting the complexity of the tax scenarios.
--	Recently a new flag for ```workorderincidentitem.statecodeupdate.optout``` had been introduced. The dependency on this flag has now been removed. The ```workorderincident``` items state code would be updated only when new statecode is different from old state code.
+-	Recently a new flag for ```workorderincidentitem.statecodeupdate.optout``` had been introduced. The dependency on this flag has now been removed. The ```workorderincident``` items state code would be updated only when new state code is different from old state code.
 -	Fixed and issue with work order product that estimate discount % is cleared on the form when using a decimal.
 -	Corrected an error with work order product that discount % is cleared on the form when line status is changed from estimated to used.
 -	Fixed an issue of missing details tab in the sales hub order.
