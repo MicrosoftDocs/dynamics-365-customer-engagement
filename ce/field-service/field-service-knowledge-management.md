@@ -33,7 +33,7 @@ Access to these articles can:
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RWxBzW]
+https://www.microsoft.com/videoplayer/embed/RWxBzW]
 
 
 In this article, we'll walk through how to: 
@@ -46,7 +46,7 @@ In this article, we'll walk through how to:
 ## Prerequisites
 
 > [!Note]
-> Previously, knowledge management was only available for Field Service through Dynamics 365 Customer Service; it's now built-in to Field Service and no longer requires Dynamics 365 Customer Service. If you're already using Dynamics 365 Customer Service knowledge articles in Field Service, you can still use knowledge management for both. 
+> Previously, knowledge management was only available for Field Service through Dynamics 365 Customer Service; it's now built in to Field Service and no longer requires Dynamics 365 Customer Service. If you're already using Dynamics 365 Customer Service knowledge articles in Field Service, you can still use knowledge management for both. 
 
 ## Create a knowledge article
 
