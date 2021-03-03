@@ -4,7 +4,7 @@ description: "Know about requestFocusSession (JavaScript API Reference) for Dyna
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 03/02/2021
+ms.date: 03/03/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
