@@ -219,6 +219,12 @@ For more information, see the article: [Using Field Service with Dynamics 365 Re
 
 While working on site, frontline workers may need to note further work that needs to be performed at a later time. The Field Service (Dynamics 365) mobile app makes it easy to create follow-up work orders after completing the current work order. This feature prepopulates several columns from the current work order, making it easier for the technician to quickly create the new work order.
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO 
+https://www.microsoft.com/en-us/videoplayer/embed/RWyHY4]
+
+
 To create a follow-up work order, the technician must select the **Follow-up** option in the bottom app menu. This option is only available if the booking status is set to **Completed** and the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).
 
 > [!div class="mx-imgBorder"]
