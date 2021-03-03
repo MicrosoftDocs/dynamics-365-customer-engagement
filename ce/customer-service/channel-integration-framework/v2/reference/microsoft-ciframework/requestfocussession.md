@@ -22,7 +22,7 @@ applies_to:
 
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
-Shows an unread notification on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider.
+Shows a notification indicator on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider. The notification indicator draws the user's attention to switch between sessions.
 
 ## Syntax
 
