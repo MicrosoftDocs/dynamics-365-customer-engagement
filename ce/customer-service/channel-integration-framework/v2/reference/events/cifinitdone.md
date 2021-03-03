@@ -35,4 +35,4 @@ CIFInitDone event is raised by the Channel integration framework library when th
 [removeHandler](../microsoft-ciframework/removeHandler.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
