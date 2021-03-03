@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
-description: Set-up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
+description: Set up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
 ms.date: 3/15/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -23,9 +23,7 @@ search.app:
   - D365Sales
 ---
 
-
 # Configure mobile offline synchronization for your mobile app
-
 
 Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows users to use the Dynamics 365 for phones and tablets app in offline mode and interact with their data without internet connection.
 
@@ -42,7 +40,7 @@ Mobile offline is available for iOS and Android devices. To use the mobile offli
 
 ### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
 
-For customer engagement apps (such as [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-professional/help-hub), [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub), and [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub)) [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+For customer engagement apps (such as [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-professional/help-hub), [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub), and [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub)) [install Dynamics 365 for phones and tables app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 Supported devices for mobile offline:
 
