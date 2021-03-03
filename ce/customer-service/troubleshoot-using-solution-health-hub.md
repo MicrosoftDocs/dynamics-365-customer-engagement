@@ -1,33 +1,41 @@
 ---
-title: "Troubleshoot issues in Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
-description: "Learn how to troubleshoot issues in Omnichannel for Customer Service using the Solution Health Hub."
+title: "Troubleshoot issues in Customer Service and Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
+description: "Learn how to troubleshoot issues in Customer Service and Omnichannel for Customer Service by using the Solution Health Hub."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/08/2021
+ms.date: 03/05/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Troubleshoot issues in Omnichannel for Customer Service using Solution Health Hub
+# Troubleshoot issues in Customer Service and Omnichannel for Customer Service using Solution Health Hub
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-You can use Solution Health Hub to get a better picture of the state of your Dynamics 365 environment and detect any issues it might have. Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Omnichannel for Customer Service; you can run the rules on demand when you run into an issue. Some rules are automatically triggered when Omnichannel for Customer Service is installed or updated. You can regularly run the Omnichannel for Customer Service rule set to monitor the health of your environment.
+You can use Solution Health Hub to get a better picture of the state of your Dynamics 365 environment and detect any issues it might have. Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. The rules are specific to Customer Service and Omnichannel for Customer Service; you can run the rules on demand when you run into an issue. Some rules are automatically triggered when Customer Service or Omnichannel for Customer Service is installed or updated. You can regularly run the rule sets to monitor the health of your environment.
 
-Solution Health Hub helps detect the following issues:
+Some of the issues that the Solution Health Hub helps detect are as follows:
 
-- Missed or wrong configurations
-- Queues with no agents
-- Agents with no capacity
-- Agents who aren't part of any queues
-- Work stream configuration problems
+- **Customer Service**
+  - Critical Customer Service processes are deactivated
+  - Processes that will cause an upgrade to fail are assigned to disabled users
+  - Presence of customized web resources that might lead to runtime issues
+
+- **Omnichannel for Customer Service**
+  - Missed or wrong configurations
+  - Queues with no agents
+  - Agents with no capacity
+  - Agents who aren't part of any queues
+  - Work stream configuration problems
 
 ## Prerequisites
 
-Omnichannel for Customer Service.
+To run the rules for Customer Service, you must have the Customer Service Hub app installed in your environment.
+
+To run the rule for Omnichannel for Customer Service, you must have Omnichannel for Customer Service installed in your environment.
 
 ## Run a health check
 
@@ -35,7 +43,7 @@ Perform the following steps to run an analysis job to check for issues in Omnich
 
 1. Open Solution Health Hub app.
 2. Select **Analysis Jobs** > **New**.
-3. In the **Create Analysis Job** dialog box under **Rule Set**, select **Omnichannel**, and then select **OK**.
+3. In the **Create Analysis Job** dialog box, in  **Rule Set**, select **Omnichannel** or **Customer Service**, and then select **OK**.
 
 ## Analyze the health check results
 
@@ -62,16 +70,40 @@ The details of the results are displayed in a table as follows:
 
 You can do the following:
 
-1. Select a rule whose status appears as failed. The results of the analysis of the objects that failed are displayed in the **Failing Records** area.
+1. Select a rule for which the status appears as failed. The results of the analysis of the objects that failed are displayed in the **Failing Records** area.
     > ![Analysis job results for a rule](./media/oc-solution-health-results.png "Analysis job results for a rule")
 2. Optionally, select the **Summary** tab for an overview of the results.
 
 > [!NOTE]
 > If you see any discrepancy in the health check results, rerun the job.
 
-## Out-of-the-box rule sets
+## Out-of-the-box rule sets for Customer Service
+
+The out-of-the-box rules for Customer Service are as follows. These rules can't be edited.
+
+| Rule | What the rule checks for | Reason for failure |How to fix|
+|----|--------|----------|-----|
+| Automatic Record Creation process definitions in draft status |Checks if ExecutePrimaryCreatePostActions and ExecuteARC custom actions are in the active or draft state when an Automatic Record Creation rule is being used. | Automatic Record Creation processes are deactivated. |Review if the deactivated processes are required for your business logic and reactivate them if necessary. You can select the rule and select **Resolve**, which will activate the required processes. |
+|Check if Activity Monitor for Automatic Record Creation is enabled  |Checks for msdyn_ArcActivityMonitorForFailedScenarios and msdyn_ArcActivityMonitorForSkippedScenarios flag values to decide whether activity monitor is enabled. | Activity monitor is not enabled for creating records automatically. Enable the activity monitor to monitor rules to know if they succeeded or failed.<br> More information: [Use activity monitor to review and track rules](automatically-create-update-records.md#use-activity-monitor-to-review-and-track-rules) |
+|Check if autoRouteToOwnerQueue for Email is enabled|||
+|Check if Customer Service forms are from unmanaged layer|The rule fails when Customer Service forms are found in the unmanaged layer. |Customer Service forms found in active layer. Because unmanaged solutions overwrite Customer Service metadata fixes, we recommend that you don't place the system forms in active layers in a production environment.|
+|Check workflow type for convert rule and convert rule items|||
+|ConditionXml format check|||
+|Custom customizations on 'Customer Service Hub' sitemap|Checks for customizations on Customer Service Hub site map. |Fails when the site map is customized. More information: [Merge site map customizations](/customerengagement/on-premises/developer/understand-managed-solutions-merged#BKMK_MergingNavigationCustomizations)|
+|Custom customizations on 'Customer Service Workspace' sitemap|Checks for customizations on Customer Service workspace site map. |Fails when the site map is customized. More information: Merge site map customizations|
+|Customized option sets|Detects whether any option set in Customer Service has been customized. Customizing option sets can lead to unexpected behavior for unintended option sets.|Option set has been modified by customization.  |Manually remove customizations from the Customer Service option set if they are not required for your business.|
+|Deleted Sdk message processing steps|Checks whether any SDK message processing steps are deleted. Deleted SDK message processing steps will lead to incorrect behavior when using Customer Service. |Fails if any of the shipped Customer Service SDK message processing steps have been deleted from the system.|Contact Microsoft Support.|
+|Disabled Sdk message processing steps|Checks whether any SDK message processing are disabled. Disabled SDK message processing steps will lead to incorrect behavior when using Customer Service.|SdkMessageProcessingSteps are deactivated. Review if the disabled SdkMessageProcessingSteps processes are required for your business logic and reactivate them if necessary. ||
+|Process definitions in draft status|Checks whether any process definitions related to Customer Service are in draft status. <br> **Note:** The ManageContract, Contractline, and Entitlement workflows are excluded from the validation check when they are in the draft state.|Processes are deactivated. Customer Service might not work correctly when processes are disabled.|Reactivate process definition from customizations.|
+|Process definitions owned by disabled users|Checks whether any process definitions in the system are assigned to disabled users. |Processes will fail because they are owned by disabled users.Make sure that all workflows are assigned to users who have the required permissions. |Reactivate the user accounts that own workflows or assign the workflows to another user account with the proper security privileges.|
+|Validate Email response template type for Modern Automatic Record Creation||||
+|Waiting workflow instances are owned by disabled users|Detects waiting workflow instances that are assigned to disabled users. These workflows will fail to correctly generate the records that they are supposed to generate. | The workflows are assigned to disabled users.|Reactivate the user accounts that own the workflows or assign the workflows to another user account with the proper security privileges. |
+|||||
+
+## Out-of-the-box rule sets for Omnichannel for Customer Service
 
 When you run the analysis job, the following out-of-the-box rules are run. These rules can't be edited.
+
 
 | Rule | Description |
 |----|--------|
@@ -104,6 +136,7 @@ When you run the analysis job, the following out-of-the-box rules are run. These
 | Work stream should not have duplicate context variables | Verifies that duplicate context variables haven't been defined for work streams. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)  |
 | Work stream should not have empty routing rules above rules with condition | Verifies that empty routing rules haven't been defined for a work stream that prevent routing rules with a lower priority from running. More information: [Create and manage routing rules](routing-rules.md) |
 | Work stream with push mode should not allow offline mode | Verifies that "Offline" isn't an allowed presence for work streams that have push mode enabled. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream) |
+|||
 
 ### See also
 
