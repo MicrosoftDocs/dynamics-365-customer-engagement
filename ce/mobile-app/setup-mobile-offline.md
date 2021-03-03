@@ -31,7 +31,7 @@ Set up mobile offline synchronization to allow users to work in offline mode on 
 
 The mobile app provides a rich offline experience that helps users stay productive. You can use basic commands such as create, read, update, and delete when you're offline. Once you're back online, the changes that you made on the mobile app are automatically synchronized with Microsoft Dataverse.
   
-The offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize tables with the mobile app so that synchronized rows are available when a user's mobile devices is disconneted from the interent. 
+The offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize tables with the mobile app so that synchronized rows are available when a user's mobile devices is disconnected from the internet. 
 
 > [!IMPORTANT]
 > To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
@@ -63,7 +63,7 @@ For information on supported devices for Power Apps mobile, see [Supported devic
  
 One of the first things you need to do is enable tables that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported tables for offline mode.
 
-To enable an table for mobile offline synchronization, follow the steps below.
+To enable a table for mobile offline synchronization, follow the steps below.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -101,7 +101,7 @@ To enable an table for mobile offline synchronization, follow the steps below.
  
 Create a mobile offline profile to enable users for offline and configure filters that will determine how much data will be available to the user when they're working in offline mode. 
 
-To create a profile follow the steps below.
+To create a profile, follow the steps below.
   
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
@@ -126,19 +126,19 @@ To create a profile follow the steps below.
    >![Mobile Offline Profile screen](media/mol_new_profile.png "Crearte new Mobile Offline Profile")
 
   
-6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created select it to open the profile so you can continue editing it.  
+6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created, select it to open the profile so you can continue editing it.  
     
    > [!div class="mx-imgBorder"]
    >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
   
   
-7. In the **Data available offline** area, select **Add table** to add an table to the profile. 
+7. In the **Data available offline** area, select **Add table** to add a table to the profile. 
 
    > [!div class="mx-imgBorder"]
    >![Add table to the profile](media/mol_add_table.png "Add table to the profile")
    
   
-8. Select an table from the list of tables shown. Only tables that can be enabled for mobile offline appear in the **Table** list and then select **Next**.
+8. Select a table from the list of tables shown. Only tables that can be enabled for mobile offline appear in the **Table** list and then select **Next**.
 
    > [!div class="mx-imgBorder"]
    >![Table list](media/mol_add_table_1.png "Table list")
@@ -151,7 +151,7 @@ To create a profile follow the steps below.
    |Table ownership type|Available Data Download Filter options |  
   |---------------|-----------------|  
   |**User or Team**| <ul><li>**Download Related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other data filter** - Make only the specified rows for this table available offline and then choose from the following: </li> <ul><li> **Download user rows** - Make only your rows available offline.</li>  <li> **Download team rows** - Make your team’s rows available offline.</li> <li>**Download my business unit’s rows** - Make your business unit’s rows available offline.</lu>|  
-  |**Organization**|<ul><li>**Download related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this talbe will be available.</li> <li>**All rows** - Make all rows for this table available offline. </li>|  
+  |**Organization**|<ul><li>**Download related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline. </li>|  
   |**Business**|<ul><li>**Download related data only** -  Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available. </li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other rows** - Make only the specified rows for this table available offline and choose from the following:</li> <ul><li> **Download my business unit’s rows** - Make your business unit’s rows available offline.</li>   |  
   |**None**|  <ul><li>**Download related rows only**. Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> |        
  
@@ -178,7 +178,7 @@ To create a profile follow the steps below.
     > [!div class="mx-imgBorder"]
     >![Add table relationship](media/mol_add_relationship.png "Add table relationship")
   
-11. (optional) Select **Sync interval** and choose how often you want the table's data to automatically sync to people's devices. You can select a short interval such as **Every 5 minutes** or choose a less frequent interval to optimize the sync performance and user experience. Make the selection based on your business requirements and how often users make udpates to the table. Typically the more static the data is, the less need for a frequent sync interval. 
+11. (optional) Select **Sync interval** and choose how often you want the table's data to automatically sync to people's devices. You can select a short interval such as **Every 5 minutes** or choose a less frequent interval to optimize the sync performance and user experience. Make the selection based on your business requirements and how often users make updates to the table. Typically the more static the data is, the less need for a frequent sync interval. 
 
 > [!NOTE]
 > Even if the value for **Sync interval** is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. 
@@ -191,7 +191,7 @@ To create a profile follow the steps below.
 
 Once you have created a mobile offline profile, you can start adding users or team to the profile. This will make the profile available to the users or team so they can get the mobile offline experience that you've set up. 
 
-A user or team can only be added to one offline profile at a time. A warning will be displayed If a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might disrupt users experience, if the other profile has been published. 
+A user or team can only be added to one offline profile at a time. A warning will be displayed when a user or team already has been added to another profile. If the user or team is still added they will be moved to the new profile. This might disrupt users experience, if the other profile has been published. 
 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
@@ -224,7 +224,7 @@ Following these steps to publish the profile:
   
 2. When you’re done adding people and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
-It is not required to re-publish a mobile profile after users or team have been added.
+It's not required to republish a mobile profile after users or team have been added.
 
    > [!div class="mx-imgBorder"]
    >![Publish offline profile](media/mol_publish.png "Publish offline profile")
@@ -246,7 +246,7 @@ It is not required to re-publish a mobile profile after users or team have been 
    >![Set conflict detection for mobile offline](media/mol_system_settings.png "Set conflict detection for mobile offline")
 
 
-When there is a mismatch of data between client and server, conflict errors occur. To resolve those, you can choose one of the following settings:
+When there is a mismatch of data between client and server, conflict errors occur. To resolve the issue, choose one of the following settings:
 
 - Select **No** - Conflict detection for mobile offline is turned off, so whatever changes are made by a user in offline mode are automatically synced to the server when the user is back online, and client wins over server.
 
@@ -259,7 +259,7 @@ Enable mobile offline for a specific app from MyApps page.
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
 
-2. On the left nav select **Apps** and then select the app that you want open. Then on the command bar select **Edit**. This will open the app in the **App Designer**.
+2. On the left nav select, **Apps** and then select the app that you want open. Then on the command bar select **Edit**. This will open the app in the **App Designer**.
 
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/mol_edit_apps.png "Open App Designer")
