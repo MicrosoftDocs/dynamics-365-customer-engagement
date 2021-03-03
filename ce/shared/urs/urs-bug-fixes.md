@@ -4,32 +4,33 @@ The release is only applied when an environment is opted into the early access o
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface.
 
-- Fixed a bug where the tooltip of a button **Return** on the new Schedule Board’s embedded optimizer, is not localized. 
-- Fixed a bug on the new Schedule Board, where are certain Bookings with Travel time were not shown on the board, only the travel time was shown instead. With this fix, the bookings with travel time are shown as expected on the new Schedule Board. 
-- When Details view on the old schedule board is used for Resources and a Resource view is used where Resource timezone is included as a field on the view, the Timezone is displayed incorrectly as just a number. This bug is now fixed. 
-- When requirement priority name is set to null, the Schedule Board throws an error while loading. This bug is now fixed to handle null values on the Requirement priority record names. 
+- Fixed a bug where the tooltip of a button **Return** on the new schedule board's embedded optimizer, is not localized. 
+- Fixed a bug on the new schedule board, where certain bookings with travel time were not shown on the board; only the travel time was shown instead. With this fix, the bookings with travel time are shown as expected on the new schedule board. 
+- When details view on the old schedule board is used for resources and a resource view is used where resource timezone is included as a field on the view, the timezone was displayed incorrectly as just a number. This bug is now fixed. 
+- When requirement priority name is set to null, the schedule board would throw an error while loading. This bug is now fixed to handle null values on the requirement priority record names. 
 
 ## 3.12.40.15 - 2021 wave 1 Early access
 
-The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/en-us/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features. 
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features. 
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface. 
 
-- Fixed a bug on the new Schedule board where when a requirement is dragged and dropped into the Daily view, the **Create Booking** pane shows incorrect Start and End Dates. 
-- When hovered on disabled buttons on the new schedule board, tooltips are not being shown, this bug is now fixed. 
-- When the Date format is set to English (United Kingdom), the Date fields on the ‘Create resource booking’ pane of Schedule assistant are not respecting the above date format selected. This bug is now fixed.
+- Fixed a bug on the new schedule board when a requirement is dragged and dropped into the daily view, the **Create Booking** pane shows incorrect start and end dates. 
+- When hovered on disabled buttons on the new schedule board, tooltips were not being shown. This bug is now fixed. 
+- When the date format is set to English (United Kingdom), the date fields on the "Create resource booking" pane of schedule assistant were not respecting the above date format selected. This bug is now fixed.
 
 ## 3.12.36.2
 
-- Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the Schedule Assistant.
-- When the Date format is set to English (United Kingdom), the Date fields on the **Create resource booking** pane of Schedule assistant are not respecting the above date format selected. This bug is now fixed.
-- When a Schedule Board tab’s setting **Requirement Map Filter View** is configured to a Resource Requirement entity view that has a view definition which includes link entity filtering **Does not contain data**, the map view on the tab, does not load. This bug is now fixed. 
-- Keyboard navigation and selection issues on the Characteristics – Rating filter on the Filter view of the Schedule Board are fixed. 
-- When creating bookings for Crew type resources using the Schedule Assistant, the travel times are incorrectly calculated from the Organization unit of the Crew resources. This bug is fixed, and the travel time is calculated from the location of the Crew member Resources. 
-- When Appointment scheduling feature is enabled, non-admin users were unable to mark the Appointment record as complete. This bug is now fixed. 
-- When certain filter panel customizations are used in the old Schedule Board, and access the bottom filters of the panel, the filter panel jumps to the top. This jump experience issue is now fixed. 
-- When multiple child Requirements are defined under a Requirement Group, there were intermittent timeout issues thrown, we fixed this bug by increasing the timeout duration.
-- When ‘Apply territory filter’ setting is selected on the Schedule Board scheduler settings, on slow networks, this setting is not applying the Territory filter on the bottom ‘Requirement Panel’. This bug is now fixed to make the Territory filtering on the Requirement panel work even in slow/latent networks.
+- Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the schedule assistant.
+- When the date format is set to English (United Kingdom), the date fields on the create resource booking pane of schedule assistant were not respecting the above date format selected. This bug is now fixed.
+- When a schedule board tab’s setting requirement map filter view is configured to a resource requirement entity view that has a view definition including link entity filtering does not contain data, the map view on the tab, does not load. This bug is now fixed. 
+- Keyboard navigation and selection issues on the "Characteristics – Rating" filter on the filter view of the schedule board are fixed. 
+- When creating bookings for crew type resources using the schedule assistant, the travel times were incorrectly calculated from the organization unit of the crew resources. This bug is fixed, and the travel time is calculated from the location of the crew member resources. 
+- When appointment scheduling feature is enabled, non-admin users were unable to mark the appointment record as complete. This bug is now fixed. 
+- When certain filter panel customizations were used in the old schedule board, and access the bottom filters of the panel, the filter panel jumps to the top. This jump experience issue is now fixed. 
+- When multiple child requirements are defined under a requirement group, there were intermittent timeout issues thrown. We fixed this bug by increasing the timeout duration.
+- When apply territory filter setting is selected on the schedule board scheduler settings, on slow networks, this setting was not applying the territory filter on the bottom requirement panel. This bug is now fixed to make the territory filtering on the requirement panel work even in slow or latent networks.
+
 
 ## 3.12.35.6
 
