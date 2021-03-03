@@ -32,7 +32,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 2</strong> | | |  | |
 | | <i>South America</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
 | | <i>Canada</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
-| | <i>India</i> | [[8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
+| | <i>India</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
 | | <i>France</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
 | | <i>United Arab Emirates</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
 | | <i>South Africa</i> | [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527) | TBD | 04/02/2021
@@ -56,6 +56,10 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.35.44 
+This release is a hotfix on Field Service version [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527))
+-	Resolved an issue where, under certain circumstances, work orders with a Primary Incident Type which also executes a synchronous workflow, could result in null fields on the Work Order and related primary Resource Requirement.
+
 # 8.8.39.110 (2021 Wave 1 early access update)
 (Includes Universal Resource Scheduling version [3.12.42.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312425))
 
@@ -73,7 +77,6 @@ Additional updates:
 
 -	Fixed an issue with work order service were discount percentage was getting cleared on the form when line status was changed from estimated to used.
 -	Corrected an issue to throw an error if an agreement booking incident is created with a customer asset that is not associated to the service account on the corresponding agreement.
-
 
 ## 8.8.35.27
 (Includes Universal Resource Scheduling version [3.12.36.2](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312362))
