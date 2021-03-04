@@ -38,6 +38,13 @@ Features of the technician reporting PCF control:
 - Accessibility-compliant preview and output report.
 
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO 
+https://www.microsoft.com/videoplayer/embed/RWyFjo]
+
+
+
 ## Set up mobile reporting
 
 1. Download the [reporting solution](https://aka.ms/fsmreporting-solution).
