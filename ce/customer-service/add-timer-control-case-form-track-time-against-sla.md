@@ -34,6 +34,7 @@ You can configure the KPIs that you want to show in the SLA Timer control subgri
 - The KPIs are refreshed at the interval that you specify at the time of configuration.
 
 A sample runtime view of the SLA Timer is as follows.
+
 ![Run time view of SLA timers](../customer-service/media/sla-timer-runtime.png "Run time view of SLA timers")
 
 ### How to add the SLA Timer control
