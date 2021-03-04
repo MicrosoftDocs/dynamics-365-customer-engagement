@@ -3,9 +3,12 @@ To access the Dynamics 365 Channel Integration Framework (CIF) APIs, you need to
 > [!IMPORTANT]
 > For any organization hosted in Government Community Cloud(GCC) or Microsoft Cloud Germany, the provider domain should either reside inside the respective cloud or it should be allowed access from within that cloud.
 
-There are two ways to pass a Dynamics 365 URL to a widget library.
+A Dynamics 365 URL to a widget library can be passed by using one of the following methods.
 
-## 1. Add attributes to the script tag
+- Add attributes to the script tag
+- Add a URL parameter
+
+## Add attributes to the script tag
 
 The widget provider has to add the following attributes to the script tag that loads `msdyn_cilibrary.js` to pass the Dynamics 365 domain:
 
@@ -15,11 +18,11 @@ The widget provider has to add the following attributes to the script tag that l
 ### Example
 
 ```html
-<script type="text/javascript" src="https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js" onload="ciLoadDone();" data-crmurl="https://crmorg.crm.dynamics.com" data-cifid="CIFMainLibrary">
+<script type="text/javascript" src="https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js" data-crmurl="https://crmorg.crm.dynamics.com" data-cifid="CIFMainLibrary">
 </script>
 ```
 
-## 2. Add a URL parameter
+## Add a URL parameter
 
 Another method is to pass a `ucilib` parameter in the landing URL, like `ucilib=https://crmorg.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js`.
 
