@@ -132,26 +132,25 @@ Selecting **Book resources** will find the most optimal resources and book them 
 
 With Field Service v8.8.39+, the new schedule board provides an easy way to reassign and reschedule bookings in the same action. Bookings can be moved to resources on the current schedule board tab or to resources on other schedule board tabs.
 
-
 ### Move a booking to a resource on the current schedule board tab, or change the start date/time, or both
 
-Right click on a booking and select **Move to**.
+Right-click on a booking and select **Move to**.
 
 Then reassign this booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. 
 
-Click the **Update** button to apply the changes.
+Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Move to](./Images/moveto-popup.png)
+> ![Screenshot of the move to option.](./Images/moveto-popup.png)
 
 ### Move a booking to a resource on a different schedule board tab, or change the start date or time, or both
 
-Right click on a booking and select **Move to**. Click the filter icon in the Resource field and change the filter from **Resources on this tab** to **All resources**.
+Right-click on a booking and select **Move to**. Select the filter icon in the resource field and change the filter from *Resources on this tab* to *All resources*.
 
-Now you can reassign this booking to any resource on any tab, and change the start date and start time of the booking. Click the **Update** button to apply the changes.
+Now you can reassign this booking to any resource on any tab, and change the start date and start time of the booking. Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Move to with Resource filter expanded](./Images/moveto-popup-filterexpanded.png)
+> ![Screenshot of the move to with resource filter expanded option.](./Images/moveto-popup-filterexpanded.png)
 
 ## Automatic scheduling with optimization goals
 
