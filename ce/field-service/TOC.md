@@ -222,6 +222,7 @@
 ### [Resource Scheduling Optimization](field-service-version-history-resource-scheduling-optimization.md)
 ### [Field Service Mobile (Xamarin)](field-service-version-history-mobile.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Dynamics 365 Field Service + Dynamics 365 US Government availability](field-service-dynamics365-government.md)
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)
