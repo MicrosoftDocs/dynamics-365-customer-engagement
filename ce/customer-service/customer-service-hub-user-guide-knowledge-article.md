@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/02/2021
+ms.date: 03/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -177,6 +177,47 @@ You can choose a specific format or style for the content you’re writing. The 
 > 
 > [!NOTE]
 > In mobile devices, where you have comparatively smaller screen sizes, limited set of formatting options will be displayed.
+
+### Use inline images
+
+You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. 
+
+Before using inline images, keep in mind the following: 
+
+- The following formats are supported: .PNG, .JPG., or .GIF
+- The following browsers are supported: Microsoft Edge, Chrome, Firefox, Safari
+
+
+**Drag and drop an image**
+
+> [!Note]
+> You can only drag and drop an image in an editable area of the editor.
+
+1. Drag and drop the image either on top of the content or in the middle of the content in the editor.
+
+2. Drag any corner of the image to resize it to your desired size in the editor.
+
+**Copy and paste an image**
+
+> [!Note]
+> To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>You can drag and drop or copy and paste an image from Microsoft Word into the editor. One or two images can be copied at a time, as long as the size doesn't exceed 5 MB.
+
+1. Open the image file that you want to copy to the editor.
+
+2. Right-click the image, then select **Copy**.
+
+3. Go to the desired location in the editor where you want to insert the image, and then either right-click and select **Paste**, or select press **Ctrl+V**.
+
+**Insert a URL for an image**
+
+To insert an image by using a URL or navigating to the local image:
+
+1. In the editor, choose **Insert Image**.
+2. In the **Image** property dialog, choose from the following options:
+   - Specify the web address of the image, and also specify properties to define how the image will appear in the email or article.
+   **Note:** If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.
+   - Select **Browse** to navigate to the image on your computer.
+
   
 **HTML**
 
@@ -193,47 +234,6 @@ You can preview the content to view its compatibility on multiple devices, like 
 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
-
-
-### Use inline images
-
-You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. 
-
-Before using inline images, keep in mind the following: 
-
-- The following formats are supported: .PNG, .JPG., or .GIF
-- The following browsers are supported: Microsoft Edge, Chrome, Firefox, Safari
-
-
-**Drag and drop an image**
-
-> [!Note]
-> You can only drag and drop an image in an editable area of the editor, and it only works in Microsoft Edge.
-
-1. Drag and drop the image either on top of the content or in the middle of the content in the editor.
-
-2. Drag any corner of the image to resize it to your desired size in the editor.
-
-**Copy and paste an image**
-
-> [!Note]
-> Copying and pasting images isn't supported in Microsoft Edge. To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>Also, using the **Insert Picture** functionality in Microsoft Word may not work. You can drag and drop or copy and paste an image into Microsoft Word and then copy and paste it into the editor.
-
-1. Open the image file that you want to copy to the editor.
-
-2. Right-click the image, then choose **Copy**.
-
-3. Go to the desired location in the editor where you want to insert the image, and then press **Ctrl+V**.
-
-**Insert a URL for an image**
-
-To insert an image by using a URL or navigating to the local image:
-
-1. In the editor, choose **Insert Image**.
-2. In the **Image** property dialog, choose from the following options:
-   - Specify the web address of the image, and also specify properties to define how the image will appear in the email or article.
-   **Note:** If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.
-   - Select **Browse** to navigate to the image on your computer.
 
 
 ## Add a knowledge article rich text editor control to a form
