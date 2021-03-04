@@ -4,7 +4,7 @@ description: "How a bot in Omnichannel for Customer Service can be used to escal
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 02/17/2021
+ms.date: 03/04/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -43,30 +43,6 @@ In Omnichannel for Customer Service, a bot can escalate the current conversation
 > Skill-based routing should be enabled.
 
 The primary way a bot can dictate how the conversation will be routed is by using Omnichannel for Customer Service context variables that are associated with the chat. A bot can send out a list of context variables and the values to which they need to be updated along with the escalation request. Omnichannel for Customer Service will update the context variables to the specified values and then rerun the routing engine. This ensures that an escalated chat is routed to the right queue. After the agent accepts the request, the chat transcript with the bot is visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
-
-<!--
-### How to link customer and case to a conversation when bot escalates to a human agent<a name="link-customer-case-conversation"> </a>
-
-Customer and case can be linked to the conversation by the bot at the time of escalation so that the human agents can see the related customer and case information in the customer summary section when they start interacting with the customers. To link the customer or case, set the values for associated attributes, such as the name and phone number. These attributes will be searched for in Dynamics 365 in the corresponding entities, such as customer and case, and the result will be linked to the conversation if a single record is found to be matched. The bot will need to set context parameters for the following that are also set in [automatically identify a customer](record-identification-rule.md).
-
-|Entity to be linked|Variable name to be set by bot|Attribute for Dynamics 365 entity to match with corresponding variable name in bot|
-|------------|----------------|----------------------|
-|Account|<ul><li> Name</li><li> Email </li><li> Phone</li></ul> |<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul> |
-|Contact|<ul><li> Name</li><li> Email </li><li> Phone</li></ul>|<ul><li> name</li><li>emailaddress1</li><li>telephone1</li></ul>|
-|Case|CaseNumber|ticketnumber|
-||||
-
-For bots in Power Virtual Agents, you will set the values for the context variables to "User's entire response". To set the values for the bot in Power Virtual Agents, perform the steps mentioned in [Configure context variables for the bot](configure-bot-virtual-agent.md#configure-context-variables-for-the-bot).
-
-A sample screenshot is as follows that outlines how the variables need to be set in Power Virtual Agents.
-
-You do not need to select the **External sources can set values** check box in the variable properties.
-
-![Set context variables for Power Virtual Agents bot](media/set-context-variables-pva.png "Set context variables for Power Virtual Agents bot")
-
-To create context variables for Azure bot and set the values to "string", see [Create context variables](work-streams-introduction.md). <!-- Hari Thangavel to provide the information as per the conversation in the meeting held on 1/5/2021>
-
--->
 
 ## End a conversation
 

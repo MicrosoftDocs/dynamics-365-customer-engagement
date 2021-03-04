@@ -4,7 +4,7 @@ description: "Instructions to integrate a bot in Omnichannel for Customer Servic
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi 
-ms.date: 12/02/2020 
+ms.date: 03/04/2021 
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -170,8 +170,8 @@ At run time, the required information is captured in the context variable that c
 ### Global variables in Power Virtual Agents
 
 The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. The following types of variables can be passed:
-- Local variables. <!-- Hari Thangavel to confirm from PVA team.>
-- System variables. For the complete list, see [Contextual variables available upon hand off](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off) <!-- Hari Thangavel to give info on supported system variables>
+- Local variables.
+- System variables. For the complete list, see [Contextual variables available upon hand off](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off)
 - Pre-conversation survey variables.
 - Custom context
 

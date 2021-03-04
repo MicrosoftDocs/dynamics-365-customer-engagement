@@ -1,10 +1,10 @@
 ---
 title: "Enable bot context NuGet package | Microsoft Docs"
 description: "Enable a bot to understand context while authoring a bot flow"
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 12/04/2020
+ms.date: 03/04/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -27,7 +27,7 @@ For information on context variables that can be configured, see [Context variab
 
 >![Search for Omnichannel middleware](media/enable_botcon_step2.png "Search for Omnichannel middleware")
 
-Alternatively, you can use the following command in NuGet CLI:
+Alternatively, you can use the following command in NuGet CLI.
 
 ```
 Install-Package Microsoft.Xrm.Omnichannel.BotSDK -version 1.0.0.4 

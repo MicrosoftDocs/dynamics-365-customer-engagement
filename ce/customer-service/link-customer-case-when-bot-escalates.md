@@ -4,7 +4,7 @@ description: "How to link customer and case to conversation when bot escalates t
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/02/2021
+ms.date: 03/04/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -27,7 +27,7 @@ You do not need to select the **External sources can set values** check box in t
 
 ![Set context variables for Power Virtual Agents bot](media/set-context-variables-pva.png "Set context variables for Power Virtual Agents bot")
 
-To create context variables for Azure bot and set the values to "string", see [Create context variables](work-streams-introduction.md). <!-- Hari Thangavel to provide the information as per the conversation in the meeting held on 1/5/2021>
+To create context variables for Azure bot and set the values to "string", see [Create context variables](work-streams-introduction.md).
 
 ### See also
 
