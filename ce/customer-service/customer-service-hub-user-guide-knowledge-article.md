@@ -200,7 +200,7 @@ Before using inline images, keep in mind the following:
 **Copy and paste an image**
 
 > [!Note]
-> To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>You can drag and drop or copy and paste an image from Microsoft Word into the editor. One or two images can be copied at a time, as long as the size doesn't exceed 5 MB.
+> To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>You can drag and drop or copy and paste an image from Microsoft Word into the editor. One or two images can be copied at a time, as long as the total size of the images together doesn't exceed 5 MB.
 
 1. Open the image file that you want to copy to the editor.
 
