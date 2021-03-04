@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 US Government + Field Service availability | MicrosoftDocs"
-description: Learn about quick scheduling with Dynamics 365 Field Service
+description: Learn about Dynamics 365 US Government and Field Service feature availability
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/04/2020
