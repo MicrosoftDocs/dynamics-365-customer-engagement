@@ -3,7 +3,7 @@ title: "Send current technician location and arrival times to your customers wit
 description: Learn how to send customers information about their upcoming service in Dynamics 365 Field Service
 ms.custom:
 - dyn365-fieldservice
-ms.date: 02/19/2021
+ms.date: 03/04/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -36,6 +36,9 @@ With this functionality, you can:
   - Technician location
   - Estimated arrival time
   - Service updates
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWymMU]
+
   
 In this article, we'll walk through how to set up and configure service notifications, and how to set up the customer portal.
 
