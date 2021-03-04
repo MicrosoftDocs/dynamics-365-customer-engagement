@@ -312,6 +312,6 @@ To inject a new location, use advanced find in **Field Service** and search for 
 
 General content and format of the notifications are following a fixed template and cannot be changed. You can update individual words within the email and SMS content with content snippets found in Field Service settings. 
 
-### How do I update my Field Service Customer Experiences portal?
+### How do I update my Field Service customer experiences portal?
 
-We will publish updates over time to introduce new features and functionality for the portal. Updates are not automically published to your portal and would be applied by the organization administrator of your environment. To apply an update, navigate to https://admin.powerplatform.microsoft.com/, select your environment which has the Field Service Customer Experiences (Preview) portal installed, select "Portals". If an update is avialable you will see a message stating that with option to Update now. Select your Portal and apply the update to our environment. 
+We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and select "Portals." If an update is avialable, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
