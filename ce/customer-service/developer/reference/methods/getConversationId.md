@@ -33,3 +33,6 @@ A promise resolved with currently ongoing conversation id.
 ## See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

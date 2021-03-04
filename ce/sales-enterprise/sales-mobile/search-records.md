@@ -11,6 +11,8 @@ manager: shujoshi
 
 # Search records
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 You can search for records in the Dynamics 365 Sales mobile app. On the navigation bar at the bottom of the scree, tap the **Search** icon and enter text in the search box to find related information quickly. When you start typing, suggested records are displayed that include the text. Enter the complete words for better results.
 
 > [!NOTE]
@@ -38,3 +40,5 @@ Below the search box, you can see the number of records found in the search resu
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)<br>
 [Learn the basics](learn-basics-mobile-app.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

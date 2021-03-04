@@ -57,3 +57,6 @@ After you have configured your application using the Hosted Application Toolkit 
  [Configure the hosted application](../unified-service-desk/configure-hosted-application.md)   
  [Deploy your hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md#deploy)   
  [Import the hosted application from Unified Service Desk](../unified-service-desk/import-hosted-application-from-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

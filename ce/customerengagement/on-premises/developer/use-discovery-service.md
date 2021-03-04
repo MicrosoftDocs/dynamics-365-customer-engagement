@@ -32,3 +32,6 @@ The Discovery service is accessed through the OData V4 RESTful API or the Organi
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
  [Use Dynamics 365 Customer Engagement Web API](webapi/index.md)<br />
  [Use Dynamics 365 Customer Engagement Organization Service](org-service/index.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

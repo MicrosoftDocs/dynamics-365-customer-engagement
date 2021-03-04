@@ -22,3 +22,6 @@ Take a look at the [current release plans](https://docs.microsoft.com/dynamics36
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

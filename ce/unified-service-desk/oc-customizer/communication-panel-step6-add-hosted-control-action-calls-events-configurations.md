@@ -73,3 +73,6 @@ This topic describes how to add action calls, events, window navigation rule, an
 - [Step 3: Create communication panel-related action calls](communication-panel-step3-create-action-calls.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
 - [Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

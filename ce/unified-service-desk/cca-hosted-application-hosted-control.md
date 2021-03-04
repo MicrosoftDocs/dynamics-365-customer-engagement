@@ -40,3 +40,6 @@ A Customer Care Accelerator (CCA) hosted application hosted control enables you 
  [Use UII automation adapters to interact with external and web applications](../unified-service-desk/use-uii-automation-adapter-interact-external-web-applications.md)
  [Use UII hosted controls with Unified Service Desk](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)
  [Integrate with CTI systems using CTI adapters](../unified-service-desk/integrate-cti-systems-cti-adapters.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -22,3 +22,6 @@ Setup cannot resolve the host header name because a Domain Name System (DNS) ent
 
 Host header names must be mapped by using a DNS server or a Hosts file. For more information about configuring a DNS server, view the Help in the DNS service documentation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

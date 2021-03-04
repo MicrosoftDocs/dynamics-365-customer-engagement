@@ -95,3 +95,6 @@ To perform [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.
  [Microsoft Dynamics 365 Uninstall, Repair, and Change Instructions](uninstall-repair-and-change-microsoft-dynamics-365.md)   </br>
  [Uninstall or repair Microsoft Dynamics 365 Reporting Extensions](uninstall-repair-dynamics-365-reporting-extensions.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Run Dynamics 365 Marketing with a Dynamics 365 Portal and/or CMS system (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how you can run interactive marketing features for Dynamics 365 Marketing by using an integrated Dynamics 365 Portal or by using your own website or CMS system."
-ms.date: 01/22/2021
+ms.date: 02/18/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -78,7 +78,7 @@ You can use portal features in parallel with website/CMS features provided you h
 You can choose to remove portal integration from a Dynamics 365 Marketing instance at any time. If you choose to do so, the following will occur:
 
 - Your portal license will be released and can then be reused with another Marketing instance, or another Dynamics 365 app.
-- All of the existing portal content and settings will be permanently deleted.
+- The portal will be [reset](/powerapps/maker/portals/admin/reset-portal) during the removal process.
 - All existing marketing pages in Dynamics 365 Marketing will still be configured to be published on the now removed portal, so they will cease to function. However, their design and content will still be stored in Dynamics 365 Marketing. If you re-add a portal, the pages will be reconfigured to use the new portal and you'll be able to publish them there.
 - The event website will be removed. All events will still provide a link to the old website, so that link will no longer function. If you install the event website on your own server, it will work correctly right away (you won't have to update your event records), but if you want the links in your event records to open the new site, you must edit each record manually.
 
@@ -142,3 +142,5 @@ To add a portal to an existing Marketing installation that doesn't have one:
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Set up the event website](set-up-event-portal.md)  
 [Build and host a custom event website](developer/event-management-web-application.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

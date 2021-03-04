@@ -21,3 +21,5 @@ search.app:
 # Data protection tools
 
 Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of Dynamics 365 Marketing. These currently focus on helping organizations comply with GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

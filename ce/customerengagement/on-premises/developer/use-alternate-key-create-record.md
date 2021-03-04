@@ -77,3 +77,6 @@ public EntityReference(string logicalName, KeyAttributeCollection keyAttributeCo
  [Define alternate keys for an entity](define-alternate-keys-entity.md)   
  [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md)   
  [Use Upsert to insert or update a record](use-upsert-insert-update-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

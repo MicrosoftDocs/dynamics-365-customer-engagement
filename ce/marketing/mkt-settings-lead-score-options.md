@@ -41,3 +41,6 @@ Use the **Lead scoring** page in the **Settings** work area to configure a few b
 [Open the advanced settings](open-advanced-settings.md)  
 [The lead lifecycle](lead-lifecycle.md)  
 [Design lead-scoring models](score-manage-leads.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

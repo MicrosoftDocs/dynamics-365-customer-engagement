@@ -38,6 +38,13 @@ Features of the technician reporting PCF control:
 - Accessibility-compliant preview and output report.
 
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO 
+https://www.microsoft.com/videoplayer/embed/RWyFjo]
+
+
+
 ## Set up mobile reporting
 
 1. Download the [reporting solution](https://aka.ms/fsmreporting-solution).
@@ -67,3 +74,6 @@ From the bookable resource booking, select **Report**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a sample report in the bookable resource booking record.](./media/mobile-2020-reporting-web2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

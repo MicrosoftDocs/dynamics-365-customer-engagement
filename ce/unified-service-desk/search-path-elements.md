@@ -41,3 +41,6 @@ Web applications and web pages can contain frames. The frames can have associate
 ### See also  
  [WebDDA](../unified-service-desk/web-dda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

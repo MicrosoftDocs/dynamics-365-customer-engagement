@@ -349,3 +349,6 @@ To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find
 
 [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

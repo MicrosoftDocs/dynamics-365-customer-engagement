@@ -153,3 +153,6 @@ Almost all types of entities in Dynamics 365 Marketing include a **Related** tab
 [Create a segment](create-segment.md)  
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

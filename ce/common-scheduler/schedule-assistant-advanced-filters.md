@@ -21,3 +21,5 @@ search.app:
 # Advanced filters for the schedule assistant in Universal Resource Scheduling
 
 [!INCLUDE[schedule-assistant-advanced-filters.md](../shared/urs/schedule-assistant-advanced-filters.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ To lock prices or to use current pricing:
 
 [Create or edit orders](create-edit-order-sales.md)  
 [Create or edit invoices](create-edit-invoice-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Use the **Organizations** page to disable or enable an organization. It is a bes
  [Manage organizations](manage-organizations.md)   
  [Add a new organization](add-a-new-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

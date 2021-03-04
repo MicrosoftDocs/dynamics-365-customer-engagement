@@ -57,3 +57,6 @@ Let us know what KPIs you find work well, or not so well, on the [Dynamics Commu
  [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)  
  [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)  
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

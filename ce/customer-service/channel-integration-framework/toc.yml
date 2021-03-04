@@ -98,6 +98,8 @@
           href: reference/events/onsendkbarticle.md
         - name: "onSizeChanged"
           href: reference/events/onsizechanged.md
+        - name: "CIFInitDone"
+          href: reference/events/cifinitdone.md
       - name: Entity reference
         items:
         - name: "msdyn_ciprovider"
@@ -268,6 +270,8 @@
           href: v2/reference/events/onSessionSwitched.md
         - name: "onSessionClosed"
           href: v2/reference/events/onSessionClosed.md
+        - name: "CIFInitDone.md"
+          href: v2/reference/events/cifinitdone.md
       - name: Entity reference
         items:
         - name: "msdyn_appconfiguration"

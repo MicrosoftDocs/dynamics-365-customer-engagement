@@ -83,3 +83,6 @@ This topic describes how to create toolbar buttons in Unified Service Desk for D
 - [Step 3: Attach sub action calls to action calls](search-step3-attach-sub-action-calls.md)
 - [Step 4: Attach search-related action calls to events](search-step4-attach-action-calls-events.md)
 - [Step 5: Configure window navigation rule for search](search-step5-configure-window-navigation-rule.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ You can enable the reconnection options in the chat widget either while setting 
 [Add a chat widget](add-chat-widget.md)  
 [Create a work stream](work-streams-introduction.md)  
 [Slug for reconnection link](../app-profile-manager/automation-dictionary-keys.md#slug-for-reconnection-link)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

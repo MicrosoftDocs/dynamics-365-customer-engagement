@@ -10,14 +10,13 @@
 ## [Preview new features](field-service-preview.md)
 
 # Administration
-## [Work order process architecture](field-service-architecture.md)
-## [Sample data installation](install-sample-data-8-x.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
 ## [Territories](set-up-territories.md)
+## [Sample data installation](install-sample-data-8-x.md)
 ## [Field Service settings](configure-default-settings.md)
 
 
@@ -27,6 +26,7 @@
 
 
 # Work orders
+## [Work order process architecture](field-service-architecture.md)
 ## [Create a new work order](create-work-order.md)
 ## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Add account details to a work order](work-order-customer-account.md)
@@ -34,12 +34,14 @@
 ## [Price list](create-price-list.md)
 ## [Products and services](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
+## [Knowledge articles](field-service-knowledge-management.md)
 ## [Work order summary reports](reports.md)
 ## Inspections
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
+## [Capture resolution details](work-order-resolutions.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Bookable resources
@@ -47,6 +49,7 @@
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
+## [Send technician arrival time and current map location](reminders-arrival-time.md)
 ## [Resource pay types](set-up-resource-pay-types.md)
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 ## [Time entry](field-service-time-entry.md)
@@ -190,6 +193,9 @@
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
 
 ## Analyze
+### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
+### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+### [Summary tiles](cfs-summary-tiles.md)
 ### [Pull device data](cfs-pull-device-data.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [Reports](cfs-powerbi.md)

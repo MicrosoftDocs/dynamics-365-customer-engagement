@@ -133,3 +133,6 @@ Business processes help everyone follow best practices, even for situations that
 
 [Open the advanced settings](open-advanced-settings.md)  
 [About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

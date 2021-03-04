@@ -55,3 +55,6 @@ See the following links for insights configuration information:
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
 [View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  <br>
 [View and understand Customer Service analytics](customer-service-analytics.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

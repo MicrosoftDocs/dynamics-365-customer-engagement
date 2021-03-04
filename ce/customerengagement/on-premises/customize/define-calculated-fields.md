@@ -241,3 +241,6 @@ Calculated fields let you automate manual calculations used in your business pro
  [Create and edit fields](../customize/create-edit-fields.md#BKMK_CreatingAndEditngFields)   
  [Define rollup fields](../customize/define-rollup-fields.md)   
  [Video: Rollup and calculated fields in Dynamics CRM 2015](https://go.microsoft.com/fwlink/p/?LinkId=517727)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

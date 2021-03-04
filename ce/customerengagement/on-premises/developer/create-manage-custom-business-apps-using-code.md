@@ -272,3 +272,6 @@ You can use the following client APIs to work with business apps:
 ### See also  
 [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

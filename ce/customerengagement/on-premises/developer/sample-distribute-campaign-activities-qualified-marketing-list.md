@@ -62,3 +62,6 @@ Display an option to delete the records created in the [Setup](#setup). The dele
  <xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignActivityRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

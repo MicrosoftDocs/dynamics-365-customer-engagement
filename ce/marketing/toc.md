@@ -7,7 +7,7 @@
 ## Installation and environment management
 ### [Sign up for a free trial](trial-signup.md)
 ### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-### [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
+### [Integrate Marketing with a CMS system or Power Apps portals](portal-optional.md)
 ### [Open the Power Platform admin center](power-platform-admin-center.md)
 ### [Re-run the Marketing setup wizard](re-run-setup.md)
 ### [Manage Marketing environments](manage-marketing-environments.md)
@@ -126,6 +126,7 @@
 #### [Check your spam score](spam-checker.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 #### [Disable auto-adjustment of HTML](email-postprocessing.md)
+#### [Troubleshoot + FAQs](email-troubleshoot.md)
 
 ### Marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
@@ -258,7 +259,6 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
-### [API-generated calendar invites for events and sessions](developer/personalized-calendar-content.md)
 ### [Work with segments using code](developer/extend-segments.md)
 ### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
 ### [Entity mapping with custom workflows](entity-mapping.md)
@@ -277,3 +277,5 @@
 ### [Partner Sales and Marketing](learning-sales.md)
 
 ## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
+
+## [General FAQs](troubleshoot-faq.md)

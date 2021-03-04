@@ -142,3 +142,6 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)  
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)  
 [Configure Customer Service analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

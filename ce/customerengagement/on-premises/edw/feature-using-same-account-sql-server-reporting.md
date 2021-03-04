@@ -55,3 +55,6 @@ A [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] feat
   
 5.  Restart the service.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,11 +1,11 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-author: neeranelli
+author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
+ms.author: laalexan
 manager: shujoshi
-ms.date: 11/17/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -130,9 +130,23 @@ The AI model and AI configuration entities use the following workflow processes.
 - PublishAIConfiguration
 - UnpublishAIConfiguration
 
+## Service protection limits for AI suggestions
+
+AI suggestions for Case and Knowledge became available as of Oct, 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there is no penalty if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios/patterns to purchase additional capacity in a manner minimally disruptive to those customers. 
+
+The service protection limits for AI suggestions are defined as below. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user license available in the tenant.
+
+| Area    | Limits     | Notes     |
+|----------|------------|-----------|
+| AI suggestions for active cases | 30 cases/month per user license | Each user license adds 30 active cases, where agents can get AI-suggested knowledge articles and similar cases in real-time. |
+| AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real-time.  |
+
 ### See also
 
 [View AI-suggested similar cases and knowledge articles for active cases](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](../omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles.md)  
 [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

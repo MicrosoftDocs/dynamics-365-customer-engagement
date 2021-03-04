@@ -187,3 +187,6 @@ Alternatively, you can select the forms, views, charts, or dashboards tile, and 
 ### See also  
  [Create a site map for an app](../customize/create-site-map-app.md)   
  [Publish an app](../customize/publish-an-app.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

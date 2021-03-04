@@ -120,3 +120,6 @@ This important report shows all the sending failures and blocked emails that occ
 ![Email marketing block and failure analysis](media/EmailMarketing/EmailMarketing-(8)EmailBlock-FailureAnalysis.png "Email marketing block and failure analysis")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

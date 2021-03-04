@@ -1,10 +1,10 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently deprecated in Dynamics 365 Customer Service
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/21/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -64,14 +64,22 @@ If your organization requires features that rely on legacy APIs, the product tea
 
 ## Contracts, Contract Line Items, and Contract Templates entities are deprecated
 
-The Contracts, Contract Line Items, and Contract Templates entities are deprecated in the web client. This functionality has been replaced by [entitlements](create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated) will not be available after Tuesday, December 01, 2020, and you must migrate to Unified Interface by this date. We recommend that you migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, see [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md).
+The Contracts, Contract Line Items, and Contract Templates entities are deprecated and will not be supported from April 1, 2022. They will be removed in a future major release of Dynamics 365. This functionality has been replaced by [entitlements](create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated) will not be available after Tuesday, December 01, 2020, and you must migrate to Unified Interface by this date. We recommend that you migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, see [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md).
 
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
 Standard service level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. More information: [Enhanced service level agreements](https://technet.microsoft.com/library/dn887187.aspx).
+
+## Customer Service Insights standalone app to be deprecated
+
+The Customer Service Insights standalone app is planned for deprecation later this year. If you are a customer who uses this app, your current working environments will be terminated and inaccessible by December 8, 2021. You won't be able to use the standalone service after this date, but the embedded Customer Service Insights features in the core applications will continue to be available and supported. For users with Customer Service Enterprise licenses, you won't be able to create new workspaces, but you'll retain access to existing ones. We recommend that you migrate to the [embedded experience](introduction-customer-service-analytics.md) within the core Dynamics 365 Customer Service applications. In the interim, the [standalone app guide](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/quickstart) contains documentation for the standalone web application.
+
 
 ### See also
 
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
 [Important changes (deprecations) coming in Power Apps, Power Automate](https://go.microsoft.com/fwlink/p/?linkid=2126541)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

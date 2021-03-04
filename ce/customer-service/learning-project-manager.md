@@ -27,3 +27,6 @@ The following catalog is organized from core knowledge to specific domains, and 
 | [Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/paths/work-with-knowledge-management-solutions-in-microsoft-dynamics-365-for-customer-service/)   | This learning path focuses on Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service.    | Free, self-paced online learning path | 2 hours |
 | [Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service](https://docs.microsoft.com/learn/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/) | This learning path focuses on  entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service.  | Free, self-paced online learning path | 2 hours |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

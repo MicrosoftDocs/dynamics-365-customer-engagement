@@ -174,3 +174,5 @@ To set the field used to define label options for a design entity:
 ## Make label values and settings visible in lists and forms
 
 If you've customized the fields used to present your labels, then you must also update the relevant template-entity forms to provide the field as a setting for users. Use standard techniques for model-driven apps in Power Apps to make these settings. More information: [Create and design model-driven app forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-design-forms) and [Understand model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

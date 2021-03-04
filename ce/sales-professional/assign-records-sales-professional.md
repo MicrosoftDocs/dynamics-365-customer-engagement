@@ -10,6 +10,15 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-account
+  - D365-Entity-contact
+  - D365-Entity-lead
+  - D365-Entity-opportunity
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 
@@ -38,3 +47,6 @@ You can also assign a record to a team, or to yourself.
 
 [Learn the Basics](learn-basics-sales-professional.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

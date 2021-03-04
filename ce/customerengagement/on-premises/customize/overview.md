@@ -119,3 +119,6 @@ If you're applying these changes to a production system, we recommend that you s
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

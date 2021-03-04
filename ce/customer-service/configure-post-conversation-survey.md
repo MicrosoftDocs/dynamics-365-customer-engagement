@@ -95,3 +95,6 @@ For Live chat conversations, customers can receive survey questions within the s
 
 [Add a chat widget](add-chat-widget.md)  
 [Channels](channels.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

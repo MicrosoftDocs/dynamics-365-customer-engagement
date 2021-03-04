@@ -41,3 +41,6 @@ You can add multiple action calls to an event, and the action calls will be exec
  [Action calls](../unified-service-desk/action-calls.md)   
  [Events](../unified-service-desk/events.md)   
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Use the arrow to set the mode of the productivity pane.
 ## See also
 
 [Enable the productivity pane to provide guidance to agents](productivity-pane.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ In Omnichannel for Customer Service, you can:
 ### See also
 
 [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

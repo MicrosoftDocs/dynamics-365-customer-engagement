@@ -79,3 +79,6 @@ To specify the goal metric type, participating entities, and whether you track a
 ### See also  
  [Goal Management Entities](goal-management-entities.md)   
  [Add Complex Goal Criteria](add-complex-goal-criteria.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

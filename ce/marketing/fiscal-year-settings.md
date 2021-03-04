@@ -33,3 +33,6 @@ A fiscal period defines the time reflected in financial reports. It is used for 
     - In **Name Based On** drop-down list, select whether the fiscal year name is displayed on the start or end of the fiscal year.
     - In the **Display As** drop-down list, select how you want the fiscal year abbreviation and the year to appear.
 4. Select **Save**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

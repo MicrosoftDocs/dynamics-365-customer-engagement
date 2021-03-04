@@ -87,3 +87,6 @@ To view a document:
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Mark playbook as completed](mark-playbook-completed.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

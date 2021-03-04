@@ -91,3 +91,6 @@ manager: annbe
 </td></tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

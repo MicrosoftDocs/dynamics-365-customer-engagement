@@ -68,3 +68,6 @@ If the image you need isn't there, select **Upload a Picture** to add a new one.
 ### See also
 
 [Manage images](manage-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

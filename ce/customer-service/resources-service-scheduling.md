@@ -172,3 +172,6 @@ You can set work hours for the bookable resources where you can define when the 
 ### See also
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

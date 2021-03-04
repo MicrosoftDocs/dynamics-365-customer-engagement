@@ -86,3 +86,6 @@ Before you create solutions, take some time to plan ahead. For example, think ab
 ### See also  
  [Organize your team to develop solutions](organize-team-develop-solutions.md)   
  [Planning for Solution Development](plan-solution-development.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

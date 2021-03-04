@@ -412,3 +412,6 @@ The sample code given below shows how you can proactively offer chat invite to a
 [Initiate a chat](initiate-chat-wait-time.md)<br />
 [Display custom context](display-custom-context.md)<br />
 [Live chat JavaScript API reference](developer/omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

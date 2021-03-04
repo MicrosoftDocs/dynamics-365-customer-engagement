@@ -46,3 +46,6 @@ This section contains the code examples that show how to use the schedule and ap
  [Sample: Convert an Appointment to a Recurring Appointment](sample-convert-appointment-recurring-appointment.md)  
   
  [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ ms.author: matp
 2.  Right-click the service that you want to start, and then select **Start**.  
 3.  Select **OK** and then close the Services application.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

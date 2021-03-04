@@ -43,3 +43,6 @@ Recurring appointments occur more than once, and follow an occurrence pattern. F
 <!-- Bug 700899 to make RecurrenceRule Entity public
 [RecurrenceRule Entity](entities/recurrencerule.md) 
 -->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

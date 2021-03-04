@@ -57,3 +57,6 @@ To enable this capabilities, an admin will need enable the *OrgDBOrgSetting* in 
 
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

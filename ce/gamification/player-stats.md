@@ -61,3 +61,6 @@ Ranking of the total points per team (depending on the game model).
 [Overview for players and fans](for-players-fans.md)    
 [Manage your team](manage-fantasy-team.md)    
 [View a leaderboard](view-leaderboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

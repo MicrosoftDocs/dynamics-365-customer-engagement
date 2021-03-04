@@ -247,3 +247,6 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
 ### See also
  [Display hosted controls in the custom panel layout](../unified-service-desk/display-hosted-controls-custom-panel-layout.md)
  [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

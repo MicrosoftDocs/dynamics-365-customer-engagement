@@ -32,4 +32,8 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft Power Pl
 | Event Handling (On Save, On Load, etc.) | 	[Events in forms and grids in model-driven apps](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) | 
 | Business Logic / JavaScript	 | [Apply business logic using client scripting in model-driven apps using JavaScript](https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting) | 
 | Client Scripting | 	[Apply business logic using client scripting in model-driven apps using JavaScript](https://docs.microsoft.com/powerapps/developer/model-driven-apps/client-scripting) | 
-| SUpported capabilities and limitations|  [Platform supported capabilities and limitations for offline](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities)|
+| Supported capabilities and limitations|  [Platform supported capabilities and limitations for offline](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities)|
+| Custom controls |  [Additional custom controls for model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets)|
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

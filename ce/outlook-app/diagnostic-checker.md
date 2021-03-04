@@ -1,8 +1,8 @@
 ---
 title: "Check for issues using the Outlook Checker for Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
-description: How to run the Outook Checker to run a diagnostic check. 
+description: How to run the Outlook Checker to run a diagnostic check. 
 ms.custom: 
-ms.date: 09/15/2019
+ms.date: 02/17/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,18 +27,15 @@ search.app:
 Use the Outlook Checker to run a diagnostic check and scan for potential issues for Dynamics 365 App for Outlook. If you run into an issue, you can send the log files to your administrator to help troubleshoot the problem.
 
 
-<!-- In the alt text below, is "pain" correct or should it be "pane"? -->
-
-
    > [!div class="mx-imgBorder"] 
-   > ![Outlook Checker pain nav.](media/outlook-checker1.png "Outlook Checker pain nav")
+   > ![Outlook Checker pane nav.](media/outlook-checker1.png "Outlook Checker pane nav")
    
  Legend:
  
  1. **Export logs**: After you run the checker, export the error logs and send the log files to your support team or admin for further troubleshooting.
- 2. **Clear cache**: This will clear any errors in the App for Outlook cache. Cache will rebuild the next time you sign in. 
+ 2. **Clear cache**: Clears any errors in the App for Outlook cache. Cache will rebuild the next time you sign in. 
  3. **Hide or Show**: Move the toggle to **Show** to add the **Outlook Checker** on the command bar. If the toggle is set to **Hide**, press **ALT**+**CTRL**+**Y** on your keyboard to bring up the **Outlook Checker**.
- 4. **Run diagnostics**: This will run the diagnostics checker and scan for potential issues. 
+ 4. **Run diagnostics**: Runs the diagnostics checker and scans for potential issues. 
  
  
 ## Run the access checker
@@ -76,11 +73,14 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 1. If you don't have sufficient privileges to use Dynamics 365 App for Outlook, see [A privilege error occurs when attempting to use Dynamics 365 App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2135239).
 
 
-  <!-- I don't find the topic "The view is not available error message" when I go to that link. -->
-
 
 2. If you deactivated one of the views used by Dynamics 365 App for Outlook and get an error, see [The view is not available error message](https://go.microsoft.com/fwlink/p/?linkid=213547).
 
 3. If  **Track** and **Set Regarding** options are missing, see [Track and Set Regarding options are missing in Dynamics 365 App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2137902).
 
 
+
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ The *customer relationship entities* are not supported in [!INCLUDE[pn_dynamics_
   
 ### See also  
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

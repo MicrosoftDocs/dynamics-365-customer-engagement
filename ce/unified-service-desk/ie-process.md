@@ -64,3 +64,6 @@ Use the `ProcessTerminationThreshold` option in [!INCLUDE[pn_unified_service_des
 [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
 [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
 [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

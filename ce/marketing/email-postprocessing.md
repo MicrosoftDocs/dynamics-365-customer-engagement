@@ -39,3 +39,5 @@ When creating or editing your email, you can toggle this switch to turn off auto
 [Tutorial: Create a marketing email and go live](create-marketing-email.md)  
 [Email marketing overview](prepare-marketing-emails.md)  
 [Create a new email and design its content](email-design.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ ms.author: matp
   
 -   Verify that you have local administrator permissions for the computer on which [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] is running, and if it is necessary, grant the needed permissions.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

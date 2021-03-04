@@ -45,3 +45,6 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Link and unlink a record](link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

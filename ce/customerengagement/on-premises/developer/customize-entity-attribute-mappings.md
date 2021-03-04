@@ -122,3 +122,6 @@ For more information see [Create a new entity from another entity](/powerapps/de
 
  [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Create and edit entity relationships: Mapping Entity Fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

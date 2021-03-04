@@ -29,3 +29,6 @@ To perform [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm
  [Uninstall, repair, and change Microsoft Dynamics 365](uninstall-repair-and-change-microsoft-dynamics-365.md)   
  [Uninstall or repair Microsoft Dynamics 365 Report Authoring Extension](uninstall-repair-dynamics-365-report-authoring-extension.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

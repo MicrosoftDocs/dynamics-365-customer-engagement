@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
 [!INCLUDE[token-getEnvironment](../../shared/token-getEnvironment.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

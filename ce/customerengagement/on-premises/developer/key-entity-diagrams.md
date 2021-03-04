@@ -33,3 +33,6 @@ The following is the key to the entity model diagrams shown in the Dynamics 365 
 ### See also  
  [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  [Sample: Assign a Record to a Team](sample-assign-record-team.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

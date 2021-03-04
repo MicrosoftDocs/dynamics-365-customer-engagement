@@ -1,7 +1,7 @@
 ---
 title: "Create or edit orders (Dynamics 365 Sales) | MicrosoftDocs"
-description: "A sales order is a quote that your customer has accepted."
-ms.date: 06/22/2020
+description: "Use orders in Dynamics 365 Sales to track details of the products or services your customers want to place an order for. A sales order is a quote that your customer has accepted."
+ms.date: 02/10/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
@@ -19,7 +19,7 @@ searchScope:
   - Sales
 ---
 
-# Create or edit orders (Sales and Sales Hub)
+# Create or edit orders (Sales Hub)
 
 Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
   
@@ -29,11 +29,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 ## Create an order from a quote  
  Typically, you convert a quote that you have won into an order. Start with an active quote. Note that after a quote is accepted, you won't be able to revise it.  
   
-1. [!INCLUDE[proc_sales_quotes](../includes/proc-sales-quotes.md)]  
-
-   or
-
-   In the Sales Hub app, select the Site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
+1. In the Sales Hub app, select the Site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
   
 2. Select the quote you want to create an order from.  
 
@@ -63,11 +59,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 ## Create an order  
  You can create an order that is based on your communication with a customer instead of an accepted quote.  
   
-1. [!INCLUDE[proc_sales_orders](../includes/proc-sales-orders.md)]  
-
-   or
-
-   In the Sales Hub app, select the Site map icon![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
+1. In the Sales Hub app, select the Site map icon![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
   
 2. Select **New**.  
   
@@ -117,3 +109,6 @@ meaningful and unique. By default, these records are sorted by Name in the recor
 ### See also  
 [Print quote, invoice, or other records](print-records.md)  
 [Sales transactions in Dynamics 365 Sales](sales-transactions.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

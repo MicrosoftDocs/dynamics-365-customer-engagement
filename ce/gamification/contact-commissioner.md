@@ -31,3 +31,6 @@ When you need to get in touch with a commissioner or want to raise an issue with
 
  [Overview for players and fans in Gamification](for-players-fans.md)  
  [Manage settings to personalize the game experience in Gamification](personalize-game-experience.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

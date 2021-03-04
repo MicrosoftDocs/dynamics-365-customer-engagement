@@ -49,3 +49,6 @@ Review the message in the [!INCLUDE [pn-environment-diagnostics-wizard](../inclu
   
  Add the service account to the **Performance Log Users** local group or specify an account that already has this permission. Alternatively, you can use the Network Service account.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

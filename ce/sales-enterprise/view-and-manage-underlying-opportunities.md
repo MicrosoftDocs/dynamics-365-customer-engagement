@@ -115,3 +115,6 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View a forecast](view-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

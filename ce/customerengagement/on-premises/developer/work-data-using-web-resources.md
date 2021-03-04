@@ -52,3 +52,6 @@ You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
 
  [Client API Reference](clientapi/reference.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

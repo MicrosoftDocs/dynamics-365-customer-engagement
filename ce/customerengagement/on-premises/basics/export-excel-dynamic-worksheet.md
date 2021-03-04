@@ -81,3 +81,6 @@ You can't export data to a dynamic worksheet in [!INCLUDE[pn_Excel_short](../inc
 ### See also  
  [Export data to Excel](../basics/export-data-excel.md)     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ The following is the schema definition for the <xref:Microsoft.Crm.Sdk.Messages.
  <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest>   
  [Publish Customizations](publish-customizations.md)   
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

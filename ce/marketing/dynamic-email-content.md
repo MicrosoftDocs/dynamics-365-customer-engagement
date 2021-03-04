@@ -1,7 +1,7 @@
 ---
-title: "Add dynamic content to marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 01/20/2021
+ms.date: 02/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -141,7 +141,7 @@ Assist edit creates an expression that uses a format such as the following:
 - `{{EntityName.RelationshipName.FieldName}}`
 - `{{EntityName(RecordID).RelationshipName.FieldName}}`
 
-Note that the notation used for relationship names in the resulting expressions don't match the way they are represented in the assist-edit dialog. Here are some examples of resulting expressions:
+Note that the notation used for relationship names in the resulting expressions doesn't match the way they are represented in the assist-edit dialog. Here are some examples of resulting expressions:
 
 - `{{contact.firstname}}`  
 Places the recipient's first name.
@@ -376,14 +376,13 @@ In this example, the Dynamics 365 Marketing system has been customized to includ
 
 You must be careful when entering advanced dynamic code in the designer because there are many, sometimes unexpected, ways to get it wrong, which will break your code. Here are some tips for how to enter and test your code:
 
-- Use custom-code elements place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), double click on a custom-code element to edit its content.)    
+- Use custom-code elements to place code snippets between design elements on the **Designer** tab. This is much more visible and reliable than placing the code directly into the HTML using the **HTML** tab. However, you might also use dynamic code *within* a text element, in which case you'll probably need to clean up that code on the **HTML** tab, as mentioned later in this list. (When working in the [full-page editor](custom-template-attributes.md#show-toolbox), select on a custom-code element to edit its content.)    
     ![The custom-code element](media/custom-code-element.png "The custom-code element")
 - When you enter code into a text element on the **Designer** tab, any extra spaces and carriage returns that you add will create `&nbsp;`and `<p>` tags in your code, which can break it. Always go to the **HTML** tab afterwards, where you'll see all of these extra tags, and be sure to remove them.
 - When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
 - The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
 - The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing-insights service. This relationship name is not necessarily the same as the one used to customize Dynamics 365. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
-- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 
@@ -409,3 +408,6 @@ The following example (also shown previously) shows how to use comments to enclo
 [Set the sender, receiver, and legal designation](email-properties.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

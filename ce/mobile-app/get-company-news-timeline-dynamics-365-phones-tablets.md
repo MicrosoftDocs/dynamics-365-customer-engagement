@@ -28,3 +28,6 @@ Effective July 10, 2020, Company News Timeline solution will be deprecated. Unti
 
 For further information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming#company-news-timeline-solution-is-deprecated).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

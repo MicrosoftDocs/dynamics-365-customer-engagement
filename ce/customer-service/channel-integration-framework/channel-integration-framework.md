@@ -137,3 +137,6 @@ ms.custom:
 <a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a>
 
 <a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

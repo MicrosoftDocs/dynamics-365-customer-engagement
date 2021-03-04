@@ -91,3 +91,6 @@ Looking for more than just developer information? Here are other sites and point
 
 [Developer Guide for Dynamics 365 Customer Engagement](overview.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

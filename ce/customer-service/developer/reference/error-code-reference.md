@@ -39,3 +39,6 @@ Given below is a sample `errorEvent` object that is raised when the context prov
 
 [JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
 [Developer guide](../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

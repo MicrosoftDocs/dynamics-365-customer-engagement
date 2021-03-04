@@ -108,3 +108,6 @@ Once your Azure Blob storage is set up and connected to Dynamics 365 Marketing, 
 More information: [Download and use marketing analytics templates and sample reports for Power BI](marketing-analytics/analytics-gallery-start.md)
 
 ![A collage of various Power BI reports](media/pbi-gallery-overview.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

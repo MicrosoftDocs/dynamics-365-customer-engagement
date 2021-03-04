@@ -97,3 +97,6 @@ The following configuration file installs an update file that is located on an i
  [Microsoft Dynamics 365 Server XML configuration file](microsoft-dynamics-365-server-xml-configuration-file.md)  </br>
  [Sample server XML configuration file for installing with pre-created groups](sample-server-xml-config-file-pre-created-groups.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

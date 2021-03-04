@@ -4,7 +4,7 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -113,13 +113,47 @@ In the knowledge base search control, you can do the following:
 Type a keyword in the search box to search for knowledge articles.
 
   > [!div class=mx-imgBorder]
-  > ![Search for knowledge articles](media/search-kb-article.PNG "Search for knowledge articles using keywords")
+  > ![Search for knowledge articles](media/search-kb-article.png "Search for knowledge articles using keywords")
 
 - If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
 - If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
+
+## Linked knowledge articles subgrid
+
+The linked knowledge article subgrid is available for an entity, such as a case or account, only if your system administrator has added the subgrid to the entity form. The knowledge article subgrid displays the knowledge articles that have been linked with the entity. Some of the options available are as follows:
+
+- Add a knowledge article
+- Select and edit an article's content
+- Sort
+- Bulk operations
+ 
+You can also edit a knowledge article by double-clicking it in the linked articles list.
+
+To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
+
+1. In the Customer Service Hub site map, go to **Customers** > **Accounts**.
+
+2. Select any active account from the list of accounts.
+
+3. On the **Summary** tab, scroll down to the **Linked Knowledge Articles** subgrid.
+
+  > [!NOTE]
+  > The name of the subgrid can vary depending on the customizations your organization has made.
+
+4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
+
+   > [!div class=mx-imgBorder]
+   > ![Add an existing knowledge article](media/add-existing-knowledge-article.png "Add an existing knowledge article")
+
+5. Search for the knowledge article that you want to link, and select **Link.**
+
+   > [!div class=mx-imgBorder]
+   > ![Search for a knowledge article to link to an entity](media/search-related-article.png "Search for a related knowledge article to link to an entity")
+
+6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
 
 ## Independent knowledge base search
 
@@ -237,7 +271,7 @@ Select a article title to see its full content rendered in the same control. The
 
 As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search the entire knowledge base.  
 
-Administrator or system customizer must configure this option for you. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
+Administrator or system customizer must configure this option for you. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
 
 To view the auto filtered results:
 
@@ -248,7 +282,7 @@ To view the auto filtered results:
 3. If you want to disable automatic filtering option and search the entire knowledge base for articles, deselect the **Auto-filter results** option.  
 
     > [!NOTE]
-    > Administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the auto filtered results. To learn more, see  [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
+    > Administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the auto filtered results. To learn more, see  [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
 
 Let’s understand this in detail with the help of an example.
 
@@ -302,3 +336,7 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
 
 [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
+
+[Add a knowledge article subgrid to a form](add-knowledge-base-search-control-forms.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

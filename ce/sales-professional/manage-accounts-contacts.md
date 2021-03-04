@@ -10,6 +10,10 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-account
+  - D365-Entity-contact
 ---
 
 # Manage your customers
@@ -106,3 +110,6 @@ To create or edit a contact:
 
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

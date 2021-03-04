@@ -42,3 +42,6 @@ For example it's important for a sales team to know which product or service is 
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

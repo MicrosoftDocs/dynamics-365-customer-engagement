@@ -54,3 +54,6 @@ Configure weekly awards to keep players focused on delivering results for the ri
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)   
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

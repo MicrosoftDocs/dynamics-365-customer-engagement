@@ -37,3 +37,6 @@ The Customer Engagement Web API provides a development experience that can be us
 [Dataverse Developer Guide](/powerapps/developer/common-data-service/overview) <br/>
 [OData - the best way to REST](https://www.odata.org/)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -176,3 +176,6 @@ To replace version A with version B from a selected test:
 [Email marketing overview](prepare-marketing-emails.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

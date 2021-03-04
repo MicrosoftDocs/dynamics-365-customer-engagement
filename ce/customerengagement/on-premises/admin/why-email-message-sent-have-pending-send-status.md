@@ -36,3 +36,6 @@ If you create an email message in Dynamics 365 Customer Engagement (on-premises)
   
 ### See also  
  [Integrate your email system](../admin/integrate-synchronize-your-email-system.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

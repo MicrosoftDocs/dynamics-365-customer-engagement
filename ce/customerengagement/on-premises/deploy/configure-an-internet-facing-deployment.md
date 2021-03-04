@@ -75,3 +75,6 @@ Configuring an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-
  [Configure claims-based authentication](configure-claims-based-authentication.md)   
  [Disable an Internet-facing deployment](disable-an-internet-facing-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

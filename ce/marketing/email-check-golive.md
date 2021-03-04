@@ -73,3 +73,5 @@ Once you start delivering an email message using a customer journey, Dynamics 36
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Set the sender, receiver, language, and legal designation](email-properties.md) 
 [Check your work using previews and test sends](email-preview.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ This section covers installing and deploying Dynamics 365 for Outlook.
 > 
 > Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
 > For further information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

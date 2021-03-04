@@ -124,3 +124,6 @@ Assign a manager or change an existing manager. The manager is responsible for a
 
 [Admin settings overview](admin-settings-overview.md)  
 [Add or manage teams](manage-teams.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

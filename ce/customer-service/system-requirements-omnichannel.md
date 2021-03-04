@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Omnichannel for Customer Se
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/20/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -46,6 +46,19 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 
 For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
 
+### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
+
+The following browsers are supported by the live chat widget in Omnichannel for Customer Service:
+
+- **Windows:** Chromium-based Microsoft Edge, Google Chrome, Mozilla Firefox, and Internet Explorer 11
+- **macOS and iOS:** Safari
+- **Android:** Chromium-based Microsoft Edge and Google Chrome
+
+> [!NOTE]
+>
+> - Only Chromium-based Microsoft Edge and Google Chrome are supported for voice and video in live chat.
+> - Support for Internet Explorer 11 is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](deprecations-customer-service.md#internetexplorer11).
+
 ## Provision Omnichannel
 
 See [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to know how to enable the Omnichannel for Customer Service app in your org.
@@ -56,6 +69,7 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](upgrade-o
 >
 > - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
+> - Microsoft recommends that you use browsers for Omnichannel for Customer Service in normal mode for optimal experience.
 
 ## Allow access to websites
 
@@ -138,3 +152,6 @@ The Government community cloud links that should be accessible are as follows.
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
 [System customizers guide](omnichannel-customizer.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

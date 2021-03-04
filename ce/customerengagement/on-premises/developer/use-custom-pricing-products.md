@@ -41,3 +41,6 @@ The pricing engine in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)
  [Product pricing methods](product-pricing-methods.md)   
  [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

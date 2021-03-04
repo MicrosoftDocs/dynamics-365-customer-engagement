@@ -82,3 +82,6 @@ By following the above steps, Fiddler is configured to listen to the requests an
 [Web resources for Customer Engagement (on-premises)](web-resources.md)<br />
 [Use JavaScript with Customer Engagement (on-premises)](use-javascript.md)<br />
 [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ If you’re in charge of incident management for an organization, it’s importa
 ### See also  
  [Define status reason transitions](../customerengagement/on-premises/customize/define-status-reason-transitions.md)   
  [Create or edit entity fields](../customerengagement/on-premises/customize/create-edit-fields.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

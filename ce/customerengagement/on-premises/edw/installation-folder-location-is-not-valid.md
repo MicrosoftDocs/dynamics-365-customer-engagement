@@ -32,3 +32,6 @@ ms.author: matp
   
 -   The folder should be empty when Setup starts.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

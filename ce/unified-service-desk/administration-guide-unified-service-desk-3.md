@@ -40,3 +40,6 @@ This guide provides information about how to install, administer, and manage [!I
  [Administer and manage overview](../unified-service-desk/admin/administer-manage-unified-service-desk.md)  
   
  [Troubleshoot Unified Service Desk](../unified-service-desk/admin/troubleshoot-unified-service-desk.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

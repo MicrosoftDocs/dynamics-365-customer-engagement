@@ -33,3 +33,6 @@ The entities described in this section are used to set up the [!INCLUDE[pn_micro
  [Privilege and Role Entities](privilege-role-entities.md)  
   
  [Field Security Entities](field-security-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -181,3 +181,6 @@ As a workaround, you can set the unmanaged devices policy to “Allow full acces
  [Manage your documents using SharePoint](manage-documents-using-sharepoint.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

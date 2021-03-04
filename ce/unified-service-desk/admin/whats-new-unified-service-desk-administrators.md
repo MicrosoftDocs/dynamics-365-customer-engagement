@@ -4,7 +4,7 @@ description: "Learn about new Unified Service Desk features"
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/19/2020
+ms.date: 02/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -22,6 +22,12 @@ search.app:
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 ::: moniker range="dynamics-usd-4.1"
+
+## What's new in Unified Service Desk 4.1.1.1433
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region.
 
 ## What's new in Unified Service Desk 4.1.1.1429
 
@@ -352,3 +358,6 @@ These are the limitations:
  [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

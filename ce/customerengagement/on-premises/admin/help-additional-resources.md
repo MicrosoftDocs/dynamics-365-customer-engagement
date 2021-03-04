@@ -30,3 +30,6 @@ There are several resources available to you covering planning, operating, and u
   
 -   Search the [Microsoft Knowledge Base](https://go.microsoft.com/fwlink/p/?LinkId=203050)  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

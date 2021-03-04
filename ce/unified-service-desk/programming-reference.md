@@ -22,3 +22,6 @@ The reference documentation for the public assemblies that constitute the [!INCL
 ### Related Sections  
    
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

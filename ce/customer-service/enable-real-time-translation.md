@@ -41,3 +41,6 @@ You must add a web resource and make sure that the required language translation
 
 [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)  
 [Real-time language translation of conversations for agents and customers](oc-real-time-translation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

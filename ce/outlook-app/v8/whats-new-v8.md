@@ -68,3 +68,6 @@ description: "Updates to Dynamics 365 App for Outlook version 8.2."
 7. Allow deletion of appointments if server-side synchronization auto detects changes that will result in change in ownership.
 8. Reliability improvements.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

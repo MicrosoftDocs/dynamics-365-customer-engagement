@@ -112,3 +112,6 @@ For some entities, such as account and user, the visualizations are provided out
   
 ### See also  
 [Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
