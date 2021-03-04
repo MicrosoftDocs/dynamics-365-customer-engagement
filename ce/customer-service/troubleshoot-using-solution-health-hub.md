@@ -33,7 +33,10 @@ Some of the issues that the Solution Health Hub helps detect are as follows:
 
 ## Prerequisites
 
-To run the rules for Customer Service, you must have the Customer Service Hub app installed in your environment.
+To run the rules for Customer Service, the following prerequisites must be met:
+
+- The Customer Service Hub app installed in your environment.
+- You should have either the CSR Manager or System Administrator security role
 
 To run the rule for Omnichannel for Customer Service, you must have Omnichannel for Customer Service installed in your environment.
 
