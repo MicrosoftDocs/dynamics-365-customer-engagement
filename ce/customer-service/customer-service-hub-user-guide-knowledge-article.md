@@ -188,7 +188,7 @@ Before using inline images, keep in mind the following:
 - The following browsers are supported: Microsoft Edge, Chrome, Firefox, Safari
 
 
-**Drag and drop an image**
+##### Drag and drop an image**
 
 > [!Note]
 > You can only drag and drop an image in an editable area of the editor.
@@ -197,7 +197,7 @@ Before using inline images, keep in mind the following:
 
 2. Drag any corner of the image to resize it to your desired size in the editor.
 
-**Copy and paste an image**
+##### Copy and paste an image**
 
 > [!Note]
 > To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>You can drag and drop or copy and paste an image from Microsoft Word into the editor. One or two images can be copied at a time, as long as the total size of the images together doesn't exceed 5 MB.
@@ -208,7 +208,7 @@ Before using inline images, keep in mind the following:
 
 3. Go to the desired location in the editor where you want to insert the image, and then either right-click and select **Paste**, or select press **Ctrl+V**.
 
-**Insert a URL for an image**
+##### Insert a URL for an image**
 
 To insert an image by using a URL or navigating to the local image:
 
