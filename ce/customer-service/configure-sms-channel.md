@@ -39,7 +39,7 @@ You can enable the SMS channel from the Dynamics 365 Administration Center. For 
 
 ## Sign up for TeleSign account
 
-An SMS channel can be enabled within Omnichannel for Customer Service by integrating with TeleSign. This integration uses public APIs of TeleSign for sending and receiving text messages. You must sign up for a TeleSign account to enable an SMS channel in your organization.
+An SMS channel can be enabled within Omnichannel for Customer Service by integrating with TeleSign. This integration uses public APIs from TeleSign for sending and receiving text messages. You must sign up for a TeleSign account to enable an SMS channel in your organization.
 
 To sign up for TeleSign
 
