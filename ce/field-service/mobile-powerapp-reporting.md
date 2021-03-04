@@ -40,10 +40,7 @@ Features of the technician reporting PCF control:
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO 
-https://www.microsoft.com/videoplayer/embed/RWyFjo]
-
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyFjo]
 
 ## Set up mobile reporting
 
