@@ -96,16 +96,16 @@ To understand what version of the Field Service solution is in your environment,
 ## Field Service (Dynamics 365) mobile app
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-app-store2.png)
+> ![Simulated device showing the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-app-store2.png)
 
-There are 2 steps to upgrade the Field Service (Dynamics 365) mobile app.
+There are two steps to upgrade the Field Service (Dynamics 365) mobile app.
 
-**Step 1.** Upgrade Field Service (as described in the section above). Upgrading Field Service will also upgrade the "Field Service Mobile" model driven app. As an example, upgrading to [Field Service v8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) includes an update to Field Service and the Field Service mobile app.
+**Step 1.** Upgrade Field Service (as described in the previous section). Upgrading Field Service will also upgrade the "Field Service Mobile" model-driven app. For example, upgrading to [Field Service v8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) includes an update to Field Service and the Field Service mobile app.
 
 **Step 2.** After Field Service is upgraded, you must upgrade the mobile app on your mobile phone or tablet. You can do this the same way you upgrade any app on your phone or tablet, either manually or with automatic updates.
 
-### Best practices
-- Turn on automatic app updates on your device. See the topic on [iOS: automatic app updates iOS](https://support.apple.com/en-gb/HT202180#automatic) or [Android: automatic app updates](https://support.google.com/googleplay/answer/113412?hl=en). 
+> [!Note]
+> **Best practice**: Turn on automatic app updates on your device. For more information, see these articles: [iOS: automatic app updates iOS](https://support.apple.com/HT202180#automatic) or [Android: automatic app updates](https://support.google.com/googleplay/answer/113412). 
 
 ## Resource Scheduling
 
