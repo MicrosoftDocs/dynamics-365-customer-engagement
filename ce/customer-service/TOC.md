@@ -292,7 +292,7 @@
 #### [Download attachments from Azure bot](download-attachments-bot.md)
 #### [Manage custom context](send-context-starting-chat.md)
 #### [Display custom context](display-custom-context.md)
-#### [Send authenticaion token](send-auth-token-starting-chat.md)
+#### [Send authentication token](send-auth-token-starting-chat.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
