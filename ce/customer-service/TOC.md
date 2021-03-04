@@ -277,7 +277,7 @@
 
 ## Power Virtual Agents
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
-#### [Suggested actions for a Power Virtual Agents bot] (suggested-actions-power-virtual-agent.md)
+#### [Suggested actions for a Power Virtual Agents bot](suggested-actions-power-virtual-agent.md)
 
 ## Bots
 
