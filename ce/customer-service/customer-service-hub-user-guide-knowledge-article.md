@@ -128,7 +128,7 @@ The **Content** editor panel consists of three tabs:
 
 Additionally, you can perform **Undo**, **Redo**, and **Full Screen** in the Content editor panel. 
   
-**Designer**
+### Designer
 
 You can choose a specific format or style for the content you’re writing. The following table outlines the different formatting options of the rich text editor.
 
@@ -219,14 +219,14 @@ To insert an image by using a URL or navigating to the local image:
    - Select **Browse** to navigate to the image on your computer.
 
   
-**HTML**
+### HTML
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
 
 ![HTML panel](media/html-panel.png "HTML pane in content editor for knowledge article")
 
 
-**Preview**
+### Preview
 
 You can preview the content to view its compatibility on multiple devices, like Tablets, or Phones.
 
