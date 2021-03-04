@@ -11,41 +11,44 @@ ms.service: dynamics-365-customerservice
 ---
 
 # View and understand the Omnichannel intraday insights dashboard
-<!--note from editor:  -->
+
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The Omnichannel intraday insights dashboard provides the key performance indicators (KPIs)<!--note from editor: If you're getting pushback for using the term "KPIs" in the article, I suggest using "metrics". So this introductory sentence would be "The Omnichannel intraday insights dashboard provides metrics (key performance indicators) that reflect the health of your organization..." and use "metrics" from there on out. "Performance indicators" isn't a valid substitute, unless you explain the difference between them and KPIs (but there is no difference, correct? "KPIs" is what we've trained our readers to expect throughout our doc sets).--> that reflect the health of your organization. This dashboard consists of two sections:
+The Omnichannel intraday insights dashboard provides metrics (key performance indicators) that reflect the health of your organization. This dashboard consists of two sections:
 
-- [Conversation insights](#conversation-insights)<!--note from editor: Edit suggested. I don't see an "Intraday Monitoring" tab anywhere in the screenshots, only "Omnichannel Intraday Insights."-->
+- [Intraday Monitoring](#intraday-monitoring)
 - [Agent insights](#agent-insights)
 
 The information displayed in these sections is based on the conversations that were closed in the last 24 hours, and is refreshed every 15 minutes. The report fetches the latest data and is generated in real time. If the report is kept open in a preconfigured Power BI workspace, it's automatically refreshed after 15 minutes; in a customer-configured workspace, the report is refreshed after every 5 minutes.
 
 > [!IMPORTANT]
-> To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).<!--note from editor: Edit okay? I think we should be more specific than just "not adversely affected."-->
+> To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
 
-<!--note from editor: I suggest removing this H2. As noted above, there doesn't seem to be an "Intraday monitoring" tab, so having it be an H2 confused me. Another benefit of removing the "Intraday monitoring" H2 is that we can promote "Agent insights" to an H2 also, and don't have to split the information about that section between an H3 here and an H2 later in the article (which I also found confusing).--> 
-## Conversation insights
-<!--note from editor: I like the fact that this H2 uses singular "conversation," so I won't suggest changing it to match the UI. In fact, it's the UI that should be changed. Can you suggest to the UI designers to use "Conversation insights" and "Agent insights" for the section names? The plural isn't grammatical.-->
-The **Conversations insights** section provides insights about conversation requests that have been generated in the past 24 hours, with KPIs such as the number and state of the conversations. The following image shows an example of the **Conversations insights** section.<!--note from editor: In the following image, the tab name is "Power BI." Is that okay, or should it be "Omnichannel Intraday Insights"?-->
+## Intraday Monitoring
+
+The intraday monitoring tab provides information on conversation and agent insights and their performance.
+
+### Conversation insights
+
+The **Conversations insights** section provides insights about conversation requests that have been generated in the past 24 hours, with KPIs such as the number and state of the conversations. The following image shows an example of the **Conversations insights** section.
 
 > [!div class="mx-imgBorder"]
 > ![Conversations insights dashboard](media/supervisor-conversations-insights-dashboard.png "Conversations insights dashboard")
 
 This section of the dashboard displays the following KPIs about conversations.
 
-| KPI<!--note from editor: As noted above, "Performance indicator" isn't an acceptable substitute for "KPI" unless you define the difference. Perhaps "Metric" would work? Or if you want a very generic term, how about "Tile"?--> | Description |
+| Metric | Description |
 |-------|-------|
 | Average wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. *Session wait time* is defined as the elapsed time between the creation of a session and the time that an agent is assigned. |
 | Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. |
-| Average handle time per conversation | For a conversation, the handle time used to calculate the average<!--note from editor: Suggested.--> is defined as the cumulative handle time of its individual sessions.<!--note from editor: This definition is slightly different from the following tables; should it be the same as those? --> *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](#average-handle-time)|
+| Average handle time per conversation | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](#average-handle-time)|
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
-| Conversation by status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**.<!--note from editor: Edit assumes that these are UI strings.--> |
-| Open conversations | The distribution of open conversations in pick mode and push mode, respectively.<!--note from editor: Are these UI strings? If so, they should be bold. I don't actually know what these modes mean and I don't them defined anywhere in the doc set. Will the reader definitely understand? Usually "push" is paired with "pull."--> |
+| Conversation by status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
+| Open conversations | The distribution of open conversations in pick mode and push mode, respectively. |
 |||
 
 ## Agent insights
-<!--note from editor: I think this section could use more headings, since now it only has one H3 (which isn't optimal), but I do think it's better to make this main heading an H2 to be parallel with "Conversation insights." The two sections of the dashboard just seem like they should logically be at the same level.-->
+
 The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a given day. An example of the **Agent insights** section is shown in the following image.
 
 > [!div class="mx-imgBorder"]
@@ -73,14 +76,14 @@ In the agent insights report, you can view specific insights about the performan
 > [!div class="mx-imgBorder"]
 > ![Agent queue](media/agent-queue-details.png "Agent queue")
 
-The agents insights section displays the status of different conversations.<!--note from editor: "Status" is never plural.-->
+The agents insights section displays the status of different conversations.
 
 | Conversation status | Description |
 |-------|-------|
 | Agent status | The availability of the agent. |
 | Conversation status reason | The status of the latest conversation between an agent and a customer. |
 | Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. More information: [Average handle time](#average-handle-time)|
-| Participation mode | The split of sessions into three types: **Primary** indicates the agent who's assigned to the session, **Consult** indicates agents who are engaged in a consulting session, and **Monitor** indicates supervisors who are monitoring the conversation.<!--note from editor: This implies that the mode shows the names of the agents who are primary, consulting, or monitoring, but that doesn't seem right. Should this be the same as the definition below: " **Primary** indicates that the agent is engaged in a session. **Consult** means that the agent is engaged in a consulting session with another agent. **Monitor** means that this agent is monitoring the session."?--> |
+| Participation mode | The split of sessions into three types: **Primary** indicates that the agent is engaged in a session, **Consult** indicates that the agent is engaged in a consulting session with another agent, and **Monitor** indicates that the agent is monitoring the conversation.|
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations.
 
@@ -154,9 +157,9 @@ You can filter information by selecting the queues that have been defined for yo
 
 ## Average handle time
 
-The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents.<!--note from editor: I moved the previous sentences here to integrate them a bit more fully into the discussion.--> The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes. 
+The average handle time for a conversation is defined as the cumulative handle times of its individual sessions. The session handle times take into account only the active time of agents. The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes. 
 
-If the agent spends time providing consultation, it's included in the agent's average handle time. Similarly, for supervisors, the monitor time is included in the supervisor's average handle time.<!--note from editor: Is there more that can or should be said about the supervisor KPIs? Or will this be taken care of in another article?-->
+If the agent spends time providing consultation, it's included in the agent's average handle time. Similarly, for supervisors, the monitor time is included in the supervisor's average handle time.
 When a conversation is transferred, the active time spent by all agents who are involved is summed up to compute the handle time for the conversation.
 
 Average handle time will be accurately calculated if you ensure the following:
