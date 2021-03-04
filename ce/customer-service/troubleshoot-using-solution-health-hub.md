@@ -48,6 +48,10 @@ Perform the following steps to run an analysis job to check for issues in Omnich
 2. Select **Analysis Jobs** > **New**.
 3. In the **Create Analysis Job** dialog box, in  **Rule Set**, select **Omnichannel** or **Customer Service**, and then select **OK**.
 
+> [!Note]
+>
+> For Customer Service, you can run the health check from **Analysis Jobs** in **Service Management** site map of Customer Service Hub.
+
 ## Analyze the health check results
 
  After the analysis job completes its run, the results are displayed on the **Job Details** tab.
