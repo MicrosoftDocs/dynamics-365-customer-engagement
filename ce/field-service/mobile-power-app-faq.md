@@ -89,5 +89,9 @@ There is no limitation to the number of records that can be downloaded in offlin
 
 For more information, review the [platform documentation](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities).
 
+## Can I connect Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud enviornments?
+
+Not at this time. Support for non-public clouds will be added to Field Service mobile in the near future.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
