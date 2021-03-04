@@ -98,12 +98,12 @@ On the **Service tab**, you'll see work order details like work order service ta
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
 
-## Notes, pictures, and videos
+## Take notes with attached pictures, videos and files
 
-On the **Notes** tab, you can add note text, pictures, videos, and customer signature capture.
+On the **Notes** tab, you can easily capture multiple text, photo, audio, and video notes and associate them with the booking. You can also attach files. These notes help you record and build relevant work history. Customer signatures can also be captured. The **Timeline** tab is available for other historical data connected to the booking.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
+> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the notes tab with options to attach notes. Middle screenshot shows camera view. Right screenshot shows the notes tab with photo notes added.](./media/mobile-uci-quick-notes.png)
 
 ## Service assets
 
@@ -218,6 +218,12 @@ For more information, see the article: [Using Field Service with Dynamics 365 Re
 ## Create follow-up work orders
 
 While working on site, frontline workers may need to note further work that needs to be performed at a later time. The Field Service (Dynamics 365) mobile app makes it easy to create follow-up work orders after completing the current work order. This feature prepopulates several columns from the current work order, making it easier for the technician to quickly create the new work order.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO 
+https://www.microsoft.com/videoplayer/embed/RWyHY4]
+
 
 To create a follow-up work order, the technician must select the **Follow-up** option in the bottom app menu. This option is only available if the booking status is set to **Completed** and the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).
 
