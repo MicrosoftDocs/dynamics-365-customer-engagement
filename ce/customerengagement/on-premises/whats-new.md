@@ -1,6 +1,6 @@
 ---
 title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9"
-ms.date: "07/01/2020"
+ms.date: "03/03/2021"
 ms.topic: "topic"
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
 author: mattp123
@@ -8,7 +8,16 @@ ms.author: matp
 ms.prod: dynamicscrm-2016
 ---
 
-# New features in Dynamics 365 Customer Engagement (on-premises), version 9
+# New features in Dynamics 365 Customer Engagement (on-premises), version 9.x
+
+::: moniker range="op-9-1"
+
+TODO: Add what's new information for 9.1 release
+
+::: moniker-end
+
+
+::: moniker range="op-9-0"
 
 This topic lists new features that are available with Dynamics 365 Customer Engagement (on-premises), version 9.
 
@@ -32,6 +41,6 @@ This topic lists new features that are available with Dynamics 365 Customer Enga
 > [!NOTE]
 > The offline capability in Dynamics 365 for Outlook, version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook, version 9.0 will continue to be supported in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
