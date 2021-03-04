@@ -178,7 +178,7 @@ You can choose a specific format or style for the content you’re writing. The 
 > [!NOTE]
 > In mobile devices, where you have comparatively smaller screen sizes, limited set of formatting options will be displayed.
 
-### Use inline images
+#### Use inline images
 
 You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. 
 
