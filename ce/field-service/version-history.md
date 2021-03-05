@@ -60,6 +60,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 This release is a hotfix on Field Service version [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527).
 
 -	Resolved an issue where, under certain circumstances, work orders with a primary incident type that also executes a synchronous workflow, could result in null fields on the work order and related primary resource requirement.
+-	Reverted the below change: "Updated behavior where estimated duration from agreement booking setup was not carried over to work order. Previously, duration from the resource requirement was not being used to calculate total estimated duration in the work order. This behavior has been updated; if no work order service task or incident is present, total estimated duration is obtained from the Requirement. If requirement duration is null, then we get value from booking setup metadata." 
+
 
 ## 8.8.39.110 (2021 Wave 1 early access update)
 (Includes Universal Resource Scheduling version [3.12.42.5](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312425))
