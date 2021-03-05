@@ -87,8 +87,9 @@ Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of p
 This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead entity, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead entity where applicable.
 
 > [!NOTE]
->  The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
+>  - The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
 > “You haven't been authorized to use this app. Check with your system administrator to update your settings.”
+>  - At this time, adding a team to the **Dynamics 365 App for Outlook User** security role doesn't automatically propogate the privileges to the users within that team.
 
 ### Supported configurations with Microsoft Exchange  
  As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] you can use the app with any combination of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), including hybrid configurations. This means you can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] in any of the following configurations:  
