@@ -1,7 +1,7 @@
 ---
 title: "Preview and test send an email message design (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use in-app previews and test sends to inspect and test your email message design in Dynamics 365 Marketing."
-ms.date: 04/03/2020
+ms.date: 02/19/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -57,6 +57,8 @@ Use the following drop-down lists on the right side of the **Designer** > **Prev
 <a name="inbox-preview"></a>
 
 ## Use the advanced inbox preview feature
+
+<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/?linkid=2154667" frameborder="0" allowfullscreen=""></iframe></div>
 
 Go to the **Designer** > **Preview** > **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms. This feature renders your message by using native code from each of the listed target platforms, and then delivers your preview as an image file showing the precise results. As with the simple preview, you can use the **Designer** > **Preview** > **Inbox Preview** > **Properties** tab to choose a **Contact** record and **Resource Set** from which to draw dynamic values (see also the previous section).
 
