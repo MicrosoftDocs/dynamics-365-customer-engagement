@@ -79,7 +79,7 @@ Make sure that you have the System Administrator or System Customizer security r
    
     ![Search for entity](media\knowledge-entity.png "Search for entity")
     
-4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. To add the control, create a section and then and then add a knowledge search control within it.
+4.	Select the entity name, select the **Forms** tab, and then open the form where you want to add the knowledge control. Select **+Component** to add a new component, select **Related Data**, and then **Knowledge Search**. To add the control, create a section and then add a knowledge search control within it.
 
     **Note:** If the option to add Knowledge Base Search is disabled, it could be because knowledge management isn't set up or isn't enabled for the entity for which you're adding the search control. Also, this control won't be enabled for reference panels until a later date.
 
