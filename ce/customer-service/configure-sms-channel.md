@@ -81,7 +81,7 @@ To sign up for TeleSign
 
 8. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
-    - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **Number**: Specify the support phone number that you purchased from TeleSign in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
     - **Type**: Select **Long code**, **Short code**, or **Toll free**.
     - **Description**: Specify a description for the number. (Optional) 

@@ -3,7 +3,7 @@ title: "Send current technician location and arrival times to your customers wit
 description: Learn how to send customers information about their upcoming service in Dynamics 365 Field Service
 ms.custom:
 - dyn365-fieldservice
-ms.date: 02/19/2021
+ms.date: 03/04/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -36,6 +36,9 @@ With this functionality, you can:
   - Technician location
   - Estimated arrival time
   - Service updates
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWymMU]
+
   
 In this article, we'll walk through how to set up and configure service notifications, and how to set up the customer portal.
 
@@ -43,7 +46,7 @@ In this article, we'll walk through how to set up and configure service notifica
 
 - Field Service version (8.8.30.103+)
 - The Field Service mobile app
-- Technician location sharing must be enabled in Field Service, and also allowed from the technician's mobile device.
+- [Technician location sharing](https://docs.microsoft.com/dynamics365/field-service/mobile-powerapp-location-auditing) must be enabled in Field Service, and also allowed from the technician's mobile device.
 - SMS provider supporting Microsoft Power Automate connector for mobile SMS communication.
 - Office 365 Exchange account for email communications.
 
@@ -308,3 +311,7 @@ To inject a new location, use advanced find in **Field Service** and search for 
 ### How do I edit email and SMS content?
 
 General content and format of the notifications are following a fixed template and cannot be changed. You can update individual words within the email and SMS content with content snippets found in Field Service settings. 
+
+### How do I update my Field Service customer experiences portal?
+
+We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and select "Portals." If an update is avialable, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
