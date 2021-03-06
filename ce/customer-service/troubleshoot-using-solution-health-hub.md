@@ -88,8 +88,8 @@ You can do the following:
 
 The out-of-the-box rules for Customer Service are as follows. These rules can't be edited.
 
-| Rule | What the rule checks for | Reason for failure and fix |How to fix|
-|----|--------|----------|-----|
+| Rule | What the rule checks for | Reason for failure and fix |
+|----|--------|----------|
 | Automatic Record Creation process definitions in draft status |Checks whether ExecutePrimaryCreatePostActions and ExecuteARC custom actions are in the active or draft state when a rule for creating records automatically is being used. | The processes to create records automatically are deactivated.<br> Review whether the deactivated processes are required for your business logic and reactivate them if necessary. You can select the rule and select **Resolve**, which will activate the processes. |
 |Check if Activity Monitor for Automatic Record Creation is enabled  |Checks for msdyn_ArcActivityMonitorForFailedScenarios and msdyn_ArcActivityMonitorForSkippedScenarios flag values to decide whether activity monitor is enabled. | Activity monitor is not enabled for creating records automatically. Enable the activity monitor to monitor rules to know whether they succeeded or failed.<br> More information: [Use activity monitor to review and track rules](automatically-create-update-records.md#use-activity-monitor-to-review-and-track-rules) |
 |Check if autoRouteToOwnerQueue for Email is enabled|Checks whether rules to create records automatically are enabled and auto route to owner queue is set on the Email entity. |The rule for creating records automatically might not be triggered to the right user if **Automatically move records to owner's default queue** check box is selected for the Email entity.<br> More information: [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues) |
