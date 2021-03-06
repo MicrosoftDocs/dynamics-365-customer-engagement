@@ -182,5 +182,18 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 |Editable|No|Override|No|
 |ReadOnly|Yes or No|Default or Override|No|
 
+## Forecasting
+
+**Question**:<br>What are the configurations that I can edit once a forecast is published?     
+**Answer**:<br>You can edit the following configurations for a forecast once it's published:     
+-	On the [General](define-general-properties-scheduling-forecast.md) page, you can edit forecast title and default underlying records view. 
+-	On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit forecast. 
+-	On the [Layout](choose-layout-and-columns-forecast.md) page, you can edit column titles, descriptions, and whether or not they show up on the grid. 
+-	On the [Drill-down](configure-manage-drill-downs.md) page, you can add, delete, or update drill-downs.
+-	On the [Snapshots](https://docs.microsoft.com/dynamics365/ai/sales/manage-snapshots-forecast) page, you can enable or disable daily snapshots for the forecast.
+-	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
+When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
