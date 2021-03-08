@@ -4,7 +4,7 @@ description: "Read how you can pass the URL of your Dynamics 365 instance to the
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 02/15/2021
+ms.date: 03/05/2021
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.custom: 
