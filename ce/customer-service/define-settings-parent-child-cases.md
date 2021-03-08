@@ -18,13 +18,11 @@ search.app:
   - D365CS
 ---
 
-# Introduction
+# Define parent and child case settings
 
 Case management is the core record that tracks individual customer service issues across channels and agents over time. Customers want to have a long and happy relationship with brands over time, and throughout that relationship they may have several support inquiries through more than one support channel. To achieve this goal, Dynamics 365 Customer Service provides enhanced case configuration and improved case analytics for supervisors.
 
-# Define parent and child case settings
-
-In Dynamics 365 Customer Service,  you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to service management and set up a few rules about how information is inherited. 
+In Dynamics 365 Customer Service, you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to service management and set up a few rules about how information is inherited. 
 
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, parent child case settings in service management are available in the Customer Service Hub. We recommend that you create and manage parent child case settings using the new experience.
