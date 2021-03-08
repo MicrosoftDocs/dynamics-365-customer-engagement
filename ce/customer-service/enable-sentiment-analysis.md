@@ -99,7 +99,9 @@ To turn off agent alerts, select **Don't show alerts**.
 
 Supervisors can use the **Omnichannel Ongoing Conversation** dashboard to view customer sentiment in real time during conversations between customers and agents.
 
-You can show notifications to the supervisors when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
+You can show notifications to the supervisors when a customer's sentiment decreases to or below a particular value. The supervisor must be assigned to the queue to receive sentiment notifications.
+
+You can set the sentiment threshold to any of the following values:
 
 - Don't show notifications
 - Slightly negative
