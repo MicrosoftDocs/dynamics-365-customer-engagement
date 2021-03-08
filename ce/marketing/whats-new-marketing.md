@@ -49,8 +49,9 @@ Dynamics 365 Marketing 2021 release wave 1 early access includes a completely re
 >
 > We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
 
-- **Marketing emails**
-    - 
+- **Create emails quickly with low effort and without compromises**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises)
+    - [Docs](email-design.md)
 
 ### Monthly enhancements
 
