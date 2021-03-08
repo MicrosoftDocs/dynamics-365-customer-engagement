@@ -19,12 +19,25 @@ topic-status: Drafting
 
 # Configure the assistant
 
-The assistant in Dynamics 365 Sales (formerly known as relationship assistant) helps sellers track their daily actions and communications through a collection of actionable insight cards. 
+**Before you start**     
+<table>
+  <tr>
+    <th>Security role required</th>
+    <td>System Administrator</td> 
+  </tr>
+  <tr>
+    <th>License</th>
+    <td>Dynamics 365 Sales premium</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-The assistant is available in two forms:
-
-- **Assistant (standard)**: This feature is included with Dynamics 365 Sales Enterprise. The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](#configure-and-manage-insight-cards-for-the-standard-assistant).
-
+The assistant in Dynamics 365 Sales helps sellers track their daily actions and communications through a collection of actionable insight cards.     
+The assistant is available in two forms:     
+- **Assistant (standard)**: This feature is included with Dynamics 365 Sales Enterprise. The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](#configure-and-manage-insight-cards-for-the-standard-assistant).      
 - **Assistant (premium)**: The premium assistant is available in Sales with the Dynamics 365 Sales Insights license. With premium assistant capabilities, you can use Power Automate directly from the assistant studio to create custom insight cards, tailored to the specific needs of your team. To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](#configure-and-manage-insight-cards-for-the-premium-assistant).
 
 ## Configure and manage insight cards for the standard assistant

@@ -12,8 +12,6 @@ manager: annbe
 
 # Set up Dynamics 365 Sales
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
-
 To set up Dynamics 365 Sales, you must complete these general steps.
 
 1. Buy a subscription, or sign up for a free 30-day trial subscription.
