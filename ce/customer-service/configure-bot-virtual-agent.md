@@ -138,10 +138,10 @@ In this scenario, after a bot has transferred a conversation to a human agent, t
 5. The customer converses with the human agent.
 6. The human agent has finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in the same queue.
 7. The human agent is disconnected from the conversation, and the conversation is routed to Bot B.
-8.	Bot B receives the messages in the following order:
+8. Bot B receives the messages in the following order:
     - A conversation update that the “Bot added”
     - The Omnichannel Set context event
-9.	The system triggers Bot B to send a greeting message.
+9. The system triggers Bot B to send a greeting message.
 10. The customer now converses with Bot B.
 
 ## Configure context variables for the bot
@@ -150,6 +150,7 @@ When customers initiate a conversation, the relevant context that is related to 
 
 > [!IMPORTANT]
 > Ensure the following:
+>
 > - Names are not changed and used as is when you author flows.
 > - The value that will be passed to the context variable doesn't exceed 4,000 characters so that the conversation can be successfully escalated to the agent.
 
