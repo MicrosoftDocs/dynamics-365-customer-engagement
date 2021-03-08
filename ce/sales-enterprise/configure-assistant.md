@@ -22,11 +22,11 @@ topic-status: Drafting
 **Before you start**     
 <table>
   <tr>
-    <th>Security role required</th>
+    <td><b>Security role</b></td>
     <td>System Administrator</td> 
   </tr>
   <tr>
-    <th>License</th>
+    <td><b>License</b></td>
     <td>Dynamics 365 Sales premium</td>
   </tr>
   <tr>
