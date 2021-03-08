@@ -246,7 +246,7 @@ Go to **Advanced Settings** > **Settings** > **Customization** > **Customize the
 
 There's an entity ```InspectionInstance``` with a display name **Inspection** with a 1:N relationship to customer asset. By default, this relationship is not visible in the related tab of the asset.
 
-Find the row where **Related Entity** is **Inspection** 
+Find the row where **Related Entity** is **Inspection**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Advanced settings showing the Inspection relation with customer asset.](./media/ad-hoc-inspection-customer-asset.png)
@@ -262,9 +262,6 @@ Inspection are now visible in the **Related** tab for assets. To validate, go to
 > ![Screenshot of Advanced settings showing the Inspection in the related tab of customer asset.](./media/ad-hoc-inspection-asset-related-tab.jpg)
 
 A new inspection instance can be created and an inspection template can be assigned to it. After saving, the inspection responses can be entered and saved. Upon selecting **Mark Complete** from the ribbon, the inspection becomes read-only and no more responses can be entered or edited.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Advanced settings showing the Inspection in the related tab of customer asset.](./media/ad-hoc-inspection-instance-completion.jpg)
 
 From the Field Service mobile app, the technician can also go the asset and perform ad hoc inspections in the same way.
 
