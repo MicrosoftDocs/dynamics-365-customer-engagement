@@ -37,7 +37,10 @@ You can also assign a **Crew Strategy.** Crew strategy determines how the crew m
 - **Crew Member Self-Management**: Resources can manage their own work. This is useful when a crew is made up of users who regularly work together, but may not always work together at the same place or time. Self-management also means better time capturing, which is good for organizations who bill for time spent on work. 
 
 > [!Note]
+> The logic associated with Crew Strategies will only impact work order related bookable resource bookings. 
+> 
 > Crew strategies affect if and how a crew booking is rescheduled. For instance, if a crew leader's bookings are moved, then all bookings are moved.
+
 
 
 On the **Common** tab, set the **Start and End Locations**.
