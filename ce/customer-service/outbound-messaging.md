@@ -40,7 +40,7 @@ After meeting the prerequisites, you can send outbound messages from your organi
 - Set up outbound configuration
 - Set up a Power Automate flow
 
-## Step 1: Set up message templates
+## Set up message templates
 
 You need to set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
@@ -51,7 +51,7 @@ You need to set up templates to send outbound messages. To create a template, co
     - [Create a template for SMS and Twitter](create-message-templates.md). 
     - [Create a template for WhatsApp](configure-whatsapp-channel.md#modify-settings-for-a-specific-whatsapp-phone-number).
 
-## Step 2: Set up outbound configuration
+## Set up outbound configuration
 
 1. Go to **Settings**, and select **Outbound**.
 
@@ -72,7 +72,7 @@ You need to set up templates to send outbound messages. To create a template, co
     > [!div class=mx-imgBorder]
     > ![Configure outbound messages](media/outbound-configuration.png "Configure outbound messages")
 
-## Step 3: Set up a Power Automate flow
+## Set up a Power Automate flow
 
 Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in in Omnichannel for Customer Service relies on flow-based business logic. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
 
