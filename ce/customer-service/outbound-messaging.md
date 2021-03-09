@@ -18,7 +18,7 @@ ms.reviewer: nenellim
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 
-As an administrator, you can do the following: 
+As an administrator, you can do the following tasks: 
 
 - Create message templates that can be adopted for outbound messages.
 - Configure outbound messages to be sent for events that are triggered for an entity, such as creation of a case.
@@ -42,7 +42,7 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 ## Set up message templates
 
-You need to set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
+Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -67,14 +67,14 @@ You need to set up templates to send outbound messages. To create a template, co
 
     The **Configuration ID** will be generated when you select **Save**. You'll use it later to identify this outbound configuration when you set up the flow in Power Automate.
 
-    You can choose a message template for the outbound message. The default message language and additional localized message versions are part of the message template configuration, and will apply to outbound messages.
+    You can choose a message template for the outbound message. The default message language and other localized message versions are part of the message template configuration, and will apply to outbound messages.
 
     > [!div class=mx-imgBorder]
     > ![Configure outbound messages](media/outbound-configuration.png "Configure outbound messages")
 
 ## Set up a Power Automate flow
 
-Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in in Omnichannel for Customer Service relies on flow-based business logic. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
+Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, see [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
 
 - [Case Creation flow](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
 
@@ -114,7 +114,7 @@ Power Automate provides a low-code platform for workflow and process automation.
    | --------- | --------- | ------------------- |
    | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. For Twitter, it is the customer’s Twitter handle. |
    | **channelid** | Required | The customer's preferred social channel: SMS, WhatsApp, or Twitter. |
-   | **optin** | Required | The customer's preference to be contacted by phone.This field can be set to **true** or **false**. |
+   | **optin** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
    | **locale** | Chosen by default | To enable dynamic message languages, the default variable must be replaced by a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
    | **contextitems** | NA | Contains values to be processed with individual messages as they're sent. |
    | **entityrelationshipname** | Not required | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field will have to be added to the flow for it to work. |
