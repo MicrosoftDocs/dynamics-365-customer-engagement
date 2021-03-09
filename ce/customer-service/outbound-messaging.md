@@ -67,7 +67,7 @@ You need to set up templates to send outbound messages. To create a template, co
 
     The **Configuration ID** will be generated when you select **Save**. You'll use it later to identify this outbound configuration when you set up the flow in Power Automate.
 
-        You can choose a message template for the outbound message. The default message language and additional localized message versions are part of the message template configuration, and will apply to outbound messages.
+    You can choose a message template for the outbound message. The default message language and additional localized message versions are part of the message template configuration, and will apply to outbound messages.
 
     > [!div class=mx-imgBorder]
     > ![Configure outbound messages](media/outbound-configuration.png "Configure outbound messages")
