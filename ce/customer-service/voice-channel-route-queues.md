@@ -12,6 +12,7 @@ ms.service: dynamics-365-customerservice
 # Set up workstreams and queues for the voice channel
 
 Step 3: Set up work stream and queue for voice
+
 A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
 Set up a voice work stream
 Perform the following steps in the Omnichannel admin center (preview) app to configure a work stream for voice:
