@@ -29,7 +29,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## March 2021 update
 
-Dynamics 365 Marketing 2021 release wave 1 early access includes a completely revamped email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
+The Dynamics 365 Marketing March 2021 update includes several enhancements, performance upgrades, and bug fixes. The March release also includes early access to the revamped email designer.
 
 ### Version number
 
@@ -56,7 +56,7 @@ Dynamics 365 Marketing 2021 release wave 1 early access includes a completely re
 ### Monthly enhancements
 
 - **Marketing emails**
-    - 
+    - Improved column rendering when "Table layout for section" is enabled in the email designer.
 
 ### Bug fixes
 
