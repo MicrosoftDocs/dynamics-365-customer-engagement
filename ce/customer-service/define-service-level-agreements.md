@@ -4,7 +4,7 @@ description: "Learn how to define service-level agreements in Dynamics 365 Custo
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -100,7 +100,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 7. Select **Activate**. The SLA KPI is saved and activated.
 
-## Create an SLA in Customer Service Hub<a name="create-slas"></a>
+## Create SLAs in Customer Service Hub<a name="create-slas"></a>
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
 
@@ -167,22 +167,29 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
      > [!NOTE]
      > We recommend that you don't edit the predefined flow, which can cause breaks in the flow, and the SLA might not work as defined.
 
-   c. Select **Switch**. The following condition steps are displayed:
+   c. Select **Switch**. The following condition steps are displayed for each of which you can configure a required action:
 
      - **Is Nearing Non-Compliance**: Will run when the warning time is reached for the SLA.
      - **Is Succeeded**: Will run when the SLA succeeds.
      - **Is Non-compliant**: Will run when the SLA fails.
-      ![SLA flow in Power Automate](media/sla-default-flow.png "SLA fLow in Power Automate")
 
     d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears, in which you can configure the action that must be performed when the warning time has been reached for the SLA.
+    
+    e. In **Choose an operation**, search for an action, such as **Perform an unbound action**, and select it.
+    
+    f. In **Action Name**, select msdyn_SendEmailFromTemplate, and configure the following options that are displayed for the action:
+      - From
+      - To Item
+      - Cc Item
+      - Regarding  
 
-      i. Search for an action to add or go to the existing entities, such as **Mail**.
+    f. Repeat the steps to configure the actions for **Is Succeeded** and **Is Non-compliant**.
 
-      ii. Select **Send an email notification**. Update the options to define the information in the mail.
+      A sample screenshot of the configured action is as follows.
 
-    e. Configure the actions for **Is Succeeded** and **Is Non-compliant**, as required.
-
-    f. Save and exit Power Automate.
+      ![Configured action in Power Automate](media/sla-default-flow.png "Configured action in Power Automate")
+    
+    g. Save and exit Power Automate.
 
 4. Select **Save & Close** on the SLA item dialog box.
 
@@ -206,7 +213,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Service Management**. 
+2. Go to **Settings** > **Service Management**.
 
 3. Go to **Service Level Agreements**.  
 
