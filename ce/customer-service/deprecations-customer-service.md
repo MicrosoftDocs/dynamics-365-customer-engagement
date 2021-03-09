@@ -30,7 +30,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
-The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier will not be supported after October 01, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. More information: [Work with knowledge articles](work-knowledge-articles.md)
+The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier will not be supported after October 01, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. More information: [Work with knowledge articles](work-knowledge-articles.md).
 
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated <a name="internetexplorer11"></a>
 
