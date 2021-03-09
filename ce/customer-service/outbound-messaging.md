@@ -16,7 +16,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for SMS, Twitter and WhatsApp channels.
+Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 
 As an administrator, you can do the following: 
 
@@ -38,7 +38,7 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 - Set up message templates
 - Set up outbound configuration
-- Step 3: Set up a Power Automate flow
+- Set up a Power Automate flow
 
 ## Step 1: Set up message templates
 
@@ -74,7 +74,7 @@ You need to set up templates to send outbound messages. To create a template, co
 
 ## Step 3: Set up a Power Automate flow
 
-Power Automate provides a low-code platform for workflow and process automation. Omnichannel for Customer Service's outbound messaging relies on flow-based business logic. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
+Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in in Omnichannel for Customer Service relies on flow-based business logic. For more information, refer to [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
 
 - [Case Creation flow](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
 
