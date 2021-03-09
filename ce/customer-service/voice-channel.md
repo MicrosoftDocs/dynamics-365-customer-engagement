@@ -13,6 +13,8 @@ ms.service: dynamics-365-customerservice
 
 Enable customer service representatives to communicate with customers on the phone to resolve issues with the voice channel in Dynamics 365 Customer Service. 
 
+With the voice channel, Omnichannel provides agents with the ability to receive inbound and make outbound PSTN calls through a native calling experience in Dynamics 365, with real time AI-powered features such as live call transcription, sentiment analysis and AI-based Suggestions working out of the box to boost agent productivity. Omnichannel also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
+
 > [!VIDEO 
 https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 

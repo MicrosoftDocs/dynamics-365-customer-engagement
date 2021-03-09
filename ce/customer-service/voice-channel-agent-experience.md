@@ -49,7 +49,7 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 
 
-# Markdown syntax reference (WILL BE DELETED BEFORE PUBLISH)
+## Markdown syntax reference (WILL BE DELETED BEFORE PUBLISH)
 
 ## Prerequisites
 > [!Note]
