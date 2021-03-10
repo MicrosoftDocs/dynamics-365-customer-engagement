@@ -281,13 +281,17 @@
 ## Bots
 
 ### Administrator experience
-#### Configure bots
-##### [Integrate an Azure bot](configure-bot.md)
+
+#### [Integrate an Azure bot](configure-bot.md)
+
 #### [Configure context variables for bots](context-variables-for-bot.md)
+
 #### [Link customer and case when bot escalates to human agent](link-customer-case-when-bot-escalates.md)
 
 ### Developer experience
+
 #### [Enable bot context NuGet package](enable-bot-context.md)
+
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
 #### [Manage custom context](send-context-starting-chat.md)
