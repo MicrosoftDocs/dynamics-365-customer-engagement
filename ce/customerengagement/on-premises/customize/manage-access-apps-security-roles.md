@@ -21,12 +21,11 @@ caps.latest.revision: 11
 topic-status: Drafting
 search.audienceType: 
   - customizer
-
 ---
 
 # Manage access to apps by using security roles
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app)
 
 You can choose what users see and access from the **My Apps** page or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] home page by giving app access to specific security roles. Users will have access to apps based on the security roles they're assigned to.  
   

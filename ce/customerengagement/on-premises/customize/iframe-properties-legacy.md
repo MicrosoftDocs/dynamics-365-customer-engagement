@@ -18,7 +18,7 @@ search.audienceType:
 ---
 # iFrame properties
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [iFrame properties for model-driven app main forms](/powerapps/maker/model-driven-apps/iframe-properties-legacy)
 
 You can add iFrames to a form to integrate content from another website within a form. 
 

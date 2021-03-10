@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Make grids (lists) editable using the editable grid custom control
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Make model-driven app grids (lists) editable using the Editable Grid custom control](/powerapps/maker/model-driven-apps/make-grids-lists-editable-custom-control)
 
 In previous releases of Dynamics 365 Customer Engagement (on-premises), users couldn't enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and subgrids whether they're using a web app, tablet, or phone.  
   

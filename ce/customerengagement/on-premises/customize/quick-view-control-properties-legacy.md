@@ -18,6 +18,8 @@ search.audienceType:
 ---
 # Quick view control properties
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure a quick view component](/powerapps/maker/model-driven-apps/sub-grid-properties-legacy)
+
 A quick view control on a custom business app form displays data from a record that is selected in a lookup on the form. The data displayed in the control is defined using a quick view form. The data displayed is not editable, but when the primary field is included in the quick view form, it becomes a link in the legacy web client app to open the related record. It is not an actionable link in a Unified Interface app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit quick view forms](create-edit-quick-view-forms.md)  
 
 ![Contact quick view form on the account form](../customize/media/quick-view-form-contact.png "Contact quick view form on the account form")  
