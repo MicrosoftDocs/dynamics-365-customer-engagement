@@ -5,7 +5,7 @@ author: neeranelli
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2020
+ms.date: 03/08/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -138,7 +138,7 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
 | Agent Offline Duration (hrs) | The time an agent signed out of the Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentOfflineDuration(hrs) )] |
 
   
-### Bot insights (BYOB)
+### Bot insights
 
 This section provides historical visibility into how bots are performing to help resolve customer support issues. 
 
@@ -149,12 +149,11 @@ The KPIs for bots are listed in the following table:
 
 | KPI | Description | Derivation | Measure | 
 |------|----------|------------|---------|
-| Sessions engaged | The number of conversations initiated by the customer and handled by a bot. | All conversations are considered. | FactSession[QueueSessions] |
-| Resolution Rate  | The percentage of conversations that were resolved by a bot out of all conversations handed by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
-| Resolution time (mins) | The length of time, in minutes, a customer interacted with a bot before the issue was resolved. | All conversations are considered. | FactSession[AvgResolutionTime] |
-| Escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
-| Escalation time (mins)  | Average length of time that a bot took to complete the conversation with a customer before escalating to a human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
-
+| Bot Conversations | The number of conversations initiated by the customer and handled by a bot. | All conversations are considered. | FactSession[QueueSessions] |
+| Bot Resolution Rate  | The percentage of conversations that were closed by interacting with bot out of all conversations handled by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
+| Bot Resolution time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. | All conversations are considered. | FactSession[AvgResolutionTime] |
+| Bot Escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
+| Bot Escalation time (min)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
 
 ## Omnichannel Sentiment Analysis dashboard
 
