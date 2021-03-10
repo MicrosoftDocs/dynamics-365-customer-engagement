@@ -54,7 +54,7 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
-### Navigate and view records
+## Navigate and view records
 
 By default, you can use the following navigation options to open and view cases, accounts, and other details on the Customer Service Agent Dashboard:
 
@@ -63,10 +63,9 @@ By default, you can use the following navigation options to open and view cases,
 - Select the back arrow in the upper-left corner of the form to get back to your previous view.
 - Select Ctrl + mouse click to open items in a new tab. 
 
-However, the administrator can configure settings that allow for simpler navigation options. More information: [Configure simpler navigation in Customer Service workspace](csw-enable-simpler-navigation.md).
+However, the administrator can configure settings that allow for simpler navigation options that doesn't require agents to use complex keyboard selections. Perform the steps in the Simplify navigation in Customer Service workspace section to enable the settings. 
 
-
-## Configure navigation for Customer Service workspace
+### Simplify navigation in Customer Service workspace
 
 You can use the following utility to simplify navigation for agents when they work on cases in the Customer Service workspace app.
 
@@ -76,7 +75,108 @@ You can use the following utility to simplify navigation for agents when they wo
 Perform the following steps to configure the navigation:
 
 1. Sign into Dynamics 365.
-2. Press the f12 
+2. Press the fn + f12 keys to open the developer tools. 
+3. Run the following utility.
+
+```
+/**
+* Utility to manage app settings
+*/
+class AppSettingUtility {
+    static origin = Xrm.Utility.getGlobalContext().getClientUrl();
+    static webApiUrl = `${this.origin}/api/data/v9.0/`;
+
+    /**
+     * Updates an app setting to the specified value
+     * @param {*} setting the setting to update
+     * @param {*} value value to set for the setting
+     * @param {*} app (optional) if specified will update for individual app, if omitted then will update for all apps
+     */
+    static updateAppSetting(setting, value, app) {
+        const data = {
+            SettingName: setting,
+            Value: value.toString(),
+        };
+
+        if (app !== undefined) {
+            data.AppUniqueName = app;
+        }
+
+        // makes a call to SaveSettingValue to update an app setting
+        console.log("Attempting update...");
+        $.ajax({
+            url: this.webApiUrl + "SaveSettingValue()",
+            type: 'POST',
+            contentType: 'application/json',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json; charset=utf-8',
+                'OData-MaxVersion': '4.0',
+                'OData-Version': '4.0',
+            },
+            data: JSON.stringify(data),
+            success: function () {
+                // update was successful
+                console.log(`The app setting '${setting}' was successfully updated to '${value}' for '${app !== undefined ? app : 'all app modules'}'`);
+            },
+            error: function (error) {
+                // update failed
+                console.log("An error occurred while trying to update the app setting. Please try again.");
+                console.log(error);
+            }
+        });
+    }
+}
+
+/**
+* App module utility class
+*/
+class AppModuleUtility {
+    static app;
+
+    /**
+     * Updates an app setting for the individual app module
+     * @param {string} setting the setting to update
+     * @param {*} value value to set for the setting
+     */
+    static updateAppSetting(setting, value) {
+        AppSettingUtility.updateAppSetting(setting, value, this.app);
+    }
+
+    /**
+     * Updates the multisession navigation improvements setting
+     * @param {boolean} value value to set for the setting
+     */
+    static setMultisessionNavigationImprovementsSetting(value = true) {
+        const setting = "msdyn_MultisessionNavigationImprovements";
+        this.updateAppSetting(setting, value);
+    }
+}
+
+/**
+* App module utility for Customer Service workspace app
+*/
+class CSWAppUtility extends AppModuleUtility {
+    static app = "msdyn_customerserviceworkspace";
+}
+
+/**
+* App module utility for Omnichannel for Customer Service app
+*/
+class OCAppUtility extends AppModuleUtility {
+    static app = "OmniChannelEngagementHub"; 
+}
+```
+4. Run one of the following commands at the console.
+
+   - To simplify navigation in Customer Service workspace: AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'msdyn_customerserviceworkspace'); 
+   - To simplify navigation in the Omnichannel for Customer Service app: AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'OmniChannelEngagementHub');
+   - To simplify navigation in both the multisession apps: AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);
+
+5. Open Customer Service workspace and do one or more of the following actions on the Customer Service Agent Dashboard to explore the simplified navigation:
+   - Select a case. The case record opens in a session tab.
+   - Select the customer in the case. The customer record opens in a application tab.
+   - Select a customer in the list on the dashboard. The customer record opens in the session tab.
 
 ### Work with cases
 
