@@ -76,7 +76,7 @@ Perform the following steps to configure the navigation:
 
 1. Sign into Dynamics 365.
 2. Press the fn + f12 keys to open the developer tools. 
-3. Run the following utility.
+3. Copy the following code and paste it in the **Console** tab of the developer tools to run the utility that manages app settings.
 
 ```
 /**
@@ -167,11 +167,14 @@ class OCAppUtility extends AppModuleUtility {
     static app = "OmniChannelEngagementHub"; 
 }
 ```
-4. Run one of the following commands at the console.
+4. Run one of the following commands at the console to update the navigation settings.
 
-   - To simplify navigation in Customer Service workspace: AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'msdyn_customerserviceworkspace'); 
-   - To simplify navigation in the Omnichannel for Customer Service app: AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'OmniChannelEngagementHub');
-   - To simplify navigation in both the multisession apps: AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);
+   - **For Customer Service workspace:** AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'msdyn_customerserviceworkspace'); 
+   - **For Omnichannel for Customer Service app:** AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'OmniChannelEngagementHub');
+   - **For both the multisession apps:** AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);
+
+    > [!NOTE]
+    > To turn off the navigation setting, you can run one of the commands by using the "false" option.
 
 5. Open Customer Service workspace and do one or more of the following actions on the Customer Service Agent Dashboard to explore the simplified navigation:
    - Select a case. The case record opens in a session tab.
