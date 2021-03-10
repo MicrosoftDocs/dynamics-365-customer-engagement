@@ -156,7 +156,7 @@ Select the group icon next to an IoT alert to see similar IoT alerts for the sam
 > [!div class="mx-imgBorder"]
 > ![Screenshot of related IoT alerts in Field Service.](./media/cfs-iot-alert-parent-diagram.png)
 
-You can also use AI to suggest which IoT alerts are higher priority based on historical data, like which IoT alerts were converted to work orders. For more information, see this article: [IoT alert AI suggestions](iot-alerts-ai-based-suggestions). 
+You can also use AI to suggest which IoT alerts are higher priority based on historical data, like which IoT alerts were converted to work orders. For more information, see this article: [IoT alert AI suggestions](iot-alerts-ai-based-suggestions.md). 
 
 
 > [!div class="mx-imgBorder"]
