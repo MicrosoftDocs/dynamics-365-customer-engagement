@@ -212,7 +212,7 @@
 ### Performance analytics
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
-#### [Preview: Prepare for analytic reporting with Power BI](custom-analytics.md)
+#### [Prepare for analytic reporting with Power BI](custom-analytics.md)
 
 #### Power BI report and template gallery
 ##### [Download and use templates for Power BI](marketing-analytics/analytics-gallery-start.md)
