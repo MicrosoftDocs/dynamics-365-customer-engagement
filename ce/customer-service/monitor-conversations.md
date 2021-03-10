@@ -89,6 +89,9 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 5. Depending on the option you chose in Step 4, choose the agent or queue, and then select **Assign**.
 
+## Transfer a conversation
+
+
 ### See also
 
 [Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
