@@ -34,9 +34,9 @@ You can access Customer Service workspace through the app selector (where you fi
 
 :::image type="content" source="media/appSelectorAndNavigation.png" alt-text="Open Customer Service workspace" border="false":::
 
-As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities. 
+As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard by default. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working on new cases from the queues you are assigned to and create activities.
 
-Let's explore the elements of the Customer Service workspace and how to navigate between them:
+Let's explore the elements of the Customer Service workspace and how to navigate between them.
 
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
@@ -54,18 +54,33 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
-### View and edit records
+### Navigate and view records
 
-You need to be aware of the new navigation behaviors in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
+By default, you can use the following navigation options to open and view cases, accounts, and other details on the Customer Service Agent Dashboard:
 
 - Select Shift + mouse click to open a new session tab for the record you want to open.
 - Selecting the record replaces your view with the form for the record you opened.
 - Select the back arrow in the upper-left corner of the form to get back to your previous view.
 - Select Ctrl + mouse click to open items in a new tab. 
 
+However, the administrator can configure settings that allow for simpler navigation options. More information: [Configure simpler navigation in Customer Service workspace](csw-enable-simpler-navigation.md).
+
+
+## Configure navigation for Customer Service workspace
+
+You can use the following utility to simplify navigation for agents when they work on cases in the Customer Service workspace app.
+
+> [!IMPORTANT]
+> You must have the System Administrator role to run the utility.
+
+Perform the following steps to configure the navigation:
+
+1. Sign into Dynamics 365.
+2. Press the f12 
+
 ### Work with cases
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can:
+From the Customer Service Agent Dashboard in Customer Service workspace, you can perform the following actions.
 
 :::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace bulk edit case" border="false":::
 
