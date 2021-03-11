@@ -24,33 +24,18 @@ https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 The voice channel is built, owned, and operated completely by Microsoft. This means it is an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value by enabling a quick and easy deployment of a voice channel for their business. In addition, the voice channel is built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today. Providing organizations with a choice of telephony delivered directly by Microsoft 
 
 
-### Built alongside existing omnichannel capabilities
+### Built alongside existing omnichannel capabilities with a common data framework
 
-The voice channel is another channel to engage customers alongside existing other channels (Chat, SMS, social media) so it plugs into existing workflows and processes. This means the solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. 
+Typically, customer service organizations must manually integrate standalone telephony and CRM solutions, which result in fragmented experiences for agents and customers across engagement channels. Ultimately, these stitched-together solutions from multiple providers are not only complex to roll out and maintain but create data silos with disconnected insights of customer interactions and agent performance across channels. 
 
-that participates throughout the stack, i.e. Power Virtual Agent for IVR, Unified Routing for ACD, connected agent and supervisor experiences, connected reporting.
+In contrast, the voice channel in Dynamics 365 Customer Service is another channel to engage customers alongside Chat, SMS, and social media ensuring consistent, personalized, and connected support across all channels of engagement. As one example, agents can escalate web chat conversations to voice and video calls. As another example, routing a voice call to an agent is completed with Unified Routing, the same way an incoming chat message is assigned to an agent. By utilizing the same platform, the voice channel works well with other technologies like Power Virtual Agent. This means the process to create and deploy a conversational IVR bot is the same as the process to create and deploy a chat bot.
 
-Customer service organizations will find that voice communication works well with 
+Beyond workflows and processes, the voice channel benefits from a common data framework with the other channels allowing organizations to better understand each customer's journey whether the customer sent a chat, made a phone call, or posted on social media. This means the solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. 
 
-Typically, customer service organizations must manually integrate standalone telephony and CRM solutions, which result in fragmented experiences for agents and customers across engagement channels. Ultimately, these stitched-together solutions from multiple providers are not only complex to roll out and maintain but create data silos with disconnected insights of customer interactions and agent performance across channels. The addition of the voice channel enables Customer Service to offer businesses a solution that minimizes failure points caused by custom-built, complex integrations, and maximizes the ability to create better customer and agent experiences. This single, holistic solution also makes it easier to scale to meet changing business needs.
-
-Even with the rise of digital channels and self-service, telephony remains a critical channel for contact centers to provide customer support. Most CRM players lack native telephony and only support integrations with telephony providers, also known as CCaaS (Contact Center as a Service) players, through “at the glass” CTI (softphones) widgets. As telephony follows CRM to the cloud, customers are looking to simplify their combined solution. 
-extending our current assets, such as Power Virtual Agent, Intelligent Routing and conversation canvas, we can offer a telephony solution directly within Dynamics OC.
-
-Microsoft’s Omnichannel for Customer Service allows us to escalate web chat conversations to voice and video calls, this is a great feature when conversations become complex and a chat conversation is simply more long winded than a voice call.
-
-ensuring consistent, personalized, and connected support across all channels of engagement
-
-
-### Common data framework
-
-This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance
-
-need 10 different systems 
-- disconnected channels
-- disconnected data
 
 ### Differentiating AI
+
+The voice channel has Microsoft's award winning AI built into the product. This enables agents to 
 
 This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
 
