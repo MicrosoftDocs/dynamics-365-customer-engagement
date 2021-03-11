@@ -12,11 +12,11 @@ ms.prod: dynamicscrm-2016
 
 ::: moniker range="op-9-1"
 
-This section lists the features available that are new to Dynamics 365 Customer Engagement (on-premises) and are included in the version 9.1 update. The version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams.
+This section explains how to update to the Dynamics 365 Customer Engagement (on-premises), update 9.1. It also lists the features that included in the 9.1 update and are new to Dynamics 365 Customer Engagement (on-premises). The version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams.
 
 ## Update or upgrade to 9.1
 
-**For Dynamics 365 Customer Engagement (on-premises), version 9.0 deployments:**
+### For Dynamics 365 Customer Engagement (on-premises), version 9.0 deployments
 
 1.  Apply the Dynamics 365 Customer Engagement, version 9.1 update to all computers running Dynamics 365 Server and desktop applications in your deployment.
 
@@ -26,7 +26,7 @@ This section lists the features available that are new to Dynamics 365 Customer 
 
     -   Update each organization in-place in the updated Dynamics 365 Customer Engagement, version 9.1 (on-premises) server deployment.
 
-**For Dynamics 365 Customer Engagement (on-premises), version 8.2 deployments:**
+### For Dynamics 365 Customer Engagement (on-premises), version 8.2 deployments
 
 1.  Upgrade all computers running Dynamics 365 Server and desktop applications in your deployment to Dynamics 365 Customer Engagement (on-premises), version 9.0.
 
@@ -36,27 +36,25 @@ This section lists the features available that are new to Dynamics 365 Customer 
 
 For more information, see the following articles:
 
--   [Dynamics 365 Customer Engagement (on-premises) application updates](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/update-microsoft-dynamics-crm#microsoft-dynamics-365-customer-engagement-on-premises-application-updates)
+-   [Dynamics 365 Customer Engagement (on-premises) application updates](deploy/update-microsoft-dynamics-crm#microsoft-dynamics-365-customer-engagement-on-premises-application-updates)
 
--   [Deployment Manager: Update an organization](https://ppc-word-edit.officeapps.live.com/we/:%20https:/docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/update-an-organization)
+-   [Deployment Manager: Update an organization](deploy/update-an-organization)
 
--   [PowerShell: Update-CrmOrganization](https://docs.microsoft.com/en-us/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)
+-   [PowerShell: Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)
 
--   [Upgrading Dynamics 365 Server](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/upgrading-microsoft-dynamics-365-server)
+-   [Upgrading Dynamics 365 Server](deploy/upgrading-microsoft-dynamics-365-server)
 
-**NOTE**
+> [!NOTE]
+> By default, when you apply the Dynamics 365 Server, version 9.1 update, all organization databases that are enabled in the deployment will be updated to Dynamics 365 Customer Engagement, version 9.1. Administrators can control which organization databases are upgraded in either of the following ways:
+> 
+> -   Disable the organizations you don't want upgraded. Notice that all organizations must remain disabled until all the servers in a multi-server deployment are updated. More information: [Deployment Manager: Disable or enable an organization](deploy/disable-or-enable-an-organization) and [PowerShell: Disable-CrmOrganization](/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps).
+> 
+> - Configure the AutomaticallyInstallDatabaseUpdates deployment setting to false.
+> 
+>     `Add-PSSnapin Microsoft.Crm.PowerShell`
+>     `set-crmadvancedsetting -configurationentityname Deployment -setting AutomaticallyInstallDatabaseUpdates -value $false`
 
-By default, when you apply the Dynamics 365 Server, version 9.1 update, all organization databases that are enabled in the deployment will be updated to Dynamics 365 Customer Engagement, version 9.1. Administrators can control which organization databases are upgraded in either of the following ways:
-
--   Disable the organizations you don't want upgraded. Notice that all organizations must remain disabled until all the servers in a multi-server deployment are updated. More information: [Deployment Manager: Disable or enable an organization](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/disable-or-enable-an-organization) and [PowerShell: Disable-CrmOrganization](https://docs.microsoft.com/en-us/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps).
-
--   Configure the AutomaticallyInstallDatabaseUpdates deployment setting to false.
-
-Add-PSSnapin Microsoft.Crm.PowerShell
-
-set-crmadvancedsetting -configurationentityname Deployment -setting AutomaticallyInstallDatabaseUpdates -value $false
-
-Apply the update:
+### Apply the update
 
 1.  Copy or download the appropriate update package to the computer where a Dynamics 365, v9.0 (on-premises) application, such as Dynamics 365 Server, v9.0 (on-premises) or Dynamics 365 Reporting Extensions is running.
 
@@ -64,7 +62,7 @@ Apply the update:
 
 ## What's new?
 
-### Enterprise Sales **usability** **enhancements** 
+### Enterprise Sales usability enhancements
 
 To make Dynamics 365 Sales better, we're continually introducing usability enhancements within the application that reduce friction and make features easier to use.
 
@@ -165,6 +163,8 @@ Enhancements to the timeline control include the ability to:
 -   Expand or collapse all records.
 
 -   Provide email-specific actions for email records.
+ 
+More information: [Set up the timeline control](/powerapps/maker/model-driven-apps/set-up-timeline-control)
 
 ### Agent productivity enhancements to knowledge capabilities
 
@@ -226,7 +226,9 @@ As businesses migrate to the new Unified Interface, they require continuity of a
 
 **Feature Details**
 
-To provide business continuity during transition to Unified Interface, this release delivers support for administrator configuration and interaction with the Site entity that is used to define customer service locations. More information: [Use sites to manage your service locations](https://docs.microsoft.com/dynamics365/customer-service/uci-create-sites)
+To provide business continuity during transition to Unified Interface, this release delivers support for administrator configuration and interaction with the Site entity that is used to define customer service locations. 
+
+More information: [Use sites to manage your service locations](/dynamics365/customer-service/uci-create-sites)
 
 ### Unified Interface enablement of case routing rules
 
