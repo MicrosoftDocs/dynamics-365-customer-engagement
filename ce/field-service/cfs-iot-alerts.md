@@ -29,7 +29,7 @@ In this aritlce, we will review:
 - How to see IoT alerts in Field Service 
 - How to create work orders based on the IoT alerts. 
 
-## Trigger IoT Alerts in Azure IoT Hub 
+## Trigger IoT alerts in Azure IoT Hub 
 
 As IoT device information flows into Azure IoT Hub, you can create rules that dictate when IoT alerts should be created based on the IoT messages.
 
@@ -103,7 +103,7 @@ After the rule is created in Stream Analytics, the logic app will create IoT ale
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Azure resource group.](./media/cfs-iot-alert-logic-app.png)
 
-## View IoT Alerts in Field Service
+## View IoT alerts in Field Service
 
 In our example with the simulator, an IoT alert was created in Field Service because the temperature reading in an IoT message exceeded 70 degrees. 
 
@@ -142,7 +142,7 @@ The IoT alert is referenced on the work order form and can be accessed by the te
 
 
 
-## Organize IoT Alerts
+## Organize IoT alerts
 
 It is possible for multiple IoT alerts to be created for the same IoT device for the same issue.
 
