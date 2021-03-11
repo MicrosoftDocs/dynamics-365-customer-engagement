@@ -17,16 +17,28 @@ search.app:
 
 # Set up Frontline Workers in your Organization
 
-Frontline worker setup is critical to field service management. With this functionality, admins can set up,  new frontline workers into Dynamics 365 Field Service with one single form. Additionally, this reduces the time it takes for admins to complete this process and allows frontline workers to receive access to the Dynamics 365 Field Service mobile app quicker.
+Frontline workers in Dynamics 365 Field Service are individuals in your organization who are primarily scheduled for on-site jobs and uses Dynamics 365 Field Service mobile application for their work. Their quick setup in Dynamics 365 Field Service is critical to organizations in order to ensure they can immediately start fixing problems at customer locations and completing service calls. Therefore, frontline workers in your organizations will be promptly equipped to use the mobile application and instantanteously be scheduled for work orders. 
 
-1. Set up 
-2. View 
-3. Edit and update
+With a single form, admins can: 
+1. Set up one or more frontline workers in their organization with the appropriate [characteristics (skills and certifications)](https://docs.microsoft.com/dynamics365/field-service/set-up-characteristics), [territories](https://docs.microsoft.com/dynamics365/field-service/set-up-territories), time zone, [security roles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles), [field security profiles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles), and [mobile offline profile](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-system-offline). 
+2. Validate the defaulted security role, field security profile, and mobile offline profile that is set for their frontline workers, which controls the data their frontline workers can see and access. If appropriate, admins can choose to update these permissions or add any custom security roles or field security profiles. There can be only one mobile offline profile set for frontline workers at this time.  
+3. Automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile application. 
 
-- Streamlined set up for one or more frontline workers into Dynamics 365 Field Service through a single form. 
-- Defaulted Security Role, Field Security Profile, and Mobile Offline Profile for frontline workers. 
-- Frontline workers will automatically receive an email to download the Dynamics 365 Field Service mobile app. 
+After using the form to set up one or more frontline workers, admins can:
+4. View a list of all of their frontline workers. 
+5. Edit and update the details of individual frontline workers, including home address, security role, field security profile, and mobile offline profile. 
 
 ## Prerequisites 
-- Must be a system admin. 
-- Frontline workers must have a Dynamics 365 Field Service license through the Microsoft Admin Center. 
+- Your organization must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1).
+- Each frontline worker must have a Dynamics 365 Field Service license assigned through the [Microsoft Admin Center](https://admin.microsoft.com). 
+
+## Definitions 
+**Characterisitics**: Defines a frontline worker's areas of expertise or certifications.
+
+**Territories**: Defines a frontline worker's geographical regions, such as city, state, county, or postal code, to inform scheduling.
+
+**Security Role**: Controls the types of data and record types a frontline worker can access and edit. This should be defaulted to **Field Service - Resource**.
+
+**Field Security Profile**: Controls which fields a frontline worker sees for a record type. This should be defaulted to **Field Service - Resource**.
+
+**Mobile Offline Profile**: Controls what data is downloaded to the Dynamics 365 Field Service mobile application in offline mode. Unpublished profiles will not appear until published. This should be defaulted to **Field Service - Mobile Offline Profile**. 
