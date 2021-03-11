@@ -221,8 +221,7 @@ While working on site, frontline workers may need to note further work that need
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO 
-https://www.microsoft.com/videoplayer/embed/RWyHY4]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
 
 
 To create a follow-up work order, the technician must select the **Follow-up** option in the bottom app menu. This option is only available if the booking status is set to **Completed** and the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).

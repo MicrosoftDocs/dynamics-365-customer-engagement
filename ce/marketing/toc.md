@@ -61,7 +61,9 @@
 #### [Email bounce categories](email-bounce-categories.md)
 #### [Create an SPF TXT record](create-spf-record.md)
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
+#### [Warm up an IP or domain](email-warm-up.md)
 #### [Email policies and suspension standards](email-policies.md)
+#### [Deliverability recommendations when changing ESPs](deliverability-change-esp.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email troubleshooting](email-troubleshooting.md)
 
@@ -212,7 +214,7 @@
 ### Performance analytics
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
-#### [Preview: Prepare for analytic reporting with Power BI](custom-analytics.md)
+#### [Prepare for analytic reporting with Power BI](custom-analytics.md)
 
 #### Power BI report and template gallery
 ##### [Download and use templates for Power BI](marketing-analytics/analytics-gallery-start.md)
