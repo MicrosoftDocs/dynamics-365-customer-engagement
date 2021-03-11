@@ -22,7 +22,7 @@ The intelligent routing service in Dynamics 365 Customer Service uses a combinat
 Advantages of unified routing and work distribution are as follows:
 
 - Automate work assignments across channels.
-- Set up work assignment to the best available agents based on their capacity and presence.
+- Set up work assignments for the best available agents based on their capacity and presence.
 - Analyze and manage agent productivity across channels.
 
 Unified routing and work distribution is a two-step process:
