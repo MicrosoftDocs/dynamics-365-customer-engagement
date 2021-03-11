@@ -25,7 +25,8 @@ With a single form, admins can:
 3. Automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile application. 
 
 After using the form to set up one or more frontline workers, admins can:
-4. View a list of all of their frontline workers. 
+
+4. View a list of all of their frontline workers, including their name, e-mail address, and home address. 
 5. Edit and update the details of individual frontline workers, including home address, security role, field security profile, and mobile offline profile. 
 
 ## Prerequisites 
@@ -42,3 +43,11 @@ After using the form to set up one or more frontline workers, admins can:
 **Field Security Profile**: Controls which fields a frontline worker sees for a record type. This should be defaulted to **Field Service - Resource**.
 
 **Mobile Offline Profile**: Controls what data is downloaded to the Dynamics 365 Field Service mobile application in offline mode. Unpublished profiles will not appear until published. This should be defaulted to **Field Service - Mobile Offline Profile**. 
+
+## Get Started 
+
+## Using the form 
+
+## View frontline workers 
+
+## Edit & update details of individual frontline workers 
