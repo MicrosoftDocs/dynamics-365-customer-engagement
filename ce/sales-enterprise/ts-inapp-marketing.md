@@ -12,7 +12,7 @@ manager: shujoshi
 # Troubleshooting in-app marketing
 
 This article helps you troubleshoot and resolve issues related to in-app marketing.
-
+<a name="when-i-open-marketing-list-form-the-members-view-is-not-available"></a>
 ## When I open the Marketing List form, the Members view isn't available
 <!--markdownlint-disable MD036-->
 **Reason**
@@ -46,6 +46,7 @@ The error is occurring due to the customization of views for each subgrid in the
 10. Repeat steps 5 through 9 for **Accounts** and **Leads**.
 11. Save and publish the form.
 
+<a name="im-unable-to-associate-a-campaign-created-from-marketing-list-form-with-marketing-list-record-in-unified-interface"></a>
 ## I can't associate a campaign created from the Marketing List form with a Marketing List record in Unified Interface
 <!--note from editor: "I can't..." is a bit more direct that "I'm unable to..." and is more in line with other troubleshooting articles. Also, here and below, is it important to mention Unified Interface? It's perfectly okay if it's a distinction that's going to matter to the reader, but if not, it seems kind of like introducing "a difference that makes no difference."-->
 **Reason**
@@ -71,6 +72,7 @@ The error occurs because the attribute **TmpRegardingObjectId** has been removed
    > ![Clear the Display the label on the form check box](media/troubleshooting-inapp-campaign-clear-display-label.png "Clear the Display the label on the form check box")
 7. Save and publish the form.
 
+<a name="unable-to-find-related-account-field-for-a-member-account-using-advanced-find-in-unified-interface"></a>
 ## I can't find a related account field for a member account by using advanced find in Unified Interface
 
 **Reason**
@@ -81,6 +83,7 @@ The error occurs because the Contact or Account display name has been changed in
 
 In Unified Interface, the company name entity is available as **Company Name (Account)**. For example<!--note from editor: Should this maybe say something like "As an example, to solve this problem..."?-->, if you rename the **Account** as **Organization**, the entity will be renamed as **Company Name (Organization)**.<!--note from editor: This doesn't really sound like a resolution so much as a description of the problem. Can you say how to fix this issue?-->
 
+<a name="#unable-to-send-emails-using-email-quick-campaign-distribution-list"></a>
 ## I can't send emails by using the email quick campaign distribution list
 
 **Reason**
@@ -101,6 +104,7 @@ To resolve the issue, do one of the following:
     > [!div class="mx-imgBorder"]
     > ![Allow other users to send email on the owner's behalf](media/troubleshooting-inapp-campaign-allow-send-email-behalf-owner.png "Allow other users to send email on the owner's behalf")
 
+<a name="#unable-to-change-the-form-field-in-the-email-within-the-quick-campaign-wizard"></a>
 ## I can't change the form field in the email within the quick campaign wizard
 
 **Reason**
@@ -111,6 +115,7 @@ The issue is caused by insufficient permissions for the **Send Email as another 
 
 Provide sufficient permissions for the **Send Email as another User** option to one of your roles.
 
+<a name="#unable-to-see-email-templates-in-the-distribute-dialog-box"></a>
 ## I can't see email templates in the distribute dialog box
 
 **Reason**
@@ -121,6 +126,7 @@ The Unified Interface implementation of<!--note from editor: Is this phrase nece
 
 To resolve the issue, users require access to system user records. Provide the access to system users by assigning them security roles in your Dynamics 365 organization. More information: [Configure user security to resources in an environment](https://docs.microsoft.com/power-platform/admin/database-security)
 
+<a name="campaign-activity-distribution-related-issues"></a>
 ## Campaign activity distribution issues
 
 ### The campaign distribution process is stuck with a status of Pending or Failed
