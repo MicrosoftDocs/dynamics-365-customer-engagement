@@ -202,10 +202,11 @@
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 
 ## Take action
+### [IoT alerts](cfs-iot-alerts.md)
 ### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
 ### [Send commands](cfs-commands.md)
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
-### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+### [IoT - Parent IoT alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ## [Troubleshoot + FAQs](cfs-troubleshoot.md) 
 
