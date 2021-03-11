@@ -97,6 +97,7 @@ If your organization is using a URL filter to block a category of websites, you 
 - `https://webchatic3.blob.core.windows.net`
 - `https://comms.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
+- `https://*.service.signalr.net`
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception.
 
