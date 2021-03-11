@@ -12,55 +12,7 @@ ms.prod: dynamicscrm-2016
 
 ::: moniker range="op-9-1"
 
-This section explains how to update to the Dynamics 365 Customer Engagement (on-premises), update 9.1. It also lists the features that included in the 9.1 update and are new to Dynamics 365 Customer Engagement (on-premises). The version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams.
-
-## Update or upgrade to 9.1
-
-# [Version 9.0 deployments](#tab/v90)
-
-1.  Apply the Dynamics 365 Customer Engagement, version 9.1 update to all computers running Dynamics 365 Server and desktop applications in your deployment.
-
-2.  Choose whether to:
-
-    -   Import each organization into a new Dynamics 365 Customer Engagement (on-premises), version 9.1 server deployment. Each imported organization will be updated to Dynamics 365 Customer Engagement, version 9.1 during the import process.
-
-    -   Update each organization in-place in the updated Dynamics 365 Customer Engagement, version 9.1 (on-premises) server deployment.
-
-# [Version 8.2 deployments](#tab/v82)
-
-1.  Upgrade all computers running Dynamics 365 Server and desktop applications in your deployment to Dynamics 365 Customer Engagement (on-premises), version 9.0.
-
-2.  Apply the version 9.1 update to all computers running Dynamics 365 Server and desktop applications in your deployment.
-
-3.  Next, update or import each organization.
-
----
-
-For more information, see the following articles:
-
--   [Dynamics 365 Customer Engagement (on-premises) application updates](deploy/update-microsoft-dynamics-crm#microsoft-dynamics-365-customer-engagement-on-premises-application-updates)
-
--   [Deployment Manager: Update an organization](deploy/update-an-organization)
-
--   [PowerShell: Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)
-
--   [Upgrading Dynamics 365 Server](deploy/upgrading-microsoft-dynamics-365-server)
-
-> [!NOTE]
-> By default, when you apply the Dynamics 365 Server, version 9.1 update, all organization databases that are enabled in the deployment will be updated to Dynamics 365 Customer Engagement, version 9.1. Administrators can control which organization databases are upgraded in either of the following ways:
-> 
-> -   Disable the organizations you don't want upgraded. Notice that all organizations must remain disabled until all the servers in a multi-server deployment are updated. More information: [Deployment Manager: Disable or enable an organization](deploy/disable-or-enable-an-organization) and [PowerShell: Disable-CrmOrganization](/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps).
-> 
-> - Configure the AutomaticallyInstallDatabaseUpdates deployment setting to false.
-> 
->     `Add-PSSnapin Microsoft.Crm.PowerShell`
->     `set-crmadvancedsetting -configurationentityname Deployment -setting AutomaticallyInstallDatabaseUpdates -value $false`
-
-### Apply the update
-
-1.  Copy or download the appropriate update package to the computer where a Dynamics 365, v9.0 (on-premises) application, such as Dynamics 365 Server, v9.0 (on-premises) or Dynamics 365 Reporting Extensions is running.
-
-2.  To start the update installation, right-click the update package, and then select **Run as administrator**.
+This section lists the features that included in the 9.1 update and are new to Dynamics 365 Customer Engagement (on-premises). The version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams.
 
 ## What's new?
 
