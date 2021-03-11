@@ -61,7 +61,9 @@
 #### [Email bounce categories](email-bounce-categories.md)
 #### [Create an SPF TXT record](create-spf-record.md)
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
+#### [Warm up an IP or domain](email-warm-up.md)
 #### [Email policies and suspension standards](email-policies.md)
+#### [Deliverability recommendations when changing ESPs](deliverability-change-esp.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email troubleshooting](email-troubleshooting.md)
 
