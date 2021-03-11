@@ -1,5 +1,6 @@
 ---
 title: "Workflow processes | MicrosoftDocs"
+description: Learn about workflows that can be used to automate business processes
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 

@@ -26,7 +26,7 @@ A quick view control on a custom business app form displays data from a record t
 
 You can access **Quick view control properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select **Quick View Form** to view the **Quick View Control Properties** page.
 
-![quick-view-control](media/quick-view-control.png)
+![Quick view control example for a primary contact record](media/quick-view-control.png)
   
 |Property|Description|  
 |--------------|-----------------|  
