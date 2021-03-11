@@ -8,7 +8,6 @@ author: mattp123
 ms.author: matp
 ms.prod: dynamicscrm-2016
 ---
-
 # New features in Dynamics 365 Customer Engagement (on-premises), version 9.x
 
 ::: moniker range="op-9-1"
