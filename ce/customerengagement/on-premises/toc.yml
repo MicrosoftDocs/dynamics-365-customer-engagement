@@ -2,7 +2,9 @@
   items:
   - name: "Dynamics 365 Customer Engagement (on-premises) Help"
     href: overview.md
-  - name: What's new
+  - name: What's new in version 9.1
+    href: whats-new-9-1.md
+  - name: What's new in version 9.0
     href: whats-new.md
   - name: Deploy and operate
     href: deploy/deploy-and-operate-dynamics-365-on-premises.md
