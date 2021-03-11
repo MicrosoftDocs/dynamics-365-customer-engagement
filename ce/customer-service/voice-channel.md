@@ -35,24 +35,7 @@ Beyond workflows and processes, the voice channel benefits from a common data fr
 
 ### Differentiating AI
 
-The voice channel has Microsoft's award winning AI built into the product. This enables agents to 
-
-This end-to-end solution unifies all points of customer interaction data, enabling businesses to simplify and streamline their processes, gain instant insights into trends, and deliver faster resolution from AI-driven assistance—all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
-
-We should bring to bear the best demonstrations of real-time and historical voice intelligence from Microsoft. As more CRM companies follow this trend to integrate channels and voice, the use of the data to create insights will be a big differentiator. 
-
-Leverage built-in AI to resolve issues faster with tools like call transcriptions and sentiment analysis 
-
-Speech-based self-service: NLU-powered IVRs and speech-enabled virtual agents by connecting the telephony channel to Power Virtual Agent for intuitive self-service and seamless elevation to agent-service. PVA bots will be built once and deployed across messaging and voice channels alike. 
-
-### Reliability and scalability
-
-reliability of the calling platform that powers Microsoft Teams worldwide today
-The voice channel in Dynamics is built on the same secure, planet-scale platform used by Microsoft Teams
-
-- Built on Microsoft Azure Communication Services 
-
-all while ensuring your data remains secure and compliant, backed by the trusted Microsoft cloud.
+The voice channel has Microsoft's award winning AI built into the product. This enables agents to resolve issues faster with tools like call transcriptions and sentiment analysis and gain instant insights into trends. 
 
 
 ## Key capabilities of the voice channel
