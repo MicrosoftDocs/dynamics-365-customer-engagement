@@ -68,7 +68,7 @@ For more information, see the following articles:
 
 To make Dynamics 365 Sales better, we're continually introducing usability enhancements within the application that reduce friction and make features easier to use.
 
-## Familiar, modern email experience for agents
+### Familiar, modern email experience for agents
 
 **Description**
 
