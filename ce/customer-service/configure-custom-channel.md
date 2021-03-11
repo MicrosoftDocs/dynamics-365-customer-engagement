@@ -78,7 +78,7 @@ To configure other options in the work stream, see the following:
 
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](productivity-tools.md)
-- [Smart assist](smart-assist.md)
+- [Smart assist](../app-profile-manager/smart-assist.md)
 - [Templates](templates-overview.md)
 
 ## Step 4: Create a custom messaging account
@@ -188,7 +188,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 [Test the custom messaging channel](bring-your-own-channel-sample-html.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](productivity-tools.md)  
-[Smart assist](smart-assist.md)  
+[Smart assist](../app-profile-manager/smart-assist.md)  
 [Templates](templates-overview.md)  
 
 
