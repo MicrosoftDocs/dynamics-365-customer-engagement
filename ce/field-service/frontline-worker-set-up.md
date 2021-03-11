@@ -17,7 +17,7 @@ search.app:
 
 # Set up Frontline Workers in your Organization
 
-Frontline workers in Dynamics 365 Field Service are individuals in your organization who are primarily scheduled for on-site jobs and uses Dynamics 365 Field Service mobile application for their work. Their quick setup in Dynamics 365 Field Service is critical to organizations in order to ensure they can immediately start fixing problems at customer locations and completing service calls. Therefore, admins now have a seamless way to set up frontline workers in their organizations that will allow their frontline workers to be promptly equipped to use the Dynamics 365 Field Service mobile application and instantanteously be scheduled for work orders. 
+Frontline workers in Dynamics 365 Field Service are individuals in your organization who are primarily scheduled for on-site jobs and uses Dynamics 365 Field Service mobile application for their work. Their quick setup in Dynamics 365 Field Service is critical to organizations in order to ensure they can immediately start fixing problems at customer locations and completing service calls. Therefore, admins can now use a **single form** to set up frontline workers in their organizations with all the required permissions that will allow their frontline workers to be promptly equipped to use the Dynamics 365 Field Service mobile application and instantanteously be scheduled for work orders. 
 
 With a single form, admins can: 
 1. Set up one or more frontline workers in their organization with the appropriate [characteristics (skills and certifications)](https://docs.microsoft.com/dynamics365/field-service/set-up-characteristics), [territories](https://docs.microsoft.com/dynamics365/field-service/set-up-territories), time zone, [security roles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles), [field security profiles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles), and [mobile offline profile](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-system-offline). 
@@ -44,9 +44,9 @@ After using the form to set up one or more frontline workers, admins can:
 
 **Mobile Offline Profile**: Controls what data is downloaded to the Dynamics 365 Field Service mobile application in offline mode. Unpublished profiles will not appear until published. This should be defaulted to **Field Service - Mobile Offline Profile**. 
 
-## Get Started 
+## Get started 
 
-## Using the form 
+## Use the form 
 
 ## View frontline workers 
 
