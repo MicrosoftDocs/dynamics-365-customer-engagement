@@ -43,7 +43,7 @@ For more information, see the following articles:
 -   [Upgrading Dynamics 365 Server](deploy/upgrading-microsoft-dynamics-365-server)
 
 > [!NOTE]
-> By default, when you apply the Dynamics 365 Server, version 9.1 update, all organization databases that are enabled in the deployment will be updated to Dynamics 365 Customer Engagement, version 9.1. Administrators can control which organization databases are upgraded in either of the following ways:
+> By default, when you apply the Dynamics 365 Server, version 9.1 update, all organization databases that are enabled in the deployment will be updated to Dynamics 365 Customer Engagement (on-premises), version 9.1. Administrators can control which organization databases are upgraded in either of the following ways:
 > 
 > -   Disable the organizations you don't want upgraded. Notice that all organizations must remain disabled until all the servers in a multi-server deployment are updated. More information: [Deployment Manager: Disable or enable an organization](deploy/disable-or-enable-an-organization) and [PowerShell: Disable-CrmOrganization](/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps).
 > 
@@ -57,3 +57,6 @@ For more information, see the following articles:
 1.  Copy or download the appropriate update package to the computer where a Dynamics 365, v9.0 (on-premises) application, such as Dynamics 365 Server, v9.0 (on-premises) or Dynamics 365 Reporting Extensions is running.
 
 2.  To start the update installation, right-click the update package, and then select **Run as administrator**.
+
+## See also
+[New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](whats-new.md)
