@@ -21,14 +21,12 @@ https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
 ### Native
 
-The voice channel is built, owned, and operated completely by Microsoft. This means it is an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. In addition, the voice channel is built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today.
+The voice channel is built, owned, and operated completely by Microsoft. This means it is an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value by enabling a quick and easy deployment of a voice channel for their business. In addition, the voice channel is built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today. Providing organizations with a choice of telephony delivered directly by Microsoft 
 
 
 ### Built alongside existing omnichannel capabilities
 
-The voice channel is another channel to engage customers alongside existing other channels (Chat, SMS, social media) so it plugs into existing workflows and processes.
-
-The voice channel in Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. Providing organizations with a choice of telephony delivered directly by Microsoft enables quick and easy deployment of a voice channel for their business.
+The voice channel is another channel to engage customers alongside existing other channels (Chat, SMS, social media) so it plugs into existing workflows and processes. This means the solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. 
 
 that participates throughout the stack, i.e. Power Virtual Agent for IVR, Unified Routing for ACD, connected agent and supervisor experiences, connected reporting.
 
