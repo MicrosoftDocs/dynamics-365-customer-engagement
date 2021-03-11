@@ -1,5 +1,5 @@
 ---
-title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9"
+title: "Update to Dynamics 365 Customer Engagement (on-premises), version 9.1"
 description: Find how to update or upgrade to Dynamics 365 Customer Engagement (on-premises), update 9.1
 ms.date: "03/03/2021"
 ms.topic: "topic"
@@ -8,8 +8,9 @@ author: mattp123
 ms.author: matp
 ms.prod: dynamicscrm-2016
 ---
-
 # Update or upgrade to 9.1
+
+Updating or upgrading depends on the version of Dynamics 365 Customer Engagement (on-premises) you have.
 
 # [Version 9.0 deployments](#tab/v90)
 
