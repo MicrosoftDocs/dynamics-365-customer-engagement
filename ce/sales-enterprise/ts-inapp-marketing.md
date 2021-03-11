@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot in-app marketing issues (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues for in-app marketing in Dynamics 365 Sales."
-ms.date: 03/03/2021
+ms.date: 03/11/2021
 ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
