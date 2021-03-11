@@ -23,8 +23,6 @@ To make Dynamics 365 Sales better, we're continually introducing usability enhan
 
 ### Familiar, modern email experience for agents
 
-**Description**
-
 Agents spend a significant amount of time using email to communicate with customers. Simple and intuitive email experiences help improve agent productivity and quality of service to customers. Email is also one of the core communications channels that sellers regularly use while interacting with customers and prospects. With the enhanced email (pop-up) experience available from the timeline, sellers will have a streamlined experience and greater flexibility, allowing them to respond to and view email correspondences without losing the current context. Additionally, sellers can be more productive with an improved file attachment experience that allows them to easily add and remove files to an email.
 
 **Feature Details**
@@ -47,8 +45,6 @@ Agents spend a significant amount of time using email to communicate with custom
 
 ### Familiar, modern email template experience for agents and administrators
 
-**Description**
-
 Agents spend a significant amount of time using email to communicate with customers. They often need to communicate the same information to all customers at different stages in the support life cycle such as a welcome email, refund instructions, or a personalized signature. Email templates make these processes efficient and standardized across the support team by providing the ability to create once and use it any number of times.
 
 **Feature Details**
@@ -65,8 +61,6 @@ Email templates enable scale, efficiency, and consistency of email communication
 
 ### Simplify your document workflows with enhanced PDF capabilities
 
-**Description**
-
 Organizations prefer creating and sharing offers or sales contracts in the form of non-editable PDF files to simplify and standardize the sales process and make it less error prone. To make it even easier to collaborate on these generated PDF files, Dynamics 365 Sales Hub optimizes the PDF generation experience further and extends the capability to custom entities.
 
 **Feature Details**
@@ -81,8 +75,6 @@ Organizations prefer creating and sharing offers or sales contracts in the form 
 
 ### Get improved data management experience with simplified duplicate detection and merge capabilities
 
-**Description**
-
 Data quality not only affects business performance but has a direct effect on a user's experience and productivity, due to effort wasted on searching and reconciling data. Duplicate detection and merge capabilities play a significant role in keeping data clean. To enable organizations to maintain data hygiene, we're optimizing the duplicate detection and merge user experiences, which would help users to make an informed decision and avoid duplicate data entry.
 
 **Feature Details**
@@ -96,8 +88,6 @@ Data quality not only affects business performance but has a direct effect on a 
 -   Enable the improved duplicate detection and merge experiences with a configurable Administration flag.
 
 ### Usability enhancements for timeline
-
-**Description**
 
 The timeline control provides an easy and immersive experience to view a customer's history across cases, accounts, or contacts. This experience gives agents a better understanding of the customer's history, which helps them deliver more personalized service in an efficient and effective manner.
 
@@ -123,8 +113,6 @@ More information: [Set up the timeline control](/powerapps/maker/model-driven-ap
 
 ### Agent productivity enhancements to knowledge capabilities
 
-**Description**
-
 The ability to quickly find and share knowledge articles is a key asset that agents can use to help customers resolve questions and issues. By referring customers to knowledge articles that address common issues, agents can improve their efficiency and focus on resolving more complex or unique issues.
 
 **Feature Details**
@@ -138,8 +126,6 @@ The ability to quickly find and share knowledge articles is a key asset that age
 -   Use a modern toolbar with more font choices and the ability to cut and paste formatted content from Office documents such as Word and Excel while maintaining formatting. Meanwhile, use the enhanced inline table capabilities that allow quick tables and adding or deleting rows and columns.
 
 ### Configurable case resolution page
-
-**Description**
 
 When resolving a case, businesses often need to capture additional details that help characterize the case and resolution approach taken, which in turn, drive trend reports and service analytics. By supporting customization of the Case Resolution dialog box, Dynamics 365 Customer Service helps managers identify recurring issues and proven resolution patterns to inform other incident responses.
 
@@ -155,8 +141,6 @@ Administrators can perform the following customizations in the case resolution d
 
 ### Enhancements in the queue page
 
-**Description**
-
 Agents must constantly navigate between queue grids and record forms that results in too many click actions and context switching. With the enhancements made to the queue page, agents can now save time with fewer click actions and resolve customer issues quicker than before.
 
 **Feature Details**
@@ -165,8 +149,6 @@ In this release, the user experience has been enhanced for agents to manage thei
 
 ### New work hour calendar in service scheduling
 
-**Description**
-
 Scheduling resources quickly and accurately is a key part of optimizing service for a business. This enhanced user experience makes scheduling easier and introduces flexibility to customize the experience for how the business operates to enhance scheduling efficiency.
 
 **Feature Details**
@@ -174,8 +156,6 @@ Scheduling resources quickly and accurately is a key part of optimizing service 
 Administrators currently navigate several screens to access a resource's calendar and update work hours and time off. With this release, we are delivering a new experience using an accessible Power Control Framework (PCF) calendar control in Unified Interface. Organizations will have flexibility to design new experiences (for example, using canvas apps) that modify resources' working hours from outside entity forms and views.
 
 ### Support for Site entity in Unified Interface
-
-**Description**
 
 As businesses migrate to the new Unified Interface, they require continuity of access to administrative configurations and settings.
 
@@ -187,8 +167,6 @@ More information: [Use sites to manage your service locations](/dynamics365/cust
 
 ### Unified Interface enablement of case routing rules
 
-**Description**
-
 Routing of cases to the right queue, user, or team as quickly as possible ensures customers get service quickly and without having to be transferred between agents.
 
 **Feature Details**
@@ -196,8 +174,6 @@ Routing of cases to the right queue, user, or team as quickly as possible ensure
 Case routing rules help trigger automatic or manual routing of cases to the right support resources. This release provides a new experience built on Unified Interface that enables easy configuration of routing rules and brings feature parity with the legacy web client.
 
 ### Enable silent, seamless migration from legacy to Unified Interface service scheduling experience
-
-**Description**
 
 This feature automatically migrates remaining customers who are using the legacy scheduling experience to the new Unified Interface-compliant service scheduling experience. The automated migration happens silently and has no impact on the customer's experience. Leveraging the latest experience ensures customers receive the best and most performant versions of Dynamics 365 applications.
 
@@ -221,8 +197,6 @@ The following entities will be automatically migrated from legacy to the latest 
 
 ### Insert knowledge articles into an email
 
-**Description**
-
 Email is a critical communication channel and a vehicle for sharing knowledge articles that support agents use to communicate with customers. This feature provides agents on Unified Interface with an easy way to insert one or more knowledge articles while working on an email.
 
 **Feature Details**
@@ -230,8 +204,6 @@ Email is a critical communication channel and a vehicle for sharing knowledge ar
 The legacy web client allows agents working on emails to search for knowledge articles and insert them into the email without losing context. This feature brings this capability into the Unified Interface client. While working on an email, an agent can search and select a knowledge article to include in the email.
 
 ### Main form dialog editing experience for queue item
-
-**Description**
 
 The enhanced queue item experience provides immersive information to agents when they view the queue item details and update "Worked by" information.
 
@@ -253,8 +225,6 @@ Usability enhancements have been made for queue items. Agents can do the followi
 
 ### In-app navigation enhancements for Dynamics 365 for phones and tablets
 
-**Description**
-
 The Unified Interface provides a common set of features when you run an app in a web browser and or on Dynamics 365 for phones and tablets app for iOS and Android. The enhanced site map and app navigation makes finding the right entity or page more intuitive on your mobile device.
 
 **Feature details**
@@ -268,8 +238,6 @@ Enhancements include:
 -   Commonly used commands have been moved from the bottom bar to the top corner of the screen for easy access. Less common features like settings and profile information are tucked away for users to access them when needed.
 
 ### Hybrid dialog experiences
-
-**Description**
 
 Some of the features that are not yet on Unified Interface can now be accessed using the hybrid experience.
 
