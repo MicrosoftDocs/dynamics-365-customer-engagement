@@ -46,7 +46,27 @@ After using the form to set up one or more frontline workers, admins can:
 
 ## Get started 
 
+1. On the **Home** tab or **Get Started** tab (include links), admins can set up their frontline workers in their organization.
+
 ## Use the form 
+
+1. On the **Set up your frontline workers** section, select **Set Up**. 
+
+2. The **Quick Set Up: Frontline Workers** form will appear. 
+
+3. In the **Users** section, admins can type in and select **one or more frontline workers** in their organizations. 
+
+ > [!NOTE]
+ > If setting up multiple frontline workers on this form, all of them will have the properties, such as Characterisitics, Territories, Time Zone, Security Role, Field Security Profile, and Mobile Offline Profile. This allows the ability to group your frontline workers by these properties. 
+
+4. Type and select the **Characterisitcs** that your frontline workers has. This is an optional field. 
+
+4a. If the **Characterisitcs** does not exist, select the drop down and select **+ New Characterisitcs**. A new form will appear and admins can define and create a new Characterisitcs for their frontline workers. Admins **will not** lose their work on the Quick Set Up: Frontline Workers form.
+
+5. Type and select the **Territories** that your frontline workers has. This is an optional field. 
+
+5a. If the **Territories** does not exist, select the drop down and select **+ New Territories**. A new form will appear and admins can define and create a new Territories for their frontline workers. Admins **will** lose their work on the Quick Set Up: Frontline Workers form.
+
 
 ## View frontline workers 
 
