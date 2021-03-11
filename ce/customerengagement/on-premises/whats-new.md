@@ -249,8 +249,6 @@ Usability enhancements have been made for queue items. Agents can do the followi
 
     -   When it was last modified.
 
-<!-- -->
-
 -   Modify who is working on the queue item.
 
 ### In-app navigation enhancements for Dynamics 365 for phones and tablets
@@ -279,15 +277,15 @@ Some of the features that are not yet on Unified Interface can now be accessed u
 
 The following features are not yet present on Unified Interface, but these are enabled for display as legacy dialogs on Unified Interface through the hybrid experience.
 
--   [Advanced Find](https://docs.microsoft.com/en-us/powerapps/user/advanced-find)
+-   [Advanced Find](/powerapps/user/advanced-find)
 
 -   Bulk edit
 
--   [Merge records](https://docs.microsoft.com/en-us/powerapps/user/merge-duplicate-records)
+-   [Merge records](/powerapps/user/merge-duplicate-records)
 
--   [Record sharing](https://docs.microsoft.com/en-us/powerapps/user/assign-or-share-records)
+-   [Record sharing](/powerapps/user/assign-or-share-records)
 
--   [Audit History](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/auditing-overview)
+-   [Audit History](/powerapps/developer/common-data-service/auditing-overview)
 
 -   All options under Set Personal Options ()
 
@@ -307,18 +305,18 @@ Organization database updates must be manually applied after you complete the ve
 This section lists new features that are available with Dynamics 365 Customer Engagement (on-premises), version 9.
 
 > [!NOTE]
-> The customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation) already have these features. More information: [Dynamics 365 Documentation](https://docs.microsoft.com/dynamics365). 
+> The customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation) already have these features. More information: [Dynamics 365 Documentation](/dynamics365). 
 
 |Feature  
 |---------|  
 |[Task-based experiences for mobile](/dynamics365/customer-engagement/customize/create-mobile-task-flow)   |  
 |[Dynamics 365 for Field Service](/dynamics365/customer-engagement/field-service/overview)    | 
-|[Enterprise Sales with the Unified Interface framework](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/help-hub)   |  
-|[Enterprise Sales classic web app user interface refresh](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/help-hub)   |  
-|[Enterprise Service with the Unified Interface framework](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/user-guide-customer-service-hub)      | 
-| [Enterprise Service classic web app user interface refresh](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/help-hub)       | 
+|[Enterprise Sales with the Unified Interface framework](h/dynamics365/customer-engagement/sales-enterprise/help-hub)   |  
+|[Enterprise Sales classic web app user interface refresh](/dynamics365/customer-engagement/sales-enterprise/help-hub)   |  
+|[Enterprise Service with the Unified Interface framework](/dynamics365/customer-engagement/customer-service/user-guide-customer-service-hub)      | 
+| [Enterprise Service classic web app user interface refresh](/dynamics365/customer-engagement/customer-service/help-hub)       | 
 | Run on-demand workflows from apps based on the Unified Interface framework  |
-| [App design enhancements](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-app)   |
+| [App design enhancements](/dynamics365/customerengagement/on-premises/customize/create-edit-app)   |
 | [The assistant with standard cards](/dynamics365/customer-engagement/sales-enterprise/action-cards-reference)   |  
 |  [Virtual entities](customize/create-edit-virtual-entities.md)  |
 |  [Security enhancements: User session and access management](/dynamics365/customerengagement/on-premises/admin/user-session-management)   |
