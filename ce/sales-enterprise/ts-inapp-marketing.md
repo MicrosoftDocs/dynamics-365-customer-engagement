@@ -83,7 +83,7 @@ The error occurs because the Contact or Account display name has been changed in
 
 In Unified Interface, the company name entity is available as **Company Name (Account)**. For example<!--note from editor: Should this maybe say something like "As an example, to solve this problem..."?-->, if you rename the **Account** as **Organization**, the entity will be renamed as **Company Name (Organization)**.<!--note from editor: This doesn't really sound like a resolution so much as a description of the problem. Can you say how to fix this issue?-->
 
-<a name="#unable-to-send-emails-using-email-quick-campaign-distribution-list"></a>
+<a name="unable-to-send-emails-using-email-quick-campaign-distribution-list"></a>
 ## I can't send emails by using the email quick campaign distribution list
 
 **Reason**
@@ -104,7 +104,7 @@ To resolve the issue, do one of the following:
     > [!div class="mx-imgBorder"]
     > ![Allow other users to send email on the owner's behalf](media/troubleshooting-inapp-campaign-allow-send-email-behalf-owner.png "Allow other users to send email on the owner's behalf")
 
-<a name="#unable-to-change-the-form-field-in-the-email-within-the-quick-campaign-wizard"></a>
+<a name="unable-to-change-the-form-field-in-the-email-within-the-quick-campaign-wizard"></a>
 ## I can't change the form field in the email within the quick campaign wizard
 
 **Reason**
@@ -115,7 +115,7 @@ The issue is caused by insufficient permissions for the **Send Email as another 
 
 Provide sufficient permissions for the **Send Email as another User** option to one of your roles.
 
-<a name="#unable-to-see-email-templates-in-the-distribute-dialog-box"></a>
+<a name="unable-to-see-email-templates-in-the-distribute-dialog-box"></a>
 ## I can't see email templates in the distribute dialog box
 
 **Reason**
