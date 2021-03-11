@@ -277,7 +277,6 @@
 
 ## Power Virtual Agents
 ### [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)
-### [Suggested actions for a Power Virtual Agents bot](suggested-actions-power-virtual-agent.md)
 
 ## Bots
 
@@ -293,6 +292,7 @@
 #### [Manage custom context](send-context-starting-chat.md)
 #### [Display custom context](display-custom-context.md)
 #### [Send authenticaion token](send-auth-token-starting-chat.md)
+#### [Suggested actions for a Power Virtual Agents bot](suggested-actions-power-virtual-agent.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
