@@ -12,6 +12,8 @@ ms.reviewer: lalexms
 
 # Configure timeline 
 
+The timeline helps agents see all customer interaction history across channels, personnel, and the support lifecycle. The timeline is used across Dynamics 365 applications to capture activities like notes, appointments, emails, tasks, and more to ensure all interactions with the customer are tracked and visible over time. Agents use the timeline to quickly catch up on all of the latest activity details with the customer to provide the most personalized support experience.  
+
 The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts, which gives users a better understanding and helps them deliver more personalized service in an efficient and effective manner.	
 
 This experience gives system administrators the ability to configure the information displayed in each timeline to help users access information and create new activity records, such as emails and tasks directly from the timeline quickly so they can deliver more personalized service.	
