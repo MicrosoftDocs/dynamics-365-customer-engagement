@@ -70,7 +70,7 @@ Next, the technician sees the booking and work order on their mobile device and 
 You can see timestamps by going to the booking (entity name bookableresourcebooking), then **Related** > **Booking Timestamps**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
+> ![Screenshot of booking timestamps on a bookable resource booking in Field Service.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
 
 Each booking timestamp details: 
@@ -117,7 +117,7 @@ The main difference is how detailed an organization wants to be for time entry, 
 Using our example with three booking statuses each with a related Field Service status, if **Timestamp Frequency** is set to *Per Field Service Status Change* the related booking timestamps will be created as seen the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
+> ![Screenshot of booking timestamps on a bookable resource booking per Field Service status change.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
 Only the timestamp for "Arrived on site" is generated because timestamps are created when there's a change in the Field Service status of a booking status, and in this example both are considered "In Progress."
 
@@ -126,7 +126,7 @@ Only the timestamp for "Arrived on site" is generated because timestamps are cre
 If Timestamp Frequency setting is set to *Per Booking Status Change* the related booking timestamps will be created as seen the image below.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-booking.png)
+> ![Screenshot of booking timestamps on a bookable resource booking per the booking status change.](./media/scheduling-timestamps-booking-statuses-per-booking.png)
 
 
 With the **Per Booking Status** setting, a timestamp is created for all booking status changes regardless if it results in a field service status change.
