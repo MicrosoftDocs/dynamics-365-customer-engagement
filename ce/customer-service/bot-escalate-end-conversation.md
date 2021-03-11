@@ -48,6 +48,9 @@ The primary way a bot can dictate how the conversation will be routed is by usin
 
 An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can do so by sending an `EndConversation` request to Omnichannel for Customer Service.
 
+> [!Note]
+> Bot conversations should be ended or timed out after 30 minutes of inactivity.
+
 ## Sample code for escalation management and ending conversation
 
 Follow the procedure given below to configure a bot that is capable of escalating a conversation to a human agent.
