@@ -14,7 +14,7 @@ manager: shujoshi
 This article helps you troubleshoot and resolve issues related to in-app marketing.
 <a name="when-i-open-marketing-list-form-the-members-view-is-not-available"></a>
 ## When I open the Marketing List form, the Members view isn't available
-<!--markdownlint-disable MD036-->
+
 **Reason**
 
 The error is occurring due to the customization of views for each subgrid in the Marketing List form, causing the member list to appear empty.
@@ -48,7 +48,7 @@ The error is occurring due to the customization of views for each subgrid in the
 
 <a name="im-unable-to-associate-a-campaign-created-from-marketing-list-form-with-marketing-list-record-in-unified-interface"></a>
 ## I can't associate a campaign created from the Marketing List form with a Marketing List record in Unified Interface
-<!--note from editor: "I can't..." is a bit more direct that "I'm unable to..." and is more in line with other troubleshooting articles. Also, here and below, is it important to mention Unified Interface? It's perfectly okay if it's a distinction that's going to matter to the reader, but if not, it seems kind of like introducing "a difference that makes no difference."-->
+
 **Reason**
 
 The error occurs because the attribute **TmpRegardingObjectId** has been removed from the Campaigns form.
@@ -62,12 +62,13 @@ The error occurs because the attribute **TmpRegardingObjectId** has been removed
 3. From the list of forms, select the **Campaign** form.
    > [!div class="mx-imgBorder"]
    > ![Select campaign form](media/troubleshooting-inapp-campaign-select-campaign-form.png "Select campaign form")       
-4. From the **Field Explorer** pane displayed on the right side of the page<!--note from editor: Edit okay? The screenshot shows this pane on the right.-->, add the field **TmpRegardingObjectId** to the form.
+4. From the **Field Explorer** pane displayed on the right side of the page, add the field **TmpRegardingObjectId** to the form.
    > [!div class="mx-imgBorder"]
    > ![Add TmpRegardingObjectId to the campaign form](media/troubleshooting-inapp-campaign-add-temp-regarding-object-id.png "Add TmpRegardingObjectId to the campaign form")
 5. Select the **TmpRegardingObjectId** field, and then select **Change Properties**.
     The Set Properties window opens.
-6. In the **Label** section, clear the **Display label on the Form** check box, and in the **Visibility** section, clear the **Visible by default** check box.<!--note from editor: Do you really need an image for this step? It would be better not to supply the same image twice in the same article, and I don't think this is such a complicated step that it needs to be illustrated.-->
+6. In the **Label** section, clear the **Display label on the Form** check box, and in the **Visibility** section, clear the **Visible by default** check box.     
+ 
    > [!div class="mx-imgBorder"]
    > ![Clear the Display the label on the form check box](media/troubleshooting-inapp-campaign-clear-display-label.png "Clear the Display the label on the form check box")
 7. Save and publish the form.
@@ -81,7 +82,7 @@ The error occurs because the Contact or Account display name has been changed in
 
 **Resolution**
 
-In Unified Interface, the company name entity is available as **Company Name (Account)**. For example<!--note from editor: Should this maybe say something like "As an example, to solve this problem..."?-->, if you rename the **Account** as **Organization**, the entity will be renamed as **Company Name (Organization)**.<!--note from editor: This doesn't really sound like a resolution so much as a description of the problem. Can you say how to fix this issue?-->
+In Unified Interface, the company name entity is available as **Company Name (Account)**. For example, if you rename the **Account** as **Organization**, the entity will be renamed as **Company Name (Organization)**.
 
 <a name="unable-to-send-emails-using-email-quick-campaign-distribution-list"></a>
 ## I can't send emails by using the email quick campaign distribution list
@@ -100,7 +101,7 @@ To resolve the issue, do one of the following:
 - For the user who's creating the quick campaign, the **Send Email as Another User** privilege must be assigned to at least one role assigned to the user. More information: [Create a security role with team member's privilege inheritance](https://docs.microsoft.com/power-platform/admin/security-roles-privileges#create-a-security-role-with-team-members-privilege-inheritance)
     > [!div class="mx-imgBorder"]
     > ![Provide permission to send email as another user privilege for the user](media/troubleshooting-inapp-campaign-unable-send-email-assign-role.png "Provide permission to send email as another user privilege for the user")   
-- For the owner of the record, the **Allow other Microsoft Dynamics 365 users to send email on your behalf** check box must be selected under **Select whether other users can send email for you** on the **Set Personal Options** dialog box.<!--note from editor: Edit okay? I wanted to reflect what the image shows. Also, please verify the following alt text.-->
+- For the owner of the record, the **Allow other Microsoft Dynamics 365 users to send email on your behalf** check box must be selected under **Select whether other users can send email for you** on the **Set Personal Options** dialog box.
     > [!div class="mx-imgBorder"]
     > ![Allow other users to send email on the owner's behalf](media/troubleshooting-inapp-campaign-allow-send-email-behalf-owner.png "Allow other users to send email on the owner's behalf")
 
@@ -120,7 +121,7 @@ Provide sufficient permissions for the **Send Email as another User** option to 
 
 **Reason**
 
-The Unified Interface implementation of<!--note from editor: Is this phrase necessary? Will the reader understand why you're making this distinction?--> the email template selector used during campaign distribution relies on certain access levels for different entities.
+The Unified Interface implementation of the email template selector used during campaign distribution relies on certain access levels for different entities.
 
 **Resolution**
 
@@ -139,10 +140,10 @@ The campaign distribution process requires a workflow to run in the background. 
 
 To resolve this issue, enable the workflow background process.
 
-1. Go to **Advanced Settings** > **Settings** > **System** > **System Jobs**. 
-2. Go to **ActivityPropagation** jobs and under **Process Sessions**, select the job that matches&mdash;or approximately matches&mdash;the date and time at which the quick campaign was run.<!--note from editor: Edit okay? It seems to me that you don't really need to use the Note format to call out the simple idea that you can search by an approximate time to find the campaign you're looking for. I suggest reserving the Note format for something that really needs to be highlighted. (I made this same edit later in this article.)-->
+1. Go to **Advanced Settings** > **Settings** > **System** > **System Jobs**.     
+2. Go to **ActivityPropagation** jobs and under **Process Sessions**, select the job that matches&mdash;or approximately matches&mdash;the date and time at which the quick campaign was run.    
 3. Verify that an error message is displayed under the details section, stating that the async operation was skipped because the org is in **Disable Background Processing** mode. Update the settings for your environment by doing the following:
-   1. Go to the admin center<!--note from editor: Can we call this the "Dynamics 365 admin center? Or is it all right to just generically refer to "the admin center"?-->, select your instance, and then select **Admin Settings**.
+   1. Go to the Dynamics 365 admin center, select your instance, and then select **Admin Settings**.
     > [!div class="mx-imgBorder"]
     > ![Select Admin Settings from the admin center](media/troubleshooting-inapp-campaign-distribution-admin-settings.png "Select Admin Settings from the admin center")   
    1. Clear the **Disable background operations** check box.
@@ -161,13 +162,13 @@ The issue is caused by the failure of a stack trace that's related to the custom
 1. Go to **Advanced Settings** > **Settings** > **System** > **System Jobs**.
 2. Go to **ActivityPropagation** jobs and under **Process Sessions**, select the job that matches&mdash;or approximately matches&mdash;the date and time at which the quick campaign was run.
 
-The system job contains information that includes the stack trace that has the failure. Resolve the failure as mentioned in the stack trace failure.<!--note from editor: There seems to be something missing here. Should it say "...as mentioned in the stack trace failure documentation" or something similar?-->
+The system job contains information that includes the stack trace that has the failure. Resolve the failure as mentioned in the stack trace failure documentation.
 
 ### The quick campaign is executing an unstoppable loop and generating thousands of failure records
 
 **Reason**
 
-Sometimes<!--note from editor: I recommend putting it this way instead of saying "due to unknown conditions".--> when a workflow fails to create campaign activities, it goes into an unstoppable loop and keeps creating campaign activities, which all fail. You'll observe that the number of failures keeps increasing until it exceeds the number of members in the targeted marketing list.<!--note from editor: Edits suggested.-->
+Due to unknown conditions, when a workflow fails to create campaign activities, it goes into an unstoppable loop and keeps creating campaign activities, which all fail. You'll observe that the number of failures keeps increasing until it exceeds the number of members in the targeted marketing list.
 
 **Resolution**
 
@@ -185,7 +186,7 @@ Deactivate the **ActivityPropagation** workflow, and then activate it again.
 5.	Wait 24 hours, and then reactivate the **ActivityPropagation** workflow.
 
 ### Campaign distribution doesn't create activities on target entities
-<!--note from editor: Are the following edits okay? I wasn't sure what this was saying.-->
+
 Target records (account, contact, and lead) can identify their preferences for receiving marketing materials through campaign distribution: these include emails, phones, fax, and bulk mail.
 Campaign activities are created for members of the Marketing List only when their preferences are set to **Allow** or **Send**.
 
@@ -196,14 +197,14 @@ Campaign activities are created for members of the Marketing List only when thei
 
 **Reason**
 
-Campaign distribution is based on the members in the marketing list. The member can be an account, contact, or lead. A campaign distribution can fail for members due to one of the following reasons:<!--note from editor: The following edits are suggested to avoid calling a member an "it".-->
+Campaign distribution is based on the members in the marketing list. The member can be an account, contact, or lead. A campaign distribution can fail for members due to one of the following reasons:
 
 - There's no email address associated with the member.
 - The email address associated with the member is invalid.
 - The member has configured the **Send Marketing Material** field in the member record as **Do not send**.
 
 **Resolution**
-<!--markdownlint-enable MD036-->
+
 Review the detailed reason for the failure in the **Excluded members** grid, and take any necessary action.  
 
 ### See also
