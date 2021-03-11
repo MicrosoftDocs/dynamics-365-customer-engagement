@@ -43,7 +43,8 @@ Currently, the Field Service (Dynamics 365) mobile app is supported on the follo
 | iOS |	12.4.9 or later |	3GB |	64 GB	| 13 or later	| 4GB	| 128 GB |
 | Android	| 7.1.1 or later |	3GB	| 64 GB	| 10 or later |	6GB	| 128 GB | 
 
-*The amount of GBs of storage needed is dependent on how much data your organization needs to download onto the device when there is no internet access. This is controlled by the [mobile offline profile](mobile-power-app-system-offline.md)
+
+*The amount of GBs of storage needed is dependent on how much data your organization needs to download onto the device when there is no internet access. This is controlled by the [mobile offline profile](mobile-power-app-system-offline.md).
 
 
 
@@ -52,7 +53,7 @@ Currently, the Field Service (Dynamics 365) mobile app is supported on the follo
 
 ### Mobile devices used for testing
 
-While the Field Service (Dynamics 365) mobile app works on all devices that meet the minimum criteria listed above, Microsoft has performed tests on the following devices. 
+While the Field Service (Dynamics 365) mobile app works on all devices that meet the minimum criteria listed above, Microsoft has performed tests on the following devices: 
 
 
 | Platform | Phones | Tablets |
