@@ -12,6 +12,7 @@
 # Administration
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
+## [Location and map settings](field-service-maps-address-locations.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
@@ -64,7 +65,7 @@
 ### [Enable an entity for scheduling](schedule-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
-### [Timestamps](booking-timestamps.md)
+### [Booking timestamps + journals](booking-timestamps.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
 ### [Analytics dashboard](scheduling-analytics-reports.md)

@@ -4,7 +4,7 @@ description: Understand about unified routing and work distribution in Omnichann
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 03/11/21
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -13,13 +13,17 @@ ms.service: "dynamics-365-customerservice"
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Unified routing and work distribution ensures that conversations from all the channels are routed to agents efficiently.
+Intelligent work item classification and omnichannel routing capabilities enable the flexibility and automation of AI-enabled workflows that increase routing efficiency and decrease human effort. 
+
+Traditionally, organizations use queue-based routing, where incoming service requests are routed to a relevant queue, and agents work on those service requests by picking them from the queue. Organizations can miss service-level agreements if agents pick the easier service requests and leave the higher-priority requests in the queue. To address this scenario, organizations either create custom workflows to periodically distribute service requests among their agents or have dedicated personnel to distribute the service requests equitably among agents while adhering to organizational and customer preferences. Both methods are inefficient and error-prone, and necessitate continuous queue supervision.
+
+The intelligent routing service in Dynamics 365 Customer Service uses a combination of AI models and rules to assign incoming service requests from all channels (cases, entities, chat, digital messages, and voice) to the best-suited agents. The assignment rules take into account customer-specified criteria, such as priority and autoskills matching. The new routing service eliminates the need for constant queue supervision and manual work distribution to offer operational efficiencies for organizations.
 
 Advantages of unified routing and work distribution are as follows:
 
-- Automate work assignment across channels.
-- Set up work assignment to best available agents based on their capacity and presence.
-- Analyze  and manage agents productivity across channels.
+- Automate work assignments across channels.
+- Set up work assignments for the best available agents based on their capacity and presence.
+- Analyze and manage agent productivity across channels.
 
 Unified routing and work distribution is a two-step process:
 
