@@ -11,24 +11,22 @@ ms.service: dynamics-365-customerservice
 
 # Introduction to the Voice channel 
 
-Enable customer service representatives to communicate with customers on the phone to resolve issues with the voice channel in Dynamics 365 Customer Service. 
-
-With the voice channel, Omnichannel provides agents with the ability to receive inbound and make outbound PSTN calls through a native calling experience in Dynamics 365, with real time AI-powered features such as live call transcription, sentiment analysis and AI-based Suggestions working out of the box to boost agent productivity. Omnichannel also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
+Enable customer service representatives to communicate with customers on the phone to resolve issues with the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS text messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. With the voice channel, Omnichannel provides agents with the ability to receive inbound and make outbound PSTN calls through a native calling experience in Dynamics 365, with real time AI-powered features such as live call transcription, sentiment analysis and AI-based Suggestions working out of the box to boost agent productivity. Omnichannel also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
 
 > [!VIDEO 
 https://www.microsoft.com/en-us/videoplayer/embed/RE4G43k]
 
-While many customers increasingly use chat, SMS text messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel in Dynamics 365 Customer Service offers a way for customers to speak to service agents and conversational bots to quickly find answers and receive support. The voice channel is a native Microsoft solution built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today; and it's built alongside other channels (Chat, SMS, social media) and requires no additional set up or integration outside of Dynamics 365.
 
 ## Why choose the voice channel
 
 ### Native
 
-The voice channel is built, owned, and operated completely by Microsoft. This means it is an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. 
+The voice channel is built, owned, and operated completely by Microsoft. This means it is an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. In addition, the voice channel is built on Microsoft Azure Communication Services with the scale and reliability of the calling platform that powers Microsoft Teams worldwide today.
+
 
 ### Built alongside existing omnichannel capabilities
 
-The voice channel is another channel to engage customers alongside existing
+The voice channel is another channel to engage customers alongside existing other channels (Chat, SMS, social media) so it plugs into existing workflows and processes.
 
 The voice channel in Customer Service enables an all-in-one customer service solution without fragmentation or manual data integration required, and a faster time to value. Our solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike. Providing organizations with a choice of telephony delivered directly by Microsoft enables quick and easy deployment of a voice channel for their business.
 
