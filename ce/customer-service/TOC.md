@@ -207,6 +207,8 @@
 #### [Manage voice channel]()
 #### [Number management](voice-channel-number-management.md)
 #### [Call insights](voice-channel-call-insights.md)
+### Supervisor
+#### [one page and link to supervisor capabiltiires](voicechannle-supervisor)
 ### Agent experience
 #### [Using the agent desktop for voice](voice-channel-agent-experience.md)
 ### [FAQs](voice-channel-faq.md)

@@ -51,6 +51,86 @@ Take a look at some of the key capabilties that makes the voice channel great fo
 | Customer experience  | <ul><li>Post-call Survey</li><li>Scheduled Callbacks</li><li>Music on hold</li></ul> |
 
 
+
+Area
+
+Features
+
+Channels
+
+Inbound PSTN calling
+
+Outbound PSTN calling
+
+1st party SMS
+
+Self-service
+
+Power Virtual Agents for IVR (no-code)
+
+Bot Framework bots for IVR (pro-dev)
+
+Post-call surveys
+
+Customizable voices for bots
+
+Routing
+
+Highest Availability and Round Robin routing
+
+Skills-based assignment
+
+Music on wait and hold
+
+Queue position and ETA announcements
+
+Overflow management
+
+Agent desktop
+
+Call controls: Mute, Hold, End
+
+Consulting and transferring
+
+Monitoring and barging
+
+Integrated customer and case history lookup
+
+Notes and Knowledge Search
+
+Transfer to external phone number
+
+Consult with Teams user
+
+Intelligence
+
+Live transcription
+
+Sentiment analysis
+
+AI-based Suggestions for similar cases and knowledge articles
+
+Analytics
+
+Call recording
+
+AI-driven topic clustering
+
+Call Insights
+
+Admin
+
+First Run Experience
+
+Native number management
+
+Multi-language support
+
+SPAM management
+
+Bring Your Own Number/Carrier (SIP Interface)
+
+
 ## Agent experience using the Voice channel
 
 Agents receive incoming voice calls the same way they receive other customer requests from channels like SMS and social media. 
