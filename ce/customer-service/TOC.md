@@ -56,8 +56,8 @@
 ### [Overview of unified routing](overview-unified-routing.md)
 ### [Common business scenarios](common-business-scenarios.md)
 ### Configure work distribution model
-#### [Manage routing](routing-workstream-queues.md)
-#### [Set up entity routing](set-up-entity-routing.md)
+#### [Routing and assignment rules](routing-workstream-queues.md)
+#### [Set up record routing](set-up-entity-routing.md)
 #### [Set up routing for converations](set-up-routing-process.md)
 #### [Create workstreams](create-workstreams.md)
 #### [Create queues](create-queues-ur.md)

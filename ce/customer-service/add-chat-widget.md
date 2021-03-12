@@ -13,7 +13,30 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-1. Sign in to Omnichannel Administration.
+You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.
+
+## Configure a chat widget in Omnichannel admin center
+
+Perform the following steps to configure chat in Omnichannel admin center:
+
+1. Sign in to Dynamics 365, and select Omnichannel admin center.
+2. In the site map, select Workstreams.
+3. On the page that appears, you can select the workstream for which you want to configure the chat widget.
+4. On the page that appears, select **Set up chat**.
+5. On the Live chat setup page, enter the following channel details:
+   - Name:
+   - Language:
+6. Select Next, and enter the following chat widget details:
+   - Title: 
+   - Subtitle
+   - Theme color
+   - Logo URL: Select the default value or enter the link to the logo that you want to be displayed.
+   - Agent display name
+   -    
+
+## Configure a chat widget in Omnichannel Administration
+
+1. Sign in to Dynamics 365, and select Omnichannel Administration.
 
 2. Go to **Channels** > **Chat**.
 

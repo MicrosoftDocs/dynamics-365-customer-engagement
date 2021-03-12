@@ -30,8 +30,6 @@ Make sure that the following prerequisites are met:
 
 - An active subscription to the WeChat service account or sandbox account (if using sandbox for testing) exists and is stored as a contact on your phone. You'll initiate WeChat conversations by contacting the subscription account. More information: [WeChat documentation](https://go.microsoft.com/fwlink/p/?linkid=2124569)
 
-## Configure a WeChat channel in Omnichannel
-
 ### Get WeChat account details
 
 To integrate a WeChat channel with Omnichannel for Customer Service, get the following details:
@@ -42,7 +40,10 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 - **Token:** Customer-defined string.
 - **Message encryption key:** Message encryption key in WeChat. If you are using a sandbox WeChat account, use a key of your choice.
   
-### Create a WeChat channel
+## Create a WeChat channel in Omnichannel admin center
+
+
+## Create a WeChat channel in Omnichannel Administration
 
 1. In Omnichannel Administration, under **Channels**, select **WeChat**.
 
