@@ -88,6 +88,8 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   12. Confirmation that the record is linked to a case
   13. Article date
 
+> [!NOTE]
+> If the keyword you used matches, the matches are highlighted in yelleo, but won't necessarily show up in the first three line, so you may not see the highlighted text in search results.
 
 In the knowledge base search control, you can do the following:
 - Search for knowledge articles
