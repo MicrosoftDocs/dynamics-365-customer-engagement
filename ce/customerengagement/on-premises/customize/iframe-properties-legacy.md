@@ -18,14 +18,13 @@ search.audienceType:
 ---
 # iFrame properties
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [iFrame properties for model-driven app main forms](/powerapps/maker/model-driven-apps/iframe-properties-legacy)
 
 You can add iFrames to a form to integrate content from another website within a form. 
 
 You can access **Form properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select IFRAME to view IFRAME properties.
 
-![iframe-properties](media/iframe-properties.png)
-
+![Add an iframe properties page](media/iframe-properties.png)
 
 > [!NOTE]
 > Forms are not designed to be displayed within an iFrame.  
