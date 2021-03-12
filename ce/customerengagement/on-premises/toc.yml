@@ -6,8 +6,6 @@
     href: whats-new.md
   - name: Deploy and operate
     href: deploy/deploy-and-operate-dynamics-365-on-premises.md
-  - name: Update
-    href: update-to-v91.md
   - name: Administrator Guide
     href: admin/overview.md
   - name: Customization Guide

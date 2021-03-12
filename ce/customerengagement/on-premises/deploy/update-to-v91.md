@@ -1,20 +1,20 @@
 ---
-title: "Update to Dynamics 365 Customer Engagement (on-premises), version 9.1"
-description: Find how to update or upgrade to Dynamics 365 Customer Engagement (on-premises), update 9.1
+title: "Update Dynamics 365 Customer Engagement (on-premises)"
+description: Find how to update Dynamics 365 Customer Engagement (on-premises)
 ms.date: "03/03/2021"
 ms.topic: "topic"
-ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
 author: mattp123
 ms.author: matp
 ms.prod: dynamicscrm-2016
 ---
-# Update or upgrade to 9.1
+# Update Dynamics 365 Customer Engagement (on-premises)
 
-Updating or upgrading depends on the version of Dynamics 365 Customer Engagement (on-premises) you have.
+::: moniker range="op-9-1"
+Updating or upgrading to Dynamics 365 Customer Engagement (on-premises), version 9.1 depends on the version of Dynamics 365 Customer Engagement (on-premises) you have.
 
 # [Version 9.0 deployments](#tab/v90)
 
-1.  Apply the Dynamics 365 Customer Engagement, version 9.1 update to all computers running Dynamics 365 Server and desktop applications in your deployment.
+1.  Apply the Dynamics 365 Customer Engagement (on-premises), version 9.1 update to all computers running Dynamics 365 Server and desktop applications in your deployment.
 
 2.  Choose whether to:
 
@@ -60,3 +60,9 @@ For more information, see the following articles:
 
 ## See also
 [New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](whats-new.md)
+
+::: moniker-end
+
+::: moniker range="op-9-0"
+For information about the available updates for Dynamics 365 Customer Engagement (on-premises), version 9.0, see [Microsoft Dynamics 365 On-Premises Cumulative Updates](https://support.microsoft.com/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9).
+::: moniker-end

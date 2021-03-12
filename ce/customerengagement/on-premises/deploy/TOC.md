@@ -87,6 +87,7 @@
 #### [Uninstall or repair Dynamics 365 Reporting Extensions](uninstall-repair-dynamics-365-reporting-extensions.md)
 #### [Uninstall or repair Dynamics 365 Report Authoring Extension](uninstall-repair-dynamics-365-report-authoring-extension.md)
 #### [Uninstall or repair a Dynamics 365 Language Pack](uninstall-repair-dynamics-365-language-pack.md)
+## [Updating Dynamics 365 Customer Engagement (on-premises)](update-to-v91.md)
 ## [Operating Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md)
 ### [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)
 #### [Update deployment configuration settings](update-deployment-configuration-settings.md)
