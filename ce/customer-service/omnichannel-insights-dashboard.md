@@ -5,7 +5,7 @@ author: neeranelli
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/08/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -31,7 +31,7 @@ The following illustration is an example of the Omnichannel Insights for Dynamic
    > [!div class=mx-imgBorder]
    > ![Omnichannel for Customer Service dashboard](media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
 
-This section consists of the following conversation KPIs:
+This section consists of the following conversation KPIs.
 
 | KPI                  | Description              |
 |----------------------|--------------------------|
@@ -44,6 +44,7 @@ This section consists of the following conversation KPIs:
 |Transfer rate |The percentage of conversations that are transferred to another agent/queue.|
 |Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.|
 |Average customer effort time |Average length of time a customer takes to contact support and complete a conversation with an agent. Only the conversations engaged by an agent are considered for this metric.|
+||||
 
 ## Omnichannel Insights for Dynamics 365
 
@@ -69,7 +70,7 @@ This section provides historical visibility into the overall support operations 
 The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) is performing, and take appropriate actions to improve the overall support experience for customers. <br> <br>
 
 
-   | KPI | Description | Derivation | Measure | 
+   | KPI | Description | Derivation | Measure |
    |------|----------|------------|---------|
    | Incoming conversations | The number of conversations initiated by the customers that can be presented to agents. | All conversations are considered. | FactConversation[InComingConversationCount] |
    | Conversations engaged | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. | FactConversation[Engaged] |
@@ -93,6 +94,7 @@ The KPIs for conversations and channels are listed in the following table. For c
    | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
    | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
    | Average Customer sentiment pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. | Conversations engaged are considered. | Average of FactConversationSentiment[msdyn_sentimentpulse] |
+   ||||
 
 
 ### Queues and agents
@@ -107,7 +109,7 @@ This section provides historical visibility into how each queue is performing an
    
 The KPIs for queues and agents are listed in the following table. Metrics in this section are computed at the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
 
-| KPI | Description | Derivation | Measure | 
+| KPI | Description | Derivation | Measure |
 |------|----------|------------|---------|
 | Consult sessions | The number of sessions accepted by a user in mode = consult. | Only consult sessions are considered as a denominator |  |
 | Total consult time | The time spent on the consult from when the agent joined to when they left in session participant. | Only consult sessions are considered as a denominator. |  |
@@ -136,7 +138,7 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
 | Agent Busy DND Duration (hrs) | The time an agent is in the Busy DND state in the Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentBusyDNDDuration(hrs)] |
 | Agent Away Duration (hrs) | The time an agent is in the Away state in the Omnichannel application | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent.  | FactAgentStatusHistory[AgentAwayDuration(hrs))] |
 | Agent Offline Duration (hrs) | The time an agent signed out of the Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentOfflineDuration(hrs) )] |
-
+||||
   
 ### Bot insights
 
@@ -145,15 +147,16 @@ This section provides historical visibility into how bots are performing to�
    > [!div class=mx-imgBorder]
    > ![Bot insights](media/bot-insights.png "Bot insights")  
 
-The KPIs for bots are listed in the following table: 
+The KPIs for bots are listed in the following table.
 
-| KPI | Description | Derivation | Measure | 
+| KPI | Description | Derivation | Measure |
 |------|----------|------------|---------|
 | Bot conversations | The number of conversations initiated by the customer and handled by a bot. | All conversations are considered. | FactSession[QueueSessions] |
 | Bot resolution rate  | The percentage of conversations that were closed by interacting with bot out of all conversations handled by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
 | Bot resolution time (mins) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. | All conversations are considered. | FactSession[AvgResolutionTime] |
 | Bot escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
 | Bot escalation time (mins)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
+||||
 
 ## Omnichannel Sentiment Analysis dashboard
 
