@@ -53,7 +53,7 @@ The reporting structure consists of the following sections:
 
 - [Conversations and channels](#conversations-and-channels)
 - [Queue and agents](#queues-and-agents)
-- [Bot insights (BYOB)](#botinsightsbyob)
+- [Bot insights] (#botinsights)
 
 ### Conversations and channels
 
@@ -143,7 +143,7 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
 This section provides historical visibility into how bots are performing to help resolve customer support issues. 
 
    > [!div class=mx-imgBorder]
-   > ![Bot insights (BYOB)](media/bot-insights.png "Bot insights (BYOB)")  
+   > ![Bot insights](media/bot-insights.png "Bot insights")  
 
 The KPIs for bots are listed in the following table: 
 
