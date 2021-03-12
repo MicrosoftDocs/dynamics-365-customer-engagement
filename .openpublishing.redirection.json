@@ -21068,7 +21068,7 @@
     },
     {
       "source_path": "ce/customer-service/smart-assist.md",
-      "redirect_url": "ce/app-profile-manager/smart-assist",
+      "redirect_url": "../app-profile-manager/smart-assist",
       "redirect_document_id": false
     }
   ]
