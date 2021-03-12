@@ -21065,6 +21065,11 @@
       "source_path": "ce/marketing/developer/personalized-calendar-content.md",
       "redirect_url": "marketing-developer-guide",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/smart-assist.md",
+      "redirect_url": "ce/app-profile-manager/smart-assist",
+      "redirect_document_id": false
     }
   ]
 }
