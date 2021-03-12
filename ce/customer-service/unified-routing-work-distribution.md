@@ -31,7 +31,7 @@ Unified routing and work distribution is a two-step process:
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](media/unified-routing-work-distribution.png)
+> ![Graphical representation of routing and work distribution scenario](media/unified-routing-work-distribution.png "Graphical representation of routing and work distribution scenario")
 
 ## Overview of routing system
 
