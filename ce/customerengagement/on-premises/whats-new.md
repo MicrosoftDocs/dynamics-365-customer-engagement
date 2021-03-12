@@ -278,7 +278,7 @@ This section lists new features that are available with Dynamics 365 Customer En
 |---------|  
 |[Task-based experiences for mobile](/dynamics365/customer-engagement/customize/create-mobile-task-flow)   |  
 |[Dynamics 365 for Field Service](/dynamics365/customer-engagement/field-service/overview)    | 
-|[Enterprise Sales with the Unified Interface framework](h/dynamics365/customer-engagement/sales-enterprise/help-hub)   |  
+|[Enterprise Sales with the Unified Interface framework](/dynamics365/customer-engagement/sales-enterprise/help-hub)   |  
 |[Enterprise Sales classic web app user interface refresh](/dynamics365/customer-engagement/sales-enterprise/help-hub)   |  
 |[Enterprise Service with the Unified Interface framework](/dynamics365/customer-engagement/customer-service/user-guide-customer-service-hub)      | 
 | [Enterprise Service classic web app user interface refresh](/dynamics365/customer-engagement/customer-service/help-hub)       | 
