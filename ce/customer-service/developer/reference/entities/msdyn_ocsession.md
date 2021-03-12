@@ -1998,7 +1998,6 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid"></a> msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid
 
-Same as msdyn_ocliveworkitem entity [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
