@@ -2075,8 +2075,6 @@ See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid) One-To-Many relationship.
-
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
 
 **Added by**: Active Solution Solution
