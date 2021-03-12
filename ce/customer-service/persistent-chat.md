@@ -45,7 +45,7 @@ From the start of a conversation until the agent explicitly ends it, agents and 
 
 ## Prerequisites
 
-You will need to add authentication settings as a prerequisite step to configure persistent chat work stream. For more information on adding authentication settings, see : [Create chat authentication settings](create-chat-auth-settings.md)
+Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md).
 
 
 ## Set up persistent chat
