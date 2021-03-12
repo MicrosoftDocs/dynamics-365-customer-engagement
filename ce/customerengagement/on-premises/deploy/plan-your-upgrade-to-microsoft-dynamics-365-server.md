@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Plan your upgrade to Microsoft Dynamics 365 Server
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)]. Performing these tasks in advance can help minimize system downtime and ensure a successful upgrade. Also, this section describes how [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)] upgrades your current system and what happens to items such as existing reports, customizations, and solutions.  
   
@@ -112,6 +117,6 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
 ## See Also  
 [Import an organization](import-an-organization.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

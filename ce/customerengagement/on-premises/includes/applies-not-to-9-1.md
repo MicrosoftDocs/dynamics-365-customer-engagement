@@ -1,1 +1,1 @@
-This topic doesn't apply to the Dynamics 365 Customer Engagement (on-premises), version 9.1 update. For information about the update, see [Update Dynamics 365 Customer Engagement (on-premises)](update-to-v91.md).
+This article doesn't apply to the Dynamics 365 Customer Engagement (on-premises), version 9.1 update. For information about the update, see [Update Dynamics 365 Customer Engagement (on-premises)](../deploy/update-to-v91.md).

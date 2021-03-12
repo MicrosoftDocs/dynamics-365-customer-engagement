@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Server XML configuration file
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The /config [drive:] [[path] configfilename.xml]] command-line parameter provides [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] with required information. The information supplied by the XML configuration file is required by each installation screen.  
   
@@ -292,6 +297,6 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  [Sample server XML configuration file](sample-server-xml-configuration-file.md) </br>  
  [Sample server XML configuration file for installing with pre-created groups](sample-server-xml-config-file-pre-created-groups.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Install or upgrade Language Packs
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-dynamics-crm-language-pack.md)] enables users to change the language of the user interface or Help that is displayed in the application. For example, your multinational organization might have standardized on an English user interface to simplify internal training and troubleshooting, but if you prefer to read Help in your native language, you can specify that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] display Help in that language.  
   
@@ -45,7 +50,7 @@ The [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-
 ## See Also  
  [Install or upgrade Dynamics 365 Server](install-or-upgrade-microsoft-dynamics-365-server.md)   </br>
 
-
+::: moniker-end
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
