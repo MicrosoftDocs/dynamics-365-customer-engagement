@@ -25,7 +25,7 @@ search.audienceType:
 
 # Manage app properties in the app designer
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a model-driven app by using the app designer](/powerapps/maker/model-driven-apps/create-edit-app)
 
 App properties define important details about the app, like its title or URL. You define app properties when you create an app. If you want to change those properties later, you can do that in the app designer.  
 
