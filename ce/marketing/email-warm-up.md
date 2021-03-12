@@ -49,7 +49,7 @@ Once you begin warming up your IPs, you can expect some bulking (mailbox provide
 - **Delays** at AOL, Microsoft, and Comcast. The delays (421 bounces) will retry for 72 hours, and, if not delivered, will bounce as a 5XX with the original 421 error in the bounce record. *Delays are normal and will lessen each day as the IP or domain’s reputation develops. So long as the emails are ultimately delivering, there is no concern.* However, if emails are timing out in large quantities, you should back down your volumes to the mailbox provider by tightening your engagement window (the time since a recipient last interacted with one of your emails).
 - Possible **blocking** by mailbox providers can occur if the list isn’t engaged enough. The key is to segment carefully and tighten up engagement. *Again, the key is to keep sending.*
 
-### Why is IP or domain warm-up important?
+### Why is IP/domain warm-up important?
 
 | Quick warm-up:                                  | Slow warm-up:                                                                                                               |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
