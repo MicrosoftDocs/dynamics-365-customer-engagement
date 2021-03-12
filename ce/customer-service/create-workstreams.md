@@ -9,17 +9,18 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Create work streams
+# Create workstreams
 
-A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
+A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
 
 
-Perform the following steps to configure a work stream for live chat:
-1.	In the Omnichannel admin center (preview) app, go to the home page.
-2.	On the left pane, select Work streams, and then select Create a work stream.
-3.	Enter the following details for the work stream:
-    - Name: An intuitive name, such as Contoso chat work stream.
-    - Work distribution mode: Select Push or Pick.
-    - Type: Select Messaging.
-Note: By default, Owner and Channel are predefined and unavailable for selection in the private preview release.
-4.	Select Create. The work stream that you created is displayed.
+Perform the following steps to configure the workstream:
+1.	In the Omnichannel admin center app, go to the home page.
+2.	On the left pane, select **Workstreams**, select **New**, and then select **Create a workstream**.
+3.	Enter the following details for the workstream:
+    - **Name:** Enter an intuitive name, such as **Contoso chat workstream**.
+    - **Work distribution mode:** Select **Push** or **Pick**.
+    - **Type:** Select Messaging.
+    - **Channel:** Select a channel from the list.
+
+4.	Select **Create**. The workstream that you created is displayed.
