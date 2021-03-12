@@ -42,7 +42,7 @@ After using the form to set up one or more frontline workers, admins can:
 
 **Field Security Profile**: Controls which fields a frontline worker sees for a record type. This should be defaulted to **Field Service - Resource**.
 
-**Mobile Offline Profile**: Controls what data is downloaded to the Dynamics 365 Field Service mobile application in offline mode. Unpublished profiles will not appear until published. This should be defaulted to **Field Service - Mobile Offline Profile**. 
+**Mobile Offline Profile**: Controls what data is downloaded to the Dynamics 365 Field Service mobile application in offline mode. Unpublished profiles will not appear until published. This should be defaulted to **Field Service Mobile - Offline Profile**. 
 
 ## Get started 
 
