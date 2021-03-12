@@ -254,7 +254,7 @@ You can send and receive records with images, but they will not display when the
 > - When the caret is facing upward (^) the record it expanded.
 
 2. Records with images will often display the following notice. <BR>
-![Expand records with images in timeline](media\timeline-expand-records-with-images-display-optiones-advanced-1a.png)
+![Expand records with images in timeline at runtime](media\timeline-expand-records-with-images-display-optiones-advanced-1a.png "Expand records with images in timeline at runtime")
 3. When you click on the message the warning goes  away and the image appears. 
 
 If you don’t see a message and the image is not displaying, see [Timeline FAQs](timeline-faqs.md) for more information.
