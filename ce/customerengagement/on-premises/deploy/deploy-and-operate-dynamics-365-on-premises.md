@@ -30,7 +30,7 @@ manager: kvivek
     
  This documentation set includes the following areas:  
   
--   [Dynamics 365 Customer Engagement (on-premises) planning guidance](planning-your-deployment-of-microsoft-dynamics-365.md). Use these topics to help plan your [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] deployment.  
+-   [Dynamics 365 Customer Engagement (on-premises) planning guidance](planning-your-deployment-of-microsoft-dynamics-365.md). Use these topics to help plan your [Dynamics 365 Customer Engagement (on-premises) deployment.  
   
 -   [Dynamics 365 Customer Engagement (on-premises) installation guidance](installing-on-premises-dynamics-365.md). Use these topics to help install and configure your deployment.  
 
