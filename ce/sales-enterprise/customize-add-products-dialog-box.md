@@ -37,7 +37,7 @@ The **Add products** dialog box uses the following views that define the columns
 | Opportunity product    | Opportunity products Add products   |
 | Quote product          | Quote products Add products         |
 | Order product          | Order products Add products         |
-| Invoice product        | Opportunity products Add products   |
+| Invoice product        | Invoice products Add products   |
 |                        |                   |
 
 By default, the following columns are added to the view:
