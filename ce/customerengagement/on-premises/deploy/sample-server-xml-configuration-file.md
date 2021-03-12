@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Sample server XML configuration file
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The following configuration file installs an update file that is located on an internal share, installs a Full Server with all Dynamics 365 Server features, and creates new databases on the default instance of a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is named *SQLServer*.  
   
@@ -97,6 +102,6 @@ The following configuration file installs an update file that is located on an i
  [Microsoft Dynamics 365 Server XML configuration file](microsoft-dynamics-365-server-xml-configuration-file.md)  </br>
  [Sample server XML configuration file for installing with pre-created groups](sample-server-xml-config-file-pre-created-groups.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
