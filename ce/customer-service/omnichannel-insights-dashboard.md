@@ -149,11 +149,11 @@ The KPIs for bots are listed in the following table:
 
 | KPI | Description | Derivation | Measure | 
 |------|----------|------------|---------|
-| Bot Conversations | The number of conversations initiated by the customer and handled by a bot. | All conversations are considered. | FactSession[QueueSessions] |
-| Bot Resolution Rate  | The percentage of conversations that were closed by interacting with bot out of all conversations handled by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
-| Bot Resolution time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. | All conversations are considered. | FactSession[AvgResolutionTime] |
-| Bot Escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
-| Bot Escalation time (min)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
+| Bot conversations | The number of conversations initiated by the customer and handled by a bot. | All conversations are considered. | FactSession[QueueSessions] |
+| Bot resolution rate  | The percentage of conversations that were closed by interacting with bot out of all conversations handled by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
+| Bot resolution time (mins) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. | All conversations are considered. | FactSession[AvgResolutionTime] |
+| Bot escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
+| Bot escalation time (mins)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
 
 ## Omnichannel Sentiment Analysis dashboard
 
