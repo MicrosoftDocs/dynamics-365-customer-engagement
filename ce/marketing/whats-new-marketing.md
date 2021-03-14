@@ -35,7 +35,7 @@ The Dynamics 365 Marketing March 2021 update includes several enhancements, perf
 
 | App              | GA release      | Early access    |
 |------------------|-----------------|-----------------|
-| Marketing        | 1.35.10069.1058 | 1.35.10069.2058 |
+| Marketing        | 1.35.10070.1097 | 1.35.10070.2097 |
 
 > [!Tip]
 > To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
@@ -61,21 +61,32 @@ The Dynamics 365 Marketing March 2021 update includes several enhancements, perf
 ### Bug fixes
 
 - **Customer journeys**
-    - 
+    - Resolved a Norwegian localization issue.
+    - Fixed an error that caused duplicate email links to not filter out when the version property was non-null.
+    - Resolved an error that caused marketing email insights to not be able to filter by inactive customer journeys.
+    - Fixed an error that caused the segment state to not update when PULL was turned off.
+- **Data services**
+    - Fixed an error that caused marketing analytics exports to occasionally fail.
 - **Event management**
-    - 
-- **First run experience**
-    - 
-- **Lead management**
-    - 
+    - Resolved an issue that caused speaker links to not redirect to the selected speaker.
+    - Fixed a javascript error related to multi-choice custom registration fields.
 - **Marketing emails**
-    - 
-- **Marketing insights**
-    - 
+    - Improved rendering consistency in form-level double opt-in emails.
+    - Fixed an issue that caused live emails to sometimes open with unsaved changes and not autosave.
+    - Fixed an error that caused lines added in a text element to not render in Outlook.
+    - Improved button rendering under bullet lists.
+    - Improved button rendering on top of background images in Outlook desktop.
+    - Improved divider code rendering.
+    - Fixed an error where empty content blocks in HTML prevented email saving.
+    - Fixed a rendering issue that caused section borders to double in Outlook.
+    - Resolved an error that caused backgrounds to be added to text elements in Outlook web.
+    - Fixed an issue that prevented preview text from updating when an email was sent using the **Send now** function.
 - **Marketing pages**
     - 
 - **Segmentation**
-    - 
+    - Resolved an issue that prevented active registrants from being added to segments in customer journeys.
+- **Shared UX**
+    - Improved user role functionality to prevent modify actions from appearing for users without proper privileges.
 
 ## February 2021 update
 
