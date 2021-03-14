@@ -29,7 +29,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 ## March 2021 update
 
-The Dynamics 365 Marketing March 2021 update includes several enhancements, performance upgrades, and bug fixes. The March release also includes early access to the revamped email designer.
+The Dynamics 365 Marketing March 2021 update includes several enhancements, performance upgrades, and bug fixes. The March early access release includes a revamped email designer.
 
 ### Version number
 
@@ -62,7 +62,7 @@ The Dynamics 365 Marketing March 2021 update includes several enhancements, perf
 
 - **Customer journeys**
     - Resolved a Norwegian localization issue.
-    - Fixed an error that caused duplicate email links to not filter out when the version property was non-null.
+    - Fixed an error that caused duplicate email links to not filter when the version property was non-null.
     - Resolved an error that caused marketing email insights to not be able to filter by inactive customer journeys.
     - Fixed an error that caused the segment state to not update when PULL was turned off.
 - **Data services**
@@ -82,7 +82,13 @@ The Dynamics 365 Marketing March 2021 update includes several enhancements, perf
     - Resolved an error that caused backgrounds to be added to text elements in Outlook web.
     - Fixed an issue that prevented preview text from updating when an email was sent using the **Send now** function.
 - **Marketing pages**
-    - 
+    - Improved form double opt-in email validation functionality.
+    - Resolved an issue that occasionally caused customized default marketing pages to roll back during solution upgrade.
+    - Improved javascript functionality when client side marketing forms are loaded.
+    - Fixed an error that prevented adding contacts to a subscription list by re-submitting.
+    - Fixed an error that sometimes prevented videos from loading on marketing pages.
+    - Improved cookie reliability for tracking website visits and clicks.
+    - Resolved an error that caused a black box to appear in place of video tiles on live pages in the marketing page designer.
 - **Segmentation**
     - Resolved an issue that prevented active registrants from being added to segments in customer journeys.
 - **Shared UX**
