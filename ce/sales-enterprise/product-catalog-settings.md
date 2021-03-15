@@ -14,7 +14,7 @@ manager: annbe
 
 Product catalog helps companies sell products and services with greater efficiency. Use the product catalog settings to configure things like pricing or discounting methods.
 
-## Configure product catalog  
+## Configure product catalog settings
  To configure the product catalog:  
   
 1. In the Sales Hub app, at the bottom of the site map, select the <area> **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
