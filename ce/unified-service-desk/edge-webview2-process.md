@@ -22,10 +22,12 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-The Edge WebView2 Process browser control hosts your controls in isolated Edge WebView2 Process instances and displays them in tabs in the Unified Service Desk client application. Edge WebView2 Process is based on *CefSharp*, an open source framework that uses the Chromium core that powers many modern browsers.  More information: [CefSharp](https://cefsharp.github.io/)
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
+
+![Edge process hosted control setting](media/edge-process-hosted-control-setting.gif "Edge process hosted control setting")
 
 > [!IMPORTANT]
-> - Unified Service Desk version 4.1.1.1429 supports Chromium version 84.
+> - Unified Service Desk version 4.2 supports Chromium version 84.
 
 The advantages of using the Edge WevView2 Process hosting method are as follows:
 
