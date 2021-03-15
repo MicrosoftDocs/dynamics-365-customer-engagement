@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Upgrading Dynamics 365 Server
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This section provides best practices guidelines and procedures to install [!INCLUDE[pn_crm_server_2016_legacy](../includes/pn-crm-server-2016-legacy.md)] in a deployment that already has the previous version of [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)] Server installed.  
   
@@ -33,6 +38,6 @@ This section provides best practices guidelines and procedures to install [!INCL
 ## See also
 [Upgrade from Microsoft Dynamics 2015 Server](upgrade-from-microsoft-dynamics-365-server.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
