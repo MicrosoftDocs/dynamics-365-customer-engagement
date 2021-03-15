@@ -78,7 +78,7 @@ To configure other options in the work stream, see the following:
 
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](productivity-tools.md)
-- [Smart assist](smart-assist.md)
+- [Smart assist](../app-profile-manager/smart-assist.md)
 - [Templates](templates-overview.md)
 
 ## Step 4: Create a custom messaging account
@@ -105,12 +105,12 @@ To create a custom channel, follow these steps:
 5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](media/custom-channel-1.png "Create a custom channel")
+    > ![Account details in custom channel](media/custom-channel-1.png "Account details in custom channel")
 
 6. Select **Save** to save the changes. After you save, in the **Callback information** section, the **Message endpoint (URL)** field is generated with a URL. Copy the URL from the field.
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](media/custom-channel-2.png "Create a custom channel")
+    > ![Callback information for custom channel](media/custom-channel-2.png "Callback information for custom channel")
 
 7. Go to the **Azure Portal** > **Bot Channel Registration** page, paste the URL into the **Message endpoint** field, and save the changes.
 
@@ -132,7 +132,7 @@ To create a custom channel, follow these steps:
 
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](media/custom-channel-3.png "Create a custom channel") 
+    > ![General tab page for custom channel](media/custom-channel-3.png "General tab page for custom channel") 
 
 10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
@@ -143,7 +143,7 @@ To create a custom channel, follow these steps:
 13. Select **Save** to save the configurations.
 
     > [!div class=mx-imgBorder]
-    > ![Create a custom channel](media/custom-channel-4.png "Create a custom channel")
+    > ![Summary page for custom channel](media/custom-channel-4.png "Summary page for custom channel")
 
 ## Test your channel
 
@@ -188,7 +188,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 [Test the custom messaging channel](bring-your-own-channel-sample-html.md)  
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](productivity-tools.md)  
-[Smart assist](smart-assist.md)  
+[Smart assist](../app-profile-manager/smart-assist.md)  
 [Templates](templates-overview.md)  
 
 
