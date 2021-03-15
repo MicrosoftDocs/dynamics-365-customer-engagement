@@ -4,7 +4,7 @@ description: "Includes schema information and supported messages for the msdyn_o
 author: "v-sailab"
 ms.author: "v-sailab"
 manager: "shujoshi"
-ms.date: 03/03/2021
+ms.date: 03/15/2021
 ms.topic: "reference"
 ms.service: "dynamics-365-customerservice"
 ---
