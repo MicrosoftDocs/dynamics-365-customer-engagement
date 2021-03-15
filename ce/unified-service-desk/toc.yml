@@ -146,8 +146,8 @@
     href: admin/recover-internet-explorer-process-instance.md
   - name: Recover Chrome Process instance
     href: admin/recover-chrome-process-instance.md
-  - name: Recover Edge Process instance
-    href: admin/recover-edge-process-instance.md
+  - name: Recover Edge WebView2 Process instance
+    href: admin/recover-edge-webview2-process-instance.md
   - name: Configure close confirmation window
     href: admin/configure-close-confirmation-window.md
 - name: Configure your agent application using Unified Service Desk
