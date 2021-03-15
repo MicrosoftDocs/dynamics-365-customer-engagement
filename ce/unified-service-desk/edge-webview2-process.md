@@ -37,6 +37,8 @@ The advantages of using the Edge WevView2 Process hosting method are as follows:
 - It provides easy configurations to host the applications in Unified Service Desk.
 - It provides improved reliability and supportability for browser-specific issues.
 
+You can select Edge WebView2 Process as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
+
 > [!NOTE]
 > To use **Edge WebView2 Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
