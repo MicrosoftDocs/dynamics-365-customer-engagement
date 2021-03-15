@@ -40,9 +40,24 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 ## Sentiment analysis
 
+## Call transcirption
+
 ## Knowledge article suggestions
 
 ## Topic discovery
+
+
+
+| Number reference in image | Function | Description |
+| --- | --- | --- |
+|  1 |  Mute  |    | 
+|  2 | Hold   |    | 
+|  3 |  Consult  |     | 
+|  4 |  Transfer  |    | 
+|  5 |  End call  |    | 
+
+
+
 
 
 
