@@ -4,7 +4,7 @@ description: "Learn about different types of hosting methods for your controls i
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/01/2018
+ms.date: 03/15/2021
 ms.topic: "article"
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -23,6 +23,8 @@ monikerRange: '>= dynamics-usd-3'
  ## Types of hosting types
  
 - [Chrome process](chrome-process.md)
+
+- [Edge WebView2 Process](edge-webview2-process.md)
 
 - [Edge process](edge-process.md)
 
