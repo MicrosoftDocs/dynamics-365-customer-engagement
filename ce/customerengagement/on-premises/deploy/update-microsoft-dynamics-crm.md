@@ -40,7 +40,7 @@ With Dynamics 365 Customer Engagement (on-premises), you have several options th
   
 <a name="BKMK_UpdateRollup"></a>   
 ## Microsoft Dynamics 365 Customer Engagement (on-premises) application updates  
- Dynamics 365 Customer Engagement (on-premises) publishes updates in a package format that is a collection of software updates. Microsoft fully tests and supports installing any published update for Dynamics 365 Customer Engagement (on-premises) at the time of its release. <!-- Get the latest Dynamics 365 Customer Engagement (on-premises) application updates [KB: Microsoft Dynamics 365 Customer Engagement (on-premises) on-premises cumulative updates](https://support.microsoft.com/kb/3142345).  -->
+ Dynamics 365 Customer Engagement (on-premises) publishes updates in a package format that is a collection of software updates. Microsoft fully tests and supports installing any published update for Dynamics 365 Customer Engagement (on-premises) at the time of its release. Get the latest Dynamics 365 Customer Engagement (on-premises) application updates [KB: Microsoft Dynamics 365 Customer Engagement (on-premises) on-premises cumulative updates](https://support.microsoft.com/kb/3142345). 
 
 ### Dynamics 365 Customer Engagement (on-premises), update 9.1
 The Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams. More information: [New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](../whats-new.md)
