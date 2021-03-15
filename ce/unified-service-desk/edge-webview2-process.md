@@ -24,7 +24,7 @@ search.app:
 
 The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
 
-![Edge process hosted control setting](media/edge-process-hosted-control-setting.gif "Edge process hosted control setting")
+![Edge WebView2 process hosted control setting](media/edge-webview2-process-hosted-control-setting.png "Edge process hosted control setting")
 
 > [!IMPORTANT]
 > - Unified Service Desk version 4.2 supports Chromium version 84.
