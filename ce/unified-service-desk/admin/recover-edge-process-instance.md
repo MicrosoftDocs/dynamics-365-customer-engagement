@@ -67,12 +67,12 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 Select **Yes** to terminate the Edge WebView2 Process instance. Select **No** to cancel the operation.
 
-After you end the Edge WebView2 Process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message, **Edge Process closed abruptly**. Select **Reload** to recover the closed Edge Process instance. If you don't want to recover, select **Cancel**.
+After you end the Edge WebView2 Process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message, **Edge WebView2 Process closed abruptly**. Select **Reload** to recover the closed Edge WebView2 Process instance. If you don't want to recover, select **Cancel**.
 
  > [!div class="mx-imageBorder"]
  > ![Chrome Process closed abruptly](../../unified-service-desk/media/usd-chrome-process-closed-abruptly.PNG "Chrome Process closed abruptly")<Note for me: need to change the screens>
 
-By default, the keyboard shortcut for terminating an unresponsive Edge Process instance is **CTRL** + **K**.
+By default, the keyboard shortcut for terminating an unresponsive Edge WebView2 Process instance is **CTRL** + **K**.
 
 To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
@@ -80,7 +80,7 @@ To update an additional keyboard shortcut, you must add the UII option and provi
 |-------------|-------------------|
 | On-DemandChromeProcessTerminationShortcut | `B` |
 
-Now as per the above example, the keyboard shortcut for terminating an unresponsive Edge Process instance is **CTRL** + **B**.
+Now as per the above example, the keyboard shortcut for terminating an unresponsive Edge WebView2 Process instance is **CTRL** + **B**.
 
 > [!NOTE]
 > You must ensure that character you update for the UII option doesn't conflict with your existing keyboard shortcuts.
