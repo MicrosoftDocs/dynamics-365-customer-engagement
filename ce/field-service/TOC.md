@@ -40,6 +40,7 @@
 ## Inspections
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
+### [Run reports on inspections](inspections-reporting.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
 ## [Capture resolution details](work-order-resolutions.md)
