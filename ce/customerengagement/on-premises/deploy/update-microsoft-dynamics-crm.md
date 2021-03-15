@@ -17,8 +17,6 @@ manager: kvivek
 ---
 # Update Dynamics 365 Customer Engagement (on-premises)
 
-
-
 With Dynamics 365 Customer Engagement (on-premises), you have several options that help make your deployment run optimally, reliably, and securely. In most situations where Dynamics 365 Customer Engagement (on-premises) is running in a production environment, we recommend that you apply the latest update for all Dynamics 365 Customer Engagement (on-premises) applications shortly after the update becomes available.  
   
  Dynamics 365 Server and desktop applications use two kinds of update technology:  

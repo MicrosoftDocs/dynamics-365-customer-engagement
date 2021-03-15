@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Install Dynamics 365 Customer Engagement (on-premises) Full Server role on a server without Dynamics 365 Customer Engagement (on-premises) installed
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 ## Install the Dynamics 365 Server software  
   
@@ -148,6 +153,6 @@ manager: kvivek
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
  [Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions](install-microsoft-dynamics-365-reporting-extensions.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
