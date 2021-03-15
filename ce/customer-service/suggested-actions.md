@@ -16,8 +16,8 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Suggested actions enable your bot to present buttons or options that the user can tap to provide input. These inputs are provided within the chat window and they enable the user to answer a question or make a selection with a tap of a button, rather than having to type a response with a keyboard.
+Your bot can use suggested actions to present buttons or options in the chat window, which the user can tap to provide input. This way, users can answer a question or make a selection without having to use a keyboard.<!--note from editor: Edits suggested, to avoid using "enable" and "type" (in the sense of entering text).-->
 
-Suggested actions can be displayed vertically to enhance user experience and to promote easy readability. More information: [Customize chat widget](customize-chat-widget.md)
+Suggested actions can be displayed vertically to enhance the user experience and promote easy readability. More information: [Customize a chat widget](customize-chat-widget.md)
 
 The suggested actions feature is now supported in Microsoft Teams along with other asynchronous chat channels.
