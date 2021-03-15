@@ -120,7 +120,7 @@ Type a keyword in the search box to search for knowledge articles.
 - If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
   > [!NOTE]
-  > In the knowledge search result list, the summary of content does not render in html style. If there is a style tag with CSS styles at the top of the article, relevance search returns the exact content without processing. Use inline CSS styling instead of putting styles in style tags.
+  > If there's a style tag with CSS styles at the top of the article, the summary of the content in the knowledge search results list will contain style tags. Use inline CSS styling instead of putting styles in style tags.
 
 - If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
 
