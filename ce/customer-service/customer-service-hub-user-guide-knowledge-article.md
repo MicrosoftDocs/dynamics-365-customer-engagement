@@ -475,7 +475,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
    > [!NOTE]
-   > Rating and view count numbers are rollup fields that are not updated instantly. The Rollup field gets updated after 60 minutes.
+   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
 - **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
