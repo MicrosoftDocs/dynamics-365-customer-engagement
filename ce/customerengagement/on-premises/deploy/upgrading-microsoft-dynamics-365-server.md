@@ -33,7 +33,7 @@ This section provides best practices guidelines and procedures to install [!INCL
   
 -   **Migrate by using the same instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]**. This option requires a different computer for the new version of Dynamics 365 Server, but will upgrade in-place the configuration and default organization databases using the same instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. If issues occur during the upgrade, you must roll back to the previous deployment to avoid significant downtime.  
   
--   **In-place upgrade**. Although this option doesn’t require a different computer for the new version of Dynamics 365 Server or a different instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], it poses the greatest risk if upgrade issues occur because a roll back and reinstall of the previous deployment will be required to avoid potential downtime.  
+-   **In-place upgrade**. Although this option doesn’t require a different computer for the new version of Dynamics 365 Server or a different instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], it poses the greatest risk if upgrade issues occur because a roll back and reinstall of the previous deployment will be required to avoid potential downtime.
   
 ## See also
 [Upgrade from Microsoft Dynamics 2015 Server](upgrade-from-microsoft-dynamics-365-server.md)
