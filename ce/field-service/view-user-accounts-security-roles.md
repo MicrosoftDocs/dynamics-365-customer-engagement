@@ -64,7 +64,7 @@ Woohoo, your users in your organization are now added and assigned Field Service
 ## Step 2: Assign security roles and field security profiles
 After adding and assigning Dynamics 365 Field Service licenses to your users, you can now assign them specific Field Service security roles and field security profiles. By setting **security roles** for users, you control the types of data and entities a user can access and edit. By setting **field security profiles**, you control which fields a user sees for an entity. For example, a user may have permission to see accounts, but not to see specific fields for an account. Make sure you understand which role to assign your users; view the roles and definitions.  
 
-> ![NOTE]
+> [!Note]
 > These steps allow you to assign security roles and field security profiles to individual users rather than multiple users at once. 
 
 1. Sign into the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments).
