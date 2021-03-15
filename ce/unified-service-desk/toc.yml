@@ -196,6 +196,8 @@
           href: select-hosting-method-controls.md
         - name: Use Edge Process to host web applications (Preview)
           href: edge-process.md
+        - name: Use Edge WebView2 Process to host web applications
+          href: edge-webview2-process.md
         - name: Use Chrome Process to host web applications
           href: chrome-process.md       
         - name: Use IE Process to host web applications
