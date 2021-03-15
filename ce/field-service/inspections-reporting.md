@@ -3,7 +3,7 @@ title: "Run reports on Inspection responses in Field Service | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/05/2021
+ms.date: 03/15/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -21,24 +21,7 @@ search.app:
 
 # Run reports on Inspection responses
 
-
-
-
-
-## Prerequisites
-> [!Note]
->
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RWyHY4]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
-
+Administrators can create reports based on the answers technicians respond to inspections. 
 
 ## Understand, view, and report inspection responses
 
@@ -122,7 +105,7 @@ Inspection parsing allows you to isolate and select specific parts of inspection
 
 
 
-### Use Power Automate flow to parse inspection responses 
+### Use Power Automate flow to parse inspection responses (Deserialization of responses)
 
 When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the **Inspection Response** entity.
 
@@ -130,7 +113,7 @@ When a technician fills out an inspection, the answers to each inspection questi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of inspection responses showing up in the lookup dropdown in an advanced find window.](./media/inspection-inspection-responses-advanced-find.png)
 
-Use a Power Automate flow to run a workflow on inspection responses.
+Use a Power Automate flow to run a workflow on inspection responses. See the video on [run workflows on Inspection responses](https://youtu.be/fCjQmIw9ahs) for more details.
 
 In the following example, if a technician responds "Yes" to the inspection question "Is a follow-up required?" then a new follow-up work order service task is added to the related work order.
 
