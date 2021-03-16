@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Enable skill-based routing in Customer Service admin center<a name="sbr-cs-admin"></a>
+## Enable skill-based routing in Customer Service admin center<a name="sbr-oc-admincenter"></a>
 
 ### Manual skill identification ruleset
 

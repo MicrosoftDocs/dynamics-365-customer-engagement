@@ -15,7 +15,7 @@ ms.service: "dynamics-365-customerservice"
 
 ## Introduction
 
-Omnichannel queues are used for collecting and distributing workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
+In Omnichannel for Customer Service, queues are used for collecting and distributing workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
 
 ## How conversations are routed to queues
 
@@ -32,7 +32,27 @@ The queue types help ensure issues to be routed correctly and help avoid cross-q
 
 You can assign priority to queues. A lower value indicates higher priority and a higher value indicates lower priority. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if two chat conversations are waiting in two queues that have priority defined as 1 and 2 respectively, the chat conversation with priority value 1 will be allocated to an agent first.
 
-## Default queues
+## Create a queue for the messaging channel in Omnichannel admin center
+
+In this section, we cover information on how to create a queue for the messaging channel.
+
+1. In the left pane, select **Queues**, and then do the following steps:
+
+    1. On the **Queues** page, select **New**.
+    2. On the Create a queue dialog box, enter the following:
+       - **Name:** A name for the queue.
+       - **Type:** Select Messaging.
+       - **Group number:** A number to organize the queue. 
+    3. Select **Create**. The queue that you created is displayed.
+        > ![Queue in Omnichannel admin center](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
+
+2. Select **Add users**, and in the flyout menu, select the users that should be part of the queue, and select **Add**. The users are added to the queue.
+3. In **Assignment method**, you can use the default option highest capacity. You can select **See more** to change the assignment method to round robin or create a custom assignment method. For more information about custom assignment method, see [Create custom assignment method]()
+
+
+## Create a queue in Omnichannel Administration
+
+**To Saurabh: I do not see these default queues in Omnicahnnel admin center app**
 
 Out of the box, the following default queues are available in Omnichannel for Customer Service:
 
@@ -43,8 +63,6 @@ The default queues can't be edited or deleted. All Omnichannel for Customer Serv
 
   > [!NOTE]
   > When no custom queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queue based on the work item type.
-
-## Create a queue
 
 Perform the following steps to create a queue in Omnichannel for Customer Service:
 
@@ -71,7 +89,7 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)  
+[Understand and create workstreams](work-streams-introduction.md)  
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)  
 [Create operating hours](create-operating-hours.md)  
 

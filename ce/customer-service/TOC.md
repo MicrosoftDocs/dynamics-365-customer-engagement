@@ -49,35 +49,51 @@
 ### [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)
 ### [Assign roles and enable users](add-users-assign-roles.md)
 ### [Manage users](users-user-profiles.md)
+### [Manage user capacity]
 
 
-## Unified routing
+## Unified routing and assignment
 ### [Overview of unified routing](overview-unified-routing.md)
 ### [Common business scenarios](common-business-scenarios.md)
 ### Configure work distribution model
 #### [Routing and assignment rules](routing-workstream-queues.md)
 #### [Set up record routing](set-up-record-routing.md)
+##### [Set up intake rules]
+##### [Enable entities for routing](entity-channel.md)
+##### [Route trigger for entity records](routing-trigger.md)
 #### [Set up routing for converations](set-up-routing-process.md)
-#### [Create workstreams](create-workstreams.md)
-#### [Create queues](create-queues-ur.md)
+#### [Create workstreams]
+##### [Create workstreams in Omnichannel admin center](create-workstreams.md)
+##### [Create workstreams in Omnichannel Administration](work-streams-introduction.md)
+#### [Create queues](queues-omnichannel.md)
 #### Configure work classification rules
 ##### [Create work classification rulesets](configure-work-classification.md)
 
-
-## Routing and assignment
-### Administrator experience
-#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
-#### [Automatically route cases](create-rules-automatically-route-cases.md)
-#### [Create and manage queues for conversations](queues-omnichannel.md)
-#### Set up skill-based routing for conversations
+#### Set up skill-identification rules
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
-##### [Enable skill-based routing, rating model in Customer Service admin center](enable-skill-routing-create-rating-model.md#sbr-cs-admin)
+##### [Enable skill-based routing, rating model in Omnichannel admin center](enable-skill-routing-create-rating-model.md#sbr-oc-admincenter)
 ##### [Enable skill-based routing, rating model in Omnichannel Administration](enable-skill-routing-create-rating-model.md#sbr-oc-admin)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
 ##### [Attach skills to conversations](attach-skills.md)
 
+#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
+#### [Automatically route cases](create-rules-automatically-route-cases.md)
+
+
+## Routing and assignment
+### Administrator experience
+--#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
+--#### [Automatically route cases](create-rules-automatically-route-cases.md)
+--#### [Create and manage queues for conversations](queues-omnichannel.md)
+#### Set up skill-based routing for conversations
+--##### [Overview of skill-based routing](overview-skill-work-distribution.md)
+--##### [Enable skill-based routing, rating model in Customer Service admin center](enable-skill-routing-create-rating-model.md#sbr-cs-admin)
+--##### [Enable skill-based routing, rating model in Omnichannel Administration](enable-skill-routing-create-rating-model.md#sbr-oc-admin)
+--##### [Set up skills, assign agents](setup-skills-assign-agents.md)
+--##### [Attach skills to conversations](attach-skills.md)
+
 #### Manage work distribution for conversations
-##### [Create work streams](work-streams-introduction.md)
+--##### [Create work streams](work-streams-introduction.md)
 ##### [Create work streams for entity records](set-up-entity-workstream.md)
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)

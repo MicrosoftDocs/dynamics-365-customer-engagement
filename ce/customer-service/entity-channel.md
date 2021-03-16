@@ -75,7 +75,7 @@ Create entity record configuration to enable an entity for routing.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select **+ New** in the **Active Entities** page.
+3. Select **New** in the **Active Entities** page.
 
 4. Specify the following in the **New Entity** page.
 

@@ -9,15 +9,41 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Create work stream for entity record routing
+# Create workstream for record routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Create entity record work stream in Omnichannel admin center
+You can configure settings for record routing in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration.
 
-To route entity records, as a first step, you need to enable entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md).
+## Prerequisites
 
-This topic describes how to create a work stream for an entity that has been enabled for routing.
+To route entity records, you must enable entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues).
+
+For configuring unified routing, make sure that the toggle for unified routing is set to yes in the **Service Configuration Settings** section of Customer Service Hub.
+
+## Configure record routing in Omnichannel admin center or Customer Service Hub
+
+Perform the following steps to configure record routing:
+
+1. If you are using Omnichannel admin center, on the site map, select **Record routing** under **General settings**. If you are using Customer Service Hub, on the site map, select **Record routing** under **Unified routing**.
+2. On the **Record routing** page, select **Add**.
+3. In the **Add a record type** dialog box, select an entity from the **Record type** list, and select **Add**. The entity is added and listed on the **Record routing** page.
+4. Select the entity for which you want to configure routing.
+5. On the page that appears, configure the intake rules in the Intake rules section. More information: [Configure intake rules](#configure-intake-rules)
+6. If you want to route the record using a workstream, configure the workstream in the **Workstreams** section.
+
+### Configure intake rules
+
+Perform the following steps to configure the intake rules that can be evaluated based on the hierarchy of the rules that you set up.
+
+
+### Create workstreams for record routing
+
+
+
+## Create entity record workstream in Omnichannel Administration
+
+This section describes how to create a workstream for an entity that has been enabled for routing.
 
 1. Sign in to the Omnichannel Administration app.
 
