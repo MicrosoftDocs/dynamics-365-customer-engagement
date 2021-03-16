@@ -72,10 +72,13 @@ Within your offline profile you can:
 
 Open the **Field Service Mobile - Offline Profile**.  
 
-Add the users who need to work offline in the right **People with offline access** panel. Users must be added here in order to download data offline.
+Add the users or teams to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team while individual users are displayed directly in the offline profile. 
+
+A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile then you will see a warning stating that the user is already part of an different offline profile. If you continue with the change then the user or team will be moved to the new profile. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
+
 
 
 ## Edit the offline profile
