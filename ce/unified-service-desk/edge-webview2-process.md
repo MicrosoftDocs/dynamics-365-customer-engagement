@@ -276,6 +276,8 @@ To use the `EdgeWebView2SingleProcess`, you must add the UII option and set the 
 
 To sign out from sessions when using the Edge WebView2 Process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
+
+
 ## Limitations
 
 To learn about the limitations of the Edge WebView2 Process, see [Edge Process limitations](release-notes.md)
