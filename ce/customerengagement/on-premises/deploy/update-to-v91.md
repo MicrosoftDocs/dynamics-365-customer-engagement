@@ -7,7 +7,7 @@ author: mattp123
 ms.author: matp
 ms.prod: dynamicscrm-2016
 ---
-# Update Dynamics 365 Customer Engagement (on-premises)
+# Apply the Dynamics 365 Customer Engagement (on-premises), version 9.1 update
 
 ::: moniker range="op-9-1"
 Updating or upgrading to Dynamics 365 Customer Engagement (on-premises), version 9.1 depends on the version of Dynamics 365 Customer Engagement (on-premises) you have.
