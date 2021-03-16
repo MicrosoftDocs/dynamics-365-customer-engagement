@@ -62,3 +62,6 @@ manager: kvivek
  [Software requirements for Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)   <br />
  [SQL Server installation and configuration](sql-server-installation-and-configuration.md) 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

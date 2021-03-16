@@ -1,8 +1,8 @@
 ---
 title: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
 description: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2018
 ms.topic: reference
@@ -35,3 +35,6 @@ With Dynamics 365 Channel Integration Framework version 2.0, organizations can c
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
 [Configure channel providers](../configure-channel-provider-channel-integration-framework.md)<br />
 [Bring your own channel](../../../omnichannel/developer/how-to/bring-your-own-channel.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

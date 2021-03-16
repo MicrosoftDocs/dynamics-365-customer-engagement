@@ -1,8 +1,8 @@
 ---
 title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
 description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 1.0 with Dynamics 365 model-driven apps."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -106,3 +106,6 @@ A valid Azure subscription is required to publish the sample app to Azure.
 [Client-side events](reference/client-side-events.md)
 
 [Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

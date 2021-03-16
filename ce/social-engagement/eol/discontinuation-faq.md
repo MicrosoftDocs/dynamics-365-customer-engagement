@@ -89,3 +89,6 @@ For questions related to transitioning, please contact your Microsoft representa
 
 [Business Applications release notes](https://dynamics.microsoft.com/business-applications/release/)    
 [Dynamics 365 International Availability Guide](https://aka.ms/dynamics_365_international_availability_deck)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

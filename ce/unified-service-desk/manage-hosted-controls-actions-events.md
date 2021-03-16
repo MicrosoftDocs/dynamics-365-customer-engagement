@@ -39,3 +39,6 @@ This section provides information on how you can work with the hosted controls, 
   
 ## Related Sections  
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

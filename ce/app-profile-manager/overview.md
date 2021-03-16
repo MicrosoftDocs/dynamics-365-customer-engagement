@@ -15,6 +15,8 @@ ms.topic: article
 
 The app profile manager lets organizations create targeted app experiences for agents and supervisors as an alternative to building and maintaining custom apps. With the app profile manager, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
+Agent productivity tools use intelligence and automation to enable agents to find answers to customer questions and help resolve customer issues quickly, thereby improving satisfaction in service delivery. Agent productivity tools enable easy knowledge base search, suggestions for similar knowledge articles and cases, and agent scripts with macros to automate tasks in common workflows. 
+
 The profiles are available for agents and supervisors who use the Customer Service workspace or Omnichannel for Customer Service apps.
 
 The system requirements for the app profile manager are same as those for Customer Service workspace. More information: [System requirements for Customer Service workspace](../customer-service/customer-service-workspace-system-requirements.md)
@@ -96,3 +98,6 @@ When you upgrade your existing environments, the settings for templates, product
 
 [Create app profiles](app-profile-manager.md)  
 [System requirements](../customer-service/customer-service-workspace-system-requirements.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

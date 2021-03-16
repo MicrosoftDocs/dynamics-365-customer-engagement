@@ -105,3 +105,5 @@ If the alternate key is deleted while an index creation job is still pending or 
  [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md)<br />
  [Use Upsert to insert or update a record](use-upsert-insert-update-record.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

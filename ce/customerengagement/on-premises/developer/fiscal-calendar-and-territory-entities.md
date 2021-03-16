@@ -45,3 +45,6 @@ You can use the *fiscal calendar* entities and the *territory* entity to track s
  [Goal Management Entities](goal-management-entities.md)   
  [Organization Entities](organization-entities.md)   
  [Queue Entities](queue-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

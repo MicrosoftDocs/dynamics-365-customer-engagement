@@ -48,3 +48,6 @@ You can create a service activity by finding the next available times of resourc
 ### See also  
 
 [Overview of service and service scheduling](basics-service-service-scheduling.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

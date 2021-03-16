@@ -1,6 +1,6 @@
 ---
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+description: "Track the replies to your campaigns by using campaign responses in Dynamics 365 Sales."
 ms.date: 10/01/2019
 ms.service: 
   - "dynamics-365-sales"
@@ -21,7 +21,7 @@ searchScope:
   - Sales
 ---
 
-# Track a marketing campaign response using in-app marketing (Sales)
+# Track a marketing campaign response using in-app marketing (Sales Hub)
 
 Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
   
@@ -63,3 +63,6 @@ Record the replies you get from potential customers in response to a specific ma
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Create or edit a campaign template using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

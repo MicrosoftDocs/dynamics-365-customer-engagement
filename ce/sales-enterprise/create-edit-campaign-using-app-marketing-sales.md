@@ -1,6 +1,6 @@
 ---
 title: "Create or edit a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Expand your reach to new customers and improve sales by using campaigns in Dynamics 365 Sales."
+description: "Use campaigns in Dynamics 365 Sales to expand your reach to new customers and improve sales."
 ms.date: 10/01/2019
 ms.service: 
   - "dynamics-365-sales"
@@ -21,7 +21,7 @@ searchScope:
   - Sales
 ---
 
-# Create or edit a campaign using in-app marketing (Sales)
+# Create or edit a campaign using in-app marketing (Sales Hub)
 
 Promote your business, expand your reach to new customers, and improve sales by using campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Use campaigns to store all your marketing information and activities, and to measure the success of your efforts. Campaigns contain planning tasks and campaign activities you need to manage for the marketing campaigns.  
   
@@ -37,7 +37,7 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
 - Target marketing lists  
   
-  Campaigns can include whatever planning activities you want to perform before you launch the campaign, and also the campaign activities you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)  
+  Campaigns can include planning activities that you want to perform before you launch the campaign, and also the campaign activities you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)  
   
 1. In the site map, select **Marketing Lists**.
 
@@ -55,7 +55,7 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
    3. To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record](../basics/add-phone-call-task-email-appointment-activity-case-record.md)    
   
-   4. On the **Details** tab, in the **Financials** section, enter details about the cost of the campaign and campaign activities, and the budget and revenue of the campaign.
+   4. Enter details about the cost of the campaign and campaign activities, and the budget and revenue of the campaign in the **Financials** section of the **Details** tab.
   
 4. When you're ready to save your data, select **Save**.  
   
@@ -71,3 +71,6 @@ Promote your business, expand your reach to new customers, and improve sales by 
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

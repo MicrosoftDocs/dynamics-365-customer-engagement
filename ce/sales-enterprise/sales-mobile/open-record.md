@@ -95,3 +95,6 @@ To learn more about insight cards, go to [Insight cards reference](https://docs.
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Use resource groups to group users, facilities, and equipment as part of the sel
 > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

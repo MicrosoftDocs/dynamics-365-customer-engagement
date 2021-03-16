@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: lalexms
 manager: shujoshi
-ms.date: 07/16/2020
+ms.date: 03/08/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -99,7 +99,9 @@ To turn off agent alerts, select **Don't show alerts**.
 
 Supervisors can use the **Omnichannel Ongoing Conversation** dashboard to view customer sentiment in real time during conversations between customers and agents.
 
-You can show notifications to the supervisors when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
+You can show notifications to the supervisors when a customer's sentiment decreases to or below a particular value. The supervisor must be assigned to the queue to receive sentiment notifications.
+
+You can set the sentiment threshold to any of the following values:
 
 - Don't show notifications
 - Slightly negative
@@ -189,3 +191,6 @@ Vietnamese<br>
 ### See also
 
 [Monitor conversations](monitor-conversations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

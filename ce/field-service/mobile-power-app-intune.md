@@ -57,3 +57,6 @@ A configuration can be set up through the [Device Management portal](https://dev
 
 - Specific configurations like prefill of URL or username are not available for the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md).
 - Standard mobile application management capabilities for Field Service (Dynamics 365) mobile app will work with or without MDM device enrollment in Intune.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "msdyn_cdsentityengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_cdsentityengagementctx entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "v-sailab"
+ms.author: "v-sailab"
 manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
@@ -697,9 +697,10 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_cdsentityengagementctx_liveworkitemid) One-To-Many relationship.
-
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

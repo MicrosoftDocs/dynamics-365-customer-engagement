@@ -64,3 +64,6 @@ WHERE ab.RegardingObjectId is null
  [Test for a Null Value](org-service/test-null-value.md)   
  [Using the QueryExpression Class](org-service/use-queryexpression-class.md)   
  [Using the QueryByAttribute Class](org-service/use-querybyattribute-class.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

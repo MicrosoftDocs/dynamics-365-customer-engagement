@@ -33,3 +33,6 @@ This section describes the different features that are available to determine ho
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Publish reports](../analytics/publish-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

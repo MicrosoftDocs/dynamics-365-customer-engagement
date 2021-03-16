@@ -147,3 +147,6 @@ To gain tighter control over what you distribute in solutions and solution patch
  [Solutions overview](../customize/solutions-overview.md)
  [Create patches to simplify solution updates](../developer/create-patches-simplify-solution-updates.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

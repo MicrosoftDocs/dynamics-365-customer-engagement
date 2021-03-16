@@ -109,3 +109,6 @@ In Connected Field Service, you should now see incoming alerts from Azure IoT Ce
 
 > [!div class="nextstepaction"]
 > [Step 2: Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,7 +53,7 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
 3.	In the **Authentication settings** field, browse and select the chat authentication record.
 
     > [!div class=mx-imgBorder]
-    > ![Add authentication to a chat widget](media/oc-chat-widget-basic-details-tab.png "Add authentication to a chat widget")
+    > ![Add authentication to a chat widget](media/chat-widget.png "Add authentication to a chat widget")
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
@@ -234,3 +234,6 @@ If you are adding an authenticated chat experience to a custom website, your web
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

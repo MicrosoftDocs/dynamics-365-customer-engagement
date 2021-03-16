@@ -4,7 +4,7 @@ description: "Learn how you can try channels in Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/20/2020
+ms.date: 02/18/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -28,8 +28,8 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
 
 ### Prerequisites
 
-- You must have an existing tenant and not sign up for creating a new trial tenant.
-- You must have an existing organizational account with the global administrator role to enable the trial. If you do not use global administrator credentials, you can join an existing trial organization with approval of the organization owner.
+- You must have an existing tenant and not sign up for creating a trial tenant.
+- You must have an existing organization account with the global administrator role to enable the trial. If you do not use global administrator credentials, you can join as an existing trial organization with approval of the organization owner.
 
 > [!NOTE]
 > To know the geographic location availability, see [International availability](international-availability.md).
@@ -45,7 +45,7 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
     > [!div class=mx-imgBorder]
     > ![Create a Customer Service trial](media/cs-trial.png "Create a Customer Service trial")
 
-4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked create your own trial.
+4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked to create your own trial.
 
 5. Select **Create your own trial**, and then select **Create New Trial**.
 6. Select **Customer service** and then select **Complete Setup**.
@@ -53,8 +53,7 @@ With this option, you can get a free 30-day trial of Omnichannel for Customer Se
     > [!NOTE]
     > A tenant can have a maximum of five trial instances. If you already have five trial instances in your tenant, you must delete one instance before creating another trial.
 
-6. If you are redirected to the applications page, select **Customer Service Hub** to open the application after it is set up.
-7. You will now be able to see the new instance in Dynamics 365 Administration Center under the **Instances** tab. The instance type will be set to Trial.
+You will now be able to see the new trial instance in Power Platform admin center, and can provision channels in your organization.
 
 ### Get a Power BI (free) subscription
 
@@ -120,3 +119,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure a chat channel](set-up-chat-widget.md)  
 [Configure an SMS channel](configure-sms-channel.md)  
 [Configure a Facebook channel](configure-facebook-channel.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -239,3 +239,5 @@ ci-dessus ne s’appliquera pas à votre égard.**
 pourriez avoir d’autres droits prévus par les lois de votre pays. Le présent
 contrat ne modifie pas les droits que vous confèrent les lois de votre pays si
 celles-ci ne le permettent pas.**
+
+

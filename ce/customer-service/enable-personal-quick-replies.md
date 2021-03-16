@@ -41,3 +41,6 @@ The settings for creating personal quick replies is made available for agents.
 
 [Create quick replies](create-quick-replies.md)  
 [Create personal quick replies](create-personal-quick-replies.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

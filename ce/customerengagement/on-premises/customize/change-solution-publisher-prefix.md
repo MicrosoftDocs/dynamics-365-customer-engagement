@@ -40,3 +40,6 @@ search.audienceType:
 4. At the bottom of the form, update the **Prefix** field to change the default value of “new” to something that identifies your organization.  
   
 5. When you change the value, make sure to tab to the next field. The **Option Value Prefix** will automatically generate a number based on the customization prefix. This number is used when you add options to option sets and provides an indicator of which solution was used to add the option.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

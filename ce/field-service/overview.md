@@ -6,7 +6,7 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.custom:
   - dyn365-fieldservice
-ms.date: 10/23/2020
+ms.date: 02/23/2021
 ms.topic: overview
  - field-service
 ms.author: daclar
@@ -94,6 +94,8 @@ Field service capabilities include:
 
 - [New York City Administration for Children’s Services (ACS)](https://customers.microsoft.com/story/new-york-city-acs-government-surface)
 
+- [Penrith City Council](https://customers.microsoft.com/story/862033-penrith-city-council-government-dynamics-365-field-service)
+
 ## Field Service roles
 
 The Field Service application provides tools for these key roles on your service team:
@@ -132,7 +134,9 @@ Work orders describe the work that a technician needs to perform at a customer l
 > ![Screenshot of completed work order](media/work-order-process-4.png)
 
 ## Watch an overview video
-In this video, see how the interactive schedule board and other tools help a service team resolve a customer's issue.
 
- <a name="heroArea"></a> [![Video showing how to manage your mobile workforce Dynamics 365 Field Service](../field-service/media/field-service-manage-mobile-workforce.PNG "Manage your mobile workforce with Dynamics 365 Field Service")](https://go.microsoft.com/fwlink/p/?LinkId=786689)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs4Cu]
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

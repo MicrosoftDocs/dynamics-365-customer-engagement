@@ -36,3 +36,6 @@ ms.author: matp
   
 3.  After you verify you can connect to the organization unit, close [!INCLUDE[pn_Active_Directory_Users_Computers](../includes/pn-active-directory-users-computers.md)], and then continue running Setup.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

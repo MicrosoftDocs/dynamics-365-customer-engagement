@@ -75,7 +75,7 @@ Customer Engagement (on-premises) provides an import tool for importing simple d
   
 -   [Download a template for data import](../admin/download-template-data-import.md)  
   
--   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
+-   [Best practices for migrating your data](https://docs.microsoft.com/dynamics/s-e/)  
   
 Customer Engagement (on-premises) also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. 
   
@@ -89,3 +89,6 @@ Customer Engagement (on-premises) also provides advanced tools for exporting to 
 - [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

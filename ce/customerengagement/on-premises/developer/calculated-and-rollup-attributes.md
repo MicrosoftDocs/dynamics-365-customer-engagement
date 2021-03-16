@@ -185,3 +185,6 @@ search.audienceType:
  [Introduction to entity attributes](introduction-entity-attributes.md)   
  [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
  [Define rollup fields](https://technet.microsoft.com/library/dn832103.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

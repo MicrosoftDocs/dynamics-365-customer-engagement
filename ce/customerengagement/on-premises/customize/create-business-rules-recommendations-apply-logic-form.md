@@ -165,3 +165,6 @@ A business rule may not execute because the field referenced in the business rul
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)   
  [Create a business process flow](../customize/create-business-process-flow.md)   
  [Create a mobile task flow](../customize/create-mobile-task-flow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

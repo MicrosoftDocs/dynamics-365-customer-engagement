@@ -173,3 +173,6 @@ following:
     booking details as well as analytic charts showing how many hours of travel
     time versus how many work hours are scheduled for this run.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ You may not reverse engineer, decompile or disassemble the software, or otherwis
 
 ### See also
 [Third Party Notices](https://go.microsoft.com/fwlink/p/?LinkId=780793)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

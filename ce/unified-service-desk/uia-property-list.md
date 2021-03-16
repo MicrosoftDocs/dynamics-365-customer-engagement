@@ -110,3 +110,6 @@ The following is a list of the UIA properties:
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

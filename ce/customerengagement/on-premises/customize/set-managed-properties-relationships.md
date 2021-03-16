@@ -20,7 +20,7 @@ tags:
 ---
 # Set managed properties for relationships
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [View and edit relationship managed properties](/power-platform/alm/managed-properties-alm#view-and-edit-relationship-managed-properties)
 
 <a name="BKMK_ManagedProperties"></a>   
 
@@ -31,3 +31,5 @@ tags:
 ### See also
 
 [Create and edit relationships between entities](create-edit-entity-relationships.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

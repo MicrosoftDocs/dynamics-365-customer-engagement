@@ -159,3 +159,6 @@ More information: [Use customer journeys to create automated campaigns](customer
 [Event planning and management](event-management.md)  
 [Set up session-level registration and waitlisting](session-level-registration.md)  
 [Set up an event](set-up-event.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

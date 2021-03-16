@@ -3,7 +3,7 @@ title: "Upgrade Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to upgrade Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -93,42 +93,19 @@ To understand what version of the Field Service solution is in your environment,
 3. If your organization is using Project Service Automation along with Field Service, it is recommended to upgrade both at the same time or soon after each other due to shared functionality.
 4. Editing out-of-the-box web resources is unsupported and can cause functional issues after upgrading. You can use [Solution Health Hub](./troubleshoot-field-service-solution-health.md) to understand if web resources have been edited.
 
-## Field Service Mobile
-
-The Field Service Mobile experience is updated independently of the Field Service app but on a similar cadence, meaning minor and major updates throughout the year. 
-
-Upgrading the mobile experience for technicians requires three steps:
-
-1. Update the Field Service Mobile app
-2. Upgrade the mobile configuration tool (Woodford) solution
-3. Upgrade the mobile project template
-
-
-> [!Note]
-> All of the steps are dependent on each other and need to be coordinated and executed together. Occasionally, only a new mobile project template is released and needs to be upgraded without the need to update the mobile app or upgrade the mobile configuration tool (Woodford) solution. In this case, **skip to step 3**.
-
-### Step 1: Update the Field Service Mobile app
-
-Technicians use the Field Service Mobile app on their phones, tablets, and Windows 10 devices. 
-
-When a new version of the mobile app is released, the app will need to be updated on each user's device. Updates can be done manually, automatically, or via Microsoft Intune.
+## Field Service (Dynamics 365) mobile app
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+> ![Simulated device showing the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-app-store2.png)
 
-As an example, downloading Field Service Mobile from the Windows Store can allow for automatic updates as new versions are released. 
+There are two steps to upgrade the Field Service (Dynamics 365) mobile app.
 
-### Step 2: Upgrade the mobile configuration tool (Woodford) solution
+**Step 1.** Upgrade Field Service (as described in the previous section). Upgrading Field Service will also upgrade the "Field Service Mobile" model-driven app. For example, upgrading to [Field Service v8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) includes an update to Field Service and the Field Service mobile app.
 
-To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](https://docs.microsoft.com/dynamics365/field-service/mobile-faq-latest-version) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
- 
+**Step 2.** After Field Service is upgraded, you must upgrade the mobile app on your mobile phone or tablet. You can do this the same way you upgrade any app on your phone or tablet, either manually or with automatic updates.
 
-### Step 3: Upgrade the mobile project template.
-
-Mobile projects hold the configurations and customizations of the mobile app. Periodically, Microsoft releases new mobile projects in conjunction with or independent of a mobile app update or a new version of the mobile configuration tool (Woodford) solution.
-
-See the article on [upgrading mobile projects](mobile-upgrade-project.md) for guidance and best practices.
-
+> [!Note]
+> **Best practice**: Turn on automatic app updates on your device. For more information, see these articles: [iOS: automatic app updates iOS](https://support.apple.com/HT202180#automatic) or [Android: automatic app updates](https://support.google.com/googleplay/answer/113412). 
 
 ## Resource Scheduling
 
@@ -177,7 +154,6 @@ First, check if a resource scheduling optimization update is available.
 From the Power Platform admin center located at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/), go to **Environments**, select your environment, and choose **Dynamics 365 apps**. In the list of solutions, it will indicate if there is an upgrade available for resource scheduling optimization.
 
 
-
 To upgrade resource scheduling optimization, in the left pane select **Resources** > **Dynamics 365 apps**, find resource scheduling optimization, and select **Manage**.
 
 > [!div class="mx-imgBorder"]
@@ -191,6 +167,41 @@ Then select **Upgrade to new version**.
 
 **Pro Tip:** By selecting **Change Organization**, you can point resource scheduling optimization at a different environment to optimize those work orders, projects, cases, etc. Doing so will initiate an upgrade. Furthermore, your resource scheduling optimization data and configurations (optimization scopes, goals, and schedules) will remain in the previous environment in case you ever want to switch it back.
 
+## Field Service Mobile (Xamarin)
+
+The Field Service Mobile experience is updated independently of the Field Service app but on a similar cadence, meaning minor and major updates throughout the year. 
+
+Upgrading the mobile experience for technicians requires three steps:
+
+1. Update the Field Service Mobile app
+2. Upgrade the mobile configuration tool (Woodford) solution
+3. Upgrade the mobile project template
+
+
+> [!Note]
+> All of the steps are dependent on each other and need to be coordinated and executed together. Occasionally, only a new mobile project template is released and needs to be upgraded without the need to update the mobile app or upgrade the mobile configuration tool (Woodford) solution. In this case, **skip to step 3**.
+
+### Step 1: Update the Field Service Mobile app
+
+Technicians use the Field Service Mobile app on their phones, tablets, and Windows 10 devices. 
+
+When a new version of the mobile app is released, the app will need to be updated on each user's device. Updates can be done manually, automatically, or via Microsoft Intune.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+
+As an example, downloading Field Service Mobile from the Windows Store can allow for automatic updates as new versions are released. 
+
+### Step 2: Upgrade the mobile configuration tool (Woodford) solution
+
+To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](https://docs.microsoft.com/dynamics365/field-service/mobile-faq-latest-version) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
+ 
+
+### Step 3: Upgrade the mobile project template.
+
+Mobile projects hold the configurations and customizations of the mobile app. Periodically, Microsoft releases new mobile projects in conjunction with or independent of a mobile app update or a new version of the mobile configuration tool (Woodford) solution.
+
+See the article on [upgrading mobile projects](mobile-upgrade-project.md) for guidance and best practices.
 
 ## Additional notes
 
@@ -211,3 +222,6 @@ Field Service mobile push notifications and geofence alerts solutions that are p
 - [Important Notes for Field Service and Project Service Automation after upgrade of Dynamics 365 Organizations to version 9.0](https://community.dynamics.com/365/b/365teamblog/posts/important-notes-for-field-service-and-project-service-automation-after-upgrade-of-dynamics-365-organizations-to-version-9-0)
 
 - [Announcing end of life for Field Service (online) legacy versions by February 2020](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/17/announcing-end-of-life-for-field-service-online-legacy-versions-by-february-2020/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

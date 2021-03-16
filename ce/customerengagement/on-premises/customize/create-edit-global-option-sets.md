@@ -124,3 +124,6 @@ In the **Options** section you can create, edit, delete, and change the order in
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md) <br/>
  [Create and edit fields](../customize/create-edit-fields.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

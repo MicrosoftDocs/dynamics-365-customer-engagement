@@ -24,3 +24,6 @@ This section provides you with information on how to customize your agent deskto
   
 ### Related Sections  
  [Panels, panel types, and panel layouts in Unified Service Desk](../unified-service-desk/panels-panel-types-panel-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

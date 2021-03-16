@@ -91,3 +91,6 @@ You can also add resources to existing selection rules.
 ### See also     
  [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)  
  [Create or change a resource group](create-edit-resource-group.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -19,7 +19,7 @@ search.app:
   - D365Mktg
 ---
 
-# Manage user accounts, licenses, and roles
+# Manage user accounts, user licenses, and security roles
 
 Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
@@ -120,7 +120,7 @@ Security roles are a concept shared by all model-driven apps in Dynamics 365. Fo
 Two features of Dynamics 365 Marketing require that users have security roles with unexpected privileges for some entities. These are:
 
 - **To go live with marketing pages, elevated privileges are required for the *website* entity**  
-    The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Dynamics 365 Portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the table and illustration following this list. This doesn't affect captured forms or forms embedded on an external site or CMS system.
+    The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Power Apps portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the table and illustration following this list. This doesn't affect captured forms or forms embedded on an external site or CMS system.
 
 - **To access assist edit, elevated privileges are required the for the *marketing email dynamic-content metadata* entity**    
     The [assist-edit feature](dynamic-email-content.md#assist-edit) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
@@ -209,3 +209,6 @@ The system uses this account when performing important internal tasks, and Marke
 [Manage teams](manage-teams.md)  
 [Add users individually or in bulk to Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
 [Assign licenses to users in Microsoft 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

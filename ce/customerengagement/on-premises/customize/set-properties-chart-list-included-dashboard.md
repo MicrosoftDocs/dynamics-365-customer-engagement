@@ -19,7 +19,7 @@ manager: "kvivek"
 ---
 # Set properties for a chart or list included in a dashboard
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Set properties for a model-driven app chart or list included in a dashboard](/powerapps/maker/model-driven-apps/set-properties-chart-list-included-dashboard)
 
 To edit a chart from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
   
@@ -67,3 +67,6 @@ You can set the following list properties from the **Set Properties** dialog box
   
 ### See also  
  [Create or customize dashboards](../customize/create-edit-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

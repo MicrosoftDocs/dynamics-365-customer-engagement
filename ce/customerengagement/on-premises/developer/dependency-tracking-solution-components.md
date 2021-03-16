@@ -192,3 +192,6 @@ Solutions are made of solution components. You'll use the **Solutions** area in 
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Solution entities](solution-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

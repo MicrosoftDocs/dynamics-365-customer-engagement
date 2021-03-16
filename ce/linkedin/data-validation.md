@@ -66,3 +66,6 @@ To ignore a proposed update of an org chart, select **Ignore Update**  in the **
 ### See also
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

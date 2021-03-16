@@ -32,3 +32,6 @@ You can customize the appearance of [!INCLUDE[pn_unified_service_desk](../includ
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

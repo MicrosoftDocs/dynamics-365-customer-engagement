@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-*
+  - D365-UI-dashboard
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Gain insights with dashboards in Dynamics 365 Sales Professional
@@ -130,3 +137,6 @@ You can use the global or visual filters to show only the data that's important 
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)<br>
 [Learn the basics](learn-basics-sales-professional.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

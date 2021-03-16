@@ -93,3 +93,6 @@ Delete all published rules in the system to disable duplicate detection globally
 [Duplicate Detection](detect-duplicate-data-for-developers.md)  
 [Running Duplicate Detection](run-duplicate-detection.md)   
 [Duplicate Rule entities](duplicaterule-entities.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

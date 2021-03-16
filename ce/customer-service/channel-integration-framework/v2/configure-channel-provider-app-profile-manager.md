@@ -1,8 +1,8 @@
 ---
 title: "Configure channel provider using app profile manager in Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
 description: "Learn how to configure a channel provider using the app profile manager."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 11/02/2020
 ms.topic: article
@@ -61,3 +61,6 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 [App profile manager](../../../app-profile-manager/overview.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

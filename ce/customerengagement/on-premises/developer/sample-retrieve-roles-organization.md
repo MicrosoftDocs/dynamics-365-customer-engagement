@@ -51,3 +51,6 @@ The `query` method retrieves all the roles that are present in an organization.
 
 This sample creates no records. No cleanup is required.
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

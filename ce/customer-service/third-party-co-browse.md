@@ -1,8 +1,8 @@
 ---
 title: "Enable third-party co-browse and screen sharing | Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 06/09/2020
 ms.topic: reference
@@ -257,3 +257,6 @@ The following are links for publishing the application to AppSource:
 ## Third-party providers responsibility and data disclaimer 
 
 Be sure to publish the privacy policy link to AppSource for security and privacy protection of the personal information that would be processed, and provide a compliant approach to data protection. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

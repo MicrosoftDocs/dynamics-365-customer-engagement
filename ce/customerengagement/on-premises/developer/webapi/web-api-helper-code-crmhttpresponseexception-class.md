@@ -160,3 +160,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
  [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Helper code: Authentication class](web-api-helper-code-authentication-class.md)   
  [Helper code: Configuration class](web-api-helper-code-configuration-classes.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

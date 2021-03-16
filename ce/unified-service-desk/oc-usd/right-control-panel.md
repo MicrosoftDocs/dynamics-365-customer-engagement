@@ -45,3 +45,6 @@ You can search for a KB article and open it as a tab on the Application tab mana
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

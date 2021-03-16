@@ -84,3 +84,6 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
  [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

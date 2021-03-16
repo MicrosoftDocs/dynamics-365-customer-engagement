@@ -1,7 +1,7 @@
 ---
 title: "Reopen leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make changes to a disqualified lead by activating it."
-ms.date: 10/01/2019
+ms.date: 02/10/2021
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -12,7 +12,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Reopen leads (Sales and Sales Hub)
+# Reopen leads (Sales Hub)
 
 Great news! A lead that you thought wasn't interested has contacted you, and it looks like the person will buy after all. Assuming that you disqualified the lead (instead of deleting it), you'll be able to reopen it without reentering all the information you already gathered.  
   
@@ -29,3 +29,6 @@ Great news! A lead that you thought wasn't interested has contacted you, and it 
 ### See also  
  [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md)   
  [What if you're no longer working a lead?](../sales-enterprise/no-longer-working-lead-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,7 +23,7 @@ search.audienceType:
 
 # OData v4 Data Provider configuration, requirements, and best practices
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [OData v4 Data Provider configuration](/powerapps/maker/data-platform/virtual-entity-odata-provider-requirements)
 
 This topic describes how to configure the OData v4 data provider as well as the requirements and recommended best practices for using the OData v4 data provider to connect with an OData v4 web service. 
 
@@ -103,3 +103,6 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
 [Create and edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md) <br/>
 [TechNet Blog: Interact with data from external systems using the new virtual entities](https://blogs.technet.microsoft.com/lystavlen/2017/09/08/virtual-entities/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -114,3 +114,5 @@ For more information, see the article on [customizing entity forms](https://docs
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

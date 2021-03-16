@@ -123,3 +123,6 @@ The following operating systems are supported for offline mode.
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/kb/3124955)   
  [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/kb/3018360)   
  [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/kb/3005167)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

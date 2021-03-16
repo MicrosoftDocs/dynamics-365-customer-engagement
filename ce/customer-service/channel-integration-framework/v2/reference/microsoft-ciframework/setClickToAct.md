@@ -1,8 +1,8 @@
 ---
 title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -20,3 +20,6 @@ applies_to:
 [!INCLUDE[setClickToAct](includes/setClickToAct-description.md)]
 
 [!INCLUDE[token-setClickToAct.md](../../../shared/token-setClickToAct.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ When you're done choosing contacts for your static segment, you will see all of 
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

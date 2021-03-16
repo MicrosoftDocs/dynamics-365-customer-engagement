@@ -1,10 +1,10 @@
 ---
 title: "Configure email | Microsoft Docs"
-description: "Learn how to configure email."
-author: lerobbin
-ms.author: lerobbin
+description: "Learn how to configure email in customer engagement apps."
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -12,15 +12,17 @@ ms.reviewer: lalexms
 
 # Configure email
 
-This experience gives system administrators the ability to configure email templates and enable quick access to email to help users create emails  directly from the timeline so they can deliver a more personalized service.	
+Email is a critical communication tool for agents to connect with customers during the support delivery lifecycle. Regardless of the channel where the customer begins a conversation, agents often use email to send confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle. Email is almost always used as a communication channel between customers and agents throughout the lifecycle of support delivery.  
+
+In customer engagement apps, system administrators have the ability to configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	
 
 How to navigate email configurations	
-- [How to configure the email form order](customer-service-hub-user-guide-email-admin.md#how-to-configure-the-email-form-order)	
-- [How to enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#how-to-enable-the-enhanced-email-experience)	
-- [How to configure email attachments size limitations](customer-service-hub-user-guide-email-admin.md#how-to-configure-email-attachment-size-limitations)	
+- [Configure the email form order](customer-service-hub-user-guide-email-admin.md#configure-the-email-form-order)	
+- [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#enable-the-enhanced-email-experience)	
+- [Configure email attachments size limitations](customer-service-hub-user-guide-email-admin.md#configure-email-attachment-size-limitations)	
 
 
-## How to configure the email form order	
+## Configure the email form order	
 Email must be enabled for users so they can view and access it. Unless email is enabled, it won't be available as an option on the command bar.	
 
 To enable email:
@@ -54,7 +56,7 @@ To enable email:
 
     ![Select Publish All Customizations](media\email-how-to-enable-email-5az.png "Select Publish All Customizations.")	
 
-## How to enable the enhanced email experience	
+## Enable the enhanced email experience	
 Enhanced email is the default setting, but you must enable email for users to access and use the feature. 
 
 Sign in to https://<YourOrgURL>.dynamics.com/apps and open a customer engagement app. In the app:	
@@ -73,7 +75,7 @@ Sign in to https://<YourOrgURL>.dynamics.com/apps and open a customer engagement
 
 6.	Select **OK** to save your global organizational setting and close.	
 
-## How to configure email attachment size limitations
+## Configure email attachment size limitations
 
 You can manage file size limits for emails file attachments. 
 
@@ -89,6 +91,14 @@ To manage email attachment size limitations, use the following steps:
 > The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file. 	
 
 
-### See Also	
+### See Also
 
+[Use email](customer-service-hub-user-guide-email-overview.md)<br>
+[Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
+[Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
+[Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
+[Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
 [Email FAQs](email-faqs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

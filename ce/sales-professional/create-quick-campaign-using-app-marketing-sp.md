@@ -10,6 +10,14 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-list
+  - D365-Entity-campaign
+  - D365-Entity-bulkoperation
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create a quick campaign using in-app marketing (Sales Professional)
@@ -40,3 +48,6 @@ If you need to perform more than one activity for your campaign, such as an emai
   
 ### See also  
 [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

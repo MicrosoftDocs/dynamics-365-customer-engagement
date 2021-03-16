@@ -99,3 +99,6 @@ To know more about how users use this option, see [Submit ratings and feedback f
 ### See also  
 
  [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -244,3 +244,6 @@ Even if multiple entitlements apply and 1 is chosen by default, the user can man
 
 - Entitlement application and price adjustment only happen online. If a work order product or work order service is created or edited when offline, the entitlement logic will only apply once that record syncs to the server.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

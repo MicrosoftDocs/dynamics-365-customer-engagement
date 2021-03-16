@@ -3,7 +3,7 @@ title: "Connected Field Service on Field Service (Dynamics 365) mobile app | Mic
 description: Learn how to access Connected Field Service from the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/01/2020
+ms.date: 01/19/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -53,7 +53,11 @@ Summary tiles show an overview of recent IoT activity related to the asset.
 
 Next, go to the **Device Readings** section to see the most recent IoT measurements plotted on a graph.
 
-Summary tiles and device readings are only visible after an asset is related to a connected device. Otherwise, this information is displayed on the IoT device.
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image of a mobile phone, showing live device readings](./media/cfs-device-readings-mobile.png)
+
+Summary tiles and device readings are only visible after an asset is related to a connected device. Otherwise, this information is displayed on the IoT device or IoT alert.
 
 ## Register new IoT Devices
 
@@ -64,6 +68,13 @@ During asset installations, technicians may want to connect new IoT devices to A
 
 This will create the IoT device in Azure IoT.
 
+1.  On your mobile device, open the mobile app.
+
+2.  Tap **Customer Assets**, and then tap the **Add** button.
+
+3.  Fill in the asset information and, then tap **Register Device**.
+
+
 ## Troubleshoot by sending commands
 
 After an administrator has configured commands in Azure IoT, technicians can run the commands from the Field Service (Dynamics 365) mobile app.
@@ -71,3 +82,6 @@ After an administrator has configured commands in Azure IoT, technicians can run
 Common commands include restart and shutdown, among other custom commands that are device-specific.
 
 From the IoT device record, go to **More ...** > **Send command** then choose a specific command.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ The push notifications will be shown to the technician using the mobile phone. F
 - For more information, see the [Power Apps mobile push notification documentation](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification).
 - These notifications work with the [Power Apps mobile app](https://powerapps.microsoft.com/blog/announcing-the-public-preview-of-new-power-apps-mobile-app-that-runs-both-canvas-and-model-driven-apps/) that runs both canvas and model-driven apps.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

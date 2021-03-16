@@ -55,3 +55,5 @@ Find the Microsoft Dynamics 365 Marketing public IP addresses used for sending e
 ### See also
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

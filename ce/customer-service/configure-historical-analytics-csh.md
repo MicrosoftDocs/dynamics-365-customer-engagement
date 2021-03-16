@@ -72,3 +72,6 @@ You can see the following reports by navigating to the **Service** > **Analytics
 [Knowledge search analytics](knowledge-search-analytics-cs.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

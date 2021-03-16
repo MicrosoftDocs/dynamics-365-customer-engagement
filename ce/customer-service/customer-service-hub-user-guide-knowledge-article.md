@@ -1,10 +1,10 @@
 ---
-title: Understanding Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -22,7 +22,7 @@ search.app:
 
 Reduce call handling times with knowledge articles in the Customer Service Hub application.
   
-With the new knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
+With the knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of Knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content or embed videos and images.  
   
@@ -128,7 +128,7 @@ The **Content** editor panel consists of three tabs:
 
 Additionally, you can perform **Undo**, **Redo**, and **Full Screen** in the Content editor panel. 
   
-**Designer**
+### Designer
 
 You can choose a specific format or style for the content you’re writing. The following table outlines the different formatting options of the rich text editor.
 
@@ -137,7 +137,7 @@ You can choose a specific format or style for the content you’re writing. The 
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
+|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
 |![Styles](../customer-service/media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note**: This option is available in the expanded mode only.
 |![Paragraph Format](../customer-service/media/paragraph-format.png "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only. |
 |![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
@@ -160,7 +160,7 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
 |![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
 |![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
-|![Image](../customer-service/media/insert-picture.png "Image") | Image | | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF.<br /><br />To insert an image inline in your article:<ol><li>Drag and drop the image or or copy and paste it directly into the article.</li><li>Drag any corner of the image to resize it.</li></ol><br /><br />To insert an image using a URL or navigating to the local image:<ol><li>Choose Insert Image.</li><li>In the **Image** property dialog, choose from the following options:</li></ol><ul><li>Specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>Select **Browse** to navigate to the image on your computer.</li></ul>|
+|![Image](../customer-service/media/insert-picture.png "Image") | Image | | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF. For details on using inline images, see [Use inline images](#use-inline-images).|
 |![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
 |![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
 |![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
@@ -177,15 +177,56 @@ You can choose a specific format or style for the content you’re writing. The 
 > 
 > [!NOTE]
 > In mobile devices, where you have comparatively smaller screen sizes, limited set of formatting options will be displayed.
+
+#### Use inline images
+
+You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. 
+
+Before using inline images, keep in mind the following: 
+
+- The following formats are supported: .PNG, .JPG., or .GIF
+- The following browsers are supported: Microsoft Edge, Chrome, Firefox, Safari
+
+
+**Drag and drop an image**
+
+> [!Note]
+> You can only drag and drop an image in an editable area of the editor.
+
+1. Drag and drop the image either on top of the content or in the middle of the content in the editor.
+
+2. Drag any corner of the image to resize it to your desired size in the editor.
+
+**Copy and paste an image**
+
+> [!Note]
+> To copy and paste images, you must open the image file and then copy and paste it into the editor. <br>You can drag and drop or copy and paste an image from Microsoft Word into the editor. One or two images can be copied at a time, as long as the total size of the images together doesn't exceed 5 MB.
+
+1. Open the image file that you want to copy to the editor.
+
+2. Right-click the image, then select **Copy**.
+
+3. Go to the desired location in the editor where you want to insert the image, and then either right-click and select **Paste**, or select press **Ctrl+V**.
+
+**Insert a URL for an image**
+
+To insert an image by using a URL or navigating to the local image:
+
+1. In the editor, choose **Insert Image**.
+2. In the **Image** property dialog, choose from the following options:
+   - Specify the web address of the image, and also specify properties to define how the image will appear in the email or article.
+   **Note:** If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.
+   - Select **Browse** to navigate to the image on your computer.
+
   
-**HTML**
+### HTML
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
 
 ![HTML panel](media/html-panel.png "HTML pane in content editor for knowledge article")
 
 
-**Preview**
+### Preview
 
 You can preview the content to view its compatibility on multiple devices, like Tablets, or Phones.
 
@@ -193,6 +234,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 
 > [!NOTE]
 > This is an indicative preview. Content rendered can be different in the actual device or screen.
+
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
@@ -433,7 +475,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
    > [!NOTE]
-   > Rating and Views are tracked using roll up, which gets updated based on a System job periodically. 
+   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
 - **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
@@ -571,3 +613,6 @@ Now, when you perform a create or update operation, the workflow process will tr
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 
 [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

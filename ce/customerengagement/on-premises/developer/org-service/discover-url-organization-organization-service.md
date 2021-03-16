@@ -48,3 +48,6 @@ Alternatively, you can add the service references for the URLs described previou
  [Download endpoints using Developer resources page](../developer-resources-page.md)<br />
  [Access the Web Services in Dynamics 365 Customer Engagement](../authenticate-users.md)<br />
  [Quick Start: A Simple Program](../simple-program-web-services.md)<br />
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

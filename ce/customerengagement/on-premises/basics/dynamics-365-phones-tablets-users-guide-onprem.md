@@ -23,7 +23,7 @@ search.app:
   - D365Sales
 ---
 
-# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps.
+# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps
 
 
 Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run Dynamics 365 Customer Engagement (on-premises) apps when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. 
@@ -304,3 +304,6 @@ The assistant draws your attention to your most important items and tasks, drawn
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

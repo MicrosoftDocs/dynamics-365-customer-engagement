@@ -3,7 +3,7 @@ title: "Configure offline data for the Field Service (Dynamics 365) mobile app |
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/13/2021
+ms.date: 01/27/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -164,9 +164,13 @@ While we recommend making changes directly to the default offline profile to rec
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: ``` Xrm.WebApi.online```.
+- [More platform supported capabilities and limitations for offline](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities)
 
 
 ### See also
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

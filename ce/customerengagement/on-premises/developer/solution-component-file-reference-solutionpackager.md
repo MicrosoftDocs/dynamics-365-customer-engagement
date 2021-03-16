@@ -420,3 +420,6 @@ Structurexml.xml
  [Solution Tools for Team Development](solution-tools-team-development.md)   
  [Use the SolutionPackager Tool to Compress and Extract a Solution File](compress-extract-solution-file-solutionpackager.md)   
  [Programming Reference for Dynamics 365 Customer Engagement (on-premises)](programming-reference.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

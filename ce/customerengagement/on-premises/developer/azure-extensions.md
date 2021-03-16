@@ -56,3 +56,6 @@ search.audienceType:
  [Microsoft Azure Platform Developer Center](https://msdn.microsoft.com/azure/default.aspx)  
   
  [Microsoft Azure Service Bus](https://www.windowsazure.com/develop/net/fundamentals/hybrid-solutions/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

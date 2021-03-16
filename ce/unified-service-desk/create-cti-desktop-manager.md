@@ -150,3 +150,6 @@ public override void OnCallStateChanged(CtiCoreEventArgs e)
  [Create a CTI Control](../unified-service-desk/create-cti-control.md)   
  [Walkthrough: Use CTI Desktop Manager ro create a CTI adapter](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

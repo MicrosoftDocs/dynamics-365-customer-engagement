@@ -50,3 +50,6 @@ This documentation applies to customers who access Dynamics 365 Customer Engagem
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Active Directory Federation Services](https://msdn.microsoft.com/library/bb897402.aspx)   
  [Access Control Service 2.0](https://msdn.microsoft.com/library/hh147631.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

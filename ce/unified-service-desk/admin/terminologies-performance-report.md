@@ -55,3 +55,6 @@ When you view the performance report, you may come across certain terminologies.
 [Overview of performance report user interface](overview-performance-report-user-interface.md)
 
 [Categories and operations](operations-categories.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

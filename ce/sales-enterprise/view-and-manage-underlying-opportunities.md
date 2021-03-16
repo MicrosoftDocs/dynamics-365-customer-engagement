@@ -96,7 +96,7 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 3.	Select **Show as Kanban**. 
 
-    The table view changes into a kanban view. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
+    The table view changes into a kanban view and the order of columns is displayed based on the order that is defined in the option set in the application. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
 
     > [!div class="mx-imgBorder"]
     > ![View forecast underlying opportunities in kanban](media/forecast-view-underlying-opportunities-kanban.png "View forecast underlying opportunities in a kanban view")
@@ -115,3 +115,6 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View a forecast](view-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

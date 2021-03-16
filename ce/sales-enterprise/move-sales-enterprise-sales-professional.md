@@ -85,3 +85,6 @@ After you complete these steps, your organization will be effectively moved to [
 ### See also
 
 [Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,14 +50,17 @@ To re-run the Marketing setup wizard:
 
 1. The Marketing setup wizard opens.  It shows the name of the Dynamics 365 Marketing instance you selected.
 
-    ![Setup wizard running on an existing Marketing instance](media/fre-re-run2.png "Setup wizard running on an existing Marketing instance")
+    ![Setup wizard running on an existing Marketing instance](media/fre-re-run3.png "Setup wizard running on an existing Marketing instance")
 
     If an update is available, then you'll see a notice and an **Install** button at the top of the page. More information: [Keep Marketing up to date](apply-updates.md)
 
     The following links can be available in the **Other actions** panel:
 
-    - **Configure your portal**: This link is only shown if you have a Dynamics 365 Portal integrated with your selected Marketing instance. Select this link to go to the portal configuration where you can, among other things, restart the portal or remove it from your Marketing instance. More information: [Administer your portal](../portals/manage-portal.md)
+    - **Configure your portal**: This link is only shown if you have a Power Apps portal integrated with your selected Marketing instance. Select this link to go to the portal configuration where you can, among other things, restart the portal or remove it from your Marketing instance. More information: [Administer your portal](../portals/manage-portal.md)
     - **Take me to the app**: Brings you to Dynamics 365 Marketing.
     - **Uninstall Marketing from this org**: Removes Marketing from the selected instance. More information: [Uninstall Marketing](uninstall-marketing.md)
 
-    If your selected Marketing instance isn't currently integrated with a Dynamics 365 Portal, then you can set this up by selecting **Use Dynamics 365 Portals** in the main area of the window. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+    If your selected Marketing instance isn't currently integrated with a Power Apps portal, then you can set this up by selecting **Use Dynamics 365 Portals or a Power Apps portal** in the main area of the window. More information: [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

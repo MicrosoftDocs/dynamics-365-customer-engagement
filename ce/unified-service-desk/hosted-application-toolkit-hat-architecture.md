@@ -48,3 +48,6 @@ This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit
  [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [Work with HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)   
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

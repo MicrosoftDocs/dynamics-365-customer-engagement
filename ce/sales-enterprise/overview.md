@@ -1,5 +1,5 @@
 ---
-title: "Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Dynamics 365 Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
 ms.date: 07/16/2020
 ms.service: dynamics-365-sales
@@ -18,7 +18,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. It also lets you create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities.     
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
-## Available anywhere, on any device
+## Different sales solutions for different size of businesses
 
 Here are the multiple sales solutions that fit every type and size of business: 
 
@@ -100,4 +100,7 @@ Integrate Dynamics 365 Sales with helps to digitally transformation your busines
 
 ### See also
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
-[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)  
+[User Guide](../sales-enterprise/user-guide.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

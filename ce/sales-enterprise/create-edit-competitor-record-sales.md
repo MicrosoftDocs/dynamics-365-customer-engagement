@@ -1,7 +1,7 @@
 ---
 title: "Create or edit competitor records (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Track your competitors and their strengths to win sales against them."
-ms.date: 04/12/2019
+ms.date: 02/10/2021
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
@@ -20,11 +20,9 @@ searchScope:
   - Sales
 ---
 
-# Create or edit competitor records (Sales and Sales Hub)
+# Create or edit competitor records (Sales Hub)
 
 Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
-
-## Create a competitor (Sales Hub)
 
 1.	In the site map, under **Sales**, select **Competitors**.
 
@@ -38,20 +36,9 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 6. To associate a competitor with a product, select the **Related** tab, and then select **Products**. Select **Add Existing Product** and use the Lookup icon to select a product.
 
-
-## Create a competitor (Sales)
-
-1. [!INCLUDE[proc_sales_competitors](../includes/proc-sales-competitors.md)]  
-  
-2. Select **New**.  
-  
-3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-4. Select **Save**.  
-  
-5. To associate a competitor with an opportunity, in the **Opportunity** area, choose ![Add button](../sales-enterprise/media/add-button.PNG "Add button"). In the **Search** box, choose the Lookup icon, and then select an opportunity from the results.  
-
-
 ### See also  
 
 [Help resources for Dynamics 365 Sales](help-hub.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

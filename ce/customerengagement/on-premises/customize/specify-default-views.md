@@ -40,3 +40,6 @@ Unless someone has ‘pinned’ a different view in your app as their personal d
 
 ### See also
 [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

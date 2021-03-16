@@ -7,7 +7,7 @@
 ## Installation and environment management
 ### [Sign up for a free trial](trial-signup.md)
 ### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+### [Integrate Marketing with a CMS system or Power Apps portals](portal-optional.md)
 ### [Open the Power Platform admin center](power-platform-admin-center.md)
 ### [Re-run the Marketing setup wizard](re-run-setup.md)
 ### [Manage Marketing environments](manage-marketing-environments.md)
@@ -53,6 +53,7 @@
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
+#### [Trial quota limits](trial-preview-limits.md)
 #### [Feature switches](admin-feature-switches.md)
 #### [Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
@@ -61,7 +62,9 @@
 #### [Email bounce categories](email-bounce-categories.md)
 #### [Create an SPF TXT record](create-spf-record.md)
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
+#### [Warm up an IP or domain](email-warm-up.md)
 #### [Email policies and suspension standards](email-policies.md)
+#### [Deliverability recommendations when changing ESPs](deliverability-change-esp.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email troubleshooting](email-troubleshooting.md)
 
@@ -126,6 +129,7 @@
 #### [Check your spam score](spam-checker.md)
 #### [Design and run A/B tests on your email designs](email-a-b-testing.md)
 #### [Disable auto-adjustment of HTML](email-postprocessing.md)
+#### [Troubleshoot + FAQs](email-troubleshoot.md)
 
 ### Marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
@@ -211,7 +215,7 @@
 ### Performance analytics
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
-#### [Preview: Prepare for analytic reporting with Power BI](custom-analytics.md)
+#### [Prepare for analytic reporting with Power BI](custom-analytics.md)
 
 #### Power BI report and template gallery
 ##### [Download and use templates for Power BI](marketing-analytics/analytics-gallery-start.md)
@@ -243,7 +247,7 @@
 #### Self-hosted
 ##### [Overview](developer/self-hosted.md)
 ##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
-#### Dynamics 365 Portal hosted
+#### Power Apps portal hosted
 ##### [Overview](developer/portal-hosted.md)
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
 #### Events API
@@ -258,7 +262,6 @@
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)
-### [API-generated calendar invites for events and sessions](developer/personalized-calendar-content.md)
 ### [Work with segments using code](developer/extend-segments.md)
 ### [Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys](developer/customer-voice-populate-name.md)
 ### [Entity mapping with custom workflows](entity-mapping.md)
@@ -277,3 +280,5 @@
 ### [Partner Sales and Marketing](learning-sales.md)
 
 ## [Troubleshoot with Solution Health Hub](troubleshoot-marketing-solution-health.md)
+
+## [General FAQs](troubleshoot-faq.md)

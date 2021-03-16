@@ -1311,3 +1311,5 @@ See workflow Entity [process_processstage](workflow.md#BKMK_process_processstage
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.processstage?text=processstage EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

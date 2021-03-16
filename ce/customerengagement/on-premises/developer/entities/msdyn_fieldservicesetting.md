@@ -2699,3 +2699,5 @@ See product Entity [msdyn_product_msdyn_fieldservicesetting](product.md#BKMK_msd
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_fieldservicesetting?text=msdyn_fieldservicesetting EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

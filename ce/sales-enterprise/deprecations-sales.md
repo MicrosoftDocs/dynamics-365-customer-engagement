@@ -54,3 +54,5 @@ It is our goal to deliver a powerful bot experience that allows users to retriev
 | Product areas affected | Application |
 | Deployment option | All |
 | Status | Removed: By October 15, 2020 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

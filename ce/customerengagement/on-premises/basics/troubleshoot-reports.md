@@ -39,3 +39,6 @@ There are several possible reasons why data that you expect to be in a report do
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

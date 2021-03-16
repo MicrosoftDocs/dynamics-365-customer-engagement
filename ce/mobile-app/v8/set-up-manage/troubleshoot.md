@@ -379,3 +379,6 @@ The following are some suggested details to provide:
 
 -   What type of device (ex. iPad 4th Generation, Microsoft Surface, etc…) are you using and what is the version of the operating system (ex. iOS 6.0, Windows 8, etc…)?
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

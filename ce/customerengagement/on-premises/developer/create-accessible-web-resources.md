@@ -91,3 +91,6 @@ When you include web resources that provide user interface elements in your solu
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

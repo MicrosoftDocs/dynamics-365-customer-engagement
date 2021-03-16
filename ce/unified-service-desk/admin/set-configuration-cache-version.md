@@ -97,3 +97,6 @@ For example, for a user called agent1 running the Unified Service Desk client ap
 [Configure client caching in Unified Service Desk](configure-client-caching-unified-service-desk.md)
 
 [Manage access using Unified Service Desk configuration](manage-access-using-unified-service-desk-configuration.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

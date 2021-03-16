@@ -357,3 +357,6 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
     "ValidationResult": "[{\"ErrorCode\":\"SegmentDciValidator_SegmentInvalid\",\"FieldName\":\"msdyncrm_query\"}]"
 }
 ```
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

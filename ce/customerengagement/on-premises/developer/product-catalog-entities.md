@@ -121,3 +121,6 @@ A product catalog is a collection of products with their pricing information. Th
 
  [Video: Product Taxonomy Administration in Microsoft Dynamic CRM 2015](https://youtu.be/OnjdSUjulVw)   
  [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](https://youtu.be/MptViq7tf_s)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

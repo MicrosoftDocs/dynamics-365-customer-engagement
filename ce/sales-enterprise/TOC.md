@@ -62,7 +62,7 @@
 #### [Clone products](../sales-enterprise/clone-product.md)  
 #### [Retire products](../sales-enterprise/retire-product.md)
 #### [Delete a family, product, or bundle](../sales-enterprise/delete-family-product-bundle.md)
-#### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
+#### [See relationships in a hierarchical view](/powerapps/maker/data-platform/visualize-hierarchical-data)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
 #### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
@@ -93,7 +93,7 @@
 #### [Configure forecasts in your organization](configure-forecast.md)
 #### [Select a template](select-template-forecast.md)
 #### [Define general properties and scheduling](define-general-properties-scheduling-forecast.md)
-#### [Provide viewing permissions](provide-permissions-forecast.md)
+#### [Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 #### [Choose layout and columns](choose-layout-and-columns-forecast.md)
 #### [Apply additional filter](add-additional-filters.md)
 #### [Configure and manage drill-down entities](configure-manage-drill-downs.md)
@@ -117,6 +117,11 @@
 #### Playbook management
 ##### [Define playbook categories](define-playbook-categories.md)  
 ##### [Manage playbook templates](manage-playbook-templates.md) 
+
+### Integrate LinkedIn Sales Insights
+#### [Install or delete LinkedIn Sales Insights solution](install-lsi-solution.md)     
+
+### [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
 ### Reporting
 #### PowerBI Templates

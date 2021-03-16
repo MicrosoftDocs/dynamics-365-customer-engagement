@@ -1,8 +1,8 @@
 ---
 title: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app) | MicrosoftDocs"
 description: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app)."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: v-sailab
+ms.author: v-sailab
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -28,3 +28,6 @@ To learn more, see:
 ## See also
 
 [Modes and locations for the communication widget](modes-communication-widget.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

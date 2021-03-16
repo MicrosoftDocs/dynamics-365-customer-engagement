@@ -22,3 +22,6 @@ search.audienceType:
 # Getting started
 
 As a Dynamics 365 Customer Engagement (on-premises) administrator, you’ll find the information that you need here to get your organization started with Customer Engagement (on-premises).  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

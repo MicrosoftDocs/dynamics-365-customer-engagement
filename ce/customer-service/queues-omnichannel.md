@@ -74,3 +74,6 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 [Understand and create work streams](work-streams-introduction.md)  
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)  
 [Create operating hours](create-operating-hours.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,6 +8,13 @@ ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-*
+  - D365-UI-Dashboard
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Understand the sales pipeline chart and its phases
@@ -35,3 +42,5 @@ The label for the pipeline phase of an opportunity consists of the category orde
 
 [Gain insights with dashboards in Dynamics 365 Sales](dashboards.md)  
 [Troubleshooting sales pipeline chart and its phases](ts-sales-pipeline.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

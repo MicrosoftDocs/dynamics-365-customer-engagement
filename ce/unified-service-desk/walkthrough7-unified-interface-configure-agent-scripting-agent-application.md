@@ -459,3 +459,6 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)
 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

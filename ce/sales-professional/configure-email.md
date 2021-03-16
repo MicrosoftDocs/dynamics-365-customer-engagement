@@ -88,3 +88,6 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

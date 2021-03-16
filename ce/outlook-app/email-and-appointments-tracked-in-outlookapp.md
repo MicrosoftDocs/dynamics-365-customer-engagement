@@ -37,3 +37,6 @@ Enabling this setting will hide the option to track an email/appointment without
  > - This OrgDBOrgSetting does not apply to tracking contacts through Dynamics 365 App for Outlook.
  > - This is an existing OrgDBOrgSetting which only applied to Dynamics 365 for Outlook and it will not apply to App for Outlook as well.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

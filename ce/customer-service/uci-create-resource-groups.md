@@ -1,6 +1,6 @@
 ---
 title: Create resource groups | Microsoft Docs
-description: How to create resource groups in UCI-based Scheduling Service for Dynamics 365 Customer Service.
+description: How to create resource groups in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -73,7 +73,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
    
 ### See also  
 
-[UCI-based service scheduling overview](uci-scheduling-overview.md)
+[Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 
 [Create or edit a service](uci-create-edit-service.md)
 
@@ -84,3 +84,6 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 [Use sites to manage your service locations](uci-create-sites.md)
 
 [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

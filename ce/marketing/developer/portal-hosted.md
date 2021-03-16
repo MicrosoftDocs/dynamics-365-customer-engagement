@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 Portal hosted custom event website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+title: "Power Apps portal hosted custom event website (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality for Portal hosted event websites in Dynamics 365 Marketing."
 ms.date: 09/16/2020
 ms.service: dynamics-365-marketing
@@ -16,13 +16,13 @@ search.app:
   - D365Mktg
 ---
 
-# Dynamics 365 Portal hosted
+# Power Apps portal hosted
 
-Before you start hosting a custom event website, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event website comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
+Before you start hosting a custom event website, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event website comes as a Power Apps portal hosted web application when you install the Event Management solution.
 
-The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal [web files](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Dynamics 365 Portal [web template](https://docs.microsoft.com/dynamics365/customer-engagement/portals/store-content-web-templates).
+The frontend part of the application is bundled into two resource files that are stored as Power Apps portal [web files](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Power Apps portal [web template](https://docs.microsoft.com/dynamics365/customer-engagement/portals/store-content-web-templates).
 
-Although the frontend definition is hosted on Dynamics 365 Portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Dynamics 365 Portal as a set of [web pages](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
+Although the frontend definition is hosted on Power Apps portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Power Apps portal as a set of [web pages](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
 
 > [!div class="mx-imgBorder"]
 > ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
@@ -83,7 +83,7 @@ To make your customizations visible in the event website, update the web files i
 
 ### Automatic Deployment
 
-To deploy the customized Angular application, run the **PowerShell** script `DeployToDynamics365Instance.ps1` located under the **Scripts** directory. The script builds the application, prepares the output files suitable for hosting under the Dynamics 365 Portal instance. It takes the localization files from the `Localization` folder and prepares them for hosting.
+To deploy the customized Angular application, run the **PowerShell** script `DeployToDynamics365Instance.ps1` located under the **Scripts** directory. The script builds the application, prepares the output files suitable for hosting under the Power Apps portal instance. It takes the localization files from the `Localization` folder and prepares them for hosting.
 
 After all the files are built, it asks you to sign in to your Dynamics 365 Marketing instance that you want to use to host your application. After you sign in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
 
@@ -117,3 +117,6 @@ If you want to overwrite the sample website to match the version of event manage
 
 [Localization](event-portal-localization.md)<br />
 [Build and host custom event website](event-management-web-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

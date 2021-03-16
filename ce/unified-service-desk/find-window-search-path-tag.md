@@ -107,3 +107,6 @@ The following sample searches for the second application with the caption Curren
 ### See also  
  [JavaDDA](../unified-service-desk/javadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

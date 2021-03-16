@@ -134,3 +134,6 @@ If you're an administrator, you can also set system settings that affect all use
 |                                                   Help Language                                                    | Select the language for Help. To add an additional language other than the base language, your admin must install the required language packs and enable them.  Talk to your administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 Customer Engagement (on-premises) administrator or support person](../basics/find-administrator-support.md) |
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
