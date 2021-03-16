@@ -62,8 +62,9 @@ Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rule
    ![Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)")  
   
 > [!NOTE]
->  The fields that show in the merge dialog come from the default form for the entity. There are two situations where fields from that form will still not show:  
+>  The fields that show in the merge dialog come from the default form for the entity. There are three situations where fields from that form will still not show:  
 > 
+> - When a neither records being merged have data for the field.
 > - When a user does not have access to the field due to Field Level Security.
 > - When a field is not visible (this can be due to either the cell or the section not being visible by default).
 >   
