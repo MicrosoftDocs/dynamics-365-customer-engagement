@@ -229,6 +229,39 @@ To add the **Up next** widget to an entity form, follow these steps:
 17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
+**How to add work list site map to your custom app**    
+>[!NOTE]
+>Enable sales insights in your organization before you add the site map to your custom app.     
+
+To add the work list site map to your custom app, follow these steps:   
+
+1. Open your custom app in the app designer. In the following example, the custom app **Sales SandBox** is opened.   
+    > [!div class="mx-imgBorder"]
+    > ![Open app designer](media/faq-sa-open-app-designer.png "Open app designer")     
+2. Open the site map designer. Select the pencil icon corresponding to the **Site Map** section.     
+    > [!div class="mx-imgBorder"]
+    > ![Open site map designer](media/faq-sa-open-site-map-designer.png "Open site map designer")     
+3. Select the area in which you want to add the work list entry and then select **+ Add** > **Subarea**.    
+    > [!div class="mx-imgBorder"]
+    > ![Add subarea to an area](media/faq-sa-select-sub-area.png "Add subarea to an area")      
+    In the following example, subarea entry is added to the **Sales** area under **Sales records**.     
+    > [!div class="mx-imgBorder"]
+    > ![Subarea entry is added](media/faq-sa-subarea-entry-added.png "Subarea entry is added")      
+4. Select **New Subarea** and go to the **Properties** tab.
+    > [!div class="mx-imgBorder"]
+    > ![Subarea properties tab](media/faq-sa-subarea-properties.png "Subarea properties tab")       
+5. In the subarea properties, enter the following values:     
+    - Choose **Type** as **URL**.
+    - Enter the **URL** value as `/main.aspx?pagetype=control&controlName=MscrmControls.AcceleratedSales.AnchorShellControl`.
+    - Enter the **Title (1033)** for the entry. For example, **Sales accelerator**.
+    - Select the **Icon** to use in the sitemap. For example, use default icon **salesacceleration.svg**. 
+    - Enter the **ID** field enter a unique ID value. For example, **SalesAccelerationInstance**.    
+        > [!div class="mx-imgBorder"]
+        > ![Subarea properties tab with values](media/faq-sa-subarea-properties-values.png "Subarea properties tab with values")       
+6. (Optional) To show or hide the section only to enabled users, go to **Advanced** and then select **Privileges**. In the **Entity** dropdown list, select **Work Queue record**.     
+7. Save and publish the sitemap.
+    The work list site map entry is added to your custom app.
+
 ## Relationship analytics and health   
 **What do I need in order to use Relationship analytics?​**<br>
 Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​    
@@ -301,7 +334,7 @@ To build a connection graph in who knows whom, Microsoft 365 Exchange is require
 - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
 
-More information: [Datacenter locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
+More information: [Data center locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
 
 Also, server-side sync is required for email introduction requests. ​
 
@@ -371,3 +404,6 @@ No. The call recordings are deleted as soon as the audio file is processed​.
 
 [Overview](overview.md)  
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

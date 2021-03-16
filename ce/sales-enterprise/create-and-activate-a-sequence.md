@@ -35,21 +35,28 @@ Every organization has its own selling processes for sellers to follow. A sequen
     - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template, if one was selected. If no template was selected, an empty email composer opens.  
        > [!div class="mx-imgBorder"]
        > ![Add an email activity](media/sequence-activity-add-email.png "Add an email activity")    
+
        Enter the following information to configure the email activity, and then select **Save**:   
        1. A name and description for the activity. The information you enter here will be displayed to sellers.   
        2. If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step.   
 
           > [!div class="mx-imgBorder"]
           > ![Example email activity](media/sequence-activity-email-created.png "Example email activity")   
+
+        You can define conditions for email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).      
     - **Phone call**: Creates a phone call activity for sellers to communicate with customers. When this activity is shown to the seller, a phone icon is displayed on the record. When sellers select the icon, a softphone appears on the app to dial the customer.    
         > [!div class="mx-imgBorder"]
         > ![Add a phone call activity](media/sequence-activity-add-phone-call.png "Add a phone call activity")    
+
         Enter a name and description for the phone call activity, and then select **Save**. The information you enter here will be displayed to sellers.   
         > [!div class="mx-imgBorder"]
         > ![Example phone call activity](media/sequence-activity-phone-call-created.png "Example phone call activity")    
+
+        You can define conditions for phone call activity to determine the branch that sequence moves to next step. More information: [Define conditions for phone call activity](adaptive-sequence.md#define-conditions-for-phone-call-activity).      
     - **Task**: Creates a custom activity that you define&mdash;such as scheduling a meeting with the customer&mdash;that isn't specified in the activity selector.   
         > [!div class="mx-imgBorder"]
         > ![Add a custom task activity](media/sequence-activity-add-task.png "Add a custom task activity")    
+
         Enter the name and description of the custom activity, and then select **Save**. The information you enter here will be displayed to sellers.   
         > [!div class="mx-imgBorder"]
         > ![Example task activity](media/sequence-activity-task-created.png "Example task activity")   
@@ -57,6 +64,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
         When this activity is shown to sellers on a record, they don't need to perform any action; they simply need to wait until the wait time expires before they perform the next activity.   
         > [!div class="mx-imgBorder"]
         > ![Set wait time](media/sequence-activity-add-set-wait-time.png "Set wait time")   
+
         Choose the duration in days and hours that you want sellers to wait before they perform the next activity, and then select **Save**. The maximum wait time is 30 days.   
         > [!div class="mx-imgBorder"]
         > ![Example wait time](media/sequence-activity-set-wait-time-created.png "Example wait time")   
@@ -83,4 +91,8 @@ Next, you connect the active sequence to lead or opportunity records.
 
 ### See also
 
-[Create and manage sequences](create-manage-sequences.md)
+[Create and manage sequences](create-manage-sequences.md)     
+[Adaptive sequences](adaptive-sequence.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

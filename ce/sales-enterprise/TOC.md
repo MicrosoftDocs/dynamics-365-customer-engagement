@@ -6,7 +6,6 @@
 ## Installation and management
 ### Start a free trial
 ### Install
-#### Subscribe to Dynamics 365 Sales
 #### [Set up Dynamics 365 Sales](../sales-enterprise/set-up-dynamics-365-sales.md)
 ### Upgrade
 #### [Upgrade from Dynamics 365 Sales Professional](../sales-enterprise/upgrade-sales-professional-sales-enterprise.md)
@@ -156,6 +155,7 @@
 ##### [Configure sales accelerator](enable-configure-sales-accelerator.md)
 ##### [Manage sequences](create-manage-sequences.md)
 ###### [Create and activate a sequence](create-and-activate-a-sequence.md)
+###### [Adaptive sequences](adaptive-sequence.md)
 ###### [Connect a sequence to records](connect-a-sequence-to-records.md)
 ###### [View details of a sequence and its connected records](view-sequence-details-connected-records.md)
 ###### [Clone a sequence](clone-a-sequence.md)
