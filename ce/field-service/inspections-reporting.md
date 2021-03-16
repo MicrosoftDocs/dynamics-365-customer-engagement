@@ -1,5 +1,5 @@
 ---
-title: "Run reports on inspection responses in Field Service in Dynamimcs 365 Field Service | MicrosoftDocs"
+title: "Run reports on inspection responses in Field Service in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to run reports for inspection responses in Dynamics 365 Field Service
 ms.custom:
 - dyn365-fieldservice
