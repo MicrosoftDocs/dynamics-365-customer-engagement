@@ -4,7 +4,7 @@ description: "Learn about the Internet Explorer pooling feature, which creates a
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 07/24/2018
+ms.date: 03/16/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -244,6 +244,44 @@ After the adding UII option, and if you set the value as **True**, then the opti
 9. Select **Save**.
 
 ::: moniker-end
+
+::: moniker range=">=dynamics-usd-4.2"
+
+## Pool process instances for Chrome Process
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 Process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 Process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, the Edge WebView2 Process instance pooling is enabled.
+
+With the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+
+#### Enable pooling for Edge WebView2 Process
+
+By default, Edge Webview2 Process pooling is enabled. To disable the pooling, a System Administrator must configure the **EdgeWebView2Pooling** option on the **Active UII Options** page and set it to **False**.
+
+To disable Edge WebView2 Process pooling:
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Options** under **Advance Settings** in the sitemap.
+
+5. Select **New** in the **Active UII Options** page.
+
+6. Choose **Others** for the **Global Option** field.
+
+7. Type **EdgeWebView2Pooling** for the **Name** field.
+
+8. Set **True** for the **Value** field.
+
+9. Select **Save**.
+
+### Skip inline entity navigation in Edge WebView2 Process pooling
+
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockChromeProcessPooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option)
 
 ## See also
 
