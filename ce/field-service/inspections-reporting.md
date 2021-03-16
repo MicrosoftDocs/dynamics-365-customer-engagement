@@ -1,6 +1,6 @@
 ---
-title: "Run reports on Inspection responses in Field Service | MicrosoftDocs"
-description: description
+title: "Run reports on inspection responses in Field Service in Dynamimcs 365 Field Service | MicrosoftDocs"
+description: Learn how to run reports for inspection responses in Dynamics 365 Field Service
 ms.custom:
 - dyn365-fieldservice
 ms.date: 03/15/2021
@@ -19,23 +19,23 @@ search.app:
 - D365FS
 ---
 
-# Run reports on Inspection responses
+# Run reports on inspection responses
 
 Administrators can create reports based on the answers technicians respond to inspections. 
 
 ## Understand, view, and report inspection responses
 
-All the responses entered by technicians are stored in Common Data Service. They can configure analytics settings in **Field Service settings**, which lets them parse the inspection responses into individual question responses.
+All the responses entered by technicians are stored in Microsoft Dataverse. They can configure analytics settings in **Field Service settings**, which lets them parse the inspection responses into individual question responses.
 
-There are three entities stored in Common Data Service:
+There are three entities stored in Dataverse:
 
-1. **Customer Voice survey question**: each inspection question
-2. **Customer Voice survey response**: a response to an inspection
-3. **Customer Voice survey question response**: each individual response to each inspection question
+1. **Customer Voice survey question**: each inspection question.
+2. **Customer Voice survey response**: a response to an inspection.
+3. **Customer Voice survey question response**: each individual response to each inspection question.
 
 In this section, we'll walk through how to configure the analytics settings in order to parse individual inspection responses into individual question responses.
 
-First, we'll define how often inspection answers should be parsed and organized in Common Data Service.
+First, we'll define how often inspection answers should be parsed and organized in Dataverse.
 
 Go to **Field Service app** > **Settings** > **Field Service Settings** > **Inspection tab**.
 
@@ -64,7 +64,7 @@ In our example, we've created an inspection with four questions.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the sample inspection, showing additional questions.](./media/2-inspections-snapshot-2.jpg)
 
-After publishing an inspection, the questions are stored in Common Data Service, and can be found in the **Customer Voice survey question** entity in Power Apps. Here, you can see entries for each question on an inspection.
+After publishing an inspection, the questions are stored in Dataverse, and can be found in the **Customer Voice survey question** entity in Power Apps. Here, you can see entries for each question on an inspection.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps, showing the Customer Voice survey question entity detail page.](./media/5-snapshot-after-publish-inspection.jpg)
@@ -103,17 +103,14 @@ Inspection parsing allows you to isolate and select specific parts of inspection
 
 ## Configuration considerations
 
-
-
-### Use Power Automate flow to parse inspection responses (Deserialization of responses)
+### Use Power Automate flow to parse inspection responses (deserialization of responses)
 
 When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the **Inspection Response** entity.
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of inspection responses showing up in the lookup dropdown in an advanced find window.](./media/inspection-inspection-responses-advanced-find.png)
 
-Use a Power Automate flow to run a workflow on inspection responses. See the video on [run workflows on Inspection responses](https://youtu.be/fCjQmIw9ahs) for more details.
+Use a Power Automate flow to run a workflow on inspection responses. For more information, see the video on [run workflows on Inspection responses](https://youtu.be/fCjQmIw9ahs).
 
 In the following example, if a technician responds "Yes" to the inspection question "Is a follow-up required?" then a new follow-up work order service task is added to the related work order.
 
