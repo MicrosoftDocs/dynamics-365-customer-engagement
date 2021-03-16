@@ -4,7 +4,7 @@ description: "Learn about different types of hosting methods for your controls i
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 03/15/2021
+ms.date: 03/16/2021
 ms.topic: "article"
 ms.service: dynamics-365-customerservice
 ms.custom: 
