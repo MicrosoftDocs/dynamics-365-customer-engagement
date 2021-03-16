@@ -217,6 +217,3 @@ In this example, we'll create a **Work Order Service Task** with another **Servi
 > ![Screenshot of the Power Automate flow, showing the "if yes" condition set to trigger a new record creation.](./media/inspections-workflow-then-create-WOST.png)
 
 Save and test your flow.
-
-
-## Additional Notes
