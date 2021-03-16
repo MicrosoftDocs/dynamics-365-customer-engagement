@@ -16,7 +16,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Your bot can use suggested actions to present buttons or options in the chat window, which the user can tap to provide input. This way, users can answer a question or make a selection without having to use a keyboard.<!--note from editor: Edits suggested, to avoid using "enable" and "type" (in the sense of entering text).-->
+Your bot can use suggested actions to present buttons or options in the chat window, which the user can tap to provide input. This way, users can answer a question or make a selection without having to use a keyboard.
 
 Suggested actions can be displayed vertically to enhance the user experience and promote easy readability. More information: [Customize a chat widget](customize-chat-widget.md)
 
