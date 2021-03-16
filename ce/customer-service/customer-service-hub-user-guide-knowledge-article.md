@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/04/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -137,7 +137,7 @@ You can choose a specific format or style for the content you’re writing. The 
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. |
+|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
 |![Styles](../customer-service/media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note**: This option is available in the expanded mode only.
 |![Paragraph Format](../customer-service/media/paragraph-format.png "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only. |
 |![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
@@ -475,7 +475,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
    > [!NOTE]
-   > Rating and Views are tracked using roll up, which gets updated based on a System job periodically. 
+   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
 
 - **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
