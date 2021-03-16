@@ -81,7 +81,7 @@ When the draft version is published, the existing published inspection version w
 
 Existing work orders will display and reference the previous version of the inspection, whereas new work orders will display and reference the new revised version.
 
-## Export as PDF
+## Export Inspection as blank PDF
 
 Exporting and inspection as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
 
@@ -100,7 +100,27 @@ The PDF will be interactive, where you can enter answers and save them to the PD
 Some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
 
 > [!Note]
-> The export to PDF function only exports blank inspections without responses.
+> The export to PDF function on the Inspection only exports blank inspections without responses.
+
+## Export Inspection Responses in PDF
+
+> [!Note]
+> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+
+Inspection responses can also be exported as a PDF from the work order service task. There is a new button 'Export Responses' on the service task which saves the inspection in the same format and with the responses filled in.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing export response as PDF experience on service task.](./media/export-inspection-response-as-pdf.png)
+
+On mobile also this button can be used to generate the Inspection response PDF which can be saved and also shared with others.
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing exported response PDF from the service task.](./media/export-inspection-response-as-pdf2.png)
+
+#### Known limitations with exporting Inspection responses
+
+- Export Responses to PDF does not support custom date or number format set using the personalization settings.  Date or number would show in the default format.
+- Export Inspection to PDF does not support right-to-left (RTL) languages like Hebrew and Arabic.
+- Export Inspection to PDF and Export Responses to PDF do not support Asian languages like Hindi and Chinese (available April 2021).
 
 ## Import and export inspection templates
 
