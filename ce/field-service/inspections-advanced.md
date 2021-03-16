@@ -201,12 +201,8 @@ When deciding, keep in mind work order service tasks can be associated to custom
 
 ## Configuration considerations
 
-### Using Field Service Inspections or Work Order service tasks or Power Apps Inspections
+### Using Field Service inspections, work order service tasks, or Power Apps inspections
 
-The main advantage of inspections is they are easier to create and easier to fill out. Both service tasks and custom Power Apps require creating additional fields and entities; for work order service tasks, the technician must open and save each one. If you find yourself adding more than 10 service tasks to a work order, or creating a Power App with more than 10 questions, consider inspections instead.
-
-
-
-
+The main advantage for using Field Service inspections is that they are easier to create and easier to fill out. Both service tasks and custom Power Apps require creating additional fields and entities; for work order service tasks, the technician must open and save each one. If you find yourself adding more than 10 service tasks to a work order, or creating a Power App with more than 10 questions, consider inspections instead.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
