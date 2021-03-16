@@ -12,6 +12,7 @@
 # Administration
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
+## [Location and map settings](field-service-maps-address-locations.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
@@ -64,7 +65,7 @@
 ### [Enable an entity for scheduling](schedule-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
-### [Timestamps](booking-timestamps.md)
+### [Booking timestamps + journals](booking-timestamps.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
 ### [Analytics dashboard](scheduling-analytics-reports.md)
@@ -188,6 +189,7 @@
 #### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 #### [Installation](installation-setup-iothub.md)
 #### [Register IoT devices](cfs-register-devices.md)
+#### [Pull device data](cfs-pull-device-data.md)
 #### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ### [Azure IoT Central](cfs-iot-overview.md)
 ### [Use custom IoT providers](cfs-custom-iot-provider.md)
@@ -196,16 +198,16 @@
 ### [Receive IoT alerts from Azure IoT Central](cfs-iot-central-alerts.md)
 ### [Associate devices with customer accounts](cfs-iot-central-associate-devices.md)
 ### [Summary tiles](cfs-summary-tiles.md)
-### [Pull device data](cfs-pull-device-data.md)
 ### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [Reports](cfs-powerbi.md)
 ### [AI for IoT alerts](iot-alerts-ai-based-suggestions.md)
 
 ## Take action
+### [IoT alerts](cfs-iot-alerts.md)
 ### [Connected Field Service on mobile](cfs-mobile-powerapp.md)
 ### [Send commands](cfs-commands.md)
 ### [Receive IoT alerts from real MXChip device](cfs-iotcentral-mxchip.md)
-### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+### [IoT - Parent IoT alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ## [Troubleshoot + FAQs](cfs-troubleshoot.md) 
 

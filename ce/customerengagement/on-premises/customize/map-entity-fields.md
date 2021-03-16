@@ -19,11 +19,10 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-
 ---
 # Map entity fields
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Map table columns](/powerapps/maker/data-platform/map-entity-fields)
 
 <a name="BKMK_mappingEntityFields"></a>   
  
