@@ -34,18 +34,18 @@ Updating or upgrading to Dynamics 365 Customer Engagement (on-premises), version
 
 For more information, see the following articles:
 
--   [Dynamics 365 Customer Engagement (on-premises) application updates](deploy/update-microsoft-dynamics-crm#microsoft-dynamics-365-customer-engagement-on-premises-application-updates)
+-   [Dynamics 365 Customer Engagement (on-premises) application updates](update-microsoft-dynamics-crm.md#microsoft-dynamics-365-customer-engagement-on-premises-application-updates)
 
--   [Deployment Manager: Update an organization](deploy/update-an-organization)
+-   [Deployment Manager: Update an organization](update-an-organization.md)
 
--   [PowerShell: Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps)
+-   [PowerShell: Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps&preserve-view=true)
 
--   [Upgrading Dynamics 365 Server](deploy/upgrading-microsoft-dynamics-365-server)
+-   [Upgrading Dynamics 365 Server](upgrading-microsoft-dynamics-365-server.md)
 
 > [!NOTE]
 > By default, when you apply the Dynamics 365 Server, version 9.1 update, all organization databases that are enabled in the deployment will be updated to Dynamics 365 Customer Engagement (on-premises), version 9.1. Administrators can control which organization databases are upgraded in either of the following ways:
 > 
-> -   Disable the organizations you don't want upgraded. Notice that all organizations must remain disabled until all the servers in a multi-server deployment are updated. More information: [Deployment Manager: Disable or enable an organization](deploy/disable-or-enable-an-organization) and [PowerShell: Disable-CrmOrganization](/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps).
+> -   Disable the organizations you don't want upgraded. Notice that all organizations must remain disabled until all the servers in a multi-server deployment are updated. More information: [Deployment Manager: Disable or enable an organization](disable-or-enable-an-organization.md) and [PowerShell: Disable-CrmOrganization](/powershell/module/microsoft.crm.powershell/disable-crmorganization?view=dynamics365ce-ps&preserve-view=true).
 > 
 > - Configure the AutomaticallyInstallDatabaseUpdates deployment setting to false.
 > 
@@ -59,7 +59,7 @@ For more information, see the following articles:
 2.  To start the update installation, right-click the update package, and then select **Run as administrator**.
 
 ## See also
-[New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](whats-new.md) <br />
+[New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](../whats-new.md) <br />
 [Update Dynamics 365 Customer Engagement (on-premises)](update-microsoft-dynamics-crm.md)
 
 ::: moniker-end
