@@ -18,7 +18,7 @@ search.audienceType:
 ---
 # Sub-Grid properties overview
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sub-grid properties for model-driven app main forms overview](/powerapps/maker/model-driven-apps/sub-grid-properties-legacy)
 
 You can configure a sub-grid on a form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
 
