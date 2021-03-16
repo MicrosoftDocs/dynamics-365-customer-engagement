@@ -30,7 +30,16 @@ Duplicate records can creep into your data when you or others enter data manuall
  ![Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-detected.png "Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)")  
   
  You're not sure if this is a new record (one that happens to have the  same name as an existing contact) or a duplicate, so you click **Save**.  
-  
+ 
+> [!NOTE]
+>  There are three situations when duplicates may be found:  
+> 
+> - When a record is created or updated.  
+> - When  you're using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and you go from offline to online.  
+> - When you import data using the Import Data wizard.  
+> 
+>   Duplicates aren't detected when you merge records, convert a lead, save an activity as completed, or change the status of a record, such as activating or reactivating a record.  
+
  Next, you go to the **My Active Contacts** list and see that now you have two records with the same name. After reviewing the records,  you  determine that they're duplicates that need to be merged.  
   
    > [!div class="mx-imgBorder"] 
@@ -53,13 +62,11 @@ Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rule
    ![Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)")  
   
 > [!NOTE]
->  There are three situations when duplicates may be found:  
+>  The fields that show in the merge dialog come from the default form for the entity. There are two situations where fields from that form will still not show:  
 > 
-> - When a record is created or updated.  
->   - When  you're using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and you go from offline to online.  
->   - When you import data using the Import Data wizard.  
-> 
->   Duplicates aren't detected when you merge records, convert a lead, save an activity as completed, or change the status of a record, such as activating or reactivating a record.  
+> - When a user does not have access to the field due to Field Level Security.
+> - When a field is not visible (this can be due to either the cell or the section not being visible by default).
+>   
   
   
 ### See also  
