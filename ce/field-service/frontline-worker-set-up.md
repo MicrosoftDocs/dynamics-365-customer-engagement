@@ -29,6 +29,9 @@ After setting up one or more frontline workers, admins can:
 4. View a list of all of their frontline workers, including their name, e-mail address, and home address. 
 5. View and/or update the details of individual frontline workers on the Bookable Resource form, including their home address, security role, field security profile, and mobile offline profile. 
 
+> [!NOTE]
+ > Bing Maps for one click directions has been enabled for all frontline workers. 
+
 ## Prerequisites 
 - Your organization must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1).
 - Each frontline worker must have a Dynamics 365 Field Service license assigned through the [Microsoft Admin Center](https://admin.microsoft.com). 
