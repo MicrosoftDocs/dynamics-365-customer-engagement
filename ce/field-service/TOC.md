@@ -11,7 +11,8 @@
 
 # Administration
 ## [Initial configuration](perform-initial-configurations-setup.md)
-## [Set up users and security roles](view-user-accounts-security-roles.md)
+## [Frontline worker setup](frontline-worker-setup.md)
+### [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
