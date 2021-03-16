@@ -107,7 +107,7 @@ Some question types are limited. For example, the entity lookup question type wi
 > [!Note]
 > The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
-Inspection responses can also be exported as a PDF from the work order service task. There is a new button 'Export Responses' on the service task which saves the inspection in the same format and with the responses filled in.
+Inspection responses can also be exported as a PDF from the work order service task. There is a new button 'Export Responses' on the work order service task which saves the inspection in the same format and with the responses filled in.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing export response as PDF experience on service task.](./media/export-inspection-response-as-pdf.png)
