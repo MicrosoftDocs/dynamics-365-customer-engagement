@@ -272,7 +272,7 @@ Find the row where **Related Entity** is **Inspection**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Advanced settings showing the Inspection relation with customer asset.](./media/ad-hoc-inspection-customer-asset.png)
 
-On opening the record, find **Display Option**. This field is set to **Do not Display**. Upudate this value to **Use Plural Name** or **Custom Label**. Once updated, **Save and Close** and **Publish All Customizations**.
+On opening the record, find **Display Option**. This field is set to **Do not Display**. Update this value to **Use Plural Name** or **Custom Label**. Once updated, **Save and Close** and **Publish All Customizations**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Advanced settings showing the Inspection do not display option with customer asset.](./media/ad-hoc-inspection-display-setting.png)
