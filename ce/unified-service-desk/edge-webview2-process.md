@@ -352,6 +352,26 @@ If ***onbeforeunload*** event handlers are set for the page loaded in the hosted
 
 6. Select **Save**.
 
+## Enable the confirmation dialog box with Edge WebView2 Process
+
+If you perform an action on an app tab within a Unified Service Desk session and close the session, the **EdgeWebView2ConfirmationDialog** UII option will display a dialog box so you can confirm the saving and closing of a session. 
+
+The confirmation dialog box is displayed if this UII option has been added or the value is set as **True**. If this option hasn't been added or the value is set as **False**, the confirmation dialog box isn't displayed.
+
+**To add the EdgeWebView2ConfirmationDialog UII option**
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the **Active UII Options** page, select **New**.
+
+4. For the **Global Option** field, select **Others**.
+
+5. For the **Name** field, enter **EdgeWebView2ConfirmationDialog**. For the **Value** field, enter **True**.
+
+6. Select **Save**.
+
 
 
 ## Limitations
