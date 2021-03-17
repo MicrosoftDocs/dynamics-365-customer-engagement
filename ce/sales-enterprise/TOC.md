@@ -1,7 +1,6 @@
-# Dynamics 365 Sales](help-hub.md)
+# [Dynamics 365 Sales](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
-## [Removed or deprecated features](../sales-enterprise/deprecations-sales.md)
 
 ## Installation and management
 ### Start a free trial
@@ -9,7 +8,6 @@
 #### [Set up Dynamics 365 Sales](../sales-enterprise/set-up-dynamics-365-sales.md)
 ### Upgrade
 #### [Upgrade from Dynamics 365 Sales Professional](../sales-enterprise/upgrade-sales-professional-sales-enterprise.md)
-#### [Move from Dynamics 365 Sales Enterprise to Professional](../sales-enterprise/move-sales-enterprise-sales-professional.md)
 
 ### Set up your sales organization
 #### [System Settings - Sales](system-settings-sales-tab.md)
@@ -67,7 +65,7 @@
 #### [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
 #### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
 
-### Collaboration
+### Productivity
 #### Activity management
 ##### [Set up enhanced email](set-up-enhanced-email.md)
 #### Activities in Kanban view
@@ -134,6 +132,7 @@
 ### Sales premium capabilities
 
 #### [Overview of premium capabilities](overview-premium-capabilities.md)
+#### [Get srated with sales premium](get-srated-sales-premium.md)
 
 #### [Manage sample data](manage-sample-data.md)
 
@@ -200,7 +199,7 @@
 #### [Organize contacts in live org charts for accounts](../sales-enterprise/live-org-chart.md)
 #### [Scan business cards](../sales-enterprise/scan-business-cards.md)
 
-### Collaboration
+### Productivity
 #### Activity management
 ##### [Add activities to the timeline](/powerapps/user/add-activities)
 ##### [Track and manage activities](../sales-enterprise/manage-activities.md) 
@@ -321,7 +320,7 @@
 ##### [Manage notes](sales-mobile/view-edit-add-note.md)
 #### [Use Sales Hub on the mobile app](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 
-## Developer Guide
+## Developer guide
 
 ### [Resources for developers](../sales-enterprise/developer/developer-guide.md)
 
@@ -484,7 +483,9 @@
 ### [Troubleshooting email](ts-email.md)
 
 ### [Sales FAQs](faqs-sales.md)
-### [Sales premium FAQs](faqs-sales-insights.md)
+### [Sales premium FAQs](faqs-sales-insights.md) 
+
+## [Removed or deprecated features](../sales-enterprise/deprecations-sales.md)
 
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 

@@ -22,32 +22,23 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 Here are the multiple sales solutions that fit every type and size of business: 
 
-- Dynamics 365 Sales Premium 
+- [Dynamics 365 Sales Premium](#dynamics-365-sales-premium) 
 - Dynamics 365 Sales Enterprise
 - Dynamics 365 Sales Professional
 
-### Dynamics 365 Sales Premium 
-
-Sales premium continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.
-
+<a name="dynamics-365-sales-premium"></a>
+#### Dynamics 365 Sales Premium 
+Sales premium continuously analyzes the vast collection of customer-interaction data already stored in your Dynamics 365 Sales and Microsoft 365 databases. This helps you to better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. Also, it enables you to build strong relationships with customers, take actions based on insights, and close opportunities faster.    
 When you subscribe to Dynamics 365 Sales Premium, the following capabilities are available in the Sales Hub app:    
 - **Guided selling**: Guide sellers on their next course of action with timely and actionable insights.
 - **Productivity intelligence**: Free up sellers' time by minimizing manual data entry with contextual, real-time suggestions for updating existing records and creating new records, making sure your data is always up to date.
 - **Connection insights**: Build stronger relationships with customers and move relationships forward with AI-guided selling. Take preemptive steps to mitigate risks with a relationship health score.
 - **Predictive models**: Increase conversion and win rates by using AI to prioritize leads and opportunities with the highest likelihood to convert and buy.
 
-### Dynamics 365 Sales Enterprise 
-
-The Sales (enterprise) is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.  
-
+**Dynamics 365 Sales Enterprise** : The Sales (enterprise) is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.     
 The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
 
-> [!IMPORTANT]
-> With the April 2019 release, any new subscription to Dynamics 365 Sales will not have the Sales app (web client). The existing organizations where the Sales app was available will show a notification prompting users to update their legacy web client apps to Unified Interface. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Update your apps to Unified Interface](../admin/update-apps-to-unified-interface.md), [Enable Unified Interface Only mode](../admin/enable-unified-interface-only.md).
-
-### Dynamics 365 Sales Professional
-
-The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
+**Dynamics 365 Sales Professional**: The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
 
   > [!NOTE]
   > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
