@@ -3,7 +3,7 @@ title: "Advanced options for inspections in Dynamics 365 Field Service | Microso
 description: Learn how to configure more advanced scenarios for inspections in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/01/2021
+ms.date: 03/17/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -81,7 +81,7 @@ When the draft version is published, the existing published inspection version w
 
 Existing work orders will display and reference the previous version of the inspection, whereas new work orders will display and reference the new revised version.
 
-## Export Inspection as blank PDF
+## Export inspection as blank PDF
 
 Exporting and inspection as a PDF is helpful for situations where you need to send the inspection questions via email ahead of time.
 
@@ -100,27 +100,28 @@ The PDF will be interactive, where you can enter answers and save them to the PD
 Some question types are limited. For example, the entity lookup question type will not reference the Dynamics 365 database records.
 
 > [!Note]
-> The export to PDF function on the Inspection only exports blank inspections without responses.
+> The export to PDF function on the inspection only exports blank inspections without responses.
 
-## Export Inspection Responses in PDF
+## Export inspection responses as PDF
 
 > [!Note]
 > The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
-Inspection responses can also be exported as a PDF from the work order service task. There is a new button 'Export Responses' on the work order service task which saves the inspection in the same format and with the responses filled in.
+Inspection responses can also be exported as a PDF from the work order service task. There is a new option - **Export Responses** - on the work order service task that saves the inspection in the same format and with the responses filled in.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing export response as PDF experience on service task.](./media/export-inspection-response-as-pdf.png)
 
-On mobile also this button can be used to generate the Inspection response PDF which can be saved and also shared with others.
+**Export Responses** can also be used on mobile to generate the inspection response PDF, which can be saved and shared with others.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing exported response PDF from the service task.](./media/export-inspection-response-as-pdf2.png)
 
-#### Known limitations with exporting Inspection responses
+### Known limitations with exporting inspection responses
 
-- Export Responses to PDF does not support custom date or number format set using the personalization settings.  Date or number would show in the default format.
-- Export Inspection to PDF does not support right-to-left (RTL) languages like Hebrew and Arabic.
-- Export Inspection to PDF and Export Responses to PDF do not support Asian languages like Hindi and Chinese (available April 2021).
+- The export responses to PDF feature does not support custom date or number formats set using the personalization settings.  Date or number will show in the default format.
+- The export inspection to PDF feature does not support right-to-left languages like Hebrew and Arabic.
+- Export inspection to PDF and export responses to PDF features do not support Asian languages like Hindi and Chinese (available April 2021).
 
 ## Import and export inspection templates
 
