@@ -15,7 +15,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-
+monikerRange: '>= dynamics-usd-4.1'
 ---
 
 # Use Edge WebView2 Process to host web applications
