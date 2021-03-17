@@ -91,7 +91,7 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 ## Transfer a conversation
 
-At times, you may need to transfer an ongoing conversation from an agent to another agent or queue. In such cases, the conversation should be in an active status or waiting status.
+At times, you may need to transfer an ongoing conversation from an agent to another agent or queue. In such cases, the conversation should be in an active or waiting status.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 
