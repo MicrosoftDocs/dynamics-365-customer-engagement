@@ -1,6 +1,6 @@
 ---
 title: "Use the assistant to gain insights and guide customer communication (Dynamics 365 apps) | MicrosoftDocs"
-description: Use the assistant to gain insights and guide customer communication
+description: Use the assistant in Dynamics 365 App for Outlook to gain insights and guide customer communication
 ms.custom: 
 ms.date: 03/17/2021
 ms.reviewer: 
