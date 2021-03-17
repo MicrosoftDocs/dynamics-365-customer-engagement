@@ -60,7 +60,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
 4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Select **+ New** in the **Active UII Options** page.
+5. Select **+New** in the **Active UII Options** page.
 
 6. Choose **Others** for the **Global Option** field.
 
@@ -157,7 +157,7 @@ Use the **HideCommandBar** UII option if you want to hide the command bar for al
 
 4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Select **+ New** in the **Active UII Options** page.
+5. Select **New** in the **Active UII Options** page.
 
 6. Choose **Others** for the **Global Option** field.
 
@@ -192,7 +192,7 @@ Use the **ShowNavBar** UII option if you want to show the nav bar for all the en
 
 4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Select **+ New** in the **Active UII Options** page.
+5. Select **New** in the **Active UII Options** page.
 
 6. Choose **Others** for the **Global Option** field.
 
@@ -233,7 +233,7 @@ After the adding UII option, and if you set the value as **True**, then the opti
 
 4. Select **Options** under **Advance Settings** in the sitemap.
 
-5. Select **+ New** in the **Active UII Options** page.
+5. Select **New** in the **Active UII Options** page.
 
 6. Choose **Others** for the **Global Option** field.
 

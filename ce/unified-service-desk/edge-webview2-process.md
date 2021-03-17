@@ -243,35 +243,6 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 6. Save the changes.
 
-## EdgeWebView2SingleProcess UII option
-
-With the Edge WebView2 control, each domain will have its own process. If your organization requires common authentication modes across different domains, the Edge WebView2 Process might not support the same authentication.
-
-To use common authentication mode across different domains, use the `EdgeWebView2SingleProcess` global UII option to ensure all the processes with different domains are created in a single process at the run-time. 
-
-To use the `EdgeWebView2SingleProcess`, you must add the UII option and set the value to `True`. More information: [EdgeWebView2SingleProcess](admin/manage-options-unified-service-desk.md)
-
-### Add the UII option
-
-1. Sign in to the Dynamics 365 instance.
-
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
-
-3. Select **Options**.  
-
-4. Select **New** on the **Active UII Options** page.
-
-5. Choose **Others** for the **Global Option** field.
-
-6. Type **EdgeSingleProcess** for the **Name** field.
-
-7. Type **True** for the **Value** field.
-
-8. Select **Save**.
-
-> [!NOTE]
-> If you set the value as `False` or leave the field blank, the option will be disabled.
-
 ## Sign out from sessions when using the Edge WebView2 Process
 
 To sign out from sessions when using the Edge WebView2 Process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
