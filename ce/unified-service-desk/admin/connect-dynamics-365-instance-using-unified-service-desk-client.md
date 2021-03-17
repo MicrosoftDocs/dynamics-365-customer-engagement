@@ -1,5 +1,5 @@
 ---
-title: "Connect to a model-drive app using the Unified Service Desk  client | MicrosoftDocs"
+title: "Connect to a model-driven app using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 author: v-sailab
 ms.author: v-sailab
@@ -92,7 +92,7 @@ To change the timeout value, configure the **SingleSignOnThreshold** UII option 
 
 2. Select **Options**.  
 
-3. On the **Active UII Options** page, select **+ New**.
+3. On the **Active UII Options** page, select **New**.
 
 4. For **Name**, enter **SingleSignOnThreshold**. For **Value**, enter the time in ms.
 
@@ -111,7 +111,7 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 
 2. Select **Options**.  
 
-3. On the **Active UII Options** page, select **+ New**.
+3. On the **Active UII Options** page, select **New**.
 
 4. For **Name**, enter **SingleSignOnEnabledBrowsers**. For **Value**, enter **Chrome**.
 
