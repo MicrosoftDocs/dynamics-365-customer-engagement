@@ -32,8 +32,7 @@ A product catalog includes the list of products and services that your company s
 | **Use system pricing calculation** | Turn on this option to use the system pricing engine to calculate prices for opportunities, quotes, orders, and invoices. Turn it off to use custom pricing. For more information about custom pricing, see [Use custom pricing for products](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/use-custom-pricing-products). |
 | **Make pricing list optional** | Turn it on if you want to allow sellers to add products to opportunities, quotes, invoices, or orders, without associating a price list. |
 | **Maximum number of products in a bundle** | Specify the maximum number of products that can be added in a bundle.</br>**Default**: 15 |
-| **Maximum number of properties that are allowed for a product or bundle** | Specify the maximum number of properties that can be associated with a product or bundle.<br /></br>Product properties are added to a product family record, and all the child products and bundles under the product family inherit the properties added to the parent product family.</br>**Note:** The number specified in this setting comes into effect only when you publish a product or a bundle with the associated properties, and not at the time when you add the properties to a draft product family record.</br>**Default**: 50 |
-|  
+| **Maximum number of properties that are allowed for a product or bundle** | Specify the maximum number of properties that can be associated with a product or bundle.<br /></br>Product properties are added to a product family record, and all the child products and bundles under the product family inherit the properties added to the parent product family.</br>**Note:** The number specified in this setting comes into effect only when you publish a product or a bundle with the associated properties, and not at the time when you add the properties to a draft product family record.</br>**Default**: 50 | 
 | **Discount calculation method** | Select **Per unit** if you want the pricing engine to calculate the discount based on the prices per unit instead of a line item. By default, the calculations are done on a line item-basis. See the table below that shows the difference between the two calculations. |
 
 *Table: Difference between calculations
@@ -44,7 +43,7 @@ A product catalog includes the list of products and services that your company s
 |Per unit|Product 2|100|11|10|(100-10)*11=990| 
 
 ### See also
-[Set up a product catalog](set-up-product-catalog-walkthrough.md)
+[Set up a product catalog](set-up-product-catalog-walkthrough.md)  
 [Preview: Enable the enhanced experience of adding products (Sales Hub)](enable-enhanced-add-product-experience.md)  
 
 
