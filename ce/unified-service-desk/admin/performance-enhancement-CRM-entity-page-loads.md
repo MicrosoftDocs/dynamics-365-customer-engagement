@@ -349,9 +349,74 @@ In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebVie
 
 #### Show nav bar for a specific entity
 
-Use the **BlockChromeProcessPooling** UII option if you want to show the nav bar for a specific entity in the Chrome Process pooled instances.
+Use the **BlockEdgeWebView2Pooling** UII option if you want to show the nav bar for a specific entity in the Edge WebView2 Process pooled instances.
 
 See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+
+#### Show nav bar for all the entities
+
+Use the **ShowNavBarEdgeWebView2** UII option if you want to show the nav bar for all the entities in the Edge WebView2 Process pooled instances.
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Options** under **Advance Settings** in the sitemap.
+
+5. Select **New** in the **Active UII Options** page.
+
+6. Choose **Others** for the **Global Option** field.
+
+7. Type **ShowNavBarEdgeWebView2** for the **Name** field.
+
+8. Type **True** for the **Value** field.
+
+9. Select **Save**.
+
+### Block second navigation in Edge WebView2 Process pooling
+
+When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline. If you've specific window navigation rule between the same entity type with the **Route Window** action and **In Place** type, then the window navigation rule triggers the rule in a loop causing Unified Service Desk to crash. 
+
+For example, with Edge WebView2 Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, then window navigation rule loops in a recursive manner causing Unified Service Desk to crash.
+
+To avoid the crash of Unified Service Desk, you can perform the following:
+
+- Remove or change the window navigation rule
+- Add the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option
+
+#### Remove or change the window navigation rule
+
+Window navigation rule for same entity navigation, you can remove or delete the window navigation rule itself as with the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+
+Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **In Place** type.
+
+#### Add the BlockEdgeWebView2ProcessSecondInlineNavigation UII option
+
+By default, second inline navigation is blocked when using Edge WebView2 Process. That is, the option is enabled by default. However, if you want to allow the second inline navigation, that is, disable the option, create the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option and set the value as **False**. 
+
+After the adding UII option, and if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Options** under **Advance Settings** in the sitemap.
+
+5. Select **New** in the **Active UII Options** page.
+
+6. Choose **Others** for the **Global Option** field.
+
+7. Type **BlockEdgeWebView2ProcessSecondInlineNavigation** for the **Name** field.
+
+8. Set **True** for the **Value** field.
+
+9. Select **Save**.
+
+
 
 ## See also
 
