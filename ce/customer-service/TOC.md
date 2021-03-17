@@ -79,7 +79,7 @@
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 
-
+<!-->
 ## Routing and assignment
 ### Administrator experience
 --#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
@@ -94,6 +94,9 @@
 
 #### Manage work distribution for conversations
 --##### [Create work streams](work-streams-introduction.md)
+
+-->
+
 ##### [Create work streams for entity records](set-up-entity-workstream.md)
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)

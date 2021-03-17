@@ -27,7 +27,7 @@ ms.service: dynamics-365-customerservice
 
 ### Machine learning-based skill identification ruleset
 
-To configure skill identification ruleset using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](set-up-intelligent-skill-model.md)
+To configure skill identification ruleset using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](intelligent-skill-model.md)
 
 *Procedure to create ruleset using ML*
 1.	For a work stream, from a routing rule section select ‘Create ruleset’ and then select ‘Create New’
