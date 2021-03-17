@@ -276,7 +276,39 @@ To use the `EdgeWebView2SingleProcess`, you must add the UII option and set the 
 
 To sign out from sessions when using the Edge WebView2 Process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
+## Support for webcam and microphone access with Edge WebView2 Process - need confirmation for UII option
 
+Agents in your organization probably require webcam and microphone access, according to your business workflow. By default, certain websites might not have access to webcams or microphones. To enable webcam and microphone support for Edge WebView2 Process, use the **EdgeWebView2EnableMediaStream** UII option. Set the UII option to **True**. If you don't provide any value or set this to **False**, the option will be disabled.
+<!--markdownlint-disable MD036-->
+**To add the EdgeWebView2EnableMediaStream UII option**
+
+ 1. Sign in to the Dynamics 365 instance.
+
+ 2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+ 3. On the **Active UII Options** page, select **New**. 
+ 
+ 4. For the **Global Option** field, select **Others**.
+
+ 5. For the **Name** field, enter **EdgeWebView2EnableMediaStream**.
+
+ 6. For the **Value** field, enter **True**.
+
+ 7. Select **Save**.
+
+ ## Debug Edge WebView2 Process
+
+You can debug Edge WebView2 Process in two ways:
+
+- Remotely
+
+- Locally
+
+### Debug Chrome Process remotely
+
+When you want to access and debug all the Chrome Process instances running in a desktop remotely, you need to have remote debugging access along with the port number.
+
+Use the **ChromeRemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `<IP address>:<\port number>` of the remote desktop. You can see all the Chrome Process instances running in that desktop, and then you can proceed with debugging.
 
 ## Limitations
 
