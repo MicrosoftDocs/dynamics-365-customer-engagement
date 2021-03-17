@@ -36,6 +36,7 @@
 #### [Define product pricing with price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
 #### [Decimal precision in currency and pricing](decimal-precision-currency-pricing.md)
 #### [Create a unit group and add units](../sales-enterprise/create-unit-group-add-units-that-group.md)
+#### [Configure product catalog settings](configure-product-catalog-settings.md)
 #### [Set up discount lists](../sales-enterprise/set-up-discount-list.md)
 #### [Define related products to increase sales](../sales-enterprise/define-related-products-increase-chances-sales.md)
 #### [Translate product names into multiple languages](../sales-enterprise/translate-product-names-properties-into-multiple-languages.md)

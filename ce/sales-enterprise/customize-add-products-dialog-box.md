@@ -1,13 +1,12 @@
 ---
 title: "Preview: Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
-ms.date: 01/08/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 03/17/2021
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
@@ -45,9 +44,8 @@ the grid:
 -   Price per unit
 -   Quantity
 
- > [!NOTE] The procedure below refers to the customization option available
-> in **Product catalog settings**. If you are using a custom app, access
-> the following views from Power Apps:
+ > [!NOTE] 
+ > The procedure below refers to the customization option available in **Product catalog > settings**. If you are using a custom app, access the following views from Power Apps:
 > -   Opportunity products Add products
 > -   Quote products Add products
 > -   Order products Add products
@@ -55,7 +53,7 @@ the grid:
 
 For information on editing views, see [Choose and configure
 columns in model-driven app
-views](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or remove columns from the grid**
 
@@ -84,7 +82,7 @@ differentiate products as shown in the screenshot below:
 > in **Product catalog settings**. If you are using a custom app, access
 > the **Product Lookup View** from Power Apps:
 
-For information on editing views, see [Choose and configure columns in model-driven app views](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+For information on editing views, see [Choose and configure columns in model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or edit product attributes**
 1.  In the Sales Hub app, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png  "Icon to change the work area") at the bottom-left of the page and then select **App Settings**.

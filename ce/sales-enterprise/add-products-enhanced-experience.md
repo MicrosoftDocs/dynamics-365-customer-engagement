@@ -1,13 +1,12 @@
 ---
 title: "Preview: Add products to an opportunity using the enhanced experience | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
-ms.date: 01/08/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 03/17/2021
+ms.service:dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
@@ -66,7 +65,9 @@ As a salesperson, you want to be able to easily identify and add products from t
 6.  Search for the product or use the product family filter in the left pane to identify products that suits the opportunity. 
     As you select products, you will see the count of selected products in the **Selected** tab.
 
-    > [!NOTE] The products and the product families displayed depend on the price list that you have chosen. So, if you do not see a product, ensure that the product is associated with the selected price list.
+    > [!NOTE] 
+    > The products and the product families displayed depend on the price list that you have chosen. So, if you do not see a product, ensure that the product is associated with the selected price list.
+    
 7. Optionally, click the **Write in** tab to add products or services that are not in the catalog and are very specific to an opportunity.  
 
 7.  Specify the Price per unit if the product does not have an associated price list. If the product has a default price list associated with it, the Price per unit is populated in accordance with the associated price list. 

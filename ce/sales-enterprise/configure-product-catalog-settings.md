@@ -1,10 +1,10 @@
 ---
 title: "Configure product catalog settings (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure the settings to change the seller experience while selecting products from the catalog."
-ms.date: 03/16/2021
+ms.date: 03/17/2021
 ms.service: dynamics-365-sales
 ms.topic: article
-author:lavanyakr01 
+author: lavanyakr01 
 ms.author: lavanyakr
 manager: shujoshi
 
@@ -33,8 +33,9 @@ A product catalog includes the list of products and services that your company s
 | **Make pricing list optional** | Turn it on if you want to allow sellers to add products to opportunities, quotes, invoices, or orders, without associating a price list. |
 | **Maximum number of products in a bundle** | Specify the maximum number of products that can be added in a bundle.</br>**Default**: 15 |
 | **Maximum number of properties that are allowed for a product or bundle** | Specify the maximum number of properties that can be associated with a product or bundle.<br /></br>Product properties are added to a product family record, and all the child products and bundles under the product family inherit the properties added to the parent product family.</br>**Note:** The number specified in this setting comes into effect only when you publish a product or a bundle with the associated properties, and not at the time when you add the properties to a draft product family record.</br>**Default**: 50 |
-|  |  |
+|  
 | **Discount calculation method** | Select **Per unit** if you want the pricing engine to calculate the discount based on the prices per unit instead of a line item. By default, the calculations are done on a line item-basis. See the table below that shows the difference between the two calculations. |
+
 *Table: Difference between calculations
 
 |Discount method|Product|Price per unit|Quantity|Discount|Amount|  

@@ -1,6 +1,6 @@
 ---
-title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales."
+title: "Add products to quotes, orders, or invoices using enhanced experience (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
 ms.date: 03/17/2021
 ms.service: dynamics-365-sales
 ms.topic: article
@@ -70,7 +70,8 @@ If you've created a quote from an opportunity, the products added to the opportu
 
 6.  Search for the product or use the product family filter in the left pane to identify products that you want to add to the quote. As you select products, you will see the count of selected products in the **Selected** tab.
 
-    > [!NOTE] The products and the product families displayed depend on the price list that you have chosen. So, if you do not see a product, ensure that the product is associated with the selected price list.
+    > [!NOTE] 
+    > The products and the product families displayed depend on the price list that you have chosen. So, if you do not see a product, ensure that the product is associated with the selected price list.
     
 7. Optionally, click the **Write in** tab to add products or services that are not in the catalog and are very specific to an opportunity.  
 
@@ -87,9 +88,8 @@ If you've created a quote from an opportunity, the products added to the opportu
 
 ## Delete or remove products from a quote, invoice or order
 
-> [!NOTE] The process for removing a product from a quote record is the same as
-> removing a product from an order or an invoice. This topic explains how
-> to remove products from a quote record.
+> [!NOTE] 
+> The process for removing a product from a quote record is the same as removing a product from an order or an invoice. This topic explains how to remove products from a quote record.
 
 Remove products if you have selected them inadvertently or if they are
 no longer relevant for the quote. You can remove products at two
