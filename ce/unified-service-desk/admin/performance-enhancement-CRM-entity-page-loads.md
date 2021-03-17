@@ -279,9 +279,79 @@ To disable Edge WebView2 Process pooling:
 
 9. Select **Save**.
 
-### Skip inline entity navigation in Edge WebView2 Process pooling
+### Skip inline entity navigation in Edge WebView2 Process pooling - need confirmation on UII option
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockChromeProcessPooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option)
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2Pooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockchromeprocesspooling-uii-option)
+
+#### Add the BlockEdgeWebView2Pooling UII option
+
+To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Options** under **Advance Settings** in the sitemap.
+
+5. Select **New** in the **Active UII Options** page.
+
+6. Choose **Others** for the **Global Option** field.
+
+7. Type **BlockEdgeWebView2Pooling** for the **Name** field.
+
+8. Enter the entity names as comma separated values (CSV) for the **Value** field. For example, **incident,account,contact**.
+
+9. Select **Save**.
+
+### Hide command bar in Edge WebView2 Process
+
+In Edge WebView2 Process, the command bar is always shown on the pooled Edge WebView2 Process instances. If you want to hide the command bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the following UII options.
+
+- To hide a specific entity: **BlockEdgeWebView2Pooling**
+- To hide for all the entities: **HideCommandBarEdgeWebView2**
+
+#### Hide command bar for a specific entity
+
+Use the **BlockEdgeWebView2Pooling** UII option if you want to hide the command bar for a specific entity in the Edge WebView2 Process pooled instances.
+
+See [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+
+#### Hide command bar for all the entities
+
+Use the **HideCommandBarEdgeWebView2** UII option if you want to hide the command bar for all the entities in the Edge WebView2 Process pooled instances.
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Select the down arrow next to Dynamics 365.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Select **Options** under **Advance Settings** in the sitemap.
+
+5. Select **New** in the **Active UII Options** page.
+
+6. Choose **Others** for the **Global Option** field.
+
+7. Type **HideCommandBarEdgeWebView2** for the **Name** field.
+
+8. Type **True** for the **Value** field.
+
+9. Select **Save**.
+
+### Show nav bar in Edge WebView2 Process
+
+In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebView2 Process instances. If you want to show the nav bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the following UII options.
+
+- To show a specific entity: **BlockEdgeWebView2Pooling**
+- To show for all the entities: **ShowNavBarEdgeWebView2**
+
+#### Show nav bar for a specific entity
+
+Use the **BlockChromeProcessPooling** UII option if you want to show the nav bar for a specific entity in the Chrome Process pooled instances.
+
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
 
 ## See also
 
