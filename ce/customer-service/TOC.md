@@ -82,18 +82,18 @@
 <!-->
 ## Routing and assignment
 ### Administrator experience
---#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
---#### [Automatically route cases](create-rules-automatically-route-cases.md)
---#### [Create and manage queues for conversations](queues-omnichannel.md)
+#### [Create and manage queues for casesx](set-up-queues-manage-activities-cases.md)
+#### [Automatically route casesx](create-rules-automatically-route-cases.md)
+#### [Create and manage queues for conversationsx](queues-omnichannel.md)
 #### Set up skill-based routing for conversations
---##### [Overview of skill-based routing](overview-skill-work-distribution.md)
---##### [Enable skill-based routing, rating model in Customer Service admin center](enable-skill-routing-create-rating-model.md#sbr-cs-admin)
---##### [Enable skill-based routing, rating model in Omnichannel Administration](enable-skill-routing-create-rating-model.md#sbr-oc-admin)
---##### [Set up skills, assign agents](setup-skills-assign-agents.md)
---##### [Attach skills to conversations](attach-skills.md)
+##### [Overview of skill-based routingx](overview-skill-work-distribution.md)
+##### [Enable skill-based routing, rating model in Customer Service admin centerx](enable-skill-routing-create-rating-model.md#sbr-cs-admin)
+##### [Enable skill-based routing, rating model in Omnichannel Administrationx](enable-skill-routing-create-rating-model.md#sbr-oc-admin)
+##### [Set up skills, assign agentsx](setup-skills-assign-agents.md)
+##### [Attach skills to conversationsx](attach-skills.md)
 
 #### Manage work distribution for conversations
---##### [Create work streams](work-streams-introduction.md)
+##### [Create work streamsx](work-streams-introduction.md)
 
 -->
 
