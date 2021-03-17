@@ -91,6 +91,26 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 ## Transfer a conversation
 
+At times, you may need to transfer an ongoing conversation from an agent to another agent or queue. In such cases, the conversation should be in an active status or waiting status.
+
+1. Sign in to the **Omnichannel for Customer Service** app.
+
+2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+
+    The list of available agents and their capacities, and queues, is displayed.
+    > [!div class=mx-imgBorder]
+    > ![Select Assign option](media/assign-agents-conversations.png "Select Assign option")
+
+3. Choose a conversation in an **Active** or **Waiting** state, and select **Transfer** on the top-right corner.
+    > [!div class=mx-imgBorder]
+    > ![Select agent or queue option](media/assign-agent-queue.png "Select either agent or queue option")
+
+4. On the **Tranfer conversations** dialog box, choose one of the following options:
+
+  - **Agent:** Select to transfer the conversation to an agent, and choose an agent name from the list. Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
+  - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned.
+
+5. Depending on the option you chose in Step 4, choose the agent or queue, and then select **Transfer**.
 
 ### See also
 
