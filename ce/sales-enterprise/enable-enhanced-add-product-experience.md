@@ -14,7 +14,9 @@ manager: annbe
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Increase seller productivity by enabling the enhanced experience for searching and adding products to opportunities, quotes, orders, and invoices. With the enhanced experience, salespeople can:
+Increase seller productivity by enabling the enhanced experience for
+searching and adding products to opportunities, quotes, orders, and
+invoices. With the enhanced experience, salespeople can do the following:
 
 -  Quickly search for products.
 -  View product details inline.
@@ -28,16 +30,34 @@ Increase seller productivity by enabling the enhanced experience for searching a
 
 You can enable the enhanced experience through the App Settings page or through System Settings. 
 
-- To enable via App Settings, see [Configure product catalog settings](product-catalog-settings.md).
-- To enable via System Settings, see [System Settings dialog box - Sales tab](system-settings-sales-tab.md)
+**To enable the enhanced experience from the App settings page in Sales Hub**
+1. In the Sales Hub app, select the **Change area** icon
+    ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
+     at the bottom-left of the page and then select **App Settings**.
 
-> [!IMPORTANT]
-> The enhanced experience for adding products lets you define the columns to show in the **Add products** dialog box. More information: [Customize the Add products dialog box](customize-add-products-dialog-box.md)
+2.  Under **Product Catalog**, select **Product Catalog Settings**.
+
+3.  In the **Product Catalog Settings** page, turn on the **Adding products (preview)** option.\
+    ![Product catlog settings page with the Adding products preview enabled](media/EnableAddProductPreview.png) \
+   You will see additional options to customize the Add products dialog,
+    which the sellers use for adding products to an opportunity, quote, order,
+    or invoice. You can either add more columns to the grid or add more
+    attributes to the Product cell. For more information on the
+    customization, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md).
+
+**To enable the enhanced experience from System Settings**
+
+If you're using a custom app, you can enable the enhanced experience from **System Settings** in the legacy web client.
+
+1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.\
+    ![Advanced Settings link in the site map](media/advanced-settings-option.png)\
+    The **Business Management settings** page opens in a new browser tab.
+2.  On the navigation bar, select **Settings**, and then select **Administration**.
+3.  Select **System Settings**.
+4.  In the **System Settings** dialog box on the **Sales** tab, set **Enhanced add product experience** to **Yes**.
+5.  Select **OK**.
 
 ### See also
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
 [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
