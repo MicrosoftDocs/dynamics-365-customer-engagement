@@ -1,6 +1,6 @@
 ---
 title: "Preview: Add products to an opportunity using the enhanced experience | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
+description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales Enterprise."
 ms.date: 03/17/2021
 ms.service: dynamics-365-sales
 ms.topic: article
