@@ -40,7 +40,7 @@ Some of what the assistant can do for you:
 
 To use the assistant, your admin must enable and configure the Dynamics 365 Sales Insights feature. For information, see [https://docs.microsoft.com/en-us/dynamics365/ai/sales/intro-admin-guide-sales-insights](https://docs.microsoft.com/en-us/dynamics365/ai/sales/intro-admin-guide-sales-insights). 
 
-For more information on how to use the assistand, see [Use the assistant to guide customer communications](https://docs.microsoft.com/dynamics365/ai/sales/assistant).
+For more information on how to use the assistant in your web app, see [Use the assistant to guide customer communications](https://docs.microsoft.com/dynamics365/ai/sales/assistant).
 
 ## Use the assistant
 
