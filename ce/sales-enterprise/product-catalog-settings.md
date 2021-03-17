@@ -1,16 +1,13 @@
 ---
-title: "Configure product catalog settings  | MicrosoftDocs"
+title: "Configure product catalog settings - Obsolete  | MicrosoftDocs"
 description: "Configure settings in Dynamics 365 Sales for building your product catalog."
-ms.date: 02/11/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 03/17/2021
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ---
-
-# Configure product catalog settings
 
 A product catalog includes the list of products and services that your company sells. Sellers choose products from the catalog when they are creating an opportunity, quote, invoice, or order. Configure the product catalog settings to change the seller experience while selecting products from the catalog. For example, you can choose whether the price list selection is mandatory when creating an opportunity, quote, invoice, or order.
 
