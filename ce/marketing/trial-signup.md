@@ -1,7 +1,7 @@
 ---
 title: "Sign up for and install a free trial (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to sign up for a trial of Dynamics 365 Marketing, obtain prerequisite software, and set up the trial."
-ms.date: 09/02/2020
+ms.date: 03/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -27,14 +27,6 @@ Dynamics 365 Marketing offers a free 30-day trial version. The trial allows you 
 - You can install, at most, one Dynamics 365 Marketing trial per Microsoft 365 tenant.
 - You can only install the trial if you are located in a country or region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
-> [!IMPORTANT]
-> Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
->
-> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544) and visit the [Fair use policy](fair-use-policy.md) page.
-> - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
->
-> You can monitor your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md)
-
 > [!NOTE]
 > If would like help setting up a trial, or if you would prefer to get a guided demo, go to the [Get started with Dynamics 365 Marketing](https://dynamics.microsoft.com/get-started/?appname=marketing) page and fill out and submit the **Request a call back** form. A Dynamics 365 sales representative will then contact you. To set up your own trial without personal assistance, continue reading this article.
 
@@ -46,6 +38,15 @@ In most ways, Marketing trials are fully functional, but time-limited, productio
 - Marketing trials can't be integrated with a Power Apps portal. Instead, they provide a special mechanism that lets you try out landing pages, forms, the event website, and other interactive features without requiring a Power Apps portal or external CMS system. More information: [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
 - You can't uninstall or re-install trials using the standard tools provided by the Power Platform admin center. Trials are special and are handled differently than production instances.
 - You don't need to run the [setup wizard](purchase-setup.md) when setting up a trial.
+
+## Trial limits and quotas
+
+Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
+
+- For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544) and visit the [Fair use policy](fair-use-policy.md) page.
+- For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
+
+You can monitor your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md)
 
 <a name="choose-tenant"></a>
 

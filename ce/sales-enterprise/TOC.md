@@ -177,6 +177,7 @@
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
+### [Troubleshooting in-app marketing](ts-inapp-marketing.md)
 ### [Troubleshooting email](ts-email.md)
 ### [FAQs](faqs-sales.md)
 

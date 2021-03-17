@@ -12,6 +12,8 @@ ms.reviewer: lalexms
 
 # Configure email
 
+Email is a critical communication tool for agents to connect with customers during the support delivery lifecycle. Regardless of the channel where the customer begins a conversation, agents often use email to send confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle. Email is almost always used as a communication channel between customers and agents throughout the lifecycle of support delivery.  
+
 In customer engagement apps, system administrators have the ability to configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	
 
 How to navigate email configurations	
