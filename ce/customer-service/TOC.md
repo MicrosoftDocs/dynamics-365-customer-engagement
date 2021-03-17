@@ -79,24 +79,8 @@
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 
-<!-->
-## Routing and assignment
-### Administrator experience
-#### [Create and manage queues for casesx](set-up-queues-manage-activities-cases.md)
-#### [Automatically route casesx](create-rules-automatically-route-cases.md)
-#### [Create and manage queues for conversationsx](queues-omnichannel.md)
-#### Set up skill-based routing for conversations
-##### [Overview of skill-based routingx](overview-skill-work-distribution.md)
-##### [Enable skill-based routing, rating model in Customer Service admin centerx](enable-skill-routing-create-rating-model.md#sbr-cs-admin)
-##### [Enable skill-based routing, rating model in Omnichannel Administrationx](enable-skill-routing-create-rating-model.md#sbr-oc-admin)
-##### [Set up skills, assign agentsx](setup-skills-assign-agents.md)
-##### [Attach skills to conversationsx](attach-skills.md)
 
 #### Manage work distribution for conversations
-##### [Create work streamsx](work-streams-introduction.md)
-
--->
-
 ##### [Create work streams for entity records](set-up-entity-workstream.md)
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)
