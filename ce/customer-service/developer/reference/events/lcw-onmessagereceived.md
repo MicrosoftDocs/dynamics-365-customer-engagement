@@ -18,14 +18,129 @@ The message can either be sent by a user (for example, an agent in Dynamics) or 
 
 ## Sample payload
 
+**Agent assignment**
+
 ```JSON
 { 
 
-detail: { 
+"channelData": { 
 
-messageType: "user" 
+"tags": [
+    "system",
+    "agentassignmentready"
+],
+
+},
+"messageType": "system"
 
 } 
+```
+
+**Agent accepted**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentaccepted"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Agent sent a message**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "public",
+    "client_activity_id:1612311164266bkaspzvq05b"
+],
+
+},
+"messageType": "user"
+
+} 
+```
+
+**Agent ended the conversation**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentendconversation"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Agent ended the session**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "primarysessionclosed"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Agent assignment failed**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentassignmentfailure"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Queue position**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "queueposition",
+    "customerqueuepositionnext"
+],
+
+},
+"messageType": "system"
 
 } 
 ```
