@@ -1,6 +1,6 @@
 ---
-title: "Customer Service admin center | MicrosoftDocs"
-description: "Learn about Customer Service admin center"
+title: "Omnichannel admin center | MicrosoftDocs"
+description: "Get started with Omnichannel admin center"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,5 +9,7 @@ ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ---
 
-# Customer Service admin center
+# Get started with Omnichannel admin center
+
+
 

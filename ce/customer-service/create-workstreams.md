@@ -1,5 +1,5 @@
 ---
-title: "Understand and create work streams | MicrosoftDocs"
+title: "Understand and create workstreams | MicrosoftDocs"
 description: "Understand and create workstreams in Customer Service"
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Create workstreams
+# Create workstreams for conversations
 
 A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
 
@@ -35,4 +35,4 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
    - [Configure a WhatsApp channel](configure-whatsapp-channel.md)
    - [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
-6. 
+6. Configure routing rules for the worksteam. More information: [Configure routing rules]()

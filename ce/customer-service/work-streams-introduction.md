@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Understand and create work streams 
+# Understand and create work streams in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -26,11 +26,11 @@ In Omnichannel for Customer Service, you can create the following types of work 
 
 ## Create a work stream
 
-Perform the following steps to create a work stream in Omnichannel for Customer Service:
+Perform the following steps to create a work stream:
 
-1. In the Omnichannel site map, go to **Work Distribution Management** > **Work Streams**.
+1. In the Omnichannel Administration site map, go to **Work Distribution Management** > **Work Streams**.
 
-    The **Active Work Streams** view is displayed. 
+    The **Active Work Streams** view is displayed.
 
     > [!div class=mx-imgBorder] 
     > ![Omnichannel work streams](media/oc-workstream-view.png)

@@ -47,7 +47,10 @@ In this section, we cover information on how to create a queue for the messaging
         > ![Queue in Omnichannel admin center](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
 2. Select **Add users**, and in the flyout menu, select the users that should be part of the queue, and select **Add**. The users are added to the queue.
-3. In **Assignment method**, you can use the default option highest capacity. You can select **See more** to change the assignment method to round robin or create a custom assignment method. For more information about custom assignment method, see [Create custom assignment method]()
+3. In **Assignment method**, you can use one of the following:
+   - Highest capacity: Selected by default; assigns work item to the agent with the highest capacity.
+   - Round robin: Assigns work item to the agent who matches the criteria first.
+   - Create a custom assignment method. For more information about custom assignment method, see [Create custom assignment method]()
 
 
 ## Create a queue in Omnichannel Administration
