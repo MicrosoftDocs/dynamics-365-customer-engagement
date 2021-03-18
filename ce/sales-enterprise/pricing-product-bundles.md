@@ -5,8 +5,8 @@ ms.date: 04/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub

@@ -4,8 +4,8 @@ description: "A starting point for browsing troubleshooting content for Dynamics
 ms.date: 05/26/2020
 ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -103,12 +103,8 @@ manager: annbe
 </td>
 <td>
 
-<h2>Sales pipeline chart</h2>
-
-
-<li><a href="ts-sales-pipeline.md#different_sequence" data-raw-source="[I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close](ts-sales-pipeline.md#different_sequence)">I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close</a></li>
-<li><a href="ts-sales-pipeline.md#values_from_multiple_bpfs" data-raw-source="[I see pipeline phase values from multiple business process flow definitions](ts-sales-pipeline.md#values_from_multiple_bpfs)">I see pipeline phase values from multiple business process flow definitions</a></li>
-<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client</a></li>
+<h2>Developer</h2>
+<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Price calculation service gets triggered upon retrieving details from OQOI entities</a></li>
 
 </td>
 </tr>
@@ -116,16 +112,29 @@ manager: annbe
 <tr>
 <td>
 
-<h2>Developer</h2>
-<li><a href="developer/custom-plugin-handling-shared-variable.md" data-raw-source="[Custom plug-in handling using shared variable](developer/custom-plugin-handling-shared-variable.md)">Price calculation service gets triggered upon retrieving details from OQOI entities</a></li>
+<h2>In-app marketing</h2>
+<li><a href="ts-inapp-marketing.md#when-i-open-marketing-list-form-the-members-view-is-not-available" data-raw-source="[When I open Marketing List form, the Members view is not available.](ts-inapp-marketing.md#when-i-open-marketing-list-form-the-members-view-is-not-available)">When I open Marketing List form, the Members view is not available</a></li>
+<li><a href="ts-inapp-marketing.md#im-unable-to-associate-a-campaign-created-from-marketing-list-form-with-marketing-list-record-in-unified-interface" data-raw-source="[I’m unable to associate a campaign created from marketing list form with marketing list record in Unified Interface.](ts-inapp-marketing.md#im-unable-to-associate-a-campaign-created-from-marketing-list-form-with-marketing-list-record-in-unified-interface)">I’m unable to associate a campaign created from marketing list form with marketing list record in Unified Interface</a></li>
+<li><a href="ts-inapp-marketing.md#unable-to-find-related-account-field-for-a-member-account-using-advanced-find-in-unified-interface" data-raw-source="[Unable to find related account field for a member account using advanced find in Unified Interface.](ts-inapp-marketing.md#unable-to-find-related-account-field-for-a-member-account-using-advanced-find-in-unified-interface)">Unable to find related account field for a member account using advanced find in Unified Interface</a></li>
+<li><a href="ts-inapp-marketing.md#unable-to-send-emails-using-email-quick-campaign-distribution-list" data-raw-source="[Unable to send emails using email quick campaign distribution list](ts-inapp-marketing.md#unable-to-send-emails-using-email-quick-campaign-distribution-list)">Unable to send emails using email quick campaign distribution list</a></li>
+<li><a href="ts-inapp-marketing.md#unable-to-change-the-form-field-in-the-email-within-the-quick-campaign-wizard" data-raw-source="[Unable to change the Form field in the email within the quick campaign wizard](ts-inapp-marketing.md#unable-to-change-the-form-field-in-the-email-within-the-quick-campaign-wizard)">Unable to change the Form field in the email within the quick campaign wizard</a></li>
+<li><a href="ts-inapp-marketing.md#unable-to-see-email-templates-in-the-distribute-dialog-box" data-raw-source="[Unable to see Email templates in the distribute dialog box.](ts-inapp-marketing.md#unable-to-see-email-templates-in-the-distribute-dialog-box)">Unable to see Email templates in the distribute dialog box</a></li>
+<li><a href="ts-inapp-marketing.md#campaign-activity-distribution-related-issues" data-raw-source="[Campaign Activity Distribution related issues](ts-inapp-marketing.md#campaign-activity-distribution-related-issues)">Campaign Activity Distribution related issues</a></li>
 
 </td>
+<td>
+<h2>Sales pipeline chart</h2>
+<li><a href="ts-sales-pipeline.md#different_sequence" data-raw-source="[I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close](ts-sales-pipeline.md#different_sequence)">I see multiple pipeline phases with different sequences, such as 6-Close and 7-Close</a></li>
+<li><a href="ts-sales-pipeline.md#values_from_multiple_bpfs" data-raw-source="[I see pipeline phase values from multiple business process flow definitions](ts-sales-pipeline.md#values_from_multiple_bpfs)">I see pipeline phase values from multiple business process flow definitions</a></li>
+<li><a href="ts-sales-pipeline.md#different_ordering" data-raw-source="[The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client](ts-sales-pipeline.md#different_ordering)">The sales pipeline chart ordering is displayed differently in Unified Interface vs. the legacy web client</a></li>
+</td></tr>
+
+<tr>
 <td>
 <h2>LinkedIn Integrations</h2>
 <li><a href="../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates" data-raw-source="[Error in enabling LinkedIn updates](../linkedin/ts-linkedin-integration.md#error-in-enabling-linkedin-updates)">Error in enabling LinkedIn updates</a></li>
 <li><a href="../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution" data-raw-source="[Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution](../linkedin/ts-linkedin-integration.md#unable-to-upgrade-the-linkedinsalesnavigatorforunifiedclient-solution)">Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution</a></li>
 
-Unable to upgrade the LinkedInSalesNavigatorForUnifiedClient solution
 </td></tr>
 
 </table>
