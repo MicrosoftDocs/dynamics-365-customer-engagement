@@ -55,12 +55,12 @@ You can easily change the the row an email or appointment is linked to in your a
    > [!div class="mx-imgBorder"] 
    > ![Change Regarding](../media/change-track-regarding.png)
 
-4.  In **Set Regarding** textbox, enter search text. 
+4. In **Set Regarding** textbox, enter search text. 
 
    > [!div class="mx-imgBorder"] 
    > ![Enter search text](../media/change-track-regarding-1.png)
-
-4. When a related rows appears, select the row to link the email or appointment to.
+   
+5. When a related rows appears, select the row to link the email or appointment to.
 
    > [!div class="mx-imgBorder"] 
    > ![Enter search text](../media/change-track-regarding-2.png)
