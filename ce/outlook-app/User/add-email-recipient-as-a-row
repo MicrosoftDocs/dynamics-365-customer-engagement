@@ -1,7 +1,7 @@
 ---
-title: "Add an email recipient as a contact or leade (Dynamics 365 apps) | MicrosoftDocs"
+title: "Add an email recipient as a contact, lead, or account (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-description: Add an email recipient as a contact or lead using Dynamics 365 app for Outook.
+description: Add an email recipient as a contact, lead, or account using Dynamics 365 app for Outook.
 ms.date: 03/19/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -22,11 +22,9 @@ search.app:
   - D365CE
   - D365Outlook
 ---
+# Add an email recipient as a contact, lead, or account
 
-
-## Add an email recipient as a contact, lead, or account
-
-When an Email or Appointment is created or received with a recipient who's email address does not resolve to a record in Dynamics, you might want to add this from the App for Outlook. You have the choice to add the unresolved email address as a Contact, Lead or Account.
+When you create or receive a new email or appointment where the recipient's email address don't resolve to a record in your Dynamics 365 app.  You have the choice to add the unresolved email address as a Contact, Lead or Account.
 
 
 In the **Dynamics 365** pane, click (+) and then select **Add as contact** or **Add as lead**.
