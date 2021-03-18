@@ -41,8 +41,13 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
 
    ![Set Regarding](../media/set-regarding.gif)
 
+## View the linked email or appointment in your app
 
-### Change the row an email or appointment is liked to
+You can easily open your app to and see the meeting or appointment that you linked.
+
+- In the In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
+
+## Change the row an email or appointment is liked to
 
 You can easily change the the row an email or appointment is linked to in your app using the **Change Regarding** feature.
 
@@ -68,4 +73,4 @@ You can easily change the the row an email or appointment is linked to in your a
    > ![Enter search text](../media/change-track-regarding-2.png)
 
 
-
+### Creat a new row
