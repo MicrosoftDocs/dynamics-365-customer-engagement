@@ -35,7 +35,7 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-5. In **Set Regarding** textbox, type in your search text and select the row in your app to associate the email or appointment with.
+5. In **Set Regarding** textbox, type in your search text and select the row to associate the email or appointment with.
 
    ![Set Regarding](../media/set-regarding.gif)
 
