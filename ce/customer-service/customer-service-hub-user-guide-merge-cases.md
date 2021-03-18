@@ -41,7 +41,7 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 2. Open the dashboard you want to look at.  
 
-3. Select at least two active case records that you want to merge using the **Bulk select** button ![bulk-select](media/bulk-select.png).
+3. Select at least two active case records that you want to merge using the **Bulk select** button ![Bulk select option](media/bulk-select.png "Bulk select option").
 4. Select the **More Actions** button ![More Actions button](../customer-service/media/v8-1-more-actions--button.png "More Actions button"), and then select **Merge Cases**.  
 
 5. In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.  
@@ -50,13 +50,13 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 ## Merge cases from a list of case records  
 
-1. On the site map, select **Service** > **Cases**.  
+1. On the site map, select **Service** > **Cases**.
 
-2. Select  at least two active case records that you want to merge, and then on the command bar, select **Merge Cases**.  
+2. Select at least two active case records that you want to merge, and then on the command bar, select **Merge Cases**.
 
-3. In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.  
+3. In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.
 
-4. To see the merged case, open the case it was merged into. You'll find the merged case listed in the **Merged Cases** section on the **Case Relationships** tab.  
+4. To see the merged case, open the case it was merged into. You'll find the merged case listed in the **Merged Cases** section on the **Case Relationships** tab.
 
 ### See also
 
