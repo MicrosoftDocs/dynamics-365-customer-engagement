@@ -44,7 +44,7 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
 
 You can easily change the the row an email or appointment is linked to in your app using the **Change Regarding** feature.
 
-1. Open the email or appointment that you want to link to a differernt row.
+1. Open the email or appointment which you want to link to a differernt row.
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
