@@ -22,6 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
+
 # Add an email recipient as a contact, lead, or account
 
 When you create or receive a new email or appointment where the recipient's email address don't resolve to a record in your Dynamics 365 app.  You have the choice to add the unresolved email address as a Contact, Lead or Account.
