@@ -35,17 +35,16 @@ To configure skill identification ruleset using the machine learning option, you
 3.	In the input attributes section, select the attributes from the conversation entity or related entity. For an incoming work item, these attribute values will be concatenated and send to the Machine learning model for skill prediction
 4.	In the output attributes section, Skill will be preselected which can not be edited or deleted.
 
+## Enable skill-based routing<a name="sbr-oc-admin"></a>
 
-
-## Enable skill-based routing in Omnichannel Administration<a name="sbr-oc-admin"></a>
-
-To use skill-based routing, as an administrator, you must enable skill-based routing in the Omnichannel Administration app.
+To use skill-based routing, as an administrator, you must enable skill-based routing. You can enable the setting in the Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app.
 
 To enable skill-based routing, follow these steps:
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the app.
 
-2. Select **Skill Based Routing** under **Settings** in the sitemap.
+2. Do one of the following depending on which app you're using:
+   - In Omnichannel admin center, in the site map, Select **Skill Based Routing** under **Settings** in the sitemap.
 
 3. On the **Skill Based Routing** tab, set the **Enable Skill Based Routing** toggle to **Yes**.
 
