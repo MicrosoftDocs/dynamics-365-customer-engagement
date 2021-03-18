@@ -205,15 +205,6 @@ For more information on how to set up delegate access, see [Set up delegate acce
 
 If you're running Outlook 2016 for Windows (click to run build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook.Pinning App for Outlook helps you by showing the relevant Dynamics 365 information faster. This will not only give you quick access to App for Outlook but also improves the home page load performance by 30% or more.
 
-## Add an email recipient as a contact or lead
-One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to Dynamics 365. In the **Dynamics 365** pane, click (+) and then select **Add as contact** or **Add as lead**.
-
-![Add a contact or lead](media/add-email-contact-lead.png)
-
-> [!NOTE]
-> If the sender of the email is unknown to Dynamics 365, when you add the contact or lead, the email is automatically tracked in Dynamics 365 and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email. 
-
-
 
 ### Create a new record  
 
