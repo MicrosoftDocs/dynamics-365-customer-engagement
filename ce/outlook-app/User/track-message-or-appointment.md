@@ -23,26 +23,24 @@ search.app:
   - D365Outlook
 ---
 
-# Use set regarding to link an email message or meeting to a specific row 
+# Use set regarding to link an email message or appointment to a specific app record 
 
-You can link an email message or appointment to a specific Dynamics 365 record, such as an account, opportunity, or case. This is known as Set Regarding, as it populates the Regarding lookup on the email or appointment record. This also tracks the email or appointment into Dynamics 365.![image](https://user-images.githubusercontent.com/28316663/111674381-2d253c00-87d9-11eb-81d6-d4a43f243c4e.png)
+Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email message or appointment such as meeting to a specific record in your app. You can link a email message or appointment to a specific account, opportunity, or case record. This populates the regarding lookup on the email or appointment record and tracks the email or appointment in Dynamics 365 app.
 
 
-You can link an email message or meeting to a specific row in your Dynamics 365 app, such as an account, opportunity, or case. This also tracks the email or meeting in Dynamics 365.
+1. Open an email or appointment that you want to associate to a record in your app. 
 
-1. Create or select an email or meeting.
+2. Open the [Dynamics 365 pane](basic-nav.md#open-dynamics-365-pane).
 
-2. Click the **Dynamics 365** button in the email pane.
-
-3. Click **Set Regarding** (---).
+5. In the **Set Regarding** (---).
 
    ![Set Regarding](media/set-regarding-open.png)
 
-4. Enter search text. A list of related records appears.
+6. Enter search text. A list of related records appears.
 
    ![Search for related records](media/set-regarding-search.png)
 
-5. Use the left and right arrows to narrow search to cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
+7. Use the left and right arrows to narrow search to cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
 
 ### Find a different record to link to  
 
