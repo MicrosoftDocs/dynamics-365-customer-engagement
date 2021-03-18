@@ -33,6 +33,9 @@ A few things to remember when you merge cases with parent and child relationship
 
 In the Customer Service Hub, you can merge cases from the dashboard streams or from the list of case records.  
 
+> [!NOTE]
+> The **Merge Cases** dialog box uses the Merge Incident view of the Advanced Find view that can't be customized.
+
 ## Merge cases from dashboard streams  
 
 1. On the sitemap, select **Service** > **Dashboards**.  
