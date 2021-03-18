@@ -135,3 +135,6 @@ When you create customizations in Dynamics 365 Customer Engagement (on-premises)
  <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>   
  <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>    
  <xref:Microsoft.Xrm.Sdk.Metadata.OptionMetadata>   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

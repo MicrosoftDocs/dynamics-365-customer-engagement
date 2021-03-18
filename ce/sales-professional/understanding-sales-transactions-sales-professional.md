@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -46,3 +46,6 @@ The **Use Current Pricing** price comes directly from the product catalog. If yo
 [Create and manage quotes in Dynamics 365 Sales Professional](create-quotes-sales-professional.md)  
 [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ The ability to pass values to a Web page by using query strings represents a con
 ### See also  
  [Set field values using parameters passed to a form](set-field-values-using-parameters-passed-form.md)   
  [Open Forms And Views with a URL](open-forms-views-dialogs-reports-url.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ The landing page of the performance report displays the following:
 [View, read, and compare performance report](view-read-compare-performance-report.md)
 
 [Categories and operations](operations-categories.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -172,3 +172,6 @@ Here are some things you need to be aware of to create and make the best use of 
 
 [Use document templates in Dynamics 365 Sales Professional](use-document-templates-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

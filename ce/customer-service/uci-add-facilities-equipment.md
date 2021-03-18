@@ -1,6 +1,6 @@
 ---
 title: Add facilities and equipment | Microsoft Docs
-description: How to add facilities and equipment in UCI-based Scheduling Service for Dynamics 365 Customer Service.
+description: How to add facilities and equipment in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -62,7 +62,7 @@ Before you begin, make sure you have the **System Administrator** security role 
 
 ### See also  
 
-[UCI-based service scheduling overview](uci-scheduling-overview.md)
+[Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 
 [Create or edit a service](uci-create-edit-service.md)
 
@@ -73,3 +73,6 @@ Before you begin, make sure you have the **System Administrator** security role 
 [Use sites to manage your service locations](uci-create-sites.md)
 
 [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,8 +5,8 @@ ms.date: 02/10/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -63,3 +63,5 @@ Try the following steps to resolve this issue:
 ### See also
 
 [Sign up for a free trial of Dynamics 365 Sales Professional](try-dynamics365-sales-professional.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

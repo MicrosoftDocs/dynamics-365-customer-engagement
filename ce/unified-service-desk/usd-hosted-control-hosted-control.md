@@ -28,3 +28,6 @@ Use the **USD Hosted Control** type of hosted control to create custom hosted co
 ### See also
 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

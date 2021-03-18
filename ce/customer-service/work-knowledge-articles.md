@@ -4,7 +4,7 @@ description: "This topic provides information about working with the new native 
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 05/15/2020
+ms.date: 03/05/2021
 search.audienceType: 
   - developer
 ms.service: "dynamics-365-customerservice"
@@ -167,15 +167,13 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
 
 ## Deprecated knowledge entities  
 
-The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
+The following legacy entities have been deprecated. More information: [Deprecated knowledge entities](deprecations-customer-service.md#deprecatedkmentities)
 
 - [KbArticle](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
 - [KbArticleComment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
 - [KbArticleTemplate](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
 
-Deprecation of the legacy knowledge entities was announced in the [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
-
-Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
+Legacy knowledge entities are not accessible as of December 1, 2020. We strongly recommend that you move to the KnowledgeArticle entity.  For more information about creating a knowledge article in Unified Interface, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).  
 
 Use the following for help with migration:  
 - Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
@@ -195,3 +193,6 @@ Use the following for help with migration:
 - [KnowledgeBaseRecord Entity](../customerengagement/on-premises/developer/entities/knowledgebaserecord.md)
 - [LanguageLocale Entity](../customerengagement/on-premises/developer/entities/languagelocale.md)
 - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

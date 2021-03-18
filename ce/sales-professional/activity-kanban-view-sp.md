@@ -5,9 +5,15 @@ ms.date: 04/16/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-activitypointer
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Work with activities in the Kanban view (Sales Professional)
@@ -69,3 +75,6 @@ Here are some important things to know about your Kanban view:
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control-sp.md)  
 [Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional](manage-activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

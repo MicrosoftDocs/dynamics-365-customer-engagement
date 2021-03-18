@@ -46,3 +46,6 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 ## See also
 
 - [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

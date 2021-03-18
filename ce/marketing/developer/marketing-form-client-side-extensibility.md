@@ -202,3 +202,5 @@ To add the code snippet, you need to follow the steps below:
         <option>Vdovec(vdova)</option>
     </datalist>
     ```
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

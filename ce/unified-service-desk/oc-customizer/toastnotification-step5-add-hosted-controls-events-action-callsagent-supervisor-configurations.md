@@ -72,3 +72,6 @@ This topic describes how to add hosted control, events, actions calls to the con
 - [Step 3: Create Omnichannel Toast Notification-related action calls](toastnotification-step3-create-action-call-display-notification.md)
 - [Step 4: Attach Omnichannel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

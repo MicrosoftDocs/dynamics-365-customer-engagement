@@ -144,3 +144,6 @@ The application type is used to display first-party and third-party websites as 
 [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
 
 [Associate templates with workstreams](associate-templates-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

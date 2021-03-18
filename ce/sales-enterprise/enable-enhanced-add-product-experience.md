@@ -5,8 +5,8 @@ ms.date: 01/08/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -68,3 +68,6 @@ If you're using a custom app, you can enable the enhanced experience from **Syst
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
 [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,8 +5,8 @@ ms.date: 07-13-2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -92,3 +92,6 @@ Every user in the organization must have the **Sales, Enterprise app access** ro
 ### See also
 [Overview of Sales and Sales Hub](overview.md)  
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

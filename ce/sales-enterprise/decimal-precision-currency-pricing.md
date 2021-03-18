@@ -5,8 +5,8 @@ ms.date: 06-17-2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -91,3 +91,6 @@ To apply this precision setting to any of the currency field in the system, go t
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
 [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)  
 [Troubleshooting the Product entity](ts-products.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

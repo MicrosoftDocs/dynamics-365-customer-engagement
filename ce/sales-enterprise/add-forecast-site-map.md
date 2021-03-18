@@ -74,3 +74,6 @@ More information: [Create a site map for an app using the site map designer](/cu
 [Configure a forecast in your organization](configure-forecast.md)
 
 [Design custom business apps by using the app designer](/customerengagement/on-premises/customize/design-custom-business-apps-using-app-designer)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

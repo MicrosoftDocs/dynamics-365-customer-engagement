@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -54,3 +54,6 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 ### See also  
 
 [Make grids (lists) editable using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

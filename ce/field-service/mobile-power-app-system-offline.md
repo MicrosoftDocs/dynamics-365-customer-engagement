@@ -3,7 +3,7 @@ title: "Configure offline data for the Field Service (Dynamics 365) mobile app |
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/13/2021
+ms.date: 01/27/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -72,11 +72,12 @@ Within your offline profile you can:
 
 Open the **Field Service Mobile - Offline Profile**.  
 
-Add the users who need to work offline in the right **People with offline access** panel. Users must be added here in order to download data offline.
+Add the users or teams to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team while individual users are displayed directly in the offline profile. 
+
+A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile, you will see a warning stating that the user is already part of a different offline profile. If you continue with the change, the user or team will be moved to the new profile. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
-
 
 ## Edit the offline profile
 
@@ -164,9 +165,13 @@ While we recommend making changes directly to the default offline profile to rec
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: ``` Xrm.WebApi.online```.
+- [More platform supported capabilities and limitations for offline](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities)
 
 
 ### See also
 
 - [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

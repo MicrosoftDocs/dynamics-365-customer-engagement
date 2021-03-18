@@ -134,3 +134,6 @@ Enter **/t** or **/tq** followed by the name of a participant or queue. If the p
 [Create a record](create-record.md)  
 [Search for records](search-record.md)  
 [Link and unlink a record](link-unlink-record.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -39,3 +39,6 @@ You can create categories to classify playbooks. For example, categories could b
 ### See also
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Manage playbook templates](manage-playbook-templates.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

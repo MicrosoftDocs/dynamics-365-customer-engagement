@@ -43,3 +43,6 @@ A service is work that is performed for a customer. The definition typically inc
   
 ## In This Section  
  [Service Entity](entities/service.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

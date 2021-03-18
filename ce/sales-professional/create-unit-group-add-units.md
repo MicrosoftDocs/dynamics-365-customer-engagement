@@ -7,9 +7,19 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-product
+  - D365-Entity-pricelevel
+  - D365-Entity-productpricelevel
+  - D365-Entity-uom
+  - D365-Entity-uomschedule
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create a unit group and add units
@@ -61,3 +71,6 @@ Units are the quantities or measurements that you sell your products or services
 
 [Create a price list](create-price-list.md)  
 [Create a product](create-products.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

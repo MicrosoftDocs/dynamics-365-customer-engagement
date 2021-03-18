@@ -1006,3 +1006,6 @@ See msdyn_appconfiguration Entity [msdyn_appconfiguration_sessiontemplate](msdyn
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

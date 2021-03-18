@@ -115,3 +115,6 @@ Record-based security in Dynamics 365 Customer Engagement (on-premises) applies 
  [Entity Relationship Behavior](../entity-relationship-behavior.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AccessRights>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

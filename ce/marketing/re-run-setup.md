@@ -61,3 +61,6 @@ To re-run the Marketing setup wizard:
     - **Uninstall Marketing from this org**: Removes Marketing from the selected instance. More information: [Uninstall Marketing](uninstall-marketing.md)
 
     If your selected Marketing instance isn't currently integrated with a Power Apps portal, then you can set this up by selecting **Use Dynamics 365 Portals or a Power Apps portal** in the main area of the window. More information: [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

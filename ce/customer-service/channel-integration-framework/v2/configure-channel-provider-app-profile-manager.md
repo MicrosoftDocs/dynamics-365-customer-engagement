@@ -61,3 +61,6 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 [App profile manager](../../../app-profile-manager/overview.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

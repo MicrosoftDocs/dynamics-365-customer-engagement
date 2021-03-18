@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -340,3 +340,6 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

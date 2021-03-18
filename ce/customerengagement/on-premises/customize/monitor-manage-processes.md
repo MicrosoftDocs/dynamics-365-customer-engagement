@@ -71,3 +71,6 @@ To monitor and manage processes, you must locate the process, evaluate the statu
  [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)<br/>
  [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md)<br/>
  [Asynchronous service in Dynamics 365 Customer Engagement (on-premises)](../developer/asynchronous-service.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

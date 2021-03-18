@@ -217,3 +217,6 @@ By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files 
 - [Sample "Parts Order" PowerApp](https://1drv.ms/u/s!AhAjbOq5aB_lsUKadMDMR9zrTVPW?e=LHZari) for guidance in this article.
 - [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
 - [Set URI parameters for your canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

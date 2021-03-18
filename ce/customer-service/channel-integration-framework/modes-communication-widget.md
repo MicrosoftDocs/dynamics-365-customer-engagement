@@ -21,3 +21,6 @@ ms.custom:
 [setMode (JavaScript API reference)](reference/microsoft-ciframework/setMode.md)
 
 [getMode (JavaScript API reference)](reference/microsoft-ciframework/getMode.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

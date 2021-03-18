@@ -7,9 +7,16 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-product
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+
 ---
 
 # Create products in Dynamics 365 Sales Professional
@@ -163,3 +170,6 @@ To stop selling a product, delete it.
 
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

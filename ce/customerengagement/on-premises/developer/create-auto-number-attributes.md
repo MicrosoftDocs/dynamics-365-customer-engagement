@@ -284,3 +284,6 @@ Please see the [Developer tools](developer-tools.md) topic for community develop
 ### See Also
 [Metadata and data models](metadata-data-models.md)  
 [Customize entity attribute metadata](customize-entity-attribute-metadata.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

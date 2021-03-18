@@ -73,3 +73,6 @@ Usually, an account has more than one contact associated with it, especially whe
  [Import contacts](../basics/import-contacts.md)    
  [Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

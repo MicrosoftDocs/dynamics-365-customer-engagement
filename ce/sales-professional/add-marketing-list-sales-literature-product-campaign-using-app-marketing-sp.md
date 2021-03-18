@@ -7,9 +7,15 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-list
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales Professional)
@@ -44,3 +50,6 @@ Add all items to your campaign that your need in this marketing context. Usually
 
 ### See Also  
 [Get started with in-app marketing](get-started-app-marketing-sp.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

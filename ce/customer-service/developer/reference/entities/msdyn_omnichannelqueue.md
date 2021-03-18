@@ -674,8 +674,6 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid
 
-Same as msdyn_ocliveworkitem entity [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid) Many-To-One relationship.
-
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_ocliveworkitem|
@@ -721,3 +719,6 @@ Same as msdyn_ocsession entity [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_que
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

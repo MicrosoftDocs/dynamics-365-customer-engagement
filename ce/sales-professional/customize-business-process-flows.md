@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -272,3 +272,6 @@ To create the image:
 
 [Customize forms](customize-forms.md)  
 [Customize views](customize-views.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

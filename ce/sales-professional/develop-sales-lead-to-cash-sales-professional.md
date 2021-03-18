@@ -7,9 +7,17 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-lead
+  - D365-Entity-opportunity
+  - D365-Entity-quote
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Develop sales from lead to cash in Dynamics 365 Sales Professional
@@ -29,3 +37,6 @@ Your sales process begins with a lead—someone who is interested in the product
 [Create and manage quotes](create-quotes-sales-professional.md)  
 [Create and manage invoices](create-invoices.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

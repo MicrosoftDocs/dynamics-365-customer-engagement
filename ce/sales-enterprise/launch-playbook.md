@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -49,3 +49,6 @@ To ensure consistency in your business process or to know what steps to follow i
 [Track playbook activities](track-playbook-activities.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
 [Mark playbook as completed](mark-playbook-completed.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

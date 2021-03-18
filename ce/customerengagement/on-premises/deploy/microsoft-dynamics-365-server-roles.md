@@ -146,3 +146,6 @@ With [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], 
  [Microsoft Dynamics 365 multiple-server deployment](microsoft-dynamics-365-multiple-server-deployment.md)   </br>
  [Support for Microsoft Dynamics 365 multiple-server topologies](dynamics-365-multiple-server-topologies.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

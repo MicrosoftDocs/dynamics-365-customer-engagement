@@ -58,3 +58,6 @@ After successful installation, you can access scheduling in the Customer Service
 [Plan your migration](plan-migration.md)
 
 [Migrate entity records](migrate-entity-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

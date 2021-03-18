@@ -5,8 +5,8 @@ ms.date: 05/26/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -255,3 +255,6 @@ This is by design. In the lead form, after selecting the existing account, only 
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

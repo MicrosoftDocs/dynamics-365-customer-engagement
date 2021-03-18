@@ -47,3 +47,6 @@ Microsoft.CIFramework.updateConversation(conversationId, jsonData).then(
       }
   );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

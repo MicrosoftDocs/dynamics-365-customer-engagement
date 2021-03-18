@@ -1,14 +1,14 @@
 ---
 title: "Create a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use products in Dynamics 365 Sales to define the products or services that your organization offers."
-ms.date: 10/01/2019
+ms.date: 02/10/2021
 ms.service: 
   - "dynamics-365-sales"
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -19,7 +19,7 @@ searchScope:
   - Customer Engagement
 ---
 
-# Set up products (Sales and Sales Hub)
+# Set up products (Sales Hub)
 
 Products are the backbone of your business. They can be physical products or services—whatever your organization sells. Your sales reps use the products you create in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] to generate sales quotes, marketing campaigns, orders, and invoices. Your customer service reps might also use them when they create customer service cases.  
 
@@ -74,64 +74,6 @@ Products are the backbone of your business. They can be physical products or ser
 > [!NOTE]
 > Previewing the properties of product is currently not supported in the Sales Hub app.
 
-
-## Create a product (Sales)
-
-1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
-  
-3. In the **Product Catalog** area, select **Families & Products**.  
-  
-4. If you want to create a child product to an existing product family, select the family in the list, and then select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
-  
-    -OR-  
-  
-    If you want to create an independent product, simply select **Add Product**.  
-  
-5. Fill in your information:  
-
-   - **Name** 
-
-   - **Product ID**
-
-   - **Family Hierarchy**: If this product is connected to other products in a hierarchy, the hierarchy is shown here in a breadcrumb. 
-   
-   - **Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
-
-   - **Unit Group**: Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds" and defined its primary unit as "packet."  
-  
-   - **Unit**: Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit.  
-  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
-  
-   > [!NOTE]
-   > The **Valid From** and **Valid To** fields define how long a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
-  
-6. Select **Save**.  
-  
-7. In the **Price List Items** section, select the **Add a Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
-  
-8. In the **Default price list** box, select a default price list. This price list is used for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
-  
-   > [!NOTE]
-   > A price list will be available for selection only when the product you're creating is added to it as a price list item (as described in Step 7).  
-  
-9. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
-  
-10. In the **Product Relationships** section, select the **Add a Record** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
-  
-11. Select the **Save** button in the bottom-right corner.  
-  
-12. After you're done adding all the details, make sure to review everything and ensure it's correct. On the command bar, select **Preview**. The **Properties Preview** dialog box lets you verify how the product properties will appear to sales agents when they're selling the product or bundle.  
-  
-13. After you're done verifying, select **Done**.  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Define product pricing with price lists and price list items](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
@@ -142,3 +84,6 @@ Products are the backbone of your business. They can be physical products or ser
  [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
  [Manage sales literature](create-sales-literature.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,8 +5,8 @@ ms.date: 03/24/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -137,3 +137,5 @@ These issues might occur due to improper customization of the application. You m
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

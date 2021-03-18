@@ -33,3 +33,6 @@ General information about using impersonation with plug-ins can be found in the 
  [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context)  
  [Impersonate Another User](org-service/impersonate-another-user.md)  
  [Support offline execution](support-offline-execution.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

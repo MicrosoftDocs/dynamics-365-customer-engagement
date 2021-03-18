@@ -33,3 +33,6 @@ This section describes how to uninstall, repair, or change [!INCLUDE[pn_microsof
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

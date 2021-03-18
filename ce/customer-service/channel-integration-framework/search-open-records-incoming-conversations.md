@@ -213,3 +213,6 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 [Sample code for softphone integration](sample-softphone-integration.md)
 
 [Frequently asked questions](faq-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

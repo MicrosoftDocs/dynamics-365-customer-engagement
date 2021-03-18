@@ -173,3 +173,6 @@ Entities include a set of attributes that represent the data that can be include
  [Calculated and Rollup Attributes](calculated-rollup-attributes.md)   
  [Sample: Retrieve Valid Status Transitions](sample-retrieve-valid-status-transitions.md)   
  [Sample: Set and retrieve entity images](sample-set-retrieve-entity-images.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ You can delete a business unit to completely remove it from Dynamics 365 Custome
 
 ### See also  
  [Assign a business unit a different parent business](../admin/assign-business-unit-different-parent.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

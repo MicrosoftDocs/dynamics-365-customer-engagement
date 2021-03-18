@@ -94,3 +94,6 @@ At times, you may need to manually assign a conversation. In such cases, the con
 [Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
 [Enable sentiment analysis](enable-sentiment-analysis.md)  
 [Enable supervisors to monitor and assign conversations](configure-intraday-dashboard-supervisor.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -41,3 +41,6 @@ You can now edit the app using the app designer. To learn about how to use the a
 
 [Admin settings overview](admin-settings-overview.md)    
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ This device will now be associated with a customer account, and can receive IoT 
 
 > [!div class="nextstepaction"]
 > [Step 3: Send work order updates to IoT Central](cfs-iot-central-work-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

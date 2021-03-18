@@ -5,8 +5,8 @@ ms.date: 08/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -91,3 +91,6 @@ manager: annbe
 </td></tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

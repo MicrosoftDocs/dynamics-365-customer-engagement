@@ -36,3 +36,6 @@ Returns the array of Session Ids for a given provider.
 ## Return Value
 
 Promise with the value as array of strings.
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

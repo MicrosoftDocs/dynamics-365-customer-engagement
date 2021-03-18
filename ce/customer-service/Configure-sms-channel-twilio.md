@@ -98,7 +98,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     > To configure routing rules and other options in the work stream for Twilio, see the following:
     > - [Skill-based routing](overview-skill-work-distribution.md)
     > - [Productivity tools](productivity-tools.md)
-    > - [Smart assist](smart-assist.md)
+    > - [Smart assist](../app-profile-manager/smart-assist.md)
     > - [Templates](templates-overview.md)
 
 ### Establish a connection between Omnichannel for Customer Service and the Twilio account
@@ -130,3 +130,6 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Delete a configured channel](delete-channel.md)  
 [SMS FAQ](faqs.md#sms)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

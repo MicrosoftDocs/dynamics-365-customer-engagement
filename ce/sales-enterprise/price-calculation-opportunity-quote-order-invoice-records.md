@@ -5,8 +5,8 @@ ms.date: 06/15/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -91,3 +91,6 @@ When a price list item is added as a product in opportunity, quote, order or in
 [Add products to an opportunity](add-products-opportunity.md)  
 [Add products to quotes, orders, or invoices](add-product-quote-order-invoice.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -65,3 +65,6 @@ privileges associated with that role.
 
 [Add or manage users in Dynamics 365 Sales Professional](manage-users.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,9 +5,17 @@ ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Enable automatic generation of quotes and invoices
@@ -33,3 +41,6 @@ Make sure that all the quotes and invoices that your sales team sends out to cus
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,8 +5,8 @@ ms.date: 06/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -41,3 +41,6 @@ To lock prices or to use current pricing:
 
 [Create or edit orders](create-edit-order-sales.md)  
 [Create or edit invoices](create-edit-invoice-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

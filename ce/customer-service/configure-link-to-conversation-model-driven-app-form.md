@@ -307,3 +307,6 @@ To learn more, see [Import the ribbon](/powerapps/developer/model-driven-apps/ex
 [Define ribbon enable rules](https://docs.microsoft.com/powerapps/developer/model-driven-apps/define-ribbon-enable-rules)
 
 [Pass data from a page as a parameter to Ribbon Actions](https://docs.microsoft.com/powerapps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

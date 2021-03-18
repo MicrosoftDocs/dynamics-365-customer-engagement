@@ -112,12 +112,12 @@ After you type **/c** in the communication panel messaging area, you can continu
 
 ## Transfer the conversation
 
-The communication panel allows you to transfer a conversation request. You can transfer the conversation (work item) either to an agent or a queue.
+In the communication panel, you can transfer the conversation (work item) either to an agent or a queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list](media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
 
-You can transfer a request only to agents who are configured in the same queue. If the request belongs to another queue and you transfer the request, the work distribution system assigns the conversation (work item) to the appropriate agent in the queue. 
+You can transfer the request only to agents who are configured in the same queue. If the request belongs to another queue and you transfer the request, the work distribution system assigns the conversation to the appropriate agent in the queue.
 
 Agents whose presence is set to Busy-DND, Away, or Offline will not appear in the agents list of the transfer pane. Also, agents 
 
@@ -185,3 +185,6 @@ To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-c
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
 [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

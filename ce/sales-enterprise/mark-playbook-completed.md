@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -51,3 +51,6 @@ When you complete all the activities created for a playbook, you must mark the p
 ### See also
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 [Track playbook activities](track-playbook-activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

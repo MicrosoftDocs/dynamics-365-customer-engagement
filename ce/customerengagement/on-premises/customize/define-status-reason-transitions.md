@@ -71,3 +71,6 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
 ### See Also  
  [Create and edit fields](../customize/create-edit-fields.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

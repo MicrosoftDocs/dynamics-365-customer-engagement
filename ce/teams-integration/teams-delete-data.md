@@ -2,7 +2,7 @@
 title: "Delete Microsoft Teams data | MicrosoftDocs"
 ms.custom: 
 description: "Delete Microsoft Teams data."
-ms.date: 8/26/2020
+ms.date: 8/27/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -46,3 +46,6 @@ For more information on how to install Windows PowerShell, see [Azure ActiveDire
 |``` (Get-MsolCompanyInformation).ObjectId ```        |         |
 
 Record this information to provide to the support team.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

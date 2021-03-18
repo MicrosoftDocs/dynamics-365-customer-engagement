@@ -5,8 +5,8 @@ ms.date: 04/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -175,3 +175,6 @@ The out-of-the-box **Stakeholders** subgrid only shows connections that have a c
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

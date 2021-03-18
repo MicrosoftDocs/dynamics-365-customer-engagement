@@ -75,3 +75,6 @@ The knowledge base search lets you search for relevant knowledge articles to res
 [Guide customer interaction with agent scripts](oc-agent-scripts.md) <br>
 [Automate tasks with macros](../app-profile-manager/macros.md) <br>
 [Search for knowledge articles](search-knowledge-articles-csh.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

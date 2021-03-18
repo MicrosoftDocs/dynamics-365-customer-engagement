@@ -5,8 +5,8 @@ ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -177,3 +177,6 @@ Here are some suggestions about how to use activities to your organization's bes
 ### See also
 
 [Work with activities in the Kanban view](activity-kanban-view.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

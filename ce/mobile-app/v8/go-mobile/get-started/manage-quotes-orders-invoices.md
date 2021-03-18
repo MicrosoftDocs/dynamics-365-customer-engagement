@@ -171,3 +171,6 @@ As a sales professional, you'll frequently work with the following types of reco
   
 ### See also  
  [Install Dynamics 365 for phones and tablets](install.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

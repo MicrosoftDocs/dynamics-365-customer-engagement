@@ -21,3 +21,6 @@ search.app:
 # Advanced filters for the schedule assistant in Dynamics 365 Field Service
 
 [!INCLUDE[schedule-assistant-advanced-filters.md](../shared/urs/schedule-assistant-advanced-filters.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

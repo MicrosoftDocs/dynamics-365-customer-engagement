@@ -119,3 +119,6 @@ Because the conversation assignment takes place using the notification alert, th
 [Create workstream for entity record routing](set-up-entity-workstream.md)  
 [Work with queues](queues-omnichannel.md)  
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

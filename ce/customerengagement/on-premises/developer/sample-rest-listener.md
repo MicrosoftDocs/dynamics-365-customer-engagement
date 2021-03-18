@@ -41,3 +41,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample Code for Dynamics 365 Customer Engagement and Microsoft Azure Integration](sample-code-azure-integration.md)   
  [Sample: Persistent Queue Listener](sample-persistent-queue-listener.md)   
  <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

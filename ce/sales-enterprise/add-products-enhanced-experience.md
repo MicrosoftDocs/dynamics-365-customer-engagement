@@ -5,8 +5,8 @@ ms.date: 01/08/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -164,3 +164,6 @@ To remove a product from the selection, go to the **Selected** tab. For the prod
 [Add products to an opportunity](add-products-opportunity.md)  
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add products dialog box](customize-add-products-dialog-box.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

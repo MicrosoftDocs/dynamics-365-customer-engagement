@@ -134,3 +134,6 @@ Get-CrmOrganization
 Sample:
 
 ![Example Organization ID](media/ps_orgid.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

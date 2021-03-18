@@ -36,3 +36,5 @@ Export members from a dynamic segment straight to an Excel file, no matter how l
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Design behavioral segments](segments-interaction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

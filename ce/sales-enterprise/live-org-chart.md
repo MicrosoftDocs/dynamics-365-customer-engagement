@@ -5,8 +5,8 @@ ms.date: 10/01/2019
 ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -83,3 +83,6 @@ When a contact is removed, the direct reports (if available) of that contact wil
 [User Guide (Sales and Sales Hub)](user-guide.md)    
 [Administrator and Sales Manager Guide](admin-guide.md)    
 [How to enable hierarchy for contacts](https://blogs.technet.microsoft.com/lystavlen/2014/10/02/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

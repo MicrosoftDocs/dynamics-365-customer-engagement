@@ -1,12 +1,12 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 06/25/2020
+ms.date: 02/10/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -17,7 +17,7 @@ searchScope:
   - Sales
 ---
 
-# Create or edit opportunities (Sales and Sales Hub)
+# Create or edit opportunities (Sales Hub)
 
 An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win. 
 
@@ -41,7 +41,7 @@ Here are the different ways in which you can create an opportunity:
 - Create an opportunity from the Opportunities list. More information: [Create an opportunity](#create-sales-hub)
 
 
-## Create an opportunity from the Opportunities list (Sales Hub)<a name="create-sales-hub"></a>
+<a name="create-sales-hub"></a>
 
 1. In the site map, select **Opportunities**.
 
@@ -129,37 +129,6 @@ Here are the different ways in which you can create an opportunity:
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
 
 
-## Create an opportunity from the Opportunities list (Sales)<a name="create-sales"></a>
-
-If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
-
-If you want to create an opportunity without first creating a lead, do the following:  
-  
-1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  
-  
-2. Select **New**.  
-  
-3. In the **Summary** area, enter the company and contact information for the opportunity.  
-  
-4. In the **Details** area of the **Opportunity** form, enter information about your opportunity's industry and preferred contact method.  
-  
-5. Add any notes and activities (for example, phone calls or emails) related to this opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
-  
-6. In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
-
-   In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.   
-  
-7. If other people in your organization are working on this sale, be sure to add them as sales team members. In the **Sales Team** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button"), and then select **+ New Connection** to add a member of the sales team (from your organization).  
-  
-8. To add competitors, in the **Competitors** area, select **+**.  
-  
-9. To add products, in the **Products** area, select **+**.  
-  
-10. To add a quote, in the **Quotes** area, select **+**. [!include[proc-more-information](../includes/proc-more-information.md)] [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
-  
-11. Select **Save** in the lower-right corner of the screen. 
-  
-
 > [!IMPORTANT]
 > The **Pipeline Phase** field of the Opportunity entity has been used in sales charts and dashboards to show the current phase in the sales pipeline for the opportunity. This field is populated by the stage change information on the business process flow for the Opportunity entity.
 > Because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] supports multiple business process flows for the Opportunity entity, the **Pipeline Phase** field will be populated with the last stage change information done on any business process flow on the opportunity record. If you're using multiple business process flows on opportunity, exercise your discretion while using this field. [!include[proc-more-information](../includes/proc-more-information.md)] [Business process flows overview](../customize/business-process-flows-overview.md)
@@ -187,3 +156,6 @@ If you want to create an opportunity without first creating a lead, do the follo
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
 [Print quote, invoice, or other records](print-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

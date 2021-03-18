@@ -76,3 +76,6 @@ manager: kvivek
 ## See also  
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

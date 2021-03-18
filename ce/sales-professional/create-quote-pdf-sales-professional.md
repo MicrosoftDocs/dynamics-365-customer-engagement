@@ -5,9 +5,17 @@ ms.date: 10/28/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create PDF files from sales records
@@ -186,3 +194,6 @@ You can also generate a PDF file and directly email it to a customer.
 ### See also
 
 [Enable PDF generation from sales records](enable-pdf-generation-quote-sales-professional.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

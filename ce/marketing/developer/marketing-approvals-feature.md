@@ -118,3 +118,5 @@ To easily identify the entities that are in the **Approval required** and **Appr
 
 ## See also
 [Build approvals feature using Power Automate](build-approval-feature-using-flow.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ There are two themes for the notification - Dark and Light. You'll see the theme
 
 - [View communication panel](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

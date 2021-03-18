@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -32,3 +32,6 @@ A product hierarchy gives you a visual snapshot of the products your organizatio
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
  [Create a product family](../sales-enterprise/create-product-family.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

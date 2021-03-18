@@ -5,8 +5,8 @@ ms.date: 10/28/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -62,3 +62,6 @@ If you're using Dynamics 365 for phones on a mobile device, you can enable the c
 ### See also
 
 [Create PDF files from sales records](create-quote-pdf.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -35,3 +35,6 @@ For example, think of a TV that was previously classified as "Plasma." The organ
 
 [Set up products (Sales and Sales Hub)](create-product-sales.md)  
 [Set up a product family (Sales and Sales Hub)](create-product-family.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

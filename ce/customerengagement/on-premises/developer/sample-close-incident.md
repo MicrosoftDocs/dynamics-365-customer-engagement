@@ -41,3 +41,6 @@ This sample code is for Dynamics 365 Customer Engagement (on-premises). [Downloa
  [Incident (Case) Entities](incident-case-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.CloseIncidentRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

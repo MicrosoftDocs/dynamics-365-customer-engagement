@@ -5,8 +5,8 @@ ms.date: 04/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -35,3 +35,6 @@ Dynamics 365 Sales uses the Opportunity Sales Access Team template to provide ac
 ### See also
 
 [Create or edit opportunities](create-edit-opportunity-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

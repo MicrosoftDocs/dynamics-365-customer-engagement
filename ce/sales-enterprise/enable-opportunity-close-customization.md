@@ -5,8 +5,8 @@ ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -48,3 +48,6 @@ If you're using a custom app, in addition to enabling the customization of oppor
 
 [Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
 [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

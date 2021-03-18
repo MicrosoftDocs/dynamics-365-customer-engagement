@@ -40,3 +40,6 @@ This section contains reference documentation of the public assemblies, web serv
 ## Related Sections  
  [Get started with developement for Dynamcis 365 Customer Engagement (on-premises)](get-started-sdk.md)<br />
  [Sample code directory](sample-code-directory.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

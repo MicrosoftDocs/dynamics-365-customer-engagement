@@ -1307,3 +1307,5 @@ See msdyn_rtvproduct Entity [msdyn_msdyn_rtvproduct_msdyn_rmareceiptproduct_RTVP
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_rmareceiptproduct?text=msdyn_rmareceiptproduct EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

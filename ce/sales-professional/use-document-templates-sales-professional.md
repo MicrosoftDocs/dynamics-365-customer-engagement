@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -71,3 +71,6 @@ Save a copy either online or to your computer. Send the file to others for their
 [Manage Excel templates in Dynamics 365 Sales Professional](manage-excel-templates.md)  
 [Manage Word templates in Dynamics 365 Sales Professional](manage-word-templates.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

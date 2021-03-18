@@ -105,3 +105,6 @@ https://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entit
  [Work with Dialogs](use-dialogs-guided-processes.md)  
  [Understanding Dialogs](understand-dialogs.md)  
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Dialog](sample-create-retrieve-update-delete-dialog.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

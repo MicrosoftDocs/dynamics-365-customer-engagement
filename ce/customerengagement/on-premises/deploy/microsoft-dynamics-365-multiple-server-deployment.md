@@ -48,3 +48,6 @@ manager: kvivek
  [Microsoft Dynamics 365 Server roles](microsoft-dynamics-365-server-roles.md)   </br>
  [Support for Microsoft Dynamics 365 multiple-server topologies](dynamics-365-multiple-server-topologies.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

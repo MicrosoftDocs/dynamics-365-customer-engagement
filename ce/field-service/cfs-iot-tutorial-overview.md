@@ -24,3 +24,6 @@ Connect Azure IoT Central to Connected Field Service using Power Automate in jus
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

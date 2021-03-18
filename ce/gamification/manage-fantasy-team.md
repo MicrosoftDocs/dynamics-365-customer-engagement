@@ -71,3 +71,6 @@ After the commissioner activates the game, you'll receive an email with instruct
 
  [Overview for players and fans in Gamification](for-players-fans.md)   
  [See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

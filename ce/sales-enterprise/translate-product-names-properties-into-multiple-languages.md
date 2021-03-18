@@ -7,12 +7,12 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: sakudes
 ---
 
-# Translate product names and properties into multiple languages (Sales)
+# Translate product names and properties into multiple languages (Sales Hub)
 
 When you sell your products in different regions, it is important that you translate significant product details into multiple languages. Help sales agents find things they need easily by making all the relevant details like cross-sell or upsell suggestions, or properties, available to them in their preferred language.   
   
@@ -90,3 +90,6 @@ When you sell your products in different regions, it is important that you trans
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
  [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

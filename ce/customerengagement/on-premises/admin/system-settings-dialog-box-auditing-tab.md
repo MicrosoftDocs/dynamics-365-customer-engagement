@@ -55,3 +55,6 @@ Specify to audit specific areas of the product, as described in the following ta
   
 ### See also  
  [Audit data and user activity](../developer/audit-user-access.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

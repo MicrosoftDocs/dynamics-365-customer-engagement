@@ -1,10 +1,10 @@
 ---
 title: "requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: ""
+description: "Know about requestFocusSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 11/02/2020
+ms.date: 03/03/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -22,7 +22,7 @@ applies_to:
 
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
-Sets the focus on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider.
+Shows a notification indicator on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider. The notification indicator draws the user's attention to switch between sessions.
 
 ## Syntax
 
@@ -52,3 +52,6 @@ Microsoft.CIFramework.requestFocusSession("session-id-1", correlationId).then(
         return Promise.reject(error)
 };
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

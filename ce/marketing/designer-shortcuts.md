@@ -232,3 +232,6 @@ Most of the standard navigation and selection keyboard commands function as usua
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Design lead-scoring models](score-manage-leads.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

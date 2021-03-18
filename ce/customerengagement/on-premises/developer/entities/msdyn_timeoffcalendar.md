@@ -873,3 +873,5 @@ See msdyn_timeentry Entity [msdyn_msdyn_timeentry_msdyn_timeoffcalendar_timeEntr
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_timeoffcalendar?text=msdyn_timeoffcalendar EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

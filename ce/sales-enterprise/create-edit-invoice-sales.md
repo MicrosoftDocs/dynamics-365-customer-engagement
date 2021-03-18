@@ -1,12 +1,12 @@
 ---
 title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
-ms.date: 06/22/2020
+ms.date: 02/10/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -19,7 +19,7 @@ searchScope:
   - Sales
 ---
 
-# Create or edit invoices (Sales and Sales Hub)
+# Create or edit invoices (Sales Hub)
 
 When a customer places an order, you can create an invoice to bill them for the upcoming sale.  
   
@@ -28,11 +28,7 @@ Typically, you convert an order into an invoice; however, you can also create an
 <a name="bkmk1"></a>   
 ## Create an invoice from an order  
 
-1. [!INCLUDE[proc_sales_orders](../includes/proc-sales-orders.md)]  
-
-    or
-
-    In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
+1. In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
   
 2. Select the order you want to create an invoice from.  
   
@@ -50,11 +46,7 @@ Typically, you convert an order into an invoice; however, you can also create an
   
 ## Create an invoice  
   
-1. [!INCLUDE[proc_sales_invoices](../includes/proc-sales-invoices.md)]  
-
-    or
-
-    In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Invoices**. 
+1. In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Invoices**. 
   
 2. Select **New**.  
 
@@ -94,13 +86,11 @@ Typically, you convert an order into an invoice; however, you can also create an
 <a name="bkmk3"></a>   
 ## Edit an invoice  
   
-1. [!INCLUDE[proc_sales_invoices](../includes/proc-sales-invoices.md)]  
+1. In the list of invoices, select the invoice you want to edit.  
   
-2. Select the invoice you want to edit.  
+2. Add or change any details about your invoice.  
   
-3. Add or change any details about your invoice.  
-  
-4. Select **Save** in the lower-right corner of the screen.  
+3. Select **Save** in the lower-right corner of the screen.  
 
 > [!NOTE]
 > It isn't possible to edit multiple invoice records at once. 
@@ -113,3 +103,6 @@ Typically, you convert an order into an invoice; however, you can also create an
 ### See also  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
 [Print quote, invoice, or other records](print-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

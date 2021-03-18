@@ -95,3 +95,6 @@ A team template can be used for the entities that are enabled for automatically 
 ### See also  
  [Manage teams](../admin/manage-teams.md)   
  [About team templates](../admin/about-team-templates.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

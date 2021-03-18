@@ -114,3 +114,6 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
      > [!div class="mx-imgBorder"]
      > ![Screenshot of the schedule board with modified filters](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

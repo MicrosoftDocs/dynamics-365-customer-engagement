@@ -25,3 +25,6 @@ search.app:
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

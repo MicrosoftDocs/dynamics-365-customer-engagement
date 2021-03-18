@@ -36,3 +36,6 @@ Download the [Unified Service Desk Performance Analyzer](https://go.microsoft.co
 [Generate performance report](generate-performance-report.md)
 
 [Overview of performance report user interface](overview-performance-report-user-interface.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

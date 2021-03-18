@@ -7,9 +7,15 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-lead
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Define lead qualification experience
@@ -34,3 +40,6 @@ This behavior is applicable on all the leads that are qualified after this setti
 
 ### See also
 [Create or manage leads](manage-leads-sales-professional.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

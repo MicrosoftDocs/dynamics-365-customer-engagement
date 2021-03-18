@@ -5,8 +5,8 @@ ms.date: 06/18/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -66,3 +66,6 @@ To edit the mappings:
 
 [Scan business cards](scan-business-cards.md)  
 [Use the business card reader in model-driven apps](/ai-builder/business-card-reader-component-model-driven)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

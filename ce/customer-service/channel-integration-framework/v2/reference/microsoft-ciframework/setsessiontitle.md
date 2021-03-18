@@ -52,3 +52,6 @@ customer: "John"
 // hence we pass "customer" in the input bag parameter.
 Microsoft.CIFramework.setSessionTitle(input);
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

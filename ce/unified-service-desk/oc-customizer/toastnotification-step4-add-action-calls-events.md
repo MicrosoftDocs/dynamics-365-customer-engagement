@@ -58,3 +58,6 @@ This topic describes how to attach Omnichannel Toast Notification related action
 - [Step 2: Create Omnichannel Toast Notification hosted control](toastnotification-step2-create-hosted-controls.md)
 - [Step 3: Create Omnichannel Toast Notification-related action call to display the notification](toastnotification-step3-create-action-call-display-notification.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -225,3 +225,6 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
  [Work with UII Hosted Controls](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)   
  [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md)   
  [UII actions](../unified-service-desk/uii-actions.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -102,3 +102,6 @@ The following ready-to-use business processes are available that you can use as 
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

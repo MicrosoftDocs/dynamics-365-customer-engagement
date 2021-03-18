@@ -63,3 +63,6 @@ This topic describes how to add action calls, events, and hosted control to the 
 - [Step 1: Create Omnichannel Agent Dashboard hosted control](agent-dashboard-step1-create-hosted-control.md)
 - [Step 2: Create Omnichannel Agent Dashboard-related action calls](agent-dashboard-step2-create-action-calls.md)
 - [Step 3: Attach Omnichannel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

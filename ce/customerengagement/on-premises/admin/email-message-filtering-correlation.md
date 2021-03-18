@@ -115,3 +115,6 @@ By default, smart matching is turned on.
 
 ### See also  
  [Forward mailbox vs. individual mailboxes](../admin/forward-mailbox-vs-individual-mailboxes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

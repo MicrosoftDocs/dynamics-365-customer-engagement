@@ -31,3 +31,6 @@ To create new users, grant licenses, and manage permissions for users, you must 
 
 [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)  
 [Manage teams](manage-teams.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

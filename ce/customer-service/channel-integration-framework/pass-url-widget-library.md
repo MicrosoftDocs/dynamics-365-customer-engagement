@@ -4,7 +4,7 @@ description: "Read how you can pass the URL of your Dynamics 365 instance to the
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 03/05/2021
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -25,3 +25,6 @@ ms.custom:
 [Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)
 
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -24,3 +24,6 @@ ms.author: matp
   
  For more information about [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] licensing, contact your local [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] representative. If you do not have a representative available, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

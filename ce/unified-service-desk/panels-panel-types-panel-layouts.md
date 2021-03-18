@@ -379,3 +379,6 @@ search.app:
 ### See also
  [Use custom panel types and panel layouts](../unified-service-desk/use-custom-panel-types-panel-layouts-unified-service-desk.md)
  [Keyboard shortcuts for panels](../unified-service-desk/keyboard-shortcuts-panels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

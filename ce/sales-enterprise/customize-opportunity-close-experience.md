@@ -5,8 +5,8 @@ ms.date: 07/31/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -132,3 +132,6 @@ After completing the steps in this section, follow the steps in the sections [Cr
 ### See also
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  
 [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

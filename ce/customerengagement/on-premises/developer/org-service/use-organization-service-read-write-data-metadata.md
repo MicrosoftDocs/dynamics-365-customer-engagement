@@ -33,3 +33,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)],
  [Use the Dataverse Organization Service](/powerapps/developer/common-data-service/org-service/overview)  
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

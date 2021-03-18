@@ -1,10 +1,10 @@
 ---
 title: "Export and import Omnichannel Administration app data | MicrosoftDocs"
-description: "Export and import Omnichannel Administration app data from a source organization to another organization"
+description: "Learn to export and import Omnichannel Administration app data from a source organization to another organization."
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/13/2020
+ms.date: 02/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -36,7 +36,7 @@ You can export the configuration data from your source system by using the Omnic
 
 3. Select the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity, too.)
 
-    These are some of the core entities you can use, but you are not limited to only these entities:
+    Some of the core entities that you can use are as follows:
 
     -  Work stream
     -  Context variable
@@ -113,3 +113,6 @@ For entity routing, follow the instructions to [Export and import your flows acr
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Enable third-party co-browse and screen sharing](third-party-co-browse.md)  
 [Overview of channels](channels.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

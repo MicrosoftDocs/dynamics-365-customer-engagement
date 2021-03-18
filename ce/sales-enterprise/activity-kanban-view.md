@@ -5,8 +5,8 @@ ms.date: 10/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -76,3 +76,6 @@ Here are some important things to know about your Kanban view:
 ### See also
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

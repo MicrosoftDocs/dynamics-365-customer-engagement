@@ -27,3 +27,6 @@ ms.author: matp
 2.  Upgrade the Language Packs to corresponding [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Language Packs.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install and enable a Language Pack](../deploy/install-and-enable-a-language-pack.md)  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ The settings described here are selected and applied to all optimization scopes.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

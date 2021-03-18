@@ -87,10 +87,13 @@ The Omnichannel Chat SDK allows organizations to build their own chat widget aga
 
 The Omnichannel Chat SDK is open source and is located at [https://www.npmjs.com/package/@microsoft/omnichannel-chat-sdk](https://www.npmjs.com/package/@microsoft/omnichannel-chat-sdk).  
 
-We also provide a reference app using the popular UI Gifted Chat.  
+We also provide a react-native reference app using [gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat) and a web reference app using [BotFramework-WebChat](https://github.com/microsoft/BotFramework-WebChat) located at [https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
 
 ### See also
 
 [startChat](developer/reference/methods/startchat.md)<br />
 [lcw:closeChat](developer/reference/events/lcw-closechat.md)<br />
 [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

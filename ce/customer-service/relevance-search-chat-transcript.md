@@ -70,3 +70,6 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 ### See also
 
 [Search for transcripts](oc-search-transcipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

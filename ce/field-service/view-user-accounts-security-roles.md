@@ -3,7 +3,7 @@ title: "Set up Dynamics 365 Field Service users and security roles | MicrosoftDo
 description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/11/2021
+ms.date: 02/18/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -49,6 +49,8 @@ See the topic on [Creating users and assigning security roles in the Power Platf
 
 3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
 
+![Screenshot of adding users in Admin Center.](./media/Admin-Center-User.PNG)
+
 4. If adding individual users, fill out your user's basic information, including first name, last name, and password. If adding multiple users, you will fill out this information in a CSV file and you must upload it. 
 
 5. Assign your users a product license. Specifically, select the Dynamics 365 Field Service to assign your users this license. 
@@ -62,7 +64,7 @@ Woohoo, your users in your organization are now added and assigned Field Service
 ## Step 2: Assign security roles and field security profiles
 After adding and assigning Dynamics 365 Field Service licenses to your users, you can now assign them specific Field Service security roles and field security profiles. By setting **security roles** for users, you control the types of data and entities a user can access and edit. By setting **field security profiles**, you control which fields a user sees for an entity. For example, a user may have permission to see accounts, but not to see specific fields for an account. Make sure you understand which role to assign your users; view the roles and definitions.  
 
-> ![NOTE]
+> [!Note]
 > These steps allow you to assign security roles and field security profiles to individual users rather than multiple users at once. 
 
 1. Sign into the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments).
@@ -71,19 +73,34 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 
 3. Select **Settings**. 
 
-4. Select **Users + permissions** > **User**. 
+![Screenshot of the Settings button in Field Service.](./media/PPAC-Settings.PNG)
+
+4. Select **Users + permissions** > **Users**. 
+
+![Screenshot of selecting users in Field Service.](./media/PPAC-Users.PNG)
+
 
 5. Find and select your user's name. This takes you to a new page. 
 
 6. Select **Manage roles**. 
 
+> ![Screenshot of Managing Roles in Field Service.](./media/PPAC-Manage-Roles.PNG)
+
 7. Select the appropriate role for your user > **OK**. View the roles and definitions to learn which one to choose. 
+
+> ![Screenshot of adding Security Roles in Field Service.](./media/PPAC-Select-User-Role.PNG)
 
 8. Select the **>** next to your user's name and then select **Field Security Profiles**. 
 
+> ![Screenshot of adding Field Security profiles in Field Service.](./media/PPAC-Field-Security-Profiles.PNG)
+
 9. Select **Add**. 
 
+![Screenshot of Add button in Field Service.](./media/PPAC-Select-Add.PNG)
+
 10. Select the appropriate role for your user > **Select** > **Add**. View the roles and definitions to learn which one to choose. 
+
+> ![Screenshot of selecting the Field Security profiles in Field Service.](./media/PPAC-Select-FS-Profile.PNG)
 
 Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
 
@@ -115,3 +132,6 @@ Yes. Here's an example of copying the **Field Service - Dispatcher** role:
 > ![Screenshot of adding a security role to a User](media/users-3.png) 
 
 3. Assign the copied **Field Service—Dispatcher** role to allow schedule, dispatch, and work order editing capabilities to the user. Or, if the user is responsible for more than schedule and dispatch, make a copy of the **Field Service – Administrator** role and assign it to the user.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

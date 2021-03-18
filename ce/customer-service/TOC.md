@@ -80,6 +80,7 @@
 #### [Create cases](customer-service-hub-user-guide-create-a-case.md)
 #### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
 #### [Merge cases](customer-service-hub-user-guide-merge-cases.md)
+#### [View, block, or deactivate a social profile](view-block-deactivate-social-profile.md)
 #### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
@@ -120,7 +121,6 @@
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
 ### [Use timeline](customer-service-hub-user-guide-timeline-overview.md)
-### [Manage activities from timeline](customer-service-hub-user-guide-manage-timeline-activities.md)
 ### [Timeline FAQs](timeline-faqs.md)
 
 ## Knowledge management
@@ -216,6 +216,7 @@
 ##### [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
+#### [Asynchronous channel support](asynchronous-channels.md)
 ### Agent experience
 #### [Use SMS channel](sms-telesign-twilio.md)
 #### [Use Facebook channel](facebook.md)
@@ -578,11 +579,9 @@
 #### [msdyn_ApplyRoutingRuleEntityRecord](developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md)
 
 ## Troubleshoot issues in Customer Service
-### Troubleshoot cases
-#### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
-### Troubleshoot SLA issues
-#### [SLA timer does not pause](troubleshoot-sla-timer-issue.md)
-#### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
+### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
+### [Troubleshoot SLA issues](troubleshoot-sla-issues.md)
+### [Unable to delete a managed solution](troubleshoot-delete-managed-solution.md)
 
 ### [Known issues](omnichannel-readme.md)
 ### [Troubleshoot issues in Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)

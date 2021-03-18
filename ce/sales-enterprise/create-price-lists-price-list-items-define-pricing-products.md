@@ -1,12 +1,12 @@
 ---
 title: "Define product pricing with price lists and price list items (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define what to charge for your products or services in Dynamics 365 Sales."
-ms.date: 06/15/2020
+ms.date: 02/10/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -19,7 +19,7 @@ searchScope:
   - Sales
 ---
 
-# Define product pricing with price lists and price list items (Sales and Sales Hub)
+# Define product pricing with price lists and price list items (Sales Hub)
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels.  
   
@@ -133,102 +133,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
       > [!NOTE]
       >  You must create at least one price list for each of the currencies that your organization does business in.  
 
-## Create a price list  (Sales)
-  
-1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
-  
-3. In the **Product Catalog** area, select **Price Lists**.  
-  
-4. To create a new price list, select **New**.  
-  
-    -OR-  
-  
-    To edit a price list, open a price list from the list.  
-  
-5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-6. Select **Save**.  
-  
-> [!NOTE]
->  You must create at least one price list for each of the currencies that your organization does business in.  
-  
-## Add items to the price list (Sales)
 
-Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
-  
-1. In the price list record, in the **Price List Items** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
-  
-2. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-   - In the Product and Unit box, select the product and unit for which you're creating this price list item.  
-  
-   - To offer a discount on the combination of the product and unit, select a discount list.  
-  
-   - In the **Quantity Selling Option** drop-down box, select whether the product or service can be ordered in whole, partial, or both types of quantities. This information is used in the **Quantity** field of **Quote Product**, **Order Product**, and **Invoice Product** records:  
-  
-     - **No Control**. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] doesn't enforce a quantity selling option.  
-  
-     - **Whole**. Selling a partial product isn't allowed. For example, digital cameras cannot be sold in fractions.  
-  
-     - **Whole and Fractional**. The product can be sold both in whole and fractional units. For example, wood chips can be sold in cubic yards, or in fractions of a cubic yard.  
-  
-   - In the **Pricing Method** drop-down box, select an option that determines how the pricing will be calculated. It could be a certain amount, or a percentage of the current or standard cost. The available options are as follows: 
-      -  **Currency Amount**. Use this to ignore a product's list price in the product catalog and to enter a different price manually for this price list.  
-          
-      -  **Percent of List**. Use this to calculate a product's price in the price list as a percentage of the list price of the associated product.  
-        
-      -  **Percent Markup - Current Cost**. Use this to add a percent markup on top of the current cost of the product.   
-
-      - **Percent Markup - Standard Cost**. Use this to add a percent markup on top of the standard cost of the product.
-
-      -  **Percent Margin - Current Cost**. Use this for the price offered in the price list to yield a percentage margin of the current cost of the product. 
-
-      -  **Percent Margin - Standard Cost**. Use this for the price offered in the price list to yield a percentage margin of the standard cost of the product.
-   
-   - If you selected **Currency Amount** as the pricing method, in the **Amount** box, type the amount at which the product will be sold.  
-  
-      -OR-  
-  
-      If you selected any value other than **Currency Amount** as the pricing method, type the percentage for the pricing method that you want.  
-  
-   - If you selected a pricing method other than **Currency Amount**, you can set up a rounding policy. For example, if you want per unit prices to be in the form of $0.99, you can select a rounding policy where all prices per unit automatically have a price that ends in 99 cents. To do this, you select the rounding policy to round up the price, and then set the price to end in a certain amount, such as 99 cents.  
-  
-     - **None**. Prices are not rounded.  
-  
-     - **Up**. Prices are rounded up to the nearest rounding amount.  
-  
-     - **Down**. Prices are rounded down to the nearest rounding amount.  
-  
-     - **To Nearest**. Prices are rounded to the nearest rounding amount.  
-  
-   - In the **Rounding Option** drop-down box, select **Ends in** or **Multiple of** if you want the price to end in a certain amount or multiples of a certain amount.  
-  
-   - In the **Rounding Amount** box, enter the amount.  
-  
-3. Select **Save**.  
-  
-## Define default price list for territories  (Sales)
-
-Make sales agents' job easier by adding default price lists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
-   
-1.  In the price list record, in the **Territory Relationships** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
-  
-2.  In the **Connection** form, in **Name**, select the **Lookup** button, and select a territory.  
-  
-3.  Select **Save & Close**.  
-  
-4.  In the price list form, select the **Auto Save** button ![Auto save button](../sales-enterprise/media/auto-save-button.png "Auto save button").  
-  
-     When the sales agents set or change the customer for an opportunity, if a default price list is added to their territory (customer segment), it's shown.  
-  
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
   
@@ -238,3 +143,6 @@ Make sales agents' job easier by adding default price lists for territories or c
  [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
  [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
 [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

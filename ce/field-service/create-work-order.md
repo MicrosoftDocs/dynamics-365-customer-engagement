@@ -129,3 +129,6 @@ Popup navigation will now be enabled when the following entities are selected fr
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>
  [User's Guide](../field-service/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

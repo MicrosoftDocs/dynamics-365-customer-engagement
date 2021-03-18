@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -60,3 +60,6 @@ specific information that your company needs. For example, change the pipeline p
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Learn the basics](learn-basics-sales-professional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

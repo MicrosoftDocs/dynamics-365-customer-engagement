@@ -47,3 +47,6 @@ Administrators and users who have administrative responsibilities typically use 
 ## See Also  
  [Microsoft Accessibility Resource Center](https://www.microsoft.com/enable/centers/)  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

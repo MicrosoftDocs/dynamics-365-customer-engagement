@@ -114,3 +114,6 @@ To get the latest version of these tools, repeat these steps.
 [Solution tools for team development](solution-tools-team-development.md)<br />
 [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)<br />
 [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

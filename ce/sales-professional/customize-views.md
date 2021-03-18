@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -249,3 +249,6 @@ When you're finished creating or updating a view, you need to publish it so peop
 
 [Customize forms](customize-forms.md)  
 [Customize business process flows](customize-business-process-flows.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

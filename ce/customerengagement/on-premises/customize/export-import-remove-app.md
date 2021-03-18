@@ -70,3 +70,6 @@ If the component has dependencies (such as relationships), you must remove the d
 
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

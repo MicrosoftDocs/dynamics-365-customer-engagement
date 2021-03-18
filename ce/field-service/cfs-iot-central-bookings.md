@@ -59,3 +59,6 @@ Back in Azure IoT Central, you'll now see booking information associated with th
 > ![Screenshot of the device page in Azure IoT Central, which now includes booking details](media/iot-central-bookings-5.png)
 
 You've now completed the tutorials. Nice work.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

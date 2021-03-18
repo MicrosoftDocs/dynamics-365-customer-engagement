@@ -5,9 +5,15 @@ ms.date: 04/17/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunityproduct
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Add products to an opportunity by using the enhanced experience (Sales Professional)
@@ -173,3 +179,6 @@ To remove a product from the selection, go to the **Selected** tab. For the prod
 
 [Add products to an opportunity](add-products-opportunity-sp.md)  
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

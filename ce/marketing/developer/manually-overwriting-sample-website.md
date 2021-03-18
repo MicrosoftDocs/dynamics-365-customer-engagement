@@ -63,3 +63,6 @@ Manually overwriting the event management website overwrites the possible custom
 | 1.2.1016 (March 2018 Release) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Mar18-1.2.1016.zip) |
 | 1.1.1006 (February 2018 Release) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Feb18-1.1.1006.zip) |
 | 1.0.1005 (Public Preview) | [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-PublicPreview-1.0.1005.zip) |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

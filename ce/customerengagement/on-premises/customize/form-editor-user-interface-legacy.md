@@ -147,3 +147,6 @@ The Insert tab displays the commands in the following table:
 ## See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -217,3 +217,6 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 
 ### See also  
  [Integrate with CTI systems using CTI adapters](../unified-service-desk/integrate-cti-systems-cti-adapters.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

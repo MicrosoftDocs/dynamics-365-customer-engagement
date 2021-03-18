@@ -80,3 +80,6 @@ https://localhost:5000/?ani=1234&dnis=4355&type=phonecall&customerid=49383433
  [Build a custom CTI adapter for Unified Service Desk](../unified-service-desk/build-custom-cti-adapter-unified-service-desk.md)   
  [Considerations for creating a CTI adapter for Unified Service Desk](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,5 @@ It might take several minutes for the queries to be updated.
 
 [Analyze your sales data by using Power BI template apps](introduction-sales-template-apps.md)<br>
 [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

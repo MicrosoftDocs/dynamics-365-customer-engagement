@@ -5,8 +5,8 @@ ms.date: 06/15/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -75,3 +75,6 @@ You can take the following actions on the products added to the **Product Line I
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

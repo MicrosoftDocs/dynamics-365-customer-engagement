@@ -194,3 +194,6 @@ The main form is used by all app clients. This form provides a consistent user e
  [Optimize form performance](../customize/optimize-form-performance.md)   
  [Manage (disable) auto-save](../customize/manage-auto-save.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

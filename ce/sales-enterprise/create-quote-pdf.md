@@ -5,8 +5,8 @@ ms.date: 10/28/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -193,3 +193,6 @@ You can also generate a PDF file and directly email it to a customer.
 ### See also
 
 [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

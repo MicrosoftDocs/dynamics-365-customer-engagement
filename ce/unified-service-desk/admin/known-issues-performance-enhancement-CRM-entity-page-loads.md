@@ -52,3 +52,6 @@ If the session tab does not have the close button, you must close the [!INCLUDE[
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
  
 [Performance enhancement for CRM entity page loads](../admin/performance-enhancement-CRM-entity-page-loads.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

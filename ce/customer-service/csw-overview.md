@@ -4,7 +4,7 @@ description: Overview of the Customer Service Workspace application for Dynamics
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/21/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -44,23 +44,23 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 | Label | Description|
 | ------------ | ------------- |
-| 1 | The session pane lists all of the sessions you are actively working on. Select the tabs to navigate between sessions.  |
+| 1 | The session pane lists all the sessions that you are actively working on. Select the tabs to navigate among sessions.  |
 | 2 | The Home session returns you to the Customer Service Agent Dashboard view.|
 | 3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. |
-| 4 | Select Shift + mouse click to open a new session for a case. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
-| 5 | Select the drop-down selector to filter cases in queues you can choose to work on. |
+| 4 | Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
+| 5 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
 | 6 | Select the tabs to navigate to your open activities, cases, forms and views. |
-| 7 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
+| 7 | Select the drop-down selector to filter cases in queues you can choose to work on. |
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 |||
 
 ### View and edit records
 
-There are new navigation behaviors to be aware of in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
+You need to be aware of the new navigation behaviors in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps.
 
-- Select Shift + mouse click to open a new session tab for the record you want to open. 
-- Selecting the record replaces your view with the form for the record you opened. 
-- Select the back arrow in the upper-left corner of the form to get back to your previous view. 
+- Select Shift + mouse click to open a new session tab for the record you want to open.
+- Selecting the record replaces your view with the form for the record you opened.
+- Select the back arrow in the upper-left corner of the form to get back to your previous view.
 - Select Ctrl + mouse click to open items in a new tab. 
 
 ### Work with cases
@@ -77,7 +77,8 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 4 | Edit selected cases. 
 | 5 | Delete selected cases. 
 | 6 | Apply a routing rule to route cases to a queue. 
-| 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. 
+| 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases.
+|||
 
 
 #### Edit case data
@@ -88,10 +89,10 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 
 | Label | Description |
 | ------------ | ------------- |
-| 1 | In the Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
+| 1 | In Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
 | 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here.
 | 3 | Select the plus sign (+) on the timeline to expand the menu of timeline actions. 
-
+|||
 
 Let's explore the fields you can edit on the **Case Additional Details** tab:
 
@@ -105,7 +106,7 @@ Let's explore the fields you can edit on the **Case Additional Details** tab:
 | 4 | View and export the list of Similar Cases.
 | 5 | View, add associations, and export Child Cases. 
 | 6 | View and export the list of Merged Cases.
-
+|||
 
 ### Work with activities
 
@@ -119,7 +120,7 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 | 2 | Edit selected activities. 
 | 3 | Delete selected cases. 
 | 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. 
-|
+|||
 
 ### Create and search knowledge articles
 
@@ -132,24 +133,22 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 |------------ | -------------|
 | 1 | Select the plus sign (+) to expand the tab menu.|
 | 2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).|
+|||
 
+Intelligent knowledge suggestions are displayed in the productivity pane while you are working on a case.
 
-Intelligent knowledge suggestions are displayed in the productivity pane while working on a case. 
+### Use email templates and signatures
 
-### Create email templates and signatures
+From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows:
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures:
+1. Select the plus sign (+) to expand the tab menu.
+2. Select Email Templates or Email Signatures.
 
 :::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
 
-| Label | Description
-| ------------ | -------------
-| 1 | Select the plus sign (+) to expand the tab menu. 
-| 2 | Select Email Templates and Email Signatures.
-
 ### Productivity pane with Smart Assist
 
-While working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, as well as agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros. 
+While you are working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros. 
 
 For more information, see [Productivity pane](csw-productivity-pane.md).
 
@@ -160,3 +159,6 @@ For more information, see [Productivity pane](csw-productivity-pane.md).
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md) <br>
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md) <br>
 [Overview of the productivity pane](csw-productivity-pane.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

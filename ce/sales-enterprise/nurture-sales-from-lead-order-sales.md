@@ -1,14 +1,14 @@
 ---
 title: "Nurture sales from lead to order (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
-ms.date: 07/30/2020
+ms.date: 02/10/2021
 ms.service: 
   - dynamics-365-sales
 ms.custom: 
   - dyn365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -19,7 +19,7 @@ searchScope:
   - Sales
 ---
 
-# Nurture sales from lead to order (Sales and Sales Hub)
+# Nurture sales from lead to order (Sales Hub)
 
 The sales process in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] can help you close more sales and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. You also end up with a more complete history, which you can refer to later on if you plan to work with your customer again in the future, or if your customer needs support.  
 
@@ -38,3 +38,6 @@ The sales process in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
 ### See Also
  [Overview of Sales](../sales-enterprise/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

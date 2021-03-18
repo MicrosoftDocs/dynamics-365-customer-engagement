@@ -73,3 +73,6 @@ Use the customization files feature to distribute custom hosted controls and fun
 ## See also  
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
  [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

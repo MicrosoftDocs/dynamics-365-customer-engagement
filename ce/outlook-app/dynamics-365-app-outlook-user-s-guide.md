@@ -1,6 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
+description: How to use Dynamics 365 App for Outlook.
 ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -143,7 +144,7 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See <a href="https://docs.microsoft.com/dynamics365/outlook-app/dynamics-365-app-outlook-user-s-guide#CreateRecord">Create a new record</a>|
 |![Menu - Search](media/navbar-search-btn.png)|Choose **Search** to search any Dynamics 365 apps records. |
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
-|![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message) and [Add sales literature or a knowledge base article when you create an email message](#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)|
+|![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](user/email-template.md) and [Add sales literature or a knowledge base article when you create an email message](user/add-literature-or-kb.md)|
 
 ## Use delegate access 
 
@@ -327,78 +328,7 @@ To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-i
 1.  Select the monitored email message.  
 
 2.  Click **Unfollow**.  -->
-
-## Add an email template when you create an email message  
-If you frequently send the same type of email, you can save time by using an email template. When you use an email template, [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)] automatically inserts the Dynamics 365 information such as contacts or set regarding information in the email message.  
-
-For example, you could use a Thank you template to save time whenever you want to send a thank you message to a customer.  
-
-![Email template in Dynamics 365 App for Outlook](../outlook-app/media/email-template-dynamics-365-app-outlook.png "Email template in Dynamics 365 App for Outlook")  
-
-> [!NOTE]
-> You must have the appropriate permissions to add email templates.  
-
-### Add an email template  
-
-1. Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
-
-2. At the top of the **Dynamics 365** pane, click **Document** > **Add Template**.  
-
-   ![Add an email template](media/add-template.png)  
-
-3. Select the record type (entity). The default is the set regarding record. Then, click **Select**. 
-
-   ![Select the entity](media/select-entity-email-template.png)  
-
-4. Start a search for the template you want. Under **Search Template**, click (---).
-
-   ![Select search](media/select-template.png)  
-
-5. Search for and select the template you want. 
-
-   ![Search for email template](media/look-email-template.png)  
-
-6. Accept the selected email template.
-
-   ![Accept the template](media/accept-selection-email-template.png)  
-
-7. Click **Add to Email** to add the template to your email.
-
-   ![Add the template to email](media/add-template-to-email.png)  
-
-The template text appears in your email.
-
-![Template text in email](media/account-reconnect-sample-text.png)  
-
-For information on creating email templates, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).  
-
-## Add sales literature or a knowledge base article when you create an email message  
-
- When you're working with a customer, you might want to send them some sales literature or a knowledge base article.  
-> [!NOTE]
-> You must have the appropriate permissions to add sales literature or knowledge base articles to an email message.
-
-1. Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
-
-2. At the top of the **Dynamics 365** pane, click **Document**. 
-
-   ![Add a document](media/add-sales-lit-etc.png)  
-
-3. Select **Add Sales Literature** or **Add Knowledge Article**, and then follow the steps to add or insert the literature or article.
-
-## Add a phone call, appointment, or task activity to Dynamics 365 apps  
-
-1. For the record you have linked and are tracking, in Tracked regarding, click (...) > **Add Activity**.
-
-   ![Click Add Activity](media/add-activity-click.png)
-
-2. Select an activity.
-
-   ![Select activity](media/activities-to-add.png)
-
-3. Fill in the information in the form. 
-
-4. Click **Save**.  
+  
 
 ## Track Outlook contacts in Dynamics 365 apps  
  You can track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contacts by using the [Dynamics 365 add-in, an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] solution module.   The add-in is automatically installed when you install [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. You can access it as described below.  
@@ -536,7 +466,13 @@ If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an
 
 ![Outlook app server side sync](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
 
+   > [!NOTE]
+   > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](https://docs.microsoft.com/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
+   
 ### See also  
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   
  [Set up server-side synchronization (admins)](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

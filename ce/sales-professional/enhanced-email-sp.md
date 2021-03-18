@@ -5,8 +5,8 @@ ms.date: 04/03/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -51,3 +51,6 @@ Compose an email using the enhanced experience:
 ### See also
 
 [Set up enhanced email](set-up-enhanced-email-sp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

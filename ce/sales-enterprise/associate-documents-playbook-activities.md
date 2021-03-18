@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - "dyn365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -54,3 +54,6 @@ So that you can add documents, make sure that document management for the playbo
 ### See also
 [Manage playbook templates](manage-playbook-templates.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

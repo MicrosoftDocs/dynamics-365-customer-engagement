@@ -5,8 +5,8 @@ ms.date: 04/22/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -54,3 +54,6 @@ Because the pricing-related fields for a product that's required for the bundle 
 ### See also
 
 [Set up product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

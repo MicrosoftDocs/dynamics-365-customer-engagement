@@ -151,3 +151,6 @@ To create a marketing email and go live:
 [Email marketing overview](prepare-marketing-emails.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Design elements reference](content-blocks-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

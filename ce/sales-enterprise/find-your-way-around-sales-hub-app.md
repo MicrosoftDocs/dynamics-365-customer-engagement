@@ -7,8 +7,8 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: brycho
 ---
 
@@ -31,3 +31,6 @@ customer records, your calendar, and settings. You'll also find quick access to 
 
 ![Sales Hub menu options](media/saleshubnav2.png "Sale Hub menu options")
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

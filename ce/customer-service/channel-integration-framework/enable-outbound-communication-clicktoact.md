@@ -34,3 +34,6 @@ ms.custom:
 
 [onclicktoact](reference/events/onclicktoact.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

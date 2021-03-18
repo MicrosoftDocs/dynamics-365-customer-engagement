@@ -1,7 +1,7 @@
-﻿---
+---
 title: Overview of the Dynamics 365 Sales mobile app
 description: Learn about the Dynamics 365 Sales mobile app
-ms.date: 01/06/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -18,9 +18,9 @@ Mobile apps help sellers build great customer relationships, stay up-to-date wit
 In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios.
 
 > [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
+> - A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features may have limited or restricted functionality. 
+> - We expect changes to this feature.
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features are subject to a separate [supplemental terms of use](https://docs.microsoft.com/dynamics365/legal/slt-dynamics365-mobile-admin-public).
 
 With the Dynamics 365 Sales mobile app, you can do the following (and much more):
 
@@ -36,3 +36,6 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-ios-app.md) 
 
 [Enable Dynamics 365 Sales mobile](enable-sales-mobile.md)   
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

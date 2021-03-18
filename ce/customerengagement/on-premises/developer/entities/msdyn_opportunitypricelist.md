@@ -915,3 +915,5 @@ See pricelevel Entity [msdyn_pricelevel_msdyn_opportunitypricelist_PriceList](pr
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_opportunitypricelist?text=msdyn_opportunitypricelist EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

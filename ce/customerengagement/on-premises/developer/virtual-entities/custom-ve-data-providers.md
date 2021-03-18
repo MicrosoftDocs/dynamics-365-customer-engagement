@@ -112,3 +112,6 @@ Unlike an ordinary plugin, you will only use the _Plugin Registration Tool_ (PRT
 When the metadata for your virtual entity is configured, your plugins are registered using the PRT and the correct configuration data is set in the **EntityDataProvider** and **EntityDataSource** entities, your virtual entity will start to respond to requests.
 
  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -30,12 +30,12 @@ In Dynamics 365 Field Service, booking timestamps record the date and time that 
 > ![Screenshot of booking timestamps on a booking resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
 
-In this topic, we'll look at how to create, view, and configure booking timestamps. 
+In this article, we'll look at how to create, view, and configure booking timestamps. 
 
 
 ## Prerequisites
 
-Make sure you have booking statuses that match your business and reporting needs. Many booking statuses exist by default and correspond with the work order process. These booking statuses have an associated Field Service Status. For example, the out-of-the-box "In progress" booking status has a Field Service Status of "In progress" and this changes the related work order system status to "Open-In Progress" automatically. To understand how booking statuses and work orders effect each other, see the topic on [work order lifecycle and statuses](./work-order-status-booking-status.md). 
+Make sure you have booking statuses that match your business and reporting needs. Many booking statuses exist by default and correspond with the work order process. These booking statuses have an associated Field Service Status. For example, the out-of-the-box "In progress" booking status has a Field Service Status of "In progress" and this changes the related work order system status to "Open-In Progress" automatically. To understand how booking statuses and work orders effect each other, see the article on [work order lifecycle and statuses](./work-order-status-booking-status.md). 
 
 You can create custom booking statuses that work the same way. For example, the "Arrived On Site" booking status in the following screenshot is a custom creation that is also related to the "In progress" Field Service status.
 
@@ -49,7 +49,7 @@ You can create custom booking statuses that work the same way. For example, the 
 
 ## Create timestamps
 
-Lets walk through an example.
+Let's look at an example.
 
 Assume a work order was created and scheduled to a technician.  When the dispatcher scheduled the booking, it was given a booking status of "Scheduled" by default.
 
@@ -70,7 +70,7 @@ Next, the technician sees the booking and work order on their mobile device and 
 You can see timestamps by going to the booking (entity name bookableresourcebooking), then **Related** > **Booking Timestamps**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
+> ![Screenshot of booking timestamps on a bookable resource booking in Field Service.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
 
 Each booking timestamp details: 
@@ -117,7 +117,7 @@ The main difference is how detailed an organization wants to be for time entry, 
 Using our example with three booking statuses each with a related Field Service status, if **Timestamp Frequency** is set to *Per Field Service Status Change* the related booking timestamps will be created as seen the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
+> ![Screenshot of booking timestamps on a bookable resource booking per Field Service status change.](./media/scheduling-timestamps-booking-statuses-per-fs-status.png)
 
 Only the timestamp for "Arrived on site" is generated because timestamps are created when there's a change in the Field Service status of a booking status, and in this example both are considered "In Progress."
 
@@ -126,14 +126,62 @@ Only the timestamp for "Arrived on site" is generated because timestamps are cre
 If Timestamp Frequency setting is set to *Per Booking Status Change* the related booking timestamps will be created as seen the image below.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamps on a bookable resource booking.](./media/scheduling-timestamps-booking-statuses-per-booking.png)
+> ![Screenshot of booking timestamps on a bookable resource booking per the booking status change.](./media/scheduling-timestamps-booking-statuses-per-booking.png)
 
 
 With the **Per Booking Status** setting, a timestamp is created for all booking status changes regardless if it results in a field service status change.
 
 In our example, this means both "Arrived on site" and "Wrench time" are recorded. The main difference is how detailed an organization wants to be for reporting and integration purposes.
 
+## Booking journals
+
+When a work order’s bookable resource booking status is *Completed*, the booking journals are created as per the booking timestamps. Booking timestamps record the date and time of all booking status changes on work order. Booking timestamps are used to calculate booking journals, which calculate total travel time and working time for a specific booking. They can also be used to automatically generate time entries, if the Field Service setting’s **Time Entry Generation Strategy** is set to *Auto Generate from Booking Timestamps*. 
+
+Bookings that have been canceled will not have any booking journal records. 
+
+There are a few types of booking journals:  
+
+- **Travel**: Created for the duration when the resource is traveling to the site. 
+- **Working Hours**: Created for the duration when the booking is in progress and the duration lies within the work hours as per the resource’s work hours calendar. 
+- **Break**: Created for the duration when the resource is on break. 
+- **Overtime**: Created for the duration when the booking is in progress and the duration lies outside the work hours as per the resource’s calendar. 
+- **Business Closure**: Created for the duration when the company is closed. 
+
+To generate accurate booking journals, depending on the assigned resource’s work hours calendar, Field Service determines if the working duration of the resource is within working hours or not. If the duration of the work does not fall within the normal working hours for the resource, there is an additional step to determining if this is overtime or during a business closure, for which different rates can be provided for calculation. 
+
+For example, for a resource working on a booking from 8 A.M. to 3 P.M., the following are the different time stamps created when resource changes the booking status:  
+
+|         Booking status  |            Time stamp        |
+|-------------------------|------------------------------|
+|         Scheduled       |            8:00 A.M.         |
+|         Traveling      |            9:00 A.M.         |
+|         In Progress     |            10.30 A.M.        |
+|         On Break        |            12:00 P.M         |
+|         In Progress     |            1:00 P.M.         |
+|         Completed       |            4:00 P.M.         |
+
+Based on these proposed time stamps, the corresponding booking journals would be created: 
+
+|         Start time                                                    |            Duration     |            Journal type         |
+|-----------------------------------------------------------------------|-------------------------|---------------------------------|
+|         Travel (9 A.M. - 10:30 A.M.)                                  |            90 minutes   |            Travel               |
+|         In Progress (10:30 A.M. - 12 P.M.)                            |            90 minutes   |            Working Hours        |
+|         On Break (12 P.M. - 1:00 P.M.)                                |            60 minutes   |            Break                |
+|         In Progress (1:00 P.M. - 3:00 P.M.)                           |            120 minutes  |            Working Hours        |
+|         Exceeded working hours of resource (3:00 P.M. - 4:00 P.M.)    |            60 minutes   |            Overtime             |
+
+Depending on the above journals, the total billable duration in bookable resource booking is the sum of total duration in progress and total break duration.  
+
+### View booking journals 
+
+You can see the journals created by using advanced find or by going to the booking (record type name ```bookableresourcebooking```), then **Related** > **Booking Journals**. 
+
+>[!Note]
+> Resources must always update the booking statuses as per the status of the assigned work. Any delay in marking the booking as “completed” will cause difference in the billing duration and hence to the billing amount. 
 
 ## Additional notes 
 
 - Booking timestamps are used to calculate **Booking Journals** that calculate total travel time and working time for a specific booking. From the booking, go to **Related** > **Booking Journals** to see them. The **Timestamp Frequency** setting _does not_ affect how booking journals are created or calculated.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Managed properties for views
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Managed properties in the Power Platform](/power-platform/alm/managed-properties-alm)
 
 <a name="BKMK_ManagedProperties"></a>   
  
@@ -45,3 +45,6 @@ search.audienceType:
 
 ### See also
 [Create or edit a view](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

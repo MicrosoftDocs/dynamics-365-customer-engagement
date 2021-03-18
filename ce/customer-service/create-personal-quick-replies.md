@@ -53,3 +53,6 @@ For more information on personal quick replies, see [Send predefined messages in
 
 [Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chats)  
 [Manage applications](oc-manage-applications.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

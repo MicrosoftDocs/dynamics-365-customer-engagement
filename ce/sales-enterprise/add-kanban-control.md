@@ -5,8 +5,8 @@ ms.date: 10/14/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -72,3 +72,6 @@ There are a few customization restrictions that you should be aware of:
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
 
 [Work with activities in the Kanban view](activity-kanban-view.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,9 +7,17 @@ ms.service:
 ms.custom: 
   - dyn365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope:
+  - D365-App-msdyn_salespro
+  - D365-Entity-account
+  - D365-Entity-contact
+  - D365-Entity-lead
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Import data into Dynamics 365 Sales Professional
@@ -297,3 +305,6 @@ To be able to import from Exchange:
 
 [Export data or template](export-data.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

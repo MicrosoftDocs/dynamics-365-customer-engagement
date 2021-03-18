@@ -235,3 +235,6 @@ To set up a journey that invites contacts to visit an external form and then rea
 You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Power Apps portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing form.
 
 ![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

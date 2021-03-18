@@ -77,3 +77,5 @@ When you receive an alert from a device, your service team can manually monitor 
 - JSON-Based Field Value - Get String (Action)
 
 - JSON-Based Field Value - Get Boolean (Action)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ To expose the new field to be visible in the API, follow the steps below:
 [Power Apps portal hosted](portal-hosted.md)<br/>
 [Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

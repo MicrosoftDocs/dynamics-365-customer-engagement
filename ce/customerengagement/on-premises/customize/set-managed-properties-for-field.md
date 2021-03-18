@@ -20,7 +20,7 @@ tags:
 ---
 # Set managed properties for fields
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [View and edit field managed properties](/power-platform/alm/managed-properties-alm#view-and-edit-field-managed-properties)
 
 <a name="BKMK_SettingManagedProperties"></a>   
 
@@ -41,3 +41,5 @@ tags:
   ### See also
 
   [Create and edit fields](../customize/create-edit-fields.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

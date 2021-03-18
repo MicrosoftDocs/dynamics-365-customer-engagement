@@ -14,7 +14,7 @@ manager: shujoshi
 
 Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
 
-**To enter configuration and scheduling information**
+## Basic forecast scheduling
 
 1.	In the **General** step, enter a descriptive name for the forecast. For example, **Kenny's Org FY 2020 Forecast**.
 
@@ -89,7 +89,10 @@ Using the general properties and scheduling options of the forecast configuratio
 
 6.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
 
-7.	In the **Scheduling** section, specify the following information.
+7.	In the **Scheduling** section, specify the following information. <a name="basic-scheduling"> </a>  
+
+    >[!NOTE]
+    >You can use the advanced scheduling to configure the forecast scheduling based on the calendar used by your organization. More information: [Advanced scheduling](#advanced-scheduling)
 
     | Parameter | Description |
     |-----------|-------------|
@@ -110,7 +113,7 @@ Using the general properties and scheduling options of the forecast configuratio
         The start date determines when the fiscal year must start and the name base defines which date has to be considered to name the fiscal year.
         
         > [!div class="mx-imgBorder"]
-        > ![Verify organizational fisical settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fisical settings")
+        > ![Verify organizational fiscal settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fiscal settings")
         
         In the above image, you can see that:
         
@@ -136,6 +139,32 @@ Using the general properties and scheduling options of the forecast configuratio
 
 8.	Select **Next**.
 
+## Advanced scheduling
+
+> [!IMPORTANT]
+> - The enhanced experience for advanced scheduling is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+Using advanced scheduling, you can configure forecast scheduling based on the calendar used by your organization. For example, a car manufacturing company, Contoso, has a planning calendar that uses 13 weeks per quarter. Contoso uses what's referred to as a 4-4-5 calendar, in which quarters are divided into two 4-week months and one 5-week month. The 13 weeks can also be grouped into 5–4–4 or 4–5–4 calendars, depending on organizational requirements.
+
+Forecasting now supports the selection of different calendar patterns to match your organizational requirements. In the **Scheduling** section, enable the preview for advanced scheduling.
+
+> [!div class="mx-imgBorder"]
+> ![Enable advanced scheduling preview](media/forecast-adv-scheduling-enable-preview.png "Enable advanced scheduling preview")     
+
+In addition to the [basic scheduling settings described earlier in this article](#basic-scheduling), the following options are available for you to configure:
+
+- **Fiscal Year Start Date**: Select the date depending on your organization's fiscal year start date. In general, the fiscal year start date starts at the beginning of a quarter, such as January 1, April 1, July 1, or October 1.
+- **Calendar Template**: Select the calendar template that corresponds to the accounting periods used in your organization. The calendar patterns supported in forecasting are described in the following table.
+
+    | Calendar templates | Description |
+    |--------------------|-------------|
+    | 4-4-5, 4-5-4, and 5-4-4 | This calendar pattern divides a year into four quarters of 13 weeks each. In the 4-4-5 pattern, the quarter is grouped into two 4-week months and one 5-week month. Similarly, the grouping can be configured as 5–4–4 or 4–5–4. Using this calendar pattern, the end date of the period is always the same day of the week, which is useful for shift or manufacturing planning because every period is the same length.<br>This calendar pattern has only 364 days (7 days &times; 52 weeks), meaning that a fifty-third week will need to be added every five or six years. This might make year-on-year comparison difficult. You can add an extra week to a specific quarter or month by selecting **Add week** in the preview section. |
+    | Gregorian | This calendar pattern is a 12-month period between January 1 and December 31. You can choose a different start and end date for this 12-month period. |
+    | Broadcast Calendar | This calendar pattern starts on a Monday and ends on a Sunday, and every month has either four or five such weeks. The broadcast calendar months thus have either 28 or 35 days.<br>The key link between the broadcast and Gregorian calendars is that the first week of every broadcast month always contains the Gregorian calendar first of the month. For example, if January 1 falls on a Saturday, the broadcast calendar year begins on the preceding Monday, December 27. Broadcast January would then have five weeks, ending on January 30, and the four weeks of broadcast February would begin on January 31. The number of weeks in a broadcast month is based on the number of Sundays that fall in that month, with the period ending on the last Sunday of the month.<br>When you choose this option, the **Fiscal Year Start Date** is automatically set to the Monday in the week that contains January 1. To remained aligned with the established broadcast calendar logic, the start date can't be changed. |
+    | 3-3-3-4, 3-3-4-3, 3-4-3-3, and 4-3-3-3 | This calendar pattern divides a year into 13 periods where each period is of 4 weeks. For example, in 3-3-3-4 calender, the first 3 quarters consist of 3 periods and the fourth quarter consists 4 periods. Similarly, the grouping can also be configured as 3-3-4-3, 3-4-3-3, or 4-3-3-3.<br>This calendar pattern has only 364 days (7 days &times; 52 weeks), meaning that a fifty-third week will need to be added every five or six years. This might make year-on-year comparison difficult. You can add an extra week to a specific quarter or month by selecting **Add week** in the preview section. |
+    
 <table>
 <tr><td>
 
@@ -144,14 +173,15 @@ Using the general properties and scheduling options of the forecast configuratio
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Provide viewing permissions](provide-permissions-forecast.md)
+> [Next step: Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 </td></tr>
 </table>
 
 ### See also
 
-[Configure forecasts in your organization](configure-forecast.md)
-
-[Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
-
+[Configure forecasts in your organization](configure-forecast.md)  
+[Configure forecasts by using a custom rollup entity](configure-forecast-using-custom-rollup-entity.md)  
 [Troubleshooting forecasts](ts-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
