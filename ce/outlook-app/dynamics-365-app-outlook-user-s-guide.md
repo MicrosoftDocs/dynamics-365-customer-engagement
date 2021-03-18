@@ -213,42 +213,7 @@ One of the first things you might want to do when you receive a customer email, 
 > [!NOTE]
 > If the sender of the email is unknown to Dynamics 365, when you add the contact or lead, the email is automatically tracked in Dynamics 365 and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email. 
 
-## Link an email message or meeting to a specific Dynamics 365 apps record  
-You can link an email message or meeting to a specific Dynamics 365 record, such as an account, opportunity, or case. This also tracks the email or meeting in Dynamics 365.
 
-1. Create or select an email or meeting.
-
-2. Click the **Dynamics 365** button in the email pane.
-
-3. Click **Set Regarding** (---).
-
-   ![Set Regarding](media/set-regarding-open.png)
-
-4. Enter search text. A list of related records appears.
-
-   ![Search for related records](media/set-regarding-search.png)
-
-5. Use the left and right arrows to narrow search to cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
-
-### Find a different record to link to  
-
-1. Find the record to link in a list or using Search. 
-
-2. In Tracked regarding, click (...) > **Change Regarding**.
-
-   ![Change Regarding](media/open-change-regarding.png)
-
-3. Click **Set Regarding** (---).
-
-   ![Set Regarding](media/set-regarding-open.png)
-
-4. Enter search text. A list of related records appears.
-
-   ![Search for related records](media/set-regarding-search.png)
-
-5. Use the left and right arrows to find related cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
-
-<a name="CreateRecord"></a>
 
 ### Create a new record  
 
@@ -282,22 +247,7 @@ You can link an email message or meeting to a specific Dynamics 365 record, such
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
-## Gain insights into your activities with relationship assistant
 
-The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing right now. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.
-
-Some of what the assistant can do for you:
-
-- reminds you of upcoming activities
-- evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while
-- identifies email messages that may be waiting for a reply from you
-- alerts you when an opportunity is nearing its close date
-
-When you start your day by signing in to Dynamics 365 apps, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
-
-To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png) > **Relationship Assistant**.
-
-![Relationship Assistant](media/relationship-assistant.png)
 
 <!--
 ## Monitor an email message after you send it  
