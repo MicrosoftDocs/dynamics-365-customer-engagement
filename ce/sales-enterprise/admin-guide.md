@@ -4,8 +4,8 @@ description: "A starting point for browsing admin and sales manager content for 
 ms.date: 04/22/2020
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
