@@ -30,7 +30,10 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
 
 1. Open an email or appointment that you want to associate to a record in your app. 
 
-2. Open the [Dynamics 365 pane](basic-nav.md#open-dynamics-365-pane).
+2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
+
+   > [!div class="mx-imgBorder"] 
+   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
 5. In the **Set Regarding** (---).
 
