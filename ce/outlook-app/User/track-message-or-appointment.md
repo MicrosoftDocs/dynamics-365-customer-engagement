@@ -35,15 +35,11 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-5. In the **Set Regarding** (---).
+5. In **Set Regarding** textbox, type in your search text and select the row to link the email or appointment to.
 
-   ![Set Regarding](media/set-regarding-open.png)
+   ![Set Regarding](../media/set-regarding.gif)
 
-6. Enter search text. A list of related records appears.
 
-   ![Search for related records](media/set-regarding-search.png)
-
-7. Use the left and right arrows to narrow search to cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
 
 ### Find a different record to link to  
 
