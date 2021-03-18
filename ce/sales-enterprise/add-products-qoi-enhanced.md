@@ -1,5 +1,5 @@
 ---
-title: "Add products to quotes, orders, or invoices using enhanced experience (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Preview: Add products to quotes, orders, or invoices using the enhanced experience (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
 ms.date: 03/17/2021
 ms.service: dynamics-365-sales

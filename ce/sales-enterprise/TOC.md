@@ -123,7 +123,7 @@
 #### [Work with opportunities in the Kanban view](opportunity-kanban-view.md)
 #### [Reopen leads](../sales-enterprise/re-open-lead-sales.md)
 #### [Add products to an opportunity](add-products-opportunity.md)  
-#### [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)
+#### [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)
 #### [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
 #### [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 #### [Recalculate an opportunity](recalculate-opportunity.md)
@@ -139,7 +139,7 @@
 #### [Create or edit orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
-#### [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+#### [Add products to a quote, order, or invoice using the enhanced experience](add-products-qoi-enhanced.md)
 
 
 ### Sales forecasting

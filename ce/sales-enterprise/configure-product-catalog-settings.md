@@ -11,7 +11,7 @@ manager: shujoshi
 ---
 # Configure product catalog settings
 
-A product catalog includes the list of products and services that your company sells. Sellers choose products from the catalog when they are creating an opportunity, quote, invoice, or order. Configure the product catalog settings to change the seller experience while selecting products from the catalog. For example, you can choose whether the price list selection is mandatory when creating an opportunity, quote, invoice, or order.
+A product catalog includes the list of products and services that your company sells. Sellers choose products from the catalog when they are working on an opportunity, quote, invoice, or order. Configure the product catalog settings to change the seller experience while selecting products from the catalog. For example, you can choose whether the price list selection is mandatory when creating an opportunity, quote, invoice, or order.
 
 **To configure the product catalog settings:**
 
