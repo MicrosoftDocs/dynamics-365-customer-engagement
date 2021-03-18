@@ -15,25 +15,7 @@ ms.service: dynamics-365-customerservice
 
 ## Enable skill-based routing in Customer Service admin center<a name="sbr-oc-admincenter"></a>
 
-### Manual work classification ruleset
 
-1. Select a work stream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
-2. On the **Work classification ruleset** page, select **Create new**, and in the **Create work classification ruleset** dialog box, select  **Rule Type** as **Manual**, and enter a name and description.
-3. Select **Create Rule**, and on the **Create demand rule** dialog box, enter a name.
-4. In the **Conditions** area, define the conditions according to your business needs.
-5. In the **Output** area, select the attribute whose value will be set if the conditions are met.
-6. If you want to manually set up the skill attribute, then in the Conditions area, define conditions for the skill attribute and select the required value in the **Output** area for the skill.
-
-
-### Machine learning-based skill identification ruleset
-
-To configure skill identification ruleset using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](intelligent-skill-model.md)
-
-*Procedure to create ruleset using ML*
-1.	For a work stream, from a routing rule section select ‘Create ruleset’ and then select ‘Create New’
-2.	Choose Rule Type as Machine learning model and provide a name and description to the ruleset and select one of the AI Builder published text classification model and select Create
-3.	In the input attributes section, select the attributes from the conversation entity or related entity. For an incoming work item, these attribute values will be concatenated and send to the Machine learning model for skill prediction
-4.	In the output attributes section, Skill will be preselected which can not be edited or deleted.
 
 ## Enable skill-based routing<a name="sbr-oc-admin"></a>
 

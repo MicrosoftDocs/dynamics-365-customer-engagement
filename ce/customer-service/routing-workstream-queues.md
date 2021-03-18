@@ -20,7 +20,7 @@ Work classification rules can be written using manual declarative decision list 
 
 ### Manual
 
-Rules to update work item attributes. They are written in the format of if defined condition satisfies then set the output attributes to certain values. Create conditions to define rules based on multiple entity attributes.
+Rules to update work item attributes. They are written in the format of if defined condition satisfies then set the output attributes to certain values. Create conditions to define rules based on multiple entity attributes. To create manual work classification rulesets, see [Manual work classification rulesets](configure-work-classification.md#manual-work-classification-ruleset)
 
 #### Skill attachment rules
 
