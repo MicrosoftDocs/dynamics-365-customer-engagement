@@ -35,19 +35,24 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-5. In **Set Regarding** textbox, type in your search text and select the row to link the email or appointment to.
+5. In **Set Regarding** textbox, type in your search text and select the row in your app to associate the email or appointment with.
 
    ![Set Regarding](../media/set-regarding.gif)
 
 
+### Change the row an email or appointment is associated with
 
-### Find a different record to link to  
+You can easily change the the row an email or appointment is linked to in your app using the **Change Regarding** feature.
 
-1. Find the record to link in a list or using Search. 
+1. Open the email or appointment that you want to link to a differernt row.
+2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
-2. In Tracked regarding, click (...) > **Change Regarding**.
+   > [!div class="mx-imgBorder"] 
+   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-   ![Change Regarding](media/open-change-regarding.png)
+2. In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **Change Regarding**.
+
+   ![Change Regarding](../media/change-track-regarding.png)
 
 3. Click **Set Regarding** (---).
 
