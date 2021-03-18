@@ -73,4 +73,4 @@ You can change the the row an email or appointment is linked to in your app usin
    > ![Enter search text](../media/change-track-regarding-2.png)
 
 
-### Creat a new row
+
