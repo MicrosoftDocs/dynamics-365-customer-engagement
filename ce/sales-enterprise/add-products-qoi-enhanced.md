@@ -66,14 +66,19 @@ If you've created a quote from an opportunity, the products added to the opportu
     ![Screenshot showing the enhanced Add Products Dialog](media/enhancedAddProductsDialog.png)
 
     > [!NOTE]
-    > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a pop-out dialog, contact your system administrator to enable the preview. The above screenshot shows the default columns in the dialog. Your administrator can customize the dialog to add more columns depending on the needs of your organization. The information displayed in the Product column and the columns in the grid are customizable. So, if you need additional columns to populate data or need more information to identify the product better, contact your system administrator. 
+    > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a pop-out dialog, contact your system administrator to enable the preview. The above screenshot shows the default columns in the dialog. The information displayed in the Product column and the columns displayed in the grid are customizable. So, if you need additional columns to populate data or need more information to identify the product better, contact your system administrator. 
 
-6.  Search for the product or use the product family filter in the left pane to identify products that you want to add to the quote. As you select products, you will see the count of selected products in the **Selected** tab.
+6. Use one of the following options to quickly identify products that best suits the opportunity:
 
-    > [!NOTE] 
-    > The products and the product families displayed depend on the price list that you have chosen. So, if you do not see a product, ensure that the product is associated with the selected price list.
-    
-7. Optionally, click the **Write in** tab to add products or services that are not in the catalog and are very specific to an opportunity.  
+    - If you know the product names, simply search for them and add.
+    - If you want to choose products from a specific product family, use the left pane or the drop-down before the search box to filter products by family.  
+        > [!NOTE] The left pane disappears once you start typing in the search box.If you want to filter the search results by product family, use the drop-down. Also, the count of products in the left pane is available only when the number of products and families are less than 50000 and 5000 respectively.
+
+    - If you want to add products that you have recently chosen for another opportunity, open the **Recently used** tab.  
+    - If you want to add a product or service that is not in the standard product catalog and is specific to the opportunity, open the **write in** tab and create a product on-the-fly.
+
+    > [!IMPORTANT]
+    > Do not use the write in option for standard products and services that your organization offers.
 
 7.  Specify the Price per unit if the product does not have an associated price list. If the product has a default price list associated with it, the Price per unit is populated in accordance with the associated price list. 
 
@@ -83,8 +88,10 @@ If you've created a quote from an opportunity, the products added to the opportu
     > the Price Overridden column has been added, select Override Price.
 
 8.  Enter the quantity and click **Add**.
+    As you select products, you will see the count of selected products in the **Selected** tab.
 
 9.  Repeat the process for all products you want to add. When you are done, click **Save to quote**.
+    
 
 ## Delete or remove products from a quote, invoice or order
 
@@ -95,8 +102,8 @@ Remove products if you have selected them inadvertently or if they are
 no longer relevant for the quote. You can remove products at two
 instances:
 
--   While adding products to the quote - in the Add products dialog
--   After adding products to the quote - in the Products section of the quote
+- While adding products to the quote - in the Add products dialog
+- After adding products to the quote - in the Products section of the quote
 
 **To remove a product from the Add products dialog:**
 
