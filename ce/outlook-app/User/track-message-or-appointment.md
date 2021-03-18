@@ -50,18 +50,20 @@ You can easily change the the row an email or appointment is linked to in your a
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-2. In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **Change Regarding**.
+3. In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **Change Regarding**.
 
-   ![Change Regarding](../media/change-track-regarding.png)
+   > [!div class="mx-imgBorder"] 
+   > ![Change Regarding](../media/change-track-regarding.png)
 
-3. Click **Set Regarding** (---).
+4.  In **Set Regarding** textbox, enter search text. 
 
-   ![Set Regarding](media/set-regarding-open.png)
+   > [!div class="mx-imgBorder"] 
+   > ![Enter search text](../media/change-track-regarding-1.png)
 
-4. Enter search text. A list of related records appears.
+4. When a related rows appears, select the row to link the email or appointment to.
 
-   ![Search for related records](media/set-regarding-search.png)
+   > [!div class="mx-imgBorder"] 
+   > ![Enter search text](../media/change-track-regarding-2.png)
 
-5. Use the left and right arrows to find related cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
 
-<a name="CreateRecord"></a>
+
