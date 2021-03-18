@@ -30,7 +30,6 @@ A few things to remember when you merge cases with parent and child relationship
 
 - You can only merge a child case into another child case if both of the child cases have the same parent case.  
 
-
 In the Customer Service Hub, you can merge cases from the dashboard streams or from the list of case records.  
 
 > [!NOTE]
@@ -38,14 +37,12 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 ## Merge cases from dashboard streams  
 
-1. On the sitemap, select **Service** > **Dashboards**.  
+1. On the site map, select **Service** > **Dashboards**.  
 
 2. Open the dashboard you want to look at.  
 
 3. Select at least two active case records that you want to merge using the **Bulk select** button ![bulk-select](media/bulk-select.png).
 4. Select the **More Actions** button ![More Actions button](../customer-service/media/v8-1-more-actions--button.png "More Actions button"), and then select **Merge Cases**.  
-
-    You can select and merge up to 10 cases at a time.  
 
 5. In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.  
 
@@ -53,11 +50,9 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 ## Merge cases from a list of case records  
 
-1. On the sitemap, select **Service** > **Cases**.  
+1. On the site map, select **Service** > **Cases**.  
 
 2. Select  at least two active case records that you want to merge, and then on the command bar, select **Merge Cases**.  
-
-    You can select and merge up to 10 cases at a time.  
 
 3. In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.  
 
