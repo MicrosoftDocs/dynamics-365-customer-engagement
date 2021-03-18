@@ -26,7 +26,6 @@ search.app:
 
 When a row is tracked using Dynamics 365 App for Outlook, you can add activities such as a phone call, appointment, or task to the row.
 
-
 1 . Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
