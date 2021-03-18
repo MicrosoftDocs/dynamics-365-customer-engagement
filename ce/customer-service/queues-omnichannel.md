@@ -48,8 +48,8 @@ In this section, we cover information on how to create a queue for the messaging
 
 2. Select **Add users**, and in the flyout menu, select the users that should be part of the queue, and select **Add**. The users are added to the queue.
 3. In **Assignment method**, you can use one of the following:
-   - Highest capacity: Selected by default; assigns work item to the agent with the highest capacity.
-   - Round robin: Assigns work item to the agent who matches the criteria first.
+   - **Highest capacity:** Selected by default; assigns work item to the agent with the highest capacity, amongst those who has the skills identified during the classification stage, and has the presence as specified in the allowed presence option of the work stream.
+   - **Round robin:** Assigns work item to the agent in the list order who matches the criteria for skills and presence.
    - Create a custom assignment method. For more information about custom assignment method, see [Create custom assignment method]()
 
 
