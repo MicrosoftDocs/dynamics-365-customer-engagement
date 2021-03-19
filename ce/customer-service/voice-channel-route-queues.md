@@ -155,3 +155,114 @@ Navigate to the work stream for which you have configured the voice channel and 
 ![](media/image32.png)
 
 1.  Create as many rules as your business requires.
+
+
+Appendix A: Unified routing
+
+Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item
+
+requirements and matching them with the agent's capabilities on the other side using round robin
+
+routing.
+
+Unified routing can assign incoming work item from all channels- cases, live chat, digital messages, and voice. It works in a truly omnichannel way ensuring work items on all the channels are routed in a consistent and similar fashion and thus the agent engagement on different channels is respected before any new work is assigned to them.
+
+Unified routing has two broad stages – classification and assignment. During the classification phase, rules can be used to add information on the work item which can be further used to find the best suited agent. This stage can be termed as creating the demand on the incoming voice call. As part of classification rules, declarative skill attachment rules can be defined as well. For voice channel, skills
+
+can't be attached using the machine learning model.
+
+During the assignment phase, the work items are prioritized as per the business needs and then matched against the agent using round robin routing.
+
+For a simple and quick voice call routing, there is no need to set up any rules for unified routing. By
+
+default, all the incoming voice calls will get routed to 'Default voice queue' and will get assigned to the
+
+agents following the round robin assignment methodology.
+
+Work classification and route to queues ruleset can be configured for a work stream as per the business needs.
+
+Routing rules for a work stream
+
+Routing rules are configured for a work stream. A work stream is a container for work items to be enriched, routed, and assigned. A work stream is associated with a channel, such as voice and chat. Routing rules are written as rulesets which consist of rule items. Routing rules for a work stream are comprised of work classification rules and route-to-queue rules.
+
+Routing rules are divided into following:
+
+*Work classification rules*
+
+Work classification rules are for updating work item attributes. They are written in the format of - if defined condition satisfies then set the output attributes to certain values. They are optional and can be used to add additional detailed information to the incoming work items, which are then further used for more precise routing and assignment.
+
+They are declarative rules written as decision list in the following ways:
+
+-   Manual – Rules to update work item attributes. They are written in the format of if defined condition satisfied, then set the output attributes to certain values. Create conditions to define rules based on multiple entity attributes.
+
+-   Skill attachment rules – A sub type of manual work classification rules and are rules defined to attach skills to the work item. They are written in the format of if defined condition satisfied, then attach defined skills to the work item.
+
+*Queue routing rules*
+
+Queue routing rules are rules to assign queue to the work item. They are written in the format of- if defined condition satisfies then route the work item to the defined queue. They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a work stream, the route to queue ruleset is run after all the work classification rulesets have been run. A work stream has only one route to queue ruleset.
+
+Configure work classification rules: Manual work classification ruleset
+
+1.  For a work stream, from **Work** classification area under Routing rules routing, select **Create ruleset**, and then select **Create New**.
+
+![](media/image53.png)
+
+1.  Choose **Rule Type** as **Manual** and provide a name and description for the ruleset, and then select **Create**.
+
+![](media/image54.png)
+
+1.  Select **Create Rule** to create a rule item within this ruleset and provide a name for the rule.
+
+2.  In the **Conditions** section, define a set of conditions using the conversation entity and related entity attributes.
+
+![](media/image55.png)
+
+1.  In the **Output** section, select the attribute from the conversation entity or related entity whose value will be set if the conditions are met.
+
+2.  Create multiple rulesets as your business needs. All rulesets will run in order in such a way that output attributes that are set in the previous ruleset can be used in conditions in the next rulesets. Within a ruleset, rule items will run in order following first-match policy, which means as soon as the rule item condition is satisfied, no further rule items will run in that ruleset and control will shift to next ruleset in the order.
+
+![](media/image56.png)
+
+Configure skill identification rules: Manual skill identification ruleset
+
+1.  For a work stream, from a routing rule section, select **Create ruleset**, and then select **Create New**.
+
+2.  Select **Rule Type** as **Manual**, provide a name and description for the ruleset, toggle **Skill identification ruleset** to **Yes**, and select **Create**.
+
+![](media/image57.png)
+
+1.  Select **Create Rule** to create a rule item within this ruleset and provide a name for the rule.
+
+2.  In the **Conditions** section, define set of conditions using conversation entity and related entity attributes.
+
+3.  In the **Skills** section, select skills and optional skill proficiency required. These skills will be attached to the conversation if the above defined conditions are satisfied.
+
+![](media/image58.png)
+
+Route to queue rules: Route to queue ruleset
+
+1.  For a work stream, in **Work classification** under the **Route to queues** section, select **Create ruleset**, and then select **Create New**.
+
+2.  Select **Create Rule** to create a rule item within this ruleset and provide a name for the rule.
+
+3.  In **Conditions**, define set of conditions using conversation entity and related entity attributes.
+
+4.  In **Route to queue**, select the queue where work items should route if the above conditions are satisfied.
+
+![](media/image59.png)
+
+1.  To route all incoming work items to a specific queue irrespective of the conditions, set attribute
+
+**ConversationId** to **Not null**, and select the queue.
+
+![](media/image60.png)
+
+1.  Route to queues have only one ruleset which can have multiple rule items within.
+
+![](media/image61.png)
+
+Assignment rules for a queue
+
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items will be prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work will be assigned to agents in the order they are listed, which means that the agent listed on the top is assigned first.
+
+![](media/image62.png)

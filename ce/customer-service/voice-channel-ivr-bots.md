@@ -22,7 +22,7 @@ You might need to sign into [*Power Virtual Agents*](https://powerva.microsoft.c
 
 **IMPORTANT:** The bot must be created in the same Dynamics 365 environment in which you are configuring the voice channel. Creating the bot in a different environment will not allow the bot to have speech capabilities.
 
-![](media/image33.jpeg)
+![](media/image33.png)
 
 ## Configure a bot for voice
 
@@ -30,7 +30,7 @@ Perform the following steps to add and configure a bot in Omnichannel for Custom
 
 1.  In the **Omnichannel admin center (preview)** app, go to the work stream you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
 
-![](media/image34.jpeg)
+![](media/image34.png)
 
 1.  On the **Add Bot** pane, select a bot from the **Name** box.
 
