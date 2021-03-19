@@ -1,6 +1,6 @@
 ---
-title: "Basic navigation in Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
-description: How to use the Dynamics 365 mobile app
+title: "Basic navigation on Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
+description: How to use the Dynamics 365 for phones and tablets mobile app.
 ms.custom: 
 ms.date: 1/27/2021
 ms.reviewer: kvivek
@@ -42,7 +42,7 @@ You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Custo
 
 ## Home screen 
 
-It's easy to get around in Dynamics 365 for phones and tablets<!--note from editor: Edit okay? I'm getting a bit confused here. If this article is talking about the "Dynamics 365 mobile app," shouldn't the title and introduction be changed?-->. The following image shows the primary navigation elements on the home screen.
+It's easy to get around in Dynamics 365 for phones and tablets. The following image shows the primary navigation elements on the home screen.
 
 ![Navigation controls, expanded view](media/home_screen_iphone_d365.png "Navigation controls, expanded view")
 
