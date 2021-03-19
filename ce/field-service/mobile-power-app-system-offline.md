@@ -84,8 +84,8 @@ Within your offline profile you can:
 
 Open the **Field Service Mobile - Offline Profile**.  
 
-Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team, while individual users are displayed directly in the offline profile. Organizations with many users should leverage teams to help ease maintenance of user access.
-
+Add users or [teams](https://docs.microsoft.com/en-us/power-platform/admin/manage-group-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team, while individual users are displayed directly in the offline profile. Organizations with many users should leverage teams to help ease maintenance of user access.
+\
 A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile, you will see a warning stating that the user is already part of a different offline profile. If you continue with the change, the user or team will be moved to the new profile. 
 
 > [!div class="mx-imgBorder"]
@@ -101,7 +101,7 @@ For each entity, you can choose a data download filter:
 4. Custom data filter.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center, showing the edit bookable resource booking entity options.](./media/MOP-BRB.png)
+> ![Screenshot of the Power Platform admin center, showing the edit bookable resource booking entity options.](./media/mobile-offline-mop-latest.PNG)
 
 For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next seven days or today.
 
