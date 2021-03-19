@@ -25,7 +25,7 @@ search.app:
 
 # Create a new contact, lead, or account row using an email address
 
-Quickly add information for a new customer in Dynamics 365 using the customer's eamil address. 
+Quickly add information for a new customer in Dynamics 365 using the customer's email address. 
 
 When you receive or create an email or appointment for a new customer, use their email address to add them as a new contact, lead, or account in Dynamics 365.
 
