@@ -48,8 +48,6 @@ To have this email untracked, the user would have to manually untrack
 the reply with the App for Outlook as well as any replies to this
 because the master email is still tracked.
 
- 
-
 An administrator can change the
 [*OrgDbOrgSetting*](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm),
 **IgnoreConversationIndexAndInReplyToForCorrelation** to change this
@@ -61,11 +59,11 @@ setting
 
 ### Example B
 
-- User A sends an email to multiple recipients, including contacts and other Dynamics 365 users.
+- User A sends an email to multiple recipients, including contacts and other Dynamics 365 users
 
-- User B forwards this thread to another user for internal conversation.
+- User B forwards this thread to another user for internal conversation
 
-- They do not want the information in this forward automatically tracked.
+- They do not want the information in this forward automatically tracked
 
 In this case, it will automatically track because it identifies the
 ConversationIndex and In-Reply-To values as an email that is part of a
@@ -109,8 +107,6 @@ you will need to untrack these manually or change the
 and forwards from being tracked. \*\*link to Email Settings paragraph on
 this setting
 
- 
-
 ## 2. When resolving recipient email addresses to records in Dynamics 365, if there is more than one record in Dynamics 365 with the same email address, which record is it resolved to?
 
 It resolves using the method below as described in this article: [How customer engagement apps associates email addresses with records](/power-platform/admin/email-message-filtering-correlation#how-customer-engagement-apps-associates-email-addresses-with-records)
@@ -119,8 +115,6 @@ If there are duplicate records within Dynamics 365 with the same email
 address, the contents of the email **From field** will resolve first by
 ownership and then to the first active record in the following order on
 an **incoming email**:
-
-
 
 1.  SystemUser- (Will be first UNLESS the tracking user is ALSO the
     > owner of the duplicated record, such as Contact, Account and
@@ -150,21 +144,17 @@ to email settings page. Regardless of this setting, we will not resolve
 to inactive User records.
 
  
-**Examples of resolving the sending email address:**
+### Examples of resolving the sending email address
 
-**Example 1:**
-
-- 2 Contacts exist with same the same email address  
+**Example 1**
+- Two contacts exist with same the same email address  
 - The tracking user has access to both, but does not own either  
  
-
 The sender will resolve to the first created Contact. This will be the
 same result if the tracking user owns both Contacts  
- 
 
-**Example 2:**
-
-- 2 Contacts exist with the same email address  
+**Example 2**
+- Two contacts exist with the same email address  
 - The tracking user has access to both Contacts but owns the last
 created Contact  
   
@@ -172,66 +162,56 @@ The sender will resolve to the Contact owned by the tracking user, even
 though it was the last created  
  
 
-**Example 3:**
-
-- 2 Contacts and 1 Account exist with the same email address  
-- The tracking user owns both Contacts and the Account  
-- The Account was created before the Account  
- 
+**Example 3**
+- Two contacts and one account exist with the same email address  
+- The tracking user owns both contacts and the account  
+- The account was created before the account  
 
 The sender will resolve to the first created Contact
 
- 
-
 **Example 4:**
-
-- 2 contacts and 1 Account exist with the same email address  
-- The tracking user does not own either Contact, but does own the
-Account  
+- Two contacts and 1 account exist with the same email address  
+- The tracking user does not own either contact, but does own the
+account  
  
-
-The sender will resolve to the Account
+The sender will resolve to the account.
 
 **Incoming Recipient Examples:**
 
-Here are some **additional points** on how it resolves recipient records
+Here's **additional points** on how it resolves recipient records
 in the **To or CC field** of an **incoming email**:
 
-If there is an **inactive** user in the recipients line, the Dynamics
+- If there is an **inactive** user in the recipients line, the Dynamics
 365 App for Outlook may show that the user matches the email, but when
 you track, the promotion will not resolve to that email for the inactive
 user and it will show up in red as unresolved. It will not resolve to
 inactive users regardless of the **ResolveForInactiveEntities** setting.
 
-If the email address is tied to an active user, it will display that in
+- If the email address is tied to an active user, it will display that in
 the Dynamics 365 App for Outlook recipients pane, but it will still
 resolve to each active Dynamics 365 record with that email address once
 it is promoted. If the **ResolveForInactiveEntities** setting is True,
 it will also resolve to inactive entity records except Users.
 
-The Dynamics 365 App for Outlook will only show one of these records in
+- The Dynamics 365 App for Outlook will only show one of these records in
 the recipients pane, but in Dynamics 365, it will resolve to all records
 with that email address on incoming emails as long as **Set To,cc,bcc
 fields to unresolved values if multiple matches are found** is set to No
 in System Settings
 
- 
-
 Here are some **additional points** on how the **To or CC field**
 resolves on a **tracked sent item**:
 
-If the user is active and there is a contact, it will resolve to both
+- If the user is active and there is a contact, it will resolve to both
 records, although it will show resolved to the user in the Dynamics 365
 App for Outlook. It will resolve to all active records that match that
 email address or also inactive records if you have enabled
 **ResolveForInactiveEntities**. You can see below it resolves to an
 Account, User, Contact and Lead.
 
-If the User is Inactive, it may appear that the record is found/resolved
+- If the User is Inactive, it may appear that the record is found/resolved
 in the Dynamics 365 App for Outlook, however, when the item promotes
 into Dynamics 365, it will show up as unresolved
-
- 
 
 ## 3. If a Contact has multiple email address fields populated, which email will receive the email when sent directly from Dynamics 365?
 
@@ -241,13 +221,10 @@ an email directly in Dynamics 365 and you select a Contact name in the
 TO line, it will only use the emailaddress1 field. If this field is
 empty, the email will fail to send.
 
- 
-
 ## 4. A user receives a reply to a previously tracked email and chooses to reply back before it shows as tracked in the Dynamics 365 App for Outlook.
 
 Replying to emails before it is tracked will still track during the next
 sync cycle of the user's mailbox.
-
 
 An external contact sends an email to more than one Dynamics 365 user
 and this record is tracked
@@ -267,18 +244,12 @@ of users in Dynamics 365
 - Internal User sends an email to User A and User B and tracks before
 sending
 
-- User A nor User B track this received email
-
- 
+- User A nor User B track this received email 
 
 Only the Sent email from User A will appear in Dynamics 365. The system
 identifies Sent and Incoming as separate emails. Therefore, either User
 A or User B would need to track the Incoming email for this to appear in
-Dynamics 365.
-
- 
-
- 
+Dynamics 365. 
 
 ## 5. Multiple record types exist in Dynamics 365 with the same email addresses 
 
@@ -317,30 +288,17 @@ Dynamics 365.
     [henryross@dynamicsmailapp.onmicrosoft.com](mailto:Bob@dynamicsmailapp.onmicrosoft.com)
     is on the To: and CC: line
 
- 
-
 If this email is promoted into Dynamics 365, the promoted email in
 Dynamics 365 will show the following values:
 
 To: Brian LaMee; Hugo Garcia; George Li; Henry Ross
 
- 
+> [!div class="mx-imgBorder"] 
+>![Example of email To field values](../media/faq-about-tracking.png)
 
 **Email addresses do not resolve to records only in the default email
 address fields**. If you have a custom Single Line of Text field with
 Email format on a Contact record, you may see some interesting results.
-
- 
-
-
-
- 
-
-** **
-
-** **
-
- 
 
  
 
