@@ -46,8 +46,14 @@ For more information on how to use the assistant when you're running an app in a
 
 When you start your day the assistant draws your attention to your most important items and tasks that needs your attention. 
 
-1. To access the assistant, open the Dynamics 365 pane, and then select an item in your email that you're tracking using App for Outlook.
-2. Select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
+1. Select **Dynamics 365** to open the **Dynamics 365** pane.  
+
+   > [!div class="mx-imgBorder"] 
+   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png) 
+   
+2. Select an item in your email that you're tracking using App for Outlook.
+   
+3. Select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
 
    > [!div class="mx-imgBorder"] 
    > ![From the menu select Assistant](../media/assistant-menu.png)
