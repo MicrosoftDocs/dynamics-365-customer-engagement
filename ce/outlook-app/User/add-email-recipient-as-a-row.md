@@ -25,12 +25,12 @@ search.app:
 
 # Add an email recipient as a contact, lead, or account
 
-Quickly add information for a new customer in your app using their eamil address. 
+Quickly add information for a new customer in Dynamics 365 using their eamil address. 
 
-When you receive or create a new email or appointment with a recipient with a new email address, you can add them as a new contact, lead, or account using Dynamics 365 app for Outlook.
+When you receive or create a new email or appointment for a recipient with a new email address, you can add them as a new contact, lead, or account in Dynamics 365 app using Dynamics 365 app for Outlook.
 
 
-1. Open the email or appointment.
+1. Open an email or appointment.
 
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
