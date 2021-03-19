@@ -24,11 +24,11 @@ search.app:
 ---
 # Use delegate access 
 
-Delegate access is granted to users who manage certain aspects of Outlook and Microsoft Dataverse information for another person.
+Delegate access is granted to users who manage certain aspects of Microsoft Outlook and Dynamics 365 information for another person.
 
 Set up delegate access in Microsoft Outlook to give someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Microsoft Dataverse using the Dynamics 365 App for Outlook. For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
 
-Tracking that's done using delegate access is synced asynchronously. This means when you track for an item as a delegate, App for Outlook syncs the information for both the user and the delegated user at the same time.
+Tracking that's done using delegate access is synced asynchronously. When you use the App for Outlook tracking feature to track a n item in your email as a delegate, App for Outlook syncs the information for both the user and the delegate at the same time.
 
 
 > [!IMPORTANT]
@@ -81,3 +81,5 @@ Track an email using **Track without Regarding** without linking it to a specifi
 4. The status of the meeting invitation changes to **Processing, please wait** for both the user and the delegated user. Don't close the Outlook item until the status changes to **Track pending**. If you close it too early then the item may not track successfully.
    
 5. Once the email has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked** for both the user and the delegated user.
+
+
