@@ -45,9 +45,6 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
     
     - Create their own email template.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable email chat transcript](media/oc-chat-transcript-enable-email.png "Enable email chat transcript")
-
     > [!NOTE] 
     > Whether an administrator chooses to use the email template provided or create their own, the "{conversation.transcript}" text determines where the transcript is injected into email.
 
