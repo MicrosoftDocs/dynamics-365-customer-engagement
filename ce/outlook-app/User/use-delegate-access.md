@@ -60,17 +60,16 @@ Track an email using **Set Regarding** and link it to a specific row in your app
    > ![Tracked successful message displays](../media/da-tracked-successful.png)  
 
 
-## View the linked item in your app 
+### View the linked item using Set Regarding in your app 
 
 The email item is created as an email activity in Dynamics 365 and is linked to the row that you selected using **Set Regarding**.
-
 
 - To see the item in your app, next to **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
 
    > [!div class="mx-imgBorder"] 
    > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
   
-This is how an email appears in Dynamics 365. 
+This is how the linked email appears in Dynamics 365. 
 
 1. The row name that you selected using **Set Regarding**.
 2. The email activity will appear in the row's timeline (if timeline has been enabled).
@@ -81,7 +80,7 @@ This is how an email appears in Dynamics 365.
 
 ## Track an email without linking it to a specific row in Dynamics 365
 
-Track an email using **Track without Regarding** without linking the email to a specific row in your app.
+Track an email using **Track without Regarding** to add the email an activity in Dynamics 365 without linking it to specific row.
 
 1. Go to the email folder of the person that you are a delegate for and open an email that you want to track.
 
@@ -98,5 +97,15 @@ Track an email using **Track without Regarding** without linking the email to a 
 4. The status of the meeting invitation changes to **Processing, please wait** for both the user and the delegated user. Don't close the Outlook item until the status changes to **Track pending**. If you close it too early then the item may not track successfully. Once the email has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked** for both the user and the delegated user.
 
 
+### View the linked item using Track without Regarding in your app 
 
+1. To see the item in your app, next to **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
+
+2 The item is created an an email activities and is not linked to a specici row in Dynamics 365.
+
+   > [!div class="mx-imgBorder"] 
+   > ![See the track without regarding item in your app](../media/track-without-regarding-in-app.png)
 
