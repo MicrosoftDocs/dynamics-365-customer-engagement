@@ -15,7 +15,7 @@
 ### [System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)
 ### [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
 
-## International availability
+## Availability
 ### [International availability of Omnichannel for Customer Service](international-availability.md)
 ### [Dynamics 365 US Government cloud (GCC) availability](government-availability.md)
 
