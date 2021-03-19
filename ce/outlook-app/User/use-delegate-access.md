@@ -43,34 +43,34 @@ For more information on how to set up delegate access, see [Set up delegate acce
 2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/Pic1.png)
+   > ![](../media/Pic1.png)
 
 3. The status on the email changes to **Track pending** for both the user and the delegated user. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/Pic2.png)
+   > ![](../media/Pic2.png)
    
 4. Once the email has finished synchronizing in Microsoft Dataverse, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/Pic3.png)
+   > ![](../media/Pic3.png)
 
 ### Track appointment or meeting invitation for a known contact
 
 1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Microsoft Dataverse.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/Pic4.png)
+   > ![](../media/Pic4.png)
   
 2. When the meeting invitation is open, on the main menu, select **Dynamics 365** to open the mail app.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/Pic5.png)
+   > ![](../media/Pic5.png)
 
 3. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/Pic6.png)
+   > ![](../media/Pic6.png)
    
 4. The status of the meeting invitation changes to **Track pending** for both the user and the delegated user. 
    
