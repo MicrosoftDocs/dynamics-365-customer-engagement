@@ -35,7 +35,7 @@ Offline configuration is achieved by:
 > ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
 
 > [!Note]
-> When the technician has internet connectivity, data on the device will automatically be refreshed at a minimum interval of five minutes. See [Sync Filters](#sync-filters).
+> When the technician has internet connectivity, data on the device will automatically be refreshed at a minimum interval of five minutes. For more information, see [sync filters](#sync-intervals) in this article.
 
 For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
 
