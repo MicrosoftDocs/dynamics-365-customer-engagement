@@ -84,7 +84,7 @@ Within your offline profile you can:
 
 Open the **Field Service Mobile - Offline Profile**.  
 
-Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team, while individual users are displayed directly in the offline profile. Organizations with many users should leverage teams to help ease maintanence of user access.
+Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team, while individual users are displayed directly in the offline profile. Organizations with many users should leverage teams to help ease maintenance of user access.
 
 A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile, you will see a warning stating that the user is already part of a different offline profile. If you continue with the change, the user or team will be moved to the new profile. 
 
@@ -118,7 +118,7 @@ For more information on offline profiles, see the article on [setting up mobile 
 
 ## Sync intervals
 
-Sync intervals define how often record type data will automatically sync down to the users' devices. Sync intervals can be a minimum of five minutes or as long as one day. Records that change frequently can have a short duration sync interval, while infrequently changed records do not need to sync as often. With variable sync intervals, adminstrators have greater control over data and can help improve sync performance.
+Sync intervals define how often record type data will automatically sync down to the users' devices. Sync intervals can be a minimum of five minutes or as long as one day. Records that change frequently can have a short duration sync interval, while infrequently changed records do not need to sync as often. With variable sync intervals, administrators have greater control over data and can help improve sync performance.
 
 The default **Field Service Mobile - Offline Profile** has predetermined sync intervals for each record type, which is selected based on typical usage patterns of those record types. 
 
@@ -168,9 +168,7 @@ To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Of
 > [!div class="mx-imgBorder"]
 > ![Screenshot of system settings for Dynamics 365 showing the conflict detection setting.](./media/mobile-powerapp-sync-conflict.png)
 
-Adminitators can view past sync errors by going to **Settings** > **Sync Error**.
-
-
+Administators can view past sync errors by going to **Settings** > **Sync Error**.
 
 ## Configuration considerations
 
