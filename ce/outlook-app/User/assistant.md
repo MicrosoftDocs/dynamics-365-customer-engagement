@@ -53,7 +53,7 @@ When you start your day the assistant draws your attention to your most importan
    
 2. Select an item in your email that you're tracking using App for Outlook.
    
-3. Select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
+3. From the **Dynamics 365** pane select **More commands** ![Main more commnands button](../media/main-more-commands-button-appforoutlook.png) > **Assistant**.
 
    > [!div class="mx-imgBorder"] 
    > ![From the menu select Assistant](../media/assistant-menu.png)
