@@ -41,9 +41,9 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
 
    ![Set Regarding](../media/set-regarding.gif)
 
-## View the linked email or appointment in your app
+## View a linked email or appointment in your app
 
-You can easily open your app to and see the meeting or appointment that you linked.
+You can easily open your app and see the meeting or appointment that you've linked.
 
 - In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
    > [!div class="mx-imgBorder"] 
