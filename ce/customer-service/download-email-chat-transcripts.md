@@ -4,7 +4,7 @@ description: "Learn how to download or email chat transcripts"
 author: platkat
 ms.author: ktaylor
 manager: autumna
-ms.date: 07/07/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -39,7 +39,7 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
 
 6. If you select **Yes** for **Allow email of transcript**, you must select an email template and a mailbox from which the email will be sent. Administrators have a choice to either:
 
-    - Use an email template provided by Chat for Dynamics 365 Customer Service.
+    - Use an email template provided by Chat for Dynamics 365 Customer Service by selecting an option from the **"From" mailbox** drop-down list.
 
     - Modify the email template provided by Chat for Dynamics 365 Customer Service.
     
