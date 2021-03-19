@@ -1,5 +1,5 @@
 ---
-title: "Add an email recipient as a contact, lead, or account (Dynamics 365 apps) | MicrosoftDocs"
+title: "Create a new contact, lead, or account row using a new email address (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Add an email recipient as a contact, lead, or account using Dynamics 365 app for Outook.
 ms.date: 03/19/2021
@@ -23,7 +23,7 @@ search.app:
   - D365Outlook
 ---
 
-# Add an email recipient as a contact, lead, or account
+# Create a new contact, lead, or account row using a new email address
 
 Quickly add information for a new customer in Dynamics 365 using their eamil address. 
 
