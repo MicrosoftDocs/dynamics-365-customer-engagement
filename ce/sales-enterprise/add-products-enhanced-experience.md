@@ -69,7 +69,8 @@ As a salesperson, you want to be able to easily identify and add products from t
 
     - If you know the product names, simply search for them and add.
     - If you want to choose products from a specific product family, use the left pane or the drop-down before the search box to filter products by family.  
-        > [!NOTE] The left pane disappears once you start typing in the search box.If you want to filter the search results by product family, use the drop-down. Also, the count of products in the left pane is available only when the number of products and families are less than 50000 and 5000 respectively.
+      > [!NOTE]
+        > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down. Also, the count of products in the left pane is available only when the number of products and families are less than 50000 and 5000 respectively.
 
     - If you want to add products that you have recently chosen for another opportunity, open the **Recently used** tab.  
     - If you want to add a product or service that is not in the standard product catalog and is specific to the opportunity, open the **write in** tab and create a product on-the-fly.
@@ -119,5 +120,3 @@ instances:
 
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add products dialog box](customize-add-products-dialog-box.md)
-
-!INCLUDE[footer-include](../includes/footer-banner.md)]
