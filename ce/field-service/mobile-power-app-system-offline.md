@@ -168,7 +168,7 @@ To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Of
 > [!div class="mx-imgBorder"]
 > ![Screenshot of system settings for Dynamics 365 showing the conflict detection setting.](./media/mobile-powerapp-sync-conflict.png)
 
-Administators can view past sync errors by going to **Settings** > **Sync Error**.
+Administrators can view past sync errors by going to **Settings** > **Sync Error**.
 
 ## Configuration considerations
 
