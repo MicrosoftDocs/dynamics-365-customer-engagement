@@ -12,7 +12,7 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
-## [Use set regarding to link an email message or appointment to a row](track-message-or-appointment.md)
+## [Lnk an email message or appointment to a row](track-message-or-appointment.md)
 ## [Create a new contact, lead, or account](user/add-email-recipient-as-a-row.md)
 ## [Add a phone call, appointment, or task activity](user/add-activities.md)
 ## [Use the assistant to gain insights](user/assistant.md)
