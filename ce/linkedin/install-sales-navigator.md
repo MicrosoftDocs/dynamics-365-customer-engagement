@@ -29,17 +29,13 @@ The following diagram illustrates the steps to install and enable LinkedIn Sales
 > [!div class="mx-imgBorder"]  
 > ![Steps to install and enable LinkedIn Sales Navigator](media/linkedin-sales-navigator-install-enable.png "Steps to install and enable LinkedIn Sales Navigator")
 
-1. [Review prerequisites](#review-prerequisites).
-
-2. Install LinkedIn Sales Navigator:
-
-    - [Through Advanced Settings](#install-through-advanced-settings).
-
-    - [Through the AppSource page](#install-through-the-appsource-page).
-
-3.	[Validate the installation](#validate-the-installation).
-
-4.	[Enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).
+1. [Review prerequisites](#review-prerequisites).   
+2. Install LinkedIn Sales Navigator:   
+    - [Through Advanced Settings](#install-through-advanced-settings).   
+    - [Through the AppSource page](#install-through-the-appsource-page).   
+3. [Validate the installation](#validate-the-installation).   
+4. [Enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).   
+5. [Enable CRM sync and activity writeback](#enable-crm-sync-and-activity-writeback)
 
 ## Review prerequisites
 
@@ -118,6 +114,9 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
     > [!div class="mx-imgBorder"]  
     > ![Verify installation](media/verify-solution-installation.png "Verify installation")
 
+    >[!NOTE]
+    >If the **LinkedInSalesNavigatorControlsForUnifiedClient** solution is not available in the list, go to [the LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator](ts-linkedin-integration.md#solution-missing-configure-lsn) section and perform the steps.
+
 4. When the installation is completed, select **Go to Configuration** and follow the steps to [Enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).    
 
 ## Enable LinkedIn Sales Navigator
@@ -140,6 +139,9 @@ Use this procedure to enable default controls for LinkedIn Sales Navigator conte
     > ![Enable LinkedIn Sales Navigator](media/enable-sales-navigator.png "Enable LinkedIn Sales Navigator")
 
 4. Select **OK**.
+
+>[!NOTE]
+>After you have enabled the LinkedIn Sales Navigator solution in Dynamics 365 advanced settings, [enable CRM sync and activity writeback](#enable-crm-sync-and-activity-writeback).
 
 ## Enable CRM sync and activity writeback
 
