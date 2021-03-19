@@ -37,7 +37,7 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-5. In **Set Regarding** textbox, type in your search text and select the row to associate the email or appointment with.
+5. In the **Set Regarding** textbox, type in your search text and select the row to associate the email or appointment with.
 
    ![Set Regarding](../media/set-regarding.gif)
 
@@ -45,7 +45,7 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
 
 You can easily open your app and see the meeting or appointment that you've linked.
 
-- In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
+- Next to **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
    > [!div class="mx-imgBorder"] 
    > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
 
@@ -59,12 +59,12 @@ You can change the row an email or appointment is linked to using the **Change R
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-3. In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **Change Regarding**.
+3. Next to **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **Change Regarding**.
 
    > [!div class="mx-imgBorder"] 
    > ![Change Regarding](../media/change-track-regarding.png)
 
-4. In **Set Regarding** textbox, enter search text. 
+4. In the **Set Regarding** textbox, enter search text. 
 
    > [!div class="mx-imgBorder"] 
    > ![Enter search text](../media/change-track-regarding-1.png)
@@ -76,7 +76,7 @@ You can change the row an email or appointment is linked to using the **Change R
 
 ## Untrack a linked email or appointment 
 
-- In **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **Untrack**.
+- Next to **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **Untrack**.
   > [!div class="mx-imgBorder"] 
   > ![Untrack a email or appointment](../media/untrack-item.png)  
 
