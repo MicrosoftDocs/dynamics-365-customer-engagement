@@ -38,7 +38,7 @@ Mobile offline mode is currently available for iOS and Android devices. To use t
 
 ### Install Dynamics 365 phones and tablets app (for customer engagement apps in Dynamics 365 )
 
-For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing)<!--note from editor: As noted in the user-guide-mobile-app.md topic, is it okay that we don't mention Field Service and Project Service Automation? This list seems to imply that they aren't part of CE apps these days.-->, [install the Dynamics 365 phones and tablet app](install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store.md).
+For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing), [install the Dynamics 365 phones and tablet app](install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store.md).
 
 The following versions support mobile offline mode:
 
@@ -69,7 +69,7 @@ Offline data starts downloading in the background. Don't close the app or discon
 
 If you didn't want to download offline data and selected **Skip for now**, you won't be able to use the app in offline mode until you manually download the updates:
 
-1. On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), and then select **Offline** ![Offline](media/offline_button.png "Offline").<!--note from editor: Edited to be parallel with the user guide article.-->
+1. On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), and then select **Offline** ![Offline](media/offline_button.png "Offline").
 
 2. On the **Offline Status** screen, select **Download offline updates**.
 
@@ -122,11 +122,11 @@ When you have intermittent connectivity, we recommend that you switch to offline
 
 ## Sync conflict resolution
 
-Conflict errors can be resolved based on the settings set by your admin:<!--note from editor: Edits suggested.-->
+Conflict errors can be resolved based on the settings set by your admin:
 
 - If conflict resolution has been set to **No**, the data you upload from your client device "wins" and there will be no sync errors.
 
-- If conflict resolution has been set to **Yes**, the data on the server wins. While syncing changes to the server, you might notice that some errors have been automatically resolved.<!--note from editor: I'm not sure what this means. Are these fixed errors a separate issue from the synced changes?--> Client changes are overwritten by server values.
+- If conflict resolution has been set to **Yes**, the data on the server wins. While syncing changes to the server, you might notice that some errors have been automatically resolved. Client changes are overwritten by server values.
 
 ## Mobile offline capabilities and limitations
 
