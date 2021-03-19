@@ -11,41 +11,16 @@ ms.service: dynamics-365-customerservice
 
 # Requirements to use the Voice Channel in Dynamics 365 Customer Service
 
+# System requirements
+
+The software and hardware requirements for trying the voice channel in preview are as follows:
+
+| **Area**   | **Requirement**                                                                                                                                      |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Software   | -   Microsoft Edge ([*Chromium-based*](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended),  Google Chrome          |
+| Hardware   | Microphone and speakers for voice experience      |
 
 
 
+In addition to this document, see the following video for a guided walk through: [*Voice channel (private preview): Set up and make your first call*](https://youtu.be/cQRQWOkXHTA)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/IMAGE-FILE-NAME.png)
-
-## Prerequisites
-> [!Note]
->
-
-
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RWs4Cu]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
-
-## Step 1
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/IMAGE-FILE-NAME.png)
-
-### smaller header
-
-#### even smaller header
-
-
-## Step 2
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/IMAGE-FILE-NAME.png)
-
-
-## Configuration considerations
-## Additional Notes
