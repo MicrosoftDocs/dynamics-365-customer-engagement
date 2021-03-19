@@ -181,15 +181,6 @@ If you're running Outlook 2016 for Windows (click to run build 7668.2000 or late
 
    ![Untrack Regarding](media/open-untrack-regarding.png)
 
-## Track signed S/MIME emails
-[!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
-
-
-
-<!--
-## Monitor an email message after you send it  
-
- You can monitor an email message after you send it to see the number of times that the message is viewed, opened, replied to, or forwarded. For a monitored email message, you can also see the last activity related to the email message, or view all activity related to the message.  
 
  ### Monitor an email message  
 
