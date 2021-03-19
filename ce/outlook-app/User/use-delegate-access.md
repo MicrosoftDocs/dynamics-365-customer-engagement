@@ -37,7 +37,7 @@ For more information on how to set up delegate access, see [Set up delegate acce
 > - The delegated user cannot track contacts on the delegated mailbox.
 > - The delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
 
-### Track an email 
+### Track an email and link it to a specific row in Dynamics 365
 
 Track an email from a known contact and link it to a specific row in your app.
 
@@ -47,6 +47,17 @@ Track an email from a known contact and link it to a specific row in your app.
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
+
+3. In **Set Regarding** textbox, type in your search text and select the row to link the email to.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Type your search text in the set regarding textbox](../media/da-set-regarding.png)  
+
+
+4. When a row is selected, the system links the email to the selected row. A **Tracked Successful** message display when the tracking is complete.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Tracked successful message displays](../media/da-tracked-successful.png)  
 
 3. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
 
