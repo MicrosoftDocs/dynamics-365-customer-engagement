@@ -1,5 +1,5 @@
 ---
-title: "Create a new contact, lead, or account row using a new email address (Dynamics 365 apps) | MicrosoftDocs"
+title: "Create a new contact, lead, or account row using an email address (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Add an email recipient as a contact, lead, or account using Dynamics 365 app for Outook.
 ms.date: 03/19/2021
@@ -23,11 +23,11 @@ search.app:
   - D365Outlook
 ---
 
-# Create a new contact, lead, or account row using a new email address
+# Create a new contact, lead, or account row using an email address
 
-Quickly add information for a new customer in Dynamics 365 using their eamil address. 
+Quickly add information for a new customer in Dynamics 365 using the customer's eamil address. 
 
-When you receive or create a new email or appointment for a recipient with a new email address, you can add them as a new contact, lead, or account in Dynamics 365 app using Dynamics 365 app for Outlook.
+When you receive or create an email or appointment for a new customer, use their email address to add them as a new contact, lead, or account in Dynamics 365.
 
 
 1. Open an email or appointment.
