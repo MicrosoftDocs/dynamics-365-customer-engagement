@@ -26,9 +26,9 @@ search.app:
 
 Delegate access is granted to users who manage certain aspects of Outlook and Microsoft Dataverse information for another person.
 
-Set up delegate access in Microsoft Outlook to give someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Microsoft Dataverse using the Dynamics 365 App for Outlook.
+Set up delegate access in Microsoft Outlook to give someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Microsoft Dataverse using the Dynamics 365 App for Outlook. For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
 
-For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
+Tracking that's done using delegate access is synced asynchronously. This means when you track for an item as a delegate, App for Outlook syncs the information for both the user and the delegated user at the same time.
 
 
 > [!IMPORTANT]
@@ -39,9 +39,9 @@ For more information on how to set up delegate access, see [Set up delegate acce
 
 ## Track an email and link it to a specific row in Dynamics 365
 
-Track an email from a known contact and link it to a specific row in your app.
+Track an email using **Set Regarding** and link it to a specific row in your app.
 
-1. Go to the email folder of the person that you are a delegate for and open an email from a contact that you want to track.
+1. Go to the email folder of the person that you are a delegate for and open an email that you want to track.
 
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
@@ -59,24 +59,25 @@ Track an email from a known contact and link it to a specific row in your app.
    > [!div class="mx-imgBorder"] 
    > ![Tracked successful message displays](../media/da-tracked-successful.png)  
 
+The email will be created as an email activity in Dynamics 365, and will have its Regarding field filled with the selected record. The email activity will also appear in the record's timeline if it has been configured.
 
-## Track an email withing linking it to a specific row in Dynamics 365
 
-1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Microsoft Dataverse.
+## Track an email without linking it to a specific row in Dynamics 365
+
+Track an email using **Track without Regarding** without linking it to a specific row in your app.
+
+1. Go to the email folder of the person that you are a delegate for and open an email that you want to track.
+
+2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
-   > ![](../media/Pic4.png)
+   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
   
-2. When the meeting invitation is open, on the main menu, select **Dynamics 365** to open the mail app.
+3. Next to **Not tracked**, select **More commands** > **Track without Regarding**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](../media/Pic5.png)
-
-3. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](../media/Pic6.png)
+   > ![Select track without regarding](../media/da-track-without-regarding.png)
    
-4. The status of the meeting invitation changes to **Track pending** for both the user and the delegated user. 
+4. The status of the meeting invitation changes to **Processing, please wait** for both the user and the delegated user. Don't close the Outlook item until the status changes to **Track pending**. If you close it too early then the item may not track successfully.
    
-5. Once the meeting invitation has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
+5. Once the email has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked** for both the user and the delegated user.
