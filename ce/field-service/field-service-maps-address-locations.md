@@ -109,7 +109,7 @@ Booking maps is a feature that allows frontline workers to see their scheduled j
 > ![Screenshot of ](./media/mobile-2020-booking-maps.png)
 
 
-[Enable geosatial features in your environment](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) in order to use Booking maps. 
+[Enable geosatial features in your environment](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) to use Booking maps. 
 
 ## Test geocoding
 
