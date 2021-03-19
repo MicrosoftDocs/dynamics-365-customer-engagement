@@ -55,18 +55,19 @@
 ## Unified routing and assignment
 ### [Overview of unified routing](overview-unified-routing.md)
 ### [Common business scenarios](common-business-scenarios.md)
-#### [How routing and assignment works](set-up-routing-process.md)
+### [How routing and assignment works](set-up-routing-process.md)
 ### Configure work distribution model
 #### [Routing and assignment rules](routing-workstream-queues.md)
 #### [Set up record routing](set-up-record-routing.md)
 ##### [Set up intake rules for record routing]
 ##### [Enable entities for routing](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
-#### [Create workstreams]
+#### Create workstreams
 ##### [Create workstreams in Omnichannel admin center](create-workstreams.md)
 ##### [Create workstreams in Omnichannel Administration](work-streams-introduction.md)
 
 #### [Create queues](queues-omnichannel.md)
+##### [Set up assignment methods](assignment-methods.md)
 #### Configure work classification rules
 ##### [Create work classification rulesets](configure-work-classification.md)
 
@@ -79,7 +80,6 @@
 
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
-
 
 #### Manage work distribution for conversations
 ##### [Create work streams for entity records](set-up-entity-workstream.md)

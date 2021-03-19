@@ -1,10 +1,10 @@
 ---
 title: Work with queues in Omnichannel for Customer Service | MicrosoftDocs
-description: See how you can create and manage queues in Omnichannel for Customer Service
+description: "See how you can create and manage queues in Omnichannel for Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -50,12 +50,10 @@ In this section, we cover information on how to create a queue for the messaging
 3. In **Assignment method**, you can use one of the following:
    - **Highest capacity:** Selected by default; assigns work item to the agent with the highest capacity, amongst those who has the skills identified during the classification stage, and has the presence as specified in the allowed presence option of the work stream.
    - **Round robin:** Assigns work item to the agent in the list order who matches the criteria for skills and presence.
-   - Create a custom assignment method. For more information about custom assignment method, see [Create custom assignment method]()
+   - Create a custom assignment method. For more information about custom assignment method, see [Create custom assignment method](assignment-methods.md)
 
 
 ## Create a queue in Omnichannel Administration
-
-**To Saurabh: I do not see these default queues in Omnicahnnel admin center app**
 
 Out of the box, the following default queues are available in Omnichannel for Customer Service:
 
