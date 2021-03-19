@@ -101,7 +101,7 @@ For each entity, you can choose a data download filter:
 4. Custom data filter.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center, showing the edit bookable resource booking entity options.](./media/mobile-offline-mop-latest.PNG)
+> ![Screenshot of the Power Platform admin center, showing the edit bookable resource booking entity options.](./media/mobile-offline-mop-latest.png)
 
 For example, the **Bookable Resource Booking** (in other words, the booking) entity has a data download filter set to **custom data filter** that downloads resource bookings that start or end in the next seven days or today.
 
