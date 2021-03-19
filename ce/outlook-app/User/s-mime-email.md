@@ -34,7 +34,11 @@ Using encryption software with server-side synchronization is not supported.
 
 - Encrypted mails can only be tracked from the Microsoft Outlook Client (web or desktop) once they are decrypted, any corresponding Dynamics 365 activities created will not be encrypted.
 
-When an email is signed or encrypted, attachments are stored inside a single smime.p7m attachment. If the email is tracked in Dynamics 365, you will see one .p7m attachment which needs to be decoded using an [S/MIME reader](https://www.microsoft.com/p/s-mime-reader/9nblggh5lhc3?activetab=pivot:overviewtab).
+## Known issues and FAQs
+
+1. When an email is signed or encrypted, attachments are stored inside a single smime.p7m attachment. If the email is tracked in Dynamics 365, you will see one .p7m attachment which needs to be decoded using an [S/MIME reader](https://www.microsoft.com/p/s-mime-reader/9nblggh5lhc3?activetab=pivot:overviewtab).
+
+2. If email fail to synchronize to Dynamics 365 when encoded with PEC, see [Email fail to synchronize to Dynamics 365 when encoded with PEC](https://support.microsoft.com/topic/email-fail-to-synchronize-to-dynamics-365-when-encoded-with-pec-631b7dd7-f797-8cc2-046c-313ea7e724f7)
 	
 
 
