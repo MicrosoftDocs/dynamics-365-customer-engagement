@@ -25,7 +25,7 @@ search.app:
 
 # Basic navigation on Dynamics 365 for phones and tablets
 
-Use Dynamics 365 for phones and tablets to run customer engagement apps&mdash;such as <!--note from editor: I suggest removing "your" because the Dynamics Style Guide says Field Service is also a customer engagement app. "Your" implies that we're talking about all of them. Also, suggest em dashes instead of parentheses.-->Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing&mdash;on your mobile device. To install the app, go to [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md).
+Use Dynamics 365 for phones and tablets to run customer engagement apps&mdash;such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing&mdash;on your mobile device. To install the app, go to [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md).
 
 You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Customer Engagement (on-premises) apps on the Dynamics 365 mobile app. For more information, go to the following articles:
 
@@ -185,7 +185,7 @@ On the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), sele
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-Reconfiguring deletes data and metadata for the current organization from the cache; however, don't rely on this as a security measure.<!--note from editor: I'm not sure what the significance of this is. Is there an actual security measure the reader should know about?-->
+Reconfiguring deletes data and metadata for the current organization from the cache; however, don't rely on this as a security measure.
 
 Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were signed in to, you'll need to sign back in to that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache.
 
