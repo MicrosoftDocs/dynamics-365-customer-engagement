@@ -54,7 +54,7 @@ Track an email using **Set Regarding** and link it to a specific row in your app
    > ![Type your search text in the set regarding textbox](../media/da-set-regarding.png)  
 
 
-4. When a row is selected, the system links the email to the selected row. A **Tracked Successful** message display when the tracking is complete.
+4. When a row is selected, the system links the email to the selected row. A **Tracked Successful** message displays when the tracking is complete.
 
    > [!div class="mx-imgBorder"] 
    > ![Tracked successful message displays](../media/da-tracked-successful.png)  
@@ -64,7 +64,7 @@ The email will be created as an email activity in Dynamics 365, and will have it
 
 ## Track an email without linking it to a specific row in Dynamics 365
 
-Track an email using **Track without Regarding** without linking it to a specific row in your app.
+Track an email using **Track without Regarding** without linking the email to a specific row in your app.
 
 1. Go to the email folder of the person that you are a delegate for and open an email that you want to track.
 
