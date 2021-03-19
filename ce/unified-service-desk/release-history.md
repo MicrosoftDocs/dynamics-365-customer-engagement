@@ -35,6 +35,8 @@ The list provides an overview of documentation updates made in Unified Service D
 > - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.2, instead of upgrading to version 4.2.
 > - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.2.
 
+
+
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
 This release supports the Dynamics 365 model-driven apps deployed in Switzerland region. There are no content-specific changes in this release.
