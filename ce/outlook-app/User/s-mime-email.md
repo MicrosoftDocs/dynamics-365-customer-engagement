@@ -24,4 +24,4 @@ search.app:
 
 # Track S/MIME signed emails
 
-Dynamics 365 App for Outlook can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
+Dynamics 365 App for Outlook can track [S/MIME (Secure/Multipurpose Internet Mail Extensions)](/microsoft-365/security/office-365-security/s-mime-for-message-signing-and-encryption?view=o365-worldwide) signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
