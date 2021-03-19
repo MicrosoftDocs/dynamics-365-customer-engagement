@@ -49,3 +49,41 @@ More information:
 -   [*Configure hand-off to Omnichannel for Customer Service - Power Virtual Agents | Microsoft*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel) [*Docs*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel) (See [*Appendix C*](#_bookmark42)).
 
 -   See [*Appendix B*](#_bookmark40) for known limitations and workarounds with using Power Virtual Agents as IVR.
+
+## Additional notes
+
+#### Configure handoff from Power Virtual Agents to Omnichannel for Customer Service
+
+For more information beyond this guide, see the following instructions: [*Configure handoff to*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel) [*Omnichannel for Customer Service - Power Virtual Agents | Microsoft Docs*](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel)
+
+To configure the handoff between Power Virtual Agents to Omnichannel for Customer Service:
+
+1.  Go to **Settings** and select **Transfer to agent**.
+
+![](media/image63.png)
+
+1.  Connect to **Dynamics 365 Omnichannel for Customer Service**.
+
+![](media/image64.png)
+
+1.  Select **Azure App Registration**.
+
+![](media/image65.png)
+
+1.  Select **+New registration**.
+
+![](media/image66.png)
+
+1.  Enter the name of your bot, and then select **Register**.
+
+![](media/image67.png)
+
+1.  Copy the **Application ID** to the clipboard.
+
+![](media/image68.png)
+
+1.  Return to the Power Virtual Agent, paste the application ID into the field, and then select **Next**.
+
+![](media/image65.png)
+
+![](media/image69.png)

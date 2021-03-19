@@ -156,20 +156,16 @@ Navigate to the work stream for which you have configured the voice channel and 
 
 1.  Create as many rules as your business requires.
 
+## Additional notes
 
-Appendix A: Unified routing
+
 
 Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item
-
-requirements and matching them with the agent's capabilities on the other side using round robin
-
-routing.
+requirements and matching them with the agent's capabilities on the other side using round robin routing.
 
 Unified routing can assign incoming work item from all channels- cases, live chat, digital messages, and voice. It works in a truly omnichannel way ensuring work items on all the channels are routed in a consistent and similar fashion and thus the agent engagement on different channels is respected before any new work is assigned to them.
 
-Unified routing has two broad stages – classification and assignment. During the classification phase, rules can be used to add information on the work item which can be further used to find the best suited agent. This stage can be termed as creating the demand on the incoming voice call. As part of classification rules, declarative skill attachment rules can be defined as well. For voice channel, skills
-
-can't be attached using the machine learning model.
+Unified routing has two broad stages – classification and assignment. During the classification phase, rules can be used to add information on the work item which can be further used to find the best suited agent. This stage can be termed as creating the demand on the incoming voice call. As part of classification rules, declarative skill attachment rules can be defined as well. For voice channel, skills can't be attached using the machine learning model.
 
 During the assignment phase, the work items are prioritized as per the business needs and then matched against the agent using round robin routing.
 
