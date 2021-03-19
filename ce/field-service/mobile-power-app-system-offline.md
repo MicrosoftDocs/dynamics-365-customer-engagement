@@ -3,7 +3,7 @@ title: "Configure offline data for the Field Service (Dynamics 365) mobile app |
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/27/2021
+ms.date: 03/19/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -22,7 +22,7 @@ search.app:
 
 Administrators can control what data is downloaded to the Field Service (Dynamics 365) mobile app with their offline profile.  
 
-When a user of the Field Service mobile application is part of a Offline Profile, they will run the app in offline mode. In this mode, entity data is read from the local device database and will not read live data from the server. This allows the application to perform consistently with or without internet connectivity. The local database will be updated with new data as defined in the Offline Profile by the system administrator at predefined intervals or on demand by the application user. 
+When a user is added to an offline profile, the app will download data to the device. In offline mode, entity data is read from the local device database and will not read live data from the server. This allows the app to perform consistently with or without internet connectivity. The local database will be updated with new data as defined by the administrator in the offline profile at predefined intervals or on demand by the app user. 
 
 Offline configuration is achieved by:
 
