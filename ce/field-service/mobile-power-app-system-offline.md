@@ -20,7 +20,9 @@ search.app:
 
 # Configure offline data and sync filters for the Field Service (Dynamics 365) mobile app
 
-When a user of the Field Service Mobile application is part of a Offline Profile which is linked to the Field Service Mobile app module, they will run the app in offline mode. In this mode, entity data is read from the local device database and will not read live data from the server. This allows the application to perform consistently with or without internet connectivity. The local database will be update with new data as defined in the Offline Profile by the system administrator at predefined intervals or on demand by the application user. 
+Administrators can control what data is downloaded to the Field Service (Dynamics 365) mobile app with their offline profile.  
+
+When a user of the Field Service mobile application is part of a Offline Profile, they will run the app in offline mode. In this mode, entity data is read from the local device database and will not read live data from the server. This allows the application to perform consistently with or without internet connectivity. The local database will be updated with new data as defined in the Offline Profile by the system administrator at predefined intervals or on demand by the application user. 
 
 Offline configuration is achieved by:
 
@@ -68,7 +70,7 @@ Within your offline profile you can:
 - Set up item association by creating relationships between entities. Item association saves time because you won't need to set filters for every entity; you can associate related entities that follow filters set on the related entity.
 
 
-Best Pracices when working with the Offline Profile:
+### Best Pracices when working with the Offline Profile:
 - Use the default Field Service Mobile - Offline Profile as your starting point and update it based on your unique business needs.
 - Keep default entities in place - these are intentionally selected as a core set of entities used in Field Service.
 - Avoid using "All Data" filter which can result in significant amounts of data coming down and impact sync times.
@@ -81,7 +83,7 @@ Best Pracices when working with the Offline Profile:
 
 Open the **Field Service Mobile - Offline Profile**.  
 
-Add users or [teams](https://docs.microsoft.com/en-us/power-platform/admin/manage-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team while individual users are displayed directly in the offline profile.  It is recommend that organizations with large number of users leverage teams to help ease maintanence of user access.
+Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team while individual users are displayed directly in the offline profile.  It is recommend that organizations with large number of users leverage teams to help ease maintanence of user access.
 
 A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile, you will see a warning stating that the user is already part of a different offline profile. If you continue with the change, the user or team will be moved to the new profile. 
 
@@ -119,7 +121,7 @@ For more information on offline profiles, see the article on [setting up mobile 
 
 Sync intervals define how often entity data will automatically sync down to the users devices. Sync intervals can be a minimum of 5 minutes or as long as one day. Records which change frequently can have a short duration sync interval while infrequently changed records do not need to sync as often. With variable sync intervals adminstrators have greater control over data and can help improve sync performance.
 
-The default Field Service Mobile offline profile has pre-determined sync intervals for each entity which is selected based on typical usage patterns of those entities. 
+The default Field Service Mobile - Offline Profile has pre-determined sync intervals for each entity which is selected based on typical usage patterns of those entities. 
 
 > [!Note]
 > Even if the value for Sync interval is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated it can be completed even in background.
@@ -134,7 +136,7 @@ Dependencies, based on selected relationships and custom filters that includes r
 
 ## Add the offline profile to the app
 
-Go to your Dynamics 365 apps by going to ```yourenvironment.crm.dynamics.com/apps```, then go to the app designer for Field Service Mobile.
+Go to your Dynamics 365 apps by going to ```yourenvironment.crm.dynamics.com/apps```, then go to the app designer for Field Service mobile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the app designer.](./media/mobile-2020-open-app-designer.png)
@@ -142,10 +144,10 @@ Go to your Dynamics 365 apps by going to ```yourenvironment.crm.dynamics.com/app
 Go to **Properties** and add the offline profile you published if it is not already there.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the app designer, on the Field Service Mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
+> ![Screenshot of the app designer, on the Field Service mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
 
 > [!Note]
-> Field Service customers can create additional offline profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service Mobile app in the app designer as well.
+> Field Service customers can create additional offline profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
 
 ## Sync conflicts 
 
