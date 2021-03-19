@@ -70,10 +70,11 @@ Within your offline profile you can:
 - Set up item association by creating relationships between entities. Item association saves time because you won't need to set filters for every entity; you can associate related entities that follow filters set on the related entity.
 
 
-### Best Pracices when working with the Offline Profile:
-- Use the default Field Service Mobile - Offline Profile as your starting point and update it based on your unique business needs.
-- Keep default entities in place - these are intentionally selected as a core set of entities used in Field Service.
-- Avoid using "All Data" filter which can result in significant amounts of data coming down and impact sync times.
+### Best practices for the offline profile:
+
+- Use the default **Field Service Mobile - Offline Profile** as your starting point and update it based on your business needs.
+- Keep default record types in place; these record types are intentionally selected as a core set of record types used in Field Service.
+- Avoid using "All Data" filter, which can result in significant amounts of data coming down and can impact sync times.
 
 
 > [!div class="mx-imgBorder"]
@@ -83,7 +84,7 @@ Within your offline profile you can:
 
 Open the **Field Service Mobile - Offline Profile**.  
 
-Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team while individual users are displayed directly in the offline profile.  It is recommend that organizations with large number of users leverage teams to help ease maintanence of user access.
+Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team, while individual users are displayed directly in the offline profile. Organizations with many users should leverage teams to help ease maintanence of user access.
 
 A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile, you will see a warning stating that the user is already part of a different offline profile. If you continue with the change, the user or team will be moved to the new profile. 
 
@@ -117,21 +118,21 @@ For example, the **Bookable Resource Booking** (in other words, the booking) ent
 
 For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
 
-## Sync Intervals
+## Sync intervals
 
-Sync intervals define how often entity data will automatically sync down to the users devices. Sync intervals can be a minimum of 5 minutes or as long as one day. Records which change frequently can have a short duration sync interval while infrequently changed records do not need to sync as often. With variable sync intervals adminstrators have greater control over data and can help improve sync performance.
+Sync intervals define how often record type data will automatically sync down to the users' devices. Sync intervals can be a minimum of five minutes or as long as one day. Records that change frequently can have a short duration sync interval, while infrequently changed records do not need to sync as often. With variable sync intervals, adminstrators have greater control over data and can help improve sync performance.
 
-The default Field Service Mobile - Offline Profile has pre-determined sync intervals for each entity which is selected based on typical usage patterns of those entities. 
+The default **Field Service Mobile - Offline Profile** has predetermined sync intervals for each record type, which is selected based on typical usage patterns of those record types. 
 
 > [!Note]
-> Even if the value for Sync interval is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated it can be completed even in background.
-Dependencies, based on selected relationships and custom filters that includes related tables are analyzed at each sync request. This might result in a sync being triggered also for related tables.
+> Even if the value for sync interval is set to be less frequent than **Every 1 hour**, data will still be synched every hour. A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated, it can be completed in the background.
+Dependencies based on selected relationships and custom filters that includes related tables are analyzed at each sync request. This might also result in a sync being triggered for related tables.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the option to customize the records you want to make available offline.](./media/mobile-2020-offline-sync-filter.png)
 
 > [!Note]
-> Sync intervals are defined per entity with Field Service v8.8.40+. Prior to this version all entities will have a 5 minute Sync interval.
+> Sync intervals are defined per record type with Field Service v8.8.40+. Prior to this version, all record types will have a five-minute sync interval.
 
 
 ## Add the offline profile to the app
@@ -169,7 +170,7 @@ To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Of
 > [!div class="mx-imgBorder"]
 > ![Screenshot of system settings for Dynamics 365 showing the conflict detection setting.](./media/mobile-powerapp-sync-conflict.png)
 
-Adminitators can view past sync errors by going to **Settings** > **Sync Error**
+Adminitators can view past sync errors by going to **Settings** > **Sync Error**.
 
 
 
