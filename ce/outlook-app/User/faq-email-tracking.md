@@ -1,26 +1,44 @@
-﻿---
-title: 
-description: 
+---
+title: "FAQs about email tracking (Dynamics 365 apps) | MicrosoftDocs"
+description: FAQs about email tracking using App for Outlook
+ms.custom: 
 ms.date: 03/19/2021
-ms.topic: article
+ms.reviewer: 
 ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+applies_to: Dynamics 365 apps
+caps.latest.revision: 1
 author: mduelae
 ms.author: mkaur
 manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
 ---
 
-# Example A:
+# FAQ about email tracking 
 
-1.  User A sends an email to multiple recipients, including contacts and
-    > other Dynamics 365 users
+This article provide information about frequently asked question about tracking email items using Dynamics 365 App for Outlook.
 
-2.  User B replies to this thread
+## 1. Replies and Forwards of an email that is part of a tracked conversation in Dynamics 365
 
-3.  Contact A also replies to this thread
+### Example A
 
-4.  User B replies to the thread, but removes Contact A as a recipient
+- User A sends an email to multiple recipients, including contacts and other Dynamics 365 users
 
-5.  They do not want this reply automatically tracked
+- User B replies to this thread
+
+- Contact A also replies to this thread
+
+- User B replies to the thread, but removes Contact A as a recipient
+
+- They do not want this reply automatically tracked
 
 In this case, it will automatically track because it identifies the
 ConversationIndex and In-Reply-To values as an email that is part of a
@@ -41,16 +59,13 @@ Smart Matching is enabled, it will still track based on those
 correlation methods. \*\*link to Email Settings paragraph on this
 setting
 
-**Example B:**
+### Example B
 
-1.  User A sends an email to multiple recipients, including contacts and
-    > other Dynamics 365 users
+- User A sends an email to multiple recipients, including contacts and other Dynamics 365 users.
 
-2.  User B forwards this thread to another user for internal
-    > conversation
+- User B forwards this thread to another user for internal conversation.
 
-3.  They do not want the information in this forward automatically
-    > tracked
+- They do not want the information in this forward automatically tracked.
 
 In this case, it will automatically track because it identifies the
 ConversationIndex and In-Reply-To values as an email that is part of a
@@ -60,8 +75,6 @@ To have this email untracked, the user would have to manually untrack
 the forward with the App for Outlook as well as any replies to this
 because the master email is still tracked.
 
- 
-
 An administrator can change the
 [*OrgDbOrgSetting*](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm),
 **IgnoreConversationIndexAndInReplyToForCorrelation** to change this
@@ -70,18 +83,15 @@ only selected email correlation option. However, if Tracking Token or
 Smart Matching is enabled, it will still track based on those
 correlation methods. \*\*link to Email Settings paragraph on this
 setting
-
  
 
-**Example C:**
+### Example C
 
-1.  User A sends an email to multiple recipients, including contacts and
-    > other Dynamics 365 users
+- User A sends an email to multiple recipients, including contacts and other Dynamics 365 users.
 
-2.  User B forwards this thread to another user for internal
-    > conversation AND changes the subject
+- User B forwards this thread to another user for internal conversation AND changes the subject.
 
-3.  They do not want this forward or replies automatically tracked
+- They do not want this forward or replies automatically tracked.
 
 In this case, if the reply or forward that is changing the subject comes
 from the Outlook desktop application, this will not be tracked in
@@ -101,17 +111,14 @@ this setting
 
  
 
-##  When resolving recipient email addresses to records in Dynamics 365, if there is more than one record in Dynamics 365 with the same email address, which record is it resolved to?
+## 2. When resolving recipient email addresses to records in Dynamics 365, if there is more than one record in Dynamics 365 with the same email address, which record is it resolved to?
 
-It resolves using the method below, also described
-[*here*](https://docs.microsoft.com/en-us/power-platform/admin/email-message-filtering-correlation#how-customer-engagement-apps-associates-email-addresses-with-records):
+It resolves using the method below as described in this article: [How customer engagement apps associates email addresses with records](/power-platform/admin/email-message-filtering-correlation#how-customer-engagement-apps-associates-email-addresses-with-records)
 
 If there are duplicate records within Dynamics 365 with the same email
 address, the contents of the email **From field** will resolve first by
 ownership and then to the first active record in the following order on
 an **incoming email**:
-
-
 
 
 
@@ -143,7 +150,6 @@ to email settings page. Regardless of this setting, we will not resolve
 to inactive User records.
 
  
-
 **Examples of resolving the sending email address:**
 
 **Example 1:**
@@ -227,7 +233,7 @@ into Dynamics 365, it will show up as unresolved
 
  
 
-## If a Contact has multiple email address fields populated, which email will receive the email when sent directly from Dynamics 365?
+## 3. If a Contact has multiple email address fields populated, which email will receive the email when sent directly from Dynamics 365?
 
 By default, Contact has three email address fields available.
 emailaddress1, emailaddress2, and emailaddress3. When you are creating
@@ -237,32 +243,31 @@ empty, the email will fail to send.
 
  
 
-## A user receives a reply to a previously tracked email and chooses to reply back before it shows as tracked in the Dynamics 365 App for Outlook.
+## 4. A user receives a reply to a previously tracked email and chooses to reply back before it shows as tracked in the Dynamics 365 App for Outlook.
 
 Replying to emails before it is tracked will still track during the next
 sync cycle of the user's mailbox.
 
- 
 
 An external contact sends an email to more than one Dynamics 365 user
 and this record is tracked
 
-1. External Contact sends an email to User A and User B
+- External Contact sends an email to User A and User B
 
-2. User A sets regarding to Account A
+- User A sets regarding to Account A
 
-3. The Email is created in Dynamics 365 with Regarding of Account A
+- The Email is created in Dynamics 365 with Regarding of Account A
 
-4. User B goes to this Email from their Outlook calendar. They will see
+- User B goes to this Email from their Outlook calendar. They will see
 that this record is tracked
 
 A Dynamics 365 user sends and tracks an email to another user or group
 of users in Dynamics 365
 
-1. Internal User sends an email to User A and User B and tracks before
+- Internal User sends an email to User A and User B and tracks before
 sending
 
-2. User A nor User B track this received email
+- User A nor User B track this received email
 
  
 
@@ -275,14 +280,12 @@ Dynamics 365.
 
  
 
-## Multiple record types exist in Dynamics 365 with the same email addresses 
+## 5. Multiple record types exist in Dynamics 365 with the same email addresses 
 
 -   Henry Ross is a user inside Dynamics, and on the User form, the
     email data field of "Primary Email" has the value
     [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com)
-
-<!-- -->
 
 -   There is an Opportunity record named "RossOpp" with the email data
     field of "Email" set to [henryross@dynamicsmailapp.onmicrosoft.com
