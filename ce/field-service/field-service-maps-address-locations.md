@@ -100,16 +100,14 @@ Enable Bing Maps by going to **Advanced Settings** > **Settings** > **Administra
 
 For more information on enabling maps for the work order form, see this article on [managing Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-bing-maps-organization).
 
-## Enable Booking maps
+## Enable booking maps
 
 Booking maps is a feature that allows frontline workers to see their scheduled jobs on a map.
 
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-booking-maps.png)
+> ![Screenshot of bookings on a map in the Field Service mobile app.](./media/mobile-2020-booking-maps.png)
 
-
-[Enable geosatial features in your environment](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) to use Booking maps. 
+For more information, see this article: [Enable geospatial features in your environment](https://docs.microsoft.com/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) 
 
 ## Test geocoding
 
