@@ -117,7 +117,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 2. On the **Recent** records screen, select the pushpin ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites") next to a record to add it to your favorites (pinned records).
 
-3. To view the newly pinned records, select **Close** ![Close](media/close.png "Close"), and then select **Pinned** ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites").
+3. To view the newly pinned records, select **Close** ![Close button](media/close.png "Close button"), and then select **Pinned** ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites").
 
    > [!div class="mx-imgBorder"]
    > ![This image demonstrates how to pin favorite records](media/pin_to-favs.gif "This image demonstrates how to pin favorite records")
