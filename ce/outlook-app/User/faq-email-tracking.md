@@ -54,8 +54,8 @@ An administrator can change the
 functionality when Use correlation to track email conversations is the
 only selected email correlation option. However, if Tracking Token or
 Smart Matching is enabled, it will still track based on those
-correlation methods. \*\*link to Email Settings paragraph on this
-setting
+correlation methods. 
+
 
 ### Example B
 
@@ -104,8 +104,7 @@ and if the initial/master email is still tracked, it will continue to
 track replies. If there are certain replies you do not want to track,
 you will need to untrack these manually or change the
 **IgnoreConversationIndexAndInReplyToForCorrelation** to prevent replies
-and forwards from being tracked. \*\*link to Email Settings paragraph on
-this setting
+and forwards from being tracked. 
 
 ## 2. When resolving recipient email addresses to records in Dynamics 365, if there is more than one record in Dynamics 365 with the same email address, which record is it resolved to?
 
@@ -281,8 +280,8 @@ Dynamics 365. 
     Approver" set to [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com)
 
--   The System Setting of "Set To,cc,bcc fields as unresolved values if
-    multiple matches are found in Incoming Emails" is set to No
+-   The system setting **Set To,cc,bcc fields as unresolved values if
+    multiple matches are found in Incoming Emails** is set to No
 
 -   There is an email in Henry's mailbox where
     [henryross@dynamicsmailapp.onmicrosoft.com](mailto:Bob@dynamicsmailapp.onmicrosoft.com)
