@@ -109,3 +109,19 @@ Track an email using **Track without Regarding** to add the email an activity in
    > [!div class="mx-imgBorder"] 
    > ![See the track without regarding item in your app](../media/track-without-regarding-in-app.png)
 
+
+## Which user row appears on the tracked items in Dynamics 365?
+
+When an email is tracked by a delegate from the primary user's mailbox:
+ 
+- **CreatedBy**: System (you will see this, as it is promoted by Server-Side Sync)
+- **Owner**: User will be manager (primary mailbox owner)
+- **Sender**: User will be manager (primary mailbox owner)
+
+What are the expectations when an appointment is created by a delegate and tracked to Dynamics 365?
+ 
+- **CreatedBy**: User will be manager (primary mailbox owner)
+- **Owner**: User will be manager (primary mailbox owner)
+- **Organizer**: User will be manager (primary mailbox owner)
+
+
