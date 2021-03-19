@@ -190,6 +190,9 @@
 #### [Initiate a chat](initiate-chat-wait-time.md)
 #### [Start chat proactively](start-proactive-chat.md)
 #### [Configure automatic closure of conversations](auto-close-conversation.md)
+#### [Manage custom context](send-context-starting-chat.md)
+#### [Display custom context](display-custom-context.md)
+#### [Send authentication token](send-auth-token-starting-chat.md)
 
 ### Customizer experience
 #### [Overview](omnichannel-customizer.md)
@@ -217,6 +220,9 @@
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
 #### [Asynchronous channel support](asynchronous-channels.md)
+#### Set up entity records channel
+##### [Route entity records](entity-channel.md)
+##### [Route trigger for entity records](routing-trigger.md)
 ### Agent experience
 #### [Use SMS channel](sms-telesign-twilio.md)
 #### [Use Facebook channel](facebook.md)
@@ -227,9 +233,8 @@
 #### Bring your own custom messaging channel
 ##### [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)
 ##### [Test the custom messaging channel](bring-your-own-channel-sample-html.md)
-#### Set up entity records channel
-##### [Route entity records](entity-channel.md)
-##### [Route trigger for entity records](routing-trigger.md)
+
+
 
 ## Advanced settings for chat and channels
 ### [Configure operating hours](create-operating-hours.md)
@@ -289,9 +294,7 @@
 #### [Enable bot context NuGet package](enable-bot-context.md)
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
-#### [Manage custom context](send-context-starting-chat.md)
-#### [Display custom context](display-custom-context.md)
-#### [Send authenticaion token](send-auth-token-starting-chat.md)
+
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)

@@ -88,10 +88,8 @@ Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-team
 
 A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile, you will see a warning stating that the user is already part of a different offline profile. If you continue with the change, the user or team will be moved to the new profile. 
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
-
 
 ## Edit the offline profile
 
