@@ -19,21 +19,30 @@ ms.service: dynamics-365-customerservice
 
 3.  On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 
-![](media/image2.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/image2.png)
+
 
 1.  On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
-![](media/image3.jpeg)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/image3.png)
+
 
 1.  On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
 
-![](media/image4.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/image4.png)
+
+
 
 1.  On the **Omnichannel set up** page, from the **Select an environment** drop-down list, select the environment you identified when you opted in to the private preview program.
 
 **Note:** If you choose an environment other than the one you identified for the private preview, the provisioning flow will be different and you won't be able to see the voice channel features.
 
-![](media/image5.jpeg)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/image5.png)
+
 
 1.  Select the channels you want to install in your environment, make sure that **Add voice** is toggled to **Yes**, and select the check box to accept the terms.
 
@@ -68,4 +77,8 @@ As an administrator, you will perform all configuration and setting up tasks in 
 
 2.  On the Apps page, select **Omnichannel admin center (preview)** app. The following page appears.
 
-[](media/image8.jpeg)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/image8.png)
+
+
