@@ -12,7 +12,8 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
-## [Lnk an email message or appointment to a row in Dynamics 365](track-message-or-appointment.md)
+## [Lnk an email message or appointment to a row in Dynamics 365](user/track-message-or-appointment.md)
+## [FAQs about email tracking](user/faq-email-tracking.md)
 ## [Create a new contact, lead, or account](user/add-email-recipient-as-a-row.md)
 ## [Add a phone call, appointment, or task activity](user/add-activities.md)
 ## [Use the assistant to gain insights](user/assistant.md)
@@ -21,8 +22,10 @@
 ## [Use delegate access](user/use-delegate-access.md)
 ## [Track S/MIME signed emails](user/s-mime-email.md)
 
+
 # [Run the checker to troubleshoot issues](diagnostic-checker.md)
 # [FAQs](faq.md)
+
 
 # Version 8.x
 ## [About this content](../outlook-app/v8/about-this-content.md)
