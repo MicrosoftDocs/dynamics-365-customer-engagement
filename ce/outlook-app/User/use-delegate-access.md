@@ -38,7 +38,7 @@ Tracking that's done using delegate access is synced asynchronously. When you us
 > - The delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
 
 
-When an email is tracked in Dynamics 365 from the delegate mailbox, these columns are populated with the follwoing informaton:
+When an email is tracked in Dynamics 365 from the delegate mailbox, these columns are populated with the following information:
 
 - **CreatedBy**: system (you will see this, as it is promoted by server-side synchronization)
 - **Owner**: delegate user's manager, who is primary mailbox owner.
@@ -117,7 +117,7 @@ Track an email using **Track without Regarding** to add the email an activity in
    > [!div class="mx-imgBorder"] 
    > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
 
-2 The item is created as an email activity in  Dynamics 365 and isn't linked to a specicic row.
+2 The item is created as an email activity in  Dynamics 365 and isn't linked to a specific row.
 
    > [!div class="mx-imgBorder"] 
    > ![See the track without regarding item in your app](../media/track-without-regarding-in-app.png)
