@@ -22,7 +22,7 @@ search.app:
   - D365Outlook
 ---
 
-# FAQ about email tracking 
+# FAQs about email tracking 
 
 This article provide information about frequently asked question about tracking email items using Dynamics 365 App for Outlook.
 
