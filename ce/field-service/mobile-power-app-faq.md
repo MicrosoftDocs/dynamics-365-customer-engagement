@@ -93,10 +93,10 @@ For more information, review the [platform documentation](https://docs.microsoft
 
 Not at this time. Support for non-public clouds will be added to Field Service mobile in the near future.
 
-## What does "Reconfigure" and "Sign out" do?
+## What do the "Reconfigure" and "Sign out" options do?
 
-**Sign Out**: User is signing out of the application. After signing out they will navigate back to the original sign in screen where they can sign in or use an alternate account to sign in. Signing out and back in will clear Field Service mobile application data which had previously been synced to the device. 
-**Reconfigure**: User remains signed into the application but will navigate back to the app module picker where they can select an alternate app modulue if available. "Reconfigure" will clear Field Service mobile application data which had previously been synced to the device. 
+**Sign Out**: User signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile application data that had previously been synced to the device. 
+**Reconfigure**: User remains signed into the app, but will be sent back to the app module picker where they can select an alternate app modulue, if available. "Reconfigure" will clear Field Service mobile application data that had previously been synced to the device. 
 
 > ![Screenshot of the mobile booking calendar control.](./media/mobile_reconfigure-signout.PNG)
 
