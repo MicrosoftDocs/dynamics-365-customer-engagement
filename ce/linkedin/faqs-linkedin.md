@@ -46,7 +46,7 @@ The error is from the LinkedIn Sales Navigator application. Contact [LinkedIn Sa
 <a name="unable-log-in-to-linkedin-control"> </a>
 **Why am I unable to sign in to LinkedIn with Safari?**     
 **Answer:**    
-Dynamics 365 doesn't own the sign in of users from the display widget. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.    
+Dynamics 365 doesn't own the sign in of users from the LinkedIn Sales Navigator solution. Contact the [LinkedIn Sales Navigator](https://www.linkedin.com/help/sales-navigator/answer/a107028) support to resolve the issue.    
 
 <a name="incorrect-owner-name-displayed"> </a>
 **Why is an incorrect name displayed as the owner of the record instead of my name when I create contact in LinkedIn Sales Navigator?**    

@@ -127,7 +127,7 @@ To resolve this issue, add the **msdyn_linkedinintegrationcommon.js** library an
 <a name="solution-missing-configure-lsn"></a>
 ## The LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator  
 **Reason**     
-The **LinkedInSalesNavigatorControlsForUnifiedClient** solution will be available only in organizations with LinkedIn Sales Navigator solution version 2.2.0.1 and above. If LinkedIn solution version is less than 2.2.0.1, then installation the LinkedInSalesNavigatorControlsForUnifiedClient solution manually. 
+The **LinkedInSalesNavigatorControlsForUnifiedClient** solution will be available only in organizations with LinkedIn Sales Navigator solution version 2.2.0.1 and above. If LinkedIn solution version is less than 2.2.0.1, then install the **LinkedInSalesNavigatorControlsForUnifiedClient** solution manually. 
 
 **Resolution**     
 To resolve this issue, delete the solutions and reinstall them again.    
