@@ -33,7 +33,7 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
     > [!div class=mx-imgBorder]
     > ![Set up a channel](media/set-up-wechat.png "Set up a channel")
 5. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
-   - [Configure a chat widget](add-chat-widget.md#configure-chat-in-omnichannel-admin-center)
+   - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)
    - [Configure a WeChat instance](configure-wechat-channel.md)
    - [Configure a LINE channel](configure-line-channel.md)

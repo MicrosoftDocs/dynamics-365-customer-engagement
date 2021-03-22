@@ -35,13 +35,13 @@ To setup the **Entity Record** channel for cases, follow the steps:
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
 | [Step 1: Create queues and add agents](#step-1-create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
-| [Step 2: Enable entity for activities and queues](#step-2-enable-entity-for-activities-and-queues)| Enable the entity for activities and queues. |
+| [Step 2: Enable entity for activities and queues](#enable-entities)| Enable the entity for activities and queues. |
 | [Step 3: Enable entity for routing channel](#step-3-enable-entity-for-routing) | Create entity record configuration to enable an entity for routing. |
 | [Step 4: Create routing rules](#step-4-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
 ## Step 1: Create queues and add agents
 
-Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-queue).
+Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
 
 ## Step 2: Enable entity for activities and queues<a name="enable-entities"> </a>
 
