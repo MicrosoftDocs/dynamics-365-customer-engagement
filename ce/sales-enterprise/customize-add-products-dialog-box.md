@@ -75,21 +75,14 @@ views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-c
 
 ## Add or edit attributes in the Product column
 
-The **Product** column in the Add product dialog includes the product name
-and ID by default. You can add more information to distinguish the
-products better. For example, you can add the product category to help
-differentiate products as shown in the screenshot below:
+The **Product** column in the Add product dialog includes the product name and ID by default. You can customize the column to add other attributes to distinguish products better. For example, you can add the product category to differentiate products as shown in the screenshot below:
 
 ![Screenshot showing additional details in the Product column of the Add products dialog](media/ProductColumn.png)
 
-**Note**: The **Product** column can display up to three attributes.  
+**Note**: The **Product** column can display up to three attributes, apart from the product name.  
 
 > [!NOTE]
-> The procedure below refers to the customization option available
-> in **Product catalog settings**. If you are using a custom app, access
-> the **Product Lookup View** from Power Apps:
-
-For information on editing views, see [Choose and configure columns in model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+> The procedure below refers to the customization option available in **Product catalog settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](https://> docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or edit product attributes:**
 
@@ -115,7 +108,7 @@ For information on editing views, see [Choose and configure columns in model-dri
 
 ## Customize the fields to search  
 
-By default, the search field in the Add products dialog searches the product name and ID for a matching keyword. You can expand the search to include other text-based fields too. For example, you can add the description field to the search scope.
+By default, the search field in the Add products dialog searches the product name, ID, and description. You can expand the search to include other text-based fields too. For example, you can add the hierarchy path field to the search scope.
 
 **To customize the fields to search:**
 
