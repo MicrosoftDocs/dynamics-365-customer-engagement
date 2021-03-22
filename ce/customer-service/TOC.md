@@ -36,7 +36,7 @@
 ## Get started
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](configure-cs.md)
-### [Customer Service admin center](cs-admin-center.md)
+### [Customer Service admin center](oc-admin-center.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
 ### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
