@@ -30,7 +30,7 @@ They are sub type of manual work classification rules and are rules defined to a
 
 They are sub type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of Intelligent skill finder bootstrapping experience. They are written in format of – send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item.
 
-## Route-to-queue rules
+## Route-to-queues rules
 
 Queue routing rules are rules to send the work item to the right queue. They are written in the format of if defined condition satisfies then route the work item to the defined queue. They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, route to queue ruleset is run after all the work classification rulesets are run. A workstream can have only one route to queues ruleset.
 
@@ -44,5 +44,3 @@ After prioritization rule set, you can author the assignment rule set for the qu
 
 ### See also
 
-[Queues in unified routing]
-[Configure work classification rulesets]

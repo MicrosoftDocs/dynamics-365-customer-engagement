@@ -49,18 +49,15 @@
 ### [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)
 ### [Assign roles and enable users](add-users-assign-roles.md)
 ### [Manage users](users-user-profiles.md)
-### [Manage user capacity]
+### [Manage capacity profiles](capacity-profiles.md)
 
 
 ## Unified routing and assignment
 ### [Overview of unified routing](overview-unified-routing.md)
+### [Routing and assignment rules](routing-workstream-queues.md)
 ### [How routing and assignment works](set-up-routing-process.md)
-### Configure work distribution model
-#### [Routing and assignment rules](routing-workstream-queues.md)
-#### [Set up record routing](set-up-record-routing.md)
-##### [Set up intake rules for record routing]
-##### [Enable entities for routing](entity-channel.md)
-##### [Route trigger for entity records](routing-trigger.md)
+
+### Administrator experience
 #### Create workstreams
 ##### [Create workstreams in Omnichannel admin center](create-workstreams.md)
 ##### [Create workstreams in Omnichannel Administration](work-streams-introduction.md)
@@ -68,6 +65,10 @@
 ##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
 ##### [Set up routing and assignment rules](routing-rules.md)
 ##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
+
+#### [Set up record routing](set-up-record-routing.md)
+##### [Enable entities for routing](entity-channel.md)
+##### [Route trigger for entity records](routing-trigger.md)
 
 #### [Create queues](queues-omnichannel.md)
 ##### [Set up assignment methods for queues](assignment-methods.md)
