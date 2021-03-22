@@ -29,7 +29,7 @@ The Edge WebView2 Process browser control hosts your controls in individual Edge
 > [!IMPORTANT]
 > - Unified Service Desk version 4.2 supports Chromium version 84.
 
-The advantages of using the Edge WevView2 Process hosting method are as follows:
+The advantages of using the Edge WebView2 Process hosting method are as follows:
 
 ![Advantages of Edge WebView2 Process](media/advantages-edge-webview2-process.png "Advantages of Edge WebView2 Process")
 
