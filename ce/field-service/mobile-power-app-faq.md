@@ -89,14 +89,14 @@ There is no limitation to the number of records that can be downloaded in offlin
 
 For more information, review the [platform documentation](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities).
 
-## Can I connect Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud enviornments?
+## Can I connect Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
 
 Not at this time. Support for non-public clouds will be added to Field Service mobile in the near future.
 
 ## What do the "Reconfigure" and "Sign out" options do?
 
 **Sign Out**: User signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile application data that had previously been synced to the device. 
-**Reconfigure**: User remains signed into the app, but will be sent back to the app module picker where they can select an alternate app modulue, if available. "Reconfigure" will clear Field Service mobile application data that had previously been synced to the device. 
+**Reconfigure**: User remains signed into the app, but will be sent back to the app module picker where they can select an alternate app module, if available. "Reconfigure" will clear Field Service mobile application data that had previously been synced to the device. 
 
 > ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and the "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
 
