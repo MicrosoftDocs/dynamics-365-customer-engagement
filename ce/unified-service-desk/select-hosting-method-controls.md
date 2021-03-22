@@ -28,11 +28,11 @@ monikerRange: '>= dynamics-usd-3'
 
 - [Web hosted application](web-hosted-application.md)
 
-- [Edge process](edge-process.md)
+- [IE process (deprecated)](ie-process.md)
 
-- [IE process](ie-process.md)
+- [Internal WPF (deprecated)](internal-wpf.md)
 
-- [Internal WPF](internal-wpf.md)
+- [Edge process (legacy - discontinued)](edge-process.md)
 
 
 ## See also  
