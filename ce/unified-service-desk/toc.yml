@@ -194,7 +194,7 @@
         items:
         - name: Select a hosting method for your controls
           href: select-hosting-method-controls.md
-        - name: Use Edge Process to host web applications (Preview)
+        - name: Use Edge Process to host web applications (Deprecated)
           href: edge-process.md
         - name: Use Edge WebView2 Process to host web applications
           href: edge-webview2-process.md
