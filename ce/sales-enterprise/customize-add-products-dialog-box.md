@@ -63,11 +63,12 @@ views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-c
 4. Click the add products view of the entity that you want to customize. For example, click **Quote 'add products'** view to customize the Add products dialog for quotes.  
     You will be redirected to the corresponding view in Power Apps.
 
-5. Click **Add Columns** and select the columns that you want to add.
+5. Click **+ View Column** and select the columns you want to add to the grid. Or, simply drag-and-drop the columns into the grid.
 
-6. To remove a column, select the column in the view and click **Remove** from the Common Tasks pane. 
+6. To remove a column, click the column in the grid and select **Remove**.
 
-7. Publish the customizations.
+7. Click **Publish** to save and publish the customizations.
+    The changes are applicable to the Add products dialog of the selected entity.
 
 8. Open the entity that you customized. If you customized the add products view for quotes, open a quote and click **Add products**. Verify whether the customizations to the grid are reflected in the dialog.
     
@@ -102,12 +103,11 @@ For information on editing views, see [Choose and configure columns in model-dri
 4. Click **Customize Product lookup view.**
     You will be redirected to the **Product Lookup View** in Power Apps.
 
-5. Click **Add Columns** and select the attributes that you want to add.
+5. Click **+ View Column** and select the attributes you want to add. Or, simply drag-and-drop the attributes into the grid.
 
-6. To remove an attribute, select the column in the view and click
- **Remove** from the Common Tasks pane.
+6. To remove an attribute, click the attribute in the grid and select **Remove**.
 
-7. Publish the customizations
+7. Click **Publish** to save and publish the customizations.
     The changes are applicable to the Add products dialog of opportunity, quote, order, and invoice.
 
 7. To verify the changes, open an opportunity and click **Add products**.
@@ -118,14 +118,20 @@ For information on editing views, see [Choose and configure columns in model-dri
 By default, the search field in the Add products dialog searches the product name and ID for a matching keyword. You can expand the search to include other text-based fields too. For example, you can add the description field to the search scope.
 
 **To customize the fields to search:**
-1. Open the Quick Find All Products view under Product, Views in Power Apps.
-2. In the right pane, go to the Find by section and click edit find table columns. Select the fields you want to include in search.
+
+1. Open Power Apps and navigate to **Tables** in the left pane.
+
+2. Search for the **Product** entity and open it.
+
+3. Click **Views** and open the **Quick Find All Products** view. 
+
+4. In the right pane, go to the **Find by** section and click **Edit find table columns**. Select the fields you want to include in search.
     > [!NOTE] Select only the text-based fields.
 
-3. Click Publish to save and publish changes to the view.
-    The changes are applicable to the Add products dialog of opportunity, quote, order, and invoice.
+3. Click **Publish** to save and publish changes to the view.
+    The changes are applicable to the product search in the Add products dialog of opportunity, quote, order, and invoice.
 
-4. To verify the changes, open an opportunity and click **Add products**. 
+4. To verify the changes, open an opportunity and click **Add products**.
 
 5. Search for a keyword and verify if the search is returning matches from the newly added fields.
 
