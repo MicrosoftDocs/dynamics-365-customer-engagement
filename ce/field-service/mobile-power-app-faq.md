@@ -98,7 +98,7 @@ Not at this time. Support for non-public clouds will be added to Field Service m
 **Sign Out**: User signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile application data that had previously been synced to the device. 
 **Reconfigure**: User remains signed into the app, but will be sent back to the app module picker where they can select an alternate app modulue, if available. "Reconfigure" will clear Field Service mobile application data that had previously been synced to the device. 
 
-> ![Screenshot of the mobile booking calendar control.](./media/mobile_reconfigure-signout.PNG)
+> ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and the "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
 
 
 
