@@ -1,8 +1,8 @@
 ---
 title: "Use the Edge WebView2 Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Know about the Edge WebView2 Process hosting method for your controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 03/16/2021
 ms.topic: "article"
@@ -26,18 +26,20 @@ The Edge WebView2 Process browser control hosts your controls in individual Edge
 
 ![Edge WebView2 process hosted control setting](media/edge-webview2-process-hosted-control-setting.png "Edge process hosted control setting")
 
-> [!IMPORTANT]
-> - Unified Service Desk version 4.2 supports Chromium version 84.
-
 The advantages of using the Edge WebView2 Process hosting method are as follows:
 
 ![Advantages of Edge WebView2 Process](media/advantages-edge-webview2-process.png "Advantages of Edge WebView2 Process")
 
-- Webpages, including model-driven app pages, render faster in Microsoft Edge.
-- Microsoft Edge is a modern browser with better process and memory management.
-- Microsoft Edge is the default browser for the Windows 10 operating system.
-- It provides easy configurations to host the applications in Unified Service Desk.
-- It provides improved reliability and supportability for browser-specific issues.
+- Available on supported versions of the Windows operating system.
+- Highly reliable.
+- Easy to configure to host applications in Unified Service Desk.
+- Switch seamlessly from one browser to another for your entire organization.
+- Enhanced performance and memory optimization.
+
+Also, administrators will be able to perform the following:
+
+- Select Edge process as the hosting type for the organization.
+- Select Edge process as the hosting type for select web applications, alongside Internet Explorer and Microsoft Edge.
 
 You can select Edge WebView2 Process as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
 
