@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/developer/customer-voice-populate-name.md",
+      "redirect_url": "export-customer-voice",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/portals/case-management.md",
       "redirect_url": "/powerapps/maker/portals/customer-engagement-apps/case-management",
       "redirect_document_id": "false"
