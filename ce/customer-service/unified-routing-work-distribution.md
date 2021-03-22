@@ -4,7 +4,7 @@ description: Understand about unified routing and work distribution in Omnichann
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/11/21
+ms.date: 03/11/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -31,7 +31,7 @@ Unified routing and work distribution is a two-step process:
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](media/unified-routing-work-distribution.png)
+> ![Graphical representation of routing and work distribution scenario](media/unified-routing-work-distribution.png "Graphical representation of routing and work distribution scenario")
 
 ## Overview of routing system
 

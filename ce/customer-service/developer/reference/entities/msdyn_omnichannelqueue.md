@@ -674,8 +674,6 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid
 
-Same as msdyn_ocliveworkitem entity [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid) Many-To-One relationship.
-
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_ocliveworkitem|

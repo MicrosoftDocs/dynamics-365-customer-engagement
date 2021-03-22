@@ -40,6 +40,7 @@
 ## Inspections
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
+### [Run reports on inspections](inspections-reporting.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
 ## [Capture resolution details](work-order-resolutions.md)
@@ -224,6 +225,7 @@
 ### [Resource Scheduling Optimization](field-service-version-history-resource-scheduling-optimization.md)
 ### [Field Service Mobile (Xamarin)](field-service-version-history-mobile.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Dynamics 365 US Government cloud (GCC) availability](field-service-dynamics365-government.md)
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)

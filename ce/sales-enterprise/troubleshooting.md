@@ -4,8 +4,8 @@ description: "A starting point for browsing troubleshooting content for Dynamics
 ms.date: 05/26/2020
 ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
