@@ -117,6 +117,9 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 
 5. Select **Save**.
 
+> [!IMPORTANT] 
+> Both Chrome and EdgeWebView2 SSO should not be enabled at a time. If both the browsers are given in the SingleSignOnEnabledBrowsers UII option, SSO will not work. Either Chrome or EdgeWebView2 options should only be given for the UII option. 
+
 ::: moniker-end
 
 <a name="ConfigureSignIn"></a>   
