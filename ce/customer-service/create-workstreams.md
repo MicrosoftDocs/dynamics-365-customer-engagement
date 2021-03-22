@@ -47,8 +47,8 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
    - **Default skill matching algorithm**:
    - **Keep same agent for entire conversation:** Set the toggle to yes if you want the conversation to be remained assigned to the originally-assigned agent. More information: [Agent affinity](work-streams-introduction.md#agent-affinity)
 9. Expand **Advanced settings** to configure the following options:
-   - Sessions: 
-   - Agent notifications:
-   - Context variables:
-   - Smart assist bots:
-   - Quick replies:
+   - [Sessions](../app-profile-manager/session-templates.md)
+   - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+   - Context variables
+   - Smart assist bots
+   - Quick replies

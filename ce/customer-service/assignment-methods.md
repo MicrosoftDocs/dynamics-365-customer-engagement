@@ -52,6 +52,12 @@ The "preferred customer type" of every agent will be matched against the dynamic
 
 Dynamic matching reduces the effort of having to write and maintain multiple static rules for each permutation and combination of the possible value.
 
+The process of creating assignment rulesets involves the following steps:
+
+1. **Create assignment rulesets:** For each assignment ruleset, you'll configure the conditions and order by option.
+2. **Create selection criteria:** If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines which ruleset out of the many should be run. More information: [Configure selection criteria](#configure-selection-criteria).
+
+
 ## Create an assignment method
 
 Perform the following steps to create a custom assignment method:
@@ -68,10 +74,32 @@ Perform the following steps to create a custom assignment method:
 5. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 6. Enter a name and description for the ruleset, and select **Create**. The ruleset is created.
 7. On the **Assignment ruleset** page that appears, select **Create rule**.
-8. On the Create assignment rule, do the following steps to add conditions and ordering attributes:
+8. On the **Create assignment rule** dialog box, do the following steps to add conditions and ordering attributes:
    1. **Rule Name:** Enter a rule name.
-   2. **Conditions:** Select Add to select an attribute or related entity and define condition.
+   2. **Conditions:** Select **Add** to select an attribute or related entity and define condition.
    3. **Order by:** Select an attribute to define the order of work assignment if multiple agents match the condition.
    4. Select Create.
    5. Repeat the steps 1 through 4 to configure multiple rules.
 9. You can sort the order in which the rules should be evaluated during work assignment.
+10. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
+
+You can create a sample assignment rule with the following conditions.
+
+| Attribute | Operator | Match type | Attribute value|
+|----|----------|-----|-----|
+| User skills | Exact match | |All skills |
+| Presence status | Equals | Dynamic match | Conversation.Workstream.Allowed Presences|
+| Capacity | Is greater than or equal to | Dynamic match | Conversation.Workstream.Capacity |
+| Available capacity | Is greater than | Static value | 50 |
+||||
+
+### Configure selection criteria
+
+When you configure more than one assignment ruleset in the custom assignment method, you must define selection criteria. The selection criteria lets you define a set of conditions to determine the ruleset to be run when condition is met. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criteria is met, the default ruleset will be run by the system.
+
+Do the following steps to configure the selection criteria for the assignment rulesets:
+
+1. For the assignment method, in the **Assignment** section, select **Create rule**, and in the **Decision list** area, select **Create rule**.
+2. In the **Create selection criteria rule** dialog box, enter a rule name, and define the conditions.
+3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the Decision list area.
+4. Define as many rules as the number of assignment rulesets.
