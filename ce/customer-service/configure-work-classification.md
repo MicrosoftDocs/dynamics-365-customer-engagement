@@ -61,7 +61,7 @@ Do the following steps to configure machine learning-based ruleset:
 
     >![Machine learning rule type](media/ur-ml-rule-type.png "Machine learning rule type")
 
-## Configure route to queue rules and rulesets
+## Configure route to queues ruleset and rules
 
 1. For a work stream, in the **Routing rules** section, select **Create ruleset** beside **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog box, enter a name in **Rule Name**.

@@ -32,7 +32,7 @@ They are sub type of work classification rules and are rules defined to attach s
 
 ## Route-to-queue rules
 
-Queue routing rules are rules to send the work item to the right queue. They are written in the format of if defined condition satisfies then route the work item to the defined queue. They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a work stream, route to queue ruleset is executed after all the work classification have been executed. A work stream has just one route to queue ruleset.
+Queue routing rules are rules to send the work item to the right queue. They are written in the format of if defined condition satisfies then route the work item to the defined queue. They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, route to queue ruleset is run after all the work classification rulesets are run. A workstream can have only one route to queues ruleset.
 
 ### How prioritization rule set works
 
@@ -43,3 +43,6 @@ Prioritization rule set is an ordered list of prioritization rules. Every priori
 After prioritization rule set, you can author the assignment rule set for the queue. The assignment rule set is an order list of assignment rules. Each assignment rule represents a set of conditions using which agents are selected and an order by field using which the matching agents are then sorted. During runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If there are more than one matching agents, then they are sorted by the ordered by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated and so on This can be thought as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
 
 ### See also
+
+[Queues in unified routing]
+[Configure work classification rulesets]

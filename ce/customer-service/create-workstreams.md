@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Create workstreams for conversations
+# Create workstreams in Omnichannel admin center
 
 A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
 
@@ -35,4 +35,20 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
    - [Configure a WhatsApp channel](configure-whatsapp-channel.md)
    - [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
-6. Configure routing rules for the worksteam. More information: [Configure routing rules]()
+6. Configure routing rules for the worksteam. More information: [Configure work classification rules](configure-work-classification.md
+7. If you want to configure route to queues, see [Configure route to queues](configure-work-classification.md#configure-route-to-queues-ruleset-and-rules)
+8. In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
+   - **Auto-close after inactivity:** Select a time period after which inactive conversations will be moved to the closed state automatically.
+   - **Work distribution mode:** The option that you selected is displayed and can't be edited.
+   - **Capacity:** Select one of the following options:
+     - **Unit based:**
+     - **Profile based: **
+   - **Allowed presences:** Select the presences in which agents will be assigned.
+   - **Default skill matching algorithm**:
+   - **Keep same agent for entire conversation:** Set the toggle to yes if you want the conversation to be remained assigned to the originally-assigned agent. More information: [Agent affinity](work-streams-introduction.md#agent-affinity)
+9. Expand **Advanced settings** to configure the following options:
+   - Sessions: 
+   - Agent notifications:
+   - Context variables:
+   - Smart assist bots:
+   - Quick replies:
