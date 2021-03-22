@@ -54,7 +54,6 @@
 
 ## Unified routing and assignment
 ### [Overview of unified routing](overview-unified-routing.md)
-### [Common business scenarios](common-business-scenarios.md)
 ### [How routing and assignment works](set-up-routing-process.md)
 ### Configure work distribution model
 #### [Routing and assignment rules](routing-workstream-queues.md)
@@ -65,9 +64,13 @@
 #### Create workstreams
 ##### [Create workstreams in Omnichannel admin center](create-workstreams.md)
 ##### [Create workstreams in Omnichannel Administration](work-streams-introduction.md)
+##### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
+##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
+##### [Set up routing and assignment rules](routing-rules.md)
+##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
 
 #### [Create queues](queues-omnichannel.md)
-##### [Set up assignment methods](assignment-methods.md)
+##### [Set up assignment methods for queues](assignment-methods.md)
 #### Configure work classification rules
 ##### [Create work classification rulesets](configure-work-classification.md)
 
@@ -80,12 +83,6 @@
 
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
-
-#### Manage work distribution for conversations
-##### [Create work streams for entity records](set-up-entity-workstream.md)
-##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
-##### [Set up routing and assignment rules](routing-rules.md)
-##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
 
 #### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
 #### [Show customers their position in a queue](show-queue.md)

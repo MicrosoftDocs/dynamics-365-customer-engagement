@@ -68,3 +68,6 @@ Do the following steps to configure machine learning-based ruleset:
 3. In **Conditions**, define the set of conditions.
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
     >![Configure route to queue decision rules](media/ur-route-to-queue-decision.png "Configure route to queue decision rules")
+5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
+> [!NOTE] 
+> You can reorder the rules in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.

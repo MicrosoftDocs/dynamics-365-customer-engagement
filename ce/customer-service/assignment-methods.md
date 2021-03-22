@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Assignment methods for queues
 
-Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the **Customer Service Hub** or **Omnichannel admin center** app.
+Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
 
 ## Types of assignment methods
 
@@ -45,7 +45,7 @@ The assignment ruleset is an order list of assignment rules. Each assignment rul
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
->![Sample assignment method](media/ur-sample-assign-scenaro.png)
+>![Sample assignment method](media/ur-sample-assign-scenaro.png "Sample assignment method")
 
 The first condition specifies the "user skills" on which the operator is exact match. Then the user attributes are evaluated. The different user attributes are specified with operators and values for each attribute, such as the **Presence status** attribute should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static", such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level."
 The "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
@@ -80,6 +80,10 @@ Perform the following steps to create a custom assignment method:
    3. **Order by:** Select an attribute to define the order of work assignment if multiple agents match the condition.
    4. Select Create.
    5. Repeat the steps 1 through 4 to configure multiple rules.
+   
+   > [!NOTE]
+   > We recommend that you relax the conditions for the assignment rules in a descending order.
+
 9. You can sort the order in which the rules should be evaluated during work assignment.
 10. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
 
@@ -92,6 +96,8 @@ You can create a sample assignment rule with the following conditions.
 | Capacity | Is greater than or equal to | Dynamic match | Conversation.Workstream.Capacity |
 | Available capacity | Is greater than | Static value | 50 |
 ||||
+
+>![Sample assignment rule](media/ur-sample-assign-rule.png "Sample assignment rule")
 
 ### Configure selection criteria
 

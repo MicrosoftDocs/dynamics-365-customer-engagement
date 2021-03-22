@@ -52,8 +52,6 @@ In this section, we cover information on how to create a queue for the messaging
    - **Round robin:** Assigns work item to the agent in the list order who matches the criteria for skills and presence.
    - Create a custom assignment method. For more information about custom assignment method, see [Create custom assignment method](assignment-methods.md)
 
-
-
 ## Create a queue in Omnichannel Administration
 
 Out of the box, the following default queues are available in Omnichannel for Customer Service:

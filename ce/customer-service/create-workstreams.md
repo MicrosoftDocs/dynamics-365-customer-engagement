@@ -4,14 +4,17 @@ description: "Understand and create workstreams in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2021
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
 # Create workstreams in Omnichannel admin center
 
-A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue.
+A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in Omnichanne admin center and Customer Service Hub.
+
+> [!IMPORTANT]
+> To configure workstream for record routing, entity routing must be enabled in the service configuration settings in Customer Service Hub.
 
 Perform the following steps to configure the workstream in Omnichannel admin center:
 
@@ -20,8 +23,11 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
 3. Enter the following details for the workstream:
     - **Name:** Enter an intuitive name, such as **Contoso chat workstream**.
     - **Work distribution mode:** Select **Push** or **Pick**.
-    - **Type:** Select Messaging.
-    - **Channel:** Select a channel from the list.
+    - **Type:** Select one of the following types:
+      - **Messaging:** To configure the workstream for chat and other conversation channels.
+      - **Record:** To configure the workstream for entity record, such as case and email activity.
+    - **Channel:** Is applicable if you have selected the type as Messaging. Select a channel from the list.
+    - **Record:** Is applicable if you have selected the type as Record. Select the entity record from the list.
 
 4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]

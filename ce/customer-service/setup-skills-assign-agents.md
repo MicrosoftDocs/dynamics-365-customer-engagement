@@ -4,7 +4,7 @@ description: "Learn how to create skills and assign agents to those skills in Om
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -42,13 +42,11 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ### Create skills
 
-After you create a skill-type, you can create skills.
+After you create a skill-type, you can create skills in Omnichannel admin center or Omnichannel Administration app.
 
-1. Sign in to the Omnichannel Administration app.
+1. In the Omnichannel admin center, select **User attributes** in the site map, and select **Manage** beside **Skills** on the **User attributes** page. In the Omnichannel Administration app, select **Skills** under **Queues & Users** in the site map.
 
-2. Select **Skills** under **Queues & Users** in the sitemap.
-
-3. Select **+ New**.
+3. Select **New**.
 
 4. Specify the following in the **New Skill** page.
 
@@ -58,13 +56,13 @@ After you create a skill-type, you can create skills.
     | Type | Select a skill type from the drop-down list. | Language |
     | Description | Provide a description of the skill. | This record is used to define the skill level of the Spanish language. |
 
-5. Select **Save**. 
+5. Select **Save**.
 
-After you save, the **Agents** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill).
+After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill).
 
 ### Add agents as bookable resource
 
-To assign agents to a skill, you need to add the agents as bookable resource. 
+To assign agents to a skill, you need to add the agents as bookable resource.
 
 1. Sign in to the Omnichannel Administration app.
 

@@ -4,12 +4,12 @@ description: "Learn how to set up record routing in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Create workstream for record routing
+# Set up record routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -17,11 +17,12 @@ You can configure settings for record routing in Customer Service Hub, Omnichann
 
 ## Prerequisites
 
-To route entity records, you must enable entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues).
+To route entity records, you must enable the entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues).
 
-For configuring unified routing for entities, the following prerequisite must be met:
+For configuring unified routing for entities, the following prerequisites must be met:
 
-- The toggle for unified routing is set to yes in the **Service Configuration Settings** section of Customer Service Hub. The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entities for routing](entity-channel.md#enable-entities).
+- The toggle for unified routing is set to yes in the **Service Configuration Settings** section of Customer Service Hub.
+- The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entities for routing](entity-channel.md#enable-entities).
 
 ## Configure record routing in Customer Service Hub
 
@@ -29,20 +30,29 @@ You can configure record routing for entities in Customer Service Hub and Omnich
 
 Perform the following steps to configure record routing:
 
-1. If you are using Omnichannel admin center, on the site map, select **Record routing** under **General settings**. If you are using Customer Service Hub, on the site map, select **Record routing** under **Unified routing**.
+1. In Customer Service Hub, on the site map, select **Record routing** under **Unified routing**. If you are using Omnichannel admin center, on the site map, select **Record routing** under **General settings**. 
 2. On the **Record routing** page, select **Add**.
 3. In the **Add a record type** dialog box, select an entity from the **Record type** list, and select **Add**. The entity is added and listed on the **Record routing** page.
 4. To configure routing for the entity, do the following steps:
-   1. Configure workstreams
+   1. Configure workstreams.
    2. Configure intake rules.
-
-### Configure intake rules
-
-Perform the following steps to configure the intake rules that can be evaluated based on the order of the rules that you set up.
-
 
 ### Create workstreams for record routing
 
+To configure a workstream for the entity record, perform the steps in [Create workstreams in Omnichannel admin center](create-workstreams.md).
+
+### Configure intake rules
+
+Perform the following steps to configure the intake rule:
+
+1. Select the workstream that you configured for routing records, such as the case.
+2. In the **Intake rules** area, select **Create rule**.
+3. On the Create intake rule dialog box, enter a name, and define the conditions for the rule.
+   >![Intake rule](media/ur-intake-rule.png "Intake rule")
+4. Select **Create**.
+
+A workstream that has the required intake rule and route to queues is as follows.
+>![Workstream for a case record](media/ur-record-routing-workstream.png "Workstream for a case record")
 
 
 ## Create entity record workstream in Omnichannel Administration
