@@ -23,7 +23,7 @@ For instance, an organization receiving an incoming chat will add information on
 
 ## Common business scenarios that unified routing addresses
 
-Q to Tessa: Is this section okay including the section title or should it be "How unified routing helps achieve business efficiency".
+Q to Tessa: Is this section okay including the section title or should it be something such as "How unified routing helps achieve business efficiency".
 
 Unified routing addresses the following business scenarios:
 

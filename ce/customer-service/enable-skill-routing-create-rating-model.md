@@ -26,13 +26,15 @@ To enable skill-based routing, follow these steps:
 1. Sign in to the app.
 
 2. Do one of the following depending on which app you're using:
-   - In Omnichannel admin center, in the site map, Select **Skill Based Routing** under **Settings** in the sitemap.
+   - In Omnichannel admin center, in the site map, select **User attributes**, and then select **Manage** beside **Skill-based routing**.
+   - In Omnichannel Admininstration, in the site map, select **Skill Based Routing** under **Settings**.
+   - In Customer Service Hub, in the site map, select **User attributes** under **Unified Routing**, and then select **Manage** beside **Skill-based routing**.
 
-3. On the **Skill Based Routing** tab, set the **Enable Skill Based Routing** toggle to **Yes**.
+3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 
 4. Select a rating model from the list for the **Rating Model** field.
  
-    If there is no rating model, create a rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
+    If the rating model doesn't exist, create a rating model. To learn more, see [Create rating model](#create-rating-model).
 
     After you select a rating model, the **Rating Model Details** section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
 

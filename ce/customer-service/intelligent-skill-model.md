@@ -1,10 +1,10 @@
 ---
-title: "Set up model | MicrosoftDocs"
-description: "Learn about how to enable skill-based routing and create rating model in Omnichannel for Customer Service app."
+title: "Set up skill training model | MicrosoftDocs"
+description: "Learn about how to enable skill-based routing and create rating model in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -16,14 +16,20 @@ You can create and train machine learning models that use AI to determine the ne
 
 Perform the steps in this section to set up intelligent skill finder models.
 
-1. In the Omnichannel admin center, select **User attributes** in the site map.
-2. On the page that appears, select **Manage** beside **Intelligent skill finder**.
-3. Select **New**, and on the **Configuration** tab of **New skill finder model** page, enter a name.
-4. In **Data criteria**, enter the following to form the dataset records:
-    - **Attributes (Required):** Select attributes from conversation parameters or related entity parameters to form the training dataset. The corresponding attribute values will be merged in the sequence they are added and will be used to form the input string for the model training data.
-    - **Filters:** Apply filters to conditionally select the relevant records.
-    - **Date range:** Select a value to set the time period for which records needs to be fetched.
- 5. Select load training data to fetch the records and to auto navigate to ‘Training data’ section
+1. In Omnichannel admin center, select **User attributes** in the site map, and then select **Manage** beside **Intelligent skill finder**.
+2. Select **New**, and on the **Configuration** tab of **New skill finder model** page, enter a name.
+3. In **Data criteria**, enter the following to form the dataset records:
+    - **Attributes (Required):** Select attributes in the Attributes and related list to form the training dataset. The corresponding attribute values will be merged in the sequence they are added and will be used to form the input string for the model training data.
+    - **Filters:** Optionally, apply filters to conditionally select the relevant records.
+    - **Date range:** Select a value to set the time period for which the records need to be loaded.
+    
+    >![Configure skill finder model](media/ur-skill-model.png)
+
+4. Select **Save**, and then select load training data. The **Training data** tab appears and displays the data load status.
+5. After the load is complete, review the load, and edit the records if you want to modify the tags.
+6. In **Training data** section, select the check box beside **Input data** to select all the records, and select **Approve**.
+7. Select **Train model**, and select **Train model** on the confirmation dialog box.
+8. After the status changes to training completed, select the row you want to publish, and select **Publish model**. The skills model is ready for use.
 
 
 

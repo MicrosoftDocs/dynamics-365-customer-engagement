@@ -32,7 +32,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - Theme color
    - Logo URL: Select the default value or enter the link to the logo that you want to be displayed.
    - Agent display name
-   -    
+   - 
 
 ## Configure a chat widget in Omnichannel Administration
 

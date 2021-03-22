@@ -4,37 +4,45 @@ description: "How to set up simplied routing"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2021
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
 # How to set up unified routing for a channel
 
-The high-level process to set up unified routing for a channel is as follows:
+## Prerequisites
+
+- Omnichannel admin center app.
+- To configure record routing, entity routing toggle is set to yes.
+- To use skill-based routing, skills are configured.
+- To use machine learning work classification, skill model must have been configured.
+- To use capacity-based classification, capacity profile must have been configured.
+
+## How to set up unified routing
+
+The high-level process to set up unified routing for a channel or record is as follows:
 
 1. Create a workstream
-   - Create workstream for messaging
-     - Configure channels
-   - Create workstream for record routing
+   - Create a workstream for messaging
+     - Configure routing rules
+       - Configure manual work classification rulesets
+         - Create demand rules
+       - Configure machine-learning work classification rulesets 
+         - Set up input and output attributes
+       - Configure route-to-queues ruleset
+   - Create a workstream for record routing
      - Configure intake rules
-2. Configure work classification rules
-   - Set up manual work classification rulesets
-     - Create demand rules
-   - Set up machine learning work classification rulesets
-4. Create queues
-   - Configure assignment method
-   
-5. Set up channels
-   - Set up in channels Omnichannel admin center  
-   
-6. Create queues
-7. Choose assignment method for queues
-   -  Set up prioritization method
-   -  Set up assignment rulesets
-8. Create a route-to-queues rule for the work stream
-9. Configure work classification rules and custom assignment methods
-   - Set up work classification rules manually
-   - Set up skill-identification rules manually
-   - Machine learning-based skill idenfitication rules
-7.
+     - Configure routing rules
+       - Configure work classification
+       - Configure route-to-queues ruleset
+2. Create queues
+   - Assignment methods
+     - Highest capacity
+     - Round robin
+     - Custom assignment method
+      - Configure prioritization ruleset
+        - Decision list of rules
+      - Assignment rulesets
+        - Decision list of rules
+      - Selection criteria
