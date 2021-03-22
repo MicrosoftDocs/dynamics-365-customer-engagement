@@ -15,6 +15,8 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
+## Customize the Add Products dialog box
+
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 As a system administrator, you can customize the Add products dialog box
@@ -119,7 +121,8 @@ By default, the search field in the Add products dialog searches the product nam
 3. Click **Views** and open the **Quick Find All Products** view. 
 
 4. In the right pane, go to the **Find by** section and click **Edit find table columns**. Select the fields you want to include in search.
-    > [!NOTE] Select only the text-based fields.
+    > [!NOTE] 
+    Select only the text-based fields.
 
 3. Click **Publish** to save and publish changes to the view.
     The changes are applicable to the product search in the Add products dialog of opportunity, quote, order, and invoice.
