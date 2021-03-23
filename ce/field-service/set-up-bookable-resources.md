@@ -7,7 +7,7 @@ ms.date: 04/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
-author: FieldServiceDave
+author: xonatia
 ms.author: xolee
 manager: hegate
 search.app: 
@@ -153,7 +153,7 @@ At its simplest, a frontline workers are individuals in your organization who ar
 
 A bookable resource that represents a frontline worker must have:
 - **Resource Type** set to **User**
-- **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. Learn more [here](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers).
+- **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. Learn more [here](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
 
 > ![Screenshot of Selecting a User in Field Service.](./media/bookable_resource_form.PNG)
 
