@@ -24,11 +24,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
 
-![Edge WebView2 process hosted control setting](media/edge-webview2-process-hosted-control-setting.png "Edge process hosted control setting")
-
 The advantages of using the Edge WebView2 Process hosting method are as follows:
-
-![Advantages of Edge WebView2 Process](media/advantages-edge-webview2-process.png "Advantages of Edge WebView2 Process")
 
 - Available on supported versions of the Windows operating system.
 - Highly reliable.
@@ -43,8 +39,6 @@ Also, administrators will be able to perform the following:
 
 You can select Edge WebView2 Process as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
 
-> [!NOTE]
-> To use **Edge WebView2 Process**, you must have the latest Windows 10 operating system (Windows 10 October 2018 release).
 
 ## Edge WebView2 Process settings
 
