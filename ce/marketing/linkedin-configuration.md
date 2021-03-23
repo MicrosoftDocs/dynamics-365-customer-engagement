@@ -1,7 +1,7 @@
 ---
 title: "Assign security roles, set up LinkedIn field mappings and matching (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Map lead fields and match leads between LinkedIn to Dynamics 365 Marketing."
-ms.date: 02/27/2021
+ms.date: 03/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Set up the LinkedIn Lead Gen integration and define a lead matching
+# Set up the LinkedIn Lead Gen integration and define lead matching
 
 Use the settings pages under the **Settings** > **Lead management** heading to configure the LinkedIn feature. A few LinkedIn security roles are also provided to let administrators control access to these features.
 
@@ -35,7 +35,7 @@ A third role, LinkedIn Lead Gen S2S Inbound, is an internal security role used t
 
 Assign these security roles to users who you want to provide access to the **LinkedIn Lead Gen** menu item. To learn how to assign a security role to users, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles).
 
-## Configure lead matching for incoming LinkedIn leads to existing leads
+## Configure lead matching for incoming LinkedIn leads to match existing leads
 
 Manage your LinkedIn matching strategy to establish the rules for when and how Dynamics 365 Marketing will create or match leads for incoming LinkedIn form submissions.
 
