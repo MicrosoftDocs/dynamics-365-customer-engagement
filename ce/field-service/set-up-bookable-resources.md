@@ -38,8 +38,8 @@ In this article, we will walk through how to create a bookable resource and add 
 
 ## Prerequisites
 
-- Any version of Dynamics 365 Field Service
-- You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles
+- Any version of Dynamics 365 Field Service.
+- You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles.
 
 ## Create a bookable resource  
   
@@ -149,13 +149,14 @@ In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-do
  
 ## Set up frontline workers
 
-At its simplest, a frontline workers are individuals in your organization who are primarily scheduled for on-site jobs and uses Dynamics 365 Field Service mobile app to view and update the details of their work orders. Learn more about setting up frontline workers [here](frontline-worker-set-up.md).
+At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. For more information, learn more about [setting up frontline workers](frontline-worker-set-up.md).
 
 A bookable resource that represents a frontline worker must have:
-- **Resource Type** set to **User**
-- **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. Learn more [here](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
 
-> ![Screenshot of Selecting a User in Field Service.](./media/bookable_resource_form.PNG)
+- **Resource Type** set to **User**.
+- **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. For more information, learn more about [frontline worker setup](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
+
+> ![Screenshot of selecting a user in Field Service.](./media/bookable_resource_form.PNG)
 
 Other fields important for frontline workers in field service scenarios are:
 
