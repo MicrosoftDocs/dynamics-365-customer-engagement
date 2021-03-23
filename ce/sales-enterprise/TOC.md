@@ -177,6 +177,7 @@
 ### [Troubleshooting forecasts](ts-forecasts.md)
 ### [Troubleshooting the Unified Interface](ts-unified-interface.md)
 ### [Troubleshooting the sales pipeline chart](ts-sales-pipeline.md)
+### [Troubleshooting in-app marketing](ts-inapp-marketing.md)
 ### [Troubleshooting email](ts-email.md)
 ### [FAQs](faqs-sales.md)
 
@@ -325,6 +326,7 @@
 ### [Overview](sales-mobile/dynamics-365-sales-mobile-app.md)
 ### Administrator guide
 #### [Enable Dynamics 365 Sales mobile](sales-mobile/enable-sales-mobile.md)
+#### [Modify quick view forms](sales-mobile/modify-quick-view-form.md)
 ### User guide
 #### Install the app
 ##### [Install the app on iOS](sales-mobile/install-ios-app.md)

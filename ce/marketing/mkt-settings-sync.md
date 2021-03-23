@@ -1,7 +1,7 @@
 ---
-title: "Marketing data configuration (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Dataset configuration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring in Dynamics 365 Marketing."
-ms.date: 08/19/2020
+ms.date: 02/27/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,9 +18,9 @@ search.app:
   - D365Mktg
 ---
 
-# Sync entities and track insights using Marketing dataset configuration
+# Sync entities and track insights using Dataset configuration
 
-The Marketing data configuration settings allow you to choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring in Dynamics 365 Marketing. Tracking insights allows you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The Marketing data configuration settings also make dynamic field values available for use in marketing email messages as they are processed and sent.
+The Dataset configuration settings allow you to choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring in Dynamics 365 Marketing. Tracking insights allows you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The Dataset configuration settings also make dynamic field values available for use in marketing email messages as they are processed and sent.
 
 The analytical and data-crunching capabilities of the insights capabilities are powerful, but also resource-intensive, so the solution maximizes performance by synchronizing only the relevant customer and account data. The insights capabilities also collect and manage all interaction data. For optimal performance and functionality, choose only the entities you need.
 
@@ -67,7 +67,7 @@ To sync a new entity with the insights service:
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)  
+[Open the settings](open-advanced-settings.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design lead-scoring models](score-manage-leads.md)
