@@ -79,9 +79,11 @@ Use the app-selector menu to switch between apps.
 > - The Quick Create menu, Global Search, and Recent Records within the app aren't filtered. These show and can be searched on all entities instead of only the entities that are added to the app.  
 >   -   When you search using Advanced Find, it searches all entities and not just the entities added to the app.  
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
 ::: moniker-end
 
-::: moniker range="< op-9-0"
+::: moniker range="< op-9-1"
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use model-driven apps in Power Apps](/powerapps/user/use-model-driven-apps)
 
@@ -108,8 +110,9 @@ When you use an app, you'll see only those entities in the site map  and other p
 > - The Quick Create menu, Global Search, and Recent Records within the app aren't filtered. These show and can be searched on all entities instead of only the entities that are added to the app.  
 >   -   When you search using Advanced Find, it searches all entities and not just the entities added to the app.  
 
-::: moniker-end
 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
+::: moniker-end
