@@ -48,9 +48,13 @@ Use the app-selector menu to switch between apps.
 
 1. Select the current app name.
 
-2. On the Apps page select an app. You will only see apps for your organization.
+   > [!div class="mx-imgBorder"]
+   > ![Select the current app name](media/access-site-map.png "Select the current app name")
 
+2. On the **Apps** page select an app. You will only see apps for your organization.
 
+   > [!div class="mx-imgBorder"]
+   > ![Select an app to use](media/access-site-map-1.png "Select an app to use")
 
 ## Find apps in the Legacy Web Client 
 
