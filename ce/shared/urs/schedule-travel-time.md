@@ -218,6 +218,8 @@ Here are a few more notes about the Auto Update Booking Travel feature:
 
 - The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific schedulable entities. 
 
+- If Technicians are required to create Bookings on their Field Service Mobile app, and you want to enable this feature to auto-calcualte the travel time and distance, a field on the Booking form called **msdyn_ursinternalflags** needs to be set to **{"AutoUpdateBookingTravel":true}**. Once the Booking is created on the Mobile app, the travel time will be calculated. 
+
 - The feature only applies to the Hours view of the schedule board, and travel time and distances are not updated if the bookable resource booking form is edited manually, edited with a workflow, or if the bookings are imported.
 
 - If you have an existing onsite booking, the subsequent onsite booking calculates travel time from the previous booking up until the beginning of the next day's working hours, even if there are multiple hours in between the two onsite bookings.
