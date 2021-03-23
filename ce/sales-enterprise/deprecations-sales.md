@@ -1,8 +1,8 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ms.date: 12/18/2020
 ms.topic: article

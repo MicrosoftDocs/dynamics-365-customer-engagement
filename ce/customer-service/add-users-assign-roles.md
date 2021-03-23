@@ -4,7 +4,7 @@ description: Know how to enable users for Omnichannel and assign roles in the Om
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/18/2020
+ms.date: 02/19/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 The Dynamics 365 users can access and perform different functions based on the roles that are assigned to them. The following roles can be assigned individually or in combination based on the tasks that need to be performed:
 
-- **Common Data Service User:** Required by all users of Omnichannel for Customer Service.
+- **Basic User:** Required by all users of Omnichannel for Customer Service.
 - **Omnichannel administrator:**  Required for performing administrator tasks; also requires the **System Administrator** role to manage user roles and privileges in Omnichannel for Customer Service.
 - **Omnichannel supervisor:** Required for performing supervisor tasks.
 - **Omnichannel agent:** Required for performing agent tasks.

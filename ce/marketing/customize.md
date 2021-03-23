@@ -32,7 +32,7 @@ The techniques for customizing Dynamics 365 Marketing are the same as those for 
 To access the customization settings in the advanced-settings area:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
-1. Navigate to **Settings** > **Customizations** > **Customizations**.
+1. Navigate to **Settings** > **Customization** > **Customizations**.
 
 For complete details about how to customize model-driven apps in Dynamics 365, see the [Power Apps documentation](https://docs.microsoft.com/powerapps/#pivot=home&panel=getstarted).
 
