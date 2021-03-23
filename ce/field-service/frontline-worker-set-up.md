@@ -108,7 +108,7 @@ After setting up one or more frontline workers, admins can:
 10. Automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile application.
 
  > [!NOTE]
- > Admins cannot send an email to their frontline workers, if they do not have their mailbox approved by the global admin; learn more [here]().
+ > Admins cannot send an email to their frontline workers, if they do not have their mailbox approved by the global admin; learn more [here](frontline-worker-set-up-email-approval.md).
  > ![Screenshot of Unable to Send Email in Field Service.](./media/setup_form_unable_to_send_email.PNG).
 
 ## View a list of all frontline workers 
