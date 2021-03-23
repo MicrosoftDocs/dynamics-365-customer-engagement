@@ -12,8 +12,6 @@ The new schedule board is faster, with better usability, and it lays the foundat
 
 ### Performance
 
-
-
 The new schedule board is faster and more responsive when: 
 
 - Loading the schedule board
@@ -141,7 +139,7 @@ Then reassign this booking to any resource on the current schedule board tab, or
 Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the move to option.](./Images/moveto-popup.png)
+> ![Screenshot of the move to option.](../../field-service/media/moveto-popup.png)
 
 ### Move a booking to a resource on a different schedule board tab, or change the start date or time, or both
 
@@ -150,7 +148,7 @@ Right-click on a booking and select **Move to**. Select the filter icon in the r
 Now you can reassign this booking to any resource on any tab, and change the start date and start time of the booking. Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the move to with resource filter expanded option.](./Images/moveto-popup-filterexpanded.png)
+> ![Screenshot of the move to with resource filter expanded option.](../../field-service/media/moveto-popup-filterexpanded.png)
 
 ## Automatic scheduling with optimization goals
 
