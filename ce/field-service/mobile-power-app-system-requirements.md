@@ -40,11 +40,11 @@ Currently, the Field Service (Dynamics 365) mobile app is supported on the follo
 |  |	Minimum	 |    |	 |	Recommended	| |  |
 | --- | --- |	--- | --- | --- | --- | --- |
 | Platform |	Version |	RAM	| Storage*	| Version	| RAM	| Storage* |
-| iOS |	12.4.9 or later |	3GB |	64 GB	| 13 or later	| 4GB	| 128 GB |
-| Android	| 7.1.1 or later |	3GB	| 64 GB	| 10 or later |	6GB	| 128 GB | 
+| iOS |	12.4.9 or later |	3 GB |	64 GB	| 13 or later	| 4 GB	| 128 GB |
+| Android	| 7.1.1 or later |	3 GB	| 64 GB	| 10 or later |	6 GB	| 128 GB | 
 
 
-*The amount of GBs of storage needed is dependent on how much data your organization needs to download onto the device when there is no internet access. This is controlled by the [mobile offline profile](mobile-power-app-system-offline.md).
+*The number of GBs of storage needed is dependent on how much data your organization needs to download onto the device when there is no internet access. This is controlled by the [mobile offline profile](mobile-power-app-system-offline.md).
 
 
 
