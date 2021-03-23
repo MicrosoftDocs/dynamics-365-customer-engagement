@@ -13,14 +13,17 @@ ms.service: dynamics-365-customerservice
 
 You can create capacity profiles to define the types and amount of work that agents can take. Capacity profiles improve efficiency in work distribution.
 
-## Create a capacity profile
+> [!IMPORTANT]
+> We recommend that you should configure either capacity profiles or capacity units only in your organization and not both.
+
+## Create a capacity profile and assign to users
 
 Perform the following steps to configure the capacity profile
 
 1. In Omnichannel admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
 
   > [!NOTE]
-  > Unified routing must be enabled in Service configuration settings in Customer Service Hub for the User attributes to appear in the site map.
+  > Unified routing must be enabled in Service configuration settings in Customer Service Hub for the **User attributes** area to appear in the site map.
 
 2. In the **User attributes** page, select the **Manage** option for **Capacity profile**.
 3. On the **Capacity profiles** page, select **Create new**.
