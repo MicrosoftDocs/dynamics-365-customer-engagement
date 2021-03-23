@@ -1,7 +1,7 @@
 ---
 title: "Configure and authenticate social media accounts  (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Configure and authenticate each social media account where you'd like to author, schedule, and post updates in Dynamics 365 Marketing."
-ms.date: 02/27/2021
+ms.date: 03/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
