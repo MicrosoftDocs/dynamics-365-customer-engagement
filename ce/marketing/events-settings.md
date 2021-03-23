@@ -1,7 +1,7 @@
 ---
 title: "Set up event administration options and webinar provider accounts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 Marketing."
-ms.date: 02/27/2021
+ms.date: 03/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -141,6 +141,5 @@ For more information about how to use the events API, including how to use the *
 [Set up and manage an event waitlist](event-waitlist.md)  
 [Create and manage recurring events](event-recurring.md)  
 [Create and use event templates](event-templates.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
