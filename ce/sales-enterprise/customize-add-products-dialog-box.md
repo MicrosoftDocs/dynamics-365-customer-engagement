@@ -84,7 +84,7 @@ The **Product** column in the Add product dialog includes the product name and I
 **Note**: The **Product** column can display up to three attributes, apart from the product name.  
 
 > [!NOTE]
-> The procedure below refers to the customization option available in **Product catalog settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](https://> docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+> The procedure below refers to the customization option available in **Product catalog settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or edit product attributes:**
 
@@ -105,7 +105,7 @@ The **Product** column in the Add product dialog includes the product name and I
 7. Click **Publish** to save and publish the customizations.
     The changes are applicable to the Add products dialog of opportunity, quote, order, and invoice.
 
-7. To verify the changes, open an opportunity and click **Add products**.
+7. To verify the changes, open an opportunity and click **Add products**.  
    You will see the updated attributes in the Product column.
 
 ## Customize the fields to search  
@@ -122,7 +122,7 @@ By default, the search field in the Add products dialog searches the product nam
 
 4. In the right pane, go to the **Find by** section and click **Edit find table columns**. Select the fields you want to include in search.
     > [!NOTE] 
-    Select only the text-based fields.
+    > Select only the text-based fields.
 
 3. Click **Publish** to save and publish changes to the view.
     The changes are applicable to the product search in the Add products dialog of opportunity, quote, order, and invoice.
