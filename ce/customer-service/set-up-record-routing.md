@@ -43,7 +43,8 @@ To configure a workstream for the entity record, perform the steps in [Create wo
 
 ### Configure intake rules
 
-Perform the following steps to configure the intake rule:
+Intake rules for an entity record help determine the workstream to be picked up to assign an incoming work item.
+Perform the following steps to configure the intake rules:
 
 1. Select the workstream that you configured for routing records, such as the case.
 2. In the **Intake rules** area, select **Create rule**.

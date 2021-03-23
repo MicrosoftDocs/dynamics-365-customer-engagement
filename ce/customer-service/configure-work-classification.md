@@ -14,9 +14,11 @@ Work classification lets you define classification rules to add detailed informa
 
 Perform the tasks listed in this section to configure the work classification rules for the work stream that you created. You will perform these tasks in the Omnichannel admin center or Customer Service Hub app.
 
+You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
+
 ## Create manual work classification rulesets
 
-You can create as many numbers of rulesets as your business workflow requires. For each ruleset, you will create rule items for a decision list that will be evaluated when a work item enters the queue.
+The rules in a ruleset will be evaluated when a work item enters the queue.
 
 To create a manual work classification ruleset, do the following steps:
 
