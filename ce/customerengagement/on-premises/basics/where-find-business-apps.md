@@ -53,12 +53,13 @@ The site map for the Legacy Web Client is at the top.
 
 Use the app-selector menu to switch between apps.
 
-1. Select the current app name.
+1. Sign in to Dynamics 365 Customer Engagement (on-premises).  
+2. Select the current app name.
 
    > [!div class="mx-imgBorder"]
    > ![Select the current app name](media/access-site-map.png "Select the current app name")
 
-2. On the **Apps** page select an app. You will only see apps for your organization.
+3. On the **Apps** page select an app. You will only see apps for your organization.
 
    > [!div class="mx-imgBorder"]
    > ![Select an app to use](media/access-site-map-1.png "Select an app to use")
