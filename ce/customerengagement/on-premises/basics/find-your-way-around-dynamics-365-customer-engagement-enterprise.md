@@ -93,7 +93,7 @@ To go back to the previous page, select the **Go back** button.
 
 Usually, when you first open a entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Products** table, you'll see a list of accounts.
 
-![A typical list view](media/list-view1.png "A typical list view")
+![A typical list view](media/onprem-list-view.png "A typical list view")
 
 Legend:
 
