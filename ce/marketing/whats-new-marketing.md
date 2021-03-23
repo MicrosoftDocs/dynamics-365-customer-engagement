@@ -51,6 +51,7 @@ The Dynamics 365 Marketing March 2021 early access release includes a completely
 
 - **Create emails quickly with low effort and without compromises**
     - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises)
+    - [Docs](email-design.md)
 
 ### Monthly enhancements
 
