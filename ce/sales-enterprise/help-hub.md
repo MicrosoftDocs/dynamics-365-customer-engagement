@@ -2,8 +2,7 @@
 title: "Help resources for Dynamics 365 Sales Enterprise | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
 ms.date: 10/14/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -87,6 +86,8 @@ manager: annbe
 
 <h2>Microsoft Learn resources</h2>
 <li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+<li><a href="https://docs.microsoft.com/learn/paths/introduction-configuration-dynamics-365-model-driven-apps/" data-raw-source="[Introduction to configuration in Dynamics 365 model-driven apps](https://docs.microsoft.com/learn/paths/introduction-configuration-dynamics-365-model-driven-apps/)">Introduction to configuration in Dynamics 365 model-driven apps</a></li>
+<li><a href="https://docs.microsoft.com/learn/paths/apply-goal-management-dynamics-365/" data-raw-source="[Implement goal management in Dynamics 365 Sales and Customer Service](https://docs.microsoft.com/learn/paths/apply-goal-management-dynamics-365/)">Implement goal management in Dynamics 365 Sales and Customer Service</a></li>
 </td>
 <td>
 <h2>Resources for other Sales apps</h2>
