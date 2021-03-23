@@ -1,6 +1,6 @@
 ---
-title: How to set up Power Platform Mailbox 
-description: How to set up Power Platform mailbox to send Frontline Workers 
+title: Send frontline workers email with link to download Dynamics 365 Field Service mobile app 
+description: How global admins can enable the mailbox of system admins to send emails to their frontline workers
 author: xonatia
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
@@ -15,37 +15,44 @@ search.app:
   - D365FS
 ---
 
-# Set Steps to send FLW email notification???
+# Send frontline workers email with link to download Dynamics 365 Field Service mobile app
 
-As a part of the **Frontline Worker Set Up** process, admins have the ability to automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile application. In order to use this capability, all admins must have their mailbox approved by their global admin through the Power Platform. Follow this documentation to learn the steps to approve an admin's mailbox through the Power Platform. 
+As a part of the [**Frontline Worker Set Up**](frontline-worker-set-up.md) process, admins have the ability to automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile application. In order to use this capability, system admins must have their mailbox approved by their global admins through the Power Platform. Follow this documentation to learn the steps to approve the system admin's mailbox through the Power Platform. 
 
 ## Prerequisities 
-- You must have global admin privileges.
+- Your organization's global admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
 
-There are 2 ways to enable email address
-Option1: Need to approve email address first
-1. Need Office 365 Global admin or Exchange Admin role
-2. Select Settings > Email Configuration > Mailboxes. Select Active Mailboxes.
-3. Select the mailbox that you want to approve
-4. Set the processing and synchronization fields as follows and save:
-Server Profile: Microsoft Exchange Online
-Incoming Email: Server-Side Synchronization or Email Router
-Outgoing Email: Server-Side Synchronization or Email Router
-5 Click Approve Email and select OK
-6.Select Test & Enable Mailbox and select OK
-7.If Outgoing Email Status is showing "Success", the send email checkbox will be enabled.
+## Step 1: Add Approve Email Addresses privilege for System Admins
 
-Option2: Remove requirement to approve mailboxes
-1. Need Office 365 Global admin or Exchange Admin role
-2. In the Power Platform admin center, select an environment.
-3. Select Settings > Email > Email settings.
-4. Under Security and permissions, Process emails only for approved users and Process emails only for approved queues to Off. These settings are enabled by default.
-5. Select Save.
-6. In Dynamics365 instance, select Settings > Email Configuration > Mailboxes. Select Active Mailboxes.
-7. Select the mailbox that you want to enable
-8. Set the processing and synchronization fields as follows and save:
-Server Profile: Microsoft Exchange Online
-Incoming Email: Server-Side Synchronization or Email Router
-Outgoing Email: Server-Side Synchronization or Email Router
-9.Select Test & Enable Mailbox and select OK
-10.If Outgoing Email Status is showing "Success", the send email checkbox will be enabled.
+Your organization's system admin requires the **Approve Email Addresses for Users or Queues** privilege in order to receive access to their Dynamics 365 mailbox. A global admin can assign the **Approve Email Addresses for Users or Queues** privilege to the Security Role: System Admin. 
+
+To manually assign the **Approve Email Addresses for Users or Queues** privilege to the Security Role: System Admin:
+
+1. In the [Power Platform Admin Center](https://admin.powerplatform.com), select your organization's environment.
+
+2. Select **Settings** > **Users + Permissions** > **Security roles**.
+
+3. Select the **System Admin** security role, and then select the **Business Management** tab.
+
+4. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses for Users or Queues**.
+
+> ![Screenshot of Adding Approve Email Addresses in Field Service.](./media/add_email_privileges_security_role.PNG)
+
+## Step 2: Approve Mailboxes of System Admins
+
+1. In the [Power Platform Admin Center](https://admin.powerplatform.com), select your organization's environment.
+
+2. Select **Settings** > **Email** > **Mailboxes**.
+
+3. Select **Active Mailboxes**.
+
+4. Select the **mailboxes** that you want to approve > **More Commands (…)** > **Approve Email** > **OK**.
+
+6. Select **Test & Enable Mailbox** > **OK**.
+
+> ![Screenshot of Testing Mailbox Configuration in Field Service.](./media/test_mailbox_config.PNG)
+
+7. If **Outgoing Email Status** displays **Success**, your organization's system admin can now automatically send emails to their frontline workers with a link to download the Dynamics 365 Field Service mobile application through the [Quick Set Up: Frontline Worker form](frontline-worker-set-up.md).
+
+> ![Screenshot of Frontline worker Email Template in Field Service.](./media/email_template.PNG)
+
