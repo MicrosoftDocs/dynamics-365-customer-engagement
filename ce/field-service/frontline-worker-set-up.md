@@ -110,7 +110,7 @@ After setting up one or more frontline workers, admins can:
 > ![Screenshot of Frontline worker Email Template in Field Service.](./media/email_template.PNG)
 
  > [!NOTE]
- > Admins cannot send an email to their frontline workers, if they do not have their mailbox approved by the global admin; learn more [here](frontline-worker-set-up-email-approval.md).
+ > Admins cannot send an email to their frontline workers, if they do not have their mailbox approved by the global admin; learn to add and approve email addresses [here](https://docs.microsoft.com/power-platform/admin/connect-exchange-online#add-approve-email-addresses-for-users-or-queues-privilege).
  > ![Screenshot of Unable to Send Email in Field Service.](./media/setup_form_unable_to_send_email.PNG).
 
 ## View a list of all frontline workers 
