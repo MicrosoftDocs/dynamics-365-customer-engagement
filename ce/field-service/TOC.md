@@ -12,7 +12,8 @@
 # Administration
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Frontline worker setup](frontline-worker-set-up.md)
-### [Set up users and security roles](view-user-accounts-security-roles.md)
+### [Mailbox setup](frontline-worker-set-up-email-approval.md)
+## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Location and map settings](field-service-maps-address-locations.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
