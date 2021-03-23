@@ -48,28 +48,26 @@ Unified Interface provides a consistent and accessible user experience across de
 - *Entities* represent a specific type of data, such as a contacts and accounts. Entities use a structured data format, which defines the collection of fields available to the entity. Each entity consists of a collection of individual records. For example, for the Contact entity, each record describes a single person, and each record includes a collection of fields such as first name, last name, and email address. Entities normally present two views: a list view, which is typically a entity listing available records; and a form view, which shows all available data and settings for a single record. Use the side navigator to move between entities in your current work area.
 
 
-### User info and sign out
-
-Select the user menu to view your account information or sign out. Go to your account page by selecting the **View account** hyperlink.
-
-> [!div class="mx-imgBorder"] 
-> ![User menu](media/usermenu_2.png "User menu")   
-
-
 ### Move between apps
 
 Use the app-selector menu to switch between apps.
 
+Use the app-selector menu to switch between apps.
+
 1. Select the current app name.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select the current app name](media/access-site-map.png "Select the current app name")
+
 2. On the **Apps** page select an app. You will only see apps for your organization.
 
-   > [!div class="mx-imgBorder"] 
-   > ![The app-selector menu](media/app-selector2.png "The app-selector menu")   
+   > [!div class="mx-imgBorder"]
+   > ![Select an app to use](media/access-site-map-1.png "Select an app to use")
 
 
 ### Move between pages and rows
 
-It's easy to get around and get back to your favorite or most-used rows. The following illustration shows the primary navigation elements.
+It's easy to get around and get back to your favorite or most-used items. The following illustration shows the primary navigation elements.
 
 
 ![Navigation controls showing expanded view](media/nav-expanded2.png "Navigation controls showing expanded view")  
@@ -84,7 +82,7 @@ Legend
 
 ### Area switcher 
 
-In the left-hand navigation pane, the area switcher appears at the bottom left only when a single model-driven app has more than one area in the sitemap definition. 
+In the left-hand navigation pane, the area switcher appears at the bottom left only when a single app has more than one area in the sitemap definition. 
 
 Open this menu to move to another work area. The current work area is named here.
 
@@ -101,53 +99,53 @@ To go back to the previous page, select the **Go back** button.
 
 ## Working with list views
 
-Usually, when you first open a table, you'll see the list view, which shows a list of rows belonging to that table, formatted as a table. For example, if you open the **Products** table, you'll see a list of accounts.
+Usually, when you first open a entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Products** table, you'll see a list of accounts.
 
 ![A typical list view](media/list-view1.png "A typical list view")
 
 Legend:
 
-1. **Go back** (For early access): Select to go back to the previous page.
-2. **Select rows**: Select one or more rows by placing a check mark in this column. Depending on where you're working, you might be able to apply a single operation to all the selected rows at once by using buttons in the command bar. Note, when you use the **Email a link** command on the command bar you can only select up to ten rows to send via email. 
-3. **Open a row**: Select any row in the list to open its row view, which shows all the details about the row. Usually you select from the **Name** column to open a row from the current table. Some tables provide links to rows from related tables in other columns (such as a related contact).
-4. **Sort or filter the list**: Select to sort the list by values in that column or filter the list by values in that column. An arrow in the column heading indicates which column is being sorted and in which direction. 
+1. **Go back**" Select to go back to the previous page.
+2. **Select rows**: Select one or more rows by placing a check mark in this column. Depending on where you're working, you might be able to apply a single operation to all the selected records at once by using buttons in the command bar. Note, when you use the **Email a link** command on the command bar you can only select up to ten records to send via email. 
+3. **Open a record**: Select any record in the list to open its record view, which shows all the details about the record. Usually you select from the **Name** field to open a record from the current entity. Some entities provide links to records from related entities in other fields (such as a related contact).
+4. **Sort or filter the list**: Select to sort the list by values in that field or filter the list by values in that field. An arrow in the column heading indicates which column is being sorted and in which direction. 
 5. **Open advanced filtering panel**: See which filters are applied to the current view and add or modify view filters.
-6. **Command bar**: Use the commands in the command bar to operate on rows in the list and perform related actions. Some commands (such as **Delete**) require that you first select one or more target rows by placing a check mark in the leftmost column, while others operate on the entire list. You can export the list to an Excel workbook (possibly based on a template), open charts and dashboards, and more, depending on the type of rows you're working with.
-7. **Search the view**: Enter text in the search column above the list to show only those rows in the current view that contain your text.
-8. **Jump bar and paging**: Select a letter to show only those rows whose names start with that letter. If the list contains more rows than can be shown on one page, use the paging arrows at the bottom of the list to move forward and backward through the pages.
+6. **Command bar**: Use the commands in the command bar to operate on records in the list and perform related actions. Some commands (such as **Delete**) require that you first select one or more target records by placing a check mark in the leftmost column, while others operate on the entire list. You can export the list to an Excel workbook (possibly based on a template), open charts and dashboards, and more, depending on the type of records you're working with.
+7. **Search this view**: Enter text in the search field to show only those records in the current view that contain your text.
+8. **Jump bar and paging**: Select a letter to show only those records whose names start with that letter. If the list contains more records than can be shown on one page, use the paging arrows at the bottom of the list to move forward and backward through the pages.
 
-## Working with row views
+## Working with record views
 
-Row views show all the details about a single row and sometimes also provide special features for working with it. Usually you'll open a row view by selecting a row that appears in a list view, but you can also open a row view by following a link from a related row.
+Record views show all the details about a single record and sometimes also provide special features for working with it. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
 
 ![A typical row view](media/form-view1.png "A typical row view")
 
 Legend:
 
 
-1. **Tabs**: Most row views are divided into tabs. Each tab provides a collection of related columns from the row. When tabs are available, they're listed below the row name. Select any tab name to go to that tab. The current tab is shown underlined.
-2. **Related**: Nearly all types of rows show a **Related** tab after you've saved them at least once. This tab is actually a drop-down list that you can use to find other types of rows that use or reference the displayed row. 
+1. **Tabs**: Most record views are divided into tabs. Each tab provides a collection of related fields from the record. When tabs are available, they're listed below the record name. Select any tab name to go to that tab. The current tab is shown underlined.
+2. **Related**: Nearly all types of records show a **Related** tab after you've saved them at least once. This tab is actually a drop-down list that you can use to find other types of records that use or reference the displayed record. 
 When you choose a table name from the **Related** drop-down list, a new tab named for that table opens, showing a list of all related rows of that type. The **Related** tab remains available, and you can still use it to find other types of rows that reference the current one.
-3. **Command bar**: Use the commands in the command bar to operate on the current row or perform a task related to the row. The available commands vary based on the row type, but you can typically use the command bar to save your changes, delete the row, refresh the page, email a link to the row, reassign the row owner, or export the row by using a Word template.
-4. **Heading bar**: Some row views display a few especially important columns in the heading bar, opposite the row name. These are typically columns that are fundamental to working with rows of the current type (such as a row name or row owner).
-5. **View and edit all column values**: In the main body of the row view, you'll find all of the columns related to the current tab, form view, and row type. Columns marked with a red asterisk are required, and you can't save the row without their having valid values. Columns marked with a blue plus sign are especially important or recommended, but aren't strictly required. Columns showing a lock icon are read-only and can't be edited.
+3. **Command bar**: Use the commands in the command bar to operate on the current record or perform a task related to the record. The available commands vary based on the record type, but you can typically use the command bar to save your changes, delete the record, refresh the page, email a link to the record, reassign the record owner, or export the record by using a Word template.
+4. **Heading bar**: Some record views display a few especially important fields in the heading bar, opposite the record name. These are typically fields that are fundamental to working with records of the current type (such as a record name or record owner).
+5. **View and edit all field values**: In the main body of the record view, you'll find all of the fields related to the current tab, form view, and record type. Fields marked with a red asterisk are required, and you can't save the record without their having valid values. Fields marked with a blue plus sign are especially important or recommended, but aren't strictly required. Fields showing a lock icon are read-only and can't be edited.
 
-## Row set navigation 
+## Record set navigation 
 
-Navigate through multiple rows by using preset views and queries. The row-focused navigation improves productivity by allowing users to jump from row to row in the list and easily navigate back without losing their working list.
+Navigate through multiple records by using preset views and queries. The record-focused navigation improves productivity by allowing users to jump from record to record in the list and easily navigate back without losing their working list.
 
-The number of rows that you see in the row set navigation pane is based on the number of rows that your system administrator has defined for the subgrid.
+The number of records that you see in the record set navigation pane is based on the number of records that your system administrator has defined for the subgrid.
 
-1. To use row set navigation, open a page with a list of rows.
-2. Open a row and then select **Open Row Set** ![Row set navigation](media/openrecordset_2.png "Row set button") and then select a row from the list. 
+1. To use record set navigation, open a page with a list of rows.
+2. Open a record and then select **Open Record Set** ![Row set navigation](media/openrecordset_2.png "Row set button") and then select a row from the list. 
 
 
-![Row set navigation](media/recordsetnav_new.gif "This shows how to use the row set navigation feature")   
+![Record set navigation](media/recordsetnav_new.gif "This shows how to use the record set navigation feature")   
 
 
 ## Reference panel
 
-The reference panel is a great way to get work done without moving away from the screen you're on. You can look up other related items&mdash;such as reviews or reservations for a product&mdash;within the context of the row you're viewing, without having to navigate to other screens.
+The reference panel is a great way to get work done without moving away from the screen you're on. You can look up other related items&mdash;such as reviews or reservations for a product&mdash;within the context of the record you're viewing, without having to navigate to other screens.
 
 
 ![Reference panel](media/reference-panel1.png "Reference panel")
@@ -161,7 +159,7 @@ The reference panel is a great way to get work done without moving away from the
 
 The app message bar shows three types of notifications: informational, warning, and error. 
 
-When you select the error notification, it will take you to the column on the form where the error occurred.
+When you select the error notification, it will take you to the field on the form where the error occurred.
 
 ![Example of notifications](media/notifications_1.png "Examples of notifications")   
 
