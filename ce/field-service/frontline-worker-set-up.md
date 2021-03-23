@@ -81,7 +81,7 @@ After setting up one or more frontline workers, admins can:
 
 5. Type and select the **Territories** that your frontline workers has. This is an optional field. 
 
-> ![Screenshot of Adding Territories in Field Service.](./media/setup_form_territories.PNG)
+> ![Screenshot of Adding Territories in Field Service.](./media/quicksetup_territories.PNG)
 
 5a. If the **Territories** does not exist, select the drop down and select **+ New Territories**. A pop-up form will appear and admins must leave the current form to create new Territories for their frontline workers. Admins **will** lose their work on the Quick Set Up: Frontline Workers form. Learn more about [setting up territories without this form](https://docs.microsoft.com/dynamics365/field-service/set-up-territories).
 
@@ -89,7 +89,7 @@ After setting up one or more frontline workers, admins can:
 
 7. View or update the defaulted **Security Role** for your frontline workers. Admins may add multiple security roles, including any custom security roles, to this field. This is a required field. 
 
-> ![Screenshot of Adding Security Roles in Field Service.](./media/setup_form_security_roles.png)
+> ![Screenshot of Adding Security Roles in Field Service.](./media/quicksetup_securityroles.PNG)
 
 8. View or update the defaulted **Field Security Profile** for your frontline workers. Admins may add multiple field security profiles, including any custom field security profiles, to this field. This is a required field. 
 
@@ -109,7 +109,7 @@ After setting up one or more frontline workers, admins can:
 
  > [!NOTE]
  > Admins cannot send an email to their frontline workers, if they do not have their mailbox approved by the global admin; learn more [here]().
- > ![Screenshot of Unable to Send Email in Field Service.](./media/setup_form_unable_to_send_email.png).
+ > ![Screenshot of Unable to Send Email in Field Service.](./media/setup_form_unable_to_send_email.PNG).
 
 ## View a list of all frontline workers 
 
