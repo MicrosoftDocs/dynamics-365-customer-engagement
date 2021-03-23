@@ -70,7 +70,7 @@ Use the app-selector menu to switch between apps.
 It's easy to get around and get back to your favorite or most-used items. The following illustration shows the primary navigation elements.
 
 
-![Navigation controls showing expanded view](media/nav-expanded2.png "Navigation controls showing expanded view")  
+![Navigation controls showing expanded view](media/onprem-main-nav.png "Navigation controls showing expanded view")  
 
 Legend
   
@@ -79,14 +79,6 @@ Legend
 3. **Recent records**: Expand this entry to view a list of records you were recently using. Select a record here to open it. Select the push-pin icon next to a record listed here to add it to your favorites (pinned records).
 4. **Favorite records**: Expand this entry to view and open your favorite (pinned) records. Use the **Recent records** list to add records here. Select the remove-pin icon next to a record listed here to remove it from this list.
 5.  **Page navigation**: This area lists each entity and dashboard page available for the current work area. Select any entry here to open the named dashboard or list view for that entity.
-
-### Area switcher 
-
-In the left-hand navigation pane, the area switcher appears at the bottom left only when a single app has more than one area in the sitemap definition. 
-
-Open this menu to move to another work area. The current work area is named here.
-
-![Area switcher](media/work_area.png "Area switcher")
 
 
 ## Go back 
