@@ -94,7 +94,7 @@ After setting up one or more frontline workers, admins can:
 8. View or update the defaulted **Field Security Profile** for your frontline workers. Admins may add multiple field security profiles, including any custom field security profiles, to this field. This is a required field. 
 
 > [!NOTE]
-> In order to view, all of the Field Security Profiles in the dropdown, select the **Search icon** > **Change View** > **Only my records checkbox** > **Back button**.
+> In order to view all of the Field Security Profiles in the dropdown, select the **Search icon** > **Change View** > **Only my records checkbox** > **Back button**.
 
 > ![Screenshot of Adding Field Security Profiles in Field Service.](./media/setup_form_fs_profile.PNG)
 
@@ -110,7 +110,7 @@ After setting up one or more frontline workers, admins can:
 > ![Screenshot of Frontline worker Email Template in Field Service.](./media/email_template.PNG)
 
  > [!NOTE]
- > Admins cannot send an email to their frontline workers, if they do not have their mailbox approved by the global admin; learn to add and approve email addresses [here](https://docs.microsoft.com/power-platform/admin/connect-exchange-online#add-approve-email-addresses-for-users-or-queues-privilege).
+ > Admins cannot send an email to their frontline workers, if they do not have their mailbox approved by the global admin; learn to add and approve email addresses [here](frontline-worker-set-up-email-approval.md).
  > ![Screenshot of Unable to Send Email in Field Service.](./media/setup_form_unable_to_send_email.PNG).
 
 ## View a list of all frontline workers 
@@ -123,7 +123,7 @@ After setting up one or more frontline workers, admins can:
 
 > ![Screenshot of List View of All Frontline Workers in Field Service.](./media/all_flws.PNG)
 
-## View and update the details of individual frontline workers 
+## View and update the details of individual frontline workers on the Bookable Resource form
 
 1. After selecting an individual from the **List View** of all frontline workers, admins can see the details of this worker on the Bookable Resource form. 
 
