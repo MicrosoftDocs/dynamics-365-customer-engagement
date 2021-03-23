@@ -30,14 +30,13 @@ Business apps are available to users based on their security roles. If your syst
 
 With version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. Unified Interface provides a consistent and accessible user experience across devices—whether on a desktop, laptop, tablet, or phone. The apps scale by reflowing the components on the screen. The responsive design adapts to your environment based on screen size, so the more available space that you have, the more information can be displayed.
 
-The easiest way to tell the difference is to look at the site map. In Unified Interface the site map is on the left.
+The easiest way to tell whether you're using Unified Interface or the Legacy Web Client is to look at the site map. In Unified Interface the site map is on the left.
 
 > [!div class="mx-imgBorder"]
 > ![Unified interface for on-prim](media/uci-onprem-interface.png "Unified interface for on-prem")
 
 
-
-To access the site map for the Legacy Web Client select the menu at the top.
+The site map for the Legacy Web Client is at the top.
 
 > [!div class="mx-imgBorder"]
 > ![Web client interface](media/web-client-interface.png "Web client interface")
@@ -53,7 +52,7 @@ Use the app-selector menu to switch between apps.
 
 
 
-## Find apps in Legacy Web Client 
+## Find apps in the Legacy Web Client 
 
 1. Sign in to Dynamics 365 Customer Engagement (on-premises).  
   
