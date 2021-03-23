@@ -3,13 +3,13 @@ title: "Set up bookable resources (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/30/2020
+ms.date: 04/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
+ms.author: xolee
+manager: hegate
 search.app: 
   - D365CE
   - D365FS
@@ -28,17 +28,17 @@ Each resource can have different attributes that distinguish it from others, inc
 - Location (for example: Location Agnostic)
 - Resource Type (for example: User)
 
-In this article, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Field Service organizations.
+In this article, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Dynamics 365 Field Service organizations.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yg5v]
 
 > [!Note]
-> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
+> For additional Dynamics 365 Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
 
 
 ## Prerequisites
 
-- Any version of Field Service
+- Any version of Dynamics 365 Field Service
 - You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles
 
 ## Create a bookable resource  
@@ -91,7 +91,6 @@ In this article, we will walk through how to create a bookable resource and add 
 11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
 12. **Time Off Approval Required**: Choose this if time off needs to be approved or not. If set to **No**, then a time-off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time-off request is approved. 
 13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service Mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service Mobile app.
-14. **Enabled for Field Service Mobile**: Set to **Yes** if the resource will need to use the Field Service Mobile (Xamarin) app on their phone or tablet. Leave as "No" if the resource will only use the Field Service (Dynamics 365) mobile app. 
 
 **Save** the record.  
   
@@ -148,18 +147,17 @@ In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-do
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting working hours and timezone](media/resource-working-hours-timezone.png)
  
-## Set up technician resources
+## Set up frontline workers
 
-At its simplest, a field technician is a mobile worker at your organization who uses the Field Service Mobile app on their mobile device to see Field Service entities like work orders.
+At its simplest, a frontline workers are individuals in your organization who are primarily scheduled for on-site jobs and uses Dynamics 365 Field Service mobile app to view and update the details of their work orders. Learn more about setting up frontline workers [here](frontline-worker-set-up.md).
 
-A bookable resource that represents a field technician must have:
-1. **Resource Type** set to **User**
-2. **Enabled for Field Service Mobile** set to **Yes**
+A bookable resource that represents a frontline worker must have:
+- **Resource Type** set to **User**
+- **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. Learn more [here](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
+> ![Screenshot of Selecting a User in Field Service.](./media/bookable_resource_form.PNG)
 
-Other fields important for field technicians in field service scenarios are:
+Other fields important for frontline workers in field service scenarios are:
 
 - **Start/End Location**: where the resource starts and ends their day is factored into schedule work order requirements to the closest field technician.
 - **Display On Schedule Board**: displaying a field technician resource on the schedule board is crucial for enabling dispatchers to manage their schedules.
