@@ -15,7 +15,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-## Customize the Add Products dialog box
+# Customize the Add Products dialog box
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
