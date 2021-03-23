@@ -1,5 +1,5 @@
 ---
-title: "Add products to quotes, orders, or invoices using enhanced experience (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Add products to quotes, orders, or invoices by using the enhanced experience (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
 ms.date: 03/17/2021
 ms.service: dynamics-365-sales
@@ -22,97 +22,104 @@ searchScope:
 ---
 
 # Preview: Add products to quotes, orders, or invoices (Sales Hub)
-
+<!--note from editor: Is it okay that the description mentions Sales Enterprise but the title mentions Sales Hub? Also, I've duplicated edits from add-products-enhanced-experience.md, so please see that topic for detailed notes about these edits.-->
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As a salesperson, you want to be able to easily identify and add
-products from the catalog to quotes, orders, or invoices. With the
-enhanced experience of adding products, you can: 
--   Quickly find products from the catalog based on free-text search
+As a salesperson, you want to be able to easily identify and add products from the catalog to quotes, orders, or invoices. With the enhanced experience of adding products, you can:
 
--   See matching products as you type in the search field.
+- Quickly find products from the catalog, based on free-text search.
 
--   Pick products from the categorized list of product families.
+- See matching products as you enter text in the search field.
 
--   See the most-recently-used list of products while adding multiple products.
+- Pick products from the categorized list of product families.
 
--   View product details inline and compare products before selecting any, which helps them find the right product.
+- See the most recently used list of products while you add multiple products.
 
--   Select and add multiple products at one go.
+- View product details inline and compare products before selecting any, which helps you find the right product.
 
--   Add write-in products by using as few clicks as possible.
+- Select and add multiple products at one go.
 
--   Specify price, quantity, and any other required information as configured by your system administrator.
+- Add write-in products by using as few clicks as possible.
+
+- Specify price, quantity, and any other required information as configured by your system administrator.
 
 > [!IMPORTANT]
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-If you've created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
+If you've created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.<!--note from editor: Should this paragraph also mention orders and invoices?-->
+
+## Add products to a quote, order, or invoice
 
 > [!NOTE]
-> The process of adding a product to a quote record is the same as adding a product to an order or an invoice. This topic explains how to add products to a quote record.
+> The process of adding a product to a quote is the same as adding a product to an order or an invoice. This procedure explains how to add products to a quote.
+<!--note from editor: I renumbered these steps because they'd gotten out of sync, but just FYI, you can label every step "1." and the markdown will figure it out with no problem. It's actually easier that way, so you can add or combine steps without worrying about the numbering.-->
+1. Open the quote to which you want to add products.
 
-1.  Open the quote to which you want to add products.
-2.  On the **Summary** tab, select a **Price List**. 
-    The price list determines the cost of the product and the products you can select.
-    > [!NOTE] 
-    > By default, you must select a price list to be able to add products to
-    > the quote; however, your administrator can change the product
-    > catalog settings to make the **Price List** field optional. 
-3. In the **Products** grid, click **Add products**.
-   The **Add products** pop-out dialog opens.
-    ![Screenshot showing the enhanced Add Products Dialog](media/enhancedAddProductsDialog.png)
+2. On the **Summary** tab, select a **Price list**. 
+   The price list determines the cost of the product and the products you can select.
+   > [!NOTE] 
+   > By default, you must select a price list to be able to add products to
+   > the quote; however, your administrator can change the product
+   > catalog settings to make the **Price list** field optional. 
 
-    > [!NOTE]
-    > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a pop-out dialog, contact your system administrator to enable the preview. The above screenshot shows the default columns in the dialog. Your administrator can customize the dialog to add more columns depending on the needs of your organization. The information displayed in the Product column and the columns in the grid are customizable. So, if you need additional columns to populate data or need more information to identify the product better, contact your system administrator. 
+3. In the **Products** grid, select **Add products**.
+   The **Add products** dialog box opens.
+ 
+   ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
 
-6.  Search for the product or use the product family filter in the left pane to identify products that you want to add to the quote. As you select products, you will see the count of selected products in the **Selected** tab.
+   > [!NOTE]
+   > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview.
+   >
+   > The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
 
-    > [!NOTE] 
-    > The products and the product families displayed depend on the price list that you have chosen. So, if you do not see a product, ensure that the product is associated with the selected price list.
-    
-7. Optionally, click the **Write in** tab to add products or services that are not in the catalog and are very specific to an opportunity.  
+4. Do one of the following:
 
-7.  Specify the Price per unit if the product does not have an associated price list. If the product has a default price list associated with it, the Price per unit is populated in accordance with the associated price list. 
+   - Search for the product, or use the product family filter on the left pane to identify products that you want to add to the quote. As you select products, you'll see the count on the **Selected** tab.
 
-    > [!TIP] 
-    > If you want to override the default price of a product, request the
-    > administrator to add the Price Overridden column to the grid. After
-    > the Price Overridden column has been added, select Override Price.
+     > [!NOTE]
+     > The products and the product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
 
-8.  Enter the quantity and click **Add**.
+   - On the **Write-in** tab, enter products or services that aren't in the catalog but you want to add to the quote.<!--note from editor: Edit okay? -->  
 
-9.  Repeat the process for all products you want to add. When you are done, click **Save to quote**.
+5. Do one of the following:
 
-## Delete or remove products from a quote, invoice or order
+   - If the product doesn't have an associated price list, enter the **Price per unit**.
+   - If the product has a default price list associated with it, **Price per unit** is populated in accordance with the associated price list. 
+
+     > [!TIP] 
+     > If you want to override the default price of a product, request that your administrator add the **Price overridden** column to the grid. After the **Price overridden** column has been added, select **Override price**.
+
+6. Enter the quantity you want, and then select **Add**.
+
+7. Repeat steps 4 through 6<!--note from editor: Edit okay?--> for each product you want to add.
+
+8. When you're done, select **Save to quote**.
+
+## Remove products from a quote, order, or invoice
 
 > [!NOTE] 
-> The process for removing a product from a quote record is the same as removing a product from an order or an invoice. This topic explains how to remove products from a quote record.
+> The process for removing a product from a quote is the same as removing a product from an order or an invoice. This procedure explains how to remove products from a quote.
 
-Remove products if you have selected them inadvertently or if they are
-no longer relevant for the quote. You can remove products at two
-instances:
+Remove products if you've selected them inadvertently or they're
+no longer relevant for the quote. You can remove products in two circumstances:
 
--   While adding products to the quote - in the Add products dialog
--   After adding products to the quote - in the Products section of the quote
+- While adding products to the quote, by using the **Add products** dialog box
+- After you've added products to the quote, in the **Products** section of the quote<!--note from editor: Should this be "on the **All products** tab of the quote? I'm not sure what the **Products** section is.-->
 
-**To remove a product from the Add products dialog:**
+**To remove a product from the Add products dialog box**
 
-1.  Click the Selected button in the Add products dialog.
-    You see the list of products that you have selected.
+1. In the **Add products** dialog box, select the **Selected** tab.
 
-2.  Click **Remove** to remove a selected product. Click the back arrow to continue with the selection or click **Save to quote** to add the selected products to the quote.
+2. Next to the product you want to remove, select **Remove**.
 
 **To remove a product from the Products section**
 
-1.  Navigate to the **Products** section of the quote.
-    You will see the list of products that you have added to the
-    quote.
+1. In the quote, go to the **Products** section.
 
-2.  Select the products that you want to remove and click **Delete Quote Product**.
-    The selected products are removed from the quote after you confirm the deletion.
+2. Select the products that you want to remove, and then select **Delete quote product**.
+    The selected products will be removed from the quote after you confirm the deletion.
 
 ### See also
 
