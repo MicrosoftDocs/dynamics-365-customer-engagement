@@ -92,7 +92,7 @@ Enabling maps makes it so dispatchers and technicians can see a map view on work
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order map](media/work-order-map.png) 
 
-Bing Maps is enabled by default for new environments.  To confirm Bing Maps is enabled or to change your setting to disabled, go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
+Bing Maps is enabled by default for new environments. To confirm Bing Maps is enabled - or to disable Bing Maps - go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
 
 
 > [!div class="mx-imgBorder"]
