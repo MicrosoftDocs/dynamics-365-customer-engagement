@@ -1,7 +1,7 @@
 ---
 title: "Set up default settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up collections of settings that establish various defaults used throughout the app, including for email marketing, customer journey timezone, double opt-in, and email deduplication during sending in Dynamics 365 Marketing."
-ms.date: 02/27/2021
+ms.date: 03/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -62,6 +62,5 @@ However, some organizations need to send separate copies of the same email messa
 [Open the settings](open-advanced-settings.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
