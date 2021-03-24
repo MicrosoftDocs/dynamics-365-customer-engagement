@@ -214,9 +214,11 @@ For more information, see our article on [predictive travel with resource schedu
 The Auto Update Booking Travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **Onsite**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
 
 
-Here are a few more notes about the Auto Update Booking Travel feature:
+Here are a few more notes about the **Auto Update Booking Travel** feature:
 
 - The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific schedulable entities. 
+
+- If technicians are required to create bookings on their Field Service mobile app, and you want to enable this feature to auto-calcualte the travel time and distance, a field on the booking form called **msdyn_ursinternalflags** must be set to **{"AutoUpdateBookingTravel":true}**. Once the booking is created in the mobile app, the travel time will be calculated. 
 
 - The feature only applies to the Hours view of the schedule board, and travel time and distances are not updated if the bookable resource booking form is edited manually, edited with a workflow, or if the bookings are imported.
 
