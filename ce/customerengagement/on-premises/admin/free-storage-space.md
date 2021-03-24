@@ -19,6 +19,10 @@ search.audienceType:
 ---
 # Free storage space
 
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
+
 These are ways to reduce the amount of storage space used by removing or deleting different types of information from Dynamics 365 Customer Engagement (on-premises). Use one or more of these methods to control your total data storage usage with Customer Engagement (on-premises). You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
   
 > [!WARNING]
