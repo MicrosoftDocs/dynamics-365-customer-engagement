@@ -14,12 +14,14 @@ ms.assetid: f8966997-6047-4ff7-b3ae-47cbceea96a2
 caps.latest.revision: 17
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Audit data and user activity for security and compliance
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 The Dynamics 365 Customer Engagement (on-premises) auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
 <!-- 
