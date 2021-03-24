@@ -14,12 +14,15 @@ ms.assetid: 5f21f288-f941-4ca0-a15f-a91cd9feee4d
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
 
 ---
 # Create users and assign security roles
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 With Dynamics 365 Customer Engagement (on-premises), you can add users to your organization one at a time, or add multiple users at the same time by using the **Add Users** wizard.
 

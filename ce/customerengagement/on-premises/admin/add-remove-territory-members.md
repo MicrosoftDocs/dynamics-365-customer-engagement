@@ -14,12 +14,14 @@ author: jimholtz
 ms.assetid: 79c76f73-d104-4619-a996-e8f2ac4fba48
 caps.latest.revision: 14
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Add or remove territory members
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 To accommodate changes in sales territories or the representatives that are assigned to each territory, you can add or remove territory members in Dynamics 365 Customer Engagement (on-premises).  
   

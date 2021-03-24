@@ -14,12 +14,14 @@ ms.assetid: 516100e9-cc32-4e3a-bdff-1820f260ea41
 caps.latest.revision: 8
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Troubleshooting: User needs read-write access
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You don’t have sufficient permissions to access Dynamics 365 Customer Engagement (on-premises). A system administrator will need to do the following in the Customer Engagement (on-premises):  
   

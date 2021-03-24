@@ -14,12 +14,15 @@ author: jimholtz
 ms.assetid: cb5bc112-03f3-4de4-ae5b-998b1e22503e
 caps.latest.revision: 30
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
 
 ---
 # Hierarchy security to control access
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 The hierarchy security model is an extension to the existing Dynamics 365 Customer Engagement (on-premises) security models that use business units, security roles, sharing, and teams. It can be used in conjunction with all other existing security models. The hierarchy security offers a more granular access to records for an organization and helps to bring the maintenance costs down. For example, in complex scenarios, you can start with creating several business units and then add the hierarchy security. This will achieve a more granular access to data with far less maintenance costs that a large number of business units may require.  
   
