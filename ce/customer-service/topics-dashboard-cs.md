@@ -19,15 +19,9 @@ search.app:
   - D365CS
 ---
 
-# Preview: Topics dashboard
+# Topics dashboard
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases to help you better understand how different case types and topic areas are impacting your organization’s support performance.
 
@@ -72,6 +66,17 @@ The topic metrics chart has the following metrics displayed:
 | CSAT impact     | The amount that the given topic is driving the overall CSAT trend for the organization.     |
 | Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
 | Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
+
+### Automate topics to Power Virtual Agents
+
+AI discovered topics in Customer Service Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization’s administrator for use. 
+
+Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Drill through**, and then selecting **Automate Topic** within the drill through view. This will launch the topic editing form.  
+
+The topic provides suggested trigger phrases based on the case title. Select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, select **Create Bot**. You will be redirected to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added. Once this step is complete, select **Automate Topic** and you will redirect to Power Virtual Agents to complete the authoring process.
+
+> [!NOTE]
+> Any bots created via the Microsoft Teams channel will not be listed in the bot selection dropdown.
 
 ### See also
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>

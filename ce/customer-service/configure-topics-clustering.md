@@ -10,15 +10,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Preview: Configure AI topic clustering for cases
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+# Configure AI topic clustering for cases
 
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related cases and generating a topic. New cases that match this topic will be automatically added to the topic group. This can help you identify areas for improvement that can have the greatest impact on system performance. 
 
@@ -51,6 +43,13 @@ The Summary and Model Run Summary views provide key information about how the to
    > ![Data mapping](media/data-mapping-cs.png "Data mapping configuration")
 
 Data mapping enables you to choose which text field where agents in your organization are most likely to describe the reason why a customer reached out to support. By default, the Case Title attribute is used, but this setting enables you to select and string attribute in the Case entity.
+
+### Automate topics to Power Virtual Agents bots
+
+AI discovered topics in Customer Service Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, then the feature can be enabled by selecting the **Enable** toggle and selecting **Save**.
+
+> [!NOTE]
+> Topic automation to PVA bot is currently not supported in Government Community Cloud.
 
 #### Improve data quality by cleaning support case data
 

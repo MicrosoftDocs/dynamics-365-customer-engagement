@@ -10,15 +10,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Preview: Configure Customer Service historical analytics reports
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+# Configure Customer Service historical analytics reports
 
 You can configure historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
@@ -37,12 +29,12 @@ Make sure that you have administrator permissions for Dynamics 365.
 
 2. In the **Change area**, select **Service Management**.
 
-3. Under **Analytics and Insights**, select **Settings**. The **Analytics and insights settings** page is displayed.
+3. Under **Insights**, select **Settings**. The **insights settings** page is displayed.
 
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
 
-4. On the right side of **Customer Service historical analytics (preview)**, select **Manage**.
+4. On the right side of **Customer Service historical analytics**, select **Manage**.
 
 5. On the **Customer Service historical analytics** page, toggle **Status** to **Enabled**.
 
@@ -51,12 +43,31 @@ Make sure that you have administrator permissions for Dynamics 365.
 
 6. Select **Save** or **Save & Close**.
 
-This configuration will enable AI-discovered topics from cases with default settings.
+This configuration will also enable AI-discovered topics from cases with default settings.
 
 
-### View Customer Service analytics reports
+### Viewing Customer Service analytics reports
 
 The service managers must have the admin or service manager role to view the reports. Users with the CSR Manager role will be able to view the reports only after the reports are shared with them.
+
+### Providing report access to additional security roles
+
+Perform the following steps to enable users with different privileges to access reports beyond the default ones.
+
+1. Navigate to **Settings** and select **Advanced settings**.
+
+ >[!div class="mx-imgBorder"]
+ >![Security roles advanced settings](media/security-roles-advanced-settings.png "Advanced settings for security roles")
+
+2. Select **Security** and then **Security roles**.
+
+3. Select the security role that you want to enable access for. For example, Customer service- Manager.
+
+4. Select the **Custom Entities** tab.
+
+5. Select an entity, for example customer service historical analytics.
+
+6. Select **Save and close**. The customer service manager can now see the customer servive historical analytics report.
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics (preview)** page. By default, the **Summary** page is displayed.
 
