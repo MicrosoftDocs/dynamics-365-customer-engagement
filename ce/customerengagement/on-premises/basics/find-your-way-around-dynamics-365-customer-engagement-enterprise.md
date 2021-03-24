@@ -21,7 +21,7 @@ search.audienceType:
 
 This introduction explains how to find and open an app, and how to work with its common user interface elements.
 
-With version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. For more information, see [tbd: add link to uci topic]().
+With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. For more information, see [Enable Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md#enable-unified-interface-in-dynamics-365-customer-engagement-on-premises).
 
 If you're system administrator hasn't enabled the new interfce then you'll see the the Legecy Web Client. The easiest way to know if you're using Unified Interface or the Legacy Web Client is to look at the site map. 
 
