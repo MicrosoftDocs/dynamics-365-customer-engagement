@@ -132,7 +132,7 @@ The number of records that you see in the record set navigation pane is based on
 2. Open a record and then select **Open Record Set** ![Row set navigation](media/openrecordset_2.png "Row set button") and then select a row from the list. 
 
 
-![Record set navigation](media/openrecordset.png "This shows how to use the record set navigation feature")   
+![Record set navigation](media/onprem-record-set.png "This shows how to use the record set navigation feature")   
 
 
 ## Reference panel
@@ -140,7 +140,7 @@ The number of records that you see in the record set navigation pane is based on
 The reference panel is a great way to get work done without moving away from the screen you're on. You can look up other related items&mdash;such as reviews or reservations for a product&mdash;within the context of the record you're viewing, without having to navigate to other screens.
 
 
-![Reference panel](media/reference-panel1.png "Reference panel")
+![Reference panel](media/ref-panel.png "Reference panel")
 
  Watch this video to learn more about the reference panel:
 
