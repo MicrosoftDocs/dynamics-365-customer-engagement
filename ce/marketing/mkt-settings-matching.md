@@ -34,7 +34,8 @@ You'll probably have just a few matching strategies of each type&nbsp;many organ
 
 In each case, the settings are the same.
 
-![Setting form matching](https://user-images.githubusercontent.com/73484213/109382436-bf27dc00-78e0-11eb-8442-14d1dbdefcaf.jpg "Setting form matching")
+> [!div class="mx-imgBorder"]
+> ![Setting form matching](media/marketing-page-matching2.png)
 
 Describe your strategy by entering a **Name** and **Description**. Set the **Target** field to the type of entity your strategy applies to (lead or contact).
 
