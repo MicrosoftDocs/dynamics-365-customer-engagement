@@ -21,6 +21,10 @@ search.audienceType:
 ---
 # Determine your environment's organization ID and name
 
+If you have enabled Unified Interface, to use the procedures in this article:
+1. Select **Settings** on the navigation bar.
+2. Select **Advanced Settings**.
+
 Follow these steps to determine your organization name and ID.
 
 1. Go to **Settings** > **Customizations** > **Developer Resources**.
