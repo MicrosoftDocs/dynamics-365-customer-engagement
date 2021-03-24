@@ -4,7 +4,7 @@ description: "How to link customer and case to conversation when bot escalates t
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/04/2021
+ms.date: 03/24/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
