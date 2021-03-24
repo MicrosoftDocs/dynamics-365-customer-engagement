@@ -1,10 +1,10 @@
 ---
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "How a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
-author: v-sailab
-ms.author: v-sailab
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 03/04/2021
+ms.date: 03/24/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 This topic describes how to program a bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end a conversation.
 
 > [!NOTE]
-> Bot agents are not supported in consult mode in the current release.
+> Bot agents are not supported in consult mode.
 
 ## Prerequisites
 
@@ -280,7 +280,7 @@ The bot can also send an escalation summary that will be visible to the agent af
 
 You should consider the following points when modeling the bot agent in Omnichannel for Customer Service:
 
-- In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.
+- In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.
 
 - In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.
 
@@ -299,4 +299,4 @@ You understand that your data may be transmitted and shared with external system
 [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)  
 [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]  

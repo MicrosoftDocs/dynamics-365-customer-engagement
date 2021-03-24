@@ -235,7 +235,6 @@
 ##### [Test the custom messaging channel](bring-your-own-channel-sample-html.md)
 
 
-
 ## Advanced settings for chat and channels
 ### [Configure operating hours](create-operating-hours.md)
 ### [Enable file attachments](enable-file-attachments.md)
