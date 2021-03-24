@@ -16,15 +16,13 @@ search.app:
 ---
 # Dynamics 365 Field Service Getting Started
 
-The best way to get started with Dynamics 365 Field Service is to install and use our new landing page integrated into the application that provides Field Service administrators assistance discovering and adopting features thru inline documentation and step by step instructions.
-
-Each release we will highlight new features, so it is easy to continuously transform your business by leveraging the best of Dynamics 365 Field Service today and tomorrow. We strongly encourage you to come back!
+The best way to get started with Dynamics 365 Field Service is to install and use Getting Started, our new landing page, that provides Field Service administrators assistance discovering and adopting features thru inline documentation and step by step instructions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of settings](media/gettingstarted.png) 
+> ![Screenshot of getting started](media/gettingstarted.png) 
 
 ## Spotlight
-At the top of the page, we provide tours and videos of Field Service so it’s easy to learn about the latest features available.
+At the top of the page, we provide Field Service tours and videos.  Each release we will highlight new features, so it is easy to continuously transform your business by leveraging the best of Dynamics 365 Field Service today and tomorrow. We strongly encourage you to come back!
 
 ## Recommended next steps
 Below the spotlight are a set of action cards that help you get started using Field Service.  Inline documentation is provided for those who would like to learn more, but this is not required as we give you quick actions to help guide you step by step.
