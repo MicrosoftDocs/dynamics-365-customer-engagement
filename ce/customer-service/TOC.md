@@ -17,7 +17,7 @@
 
 ## Availability
 ### [International availability of Omnichannel for Customer Service](international-availability.md)
-### [Dynamics 365 US Government cloud (GCC) availability](government-availability.md)
+### [Dynamics 365 US Government Community Cloud (GCC) availability](government-availability.md)
 
 ## Accessibility and privacy
 ### [Accessibility](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
