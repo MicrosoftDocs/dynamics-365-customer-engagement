@@ -3,4 +3,5 @@
 > 1. Select **Settings** (![Gear button](media/selection-rule-gear-button.png "Gear button")) on the navigation bar. 
 > 2. Select **Advanced Settings**.
 >    > [!div class="mx-imgBorder"] 
->    > ![Advanced Settings](media/uci-advanced-settings.png "Advanced Settings")
+>    > ![Advanced Settings](media/uci-advanced-settings-small.png "Advanced Settings")
+> 3. Follow the steps in the procedures.
