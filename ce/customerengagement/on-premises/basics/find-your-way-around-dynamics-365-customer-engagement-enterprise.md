@@ -97,8 +97,8 @@ Usually, when you first open a entity, you'll see the list view, which shows a l
 
 Legend:
 
-1. **Go back**" Select to go back to the previous page.
-2. **Select rows**: Select one or more rows by placing a check mark in this column. Depending on where you're working, you might be able to apply a single operation to all the selected records at once by using buttons in the command bar. Note, when you use the **Email a link** command on the command bar you can only select up to ten records to send via email. 
+1. **Go back**: Select to go back to the previous page.
+2. **Select records**: Select one or more rows by placing a check mark in this column. Depending on where you're working, you might be able to apply a single operation to all the selected records at once by using buttons in the command bar. Note, when you use the **Email a link** command on the command bar you can only select up to ten records to send via email. 
 3. **Open a record**: Select any record in the list to open its record view, which shows all the details about the record. Usually you select from the **Name** field to open a record from the current entity. Some entities provide links to records from related entities in other fields (such as a related contact).
 4. **Sort or filter the list**: Select to sort the list by values in that field or filter the list by values in that field. An arrow in the column heading indicates which column is being sorted and in which direction. 
 5. **Open advanced filtering panel**: See which filters are applied to the current view and add or modify view filters.
@@ -110,7 +110,7 @@ Legend:
 
 Record views show all the details about a single record and sometimes also provide special features for working with it. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
 
-![A typical row view](media/form-view1.png "A typical row view")
+![A typical row view](media/onprem-form-view.png "A typical row view")
 
 Legend:
 
