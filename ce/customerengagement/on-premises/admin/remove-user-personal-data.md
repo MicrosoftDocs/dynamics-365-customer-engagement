@@ -14,10 +14,8 @@ ms.assetid: b7faefff-25e2-44a5-8dd9-49bf1a1677c6
 caps.latest.revision: 19
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Remove user personal data
 

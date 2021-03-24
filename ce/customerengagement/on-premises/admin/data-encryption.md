@@ -14,12 +14,14 @@ ms.assetid: f88f7c87-2ee2-42f3-8101-7271f6731cf9
 caps.latest.revision: 28
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Enhance security by encrypting your data
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
   
