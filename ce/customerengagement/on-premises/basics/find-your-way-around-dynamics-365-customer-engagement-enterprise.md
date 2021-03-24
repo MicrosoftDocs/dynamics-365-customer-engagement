@@ -19,19 +19,19 @@ search.audienceType:
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Basic navigation in a model-driven app](/powerapps/user/navigation)
 
-This introduction explains how to find and open an app, and how to work with its common user interface elements.
 
-With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. For more information, see [Enable Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md#enable-unified-interface-in-dynamics-365-customer-engagement-on-premises).
+With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enable the new Unified Interface which changes the look and feel of your app and how you navigate the app. This article explains how to use an app in both Unified Interface and Legacy Web Client.
 
-If you're system administrator hasn't enabled the new interfce then you'll see the the Legecy Web Client. The easiest way to know if you're using Unified Interface or the Legacy Web Client is to look at the site map. 
+For more information about Unified Interface, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md
+
+If you're system administrator hasn't enabled the new interface then you'll see the Legacy Web Client. The easiest way to know if you're using Unified Interface or the Legacy Web Client is to look at the site map. 
 
 In Unified Interface the site map is on the left.
 
 > [!div class="mx-imgBorder"]
 > ![Unified interface for on-prim](media/uci-onprem-interface.png "Unified interface for on-prem")
 
-
-The site map for the Legacy Web Client is at the top.
+The site map in the Legacy Web Client is at the top.
 
 > [!div class="mx-imgBorder"]
 > ![Web client interface](media/web-client-interface.png "Web client interface")
