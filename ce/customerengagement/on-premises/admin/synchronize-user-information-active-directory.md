@@ -14,12 +14,14 @@ author: jimholtz
 ms.assetid: 137b4aa7-2c90-4584-a2bd-38c812788121
 caps.latest.revision: 23
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Synchronize user information with Active Directory
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Dynamics 365 Customer Engagement (on-premises) supports two methods for authenticating users:  
   

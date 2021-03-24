@@ -14,12 +14,14 @@ author: jimholtz
 ms.assetid: d36a3897-24c4-434e-b255-4e1a1233ba41
 caps.latest.revision: 15
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Delete a business unit
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can delete a business unit to completely remove it from Dynamics 365 Customer Engagement (on-premises).  
   

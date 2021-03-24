@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 ---
 # About Unified Interface in Dynamics 365 Customer Engagement (on-premises) 
 
@@ -21,6 +20,17 @@ Unified Interface uses responsive web design principles to provide an optimal vi
 > - Reference Panel is now available to be used with all entities supported in Unified Interface. 
 > - We now support right-to-left (RTL) languages.
 > - All experiences on Unified Interface have accessibility improvements. 
+
+## Enable Unified Interface in Dynamics 365 Customer Engagement (on-premises) 
+
+1. Go to **Settings** > **Administration** > **System Settings** > **General tab**.
+2. Set the **Use the new Unified Interface only (recommended)** to **Yes.**
+3. Select **OK**.
+
+
+
+
+[Jim, delete or modify the following]
 
 ## Capabilities available in Unified Interface with Customer Engagement (on-premises), version 9.x 
 

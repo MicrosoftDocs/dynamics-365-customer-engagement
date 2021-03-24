@@ -14,12 +14,14 @@ ms.assetid: d5ac01dc-ebc6-455a-9a73-3367ff69eb1a
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Regional and language options for your organization 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Enable languages in your organization to display the user interface and Help in a language that’s different from the base language. 
 

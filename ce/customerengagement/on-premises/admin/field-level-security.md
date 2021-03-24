@@ -14,14 +14,15 @@ ms.assetid: 7b3e2bc3-6197-4afe-953a-62f6694899ed
 caps.latest.revision: 20
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - admin
 
 ---
 # Field level security to control access
 
-*This content also applies to the on-premises version.*
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Record-level permissions are granted at the entity level, but you may have certain fields associated with an entity that contain data that is more sensitive than the other fields. For these situations, you use field level security to control access to specific fields.  
   
