@@ -1,7 +1,7 @@
 ﻿---
 title: "Connect Dynamics 365 (on-premises) to Exchange Server (on-premises) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/28/2016
+ms.date: 11/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,9 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 87e822ff-be12-4429-a130-a76b832eebb4
 caps.latest.revision: 42
-author: "Mattp123"
-ms.author: "matp"
-manager: "kvivek"
+author: "jimholtz"
+ms.author: "jimholtz"
 search.audienceType: 
   - admin
 search.app: 
@@ -144,8 +143,6 @@ Follow these steps to connect Dynamics 365 (on-premises) with Microsoft Exchange
     </tbody>
     </table>
 
-
-
 4.  Click **Save**.
 
 ## Configure default email processing and synchronization
@@ -239,10 +236,10 @@ You need to approve each user mailbox or queue before that mailbox can process e
     
     The result of the email configuration test is displayed in the **Incoming Email Status**, **Outgoing Email Status**, and **Appointments, Contacts, and Tasks Status** fields of a mailbox record. An alert is also generated when the configuration is successfully completed for a mailbox. This alert is shown to the mailbox owner.
     
-    You can find information on recurring issues and other troubleshooting information in [MSDN: Test and Enable Mailboxes in Microsoft Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx) and [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).
+    You can find information on recurring issues and other troubleshooting information in [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).
 
 > [!TIP]
-> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?linkid=391868).
+> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](https://go.microsoft.com/fwlink/p/?linkid=391868).
 
 ## Test email configuration for all mailboxes associated with an email server profile
 
@@ -253,7 +250,7 @@ You need to approve each user mailbox or queue before that mailbox can process e
     When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. Microsoft Dynamics 365 tests the email configuration of all the mailboxes associated with the Exchange Server profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.
 
 > [!TIP]
-> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](http://go.microsoft.com/fwlink/p/?linkid=391868).
+> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](https://go.microsoft.com/fwlink/p/?linkid=391868).
 
 
 
