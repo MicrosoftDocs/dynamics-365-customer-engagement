@@ -6,7 +6,7 @@ author: mduelae
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: mkaur
 manager: kvivek
-ms.date: 05/05/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
@@ -165,7 +165,7 @@ Legend:
 
 If there is only one notification, you'll see a single line. If there are multiple notifications, you'll see chevron button. Select the chevron to view each message.
 
-![Example of multiple notifications](media/multiple_notification_1.png "Example of multiple notifications")
+![Example of multiple notifications](media/multiple_notification.png "Example of multiple notifications")
 
 
 ## Navigation in Legecy Web Client
