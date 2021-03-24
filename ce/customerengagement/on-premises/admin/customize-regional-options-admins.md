@@ -14,12 +14,14 @@ ms.assetid: 37bb6de7-edcb-4c3c-9bf5-54ec3e8b5ebc
 caps.latest.revision: 11
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Customize regional options 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can customize how numbers, currencies, times, and dates appear to everyone in your organization.  
   

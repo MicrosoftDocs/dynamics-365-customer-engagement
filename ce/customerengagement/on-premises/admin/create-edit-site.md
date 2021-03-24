@@ -14,12 +14,14 @@ author: jimholtz
 ms.assetid: 292d8a45-c318-408a-a545-14589d5210d2
 caps.latest.revision: 20
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Create or edit a site to specify location
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can create a new site to add an office location or other facility where service operations take place. You can also edit the details, such as the street address or phone number, for an existing site.  
   

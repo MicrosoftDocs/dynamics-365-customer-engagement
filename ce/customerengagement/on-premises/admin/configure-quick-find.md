@@ -5,12 +5,19 @@ ms.date: 10/17/2019
 ms.reviewer: 
 ms.service: 
 ms.topic: article
+applies_to: 
+  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement  Version 9.x
+ms.assetid: 13aa0eb0-537f-432e-ac26-706ebd511dbd
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 ---
 
 # Configure Quick Find options
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 The Quick Find search feature provides quick results to users who enter simple
 queries to commonly-searched entities. You can tailor the Quick Find

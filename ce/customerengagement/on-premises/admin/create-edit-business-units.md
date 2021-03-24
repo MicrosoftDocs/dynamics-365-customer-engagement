@@ -14,12 +14,14 @@ author: jimholtz
 ms.assetid: 0a7ad0db-887f-4139-b3d1-8f18a84b10d2
 caps.latest.revision: 14
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Create or edit business units to improve security and control
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical grouping of related business activities.  
   

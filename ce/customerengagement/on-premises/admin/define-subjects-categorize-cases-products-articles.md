@@ -12,13 +12,15 @@ applies_to:
 author: anjgup
 ms.assetid: 1f07c7ea-9d85-49e6-a41d-7d49841340dd
 ms.author: shujoshi
-manager: shujoshi
 search.audienceType: 
   - admin
-
 ms.custom: 
 ---
 # Define subjects to categorize cases, products, and articles
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Dynamics 365 Customer Engagement (on-premises) includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, products, and sales literature. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer. You can also provide the appropriate sales literature. You’ll also be able to better understand gaps in your sales literature, evaluate service quality by subject area, and improve reporting on the performance of your products.  
 

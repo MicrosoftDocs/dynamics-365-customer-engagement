@@ -12,7 +12,6 @@ applies_to:
 ms.assetid: a7fef06e-31ad-43d1-b4a6-c234a836b191
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,6 +19,10 @@ caps.latest.revision: 36
 ---
 
 # Set up sales territories to organize business markets by geographical area
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Improve sales potential and revenues by creating territories for customer and market segments in Dynamics 365 Customer Engagement (on-premises). Then assign appropriate sales people to handle the sales and revenue opportunities for those territories.  
   
