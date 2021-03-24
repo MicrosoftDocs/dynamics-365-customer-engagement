@@ -64,7 +64,24 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 <a name="BKMK_newworkorder"></a>   
 ## Create a work order  
-  
+**From the "Get Started" page**
+1. As a Field Service Administrator or System Administator, in the **Field Service** app, go to the **Get Started** page.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/get-started.png)
+
+2. Click **Create** in the "Create your work orders" section.
+
+3. Fill in the basic information regarding the work order.
+
+4. In-line in the form, add as many tasks, products, and services, as needed.
+
+5. Click **Save & Book** if you want to immediately schedule the work order using the Quick Book experience or **Save & Close** to simply save the work order.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/get-started-wo.png)
+
+**From the work order form and record list**
 1. From the main menu, click **Field Service** > **Work orders**.  
   
 2. Click **+New** in the upper-left corner.  
@@ -73,7 +90,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
     - **Summary**  
   
-        - **General**: Fill in the basic information regarding the work order, such as the work order number and the service account it is associated with, a brief summary, and status, which can show whether the work order is unscheduled, scheduled, in progress, or finished.  
+        - **General**: Fill in the basic information regarding the work order, such as the service account it is associated with, a brief summary, and status, which can show whether the work order is unscheduled, scheduled, in progress, or finished.  
   
         - **Primary Incident**: Enter more information regarding the nature of the work to be performed.  
   
@@ -87,7 +104,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 
         - **Preferences**: Enter the resource and time information for the work order.  
   
-        - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.  
+        - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.
   
         - **Related to**: Specify if the work order is related to an originating work order or agreement.  
   
