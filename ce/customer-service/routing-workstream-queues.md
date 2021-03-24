@@ -11,16 +11,17 @@ ms.service: "dynamics-365-customerservice"
 
 # Routing rules for a workstream
 
-A workstream is a container for work items to be enriched, routed, and assigned. A work stream is associated with a channel, such as live chat. Routing rules are written as rulesets which comprises of rule item/items. Routing rules for a work stream comprises of work classification rules and route-to-queue rules.
+A workstream is a container for work items to be enriched, routed, and assigned. A work stream is associated with a channel, such as live chat. Routing rules are written as rulesets, which comprises  rule items. Routing rules for a workstream comprises of work classification rules and route-to-queue rules.
 
 ## Work classification rules
 
-Work classification rules are rules to update work item attributes. Typically, rules are written in the format of “if/then” – i.e. if defined condition satisfies, then set the output attributes to certain values, but can also be generated through Machine Learning models. They are optional and can be used to add additional information to the incoming work items which are then further used for more precise routing and assignment.
-Work classification rules can be written using manual declarative decision list way or using ML models.
+Work classification rules are rules to update work item attributes. Typically, rules are written in the format of if defined condition satisfies, then set the output attributes to certain values, but can also be generated through machine learning models. They are optional and can be used to add additional information to the incoming work items which are then further used for more precise routing and assignment.
 
-### Manual
+Work classification rules can be written using manual declarative decision list way or using machine learning models.
 
-Rules to update work item attributes. They are written in the format of if defined condition satisfies then set the output attributes to certain values. Create conditions to define rules based on multiple entity attributes. To create manual work classification rulesets, see [Manual work classification rulesets](configure-work-classification.md#manual-work-classification-ruleset)
+### Manual classification rules
+
+Manual classification rules are run to update work item attributes. They are written in the format of if defined condition satisfies then set the output attributes to certain values. You can create conditions to define rules based on multiple entity attributes. To create manual work classification rulesets, see [Manual work classification rulesets](configure-work-classification.md#manual-work-classification-ruleset).
 
 #### Skill attachment rules
 

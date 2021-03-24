@@ -1,5 +1,5 @@
 ---
-title: "Understand and create workstreams | MicrosoftDocs"
+title: "Create workstreams | MicrosoftDocs"
 description: "Understand and create workstreams in Customer Service"
 author: neeranelli
 ms.author: nenellim
@@ -11,16 +11,26 @@ ms.service: "dynamics-365-customerservice"
 
 # Create workstreams in Omnichannel admin center
 
-A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in Omnichanne admin center and Customer Service Hub.
+## Overview
+
+A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
+
+The workstream can be of one of the following types:
+
+**Messaging:** To route conversations from live chat, SMS, social, and Teams channels
+**Record:** To route entity records
+
 
 > [!IMPORTANT]
 > To configure workstream for record routing, entity routing must be enabled in the service configuration settings in Customer Service Hub.
 
+## Create the workstream
+
 Perform the following steps to configure the workstream in Omnichannel admin center:
 
 1. In Omnichannel admin center, go to the home page.
-2. On the site map, select **Workstreams**, select **New**, and then select **Create a workstream**.
-3. Enter the following details for the workstream:
+2. On the site map, select **Workstreams** under **General settings**, and then select **New**.
+3. In the **Create a workstream** dialog box, enter the following details:
     - **Name:** Enter an intuitive name, such as **Contoso chat workstream**.
     - **Work distribution mode:** Select **Push** or **Pick**.
     - **Type:** Select one of the following types:
@@ -55,6 +65,8 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
 9. Expand **Advanced settings** to configure the following options:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - Context variables
+   - [Context variables]
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
+
+

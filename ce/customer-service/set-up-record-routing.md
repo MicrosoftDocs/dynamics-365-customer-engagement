@@ -39,7 +39,10 @@ Perform the following steps to configure record routing:
 
 ### Create workstreams for record routing
 
-To configure a workstream for the entity record, perform the steps in [Create workstreams in Omnichannel admin center](create-workstreams.md).
+To configure a workstream for the entity record, do the following steps:
+
+1.
+perform the steps in [Create workstreams in Omnichannel admin center](create-workstreams.md).
 
 ### Configure intake rules
 
