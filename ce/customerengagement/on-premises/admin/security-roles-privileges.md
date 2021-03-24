@@ -15,12 +15,15 @@ ms.assetid: 460766f2-4b19-4406-8fd0-fff46d4cbb5e
 caps.latest.revision: 21
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
 
 ---
 # Security roles and privileges
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 To control data access, you must set up an organizational structure that both protects sensitive data and enables collaboration. You do this by setting up business units, security roles, and field security profiles.  
 

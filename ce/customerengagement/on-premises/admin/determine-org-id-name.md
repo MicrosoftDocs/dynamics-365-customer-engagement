@@ -14,7 +14,6 @@ ms.assetid: 8e75866c-0a42-4aca-be45-c59eb2ddfd08
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
 ---
@@ -22,7 +21,6 @@ search.audienceType:
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
-
 ::: moniker-end
 
 Follow these steps to determine your organization name and ID.

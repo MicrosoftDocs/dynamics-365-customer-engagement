@@ -14,12 +14,15 @@ ms.assetid: c15c1d80-6ad0-4eea-b89b-82cbf3d429b4
 caps.latest.revision: 22
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 
 ---
 # Assign security roles to a form to more finely control access
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Control form and field access by assigning different security roles to different forms you create.  
   

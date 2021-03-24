@@ -14,12 +14,15 @@ ms.assetid: b363c499-2b87-4227-93a8-6282c5bfc855
 caps.latest.revision: 25
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 
 ---
 # Save time creating a security role by copying one
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 If you want to create a security role that is similar to another security role, you can copy an existing security role and save it with a new name. You can then modify the privileges and access levels to accommodate the new security role.  
   
