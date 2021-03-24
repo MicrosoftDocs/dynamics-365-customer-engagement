@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/open-advanced-settings.md",
+      "redirect_url": "open-settings",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/developer/customer-voice-populate-name.md",
       "redirect_url": "export-customer-voice",
       "redirect_document_id": "false"
