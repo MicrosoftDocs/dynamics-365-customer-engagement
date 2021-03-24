@@ -27,6 +27,11 @@ If you have enabled [Unified Interface only mode](about-unified-interface.md#ena
    > [!div class="mx-imgBorder"] 
    > ![Advanced Settings](media/uci-advanced-settings.png "Advanced Settings")
 
+
+[!INCLUDE[use_advanced_settings](../../../includes/use-advanced-settings.md)]
+
+
+
 Follow these steps to determine your organization name and ID.
 
 1. Go to **Settings** > **Customizations** > **Developer Resources**.
