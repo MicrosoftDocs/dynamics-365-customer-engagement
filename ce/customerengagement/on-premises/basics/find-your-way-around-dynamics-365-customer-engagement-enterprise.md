@@ -8,6 +8,7 @@ ms.author: mkaur
 manager: kvivek
 ms.date: 03/24/2021
 ms.topic: article
+ms.service: crm-online
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
   - enduser
@@ -127,10 +128,10 @@ Navigate through multiple records by using preset views and queries. The record-
 The number of records that you see in the record set navigation pane is based on the number of records that your system administrator has defined for the subgrid.
 
 1. To use record set navigation, open a page with a list of records.
-2. Open a record and then select **Open Record Set** ![Record set navigation](media/openrecordset_2.png "Record set button") and then select a record from the list. 
+2. Open a record and then select **Open Record Set** ![Record set navigation button](media/openrecordset_2.png "Record set button button") and then select a record from the list. 
 
 
-![Record set navigation](media/onprem-record-set.png "This shows how to use the record set navigation feature")   
+![Select to open record set navigation](media/onprem-record-set.png "Select to open record")   
 
 
 ### Reference panel
@@ -172,8 +173,8 @@ If there is only one notification, you'll see a single line. If there are multip
 
 With Unified Interface for Customer Engagement (on-premises), navigation in app works the same as model-driven apps. Review the articles below to learn about basic navigation for a specific app.
 
-- [Find your way around the Sales Hub app](../sales-enterprise/user-guide-learn-basics.md)
-- [Find your way around the Customer Service Hub app](../customer-service/customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
+- [Find your way around the Sales Hub app](/dynamics365/sales-enterprise/user-guide-learn-basics.md)
+- [Find your way around the Customer Service Hub app](/dynamics365/customer-service/customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
 
 
 ## Navigation in Legecy Web Client
