@@ -23,8 +23,6 @@ search.audienceType:
 
 ::: moniker range=">= op-9-1"
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use model-driven apps in Power Apps](/powerapps/user/use-model-driven-apps)
-
 
 Business apps are available to users based on their security roles. If your system administrator has created any new apps, they will be visible to you if your security role has been given access to those apps. When you use an app, you'll see only those entities in the site map and other places in the app that your system administrator has added while designing the app. 
 
