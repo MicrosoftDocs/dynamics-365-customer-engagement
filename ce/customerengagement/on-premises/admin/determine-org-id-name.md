@@ -25,8 +25,6 @@ search.audienceType:
 
 ::: moniker-end
 
-::: moniker range="op-9-0"
-
 Follow these steps to determine your organization name and ID.
 
 1. Go to **Settings** > **Customizations** > **Developer Resources**.
@@ -34,7 +32,5 @@ Follow these steps to determine your organization name and ID.
 
 > [!div class="mx-imgBorder"] 
 > ![Determine org ID and name](media/org-id-name.png "Determine org ID and name")
-
-::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
