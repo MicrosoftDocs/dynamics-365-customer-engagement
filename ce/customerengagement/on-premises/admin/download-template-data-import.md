@@ -14,12 +14,14 @@ ms.assetid: 8a8f0648-22fd-434b-9b1a-1ded448dacb0
 caps.latest.revision: 30
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Download a template for data import
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Whether your data is stored in spreadsheets, databases, or other systems, you'll want to import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place. You use templates for importing many types of records, such as accounts, leads or cases. There is a complete list in the Templates for Data Import wizard.  
   
