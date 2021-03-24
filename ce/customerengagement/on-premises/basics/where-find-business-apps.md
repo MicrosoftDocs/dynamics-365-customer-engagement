@@ -35,7 +35,7 @@ The Apps page shows all published apps based on your organization's licensing op
 
 If you are a system administrator, a customizer, or a user with equivalent privileges, you'll see published apps and apps that are in draft state.  
 
-With version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. Unified Interface provides a consistent and accessible user experience across devices—whether on a desktop, laptop, tablet, or phone. The apps scale by reflowing the components on the screen. The responsive design adapts to your environment based on screen size, so the more available space that you have, the more information can be displayed.
+With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. For more information, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface).
 
 The easiest way to tell whether you're on Unified Interface or the Legacy Web Client is to look at the site map. In Unified Interface the site map is on the left.
 
