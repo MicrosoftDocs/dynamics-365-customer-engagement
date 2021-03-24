@@ -28,9 +28,7 @@ If you have enabled [Unified Interface only mode](about-unified-interface.md#ena
    > ![Advanced Settings](media/uci-advanced-settings.png "Advanced Settings")
 
 
-[!INCLUDE[use_advanced_settings](../../../includes/use-advanced-settings.md)]
-
-
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 
 Follow these steps to determine your organization name and ID.
 
