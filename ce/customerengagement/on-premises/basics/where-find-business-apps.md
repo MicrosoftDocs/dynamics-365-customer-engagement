@@ -1,7 +1,8 @@
 ---
 title: "Where to find your business apps (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/05/2020
+description: How to find your app in Dynamics 365 Customer Engagement (on-premises).
+ms.date: 03/24/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,7 +11,6 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics 365 Customer Engagement (on-premises) (on-premises)
-author: shubhadaj
 ms.assetid: 03968b0d-5505-45d0-90ff-4bacefbf3559
 caps.latest.revision: 15
 author: mduelae
@@ -35,7 +35,7 @@ The Apps page shows all published apps based on your organization's licensing op
 
 If you are a system administrator, a customizer, or a user with equivalent privileges, you'll see published apps and apps that are in draft state.  
 
-With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. For more information, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface).
+With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. For more information, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md).
 
 The easiest way to tell whether you're on Unified Interface or the Legacy Web Client is to look at the site map. In Unified Interface the site map is on the left.
 
