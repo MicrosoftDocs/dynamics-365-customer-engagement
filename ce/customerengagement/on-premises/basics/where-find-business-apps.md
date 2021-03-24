@@ -49,7 +49,7 @@ The site map for the Legacy Web Client is at the top.
 > ![Web client interface](media/web-client-interface.png "Web client interface")
 
 
-## Find apps in Unifited Interface
+## Find apps in Unified Interface
 
 Use the app-selector menu to switch between apps.
 
