@@ -29,7 +29,7 @@
 #### [Use business units with Marketing](business-units.md)
 
 ### Administration settings
-#### [Open the administration settings](open-advanced-settings.md)
+#### [Open the administration settings](open-settings.md)
 #### [Organization settings](organization-settings.md)
 ##### [Manage users](manage-users.md)
 ##### [Manage teams](manage-teams.md)

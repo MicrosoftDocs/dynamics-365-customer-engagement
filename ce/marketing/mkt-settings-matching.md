@@ -48,7 +48,7 @@ Use the buttons in the toolbar for the **Attributes** section to add, edit, and 
 
 ### See also
 
-[Open the settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [Configure landing pages](mkt-settings-landing-pages.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)
 
