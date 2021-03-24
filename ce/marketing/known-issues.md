@@ -78,6 +78,8 @@ This document provides important, late-breaking information about known issues a
 - Column padding does not always function correctly in new page templates. <!--- 1962146 -->
 - Dotted column border styles do not render properly for one column layouts in the email designer. <!--- 1942448 -->
 - Subscription lists are managed at the *contact* level. If multiple contacts share the same email address, only the specific contact who opted out will stop receiving communications. Other contacts using the same email address will continue to receive communications. If you require opt-outs to be processed at the email level, you will need to create custom processes. More information: [Manage subscriptions at an email level](set-up-subscription-center.md#manage-subscriptions-at-an-email-level).
+- As of March 2021, A/B testing is not yet available in the new email designer.
+- If you have any email editor customizations, your administrator will need to manually recreate them in the new email designer.
 
 ## Marketing pages and forms
 
