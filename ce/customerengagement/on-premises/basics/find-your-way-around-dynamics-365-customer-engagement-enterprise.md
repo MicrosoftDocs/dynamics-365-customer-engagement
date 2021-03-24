@@ -65,7 +65,7 @@ Use the app-selector menu to switch between apps.
    > ![Select an app to use](media/access-site-map-1.png "Select an app to use")
 
 
-### Move between pages and rows
+### Move between pages and records
 
 It's easy to get around and get back to your favorite or most-used items. The following illustration shows the primary navigation elements.
 
@@ -91,14 +91,14 @@ To go back to the previous page, select the **Go back** button.
 
 ## Working with list views
 
-Usually, when you first open a entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Products** table, you'll see a list of accounts.
+Usually, when you first open a entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Products** entity, you'll see a list of accounts.
 
 ![A typical list view](media/onprem-list-view.png "A typical list view")
 
 Legend:
 
 1. **Go back**: Select to go back to the previous page.
-2. **Select records**: Select one or more rows by placing a check mark in this column. Depending on where you're working, you might be able to apply a single operation to all the selected records at once by using buttons in the command bar. Note, when you use the **Email a link** command on the command bar you can only select up to ten records to send via email. 
+2. **Select records**: Select one or more records by placing a check mark in this column. Depending on where you're working, you might be able to apply a single operation to all the selected records at once by using buttons in the command bar. Note, when you use the **Email a link** command on the command bar you can only select up to ten records to send via email. 
 3. **Open a record**: Select any record in the list to open its record view, which shows all the details about the record. Usually you select from the **Name** field to open a record from the current entity. Some entities provide links to records from related entities in other fields (such as a related contact).
 4. **Sort or filter the list**: Select to sort the list by values in that field or filter the list by values in that field. An arrow in the column heading indicates which column is being sorted and in which direction. 
 5. **Open advanced filtering panel**: See which filters are applied to the current view and add or modify view filters.
@@ -110,14 +110,14 @@ Legend:
 
 Record views show all the details about a single record and sometimes also provide special features for working with it. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
 
-![A typical row view](media/onprem-form-view.png "A typical row view")
+![A typical record view](media/onprem-form-view.png "A typical record view")
 
 Legend:
 
 
 1. **Tabs**: Most record views are divided into tabs. Each tab provides a collection of related fields from the record. When tabs are available, they're listed below the record name. Select any tab name to go to that tab. The current tab is shown underlined.
 2. **Related**: Nearly all types of records show a **Related** tab after you've saved them at least once. This tab is actually a drop-down list that you can use to find other types of records that use or reference the displayed record. 
-When you choose a table name from the **Related** drop-down list, a new tab named for that table opens, showing a list of all related rows of that type. The **Related** tab remains available, and you can still use it to find other types of rows that reference the current one.
+When you choose a entity name from the **Related** drop-down list, a new tab named for that entity opens, showing a list of all related records of that type. The **Related** tab remains available, and you can still use it to find other types of records that reference the current one.
 3. **Command bar**: Use the commands in the command bar to operate on the current record or perform a task related to the record. The available commands vary based on the record type, but you can typically use the command bar to save your changes, delete the record, refresh the page, email a link to the record, reassign the record owner, or export the record by using a Word template.
 4. **Heading bar**: Some record views display a few especially important fields in the heading bar, opposite the record name. These are typically fields that are fundamental to working with records of the current type (such as a record name or record owner).
 5. **View and edit all field values**: In the main body of the record view, you'll find all of the fields related to the current tab, form view, and record type. Fields marked with a red asterisk are required, and you can't save the record without their having valid values. Fields marked with a blue plus sign are especially important or recommended, but aren't strictly required. Fields showing a lock icon are read-only and can't be edited.
@@ -128,8 +128,8 @@ Navigate through multiple records by using preset views and queries. The record-
 
 The number of records that you see in the record set navigation pane is based on the number of records that your system administrator has defined for the subgrid.
 
-1. To use record set navigation, open a page with a list of rows.
-2. Open a record and then select **Open Record Set** ![Row set navigation](media/openrecordset_2.png "Row set button") and then select a row from the list. 
+1. To use record set navigation, open a page with a list of records.
+2. Open a record and then select **Open Record Set** ![Record set navigation](media/openrecordset_2.png "Record set button") and then select a record from the list. 
 
 
 ![Record set navigation](media/onprem-record-set.png "This shows how to use the record set navigation feature")   
