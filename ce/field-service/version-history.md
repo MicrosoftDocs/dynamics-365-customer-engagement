@@ -44,12 +44,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Great Britain</i> |[8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/09/2021
 | | <i>Oceana</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/09/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463)| [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | 03/12/2021
+| | <i>Europe</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/16/2021
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/23/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | 03/19/2021
-| | <i>China</i> |  [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | 03/19/2021
+| | <i>Government Community Cloud</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/30/2021
+| | <i>China</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/30/2021
 | | <i>Dedicated Scale Groups</i> | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | 03/26/2021
 
 >[!Note]

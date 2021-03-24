@@ -5,8 +5,8 @@ ms.date: 01/08/2021
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -37,7 +37,7 @@ The **Add products** dialog box uses the following views that define the columns
 | Opportunity product    | Opportunity products Add products   |
 | Quote product          | Quote products Add products         |
 | Order product          | Order products Add products         |
-| Invoice product        | Opportunity products Add products   |
+| Invoice product        | Invoice products Add products   |
 |                        |                   |
 
 By default, the following columns are added to the view:

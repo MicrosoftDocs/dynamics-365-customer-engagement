@@ -21,7 +21,11 @@ search.app:
 # Resource scheduling optimization version history
 
 ## 3.2.3.3
--	Fixed bug: a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked if resource scheduling optimization has something to change. If there is nothing to change, the record should not be created. 
+-	Fixed bug: a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked bookings if resource scheduling optimization has something to change. If there is nothing to change, the record should not be created. 
+
+>[!Note]
+> Virtually locked bookings are bookings created outside of the optimization scope.
+
 -	Fixed bug: reset would cause error: “Value cannot be null.” When a reset does happen, the confusing error is no longer provided. Instead, it errors by either defaulting the effort level or raising a ```RSODataNotFound``` exception.  
 -	Fixed bug: reset all in resource scheduling optimization **Schedules** tab was not properly deleting data within database.  
 -	Fixed bug with "System.OutOfMemoryException: Array dimensions exceeded supported range.” This scenario would occur when a trying to optimize a large number of resource requirements (~50k). 

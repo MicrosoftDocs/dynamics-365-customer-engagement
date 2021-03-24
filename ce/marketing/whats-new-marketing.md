@@ -27,6 +27,73 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
+## March 2021 update
+
+The Dynamics 365 Marketing March 2021 early access release includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever. The March GA release includes improved email column rendering, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10070.1097 | 1.35.10070.2097 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Early access features
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2021 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2021 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+
+- **Create emails quickly with low effort and without compromises**
+    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises)
+    - [Docs](email-design.md)
+
+### Monthly enhancements
+
+- **Marketing emails**
+    - Improved column rendering when **Table layout for section** is enabled in the email designer.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Resolved a Norwegian localization issue.
+    - Fixed an error that caused duplicate email links to not filter when the version property was non-null.
+    - Resolved an error that caused marketing email insights to not be able to filter by inactive customer journeys.
+    - Fixed an error that caused the segment state to not update when PULL was turned off.
+- **Data services**
+    - Fixed an error that caused marketing analytics exports to occasionally fail.
+- **Event management**
+    - Resolved an issue that caused speaker links to not redirect to the selected speaker.
+    - Fixed a javascript error related to multi-choice custom registration fields.
+- **Marketing emails**
+    - Improved rendering consistency in form-level double opt-in emails.
+    - Fixed an issue that caused live emails to sometimes open with unsaved changes and not autosave.
+    - Fixed an error that caused lines added in a text element to not render in Outlook.
+    - Improved button rendering under bullet lists.
+    - Improved button rendering on top of background images in Outlook desktop.
+    - Improved divider code rendering.
+    - Fixed an error where empty content blocks in HTML prevented email saving.
+    - Fixed a rendering issue that caused section borders to double in Outlook.
+    - Resolved an error that caused backgrounds to be added to text elements in Outlook web.
+    - Fixed an issue that prevented preview text from updating when an email was sent using the **Send now** function.
+- **Marketing pages**
+    - Improved form double opt-in email validation functionality.
+    - Resolved an issue that occasionally caused customized default marketing pages to roll back during solution upgrade.
+    - Improved javascript functionality when client side marketing forms are loaded.
+    - Fixed an error that prevented adding contacts to a subscription list by re-submitting.
+    - Fixed an error that sometimes prevented videos from loading on marketing pages.
+    - Improved cookie reliability for tracking website visits and clicks.
+    - Resolved an error that caused a black box to appear in place of video tiles on live pages in the marketing page designer.
+- **Segmentation**
+    - Resolved an issue that prevented active registrants from being added to segments in customer journeys.
+- **Shared UX**
+    - Improved user role functionality to prevent modify actions from appearing for users without proper privileges.
+
 ## February 2021 update
 
 Dynamics 365 Marketing 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
