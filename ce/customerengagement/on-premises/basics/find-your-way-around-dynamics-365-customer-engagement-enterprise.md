@@ -132,7 +132,7 @@ The number of records that you see in the record set navigation pane is based on
 2. Open a record and then select **Open Record Set** ![Row set navigation](media/openrecordset_2.png "Row set button") and then select a row from the list. 
 
 
-![Record set navigation](media/recordsetnav_new.gif "This shows how to use the record set navigation feature")   
+![Record set navigation](media/openrecordset.png "This shows how to use the record set navigation feature")   
 
 
 ## Reference panel
