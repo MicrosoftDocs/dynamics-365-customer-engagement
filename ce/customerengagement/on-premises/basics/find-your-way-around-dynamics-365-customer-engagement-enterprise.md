@@ -79,7 +79,7 @@ Legend
 5.  **Page navigation**: This area lists each entity and dashboard page available for the current work area. Select any entry here to open the named dashboard or list view for that entity.
 
 
-## Go back 
+### Go back 
 
 Use the back button for form, view, and dashboard pages on the command bar to go back to the previous page.
 
@@ -87,7 +87,7 @@ To go back to the previous page, select the **Go back** button.
 
 ![Go back to the previous page](media/go_back_button.png "Go back to the previous page") 
 
-## Working with list views
+### Working with list views
 
 Usually, when you first open a entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Products** entity, you'll see a list of accounts.
 
@@ -104,7 +104,7 @@ Legend:
 7. **Search this view**: Enter text in the search field to show only those records in the current view that contain your text.
 8. **Jump bar and paging**: Select a letter to show only those records whose names start with that letter. If the list contains more records than can be shown on one page, use the paging arrows at the bottom of the list to move forward and backward through the pages.
 
-## Working with record views
+### Working with record views
 
 Record views show all the details about a single record and sometimes also provide special features for working with it. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
 
@@ -120,7 +120,7 @@ When you choose a entity name from the **Related** drop-down list, a new tab nam
 4. **Heading bar**: Some record views display a few especially important fields in the heading bar, opposite the record name. These are typically fields that are fundamental to working with records of the current type (such as a record name or record owner).
 5. **View and edit all field values**: In the main body of the record view, you'll find all of the fields related to the current tab, form view, and record type. Fields marked with a red asterisk are required, and you can't save the record without their having valid values. Fields marked with a blue plus sign are especially important or recommended, but aren't strictly required. Fields showing a lock icon are read-only and can't be edited.
 
-## Record set navigation 
+### Record set navigation 
 
 Navigate through multiple records by using preset views and queries. The record-focused navigation improves productivity by allowing users to jump from record to record in the list and easily navigate back without losing their working list.
 
@@ -133,7 +133,7 @@ The number of records that you see in the record set navigation pane is based on
 ![Record set navigation](media/onprem-record-set.png "This shows how to use the record set navigation feature")   
 
 
-## Reference panel
+### Reference panel
 
 The reference panel is a great way to get work done without moving away from the screen you're on. You can look up other related items&mdash;such as reviews or reservations for a product&mdash;within the context of the record you're viewing, without having to navigate to other screens.
 
@@ -145,7 +145,7 @@ The reference panel is a great way to get work done without moving away from the
 <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/ruAPEKY5vNc" frameborder="0" allowfullscreen=""></iframe></div>
 
 
-## App message bar 
+### App message bar 
 
 The app message bar shows three types of notifications: informational, warning, and error. 
 
@@ -161,11 +161,19 @@ Legend:
 3. **Error notifications** ![Error notifications](media/error_icon.png "Error notification icon"): The notification is an error. 
 
 
-### Multiple notification
+#### Multiple notification
 
 If there is only one notification, you'll see a single line. If there are multiple notifications, you'll see chevron button. Select the chevron to view each message.
 
 ![Example of multiple notifications](media/multiple_notification.png "Example of multiple notifications")
+
+
+### Unified Interface navigation for specific apps
+
+With Unified Interface for Customer Engagement (on-premises), navigation in app works the same as model-driven apps. Review the articles below to learn about basic navigation for a specific app.
+
+- [Find your way around the Sales Hub app](../sales-enterprise/user-guide-learn-basics.md)
+- [Find your way around the Customer Service Hub app](../customer-service/customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
 
 
 ## Navigation in Legecy Web Client
