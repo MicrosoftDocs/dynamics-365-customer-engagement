@@ -67,7 +67,7 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 ### See also
 
-[Open the settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Set form matching](mkt-settings-matching.md)  
 [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)  
