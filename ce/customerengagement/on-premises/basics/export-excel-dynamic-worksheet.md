@@ -91,8 +91,6 @@ You can't export data to a dynamic worksheet in [!INCLUDE[pn_Excel_short](../inc
 ::: moniker-end
 
 
-::: moniker-end
-
 ::: moniker range="< op-9-1"
 
 
