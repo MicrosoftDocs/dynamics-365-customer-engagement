@@ -14,10 +14,6 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Mktg
-ms.custom:
-  - first item
-  - "you do not have to say anything, but it may harm your defense if you do not mention, when questioned, something which you later rely on in court"
-  - third item
 ---
 
 # Account-based marketing
