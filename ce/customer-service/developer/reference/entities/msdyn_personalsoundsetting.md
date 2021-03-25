@@ -798,9 +798,9 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### See also
 
-[About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
-[Programming reference for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
-[Web API reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
+[About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement (on-premises)](../../../../customerengagement/on-premises/developer/programming-reference.md)<br />
+[Web API reference](/dynamics365/customer-engagement/web-api/about)<br />
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

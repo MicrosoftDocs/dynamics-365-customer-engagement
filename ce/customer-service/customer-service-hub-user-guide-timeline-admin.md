@@ -101,7 +101,7 @@ The following overview provides a detailed breakdown of each timeline feature, w
   -	[Notes](#notes)
   -	[Posts](#posts)
 
-- **[How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
+- **[How to create and add custom activities](/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline)**
 
 ## Display options 
 
@@ -396,8 +396,8 @@ Some dates can only exist on specific types of activities. For example, **Date s
 ![How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1a.png "How to set create activities form type in timeline")
 
 1. The **Create activities** feature allows you to choose which type of form you want to work in based on your business needs.  
-2. **Quick create form** appears in a model on the right. There are some activities that don't support quick create that will always use email, for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
-<BR>**Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms).  
+2. **Quick create form** appears in a model on the right. There are some activities that don't support quick create that will always use email, for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
+<BR>**Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](/powerapps/maker/model-driven-apps/create-edit-main-forms).  
 
 > [!NOTE]
 > If a **quick create** form for an activity has not been created, then the main form will be used. If **quick create** form is not supported, such as with email, the **main form** will always be used. 
@@ -406,7 +406,7 @@ Some dates can only exist on specific types of activities. For example, **Date s
 
 The activity rollup type can be configured for timelines on forms for the **Account, Contact and Opportunity** entity. The available types of rollups are **Extended**, **Related**, and **None**. Activity rollup only affects accounts and contacts in CRM applications. To only show activities that are directly related to the entity in timeline, select **None**.
 
-More information is on rollup types is available from [RollupType EnumType](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/rolluptype).
+More information is on rollup types is available from [RollupType EnumType](/dynamics365/customer-engagement/web-api/rolluptype).
 
 ![Activity rollup type](media\activity-rollup-type.png "Activity rollup type")
 
