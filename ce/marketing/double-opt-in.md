@@ -31,6 +31,9 @@ The global double opt-in process works as follows:
 4. The contact opens the confirmation email, reads the text, and clicks the link. This opens a web browser, which submits a coded URL that identifies the contact and request message to Dynamics 365 Marketing.
 5. Dynamics 365 Marketing registers the click, applies the requested subscription or consent change, logs the change, and immediately redirects to a thank-you page that is shown to the contact.
 
+> [!IMPORTANT]
+> The link in confirmation email remains valid for 30 days. After that period, end user will not be able to confirm his opt-in. 
+
 Double opt-in is a good idea in all countries/regions, and in many countries/regions (especially in Europe), it's required by law.
 
 Read this topic to learn how to set up each element required for the global double opt-in system and how to enable global double opt-in for your instance.
