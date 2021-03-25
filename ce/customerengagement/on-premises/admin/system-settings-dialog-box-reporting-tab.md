@@ -14,12 +14,14 @@ ms.assetid: 79a9aa1f-6e5d-4b68-86f7-230b4f68fa60
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Reporting tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the settings on this page to configure reporting settings for Dynamics 365 Customer Engagement (on-premises).  
 

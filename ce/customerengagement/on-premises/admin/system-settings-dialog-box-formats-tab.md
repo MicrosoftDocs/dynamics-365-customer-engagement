@@ -14,12 +14,14 @@ ms.assetid: a9ac1c00-c7d8-4390-86b1-932f98632cf7
 caps.latest.revision: 10
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Formats tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can control how Dynamics 365 Customer Engagement (on-premises) displays numbers, currencies, times, and dates for your organization.  
   

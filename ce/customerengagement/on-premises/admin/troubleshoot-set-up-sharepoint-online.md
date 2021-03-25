@@ -13,12 +13,14 @@ ms.assetid: 28ba29c2-a661-4d6e-b72a-47c69a94de98
 caps.latest.revision: 7
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Troubleshoot SharePoint integration
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This topic explains how to fix common issues that may occur with SharePoint document management.
 
