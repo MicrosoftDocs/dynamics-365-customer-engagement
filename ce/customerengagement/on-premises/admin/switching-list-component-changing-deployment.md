@@ -14,12 +14,14 @@ ms.assetid: f002a65b-59c8-451e-b82a-aef154109668
 caps.latest.revision: 9
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Switching from the list component or changing the SharePoint deployment
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This topic provides an overview about how to switch from the list component to server-based authentication. This topic can also help if you change the [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] deployment type, such as moving from [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  
   

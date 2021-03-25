@@ -14,12 +14,14 @@ ms.assetid: 17128669-8d3d-45fb-9a54-4b1dbf56ed4b
 caps.latest.revision: 14
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Set incoming and outgoing email synchronization 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You have several options for synchronizing email messages with Dynamics 365 Customer Engagement (on-premises). Use the following information to deploy the best option for your company.  
   

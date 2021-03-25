@@ -14,12 +14,14 @@ ms.assetid: 97b968aa-18d0-4ada-8c80-0975d61f844a
 caps.latest.revision: 21
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Auditing tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Enable auditing to track changes to your organization’s data and maintain a log of changes.  
   

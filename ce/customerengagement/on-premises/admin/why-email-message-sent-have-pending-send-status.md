@@ -16,9 +16,12 @@ author: jimholtz
 ms.author: jimholtz
 search.audienceType: 
   - admin
-
 ---
 # Why does the email message I sent have a "Pending Send" status?
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 If you create an email message in Dynamics 365 Customer Engagement (on-premises) and click the **Send** button, the message will not be sent unless email integration has been correctly configured and enabled for sending email from Customer Engagement (on-premises).  If the status of the email appears as "Pending Send" and is not sent, contact your Customer Engagement (on-premises) administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your administrator or support person](../basics/find-administrator-support.md)  
   

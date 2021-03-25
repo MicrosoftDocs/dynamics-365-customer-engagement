@@ -14,12 +14,14 @@ ms.assetid: 7ffc3f15-6624-4718-ab77-5bcb5360943a
 caps.latest.revision: 63
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Email tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the settings on this page to set up email processing in Dynamics 365 Customer Engagement (on-premises).  
   

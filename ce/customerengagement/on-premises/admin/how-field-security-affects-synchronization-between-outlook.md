@@ -14,12 +14,14 @@ ms.assetid: how-field-security-affects-synchronization-between-outlook
 caps.latest.revision: 8
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # How field security affects synchronization with Outlook
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps with field level security can impact synchronization between Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. Consider the following scenario.  
   

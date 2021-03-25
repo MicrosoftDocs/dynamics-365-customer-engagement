@@ -15,12 +15,14 @@ ms.assetid: 4b5e4f18-cb04-4c4a-bb22-2c3505868e90
 caps.latest.revision: 42
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Troubleshooting and monitoring server-side synchronization 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This page is your source for issues and resolutions for troubleshooting server-side synchronization. Check back for updated information as issues are discovered and resolutions recorded.  
   

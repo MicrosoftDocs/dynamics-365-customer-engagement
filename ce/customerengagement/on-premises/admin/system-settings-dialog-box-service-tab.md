@@ -17,9 +17,12 @@ ms.author: shujoshi
 manager: shujoshi
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Service tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the Service tab in System Settings to set preferences for the customer service area, such as service level agreements and entitlements in Dynamics 365 Customer Engagement (on-premises).  
   

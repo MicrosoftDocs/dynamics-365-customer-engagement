@@ -11,10 +11,13 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 
 # Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This topic describes how to configure server-based integration between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint On-Premises.
 
