@@ -121,7 +121,7 @@ Inspection responses can also be exported as a PDF from the work order service t
 
 - The export responses to PDF feature does not support custom date or number formats set using the personalization settings.  Date or number will show in the default format.
 - The export inspection to PDF feature does not support right-to-left languages like Hebrew and Arabic.
-- Export inspection to PDF and export responses to PDF features do not support Asian languages like Hindi and Chinese (available April 2021).
+- Export inspection to PDF and export responses to PDF features do not support Asian languages like Hindi and Chinese.
 
 ## Import and export inspection templates
 
