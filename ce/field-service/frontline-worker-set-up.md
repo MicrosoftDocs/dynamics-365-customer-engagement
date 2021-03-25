@@ -111,12 +111,15 @@ After setting up one or more frontline workers, admins can then:
 
 > ![Screenshot of adding mobile offline profiles in Field Service.](./media/setup_form_mop.PNG)
 
-10.  Automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile app.
+## Send frontline workers an email with link to download app 
 
-> ![Screenshot of frontline worker email template in Field Service.](./media/email_template.PNG)
+10.  Automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile app by leaving the **checkbox** selected on the **Quick Set Up: Frontline Workers** form. This email is not editable. 
+
+> ![Screenshot of frontline worker email template in Field Service.](./media/mailbox_template.PNG)
 
  > [!NOTE]
  > Admins cannot send an email to their frontline workers if they do not have their mailbox approved by the global admin; For more information, [learn to add and approve email addresses](frontline-worker-set-up-email-approval.md).
+ >
  > ![Screenshot of unable to send email notification in Field Service.](./media/setup_form_unable_to_send_email.PNG).
 
 ## View a list of all frontline workers 
@@ -142,3 +145,5 @@ After setting up one or more frontline workers, admins can then:
 3. After selecting the **Permissions** option on the top of the bookable resource page, admins can view and update this worker's permissions, such as security role, field security role, and mobile offline profile. 
 
 > ![Screenshot of view or update permissions in Field Service.](./media/br_form_edit_permissions.PNG)
+
+For more information about setting up the Bookable Resource form, learn more [here](set-up-bookable-resources.md).
