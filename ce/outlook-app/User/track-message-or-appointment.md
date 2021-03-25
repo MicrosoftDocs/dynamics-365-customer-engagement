@@ -67,12 +67,12 @@ You can change the row an email or appointment is linked to using the **Change R
 4. In the **Set Regarding** textbox, enter search text. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Enter search text](../media/change-track-regarding-1.png)
+   > ![Enter your search text](../media/change-track-regarding-1.png)
    
 5. When a related rows appears, select the row to link the email or appointment to.
 
    > [!div class="mx-imgBorder"] 
-   > ![Enter search text](../media/change-track-regarding-2.png)
+   > ![Select row](../media/change-track-regarding-2.png)
 
 ## Untrack a linked email or appointment 
 
