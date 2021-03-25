@@ -102,7 +102,7 @@ If the recipient is a Microsoft Dataverse or Customer Engagement (on-premises) u
 
 ![Dynamics 365 apps user](media/recipient-status.png)  
 
-If the recipient isn’t known to Dynamics 365, click (+) and then select **Add as contact** or **Add as lead**. See: [Add an email recipient as a contact or lead](#add-an-email-recipient-as-a-contact-or-lead).
+If the recipient isn’t known to Dynamics 365, click (+) and then select **Add as contact** or **Add as lead**. See: [Add an email recipient as a contact or lead](user/add-email-recipient-as-a-row.md).
 
 ## A quick tour of the interface
 
@@ -123,7 +123,7 @@ The **Dynamics 365** pane appears under the menu bar and shows information about
 |    6    |                                                                  Click to add an activity.                                                                  |
 |  7 & 8  |                                               Click and then select **Set Regarding** to link to the record.                                                |
 
-![Dynamics 365 App for Outlook pane](media/full-pane-2.png)
+![Dynamics 365 App for Outlook window](media/full-pane-2.png)
 
 |Element  |Description  |
 |---------|---------|
@@ -138,12 +138,12 @@ Let's go over the individual elements in the menu bar.
 
 |Element  |Description  |
 |---------|---------|
-|![Menu - Home](media/menu-home.png)|Choose **Menu** > **Home** > **Dashboards**  to go to the main page. <br />Choose **Menu** > **Recent** to see Favorites and recently used records.|
+|![Menu Home](media/menu-home.png)|Choose **Menu** > **Home** > **Dashboards**  to go to the main page. <br />Choose **Menu** > **Recent** to see Favorites and recently used records.|
 |![Menu - Home](media/navbar-home-btn.png)|Choose **Home** to see the initial view.|
 |![Menu - Back](media/navbar-back-btn.png)|Choose **Back** to return to the last thing you viewed.|
 |![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See <a href="https://docs.microsoft.com/dynamics365/outlook-app/dynamics-365-app-outlook-user-s-guide#CreateRecord">Create a new record</a>|
 |![Menu - Search](media/navbar-search-btn.png)|Choose **Search** to search any Dynamics 365 apps records. |
-|![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
+|![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](user/assistant.md)|
 |![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](user/email-template.md) and [Add sales literature or a knowledge base article when you create an email message](user/add-literature-or-kb.md)|
 
 
@@ -192,8 +192,8 @@ If you're running Outlook 2016 for Windows (click to run build 7668.2000 or late
 
  ![Follow email in Dynamics 365 for Outlook](../outlook-app/media/follow-email-dynamics-365-outlook.png "Follow email in Dynamics 365 for Outlook")  
 
-    > [!NOTE]
-    >  Any recipients that can’t be followed will be displayed at the bottom of the **Dynamics 365** pane.  
+   > [!NOTE]
+   >  Any recipients that can’t be followed will be displayed at the bottom of the **Dynamics 365** pane.  
 
 4.  Send the message in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
 
