@@ -1,7 +1,7 @@
 ---
 title: "Set up artificial intelligence features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to enable artificial intelligence features and make related privacy settings in Dynamics 365 Marketing."
-ms.date: 06/16/2020
+ms.date: 02/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -28,11 +28,11 @@ Dynamics 365 Marketing provides several artificial intelligence (AI), which incl
 
 When you first install Marketing, all artificial intelligence (AI) features are disabled by default. These artificial intelligence features include privacy settings that can help you remain compliant with local privacy regulations (including GDPR) and other privacy laws when you use them.
 
-## Enable AI features in Advanced settings
+## Enable AI features in Marketing settings
 
 To enable AI features and make privacy settings for them:
 
-1. Go to **Settings** > **Advanced settings** > **Machine learning** > **Basic feature configuration**.
+1. Go to **Settings** > **Other settings** > **Feature switches**.
 
     > [!div class="mx-imgBorder"]
     > ![AI feature switches](./media/admin-ai-settings.png)
