@@ -33,7 +33,7 @@ After setting up one or more frontline workers, admins can then:
 2. View and update details for individual frontline workers on the bookable resource form, including their home address, security role, field security profile, and mobile offline profile. 
 
 > [!NOTE]
-> Bing Maps has been enabled for new organizations. One-click directions has been enabled for all frontline workers. For mor information, see: [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
+> Bing Maps has been enabled for new organizations. One-click directions has been enabled for all frontline workers. For more information, learn more [here](https://docs.microsoft.com/dynamics365/field-service/field-service-maps-address-locations). For privacy information, see: [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
 
 ## Prerequisites 
 - Your organization's global admin or system admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
