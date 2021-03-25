@@ -23,7 +23,7 @@ search.audienceType:
 ---
 # Publish changes 
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Publish changes](/powerapps/maker/data-platform/create-solution)
  
  Certain customizations that make changes to the user interface require that they be published before people can use them in the application. 
  

@@ -29,7 +29,7 @@
 #### [Use business units with Marketing](business-units.md)
 
 ### Administration settings
-#### [Open the administration settings](open-advanced-settings.md)
+#### [Open the administration settings](open-settings.md)
 #### [Organization settings](organization-settings.md)
 ##### [Manage users](manage-users.md)
 ##### [Manage teams](manage-teams.md)
@@ -53,6 +53,7 @@
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
+#### [Trial quota limits](trial-preview-limits.md)
 #### [Feature switches](admin-feature-switches.md)
 #### [Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
@@ -61,7 +62,9 @@
 #### [Email bounce categories](email-bounce-categories.md)
 #### [Create an SPF TXT record](create-spf-record.md)
 #### [Dedicated vs shared IPs for email delivery](dedicated-vs-shared-ip.md)
+#### [Warm up an IP or domain](email-warm-up.md)
 #### [Email policies and suspension standards](email-policies.md)
+#### [Deliverability recommendations when changing ESPs](deliverability-change-esp.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email troubleshooting](email-troubleshooting.md)
 
@@ -212,7 +215,7 @@
 ### Performance analytics
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
-#### [Preview: Prepare for analytic reporting with Power BI](custom-analytics.md)
+#### [Prepare for analytic reporting with Power BI](custom-analytics.md)
 
 #### Power BI report and template gallery
 ##### [Download and use templates for Power BI](marketing-analytics/analytics-gallery-start.md)

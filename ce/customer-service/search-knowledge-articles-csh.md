@@ -4,7 +4,7 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/01/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -88,6 +88,8 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   12. Confirmation that the record is linked to a case
   13. Article date
 
+> [!NOTE]
+> If the keyword you used matches, the matches are highlighted in yellow, but won't necessarily show up in the first three lines, so you might not see the highlighted text in search results.
 
 In the knowledge base search control, you can do the following:
 - Search for knowledge articles
@@ -113,17 +115,27 @@ In the knowledge base search control, you can do the following:
 Type a keyword in the search box to search for knowledge articles.
 
   > [!div class=mx-imgBorder]
-  > ![Search for knowledge articles](media/search-kb-article.PNG "Search for knowledge articles using keywords")
+  > ![Search for knowledge articles](media/search-kb-article.png "Search for knowledge articles using keywords")
 
 - If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
+
+  > [!NOTE]
+  > If there's a style tag with CSS styles at the top of the article, the summary of the content in the knowledge search results list will contain style tags. Use inline CSS styling instead of putting styles in style tags.
 
 - If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
-## Linked knowledge article subgrid
+## Linked knowledge articles subgrid
 
-After your system administrator has added the knowledge article subgrid into an entity form, you can link or unlink a knowledge article from the customized subgrid. You can also edit a knowledge article by double-clicking it in the linked articles list.
+The linked knowledge article subgrid is available for an entity, such as a case or account, only if your system administrator has added the subgrid to the entity form. The knowledge article subgrid displays the knowledge articles that have been linked with the entity. Some of the options available are as follows:
+
+- Add a knowledge article
+- Select and edit an article's content
+- Sort
+- Bulk operations
+ 
+You can also edit a knowledge article by double-clicking it in the linked articles list.
 
 To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
 
@@ -139,7 +151,7 @@ To link the knowledge article to an entity, you need to do the following steps. 
 4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
 
    > [!div class=mx-imgBorder]
-   > ![Add an existing knowledge article](media/add-existing-knowledge-article.PNG "Add an existing knowledge article")
+   > ![Add an existing knowledge article](media/add-existing-knowledge-article.png "Add an existing knowledge article")
 
 5. Search for the knowledge article that you want to link, and select **Link.**
 
@@ -147,9 +159,6 @@ To link the knowledge article to an entity, you need to do the following steps. 
    > ![Search for a knowledge article to link to an entity](media/search-related-article.png "Search for a related knowledge article to link to an entity")
 
 6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
-
-> [!NOTE]
-> The subgrid for the knowledge articles isn't available by default. Contact your system administrator to get the subgrid added to the forms.  
 
 ## Independent knowledge base search
 
@@ -257,7 +266,7 @@ Select a article title to see its full content rendered in the same control. The
   > ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
 
 > [!Note]
-> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email.  If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
+> - Select the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Service](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article so you can share it with your customers over channels like chat or email. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available. 
 >
 > - Copy Link and Email Link options are available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md).
 >
@@ -267,9 +276,9 @@ Select a article title to see its full content rendered in the same control. The
 
 As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search the entire knowledge base.  
 
-Administrator or system customizer must configure this option for you. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
+An administrator or system customizer must configure this option for you. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
 
-To view the auto filtered results:
+To view the auto-filtered results:
 
 1. Search knowledge articles from the case related section. To learn more, see [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub).
 
@@ -333,5 +342,6 @@ To set up the feedback control, see [Enable feedback control](set-up-knowledge-m
 
 [Set up a search provider in Customer Service Hub](set-up-search-providers.md)
 
+[Add a knowledge article subgrid to a form](add-knowledge-base-search-control-forms.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
