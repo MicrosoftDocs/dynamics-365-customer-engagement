@@ -59,7 +59,7 @@ However, some organizations need to send separate copies of the same email messa
 
 ### See also
 
-[Open the settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Set up double opt-in for new subscriptions and consent changes](double-opt-in.md)  
 
