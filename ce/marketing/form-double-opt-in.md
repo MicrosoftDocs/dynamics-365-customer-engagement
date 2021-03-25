@@ -1,7 +1,7 @@
 ---
 title: "Set up form double opt-in (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up form double opt-in to let contacts confirm new subscriptions in Dynamics 365 Marketing."
-ms.date: 04/23/2020
+ms.date: 03/25/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -92,8 +92,8 @@ More information: [Email marketing overview](prepare-marketing-emails.md), [Set 
 > [!IMPORTANT]
 > If you use form double opt-in, contact information is not stored until _after_ the customer confirms the opt-in via email. This means that any action (such as a customer journey) that relies on contact information stops for that customer until the the customer opts in.
 
-> [!IMPORTANT]
-> The link in confirmation email remains valid for 30 days. After that period, end user will not be able to confirm his opt-in. 
+> [!NOTE]
+> The link in confirmation email remains valid for 30 days. After that period, end users will not be able to confirm opt-in. 
 
 ### See also
 [Global double opt-in](double-opt-in.md)
