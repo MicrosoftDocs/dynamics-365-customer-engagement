@@ -53,7 +53,7 @@ To manually assign the **Approve Email Addresses for Users or Queues** privilege
 
 > ![Screenshot of testing mailbox configuration in Power Platform admin center.](./media/test_mailbox_config.PNG)
 
-1. If **Outgoing Email Status** displays **Success**, your organization's system admin can now automatically send emails to their frontline workers with a link to download the Dynamics 365 Field Service mobile app through the [Quick Set Up: Frontline Worker form](frontline-worker-set-up.md).
+6. If **Outgoing Email Status** displays **Success**, your organization's system admin can now automatically send emails to their frontline workers with a link to download the Dynamics 365 Field Service mobile app. This capability is through the [Quick Set Up: Frontline Worker form](frontline-worker-set-up.md).
 
-> ![Screenshot of the frontline worker email template in Field Service.](./media/email_template.PNG)
+> ![Screenshot of the frontline worker email template in Field Service.](./media/mailbox_template.PNG)
 
