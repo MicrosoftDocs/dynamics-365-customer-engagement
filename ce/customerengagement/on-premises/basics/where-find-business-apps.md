@@ -23,8 +23,6 @@ search.audienceType:
 
 ::: moniker range=">= op-9-1"
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use model-driven apps in Power Apps](/powerapps/user/use-model-driven-apps)
-
 
 Business apps are available to users based on their security roles. If your system administrator has created any new apps, they will be visible to you if your security role has been given access to those apps. When you use an app, you'll see only those entities in the site map and other places in the app that your system administrator has added while designing the app. 
 
@@ -37,13 +35,13 @@ If you are a system administrator, a customizer, or a user with equivalent privi
 
 With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enabled the new Unified Interface for your apps. For more information, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md).
 
-The easiest way to tell whether you're on Unified Interface or the Legacy Web Client is to look at the site map. In Unified Interface the site map is on the left.
+The easiest way to tell whether you're on Unified Interface or the legacy web client is to look at the site map. In Unified Interface the site map is on the left.
 
 > [!div class="mx-imgBorder"]
 > ![Unified interface for on-prim](media/uci-onprem-interface.png "Unified interface for on-prem")
 
 
-The site map for the Legacy Web Client is at the top.
+The site map for the legacy web client is at the top.
 
 > [!div class="mx-imgBorder"]
 > ![Web client interface](media/web-client-interface.png "Web client interface")
@@ -64,7 +62,7 @@ Use the app-selector menu to switch between apps.
    > [!div class="mx-imgBorder"]
    > ![Select an app to use](media/access-site-map-1.png "Select an app to use")
 
-## Find apps in the Legacy Web Client 
+## Find apps in the legacy web client
 
 1. Sign in to Dynamics 365 Customer Engagement (on-premises).  
   

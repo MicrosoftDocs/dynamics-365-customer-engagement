@@ -20,6 +20,40 @@ search.audienceType:
 ---
 # Quick create--Enter new records--fast!
 
+
+::: moniker range=">= op-9-1"
+
+[!INCLUDE [applies-to-unified-interface](../includes/applies-to-unified-interface.md)] [Create a new record](/powerapps/user/create-a-record)
+
+The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it's always available whenever you need to enter new info into the system.  
+  
+ With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.  
+  
+ You can quickly create:  
+- Contacts  
+- Accounts  
+- Leads  
+- Opportunities  
+- Campaign responses  
+- Competitors  
+- Activities: tasks, phone calls, email, or appointments  
+ 
+1.  On the nav bar, select the **plus sign**![Quick Create button](../basics/media/filter-button.png "Quick Create button"), and then click the item you want.  
+  
+2.  Fill in the fields, and then select **Save**.  
+  
+
+  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
+
+::: moniker-end
+
+::: moniker range="< op-9-1"
+
+
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a new record](/powerapps/user/create-a-record)
 
 The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it's always available whenever you need to enter new info into the system.  
@@ -44,3 +78,5 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
+::: moniker-end

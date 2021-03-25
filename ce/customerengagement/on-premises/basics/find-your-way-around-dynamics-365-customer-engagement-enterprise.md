@@ -18,21 +18,19 @@ search.audienceType:
 
 ::: moniker range=">= op-9-1"
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Basic navigation in a model-driven app](/powerapps/user/navigation)
 
-
-With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enable the new Unified Interface which changes the look and feel of your app and how you navigate the app. This article explains how to use an app in both Unified Interface and Legacy Web Client.
+With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system administrator has the option to enable the new Unified Interface which changes the look and feel of your app and how you navigate the app. This article explains how to use an app in both Unified Interface and the legacy web client.
 
 For more information about Unified Interface, see [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](../admin/about-unified-interface.md
 
-If you're system administrator hasn't enabled the new interface then you'll see the Legacy Web Client. The easiest way to know if you're using Unified Interface or the Legacy Web Client is to look at the site map. 
+If you're system administrator hasn't enabled the new interface then you'll see the legacy web client. The easiest way to know if you're using Unified Interface or the Llegacy web client is to look at the site map. 
 
 In Unified Interface the site map is on the left.
 
 > [!div class="mx-imgBorder"]
 > ![Unified interface for on-prim](media/uci-onprem-interface.png "Unified interface for on-prem")
 
-The site map in the Legacy Web Client is at the top.
+The site map in the legacy web client is at the top.
 
 > [!div class="mx-imgBorder"]
 > ![Web client interface](media/web-client-interface.png "Web client interface")
@@ -177,7 +175,7 @@ With Unified Interface for Customer Engagement (on-premises), navigation in app 
 - [Find your way around the Customer Service Hub app](/dynamics365/customer-service/customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
 
 
-## Navigation in Legacy Web Client
+## Navigation in legacy web client
 
 When you open an app, you'll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
   
