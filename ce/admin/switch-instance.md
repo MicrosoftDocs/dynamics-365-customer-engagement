@@ -20,7 +20,7 @@ search.app:
 ---
 # Switch an instance
 
-Switching an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Change the environment type](https://docs.microsoft.com/power-platform/admin/switch-environment).
+Switching an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Change the environment type](/power-platform/admin/switch-environment).
 
 
 
