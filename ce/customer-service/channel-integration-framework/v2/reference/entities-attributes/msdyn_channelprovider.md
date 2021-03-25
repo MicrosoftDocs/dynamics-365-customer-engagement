@@ -925,7 +925,7 @@ See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_
 
 ### See also
 
-- [Configure the channel provider](../../configure-channel-provider-channel-integration-framework.md)
+- [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/configure-channel-provider-app-profile-manager)
 
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 
