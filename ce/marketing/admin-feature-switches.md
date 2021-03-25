@@ -29,16 +29,16 @@ The following table lists each available feature together with its preview statu
 
 | Feature switch | Preview or production | More information |
 |---|---|---|
-| Accessibility checker | Production | [Email accessibility checker](email-accessibility.md)|
-| Post-processing switch | Production | Turn off post-processing in the email editor|
 | Business unit scoping | Production | [Use business units to control access to Marketing records](business-units.md)|
 | Event registration forms | Preview | [Marketing forms for event registration](event-forms.md)|
 | Updated customer journey designer | Production | [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)|
+| Post-processing switch | Production | Turn off post-processing in the email editor|
+| Email Editor V2 | Production | Enable the new email editor |
+| Table layout for sections | Production | Improved layouts for more accurate formatting across email clients |
+| Send now custom lookup | Production | Custom lookup view for **Send now** control |
 | Customer Voice Marketing integration | Production | [Add surveys to your marketing campaigns](customer-voice.md) |
 | Segmentation natural language queries | Preview | [Natural language use in segments](nl-segment-build.md) |
-| Machine learning | Production | [Artificial intelligence features](admin-machine-learning.md) |
-| Spam checker | Production | [Spam checker](spam-checker.md) |
-| Automated scheduler | Production | [Automated scheduler](automated-scheduler.md) |
+| Smart scheduler | Production | [Smart scheduler](automated-scheduler.md) |
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
