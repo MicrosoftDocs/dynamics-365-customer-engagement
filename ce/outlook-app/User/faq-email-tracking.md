@@ -24,7 +24,7 @@ search.app:
 
 # FAQs about email tracking 
 
-This article provide information about frequently asked question about tracking email items using Dynamics 365 App for Outlook.
+This article provides information about frequently asked question about tracking email items using Dynamics 365 App for Outlook.
 
 ## 1. Replies and Forwards of an email that is part of a tracked conversation in Dynamics 365
 
@@ -38,7 +38,7 @@ This article provide information about frequently asked question about tracking 
 
 - User B replies to the thread, but removes Contact A as a recipient
 
-- They do not want this reply automatically tracked
+- They don't want the replies automatically tracked
 
 In this case, it will automatically track because it identifies the
 ConversationIndex and In-Reply-To values as an email that is part of a
