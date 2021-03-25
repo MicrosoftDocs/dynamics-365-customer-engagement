@@ -53,8 +53,6 @@ For example it's important for a sales team to know which product or service is 
 ::: moniker-end
 
 
-::: moniker-end
-
 ::: moniker range="< op-9-1"
 
 
