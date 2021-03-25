@@ -14,12 +14,14 @@ author: jimholtz
 ms.assetid: 6c1edaef-d2d0-4e94-bb3d-819b208966c1
 caps.latest.revision: 15
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Remove a large amount of specific, targeted data with bulk deletion 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 The *bulk deletion* feature helps you to maintain data quality and manage the consumption of system storage in Dynamics 365 Customer Engagement (on-premises) by deleting data that you no longer need.  
   

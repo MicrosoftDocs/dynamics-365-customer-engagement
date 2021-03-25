@@ -14,12 +14,14 @@ ms.assetid: 657f02c5-0acf-40d8-b2b6-f0ad38c91ed6
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, your organization can benefit from these capabilities:  
   

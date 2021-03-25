@@ -14,12 +14,14 @@ ms.assetid: f9b49c8f-c434-41d3-aa4c-365a4498b4f7
 caps.latest.revision: 13
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Outlook tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the settings on this page to configure how [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] interacts with Dynamics 365 Customer Engagement (on-premises).  
 

@@ -3,7 +3,7 @@ title: "Configure Quick Find options (Dynamics 365 Customer Engagement (on-premi
 ms.custom: 
 ms.date: 10/17/2019
 ms.reviewer: 
-ms.service: 
+ms.service: crm-online
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
@@ -11,6 +11,8 @@ applies_to:
 ms.assetid: 13aa0eb0-537f-432e-ac26-706ebd511dbd
 author: jimholtz
 ms.author: jimholtz
+search.audienceType: 
+  - admin
 ---
 
 # Configure Quick Find options

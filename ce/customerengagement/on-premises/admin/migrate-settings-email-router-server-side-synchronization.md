@@ -14,12 +14,14 @@ ms.assetid: 8b1637ff-34c6-489d-ad1c-4f3c8159ae91
 caps.latest.revision: 22
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Migrate settings from the Email Router to server-side synchronization 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 > [!NOTE]
 > The Microsoft Dynamics CRM Email Router has been deprecated. We strongly recommend that you migrate all email routing functionality to use the server-side synchronization feature. 

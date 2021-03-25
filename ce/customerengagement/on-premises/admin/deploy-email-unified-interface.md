@@ -14,12 +14,14 @@ ms.assetid: bc0377a3-db62-4d0d-9531-a12dc01d1d0c
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Enable accessible email flow
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 To improve accessibility when reading and editing email in Dynamics 365 Customer Engagement (on-premises), we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
 

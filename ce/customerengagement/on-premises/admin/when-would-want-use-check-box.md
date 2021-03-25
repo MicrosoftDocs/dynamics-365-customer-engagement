@@ -14,12 +14,14 @@ ms.assetid: e6794669-552e-4614-80f9-13add84f2fae
 caps.latest.revision: 20
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # When would I want to use this check box?
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
  A user can be a member of more than one Dynamics 365 Customer Engagement (on-premises) organization, but an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize emails, appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize emails, appointments, contacts, and tasks with one Exchange mailbox. Customer Engagement (on-premises) stores the organization ID (`OrgID`) for the synchronizing organization and the last time the user synced in Exchange.  
   

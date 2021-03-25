@@ -14,12 +14,14 @@ ms.assetid: 3fa9c316-9dc9-4b28-9abf-43a3fce5b01d
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Enable change tracking to control data synchronization
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Large Dynamics 365 Customer Engagement (on-premises) organizations that synchronize their data with external data sources can now enable entities for change tracking. You can export or retrieve a selected set of Customer Engagement (on-premises) data, and then keep the external data warehouse in sync.  
   

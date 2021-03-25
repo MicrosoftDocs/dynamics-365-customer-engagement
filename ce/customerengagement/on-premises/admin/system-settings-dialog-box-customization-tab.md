@@ -14,12 +14,14 @@ author: jimholtz
 ms.assetid: d1d78ba3-58a9-4608-acfc-eb1da235fe1b
 caps.latest.revision: 25
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Customization tab 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the Customization tab in System Settings to set preferences for plug-in and workflow tracing and also the use of application mode.  
   
