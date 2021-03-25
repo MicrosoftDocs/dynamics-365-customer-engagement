@@ -71,16 +71,18 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
 
 ### Add a bot
 
-To add a bot, the bot must be configured in Power Virtual Agents and available for selection.
+To add a bot, the bot must be configured in Power Virtual Agents and available for selection. For information about how to configure bots in Power Virtual Agents, see [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
 
 1. For the selected workstream and channel, in the Bot area, select **Add bot**.
 2. In **Add a bot**, select the required bot in the **Name** list, and select **Save and close**.
+
 
 ### Configure context variables
 
 Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues.
 
-> [!Note] Context variable names must be unique. We recommend that you do not update or delete the context variables after creating them. If you need to, make sure that the variables are not used in any routing or assignment rules.
+> [!Note]
+> Context variable names must be unique. We recommend that you do not update or delete the context variables after creating them. If you need to, make sure that the variables are not used in any routing or assignment rules.
 
    1. Select **Add context variable** in the **Advanced settings** section of a workstream.
    2. In the **Edit** pane, select **Add**, and enter **Name**.
