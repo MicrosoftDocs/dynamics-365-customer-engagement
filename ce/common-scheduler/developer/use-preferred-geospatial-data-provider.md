@@ -22,7 +22,7 @@ search.app:
 
 You can create a *custom* plug-in and register on the Universal Resource Scheduling actions that provide geospatial functionality to use data from a data provider of your choice instead of the default Bing Maps API.
 
-The following Universal Resource Scheduling [actions](../../customize/actions.md) provide geospatial functionality in [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)]:
+The following Universal Resource Scheduling [actions](../../customerengagement/on-premises/customize/actions.md) provide geospatial functionality in [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)]:
 - **msdyn_GeocodeAddress** for geocoding addresses
 - **msdyn_RetrieveDistanceMatrix** for calculating travel times and distances between two locations. 
 

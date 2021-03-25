@@ -40,7 +40,7 @@ The following table depicts how you may want your custom plug-in to be treated d
 
 ## Register and deploy your custom plug-in
 
-You can register and deploy plug-ins using the Plug-in Registration Tool or programmatically by writing registration code using certain SDK classes. More information: [Register and Deploy Plug-ins](../../developer/register-deploy-plugins.md).
+You can register and deploy plug-ins using the Plug-in Registration Tool or programmatically by writing registration code using certain SDK classes. More information: [Register and Deploy Plug-ins](../../customerengagement/on-premises/developer/register-deploy-plugins.md).
 
 For this section, we will use the Plug-in Registration tool, which provides a graphical user interface to easily register and deploy plug-ins. Also, this section contains information based on the assumption that you are working with the [sample custom plug-in](sample-custom-plugin-google-geospatial-data-provider.md), and have built the sample project to generate the **CustomPlugin-FS-Geospatial.dll** assembly. If you have developed your own custom plug-in, the name of the assembly and plug-ins will differ, but the overall instructions to register the plug-in will remain the same.
 
