@@ -22,9 +22,9 @@ The workstream can be of one of the following types:
 
 
 > [!IMPORTANT]
-> To configure workstream for record routing, entity routing must be enabled in the service configuration settings in Customer Service Hub.
+> Entity routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing.
 
-## Create the workstream
+## Create a workstream
 
 Perform the following steps to configure the workstream in Omnichannel admin center:
 
@@ -65,8 +65,24 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
 9. Expand **Advanced settings** to configure the following options:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables]
+   - [Context variables](#configure-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
+### Add a bot
 
+To add a bot, the bot must be configured in Power Virtual Agents and available for selection.
+
+1. For the selected workstream and channel, in the Bot area, select **Add bot**.
+2. In **Add a bot**, select the required bot in the **Name** list, and select **Save and close**.
+
+### Configure context variables
+
+Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues.
+
+> [!Note] Context variable names must be unique. We recommend that you do not update or delete the context variables after creating them. If you need to, make sure that the variables are not used in any routing or assignment rules.
+
+   1. Select **Add context variable** in the **Advanced settings** section of a workstream.
+   2. In the **Edit** pane, select **Add**, and enter **Name**.
+   3. Select the **Type** of variable from the drop-down list. You can choose from **Text** or **Number**.
+   4. Repeat the steps 2 and 3 to create the required variables.

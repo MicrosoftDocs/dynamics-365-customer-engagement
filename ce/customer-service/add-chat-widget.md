@@ -19,20 +19,41 @@ You can configure a live chat widget that can be displayed on your portal for cu
 
 Perform the following steps to configure chat in Omnichannel admin center:
 
-1. Sign in to Dynamics 365, and select Omnichannel admin center.
-2. In the site map, select Workstreams.
-3. On the page that appears, you can select the workstream for which you want to configure the chat widget.
-4. On the page that appears, select **Set up chat**.
-5. On the Live chat setup page, enter the following channel details:
+1. In the Omnichannel admin center site map,select **Workstreams**.
+2. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
+3. On the workstream page, select **Set up chat**.
+4. On the **Live chat setup** page, enter the following channel details:
    - Name:
    - Language:
-6. Select Next, and enter the following chat widget details:
-   - Title: 
-   - Subtitle
-   - Theme color
-   - Logo URL: Select the default value or enter the link to the logo that you want to be displayed.
-   - Agent display name
-   - 
+5. Select **Next**, and enter the following chat widget details on the **Chat Widget** page:
+   - **Title:** Display name for the chat widget.
+   - **Subtitle:** Additional title, such as "We're online".
+   - **Theme color:**  Choose a color from the list.
+   - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
+   - **Agent display name:** Select a value from the list.
+6. Set the toggle to yes if you want to enable the following options:
+   - [Proactive chat](proactive-chat.md)
+   - [Reconnect to previous chat](configure-reconnect-chat.md)
+   - Only show widget during operation hours
+   - Only show widget on the provided domains
+7. On the Behaviors page, configure the following options:
+   - Custom automated messages
+   - Pre-conversation survey
+   - Post-conversation survey
+   - Authentication settings
+   - Customer wait time
+   - Customer location detection
+8. On the **User features** page, configure the following options:
+   - File attachments
+   - Customer notifications
+   - Conversation transcripts
+   - Voice and video calls
+   - Screen sharing
+   - Co-browse
+
+
+
+
 
 ## Configure a chat widget in Omnichannel Administration
 
