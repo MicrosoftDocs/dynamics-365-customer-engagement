@@ -106,7 +106,7 @@ When you open the Omnichannel for Customer Service application or Customer Servi
 
 If you get any of the errors listed in the table below, work with your administrator to ensure you have the right security roles, Omnichannel capacity, and default presence set. When the administrator makes changes to these settings, the changes may take up to 15 minutes to reflect. As an agent, you should log out, clear your browser cache, and close and reopen the browser to try again. If the issue persists, work with your administrator to create a service request with details including the organization URL, agent ID, error message, and client session ID value.
 
-If you get an error listed in the table below, while logging in to Omnichannel with your single sign on account to set up the right authentication, check if Security Defaults is turned on. If it is turned on, the agent should have the right authentication set up. Alternatively, Security Defaults can be switched off if it is not required. 
+If your tenant is configured with Azure Security Defaults, please ensure your users have Multi-Factor Authentication set up on their accounts, or they may run into a single sign on error. To learn more about Azure Security defaults, go here:
 More information: [What are security defaults ?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 <!-- turn on the Security defaults. You can disable Security defaults if authentication is not required. --> 
 
