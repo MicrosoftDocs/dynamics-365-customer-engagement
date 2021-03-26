@@ -4,7 +4,7 @@ description: "Instructions to add a chat widget in Omnichannel for Customer Serv
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -45,7 +45,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - Customer location detection
 8. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
-   - Customer notifications
+   - [Customer notifications](#configure-customer-notifications)
    - Conversation transcripts
    - Voice and video calls
    - Screen sharing
@@ -150,6 +150,8 @@ Perform the following steps to configure chat in Omnichannel admin center:
     | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
     | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift |
+    |Online|Turn on sound notifications|Set to Yes if you want customers to receive a sound notification when the chat widget is minimized or not active||
+    |Online|Turn on unread message indicator|Set to Yes if you want to display the count of unread messages when the chat widget is minimized or not active.||
     | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No; the chat widget will be hidden .|
     | Offline | Theme color | Select a color from the list. | Grey |
     |Offline | Title | Specify a title to be displayed. | We're offline. |
@@ -169,6 +171,20 @@ Perform the following steps to configure chat in Omnichannel admin center:
 12. Select **Save** to save the configurations.
 
 After you configure, agents can get the capabilities while they are in a conversation. To learn more, see [Call options and visual engagement in live chat](call-options-visual-engagement.md).
+
+### Configure customer notifications
+
+You can configure visual and sound notifications to be sent to customers when they are interacting with agents through the chat widget on your organization portal. If the chat window is minimized or not active, a sound notification is played when a message arrives and a count of the unread messages is displayed.
+
+Perform the following steps to enable the customer notifications:
+
+1. In Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+2. For **Customer notifications**, set the toggle to **On**. The following check boxes are displayed as selected.
+   - **Show number of new messages**
+   - **Play sound notifications for new messages**
+
+You can also configure the customer notifications when you're configuring the chat channel.
+
 
 ### Troubleshooting
 
