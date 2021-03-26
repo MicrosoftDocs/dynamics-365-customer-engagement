@@ -57,7 +57,7 @@ Use the following steps to add or remove a timeline from an entity form:
 
 1. Timeline is a component, so you'll need to access **Components** in PowerApps to configure it. 
 
-2. Select a **Main** form type. A landing page displays.
+2. Select a **Main** form type. A landing page is displayed.
 
 3. Scroll down to the **Timeline** component on the left-hand navigation, then drag and drop it in a section on the form. 
 <ul><li> If the <b>Timeline</b> component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. </li>
@@ -86,7 +86,7 @@ In the body of the entity form located in the center, there is an area titled **
 
 ## Configure the timeline component
 
-The timeline component is rich in features and functionality that can be configured and tailored to support specific business needs.  The Timeline form is comprised of features and functionality you configure in the timeline component which is then displayed in the entity form.
+The timeline component is rich in features and functionality that can be configured and tailored to support specific business needs. The Timeline form is comprised of features and functionality that you configure in the timeline component, which is then displayed in the entity form.
 
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
@@ -174,7 +174,7 @@ The following is a detailed overview of the **Advanced** configuration options s
 |Configuration View | |Display View |
 |-------------------|-|-------------|
 |![Configure Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-2a.png "Configure Quick entry record type and sort order default")| |![Display Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-3b.png "Display Quick entry record type and sort order default")|
-|1.Select **Advanced** to expand this feature in the configuration view. The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.<BR> 2.The **Sort order default** feature controls the order of how all data is sorted on the timeline.  The default setting for this feature is set to Descending. ||1. When you select **Notes** it will display under the **Search** bar in timeline. Also, you will see a paperclip ![Paperclip icon](media\timelilne-paperclip-icon.png "Paperclip icon") icon which allows you to attach files. You can only attach files to Notes.<BR>2.	When you select **Posts** it also will display under the **Search** bar in timeline.|
+|1.Select **Advanced** to expand this feature in the configuration view. The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.<BR> 2.The **Sort order default** feature controls the order of how all data is sorted on the timeline.  The default setting for this feature is set to Descending. ||1. When you select **Notes**, it will display under the **Search** bar in timeline. Also, you will see a paperclip ![Paperclip icon](media\timelilne-paperclip-icon.png "Paperclip icon") icon that allows you to attach files. You can only attach files to Notes.<BR>2.	When you select **Posts** it also will display under the **Search** bar in timeline.|
 
 ### Enable filter pane
 
@@ -444,7 +444,7 @@ Before you can view any configuration changes on the entity form, you must first
 
 ## Configure dashboard timelines
 
-Timelines can be configured and put on a dashboard. However, the configuration available for timeline applied to a dashboard is limited to the functionality provided by the legacy designer experience. Currently, there isn't a timeframe for enabling the new form designer experience on dashboards. 
+Timelines can be configured and put on a dashboard. However, the configuration available for timeline applied to a dashboard is limited to the functionality provided by the legacy designer experience. The new form designer experience on dashboards is not available. 
 
 > [!NOTE]
 > Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  
