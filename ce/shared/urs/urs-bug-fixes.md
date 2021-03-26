@@ -2,31 +2,31 @@
 
 The following Universal Resource Scheduling 2020 Wave 1 features in general availability are included in this release.
 
-- Map view, Weekly and Monthly views in new Schedule Board. 
+- Map view, weekly, and monthly views in the new schedule board. 
 - Appointment data included in resource scheduling.
-- Embedded optimizer enhancements within schedule board (Preview).
+- Embedded optimizer enhancements within schedule board (preview).
 
-This release also includes all the fixes included in the [2021 wave 1 early access](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#3124015---2021-wave-1-early-access) and [2021 wave 1 early access update 1](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#312424---2021-wave-1-early-access-update-1).
+This release also includes all the fixes included in the [2021 wave 1 early access](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#3124015---2021-wave-1-early-access) and [2021 wave 1 early access update 1](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312424---2021-wave-1-early-access-update-1).
 
 - When creating multiday booking using **Evenly Distribute** booking method, user cannot overbook resource with single booking if duration is greater than resource's availability during that time. This bug is now fixed. 
-- Fixed a bug where Quick scheduling is used on a requirement group with work location = Facility, no available resources are returned. 
-- Start/End time on Schedule assistant list view mismatches with Estimated Arrival time/End time on Create Resource booking panel when using fulfilment preferences (intervals) are used on a Onsite requirement, this bug is now fixed. 
-- **Rebook button** on requirement group’s bookings is using the **Default Booking Committed Status** from default **None** BSM rather than using the default booking committed status from the schedulable entity’s booking setup metadata record. 
-- **Clear Sorting** option is now available on the column filters of the requirement panel of the new Schedule Board. 
-- When using the Quick book, Back button on the view Resources page disappears if a different date is selected. This bug is now fixed. 
-- Business closures are not honored for the Resource availability due to the different Timezone on the Resource workhours and the User Timezone preference. This bug is now fixed. 
-- When Skill uses a special character like **&** in the name, the skill name is displayed as HTML encoded in the Schedule Board filter layout. This bug is now fixed. 
-- When using the Schedule board’s Email driving directions is fixed to send emails to the recipients in the ‘To’ field. 
-- When a business closure is created for a day in the Canberra Time Zone (GMT+10) and saved, the Start and End times of the business closure are raised by an hour. This bug is now fixed. 
-- Fixed a bug on the new Schedule board in Hebrew, where the dates are incorrectly aligned from left to right when next day of the time range is selected. 
-- Fixed a bug where Schedule Board displays text in Chinese on the Date columns of the hourly view, when system language is set to Japanese. 
-- When using the quick book, and the available resources are accessed on an available timeslot, the time displayed is different than the actual timeslot. This bug is now fixed. 
-- When using a field with Timezone information is displayed on the details panel of the Schedule Board, the field is incorrectly displayed as the Timezone code, but not the actual Timezone. This bug is now fixed. 
-- When a requirement group record is opened from the Schedule Board requirement panel by double clicking the record, it threw an error of insufficient privileges. This bug is now fixed. 
-- Made an improvement to the date selection on the Booking panel of the Schedule Board. If the start date is selected after the end date, then then end date should also be updated to the Start Date. If End Date is selected before the Start date, then the Start Date should be updated to the selected End Date. 
+- Fixed a bug where quick scheduling is used on a requirement group with work location set to *Facility*, no available resources are returned. 
+- Start and end time on schedule assistant list view mismatches with estimated arrival time and end time on the create resource booking panel when using fulfilment preferences (intervals) are used on aa *Onsite* requirement. This bug is now fixed. 
+- **Rebook button** on requirement group’s bookings is using the **Default Booking Committed Status** from default **None** booking setup metadata, rather than using the default booking committed status from the schedulable entity’s booking setup metadata record. 
+- **Clear Sorting** option is now available on the column filters of the requirement panel of the new schedule board. 
+- When using quick book, the back button on the view resources page disappears if a different date is selected. This bug is now fixed. 
+- Business closures are not honored for the resource availability due to the different timezone on the resource work hours and the **User Timezone** preference. This bug is now fixed. 
+- When a skill uses a special character like **&** in the name, the skill name is displayed as HTML-encoded in the schedule board filter layout. This bug is now fixed. 
+- When using the schedule board’s email driving directions is fixed to send emails to the recipients in the **To** field. 
+- When a business closure is created for a day in the Canberra time zone (GMT+10) and saved, the start and end times of the business closure were raised by an hour. This bug is now fixed. 
+- Fixed a bug on the new schedule board in Hebrew, where the dates are incorrectly aligned from left to right when next day of the time range is selected. 
+- Fixed a bug where schedule board displays text in Chinese on the date columns of the hourly view, when system language is set to Japanese. 
+- When using the quick book, and the available resources are accessed on an available time slot, the time displayed is different than the actual time slot. This bug is now fixed. 
+- When using a field where time zone information is displayed on the details panel of the schedule board, the field was incorrectly displayed as the time zone code, but not the actual time zone. This bug is now fixed. 
+- When a requirement group record is opened from the schedule board requirement panel by double-clicking the record, it threw an error of insufficient privileges. This bug is now fixed. 
+- Made an improvement to the date selection on the booking panel of the schedule board. If the start date is selected after the end date, then then end date should also be updated to the start date. If end date is selected before the start date, then the start date should be updated to the selected end date. 
 - Unable to complete appointments without system admin security role privileges when customer service scheduling is installed. This bug is now fixed. 
-- On the Schedule Board, we made an improvement to show the booking tooltips, when using the schedule board on a slower network (Fast 3G speeds). 
-- When a resource requirement record is created, a calendar record is created. When a resource requirement is deleted, additional logic is added to check if the calendar is used by any of the Dynamics 365 out of the box entities, and if the calendar is not used, then the calendar record is also deleted. A similar behavior is also put in place for the work hours templates. This deletion of the calendars improves the performance of the schedule assistant.
+- On the schedule board, we made an improvement to show the booking tooltips, when using the schedule board on a slower network (fast 3G speeds). 
+- When a resource requirement record is created, a calendar record is created. When a resource requirement is deleted, additional logic is added to check if the calendar is used by any of the Dynamics 365 out-of-the-box record types, and if the calendar is not used, then the calendar record is also deleted. A similar behavior is also put in place for the work hours templates. This deletion of the calendars improves the performance of the schedule assistant.
 
 ## 3.12.42.4 - 2021 wave 1 Early access update 1
 
