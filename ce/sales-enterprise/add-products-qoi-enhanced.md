@@ -78,12 +78,12 @@ If you've created a quote from an opportunity, the products added to the opportu
 4. Use one of the following options to identify and add products:
 
    - If you know the product names, simply search for them and add.
-   - If you want to choose products from a specific product family, use the left pane or the drop-down before the search box to filter products by family.
+   - If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
      > [!NOTE]
      > The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
 
-    > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down. Also, the count of products in the left pane is available only when the number of products and families are less than 50000 and 5000 respectively.
+    > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
 
    - If you want to add products that you have recently chosen for another entity, open the **Recently used** tab.
 
