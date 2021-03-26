@@ -88,7 +88,7 @@ To create a marketing email and go live:
     1. On the previous page, you choose the contact entity (in context). On this page, you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
     
         > [!NOTE]
-        > [Calculated and rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/calculated-rollup-attributes) cannot be used in Marketing emails.
+        > [Calculated and rollup fields](../customerengagement/on-premises/developer/calculated-rollup-attributes.md) cannot be used in Marketing emails.
 
     1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist edit.)
 
