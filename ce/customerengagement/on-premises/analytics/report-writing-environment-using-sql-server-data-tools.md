@@ -79,7 +79,7 @@ This article describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../i
   
 ### See also
 
- [Build queries with FetchXML](../developer/org-service/build-queries-fetchxml.md) <br/>
+ [Build queries with FetchXML](/powerapps/developer/data-platform/use-fetchxml-construct-query) <br/>
  [Create Custom Reports Using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)   
  
 
