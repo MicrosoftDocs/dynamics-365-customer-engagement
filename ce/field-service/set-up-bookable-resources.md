@@ -137,6 +137,19 @@ You can edit or delete the working hours bu double-clicking the time slot on the
 > [!Note]
 > Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
 
+In Field Service versions **v8.8.40** or later, you can use a new custom input for recurring working hours, where resource can have different working hours on different days of a week in a recurrence until the end day selected. You can add breaks or split the workhours of the Resource into different capacities
+
+> [!div class="mx-imgBorder"]
+> ![image](https://user-images.githubusercontent.com/57967329/112590421-d4553500-8dd0-11eb-880d-1a14e8d68e30.png)
+
+> [!div class="mx-imgBorder"]
+> ![image](https://user-images.githubusercontent.com/57967329/112590723-4af23280-8dd1-11eb-8471-b4469b88d0a3.png)
+
+You can add breaks or split the workhours of the Resource into different capacities for each of the days of the week differently as needed for your business. 
+
+> [!div class="mx-imgBorder"]
+> ![image](https://user-images.githubusercontent.com/57967329/112590742-50e81380-8dd1-11eb-86bc-a5bd8edb913f.png)
+
 In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the following screenshot:  
   
   - **New Weekly Schedule**: Set an ongoing weekly schedule for the resource.  
