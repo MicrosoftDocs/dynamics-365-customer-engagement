@@ -34,7 +34,7 @@ When enabled by your system administrator, you can use the icons that are displa
 - [Search Records](#search-records-on-timeline)
 - [Add attachments](#add-an-attachment-to-a-note-in-timeline)
 
-Keep in mind that the timeline dashboard displays only tne entities that are configured for the logged-in user. So what you see on the timeline may differ from what another user will see. The logged-in user will see any records they've followed if those records are configured to display on the dashboard. For example, if only email and appointments are configured to display, then the logged-in user will only see email that relates to them, which can be email they've sent, email sent to them, and email they follow. The same would be true for appointments in this scenario. For more information on setting up timeline, see [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md).
+The timeline dashboard displays only the entities that are configured for the signed-in user. So, what you see on the timeline may differ from what another user will see. The signed-in user will see any records they've followed if those records are configured to display on the dashboard. For example, if only email and appointments are configured to display, then the signed-in user will only see email that relates to them, which can be email they've sent, email sent to them, and email they follow. The same would be true for appointments in this scenario. For more information on setting up timeline, see [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md).
 
 > [!Note]
 > The Notes feature is not available from the timeline. 
