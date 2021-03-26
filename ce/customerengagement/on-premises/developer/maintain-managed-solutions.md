@@ -32,7 +32,7 @@ Before you release your managed solution you should consider how you will mainta
 
 
 > [!NOTE]
-> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Maintain managed solutions > Version compatiblity](https://msdn.microsoft.com/library/gg328109.aspx#BKMK_VersionCompatibilty)
+> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Maintain managed solutions > Version compatiblity](/previous-versions/dynamicscrm-2016/developers-guide/gg328109(v=crm.8)#BKMK_VersionCompatibilty)
   
  As additional update rollups or service updates are applied to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], solutions exported from organizations with those updates cannot be imported into organizations which do not have those updates. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Introduction to Solutions: Version compatibility](introduction-solutions.md#BKMK_VersionCompat).  
   

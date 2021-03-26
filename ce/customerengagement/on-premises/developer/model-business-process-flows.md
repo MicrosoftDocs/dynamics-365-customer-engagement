@@ -58,7 +58,7 @@ A business process flow definition is stored in the <xref:Microsoft.Dynamics.CRM
   
 <a name="ActivateBPF"></a>   
 ## Activate business process flow  
- Before you can use the process flow, you have to activate it. To activate it, you must have the `prvActivateBusinessProcessFlow` privilege for the `Workflow` entity. Use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message to set the state of the `Workflow` entity record to `Activated`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md) 
+ Before you can use the process flow, you have to activate it. To activate it, you must have the `prvActivateBusinessProcessFlow` privilege for the `Workflow` entity. Use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message to set the state of the `Workflow` entity record to `Activated`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](/powerapps/developer/data-platform/special-update-operation-behavior) 
 
  > [!NOTE]
  > You can also use the business process flow designer to activate a business process flow. 
@@ -380,7 +380,7 @@ The only exception to this is programmatically modifying the **ProcessId** attri
 
 <a name="BKMK_clientSideScript"></a>   
 ## Client-side programmability support for business process flows  
- With [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] there is a client-side object you can use to interact with business process flows in your form scripts. Business process flows trigger client-side events every time a process is either applied to a record, the stage is changed, or its status is changed to `Active`, `Finished`, or `Aborted`. More information: [formContext.data.process (Client API reference)](clientapi/reference/formcontext-data-process.md)  
+ With [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] there is a client-side object you can use to interact with business process flows in your form scripts. Business process flows trigger client-side events every time a process is either applied to a record, the stage is changed, or its status is changed to `Active`, `Finished`, or `Aborted`. More information: [formContext.data.process (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process)  
   
 <a name="BKMK_MaxSettings"></a>   
 ## Maximum number of processes, stages, and steps  
