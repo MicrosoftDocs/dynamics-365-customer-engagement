@@ -38,7 +38,7 @@ To find your records quickly in Dynamics 365 Customer Engagement (on-premises), 
   
 -   Wildcards are not required in full text quick find.  
 <!-- apparently the following is on-prem only>  
- For more information see, [Configure Quick Find options for the organization](https://technet.microsoft.com/library/dn919650.aspx).  
+ For more information see, [Configure Quick Find options for the organization](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn919650(v=crm.8)).  
 --> 
  
 ## Start a search  
