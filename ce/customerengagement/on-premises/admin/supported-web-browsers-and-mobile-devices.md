@@ -30,15 +30,15 @@ Users can access the model-driven apps with the most recent versions of these po
 - Internet Explorer (not recommended)
 
 > [!NOTE]
-> For optimal performance and experience, we recommend you use the latest version of a modern browser. Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](https://docs.microsoft.com/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+> For optimal performance and experience, we recommend you use the latest version of a modern browser. Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
   
 For more detailed information about supported browsers, see [Web application requirements](web-application-requirements.md).  
   
 For a mobile device, such as an iPad or smartphone, the following apps are available:  
   
-- [Dynamics 365 for phones and Dynamics 365 for tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+- [Dynamics 365 for phones and Dynamics 365 for tablets](../../../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
   
-For more detailed information about supported phones and tablets, see [Dynamics 365 mobile and tablet device support](/dynamics365/mobile-app/support-phones-tablets).  
+For more detailed information about supported phones and tablets, see [Dynamics 365 mobile and tablet device support](../../../mobile-app/support-phones-tablets.md).  
   
   
 > [!NOTE]
@@ -58,7 +58,7 @@ For more detailed information about supported phones and tablets, see [Dynamics 
  If you export an [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] worksheet as a Dynamic Worksheet while using [!INCLUDE[tn_Safari](../includes/tn-safari.md)], you may receive an error when trying to open the file. To remedy this, right-click the file, click **Get Info**, and, under **Open With**, select [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
 ### See Also  
  [Key preparation and configuration tasks](../admin/key-preparation-and-configuration-tasks.md)
- [Supported web browsers and mobile devices - earlier versions](https://technet.microsoft.com/library/dn531055.aspx)
+ [Supported web browsers and mobile devices - earlier versions](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531055(v=crm.8))
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

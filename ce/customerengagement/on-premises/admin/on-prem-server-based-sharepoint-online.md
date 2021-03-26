@@ -16,7 +16,7 @@ manager: kvivek
 
 # Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online
 
-This topic describes how to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint Online. <!-- The following diagram illustrates the communication between Dynamics 365 (on-premises), [Azure AD Domain Services](https://azure.microsoft.com/documentation/articles/active-directory-ds-overview/), and SharePoint Online. -->
+This topic describes how to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint Online. <!-- The following diagram illustrates the communication between Dynamics 365 (on-premises), [Azure AD Domain Services](/azure/active-directory-domain-services/overview), and SharePoint Online. -->
 
 <!-- ![Dynamics 365 (on-premises) and SharePoint Online](images/Mt171421.7ec0a85e-1bfd-43f8-a0bc-f01cf8163275(CRM.8).jpeg "Customer Engagement (on-premises) and SharePoint Online")  -->
 
@@ -61,7 +61,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
   - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
 
-  - [Azure Active Directory Module for Windows PowerShell (64-bit version)](https://docs.microsoft.com/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
+  - [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
 
 
 > [!IMPORTANT]
@@ -87,7 +87,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
 3.  Prepare the PowerShell session.
     
-    The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the PowerShell session. <!-- For more information about these cmdlets see [Windows PowerShell Core Cmdlets](https://technet.microsoft.com/library/hh849695.aspx). -->
+    The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the PowerShell session. <!-- For more information about these cmdlets see [Windows PowerShell Core Cmdlets](/powershell/module/microsoft.powershell.core/). -->
     
         Enable-PSRemoting -force
         New-PSSession
