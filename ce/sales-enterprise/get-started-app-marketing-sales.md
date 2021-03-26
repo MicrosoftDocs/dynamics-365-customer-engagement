@@ -17,7 +17,7 @@ manager: annbe
 Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
   
 ## Import contacts, accounts, and leads  
- Get your customer records into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and add these to marketing lists so you can target your campaigns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
+ Get your customer records into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and add these to marketing lists so you can target your campaigns. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import accounts, leads, or other data](../customerengagement/on-premises/basics/import-accounts-leads-other-data.md)  
   
 ## Create marketing lists  
  Group accounts, contacts, or leads into a targeted marketing list. You can create a marketing list easily with the search functionality in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], so you find all of your customers in a particular area, for example, and add them to the member list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
@@ -47,7 +47,7 @@ Promote your business and improve sales with targeted marketing campaigns in [!I
 ## Let your customers unsubscribe from marketing communications  
  You can enable customers to unsubscribe from email marketing communications your organization sends them.  
   
- More information: [System Settings dialog box - Marketing tab](../admin/system-settings-dialog-box-marketing-tab.md)  
+ More information: [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)  
   
  Note that you cannot add unsubscribe functionality to direct email or email templates.  
   

@@ -25,7 +25,7 @@ To start, a team member with a **Playbook manager** role or equivalent permissio
 
 > [!NOTE]
 > The playbook capability is currently available only in the Sales Hub app of Dynamics 365 Sales. 
-> To learn about updating an app solution, see [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md). 
+> To learn about updating an app solution, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution). 
 
 ### See also
 [Define playbook categories](define-playbook-categories.md)  <br>

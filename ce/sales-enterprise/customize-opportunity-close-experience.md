@@ -75,7 +75,7 @@ To create fields,
 
 5.  Under the **Opportunity Close** node, select **Fields**.
 
-6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
+6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customerengagement/on-premises/customize/create-edit-fields.md)
 
 
 ## Add newly created custom fields to the Opportunity Close form

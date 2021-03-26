@@ -25,10 +25,10 @@ searchScope:
 
 # Price calculation for opportunity, quote, order, and invoice records
 
-System price calculation is used to calculate values for the price-related fields of the opportunity, quote, order, and invoice records such as price per unit, volume discount, manual discount, or extended amount. An administrator or system customizer can set the preference for using system pricing calculations in **System Settings**. More information: [System Settings Sales tab](https://docs.microsoft.com/power-platform/admin/system-settings-dialog-box-sales-tab)
+System price calculation is used to calculate values for the price-related fields of the opportunity, quote, order, and invoice records such as price per unit, volume discount, manual discount, or extended amount. An administrator or system customizer can set the preference for using system pricing calculations in **System Settings**. More information: [System Settings Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 
 > [!TIP]
-> Developers can also set system pricing calculation using the OOBPriceCalculationEnabled field of the Organization entity. More information: [OOBPriceCalculationEnabled](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/organization#BKMK_OOBPriceCalculationEnabled)
+> Developers can also set system pricing calculation using the OOBPriceCalculationEnabled field of the Organization entity. More information: [OOBPriceCalculationEnabled](/powerapps/developer/common-data-service/reference/entities/organization#BKMK_OOBPriceCalculationEnabled)
 
 
 If the **Use system pricing calculation** option is set to **Yes**, price calculation happens when an opportunity, order, quote, or invoice record is opened, created, or updated or when products are added, updated, or deleted from the entity record.

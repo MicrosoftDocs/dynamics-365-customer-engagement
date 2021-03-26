@@ -15,7 +15,7 @@ manager: annbe
 The live org chart lets salespeople maintain external organization charts for their accounts. [!INCLUDE [pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, helping to ensure that contacts are kept up to date.
 
 > [!IMPORTANT]
-> When using the org chart, the hierarchy settings will be auto-enabled if they weren't enabled before. A relationship with schema name `contact_parent_contact` will be created with the parent attribute schema name `parent_contactid`. If you wish to use a different relationship for the org chart, please contact your admin to create a new [hierarchical relationship](https://blogs.technet.microsoft.com/lystavlen/2014/10/02/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015/).
+> When using the org chart, the hierarchy settings will be auto-enabled if they weren't enabled before. A relationship with schema name `contact_parent_contact` will be created with the parent attribute schema name `parent_contactid`. If you wish to use a different relationship for the org chart, please contact your admin to create a new [hierarchical relationship](/archive/blogs/lystavlen/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015).
 
 ## Accessing the Org Chart
 
@@ -79,10 +79,10 @@ When a contact is removed, the direct reports (if available) of that contact wil
 ![Control to remove a contact from an org chart](media/org-chart-remove-contact.png)
 
 ### See also
-[Work with accounts and contacts in model-driven apps](../basics/accounts-contacts.md)    
+[Work with accounts and contacts in model-driven apps](../customerengagement/on-premises/basics/accounts-contacts.md)    
 [User Guide (Sales and Sales Hub)](user-guide.md)    
 [Administrator and Sales Manager Guide](admin-guide.md)    
-[How to enable hierarchy for contacts](https://blogs.technet.microsoft.com/lystavlen/2014/10/02/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015/)
+[How to enable hierarchy for contacts](/archive/blogs/lystavlen/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

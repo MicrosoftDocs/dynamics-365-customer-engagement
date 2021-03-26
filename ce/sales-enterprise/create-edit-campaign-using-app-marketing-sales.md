@@ -53,7 +53,7 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
    2. In the **Schedules** section, enter the proposed and actual start and end dates of the campaign.  
   
-   3. To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record](../basics/add-phone-call-task-email-appointment-activity-case-record.md)    
+   3. To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record](../customerengagement/on-premises/basics/add-phone-call-task-email-appointment-activity-case-record.md)    
   
    4. Enter details about the cost of the campaign and campaign activities, and the budget and revenue of the campaign in the **Financials** section of the **Details** tab.
   

@@ -59,7 +59,7 @@ For information on how to resolve the common errors that you may get while you q
 
 When qualifying a lead, if a duplicate account or contact is detected while creating new records, a duplicate warning is shown to you. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you will see the options to resolve duplicates.
 
-For information on enabling the improved duplicate detection and merge experience, see [Enable the improved duplicate detection and merge experience](https://go.microsoft.com/fwlink/p/?linkid=2148601).
+For information on enabling the improved duplicate detection and merge experience, see [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection).
 
 ### Duplicate detection when improved duplicate detection and merge experience is disabled
 
@@ -96,7 +96,7 @@ When salespeople work on a lead, they use notes to store key information on the 
   
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)          
+[Print leads, quotes, and other records](../customerengagement/on-premises/basics/print-leads-quotes-other-records.md)          
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
