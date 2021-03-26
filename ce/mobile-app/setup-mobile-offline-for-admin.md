@@ -69,7 +69,7 @@ One of the first things you need to do is enable entities that will be available
    
    
 > [!IMPORTANT]
-> Effective February 2021, **Organization data download filter** option are deprecated. We recommend that you start preparing your organization and move relevant data filters from **Organization data download filter** to the offline profile option which lets you determine what data will be available when users work in offline mode. For more information, see [Create a mobile offline profile](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline#step-2-create-a-mobile-offline-profile-to-determine-what-data-will-be-available-while-offline). Once the old filter criteria has been moved to offline profile, you can clear or delete the filters set in **Organization data download filter**. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](https://docs.microsoft.com/power-platform/important-changes-coming#organization-data-download-filters-for-mobile-offline-are-deprecated).
+> Effective February 2021, **Organization data download filter** option are deprecated. We recommend that you start preparing your organization and move relevant data filters from **Organization data download filter** to the offline profile option which lets you determine what data will be available when users work in offline mode. For more information, see [Create a mobile offline profile](./setup-mobile-offline.md#step-2-create-a-mobile-offline-profile-to-determine-what-data-will-be-available-while-offline). Once the old filter criteria has been moved to offline profile, you can clear or delete the filters set in **Organization data download filter**. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming#organization-data-download-filters-for-mobile-offline-are-deprecated).
  
 6. Select **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
   
@@ -134,7 +134,7 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
  
 
-10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](/powerapps/maker/common-data-service/types-of-entities).
 
  
    |Entity ownership type|Available Data Download Filter options |  

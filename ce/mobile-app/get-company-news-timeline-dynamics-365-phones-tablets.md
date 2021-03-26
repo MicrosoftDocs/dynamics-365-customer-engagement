@@ -24,9 +24,9 @@ search.app:
 ---
 # Stay on top of the latest news about your customers
 
-Effective July 10, 2020, Company News Timeline solution will be deprecated. Until September 10, 2020, Microsoft will continue to provide support for the feature, but won't release any additional functionality beyond what is already present. After September 10, 2020, the Company News Timeline solution won't be available. To continue to benefit from news updates about your customers, you can install news Power Apps component framework control. For more information, see [Set up and use the news control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/stay-current-with-news-control).
+Effective July 10, 2020, Company News Timeline solution will be deprecated. Until September 10, 2020, Microsoft will continue to provide support for the feature, but won't release any additional functionality beyond what is already present. After September 10, 2020, the Company News Timeline solution won't be available. To continue to benefit from news updates about your customers, you can install news Power Apps component framework control. For more information, see [Set up and use the news control](/powerapps/maker/model-driven-apps/stay-current-with-news-control).
 
-For further information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](https://docs.microsoft.com/power-platform/important-changes-coming#company-news-timeline-solution-is-deprecated).
+For further information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and model-driven apps in Dynamics 365](/power-platform/important-changes-coming#company-news-timeline-solution-is-deprecated).
 
 
 
