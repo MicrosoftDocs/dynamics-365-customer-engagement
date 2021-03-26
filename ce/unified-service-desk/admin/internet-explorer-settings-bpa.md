@@ -167,7 +167,7 @@ To enable the option using Internet options:
 5. Select **Apply**, and then select **OK**.
 
 > [!TIP]
-> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
+> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](/archive/blogs/usd/ie-process-mode-gives-httpevent-popup).
 
 ## Cleanup HTCs
 

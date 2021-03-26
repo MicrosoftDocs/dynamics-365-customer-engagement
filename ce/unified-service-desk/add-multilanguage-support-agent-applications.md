@@ -46,7 +46,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
    1. Sign in to the Dynamics 365 instance.  
   
-   2. Go to **Settings** > **Customizations** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))  
+   2. Go to **Settings** > **Customizations** ([How do I get there?](../customerengagement/on-premises/basics/basics-guide.md))  
   
    3. Click **Customize the System** to add the web resources to the default solution.  
   

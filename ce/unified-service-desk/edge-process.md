@@ -124,7 +124,7 @@ With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a
 
 In the panel, you can see all the active Edge process. Select the desired webpage from the active list to open a new instance.
 
-More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/microsoft-edge/devtools-guide)
+More information: [Microsoft Edge DevTools Preview](/microsoft-edge/devtools-guide)
 
 ## RunScript action is asynchronous in Edge Process
 

@@ -352,7 +352,7 @@ Occurs after a record in the model-driven app page is saved.
  [Events](../unified-service-desk/events.md)   
  [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Administration Guide for Unified Service Desk](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,7 +27,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  Unified Service Desk provides you with a sample package, **Interactive Service Hub**, which demonstrates how easily you can integrate the interactive service hub pages within Unified Service Desk. More information: [Unified Service sample applications](admin/sample-unified-service-desk-applications.md)  
 
 > [!NOTE]
->  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](https://go.microsoft.com/fwlink/?linkid=857057) forms used by the Interactive Service Hub application instead of the model-driven apps forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/24/support-for-interaction-centric-forms-within-unified-service-desk/)  
+>  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622060(v=crm.8)) forms used by the Interactive Service Hub application instead of the model-driven apps forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](/archive/blogs/usd/support-for-interaction-centric-forms-within-unified-service-desk)  
 
 <a name="Create"></a>   
 ## Create an Interactive Service Hub Page hosted control

@@ -26,7 +26,7 @@ This topic provides information on things to consider while creating a computer 
 ## CTI Control (softphone user interface) specification  
  To ensure that softphone and [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] user interface components will interoperate with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], make sure of the following:  
 
-- Controls are created using [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)], and are derived from the [DynamicsBaseHostedControl](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class.  
+- Controls are created using [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)], and are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class.  
 
 - [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] controls are placed on `CtiPanel`  panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The height of the control should be 23 to fit in `CtiPanel`. Larger controls may be used.  
 
@@ -127,11 +127,11 @@ This topic provides information on things to consider while creating a computer 
 
 <a name="chat"></a>   
 ## Special features of chat events  
- When responding to chat events, some special things occur in the system. It is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event data parameter “`CTIDESKTOPMANAGERCONTROL`” value is populated with the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control name and it supports the `SendIM` action. If the [CALLTYPE](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.calltype) passed into the [CtiLookupRequest](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) is “Chat”, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will show an extra button on the agent scripting user interface. If the agent selects this button, it will attempt to invoke the `SendIM` action on the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control specified in the `CTIDESKTOPMANAGERCONTROL` control. It will pass the text of the agent script to this action, and it is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control will write this text to the chat output.  
+ When responding to chat events, some special things occur in the system. It is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event data parameter “`CTIDESKTOPMANAGERCONTROL`” value is populated with the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control name and it supports the `SendIM` action. If the [CALLTYPE](/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.calltype) passed into the [CtiLookupRequest](/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) is “Chat”, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] will show an extra button on the agent scripting user interface. If the agent selects this button, it will attempt to invoke the `SendIM` action on the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control specified in the `CTIDESKTOPMANAGERCONTROL` control. It will pass the text of the agent script to this action, and it is assumed that the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Desktop Manager hosted control will write this text to the chat output.  
 
 ### See also  
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)   
- [CTIDESKTOPMANAGERCONTROL](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.ctidesktopmanagercontrol)   
+ [CTIDESKTOPMANAGERCONTROL](/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.ctidesktopmanagercontrol)   
  [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)   
  [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md)   
  [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)

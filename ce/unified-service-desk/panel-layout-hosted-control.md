@@ -119,7 +119,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
   
 <a name="SetVisualProperty"></a>   
 ### SetVisualProperty  
- Set the visual ([UIElement](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.uielement.aspx)) properties such as height, width, and visibility of a hosted control. This action call is specifically useful for UI automation, such as automatically displaying or hiding a panel. Familiarity with XAML and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] layout is required for effectively using this action.  
+ Set the visual ([UIElement](/uwp/api/Windows.UI.Xaml.UIElement)) properties such as height, width, and visibility of a hosted control. This action call is specifically useful for UI automation, such as automatically displaying or hiding a panel. Familiarity with XAML and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] layout is required for effectively using this action.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -130,7 +130,7 @@ Use **Panel Layout** hosted control to define the arrangement of panels in [!INC
  For an example usage of this message, see [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md#Step3) in [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
   
 > [!NOTE]
->  By default, this action is exposed only for the **Panel Layout** type of hosted control. To use the `SetVisualProperty` action with all other predefined [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control types that are derived from the [DynamicsBaseHostedControl](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class, you must explicitly add a UII action called `SetVisualProperty` to the respective hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add UII action for a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)  
+>  By default, this action is exposed only for the **Panel Layout** type of hosted control. To use the `SetVisualProperty` action with all other predefined [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control types that are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class, you must explicitly add a UII action called `SetVisualProperty` to the respective hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add UII action for a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)  
   
 <a name="events"></a>   
 ## Predefined events  

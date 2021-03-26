@@ -115,7 +115,7 @@ entitytypename=incident
 <a name="Other"></a>   
 ## Configure other tasks for knowledge base articles
 
- You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your Dataverse instance under **Settings** > **Unified Service Desk** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636)).  
+ You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your Dataverse instance under **Settings** > **Unified Service Desk** ([How do I get there?](../customerengagement/on-premises/basics/basics-guide.md)).  
   
 ### See also
 

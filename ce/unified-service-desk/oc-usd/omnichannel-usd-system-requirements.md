@@ -26,7 +26,7 @@ The table shows the system requirements to use Omnichannel for Customer Service 
 
 ^The memory requirement is for out-of-the-box solutions. Evaluate the requirements when creating complex configurations for the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
-For other hardware requirements of the Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/unified-service-desk/admin/unified-service-desk-system-requirements).
+For other hardware requirements of the Unified Service Desk client application, see [Unified Service Desk system requirements](../admin/unified-service-desk-system-requirements.md).
 
 ### See also
 

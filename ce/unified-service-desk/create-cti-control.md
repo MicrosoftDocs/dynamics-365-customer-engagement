@@ -23,20 +23,20 @@ To manage agent states and call states, [!INCLUDE[pn_computer_telephony_integrat
 
 - **Call control**: Provides buttons that the agent can use to make a call, answer a call, put a call on hold, transfer a call to another agent, or hang up.  
 
-  Both of these controls are normal [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted controls that inherit from either the [HostedControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.hostedcontrol) or [HostedWpfControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.aif.hostedapplication.hostedwpfcontrol) class. You can also choose to merge both the controls into a single [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use UII hosted controls with Unified Service Desk](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)  
+  Both of these controls are normal [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted controls that inherit from either the [HostedControl](/dotnet/api/microsoft.uii.csr.hostedcontrol) or [HostedWpfControl](/dotnet/api/microsoft.uii.csr.aif.hostedapplication.hostedwpfcontrol) class. You can also choose to merge both the controls into a single [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use UII hosted controls with Unified Service Desk](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)  
 
 ## Interfaces for implementing a CTI Control  
  Use the following interfaces to implement the user interface of a CTI Control.  
 
 ### ICtiAgentStateControl  
- The [ICtiAgentStateControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatecontrol) interface is a specialized interface for describing a hosted control that is used for processing and/or displaying agent state information. This interface contains the [Boolean)](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatecontrol.setagentstate\(system.guid,system.string,system.string,system.boolean\)) method that’s used to set the state of an agent.  
+ The [ICtiAgentStateControl](/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatecontrol) interface is a specialized interface for describing a hosted control that is used for processing and/or displaying agent state information. This interface contains the [Boolean)](/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatecontrol.setagentstate(system.guid,system.string,system.string,system.boolean)) method that’s used to set the state of an agent.  
 
 ### IDesktopUserActionsConsumer  
- The [IDesktopUserActionsConsumer](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.core.idesktopuseractionsconsumer) interface is not specific to [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)], but it is typically used by the CTI Controls to provide access to desktop operations. It has two members:  
+ The [IDesktopUserActionsConsumer](/dotnet/api/microsoft.uii.desktop.core.idesktopuseractionsconsumer) interface is not specific to [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)], but it is typically used by the CTI Controls to provide access to desktop operations. It has two members:  
 
-- [DesktopLoadingComplete](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.core.idesktopuseractionsconsumer.desktoploadingcomplete): Raised when the desktop has completed loading. This is raised in a separate thread from the main desktop UI thread.  
+- [DesktopLoadingComplete](/dotnet/api/microsoft.uii.desktop.core.idesktopuseractionsconsumer.desktoploadingcomplete): Raised when the desktop has completed loading. This is raised in a separate thread from the main desktop UI thread.  
 
-- [IDesktopUserActions)](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.core.idesktopuseractionsconsumer.setdesktopuseractionsaccess\(microsoft.uii.desktop.core.idesktopuseractions\)): Used by the desktop loader to set a pointer to itself in the hosted control that implemented the [ICtiEnabledControlConsumer](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer) interface. It is the pointer to the desktop interface (shell).  
+- [IDesktopUserActions)](/dotnet/api/microsoft.uii.desktop.core.idesktopuseractionsconsumer.setdesktopuseractionsaccess(microsoft.uii.desktop.core.idesktopuseractions)): Used by the desktop loader to set a pointer to itself in the hosted control that implemented the [ICtiEnabledControlConsumer](/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer) interface. It is the pointer to the desktop interface (shell).  
 
   By implementing this interface, you get access to all user actions, as shown in the following example.  
 
@@ -53,15 +53,15 @@ string UserDefinedCommand(string command, string request);
 ```  
 
 ### ICtiEnabledControlConsumer  
- The [ICtiEnabledControlConsumer](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer) interface describes a hosted control that will accept pointers to the [CtiCallStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.cticallstatemanager) and the [CtiAgentStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctiagentstatemanager).  
+ The [ICtiEnabledControlConsumer](/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer) interface describes a hosted control that will accept pointers to the [CtiCallStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.cticallstatemanager) and the [CtiAgentStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.ctiagentstatemanager).  
 
  This interface has method definitions to perform following functions:  
 
-- [Object)](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.setmanagers\(system.object,system.object\)): Called by UII when a control that implements this interface is initialized.  
+- [Object)](/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.setmanagers(system.object,system.object)): Called by UII when a control that implements this interface is initialized.  
 
-- [SessionControllerEventArgs)](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.sessioncloseevent\(microsoft.uii.csr.sessioncontrollereventargs\)): Called by UII when a session is closing.  
+- [SessionControllerEventArgs)](/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.sessioncloseevent(microsoft.uii.csr.sessioncontrollereventargs)): Called by UII when a session is closing.  
 
-  The [ICtiEnabledControlConsumer](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer) interface uses the [IsManagersSet](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.ismanagersset) property to set or get whether the [Object)](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.setmanagers\(system.object,system.object\)) method has been called successfully.  
+  The [ICtiEnabledControlConsumer](/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer) interface uses the [IsManagersSet](/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.ismanagersset) property to set or get whether the [Object)](/dotnet/api/microsoft.uii.desktop.cti.core.ictienabledcontrolconsumer.setmanagers(system.object,system.object)) method has been called successfully.  
 
 <a name="Configure"></a>   
 ## Configure the CTI Control hosted control in Unified Service Desk  
