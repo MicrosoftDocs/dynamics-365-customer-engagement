@@ -1,7 +1,7 @@
 ---
 title: "Administer teams of users (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Organize users into teams and apply roles to teams in Dynamics 365 Marketing."
-ms.date: 08/16/2019
+ms.date: 03/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -27,7 +27,8 @@ A team is a group of users who share and collaborate on business records. A user
 
 To create a new team:
 
-1. Go to **Settings** > **Advanced settings** > **Organization** > **Team management**.
+1. Go to **Settings** ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") > **Advanced settings**.
+1. A new window titled **Business management** will open. Go to **Settings** at the top of the new window, then **System** > **Security** > **Teams**.
 1. Select **New** on the command bar.
 1. The **Add new team** page opens. Enter the following details.
     - **Team name**: Give the team a name
@@ -41,7 +42,8 @@ To create a new team:
 
 ## Add or remove members to the team
 
-1. Go to **Settings** > **Advanced settings** > **Organization** > **Team management**.
+1. Go to **Settings** ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") > **Advanced settings**.
+1. A new window titled **Business management** will open. Go to **Settings** at the top of the new window, then **System** > **Security** > **Teams**.
 1. Find and open the team in the list that you want to edit.
 1. The team record opens. Use the **Team members** section here to view and edit the team members as follows:
     - To add a member, select the **Add existing user** button at the top of the **Team members** section and then select one or more existing users to add.
