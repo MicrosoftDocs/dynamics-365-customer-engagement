@@ -33,7 +33,7 @@ Administrators use settings to fine-tune application behavior, set defaults, man
 
 1. The side navigator is updated to show pages available in the **Settings** work area, with **Settings overview** selected.
 
-## Work with administration settings
+## Work with the administration settings
 
 > [!div class="mx-imgBorder"]
 > ![The settings overview](media/admin-overview2.png)
