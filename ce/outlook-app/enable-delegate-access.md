@@ -36,10 +36,10 @@ Set up delegate access in Outlook to give someone permission to act on your beha
 
 ## Prerequisites
 
-- Exchange Online and Microsoft Outlook C2R (Click-to-Run) build 16.0.12130.20272 or later. To check which channel you need to be on for this version, see [Update history for Microsoft 365 Apps](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date). 
+- Exchange Online and Microsoft Outlook C2R (Click-to-Run) build 16.0.12130.20272 or later. To check which channel you need to be on for this version, see [Update history for Microsoft 365 Apps](/officeupdates/update-history-office365-proplus-by-date). 
 - Configure delegate access in Microsoft Outlook. At a minimum, a delegated user must have at least **Editor** permission on the delegated mailbox.  For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926).
 - Both manager and delegate user must have Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md). 
-- Make sure this Skype URL is whitelisted: [https://config.edge.skype.com](https://config.edge.skype.com/). Otherwise, Outlook C2R will not allow delegate access to work with shared calendars. For more information, see [Microsoft 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). 
+- Make sure this Skype URL is whitelisted: [https://config.edge.skype.com](https://config.edge.skype.com/). Otherwise, Outlook C2R will not allow delegate access to work with shared calendars. For more information, see [Microsoft 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). 
 
 ## Enable delegate access
 
@@ -54,7 +54,7 @@ Follow the instructions in this [Microsoft Support article](https://support.micr
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
 1.	Sign in as an admin to Dynamics 365 at [https://home.dynamics.com](https://home.dynamics.com).
-2.	On the home page, go to [**Settings** > **Advanced Settings**](https://docs.microsoft.com/power-platform/admin/admin-settings#app-settings).
+2.	On the home page, go to [**Settings** > **Advanced Settings**](/power-platform/admin/admin-settings#app-settings).
 
     > [!div class="mx-imgBorder"] 
     > ![](media/step1.png) 
@@ -92,7 +92,7 @@ No, to understand the difference between shared folders and delegate access, see
  
 ### Is delegate access supported using the MSI version of Outlook?
 
-No, it is only available for the supported version of Outlook C2R. For more information, see  [Update history for Microsoft 365 Apps](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date).
+No, it is only available for the supported version of Outlook C2R. For more information, see  [Update history for Microsoft 365 Apps](/officeupdates/update-history-office365-proplus-by-date).
 
 
 ### See also  
