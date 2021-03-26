@@ -1,7 +1,7 @@
 In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112584739-67d53880-8dc6-11eb-8c93-dcdf54867c33.png)
+> ![Screenshot of the new Schedule board in Dynamics 365, showing the resources and requirements.](../../field-service/media/Schedule-Board-New-Overview-01.png)
 
 
 The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
@@ -77,33 +77,33 @@ Right-click a resource's name and then choose **View Resource Card** to see more
 Select the map icon in the upper right of the schedule board to display the resources and requirements on a map.
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112584952-e7fb9e00-8dc6-11eb-8e0f-35462cef7225.png)
+> ![Screenshot of the Schedule Board with Map view](../../field-service/media/Schedule-Board-New-Map-02.png)
 
 After expanding the map view, select a resource's name to see their route. The numbers indicate the order the resource is scheduled to arrive at each job (requirement) location.
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112585093-2a24df80-8dc7-11eb-9a74-a55e953c956b.png)
+> ![Screenshot of the Schedule Board showing the Technician route](../../field-service/media/Schedule-Board-New-Map-Technician-route-03.png)
  
-At a zoomed out view of the Map, the requirements and resources are grouped together and a count of requirements and resources is shown. This enables to to quickly identify a geographical area with more number of unscheduled jobs and start scheduling the jobs to nearest resources in the area. 
+At a zoomed out view of the Map, the requirements and resources are grouped together and a count of requirements and resources is shown. This enables you to quickly identify a geographical area with more number of unscheduled jobs and then start scheduling the jobs to nearest resources in the area. 
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112587315-5e9a9a80-8dcb-11eb-9f9d-3bddf3587190.png)
+> ![Screenshot of the Schedule Board with the grouping of the requirement pins](../../field-service/media/Schedule-Board-New-Map-requirement-pin-cluster-04.png)
 
 You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. 
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112587585-d8cb1f00-8dcb-11eb-8555-6faacc9c39f3.png)
+> ![Screenshot of the Schedule Board with Dragging of the requirement pin](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drag-05.png)
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112587643-fac4a180-8dcb-11eb-8e82-f394d09df7a4.png)
+> ![Screenshot of the Schedule Board with Dropping of the requirement pin](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drop-06.png)
 
 You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route. 
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112588101-d4ebcc80-8dcc-11eb-8035-75f275ab5296.png)
+> ![Screenshot of the Schedule Board with dragging of the resource route](../../field-service/media/Schedule-Board-New-Map-tech-route-drag-07.png)
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112588115-db7a4400-8dcc-11eb-94f5-dc0444ab7ee8.png)
+> ![Screenshot of the Schedule Board with dropping of the resource route](../../field-service/media/Schedule-Board-New-Map-tech-route-drop-08.png)
 
 ## Daily view
 
@@ -150,10 +150,13 @@ Selecting **Book resources** will find the most optimal resources and book them 
 Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day, which is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112586274-838e0e00-8dc9-11eb-9f74-bfc3d19f8d90.png)
+> ![Screenshot of the optimize schedule for a resource.](../../field-service/media/Schedule-Board-optimizer-Sro-09.png)
 
 > [!div class="mx-imgBorder"]
-> ![image](https://user-images.githubusercontent.com/57967329/112586286-8ab51c00-8dc9-11eb-8b83-ef2b67078cf7.png)
+> ![Screenshot of the optimize schedule for a resource in progress.](../../field-service/media/Schedule-Board-optimizer-Sro-10.png)
+> 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the optimize schedule results.](../../field-service/media/Schedule-Board-optimizer-Sro-11.png)
 
 ## Move bookings to a new resource, a new start date and time, or both
 
