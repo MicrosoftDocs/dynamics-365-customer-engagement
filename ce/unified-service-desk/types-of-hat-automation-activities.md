@@ -112,7 +112,7 @@ There are various types of [!INCLUDE[pn_hosted_application_toolkit_hat](../inclu
 - `Password`:  Password.  
   
 > [!NOTE]
->  To retrieve the credentials from a custom store, the developer needs to provide a class that implements the [Microsoft.Uii.AifServices.ISsoLookupService](https://docs.microsoft.com/dotnet/api/Microsoft.Uii.AifServices.ISsoLookupService) interface.  
+>  To retrieve the credentials from a custom store, the developer needs to provide a class that implements the [Microsoft.Uii.AifServices.ISsoLookupService](/dotnet/api/Microsoft.Uii.AifServices.ISsoLookupService) interface.  
   
  `HostApplication`  
  Hosts the UI of the application. It uses the **Application Hosting** configuration data specified while configuring the hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on Microsoft Dataverse server to determine the hosting mode. For more information about specifying the hosting mode for an application in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md).  

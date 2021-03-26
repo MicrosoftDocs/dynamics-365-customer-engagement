@@ -19,7 +19,7 @@ search.app:
 # UII Application Integration Framework
 The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif-md.md)] in [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inteface-integration-uii-md.md)] enables the integration and automation of applications. Through [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)], applications can be launched and automated for a variety of purposes, for example, to reduce copy and paste. It also provides session management capabilities, which allows applications to be isolated from each other based on a session key. This separation helps to enforce data security and easier application management for the user.  
   
- [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] uses the [!INCLUDE[pn_composite_ui_application_block](../includes/pn-composite-ui-application-block-md.md)] tools and services for messaging, visual containment, application loading, and state management. For more information, and to download the application block, see [MSDN:  HYPERLINK "https://msdn.microsoft.com/library/aa480450.aspx" Smart Client – Composite UI Application Block](https://msdn.microsoft.com/library/aa480450.aspx).  
+ [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] uses the [!INCLUDE[pn_composite_ui_application_block](../includes/pn-composite-ui-application-block-md.md)] tools and services for messaging, visual containment, application loading, and state management. For more information, and to download the application block, see [MSDN:  HYPERLINK "https://msdn.microsoft.com/library/aa480450.aspx" Smart Client – Composite UI Application Block](/previous-versions/msp-n-p/ff648747(v=pandp.10)).  
   
 <a name="AIFComponents"></a>   
 ## AIF components  
@@ -56,8 +56,8 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
     A session can be associated with any type of channel (such as a phone call, an email message, an instant messaging [IM] conversation, or another means of communication). [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym-md.md)] can be configured to permit only one session at a time or multiple, concurrent sessions. Session management allows agents to handle multiple interactions simultaneously on different channels without losing or intermingling the context or state of each session.  
   
 ### See Also  
- [AifServices](https://docs.microsoft.com/dotnet/api/microsoft.uii.aifservices)   
- [IHostedApplication](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.aifinterfaces.ihostedapplication)   
+ [AifServices](/dotnet/api/microsoft.uii.aifservices)   
+ [IHostedApplication](/dotnet/api/microsoft.uii.csr.aifinterfaces.ihostedapplication)   
  [UII Hosted Applications](uii-hosted-applications.md)   
  [Extend Unified Service Desk](extend-unified-service-desk.md)   
  [Session management in Unified Service Desk](session-management-unified-service-desk.md)

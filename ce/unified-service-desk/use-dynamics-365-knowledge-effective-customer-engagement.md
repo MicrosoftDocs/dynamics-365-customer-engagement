@@ -18,7 +18,7 @@ search.app:
 ---
 
 # Use knowledge base management for effective customer engagement in Unified Service Desk
-Knowledge base management plays an important part in the customer service process, and access to accurate and up-to-date information can help your customer service agents reduce the average handle time to provide quick and accurate answers to your customers. The new knowledge management solution in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos. It also provides translation and versioning capabilities to support the knowledge lifecycle. If you’re using model-driven apps, you can set up knowledge management to use knowledge. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](https://go.microsoft.com/fwlink/p/?LinkId=691083)  
+Knowledge base management plays an important part in the customer service process, and access to accurate and up-to-date information can help your customer service agents reduce the average handle time to provide quick and accurate answers to your customers. The new knowledge management solution in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos. It also provides translation and versioning capabilities to support the knowledge lifecycle. If you’re using model-driven apps, you can set up knowledge management to use knowledge. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](../customerengagement/on-premises/basics/basics-guide.md)  
   
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to use the rich knowledge base from within the agent desktop so that your customer service agents can quickly search for relevant knowledge while working on a case, and provide accurate answers to the customers, without having to switch applications.  
 
@@ -78,7 +78,7 @@ Knowledge base management plays an important part in the customer service proces
 
  [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
 
- [Set up knowledge base management](https://go.microsoft.com/fwlink/p/?LinkId=691083)
+ [Set up knowledge base management](../customerengagement/on-premises/basics/basics-guide.md)
 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)
 

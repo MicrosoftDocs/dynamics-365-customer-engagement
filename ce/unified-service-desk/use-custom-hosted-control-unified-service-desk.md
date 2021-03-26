@@ -22,7 +22,7 @@ search.app:
 
 You can develop custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted controls if you have a special requirement that isn’t addressed by the predefined hosted control types. Microsoft Dataverse provides a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control. The template provides basic code as comments to help you get started quickly with creating a custom hosted control.  
   
- Like the predefined hosted controls, custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted controls are also derived from the [DynamicsBaseHostedControl](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class.  
+ Like the predefined hosted controls, custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted controls are also derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class.  
   
 ## In This Section  
  [Walkthrough: Create custom hosted control for Unified Service Desk](../unified-service-desk/walkthrough-create-custom-hosted-control-for-unified-service-desk.md)  
