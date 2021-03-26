@@ -30,9 +30,9 @@ Administrators and users who have administrative responsibilities typically use 
   
  For more information, see the following [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] accessibility topics:  
   
--   [Navigation in MMC Using the Keyboard and Mouse](https://technet.microsoft.com/library/cc766527.aspx)  
+-   [Navigation in MMC Using the Keyboard and Mouse](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766527(v=ws.11))  
   
--   [MMC Keyboard Shortcuts](https://technet.microsoft.com/library/cc766476.aspx)  
+-   [MMC Keyboard Shortcuts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766476(v=ws.11))  
   
 ## Accessibility features in browsers  
  The following table contains links to documentation about web browser accessibility.  
