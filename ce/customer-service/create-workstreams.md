@@ -57,11 +57,12 @@ Perform the following steps to configure the workstream in Omnichannel admin cen
 ### Configure work distribution
 
 In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options.
+
 - **Auto-close after inactivity:** Select a time period after which inactive conversations will be moved to the closed state automatically.
 - **Work distribution mode:** The option that you selected in step 3 is displayed and can't be edited.
 - **Capacity:** Select one of the following options:
-   - **Unit based:** Enter value if your organization has configured unit-based capacity.
-   - **Profile based:** Specify a profile in the list if your organization has configured profile-based capacity.
+  - **Unit based:** Enter value if your organization has configured unit-based capacity.
+  - **Profile based:** Specify a profile in the list if your organization has configured profile-based capacity.
 - **Allowed presences:** Select the presences in which agents will be assigned.
 - **Default skill matching algorithm**: Select Exact Match or Closest Match.
 - **Keep same agent for entire conversation:** Set the toggle to yes if you want the conversation to be remained assigned to the originally-assigned agent. More information: [Agent affinity](work-streams-introduction.md#agent-affinity)

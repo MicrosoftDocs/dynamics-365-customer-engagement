@@ -44,15 +44,12 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - Customer wait time
    - Customer location detection
 8. On the **User features** page, configure the following options:
-   - File attachments
+   - [File attachments](enable-file-attachments.md)
    - Customer notifications
    - Conversation transcripts
    - Voice and video calls
    - Screen sharing
    - Co-browse
-
-
-
 
 
 ## Configure a chat widget in Omnichannel Administration
@@ -93,9 +90,9 @@ Perform the following steps to configure chat in Omnichannel admin center:
     |**File attachments** | **Enable file attachments for customers** |Select whether to allow customers to attach and send files as attachments. <br> More information: [Configure file attachment capability](configure-file-attachment.md) | Yes |
     | | **Enable file attachments for agents** | Select whether to allow agents to attach and send files as attachments. <br> More information: [Configure file attachment capability](configure-file-attachment.md) | Yes |
     |||
-    
+
     | Section | Field | Description | Example value |
-    |---------------|------------------------|-----------------------------------|---------------------|        
+    |---------------|------------------------|-----------------------------------|---------------------|
     | **Chat Transcripts** | **Allow download of transcript** | Select whether to allow chat transcripts to be downloaded. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
     | | **Allow email of transcript** |Select whether to allow chat transcripts to be emailed. <br> More information: [Configure download and email of chat transcripts](download-email-chat-transcripts.md) | Yes |
     | | **Email Template** |If you selected **Yes** for the **Allow email of transcript** field, the **Email Template** field is displayed. Select the email template you want to use to send the chat transcript as an email to the customer. | Conversation transcript email template |
