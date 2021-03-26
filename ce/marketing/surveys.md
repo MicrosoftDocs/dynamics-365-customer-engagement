@@ -43,11 +43,11 @@ Go to **Customer Voice** to design your surveys. The functionality provided here
 
 Go to **Marketing** to access your Dynamics 365 dashboards, activities, and customer data. This is the same data you'll find in your Marketing app and is provided here for convenience. These entities work just like they do in other Dynamics 365 applications, including Marketing.-->
 
-The Surveys app provides the same settings and options as the Customer Voice app. More information: [Customer Voice online help](https://docs.microsoft.com/dynamics365/customer-voice/create-survey)
+The Surveys app provides the same settings and options as the Customer Voice app. More information: [Customer Voice online help](/dynamics365/customer-voice/create-survey)
 
 ### See also
 
-[Create a survey](https://docs.microsoft.com/dynamics365/customer-voice/create-survey)<br>
+[Create a survey](/dynamics365/customer-voice/create-survey)<br>
 [Find your way around](navigation.md)
 
 
