@@ -10,7 +10,7 @@ This release also includes all the fixes included in the [2021 wave 1 early acce
 
 - When creating multiday booking using **Evenly Distribute** booking method, user cannot overbook resource with single booking if duration is greater than resource's availability during that time. This bug is now fixed. 
 - Fixed a bug where quick scheduling is used on a requirement group with work location set to *Facility*, no available resources are returned. 
-- Start and end time on schedule assistant list view mismatches with estimated arrival time and end time on the create resource booking panel when using fulfilment preferences (intervals) are used on aa *Onsite* requirement. This bug is now fixed. 
+- Start and end time on schedule assistant list view mismatches with estimated arrival time and end time on the create resource booking panel when using fulfillment preferences (intervals) are used on aa *Onsite* requirement. This bug is now fixed. 
 - **Rebook button** on requirement group’s bookings is using the **Default Booking Committed Status** from default **None** booking setup metadata, rather than using the default booking committed status from the schedulable entity’s booking setup metadata record. 
 - **Clear Sorting** option is now available on the column filters of the requirement panel of the new schedule board. 
 - When using quick book, the back button on the view resources page disappears if a different date is selected. This bug is now fixed. 
@@ -51,7 +51,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 3.12.36.2
 
-- Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the schedule assistant.
+- Fixed a bug where resources with certain work hours calendar types (type = -1) were not returned by the schedule assistant.
 - When the date format is set to English (United Kingdom), the date fields on the create resource booking pane of schedule assistant were not respecting the above date format selected. This bug is now fixed.
 - When a schedule board tab’s setting requirement map filter view is configured to a resource requirement entity view that has a view definition including link entity filtering does not contain data, the map view on the tab, does not load. This bug is now fixed. 
 - Keyboard navigation and selection issues on the "Characteristics – Rating" filter on the filter view of the schedule board are fixed. 
