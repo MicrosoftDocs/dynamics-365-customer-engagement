@@ -15,8 +15,9 @@
 ### [System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)
 ### [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
 
-## International availability
+## Availability
 ### [International availability of Omnichannel for Customer Service](international-availability.md)
+### [Dynamics 365 US Government Community Cloud (GCC) availability](government-availability.md)
 
 ## Accessibility and privacy
 ### [Accessibility](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
@@ -235,7 +236,6 @@
 ##### [Test the custom messaging channel](bring-your-own-channel-sample-html.md)
 
 
-
 ## Advanced settings for chat and channels
 ### [Configure operating hours](create-operating-hours.md)
 ### [Enable file attachments](enable-file-attachments.md)
@@ -286,15 +286,19 @@
 ## Bots
 
 ### Administrator experience
-#### Configure bots
-##### [Integrate an Azure bot](configure-bot.md)
+
+#### [Integrate an Azure bot](configure-bot.md)
+
 #### [Configure context variables for bots](context-variables-for-bot.md)
 
+#### [Link customer and case when bot escalates to human agent](link-customer-case-when-bot-escalates.md)
+
 ### Developer experience
+
 #### [Enable bot context NuGet package](enable-bot-context.md)
+
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
-
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)

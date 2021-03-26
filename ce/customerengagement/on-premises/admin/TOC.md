@@ -125,6 +125,7 @@
 #### [Overview](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
 #### [Connect to POP3 or SMTP servers](connect-to-pop3-or-smtp-servers.md) 
 #### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md)
+#### [Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Server (on-premises)](connect-on-prem-exchange-server-on-prem.md)
 #### [Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online](connect-dynamics-365-on-premises-exchange-online.md)
 #### [Migrate settings from the Email Router to server-side synchronization](migrate-settings-email-router-server-side-synchronization.md)
 #### [Troubleshooting](troubleshooting-monitoring-server-side-synchronization.md)
