@@ -35,22 +35,25 @@ Perform the following steps to configure chat in Omnichannel admin center:
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
-   - Only show widget on the provided domains
-7. On the Behaviors page, configure the following options:
-   - Custom automated messages
-   - Pre-conversation survey
-   - Post-conversation survey
-   - Authentication settings
+     - **Operation hours name:** Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
+   - **Only show widget on the provided domains:** Enter the link of the portal.
+7. On the **Behaviors** page, configure the following options:
+   - [Custom automated messages](configure-automated-message.md)
+   - [Pre-conversation survey](configure-pre-chat-survey.md)
+   - [Post-conversation survey](configure-post-conversation-survey.md)
+   - [Authentication settings](create-chat-auth-settings.md)
    - Customer wait time
-   - Customer location detection
+     - **Show position in queue:** Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
+     - **Show average wait time:** Select if you want to show customers average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
+   - Customer location detection: Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 8. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
-   - Conversation transcripts
-   - Voice and video calls
-   - Screen sharing
-   - Co-browse
-
+   - [Conversation transcripts](download-email-chat-transcripts.md)
+   - **Voice and video calls:** Set the toggle to **On** and select the calling option.
+   - **Screen sharing:** Set the toggle to **On** and select a provider.
+   - **Co-browse:** Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
+9. Select **Save and close**.
 
 ## Configure a chat widget in Omnichannel Administration
 
@@ -121,7 +124,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
     | Pre-conversation survey | Pre-conversation survey | Select whether to set up a pre-chat survey in the chat widget. The survey will be shown to users before a conversation is initiated. | Yes |
-    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey](configure-pre-chat-survey.md) | Product |
+    | Pre-chat unauthenticated questions | Pre-chat unauthenticated questions | If you set **Yes** for the **Pre-conversation survey** field, the **Pre-chat unauthenticated questions** section is displayed. <br> Add the pre-chat questionnaires <br> More information: [Configure a pre-conversation survey][(configure-pre-chat-survey.md)] | Product |
     |Post-conversation survey| Turn on | If you set to **Yes**, you can configure a post-conversation survey to be presented to customers. More information: [Configure a post-conversation survey](configure-post-conversation-survey.md) |
 
     > [!div class=mx-imgBorder]
@@ -150,8 +153,8 @@ Perform the following steps to configure chat in Omnichannel admin center:
     | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
     | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift |
-    |Online|Turn on sound notifications|Set to Yes if you want customers to receive a sound notification when the chat widget is minimized or not active||
-    |Online|Turn on unread message indicator|Set to Yes if you want to display the count of unread messages when the chat widget is minimized or not active.||
+    |Online|Turn on sound notifications|Set to **Yes** if you want your customers to receive a sound notification when the chat widget is minimized or not active||
+    |Online|Turn on unread message indicator|Set to Yes if you want to display the count of unread messages when the chat widget is minimized or not active for the customer.||
     | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No; the chat widget will be hidden .|
     | Offline | Theme color | Select a color from the list. | Grey |
     |Offline | Title | Specify a title to be displayed. | We're offline. |

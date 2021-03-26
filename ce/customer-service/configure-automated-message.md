@@ -4,7 +4,7 @@ description: "Instructions to configure automated messages in Omnichannel for Cu
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/07/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -22,14 +22,15 @@ You can configure Omnichannel for Customer Service to send automated messages th
 
 You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment. Administrators can overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. See [Preconfigured automated message triggers](#preconfigured-automated-message-triggers) for more information.
 
-1. Sign in to Omnichannel Administration.
+1. In Omnichannel admin center, select **Customer settings** in the site map, and select **Manage** for **Automated messages**. The list of all the automated messages is displayed.
+2. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
 
-2. Go to **Settings**, and select **Automated messages** to display a list of all the automated messages.
+1. If you are using Omnichannel Administration, under **Settings**, select **Automated messages**. A list of all the automated messages is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Display all automated messages](media/automated-messages-list.png "Display all automated messages")
-    
-3. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
+
+2. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
 
 ## Customize automated messages at the channel level
 
