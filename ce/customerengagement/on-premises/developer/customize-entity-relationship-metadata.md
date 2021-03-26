@@ -72,7 +72,7 @@ Entity relationships define the ways that entity records can be associated with 
 
  With Dynamics 365 Customer Engagement (on-premises), you can specify one self-referencing one-to-many entity relationship as the designated hierarchical relationship for an entity. The `OneToManyRelationship.IsHierarchical` property (<xref href="Microsoft.Dynamics.CRM.OneToManyRelationship?text=OneToManyRelationship" />.IsHierarchical or <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.IsHierarchical>) flags this relationship as the one-to-many relationship to use for the entity.  
   
- All one-to-many entity relationships represent a type of hierarchy, but relationships explicitly flagged using the `IsHierarchical` property are the only entity relationships that support the hierarchy visualizations in the application as well as new query operators to retrieve hierarchically related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Query hierarchical data](org-service/query-hierarchical-data.md)  
+ All one-to-many entity relationships represent a type of hierarchy, but relationships explicitly flagged using the `IsHierarchical` property are the only entity relationships that support the hierarchy visualizations in the application as well as new query operators to retrieve hierarchically related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Query hierarchical data](/powerapps/developer/data-platform/query-hierarchical-data)  
   
 ### Change the name of Web API navigation properties  
  If you want to apply a custom Web API navigation property name for a one-to-many relationship you can set values for the `OneToManyRelationshipMetadata.ReferencingEntityNavigationPropertyName` and `OneToManyRelationshipMetadata.ReferencedEntityNavigationPropertyName` properties.  
@@ -128,16 +128,16 @@ Entity relationships define the ways that entity records can be associated with 
   The integer provided for the order will control the relative position of navigation items in the group. The lower the value, the higher the item appears relative to the values of other items in the group.  
   
 ### See also  
- [Create and update entity relationships using Web API](webapi/create-update-entity-relationships-using-web-api.md)  
+ [Create and update entity relationships using Web API](/powerapps/developer/data-platform/webapi/create-update-entity-relationships-using-web-api)  
  [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Entity Relationship Messages](entity-relationship-metadata-messages.md)   
  [Entity Relationship Eligibility](entity-relationship-eligibility.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   
- [Create Entity Relationships](org-service/create-retrieve-entity-relationships.md)   
- [Sample: Create Entity Relationships](org-service/sample-create-retrieve-entity-relationships.md)   
- [Sample: Dump Entity Relationship Information to a File](org-service/sample-dump-entity-relationship-information-file.md)   
+ [Create Entity Relationships](/powerapps/developer/data-platform/org-service/metadata-relationshipmetadata)   
+ [Sample: Create Entity Relationships](/powerapps/developer/data-platform/org-service/metadata-relationshipmetadata)   
+ [Sample: Dump Entity Relationship Information to a File](/powerapps/developer/data-platform/org-service/metadata-relationshipmetadata)   
  [Entity and Attribute Mappings](customize-entity-attribute-mappings.md)   
- [Retrieve Records for Many-To-Many Relationships using Intersect Entities](org-service/retrieve-records-many-to-many-relationships-intersect-entities.md)
+ [Retrieve Records for Many-To-Many Relationships using Intersect Entities](/powerapps/developer/data-platform/org-service/samples/retrieve-records-intersect-table)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

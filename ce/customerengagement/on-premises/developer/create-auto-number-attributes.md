@@ -27,7 +27,7 @@ With the Dynamics 365 Customer Engagement (on-premises) version 9 release, you c
 
 You can create an auto-number attribute in the same way you create a string attribute using the **StringAttributeMetadata** class except that you use the new **AutoNumberFormat** property. Use the **AutoNumberFormat** property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicates the length and type of values that are generated. The random strings help you to avoid duplicates or collisions, especially when offline clients trying to create auto-numbers.
 
-When creating an auto-number attribute, the **StringAttributeMetadata.FormatName** property or the **StringAttributeMetadata.Format** property values must be Text. Since these are the default values you will typically not set this property. You cannot create an auto-number attribute that uses any other special kind of format such as Email, Phone, TextArea, Url or any other [existing formats](https://msdn.microsoft.com/library/microsoft.xrm.sdk.metadata.stringformatname.aspx).
+When creating an auto-number attribute, the **StringAttributeMetadata.FormatName** property or the **StringAttributeMetadata.Format** property values must be Text. Since these are the default values you will typically not set this property. You cannot create an auto-number attribute that uses any other special kind of format such as Email, Phone, TextArea, Url or any other [existing formats](/previous-versions/dynamicscrm-2016/developers-guide/dn439753(v=crm.8)).
 
 Autonumber sequencing is managed by SQL and is ensured to be unique.
 
@@ -69,7 +69,7 @@ CreateAttributeRequest widgetSerialNumberAttributeRequest = new CreateAttributeR
 
 You can create and update entity definitions using the Web API.
 
-More information: [Create and update entity definitions using the Web API > Create attributes](https://msdn.microsoft.com/library/mt593078.aspx#Anchor_3).
+More information: [Create and update entity definitions using the Web API > Create attributes](/previous-versions/dynamicscrm-2016/developers-guide/mt593078(v=crm.8)#Anchor_3).
 
 #### Request
 ```http
@@ -144,7 +144,7 @@ These examples show how you can configure the **AutoNumberFormat** property to g
 |`CAS-{SEQNUM:6}-{DATETIMEUTC:yyyyMMddhh}-{RANDSTRING:6}`|`CAS-002002-2017091309-HTZOUR`|
 |`CAS-{SEQNUM:6}-{DATETIMEUTC:yyyyMM}-{RANDSTRING:6}-{DATETIMEUTC:hhmmss}`|`CAS-002000-201709-Z8M2Z6-110901`|
 
-The random string placeholders are optional.You can include more than one random string placeholder. Use any of the format value for datetime placeholders from [Standard Date and Time Format Strings](https://docs.microsoft.com/dotnet/standard/base-types/standard-date-and-time-format-strings).
+The random string placeholders are optional.You can include more than one random string placeholder. Use any of the format value for datetime placeholders from [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
 ### String length
 
@@ -245,7 +245,7 @@ _serviceProxy.Execute(req);
 ```
 Using the Web API **SetAutoNumberSeed** Action.
 
-More information: [Use Web API actions > Unbound actions](https://msdn.microsoft.com/library/mt607600.aspx#bkmk_unboundActions)
+More information: [Use Web API actions > Unbound actions](/previous-versions/dynamicscrm-2016/developers-guide/mt607600(v=crm.8)#bkmk_unboundActions)
 
 #### Request
 

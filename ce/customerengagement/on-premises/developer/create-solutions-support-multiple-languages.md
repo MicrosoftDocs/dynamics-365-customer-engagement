@@ -42,7 +42,7 @@ search.audienceType:
  ## String (RESX) web resources
  With string (RESX) web resources added with [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] developers have a more robust option to create web resources that support multiple languages. More information [String (RESX) web resources](resx-web-resources.md).
 
- For earlier versions, see [Developer option](https://msdn.microsoft.com/library/hh670609(v=crm.8).aspx#BKMK_DeveloperOption)
+ For earlier versions, see [Developer option](/previous-versions/dynamicscrm-2016/developers-guide/hh670609(v=crm.8)#BKMK_DeveloperOption)
   
 <a name="BKMK_EmbeddedLabels"></a>   
 ## Embedded labels  
@@ -168,7 +168,7 @@ search.audienceType:
   
 1. Install the appropriate language pack and provision the language.  
   
-    For more information, see [Language Pack Installation Instructions](https://technet.microsoft.com/library/hh699674.aspx).  
+    For more information, see [Language Pack Installation Instructions](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699674(v=crm.8)).  
   
 2. Change your personal options to specify the **User Interface Language** for the language you want for the dialog.  
   
