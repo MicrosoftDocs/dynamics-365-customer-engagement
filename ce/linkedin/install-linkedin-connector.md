@@ -48,9 +48,9 @@ First, an administrator needs to install the solution.
 
 3. Select **Get** to start installing the solution.
 
-4. Review and accept the disclaimer, required permissions, and service terms to install the connector. You need to be a global admin in this Microsoft 365 tenant to authorize S2S inbound. More information about S2S: [MSDN: Build web applications using Server-to-Server (S2S) authentication](https://msdn.microsoft.com/library/mt790168.aspx)  
+4. Review and accept the disclaimer, required permissions, and service terms to install the connector. You need to be a global admin in this Microsoft 365 tenant to authorize S2S inbound. More information about S2S: [MSDN: Build web applications using Server-to-Server (S2S) authentication](/previous-versions/dynamicscrm-2016/developers-guide/mt790168(v=crm.8))  
    It takes a few minutes to install the solution. To monitor the status of the installation, or update or remove a managed solution, go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-   More information: [TechNet: Use the Microsoft 365 admin center to manage your subscription](https://technet.microsoft.com/library/dn973004.aspx).
+   More information: [TechNet: Use the Microsoft 365 admin center to manage your subscription](/power-platform/admin/use-office-365-admin-center-manage-subscription).
 
 5. In Dynamics 365 Sales, go to **Settings** > **Customization** > **Solutions** and select **LinkedIn Lead Gen Forms Connector** to see the solution details.  
    ![LinkedIn Lead Gen Forms Connector solution detail](media/Solution-details.png "LinkedIn Lead Gen Forms Connector solution details")
@@ -61,9 +61,9 @@ First, an administrator needs to install the solution.
 
 * **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson**&mdash;These users can authorize [!include[LinkedIn](../includes/pn-linkedin.md)] user profiles to sync data to Dynamics 365, and view details about the synced submissions.
 
-Assign these security roles to users you want to provide access to the **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [TechNet: Create users and assign security roles](https://technet.microsoft.com/library/jj191623.aspx#BKMK_AssignSecurity).
+Assign these security roles to users you want to provide access to the **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** menu item. To learn how to assign a security role to users, see [TechNet: Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles#BKMK_AssignSecurity).
 
-More information about installing or removing a solution: [TechNet: Install or remove a preferred solution](https://technet.microsoft.com/library/dn878909.aspx).
+More information about installing or removing a solution: [TechNet: Install or remove a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)).
 
 ## Update the solution
 
