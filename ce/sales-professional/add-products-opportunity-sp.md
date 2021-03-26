@@ -72,7 +72,7 @@ Here are the actions you can take on the products added to the **Product Line It
 
 [Create or edit opportunities](manage-opportunities-sales-professional.md)  
 [Develop sales from lead-to-cash process](develop-sales-lead-to-cash-sales-professional.md)   
-[Dynamics 365 Sales troubleshooting guide for administrators](../sales-enterprise/troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide for administrators](/dynamics365/sales-professional/troubleshooting)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

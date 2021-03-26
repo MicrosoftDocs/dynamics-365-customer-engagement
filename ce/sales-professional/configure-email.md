@@ -45,7 +45,7 @@ To configure Exchange, you must have:
 -   Exchange Online subscription
 
 For more information about managing subscriptions, see [Manage Microsoft Dynamics 365 (online)
-instances](https://go.microsoft.com/fwlink/?linkid=730725).
+instances](../admin/backup-restore-instances.md).
 
 1.  In the site map, select **Sales Settings**, and then under **Standard settings**, select **Set up email**.
 

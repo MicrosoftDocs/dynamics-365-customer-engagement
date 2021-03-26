@@ -37,7 +37,7 @@ Your system administrator can choose the entities for which PDF generation is en
     A preview based on the selected template is shown, and the PDF file name is populated. If you'd like to use a different template than the one selected, search for and select it in the **Select a template to generate PDF document** box. After you select the template, the preview will be refreshed.
 
     > [!IMPORTANT]
-    > - Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md). 
+    > - Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that don't have out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. To learn more about using Word templates, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). 
     > - If there are multiple Word templates available for the entity, by default the first template in the list is selected. 
     > - If the setting to view or download a PDF file automatically is disabled in your browser settings, the preview functionality won't work. 
 
@@ -59,7 +59,7 @@ Your system administrator can choose the entities for which PDF generation is en
       ![Email form with a PDF file attached](../sales-enterprise/media/email-form-pdf-attachment.png "Email form with a PDF file attached")
 
       > [!NOTE]
-      > The **Regarding** field isn't populated if the **Sending email** flag in the primary entity isn't enabled in the **Customization** area. For more information about this flag, see [Entity options that can only be enabled](https://docs.microsoft.com/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
+      > The **Regarding** field isn't populated if the **Sending email** flag in the primary entity isn't enabled in the **Customization** area. For more information about this flag, see [Entity options that can only be enabled](/powerapps/maker/common-data-service/edit-entities#entity-options-that-can-only-be-enabled). 
 
     3. Select **Save to SharePoint** or **Save to Dynamics**.
       - Use **Save to SharePoint** to save the PDF file to a SharePoint site. This button is available when SharePoint integration is enabled for your organization and the **Document Management** check box is selected on the entity page in the **Customization** area. If you don't see this button, contact your system administrator.
@@ -81,7 +81,7 @@ If you haven't opted in for the 2020 release wave 2 features, or if you're using
     > Templates are available out of the box for the Account, Opportunity, Order, Quote, and Invoice entities. For entities that do not have the out-of-the-box templates, you can create new templates. You can't create a PDF file for an entity record if there's no template available for that entity. 
 
     > [!TIP]
-    > To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md). 
+    > To learn more about using Word templates, see [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365). 
 
 3. In the dialog box that appears, save or download the PDF.
 
