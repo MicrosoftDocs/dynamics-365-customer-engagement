@@ -40,7 +40,7 @@ Authorized users may instruct the App to access the online service at the time o
 
 Your use of Bing Maps is governed by the [Bing Maps End User Terms](https://go.microsoft.com/?linkid=9710837) and the [Bing Maps Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). Your use of third party mapping services is governed by their service specific end user terms and privacy statements. You should carefully review these other end user terms and privacy statements.
 
-**IMPORTANT:**  If you use the supplement to enable Push Notifications on Field Service mobile applications for Microsoft Dynamics 365, you consent to transmission and sharing of your data to external systems. For more information, please refer to technical documentation for Field Service mobile applications for the [Microsoft Dynamics 365 Push Notifications feature](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/mobile-push-notifications).
+**IMPORTANT:**  If you use the supplement to enable Push Notifications on Field Service mobile applications for Microsoft Dynamics 365, you consent to transmission and sharing of your data to external systems. For more information, please refer to technical documentation for Field Service mobile applications for the [Microsoft Dynamics 365 Push Notifications feature](/dynamics365/customer-engagement/field-service/mobile-push-notifications).
 
 Also, your use of external, third-party push notification services to enable Push Notifications on Field Service mobile applications is governed by their service specific terms and privacy statements. You should carefully review these other terms and privacy statements.
 
@@ -51,7 +51,7 @@ Google Cloud Messaging, Apple Push Notification, and Windows Push Notification s
 You may not reverse engineer, decompile or disassemble the software, or otherwise attempt to derive the source code for the software except, and solely to the extent: (i) permitted by applicable law, despite this limitation; or (ii) required to debug changes to any libraries licensed under the GNU Lesser General Public License which are included with and linked to by the software.
 
 ### See also
-[Third Party Notices](https://go.microsoft.com/fwlink/p/?LinkId=780793)
+[Third Party Notices](/dynamics365/resources/field_services_third_party_notice.htm)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

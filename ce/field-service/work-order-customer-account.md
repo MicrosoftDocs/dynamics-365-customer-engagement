@@ -40,8 +40,8 @@ In this article, we'll explore creating and using accounts on work orders.
 ## Prerequisites
 
 - Any version of Dynamics 365 Field Service
-- Connect to Bing maps and enable map visualizations. For more information, [check out this article.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
-- Enable and test geocoding. For more information, [check out this article.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
+- Connect to Bing maps and enable map visualizations. For more information, [check out this article.](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
+- Enable and test geocoding. For more information, [check out this article.](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
 ## Create a service account

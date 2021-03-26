@@ -25,7 +25,7 @@ search.app:
 
 ## Why did I receive an email or Message Center notification about a Field Service update?
 
-Roughly once a month, Field Service pushes a standard update to customers on Field Service version 8.8.6 and higher. A message is sent each month prior to this update highlighting that an update is planned. For more information on this update, see our [documentation](https://docs.microsoft.com/dynamics365/field-service/upgrade-field-service#when-are-field-service-updates-released) on the different kinds of Field Service updates and [when Field Service updates are planned](https://docs.microsoft.com/dynamics365/field-service/version-history#latest-version-availability).
+Roughly once a month, Field Service pushes a standard update to customers on Field Service version 8.8.6 and higher. A message is sent each month prior to this update highlighting that an update is planned. For more information on this update, see our [documentation](./upgrade-field-service.md#when-are-field-service-updates-released) on the different kinds of Field Service updates and [when Field Service updates are planned](./version-history.md#latest-version-availability).
 
 The other type of update messages that some may have received highlights that one or more of your environments are on a version of Field Service lower than 8.8.6. This message advises that you need to upgrade your environment as soon as possible or Microsoft will conduct the update for you. Be sure to take action as soon as possible.
 
