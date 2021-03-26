@@ -31,7 +31,7 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
 A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
 
 > [!IMPORTANT]
-> Service scheduling is deprecated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling is deprecated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ## Create or change a service
   

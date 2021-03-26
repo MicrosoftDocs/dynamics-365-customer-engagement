@@ -98,7 +98,7 @@ Enable Bing Maps by going to **Advanced Settings** > **Settings** > **Administra
 > [!div class="mx-imgBorder"]
 > ![Screenshot of system settings in Field Service, showing the option to enable Bing Maps.](./media/admin-enable-bing-maps-on-forms.png)
 
-For more information on enabling maps for the work order form, see this article on [managing Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-bing-maps-organization).
+For more information on enabling maps for the work order form, see this article on [managing Bing Maps](/dynamics365/customer-engagement/admin/manage-bing-maps-organization).
 
 ## Enable booking maps
 
@@ -107,7 +107,7 @@ Booking maps is a feature that allows frontline workers to see their scheduled j
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookings on a map in the Field Service mobile app.](./media/mobile-2020-booking-maps.png)
 
-For more information, see this article: [Enable geospatial features in your environment](https://docs.microsoft.com/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) 
+For more information, see this article: [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) 
 
 ## Test geocoding
 
@@ -150,20 +150,3 @@ If you don't want the system to auto geocode addresses, select the geocode butto
 
 - [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
 - [Geofencing](mobile-powerapp-geofence.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
