@@ -21,7 +21,7 @@ search.app:
 ---
 # Back up and restore instances
 
-Backing up and restoring an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Back up and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+Backing up and restoring an instance (environment) is now done in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/). See [Back up and restore environments](/power-platform/admin/backup-restore-environments).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
