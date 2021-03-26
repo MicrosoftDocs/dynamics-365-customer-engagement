@@ -19,7 +19,7 @@ search.audienceType:
 
 # Manage your SharePoint documents and document locations from Dynamics 365 Customer Engagement (on-premises).
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Collaborate using SharePoint(/powerapps/user/collaborate-using-sharepoint)
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Collaborate using SharePoint](/powerapps/user/collaborate-using-sharepoint)
 
 With Dynamics 365 Customer Engagement (on-premises), you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] and manage them from within your app.
 
