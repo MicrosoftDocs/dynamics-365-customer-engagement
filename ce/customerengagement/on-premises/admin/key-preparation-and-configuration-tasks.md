@@ -24,7 +24,7 @@ search.audienceType:
 This topic, which is intended for administrators and business users of Dynamics 365 Customer Engagement (on-premises), describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with Customer Engagement (on-premises), even before your business begins to use it.  
 
 > [!NOTE]
-> Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](https://docs.microsoft.com/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+> Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
   
 <a name="bkmk_commonconfig"></a>   
 

@@ -90,7 +90,7 @@ search.app:
 
 ## Where can I get more information?
 
- Check out the [Gamification Help Center](https://go.microsoft.com/fwlink/?LinkId=829236). Learn more about your role as a player and as a team manager, how scoring works, how to draft your team and change your team roster, and how to engage in game discussions.
+ Check out the [Gamification Help Center](./help-hub.md). Learn more about your role as a player and as a team manager, how scoring works, how to draft your team and change your team roster, and how to engage in game discussions.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
