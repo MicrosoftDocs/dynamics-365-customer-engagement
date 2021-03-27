@@ -4,7 +4,7 @@ description: "Instructions to create and manage operating hours in Omnichannel f
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/04/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -33,9 +33,11 @@ After you create an operating hour record, you must add it to the **Design** tab
 
 ## Create a record to define operating hours
 
-1. Sign in to Omnichannel Administration.
+1. In Omnichannel admin center, in the site map, under **Advanced settings**, select **User attributes**.
+2. On the page that appears, select **Manage** for **Operation Hours**.
 
-2. Go to **Settings** \> **Operating Hours**.
+>[!Note]
+> If you are using Omnichannel Administration, under **Settings**, select **Operating Hours**.
 
 3. Select **New**. The **New Operating Hour** page is displayed.
 
@@ -49,7 +51,7 @@ After you create an operating hour record, you must add it to the **Design** tab
 
 6. On the **Working Hours** tab, select **New** > **Working hours** in the calendar.
 
-7. In the **Working hours** panel, set the following options to define the working hours schedule.
+7.  In the **Working hours** panel, set the following options to define the working hours schedule.
    - **All Day:** Specify Yes, if the chat widget should be available 24/7.
    - **Calendar:** Specify the period for the schedule. The option to choose dates is available only when **All Day** is Yes.
    - **Time:** Select the start and end time for the schedule.
