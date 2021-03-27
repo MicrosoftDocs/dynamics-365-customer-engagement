@@ -38,7 +38,7 @@ The following table lists each available feature together with its preview statu
 | Send now custom lookup | Production | Custom lookup view for **Send now** control |
 | Customer Voice Marketing integration | Production | [Add surveys to your marketing campaigns](customer-voice.md) |
 | Segmentation natural language queries | Preview | [Natural language use in segments](nl-segment-build.md) |
-| Smart scheduler | Production | [Smart scheduler](automated-scheduler.md) |
+| Smart scheduler | Production | Enable the [Automated scheduler](automated-scheduler.md) |
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]

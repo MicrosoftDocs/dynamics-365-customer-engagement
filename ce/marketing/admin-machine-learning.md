@@ -1,7 +1,7 @@
 ---
 title: "Set up artificial intelligence features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to enable artificial intelligence features and make related privacy settings in Dynamics 365 Marketing."
-ms.date: 02/25/2021
+ms.date: 03/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -24,9 +24,9 @@ search.app:
 Dynamics 365 Marketing provides several artificial intelligence (AI), which include:
 
 - **[Spam checker](spam-checker.md)**, which analyzes the content of each marketing email message and generates a score that predicts how likely it is to be flagged by content-based spam filters.
-- **[Automated scheduler](automated-scheduler.md)**, which "learns" the days and times when each contact is most likely to be actively reading his or her email by analyzing the email results in your system. The more results you have in your system, and the more you use this feature, the "smarter" the system becomes. 
+- **[Automated scheduler](automated-scheduler.md)**, which "learns" the days and times when each contact is most likely to be actively reading his or her email by analyzing the email results in your system. The more results you have in your system, and the more you use this feature, the "smarter" the system becomes.
 
-When you first install Marketing, all artificial intelligence (AI) features are disabled by default. These artificial intelligence features include privacy settings that can help you remain compliant with local privacy regulations (including GDPR) and other privacy laws when you use them.
+When you first install Marketing, some artificial intelligence (AI) features are disabled by default. These artificial intelligence features include privacy settings that can help you remain compliant with local privacy regulations (including GDPR) and other privacy laws when you use them.
 
 ## Enable AI features in Marketing settings
 
@@ -35,13 +35,12 @@ To enable AI features and make privacy settings for them:
 1. Go to **Settings** > **Other settings** > **Feature switches**.
 
     > [!div class="mx-imgBorder"]
-    > ![AI feature switches](./media/admin-ai-settings.png)
+    > ![ML feature switches](./media/admin-ai-settings2.png)
 
 1. For each AI feature you'd like to use, set the **Enabled** slider to **On**.
 
 1. For those AI features that include a **Consent level** setting, choose the level of consent that each contact must provide before being processed by that feature.
-    - The **Optimal email sending time** feature applies automated processing to data collected for each individual contact. Therefore, you probably need a required level of **(5) Profiling** to use this feature wherever GDPR is in effect.
-    - The **Spam checker** feature doesn't process any personal data, so no consent level is required for this feature.
+    - The **Smart scheduler** feature applies automated processing to data collected for each individual contact. Therefore, you probably need a required level of **(5) Profiling** to use this feature wherever GDPR is in effect.
 
 1. Select the **Save** button near the top of the page to save your settings.
 

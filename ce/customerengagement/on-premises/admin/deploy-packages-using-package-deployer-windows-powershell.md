@@ -278,7 +278,7 @@ Import-CrmPackage –CrmConnection $CRMConn –PackageDirectory c:\CRM\SDK\Tools
 Get-Help Import-CrmPackage -full  
 ```  
   
- To view the online help for the cmdlets, see [Dynamics 365 for Customer Engagement apps PowerShell Reference](https://technet.microsoft.com/library/dn756318.aspx).  
+ To view the online help for the cmdlets, see [Dynamics 365 for Customer Engagement apps PowerShell Reference](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn756318(v=crm.8)).  
   
 <a name="Logfiles"></a>   
 ## Troubleshoot package deployment issues by using log files  
