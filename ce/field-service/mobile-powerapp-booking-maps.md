@@ -64,14 +64,72 @@ Go to the schedule board and schedule work orders to a fronltine worker that has
 Log into the mobile app with the user for which work orders are scheduled to and go to Bookings from the site map. 
 
 
-Select _Agenda_ in the top right of the bookings view and go to _Map_ view.
+
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/booking-maps-navigate-wf.png)
 
+
+Select _Agenda_ in the top right of the bookings view and go to _Map_ view.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/booking-maps-option-wf.png)
+
+
+For each day, the frontline worker will see a map view of his or her bookings. 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/bookable-maps-pins3-wf.png)
+
+
+
+Pin colors represent different statuses. 
+
+
+**Gray** - Completed or Canceled
+**Green** - Traveling, On Break, In Progress
+**Blue** - Scheduled and all other statuses
+
+> [!Note]
+> Booking pin color is based on Field Service status: 
+
+Select a different day at the top of the view to see the bookings on a map for that day.  
+
+
+
+## Tap booking for info card and trigger actions
+
+Tap a booking pin to show the info card and take actions including trigger directions or call customer. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/booking-maps-actions.png)
+
+Select **View Details** to open the booking and work order. 
+
+
+
+
+## Configuration considerations
+
+- The Booking map will not show if the mobile device is not connected to the Internet. If you are connected to internet and the booking map is still not showing, verify Geospatial Services are enabled as described in the prerequsites section of this article.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/booking-maps-no-internet-wf.png)
+
+
+- Booking locations are dervied from related work order address. 
+- The contact in the info card is the primary contact field of the related work order.
+
+## Additional Notes
+
+- The booking map will work when the mobile app is running offline _with_ internet access. This means the device is connected to the internet but is still using downloaded data. 
+
+### Known Issues
+- If there are multiple bookings with the same address on the same day (as seen in the "3" icon in the image below) tapping the cluster will bring the user to the info card of the booking with the latest start time. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/bookable-maps-pins3-wf.png)
@@ -80,57 +138,10 @@ Select _Agenda_ in the top right of the bookings view and go to _Map_ view.
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/boking-map-phone-wf.png)
-
-
-## Trigger directions or contact a customer
-
-Tap a booking icon 
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/booking-maps-info-card-wf.png)
 
 
-
-
-
-
-
-booking pin color is based on Field Service status : 
-
-
-Gray : Completed/canceled
-Green: Traveling, On Break, In Progress
-Blue: Default or everything else
-
-
-1) Verify that the Map is not enabled if the Geospatial Setting is not enabled in the PPAC. 
-2) Able to switch the Day filter and users would only see the Pins (bookings) for the selected Day filter. 
-3) Able to click on the Pin to show Info Card 
-4) Able to see different Pin Colors based on Field Service Status (InProgress / Travelling / OnBreak = Green,  Canceled / Completed = Gray, the rest = Blue) 
-5) On the popup Info Card, able to click on "View Details" to open the booking record 
-6) On the popup Info Card, able to click on the Address to open the Driving Direction App 
-7) If users are already on the Map view and navigate away then navigate back, users should still be on the Map View. 
-8) Booking map should work in OBD (offline but with internet connection) 
-9) Map view should only be visible on Mobile. 
-10) Should be able to interact with the map (Zoom in/out, changing the pitch, rotating the map)
-
-
-
-
-## Configuration considerations
-
-- Booking maps will not show if mobile device is not connected to the Internet
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/booking-maps-no-internet-wf.png)
-
-
-- Booking locations are dervied from related work order address. 
-
-## Additional Notes
-
-### Known Issues
-- If there are multiple bookings with the same address on a same day then out of the overlapped pins only the one with the latest start time can be clicked to view the info card.
+> ![Screenshot of ](./media/boking-map-phone-wf.png)
