@@ -124,6 +124,9 @@ This field is found in the following entities:
 8.	Incident Types Setup (msdyn_incidenttypessetup)
 9.	Quote Booking Setup (msdyn_quotebookingsetup)
 
+## What about Product Bundles? I'd like to use them in Field Service scenarios.
+
+Unfortunately, at this time, using product bundles within FS is not supported.
 
 ## See also
 
