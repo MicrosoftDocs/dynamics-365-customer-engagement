@@ -144,7 +144,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 > [!NOTE]
 >  Icons configured for commands aren’t displayed, and labels that are too long are truncated.  
 
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize commands and the ribbon](https://go.microsoft.com/fwlink/p/?LinkId=320344)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize commands and the ribbon](/previous-versions/dynamicscrm-2016/developers-guide/gg309639(v=crm.8))  
 
 <a name="BKMK_FormScriptDifferences"></a>   
 ## Form script differences for Dynamics 365 for phones and tablets  
@@ -152,7 +152,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 
  The following list shows what to expect with scripts in the mobile apps. For specific details, see the developer documentation in the [Client API Reference for Customer Engagement](/dynamics365/customer-engagement/developer/clientapi/reference).  
 
-- Using [window.alert](https://msdn.microsoft.com/library/ie/ms535933.aspx), [window.confirm](https://msdn.microsoft.com/library/ie/ms536376.aspx), [window.prompt](https://msdn.microsoft.com/library/ms536673.aspx) or any other code that blocks code execution while waiting for a user’s response won’t work as expected or will display an error. You shouldn’t use these methods in scripts for the mobile apps.  
+- Using [window.alert](https://msdn.microsoft.com/library/ie/ms535933.aspx), [window.confirm](https://msdn.microsoft.com/library/ie/ms536376.aspx), [window.prompt](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms536673(v=vs.85)) or any other code that blocks code execution while waiting for a user’s response won’t work as expected or will display an error. You shouldn’t use these methods in scripts for the mobile apps.  
 
 - Because tabs displayed in Dynamics 365 for phones and tablets can’t expand or collapse, code that tries to expand or collapse them won’t work, and code configured for event handlers using these events won’t execute.  
 
