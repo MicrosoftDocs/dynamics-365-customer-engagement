@@ -56,7 +56,7 @@ Dataverse appointments can be created in Dynamics Apps like Customer Service Hub
 2. An informational dialog will subsequently appear. Click the **Got it. Let’s enable button.** Save and close. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of organization level setting.](./media/Appointment02-Dialog.png)
+> ![Screenshot of dialog.](./media/Appointment02-Dialog.png)
 
 All resources are automatically opted in the first time you enable the feature. You may opt out resources using the resource level setting, which is visible only if the organization level setting is set to Yes.  
 
