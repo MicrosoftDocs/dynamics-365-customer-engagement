@@ -47,9 +47,6 @@ Set _Geospatial Services_ to **On**.
 > ![Screenshot of ](./media/booking-maps-settings.png)
 
 
-
-
-
 ## Schedule work orders
 
 To see bookings on a map you first need to schedule work orders.
@@ -63,10 +60,6 @@ Go to the schedule board and schedule work orders to a fronltine worker that has
 
 Log into the mobile app with the user for which work orders are scheduled to and go to Bookings from the site map. 
 
-
-
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/booking-maps-navigate-wf.png)
 
@@ -79,12 +72,8 @@ Select _Agenda_ in the top right of the bookings view and go to _Map_ view.
 
 For each day, the frontline worker will see a map view of his or her bookings. 
 
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/bookable-maps-pins3-wf.png)
-
-
 
 Pin colors represent different statuses. 
 
@@ -94,10 +83,9 @@ Pin colors represent different statuses.
 **Blue** - Scheduled and all other statuses
 
 > [!Note]
-> Booking pin color is based on Field Service status: 
+> More specifically, the booking pin color is based on the Field Service status of the booking status. See the topic on [Work order and booking statuses](work-order-status-booking-status.md) for more details. 
 
 Select a different day at the top of the view to see the bookings on a map for that day.  
-
 
 
 ## Tap booking for info card and trigger actions
@@ -109,8 +97,6 @@ Tap a booking pin to show the info card and take actions including trigger direc
 > ![Screenshot of ](./media/booking-maps-actions.png)
 
 Select **View Details** to open the booking and work order. 
-
-
 
 
 ## Configuration considerations
@@ -127,6 +113,7 @@ Select **View Details** to open the booking and work order.
 ## Additional Notes
 
 - The booking map will work when the mobile app is running offline _with_ internet access. This means the device is connected to the internet but is still using downloaded data. 
+- Booking map is only available in the mobile app. 
 
 ### Known Issues
 - If there are multiple bookings with the same address on the same day (as seen in the "3" icon in the image below) tapping the cluster will bring the user to the info card of the booking with the latest start time. 
