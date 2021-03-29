@@ -122,13 +122,3 @@ Select **View Details** to open the booking and work order.
 > ![Screenshot of ](./media/bookable-maps-pins3-wf.png)
 
 
-
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/booking-maps-info-card-wf.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/boking-map-phone-wf.png)
