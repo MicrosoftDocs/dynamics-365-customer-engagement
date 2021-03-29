@@ -5,8 +5,8 @@ ms.date: 10/01/2019
 ms.service: 
   - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 searchScope:
   - D365-App-msdynce_saleshub
@@ -51,7 +51,7 @@ There are two ways to send the sales literature to other users:
 
 - Select the **Send as Email** option in the **Sales Literature** form.
 
-- Select the **Add Sales Literature** option in [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add sales literature or a knowledge base article when you create an email message](../outlook-app/dynamics-365-app-outlook-user-s-guide.md#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)
+- Select the **Add Sales Literature** option in [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add sales literature or a knowledge base article to a email](https://docs.microsoft.com/dynamics365/outlook-app/user/add-literature-or-kb)
 
 ### See also  
 [Create or edit a competitor record](create-edit-competitor-record-sales.md)  

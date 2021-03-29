@@ -4,7 +4,7 @@ description: "Read about the client side events that you can use to trigger the 
 author: v-sailab
 ms.author: v-sailab
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/23/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -29,6 +29,7 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
 | [onSessionSwitched](events/onSessionSwitched.md) | Invoked when the session is switched. |
 | [onSessionClosed](events/onSessionClosed.md) | Invoked when the session is closed. |
+| [CIFInitDone](events/cifinitdone.md) | Invoked when the Channel Integration framework is loaded to determine if Channel Integration Framework APIs are ready to be consumed. |
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

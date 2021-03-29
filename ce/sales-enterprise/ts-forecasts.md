@@ -4,8 +4,8 @@ description: "Learn how to troubleshoot issues with forecasting in Dynamics 365 
 ms.date: 03/24/2020
 ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 

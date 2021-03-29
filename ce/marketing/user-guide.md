@@ -56,7 +56,7 @@ search.app:
 <li><a href="design-digital-content.md" data-raw-source="[Design your digital content](design-digital-content.md)">Design your digital content</a></li>
 <li><a href="content-blocks-reference.md" data-raw-source="[Design elements reference](content-blocks-reference.md)">Design elements reference</a></li>
 <li><a href="upload-images-files.md" data-raw-source="[Upload and use images and files](upload-images-files.md)">Upload and use images and files</a></li>
-<li><a href="prepare-marketing-emails.md" data-raw-source="[email-preview.md](prepare-marketing-emails.md)">email-preview.md</a></li>
+<li><a href="prepare-marketing-emails.md" data-raw-source="[Email marketing overview](prepare-marketing-emails.md)">Email marketing overview</a></li>
 <li><a href="dynamic-email-content.md" data-raw-source="[Add dynamic content to email messages](dynamic-email-content.md)">Add dynamic content to email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li><li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>

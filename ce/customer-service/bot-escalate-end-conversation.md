@@ -1,10 +1,10 @@
 ---
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "How a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
-author: v-sailab
-ms.author: v-sailab
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 06/09/2020
+ms.date: 03/24/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 This topic describes how to program a bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end a conversation.
 
 > [!NOTE]
-> Bot agents are not supported in consult mode in the current release.
+> Bot agents are not supported in consult mode.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ You must ensure the following conditions are met to onboard a bot to Omnichannel
 
 ## Engage a bot
 
-In order to send messages to Omnichannel for Customer Service, you need to add the following code statement to the bot code.
+To send messages to Omnichannel for Customer Service, you need to add the following code statement to the bot code.
 
 ```csharp
 OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
@@ -46,11 +46,11 @@ The primary way a bot can dictate how the conversation will be routed is by usin
 
 ## End a conversation
 
-An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can do so by sending an `EndConversation` request to Omnichannel for Customer Service.
+An Omnichannel for Customer Service bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can send an `EndConversation` request to Omnichannel for Customer Service.
 
 ## Sample code for escalation management and ending conversation
 
-Follow the procedure given below to configure a bot that is capable of escalating a conversation to a human agent.
+Perform the following steps to configure a bot that is capable of escalating a conversation to a human agent.
 
 1. Implement a command class to model escalate and end conversation. The sample code is as follows.
 
@@ -94,7 +94,7 @@ namespace EchoBot.OmniChannel
 }
 ```
 
-2. Implement an Omnichannel for Customer Service  client class to set the command context. The sample code is as follows.
+2. Implement an Omnichannel for Customer Service client class to set the command context. The sample code is as follows.
 
 ```csharp
 using Microsoft.Bot.Schema;
@@ -260,7 +260,18 @@ namespace Microsoft.Bot.Builder.EchoBot
     }
 }
 ```
-The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the “CreditCard” is the context variable value. If there is an agent queue with the rule “BotHandoffTopic equals to “CreditCard”, then this escalated chat will be routed to that queue. The bot can also send an escalation summary that will be visible to the agent after they accept the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message. This will only be visible to the human agent and not to the customer.
+The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and the “CreditCard” is the context variable value. If there is an agent queue with the rule “BotHandoffTopic equals to “CreditCard”, then this escalated chat will be routed to that queue.
+
+The context variable name is a string. The context variable value must be of type Integer or String and should be passed as Dictionary<string, object> during escalation. A sample code is as follows.
+
+```
+Dictionary<string, Object> keyValues = new Dictionary<string, object>() {
+{ "BotHandoffTopic", "CreditCard" },
+{ "IDNumber", 101}
+}
+```
+
+The bot can also send an escalation summary that will be visible to the agent after they accept the escalated chat request. To send the summary, set the activity text appropriately in the escalation Activity message. This will only be visible to the human agent and not to the customer.
 
 > [!NOTE]
 > Note the method call to `OmnichannelBotClient.BridgeBotMessage` in the sample code above. This needs to be called for every Activity message that is sent to the customer.
@@ -269,7 +280,7 @@ The dictionary `contextVars` contains all the Omnichannel for Customer Service c
 
 You should consider the following points when modeling the bot agent in Omnichannel for Customer Service:
 
-- In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.
+- In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.
 
 - In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.
 
@@ -283,9 +294,9 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Integrate a bot](configure-bot.md)<br />
-[Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)<br />
-[Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
+[Integrate a bot](configure-bot.md)  
+[Create context variables](work-streams-introduction.md)  
+[Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)  
+[Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]  

@@ -1,7 +1,7 @@
 ---
 title: "Navigate and use common features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How do get around and work with common user interface elements in Dynamics 365 Marketing."
-ms.date: 12/17/2018
+ms.date: 03/24/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -31,7 +31,7 @@ Many Dynamics 365 applications support both the new Unified Interface and the ol
 > [!NOTE]
 > Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
 
-More information: [About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface)
+More information: [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface)
 
 ## Navigating among apps, areas, and entities
 
@@ -49,7 +49,8 @@ Dynamics 365 is built out of applications (apps), areas, and entities.
 
 Use the app-selector menu to switch between Marketing and your other Dynamics 365 apps.
 
-![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
+> [!div class="mx-imgBorder"]
+> ![The app-selector menu](media/nav-apps-ill2.png)
 
 The apps you see listed in your app-selector menu will depend on which apps you have licensed. When Marketing is installed, you will have the following three apps at least:
 
@@ -131,8 +132,7 @@ Business processes help everyone follow best practices, even for situations that
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)  
-[About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface)
-
+[Open the administration settings](open-settings.md)  
+[About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

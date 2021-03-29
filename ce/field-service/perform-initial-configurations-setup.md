@@ -2,7 +2,7 @@
 title: "Perform initial configurations (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about how to perform initial configurations for Dynamics 365 Field Service.
 ms.custom: dyn365-fieldservice
-ms.date: 11/11/2020
+ms.date: 02/26/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -34,7 +34,16 @@ Sign in as a system administrator and verify that the Field Service application 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 showing Field Service in the menu.](./media/quickstart-apps.png)
 
-## Step 1: Resource scheduling
+## Step 1: Field Service settings
+
+Review Field Service settings. 
+
+Go to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
+
+An example is **WO** and **100**. This is recommended, but not required.
+
+
+## Step 2: Resource scheduling
 
 ### Scheduling parameters
 
@@ -60,13 +69,6 @@ Set **Connect to Maps** to **Yes**.
 
 Save and close.
 
-> [!Important]
-> By connecting to a mapping service, you are allowing the system to share your data, including but not limited to addresses and coordinates, with external systems outside of your Microsoft Dynamics 365 environment. (Mapping service refers to Bing Maps or other third-party mapping service designated by you or your operating system). This also applies to Government Cloud environments. Your use of the mapping service will also be subject to their separate terms of use. Data imported from such external systems into Microsoft Dynamics 365 are subject to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
-
-For information on enabling maps for the work order form, see the article on [managing Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-bing-maps-organization).
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of work order map](media/work-order-map.png) 
 
 Later in this article, we'll test geocoding and location services to make sure they're working properly.
 
@@ -81,26 +83,27 @@ This is where administrators decide which entities can be scheduled to Resources
 
 Next, verify that work orders are enabled for resource scheduling.
 
-## Step 2: Field Service settings
+### Enable map and location settings
 
-Go to **Field Service** > **Settings** > **Field Service Settings**.
+To enable maps and location settings on work orders and other relevant records: 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Administration from Dynamics 365 dropdown menu](media/quickstart-fs-settings.png)  
+1. Connect to map service.
+2. Enable auto geocoding of addresses.
+3. Enable address suggestions.
+4. Enable Bing Maps (Show Bing Maps on forms).
 
-In the **Other** section, decide if you would like the application to auto geocode addresses. The recommended setting is **Yes.**
- 
-"Auto geocode addresses" means that after entering an address on entities such as accounts, contacts, users, and work orders, the system will automatically attempt to locate the address and populate latitude and longitude values. Disallowing auto geocoding for addresses  requires the user to select a Geocode button.
+For more information, see this article: [Location and map settings](field-service-maps-address-locations.md)
 
-Next, navigate to the **Work Order / Booking** section and enter a work order prefix and work order starting number.
-
-An example, as seen below, is **WO** and **100**. This is recommended, but not required.
 
 ## Step 3: Test geocoding
 
 Finally, let’s test geocoding.
 
-Go to **Field Service > Work Orders** and select **+New**.
+Geocoding is associating a latitude and longitude to an address. This allows dispatchers to locate work orders more effectively than an address.
+
+If addresses are geocoded, the system will automatically attempt to locate and populate the lattitude and longitude after entering an address on entities such as accounts, contacts, users, and work orders. Disallowing auto geocoding for addresses requires the user to select a manually select a geocode option in order to geocode an address.
+
+Go to **Field Service** > **Work Orders** and select **+New**.
 
 Begin typing an address.
 
