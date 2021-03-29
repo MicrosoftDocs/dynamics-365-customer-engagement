@@ -4,7 +4,7 @@ description: "Learn about incident (case) hierarchies that allow you to create p
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: pehecke
-ms.service:
+ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

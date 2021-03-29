@@ -1,10 +1,9 @@
 ---
 title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: ""
+description: "Learn how to create solutions in multiple languages"
 keywords: 
 ms.date: 04/02/2020
-ms.service: 
-  - crm-online
+ms.service: crm-online
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
