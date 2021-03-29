@@ -122,7 +122,7 @@ Use the **Additional information** tab to set up your event team and record gene
 
 Here you can [view and create online surveys](surveys.md) related to your event. You'd typically use these surveys to collect attendee opinions about how the event went. A second table provides links to individual survey responses.
 
-Surveys are provided by the [Dynamics 365 Customer Voice](https://docs.microsoft.com/dynamics365/customer-voice/help-hub) feature.
+Surveys are provided by the [Dynamics 365 Customer Voice](/dynamics365/customer-voice/help-hub) feature.
 
 ### The Room reservations tab
 
