@@ -46,44 +46,28 @@ Dataverse appointments can be created in Dynamics Apps like Customer Service Hub
 
 ## Organization level setting to include appointments in Resource Scheduling
 
-<ol>
-<li>Go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Include Appointments** to Yes.</li>
+
+1. Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** and set **Include Appointments** to Yes.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of organization level setting.](./media/Appointment01-OrgLevelConfiguration.png)
 
-
- 
-<li>Scheduling operations will consider appointments as location-agnostic.</li>
-</ol>
+2. An informational dialog will subsequently appear. Click the **Got it. Let’s enable button.** Save and close. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule with no predictive travel.](./media/rso-predictive-travel-schedule-without.png)
+> ![Screenshot of organization level setting.](./media/Appointment02-Dialog.png)
 
-With predictive travel enabled, resource scheduling optimization will generate a schedule that uses time-of-day dependent travel time that takes into account historical traffic.
+All resources are automatically opted in the first time you enable the feature. You may opt out resources using the resource level setting, which is visible only if the organization level setting is set to Yes.  
+
+### Including appointments turns off the deprecated configuration to automatically create bookings when an appointment is created
+
+If your organization was configured to automatically create bookings when an appointment is created, the informational dialog will let you know that the system will be turning off this setting, as appointments will be included directly in resource scheduling, without needing related bookings. You should only enable the feature if you do not have custom actions and/or workflows on the related bookings. 
+
+You may further verify that the deprecated configuration has been turned off, by going to **Settings** > **Administration** > **System Settings** > **Calendar** and checking that **Scheduling Engine** is set to **(Default) Scheduling Engine**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule with predictive travel times.](./media/rso-predictive-travel-schedule-with.png)
+> ![Screenshot to verify deprecated configuration has been turned off.](./media/Appointment03-DeprecatedFeatureIsOff.png)
 
-> [!Note]
-> Running an optimization with predictive travel time may change the order of the bookings to optimize objectives and constraints. Additionally, it may increase the runtime for the engine to optimize the requirements and bookings.
-
-## Configuration considerations
-
-- Predictive travel times that use historical data is a feature only available for scheduling with resource scheduling optimization. Predictive travel is not currently supported for the schedule assistant or manual scheduling.
-
-- Since optimizations can take longer when considering historical traffic information, use predictive travel times for [automated overnight scheduling](rso-overnight-scheduling.md) where the optimization runs during non-working hours for the following working day.
-
-- Predictive travel time can only be applied to optimization scopes with fewer than 500 requirements _and_ 500 resources. If your optimization scope exceeds this threshold, the optimization will still run but without predictive travel times. If you have more resources or requirements, consider splitting the scope into smaller scopes and apply predictive travel time to each related optimization goal.
-
-- [Single resource optimization](rso-single-resource-optimization.md) does not currently support predictive travel times.
-
-- Predictive travel time is only available for Bing Maps.
-
-## Additional notes
-
-- Running resource scheduling optimization with predictive travel times can result in different travel times and different sequences of schedules.
-
-- Predictive travel time is not real-time traffic, so they will not reflect one-time events like traffic accidents or road closures. Instead, this feature will take into account general traffic patterns like high volumes of cars in the morning when many people are commuting to work.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
