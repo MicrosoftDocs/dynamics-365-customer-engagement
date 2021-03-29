@@ -7,7 +7,7 @@ ms.service:
 ms.topic: article
 author: platkat
 ms.author: ktaylor
-manager: sjoshi
+manager: shujoshi
 ---
 
 # Move from Dynamics 365 Customer Service Enterprise to Dynamics 365 Customer Service Professional
@@ -16,11 +16,9 @@ Customer Service Professional is targeted at businesses that have fewer needs an
 
 1.	Purchase a Customer Service Professional subscription.
 
-2.	Assign Customer Service Professional licenses to the users.
+2.	Assign Customer Service Professional licenses to the users and remove the Customer Service Enterprise licesnses from the users.
 
-3.	Install the Customer Service Professional solution.
-
-4.	Delete the Customer Service Enterprise solution.
+3.	Review the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 
 ## Purchase Dynamics 365 Customer Service Professional subscription
@@ -29,18 +27,18 @@ Customer Service Professional is targeted at businesses that have fewer needs an
 
 2.  In the navigation pane, expand **Billing** and select **Purchase Services**, and then select the Dynamics 365 Customer Service Professional tile. 
 
-    **KAT: COULD NOT VERIFY WITH CONTOSOSUITESP GLOBAL ADMIN ACCOUNT.**
-
+    **KAT: COULD NOT VERIFY WITH CONTOSOSUITESP ADMIN ACCOUNT.**
+<!--
     > [!div class="mx-imgBorder"]
     > ![Select Dynamics 365 Sales Professional tile](media/select-dynamics365-sales-pro-tile.png "Select Dynamics 365 Sales Professional tile") 
-
+-->
 3.  Select **Buy**, and then follow the steps to purchase new licenses. 
-
+<!--
     > [!div class="mx-imgBorder"]
     > ![Select Buy](media/buy-sales-professional.png "Select Buy") 
+-->
 
-
-## Assign licenses to your users
+## Assign and remove licenses
 
 After you’ve purchased the licenses, assign the licenses to users. 
 
@@ -55,31 +53,11 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 4.	Select the license for your Dynamics 365 Customer Service Professional plan. 
 
-    **KAT: COULD NOT VERIFY WITH CONTOSOSUITESP GLOBAL ADMIN ACCOUNT. The only option available was Dynamics 365 Customer Engagement plan.**
+    **KAT: COULD NOT VERIFY WITH CONTOSOSUITESP ADMIN ACCOUNT. The only option available was Dynamics 365 Customer Engagement plan.**
 
 5.	Click **Save changes**. 
 
 6.	Review the license status on the **Active users** page and make other assignments as needed. 
-
-## Install Dynamics 365 Sales Professional solution
-
-Go to the Microsoft 365 admin center to install Dynamics 365 Sales app (solution) to your production environment. For more information, see [Install Dynamics 365 Sales Professional](../sales-professional/provision-sales-professional-instance.md#install-app)
-
-After you complete these steps, your organization will be effectively moved to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional.
-
-
-## Delete the Dynamics 365 Sales Enterprise solution
-
-1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
-
-2.	Sign in to Dynamics 365. 
-
-3.	Select **Settings** > **Solutions**. 
-
-4.	Select the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise solution and select **Delete**. 
-
-    > [!NOTE]
-    > When you delete this solution, the Sales Enterprise app module is deleted and any configuration and customization specific to this app module such as its site map or form preferences are also lost.
 
 
 > [!IMPORTANT]
