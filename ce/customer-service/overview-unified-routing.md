@@ -17,17 +17,17 @@ The unified routing infrastructure can be used to route service requests on all 
 
 Unified routing has two main stages – classification and assignment. In the classification stage, rules and machine learning (ML) models can be used to add information on the work item, which can be further used to find the best suited agent.
 
-During the assignment phase, the service requests are prioritized and then assigned to the agents based on the nature of the work, customer journey, agent skills, and the current state of the agent workforce in terms of availability and workload.
+During the assignment phase, the service requests are prioritized and then assigned to the agents based on the nature of the work, related entities, agent skills, and the current state of the agent workforce in terms of availability and workload.
 
 For instance, an organization receiving an incoming chat will add information on the work item, like skills required, urgency level, category of customer, and importance level in the classification stage, based on certain conditions that are met as part of the configured rules. In assignment stage, an organization might want to first prioritize the incoming chats based on highest urgency level and importance, and then assign them to the agents by matching the skills required, current workload status, and availability.
 
-## Common business scenarios that unified routing addresses
+>![Unified routing work classification overview](media/work-classification-overview.png "Unified routing work classification overview")
 
-Q to Tessa: Is this section okay including the section title or should it be something such as "How unified routing helps achieve business efficiency".
+## How unified routing helps achieve business efficiency
 
-Unified routing addresses the following business scenarios:
+Unified routing optimizes businesses in the following ways:
 
-- Routing to the best queue by using attributes in a related entity saves custom work flow.
+- Routing to the best queue by using attributes in a related entity saves an admin from creating a custom work flow.
 
 - Using skills-based routing to automatically assign incoming work matches to best agent and decreases resolution time.
 
