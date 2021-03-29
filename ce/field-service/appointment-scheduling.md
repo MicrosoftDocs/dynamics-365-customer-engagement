@@ -68,6 +68,38 @@ You may further verify that the deprecated configuration has been turned off, by
 > [!div class="mx-imgBorder"]
 > ![Screenshot to verify deprecated configuration has been turned off.](./media/Appointment03-DeprecatedFeatureIsOff.png)
 
+## Resource level setting to include appointments in Resource Scheduling
 
+The resource level setting will only show if the organization level setting is enabled, i.e. if **Include Appointments** in **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** is set to Yes. 
+To control individual resources, go to the **Scheduling** tab on the resource form and change the **Include Appointments** field. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of resource level setting.](./media/Appointment04-ResourceLevelConfiguration.png)
+
+## View appointments on the new schedule board
+
+Appointments will be visible on the new schedule board for the Required Attendees and the Owner as long as they are set up as bookable resources. They are supported in all views of the new schedule board i.e. in hourly, daily, weekly and monthly views. Appointments show in a read-only format and cannot be moved on the new schedule board. The legend shows the colors for various appointment statuses. The below image shows how appointments display in hourly view. Hovering on an appointment shows more details in a card. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
+
+## Scheduling operations that respect appointments
+
+Appointments with statuses Busy and Completed will be considered as unavailable by scheduling operations. 
+
+For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. Non-interactive optimizations are triggered when an optimization schedule is run. Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right clicking on a resource), and the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
+For customers without resource scheduling optimization, Schedule Assistant is expected to launch in October Wave 2 2021. Meanwhile, the Schedule Assistant APIs for both requirements and requirement groups do support appointments should customers want to leverage these for a custom web app or a Dynamics 365 portal or a PowerApps canvas app to support appointment scheduling scenarios. 
+
+## Customize appointment colors 
+
+The new schedule board uses the colors defined in [Dataverse Appointment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) entity  metadata. Customizing the **Color** metadata of each of the **StatusCode** optionset values will change the Appointment colors that show on the new schedule board.  
+
+## Hide canceled appointments
+
+If you do not wish to see canceled appointments on the new schedule board, note that the **Hide Canceled** tab-level setting accessible from the old schedule board will hide both canceled bookings and canceled appointments on the new schedule board. 
+Go to the old schedule board using the toggle in the top right, open the tab, select the gear icon in the top right of the schedule board, check the **Hide Canceled** checkbox, and toggle back to the new schedule board. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Hide Canceled tab setting in old schedule board.](./media/Appointment06-HideCanceledAppointment.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
