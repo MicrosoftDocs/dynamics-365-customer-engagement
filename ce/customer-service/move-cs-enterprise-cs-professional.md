@@ -54,6 +54,9 @@ After you’ve purchased the licenses, assign the licenses to users.
 4.	Select the license for your Dynamics 365 Customer Service Professional plan. 
 
     **KAT: COULD NOT VERIFY WITH CONTOSOSUITESP ADMIN ACCOUNT. The only option available was Dynamics 365 Customer Engagement plan.**
+    
+    > [!div class="mx-imgBorder"]
+    > ![Assign licenses to multiple users](media/assign-licenses-multiple-users.png do-not-use-d365-ce.png "CE Plan licenses")
 
 5.	Click **Save changes**. 
 
