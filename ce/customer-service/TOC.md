@@ -63,7 +63,7 @@
 #### [Create workstreams](create-workstreams.md)
 #### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
 #### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
-#### [Set up routing and assignment rules](routing-rules.md)
+#### [Set up routing and assignment rules in Omnichannel Administration](routing-rules.md)
 #### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
 
 #### [Set up record routing](set-up-record-routing.md)
@@ -84,7 +84,7 @@
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 
-#### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
+#### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
 
