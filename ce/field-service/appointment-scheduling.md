@@ -20,14 +20,14 @@ search.app:
 
 # Appointments included in resource scheduling
 
-With this improved way of including appointments in resource scheduling, schedulers do not face the issue of bookings and appointments being inconsistent since appointments are included directly without needing corresponding bookings. Schedulers can have accurate availability information in one place and do not have to switch between multiple tools such as Outlook, Service Calendar and Field Service's new schedule board. This increases schedulers’ productivity and reduces avoidable scheduling errors.
+With this improved way of including appointments in resource scheduling, schedulers do not face the issue of bookings and appointments being inconsistent since appointments are included directly without needing corresponding bookings. Schedulers can have accurate availability information in one place and do not have to switch between multiple tools such as Outlook, Service Calendar, and Field Service's new schedule board. This increases schedulers’ productivity and reduces avoidable scheduling errors.
 
 ## Prerequisites
 
 - Field Service 8.8.40.x+
-- Resource scheduling optimization (RSO) 3.3.0.105+, only if in need of appointments being supported in RSO related scheduling operations
+- Resource scheduling optimization (RSO) 3.3.0.105+, only if there is a requirement for appointments to be supported in RSO-related scheduling operations
 
-## Additional details 
+## More details 
 
 This April Wave 1 2021 feature adds [Microsoft Dataverse appointments](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) as an additional data source for resource scheduling. Previously the schedule board and scheduling operations used only [bookings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. Thus, if you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This created issues when changes in bookings did not reflect in appointments and vice versa. 
 
@@ -39,7 +39,7 @@ Dataverse appointments can be created in Dynamics Apps like Customer Service Hub
 > ![Screenshot of appointments added as a data source.](./media/Appointment00-BlockDiagramResized.png)
 
 <ul>
-<li>Appointments will show in read-only mode on the new schedule board, and be considered in scheduling operations from the new schedule board and resource scheduling optimization, in conjunction with bookings.</li>
+<li>Appointments will show in read-only mode on the new schedule board, and be considered in scheduling operations from the new schedule board and resource scheduling optimization.</li>
 <li>Scheduling operations will consider appointments as location-agnostic.</li>
 <li>If an appointment had related bookings those bookings will not be shown and will not be considered in scheduling operations. </li>
 <li>This feature has an organization level setting, which turns on the feature for all resources. You can control individual resources using a resource level setting.</li>
@@ -71,7 +71,7 @@ You may further verify that the deprecated configuration has been turned off, by
 
 ## Resource level setting to include appointments in Resource Scheduling
 
-The resource level setting will only show if the organization level setting is enabled, i.e. if **Include Appointments** in **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** is set to Yes. 
+The resource level setting will only show if the organization level setting is enabled,that is, if **Include Appointments** in **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameters** is set to Yes. 
 To control individual resources, go to the **Scheduling** tab on the resource form and change the **Include Appointments** field. 
 
 > [!div class="mx-imgBorder"]
@@ -79,7 +79,7 @@ To control individual resources, go to the **Scheduling** tab on the resource fo
 
 ## View appointments on the new schedule board
 
-Appointments will be visible on the new schedule board for the Required Attendees and the Owner as long as they are set up as bookable resources. They are supported in all views of the new schedule board i.e. in hourly, daily, weekly and monthly views. Appointments show in a read-only format and cannot be moved on the new schedule board. The legend shows the colors for various appointment statuses. The below image shows how appointments display in hourly view. Hovering on an appointment shows more details in a card. 
+Appointments will be visible on the new schedule board for the Required Attendees and the Owner as long as they are set up as bookable resources. They are supported in all views of the new schedule board, namely the hourly, daily, weekly, and monthly views. Appointments show in a read-only format and cannot be moved on the new schedule board. The legend shows the colors for various appointment statuses. The below image shows how appointments display in hourly view. Hovering on an appointment shows more details in a card. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
@@ -88,7 +88,7 @@ Appointments will be visible on the new schedule board for the Required Attendee
 
 Appointments with statuses Busy and Completed will be considered as unavailable by scheduling operations. 
 
-For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. Non-interactive optimizations are triggered when an optimization schedule is run. Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right clicking on a resource), and the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
+For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. Non-interactive optimizations are triggered when an optimization schedule is run. Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right-clicking on a resource), and the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
 For customers without resource scheduling optimization, Schedule Assistant is expected to launch in October Wave 2 2021. Meanwhile, the Schedule Assistant APIs for both requirements and requirement groups do support appointments should customers want to leverage these for a custom web app or a Dynamics 365 portal or a Power Apps canvas app to support appointment scheduling scenarios. 
 
 ## Customize appointment colors 
@@ -98,7 +98,7 @@ The new schedule board uses the colors defined in [Dataverse Appointment](https:
 ## Hide canceled appointments
 
 If you do not wish to see canceled appointments on the new schedule board, note that the **Hide Canceled** tab-level setting accessible from the old schedule board will hide both canceled bookings and canceled appointments on the new schedule board. 
-Go to the old schedule board using the toggle in the top right, open the tab, select the gear icon in the top right of the schedule board, check the **Hide Canceled** checkbox, and toggle back to the new schedule board. 
+Go to the old schedule board using the toggle in the top right. Open the tab and select the gear icon in the top right of the schedule board. Check the **Hide Canceled** checkbox, and toggle back to the new schedule board. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Hide Canceled tab setting in old schedule board.](./media/Appointment06-HideCanceledAppointment.png)
