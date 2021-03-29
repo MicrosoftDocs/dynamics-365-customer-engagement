@@ -39,7 +39,7 @@ In this article, let's explore creating products and services, adding and using 
 Go to **Field Service** > **Settings** > **Products** > **+New**.
 
 >[!Note]
-> For older versions, go to **Field Service** > **Administration**, and then choose **Products**. 
+> Field Service does not support use of **Product Bundles**.
 
 
 > [!div class="mx-imgBorder"]
