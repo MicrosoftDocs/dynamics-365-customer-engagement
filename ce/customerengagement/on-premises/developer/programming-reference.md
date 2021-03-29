@@ -38,7 +38,7 @@ This section contains reference documentation of the public assemblies, web serv
  [Schemas used in Dynamics 365 Customer Engagement (on-premises)](schemas-used-dynamics-365.md)<br />
   
 ## Related Sections  
- [Get started with developement for Dynamcis 365 Customer Engagement (on-premises)](get-started-sdk.md)<br />
+ [Get started with development for Dynamics 365 Customer Engagement (on-premises)](get-started-sdk.md)<br />
  [Sample code directory](sample-code-directory.md)<br />
 
 
