@@ -51,6 +51,8 @@ To sign up for TeleSign
 
 4. You are provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
+## Add SMS support in Omnichannel admin center
+
 ## Add SMS support for your organization
 
 1. Sign in to Omnichannel Administration.
