@@ -81,7 +81,7 @@ Perform the following steps to configure chat in Omnichannel admin center:
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default a work stream is selected. <br>More information: [Understand and create work streams](work-streams-introduction.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
+    | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default a work stream is selected. <br>More information: [Understand and create work streams](create-workstreams.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
     
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|    

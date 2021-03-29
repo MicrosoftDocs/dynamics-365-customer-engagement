@@ -72,7 +72,7 @@ For information about working with queues, see [Work with queues in Omnichannel 
 
 ### Create a bot queue and a human agent queue
 
-1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
+1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](create-workstreams.md).
 
 ![Virtual Agent work streams](media/virtual-agent-work-streams.png)
 
@@ -203,7 +203,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)  
+[Understand and create work streams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Add a chat widget](add-chat-widget.md)  

@@ -59,13 +59,11 @@
 ### [How routing and assignment works](set-up-routing-process.md)
 
 ### Administrator experience
-#### Create workstreams
-##### [Create workstreams in Omnichannel admin center](create-workstreams.md)
-##### [Create workstreams in Omnichannel Administration](work-streams-introduction.md)
-##### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
-##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
-##### [Set up routing and assignment rules](routing-rules.md)
-##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
+#### [Create workstreams](create-workstreams.md)
+#### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
+#### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
+#### [Set up routing and assignment rules](routing-rules.md)
+#### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
 
 #### [Set up record routing](set-up-record-routing.md)
 ##### [Enable entities for routing](entity-channel.md)
