@@ -31,7 +31,7 @@ Many Dynamics 365 applications support both the new Unified Interface and the ol
 > [!NOTE]
 > Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
 
-More information: [About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface)
+More information: [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface)
 
 ## Navigating among apps, areas, and entities
 
@@ -133,6 +133,6 @@ Business processes help everyone follow best practices, even for situations that
 ### See also
 
 [Open the administration settings](open-settings.md)  
-[About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface)
+[About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
