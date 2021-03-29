@@ -35,15 +35,26 @@ Now Microsoft Dataverse appointments are included directly in resource schedulin
 Dataverse appointments can be created in Dynamics Apps like Customer Service Hub (in Activities), but they could also originate in Outlook, and be synced to Dynamics 365 if [server-side synchronization](https://docs.microsoft.com/en-us/power-platform/admin/server-side-synchronization) has been set up. An Outlook appointment must be manually assigned the special  [Tracked to Dynamics 365](https://docs.microsoft.com/en-us/power-platform/admin/use-outlook-category-track-appointments-emails) category  so it appears as a Dataverse appointment record. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of appointments being added as a data source.](./media/Appointment00-BlockDiagram.png)
+> ![Screenshot of appointments added as a data source.](./media/Appointment00-BlockDiagramResized.png)
+
+<ul>
+<li>Appointments will show in read-only mode on the new schedule board, and be considered in scheduling operations from the new schedule board and resource scheduling optimization, in conjunction with bookings.</li>
+<li>Scheduling operations will consider appointments as location-agnostic.</li>
+<li>If an appointment had related bookings those bookings will not be shown and will not be considered in scheduling operations. </li>
+<li>This feature has an organization level setting, which turns on the feature for all resources. You can control individual resources using a resource level setting.</li>
+</ul>
+
+## Organization level setting to include appointments in Resource Scheduling
+
+<ol>
+<li>Go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Include Appointments** to Yes.</li>
+> [!div class="mx-imgBorder"]
+> ![Screenshot of organization level setting.](./media/Appointment01-OrgLevelConfiguration.png)
 
 
-
-## Run resource scheduling optimization
-
-After adding predictive travel to the optimization goal, set up your optimization scope according to your business needs, and run the optimization manually, through a schedule, or via a workflow.
-
-Without predictive travel times, resource scheduling optimization will calculate the travel time between two locations as the same, no matter the time of day the work is scheduled.
+ 
+<li>Scheduling operations will consider appointments as location-agnostic.</li>
+</ol>
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a schedule with no predictive travel.](./media/rso-predictive-travel-schedule-without.png)
