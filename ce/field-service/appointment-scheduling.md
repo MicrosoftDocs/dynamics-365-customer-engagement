@@ -3,7 +3,7 @@ title: "Appointments included in resource scheduling | MicrosoftDocs"
 description: Learn how to include appointments in resource scheduling in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 29/03/2021
+ms.date: 03/29/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -25,6 +25,7 @@ With this improved way of including appointments in resource scheduling, schedul
 ## Prerequisites
 
 - Field Service 8.8.40.x+
+- Resource scheduling optimization (RSO) 3.3.0.105+, only if in need of appointments being supported in RSO related scheduling operations
 
 ## Additional details 
 
@@ -88,11 +89,11 @@ Appointments will be visible on the new schedule board for the Required Attendee
 Appointments with statuses Busy and Completed will be considered as unavailable by scheduling operations. 
 
 For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. Non-interactive optimizations are triggered when an optimization schedule is run. Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right clicking on a resource), and the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
-For customers without resource scheduling optimization, Schedule Assistant is expected to launch in October Wave 2 2021. Meanwhile, the Schedule Assistant APIs for both requirements and requirement groups do support appointments should customers want to leverage these for a custom web app or a Dynamics 365 portal or a PowerApps canvas app to support appointment scheduling scenarios. 
+For customers without resource scheduling optimization, Schedule Assistant is expected to launch in October Wave 2 2021. Meanwhile, the Schedule Assistant APIs for both requirements and requirement groups do support appointments should customers want to leverage these for a custom web app or a Dynamics 365 portal or a Power Apps canvas app to support appointment scheduling scenarios. 
 
 ## Customize appointment colors 
 
-The new schedule board uses the colors defined in [Dataverse Appointment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) entity  metadata. Customizing the **Color** metadata of each of the **StatusCode** optionset values will change the Appointment colors that show on the new schedule board.  
+The new schedule board uses the colors defined in [Dataverse Appointment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) entity  metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the Appointment colors that show on the new schedule board.  
 
 ## Hide canceled appointments
 
