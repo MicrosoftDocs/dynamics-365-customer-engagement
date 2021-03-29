@@ -11,9 +11,9 @@ ms.service: "dynamics-365-customerservice"
 
 # Overview of unified routing
 
-Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent by adhering to work item requirements and matching them with the agent’s capabilities.
+Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best-suited queue and agent by adhering to work item requirements and matching them with the agent’s capabilities.
 
-Unified routing helps assign incoming work items from different channels. It works in a truly omnichannel way by ensuring that work items on all the channels are routed in a consistent and similar manner and thus the agent engagement on different channels is taken into account before any new work is assigned to them.
+The unified routing infrastructure can be used to route service requests on all channels. This creates a unified view of workforce utilization across multiple channels, and thus helps in optimized distribution of work across the workforce. It works in a truly omnichannel way by ensuring that work items on all the channels are routed in a consistent and similar manner and thus the agent engagement on different channels is taken into account before any new work is assigned to them.
 
 Unified routing has two main stages – classification and assignment. In the classification stage, rules and machine learning (ML) models can be used to add information on the work item, which can be further used to find the best suited agent.
 
@@ -27,7 +27,7 @@ Q to Tessa: Is this section okay including the section title or should it be som
 
 Unified routing addresses the following business scenarios:
 
-- Routing to the best queue using attributes in a related entity saves custom work flow.
+- Routing to the best queue by using attributes in a related entity saves custom work flow.
 
 - Using skills-based routing to automatically assign incoming work matches to best agent and decreases resolution time.
 

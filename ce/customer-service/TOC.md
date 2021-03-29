@@ -55,8 +55,9 @@
 
 ## Unified routing and assignment
 ### [Overview of unified routing](overview-unified-routing.md)
-### [Routing and assignment rules](routing-workstream-queues.md)
 ### [How routing and assignment works](set-up-routing-process.md)
+### [Routing and assignment rules](routing-workstream-queues.md)
+
 
 ### Administrator experience
 #### [Create workstreams](create-workstreams.md)
