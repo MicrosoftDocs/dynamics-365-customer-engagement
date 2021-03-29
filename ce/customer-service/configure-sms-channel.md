@@ -53,6 +53,31 @@ To sign up for TeleSign
 
 ## Add SMS support in Omnichannel admin center
 
+1. In the Omnichannel admin center site map, select **Channels**, and select **Add account**.
+2. In **Channel details**, enter a name, and select SMS in **Channel**.
+3. In **Account details**, select TeleSign in **Provider**.
+4. Enter the following details:
+   - **Customer ID:** Customer ID generated from the TeleSign account.
+   - **API key:** API key generated from the TeleSign account.
+5. In **SMS phone numbers**, select **Add**.
+6. Enter the following details in **Add SMS number**:
+    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **Type:** Select Geo, Short code, or Toll free.
+    - **Description:** Enter a description
+7. In **Callback URL**, Copy the value and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID; enter the subject line as "Omnichannel for Customer Service callback URL update request".
+8. Open the workstream that you created for the SMS channel.
+9. Select **Add SMS Channel**, and configure the following options:
+   - **SMS number:** Select a number from the list.
+   - **Language:** Select the default language.
+   - **Behavior:**
+     - Channel operation hours
+     - Custom automated messages
+     - Post-conversation survey
+10. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files:
+    -  Customers can send file attachments
+    -  Agents can send file attachments
+11. Select **Save and close**.
+
 ## Add SMS support for your organization
 
 1. Sign in to Omnichannel Administration.
