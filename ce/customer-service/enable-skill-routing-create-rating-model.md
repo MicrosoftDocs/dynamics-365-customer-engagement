@@ -13,11 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Enable skill-based routing in Customer Service admin center<a name="sbr-oc-admincenter"></a>
-
-
-
-## Enable skill-based routing<a name="sbr-oc-admin"></a>
+## Enable skill-based routing<a name="sbr-oc-admincenter"></a>
 
 To use skill-based routing, as an administrator, you must enable skill-based routing. You can enable the setting in the Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app.
 
@@ -25,9 +21,9 @@ To enable skill-based routing, follow these steps:
 
 1. Sign in to the app.
 
-2. Do one of the following depending on which app you're using:
+2. Do one of the following depending on the app you're using:
    - In Omnichannel admin center, in the site map, select **User attributes**, and then select **Manage** beside **Skill-based routing**.
-   - In Omnichannel Admininstration, in the site map, select **Skill Based Routing** under **Settings**.
+   - In Omnichannel Administration, in the site map, select **Skill Based Routing** under **Settings**.
    - In Customer Service Hub, in the site map, select **User attributes** under **Unified Routing**, and then select **Manage** beside **Skill-based routing**.
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
