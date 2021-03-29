@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 
 
-<!-- The editors are checking terms like "model-driven apps" to make sure they are correct according to the latest guidance. We use the term here in line 212. It's hard to tell if it's correct. Can you check the style guidance and update if needed? https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=45145 -->
+<!-- The editors are checking terms like "model-driven apps" to make sure they are correct according to the latest guidance. The term is used here in line 213. It's hard to tell if it's correct. Can you check the style guidance (https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=45145) and update if needed? -->
 
 
 
