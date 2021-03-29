@@ -22,7 +22,7 @@ Perform the following steps to enable modifications to cases that are in the res
 1. In Dynamics 365, go to Customer Service Hub.
 2. In the change area, select **Service Management**.
 3. In the site map, select **Service Configuration Settings** under **Service Terms**.
-4. In **Case update after resolution**, select **Resolved and canceled cases** in the **Allow updates for** list, and select **Save**. You can also select only **Resolved cases** or **Closed cases** based on your business needs.
+4. In **Case update after resolution**, select **Resolved and canceled cases** in the **Allow updates for** list if it is not selected. You can also select only **Resolved cases**, **Closed cases**, or **Don't allow updates** based on your business needs.
 5. Configure flows in Power Automate or use an API.
 
 ### See also
