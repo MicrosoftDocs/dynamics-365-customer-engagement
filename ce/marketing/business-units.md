@@ -26,7 +26,7 @@ Business units are a standard feature of model-driven apps in Dynamics 365 (Dyna
 
 ### General effects of business units
 
-For complete details about how business units work in model-driven apps in Dynamics 365, see [Create or edit business units](https://docs.microsoft.com/power-platform/admin/create-edit-business-units). Here is a quick summary of concepts that are relevant to the features discussed in this topic:
+For complete details about how business units work in model-driven apps in Dynamics 365, see [Create or edit business units](/power-platform/admin/create-edit-business-units). Here is a quick summary of concepts that are relevant to the features discussed in this topic:
 
 - Every user belongs to exactly one business unit.
 - Each record belongs to the same business unit as the record owner. The record owner can be a user or team. By default, the record owner is the user that created it, but records can be reassigned by users with sufficient permissions.
@@ -35,7 +35,7 @@ For complete details about how business units work in model-driven apps in Dynam
 - Standard users have security roles that grant them _business-unit level access_ to the relevant entities. This allows them to access records belonging to other users from their own business unit (business-unit access).
 - Advanced users, such as managers, have security roles that grant them _parent-level access_ to the relevant entities. This allows them to access records belonging to users in their own business unit plus all child (lower-tier) business units.
 - Privileged users, such as admins, have security roles that grant them _organization-level access_ to the relevant entities. This allows them to access records belonging to all business units.
-- Teams can also combine with business units to affect record access. A record can be owned by a team rather than a user, in which case the record becomes part of the team's business unit. Teams can likewise combine users from different business units, in which case members of that team will see other team members' records as though they were all in the same business unit. More information: [Manage teams](https://docs.microsoft.com/power-platform/admin/manage-teams)
+- Teams can also combine with business units to affect record access. A record can be owned by a team rather than a user, in which case the record becomes part of the team's business unit. Teams can likewise combine users from different business units, in which case members of that team will see other team members' records as though they were all in the same business unit. More information: [Manage teams](/power-platform/admin/manage-teams)
 
 <a name="segment-scopes"></a>
 
@@ -107,7 +107,7 @@ To enable or disable this feature:
 
 ### See also
 
-[Create or edit business units](https://docs.microsoft.com/power-platform/admin/create-edit-business-units)  
+[Create or edit business units](/power-platform/admin/create-edit-business-units)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 
