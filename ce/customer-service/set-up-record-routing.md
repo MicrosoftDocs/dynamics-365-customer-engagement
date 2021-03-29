@@ -72,6 +72,8 @@ A workstream that has the required intake rule and route to queues is as follows
 2. Expand **Advanced settings** to configure the following options:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+   > [!NOTE]
+   > The agent notifications that you configure for entity record routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 ## Create entity record workstream in Omnichannel Administration
 

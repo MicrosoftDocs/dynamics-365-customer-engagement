@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Create workstreams in Omnichannel admin center
+# Create workstreams
 
 ## Overview
 
