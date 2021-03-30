@@ -1,8 +1,8 @@
 ---
 title: "Configure client diagnostic logging in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to set client diagnostic logging."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article

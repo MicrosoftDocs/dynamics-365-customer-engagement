@@ -1,8 +1,8 @@
 ---
 title: "Post-migration steps | MicrosoftDocs"
 description: "Test migration of web client configurations to the Unified Interface app."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/16/2020
 ms.topic: article

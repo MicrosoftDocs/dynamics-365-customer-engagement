@@ -1,8 +1,8 @@
 ---
 title: "Known issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Learn about known issues and resolutions for Dynamics 365 Channel Integration Framework."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/12/2021
 ms.topic: article

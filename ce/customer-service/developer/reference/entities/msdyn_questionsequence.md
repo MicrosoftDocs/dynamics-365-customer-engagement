@@ -1,8 +1,8 @@
 ---
 title: "msdyn_questionsequence Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_questionsequence entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/31/2020
 ms.topic: "reference"
