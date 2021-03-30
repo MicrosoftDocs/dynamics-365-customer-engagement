@@ -62,7 +62,7 @@ All resources are automatically opted in the first time you enable the feature. 
 
 ### Including appointments turns off the deprecated configuration to automatically create bookings when an appointment is created
 
-If your organization was configured to automatically create bookings when an appointment is created, the informational dialog will let you know that the system will be turning off this setting, as appointments will be included directly in resource scheduling, without needing related bookings. You should only enable the feature if you do not have custom actions and/or workflows on the related bookings. 
+If your organization was [configured to automatically create bookings when an appointment is created](../shared/urs/schedule-new-entity.md#appointment-scheduling-with-universal-resource-scheduling), the informational dialog will let you know that the system will be turning off this setting, as appointments will be included directly in resource scheduling, without needing related bookings. You should only enable the feature if you do not have custom actions and/or workflows on the related bookings. 
 
 You may further verify that the deprecated configuration has been turned off, by going to **Settings** > **Administration** > **System Settings** > **Calendar** and checking that **Scheduling Engine** is set to **(Default) Scheduling Engine**
 
