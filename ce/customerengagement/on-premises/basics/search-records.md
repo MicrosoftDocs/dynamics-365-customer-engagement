@@ -1,6 +1,7 @@
 ---
 title: "Search for records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to search for records.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -12,7 +13,7 @@ applies_to:
 ms.assetid: 899ec72f-f5f3-4b87-be2d-fe53f05737dc
 caps.latest.revision: 21
 author: mduelae
-ms.author: t-mijosh
+ms.author: mkaur
 manager: ryjones
 search.audienceType: 
   - enduser
