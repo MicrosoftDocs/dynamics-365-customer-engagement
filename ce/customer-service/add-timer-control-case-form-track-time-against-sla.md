@@ -1,5 +1,5 @@
 ---
-title: "Timer control in the Case form to track time against an SLA | Microsoft Docs"
+title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ Do the following steps to add the SLA timer control for the case entity.
 > You can add the SLA timer control only in the classic PowerApps experience.
 
 1. In your Dynamics 365 environment, go to **Customizations**.
-2. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select **Case for interactive experience**.
+2. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
 3. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
 4. Double-click the subgrid, and on the **Set Properties** dialog box, enter the necessary details.
    - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
