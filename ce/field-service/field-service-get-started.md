@@ -36,6 +36,8 @@ At the bottom of the page you will see links to release notes to stay up to date
 
 ## Prerequisites
 
+- Available with Wave 1 2021 release
+
 - You must have either System Administrator or Field Service - Administrator privileges to see and use the _Get Started_ page.
 
 
@@ -112,8 +114,11 @@ Congratulations! You have successfully completed the core scenario in Field Serv
 
 ### View the scheduled work order on the mobile app
 
-Download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores. 
+Frontline workers should download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores. 
 
+[iOS - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-apple)
+
+[Android - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-google)
 
 
 Sign in with the username and password for the frontline worker user.
