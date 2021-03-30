@@ -21,7 +21,7 @@ search.app:
 
 # Deprecations in Universal Resource Scheduling
 
-The features that have been deprecated in Universal Resoure Scheduling are listed in this article.
+The features that have been deprecated in Universal Resource Scheduling are listed in this article.
 
 Administrators and IT professionals can use this information to prepare for future releases.
 
