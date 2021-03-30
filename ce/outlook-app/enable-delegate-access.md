@@ -1,6 +1,7 @@
 ---
 title: "Set up delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
+description: Set up delegate access for Dynamics 365 App for Outlook. 
 ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -21,11 +22,6 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-
-<!--from editor: Although I don't find it in the style guide, a search suggests that "Dynamics 365 App for Outlook" is correct, so I'm changing "Outlook App."  
-The two paragraphs in the first section seem to say much the same thing. I recommend deleting the first one. 
-The term "whitelisted" is discouraged by the Msft style guide. Can we substitute something like "approved" or "marked as safe"? 
--->
 
 
 # Set up delegate access 
@@ -96,7 +92,7 @@ No, it is only available for the supported version of Outlook C2R. For more info
 
 
 ### See also  
-[Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access)<br/>
+[Use delegate access](use-delegate-access.md)<br/>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
