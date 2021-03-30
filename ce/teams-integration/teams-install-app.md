@@ -30,7 +30,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled for c
 
    > [!NOTE]
    > - If Microsoft Teams integration is not enabled on the **System Settings** page, then Microsoft Teams users can still connect to record or view in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in customer engagement apps in Dynamics 365.
-   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-collaboration#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../customerengagement/on-premises/developer/integration-dev/teams-integration-using-code.md).
+   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](./teams-collaboration#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../customerengagement/on-premises/developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](./teams-troubleshoot.md#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
 ## Prerequisites
@@ -71,7 +71,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
     2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. 
     
        > [!NOTE]
-        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](teams-troubleshoot#error-when-you-pin-a-record-or-view-of-any-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-customer-engagement-apps-system-admin).  
+        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](./teams-troubleshoot#error-when-you-pin-a-record-or-view-of-any-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-customer-engagement-apps-system-admin).  
 
     
         > [!div class="mx-imgBorder"] 
