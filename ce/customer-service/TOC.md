@@ -306,8 +306,9 @@
 
 ### Administrator experience
 #### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
-#### [Configure historical analytics](configure-historical-analytics-csh.md)
-#### [Configure topic clustering](configure-topics-clustering.md)
+#### [Configure historical analytics](configure-cs-historical-analytics-csh.md)
+#### [Configure topic clustering](configure-topics-clustering-cases.md)
+#### [Configure Omnichannel historical analytics reports](oc-historical-analytics-reports.md)
 #### [Configure knowledge search analytics](enable-knowledge-search-analytics.md)
 #### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
