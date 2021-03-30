@@ -16,27 +16,19 @@ Customer Service Professional is targeted at businesses that have fewer needs an
 
 1.	Purchase a Customer Service Professional subscription.
 
-2.	Assign Customer Service Professional licenses to the users and remove the Customer Service Enterprise licesnses from the users.
+2.	Assign Customer Service Professional licenses to the users and remove the Customer Service Enterprise licenses from the users.
 
 3.	Review the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 
-## Purchase Dynamics 365 Customer Service Professional subscription
+## Purchase a Customer Service Professional subscription
 
-1.  Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
+1.  Sign in to the  [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
 
 2.  In the navigation pane, expand **Billing** and select **Purchase Services**, and then select the Dynamics 365 Customer Service Professional tile. 
 
-    **KAT: COULD NOT VERIFY WITH CONTOSOSUITESP ADMIN ACCOUNT.**
-<!--
-    > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales Professional tile](media/select-dynamics365-sales-pro-tile.png "Select Dynamics 365 Sales Professional tile") 
--->
 3.  Select **Buy**, and then follow the steps to purchase new licenses. 
-<!--
-    > [!div class="mx-imgBorder"]
-    > ![Select Buy](media/buy-sales-professional.png "Select Buy") 
--->
+
 
 ## Assign and remove licenses
 
@@ -53,18 +45,13 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 4.	Select the license for your Dynamics 365 Customer Service Professional plan. 
 
-    **KAT: COULD NOT VERIFY WITH CONTOSOSUITESP ADMIN ACCOUNT. The only option available was Dynamics 365 Customer Engagement plan.**
-    
-    > [!div class="mx-imgBorder"]
-    > ![Assign licenses to multiple users](media/assign-licenses-multiple-users.png do-not-use-d365-ce.png "CE Plan licenses")
-
 5.	Click **Save changes**. 
 
 6.	Review the license status on the **Active users** page and make other assignments as needed. 
 
 
 > [!IMPORTANT]
-> As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
+> As per contractual agreement, you can't mix Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
 
 
 ### See also
