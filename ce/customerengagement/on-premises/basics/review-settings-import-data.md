@@ -1,17 +1,19 @@
 ---
 title: "Review settings and import data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: Review settings and import data.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
+ms.service: crm-online
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: mkaur
+author: mduelae
 ms.assetid: 69ee9e50-13cc-428a-9b7c-e0f1c9dae159
 caps.latest.revision: 25
-ms.author: mduelae
+ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
