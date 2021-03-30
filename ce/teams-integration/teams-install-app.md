@@ -30,7 +30,7 @@ By default, the Basic and Enhanced Microsoft Teams Integration is disabled for c
 
    > [!NOTE]
    > - If Microsoft Teams integration is not enabled on the **System Settings** page, then Microsoft Teams users can still connect to record or view in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) to Microsoft Teams collaboration channel, but the connected Microsoft Teams channel and the file library do not appear in customer engagement apps in Dynamics 365.
-   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](./teams-collaboration.md#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../customerengagement/on-premises/developer/integration-dev/teams-integration-using-code.md).
+   > - When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](teams-collaboration.md#record-types-that-support-microsoft-teams-integration-in-model-driven-apps). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../customerengagement/on-premises/developer/integration-dev/teams-integration-using-code.md).
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](./teams-troubleshoot.md#troubleshoot-configuration-issues-with-microsoft-teams-integration).
 
 ## Prerequisites
@@ -71,7 +71,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
     2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. 
     
        > [!NOTE]
-        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](./teams-troubleshoot.md#error-when-you-pin-a-record-or-view-of-any-model-driven-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-common-data-service-system-admin).  
+        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](teams-troubleshoot.md#error-when-you-pin-a-record-or-view-of-any-model-driven-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-common-data-service-system-admin).  
 
     
         > [!div class="mx-imgBorder"] 
@@ -184,7 +184,7 @@ Set up the personal dashboard (My Dashboard) to interact with customer engagemen
 2. Select an environment and a Unified Interface app to connect with customer engagement apps in Dynamics 365, and then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select environment and app module](media/teams-mydashboard-org-app.png "Select environment and app module")
+   > ![Select environment and app](media/teams-mydashboard-org-app.png "Select environment and app")
 
    > [!NOTE]
    > - Only environments that have customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
@@ -210,12 +210,12 @@ Teams integration with Dynamics 365 isn't available for Government GCC environme
   > ![Add the Website app](media/add-website.png "Add the Website app")
   
 > [!NOTE]
-> If you don't see the **Website** app in Teams, ask your administrator to enable this option through [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+> If you don't see the **Website** app in Teams, ask your administrator to enable this option through [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/about-the-admin-center).
 
 3. Enter a name for the tab and the URL for your web address for the Dynamics 365 app and then select **Save**.
 
   > [!div class="mx-imgBorder"] 
-  > ![Add the Website app](media/add-webiste-2.png "Add the Website app")
+  > ![Enter name and url for the tab](media/add-webiste-2.png "Add the Website app")
 
 
 ### See also  
