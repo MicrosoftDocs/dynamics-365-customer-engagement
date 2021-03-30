@@ -77,25 +77,6 @@ At a minimum, enter information in the following required fields.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order in Field Service.](./media/quickstart-work-order-new2.png)
 
-On the **Address** tab, enter a valid address. Then choose **Save and close**.
-
-Consider adding incident types, products, services, and service tasks to add more details and instructions to your work orders. For more information, see the article on [configuring incident types](configure-incident-types.md).
-
-
-
-
-
-
-
-
-
-
-  
-1. From the main menu, select **Field Service** > **Work orders**.  
-  
-2. Select **+New** in the upper-left corner.  
-  
-3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
     - **Summary**  
   
@@ -125,7 +106,7 @@ Consider adding incident types, products, services, and service tasks to add mor
   
     - **Location**: Shows the address location on the map.  
   
-<a name="BKMK_Addtasks"></a>   
+ Then choose **Save and close**.
 ## Add service tasks, products, or services to the work order  
  When the work order has been created and saved, you can then add any related tasks, products, or services to the work order.  
   
@@ -135,6 +116,8 @@ Consider adding incident types, products, services, and service tasks to add mor
   
   > [!NOTE]
   >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
+
+Consider using incident types to add more details and instructions to your work orders. For more information, see the article on [configuring incident types](configure-incident-types.md).
 
 ### Open work order subgrids as popup dialogue boxes
 

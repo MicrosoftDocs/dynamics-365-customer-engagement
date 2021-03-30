@@ -1,5 +1,5 @@
 ---
-title: "Display a frontline worker or resource to the schedule board | MicrosoftDocs"
+title: "Display a frontline worker or resource on the schedule board | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
@@ -19,7 +19,7 @@ search.app:
 - D365FS
 ---
 
-# Display a frontline worker or resource to the schedule board
+# Display a frontline worker or resource on the schedule board
 
 Go to **Field Service** > **Schedule Board**.
 

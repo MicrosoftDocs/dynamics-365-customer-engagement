@@ -30,12 +30,12 @@ We will do this in 4 steps:
 ## Step 1: Install Dynamics 365 Field Service
 
 
-You need a Dynamics 365 organization with the Field Service application installed. For more information, see the article on [installing Field Service](install-field-service.md). 
+You need a Dynamics 365 organization with the Field Service application installed. For more information, see the topic on [installing Field Service](install-field-service.md). 
 
 
 ### Verify the Field Service application is installed
 
-Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. If you still do not see the app, go to the article on [installing Field Service](install-field-service.md). 
+Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 showing Field Service in the list of apps.](./media/quickstart-apps.png)
@@ -66,17 +66,7 @@ Assign each user a license or trial license that includes Dynamics 365 Field Ser
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active users in the Microsoft 365 admin center](./media/quickstart-o365-admin-users.png)
 
-Go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com/).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the list of admin centers in the Microsoft 365 admin center.](./media/quickstart-o365-admin-powerapp.png)
-
-Select your environment that has Field Service installed. Select **Settings** > **Users + permissions** > **Users**.
-
-Add the two users you created if they are not already added.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center, showing the new users.](./media/quickstart-ppac-users-add.png)
 
 
 ## Step 3: Get started with creating frontline workers, customers, and scheduling work orders
@@ -98,6 +88,10 @@ In the form that displays, enter required information. Recommended values are pr
 > ![Screenshot of ](./media/getstarted-flw2.png)
 
 Optionally you can send an email to the frontline worker user to download the mobile app if [mailboxes are set up](frontline-worker-set-up-email-approval.md).
+
+
+> [!Note]
+> If you are not able to see your users in the dropdown list during the frontline worker set up, see the additional notes section at the bottom of this article. 
 
 ### Create your accounts
 
@@ -142,6 +136,8 @@ Find your work order in the lower pane and click and drag it to your frontline w
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/getstarted-schedule2.png)
 
+> [!NOTE]
+> Make sure you don't schedule the work order in the past. There is a blue vertical line that represents the current time. You may need to adjust the time zone of the schedule board by selecting the gear icon in the top right of the schedule board.
 
 
 ## Step 4: View the scheduled work order on the Field Service (Dynamics 365) mobile app
@@ -176,74 +172,26 @@ In the **Booking** tab, see the work order you scheduled to your frontline worke
 For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
 
-Congratulations! You have successfully completed the core scenario in Field Service.
 
+## Additional notes
 
+If you are not able to see your users in the frontline worker set up, make sure the users are added to your enviornment: 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 6. Schedule the work order to the bookable resource
-
-In the lower pane, find the work order to schedule. This work order is listed in the **Unscheduled Work Orders** view. 
+Go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com/).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the hourly view on the schedule board, showing a booking.](./media/quickstart-schedule-board-3.png)
+> ![Screenshot of the list of admin centers in the Microsoft 365 admin center.](./media/quickstart-o365-admin-powerapp.png)
 
-To schedule the work order, drag it to the technician's time slot.
+Select your environment that has Field Service installed. Select **Settings** > **Users + permissions** > **Users**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the hourly view on the schedule board, showing the time slot.](./media/quickstart-schedule-board-4.png)
-
-> [!NOTE]
-> Make sure you don't schedule the work order in the past. There is a blue vertical line that represents the current time. You may need to adjust the time zone of the schedule board by selecting the gear icon in the top right of the schedule board.
-
-## 7. View the scheduled work order on the mobile app
-
-Download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores. For more information, see the article on [installing the mobile app](mobile-power-app-get-started.md).
-
-Sign in with the username and password for the frontline worker user.
-
-- For the **Username**, enter the username of the technician user. For example, username@org.onmicrosoft.com
-- For the **Password**, enter the password you set for the technician.
-
-Select your app in the list.
+Add the two users you created if they are not already added.
 
 > [!div class="mx-imgBorder"]
-> ![Device renders showing the Field Service mobile app.](./media/quickstart-mobile-signin.png)
-
-If you do not see your app, but instead see "Contact your administrator for access to your organization's mobile apps," then select the menu icon and toggle the **Show non-production apps** to _Yes_.
-
-> [!div class="mx-imgBorder"]
-> ![Device renders showing "Show non-production apps" setting in the Field Service mobile app.](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
-
-In the **Booking** tab, see the work order you scheduled to your frontline worker. You must be signed in with the user the frontline worker was created for in step 3.
-
-> [!div class="mx-imgBorder"]
-> ![Device renders showing the booking on the Field Service mobile app.](./media/quickstart-mobile-work-order.png)
+> ![Screenshot of the Power Platform admin center, showing the new users.](./media/quickstart-ppac-users-add.png)
 
 ## See also
 
 - [Perform initial configurations](perform-initial-configurations-setup.md)
-
-
-
- 
-
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
