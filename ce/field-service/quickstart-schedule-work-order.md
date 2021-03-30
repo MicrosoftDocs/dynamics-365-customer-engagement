@@ -52,7 +52,7 @@ Many different roles interact with Field Service like system administrators, tec
 For this quickstart, we'll create two users:
 
 1. Back-office administrator and dispatcher
-2. Technician
+2. Frontline worker
 
 Sign into [https://admin.microsoft.com/](https://admin.microsoft.com/) as a system administrator.
 
@@ -69,12 +69,16 @@ Assign each user a license or trial license that includes Dynamics 365 Field Ser
 
 
 
-## Step 3: Get started with creating frontline workers, customers, and scheduling work orders
+## Step 3: Create and schedule a work order 
 
-### Set up your frontline workers
+Go to the _Getting Started_ page which can be found in the left navigation pane.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/gettingstarted1920.png)
 
 By the end of this getting started page you will have successfully scheduled a work order to a frontline worker to resolve a customer's issue. 
 
+### Set up your frontline workers
 
 Start by creating a frontline worker who represents someone in your company who completes work orders. Select the **Set Up** button.
 
@@ -83,15 +87,18 @@ Start by creating a frontline worker who represents someone in your company who 
 
 In the form that displays, enter required information. Recommended values are prepopulated and should not be changed unless necessary. 
 
-
+Start by choosing the frontline worker user in the _User_ field.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/getstarted-flw2.png)
 
 Optionally you can send an email to the frontline worker user to download the mobile app if [mailboxes are set up](frontline-worker-set-up-email-approval.md).
 
+> [!Note]
+> **Note 1:** Repeat the frontline worker set up for your back office user but instead choose **Field Service-Dispatcher** for the security roles and field security profiles.
+
 
 > [!Note]
-> If you are not able to see your users in the dropdown list during the frontline worker set up, see the additional notes section at the bottom of this article. 
+> **Note 2:** If you are not able to see your users in the dropdown list during the frontline worker set up, see the additional notes section at the bottom of this article. 
 
 ### Create your accounts
 
