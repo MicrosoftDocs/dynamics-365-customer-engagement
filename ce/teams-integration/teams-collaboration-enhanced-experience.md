@@ -55,7 +55,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
    - Choose an existing team that you belong to and then select **Next**.
 
      > [!div class="mx-imgBorder"]
-     > ![Choose a team](media/teams-add-to-existing-team-3.png "Choose a team")
+     > ![Select a team](media/teams-add-to-existing-team-3.png "Select a team")
 
    - Or, create a new team:  
 
@@ -66,7 +66,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 
         2. Enter a name for the team and then select **Next**.
             > [!div class="mx-imgBorder"]
-            > ![Enter name](media/teams-enter-team-name-5.png "Enter a team name")
+            > ![Enter name and select next](media/teams-enter-team-name-5.png "Enter a team name")
 
 
    **Step 2**- **Channel selection**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
