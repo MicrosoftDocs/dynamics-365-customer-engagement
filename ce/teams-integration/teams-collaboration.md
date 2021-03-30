@@ -70,10 +70,10 @@ A failed connection state indicates that the connection was not successfully sen
 
 
  - **View Selection**
-     1. Select an entity to see the list of active views that are available for the entity in the app and then select  **Save**.
+     1. Select an entity to see the list of active views that are available for the entity in the app and then select **Save**.
   
         > [!div class="mx-imgBorder"] 
-        > ![Select a view](media/teams-select-view.png "Select a view")
+        > ![Select an entity](media/teams-select-view.png "Select an entity")
    
         > [!div class="mx-imgBorder"] 
         > ![Select a view](media/teams-select-view2.png "Select a view")
@@ -138,7 +138,7 @@ When there is more than one Microsoft Teams channel connected to an app record, 
 To view a consolidated file list across all document locations including all connected team channel file libraries, from **Document Location** select **All Locations**.
 
 > [!div class="mx-imgBorder"] 
-> ![Document location](media/doclocation.png "Document location")
+> ![Select document location](media/doclocation.png "Select document location")
 
 
 > [!div class="mx-imgBorder"] 
