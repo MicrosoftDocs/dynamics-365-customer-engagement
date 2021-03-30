@@ -20,7 +20,7 @@ search.app:
 ---
 # Delete an instance
 
-Deleting Sandbox instances (environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Delete environment](https://docs.microsoft.com/power-platform/admin/delete-environment).
+Deleting Sandbox instances (environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Delete environment](/power-platform/admin/delete-environment).
 
 
 

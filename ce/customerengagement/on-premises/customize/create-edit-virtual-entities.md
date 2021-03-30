@@ -54,7 +54,7 @@ Alternatively, developers can build their own data providers. Data providers are
   
 3. On the Select  Data Provider dialog box, select from the following data sources, and then select **OK**.  
     
-   - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
+   - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](/dynamics365/?panel=developer_sales#pivot=developer)  
     
    - **OData v4 Data Provider**. Dynamics 365 Customer Engagement (on-premises) includes an OData Data Provider that can be used with OData v4 web services. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
   

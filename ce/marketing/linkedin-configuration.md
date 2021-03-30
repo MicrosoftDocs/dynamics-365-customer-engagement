@@ -33,7 +33,7 @@ The LinkedIn Lead Gen connector provides dedicated security roles, which you ass
 
 A third role, LinkedIn Lead Gen S2S Inbound, is an internal security role used to sync data.
 
-Assign these security roles to users who you want to provide access to the **LinkedIn Lead Gen** menu item. To learn how to assign a security role to users, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles).
+Assign these security roles to users who you want to provide access to the **LinkedIn Lead Gen** menu item. To learn how to assign a security role to users, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Configure lead matching for incoming LinkedIn leads to match existing leads
 
