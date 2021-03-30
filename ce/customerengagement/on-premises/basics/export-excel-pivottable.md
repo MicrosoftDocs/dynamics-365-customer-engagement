@@ -1,6 +1,7 @@
 ---
 title: "Export to an Excel PivotTable (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to export to an Excel PivotTable.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
