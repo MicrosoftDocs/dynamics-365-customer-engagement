@@ -21016,42 +21016,42 @@
     },
     {
       "source_path": "ce/customer-service/templates-overview.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/templates-overview",
+      "redirect_url": "/dynamics365/app-profile-manager/templates-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/session-templates.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/session-templates",
+      "redirect_url": "/dynamics365/app-profile-manager/session-templates",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/application-tab-templates.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/application-tab-templates",
+      "redirect_url": "/dynamics365/app-profile-manager/application-tab-templates",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/notification-templates.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/notification-templates",
+      "redirect_url": "/dynamics365/app-profile-manager/notification-templates",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/macros.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/macros",
+      "redirect_url": "/dynamics365/app-profile-manager/macros",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/agent-scripts.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/agent-scripts",
+      "redirect_url": "/dynamics365/app-profile-manager/agent-scripts",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/automation-dictionary-keys.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/automation-dictionary-keys",
+      "redirect_url": "/dynamics365/app-profile-manager/automation-dictionary-keys",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/service-manager-guide.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/configure-cs",
+      "redirect_url": "/dynamics365/app-profile-manager/configure-cs",
       "redirect_document_id": false
     },
     {
@@ -21066,7 +21066,7 @@
     },
     {
       "source_path": "ce/customer-service/associate-templates.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/associate-templates",
+      "redirect_url": "/dynamics365/app-profile-manager/associate-templates",
       "redirect_document_id": false
     },
     {
@@ -21076,7 +21076,7 @@
     },
     {
       "source_path": "ce/customer-service/smart-assist.md",
-      "redirect_url": "/dynamics365/customer-service/app-profile-manager/smart-assist",
+      "redirect_url": "/dynamics365/app-profile-manager/smart-assist",
       "redirect_document_id": false
     }
   ]
