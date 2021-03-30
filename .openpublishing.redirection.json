@@ -18922,92 +18922,92 @@
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/notifyevent.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/notifyevent",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/notifyevent",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/cancreatesession.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/cancreatesession",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/cancreatesession",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/createsession.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/createsession",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/createsession",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getsession.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getsession",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getsession",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getfocusedsession.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getfocusedsession",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getfocusedsession",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getallsessions.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getallsessions",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getallsessions",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/setsessiontitle.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/setsessiontitle",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/setsessiontitle",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/requestfocussession.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/requestfocussession",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/requestfocussession",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/createtab.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/createtab",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/createtab",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/gettabs.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/gettabs  ",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/gettabs  ",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/focustab.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/focustab",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/focustab",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/getfocusedtab.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getfocusedtab",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/getfocusedtab",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/refreshtab.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/refreshtab",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/refreshtab",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/settabtitle.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/settabtitle",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/settabtitle",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/initLogAnalytics.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/initLogAnalytics",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/initLogAnalytics",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/microsoft-ciframework/logAnalyticsEvent.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/logAnalyticsEvent",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/microsoft-ciframework/logAnalyticsEvent",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionSwitched.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionSwitched",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionSwitched",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionClosed.md",
-      "redirect_url": "/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed",
+      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed",
       "redirect_document_id": false
     },
     {
@@ -21016,42 +21016,42 @@
     },
     {
       "source_path": "ce/customer-service/templates-overview.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/templates-overview",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/templates-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/session-templates.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/session-templates",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/session-templates",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/application-tab-templates.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/application-tab-templates",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/application-tab-templates",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/notification-templates.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/notification-templates",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/notification-templates",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/macros.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/macros",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/macros",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/agent-scripts.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/agent-scripts",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/agent-scripts",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/automation-dictionary-keys.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/automation-dictionary-keys",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/automation-dictionary-keys",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/service-manager-guide.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/configure-cs",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/configure-cs",
       "redirect_document_id": false
     },
     {
@@ -21066,7 +21066,7 @@
     },
     {
       "source_path": "ce/customer-service/associate-templates.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/associate-templates",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/associate-templates",
       "redirect_document_id": false
     },
     {
@@ -21076,7 +21076,7 @@
     },
     {
       "source_path": "ce/customer-service/smart-assist.md",
-      "redirect_url": "/dynamics365/customer-servi/app-profile-manager/smart-assist",
+      "redirect_url": "/dynamics365/customer-service/app-profile-manager/smart-assist",
       "redirect_document_id": false
     }
   ]

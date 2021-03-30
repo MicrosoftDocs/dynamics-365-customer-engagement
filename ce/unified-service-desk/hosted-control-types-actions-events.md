@@ -1,8 +1,8 @@
 ---
 title: "Hosted control types, actions, and events in Unified Service Desk | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/24/2018
 ms.topic: article
