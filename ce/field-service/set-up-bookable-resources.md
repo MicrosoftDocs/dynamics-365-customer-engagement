@@ -56,10 +56,10 @@ To quickly create frontline workers refer to the topic on [setting up frontline 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot navigating to Resources](media/resource-create-new-navigation.png)
+> ![Screenshot of active bookable resources, showing the "+New" option.](./media/quiickstart-new-bookable-resource.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Active Bookable Resources grid](media/qs-1-img28.png)
+> ![Screenshot of a new bookable resource in Field Service.](./media/quickstart-new-bookable-resource-complete.png)
 
     
 3.  Select a **Resource Type**. 
