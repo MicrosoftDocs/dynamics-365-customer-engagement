@@ -107,19 +107,19 @@ you will need to untrack these manually or change the
 **IgnoreConversationIndexAndInReplyToForCorrelation** to prevent replies
 and forwards from being tracked. 
 
-## 2. When resolving recipient email addresses to records in Dynamics 365, if there is more than one record in Dynamics 365 with the same email address, which record is it resolved to?
+## 2. When resolving recipient email addresses to rows in Dynamics 365, if there is more than one row in Dynamics 365 with the same email address, which row is it resolved to?
 
 It resolves using the method below as described in this article: [How customer engagement apps associates email addresses with records](/power-platform/admin/email-message-filtering-correlation#how-customer-engagement-apps-associates-email-addresses-with-records)
 
-If there are duplicate records within Dynamics 365 with the same email
-address, the contents of the email **From** field will resolve first by
-ownership and then to the first active record in the following order on
+If there is duplicate rows in Dynamics 365 with the same email
+address, the contents of the email **From** field resolves first by
+ownership and then to the first active row in the following order on
 an **incoming email**:
 
 1.  SystemUser- (Will be first UNLESS the tracking user is ALSO the
-    > owner of the duplicated record, such as Contact, Account and
+    > owner of the duplicated row, such as Contact, Account and
     > others listed below. If the tracking user does NOT own the
-    > duplicated record, such as Contact, the sender email will resolve
+    > duplicated row, such as Contact, the sender email will resolve
     > to the SystemUser.)
 
 2.  Contact
@@ -136,12 +136,12 @@ an **incoming email**:
 
 8.  Email-enabled entities (for example: Queues, custom, etc.)
 
-Email recipients will not resolve to inactive User records in the From
+Email recipients will not resolve to inactive User rows in the From
 field. There is a setting that can be changed to resolve to other
-inactive entity records but this does NOT include inactive Users:
+inactive entity rows but this does NOT include inactive Users:
 [*ResolveForInactiveEntities*](https://github.com/seanmcne/OrgDbOrgSettings)\*\*link
 to email settings page. Regardless of this setting, we will not resolve
-to inactive User records.
+to inactive User rows.
 
  
 ### Examples of resolving the sending email address
@@ -178,7 +178,7 @@ The sender will resolve to the account.
 
 **Incoming Recipient Examples:**
 
-Here's **additional points** on how it resolves recipient records
+Here's **additional points** on how it resolves recipient rows
 in the **To or CC field** of an **incoming email**:
 
 - If there is an **inactive** user in the recipients line, the Dynamics
@@ -189,12 +189,12 @@ inactive users regardless of the **ResolveForInactiveEntities** setting.
 
 - If the email address is tied to an active user, it will display that in
 the Dynamics 365 App for Outlook recipients pane, but it will still
-resolve to each active Dynamics 365 record with that email address once
+resolve to each active Dynamics 365 row with that email address once
 it is promoted. If the **ResolveForInactiveEntities** setting is True,
-it will also resolve to inactive entity records except Users.
+it will also resolve to inactive entity rows except Users.
 
-- The Dynamics 365 App for Outlook will only show one of these records in
-the recipients pane, but in Dynamics 365, it will resolve to all records
+- The Dynamics 365 App for Outlook will only show one of these rows in
+the recipients pane, but in Dynamics 365, it will resolve to all rows
 with that email address on incoming emails as long as **Set To,cc,bcc
 fields to unresolved values if multiple matches are found** is set to No
 in System Settings
@@ -203,13 +203,13 @@ Here are some **additional points** on how the **To or CC field**
 resolves on a **tracked sent item**:
 
 - If the user is active and there is a contact, it will resolve to both
-records, although it will show resolved to the user in the Dynamics 365
-App for Outlook. It will resolve to all active records that match that
-email address or also inactive records if you have enabled
+rows, although it will show resolved to the user in the Dynamics 365
+App for Outlook. It will resolve to all active rows that match that
+email address or also inactive rows if you have enabled
 **ResolveForInactiveEntities**. You can see below it resolves to an
 Account, User, Contact and Lead.
 
-- If the User is Inactive, it may appear that the record is found/resolved
+- If the User is Inactive, it may appear that the row is found/resolved
 in the Dynamics 365 App for Outlook, however, when the item promotes
 into Dynamics 365, it will show up as unresolved.
 
@@ -227,7 +227,7 @@ Replying to emails before it is tracked will still track during the next
 sync cycle of the user's mailbox.
 
 An external contact sends an email to more than one Dynamics 365 user
-and this record is tracked.
+and this row is tracked.
 
 - External Contact sends an email to User A and User B.
 
@@ -236,7 +236,7 @@ and this record is tracked.
 - The Email is created in Dynamics 365 with Regarding of Account A.
 
 - User B goes to this Email from their Outlook calendar. They will see
-that this record is tracked.
+that this row is tracked.
 
 A Dynamics 365 user sends and tracks an email to another user or group
 of users in Dynamics 365.
@@ -251,32 +251,32 @@ identifies Sent and Incoming as separate emails. Therefore, either User
 A or User B would need to track the Incoming email for this to appear in
 Dynamics 365. 
 
-## 5. Multiple record types exist in Dynamics 365 with the same email addresses 
+## 5. Multiple row types exist in Dynamics 365 with the same email addresses 
 
 -   Henry Ross is a user inside Dynamics, and on the User form, the
     email data field of "Primary Email" has the value
     [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com).
 
--   There is an Opportunity record named "RossOpp" with the email data
+-   There is an Opportunity row named "RossOpp" with the email data
     field of "Email" set to [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com).
 
--   There is a Case record named "RossCase" with the email data field of
+-   There is a Case row named "RossCase" with the email data field of
     "Email" set to [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com).
 
--   There is a Contact record named "Brian LaMee" set to primary email
+-   There is a Contact row named "Brian LaMee" set to primary email
     of <brian@blueyonderairlines.com> with the email data field of
     "Contact Approver" set to [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com).
 
--   There is another Contact record named "George Li" set to primary
+-   There is another Contact row named "George Li" set to primary
     email of <georgeli@alpineskihouse.com> with the email data field of
     "Contact Approver" set to [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com).
 
--   There is another Contact record named "Hugo Garcia" set to primary
+-   There is another Contact row named "Hugo Garcia" set to primary
     email of <hugo@litware.com> with the email data field of "Contact
     Approver" set to [henryross@dynamicsmailapp.onmicrosoft.com
     ](mailto:Bob@dynamicsmailapp.onmicrosoft.com).
@@ -296,9 +296,9 @@ To: Brian LaMee; Hugo Garcia; George Li; Henry Ross
 > [!div class="mx-imgBorder"] 
 >![Example of email To field values](../media/faq-about-tracking.png)
 
-**Email addresses do not resolve to records only in the default email
+**Email addresses do not resolve to rows only in the default email
 address fields**. If you have a custom Single Line of Text field with
-Email format on a Contact record, you may see some interesting results.
+Email format on a Contact row, you may see some interesting results.
 
  
 
