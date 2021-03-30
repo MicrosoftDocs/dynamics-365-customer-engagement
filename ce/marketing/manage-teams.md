@@ -34,7 +34,7 @@ To create a new team:
     - **Team name**: Give the team a name
     - **Business unit**: Select the business unit that members of this team belong to.
     - **Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members. The team admin has access to team-owned records, just like team members do, but the admin isn't shown elsewhere as a member of the team unless you also add them as a member.
-    - **Team type**: Select the type of team you are creating. For details about the various types, see [Manage teams](https://docs.microsoft.com/power-platform/admin/manage-teams).
+    - **Team type**: Select the type of team you are creating. For details about the various types, see [Manage teams](/power-platform/admin/manage-teams).
     - **Azure AD object ID for a group**: If you are using an AAD-related **Team type**, then specify the relevant Azure AD object ID here.
     - **Description**: Describe the team.
 1. Select **Save** on the command bar.
@@ -60,7 +60,7 @@ To apply security roles to teams, and to customize each role:
 1. Navigate to **Settings** > **System** > **Security**.
 1. Work with the **Users**, **Security roles**, and **Teams** items here as needed.
 
-For more information about managing teams and working with security roles, see [Manage teams](https://docs.microsoft.com/power-platform/admin/manage-teams) and [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
+For more information about managing teams and working with security roles, see [Manage teams](/power-platform/admin/manage-teams) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 For more information about the security roles included with the Dynamics 365 Marketing, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
 

@@ -129,6 +129,9 @@
 #### [Set up knowledge search providers](set-up-search-providers.md)
 #### [Work with knowledge articles](work-knowledge-articles.md)
 #### [Create a knowledge article using a template](create-knowledge-article-using-template.md)
+#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
+#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Create and manage knowledge categories](create-manage-categories.md)
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
 #### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)
 #### [Search for and share knowledge articles](oc-search-knowledge-articles.md)
@@ -137,9 +140,7 @@
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Search for knowledge articles on smart assist](oc-search-knowledge-articles.md)
 #### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles)
-#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
-#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
-#### [Create and manage knowledge categories](create-manage-categories.md)
+
 ### Customize knowledge management
 #### [Knowledge base search](knowledge-base-search-methods.md)
 #### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)

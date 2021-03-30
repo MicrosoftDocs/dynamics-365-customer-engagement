@@ -41,11 +41,11 @@ This document provides important, late-breaking information about known issues a
 
 ## Designer feature protection
 
-- Designer feature protection enables admins to limit access to the HTML tab and/or Litmus previews for content designers. However, the protection only applies to users who have read access to the *Designer Feature Access* entity. Users without this read access will always be able to see the HTML and Litmus features, even if you use designer feature protection to block them. To solve this, make sure all security roles provide read access to the *Designer Feature Access* entity. If you are using the out-of-box security roles supplied with the product, then these should automatically update to include this access when you apply the October 2018 (or later) update, but if you use custom security roles you need to add this access explicitly after updating. More information: [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
+- Designer feature protection enables admins to limit access to the HTML tab and/or Litmus previews for content designers. However, the protection only applies to users who have read access to the *Designer Feature Access* entity. Users without this read access will always be able to see the HTML and Litmus features, even if you use designer feature protection to block them. To solve this, make sure all security roles provide read access to the *Designer Feature Access* entity. If you are using the out-of-box security roles supplied with the product, then these should automatically update to include this access when you apply the October 2018 (or later) update, but if you use custom security roles you need to add this access explicitly after updating. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 ## Event management
 
-- If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
+- If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](/powerapps/maker/portals/configure/invite-contacts) and then send the invitation code to the contact by email.
 
 ## General
 
@@ -107,7 +107,7 @@ This document provides important, late-breaking information about known issues a
 
 ## Trials
 
-- Trials are subject to the [Dynamics 365 Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
+- Trials are subject to the [Dynamics 365 Marketing trial limits and restrictions](./trial-preview-limits.md).
 - You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Add more users to a Marketing trial running on a trial tenant](trial-signup.md#add-users).
 - You can't sign up using an \@microsoft.com email address. If you are a Microsoft employee and would like to sign up for a trial, start by setting up a Microsoft 365 E3 trial, which will provide you both with a trial tenant (where you can install the Marketing trial) and a new email address that you can use to sign up for the Marketing trial. More information: [Sign up for a free trial](trial-signup.md).
 
