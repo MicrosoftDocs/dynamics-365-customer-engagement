@@ -30,13 +30,13 @@ This is enabled on [Click-to-Run](/office/troubleshoot/office-suite-issues/offic
 
 Using encryption software with server-side synchronization is not supported.
 
-- If you use server-side synchronization with Dynamics 365 Customer Engagement (on-premises), you won't be able to view S/MIME encrypted messages. Encrypting emails with S/MIME requires an application to use an S/MIME control which server-side synchronization doesn't support. For more information on S/MIME encryption, see [Encrypt messages by using S/MIME in Outlook Web App](https://support.microsoft.com/office/encrypt-messages-by-using-s-mime-in-outlook-web-app-2e57e4bd-4cc2-4531-9a39-426e7c873e26?).
+- If you use server-side synchronization with Dynamics 365 Customer Engagement (on-premises), you won't be able to view S/MIME encrypted messages. Encrypting emails with S/MIME requires an application to use an S/MIME control, which server-side synchronization doesn't support. For more information on S/MIME encryption, see [Encrypt messages by using S/MIME in Outlook Web App](https://support.microsoft.com/office/encrypt-messages-by-using-s-mime-in-outlook-web-app-2e57e4bd-4cc2-4531-9a39-426e7c873e26?).
 
 - Encrypted mails can only be tracked from the Microsoft Outlook Client (web or desktop) once they are decrypted, any corresponding Dynamics 365 activities created will not be encrypted.
 
 ## Known issues and FAQs
 
-1. When an email is signed or encrypted, attachments are stored inside a single smime.p7m attachment. If the email is tracked in Dynamics 365, you will see one .p7m attachment which needs to be decoded using an [S/MIME reader](https://www.microsoft.com/p/s-mime-reader/9nblggh5lhc3?activetab=pivot:overviewtab).
+1. When an email is signed or encrypted, attachments are stored inside a single smime.p7m attachment. If the email is tracked in Dynamics 365 then you will see one .p7m attachment that needs to be decoded using an [S/MIME reader](https://www.microsoft.com/p/s-mime-reader/9nblggh5lhc3?activetab=pivot:overviewtab).
 
 2. If your email isn't syncing with Dynamics 365, see [Email fail to synchronize to Dynamics 365 when encoded with PEC](https://support.microsoft.com/topic/email-fail-to-synchronize-to-dynamics-365-when-encoded-with-pec-631b7dd7-f797-8cc2-046c-313ea7e724f7)
 	
