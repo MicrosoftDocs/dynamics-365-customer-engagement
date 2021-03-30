@@ -24,10 +24,8 @@ search.app:
 ---
 
 
-<!--from editor: This topic uses "includes" files for Customer Engagement that need to be updated. See lines 126, 131, 132, 179, and 284. -->
 
-
-# Deploy Dynamics 365 App for Outlook
+# How to deploy Dynamics 365 App for Outlook
 
 
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of Dynamics 365 apps while using  [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on the desktop or web. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email or appointment  to a Dynamics 365 apps record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User's Guide](../dynamics-365-app-outlook-user-s-guide.md).  
