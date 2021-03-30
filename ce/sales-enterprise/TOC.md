@@ -65,6 +65,7 @@
 #### [Configure advanced settings](forecast-configure-advanced-settings.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Deactivate and delete forecast](deactivate-delete-forecast.md)
+#### [Clone a forecast](clone-forecat.md)
 #### [Forecast with different data type](forecast-different-data-types.md)
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
@@ -139,7 +140,6 @@
 #### [Create or edit invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quotes, orders, or invoices](../sales-enterprise/add-product-quote-order-invoice.md)
 #### [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
-
 
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
