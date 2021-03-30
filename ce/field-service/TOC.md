@@ -11,8 +11,6 @@
 
 # Administration
 ## [Initial configuration](perform-initial-configurations-setup.md)
-## [Frontline worker setup](frontline-worker-set-up.md)
-### [Mailbox setup](frontline-worker-set-up-email-approval.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
 ## [Location and map settings](field-service-maps-address-locations.md)
 ## [Priorities](set-priorities.md)
@@ -48,7 +46,9 @@
 ## [Capture resolution details](work-order-resolutions.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
-# Bookable resources
+# Frontline workers & bookable resources
+## [Frontline worker setup](frontline-worker-set-up.md)
+### [Mailbox setup](frontline-worker-set-up-email-approval.md)
 ## [Set up bookable resources](set-up-bookable-resources.md)
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
