@@ -159,7 +159,7 @@ Appointments are enabled for scheduling by default when Universal Resource Sched
 **(Deprecated)** You can configure the system to automatically create a booking when an appointment is created.
 
 > [!Note]
-> As of April 01, 2021, this configuration has been deprecated. Read more details in the [deprecation notice](deprecations-scheduling.md/deprecated-appointment-handling) and plan moving to the [new method](appointment-scheduling.md) of including appointments in resource scheduling, without needing corresponding bookings.
+> As of April 01, 2021, this configuration has been deprecated. Read more details in the [deprecation notice](../../field-service/deprecations-scheduling.md/#deprecated-appointment-handling) and plan moving to the [new method](../../field-service/appointment-scheduling.md) of including appointments in resource scheduling, without needing corresponding bookings.
 
 
 Go to **Settings** > **Administration** > **System Settings** > **Calendar** and set **Scheduling Engine** to **Universal Resource Scheduling**.
