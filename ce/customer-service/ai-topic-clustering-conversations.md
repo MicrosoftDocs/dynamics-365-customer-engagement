@@ -4,7 +4,7 @@ description: "Configure topic cLustering for conversations using AI"
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
