@@ -53,7 +53,7 @@ From a team channel, you can connect a customer engagement app (such as Dynamics
         > [!NOTE] 
         > The Enhanced Collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Microsoft Teams](teams-install-app.md).
      
-     Once you complete the above steps, you'll see a notification of a successful connection and the app record will load in the new added tab. You can interact with the record as if you were using the your app. Those with **Write** permissions can edit the record. Changes will be synchronized with the customer engagement app in Dynamics 365.
+     Once you complete the above steps, you'll see a notification of a successful connection and the app record will load in the new added tab. You can interact with the record as if you were using the app. Those with **Write** permissions can edit the record. Changes will be synchronized with the customer engagement app in Dynamics 365.
 
       > [!div class="mx-imgBorder"] 
       > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
@@ -95,14 +95,14 @@ A failed connection state indicates that the connection was not successfully sen
    > [!div class="mx-imgBorder"] 
    > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
-You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
+Select **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
-You can return to these settings any time by selecting the **Settings** tab.
+To access these setting again, select the **Settings** tab.
 
 Once the app tab is set up in Microsoft Teams collaboration channel, you can start working with your team members on the pinned app customer information and share files directly from Microsoft Teams.
 
 ### Have a conversation
-You can chat with your team members side-by-side with the app tab. From the app tab pinned in a Microsoft Teams channel, select the **Show tab converation** button to open the conversation tab.
+You can chat with your team members side-by-side with the app tab. From the app tab pinned in a Microsoft Teams channel, select the **Show tab conversation** button to open the conversation tab.
 
 > [!div class="mx-imgBorder"] 
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
@@ -152,12 +152,12 @@ In a customer engagement app in Dynamics 365 (such as Dynamics 365 Sales and Dyn
 
 For more information on which entities support the collaborate option, see [Record types that support Microsoft Teams integration](teams-collaboration.md#record-types-that-support-microsoft-teams-integration).
 
-In a an app record page, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
+On an app record page, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Microsoft Teams.
 
 > [!div class="mx-imgBorder"] 
 > ![From Dynamics 365 apps, open a conversation in Microsoft Teams](media/teams-select-collaborate.png "From Dynamics 365 apps, open a conversation in Microsoft Teams")
 
-In addition, document management in customer engagement apps in Dynamics 365 is integrated with Microsoft Teams. You can see the connected channel file library in the app and directly upload files; uploaded files will appear in the connected team channel file library under the **Files** tab in Microsoft Teams. Files uploaded in the Microsoft Teams connected channel will appear in the **Documents** tab in you app.
+In addition, document management in customer engagement apps in Dynamics 365 is integrated with Microsoft Teams. You can see the connected channel file library in the app and directly upload files; uploaded files will appear in the connected team channel file library under the **Files** tab in Microsoft Teams. Files uploaded in the Microsoft Teams connected channel will appear in the **Documents** tab in your app.
 
 > [!div class="mx-imgBorder"] 
 > ![Dynamics 365 apps document management in Teams](media/teams-documents-d365.png "Dynamics 365 apps document management in Teams")
