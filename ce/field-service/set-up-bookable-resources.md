@@ -41,7 +41,14 @@ In this article, we will walk through how to create a bookable resource and add 
 - Any version of Dynamics 365 Field Service.
 - You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles.
 
-## Create a bookable resource  
+## Quickly set up frontline workers to get started
+
+At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. 
+
+To quickly create frontline workers refer to the topic on [setting up frontline workers](frontline-worker-set-up.md).
+
+
+## Create frontline workers and other bookable resources manually
   
 1.  From the Field Service main menu, select **Resources** > **Resources entity**. 
 
@@ -59,7 +66,7 @@ In this article, we will walk through how to create a bookable resource and add 
   
   Resource type is a classification that describes who or what the resource is and how the resource relates to your organization. 
 
-   - **User**: Choose this option if the resource is a person and a member of your organization. This resource type must be chosen if the resource is a field technician who needs access to the Field Service Mobile app.
+   - **User**: Choose this option if the resource is a frontline worker person and a member of your organization. This resource type must be chosen if the resource is a field technician who needs access to the Field Service Mobile app. Note: The related user must have **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. For more information, learn more about [frontline worker setup](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
    - **Account** or **Contact**: Choose this option if the resource is not directly a part of your organization, but needs to be scheduled. A common example is subcontractors. This also allows the scheduling framework to more easily apply to an organization's existing Dynamics system that may be using accounts and contacts to manage workers, partners, and contractors before Field Service is purchased and implemented. 
   - **Equipment**: Choose this option if the resource is a piece of equipment, tool, or machine that must be scheduled.
   - **Crew**: Choose this option as the first step to create a crew to assemble a group of resources where scheduling the crew resource will schedule all crew members. A typical example has two or more people or a person and a vehicle. The general process is to create a crew header resource with the resource type of crew, and then add other resources of resource type user, account, or equipment as resource children to the crew header. For more information, see our article on [resource crews](resource-crews.md).
@@ -147,23 +154,7 @@ In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-do
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting working hours and timezone](media/resource-working-hours-timezone.png)
  
-## Set up frontline workers
 
-At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. For more information, learn more about [setting up frontline workers](frontline-worker-set-up.md).
-
-A bookable resource that represents a frontline worker must have:
-
-- **Resource Type** set to **User**.
-- **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. For more information, learn more about [frontline worker setup](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
-
-> ![Screenshot of selecting a user in Field Service.](./media/bookable_resource_form.PNG)
-
-Other fields important for frontline workers in field service scenarios are:
-
-- **Start/End Location**: where the resource starts and ends their day is factored into schedule work order requirements to the closest field technician.
-- **Display On Schedule Board**: displaying a field technician resource on the schedule board is crucial for enabling dispatchers to manage their schedules.
-- **Enable for Availability Search**: the schedule assistant is a dispatcher's best way to assign field technicians to work orders. 
-- **Warehouse**: this connects a field technician to a warehouse (typically the truck) to consume inventory on work orders. 
 
 In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, see the article on [enabling location tracking](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
