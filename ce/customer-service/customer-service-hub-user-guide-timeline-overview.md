@@ -4,7 +4,7 @@ description: "Timeline Overview for Users"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/16/2021
+ms.date: 03/16/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -33,6 +33,11 @@ When enabled by your system administrator, you can use the icons that are displa
 - [Explore more commands](#more-commands)
 - [Search Records](#search-records-on-timeline)
 - [Add attachments](#add-an-attachment-to-a-note-in-timeline)
+
+The timeline dashboard displays only the entities that are configured for the signed-in user. So, what you see on the timeline may differ from what another user will see. The signed-in user will see any records they've followed if those records are configured to display on the dashboard. For example, if only email and appointments are configured to display, then the signed-in user will only see email that relates to them, which can be email they've sent, email sent to them, and email they follow. The same would be true for appointments in this scenario. For more information on setting up timeline, see [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md).
+
+> [!Note]
+> The Notes feature is not available from the timeline. 
 
 ## Create a timeline record
 

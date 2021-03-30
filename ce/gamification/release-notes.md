@@ -43,7 +43,7 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 ### New and improved features
 
-- The [Terms and Usage](https://go.microsoft.com/fwlink/?linkid=870920) has been modified. 
+- The [Terms and Usage](../legal/supp-dynamics365-gamification.md) has been modified. 
 
 ### Resolved issues
 

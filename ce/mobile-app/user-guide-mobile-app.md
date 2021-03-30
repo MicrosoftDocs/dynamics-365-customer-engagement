@@ -1,6 +1,6 @@
 ---
-title: "Basic navigation in Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
-description: How to use the Dynamics 365 mobile app
+title: "Basic navigation on Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
+description: How to use the Dynamics 365 for phones and tablets mobile app.
 ms.custom: 
 ms.date: 1/27/2021
 ms.reviewer: kvivek
@@ -25,7 +25,7 @@ search.app:
 
 # Basic navigation on Dynamics 365 for phones and tablets
 
-Use Dynamics 365 for phones and tablets to run customer engagement apps&mdash;such as <!--note from editor: I suggest removing "your" because the Dynamics Style Guide says Field Service is also a customer engagement app. "Your" implies that we're talking about all of them. Also, suggest em dashes instead of parentheses.-->Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing&mdash;on your mobile device. To install the app, go to [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md).
+Use Dynamics 365 for phones and tablets to run customer engagement apps&mdash;such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing&mdash;on your mobile device. To install the app, go to [Install Dynamics 365 for phones and tablets](install-dynamics-365-for-phones-and-tablets.md).
 
 You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Customer Engagement (on-premises) apps on the Dynamics 365 mobile app. For more information, go to the following articles:
 
@@ -42,7 +42,7 @@ You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Custo
 
 ## Home screen 
 
-It's easy to get around in Dynamics 365 for phones and tablets<!--note from editor: Edit okay? I'm getting a bit confused here. If this article is talking about the "Dynamics 365 mobile app," shouldn't the title and introduction be changed?-->. The following image shows the primary navigation elements on the home screen.
+It's easy to get around in Dynamics 365 for phones and tablets. The following image shows the primary navigation elements on the home screen.
 
 ![Navigation controls, expanded view](media/home_screen_iphone_d365.png "Navigation controls, expanded view")
 
@@ -117,7 +117,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 2. On the **Recent** records screen, select the pushpin ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites") next to a record to add it to your favorites (pinned records).
 
-3. To view the newly pinned records, select **Close** ![Close](media/close.png "Close"), and then select **Pinned** ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites").
+3. To view the newly pinned records, select **Close** ![Close button](media/close.png "Close button"), and then select **Pinned** ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites").
 
    > [!div class="mx-imgBorder"]
    > ![This image demonstrates how to pin favorite records](media/pin_to-favs.gif "This image demonstrates how to pin favorite records")
@@ -185,7 +185,7 @@ On the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), sele
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-Reconfiguring deletes data and metadata for the current organization from the cache; however, don't rely on this as a security measure.<!--note from editor: I'm not sure what the significance of this is. Is there an actual security measure the reader should know about?-->
+Reconfiguring deletes data and metadata for the current organization from the cache; however, don't rely on this as a security measure.
 
 Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were signed in to, you'll need to sign back in to that organization and use the **Reconfigure** option to delete data and metadata for that organization from the cache.
 
