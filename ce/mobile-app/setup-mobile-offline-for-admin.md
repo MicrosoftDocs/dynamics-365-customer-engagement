@@ -1,7 +1,8 @@
 ---
-title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets (using old admin interface) | MicrosoftDocs"
+title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets (using legecy admin interface) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/21/2020
+description: Configure mobile offline synchronization in Dynamics 365 for phones and tablets.
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -50,12 +51,12 @@ One of the first things you need to do is enable entities that will be available
 1. To open settings for apps that use Unified Interface, look in the upper-right corner and select the Gear icon. Then select **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/Settings_Custom1.png "Settings Customizations")
+   >![Select advanced settings](media/Settings_Custom1.png "Select advanced settings")
   
 2. Select **Settings** > **Customizations** and then select **Customize the System**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
+   >![Select Customize the System](media/Settings_Custom.png "Select Customize the System")
    
   
 3. Expand **Entities** in the left pane.  
@@ -65,7 +66,7 @@ One of the first things you need to do is enable entities that will be available
 5. Under **Outlook & Mobile**, select **Enable for mobile offline**. 
 
    > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/Settings_Custom3.png "Customize the System")
+   >![Select Enable for mobile offline](media/Settings_Custom3.png "Enable for mobile offline")
    
    
 > [!IMPORTANT]
@@ -131,7 +132,7 @@ You need to create mobile offline profiles for users to configure filters that d
 9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list.  
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
+   >![Enter a name and select an entity](media/enable_entities_for_offline.png "Enter a name and select an entity")
  
 
 10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](/powerapps/maker/common-data-service/types-of-entities).
