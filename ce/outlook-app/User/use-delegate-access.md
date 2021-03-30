@@ -28,7 +28,7 @@ Delegate access is granted to users who manage certain aspects of Microsoft Outl
 
 Set up delegate access in Microsoft Outlook to give someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Microsoft Dataverse using the Dynamics 365 App for Outlook. For more information on how to set up delegate access, see [Set up delegate access](../enable-delegate-access.md).
 
-Tracking that's done using delegate access is synced asynchronously. When you use the App for Outlook tracking feature to track a n item in your email as a delegate, App for Outlook syncs the information for both the user and the delegate at the same time.
+Tracking that's done using delegate access is synced asynchronously. When you use the tracking feature to track an item in your email as a delegate, App for Outlook syncs the information for both the user and the delegate at the same time.
 
 
 > [!IMPORTANT]
@@ -50,11 +50,11 @@ when an appointment is created by a delegate and tracked to Dynamics 365, the fo
 - **Owner**
 - **Organizer**
 
-## Track an email and link it to a specific row in Dynamics 365
+## Track an email message and link it to a specific row in Dynamics 365
 
 Track an email using **Set Regarding** and link it to a specific row in your app.
 
-1. Go to the email folder of the person that you are a delegate for and open an email that you want to track.
+1. Go to the email folder of the person that you are a delegate for and then open the email message that you want to track.
 
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
@@ -107,7 +107,7 @@ Track an email using **Track without Regarding** to add the email an activity in
    > [!div class="mx-imgBorder"] 
    > ![Select track without regarding](../media/da-track-without-regarding.png)
    
-4. The status of the meeting invitation changes to **Processing, please wait** for both the user and the delegated user. Don't close the Outlook item until the status changes to **Track pending**. If you close it too early then the item may not track successfully. Once the email has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked** for both the user and the delegated user.
+4. The status of the meeting invitation changes to **Processing, please wait** for both the user and the delegated user. Don't close the Outlook item until the status changes to **Track pending**. If you close it too early, then the item may not track successfully. Once the email has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked** for both the user and the delegated user.
 
 
 ### View the linked item using Track without Regarding in your app 
