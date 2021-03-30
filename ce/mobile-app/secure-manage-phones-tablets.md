@@ -1,6 +1,7 @@
 ---
 title: "Secure and manage Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
+description: Secure and manage Dynamics 365 for phones and tablets.
 ms.date: 01/03/2020
 ms.reviewer:
 ms.service: crm-online
