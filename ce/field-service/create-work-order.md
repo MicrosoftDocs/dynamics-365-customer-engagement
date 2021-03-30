@@ -53,8 +53,43 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 |**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
   
-<a name="BKMK_newworkorder"></a>   
+ 
 ## Create a work order  
+
+
+
+
+## 4. Create a work order
+
+Go to **Field Service** > **Service** > **Work Orders** > **+New**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the active work orders list in Field Service.](./media/quickstart-work-order-new.png)
+
+At a minimum, enter information in the following required fields.
+
+- For **Service Account**, select an account from the list or create a new one.
+- For **Work Order Type**, select a work order type from the list or create a new one. 
+- For **System Status**, select **Open-Unscheduled**.
+- For **Price List**, select a price list from list or create new one. 
+- Set **Taxable** to **No**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a work order in Field Service.](./media/quickstart-work-order-new2.png)
+
+On the **Address** tab, enter a valid address. Then choose **Save and close**.
+
+Consider adding incident types, products, services, and service tasks to add more details and instructions to your work orders. For more information, see the article on [configuring incident types](configure-incident-types.md).
+
+
+
+
+
+
+
+
+
+
   
 1. From the main menu, select **Field Service** > **Work orders**.  
   

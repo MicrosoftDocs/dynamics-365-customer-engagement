@@ -42,6 +42,49 @@ In this article, we will walk through how to create a bookable resource and add 
 - You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles
 
 ## Create a bookable resource  
+
+
+
+
+## 3. Create a bookable resource
+
+Next, create a bookable resource record for the technician user. Creating a bookable resource lets you schedule work orders for the frontline worker, which the frontline worker sees in the mobile app.
+
+Go to **Field Service** > **Resources** > **Resources** > **+New**
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of active bookable resources, showing the "+New" option.](./media/quiickstart-new-bookable-resource.png)
+
+Create a new frontline worker resource with the following settings: 
+
+- Resource Type = **User**
+- User = **\[User record that represents your frontline worker user\]**
+- Display on Schedule Board = **Yes**
+- Enable for Availability Search = **Yes**
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a new bookable resource in Field Service.](./media/quickstart-new-bookable-resource-complete.png)
+
+For more information, see the article on [setting up bookable resources](set-up-bookable-resources.md).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 1.  From the Field Service main menu, select **Resources** > **Resources entity**. 
 

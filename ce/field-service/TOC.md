@@ -49,6 +49,7 @@
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
+## [Display a bookable resource on the schedule board](add-resource-schedule-board.md)
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)

@@ -104,6 +104,63 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 
 Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
 
+
+beginning
+
+## 2. Assign appropriate security roles to your users 
+
+Next we need to assign each user the correct Field Service security role.
+
+Select **Manage users in Dynamics 365**.
+
+> [!NOTE]
+> Make sure you're seeing the "Enabled Users" view.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of environment settings in the Power Platform admin center.](./media/quickstart-ppac-users.png)
+
+Select the user that represents the back-office administrator and dispatcher, then select **Manage Roles** in the top ribbon and assign the **Field Service - Administrator** and **Field Service - Dispatcher** security roles.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the manage user roles dialog in the enabled users view.](./media/quickstart-roles-admin.png)
+
+Then select the user that represents the frontline worker, and assign them the **Field Service - Resource** security role.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the manage user roles dialog in the enabled users view, showing the resource role selected.](./media/quickstart-roles-resource.png)
+
+Now we need to assign Field Security profiles.
+
+Sign into your Dynamics 365 environment. In the top right, select **Advanced settings**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Dynamics 365 showing the advanced settings dropdown menu.](./media/quickstart-advanced-settings.png)
+
+Go to **Settings** > **Security** > **Users**.
+
+Select **Field Security Profiles**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Dynamics 365 settings.](./media/quickstart-field-secuirty-profile.png)
+
+Select the  **Field Service – Resource** field security profile and add the technician user.
+
+Field technicians can't edit fields on mobile work orders unless they have this profile assigned.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of field security profiles in Dynamics 365 settings showing the resource profile.](./media/quickstart-field-secuirty-profile-resource.png)
+
+Then select the **Field Service - Administrator** field security profile and add the administrator user.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of field security profiles in Dynamics 365 settings showing the administrator profile.](./media/quickstart-field-secuirty-profile-admin.png)
+
+
+
+End
+
+
+
 ## Q + A 
 
 1. After adding and assigning security profiles, what should I do next? 
