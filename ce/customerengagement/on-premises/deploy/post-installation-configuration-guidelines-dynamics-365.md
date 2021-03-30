@@ -99,7 +99,7 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 1.  Log on to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server as an administrator.  
   
-2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)  
+2. Add the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in (Microsoft.Crm.PowerShell.dll). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Administer the deployment using Windows PowerShell](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn531202(v=crm.8))  
   
    ```powershell  
    Add-PSSnapin Microsoft.Crm.PowerShell  
@@ -198,11 +198,11 @@ net start adfssrv
 ```
 
 #### Enable Device Registration Service (DRS) on the federation server
-To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
+To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
 
 <a name="BKMK_usertrain"></a>   
 ## User training and adoption  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](https://go.microsoft.com/fwlink/p/?LinkId=386503)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training and Adoption Kit for Microsoft Dynamics 365](/power-platform/admin/try-powerapps-dynamics-365)  
   
 ## See also  
  [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)   
