@@ -43,7 +43,7 @@ When you receive or create an email or appointment for a new customer, use their
    >![Add a contact, lead, or account](../media/add-new-row.png)
    
 
-4. Fill in the required informaion, and then select **Save and Close**. Or, to save and create another row, select the down arrow and then select **Save & Create New**.
+4. Fill in the required information, and then select **Save and Close**. Or, to save and create another row, select the down arrow and then select **Save & Create New**.
 
    > [!div class="mx-imgBorder"] 
    >![Fill in the required information](../media/app-for-outlook-quick-create.png)
