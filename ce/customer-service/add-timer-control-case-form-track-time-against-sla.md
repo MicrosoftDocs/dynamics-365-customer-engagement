@@ -4,7 +4,7 @@ description: "Learn how to add timer control in the case form to track time agai
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/31/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -18,26 +18,22 @@ search.app:
   - D365CS
 ---
 
-# Add a timer control to Case form to track time against SLAs
+# Add a timer control for SLA-enabled entities
 
-Add a timer control to an entity form to help users gauge the amount of time they have to complete a task—typically as specified in a service level agreement (SLA). The timer control initially displays a count-down timer to show the time remaining to complete the task.
+Add a timer control to an service-level agreement (SLA) enabled entity form to help users gauge the amount of time they have to complete a task as specified in the SLA. The timer control displays count-down timers that show the current status and time remaining for the configured SLA KPIs.
 
-## Add SLA KPI timer to an entity
+## Add an SLA timer to an SLA-enabled entity
 
 You can add a subgrid for an entity and add the SLA Timer control to display the SLA KPIs that are configured for the entity. Typically, you'll configure the SLA KPIs for the case entity.
 
-You can configure the KPIs that you want to show in the SLA Timer control subgrid for an entity, such as a case, when agents view the case to work on in Customer Service Hub. The following details are available to the agents:
+You can configure the KPIs that you want to show in the SLA Timer control subgrid for an SLA-enabled entity, such as case. When you add the SLA Timer control, you can create a custom view to filter the KPIs, and set the custom view as the default. At runtime, the selected view helps filter the KPIs that should be displayed to agents.
 
-- The different stages that the KPIs go through are displayed on the SLA timer control.
-- When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable.
-- The icons are updated for the different stages that the KPIs go through.
-- The KPIs are refreshed at the interval that you specify at the time of configuration.
+For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
-A sample runtime view of the SLA Timer is as follows.
+> [!NOTE]
+> The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
 
-![Run time view of SLA timers](../customer-service/media/sla-timer-runtime.png "Run time view of SLA timers")
-
-### How to add the SLA Timer control
+### Add the SLA timer control
 
 Do the following steps to add the SLA timer control for the case entity.
 
@@ -46,28 +42,31 @@ Do the following steps to add the SLA timer control for the case entity.
 
 1. In your Dynamics 365 environment, go to **Customizations**.
 2. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select **Case for interactive experience**.
-3. On the page that appears, insert a section, and then insert a subgrid.
-4. On the **Set Properties** dialog box, enter the necessary details.
-   - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime.  
-5. On the **Controls** tab, enter the following information:
-   1. Select **Add Control**, and choose SLA Timer.
-   2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. By default, the interval is set to 30 minutes.
+3. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
+4. Double-click the subgrid, and on the **Set Properties** dialog box, enter the necessary details.
+   - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
    > ![Configure SLA Timer in customizations](../customer-service/media/sla-timer-properties.png "Configure SLA Timer in customizations")
 
+5. On the **Controls** tab, enter the following information:
+   1. Select **Add Control**, and choose SLA Timer.
+   2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. For optimal performance, choose an interval that is not too short. The default interval is 30 minutes.
+
+   > ![Set refresh frequency for timer](media/sla-timer-update-frequency.png)
+
 6. Save and publish the solution.
 
-## Add a timer control to the Case form to track time against an SLA
+## Add an out-of-the-box timer control to the Case form
 
  On a case form, the timer control can show any of the following, depending on the actions of the customer service representative (CSR) and what you specify when you set up the timer control:  
   
--   If the CSR completes the task within the time remaining, the control shows the word **Succeeded**.  
+- If the CSR completes the task within the time remaining, the control shows the word **Succeeded**.  
   
--   If the CSR doesn’t complete the task within the time remaining, the control shows the word **Expired**.  
+- If the CSR doesn’t complete the task within the time remaining, the control shows the word **Expired**.  
   
--   As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed. This behavior is optional.  
+- As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed. This behavior is optional.  
   
--   If a condition causes the milestone to be canceled, the control shows the word **Canceled**. This behavior is optional.  
+- If a condition causes the milestone to be canceled, the control shows the word **Canceled**. This behavior is optional.  
   
 -   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
   
@@ -80,13 +79,13 @@ Do the following steps to add the SLA timer control for the case entity.
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
 > [!NOTE]
-> The above screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app](media/timer-control-webclient.png)
+> The screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app](media/timer-control-webclient.png)
 
 
 For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
 
 
-## Add a timer control to the Case form  
+### Add an out-of-the-box timer control  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
