@@ -44,7 +44,10 @@ Sign in as a system administrator and verify that the Field Service application 
 
 ## Step 2: Assign Field Service licenses to users
 
-Once you have a Dynamics 365 environment with Field Service, you need to create users to use the application. Many different roles interact with Field Service like system administrators, technicians, dispatchers, service managers, inventory managers, customer service representatives and more.
+Once you have a Dynamics 365 environment with Field Service, you need to create users or select existing users and assign them a license that includes Dynamics 365 Field Service. For more information see the topic on [setting up Field Service users](view-user-accounts-security-roles.md).
+
+
+Many different roles interact with Field Service like system administrators, technicians, dispatchers, service managers, inventory managers, customer service representatives and more.
 
 For this quickstart, we'll create two users:
 
@@ -146,7 +149,6 @@ Find your work order in the lower pane and click and drag it to your frontline w
 Frontline workers should download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores onto their phone or tablet. 
 
 - [iOS - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-apple)
-
 - [Android - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-google)
 
 
