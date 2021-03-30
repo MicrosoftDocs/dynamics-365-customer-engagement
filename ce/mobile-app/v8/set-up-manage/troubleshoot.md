@@ -29,7 +29,7 @@ The following are known issues with [!INCLUDE[pn_moca_full](../../../includes/pn
  Before you begin to configure [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)], it’s important to review the requirements:  
   
 - **Understand what operating systems, devices, and languages are supported**. Review the requirements in [Support for Dynamics 365 for tablets](support.md).  
-- Be aware that **Internet-facing deployment (IFD) is required if you’re using Dynamics 365 apps (on-premises)**. The system administrator must configure claims-based authentication before users can access Dynamics 365 apps data with Dynamics 365 for tablets. If you have your Dynamics 365 apps website available over the Internet but it is not using the Dynamics 365 apps IFD configuration, **it is not supported**. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 apps Deployment Manager on your Dynamics 365 apps server. The **Authentication Summary** section should show that both claims-based authentication and Internet-facing deployment are enabled. More information: [Configure IFD for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/dn609803.aspx) 
+- Be aware that **Internet-facing deployment (IFD) is required if you’re using Dynamics 365 apps (on-premises)**. The system administrator must configure claims-based authentication before users can access Dynamics 365 apps data with Dynamics 365 for tablets. If you have your Dynamics 365 apps website available over the Internet but it is not using the Dynamics 365 apps IFD configuration, **it is not supported**. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 apps Deployment Manager on your Dynamics 365 apps server. The **Authentication Summary** section should show that both claims-based authentication and Internet-facing deployment are enabled. More information: [Configure IFD for Microsoft Dynamics 365 apps](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)) 
 
   ![Dynamics 365 apps IFD settings](../../media/crm-ua-moca-claims.png "Dynamics 365 apps IFD settings")
 
@@ -171,7 +171,7 @@ If you receive this error:
  `“XMLHttpRequest: Network Error 0x2ef3, Could not complete the operation due to error 00002ef3.”`  
   
 #### Error message: “The language installed on your company’s system isn’t available on the app. Please contact your system administrator to set up a supported language.”  
- **Cause**: This error will occur if one of the supported languages is not enabled in [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)]. For more information on the supported languages, see [Dynamics 365 for tablets: Set up and use](https://go.microsoft.com/fwlink/p/?LinkID=325404) and expand **What you need to use Dynamics 365 for tablets** and **Supported Languages**.  
+ **Cause**: This error will occur if one of the supported languages is not enabled in [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)]. For more information on the supported languages, see [Dynamics 365 for tablets: Set up and use](../../../customerengagement/on-premises/basics/basics-guide.md) and expand **What you need to use Dynamics 365 for tablets** and **Supported Languages**.  
   
 #### Error message: “The process assigned to this record is unavailable or has been deleted.”  
  If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] with your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data. Close the [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] app, reopen, and then choose to download the latest customizations. This procedure forces [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched. You can’t choose which data synchronizes to the device like you can with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
@@ -233,7 +233,7 @@ If you receive this error:
  To fix this error, the user must uninstall and reinstall the [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app using the version listed above.  
   
 #### Event 10001 messages appear in the Event Log when you run [!INCLUDE[pn_crm_for_windows_8](../../../includes/pn-crm-for-windows-8.md)]  
- The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where [!INCLUDE[pn_crm_for_windows_8](../../../includes/pn-crm-for-windows-8.md)] is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../../../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx)  
+ The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where [!INCLUDE[pn_crm_for_windows_8](../../../includes/pn-crm-for-windows-8.md)] is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../../../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749492(v=ws.11))  
   
 - Event Id: 10001  
   
@@ -361,7 +361,7 @@ If you receive this error:
  The **Prevent click for mapping** setting works as expected in [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app version 1.1 (1.1.0). We recommend updating to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] app rather than applying this workaround.
 
 ## Issue still not resolved?
- If the information provided previously doesn’t resolve your issue, either [Post your issue in the Dynamics CRM Community](https://community.dynamics.com/crm/f/117/p/addpost.aspx?GroupToJoin=57) or [Contact Technical Support](../../../admin/contact-technical-support.md).
+ If the information provided previously doesn’t resolve your issue, either [Post your issue in the Dynamics CRM Community](https://community.dynamics.com/crm/f/117/p/addpost.aspx?GroupToJoin=57) or [Contact Technical Support](/power-platform/admin/get-help-support).
 
 The following are some suggested details to provide:
 
