@@ -2,6 +2,7 @@
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
 # [Field Service user guide](user-guide.md)
+# [Get started](field-service-get-started.md)
 
 # Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)

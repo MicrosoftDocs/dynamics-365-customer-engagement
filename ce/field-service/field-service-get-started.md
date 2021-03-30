@@ -20,20 +20,61 @@ search.app:
 ---
 
 # Get started with Field Service
+
+After you have [installed Dynamics 365 Field Service](install-field-service.md) and have assigned Field Service licenses tou your users, you can get started with creating frontline workers and scheduling them work orders. The best way to do this is to use the new _Getting Started_ page which can be found in the left navigation pane.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/gettingstarted1920.png)
+
+
 ## Prerequisites
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 
-
-
-The best way to get started with Dynamics 365 Field Service is to install and use Getting Started, our new landing page, that provides Field Service administrators assistance discovering and adopting features thru inline documentation and step by step instructions.
+## Set up your frontline workers
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of getting started](media/gettingstarted.png) 
+> ![Screenshot of ](./media/getstarted-flw1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/getstarted-flw2.png)
+
+## Create your accounts
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/getstarted-account1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/getstarted-account2.png)
+
+## Create your work orders
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/getstarted-wo1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/getstarted-wo2.png)
+
+## Schedule your work orders
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/getstarted-schedule1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/getstarted-schedule2.png)
+
+
+
+
+
+
+
 
 ## Spotlight
 At the top of the page, we provide Field Service tours and videos.  Each release we will highlight new features, so it is easy to continuously transform your business by leveraging the best of Dynamics 365 Field Service today and tomorrow. We strongly encourage you to come back!
@@ -50,3 +91,5 @@ In our first release, Getting Started helps with the Field Service essentials:
 We are making it easier to plan and get help by integrating our Field Service Release Notes and Community into Field Service thru the Getting Started landing page where you can post questions and learn about upcoming feature releases.  
   
 Additionally, we’ve integrated the Field Service Ideas forum so it’s easy for you to give us feedback.  We look forward to learning how we can improve Field Service to help you achieve your business goals.
+
+
