@@ -1,6 +1,7 @@
 ---
-title: "Secure your mobile data with Microsoft Dynamics 365 apps for Good | MicrosoftDocs"
-ms.custom: 
+title: "Secure your Dynamics 365 mobile data with Microsoft Dynamics 365 apps for Good | MicrosoftDocs"
+ms.custom:
+description: Secure your mobile data with Microsoft Dynamics 365 apps for Good.
 ms.date: 11/01/2016
 ms.reviewer:
 ms.service: crm-online
