@@ -92,7 +92,7 @@ No, it is only available for the supported version of Outlook C2R. For more info
 
 
 ### See also  
-[Use delegate access](use-delegate-access.md)<br/>
+[Use delegate access](./user/use-delegate-access.md)<br/>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
