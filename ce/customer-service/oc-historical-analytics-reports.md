@@ -1,6 +1,6 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
-description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
+description: "Configure historical analytics reports for Omnichannel"
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi

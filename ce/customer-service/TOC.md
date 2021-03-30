@@ -312,6 +312,7 @@
 #### [Configure knowledge search analytics](enable-knowledge-search-analytics.md)
 #### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
+#### [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)
 #### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)
