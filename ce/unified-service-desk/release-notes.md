@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk release notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/06/2020
 ms.topic: article

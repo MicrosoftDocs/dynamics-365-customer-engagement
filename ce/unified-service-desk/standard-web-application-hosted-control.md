@@ -1,8 +1,8 @@
 ---
 title: "Standard Web Application hosted control to load a non-model-driven app page | MicrosoftDocs"
 description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
