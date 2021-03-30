@@ -1,8 +1,8 @@
 ---
 title: "Add multi-language support for your agent applications | MicrosoftDocs"
 description: "Learn about adding multi-language support for your agent applications. The multi-language support is available for all the components except for those that are surfaced through Customer Care Accelerator, which doesn’t support multi-language scenarios. This includes the hosted control tab names."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article

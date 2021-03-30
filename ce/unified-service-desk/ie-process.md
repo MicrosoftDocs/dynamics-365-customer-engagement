@@ -1,8 +1,8 @@
 ---
 title: "Use IE Process hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the IE process hosting methods for your controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/01/2018
 ms.topic: "article"

@@ -1,8 +1,8 @@
 ---
 title: "Download Unified Service Desk  | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/04/2020
 ms.topic: article
