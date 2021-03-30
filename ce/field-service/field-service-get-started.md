@@ -114,14 +114,14 @@ Congratulations! You have successfully completed the core scenario in Field Serv
 
 ### View the scheduled work order on the mobile app
 
-Frontline workers should download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores. 
+Frontline workers should download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores onto their phone or tablet. 
 
-[iOS - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-apple)
+- [iOS - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-apple)
 
-[Android - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-google)
+- [Android - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-google)
 
 
-Sign in with the username and password for the frontline worker user.
+Sign in with the username and password of the frontline worker user.
 
 - For the **Username**, enter the username of the technician user. For example, username@org.onmicrosoft.com
 - For the **Password**, enter the password you set for the technician.
@@ -136,7 +136,7 @@ If you do not see your app, but instead see "Contact your administrator for acce
 > [!div class="mx-imgBorder"]
 > ![Device renders showing "Show non-production apps" setting in the Field Service mobile app.](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
 
-In the **Booking** tab, see the work order you scheduled to your frontline worker. You must be signed in with the user the frontline worker was created for in step 3.
+In the **Booking** tab, see the work order you scheduled to your frontline worker. 
 
 > [!div class="mx-imgBorder"]
 > ![Device renders showing the booking on the Field Service mobile app.](./media/quickstart-mobile-work-order.png)
