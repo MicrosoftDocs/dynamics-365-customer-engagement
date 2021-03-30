@@ -71,7 +71,7 @@ In addition to completing the tasks mentioned earlier in this article, you need 
 > ![Screenshot of auto update booking travel](../../field-service/media/scheduling-manual-travel-update-enable.png)
 
 > [!NOTE]
-> As of Dynamics 365 Field Service version 8.8.40.x April Wave 1 2021, **Auto Update Booking Travel** is set by default to **Enabled**. 
+> As of Dynamics 365 Field Service version 8.8.40.x April Wave 1 2021, **Auto Update Booking Travel** is set by default to **Enabled** for new deployments. 
 
 This will add a travel time to the booking visualization on the schedule board, displayed by a line preceding the booking, and populate the **Miles Traveled** booking field (though this is not visualized on the schedule board). 
 
@@ -221,7 +221,7 @@ Here are a few more notes about the **Auto Update Booking Travel** feature:
 
 - The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific schedulable entities. 
 
-- If technicians are required to create bookings on their Field Service mobile app, and you want to enable this feature to auto-calcualte the travel time and distance, a field on the booking form called **msdyn_ursinternalflags** must be set to **{"AutoUpdateBookingTravel":true}**. Once the booking is created in the mobile app, the travel time will be calculated. 
+- If technicians are required to create bookings on their Field Service mobile app, and you want to enable this feature to auto-calculate the travel time and distance, a field on the booking form called **msdyn_ursinternalflags** must be set to **{"AutoUpdateBookingTravel":true}**. Once the booking is created in the mobile app, the travel time will be calculated. 
 
 - The feature only applies to the Hours view of the schedule board, and travel time and distances are not updated if the bookable resource booking form is edited manually, edited with a workflow, or if the bookings are imported.
 
