@@ -1,5 +1,5 @@
 ---
-title: "Getting Started for Dynamics 365 Field Service | MicrosoftDocs"
+title: "User guide for Dynamics 365 Field Service | Microsoft Docs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.custom:
   - dyn365-fieldservice
@@ -14,7 +14,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Dynamics 365 Field Service Getting Started
+# Dynamics 365 Field Service user guide
 
 The best way to get started with Dynamics 365 Field Service is to install and use Getting Started, our new landing page, that provides Field Service administrators assistance discovering and adopting features thru inline documentation and step by step instructions.
 
