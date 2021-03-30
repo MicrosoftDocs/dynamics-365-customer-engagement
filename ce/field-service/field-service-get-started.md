@@ -68,28 +68,45 @@ Next create an account that represents one of your customers. Select the **Creat
 > ![Screenshot of ](./media/getstarted-account1.png)
 
 
-Enter basic information into the form. 
+Follow the form to enter relevant information.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/getstarted-account2.png)
 
 ## Create your work orders
 
+Create a work order that outlines work that needs to be done for a customer, typically at the customer's location or at the location of an asset or equipment. Select the **Create** button.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/getstarted-wo1.png)
 
+ Follow the form to enter relevant information. 
+ 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/getstarted-wo2.png)
 
+ The Service Account represents the customer who the work order relates to. 
+
+ Tasks are a checklist of things that need to be done.
+
+ Products are parts that may be needed to complete the work order.
+
+ Services are labor items that may be needed to complete the work order.
+
 ## Schedule your work orders
+
+The last step is to schedule the work order to a frontline worker who will complete it for the customer. Select the **Schedule** button to go to the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/getstarted-schedule1.png)
 
+Find your work order in the lower pane and click and drag it to your frontline worker.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/getstarted-schedule2.png)
+
+Congratulations! You have successfully completed the core scenario in Field Service.
 
 
 ## Next steps 
