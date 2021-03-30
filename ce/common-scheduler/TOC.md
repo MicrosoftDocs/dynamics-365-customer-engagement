@@ -35,5 +35,6 @@
 ### [Find resources by language - A step by step guide](developer/extending-urs-step-by-step.md)
 ### [Universal FetchXML](developer/universal-fetchxml.md)
 
+# Deprecations (../field-service/deprecations-scheduling.md/#deprecated-appointment-handling
 # [Bug fixes](bug-fixes.md)
 
