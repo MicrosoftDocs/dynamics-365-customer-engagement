@@ -71,7 +71,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
     2. On the second consent dialog box, select the checkbox for **Consent on behalf of organization** and then select **Accept**. 
     
        > [!NOTE]
-        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](teams-troubleshoot#error-when-you-pin-a-record-or-view-of-any-model-driven-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-common-data-service-system-admin).  
+        > If you don't select **Consent on behalf of organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](teams-troubleshoot#error-when-you-pin-a-record-or-view-of-any-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-customer-engagement-apps-system-admin).  
 
     
         > [!div class="mx-imgBorder"] 
