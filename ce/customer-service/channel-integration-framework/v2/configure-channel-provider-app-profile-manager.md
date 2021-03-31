@@ -1,8 +1,8 @@
 ---
 title: "Configure channel provider using app profile manager in Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
 description: "Learn how to configure a channel provider using the app profile manager."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/02/2020
 ms.topic: article

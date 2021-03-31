@@ -2,11 +2,10 @@
 title: "Dynamics 365 Sales and GDPR | MicrosoftDocs"
 description: "Know how Dynamics 365 Sales complies with GDPR regulations."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 

@@ -25,7 +25,7 @@ description: "Updates to Dynamics 365 App for Outlook."
 # What's new with Dynamics 365 App for Outlook
 
 ## Mar 2020
-1. Delegate support. [See more](https://docs.microsoft.com/dynamics365/outlook-app/enable-delegate-access).
+1. Delegate support. [See more](./enable-delegate-access.md).
 2. Reliability improvements
 
 ## Oct 2019
@@ -54,7 +54,7 @@ description: "Updates to Dynamics 365 App for Outlook."
 2. Dynamics 365 App for Outlook immediately tracks emails with attachments on Outlook Desktop for Windows.
 
 ## July 2018
-1. [Filter entities and views that appear in Dynamics 365 App for Outlook.](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook) 
+1. [Filter entities and views that appear in Dynamics 365 App for Outlook.](/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#filter-entities-and-views-that-appear-in-dynamics-365-app-for-outlook) 
 2. Fixed issues with App for Outlook not loading in Internet Explorer with Exchange on premise. 
 3. Untrack confirmation dialog will now be displayed when tracking an appointment in Outlook desktop in read mode. 
 4. App for Outlook will honor business rules (like required fields on a contact) when contacts are tracked. 
@@ -76,7 +76,7 @@ description: "Updates to Dynamics 365 App for Outlook."
 ## March 2018
 1. Draft emails that are tracked in App for Outlook in compose mode from Outlook Web Access now display correct status in Dynamics 365 apps. 
 2. Added accessibility enhancements to App for Outlook. 
-3. All Dynamics 365 apps on [Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview) can now access Track and Set Regarding commands in App for Outlook. 
+3. All Dynamics 365 apps on [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md) can now access Track and Set Regarding commands in App for Outlook. 
 4. Follow emails using App for Outlook from Outlook desktop without seeing a visible pixel link in the email body. 
 
 

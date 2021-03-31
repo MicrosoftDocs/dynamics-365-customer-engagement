@@ -1,8 +1,8 @@
 ---
 title: "AnchorElement | MicrosoftDocs"
 description: "The topic explains about <AnchorElement> element which is one of the binding elements of the WebDDA."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

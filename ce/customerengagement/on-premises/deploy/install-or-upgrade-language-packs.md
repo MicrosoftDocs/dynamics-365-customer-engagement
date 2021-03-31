@@ -32,7 +32,7 @@ The [!INCLUDE[pn_Microsoft_Dynamics_CRM_Language_Pack](../includes/pn-microsoft-
 1.  Download the [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] that you want. [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] are not included with other [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] applications and are only available through the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)]. Each language pack installation (.msi) file includes the locale id (LCID) that represents that language. Download a [Microsoft Dynamics CRM 2016 Language Pack](https://go.microsoft.com/fwlink/p/?LinkId=624615).  
   
     > [!NOTE]
-    >  For a list of locale IDs and the associated language, see [MSDN: Locale IDs assigned by Microsoft](https://msdn.microsoft.com/goglobal/bb964664.aspx).  
+    >  For a list of locale IDs and the associated language, see [MSDN: Locale IDs assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).  
     >   
     >  You can’t install a [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.md)] that is the same locale ID as the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] base language.  
   

@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk  system requirements | MicrosoftDocs"
 description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/29/2021
 ms.topic: get-started-article

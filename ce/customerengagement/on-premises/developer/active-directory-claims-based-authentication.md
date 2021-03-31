@@ -23,7 +23,7 @@ search.audienceType:
 
 Claims-based authentication provides an industry standard security protocol to authenticate a user on a host computer. Claims-based authentication is a set of WS-* standards describing the use of a Security Assertion Markup Language (SAML) token in either passive mode (when WS-Federation is used with the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] web application) or active mode (where WS-Trust in used with [!INCLUDE[pn_WCF_long](../includes/pn-wcf-long.md)] clients). This authentication works together with WCF to provide secure user authentication and a communication channel with a Dynamics 365 Server. All Dynamics 365 Customer Engagement (on-premises) edition support claims-based authentication.
 
- Claims-based authentication requires the availability of a security token service (STS) running on a server. An STS server can be based on [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] Federation Services (AD FS) V2, or any platform that provides the official STS protocol. More information: [TechNet: Configure IFD for Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/dn609803.aspx).   
+ Claims-based authentication requires the availability of a security token service (STS) running on a server. An STS server can be based on [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] Federation Services (AD FS) V2, or any platform that provides the official STS protocol. More information: [TechNet: Configure IFD for Dynamics 365 Customer Engagement (on-premises)](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).   
 
 <a name="bkmk_scenarios"></a>
 
@@ -65,7 +65,7 @@ Claims-based authentication provides an industry standard security protocol to a
 |-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  <xref:Microsoft.Xrm.Sdk.Client.IServiceConfiguration`1>, <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>  |                                                                                  All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)<br /><br /> Best choice for multi-threaded applications                                                                                  | [Authenticate Office 365 Users with Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)<br /><br /> [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching) |
 | <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy>, <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> |                                                                                                              All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)                                                                                                              |                    [Authentication by Using the Client Proxy Classes](active-directory-claims-based-authentication.md#bkmk_clientproxy)<br /><br /> [Sample: Access the Discovery Service](/powerapps/developer/common-data-service/org-service/discovery-service#example)<br /><br /> [Improve service channel allocation performance](best-practices-sdk.md#caching)                    |
-|        [CrmConnection Class](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection.aspx)        |                                                                                                              All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)                                                                                                              |                                             [Sample: Simplified Connection Quick Start using Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)                                             |
+|        [CrmConnection Class](/previous-versions/dynamicscrm-2015/developers-guide/gg670550(v=crm.7))        |                                                                                                              All deployment types: on-premises/IFD, online ([!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS<sup>\*</sup>)                                                                                                              |                                             [Sample: Simplified Connection Quick Start using Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)                                             |
 
  <sup>*</sup> [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]  
 
@@ -99,7 +99,7 @@ _serviceProxy.EnableProxyTypes()
 ```  
 
 > [!IMPORTANT]
->  WCF supports a feature where it can interactively prompt the user for logon credentials when it is necessary. This feature is enabled by setting the [SupportInteractive](https://msdn.microsoft.com/library/system.servicemodel.description.clientcredentials.supportinteractive.aspx) property of the `ClientCredentials` class. These credentials are used in the `userCredentials` parameter shown in the previous code snippet.  
+>  WCF supports a feature where it can interactively prompt the user for logon credentials when it is necessary. This feature is enabled by setting the [SupportInteractive](/dotnet/api/system.servicemodel.description.clientcredentials.supportinteractive) property of the `ClientCredentials` class. These credentials are used in the `userCredentials` parameter shown in the previous code snippet.  
 > 
 >  When making SDK calls to the Dynamics 365 Customer Engagement (on-premises) web services, the ownership of the operation and entity data changes performed by the SDK call can be changed by this WCF feature independent of your code.  
 > 
@@ -113,13 +113,13 @@ _serviceProxy.EnableProxyTypes()
 ## Handling channel exceptions and faults  
  Your code should catch the following exceptions and faults. See the C# samples in the developer documentation for a list of additional exceptions to catch:  
 
-- [System.TimeoutException](https://msdn.microsoft.com/library/system.timeoutexception.aspx)  
+- [System.TimeoutException](/dotnet/api/system.timeoutexception)  
 
-- [FaultException](https://msdn.microsoft.com/library/system.servicemodel.faultexception.aspx) \<<xref:Microsoft.Xrm.Sdk.OrganizationServiceFault>>  
+- [FaultException](/dotnet/api/system.servicemodel.faultexception) \<<xref:Microsoft.Xrm.Sdk.OrganizationServiceFault>>  
 
-- [FaultException](https://msdn.microsoft.com/library/system.servicemodel.faultexception.aspx) \<<xref:Microsoft.Xrm.Sdk.DiscoveryServiceFault>>  
+- [FaultException](/dotnet/api/system.servicemodel.faultexception) \<<xref:Microsoft.Xrm.Sdk.DiscoveryServiceFault>>  
 
-  For more information, see the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] [WCF documentation](https://msdn.microsoft.com/library/ms789039.aspx) about how to handle WCF faults and exceptions.  
+  For more information, see the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] [WCF documentation](/dotnet/framework/wcf/extending/handling-exceptions-and-faults) about how to handle WCF faults and exceptions.  
 
 <a name="bkmk_saml"></a>   
 ## Additional information about the security (SAML) token  
@@ -143,7 +143,7 @@ _serviceProxy.EnableProxyTypes()
 - **SDK** - A custom application receives an active token with a proof key that contains the required information.  
 
 ### Lifecycle of the security token  
- A [SecurityToken](https://msdn.microsoft.com/library/system.identitymodel.tokens.securitytoken.aspx) has a life span identified by its `ValidFrom` and `ValidTo` properties. Your application design should consider the possibility that the token could expire, resulting in an [ExpiredSecurityTokenException](https://msdn.microsoft.com/library/system.servicemodel.security.expiredsecuritytokenexception\(VS.85\).aspx) being thrown by the Dynamics 365 Customer Engagement (on-premises) web services when the next message request from your application is processed.  
+ A [SecurityToken](/dotnet/api/system.identitymodel.tokens.securitytoken) has a life span identified by its `ValidFrom` and `ValidTo` properties. Your application design should consider the possibility that the token could expire, resulting in an [ExpiredSecurityTokenException](https://msdn.microsoft.com/library/system.servicemodel.security.expiredsecuritytokenexception\(VS.85\).aspx) being thrown by the Dynamics 365 Customer Engagement (on-premises) web services when the next message request from your application is processed.  
 
 ### See also  
  [Walkthrough: Register a Dynamics 365 Customer Engagement (on-premises) with Active Directory](walkthrough-register-app-active-directory.md)   

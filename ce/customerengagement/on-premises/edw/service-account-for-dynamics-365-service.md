@@ -34,7 +34,7 @@ If this is an **error**, the following information applies.
   
 -   The user account is not a local system account.  
   
--   The credentials specified in the XML Setup configuration file or on the Specify Service Accounts page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](https://go.microsoft.com/fwlink/p/?LinkId=306136).  
+-   The credentials specified in the XML Setup configuration file or on the Specify Service Accounts page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699825(v=crm.8)).  
   
  If this is a **warning**, the following information applies.  
   

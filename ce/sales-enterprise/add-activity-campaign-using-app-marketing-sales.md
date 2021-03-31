@@ -2,15 +2,14 @@
 title: "Add an activity to a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Add planning and campaign activities to a campaign to make it successful."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-list
   - D365-Entity-campaign
@@ -19,7 +18,6 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Add an activity to a campaign using in-app marketing (Sales)

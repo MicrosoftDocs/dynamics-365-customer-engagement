@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 02/23/2021
 ms.topic: overview
- - field-service
+ms.technology: field-service
 ms.author: daclar
 search.app:
   - D365CE

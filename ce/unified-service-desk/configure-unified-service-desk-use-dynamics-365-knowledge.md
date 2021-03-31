@@ -1,8 +1,8 @@
 ---
 title: "Configure Unified Service Desk to use model-driven apps | MicrosoftDocs"
 description: "Learn how to configure Unified Service Desk to use model-driven apps."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article

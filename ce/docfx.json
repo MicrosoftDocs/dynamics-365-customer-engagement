@@ -122,7 +122,8 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
       "feedback_product_url": "https://ideas.dynamics.com",
-      "search.appverid": "met150"
+      "search.appverid": "met150",
+      "recommendations": true
     },
     "fileMetadata": {
       "featureFlags": {

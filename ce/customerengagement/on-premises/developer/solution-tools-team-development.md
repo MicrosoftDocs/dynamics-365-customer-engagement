@@ -21,6 +21,8 @@ search.audienceType:
 ---
 # Solution tools for team development
 
+*This topic applies to Dynamics 365 Customer Engagement (on-premises). For the Power Apps version of this topic, see: [SolutionPackager tool](/power-platform/alm/solution-packager-tool)*
+
 A Dynamics 365 Customer Engagement (on-premises) solution is a compressed (.zip) file that contains multiple customized components that have been exported from a Dynamics 365 Server so that they may be transported and imported into another server. However, a solution file is a single binary file that does not lend itself to source code control or team development. There is no way for multiple developers to work on the custom components in the solution.  
   
  The SolutionPackager tool resolves the problem of source code control and team development of solution files. The tool identifies individual components in the compressed solution file and extracts them out to individual files. The tool can also re-create a solution file by packing the files that had been previously extracted. This enables multiple people to work independently on a single solution and extract their changes into a common location. Because each component in the solution file is broken into multiple files, it becomes possible to merge customizations without overwriting prior changes. A secondary use of the SolutionPackager tool is that it can be invoked from an automated build process to generate a compressed solution file from previously extracted component files without needing an active Dynamics 365 Server.

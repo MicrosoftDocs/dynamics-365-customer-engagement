@@ -130,7 +130,7 @@ You can't export data to a dynamic worksheet in [!INCLUDE[pn_Excel_short](../inc
   
 7. To refresh data in the file, on the **Data** tab, select **Refresh All** > **Refresh All**. 
 
-    If a warning message displays specifying that the web query returned no data, select **OK**. The excel file appears blank. To resolve the warning, follow the steps as described in [Data disappears after I refresh the exported dynamic Excel file](https://docs.microsoft.com/powerapps/user/ts-export-to-excel#data-disappears-after-i-refresh-the-exported-dynamic-excel-file). 
+    If a warning message displays specifying that the web query returned no data, select **OK**. The excel file appears blank. To resolve the warning, follow the steps as described in [Data disappears after I refresh the exported dynamic Excel file](/powerapps/user/ts-export-to-excel#data-disappears-after-i-refresh-the-exported-dynamic-excel-file). 
   
    > [!NOTE]
    > - To view and refresh dynamic data, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] must be installed. If it is already installed and configured, select **Refresh from CRM** to sign in to Dynamics 365 Customer Engagement (on-premises). If you do not want to be prompted again to sign in, select **Save my email address and password** in the Sign-In page.  
