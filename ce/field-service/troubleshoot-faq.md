@@ -106,7 +106,7 @@ You can resolve this issue by following the steps outlined below. The attribute 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
+> ![Screenshot showing the troubleshooting pathway outlined in the previous steps.](./media/faq-attributemap-upgrade-error-billing-account.png)
 
 ## What is the msdyn_postponegenerationuntil field that is found on many Field Service entities?
 
