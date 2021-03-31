@@ -106,11 +106,11 @@ This topic provides information about the supported types and entities for proce
 
  For information about each type, see the following documentation for the respective namespaces:  
 
--   [System.Activities.Statements Namespace](https://msdn.microsoft.com/library/system.activities.statements.aspx)  
+-   [System.Activities.Statements Namespace](/dotnet/api/system.activities.statements)  
 
--   [System.ServiceModel.Activities Namespace](https://msdn.microsoft.com/library/system.servicemodel.activities.aspx)  
+-   [System.ServiceModel.Activities Namespace](/dotnet/api/system.servicemodel.activities)  
 
--   [System.ServiceModel.Activities.Presentation.Factories](https://msdn.microsoft.com/library/system.servicemodel.activities.presentation.factories.aspx)  
+-   [System.ServiceModel.Activities.Presentation.Factories](/dotnet/api/system.servicemodel.activities.presentation.factories)  
 
 ### Dynamics 365 Customer Engagement (on-premises)  
 

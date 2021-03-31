@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk  - Interactive service hub package | MicrosoftDocs"
 description: "Overview of the Interactive service hub sample application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
