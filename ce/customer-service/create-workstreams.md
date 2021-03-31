@@ -52,7 +52,7 @@ Perform the following steps:
    - [Configure a WhatsApp channel](configure-whatsapp-channel.md)
    - [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
-5. Configure routing rules for the worksteam. More information: [Configure work classification rules](configure-work-classification.md)
+5. Configure routing rules for the workstream. More information: [Configure work classification rules](configure-work-classification.md)
 6. If you want to configure route to queues, see [Configure route to queues](configure-work-classification.md#configure-route-to-queues-ruleset-and-rules)
 
 ### Configure work distribution
