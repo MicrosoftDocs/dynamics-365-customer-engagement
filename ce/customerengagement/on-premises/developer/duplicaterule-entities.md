@@ -133,9 +133,9 @@ The following special messages can also be used:
 <a href="enable-disable-duplicate-detection.md" data-raw-source="[Enable and disable duplicate detection](enable-disable-duplicate-detection.md)">Enable and disable duplicate detection</a><br />
 <a href="run-duplicate-detection.md" data-raw-source="[Run duplicate detection](run-duplicate-detection.md)">Run duplicate detection</a><br />
 <a href="duplicate-detection-messages.md" data-raw-source="[Duplicate detection messages](duplicate-detection-messages.md)">Duplicate detection messages</a><br />
-<a href="org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md" data-raw-source="[Sample: Enable duplicate detection and retrieve duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)">Sample: Enable duplicate detection and retrieve duplicates</a><br />
-<a href="org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md" data-raw-source="[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)">Sample: Use duplicate detection when creating and updating records</a><br />
-<a href="org-service/sample-detect-multiple-duplicate-records.md" data-raw-source="[Sample: Detect multiple duplicate records](org-service/sample-detect-multiple-duplicate-records.md)">Sample: Detect multiple duplicate records</a><br />
+<a href="/powerapps/developer/data-platform/enable-disable-duplicate-detection" data-raw-source="[Sample: Enable duplicate detection and retrieve duplicates](/powerapps/developer/data-platform/enable-disable-duplicate-detection)">Sample: Enable duplicate detection and retrieve duplicates</a><br />
+<a href="/powerapps/developer/data-platform/run-duplicate-detection" data-raw-source="[Sample: Use duplicate detection when creating and updating records](/powerapps/developer/data-platform/run-duplicate-detection)">Sample: Use duplicate detection when creating and updating records</a><br />
+<a href="/powerapps/developer/data-platform/duplicate-detection-messages" data-raw-source="[Sample: Detect multiple duplicate records](/powerapps/developer/data-platform/duplicate-detection-messages)">Sample: Detect multiple duplicate records</a><br />
 
 
 

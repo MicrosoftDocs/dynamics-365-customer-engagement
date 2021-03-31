@@ -27,7 +27,7 @@ Discounts can be applied either at the line item level or at per unit level. Use
   
 - **1** for discounting at per unit level  
   
-  You can also use the **Sales** tab in the system settings area in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify the discount calculation method. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage product catalog configuration](https://technet.microsoft.com/library/dn832125.aspx)  
+  You can also use the **Sales** tab in the system settings area in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify the discount calculation method. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
   To illustrate the discounting model with an example, consider the following product line item entry in an opportunity:  
   

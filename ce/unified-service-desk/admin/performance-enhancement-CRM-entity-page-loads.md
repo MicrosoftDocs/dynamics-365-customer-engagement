@@ -1,8 +1,8 @@
 ---
 title: "Performance enhancement for model-driven page loads | MicrosoftDocs"
 description: "Learn about the Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 03/16/2021
 ms.topic: article

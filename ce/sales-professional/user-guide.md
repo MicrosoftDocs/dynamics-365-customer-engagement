@@ -2,8 +2,7 @@
 title: "Help resources for salespeople (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr

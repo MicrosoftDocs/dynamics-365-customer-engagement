@@ -1,8 +1,8 @@
 ---
 title: "Toolbar Container (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Toolbar Container type of hosted control to configure toolbars in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article

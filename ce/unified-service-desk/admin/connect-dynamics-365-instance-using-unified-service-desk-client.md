@@ -2,7 +2,7 @@
 title: "Connect to a model-driven app using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 author: mh-jaya
-ms.author: v-mhj
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/16/2020
 ms.topic: article

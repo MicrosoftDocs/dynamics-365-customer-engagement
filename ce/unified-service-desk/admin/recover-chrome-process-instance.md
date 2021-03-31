@@ -1,8 +1,8 @@
 ---
 title: "Recover a Chrome Process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering a Chrome Process instance in Unified Service Desk"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/10/2019
 ms.topic: article

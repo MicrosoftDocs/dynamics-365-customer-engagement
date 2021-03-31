@@ -20,7 +20,7 @@ search.app:
 ---
 # Tenant to tenant migration
 
-Tenant to tenant migration has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Manage support environments](https://docs.microsoft.com/power-platform/admin/move-environment-tenant).
+Tenant to tenant migration has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Manage support environments](/power-platform/admin/move-environment-tenant).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

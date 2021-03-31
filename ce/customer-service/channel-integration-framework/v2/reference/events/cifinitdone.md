@@ -1,8 +1,8 @@
 ---
 title: "cifinitdone event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
 description: "Learn about CIFInitDone evenet for Dynamics 365 Channel Integration Framework (CIF) version 1.0."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/25/2021
 ms.topic: reference

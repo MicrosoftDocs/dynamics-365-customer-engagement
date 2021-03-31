@@ -1,7 +1,7 @@
 ---
 title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 01/26/2021
+ms.date: 03/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,13 +18,25 @@ search.app:
 
 # Extend marketing forms using code
 
-A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-forms)
+A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend marketing forms.
+Marketing forms can be extended using JavaScript to perform custom business actions in the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/overview). Following are the methods that are available to extend marketing forms.
 
 ## JavaScript API
 
 We're consuming the latest version of JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
+
+Place the custom code right after the `form-loader.js` script.
+
+Code sample:
+
+`<script src="https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.69"></script>`<br>
+`<script>`<br>
+`// correct - the script will attach event handlers right after form loader script`<br>
+`MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {});`<br>
+`// wrong - the script will attach event handlers after window has finished loading, form already might have been loaded in the meantime and no events will trigger anymore`<br>
+~~`window.onload = function() { MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {}); };`~~<br>
+`</script>`<br>
 
 ### MsCrmMkt.MsCrmFormLoader methods
 
