@@ -1,6 +1,6 @@
 ## 3.12.42.4 - 2021 wave 1 Early access update 1
 
-The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/en-us/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface.
 
@@ -34,7 +34,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 3.12.35.6
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#312355)
+This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312355)
 - We fixed a bug that impacted the performance of the Schedule assistant. 
 
 ## 3.12.35.5
@@ -46,12 +46,12 @@ This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](ht
 
 ## 3.12.34.92
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#3123460)
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#3123460)
 - We fixed a bug that impacted the performance of the Schedule assistant. 
 
 ## 3.12.34.60
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#312344)
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312344)
 - Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the Schedule Assistant.
 
 ## 3.12.34.4
