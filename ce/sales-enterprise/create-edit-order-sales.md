@@ -2,13 +2,12 @@
 title: "Create or edit orders (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use orders in Dynamics 365 Sales to track details of the products or services your customers want to place an order for. A sales order is a quote that your customer has accepted."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
   - D365-Entity-salesorder
