@@ -108,7 +108,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] **Properties** d
 #### Configure domain names for IFD  
  To configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)], you must start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] and run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] to add or revise the domain values. Depending on how you deployed the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] role group or separate server role installation, and the configuration of each server in the NLB cluster, the **Web Application Server Domain**, **Organization Web Service Domain**, and **Discovery Web Service Domain** values use the NLB virtual cluster domain name. For example, if the Web Application Server is installed on an Internet-facing NLB cluster that has the FQDN virtual name *crmcluster.contoso.com*, enter `contoso.com` as the **Web Application Server Domain** value.  
   
- For more information about how to configure internal web address and external domain values, see [Configure IFD for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/dn609803.aspx).  
+ For more information about how to configure internal web address and external domain values, see [Configure IFD for Microsoft Dynamics 365 Customer Engagement (on-premises)](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).  
   
 <a name="BKMKLicense"></a>   
 #### License tab  

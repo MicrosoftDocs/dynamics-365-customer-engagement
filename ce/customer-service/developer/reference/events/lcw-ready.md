@@ -1,8 +1,8 @@
 ---
 title: "lcw ready | MicrosoftDocs"
 description: lcw ready (Omnichannel for Customer Service JavaScript API reference)
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 07/01/2019
 ms.topic: article

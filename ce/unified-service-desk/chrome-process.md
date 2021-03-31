@@ -1,8 +1,8 @@
 ---
 title: "Use the Chrome Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/15/2021
 ms.topic: "article"

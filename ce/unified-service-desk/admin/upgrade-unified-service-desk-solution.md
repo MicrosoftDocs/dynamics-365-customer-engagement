@@ -1,8 +1,8 @@
 ---
 title: "Upgrade a Unified Service Desk  solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk ."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/06/2018
 ms.topic: article

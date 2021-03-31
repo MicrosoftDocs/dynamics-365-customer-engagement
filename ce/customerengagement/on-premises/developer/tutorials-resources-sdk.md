@@ -47,7 +47,7 @@ The following table lists the walkthroughs that are available in this SDK docume
 |                            Plugins                            | [Walkthrough: Register an Azure-aware Plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md) |
 | [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] |              [Walkthrough: Update a service endpoint from ACS to SAS authorization](walkthrough-update-service-endpoint-acs-sas-authorization.md)               |
 | [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] |                [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 Customer Engagement (on-premises)](walkthrough-configure-azure-sas-integration.md)                 |
-|                          Client API                           |                             [Walkthrough: Write your first client script](clientapi/walkthrough-write-your-first-client-script.md)                              |
+|                          Client API                           |                             [Walkthrough: Write your first client script](/powerapps/developer/model-driven-apps/clientapi/walkthrough-write-your-first-client-script)                              |
 
 <a name="bkmk_video"></a>
 
@@ -78,7 +78,7 @@ Looking for more developer resources? Here are some other sources of information
 
 Looking for more than just developer information? Here are other sites and pointers to social media you can use:
 
-- [Dynamics 365 Customer Engagement Documentation](https://docs.microsoft.com/dynamics365/)
+- [Dynamics 365 Customer Engagement Documentation](/dynamics365/)
 - [Dynamics 365 Customer Engagement pre-sales information](https://www.microsoft.com/dynamics/default.aspx)
 - [Dynamics 365 Customer Engagement: Deployment Forum](https://social.microsoft.com/Forums/crmdeployment/home/)
 - [Certification Training](https://www.microsoft.com/learning/dynamics-certification.aspx)

@@ -20,7 +20,7 @@ ms.author: matp
  
 ## Solution
   
- Upgrade your custom code. For more information, see [Upgrade Your Code from Microsoft Dynamics CRM 4.0](https://go.microsoft.com/fwlink/p/?LinkID=506646) and [Upgrade your code from Microsoft Dynamics CRM 2011](https://go.microsoft.com/fwlink/p/?LinkID=506659).  
+ Upgrade your custom code. For more information, see [Upgrade Your Code from Microsoft Dynamics CRM 4.0](/previous-versions/dynamics-crm2011/developers-guide/gg334220(v=crm.5)) and [Upgrade your code from Microsoft Dynamics CRM 2011](/previous-versions/dynamicscrm-2013/developers-guide/gg334220(v=crm.6)).  
   
 ## Cause
   
@@ -39,7 +39,7 @@ ms.author: matp
   
  Review the **LegacyFeatureCheck.xml** file.  
   
- Remove the customization or update the customization to use a supported endpoint, such as the REST endpoint. For more information about updating the [!INCLUDE[pn_Microsoft_Dynamics_CRM_4.0](../includes/pn-microsoft-dynamics-crm-4-0.md)] (2007) endpoint, see the [topic in the Microsoft Dynamics 365 Customer Engagement (on-premises) SDK](https://go.microsoft.com/fwlink/p/?LinkId=309237).
+ Remove the customization or update the customization to use a supported endpoint, such as the REST endpoint. For more information about updating the [!INCLUDE[pn_Microsoft_Dynamics_CRM_4.0](../includes/pn-microsoft-dynamics-crm-4-0.md)] (2007) endpoint, see the [topic in the Microsoft Dynamics 365 Customer Engagement (on-premises) SDK](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)).
 
 
 

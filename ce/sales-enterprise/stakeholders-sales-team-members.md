@@ -2,11 +2,10 @@
 title: "How are stakeholders and sales team members tracked for opportunities? (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how stakeholders and sales team members for opportunities are tracked in Dynamics 365 Sales."
 ms.date: 04/22/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 

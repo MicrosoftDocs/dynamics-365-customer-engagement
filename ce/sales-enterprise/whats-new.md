@@ -2,11 +2,10 @@
 title: "What's new in Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 Sales."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
