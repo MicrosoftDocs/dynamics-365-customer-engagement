@@ -68,7 +68,7 @@ If they don't have permission to access to your Dynamics 365 app record, then th
 
 #### 6. What is the SharePoint location of the Microsoft Teams files tab versus the associated Dynamics 365 record's documents tab?
 
-The information below applies when SharePoint integration hasn't been enabled for a Dynamics 365 entity. 
+The information below applies when SharePoint integration hasn't been enabled for an entity in Dynamics 365. 
 
 When adding a file from a Dynamics 365 app record that is linked to a Teams channel, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [File Name]. The file is visible in the Teams channel's files tab and the Dynamics 365 app record's document associated grid.
 
@@ -84,7 +84,9 @@ When a Dynamics 365 app record is linked to a Teams channel, files already added
 
 If a Dynamics 365 app record has been previously associated with a Teams channel, and a user associate it with a new Teams channel, another document location is added in Dynamics 365 for the new Teams channel associated with the record. Users can switch back and forth between the document locations.
 
-#### 7. What is the SharePoint location of the Teams files tab versus the associated Dynamics 365 app record's documents tab? &lt;THE BELOW APPLIES WHEN SHAREPOINT INTEGRATION IS ALREADY ESTABLISHED ON DYNAMICS ENTITY&gt;
+#### 7. What is the SharePoint location of the Teams files tab versus the associated Dynamics 365 app record's documents tab?
+
+The information below applies when SharePoint integration has been enabled for a Dynamics 365 entity. 
 
 When adding a file to a Dynamics 365 app record that is linked to a Teams channel from the document location for the Teams channel, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [FileName]. The file is visible in both the Teams channel's files tab and the Dynamics 365 app record's document associated grid in the document location for the Teams channel.
 
