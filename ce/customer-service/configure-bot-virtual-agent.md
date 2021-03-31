@@ -189,7 +189,7 @@ The global variables that are created in Power Virtual Agents can be passed to O
 
 ## Enable a power virtual agent bot to end conversations
 
-A Power Virtual Agents bot can choose to end conversations if it determines that the customer query has been solved or the when the customer has been inactive for a period of time. The bot can choose to end conversations after a time period of 30 minutes.
+A Power Virtual Agents bot can choose to end conversations if it determines that the customer query has been solved or the when the customer has been inactive for a period of time. The bot can choose to end conversations only after 30 minutes of inactivity.
 
 
 ## Privacy notice
