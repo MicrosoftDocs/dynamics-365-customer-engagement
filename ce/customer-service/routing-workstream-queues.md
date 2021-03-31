@@ -11,25 +11,32 @@ ms.service: "dynamics-365-customerservice"
 
 # Routing rules for a workstream
 
-A workstream is a container for work items to be enriched, routed, and assigned. A work stream is associated with a channel, such as live chat. Routing rules are written as rulesets, which comprises  rule items. Routing rules for a workstream comprises of work classification rules and route-to-queue rules.
+A workstream is a container for work items to be enriched, routed, and assigned. A workstream is associated with a channel, such as live chat. Routing rules are written as rulesets, which comprise rule items. Routing rules for a workstream are composed of work classification rules and route-to-queue rules.
 
 ## Work classification rules
 
-Work classification rules are rules to update work item attributes. Typically, rules are written in the format of if defined condition satisfies, then set the output attributes to certain values, but can also be generated through machine learning models. They are optional and can be used to add additional information to the incoming work items which are then further used for more precise routing and assignment.
 
-Work classification rules can be written using manual declarative decision list way or using machine learning models.
+<!-- I put quotation marks around format language in the paragraphs below - please review to ensure I placed them correctly. -->
+
+
+Work classification rules are rules to update work item attributes. Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be generated through machine learning models. They are optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
+
+Work classification rules can be written using the manual declarative decision list way or by using machine learning models.
 
 ### Manual classification rules
 
-Manual classification rules are run to update work item attributes. They are written in the format of if defined condition satisfies then set the output attributes to certain values. You can create conditions to define rules based on multiple entity attributes. To create manual work classification rulesets, see [Manual work classification rulesets](configure-work-classification.md#manual-work-classification-ruleset).
+Manual classification rules are run to update work item attributes. They are written in the format of "if defined condition satisfies, then set the output attributes to certain values." You can create conditions to define rules based on multiple entity attributes. To create manual work classification rulesets, see [Manual work classification rulesets](configure-work-classification.md#manual-work-classification-ruleset).
 
 #### Skill attachment rules
 
-They are sub type of manual work classification rules and are rules defined to attach skills to the work item. They are written in format of if defined condition satisfied then attach defined skills to the work item.
+They are a sub-type of manual work classification rules and are rules defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
 ### Machine learning model-based rules
 
-They are sub type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of Intelligent skill finder bootstrapping experience. They are written in format of – send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item.
+<!-- I am not sure why "Intelligent" is capitalized? Can it be lowercase? -->
+
+
+They are a sub-type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the Intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
 
 ## Route-to-queues rules
 
