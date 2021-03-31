@@ -178,7 +178,7 @@ Once saved, you can see the related booking on the appointment form by going to 
 Unlike other entities enabled for scheduling, the appointment form will not have a **Book** button in the top ribbon nor will there be an associated resource requirement. Creating an appointment is inherently like creating a booking.
 
 > [!Note]
-> When an attendee is added to an existing appointment, new booking is created for the added attendee's bookable resource. However, if an attendee is removed from an existing appointment, the booking of the attendee's bookable resource. This scenario is not supported currently.
+> When an attendee is added to an existing appointment, a new booking is created for the added attendee's bookable resource. However, if an attendee is removed from an existing appointment, the booking for the attendee's bookable resource will not be removed. This scenario is not currently supported.
 
 ## Configuration considerations
 
