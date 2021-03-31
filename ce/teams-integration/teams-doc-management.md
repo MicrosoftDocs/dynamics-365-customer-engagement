@@ -41,32 +41,32 @@ A user's access to files in Microsoft Teams or customer engagement apps depends 
 ## FAQs 
 
 
-#### 1. Will guest users in Teams have access to Dynamics records? 
-No, they will see an error message when trying to access a pinned Dynamics record.
+#### 1. Will guest users in Teams have access to Dynamics 365 app records? 
+No, they will see an error message when they try to access a pinned record.
 
-#### 2. Will participants of Teams chats and channels be able to see the pinned Dynamics record if they don't have a Dynamics 365 license?
-No, they will see an error message when trying to access a pinned Dynamics record.
+#### 2. Will participants of Microsoft Teams chats and channels be able to see the pinned Dynamics 365 app record if they don't have a Dynamics 365 license?
+No, they will see an error message when trying to access a pinned record.
 
-#### 3. Can I add a document to my record if it isn't pinned to a Teams channel?
-It depends on whether your Dynamics tenant has SharePoint integration set up. If you have SharePoint integration enabled, then you will be able to add a document.
+#### 3. Can I add a document to my record if it isn't pinned to a Microsoft Teams channel?
+It depends on whether your Dynamics 365 tenant has SharePoint integration set up. If you have SharePoint integration enabled, then you can add a document.
 
-If you do not have SharePoint integration enabled, you need to have pinned the record to a Teams channel, otherwise you will not be able to add a document to the record.
+If you do not have SharePoint integration enabled, you need to have pinned the record to a Microsoft Teams channel, otherwise you will not be able to add a document to the record.
 
-#### 4. What happens when I add documents to a Teams channel connected to a Dynamics record and then remove a member from the channel?
-It depends on whether the user has access rights to your Dynamics 365 record.
+#### 4. What happens when I add documents to a Teams channel connected to a Dynamics 365 app record and then remove a member from the channel?
+It depends if the user has permissions to access the Dynamics 365 app record.
 
-If they have access rights to your Dynamics 365 record, they will be able to edit the record in Dynamics, but won't have access to the files via Dynamics, SharePoint, or Teams
+If they has permissions to access the app record, then the user can edit the record in Dynamics 365, but can't acces the files from Dynamics 365, SharePoint, or Microsoft Teams.
 
-If they don't have access rights to your Dynamics 365 record, they will receive an error and they won't have access to the files via Dynamics, SharePoint, or Teams
+If they don't have permission to access the Dynamics 365 app record, then the user will get an error and they won't have access to the file from Dynamics 365 , SharePoint, or Microsoft Teams
 
-#### 5. What permissions do users get when I add them to a Teams channel that has pinned records and documents added to the files tab?
-It depends on whether they have access rights to your Dynamics 365 record.
+#### 5. What permissions does a user get when I add them to a Teams channel that has pinned records and documents added to the files tab?
+It depends if the user has permissions to access the Dynamics 365 app record.
 
-If they have access rights to your Dynamics 365 record, they will be able to edit the record in Dynamics and Teams and read/write/delete files via Dynamics, SharePoint, and Teams.
+If they have permission to access the Dynamics 365 app record, then the user will able to edit the record in Dynamics 365 and Microsoft Teams. They will also have read, write. delete files from Dynamics 365, SharePoint, and Microsoft Teams.
 
-If they don't have access rights to your Dynamics 365 record, they will receive an error, but they will be able to read/write/delete the files via Dynamics, SharePoint, and Teams.
+If they don't have permission to access to your Dynamics 365 app record, then they will get an error, but they'll have read, write, delete permission when they access the file from Dynamics 365, SharePoint, and Microsoft Teams.
 
-#### 6. What is the SharePoint location of the Teams files tab vs the associated Dynamics record's documents tab? &lt;THE BELOW APPLIES WHEN SHAREPOINT INTEGRATION IS NOT ALREADY ESTABLISHED ON DYNAMICS ENTITY&gt;
+#### 6. What is the SharePoint location of the Microsoft Teams files tab versus the associated Dynamics 365 record's documents tab? &lt;THE BELOW APPLIES WHEN SHAREPOINT INTEGRATION IS NOT ALREADY ESTABLISHED ON DYNAMICS ENTITY&gt;
 
 When adding a file via a Dynamics record that is linked to a Teams channel, the document is stored in a Sharepoint folder with the file path \[Team Name\] &gt; Documents &gt; \[Channel Name\] &gt; \[FileName\]. The file is visible in both the Teams channel's Files tab and the Dynamics record's Document Associated Grid/
 
