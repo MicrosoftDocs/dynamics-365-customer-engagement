@@ -12,78 +12,81 @@ ms.reviewer: lalexms
 
 # Configure email
 
-Email is a critical communication tool for agents to connect with customers during the support delivery lifecycle. Regardless of the channel where the customer begins a conversation, agents often use email to send confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle. Email is almost always used as a communication channel between customers and agents throughout the lifecycle of support delivery.  
+Email is typically used as a communication channel between customers and agents throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, agents often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
 
 In customer engagement apps, system administrators have the ability to configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	
 
-How to navigate email configurations	
-- [Configure the email form order](customer-service-hub-user-guide-email-admin.md#configure-the-email-form-order)	
-- [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#enable-the-enhanced-email-experience)	
-- [Configure email attachments size limitations](customer-service-hub-user-guide-email-admin.md#configure-email-attachment-size-limitations)	
+The following email configuration options are available:	
+- [Configure the email form order](customer-service-hub-user-guide-email-admin.md#configure-the-email-form-order): Allow users to access email capabilities and create an option on the command bar.
+- [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#enable-the-enhanced-email-experience): Allow users to use broader email functionality, such as expanding the email editor pop-up window, applying predefined templates, and inserting attachments to email.
+- [Configure email attachments size limitations](customer-service-hub-user-guide-email-admin.md#configure-email-attachment-size-limitations): Allows you to manage file size limits for email attachments.
+- [Configure the attachment tiles thumbnail layout](customer-service-hub-user-guide-email-admin.md/#configure-attachment-tiles-thumbnail-layout): Allows you to configure the visual layout of attachments and the number of attachments to show per page.
 
 
-## Configure the email form order	
-Email must be enabled for users so they can view and access it. Unless email is enabled, it won't be available as an option on the command bar.	
+## Configure the email form order
+
+Email must be enabled for users so they can view and access it. When email is enabled, it shows as an option on the command bar.	
 
 To enable email:
 
-1. Under **Settings** select **Advanced Settings**
+1. In Power Apps, go to **Settings** > **Advanced Settings**.
 
     ![Navigate to advanced settings](media\email-how-to-enable-email-1z.png "Navigate to advanced settings.")	
 
-2. In the top nav, select the **Settings** carat (v),  then select **Customizations** 
+2. From the top menu, select **Settings** > **Customizations**.
 
     ![Navigate to Customizations](media\email-how-to-enable-email-2z.png "Select the Settings carat and then select Customizations.")	
 
-3. Select **Customize the System**
+3. Select **Customize the System**.
 
     ![Select Customize the System](media\email-how-to-enable-email-2az.png "Select Customize the System.")
 
-4. Expand **Entities**, select and expand **Email**, then select **Forms**
+4. Expand **Entities**, select and expand **Email**, and then select **Forms**.
 
-5. On the command bar, select **Form Order** and select **Main Form Set** from the drop-down list
+5. On the command bar, select **Form Order**, and then select **Main Form Set** from the drop-down list.
 
     ![Navigate to Main Form Set](media\email-how-to-enable-email-2bz.png "Select Form Order and then select Main Form Set.")
 
-6. The **Form Order** window appears, which displays enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list. Select **OK**
+6. The **Form Order** window appears, which displays the enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list, and then select **OK**.
 
     ![Form Order window](media\email-how-to-enable-email-2cz.png "Reorder Enhanced email if it doesn't display at the top of the list.")
 
     > [!Note] 
-    > Both the 'Navigate-to' to and 'Contextual' (pop-up) email experience work off of the same **Form Order**.
+    > Both the Navigate-to and Contextual (pop-up) email experience use the same **Form Order**.
 
-7.	Once you complete updates, you must **Publish All Customizations** located in the top-left corner for changes to appear; otherwise they will not display.
+7.	When you've completed your updates, select **Publish All Customizations** in the top-left corner in order for changes to be displayed.
 
     ![Select Publish All Customizations](media\email-how-to-enable-email-5az.png "Select Publish All Customizations.")	
 
 ## Enable the enhanced email experience	
-Enhanced email is the default setting, but you must enable email for users to access and use the feature. 
+
+Enhanced email is the default setting, but you must enable email for users to access and use the features. 
 
 Sign in to https://<YourOrgURL>.dynamics.com/apps and open a customer engagement app. In the app:	
 
-1. Go to **Settings** and select **Advanced Settings** 
+1. Go to **Settings** > **Advanced Settings**.
 
-2. In the top nav, select the **Settings** carat (v) then select **Administration** 
+2. Select **Settings** > **Administration**.
 
    ![Navigate to Administration settings](media\email-how-to-enable-email-5a.png "Navigate to the administration settings.")	
 
-3. Select **System Settings**.
-
-4. In the **System Settings** window that displays, select the **Email** tab. Scroll down to the **Enhanced email for Timeline** section, and then select the box.  
+3. Select **System Settings**. The **System Settings** window is displayed.
+ 
+4. Select the **Email** tab, scroll down to the **Enhanced email for Timeline** section, and then select the check box.  
 
     ![Navigate to the Enhanced email for Timeline option](media\email-how-to-enable-the-enhanced-email-experience-3az.png "Select the Enhanced email for Timeline option.")	
 
-6.	Select **OK** to save your global organizational setting and close.	
+5.	Select **OK** to save your global organizational setting and close the window.	
 
 ## Configure email attachment size limitations
 
-You can manage file size limits for emails file attachments. 
+You can manage file size limits for email file attachments by doing the following: 
 
-To manage email attachment size limitations, use the following steps: 
+1. In Power Apps, select **System Settings**.
 
-1. Select **System Settings**.
+2. In the **System Settings** display window that appears, go to the **Email** tab.
 
-2. In the **System Settings** display window that appears, go to the **Email** tab. Scroll down to the  **Set file size limit for attachments** section and set file size on attachments. Then select **OK**.
+3. Scroll down to the  **Set file size limit for attachments** section, set the file size you want to use for attachment, and then select **OK**.
 
     ![Set size limits for attachments](media\email-how-to-configure-email-attachment-size-limitations-1z.png "Set size limits for attachments.")	
 
