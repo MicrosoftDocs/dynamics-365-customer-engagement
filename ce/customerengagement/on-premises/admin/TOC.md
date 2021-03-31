@@ -84,6 +84,11 @@
 ### [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
 ### [Configure server-based authentication with Dynamics 365 for Customer Engagement apps(on-premises) and SharePoint on-premises](../customerengagement/on-premises/admin/on-prem-server-based-sharepoint-on-prem.md)
 ### [Switching from the list component or changing the SharePoint deployment](switching-list-component-changing-deployment.md) -->
+# Transition to Unified Interface
+## [Approaching a user experience and Unified Interface transition](approaching-unified-interface.md) 
+## [Checklist: Unified Interface transition](checklist-transition-unified-interface.md)
+## [Unified Interface Playbook](unified-interface-playbook.md)
+
 # Performance tuning and optimization
 ## [Overview](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
