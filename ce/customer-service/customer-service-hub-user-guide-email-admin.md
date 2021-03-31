@@ -148,7 +148,7 @@ You can configure the attachment file types you want to block to prevent users f
 
 3. On the **General** tab, scroll down to **Set blocked file extensions for attachments**.
 
-4. Write the file extension(s) you want to block.
+4. Type the file extension(s) you want to block.
 
    ![Write the file extensions to block](media\set-blocked-extensions-attachments.png "Write the file extensions to block.")
  
