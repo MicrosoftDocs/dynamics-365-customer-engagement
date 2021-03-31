@@ -28,7 +28,7 @@ The instructions apply to the following Dynamics 365 apps:
 
 - Dynamics 365 Field Service
 
-- Dynamics 365 Project Service Automation
+<!-- Dynamics 365 Project Service Automation  -->
 
 <!-- ## Run the Power Apps Solution Checker on your solutions
 
