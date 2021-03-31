@@ -2,8 +2,7 @@
 title: "Troubleshooting issues with email (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with email in Dynamics 365 Sales."
 ms.date: 01/13/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: sbmjais
 ms.author: shjais
