@@ -4,7 +4,7 @@ description: "Learn how to configure email in customer engagement apps."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/19/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -88,8 +88,69 @@ To manage email attachment size limitations, use the following steps:
     ![Set size limits for attachments](media\email-how-to-configure-email-attachment-size-limitations-1z.png "Set size limits for attachments.")	
 
 > [!Note] 	
-> The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file. 	
+> The default file size limit for attachments is 5 MB. The size limit for attachments can be increased to a maximum of 132 MB per file.
 
+## Configure attachment tiles thumbnail layout
+
+You can configure the attachment tiles thumbnail layout in email by selecting the Email entity form for enhanced email from the Advanced settings menu.
+
+1. In Power Apps, go to **Advanced settings**.
+
+2. Select **Customizations** > **Customize the System**.
+
+3. Select **Entities** > **Email** > **Forms** > **Enhanced Email**.
+
+4. Double-click the **Attachment** area of the form to show the **Properties** dialog.
+
+5. If the **Read Only Grid** control isn't already present, add it by selecting the **Controls** tab and then selecting **Add Control**.
+
+6. After you've added the **Read Only Grid**, you can select it to set the properties you want. Choose from the following:
+  - **Reflow Behavior**: Determines whether the layout of a grid changes to a list layout when not enough space is available.
+    - **Reflow**: Shown in list mode or grid mode, depending on the available size.
+    - **List Only**: Shown in list mode only.
+    - **Grid Only**: Shown in grid mode only.
+  - **Attachment List Style**: The way individual attachments are displayed in list mode (for the Attachment entity only)
+    - **Grid**: Shown in block with multiple attachments per row.
+    - **Rows**: Default experience with a single attachments per row.
+
+For example, we'll set **Reflow behavior** to **List Only** and **Attachment list style** to **Rows**, as follows:
+
+   ![Set Reflow behavior and Attachment list style](media\list-attachment-style.png "Set Reflow behavior and Attachment list style.")
+
+These settings display attachments as follows:
+
+   ![Attachments display](media\list-attach-list-display.png "Attachments display.")
+
+Changing to **List** and **Grid** shows the following attachment layout:
+
+   ![List and Grid layout](media\list-grid-layout.png "List and Grid layout.")
+
+### Change the number of attachments to show per page
+
+You can configure the maximum number of attachments to show per page. Adjust the settings on the **Formatting** tab of the **List or Chart properties** dialog. For example, if you set the **Number of Rows** property to 4, and then have more than four attachments per email, the rest of the attachments will paginate and you can then use the arrows buttons to view them.  
+
+ ![Change attachments to show per page](media\email-row-layout.png "Change the number of attachments to show per page.")
+ 
+ ![Pagination display](media\pagination-display.png "Pagination display.")
+ 
+
+### Manage blocked attachment file types
+
+You can configure the allowed file types for attachments to prevent users from uploading certain files. 
+
+1. In Power Apps, go to **Advanced settings**.
+
+2. Select **System** > **Administration** > **System Settings**.
+
+3. On the **General** tab, scroll down to **Set blocked file extensions for attachments**.
+
+4. Write the file extension(s) you want to block.
+
+ ![Write the file extensions to block](media\set-blocked-extensions-attachments.png "Write the file extensions to block.")
+ 
+  Users who try to upload a blocked file type will see an error message that tells them the attachment is blocked, as follows:
+
+ ![Attachment blocked](media\attachment-blocked-message.png "Attachment blocked message.")
 
 ### See Also
 
