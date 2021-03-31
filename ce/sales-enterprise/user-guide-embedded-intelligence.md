@@ -2,8 +2,7 @@
 title: "User guide for Embedded intelligence for Dynamics 365 Sales | MicrosoftDocs"
 description: "User guide for enabling and configuring Embedded intelligence and GDPR"
 ms.date: 05/08/2018
-ms.service: 
-  - crm-online
+ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
