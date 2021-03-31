@@ -137,7 +137,7 @@ You can edit or delete the working hours bu double-clicking the time slot on the
 > [!Note]
 > Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
 
-In Field Service versions **v8.8.40** or later, you can use a new custom input for recurring working hours, where resources can have different working hours on different days of the week, which recurs until a selected end day. You can add breaks or split the workhours of the Resource into different capacities
+In Field Service versions **v8.8.40** or later, you can use a new custom input for recurring working hours, where resources can have different working hours on different days of the week, which will recur until a selected end day. You can add breaks or split the resource's work hours into different capacities, as needed.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource.](./media/Resource-Work-Hours-Custom.png)
