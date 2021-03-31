@@ -21,7 +21,8 @@ The following email configuration options are available:
 - [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#enable-the-enhanced-email-experience): Allow users to use broader email functionality, such as expanding the email editor pop-up window, applying predefined templates, and inserting attachments to email.
 - [Configure email attachments size limitations](customer-service-hub-user-guide-email-admin.md#configure-email-attachment-size-limitations): Allows you to manage file size limits for email attachments.
 - [Configure the attachment tiles thumbnail layout](customer-service-hub-user-guide-email-admin.md/#configure-attachment-tiles-thumbnail-layout): Allows you to configure the visual layout of attachments and the number of attachments to show per page.
-
+- [Change the number of attachments to show per page](customer-service-hub-user-guide-email-admin.md/#change-the-number-of-attachments-to-show-per-page): Configure how many attachments you want to show.
+- [Manage blocked attachment file types](customer-service-hub-user-guide-email-admin.md/#manage-blocked-attachment-file-types): Allows you to configure the types of file types you want to block users from being able to upload as email attachments.
 
 ## Configure the email form order
 
@@ -128,18 +129,18 @@ Changing to **List** and **Grid** shows the following attachment layout:
 
    ![List and Grid layout](media\list-grid-layout.png "List and Grid layout.")
 
-### Change the number of attachments to show per page
+## Change the number of attachments to show per page
 
-You can configure the maximum number of attachments to show per page. Adjust the settings on the **Formatting** tab of the **List or Chart properties** dialog. For example, if you set the **Number of Rows** property to 4, and then have more than four attachments per email, the rest of the attachments will paginate and you can then use the arrows buttons to view them.  
+You can configure the maximum number of attachments to show per page. Adjust the settings on the **Formatting** tab of the **List or Chart properties** dialog. For example, if you set the **Number of Rows** property to 4, and then have more than four attachments per email, the rest of the attachments will paginate and you can then use the arrow buttons to view them.  
 
  ![Change attachments to show per page](media\email-row-layout.png "Change the number of attachments to show per page.")
  
  ![Pagination display](media\pagination-display.png "Pagination display.")
  
 
-### Manage blocked attachment file types
+## Manage blocked attachment file types
 
-You can configure the allowed file types for attachments to prevent users from uploading certain files. 
+You can configure the attachment file types you want to block to prevent users from uploading certain files. 
 
 1. In Power Apps, go to **Advanced settings**.
 
