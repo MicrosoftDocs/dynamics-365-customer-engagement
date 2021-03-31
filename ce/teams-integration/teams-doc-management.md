@@ -36,3 +36,8 @@ A user's access to files in Microsoft Teams or customer engagement apps depends 
 > [!NOTE]
 > - A guest user in Microsoft Teams will get error message when they try to access a pinned customer engagemnt app record. 
 > - A user who is part of Microsoft Teams channel or team that does have access to customer engagementapps won't have access to the record in Microsoft Teams.
+> 
+
+## FAQs 
+
+
