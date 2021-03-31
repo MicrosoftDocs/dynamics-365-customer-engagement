@@ -187,6 +187,11 @@ The global variables that are created in Power Virtual Agents can be passed to O
 | **File attachments:** After file attachments are enabled in Omnichannel for Customer Service, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel for Customer Service file attachments. |
 |||
 
+## Enable a bot to end conversations
+
+A Power Virtual Agents bot can choose to end conversations if it determines that the customer query has been solved or the when the customer has been inactive for a period of time. The bot can choose to end conversations after a time period of 30 minutes.
+
+
 ## Privacy notice
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
