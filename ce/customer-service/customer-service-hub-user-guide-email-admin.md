@@ -20,9 +20,9 @@ The following email configuration options are available:
 - [Configure the email form order](customer-service-hub-user-guide-email-admin.md#configure-the-email-form-order): Allow users to access email capabilities and create an option on the command bar.
 - [Enable the enhanced email experience](customer-service-hub-user-guide-email-admin.md#enable-the-enhanced-email-experience): Allow users to use broader email functionality, such as expanding the email editor pop-up window, applying predefined templates, and inserting attachments to email.
 - [Configure email attachments size limitations](customer-service-hub-user-guide-email-admin.md#configure-email-attachment-size-limitations): Allows you to manage file size limits for email attachments.
-- [Configure the attachment tiles thumbnail layout](customer-service-hub-user-guide-email-admin.md/#configure-attachment-tiles-thumbnail-layout): Allows you to configure the visual layout of attachments and the number of attachments to show per page.
-- [Change the number of attachments to show per page](customer-service-hub-user-guide-email-admin.md/#change-the-number-of-attachments-to-show-per-page): Configure how many attachments you want to show.
-- [Manage blocked attachment file types](customer-service-hub-user-guide-email-admin.md/#manage-blocked-attachment-file-types): Allows you to configure the types of file types you want to block users from being able to upload as email attachments.
+- [Configure the attachment tiles thumbnail layout](customer-service-hub-user-guide-email-admin.md#configure-attachment-tiles-thumbnail-layout): Allows you to configure the visual layout of attachments and the number of attachments to show per page.
+- [Change the number of attachments to show per page](customer-service-hub-user-guide-email-admin.md#change-the-number-of-attachments-to-show-per-page): Configure how many attachments you want to show.
+- [Manage blocked attachment file types](customer-service-hub-user-guide-email-admin.md#manage-blocked-attachment-file-types): Allows you to configure the types of file types you want to block users from being able to upload as email attachments.
 
 ## Configure the email form order
 
