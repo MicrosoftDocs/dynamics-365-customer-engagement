@@ -46,10 +46,10 @@ By default, Customer Engagement (on-premises) does not enforce an inactivity ses
 > Inactivity session timeout is not enforced in the following:
 > 1. [!INCLUDE [pn-oc-online-short](../includes/pn-oc-online-short.md)]
 > 2. [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]
-> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](https://docs.microsoft.com/dotnet/framework/wpf/) browser (Internet Explorer is supported)
+> 3. [!INCLUDE [pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client using [WPF](/dotnet/framework/wpf/) browser (Internet Explorer is supported)
 > 4. Live Assist (Chat)
 
-Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](https://docs.microsoft.com/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
 
 To enforce the inactivity session timeout for Web Resources, Web Resources need to include the ClientGlobalContext.js.aspx file in their solution.
 
@@ -71,13 +71,13 @@ These security enhancements are shipped disabled by default.  Administrators can
 
  ### Requirement
  These security enhancement features require the Feature Control Bit FCB.UCIInactivityTimeout to be enabled and claims-based authentication for user authentication. You can configure claims-based authentication in one of two ways:
- - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
- - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement apps is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement apps users are located, or users are in a trusted domain. See [Configure claims-based authentication](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
+ - With an Internet-facing deployment (IFD). See [Configure IFD for Microsoft Dynamics 365 for Customer Engagement](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
+ - With claims-based authentication alone if Microsoft Dynamics 365 for Customer Engagement apps is deployed in the same domain where all Microsoft Dynamics 365 for Customer Engagement apps users are located, or users are in a trusted domain. See [Configure claims-based authentication](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn920270(v=crm.8)).
 
 To obtain SDK sample code (for reference, not required to configure and enable session timeout):
 
 1. Access your Dynamics 365 for Customer Engagement server using your administrator account.
-2. Open a browser session and download the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-dynamics-365-sdk-v9).
+2. Open a browser session and download the [Dynamics 365 for Customer Engagement apps Software Development Kit (SDK)](/dynamics365/customer-engagement/developer/download-dynamics-365-sdk-v9).
 3. Select and run **MicrosoftDynamics365SDK.exe**. This will extract the download and create an SDK folder on your Dynamics 365 for Customer Engagement server.
 4. Open a PowerShell command prompt.
 5. Navigate to the downloaded SDK folder.

@@ -27,7 +27,7 @@ Document management with SharePoint lets you manage common document types, such 
 
 With Microsoft Teams integration with Dynamics 365, you can use document management with Microsoft Teams. It allows a user to co-author documents and automatically sync documents to customer engagement apps using SharePoint. For each tenant, there is a single SharePoint instance. Documents in Dynamics 365 and files in Teams are all on the same SharePoint site. The subsites may be different but the root site is the same.
 
-There isn't an automatic relationship between SharePoint permissions and permissions to customer engagement apps. To access documents between Microsoft Teams and customer engagement apps, you need explicit permission to use document management for customer engagement apps and SharePoint. For information: [Permissions required for document management tasks](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/permissions-required-document-management-tasks)
+There isn't an automatic relationship between SharePoint permissions and permissions to customer engagement apps. To access documents between Microsoft Teams and customer engagement apps, you need explicit permission to use document management for customer engagement apps and SharePoint. For information: [Permissions required for document management tasks](../customerengagement/on-premises/admin/permissions-required-document-management-tasks.md)
 
 Use the **Files** tab in Teams or the **Documents** tab in your customer engagement apps, to store and manage documents in the context of a record on a SharePoint Server. Documents are stored on a SharePoint Server that allows a user on Microsoft Teams to access the documents on the SharePoint Server &ndash; as long as the user has appropriate permissions.
 
@@ -36,6 +36,3 @@ A user's access to files in Microsoft Teams or customer engagement apps depends 
 > [!NOTE]
 > - A guest user in Microsoft Teams will get error message when they try to access a pinned customer engagemnt app record. 
 > - A user who is part of Microsoft Teams channel or team that does have access to customer engagementapps won't have access to the record in Microsoft Teams.
- 
-
-

@@ -1,8 +1,8 @@
 ---
 title: "Download the Unified Service Desk Performance Analyzer | MicrosoftDocs"
 description: "Learn om how to download Unified Service Desk Performance Analyzer."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 10/31/2018
 ms.topic: article

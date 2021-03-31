@@ -24,7 +24,7 @@ search.app:
 Environment-management operations are a standard feature of model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). Dynamics 365 Marketing, however, adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
 
 > [!IMPORTANT]
-> This topic provides details about the exceptions that apply when working with environments where the Marketing app is installed—for all other management tasks, see [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview), but read this topic first.
+> This topic provides details about the exceptions that apply when working with environments where the Marketing app is installed—for all other management tasks, see [Environments overview](/power-platform/admin/environments-overview), but read this topic first.
 
 > [!NOTE]
 > *Environments* are sometimes also known as *organizations* or *environments*. Each of these terms refers to the same concept. The Power Apps user interface and documentation usually use the term *environment*, while Dynamics 365 Marketing documentation usually uses the term *environment* (though you'll sometimes also see the terms *organization* or *org* here). Because this article relies on Power Platform Admin Center functionality, it refers exclusively to environments.
@@ -88,16 +88,16 @@ The _source environment_ is the Marketing environment you are copying _from_. To
 The _target environment_ is the environment you are copying _to_. As with the source environment, you must prepare the target environment before you copy _if Marketing is installed on the source environment, the target environment, or both_.
 
 > [!NOTE]
-> The target environment will almost always be a sandbox environment because copying to a production environment isn't supported (but you can easily [convert a sandbox into a production environment](#switch-sandbox-prod) after copying, if you wish). You must already have the target environment available on your tenant. You will be able to see it on the **Environments** page of the Power Platform admin center. If you don't have one, please  [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance.
+> The target environment will almost always be a sandbox environment because copying to a production environment isn't supported (but you can easily [convert a sandbox into a production environment](#switch-sandbox-prod) after copying, if you wish). You must already have the target environment available on your tenant. You will be able to see it on the **Environments** page of the Power Platform admin center. If you don't have one, please  [contact Microsoft Support](/power-platform/admin/get-help-support) for assistance.
 
 To prepare your target environment, do the following _before_ starting the copy:
 
-1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere.
+1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere.
 1. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
 
 ### Step 3: Copy the environment
 
-Once your source and target environments are prepared, you're ready to make the copy following the procedure described in [Copy an environment](https://docs.microsoft.com/power-platform/admin/copy-environment).
+Once your source and target environments are prepared, you're ready to make the copy following the procedure described in [Copy an environment](/power-platform/admin/copy-environment).
 
 Pay special attention when choosing whether to create an [Everything or Customizations and schemas only copy](#target-content).
 
@@ -107,7 +107,7 @@ Pay special attention when choosing whether to create an [Everything or Customiz
 
 After creating your copy, you must complete the following steps:
 
-- Make sure the target environment isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](https://docs.microsoft.com/power-platform/admin/sandbox-environments).
+- Make sure the target environment isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](/power-platform/admin/sandbox-environments).
 - Run the Marketing setup wizard on the target environment. This is needed because the target environment must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Customer Voice and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, then the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
 
 ## Create and restore backups
@@ -121,7 +121,7 @@ As with copy operations, backup and restore operations typically require a few e
 
 Microsoft automatically makes daily backup copies of all Dynamics 365 environments, including those that have the Marketing app installed. Like other types of copies and backups, automatic system backups include the full organizational database, but not the interaction records or image files stored in the marketing services. System backups are kept for just a few days and then deleted.
 
-For more information about automatic backups in Dynamics 365, see [System backups](https://docs.microsoft.com/power-platform/admin/backup-restore-environments#system-backups).
+For more information about automatic backups in Dynamics 365, see [System backups](/power-platform/admin/backup-restore-environments#system-backups).
 
 For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
@@ -130,7 +130,7 @@ For more information about how to backup marketing-services data to blob storage
 You can create an on-demand backup at any time, but when Marketing is installed on your source environment, you must take a few extra precautions by using the following procedure:
 
 1. [Open the Power Platform admin center](/power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source environment, as described in [Keep Marketing up to date](apply-updates.md).
-1. Create the on-demand backup as usual, as described in [Backup and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+1. Create the on-demand backup as usual, as described in [Backup and restore environments](/power-platform/admin/backup-restore-environments).
 
     ![Create an on-demand backup](media/instances-backup.png "Create an on-demand backup")
 
@@ -148,30 +148,30 @@ You can easily restore any on-demand or automatic system backup to any available
 
 To restore a backup onto a sandbox environment:
 
-1. If your target environment includes a [Power Apps portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. If your target environment includes a [Power Apps portal](portal-optional.md), then reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
 
-1. Restore the backup onto the newly prepared sandbox as usual, as described in [Backup and restore environments](https://docs.microsoft.com/power-platform/admin/backup-restore-environments).
+1. Restore the backup onto the newly prepared sandbox as usual, as described in [Backup and restore environments](/power-platform/admin/backup-restore-environments).
 
 1. Prepare the restored environment for use by doing the following:
 
-   - Make sure the restored environment is not in administration mode. For more information about this setting and how to disable it, see [Administration mode](https://docs.microsoft.com/power-platform/admin/sandbox-environments#administration-mode).
+   - Make sure the restored environment is not in administration mode. For more information about this setting and how to disable it, see [Administration mode](/power-platform/admin/sandbox-environments#administration-mode).
    - Run the Marketing setup wizard on the target environment. For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard). If you don't run the setup wizard, the copy will end in a *disconnected state*, which means that many key features won't work until you do (relevant error messages will be shown).
 
 ### Don't try to restore a backup onto its original environment
 
-When a backup contains Dynamics 365 Marketing, it isn't possible to restore a backup onto its original environment. If you need to do this, [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance.
+When a backup contains Dynamics 365 Marketing, it isn't possible to restore a backup onto its original environment. If you need to do this, [contact Microsoft Support](/power-platform/admin/get-help-support) for assistance.
 
 <a name="switch-sandbox-prod"></a>
 
 ## Switch an environment between sandbox and production status
 
-Many environment management tasks only allow you to work on a sandbox environment as the source or destination of a copy, backup, or restore operation. However, you can easily switch any environment from sandbox to production, or production to sandbox, at any time. The Marketing app doesn't limit this standard platform operation. More information: [Change the environment type](https://docs.microsoft.com/power-platform/admin/switch-environment)
+Many environment management tasks only allow you to work on a sandbox environment as the source or destination of a copy, backup, or restore operation. However, you can easily switch any environment from sandbox to production, or production to sandbox, at any time. The Marketing app doesn't limit this standard platform operation. More information: [Change the environment type](/power-platform/admin/switch-environment)
 
 <a name="support-copy"></a>
 
 ## Copy a production environment to a support environment
 
-Microsoft Support offers a service for testing pending changes (usually updates) on a copy of your production environment. If you wish to use this service, contact Microsoft Support to find out if you are eligible. If you are eligible, Microsoft Support will create a support environment on your tenant and then ask you to copy your production environment onto it. More information: [Manage Support environments](https://docs.microsoft.com/power-platform/admin/support-environment)
+Microsoft Support offers a service for testing pending changes (usually updates) on a copy of your production environment. If you wish to use this service, contact Microsoft Support to find out if you are eligible. If you are eligible, Microsoft Support will create a support environment on your tenant and then ask you to copy your production environment onto it. More information: [Manage Support environments](/power-platform/admin/support-environment)
 
 > [!NOTE]
 > When you copy to a support environment, you don't need to make any special preparations that were mentioned in other sections of this article.
@@ -203,8 +203,8 @@ To copy a production environment to a support environment:
 
 For standard Dynamics 365 environments (without Marketing installed), you can use the Power Platform admin center to delete or reset an environment. However, if you do have Marketing installed, you should also do the following:
 
-1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
-1. Delete or reset the environment as usual. More information: [Delete environment](https://docs.microsoft.com/power-platform/admin/delete-environment)
+1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. Delete or reset the environment as usual. More information: [Delete environment](/power-platform/admin/delete-environment)
 
 > [!NOTE]
 > Your Dynamics 365 Marketing license is automatically released when you delete or reset its environment, so you'll be free to install it on another environment.
@@ -223,11 +223,11 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 [Uninstall Marketing](uninstall-marketing.md)
 [Transfer data between environments](transfer-data.md)  
 [Transfer customizations between environments](transfer-solution.md)  
-[Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)  
-[Import data (all record types) from multiple sources](https://docs.microsoft.com/power-platform/admin/import-data-all-record-types)  
-[Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
-[Solutions overview](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview)  
-[Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)
+[Environments overview](/power-platform/admin/environments-overview)  
+[Import data (all record types) from multiple sources](/power-platform/admin/import-data-all-record-types)  
+[Move configuration data across environments and organizations](/power-platform/admin/manage-configuration-data)  
+[Solutions overview](/powerapps/maker/common-data-service/solutions-overview)  
+[Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

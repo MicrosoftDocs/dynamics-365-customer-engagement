@@ -1,8 +1,8 @@
 ---
 title: "SelectElement in Unified Service Desk | MicrosoftDocs"
 description: "Learn about SelectElement in Unified Service Desk to search for a named control on the HTML page."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

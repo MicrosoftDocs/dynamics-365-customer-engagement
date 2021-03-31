@@ -106,7 +106,7 @@ After creating a custom entity to use with a lookup field, or if your lookup fie
 > [!NOTE]
 > We currently do not support filtering entities by state code. Entities will appear in lookups regardless of their state code.
 
-1. [Enable and configure relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization#enable-relevance-search) for the entity you want to use with the lookup field. The relevance search configuration is located in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. [Enable and configure relevance search](/power-platform/admin/configure-relevance-search-organization#enable-relevance-search) for the entity you want to use with the lookup field. The relevance search configuration is located in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
     ![Enable relevance search](media/marketing-fields-relevance2.png "Enable relevance search")
 

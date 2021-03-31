@@ -1,8 +1,8 @@
 ---
 title: "What's new in Unified Service Desk  for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/04/2021
 ms.topic: article

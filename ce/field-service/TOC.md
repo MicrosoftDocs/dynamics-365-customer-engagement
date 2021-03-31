@@ -12,6 +12,7 @@
 # Administration
 ## [Initial configuration](perform-initial-configurations-setup.md)
 ## [Set up users and security roles](view-user-accounts-security-roles.md)
+## [Location and map settings](field-service-maps-address-locations.md)
 ## [Priorities](set-priorities.md)
 ## [Postal codes](set-up-postal-codes.md)
 ## [Tax codes](set-up-tax-codes.md)
@@ -39,6 +40,7 @@
 ## Inspections
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
+### [Run reports on inspections](inspections-reporting.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
 ## [Capture resolution details](work-order-resolutions.md)
@@ -64,7 +66,7 @@
 ### [Enable an entity for scheduling](schedule-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
-### [Timestamps](booking-timestamps.md)
+### [Booking timestamps + journals](booking-timestamps.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
 ### [Analytics dashboard](scheduling-analytics-reports.md)
@@ -223,6 +225,7 @@
 ### [Resource Scheduling Optimization](field-service-version-history-resource-scheduling-optimization.md)
 ### [Field Service Mobile (Xamarin)](field-service-version-history-mobile.md)
 ## [AppSource add-ins for Field Service](appsource-addins.md)
+## [Dynamics 365 US Government cloud (GCC) availability](field-service-dynamics365-government.md)
 
 # [Troubleshoot with Solution Health Hub](troubleshoot-field-service-solution-health.md)
 # [General FAQs](troubleshoot-faq.md)

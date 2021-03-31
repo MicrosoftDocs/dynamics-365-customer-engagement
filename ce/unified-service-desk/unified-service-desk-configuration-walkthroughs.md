@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk  configuration walkthroughs | MicrosoftDocs"
 description: "Unified Service Desk walkthroughs provide a step-by-step tutorial on configuring an agent application from scratch and progressively adding features."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

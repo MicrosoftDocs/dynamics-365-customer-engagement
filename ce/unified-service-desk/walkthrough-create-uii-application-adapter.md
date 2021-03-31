@@ -1,8 +1,8 @@
 ---
 title: "Walkthrough  Create a UII Application Adapter in Unified Service Desk | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article

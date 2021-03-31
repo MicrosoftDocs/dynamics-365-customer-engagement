@@ -83,7 +83,7 @@ For **Vivo** device, do the following:
 1. Go to **Settings** > **More Settings** > **Applications** > **Autostart**.
 2. Set the toggle switch to **ON** for the authenticator app.
 
-For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find this information above](https://docs.microsoft.com/dynamics365/mobile-app/troubleshooting-things-know-about-phones-tablets#get-the-session-id-from-the-sign-in-screen) and quote the error message above.
+For other device manufacturers, please email Dynamics 365 Mobile Support dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find this information above](#get-the-session-id-from-the-sign-in-screen) and quote the error message above.
 
 
 ## Error message: This record is unavailable
@@ -142,7 +142,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
   
 ## Error message: You haven't been authorized to use this app. Check with your system administrator to update your settings
- **Cause 1**: Verify that your security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets?#requirements).  
+ **Cause 1**: Verify that your security role includes the **Use [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](./set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#requirements).  
   
  **Cause 2**: This error can occur if you have a Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organization and your user has not been assigned a license for the organization. If you add a Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) subscription to an existing [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] tenant, your user may not have a  license assigned. 
  
@@ -156,7 +156,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
   
 ## Error message: Sorry, something went wrong while initializing the app. Please try again, or restart the app  
- **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets?#requirements)).  
+ **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](./set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#requirements)).  
   
  **Cause 2**: See the following KB article:  
   
@@ -172,14 +172,14 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  
   
 ## Error message: The language installed on your company’s system isn’t available on the app. Please contact your system administrator to set up a supported language
- **Cause**: This error will occur if one of the supported languages is not enabled in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). For more information on the supported languages, see [Supported languages for Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#supported-languages-for--and-).
+ **Cause**: This error will occur if one of the supported languages is not enabled in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). For more information on the supported languages, see [Supported languages for Dynamics 365 for phones and tablets](./support-phones-tablets.md#supported-languages-for--and-).
   
 ## Error message: The process assigned to this record is unavailable or has been deleted 
  If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize Dynamics 365 mobile app data with Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) app data. Close the mobile app, reopen it, and then choose to download the latest customizations. This procedure forces the mobile app to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched.
   
 
 ## Event 10001 messages appear in the Event Log when you run Dynamics 365 for mobile. 
- The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where Dynamics 365 for mobile is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](https://technet.microsoft.com/library/cc749492.aspx)  
+ The following event may be recorded multiple times to the Event Log, when **Show Analytic and Debug Logs** is enabled, on the device where Dynamics 365 for mobile is running. Notice that, by default, **Show Analytic and Debug Logs** is disabled in [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] and these messages won’t be recorded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Analytic and Debug Logs](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749492(v=ws.11))  
   
 - Event Id: 10001  
   

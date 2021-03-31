@@ -1,7 +1,7 @@
 ---
 title: "Lead scoring options (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use the Lead scoring page in the Settings work area to configure a few basic options that control how automatic lead scoring works on your instance in Dynamics 365 Marketing."
-ms.date: 10/04/2019
+ms.date: 03/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,7 +22,7 @@ search.app:
 
 Use the **Lead scoring** page in the **Settings** work area to configure a few basic options that control how automatic lead scoring works on your instance. Do the following to find and make these settings:
 
-1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Lead scoring**.
+1. Go to **Settings** > **Lead management** > **Scoring configuration**.
 1. A list view opens. Do one of the following:
     - If no records are listed here, select **New** from the command bar to create one.
     - If there already is a record here, select it to open it.
@@ -38,9 +38,8 @@ Use the **Lead scoring** page in the **Settings** work area to configure a few b
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [The lead lifecycle](lead-lifecycle.md)  
 [Design lead-scoring models](score-manage-leads.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
