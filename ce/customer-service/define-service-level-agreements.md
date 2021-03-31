@@ -128,7 +128,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 ### Create an SLA item
 
 1. In **Customer Service Hub** > **Service Management**, select the SLA for which you want to add an SLA item.
- 
+
 2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
 3. On the **General** tab, enter the following details.
@@ -140,17 +140,20 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
   
 4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
-6. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
-7. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+  > [!IMPORTANT]
+  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message will be displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
+
+6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
+7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
 
-8. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
   > [!NOTE]
-  >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
+  > The time for failure and warning is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
 
 8. Select **Save**.
 
@@ -179,19 +182,23 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     
     e. In **Choose an operation**, search for an action, such as **Perform an unbound action**, and select it.
     
-    f. In **Action Name**, select msdyn_SendEmailFromTemplate, and configure the following options that are displayed for the action:
+    f. In **Action Name**, select **msdyn_SendEmailFromTemplate**, and configure the following options that are displayed for the action:
       - From
       - To Item
       - Cc Item
-      - Regarding  
-
-    f. Repeat the steps to configure the actions for **Is Succeeded** and **Is Non-compliant**.
+      - Regarding
+      - Template
+      
+      > [!NOTE]
+      > To obtain the value for the **Template** field, see [Open Data Protocol](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata).
+    
+    g. Repeat the steps to configure the actions for **Is Succeeded** and **Is Non-compliant**.
 
       A sample screenshot of the configured action is as follows.
 
       ![Configured action in Power Automate](media/sla-default-flow.png "Configured action in Power Automate")
-    
-    g. Save and exit Power Automate.
+
+    h. Save and exit Power Automate.
 
 4. Select **Save & Close** on the SLA item dialog box.
 
