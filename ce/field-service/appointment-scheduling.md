@@ -70,17 +70,24 @@ Dataverse appointments can also originate in Outlook, and be synced to Dynamics 
 
 ## Step 3: View appointments on the schedule board
 
-Appointments will be visible on the new schedule board for the Required Attendees and the Owner as long as they are set up as bookable resources. They are supported in all views of the new schedule board, namely the hourly, daily, weekly, and monthly views. Appointments show in a read-only format and cannot be moved on the new schedule board. The legend shows the colors for various appointment statuses. The below image shows how appointments display in hourly view. Hovering on an appointment shows more details in a card. 
+Appointments will be visible on the new schedule board for the Required Attendees and the Owner as long as they are set up as bookable resources. 
+
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
 
 
-### Customize appointment colors 
+Here are some key points:
+- Appointments will show as read-only mode on the new schedule board and cannot be moved.- Appointments are supported in all views of the new schedule board, namely the hourly, daily, weekly, and monthly views. 
+- Hovering on an appointment shows more details in a card. 
+- The legend shows the colors for various appointment statuses.
+
+### Customize appointment colors in the schedule board
 
 The new schedule board uses the colors defined in [Dataverse Appointment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) entity  metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the Appointment colors that show on the new schedule board.  
 
-### Hide canceled appointments
+### Hide canceled appointments in the schedule board
 
 If you do not wish to see canceled appointments on the new schedule board, note that the **Hide Canceled** tab-level setting accessible from the old schedule board will hide both canceled bookings and canceled appointments on the new schedule board. 
 Go to the old schedule board using the toggle in the top right. Open the tab and select the gear icon in the top right of the schedule board. Check the **Hide Canceled** checkbox, and toggle back to the new schedule board. 
@@ -88,44 +95,31 @@ Go to the old schedule board using the toggle in the top right. Open the tab and
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Hide Canceled tab setting in old schedule board.](./media/Appointment06-HideCanceledAppointment.png)
 
+## Step 4: Respect appointments when scheduling 
 
-## More details 
+For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. 
 
-This April Wave 1 2021 feature adds [Microsoft Dataverse appointments](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) as an additional data source for resource scheduling. Previously the schedule board and scheduling operations used only [bookings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. Thus, if you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This created issues when changes in bookings did not reflect in appointments and vice versa. 
+- Non-interactive optimizations are triggered when an optimization schedule is run. 
+- Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right-clicking on a resource), and the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
 
-Now Microsoft Dataverse appointments are included directly in resource scheduling, so there is no longer any need to have bookings automatically created for appointments and to face the issue of changes in one not reflecting in the other. 
+Appointments with statuses Busy and Completed will be considered as unavailable by scheduling operations. 
 
+For customers without resource scheduling optimization, the Schedule Assistant is planned to consider appointments in a future release. Meanwhile, developers can use the Schedule Assistant APIs for both requirements and requirement groups for a custom web app or a Dynamics 365 portal or a Power Apps canvas app to support appointment scheduling scenarios. 
 
+## Architecture diagram
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of appointments added as a data source.](./media/Appointment00-BlockDiagramResized.png)
 
-<ul>
-<li>Appointments will show in read-only mode on the new schedule board, and be considered in scheduling operations from the new schedule board and resource scheduling optimization.</li>
-<li>Scheduling operations will consider appointments as location-agnostic.</li>
-<li>If an appointment had related bookings those bookings will not be shown and will not be considered in scheduling operations. </li>
-<li>This feature has an organization level setting, which turns on the feature for all resources. You can control individual resources using a resource level setting.</li>
-</ul>
+
+, and be considered in scheduling operations from the new schedule board and resource scheduling optimization.
+- Scheduling operations will consider appointments as location-agnostic.</li>
+- If an appointment had related bookings those bookings will not be shown and will not be considered in scheduling operations. </li>
+- This feature has an organization level setting, which turns on the feature for all resources. You can control individual resources using a resource level setting.</li>
 
 
 
-
-
-
-
-
-## Scheduling operations that respect appointments
-
-Appointments with statuses Busy and Completed will be considered as unavailable by scheduling operations. 
-
-For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. Non-interactive optimizations are triggered when an optimization schedule is run. Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right-clicking on a resource), and the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
-For customers without resource scheduling optimization, Schedule Assistant is expected to launch in October Wave 2 2021. Meanwhile, the Schedule Assistant APIs for both requirements and requirement groups do support appointments should customers want to leverage these for a custom web app or a Dynamics 365 portal or a Power Apps canvas app to support appointment scheduling scenarios. 
-
-
-
-
-
-## Additional notes
+## Deprecation note
 
 Including appointments turns off the deprecated configuration to automatically create bookings when an appointment is created
 
@@ -136,5 +130,9 @@ You may further verify that the deprecated configuration has been turned off, by
 > [!div class="mx-imgBorder"]
 > ![Screenshot to verify deprecated configuration has been turned off.](./media/Appointment03-DeprecatedFeatureIsOff.png)
 
+
+ Previously the schedule board and scheduling operations used only [bookings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. Thus, if you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This created issues when changes in bookings did not reflect in appointments and vice versa. This April Wave 1 2021 feature adds [Microsoft Dataverse appointments](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) as an additional data source for resource scheduling.
+
+Now Microsoft Dataverse appointments are included directly in resource scheduling, so there is no longer any need to have bookings automatically created for appointments and to face the issue of changes in one not reflecting in the other. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
