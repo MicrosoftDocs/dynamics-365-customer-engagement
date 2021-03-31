@@ -55,7 +55,7 @@ If you do not have SharePoint integration enabled, you need to have pinned the r
 #### 4. What happens when I add documents to a Teams channel connected to a Dynamics 365 app record and then remove a member from the channel?
 It depends if the user has permissions to access the Dynamics 365 app record.
 
-If they has permissions to access the app record, then the user can edit the record in Dynamics 365, but can't acces the files from Dynamics 365, SharePoint, or Microsoft Teams.
+If they has permissions to access the app record, then the user can edit the record in Dynamics 365, but can't access the files from Dynamics 365, SharePoint, or Microsoft Teams.
 
 If they don't have permission to access the Dynamics 365 app record, then the user will get an error and they won't have access to the file from Dynamics 365 , SharePoint, or Microsoft Teams
 
@@ -84,7 +84,7 @@ When a Dynamics 365 app record is linked to a Teams channel, files already added
 
 If a Dynamics 365 app record has been previously associated with a Teams channel, and a user associate it with a new Teams channel, another document location is added in Dynamics 365 for the new Teams channel associated with the record. Users can switch back and forth between the document locations.
 
-#### 7. What is the SharePoint location of the Teams files tab versus the associated Dynamics 365 arecord's documents tab? &lt;THE BELOW APPLIES WHEN SHAREPOINT INTEGRATION IS ALREADY ESTABLISHED ON DYNAMICS ENTITY&gt;
+#### 7. What is the SharePoint location of the Teams files tab versus the associated Dynamics 365 app record's documents tab? &lt;THE BELOW APPLIES WHEN SHAREPOINT INTEGRATION IS ALREADY ESTABLISHED ON DYNAMICS ENTITY&gt;
 
 When adding a file to a Dynamics 365 app record that is linked to a Teams channel from the document location for the Teams channel, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [FileName]. The file is visible in both the Teams channel's files tab and the Dynamics 365 app record's document associated grid in the document location for the Teams channel.
 
@@ -104,7 +104,7 @@ When a Dynamics record is linked to a Teams channel, files already added to that
 If a Dynamics 365 app record has been previously associated with a Teams channel, and a user associates it with a new Teams channel, another document location is added in Dynamics 365 app for the new Teams channel associated with the record. Users can switch back and forth between the document locations.
 
 #### 8. Who can see which location?
-Permission to see the location depends on the user permission to the folder in SharePoint. If the SharePoint folder was created in a Microsoft Teams channel, then the user will have read andwrite permission.
+Permission to see the location depends on the user permission to the folder in SharePoint. If the SharePoint folder was created in a Microsoft Teams channel, then the user will have read and write permission.
 
 #### 9. I have removed a user from the Teams channel, but they still have access to the associated record from Dynamics 365. How can I restrict their ability to open, edit, and delete the document from Dynamics 365?
 Access to the files depends on a user's permissions in SharePoint. To restrict a user from accessing these files, remove them the user from the SharePoint site.
