@@ -145,7 +145,7 @@ In Field Service versions **v8.8.40** or later, you can use a new custom input f
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource with different work hours on different days of a week](./media/Resource-Work-Hours-Custom-01.png)
 
-You can add breaks or split a resource's work hours into different capacities for each of day of the week, as needed for your business. 
+You can add breaks or split a resource's work hours into different capacities for each day of the week, as needed for your business. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource with different capacity on a day](./media/Resource-Work-Hours-Custom-02.png)
