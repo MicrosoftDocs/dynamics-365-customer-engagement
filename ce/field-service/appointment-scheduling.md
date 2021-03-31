@@ -114,16 +114,20 @@ Meanwhile, developers can use the schedule assistant APIs for both requirements 
 - A Dynamics 365 portal 
 - Power Apps canvas apps to support appointment scheduling scenarios. 
 
+Some more key points:
+
+- Scheduling operations will consider appointments as location-agnostic.
+- If an appointment had related bookings, those bookings will not be shown and will not be considered in scheduling operations.
+
 ## Architecture diagram
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of appointments added as a data source.](./media/Appointment00-BlockDiagramResized.png)
 
 
-, and be considered in scheduling operations from the new schedule board and resource scheduling optimization.
-- Scheduling operations will consider appointments as location-agnostic.
-- If an appointment had related bookings, those bookings will not be shown and will not be considered in scheduling operations.
-- This feature has an organization-level setting, which turns on the feature for all resources. You can control individual resources using a resource level setting.
+
+
+
 
 
 
