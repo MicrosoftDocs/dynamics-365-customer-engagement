@@ -19,7 +19,7 @@ search.app:
 
 # Get started with Dynamics 365 Field Service
 
-After you have [installed Dynamics 365 Field Service](install-field-service.md) and have [assigned Field Service licenses to your users](view-user-accounts-security-roles) who need to use the app, you can start adding your frontline workers and scheduling work orders. The best way to do this is to use the new **Getting Started** page, as seen in the following screenshot.
+After you have [installed Dynamics 365 Field Service](install-field-service.md) and have [assigned Field Service licenses to your users](view-user-accounts-security-roles.md) who need to use the app, you can start adding your frontline workers and scheduling work orders. The best way to do this is to use the new **Getting Started** page, as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the getting started page in Field Service.](./media/gettingstarted1920.png)
