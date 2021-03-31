@@ -234,6 +234,8 @@ Enhancements include:
 
 -   Commonly used commands have been moved from the bottom bar to the top corner of the screen for easy access. Less common features like settings and profile information are tucked away for users to access them when needed.
 
+More information: [Basic navigation in a model-driven app](/powerapps/user/navigation)
+
 ## Hybrid dialog experiences
 
 Some of the features that are not yet on Unified Interface can now be accessed using the hybrid experience.
