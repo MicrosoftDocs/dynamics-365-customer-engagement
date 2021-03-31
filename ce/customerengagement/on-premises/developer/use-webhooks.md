@@ -86,7 +86,7 @@ You can find details about the registered webhooks by querying the **ServiceEndp
 
 **Web API:**
 
-`GET [organization URI]/api/data/v9.0/serviceendpoints?$filter=contract eq 8&$select= serviceendpointid,name,authtype,url`
+`GET [organization URI]/api/data/v9.1/serviceendpoints?$filter=contract eq 8&$select= serviceendpointid,name,authtype,url`
 
 **FetchXml:**
 
@@ -159,13 +159,13 @@ You can query the steps registered for a specific webhook when you know the serv
 You can use this Web API Query where *&lt;id&gt;* is the [ServiceEndpointId](entities/serviceendpoint.md#BKMK_ServiceEndpointId) of the webhook:
 
 ```
-GET [organization URI]/api/data/v9.0/serviceendpoints(@id)/serviceendpoint_sdkmessageprocessingstep?$select=sdkmessageprocessingstepid,name,description,asyncautodelete,filteringattributes,mode,stage?@id=<id>
+GET [organization URI]/api/data/v9.1/serviceendpoints(@id)/serviceendpoint_sdkmessageprocessingstep?$select=sdkmessageprocessingstepid,name,description,asyncautodelete,filteringattributes,mode,stage?@id=<id>
 ```
 
 For more information about the registered step, you can use this Web API query where *&lt;stepid&gt;* is the [SdkMessageProcessingStepId](entities/sdkmessageprocessingstep.md#BKMK_SdkMessageProcessingStepId) for the step:
 
 ```
-GET [organization URI]/api/data/v9.0/sdkmessageprocessingsteps(@id)?$select=name,description,filteringattributes,asyncautodelete,mode,stage&$expand=plugintypeid($select=friendlyname),eventhandler_serviceendpoint($select=name),sdkmessagefilterid($select=primaryobjecttypecode),sdkmessageid($select=name)?@id=<stepid>
+GET [organization URI]/api/data/v9.1/sdkmessageprocessingsteps(@id)?$select=name,description,filteringattributes,asyncautodelete,mode,stage&$expand=plugintypeid($select=friendlyname),eventhandler_serviceendpoint($select=name),sdkmessagefilterid($select=primaryobjecttypecode),sdkmessageid($select=name)?@id=<stepid>
 ```
 
 **FetchXML:**
@@ -204,7 +204,7 @@ When you know the **sdkmessageprocessingstepid** of a given step, you can query 
 
 **Web API:**
 
-`GET [organization URI]/api/data/v9.0/asyncoperations?$orderby=completedon desc&$filter=statuscode eq 31 and _owningextensionid_value eq @stepid&$select=name,friendlymessage,errorcode,message,completedon?@stepid=<stepid>`
+`GET [organization URI]/api/data/v9.1/asyncoperations?$orderby=completedon desc&$filter=statuscode eq 31 and _owningextensionid_value eq @stepid&$select=name,friendlymessage,errorcode,message,completedon?@stepid=<stepid>`
 
 **FetchXML:**
 
