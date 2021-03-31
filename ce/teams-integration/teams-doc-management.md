@@ -66,9 +66,11 @@ If they have permission to access the Dynamics 365 app record, then the user wil
 
 If they don't have permission to access to your Dynamics 365 app record, then they will get an error, but they'll have read, write, delete permission when they access the file from Dynamics 365, SharePoint, and Microsoft Teams.
 
-#### 6. What is the SharePoint location of the Microsoft Teams files tab versus the associated Dynamics 365 record's documents tab? &lt;THE BELOW APPLIES WHEN SHAREPOINT INTEGRATION IS NOT ALREADY ESTABLISHED ON DYNAMICS ENTITY&gt;
+#### 6. What is the SharePoint location of the Microsoft Teams files tab versus the associated Dynamics 365 record's documents tab?
 
-When adding a file via a Dynamics record that is linked to a Teams channel, the document is stored in a Sharepoint folder with the file path \[Team Name\] &gt; Documents &gt; \[Channel Name\] &gt; \[FileName\]. The file is visible in both the Teams channel's Files tab and the Dynamics record's Document Associated Grid/
+The information below applies when SharePoint integration is not establised for a Dynamics 365 entity. 
+
+When adding a file via a Dynamics 365 app record that is linked to a Teams channel, the document is stored in a SharePoint folder with the file path \[Team Name\] &gt; Documents &gt; \[Channel Name\] &gt; \[FileName\]. The file is visible in the Teams channel's files tab and the Dynamics 365 app record's document associated grid.
 
 Adding a file via a Dynamics record that is not linked to a Teams channel is not possible, since SharePoint integration has not yet been set up.
 
@@ -103,12 +105,12 @@ When a Dynamics record is linked to a Teams channel, files already added to that
 If a Dynamics record has been previously associated with a Teams channel, and a user decides to associate it with a new Teams channel, another Document Location is added in Dynamics for the new Teams channel associated with the record. Users can switch back and for the between the document locations.
 
 #### 8. Who can see which location?
-Permission to see the location depends on the user permission to the folder in Sharepoint. If the Sharepoint folder was created in a Teams channel, then the user will have read/write permission.
+Permission to see the location depends on the user permission to the folder in Sharepoint. If the Sharepoint folder was created in a Microsoft Teams channel, then the user will have read andwrite permission.
 
-#### 9. I have removed a user from the Teams channel, but they still have access to the associated record via Dynamics. How can I restrict their ability to open/edit/delete the document from Dynamics?
-Access to the files depends on a user's permissions in SharePoint. To restrict a user from accessing these files, remove them from the SharePoint site.
+#### 9. I have removed a user from the Teams channel, but they still have access to the associated record from Dynamics 365. How can I restrict their ability to open, edit, and delete the document from Dynamics 365?
+Access to the files depends on a user's permissions in SharePoint. To restrict a user from accessing these files, remove them the user from the SharePoint site.
 
-#### 10. What happens when I delete the Teams team/account?
+#### 10. What happens when I delete the Microsoft Teams account?
 The files are removed from Dynamics 365 and SharePoint.
 
 
