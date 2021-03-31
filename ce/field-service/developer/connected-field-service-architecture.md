@@ -6,8 +6,7 @@ ms.date: 04/19/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
-ms.technology:
- - "field-service"
+ms.technology: "field-service"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to:
