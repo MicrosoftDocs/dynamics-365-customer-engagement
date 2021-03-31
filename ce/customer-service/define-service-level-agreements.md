@@ -200,6 +200,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
     h. Save and exit Power Automate.
 
+    > [!NOTE]
+    > More information: [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
+
 4. Select **Save & Close** on the SLA item dialog box.
 
 5. Define as many SLA items as you need.

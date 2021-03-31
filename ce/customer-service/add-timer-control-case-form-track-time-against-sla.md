@@ -24,16 +24,12 @@ Add a timer control to an service-level agreement (SLA) enabled entity form to h
 
 ## Add an SLA timer to an SLA-enabled entity
 
-You can add a subgrid for an entity and add the SLA Timer control to display the SLA KPIs that are configured for the entity. Typically, you'll configure the SLA KPIs for the case entity.
-
-You can configure the KPIs that you want to show in the SLA Timer control subgrid for an SLA-enabled entity, such as case. When you add the SLA Timer control, you can create a custom view to filter the KPIs, and set the custom view as the default. At runtime, the selected view helps filter the KPIs that should be displayed to agents.
+After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. Some of the KPIs that agents can see include the different stages that KPIs go through.
 
 For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
 > [!NOTE]
 > The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
-
-### Add the SLA timer control
 
 Do the following steps to add the SLA timer control for the case entity.
 

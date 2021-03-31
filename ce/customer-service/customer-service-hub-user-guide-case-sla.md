@@ -28,7 +28,7 @@ You or the agent working on the case can see the SLA details on the case form.
 
 ### Timer control for SLA-enabled entities
 
-If your administrator has configured to display the statuses of the configured SLA KPIs by using the SLA Timer control subgrid, the  following details are available:
+If your administrator has configured to display the statuses of the configured SLA KPIs by using the SLA Timer control subgrid, the following details are available:
 
 - The different stages that the KPIs go through are displayed.
 - When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable.
