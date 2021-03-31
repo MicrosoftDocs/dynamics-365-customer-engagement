@@ -24,9 +24,9 @@ search.app:
 
 # Track S/MIME signed emails
 
-Dynamics 365 App for Outlook can track [S/MIME (Secure/Multipurpose Internet Mail Extensions)](/microsoft-365/security/office-365-security/s-mime-for-message-signing-and-encryption?view=o365-worldwide&preserve-view=true) signed emails in Outlook Desktop and Outlook Web App (OWA). 
+Dynamics 365 App for Outlook can track [S/MIME (Secure/Multipurpose Internet Mail Extensions)](/microsoft-365/security/office-365-security/s-mime-for-message-signing-and-encryption?view=o365-worldwide&preserve-view=true) signed emails in Outlook Desktop and in Outlook Web App (OWA). 
 
-This is enabled on [Click-to-Run](/office/troubleshoot/office-suite-issues/office-click-to-run-installation) Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
+Signed email tracking is enabled on [Click-to-Run](/office/troubleshoot/office-suite-issues/office-click-to-run-installation) Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
 Using encryption software with server-side synchronization is not supported.
 
@@ -36,7 +36,7 @@ Using encryption software with server-side synchronization is not supported.
 
 ## Known issues and FAQs
 
-1. When an email is signed or encrypted, attachments are stored inside a single smime.p7m attachment. If the email is tracked in Dynamics 365, then you will see a **.p7m** attachment that needs to be decoded using a [S/MIME reader](https://www.microsoft.com/p/s-mime-reader/9nblggh5lhc3?activetab=pivot:overviewtab).
+1. When an email is signed or encrypted, attachments are stored inside a single smime.p7m attachment. If the email is tracked in Dynamics 365, then you will see a *.p7m* attachment that needs to be decoded using a [S/MIME reader](https://www.microsoft.com/p/s-mime-reader/9nblggh5lhc3?activetab=pivot:overviewtab).
 
 2. If your email isn't syncing with Dynamics 365, see [Email fail to synchronize to Dynamics 365 when encoded with PEC](https://support.microsoft.com/topic/email-fail-to-synchronize-to-dynamics-365-when-encoded-with-pec-631b7dd7-f797-8cc2-046c-313ea7e724f7)
 	
