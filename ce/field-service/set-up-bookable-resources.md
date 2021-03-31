@@ -3,7 +3,7 @@ title: "Set up bookable resources (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/30/2020
+ms.date: 04/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -137,15 +137,15 @@ You can edit or delete the working hours bu double-clicking the time slot on the
 > [!Note]
 > Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
 
-In Field Service versions **v8.8.40** or later, you can use a new custom input for recurring working hours, where resource can have different working hours on different days of a week in a recurrence until the end day selected. You can add breaks or split the workhours of the Resource into different capacities
+In Field Service versions **v8.8.40** or later, you can use a new custom input for recurring working hours, where resources can have different working hours on different days of the week, which recurs until a selected end day. You can add breaks or split the workhours of the Resource into different capacities
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of custom work hours on a bookable resource](./media/Resource-Work-Hours-Custom.png)
+> ![Screenshot of custom work hours on a bookable resource.](./media/Resource-Work-Hours-Custom.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource with different work hours on different days of a week](./media/Resource-Work-Hours-Custom-01.png)
 
-You can add breaks or split the workhours of the Resource into different capacities for each of the days of the week differently as needed for your business. 
+You can add breaks or split a resource's work hours into different capacities for each of day of the week, as needed for your business. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource with different capacity on a day](./media/Resource-Work-Hours-Custom-02.png)
