@@ -164,13 +164,12 @@ manager: kvivek
   - [Install SSDT with Visual Studio 2015](/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-ver15#ssdt-for-visual-studio-vs-2015).
 
 - Microsoft Reporting Services Projects extension. Used to create report server projects. The extension is included with Visual Studio 2015. For later versions, see [Report Services Projects extension](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftReportProjectsforVisualStudio).
+
+::: moniker-end
   
 ### See also
 
 [Install Dynamics 365 Report Authoring Extension](../analytics/install-dynamics-365-report-authoring-extension.md) <br />
 [Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)
-
-::: moniker-end
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
