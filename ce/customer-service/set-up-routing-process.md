@@ -42,12 +42,12 @@ The high-level process to set up unified routing for a channel or record is as f
        - Configure work classification.
        - Configure route-to-queues ruleset.
 2. Create queues.
-   - Assignment methods.
-     - Highest capacity.
-     - Round robin.
-     - Custom assignment method.
-      - Configure prioritization ruleset.
-       - Decision list of rules.
-      - Assignment rulesets.
-       - Decision list of rules.
-      - Selection criteria.
+   - Assignment methods
+     - Highest capacity
+     - Round robin
+     - Custom assignment method
+      - Configure prioritization ruleset
+        - Decision list of rules
+      - Assignment rulesets
+        - Decision list of rules
+      - Selection criteria
