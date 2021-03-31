@@ -57,7 +57,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments
       - Agents can send file attachments
-   5. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
+   5. Verify the settings on the **Summary** page, and select **Finish**. The Twitter channel instance is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
