@@ -1,7 +1,7 @@
 In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new Schedule board in Dynamics 365, showing the resources and requirements.](../../field-service/media/Schedule-Board-New-Overview-01.png)
+> ![Screenshot of the new schedule board in Dynamics 365, showing the resources and requirements.](../../field-service/media/Schedule-Board-New-Overview-01.png)
 
 
 The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
@@ -77,37 +77,37 @@ Right-click a resource's name and then choose **View Resource Card** to see more
 Select the map icon in the upper right of the schedule board to display the resources and requirements on a map.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board with Map view](../../field-service/media/Schedule-Board-New-Map-02.png)
+> ![Screenshot of the schedule board with map view.](../../field-service/media/Schedule-Board-New-Map-02.png)
 
 After expanding the map view, select a resource's name to see their route. The numbers indicate the order the resource is scheduled to arrive at each job (requirement) location.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board showing the Technician route](../../field-service/media/Schedule-Board-New-Map-Technician-route-03.png)
+> ![Screenshot of the schedule board showing the technician route.](../../field-service/media/Schedule-Board-New-Map-Technician-route-03.png)
  
-At a zoomed out view of the Map, the requirements and resources are grouped together and a count of requirements and resources is shown. This enables you to quickly identify a geographical area with more number of unscheduled jobs and then start scheduling the jobs to nearest resources in the area. 
+At a zoomed-out view of the map, the requirements and resources are grouped together, and you can see a count of requirements and resources. This count helps you quickly identify a geographical area with more unscheduled jobs, and then start scheduling the jobs to nearest resources. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board with the grouping of the requirement pins](../../field-service/media/Schedule-Board-New-Map-requirement-pin-cluster-04.png)
+> ![Screenshot of the schedule board with the grouping of the requirement pins.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-cluster-04.png)
 
 You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board with Dragging of the requirement pin](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drag-05.png)
+> ![Screenshot of the schedule board, showing how to drag the requirement pin.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drag-05.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board with Dropping of the requirement pin](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drop-06.png)
+> ![Screenshot of the schedule board, showing the dropping of the requirement pin.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drop-06.png)
 
 You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board with dragging of the resource route](../../field-service/media/Schedule-Board-New-Map-tech-route-drag-07.png)
+> ![Screenshot of the schedule board showing dragging of the resource route.](../../field-service/media/Schedule-Board-New-Map-tech-route-drag-07.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Schedule Board with dropping of the resource route](../../field-service/media/Schedule-Board-New-Map-tech-route-drop-08.png)
+> ![Screenshot of the schedule board showing dropping of the resource route.](../../field-service/media/Schedule-Board-New-Map-tech-route-drop-08.png)
 
 ## Daily view
 
-The new schedule board supports a daily view of scheduled jobs and supports dragging and dropping to the schedule.
+The new schedule board supports a daily view of scheduled jobs and supports dragging-and-dropping to the schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the daily schedule view on the new schedule board.](../../field-service/media/scheduling-new-daily-view-schedule1.png)
@@ -143,11 +143,11 @@ Selecting **Suggest resources** will display recommended resources in the right 
 Selecting **Book resources** will find the most optimal resources and book them without further actions from the dispatcher.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistance preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
+> ![Screenshot of the scheduling assistant preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
 
-Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day, which is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
+Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day - this functionality is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the optimize schedule for a resource.](../../field-service/media/Schedule-Board-optimizer-Sro-09.png)
@@ -275,6 +275,6 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
 5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
 
-### Support for drag and drop to create bookings on Schedule Board
+### Support for drag-and-drop to create bookings on schedule board
 
-Drag and drop to create bookings on the new Schedule Board is not supported on Firefox browser. This will be supported in a future update. 
+Drag-and-drop functionality to create bookings on the new schedule board is not supported in Firefox web browsers. This functionality will be supported in a future update. 
