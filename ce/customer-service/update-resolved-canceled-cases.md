@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-Based on your business requirement, sometimes, you might need to update case descriptions or other information after the cases have been resolved or canceled. For example, your case records contain data or information that you want to update for business compliance, and you want to remove such information. You can't update any details for cases if the status is resolved or canceled. However, you can update the case information by configuring and running flows in Power Automate or an API.
+Based on your business requirement, sometimes, you might need to update case descriptions or other information after the cases have been resolved or canceled. For example, for General Data Protection Regulation compliance, you want to remove certain data from your case records. You can't update any details for cases if the status is resolved or canceled. However, you can update the case information by configuring and running flows in Power Automate or an API.
 
 > [!NOTE]
 > The option to update cases in resolved or canceled state is the default behavior.
