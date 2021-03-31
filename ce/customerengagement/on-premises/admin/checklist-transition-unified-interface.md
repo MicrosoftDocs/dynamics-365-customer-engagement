@@ -121,7 +121,7 @@ The Dynamics 365 apps that have already been optimized for Unified Interface are
 
 -   Dynamics 365 Field Service (version 8.x and later)
 
--   Dynamics 365 Project Service Automation (version 3.x and later)
+<!--   Dynamics 365 Project Service Automation (version 3.x and later)  -->
 
 ### What are Dynamics 365 custom business apps?
 
