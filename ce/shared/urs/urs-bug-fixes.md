@@ -65,14 +65,15 @@ In addition, this release includes the following changes that have the potential
 ## 3.12.35.6
 
 This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312355)
-- We fixed a bug that impacted the performance of the Schedule assistant. 
+
+- We fixed a bug that impacted the performance of the schedule assistant. 
 
 ## 3.12.35.5
 
 - When creating Bookings for Facility type Resources using Quick Book, the travel time is incorrectly added to the total duration of the Booking. This behavior is now fixed, and with the fix, the travel time is excluded from the total duration of the booking for Facility type resources. 
 - For geographical regions, where Bing maps has no coverage, (ex: China, South Korea, and Japan), the distance and travel time calculations to the booking locations are calculated to the approximated values via **As The Crow Flies** (ATCF) method. 
-- Fixed a bug where, the displayed time range on the Schedule Board (old) is less than a day, then Resources routes are not displayed on the Map view. 
-- Made some performance enhancements to improve Schedule Assistant response time. 
+- Fixed a bug where, the displayed time range on the schedule Board (old) is less than a day, then Resources routes are not displayed on the Map view. 
+- Made some performance enhancements to improve schedule assistant response time. 
 
 ## 3.12.34.92
 

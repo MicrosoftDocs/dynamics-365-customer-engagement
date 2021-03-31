@@ -156,7 +156,11 @@ Select **Hide default requirement panels** if you don’t want to display the ot
 
 Appointments are enabled for scheduling by default when Universal Resource Scheduling is installed.
 
-You can configure the system to automatically create a booking when an appointment is created.
+**(Deprecated)**: You can configure the system to automatically create a booking when an appointment is created.
+
+> [!Note]
+> As of April 01, 2021, this configuration has been deprecated. For more information, see the [deprecation notice](../../common-scheduler/deprecations.md) and plan to move to the [new method](../../field-service/appointment-scheduling.md) of including appointments in resource scheduling, without needing corresponding bookings.
+
 
 Go to **Settings** > **Administration** > **System Settings** > **Calendar** and set **Scheduling Engine** to **Universal Resource Scheduling**.
 
