@@ -150,11 +150,11 @@ You can configure the attachment file types you want to block to prevent users f
 
 4. Write the file extension(s) you want to block.
 
- ![Write the file extensions to block](media\set-blocked-extensions-attachments.png "Write the file extensions to block.")
+   ![Write the file extensions to block](media\set-blocked-extensions-attachments.png "Write the file extensions to block.")
  
-  Users who try to upload a blocked file type will see an error message that tells them the attachment is blocked, as follows:
+   Users who try to upload a blocked file type will see an error message that tells them the attachment is blocked, as follows:
 
- ![Attachment blocked](media\attachment-blocked-message.png "Attachment blocked message.")
+   ![Attachment blocked](media\attachment-blocked-message.png "Attachment blocked message.")
 
 ### See Also
 
