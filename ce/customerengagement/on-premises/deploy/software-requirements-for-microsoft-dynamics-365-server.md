@@ -1,5 +1,6 @@
 ---
 title: "Software requirements for Dynamics 365 Server | Microsoft Docs"
+description: "This article lists the required software requirements for Dynamics 365 Server"
 ms.custom: ""
 ms.date: "05/15/2019"
 ms.prod: "crm-2016"
