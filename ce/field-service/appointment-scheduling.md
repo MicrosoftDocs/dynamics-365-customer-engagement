@@ -25,7 +25,7 @@ With this improved way of including appointments in resource scheduling, schedul
 ## Prerequisites
 
 - Field Service 8.8.40.x+
-- Resource scheduling optimization (RSO) 3.3.0.105+, only if there is a requirement for appointments to be supported in RSO-related scheduling operations
+- Resource scheduling optimization (RSO) 3.3.0.108+, only if there is a requirement for appointments to be supported in RSO-related scheduling operations
 
 ## More details 
 
