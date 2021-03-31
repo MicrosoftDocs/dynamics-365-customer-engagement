@@ -3,7 +3,7 @@ title: "Set up bookable resources (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/30/2020
+ms.date: 04/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -43,12 +43,7 @@ In this article, we will walk through how to create a bookable resource and add 
 
 ## Create a bookable resource  
 
-
-
-
-## 3. Create a bookable resource
-
-Next, create a bookable resource record for the technician user. Creating a bookable resource lets you schedule work orders for the frontline worker, which the frontline worker sees in the mobile app.
+Create a bookable resource record for the frontline worker. Creating a bookable resource lets you schedule work orders for the frontline worker, which the frontline worker sees in the mobile app.
 
 Go to **Field Service** > **Resources** > **Resources** > **+New**
 

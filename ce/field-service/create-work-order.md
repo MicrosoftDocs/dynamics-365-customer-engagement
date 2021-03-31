@@ -3,7 +3,7 @@ title: "Create a work order in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn how to create a work order in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/24/2020
+ms.date: 04/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -56,11 +56,6 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
  
 ## Create a work order  
 
-
-
-
-## 4. Create a work order
-
 Go to **Field Service** > **Service** > **Work Orders** > **+New**.
 
 > [!div class="mx-imgBorder"]
@@ -78,35 +73,25 @@ At a minimum, enter information in the following required fields.
 > ![Screenshot of a work order in Field Service.](./media/quickstart-work-order-new2.png)
 
   
-    - **Summary**  
-  
-        - **General**: Fill in the basic information regarding the work order, such as the work order number and the service account it is associated with, a brief summary, and status, which can show whether the work order is unscheduled, scheduled, in progress, or finished.  
-  
-        - **Primary Incident**: Enter more information regarding the nature of the work to be performed.  
-  
-        - **Total**: Enter pricing information for the work order. This will show total pricing information for tasks, including products and services.  
-  
-    - **Settings**  
-  
-        - **General**: Specify the category the work order may fall into. Also, fill in important information regarding the location of the work order, price list, service territory, and more.  
-  
-        - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details like service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is **Taxable** and the billing account is **Not Tax Exempt**. If the work order is taxable, a **Sales Tax Code** lookup field will display and inherit a value from the service account. It can also be updated manually.
+- For **Summary**:  
 
-        - **Preferences**: Enter the resource and time information for the work order.  
+  - **General**: Fill in the basic information regarding the work order, such as the work order number and the service account it is associated with, a brief summary, and status, which can show whether the work order is unscheduled, scheduled, in progress, or finished.  
+  - **Primary Incident**: Enter more information regarding the nature of the work to be performed.  
+  - **Total**: Enter pricing information for the work order. This will show total pricing information for tasks, including products and services.  
   
-        - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.  
+- For **Settings**:
+  - **General**: Specify the category the work order may fall into. Also, fill in important information regarding the location of the work order, price list, service territory, and more.  
+  - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details like service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is **Taxable** and the billing account is **Not Tax Exempt**. If the work order is taxable, a **Sales Tax Code** lookup field will display and inherit a value from the service account. It can also be updated manually.
+  - **Preferences**: Enter the resource and time information for the work order.  
+  - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.  
+  - **Related to**: Specify if the work order is related to an originating work order or agreement.  
+  - **Preferences**: Specify any preferred time windows.  
+  - **Source**: Specify source information regarding the work order.  
+- **Address**: The address where the work will be performed. The address should be inherited from the service account.  
+- **Location**: Shows the address location on the map.  
   
-        - **Related to**: Specify if the work order is related to an originating work order or agreement.  
-  
-        - **Preferences**: Specify any preferred time windows.  
-  
-        - **Source**: Specify source information regarding the work order.  
-  
-    - **Address**: The address where the work will be performed. The address should be inherited from the service account.  
-  
-    - **Location**: Shows the address location on the map.  
-  
- Then choose **Save and close**.
+Then choose **Save and close**.
+
 ## Add service tasks, products, or services to the work order  
  When the work order has been created and saved, you can then add any related tasks, products, or services to the work order.  
   
