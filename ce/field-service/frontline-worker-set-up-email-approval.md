@@ -17,7 +17,9 @@ search.app:
 
 # Send frontline workers an email with a link to download Dynamics 365 Field Service mobile app
 
-As a part of the [**Frontline Worker Set Up**](frontline-worker-set-up.md) process, admins can automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile app. In order to configure these emails, system admins must have their mailbox approved by their global admins through Microsoft Power Platform. In this article, we'll walk through the steps to approve the system admin's mailbox through Power Platform. 
+As a part of the [**Frontline Worker Set Up**](frontline-worker-set-up.md) process, admins can automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile app. 
+
+Field Service admins need approval from their global admins to send email to their frontline workers. In this article, we'll walk through the steps to get approval through Power Platform.
 
 ## Prerequisites 
 
