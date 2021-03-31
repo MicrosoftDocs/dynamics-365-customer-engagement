@@ -2,14 +2,13 @@
 title: Collaborate using SharePoint in Dynamics 365 Sales | Microsoft Docs
 description: Learn how to collaborate using SharePoint within a model-driven app for leads and opportunities
 ms.date: 12/05/2019
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
+  - "dyn365-sales"
 ---
 
 # Collaborate using SharePoint 

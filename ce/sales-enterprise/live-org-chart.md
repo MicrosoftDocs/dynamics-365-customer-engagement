@@ -2,8 +2,7 @@
 title: "Maintain an external org chart (Dynamics 365 Sales) | Microsoft Docs"
 description: "Manage live org charts by organizing contacts in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
