@@ -46,8 +46,8 @@ The high-level process to set up unified routing for a channel or record is as f
      - Highest capacity.
      - Round robin.
      - Custom assignment method.
-     - Configure prioritization ruleset.
+      - Configure prioritization ruleset.
        - Decision list of rules.
-     - Assignment rulesets.
-        - Decision list of rules.
+      - Assignment rulesets.
+       - Decision list of rules.
       - Selection criteria.
