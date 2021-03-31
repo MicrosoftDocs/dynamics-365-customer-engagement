@@ -63,7 +63,31 @@ To control individual resources, go to the **Scheduling** tab on the resource fo
 
 ## Step 2: Create an appointment
 
-Dataverse appointments can be created in Dynamics Apps like Customer Service Hub (in Activities), but they could also originate in Outlook, and be synced to Dynamics 365 if [server-side synchronization](https://docs.microsoft.com/en-us/power-platform/admin/server-side-synchronization) has been set up. An Outlook appointment must be manually assigned the special  [Tracked to Dynamics 365](https://docs.microsoft.com/en-us/power-platform/admin/use-outlook-category-track-appointments-emails) category  so it appears as a Dataverse appointment record. 
+You can create "Dataverse" appointments in Dynamics Apps like [in Customer Service Hub using Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities) or in [Dynamics 365 Sales Professional to manage tasks, appointments, email, or phone calls](https://docs.microsoft.com/dynamics365/sales-professional/manage-activities)
+
+Dataverse appointments can also originate in Outlook, and be synced to Dynamics 365 if [server-side synchronization](https://docs.microsoft.com/en-us/power-platform/admin/server-side-synchronization) has been set up. An Outlook appointment must be manually assigned the special [Tracked to Dynamics 365](https://docs.microsoft.com/en-us/power-platform/admin/use-outlook-category-track-appointments-emails) category so it appears as a Dataverse appointment record.
+
+
+## Step 3: View appointments on the schedule board
+
+Appointments will be visible on the new schedule board for the Required Attendees and the Owner as long as they are set up as bookable resources. They are supported in all views of the new schedule board, namely the hourly, daily, weekly, and monthly views. Appointments show in a read-only format and cannot be moved on the new schedule board. The legend shows the colors for various appointment statuses. The below image shows how appointments display in hourly view. Hovering on an appointment shows more details in a card. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
+
+
+### Customize appointment colors 
+
+The new schedule board uses the colors defined in [Dataverse Appointment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) entity  metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the Appointment colors that show on the new schedule board.  
+
+### Hide canceled appointments
+
+If you do not wish to see canceled appointments on the new schedule board, note that the **Hide Canceled** tab-level setting accessible from the old schedule board will hide both canceled bookings and canceled appointments on the new schedule board. 
+Go to the old schedule board using the toggle in the top right. Open the tab and select the gear icon in the top right of the schedule board. Check the **Hide Canceled** checkbox, and toggle back to the new schedule board. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Hide Canceled tab setting in old schedule board.](./media/Appointment06-HideCanceledAppointment.png)
+
 
 ## More details 
 
@@ -88,12 +112,7 @@ Now Microsoft Dataverse appointments are included directly in resource schedulin
 
 
 
-## View appointments on the new schedule board
 
-Appointments will be visible on the new schedule board for the Required Attendees and the Owner as long as they are set up as bookable resources. They are supported in all views of the new schedule board, namely the hourly, daily, weekly, and monthly views. Appointments show in a read-only format and cannot be moved on the new schedule board. The legend shows the colors for various appointment statuses. The below image shows how appointments display in hourly view. Hovering on an appointment shows more details in a card. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
 
 ## Scheduling operations that respect appointments
 
@@ -102,19 +121,9 @@ Appointments with statuses Busy and Completed will be considered as unavailable 
 For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. Non-interactive optimizations are triggered when an optimization schedule is run. Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right-clicking on a resource), and the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
 For customers without resource scheduling optimization, Schedule Assistant is expected to launch in October Wave 2 2021. Meanwhile, the Schedule Assistant APIs for both requirements and requirement groups do support appointments should customers want to leverage these for a custom web app or a Dynamics 365 portal or a Power Apps canvas app to support appointment scheduling scenarios. 
 
-## Customize appointment colors 
 
-The new schedule board uses the colors defined in [Dataverse Appointment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment) entity  metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the Appointment colors that show on the new schedule board.  
 
-## Hide canceled appointments
 
-If you do not wish to see canceled appointments on the new schedule board, note that the **Hide Canceled** tab-level setting accessible from the old schedule board will hide both canceled bookings and canceled appointments on the new schedule board. 
-Go to the old schedule board using the toggle in the top right. Open the tab and select the gear icon in the top right of the schedule board. Check the **Hide Canceled** checkbox, and toggle back to the new schedule board. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Hide Canceled tab setting in old schedule board.](./media/Appointment06-HideCanceledAppointment.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
 
 ## Additional notes
 
@@ -126,3 +135,6 @@ You may further verify that the deprecated configuration has been turned off, by
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot to verify deprecated configuration has been turned off.](./media/Appointment03-DeprecatedFeatureIsOff.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
