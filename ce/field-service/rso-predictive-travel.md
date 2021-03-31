@@ -61,7 +61,7 @@ With predictive travel enabled, resource scheduling optimization will generate a
 ## Tell apart bookings with predictive travel times
 
 > [!Note]
-> This enhancement was added in April Wave 1 2021 and requires Dynamics 365 Field Service 8.8.40.x+ and Resource Scheduling Optimization 3.3.0.105+
+> This enhancement was added in April Wave 1 2021 and requires Dynamics 365 Field Service 8.8.40.x+ and Resource Scheduling Optimization 3.3.0.108+
 
 Schedulers can tell apart bookings with predictive travel times (that are more accurate as they include historical traffic) through the presence of the blue dot indicator on the line representing travel time. Hovering on a booking with predictive travel time will also show this indicator in the booking card in the **Estimated Travel Duration** field along with a _(with historical traffic)_ suffix and informational link. The legend explains this indicator as well.
 
