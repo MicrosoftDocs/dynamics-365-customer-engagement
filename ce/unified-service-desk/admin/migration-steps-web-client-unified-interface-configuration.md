@@ -1,8 +1,8 @@
 ---
 title: "Migrate Unified Service Desk configurations from Web Client to Unified Interface app | MicrosoftDocs"
 description: "The three-step process for migrating Web Client configurations to Unified Interface"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/17/2018
 ms.topic: article

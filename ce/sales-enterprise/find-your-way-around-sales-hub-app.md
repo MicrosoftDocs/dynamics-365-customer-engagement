@@ -2,14 +2,13 @@
 title: "Find your way around the Sales Hub app | MicrosoftDocs"
 description: "Learn how to get around and navigate through the Sales Hub app."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: brycho
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Find your way around the Sales Hub app

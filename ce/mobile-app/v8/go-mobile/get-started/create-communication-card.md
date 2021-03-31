@@ -34,7 +34,7 @@ search.app:
  ![Dynamics 365 apps for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 apps for mobile create communication card")  
   
 ### See also  
- [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

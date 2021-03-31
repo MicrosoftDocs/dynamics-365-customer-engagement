@@ -38,6 +38,6 @@ The following quotas are tracked here:
 > - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
 > 
-> See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
+> See also the [Readme](./known-issues.md) document for the latest news and updates.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,7 +30,7 @@ Work with your data in offline mode even when you don't have internet access. Th
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app after you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
 > [!IMPORTANT]
-> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
 
 ## Install the mobile app
 
@@ -46,13 +46,13 @@ The following versions support mobile offline mode:
 - For Android, version 4.3.19043.33 or later
 
 > [!NOTE]
-> The offline mode feature isn't supported for Dynamics 365 Customer Engagement (on-premises). To run your on-premises apps on the mobile app, go to [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem). 
+> The offline mode feature isn't supported for Dynamics 365 Customer Engagement (on-premises). To run your on-premises apps on the mobile app, go to [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md). 
 
 ### Install Power Apps Mobile (for Power Apps)
 
-For model-driven apps and canvas apps, [install Power Apps Mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
+For model-driven apps and canvas apps, [install Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
 
-For information about supported devices for Power Apps Mobile, go to [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
+For information about supported devices for Power Apps Mobile, go to [Supported devices](/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
 
 ## Download updates to work in offline mode
 

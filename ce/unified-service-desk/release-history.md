@@ -1,8 +1,8 @@
 ---
 title: "Release history (Unified Service Desk )| MicrosoftDocs"
 description: "This topic provides release history information for the Unified Service Desk Guide."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/04/2021
 ms.topic: article
