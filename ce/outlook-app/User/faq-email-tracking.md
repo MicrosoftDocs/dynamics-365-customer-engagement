@@ -44,8 +44,8 @@ In this case, it will automatically track because it identifies the
 ConversationIndex and In-Reply-To values as an email that is part of a
 thread.
 
-To have this email untracked, the user would have to manually untrack
-the reply with the App for Outlook as well as any replies to this
+To have this email untracked, the user needs to manually untrack
+the reply with the App for Outlook including replies to this
 because the master email is still tracked.
 
 An administrator can change the
@@ -111,7 +111,7 @@ and forwards from being tracked.
 
 It resolves using the method below as described in this article: [How customer engagement apps associates email addresses with records](/power-platform/admin/email-message-filtering-correlation#how-customer-engagement-apps-associates-email-addresses-with-records)
 
-If there is duplicate rows in Dynamics 365 with the same email
+If there are duplicate rows in Dynamics 365 with the same email
 address, the contents of the email **From** field resolves first by
 ownership and then to the first active row in the following order on
 an **incoming email**:
