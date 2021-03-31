@@ -2,14 +2,13 @@
 title: "Enforce best practices with playbooks (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Guide your team members with predefined activities to ensure that they follow a consistent approach on recurrent events or scenarios."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
+ms.custom: 
+  - dyn365-sales
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: "Export to an Excel PivotTable (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to export to an Excel PivotTable.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -36,7 +37,7 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
   
   3. Right-click the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] instance name, select **Properties**, select **Connections**, and then select the **Allow remote connections to this server** check box.  
   
-- [!INCLUDE[pn_Windows_Firewall](../includes/pn-windows-firewall.md)] allows remote [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to: Configure a Windows Firewall for Database Engine Access](https://msdn.microsoft.com/library/ms175043.aspx).  
+- [!INCLUDE[pn_Windows_Firewall](../includes/pn-windows-firewall.md)] allows remote [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to: Configure a Windows Firewall for Database Engine Access](/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access).  
   
 ## Export to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable  
  The option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable isn't available in all Customer Engagement (on-premises) record types. If you don't see the option, it's not available for that record.  

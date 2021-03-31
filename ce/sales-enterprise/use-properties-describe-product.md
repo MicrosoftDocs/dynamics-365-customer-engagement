@@ -2,14 +2,13 @@
 title: "Use properties to describe a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Simplify product management and classification by adding product properties in Dynamics 365 Sales."
 ms.date: 02/10/2021
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
+ms.custom: 
+  - "dyn365-sales"
 ---
 
 # Use properties to describe a product (Sales Hub)

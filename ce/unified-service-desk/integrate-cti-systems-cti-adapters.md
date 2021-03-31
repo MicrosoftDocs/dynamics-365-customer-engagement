@@ -1,8 +1,8 @@
 ---
 title: "Integrate with CTI systems using CTI adapters| MicrosoftDocs"
 description: "Learn about the integration with CTI systems using CTI adapters."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

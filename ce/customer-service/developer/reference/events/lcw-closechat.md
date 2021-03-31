@@ -1,8 +1,8 @@
 ---
 title: "lcw closeChat | MicrosoftDocs"
 description: lcw closeChat (Omnichannel for Customer Service JavaScript API reference)
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.topic: article
 ms.service: dynamics-365-customerservice

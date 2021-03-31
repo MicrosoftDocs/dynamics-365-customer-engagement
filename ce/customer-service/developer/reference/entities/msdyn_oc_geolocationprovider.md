@@ -1,8 +1,8 @@
 ---
 title: "msdyn_oc_geolocationprovider Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_oc_geolocationprovider entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/29/2019
 ms.topic: "reference"

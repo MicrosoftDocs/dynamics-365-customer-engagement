@@ -1,9 +1,8 @@
 ---
-title: "Preview: Enable the enhanced experience of adding products | MicrosoftDocs"
+title: "Preview  Enable the enhanced experience of adding products | MicrosoftDocs"
 description: "Enable your salespeople to quickly find and add multiple products to opportunities in Dynamics 365 Sales by enabling the enhanced 'add product' experience."
 ms.date: 01/08/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
