@@ -69,8 +69,8 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
 
    ![Type information for the selected workflow](../unified-service-desk/media/usd-add-automation-5.png "Type information for the selected workflow")
 
-       > [!NOTE]
-       >  As the absolute path to the workflow assembly is not mentioned in the **Type** field, you must copy the workflow assembly file in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory to test and use the hosted application and the automation.  
+   > [!NOTE]
+   > As the absolute path to the workflow assembly is not mentioned in the **Type** field, you must copy the workflow assembly file in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory to test and use the hosted application and the automation.  
   
    2. **Use Workflow XAML** in step 4, the workflow XAML is populated in the XAML field for the selected automation (workflow).  
   
