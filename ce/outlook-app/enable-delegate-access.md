@@ -1,6 +1,7 @@
 ---
 title: "Set up delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
+description: Set up delegate access for Dynamics 365 App for Outlook. 
 ms.date: 02/26/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -88,7 +89,7 @@ No, it is only available for the supported version of Outlook C2R. For more info
 
 
 ### See also  
-[Use delegate access](dynamics-365-app-outlook-user-s-guide.md#use-delegate-access)<br/>
+[Use delegate access](./user/use-delegate-access.md)<br/>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

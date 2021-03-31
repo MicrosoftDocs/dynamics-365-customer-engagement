@@ -32,7 +32,7 @@ The mobile app provides a rich offline experience that helps users stay producti
 The offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize tables with the mobile app so that synchronized rows are available when a user's mobile devices is disconnected from the internet. 
 
 > [!IMPORTANT]
-> To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
+> To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
 
 ## Install the mobile app
 
@@ -40,7 +40,7 @@ Mobile offline is available for iOS and Android devices. To use the mobile offli
 
 ### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
 
-For customer engagement apps (such as [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-professional/help-hub), [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub), and [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub)) [install Dynamics 365 for phones and tables app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+For customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.md)) [install Dynamics 365 for phones and tables app](./install-dynamics-365-for-phones-and-tablets.md).
 
 Supported devices for mobile offline:
 
@@ -52,9 +52,9 @@ Supported devices for mobile offline:
 
 ### Install Power Apps mobile (for Power Apps)
 
-For model-drvien app and canvas apps [Install the Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
+For model-drvien app and canvas apps [Install the Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
 
-For information on supported devices for Power Apps mobile, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
+For information on supported devices for Power Apps mobile, see [Supported devices](/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
 
 
 ## Step 1: Enable tables for mobile offline synchronization 
@@ -142,7 +142,7 @@ To create a profile, follow the steps below.
    >![Table list](media/mol_add_table_1.png "Table list")
  
 
-9. Select a filter based on the ownership type for the table. Table ownership is decided when you create a table. For more information, see [Types of tables](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+9. Select a filter based on the ownership type for the table. Table ownership is decided when you create a table. For more information, see [Types of tables](/powerapps/maker/common-data-service/types-of-entities).
 
 
 
@@ -236,7 +236,7 @@ It's not required to republish a mobile profile after users or team have been ad
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
-1. In the web app, go to **Settings**  > **Administration** and then select **System Settings**. For more information on system settings, see [System Settings dialog box](https://docs.microsoft.com/power-platform/admin/system-settings-dialog).
+1. In the web app, go to **Settings**  > **Administration** and then select **System Settings**. For more information on system settings, see [System Settings dialog box](/power-platform/admin/system-settings-dialog).
 
 2. To configure conflict resolution behavior, select the **Mobile Client** tab.
 

@@ -35,7 +35,7 @@ With early access, you can also use Dynamics 365 (Preview) app for Windows in of
 
 Install the app from the Windows app store: [Install Microsoft Dynamics 365 (Preview) app for Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)
 
-**Note for administrators**: To distribute the app automatically, use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. More information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
+**Note for administrators**: To distribute the app automatically, use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. More information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
 
 ## Sign in
 

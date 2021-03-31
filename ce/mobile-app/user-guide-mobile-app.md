@@ -29,16 +29,16 @@ Use Dynamics 365 for phones and tablets to run customer engagement apps&mdash;su
 
 You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Customer Engagement (on-premises) apps on the Dynamics 365 mobile app. For more information, go to the following articles:
 
-- [Sales Hub app on mobile devices](https://docs.microsoft.com/dynamics365/sales-enterprise/use-sales-hub-on-dynamics-365-mobile)
-- [Customer Service Hub on mobile devices](https://docs.microsoft.com/dynamics365/customer-service/use-customer-service-hub-on-dynamics-365-mobile)
-- [Dynamics 365 Customer Engagement (on-premises) apps on mobile](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem)
+- [Sales Hub app on mobile devices](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
+- [Customer Service Hub on mobile devices](../customer-service/use-customer-service-hub-on-dynamics-365-mobile.md)
+- [Dynamics 365 Customer Engagement (on-premises) apps on mobile](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 > [!NOTE]
 > For information about the following mobile apps, go to these articles:
 >
-> - Canvas and model-driven apps in Power Apps: [Power Apps Mobile](https://docs.microsoft.com/powerapps/user/run-canvas-and-model-apps-on-mobile)
-> - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
-> - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
+> - Canvas and model-driven apps in Power Apps: [Power Apps Mobile](/powerapps/user/run-canvas-and-model-apps-on-mobile)
+> - Dynamics 365 Field Service: [Field Service mobile app](../field-service/field-service-mobile-app-user-guide.md)
+> - Finance and Operations applications: [Finance and Operations mobile app](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
 
 ## Home screen 
 
@@ -60,7 +60,7 @@ Legend:
 
 If you've enabled early access, you'll have a different navigation experience. This section describes the improved experience on form pages, including form tabs and subgrids.
 
-Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates)
+Your administrator has to opt in to early access updates for your environment and then install the updates to get this feature. More information: [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates)
 
 ### Form page with tabs
 
