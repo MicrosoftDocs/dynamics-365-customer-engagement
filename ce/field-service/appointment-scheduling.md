@@ -124,13 +124,6 @@ Some more key points:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of appointments added as a data source.](./media/Appointment00-BlockDiagramResized.png)
 
-
-
-
-
-
-
-
 ## Deprecation note
 
 Including appointments turns off the deprecated configuration to automatically create bookings when an appointment is created.
