@@ -1,7 +1,8 @@
 
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
-# [Getting started with Field Service](user-guide.md)
+# [Field Service user guide](user-guide.md)
+# [Get started](field-service-get-started.md)
 
 # Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
@@ -50,6 +51,7 @@
 ## [Frontline worker setup](frontline-worker-set-up.md)
 ### [Mailbox setup](frontline-worker-set-up-email-approval.md)
 ## [Set up bookable resources](set-up-bookable-resources.md)
+## [Display a bookable resource on the schedule board](add-resource-schedule-board.md)
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)

@@ -47,7 +47,6 @@ At its simplest, frontline workers are people in your organization who are prima
 
 To quickly create frontline workers refer to the topic on [setting up frontline workers](frontline-worker-set-up.md).
 
-
 ## Create frontline workers and other bookable resources manually
   
 1.  From the Field Service main menu, select **Resources** > **Resources entity**. 
