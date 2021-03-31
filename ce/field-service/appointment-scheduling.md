@@ -63,7 +63,9 @@ To control individual resources, go to the **Scheduling** tab on the resource fo
 
 ## Step 2: Create an appointment
 
-You can create "Dataverse" appointments in Dynamics Apps like [in Customer Service Hub using Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities) or in [Dynamics 365 Sales Professional to manage tasks, appointments, email, or phone calls](https://docs.microsoft.com/dynamics365/sales-professional/manage-activities)
+You can create "Dataverse" appointments in Dynamics Apps like in
+- [Customer Service Hub using Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities) or in 
+- [Dynamics 365 Sales Professional to manage tasks, appointments, email, or phone calls](https://docs.microsoft.com/dynamics365/sales-professional/manage-activities)
 
 Dataverse appointments can also originate in Outlook, and be synced to Dynamics 365 if [server-side synchronization](https://docs.microsoft.com/en-us/power-platform/admin/server-side-synchronization) has been set up. An Outlook appointment must be manually assigned the special [Tracked to Dynamics 365](https://docs.microsoft.com/en-us/power-platform/admin/use-outlook-category-track-appointments-emails) category so it appears as a Dataverse appointment record.
 
