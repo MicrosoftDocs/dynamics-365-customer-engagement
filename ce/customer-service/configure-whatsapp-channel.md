@@ -42,13 +42,10 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 ## End-to-end walk-through
 
-[Step 1: Fetch Twilio account details](#fetch-twilio-account-details)
-
-[Step 2: Create a WhatsApp channel](#create-a-whatsapp-channel)
-
-[Step 3: Create routing rules](#create-routing-rules)
-
-[Step 4: Modify settings for a specific WhatsApp phone number](#modify-settings-for-a-specific-whatsapp-phone-number)
+1. Fetch Twilio account details
+2. Create a WhatsApp channel
+3. Create routing rules
+4. Modify settings for a specific WhatsApp phone number
 
 ## Fetch Twilio account details
 
@@ -56,7 +53,11 @@ To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Ser
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
 
-## Create a WhatsApp channel
+## Create a WhatsApp channel in Omnichannel admin center
+
+
+
+## Create a WhatsApp channel in Omnichannel Administration
 
 After you create a work stream for the WhatsApp channel through Twilio, create a WhatsApp channel in the Omnichannel Administrator app.
 

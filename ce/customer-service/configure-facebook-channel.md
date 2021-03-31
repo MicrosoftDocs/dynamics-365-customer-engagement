@@ -29,7 +29,7 @@ To add the Facebook channel instance, you must configure the channel account by 
 
 1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
 2. Enter the following details:
-   1. On the **Channel details** page, specify a name and select Facebook in **Channels**.
+   1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
    2. On the **Add account** page, specify the Facebook application ID and application secret. To get the application ID and application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App ID** and  **App Secret** fields respectively.
    3. On **Add Facebook Pages to this account**, do the following steps:
    4. Select **Add**, and in the** Add Facebook Page** pane, enter the following details:
@@ -55,7 +55,7 @@ To add the Facebook channel instance, you must configure the channel account by 
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
-8. Configure the following options based on your business needs:
+8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](#configure-context-variables)
@@ -215,7 +215,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)<br>
+[Understand and create work streams](create-workstreams.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>

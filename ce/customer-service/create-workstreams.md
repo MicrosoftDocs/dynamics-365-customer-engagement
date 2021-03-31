@@ -42,7 +42,7 @@ Perform the following steps:
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
-    > ![Set up a channel](media/set-up-wechat.png "Set up a channel")
+    > ![Set up a channel](media/set-up-wechat.png "Set up a channel") 
 4. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)
