@@ -25,6 +25,21 @@ search.app:
 
 This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
 
+
+## 13.2.208 (Only iOS)
+
+### Bug fixes
+
+- iOS 14.5: Apps crashing on iOS 14.5 when using Intune policies
+
+## 13.2.205
+
+### Bug fixes
+
+- All platforms: App is crashing when an entity form has invalid fields
+- Localized report does not appear on the list in the App
+- iOS 14.2: App crashes when distributed via Intune MDM
+
 ## 13.2.203
 
 ### Updates 

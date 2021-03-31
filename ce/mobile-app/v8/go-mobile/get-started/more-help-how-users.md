@@ -35,15 +35,15 @@ search.app:
 ## Get deployment and troubleshooting help  
  If you’re an admin looking for resources to help you set up or troubleshoot [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets, try these resources:  
   
- [TechNet: Set up Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531128.aspx)  
+ [TechNet: Set up Dynamics 365 for phones and tablets](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531128(v=crm.8))  
   
- [TechNet: Set up CRM for phones express](https://technet.microsoft.com/library/dn531085.aspx)  
+ [TechNet: Set up CRM for phones express](/previous-versions/dynamicscrm-2016/dn531085(v=crm.8))  
   
- [TechNet: Create and edit mobile forms](https://technet.microsoft.com/library/dn531080.aspx)  
+ [TechNet: Create and edit mobile forms](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531080(v=crm.8))  
   
- [TechNet: Troubleshoot problems with Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx)  
+ [TechNet: Troubleshoot problems with Dynamics 365 for phones and tablets](/previous-versions/dynamicscrm-2016/dn660982(v=crm.8))  
   
- [TechNet: Troubleshoot problems with CRM for phones express](https://technet.microsoft.com/library/dn660977.aspx)  
+ [TechNet: Troubleshoot problems with CRM for phones express](/previous-versions/dynamicscrm-2016/dn660977(v=crm.8))  
   
  [Troubleshoot a Dynamics 365 apps for Windows app start-up error](../admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)  
   

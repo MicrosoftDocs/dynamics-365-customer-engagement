@@ -1,8 +1,8 @@
 ---
 title: "msdyn_omnichannelsyncconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_omnichannelsyncconfig entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/18/2020
 ms.topic: "reference"

@@ -1,8 +1,8 @@
 ---
 title: "Manage options for Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to change the global settings in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/15/2021
 ms.topic: article
