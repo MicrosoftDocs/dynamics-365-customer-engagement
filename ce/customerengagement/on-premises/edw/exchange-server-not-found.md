@@ -22,7 +22,7 @@ ms.author: matp
   
  If this is an error, you must specify a version of [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] that is supported. If this is a warning, see the following link.  
   
- For more information, see [Microsoft Dynamics CRM Email Router software requirements](https://go.microsoft.com/fwlink/p/?LinkId=317864).
+ For more information, see [Microsoft Dynamics CRM Email Router software requirements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/hh699689(v=crm.8)).
 
 
 

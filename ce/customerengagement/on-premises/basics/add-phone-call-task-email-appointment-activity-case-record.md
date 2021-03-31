@@ -1,6 +1,7 @@
 ---
 title: "Add a phone call, task, email, or appointment activity to a record (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to add a phone call, task, email, or appointment activity to a record.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -96,7 +97,7 @@ All activities that you add from within a record appear in the **Activities** ar
 4. To save the record, select **Save**.  
   
 ## Add notes  
- You can also easily add notes in the activities area. And if you're on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 Customer Engagement (on-premises)app records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+ You can also easily add notes in the activities area. And if you're on the latest version of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you have the benefits of using OneNote to take or review customer notes from within your Dynamics 365 Customer Engagement (on-premises)app records. For more information on OneNote, see: [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](./collaborate-with-team.md).  
   
  This doesn't replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
@@ -113,7 +114,7 @@ All activities that you add from within a record appear in the **Activities** ar
   ![Add Meeting Notes in OneNote](media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
-  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)app](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+  >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)app](./collaborate-with-team.md).  
   
 ## Create an activity and associate it with a customer  
  You can also create an activity from the Activity area and then link it to a customer or support case.  
