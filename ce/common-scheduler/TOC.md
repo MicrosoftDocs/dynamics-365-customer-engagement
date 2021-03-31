@@ -36,6 +36,6 @@
 ### [Universal FetchXML](developer/universal-fetchxml.md)
 
 
-# [Deprecations](../shared/urs/deprecations-scheduling.md/#deprecated-appointment-handling)
+# [Deprecations](deprecations.md)
 # [Bug fixes](bug-fixes.md)
 
