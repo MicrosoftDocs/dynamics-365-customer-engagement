@@ -6,8 +6,6 @@ ms.custom:
 ms.date: 04/01/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.technology: 
-  - "field-service"
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
