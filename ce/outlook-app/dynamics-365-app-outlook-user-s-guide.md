@@ -27,8 +27,8 @@ search.app:
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of your Dynamics 365 apps while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **Dynamics 365** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
 
 > [!IMPORTANT]
-> - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), [Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview), and [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
-> - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
+> - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+> - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn946901(v=crm.8)).
 
  For example, when you open an email message, view information from your Dynamics 365 app about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific Dynamics 365 record. When you link an email message or appointment to a Dynamics 365 record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in Dynamics 365 apps.  
 
@@ -102,7 +102,7 @@ If the recipient is a Microsoft Dataverse or Customer Engagement (on-premises) u
 
 ![Dynamics 365 apps user](media/recipient-status.png)  
 
-If the recipient isn’t known to Dynamics 365, click (+) and then select **Add as contact** or **Add as lead**. See: [Add an email recipient as a contact or lead](#add-an-email-recipient-as-a-contact-or-lead).
+If the recipient isn’t known to Dynamics 365, click (+) and then select **Add as contact** or **Add as lead**. See: [Add an email recipient as a contact or lead](user/add-email-recipient-as-a-row.md).
 
 ## A quick tour of the interface
 
@@ -123,7 +123,7 @@ The **Dynamics 365** pane appears under the menu bar and shows information about
 |    6    |                                                                  Click to add an activity.                                                                  |
 |  7 & 8  |                                               Click and then select **Set Regarding** to link to the record.                                                |
 
-![Dynamics 365 App for Outlook pane](media/full-pane-2.png)
+![Dynamics 365 App for Outlook window](media/full-pane-2.png)
 
 |Element  |Description  |
 |---------|---------|
@@ -138,117 +138,19 @@ Let's go over the individual elements in the menu bar.
 
 |Element  |Description  |
 |---------|---------|
-|![Menu - Home](media/menu-home.png)|Choose **Menu** > **Home** > **Dashboards**  to go to the main page. <br />Choose **Menu** > **Recent** to see Favorites and recently used records.|
+|![Menu Home](media/menu-home.png)|Choose **Menu** > **Home** > **Dashboards**  to go to the main page. <br />Choose **Menu** > **Recent** to see Favorites and recently used records.|
 |![Menu - Home](media/navbar-home-btn.png)|Choose **Home** to see the initial view.|
 |![Menu - Back](media/navbar-back-btn.png)|Choose **Back** to return to the last thing you viewed.|
-|![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See <a href="https://docs.microsoft.com/dynamics365/outlook-app/dynamics-365-app-outlook-user-s-guide#CreateRecord">Create a new record</a>|
+|![Menu - Quick Create](media/navbar-add-btn.png)|Choose **Quick Create** to create a new record such as an account or contact.<br />See <a href="/dynamics365/outlook-app/dynamics-365-app-outlook-user-s-guide#CreateRecord">Create a new record</a>|
 |![Menu - Search](media/navbar-search-btn.png)|Choose **Search** to search any Dynamics 365 apps records. |
-|![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
+|![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](user/assistant.md)|
 |![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](user/email-template.md) and [Add sales literature or a knowledge base article when you create an email message](user/add-literature-or-kb.md)|
-
-## Use delegate access 
-
-Delegate access is granted to users who manage certain aspects of Outlook and Microsoft Dataverse information for another person.
-
-Once delegate access is turned on, you can use Dynamics 365 App for Outlook to track emails and calendar appointments for someone else.
-
-For more information on how to set up delegate access, see [Set up delegate access](enable-delegate-access.md).
-
-
-
-> [!IMPORTANT]
-> - Track status might not update until the sync cycle is complete for both the user and the delegated user. This might take a few minutes. 
-> - The delegated user should be able to access and interact with the primary user's mailbox.
-> - The delegated user cannot track contacts on the delegated mailbox.
-> - The delegated user cannot set **Regarding to** a new contact. Emails and appointments can only be tracked for existing contacts.
-
-### Track email from a known contact
-1. Go to the email folder of the person that you are a delegate for and open an email from a contact that you want to track.
-2. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/Pic1.png)
-
-3. The status on the email changes to **Track pending** for both the user and the delegated user. 
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/Pic2.png)
-   
-4. Once the email has finished synchronizing in Microsoft Dataverse, the status of the email changes to **Tracked regarding** for both the user and the delegated user.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/Pic3.png)
-
-### Track appointment or meeting invitation for a known contact
-
-1. Go to the calendar of the person that you are a delegate for and open the invitation that you want to track in Microsoft Dataverse.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/Pic4.png)
-  
-2. When the meeting invitation is open, on the main menu, select **Dynamics 365** to open the mail app.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/Pic5.png)
-
-3. In the Dynamics 365 pane, select **Contact** > **Set Regarding**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![](media/Pic6.png)
-   
-4. The status of the meeting invitation changes to **Track pending** for both the user and the delegated user. 
-   
-5. Once the meeting invitation has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked regarding** for both the user and the delegated user.
 
 
 ## Experience App for Outlook as a pinnable taskpane
 
-If you're running Outlook 2016 for Windows (click to run build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook.Pinning App for Outlook helps you by showing the relevant Dynamics 365 information faster. This will not only give you quick access to App for Outlook but also improves the home page load performance by 30% or more.
+If you're running Outlook 2016 for Windows (click to run build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook.Pinning App for Outlook helps you by showing the relevant Dynamics 365 information faster. This will not only give you quick access to App for Outlook but also improves the home page load performance by 30% or more.
 
-## Add an email recipient as a contact or lead
-One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to Dynamics 365. In the **Dynamics 365** pane, click (+) and then select **Add as contact** or **Add as lead**.
-
-![Add a contact or lead](media/add-email-contact-lead.png)
-
-> [!NOTE]
-> If the sender of the email is unknown to Dynamics 365, when you add the contact or lead, the email is automatically tracked in Dynamics 365 and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email. 
-
-## Link an email message or meeting to a specific Dynamics 365 apps record  
-You can link an email message or meeting to a specific Dynamics 365 record, such as an account, opportunity, or case. This also tracks the email or meeting in Dynamics 365.
-
-1. Create or select an email or meeting.
-
-2. Click the **Dynamics 365** button in the email pane.
-
-3. Click **Set Regarding** (---).
-
-   ![Set Regarding](media/set-regarding-open.png)
-
-4. Enter search text. A list of related records appears.
-
-   ![Search for related records](media/set-regarding-search.png)
-
-5. Use the left and right arrows to narrow search to cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
-
-### Find a different record to link to  
-
-1. Find the record to link in a list or using Search. 
-
-2. In Tracked regarding, click (...) > **Change Regarding**.
-
-   ![Change Regarding](media/open-change-regarding.png)
-
-3. Click **Set Regarding** (---).
-
-   ![Set Regarding](media/set-regarding-open.png)
-
-4. Enter search text. A list of related records appears.
-
-   ![Search for related records](media/set-regarding-search.png)
-
-5. Use the left and right arrows to find related cases, invoices, etc., and then select a record to automatically track the email or meeting, and link it to the record indicated in the **Dynamics 365** pane. 
-
-<a name="CreateRecord"></a>
 
 ### Create a new record  
 
@@ -279,30 +181,6 @@ You can link an email message or meeting to a specific Dynamics 365 record, such
 
    ![Untrack Regarding](media/open-untrack-regarding.png)
 
-## Track signed S/MIME emails
-[!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
-
-## Gain insights into your activities with relationship assistant
-
-The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing right now. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.
-
-Some of what the assistant can do for you:
-
-- reminds you of upcoming activities
-- evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while
-- identifies email messages that may be waiting for a reply from you
-- alerts you when an opportunity is nearing its close date
-
-When you start your day by signing in to Dynamics 365 apps, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
-
-To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-insights-btn.png) > **Relationship Assistant**.
-
-![Relationship Assistant](media/relationship-assistant.png)
-
-<!--
-## Monitor an email message after you send it  
-
- You can monitor an email message after you send it to see the number of times that the message is viewed, opened, replied to, or forwarded. For a monitored email message, you can also see the last activity related to the email message, or view all activity related to the message.  
 
  ### Monitor an email message  
 
@@ -314,8 +192,8 @@ To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-i
 
  ![Follow email in Dynamics 365 for Outlook](../outlook-app/media/follow-email-dynamics-365-outlook.png "Follow email in Dynamics 365 for Outlook")  
 
-    > [!NOTE]
-    >  Any recipients that can’t be followed will be displayed at the bottom of the **Dynamics 365** pane.  
+   > [!NOTE]
+   >  Any recipients that can’t be followed will be displayed at the bottom of the **Dynamics 365** pane.  
 
 4.  Send the message in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
 
@@ -467,11 +345,11 @@ If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an
 ![Outlook app server side sync](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
 
    > [!NOTE]
-   > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](https://docs.microsoft.com/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
+   > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
    
 ### See also  
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   
- [Set up server-side synchronization (admins)](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
+ [Set up server-side synchronization (admins)](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)   
 
 
 

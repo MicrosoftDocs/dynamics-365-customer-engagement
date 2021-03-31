@@ -34,7 +34,7 @@ Here are the seven steps to getting your organization on board with Dynamics 365
   
 ## Step three: Get mobile apps 
   
--   [Dynamics 365 for phones and tablets User's Guide](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+-   [Dynamics 365 for phones and tablets User's Guide](../basics/dynamics-365-phones-tablets-users-guide-onprem.md)  
   
 ## Step four: Customize your system  
   
@@ -55,7 +55,7 @@ Here are the seven steps to getting your organization on board with Dynamics 365
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
 ### See also 
- [Get detailed information about onboarding your organization and users](https://docs.microsoft.com/power-platform/admin/try-powerapps-dynamics-365)
+ [Get detailed information about onboarding your organization and users](/power-platform/admin/try-powerapps-dynamics-365)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
