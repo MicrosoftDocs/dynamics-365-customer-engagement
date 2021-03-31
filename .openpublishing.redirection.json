@@ -21078,6 +21078,11 @@
       "source_path": "ce/customer-service/smart-assist.md",
       "redirect_url": "/dynamics365/app-profile-manager/smart-assist",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/work-streams-introduction.md",
+      "redirect_url": "create-workstreams",
+      "redirect_document_id": false
     }
   ]
 }
