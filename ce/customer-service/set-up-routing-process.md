@@ -28,6 +28,11 @@ For this process, you'll need the Omnichannel admin center app.
 
 The high-level process to set up unified routing for a channel or record is as follows:
 
+
+
+<!-- If these actions within creating workstreams and creating queues need to be done in order, they should be numbered. The multilevel bullets are hard to follow. --> 
+
+
 1. Create workstreams.
    - Create a workstream for messaging.
      - Configure routing rules.
