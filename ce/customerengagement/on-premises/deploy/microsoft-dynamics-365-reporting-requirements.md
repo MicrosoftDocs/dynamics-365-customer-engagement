@@ -36,6 +36,8 @@ manager: kvivek
   
  For [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting, you can use the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions running on a [supported version of Windows Server](software-requirements-for-microsoft-dynamics-365-server.md#windows-server-operating-system):  
   
+- Microsoft SQL Server 2019 Enterprise
+- Microsoft SQL Server 2019 Standard
 -   Microsoft SQL Server 2017 Enterprise<sup>1</sup>  
 -   Microsoft SQL Server 2017 Standard<sup>1</sup>   
 -   Microsoft SQL Server 2017 Developer (for non-production use only)<sup>1</sup>
@@ -46,7 +48,7 @@ manager: kvivek
 > [!IMPORTANT]
 > - <sup>1</sup>Requires [Microsoft Dynamics 365 Server, v9.0 (on-premises) Update 0.3](https://www.microsoft.com/download/details.aspx?id=58153).
 > -   [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Compact or [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
-> -   Using a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server running in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode is not supported with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about SQL Server [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode, see [Reporting Services Report Server (SharePoint Mode)](/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016).  
+> -   Using a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server running in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode is not supported with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about SQL Server [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] mode, see [Reporting Services Report Server (SharePoint Mode)](https://docs.microsoft.com/sql/reporting-services/report-server-sharepoint/reporting-services-report-server-sharepoint-mode?view=sql-server-2016).  
   
 <a name="report_ext_gen_req"></a>
 
