@@ -1,14 +1,17 @@
 ---
 title: "msdyn_ocliveworkitem Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitem entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "shujoshi"
-ms.date: 03/15/2021
-ms.topic: "reference"
+ms.date: 03/31/2021
 ms.service: "crm-online"
-applies_to: 
-  - "Dynamics 365 (online)"
+ms.topic: "reference"
+author: "platkat"
+ms.author: "ktaylor"
+manager: "shujoshi"
+search.audienceType: 
+  - developer
+search.app: 
+  - PowerApps
+  - D365CE
 ---
 # msdyn_ocliveworkitem Entity Reference
 
@@ -90,11 +93,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_createdon](#BKMK_msdyn_createdon)
 - [msdyn_customer](#BKMK_msdyn_customer)
 - [msdyn_customerIdType](#BKMK_msdyn_customerIdType)
+- [msdyn_customerlanguageid](#BKMK_msdyn_customerlanguageid)
 - [msdyn_customerlocale](#BKMK_msdyn_customerlocale)
 - [msdyn_customersentimentlabel](#BKMK_msdyn_customersentimentlabel)
 - [msdyn_dailytopicid](#BKMK_msdyn_dailytopicid)
 - [msdyn_escalationcount](#BKMK_msdyn_escalationcount)
 - [msdyn_initiatedon](#BKMK_msdyn_initiatedon)
+- [msdyn_isoutbound](#BKMK_msdyn_isoutbound)
 - [msdyn_IssueId](#BKMK_msdyn_IssueId)
 - [msdyn_lastsessionid](#BKMK_msdyn_lastsessionid)
 - [msdyn_liveworkstreamid](#BKMK_msdyn_liveworkstreamid)
@@ -102,6 +107,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_modifiedon](#BKMK_msdyn_modifiedon)
 - [msdyn_ocliveworkitemid](#BKMK_msdyn_ocliveworkitemid)
 - [msdyn_queueid](#BKMK_msdyn_queueid)
+- [msdyn_queueitemid](#BKMK_msdyn_queueitemid)
+- [msdyn_routableobjectid](#BKMK_msdyn_routableobjectid)
+- [msdyn_routableobjectidIdType](#BKMK_msdyn_routableobjectidIdType)
 - [msdyn_socialprofileid](#BKMK_msdyn_socialprofileid)
 - [msdyn_startedon](#BKMK_msdyn_startedon)
 - [msdyn_statusupdatedon](#BKMK_msdyn_statusupdatedon)
@@ -688,6 +696,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|EntityName|
 
 
+### <a name="BKMK_msdyn_customerlanguageid"></a> msdyn_customerlanguageid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|The language of the customer in this conversation.|
+|DisplayName|Customer Language|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerlanguageid|
+|RequiredLevel|None|
+|Targets|msdyn_oclanguage|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_customerlocale"></a> msdyn_customerlocale
 
 |Property|Value|
@@ -776,6 +800,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_initiatedon|
 |RequiredLevel|None|
 |Type|DateTime|
+
+
+### <a name="BKMK_msdyn_isoutbound"></a> msdyn_isoutbound
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates if its an outbound Conversation|
+|DisplayName|Outbound Conversation|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isoutbound|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_isoutbound Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_IssueId"></a> msdyn_IssueId
@@ -881,6 +930,53 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Targets|msdyn_omnichannelqueue|
 |Type|Lookup|
+
+
+### <a name="BKMK_msdyn_queueitemid"></a> msdyn_queueitemid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Queue item associated with the conversation|
+|DisplayName|Queue item|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_queueitemid|
+|RequiredLevel|None|
+|Targets|queueitem|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_routableobjectid"></a> msdyn_routableobjectid
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the routed record.|
+|DisplayName|Routed record|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_routableobjectid|
+|RequiredLevel|None|
+|Targets|adx_inviteredemption,email,incident,task|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_routableobjectidIdType"></a> msdyn_routableobjectidIdType
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_routableobjectididtype|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_msdyn_socialprofileid"></a> msdyn_socialprofileid
@@ -1202,7 +1298,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,adx_ad,adx_adplacement,adx_casedeflection,adx_communityforumaccesspermission,adx_communityforumalert,adx_contentaccesslevel,adx_invitation,adx_poll,adx_polloption,adx_pollplacement,adx_pollsubmission,adx_publishingstatetransitionrule,adx_redirect,adx_shortcut,adx_webpage,adx_website,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_resourceterritory,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,new_ocqa,opportunity,quote,salesorder,site,uii_action,uii_hostedapplication,uii_nonhostedapplication,uii_option,uii_savedsession,uii_workflow,uii_workflowstep,uii_workflow_workflowstep_mapping|
+|Targets|account,adx_ad,adx_adplacement,adx_casedeflection,adx_communityforumaccesspermission,adx_communityforumalert,adx_contentaccesslevel,adx_invitation,adx_poll,adx_polloption,adx_pollplacement,adx_pollsubmission,adx_publishingstatetransitionrule,adx_redirect,adx_shortcut,adx_webpage,adx_website,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_resourceterritory,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,opportunity,quote,salesorder,site,uii_action,uii_hostedapplication,uii_nonhostedapplication,uii_option,uii_savedsession,uii_workflow,uii_workflowstep,uii_workflow_workflowstep_mapping|
 |Type|Lookup|
 
 
@@ -1573,6 +1669,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_activeagentidName](#BKMK_msdyn_activeagentidName)
 - [msdyn_activeagentidYomiName](#BKMK_msdyn_activeagentidYomiName)
 - [msdyn_cdsqueueidName](#BKMK_msdyn_cdsqueueidName)
+- [msdyn_customerlanguageidName](#BKMK_msdyn_customerlanguageidName)
 - [msdyn_customerName](#BKMK_msdyn_customerName)
 - [msdyn_customerYomiName](#BKMK_msdyn_customerYomiName)
 - [msdyn_dailytopicidName](#BKMK_msdyn_dailytopicidName)
@@ -1580,6 +1677,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [msdyn_lastsessionidName](#BKMK_msdyn_lastsessionidName)
 - [msdyn_liveworkstreamidName](#BKMK_msdyn_liveworkstreamidName)
 - [msdyn_queueidName](#BKMK_msdyn_queueidName)
+- [msdyn_queueitemidName](#BKMK_msdyn_queueitemidName)
+- [msdyn_routableobjectidName](#BKMK_msdyn_routableobjectidName)
+- [msdyn_routableobjectidYomiName](#BKMK_msdyn_routableobjectidYomiName)
 - [msdyn_socialprofileidName](#BKMK_msdyn_socialprofileidName)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
@@ -1979,6 +2079,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_customerlanguageidName"></a> msdyn_customerlanguageidName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_customerlanguageidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_customerName"></a> msdyn_customerName
 
 |Property|Value|
@@ -2091,6 +2209,60 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsValidForRead|True|
 |LogicalName|msdyn_queueidname|
 |MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_queueitemidName"></a> msdyn_queueitemidName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_queueitemidname|
+|MaxLength|300|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_routableobjectidName"></a> msdyn_routableobjectidName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_routableobjectidname|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_routableobjectidYomiName"></a> msdyn_routableobjectidYomiName
+
+**Added by**: Omnichannel - Base Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_routableobjectidyominame|
+|MaxLength|1000|
 |RequiredLevel|None|
 |Type|String|
 
