@@ -20,7 +20,7 @@ search.app:
 
 # Add an account with customer, location, and related details to a work order
 
-Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order.  Locations are important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
+Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order. Locations are important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
 
 **Service accounts** represent **who** is the receiving account of the on-site service (work order), and **where** the field technician will be dispatched.
 
