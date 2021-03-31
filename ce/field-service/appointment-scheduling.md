@@ -20,7 +20,14 @@ search.app:
 
 # Appointments included in resource scheduling
 
-With this improved way of including appointments in resource scheduling, schedulers do not face the issue of bookings and appointments being inconsistent since appointments are included directly without needing corresponding bookings. Schedulers can have accurate availability information in one place and do not have to switch between multiple tools such as Outlook, Service Calendar, and Field Service's new schedule board. This increases schedulers’ productivity and reduces avoidable scheduling errors.
+Organizations often use appointments in Dynamics 365. Typical examples are a salesperson using appointments to meet with potential customers or a customer service rep creating a service appointment to help a customer with an issue. Other examples are organizations creating appointments because of integrations with other systems.
+
+Dynamics 365 Appointments ([Microsoft Dataverse appointments](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/appointment)) can be displayed on the Field Service Schedule Board alongside Bookings and can be considered during scheduling to understand if a fronltine worker or bookable resource is available. 
+
+Schedulers can have accurate availability information in one place and do not have to switch between multiple tools such as Outlook, Service Calendar, and Field Service's new schedule board. This increases schedulers’ productivity and reduces avoidable scheduling errors.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
 
 ## Prerequisites
 

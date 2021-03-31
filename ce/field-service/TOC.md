@@ -64,10 +64,10 @@
 
 ## Administration and configuration
 ### [Enable an entity for scheduling](schedule-new-entity.md)
-### [Include appointments in scheduling](appointment-scheduling.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Booking timestamps + journals](booking-timestamps.md)
+### [Include appointments in scheduling](appointment-scheduling.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
 ### [Analytics dashboard](scheduling-analytics-reports.md)
