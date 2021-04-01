@@ -51,7 +51,7 @@ landingContent:
       - linkListType: reference
         links:
           - text: Real-time marketing journey tile reference
-            url: real-time-marketing-tile-reference.md.md
+            url: real-time-marketing-tile-reference.md
           - text: Real-time marketing event triggers
             url: real-time-marketing-event-triggers.md
       - linkListType: how-to-guide
