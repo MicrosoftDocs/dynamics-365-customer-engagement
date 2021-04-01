@@ -74,7 +74,7 @@ After you end the Chrome Process instance, the [!INCLUDE[pn_unified_service_desk
 
 By default, the keyboard shortcut for terminating an unresponsive Chrome Process instance is **CTRL** + **K**.
 
-To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 | UII option  | Example character |
 |-------------|-------------------|
@@ -103,7 +103,7 @@ To change the keyboard shortcut:
 
 7. Type **On-DemandChromeProcessTerminationShortcut** for the **Name** field.
 
-8. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+8. Type the character value for the **Value** field. <br>See the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 9. Select **Save**.
 
