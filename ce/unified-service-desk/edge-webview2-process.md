@@ -78,7 +78,7 @@ When you are creating a new hosted control, you can select **Edge WebView2 Proce
 4. To create a new hosted control, select **New**.
 
 5. On the **New Hosted Control** page, specify the details and select **Edge WebView2 process** from the **Hosting Type** drop-down.<br>
-![Edge WebView2 Process hosted control](../edge-webview2-process-hosted-control.PNG "Edge WebView2 Process hosted control")
+![Edge WebView2 Process hosted control](media/edge-webview2-process-hosted-control-setting.PNG "Edge WebView2 Process hosted control")
 
 6. Select **Save** to create the hosted control.
 
