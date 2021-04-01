@@ -2,19 +2,17 @@
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
 ms.date: 04/16/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-opportunity
   - D365-UI-*
   - Dynamics 365
   - Sales
-
 ---
 
 # Work with opportunities in the Kanban view (Sales Professional)

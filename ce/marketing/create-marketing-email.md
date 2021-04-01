@@ -37,11 +37,11 @@ To create a marketing email and go live:
 
 1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails**. You will see a list of existing marketing emails. Select **New** on the command bar.
 
-    ![Location of the new-email button](media/new-email-button-location.png "Location of the new-email button")
+    ![Location of the new-email button](media/new-email-button-location4.png "Location of the new-email button")
 
 1. The **New Marketing Email** page opens with the **Select an Email Template** dialog box shown. Each template provides a starting point for designing a particular type of message. The template dialog box provides tools for searching, browsing, and previewing your template collection.
 
-    ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
+    ![Dialog for choosing an email template](media/email-template-dialog2.png "Dialog box for choosing an email template")
 
     For this exercise, select the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
 
@@ -50,11 +50,11 @@ To create a marketing email and go live:
 
 1. The **Select an Email Template** dialog box closes and the content (if any) from your selected template is copied to your design. Select the **More header fields** button at the side of the header to open a drop-down dialog and then enter a **Name** for your new message.
 
-    ![Enter a name for your new email](media/email-edit-header-fields.png "Enter a name for your new email")
+    ![Enter a name for your new email](media/email-edit-header-fields3.png "Enter a name for your new email")
 
 1. Enter a **Subject** for your message. The subject is an important setting because it is one of the first things recipients will see when they receive the email. Recipients may use the subject to decide whether to open or read the message.
 
-    ![Enter a subject for your new email](media/email-edit-subject.png "Enter a subject for your new email")
+    ![Enter a subject for your new email](media/email-edit-subject2.png "Enter a subject for your new email")
 
 1. In the main part of the page, you now see the design canvas (on the left side), where you can drag, arrange, and enter content. If you chose the blank template, then your design includes just a single one-column section (layout) element with nothing in it. A **Toolbox** on the right side of the page provides design elements that you'll use to construct your message. Drag a **Text** element from the **Toolbox** tab into the section element. When you have dragged the element to a suitable location, a blue shaded region appears. Release the mouse button to drop the element at that location.
 
@@ -88,7 +88,7 @@ To create a marketing email and go live:
     1. On the previous page, you choose the contact entity (in context). On this page, you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
     
         > [!NOTE]
-        > [Calculated and rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/calculated-rollup-attributes) cannot be used in Marketing emails.
+        > [Calculated and rollup fields](../customerengagement/on-premises/developer/calculated-rollup-attributes.md) cannot be used in Marketing emails.
 
     1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist edit.)
 

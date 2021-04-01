@@ -37,7 +37,7 @@ Sign in using your web address for the Dynamics 365 app and user name and passwo
     ![Enter user name and password address](../../../media/userandpassword.png "Enter your user name and password"). 
 
 > [!IMPORTANT]
-> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
+> - If you are a [Dynamics 365 US Government](/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
 
 2. Enter the web address for the Dynamics 365 app that you use, and select ![Sign in](../../../media/signinarrow.png "Dynamics 365  for phones and tablets sign-in"). 
 

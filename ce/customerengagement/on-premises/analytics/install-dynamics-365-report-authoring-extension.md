@@ -25,14 +25,9 @@ caps.latest.revision: 37
   
 -   Microsoft Application Error Reporting Tool  
   
--   Windows Live ID Sign-in Assistant 6.5  
-  
 > [!WARNING]
 >  People who use the Report Viewer control included with [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] can view information from the reports that they have access to. By using this control, the user can view additional report and session data that is not displayed when running the report in a Microsoft Dynamics 365 Customer Engagement (on-premises) app. To reduce the risk of exposing confidential data, we recommend that you configure the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] URL where the [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] is installed to allow only [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)], also known as Secure HTTP, connections. More information: [MSDN: Configure SSL Connections on a Native Mode Report Server](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017).  
-  
-> [!IMPORTANT]
->  If your organization uses [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], the computer on which the Dynamics 365 Report Authoring Extension is installed must have the [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] installed on it. If [!INCLUDE[pn_Online_Services_SignIn_Assistant](../includes/pn-online-services-signin-assistant.md)] is already installed, check the registry key SOFTWARE\Microsoft\MSOIdentityCRL and make sure that the TargetDir registry key in MSOIdentityCRL contains msoidcli.dll.  
-  
+ 
 ## Install the plug-in  
  Dynamics 365 Report Authoring Extension is a plug-in that obtains the metadata and data from Customer Engagement (on-premises). This metadata is required to design and preview Fetch-based reports in [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)]. You  can use Dynamics 365 Report Authoring Extension with either Customer Engagement (on-premises).  
   

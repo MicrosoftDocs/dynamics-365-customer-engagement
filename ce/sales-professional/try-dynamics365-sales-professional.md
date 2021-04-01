@@ -2,11 +2,10 @@
 title: "Sign up for a free trial of Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Learn how to sign up for a free trial of Dynamics 365 Sales Professional."
 ms.date: 02/20/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 

@@ -43,9 +43,14 @@ The primary differences between live chat and persistent chat are as follows:
 
 From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage, by clicking on the ✖ button. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
 
+## Prerequisites
+
+Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md).
+
+
 ## Set up persistent chat
 
-You can enable persistent chat in the chat widget settings for a chat channel.You will need to add authentication settings to configure persistent chat. For more information on adding authentication settings, see : [Create chat authentication settings](create-chat-auth-settings.md)
+You can enable persistent chat in the chat widget settings for a chat channel.
 
 1. Sign into Omnichannel Administration.
 

@@ -1,8 +1,8 @@
 ---
 title: "UII data driven adapters in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use a data-driven adapter to define a way to identify a UI component of a hosted application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

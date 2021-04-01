@@ -16,7 +16,7 @@ The **LinkedIn Sales Insights** tab in **Account** records provides information 
 
 - LinkedIn Sales Insights Company Profile (one company profile record related to each account)
   > [!div class="mx-imgBorder"]
-  > ![LinkedIn Sales Insights tab in an account form](media/lsi-tab-account.png "LinkedIn Sales Insights tab in an account form")
+  > ![LinkedIn Sales Insights tab in an account form](media/lsi-tab-account-only.png "LinkedIn Sales Insights tab in an account form")
 
 - LinkedIn Sales Insights Personas (three persona records related to each account)
   > [!div class="mx-imgBorder"]

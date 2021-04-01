@@ -100,7 +100,9 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
 
 > [!IMPORTANT]
-> If the provisioning of Omnichannel for Customer Service fails and you retry it, you might see an app profile named **Omnichannel Upgraded OOB Default app profile** on the **App profiles** page in Power Apps. You can safely delete this app profile that is created.
+>
+> - After you successfully provision Omnichannel for Customer Service, you might see the status as "Not configured" on the **Dynamics 365 apps** page. You can safely ignore the status.
+> - If the provisioning of Omnichannel for Customer Service fails and you retry it, you might see an app profile named **Omnichannel Upgraded OOB Default app profile** on the **App profiles** page in Power Apps. You can safely delete this app profile that is created.
 
 ## Update Omnichannel for Customer Service application
 

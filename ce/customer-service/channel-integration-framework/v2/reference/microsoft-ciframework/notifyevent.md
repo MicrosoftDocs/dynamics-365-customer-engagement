@@ -1,8 +1,8 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0."
-author: v-sailab
-ms.author: v-sailab
+description: "Know about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/10/2021
 ms.topic: reference

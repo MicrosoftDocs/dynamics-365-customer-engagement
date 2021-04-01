@@ -2,13 +2,12 @@
 title: "Create or edit opportunities in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 Sales Professional."
 ms.date: 02/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-opportunity
   - D365-UI-*

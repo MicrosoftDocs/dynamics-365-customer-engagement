@@ -2,15 +2,14 @@
 title: "Nurture sales from lead to order (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
 ms.date: 02/10/2021
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: get-started-article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
   - D365-UI-*

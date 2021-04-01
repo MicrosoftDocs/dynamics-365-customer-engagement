@@ -3,7 +3,7 @@ title: "System requirements to use the Field Service (Dynamics 365) mobile app |
 description: Learn about system requirements for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/17/2020
+ms.date: 03/23/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -22,7 +22,7 @@ search.app:
 
 ## Field Service requirements
 
-**Field Service v8.8.22+**
+**Field Service version 8.8.22+**
 
 After installing or upgrading to **Field Service v8.8.22+**, the "Field Service" and "Field Service Mobile" apps will appear in the list of apps when you sign in. You can find these apps by going to:
 
@@ -35,12 +35,34 @@ After installing or upgrading to **Field Service v8.8.22+**, the "Field Service"
 
 Currently, the Field Service (Dynamics 365) mobile app is supported on the following mobile platforms.
 
-| **Minimum required** | **Recommended** |
-| --- | --- |
-| iOS 13 or later | iOS 13 or later |
-| Android 8 or later | Android 8 or later |
+
+
+|  |	Minimum	 |    |	 |	Recommended	| |  |
+| --- | --- |	--- | --- | --- | --- | --- |
+| Platform |	Version |	RAM	| Storage*	| Version	| RAM	| Storage* |
+| iOS |	12.4.9 or later |	3 GB |	64 GB	| 13 or later	| 4 GB	| 128 GB |
+| Android	| 7.1.1 or later |	3 GB	| 64 GB	| 10 or later |	6 GB	| 128 GB | 
+
+
+*The number of GBs of storage needed is dependent on how much data your organization needs to download onto the device when there is no internet access. This is controlled by the [mobile offline profile](mobile-power-app-system-offline.md).
+
+
 
 > [!NOTE]
-> An important consideration before deploying the Field Service (Dynamics 365) mobile app is the hardware specification of the  device used, such as memory and processor. Modifying the app with enhancements such as custom configurations and offline javascript may place additional requirements on system memory and processor. Other factors, such as the amount of applications running on the device may also affect app performance.
+> An important consideration before deploying the Field Service (Dynamics 365) mobile app is the hardware specification of the device used, such as memory and processor. Modifying the app with enhancements such as custom configurations and offline javascript may place additional requirements on system memory and processor. Other factors, such as the amount of applications running on the device may also affect app performance.
+
+### Mobile devices used for testing
+While the Field Service (Dynamics 365) mobile app works on all devices that meet the minimum criteria listed above, Microsoft has performed tests on the following devices: 
+
+| Platform | Phones | Tablets |
+|--|---| ---|
+| Android | Samsung Galaxy S20, Samsung Galaxy S10, Redmi Note 9, Asus Zenfone Max pro M1, Vivo Z1 Pro, One plus 7T, Pixel 2 | |
+| iOS | iPhone X, iPhone 11 | iPad Air (3rd Gen) |
+
+
+### See also
+
+[What's supported Dynamics 365 phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/support-phones-tablets)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

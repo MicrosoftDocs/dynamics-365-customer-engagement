@@ -81,6 +81,10 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 > ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
 - **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There is an option in the advanced panel to make the textbox bigger to allow for multiline responses.
+In Early Access opt in release a TextBox can be input with a default value and can also be made as read only.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of textbox read only.](./media/textbox-read-only.jpg)
+
 
 - **Checkbox**, **radiogroup**, **dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar, except the **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
 
@@ -104,7 +108,7 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 - **Barcode scan:** Allows technicians to populate the field with the barcode number by scanning a barcode with their device's camera. Choose "Textbox" question type, then select **Barcode** for input type in the **Advanced** section.
 
 - **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
-The matrix question type is currently available as **early access**. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
@@ -124,9 +128,10 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
 Inspection creators can show or hide the title and description of the inspection when inspection performers are viewing it.
+Also, the auto numbering of the questions can be disabled to assign custom numbering.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection version showing the toggle for hiding the title.](./media/compactness1.png)
+> ![Screenshot of an inspection version showing the toggle for hiding the title.](./media/show-question-numbers.jpg)
 
 Choose layout density.
 
