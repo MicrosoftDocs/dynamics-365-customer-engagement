@@ -243,8 +243,11 @@ After the adding UII option, and if you set the value as **True**, then the opti
 
 9. Select **Save**.
 
+::: moniker-end
 
-## Pool process instances for Edge WebView2 Process - Content from here to be added under 4.2
+::: moniker range=">=dynamics-usd-4.2"
+
+## Pool process instances for Edge WebView2 Process
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 Process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 Process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
