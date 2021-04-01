@@ -27,9 +27,15 @@ Make sure that the following prerequisites are met:
 
 - An app is created and configured in **Teams** > **App Studio**.
 
-<a name="configureteams"></a>
+## Configure a Microsoft Teams channel in Omnichannel admin center
 
-## Configure a Microsoft Teams channel in Omnichannel for Customer Service
+1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
+2. Enter the following details:
+   1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
+   2. On the **Account details** page, 
+
+
+## Configure a Microsoft Teams channel in Omnichannel Administration<a name="configureteams"></a>
 
 ### Create a Teams channel
 
