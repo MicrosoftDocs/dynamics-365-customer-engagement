@@ -66,8 +66,7 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 3. Select the opportunity that you want to reopen, and on the command bar, select **Reopen Opportunity**. The reopened opportunities start appearing in the open opportunities list.
   
 ### See also  
- [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
- [Print leads, quotes, and other records](../customerengagement/on-premises/basics/print-leads-quotes-other-records.md)  
+ [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)    
  [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 
 
