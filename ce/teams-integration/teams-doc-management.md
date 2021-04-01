@@ -53,14 +53,14 @@ It depends on whether your Dynamics 365 tenant has SharePoint integration set up
 If you do not have SharePoint integration enabled, you need to have pinned the record to a Microsoft Teams channel, otherwise you will not be able to add a document to the record.
 
 #### 4. What happens when I add documents to a Microsoft Teams channel connected to a Dynamics 365 app record and then remove a member from the channel?
-It depends if the user has permissions to access the Dynamics 365 app record.
+It depends on if the user has permissions to access the Dynamics 365 app record.
 
-If they has permissions to access the app record, then the user can edit the record in Dynamics 365, but can't access the files from Dynamics 365, SharePoint, or Microsoft Teams.
+If they have permissions to access the app record, then the user can edit the record in Dynamics 365, but can't access the files from Dynamics 365, SharePoint, or Microsoft Teams.
 
 If they don't have permission to access the Dynamics 365 app record, then the user will get an error and they won't have access to the file from Dynamics 365 , SharePoint, or Microsoft Teams
 
 #### 5. What permissions does a user get when I add them to a Microsoft Teams channel that has pinned records and documents added to the files tab?
-It depends if the user has permissions to access the Dynamics 365 app record.
+It depends on if the user has permissions to access the Dynamics 365 app record.
 
 If they have permission to access the Dynamics 365 app record, then the user will able to edit the record in Dynamics 365 and Microsoft Teams. They will also have read, write. delete files from Dynamics 365, SharePoint, and Microsoft Teams.
 
@@ -74,11 +74,11 @@ When adding a file from a Dynamics 365 app record that is linked to a Microsoft 
 
 Adding a file from a Dynamics 365 app record that is not linked to a Teams channel is not possible, since SharePoint integration isn't enabled.
 
-When adding a file from a Microsoft Teams channel that is linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents >[Channel Name] > [FileName]. The file is visible in both the Microsoft Teams channel's Files tab and the Dynamics record's Document Associated Grid.
+When adding a file from a Microsoft Teams channel that is linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents >[Channel Name] > [File Name]. The file is visible in both the Microsoft Teams channel's Files tab and the Dynamics record's Document Associated Grid.
 
-When adding a file from a a Teams channel that is not linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [FileName]. The file is visible in the Microsoft Teams channel's Files tab.
+When adding a file from a a Teams channel that is not linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [File Name]. The file is visible in the Microsoft Teams channel's Files tab.
 
-When a Microsoft Teams channel has multiple Dynamics 365 app records associated with it, the document is stored in a SharePoint folder with the file path [Team Name] > Documents >[Channel Name] > [FileName]. The file is visible in the Microsoft Teams channel's from the files tab and the document associated grid for all Dynamics 365 app records associated with the channel.
+When a Microsoft Teams channel has multiple Dynamics 365 app records associated with it, the document is stored in a SharePoint folder with the file path [Team Name] > Documents >[Channel Name] > [File Name]. The file is visible in the Microsoft Teams channel from the files tab and the document associated grid for all Dynamics 365 app records associated with the channel.
 
 When a Dynamics 365 app record is linked to a Microsoft Teams channel, files already added to that Microsoft Teams channel show up in the document associated grid for that Dynamics 365 app record.
 
@@ -88,16 +88,16 @@ If a Dynamics 365 app record has been previously associated with a Microsoft Tea
 
 The information below applies when SharePoint integration has been enabled for a Dynamics 365 entity. 
 
-When adding a file to a Dynamics 365 app record that is linked to a Microsoft Teams channel from the document location for the Microsoft Teams channel, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [FileName]. The file is visible in both the Microsoft Teams channel's files tab and the Dynamics 365 app record's document associated grid in the document location for the Microsoft Teams channel.
+When adding a file to a Dynamics 365 app record that is linked to a Microsoft Teams channel from the document location for the Microsoft Teams channel, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [File Name]. The file is visible in both the Microsoft Teams channel's files tab and the Dynamics 365 app record's document associated grid in the document location for the Microsoft Teams channel.
 
 When adding a file to a Dynamics 365 app record that is linked to a Microsoft Teams channel via the document location for the default site, the document is stored in the default SharePoint site that was set up with the Dynamics 365 environment. The document does not show up in the Microsoft Teams files tab for the channel associated with the record.
 
 When adding a file from a Dynamics 365 app record that is not linked to a Microsoft Teams channel the document is stored in the default SharePoint site that was set up with the Dynamics 365 environment.
 
-When adding a file from a Microsoft Teams channel that is linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [FileName]. The file is visible in both the Microsoft Teams channel's files tab and the Dynamics 365 app record's document associated grid in the document location for the Microsoft Teams channel.
+When adding a file from a Microsoft Teams channel that is linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [File Name]. The file is visible in both the Microsoft Teams channel's files tab and the Dynamics 365 app record's document associated grid in the document location for the Microsoft Teams channel.
 
 
-When a Microsoft Teams channel has multiple Dynamics records associated with it, the document is stored in a SharePoint folder with the file path [Team Name] >  Documents > [Channel Name] > [FileName]. The file is visible in the Microsoft Teams channel's files tab and the document associated grid in the document location for the Microsoft Teams channel for all Dynamics 365 app records associated with the channel.
+When a Microsoft Teams channel has multiple Dynamics records associated with it, the document is stored in a SharePoint folder with the file path [Team Name] >  Documents > [Channel Name] > [File Name]. The file is visible in the Microsoft Teams channel's files tab and the document associated grid in the document location for the Microsoft Teams channel for all Dynamics 365 app records associated with the channel.
 
 When a Dynamics record is linked to a Microsoft Teams channel, files already added to that Microsoft Teams channel show up in the document associated grid for that Dynamics 365 app record in the document location for the Microsoft Teams channel.
 
