@@ -1,14 +1,17 @@
 ---
 title: "msdyn_omnichannelconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration entity."
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
-ms.date: 09/14/2020
+ms.date: 03/31/2021
+ms.service: "crm-online"
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
-applies_to: 
-  - "Dynamics 365 (online)"
+author: "platkat"
+ms.author: "ktaylor"
+manager: "shujoshi"
+search.audienceType: 
+  - developer
+search.app: 
+  - PowerApps
+  - D365CE
 ---
 # msdyn_omnichannelconfiguration Entity Reference
 
@@ -23,19 +26,13 @@ Configuration for Omnichannel
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -61,15 +58,18 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_defaultAgentInputLanguage](#BKMK_msdyn_defaultAgentInputLanguage)
+- [msdyn_enable_advance_entity_routing](#BKMK_msdyn_enable_advance_entity_routing)
 - [msdyn_enable_missed_notifications](#BKMK_msdyn_enable_missed_notifications)
 - [msdyn_enable_supervisor_assign](#BKMK_msdyn_enable_supervisor_assign)
 - [msdyn_enable_supervisor_monitor](#BKMK_msdyn_enable_supervisor_monitor)
+- [msdyn_enable_unified_routing_diagnostic](#BKMK_msdyn_enable_unified_routing_diagnostic)
 - [msdyn_enable_visitorjourney](#BKMK_msdyn_enable_visitorjourney)
 - [msdyn_EnableRealTimeTranslation](#BKMK_msdyn_EnableRealTimeTranslation)
 - [msdyn_enablesoundnotifications](#BKMK_msdyn_enablesoundnotifications)
 - [msdyn_inactive_presence_lookup](#BKMK_msdyn_inactive_presence_lookup)
 - [msdyn_ispersonalizationofsoundenabled](#BKMK_msdyn_ispersonalizationofsoundenabled)
 - [msdyn_isPersonalMessagesEnabled](#BKMK_msdyn_isPersonalMessagesEnabled)
+- [msdyn_ispersonasecurityrolemappingenabled](#BKMK_msdyn_ispersonasecurityrolemappingenabled)
 - [msdyn_IsSkillBasedRoutingEnabled](#BKMK_msdyn_IsSkillBasedRoutingEnabled)
 - [msdyn_IsUpdateSkillsEnabled](#BKMK_msdyn_IsUpdateSkillsEnabled)
 - [msdyn_maskforagent](#BKMK_msdyn_maskforagent)
@@ -165,6 +165,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msdyn_enable_advance_entity_routing"></a> msdyn_enable_advance_entity_routing
+
+|Property|Value|
+|--------|-----|
+|Description|Setting to change advance entity routing for the org.|
+|DisplayName|Enable advance entity routing|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_advance_entity_routing|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enable_advance_entity_routing Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_enable_missed_notifications"></a> msdyn_enable_missed_notifications
 
 |Property|Value|
@@ -231,6 +254,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|No|
 
 **DefaultValue**: True
+
+
+
+### <a name="BKMK_msdyn_enable_unified_routing_diagnostic"></a> msdyn_enable_unified_routing_diagnostic
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Setting to change unified routing diagnostic for the org.|
+|DisplayName|Enable unified routing diagnostic|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_unified_routing_diagnostic|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enable_unified_routing_diagnostic Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
 
 
 
@@ -363,6 +411,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msdyn_ispersonasecurityrolemappingenabled"></a> msdyn_ispersonasecurityrolemappingenabled
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|ispersonasecurityrolemappingenabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ispersonasecurityrolemappingenabled|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_ispersonasecurityrolemappingenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
+
+
+
 ### <a name="BKMK_msdyn_IsSkillBasedRoutingEnabled"></a> msdyn_IsSkillBasedRoutingEnabled
 
 **Added by**: Omnichannel - Skill Based Routing Solution
@@ -394,8 +465,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Enable Update Skills for Conversation|
-|DisplayName|Enable Update Skills|
+|Description|This will enable agents to view and update skills for a conversation.|
+|DisplayName|Enable update skill control|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_isupdateskillsenabled|
@@ -947,6 +1018,3 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
