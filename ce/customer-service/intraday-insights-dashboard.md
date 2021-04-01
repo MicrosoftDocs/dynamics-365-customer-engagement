@@ -101,7 +101,7 @@ The table in the agent insights dashboard displays details about the agents in t
 | Available capacity | The current free capacity for the agent. |
 | Total capacity | The total capacity configured for an agent. |
 | Active | The number of conversations that are ongoing. |
-| Wrap-up | The number of conversations in the post-conversation stage. More information: [Understand conversation states](oc-conversation-state.md#Wrap-up) |
+| Wrap-up | The number of conversations in the post-conversation stage. More information: [Understand conversation states](oc-conversation-state.md#wrap-up) |
 | Waiting | The number of conversations that are yet to be assigned to agents. |
 | Closed | The number of conversations that have been closed by agents. |
 | Avg handle time (min) | The average of an individual agent's handle time, in minutes, for all closed conversations that the agent is involved in. More information: [Average handle time](#average-handle-time) |
