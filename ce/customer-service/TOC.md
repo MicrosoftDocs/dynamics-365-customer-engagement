@@ -52,7 +52,7 @@
 
 ## Routing and assignment
 ### Administrator experience
-#### [Unified Routing diagnostics] (unified-routing-diagnostics.md)
+#### [Unified Routing diagnostics](unified-routing-diagnostics.md)
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 #### [Create and manage queues for conversations](queues-omnichannel.md)
