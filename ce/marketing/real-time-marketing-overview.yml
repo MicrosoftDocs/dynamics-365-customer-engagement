@@ -32,55 +32,75 @@ landingContent:
         links:
           - text: Real-time marketing quickstart guide
             url: real-time-marketing-quickstart.md
-      - linkListType: quickstart
+      - linkListType: learn
         links:
           - text: Known issues in real-time marketing
             url: real-time-marketing-known-issues.md
 
   # Card
-  - title: How-tos
+  - title: Customer engagement
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Import a segment
-            url: import-segment.md
-          - text: Create a journey
-            url: create-journey.md
-          - text: Experiment and refine the journey
-            url: experimentation.md
-          - text: Create and send text messages
-            url: text-messages.md
-          - text: Gain insights through journey analytics
-            url: journey-analytics.md
+          - text: Create an event-based journey
+            url: real-time-marketing-event-based-journey.md
+          - text: Create a segment-based journey
+            url: real-time-marketing-segment-based-journey.md
+          - text: Experiment and refine real-time marketing journeys
+            url: real-time-marketing-experimentation.md
+      - linkListType: reference
+        links:
+          - text: Real-time marketing journey tile reference
+            url: real-time-marketing-tile-reference.md.md
+          - text: Real-time marketing event triggers
+            url: real-time-marketing-event-triggers.md
+      - linkListType: how-to-guide
+        links:
+          - text: Access and interpret single journey analytics
+            url: real-time-marketing-single-journey-analytics.md
+          - text: Access and interpret goal analytics
+            url: real-time-marketing-goal-analytics.md
+          - text: Access and interpret aggregate analytics
+            url: real-time-marketing-aggregate-analytics.md
+          - text: Real-time marketing channel analytics
+            url: real-time-marketing-channel-analytics.md
 
   # Card
-  - title: Developer resources
+  - title: Audience
     linkLists:
-      - linkListType: linkListType
+      - linkListType: how-to-guide
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-      - linkListType: linkListType
+          - text: Work with real-time marketing segments
+            url: real-time-marketing-segments.md
+          - text: Manage user compliance settings
+            url: real-time-marketing-compliance-settings.md
+          - text: Manage email and text consent settings
+            url: real-time-marketing-email-text-consent.md
+          - text: Outbound marketing consent
+            url: real-time-marketing-outbound-consent.md
+      - linkListType: reference
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
+          - text: Data protection and the GDPR for real-time marketing
+            url: real-time-marketing-gdpr.md
+          - text: Real-time marketing link tracking mechanics
+            url: real-time-marketing-link-tracking-mechanics.md
 
   # Card
-  - title: cardtitle4
+  - title: Channels
     linkLists:
-      - linkListType: linkListType
+      - linkListType: how-to-guide
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
-      - linkListType: linkListType
+          - text: Create real-time marketing emails
+            url: real-time-marketing-email.md
+          - text: Create push notifications
+            url: real-time-marketing-push-notifications.md
+          - text: Create outbound text messages
+            url: real-time-marketing-outbound-text-messaging.md
+
+  # Card
+  - title: Assets
+    linkLists:
+      - linkListType: reference
         links:
-          - text: linktext1
-            url: file1.md
-          - text: linktext2
-            url: file2.md
+          - text: Real-time marketing asset library
+            url: real-time-marketing-asset-library.md
