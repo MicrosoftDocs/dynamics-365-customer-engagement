@@ -26,9 +26,9 @@ As an administrator, you must configure Microsoft Teams dialer for sellers to us
 ## Review the prerequisites
 
 Review the following requirements before you configure Microsoft Teams dialer in your Dynamics 365 Sales Hub app:     
--	You have a license for using Microsoft Teams. Any Microsoft Teams license will work. More information: [Microsoft Teams add-on licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).      
--	Your organization has a phone system installed, with a valid license to use it. More information: [Set up Phone System in your organization](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system).          
--	You must have a Dynamics 365 system administrator or equivalent security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).    
+-	You have a license for using Microsoft Teams. Any Microsoft Teams license will work. More information: [Microsoft Teams add-on licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).      
+-	Your organization has a phone system installed, with a valid license to use it. More information: [Set up Phone System in your organization](/MicrosoftTeams/setting-up-your-phone-system).          
+-	You must have a Dynamics 365 system administrator or equivalent security role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).    
 
 ## Configure the dialer
 
@@ -41,7 +41,7 @@ Review the following requirements before you configure Microsoft Teams dialer in
         > [!div class="mx-imgBorder"]
         > ![Phone system and Microsoft Teams licenses successful validation](media/teams-dialer-systems-validation-successful.png "Phone system and Microsoft Teams licenses successful validation")      
     - <a name="tenant-admin-contact"></a> If any of the validations fails, you can't proceed with the configuration. Contact your tenant administrator to set up the phone system and Microsoft Teams for your organization.    
-    When the tenant administrator completes the configuration of [phone system](https://docs.microsoft.com/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](https://docs.microsoft.com/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), you can continue with the configuration. Select **Check status**.
+    When the tenant administrator completes the configuration of [phone system](/MicrosoftTeams/setting-up-your-phone-system) and [Teams licenses](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business), you can continue with the configuration. Select **Check status**.
         > [!div class="mx-imgBorder"]
         > ![Phone system and Microsoft Teams licenses failed validation](media/teams-dialer-systems-validation-failed.png "Phone system and Microsoft Teams licenses failed validation")
 4.	Select **Enable preview**.    
@@ -77,8 +77,8 @@ Review the following requirements before you configure Microsoft Teams dialer in
 ### See also
 
 [Microsoft Teams integration](../teams-integration/teams-integration.md)     
-[Call a customer](https://docs.microsoft.com/dynamics365/ai/sales/connect-with-customers#call-a-customer)      
-[View and understand call summary pages](https://docs.microsoft.com/dynamics365/ai/sales/view-and-understand-call-summary)
+[Call a customer](/dynamics365/ai/sales/connect-with-customers#call-a-customer)      
+[View and understand call summary pages](/dynamics365/ai/sales/view-and-understand-call-summary)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

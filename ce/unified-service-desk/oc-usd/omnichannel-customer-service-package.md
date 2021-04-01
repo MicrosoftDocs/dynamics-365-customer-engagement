@@ -86,7 +86,7 @@ The **Upgrade** package updates the Customization files and creates the newly in
 
 7. Review the name and information about the package on the **Installation Complete** page, and choose **Finish** to exit the Package Deployer tool.
 
-To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer).
+To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer).
 
 ## Upgrade Omnichannel for Customer Service package
 

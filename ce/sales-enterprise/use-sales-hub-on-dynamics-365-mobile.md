@@ -336,7 +336,7 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 
 ### See also
 
-[Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+[Mobile Basics Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)
 
