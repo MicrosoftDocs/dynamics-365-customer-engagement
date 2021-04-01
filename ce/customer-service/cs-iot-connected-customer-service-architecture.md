@@ -2,7 +2,7 @@
 title: "Architecture of Connected Customer Service with IoT Hub | MicrosoftDocs"
 description: "Learn about the architecture of Connected Customer Service with IoT Hub."
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: article
