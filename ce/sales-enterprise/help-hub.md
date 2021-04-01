@@ -2,8 +2,7 @@
 title: "Help resources for Dynamics 365 Sales Enterprise | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales."
 ms.date: 10/14/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -29,11 +28,11 @@ manager: annbe
 
 <li><a href="/power-platform/admin/create-users-assign-online-security-roles" data-raw-source="[Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)">Create users and assign security roles</a></li>
 <li><a href="set-up-product-catalog-walkthrough.md" data-raw-source="[Set up a product catalog](set-up-product-catalog-walkthrough.md)">Set up a product catalog</a></li>
-<li><a href="../admin/system-settings-dialog-box-sales-tab.md" data-raw-source="[Define sales settings](../admin/system-settings-dialog-box-sales-tab.md)">Define sales settings</a></li>
-<li><a href="../admin/system-settings-dialog-box-goals-tab.md" data-raw-source="[Define Goals settings](../admin/system-settings-dialog-box-goals-tab.md)">Define Goals settings</a></li>
+<li><a href="/power-platform/admin/system-settings-dialog-box-sales-tab" data-raw-source="[Define sales settings](/power-platform/admin/system-settings-dialog-box-sales-tab)">Define sales settings</a></li>
+<li><a href="/power-platform/admin/system-settings-dialog-box-goals-tab" data-raw-source="[Define Goals settings](/power-platform/admin/system-settings-dialog-box-goals-tab)">Define Goals settings</a></li>
 <li><a href="create-edit-goal-sales.md" data-raw-source="[Create or edit goals](create-edit-goal-sales.md)">Create or edit goals</a></li>
 <li><a href="configure-forecast.md" data-raw-source="[Configure forecasts in your organization](configure-forecast.md)">Configure forecasts in your organization</a></li>
-<li><a href="../admin/set-up-sales-territories-organize-business-markets-geographical-area.md" data-raw-source="[Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)">Set up sales territories to organize business markets</a></li>
+<li><a href="/power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area" data-raw-source="[Set up sales territories to organize business markets by geographical area](/power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area)">Set up sales territories to organize business markets</a></li>
 <li><a href="../sales-enterprise/admin-guide.md" data-raw-source="[More help resources for admins...](../sales-enterprise/admin-guide.md)">More help resources for admins...</a></li>
 </td></tr>
 
@@ -86,11 +85,13 @@ manager: annbe
 <tr><td>
 
 <h2>Microsoft Learn resources</h2>
-<li><a href="https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+<li><a href="/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
+<li><a href="/learn/paths/introduction-configuration-dynamics-365-model-driven-apps/" data-raw-source="[Introduction to configuration in Dynamics 365 model-driven apps](/learn/paths/introduction-configuration-dynamics-365-model-driven-apps/)">Introduction to configuration in Dynamics 365 model-driven apps</a></li>
+<li><a href="/learn/paths/apply-goal-management-dynamics-365/" data-raw-source="[Implement goal management in Dynamics 365 Sales and Customer Service](/learn/paths/apply-goal-management-dynamics-365/)">Implement goal management in Dynamics 365 Sales and Customer Service</a></li>
 </td>
 <td>
 <h2>Resources for other Sales apps</h2>
-<li><a href="../sales-enterprise/dynamics365-ai-sales.md" data-raw-source="[Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)">Dynamics 365 Sales Insights</a></li>
+<li><a href="/dynamics365/ai/sales/overview" data-raw-source="[Dynamics 365 Sales Insights](/dynamics365/ai/sales/overview)">Dynamics 365 Sales Insights</a></li>
 <li> <a href="../sales-professional/help-hub.md" data-raw-source="[Help resources for Dynamics 365 Sales Professional](../sales-professional/help-hub.md)">Help resources for Dynamics 365 Sales Professional</a></li>
 <li> <a href="../sales-professional/sales-professional-overview.md" data-raw-source="[Dynamics 365 Sales Professional Overview](../sales-professional/sales-professional-overview.md)">Dynamics 365 Sales Professional Overview</a></li>
 <li><a href="sales-team-member.md" data-raw-source="[Sales Team Member app for users with Team Member license](sales-team-member.md)">Sales Team Member app for users with Team Member license</a></li>

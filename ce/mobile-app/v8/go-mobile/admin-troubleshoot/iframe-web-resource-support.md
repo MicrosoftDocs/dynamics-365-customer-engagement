@@ -27,7 +27,7 @@ search.app:
 ---
 # iFrame and web resource support in Dynamics 365 for tablets
 
-You can add iFrames and web resources in forms and dashboards in the [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web app, and they will appear in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] as well. For example, if you add a news feed to a dashboard in the web app, the news feed will also appear in the tablet app. For more information about using iFrames and web resources, see [MSDN: Create web resources and iFrame content for use with the Dynamics 365 for tablets client](https://msdn.microsoft.com/library/dn858562.aspx).  
+You can add iFrames and web resources in forms and dashboards in the [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web app, and they will appear in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] as well. For example, if you add a news feed to a dashboard in the web app, the news feed will also appear in the tablet app. For more information about using iFrames and web resources, see [MSDN: Create web resources and iFrame content for use with the Dynamics 365 for tablets client](/previous-versions/dynamicscrm-2016/developers-guide/dn858562(v=crm.8)).  
   
 > [!NOTE]
 >  iFrames and web resources are supported on [!INCLUDE[tn_Apple_ipad](../../../../includes/tn-apple-ipad.md)], [!INCLUDE[tn_android](../../../../includes/tn-android.md)], and [!INCLUDE[pn_windows_10](../../../../includes/pn-windows-10.md)] tablets. Tablets running Windows 8.1 and earlier are not supported.  
@@ -48,7 +48,7 @@ You can add iFrames and web resources in forms and dashboards in the [!INCLUDE[p
 - [!INCLUDE[pn_MS_Silverlight_full](../../../../includes/pn-ms-silverlight-full.md)] and image web resources aren’t available on [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
   
 ### See also  
- [MSDN: Create web resources and iFrame content for use with the Dynamics 365 for tablets client](https://msdn.microsoft.com/library/dn858562.aspx)
+ [MSDN: Create web resources and iFrame content for use with the Dynamics 365 for tablets client](/previous-versions/dynamicscrm-2016/developers-guide/dn858562(v=crm.8))
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

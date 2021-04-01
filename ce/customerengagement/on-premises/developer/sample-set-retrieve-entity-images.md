@@ -31,7 +31,7 @@ This sample shows how to set and retrieve data for entity images. You can downlo
 
 ## What this sample does
 
-This sample shows how to create a connection role that can be used for accounts and contacts.
+This sample shows how to set and retrieve data for entity images.
 
 ## How this sample works
 

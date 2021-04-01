@@ -58,7 +58,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
     ![Go offline settings in Dynamics 365 for Outlook](../media/crmforoutlook-offline-sync-filters.png "Go offline settings in Dynamics 365 for Outlook")  
   
    > [!NOTE]
-   >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
+   >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](/previous-versions/dynamicscrm-2016/developers-guide/gg328205(v=crm.8))  
   
 3. Do one of the following:  
   

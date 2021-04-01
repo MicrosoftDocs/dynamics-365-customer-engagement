@@ -32,12 +32,12 @@ search.app:
 <a name="bkmk1"></a>
 
 ## First things first: Is your mobile device supported?
- If you’re not sure if your device is supported, [check the list of supported devices on TechNet](https://technet.microsoft.com/library/dn531131.aspx)
+ If you’re not sure if your device is supported, [check the list of supported devices on TechNet](../../set-up-manage/support.md)
 
 ## Privileges required to run the app
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../../../../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](https://technet.microsoft.com/library/dn531128.aspx).  
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../../../../customerengagement/on-premises/basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531128(v=crm.8)).  
 
 <a name="bkmk2"></a>
 ## Install the app from your device’s app store
@@ -54,19 +54,19 @@ search.app:
 <a name="bkmk4"></a>
 ## Help and how-to from TechNet
 
--   [Check to see if your device is supported](https://technet.microsoft.com/library/dn531131.aspx)
+-   [Check to see if your device is supported](../../set-up-manage/support.md)
 
--   [Troubleshoot performance issues](https://technet.microsoft.com/library/dn531131.aspx)
+-   [Troubleshoot performance issues](../../set-up-manage/support.md)
 
--   [General troubleshooting](https://technet.microsoft.com/library/dn660982.aspx)
+-   [General troubleshooting](/previous-versions/dynamicscrm-2016/dn660982(v=crm.8))
 
 <a name="bkmk5"></a>
 ## Privacy notice
  [!INCLUDE[cc_privacy_crm_for_tablets](../../../../includes/cc-privacy-crm-for-tablets.md)]
 
 ### See also
- [Signing in and signing out on Dynamics 365 for phones and tablets](sign-in-out.md)
- [TechNet: Phone and tablet support](https://technet.microsoft.com/library/dn531131.aspx)
+ [Signing in and signing out on Dynamics 365 for phones and tablets](./email-sign-in.md)
+ [TechNet: Phone and tablet support](../../set-up-manage/support.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

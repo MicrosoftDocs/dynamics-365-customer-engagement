@@ -47,7 +47,7 @@ search.audienceType:
 ## Reference  
  [Manage your documents using SharePoint](../admin/manage-documents-using-sharepoint.md)  
   
- [Office and SharePoint development](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)  
+ [Office and SharePoint development](/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)  
    
 ## Related Sections  
  [Extend Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)  

@@ -1,7 +1,8 @@
 
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
-# [Getting started with Field Service](user-guide.md)
+# [Field Service user guide](user-guide.md)
+# [Get started](field-service-get-started.md)
 
 # Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
@@ -40,13 +41,17 @@
 ## Inspections
 ### [Create and view inspections](inspections.md)
 ### [Advanced inspection options](inspections-advanced.md)
+### [Run reports on inspections](inspections-reporting.md)
 ## [Work order templates (incident types)](configure-incident-types.md)
 ## [Predictive work duration and resource proficiency suggestions (Preview)](analytics-predictive-work-duration.md)
 ## [Capture resolution details](work-order-resolutions.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
-# Bookable resources
+# Frontline workers & bookable resources
+## [Frontline worker setup](frontline-worker-set-up.md)
+### [Mailbox setup](frontline-worker-set-up-email-approval.md)
 ## [Set up bookable resources](set-up-bookable-resources.md)
+## [Display a bookable resource on the schedule board](add-resource-schedule-board.md)
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
@@ -66,6 +71,7 @@
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Booking timestamps + journals](booking-timestamps.md)
+### [Include appointments in scheduling](appointment-scheduling.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
 ### [Analytics dashboard](scheduling-analytics-reports.md)
@@ -102,6 +108,7 @@
 ## [Edit sitemap, forms, and views](mobile-power-app-configure.md)
 ## [Offline data and sync filters](mobile-power-app-system-offline.md)
 ## [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
+## [Booking maps](mobile-powerapp-booking-maps.md)
 ## [Push notifications](mobile-power-app-push-notifications.md)
 ## [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
 ## [Geofencing](mobile-powerapp-geofence.md)

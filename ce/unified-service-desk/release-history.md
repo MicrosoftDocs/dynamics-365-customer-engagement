@@ -1,8 +1,8 @@
 ---
 title: "Release history (Unified Service Desk )| MicrosoftDocs"
 description: "This topic provides release history information for the Unified Service Desk Guide."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/04/2021
 ms.topic: article
@@ -230,7 +230,7 @@ For information about this release, see [New feature information for administrat
 
 With [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] release, we have integrated content for agents, administrators, customizers, and developers under a single TOC on our new documentation site at docs.microsoft.com/dynamics365. The new documentation site provides a seamless experience to easily find and consume [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] (and other area) content for all the personas without having to navigate to different sites. More information: [Blog: New documentation site ](https://blogs.msdn.microsoft.com/crm/2017/07/13/new-documentation-site-for-dynamics-365/)
 
-Content for earlier version of Unified Service Desk continues to be available on [TechNet](https://technet.microsoft.com/library/dn499779.aspx) and [MSDN](https://msdn.microsoft.com/library/dn864923.aspx).
+Content for earlier version of Unified Service Desk continues to be available on [TechNet](/previous-versions/dn499779(v=usd.6)) and [MSDN](/previous-versions/dynamicsusd-2/developers-guide/dn864923(v=usd.2)).
 
 ### Related Topics
 [What's new for Administrators](../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md)

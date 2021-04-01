@@ -59,7 +59,7 @@ In an environment that supports claims-based authentication, a client (such as [
 CLASS MACHINECATEGORY "Microsoft CRM"    KEYNAME "Software\Policies\Microsoft\MSCRMClient"   POLICY "Home Realm URL"      EXPLAIN "Allow Administrator to specify the Home Realm URL for federated domains."      PART "Specify Home Realm URL (example: https://adfs.contoso.com/adfs/services/trust/mex" EDITTEXT REQUIREDVALUENAME "HomeRealmUrl"      END PART   END POLICYEND CATEGORY  
 ```  
   
- For more information, see [Administrative Template File Format](https://go.microsoft.com/fwlink/p/?LinkID=182923).  
+ For more information, see [Administrative Template File Format](/previous-versions/windows/desktop/Policy/administrative-template-file-format).  
   
 ## See Also  
  [Install Dynamics 365 for Outlook](../../../outlook-addin/admin-guide/install.md)   </br>

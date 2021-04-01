@@ -1,8 +1,8 @@
 ---
 title: "Known issues of performance enhancement for CRM entity page loads | MicrosoftDocs"
 description: "Learn about the known issues of the Internet Explorer pooling feature."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/15/2018
 ms.topic: article

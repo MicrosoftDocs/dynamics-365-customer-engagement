@@ -20,7 +20,7 @@ ms.author: matp
   
  ## Solution
   
- This is a warning and Setup can continue. However, we recommend that you remedy the index fragmentation by either reorganizing or rebuilding the indexes. After you have successfully defragmented the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database, run Setup again. For more information see [Reorganize and Rebuild Indexes](https://go.microsoft.com/fwlink/p/?LinkID=182157) in SQL Server Books Online.
+ This is a warning and Setup can continue. However, we recommend that you remedy the index fragmentation by either reorganizing or rebuilding the indexes. After you have successfully defragmented the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database, run Setup again. For more information see [Reorganize and Rebuild Indexes](/sql/relational-databases/indexes/reorganize-and-rebuild-indexes) in SQL Server Books Online.
 
 
 

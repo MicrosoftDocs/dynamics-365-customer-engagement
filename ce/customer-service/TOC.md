@@ -15,8 +15,9 @@
 ### [System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)
 ### [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
 
-## International availability
+## Availability
 ### [International availability of Omnichannel for Customer Service](international-availability.md)
+### [Dynamics 365 US Government Community Cloud (GCC) availability](government-availability.md)
 
 ## Accessibility and privacy
 ### [Accessibility](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
@@ -128,6 +129,9 @@
 #### [Set up knowledge search providers](set-up-search-providers.md)
 #### [Work with knowledge articles](work-knowledge-articles.md)
 #### [Create a knowledge article using a template](create-knowledge-article-using-template.md)
+#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
+#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Create and manage knowledge categories](create-manage-categories.md)
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
 #### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)
 #### [Search for and share knowledge articles](oc-search-knowledge-articles.md)
@@ -136,9 +140,7 @@
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Search for knowledge articles on smart assist](oc-search-knowledge-articles.md)
 #### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles)
-#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
-#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
-#### [Create and manage knowledge categories](create-manage-categories.md)
+
 ### Customize knowledge management
 #### [Knowledge base search](knowledge-base-search-methods.md)
 #### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
@@ -190,6 +192,9 @@
 #### [Initiate a chat](initiate-chat-wait-time.md)
 #### [Start chat proactively](start-proactive-chat.md)
 #### [Configure automatic closure of conversations](auto-close-conversation.md)
+#### [Manage custom context](send-context-starting-chat.md)
+#### [Display custom context](display-custom-context.md)
+#### [Send authentication token](send-auth-token-starting-chat.md)
 
 ### Customizer experience
 #### [Overview](omnichannel-customizer.md)
@@ -217,6 +222,9 @@
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
 #### [Asynchronous channel support](asynchronous-channels.md)
+#### Set up entity records channel
+##### [Route entity records](entity-channel.md)
+##### [Route trigger for entity records](routing-trigger.md)
 ### Agent experience
 #### [Use SMS channel](sms-telesign-twilio.md)
 #### [Use Facebook channel](facebook.md)
@@ -227,9 +235,7 @@
 #### Bring your own custom messaging channel
 ##### [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)
 ##### [Test the custom messaging channel](bring-your-own-channel-sample-html.md)
-#### Set up entity records channel
-##### [Route entity records](entity-channel.md)
-##### [Route trigger for entity records](routing-trigger.md)
+
 
 ## Advanced settings for chat and channels
 ### [Configure operating hours](create-operating-hours.md)
@@ -281,17 +287,19 @@
 ## Bots
 
 ### Administrator experience
-#### Configure bots
-##### [Integrate an Azure bot](configure-bot.md)
+
+#### [Integrate an Azure bot](configure-bot.md)
+
 #### [Configure context variables for bots](context-variables-for-bot.md)
 
+#### [Link customer and case when bot escalates to human agent](link-customer-case-when-bot-escalates.md)
+
 ### Developer experience
+
 #### [Enable bot context NuGet package](enable-bot-context.md)
+
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
-#### [Manage custom context](send-context-starting-chat.md)
-#### [Display custom context](display-custom-context.md)
-#### [Send authenticaion token](send-auth-token-starting-chat.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)

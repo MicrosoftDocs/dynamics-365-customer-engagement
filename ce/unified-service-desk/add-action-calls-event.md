@@ -1,8 +1,8 @@
 ---
 title: "Add action calls to an event | MicrosoftDocs"
 description: "Learn about adding action calls to an event."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2018
 ms.topic: article

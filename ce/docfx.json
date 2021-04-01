@@ -88,7 +88,8 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
       "feedback_product_url": "https://ideas.dynamics.com",
-      "search.appverid": "met150"
+      "search.appverid": "met150",
+      "recommendations": "true"
     },
     "fileMetadata": {
       "featureFlags": {
@@ -116,7 +117,7 @@
           "dynamics-sales"
         ]
       },
-      "feedback_product_url":{
+      "feedback_product_url": {
         "admin/**.*": "https://ideas.powerapps.com",
         "customize/**.*": "https://ideas.powerapps.com",
         "developer/**.*": "https://ideas.powerapps.com",
@@ -131,18 +132,18 @@
           "Dynamics 365"
         ],
         "customer-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Omnichannel",
           "Channel Integration Framework",
-          "Unified Service Desk",          
+          "Unified Service Desk",
           "Customer Service"
         ],
         "customerengagement/**.*": [
           "Dynamics 365",
           "Customer Engagement (on-premises)"
-        ],        
+        ],
         "field-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Field Service"
         ],
         "gamification/**.*": [
@@ -155,7 +156,7 @@
           "Sales"
         ],
         "marketing/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Marketing"
         ],
         "mobile-app/**.*": [
@@ -171,15 +172,15 @@
           "Dynamics 365"
         ],
         "project-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Project Service"
         ],
         "sales-enterprise/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Sales"
         ],
         "sales-professional/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Sales"
         ],
         "social-engagement/**.*": [
@@ -212,15 +213,36 @@
           "Omnichannel"
         ]
       },
-      "search.app":{
-        "omnichannel/**.*": ["D365CE", "D365CS"],
-        "sales-enterprise/**.*": ["D365CE", "D365Sales"],
-        "sales-professional/**.*": ["D365CE", "D365Sales"]
+      "search.app": {
+        "omnichannel/**.*": [
+          "D365CE",
+          "D365CS"
+        ],
+        "sales-enterprise/**.*": [
+          "D365CE",
+          "D365Sales"
+        ],
+        "sales-professional/**.*": [
+          "D365CE",
+          "D365Sales"
+        ]
       },
-      "search.audienceType":{
-        "omnichannel/**.*": ["admin", "customizer", "enduser"],
-        "sales-enterprise/**.*": ["admin", "customizer", "enduser"],
-        "sales-professional/**.*": ["admin", "customizer", "enduser"]
+      "search.audienceType": {
+        "omnichannel/**.*": [
+          "admin",
+          "customizer",
+          "enduser"
+        ],
+        "sales-enterprise/**.*": [
+          "admin",
+          "customizer",
+          "enduser"
+        ],
+        "sales-professional/**.*": [
+          "admin",
+          "customizer",
+          "enduser"
+        ]
       }
     },
     "template": [],
