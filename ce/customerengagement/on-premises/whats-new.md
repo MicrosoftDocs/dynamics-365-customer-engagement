@@ -16,9 +16,9 @@ This section lists the features that are included in the 9.1 update and are new 
 
 ## Enterprise Sales usability enhancements
 
-To make Dynamics 365 Sales better, we're continually introducing usability enhancements within the application that reduce friction and make features easier to use.
+For better sales capabilities in Customer Engagament (on-premises), we're continually introducing usability enhancements within the application that reduce friction and make features easier to use.
 
-### Familiar, modern email experience for agents
+### Sales: Familiar, modern email experience for agents
 
 Agents spend a significant amount of time using email to communicate with customers. Simple and intuitive email experiences help improve agent productivity and quality of service to customers. Email is also one of the core communications channels that sellers regularly use while interacting with customers and prospects. With the enhanced email (pop-up) experience available from the timeline, sellers will have a streamlined experience and greater flexibility, allowing them to respond to and view email correspondences without losing the current context. Additionally, sellers can be more productive with an improved file attachment experience that allows them to easily add and remove files to an email.
 
@@ -42,7 +42,7 @@ Agents spend a significant amount of time using email to communicate with custom
 
 More information: [Use email](/dynamics365/customer-service/customer-service-hub-user-guide-email-overview)
 
-### Familiar, modern email template experience for agents and administrators
+### Sales: Familiar, modern email template experience for agents and administrators
 
 Agents spend a significant amount of time using email to communicate with customers. They often need to communicate the same information to all customers at different stages in the support life cycle such as a welcome email, refund instructions, or a personalized signature. Email templates make these processes efficient and standardized across the support team by providing the ability to create once and use it any number of times.
 
@@ -60,7 +60,7 @@ Email templates enable scale, efficiency, and consistency of email communication
 
 More information: [Create email templates](/dynamics365/customer-service/customer-service-hub-user-guide-email-create-template)
 
-### Simplify your document workflows with enhanced PDF capabilities
+### Sales: Simplify your document workflows with enhanced PDF capabilities
 
 Organizations prefer creating and sharing offers or sales contracts in the form of non-editable PDF files to simplify and standardize the sales process and make it less error prone. To make it even easier to collaborate on these generated PDF files, Dynamics 365 Sales Hub optimizes the PDF generation experience further and extends the capability to custom entities.
 
@@ -76,7 +76,7 @@ Organizations prefer creating and sharing offers or sales contracts in the form 
 
 More information: [Create PDF files from sales records](/dynamics365/sales-enterprise/create-quote-pdf)
 
-### Get improved data management experience with simplified duplicate detection and merge capabilities
+### Sales: Get improved data management experience with simplified duplicate detection and merge capabilities
 
 Data quality not only affects business performance but has a direct effect on a user's experience and productivity, due to effort wasted on searching and reconciling data. Duplicate detection and merge capabilities play a significant role in keeping data clean. To enable organizations to maintain data hygiene, we're optimizing the duplicate detection and merge user experiences, which would help users to make an informed decision and avoid duplicate data entry.
 
