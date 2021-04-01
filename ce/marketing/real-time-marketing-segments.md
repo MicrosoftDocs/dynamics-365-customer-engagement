@@ -39,4 +39,4 @@ To add a segment to a condition, select any segment in **Attribute**.
 
 ## Segments created in Customer Insights
 
-Your segments from [Customer Insights](dynamics365/customer-insights/index.md) should also be readily available to you in **real-time Marketing**.
+If you connect a [Customer Insights](dynamics365/customer-insights/index.md) instance, segments from Customer Insights will also be available to you in real-time marketing.
