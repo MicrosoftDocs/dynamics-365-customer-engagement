@@ -1,11 +1,11 @@
 ---
 title: "SystemUser Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the SystemUser entity."
-ms.date: 03/16/2021
-ms.service: "dynamics-365-customerservice"
+ms.date: 04/01/2021
+ms.service: "crm-online"
 ms.topic: "reference"
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "platkat"
+ms.author: "ktaylor"
 manager: "shujoshi"
 search.audienceType: 
   - developer
@@ -135,13 +135,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_BotApplicationId](#BKMK_msdyn_BotApplicationId)
 - [msdyn_BotDescription](#BKMK_msdyn_BotDescription)
 - [msdyn_BotEndpoint](#BKMK_msdyn_BotEndpoint)
+- [msdyn_bothandle](#BKMK_msdyn_bothandle)
 - [msdyn_BotProvider](#BKMK_msdyn_BotProvider)
 - [msdyn_BotSecretKeys](#BKMK_msdyn_BotSecretKeys)
 - [msdyn_Capacity](#BKMK_msdyn_Capacity)
 - [msdyn_DefaultPresenceIdUser](#BKMK_msdyn_DefaultPresenceIdUser)
 - [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_gridwrappercontrolfield](#BKMK_msdyn_gridwrappercontrolfield)
+- [msdyn_phonenumberid](#BKMK_msdyn_phonenumberid)
 - [msdyn_UserType](#BKMK_msdyn_UserType)
+- [msdyusd_USDConfigurationId](#BKMK_msdyusd_USDConfigurationId)
 - [NickName](#BKMK_NickName)
 - [OutgoingEmailDeliveryMethod](#BKMK_OutgoingEmailDeliveryMethod)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -930,7 +933,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|License type of user.|
+|Description|License type of user. This is used only in the on-premises version of the product. Online licenses are managed through Microsoft 365 Office Portal|
 |DisplayName|License Type|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1463,6 +1466,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_bothandle"></a> msdyn_bothandle
+
+**Added by**: Omnichannel - Bot Enabler Patch Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Bot handle|
+|DisplayName|Bot handle|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_bothandle|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_BotProvider"></a> msdyn_BotProvider
 
 **Added by**: Omnichannel - Bot Enabler Patch Solution
@@ -1582,6 +1603,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msdyn_phonenumberid"></a> msdyn_phonenumberid
+
+**Added by**: Omnichannel - CommunicationBase Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Phone Number|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_phonenumberid|
+|RequiredLevel|None|
+|Targets|msdyn_ocphonenumber|
+|Type|Lookup|
+
+
 ### <a name="BKMK_msdyn_UserType"></a> msdyn_UserType
 
 **Added by**: Omnichannel – Base Solution
@@ -1603,6 +1640,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350000|CRM User|
 |192350001|BOT User|
 
+
+
+### <a name="BKMK_msdyusd_USDConfigurationId"></a> msdyusd_USDConfigurationId
+
+**Added by**: Dynamics Unified Service Desk Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Configuration associated with User.|
+|DisplayName|Unified Service Desk Configuration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyusd_usdconfigurationid|
+|RequiredLevel|None|
+|Targets|msdyusd_configuration|
+|Type|Lookup|
 
 
 ### <a name="BKMK_NickName"></a> NickName
@@ -2202,6 +2255,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
 - [msdyn_DefaultPresenceIdUserName](#BKMK_msdyn_DefaultPresenceIdUserName)
+- [msdyn_phonenumberidName](#BKMK_msdyn_phonenumberidName)
+- [msdyusd_USDConfigurationIdName](#BKMK_msdyusd_USDConfigurationIdName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [ParentSystemUserIdName](#BKMK_ParentSystemUserIdName)
@@ -2771,6 +2826,42 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|msdyn_defaultpresenceidusername|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_phonenumberidName"></a> msdyn_phonenumberidName
+
+**Added by**: Omnichannel - CommunicationBase Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_phonenumberidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyusd_USDConfigurationIdName"></a> msdyusd_USDConfigurationIdName
+
+**Added by**: Dynamics Unified Service Desk Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyusd_usdconfigurationidname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|

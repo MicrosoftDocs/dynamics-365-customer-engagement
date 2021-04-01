@@ -1,18 +1,17 @@
 ---
 title: "Queue Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Queue entity."
+ms.date: 04/01/2021
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "platkat"
 ms.author: "ktaylor"
 manager: "shujoshi"
-ms.date: 10/12/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
-ms.reviewer: nenellim
 ---
 # Queue Entity Reference
 
@@ -71,6 +70,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IncomingEmailDeliveryMethod](#BKMK_IncomingEmailDeliveryMethod)
 - [IncomingEmailFilteringMethod](#BKMK_IncomingEmailFilteringMethod)
+- [msdyn_assignmentinputcontractid](#BKMK_msdyn_assignmentinputcontractid)
+- [msdyn_assignmentstrategy](#BKMK_msdyn_assignmentstrategy)
 - [msdyn_isdefaultqueue](#BKMK_msdyn_isdefaultqueue)
 - [msdyn_isomnichannelqueue](#BKMK_msdyn_isomnichannelqueue)
 - [msdyn_operatinghourid](#BKMK_msdyn_operatinghourid)
@@ -258,6 +259,46 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |2|Email messages from Dynamics 365 Leads, Contacts and Accounts|
 |3|Email messages from Dynamics 365 records that are email enabled|
 |4|No email messages|
+
+
+
+### <a name="BKMK_msdyn_assignmentinputcontractid"></a> msdyn_assignmentinputcontractid
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Link assignment input contract with queue.|
+|DisplayName|Assignment Input Contract Id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_assignmentinputcontractid|
+|RequiredLevel|None|
+|Targets|msdyn_decisioncontract|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_assignmentstrategy"></a> msdyn_assignmentstrategy
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Assignment Strategy|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_assignmentstrategy|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_assignmentstrategy Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Omnichannel Assignment|
+|192350001|Round Robin|
+|192350002|Custom Assignment Configuration|
 
 
 
@@ -585,6 +626,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_assignmentinputcontractidName](#BKMK_msdyn_assignmentinputcontractidName)
 - [msdyn_operatinghouridName](#BKMK_msdyn_operatinghouridName)
 - [NumberOfItems](#BKMK_NumberOfItems)
 - [NumberOfMembers](#BKMK_NumberOfMembers)
@@ -1023,6 +1065,24 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_assignmentinputcontractidName"></a> msdyn_assignmentinputcontractidName
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_assignmentinputcontractidname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_operatinghouridName"></a> msdyn_operatinghouridName
 
 **Added by**: Omnichannel - Base Patch Solution
@@ -1259,93 +1319,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_queue_system_user"></a> queue_system_user
-
-Same as systemuser entity [queue_system_user](systemuser.md#BKMK_queue_system_user) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|systemuser|
-|ReferencingAttribute|queueid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|queue_system_user|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-- [lk_queue_modifiedonbehalfby](#BKMK_lk_queue_modifiedonbehalfby)
-- [lk_queuebase_createdby](#BKMK_lk_queuebase_createdby)
-- [lk_queuebase_modifiedby](#BKMK_lk_queuebase_modifiedby)
-- [queue_primary_user](#BKMK_queue_primary_user)
-- [lk_queue_createdonbehalfby](#BKMK_lk_queue_createdonbehalfby)
-
-
-### <a name="BKMK_lk_queue_modifiedonbehalfby"></a> lk_queue_modifiedonbehalfby
-
-See systemuser Entity [lk_queue_modifiedonbehalfby](systemuser.md#BKMK_lk_queue_modifiedonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_lk_queuebase_createdby"></a> lk_queuebase_createdby
-
-See systemuser Entity [lk_queuebase_createdby](systemuser.md#BKMK_lk_queuebase_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_queuebase_modifiedby"></a> lk_queuebase_modifiedby
-
-See systemuser Entity [lk_queuebase_modifiedby](systemuser.md#BKMK_lk_queuebase_modifiedby) One-To-Many relationship.
-
-### <a name="BKMK_queue_primary_user"></a> queue_primary_user
-
-See systemuser Entity [queue_primary_user](systemuser.md#BKMK_queue_primary_user) One-To-Many relationship.
-
-### <a name="BKMK_lk_queue_createdonbehalfby"></a> lk_queue_createdonbehalfby
-
-See systemuser Entity [lk_queue_createdonbehalfby](systemuser.md#BKMK_lk_queue_createdonbehalfby) One-To-Many relationship.
-<a name="manytomany"></a>
-
-## Many-To-Many Relationships
-
-Relationship details provided where the Queue entity is the first entity in the relationship. Listed by **SchemaName**.
-
-
-### <a name="BKMK_queuemembership_association"></a> queuemembership_association
-
-IntersectEntityName: queuemembership<br />
-#### Entity 1
-
-|Property|Value|
-|--------|-----|
-|IntersectAttribute|queueid|
-|IsCustomizable|False|
-|LogicalName|queue|
-|NavigationPropertyName|queuemembership_association|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-
-#### Entity 2
-
-|Property|Value|
-|--------|-----|
-|LogicalName|systemuser|
-|IntersectAttribute|systemuserid|
-|NavigationPropertyName|queuemembership_association|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
