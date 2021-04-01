@@ -10,11 +10,6 @@ ms.service: "dynamics-365-customerservice"
 ---
 
 
-
-<!-- The editors are checking terms like "model-driven apps" to make sure they are correct according to the latest guidance. The term is used here in line 213. It's hard to tell if it's correct. Can you check the style guidance (https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=45145) and update if needed? -->
-
-
-
 # Learn the basics of the Customer Service Hub
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
