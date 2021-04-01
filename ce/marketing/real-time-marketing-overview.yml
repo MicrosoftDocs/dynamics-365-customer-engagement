@@ -1,0 +1,86 @@
+### YamlMime:Landing
+
+title: Customer journey orchestration documentation
+summary: From segment-based marketing campaigns to moments-based interactions, customer journey orchestration helps you create deeply personalized customer journeys.
+
+metadata:
+  title: "Customer journey orchestration documentation (Dynamics 365 Marketing) | Microsoft Docs"
+  description: "Documentation detailing how to use Dynamics 365 Marketing customer journey orchestration features."
+  ms.date: 03/08/2021
+  ms.service: dynamics-365-marketing
+  ms.custom: 
+    - dyn365-marketing
+  ms.topic: hub-page
+  author: alfergus
+  ms.author: alfergus
+  manager: shellyha
+  search.audienceType: 
+    - admin
+    - customizer
+    - enduser
+  search.app: 
+    - D365CE
+    - D365Mktg
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Customer journey orchestration overview
+            url: cjo-overview.md
+      - linkListType: quickstart
+        links:
+          - text: Get started with customer journey orchestration
+            url: quickstart-cjo.md
+
+  # Card
+  - title: How-tos
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Import a segment
+            url: import-segment.md
+          - text: Create a journey
+            url: create-journey.md
+          - text: Experiment and refine the journey
+            url: experimentation.md
+          - text: Create and send text messages
+            url: text-messages.md
+          - text: Gain insights through journey analytics
+            url: journey-analytics.md
+
+  # Card
+  - title: Developer resources
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+
+  # Card
+  - title: cardtitle4
+    linkLists:
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
+      - linkListType: linkListType
+        links:
+          - text: linktext1
+            url: file1.md
+          - text: linktext2
+            url: file2.md
