@@ -2,8 +2,7 @@
 title: "Move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional | MicrosoftDocs"
 description: "Follow the steps in this topic to move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional."
 ms.date: 03/29/2021
-ms.service:
-  - "dynamics-365-customer-service"
+ms.service: "dynamics-365-customerservice"
 ms.topic: article
 author: platkat
 ms.author: ktaylor
@@ -14,16 +13,16 @@ manager: shujoshi
 
 Customer Service Professional is targeted at businesses that have fewer needs and do not require the full capabilities Customer Service Enterprise. If you ever want to switch from Customer Service Enterprise to Customer Service Professional, do the following:
 
-1.	Purchase a Customer Service Professional subscription.
+1. Purchase a Customer Service Professional subscription.
 
-2.	Assign Customer Service Professional licenses to the users and remove the Customer Service Enterprise licenses from the users.
+2. Assign Customer Service Professional licenses to the users and remove the Customer Service Enterprise licenses from the users.
 
-3.	Review the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
+3. Review the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 
 ## Purchase a Customer Service Professional subscription
 
-1.  Sign in to the  [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
+1. Sign in to the  [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
 
 2.  In the navigation pane, expand **Billing** and select **Purchase Services**, and then select the Dynamics 365 Customer Service Professional tile. 
 
@@ -45,7 +44,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 4.	Select the license for your Dynamics 365 Customer Service Professional plan. 
 
-5.	Click **Save changes**. 
+5.	Click **Save changes**.
 
 6.	Review the license status on the **Active users** page and make other assignments as needed. 
 
