@@ -18,7 +18,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Public Preview: Use Edge Process to host web applications
+# Use Edge Process to host web applications (deprecated)
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

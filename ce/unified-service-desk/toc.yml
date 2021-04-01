@@ -144,6 +144,8 @@
     href: admin/performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
+  - name: Recover Edge WebView2 Process instance
+    href: admin/recover-edge-webview2-process-instance.md
   - name: Recover Chrome Process instance
     href: admin/recover-chrome-process-instance.md
   - name: Configure close confirmation window
@@ -192,16 +194,18 @@
         items:
         - name: Select a hosting method for your controls
           href: select-hosting-method-controls.md
-        - name: Use Edge Process to host web applications (Preview)
-          href: edge-process.md
+        - name: Use Edge WebView2 Process to host web applications
+          href: edge-webview2-process.md
         - name: Use Chrome Process to host web applications
           href: chrome-process.md       
-        - name: Use IE Process to host web applications
-          href: ie-process.md
-        - name: Use Internal WPF to host web applications
-          href: internal-wpf.md
         - name: Use Web Hosted Application to host web applications
           href: web-hosted-application.md
+        - name: Use IE Process to host web applications (deprecated)
+          href: ie-process.md
+        - name: Use Internal WPF to host web applications (deprecated)
+          href: internal-wpf.md
+        - name: Use Edge Process to host web applications (legacy - discontinued)
+          href: edge-process.md
         - name: Behavior in Chrome Process and IE Process
           href: hosting-type-differences.md
       - name: Create or edit a hosted control

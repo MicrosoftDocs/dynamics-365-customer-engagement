@@ -152,7 +152,10 @@ Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes
    | `ZoomResetControlKey` | By default, you can select **Ctrl**+**0** to reset the zoom while using Chrome Process to host web applications in Unified Service Desk. As an admin, you can use the `ZoomResetControlKey` option to add additional keyboard shortcuts by assigning a different key combination. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set zoom in, zoom out, and zoom reset keyboard shortcuts](../chrome-process.md#set-zoom-in-zoom-out-and-zoom-reset-keyboard-shortcuts)|
    |            **Others**            | This option allows you to type one of the global options listed in this table that doesn't appear in the **Global Options** list. | 
 
+For now draft content for Edge WebView2 (4.2) here, later after you get moniker range 4.2 add it there.
+
 ::: moniker-end
+
 
 5. Select **Save**.
 
