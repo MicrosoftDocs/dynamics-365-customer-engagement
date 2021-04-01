@@ -279,9 +279,9 @@ To disable Edge WebView2 Process pooling:
 
 9. Select **Save**.
 
-### Skip inline entity navigation in Edge WebView2 Process pooling - need confirmation on UII option
+### Skip inline entity navigation in Edge WebView2 Process pooling
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2Pooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockchromeprocesspooling-uii-option)
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2Pooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockedgewebview2pooling-uii-option)
 
 #### Add the BlockEdgeWebView2Pooling UII option
 
@@ -316,7 +316,7 @@ In Edge WebView2 Process, the command bar is always shown on the pooled Edge Web
 
 Use the **BlockEdgeWebView2Pooling** UII option if you want to hide the command bar for a specific entity in the Edge WebView2 Process pooled instances.
 
-See [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+See [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockedgewebview2pooling-uii-option) to know how to add the UII option.
 
 #### Hide command bar for all the entities
 
@@ -351,7 +351,7 @@ In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebVie
 
 Use the **BlockEdgeWebView2Pooling** UII option if you want to show the nav bar for a specific entity in the Edge WebView2 Process pooled instances.
 
-See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockedgewebview2pooling-uii-option) to know how to add the UII option.
 
 #### Show nav bar for all the entities
 

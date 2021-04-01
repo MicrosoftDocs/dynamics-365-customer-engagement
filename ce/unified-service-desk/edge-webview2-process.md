@@ -15,7 +15,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange: '>= dynamics-usd-4.1'
+monikerRange: '>= dynamics-usd-4.2'
 ---
 
 # Use Edge WebView2 Process to host web applications
@@ -36,8 +36,6 @@ Also, administrators will be able to perform the following:
 
 - Select Edge process as the hosting type for the organization.
 - Select Edge process as the hosting type for select web applications, alongside Internet Explorer and Microsoft Edge.
-
-You can select Edge WebView2 Process as the hosting method for the **KM Control**, **Unified Interface Page**, **Unified Interface KM Control**, **CRM Page**, **Channel Integration Framework**, and **Standard Web Application** types of hosted controls.
 
 
 ## Edge WebView2 Process settings
@@ -80,7 +78,7 @@ When you are creating a new hosted control, you can select **Edge WebView2 Proce
 4. To create a new hosted control, select **New**.
 
 5. On the **New Hosted Control** page, specify the details and select **Edge WebView2 process** from the **Hosting Type** drop-down.<br>
-![Edge Process hosted control](media/edge-process-hosted-control.PNG "Edge Process hosted control")
+![Edge WebView2 Process hosted control](media/edge-webview2-process-hosted-control.PNG "Edge WebView2 Process hosted control")
 
 6. Select **Save** to create the hosted control.
 
@@ -90,10 +88,8 @@ When you are creating a new hosted control, you can select **Edge WebView2 Proce
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 
 2. Under the `<appSettings>` section add the new key.<br>
-`<add key="GlobalBrowserMode" value="Edge"/>`
+`<add key="GlobalBrowserMode" value="EdgeWebView2"/>`
 
-  > [!div class="mx-imageBorder"]
-  > ![Edge Process configuration setting key](media/edge-process-app-config-file-setting.PNG "Edge Process configuration setting key")
 
 3. Save the file.
 
@@ -115,7 +111,6 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
 7. Select **Save**.
 
-![Edge process global uii option](media/edge-process-global-uii-option.gif "Edge process global uii option")
 
 ## Debug Edge WebView2 Process using Microsoft Edge DevTools Preview
 
@@ -267,7 +262,7 @@ The confirmation dialog box is displayed if this UII option has been added or th
 
 ## Limitations
 
-To learn about the limitations of the Edge WebView2 Process, see [Edge Process limitations](release-notes.md)
+To learn about the limitations of the Edge WebView2 Process, see [Edge WebView2 Process limitations](release-notes.md)
 
 ## See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
