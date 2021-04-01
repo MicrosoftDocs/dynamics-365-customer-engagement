@@ -1,8 +1,8 @@
 ---
 title: "Programming reference in Unified Service Desk | MicrosoftDocs"
 description: "The reference documentation for the public assemblies that constitute the Unified Service Desk and User Interface Integration (UII) SDK."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

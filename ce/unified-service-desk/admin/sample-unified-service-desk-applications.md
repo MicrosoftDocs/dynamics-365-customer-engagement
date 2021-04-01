@@ -1,8 +1,8 @@
 ---
 title: "Sample Unified Service Desk | MicrosoftDocs"
 description: "Discover the sample application available with Unified Service Desk  that you can use to quickly get you started."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

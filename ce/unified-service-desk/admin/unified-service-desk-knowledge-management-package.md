@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk  – Knowledge Management package | MicrosoftDocs"
 description: "Overview of the Knowledge Management sample application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

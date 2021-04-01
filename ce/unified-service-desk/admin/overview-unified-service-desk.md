@@ -1,8 +1,8 @@
 ---
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
 description: "Get started with Unified Service Desk"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: hero-article

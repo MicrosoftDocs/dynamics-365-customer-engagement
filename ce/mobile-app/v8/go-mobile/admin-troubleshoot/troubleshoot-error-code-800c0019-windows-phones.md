@@ -42,8 +42,8 @@ If you get error code 800c0019 when you try to sign in to your [!INCLUDE[cc_Micr
 4.  Set the correct values for **Time zone**, **Date**, and **Time**.  
   
 ### See also  
- [TechNet: Troubleshooting and things to know about CRM for phones express](https://technet.microsoft.com/library/dn660977.aspx)   
- [TechNet: Troubleshooting and things to know about Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn660982.aspx)
+ [TechNet: Troubleshooting and things to know about CRM for phones express](/previous-versions/dynamicscrm-2016/dn660977(v=crm.8))   
+ [TechNet: Troubleshooting and things to know about Dynamics 365 for phones and tablets](/previous-versions/dynamicscrm-2016/dn660982(v=crm.8))
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
