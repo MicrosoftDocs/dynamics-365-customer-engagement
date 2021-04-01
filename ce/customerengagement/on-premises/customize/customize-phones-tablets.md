@@ -72,7 +72,11 @@ That way, if you think phone users need to focus only on the primary information
 
 <a name="BKMK_CustomEntity"></a>   
 ## Entities displayed in Dynamics 365 for phones and tablets  
- You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and review the **Outlook & Mobile** settings.  
+
+> [!NOTE]
+>  The following section describes behavior that is no longer supported in 9.x; it will be deprecated in a future release. To remove entities on mobile devices, we recommend that you create a new model-driven app that only includes the desired entities.
+
+You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and review the **Outlook & Mobile** settings.  
 
  Note the following:  
 
