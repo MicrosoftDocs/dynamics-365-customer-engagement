@@ -20,7 +20,7 @@ search.app:
 
 # Unified Routing Diagnostics
 
-Unified routing helps you assign work items to the best suited agent or queue. You can check the progress, status and understand where a work item is stuck. With unified routing you can prioritize and then choose which work item can be assigned to agents based on the agents' skills and related entities. 
+Unified routing helps you assign work items to the best suited agent or queue. You can check the progress and status of a work item. With unified routing you can prioritize and then choose which work item can be assigned to agents based on the agents' skills and related entities. 
 
 ## Opt-in to routing diagnostics
 
@@ -36,9 +36,11 @@ To see data related to work items and their status, you need to opt-in to routin
 
 You will now be able to see a list of work items on your screen.
 
+< screenshot to be added here>
+
 ## Understanding routing stages and diagnostics
 
-On your **Routing diagnostics** page, you will find a list of work items and the data and stages of each work item. This table details the information to help you understand routing diagnostics.
+On your **Routing diagnostics** page, you will find a list of work items and the details and stages of each work item. This table displays the information to help you understand routing diagnostics.
 
 | Work item | Routing status | Routing started on | Routing duration | Work stream | Queue |
 |----------- | ------------- | -------------- | ------------ | ---------- | ------------ | 
