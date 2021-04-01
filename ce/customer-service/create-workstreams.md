@@ -24,7 +24,9 @@ The workstream can be of one of the following types:
 
 
 > [!IMPORTANT]
-> Entity routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing.
+>
+> - Entity routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing.
+> - Workstreams that you created in Omnichannel Administration app can't be modified
 
 ## Create a workstream in Omnichannel admin center
 
@@ -37,8 +39,8 @@ Perform the following steps:
     - **Type:** Select one of the following types:
       - **Messaging:** To configure the workstream for chat and other conversation channels.
       - **Record:** To configure the workstream for entity record, such as case and email activity.
-    - **Channel:** Is applicable if you have selected the type as Messaging. Select a channel from the list.
-    - **Record:** Is applicable if you have selected the type as Record. Select the entity record from the list.
+    - **Channel:** This box appears if you have selected the type as Messaging. Select a channel from the list.
+    - **Record:** This box appears if you have selected the type as Record. Select the entity record from the list.
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
@@ -51,6 +53,7 @@ Perform the following steps:
    - [Configure a Twitter channel](configure-twitter-channel.md)
    - [Configure a WhatsApp channel](configure-whatsapp-channel.md)
    - [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
+   - [Configure an SMS channel through TeleSign](configure-sms-channel.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
 5. Configure routing rules for the worksteam. More information: [Configure work classification rules](configure-work-classification.md)
 6. If you want to configure route to queues, see [Configure route to queues](configure-work-classification.md#configure-route-to-queues-ruleset-and-rules)

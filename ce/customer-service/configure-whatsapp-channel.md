@@ -67,7 +67,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
     4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box. You'll use the copied information for Twilio account.
     5. Select **Done**. The account is added to the list.
 3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
-4. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up WhatsApp**, and configure the following options:
+4. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up WhatsApp** to configure the following options:
     1. On the **WhatsApp number** page, in the **Available WhatsApp numbers** list, select the number that you created.
     2. On the **Language** page, select the language.
     3. On the **Behaviors** page, configure the following options:
