@@ -30,7 +30,7 @@ To see data related to work items and their status, you need to opt-in to routin
 
 2. Go to Customer Service Hub and navigate to the **Service Management** work area.
 
-                               or
+ or
 
 Sign in to Omnichannel admin centre.
 
@@ -47,6 +47,7 @@ You will now be able to see a list of work items on your screen.
 ## Understand routing stages and diagnostics
 
 On your **Routing diagnostics** page, you will find a list of work items and the details and stages of each work item. This table displays the information to help you understand routing diagnostics.
+
 
 | Work item | Routing status | Routing started on | Routing duration | Work stream | Queue |
 |----------- | ------------- | -------------- | ------------ | ---------- | ------------ | 
@@ -77,7 +78,6 @@ If a work item does not run through a particular ruleset in **Classification rul
 
  < screenshot to be added here>
 
-If a work item matches with the second rule set, it does not execute further.
 
 ### Route to queue
 
