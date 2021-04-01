@@ -1,12 +1,12 @@
 ### YamlMime:Landing
 
-title: Customer journey orchestration documentation
-summary: From segment-based marketing campaigns to moments-based interactions, customer journey orchestration helps you create deeply personalized customer journeys.
+title: Real-time marketing overview
+summary: Get a quick overview of real-time marketing capabilities, features, and benefits in Dynamics 365 Marketing.
 
 metadata:
-  title: "Customer journey orchestration documentation (Dynamics 365 Marketing) | Microsoft Docs"
-  description: "Documentation detailing how to use Dynamics 365 Marketing customer journey orchestration features."
-  ms.date: 03/08/2021
+  title: "Real-time marketing overview (Dynamics 365 Marketing) | Microsoft Docs"
+  description: "Get a quick overview of real-time marketing capabilities, features, and benefits in Dynamics 365 Marketing."
+  ms.date: 03/01/2021
   ms.service: dynamics-365-marketing
   ms.custom: 
     - dyn365-marketing
@@ -26,16 +26,16 @@ metadata:
 
 landingContent:
   # Card
-  - title: Get started
+  - title: Get started with real-time marketing
     linkLists:
-      - linkListType: overview
-        links:
-          - text: Customer journey orchestration overview
-            url: cjo-overview.md
       - linkListType: quickstart
         links:
-          - text: Get started with customer journey orchestration
-            url: quickstart-cjo.md
+          - text: Real-time marketing quickstart guide
+            url: real-time-marketing-quickstart.md
+      - linkListType: quickstart
+        links:
+          - text: Known issues in real-time marketing
+            url: real-time-marketing-known-issues.md
 
   # Card
   - title: How-tos
