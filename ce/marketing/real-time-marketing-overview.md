@@ -35,29 +35,30 @@ Welcome to real-time marketing in Dynamics 365 Marketing.
 ## Customer engagement
 
 - [Create an event-based journey](real-time-marketing-event-based-journey.md)
-- [Create a segment-based journey](create-journey.md)
-- [Experiment and refine the journey](experimentation.md)
-- [Create and send text messages](text-messages.md)
-- [Gain insights through journey analytics](journey-analytics.md)
+- [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
+- [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md)
+- [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
+- [Access and interpret single journey analytics](real-time-marketing-single-journey-analytics.md)
+- [Access and interpret goal analytics](real-time-marketing-goal-analytics.md)
+- [Access and interpret aggregate analytics](real-time-marketing-aggregate-analytics.md)
+- [Real-time marketing channel analytics](real-time-marketing-channel-analytics.md)
+- [Real-time marketing event triggers](real-time-marketing-event-triggers.md)
 
-## Developer resources
+## Audience
 
-<!--- [Web SDK tutorial](get-started-websdk.md) -->
-<!--- [Web SDK sample](websdk-sample.md) -->
-- [Power Automate connectors](connectors.md)
-- [Implement push notifications](push-notifications.md)
+- [Work with real-time marketing segments](real-time-marketing-segments.md)
+- [Data protection and the GDPR for real-time marketing](real-time-marketing-gdpr.md)
+- [Manage user compliance settings](real-time-marketing-compliance-settings.md)
+- [Real-time marketing link tracking mechanics](real-time-marketing-link-tracking-mechanics.md)
+- [Manage email and text consent settings](real-time-marketing-email-text-consent.md)
+- [Outbound marketing consent](real-time-marketing-outbound-consent.md)
 
-## GDPR requests and compliance
+## Channels
 
-- [Data protection and the GDPR](gdpr.md)
-- [Manage user compliance settings](compliance-settings.md)
-- [Link tracking mechanics](tracking-mechanics.md)
-- [Delete and export user data](delete-export-data.md)
+- [Create real-time marketing emails](real-time-marketing-email.md)
+- [Create push notifications](real-time-marketing-push-notifications.md)
+- [Create outbound text messages](real-time-marketing-outbound-text-messaging.md)
 
-## Terms of service
+## Assets
 
-- [Terms of service for the preview](preview-terms-of-service.md)
-
-## Terminology
-
-- [Concepts and terms](concepts-terms.md)
+- [Real-time marketing asset library](real-time-marketing-asset-library.md)
