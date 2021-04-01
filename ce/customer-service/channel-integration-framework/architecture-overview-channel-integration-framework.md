@@ -12,10 +12,6 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-<!-- The editors are reviewing uses of "model-drive app" to make sure they're up to date according to the style guide. This topic uses the term multiple times (in the image as well). Can you please review the uses here and see if they comply with the style guide? https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=45145 I am not certain if the term is used correctly here. -->
-
-
-
 # Architecture overview of Dynamics 365 Channel Integration Framework 
 
 Dynamics 365 Channel Integration Framework version 1.0 provides an extensible framework to integrate third-party channel providers to serve your customers with more focus and agility.
