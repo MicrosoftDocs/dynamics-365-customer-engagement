@@ -57,7 +57,7 @@ It depends on if the user has permissions to access the Dynamics 365 app record.
 
 If they have permissions to access the app record, then the user can edit the record in Dynamics 365, but can't access the files from Dynamics 365, SharePoint, or Microsoft Teams.
 
-If they don't have permission to access the Dynamics 365 app record, then the user will get an error and they won't have access to the file from Dynamics 365 , SharePoint, or Microsoft Teams
+If they don't have permission to access the Dynamics 365 app record, then the user will get an error and they won't have access to the file from Dynamics 365, SharePoint, or Microsoft Teams
 
 #### 5. What permissions does a user get when I add them to a Microsoft Teams channel that has pinned records and documents added to the files tab?
 It depends on if the user has permissions to access the Dynamics 365 app record.
@@ -76,7 +76,7 @@ Adding a file from a Dynamics 365 app record that is not linked to a Teams chann
 
 When adding a file from a Microsoft Teams channel that is linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents >[Channel Name] > [File Name]. The file is visible in both the Microsoft Teams channel's Files tab and the Dynamics record's Document Associated Grid.
 
-When adding a file from a a Teams channel that is not linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [File Name]. The file is visible in the Microsoft Teams channel's Files tab.
+When adding a file from a Teams channel that is not linked to a Dynamics 365 app record, the document is stored in a SharePoint folder with the file path [Team Name] > Documents > [Channel Name] > [File Name]. The file is visible in the Microsoft Teams channel's Files tab.
 
 When a Microsoft Teams channel has multiple Dynamics 365 app records associated with it, the document is stored in a SharePoint folder with the file path [Team Name] > Documents >[Channel Name] > [File Name]. The file is visible in the Microsoft Teams channel from the files tab and the document associated grid for all Dynamics 365 app records associated with the channel.
 
