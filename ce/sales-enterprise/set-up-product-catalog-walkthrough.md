@@ -8,6 +8,8 @@ ms.topic: get-started-article
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Set up a product catalog 

@@ -2,8 +2,7 @@
 title: "exportPdf Action | MicrosoftDocs"
 description: ""
 ms.date: 09/08/2020
-ms.service: 
-  - crm-online
+ms.service: crm-online
 ms.topic: article
 author: susikka
 ms.author: susikka

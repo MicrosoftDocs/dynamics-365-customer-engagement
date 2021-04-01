@@ -2,8 +2,7 @@
 title: "Help resources for Dynamics 365 Sales Professional| Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Sales Professional."
 ms.date: 08/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

@@ -1,8 +1,8 @@
 ---
 title: "msdyn_facebookengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_facebookengagementctx entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"

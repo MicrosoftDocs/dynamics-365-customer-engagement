@@ -1,8 +1,8 @@
 ---
 title: "Unified Interface Page hosted control to load a page from a model-driven app | MicrosoftDocs"
 description: "Learn about the Unified Interface Page hosted control type to load a URL or page from a model-driven app. When a model-driven app page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/12/2020
 ms.topic: article

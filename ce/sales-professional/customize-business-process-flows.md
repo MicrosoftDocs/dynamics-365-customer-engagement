@@ -2,14 +2,13 @@
 title: "Customize business process flows (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Creating a business process flow in Dynamics 365 Sales Professional to provide your users a guided experience to ensure they enter data consistently and follow the same steps every time."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Customize business process flows (Sales Professional)

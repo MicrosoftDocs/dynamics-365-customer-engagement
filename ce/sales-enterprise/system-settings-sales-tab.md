@@ -2,8 +2,7 @@
 title: "System Settings dialog box - Sales tab  | MicrosoftDocs"
 description: "Learn about the system-level settings for Dynamics 365 Sales."
 ms.date: 04/17/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
