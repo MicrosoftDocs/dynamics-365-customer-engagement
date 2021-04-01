@@ -12,7 +12,7 @@
 ### Sales management
 #### [Overview of admin settings](admin-settings-overview.md)
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
-#### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
+#### [Set up sales territories](/power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area)
 #### [System Settings - Sales](system-settings-sales-tab.md)
 #### [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)
 #### [Set up enhanced email](set-up-enhanced-email.md)
@@ -49,7 +49,7 @@
 #### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
 
 ### Goal management
-#### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
+#### [Goal settings](/power-platform/admin/system-settings-dialog-box-goals-tab)
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)
 #### [Define a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
@@ -109,7 +109,7 @@
 ### [Work with activities in the Kanban view](activity-kanban-view.md)  
 
 ### Manage customers
-#### [Work with accounts and contacts](../basics/accounts-contacts.md)
+#### [Work with accounts and contacts](../customerengagement/on-premises/basics/accounts-contacts.md)
 #### [Understand the LinkedIn Sales Insights tab](understand-lsi-accounts-form.md)
 #### [Organize contacts in live org charts for accounts](live-org-chart.md)
 #### [Scan business cards](scan-business-cards.md)
