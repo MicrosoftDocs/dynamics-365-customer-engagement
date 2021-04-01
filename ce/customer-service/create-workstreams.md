@@ -13,14 +13,19 @@ ms.service: "dynamics-365-customerservice"
 
 ## Overview
 
+
+
+<!-- As with some of these other topics, I am unsure about the use of Omnichannel in the first paragraph here as well as lines 34, 38. Should it be Omnichannel for Customer Service admin center? And Omnichannel for Customer Service administration apps? Here is the style guidance: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48167 -->
+
+
 A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
 
-A work stream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the work stream they belong to.
+A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to.
 
-The workstream can be of one of the following types:
+The workstream can be one of the following types:
 
-**Messaging:** To route conversations from live chat, SMS, social, and Teams channels
-**Record:** To route entity records
+**Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
+**Record**: To route entity records.
 
 
 > [!IMPORTANT]
@@ -32,13 +37,13 @@ Perform the following steps:
 
 1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**, and then select **New**.
 2. In the **Create a workstream** dialog box, enter the following details:
-    - **Name:** Enter an intuitive name, such as **Contoso chat workstream**.
-    - **Work distribution mode:** Select **Push** or **Pick**.
-    - **Type:** Select one of the following types:
-      - **Messaging:** To configure the workstream for chat and other conversation channels.
-      - **Record:** To configure the workstream for entity record, such as case and email activity.
-    - **Channel:** Is applicable if you have selected the type as Messaging. Select a channel from the list.
-    - **Record:** Is applicable if you have selected the type as Record. Select the entity record from the list.
+    - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
+    - **Work distribution mode**: Select **Push** or **Pick**.
+    - **Type**: Select one of the following types:
+      - **Messaging**: To configure the workstream for chat and other conversation channels.
+      - **Record**: To configure the workstream for entity record, such as case and email activity.
+    - **Channel**: Applicable if you have selected the type as Messaging. Select a channel from the list.
+    - **Record**: Applicable if you have selected the type as Record. Select the entity record from the list.
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
