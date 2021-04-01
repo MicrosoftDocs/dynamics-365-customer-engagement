@@ -60,7 +60,7 @@ To access the forms:
 
 4.  To open a form, just choose the form you want in the **Name** column, or select a form, and then choose **Edit** above the search field.
 
-For more information on creating forms, see [Create and design forms](../customize/create-design-forms.md).
+For more information on creating forms, see [Create and design forms](../customerengagement/on-premises/customize/create-design-forms.md).
 
 
 ### See also

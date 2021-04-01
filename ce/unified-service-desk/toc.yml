@@ -730,8 +730,8 @@
 - name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
 - name: Dynamics 365 Customer Service
-  href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
+  href: ../customer-service/help-hub.md
 - name: Omnichannel for Customer Service Guide
-  href: https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide
+  href: ../customer-service/introduction-omnichannel.md
 - name: Dynamics 365 Channel Integration Framework Guide
-  href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+  href: ../customer-service/channel-integration-framework/channel-integration-framework.md

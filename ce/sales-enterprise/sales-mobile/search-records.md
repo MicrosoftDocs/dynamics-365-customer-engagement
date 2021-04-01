@@ -16,7 +16,7 @@ manager: shujoshi
 You can search for records in the Dynamics 365 Sales mobile app. On the navigation bar at the bottom of the scree, tap the **Search** icon and enter text in the search box to find related information quickly. When you start typing, suggested records are displayed that include the text. Enter the complete words for better results.
 
 > [!NOTE]
-> You must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+> You must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization)
 
 When you perform a search, the results are categorized according to the type of entity, such as contacts, accounts, leads, notes, and opportunities. For example, if you searched for **contoso**, the results would include records that contain this text, including contacts, accounts, and leads. Tap the record to view more details. You can also tap **See all** to expand the list for a category.    
 
