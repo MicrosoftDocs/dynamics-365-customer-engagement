@@ -2,14 +2,13 @@
 title: "Customize forms (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Change or design the forms to allow your users to enter or find information quickly."
 ms.date: 06/22/2020
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Customize forms (Sales Professional)
@@ -61,7 +60,7 @@ To access the forms:
 
 4.  To open a form, just choose the form you want in the **Name** column, or select a form, and then choose **Edit** above the search field.
 
-For more information on creating forms, see [Create and design forms](../customize/create-design-forms.md).
+For more information on creating forms, see [Create and design forms](../customerengagement/on-premises/customize/create-design-forms.md).
 
 
 ### See also

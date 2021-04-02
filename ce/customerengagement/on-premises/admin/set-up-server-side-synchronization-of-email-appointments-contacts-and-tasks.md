@@ -36,7 +36,7 @@ You can use [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)
   
 -   [Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online](connect-dynamics-365-on-premises-exchange-online.md)
   
--   [Connect Customer Engagement (on-premises) to Exchange Server on-premises](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622062%28v%3dcrm.8%29)    
+-   [Connect Customer Engagement (on-premises) to Exchange Server on-premises](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622062%28v%3dcrm.8%29)    
   
 -   [Connect to a POP3 or SMTP server](../admin/connect-to-pop3-or-smtp-servers.md)
 

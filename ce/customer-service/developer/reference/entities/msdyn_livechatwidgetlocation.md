@@ -1,8 +1,8 @@
 ---
 title: "msdyn_livechatwidgetlocation Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatwidgetlocation entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/31/2020
 ms.topic: "reference"

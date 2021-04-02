@@ -1,8 +1,8 @@
 ---
 title: "msdyn_sessiontemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sessiontemplate entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "jdaly"
 ms.date: 11/03/2020
 ms.topic: "reference"

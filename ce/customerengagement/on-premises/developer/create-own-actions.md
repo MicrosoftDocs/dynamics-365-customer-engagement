@@ -87,7 +87,7 @@ You can extend the functionality of Dynamics 365 Customer Engagement (on-premise
 |`Xaml`|Set to the XAML code that defines your action’s real-time workflow. There is no way to refer to another existing real-time workflow.|  
   
 ### Add input and output arguments  
- Actions support input and output arguments that can be added to the workflow using a [DynamicActivityProperty](https://msdn.microsoft.com/library/system.activities.dynamicactivityproperty.aspx) type. When you add these arguments to an action’s workflow, they become properties in the message request and response classes associated with that action. For example, the following example shows C# and XAML code for two input and one output arguments.  
+ Actions support input and output arguments that can be added to the workflow using a [DynamicActivityProperty](/dotnet/api/system.activities.dynamicactivityproperty) type. When you add these arguments to an action’s workflow, they become properties in the message request and response classes associated with that action. For example, the following example shows C# and XAML code for two input and one output arguments.  
   
 ```csharp  
 DynamicActivityProperty inputProperty1 = new DynamicActivityProperty     { Name = "Subject", Type = typeof(InArgument<string>) };  
@@ -243,7 +243,7 @@ An action can be executed using the Web API just like any system action. [!INCLU
  [Use dialogs for guided processes](use-dialogs-guided-processes.md)   
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)   
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)   
- [Customize your system](https://technet.microsoft.com/library/dn531158.aspx)
+ [Customize your system](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531158(v=crm.8))
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

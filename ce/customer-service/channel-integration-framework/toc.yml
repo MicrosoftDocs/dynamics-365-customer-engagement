@@ -270,7 +270,7 @@
           href: v2/reference/events/onSessionSwitched.md
         - name: "onSessionClosed"
           href: v2/reference/events/onSessionClosed.md
-        - name: "CIFInitDone.md"
+        - name: "CIFInitDone"
           href: v2/reference/events/cifinitdone.md
       - name: Entity reference
         items:

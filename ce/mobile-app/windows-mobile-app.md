@@ -23,23 +23,23 @@ search.app:
   - D365Sales
 ---
 
-# Basic navigation for the Dynamics 365 (Preview) app for Windows
-<!--note from editor: I'm not sure why "the" and "app" are always included with references to this app. If the name is simply "Microsoft Dynamics 365 (Preview)," is there a reason not to use the name without the "the...app" qualifier?-->
+# Basic navigation for Dynamics 365 (Preview) app for Windows
+
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the Microsoft Dynamics 365 (Preview) app for Windows to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device.<!--note from editor: Same question as in user-guide-mobile-app.md: Is it okay that these aren't really all the customer engagement apps? (Or are they? In which case, we need to update the style guide.) -->
+Use the Microsoft Dynamics 365 (Preview) app for Windows to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) on your mobile device.
 
-With early access, you can also use the Dynamics 365 (Preview) app for Windows in offline mode. Offline mode is described [later in this topic](#set-up-mobile-offline-for-admins).
+With early access, you can also use Dynamics 365 (Preview) app for Windows in offline mode. Offline mode is described [later in this topic](#set-up-mobile-offline-for-admins).
 
 ## Install Dynamics 365 (Preview) for Windows
 
 Install the app from the Windows app store: [Install Microsoft Dynamics 365 (Preview) app for Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)
 
-**Note for administrators**: To distribute the app automatically, use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. More information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
+**Note for administrators**: To distribute the app automatically, use the Microsoft Store for Business and Education to find, acquire, distribute, and manage apps for your organization or school. Configuration Manager supports managing Microsoft Store for Business apps on both Windows 10 devices with the Configuration Manager client and Windows 10 devices enrolled with Microsoft Intune. More information: [Manage apps from the Microsoft Store for Business and Education with Configuration Manager](/mem/configmgr/apps/deploy-use/manage-apps-from-the-windows-store-for-business)
 
 ## Sign in
 
-Sign in to the Dynamics 365 (Preview) app for Windows by using your work email address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator.<!--note from editor: Deleted "quickly" because it implies that there's another way to sign in. If there is another way, should it be described here? -->
+Sign in to Dynamics 365 (Preview) app for Windows by using your work email address for the Dynamics 365 app that you use. If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
 1. On the Welcome screen, select **Sign in**.
 
@@ -206,7 +206,7 @@ To sign out, select the profile button, and then select **Sign out**.
 
 ## Set up mobile offline (for admins)
 
-To allow users to use the Dynamics 365 (Preview) app for Windows in offline mode, a Dynamics 365 administrator will need to set up mobile offline for your organization. More information: [Set up mobile offline synchronization](setup-mobile-offline.md)
+To allow users to use Dynamics 365 (Preview) app for Windows in offline mode, a Dynamics 365 administrator will need to set up mobile offline for your organization. More information: [Set up mobile offline synchronization](setup-mobile-offline.md)
 
 ## Work in offline mode (for users)
 
@@ -305,7 +305,7 @@ You can add notes, but can't capture and attach photos, videos, or audio. Howeve
 You'll see the barcode scanner button ![Barcode scanner](media/scannerbutton.png "Barcode scanner") on multiple forms; however, it isn't supported in early access.
 
 ### Embedded Power BI and report canvas won't render
-<!--note from editor: Edit okay? "Report canvas" is what the Cloud Style Guide calls it.-->
-No embedded Power BI dashboard will be rendered if it requires authentication to access the report.<!--note from editor: Is this what it means? Or does this apply to all embedded Power BI dashboards?-->
+
+No embedded Power BI dashboard will be rendered if it requires authentication to access the report.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

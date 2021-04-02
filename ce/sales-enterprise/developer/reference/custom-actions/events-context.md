@@ -284,10 +284,10 @@ This returns a `webApiContext` object and has the following methods:
 
 | Method | Description |
 |--------|-------------|
-| `retrieveRecord(entityLogicalName, id, options)`<br>`then (successCallback, errorCallback);` | Retrieves an entity record. More information: [retrieveRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/retrieverecord) |
-| `updateRecord(entityLogicalName, id, data)`<br>`then(successCallback, errorCallback);` | Updates an entity record. More information: [updateRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) |
-| `createRecord(entityLogicalName, data)`<br>`then(successCallback, errorCallback);` | Creates an entity record. More information: [createRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord) |
-| `deleteRecord(entityLogicalName, id)`<br>`then(successCallback, errorCallback);` | Deletes an entity record. More information: [deleteRecord (Client API reference)](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) |
+| `retrieveRecord(entityLogicalName, id, options)`<br>`then (successCallback, errorCallback);` | Retrieves an entity record. More information: [retrieveRecord (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/retrieverecord) |
+| `updateRecord(entityLogicalName, id, data)`<br>`then(successCallback, errorCallback);` | Updates an entity record. More information: [updateRecord (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) |
+| `createRecord(entityLogicalName, data)`<br>`then(successCallback, errorCallback);` | Creates an entity record. More information: [createRecord (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord) |
+| `deleteRecord(entityLogicalName, id)`<br>`then(successCallback, errorCallback);` | Deletes an entity record. More information: [deleteRecord (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) |
 
 <a name=api-context-geteventargs-preventdefault></a>
 ### context.getEventArgs().preventDefault()
@@ -324,7 +324,7 @@ function OnSave(executionContext){
 
 ### See also
 
-[Customize underlying records](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#customize-underlying-records)
+[Customize underlying records](../../../forecast-configure-advanced-settings.md#customize-underlying-records)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

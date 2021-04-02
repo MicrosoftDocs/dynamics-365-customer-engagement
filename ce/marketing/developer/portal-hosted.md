@@ -20,9 +20,9 @@ search.app:
 
 Before you start hosting a custom event website, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event website comes as a Power Apps portal hosted web application when you install the Event Management solution.
 
-The frontend part of the application is bundled into two resource files that are stored as Power Apps portal [web files](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Power Apps portal [web template](https://docs.microsoft.com/dynamics365/customer-engagement/portals/store-content-web-templates).
+The frontend part of the application is bundled into two resource files that are stored as Power Apps portal [web files](/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Power Apps portal [web template](/dynamics365/customer-engagement/portals/store-content-web-templates).
 
-Although the frontend definition is hosted on Power Apps portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Power Apps portal as a set of [web pages](https://docs.microsoft.com/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
+Although the frontend definition is hosted on Power Apps portals, you can still fully customize it. The backend part of the web application is not customizable since the **REST API** endpoints are hosted on Power Apps portal as a set of [web pages](/dynamics365/customer-engagement/portals/web-page). The code containing the business logic behind it resides in Event Management plugins which are not customizable.
 
 > [!div class="mx-imgBorder"]
 > ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
@@ -90,7 +90,7 @@ After all the files are built, it asks you to sign in to your Dynamics 365 Marke
 If you want to deploy some specific files rather than all the files at once, you can specify the list of files as a parameter for the script: `.\DeployToDynamics365Instance.ps1 -inputFiles main.es`. You can find the list with all the supported files in the scripts content.
 
 > [!NOTE]
-> - If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6&preserve-view=true).
+> - If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](/powershell/module/microsoft.powershell.security/set-executionpolicy?preserve-view=true&view=powershell-6).
 > - We recommend not to upload files manually becuase of the accessibility issues. Use the `DeployToDynamics365Instance.ps1` script to bring your customizations automatically in to your instance.
 
 ## Configuring cross-origin resource sharing (CORS)

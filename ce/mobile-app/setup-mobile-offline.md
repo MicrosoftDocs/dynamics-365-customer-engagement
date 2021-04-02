@@ -1,8 +1,8 @@
 ---
 title: "Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
-description: Set-up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
-ms.date: 10/30/2020
+description: Set up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
+ms.date: 3/10/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,20 +23,16 @@ search.app:
   - D365Sales
 ---
 
-
 # Configure mobile offline synchronization for your mobile app
 
+Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows users to use the Dynamics 365 for phones and tablets app in offline mode and interact with their data without internet connection.
 
-Set up mobile offline synchronization to allow users to work in offline mode on their mobile device. Mobile offline allows your users to use the mobile app in offline mode to interact with their data, even when they are not connected to the internet. 
-
-The mobile app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, the changes you made on the mobile app are automatically synchronized with Microsoft Dataverse.
-
-To allows users to use this feature, an administrator will need to set up mobile offline for their organization as outlined below.
+The mobile app provides a rich offline experience that helps users stay productive. You can use basic commands such as create, read, update, and delete when you're offline. Once you're back online, the changes that you made on the mobile app are automatically synchronized with Microsoft Dataverse.
   
-This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the mobile app so synchronized records are available when users’ mobile devices are disconnected. 
+The offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize tables with the mobile app so that synchronized rows are available when a user's mobile devices is disconnected from the internet. 
 
 > [!IMPORTANT]
-> The set-up and configuration process for mobile offline is the same for [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this toipc.
+> To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
 
 ## Install the mobile app
 
@@ -44,9 +40,9 @@ Mobile offline is available for iOS and Android devices. To use the mobile offli
 
 ### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
 
-For customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) install the [install the Dynamics 365 phones and table app](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+For customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.md)) [install Dynamics 365 for phones and tables app](./install-dynamics-365-for-phones-and-tablets.md).
 
-These are the supported devices to use mobile offline:
+Supported devices for mobile offline:
 
 - For iOS, version 13.19043.32 or later is supported.
 - for Android, version 4.3.19043.33 or later supported.
@@ -54,32 +50,32 @@ These are the supported devices to use mobile offline:
 > [!NOTE]
 > - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
 
-### Install Power Apps mobile app (for Power Apps)
+### Install Power Apps mobile (for Power Apps)
 
-For model-drvien app and canvas apps [Install the Power Apps mobile app](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#install-the-power-apps-mobile-app).
+For model-drvien app and canvas apps [Install the Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile#install-power-apps-mobile-app).
 
-For information on supported devices for Power Apps mobile app, see [Supported devices](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
+For information on supported devices for Power Apps mobile, see [Supported devices](/powerapps/mobile/run-powerapps-on-mobile#supported-devices).
 
 
-## Step 1: Enable entities for mobile offline synchronization 
+## Step 1: Enable tables for mobile offline synchronization 
  
-One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported entities for offline mode.
+One of the first things you need to do is enable tables that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported tables for offline mode.
 
-To enable an entity for mobile offline synchronization, follow the steps below.
+To enable a table for mobile offline synchronization, follow the steps below.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
   
-2. On the left nav select **Data** to expand it and then select **Entities**.  
+2. On the left nav select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to Entities](media/signin_make_site.png "Go to Entities")
+   >![Go to tables](media/maker-data-tables.png "Go to tables")
    
   
-3. Select the entity you want to enable for mobile offline (for example, **Account**).  
+3. Select a table to enable for mobile offline such as **Account**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select the Account Entity](media/select_account_entity.png "Select the Account Entity")
+   >![Select Account](media/select_account_table.png "Select Account")
  
 
 4. On the command bar, select **Settings**. 
@@ -88,7 +84,7 @@ To enable an entity for mobile offline synchronization, follow the steps below.
    >![Select settings](media/select_settings.png "Select setting")
  
   
-5. On the **Edit entity** pane, expand **More settings** > **Offline** and then make sure **Enable for mobile offline** check box is selected and then select **Done**.
+5. On the **Edit table** pane, expand **More settings** > **Offline** and then make sure **Enable for mobile offline** check box is selected and then select **Done**.
 
    > [!div class="mx-imgBorder"]
    >![Select enable mobile offline check box](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
@@ -96,14 +92,14 @@ To enable an entity for mobile offline synchronization, follow the steps below.
 
    > [!NOTE]
    > Keep in mind that the amount of data you make available to users while they’re offline can affect data sync times, device performance, and can affect the data usage rates  for devices on cellular network. The amount of data that gets downloaded to the device depends on: 
-   > -   The number of entities you enable for mobile offline.  
+   > -   The number of tables that you enable for mobile offline.  
    > -   The filters you set while creating mobile offline profiles.  
  
 ## Step 2: Create a mobile offline profile to determine what data will be available while offline
  
-Create a mobile offline profile to enable users for offline and configure filters that will determine how much data will be available to the user when they work in offline mode. 
+Create a mobile offline profile to enable users for offline and configure filters that will determine how much data will be available to the user when they're working in offline mode. 
 
-To create a profile follow the steps below.
+To create a profile, follow the steps below.
   
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
@@ -122,43 +118,43 @@ To create a profile follow the steps below.
    > [!div class="mx-imgBorder"]
    >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
   
-5. Select **New Profiles** to create a new mobile offline profile. If you already have a profile that you want to edit, select it from the list.
+5. Select **New Profile** to create a new mobile offline profile. If you already have a profile that you want to edit, select it from the list.
 
    > [!div class="mx-imgBorder"]
    >![Mobile Offline Profile screen](media/mol_new_profile.png "Crearte new Mobile Offline Profile")
 
   
-6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created select it to open the profile so you can continue editing it.  
+6. Enter a name and description for your mobile offline profile. Select **Create** to create the mobile offline profile. Once the profile is created, select it to open the profile so you can continue editing it.  
     
    > [!div class="mx-imgBorder"]
    >![Name your mobile offline profile](media/mol_sample_profile.png "Name your mobile offline profile")
   
   
-7. In the **Data available offline** area, select **Add entity** to add an entity to the profile. 
+7. In the **Data available offline** area, select **Add table** to add a table to the profile. 
 
    > [!div class="mx-imgBorder"]
-   >![Add entity to the profile](media/mol_add_entity.png "Add entity to the profile")
+   >![Add table to the profile](media/mol_add_table.png "Add table to the profile")
    
   
-8. Select an entity from the list of entities shown. Only entities that can be enabled for mobile offline appear in the **Entity** list and then select **Next**.
+8. Select a table from the list of tables shown. Only tables that can be enabled for mobile offline appear in the **Table** list and then select **Next**.
 
    > [!div class="mx-imgBorder"]
-   >![Entity list](media/mol_add_entity_1.png "Entity list")
+   >![Table list](media/mol_add_table_1.png "Table list")
  
 
-9. Select a filter based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+9. Select a filter based on the ownership type for the table. Table ownership is decided when you create a table. For more information, see [Types of tables](/powerapps/maker/common-data-service/types-of-entities).
 
 
 
-   |Entity ownership type|Available Data Download Filter options |  
+   |Table ownership type|Available Data Download Filter options |  
   |---------------|-----------------|  
-  |**User or Team**| <ul><li>**Download Related records only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other data filter** - Make only the specified records for this entity available offline and then choose from the following: </li> <ul><li> **Download user records** - Make only your records available offline.</li>  <li> **Download team records** - Make your team’s records available offline.</li> <li>**Download my business unit’s records** - Make your business unit’s records available offline.</lu>|  
-  |**Organization**|<ul><li>**Download related records only** - Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> <li>**All records** - Make all records for this entity available offline. </li>|  
-  |**Business**|<ul><li>**Download related data only** -  Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available. </li> <li>**All records** - Make all records for this entity available offline.</li> <li>**Other records** - Make only the specified records for this entity available offline and choose from the following:</li> <ul><li> **Download my business unit’s records** - Make your business unit’s records available offline.</li>   |  
-  |**None**|  <ul><li>**Download related records only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.</li> |        
+  |**User or Team**| <ul><li>**Download Related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other data filter** - Make only the specified rows for this table available offline and then choose from the following: </li> <ul><li> **Download user rows** - Make only your rows available offline.</li>  <li> **Download team rows** - Make your team’s rows available offline.</li> <li>**Download my business unit’s rows** - Make your business unit’s rows available offline.</lu>|  
+  |**Organization**|<ul><li>**Download related rows only** - Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> <li>**All rows** - Make all rows for this table available offline. </li>|  
+  |**Business**|<ul><li>**Download related data only** -  Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available. </li> <li>**All rows** - Make all rows for this table available offline.</li> <li>**Other rows** - Make only the specified rows for this table available offline and choose from the following:</li> <ul><li> **Download my business unit’s rows** - Make your business unit’s rows available offline.</li>   |  
+  |**None**|  <ul><li>**Download related rows only**. Make related data for this table available offline. If you don’t set any relationships, no rows for this table will be available.</li> |        
  
     
-   **Custom (Coming soon)** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
+   **Custom** Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
    | |  | |
    |---------|---------|---------|
@@ -173,50 +169,60 @@ To create a profile follow the steps below.
    |not-end-with    |       |         |
 
  
-10. In the **Include [selected entity name] records related to these entities** area, select the related entity relationships. You need to have already added the entity you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact entities, you need to add both to this mobile offline profile. 
+10. In the **Include [table name] rows related to these tables** area, select the related table relationships. You need to have added the table you want to create the relationship with. For example, if you want to add a relationship between the Account and Contact tables, then you need to add both tables to the mobile offline profile. 
 
     For example, if you select **Contact | Field name: Primary contact** this means for every contact, the system will also download the account related to it. 
      
     > [!div class="mx-imgBorder"]
-    >![Add entity relationship](media/mol_add_relationship.png "Add entity relationship")
+    >![Add table relationship](media/mol_add_relationship.png "Add table relationship")
   
-11. Select **Save** to add the entity to your profile so you can continue editing it.
+11. (optional) Select **Sync interval** and choose how often you want the table's data to automatically sync to people's devices. You can select a short interval such as **Every 5 minutes** or choose a less frequent interval to optimize the sync performance and user experience. Make the selection based on your business requirements and how often users make updates to the table. Typically the more static the data is, the less need for a frequent sync interval. 
 
-### Step 2.1: Add users to a mobile offline profile 
+> [!NOTE]
+> Even if the value for **Sync interval** is set to be less frequent than, **Every 1 hour**, data will currently still be synched every hour. 
+> A sync is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated it can be completed even in background.      
+> Dependencies, based on selected relationships and custom filters that includes related tables are analyzed at each sync request. This might result in a sync being triggered also for related tables.
+  
+12. Select **Save** to add the table to your profile so you can continue editing it.
 
-Once you have created a mobile offline profile, you can start adding users to the profile. This will make the profile available to the users so they can get the mobile offline experience that you've set-up. 
+### Step 2.1: Add users or team to a mobile offline profile 
 
-A user can only be added to one offline profile at a time. Each time a user is added to an offline profile the profile will need to be published again as described in **Step 2.2**.
+Once you've created a mobile offline profile, you can start adding users or team to the profile. This will make the profile available to the users or team so they can get the mobile offline experience that you've set up. 
+
+A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile then you will get a warning stating that the user is already added to another offline profile. If you continue with the change then the user or team will be moved to the new profile. This may disrupt your users so it's recommended that you notify them when you move them to a different profile. 
 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode. 
 
   
-1.  If it’s not already open, open the mobile offline profile you want to add users to.  
+1.  If it’s not already open, select the profile name to open the mobile offline profile you want to add users to.
+
+    > [!div class="mx-imgBorder"]
+    >![Select offline profile](media/select-offlineprofile.png "Select offline profile")
  
 2.  In the **People with offline access** area, select **Add people**.  
 
     > [!div class="mx-imgBorder"]
     >![Add a user](media/mol_add_people.png "Add a user")
   
-3.  Choose the people that you want to add to the mobile offline profile.  
+3.  Choose the user or team that you want to add to the mobile offline profile. The actual users added based on teams are displayed under each team. User's that are added individually are displayed under individual users. 
   
 4.  When you’re done adding people, select **Save**.
 
+
 ### Step 2.2: Publish a mobile offline profile
 
-The profile that was set up in the previous step is still in draft mode, until it is published. In order to deploy your changes to a user's device, the draft profile needs to be published.
+The profile that was set up in the previous step is still in draft mode, until you publish it. In order to deploy your changes to a user's device, the draft profile needs to be published.
 
 When you publish the profile, it will be available to your users and they will get the mobile offline experience that you have defined in the profile.
 
-> [!NOTE]
-> Remember each time user is added to the mobile offline profile, mobile offline profile needs to be published again. 
-
 Following these steps to publish the profile:
   
-1. If it’s not already open, open the mobile offline profile you want to publish.  
+1. If it’s not already open, open the mobile offline profile that you want to publish.  
   
 2. When you’re done adding people and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
+
+It's not required to republish a mobile profile after users or team have been added.
 
    > [!div class="mx-imgBorder"]
    >![Publish offline profile](media/mol_publish.png "Publish offline profile")
@@ -224,13 +230,13 @@ Following these steps to publish the profile:
    > [!TIP]
    > **Solution export and import**  
    >   
-   >  When exporting a solution that includes a mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
+   >  When exporting a solution that includes a mobile offline profile, always select the **Include table metadata** check box for each table you export.  
    >   
    >  After importing the solution into the target organization, publish all mobile offline profiles.  
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
-1. In the web app, go to **Settings**  > **Administration** and then select **System Settings**. For more information on system settings, see [System Settings dialog box](https://docs.microsoft.com/power-platform/admin/system-settings-dialog).
+1. In the web app, go to **Settings**  > **Administration** and then select **System Settings**. For more information on system settings, see [System Settings dialog box](/power-platform/admin/system-settings-dialog).
 
 2. To configure conflict resolution behavior, select the **Mobile Client** tab.
 
@@ -238,7 +244,7 @@ Following these steps to publish the profile:
    >![Set conflict detection for mobile offline](media/mol_system_settings.png "Set conflict detection for mobile offline")
 
 
-When there is a mismatch of data between client and server, conflict errors occur. To resolve those, you can choose one of the following settings:
+When there is a mismatch of data between client and server, conflict errors occur. To resolve the issue, choose one of the following settings:
 
 - Select **No** - Conflict detection for mobile offline is turned off, so whatever changes are made by a user in offline mode are automatically synced to the server when the user is back online, and client wins over server.
 
@@ -251,7 +257,7 @@ Enable mobile offline for a specific app from MyApps page.
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
 
-2. On the left nav select **Apps** and then select the app that you want open. Then on the command bar select **Edit**. This will open the app in the **App Designer**.
+2. On the left nav select, **Apps** and then select the app that you want open. Then on the command bar select **Edit**. This will open the app in the **App Designer**.
 
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/mol_edit_apps.png "Open App Designer")

@@ -48,7 +48,7 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
   
 -   Uninstall Dynamics 365 Reporting Extensions if it’s installed on the same computer where Dynamics 365 Server is installed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Uninstall or repair Microsoft Dynamics 365 Reporting Extensions](uninstall-repair-dynamics-365-reporting-extensions.md)  
   
--   To determine the location of the Dynamics 365 Customer Engagement (on-premises) installation files, see the [Microsoft Dynamics 365, version 9.0 Readme](https://go.microsoft.com/fwlink/?linkid=2020048).  
+-   To determine the location of the Dynamics 365 Customer Engagement (on-premises) installation files, see the [Microsoft Dynamics 365, version 9.0 Readme](/dynamics365-release-plan/2019wave2/).  
   
 ## Run the upgrade  
   

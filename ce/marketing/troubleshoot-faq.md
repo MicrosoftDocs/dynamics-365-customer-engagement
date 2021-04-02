@@ -34,7 +34,7 @@ You can leave feedback on the documentation by selecting **Submit and view feedb
 
 ## How can I create a support ticket from the Power Platform admin center?
 
-Admins can use the [Help + support experience](https://docs.microsoft.com/power-platform/admin/get-help-support) in the Power Platform admin center to open support requests.
+Admins can use the [Help + support experience](/power-platform/admin/get-help-support) in the Power Platform admin center to open support requests.
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments) with your admin credentials.
 1. Select **Help + support** > **New support request**.
@@ -50,4 +50,4 @@ Admins can use the [Help + support experience](https://docs.microsoft.com/power-
 ### See also
 
 [Administration and setup FAQ](setup-troubleshooting.md)   
-[Installation and management FAQ](install-manage-faq.md)   
+[Installation and management FAQ](install-manage-faq.md)
