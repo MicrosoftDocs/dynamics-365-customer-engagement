@@ -65,7 +65,7 @@
 #### [Configure advanced settings](forecast-configure-advanced-settings.md)
 #### [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
 #### [Deactivate and delete forecast](deactivate-delete-forecast.md)
-#### [Clone a forecast](clone-forecat.md)
+#### [Clone a forecast](clone-forecast.md)
 #### [Forecast with different data type](forecast-different-data-types.md)
 #### [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
