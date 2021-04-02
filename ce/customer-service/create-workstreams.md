@@ -15,7 +15,7 @@ ms.service: "dynamics-365-customerservice"
 
 
 
-<!-- As with some of these other topics, I am unsure about the use of Omnichannel in the first paragraph here as well as lines 34 and 38. Should it be Omnichannel for Customer Service admin center? And Omnichannel for Customer Service administration apps? Here is the style guidance: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48167 -->
+<!-- As with some of these other topics, I am unsure about the use of Omnichannel in the first paragraph here as well as lines 34 and 40. Should it be Omnichannel for Customer Service admin center? And Omnichannel for Customer Service administration apps? Here is the style guidance: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48167 -->
 
 
 A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
