@@ -206,7 +206,7 @@ Understand the relationships many-to-1 and 1-to-many in detail:
 
 - If the selected drill-down entity has a 1-to-many relationship with a rollup entity and the amount entity is different from the rollup entity, the amount fields must be manually configured. After you select the amount entity, the possible amount fields that are used to aggregate the rollup columns are displayed. For example, if you select Product as a drill-down entity and the rollup entity is Opportunity, the amount fields for the product are available in the Opportunity Product entity and are selected as the amount entity. 
 
-To learn more about entity relationships, go to [Entity relationships](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-entity-relationships).
+To learn more about entity relationships, go to [Entity relationships](/powerapps/maker/common-data-service/create-edit-entity-relationships).
 
 
 <table>

@@ -24,7 +24,6 @@ search.app:
 > [!Note]
 > If you're looking for help with **errors**, **unexpected behavior**, **crashes**, and **bugs**, create a [Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/). 
 
-
 ## How do I extend or activate my mobile configuration tool (Woodford) trial?
 
 The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](https://docs.microsoft.com/dynamics365/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you'll need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. For more information, see the article on [activating or extending the mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md).
@@ -110,7 +109,7 @@ Yes. In the forms and views editor, you can select **Form Rules** and in the rul
 > ![Screenshot of forms and views editor](./media/mobile-form-rule-platform.png)
 
 
-## Are Dynamics 365 Sales entities such as leads and opportunities available for use on Field Service Mobile? 
+## Are Dynamics 365 Sales record types like leads and opportunities available for use on Field Service Mobile? 
 
 Any entity can be used in Field Service Mobile as long as it is used in the context of Field Service. That is, a field service representative who needs access to opportunities can have access to those, but a sales person could not use Field Service Mobile for sales functions. 
 
@@ -245,6 +244,11 @@ To correct:
 This error notes that your AAD security settings have a conditional access block, which disallows Field Service Mobile from reaching authentication servers. 
  
 To correct, you'll need to discuss with your network security team and evaluate conditional access policies that may be blocking Dynamics 365. For more information, see the article [Troubleshoot Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if).
+
+## How do I set the sign-in frequency for users?
+You can set how frequently users must sign in, and how frequently their auth tokens expire. For more information, see these instructions: [User sign-in frequency](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime#user-sign-in-frequency)
+>[!Note] 
+> The Woodford setting **oAuth Offline token age** does not work on the Field Service Mobile (Xamarin) app. This setting will not have any effect on the user's oAuth token expiration.
 
 ## Why won't my password save?
 
