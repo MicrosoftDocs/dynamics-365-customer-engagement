@@ -36,14 +36,14 @@ Perform the following steps to configure record routing:
 
 ### Create workstreams for record routing
 
-To configure a workstream for the entity record, do the following steps:
+To configure a workstream for the entity record, do the following:
 
-1. In Customer Service Hub, in the Service Management change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**.
+1. In the Customer Service Hub, in the Service Management change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**.
 2. In the **Create a workstream** dialog box, enter the following details:
-    - **Name:** Enter an intuitive name, such as **Contoso chat workstream**.
-    - **Work distribution mode:** Select **Push** or **Pick**.
-    - **Type:** Select **Record**.
-    - **Record type:** Select an entity record from the list.
+    - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
+    - **Work distribution mode**: Select **Push** or **Pick**.
+    - **Type**: Select **Record**.
+    - **Record type**: Select an entity record from the list.
 3. Select **Create**. The workstream is created.
 
 ### Configure intake rules
@@ -54,20 +54,23 @@ Perform the following steps to configure the intake rules:
 
 1. Select the workstream that you configured for routing records, such as the case.
 2. In the **Intake rules** area, select **Create rule**.
-3. On the Create intake rule dialog box, enter a name, and define the conditions for the rule.
-   >![Intake rule](media/ur-intake-rule.png "Intake rule")
+3. In the **Create intake rule** dialog box, enter a name and define the conditions for the rule.
+   
+   ![Intake rule](media/ur-intake-rule.png "Intake rule")
+   
 4. Select **Create**.
 
-A workstream that has the required intake rule and route to queues is as follows.
->![Workstream for a case record](media/ur-record-routing-workstream.png "Workstream for a case record")
+The following screenshot shows a workstream with the required intake rule and route to queues.
+
+![Workstream for a case record](media/ur-record-routing-workstream.png "Workstream for a case record")
 
 ### Configure work distribution and Advanced settings
 
-1.  In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
-   - **Capacity:** Select one of the following options:
-     - **Unit based:** Enter value if your organization has configured unit-based capacity.
-     - **Profile based:** Specify a profile in the list if your organization has configured profile-based capacity.
-   - **Allowed presences:** Select the presences in which agents will be assigned.
+1. In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
+   - **Capacity**: Select one of the following options:
+     - **Unit based**: Enter value if your organization has configured unit-based capacity.
+     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
+   - **Allowed presences**: Select the presences in which agents will be assigned.
    - **Default skill matching algorithm**: Select **Exact Match** or **Closest Match**.
 2. Expand **Advanced settings** to configure the following options:
    - [Sessions](../app-profile-manager/session-templates.md)
