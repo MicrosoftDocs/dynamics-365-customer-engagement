@@ -77,7 +77,7 @@ The SDK now contains the **SyncBulkOperationRequest** and **SyncBulkOperationRes
 
    Name|Description
    ----|-----
-   QuerySet| It's exactly like the QuerySet field used in [BulkDeleteRequest](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/gg326451%28v%3dcrm.8%29)
+   QuerySet| It's exactly like the QuerySet field used in [BulkDeleteRequest](/previous-versions/dynamicscrm-2016/developers-guide/gg326451%28v%3dcrm.8%29)
    OperationType| This is an integer 0, 1, or 2 that represents the operation types of pause, resume, and cancel, respectively.
 
 

@@ -44,7 +44,7 @@ search.app:
 3.  Sign in to the web application when it appears. The web app goes right to the record that you were working on in the mobile app.  
   
 ### See also  
- [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

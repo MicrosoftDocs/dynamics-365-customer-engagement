@@ -2,8 +2,7 @@
 title: "Add products to an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Develop your opportunity by defining the products your customers are interested in purchasing."
 ms.date: 06/15/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -72,7 +71,6 @@ You can take the following actions on the products added to the **Product Line I
 
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
-[Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
 

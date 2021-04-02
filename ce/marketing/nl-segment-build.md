@@ -1,7 +1,7 @@
 ---
 title: "Preview: Natural language use in segments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Example marketing segments to show various capabilities of Natural Language Query in Dynamics 365 Marketing."
-ms.date: 01/22/2021
+ms.date: 03/30/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -51,7 +51,7 @@ You might name the new segment “Contacts who live in Chicago with email and an
 
 ### Building the segment
 
-- Remember to enter the phrases using normal language (don't try to build the query using specific field names). You could enter, "Contacts who live in Chicago with an email address and with a birthday in the next month."
+- Remember to enter the phrases using normal language. You could enter, "Contacts who live in Chicago with an email address and with a birthday in the next month."
 - Give the segment a descriptive name that will help you find it later.
 
 ### Reviewing the results
@@ -75,12 +75,11 @@ You can use a variety of phrases to find contacts and accounts with various attr
     - Contacts who live in Atlanta
     - Contacts who live in New York State
     - Contacts in Canada
+    - Contacts near Seattle
 
 - Find contacts who share birthdays or anniversaries
-    - Contacts with birthdays in three months
-    - Contacts with a birthday next month
+    - Contacts whose birthdays are in October
     - Contacts with an anniversary in June
-    <!--- Contacts born before 1980 -->
 
 - Find contacts related to accounts
     - Contacts associated with Microsoft company who live in the Czech Republic
@@ -88,11 +87,6 @@ You can use a variety of phrases to find contacts and accounts with various attr
 
 - Find contacts with upcoming life events
     - Contacts with birthdays next month
-    - Contacts with birthdays in the next three months
-
-- Find contacts with contact issues
-    - Contacts with email bounces
-    - Contacts who have never opened an email
 
 - Find accounts missing profile information
     - Companies with no business phone
@@ -100,7 +94,6 @@ You can use a variety of phrases to find contacts and accounts with various attr
 
 - Find contacts with particular attributes
     - Find contacts with an email address
-    - Find contacts who have opened one or more email messages
 
 <!--- You might also wish to promote a new product or service to existing contacts who, based on the type of company they represent, might use it but have not purchased from that category before. This dynamic segment might include:
  - Companies in the healthcare industry with annual revenue over $20 million and that have at least two physical locations

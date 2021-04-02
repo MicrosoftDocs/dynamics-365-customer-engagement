@@ -1,8 +1,8 @@
 ---
 title: "Use Edge Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/19/2018
 ms.topic: "article"
@@ -124,7 +124,7 @@ With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a
 
 In the panel, you can see all the active Edge process. Select the desired webpage from the active list to open a new instance.
 
-More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/microsoft-edge/devtools-guide)
+More information: [Microsoft Edge DevTools Preview](/microsoft-edge/devtools-guide)
 
 ## RunScript action is asynchronous in Edge Process
 

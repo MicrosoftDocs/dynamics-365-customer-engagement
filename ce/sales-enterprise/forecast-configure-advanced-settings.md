@@ -60,7 +60,7 @@ As an administrator or forecast manager, you turn on the **View prediction insig
 > ![Enable prediction factors](media/forecast-prediction-factors-enable.png "Enable prediction factors")  
 
 >[!NOTE]
->Premium forecasting must be enabled for the **Prediction details** pane to work. More information: [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
+>Premium forecasting must be enabled for the **Prediction details** pane to work. More information: [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
 
 ## Customize underlying records
 
