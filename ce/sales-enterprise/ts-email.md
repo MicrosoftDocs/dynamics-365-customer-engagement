@@ -25,11 +25,11 @@ For out of the box email forms, the `onload` and `onchange` events are triggered
 
 To resolve this issue, you must add the `onload` and `onchange` events to the custom email forms.
 
-1. [Create a new solution](https://docs.microsoft.com/powerapps/maker/common-data-service/create-solution).
+1. [Create a new solution](/powerapps/maker/common-data-service/create-solution).
 
 2. Add the custom email form to the newly created solution.
 
-3. [Export the solution](https://docs.microsoft.com/powerapps/maker/common-data-service/export-solutions).
+3. [Export the solution](/powerapps/maker/common-data-service/export-solutions).
 
 4. Add the following code in the form's XML:
 
@@ -43,7 +43,7 @@ To resolve this issue, you must add the `onload` and `onchange` events to the cu
     <clientresources> <internalresources> <clientincludes> <internaljscriptfile src="$webresource:Activities/SystemLibraries/Email_main_system_library.js" />    </clientincludes>  </internalresources></clientresources>
     ```
 
-5. [Import the solution](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions).
+5. [Import the solution](/powerapps/maker/common-data-service/import-update-export-solutions).
 
 ### See also
 
