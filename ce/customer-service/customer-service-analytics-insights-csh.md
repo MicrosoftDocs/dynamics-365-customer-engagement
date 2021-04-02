@@ -37,9 +37,9 @@ To enable the dashboards, see the following topics:
 
 - [Configure knowledge search insights](enable-knowledge-search-analytics.md)
 
-## Customer Service analytics reports
+## Customer Service historical analytics reports
 
-The following dashboard reports are available for Customer Service analytics:
+The following dashboard reports are available for Customer Service historical analytics:
 
 ### Summary
 
@@ -59,17 +59,74 @@ The Agent dashboard shows charts and KPIs for individual agents and overall agen
    
 For more details about the Agent dashboard, see [Agent dashboard](agent-dashboard-cs.md)
 
-### Topics
+### Case Topics
 
-The Topics dashboard shows a detailed breakdown of cases and their assigned topics.
+The Case Topics dashboard shows a detailed breakdown of cases and their assigned topics.
 
    > [!div class=mx-imgBorder]
    > ![Analytics Topics dashboard](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics dashboard")
    
-For more details about the Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
-   
+For more details about the Case Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
 
-## Information you need to know about Customer Service analytics reports
+## Omnichannel historical analytics report
+
+The following dashboard reports are available for Omnichannel historical analytics.
+
+### Conversation
+
+The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization.  
+
+> [!div class="mx-imgBorder"]
+> ![Conversation dashboard](media/conversation-dashboard.png "Conversation dashboard")
+
+For more details about the conversation report, see [Conversation dashboard](conversation-dashboard.md)
+
+### Queue
+
+The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
+
+> [!div class="mx-imgBorder"]
+> ![Queue dashboard](media/queue-report.png "Queue dashboard")
+
+For more details about the queue report, see [Queue dashboard](queue-dashboard.md)
+
+### Agent
+
+The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance.
+
+> [!div class="mx-imgBorder"]
+> ![Agent dashboard](media/agent-report-cs.png "Agent report").
+
+For more details about the Agent report, see [Agent dashboard](agent-dashboard-cs.md)
+
+### Bot
+
+The Bot dashboard shows charts and KPIs that you can use to understand how bots are playing a role in a support organization. 
+
+> [!div class="mx-imgBorder"]
+> ![Bot dashboard](media/bot-dashboard-cs.png "Bot dashboard")
+
+For more details about the bot report, see [Bot dashboard]()
+
+### Conversation Topics
+
+The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. 
+
+> [!div class="mx-imgBorder"]
+> ![Conversation Topics](media/conversation-topics-dashboard.png "Conversation Topics")
+
+For more details about the Conversation Topics dashboard, see 
+
+### Knowledge Search Analytics report
+
+The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
+
+> [!div class="mx-imgBorder"]
+> ![Knowledge search analytics report](media/knowledge-search-anlaytics-dashboard.png "Knowledge search analytics")
+
+For more details about the Knowledge Search Analytics report, see [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
+
+## Information you need to know about the analytics reports
 
 ### Reports refresh, data retention
 
@@ -87,9 +144,9 @@ The following information is applicable to reports refresh:
 
 Currently, report customizations aren't supported.
 
-### Supported entities
+### Supported tables
 
-The following entities are supported:
+The following tables are leveraged for Customer service Historical Analytics:
 
 - incident
 - incidentresolution
@@ -108,22 +165,6 @@ The following entities are supported:
 
 > [!NOTE]
 > A report might be blank if you've customized any of the listed entities or are using out-of-the-box entities.
-
-## Regions supported in Customer Service analytics reports
-
-The Customer Service Analytics reports are supported in the following regions:
-
-- North America
-- South America
-- Canada
-- Europe, except France
-- Asia Pacific
-- Australia
-- Japan
-- India
-- Great Britain
-- GCC
-- UAE
 
 ## Troubleshooting
 

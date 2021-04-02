@@ -67,16 +67,28 @@ The topic metrics chart has the following metrics displayed:
 | Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
 | Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
+### Case topics drill down view
+
+The Topic drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end custmers are contacting support. 
+
+To access the drill down, select any metric value for the desired topic and select **Details**.
+
+> [!div class="mx-imgBorder"] 
+> ![Case topics drill down view](media/case-topics-drill-down-view.png "Case topics drill view")
+
 ### Automate topics to Power Virtual Agents
 
 AI discovered topics in Customer Service Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization’s administrator for use. 
+
+> [!div class="mx-imgBorder"]
+> ![Automate topics to Power virtual agents](media/automate-topics-to-PVA.png "Automate topics to Power virtual agents")
 
 Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Drill through**, and then selecting **Automate Topic** within the drill through view. This will launch the topic editing form.  
 
 The topic provides suggested trigger phrases based on the case title. Select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, select **Create Bot**. You will be redirected to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added. Once this step is complete, select **Automate Topic** and you will redirect to Power Virtual Agents to complete the authoring process.
 
 > [!NOTE]
-> Any bots created via the Microsoft Teams channel will not be listed in the bot selection dropdown.
+> Any bots created via the Microsoft Teams channel will not be listed in the bot selection dropdown. Users creating bots using the drill down page for a topic in CSW will be redirected to CSH for form completion. 
 
 ### See also
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
