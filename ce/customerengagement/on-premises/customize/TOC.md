@@ -62,7 +62,7 @@
 
 ## [Customize the mobile app](customize-phones-tablets.md)
 ### [iFrame and web resource support](iframe-web-resource-support-dynamics-365-phones-tablets.md)
-### [Write modern mobile apps](https://msdn.microsoft.com/dynamics/crm/mobilesdk) 
+### [Write modern mobile apps](/powerapps/developer/model-driven-apps/overview) 
 
 ## [Design an app using App Designer](design-custom-business-apps-using-app-designer.md)
 ### [Create an app](create-edit-app.md)
@@ -145,9 +145,3 @@
 ## [Export customized entity and field text for translation](export-customized-entity-field-text-translation.md)
 ## [Import translated entity and field text](import-translated-entity-field-text.md)
 # [Developer resources](view-download-developer-resources.md)
-
-
-
-
-
-

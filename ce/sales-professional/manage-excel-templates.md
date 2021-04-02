@@ -2,14 +2,13 @@
 title: "Create and manage Microsoft Excel templates in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Analyze and present your sales data in a standard format with Excel templates in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Create and manage Excel templates in Dynamics 365 Sales Professional

@@ -26,7 +26,7 @@ XRM tooling is a set of APIs built on top of the Dynamics 365 Customer Engagemen
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
 >
-> The XRM tooling documentation that is applicable to Dataverse users is now available in the Power Apps documentation at: [Build Windows client applications using the XRM tools](https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)
+> The XRM tooling documentation that is applicable to Dataverse users is now available in the Power Apps documentation at: [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)
 >
 > [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
 
@@ -36,7 +36,7 @@ XRM tooling provides the following capabilities:
   
 - Provides [PowerShell](xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md) support for authentication and connection to Dynamics 365 Customer Engagement (on-premises).  
   
-- Provides thread safety for actions performed in Dynamics 365 Customer Engagement (on-premises) in a multithreaded environment. More information: [Multithreading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
+- Provides thread safety for actions performed in Dynamics 365 Customer Engagement (on-premises) in a multithreaded environment. More information: [Multithreading in Components](/previous-versions/3es4b6yy(v=vs.140)), [Thread-Safe Components](/previous-versions/a8544e2s(v=vs.140))  
   
 - Provides a common [Windows Presentation Foundation login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications) for Dynamics 365 Customer Engagement (on-premises) for consistent sign-in experience to from your Windows client applications.  
   

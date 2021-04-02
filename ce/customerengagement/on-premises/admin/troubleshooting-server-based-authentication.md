@@ -30,7 +30,7 @@ search.audienceType:
 <a name="BKMK_failConn"></a>   
 
 ### Failed Connection  
- This failure indicates that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] server could not be accessed from where the validation check was run. Verify that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] URL that you entered is correct and that you can access the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and site collection by using a web browser from the computer where the Enable Server-Based SharePoint Integration wizard is running. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Troubleshooting hybrid environments (SharePoint)](https://technet.microsoft.com/library/dn518363.aspx)  
+ This failure indicates that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] server could not be accessed from where the validation check was run. Verify that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] URL that you entered is correct and that you can access the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and site collection by using a web browser from the computer where the Enable Server-Based SharePoint Integration wizard is running. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Troubleshooting hybrid environments (SharePoint)](/SharePoint/hybrid/hybrid)  
   
 <a name="BKMK_failAuthen"></a>   
 
@@ -52,7 +52,7 @@ search.audienceType:
 <a name="BKMK_TS_SP"></a>   
 
 ## Troubleshooting SharePoint  
- Issues that affect server-based authentication can also be recorded in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] logs and reports. For more information about how to view and troubleshoot [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] monitoring, see the following topics. [View reports and logs in SharePoint 2013](https://technet.microsoft.com/library/ee748651.aspx) and [Configure diagnostic logging in SharePoint 2013](https://technet.microsoft.com/library/ee748656.aspx)  
+ Issues that affect server-based authentication can also be recorded in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] logs and reports. For more information about how to view and troubleshoot [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] monitoring, see the following topics. [View reports and logs in SharePoint 2013](/SharePoint/administration/view-reports-and-logs) and [Configure diagnostic logging in SharePoint 2013](/SharePoint/administration/configure-diagnostic-logging)  
   
 <a name="BKMK_known_CRMOn_SPop"></a>   
 ## Known issues with server-based authentication  
@@ -109,7 +109,7 @@ search.audienceType:
   
  The Register-SPAppPrincipal: The requested service, '<https://wgwitsp:32843/46fbdd1305a643379b47d761334f6134/AppMng.svc>' could not be activated error message can occur when you grant Customer Engagement (on-premises) permission to access [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] by running the Register-SPAppPrincipal command.  
   
- To resolve both of these errors after they occur, restart the web server where the Customer Engagement (on-premises) web application is installed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Start or Stop the Web Server (IIS 8)](https://technet.microsoft.com/library/jj635851.aspx)  
+ To resolve both of these errors after they occur, restart the web server where the Customer Engagement (on-premises) web application is installed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Start or Stop the Web Server (IIS 8)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj635851(v=ws.11))  
   
 ### “Something went wrong while interaction with SharePoint” error message received  
  Applies to: All Customer Engagement (on-premises) versions when used with [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)]  

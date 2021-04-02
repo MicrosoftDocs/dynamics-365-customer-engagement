@@ -46,7 +46,7 @@ You can delete a social configuration at any time to prevent Dynamics 365 Market
 
 ### See also
 
-[Open the settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [Schedule and post messages on social media](social-posting.md)
 
 

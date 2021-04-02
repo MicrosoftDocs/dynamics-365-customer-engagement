@@ -1,8 +1,8 @@
 ---
 title: "Create or edit a hosted control | MicrosoftDocs"
 description: "Learn about creating or editing an existing hosted control."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
