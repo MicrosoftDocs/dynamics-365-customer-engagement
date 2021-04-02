@@ -4,7 +4,7 @@ description: "Read how you can customize chat widgets by using data tags on the 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/08/2021
+ms.date: 04/09/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
