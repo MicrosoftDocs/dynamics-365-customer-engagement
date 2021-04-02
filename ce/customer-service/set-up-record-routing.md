@@ -19,7 +19,7 @@ You can configure settings for record routing in Customer Service Hub, Omnichann
 
 To route entity records, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues)
 
-The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entities for routing](entity-channel.md#enable-entity-for-routing)
+The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing)
 
 ## Configure unified routing for records in Customer Service Hub
 
