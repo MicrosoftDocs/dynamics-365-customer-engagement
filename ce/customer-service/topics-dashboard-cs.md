@@ -67,9 +67,9 @@ The topic metrics chart has the following metrics displayed:
 | Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
 | Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
-### Case topics drill down view
+### Conversation topics drill down view
 
-The Topic drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end custmers are contacting support. 
+The Topic drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
 
 To access the drill down, select any metric value for the desired topic and select **Details**.
 
@@ -83,14 +83,18 @@ AI discovered topics in Customer Service Historical Analytics are often prime ca
 > [!div class="mx-imgBorder"]
 > ![Automate topics to Power virtual agents](media/automate-topics-to-PVA.png "Automate topics to Power virtual agents")
 
-Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Drill through**, and then selecting **Automate Topic** within the drill through view. This will launch the topic editing form.  
+Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting the PVA icon on the **Topic metrics** grid oy by selecting **Details** and then selecting **Automate to bot** within the drill through view. This will launch the topic editing form.  
 
-The topic provides suggested trigger phrases based on the case title. Select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, select **Create Bot**. You will be redirected to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added. Once this step is complete, select **Automate Topic** and you will redirect to Power Virtual Agents to complete the authoring process.
+> [!div class="mx-imgBorder"]
+> ![Editing form for Power virtual agents](media/PVA-editing-form.png "Editing form")
+
+The topic is provided as well as suggested trigger phrases based on the case title. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, selecting **Create Bot** will redirect to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added.
 
 > [!NOTE]
 > Any bots created via the Microsoft Teams channel will not be listed in the bot selection dropdown. Users creating bots using the drill down page for a topic in CSW will be redirected to CSH for form completion. 
 
 ### See also
+
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
 - [Summary dashboard](summary-dashboard-cs.md) <br>
 - [Agent dashboard](agent-dashboard-cs.md) 

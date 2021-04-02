@@ -30,13 +30,17 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 
 To view the Agent dashboard, navigate to customer service historical analytics and select **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
 
-## Key insights card
+> [!div class="mx-imgBorder"]
+> ![Agent dashboard](media/agent-dashboard "Agent dashboard insights")
 
-Agents that rank high or low across specific indicators to make it easier for customer service managers to discover top issues in agent performance.
+To view the agent dashboard, go to Omnichannel historical analytics and select **Agent** in the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance.
 
 ## Report details
 
-The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
+The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. KPIs for the dashboard are displayed as shown.
+
+> [!div class="mx-imgBorder"]
+> ! [Agent report](media/agent-report-csh.png "Agent report dahsboard")
 
 KPIs for the following areas are displayed:
 
@@ -66,6 +70,17 @@ To access the drill down, select any metric value for the desired agent and sele
 
 > [!div class="mx-imgBorder"]
 > ![Agent drill down view](media/agent-drill-down-view.png "Agent drill down view table")
+
+## Agent Hourly details drill down view
+
+The Agent hourly details drill down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The Session summary, Session details, Consult/Monitor, and Availability metrics are the same as the day-by-day view ensuring that supervisors can consistently analyze their contact center operation regardless of desired duration granularity. 
+To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
+
+> [!div class="mx-imgBorder"]
+> ![Agent hourly detail drill down view](media/agent-hourly-detail-drill-down-view.png "Agent hourly detail drill down view")
+
+
+
 
 
 ### See also
