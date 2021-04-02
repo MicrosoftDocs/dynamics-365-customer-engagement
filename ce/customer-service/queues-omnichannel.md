@@ -23,7 +23,7 @@ Queues in Omnichannel for Customer Service are proxies for skills or domains. Yo
 
 In an enterprise scenario, you can have various supervisors to handle different issues, and therefore, different types of queues are required to handle the various scenarios. Accordingly, routing rules are set up based on the complexity of issues that need to be handled.
 
-To simplify the routing experience for administrators and supervisors, queues are categorised based on the channel types as follows:
+To simplify the routing experience for administrators and supervisors, queues are categorized based on the channel types as follows:
 
 - **Messaging:** To route all messaging conversations pertaining to the Live Chat, SMS, and social channels.
 - **Entity records:** To route cases pertaining to entity records.
