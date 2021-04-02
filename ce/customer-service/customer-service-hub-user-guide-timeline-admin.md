@@ -405,7 +405,7 @@ Some dates can only exist on specific types of activities. For example, **Date s
 
 The activity rollup type can be configured for timelines on forms for the **Account, Contact and Opportunity** entity. The available types of rollups are **Extended**, **Related**, and **None**. Activity rollup only affects accounts and contacts in CRM applications. To only show activities that are directly related to the entity in timeline, select **None**.
 
-More information is on rollup types is available from [RollupType EnumType](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/rolluptype?view=dynamics-ce-odata-9).
+More information is on rollup types is available from [RollupType EnumType](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/rolluptype).
 
 ![Activity rollup type](media\activity-rollup-type.png "Activity rollup type")
 
