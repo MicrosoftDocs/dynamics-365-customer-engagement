@@ -1,8 +1,8 @@
 ---
 title: "AttributeMatchPath in Unified Service Desk  | MicrosoftDocs"
 description: "The topic explains about the <AttributeMatchPath> element that can be utilized by a web control configuration to find the desired control on the currently loaded HTML document using the controls attributes."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

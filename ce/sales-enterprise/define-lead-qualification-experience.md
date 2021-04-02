@@ -2,13 +2,12 @@
 title: "Define lead qualification experience (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Give your salespeople the flexibility to choose which records to create on lead qualification in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
   - D365-UI-*

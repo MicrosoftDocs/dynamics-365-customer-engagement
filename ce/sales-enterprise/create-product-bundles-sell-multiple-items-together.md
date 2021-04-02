@@ -2,13 +2,12 @@
 title: "Set up product bundles to sell multiple items together (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Combine products in a bundle in Dynamics 365 Sales to sell multiple items together."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-product
   - D365-UI-*
@@ -111,7 +110,7 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 ### See also  
 [How prices are calculated for product bundles?](pricing-product-bundles.md)
 [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
-[System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)
+[System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

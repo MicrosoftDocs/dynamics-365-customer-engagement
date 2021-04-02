@@ -74,7 +74,7 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 
 
 
-2. If you deactivated one of the views used by Dynamics 365 App for Outlook and get an error, see [The view is not available error message](https://go.microsoft.com/fwlink/p/?linkid=213547).
+2. If you deactivated one of the views used by Dynamics 365 App for Outlook and get an error, see [The view is not available error message](/previous-versions/sql/sql-server-2008-r2/ms188674(v=sql.105)).
 
 3. If  **Track** and **Set Regarding** options are missing, see [Track and Set Regarding options are missing in Dynamics 365 App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2137902).
 

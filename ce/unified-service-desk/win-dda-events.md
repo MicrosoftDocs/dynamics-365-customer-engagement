@@ -1,8 +1,8 @@
 ---
 title: "WinDDA events in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Windows DDA (WinDDA) events in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -21,7 +21,7 @@ The [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-dri
   
 <a name="control"></a>   
 ## Control events  
- Control events are fired by controls in an application. For all of these events, the control name must be specified during registration (`RegisterActionForEvent`). The controls must also be accessible in the application during registration. You can use the [FindControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.operationtype.findcontrol) method or add an exception handler to ensure that the control is accessible.  
+ Control events are fired by controls in an application. For all of these events, the control name must be specified during registration (`RegisterActionForEvent`). The controls must also be accessible in the application during registration. You can use the [FindControl](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.operationtype.findcontrol) method or add an exception handler to ensure that the control is accessible.  
   
  The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] Software Factory lists the events that are supported for a specific User Interface (UI) control type. If you do not specify the type in the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Inspector, [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] lists all events for the control. All available control events are listed by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] Software Factory if no control type is detected. The following table describes the supported control events.  
   

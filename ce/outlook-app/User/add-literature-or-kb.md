@@ -25,7 +25,7 @@ search.app:
 
 When you create a new email, you can add sales literature or a knowledge base article and send the information to your customer.
 
-To send sales literature, you must have the appropriate permission and use [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-enterprise/help-hub) or use [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/overview) to send knowledge base articles. 
+To send sales literature, you must have the appropriate permission and use [Dynamics 365 Sales](../../sales-enterprise/help-hub.md) or use [Dynamics 365 Customer Service](../../customer-service/overview.md) to send knowledge base articles. 
 
 1. Compose an email message as you normally would in Outlook.  
 
