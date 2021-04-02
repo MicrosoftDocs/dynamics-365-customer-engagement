@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 
 
-<!-- In line 28, do you mean Omnichannel for Customer Service, or simply "omnichannel"? Also, I'm not sure about the use of Omnichannel in line 44. It should either be lowercase, or Omnichannel for Customer Service. Here's the style guide info: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48167  -->
+<!-- In line 28, do you mean Omnichannel for Customer Service, or simply "omnichannel"? Also, I'm not sure about the use of Omnichannel in line 44.  Here's the style guide info: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48167  -->
 
 
 
