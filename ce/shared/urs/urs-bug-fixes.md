@@ -1,6 +1,36 @@
+## 3.12.43.68 - 2021 wave 1 general availability
+
+The following Universal Resource Scheduling 2020 Wave 1 features in general availability are included in this release.
+
+- Map view, weekly, and monthly views in the new schedule board. 
+- Appointment data included in resource scheduling.
+- Embedded optimizer enhancements within schedule board (preview).
+
+This release also includes all the fixes included in the [2021 wave 1 early access](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#3124015---2021-wave-1-early-access) and [2021 wave 1 early access update 1](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312424---2021-wave-1-early-access-update-1).
+
+- When creating multiday booking using **Evenly Distribute** booking method, user cannot overbook resource with single booking if duration is greater than resource's availability during that time. This bug is now fixed. 
+- Fixed a bug where quick scheduling is used on a requirement group with work location set to *Facility*, no available resources are returned. 
+- Start and end time on schedule assistant list view mismatches with estimated arrival time and end time on the create resource booking panel when using fulfillment preferences (intervals) are used on aa *Onsite* requirement. This bug is now fixed. 
+- **Rebook button** on requirement group’s bookings is using the **Default Booking Committed Status** from default **None** booking setup metadata, rather than using the default booking committed status from the schedulable entity’s booking setup metadata record. 
+- **Clear Sorting** option is now available on the column filters of the requirement panel of the new schedule board. 
+- When using quick book, the back button on the view resources page disappears if a different date is selected. This bug is now fixed. 
+- Business closures are not honored for the resource availability due to the different timezone on the resource work hours and the **User Timezone** preference. This bug is now fixed. 
+- When a skill uses a special character like **&** in the name, the skill name is displayed as HTML-encoded in the schedule board filter layout. This bug is now fixed. 
+- When using the schedule board’s email driving directions is fixed to send emails to the recipients in the **To** field. 
+- When a business closure is created for a day in the Canberra time zone (GMT+10) and saved, the start and end times of the business closure were raised by an hour. This bug is now fixed. 
+- Fixed a bug on the new schedule board in Hebrew, where the dates are incorrectly aligned from left to right when next day of the time range is selected. 
+- Fixed a bug where schedule board displays text in Chinese on the date columns of the hourly view, when system language is set to Japanese. 
+- When using the quick book, and the available resources are accessed on an available time slot, the time displayed is different than the actual time slot. This bug is now fixed. 
+- When using a field where time zone information is displayed on the details panel of the schedule board, the field was incorrectly displayed as the time zone code, but not the actual time zone. This bug is now fixed. 
+- When a requirement group record is opened from the schedule board requirement panel by double-clicking the record, it threw an error of insufficient privileges. This bug is now fixed. 
+- Made an improvement to the date selection on the booking panel of the schedule board. If the start date is selected after the end date, then then end date should also be updated to the start date. If end date is selected before the start date, then the start date should be updated to the selected end date. 
+- Unable to complete appointments without system admin security role privileges when customer service scheduling is installed. This bug is now fixed. 
+- On the schedule board, we made an improvement to show the booking tooltips, when using the schedule board on a slower network (fast 3G speeds). 
+- When a resource requirement record is created, a calendar record is created. When a resource requirement is deleted, additional logic is added to check if the calendar is used by any of the Dynamics 365 out-of-the-box record types, and if the calendar is not used, then the calendar record is also deleted. A similar behavior is also put in place for the work hours templates. This deletion of the calendars improves the performance of the schedule assistant.
+
 ## 3.12.42.4 - 2021 wave 1 Early access update 1
 
-The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/en-us/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface.
 
@@ -21,7 +51,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 3.12.36.2
 
-- Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the schedule assistant.
+- Fixed a bug where resources with certain work hours calendar types (type = -1) were not returned by the schedule assistant.
 - When the date format is set to English (United Kingdom), the date fields on the create resource booking pane of schedule assistant were not respecting the above date format selected. This bug is now fixed.
 - When a schedule board tab’s setting requirement map filter view is configured to a resource requirement entity view that has a view definition including link entity filtering does not contain data, the map view on the tab, does not load. This bug is now fixed. 
 - Keyboard navigation and selection issues on the "Characteristics – Rating" filter on the filter view of the schedule board are fixed. 
@@ -34,24 +64,25 @@ In addition, this release includes the following changes that have the potential
 
 ## 3.12.35.6
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#312355)
-- We fixed a bug that impacted the performance of the Schedule assistant. 
+This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312355)
+
+- We fixed a bug that impacted the performance of the schedule assistant. 
 
 ## 3.12.35.5
 
 - When creating Bookings for Facility type Resources using Quick Book, the travel time is incorrectly added to the total duration of the Booking. This behavior is now fixed, and with the fix, the travel time is excluded from the total duration of the booking for Facility type resources. 
 - For geographical regions, where Bing maps has no coverage, (ex: China, South Korea, and Japan), the distance and travel time calculations to the booking locations are calculated to the approximated values via **As The Crow Flies** (ATCF) method. 
-- Fixed a bug where, the displayed time range on the Schedule Board (old) is less than a day, then Resources routes are not displayed on the Map view. 
-- Made some performance enhancements to improve Schedule Assistant response time. 
+- Fixed a bug where, the displayed time range on the schedule Board (old) is less than a day, then Resources routes are not displayed on the Map view. 
+- Made some performance enhancements to improve schedule assistant response time. 
 
 ## 3.12.34.92
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#3123460)
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#3123460)
 - We fixed a bug that impacted the performance of the Schedule assistant. 
 
 ## 3.12.34.60
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/en-us/dynamics365/common-scheduler/bug-fixes#312344)
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312344)
 - Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the Schedule Assistant.
 
 ## 3.12.34.4
