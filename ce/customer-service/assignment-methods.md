@@ -114,5 +114,3 @@ Follow these steps to configure the selection criteria for the assignment rulese
 3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the Decision list area.
 4. Define as many rules as the number of assignment rulesets.
 
-
-
