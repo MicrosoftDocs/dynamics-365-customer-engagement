@@ -1,9 +1,10 @@
 ---
 title: "lcw onMessageReceived | MicrosoftDocs"
 description: lcw onMessageReceived  (Omnichannel for Customer Service JavaScript API reference)
-author: platkat
-ms.author: ktaylor
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
+ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: nenellim
 ms.service: dynamics-365-customerservice
