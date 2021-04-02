@@ -33,7 +33,7 @@ They are a sub-type of manual work classification rules and are rules defined to
 
 ### Machine learning model-based rules
 
-<!-- I am not sure why "Intelligent" is capitalized? Can it be lowercase? -->
+<!-- I am not sure why "Intelligent" is capitalized - can it be lowercase? -->
 
 
 They are a sub-type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the Intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
