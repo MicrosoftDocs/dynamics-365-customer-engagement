@@ -59,21 +59,24 @@ This release also includes social posting to Instagram, an API to enable or disa
 ### Bug fixes
 
 - **Customer journeys**
-    - 
+    - Added mechanism to detect duplicate customer journey contacts.
+    - Fixed an error that allowed users to create non-functioning customer journeys by adding an Event tile after a Segment tile.
+    - Resolved an error that caused segment name changes to not reflect in the customer journey designer.
 - **Data services**
     - 
 - **Event management**
-    - 
+    - Added the ability to only show active records in the custom field lookup when creating an event custom registration field.
 - **First run experience**
-    - 
+    - Resolved an issue where multi-geo PPAC provisioning failed to an org in a different geo.
+    - Fixed a UI error that sometimes show a Marketing app as "not configured," even when it was configured.
 - **Marketing emails**
-    - 
+    - Fixed an error that sometimes prevented an email button area from being clickable in Outlook.
 - **Marketing pages**
     - 
 - **Segmentation**
     - 
 - **Shared UX**
-    - 
+    - Fixed an error that sometimes caused cancelled registrations to not be removed from segments.
 
 ## March 2021 update
 
