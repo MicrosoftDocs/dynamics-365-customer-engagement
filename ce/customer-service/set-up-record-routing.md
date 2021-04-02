@@ -92,7 +92,6 @@ This section describes how to create a workstream for an entity that has been en
 
 
 
-<!-- Note that the screenshot doesn't show an Entity field. -->
 
 
 
