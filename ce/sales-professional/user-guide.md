@@ -2,11 +2,10 @@
 title: "Help resources for salespeople (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: sakudes
 ---
 
@@ -33,7 +32,7 @@ Focus on the right leads, contacts, and opportunities as you build out your team
 <li><a href="manage-leads-sales-professional.md" data-raw-source="[Manage leads](manage-leads-sales-professional.md)">Manage leads</a></li>
 <li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Manage opportunities](manage-opportunities-sales-professional.md)">Manage opportunities</a></li>
 <li><a href="create-quotes-sales-professional.md" data-raw-source="[Create quotes](create-quotes-sales-professional.md)">Create quotes</a></li>
-<li><a href="create-orders.md" data-raw-source="[Create orders](create-orders-sp.md)">Create orders</a></li>
+<li><a href="/dynamics365/sales-professional/create-orders-sp" data-raw-source="[Create orders](create-orders-sp.md)">Create orders</a></li>
 <li><a href="create-invoices.md" data-raw-source="[Create invoices](create-invoices.md)">Create invoices</a></li>
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
 <li><a href="create-price-list.md" data-raw-source="[Create a price list](create-price-list.md)">Create a price list</a></li>
@@ -53,9 +52,9 @@ Focus on the right leads, contacts, and opportunities as you build out your team
 
 <h2>
 Microsoft Learn resources</h2>
-<li><a href="https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
+<li><a href="/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
+<li><a href="/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
+<li><a href="/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
 
 
 </td></tr>

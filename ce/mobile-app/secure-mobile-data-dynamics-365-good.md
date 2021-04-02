@@ -1,6 +1,7 @@
 ---
-title: "Secure your mobile data with Microsoft Dynamics 365 apps for Good | MicrosoftDocs"
-ms.custom: 
+title: "Secure your Dynamics 365 mobile data with Microsoft Dynamics 365 apps for Good | MicrosoftDocs"
+ms.custom:
+description: Secure your mobile data with Microsoft Dynamics 365 apps for Good.
 ms.date: 11/01/2016
 ms.reviewer:
 ms.service: crm-online
@@ -29,7 +30,7 @@ search.app:
 # Secure your mobile data from loss or theft
 
 As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
-](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
+](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
 [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../includes/pn-good-dynamics.md)], protects your Dynamics 365 apps data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your Dynamics 365 apps data is protected by [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] data from your device.  
   
@@ -54,7 +55,7 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
   
 6. When prompted, type in your Dynamics 365 apps credentials.  
   
-   Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md) to find out all you can do.  
+   Now that you’re signed in to the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app, check out the [Dynamics 365 for phones and tablets User's Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md) to find out all you can do.  
   
 ## Accessing email and other apps through Dynamics 365 apps for Good  
  If you get an alert when you try to use email or other apps through [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], your admin may be controlling communication to these apps for security purposes. Contact your [!INCLUDE[pn_good_shortest](../includes/pn-good-shortest.md)] admin to find out which apps your company uses in conjunction with [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)], along with any settings that need to be configured.  
@@ -68,7 +69,7 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
  If you’re having problems with the app, see [Troubleshooting and things to know about Dynamics 365 for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md).  
   
 ### See also  
- [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,7 @@
 title: "Customize Power BI template apps to work with Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn about customizing Power BI template apps to work with Dynamics 365 Sales."
 ms.date: 03/30/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: sbmjais
 ms.author: shjais

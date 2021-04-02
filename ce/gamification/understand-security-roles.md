@@ -39,7 +39,7 @@ Administrators assign licenses to users to grant them permissions for certain ap
 - **Gamification app access**: Enables gamification users (including Game managers) to access the Gamification app for Unified Interface.
 
 
-[Learn more about security roles and permissions in Dynamics 365 apps.](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges)
+[Learn more about security roles and permissions in Dynamics 365 apps.](/dynamics365/customer-engagement/admin/security-roles-privileges)
 
 To learn more about the permissions of the available security roles, refer to the following table.  
   

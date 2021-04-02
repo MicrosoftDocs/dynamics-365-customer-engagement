@@ -106,7 +106,7 @@ You can resolve this issue by following the steps outlined below. The attribute 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
+> ![Screenshot showing the troubleshooting pathway outlined in the previous steps.](./media/faq-attributemap-upgrade-error-billing-account.png)
 
 ## What is the msdyn_postponegenerationuntil field that is found on many Field Service entities?
 
@@ -124,10 +124,13 @@ This field is found in the following entities:
 8.	Incident Types Setup (msdyn_incidenttypessetup)
 9.	Quote Booking Setup (msdyn_quotebookingsetup)
 
+## What about product bundles? I'd like to use them in Field Service scenarios.
+
+Unfortunately, at this time, using product bundles within Field Service is not supported.
 
 ## See also
 
-- [Resource Scheduling Optimization FAQs](rso-faq.md)
+- [Resource scheduling optimization FAQs](rso-faq.md)
 - [Field Service Mobile FAQs](activate-fs-mobile-app-license.md)
 - [Get help for Field Service Mobile](mobile-get-help.md)
 

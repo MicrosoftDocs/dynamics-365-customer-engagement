@@ -1,8 +1,8 @@
 ---
 title: "Walkthrough  Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/25/2019
 ms.topic: article
@@ -109,7 +109,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
    ![Screenshot of Web Adapter in Visual Studio](../unified-service-desk/media/usd-web-app-adapter-vs.PNG "Screenshot of Web Adapter in Visual Studio")  
 
-   3. Choose WebAppAdapter.cs and update the definition of **NotifyContextChange** with the following code to populate the text fields from the context information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Context)](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange\(microsoft.uii.csr.context\))  
+   3. Choose WebAppAdapter.cs and update the definition of **NotifyContextChange** with the following code to populate the text fields from the context information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Context)](/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange(microsoft.uii.csr.context))  
 
       ```csharp  
       public override bool NotifyContextChange(Context context)  

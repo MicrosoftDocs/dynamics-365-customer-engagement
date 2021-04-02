@@ -1,8 +1,8 @@
 ---
 title: "UIA Pattern List in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UIA patterns in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -19,23 +19,23 @@ search.app:
 # UIA Pattern List in Unified Service Desk
 This topic lists the UIA patterns.  
   
-1. [InvokePatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.invokepatternidentifiers.pattern.aspx)  
+1. [InvokePatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.invokepatternidentifiers.pattern)  
   
-2. [TogglePatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.transformpatternidentifiers.pattern.aspx)  
+2. [TogglePatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.transformpatternidentifiers.pattern)  
   
-3. [ExpandCollapsePatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.expandcollapsepatternidentifiers.pattern.aspx)  
+3. [ExpandCollapsePatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.expandcollapsepatternidentifiers.pattern)  
   
-4. [SelectionItemPatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.selectionitempatternidentifiers.pattern.aspx)  
+4. [SelectionItemPatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.selectionitempatternidentifiers.pattern)  
   
-5. [TextPatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.tablepatternidentifiers.pattern.aspx)  
+5. [TextPatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.tablepatternidentifiers.pattern)  
   
-6. [ScrollPatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.scrollpatternidentifiers.pattern.aspx)  
+6. [ScrollPatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.scrollpatternidentifiers.pattern)  
   
-7. [RangeValuePatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.rangevaluepatternidentifiers.pattern.aspx)  
+7. [RangeValuePatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.rangevaluepatternidentifiers.pattern)  
   
-8. [TogglePatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.transformpatternidentifiers.pattern.aspx)  
+8. [TogglePatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.transformpatternidentifiers.pattern)  
   
-9. [ValuePatternIdentifiers.Pattern](https://msdn.microsoft.com/library/vstudio/system.windows.automation.valuepatternidentifiers.pattern.aspx)  
+9. [ValuePatternIdentifiers.Pattern](/dotnet/api/system.windows.automation.valuepatternidentifiers.pattern)  
   
    DDA can be extended to add a new pattern.  
   

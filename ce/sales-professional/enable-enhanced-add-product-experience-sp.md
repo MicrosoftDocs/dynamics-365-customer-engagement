@@ -2,13 +2,12 @@
 title: "Enable the enhanced experience of adding products | MicrosoftDocs"
 description: "Enable your salespeople to quickly find and add multiple products to opportunities in Dynamics 365 Sales by enabling the enhanced 'add product' experience."
 ms.date: 04/17/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-opportunityproduct
   - D365-Entity-quotedetail

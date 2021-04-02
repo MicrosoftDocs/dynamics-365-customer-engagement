@@ -1,8 +1,8 @@
 ---
 title: "Toolbar Container (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Toolbar Container type of hosted control to configure toolbars in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -73,7 +73,7 @@ Use **Toolbar Container** type of hosted control to create a toolbar in your app
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

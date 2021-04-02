@@ -2,13 +2,12 @@
 title: "Define product pricing with price lists and price list items (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define what to charge for your products or services in Dynamics 365 Sales."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-pricelevel
   - D365-Entity-productpricelevel
@@ -140,7 +139,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
  ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
   
 ### See also  
- [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
+ [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)   
  [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
 [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
 

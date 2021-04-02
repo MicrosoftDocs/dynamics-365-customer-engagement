@@ -2,14 +2,13 @@
 title: "Use properties to describe a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Simplify product management and classification by adding product properties in Dynamics 365 Sales."
 ms.date: 02/10/2021
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Use properties to describe a product (Sales Hub)
@@ -89,7 +88,7 @@ When you revise a product and change the properties, [!INCLUDE[pn-dyn-365-sales]
 
 ### See also  
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)   
- [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)   
+ [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)   
  [Create a product family](../sales-enterprise/create-product-family.md)
 
 

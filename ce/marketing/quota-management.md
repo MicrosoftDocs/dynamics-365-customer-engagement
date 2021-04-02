@@ -1,7 +1,7 @@
 ---
 title: "Monitor your monthly quotas (Dynamics 365 Marketing) | Microsoft Docs"
 description: "View your remaining monthly credits for sending marketing email messages and other metered services in Dynamics 365 Marketing."
-ms.date: 04/01/2019
+ms.date: 02/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -23,7 +23,7 @@ search.app:
 
 Dynamics 365 Marketing is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of marketing contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota limits** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
 
-To see how much of each quota you've used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
+To see how much of each quota you've used, go to **Settings** > **Overview** > **Quota limits**.
 
 The following quotas are tracked here:
 
@@ -38,6 +38,6 @@ The following quotas are tracked here:
 > - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
 > 
-> See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
+> See also the [Readme](./known-issues.md) document for the latest news and updates.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

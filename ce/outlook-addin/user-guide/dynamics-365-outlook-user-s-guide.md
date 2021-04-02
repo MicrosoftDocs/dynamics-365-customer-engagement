@@ -30,7 +30,7 @@ search.app:
 # Dynamics 365 for Outlook User Guide
 
 > [!IMPORTANT]
-> Effective October 1 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is retired. Customers must transition to the modern [Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/outlook-app/overview) at the earliest. Microsoft will not provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
+> Effective October 1 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is retired. Customers must transition to the modern [Dynamics 365 App for Outlook](../../outlook-app/overview.md) at the earliest. Microsoft will not provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
 > 
 > Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
 >
