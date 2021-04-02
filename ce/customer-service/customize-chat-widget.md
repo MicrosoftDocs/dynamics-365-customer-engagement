@@ -1,17 +1,10 @@
 ---
-<<<<<<< HEAD
-title: "Customize chat widgets | Microsoft Docs"
-description: "How to customize chat widgets by using data tags on the chat widget script."
-author: v-sailab
-ms.author: v-sailab
-=======
 title: "Customize a chat widget | Microsoft Docs"
 description: "Read how you can customize chat widgets by using data tags on the chat widget script"
 author: mh-jaya
 ms.author: v-jmh
->>>>>>> 243a4d0c62a21b6381a6b1c12561f85fc6f8d38c
 manager: shujoshi
-ms.date: 03/10/2021
+ms.date: 04/05/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
