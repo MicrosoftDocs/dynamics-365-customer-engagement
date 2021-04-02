@@ -48,7 +48,7 @@ This release also includes social posting to Instagram, an API to enable or disa
     - Added an in-app onboarding guide to the new email editor to ease user transition from the classic editor.
     - The canvas and settings now include options for footer fields, making it easier to add footer elements such as a legal address or an unsubscribe link.
     - To save time when creating new emails and templates, we added a settings option to save a default “from” name and email address.
-    - Added documentation for a new domain alignment process. The documentation details the process to align SPF and DKIM records to a sender’s “From” address. Domain alignment improves email deliverability, reducing bounces.
+    - Added a new domain alignment process. The process aligns SPF and DKIM records to a sender’s “From” address, improving email deliverability and reducing bounces.
 - **Marketing pages**
     - Added a new API to enable, disable, or delete cookies, expanding options for user tracking and compliance. The API, which affects known and anonymous visitors, applies to hosted forms, marketing pages (when Power Apps Portal is used), and captured forms.
 - **Social posting**
@@ -62,8 +62,8 @@ This release also includes social posting to Instagram, an API to enable or disa
     - Added mechanism to detect duplicate customer journey contacts.
     - Fixed an error that allowed users to create non-functioning customer journeys by adding an Event tile after a Segment tile.
     - Resolved an error that caused segment name changes to not reflect in the customer journey designer.
-- **Data services**
-    - 
+    - Fixed an error that broke HTML when post-processing and designer editor meta tags were both in one email.
+    - Fixed an error that caused a customer journey popup element to be shown even after the tab was changed.
 - **Event management**
     - Added the ability to only show active records in the custom field lookup when creating an event custom registration field.
 - **First run experience**
@@ -71,10 +71,18 @@ This release also includes social posting to Instagram, an API to enable or disa
     - Fixed a UI error that sometimes show a Marketing app as "not configured," even when it was configured.
 - **Marketing emails**
     - Fixed an error that sometimes prevented an email button area from being clickable in Outlook.
+    - Improved email rendering in iOS and desktop Outlook.
+    - Fixed an error that caused changes to "stopped" state emails to not be detected.
+    - Fixed an error that sometimes caused rounded corner buttons to display rotate/resize marks after clicking off the button.
 - **Marketing pages**
-    - 
+    - Fixed an error that prevented global double opt-in confirmation links from allowing query parameters.
+    - Resolved an issue that caused RedirectLinkClicked interactions to rely on cookies, even though the tracking link redirected to the redirect link.
+    - Fixed an error that caused query strings to not be parsed by some servers.
+    - Resolved a list ID type mismatch in form submission rendering.
 - **Segmentation**
-    - 
+    - Fixed an issue that sometimes caused dates in dynamic segments to be partially cut off in the UI.
+- **Settings**
+    - Resolved loading errors on the **Versions** page.
 - **Shared UX**
     - Fixed an error that sometimes caused cancelled registrations to not be removed from segments.
 
