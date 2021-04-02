@@ -45,7 +45,8 @@ In this section, we cover information on how to create a queue for the messaging
        - **Group number**: A number to organize the queue. 
     3. Select **Create**. The queue that you created is displayed.
      
-       ![Queue in Omnichannel admin center](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
+       > [!div class=mx-imgBorder]
+       > ![Queue in Omnichannel admin center](../customer-service/media/queue-summary-ur.png "Queue in Omnichannel admin center")
 
 2. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, then select **Add**. The users are added to the queue.
 3. In **Assignment method**, do one of the following:
@@ -79,8 +80,8 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 
 4. Select **Save**. The **Users (Agents)** section is displayed.
 
-   [!div class=mx-imgBorder]
-   ![Omnichannel queue](media/oc-create-queue.png "Omnichannel queue")
+   > [!div class=mx-imgBorder]
+   > ![Omnichannel queue](media/oc-create-queue.png "Omnichannel queue")
 
 5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
 6. On the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.
