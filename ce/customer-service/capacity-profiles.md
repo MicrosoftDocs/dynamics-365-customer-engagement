@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 
 
-<!-- In line 28, do you mean Omnichannel for Customer Service, or simply "omnichannel"? Also, I'm not sure about the use of Omnichannel in line 44.  Here's the style guide info: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48167  -->
+<!-- In line 28, do you mean Omnichannel for Customer Service admin center? Also, I'm not sure about the use of Omnichannel in line 44. Here's the style guide info: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=48167  -->
 
 
 
@@ -25,7 +25,7 @@ You can create capacity profiles to define the types and amount of work that age
 
 Perform the following steps to configure the capacity profile:
 
-1. In the Omnichannel for Customer Service admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
+1. In the Omnichannel admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
 
   > [!NOTE]
   > Unified routing must be enabled in Service configuration settings in Customer Service Hub for the **User attributes** area to appear in the site map.
