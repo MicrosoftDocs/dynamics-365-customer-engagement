@@ -25,7 +25,7 @@ With [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] you can easily run 
   
  For more information about using [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)], see [PowerShell](/powershell/scripting/powershell-scripting?view=powershell-6).  
   
- For more information about the programmatic use of the [!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)], see [MSDN: Administer the deployment using the deployment web service](https://msdn.microsoft.com/library/gg327886.aspx).  
+ For more information about the programmatic use of the [!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)], see [MSDN: Administer the deployment using the deployment web service](/previous-versions/dynamicscrm-2016/developers-guide/gg327886(v=crm.8)).  
 
 <!--   
 <a name="configure"></a>   
@@ -46,7 +46,7 @@ With [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] you can easily run 
      This command adds the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] snap-in to the current session. The snap-in is registered during installation and setup of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
   
 > [!IMPORTANT]
->  -   For information about registering the XRM tooling connector cmdlets, Get-CrmConnection and Get-CrmOrganizations, see [MSDN: Use PowerShell cmdlets for XRM tooling to connect to CRM](https://msdn.microsoft.com/library/dn689040.aspx).  
+>  -   For information about registering the XRM tooling connector cmdlets, Get-CrmConnection and Get-CrmOrganizations, see [MSDN: Use PowerShell cmdlets for XRM tooling to connect to CRM](/previous-versions/dynamicscrm-2016/developers-guide/dn689040(v=crm.8)).  
 > -   For information about registering the Package Deployer cmdlets, see [Deploy packages using CRM Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md).  
 > -   You must register the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] commands; otherwise you’ll receive the following message when you try to run a cmdlet.  
 >   
@@ -104,7 +104,7 @@ New-CrmDeploymentAdministrator domain\adminName
   
 <a name="list"></a>   
 ## Get Dynamics 365 PowerShell cmdlet Help topics  
- For  a complete list of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets with links to Help topics, see the [Microsoft Dynamics CRM PowerShell Reference](https://technet.microsoft.com/library/dn833081.aspx).  
+ For  a complete list of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets with links to Help topics, see the [Microsoft Dynamics CRM PowerShell Reference](/previous-versions/dynamicscrm-2015/deployment-administrators-guide/dn833081(v=crm.7)).  
   
 <a name="BKMK_deploy"></a>   
 ## Update deployment configuration settings using PowerShell  

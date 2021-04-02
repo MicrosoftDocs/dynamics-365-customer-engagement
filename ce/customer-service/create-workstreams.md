@@ -29,7 +29,9 @@ The workstream can be one of the following types:
 
 
 > [!IMPORTANT]
-> Entity routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing.
+>
+> - Entity routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing.
+> - Workstreams that you created in Omnichannel Administration app can't be modified
 
 ## Create a workstream in Omnichannel admin center
 
@@ -37,17 +39,19 @@ Perform the following steps:
 
 1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**, and then select **New**.
 2. In the **Create a workstream** dialog box, enter the following details:
+
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
     - **Type**: Select one of the following types:
       - **Messaging**: To configure the workstream for chat and other conversation channels.
       - **Record**: To configure the workstream for entity record, such as case and email activity.
-    - **Channel**: Applicable if you have selected the type as Messaging. Select a channel from the list.
-    - **Record**: Applicable if you have selected the type as Record. Select the entity record from the list.
+    - **Channel**: This box appears if you have selected the type as Messaging. Select a channel from the list.
+    - **Record**: This box appears if you have selected the type as Record. Select the entity record from the list.
+
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
-    > ![Set up a channel](media/set-up-wechat.png "Set up a channel")
+    > ![Set up a channel](media/set-up-wechat.png "Set up a channel") 
 4. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)
@@ -56,9 +60,12 @@ Perform the following steps:
    - [Configure a Twitter channel](configure-twitter-channel.md)
    - [Configure a WhatsApp channel](configure-whatsapp-channel.md)
    - [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
+   - [Configure an SMS channel for TeleSign](configure-sms-channel.md)
+   - [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
 5. Configure routing rules for the workstream. More information: [Configure work classification rules](configure-work-classification.md)
 6. If you want to configure route to queues, see [Configure route to queues](configure-work-classification.md#configure-route-to-queues-ruleset-and-rules).
+
 
 ### Configure work distribution
 

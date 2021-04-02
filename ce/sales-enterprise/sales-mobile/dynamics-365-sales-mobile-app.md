@@ -20,7 +20,7 @@ In contrast to the Dynamics 365 for phones and tablets app, which is a model-dri
 > [!IMPORTANT]
 > - A preview feature is a feature that is not complete, but is made available before it's officially in a release so customers can get early access and provide feedback. Preview features may have limited or restricted functionality. 
 > - We expect changes to this feature.
-> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features are subject to a separate [supplemental terms of use](https://docs.microsoft.com/dynamics365/legal/slt-dynamics365-mobile-admin-public).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features are subject to a separate [supplemental terms of use](../../legal/slt-dynamics365-mobile-admin-public.md).
 
 With the Dynamics 365 Sales mobile app, you can do the following (and much more):
 

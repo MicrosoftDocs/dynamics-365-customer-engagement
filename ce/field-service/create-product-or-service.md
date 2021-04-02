@@ -39,7 +39,7 @@ In this article, let's explore creating products and services, adding and using 
 Go to **Field Service** > **Settings** > **Products** > **+New**.
 
 >[!Note]
-> For older versions, go to **Field Service** > **Administration**, and then choose **Products**. 
+> Field Service does not support use of **Product Bundles**.
 
 
 > [!div class="mx-imgBorder"]
@@ -277,7 +277,7 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 - **Issue**: Permission error when creating a new product from **Field Service** > **Settings** > **Products** > **Add Product** (in top ribbon).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the insufficient permissions error window.](./media/error-permission-product-publish.png)
+> ![Screenshot of the insufficient permissions error window, showing error details.](./media/error-permission-product-publish.png)
 
 - **Fix**: Adding read privileges to the following entities in the next screenshot allows the user to add and publish products successfully.
 

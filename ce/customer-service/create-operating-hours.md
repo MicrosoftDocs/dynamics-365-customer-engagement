@@ -9,11 +9,9 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Preview: Create and manage operating hours
+# Create and manage operating hours
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Introduction
 
@@ -29,15 +27,21 @@ The operating hours schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [Automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they will receive responses that you have set.
 
-After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to control the display of the widget. For social and SMS channels, and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
+After you create an operating hour record, in Omnichannel admin center, you can do the following steps depending on your requirement:
+
+- **Queues:** Configure the operating hour on the main page of the queue.
+- **Chat widget:** Add the operating hour record on the **Chat widget** tab.
+- **SMS channels:** Add the operating hour record on the **Behaviors** tab of the channel instance that can be accessed through the corresponding workstream.
+
+In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
 
 ## Create a record to define operating hours
 
 1. In Omnichannel admin center, in the site map, under **Advanced settings**, select **User attributes**.
 2. On the page that appears, select **Manage** for **Operation Hours**.
 
->[!Note]
-> If you are using Omnichannel Administration, under **Settings**, select **Operating Hours**.
+    > [!Note]
+    > If you are using Omnichannel Administration, under **Settings**, select **Operating Hours**.
 
 3. Select **New**. The **New Operating Hour** page is displayed.
 
@@ -51,7 +55,7 @@ After you create an operating hour record, you must add it to the **Design** tab
 
 6. On the **Working Hours** tab, select **New** > **Working hours** in the calendar.
 
-7.  In the **Working hours** panel, set the following options to define the working hours schedule.
+7. In the **Working hours** panel, set the following options to define the working hours schedule.
    - **All Day:** Specify Yes, if the chat widget should be available 24/7.
    - **Calendar:** Specify the period for the schedule. The option to choose dates is available only when **All Day** is Yes.
    - **Time:** Select the start and end time for the schedule.
@@ -59,7 +63,7 @@ After you create an operating hour record, you must add it to the **Design** tab
    - **choose an end date:** Optionally, specify an end date.
    -  **Time zone:** Select an applicable time zone. The daylight saving timings are taken into account, if applicable for the selected time zone.
 
-        > ![Create an operating hour schedule](media/oc-create-operating-hour.png "Create a operating hour schedule")
+    > ![Create an operating hour schedule](media/oc-create-operating-hour.png "Create a operating hour schedule")
 
 8. Select **Save**. You are returned to the **Working Hours** tab.
 

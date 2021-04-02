@@ -2,13 +2,12 @@
 title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales."
 ms.date: 01/08/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
   - D365-Entity-salesorder

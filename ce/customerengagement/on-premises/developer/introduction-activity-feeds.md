@@ -99,7 +99,7 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
 |`ID`|The ID of the record that is mentioned in the post.|  
 |`Display String`|The text that you want to be displayed in the mention, such as a record’s name.|  
 
- The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](org-service/organization-service-entities.md). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+ The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](/powerapps/developer/data-platform/browse-your-metadata). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
 
  You can specify multiple mentions in this attribute. To retrieve data contained in the mention, parse the string in the `Text` attribute to search for the “@[“ characters that separate mentions from other mentions or text.  
 

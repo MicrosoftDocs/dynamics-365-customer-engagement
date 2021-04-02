@@ -4,7 +4,7 @@ description: "Learn about how various Dynamics 365 Customer Engagement (on-premi
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
+ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -26,7 +26,7 @@ search.audienceType:
   
  For more information about whether a message is supported offline, see <xref:Microsoft.Crm.Sdk.Messages>. You can also determine whether a <xref:Microsoft.Xrm.Sdk.IOrganizationService> message works offline by checking the `SdkMessage.Availability` attribute for the desired message. If the message works for multiple entity types, you must also check the `SdkMessageFilter.Availability` attribute to see whether the message is available offline for the entity you want to work with. For example, the `Create` message is available offline, but not for the queue, user, or site entities.  
   
- Tracing can be enabled on the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] for debugging. For more information about the event viewer and platform tracing, see [Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699694.aspx).  
+ Tracing can be enabled on the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] for debugging. For more information about the event viewer and platform tracing, see [Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises)](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699694(v=crm.8)).  
   
 ### See also  
  [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)   

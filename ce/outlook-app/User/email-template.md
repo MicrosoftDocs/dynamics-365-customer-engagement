@@ -28,7 +28,7 @@ If you frequently send the same type of email, save time by using an email templ
 
 For example, you could use a **Thank you** template to save time whenever you want to send a thank you message to a customer.
 
-For information on creating email templates: [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).  
+For information on creating email templates: [Create templates for email](/power-platform/admin/create-templates-email).  
 
   > [!div class="mx-imgBorder"] 
   > ![Example of an email template](../media/email-template-appforoutlook.png)
@@ -76,5 +76,3 @@ You must have the appropriate permissions to add email templates.
 
    > [!div class="mx-imgBorder"] 
    > ![Show email template added to your email](../media/email-template-5-appforoutlook.png)
-
-

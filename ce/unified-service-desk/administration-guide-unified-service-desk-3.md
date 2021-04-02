@@ -1,8 +1,8 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.date: 04/09/2021
 ms.topic: article
@@ -19,13 +19,11 @@ You can configure a live chat widget that can be displayed on your portal for cu
 
 Perform the following steps to configure chat in Omnichannel admin center:
 
-1. In the Omnichannel admin center site map,select **Workstreams**.
+1. In the Omnichannel admin center site map, select **Workstreams**.
 2. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
 3. On the workstream page, select **Set up chat**.
-4. On the **Live chat setup** page, enter the following channel details:
-   - Name:
-   - Language:
-5. Select **Next**, and enter the following chat widget details on the **Chat Widget** page:
+4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** boxes respectively.
+5. On the **Chat Widget** page, enter the following details:
    - **Title:** Display name for the chat widget.
    - **Subtitle:** Additional title, such as "We're online".
    - **Theme color:**  Choose a color from the list.

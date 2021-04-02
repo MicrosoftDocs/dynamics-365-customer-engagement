@@ -1,8 +1,8 @@
 ---
 title: "Execute scripts using scriptlets in Unified Service Desk | MicrosoftDocs"
 description: "Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
