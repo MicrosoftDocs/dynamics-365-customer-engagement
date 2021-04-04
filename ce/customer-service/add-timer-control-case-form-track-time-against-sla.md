@@ -28,6 +28,10 @@ After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can
 
 For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
+A sample runtime view of the SLA Timer is as follows.
+
+![Runtime view of the SLA timers](media/sla-timer-runtime.png "Runtime view of the SLA timers")
+
 > [!NOTE]
 > The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
 
