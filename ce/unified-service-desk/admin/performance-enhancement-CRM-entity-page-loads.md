@@ -351,7 +351,7 @@ In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebVie
 
 Use the **BlockEdgeWebView2Pooling** UII option if you want to show the nav bar for a specific entity in the Edge WebView2 Process pooled instances.
 
-See [Add the BlockChromeProcessPooling UII option](#add-the-blockedgewebview2pooling-uii-option) to know how to add the UII option.
+See [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockedgewebview2pooling-uii-option) to know how to add the UII option.
 
 #### Show nav bar for all the entities
 
