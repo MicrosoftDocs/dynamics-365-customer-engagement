@@ -36,21 +36,22 @@ Do the following steps to add the SLA timer control for the case entity.
 > [!IMPORTANT]
 > You can add the SLA timer control only in the classic PowerApps experience.
 
-1. In your Dynamics 365 environment, go to **Customizations**.
-2. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
-3. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
-4. Double-click the subgrid, and on the **Set Properties** dialog box, enter the necessary details.
+1. In your Dynamics 365 environment, select **Advanced Settings** to go to **Customizations**.
+2. Select **Customize the System**, and in the **Solutions** page, expand **Entities** under **Components**.
+3. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
+4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
+5. Double-click the subgrid, and on the **Set Properties** dialog box, enter the necessary details.
    - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
    > ![Configure SLA Timer in customizations](../customer-service/media/sla-timer-properties.png "Configure SLA Timer in customizations")
 
-5. On the **Controls** tab, enter the following information:
+6. On the **Controls** tab, enter the following information:
    1. Select **Add Control**, and choose SLA Timer.
    2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. For optimal performance, choose an interval that is not too short. The default interval is 30 minutes.
 
    > ![Set refresh frequency for timer](media/sla-timer-update-frequency.png)
 
-6. Save and publish the solution.
+7. Save and publish the solution.
 
 ## Add an out-of-the-box timer control to the Case form
 
