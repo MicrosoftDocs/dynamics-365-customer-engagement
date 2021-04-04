@@ -53,7 +53,7 @@ To Learn more, see [Create a site map for an app using the site map designer](..
 
 ## Create a routing rule set (Customer Service Hub)
 
-You can create routing rule sets in Customer Service Hub to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md)
+You can create routing rule sets in Customer Service Hub to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#unified-interface-enablement-of-case-routing-rules)
 
 ### Prerequisites
 

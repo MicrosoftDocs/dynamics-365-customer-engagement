@@ -100,20 +100,20 @@ The timeline control provides an easy and immersive experience to view a custome
 
 Enhancements to the timeline control include the ability to:
 
--   View more details on an activity without the need to scroll.
+- View more details on an activity without the need to scroll.
 
--   Filter by activity type, set multiple filters simultaneously, and visually determine whether a list is filtered.
+- Filter by activity type, set multiple filters simultaneously, and visually determine whether a list is filtered.
 
--   Find and highlight matching text with the search filter.
+- Find and highlight matching text with the search filter.
 
--   Show only user or system records with the **Post by** filter.
+- Show only user or system records with the **Post by** filter.
 
--   Visually identify closed or completed activities.
+- Visually identify closed or completed activities.
 
--   Expand or collapse all records.
+- Expand or collapse all records.
 
--   Provide email-specific actions for email records.
- 
+- Provide email-specific actions for email records.
+
 More information: [Set up the timeline control](/powerapps/maker/model-driven-apps/set-up-timeline-control)
 
 ## Agent productivity enhancements to knowledge capabilities
@@ -122,15 +122,15 @@ The ability to quickly find and share knowledge articles is a key asset that age
 
 **Feature Details**
 
--   Use an improved layout of knowledge search results to simplify scanning, reading, and action.
+- Use an improved layout of knowledge search results to simplify scanning, reading, and action.
 
--   Review knowledge articles in a separate, full screen.
+- Review knowledge articles in a separate, full screen.
 
--   Search the knowledge base outside the context of a customer case; knowledge search is now available in the Customer Service Hub app navigation for anytime access.
+- Search the knowledge base outside the context of a customer case; knowledge search is now available in the Customer Service Hub app navigation for anytime access.
 
--   Use a modern toolbar with more font choices and the ability to cut and paste formatted content from Office documents such as Word and Excel while maintaining formatting. Meanwhile, use the enhanced inline table capabilities that allow quick tables and adding or deleting rows and columns.
+- Use a modern toolbar with more font choices and the ability to cut and paste formatted content from Office documents such as Word and Excel while maintaining formatting. Meanwhile, use the enhanced inline table capabilities that allow quick tables and adding or deleting rows and columns.
 
-More information: [Knowledge Base Search in Customer Service](/dynamics365/customer-service/search-knowledge-articles-csh.md)
+More information: [Knowledge Base Search in Customer Service](/dynamics365/customer-service/search-knowledge-articles-csh)
 
 ## Configurable case resolution page
 
@@ -146,7 +146,7 @@ Administrators can perform the following customizations in the case resolution d
 
 - Customize the case resolution entity.
 
-More information: [Modify case resolution dialog box](/dynamics365/customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog.md)
+More information: [Modify case resolution dialog box](/dynamics365/customer-service/customer-service-hub-user-guide-modify-case-resolution-dialog)
 
 ## Enhancements in the queue page
 
@@ -156,7 +156,7 @@ Agents must constantly navigate between queue grids and record forms that result
 
 In this release, the user experience has been enhanced for agents to manage their queues. The agents can now select an item in the queue and view its details on the same page without having to switch contexts. They can also go through the list of items in the queue without the need to navigate away from the page.
 
-More information: [Work with queues](/dynamics365/customer-service/work-with-queues.md)
+More information: [Work with queues](/dynamics365/customer-service/work-with-queues)
 
 ## New work hour calendar in service scheduling
 
@@ -166,7 +166,7 @@ Scheduling resources quickly and accurately is a key part of optimizing service 
 
 Administrators currently navigate several screens to access a resource's calendar and update work hours and time off. With this release, we are delivering a new experience using an accessible Power Control Framework (PCF) calendar control in Unified Interface. Organizations will have flexibility to design new experiences (for example, using canvas apps) that modify resources' working hours from outside entity forms and views.
 
-More information: [Create customer service schedule and define work hours](/dynamics365/customer-service/create-customer-service-schedule-define-work-hours.md)
+More information: [Create customer service schedule and define work hours](/dynamics365/customer-service/create-customer-service-schedule-define-work-hours)
 
 ## Support for Site entity in Unified Interface
 
@@ -231,7 +231,7 @@ Usability enhancements have been made for queue items. Agents can do the followi
   - When it was last modified.
 - Modify who is working on the queue item.
 
-More information: [Work with queues](/dynamics365/customer-service/work-with-queues.md)
+More information: [Work with queues](/dynamics365/customer-service/work-with-queues)
 
 ## In-app navigation enhancements for Dynamics 365 for phones and tablets
 

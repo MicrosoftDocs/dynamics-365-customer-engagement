@@ -15,7 +15,7 @@ Updates to the case resolution main form dialog box provide customers with addit
 
 Customers can go to the form designer and edit and modify fields according to their business needs.
 
-The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md)
+The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
 Use the following steps to get started:
 
