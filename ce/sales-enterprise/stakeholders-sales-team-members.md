@@ -2,8 +2,7 @@
 title: "How are stakeholders and sales team members tracked for opportunities? (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how stakeholders and sales team members for opportunities are tracked in Dynamics 365 Sales."
 ms.date: 04/22/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,7 +15,7 @@ When you're working on an opportunity, you need to track who the stakeholders ar
 
 ## Stakeholder subgrid
 
-The **Stakeholders** subgrid uses connections to associate contact records as stakeholders with the opportunity. More information: [Create connections to define and view relationships between records](/dynamics365/customerengagement/on-premises/basics/create-connections-view-relationships-between-records).
+The **Stakeholders** subgrid uses connections to associate contact records as stakeholders with the opportunity. More information: [Create connections to define and view relationships between records](../customerengagement/on-premises/basics/create-connections-view-relationships-between-records.md).
 
 You can add a contact as a stakeholder to the opportunity by selecting **+New Connection** on the subgrid. This creates a connection record between the opportunity and the contact by using the **Stakeholder** connection role. For more information, see [Configure connection roles](/powerapps/maker/common-data-service/configure-connection-roles). You can change the connection role to any other applicable stakeholder connection role by opening the record and changing the **As this role** field on the connection record. Other out-of-the-box connection roles configured under the **Stakeholder** connection role category are Champion, Decision Maker, End User, Economic Buyer, Influencer, and Technical Buyer.
 

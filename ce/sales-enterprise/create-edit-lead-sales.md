@@ -2,13 +2,12 @@
 title: "Create or edit leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
   - D365-UI-*
@@ -42,7 +41,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
            > -  Auto-population happens only when creating a new lead and when the corresponding fields in the Lead form are empty. If fields are auto-populated or data is manually entered, the auto population doesn't override the existing values. 
            >  -  On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
   
-5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../customerengagement/on-premises/basics/work-with-activities.md)  
 
 6. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 

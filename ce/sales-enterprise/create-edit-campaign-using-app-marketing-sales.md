@@ -2,15 +2,14 @@
 title: "Create or edit a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use campaigns in Dynamics 365 Sales to expand your reach to new customers and improve sales."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+ms.custom: 
+  - "dyn365-sales"
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-list
   - D365-Entity-campaign
@@ -53,7 +52,7 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
    2. In the **Schedules** section, enter the proposed and actual start and end dates of the campaign.  
   
-   3. To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record](../basics/add-phone-call-task-email-appointment-activity-case-record.md)    
+   3. To track conversations in the planning phase of the campaign, in the **Activities** area, add activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a phone call, task, email, or appointment activity to a case or record](../customerengagement/on-premises/basics/add-phone-call-task-email-appointment-activity-case-record.md)    
   
    4. Enter details about the cost of the campaign and campaign activities, and the budget and revenue of the campaign in the **Financials** section of the **Details** tab.
   
