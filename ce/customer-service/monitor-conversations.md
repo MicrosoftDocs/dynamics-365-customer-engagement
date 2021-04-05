@@ -109,7 +109,7 @@ At times, you may need to transfer an ongoing conversation from an agent to anot
 
 4. On the **Transfer conversations** dialog box, select **Agent**.
 
-  Select to transfer the conversation to an agent by choosing an agent name from the list. Agents whose presence match with one of the allowed presence values in the work stream configuration only will be listed.
+      Select to transfer the conversation to an agent by choosing an agent name from the list. Agents whose presence match with one of the allowed presence values in the work stream configuration only will be listed.
 
 5. After choosing the agent, select **Transfer**.
 
