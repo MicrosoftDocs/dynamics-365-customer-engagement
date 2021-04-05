@@ -4,7 +4,7 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
+ms.date: 04/05/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -83,7 +83,11 @@ Channel Integration Framework model-driven app is only applicable to configure c
 
 ### Where do I configure voice channel provider for multisession apps?
 
-Organizations can configure voice channel providers from the app profile manager feature.
+Organizations can configure voice channel providers from the app profile manager.
+
+### Can I synchronize user presence across different providers?
+
+Presence synchronization is not supported.
 
 ### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
 
