@@ -155,7 +155,9 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md) | New topic about integrating channel using Channel Integration Framework in Unified Service Desk. <br><br> New topic under [Extend Unified Service Desk](extend-unified-service-desk.md). |
 | [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md) | New topic about creating a Channel Integration Framework type of hosted control.<br><br> New topic under [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md). |
 | [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md) | New topic about the predefined UII actions and events of Channel Integration Framework type of hosted control. <br><br> New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md) |
-| [Use Edge process to host web applications in Unified Service Desk](edge-process.md) | New topic about hosting web applications using Edge Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br> **Note:** This is a preview feature. |
+| [Use Edge process to host web applications in Unified Service Desk](edge-process.md) | New topic about hosting web applications using Edge Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br>  |
+
+
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-4"
