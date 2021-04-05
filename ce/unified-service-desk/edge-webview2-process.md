@@ -18,7 +18,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4.2'
 ---
 
-# Use Edge WebView2 Process (Preview) to host web applications
+# Use Edge WebView2 Process to host web applications (Preview)
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
