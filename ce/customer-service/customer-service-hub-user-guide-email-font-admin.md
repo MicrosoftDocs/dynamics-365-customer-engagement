@@ -26,7 +26,7 @@ Each instance of the email editor or builder can be configured independently, en
 
 ## Configure the Email form by using a web resource file
 
-You can configure email by using a web resource file that can be modified as desired and then linked to the email form.
+You can configure email by using a web resource file that can be modified as needed and then linked to the email form.
 
 Enabling the user configured settings to an email form consists of the following steps:
 1.	[Configure the web resource file](#configure-the-web-resource-file)
@@ -34,7 +34,7 @@ Enabling the user configured settings to an email form consists of the following
 
 ### Configure the web resource file
 
-1. Access the Web Resource file by navigating to **Advanced settings** > **Customize the system** > **Web Resources**.
+1. Access the web resource file by navigating to **Advanced settings** > **Customize the system** > **Web Resources**.
 
 2. Use the filter to search for the web resource files, as shown below:
 
