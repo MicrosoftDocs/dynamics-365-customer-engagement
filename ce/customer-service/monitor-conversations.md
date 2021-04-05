@@ -101,7 +101,7 @@ At times, you may need to transfer an ongoing conversation from an agent to anot
 
     The list of available agents and their capacities, and queues, is displayed.
     > [!div class=mx-imgBorder]
-    > ![Select Assign option](media/assign-agents-conversations.png "Select Assign option")
+    > ![Select Transfer option](media/transfer-agents-conversations.png "Select Transfer option")
 
 3. Choose a conversation in an **Active** or **Waiting** state, and select **Transfer** on the top-right corner.
     > [!div class=mx-imgBorder]
