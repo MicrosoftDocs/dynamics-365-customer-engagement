@@ -4,7 +4,7 @@ description: Overview of the Customer Service Workspace application for Dynamics
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/03/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -67,7 +67,11 @@ However, the administrator can configure settings that allow for simpler navigat
 
 ### Simplify navigation in Customer Service workspace
 
-You can use the following utility to simplify navigation for agents when they work on cases in the Customer Service workspace app.
+You can use the following utility to simplify navigation for agents when they work on cases in the Customer Service workspace app. The agents will be able to do the following actions:
+
+- Select a case to open it in a session tab.
+- Select a customer record of a case to open in an application tab.
+- Select a customer record on the homepage to open it in a session tab.
 
 > [!IMPORTANT]
 > You must have the System Administrator role to run the utility.
@@ -75,7 +79,7 @@ You can use the following utility to simplify navigation for agents when they wo
 Perform the following steps to configure the navigation:
 
 1. Sign into Dynamics 365.
-2. Press the fn + f12 keys to open the developer tools. 
+2. Press the f12 key to open the developer tools.
 3. Copy the following code and paste it in the **Console** tab of the developer tools to run the utility that manages app settings.
 
 ```
@@ -169,9 +173,12 @@ class OCAppUtility extends AppModuleUtility {
 ```
 4. Run one of the following commands at the console to update the navigation settings.
 
-   - **For Customer Service workspace:** AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'msdyn_customerserviceworkspace'); 
-   - **For Omnichannel for Customer Service app:** AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true, 'OmniChannelEngagementHub');
-   - **For both the multisession apps:** AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);
+   - **For Customer Service workspace:**
+     CSWAppUtility.setMultisessionNavigationImprovementsSetting(); 
+   - **For Omnichannel for Customer Service app:**
+     OCAppUtility.setMultisessionNavigationImprovementsSetting();
+   - **For both the multisession apps:**
+     AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);
 
     > [!NOTE]
     > To turn off the navigation setting, you can run one of the commands by using the "false" option.
