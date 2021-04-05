@@ -30,7 +30,7 @@ This topic provides information about the location from where you can download v
 
 |  Version  |  Download Location |
 |------------------|---------------|
-| [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2086721) |
+| [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2159819) |
 
 
 ::: moniker-end 
