@@ -21,9 +21,9 @@ search.app:
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service and Omnichannel contain various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The Insights dashboards for Customer Service and Omnichannel for Customer Service contain various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
-Insights dashboards cover Customer Service, Omnichannel, and knowledge Management. The Customer service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel dashboards provide a view into the support operation across channels. For Knowledge Managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
+Insights dashboards cover Customer Service, Omnichannel for Customer Service, and Knowledge Management. The Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel for Customer Service dashboards provide a view into the support operation across channels. For Knowledge managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
 
 ## Configure dashboards
 
@@ -78,7 +78,7 @@ For more information about the Knowledge Search Analytics report, see [Knowledge
 
 ### Reports refresh, data retention
 
-The reports refresh report shows the following information.
+The reports refresh shows the following information.
 
 - **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
   > [!div class=mx-imgBorder]
@@ -94,7 +94,7 @@ Currently, report customizations aren't supported.
 
 ### Supported tables
 
-The following tables are used for Customer service Historical Analytics:
+The following tables are used for Customer Service historical analytics:
 
 - incident
 - incidentresolution

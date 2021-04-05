@@ -29,7 +29,7 @@ Make sure that you have administrator permissions for Dynamics 365.
 
 2. In the **Change area**, select **Service Management**.
 
-3. Under **Insights**, select **Settings**. The **insights settings** page is displayed.
+3. Under **Insights**, select **Settings**. The **Insights** page is displayed.
 
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
@@ -37,9 +37,6 @@ Make sure that you have administrator permissions for Dynamics 365.
 4. On the right of **Customer Service historical analytics**, select **Manage**.
 
 5. On the **Customer Service historical analytics** page, toggle **Status** to **Enabled**.
-
-    > [!div class=ms-imgBorder]
-    > ![Customer Service historical analytics enabled](media/historical-analytics-enabled.png "Customer Service historical analytics enabled")
 
 6. Select **Save** or **Save & Close**.
 
@@ -58,20 +55,19 @@ Perform the following steps to enable users with different privileges to access 
 
 2. Select **Security** and then **Security roles**.
 
-3. Select the security role that you want to enable access for. For example, Customer Service Manager.
+3. Select the security role that you want to enable access for. For example, CSR Manager.
 
 4. Select the **Custom Entities** tab.
 
 5. Select an entity. For example, select Customer Service historical analytics.
 
-6. Select **Save and close**. The Customer Service Manager can now see the Customer Service historical analytics report.
+6. Select **Save and close**. The CSR Manager can now see the Customer Service historical analytics report.
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
 - [Summary report](summary-dashboard-cs.md)
 - [Agent report](agent-dashboard-cs.md)
 - [Topics report](topics-dashboard-cs.md)
-
 
 ### See also
 

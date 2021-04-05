@@ -21,11 +21,11 @@ These capabilities are deeply embedded into the core agent and manager experienc
 > [!div class="mx-imgBorder"]
 >![Customer Service Insights](media/customer-service-insights.png "Customer Service Insights")
 
-## Customer Service Insights Across Your Organization
+## Customer Service Insights across your organization
 
-Customer Service Insights connects with your Dynamics 365 Customer Service and Omnichannel data to provide your support organization with out-of-box AI and BI capabilities, such as customer service analytics, similar case suggestions and more. Different applications will surface slightly different feature sets, as detailed below.
+Customer Service Insights connects with your Dynamics 365 Customer Service and Omnichannel for Customer Service data to provide your support organization with out-of-box AI and BI capabilities, such as customer service analytics, similar case suggestions and more. Different applications will surface slightly different feature sets, as detailed below.
 
-### Customer Service Applications
+### Customer Service applications
 
 Customer Service Insights is now embedded in Dynamics 365 Customer Service. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment. Several reports and dashboards can be viewed by your management team.
 
@@ -55,7 +55,7 @@ For more information on the Omnichannel for Customer Service offerings, see the 
 
 ### Important
 
-If you're a customer who uses the Customer Service Insights standalone web application, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You can no longer use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you can no longer create new workspaces, but you'll retain access to existing ones. Meanwhile, the standalone app guide contains documentation for the web application.
+If you're a customer who uses the Customer Service Insights standalone web application, your current working environments will be terminated and inaccessible by December 8, 2021. You can no longer use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you can no longer create new workspaces, but you'll retain access to existing ones. Meanwhile, the standalone app guide contains documentation for the web application.
 
 ### See also
 
