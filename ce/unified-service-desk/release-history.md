@@ -4,7 +4,7 @@ description: "This topic provides release history information for the Unified Se
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/18/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -23,13 +23,13 @@ search.app:
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
-::: moniker range="dynamics-usd-4.1"
+::: moniker range="dynamics-usd-4.2"
 
-<a name="Release_4_1_1433"></a>
+<a name="Release_4_2"></a>
 
 ## Release history for Unified Service Desk 4.2, April 2021
 
-The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.1429
+The list provides an overview of documentation updates made in Unified Service Desk 4.2
 
 > [!NOTE]
 > - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.2, instead of upgrading to version 4.2.
