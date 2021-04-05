@@ -21,17 +21,22 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
+> [!Note]
+>
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. For information: [Deprecation announcement](../customer-service/deprecations-customer-service.md#internetexplorer11).
+
 ::: moniker range="=dynamics-usd-4.2"
 
 You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
 
 The pooling feature is available for the following processes:
 
-- IE Process
+- Edge WebView2 Process
 
 - Chrome Process
+ 
+- IE Process
 
-- Edge WebView2 Process
 
 ::: moniker-end
 
@@ -324,73 +329,15 @@ To skip inline navigation for certain entities, a system Administrator must conf
 
 ### Hide command bar in Edge WebView2 Process
 
-In Edge WebView2 Process, the command bar is always shown on the pooled Edge WebView2 Process instances. If you want to hide the command bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the following UII options.
+In Edge WebView2 Process, the command bar is always shown on the pooled Edge WebView2 process instances. If you want to hide the command bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the **HideCommandBarEdgeWebView2** UII option.
 
-- To hide a specific entity: **BlockEdgeWebView2Pooling**
-- To hide for all the entities: **HideCommandBarEdgeWebView2**
 
-#### Hide command bar for a specific entity
-
-Use the **BlockEdgeWebView2Pooling** UII option if you want to hide the command bar for a specific entity in the Edge WebView2 Process pooled instances.
-
-See [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockedgewebview2pooling-uii-option) to know how to add the UII option.
-
-#### Hide command bar for all the entities
-
-Use the **HideCommandBarEdgeWebView2** UII option if you want to hide the command bar for all the entities in the Edge WebView2 Process pooled instances.
-
-1. Sign in to the Dynamics 365 instance.
-
-2. Select the down arrow next to Dynamics 365.
-
-3. Select **Unified Service Desk Administrator**.
-
-4. Select **Options** under **Advance Settings** in the sitemap.
-
-5. Select **New** in the **Active UII Options** page.
-
-6. Choose **Others** for the **Global Option** field.
-
-7. Type **HideCommandBarEdgeWebView2** for the **Name** field.
-
-8. Type **True** for the **Value** field.
-
-9. Select **Save**.
 
 ### Show nav bar in Edge WebView2 Process
 
-In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebView2 Process instances. If you want to show the nav bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the following UII options.
+In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebView2 Process instances. If you want to show the nav bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the **ShowNavBarEdgeWebView2** UII option.
 
-- To show a specific entity: **BlockEdgeWebView2Pooling**
-- To show for all the entities: **ShowNavBarEdgeWebView2**
 
-#### Show nav bar for a specific entity
-
-Use the **BlockEdgeWebView2Pooling** UII option if you want to show the nav bar for a specific entity in the Edge WebView2 Process pooled instances.
-
-See [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockedgewebview2pooling-uii-option) to know how to add the UII option.
-
-#### Show nav bar for all the entities
-
-Use the **ShowNavBarEdgeWebView2** UII option if you want to show the nav bar for all the entities in the Edge WebView2 Process pooled instances.
-
-1. Sign in to the Dynamics 365 instance.
-
-2. Select the down arrow next to Dynamics 365.
-
-3. Select **Unified Service Desk Administrator**.
-
-4. Select **Options** under **Advance Settings** in the sitemap.
-
-5. Select **New** in the **Active UII Options** page.
-
-6. Choose **Others** for the **Global Option** field.
-
-7. Type **ShowNavBarEdgeWebView2** for the **Name** field.
-
-8. Type **True** for the **Value** field.
-
-9. Select **Save**.
 
 ### Block second navigation in Edge WebView2 Process pooling
 
@@ -403,11 +350,7 @@ To avoid the crash of Unified Service Desk, you can perform the following:
 - Remove or change the window navigation rule
 - Add the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option
 
-#### Remove or change the window navigation rule
 
-Window navigation rule for same entity navigation, you can remove or delete the window navigation rule itself as with the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
-
-Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **In Place** type.
 
 #### Add the BlockEdgeWebView2ProcessSecondInlineNavigation UII option
 
@@ -432,6 +375,13 @@ After the adding UII option, and if you set the value as **True**, then the opti
 8. Set **True** for the **Value** field.
 
 9. Select **Save**.
+
+#### Remove or change the window navigation rule
+
+Window navigation rule for same entity navigation, you can remove or delete the window navigation rule itself as with the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+
+Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **In Place** type.
+ 
 
 ::: moniker-end
 

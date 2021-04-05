@@ -18,11 +18,11 @@ search.app:
 monikerRange: '>= dynamics-usd-4.2'
 ---
 
-# Use Edge WebView2 Process to host web applications
+# Use Edge WebView2 Process (Preview) to host web applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
+The Edge WebView2 Process (Preview) browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
 
 The advantages of using the Edge WebView2 Process hosting method are as follows:
 
