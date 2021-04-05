@@ -46,11 +46,11 @@ Make sure that you have administrator permissions for Dynamics 365.
 This configuration will also enable AI-discovered topics from cases with default settings.
 
 
-### Viewing Customer Service analytics reports
+### View Customer Service analytics reports
 
 The service managers must have the admin or service manager role to view the reports. Users with the CSR Manager role will be able to view the reports only after the reports are shared with them.
 
-### Providing report access to additional security roles
+### Provide report access to additional security roles
 
 Perform the following steps to enable users with different privileges to access reports beyond the default ones.
 

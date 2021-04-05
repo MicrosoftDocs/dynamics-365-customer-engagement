@@ -1,11 +1,11 @@
 ---
 title: "Configure Knowledge search insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Knowledge search insights in Customer Service Hub and Customer Service workspace"
-author: lalexms
+author: Meghanalanka
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
+ms.author: v-mlanka
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
