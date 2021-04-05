@@ -14,9 +14,12 @@ search.app:
   - D365CE
   - D365USD
 ---
+
+# Unified Service Desk known issues and limitations
+
 ::: moniker range="dynamics-usd-4.2"
 
-## Unified Service Desk 4.2 known issues and limitations
+## Unified Service Desk 4.2 
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -34,7 +37,7 @@ Select **No** to continue using Unified Service Desk, or select **Yes** to resta
 
 ::: moniker range="dynamics-usd-4.1"
 
-## Unified Service Desk 4.1 known issues and limitations
+## Unified Service Desk 4.1 
 
 ### Field values aren't populated in a new tab while a related record is being opened from the current page
 
@@ -311,7 +314,7 @@ The following audio file types aren't supported in Unified Service Desk:
 
 ::: moniker range="dynamics-usd-4"
 
-## Unified Service Desk 4.0 known issues and limitations
+## Unified Service Desk 4.0 
 
 ### Selecting articles from the Unified Interface KM Control in Unified Service Desk displays an error
 
@@ -468,7 +471,7 @@ In the hosted control configuration of the URL, set `cmdbar=true`.
 
 ::: moniker range="dynamics-usd-3"
 
-## Unified Service Desk 3.3 known issues and limitations
+## Unified Service Desk 3.3 
 
 This section describes the known issues and limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
