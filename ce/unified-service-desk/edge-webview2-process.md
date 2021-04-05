@@ -70,7 +70,7 @@ Enable the **Edge WebView2** process in any one of the following ways:
 - Setting the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes precedence over other settings.
 
 
-
+<a name="create-a-hosted-control-with-hosting-type-as-edge-webview2"></a>
 ### Create a hosted control with hosting type as Edge WebView2
 
 When you are creating a new hosted control, you can select **Edge WebView2 Process** as the **Hosting Type**.
@@ -88,6 +88,8 @@ When you are creating a new hosted control, you can select **Edge WebView2 Proce
 
 6. Select **Save** to create the hosted control.
 
+
+<a name="enable-edge-webview2-for-unified-service-desk-on-client-desktop"></a>
 ### Enable Edge WebView2 for Unified Service Desk on client desktop
 
 1. Go to the directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
@@ -98,6 +100,7 @@ r
 
 3. Save the file.
 
+<a name="#enable-edge-webview2-for-an-entire-organization"></a>
 ### Enable Edge WebView2 for an entire organization
 
 Add a new Global UII option for your organization named **GlobalBrowserMode**. Specify the value as **Edge WebView2**.
@@ -289,14 +292,19 @@ For example, say you've integrated a softphone with Unified Service Desk and are
 
 Now when an agent selects the number in the contact or account page, based on the window navigation rule, Edge WebView2 Process blocks or opens the application outside of the Unified Service Desk client application.
 
+
+<a name="#enable-edge-webview2-for-an-entire-organization"></a>
 ## Set focus on webpage when using Edge WebView2 Process
 
 With Edge WebView2 Process, if you want to set the focus on a webpage automatically, you must create an action call with the action as **RunScript** and **Data** with a JavaScript function: `window.top USDEdgeWebView2SetFocus()`. After you create the action call, add it to the **PageReady** event for **Unified Interface Page**, and add it to the **BrowserDocumentComplete** event for the **CRM Page** hosted control.
 
+<a name="#edit-a-pdf-in-edge-webview2-process"></a>
 ## Edit a PDF in Edge WebView2 Process
 
 The Edge WebView2 Process supports the ability to edit a PDF file inline if the PDF has editable fields.
 
+
+<a name="#enable-language-support-in-edge-webview2-process"></a>
 ## Enable language support in Edge WebView2 Process
 
 The **Edge WebView2** process supports the ability to switch languages on webpages within Unified Service Desk. To switch languages, you must add the **EdgeWebView2Language** UII option.

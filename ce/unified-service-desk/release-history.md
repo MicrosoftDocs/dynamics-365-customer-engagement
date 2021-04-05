@@ -43,7 +43,6 @@ The list provides an overview of documentation updates made in Unified Service D
 |[Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop) Added information about enabling/disabling **Edge WebView2** on client desktops. |
 |[Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization) Added information about enabling **Edge WebView2** for the entire organization using the Global UII option |
 | [Edit a PDF in Edge WebView2 Process](edge-webview2-process.md#edit-a-pdf-in-edge-webview2-process) | Added information about editing PDFs. |
-| [Use Edge WebView2 Process to host web applications](edge-webview2-process.md#use-edge-webview2-process-to-host-web-applications) | Added information about upgrading Unified Service Desk support for **Edge WebView2** process. |
 | [Enable language support in Edge WebView2 Process](edge-webview2-process.md#enable-language-support-in-edge-webview2-process) | Added information about enabling language support. |
 
 ::: moniker-end
