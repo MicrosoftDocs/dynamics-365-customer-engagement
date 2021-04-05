@@ -55,7 +55,7 @@ More information: [Use EdgeWebView2 Process to host web applications in Unified 
 
 By default, Edge WebView2 Process instance recovery is enabled.
 
-More information: [Recover an Edge WebView2 process instance](/recover-edge-webview2-process-instance.md)
+More information: [Recover an Edge WebView2 process instance](recover-edge-webview2-process-instance.md)
 
 
 ::: moniker-end 
