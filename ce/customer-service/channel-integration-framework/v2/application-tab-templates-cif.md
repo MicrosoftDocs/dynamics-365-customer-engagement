@@ -31,7 +31,7 @@ To create or manage an application tab template, go to the app profile manager. 
 
 ## See also
 
-[App profile manager overview](../../app-profile-manager/overview.md)
+[App profile manager overview](../../../app-profile-manager/overview.md)
 
 [Manage session templates](session-templates-cif.md)
 
