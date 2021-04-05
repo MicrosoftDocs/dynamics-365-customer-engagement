@@ -31,7 +31,9 @@ You can use the out-of-the-box session templates, or you can create new ones. As
 
 A session template is the place where, as an administrator, you need to define the anchor tab and additional application tabs that must open when a session starts.
 
-To create or manage a session template, go to the app profile manager. For more information, see [Manage session templates](../app-profile-manager/session-templates.md) in the app profile manager documentation.
+## Create a session template 
+
+To create or manage a session template, go to the app profile manager. For more information, see [Manage session templates](../../app-profile-manager/session-templates.md) in the app profile manager documentation.
 
 ## See also
 
