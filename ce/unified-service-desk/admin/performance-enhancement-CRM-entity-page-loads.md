@@ -28,7 +28,7 @@ You can experience enhanced performance of entity page loading in [!INCLUDE[pn_u
 
 The pooling feature is available for the following processes:
 
-- Edge WebView2 Process (Preview)
+- (Preview) Edge WebView2 Process 
 
 - Chrome Process
  
@@ -116,7 +116,7 @@ When an application (hosted control) is initialized and you do an inline navigat
 
 For example, with Edge WebView2 Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, then window navigation rule loops in a recursive manner causing Unified Service Desk to crash.
 
-To avoid the crash of Unified Service Desk, you can perform the following:
+To prevent Unified Service Desk from crashing, you can perform the following:
 
 - Remove or change the window navigation rule
 - Add the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option
