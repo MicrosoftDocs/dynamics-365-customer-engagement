@@ -76,7 +76,7 @@ To disable Edge WebView2 Process pooling:
 
 ### Skip inline entity navigation in Edge WebView2 Process pooling
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2PoolingForEntities UII option](#add-the-blockedgewebview2pooling-uii-option)
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2PoolingForEntities UII option](#add-the-blockedgewebview2poolingforentities-uii-option)
 
 #### Add the BlockEdgeWebView2PoolingForEntities UII option
 
