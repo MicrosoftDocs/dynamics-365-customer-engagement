@@ -23,7 +23,7 @@ search.app:
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
-::: moniker range = "dynamics-usd-4.2"
+::: moniker  = "dynamics-usd-4.2"
 
 <a name="Release_4_2"></a>
 
