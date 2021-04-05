@@ -23,7 +23,7 @@ search.app:
 
 ## What's new in Unified Service Desk 4.2
 
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk-4-2](../../includes/pn-unified-service-desk-4-2.md)] for system administrators available in this version. 
+This topic contains information about changes in [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] for system administrators available in this version. 
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
