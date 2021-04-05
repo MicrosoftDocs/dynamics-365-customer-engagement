@@ -17,13 +17,15 @@ search.app:
   - D365USD
 ---
 
+::: moniker range="=dynamics-usd-4.2"
+
 # Release history for Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
-::: moniker range = "=dynamics-usd-4.2"
+
 
 <a name="Release_4_2"></a>
 
