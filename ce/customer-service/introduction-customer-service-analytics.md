@@ -27,7 +27,7 @@ Customer Service Insights connects with your Dynamics 365 Customer Service and O
 
 ### Customer Service applications
 
-Customer Service Insights is now embedded in Dynamics 365 Customer Service. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment. Several reports and dashboards can be viewed by your management team.
+Customer Service Insights is now embedded in Dynamics 365 Customer Service. After it is enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment. Several reports and dashboards can be viewed by your management team.
 
 For more information on the Customer Service offerings, see the following capabilities.
 
@@ -43,7 +43,7 @@ For more information on the Customer Service offerings, see the following capabi
 
 ## Omnichannel for Customer Service
 
-Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can use Omnichannel's real-time sentiment data to gain a better understanding of how customer interactions drive KPIs and satisfaction scores.
+Customer Service Insights for Omnichannel for Customer Service brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can use the real-time sentiment data to gain a better understanding of how customer interactions drive KPIs and satisfaction scores.
 
 For more information on the Omnichannel for Customer Service offerings, see the following topics.
 
