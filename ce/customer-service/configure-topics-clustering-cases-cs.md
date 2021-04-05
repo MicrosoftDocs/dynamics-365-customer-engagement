@@ -58,7 +58,7 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
 AI discovered topics in Customer Service Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, then the feature can be enabled by selecting the **Enable** toggle and selecting **Save**.
 
 > [!NOTE]
-> Topic automation to PVA bot is currently not supported in Government Community Cloud.
+> Topic automation to Power Virtual Agents bot is currently not supported in Government Community Cloud.
 
 
 ## Language availability for topics 

@@ -42,7 +42,7 @@ The following dashboard reports are available for Customer Service historical an
 The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Summary dashboard](media/summary-dashboard-analytics-cs.png "Customer Service analytics Summary dashboard")
+   > ![Analytics Summary dashboard](media/customer-service-insights.png "Customer Service analytics Summary dashboard")
    
 For more information about the Summary dashboard, see [Summary dashboard](summary-dashboard-cs.md)
 

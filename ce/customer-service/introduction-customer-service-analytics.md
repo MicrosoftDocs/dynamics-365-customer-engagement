@@ -41,7 +41,7 @@ For more information on the Customer Service offerings, see the following capabi
 
 - [AI Suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
-## Omnichannel for Customer Service
+### Omnichannel for Customer Service
 
 Customer Service Insights for Omnichannel for Customer Service brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can use the real-time sentiment data to gain a better understanding of how customer interactions drive KPIs and satisfaction scores.
 

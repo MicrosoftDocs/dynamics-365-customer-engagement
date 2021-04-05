@@ -65,10 +65,6 @@ Perform the following steps to enable users with different privileges to access 
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
-- [Summary report](summary-dashboard-cs.md)
-- [Agent report](agent-dashboard-cs.md)
-- [Topics report](topics-dashboard-cs.md)
-
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  

@@ -23,13 +23,6 @@ The following report is available out of the box:
 
 - **Insights reports:** Customers can view Customer Service Insights reports with a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
-The following service settings can be found here:
-
-- [Customer Service historical analytics](customer-service-analytics-insights-csh.md)
-- [Topic clustering for cases](configure-topics-clustering-cases-cs.md)
-- [Knowledge search analytics](knowledge-search-analytics-cs.md)
-- [AI suggestions (Premium)](csw-view-ai-suggested-cases-knowledge-articles.md)
-
 > [!NOTE]
 > Settings for the Power BI template applications are separate from these services.
 

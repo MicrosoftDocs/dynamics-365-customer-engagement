@@ -76,14 +76,11 @@ To access the case topics drill down, select any metric value for the required t
 > [!div class="mx-imgBorder"] 
 > ![Case topics drill down view](media/case-topics-drill-down-view.png "Case topics drill view")
 
-### Enable availability of topics for Power Virtual Agents bots
+### Automation of case topics for Power Virtual Agents bots
 
 AI-discovered topics in Customer Service historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents bot is available in the region in which your Customer Service organization is located, the feature can be enabled by the administrator for use. 
 
-> [!div class="mx-imgBorder"]
-> ![Automate topics to Power Virtual Agents](media/automate-topics-to-PVA.png "Automate topics to Power Virtual Agents")
-
-After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power virtual agents** on the **Topic metrics** grid. Select **Details** and then select **Automate to bot** within the drill down view. This will launch the topic editing form.  
+After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power Virtual Agents** icon on the **Topic metrics** grid or select **Details** and then select **Automate to bot** within the drill down view. This will launch the topic editing form.  
 
 The suggested trigger phases as well as the topic based on the case title is provided. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, selecting **Create Bot** will redirect to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added.
 

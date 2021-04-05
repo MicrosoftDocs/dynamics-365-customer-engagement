@@ -25,7 +25,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
 
 ![Summary dashboard](media/summary-dashboard-analytics-cs.png "View the Summary dashboard")
 
-To view the Summary dashboard, go to customer service historical analytics and select **Summary** at the top of the workspace. 
+To view the Summary dashboard, go to Customer Service historical analytics and select **Summary** at the top of the workspace. 
 
 The KPI summary dashboard includes a variety of charts with graphical views of your system's key performance indicators. 
 
