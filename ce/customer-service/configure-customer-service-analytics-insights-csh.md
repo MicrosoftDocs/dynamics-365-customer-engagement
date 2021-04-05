@@ -26,7 +26,7 @@ The following report is available out of the box:
 The following service settings can be found here:
 
 - [Customer Service historical analytics](customer-service-analytics-insights-csh.md)
-- [Topic clustering for cases](configure-topics-clustering-cases.md)
+- [Topic clustering for cases](configure-topics-clustering-cases-cs.md)
 - [Knowledge search analytics](knowledge-search-analytics-cs.md)
 - [AI suggestions (Premium)](csw-view-ai-suggested-cases-knowledge-articles.md)
 
@@ -39,7 +39,7 @@ The following service settings can be found here:
 See the following links for insights configuration information:
 
  - [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)
- - [Topic clustering configuration](configure-topics-clustering-cases.md)
+ - [Topic clustering configuration](configure-topics-clustering-cases-cs.md)
  - [Configure Knowledge search insights](enable-knowledge-search-insights.md)
 
 ### See also
