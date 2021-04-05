@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -69,7 +69,7 @@ Perform the following steps to enable users with different privileges to access 
 
 6. Select **Save and close**. The customer service manager can now see the customer servive historical analytics report.
 
-You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics (preview)** page. By default, the **Summary** page is displayed.
+You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
 - [Summary report](summary-dashboard-cs.md)
 - [Agent report](agent-dashboard-cs.md)

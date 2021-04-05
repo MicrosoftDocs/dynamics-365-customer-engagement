@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -47,9 +47,11 @@ Customer Service Insights for Omnichannel brings many of the same key operationa
 
 For more details on the Omnichannel for Customer Service offerings, see the following topics.
 
-- [Introduction to Insights dashboards](configure-historical-sentiment-dashboard-supervisor)
-
 - [Analyze real-time customer sentiment](enable-sentiment-analysis.md)
+
+- [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
+
+- [Dashboards overview](customer-service-analytics-insights.md)
 
 ### Important
 
@@ -57,7 +59,6 @@ If you are a customer who uses the Customer Service Insights standalone web appl
 
 ### See also
 
-[Dashboard Overview](customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
 [Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819)

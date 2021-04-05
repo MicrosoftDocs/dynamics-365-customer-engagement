@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -21,13 +21,9 @@ search.app:
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The Insights dashboards for Customer Service and Omnichannel contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
-Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics.  
-
-Right-clicking on a chart entry and hovering over **Drill through**, selecting **Agent Details** or **Topic details** brings up a more detailed report that's specific to the selected agent or topic.
-
-Navigate to the Knowledge Search analytics tab to view key details about what search terms agents and smart agent assist are using to find knowledge articles related to cases. For more information, see [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md).
+Insights dashboards cover Customer Service, Omnichannel and knowledge Management. The Customer service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel dashboards provide a view into the support operation across channels. For Knowledge Managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
 
 ## Configure dashboards
 
@@ -68,61 +64,13 @@ The Case Topics dashboard shows a detailed breakdown of cases and their assigned
    
 For more details about the Case Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
 
-## Omnichannel historical analytics report
-
-The following dashboard reports are available for Omnichannel historical analytics.
-
-### Conversation
-
-The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization.  
-
-> [!div class="mx-imgBorder"]
-> ![Conversation dashboard](media/conversation-dashboard.png "Conversation dashboard")
-
-For more details about the conversation report, see [Conversation dashboard](conversation-dashboard.md)
-
-### Queue
-
-The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
-
-> [!div class="mx-imgBorder"]
-> ![Queue dashboard](media/queue-report.png "Queue dashboard")
-
-For more details about the queue report, see [Queue dashboard](queue-dashboard.md)
-
-### Agent
-
-The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance.
-
-> [!div class="mx-imgBorder"]
-> ![Agent dashboard](media/agent-report-cs.png "Agent report").
-
-For more details about the Agent report, see [Agent dashboard](agent-dashboard-cs.md)
-
-### Bot
-
-The Bot dashboard shows charts and KPIs that you can use to understand how bots are playing a role in a support organization. 
-
-> [!div class="mx-imgBorder"]
-> ![Bot dashboard](media/bot-dashboard-cs.png "Bot dashboard")
-
-For more details about the bot report, see [Bot dashboard]()
-
-### Conversation Topics
-
-The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. 
-
-> [!div class="mx-imgBorder"]
-> ![Conversation Topics](media/conversation-topics-dashboard.png "Conversation Topics")
-
-For more details about the Conversation Topics dashboard, see 
 
 ### Knowledge Search Analytics report
 
 The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
 > [!div class="mx-imgBorder"]
-> ![Knowledge search analytics report](media/knowledge-search-anlaytics-dashboard.png "Knowledge search analytics")
+> ![Knowledge search analytics report](media/knowledge-search-analytics-dashboard.png "Knowledge search analytics")
 
 For more details about the Knowledge Search Analytics report, see [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
 

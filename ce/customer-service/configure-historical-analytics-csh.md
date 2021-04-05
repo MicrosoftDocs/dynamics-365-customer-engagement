@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -81,8 +81,6 @@ You can see the following reports by navigating to the **Service** > **Analytics
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
 [Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
 [Knowledge search analytics](knowledge-search-analytics-cs.md)
-
-
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

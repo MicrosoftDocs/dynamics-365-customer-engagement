@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/02/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -70,17 +70,6 @@ To access the drill down, select any metric value for the desired agent and sele
 
 > [!div class="mx-imgBorder"]
 > ![Agent drill down view](media/agent-drill-down-view.png "Agent drill down view table")
-
-## Agent Hourly details drill down view
-
-The Agent hourly details drill down view provides more granular insight into the hour-by-hour breakdown of key conversation metrics within the contact center. The Session summary, Session details, Consult/Monitor, and Availability metrics are the same as the day-by-day view ensuring that supervisors can consistently analyze their contact center operation regardless of desired duration granularity. 
-To view the drill down, select any single metric value on the desired day, then select **Hourly details**. 
-
-> [!div class="mx-imgBorder"]
-> ![Agent hourly detail drill down view](media/agent-hourly-detail-drill-down-view.png "Agent hourly detail drill down view")
-
-
-
 
 
 ### See also

@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/02/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -51,7 +51,7 @@ KPIs for the following areas are displayed:
 | Active cases  |  The number of cases that are currently opened.      |
 | Escalated cases   | The percentage of cases that have been escalated.     |
 | Average handle time   | The average time taken by an agent to resolve the case.   |
-| Average CSAT     | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
+| Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
 | Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
 
@@ -67,7 +67,7 @@ The topic metrics chart has the following metrics displayed:
 | Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
 | Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
-### Conversation topics drill down view
+### Case topics drill down view
 
 The Topic drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
 
@@ -76,14 +76,14 @@ To access the drill down, select any metric value for the desired topic and sele
 > [!div class="mx-imgBorder"] 
 > ![Case topics drill down view](media/case-topics-drill-down-view.png "Case topics drill view")
 
-### Automate topics to Power Virtual Agents
+### Enable availability of topics for Power Virtual Agent bots
 
-AI discovered topics in Customer Service Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization’s administrator for use. 
+AI discovered topics in Customer Service historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents bot is available in the region that your Customer Service organization is located, the feature can be enabled by the administrator for use. 
 
 > [!div class="mx-imgBorder"]
 > ![Automate topics to Power virtual agents](media/automate-topics-to-PVA.png "Automate topics to Power virtual agents")
 
-Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting the PVA icon on the **Topic metrics** grid oy by selecting **Details** and then selecting **Automate to bot** within the drill through view. This will launch the topic editing form.  
+After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power virtual agents** on the **Topic metrics** grid. Select **Details** and then select **Automate to bot** within the drill through view. This will launch the topic editing form.  
 
 > [!div class="mx-imgBorder"]
 > ![Editing form for Power virtual agents](media/PVA-editing-form.png "Editing form")
