@@ -33,7 +33,6 @@ By default, Edge WebView2 Process instance recovery is enabled.
 
 - When Edge WebView2 Process closes abruptly.
 - When you manually end an unresponsive Edge WebView2 Process instance from Task Manager.
-- When you manually end an unresponsive Edge WebView2 Process instance using a keyboard shortcut.
 
 ## Recover an unresponsive Edge WebView2 Process instance
 

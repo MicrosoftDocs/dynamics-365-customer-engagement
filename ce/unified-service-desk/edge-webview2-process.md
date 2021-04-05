@@ -34,8 +34,8 @@ The advantages of using the Edge WebView2 Process hosting method are as follows:
 
 Also, administrators will be able to perform the following:
 
-- Select Edge process as the hosting type for the organization.
-- Select Edge process as the hosting type for select web applications, alongside Chrome process.
+- Select Edge WebView2 process as the hosting type for the organization.
+- Select Edge WebView2 process as the hosting type for select web applications, alongside Chrome process.
 
 
 ## Edge WebView2 Process settings
@@ -86,7 +86,7 @@ When you are creating a new hosted control, you can select **Edge WebView2 Proce
 
 1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
-
+r
 2. Under the `<appSettings>` section add the new key.<br>
 `<add key="GlobalBrowserMode" value="EdgeWebView2"/>`
 
@@ -110,14 +110,6 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
 7. Select **Save**.
 
-
-## Debug Edge WebView2 Process using Microsoft Edge DevTools Preview
-
-With Edge WebView2 Process, you can use the **Microsoft Edge DevTools Preview** tool as a JavaScript debugger. Edge DevTools helps you debug the webpage locally or remotely.
-
-In the panel, you can see all the active Edge WebView2 Process. Select the desired webpage from the active list to open a new instance.
-
-More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/microsoft-edge/devtools-guide)
 
 ## RunScript action is asynchronous in Edge WebView2 Process
 
@@ -254,42 +246,6 @@ The confirmation dialog box is displayed if this UII option has been added or th
 4. For the **Global Option** field, select **Others**.
 
 5. For the **Name** field, enter **EdgeWebView2ConfirmationDialog**. For the **Value** field, enter **True**.
-
-6. Select **Save**.
-
-## Debug Edge WebView2 Process
-
-You can debug Edge WebView2 Process in two ways:
-
-- Remotely
-
-- Locally
-
-### Debug Edge WebView2 Process remotely
-
-When you want to access and debug all the Edge WebView2 Process instances running in a desktop remotely, you need to have remote debugging access along with the port number.
-
-Use the **EdgeWebView2RemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `<IP address>:<\port number>` of the remote desktop. You can see all the Edge WebView2 Process instances running in that desktop, and then you can proceed with debugging.
-
-### Debug Edge WebView2 Process locally
-
-When you want to access and debug all the Edge WebView2 Process instances running in a desktop locally, you need to have access along with the port number to connect to.
-
-Use the **EdgeWebView2RemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `localhost:<\port number>` of the local desktop. You can see all the Edge WebView2 Process instances running in that desktop, and then you can proceed with debugging.
-
-Also, within the Unified Service Desk client application, you can debug a Edge WebView2 Process instance by using the keyboard shortcut **F12** to open **Developer Tools**. More information: [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md)
-
-**To add the EdgeWebView2RemoteDebuggingPort UII option**
-
-1. Sign in to the Dynamics 365 instance.
-
-2. Go to **Settings** > **Unified Service Desk** > **Options**.
-
-3. On the **Active UII Options** page, select **New**.
-
-4. For the **Global Option** field, select **Others**.
-
-5. For the **Name** field, enter **EdgeWebView2RemoteDebuggingPort**. For the **Value** field, enter the port number (for example, **1030**).
 
 6. Select **Save**.
 

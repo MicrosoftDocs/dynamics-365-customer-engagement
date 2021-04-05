@@ -36,6 +36,17 @@ The list provides an overview of documentation updates made in Unified Service D
 > - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.2.
 
 
+| Topic | Updates |
+|---------------|-------------------|
+
+| [ChromeProcessDownloadPath](admin/manage-options-unified-service-desk.md) | Added a new UII option to set a default folder to download attachments while using Chrome Process webpages. <br><br> New option in [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> More information: [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) |
+|[Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2) Added information about creating a hosted control with hosting type as Edge WebView2. |
+|[Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop) Added information about enabling/disabling Edge WebView2 on client desktops. |
+|[Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization) Added information about enabling Edge WebView2 for the entire organization using the Global UII option |
+
+| [Edit a PDF in Edge WebView2 Process](edge-webview2-process.md#edit-a-pdf-in-edge-webview2-process) | Added information about editing PDFs. |
+| [Use Edge WebView2 Process to host web applications](edge-webview2-process.md) | Added information about upgrading Unified Service Desk support for Edge WebView2 Process. |
+
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
