@@ -26,6 +26,7 @@
 
 ## Installation and upgrade
 ### [Install Customer Service](availability-customer-service-hub.md)
+### [Move from Customer Service Enterprise to Professional](move-cs-enterprise-cs-professional.md)
 ### Install Omnichannel for Customer Service
 #### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 #### [Export and import Omnichannel for Customer Service](export-import-omnichannel-data.md)
@@ -403,15 +404,14 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Migration solutions
-### Administrator experience
-#### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
-#### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
-#### Migrate service scheduling
-##### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
-##### [Plan service scheduling migration](plan-migration.md)
-##### [Migrate service scheduling](migrate-entity-records.md)
-#### Migration FAQs
-##### [FAQs on Migration tool for automatic record creation rules and SLAs](migrate-tool-faqs.md)
+### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
+### Migrate service scheduling
+#### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+#### [Plan service scheduling migration](plan-migration.md)
+#### [Migrate service scheduling](migrate-entity-records.md)
+### Migration FAQs
+#### [FAQs on Migration tool for automatic record creation rules and SLAs](migrate-tool-faqs.md)
 
 ## Deprecations
 ### [Deprecations in Customer Service](deprecations-customer-service.md)
