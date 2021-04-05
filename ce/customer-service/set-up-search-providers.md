@@ -28,7 +28,7 @@ You can use search providers to federate the search of files, documents, or arti
 There are three types of search providers you can set up: 
 
 > [!NOTE]
-> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Search Connector integration described below are currently in preview and are subject to change.
+> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Search Connector integrations described below are currently in preview and are subject to change.
 
   -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
   -	**Sharepoint**: (Preview) This option requires you to enter the SharePoint URL. 
