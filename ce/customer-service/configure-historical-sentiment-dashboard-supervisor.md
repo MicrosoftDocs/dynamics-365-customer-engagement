@@ -57,7 +57,6 @@ Make sure the following prerequisites have been met before configuring the dashb
 
 1. Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 2. As a Power BI administrator, open the [Omnichannel Insights for Dynamics 365](https://aka.ms/d365-oc-insights) app page.
-3. If you've enabled the preview feature [Preview: Sentiment drivers reporting](enable-sentiment-analysis.md#preview-sentiment-drivers-reporting) in real-time sentiment analysis, go to the [download template app](https://go.microsoft.com/fwlink/p/?linkid=2124573) to install the template app.
 
    > [!IMPORTANT]
    > The **Install template apps not listed in AppSource** in **Tenant settings** should be enabled by your administrator in the Power BI admin portal.
@@ -81,11 +80,11 @@ If a previous version of Omnichannel Insights was installed, we strongly recomme
 1. During the Omnichannel Insights app installation, the following appears:
 
     > [!div class=mx-imgBorder]
-    > ![Enter CRM OData feed URL](media/oc-config1.png "Enter CRM OData feed URL")
+    > ![Enter CRM OData feed URL](media/oc-config1.png "Enter the feed data URL for CRM")
 
 2. Choose the **Install to a new workspace** option.
 3. Select **Install**.
-4. Reimplement customizations into the new workspace.
+4. Re-implement customizations into the new workspace.
 
 ### Step 3: Connect to Omnichannel Insights for Dynamics 365 app
 
@@ -266,7 +265,7 @@ Before customizing the template app, read the following information and perform 
 10. Select **Sign in**.
 
      > [!div class=mx-imgBorder]
-     > ![Add user to supervisor configuration](media/oc-config17.PNG "Add user to supervisor configuration")
+     > ![Supervisor configuration for user](media/oc-config17.PNG "Add user to supervisor configuration")
 
 11. When the sign-in field appears, enter your credentials to authenticate to your instance.
 

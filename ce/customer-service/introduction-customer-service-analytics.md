@@ -33,13 +33,13 @@ For more details on the Customer Service offerings, see the following capabiliti
 
 - [Customer Service Historical analytics](configure-historical-analytics-csh.md)
 
-- [Topic clustering for cases](configure-topics-clustering.md)
+- [Topic clustering for cases](configure-topics-clustering-cases.md)
 
 - [Customer Service analytics in Power BI](configure-customer-service-analytics-dashboard.md)
 
-- [Knowledge search analytics](enable-knowledge-search-anlaytics.md)
+- [Knowledge search analytics](enable-knowledge-search-analytics.md)
 
-- [AI Suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles)
+- [AI Suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 ## Omnichannel for Customer Service
 
@@ -51,7 +51,7 @@ For more details on the Omnichannel for Customer Service offerings, see the foll
 
 - [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
-- [Dashboards overview](customer-service-analytics-insights.md)
+- [Dashboards overview](customer-service-analytics-insights-csh.md)
 
 ### Important
 

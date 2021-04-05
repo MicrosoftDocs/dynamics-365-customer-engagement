@@ -31,7 +31,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 To view the Agent dashboard, navigate to customer service historical analytics and select **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
 
 > [!div class="mx-imgBorder"]
-> ![Agent dashboard](media/agent-dashboard.png "Agent dashboard insights")
+> ![Agent dashboard Insights](media/agent-dashboard.png "Agent dashboard insights")
 
 To view the agent dashboard, go to Omnichannel historical analytics and select **Agent** in the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance.
 
