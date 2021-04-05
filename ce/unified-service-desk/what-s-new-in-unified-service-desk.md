@@ -17,9 +17,9 @@ search.app:
   - D365USD
 ---
 
-::: moniker range="dynamics-usd-4.2"
-
 # What's new in Unified Service Desk for developers and customizers
+
+::: moniker range="dynamics-usd-4.2"
 
 ## What's new in Unified Service Desk 4.2
 
