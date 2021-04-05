@@ -33,7 +33,7 @@ A session template is the place where, as an administrator, you need to define t
 
 ## Create a session template 
 
-To create or manage a session template, go to the app profile manager. For more information, see [Create a session template](../../app-profile-manager/session-templates.md#create-a-session-template) in the app profile manager documentation.
+To create or manage a session template, go to the app profile manager. For more information, see [Create a session template](../../app-profile-manager/session-templates#create-a-session-template.md) in the app profile manager documentation.
 
 ## See also
 
