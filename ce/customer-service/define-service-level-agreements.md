@@ -179,19 +179,19 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
      - **Is Non-compliant**: Will run when the SLA fails.
 
     d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears, in which you can configure the action that must be performed when the warning time has been reached for the SLA.
-    
+
     e. In **Choose an operation**, search for an action, such as **Perform an unbound action**, and select it.
-    
+
     f. In **Action Name**, select **msdyn_SendEmailFromTemplate**, and configure the following options that are displayed for the action:
-      - From
-      - To Item
-      - Cc Item
-      - Regarding
-      - Template
-      
+      - **From**
+      - **To Item**
+      - **Cc Item**
+      - **Regarding**
+      - **Template**
+
       > [!NOTE]
       > To obtain the value for the **Template** field, see [Open Data Protocol](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata).
-    
+
     g. Repeat the steps to configure the actions for **Is Succeeded** and **Is Non-compliant**.
 
       A sample screenshot of the configured action is as follows.
