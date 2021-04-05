@@ -48,7 +48,7 @@ The list provides an overview of documentation updates made in Unified Service D
 ::: moniker-end
 
 
-::: moniker range >= "dynamics-usd-4"
+::: moniker range = "dynamics-usd-4.1"
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
