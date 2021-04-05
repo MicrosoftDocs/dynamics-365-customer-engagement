@@ -48,13 +48,14 @@ Also, administrators will be able to perform the following:
 
 More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
 
+
 ### Recover an Edge WebView2 Process instance
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Edge WebView2 Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Edge WebView2 Process instance recovery is enabled.
 
-More information: [Recover an Edge WebView2 process instance](../recover-edge-webview2-process-instance.md)
+More information: [Recover an Edge WebView2 process instance](/recover-edge-webview2-process-instance.md)
 
 
 ::: moniker-end 
