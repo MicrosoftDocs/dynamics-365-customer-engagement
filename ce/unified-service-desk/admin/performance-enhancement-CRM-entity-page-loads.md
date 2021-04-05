@@ -42,7 +42,7 @@ The pooling feature is available for the following processes:
 
 - Chrome Process
  
-- IE Process
+- IE Process (deprecated)
 
 
 ## Pool process instances for Edge WebView2 Process
@@ -356,7 +356,7 @@ After the adding UII option, and if you set the value as **True**, then the opti
 
 ::: moniker-end
 
-## Pool process instances for IE Process
+## Pool process instances for IE Process (deprecated)
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control using a pooled Internet Explorer instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
