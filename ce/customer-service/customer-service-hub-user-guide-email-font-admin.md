@@ -38,13 +38,13 @@ Enabling the user configured settings to an email form consists of the following
 
 2. Use the filter to search for the web resource files, as shown below:
 
-   ![Filter to search for web resource files](media\email-custom-filters.png "Filter to search for web resource files.")
+  ![Filter to search for web resource files](media\email-custom-filters.png "Filter to search for web resource files.")
 
 There may be more than one file named msdyn_EmailRTEConfig.js. One is the default, out-of-box configuration file that isn't modifiable. The other one can be opened and used as a reference to create a new web resource file that will host your configuration changes. 
 
 3. Select the modifiable file.
 
-   ![Create a new web resource file](media\email-create-web-resource-file.png "Create a new web resource file.")
+  ![Create a new web resource file](media\email-create-web-resource-file.png "Create a new web resource file.")
    
    A new window is displayed. 
    
