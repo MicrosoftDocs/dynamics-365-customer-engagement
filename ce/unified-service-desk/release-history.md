@@ -17,7 +17,7 @@ search.app:
   - D365USD
 ---
 
-::: moniker range="=dynamics-usd-4.2"
+::: moniker range ="dynamics-usd-4.2"
 
 # Release history for Unified Service Desk
 
@@ -49,8 +49,8 @@ The list provides an overview of documentation updates made in Unified Service D
 
 ::: moniker-end
 
+::: moniker range >= "dynamics-usd-3"
 
-::: moniker range ="=dynamics-usd-4.1"
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
@@ -159,9 +159,9 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md) | New topic about the predefined UII actions and events of Channel Integration Framework type of hosted control. <br><br> New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md) |
 | [Use Edge process to host web applications in Unified Service Desk](edge-process.md) | New topic about hosting web applications using Edge Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br>  |
 
-::: moniker-end
 
-::: moniker range ="dynamics-usd-4"
+
+
 
 <a name="Release_4_0"></a> 
 
@@ -194,9 +194,9 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Unified Interface Page (Hosted Control)](unified-interface-page-hosted-control.md) | General Availability of the Unified Interface Support in Unified Service Desk. |
 | [Release notes of Unified Service Desk 4.0](release-notes.md) | This section describes the known issues and limitations in Unified Service Desk 4.0. |
 
-::: moniker-end
 
-::: moniker range="dynamics-usd-3"
+
+
 
 <a name="Release_3_3"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)], April 2018
