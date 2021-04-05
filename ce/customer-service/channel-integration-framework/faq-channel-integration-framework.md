@@ -22,6 +22,9 @@ Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framew
 ### Can I integrate a two-way communication channel?
 Yes, you can integrate two-way communication that enables you to set the context of inbound and/or outbound according to your business and process workflows.
 
+### Can I synchronize user presence across different providers?
+Presence synchronization is not supported.
+
 ### Does Dynamics 365 Channel Integration Framework work with Unified Interface apps?
 Dynamics 365 Channel Integration Framework works only with Unified Interface apps. As of now, Dynamics 365 Channel Integration Framework does not support the legacy web client.
 
@@ -83,11 +86,7 @@ Channel Integration Framework model-driven app is only applicable to configure c
 
 ### Where do I configure voice channel provider for multisession apps?
 
-Organizations can configure voice channel providers from the app profile manager.
-
-### Can I synchronize user presence across different providers?
-
-Presence synchronization is not supported.
+Organizations can configure voice channel providers from the [App profile manager](../../../app-profile-manager/overview.md).
 
 ### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
 
@@ -104,7 +103,7 @@ Yes. From your channel provider record, you will not be able to see the followin
 
 You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace (preview).
 	
-###	How do I select roles for the voice channel provider record?
+### How do I select roles for the voice channel provider record?
 
 Telephony channel providers are associated with app profiles, which in turn are assigned to users in your organization. With the new changes, you need to assign the app profiles to the users who should have access to the telephony channel provider.
 
