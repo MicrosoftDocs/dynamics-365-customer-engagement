@@ -47,7 +47,7 @@ The list provides an overview of documentation updates made in Unified Service D
 
 ::: moniker-end
 
-::: moniker range>="dynamics-usd-4.1"
+::: moniker range<="dynamics-usd-4.1"
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
@@ -82,7 +82,6 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Navigate](unified-interface-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](standard-web-application-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](crm-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
-
 
 
 ## Release history for Unified Service Desk 4.1.1.1397, February 2020
