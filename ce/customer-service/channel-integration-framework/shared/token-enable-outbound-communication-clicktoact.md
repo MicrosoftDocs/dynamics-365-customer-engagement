@@ -17,13 +17,15 @@ To enable outbound communication for your channel, you must perform the followin
 
 ## Step 1: Set the Enable Outbound Communication field value in the channel provider configuration
 
-1. Sign-in to Dynamics 365.
+1. Sign in to your [Power Apps](https://make.powerapps.com/) portal.
 
-2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**. 
 
-3. Select a channel provider from the **Active Channel Providers** list.
+3. On the menu that appears, select **App profile manager**. 
 
-4. Set the **Enable Outbound Communication** field to **Yes**, and save the changes.
+4. On the App profile manager page, expand **Omnichannel for Customer Service** or **Customer Service workspace** and select **Channel provider**.
+ 
+5. Select your channel provider from the list, and set the **Enable Outbound Communication** field to **Yes**.
 
 ## Step 2: Add the Channel Communication Control to the Unified Interface form
 
