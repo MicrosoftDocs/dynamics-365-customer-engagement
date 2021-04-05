@@ -258,6 +258,77 @@ The confirmation dialog box is displayed if this UII option has been added or th
 
 6. Select **Save**.
 
+## Debug Edge WebView2 Process
+
+You can debug Edge WebView2 Process in two ways:
+
+- Remotely
+
+- Locally
+
+### Debug Edge WebView2 Process remotely
+
+When you want to access and debug all the Edge WebView2 Process instances running in a desktop remotely, you need to have remote debugging access along with the port number.
+
+Use the **EdgeWebView2RemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `<IP address>:<\port number>` of the remote desktop. You can see all the Edge WebView2 Process instances running in that desktop, and then you can proceed with debugging.
+
+### Debug Edge WebView2 Process locally
+
+When you want to access and debug all the Edge WebView2 Process instances running in a desktop locally, you need to have access along with the port number to connect to.
+
+Use the **EdgeWebView2RemoteDebuggingPort** UII option and add the port number as the value. After setting this value, from the web browser, go to the `localhost:<\port number>` of the local desktop. You can see all the Edge WebView2 Process instances running in that desktop, and then you can proceed with debugging.
+
+Also, within the Unified Service Desk client application, you can debug a Edge WebView2 Process instance by using the keyboard shortcut **F12** to open **Developer Tools**. More information: [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md)
+
+**To add the EdgeWebView2RemoteDebuggingPort UII option**
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk** > **Options**.
+
+3. On the **Active UII Options** page, select **New**.
+
+4. For the **Global Option** field, select **Others**.
+
+5. For the **Name** field, enter **EdgeWebView2RemoteDebuggingPort**. For the **Value** field, enter the port number (for example, **1030**).
+
+6. Select **Save**.
+
+
+
+
+## Set focus on webpage when using Edge WebView2 Process
+
+With Edge WebView2 Process, if you want to set the focus on a webpage automatically, you must create an action call with the action as **RunScript** and **Data** with a JavaScript function: `window.top USDEdgeWebView2SetFocus()`. After you create the action call, add it to the **PageReady** event for **Unified Interface Page**, and add it to the **BrowserDocumentComplete** event for the **CRM Page** hosted control.
+
+## Edit a PDF in Edge WebView2 Process
+
+The Edge WebView2 Process supports the ability to edit a PDF file inline if the PDF has editable fields.
+
+## Check spelling on a webpage in Edge WebView2 Process
+
+The Edge WebView2 Process supports the ability to check spelling on webpages within Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
+
+**To add the EdgeWebView2Language UII option**
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Go to **Settings** > **Unified Service Desk**.
+
+3. Select **Options**.
+
+4. On the **Active UII Options** page, select **New**.
+
+5. For the **Global Option** field, select **Others**.
+
+6. For the **Name** field, enter **EdgeWebView2Language**.
+
+7. For the **Value** field, enter the locale code. More information: [Languages Codes](https://go.microsoft.com/fwlink/p/?linkid=2153933)
+
+    > [!NOTE]
+    > Only the locales available in the path C:\Program Files\Microsoft Dynamics CRM USD\USD\locales are supported.
+
+8. Select **Save**.
 
 
 ## Limitations

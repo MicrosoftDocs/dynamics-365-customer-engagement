@@ -17,7 +17,34 @@ search.app:
   - D365USD
 ---
 
+::: moniker range="dynamics-usd-4.2"
+
 # What's new in Unified Service Desk for developers and customizers
+
+## What's new in Unified Service Desk 4.2
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+
+### Use Edge WebView2 Process to host web applications in Unified Service Desk
+
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
+
+The advantages of using the Edge WebView2 Process hosting method are:
+
+- Available on supported versions of the Windows operating system.
+- Highly reliable.
+- Easy to configure to host applications in Unified Service Desk.
+- Switch seamlessly from one browser to another for your entire organization.
+- Enhanced performance and memory optimization.
+
+Also, administrators will be able to perform the following:
+
+- Select Edge process as the hosting type for the organization.
+- Select Edge process as the hosting type for select web applications, alongside Chrome process.
+
+More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
+
+::: moniker-end
 
 ::: moniker range="dynamics-usd-4.1"
 
