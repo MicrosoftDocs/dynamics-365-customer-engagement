@@ -23,7 +23,7 @@ search.app:
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
-::: moniker  = "dynamics-usd-4.2"
+::: moniker range = "=dynamics-usd-4.2"
 
 <a name="Release_4_2"></a>
 
@@ -48,7 +48,7 @@ The list provides an overview of documentation updates made in Unified Service D
 ::: moniker-end
 
 
-::: moniker range ="dynamics-usd-4.1"
+::: moniker range ="=dynamics-usd-4.1"
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
