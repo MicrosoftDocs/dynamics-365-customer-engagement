@@ -80,7 +80,7 @@ If a previous version of Omnichannel Insights was installed, we strongly recomme
 1. During the Omnichannel Insights app installation, the following appears:
 
     > [!div class=mx-imgBorder]
-    > ![Enter CRM OData feed URL](media/oc-config1.png "Enter the feed data URL for CRM")
+    > ![Enter CRM OData feed URL](media/oc-config1.png "Feed data URL for CRM")
 
 2. Choose the **Install to a new workspace** option.
 3. Select **Install**.
@@ -96,7 +96,7 @@ If a previous version of Omnichannel Insights was installed, we strongly recomme
 2. On the connect data page, enter your organization's CRM OData feed URL, and select **Next**.
 
     > [!div class=mx-imgBorder]
-    > ![Enter CRM OData feed URL](media/oc-config2.png "Enter CRM OData feed URL")
+    > ![Fill CRM OData feed URL](media/oc-config2.png "Enter CRM OData feed URL")
 
 3. (Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps:
 
@@ -105,7 +105,7 @@ If a previous version of Omnichannel Insights was installed, we strongly recomme
     3. Find the OData URL under **Service Root URL**.
 
        > [!div class=mx-imgBorder]
-       > ![Get CRM OData feed URL](media/oc-config3.png "Get CRM OData feed URL")
+       > ![CRM OData feed URL](media/oc-config3.png "Get CRM OData feed URL")
 
 4. Select **Authentication method** as **OAuth2** and **Privacy level** as **Organizational**. Select **Sign in**.
 
