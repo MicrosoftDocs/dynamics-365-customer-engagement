@@ -34,7 +34,7 @@ Make sure that you have administrator permissions for Dynamics 365.
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
 
-4. On the right side of **Customer Service historical analytics**, select **Manage**.
+4. On the right of **Customer Service historical analytics**, select **Manage**.
 
 5. On the **Customer Service historical analytics** page, toggle **Status** to **Enabled**.
 
@@ -46,25 +46,25 @@ Make sure that you have administrator permissions for Dynamics 365.
 This configuration will also enable AI-discovered topics from cases with default settings.
 
 
-### Viewing Customer Service analytics reports
+### View Customer Service analytics reports
 
 The service managers must have the admin or service manager role to view the reports. Users with the CSR Manager role will be able to view the reports only after the reports are shared with them.
 
-### Providing report access to additional security roles
+### Provide report access to additional security roles
 
 Perform the following steps to enable users with different privileges to access reports beyond the default ones.
 
-1. Navigate to **Settings** and select **Advanced settings**.
+1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
 
- 2. Select **Security** and then **Security roles**.
+2. Select **Security** and then **Security roles**.
 
-3. Select the security role that you want to enable access for. For example, Customer service- Manager.
+3. Select the security role that you want to enable access for. For example, Customer Service Manager.
 
 4. Select the **Custom Entities** tab.
 
-5. Select an entity, for example customer service historical analytics.
+5. Select an entity. For example, select Customer Service historical analytics.
 
-6. Select **Save and close**. The customer service manager can now see the customer servive historical analytics report.
+6. Select **Save and close**. The Customer Service Manager can now see the Customer Service historical analytics report.
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
@@ -75,9 +75,9 @@ You can see the following reports by navigating to the **Service** > **Analytics
 
 ### See also
 
-[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
-[Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
-[Knowledge search analytics](knowledge-search-analytics-cs.md)
+[Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Knowledge search analytics](knowledge-search-analytics-cs.md)  
 
 
 
