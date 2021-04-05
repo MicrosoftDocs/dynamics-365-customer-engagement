@@ -21,7 +21,7 @@ search.app:
 
 ::: moniker range="dynamics-usd-4.2"
 
-## What's new in Unified Service Desk 4.2
+## What's new in Unified Service Desk 4.2 (Preview)
 
 This topic contains information about changes in [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] for system administrators available in this version. 
 
