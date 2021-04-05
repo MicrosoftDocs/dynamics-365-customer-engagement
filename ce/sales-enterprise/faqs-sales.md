@@ -27,7 +27,7 @@ manager: shubhadaj
 
 **Question**:<br>If the SchedulingEngine feature is enabled for appointments, why does the **Open Record Set** button disappear when an appointment is saved?
 
-**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](https://docs.microsoft.com/powerapps/user/navigation#record-set-navigation)
+**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](/powerapps/user/navigation#record-set-navigation)
 
 **Question**:<br>Why are the synchronized appointments from Outlook shown as unsaved in Dynamics 365?
 
@@ -189,7 +189,7 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit forecast. 
 -	On the [Layout](choose-layout-and-columns-forecast.md) page, you can edit column titles, descriptions, and whether or not they show up on the grid. 
 -	On the [Drill-down](configure-manage-drill-downs.md) page, you can add, delete, or update drill-downs.
--	On the [Snapshots](https://docs.microsoft.com/dynamics365/ai/sales/manage-snapshots-forecast) page, you can enable or disable daily snapshots for the forecast.
+-	On the [Snapshots](/dynamics365/ai/sales/manage-snapshots-forecast) page, you can enable or disable daily snapshots for the forecast.
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
 

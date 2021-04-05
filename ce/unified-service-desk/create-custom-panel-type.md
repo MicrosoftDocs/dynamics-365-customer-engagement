@@ -21,9 +21,9 @@ Creating a new panel type is considered an advanced topic, and only those intima
   
  A panel type must implement two interfaces:  
   
-- [IPanel](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.ui.controls.ipanel): This interface enables [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)] (CCA) support. However, as CCA by itself does not support custom panels, if you only implement this interface, you still may not use it with CCA.  
+- [IPanel](/dotnet/api/microsoft.uii.desktop.ui.controls.ipanel): This interface enables [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)] (CCA) support. However, as CCA by itself does not support custom panels, if you only implement this interface, you still may not use it with CCA.  
   
-- [IUSDPanel](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.panellayouts.iusdpanel): This interface provides the additional functions that are needed to support custom panel types in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+- [IUSDPanel](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.panellayouts.iusdpanel): This interface provides the additional functions that are needed to support custom panel types in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
   If these two interfaces are implemented correctly, they may be used with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] panel layouts to perform advanced layouts.  
   

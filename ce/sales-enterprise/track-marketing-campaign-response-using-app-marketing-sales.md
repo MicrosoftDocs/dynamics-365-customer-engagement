@@ -54,7 +54,7 @@ Record the replies you get from potential customers in response to a specific ma
 
   
 ### See also  
- [System Settings dialog box - Marketing tab](../admin/system-settings-dialog-box-marketing-tab.md)   
+ [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)   
  [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
