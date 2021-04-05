@@ -12,9 +12,9 @@ ms.service: dynamics-365-customerservice
 
 # Customer Service Insights
 
-Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligence (AI) and analytics capabilities for Customer Service and Omnichannel. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers. 
+Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and improve customer satisfaction. Agents and customers can use use artificial intelligence (AI) and analytics capabilities for Customer Service Insights and Omnichannel. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers. 
 
-The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding (NLU) and natural language generation (NLG) to help your service team focus on what matters and guide them to success. As an agent, you can leverage real-time similar cases and knowledge article suggestions that are customized for the current context. The AI-driven technology empowers agents to help solve customer issues more quickly, improving resolution rates and customer satisfaction. 
+The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding and natural language generation to help your service team focus on what matters and guide them to success. As an agent, you can use real-time similar cases and knowledge article suggestions that are customized for the current context. The AI-driven technology allows agents to help solve customer issues more quickly, improving resolution rates, and customer satisfaction. 
 
 These capabilities are deeply embedded into the core agent and manager experiences in Customer Service and Omnichannel. 
 
@@ -27,9 +27,9 @@ Customer Service Insights connects with your Dynamics 365 Customer Service and O
 
 ### Customer Service Applications
 
-Customer Service Insights is now an embedded in Dynamics 365 Customer Service. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment, with several pre-made dashboards that can be viewed by across your management team.
+Customer Service Insights is now embedded in Dynamics 365 Customer Service. Once enabled, this experience allows you to start seeing historical analytics directly within the Customer Service environment. Several reports and dashboards can be viewed by your management team.
 
-For more details on the Customer Service offerings, see the following capabilities.
+For more information on the Customer Service offerings, see the following capabilities.
 
 - [Customer Service Historical analytics](configure-historical-analytics-csh.md)
 
@@ -43,9 +43,9 @@ For more details on the Customer Service offerings, see the following capabiliti
 
 ## Omnichannel for Customer Service
 
-Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can leverage Omnichannel's real time sentiment data to gain a better understanding of how customer interactions drive KPIs and satisfaction scores.
+Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can use Omnichannel's real-time sentiment data to gain a better understanding of how customer interactions drive KPIs and satisfaction scores.
 
-For more details on the Omnichannel for Customer Service offerings, see the following topics.
+For more information on the Omnichannel for Customer Service offerings, see the following topics.
 
 - [Analyze real-time customer sentiment](enable-sentiment-analysis.md)
 
@@ -55,7 +55,7 @@ For more details on the Omnichannel for Customer Service offerings, see the foll
 
 ### Important
 
-If you are a customer who uses the Customer Service Insights standalone web application, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. In the interim, the standalone app guide contains documentation for the web application.
+If you're a customer who uses the Customer Service Insights standalone web application, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You can no longer use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you can no longer create new workspaces, but you'll retain access to existing ones. Meanwhile, the standalone app guide contains documentation for the web application.
 
 ### See also
 

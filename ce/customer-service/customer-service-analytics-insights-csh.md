@@ -21,9 +21,9 @@ search.app:
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service and Omnichannel contain a variety of charts and metrics to help you to understand the factors that have the greatest impact on customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The Insights dashboards for Customer Service and Omnichannel contain various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
-Insights dashboards cover Customer Service, Omnichannel and knowledge Management. The Customer service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel dashboards provide a view into the support operation across channels. For Knowledge Managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
+Insights dashboards cover Customer Service, Omnichannel, and knowledge Management. The Customer service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel dashboards provide a view into the support operation across channels. For Knowledge Managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
 
 ## Configure dashboards
 
@@ -44,7 +44,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
    > [!div class=mx-imgBorder]
    > ![Analytics Summary dashboard](media/summary-dashboard-analytics-cs.png "Customer Service analytics Summary dashboard")
    
-For more details about the Summary dashboard, see [Summary dashboard](summary-dashboard-cs.md)
+For more information about the Summary dashboard, see [Summary dashboard](summary-dashboard-cs.md)
 
 ### Agent
 
@@ -53,7 +53,7 @@ The Agent dashboard shows charts and KPIs for individual agents and overall agen
    > [!div class=mx-imgBorder]
    > ![Analytics Agent dashboard](media/agent-dashboard-analytics-cs.png "Customer Service analytics Agent dashboard")
    
-For more details about the Agent dashboard, see [Agent dashboard](agent-dashboard-cs.md)
+For more information about the Agent dashboard, see [Agent dashboard](agent-dashboard-cs.md)
 
 ### Case Topics
 
@@ -62,7 +62,7 @@ The Case Topics dashboard shows a detailed breakdown of cases and their assigned
    > [!div class=mx-imgBorder]
    > ![Analytics Topics dashboard](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics dashboard")
    
-For more details about the Case Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
+For more information about the Case Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
 
 
 ### Knowledge Search Analytics report
@@ -72,21 +72,21 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 > [!div class="mx-imgBorder"]
 > ![Knowledge search analytics report](media/knowledge-search-analytics-dashboard.png "Knowledge search analytics")
 
-For more details about the Knowledge Search Analytics report, see [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
+For more information about the Knowledge Search Analytics report, see [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
 
 ## Information you need to know about the analytics reports
 
 ### Reports refresh, data retention
 
-The following information is applicable to reports refresh:
+The reports refresh report shows the following information.
 
 - **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
   > [!div class=mx-imgBorder]
   > ![Customer Service Analytics refresh status](media/cs-analytics-refresh-status.png "Customer Service Analytics refresh status")
 
 - **Custom refresh:** Isn't available.
-- **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the subsequent refresh cycle.
-- **Data retention:** Data is retained for a period of 24 months.
+- **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the next refresh cycle.
+- **Data retention:** Data is stored for 24 months.
 
 ### Report customizations
 
@@ -94,7 +94,7 @@ Currently, report customizations aren't supported.
 
 ### Supported tables
 
-The following tables are leveraged for Customer service Historical Analytics:
+The following tables are used for Customer service Historical Analytics:
 
 - incident
 - incidentresolution
@@ -120,10 +120,10 @@ To troubleshoot issues when you try to access or view the reports, do the follow
 
 |   Error message    |            Action         |
 |-------------------------|------------------------|
-| Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator.       |   Contact your administrator to get access.     |  
-| Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}.   |   Contact Microsoft Support and create a support ticket.     | 
+| Oops! No reports were found in CRM. You may not have access to these reports. Contact your system administrator.       |   Contact your administrator to get access.     |  
+| Oops! Internal service error, contact your system administrator with Error Code: {numeric value}.   |   Contact Microsoft Support and create a support ticket.     | 
 |   Oops! There was a problem rendering the report.   |   Refresh the report. If this doesn't work, contact Microsoft Support and create a support ticket.     |  
-| Oops! There was a problem rendering the report, please try again.   |   Refresh the report. If this doesn't work, contact Microsoft Support and create a support ticket    |
+| Oops! There was a problem rendering the report, try again.   |   Refresh the report. If this doesn't work, contact Microsoft Support and create a support ticket    |
 
 ### See also
 
