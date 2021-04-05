@@ -120,7 +120,7 @@ Add a new Global UII option for your organization named **GlobalBrowserMode**. S
 
 5. Type **GlobalBrowserMode** for the **Name** field.
 
-6. Type **Edge WebView2** for the **Value** field.
+6. Type **EdgeWebView2** for the **Value** field.
 
 7. Select **Save**.
 

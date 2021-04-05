@@ -28,7 +28,7 @@ You can experience enhanced performance of entity page loading in [!INCLUDE[pn_u
 
 The pooling feature is available for the following processes:
 
-- Edge WebView2 Process
+- Edge WebView2 Process (Preview)
 
 - Chrome Process
  
@@ -76,9 +76,9 @@ To disable Edge WebView2 Process pooling:
 
 ### Skip inline entity navigation in Edge WebView2 Process pooling
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2Pooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2Pooling UII option](#add-the-blockedgewebview2pooling-uii-option)
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2PoolingForEntities UII option](#add-the-blockedgewebview2pooling-uii-option)
 
-#### Add the BlockEdgeWebView2Pooling UII option
+#### Add the BlockEdgeWebView2PoolingForEntities UII option
 
 To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
 
@@ -94,7 +94,7 @@ To skip inline navigation for certain entities, a system Administrator must conf
 
 6. Choose **Others** for the **Global Option** field.
 
-7. Type **BlockEdgeWebView2Pooling** for the **Name** field.
+7. Type **BlockEdgeWebView2PoolingForEntities** for the **Name** field.
 
 8. Enter the entity names as comma separated values (CSV) for the **Value** field. For example, **incident,account,contact**.
 

@@ -142,7 +142,7 @@
       href: admin/export-unified-service-desk-configuration-data.md
   - name: Performance enhancement for loading Customer Engagement app pages
     href: admin/performance-enhancement-CRM-entity-page-loads.md
-  - name: Recover Edge WebView2 Process instance
+  - name: Recover Edge WebView2 Process instance (Preview)
     href: admin/recover-edge-webview2-process-instance.md
   - name: Recover Chrome Process instance
     href: admin/recover-chrome-process-instance.md
@@ -280,7 +280,7 @@
         href: walkthrough-configure-agent-scripting-agent-application.md
       - name: 'Walkthrough 8: Use knowledge base within your agent application'
         href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md                        
-- name: Analyze performance of Unified Service Desk (Preview)
+- name: Analyze performance of Unified Service Desk
   items:
   - name: Overview of Unified Service Desk Performance Analyzer
     href: admin/overview-performance-analyzer.md
