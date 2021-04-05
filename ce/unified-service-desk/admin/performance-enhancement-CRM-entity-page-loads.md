@@ -4,7 +4,7 @@ description: "Learn about the Internet Explorer pooling feature, which creates a
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/16/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
