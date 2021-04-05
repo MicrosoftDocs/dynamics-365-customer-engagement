@@ -18,7 +18,7 @@ The AI-driven technology empowers informed decision-making about how to improve 
 
 ## Enable topic clustering for cases
 
-Topic clustering is enabled by default when you enable historical analytics. To enable historical analytics, see [Configure Customer Service historical analytics](configure-historical-analytics-csh.md).
+Topic clustering is enabled by default when you enable historical analytics. To enable historical analytics, see [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md).
 
 ## Summary and Model Run Summary views
 

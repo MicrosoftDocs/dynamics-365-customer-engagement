@@ -38,9 +38,9 @@ The following service settings can be found here:
 
 See the following links for insights configuration information:
 
- - [Configure Customer Service historical analytics](configure-historical-analytics-csh.md)
+ - [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)
  - [Topic clustering configuration](configure-topics-clustering-cases.md)
- - [Configure Knowledge search insights](enable-knowledge-search-analytics.md)
+ - [Configure Knowledge search insights](enable-knowledge-search-insights.md)
 
 ### See also
 

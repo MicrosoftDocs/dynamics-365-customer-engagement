@@ -56,10 +56,7 @@ Perform the following steps to enable users with different privileges to access 
 
 1. Navigate to **Settings** and select **Advanced settings**.
 
- >[!div class="mx-imgBorder"]
- >![Security roles advanced settings](media/security-roles-advanced-setting.png "Advanced settings for security roles")
-
-2. Select **Security** and then **Security roles**.
+ 2. Select **Security** and then **Security roles**.
 
 3. Select the security role that you want to enable access for. For example, Customer service- Manager.
 

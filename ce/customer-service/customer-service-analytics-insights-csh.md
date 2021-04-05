@@ -29,9 +29,9 @@ Insights dashboards cover Customer Service, Omnichannel, and knowledge Managemen
 
 To enable the dashboards, see the following topics:
 
-- [Configure historical analytics reports](configure-historical-analytics-csh.md)
+- [Configure historical analytics reports](configure-cs-historical-analytics-csh.md)
 
-- [Configure knowledge search insights](enable-knowledge-search-analytics.md)
+- [Configure knowledge search insights](enable-knowledge-search-insights.md)
 
 ## Customer Service historical analytics reports
 
