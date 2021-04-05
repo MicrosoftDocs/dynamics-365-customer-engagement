@@ -118,7 +118,7 @@
 ### [Email FAQs and known issues](email-faqs.md)
 ### Administrator experience
 #### [Configure the email form order](customer-service-hub-user-guide-email-admin.md)
-#### [Configure the default email font](customer-service-hub-user-guide-email-font-admin.md)
+#### [Configure the email experience](customer-service-hub-user-guide-email-font-admin.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
@@ -335,7 +335,7 @@
 ##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
 #### Monitor conversations
-##### [Monitor and assign conversations](monitor-conversations.md)
+##### [Monitor, assign, and transfer conversations](monitor-conversations.md)
 ##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
 ### Customize insights
 #### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
