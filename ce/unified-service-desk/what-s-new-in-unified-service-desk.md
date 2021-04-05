@@ -37,12 +37,8 @@ The advantages of using the Edge WebView2 Process hosting method are:
 - Switch seamlessly from one browser to another for your entire organization.
 - Enhanced performance and memory optimization.
 
-Also, administrators will be able to perform the following:
-
-- Select Edge process as the hosting type for the organization.
-- Select Edge process as the hosting type for select web applications, alongside Chrome process.
-
 More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
+
 
 ::: moniker-end
 

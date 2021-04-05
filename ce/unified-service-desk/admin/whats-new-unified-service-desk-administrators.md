@@ -57,6 +57,13 @@ By default, Edge WebView2 Process instance recovery is enabled.
 
 More information: [Recover an Edge WebView2 process instance](recover-edge-webview2-process-instance.md)
 
+### Pool process instances for Edge WebView2 Process
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 Process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 Process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, the Edge WebView2 Process instance pooling is enabled.
+
+With the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
 ::: moniker-end 
 

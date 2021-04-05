@@ -90,7 +90,6 @@ Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 2. Under the `<appSettings>` section add the new key.<br>
 `<add key="GlobalBrowserMode" value="EdgeWebView2"/>`
 
-
 3. Save the file.
 
 ### Enable Edge WebView2 for an entire organization
@@ -295,7 +294,38 @@ Also, within the Unified Service Desk client application, you can debug a Edge W
 6. Select **Save**.
 
 
+## Handling the URI protocol in Edge WebView2 Process
 
+When using Edge WebView2 Process, you might want to block the protocol navigation inside the Unified Service Desk client application, or you might want to open the application in a separate window outside of the Unified Service Desk client application. Use the window navigation rules to block or open the application outside of the Unified Service Desk client application.
+
+Add the URL in **Window Navigation Rules** and set the **Action** to **None** to block the navigation, and set **Show Outside** to show the application outside of Unified Service Desk client application.
+
+For example, say you've integrated a softphone with Unified Service Desk and are using the Chrome Edge WebView2 hosting type to host web applications. When an agent selects the phone number in the contact or account page, you want to initiate the call by using the softphone instead of Skype. You create the window navigation rule and set the **Action** to **None** to block the Skype protocol. You can create specific action calls as sub-action calls of this window navigation rule to initiate the call using the softphone.
+
+**To create a window navigation rule**
+
+1. Sign in to the Dynamics 365 instance.
+
+2. Expand **Dynamics 365**.
+
+3. Select **Unified Service Desk Administrator**.
+
+4. Under **Basic Settings**, select **Window Navigation Rules**.
+
+5. On the **Active Window Navigation Rules** page, select **New**.
+
+6. Specify the following values on the **New Window Navigation Rules** page.
+
+   | Tab |  Field | Value |
+   |-------------------|------------------------------------------------|--------------------------------------------------|
+   | General | Name | Telephone Protocol <br><br> or <br><br> Skype Protocol |
+   | General | Url | tel: <br><br> or <br><br> skype: |
+   | Result | Route Type | Popup |
+   | Result | Action | None or Show Outside |
+
+7. Select **Save**.
+
+Now when an agent selects the number in the contact or account page, based on the window navigation rule, Edge WebView2 Process blocks or opens the application outside of the Unified Service Desk client application.
 
 ## Set focus on webpage when using Edge WebView2 Process
 
@@ -307,7 +337,7 @@ The Edge WebView2 Process supports the ability to edit a PDF file inline if the 
 
 ## Check spelling on a webpage in Edge WebView2 Process
 
-The Edge WebView2 Process supports the ability to check spelling on webpages within Unified Service Desk. To enable the spell checker, you must add the **SetSpellCheckLanguage** UII option.
+The Edge WebView2 Process supports the ability to check spelling on webpages within Unified Service Desk. To enable the spell checker, you must add the **EdgeWebView2Language** UII option.
 
 **To add the EdgeWebView2Language UII option**
 
