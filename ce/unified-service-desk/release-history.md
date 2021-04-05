@@ -159,7 +159,7 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 
 
 
-::: moniker range >="dynamics-usd-4"
+::: moniker range ="dynamics-usd-4"
 
 <a name="Release_4_0"></a> 
 
