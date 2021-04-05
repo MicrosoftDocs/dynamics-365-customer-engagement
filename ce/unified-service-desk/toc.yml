@@ -280,7 +280,7 @@
         href: walkthrough-configure-agent-scripting-agent-application.md
       - name: 'Walkthrough 8: Use knowledge base within your agent application'
         href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md                        
-- name: Analyze performance of Unified Service Desk
+- name: Analyze performance of Unified Service Desk (Preview)
   items:
   - name: Overview of Unified Service Desk Performance Analyzer
     href: admin/overview-performance-analyzer.md

@@ -50,7 +50,7 @@ When a hosted control that uses an **Edge WebView2** process browser control clo
 To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL.
 
 
- In the above illustration, the **Customer Service Dashboard** application is hosted using the **Edge WebView2** process. The Edge WebView2 process instance closed abruptly and selecting the **Reload** option loads the **Customer Service Dashboard** application.
+ The **Customer Service Dashboard** application is hosted using the **Edge WebView2** process. The Edge WebView2 process instance closed abruptly and selecting the **Reload** option loads the **Customer Service Dashboard** application.
 
 If you don't want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Edge WebView2 Process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Edge WebView2 Process webpage, contact your system administrator**.
 
