@@ -21,6 +21,40 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
+::: moniker range="dynamics-usd-4.2"
+
+# Use Edge WebView2 Process to host web applications in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
+
+The advantages of using the Edge WebView2 Process hosting method are:
+
+- Available on supported versions of the Windows operating system.
+- Highly reliable.
+- Easy to configure to host applications in Unified Service Desk.
+- Switch seamlessly from one browser to another for your entire organization.
+- Enhanced performance and memory optimization.
+
+Also, administrators will be able to perform the following:
+
+- Select Edge process as the hosting type for the organization.
+- Select Edge process as the hosting type for select web applications, alongside Chrome process.
+
+More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
+
+# Recover an Edge WebView2 Process instance
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Edge WebView2 Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, Edge WebView2 Process instance recovery is enabled.
+
+More information: [Recover an Edge WebView2 process instance](../recover-edge-webview2-process-instance.md)
+
+
+::: moniker-end 
+
 ::: moniker range="dynamics-usd-4.1"
 
 ## What's new in Unified Service Desk 4.1.1.1433

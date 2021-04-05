@@ -52,8 +52,7 @@ If you don't want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn
 
 ### Unified Service Desk encounters a non-fatal error
 
-While hosting web applications using the Edge WebView2 Process, Unified Service Desk 
-crashes intermittently. However, the crash is non-fatal.
+While hosting web applications using the Edge WebView2 Process, Unified Service Desk crashes intermittently. However, the crash is non-fatal.
 <br>
 ![Unified Service Desk fatal error](../media/unified-service-desk-fatal-error.PNG "Unified Service Desk fatal error")
 
@@ -64,7 +63,7 @@ Select **No** to continue using Unified Service Desk, or select **Yes** to resta
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
-[Use Chrome Process to host web application](../chrome-process.md)
+[Use Edge WebView2 Process to host web application](../edge-webview2-process.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
