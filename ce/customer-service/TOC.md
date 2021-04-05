@@ -118,7 +118,7 @@
 ### [Email FAQs and known issues](email-faqs.md)
 ### Administrator experience
 #### [Configure the email form order](customer-service-hub-user-guide-email-admin.md)
-#### [Configure the default email font](customer-service-hub-user-guide-email-font-admin.md)
+#### [Configure the email experience](customer-service-hub-user-guide-email-font-admin.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
