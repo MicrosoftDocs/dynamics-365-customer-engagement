@@ -2,7 +2,7 @@
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
 author: mh-jaya
-ms.author: v-mhj
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/12/2021
 ms.topic: article
@@ -108,7 +108,7 @@ If you get any of the errors listed below, check if Security Defaults is turned 
 
 To learn more about Security Defaults, see the topic [What are security defaults?](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
 
-<!--work with your administrator to ensure you have the right security roles, Omnichannel capacity, and default presence set. When the administrator makes changes to these settings, the changes may take up to 15 minutes to reflect. As an agent, you should log out, clear your browser cache, and close and reopen the browser to try again. If the issue persists, work with your administrator to create a service request with details including the organization URL, agent ID, error message, and client session ID value. -->
+
 
 ### Error messages 
 
