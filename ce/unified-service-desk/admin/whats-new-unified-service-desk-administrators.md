@@ -401,11 +401,11 @@ These are the limitations:
 ::: moniker-end
 
 ## See also  
- [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)  
+ [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)     
 
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   
 
- [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+ [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
