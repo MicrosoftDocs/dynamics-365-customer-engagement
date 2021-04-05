@@ -24,12 +24,12 @@ Each instance of the email editor or builder can be configured independently, en
 - Access HTML
 - Configure [CKEditor-supported properties](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops) in email experiences (including email editor, email template builder, and signature builder)
 
-## Configure Email form by using a web resource file
+## Configure the Email form by using a web resource file
 
 You can configure email by using a web resource file that can be modified as desired and then linked to the email form.
 
 Enabling the user configured settings to an email form consists of the following steps:
-1.	[Configure the web resource file](#configure-the-web resource file)
+1.	[Configure the web resource file](#configure-the-web-resource-file)
 2.	[Enable the RTE control in the email form](#enable-the-rte-control-in-the-email-form)
 
 ### Configure the web resource file
