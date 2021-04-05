@@ -27,7 +27,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_2"></a>
 
-## Release history for Unified Service Desk 4.2, April 2021 (Preview)
+## Preview: Release history for Unified Service Desk 4.2, April 2021
 
 The list provides an overview of documentation updates made in Unified Service Desk 4.2.
 
@@ -38,12 +38,12 @@ The list provides an overview of documentation updates made in Unified Service D
 
 | Topic | Updates |
 |---------------|-------------------|
-
-|[Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2) Added information about creating a hosted control with hosting type as **Edge WebView2**. |
-|[Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop) Added information about enabling/disabling **Edge WebView2** on client desktops. |
-|[Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization) Added information about enabling **Edge WebView2** for the entire organization using the Global UII option |
+|[Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2) |Added information about creating a hosted control with hosting type as **Edge WebView2**. |
+|[Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop) |Added information about enabling/disabling **Edge WebView2** on client desktops. |
+|[Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization) |Added information about enabling **Edge WebView2** for the entire organization using the Global UII option |
 | [Edit a PDF in Edge WebView2 Process](edge-webview2-process.md#edit-a-pdf-in-edge-webview2-process) | Added information about editing PDFs. |
 | [Enable language support in Edge WebView2 Process](edge-webview2-process.md#enable-language-support-in-edge-webview2-process) | Added information about enabling language support. |
+|||
 
 ::: moniker-end
 
