@@ -16,7 +16,7 @@ search.app:
 ---
 ::: moniker range="dynamics-usd-4.2"
 
-# Unified Service Desk 4.2 known issues and limitations
+## Unified Service Desk 4.2 known issues and limitations
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
