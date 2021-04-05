@@ -19,7 +19,7 @@ To use skill-based routing, as an administrator, you must enable skill-based rou
 
 To enable skill-based routing, follow these steps:
 
-1. Sign in to the app.
+1. Sign in to Dynamics 365.
 
 2. Do one of the following depending on the app you're using:
    - In Omnichannel admin center, in the site map, select **User attributes**, and then select **Manage** beside **Skill-based routing**.
@@ -66,7 +66,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
     | General | Min Rating Value | Provide a minimum rating value. | 1 |
     | General | Max Rating Value | Provide a maximum rating value. | 10 |
 
-5. Select **Save** to save the rating model. After you save, the **Rating Values** section appears.
+5. Select **Save**. The **Rating Values** section appears.
 
 6. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
@@ -79,7 +79,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 8. Select **Save and Close** to save and add the rating value to the grid.
 
-9. Select **+ New** to add other rating values and repeat step 7 and 8.
+9. Select **New** to add other rating values and repeat step 7 and 8.
 
 10. Select **Save** to save the rating model changes.
 

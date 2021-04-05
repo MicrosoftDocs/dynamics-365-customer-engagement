@@ -4,7 +4,7 @@ description: See how you can configure and manage presence and custom presence i
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -54,7 +54,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 Perform the following steps to create a presence record:
 
-1. In the Omnichannel site map, go to **Agent Experience** > **Custom Presence**. The **Active Presences** view is shown.
+1. In the site map of Omnichannel admin center, select **Agent experience** under Advanced settings, and then select **Manage** for **Custom Presence**. If you're using the Omnichannel Administration app, under **Agent Experience**, select **Custom presence**. The **Active Presences** view is displayed.
 
 2. On the command bar, select **New** to create a presence record.
 3. On the **Summary** tab, provide the following information:

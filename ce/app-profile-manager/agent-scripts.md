@@ -4,7 +4,7 @@ description: "Learn about agent scripts and how to configure them."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 04/09/2021
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
@@ -37,7 +37,7 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Create agent scripts
 
-Create agent scripts in the Omnichannel Administration or Customer Service Hub app. The following procedure creates an example of an agent script for a chat session. You can modify this procedure for other types of sessions your agents are likely to encounter.
+Create agent scripts in the Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
 2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
@@ -85,22 +85,20 @@ The agent script is now configured.
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
-1. Sign in to the Omnichannel Administration app.
+1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**. If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
-2. Under **Agent Experience**, select **Sessions**.
+2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
-3. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
+3. Select the **Agent scripts** tab.
 
-4. Select the **Agent scripts** tab.
+4. In the **Agent scripts** section, select **Add Existing Agent script**. The **Lookup Records** pane appears.
 
-5. In the **Agent scripts** section, select **Add Existing Agent script**. The **Lookup Records** pane appears.
-
-6. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
+5. In the **Look for Records** box, select the search icon. Select the agent script from the list, and then select **Add**.
 
     > [!div class=mx-imgBorder] 
     > ![Associate an agent script](../customer-service/media/associate-agent-script.png "Associate an agent script")
 
-7. Select **Save**.
+6. Select **Save**.
 
 The agent script is associated with the session template.
 
@@ -114,34 +112,32 @@ Based on these conditions, when an agent accepts an incoming conversation, the a
 
 You can build the expression in the **Agent scripts** tab in the sessions template.
 
-1. Sign in to Omnichannel Administration.
+1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**. If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
-2. Under **Agent Experience**, select **Sessions**.
+2. Go to the **Agent scripts** tab.
 
-3. Go to the **Agent scripts** tab.
-
-4. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
+3. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
 
     > [!div class=mx-imgBorder] 
     > ![Build expression](../customer-service/media/agent-script-build-expression.png "Build expression")
 
-5. Select the **Condition** step, and then create the condition.
+4. Select the **Condition** step, and then create the condition.
 
-6. In the **If true** step, select **Add an action**. The **Condition** step is displayed. To learn about conditions, see [Use the automation dictionary to pass context data parameters](#use-the-automation-dictionary-to-pass-context-data-parameters).
+5. In the **If true** step, select **Add an action**. The **Condition** step is displayed. To learn about conditions, see [Use the automation dictionary to pass context data parameters](#use-the-automation-dictionary-to-pass-context-data-parameters).
 
-7. Select the **Customer Service** tab, and then select **Set default agent script**.
+6. Select the **Customer Service** tab, and then select **Set default agent script**.
 
     > [!div class=mx-imgBorder] 
     > ![Set default agent script](../customer-service/media/agent-script-build-expression2.png "Set default agent script")
 
-8. Select a script from the **Agent script** list.
+7. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
     > ![Set default agent script](../customer-service/media/agent-script-set-default.png "Set default agent script")
 
-9. Follow steps 5 through 8 for the **If false** step.
+8. Follow steps 4 through 7 for the **If false** step.
 
-10. Select **Save and close** to save the expression and close the builder.
+9. Select **Save and close** to save the expression and close the builder.
 
 Now, you've built the expression.
 
