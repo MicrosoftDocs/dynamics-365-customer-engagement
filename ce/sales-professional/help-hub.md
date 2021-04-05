@@ -30,7 +30,7 @@ manager: annbe
 <li><a href="manage-leads-sales-professional.md" data-raw-source="[Create and manage leads](manage-leads-sales-professional.md)">Create and manage leads</a></li>
 <li><a href="manage-opportunities-sales-professional.md" data-raw-source="[Create or edit opportunities](manage-opportunities-sales-professional.md)">Create or edit opportunities</a></li>
 <li><a href="create-quotes-sales-professional.md" data-raw-source="[Create and manage quotes](create-quotes-sales-professional.md)">Create and manage quotes</a></li>
-<li><a href="create-orders.md" data-raw-source="[Create and manage orders](create-orders.md)">Create and manage orders</a></li>
+<li><a href="/dynamics365/sales-professional/create-orders-sp" data-raw-source="[Create and manage orders](./create-orders-sp.md)">Create and manage orders</a></li>
 <li><a href="create-invoices.md" data-raw-source="[Create and manage invoices](create-invoices.md)">Create and manage invoices</a></li>
 <li><a href="create-products.md" data-raw-source="[Create products](create-products.md)">Create products</a></li>
 <li><a href="create-price-list.md" data-raw-source="[Create price lists](create-price-list.md)">Create price lists</a></li>
@@ -71,9 +71,9 @@ manager: annbe
 <td>
 <h2>Microsoft Learn resources</h2>
 <ul>
-<li><a href="https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
-<li><a href="https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](https://docs.microsoft.com/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
+<li><a href="/learn/modules/manage-leads-dynamics-365-sales/" data-raw-source="[Manage leads with Dynamics 365 Sales Professional](/learn/modules/manage-leads-dynamics-365-sales/)">Manage leads with Dynamics 365 Sales Professional</a></li>
+<li><a href="/learn/modules/manage-opportunities-dynamics-365-sales/" data-raw-source="[Manage opportunities with Dynamics 365 Sales Professional](/learn/modules/manage-opportunities-dynamics-365-sales/)">Manage opportunities with Dynamics 365 Sales Professional</a></li>
+<li><a href="/learn/modules/process-sales-orders-dynamics-365-sales/" data-raw-source="[Process sales orders with Dynamics 365 Sales Professional](/learn/modules/process-sales-orders-dynamics-365-sales/)">Process sales orders with Dynamics 365 Sales Professional</a></li>
 </ul>
 </td></tr>
 <tr><td>

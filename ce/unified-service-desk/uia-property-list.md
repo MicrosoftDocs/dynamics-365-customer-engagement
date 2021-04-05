@@ -19,93 +19,93 @@ search.app:
 # UIA property list in Unified Service Desk
 The following is a list of the UIA properties:  
   
--   [Orientation](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.orientationproperty.aspx)  
+-   [Orientation](/dotnet/api/system.windows.automation.automationelementidentifiers.orientationproperty)  
   
--   [AcceleratorKey](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.acceleratorkeyproperty.aspx)  
+-   [AcceleratorKey](/dotnet/api/system.windows.automation.automationelementidentifiers.acceleratorkeyproperty)  
   
--   [AccessKey](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.accesskeyproperty.aspx)  
+-   [AccessKey](/dotnet/api/system.windows.automation.automationelementidentifiers.accesskeyproperty)  
   
--   [AutomationId](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.automationidproperty.aspx)  
+-   [AutomationId](/dotnet/api/system.windows.automation.automationelementidentifiers.automationidproperty)  
   
--   [BoundingRectangle](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.boundingrectangleproperty.aspx)  
+-   [BoundingRectangle](/dotnet/api/system.windows.automation.automationelementidentifiers.boundingrectangleproperty)  
   
--   [ClickablePoint](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.clickablepointproperty.aspx)  
+-   [ClickablePoint](/dotnet/api/system.windows.automation.automationelementidentifiers.clickablepointproperty)  
   
--   [ControlType](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.controltypeproperty.aspx)  
+-   [ControlType](/dotnet/api/system.windows.automation.automationelementidentifiers.controltypeproperty)  
   
--   [FrameworkId](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.frameworkidproperty.aspx)  
+-   [FrameworkId](/dotnet/api/system.windows.automation.automationelementidentifiers.frameworkidproperty)  
   
--   [HasKeyboardFocus](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.haskeyboardfocusproperty.aspx)  
+-   [HasKeyboardFocus](/dotnet/api/system.windows.automation.automationelementidentifiers.haskeyboardfocusproperty)  
   
--   [HelpText](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.helptextproperty.aspx)  
+-   [HelpText](/dotnet/api/system.windows.automation.automationelementidentifiers.helptextproperty)  
   
--   [IsContentElement](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.iscontentelementproperty.aspx)  
+-   [IsContentElement](/dotnet/api/system.windows.automation.automationelementidentifiers.iscontentelementproperty)  
   
--   [IsControlElement](https://msdn.microsoft.com/llibrary/vstudio/system.windows.automation.automationelementidentifiers.iscontrolelementproperty.aspx)  
+-   [IsControlElement](/dotnet/api/system.windows.automation.automationelementidentifiers.iscontrolelementproperty)  
   
--   [IsDockPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isdockpatternavailableproperty.aspx)  
+-   [IsDockPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isdockpatternavailableproperty)  
   
--   [IsEnabled](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isenabledproperty.aspx)  
+-   [IsEnabled](/dotnet/api/system.windows.automation.automationelementidentifiers.isenabledproperty)  
   
--   [IsExpandCollapsePatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isexpandcollapsepatternavailableproperty.aspx)  
+-   [IsExpandCollapsePatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isexpandcollapsepatternavailableproperty)  
   
--   [IsGridItemPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isgriditempatternavailableproperty.aspx)  
+-   [IsGridItemPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isgriditempatternavailableproperty)  
   
--   [IsGridPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isgridpatternavailableproperty.aspx)  
+-   [IsGridPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isgridpatternavailableproperty)  
   
--   [IsInvokePatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isinvokepatternavailableproperty.aspx)  
+-   [IsInvokePatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isinvokepatternavailableproperty)  
   
--   [IsItemContainerPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isitemcontainerpatternavailableproperty.aspx)  
+-   [IsItemContainerPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isitemcontainerpatternavailableproperty)  
   
--   [IsKeyboardFocusable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.iskeyboardfocusableproperty.aspx)  
+-   [IsKeyboardFocusable](/dotnet/api/system.windows.automation.automationelementidentifiers.iskeyboardfocusableproperty)  
   
--   [IsMultipleViewPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.ismultipleviewpatternavailableproperty.aspx)  
+-   [IsMultipleViewPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.ismultipleviewpatternavailableproperty)  
   
--   [IsOffscreen](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isoffscreenproperty.aspx)  
+-   [IsOffscreen](/dotnet/api/system.windows.automation.automationelementidentifiers.isoffscreenproperty)  
   
--   [IsPassword](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.ispasswordproperty.aspx)  
+-   [IsPassword](/dotnet/api/system.windows.automation.automationelementidentifiers.ispasswordproperty)  
   
--   [IsRangeValuePatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.israngevaluepatternavailableproperty.aspx)  
+-   [IsRangeValuePatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.israngevaluepatternavailableproperty)  
   
--   [IsRequiredForForm](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isrequiredforformproperty.aspx)  
+-   [IsRequiredForForm](/dotnet/api/system.windows.automation.automationelementidentifiers.isrequiredforformproperty)  
   
--   [IsScrollItemPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isscrollitempatternavailableproperty.aspx)  
+-   [IsScrollItemPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isscrollitempatternavailableproperty)  
   
--   [IsScrollPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isscrollpatternavailableproperty.aspx)  
+-   [IsScrollPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isscrollpatternavailableproperty)  
   
--   [IsSelectionItemPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isselectionitempatternavailableproperty.aspx)  
+-   [IsSelectionItemPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isselectionitempatternavailableproperty)  
   
--   [IsSelectionPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isselectionpatternavailableproperty.aspx)  
+-   [IsSelectionPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isselectionpatternavailableproperty)  
   
--   [IsSynchronizedInputPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.issynchronizedinputpatternavailableproperty.aspx)  
+-   [IsSynchronizedInputPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.issynchronizedinputpatternavailableproperty)  
   
--   [IsTableItemPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.istableitempatternavailableproperty.aspx)  
+-   [IsTableItemPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.istableitempatternavailableproperty)  
   
--   [IsTablePatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.istablepatternavailableproperty.aspx)  
+-   [IsTablePatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.istablepatternavailableproperty)  
   
--   [IsTextPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.istextpatternavailableproperty.aspx)  
+-   [IsTextPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.istextpatternavailableproperty)  
   
--   [IsTogglePatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.istogglepatternavailableproperty.aspx)  
+-   [IsTogglePatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.istogglepatternavailableproperty)  
   
--   [IsTransformPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.istransformpatternavailableproperty.aspx)  
+-   [IsTransformPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.istransformpatternavailableproperty)  
   
--   [IsValuePatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isvaluepatternavailableproperty.aspx)  
+-   [IsValuePatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isvaluepatternavailableproperty)  
   
--   [IsVirtualizedItemPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.isvirtualizeditempatternavailableproperty.aspx)  
+-   [IsVirtualizedItemPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.isvirtualizeditempatternavailableproperty)  
   
--   [IsWindowPatternAvailable](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.iswindowpatternavailableproperty.aspx)  
+-   [IsWindowPatternAvailable](/dotnet/api/system.windows.automation.automationelementidentifiers.iswindowpatternavailableproperty)  
   
--   [ItemStatus](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.itemstatusproperty.aspx)  
+-   [ItemStatus](/dotnet/api/system.windows.automation.automationelementidentifiers.itemstatusproperty)  
   
--   [ItemType](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.itemtypeproperty.aspx)  
+-   [ItemType](/dotnet/api/system.windows.automation.automationelementidentifiers.itemtypeproperty)  
   
--   [LocalizedControlType](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.localizedcontroltypeproperty.aspx)  
+-   [LocalizedControlType](/dotnet/api/system.windows.automation.automationelementidentifiers.localizedcontroltypeproperty)  
   
--   [Name](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.nameproperty.aspx)  
+-   [Name](/dotnet/api/system.windows.automation.automationelementidentifiers.nameproperty)  
   
--   [ProcessId](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.processidproperty.aspx)  
+-   [ProcessId](/dotnet/api/system.windows.automation.automationelementidentifiers.processidproperty)  
   
--   [RuntimeId](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.runtimeidproperty.aspx)  
+-   [RuntimeId](/dotnet/api/system.windows.automation.automationelementidentifiers.runtimeidproperty)  
   
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
