@@ -54,7 +54,7 @@ There may be more than one file named msdyn_EmailRTEConfig.js. One is the defaul
    
 5. Copy the text in the **Source** field, and then close the window.
 
-  ![Copy web resource file](media\email-copy-web-resource-file.png "Copy the web resource file.")
+   ![Copy web resource file](media\email-copy-web-resource-file.png "Copy the web resource file.")
 
 6. Create a new web resource and paste the code you just copied from the existing file into it.
 
@@ -64,7 +64,7 @@ There are a variety of properties that can be modified and will apply to the ema
 
 7. Make any changes you want, and then select **Save and publish**. Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
 
-  ![Save web resource URL](media\email-web-resource-url.png "Save the web resource URL.")
+   ![Save web resource URL](media\email-web-resource-url.png "Save the web resource URL.")
 
 8. Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
 
