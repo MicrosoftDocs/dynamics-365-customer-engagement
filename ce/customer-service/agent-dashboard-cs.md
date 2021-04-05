@@ -31,7 +31,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 To view the Agent dashboard, navigate to customer service historical analytics and select **Agent** at the top of the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance, and includes the following insights:
 
 > [!div class="mx-imgBorder"]
-> ![Agent dashboard](media/agent-dashboard "Agent dashboard insights")
+> ![Agent dashboard](media/agent-dashboard.png "Agent dashboard insights")
 
 To view the agent dashboard, go to Omnichannel historical analytics and select **Agent** in the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance.
 
@@ -40,9 +40,9 @@ To view the agent dashboard, go to Omnichannel historical analytics and select *
 The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. KPIs for the dashboard are displayed as shown.
 
 > [!div class="mx-imgBorder"]
-> ! [Agent report](media/agent-report-csh.png "Agent report dahsboard")
+> ![Agent report](media/agent-report-cs.png "Agent report dashboard")
 
-KPIs for the following areas are displayed:
+This table displays the key performance indicators in the agent report. 
 
 | KPI            | Description    |
 |----------------|----------------|
@@ -53,7 +53,7 @@ KPIs for the following areas are displayed:
 | Average CSAT   | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 | Average survey sentiment | The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.  |
 
-Charts are displayed as follows:
+The agent dashboard has charts that have the following metrics.
 
 | KPI            | Description    |
 |----------------|----------------|
@@ -73,6 +73,7 @@ To access the drill down, select any metric value for the desired agent and sele
 
 
 ### See also
+
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
 - [Summary dashboard](summary-dashboard-cs.md) <br>
 - [Topics dashboard](topics-dashboard-cs.md) 

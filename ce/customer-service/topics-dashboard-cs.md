@@ -43,7 +43,7 @@ The Key insights discovered card has three areas:
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
-KPIs for the following areas are displayed:
+The topics dashboard report has the following KPIs.
 
 | KPI     | Description     |
 |------------|--------------|

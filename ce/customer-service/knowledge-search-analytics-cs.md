@@ -23,7 +23,7 @@ search.app:
 
 The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
-> [NOTE!]
+> [!NOTE]
 > Knowledge search analytics won't provide information about customer search behavior. Data is only from internal knowledge searches. 
 
 ![Knowledge search analytics dashboard](media/knowledge-search-analytics-dashboard.png "Knowledge search analytics dashboard")

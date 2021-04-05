@@ -56,9 +56,6 @@ Perform the following steps to enable users with different privileges to access 
 
 1. Navigate to **Settings** and select **Advanced settings**.
 
- >[!div class="mx-imgBorder"]
- >![Security roles advanced settings](media/security-roles-advanced-setting.png "Advanced settings for security roles")
-
 2. Select **Security** and then **Security roles**.
 
 3. Select the security role that you want to enable access for. For example, Customer service- Manager.
@@ -67,7 +64,7 @@ Perform the following steps to enable users with different privileges to access 
 
 5. Select an entity, for example customer service historical analytics.
 
-6. Select **Save and close**. The customer service manager can now see the customer servive historical analytics report.
+6. Select **Save and close**. The customer service manager can now see the customer service historical analytics report.
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics (preview)** page. By default, the **Summary** page is displayed.
 
