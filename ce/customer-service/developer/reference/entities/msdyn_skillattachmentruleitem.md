@@ -1,8 +1,8 @@
 ---
 title: "msdyn_skillattachmentruleitem Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_skillattachmentruleitem entity."
-author: "platkat"
-ms.author: "ktaylor"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
 ms.date: 10/12/2020
 ms.topic: "reference"

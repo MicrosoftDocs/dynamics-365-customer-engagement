@@ -1,8 +1,8 @@
 ---
 title: "msdyn_conversationsuggestionrequestpayload Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_conversationsuggestionrequestpayload entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
 ms.date: 03/15/2021
 ms.topic: "reference"
