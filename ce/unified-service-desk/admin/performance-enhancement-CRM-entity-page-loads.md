@@ -20,6 +20,9 @@ search.app:
 # Performance enhancement for loading the model-driven app pages
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+> - This is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 > [!Note]
 >
