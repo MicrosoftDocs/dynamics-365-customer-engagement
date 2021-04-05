@@ -94,15 +94,7 @@ There are a variety of properties that can be modified and will apply to the ema
 
 5. Select **Save** > **Publish**.
    
-   The settings should now apply to the form when you create an email.
-   
-    ![Filter to search for web resource files](media/email-custom-filters.png "Filter to search for web resource files.")
-
-
-Specific font information can be configured by editing the [Rich Text Editor control global default webresource configuration](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#use-the-webresource-for-organization-wide-changes).
-
-> [!IMPORTANT]
-> Changes to this file are global for your entire organization, and will affect every instance where the Rich Text Editor (RTE) control is used. This includes the RTE used in timeline rich text notes, knowledge management, and single and multi-line fields configured to use the RTE control. 
+   The settings will now apply to the form when you create an email.
 
 
 ### See also
