@@ -47,7 +47,7 @@ The list provides an overview of documentation updates made in Unified Service D
 
 ::: moniker-end
 
-::: moniker range="dynamics-usd-4.1.1.1433"
+::: moniker range>="dynamics-usd-4.1"
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
@@ -57,9 +57,6 @@ This release supports the Dynamics 365 model-driven apps deployed in Switzerland
 > - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1433, instead of upgrading to version 4.1.1.1433.
 > - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1433.
 
-::: moniker-end
-
-::: moniker range="dynamics-usd-4.1.2"
 
 <a name="Release_4_1_2"></a>
 
@@ -86,10 +83,6 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Navigate](standard-web-application-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](crm-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
 
-::: moniker-end
-
-
-::: moniker range="dynamics-usd-4.1.1.1397"
 
 
 ## Release history for Unified Service Desk 4.1.1.1397, February 2020
@@ -110,9 +103,6 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Find](unified-interface-page-hosted-control.md#find) | Added new parameters for the Find event in the Unified Interface page hosted control. |
 | [CreateSession](global-manager-hosted-control.md#createsession) | Added new parameters for the CreateSession event in the global manager hosted control. |
 
-::: moniker-end
-
-::: moniker range="dynamics-usd-4.1.1."
 
 <a name="Release_4_1_1"></a>
 
@@ -128,9 +118,6 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) | Added information about downloading file attachments in Chrome Process <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Learn the behavior differences in Chrome Process and IE Process](hosting-type-differences.md) | New topic about the behavior differences in IE Process and Chrome Process. <br><br> Topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md).  |
 
-::: moniker-end
-
-::: moniker range="dynamics-usd-4.1"
 
 <a name="Release_4_1"></a>
 
