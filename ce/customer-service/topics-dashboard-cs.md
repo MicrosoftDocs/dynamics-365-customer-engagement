@@ -27,7 +27,7 @@ The Topics dashboard shows a detailed breakdown of cases and their assigned topi
 
 ![Topics dashboard](media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
-To view the Topics dashboard, navigate to customer service historical analytics and select **Topics** at the top of the workspace. 
+To view the Topics dashboard, go to customer service historical analytics and select **Topics** at the top of the workspace. 
 
 ## Key insights card
 
@@ -69,29 +69,26 @@ The topic metrics chart has the following metrics displayed:
 
 ### Case topics drill down view
 
-The Topic drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
+The case topics drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
 
-To access the drill down, select any metric value for the desired topic and select **Details**.
+To access the case topics drill down, select any metric value for the required topic and select **Details**.
 
 > [!div class="mx-imgBorder"] 
 > ![Case topics drill down view](media/case-topics-drill-down-view.png "Case topics drill view")
 
-### Enable availability of topics for Power Virtual Agent bots
+### Enable availability of topics for Power Virtual Agents bots
 
-AI discovered topics in Customer Service historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents bot is available in the region that your Customer Service organization is located, the feature can be enabled by the administrator for use. 
-
-> [!div class="mx-imgBorder"]
-> ![Automate topics to Power virtual agents](media/automate-topics-to-PVA.png "Automate topics to Power virtual agents")
-
-After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power virtual agents** on the **Topic metrics** grid. Select **Details** and then select **Automate to bot** within the drill through view. This will launch the topic editing form.  
+AI-discovered topics in Customer Service historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents bot is available in the region in which your Customer Service organization is located, the feature can be enabled by the administrator for use. 
 
 > [!div class="mx-imgBorder"]
-> ![Editing form for Power virtual agents](media/PVA-editing-form.png "Editing form")
+> ![Automate topics to Power Virtual Agents](media/automate-topics-to-PVA.png "Automate topics to Power Virtual Agents")
 
-The topic is provided as well as suggested trigger phrases based on the case title. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, selecting **Create Bot** will redirect to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added.
+After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power virtual agents** on the **Topic metrics** grid. Select **Details** and then select **Automate to bot** within the drill down view. This will launch the topic editing form.  
+
+The suggested trigger phases as well as the topic based on the case title is provided. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, selecting **Create Bot** will redirect to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added.
 
 > [!NOTE]
-> Any bots created via the Microsoft Teams channel will not be listed in the bot selection dropdown. Users creating bots using the drill down page for a topic in CSW will be redirected to CSH for form completion. 
+> Any bots created through the Microsoft Teams channel will not be listed in the bot selection list. Users who create bots by using the drill down page for a topic in Customer Service workspace will be redirected to Customer Service Hub for form completion. 
 
 ### See also
 

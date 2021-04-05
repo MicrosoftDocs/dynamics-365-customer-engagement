@@ -33,16 +33,14 @@ To view the Agent dashboard, navigate to customer service historical analytics a
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard Insights](media/agent-dashboard.png "Agent dashboard insights")
 
-To view the agent dashboard, go to Omnichannel historical analytics and select **Agent** in the workspace. The dashboard shows charts and KPIs for individual agents and overall agent performance.
-
 ## Report details
 
-The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. KPIs for the dashboard are displayed as shown.
+The reports summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, agent conversation and timezone. The KPIs for the dashboard are displayed as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Agent report](media/agent-report-cs.png "Agent report dashboard")
+> ![Agent report dashboard](media/agent-report-cs.png "Agent report dashboard")
 
-This table displays the key performance indicators in the agent report. 
+The following table displays the key performance indicators in the agent report. 
 
 | KPI            | Description    |
 |----------------|----------------|
@@ -64,12 +62,12 @@ The agent dashboard has charts that have the following metrics.
 
 ## Agent drill down view
 
-The Agent drill down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training/coaching scenarios for agents. 
+The Agent drill down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training scenarios for agents. 
 
-To access the drill down, select any metric value for the desired agent and select **Details**.
+To access the drill down report, select any metric value for the required agent and then select **Details**.
 
 > [!div class="mx-imgBorder"]
-> ![Agent drill down view](media/agent-drill-down-view.png "Agent drill down view table")
+> ![Agent drill down view table](media/agent-drill-down-view.png "Agent drill down view table")
 
 
 ### See also

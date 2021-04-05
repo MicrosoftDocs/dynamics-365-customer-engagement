@@ -21,7 +21,7 @@ search.app:
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service and Omnichannel for Customer Service contain various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The Insights dashboards for Customer Service and contains various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
 Insights dashboards cover Customer Service, Omnichannel for Customer Service, and Knowledge Management. The Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel for Customer Service dashboards provide a view into the support operation across channels. For Knowledge managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
 
