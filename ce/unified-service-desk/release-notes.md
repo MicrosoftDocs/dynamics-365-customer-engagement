@@ -4,7 +4,7 @@ description: "Learn about the known issues and limitations in Unified Service De
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/06/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -14,10 +14,23 @@ search.app:
   - D365CE
   - D365USD
 ---
+::: moniker range="dynamics-usd-4.2"
 
-# Unified Service Desk known issues and limitations
+# Unified Service Desk 4.2 known issues and limitations
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+## Unified Service Desk encounters a non-fatal error
+
+While hosting web applications using the Edge WebView2 Process, Unified Service Desk crashes intermittently. However, the crash is non-fatal.
+<br>
+![Unified Service Desk fatal error](../media/unified-service-desk-fatal-error.PNG "Unified Service Desk fatal error")
+
+**Workaround**
+Select **No** to continue using Unified Service Desk, or select **Yes** to restart Unified Service Desk. 
+
+::: moniker-end
+
 
 ::: moniker range="dynamics-usd-4.1"
 
@@ -171,7 +184,7 @@ When you use **Chrome Process** to host applications in Unified Service Desk, if
 
 When you integrate a channel with Unified Service Desk by using Dynamics 365 Channel Integration Framework, and if that channel doesn't work on the Chromium browser (which is based on Chromium Embedded Framework), you might not have access to the microphone and webcam.
 
-### Preview: Edge Process
+### Edge Process
 
 #### Support for the CloseAndPrompt action in Edge Process
 

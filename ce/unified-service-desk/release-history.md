@@ -27,9 +27,9 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_2"></a>
 
-## Release history for Unified Service Desk 4.2, April 2021
+## Release history for Unified Service Desk 4.2, April 2021 (Preview)
 
-The list provides an overview of documentation updates made in Unified Service Desk 4.2
+The list provides an overview of documentation updates made in Unified Service Desk 4.2.
 
 > [!NOTE]
 > - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.2, instead of upgrading to version 4.2.
@@ -39,14 +39,16 @@ The list provides an overview of documentation updates made in Unified Service D
 | Topic | Updates |
 |---------------|-------------------|
 
-| [ChromeProcessDownloadPath](admin/manage-options-unified-service-desk.md) | Added a new UII option to set a default folder to download attachments while using Chrome Process webpages. <br><br> New option in [Manage options in Unified Service Desk](admin/manage-options-unified-service-desk.md). <br><br> More information: [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) |
-|[Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2) Added information about creating a hosted control with hosting type as Edge WebView2. |
-|[Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop) Added information about enabling/disabling Edge WebView2 on client desktops. |
-|[Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization) Added information about enabling Edge WebView2 for the entire organization using the Global UII option |
-
+|[Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2) Added information about creating a hosted control with hosting type as **Edge WebView2**. |
+|[Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop) Added information about enabling/disabling **Edge WebView2** on client desktops. |
+|[Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization) Added information about enabling **Edge WebView2** for the entire organization using the Global UII option |
 | [Edit a PDF in Edge WebView2 Process](edge-webview2-process.md#edit-a-pdf-in-edge-webview2-process) | Added information about editing PDFs. |
-| [Use Edge WebView2 Process to host web applications](edge-webview2-process.md) | Added information about upgrading Unified Service Desk support for Edge WebView2 Process. |
+| [Use Edge WebView2 Process to host web applications](edge-webview2-process.md#use-edge-webview2-process-to-host-web-applications) | Added information about upgrading Unified Service Desk support for **Edge WebView2** process. |
+| [Enable language support in Edge WebView2 Process](edge-webview2-process.md#enable-language-support-in-edge-webview2-process) | Added information about enabling language support. |
 
+::: moniker-end
+
+::: moniker range="dynamics-usd-4.1.1.1433"
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
@@ -55,6 +57,10 @@ This release supports the Dynamics 365 model-driven apps deployed in Switzerland
 > [!NOTE]
 > - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1433, instead of upgrading to version 4.1.1.1433.
 > - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1433.
+
+::: moniker-end
+
+::: moniker range="dynamics-usd-4.1.2"
 
 <a name="Release_4_1_2"></a>
 
@@ -81,6 +87,11 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Navigate](standard-web-application-hosted-control.md#navigate) | Added information about adding multiple headers. |
 | [Navigate](crm-page-hosted-control.md#navigate) | Added information about adding multiple headers. |
 
+::: moniker-end
+
+
+::: moniker range="dynamics-usd-4.1.1.1397"
+
 
 ## Release history for Unified Service Desk 4.1.1.1397, February 2020
 
@@ -100,6 +111,10 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Find](unified-interface-page-hosted-control.md#find) | Added new parameters for the Find event in the Unified Interface page hosted control. |
 | [CreateSession](global-manager-hosted-control.md#createsession) | Added new parameters for the CreateSession event in the global manager hosted control. |
 
+::: moniker-end
+
+::: moniker range="dynamics-usd-4.1.1."
+
 <a name="Release_4_1_1"></a>
 
 ## Release history for Unified Service Desk 4.1.1, July 2019
@@ -114,6 +129,9 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) | Added information about downloading file attachments in Chrome Process <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Learn the behavior differences in Chrome Process and IE Process](hosting-type-differences.md) | New topic about the behavior differences in IE Process and Chrome Process. <br><br> Topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md).  |
 
+::: moniker-end
+
+::: moniker range="dynamics-usd-4.1"
 
 <a name="Release_4_1"></a>
 

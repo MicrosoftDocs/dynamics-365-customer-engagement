@@ -25,7 +25,7 @@ monikerRange: '>= dynamics-usd-4.2'
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Edge WebView2 Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-By default, Edge WebView2 Process instance recovery is enabled.
+By default, **Edge WebView2** process instance recovery is enabled.
 
 ## When Unified Service Desk can help recover Edge WebView2 Process instances
 
@@ -36,27 +36,16 @@ By default, Edge WebView2 Process instance recovery is enabled.
 
 ## Recover an unresponsive Edge WebView2 Process instance
 
-When a hosted control that uses an Edge WebView2 Process browser control closes abruptly, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays the message **Edge WebView2 Process closed abruptly**.
+When a hosted control that uses an **Edge WebView2** process browser control closes abruptly, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays the message **Edge WebView2 Process closed abruptly**.
 
 
 To recover the closed instance (which may contain more than one webpage), select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL.
 
 
- In the above illustration, the **Customer Service Dashboard** application is hosted using the **Edge WebView2 Process**. The Edge WebView2 Process instance closed abruptly and selecting the **Reload** option loads tha **Customer Service Dashboard** application.
+ In the above illustration, the **Customer Service Dashboard** application is hosted using the **Edge WebView2** process. The Edge WebView2 process instance closed abruptly and selecting the **Reload** option loads the **Customer Service Dashboard** application.
 
 If you don't want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Edge WebView2 Process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Edge WebView2 Process webpage, contact your system administrator**.
 
-
-## Limitations
-
-### Unified Service Desk encounters a non-fatal error
-
-While hosting web applications using the Edge WebView2 Process, Unified Service Desk crashes intermittently. However, the crash is non-fatal.
-<br>
-![Unified Service Desk fatal error](../media/unified-service-desk-fatal-error.PNG "Unified Service Desk fatal error")
-
-**Workaround**
-Select **No** to continue using Unified Service Desk, or select **Yes** to restart Unified Service Desk. 
 
 ## See also
 

@@ -40,30 +40,33 @@ Also, administrators will be able to perform the following:
 
 ## Edge WebView2 Process settings
 
-You can set the **Edge WebView2 Process** on the hosted controls (existing hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge WebView2 Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2)
+You can set the **Edge WebView2** process on the hosted controls (existing hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge WebView2 Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2)
 
-If you want to set the **Edge WebView2 Process** to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **Edge WebView2**. More information: [Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop)
+If you want to set the **Edge WebView2** process to host the applications for an entire organization, then use the **GlobalBrowserMode** Global UII option and specify the value as **EdgeWebView2**. More information: [Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop)
 
-If you want to set the **Edge WebView2 Process** only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **Edge WebView2**. More information: [Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization)
-
-### Order of precedence
-
-- Setting the **GlobalBrowserMode** Global UII option value as **Edge WebView2**, takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have hosting type as **Chrome Process**. At the organization level, you set **GlobalBrowserMode** Global UII option value as **Edge WebView2**. In this scenario, the Global UII option takes precedence and configuration uses the **Edge WebView2 Process** to host the applications. 
-
-- Setting the **GlobalBrowser** mode key to **Edge WebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have hosting type as **Chrome Process**. For a few agents, in their client desktops, you have set **GlobalBrowser** mode key to **Edge WebView2** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file take precedence and configuration uses the **Edge WebView2 Process** to host the applications.
-
-Setting the **GlobalBrowser** mode key to **Edge WebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes the precedence over other settings.
+If you want to set the **Edge WebView2** process only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **EdgeWebView2**. More information: [Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization)
 
 ## Enable Edge WebView2 Process
 
-Enable the **Edge WebView2 Process** by doing one of the following ways:
+Enable the **Edge WebView2** process in any one of the following ways:
 
 - Create an individual hosted control with hosting type as Edge WebView2
 - Enable for individual client desktops
-- Enable for entire an organization
+- Enable for an entire organization
 
 > [!NOTE]
-> Enable the **Edge WebView2 Process** either for individual client desktops or for entire organization.
+> Enable the **Edge WebView2** process either for individual client desktops or for entire organization.
+
+
+### Order of precedence
+
+- Setting the **GlobalBrowserMode** Global UII option value as **EdgeWebView2**, takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have hosting type as **Chrome** process. At the organization level, you set **GlobalBrowserMode** Global UII option value as **EdgeWebView2**. In this scenario, the Global UII option takes precedence and configuration uses the **Edge WebView2** process to host the applications. 
+
+- Setting the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have hosting type as **Chrome** process. For a few agents, in their client desktops, you have set **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file. The value set in the **UnifiedServiceDesk.exe.config** file take precedence and configuration uses the **Edge WebView2** process to host the applications.
+
+- Setting the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop, takes precedence over other settings.
+
+
 
 ### Create a hosted control with hosting type as Edge WebView2
 
@@ -84,7 +87,7 @@ When you are creating a new hosted control, you can select **Edge WebView2 Proce
 
 ### Enable Edge WebView2 for Unified Service Desk on client desktop
 
-1. Go to directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
+1. Go to the directory where you have installed Unified Service Desk and double-click to open the **UnifiedServiceDesk.exe.config** file.
 Example path: `C:\Program Files\Microsoft Dynamics CRM USD\USD`
 r
 2. Under the `<appSettings>` section add the new key.<br>
@@ -227,7 +230,7 @@ Let us see what configurations you need to create for the above-mentioned scenar
 
 ## Sign out from sessions when using the Edge WebView2 Process
 
-To sign out from sessions when using the Edge WebView2 Process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the **Edge WebView2** process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL for the model-driven app is `url=/main.aspx?signout=1`.
 
 ## Enable the confirmation dialog box with Edge WebView2 Process
 
@@ -291,9 +294,9 @@ With Edge WebView2 Process, if you want to set the focus on a webpage automatica
 
 The Edge WebView2 Process supports the ability to edit a PDF file inline if the PDF has editable fields.
 
-## Check spelling on a webpage in Edge WebView2 Process
+## Enable language support in Edge WebView2 Process
 
-The Edge WebView2 Process supports the ability to check spelling on webpages within Unified Service Desk. To enable the spell checker, you must add the **EdgeWebView2Language** UII option.
+The **Edge WebView2** process supports the ability to switch languages on webpages within Unified Service Desk. To switch languages, you must add the **EdgeWebView2Language** UII option.
 
 **To add the EdgeWebView2Language UII option**
 
