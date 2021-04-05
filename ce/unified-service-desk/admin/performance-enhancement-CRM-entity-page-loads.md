@@ -21,11 +21,21 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-::: moniker range="<=dynamics-usd-4"
+::: moniker range=">=dynamics-usd-4.2"
 
-You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
+You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
+
+The pooling feature is available for the following processes:
+
+- IE Process
+
+- Chrome Process
+
+- Edge WebView2 Process
 
 ::: moniker-end
+
+
 
 ::: moniker range=">=dynamics-usd-4.1"
 
@@ -38,6 +48,13 @@ The pooling feature is available for the following processes:
 - Chrome Process
 
 ::: moniker-end
+
+::: moniker range="<=dynamics-usd-4"
+
+You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
+
+::: moniker-end
+
 
 ## Pool process instances for IE Process
 
