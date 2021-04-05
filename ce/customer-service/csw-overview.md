@@ -32,20 +32,9 @@ Before we begin, a quick note about administration of Customer Service workspace
 
 You can access Customer Service workspace through the app selector (where you find all of your other Dynamics 365 apps) by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
 
-<<<<<<< HEAD
 As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities. 
 
 The following table displays the elements of the Customer Service workspace.
-=======
-:::image type="content" source="media/appSelectorAndNavigation.png" alt-text="Open Customer Service workspace" border="false":::
-
-As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard by default. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working on new cases from the queues you are assigned to and create activities.
-
-Let's explore the elements of the Customer Service workspace and how to navigate between them.
-
-
-:::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
->>>>>>> 8b112148a6cd90e86e33928383f3326c7608a6a9
 
 
 | Label | Description|
@@ -62,11 +51,7 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 ## Navigate and view records
 
-<<<<<<< HEAD
-You need to be aware of the new navigation behaviors in Customer Service workspace. All other basic model-driven app functionality behaves the same way as it does in the Customer Service Hub and Omnichannel for Customer Service apps. 
-=======
 By default, you can use the following navigation options to open and view cases, accounts, and other details on the Customer Service Agent Dashboard:
->>>>>>> 8b112148a6cd90e86e33928383f3326c7608a6a9
 
 - Select Shift + mouse click to open a new session tab for the record you want to open. 
 - Selecting the record replaces your view with the form for the record you opened. 
