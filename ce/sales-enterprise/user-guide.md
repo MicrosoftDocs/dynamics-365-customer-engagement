@@ -2,11 +2,10 @@
 title: "Help resources for salespeople (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 Sales"
 ms.date: 04/22/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -36,7 +35,7 @@ Use links in this article to familiarize with Dynamics 365 Sales Enterprise.
 
 <h2>Keep track of your customers</h2>
 
-<li><a href="../basics/accounts-contacts.md" data-raw-source="[Work with accounts and contacts](../basics/accounts-contacts.md)">Work with accounts and contacts</a></li>
+<li><a href="/dynamics365/customerengagement/on-premises/basics/accounts-contacts" data-raw-source="[Work with accounts and contacts](../customerengagement/on-premises/basics/accounts-contacts.md)">Work with accounts and contacts</a></li>
 <li><a href="/powerapps/user/deactivate-activate-account-contact" data-raw-source="[Deactivate or activate an account or contact](/powerapps/user/deactivate-activate-account-contact)">Deactivate or activate an account or contact</a></li>
 <li><a href="/powerapps/user/add-activities" data-raw-source="[Add an appointment, email, phone call, note, or task activity to the timeline](/powerapps/user/add-activities)">Add an appointment, email, phone call, note, or task activity to the timeline</a></li>
 <li><a href="/powerapps/user/enhanced-email" data-raw-source="[Send email using the enhanced email experience](/powerapps/user/enhanced-email)">Send email using the enhanced email experience</a></li>
@@ -93,7 +92,7 @@ Use links in this article to familiarize with Dynamics 365 Sales Enterprise.
 <h2>Reports, calendar, and printing</h2>
 
 <li><a href="/powerapps/user/work-with-reports" data-raw-source="[Work with reports](/powerapps/user/work-with-reports)">Work with reports</a></li>
-<li><a href="../basics/workplace-calendar.md" data-raw-source="[Use the workplace calendar](../basics/workplace-calendar.md)">Use the workplace calendar</a></li>
+<li><a href="/dynamics365/customerengagement/on-premises/basics/workplace-calendar" data-raw-source="[Use the workplace calendar](../customerengagement/on-premises/basics/workplace-calendar.md)">Use the workplace calendar</a></li>
 <li><a href="print-records.md" data-raw-source="[Print quote, invoice, or other records](print-records.md)">Print quote, invoice, or other records</a></li>
 
 </td>
@@ -110,7 +109,7 @@ Use links in this article to familiarize with Dynamics 365 Sales Enterprise.
 <h2>Go mobile</h2>
 
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
-<li><a href="../mobile-app/dynamics-365-phones-tablets-users-guide.md" data-raw-source="[Dynamics 365 for Phones and Tablets User Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)">Dynamics 365 for Phones and Tablets User Guide</a></li>
+<li><a href="/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem" data-raw-source="[Dynamics 365 for Phones and Tablets User Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)">Dynamics 365 for Phones and Tablets User Guide</a></li>
 
 </td>
 <td>

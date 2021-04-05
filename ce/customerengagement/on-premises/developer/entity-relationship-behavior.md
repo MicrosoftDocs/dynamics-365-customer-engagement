@@ -84,7 +84,7 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
 <a name="BKMK_ParentalEntityRelationships"></a>   
 ## Parental entity relationships  
- Each pair of entities that are eligible to have a 1:N relationship can have multiple 1:N relationships between them. Yet only one of those relationships can be considered a *parental* entity relationship. See [Customizable parental entity relationships](https://technet.microsoft.com/library/dn531061.aspx) for a list of all the customizable parental entity relationships.  
+ Each pair of entities that are eligible to have a 1:N relationship can have multiple 1:N relationships between them. Yet only one of those relationships can be considered a *parental* entity relationship. See [Customizable parental entity relationships](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531061(v=crm.8)) for a list of all the customizable parental entity relationships.  
   
  A parental entity relationship is any 1:N entity relationship where one of the cascading options (defined in <xref:Microsoft.Xrm.Sdk.Metadata.CascadeType>) in the **Parental** column of the following table is true.  
   
@@ -153,7 +153,7 @@ The `CascadeConfiguration` (<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguratio
   
 ### See also  
  [One-To-Many Relationships](customize-entity-relationship-metadata.md#BKMK_OneToManyRelationships)  
- [Create and update entity relationships using Web API](webapi/create-update-entity-relationships-using-web-api.md)  
+ [Create and update entity relationships using Web API](/powerapps/developer/data-platform/webapi/create-update-entity-relationships-using-web-api)  
  [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
@@ -161,7 +161,7 @@ The `CascadeConfiguration` (<xref:Microsoft.Xrm.Sdk.Metadata.CascadeConfiguratio
  [Entity and Attribute Mappings](customize-entity-attribute-mappings.md)   
  [Support Multiple Languages with Labels](customize-labels-support-multiple-languages.md)   
  [Use record-based security to control access to records](security-dev/use-record-based-security-control-access-records.md)   
- [Sample: Create and retrieve entity relationships](org-service/sample-create-retrieve-entity-relationships.md)
+ [Sample: Create and retrieve entity relationships](/powerapps/developer/data-platform/org-service/metadata-relationshipmetadata)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

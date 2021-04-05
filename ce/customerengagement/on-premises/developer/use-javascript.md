@@ -64,7 +64,7 @@ search.audienceType:
    
 ## Write JavaScript for multiple browsers  
 
- Because you don’t know what browser will be in use, you should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Client API](clientapi/understand-clientapi-object-model.md), the changes required to support other browsers could be small.  
+ Because you don’t know what browser will be in use, you should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Client API](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model), the changes required to support other browsers could be small.  
   
  A cross-browser library like jQuery is a good solution for developing web resources but should not be necessary for form scripts or ribbon commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid using jQuery for form scripts](/powerapps/developer/model-driven-apps/clientapi/client-scripting-best-practices#avoid-using-jquery-for-form-scripts)   
  
@@ -117,7 +117,7 @@ search.audienceType:
  
 ### Do not access the DOM
 
- [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers are used to interacting with Document Object Model (DOM) elements in code. You might use the `window.getElementById` method or the jQuery library. You are free to use these techniques in your HTML web resources, but they are not supported to access elements in Dynamics 365 Customer Engagement (on-premises) application pages or entity forms. Instead, access to entity form elements are exposed through the [Client API object model](clientapi/understand-clientapi-object-model.md). The Dynamics 365 Customer Engagement (on-premises) development team reserves the right to change how pages are composed, including the `ID` values for elements, so using the [Client API object model](clientapi/understand-clientapi-object-model.md) protects your code from changes in how pages are implemented.  
+ [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers are used to interacting with Document Object Model (DOM) elements in code. You might use the `window.getElementById` method or the jQuery library. You are free to use these techniques in your HTML web resources, but they are not supported to access elements in Dynamics 365 Customer Engagement (on-premises) application pages or entity forms. Instead, access to entity form elements are exposed through the [Client API object model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model). The Dynamics 365 Customer Engagement (on-premises) development team reserves the right to change how pages are composed, including the `ID` values for elements, so using the [Client API object model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model) protects your code from changes in how pages are implemented.  
   
 <a name="bkmk_DefineUniqueNames"></a>
   
@@ -145,8 +145,8 @@ search.audienceType:
  [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)<br />
  [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)<br />
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
- <!--[Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />-->
- [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)<br />
+ <!--[Use the Web API with web resources](/powerapps/developer/model-driven-apps/clientapi/get-started-web-api-client-side-javascript)<br />-->
+ [Understand the Client API Object Model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model)<br />
  
 
 

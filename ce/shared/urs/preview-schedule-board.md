@@ -1,8 +1,8 @@
 In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
 
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board in Dynamics 365, showing resources and the map.](../../field-service/media/schedule-board-new-map9.png)
+> ![Screenshot of the new schedule board in Dynamics 365, showing the resources and requirements.](../../field-service/media/Schedule-Board-New-Overview-01.png)
+
 
 The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
 
@@ -11,8 +11,6 @@ The new schedule board is faster, with better usability, and it lays the foundat
 
 
 ### Performance
-
-
 
 The new schedule board is faster and more responsive when: 
 
@@ -79,16 +77,37 @@ Right-click a resource's name and then choose **View Resource Card** to see more
 Select the map icon in the upper right of the schedule board to display the resources and requirements on a map.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service schedule board, showing resources on the map.](../../field-service/media/schedule-board-new-map9.png)
+> ![Screenshot of the schedule board with map view.](../../field-service/media/Schedule-Board-New-Map-02.png)
 
 After expanding the map view, select a resource's name to see their route. The numbers indicate the order the resource is scheduled to arrive at each job (requirement) location.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service schedule board, showing a selected resource's route.](../../field-service/media/schedule-board-new-map3.png)
+> ![Screenshot of the schedule board showing the technician route.](../../field-service/media/Schedule-Board-New-Map-Technician-route-03.png)
+ 
+At a zoomed-out view of the map, the requirements and resources are grouped together, and you can see a count of requirements and resources. This count helps you quickly identify a geographical area with more unscheduled jobs, and then start scheduling the jobs to nearest resources. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board with the grouping of the requirement pins.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-cluster-04.png)
+
+You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board, showing how to drag the requirement pin.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drag-05.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board, showing the dropping of the requirement pin.](../../field-service/media/Schedule-Board-New-Map-requirement-pin-drop-06.png)
+
+You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board showing dragging of the resource route.](../../field-service/media/Schedule-Board-New-Map-tech-route-drag-07.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board showing dropping of the resource route.](../../field-service/media/Schedule-Board-New-Map-tech-route-drop-08.png)
 
 ## Daily view
 
-The new schedule board supports a daily view of scheduled jobs and supports dragging and dropping to the schedule.
+The new schedule board supports a daily view of scheduled jobs and supports dragging-and-dropping to the schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the daily schedule view on the new schedule board.](../../field-service/media/scheduling-new-daily-view-schedule1.png)
@@ -124,9 +143,20 @@ Selecting **Suggest resources** will display recommended resources in the right 
 Selecting **Book resources** will find the most optimal resources and book them without further actions from the dispatcher.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling assistance preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
+> ![Screenshot of the scheduling assistant preview showing suggestions.](../../field-service/media/schedule-board-new-rso-suggest.png)
 
 **Suggest resources** and **Book resource** capabilities on the new schedule board are currently only available for organizations using resource scheduling optimization.
+
+Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day - this functionality is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the optimize schedule for a resource.](../../field-service/media/Schedule-Board-optimizer-Sro-09.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the optimize schedule for a resource in progress.](../../field-service/media/Schedule-Board-optimizer-Sro-10.png)
+> 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the optimize schedule results.](../../field-service/media/Schedule-Board-optimizer-Sro-11.png)
 
 ## Move bookings to a new resource, a new start date and time, or both
 
@@ -141,7 +171,7 @@ Then reassign this booking to any resource on the current schedule board tab, or
 Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the move to option.](./Images/moveto-popup.png)
+> ![Screenshot of the move to option.](../../field-service/media/moveto-popup.png)
 
 ### Move a booking to a resource on a different schedule board tab, or change the start date or time, or both
 
@@ -150,7 +180,7 @@ Right-click on a booking and select **Move to**. Select the filter icon in the r
 Now you can reassign this booking to any resource on any tab, and change the start date and start time of the booking. Select **Update** to apply the changes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the move to with resource filter expanded option.](./Images/moveto-popup-filterexpanded.png)
+> ![Screenshot of the move to with resource filter expanded option.](../../field-service/media/moveto-popup-filterexpanded.png)
 
 ## Automatic scheduling with optimization goals
 
@@ -183,18 +213,18 @@ Use the following feature comparison table to understand which version of the sc
 | Feature   | Category   | New schedule board     | Old schedule board | Details   |
 | --------- | ---------- | ------ | ------ | ---- |
 | Manual scheduling     | Dispatcher | Yes   | Yes   | Dispatcher can manually select a resource and create a booking for an unscheduled requirement by interactions like dragging and dropping the requirements, selecting an open timeslot, and using booking panel.    |
-| Assisted scheduling           | Dispatcher | For existing resource scheduling optimization customers, it is available in 2020 release wave 2. For other customers, it will be available in 2021 release wave 1 | Yes         | Dispatcher can select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Dispatcher can choose a timeslot and create a booking.       |
-| Automated scheduling          | Dispatcher | For existing resource scheduling optimization customers, it is available in 2020 release wave 2. For other customers, it will be available in 2021 release wave 1 | No                 | The default capabilities of resource scheduling optimizer functionality are made available in the schedule board, enabling dispatchers to manage schedules from a requirement's or resources point of view with the organization's business goals applied automatically by the optimizer.                    |
+| Assisted scheduling           | Dispatcher | 2021 release wave 2 | Yes         | Dispatcher can select an unscheduled requirement on the requirement panel and select "Find Availability," which opens up the schedule assistant view, and shows the available timeslots for the available resources. Dispatcher can choose a timeslot and create a booking.       |
+| Automated scheduling          | Dispatcher | For existing resource scheduling optimization customers, public preview is available.  | No                 | The default capabilities of resource scheduling optimizer functionality are made available in the schedule board, enabling dispatchers to manage schedules from a requirement's or resources point of view with the organization's business goals applied automatically by the optimizer.                    |
 | Auto update travel time    | Dispatcher | Yes                  | Yes                |  When a booking is manually scheduled or rescheduled via drag-and-drop, the travel time from the resource's previous location is automatically calculated and displayed in the front of the booking. [See more details](https://docs.microsoft.com/dynamics365/field-service/schedule-with-travel-time#add-travel-time-with-manual-scheduling).         |
 | View modes - Hourly, daily    | Dispatcher | Yes                               | Yes                | Show the resources and their bookings on the hourly and daily views of the schedule board.          |
 | View modes - Weekly, monthly  | Dispatcher | Yes    | Yes        | Show the resources and their bookings on the weekly and monthly views of the schedule board.      |
 | View types - List view        | Dispatcher | Yes        | Yes                | List view is a simple view, in which bookings of the resources are shown as a simple list. This list view provides accessible view to the Users to browse and create Bookings                                               |
 | View types - Map view         | Dispatcher | Yes         | Yes                |        |
 | View types - Details view     | Dispatcher | 2021 release wave 2                        | Yes                | Details view is a configurable view, to show and add details of a resource, requirement, or a booking record.     |
-| Multi-resource scheduling     | Dispatcher | 2021 release wave 1         | Yes      | Requirement groups allow you to define groups of resources that would be appropriate for a job and to then schedule all those resources with a single search. With requirement groups, you can mix and match the different types of resources—such as individual field technicians, a whole crew, equipment, or facilities—needed for a job              |
-| Multi-day assisted scheduling | Dispatcher | 2021 release wave 1                   | Yes                | Work orders and scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40-hour work order across an entire work week where the field technician is expected to perform more detailed work at the same location each day.      |
+| Multi-resource scheduling     | Dispatcher | 2021 release wave 2         | Yes      | Requirement groups allow you to define groups of resources that would be appropriate for a job and to then schedule all those resources with a single search. With requirement groups, you can mix and match the different types of resources—such as individual field technicians, a whole crew, equipment, or facilities—needed for a job              |
+| Multi-day assisted scheduling | Dispatcher | 2021 release wave 2                   | Yes                | Work orders and scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40-hour work order across an entire work week where the field technician is expected to perform more detailed work at the same location each day.      |
 | Multi-day manual scheduling   | Dispatcher | Yes                    | Yes                | Work orders and scheduling requirements can be scheduled across multiple days and weeks. A common example is scheduling a 40-hour work order across an entire work week where the field technician is expected to perform more detailed work at the same location each day.       |
-| Pools and crews       | Dispatcher | 2021 release wave 1         | Yes                | Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time.<br>Resource crews allow dispatchers to search and schedule multiple resources at once. Crews can include a group of employees, subcontractors, equipment, facilities, or any combination thereof who will perform the same work during a period of time. Crews speed up and simplify the scheduling process and allow team members to work together more consistently.                               |
+| Pools and crews       | Dispatcher | 2021 release wave 2         | Yes                | Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time.<br>Resource crews allow dispatchers to search and schedule multiple resources at once. Crews can include a group of employees, subcontractors, equipment, facilities, or any combination thereof who will perform the same work during a period of time. Crews speed up and simplify the scheduling process and allow team members to work together more consistently.                               |
 | Configuration                 | Admin      | 2021 release wave 2       | Yes                | Admin can create new tabs on the schedule board and configure changes on the board, tab settings, and scheduler settings      |
 | Extensibility       | Admin      | 2021 release wave 2            | Yes                | Admin can extend the schedule board and use extensibility on some of features like<br>Custom Booking template (Hours) - HTML<br>Custom Booking alerts - HTML<br>Custom Resource Cell Template - HTML<br>Custom Filter Layout - Universal FetchXML<br>SB/SA Retrieve Resources Query - Universal FetchXML<br>SB/SA Retrieve Constraints query - Universal FetchXML<br>Custom Web resource support<br>Client Extensions (support for JavaScript, style sheets, and Localizations files)<br>Booking Rules (Support for custom business logic via JavaScript on the booking creation) |
  
@@ -244,3 +274,7 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 3. Save and publish the changes.
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
 5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
+
+### Support for drag-and-drop to create bookings on schedule board
+
+Drag-and-drop functionality to create bookings on the new schedule board is not supported in Firefox web browsers. This functionality will be supported in a future update. 

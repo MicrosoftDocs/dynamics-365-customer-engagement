@@ -21,7 +21,7 @@ The topic explains the recommended settings for Unified Service Desk.
 
 ## Set up Chrome Process with Unified Service Desk
 
-The Chrome Process is used to host web applications in the Unified Service Desk client application. More information: [Use Chrome Process to host web applications in Unified Service Desk](https://docs.microsoft.com/dynamics365/unified-service-desk/chrome-process)
+The Chrome Process is used to host web applications in the Unified Service Desk client application. More information: [Use Chrome Process to host web applications in Unified Service Desk](../chrome-process.md)
 
 ### See also
 

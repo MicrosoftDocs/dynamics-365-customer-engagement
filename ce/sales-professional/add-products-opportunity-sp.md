@@ -2,11 +2,10 @@
 title: "Add products an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Develop your opportunity by defining the products your customers are interested in purchasing."
 ms.date: 02/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -72,7 +71,6 @@ Here are the actions you can take on the products added to the **Product Line It
 
 [Create or edit opportunities](manage-opportunities-sales-professional.md)  
 [Develop sales from lead-to-cash process](develop-sales-lead-to-cash-sales-professional.md)   
-[Dynamics 365 Sales troubleshooting guide for administrators](../sales-enterprise/troubleshooting-admin.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

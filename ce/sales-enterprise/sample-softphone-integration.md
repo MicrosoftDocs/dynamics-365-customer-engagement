@@ -2,14 +2,13 @@
 title: "Integrate sample softphone with Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
 ms.date: 10/22/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Integrate a sample softphone with Dynamics 365 Sales
@@ -23,7 +22,7 @@ This topic describes how to install a *sample* app and test the calling capabili
 > [!IMPORTANT]
 > -  This sample code currently has limited availability.
 > -  The sample code for softphone integration with Dynamics 365 using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and might have limited or restricted functionality.
-> -  Microsoft doesn't provide support for this sample code. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
+> -  Microsoft doesn't provide support for this sample code. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to a separate [supplemental terms of use](../legal/supp-dynamics365-preview.md).
 
 ## Integrate and configure the sample softphone dialer
 
@@ -31,7 +30,7 @@ To configure the sample:
 
 1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. For information on prerequisites and how to get Dynamics 365 Channel Integration Framework, see [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md).
 
-2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590). To learn more about importing a solution, see [Import, update, and upgrade a solution](../customize/import-update-upgrade-solution.md)
+2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590). To learn more about importing a solution, see [Import, update, and upgrade a solution](../customerengagement/on-premises/customize/import-update-upgrade-solution.md)
 
 3. Integrate the sample app available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. To learn more about integrating a sample app, see [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
 

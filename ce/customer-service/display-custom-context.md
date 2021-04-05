@@ -1,8 +1,8 @@
 ---
 title: "Display custom context | Microsoft Docs"
 description: "Read how you can send display custom context on the UI"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/29/2019
 ms.topic: reference
