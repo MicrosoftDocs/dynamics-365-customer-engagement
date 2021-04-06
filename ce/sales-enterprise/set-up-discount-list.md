@@ -69,7 +69,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
  ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
   
 ### See also  
- [System Settings dialog box - Sales tab](../admin/system-settings-dialog-box-sales-tab.md)
+ [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

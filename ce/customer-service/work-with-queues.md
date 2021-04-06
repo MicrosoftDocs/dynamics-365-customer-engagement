@@ -13,7 +13,10 @@ manager: shujoshi
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
+The option for agents to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page)
+
 ## Find the queue item
+
 Use the view list and queue list to filter and find items in queues.
 
 1. Go to **Service** > **Queues**.
@@ -22,7 +25,6 @@ Use the view list and queue list to filter and find items in queues.
    ![Queues view list](media/queues_view_list.png "Customer Service Hub Queues View List") 
 
 3. From the **All items** drop-down, select the pin icon to pin the view that you want to appear on your dashboard.
-
 
 ## Find all items in queues
 

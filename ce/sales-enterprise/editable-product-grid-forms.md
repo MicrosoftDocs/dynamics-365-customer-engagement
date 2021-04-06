@@ -52,7 +52,7 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
 ### See also  
 
-[Make grids (lists) editable using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+[Make grids (lists) editable using the Editable Grid custom control](../customerengagement/on-premises/customize/make-grids-lists-editable-custom-control.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

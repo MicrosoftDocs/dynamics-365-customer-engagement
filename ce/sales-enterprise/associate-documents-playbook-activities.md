@@ -26,7 +26,7 @@ For example, create a playbook template that sales reps can follow when the deci
 
 ## Prerequisites
 
-So that you can add documents, make sure that document management for the playbook activity entity is enabled. Document Management must also be enabled for playbook activity and all the entities to which documents must be copied, that is, task, appointment, and phone call. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md).
+So that you can add documents, make sure that document management for the playbook activity entity is enabled. Document Management must also be enabled for playbook activity and all the entities to which documents must be copied, that is, task, appointment, and phone call. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](/power-platform/admin/enable-sharepoint-document-management-specific-entities), [Set up SharePoint integration](/power-platform/admin/set-up-sharepoint-integration).
 
 ## Add documents 
 
@@ -42,7 +42,7 @@ So that you can add documents, make sure that document management for the playbo
     > [!div class="mx-imgBorder"]  
     > ![Documents tab on the Playbook activity form](media/documents-tab-on-playbook-activity-form.png "Documents tab on the Playbook activity form")
 
-3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents](../basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
+3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents](../customerengagement/on-premises/basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
 
 
 > [!NOTE]

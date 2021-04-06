@@ -19,7 +19,7 @@ manager: kvivek
 
 
 
-For larger organizations, planning a deployment of [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], like any enterprise-wide software, is a significant task. This guide is written for the team of people responsible for planning a deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and provides information that is needed to design a successful implementation. In smaller organizations, several roles may be filled by one person. In larger organizations, each role may be divided among several people. These roles include the following:  
+For larger organizations, planning a deployment of [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], like any enterprise-wide software, is a significant task. This guide is written for the team of people responsible for planning a deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and provides information that is needed to design a successful implementation. In smaller organizations, several roles may be filled by one person. In larger organizations, each role may be divided among several people. These roles include the following:  
   
 -   **Business managers.** Responsible for determining how your business will use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. This includes mapping your processes to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], deciding on default values, and identifying any required customizations.  
   

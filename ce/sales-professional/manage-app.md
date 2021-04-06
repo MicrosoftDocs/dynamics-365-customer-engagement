@@ -32,7 +32,7 @@ The Dynamics 365 Sales Professional application is a modular app built to provid
 
     ![Sales Professional app in the App Designer](media/app-designer-sales-professional.png "Sales Professional app in the App Designer")
  
-You can now edit the app using the app designer. To learn about how to use the app designer to edit the app module: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md).
+You can now edit the app using the app designer. To learn about how to use the app designer to edit the app module: [Design custom business apps by using the app designer](../customerengagement/on-premises/customize/design-custom-business-apps-using-app-designer.md).
 
 
 

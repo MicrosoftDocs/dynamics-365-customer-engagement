@@ -11,9 +11,11 @@ ms.service: dynamics-365-customerservice
 
 # Modify case resolution dialog box
 
-Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This new functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
+Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
 
-The new main form dialog experience is similar to the old experience, but behind the scenes, this is a form that customers can quickly edit. Customers can go to the form designer and edit and modify fields according to their business needs.
+Customers can go to the form designer and edit and modify fields according to their business needs.
+
+The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
 Use the following steps to get started:
 
