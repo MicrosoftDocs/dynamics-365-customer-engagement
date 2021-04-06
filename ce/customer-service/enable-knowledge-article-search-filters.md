@@ -114,24 +114,3 @@ You may have scenarios within your organization where agents are working on diff
 3. Customize the filter according to your needs by selecting or deselecting the values displayed and then toggling the **Set as a preselected filter** option if you want the filter shown to the agent by default.
 4. Select **Save**.
 
-## Set a default knowledge article authoring language for your organization
-
-There may be times when your agents prefer to author knowledge articles in a language other than the language that is set for your organization. You can set a language for your organization, but then also give agents the ability to personalize it to their own choice. Agents can also change the language for different articles. Review the hierarchy as described in the table below.
-
-|Hierarchy |Personalization preference |Configurations allowed |
-|-------------------|-------------------|--------------|
-|Admin        |Language preference at the organization level   |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>   |
-|Knowledge managers        |Language preference at the individual author level     |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>    |
-|Agent         |Language preference at the individual knowledge base level      |Override administrative settings and choose a language-locale combination from the lookup</li>   |
-
-The ability to override follows the hierarchy order of agent, then knowledge manager, then administrator.
-
-1.	Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
- 
-2.	Under the **Knowledge Base Management** section, select **Settings**.
-3.	On the **Settings** page, scroll down to **Knowledge articles authoring language**, and then select **Yes** for **Set default knowledge authoring language for your users**.
-4.	If you set Use organization’s UI language to **No**, you can select the language you want to use by searching or pressing **Enter** to browse in the **Select a language search field**.
-5.	Select whether to allow your users to set their own default authoring language.
-6.	Select **Save**.
-
-
