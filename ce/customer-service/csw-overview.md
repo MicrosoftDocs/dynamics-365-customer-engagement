@@ -32,14 +32,9 @@ Before we begin, a quick note about administration of Customer Service workspace
 
 You can access Customer Service workspace through the app selector (where you find all of your other Dynamics 365 apps) by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
 
-:::image type="content" source="media/appSelectorAndNavigation.png" alt-text="Open Customer Service workspace" border="false":::
+As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities. 
 
-As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard by default. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working on new cases from the queues you are assigned to and create activities.
-
-Let's explore the elements of the Customer Service workspace and how to navigate between them.
-
-
-:::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
+The following table displays the elements of the Customer Service workspace.
 
 
 | Label | Description|
@@ -58,9 +53,9 @@ Let's explore the elements of the Customer Service workspace and how to navigate
 
 By default, you can use the following navigation options to open and view cases, accounts, and other details on the Customer Service Agent Dashboard:
 
-- Select Shift + mouse click to open a new session tab for the record you want to open.
-- Selecting the record replaces your view with the form for the record you opened.
-- Select the back arrow in the upper-left corner of the form to get back to your previous view.
+- Select Shift + mouse click to open a new session tab for the record you want to open. 
+- Selecting the record replaces your view with the form for the record you opened. 
+- Select the back arrow in the upper-left corner of the form to get back to your previous view. 
 - Select Ctrl + mouse click to open items in a new tab. 
 
 However, the administrator can configure settings that allow for simpler navigation options that doesn't require agents to use complex keyboard selections. Perform the steps in the Simplify navigation in Customer Service workspace section to enable the settings. 
@@ -197,8 +192,6 @@ class OCAppUtility extends AppModuleUtility {
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can perform the following actions.
 
-:::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace bulk edit case" border="false":::
-
 |Label | Description|
 |------------ | -------------|
 | 1 | Select multiple cases to work with. Select the top check mark to select all cases, or select individual check boxes next to each case to select a specific group of cases.
@@ -215,8 +208,6 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 Let's explore the fields you can edit on the **Case Summary** tab:
 
-:::image type="content" source="media/CaseSummary.png" alt-text="Customer Service workspace Case Summary" border="false":::
-
 | Label | Description |
 | ------------ | ------------- |
 | 1 | In Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.
@@ -225,8 +216,6 @@ Let's explore the fields you can edit on the **Case Summary** tab:
 |||
 
 Let's explore the fields you can edit on the **Case Additional Details** tab:
-
-:::image type="content" source="media/CaseAddtlDetails.png" alt-text="Customer Service workspace Case Additional Details" border="false":::
 
 | Label | Description |
 | ------------ | ------------- |
@@ -242,8 +231,6 @@ Let's explore the fields you can edit on the **Case Additional Details** tab:
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can:
 
-:::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace bulk edit activities" border="false":::
-
 | Label | Description|
 ------------ | -------------
 | 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.
@@ -255,9 +242,6 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 ### Create and search knowledge articles
 
 From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge articles:
-
-:::image type="content" source="media/knowledge-csw.png" alt-text="Customer Service workspace knowledge" border="false":::
-
 
 |Label | Description|
 |------------ | -------------|
@@ -274,15 +258,11 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 1. Select the plus sign (+) to expand the tab menu.
 2. Select Email Templates or Email Signatures.
 
-:::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
-
 ### Productivity pane with Smart Assist
 
 While you are working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros. 
 
 For more information, see [Productivity pane](csw-productivity-pane.md).
-
-:::image type="content" source="media/productivity-pane-overview.png" alt-text="Productivity pane with Smart Assist" border="false":::
 
 ### See also
 

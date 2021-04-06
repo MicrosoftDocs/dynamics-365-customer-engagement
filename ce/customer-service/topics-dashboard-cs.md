@@ -5,7 +5,7 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/02/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -19,21 +19,15 @@ search.app:
   - D365CS
 ---
 
-# Preview: Topics dashboard
+# Topics dashboard
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases to help you better understand how different case types and topic areas are impacting your organization’s support performance.
 
 ![Topics dashboard](media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
-To view the Topics dashboard, navigate to customer service historical analytics and select **Topics** at the top of the workspace. 
+To view the Topics dashboard, go to customer service historical analytics and select **Topics** at the top of the workspace. 
 
 ## Key insights card
 
@@ -49,7 +43,7 @@ The Key insights discovered card has three areas:
 
 The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
-KPIs for the following areas are displayed:
+The topics dashboard report has the following KPIs.
 
 | KPI     | Description     |
 |------------|--------------|
@@ -57,7 +51,7 @@ KPIs for the following areas are displayed:
 | Active cases  |  The number of cases that are currently opened.      |
 | Escalated cases   | The percentage of cases that have been escalated.     |
 | Average handle time   | The average time taken by an agent to resolve the case.   |
-| Average CSAT     | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
+| Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
 | Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
 
@@ -73,7 +67,28 @@ The topic metrics chart has the following metrics displayed:
 | Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
 | Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
+### Case topics drill down view
+
+The case topics drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
+
+To access the case topics drill down, select any metric value for the required topic and select **Details**.
+
+> [!div class="mx-imgBorder"] 
+> ![Case topics drill down view](media/case-topics-drill-down-view.png "Case topics drill view")
+
+### Automation of case topics for Power Virtual Agents bots
+
+AI-discovered topics in Customer Service historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents bot is available in the region in which your Customer Service organization is located, the feature can be enabled by the administrator for use. 
+
+After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power Virtual Agents** icon on the **Topic metrics** grid or select **Details** and then select **Automate to bot** within the drill down view. This will launch the topic editing form.  
+
+The suggested trigger phases as well as the topic based on the case title is provided. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, selecting **Create Bot** will redirect to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added.
+
+> [!NOTE]
+> Any bots created through the Microsoft Teams channel will not be listed in the bot selection list. Users who create bots by using the drill down page for a topic in Customer Service workspace will be redirected to Customer Service Hub for form completion. 
+
 ### See also
+
 - [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
 - [Summary dashboard](summary-dashboard-cs.md) <br>
 - [Agent dashboard](agent-dashboard-cs.md) 
