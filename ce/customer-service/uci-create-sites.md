@@ -22,6 +22,8 @@ search.app:
 
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 
+You can also create a site in Dynamics 365 Customer Engagement (on-premises) 9.1 also. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#support-for-site-entity-in-unified-interface)
+
 ## Create a site
 
 Before you begin, make sure you have the System Administrator or System Customizer security role or equivalent permissions.
