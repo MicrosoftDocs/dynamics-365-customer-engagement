@@ -129,9 +129,11 @@
 ### Administrator experience
 #### [Set up knowledge search providers](set-up-search-providers.md)
 #### [Work with knowledge articles](work-knowledge-articles.md)
+#### [Configure the knowledge article authoring language](set-knowledge-article-authoring-language.md)
 #### [Create a knowledge article using a template](create-knowledge-article-using-template.md)
 #### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
 #### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Configure knowledge article search filters](enable-knowledge-article-search-filters.md) 
 #### [Create and manage knowledge categories](create-manage-categories.md)
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
 #### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)

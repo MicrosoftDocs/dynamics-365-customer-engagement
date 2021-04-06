@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/12/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -84,6 +84,18 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
+## Personalize your language preferences for authoring knowledge articles
+
+If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
+
+1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
+2. Do one of the following:
+   - Select the **Authoring** tab, and then toggle Use organization’s language to **No**.
+   - From the drop-down list, select your preferred language.
+3. Select **Save**.
+   When you create a new knowledge article, the default language you selected is used.
+4. If you need to change the language for a specific article only, select the **Summary** tab, and then select your preferred language in the **Language** field.
+5. Select **Save**.
 
 ## Create knowledge articles using templates
 
