@@ -7,10 +7,6 @@ manager: "shujoshi"
 ms.date: 03/15/2021
 ms.topic: "reference"
 ms.service: "crm-online"
-ms.topic: "reference"
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
