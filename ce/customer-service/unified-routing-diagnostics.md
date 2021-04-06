@@ -42,7 +42,6 @@ Sign in to Omnichannel admin centre.
 
 You will now be able to see a list of work items on your screen.
 
-< screenshot to be added here>
 
 ## Understand routing stages and diagnostics
 
