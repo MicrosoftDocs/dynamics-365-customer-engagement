@@ -153,7 +153,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
 
   > [!NOTE]
-  > The time for failure and warning is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
+  > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
 
 8. Select **Save**.
 
