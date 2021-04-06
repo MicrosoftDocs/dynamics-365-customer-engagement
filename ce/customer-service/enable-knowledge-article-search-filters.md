@@ -123,6 +123,7 @@ There may be times when your agents prefer to author knowledge articles in a lan
 |Admin        |Language preference at the organization level   |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>   |
 |Knowledge managers        |Language preference at the individual author level     |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>    |
 |Agent         |Language preference at the individual knowledge base level      |Override administrative settings and choose a language-locale combination from the lookup</li>   |
+
 The ability to override follows the hierarchy order of agent, then knowledge manager, then administrator.
 
 1.	Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
