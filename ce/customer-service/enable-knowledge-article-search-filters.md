@@ -134,39 +134,4 @@ The ability to override follows the hierarchy order of agent, then knowledge man
 5.	Select whether to allow your users to set their own default authoring language.
 6.	Select **Save**.
 
-## Personalize your knowledge search article filters
 
-If your administrator has configured knowledge filter personalization settings, as an agent, you can select the filters you want to use.
-
-Agents can do the following:
-- Set preselects
-- Activate or deactivate a filter 
-
-1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
-2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
-3. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
-4. When you are finished making your selections, select **Done** > **Save**.
-5. If you want to deactivate a filter, select the ellipsis in the top-right corner for the filter you want to stop using, and then select **Deactivate**.
-6. Select **Done** > **Save**.
-7. When you are ready to reactivate the filter, select the ellipsis again, and then select **Activate**.
-   All of the previous configurations will be reinstated. 
-
-
-## Personalize your language preferences for authoring knowledge articles
-
-If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
-
-1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
-2. Do one of the following:
-   - Select the **Authoring** tab, and then toggle Use organization’s language to **No**.
-   - From the drop-down list, select your preferred language.
-3. Select **Save**.
-   When you create a new knowledge article, the default language you selected is used.
-4. If you need to change the language for a specific article only, select the **Summary** tab, and then select your preferred language in the **Language** field.
-5. Select **Save**.
-
-
-
-
-
-   
