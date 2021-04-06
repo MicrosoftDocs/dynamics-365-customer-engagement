@@ -5,20 +5,12 @@ author: lalexms
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Preview: Configure Knowledge search insights for Dynamics 365 Customer Service
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+# Configure Knowledge search insights for Dynamics 365 Customer Service
 
 The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
@@ -33,26 +25,23 @@ To enable the Knowledge search analytics dashboard:
 
 2. In the **Change area**, select **Service Management**.
 
-3. Under **Analytics and Insights**, select **Settings**. The **Analytics and insights settings** page is displayed.
+3. Go to **Insights** and select **Settings**. The **Insights settings** page is displayed.
 
     > [!div class=ms-imgBorder]
     > ![Enable knowledge search analytics](media/cs-enable-analyticsinsights.png "Enable knowledge search analytics")
 
-4. On the right side of **Knowledge search analytics (preview)**, select **Manage**.
+4. Navigate to **Knowledge search** and select **Manage**.
 
-5. On the **Knowledge search analytics (preview)** page, toggle **Status** to **Enabled**.
-
-    > [!div class=ms-imgBorder]
-    > ![Knowledge search analytics enabled](media/knowledge-search-enabled.png "Knowledge search analytics enabled")
+5. On the **Knowledge search analytics** page, set the **Status** toggle to **Enabled**.
 
 6. Select **Save** or **Save & Close**.
 
 
-### View Customer Service knowledge search analytics (preview) reports
+### View Customer Service knowledge search analytics reports
 
 The service managers must have the admin or service manager role to view the reports. Users with the CSR Manager role will be able to view the reports only after the reports are shared with them.
 
-You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Knowledge search analytics (preview)** page. Search term insights are displayed.
+You can see the following reports by navigating to the **Service** > **Insights** > **Knowledge search analytics** page. Search term insights are displayed.
 
 > [!NOTE]
 >

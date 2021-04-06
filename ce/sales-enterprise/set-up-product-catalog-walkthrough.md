@@ -3,15 +3,14 @@ title: "Set up a product catalog  Walkthrough (Dynamics 365 Sales) | MicrosoftDo
 description: "Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 Sales."
 ms.date: 02/10/2021
 ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
-author: lavanyakr01
-ms.author: lavanyakr
+author: shubhadaj
+ms.author: shujoshi
 manager: annbe
-ms.custom: 
-  - dyn365-sales
 ---
 
-# Set up a product catalog (Sales Hub)
+# Set up a product catalog 
 
 Make it easier for your sales reps to increase their sales by creating a product catalog. The product catalog is a collection of products and their pricing information. To set up pricing, you need to define the units in which your products are sold, the amount to charge for each unit, and the discounts you want to offer based on volume purchased.  
 

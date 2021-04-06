@@ -1,10 +1,10 @@
 ---
 title: "Allow updates to resolved and canceled cases | Microsoft Docs"
-description: "Allow resolved and canceled cases to be updated through Power Automate flows"
+description: "Allow resolved and canceled cases to be updated through Power Automate flows, API"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-Based on your business requirements, you might need to update case descriptions or other information after the cases have been resolved or canceled. For example, for General Data Protection Regulation compliance, you want to remove certain data from your case records. You can't update any details for cases if the status is resolved or canceled. However, you can update such case information by configuring and running flows in Power Automate or an API without having the need to reopen the case records.
+Based on your business requirements, you might need to update case descriptions or other information after the cases have been resolved or canceled. For example, for General Data Protection Regulation compliance, you want to remove certain data from your case records. You can't update any details for cases if the status is resolved or canceled. However, you can update such case information by configuring and running flows in Power Automate or an API without having to reopen the case records in the UI.
 
 > [!NOTE]
 > The option to update cases in resolved or canceled state is the default behavior.
