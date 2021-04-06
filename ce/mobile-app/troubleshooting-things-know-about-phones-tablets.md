@@ -48,6 +48,13 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > [!div class="mx-imgBorder"]
    > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item](media/sessionid-login-step.jpg)
 
+## Error: in iOS 14, Canvas embedding, Power BI dashboards or iFrames relying on cookies do not work
+
+Please go to the iOS settings page related to the mobile application, and enable "Allow Cross-Website Tracking"
+
+   > [!div class="mx-imgBorder"]
+   > ![Settings page, "Allow Cross-Website Tracking" is the sixth item](media/allow_cross_site_cookies_option.png)
+
 ## Error: Contact your administrator for access to your organizations mobile apps
 
 When using the Dynamics 365 mobile app, you encounter the following message: **Contact your administrator for access to your organizations mobile apps**. 
