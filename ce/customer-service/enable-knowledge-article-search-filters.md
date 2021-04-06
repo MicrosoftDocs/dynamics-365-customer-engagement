@@ -35,7 +35,7 @@ You can set up the customization of knowledge article search filters by first en
 
 1. Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
 2. Under the **Knowledge Base Management** section, select **Settings**.
-3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then select **Yes** for **Enable search filters**.
+3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then select **Yes** for **Enable custom filters**.
    
     > [!div class=mx-imgBorder]
     > ![Enable search filters](media/enable-search-filters.png "Enable search filters.")
