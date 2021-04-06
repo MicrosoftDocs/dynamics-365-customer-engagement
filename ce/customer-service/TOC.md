@@ -40,8 +40,8 @@
 ### [Configure Customer Service](configure-cs.md)
 ### [Customer Service admin center](oc-admin-center.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
-### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
+### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Omnichannel for Customer Service](introduction-omnichannel.md)
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
@@ -63,9 +63,9 @@
 ### Administrator experience
 #### [Create workstreams](create-workstreams.md)
 #### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
-#### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
+#### [Create multiple workstreams for entity records](multiple-ws-entity-record-routing.md)
 #### [Set up routing and assignment rules in Omnichannel Administration](routing-rules.md)
-#### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
+#### [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
 #### [Set up record routing](set-up-record-routing.md)
 ##### [Enable entities for routing](entity-channel.md)

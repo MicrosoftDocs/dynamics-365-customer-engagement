@@ -19,7 +19,7 @@ You can configure a live chat widget that can be displayed on your portal for cu
 
 Perform the following steps to configure chat in Omnichannel admin center:
 
-1. In the Omnichannel admin center site map, select **Workstreams**.
+1. In the site map of Omnichannel admin center, select **Workstreams**.
 2. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
 3. On the workstream page, select **Set up chat**.
 4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** boxes respectively.
