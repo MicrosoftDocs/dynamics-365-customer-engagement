@@ -73,7 +73,7 @@ The following steps apply to these data types:
     > [!div class=mx-imgBorder]
     > ![Add a default filter](media/default-filter-config.png "Add a default filter.")
     
-3. Customize the filter according to your needs by selecting or deselecting the values displayed and then toggling the **Set as a preselected filter** option if you want the filter shown to the agent by default.
+3. Customize the filter according to your needs by selecting or deselecting the values displayed and then toggling the **Set as a preselected filter** option if you want the filter to be shown to the agent by default.
 4. Select **Save**.
 
 ## Configure fields with data type as lookup as filters
