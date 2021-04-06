@@ -26,7 +26,7 @@ When you enable a post-conversation survey for a channel, the survey will appear
 
 The post-conversation works as follows:
 
-1. Create a survey
+1. Create a survey in Dynamics 365 Customer Voice
 2. Configure a survey
 3. Experience the runtime behavior
 
@@ -46,9 +46,9 @@ For a Live chat channel only, you can configure the survey link or survey questi
 
 ## Prerequisite
 
-The post-conversation survey uses Dynamics 365 Customer Voice to create surveys. Make sure that you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2135108)
+The post-conversation survey uses Dynamics 365 Customer Voice to create surveys. Make sure that you have access to create surveys in Dynamics 365 Customer Voice in the same org as Omnichannel for Customer Service, and you've created the required survey. The survey that you create will be listed as an option to choose for linking to the conversation. More information: [Create surveys with Dynamics 365 Customer Voice](/dynamics365/customer-voice/create-survey)
 
-## Configure a post-conversation survey
+## Configure the post-conversation survey
 
 In the Omnichannel admin center or Omnichannel Administration app, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
 
