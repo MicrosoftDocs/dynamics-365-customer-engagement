@@ -38,31 +38,6 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
 
-### Preview: Sentiment drivers reporting
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-> [!NOTE]
-> In the preview mode, this feature is not available for Government Community Cloud (GCC).
-
-#### Prerequisite task
-
-In the customization settings of Dynamics 365, enable change tracking for the **Conversation Sentiment** entity.
-
-![Enable change tracking](media/change-tracking-sentiment-drivers.png "Enable change tracking")
-
-#### Enable sentiment drivers reporting
-
-After you opt in for real-time sentiment analysis, you can enable sentiment drivers reporting to gain a better understanding of the topics that are affecting customer sentiment.
-
-1. In the **Sentiment analysis** section, set the **Sentiment drivers reporting** toggle to **Yes**.
-2. Select **Save**.
-
-  > [!div class=mx-imgBorder]
-  > ![Enable sentiment drivers reporting](media/sentiment-drivers-reporting.png "Enable sentiment drivers reporting")
-
-> [!IMPORTANT]
-> For this feature to work, a minimum of 10 chat conversations per organization are required.
 
 ## Agent settings
 
