@@ -4,7 +4,7 @@ description: "Instructions to create chat authentication settings in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/03/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -27,7 +27,7 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
 
 ## Create a chat authentication setting record
 
-1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage** for **Authentication settings** Omnichannel Administration. If you're using the Omnichannel Administration app, go to **Authentication Settings** under **Settings**.
+1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage** for **Authentication settings**. If you're using the Omnichannel Administration app, go to **Authentication Settings** under **Settings**.
 
     A list of existing authentication settings is shown.
 
@@ -80,7 +80,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 2. Create an endpoint that will return your public keys. The public keys will be used by the Omnichannel servers to validate the JWT token passed as a part of authorizing the chat request. The URL of this endpoint will be entered into the Omnichannel Administration app when creating an Authentication setting record.  
 
     Your public key endpoint will look similar to this example:
-```
+
         -----BEGIN PUBLIC KEY----- 
         NIIBIjANBgkqhkiG9w0BAQEFABCOPQ8AMIIBCgKCAQEAn+BjbrY5yhSpLjcV3seP 
         mNvAvtQ/zLwkjCbpc8c0xVUOzEdH8tq4fPi/X5P/Uf2CJomWjdOf1wffmOZjFasx 
@@ -90,9 +90,9 @@ If you are adding an authenticated chat experience to a custom website, your web
         7M6ZL4vsDevq7E/v3tf6qxpSSHzt4XspXVQty9QHhqDqBEY3PfI4L2JjgIGuPhfS 
         YQIDAQAB 
         -----END PUBLIC KEY-----   
-```        
+        
     If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
-    ```    
+        
         [
         { 
           "kid": "aYO4EaKT1xYU9JCoqALz6YURr41BqL0Hqp4in6hu4=", 
@@ -103,7 +103,7 @@ If you are adding an authenticated chat experience to a custom website, your web
           "publicKey": "YJ0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tPO0NCk1JSUJJakFOQmdrcBhraUc5dzBCQVFFRkFBT0KBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnABCDEFmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNHJKEFNjFOa3JKa2c0aStheThwS2ZqdjBEHUF3NWdaVHFweCCaaitERWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tQM0NCg==" 
         } 
         ] 
-```
+
         
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
@@ -172,7 +172,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 
     - Be signed by the private key from the key pair in step 1. 
 
-      We recommend that you generate your JWT on your web server. 
+      We recommend generating your JWT on your web server. 
 
       The name of this javascript method will be used to create the Authentication settings record in the Omnichannel Administration app. 
 
@@ -195,6 +195,7 @@ If you are adding an authenticated chat experience to a custom website, your web
           xhttp.send(); 
         } 
         ```
+
 
 5. Your developer will need to share the following information with your Omnichannel administrator: 
 
