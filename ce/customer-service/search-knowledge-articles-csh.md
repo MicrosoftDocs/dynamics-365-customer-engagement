@@ -4,7 +4,7 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/12/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -230,7 +230,13 @@ If your administrator has configured knowledge filter personalization settings, 
 
 Agents can do the following:
 - Set preselects
-- Activate or deactivate a filter 
+- Activate or deactivate a filter
+
+Only the filters that your administrator has configured are viewable. If the administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message will be displayed that says, "No filters have been configured. Contact your administrator."
+
+Any personalization you make to your filter selections will also be applicable to the form-based knowledge control and standalone knowledge base search page.
+
+If agent deactivates a filter, then agents will see that filter as deactivated with message indicating the deactivation. Agents won't see the filters on the knowledge control. When the filter is activated again, the filter configuration will remain as it was previously configured.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
