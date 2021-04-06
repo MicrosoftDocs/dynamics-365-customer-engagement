@@ -92,7 +92,7 @@ This action sends the data raised from the client-side event to the hosted contr
 |Parameter|Description|  
 |---------------|-----------------|  
 |event| The client-side events from where you want to raise the data. |
-|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[OnClickToAct](unified-interface-page-hosted-control.md#onclicktoact)</li> <li>[SendKbArticleEvent](unified-interface-page-hosted-control.md#onsendkbarticle)</li>  <li> [onpagenavigate event (CIF JavaScript API reference)](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/reference/events/onpagenavigate) </li></ul>|
+|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[OnClickToAct](unified-interface-page-hosted-control.md#onclicktoact)</li> <li>[SendKbArticleEvent](unified-interface-page-hosted-control.md#onsendkbarticle)</li>  <li> [onpagenavigate event (CIF JavaScript API reference)](../customer-service/channel-integration-framework/reference/events/onpagenavigate.md) </li></ul>|
 
 ### UpdateCifContext
 
@@ -118,7 +118,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 | data | String defining the attributes and values for the new entity record. |
 | corrId | The unique identifier for the raised **CreateRecord** event. |
 
-To learn more, see [createRecord (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/createrecord)
+To learn more, see [createRecord (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/createrecord.md)
 
 ### RetrieveRecord
 
@@ -131,7 +131,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 | corrId | The unique identifier for the raised **RetrieveRecord** event. |
 | options | OData system query options, **$select** and **$expand**, to retrieve your data.<br> <ul> <li>Use the **$select** system query option to limit the properties returned by including a comma-separated list of property names. This is an important performance best practice. If properties aren’t specified using **$select**, all properties will be returned.</li> <li>Use the <b>$expand</b> system query option to control what data from related entities is returned. If you just include the name of the navigation property, you’ll receive all the properties for related records. You can limit the properties returned for related records using the **$select** system query option in parentheses after the navigation property name. Use this for both *single-valued* and *collection-valued* navigation properties.</li> </ul> <br>You specify the query options starting with `?`. You can also specify multiple query options by using `&` to separate the query options. For example:<br>`?$select=name&amp;$expand=primarycontactid($select=contactid,fullname)` |
 
-To learn more, see [retrieveRecord (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/retrieverecord)
+To learn more, see [retrieveRecord (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/retrieverecord.md)
 
 ### UpdateRecord
 
@@ -144,7 +144,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 | data | String containing `key: value` pairs, where `key` is the property of the entity and `value` is the value of the property you want to update. |
 | corrId | The unique identifier for the raised **UpdateRecord** event. |
 
-To learn more, see [updateRecord (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/updaterecord)
+To learn more, see [updateRecord (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/updaterecord.md)
 
 ### DeleteRecord
 
@@ -157,7 +157,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 | entityId | GUID of the entity record you want to delete. |
 | corrId | The unique identifier for the raised **DeleteRecord** event. |
 
-To learn more, see [deleteRecord (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/deleterecord)
+To learn more, see [deleteRecord (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/deleterecord.md)
 
 ### GetEntityMetadata
 
@@ -169,7 +169,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 | attributes | The attributes for which you want to get metadata. |
 | corrId | The unique identifier for the raised **GetEntityMetadata** event. |
 
-To learn more, see [getEntityMetadata (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/getentitymetadata)
+To learn more, see [getEntityMetadata (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/getentitymetadata.md)
 
 ### GetEnvironment
 
@@ -177,7 +177,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 
 There are no parameters for this event.
 
-To see learn more, see [getEnvironment (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/getenvironment)
+To see learn more, see [getEnvironment (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/getenvironment.md)
 
 ### OpenForm
 
@@ -189,7 +189,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 | entityFormParameters | A dictionary object that passes extra parameters to the form. Invalid parameters will cause an error.<br><br>For information about passing parameters to a form, see [Set field values using parameters passed to a form](/dynamics365/customer-engagement/developer/set-field-values-using-parameters-passed-form) and [Configure a form to accept custom querystring parameters](/dynamics365/customer-engagement/developer/configure-form-accept-custom-querystring-parameters) |
 | corrId | The unique identifier for the raised **OpenForm** event. |
 
-To learn more, see [openForm (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/openform)
+To learn more, see [openForm (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/openform.md)
 
 ### RenderSearchPage
 
@@ -201,7 +201,7 @@ The event occurs when the corresponding Channel Integration Framework JavaScript
 | searchString | String to search among the attributes of the entity records. |
 | corrId | The unique identifier for the raised **RenderSearchPage** event. |
 
-To learn more, see [renderSearchPage (CIF JavaScript API Reference)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/rendersearchpage)
+To learn more, see [renderSearchPage (CIF JavaScript API Reference)](../customer-service/channel-integration-framework/reference/microsoft-ciframework/rendersearchpage.md)
 
 ### SearchAndOpenRecords
 
