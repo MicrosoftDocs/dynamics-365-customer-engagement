@@ -263,7 +263,8 @@ The next snippet is what it looks like after:
 
 ## Additional notes
 
-The schedule board is only supported in Unified Client Interface web (Field Service v8.x+) and not in tablets or phones.
+- The schedule board is only supported in Unified Client Interface web (Field Service v8.x+) and not in tablets or phones.
+- Booking status colors displayed on the schedule board with a reduced opacity of the color used on the respective booking status color. This is a behavior similar to the Outlook calendar. When a Booking is selected by clicking it on the schedule board, the booking color is displayed as specified on the booking status. 
 
 ### Uninstall schedule board
 
