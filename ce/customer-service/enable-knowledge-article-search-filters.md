@@ -56,7 +56,7 @@ You can set up the customization of knowledge article search filters by first en
    > [!NOTE]
    > For the **Status** filter that is available out-of-box, be aware that if you select the **Archived**, **Discarded**, or **Expired** status values, if you have Relevance Search enabled, you must modify the **Quick Find Knowledge Article** view, as this view currently filters out all articles that have these values, and they aren't synced by Relevance Search. No status values are returned if you don't modify the **Quick Find Knowledge Article** view. Additionally, if you don't have Relevance Search enabled, the **Archived**, **Discarded**, and **Expired** filter values won't work, and no corresponding search results for these values will be returned.
 11. Select the values you want to show the agent, and then select **Done**.
-12.	When you're finished with configuring the values you want, select **Save.
+12.	When you're finished with configuring the values you want, select **Save**.
 
 ## Add a default filter configuration
 The following steps apply to these data types:
