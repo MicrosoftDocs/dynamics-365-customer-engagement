@@ -35,7 +35,7 @@ You can set up the customization of knowledge article search filters by first en
 
 1. Open the **Customer Service Hub** app and select **Change area** > **Service Management**.
 2. Under the **Knowledge Base Management** section, select **Settings**.
-3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then select **Yes** for **Enable custom filters**.
+3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then set **Enable custom filters** to **Yes**.
    
     > [!div class=mx-imgBorder]
     > ![Enable search filters](media/enable-search-filters.png "Enable search filters.")
@@ -109,7 +109,7 @@ You may have scenarios within your organization where agents are working on diff
 
 2. Under the **Knowledge Base Management** section, select **Settings**.
    > [!NOTE]
-   > This option will be available only if **Enable search filters** is set to **Yes**.
+   > This option will be available only if **Enable custom filters** is set to **Yes**.
 
 3. Customize the filter according to your needs by selecting or deselecting the values displayed and then toggling the **Set as a preselected filter** option if you want the filter shown to the agent by default.
 4. Select **Save**.
