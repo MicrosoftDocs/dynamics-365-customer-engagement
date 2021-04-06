@@ -86,6 +86,7 @@
 #### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
+#### [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md)
 #### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
 ## Automatically create or update records
