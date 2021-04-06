@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/12/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
