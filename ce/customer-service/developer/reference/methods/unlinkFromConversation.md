@@ -23,7 +23,7 @@ This function can be used to unlink an already linked entity record of type cust
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
 | entityLogicalName | String | Logical name of the entity (i.e., account, contact, or incident) | 
-| recordId | String | Unique identifier for the entity record to be linked |
+| recordId | String | Unique identifier for the entity record to be unlinked |
 
 ## Return Value
 
