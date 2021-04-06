@@ -24,7 +24,7 @@ Unified routing helps you assign a work item to the agent or queue who's best su
 
 ## Enable routing diagnostics
 
-To see data related to work items and their status, you need to opt in to routing diagnostics.
+To see data related to work items and their status, you need to enable routing diagnostics.
 
 1. Sign in to Dynamics 365.
 
@@ -76,11 +76,11 @@ If a work item doesn't run through a particular rule set in the **Classification
 
  ### Route to queue
 
-Queue routing rules are formulated to send the work item to the correct queue. More information: [Routing and assignment rules](routing-workstream-queues.md)
+Queue routing rules are formulated to send the work item to the correct queue. More information: [Set Up routing and assignment rules](routing-rules.md)
 
 ### Prioritization
 
-The **Prioritization** rule set is a list of prioritization rules. Work items are routed according to their priority. 
+The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. 
 
 ### Assignment selection
 
@@ -92,6 +92,6 @@ Each work item is assigned to an agent or is sent to a queue based on the **Assi
 
 ### See also
 
-[Overview of unified routing](overview-unified-routing.md)
+[Overview of skill based routing](overview-skill-work-distribution.md)
 
 
