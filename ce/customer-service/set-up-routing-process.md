@@ -1,6 +1,6 @@
 ---
-title: "Set up simplied routing | MicrosoftDocs"
-description: "How to set up simplied routing"
+title: "Set up unified routing | MicrosoftDocs"
+description: "How to set up unified routing"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -10,14 +10,11 @@ ms.service: "dynamics-365-customerservice"
 ---
 
 
-<!-- The metadata title calls this "simplified" routing but the title says "unified" routing. Are they the same? In line 20, should it be "Omnichannel for Customer Service admin center app"? -->
-
-
-# How to set up unified routing for a channel
+# Set up unified routing
 
 ## Prerequisites
 
-For this process, you'll need the Omnichannel admin center app.
+Unified routing can be configured in the Omnichannel admin center or Customer Service Hub app only.
 
 - To configure record routing, set the entity routing toggle to yes.
 - To use skill-based routing, skills must be configured.
@@ -27,11 +24,6 @@ For this process, you'll need the Omnichannel admin center app.
 ## How to set up unified routing
 
 The high-level process to set up unified routing for a channel or record is as follows:
-
-
-
-<!-- If these actions within creating workstreams and creating queues need to be done in order, they should be numbered. The multilevel bullets are hard to follow. --> 
-
 
 1. Create workstreams.
    - Create a workstream for messaging.
@@ -56,3 +48,9 @@ The high-level process to set up unified routing for a channel or record is as f
       - Assignment rulesets.
         - Decision list of rules.
       - Selection criteria.
+
+
+### See also
+
+[Create workstreams](create-workstreams.md)  
+[Set up record routing](set-up-record-routing.md)  

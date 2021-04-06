@@ -56,13 +56,7 @@ The process of creating assignment rulesets involves the following steps:
 1. **Create assignment rulesets**: For each assignment ruleset, you'll configure the conditions and order by option.
 2. **Create selection criteria**: If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines which ruleset out of the many should be run. More information: [Configure selection criteria](#configure-selection-criteria).
 
-
 ## Create an assignment method
-
-
-<!-- In line 73, are the steps that follow (lines 74-77) supposed to be indented further so they are a subset of line 73? -->
-
-
 
 Perform the following steps to create a custom assignment method:
 
@@ -70,11 +64,11 @@ Perform the following steps to create a custom assignment method:
 2. On the **Assignment method** page of a queue, select **Create New**.
 3. In the **Create work assignment** dialog box, enter a name and description for the ruleset, and select **Create**.
 4. Select the ruleset, and select **Edit**. The options to configure prioritization rulesets and assignment rulesets are displayed.
-   1. Do the following to set up prioritization rulesets:
-   2. On the **Create Prioritization Ruleset** dialog box, enter a name and description for the ruleset, and select **Create**.
-   3. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog box, enter a rule name and define the conditions when the rule should be run.
-   4. Select the attribute on which you want to define the order-by to route the work item to agents.
-   5. Create as many rules as are needed.
+5. Do the following to set up prioritization rulesets:
+   1. On the **Create Prioritization Ruleset** dialog box, enter a name and description for the ruleset, and select **Create**.
+   2. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog box, enter a rule name and define the conditions when the rule should be run.
+   3. Select the attribute on which you want to define the order-by to route the work item to agents.
+   4. Create as many rules as are needed.
 5. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 6. Enter a name and description for the ruleset, and select **Create**. The ruleset is created.
 7. On the **Assignment ruleset** page that appears, select **Create rule**.
@@ -114,3 +108,8 @@ Follow these steps to configure the selection criteria for the assignment rulese
 3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the Decision list area.
 4. Define as many rules as the number of assignment rulesets.
 
+### See also
+
+[Create workstreams](create-workstreams.md)  
+[Create queues](queues-omnichannel.md)  
+[Set up entities for unified routing](set-up-record-routing.md)  

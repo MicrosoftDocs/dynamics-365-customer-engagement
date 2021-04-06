@@ -90,24 +90,18 @@ This section describes how to create a workstream for an entity that has been en
 
 4. Specify the following on the **New Work Stream** page:
 
+   | Tab | Field | Value | Description | 
+   |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
+   | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
+   | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
+   | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create an entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing). |
+   | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** The value provided is an example. |
+   | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
+   | Work Distribution | Allowed Presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** The value provided is an example. |
+   ||||
 
-
-<!-- Note that the screenshot doesn't show an Entity field. -->
-
-
-
-
-    | Tab | Field | Value | Description | 
-    |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
-    | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
-    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
-    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create an entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing). |
-    | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** The value provided is an example. |
-    | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
-    | Work Distribution | Allowed Presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** The value provided is an example. |
-
-    > [!div class=mx-imgBorder] 
-    > ![New case workstream](media/case-ws3.png "New case workstream")
+   > [!div class=mx-imgBorder] 
+   > ![New case workstream](media/case-ws3.png "New case workstream")
 
 5. Select **Save** to save the workstream.
 

@@ -9,11 +9,6 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-
-<!-- I lowercased "live chat" in this topic because chat should be capitalized only if it refers to "Chat for Dynamics 365 Customer Service," and in that case, it should be identified fully at first use. -->
-
-
-
 # Work with queues in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]

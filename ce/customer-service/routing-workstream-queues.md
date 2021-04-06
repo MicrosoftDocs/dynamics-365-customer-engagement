@@ -15,10 +15,6 @@ A workstream is a container for work items to be enriched, routed, and assigned.
 
 ## Work classification rules
 
-
-<!-- I put quotation marks around format language in the paragraphs below - please review to ensure I placed them correctly. -->
-
-
 Work classification rules are rules to update work item attributes. Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be generated through machine learning models. They are optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
 
 Work classification rules can be written using the manual declarative decision list way or by using machine learning models.
@@ -33,10 +29,7 @@ They are a sub-type of manual work classification rules and are rules defined to
 
 ### Machine learning model-based rules
 
-<!-- I am not sure why "Intelligent" is capitalized - can it be lowercase? -->
-
-
-They are a sub-type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the Intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
+They are a sub-type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
 
 ## Route-to-queues rules
 
@@ -48,10 +41,9 @@ Prioritization rule set is an ordered list of prioritization rules. Every priori
 
 ### Author the assignment rule set
 
+After the prioritization rule set, you can author the assignment rule set for the queue. The assignment rule set is an order list of assignment rules. Each assignment rule consists of a set of conditions using which agents are selected and an "order by" field using which the agents that match are sorted. During runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, then they are sorted by the "order by" field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated, and so on. This can be thought of as gradual relaxation of constraints in the assignment—the strictest criteria is applied first, and then the conditions are slowly reduced so that the best agent is found.
 
-<!-- The third sentence, the one beginning with "Each assignment rule represents," is very confusing. Maybe it is missing some hyphens or quotation marks to set off some terms? -->
+### See also
 
-
-After prioritization rule set, you can author the assignment rule set for the queue. The assignment rule set is an order list of assignment rules. Each assignment rule represents a set of conditions using which agents are selected and an order by field using which the matching agents are then sorted. During runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If there are more than one matching agents, then they are sorted by the ordered-by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated, and so on. This can be thought of as gradual relaxation of constraints in the assignment—the strictest criteria is applied first, and then the conditions are slowly reduced so that the best agent is found.
-
-
+[Configure assignment methods for queues](assignment-methods.md)  
+[Create workstreams](create-workstreams.md)  
