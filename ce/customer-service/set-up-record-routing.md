@@ -17,9 +17,9 @@ You can configure settings for record routing in Customer Service Hub, Omnichann
 
 ## Prerequisites
 
-To route entity records, you must enable the entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues).
+To route entity records, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues)
 
-The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entities for routing](entity-channel.md#enable-entities).
+The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing)
 
 ## Configure unified routing for records in Customer Service Hub
 
@@ -36,14 +36,14 @@ Perform the following steps to configure record routing:
 
 ### Create workstreams for record routing
 
-To configure a workstream for the entity record, do the following steps:
+To configure a workstream for the entity record, do the following:
 
-1. In Customer Service Hub, in the Service Management change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**.
+1. In the Customer Service Hub, in the Service Management change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**.
 2. In the **Create a workstream** dialog box, enter the following details:
-    - **Name:** Enter an intuitive name, such as **Contoso chat workstream**.
-    - **Work distribution mode:** Select **Push** or **Pick**.
-    - **Type:** Select **Record**.
-    - **Record type:** Select an entity record from the list.
+    - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
+    - **Work distribution mode**: Select **Push** or **Pick**.
+    - **Type**: Select **Record**.
+    - **Record type**: Select an entity record from the list.
 3. Select **Create**. The workstream is created.
 
 ### Configure intake rules
@@ -54,20 +54,23 @@ Perform the following steps to configure the intake rules:
 
 1. Select the workstream that you configured for routing records, such as the case.
 2. In the **Intake rules** area, select **Create rule**.
-3. On the Create intake rule dialog box, enter a name, and define the conditions for the rule.
-   >![Intake rule](media/ur-intake-rule.png "Intake rule")
+3. In the **Create intake rule** dialog box, enter a name and define the conditions for the rule.
+   
+   ![Intake rule](media/ur-intake-rule.png "Intake rule")
+   
 4. Select **Create**.
 
-A workstream that has the required intake rule and route to queues is as follows.
->![Workstream for a case record](media/ur-record-routing-workstream.png "Workstream for a case record")
+The following screenshot shows a workstream with the required intake rule and route to queues.
+
+![Workstream for a case record](media/ur-record-routing-workstream.png "Workstream for a case record")
 
 ### Configure work distribution and Advanced settings
 
-1.  In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
-   - **Capacity:** Select one of the following options:
-     - **Unit based:** Enter value if your organization has configured unit-based capacity.
-     - **Profile based:** Specify a profile in the list if your organization has configured profile-based capacity.
-   - **Allowed presences:** Select the presences in which agents will be assigned.
+1. In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
+   - **Capacity**: Select one of the following options:
+     - **Unit based**: Enter value if your organization has configured unit-based capacity.
+     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
+   - **Allowed presences**: Select the presences in which agents will be assigned.
    - **Default skill matching algorithm**: Select **Exact Match** or **Closest Match**.
 2. Expand **Advanced settings** to configure the following options:
    - [Sessions](../app-profile-manager/session-templates.md)
@@ -83,23 +86,24 @@ This section describes how to create a workstream for an entity that has been en
 
 2. Select **Work Streams** under **Channels** in the sitemap.
 
-3. Select **New** in the **Active Work Streams** page.
+3. Select **New** on the **Active Work Streams** page.
 
-4. Specify the following in the **New Work Stream** page.
+4. Specify the following on the **New Work Stream** page:
 
-    | Tab | Field | Value | Description | 
-    |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
-    | Work Distribution | Name | Case Work stream | Provide a name to the work stream. <br> **Note:** The value provided is an example.  |
-    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
-    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create a entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing). |
-    | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the work stream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
-    | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
-    | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
+   | Tab | Field | Value | Description | 
+   |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
+   | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
+   | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
+   | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create an entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing). |
+   | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** The value provided is an example. |
+   | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
+   | Work Distribution | Allowed Presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** The value provided is an example. |
+   ||||
 
-    > [!div class=mx-imgBorder] 
-    > ![Specify values for the fields](media/case-ws3.png "New case work stream")
+   > [!div class=mx-imgBorder] 
+   > ![New case workstream](media/case-ws3.png "New case workstream")
 
-5. Select **Save** to save the work stream.
+5. Select **Save** to save the workstream.
 
 ### Upgrade path for preview users
 
@@ -108,7 +112,7 @@ If you are upgrading from preview release to the latest version, then earlier co
 ### See also
 
 [Entity records routing](entity-channel.md)  
-[Understand and create work streams](create-workstreams.md)  
+[Create workstreams](create-workstreams.md)  
 [Create multiple work streams for entity records routing](multiple-ws-entity-record-routing.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: "Set up simplied routing | MicrosoftDocs"
-description: "How to set up simplied routing"
+title: "Set up unified routing | MicrosoftDocs"
+description: "How to set up unified routing"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,40 +9,48 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# How to set up unified routing for a channel
+
+# Set up unified routing
 
 ## Prerequisites
 
-- Omnichannel admin center app.
-- To configure record routing, entity routing toggle is set to yes.
-- To use skill-based routing, skills are configured.
-- To use machine learning work classification, skill model must have been configured.
-- To use capacity-based classification, capacity profile must have been configured.
+Unified routing can be configured in the Omnichannel admin center or Customer Service Hub app only.
+
+- To configure record routing, set the entity routing toggle to yes.
+- To use skill-based routing, skills must be configured.
+- To use machine learning work classification, the skill model must be configured.
+- To use capacity-based classification, the capacity profile must be configured.
 
 ## How to set up unified routing
 
 The high-level process to set up unified routing for a channel or record is as follows:
 
-1. Create a workstream
-   - Create a workstream for messaging
-     - Configure routing rules
-       - Configure manual work classification rulesets
-         - Create demand rules
-       - Configure machine-learning work classification rulesets 
-         - Set up input and output attributes
-       - Configure route-to-queues ruleset
-   - Create a workstream for record routing
-     - Configure intake rules
-     - Configure routing rules
-       - Configure work classification
-       - Configure route-to-queues ruleset
-2. Create queues
-   - Assignment methods
-     - Highest capacity
-     - Round robin
-     - Custom assignment method
-      - Configure prioritization ruleset
-        - Decision list of rules
-      - Assignment rulesets
-        - Decision list of rules
-      - Selection criteria
+1. Create workstreams.
+   - Create a workstream for messaging.
+     - Configure routing rules.
+       - Configure manual work classification rulesets.
+         - Create demand rules.
+       - Configure machine-learning work classification rulesets. 
+         - Set up input and output attributes.
+       - Configure route-to-queues ruleset.
+   - Create a workstream for record routing.
+     - Configure intake rules.
+     - Configure routing rules.
+       - Configure work classification.
+       - Configure route-to-queues ruleset.
+2. Create queues.
+   - Assignment methods.
+     - Highest capacity.
+     - Round robin.
+     - Custom assignment method.
+      - Configure prioritization ruleset.
+        - Decision list of rules.
+      - Assignment rulesets.
+        - Decision list of rules.
+      - Selection criteria.
+
+
+### See also
+
+[Create workstreams](create-workstreams.md)  
+[Set up record routing](set-up-record-routing.md)  
