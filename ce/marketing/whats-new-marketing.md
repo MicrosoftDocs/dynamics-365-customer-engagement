@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/02/2021
+ms.date: 04/06/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -31,7 +31,7 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 The Dynamics 365 Marketing April 2021 update includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever.
 
-This release also includes social posting to Instagram, an API to enable or disable cookies, a new domain alignment process, performance upgrades, and bug fixes.
+This release also includes social posting to Instagram, an API to enable or disable cookies, a new custom “Envelope-From” domain option, performance upgrades, and bug fixes.
 
 ### Version number
 
@@ -48,13 +48,12 @@ This release also includes social posting to Instagram, an API to enable or disa
     - Added an in-app onboarding guide to the new email editor to ease user transition from the classic editor.
     - The canvas and settings now include options for footer fields, making it easier to add footer elements such as a legal address or an unsubscribe link.
     - To save time when creating new emails and templates, we added a settings option to save a default “from” name and email address.
-    - Added a new domain alignment process. The process aligns SPF and DKIM records to a sender’s “From” address, improving email deliverability and reducing bounces.
+    - You can now set up a custom Envelope-From domain so the From domain used by the Dynamics 365 sending infrastructure is associated with a user’s brand instead of Dynamics 365. Setting up an Envelope-From domain allows users to protect their sending reputation and is important to [DMARC](https://dmarc.org) implementation.
 - **Marketing pages**
     - Added a new API to enable, disable, or delete cookies, expanding options for user tracking and compliance. The API, which affects known and anonymous visitors, applies to hosted forms, marketing pages (when Power Apps Portal is used), and captured forms.
 - **Social posting**
     - With this release, you can easily create rich content for Instagram. You can now optimize when posts are delivered by scheduling them.
     - Post single photos to Instagram (limited to one photo per post, video posting is scheduled for an upcoming release).
-    - Insights using Instagram-supported KPIs.
 
 ### Bug fixes
 
