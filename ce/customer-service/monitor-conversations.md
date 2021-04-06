@@ -5,12 +5,12 @@ author: mh-jaya
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/17/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Monitor, assign and transfer conversations
+# Monitor, assign, and transfer conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -40,7 +40,7 @@ Before you start using the **Omnichannel Ongoing Conversations** dashboard, here
 
 - You can't monitor conversations that are assigned to you.
 
-## Monitor and join a conversation
+## Monitor and join conversations
 
 By monitoring the conversations, you will get an overview of how each conversation is trending, such as sentiments and agent responses, and can choose to join a conversation that might need your attention.
   
@@ -68,7 +68,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
     To learn more, see [View communication panel](oc-conversation-control.md).
 
-## Assign a conversation
+## Assign conversations
 
 At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open status or not assigned to any agent. You can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded will be displayed.
 
@@ -91,7 +91,7 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 5. Depending on the option you chose in Step 4, choose the agent or queue, and then select **Assign**.
 
-## Transfer a conversation
+## Transfer conversations
 
 At times, you may need to transfer an ongoing conversation from an agent to another agent. In such cases, the conversation should be in an active or waiting status.
 
