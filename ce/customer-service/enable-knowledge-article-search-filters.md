@@ -37,7 +37,7 @@ You can set up the customization of knowledge article search filters by first en
 2. Under the **Knowledge Base Management** section, select **Settings**.
 3. On the **Settings** page, scroll down to **Knowledge articles search filters**, and then set **Enable custom filters** to **Yes**.
 
-   In order for agents to be able to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel, the **Allow agents to personalize the knowledge articles search filters** option also must be set to **Yes**.
+   In order for agents to be able to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, the **Allow agents to personalize the knowledge articles search filters** option also must be set to **Yes**.
    
     > [!div class=mx-imgBorder]
     > ![Enable search filters](media/enable-search-filters.png "Enable search filters.")
@@ -54,7 +54,7 @@ You can set up the customization of knowledge article search filters by first en
     > ![Toggle filter to show as Preselected](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
 9. Select **Done**.
-10. If you want to set which filters are shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
+10. If you want to set the filters which must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
    > [!NOTE]
    > For the **Status** filter that is available out-of-box, be aware that if you select the **Archived**, **Discarded**, or **Expired** status values, if you have Relevance Search enabled, you must modify the **Quick Find Knowledge Article** view, as this view currently filters out all articles that have these values, and they aren't synced by Relevance Search. No status values are returned if you don't modify the **Quick Find Knowledge Article** view. Additionally, if you don't have Relevance Search enabled, the **Archived**, **Discarded**, and **Expired** filter values won't work, and no corresponding search results for these values will be returned.
 11. Select the values you want to show the agent, and then select **Done**.
