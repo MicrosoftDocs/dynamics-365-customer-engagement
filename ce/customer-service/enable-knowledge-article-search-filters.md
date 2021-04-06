@@ -90,8 +90,8 @@ To configure a lookup type filter:
    > ![Lookup Records field](media/lookup-records.png "Lookup Records field.")
 
 3. To find the values you want, either enter the value details in the field or select the magnifying glass icon to list available records.
-4. Select the records you want in the results, and then select Add.
-5. If you want to set the values as defaults, toggle the preset next to the filter to the right so that Preselected appears next to the filter name.
+4. Select the records you want in the results, and then select **Add**.
+5. If you want to set the values as defaults, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
 6. Select **Save**.
 
 ## Deactivate or reactivate a filter configuration
