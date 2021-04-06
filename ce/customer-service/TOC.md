@@ -102,11 +102,11 @@
 #### Manage service schedules
 ##### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 ##### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+#### [Add timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md)
+#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### Agent experience
 #### [Manage case SLAs](customer-service-hub-user-guide-case-sla.md)
-### Customize SLAs
-#### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
-#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
+
 
 ## Email
 ### [Use email](customer-service-hub-user-guide-email-overview.md)
