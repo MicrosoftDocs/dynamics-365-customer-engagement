@@ -41,7 +41,7 @@ You can set up the customization of knowledge article search filters by first en
     > ![Enable search filters](media/enable-search-filters.png "Enable search filters.")
 
 4. Select **Save**.
-5. In the left pane, under the **Knowledge Base Management** section, select **Filters**. The Filters page is displayed.
+5. In the left pane, under the **Knowledge Base Management** section, select **Filters**. The **Filters** page is displayed.
 6. Select the filters you want to make available for knowledge search. 
 7. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
