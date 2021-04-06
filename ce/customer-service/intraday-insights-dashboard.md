@@ -10,24 +10,23 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# View and understand the Omnichannel intraday insights dashboard
-
+# View and understand omnichannel intraday insights
+<!--note from editor: I suggest not using the "dashboard" descriptor in the H1 so we can get around capitalizing "Omnichannel," which our branding guidelines don't want us to do unless we can spell the phrase Omnichannel for Customer Service out. It's fine to capitalize it when we're quoting the UI (as in the paragraph below), but I think we want to keep the reference "generic" for this H1.-->
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) for your organization. Intraday Monitoring allows you to see a summary of the conversation and insights reports. From the Omnichannel intraday insights report, you can view a summary of the two sections:
+The **Omnichannel intraday insights** dashboard provides information about the health and key performance indicators (KPIs) for your organization. From the omnichannel intraday insights report, you can view a summary of the following tabs:<!--note from editor: Edit suggested, so you don't mention intraday monitoring twice. Also, I suggest "tabs" here because it looks like **Intraday monitoring** and **Agent insights** both have a tab-like appearance. Should they be called the same thing?-->
 
-- [Intraday Monitoring](#intraday-monitoring)
+- [Intraday monitoring](#intraday-monitoring)
 - [Agent insights](#agent-insights)
 
-The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and is refreshed every 15 minutes.
-
+The information displayed in these sections<!--note from editor: Or should it be "on these tabs"?--> is based on the conversations that have been closed in the last 24 hours, and is refreshed every 15 minutes.
 
 > [!IMPORTANT]
 > To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
 
-## Intraday Monitoring
+## Intraday monitoring
 
-The intraday monitoring tab provides information on conversation and agent insights and their performance.
+The **Intraday monitoring** tab<!--note from editor: Or should this be "section"?--> provides information and insights about current conversations and those that have been closed within the last 24 hours.<!--note from editor: Edit okay? Agent insights are discussed under the next H2.-->
 
 ### Conversation insights
 
@@ -38,66 +37,66 @@ This section of the dashboard displays the following KPIs about conversations.
 
 | Metric | Description |
 |-------|-------|
-| Inbound | Number of conversations that happened in the last 24 hours. |
+| Inbound | The number of conversations that happened in the last 24 hours. |
 | Ongoing | The number of conversations that are ongoing. |
 | Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
 | Closed | The number of conversations that are closed. |
-| Abandoned | Conversations that have been abandoned by the customer. |
+| Abandoned | The percentage of conversations that have been abandoned by customers.<!--note from editor: Edit okay? Or should it be "The number of conversations..."?--> |
 | Longest wait time | The longest time that the conversation was in queue. |
 
-You can also view a report on the average conversation handle time, average wait time, transfer rate and more. The report can also be filtered to display an in-depth analysis of each chat channel that conversations have come in from.
+You can also view a report on the average conversation handle time, average wait time, transfer rate, and more. The report can be filtered to display an in-depth analysis of each chat channel through which conversations have come in.<!--note from editor: To match the wording in the next paragraph.-->
 
 
 ### Ongoing conversations
 
-The ongoing conversations section provides information on the status of the conversation, wait time and also allows you to assign the conversations to agents based on their status and capacity. You can also reassign the conversation to a different queue using the ongoing conversations report. The ongoing conversation report also displays information of the channel through which the conversation came in, along with the time and date that the conversation was picked up on. 
+The **Ongoing conversations** section provides information about the status of the conversation and its wait time, and is also where you can assign the conversation to agents based on their status and capacity. You can reassign the conversation to a different queue by using the ongoing conversations report. This report also displays information about the channel through which the conversation came in, along with the time and date that the conversation was picked up.
 
 ### Assign a conversation
 
-A conversation can be assigned to another agent or can be routed to another queue through the ongoing conversations report. Select the **Assign** option in the **Action** column in the report. Select an available agent and then **Assign**.If no agent is available, you can move the conversation to another queue and check if an agent is available. After an agent is assigned, the action is changed to **Monitor**.
+You can assign a conversation to another agent or route it to another queue through the ongoing conversations report. Select the **Assign** option in the **Action** column in the report. Select an available agent, and then select **Assign**.If no agent is available, you can move the conversation to another queue and check whether an agent is available. After an agent is assigned, the action is changed to **Monitor**.
 
 > [!NOTE]
-> Conversations can be assigned in every state except when they are in the closed state. 
+> You can assign a conversation when it's in any state except **Closed**. 
 
 
 ## Agent insights
 
-The **Agent insights** section provides information on the latest KPIs, the health of queues, the status of agents on a given day. The agent insights dashboard provides a consolidated report of conversations in both Live chats and Digital messaging platforms.
+The **Agent insights** section provides information about the latest KPIs, the health of queues, and the status of agents on a given day. The agent insights report<!--note from editor: Edit okay? "Report" seems to be parallel with the previous discussion. I'm a bit confused by the inconsistent use of "dashboard." Should we consistently call it the **Omnichannel intraday insights** dashboard, which consists of two tabs, which have various sections?--> consolidates conversations in both live chat and digital messaging platforms.
 
-An example of the **Agent insights** section is as follows.
+An example of the **Agent insights** section is shown in the following image.
 
 > [!div class=mx-imgBorder]
 > THIS SCREENSHOT NEEDS TO BE ADDED
 
-This section of the dashboard consists of the following KPIs.
+This section consists of the following KPIs.
 
 | Conversation status | Description |
 |-------|-------|
-| Agents logged in | The number of agents that are logged in.|
+| Agents logged in | The number of agents who are signed in.|
 | Agents with available capacity | The number of agents who have the capacity to accept incoming conversation requests. |
 | Average handle time per session | The average time that an agent takes to accept a conversation and resolve it. |
-| Sessions rejected | The number of conversation sessions rejected by agents due to the lack of capacity. |
-| Sessions timed-out | The number of sessions that were timed-out. |
+| Sessions rejected | The number of conversation sessions rejected by agents due to lack of capacity. |
+| Sessions timed-out | The number of sessions that were timed out. |
 | Sessions transferred | The number of sessions that were transferred to another agent or queue.
 
-You can view specific insights about the performance of individual or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
+You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations.
 
-The following image shows the options for viewing agent information in specific queues.
+The following image shows the options for viewing agent information in specific queues.<!--note from editor: In the image, it looks like it's called "Agents insights" - if it hasn't been changed, can you ask the UI designer to change it?-->
 
 > [!div class="mx-imgBorder"]
 > ![View agent information](media/view-agent-info-queues.png "View agent information")
 
-The **Agents insights** table displays the following information.
+The **Agent insights** table<!--note from editor: Has this been called a "report" previously?--> displays the following information.
 
-| Agent details | Description |
+| Agent details<!--note from editor: How is this different from the next table, which also seems to be about agent details?--> | Description |
 |-------|-------|
 | Agent name | A list of the agent names for the queue. |
-| Status | The current presence of the agent: available, offline, do not disturb, or busy. |
-| Active | The number of conversations in the active state.|
+| Status | The current presence of the agent: **Available**, **Offline**, **Do not disturb**, or **Busy**. |
+| Active | The number of conversations that are active.|
 | Waiting | The total number of conversations waiting to be picked up by an agent. |
-| Closed | All the conversations that are closed. |
+| Closed | The number of conversations that are closed.<!--note from editor: Edit okay?--> |
 | Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](#average-handle-time). |
 | Email ID | The email address of the agent handling the conversation. |
 |||
@@ -110,17 +109,17 @@ You can also view details about a specific agent by right-clicking the agent's n
 > [!NOTE]
 > The **Drill through** feature isn't supported outside of Omnichannel for Customer Service.
 
-The agent's details are displayed, as shown in the following image.
+Details about the agent are displayed, as shown in the following image.
 
 > [!div class="mx-imgBorder"]
 > ![View details for an agent](media/view-agent-details.png "View details for an agent")
 
-This section of the dashboard displays the following details.
+This section displays the following details.
 
 | Detail | Description |
 |-------|-------|
 | Status | The agent's current presence : **Available**, **Offline**, **Do not disturb**, or **Busy**. |
-| Status since | The amount of time that this agent has been in their current presence. |
+| Status since | The amount of time that the agent's presence has been in its current state.<!--note from editor: Suggested.--> |
 | Available capacity | The agent's current free capacity. |
 | Total capacity | The total capacity configured for an agent. |
 | Logged in duration 24 hrs | The total duration for which the agent has been signed in during the past 24 hours.|
@@ -131,8 +130,8 @@ This section of the dashboard displays the following details.
 | Skills | The skills that are assigned to the agent.|
 | Conversation status reason | The status of the latest conversation between the agent and a customer. | 
 | Avg handle time per session | The average handle time for an agent is calculated based on the active time the agent spends in a session from the time the conversation is active until it's closed. This includes the time the agent takes to wrap up the conversation. More information: [Average handle time](#average-handle-time) |
-| Logged in states duration | The agent's presence when the agent is signed in. The state reflects the base presence and not any custom presence.|
-| Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with a "Visitor" label. More information: [Automatically identify customers](record-identification-rule.md) |
+| Logged in states duration | The agent's presence when the agent is signed in.<!--note from editor: I don't know what this means. Will it be obvious to the user?--> The state reflects the base presence and not any custom presence.|
+| Subject | For an identified customer, the customer's name is displayed with the subject. For unidentified customers, static text is displayed with the label **Visitor**. More information: [Automatically identify customers](record-identification-rule.md) |
 | Participation mode | **Primary** indicates that the agent is engaged in a session. **Consult** means that the agent is engaged in a consulting session with another agent. **Monitor** means that this agent is monitoring the session. |
 | Workstream | The work stream that the conversation is assigned to. |
 | Channel | The channel that the conversation was created from. |
@@ -145,7 +144,7 @@ This section of the dashboard displays the following details.
 
 ## View and filter reports
 
-You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** drop-down list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
+You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** dropdown list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.<!--note from editor: Just FYI, "dropdown" now has no hyphen via a recent change to the style guide.-->
 
 > [!div class=mx-imgBorder]
 > ![Queue selection](media/supervisor-queue-selector.png "Queue selection")
@@ -159,11 +158,11 @@ When a conversation is transferred, the active time spent by all agents who are 
 
 Average handle time will be accurately calculated if you ensure the following:
 
-- Agents close the sessions by selecting the close button at the end of their shift. More information: [Conversation in waiting status](oc-conversation-state.md)
+- Agents close the sessions by selecting the **Close** button at the end of their shift. More information: [Conversation in waiting status](oc-conversation-state.md)
 - Agents don't change the computer time.
 - Agents don't use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
-When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently computes a higher value for the handle time. For a more realistic reporting on the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md)
+When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently computes a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md)
 
 ### See also
 
