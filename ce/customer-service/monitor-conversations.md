@@ -99,19 +99,18 @@ At times, you may need to transfer an ongoing conversation from an agent to anot
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of available agents and their capacities, and queues, is displayed.
-    > [!div class=mx-imgBorder]
-    > ![Select Transfer option](media/transfer-agents-conversations.png "Select Transfer option")
+    The list of available agents, their capacities, and queues is displayed.
 
 3. Choose a conversation in an **Active** or **Waiting** state, and select **Transfer** on the top-right corner.
     > [!div class=mx-imgBorder]
-    > ![Select agent or queue option](media/assign-agent-queue.png "Select either agent or queue option")
+    > ![Select Transfer option](media/transfer-agents-conversations.png "Select Transfer option")
 
 4. On the **Transfer conversations** dialog box, select **Agent**.
 
       Select to transfer the conversation to an agent by choosing an agent name from the list. Agents whose presence match with one of the allowed presence values in the work stream configuration only will be listed.
 
-5. After choosing the agent, select **Transfer**.
+5. After selecting the agent, select **Transfer**.
+    The selected conversation is transferred to the agent.
 
 ### See also
 
