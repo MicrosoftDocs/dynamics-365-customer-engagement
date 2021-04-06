@@ -19,7 +19,7 @@ search.app:
 
 # Enable knowledge article search filters
 
-As an administrator, you can configure standard (out-of-the-box) and custom fields as filters that can help your agents more quickly find what they’re looking for in search results and improve their productivity.
+You can configure standard (out-of-the-box) and custom fields as filters that can help your agents more quickly find what they’re looking for in search results and improve their productivity.
 
 You can set up the customization of knowledge article search filters by first enabling the feature, and then setting the filter configurations. The fields that are present on the knowledge article entity are the fields that are available as a filter. Additionally, if a field has any of the following data types, it will be available to be added as a filter, including:
 
