@@ -13,6 +13,7 @@ ms.service: dynamics-365-customerservice
 
 Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 Customer Service to enable organizations to instantly connect and engage with their customers through channels, such as live chat, SMS, and WhatsApp.
 
+
 The Omnichannel admin center app lets you configure the channels, agents, and supervisor settings, and the corresponding features to use the channels for handling customer issues through conversations.
 
 In the Omnichannel admin center app, you can configure the following settings:
