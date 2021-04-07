@@ -47,14 +47,14 @@ The topics metrics chart displays the following metrics.
 | Sentiment impact | The impact (downward or upward) that the conversations in the selected topic group are driving the overall organization sentiment.  |
 | Power Virtual Agents icon | Enables supervisors to select that topic for automation to Power Virtual Agents. |
 
-## Conversation topic Drill Down view
+## Conversation Topic Drill Down view
 
 The Topic drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support.  
 
 To access the drill down, select any metric value for the required topic and select **Details**.  
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel Conversation topic drill down view](media/oc-conversation-topic-drill-down.png "Omnichannel Conversation topic drill down view")
+> ![Omnichannel Conversation topic drill down view](media/oc-conversation-topics-drill-down.png "Omnichannel Conversation topic drill down view")
 
 ## Topic automation to Power Virtual Agents
 
