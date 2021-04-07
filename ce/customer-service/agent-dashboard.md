@@ -11,9 +11,11 @@ ms.service: dynamics-365-customerservice
 
 # Agent dashboard
 
-## Important
+> [!IMPORTANT] 
+>
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
 
 The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance.
 
@@ -89,6 +91,12 @@ The charts display the following metrics.
 | Agent away duration (hrs) | Time an agent is in the Away state in the Omnichannel application |
 | Agent offline duration (hrs) | Time an agent is logged out of the Omnichannel application |
 
+## Agent drill down view
+
+The Agent drill down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training/coaching scenarios for agents.  
+
+To access the drill down, select any metric value for the desired agent and select **Details**.  
+
 
 ## Agent Hourly details drill down view
 
@@ -98,3 +106,11 @@ To view the drill down, select any single metric value on the desired day, then 
 
 > [!div class="mx-imgBorder"]
 > ![Agent Hourly drill down view](media/OC-Agent-Hourly-Detail-Drill-Down.png "Agent hourly drill down view")
+
+### See Also
+
+- [Conversation dashboard](oc-conversation-dashboard.md)
+- [Dashboard overview](customer-service-analytics-insights-csh.md)
+- [Queue dashboard](oc-queue-dashboard.md)
+- [Bot dashboard](oc-bot-dashboard.md)
+- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)

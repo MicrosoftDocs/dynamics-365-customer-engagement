@@ -64,6 +64,14 @@ Once a topic is identified as a good automation candidate, the automation workfl
 
 Suggested trigger phases as well as topics related to the case title are provided.The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, select **Create Bot**. You will be redirected to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added. Once this step is complete, select **Automate Continue** . The Power Virtual Agents Topic will redirect to Power Virtual Agents for completion of authoring.
 
-[!NOTE]
+> [!NOTE]
 Bots created through the Microsoft Teams channel will not be listed in the bot selection list.
+
+### See Also
+
+- [Conversation dashboard](oc-conversation-dashboard.md)
+- [Dashboard overview](customer-service-analytics-insights-csh.md)
+- [Agent dashboard](agent-dashboard.md)
+- [Bot dashboard](oc-bot-dashboard.md)
+
 

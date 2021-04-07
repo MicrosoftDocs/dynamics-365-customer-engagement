@@ -14,9 +14,6 @@ ms.service: dynamics-365-customerservice
 The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
  
 > [!div class="mx-imgBorder"]
-> ! [Omnichannel Queue dashboard](media/oc-queue-dashboard.png "Omnichannel Queue dashboard")
-
-> [!div class="mx-imgBorder"]
 > ![Queue dashboard historical analytics](media/queue-historical-analytics.png "Queue historical analytics dashboard")
 
 To view the Queue dashboard, go to Omnichannel historical analytics and select **Queue** in the workspace.
@@ -70,6 +67,7 @@ Charts are displayed as shown:
 | Avg session handle time (min) | Average of the total session active time across engaged sessions |
 | Avg session sentiment | The average predicted customer sentiment for a given session |
 
+
 | Session details | Description |
 | --------------- | ----------------- |
 | Avg session active time (min) | The average total session active time across engaged conversations. |
@@ -78,6 +76,7 @@ Charts are displayed as shown:
 | Avg outgoing messages | Average total number of outgoing messages from a customer per session |
 | Incoming messages | Total incoming messages per session from customer |
 | Outgoing messages | Total outgoing messages per session from customer |
+
 
 | Consult/ Monitor | Descriptions | 
 | --------------------- | --------------------- |
@@ -99,10 +98,10 @@ To view the drill down, select any single metric value on the desired day, then 
 
 ### See Also
 
-[Conversation dashboard](oc-conversation-dashboard.md)
-[Dashboard overview](customer-service-analytics-insights-csh.md)
-[Agent dashboard](agent-dashboard.md)
-[Bot dashboard](oc-bot-dashboard.md)
-[Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
+- [Conversation dashboard](oc-conversation-dashboard.md)
+- [Dashboard overview](customer-service-analytics-insights-csh.md)
+- [Agent dashboard](agent-dashboard.md)
+- [Bot dashboard](oc-bot-dashboard.md)
+- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
 
 

@@ -31,15 +31,11 @@ KPIs for the following areas are displayed.
 | ------- | ------------------ |
 | Bot conversations | The number of conversations initiated by the customer and engaged by a bot. |
 | Bot resolution rate | The percentage of conversations that were closed by interacting with a bot out of all conversations engaged by a bot. |
-| Bot resolution time (min) | 
-The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
+| Bot resolution time (min) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. |
 | Bot escalation rate | The percentage of conversations that are escalated by a bot to a human agent. |
 | Bot escalation time (min)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. |
 
-Bot KPI charts are displayed as shown.
-
-> [!div class="mx-imgBorder"]
-> ![Bot chart](media/bot-chart-KPI.png "Bot KPI chart")
+The table explains the bot KPI chart metrics.
 
 
 | Title | Description |
@@ -63,6 +59,13 @@ To view the drill down, select any single metric value on the desired day, then 
 
 > [!div class="mx-imgBorder"]
 > ![Bot hourly detail drill down view](media/bot-hourly-drill-down.png "Bot detail view") 
+
+### See Also
+
+- [Conversation dashboard](oc-conversation-dashboard.md)
+- [Dashboard overview](customer-service-analytics-insights-csh.md)
+- [Queue dashboard](oc-queue-dashboard.md)
+- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
 
 
 
