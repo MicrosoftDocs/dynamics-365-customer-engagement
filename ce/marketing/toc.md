@@ -122,6 +122,7 @@
 #### Get started with real-time marketing
 ##### [Real-time marketing quickstart guide](real-time-marketing-quickstart.md)
 ##### [Connect Customer Insights segments to real-time marketing](real-time-marketing-customer-insights.md)
+##### [Event-based journey example](real-time-marketing-example.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)
 ##### [Troubleshoot + FAQs](real-time-marketing-faq.md)
 #### Channels
