@@ -48,7 +48,7 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > [!div class="mx-imgBorder"]
    > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item](media/sessionid-login-step.jpg)
 
-## Error: in iOS 14, Canvas embedding, Power BI dashboards or iFrames relying on cookies do not work
+## Error: in iOS 14, Canvas embedding, Power BI dashboards or iframes relying on cookies do not work
 
 Please go to the iOS settings page related to the mobile application, and enable "Allow Cross-Website Tracking".
 
