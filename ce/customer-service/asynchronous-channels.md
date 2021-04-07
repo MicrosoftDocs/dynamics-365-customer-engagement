@@ -16,13 +16,13 @@ ms.reviewer: nenellim
 
 ## Card support
 
-| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | Animation card | 
-|----------|---------------|-----------|--------------|----------------|-------------|------------|--------- |
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  ✖ |
-| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | 
-| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖
-| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ |
-| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | ✖
+| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | Animation card | Date input element card | Arabic card carousel | Mark down card | 
+|----------|---------------|-----------|--------------|----------------|-------------|------------|--------- | ------------ | -------------- | ------------- |
+| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  ✖ | ✔ | ✔ | ✔ | 
+| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | ✖ | ✔ | ✔ |
+| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | ✖ | ✔ | ✔ |  
+| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | ✖ | ✔ | ✔ | 
+| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | ✖ | ✖ | ✔ | ✔ |
 
 > [!Note]
 >
