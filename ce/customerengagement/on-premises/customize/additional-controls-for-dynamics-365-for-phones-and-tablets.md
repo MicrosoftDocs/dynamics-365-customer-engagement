@@ -1,5 +1,5 @@
 ---
-title: "Additional controls for Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Additional controls for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "A list of controls available for use with Dynamics 365 for phones and tablets"
 ms.custom: 
 ms.date: 11/08/2018

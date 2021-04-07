@@ -1,5 +1,6 @@
 ---
-title: "Perform bulk operations like cancel, pause and resume on async workflows| MicrosoftDocs"
+title: "Perform bulk operations on async workflows with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to Perform bulk operations like cancel, pause and resume on async workflows
 ms.custom: ""
 ms.date: 05/20/2019
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "Access a view definition | MicrosoftDocs"
+title: "Access a view definition with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: Learn how to access entity views
 ms.custom: 
 ms.date: 08/08/2018

@@ -1,5 +1,5 @@
 ---
-title: "Manage app properties in the app designer | MicrosoftDocs"
+title: "Manage app properties in the app designer with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to manage the properties for your app"
 keywords: 
 ms.date: 02/21/2019

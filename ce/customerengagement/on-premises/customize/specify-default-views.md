@@ -1,6 +1,6 @@
 ---
-title: "Specify a default view | MicrosoftDocs"
-description: "Learn how to specificy a default view"
+title: "Specify a default view with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Learn how to specify a default view"
 ms.custom: 
 ms.date: 01/09/2019
 ms.reviewer: 
@@ -21,8 +21,6 @@ search.audienceType:
 
 ---
 # Specify a default view
-
-
 
 <a name="BKMK_SetDefaultView"></a>   
 
