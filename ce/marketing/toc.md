@@ -131,8 +131,8 @@
 ##### [Create outbound text messages](real-time-marketing-outbound-text-messaging.md)
 #### Customer engagement
 ##### [Create an event-based journey](real-time-marketing-event-based-journey.md)
-##### [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
 ##### [Work with segments in real-time marketing](real-time-marketing-segments.md)
+##### [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
 ##### [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md)
 ##### [Personalize content](real-time-marketing-personalize.md)
 ##### [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
