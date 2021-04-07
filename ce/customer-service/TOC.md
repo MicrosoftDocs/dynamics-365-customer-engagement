@@ -333,8 +333,8 @@
 ####  [Omnichannel Agent dashboard](agent-dashboard.md)
 ####  [Omnichannel Bot dashboard](oc-bot-dashboard.md)
 ####  [Omnichannel Conversation topic dashboard](oc-conversation-topics-dashboard.md)
-##### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
-##### [View analytics dashboards created in Power BI](customer-service-analytics.md)
+#### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
+#### [View analytics dashboards created in Power BI](customer-service-analytics.md)
 #### Intraday supervisor experiences
 ##### [Introduction to intraday supervisor experiences](intro-intraday-insights-dashboard.md)
 ##### [View and understand Omnichannel intraday insights](intraday-insights-dashboard.md)
