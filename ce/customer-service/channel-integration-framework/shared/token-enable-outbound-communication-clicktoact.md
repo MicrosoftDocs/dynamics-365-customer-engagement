@@ -19,11 +19,11 @@ To enable outbound communication for your channel, you must perform the followin
 
 1. Sign in to your [Power Apps](https://make.powerapps.com/) portal.
 
-2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**. 
+2. Under the available apps, select the ellipses to the right of&nbsp;**Omnichannel for Customer Service**&nbsp;or&nbsp;**Customer Service workspace**.
 
-3. On the menu that appears, select **App profile manager**. 
+3. On the menu that appears, select&nbsp;**App profile manager**. 
 
-4. On the App profile manager page, expand **Omnichannel for Customer Service** or **Customer Service workspace** and select **Channel provider**.
+4. On the App profile manager page, expand **Omnichannel for Customer Service**&nbsp;or&nbsp;**Customer Service workspace**&nbsp;and select&nbsp;**Channel provider**.
  
 5. Select your channel provider from the list, and set the **Enable Outbound Communication** field to **Yes**.
 
