@@ -15,9 +15,9 @@ Unified routing is an intelligent, scalable, and enterprise-grade routing and as
 
 The unified routing infrastructure can be used to route service requests on all channels. This creates a unified view of workforce utilization across multiple channels, and thus helps to optimize distribution of work across the workforce. It works in a truly omnichannel way by ensuring that work items on all the channels are routed in a consistent and similar manner. It takes the agent engagement on different channels into account before any new work is assigned to them.
 
-Unified routing has two main stages: classification and assignment. 
+Unified routing has two main stages: classification and assignment.
 
-In the classification stage, rules and machine learning (ML) models can be used to add information on the work item, which can be further used to find the best-suited agent.
+In the classification stage, rules and machine learning (ML) models can be used to add information on the work item, which can be used to find the best-suited agent.
 
 During the assignment stage, the service requests are prioritized and then assigned to the agents based on the nature of the work, related entities, agent skills, and the current state of the agent workforce in terms of availability and workload.
 
@@ -29,11 +29,11 @@ For instance, an organization receiving an incoming chat will add information on
 
 Unified routing optimizes businesses in the following ways:
 
-- Routing to the best queue by using attributes in a related entity, saving an admin from creating a custom work flow.
+- Routing to the best queue by using attributes in a related entity, saving an admin from creating a custom workflow.
 
 - Using skills-based routing to automatically assign incoming work, matching to the best agent and decreasing resolution time.
 
-- Adding more context to the incoming work item using conditions on work item attributes and relates entity attributes, and then further using that information to route to a particular queue and also while assigning to the right agent.
+- Adding more context to the incoming work item using conditions on work item attributes and related-entity attributes, and then further using that information to route to a particular queue and also while assigning to the right agent.
 
 - Using machine-learning models to predict skills and assigning incoming work items to the best agent using skills to avoid writing manual declarative skill-identification rules.
 

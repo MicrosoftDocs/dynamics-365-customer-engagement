@@ -15,9 +15,9 @@ A workstream is a container for work items to be enriched, routed, and assigned.
 
 ## Work classification rules
 
-Work classification rules are rules to update work item attributes. Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be generated through machine learning models. They are optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
+Work classification rules let you update work item attributes. Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be surfaced through machine learning models. They are optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
 
-Work classification rules can be written using the manual declarative decision list way or by using machine learning models.
+Work classification rules can be written by using the manual declarative decision list or by using machine learning models.
 
 ### Manual classification rules
 
@@ -25,13 +25,14 @@ Manual classification rules are run to update work item attributes. They are wri
 
 #### Skill attachment rules
 
-They are a sub-type of manual work classification rules and are rules defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
+They are a sub-type of manual work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
 ### Machine learning model-based rules
 
 They are a sub-type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
 
 ## Route-to-queues rules
+
 
 Queue routing rules are rules to send the work item to the right queue. They are written in the format of "if defined condition satisfies, then route the work item to the defined queue." They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, the route-to-queue ruleset is run after all the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
 
