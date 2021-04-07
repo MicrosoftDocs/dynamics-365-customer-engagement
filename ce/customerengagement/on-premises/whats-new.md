@@ -272,7 +272,7 @@ The following features are not yet present on Unified Interface, but these are 
 -   Reports
 
 
-## Known issues and limitations 
+<!--## Known issues and limitations 
 
 ### **Organization database updates must be manually applied**
 

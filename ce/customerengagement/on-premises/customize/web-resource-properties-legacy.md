@@ -1,6 +1,6 @@
 ---
-title: Web resource properties for Main forms | MicrosoftDocs
-description: Understand the Web resource properties for Main forms
+title: Web resource properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
+description: Understand the Web resource properties for ain forms
 Keywords: Main form; Web resource properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 

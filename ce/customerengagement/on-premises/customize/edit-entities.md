@@ -1,5 +1,5 @@
 ---
-title: "Edit an entity | MicrosoftDocs"
+title: "Edit an entity with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn the different ways that an entity can be edited"
 ms.custom: 
 ms.date: 11/03/2018

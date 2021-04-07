@@ -1,5 +1,5 @@
 ---
-title: Sub-Grid properties for main forms | MicrosoftDocs
+title: Sub-Grid properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the Sub-Grid properties for main forms
 Keywords: Main form; Sub-Grid properties; Dynamics 365 for Customer Engagement
 author: Mattp123

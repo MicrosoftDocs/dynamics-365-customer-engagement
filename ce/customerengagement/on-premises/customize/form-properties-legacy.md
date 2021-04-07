@@ -1,5 +1,5 @@
 ---
-title: Form properties | MicrosoftDocs
+title: Form properties with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the main form properties
 Keywords: Main form properties; Dynamics 365 for Customer Engagement
 author: Mattp123
@@ -17,7 +17,7 @@ search.audienceType:
 
 ---
 
-# Form properties 
+# Form properties
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Model-driven app form properties](/powerapps/maker/model-driven-apps/form-properties-legacy)
 

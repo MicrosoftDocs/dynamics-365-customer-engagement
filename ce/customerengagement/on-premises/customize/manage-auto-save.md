@@ -1,5 +1,6 @@
 ---
-title: "Disable auto-save (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Disable auto-save with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to disable auto-save
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 

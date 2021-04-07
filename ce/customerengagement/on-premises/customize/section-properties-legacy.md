@@ -1,5 +1,5 @@
 ---
-title: Section properties for Main forms | MicrosoftDocs
+title: Section properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the section properties for a main form
 Keywords: Main form; Section properties; Dynamics 365 for Customer Engagement
 author: Mattp123

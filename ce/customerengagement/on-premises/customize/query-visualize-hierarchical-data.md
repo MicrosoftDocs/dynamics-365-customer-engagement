@@ -1,6 +1,6 @@
 ---
-title: "Query and visualize hierarchical data | MicrosoftDocs"
-description: "Learn how to query and visualize heirarchical related data"
+title: "Query and visualize hierarchical data with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Learn how to query and visualize hierarchical related data"
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 

@@ -1,5 +1,5 @@
 ---
-title: "Delete or deactivate a view | MicrosoftDocs"
+title: "Delete or deactivate a view with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to delete or deactivate a view"
 ms.custom: 
 ms.date: 01/08/2019

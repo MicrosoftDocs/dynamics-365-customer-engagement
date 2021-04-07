@@ -10,13 +10,17 @@ author: "kvivek"
 ms.author: "KumarVivek"
 manager: "annbe"
 ---
-# Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9
+# Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
 
 ::: moniker range="op-9-1"
 
-Welcome to the Dynamics 365 Customer Engagement (on-premises), version 9.1 Help!
+Welcome to the Dynamics 365 Customer Engagement (on-premises), version 9.1 Help! 
 
-TODO: Add overview information for 9.1 release
+The Dynamics 365 Customer Engagement (on-premises) version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams. For a list of new features available with this update, see [New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](whats-new.md).
+
+To view information about Dynamics 365 Customer Engagement (on-premises), version 9.0, select the version located above the left navigation pane.
+
+<img src = "deploy/media/docs-version-picker.png" alt = "Version selector on Microsoft Docs" width = "350" height = "350">
 
 ::: moniker-end
 

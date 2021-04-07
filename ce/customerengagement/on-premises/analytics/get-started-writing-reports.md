@@ -1,5 +1,6 @@
 ---
 title: "Get started writing reports with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Start here to learn about report writing
 ms.custom: 
 ms.date: 07/12/2018
 ms.reviewer: 

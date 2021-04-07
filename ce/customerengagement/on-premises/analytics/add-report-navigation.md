@@ -1,5 +1,6 @@
 ---
-title: "Add report navigation (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Add report navigation Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to add navigation to your reports
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

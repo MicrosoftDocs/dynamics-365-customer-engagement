@@ -1,12 +1,12 @@
 ---
-title: Work with form tabs  | MicrosoftDocs
+title: Work with form tabs with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the tab properties for main forms
 Keywords: Tab properties; Dynamics 365 for Customer Engagement; Main forms
-author: matp
+author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
-ms.author: Mattp123
+ms.author: matp
 manager: kvivek
 ms.date: 01/13/2020
 ms.service: crm-online

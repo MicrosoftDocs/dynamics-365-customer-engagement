@@ -1,5 +1,5 @@
 ---
-title: "Timer control | MicrosoftDocs"
+title: "Timer control with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Understand how you can use the timer control"
 ms.custom: 
 ms.date: 01/09/2019
@@ -22,9 +22,7 @@ search.audienceType:
 ---
 # Timer control overview
 
-
-
- Use a timer control with forms where records need to meet a specific time-based milestone. A timer control shows people how much time is available to complete an action in the resolution of an active record or how much time has passed since the time to complete the action has passed. At a minimum, timer controls must be configured to show success or failure in completing the action. In addition, they can be configured to display warnings when the conditions are approaching failure.  
+Use a timer control with forms where records need to meet a specific time-based milestone. A timer control shows people how much time is available to complete an action in the resolution of an active record or how much time has passed since the time to complete the action has passed. At a minimum, timer controls must be configured to show success or failure in completing the action. In addition, they can be configured to display warnings when the conditions are approaching failure.  
   
  A timer control can be added to a form for any entity, but they are most frequently used for the case entity, especially when linked to fields that track service level agreements. You can add multiple timer controls in the body of a form. You can’t add them to the header or footer.  
   
