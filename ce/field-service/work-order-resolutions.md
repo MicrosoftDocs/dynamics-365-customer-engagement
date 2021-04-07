@@ -30,9 +30,7 @@ In Dynamics 365 Field Service, you can:
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWAMXK]
-
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAMXK]
 
 In this article, we'll walk through how to create resolutions, add them to work orders, and associate them to incident types.
 
