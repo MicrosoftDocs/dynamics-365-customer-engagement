@@ -28,39 +28,73 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
+| | <i>First Release</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/23/2021
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
-| | <i>Canada</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
-| | <i>India</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
-| | <i>France</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
-| | <i>United Arab Emirates</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
-| | <i>South Africa</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
-| | <i>Germany</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
-| | <i>Switzerland</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/02/2021
+| | <i>South America</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
+| | <i>Canada</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD |04/30/2021
+| | <i>India</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
+| | <i>France</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
+| | <i>United Arab Emirates</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
+| | <i>South Africa</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD |04/30/2021
+| | <i>Germany</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
+| | <i>Switzerland</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/09/2021
-| | <i>Asia Pacific</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/09/2021
-| | <i>Great Britain</i> |[8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/09/2021
-| | <i>Oceana</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/09/2021
+| | <i>Japan</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
+| | <i>Asia Pacific</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
+| | <i>Great Britain</i> |[8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
+| | <i>Oceana</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/16/2021
+| | <i>Europe</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/16/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/23/2021
+| | <i>North America</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/23/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/30/2021
-| | <i>China</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | TBD | 04/30/2021
-| | <i>Dedicated Scale Groups</i> | [8.8.34.63](https://docs.microsoft.com/dynamics365/field-service/version-history#883463) | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | 03/26/2021
+| | <i>Government Community Cloud</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) | 04/30/2021
+| | <i>China</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) | 04/30/2021
+| | <i>Dedicated Scale Groups</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) | 04/30/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.40.109 
+
+(Includes Universal Resource Scheduling version [3.12.43.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124371))
+This version introduces the Field Service 2021 Wave 1 new and updated features outlined as generally available. It also introduces all of the changes from the early access versions of this release. 
+In addition, it introduces the following key capabilities :
+
+- First run experience to get started setting up Field Service. This new experience can be seen in the 'Get Started' section in the sitemap.
+- Ability to assign frontline workers with characteristics, territories, and other properties. View or edit the security roles, field security profiles, and mobile offline profiles that are automatically assigned to the frontline worker. Automatically send an email to frontline workers with the link to download the Dynamics 365 Field Service mobile app. Ability to view a list of all your frontline workers and edit their properties on the Bookable Resource form.
+- Field Services Bing maps capabilities are enabled by default. And this can also be seen in the 'Get Started' section.
+- Other than the work order form improvements released in early access, some more enhancements have been done including quick create of work order and making tax code optional.
+- Question types textbox, radio buttons, checkboxes and drop downs in Inspection templates can now have default values also be set before publish.
+
+There are few fixes too:
+- Fixed an issue where Work Order Service form could not be loaded properly from subgrid embedded in the custom Quick View form of Work Order when 'Work Order Subgrid Records Open as Popups' was enabled.
+- Corrected an issue in Entitlement Application regarding slow performance in Form Library when there are a large number of accounts.
+- Fixed an issue of duplicate agreement booking dates being generated for certain agreement and time zone criteria.
 
 ## 8.8.35.44 
 This release is a hotfix on Field Service version [8.8.35.27](https://docs.microsoft.com/dynamics365/field-service/version-history#883527).
 
 -	Resolved an issue where, under certain circumstances, work orders with a primary incident type that also executes a synchronous workflow, could result in null fields on the work order and related primary resource requirement.
 -	Reverted the below change: "Updated behavior where estimated duration from agreement booking setup was not carried over to work order. Previously, duration from the resource requirement was not being used to calculate total estimated duration in the work order. This behavior has been updated; if no work order service task or incident is present, total estimated duration is obtained from the Requirement. If requirement duration is null, then we get value from booking setup metadata." 
+
+## 8.8.39.135 (2021 Wave 1 early access update)
+
+(Includes Universal Resource Scheduling version [3.12.43.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124371))
+This version introduces the Field Service 2021 Wave 1 new and updated features outlined as generally available. It also introduces all of the changes from the early access versions of this release. 
+In addition, it introduces the following key capabilities :
+
+- First run experience to get started setting up Field Service. This new experience can be seen in the 'Get Started' section in the sitemap.
+- Ability to assign frontline workers with characteristics, territories, and other properties. View or edit the security roles, field security profiles, and mobile offline profiles that are automatically assigned to the frontline worker. Automatically send an email to frontline workers with the link to download the Dynamics 365 Field Service mobile app. Ability to view a list of all your frontline workers and edit their properties on the Bookable Resource form.
+- Field Services Bing maps capabilities are enabled by default. And this can also be seen in the 'Get Started' section.
+- Other than the work order form improvements released in early access, some more enhancements have been done including quick create of work order and making tax code optional.
+- Question types textbox, radio buttons, checkboxes and drop downs in Inspection templates can now have default values also be set before publish.
+
+There are few fixes too:
+- Fixed an issue where Work Order Service form could not be loaded properly from subgrid embedded in the custom Quick View form of Work Order when 'Work Order Subgrid Records Open as Popups' was enabled.
+- Corrected an issue in Entitlement Application regarding slow performance in Form Library when there are a large number of accounts.
+- Fixed an issue of duplicate agreement booking dates being generated for certain agreement and time zone criteria.
 
 
 ## 8.8.39.118 (2021 Wave 1 early access update)
