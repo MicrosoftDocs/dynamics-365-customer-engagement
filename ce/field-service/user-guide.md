@@ -150,7 +150,7 @@ The purpose of this section is to help you explore all the features of Field Ser
   
   <li> <a href="cfs-iot-alerts.md" data-raw-source="[Step 5: Create IoT alerts and convert them to work orders](cfs-iot-alerts.md)">Step 5: Create IoT alerts and convert them to work orders</a> </li>
   
-  <li> <a href="cfs-mobile-powerapp.md" data-raw-source="[Step 6: Connected Field Service on the mobile app](cfs-mobile-powerapp.md)">Step 5: Connected Field Service on the mobile app</a> </li>
+  <li> <a href="cfs-mobile-powerapp.md" data-raw-source="[Step 6: Connected Field Service on the mobile app](cfs-mobile-powerapp.md)">Step 6: Connected Field Service on the mobile app</a> </li>
 </ul>
 </td>
 </tr>
