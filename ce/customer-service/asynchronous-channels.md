@@ -16,13 +16,13 @@ ms.reviewer: nenellim
 
 ## Card support
 
-| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card |
-|----------------------|---------------|-----------|--------------|----------------|-------------|------------|
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ❌          | 
-| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
+| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | Animation card | 
+|----------|---------------|-----------|--------------|----------------|-------------|------------|--------- |
+| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  ✖ |
+| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | 
+| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖
+| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ |
+| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | ✖
 
 > [!Note]
 >
@@ -34,7 +34,7 @@ ms.reviewer: nenellim
 
 ⚠: Partial support: Card might not be displayed at all if it contains inputs or buttons. Varies by channel.
 
-❌: No support
+✖: No support
 
 🔶: Card is converted to image
 
