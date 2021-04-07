@@ -28,6 +28,12 @@ In Dynamics 365 Field Service, you can:
 - Associate work order resolutions with work orders
 - Relate resolutions to specific work order incident types to correlate issues with resolutions
 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWAMXK]
+
+
+
 In this article, we'll walk through how to create resolutions, add them to work orders, and associate them to incident types.
 
 
