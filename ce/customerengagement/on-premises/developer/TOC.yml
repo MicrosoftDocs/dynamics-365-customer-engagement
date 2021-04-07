@@ -40,8 +40,6 @@
         href: compress-extract-solution-file-solutionpackager.md
       - name: Source control with solution files
         href: use-source-control-solution-files.md
-      - name: Solution component file reference (SolutionPackager)
-        href: solution-component-file-reference-solutionpackager.md
 - name: Connect to Customer Engagement (on-premises)
   items:
   - name: Authenticate users

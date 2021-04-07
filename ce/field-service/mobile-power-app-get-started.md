@@ -59,7 +59,7 @@ After installing or upgrading to **Field Service v8.8.22+**, the "Field Service"
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
 
-## Assign security roles to the Field Service Mobile app
+## Assign security roles to the Field Service mobile app
 
 - Select the ellipses icon on the **Field Service Mobile** application, then choose **Manage Roles** and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
 
