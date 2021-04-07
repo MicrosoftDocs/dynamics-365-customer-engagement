@@ -68,9 +68,10 @@ In addition, it introduces the following key capabilities :
 - Other than the work order form improvements released in early access, some more enhancements have been done including quick create of work order and making tax code optional.
 - Question types textbox, radio buttons, checkboxes and drop downs in Inspection templates can now have default values also be set before publish.
 
-There are few fixes too:
-- Fixed an issue where Work Order Service form could not be loaded properly from subgrid embedded in the custom Quick View form of Work Order when 'Work Order Subgrid Records Open as Popups' was enabled.
-- Corrected an issue in Entitlement Application regarding slow performance in Form Library when there are a large number of accounts.
+Fixes include: 
+
+- Fixed an issue where work order service form could not be loaded properly from subgrid embedded in the custom quick view form of work order when **Work Order Subgrid Records Open as Popups** was enabled.
+- Corrected an issue in entitlement application regarding slow performance in form library when there are a large number of accounts.
 - Fixed an issue of duplicate agreement booking dates being generated for certain agreement and time zone criteria.
 
 ## 8.8.35.44 
@@ -82,16 +83,18 @@ This release is a hotfix on Field Service version [8.8.35.27](https://docs.micro
 ## 8.8.39.135 (2021 Wave 1 early access update)
 
 (Includes Universal Resource Scheduling version [3.12.43.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124371))
-This version introduces the Field Service 2021 Wave 1 new and updated features outlined as generally available. It also introduces all of the changes from the early access versions of this release. 
-In addition, it introduces the following key capabilities :
+This version introduces the Field Service 2021 Wave 1 new and updated features outlined as generally available. It also introduces all of the changes from the early access versions of this release.
 
-- First run experience to get started setting up Field Service. This new experience can be seen in the 'Get Started' section in the sitemap.
+This version also introduces the following key capabilities:
+
+- First-run experience to get started setting up Field Service. This new experience can be seen in the **Get Started** section in the sitemap.
 - Ability to assign frontline workers with characteristics, territories, and other properties. View or edit the security roles, field security profiles, and mobile offline profiles that are automatically assigned to the frontline worker. Automatically send an email to frontline workers with the link to download the Dynamics 365 Field Service mobile app. Ability to view a list of all your frontline workers and edit their properties on the Bookable Resource form.
-- Field Services Bing maps capabilities are enabled by default. And this can also be seen in the 'Get Started' section.
-- Other than the work order form improvements released in early access, some more enhancements have been done including quick create of work order and making tax code optional.
-- Question types textbox, radio buttons, checkboxes and drop downs in Inspection templates can now have default values also be set before publish.
+- Field Service's Bing maps capabilities are enabled by default. This can also be seen in the **Get Started** section.
+- Other than the work order form improvements released in early access, some more enhancements have been made, including quick-create for work orders and making tax code optional.
+- Question types textbox, radio buttons, checkboxes and drop downs in inspection templates can now have default values also be set before publish.
 
-There are few fixes too:
+Fixes include:
+
 - Fixed an issue where Work Order Service form could not be loaded properly from subgrid embedded in the custom Quick View form of Work Order when 'Work Order Subgrid Records Open as Popups' was enabled.
 - Corrected an issue in Entitlement Application regarding slow performance in Form Library when there are a large number of accounts.
 - Fixed an issue of duplicate agreement booking dates being generated for certain agreement and time zone criteria.
