@@ -1,5 +1,5 @@
 ---
-title: "Set managed properties for fields in Power Apps | MicrosoftDocs"
+title: "Set managed properties for fields with Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
 description: "Learn how to set managed properties for a field"
 ms.custom: 
 ms.date: 04/29/2019

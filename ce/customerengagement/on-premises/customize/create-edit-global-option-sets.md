@@ -1,5 +1,6 @@
 ---
-title: "Create and edit global option sets | MicrosoftDocs"
+title: "Create and edit global option sets with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to create and edit option sets
 ms.custom: 
 ms.date: 03/06/2019
 ms.reviewer: 

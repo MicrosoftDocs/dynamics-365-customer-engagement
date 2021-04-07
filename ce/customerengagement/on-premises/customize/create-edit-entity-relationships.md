@@ -1,5 +1,6 @@
 ---
-title: "Create and edit entity relationships | MicrosoftDocs"
+title: "Create and edit entity relationships with Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
+description: Learn how to create and edit entity relationships
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
