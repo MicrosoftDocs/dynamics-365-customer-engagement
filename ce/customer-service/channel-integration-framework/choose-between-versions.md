@@ -12,6 +12,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
+
 # Choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0
 
 This topic explains the key feature differences between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0, and helps you choose the version that suits your business requirements.

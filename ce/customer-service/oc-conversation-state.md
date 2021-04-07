@@ -1,8 +1,8 @@
 ---
 title: "Understand conversation states in Omnichannel | MicrosoftDocs"
 description: "Learn about the conversation states in Omnichannel."
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/19/2021
 ms.topic: article
@@ -57,7 +57,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
 
 > [!NOTE]
-> If you decline a conversation several times within a time span of five minutes, then the conversation will be moved to the **Closed** state.
+> If you decline a conversation 10 times within a time span of five minutes, then the conversation will be moved to the **Closed** state.
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active1.png "Active state")
 
