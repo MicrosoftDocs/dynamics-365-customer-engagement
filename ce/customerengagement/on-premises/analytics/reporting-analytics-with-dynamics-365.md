@@ -1,5 +1,6 @@
 ---
 title: "Reporting and Analytics Guide (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: This document set covers the reporting and analytics features with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
   - NaosGA
 ms.date: 09/30/2017
