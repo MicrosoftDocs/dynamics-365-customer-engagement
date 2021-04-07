@@ -34,6 +34,10 @@ landingContent:
             url: real-time-marketing-quickstart.md
           - text: Connect Customer Insights segments to real-time marketing
             url: real-time-marketing-customer-insights.md
+      - linkListType: tutorial
+        links:
+          - text: Event-based journey example
+            url: real-time-marketing-example.md
       - linkListType: learn
         links:
           - text: Known issues in real-time marketing
@@ -50,13 +54,15 @@ landingContent:
             url: real-time-marketing-event-based-journey.md
           - text: Create a segment-based journey
             url: real-time-marketing-segment-based-journey.md
+          - text: Personalize content
+            url: real-time-marketing-personalize.md
           - text: Experiment and refine real-time marketing journeys
             url: real-time-marketing-experimentation.md
           - text: Access and interpret analytics
             url: real-time-marketing-analytics.md
       - linkListType: reference
         links:
-          - text: Work with segments in real-time marketings
+          - text: Work with segments in real-time marketing
             url: real-time-marketing-segments.md
           - text: Real-time marketing journey tile reference
             url: real-time-marketing-tile-reference.md

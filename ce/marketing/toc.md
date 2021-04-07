@@ -121,30 +121,30 @@
 #### [Real-time marketing overview](real-time-marketing-overview.md)
 #### Get started with real-time marketing
 ##### [Real-time marketing quickstart guide](real-time-marketing-quickstart.md)
+##### [Connect Customer Insights segments to real-time marketing](real-time-marketing-customer-insights.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)
+##### [Troubleshoot + FAQs](real-time-marketing-faq.md)
+#### Channels
+##### [Create real-time marketing emails](real-time-marketing-email.md)
+##### [Create push notifications](real-time-marketing-push-notifications.md)
+##### [Create outbound text messages](real-time-marketing-outbound-text-messaging.md)
 #### Customer engagement
 ##### [Create an event-based journey](real-time-marketing-event-based-journey.md)
 ##### [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
+##### [Work with segments in real-time marketing](real-time-marketing-segments.md)
 ##### [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md)
+##### [Personalize content](real-time-marketing-personalize.md)
 ##### [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
-##### [Access and interpret single journey analytics](real-time-marketing-single-journey-analytics.md)
-##### [Access and interpret goal analytics](real-time-marketing-goal-analytics.md)
-##### [Access and interpret aggregate analytics](real-time-marketing-aggregate-analytics.md)
-##### [Real-time marketing channel analytics](real-time-marketing-channel-analytics.md)
+##### [Access and interpret analytics](real-time-marketing-analytics.md)
 ##### [Real-time marketing event triggers](real-time-marketing-event-triggers.md)
-#### Audience
-##### [Work with real-time marketing segments](real-time-marketing-segments.md)
+#### Assets
+##### [Real-time marketing asset library](real-time-marketing-asset-library.md)
+#### Administration
 ##### [Data protection and the GDPR for real-time marketing](real-time-marketing-gdpr.md)
 ##### [Manage user compliance settings](real-time-marketing-compliance-settings.md)
 ##### [Real-time marketing link tracking mechanics](real-time-marketing-link-tracking-mechanics.md)
 ##### [Manage email and text consent settings](real-time-marketing-email-text-consent.md)
 ##### [Outbound marketing consent](real-time-marketing-outbound-consent.md)
-#### Channels
-##### [Create real-time marketing emails](real-time-marketing-email.md)
-##### [Create push notifications](real-time-marketing-push-notifications.md)
-##### [Create outbound text messages](real-time-marketing-outbound-text-messaging.md)
-#### Assets
-##### [Real-time marketing asset library](real-time-marketing-asset-library.md)
 
 ### Email campaigns
 #### [Email marketing overview](prepare-marketing-emails.md)
