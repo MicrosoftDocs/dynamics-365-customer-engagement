@@ -3,9 +3,6 @@ title: Special field properties for main forms with Dynamics 365 Customer Engage
 description: Understand the special field properties for main forms
 Keywords: Main forms; Special field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 04/29/2019
