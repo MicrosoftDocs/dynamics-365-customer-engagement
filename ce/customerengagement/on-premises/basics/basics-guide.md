@@ -19,7 +19,7 @@ search.audienceType:
   - enduser
 
 ---
-# Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9
+# Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
 ::: moniker range=">= op-9-1"
 
