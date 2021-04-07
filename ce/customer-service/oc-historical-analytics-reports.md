@@ -15,6 +15,14 @@ You can configure historical analytics to give your service managers a combinati
 
 The following historical analytics reports are available:
 
+[Conversation report](oc-conversation-dashboard.md)
+[Queue report](oc-queue-dashboard.md)
+[Agent report](agent-dashboard.md)
+[Bot report](oc-bot-dashboard.md)
+[Conversation Topics report](oc-conversation-topics-dashboard.md)
+
+
+
 ## Enable Omnichannel historical analytic reports in Omnichannel for Customer Service
 
 Make sure that you have the required administrator permissions for Dynamics 365.
@@ -53,4 +61,8 @@ If your organization needs to enable users with different privileges to access t
 5. Select **Save and Close**. The Omnichannel supervisor will now be able to see the historical anaytics report.
 
 You can see the following reports by navigating to **Omnichannel for Customer Service**, creating a new session tab, and selecting **Omnichannel historical analytics**. The **Conversation** page is displayed.
+
+### See Also
+
+[Dashboard Overview](customer-service-analytics-insights-csh.md)
 

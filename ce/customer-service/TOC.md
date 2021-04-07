@@ -327,7 +327,12 @@
 ##### [Dashboards overview](customer-service-analytics-insights-csh.md)
 ##### [Summary dashboard](summary-dashboard-cs.md)
 ##### [Agent dashboard](agent-dashboard-cs.md)
-##### [Topics dashboard](topics-dashboard-cs.md)
+##### [Case Topics dashboard](case-topics-dashboard-cs.md)
+####  [Omnichannel conversation dashboard](oc-conversation-dashboard.md)
+####  [Omnichannel Queue dashboard](oc-queue-dashboard.md)
+####  [Omnichannel Agent dashboard](agent-dashboard.md)
+####  [Omnichannel Bot dashboard](oc-bot-dashboard.md)
+####  [Omnichannel Conversation topic dashboard](oc-conversation-topics-dashboard.md)
 ##### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
 ##### [View analytics dashboards created in Power BI](customer-service-analytics.md)
 #### Intraday supervisor experiences
