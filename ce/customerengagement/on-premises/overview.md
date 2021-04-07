@@ -14,9 +14,11 @@ manager: "annbe"
 
 ::: moniker range="op-9-1"
 
-Welcome to the Dynamics 365 Customer Engagement (on-premises), version 9.1 Help!
+Welcome to the Dynamics 365 Customer Engagement (on-premises), version 9.1 Help! 
 
-TODO: Add overview information for 9.1 release
+The Dynamics 365 Customer Engagement (on-premises) version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams. 
+
+[!INCLUDE [applies-not-to-9-1](includes/applies-not-to-9-1.md)]
 
 ::: moniker-end
 
