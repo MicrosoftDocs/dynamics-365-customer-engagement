@@ -26,7 +26,11 @@ You can create capacity profiles to define the types and amount of work that age
 
 ## Create a capacity profile and assign to users
 
-Perform the following steps to configure the capacity profile. After you create a capacity profile, you can edit any setting except reset frequency, and add or remove users. If you no longer require the profile, you can delete it.
+Create a capacity profile, and use it in a workstream that is used for routing work items. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution).
+
+For a capacity profile, you can edit any setting except reset frequency, and add or remove users. If you no longer require the profile, you can delete it.
+
+Perform the following steps to configure the capacity profile.
 
 1. In Omnichannel admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
 
@@ -47,3 +51,8 @@ Perform the following steps to configure the capacity profile. After you create 
 
 > [!NOTE]
 > In Omnichannel Administration, you can create a capacity profile in the **Capacity** area of the **User** page.
+
+
+### See also
+
+[Create workstreams](create-workstreams.md)
