@@ -40,7 +40,7 @@ This release also includes social posting to Instagram, an API to enable or disa
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10071.1039 |
+| Marketing        | 1.35.10071.2007 |
 
 > [!Tip]
 > To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
