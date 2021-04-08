@@ -2,8 +2,7 @@
 title: "Developer Guide for Dynamics 365 Sales | MicrosoftDocs"
 description: "Contains topics that describe how developers can work with Dynamics 365 Sales"
 ms.date: 04/08/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: susikka
 ms.author: susikka

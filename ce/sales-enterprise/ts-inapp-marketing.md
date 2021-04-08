@@ -98,7 +98,7 @@ The issue occurs because of one of the following reasons:
 
 To resolve the issue, do one of the following:
 
-- For the user who's creating the quick campaign, the **Send Email as Another User** privilege must be assigned to at least one role assigned to the user. More information: [Create a security role with team member's privilege inheritance](https://docs.microsoft.com/power-platform/admin/security-roles-privileges#create-a-security-role-with-team-members-privilege-inheritance)
+- For the user who's creating the quick campaign, the **Send Email as Another User** privilege must be assigned to at least one role assigned to the user. More information: [Create a security role with team member's privilege inheritance](/power-platform/admin/security-roles-privileges#create-a-security-role-with-team-members-privilege-inheritance)
     > [!div class="mx-imgBorder"]
     > ![Provide permission to send email as another user privilege for the user](media/troubleshooting-inapp-campaign-unable-send-email-assign-role.png "Provide permission to send email as another user privilege for the user")   
 - For the owner of the record, the **Allow other Microsoft Dynamics 365 users to send email on your behalf** check box must be selected under **Select whether other users can send email for you** on the **Set Personal Options** dialog box.
@@ -125,7 +125,7 @@ The Unified Interface implementation of the email template selector used during 
 
 **Resolution**
 
-To resolve the issue, users require access to system user records. Provide the access to system users by assigning them security roles in your Dynamics 365 organization. More information: [Configure user security to resources in an environment](https://docs.microsoft.com/power-platform/admin/database-security)
+To resolve the issue, users require access to system user records. Provide the access to system users by assigning them security roles in your Dynamics 365 organization. More information: [Configure user security to resources in an environment](/power-platform/admin/database-security)
 
 <a name="campaign-activity-distribution-related-issues"></a>
 ## Campaign activity distribution issues

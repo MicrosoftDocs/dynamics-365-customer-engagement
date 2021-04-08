@@ -18,7 +18,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Public Preview: Use Edge Process to host web applications
+# Use Edge Process to host web applications (deprecated)
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -124,14 +124,14 @@ With Edge process, you can use the **Microsoft Edge DevTools Preview** tool as a
 
 In the panel, you can see all the active Edge process. Select the desired webpage from the active list to open a new instance.
 
-More information: [Microsoft Edge DevTools Preview](https://docs.microsoft.com/microsoft-edge/devtools-guide)
+More information: [Microsoft Edge DevTools Preview](/microsoft-edge/devtools-guide)
 
 ## RunScript action is asynchronous in Edge Process
 
 The Microsoft Edge browser supports only the asynchronous operations, and the RunScript action will be asynchronous.
 If your custom code execution is dependent on the return value provided by RunScript action that injects JavaScript into the main frame of the application, then your custom code execution might fail.
 
-For example, Your custom code has a RunScript actions that injects the JavaScript into the main frame of the application followed by an operation or another RunScript action. The RunScript action is invoked and returns a value after the JavaScript injection. If the subsequent operation or another RunScript action executes based on the return value provided by the executed RunScript action, then subsequent operations of your custom code will fail.
+For example, your custom code has a RunScript actions that injects the JavaScript into the main frame of the application followed by an operation or another RunScript action. The RunScript action is invoked and returns a value after the JavaScript injection. If the subsequent operation or another RunScript action executes based on the return value provided by the executed RunScript action, then subsequent operations of your custom code will fail.
 
 ### Scenario example 
 

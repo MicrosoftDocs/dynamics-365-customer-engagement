@@ -2,8 +2,7 @@
 title: "Troubleshooting guide for Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues your users might face while working on Dynamics 365 Sales."
 ms.date: 02/10/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

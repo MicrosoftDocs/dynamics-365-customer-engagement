@@ -2,8 +2,7 @@
 title: "Learn the basics of Dynamics 365 Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 Sales and its user interface."
 ms.date: 07/16/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr

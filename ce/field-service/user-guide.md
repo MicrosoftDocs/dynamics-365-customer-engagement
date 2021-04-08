@@ -1,5 +1,5 @@
 ---
-title: "User guide for Dynamics 365 Field Service | MicrosoftDocs"
+title: "User guide for Dynamics 365 Field Service | Microsoft Docs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.custom:
   - dyn365-fieldservice
@@ -148,7 +148,9 @@ The purpose of this section is to help you explore all the features of Field Ser
   
   <li> <a href="cfs-visualizations-iot-hub.md" data-raw-source="[Step 4: View device readings](cfs-visualizations-iot-hub.md)">Step 4: View device readings</a> </li>
   
-  <li> <a href="cfs-mobile-powerapp.md" data-raw-source="[Step 5: Connected Field Service on the mobile app](cfs-mobile-powerapp.md)">Step 5: Connected Field Service on the mobile app</a> </li>
+  <li> <a href="cfs-iot-alerts.md" data-raw-source="[Step 5: Create IoT alerts and convert them to work orders](cfs-iot-alerts.md)">Step 5: Create IoT alerts and convert them to work orders</a> </li>
+  
+  <li> <a href="cfs-mobile-powerapp.md" data-raw-source="[Step 6: Connected Field Service on the mobile app](cfs-mobile-powerapp.md)">Step 6: Connected Field Service on the mobile app</a> </li>
 </ul>
 </td>
 </tr>

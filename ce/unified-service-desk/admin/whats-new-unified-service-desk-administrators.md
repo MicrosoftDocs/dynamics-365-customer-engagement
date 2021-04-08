@@ -1,10 +1,10 @@
 ---
-title: "What's new in Unified Service Desk  for administrators | MicrosoftDocs"
+title: "What's new in Unified Service Desk for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/04/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -20,6 +20,52 @@ search.app:
 # What's new in Unified Service Desk for administrators
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+
+::: moniker range="dynamics-usd-4.2"
+
+## What's new in Unified Service Desk 4.2 (Preview)
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+
+
+### Use Edge WebView2 Process to host web applications in Unified Service Desk
+
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
+
+The advantages of using the Edge WebView2 Process hosting method are:
+
+- Available on supported versions of the Windows operating system.
+- Highly reliable.
+- Easy to configure to host applications in Unified Service Desk.
+- Switch seamlessly from one browser to another for your entire organization.
+- Enhanced performance and memory optimization.
+
+Also, administrators will be able to perform the following:
+
+- Select Edge process as the hosting type for the organization.
+- Select Edge process as the hosting type for select web applications, alongside Chrome process.
+
+More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
+
+
+### Recover an Edge WebView2 Process instance
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Edge WebView2 Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, Edge WebView2 Process instance recovery is enabled.
+
+More information: [Recover an Edge WebView2 process instance](recover-edge-webview2-process-instance.md)
+
+### Pool process instances for Edge WebView2 Process
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 Process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 Process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, the Edge WebView2 Process instance pooling is enabled.
+
+With the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+
+::: moniker-end 
 
 ::: moniker range="dynamics-usd-4.1"
 
@@ -350,14 +396,16 @@ These are the limitations:
  Previous versions maintained the error diagnostics reporting settings in the Options area of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution. With this release, to simplify configuration the error diagnostics reporting settings have been moved to the Audit & Diagnostics Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#create-an-audit--diagnostics-record-to-use-for-auditing)  
 
 ### Support for JAWS screen reader  
- You can now use the JAWS (Job Access With Speech) version 18 for Windows screen reader application for speech output with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility in Unified Service Desk](https://go.microsoft.com/fwlink/?linkid=826563)  
+ You can now use the JAWS (Job Access With Speech) version 18 for Windows screen reader application for speech output with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility in Unified Service Desk](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826622(v=crm.8))  
 
 ::: moniker-end
 
 ## See also  
- [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)
+ [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)     
+
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   
- [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+
+ [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
