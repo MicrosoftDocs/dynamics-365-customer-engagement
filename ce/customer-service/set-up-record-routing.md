@@ -17,19 +17,22 @@ You can configure settings for record routing in Customer Service Hub, Omnichann
 
 ## Prerequisites
 
-To route entity records, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues)
+- To route entity records, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#step-2-enable-entity-for-activities-and-queues)
+- The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing)
+- You must have the CSR Manager role to configure record routing.
 
-The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing)
+## Configure unified routing for records
 
-## Configure unified routing for records in Customer Service Hub
-
-You can configure record routing for entities in Customer Service Hub and Omnichannel admin center.
+You can configure record routing for entities through Customer Service Hub or Omnichannel admin center.
 
 Perform the following steps to configure record routing:
 
-1. In Customer Service Hub, in the Service Management change area, on the site map, select **Record routing** under **Unified Routing**. If you are using Omnichannel admin center, on the site map, select **Record routing** under **General settings**. 
+1. If you're using Customer Service Hub, then in the **Service Management** change area, on the site map, select **Record routing** under **Unified Routing**. If you're using Omnichannel admin center, on the site map, select **Record routing** under **General settings**.
+
 2. On the **Record routing** page, select **Add**.
+
 3. In the **Add a record type** dialog box, select an entity from the **Record type** list, and select **Add**. The entity is added and listed on the **Record routing** page.
+
 4. Do the following tasks:
    1. Configure workstreams.
    2. Configure intake rules.
@@ -38,12 +41,14 @@ Perform the following steps to configure record routing:
 
 To configure a workstream for the entity record, do the following:
 
-1. In the Customer Service Hub, in the Service Management change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**.
+1. In the Customer Service Hub, in the **Service Management** change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**. If you're using Omnichannel admin center, on the site map, select **Workstreams** under **General settings**.
+
 2. In the **Create a workstream** dialog box, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
     - **Type**: Select **Record**.
     - **Record type**: Select an entity record from the list.
+
 3. Select **Create**. The workstream is created.
 
 ### Configure intake rules
@@ -64,7 +69,7 @@ The following screenshot shows a workstream with the required intake rule and ro
 
 ![Workstream for a case record](media/ur-record-routing-workstream.png "Workstream for a case record")
 
-### Configure work distribution and Advanced settings
+### Configure work distribution and advanced settings
 
 1. In the **Work distribution** area, you can either accept the default settings or select **See more**, and update the following options:
    - **Capacity**: Select one of the following options:
