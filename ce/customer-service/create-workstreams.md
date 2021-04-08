@@ -30,11 +30,12 @@ The workstream can be one of the following types:
 
 ## Create a workstream in Omnichannel admin center
 
-You must have the Omnichannel administrator or the 
+You must have the Omnichannel administrator or the CSR Manager role.
 
 Perform the following steps:
 
 1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**, and then select **New**.
+
 2. In the **Create a workstream** dialog box, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
@@ -199,8 +200,9 @@ Because the conversation assignment takes place using the notification alert, th
 
 ### See also
 
+[Set up record routing](set-up-record-routing.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Create workstream for entity record routing](set-up-entity-workstream.md)  
+[Create workstream for entity record routing in Omnichannel Administration](set-up-entity-workstream.md)  
 [Work with queues](queues-omnichannel.md)  
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)  
 

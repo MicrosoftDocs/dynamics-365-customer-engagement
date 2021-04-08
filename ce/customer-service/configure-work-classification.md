@@ -12,9 +12,10 @@ ms.service: "dynamics-365-customerservice"
 
 Work classification lets you define classification rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
-Perform the tasks listed in this section to configure the work classification rules for the work stream that you created. You will perform these tasks in the Omnichannel admin center or Customer Service Hub app.
+With the CSR Manager or Omnichannel administrator role, perform the tasks listed in this section to configure the work classification rules for the workstream that you created. You will perform these tasks in the Omnichannel admin center or Customer Service Hub app.
 
-You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
+> [!IMPORTANT]
+> You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
 
 ## Create manual work classification rulesets
 
@@ -22,8 +23,8 @@ The rules in a ruleset will be evaluated when a work item enters the queue.
 
 To create a manual work classification ruleset, do the following:
 
-1. Select a work stream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
-2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog box, select  **Rule Type** as **Manual**, and enter a name and description.
+1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
+2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog box, select **Rule Type** as **Manual**, and enter a name and description.
 3. In the **Decision list** area, select **Create Rule**, and on the **Create demand rule** dialog box, enter a name.
 4. In the **Conditions** area, define the conditions according to your business needs.
 5. In the **Output** area, select the attribute for which value needs to be set if the conditions are met.
@@ -38,7 +39,7 @@ To create a manual work classification ruleset, do the following:
 
 Follow these steps to create a manual skill classification ruleset:
 
-1. Select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
+1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 2. On the **Work classification** page, select **Create new**.
 3. In the **Create work classification ruleset** dialog box, select  **Rule Type** as **Manual**, and enter a name and description.
 4. Select **Create Rule**, and on the **Create demand rule** dialog box, enter a name.
@@ -52,7 +53,7 @@ To configure a skill classification ruleset by using the machine learning option
 
 Do the following to configure a machine learning-based ruleset:
 
-1. For a workstream, in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
+1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
 2. On the **Work classification** page, select **Create new**.
 3. In the **Create work classification ruleset** dialog box, select  **Rule Type** as **Machine learning model**, and enter a name and description.
 4. Select a model in the **Select skill identification model** list, and select **Create**.
@@ -68,7 +69,7 @@ Do the following to configure a machine learning-based ruleset:
 
 ## Configure route to queues ruleset and rules
 
-1. For a workstream, in the **Routing rules** section, select **Create ruleset** beside **Route to queues**, and then select **Create Rule** in **Decision list**.
+1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** beside **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog box, enter a name in **Rule Name**.
 3. In **Conditions**, define the set of conditions.
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
@@ -79,3 +80,11 @@ Do the following to configure a machine learning-based ruleset:
  
 > [!NOTE] 
 > You can reorder the rules in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
+
+
+### See also
+
+[Create a workstream for unified routing](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center)  
+[Set up record routing](set-up-record-routing.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

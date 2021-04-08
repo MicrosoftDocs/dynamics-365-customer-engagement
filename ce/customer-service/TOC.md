@@ -73,14 +73,14 @@
 
 #### [Create queues](queues-omnichannel.md)
 ##### [Set up assignment methods for queues](assignment-methods.md)
-#### [Create work classification rulesets](configure-work-classification.md)
+#### [Configure work classification rulesets](configure-work-classification.md)
 
 #### Set up skill-identification rules
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
 ##### [Enable agents to attach skills, create rating models](enable-skill-routing-create-rating-model.md)
 ##### [Set up skill finder model](intelligent-skill-model.md)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
-##### [Attach skills to conversations](attach-skills.md)
+##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
 
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
