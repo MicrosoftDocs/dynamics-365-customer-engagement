@@ -70,7 +70,7 @@ views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-c
 7. Select **Publish** to save and publish the customizations.
     The changes are applicable to the Add products dialog of the selected entity.
 
-8. Open the entity that you've customized. If you customized the add products view for quotes, open a quote and then click **Add products**. Verify whether the customizations to the grid are reflected in the dialog box.
+8. Open the entity that you've customized. If you customized the add products view for quotes, open a quote and then select **Add products**. Verify whether the customizations to the grid are reflected in the dialog box.
     
 
 ## Add or edit attributes in the Product column
@@ -96,14 +96,14 @@ By default, the **Product** column in the Add product dialog includes the produc
 4. Select **Customize Product lookup view.**
     You'll be redirected to the **Product Lookup View** in Power Apps.
 
-5. Click **+ View Column** and then select the attributes you want to add. Or, simply drag-and-drop the attributes into the grid.
+5. Select **+ View Column** and then select the attributes you want to add. Or, simply drag-and-drop the attributes into the grid.
 
 6. To remove an attribute, select the attribute in the grid and select **Remove**.
 
-7. Click **Publish** to save and publish the customizations.
+7. Select **Publish** to save and publish the customizations.
     The changes are applicable to the Add products dialog of opportunity, quote, order, and invoice.
 
-7. To verify the changes, open an opportunity and click **Add products**.  
+7. To verify the changes, open an opportunity and select **Add products**.  
    You will see the updated attributes in the **Product** column.
 
 ## Customize the fields to search  
@@ -118,14 +118,14 @@ By default, the search field in the Add products dialog searches the product nam
 
 3. Select the **Views** tab and open the **Quick Find All Products** view. 
 
-4. In the right pane, go to the **Find by** section and click **Edit find table columns**. Select the fields you want to include in search.
+4. In the right pane, go to the **Find by** section and select **Edit find table columns**. Select the fields you want to include in search.
     > [!NOTE] 
     > Select only the text-based fields.
 
     >[!div class="mx-imgBorder"]
     >![Image of the Find by section in the right pane with the Edit find table column highlighted](media\sales-hub-quick-find-view.png "Image of the Find by section in the right pane with the Edit find table column highlighted")
 
-5. Click **Publish** to save and publish changes to the view.
+5. Select **Publish** to save and publish changes to the view.
     The changes are applicable to the product search in the Add products dialog of opportunity, quote, order, and invoice.
 
 6. To verify the changes, open an opportunity and select **Add products**.
