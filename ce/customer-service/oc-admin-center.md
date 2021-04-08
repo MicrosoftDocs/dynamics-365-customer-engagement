@@ -19,7 +19,6 @@ If you are an upgrading user of Omnichannel for Customer Service, you can perfor
 
 > [!NOTE]
 > You can set up unified routing for Customer Service and Omnichannel for Customer Service in the Omnichannel admin center or Customer Service Hub app only.
-> 
 
 In the Omnichannel admin center app, you can configure the following settings:
 

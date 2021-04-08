@@ -77,7 +77,7 @@
 
 #### Set up skill-identification rules
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
-##### [Enable skill-based routing, rating model](enable-skill-routing-create-rating-model.md)
+##### [Enable agents to attach skills, create rating models](enable-skill-routing-create-rating-model.md)
 ##### [Set up skill finder model](intelligent-skill-model.md)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
 ##### [Attach skills to conversations](attach-skills.md)

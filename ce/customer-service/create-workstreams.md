@@ -13,7 +13,7 @@ ms.service: "dynamics-365-customerservice"
 
 ## Overview
 
-A workstream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
+A workstream is a collection of routing rules. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
 
 A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to.
 
@@ -26,9 +26,11 @@ The workstream can be one of the following types:
 > [!IMPORTANT]
 >
 > - Entity routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing.
-> - Workstreams that you created in Omnichannel Administration app can't be modified
+> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app.
 
 ## Create a workstream in Omnichannel admin center
+
+You must have the Omnichannel administrator or the 
 
 Perform the following steps:
 

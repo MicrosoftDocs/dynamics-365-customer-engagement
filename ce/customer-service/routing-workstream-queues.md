@@ -33,7 +33,6 @@ They are a sub-type of work classification rules and are rules defined to attach
 
 ## Route-to-queues rules
 
-
 Queue routing rules are rules to send the work item to the right queue. They are written in the format of "if defined condition satisfies, then route the work item to the defined queue." They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, the route-to-queue ruleset is run after all the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
 
 ### How prioritization rule set works

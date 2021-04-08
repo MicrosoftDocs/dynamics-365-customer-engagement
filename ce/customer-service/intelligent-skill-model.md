@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Set up intelligent skill finder model
 
-You can create and train machine learning models that use AI to determine the necessary skills for new work items.
+You can create and train machine-learning models that use AI to determine the necessary skills for new work items.
 
 ## Create skill finder models
 
