@@ -30,30 +30,34 @@ To see data related to work items and their status, you need to enable routing d
 
 2. Perform one of the following steps. 
 
-   - In Customer Service Hub, go to the **Service Management** work area.
-   - Sign in to **Omnichannel admin centre**.
+In Customer Service Hub, go to the **Service Management** work area and select **Diagnostics**.
 
-3. Select **Diagnostics** from the **Advanced settings** options in the menu .
+or
 
-4. On the **Routing diagnostics** page command bar, select **Turn on routing diagnostics**.
+Sign in to **Omnichannel admin centre** and select **Diagnostics** from the **Advanced settings** options in the menu.
 
-5. In the confirmation message that appears, select **Yes**.
+3. On the **Routing diagnostics** page command bar, select **Turn on routing diagnostics**.
 
-You'll see a list of work items on your screen.
+4. In the confirmation message that appears, select **Yes**.
+
+You'll see a list of new work items appear on your screen. However, Work items may not appear on your screen immediately.
+
+> [!NOTE]
+> After you enable diagnostics, the data will be stored in your CDS storage. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
 
 
 ## Understand routing stages and diagnostics
 
-The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in: The following table displays the information to help you understand routing diagnostics.
+The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. The following table displays the information to help you understand routing diagnostics.
 
-- **Work item**: The name of the work item.
+- **Work item**: The name of the work item.Work items can be searched and sorted by clicking the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
 - **Routing started on**: The time and date when the routing began
 - **Routing duration**: The amount of time the work item has been in its current stage.
 - **Work stream**: The name of the work stream that the work item was assigned to.
 - **Queue**: The name of the queue that the work item was routed to.
 
-You can select any work item to see a **Summary** page that shows detailed information about when the work item was created, its current stage, and the duration of each stage. You can also open the work item to see the related case.
+You can select any work item to see a **Summary** page that shows detailed information about when the work item was created, its current stage, and the duration of each stage. You can also open the work item to see the related case. 
 
 ## Routing diagnostics flow
 
@@ -70,6 +74,12 @@ When a work item comes in, it goes to the first work stream in the **Intake** ta
 
 After a work item passes the **Intake** stage, it's then classified through several rule sets and rule items.
 
+A work item passes through three stages.
+
+- **Processed** : Work item has passed through a rule set but didn't match with the rule set and is therefore not run.
+- **Applied** : Work item has passed through a rule set and matched with the conditions of the rule set.
+- **Not processed**: Work item did not pass through a rule set. 
+
 ### Classification
 
 If a work item doesn't run through a particular rule set in the **Classification rulesets** list, the **Run status** check mark is displayed in red. When the work item executes a particular rule set, the **Run status** check mark is displayed in green. A work item executes all rule sets, but it doesn't execute all rule items within the rule set.
@@ -84,14 +94,21 @@ The Prioritization rule set is a list of prioritization rules. Work items are ro
 
 ### Assignment selection
 
-< Awaiting inputs from the team. Info will be added later.>
+If more than one assignment rule set is created, specific rules need to be created for the selection criteria to work. The assignment selection criteria determines which rule set has the closest match and also determine which rule out of the many rules should be run.
 
 ### Assignment
 
 Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions on which work items need to be assigned to agents. 
 
+
 ### See also
 
-[Overview of skill based routing](overview-skill-work-distribution.md)
+- [Overview of skill based routing](overview-skill-work-distribution.md)
+
+- [Assignment methods for Queues](assignment-methods.md)
+
+- [Create and manage routing rules](routing-rules.md)
+
+- [Routing and assignment rules](routing-workstream-queues.md)
 
 
