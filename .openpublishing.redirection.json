@@ -14127,7 +14127,12 @@
     },
     {
       "source_path": "ce/developer/solution-component-file-reference-solutionpackager.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/solution-component-file-reference-solutionpackager",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/solution-component-file-reference-solutionpackager.md",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager",
       "redirect_document_id": "false"
     },
     {
