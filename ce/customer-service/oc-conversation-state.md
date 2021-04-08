@@ -2,7 +2,7 @@
 title: "Understand conversation states in Omnichannel | MicrosoftDocs"
 description: "Learn about the conversation states in Omnichannel."
 author: mh-jaya
-ms.author: v-mhj
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/19/2021
 ms.topic: article
