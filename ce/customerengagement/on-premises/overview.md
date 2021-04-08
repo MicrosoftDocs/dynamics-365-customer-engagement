@@ -25,7 +25,7 @@ Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces ma
 
 To view information about Dynamics 365 Customer Engagement (on-premises), version 9.0, select 9.0 from the **Version** selector located above the left navigation pane.
 
-<img src = "deploy/media/docs-version-picker.png" alt = "Version selector on Microsoft Docs" width = "350" height = "350">
+<img src = "deploy/media/docs-version-picker.png" alt = "Version selector on Microsoft Docs">
 
 ::: moniker-end
 
