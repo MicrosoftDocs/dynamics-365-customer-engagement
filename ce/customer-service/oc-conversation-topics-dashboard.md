@@ -14,7 +14,7 @@ ms.service: dynamics-365-customerservice
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. 
 
 > [!div class="mx-imgBorder"]
-> ![Omnichannel Conversation Topics dashboard](media/oc-conversation-topics-dashboard.png "Omnichannel Conversation Topics dashboard")
+> ![Omnichannel Conversation Topics dashboard](media/oc-topics.png "Omnichannel Conversation Topics dashboard")
 
 To view the Topics dashboard, go to Omnichannel historical analytics and select  **Topics** in the workspace.
 

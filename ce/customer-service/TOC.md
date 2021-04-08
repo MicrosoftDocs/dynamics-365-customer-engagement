@@ -306,6 +306,7 @@
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
+### [Region availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
 
 ### Administrator experience
 #### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
@@ -315,7 +316,7 @@
 #### [Configure knowledge search insights](enable-knowledge-search-insights.md)
 #### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
-#### [Configure topic clustering for conversation](ai-topic-clustering-conversations.md)
+#### [Configure AI topic clustering for conversation](ai-topic-clustering-conversations.md)
 #### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)

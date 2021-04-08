@@ -97,6 +97,8 @@ The Agent drill down view provides supervisors with a holistic look into individ
 
 To access the drill down, select any metric value for the desired agent and select **Details**.  
 
+> [!div class="mx-imgBorder"]
+> ![Omnichannel agent drill down](media/oc-agent-drill-down.png "Omnichannel agent drill down")
 
 ## Agent Hourly details drill down view
 

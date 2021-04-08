@@ -32,7 +32,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 2. Go to **Insights** and select **Settings**. The **Insights settings** page is displayed.
 
  > [!div class="mx-imgBorder"]
- >![Insights settings](media/customer-service-insights.png "Omnichannel historical analytics")
+ >![Insights settings](media/oc-conversation.png "Omnichannel historical analytics")
 
 3. Select **Manage** next to Omnichannel historical analytics.
 
