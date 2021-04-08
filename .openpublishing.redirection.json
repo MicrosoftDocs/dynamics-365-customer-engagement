@@ -14127,7 +14127,12 @@
     },
     {
       "source_path": "ce/developer/solution-component-file-reference-solutionpackager.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/solution-component-file-reference-solutionpackager",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/solution-component-file-reference-solutionpackager.md",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/compress-extract-solution-file-solutionpackager",
       "redirect_document_id": "false"
     },
     {
@@ -21077,6 +21082,21 @@
     {
       "source_path": "ce/customer-service/smart-assist.md",
       "redirect_url": "/dynamics365/app-profile-manager/smart-assist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/configure-topics-clustering.md",
+      "redirect_url": "/dynamics365/customer-service/configure-topics-clustering-cases",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/configure-historical-analytics-csh.md",
+      "redirect_url": "/dynamics365/customer-service/configure-cs-historical-analytics-csh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/enable-knowledge-search-analytics.md",
+      "redirect_url": "/dynamics365/customer-service/enable-knowledge-search-insights",
       "redirect_document_id": false
     }
   ]

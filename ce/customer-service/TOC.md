@@ -26,6 +26,7 @@
 
 ## Installation and upgrade
 ### [Install Customer Service](availability-customer-service-hub.md)
+### [Move from Customer Service Enterprise to Professional](move-cs-enterprise-cs-professional.md)
 ### Install Omnichannel for Customer Service
 #### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 #### [Export and import Omnichannel for Customer Service](export-import-omnichannel-data.md)
@@ -101,11 +102,11 @@
 #### Manage service schedules
 ##### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 ##### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+#### [Add timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md)
+#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### Agent experience
 #### [Manage case SLAs](customer-service-hub-user-guide-case-sla.md)
-### Customize SLAs
-#### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
-#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
+
 
 ## Email
 ### [Use email](customer-service-hub-user-guide-email-overview.md)
@@ -117,7 +118,7 @@
 ### [Email FAQs and known issues](email-faqs.md)
 ### Administrator experience
 #### [Configure the email form order](customer-service-hub-user-guide-email-admin.md)
-#### [Configure the default email font](customer-service-hub-user-guide-email-font-admin.md)
+#### [Configure the email experience](customer-service-hub-user-guide-email-font-admin.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
@@ -128,9 +129,11 @@
 ### Administrator experience
 #### [Set up knowledge search providers](set-up-search-providers.md)
 #### [Work with knowledge articles](work-knowledge-articles.md)
+#### [Configure the knowledge article authoring language](set-knowledge-article-authoring-language.md)
 #### [Create a knowledge article using a template](create-knowledge-article-using-template.md)
 #### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
 #### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Configure knowledge article search filters](enable-knowledge-article-search-filters.md) 
 #### [Create and manage knowledge categories](create-manage-categories.md)
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
 #### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)
@@ -306,9 +309,9 @@
 
 ### Administrator experience
 #### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
-#### [Configure historical analytics](configure-historical-analytics-csh.md)
-#### [Configure topic clustering](configure-topics-clustering.md)
-#### [Configure knowledge search analytics](enable-knowledge-search-analytics.md)
+#### [Configure historical analytics](configure-cs-historical-analytics-csh.md)
+#### [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)
+#### [Configure knowledge search insights](enable-knowledge-search-insights.md)
 #### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
 #### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
@@ -335,7 +338,11 @@
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
 #### Monitor conversations
 ##### [Monitor, assign, and transfer conversations](monitor-conversations.md)
+<<<<<<< HEAD
 ##### [Monitor and analyze sentiments](supervisor-sentiment-monitoring.md)
+=======
+##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
+>>>>>>> 2468dac03ba33188e46114b585b8ddc351a929a8
 ### Customize insights
 #### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 
@@ -403,15 +410,14 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Migration solutions
-### Administrator experience
-#### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
-#### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
-#### Migrate service scheduling
-##### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
-##### [Plan service scheduling migration](plan-migration.md)
-##### [Migrate service scheduling](migrate-entity-records.md)
-#### Migration FAQs
-##### [FAQs on Migration tool for automatic record creation rules and SLAs](migrate-tool-faqs.md)
+### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
+### Migrate service scheduling
+#### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+#### [Plan service scheduling migration](plan-migration.md)
+#### [Migrate service scheduling](migrate-entity-records.md)
+### Migration FAQs
+#### [FAQs on Migration tool for automatic record creation rules and SLAs](migrate-tool-faqs.md)
 
 ## Deprecations
 ### [Deprecations in Customer Service](deprecations-customer-service.md)
