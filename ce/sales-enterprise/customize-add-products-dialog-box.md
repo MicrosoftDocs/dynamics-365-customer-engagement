@@ -22,9 +22,9 @@ searchScope:
 > [!IMPORTANT]
 > Customizations described in this topic must be done within a custom solution. For more information see, [Why you shouldn't use the default solutions to manage customizations](/power-platform/alm/use-solutions-for-your-customizations#why-you-shouldnt-use-the-default-solutions-to-manage-customizations)
   
-As a system administrator, you can customize the **Add products** dialog box by adding information that will help your salespeople to identify and select products quickly. You can either add more columns to
-the grid or add more attributes to the **Product** column. Attributes in the **Product** column help sellers get more information *before* choosing a product. So, if you want to add a category or
-product ID to help distinguish products from each other, add it to the **Product** column. On the other hand, if sellers need to perform an action *after* selecting a product&mdash;for example, choosing delivery priority (a custom attribute)&mdash;add that attribute to the grid.
+As a system administrator, you can customize the **Add products** dialog box by adding information that will help your salespeople to identify and select products quickly. 
+
+You can either add more columns to the grid or add more attributes to the **Product** column. Attributes in the **Product** column help sellers get more information *before* choosing a product. So, if you want to add a category or product ID to help distinguish products from each other, add it to the **Product** column. On the other hand, if sellers need to perform an action *after* selecting a product&mdash;for example, choosing delivery priority (a custom attribute)&mdash;add that attribute to the grid.
 
 >[!IMPORTANT]
 >- The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -40,12 +40,12 @@ By default, the **Add products** dialog box displays the following columns in th
 - Price per unit
 - Quantity
 
- > [!NOTE]
- > The procedure below refers to the customization option available in the Sales Hub app. If you are using a custom app, access the following views from Power Apps:
-> Opportunity products Add products
-> Quote products Add products
-> Order products Add products
-> Invoice products Add products
+> [!NOTE]
+> The procedure below refers to the customization option available in the Sales Hub app. If you are using a custom app, access the following views from Power Apps:
+> - Opportunity products Add products
+> - Quote products Add products
+> - Order products Add products
+> - Invoice products Add products
 
 For information about editing views, go to [Choose and configure columns in model-driven app
 views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
@@ -121,7 +121,9 @@ By default, the search field in the Add products dialog searches the product nam
 4. In the right pane, go to the **Find by** section and click **Edit find table columns**. Select the fields you want to include in search.
     > [!NOTE] 
     > Select only the text-based fields.
-    ![Image of the Find by section in the right pane with the Edit find table column highlighted](media\sales-hub-quick-find-view.png)
+
+    >[!div class="mx-imgBorder"]
+    >![Image of the Find by section in the right pane with the Edit find table column highlighted](media\sales-hub-quick-find-view.png "Image of the Find by section in the right pane with the Edit find table column highlighted")
 
 5. Click **Publish** to save and publish changes to the view.
     The changes are applicable to the product search in the Add products dialog of opportunity, quote, order, and invoice.
@@ -132,7 +134,7 @@ By default, the search field in the Add products dialog searches the product nam
 
 ### See also
 
-[Create a solution](/powerapps/maker/data-platform/create-solution)
+[Create a solution](/powerapps/maker/data-platform/create-solution)  
 [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)  
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
 [Add products to quotes, orders, or invoices](add-products-qoi-enhanced.md)
