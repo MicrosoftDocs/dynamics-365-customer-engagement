@@ -45,3 +45,5 @@ Unified routing optimizes businesses in the following ways:
 
 [Create workstreams](create-workstreams.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
+[Set up record routing](set-up-record-routing.md)  
+[Configure work classification rulesets](configure-work-classification.md)  
