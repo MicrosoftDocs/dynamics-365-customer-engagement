@@ -73,6 +73,7 @@
 #### [Open the Power Apps customization window](customize-open-powerapps.md)
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
+#### [Customize the email designer](developer/email-designer-customization.md)
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
