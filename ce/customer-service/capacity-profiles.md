@@ -19,7 +19,6 @@ You can create capacity profiles to define the types and amount of work that age
 - The supervisor can override the agent's configured capacity and assign work to user manually.
 - The administrator can set the profile-based capacity in the work distribution settings. But, the capacity profile can be overridden in work classification.
 - In the queue assignment rule, you can create a rule to find an agent whose capacity profile matches that of the work item.
-- 
 
 
 > [!IMPORTANT]
