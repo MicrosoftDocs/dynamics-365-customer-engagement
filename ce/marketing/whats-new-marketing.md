@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/06/2021
+ms.date: 04/07/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -30,6 +30,9 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 ## April 2021 update
 
 The Dynamics 365 Marketing April 2021 update includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever.
+
+> [!TIP]
+> To enable the email editor, activate the **Updated email editing experience** [feature switch](admin-feature-switches.md).
 
 This release also includes social posting to Instagram, an API to enable or disable cookies, a new custom “Envelope-From” domain option, performance upgrades, and bug fixes.
 
