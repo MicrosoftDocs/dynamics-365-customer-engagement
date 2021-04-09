@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.custom:
   - dyn365-fieldservice
-ms.date: 01/20/2021
+ms.date: 04/09/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -92,8 +92,8 @@ This release is a hotfix on Field Service version [8.8.35.27](https://docs.micro
 ## 8.8.39.142 (2021 Wave 1 early access update)
 This release is a hotfix on Field Service version [8.8.39.135](https://docs.microsoft.com/dynamics365/field-service/version-history#8839135).
 
--	Fixed a Field Service upgrade issue when the relationship between knowledge article and customer asset/product already existed in the active layer.
--	Fixed a Field Service upgrade issue that was throwing error like ‘Property Inspection is required, but the declaration is missing’
+-	Fixed a Field Service upgrade issue when the relationship between knowledge article and customer asset or product already existed in the active layer.
+-	Fixed a Field Service upgrade issue that was throwing error: "Property Inspection is required, but the declaration is missing."
 
 ## 8.8.39.135 (2021 Wave 1 early access update)
 
