@@ -11,39 +11,39 @@ ms.service: "dynamics-365-customerservice"
 
 # Add security roles for admins and users
 
-You can use the Microsoft Dynamics 365 admin center to assign user security roles. Persona mapping can be found in the Omnichannel Admin Center (preview) or Customer Service Hub in the **User attributes** section. For the assigned security user roles to be functional, perform the following steps.
+You can use Microsoft Dynamics 365 admin center to assign user security roles. Persona mapping can be found in the Omnichannel admin center  or Customer Service Hub in the **User attributes** section. For the assigned security user roles to be functional, perform the following steps.
 
-1. Map roles to personas
-2. Enable access to applications
-3. Enable access to forms and dashboards
+1. Map roles to personas.
+2. Enable access to applications.
+3. Enable access to forms and dashboards.
 
 ## Map roles to personas
 
-Default mapping will automatically assign primary roles depending on the Dynamics services enabled for your environment. For an environment with Customer Service Enterprise, the default mapping includes customer service representative and CSR manager. For an environment with Omnichannel for Customer Service, the three primary OC security roles are mapped to personas. If both services are enabled, both sets of default mappings are included.  
+Default mapping will automatically assign primary roles depending on the Dynamics 365 services enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary  security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Ommichannel for Customer Service.  
 
 | Service | Admin persona default mapping | Supervisor persona default mapping | Agent persona default mapping |
 | ------------- | ---------------- | ------------------- | --------------- |
-| Customer Service Enterprise | CSR Manager | CSR Manager | Customer service representative |
-| Omnichannel for Customer Service | OC Admin | OC Supervisor | OC Agent |  
-| Customer Service Enterprise + OC for Customer Service | CSR Manager OC Admin | CSR Manager OC Supervisor | Customer service representative OC Agent |   
+| Customer Service Enterprise | CSR Manager | CSR Manager | Customer Service Representative |
+| Omnichannel for Customer Service | Omnichannel administrator | Omnichannel supervisor | Omnichannel agent |  
+| Customer Service Enterprise + Omnichannel for Customer Service | CSR Manager + Omnichannel administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |   
 
 ### Manage personas
 
 To customize the role to persona mapping, perform the following steps. 
 
-1. Sign in to **Omnichannel admin centre**.
+1. Sign in to Omnichannel admin centre.
 
 or
 
-Sign in to **Customer Service Hub** and change to the **Service Management** work area. 
+Sign in to Customer Service Hub, and go to the **Service Management** change area. 
 
 2. Select **User attributes** from the **Unified routing** menu.
 
 3. Select **Manage** for **Role persona mapping**.
 
-4. Click on any one of the personas to add or remove security roles. 
+4. Select any one of the personas to add or remove security roles. 
 
-5. Check or uncheck the boxes next to the security roles within the configuration window. 
+5. Select or clear the selection from the checkboxes next to the security roles in the configuration window. 
 
 6. Select **Save and Close**.
 
@@ -51,7 +51,7 @@ You can now see the new roles populated in the personas.
 
 ## Enable access to applications
 
-Users with security roles mapped to Personas do not get automatic access to associated dashboards or applications. Access needs to be provided by administrators.  
+Users with security roles mapped to personas do not get automatic access to associated dashboards or applications. Access needs to be provided by administrators.  
 
 Perform the following steps to ensure that access and privileges are provided to users. 
 
@@ -61,7 +61,7 @@ Perform the following steps to ensure that access and privileges are provided to
 
 3. Sign in to Dynamics 365. 
 
-4. Click on the ellipsis in the application tile. 
+4. Select the ellipsis in the application tile. 
 
 5. Select **Manage roles**. 
 
@@ -74,15 +74,15 @@ Perform the following steps to ensure that access and privileges are provided to
 
 To enable access to a form or dashboard, perform the following steps. 
 
-1. Sign in to Dynamics 365 Omnichannel admin centre. 
+1. Sign in to Dynamics 365. 
 
-2. Go to **Advanced Settings* > **Settings** and **Customizations **. 
+2. Go to **Advanced Settings* > **Settings** and **Customizations**. 
 
 3. Select **Customize the system**. 
 
 4. From the **Solution Default Solution** list, select **Entities** > **Characteristics** > **Forms**. 
 
-5. Open and active form and select **Enable security roles**. 
+5. Open an active form, and select **Enable security roles**. 
 
-6. Select the role that you want to provide access to and select **OK**. 
+6. Select the role that you want to provide access to, and select **OK**. 
 
