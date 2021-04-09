@@ -76,11 +76,11 @@ To enable access to a form or dashboard, perform the following steps.
 
 1. Sign in to Dynamics 365. 
 
-2. Go to **Advanced Settings* > **Settings** and **Customizations**. 
+2. Go to **Advanced Settings** and then **Settings**.
 
-3. Select **Customize the system**. 
+3. Select **Customizations** and then **Customize the system**. 
 
-4. From the **Solution Default Solution** list, select **Entities** > **Characteristics** > **Forms**. 
+4. From the **Solution Default Solution** list, select **Entities** > **Characteristics** and then **Forms**. 
 
 5. Open an active form, and select **Enable security roles**. 
 
