@@ -4,7 +4,7 @@ description: "Includes schema information and supported messages for the msdyn_o
 author: "mh-jaya"
 ms.author: "v-jmh"
 manager: "shujoshi"
-ms.date: 03/15/2021
+ms.date: 04/09/2021
 ms.topic: "reference"
 ms.service: "crm-online"
 search.audienceType: 

@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ocsimltraining Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsimltraining entity."
-ms.date: 04/01/2021
+ms.date: 04/09/2021
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "mh-jaya"
