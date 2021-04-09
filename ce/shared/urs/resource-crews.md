@@ -251,3 +251,7 @@ If you select a resource that is part of a crew, a warning message will be prese
 **Multiday schedule boards not supported for crews** 
 
 Daily, weekly, and monthly schedule boards do not have specific support for crew scenarios.
+
+**Attempting to book a crew multiple times on the same work order** 
+
+Since crews involve multiple resources working together to complete a job, multi-resource scheduling is leveraged using the requirement groups. A crew cannot be booked multiple times against the same work order. 

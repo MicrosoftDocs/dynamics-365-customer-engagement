@@ -108,7 +108,6 @@
 ## [Edit sitemap, forms, and views](mobile-power-app-configure.md)
 ## [Offline data and sync filters](mobile-power-app-system-offline.md)
 ## [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
-## [Booking maps](mobile-powerapp-booking-maps.md)
 ## [Push notifications](mobile-power-app-push-notifications.md)
 ## [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
 ## [Geofencing](mobile-powerapp-geofence.md)
