@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 The **Omnichannel intraday insights** dashboards provide information about the health and key performance indicators (KPIs) for your organization. From the Omnichannel intraday insights report, you can view a summary of the following sections.
 
-- [Conversations insights](#conversation-insights)
+- [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
 The information displayed in these sections is based on the conversations that have been closed in the last 24 hours, and is refreshed every 15 minutes. The report fetches the latest data and is generated in real time. If the report is kept open in a pre-configured Power BI workspace, it's automatically refreshed after 15 minutes; in a customer-configured workspace, the report is refreshed after every 5 minutes.
