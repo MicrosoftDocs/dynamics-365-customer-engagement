@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/topics-dashboard-cs.md",
+      "redirect_url": "case-topics-dashboard-cs",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/open-advanced-settings.md",
       "redirect_url": "open-settings",
       "redirect_document_id": "false"
