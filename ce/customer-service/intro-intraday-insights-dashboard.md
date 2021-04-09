@@ -5,7 +5,7 @@ author: neeranelli
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -21,13 +21,13 @@ Customer service managers or supervisors are responsible for managing the agents
 
 Omnichannel for Dynamics 365 Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
 
--	Monitor key performance indicators (KPIs)
+- Monitor key performance indicators (KPIs)
 
--	Monitor quality and workload of agent
+- Monitor quality and workload of agent
 
--	Monitor unassigned workload
+- Monitor unassigned workload
 
--	Manage agent and customer escalations 
+- Manage agent and customer escalations 
 
 As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app:
 
@@ -38,7 +38,9 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 - **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 > [!NOTE]
-> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md).
+>
+> - Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md).
+> - The intraday insights dashboards are available only in the English language, out of the box. You'll need to customize the dashboards to make them available in a language of your choice.
 
 ## Prerequisites
 
