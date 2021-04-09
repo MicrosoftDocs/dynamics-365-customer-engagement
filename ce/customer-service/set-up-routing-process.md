@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-
 # Set up unified routing
 
 ## Prerequisites

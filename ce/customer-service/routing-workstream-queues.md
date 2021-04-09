@@ -35,13 +35,13 @@ They are a sub-type of work classification rules and are rules defined to attach
 
 Queue routing rules are rules to send the work item to the right queue. They are written in the format of "if defined condition satisfies, then route the work item to the defined queue." They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, the route-to-queue ruleset is run after all the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
 
-### How prioritization rule set works
+### How prioritization ruleset works
 
 Prioritization rule set is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue.  In a prioritization rule you can specify a set of 'conditions' and 'order by' attributes. During evaluation, the prioritization rules will be run in the order they are listed. For the first prioritization rule, the work items in the queue that match its conditions will be put in the same 'priority bucket'. In that bucket, the items will be further sorted by the order specified in the prioritization rule. The second rule will run on the rest of the items in the queue to identify the next priority bucket, sort that bucket by the 'order by' attribute, and so on.
 
-### Author the assignment rule set
+### Author the assignment ruleset
 
-After the prioritization rule set, you can author the assignment rule set for the queue. The assignment rule set is an order list of assignment rules. Each assignment rule consists of a set of conditions using which agents are selected and an "order by" field using which the agents that match are sorted. During runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, then they are sorted by the "order by" field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated, and so on. This can be thought of as gradual relaxation of constraints in the assignment—the strictest criteria is applied first, and then the conditions are slowly reduced so that the best agent is found.
+After the prioritization ruleset, you can author the assignment rule set for the queue. The assignment rule set is an ordered list of assignment rules. Each assignment rule consists of a set of conditions using which agents are selected and an "order by" field using which the agents that match are sorted. During runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, then they are sorted by the "order by" field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated, and so on. This can be thought of as gradual relaxation of constraints in the assignment—the strictest criteria is applied first, and then the conditions are slowly reduced so that the best agent is found.
 
 ### See also
 

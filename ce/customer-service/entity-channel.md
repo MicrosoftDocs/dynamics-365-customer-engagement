@@ -149,7 +149,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used for routing credit card cases. | Specify a description for you to identify the purpose of the rule item. |
 
-10. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
+10. Select **Add** in the **Rule Criteria** section, and then select **Add row**.
 
     a. Select a rule from the list for the first box. For example, **Subject**.
 
