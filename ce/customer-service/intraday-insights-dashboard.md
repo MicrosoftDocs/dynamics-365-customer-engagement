@@ -53,7 +53,7 @@ This section of the dashboard displays the following KPIs about conversations.
 
 ### Agent insights
 
-The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a given day. The agent insights report consolidates conversations in both live chat and digital messaging platforms. An example of the **Agent insights** section is shown in the following image.
+The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a given day. The agent insights section consolidates conversations in both live chat and digital messaging platforms. An example of the **Agent insights** section is shown in the following image.
 
 An example of the **Agent insights** section is shown in the following image.
 
@@ -207,7 +207,7 @@ You can assign a conversation to another agent or route it to another queue thro
 
 ## View and filter reports
 
-You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** dropdown list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
+You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** drop-down list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
 
 > [!div class=mx-imgBorder]
 > ![Queue selection](media/supervisor-queue-selector.png "Queue selection")
