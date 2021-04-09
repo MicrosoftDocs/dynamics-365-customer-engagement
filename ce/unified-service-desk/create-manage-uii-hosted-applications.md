@@ -1,8 +1,8 @@
 ---
 title: "Create and manage UII hosted applications | MicrosoftDocs"
 description: "Learn about using the User Interface Integration (UII) hosted application to host your external application or a web application in Unified Service Desk. To host an external or web application in Unified Service Desk, you configure a hosted control of type CCA Hosted Application, and then select Web Hosted Application or External Hosted Application from the Hosted Application list."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article

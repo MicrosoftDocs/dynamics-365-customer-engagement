@@ -1,8 +1,8 @@
 ---
 title: "Download the Web Client - Unified Interface Migration Assistant | MicrosoftDocs"
 description: "Download Web Client - Unified Interface Migration Assistant to migrate your Unified Service Desk configurations from Web Client to Unified Interface App"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 07/30/2018
 ms.topic: article
@@ -27,7 +27,7 @@ This topic describes the prerequisites and tools you require to migrate the conf
 
 - Upgrade to Unified Service Desk 4.1. To learn more, see [Download Unified Service Desk](../download-unified-service-desk.md).
 
-- Ensure your environment has an model-driven app such the Customer Service Hub app built of Microsoft Dataverse. To learn more, see [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- Ensure your environment has an model-driven app such the Customer Service Hub app built of Microsoft Dataverse. To learn more, see [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 ## Download Web Client - Unified Interface Migration Assistant
 

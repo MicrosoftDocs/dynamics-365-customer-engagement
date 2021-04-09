@@ -4,7 +4,7 @@ description: "Timeline configuration overview for administrators"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/19/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -12,7 +12,7 @@ ms.reviewer: lalexms
 
 # Configure timeline 
 
-The timeline helps agents see all customer interaction history across channels, personnel, and the support lifecycle. The timeline is used across Dynamics 365 applications to capture activities like notes, appointments, emails, tasks, and more to ensure all interactions with the customer are tracked and visible over time. Agents use the timeline to quickly catch up on all of the latest activity details with the customer to provide the most personalized support experience.  
+The timeline helps agents see all customer interaction history across channels, personnel, and the support lifecycle. The timeline is used across Dynamics 365 applications to capture activities like notes, appointments, emails, tasks, and more, to ensure that all interactions with the customer are tracked and visible over time. Agents use the timeline to quickly catch up on all of the latest activity details with the customer to provide the most personalized support experience.  
 
 The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts, which gives users a better understanding and helps them deliver more personalized service in an efficient and effective manner.	
 
@@ -55,9 +55,9 @@ To begin, select the entity and form where you want to add and configure your ti
 
 Use the following steps to add or remove a timeline from an entity form:
 
-1. Timeline is a component, so you will need to access **Components** in PowerApps to make timeline configurations. 
+1. Timeline is a component, so you'll need to access **Components** in PowerApps to configure it. 
 
-2. Once you have selected a **Main** form type, a landing page will appear.
+2. Select a **Main** form type. A landing page is displayed.
 
 3. Scroll down to the **Timeline** component on the left-hand navigation, then drag and drop it in a section on the form. 
 <ul><li> If the <b>Timeline</b> component is greyed out, it means a timeline already exists on the form. You can only have one timeline per form. </li>
@@ -86,7 +86,7 @@ In the body of the entity form located in the center, there is an area titled **
 
 ## Configure the timeline component
 
-The timeline component is rich in features and functionality that can be configured and tailored to support specific business needs.  The Timeline form is comprised of features and functionality you configure in the timeline component which is then displayed in the entity form.
+The timeline component is rich in features and functionality that can be configured and tailored to support specific business needs. The Timeline form is comprised of features and functionality that you configure in the timeline component, which is then displayed in the entity form.
 
 The following overview provides a detailed breakdown of each timeline feature, what it supports, how it is configured, and how it is displayed in the corresponding timeline section on the entity form:
 
@@ -174,7 +174,7 @@ The following is a detailed overview of the **Advanced** configuration options s
 |Configuration View | |Display View |
 |-------------------|-|-------------|
 |![Configure Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-2a.png "Configure Quick entry record type and sort order default")| |![Display Quick entry record type and sort order default](media\timeline-quick-entry-record-type-and-sort-order-default-display-settings-advanced-3b.png "Display Quick entry record type and sort order default")|
-|1.Select **Advanced** to expand this feature in the configuration view. The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.<BR> 2.The **Sort order default** feature controls the order of how all data is sorted on the timeline.  The default setting for this feature is set to Descending. ||1. When you select **Notes** it will display under the **Search** bar in timeline. Also, you will see a paperclip ![Paperclip icon](media\timelilne-paperclip-icon.png "Paperclip icon") icon which allows you to attach files. You can only attach files to Notes.<BR>2.	When you select **Posts** it also will display under the **Search** bar in timeline.|
+|1.Select **Advanced** to expand this feature in the configuration view. The **Quick entry record** type provides you with quick access to create either a **Note** or a **Post**.  The default setting for this feature is set to **Notes**.<BR> 2.The **Sort order default** feature controls the order of how all data is sorted on the timeline. The default setting for this feature is set to Descending. ||1. When you select **Notes**, it will display under the **Search** bar in timeline. Also, you will see a paperclip ![Paperclip icon](media\timelilne-paperclip-icon.png "Paperclip icon") icon that allows you to attach files. You can only attach files to Notes.<BR>2.	When you select **Posts** it also will display under the **Search** bar in timeline.|
 
 ### Enable filter pane
 
@@ -185,9 +185,9 @@ Using filters provides a quick option to sort and look for specific data quickly
 |![Configure filter pane](media\timeline-enable-filter-pane-display-options-advanced-2a.png "Configure Enable filter pane")||![ Enable filter pane](media\timeline-enable-filter-pane-display-options-advanced-3b.png "Enable filter pane")|
 |The **filter pane** feature allows you to enable or disable filter functionality on timeline. It is enabled by default.|| Enable the **filter pane** by checking the box next to the feature.  This will enable the filter icon to display on the timeline.  <BR><BR> To disable the **filter pane**, uncheck the box next to the feature and the filter icon will no longer appear on the timeline.    |
 
-### Filter activity types on timeline
+### Filter records on timeline
 
-Filters are valuable for sorting data. You can quickly filter activities, posts, and notes with multiple options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in timeline. Timeline filters and displays the records and the count that are present in the timeline.
+Filters are valuable for sorting data. You can quickly filter activities, posts, and notes with multiple options to see what matters to you. The filter is available for the activities, posts, notes, and custom entities that are present in the timeline. Timeline filters and displays the records and the count that are present in the timeline.
 
 When you select filters based on an activity status then those activities, notes, and posts are displayed in your timeline. You can customize data using data filters and either choose to keep filters in place or clear them when you are done.
 
@@ -195,7 +195,7 @@ When you select filters based on an activity status then those activities, notes
 
 - When the **Filter** icon is dark ![Dark filter icon](media\timeline-filter-applied-1.png "Dark filter icon"), it means filters have been set. To view which filters have been selected, click on the ![Filter icon](media\timeline-filter-icon.png "Filter icon") **Filter** icon and the filter pane will display showing which filters have been set.</li>
 
-- You can select how you want to filter data by checking the box next to the filter.<br>
+- You can choose how you want to filter data by selecting the box next to the filter.<br>
 
 - You can clear filters by using the **Clear all filters** ![Clear all filters icon](media\timeline-clear-all-filters-icon.png "Clear all filters icon") icon on the filter pane.
 
@@ -206,6 +206,7 @@ The following category and sub-category options are available on the filer menu:
 |Record type                |<li>Notes</li>                     <li>Posts</li><li>Activities</li>                     |
 |Activity type              |<li>Appointment</li><li>Campaign Activity</li> <li>Campaign Response</li><li>Email</li><li>Fax</li><li>Case Resolution</li><li>Letter</li><li>Opportunity Case</li>   <li>Order Case</li><li>Phone Call</li><li>Quote Close</li>           <li>Recurring Appointment</li><li>Social Activity</li><li>Task</li>   <li>Project Service Approval</li><li>Booking Alert</li><li>Conversation</li><li>Session</li><li>Customer Voice survey invite</li><li>Customer Voice survey response</li><li>Custom activities (as configured by your administrator)</li>|
 |Activity status            |<li>Active</li><li>Overdue</li>       <li>Closed</li>                         |
+|Activity status reason     |Allows you to filter using specific status reasons. The values are a unique list of all of the status reasons from the activities in the timeline. The status reasons will change depending on the activity. If there are multiple activities on the timeline that have the same status reason, it will be reflected once, but then the number next to it will indicate how many occurences of that status reason appear in the timeline.                       |
 |Activity due date (active) |<li>Next 30 days</li><li>Next 7 days</li><li>Next 24 hours</li><li>Last 24 hours</li><li>Last 7 days</li>   <li>Last 30 days</li>                   |
 |Posts by                   |<li>Auto post</li><li>Users</li>                          |
 |Modified date              |<li>Last 24 hours</li><li>Last 7 days</li><li>Last 30 days</li>                   |
@@ -404,7 +405,7 @@ Some dates can only exist on specific types of activities. For example, **Date s
 
 The activity rollup type can be configured for timelines on forms for the **Account, Contact and Opportunity** entity. The available types of rollups are **Extended**, **Related**, and **None**. Activity rollup only affects accounts and contacts in CRM applications. To only show activities that are directly related to the entity in timeline, select **None**.
 
-More information is on rollup types is available from [RollupType EnumType](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/rolluptype?view=dynamics-ce-odata-9).
+More information is on rollup types is available from [RollupType EnumType](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/rolluptype).
 
 ![Activity rollup type](media\activity-rollup-type.png "Activity rollup type")
 
@@ -435,20 +436,29 @@ Only enable the activities that you need on this form. If you select more than 1
 
 ## Save and publish timeline updates and changes
 
-Before you can view any configuration changes on the entity form, you must save and publish your updates first on the timeline component. 
+Before you can view any configuration changes on the entity form, you must first save and publish your updates on the timeline component. 
 
 ![Save and publish timeline updates and changes](media\timeline-save-and-publish-updates-and-changes-1b.png "Save and publish timeline updates and changes")
 
-1.	Before you can publish, you must **Save** any changes made in the timeline component.
-2.	Once your configuration changes are saved, you can  **Publish**.  Timeline updates are now live in your timeline environment and can be viewed.
+1.	Before you can publish, you must **Save** any changes you've made in the timeline component.
+2.	After your configuration changes are saved, you can  **Publish** them, which makes them live in your timeline environment and viewable.
 
 ## Configure dashboard timelines
 
-Timelines can be configured and put on a dashboard. However, the configuration available for timeline applied to a dashboard is limited to the functionality provided by the legacy designer experience. There isn't a current timeframe for enabling the new form designer experience on dashboards. 
+Timelines can be configured and put on a dashboard. However, the configuration available for timeline applied to a dashboard is limited to the functionality provided by the legacy designer experience. The new form designer experience on dashboards is not available. 
 
 > [!NOTE]
 > Capabilities on a dashboard timeline are different than those in an embedded dashboard timeline.  
 Dashboard timelines contain records related to the current user. This means each user will see a different set of information when viewing the same dashboard timeline. Notes are not available on the dashboard.
+
+This following image shows the General tab, where you can modify the Timeline Control properties:
+
+![Timeline Control Properties General tab](media\timeline-control-properties-general.png "Timeline Control Properties General tab")
+
+The following iamge shows the Activities tab, where you can modify the Timeline Control properties:
+
+![Timeline Control Properties Activities tab](media\timeline-control-properties-activities.png "Timeline Control Properties Activities tab")
+
 
 ## Create and add custom activities to timeline
 

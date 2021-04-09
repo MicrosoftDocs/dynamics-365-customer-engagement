@@ -34,9 +34,9 @@ For example, your session has two application tabs, **Knowledge Search** and **B
 
 ## Install routing rules solution to use entity records routing
 
-In your entity records channel, if you see an error that states: **You must install routing rule solution to use entity records routing. To learn more see aka.ms/routingrules.**, then perform the following:
+In your entity records channel, if you see an error message similar to the following: "You must install routing rule solution to use entity records routing. To learn more see aka.ms/routingrules.", then perform the following:
 
-- If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If there are no upgrade available, contact Microsoft support.
+- If you use Omnichannel for Customer Service in a production environment, go to your Omnichannel for Customer Service provisioning page and install the latest version. If no upgrades are available, contact Microsoft support.
 
 - If you use trial version of Omnichannel for Customer Service, contact Microsoft support.
 
@@ -141,7 +141,7 @@ More information: [Update cases work distribution flow](multiple-ws-entity-recor
 
 ## Entity records aren't distributed to agents
 
-Entity records routing doesn't route and distribute case records to the agents. 
+Entity records routing doesn't route and distribute case records to the agents.
 
 The case entity record won't be automatically distributed to the agents when the option - **Automatically move records to the owner's default queue when a record is created or assigned** is enabled in the case entity customization page.
 

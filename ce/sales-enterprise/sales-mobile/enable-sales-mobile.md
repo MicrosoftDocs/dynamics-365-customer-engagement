@@ -20,13 +20,13 @@ Field sellers spend a lot of time on the road, traveling to meet customers. "On-
 Before field sellers can use the Dynamics 365 Sales mobile app, you must enable it.
 
 > [!IMPORTANT]
->- For the Dynamics 365 Sales mobile app to work, you must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
->- To set a regarding record for a meeting, you must enable server-side synchronization in your environment. More information: [Server-side synchronization](https://docs.microsoft.com/power-platform/admin/server-side-synchronization).
+>- For the Dynamics 365 Sales mobile app to work, you must enable relevance search for the environment in which you enable the mobile app. More information: [Configure relevance search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization)
+>- To set a regarding record for a meeting, you must enable server-side synchronization in your environment. More information: [Server-side synchronization](/power-platform/admin/server-side-synchronization).
 >-	Users must have the following permissions:   
->       -	Read permission for [Organization Entity](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/organization).
->       -	Read permission for [Mailbox Entity](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/mailbox?view=dynamics-ce-odata-9).
+>       -	Read permission for [Organization Entity](../../customerengagement/on-premises/developer/entities/organization.md).
+>       -	Read permission for [Mailbox Entity](/dynamics365/customer-engagement/web-api/mailbox?view=dynamics-ce-odata-9).
 >       -	[**Dynamics 365 for mobile**](../../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#required-privileges) privilege.
->- If the Dynamics 365 Sales mobile app is launched by a user having [mobile offline profile](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline) defined, the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for phones).
+>- If the Dynamics 365 Sales mobile app is launched by a user having [mobile offline profile](../../mobile-app/setup-mobile-offline.md) defined, the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for phones).
 >- If the Dynamics 365 Sales mobile app is launched on a tablet device, the app's user interface is displayed using Unified Interface (same as in Dynamics 365 for tablets).
 
 **To enable the Dynamics 365 Sales mobile app**

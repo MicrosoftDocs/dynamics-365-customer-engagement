@@ -104,6 +104,8 @@ After adding and assigning Dynamics 365 Field Service licenses to your users, yo
 
 Woohoo! You have now assigned a security role and field security profile to a user. Repeat the steps above starting from Step 5 to provision another user. 
 
+
+
 ## Q + A 
 
 1. After adding and assigning security profiles, what should I do next? 

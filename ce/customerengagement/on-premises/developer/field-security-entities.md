@@ -37,7 +37,7 @@ You use field security entities to apply field-level security, which restricts f
  For more information about how secured fields change the behavior of methods, see [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 Customer Engagement (on-premises)](security-dev/use-field-security-control-access-field-values.md).  
   
 > [!IMPORTANT]
->  Field-level security profiles prevent unintended users from getting access to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data based on the profile definitions. If the [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] ACLs are misconfigured, or if there is a SQL injection issue, adversaries can get direct access to data in [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] thereby bypassing field level security restrictions. For more information, see [Overview of Web Application Security Threats](https://msdn.microsoft.com/library/f13d73y6.aspx).  
+>  Field-level security profiles prevent unintended users from getting access to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data based on the profile definitions. If the [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] ACLs are misconfigured, or if there is a SQL injection issue, adversaries can get direct access to data in [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] thereby bypassing field level security restrictions. For more information, see [Overview of Web Application Security Threats](/previous-versions/f13d73y6(v=vs.140)).  
   
 <a name="bkmk_setup"></a>   
 ## Set up and use field security  

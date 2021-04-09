@@ -1,23 +1,22 @@
 ---
 title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
 ---
 
 # Create or change a service (Customer Service)

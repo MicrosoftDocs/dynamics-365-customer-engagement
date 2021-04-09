@@ -1,8 +1,8 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/01/2019
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Learn about the WhatsApp channel through Twilio and how to configu
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/13/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -42,13 +42,10 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 ## End-to-end walk-through
 
-[Step 1: Fetch Twilio account details](#fetch-twilio-account-details)
-
-[Step 2: Create a WhatsApp channel](#create-a-whatsapp-channel)
-
-[Step 3: Create routing rules](#create-routing-rules)
-
-[Step 4: Modify settings for a specific WhatsApp phone number](#modify-settings-for-a-specific-whatsapp-phone-number)
+1. Fetch Twilio account details
+2. Create a WhatsApp channel
+3. Create routing rules
+4. Modify settings for a specific WhatsApp phone number
 
 ## Fetch Twilio account details
 
@@ -56,7 +53,57 @@ To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Ser
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
 
-## Create a WhatsApp channel
+## Create a WhatsApp channel in Omnichannel admin center
+
+1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
+2. Enter the following details:
+   1. On the **Channel details** page, enter a name and select **WhatsApp** in **Channels**.
+   2. On the **Account details** page, enter the following details:
+      - **Account SID:** Specify the value from your Twilio account.
+      - **Authentication token:** Specify the value from your Twilio account.
+   3. On the **WhatsApp numbers** page, select **Add**, and on the page that appears, enter the following information:
+      - **Name:** Specify a name.
+      - **Number:** Specify the WhatsApp phone number.
+    4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box. You'll use the copied information for Twilio account.
+    5. Select **Done**. The account is added to the list.
+3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+4. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up WhatsApp** to configure the following options:
+    1. On the **WhatsApp number** page, in the **Available WhatsApp numbers** list, select the number that you created.
+    2. On the **Language** page, select the language.
+    3. On the **Behaviors** page, configure the following options:
+      - [Custom automated messages](configure-automated-message.md)
+      - [WhatsApp message templates](#configure-whatsapp-message-templates)
+      - [Post-conversation survey](configure-post-conversation-survey.md)
+   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+      - Customers can send file attachments
+      - Agents can send file attachments
+   5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
+5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+8. In **Advanced settings**, configure the following options based on your business needs:
+   - [Sessions](../app-profile-manager/session-templates.md)
+   - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+   - [Context variables](#configure-context-variables)
+   - [Smart assist bots](smart-assist-bot.md)
+   - [Quick replies](create-quick-replies.md)
+
+### Configure WhatsApp message templates
+
+You can configure the option for agents to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp approved templates until the customer responds. You must create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
+
+Perform the following steps:
+
+1. For the selected workstream for WhatsApp, edit the WhatsApp account.
+2. On the **Behaviors** tab, in **WhatsApp message templates**, select **Add**.
+3. On the **Add message template** dialog box, do the following:
+   - **Name:** Specify a name for the template.
+   - **Default language:** Select the language from the list.
+   - **WhatsApp approved text:** Copy and paste the approved text from the template that you created in WhatsApp.
+4. Select **Save**.
+5. Create as many templates as required.
+
+## Create a WhatsApp channel in Omnichannel Administration
 
 After you create a work stream for the WhatsApp channel through Twilio, create a WhatsApp channel in the Omnichannel Administrator app.
 

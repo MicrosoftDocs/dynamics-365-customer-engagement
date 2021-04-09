@@ -129,7 +129,7 @@ If the bot escalates the customer query, it is routed to the appropriate queue a
 
 #### Create a context variable
 
-You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create work streams](work-streams-introduction.md).
+You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create work streams](create-workstreams.md).
 
 #### Create routing rules
 
@@ -208,7 +208,7 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)<br>
+[Understand and create work streams](create-workstreams.md)<br>
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
