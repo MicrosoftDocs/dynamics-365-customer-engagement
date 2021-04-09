@@ -16,13 +16,15 @@ ms.reviewer: nenellim
 
 ## Card support
 
-| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | Animation card | Date input element card | Arabic card carousel | Mark down card | 
-|----------|---------------|-----------|--------------|----------------|-------------|------------|--------- | ------------ | -------------- | ------------- |
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  ✖ | ✔ | ✔ | ✔ | 
-| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | ✖ | ✔ | ✔ |
-| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | ✖ | ✔ | ✔ |  
-| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✖ | ✖ | ✔ | ✔ | 
-| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | ✖ | ✖ | ✔ | ✔ |
+The following cards are supported across different channels.
+
+| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | 
+|----------|---------------|-----------|--------------|----------------|-------------|------------|
+| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  
+| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  
+| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |   
+| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
 > [!Note]
 >
@@ -46,6 +48,23 @@ For more information, see the following:
 
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
+
+
+### Adaptive cards support
+
+| Element | Description | Teams | Facebook | Telegram | Line | Direct Line |
+| -------- | -------- | ------ | ---------- | -------- | ------- | ------- |
+| ^(what).*?weather | Date input element for adaptive cards  is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
+| ^animation card$ | Cards that play animations are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
+| ^arabic carousel | CardCarousel elements is supported for bot framework  ✔ | ✔ | ✔ | ✔ | ✔ |
+| ^audio$ | Audio card and Media card elements for adaptive cards are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
+| ^card-actions$ | Suggested actions not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |
+| ^carousel$ | CardCarousel element supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ |
+| ^markdown(\s+([\d\w]+))?(\s+([\d\w]+))?$ | Some markdown elements are not supported | ✖ | ✔ | ✔ | ✔ | ✔ |
+| ^receipt card[\d]? | Receipt card element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
+| ^sign in$ | Sign in card element is not supported for some channels | ✖ | ✔ | ✔ | ✔ | ✖ |
+| ^text$ | Markdown elements are supported  | ✔ | ✔ | ✔ | ✔ |✔ |
+
 
 ## Suggested actions support
 
