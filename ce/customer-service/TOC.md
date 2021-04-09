@@ -52,6 +52,7 @@
 ### [Assign roles and enable users](add-users-assign-roles.md)
 ### [Manage users](users-user-profiles.md)
 ### [Manage capacity profiles](capacity-profiles.md)
+### [Role persona mapping](role-persona-mapping.md)
 
 
 ## Unified routing and assignment
