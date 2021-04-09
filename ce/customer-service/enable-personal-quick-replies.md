@@ -4,7 +4,7 @@ description: Enable personal quick replies in agent experience for Omnichannel f
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/19/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -27,7 +27,10 @@ As an administrator, you can use a Power Automate utility to delete unused tags.
 
 ## Enable personal quick replies
 
-1. In the Omnichannel Administration app, go to **Agent Experience**, and select **Personal quick replies**.
+Do the following steps:
+
+1. In Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Personal quick replies**. If you're using the Omnichannel Administration app, go to **Agent Experience**, and select **Personal quick replies**.
+
 2. On the **Personal quick replies** tab, set the **Allow agents to create personal quick replies** toggle to **Yes**.
 
 The settings for creating personal quick replies is made available for agents.

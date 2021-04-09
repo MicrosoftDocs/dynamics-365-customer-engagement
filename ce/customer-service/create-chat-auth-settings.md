@@ -4,7 +4,7 @@ description: "Instructions to create chat authentication settings in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/03/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -27,8 +27,7 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
 
 ## Create a chat authentication setting record
 
-1. Sign in to Omnichannel Administration.
-2. Go to **Settings** \> **Authentication Settings**.
+1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage** for **Authentication settings**. If you're using the Omnichannel Administration app, go to **Authentication Settings** under **Settings**.
 
     A list of existing authentication settings is shown.
 
@@ -36,6 +35,8 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
 4. On the **New Chat Authentication Settings** page, provide the following information:
 
     - **Name**: Enter a name for the authentication setting.
+    - **Owner:** Accept the default value or change to a required value.
+    - **Authentication type:** By default, it is OAuth 2.0 implicit flow that can't be edited.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer has signed in to.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
 
@@ -48,12 +49,10 @@ Make sure your organization has a working knowledge of Oauth 2.0 and JSON Web To
 
 ## Add authentication to chat widget
 
-1.	Open the chat widget to which you want to add authentication.
-2.	Go to the **Basic details** tab.
-3.	In the **Authentication settings** field, browse and select the chat authentication record.
-
-    > [!div class=mx-imgBorder]
-    > ![Add authentication to a chat widget](media/chat-widget.png "Add authentication to a chat widget")
+1. Open the chat widget to which you want to add authentication and do one of the following steps:
+   - In Omnichannel admin center, go to the Behaviors tab. 
+   - In Omnichannel Administration, go to the **Basic details** tab.
+2.	In the **Authentication settings** box, browse and select the chat authentication record.
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
@@ -197,6 +196,7 @@ If you are adding an authenticated chat experience to a custom website, your web
         } 
         ```
 
+
 5. Your developer will need to share the following information with your Omnichannel administrator: 
 
     a. The URL of the public key service from step 2.  
@@ -217,7 +217,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 
     Then, you can set up authenticated chat by following these steps: 
 
-6. Go to the Omnichannel administration application, and create an authentication settings record with the information from step 5. See [Create a chat authentication setting record](create-chat-auth-settings.md#create-a-chat-authentication-setting-record) for more information. 
+6. Go to the Omnichannel admin center or Omnichannel Administration app, and create an authentication settings record with the information from step 5. See [Create a chat authentication setting record](create-chat-auth-settings.md#create-a-chat-authentication-setting-record) for more information. 
 
 7. Associate the authentication settings to the chat widget that will have an authenticated experience. See [Add authentication to chat widget](create-chat-auth-settings.md#add-authentication-to-chat-widget) for more information. 
 

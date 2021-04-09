@@ -38,42 +38,68 @@
 ## Get started
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](configure-cs.md)
+### [Omnichannel admin center](oc-admin-center.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
-### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
+### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Omnichannel for Customer Service](introduction-omnichannel.md)
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
 #### [Understand routing and work distribution](unified-routing-work-distribution.md)
 
 ## User management
-### [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)
+### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 ### [Assign roles and enable users](add-users-assign-roles.md)
 ### [Manage users](users-user-profiles.md)
+### [Manage capacity profiles](capacity-profiles.md)
+### [Role persona mapping](role-persona-mapping.md)
 
-## Routing and assignment
+
+## Unified routing and assignment
+### [Overview of unified routing](overview-unified-routing.md)
+### [How routing and assignment works](set-up-routing-process.md)
+### [Routing and assignment rules](routing-workstream-queues.md)
+
+
 ### Administrator experience
 #### [Unified Routing diagnostics](unified-routing-diagnostics.md)
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 #### [Create and manage queues for conversations](queues-omnichannel.md)
 #### Set up skill-based routing for conversations
+#### [Create workstreams](create-workstreams.md)
+#### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
+#### [Create multiple workstreams for entity records](multiple-ws-entity-record-routing.md)
+#### [Set up routing and assignment rules in Omnichannel Administration](routing-rules.md)
+#### [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
+
+#### [Set up record routing](set-up-record-routing.md)
+##### [Enable entities for routing](entity-channel.md)
+##### [Route trigger for entity records](routing-trigger.md)
+
+#### [Create queues](queues-omnichannel.md)
+##### [Set up assignment methods for queues](assignment-methods.md)
+#### [Configure work classification rulesets](configure-work-classification.md)
+
+#### Set up skill-identification rules
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
-##### [Enable skill-based routing, rating model](enable-skill-routing-create-rating-model.md)
+##### [Enable agents to attach skills, create rating models](enable-skill-routing-create-rating-model.md)
+##### [Set up skill finder model](intelligent-skill-model.md)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
-##### [Attach skills to conversations](attach-skills.md)
-#### Manage work distribution for conversations
-##### [Create work streams](work-streams-introduction.md)
-##### [Create work streams for entity records](set-up-entity-workstream.md)
-##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
-##### [Set up routing and assignment rules](routing-rules.md)
-##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
-#### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
+##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
+
+#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
+#### [Automatically route cases](create-rules-automatically-route-cases.md)
+
+#### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
+
 ### Agent experience
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
+
+### Developer experience
 
 ## Case management
 ### Administrator experience
@@ -87,6 +113,7 @@
 #### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
+#### [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md)
 #### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
 ## Automatically create or update records

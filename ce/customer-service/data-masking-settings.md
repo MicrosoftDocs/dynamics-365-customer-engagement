@@ -4,7 +4,7 @@ description: "Instructions on how to create and manage data-masking rules in Omn
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 01/10/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -31,7 +31,7 @@ The following masking rules are provided out of the box:
 - **Email**: Masks the email address, if provided in a message.
 - **SSN**: Masks the SSN, if provided in a message.
 
-As an administrator, you can delete or modify out-of-the-box masking rules and create new masking rules.
+As an administrator, you can delete or modify the out-of-the-box masking rules and create new masking rules.
 
 > [!NOTE]
 > - Only an administrator can access and edit data-masking rules.
@@ -42,11 +42,9 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
    > [!div class=mx-imgBorder]
    > ![Create a masking rule](media/new-masking-rule.png "Create a masking rule")
     
-1.	Sign in to **Omnichannel Administration**.
+1.	In the site map of Omnichannel admin center app, select **Agent experience**, and then select **Manage** for **Data masking**. If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
 
-2.	Go to **Settings** > **Data Masking**.
-
-3.	In **Masking rules**, select **New Masking Rule** under the ellipsis to create a new data-masking rule.
+3.	In **Masking rules**, select **New Masking Rule**.
 
 4.	On the **New Masking Rule** page, provide the following information:
 
@@ -56,7 +54,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
     - **Regular expression**: A regular expression to identify the data to be masked.
         
-5. Note that by default, the number sign (#) is used to mask sensitive data. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field.
+5. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field. By default, the number sign (#) is used to mask sensitive data.
 
    > [!div class=mx-imgBorder]
    > ![Email masking rules](media/email-masking-rule.png "Email masking rules")
@@ -70,13 +68,9 @@ After a masking rule is created, you can edit, activate, deactivate, or permanen
    > [!div class=mx-imgBorder]
    > ![Manage masking rules](media/masking-rule-card.png "Manage masking rules")
 
-1.	Sign in to **Omnichannel Administration**.
+1.	Under **Masking rules**, select the ellipsis to see the options for managing an existing masking rule.
 
-2.	Go to **Settings** > **Data Masking Settings**.
-
-3. Under **Masking rules**, select the ellipsis to see the options for managing an existing masking rule.
-
-4. To activate, deactivate, or delete a masking rule, select the rule, and then select the appropriate action from the list.
+2. To activate, deactivate, or delete a masking rule, select the rule, and then select the appropriate action from the list.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

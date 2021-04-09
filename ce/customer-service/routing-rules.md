@@ -4,11 +4,11 @@ description: Understand how to create and manage routing rules in Omnichannel fo
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
-# Create and manage routing rules
+# Create and manage routing rules in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -57,7 +57,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)
+[Understand and create work streams](create-workstreams.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
 

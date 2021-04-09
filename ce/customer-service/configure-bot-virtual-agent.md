@@ -72,7 +72,7 @@ For information about working with queues, see [Work with queues in Omnichannel 
 
 ### Create a bot queue and a human agent queue
 
-1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](work-streams-introduction.md).
+1. Select or create a work stream. For more information about work streams, see [Understand and create work streams](create-workstreams.md).
 
 ![Virtual Agent work streams](media/virtual-agent-work-streams.png)
 
@@ -178,7 +178,6 @@ The global variables that are created in Power Virtual Agents can be passed to O
 
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Greeting topic context**  | The greeting topic for Power Virtual Agents doesn't have Omnichannel for Customer Service context available.  |
 | **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li>	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. For more information, see the [Channel experience reference table](https://docs.microsoft.com/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table). </li><li> You can build an adaptive card by adding a skill through Power Virtual Agents. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/advanced-use-skills). </li><li> Adaptive card styling is not supported.</li></ul> |
 | **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
 | **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
@@ -186,6 +185,11 @@ The global variables that are created in Power Virtual Agents can be passed to O
 | **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | <ul><li> Power Virtual Agents does not support markdown with images and text. </li> <li>When Power Virtual Agents sends markdown text, there is extra space between lines. </li><li>Carousel layout is not supported.</li></ul> |
 | **File attachments:** After file attachments are enabled in Omnichannel for Customer Service, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel for Customer Service file attachments. |
 |||
+
+## Enable a power virtual agent bot to end conversations
+
+A Power Virtual Agents bot can choose to end conversations if it determines that the customer query has been solved or the when the customer has been inactive for a period of time. The bot can choose to end conversations only after 30 minutes of inactivity.
+
 
 ## Privacy notice
 
@@ -203,7 +207,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)  
+[Understand and create work streams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Create and manage routing rules](routing-rules.md)  
 [Add a chat widget](add-chat-widget.md)  
