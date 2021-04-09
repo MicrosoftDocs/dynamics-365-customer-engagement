@@ -56,7 +56,7 @@ For more information, see the following:
 | -------- | -------- | ------ | ---------- | -------- | ------- | ------- |
 | ^(what).*?weather | Date input element for adaptive cards  is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
 | ^animation card$ | Cards that play animations are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
-| ^arabic carousel | CardCarousel elements is supported for bot framework  ✔ | ✔ | ✔ | ✔ | ✔ |
+| ^arabic carousel | CardCarousel elements is supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ |
 | ^audio$ | Audio card and Media card elements for adaptive cards are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
 | ^card-actions$ | Suggested actions not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |
 | ^carousel$ | CardCarousel element supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ |
