@@ -46,7 +46,7 @@ This section of the dashboard displays the following KPIs about conversations.
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. ||
 | Conversation status by queue | The distribution of the status of conversations across different queues. |
-| Transfer/Escalation rate by queue |                                  |
+| Transfer/Escalation rate by queue |  The rate of transfer and escalations from one queue to the other |
 | Abandon rate by queue | The rate of conversations that have been abandoned by customers. |
 |||
 
@@ -87,7 +87,7 @@ Th agent insights dashboard consists of the following performance indicators.
 | Sessions transfer rate | The rate of sessions that were transferred to another agent or queue.
 | Agent status | The status and presence of agents |
 | Conversation status by channel | The distribution of the different conversations statuses across different channels. |
-| Participation mode |                                        |
+| Participation mode | The average distribution of different participation modes |
 | Transfer rate by agent | Rate of transfer of conversations done by an agent |
 | Transfer rate by queue | Rate of conversations transferred from one queue to the other |
 | Consult acceptance rate | 
@@ -193,7 +193,7 @@ The **Ongoing conversations** table displays the following metrics.
 | Wait time (min) | Total wait time of the conversation |
 | Handle time (min) | Total time taken to accept and close the conversation |
 | Wrap time (min) | Total time in which the conversation was in the wrap stage |
-| Sentiment |                 |
+| Sentiment | The real-time sentiment analysis |
 | Created on | The date on which the conversation was created on |
 | Conversation ID | The conversation's ID |
 
