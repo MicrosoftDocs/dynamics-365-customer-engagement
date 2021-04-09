@@ -25,49 +25,43 @@ Unified routing can be configured in the Omnichannel admin center or Customer Se
 
 The high-level process to set up unified routing for a channel or record is as follows:
 
-- Create a workstream for messaging.
-   - Configure routing rules.
-     - Configure manual work classification rulesets.
-       - Create demand rules.
-     - Configure machine-learning work classification rulesets. 
-       - Set up input and output attributes.
-       - Configure route-to-queues ruleset.
+### For routing of messaging channels
 
-- Create a “record” workstream
-    1. Configure routing rules
-      
-          1.	Configure work classification
-          
-          2.	Configure route-to-queues ruleset
-      
-    2.	Configure intake rules
-    
-     -	Create “record” queues
-          1. Choose assignment method
-              
-              •	Out-of-the-box: Highest capacity or Round robin
-              
-              •	Custom assignment method
-                
-                i)	Configure prioritization ruleset 
-                ii)	Assignment rulesets
-                  
-                  (1)	Decision list of rules
-                  (2)	Selection criteria
+You'll do the following:
 
-2. Create queues.
-   - Assignment methods.
-     - Highest capacity.
-     - Round robin.
-     - Custom assignment method.
-      - Configure prioritization ruleset.
-        - Decision list of rules.
-      - Assignment rulesets.
-        - Decision list of rules.
-      - Selection criteria.
+- Create a messaging workstream
+- Configure routing rules
+  - Configure manual work classification rulesets
+    - Create demand rules
+  - Configure machine-learning work classification rulesets
+    - Configure route-to-queues ruleset
+
+### For record routing
+
+You'll do the following:
+
+- Create a record workstream
+   1. Configure routing rules
+      - Configure work classification rulesets
+      - Configure route-to-queues ruleset
+   2. Configure intake rules
+
+### Create queues for record or messaging
+
+- Create “record” or "messaging" queues
+  - Choose assignment method
+     - **Out-of-the-box:** Highest capacity or Round robin
+     - Custom assignment method
+        1. Configure prioritization ruleset
+        2. Assignment rulesets
+           1. Decision list of rules.
+           2. Selection criteria
+
+
 
 
 ### See also
 
 [Create workstreams](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
+[Manage capacity profiles](capacity-profiles.md)  

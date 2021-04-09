@@ -34,7 +34,7 @@ You can assign priority to queues. A lower value indicates higher priority and a
 
 ## Create a queue for the messaging channel in Omnichannel admin center
 
-In this section, we cover information on how to create a queue for the messaging channel.
+In this section, we cover information on how to create a queue for the messaging channel and set operating hour record for the queue.
 
 1. In the left pane, select **Queues**, and then do the following:
 
@@ -53,6 +53,17 @@ In this section, we cover information on how to create a queue for the messaging
    - **Highest capacity**: Selected by default; assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream.
    - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
    - Create a custom assignment method. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
+4. To set up operation hours, in the **Operation hours** area, select **Set operation hours**. You must've configured the operating hour record before you can set up for the queue.
+5. On the Set operation hours dialog box that appears, select an operating hour record in the **Name** list.
+6. Select **Save and close**. The operating hour record that you selected is configured for the queue.
+
+### Manage queues in Omnichannel admin center
+
+You can manage the queues on the **Queues** page.
+
+- Select a queue to edit the users, assignment methods, or operating hours record.
+
+- Select a queue on the **Queues** page, and select **Copy** on the command menu, and then select **Copy** on the *<queue_name>* dialog box. The queue is copied and inherits the settings of the queue you copied from, including its name with the prefix "Copy of".
 
 ## Create a queue in Omnichannel Administration
 

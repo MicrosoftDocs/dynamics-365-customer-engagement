@@ -52,6 +52,7 @@
 ### [Assign roles and enable users](add-users-assign-roles.md)
 ### [Manage users](users-user-profiles.md)
 ### [Manage capacity profiles](capacity-profiles.md)
+### [Role persona mapping](role-persona-mapping.md)
 
 
 ## Unified routing and assignment
@@ -326,6 +327,7 @@
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
 #### [Display suggested actions in a vertical layout](suggested-actions.md)
+#### [Download attachments from Power Virtual Agents bot](download-attachments-PVA-bot.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
