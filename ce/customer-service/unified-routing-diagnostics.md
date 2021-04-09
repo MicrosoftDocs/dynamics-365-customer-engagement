@@ -20,7 +20,7 @@ search.app:
 
 # Unified routing diagnostics
 
-Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. With unified routing, you can prioritize work items and keep track of their progress and status.
+Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using Unified Routing. 
 
 ## Enable routing diagnostics
 
@@ -90,11 +90,11 @@ Queue routing rules are formulated to send the work item to the correct queue. M
 
 ### Prioritization
 
-The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. 
+The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Routing and assignment rules](routing-workstream-queues.md)
 
 ### Assignment selection
 
-If more than one assignment rule set is created, specific rules need to be created for the selection criteria to work. The assignment selection criteria determines which rule set has the closest match and also determine which rule out of the many rules should be run.
+Assignment rule sets contain conditions that determine which work items are assigned to which agents. If more than one assignment rule set exists, selection criteria define the order in which the rule sets are to be evaluated. The assignment selection criteria determines which rule set has the closest match and also determine which rule out of the many rules should be run.
 
 ### Assignment
 
