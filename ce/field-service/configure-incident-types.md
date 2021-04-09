@@ -3,7 +3,7 @@ title: "Configure incident types in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about configuring incident types in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 04/01/2021
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.topic: article
@@ -61,6 +61,29 @@ Other important incident type features include:
 The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. For example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, create this service task once and associate it to the relevant incident types. There will then be one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
 
 ## Create an incident type
+
+### From the work order form and work order list view
+
+1. As a Field Service administrator, system administrator, or any user with creation privileges for incident types from the work order form or list view, select **Create Incident Type** in the ribbon.
+
+2. In the dialog that pops up, capture **Incident Type Name**.
+  
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the create incident type form.](./media/work-order-create-from-incident-type.png)
+
+3. **Description** is initially populated from the work order's **Work Order Summary** field. Update as needed.
+
+4. **Work Order Type** is initially copied from the work order. Update as needed.
+
+5. The **Copy Tasks**, **Copy Products**, **Copy Services**, **Copy Characteristics**, and **Copy Articles** toggles will automatically be enabled. If there are any records you do not want copied from the work order, flip the toggle.
+
+6. The **Estimated Duration** value will either be:
+- Read-only, if the duration value is calculated from the related tasks.
+- Editable, if there are no tasks driving a duration value.
+
+When ready, select **Create Incident Type** and the system will create the incident type modeled after the source work order.
+
+### From the incident type form and record list
 
 To create an incident type, go to **Field Service** > **Settings** > **Incident Types** > **+New**.
 

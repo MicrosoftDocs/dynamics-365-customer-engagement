@@ -1,8 +1,8 @@
 ---
 title: "Debug issues in Unified Service Desk  | MicrosoftDocs"
 description: "The debugger application in Unified Service Desk is a hosted control that provides insights into the code executions of the Unified Service Desk platform. You can use it to troubleshoot issues in your Unified Service Desk application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

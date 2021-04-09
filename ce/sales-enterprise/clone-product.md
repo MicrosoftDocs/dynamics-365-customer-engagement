@@ -2,15 +2,14 @@
 title: "Clone products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Quickly create a copy of an existing product in Dynamics 365 Sales including all its details by cloning it."
 ms.date: 02/10/2021
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+ms.custom: 
+  - "dyn365-sales"
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-product
   - D365-UI-*

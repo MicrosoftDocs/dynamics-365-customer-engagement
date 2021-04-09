@@ -2,8 +2,7 @@
 title: "msdyn_playbookactivityattribute EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_playbookactivityattribute EntityType"
 ms.date: 04/08/2019
-ms.service: 
-  - crm-online
+ms.service: crm-online
 ms.topic: article
 author: susikka
 ms.author: susikka

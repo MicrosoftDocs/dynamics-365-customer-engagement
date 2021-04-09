@@ -3,7 +3,7 @@ title: "Enable location and map settings in Dynamics 365 Field Service | Microso
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
 ms.custom:
 - dyn365-fieldservice
-ms.date: 03/11/2021
+ms.date: 03/24/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -42,6 +42,8 @@ Go to **Resource Scheduling app** > **Administration** > **Scheduling Parameters
 > ![Screenshot of settings](media/quickstart-rs-settings.png) 
 
 Set **Connect to Maps** to **Yes**.
+
+Connecting to Maps is enabled by default for new environments. To confirm your environment is connected to maps - or to disconnect maps - go to to **Resource Scheduling app** > **Administration** > **Scheduling Parameters**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of setting connect to maps to yes](media/Perform-Initial-Configurations-image7.png)  
@@ -92,7 +94,7 @@ Enabling maps makes it so dispatchers and technicians can see a map view on work
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order map](media/work-order-map.png) 
 
-Enable Bing Maps by going to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
+Bing Maps is enabled by default for new environments. To confirm Bing Maps is enabled - or to disable Bing Maps - go to **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **General tab** 
 
 
 > [!div class="mx-imgBorder"]

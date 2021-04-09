@@ -133,7 +133,7 @@ To benefit from DKIM, the from-address for each message you send must show a dom
 
 ### See also
 
-[Open the settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Integrate with landing pages on external websites](embed-forms.md)  
 [page personalization](personalized-page-content.md)  

@@ -4,7 +4,7 @@ description: "Instructions to configure a Twitter Direct Message channel in Omni
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/15/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -33,7 +33,42 @@ After completing the prerequisites, you can add the Twitter channel for your org
 1. [Create a Twitter channel and add a Twitter handle](#create-a-twitter-channel-and-add-a-twitter-handle).
 2. [Create routing rules](#create-routing-rules).
 
-## Create a Twitter channel and add a Twitter handle
+## Create a Twitter channel and add a Twitter handle in Omnichannel admin center
+
+1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
+2. Enter the following details:
+   1. On the **Channel details** page, enter a name and select **Twitter**.
+   2. On the **Account details** page, enter the following details:
+      - **Consumer API key:** Key of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > **Details** > **Keys and tokens**, and then copy the value in the **API key** field.
+      - **Consumer API secret:** Application secret of the Twitter application. Go to the Twitter developer portal > Twitter app dashboard > **Details** > **Keys and tokens**, and then copy the value in the **API secret key** field.
+      - **Environment name:** Environment of the Twitter application. Go to the Twitter developer portal > Dev environments > **Dev environment label** (make sure that the dev environment was created under **Account Activity API**).
+      
+      > [!IMPORTANT]
+      > The **Environment name** field cannot be a random string and must match the **Dev environment label** in the Twitter developer portal.
+   3. On the **Callback information** page, copy the text in the **Callback URL** box. You'll use the copied information in the Twitter account.
+   4. Select **Done**.
+3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+4. Select the workstream that you've created for the Twitter channel and on the workstream page, select **Set up Twitter**, and configure the following options:
+   1. On the **Twitter handle** page, select a handle from **Available Twitter handles**.
+   2. On the **Language** page, select a language.
+   3. On the **Behaviors** page, configure the following options:
+      - [Custom automated messages](configure-automated-message.md)
+      - [Post-conversation survey](configure-post-conversation-survey.md)
+   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+      - Customers can send file attachments
+      - Agents can send file attachments
+   5. Verify the settings on the **Summary** page, and select **Finish**. The Twitter channel instance is configured.
+5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+8. In **Advanced settings**, configure the following options based on your business needs:
+   - [Sessions](../app-profile-manager/session-templates.md)
+   - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+   - [Context variables](#configure-context-variables)
+   - [Smart assist bots](smart-assist-bot.md)
+   - [Quick replies](create-quick-replies.md)
+
+## Create a Twitter channel and add a Twitter handle in Omnichannel Administration
 
 > [!NOTE]
 > Before starting this procedure, you must meet the [prerequisites](#prerequisites) described earlier in this topic.
@@ -67,7 +102,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 > [!div class=mx-imgBorder]
 > ![Twitter Callback information](media/twitter-callback-information.png "Twitter Callback URL")
 
-6. Add a Twitter handle: In the **Twitter app** section, select **+ New Twitter handle** to add Twitter handle(s).
+6. Add a Twitter handle: In the **Twitter app** section, select **New Twitter handle** to add Twitter handles.
 
 7.	On the **New Twitter handle** page, provide the following information:
 
@@ -81,9 +116,9 @@ After completing the prerequisites, you can add the Twitter channel for your org
     
     - **Language**: Select the preferred language for your Facebook page.
     
-    - **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a new work stream, see [Create work streams](work-streams-introduction.md).
+    - **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a  work stream, see [Create work streams](create-workstreams.md).
 
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**. 
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**.
 
     - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. When the agent sends an attachment, the app uploads the attachment to Twitter and captures the media ID. Otherwise, set **No**. 
     
@@ -106,7 +141,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
   > [!NOTE]
   > You can add multiple handles to a Twitter Application channel.
  
-## Create routing rules
+### Create routing rules in Omnichannel Administration
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 2.	Open the out-of-the-box work stream or the one you created.
@@ -150,7 +185,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)<br>
+[Understand and create work streams](create-workstreams.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>

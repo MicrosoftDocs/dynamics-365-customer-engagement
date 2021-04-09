@@ -1,8 +1,8 @@
 ---
 title: Unified Service Desk data compliance under GDPR | MicrosoftDocs
 description: Learn about data in Unified Service Desk that comes under General Data Protection Regulation (GDPR)
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/24/2018
 ms.topic: article
@@ -81,7 +81,7 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes
 - Freeze or performance data
 - Session start and end data
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index)
 
 ## See also
 

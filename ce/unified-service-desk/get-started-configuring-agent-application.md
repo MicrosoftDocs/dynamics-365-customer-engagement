@@ -1,8 +1,8 @@
 ---
 title: "Get started with configuring your agent application in Unified Service Desk | MicrosoftDocs"
 description: "The section provides information on how to perform various tasks in Unified Service Desk to configure your agent application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

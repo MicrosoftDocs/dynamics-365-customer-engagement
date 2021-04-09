@@ -1,8 +1,8 @@
 ---
 title: "USD Hosted Control (Hosted Control) | MicrosoftDocs"
 description: "Learn about the USD Hosted Control."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/17/2020
 ms.topic: article

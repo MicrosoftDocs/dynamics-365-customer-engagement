@@ -1,8 +1,8 @@
 ---
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 05/15/2018
 ms.topic: article

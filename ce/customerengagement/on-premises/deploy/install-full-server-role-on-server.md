@@ -25,7 +25,7 @@ manager: kvivek
   
 2.  Log on to the domain as a user who has administrator-level privileges where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] will be installed and who is a member of the Administrators group on the local computer. You cannot install the application as a member from a trusted domain.  
   
-3.  See the [Dynamics 365 Customer Engagement (on-premises) Readme](https://go.microsoft.com/fwlink/?linkid=2024795) file to determine the location of the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] installation files.  
+3.  See the [Dynamics 365 Customer Engagement (on-premises) Readme](/dynamics365-release-plan/2019wave2/) file to determine the location of the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] installation files.  
   
 4.  In the folder where the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] files are located, move to the Server\amd64 folder, and then double-click **SetupServer.exe**.  
   
@@ -116,7 +116,7 @@ manager: kvivek
   
          The default SQL collation changes based on the base language selection.  
   
-         For more information, see [Collation and Unicode support](https://docs.microsoft.com/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2017).  
+         For more information, see [Collation and Unicode support](/sql/relational-databases/collations/collation-and-unicode-support?view=sql-server-2017).  
   
     6.  Select **Next**.  
   

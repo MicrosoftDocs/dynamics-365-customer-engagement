@@ -21,7 +21,7 @@ search.app:
 ---
 # Add an instance to your subscription
 
-Management of instances (now called environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Create and manage environments](https://docs.microsoft.com/power-platform/admin/create-environment).
+Management of instances (now called environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Create and manage environments](/power-platform/admin/create-environment).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: "Instructions on how to configure a Facebook channel in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/08/2021
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -19,9 +19,51 @@ The Facebook channel gives you an incredible opportunity to capitalize on the so
 
 **Prerequisites**: Following are the prerequisites before configuring the Facebook channel in Omnichannel for Customer Service:
 
-1.	Create a Facebook page and enable Messenger. More information: [Create and Manage a Page and Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
-2.	Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
-3.	Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
+1. Create a Facebook page and enable Messenger. More information: [Create and Manage a Page and Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
+2. Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
+3. Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
+
+## Configure a Facebook channel in Omnichannel admin center
+
+To add the Facebook channel instance, you must configure the channel account by doing the following steps:
+
+1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
+2. Enter the following details:
+   1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
+   2. On the **Add account** page, specify the Facebook application ID and application secret. To get the application ID and application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App ID** and  **App Secret** fields respectively.
+   3. On **Add Facebook Pages to this account**, do the following steps:
+   4. Select **Add**, and in the** Add Facebook Page** pane, enter the following details:
+      - **Page name:** Name of the Facebook page.
+      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
+      - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
+   5. On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields will not be generated if the Facebook page is reused across multiple instances of the channel.
+3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+4. Select the workstream that you've created for the Facebook channel and on the workstream page, select **Set up Facebook**, and do the following steps:
+   1. In the **Available Facebook Pages** area, select a page from the list.
+   2. On the **Language** page, select the language to use.
+   3. On the Behaviors page configure the following options:
+      - Custom automated messages
+      - [Post-conversation survey](configure-post-conversation-survey.md)
+   4. On the **User features** page, configure the following options:
+      - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information:[Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
+      - **Facebook message tag:** Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message.
+
+      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can initiate conversations with customers for up to 7 days.
+
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).  
+   5. Review the **Summary** page, and select **Create**. The channel instance is configured.
+5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+8. In **Advanced settings**, configure the following options based on your business needs:
+   - [Sessions](../app-profile-manager/session-templates.md)
+   - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+   - [Context variables](#configure-context-variables)
+   - [Smart assist bots](smart-assist-bot.md)
+   - [Quick replies](create-quick-replies.md)
+
+
+## Configure a Facebook channel in Omnichannel Administration
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
@@ -30,7 +72,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
   - [Step 3: Create routing rules](#step-3-create-routing-rules)
   - [Step 4: Modify settings for a specific Facebook page](#step-4-modify-settings-for-a-specific-facebook-page)
 
-## Step 1: Create a Facebook work stream
+### Step 1: Create a Facebook work stream
 
 1. Sign in to Omnichannel Administration.
 
@@ -47,7 +89,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 6. Select **Save**.
 
-## Step 2: Create a Facebook channel
+### Step 2: Create a Facebook channel
 
 1. Go to **Channels** > **Facebook**.
 
@@ -94,7 +136,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 > [!div class=mx-imgBorder]
 > ![Facebook application created](media/fb-app-created.png "Facebook application created")
 
-## Step 3: Create routing rules
+### Step 3: Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 
@@ -114,7 +156,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”
   - **User Page Scoped Id**: This is shown as a number string. 
 
-## Step 4: Modify settings for a specific Facebook page
+### Step 4: Modify settings for a specific Facebook page
 
 1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
 
@@ -173,7 +215,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)<br>
+[Understand and create work streams](create-workstreams.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
