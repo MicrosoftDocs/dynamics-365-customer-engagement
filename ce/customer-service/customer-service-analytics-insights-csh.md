@@ -62,7 +62,7 @@ The Case Topics dashboard shows a detailed breakdown of cases and their assigned
    > [!div class=mx-imgBorder]
    > ![Analytics Topics dashboard](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics dashboard")
    
-For more information about the Case Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
+For more information about the Case Topics dashboard, see [Topics dashboard](case-topics-dashboard-cs.md)
 
 
 ### Knowledge Search Analytics report
@@ -95,7 +95,7 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard](media/queue-report.png "Queue dashboard")
 
-For more details about the queue report, see [Queue dashboard](queue-dashboard.md)
+For more details about the queue report, see [Queue dashboard](oc-queue-dashboard.md)
 
 ### Agent
 
@@ -111,9 +111,9 @@ For more details about the Agent report, see [Agent dashboard](agent-dashboard-c
 The Bot dashboard shows charts and KPIs that you can use to understand how bots are playing a role in a support organization. 
 
 > [!div class="mx-imgBorder"]
-> ![Bot dashboard](media/bot-dashboard-cs.png "Bot dashboard")
+> ![Bot dashboard](media/oc-bot-dashboard.png "Bot dashboard")
 
-For more details about the bot report, see [Bot dashboard]()
+For more details about the bot report, see [Bot dashboard](oc-bot-dashboard.md)
 
 ### Conversation Topics
 
