@@ -326,6 +326,7 @@
 
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
+#### [Display suggested actions in a vertical layout](suggested-actions.md)
 #### [Download attachments from Power Virtual Agents bot](download-attachments-PVA-bot.md)
 
 ## Insights

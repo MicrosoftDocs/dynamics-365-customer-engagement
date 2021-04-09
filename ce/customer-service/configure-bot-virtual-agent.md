@@ -181,8 +181,7 @@ The global variables that are created in Power Virtual Agents can be passed to O
 | **Adaptive cards:** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li>	Power Virtual Agents supports adaptive cards for CSAT surveys and they will display text only. For more information, see the [Channel experience reference table](https://docs.microsoft.com/power-virtual-agents/publication-fundamentals-publish-channels#channel-experience-reference-table). </li><li> You can build an adaptive card by adding a skill through Power Virtual Agents. For more information, see [Use Microsoft Bot Framework Skills in Power Virtual Agents](https://docs.microsoft.com/power-virtual-agents/advanced-use-skills). </li><li> Adaptive card styling is not supported.</li></ul> |
 | **Single sign-on (SSO):** Chatbots can sign the user in if they're in to the page where the bot is deployed. | SSO is not supported. |
 | **Typing:** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators will not appear. |
-| **Suggested actions:** Suggested actions enable your bot to present buttons that the user can tap to provide input. Suggested actions appear close to the composer and enhance user experience. They enable the user to answer a question or make a selection with a tap of a button, rather than having to type a response with a keyboard. | <ul><li>It cannot be displayed vertically.</li><li> Is not supported in the Microsoft Teams channel.</li></ul> |
-| **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | <ul><li> Power Virtual Agents does not support markdown with images and text. </li> <li>When Power Virtual Agents sends markdown text, there is extra space between lines. </li><li>Carousel layout is not supported.</li></ul> |
+| **Format bot messages:** You can set the optional TextFormat property to control how your message's text content is rendered. | Power Virtual Agents does not support markdown with images and text. <br>When Power Virtual Agents sends markdown text, there is extra space between lines. <br>Carousel layout is not supported. |
 | **File attachments:** After file attachments are enabled in Omnichannel for Customer Service, customers can send file attachments. | Power Virtual Agents cannot operate on Omnichannel for Customer Service file attachments. |
 |||
 
@@ -213,5 +212,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Add a chat widget](add-chat-widget.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics)  
+[Suggested actions](suggested-actions.md) 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
