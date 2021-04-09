@@ -30,8 +30,6 @@ The workstream can be one of the following types:
 
 ## Create a workstream in Omnichannel admin center
 
-You must have the Omnichannel administrator or the CSR Manager role.
-
 Perform the following steps:
 
 1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**, and then select **New**.
@@ -45,7 +43,6 @@ Perform the following steps:
       - **Record**: To configure the workstream for entity record, such as case and email activity.
     - **Channel**: This box appears if you have selected the type as Messaging. Select a channel from the list.
     - **Record**: This box appears if you have selected the type as Record. Select the entity record from the list.
-
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
@@ -108,6 +105,15 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 2. In the **Edit** pane, select **Add**, and enter **Name**.
 3. Select the **Type** of variable from the drop-down list. You can choose from **Text** or **Number**.
 4. Repeat steps 2 and 3 to create the required variables.
+
+### Manage workstreams in Omnichannel admin center
+
+You can manage the workstreams on the workstreams page in the Omnichannel admin center.
+
+Select a workstream to perform any of the following actions:
+- **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
+- **Copy**: Lets you create a copy of the workstream so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of"*<workstream>*.
+- **Delete**: Lets you delete the workstream if you no longer need it1 in your organization.
 
 ## Create a workstream in Omnichannel Administration
 
