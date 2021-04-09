@@ -23,7 +23,7 @@ To learn more, see:
 
 - [Manage sessions in Omnichannel for Customer Service](../../../omnichannel/agent/agent-oc/oc-manage-sessions.md)
 
-- [App profile manager](../../app-profile-manager/overview.md)
+- [App profile manager](../../../app-profile-manager/overview.md)
 
 - [Customer Service workspace](../../csw-overview.md)
 

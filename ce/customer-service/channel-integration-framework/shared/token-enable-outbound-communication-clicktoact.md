@@ -73,7 +73,7 @@ Select the mobile phone icon to trigger the `onclicktoact` event, as shown below
 
 |Mobile phone with customizations|Mobile phone icon without customizations|
 |----|----|
-|![Select the mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event") |![Select the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event")|
+|![Select mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Select mobile phone icon to trigger the onclicktoact event") |![Select the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event")|
 
 > [!Note]
 > Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.

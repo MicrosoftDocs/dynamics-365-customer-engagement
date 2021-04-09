@@ -4,7 +4,7 @@ description: "Frequently asked questions about the Dynamics 365 Channel Integrat
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 04/09/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -97,7 +97,7 @@ Channel Integration Framework model-driven app is only applicable to configure c
 
 ### Where do I configure voice channel provider for multisession apps?
 
-Organizations can configure voice channel providers from the [App profile manager](../../../app-profile-manager/overview.md).
+Organizations can configure voice channel providers from the [App profile manager](../../app-profile-manager/overview.md).
 
 ### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
 
@@ -144,7 +144,7 @@ This is to make sure that updated data is available for the agent at all times.
 
 ### Is it possible to integrate custom (in-house) messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
+Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md).
 
 ### Is it possible to view the existing channel providers from Channel Integration Framework version 2.0 model-driven app?
 

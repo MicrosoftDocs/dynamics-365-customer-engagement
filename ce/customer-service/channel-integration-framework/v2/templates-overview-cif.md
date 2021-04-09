@@ -12,7 +12,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Overview of templates
+# Overview of templates in Dynamics 365 Channel Integration Framework version 2.0
 
 When you (an agent) get an incoming conversation request, Dynamics 365 Channel Integration Framework version 2.0 allows channel providers to search and open records on an incoming call. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 

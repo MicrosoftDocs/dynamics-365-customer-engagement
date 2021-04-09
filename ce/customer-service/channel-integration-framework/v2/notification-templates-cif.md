@@ -52,7 +52,7 @@ Also, as an administrator, you can set the browser notification permission by us
 
 ## Create a notification template
 
-To create or manage a notification template, go to the app profile manager. For more information, see [Manage templates](../../../app-profile-manager/notification-templates#manage-templates.md) in the app profile manager documentation.
+To create or manage a notification template, go to the app profile manager. For more information, see [Manage templates](../../../app-profile-manager/notification-templates.md#manage-templates) in the app profile manager documentation.
 
 ## See also
 

@@ -12,7 +12,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# How to enable outbound communication (ClickToAct) in Channel Integration Framework?
+# How to enable outbound communication (ClickToAct) in Channel Integration Framework
 
 > [!IMPORTANT]
 > Minimum versions required to get this feature working without any customizations.
