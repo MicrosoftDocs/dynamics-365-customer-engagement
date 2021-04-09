@@ -53,7 +53,7 @@ Suggested actions are supported fully with the exception that some channels migh
 
 | Channel            | Suggested actions support       |
 |--------------------|---------------------------------|
-| Microsoft Teams    | No                              |
+| Microsoft Teams    | Yes                              |
 | Facebook           | Yes                             |
 | LINE               | Yes                             |
 | Twitter            | No                              |

@@ -62,6 +62,11 @@
 
 
 ### Administrator experience
+#### [Unified Routing diagnostics](unified-routing-diagnostics.md)
+#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
+#### [Automatically route cases](create-rules-automatically-route-cases.md)
+#### [Create and manage queues for conversations](queues-omnichannel.md)
+#### Set up skill-based routing for conversations
 #### [Create workstreams](create-workstreams.md)
 #### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
 #### [Create multiple workstreams for entity records](multiple-ws-entity-record-routing.md)
@@ -326,6 +331,7 @@
 
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
+#### [Display suggested actions in a vertical layout](suggested-actions.md)
 #### [Download attachments from Power Virtual Agents bot](download-attachments-PVA-bot.md)
 
 ## Insights
