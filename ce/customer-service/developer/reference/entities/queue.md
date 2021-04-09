@@ -4,8 +4,8 @@ description: "Includes schema information and supported messages for the Queue e
 ms.date: 04/01/2021
 ms.service: "crm-online"
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
+author: "platkat"
+ms.author: "ktaylor"
 manager: "shujoshi"
 search.audienceType: 
   - developer
