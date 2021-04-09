@@ -47,7 +47,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 2. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
    
    > [!NOTE]
-   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 Apps** from there. There are similar-looking menu options, but the correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**. 
+   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. There are similar-looking menu options, but the correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**. 
   
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 
