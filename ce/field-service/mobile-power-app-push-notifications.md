@@ -43,6 +43,19 @@ To use push notifications in the Field Service (Dynamics 365) mobile app, you'll
 
 Go to Power Automate and select **Create**. Start from blank or a template to create a flow based on your needs.
 
+mobile-push-notifications-create
+
+mobile-2020-push-notification-step1
+
+mobile-2020-push-notification-step2
+
+mobile-2020-push-notification-condition
+
+mobile-2020-push-notification-step3
+
+mobile-2020-push-notification-step4
+
+
 ## 2. Use any of the available connector triggers
 
 Power Automate supports hundreds of pre-built connectors that can be used to trigger and provide data to the push notifications. You can use any of these triggers to send targeted push notifications to the desired set of users.
