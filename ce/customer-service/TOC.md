@@ -326,6 +326,7 @@
 
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
+#### [Download attachments from Power Virtual Agents bot](download-attachments-PVA-bot.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
