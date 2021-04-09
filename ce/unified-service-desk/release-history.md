@@ -4,7 +4,7 @@ description: "This topic provides release history information for the Unified Se
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/04/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -17,15 +17,41 @@ search.app:
   - D365USD
 ---
 
+
+
 # Release history for Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
+::: moniker range="dynamics-usd-4.2"
+
+<a name="Release_4_2"></a>
+
+## Preview: Release history for Unified Service Desk 4.2, April 2021
+
+The list provides an overview of documentation updates made in Unified Service Desk 4.2.
+
+> [!NOTE]
+> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.2, instead of upgrading to version 4.2.
+> - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.2.
+
+
+| Topic | Updates |
+|---------------|-------------------|
+|[Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2) |Added information about creating a hosted control with hosting type as **Edge WebView2**. |
+|[Enable Edge WebView2 for Unified Service Desk on client desktop](edge-webview2-process.md#enable-edge-webview2-for-unified-service-desk-on-client-desktop) |Added information about enabling/disabling **Edge WebView2** on client desktops. |
+|[Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization) |Added information about enabling **Edge WebView2** for the entire organization using the Global UII option |
+| [Edit a PDF in Edge WebView2 Process](edge-webview2-process.md#edit-a-pdf-in-edge-webview2-process) | Added information about editing PDFs. |
+| [Enable language support in Edge WebView2 Process](edge-webview2-process.md#enable-language-support-in-edge-webview2-process) | Added information about enabling language support. |
+|||
+
+::: moniker-end
+
+
 ::: moniker range="dynamics-usd-4.1"
 
-<a name="Release_4_1_1433"></a>
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
@@ -34,6 +60,7 @@ This release supports the Dynamics 365 model-driven apps deployed in Switzerland
 > [!NOTE]
 > - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.1.1.1433, instead of upgrading to version 4.1.1.1433.
 > - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.1.1.1433.
+
 
 <a name="Release_4_1_2"></a>
 
@@ -78,6 +105,7 @@ The list provides an overview of documentation updates made in Unified Service D
 | [DataReady](unified-interface-page-hosted-control.md#dataready) | Added a note for the DataReady event in the Unified Interface page hosted control. |
 | [Find](unified-interface-page-hosted-control.md#find) | Added new parameters for the Find event in the Unified Interface page hosted control. |
 | [CreateSession](global-manager-hosted-control.md#createsession) | Added new parameters for the CreateSession event in the global manager hosted control. |
+
 
 <a name="Release_4_1_1"></a>
 
@@ -130,7 +158,8 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md) | New topic about integrating channel using Channel Integration Framework in Unified Service Desk. <br><br> New topic under [Extend Unified Service Desk](extend-unified-service-desk.md). |
 | [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md) | New topic about creating a Channel Integration Framework type of hosted control.<br><br> New topic under [Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md). |
 | [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md) | New topic about the predefined UII actions and events of Channel Integration Framework type of hosted control. <br><br> New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md) |
-| [Use Edge process to host web applications in Unified Service Desk](edge-process.md) | New topic about hosting web applications using Edge Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br> **Note:** This is a preview feature. |
+| [Use Edge process to host web applications in Unified Service Desk](edge-process.md) | New topic about hosting web applications using Edge Process in Unified Service Desk <br><br> New topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md). <br><br>  |
+
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-4"
@@ -158,11 +187,11 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Customize themes in Unified Service Desk](customize-themes-in-unified-service-desk.md) | Updated information about the new Unified Blue theme for Unified Interface App in Unified Service Desk. |
 | [Use knowledge for effective customer engagement](use-dynamics-365-knowledge-effective-customer-engagement.md) | Updated information about the [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md). |
 | [Configure Unified Service Desk to use knowledge](configure-unified-service-desk-use-dynamics-365-knowledge.md) | Updated information about the [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md). |
-| [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) | Updated information about configuring stack notification in Unified Service Desk. <br><br> **Note:** This is a preview feature.|
+| [Configure notifications in Unified Service Desk](configure-notifications-unified-service-desk.md) | Updated information about configuring stack notification in Unified Service Desk. <br><br> |
 | [Unified Service Desk and Unified Interface configuration walkthroughs](unified-service-desk-unified-interface-configuration-walkthroughs.md) | General Availability of the Unified Interface Support in Unified Service Desk. |
 | [Unified Interface KM Control (Hosted Control)](unified-interface-km-control-hosted-control.md) |Use the Unified Interface KM Control type of hosted control to display knowledge base articles in your agent application.<br><br>New topic under [Hosted control types and action/event reference](hosted-control-types-action-event-reference.md). |
-| [Popup Notification (Hosted Control)](popup-notification-hosted-control.md) | Updated information about the **Show** action parameters like **stack** and **stackHeight** used for configuring stack notifications. <br><br> **Note:** This is a preview feature.|
-| [Session Tabs (Hosted Control)](session-tabs-hosted-control.md) | Updated new action, **SwitchSession** action that is used to switch between local sessions  and switch between local and global sessions. <br><br> **Note:** This is a preview feature.|
+| [Popup Notification (Hosted Control)](popup-notification-hosted-control.md) | Updated information about the **Show** action parameters like **stack** and **stackHeight** used for configuring stack notifications. <br><br> |
+| [Session Tabs (Hosted Control)](session-tabs-hosted-control.md) | Updated new action, **SwitchSession** action that is used to switch between local sessions  and switch between local and global sessions. <br><br> |
 | [Unified Interface Page (Hosted Control)](unified-interface-page-hosted-control.md) | General Availability of the Unified Interface Support in Unified Service Desk. |
 | [Release notes of Unified Service Desk 4.0](release-notes.md) | This section describes the known issues and limitations in Unified Service Desk 4.0. |
 
