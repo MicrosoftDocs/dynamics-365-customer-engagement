@@ -4,7 +4,7 @@ description: "Provision Omnichannel for Customer Service to add or remove channe
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/02/2021
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -33,7 +33,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
 1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838).
 2. Sign in using **Global Tenant Admin** credentials.
-3. Select the check box **Consent on behalf of your organization**.
+3. Select the **Consent on behalf of your organization** check box.
 4. Select **Accept** to grant data access consent.
 
     > [!div class=mx-imgBorder]
@@ -44,13 +44,17 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 ## Set up Omnichannel for Customer Service
 
 1. In **Power Platform Admin Center**, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
-2. In the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
+2. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
+   
+   > [!NOTE]
+   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 Apps** from there. There are similar-looking menu options, but the correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**. 
+  
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 
     > [!div class=mx-imgBorder]
     > ![Manage Omnichannel for Customer Service](media/OC-provisioning-ppadmin.png "Manage Omnichannel for Customer Service")
 
-4. Select **OK** on the **Manage Omnichannel for Customer Service** message. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
+4. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
 5. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
 
@@ -88,7 +92,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!div class=mx-imgBorder]
     > ![Enable Microsoft Teams](media/enable-teams.png "Enable Microsoft Teams")
 
-11. On the **Confirmation** page, verify your selections, and select **Finish** to provision Omnichannel for Customer Service in your organization.
+11. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
 
     > [!div class=mx-imgBorder]
     > ![Summary tab on Manage Omnichannel instances page](media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
@@ -106,10 +110,10 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
 ## Update Omnichannel for Customer Service application
 
-After Omnichannel for Customer Service application is successfully provisioned, you can update the environment by enabling or disabling the required channels.
+After the Omnichannel for Customer Service application is successfully provisioned, you can update the environment by enabling or disabling the required channels.
 
-1. In **Power Platform Admin Center**, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
-2. In the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
+1. In the **Power Platform Admin Center**, on the **Environments** page, select the environment where you want to set up Omnichannel for Customer Service.
+2. In the left pane, expand **Resources**, and then select **Dynamics 365 Apps**.
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 4. Select **OK** on the **Manage Omnichannel for Customer Service** message. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
