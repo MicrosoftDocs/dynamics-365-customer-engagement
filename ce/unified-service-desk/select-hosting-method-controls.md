@@ -4,7 +4,7 @@ description: "Learn about different types of hosting methods for your controls i
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/01/2018
+ms.date: 03/16/2021
 ms.topic: "article"
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -20,17 +20,19 @@ monikerRange: '>= dynamics-usd-3'
 # Select a hosting method for your controls in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
 
- ## Types of hosting types
+ ## Hosting types
  
+- [Edge WebView2 Process](edge-webview2-process.md)
+
 - [Chrome process](chrome-process.md)
 
-- [Edge process](edge-process.md)
-
-- [IE process](ie-process.md)
-
-- [Internal WPF](internal-wpf.md)
-
 - [Web hosted application](web-hosted-application.md)
+
+- [IE process (deprecated)](ie-process.md)
+
+- [Internal WPF (deprecated)](internal-wpf.md)
+
+- [Edge process (legacy - discontinued)](edge-process.md)
 
 
 ## See also  

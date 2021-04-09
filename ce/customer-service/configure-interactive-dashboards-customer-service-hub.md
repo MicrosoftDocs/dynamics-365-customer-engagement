@@ -151,9 +151,7 @@ The following illustration shows the flyout dialog with the list of the availabl
 
    ![Choose to enable security role](media/choose-enable-security-role.png "Choose to enable security role")
 
-   ![Enable security roles](media/security-roles.png "Enable security roles")
-
-  
+     
 ## Configure interactive dashboards  
  The following sections describe how to configure various types of interactive dashboards.  
   
