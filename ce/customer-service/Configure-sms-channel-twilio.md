@@ -45,28 +45,28 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 1. In the site map of Omnichannel admin center, select **Channels** under **General Settings**, and select **Add account**.
 2. Enter the following details:
-   1. In **Channel details**, enter a name, and select SMS in **Channel**.
-   2. In **Account details**, select Twilio in **Provider**, and enter the following details:
+   a. In **Channel details**, enter a name, and then select SMS in **Channel**.
+   b. In **Account details**, select **Twilio** in **Provider**, and enter the following details:
       - **Account SID:** Enter the Twilio ACCOUNT SID.
       -  **Auth token:** Enter the Twilio AUTH TOKEN.
-   3. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
+   c. In **SMS phone numbers**, select **Add**, and then enter the following details in **Add SMS number**:
       - **Number:** Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
       - **Type**: Select **Long code**, **Short code**, or **Toll free**.
       - **Description**: Specify a description for the number. (Optional)
-   4. In **Callback information**, copy the callback information. You'll use the copied information for Twilio account.
-   5. Select **Done**. The account is configured.
+   d. In **Callback information**, copy the callback information. You'll use the copied information for the Twilio account.
+   e. Select **Done**. The account is configured.
 3. Open the workstream that you created for the SMS channel for Twilio.
 4. Select **Add SMS Channel**, and configure the following options:
-   1. On the **SMS number** page, select a number from the list.
-   2. On the **Language** page, select the language that you want to set as the default.
-   3. On the **Behaviors** page, configure the following options:
+   a. On the **SMS number** page, select a number from the list.
+   b. On the **Language** page, select the language that you want to set as the default.
+   c. On the **Behaviors** page, configure the following options:
      - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md).
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
+   d. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
      - Customers can send file attachments
      - Agents can send file attachments
-   5. Verify the settings on the **Summary** page, and select **Finish**. The SMS for Twilio channel is configured.
+   e. Verify the settings on the **Summary** page, and select **Finish**. The SMS for Twilio channel is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
