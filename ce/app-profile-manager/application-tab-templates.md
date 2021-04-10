@@ -1,6 +1,6 @@
 ---
-title: "Manage application tab templates in Customer Service workspace or Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing application tab templates in Customer Service workspace or Omnichannel Administration app"
+title: "Manage application tab templates | MicrosoftDocs"
+description: "Learn about managing application tab templates in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

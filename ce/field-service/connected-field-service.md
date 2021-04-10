@@ -18,6 +18,9 @@ search.app:
 
 Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform. 
 
+>[!Note]
+> To see a video overview of Connected Field Service, [you can watch one here](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
+
 Key benefits of Connected Field Service:
 
 - Reduce downtime by connecting to IoT devices to diagnose problems before customers are aware of an issue

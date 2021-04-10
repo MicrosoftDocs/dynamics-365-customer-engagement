@@ -35,15 +35,15 @@ To setup the **Entity Record** channel for cases, follow the steps:
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
 | [Step 1: Create queues and add agents](#step-1-create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
-| [Step 2: Enable entity for activities and queues](#step-2-enable-entity-for-activities-and-queues)| Enable the entity for activities and queues. |
+| [Step 2: Enable entity for activities and queues](#enable-entities)| Enable the entity for activities and queues. |
 | [Step 3: Enable entity for routing channel](#step-3-enable-entity-for-routing) | Create entity record configuration to enable an entity for routing. |
 | [Step 4: Create routing rules](#step-4-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
 ## Step 1: Create queues and add agents
 
-Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-queue).
+Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
 
-## Step 2: Enable entity for activities and queues
+## Step 2: Enable entity for activities and queues<a name="enable-entities"> </a>
 
 Any entity you want to enable for routing needs to be enabled for activities and queues.
 
@@ -75,7 +75,7 @@ Create entity record configuration to enable an entity for routing.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select **+ New** in the **Active Entities** page.
+3. Select **New** in the **Active Entities** page.
 
 4. Specify the following in the **New Entity** page.
 
@@ -129,7 +129,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
 
     > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](media/case-ws-rr-entity.png "Add New Rule Item")
+    > ![Add rule item](media/case-ws-rr-entity.png "Add rule item")
 
 7. Select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
 
@@ -137,7 +137,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     
    You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the entity records. Let's see how to define the rule items. To create a new rule item, follow steps 8-13.
 
-8. Select **+ New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
+8. Select **New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](media/case-ws-rr2.png "Add New Rule Item")
@@ -149,7 +149,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used for routing credit card cases. | Specify a description for you to identify the purpose of the rule item. |
 
-10. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
+10. Select **Add** in the **Rule Criteria** section, and then select **Add row**.
 
     a. Select a rule from the list for the first box. For example, **Subject**.
 
@@ -160,7 +160,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     > [!Note]
     > You can define conditions for both primary entity attributes and related entity attributes.
 
-11. Select **Queue** for the **Route to** field. 
+11. Select **Queue** for the **Route to** field.
 
 12. Select an omnichannel queue for the **Add to Queue** field.
 

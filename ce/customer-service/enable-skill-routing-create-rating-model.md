@@ -1,43 +1,45 @@
 ---
-title: "Enable skill-based routing and create rating model | MicrosoftDocs"
-description: "Learn about how to enable skill-based routing and create rating model in Omnichannel for Customer Service app."
+title: "Configure settings for skill-based routing, create rating model | MicrosoftDocs"
+description: "Learn about how to configure settings for skill-based routing and create rating model in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/13/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Enable skill-based routing and create rating model
+# Allow agents to update skills, create a rating model
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Enable skill-based routing
+By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model.
 
-To use skill-based routing, as an administrator, you must enable skill-based routing in the Omnichannel Administration app.
+## Allow agents to update skills
 
-To enable skill-based routing, follow these steps:
+Perform the following steps to enable the setting that'll allow agents to update skills for a work item.
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to Dynamics 365.
 
-2. Select **Skill Based Routing** under **Settings** in the sitemap.
+2. Do one of the following depending on the app you're using:
+   - In Omnichannel admin center, in the site map, select **User attributes**, and then select **Manage** beside **Skill-based routing**.
+   - In Customer Service Hub, in the site map, select **User attributes** under **Unified Routing**, and then select **Manage** beside **Skill-based routing**.
 
-3. On the **Skill Based Routing** tab, set the **Enable Skill Based Routing** toggle to **Yes**.
+3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 
 4. Select a rating model from the list for the **Rating Model** field.
- 
-    If there is no rating model, create a rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
 
-    After you select a rating model, the **Rating Model Details** section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
+   If the rating model doesn't exist, create a rating model. To learn more, see [Create rating model](#create-rating-model).
 
-    Use the following steps to add a rating value in the grid:
+   After you select a rating model, the **Rating Model Details** section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
 
-    1. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
+   Use the following steps to add a rating value in the grid:
 
-    2. Specify a name and value.
+   1. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
-    3. Select **Save and Close** to save and add the rating value.
+   2. Specify a name and value.
+
+   3. Select **Save and Close** to save and add the rating value.
 
 5. Select **Save**.
 
@@ -49,36 +51,34 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create rating model
 
-1. Sign in to the Omnichannel Administration app.
+1. In the Omnichannel Configuration page, in the **Rating Model** section, select **New Rating Model**.
 
-2. Select **Skill Based Routing** under **Settings** in the sitemap.
+2 Specify the following in the **New Rating Model** page.
 
-3. Select **New Rating Model** in the **Rating Model** section. The **New Rating Model** page appears.
+  | Tab | Field | Description | Example value  |
+  |------------|-----------------|----------------|--------------------------------------------|
+  | General | Name | Specify a name for the rating model. | Language rating model |
+  | General | Min Rating Value | Provide a minimum rating value. | 1 |
+  | General | Max Rating Value | Provide a maximum rating value. | 10 |
+  ||||
 
-4. Specify the following in the **New Rating Model** page.
+3. Select **Save**. The **Rating Values** section appears.
 
-    | Tab | Field | Description | Example value  |
-    |------------|-----------------|----------------|--------------------------------------------|
-    | General | Name | Specify a name for the rating model. | Language rating model |
-    | General | Min Rating Value | Provide a minimum rating value. | 1 |
-    | General | Max Rating Value | Provide a maximum rating value. | 10 |
+4. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
-5. Select **Save** to save the rating model. After you save, the **Rating Values** section appears.
+5. Specify the following in the **Rating Value** page.
 
-6. Select **New Rating Value**. The **Quick Create: Rating Value** pane appears.
+  | Field | Description | Value  |
+  |-----------------|----------------|--------------------------------------------|
+  | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
+  | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
+  |||
 
-7. Specify the following in the **Rating Value** page.
+6. Select **Save and Close** to save and add the rating value to the grid.
 
-    | Field | Description | Value  |
-    |-----------------|----------------|--------------------------------------------|
-    | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
-    | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
+7. Select **New** to add other rating values and repeat step 4 and 5.
 
-8. Select **Save and Close** to save and add the rating value to the grid.
-
-9. Select **+ New** to add other rating values and repeat step 7 and 8.
-
-10. Select **Save** to save the rating model changes.
+8. Select **Save** to save the rating model changes.
 
 ### Recommended proficiency level
 

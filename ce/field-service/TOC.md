@@ -48,9 +48,9 @@
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Frontline workers & bookable resources
-## [Frontline worker setup](frontline-worker-set-up.md)
-### [Mailbox setup](frontline-worker-set-up-email-approval.md)
-## [Set up bookable resources](set-up-bookable-resources.md)
+## [Set up frontline workers](frontline-worker-set-up.md)
+## [Email for frontline workers](frontline-worker-set-up-email-approval.md)
+## [Create bookable resources](set-up-bookable-resources.md)
 ## [Display a bookable resource on the schedule board](add-resource-schedule-board.md)
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
@@ -108,7 +108,6 @@
 ## [Edit sitemap, forms, and views](mobile-power-app-configure.md)
 ## [Offline data and sync filters](mobile-power-app-system-offline.md)
 ## [Barcode scanning and global search](mobile-power-app-system-barcode-scanning.md)
-## [Booking maps](mobile-powerapp-booking-maps.md)
 ## [Push notifications](mobile-power-app-push-notifications.md)
 ## [Location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md)
 ## [Geofencing](mobile-powerapp-geofence.md)

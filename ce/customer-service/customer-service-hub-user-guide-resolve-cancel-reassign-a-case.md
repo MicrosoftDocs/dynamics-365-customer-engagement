@@ -4,7 +4,7 @@ description: Understand Cases in Customer Service Hub for Dynamics 365 Customer 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 04/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -44,7 +44,7 @@ The Customer Service Hub provides you with the ability to resolve, cancel, and r
 
 > [!NOTE]
 >
-> - You cannot edit or update any attribute of the case once it is resolved.
+> - While you can't edit or update through the UI any attribute of the case after it is resolved, you can configure an API or a Power Automate flow to be run if the setting in service configuration is enabled. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
 > - The "resolve cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](https://docs.microsoft.com/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
 ## Resolve a case with a parent and child relationship  
