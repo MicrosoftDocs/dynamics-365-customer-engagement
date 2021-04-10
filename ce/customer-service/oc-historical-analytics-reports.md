@@ -23,16 +23,13 @@ The following historical analytics reports are available:
 
 
 
-## Enable Omnichannel historical analytic reports in Omnichannel for Customer Service
+## Enable Omnichannel historical analytics reports in Omnichannel for Customer Service
 
 Make sure that you have the required administrator permissions for Dynamics 365.
 
 1. Sign in to Dynamics 365, and select **Omnichannel admin center**.
 
 2. In the site map, go to **Insights** and select **Settings**. The **Insights settings** page is displayed.
-
- > [!div class="mx-imgBorder"]
- >![Insights settings](media/oc-conversation.png "Omnichannel historical analytics")
 
 3. Select **Manage** next to Omnichannel historical analytics.
 
