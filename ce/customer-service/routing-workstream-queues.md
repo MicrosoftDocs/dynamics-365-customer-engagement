@@ -25,19 +25,19 @@ Manual classification rules are run to update work item attributes. They are wri
 
 #### Skill attachment rules
 
-They are a sub-type of manual work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
+Skill attachment rules are a sub-type of manual work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
 ### Machine learning model-based rules
 
-They are a sub-type of work classification rules and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
+Machine learning model-based rules are a sub-type of work classification rules, and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the intelligent skill finder bootstrapping experience. They are written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
 
 ## Route-to-queues rules
 
-Queue routing rules are rules to send the work item to the right queue. They are written in the format of "if defined condition satisfies, then route the work item to the defined queue." They are optional and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, the route-to-queue ruleset is run after all the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
+Queue routing rules are rules to send the work item to the right queue. They are written in the format of, "If defined condition satisfies, then route the work item to the defined queue." They are optional, and if no rules are defined or no rules match, then the incoming work item will be routed to the default queue of the respective channel type. For a workstream, the route-to-queue ruleset is run after all of the work classification rulesets are run. A workstream can have only one route-to-queues ruleset.
 
 ### How prioritization ruleset works
 
-Prioritization rule set is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue.  In a prioritization rule you can specify a set of 'conditions' and 'order by' attributes. During evaluation, the prioritization rules will be run in the order they are listed. For the first prioritization rule, the work items in the queue that match its conditions will be put in the same 'priority bucket'. In that bucket, the items will be further sorted by the order specified in the prioritization rule. The second rule will run on the rest of the items in the queue to identify the next priority bucket, sort that bucket by the 'order by' attribute, and so on.
+A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule you can specify a set of "conditions" and "order by" attributes. During evaluation, the prioritization rules will be run in the order they are listed. For the first prioritization rule, the work items in the queue that match its conditions will be put in the same "priority bucket". In that bucket, the items will be further sorted by the order specified in the prioritization rule. The second rule will run on the rest of the items in the queue to identify the next priority bucket, sort that bucket by the "order by" attribute, and so on.
 
 ### Author the assignment ruleset
 

@@ -11,7 +11,7 @@ ms.service: "dynamics-365-customerservice"
 
 # Add security roles for admins and users
 
-You can use Microsoft Dynamics 365 admin center to assign user security roles. Persona mapping can be found in the Omnichannel admin center  or Customer Service Hub in the **User attributes** section. For the assigned security user roles to be functional, perform the following steps.
+You can use Microsoft Dynamics 365 admin center to assign user security roles. Persona mapping can be found in the Omnichannel admin center or Customer Service Hub in the **User attributes** section. For the assigned security user roles to be functional, perform the following steps.
 
 1. Map roles to personas.
 2. Enable access to applications.
@@ -31,7 +31,7 @@ Default mapping will automatically assign primary roles depending on the Dynamic
 
 To customize the role to persona mapping, perform the following steps. 
 
-1. Sign in to Omnichannel admin centre.
+1. Sign in to Omnichannel admin center.
 
 or
 
@@ -76,9 +76,9 @@ To enable access to a form or dashboard, perform the following steps.
 
 1. Sign in to Dynamics 365. 
 
-2. Go to **Advanced Settings**, and then **Settings**.
+2. Go to **Advanced Settings** > **Settings**.
 
-3. Select **Customizations**, and then **Customize the system**. 
+3. Select **Customizations** > **Customize the system**. 
 
 4. From the **Solution Default Solution** list, select **Entities** > **Characteristics**, and then **Forms**. 
 

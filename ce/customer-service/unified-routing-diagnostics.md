@@ -20,7 +20,7 @@ search.app:
 
 # Unified routing diagnostics
 
-Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using Unified Routing. 
+Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using unified routing. 
 
 ## Enable routing diagnostics
 
@@ -34,7 +34,7 @@ In Customer Service Hub, go to the **Service Management** work area and select *
 
 or
 
-Sign in to **Omnichannel admin centre** and select **Diagnostics** from the **Advanced settings** options in the menu.
+Sign in to **Omnichannel admin center** and select **Diagnostics** from the **Advanced settings** options in the menu.
 
 3. On the **Routing diagnostics** page command bar, select **Turn on routing diagnostics**.
 
@@ -70,7 +70,7 @@ Intake ➡ Classification ➡ Route to queue ➡ Prioritization ➡ Assignment s
 
 ### Intake
 
-When a work item comes in, it goes to the first work stream in the **Intake** table and is checked whether it meets the conditions of the rule set. The work item moves to the second work stream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple work streams based on priority of the work items. This is called the **Intake** stage of the workflow. 
+When a work item comes in, it goes to the first work stream in the **Intake** table and is checked for whether it meets the conditions of the rule set. The work item moves to the second work stream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple work streams based on priority of the work items. This is called the **Intake** stage of the workflow. 
 
 After a work item passes the **Intake** stage, it's then classified through several rule sets and rule items.
 
@@ -98,7 +98,7 @@ Assignment rule sets contain conditions that determine which work items are assi
 
 ### Assignment
 
-Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions on which work items need to be assigned to agents. 
+Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to agents. 
 
 
 ### See also

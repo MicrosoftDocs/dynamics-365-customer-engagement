@@ -17,5 +17,5 @@ This topic contains the FAQs that you as an administrator, supervisor, or agent 
 
 ### What SKUs must I have to get unified routing?​
 
-Customers will get unified routing for entities, such as Cases, Leads, and Custom Entity as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for those channels automatically
+Customers will get unified routing for entities, such as Cases, Leads, and Custom Entity as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for those channels automatically.
 
