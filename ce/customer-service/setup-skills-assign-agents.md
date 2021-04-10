@@ -76,7 +76,7 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 ### Assign agents to skill
 
-1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**. If you're using Omnichannel Administration, select **Skills** under **Users & Queues** in the sitemap.
+1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**. If you're using Omnichannel Administration, select **Skills** under **Users & Queues** in the site map.
 
 2. Select a skill from the list for which you want to assign the agents.
 
