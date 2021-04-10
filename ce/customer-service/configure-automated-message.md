@@ -51,7 +51,7 @@ Do the following for the channel in which you want to create custom automated me
 1. Go to the workstream, and edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
 3. On the **Add automated message** pane, select a trigger in the **Message trigger** list.
-4. In the **Automated message** field, type the message that should be displayed.
+4. In the **Automated message** box, type the message that should be displayed.
 5. Select **Confirm**.
 6. Repeat steps 3 through 5 to create multiple messages.
 7. Save the settings.
