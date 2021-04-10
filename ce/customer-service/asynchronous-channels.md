@@ -54,7 +54,7 @@ For more information, see the following:
 
 | Element | Description | Teams | Facebook | Telegram | Line | Direct Line |
 | -------- | -------- | ------ | ---------- | -------- | ------- | ------- |
-| ^(what).*?weather | Date input element for adaptive cards  is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
+| ^(what).*?weather | Date input element for adaptive cards is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
 | ^animation card$ | Cards that play animations are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
 | ^arabic carousel | CardCarousel elements is supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ |
 | ^audio$ | Audio card and Media card elements for adaptive cards are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
