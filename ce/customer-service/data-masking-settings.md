@@ -42,7 +42,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
    > [!div class=mx-imgBorder]
    > ![Create a masking rule](media/new-masking-rule.png "Create a masking rule")
     
-1.	In the site map of Omnichannel admin center app, select **Agent experience**, and then select **Manage** for **Data masking**. If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
+1.	In the site map of the Omnichannel admin center app, select **Agent experience**, and then select **Manage** for **Data masking**. If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
 
 3.	In **Masking rules**, select **New Masking Rule**.
 
