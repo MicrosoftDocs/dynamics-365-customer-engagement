@@ -36,7 +36,7 @@ Permissions must be set per the following example. Otherwise, you will not see t
 > [!div class=mx-imgBorder]
 > ![Security Role: Customer Service Representative (CSR) Manager](media/csr-manager-setting-case-resolution.png "Security Role: Customer Service Representative (CSR) Manager")
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified Case Resolution dialog.
 
 ## Enable customizable dialog
@@ -66,7 +66,8 @@ When adding custom status values, you must update them in the following two loca
 - **Case entity** (status code)
 - **Case Resolution entity** (resolution status code)
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
+>
 > - If you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** to match.
 > - If the values do not match, an error message will be displayed when you try to resolve the case.
 
