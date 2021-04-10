@@ -307,14 +307,17 @@
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
+### [Region availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
 
 ### Administrator experience
 #### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
-#### [Configure historical analytics](configure-cs-historical-analytics-csh.md)
+#### [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)
 #### [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)
+#### [Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
 #### [Configure knowledge search insights](enable-knowledge-search-insights.md)
 #### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
+#### [Configure AI topic clustering for conversation](ai-topic-clustering-conversations.md)
 #### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)
@@ -326,9 +329,14 @@
 ##### [Dashboards overview](customer-service-analytics-insights-csh.md)
 ##### [Summary dashboard](summary-dashboard-cs.md)
 ##### [Agent dashboard](agent-dashboard-cs.md)
-##### [Topics dashboard](topics-dashboard-cs.md)
-##### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
-##### [View analytics dashboards created in Power BI](customer-service-analytics.md)
+##### [Case Topics dashboard](case-topics-dashboard-cs.md)
+##### [Omnichannel conversation dashboard](oc-conversation-dashboard.md)
+##### [Omnichannel Queue dashboard](oc-queue-dashboard.md)
+##### [Omnichannel Agent dashboard](agent-dashboard.md)
+##### [Omnichannel Bot dashboard](oc-bot-dashboard.md)
+##### [Omnichannel Conversation topic dashboard](oc-conversation-topics-dashboard.md)
+#### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
+#### [View analytics dashboards created in Power BI](customer-service-analytics.md)
 #### Intraday supervisor experiences
 ##### [Introduction to intraday supervisor experiences](intro-intraday-insights-dashboard.md)
 ##### [View and understand Omnichannel intraday insights](intraday-insights-dashboard.md)
