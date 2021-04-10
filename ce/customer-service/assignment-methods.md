@@ -80,7 +80,7 @@ Perform the following steps to create a custom assignment method:
    5. Repeat the steps 1 through 4 to configure multiple rules.
    
    > [!NOTE]
-   > We recommend that you relax the conditions for the assignment rules in a descending order.
+   > We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
 
 9. You can sort the order in which the rules should be evaluated during work assignment.
 10. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
