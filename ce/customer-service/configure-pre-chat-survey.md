@@ -21,13 +21,13 @@ For the chat channel, you can configure a survey that users can respond to when 
 2. On the **Behaviors** tab, set the toggle for **Pre-conversation survey** to **On**.
 3. In the **Survey questions** area, select **Add**, and then enter the following details on the **Survey question** page:
    - **Survey question name**: Specify a name that will be used internally.
-   - **Question text**: Enter the question text. The will be displayed as a question to the user at runtime.
+   - **Question text**: Enter the question text. This will be displayed as a question to the user at runtime.
    - **Answer type**: Select one of the following values from the list:
         - **Single line**: The user can enter a single line of text.
         - **Multiple lines**: The user can enter multiple lines of text.
-        - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semi-colon.
+        - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semicolon.
         - **User consent**: Use this option to request user consent for the pre-chat survey. You can provide a link to a webpage, such as the privacy policy page. Links must be in the following format: [link text](link to the webpage). A check box will appear beside the question text in the pre-chat survey.
-    - **Required**: Set the toggle to Yes if the response to the question needs to be mandatory. If the answer type is **User Consent**, make sure you specify **Yes**.
+    - **Required**: Set the toggle to **Yes** if the response to the question needs to be mandatory. If the answer type is **User Consent**, make sure you specify **Yes**.
 
     > [!NOTE]
     > Validations in pre-conversation surveys are supported only for mandatory fields.
@@ -48,7 +48,7 @@ You can configure your chat widget to show users a survey that they must respond
 1. Sign in to Omnichannel Administration.
 2. Go to **Channels** &gt; **Chat**.
 3. Open the chat widget in which you want to configure a pre-chat survey, and select **Surveys**.
-4. In the **Pre-conversation survey** area, set the **Turn on** toggle to  **Yes**. The options to add questions and refresh the page are displayed.
+4. In the **Pre-conversation survey** area, set the **Turn on** toggle to **Yes**. The options to add questions and refresh the page are displayed.
 5. Select **Add question**.
 
     > [!NOTE]
@@ -62,8 +62,8 @@ You can configure your chat widget to show users a survey that they must respond
 
         - **Single line**: The user can enter a single line of text.
         - **Multiple lines**: The user can enter multiple lines of text.
-        - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semi-colon.
-        - **User consent**: Use this option to request user consent for the pre-chat survey. You can provide a link to a webpage, such as the privacy policy page. Links must be in the following format: [link text](link to the webpage). A check box will appear beside the question text in the pre-chat survey.
+        - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semicolon.
+        - **User consent**: Use this option to request user consent for the pre-chat survey. You can provide a link to a webpage, such as the privacy policy page. Links must be in the following format: [link text](link to the webpage). A checkbox will appear beside the question text in the pre-chat survey.
 
     - **Mandatory**: Select **Yes** or **No** to indicate whether the question is mandatory. If question type is **User Consent**, make sure you specify **Yes**.
 
