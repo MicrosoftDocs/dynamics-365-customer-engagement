@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
 ms.custom:
   - dyn365-fieldservice
-ms.date: 01/20/2021
+ms.date: 04/09/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -39,22 +39,30 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Germany</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
 | | <i>Switzerland</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |TBD | 04/30/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
-| | <i>Asia Pacific</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
-| | <i>Great Britain</i> |[8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
-| | <i>Oceana</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/09/2021
+| | <i>Japan</i> |  [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |TBD  | 05/07/2021
+| | <i>Asia Pacific</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |TBD  | 05/07/2021
+| | <i>Great Britain</i> |[8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |TBD  | 05/07/2021
+| | <i>Oceana</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |TBD  | 05/07/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/16/2021
+| | <i>Europe</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141)  | 04/16/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109)  | 04/23/2021
+| | <i>North America</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) |[8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141)  | 04/23/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) | 04/30/2021
-| | <i>China</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) | 04/30/2021
-| | <i>Dedicated Scale Groups</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) | 04/30/2021
+| | <i>Government Community Cloud</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141)  | 04/30/2021
+| | <i>China</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) | 04/30/2021
+| | <i>Dedicated Scale Groups</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141)  | 04/30/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+
+## 8.8.40.141 
+This release is a hotfix on Field Service version [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109).
+
+-	Fixed a Field Service upgrade issue when the relationship between knowledge article and customer asset/product already existed in the active layer.
+-	Fixed a Field Service upgrade issue that was throwing error like ‘Property Inspection is required, but the declaration is missing’
+
 
 ## 8.8.40.109 
 
@@ -80,6 +88,12 @@ This release is a hotfix on Field Service version [8.8.35.27](https://docs.micro
 
 -	Resolved an issue where, under certain circumstances, work orders with a primary incident type that also executes a synchronous workflow, could result in null fields on the work order and related primary resource requirement.
 -	Reverted the below change: "Updated behavior where estimated duration from agreement booking setup was not carried over to work order. Previously, duration from the resource requirement was not being used to calculate total estimated duration in the work order. This behavior has been updated; if no work order service task or incident is present, total estimated duration is obtained from the Requirement. If requirement duration is null, then we get value from booking setup metadata." 
+
+## 8.8.39.142 (2021 Wave 1 early access update)
+This release is a hotfix on Field Service version [8.8.39.135](https://docs.microsoft.com/dynamics365/field-service/version-history#8839135).
+
+-	Fixed a Field Service upgrade issue when the relationship between knowledge article and customer asset or product already existed in the active layer.
+-	Fixed a Field Service upgrade issue that was throwing error: "Property Inspection is required, but the declaration is missing."
 
 ## 8.8.39.135 (2021 Wave 1 early access update)
 

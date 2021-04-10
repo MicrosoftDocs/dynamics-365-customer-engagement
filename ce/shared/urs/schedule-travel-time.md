@@ -70,9 +70,6 @@ In addition to completing the tasks mentioned earlier in this article, you need 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of auto update booking travel](../../field-service/media/scheduling-manual-travel-update-enable.png)
 
-> [!NOTE]
-> As of Dynamics 365 Field Service version 8.8.40.x April Wave 1 2021, **Auto Update Booking Travel** is set by default to **Enabled** for new deployments. 
-
 This will add a travel time to the booking visualization on the schedule board, displayed by a line preceding the booking, and populate the **Miles Traveled** booking field (though this is not visualized on the schedule board). 
 
 In the following screenshot, an unscheduled work order requirement was dragged from the lower requirement pane to a resource at 10:00 AM. Similarly to before, this implies that the field technician should arrive onsite at 10:00 AM; the only difference is that the travel time to get there from a home, office, or previous job location is displayed **before** that time.
