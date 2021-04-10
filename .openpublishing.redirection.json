@@ -21090,19 +21090,24 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/work-streams-introduction.md",
+      "redirect_url": "create-workstreams",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "ce/customer-service/configure-topics-clustering.md",
       "redirect_url": "/dynamics365/customer-service/configure-topics-clustering-cases",
       "redirect_document_id": false
-    },
-    {
+          },
+          {
       "source_path": "ce/customer-service/configure-historical-analytics-csh.md",
       "redirect_url": "/dynamics365/customer-service/configure-cs-historical-analytics-csh",
       "redirect_document_id": false
-    },
-    {
+          },
+          {
       "source_path": "ce/customer-service/enable-knowledge-search-analytics.md",
       "redirect_url": "/dynamics365/customer-service/enable-knowledge-search-insights",
       "redirect_document_id": false
-    }
-  ]
-}
+          }
+        ]
+      }

@@ -27,7 +27,7 @@ When you select settings from Omnichannel Administration in the left pane, the *
 
 [Customer Service workspace](../customer-service/csw-overview.md)  
 [Create and manage queues](../customer-service/set-up-queues-manage-activities-cases.md)  
-[Understand and create work streams](../customer-service/work-streams-introduction.md)  
+[Understand and create work streams](../customer-service/create-workstreams.md)  
 [Overview of channels](../customer-service/channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
