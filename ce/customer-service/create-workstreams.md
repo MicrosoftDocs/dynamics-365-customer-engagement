@@ -108,7 +108,7 @@ Context variables enrich conversations with pre-chat data, channel data, and cus
 
 ### Manage workstreams in Omnichannel admin center
 
-You can manage the workstreams on the workstreams page in the Omnichannel admin center.
+You can manage the workstreams on the workstreams page in the Omnichannel admin center app.
 
 Select a workstream to perform any of the following actions:
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
