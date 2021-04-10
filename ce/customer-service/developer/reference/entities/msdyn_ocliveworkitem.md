@@ -956,7 +956,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the routed record. The records pertain to entities that are enabled for unified routing and have at least one workstream created. The record pertaining to the task entity is available out of the box. Except for task, the values that you’ll see in the Targets field will vary based on the entities that are enabled in your organization. For internal use only.|
+|Description| Unique identifier of the routed record. The records pertain to entities that are enabled for unified routing and have at least one workstream created. For internal use only.|
 |DisplayName|Routed record|
 |IsValidForForm|True|
 |IsValidForRead|True|
