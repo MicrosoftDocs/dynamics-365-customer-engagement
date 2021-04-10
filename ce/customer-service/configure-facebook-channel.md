@@ -30,7 +30,7 @@ To add the Facebook channel instance, you must configure the channel account by 
 1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
 2. Enter the following details:
    1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
-   2. On the **Add account** page, specify the Facebook application ID and application secret. To get the application ID and application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App ID** and  **App Secret** fields respectively.
+   2. On the **Add account** page, specify the Facebook application ID and application secret. To get the application ID and application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App ID** and **App Secret** fields, respectively.
    3. On **Add Facebook Pages to this account**, do the following steps:
    4. Select **Add**, and in the** Add Facebook Page** pane, enter the following details:
       - **Page name:** Name of the Facebook page.
