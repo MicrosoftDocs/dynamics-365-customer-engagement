@@ -11,15 +11,15 @@ ms.service: dynamics-365-customerservice
 
 # Download attachments from Power Virtual Agents bot in Omnichannel
 
-If you have deployed your Power Virtual Agents bot in Omnichannel for Customer Service and need to enable customers to send attachments such as pictures or documents to the bot, you can access those files from your Azure Bot Framework Skill. 
+If you've deployed your Power Virtual Agents bot in Omnichannel for Customer Service and need to enable customers to send attachments such as pictures or documents to the bot, you can access those files from your Azure Bot Framework Skill. 
 
-In the Azure Bot Framework Skill you can process the uploaded image and perform the desired actions. 
+In the Azure Bot Framework Skill, you can process the uploaded image and perform the desired actions. 
 
 For more information on enabling file attachments in Azure Bot Framework Skill, see [Configure file attachment capability](configure-file-attachment.md)
 
 ## Prerequisites
 
-- Provide the Power Virtual Agents bot token to the Azure Bot Framework Skill. You can do so by providing the Microsoft AppId, Client Secret and using the parent PVA bot's AppId. For more information, see [Connector authentication](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0).
+- Provide the Power Virtual Agents bot token to the Azure Bot Framework Skill. You can do so by providing the Microsoft AppId, Client Secret, and using the parent PVA bot's AppId. For more information, see [Connector authentication](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0).
 
 - Fetch the required contentURL from the attachment of the Bot framework activity.
 
