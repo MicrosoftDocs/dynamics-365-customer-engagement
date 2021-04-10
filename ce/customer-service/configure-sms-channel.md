@@ -73,7 +73,7 @@ To sign up for TeleSign
      - **Channel operation hours:** Set the toggle to On, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md).
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. In **User features**, set the toggle for **File attachments** to On and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
+   4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
      - Customers can send file attachments
      - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and select **Finish**. The SMS for TeleSign channel is configured.
