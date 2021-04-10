@@ -55,7 +55,7 @@ Do the following to configure a machine learning-based ruleset:
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
 2. On the **Work classification** page, select **Create new**.
-3. In the **Create work classification ruleset** dialog box, select  **Rule Type** as **Machine learning model**, and enter a name and description.
+3. In the **Create work classification ruleset** dialog box, select **Rule Type** as **Machine learning model**, and enter a name and description.
 4. Select a model in the **Select skill identification model** list, and select **Create**.
  
    ![Machine learning skill ruleset](media/ur-ml-skill-ruleset.png "Machine learning skill ruleset")
