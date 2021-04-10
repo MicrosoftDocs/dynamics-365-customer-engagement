@@ -48,9 +48,9 @@
 ## [Work order completion surveys](work-order-surveys.md)
 
 # Frontline workers & bookable resources
-## [Frontline worker setup](frontline-worker-set-up.md)
-### [Mailbox setup](frontline-worker-set-up-email-approval.md)
-## [Set up bookable resources](set-up-bookable-resources.md)
+## [Set up frontline workers](frontline-worker-set-up.md)
+## [Email for frontline workers](frontline-worker-set-up-email-approval.md)
+## [Create bookable resources](set-up-bookable-resources.md)
 ## [Display a bookable resource on the schedule board](add-resource-schedule-board.md)
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)

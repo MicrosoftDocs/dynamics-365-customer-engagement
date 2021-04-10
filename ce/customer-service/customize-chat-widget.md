@@ -4,7 +4,7 @@ description: "Read how you can customize chat widgets by using data tags on the 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 04/09/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
@@ -21,6 +21,7 @@ Chat widgets can be customized by using data tags on the chat widget script.
 |`data-font-family-override`| Use this data tag to override the default chat widget font family.<br />If your website has a custom font uploaded, that can also be used to override the default font family.|Add this tag to the chat widget script that you got from the Omnichannel Administration page. In the following example script, the chat widget font family is set to Roboto as a first priority, otherwise the font family is Segoe UI.<br />`<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-font-family-override="Roboto; Segoe UI"></script>` |
 |`data-open-in-window`| This data tag accepts either the value `true` or `false`. When `true`, the chat widget will open in a new browser window when selected. By default, the chat widget will open in the same browser window. | `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-open-in-window="true"></script>`|
 |`data-suggested-action-layout`| This data tag displays the suggested actions vertically. By default, the suggested actions are displayed horizontally. To display the suggested actions vertically, set the value of this data tag as `stacked`. | Add this tag to the chat widget script that you got from the Omnichannel Administration page, as shown in the following example.<br /><br /> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-suggested-action-layout="stacked"></script>`|
+
 
 ### See also
 
