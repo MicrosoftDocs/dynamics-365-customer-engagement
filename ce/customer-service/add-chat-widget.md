@@ -21,12 +21,12 @@ Perform the following steps to configure chat in Omnichannel admin center:
 
 1. In the site map of Omnichannel admin center, select **Workstreams**.
 2. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
-3. On the workstream page, select **Set up chat** if no chat channel has been created or select **Add chat channel** to add a chat widget.
-4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** boxes respectively.
+3. On the workstream page, select **Set up chat** if a chat channel hasn't been created, or select **Add chat channel** to add a chat widget.
+4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
 5. On the **Chat Widget** page, enter the following details:
    - **Title:** Display name for the chat widget.
    - **Subtitle:** Additional title, such as "We're online".
-   - **Theme color:**  Choose a color from the list.
+   - **Theme color:** Choose a color from the list.
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
    - **Agent display name:** Select a value from the list.
 6. Set the toggle to yes if you want to enable the following options:
