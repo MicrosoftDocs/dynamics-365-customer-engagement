@@ -14,15 +14,15 @@ ms.service: dynamics-365-customerservice
 You can create capacity profiles to define the types and amount of work that agents can take. Capacity profiles improve efficiency in work distribution.
 
 - Capacity management helps administrators create various capacity profiles and associate users with the matching profiles.
-- The supervisor has the flexibility to use the agents for maximum customer services while the agents has the control to work on the maximum number of cases assigned to them daily. The capacity is not considered during consult or monitor.
+- The supervisor has the flexibility to use the agents for maximum customer services while the agents have the control to work on the maximum number of cases assigned to them daily. The capacity is not considered during consult or monitor.
 - The administrator has the capability to block certain period of agents' time while they are busy working with high priority cases.
 - The supervisor can override the agent's configured capacity and assign work to user manually.
-- The administrator can set the profile-based capacity in the work distribution settings. But, the capacity profile can be overridden in work classification.
+- The administrator can set the profile-based capacity in the work distribution settings, but the capacity profile can be overridden in work classification.
 - In the queue assignment rule, you can create a rule to find an agent whose capacity profile matches that of the work item.
 
 
 > [!IMPORTANT]
-> We recommend that you configure either capacity profiles or capacity units in your organization but not both.
+> We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
 
 ## Create a capacity profile and assign to users
 
@@ -30,7 +30,7 @@ Create a capacity profile, and use it in a workstream that is used for routing w
 
 For a capacity profile, you can edit any setting except reset frequency, and add or remove users. If you no longer require the profile, you can delete it.
 
-Perform the following steps to configure the capacity profile.
+Perform the following steps to configure the capacity profile:
 
 1. In Omnichannel admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
 
