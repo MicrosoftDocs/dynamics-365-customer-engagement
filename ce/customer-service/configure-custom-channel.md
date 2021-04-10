@@ -100,7 +100,7 @@ To configure other options in the work stream, see the following:
 1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
 2. Enter the following details:
    1. On the **Channel details** page, enter a name and select **Custom** in **Channels**.
-   2. On the **Account details** page, enter the Microsoft app ID in **Microsoft app ID** that you saved from the Azure Bot Channel Registration page, and the client secret in **Client secret** and select **Validate**.
+   2. On the **Account details** page, enter the Microsoft app ID in **Microsoft app ID** that you saved from the Azure Bot Channel Registration page, and the client secret in **Client secret**, and then select **Validate**.
    3. On the **Custom channel** page, select **Add**, and enter the following information:
       - **Name:** A name for the channel.
       - **Channel:** Select a channel in the list.
