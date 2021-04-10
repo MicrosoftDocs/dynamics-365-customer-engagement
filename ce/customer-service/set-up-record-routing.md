@@ -41,7 +41,7 @@ Perform the following steps to configure record routing:
 
 To configure a workstream for the entity record, do the following:
 
-1. In the Customer Service Hub, in the **Service Management** change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**. If you're using Omnichannel admin center, on the site map, select **Workstreams** under **General settings**.
+1. In the Customer Service Hub app, in the **Service Management** change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**. If you're using Omnichannel admin center, on the site map, select **Workstreams** under **General settings**.
 
 2. In the **Create a workstream** dialog box, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
@@ -112,7 +112,7 @@ This section describes how to create a workstream for an entity that has been en
 
 ### Upgrade path for preview users
 
-If you are upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You need to create a new entity records channel and then redefine the workstreams. To learn more, see [Entity records routing](entity-channel.md).
+If you're upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You'll need to create a new entity records channel and then redefine the workstreams. To learn more, see [Entity records routing](entity-channel.md).
 
 ### See also
 
