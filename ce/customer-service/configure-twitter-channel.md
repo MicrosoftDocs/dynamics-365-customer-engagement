@@ -116,7 +116,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
     
     - **Language**: Select the preferred language for your Facebook page.
     
-    - **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a  work stream, see [Create work streams](create-workstreams.md).
+    - **Work Stream**: Select the out-of-the-box work stream for the Twitter channel. To create a work stream, see [Create work streams](create-workstreams.md).
 
     - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set **No**.
 
