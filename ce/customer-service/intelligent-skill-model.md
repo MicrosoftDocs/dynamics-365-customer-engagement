@@ -10,7 +10,7 @@ ms.service: dynamics-365-customerservice
 ---
 # Set up intelligent skill finder model
 
-You can create and train machine-learning models that use AI to determine the necessary skills for new work items. You can create and train the model by using the data in Microsoft Dataverse. However, if you are trying to set up the model in a new organization or if skill-based routing was not in use, you mightn't have the skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
+You can create and train machine-learning models that use AI to determine the necessary skills for new work items. You can create and train the model by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
 
 ## Create skill finder models
 
@@ -33,7 +33,7 @@ Perform the steps in this section to set up the intelligent skill finder model. 
 
 ### Use training data imported from Excel file
 
-If you do not have data to train your model, you can populate skills and attributes data in Excel files and upload them to the application by using the import feature of Microsoft Dataverse.
+If you don't have data to train your model, you can populate skills and attributes data in Excel files and upload them to the application by using the import feature of Microsoft Dataverse.
 
 To use the data from the Excel files, you must make sure of the following:
 
