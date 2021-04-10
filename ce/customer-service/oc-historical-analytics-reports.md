@@ -27,9 +27,9 @@ The following historical analytics reports are available:
 
 Make sure that you have the required administrator permissions for Dynamics 365.
 
-1. Sign in to Dynamics 365 and select **Omnichannel admin center**.
+1. Sign in to Dynamics 365, and select **Omnichannel admin center**.
 
-2. Go to **Insights** and select **Settings**. The **Insights settings** page is displayed.
+2. In the site map, go to **Insights** and select **Settings**. The **Insights settings** page is displayed.
 
  > [!div class="mx-imgBorder"]
  >![Insights settings](media/oc-conversation.png "Omnichannel historical analytics")
@@ -50,13 +50,13 @@ The service managers must have the admin or service manager role to view the rep
 
 If your organization needs to enable users with different privileges to access the reports beyond the default ones, the following steps outline how to share the reports to additional roles. 
 
-1. Select **Settings** > **Advanced Settings**.
+1. In Dynamics 365, select **Settings**, and then select **Advanced Settings**.
 
-2. Select **Security** > **Security roles**.
+2. On the page that appears, select **Security**, and then select **Security roles**.
 
 3. Select the security role that you want to provide access for. For example, Omnichannel supervisor.
 
-4. Select **Custom Entities** tab and select an entity, for example Omnichannel Historical analytics.
+4. Select the **Custom Entities** tab, and then select an entity, for example "Omnichannel historical analytics".
 
 5. Select **Save and Close**. The Omnichannel supervisor will now be able to see the historical anaytics report.
 
@@ -64,5 +64,4 @@ You can see the following reports by navigating to **Omnichannel for Customer Se
 
 ### See Also
 
-[Dashboard Overview](customer-service-analytics-insights-csh.md)
-
+[Dashboard Overview](customer-service-analytics-insights-csh.md)  

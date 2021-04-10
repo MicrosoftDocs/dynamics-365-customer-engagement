@@ -33,10 +33,10 @@ The Summary and Model Run Summary views provide key information about how the to
 
 ## Automate topics to Power Virtual Agents bots
 
-AI discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by selecting the **Enable** toggle and selecting **Save**.
+AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by selecting the **Enable** toggle and selecting **Save**.
 
 > [!NOTE]
-> Topic automation to PVA bot is not currently available in GCC.
+> Topic automation to Power Virtual Agents bot is not available in Government Community Cloud.
 
 ## Language availability for topics
 
@@ -50,3 +50,7 @@ The topics capability in the Omnichannel historical analytics reports comes with
 - Portugese
 - Simplified Chinese
 - Spanish
+
+### See also
+
+[Omnichannel conversation dashboard](oc-conversation-dashboard.md)  

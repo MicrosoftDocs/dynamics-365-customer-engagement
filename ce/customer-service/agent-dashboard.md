@@ -1,6 +1,6 @@
 ---
-title: Omnichannel Agent Dashboard | Microsoft Docs
-description: Learn about the Agent dashboard in Omnichannel to better understand agent performance in your organization.
+title: "Agent dashboard in Omnichannel historical analytics  | Microsoft Docs"
+description: "Learn about the Agent dashboard in Omnichannel historical analytics to better understand agent performance in your organization."
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
@@ -11,7 +11,7 @@ ms.service: dynamics-365-customerservice
 
 # Agent dashboard
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 >
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
@@ -22,7 +22,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Omnichannel agent dashboard](media/oc-agent-dashboard.png "Omnichannel agent dashboard")
 
-To view the Agent dashboard, go to Omnichannel historical analytics and select **Agent** in the workspace. The dashboard shows charts and KPIs for both individual and overall agent performance.
+You can view the Agent dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Agent** tab.
 
 ## Report details
 
@@ -93,7 +93,7 @@ The charts display the following metrics.
 
 ## Agent drill down view
 
-The Agent drill down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training/coaching scenarios for agents.  
+The Agent drill down view provides supervisors with a holistic look into individual agent performance on metrics and can be valuable in training or coaching scenarios for agents.  
 
 To access the drill down, select any metric value for the desired agent and select **Details**.  
 
@@ -111,8 +111,8 @@ To view the drill down, select any single metric value on the desired day, then 
 
 ### See Also
 
-- [Conversation dashboard](oc-conversation-dashboard.md)
-- [Dashboard overview](customer-service-analytics-insights-csh.md)
-- [Queue dashboard](oc-queue-dashboard.md)
-- [Bot dashboard](oc-bot-dashboard.md)
-- [Conversation Topics dashboard](oc-conversation-topics-dashboard.md)
+[Conversation dashboard](oc-conversation-dashboard.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Queue dashboard](oc-queue-dashboard.md)  
+[Bot dashboard](oc-bot-dashboard.md)  
+[Conversation Topics dashboard](oc-conversation-topics-dashboard.md)  

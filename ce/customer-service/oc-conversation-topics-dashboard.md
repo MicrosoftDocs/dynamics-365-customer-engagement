@@ -1,6 +1,6 @@
 ---
 title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
-description: Learn about the Conversation topics dashboard in Omnichannel to better understand agent performance in your organization.
+description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
@@ -16,7 +16,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation Topics dashboard](media/oc-topics.png "Omnichannel Conversation Topics dashboard")
 
-To view the Topics dashboard, go to Omnichannel historical analytics and select  **Topics** in the workspace.
+You can view the Topics dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Topics** tab.
 
 ## Report Details
 
@@ -60,18 +60,16 @@ To access the drill-down, select any metric value for the required topic and sel
 
 AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization’s administrator for use.  
 
-Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting the PVA icon on the Topics metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This will launch the topic editing form.
+After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting the PVA icon on the Topics metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This will launch the topic editing form.
 
-Suggested trigger phases as well as topics related to the case title are provided.The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, select **Create Bot**. You will be redirected to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added. Once this step is complete, select **Automate Continue** . The Power Virtual Agents Topic will redirect to Power Virtual Agents for completion of authoring.
+Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, select **Create Bot**. You will be redirected to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added. After this step is complete, select **Automate Continue** . The Power Virtual Agents Topic will redirect to Power Virtual Agents for completion of authoring.
 
 > [!NOTE]
-Bots created through the Microsoft Teams channel will not be listed in the bot selection list.
+> Bots created through the Microsoft Teams channel will not be listed in the bot selection list.
 
 ### See Also
 
-- [Conversation dashboard](oc-conversation-dashboard.md)
-- [Dashboard overview](customer-service-analytics-insights-csh.md)
-- [Agent dashboard](agent-dashboard.md)
-- [Bot dashboard](oc-bot-dashboard.md)
-
-
+[Conversation dashboard](oc-conversation-dashboard.md)  
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Agent dashboard](agent-dashboard.md)  
+[Bot dashboard](oc-bot-dashboard.md)  

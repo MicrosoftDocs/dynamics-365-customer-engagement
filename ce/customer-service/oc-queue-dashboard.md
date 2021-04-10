@@ -16,7 +16,7 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard historical analytics](media/queue-historical-analytics.png "Queue historical analytics dashboard")
 
-To view the Queue dashboard, go to Omnichannel historical analytics and select **Queue** in the workspace.
+You can view the Queue dashboard in the Omnichannel for Customer Service app. On the **Home** tab, select the plus (**+**) icon, and then select **Analytics and insights**. On the page that appears, select the **Queue** tab.
 
 By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. The data filtering options allow you to select data for specific time periods, channels, queues, agents, conversation status, and timezone. To filter data by duration, channel, queue, agent, conversation status, or timezone, select a value from the respective drop-down list.
 
