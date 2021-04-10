@@ -112,9 +112,6 @@ Perform the following steps to configure chat in Omnichannel admin center:
     - **Chat Reconnect:** The toggle to configure options for providing a reconnect link to the chat user is displayed. More information: [Configure reconnection to a previous chat session](configure-reconnect-chat.md)
 
 
-    > [!div class=mx-imgBorder]
-    > ![Configure the basic details of a chat widget](media/chat-widget.png "Configure the basic details of a chat widget")
-
 6. On the **Automated messages** tab, set up automated messages for your chat widget. More information: [Configure automated messages](configure-automated-message.md)
 
 7. On the **Surveys** tab, specify the information for the following fields.

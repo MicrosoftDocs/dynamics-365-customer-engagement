@@ -55,11 +55,12 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 2 Specify the following in the **New Rating Model** page.
 
-    | Tab | Field | Description | Example value  |
-    |------------|-----------------|----------------|--------------------------------------------|
-    | General | Name | Specify a name for the rating model. | Language rating model |
-    | General | Min Rating Value | Provide a minimum rating value. | 1 |
-    | General | Max Rating Value | Provide a maximum rating value. | 10 |
+  | Tab | Field | Description | Example value  |
+  |------------|-----------------|----------------|--------------------------------------------|
+  | General | Name | Specify a name for the rating model. | Language rating model |
+  | General | Min Rating Value | Provide a minimum rating value. | 1 |
+  | General | Max Rating Value | Provide a maximum rating value. | 10 |
+  ||||
 
 3. Select **Save**. The **Rating Values** section appears.
 
@@ -67,10 +68,11 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 5. Specify the following in the **Rating Value** page.
 
-    | Field | Description | Value  |
-    |-----------------|----------------|--------------------------------------------|
-    | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
-    | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
+  | Field | Description | Value  |
+  |-----------------|----------------|--------------------------------------------|
+  | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
+  | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
+  |||
 
 6. Select **Save and Close** to save and add the rating value to the grid.
 

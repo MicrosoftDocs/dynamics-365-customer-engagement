@@ -27,7 +27,7 @@ Routing rules are evaluated from top to bottom. If a rule condition is evaluated
 Routing rule conditions could be based on channel context, pre-chat context, and contact, account, or case context. For example, you can define a routing rule so that chats from high priority customers who have specific queries about investments can be routed to a specific queue.
 
 > [!IMPORTANT]
-> If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Default queue](queues-omnichannel.md#default-queues).
+> If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 ## Create a routing rule
 
@@ -37,7 +37,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
    1. In the **General information** section of the **General** tab, provide the following information: </br>
       1. **Name**. Name of the rule item </br>
       2. **Work Stream** is auto populated </br>
-      3. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-queue) </br>
+      3. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a queue in Omnichannel for Customer Service](queues-omnichannel.md) </br>
    2. **Description**. A brief description of the rule item.
    3. In the **Condition** section, provide the conditions for the rule. Based on the conditions defined, the conversations are routed to the correct queues. You can define the conditions based on the following:
     - Entity

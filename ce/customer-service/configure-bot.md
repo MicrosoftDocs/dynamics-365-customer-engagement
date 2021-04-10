@@ -160,7 +160,7 @@ This sample provides exact steps and configuration values to integrate a bot and
         > ![Create a rule to send customer query to bot](media/bot-rule.png "Create a rule to send customer query to bot")
     - **CreditCardRule**: Specify the work stream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
-        > ![Create a rule to send customer query from bot to an agent](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
+        > ![Send customer queries from a bot to an agent, by creating a rule.](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
     - **HomeLoanRule**: Specify the work stream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")

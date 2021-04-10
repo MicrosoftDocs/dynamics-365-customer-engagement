@@ -129,7 +129,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
 
     > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](media/case-ws-rr-entity.png "Add New Rule Item")
+    > ![Add rule item](media/case-ws-rr-entity.png "Add rule item")
 
 7. Select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
 
@@ -137,7 +137,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     
    You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the entity records. Let's see how to define the rule items. To create a new rule item, follow steps 8-13.
 
-8. Select **+ New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
+8. Select **New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](media/case-ws-rr2.png "Add New Rule Item")
@@ -160,7 +160,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     > [!Note]
     > You can define conditions for both primary entity attributes and related entity attributes.
 
-11. Select **Queue** for the **Route to** field. 
+11. Select **Queue** for the **Route to** field.
 
 12. Select an omnichannel queue for the **Add to Queue** field.
 

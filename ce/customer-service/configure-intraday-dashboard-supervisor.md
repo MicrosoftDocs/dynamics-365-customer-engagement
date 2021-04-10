@@ -77,15 +77,15 @@ Review the following prerequisites before configuring the supervisor insights:
    
       a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
            
-         > [!div class=mx-imgBorder]
-         > ![Select Admin portal](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal") 
+        > [!div class=mx-imgBorder]
+        > ![Select Admin portal](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal") 
 
       b. In the Admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
       c. Enable **Allow service principals to use Power BI APIs** and specify the security group to which you want to give access.
         
-         > [!div class=mx-imgBorder]
-         > ![Enable service principals for security group](media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
+        > [!div class=mx-imgBorder]
+        > ![Enable service principals for security group](media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
 
       d. Select **Apply**.
 
@@ -186,9 +186,9 @@ You must configure the Power BI workspace using the Omnichannel admin center or 
 7. Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
 
 
-### Configure customized intraday insights for Unified Service Desk 
+### Configure customized intraday insights for Unified Service Desk
 
-Before you configure the Intraday insights for Unified Service Desk, you must [configure Intraday insights for the Omnichannel for Customer Service app on the web](#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web). This configures the Power BI datasets, reports, and dashboards for Omnichannel for Customer Service and enables you to configure the insights for Unified Service Desk. 
+Before you configure the Intraday insights for Unified Service Desk, you must [configure Intraday insights for the Omnichannel for Customer Service app on the web](#configure-intraday-insights-for-omnichannel-for-customer-service). This configures the Power BI datasets, reports, and dashboards for Omnichannel for Customer Service and enables you to configure the insights for Unified Service Desk. 
 
 > [!NOTE]
 > Supervisor and agent sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.

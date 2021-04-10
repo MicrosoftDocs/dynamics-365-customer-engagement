@@ -133,7 +133,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 7. Select a script from the **Agent script** list.
 
     > [!div class=mx-imgBorder] 
-    > ![Set default agent script](../customer-service/media/agent-script-set-default.png "Set default agent script")
+    > ![Select default agent script](../customer-service/media/agent-script-set-default.png "Select default agent script")
 
 8. Follow steps 4 through 7 for the **If false** step.
 

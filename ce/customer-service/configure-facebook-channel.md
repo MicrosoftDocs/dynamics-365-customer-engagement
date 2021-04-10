@@ -58,7 +58,7 @@ To add the Facebook channel instance, you must configure the channel account by 
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](#configure-context-variables)
+   - [Context variables](create-workstreams.md#configure-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 

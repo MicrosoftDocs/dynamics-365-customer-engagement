@@ -40,7 +40,7 @@ As an organization, you want the ability to integrate your line-of-business (in-
 
 [Step 2: Add the messaging channel to bot channel registration](#step-2-add-the-messaging-channel-to-bot-channel-registration)
 
-[Step 3: Create a work stream](#step-3-create-a-work-stream)
+[Step 3: Create a work stream](#step-3-create-a-workstream)
 
 [Step 4: Create a custom messaging account](#step-4-create-a-custom-messaging-account)
 

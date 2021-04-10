@@ -30,8 +30,8 @@ The following are important prerequisites that you must complete before configur
 
 After completing the prerequisites, you can add the Twitter channel for your organization by following these steps:
 
-1. [Create a Twitter channel and add a Twitter handle](#create-a-twitter-channel-and-add-a-twitter-handle).
-2. [Create routing rules](#create-routing-rules).
+1. Create a Twitter channel and add a Twitter handle.
+2. Create routing rules.
 
 ## Create a Twitter channel and add a Twitter handle in Omnichannel admin center
 
@@ -64,7 +64,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](#configure-context-variables)
+   - [Context variables](create-workstreams.md#configure-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
