@@ -27,7 +27,7 @@ The operating hours schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [Automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they will receive responses that you have set.
 
-After you create an operating hour record, in Omnichannel admin center, you can do the following steps depending on your requirement:
+After you create an operating hour record, in Omnichannel admin center, you can do the following steps, depending on your requirement:
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
