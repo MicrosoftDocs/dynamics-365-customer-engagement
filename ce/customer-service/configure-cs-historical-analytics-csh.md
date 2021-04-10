@@ -18,7 +18,7 @@ The following historical reports are available:
 
 - [Summary report](summary-dashboard-cs.md)
 - [Agent report](agent-dashboard-cs.md)
-- [Topics report](topics-dashboard-cs.md) 
+- [Topics report](case-topics-dashboard-cs.md) 
 
 
 ## Enable Customer Service analytics reports in Customer Service Hub 

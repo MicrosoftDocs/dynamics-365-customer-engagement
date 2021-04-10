@@ -30,7 +30,7 @@ KPIs for the following areas are displayed:
 | Avg. conversation handle time (min)  | The average total conversation active time across engaged conversations. |
 | Avg. CSAT | Average CSAT score provided by customers from Customer Voice survey responses.  |
 | Avg. conversation sentiment | Average predicted sentiment of the customer across engaged conversations | 
-| Avg customer effort time (min) | Average time from the conversation start to conversation wrap up start time  |
+| Avg customer effort time (min) | Average time from the conversation start to conversation wrap-up start time  |
 | Transfer rate | Number of sessions transferred by an agent. |
 
 The topics metrics chart displays the following metrics.
@@ -51,7 +51,7 @@ The topics metrics chart displays the following metrics.
 
 The Topic drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support.  
 
-To access the drill down, select any metric value for the required topic and select **Details**.  
+To access the drill-down, select any metric value for the required topic and select **Details**.  
 
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation topic drill down view](media/oc-conversation-topics-drill-down.png "Omnichannel Conversation topic drill down view")
@@ -60,7 +60,7 @@ To access the drill down, select any metric value for the required topic and sel
 
 AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization’s administrator for use.  
 
-Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting the PVA icon on the Topics metrics grid or by selecting **Details** and then **Automate to Bot** in the drill down view. This will launch the topic editing form.
+Once a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting the PVA icon on the Topics metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This will launch the topic editing form.
 
 Suggested trigger phases as well as topics related to the case title are provided.The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, select **Create Bot**. You will be redirected to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added. Once this step is complete, select **Automate Continue** . The Power Virtual Agents Topic will redirect to Power Virtual Agents for completion of authoring.
 

@@ -21,14 +21,8 @@ Customer Service features are available in the following regions.
 | Smart Assist Suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ |
 | Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Conversation Topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Omnichannel voice historical analytics | COMING SOON |
 | Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Field Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Incident type suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| IoT Alert suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Predictive work hour suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Assets suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔| ? | ✔ | ✔ |
-| Resource scheduling reports | ✔ | ✔ | ✔ | ✔ | ✔ |✔ | ✔ | ✔ | ✔ | 
+
 
 ✔ : Available
 
