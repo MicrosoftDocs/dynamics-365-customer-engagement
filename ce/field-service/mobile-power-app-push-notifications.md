@@ -121,7 +121,7 @@ Use these fields to provide a custom message:
 In the following screenshot, we create a push notification to the Field Service technician (bookable resource) when a new booking has been assigned. The push notification, when tapped on, will open the booking resource booking record on the booking and work order form. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Automate showing the push notification configurations.](./media/mobile-2020-push-notifications-create2.png)
+> ![Screenshot of Power Automate showing the push notification configurations.](./media/mobile-2020-push-notification-notificaton.png)
 
 ## 4. View in the Field Service (Dynamics 365) mobile app
 
@@ -132,7 +132,7 @@ When the app launches, accept the prompt to receive notifications.
 The push notifications will be shown to the technician using the mobile phone. Field technicians do not need to be in the app or using their device to receive push notifications.
 
 > [!div class="mx-imgBorder"]
-> ![Device render showing a mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-view.png)
+> ![Device render showing a mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
 
 ### See also
 
