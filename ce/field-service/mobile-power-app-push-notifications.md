@@ -43,17 +43,12 @@ To use push notifications in the Field Service (Dynamics 365) mobile app, you'll
 
 Go to Power Automate and select **Create**. Start from blank or a template to create a flow based on your needs.
 
-mobile-push-notifications-create
 
-mobile-2020-push-notification-step1
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-push-notifications-create.png)
 
-mobile-2020-push-notification-step2
 
-mobile-2020-push-notification-condition
 
-mobile-2020-push-notification-step3
-
-mobile-2020-push-notification-step4
 
 
 ## 2. Use any of the available connector triggers
@@ -65,7 +60,44 @@ For the next example, we use the Common Data Service (current environment) conne
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Automate, showing a trigger.](./media/mobile-2020-push-notification-create1.png)
 
-## 3. Add the push notification action
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-notification-step1.png)
+
+
+
+
+
+## 3. Get Bookable Resources
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-notification-step2.png)
+
+
+
+## 4. Create condition
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-notification-condition.png)
+
+
+
+
+
+## 5. Get Users 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-notification-step3.png)
+
+
+
+
+## 6. Get Work Orders (optional)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-notification-step4.png)
+
+
+## 7. Add the push notification action
 
 The **Power Apps Notifications v2** connector includes the *Send a push notification V2* action. Add this action as a step in your flow and enter the necessary information to configure the push notification, using any of the dynamic data provided by earlier steps.
 
