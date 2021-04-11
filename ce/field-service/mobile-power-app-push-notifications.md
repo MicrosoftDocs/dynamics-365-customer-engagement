@@ -57,11 +57,9 @@ Power Automate supports hundreds of pre-built connectors that can be used to tri
 
 For the next example, we use the Common Data Service (current environment) connector with the *When a record is created, updated, or deleted* trigger so that we can notify the relevant user when a new record has been created. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Automate, showing a trigger.](./media/mobile-2020-push-notification-create1.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-push-notification-step1.png)
+> ![Screenshot of Power Automate, showing a trigger.](./media/mobile-2020-push-notification-step1.png)
 
 
 
@@ -69,12 +67,16 @@ For the next example, we use the Common Data Service (current environment) conne
 
 ## 3. Get Bookable Resources
 
+From the Bookable Resource Booking, get the associated Resource value. This is the resource the booking was schedule to.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-push-notification-step2.png)
 
 
 
-## 4. Create condition
+## 4. Create condition (optional)
+
+Isolate Resources that have Resource Type = User (in the image 3 represents the User value in the option set). This allows us to only send push notifications to Resources that are Users and not equipment, pools, contractors, etc. Users represents employees who use the mobile application.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-push-notification-condition.png)
@@ -85,6 +87,8 @@ For the next example, we use the Common Data Service (current environment) conne
 
 ## 5. Get Users 
 
+From the Resources, get the associated User values. Technicians log into the mobile app with their Dynamics 365 user credentials so this step is necessary to send push notifications to the right users.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-push-notification-step3.png)
 
@@ -93,6 +97,8 @@ For the next example, we use the Common Data Service (current environment) conne
 
 ## 6. Get Work Orders (optional)
 
+If you want to include Work Order information in the Push Notification message, get Work Orders. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-push-notification-step4.png)
 
@@ -100,6 +106,11 @@ For the next example, we use the Common Data Service (current environment) conne
 ## 7. Add the push notification action
 
 The **Power Apps Notifications v2** connector includes the *Send a push notification V2* action. Add this action as a step in your flow and enter the necessary information to configure the push notification, using any of the dynamic data provided by earlier steps.
+
+In the following screenshot, we create a push notification to the Field Service technician (bookable resource) when a new booking has been assigned. The push notification, when tapped on, will open the booking resource booking record on the booking and work order form. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Power Automate showing the push notification configurations.](./media/mobile-2020-push-notification-notificaton.png)
 
 To send a message to the Field Service (Dynamics 365) mobile app, make sure the following fields are configured:
 
@@ -118,16 +129,13 @@ Use these fields to provide a custom message:
 - Recipient Items: The desired set of recipients for the notification
 - Message: The notification message.
 
-In the following screenshot, we create a push notification to the Field Service technician (bookable resource) when a new booking has been assigned. The push notification, when tapped on, will open the booking resource booking record on the booking and work order form. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Automate showing the push notification configurations.](./media/mobile-2020-push-notification-notificaton.png)
 
-## 4. View in the Field Service (Dynamics 365) mobile app
+## 8. View in the Field Service (Dynamics 365) mobile app
 
 Download the Field Service (Dynamics 365) mobile app from the app store.
 
-When the app launches, accept the prompt to receive notifications.
+When the app launches, accept the prompt to receive notifications. Otherwise, enable notifications in your devices settings. 
 
 The push notifications will be shown to the technician using the mobile phone. Field technicians do not need to be in the app or using their device to receive push notifications.
 
