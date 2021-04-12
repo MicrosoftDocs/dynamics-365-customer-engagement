@@ -56,7 +56,7 @@ For more information, see the following:
 | -------- | ------ | ---------- | -------- | ------- | ------- | ----------- | ----------- | ----------- | 
 | Date input element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ |
 | Animations element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
-| CardCarousel elements are not supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | 
+| CardCarousel elements are not supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Audio card and Media card elements are not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
 | Suggested actions are not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |✖ | ✖ | ✔ |
 | CardCarousel elements are not supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
