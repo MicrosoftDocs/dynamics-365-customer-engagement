@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 02/01/2021
+ms.date: 04/07/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -26,6 +26,78 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## April 2021 update
+
+The Dynamics 365 Marketing April 2021 update includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever.
+
+> [!TIP]
+> To enable the email editor, activate the **Updated email editing experience** [feature switch](admin-feature-switches.md).
+
+This release also includes social posting to Instagram, an API to enable or disable cookies, a new custom “Envelope-From” domain option, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10071.2007 |
+
+> [!Tip]
+> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+
+### Monthly enhancements
+
+- **Marketing emails**
+    - Added an in-app onboarding guide to the new email editor to ease user transition from the classic editor.
+    - The canvas and settings now include options for footer fields, making it easier to add footer elements such as a legal address or an unsubscribe link.
+    - To save time when creating new emails and templates, we added a settings option to save a default “from” name and email address.
+    - You can now set up a custom Envelope-From domain so the From domain used by the Dynamics 365 sending infrastructure is associated with a user’s brand instead of Dynamics 365. Setting up an Envelope-From domain allows users to protect their sending reputation and is important to [DMARC](https://dmarc.org) implementation.
+- **Marketing pages**
+    - Added a new API to enable, disable, or delete cookies, expanding options for user tracking and compliance. The API, which affects known and anonymous visitors, applies to hosted forms, marketing pages (when Power Apps Portal is used), and captured forms.
+- **Social posting**
+    - With this release, you can easily create rich content for Instagram. You can now optimize when posts are delivered by scheduling them.
+    - Post single photos to Instagram (limited to one photo per post, video posting is scheduled for an upcoming release).
+
+### Bug fixes
+
+- **Customer journeys**
+    - Added a mechanism to detect duplicate customer journey contacts.
+    - Fixed an error that allowed users to create non-functioning customer journeys by adding an Event tile after a Segment tile.
+    - Resolved an error that caused segment name changes to not reflect in the customer journey designer.
+    - Fixed an error that broke HTML when post-processing and designer editor meta tags were both in one email.
+    - Fixed an error that caused a customer journey popup element to be shown even after the tab was changed.
+    - Deprecated the unused "Marketing Machine Learning Spam Score User" role.
+- **Data services**
+    - Fixed an erroneous warning in segmentation stating that "Metadata type 'contact' does not exist."
+- **Event management**
+    - Added the ability to only show active records in the custom field lookup when creating an event custom registration field.
+    - Fixed an error that prevented users from adding existing sessions in Session tracks.
+- **First run experience**
+    - Resolved an issue where multi-geo PPAC provisioning failed to an org in a different geo.
+    - Fixed a UI error that sometimes showed a Marketing app as "not configured," even when it was configured.
+- **Marketing emails**
+    - Fixed an error that sometimes prevented an email button area from being clickable in Outlook.
+    - Improved email rendering in iOS and desktop Outlook.
+    - Fixed an error that caused changes to "stopped" state emails to not be detected.
+    - Fixed an error that sometimes caused rounded corner buttons to display rotate/resize marks after clicking off the button.
+- **Marketing pages**
+    - Fixed an error that prevented global double opt-in confirmation links from allowing query parameters.
+    - Resolved an issue that caused RedirectLinkClicked interactions to rely on cookies, even though the tracking link redirected to the redirect link.
+    - Fixed an error that caused query strings to not be parsed by some servers.
+    - Resolved a list ID type mismatch in form submission rendering.
+    - Fixed an issue that prevented an error from being thrown when a subscription center was changed to "Update Contact and Leads."
+    - Fixed an occasional SQL error when retrieving marketing form submissions.
+    - Resolved an error that caused the page editor to stop responding to changes when the page contained modified video elements.
+    - Resolved an issue that caused marketing form DateTime fields to always be treated as UTC time instead of exposing the correct time zone information.
+    - Resolved missing privilege errors for personalized pages in the "Marketing Manager - Business" user role.
+- **Segmentation**
+    - Fixed an issue that sometimes caused dates in dynamic segments to be partially cut off in the UI.
+- **Settings**
+    - Resolved loading errors on the **Versions** page.
+- **Shared UX**
+    - Fixed an error that sometimes caused cancelled registrations to not be removed from segments.
+- **Social posting**
+    - Fixed marketing roles missing privileges issues for social posting.
 
 ## March 2021 update
 
