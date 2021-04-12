@@ -4,7 +4,7 @@ description: "Learn about the system requirements of Omnichannel for Customer Se
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/12/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
