@@ -22,8 +22,6 @@ search.audienceType:
 ---
 # How main forms appear on different devices
 
-
-
 The main form is used by all app clients. This form provides a consistent user experience whether someone is using a web browser,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
 
 <a name="BKMK_MainFormPresentations"></a>   
@@ -72,10 +70,6 @@ The main form is used by all app clients. This form provides a consistent user e
 <a name="BKMK_CRMforTabletsPresentation"></a>   
 ## Dynamics 365 for phones and tablets forms  
  Most system entities and custom entities are available for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets. The main form for these entities is transformed to a presentation optimized for phones or tablets.  
-
-<a name="BKMK_EntitiesEnabledForCRMForTablets"></a>   
-### Entities enabled for Dynamics 365 for phones and tablets  
- Only entities that are enabled for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets use this presentation of the main form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entities displayed in Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md#BKMK_CustomEntity)  
 
 ### Form design  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets takes many of the main form elements and presents them in a way optimized for phones or tablets. The following diagrams show the reflow from the web app to the tablet and phone apps.  
