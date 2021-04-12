@@ -1,6 +1,7 @@
 ---
 title: "Search for records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to search for records.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -12,7 +13,7 @@ applies_to:
 ms.assetid: 899ec72f-f5f3-4b87-be2d-fe53f05737dc
 caps.latest.revision: 21
 author: mduelae
-ms.author: t-mijosh
+ms.author: mkaur
 manager: ryjones
 search.audienceType: 
   - enduser
@@ -38,7 +39,7 @@ To find your records quickly in Dynamics 365 Customer Engagement (on-premises), 
   
 -   Wildcards are not required in full text quick find.  
 <!-- apparently the following is on-prem only>  
- For more information see, [Configure Quick Find options for the organization](https://technet.microsoft.com/library/dn919650.aspx).  
+ For more information see, [Configure Quick Find options for the organization](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn919650(v=crm.8)).  
 --> 
  
 ## Start a search  

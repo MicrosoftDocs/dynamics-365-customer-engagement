@@ -1,8 +1,8 @@
 ---
 title: "Implement a custom scenario for smart assist bot | MicrosoftDocs"
 description: "Implement a custom scenario for smart assist bot"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/25/2020
 ms.topic: article

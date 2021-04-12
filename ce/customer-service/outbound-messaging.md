@@ -18,7 +18,7 @@ ms.reviewer: nenellim
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 
-As an administrator, you can do the following tasks: 
+As an administrator, you can do the following tasks:
 
 - Create message templates that can be adopted for outbound messages.
 - Configure outbound messages to be sent for events that are triggered for an entity, such as creation of a case.
@@ -44,18 +44,18 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Omnichannel Administration app.
+1. Sign in to the Omnichannel admin center app.
 
 2. Create a template for your outbound message.
 
     - [Create a template for SMS and Twitter](create-message-templates.md). 
-    - [Create a template for WhatsApp](configure-whatsapp-channel.md#modify-settings-for-a-specific-whatsapp-phone-number).
+    - [Create a template for WhatsApp](configure-whatsapp-channel.md#configure-whatsapp-message-templates).
 
 ## Set up outbound configuration
 
-1. Go to **Settings**, and select **Outbound**.
+1. In the site map of Omnichannel admin center, select **Customer settings** under **Advanced settings**, and then select **Manage** for **Outbound**. If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
 
-2. Complete the following fields:
+2. Select **New**, and on New Outbound Configureation page,  enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
     |---------------------|------------|--------------------------|
@@ -82,7 +82,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the Omnichannel Administration app, select **Message template view** > **Flow** at the top of the screen, and then select **Create a flow**.
+1. In the Omnichannel admin center, go to **Message template view**, select **Flow** in the Command menu, and then select **Create a flow**. If you're using the Omnichannel Administration app, select **Message template view** > **Flow** at the top of the screen, and then select **Create a flow**.
 
     or
 

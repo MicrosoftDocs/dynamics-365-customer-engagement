@@ -2,13 +2,12 @@
 title: "Understand the sales pipeline chart in and its phases | MicrosoftDocs"
 description: "Learn about the the sales pipeline chart in Dynamics 365 Sales and its phases."
 ms.date: 03/24/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-*
   - D365-UI-Dashboard

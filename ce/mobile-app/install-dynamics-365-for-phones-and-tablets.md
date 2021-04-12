@@ -1,6 +1,7 @@
 ---
-title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Install Dynamics 365 for phones and tablets app | MicrosoftDocs"
 ms.custom:
+description: How to install Dynamics 365 for phones and tablets.
 ms.date: 06/11/2020
 ms.reviewer:
 ms.service: crm-online
@@ -21,7 +22,7 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Install Dynamics 365 for phones and tablets
+# Install Dynamics 365 for phones and tablets app
 
 [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] are apps that you install on your mobile device. Once you install the app and sign-in, you’ll automatically have access to all the apps you need for your role.
 
@@ -33,14 +34,14 @@ When there is an updated version of the app, you will receive a notification.
 ### Privileges required to run the app
 
 > [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
+>  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
 ## Install the app from your device’s app store
  Choose the download link for your device:
  
  
 > [!IMPORTANT]
-> Effective April 2021, the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. Microsoft will continue to provide security and other critical updates for the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) until January 29, 2021, but will not release any additional features or functionalities for the app. After April 1, 2021, the app will be removed from the Microsoft Store, and it will not be supported. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
+> Effective April 2021, the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. Microsoft will continue to provide security and other critical updates for the [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) until January 29, 2021, but will not release any additional features or functionalities for the app. After April 1, 2021, the app will be removed from the Microsoft Store, and it will not be supported. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
 
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |

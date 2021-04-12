@@ -17,9 +17,9 @@ In this article, we will explore how travel time and distance are calculated and
 
 3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geocoded start and end locations in order to calculate travel times and distances. See the articles on [setting up bookable resources](../../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
-4. Understand that only requirements for which **Work Location** is set to **Onsite** and for which latitude and longitude values are specified are eligible for travel time calculations. 
+4. Understand that only requirements that have **Work Location** set to **Onsite**, and that have specified latitude and longitude values are eligible for travel time calculations. 
 
-   In the following screenshot, a work order has **Work Location** set to **Onsite**; this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field, the location of the requirement, and the location of the resource in order to calculate travel time.
+In the following screenshot, a work order has **Work Location** set to **Onsite**; this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field, the location of the requirement, and the location of the resource in order to calculate travel time.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of work order settings tab showing work location of on site](../../field-service/media/scheduling-work-order-location-onsite.png)
@@ -218,7 +218,7 @@ Here are a few more notes about the **Auto Update Booking Travel** feature:
 
 - The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific schedulable entities. 
 
-- If technicians are required to create bookings on their Field Service mobile app, and you want to enable this feature to auto-calcualte the travel time and distance, a field on the booking form called **msdyn_ursinternalflags** must be set to **{"AutoUpdateBookingTravel":true}**. Once the booking is created in the mobile app, the travel time will be calculated. 
+- If technicians are required to create bookings on their Field Service mobile app, and you want to enable this feature to auto-calculate the travel time and distance, a field on the booking form called **msdyn_ursinternalflags** must be set to **{"AutoUpdateBookingTravel":true}**. Once the booking is created in the mobile app, the travel time will be calculated. 
 
 - The feature only applies to the Hours view of the schedule board, and travel time and distances are not updated if the bookable resource booking form is edited manually, edited with a workflow, or if the bookings are imported.
 

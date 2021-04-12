@@ -60,7 +60,7 @@ More information: [Analyze results to gain insights from your marketing activiti
 
 Dynamics 365 Marketing adds a wide range of marketing entities to the platform, including emails, journeys, pages, and more. Many of these are only interesting to marketers, but some might make sense to share with salespeople, depending on how they like to engage with their contacts. For example, customizers can modify the site map in Dynamics 365 Sales to include one or more relevant Marketing entities. Admins can also control permissions to various entities and assign them as needed across sales and marketing users.
 
-More information: [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md) and [Tutorial: Create a model-driven app site map for an app using the site map designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-site-map-app).
+More information: [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md) and [Tutorial: Create a model-driven app site map for an app using the site map designer](/powerapps/maker/model-driven-apps/create-site-map-app).
 
 ## A common platform to collaborate on events
 

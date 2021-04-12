@@ -26,6 +26,7 @@
 
 ## Installation and upgrade
 ### [Install Customer Service](availability-customer-service-hub.md)
+### [Move from Customer Service Enterprise to Professional](move-cs-enterprise-cs-professional.md)
 ### Install Omnichannel for Customer Service
 #### [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 #### [Export and import Omnichannel for Customer Service](export-import-omnichannel-data.md)
@@ -37,41 +38,68 @@
 ## Get started
 ### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](configure-cs.md)
+### [Omnichannel admin center](oc-admin-center.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
-### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Customer Service workspace](csw-overview.md)
+### [Use Customer Service Team Member](customer-service-team-member.md)
 ### [Omnichannel for Customer Service](introduction-omnichannel.md)
 #### [Demo data for Chat for Dynamics 365 Customer Service](chat-dynamics365-customer-service-demo-data.md)
 #### [Quickly configure a chat widget](configure-live-chat.md)
 #### [Understand routing and work distribution](unified-routing-work-distribution.md)
 
 ## User management
-### [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)
+### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 ### [Assign roles and enable users](add-users-assign-roles.md)
 ### [Manage users](users-user-profiles.md)
+### [Manage capacity profiles](capacity-profiles.md)
+### [Role persona mapping](role-persona-mapping.md)
 
-## Routing and assignment
+
+## Unified routing and assignment
+### [Overview of unified routing](overview-unified-routing.md)
+### [How routing and assignment works](set-up-routing-process.md)
+### [Routing and assignment rules](routing-workstream-queues.md)
+
+
 ### Administrator experience
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 #### [Create and manage queues for conversations](queues-omnichannel.md)
 #### Set up skill-based routing for conversations
+#### [Create workstreams](create-workstreams.md)
+#### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
+#### [Create multiple workstreams for entity records](multiple-ws-entity-record-routing.md)
+#### [Set up routing and assignment rules in Omnichannel Administration](routing-rules.md)
+#### [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
+
+#### [Set up record routing](set-up-record-routing.md)
+##### [Enable entities for routing](entity-channel.md)
+##### [Route trigger for entity records](routing-trigger.md)
+
+#### [Create queues](queues-omnichannel.md)
+##### [Set up assignment methods for queues](assignment-methods.md)
+#### [Configure work classification rulesets](configure-work-classification.md)
+
+#### Set up skill-identification rules
 ##### [Overview of skill-based routing](overview-skill-work-distribution.md)
-##### [Enable skill-based routing, rating model](enable-skill-routing-create-rating-model.md)
+##### [Enable agents to attach skills, create rating models](enable-skill-routing-create-rating-model.md)
+##### [Set up skill finder model](intelligent-skill-model.md)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
-##### [Attach skills to conversations](attach-skills.md)
-#### Manage work distribution for conversations
-##### [Create work streams](work-streams-introduction.md)
-##### [Create work streams for entity records](set-up-entity-workstream.md)
-##### [Create multiple work streams for entity records](multiple-ws-entity-record-routing.md)
-##### [Set up routing and assignment rules](routing-rules.md)
-##### [Associate templates with work streams](../app-profile-manager/associate-templates.md)
-#### [Set up routing for Omnichannel for Customer Service Conversations](understand-omnichannel-customer-service-hub.md)
+##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
+
+#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
+#### [Automatically route cases](create-rules-automatically-route-cases.md)
+
+#### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
+#### [Unified Routing diagnostics](unified-routing-diagnostics.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
+
 ### Agent experience
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
+
+### Developer experience
 
 ## Case management
 ### Administrator experience
@@ -85,6 +113,7 @@
 #### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
 ### Customize case management
+#### [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md)
 #### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
 
 ## Automatically create or update records
@@ -101,11 +130,11 @@
 #### Manage service schedules
 ##### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 ##### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+#### [Add timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md)
+#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 ### Agent experience
 #### [Manage case SLAs](customer-service-hub-user-guide-case-sla.md)
-### Customize SLAs
-#### [Add timer control to forms](add-timer-control-case-form-track-time-against-sla.md)
-#### [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
+
 
 ## Email
 ### [Use email](customer-service-hub-user-guide-email-overview.md)
@@ -117,7 +146,7 @@
 ### [Email FAQs and known issues](email-faqs.md)
 ### Administrator experience
 #### [Configure the email form order](customer-service-hub-user-guide-email-admin.md)
-#### [Configure the default email font](customer-service-hub-user-guide-email-font-admin.md)
+#### [Configure the email experience](customer-service-hub-user-guide-email-font-admin.md)
 
 ## Timeline
 ### [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
@@ -128,7 +157,12 @@
 ### Administrator experience
 #### [Set up knowledge search providers](set-up-search-providers.md)
 #### [Work with knowledge articles](work-knowledge-articles.md)
+#### [Configure the knowledge article authoring language](set-knowledge-article-authoring-language.md)
 #### [Create a knowledge article using a template](create-knowledge-article-using-template.md)
+#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
+#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Configure knowledge article search filters](enable-knowledge-article-search-filters.md) 
+#### [Create and manage knowledge categories](create-manage-categories.md)
 #### [Extend transformer logic on templates](extend-transformer-logic-template.md)
 #### [Share knowledge articles in Omnichannel for Customer Service](knowledge-management-oc.md)
 #### [Search for and share knowledge articles](oc-search-knowledge-articles.md)
@@ -137,9 +171,7 @@
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
 #### [Search for knowledge articles on smart assist](oc-search-knowledge-articles.md)
 #### [Create knowledge article templates in Power Apps](/power-platform/admin/create-templates-articles)
-#### [Create knowledge article templates in Customer Service](create-templates-knowledge-article.md)
-#### [Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
-#### [Create and manage knowledge categories](create-manage-categories.md)
+
 ### Customize knowledge management
 #### [Knowledge base search](knowledge-base-search-methods.md)
 #### [Add the knowledge base search control to forms](add-knowledge-base-search-control-forms.md)
@@ -299,17 +331,22 @@
 
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
+#### [Display suggested actions in a vertical layout](suggested-actions.md)
+#### [Download attachments from Power Virtual Agents bot](download-attachments-PVA-bot.md)
 
 ## Insights
 ### [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)
+### [Region availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
 
 ### Administrator experience
 #### [Configure Customer Service Insights](configure-customer-service-analytics-insights-csh.md)
-#### [Configure historical analytics](configure-historical-analytics-csh.md)
-#### [Configure topic clustering](configure-topics-clustering.md)
-#### [Configure knowledge search analytics](enable-knowledge-search-analytics.md)
+#### [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md)
+#### [Configure AI topic clustering for cases](configure-topics-clustering-cases-cs.md)
+#### [Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
+#### [Configure knowledge search insights](enable-knowledge-search-insights.md)
 #### [Configure AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md)
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
+#### [Configure AI topic clustering for conversation](ai-topic-clustering-conversations.md)
 #### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
 #### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)
@@ -321,9 +358,14 @@
 ##### [Dashboards overview](customer-service-analytics-insights-csh.md)
 ##### [Summary dashboard](summary-dashboard-cs.md)
 ##### [Agent dashboard](agent-dashboard-cs.md)
-##### [Topics dashboard](topics-dashboard-cs.md)
-##### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
-##### [View analytics dashboards created in Power BI](customer-service-analytics.md)
+##### [Case Topics dashboard](case-topics-dashboard-cs.md)
+##### [Omnichannel conversation dashboard](oc-conversation-dashboard.md)
+##### [Omnichannel Queue dashboard](oc-queue-dashboard.md)
+##### [Omnichannel Agent dashboard](agent-dashboard.md)
+##### [Omnichannel Bot dashboard](oc-bot-dashboard.md)
+##### [Omnichannel Conversation topic dashboard](oc-conversation-topics-dashboard.md)
+#### [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md)
+#### [View analytics dashboards created in Power BI](customer-service-analytics.md)
 #### Intraday supervisor experiences
 ##### [Introduction to intraday supervisor experiences](intro-intraday-insights-dashboard.md)
 ##### [View and understand Omnichannel intraday insights](intraday-insights-dashboard.md)
@@ -333,7 +375,7 @@
 ##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
 #### Monitor conversations
-##### [Monitor and assign conversations](monitor-conversations.md)
+##### [Monitor, assign, and transfer conversations](monitor-conversations.md)
 ##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
 ### Customize insights
 #### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
@@ -402,15 +444,14 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Migration solutions
-### Administrator experience
-#### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
-#### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
-#### Migrate service scheduling
-##### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
-##### [Plan service scheduling migration](plan-migration.md)
-##### [Migrate service scheduling](migrate-entity-records.md)
-#### Migration FAQs
-##### [FAQs on Migration tool for automatic record creation rules and SLAs](migrate-tool-faqs.md)
+### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
+### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
+### Migrate service scheduling
+#### [Introduction to service scheduling migration](introduction-migration-entity-records.md)
+#### [Plan service scheduling migration](plan-migration.md)
+#### [Migrate service scheduling](migrate-entity-records.md)
+### Migration FAQs
+#### [FAQs on Migration tool for automatic record creation rules and SLAs](migrate-tool-faqs.md)
 
 ## Deprecations
 ### [Deprecations in Customer Service](deprecations-customer-service.md)

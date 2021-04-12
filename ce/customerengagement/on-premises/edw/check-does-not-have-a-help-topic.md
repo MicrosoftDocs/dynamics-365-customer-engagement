@@ -23,7 +23,7 @@ There is currently no Help topic associated with this environment diagnostics ch
   
     -   [Dynamics 365 for Customer Engagement Community](https://community.dynamics.com/)  
   
-    -   Get help: [Microsoft Dynamics 365 for Customer Engagement support overview](https://docs.microsoft.com/dynamics/s-e/)
+    -   Get help: [Microsoft Dynamics 365 for Customer Engagement support overview](/dynamics/s-e/)
 
 
 
