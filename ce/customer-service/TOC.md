@@ -62,7 +62,6 @@
 
 
 ### Administrator experience
-#### [Unified Routing diagnostics](unified-routing-diagnostics.md)
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 #### [Create and manage queues for conversations](queues-omnichannel.md)
@@ -92,6 +91,7 @@
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 
 #### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
+#### [Unified Routing diagnostics](unified-routing-diagnostics.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
 

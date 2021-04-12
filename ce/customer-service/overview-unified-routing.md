@@ -41,6 +41,14 @@ Unified routing optimizes businesses in the following ways:
 
 - Assigning work items within a queue by matching agent attributes against work item requirements dynamically, thereby assigning agents as per the business requirement.
 
+## System requirements, supported geographical regions
+
+The requirements for unified routing and supported geographical regions are same as those applicable for Omnichannel for Customer Service. For more information, see the following articles:
+
+- [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
+- [International availability of Omnichannel for Customer Service](international-availability.md)
+- [Supported languages](international-availability.md#language-availability)
+
 ### See also
 
 [Create workstreams](create-workstreams.md)  
