@@ -12,6 +12,8 @@ ms.service: dynamics-365-customerservice
 
 You can create and train machine-learning models that use AI to determine the necessary skills for new work items. You can create and train the model by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
 
+Intelligent skill finder uses AI Builder to create and train the machine learning model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. More information: [Availability of AI Builder](/ai-builder/availability-region).
+
 ## Create skill finder models
 
 Perform the steps in this section to set up the intelligent skill finder model. You can create as many models as your business requires.
@@ -47,11 +49,11 @@ A sample of each file is as follows.
 
 |Skill finder model|Training record name|Input data|
 |------------------|--------------------|----------|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10001|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No.|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No., can you please connect me to an agent|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No.t really, can you pls help|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No.t atall, can I speak to a human|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No. Need urgent attention|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10001|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No.|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No., can you please connect me to an agent|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. Not really, can you pls help|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. Not at all, can I speak to a human|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No. Need urgent attention|
 ||||
 
 **msdyn_ocsitdskill.csv**
