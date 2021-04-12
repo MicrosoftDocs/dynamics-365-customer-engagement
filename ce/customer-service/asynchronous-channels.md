@@ -59,11 +59,11 @@ For more information, see the following:
 | CardCarousel elements are not supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | 
 | Audio card and Media card elements are not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
 | Suggested actions are not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |✖ | ✖ | ✔ |
-| CardCarousel element supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
+| CardCarousel elements are not supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Some markdown elements are not supported | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
 | Receipt card element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ |
 | Sign in card element is not supported for some channels | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | 
-| Some markdown elements are not supported  | ✔ | ✔ | ✔ | ✔ |✔ |
+| Some markdown elements are supported  | ✔ | ✔ | ✔ | ✔ |✔ | ✔ | ✔ | ✔ |
 
 
 ## Suggested actions support
