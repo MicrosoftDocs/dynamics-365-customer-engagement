@@ -49,11 +49,11 @@ A sample of each file is as follows.
 
 |Skill finder model|Training record name|Input data|
 |------------------|--------------------|----------|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10001|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No.|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No., can you please connect me to an agent|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No.t really, can you pls help|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No.t atall, can I speak to a human|
-|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, I work at Trey Research. One of the automatic expresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help!! Yes. No. Need urgent attention|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10001|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No.|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10002|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No., can you please connect me to an agent|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. Not really, can you pls help|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. Not at all, can I speak to a human|
+|CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, I work at Trey Research. One of the automatic espresso machines is becoming overheated and starts giving a burning smell after 30 minutes of usage. Please help! Yes. No. Need urgent attention|
 ||||
 
 **msdyn_ocsitdskill.csv**
