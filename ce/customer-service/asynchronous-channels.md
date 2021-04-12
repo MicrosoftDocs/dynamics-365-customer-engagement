@@ -52,18 +52,18 @@ For more information, see the following:
 
 ### Adaptive cards support
 
-| Element | Description | Teams | Facebook | Telegram | Line | Direct Line |
-| -------- | -------- | ------ | ---------- | -------- | ------- | ------- |
-| ^(what).*?weather | Date input element for adaptive cards  is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
-| ^animation card$ | Cards that play animations are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
-| ^arabic carousel | CardCarousel elements is supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ |
-| ^audio$ | Audio card and Media card elements for adaptive cards are not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
-| ^card-actions$ | Suggested actions not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |
-| ^carousel$ | CardCarousel element supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ |
-| ^markdown(\s+([\d\w]+))?(\s+([\d\w]+))?$ | Some markdown elements are not supported | ✖ | ✔ | ✔ | ✔ | ✔ |
-| ^receipt card[\d]? | Receipt card element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |
-| ^sign in$ | Sign in card element is not supported for some channels | ✖ | ✔ | ✔ | ✔ | ✖ |
-| ^text$ | Markdown elements are supported  | ✔ | ✔ | ✔ | ✔ |✔ |
+| Description | Teams | Facebook | Telegram | Line | Direct Line | Twitter | SMS | WhatsApp |
+| -------- | ------ | ---------- | -------- | ------- | ------- | ----------- | ----------- | ----------- | 
+| Date input element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ |
+| Animations element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
+| CardCarousel elements are not supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | 
+| Audio card and Media card elements are not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
+| Suggested actions are not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |✖ | ✖ | ✔ |
+| CardCarousel element supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Some markdown elements are not supported | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
+| Receipt card element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ |
+| Sign in card element is not supported for some channels | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | 
+| Some markdown elements are not supported  | ✔ | ✔ | ✔ | ✔ |✔ |
 
 
 ## Suggested actions support
@@ -72,7 +72,7 @@ Suggested actions are supported fully with the exception that some channels migh
 
 | Channel            | Suggested actions support       |
 |--------------------|---------------------------------|
-| Microsoft Teams    | No                              |
+| Microsoft Teams    | Yes                             |
 | Facebook           | Yes                             |
 | LINE               | Yes                             |
 | Twitter            | No                              |
