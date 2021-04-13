@@ -37,7 +37,7 @@
   - name: Administrator Guide
     items:
     - name: Configure mobile offline (using legacy admin interface)
-      href: using legacy admin interface](setup-mobile-offline-for-admin.md
+      href: setup-mobile-offline-for-admin.md
     - name: Setup and manage phones and tablets
       items:
       - name: Set up
