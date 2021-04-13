@@ -26,7 +26,7 @@ search.app:
 
 Use Dynamics 365 App for Outlook to tap the power of your Dynamics 365 apps while you’re using Outlook on the desktop, web, or phone. When Dynamics 365 App for Outlook is installed, depending on which version of the app you have installed, you'll see a Dynamics 365 pane or window next to a selected Outlook email message, or when you're composing an email message or setting up a meeting or appointment.
 
-To access the Dynamis 365 pane, do the following:
+To access the Dynamics 365 pane, do the following:
 
 - On the Outlook desktop client, select **Dynamics 365**.
 
@@ -48,7 +48,7 @@ Use the navigation bar at the top to access the site map, search, quick create, 
 1. **Site map**: Use the site map to navigate to the **Home**, **Recent** items, **Pinned** items and **Dashboards**.
 2. **Search**: Search for rows across multiple tables sorted by relevance. 
 3. **Create a new row**: Create a new row for the tables that have been included in the App for Outlook and are enabled for quick create.
-4. **More commands**: Access more such as user information, information your Dynamics 365 enviroment, the [**Assistant**](assistant.md), and [**Outlook checker**](../diagnostic-checker.md).
+4. **More commands**: Access more such as user information, information your Dynamics 365 environment, the [**Assistant**](assistant.md), and [**Outlook checker**](../diagnostic-checker.md).
 5. **Pin**: Select the pin icon to pin Dynamics 365 App pane so that it remains open when you navigate from one email to another
 
 
@@ -75,7 +75,7 @@ Legend
 
 ## Tracked row
 
-Select an emial to view additional information about the tracked item in the Dynamics 365 pane.
+Select an email to view additional information about the tracked item in the Dynamics 365 pane.
 
 ![Additional information when an email is tracked](../media/tracked-item.png)
 
