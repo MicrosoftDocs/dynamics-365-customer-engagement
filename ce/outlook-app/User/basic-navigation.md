@@ -45,5 +45,14 @@ Use the site map to navigate to the **Home**, **Recent** items, **Pinned** items
 ![Open the site map menu](../media/site-map-menu.gif)
 
 
+![Menu items in the site map](../media/site-map-menu-items.png)
+
+
+Legend
+
+1. **Home**: Take you to the Dynamics 365 App for Outlook main screen that displays tracking status, the regarding row with contextual information.
+2. **Recent**: Expand this entry to view a list of rows you were recently using. Select a row here to open it. Select the push-pin icon next to a row listed here to add it to your pinned rows.
+3. **Pinned**: Expand this entry to view and open your favorite pinned rows. Use the **Recent** list to add rows here. Select the remove-pin icon next to a row listed here to remove it from this list.
+
 
 
