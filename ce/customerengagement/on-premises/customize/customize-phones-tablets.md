@@ -1,5 +1,6 @@
 ---
 title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn how to customize for the phone and tablet apps
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
@@ -19,8 +20,6 @@ search.audienceType:
 
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
-
-
 
 With Dynamics 365 Customer Engagement (on-premises), you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
 
@@ -70,54 +69,6 @@ That way, if you think phone users need to focus only on the primary information
 
 3.  Clear **Available on phone** and click **OK**.  
 
-<a name="BKMK_CustomEntity"></a>   
-## Entities displayed in Dynamics 365 for phones and tablets  
- You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and review the **Outlook & Mobile** settings.  
-
- Note the following:  
-
-- All custom entities can be enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
-
-- You can use the Lookup for entities that are not enabled for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] from a record that is enabled and see the data. However, the entity will not be editable.  
-
-  **Entities that are visible and read-write in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
-
-|     Entity Name     | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Visibility Property | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Read-only Property |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Account       |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|      Activity       |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|     Appointment     |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Case         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|     Competitor      |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|    Connection\*     |                                                                       Not modifiable                                                                        |                                                                         Modifiable                                                                         |
-|       Contact       |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Lead         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Note         |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|     Opportunity     |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-| Opportunity Product |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|     Phone Call      |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|     Queue Item      |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|   Social Activity   |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|   Social Profile    |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-|        Task         |                                                                         Modifiable                                                                          |                                                                         Modifiable                                                                         |
-
-*For Dynamics 365 Customer Engagement (on-premises), we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
-
- **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
-
-
-|      Entity Name      | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Visibility Property | [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Read-only Property |
-|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      Attachment       |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|         Email         |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|      Entitlement      |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-| Knowledge Base Record |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|        Product        |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|         Queue         |                                                                         Modifiable                                                                          |                                                                       Not modifiable                                                                       |
-|   SLA KPI Instance    |                                                                       Not modifiable                                                                        |                                                                         Modifiable                                                                         |
-|         Team          |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|         User          |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
-|     Web Resource      |                                                                       Not modifiable                                                                        |                                                                       Not modifiable                                                                       |
 
 <a name="BKMK_NavigationOptions"></a>   
 ## Change navigation options for Dynamics 365 for phones and tablets  
