@@ -80,6 +80,7 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
+|Sample Event Website| 1.34.0 (April release)| - Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/210413-EventWebsite.zip)
 |Sample Event Website| 1.30.0 (December release)| - Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/201205-EventWebsite.zip)
 |Sample Event Website| 1.28.0 (October release)| - Added possibility to opt in for local date conversion. <br/>- Added additional website language configurations.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/201005-EventWebsite.zip)
 |Sample Event Website| 1.27.0 (September release)| - Added possibility to configure the display of the dates. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200909-EventWebsite.zip)
