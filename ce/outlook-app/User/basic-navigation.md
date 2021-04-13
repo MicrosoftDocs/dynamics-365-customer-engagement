@@ -95,6 +95,6 @@ Legend
 
 3. **Add activity**: Select to create activities for that row or view it in Dynamics 365.
 
-4 & 5.**Set regarding**: Select to choose the **Set regarding** for the row or view information about the the row in Dynamics 365.
+4 & 5. **Set regarding**: Select to choose the **Set regarding** for the row or view information about the the row in Dynamics 365.
 
 
