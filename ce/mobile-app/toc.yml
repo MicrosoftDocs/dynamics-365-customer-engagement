@@ -25,7 +25,7 @@
   - name: Basic navigation in Dynamics 365 for phones and tablets
     href: user-guide-mobile-app.md
   - name: Basic navigation for Dynamics 365 (Preview) app for Windows
-    href: Preview app for Windows](windows-mobile-app.md
+    href: windows-mobile-app.md
   - name: Work offline on your mobile device
     href: work-in-offline-mode.md
 - name: Troubleshooting
