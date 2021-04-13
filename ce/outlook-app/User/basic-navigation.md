@@ -75,7 +75,7 @@ Legend
 
 ## Tracked row
 
-When you select an email the Dynamics 365 pane provides additional information about the tracked item.
+Select an emial to view additional information about the tracked item in the Dynamics 365 pane.
 
 ![Additional information when an email is tracked](../media/tracked-item.png)
 
@@ -86,6 +86,15 @@ Legend
 3. **Related information**: When a contact is selected, its parent account is also available so you can drill into the account details and surface more Dynamics 365 data. You can also see related data, such as related the contact's opportunities.
 
 
+![See mpre information about a tracked row](../media/tracked-item-more-info.png)
 
+
+1. **Tracked information**: Shows if the email message or meeting is linked to a row and if it's being tracked in your Dynamics 365 app.
+
+2. **More commands**: Select to set or change set regarding or tracking information or view information about the the row in Dynamics 365
+
+3. **Add activity**: Select to create activities for that row or view it in Dynamics 365.
+
+4 & 5.**Set regarding**: Select to choose the **Set regarding** for the row or view information about the the row in Dynamics 365.
 
 
