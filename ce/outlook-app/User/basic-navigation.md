@@ -81,10 +81,9 @@ When you select an email the Dynamics 365 pane provides additional information a
 
 Legend
 
-1. The Dynamics 365 row this Outlook item is linked to. A quick view form is used to display some of the row's key information.
-2. The list of recipients from the email or the attendees of a meeting. You can navigate between the different parties (who can be contacts, leads, accounts, users) and display for each of them a quick view of their information in Dynamics 365. If the email address does not match a record in Dynamics 365, you can quick create a contact, lead or account with their information prefilled right from that location.
-3. When a contact is selected, its parent account is also available so you can drill into the account details and surface more Dynamics 365 data. You can also see related data, such as related the contact's opportunities.
-![image](https://user-images.githubusercontent.com/28316663/114632272-30de9e00-9c73-11eb-8ae1-3b47d07d0436.png)
+1. **Linked row information**: The Dynamics 365 row this Outlook item is linked to. The quick view form displays some of the row's key information.
+2. **Recipients**: List of recipients from the email or the attendees of a meeting. You can navigate between the different recipients which can be a contact, lead, or an account and display a quick view of their information in Dynamics 365. 
+3. **Related information**: When a contact is selected, its parent account is also available so you can drill into the account details and surface more Dynamics 365 data. You can also see related data, such as related the contact's opportunities.
 
 
 
