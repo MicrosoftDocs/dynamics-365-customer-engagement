@@ -43,7 +43,7 @@ The journey start configuration lets you define how customers can start the jour
 
 ### Segment-based journey
 
-- **Audience**: This is the segment of people that will start the journey.
+- **Audience**: The audience property lets you specify the segment of people that will start the journey. Segment based journeys support segments from outbound marketing as well as segments created in Customer Insights. The journey will use audience data based upon the segment selected. For example, if the journey is started with outbound marketing segments which contains a segment of Contacts then the journey will use Contacts as its Audience data. Similarly, if the journey is started using a Customer Insights segment which is a segment of Customer Profiles then the journey will use Customer Profile as its Audience data. Once an audience segment has been selected all other segments used in the journey must be of the same type (segment from outbound marketing or customer insights segment).
 
 - **Exclude this segment**: Members of this segment will not be allowed to start the journey. Specifying an exclusion segment lets you remove anyone from the Audience that starts the journey.
 
