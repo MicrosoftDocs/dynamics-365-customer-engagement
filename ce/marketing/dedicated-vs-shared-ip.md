@@ -64,7 +64,7 @@ When an ISP observes email suddenly coming from a new or "cold" IP address, they
 
 A gradual warm-up does not always guarantee a perfect sending reputation. It is still important to follow sending best practices. The warm-up process can take two to four weeks, depending on the list quality.
 
-Reach out to our Deliverability and Compliance team if you need help with navigating this delicate process.
+Reach out to our [Deliverability and Compliance team](mailto:dynmktdeliverability@microsoft.com) if you need help with navigating this delicate process.
 
 ### See also
 
