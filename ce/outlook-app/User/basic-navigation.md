@@ -82,7 +82,7 @@ Select an email to view additional information about the tracked item in the Dyn
 Legend
 
 1. **Linked row information**: The Dynamics 365 row this Outlook item is linked to. The quick view form displays some of the row's key information.
-2. **Recipients**: List of recipients from the email or the attendees of a meeting. You can navigate between the different recipients which can be a contact, lead, or an account and display a quick view of their information in Dynamics 365. 
+2. **Recipients**: List of recipients from the email or the attendees of a meeting. You can navigate between the different recipients, which can be a contact, lead, or an account and display a quick view of their information in Dynamics 365. 
 3. **Related information**: When a contact is selected, its parent account is also available so you can drill into the account details and surface more Dynamics 365 data. You can also see related data, such as related the contact's opportunities.
 
 
