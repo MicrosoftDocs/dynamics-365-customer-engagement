@@ -91,10 +91,10 @@ Legend
 
 1. **Tracked information**: Shows if the email message or meeting is linked to a row and if it's being tracked in your Dynamics 365 app.
 
-2. **More commands**: Select to set or change set regarding or tracking information or view information about the the row in Dynamics 365
+2. **More commands**: Select to set or change set regarding or tracking information or view information about the row in Dynamics 365
 
 3. **Add activity**: Select to create activities for that row or view it in Dynamics 365.
 
-4 & 5. **Set regarding**: Select to choose the **Set regarding** for the row or view information about the the row in Dynamics 365.
+4 & 5. **Set regarding**: Select to choose the **Set regarding** for the row or view information about the row in Dynamics 365.
 
 
