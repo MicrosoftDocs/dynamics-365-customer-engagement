@@ -26,7 +26,14 @@ search.app:
 
 Use Dynamics 365 App for Outlook to tap the power of your Dynamics 365 apps while you’re using Outlook on the desktop, web, or phone. When Dynamics 365 App for Outlook is installed, depending on which version of the app you have installed, you'll see a Dynamics 365 pane or window next to a selected Outlook email message, or when you're composing an email message or setting up a meeting or appointment.
 
-1. Select **Dynamics 365** to open the **Dynamics 365** pane.  
+To access the Dynamis 365 pain, do the following:
+
+- On Outlook desktop, select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
+   
+- On Outlook Web App, open an email and then select More (...) > **Dynamics 365**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Open App for Outlook pane](../media/outlook-web-app.png)  
