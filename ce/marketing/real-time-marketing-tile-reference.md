@@ -27,11 +27,11 @@ search.app:
 
 This article describes the various capabilities available in real-time marketing customer journeys. For complete examples of creating customer journeys see [Create an event-based journey](real-time-marketing-event-based-journey.md) and [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
 
-# Journey start
+## Journey start
 
 The journey start configuration lets you define how customers can start the journey.
 
-## Event-based journey
+### Event-based journey
 
 - **Event trigger to start the journey**: Customers will start the journey as soon as the selected event trigger occurs.  
 
@@ -41,7 +41,7 @@ The journey start configuration lets you define how customers can start the jour
 
 - **Journey Timing**: Lets you specify the time window in which customers can start the journey. Customers must perform the journey start event trigger after the start time to enter the journey. No new customers will be allowed to start the journey after the end time. The end time only affects when customers can start the journey, if a customer is already in the journey they will be allowed to continue the journey even after the end time.
 
-## Segment-based journey
+### Segment-based journey
 
 - **Audience**: This is the segment of people that will start the journey.
 
@@ -52,7 +52,7 @@ The journey start configuration lets you define how customers can start the jour
   - *Ongoing*: Ongoing journeys run only once with a dynamic audience segment. This is useful for scenarios like nurture campaigns where anyone who gets added to the audience segment can start the journey as soon as they are added to the segment.
   - *Repeating*: These journeys repeat based on the time interval specified. Every time the journey repeats all the members of the audience segment will go through the journey. If any new members get added to the segment between the repeat interval then those new members will only go through the journey the next time the journey repeats. This type of journey is useful for scenarios like renewal reminders where you may want to send people through the journey everytime they are up for a renewal.
 
-# Journey end
+## Journey end
 
 By default, customers will end the journey when they complete all the steps. You can set additional ways for customers to exit the journey by using event triggers or segments. 
 
@@ -60,13 +60,13 @@ By default, customers will end the journey when they complete all the steps. You
 
 - **Exit by segment**: Customers who are part of this segment will immediately exit the journey. This capability is often referred to as an supression segment and helps you ensure that members of this segment are supressed from the customer journey. Exit by segment will remove members of that segment from wherever they are in the customer journey, this is notably different from the *exclude by segment* property in journey start which will only exclude members of the exclusion segment from starting the journey.
 
-# Journey goal
+## Journey goal
 
 Journey goals let you track and [analyze the performance of the journey](real-time-marketing-analytics.md). You can use an event trigger as the journey goal and measure the success of the journey based on the customers who perform the event trigger as they are going through the journey.
 
 Journey goals can also help you determine the winner of A/B tests and find the best channel for channel optimization. For more information on using A/B tests see [experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md).
 
-# Messaging customers
+## Messaging customers
 
 Real-time marketing customer journeys lets you reach customers through various channels including:
 
@@ -74,23 +74,23 @@ Real-time marketing customer journeys lets you reach customers through various c
 - [**Send a text message**](real-time-marketing-outbound-text-messaging.md)
 - [**Send a push notification**](real-time-marketing-push-notifications.md)
 
-## A/B test
+### A/B test
 
 A/B tests allow you measure which channel or content messaging strategy leads to higher success. For more information on using A/B tests see [experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
 
-## Channel optimization
+### Channel optimization
 
 Channel optimization uses AI to find the best channel to reach every individual customer and improve your engagement.
 
-# Branching the customer journey
+## Branching the customer journey
 
-## If/then branch
+### If/then branch
 
 The If/then branch lets your branch the customer journey based on customers actions like opening an email or completing a purchase. The if/then branch will wait for the customer to perform the event trigger within the time limit specified. If the customer performs the event trigger, they will immediately proceed down the yes branch. If the customer does not perform the event trigger within the time limit specified then they will proceed down the no branch after the time limit has passed. 
 
 For example, you can configure the if/then branch to wait for the "Email Opened" event on a previously sent email. If the time limit is set to *1 day* then the if/then branch will wait for the customer to open the email within that day. If the customer opens the email within that day then they will immediately proceed down the yes branch. If the customer does not open the email within that day, then they will proceed down the no branch after one day.
 
-## Attribute branch
+### Attribute branch
 
 The attribute branch lets you branch the journey based on various attributes including:
 
@@ -100,7 +100,7 @@ The attribute branch lets you branch the journey based on various attributes inc
 
 The attribute branch checks for attribute values the moment a customer enters this step. For example, when a customer enters the attribute branch step, the segment membership condition will check whether the customer is part of the specified segment at that instant.
 
-# Wait
+## Wait
 
 The wait step will hold the customer in the journey for the specified wait period.
 
