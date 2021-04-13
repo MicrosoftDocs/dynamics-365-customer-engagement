@@ -44,6 +44,9 @@ Use the site map to navigate to the **Home**, **Recent** items, **Pinned** items
 
 ![Open the site map menu](../media/site-map-menu.gif)
 
+### Site map menu items
+
+It's easy to get around and get back to your favorite or most-used rows. The following illustration shows the primary navigation elements
 
 ![Menu items in the site map](../media/site-map-menu-items.png)
 
