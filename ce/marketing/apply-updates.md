@@ -51,11 +51,9 @@ Dynamics 365 Marketing includes several solutions and services, each of which ha
 
 1. The **Settings overview** page will open. Go to **Overview** > **Versions**.
 
-    ![Open the Instances tab](media/apply-updates-quick-setup2.png "Open the Instances tab")
+    ![Open the Instances tab](media/apply-updates-versions.png "Open the Instances tab")
 
-1. In the quick setup form, verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
-
-    ![Apply updates](media/apply-updates-version2.png "Apply updates")
+1. The versions page will open. Verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
 
 ## Find and apply updates for core Marketing solutions
 
