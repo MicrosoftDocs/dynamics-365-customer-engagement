@@ -1,6 +1,6 @@
 ---
-title: Configure interactive dashboards in the Customer Service Hub | Microsoft Docs
-description: Know how to configure interactive dashboards in Dynamics 365 Customer Service.
+title: "Customize interactive dashboards that are based on Unified Interface | Microsoft Docs"
+description: "Know how to configure interactive dashboards in Dynamics 365 Customer Service."
 author: neeranelli
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
@@ -19,7 +19,7 @@ search.app:
   - D365CS
 ---
 
-# Configure interactive dashboards in the Customer Service Hub
+# Customize interactive dashboards that are based on Unified Interface
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
