@@ -102,7 +102,7 @@
 ### Developer experience
 #### [Customize skills on any entity form](customize-skills.md)
 #### [How the liveworkitem-queueitem sync impacts the queueitem entity in unified routing](lwi-qi-impact.md)
-#### [How to close queue items - sample code](deactivate-qi-sample-code.md)
+#### [How to close queue items - sample code](deactivate-qi-sample-code.md) 
 
 
 ## Case management
