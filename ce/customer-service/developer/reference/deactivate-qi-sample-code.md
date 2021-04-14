@@ -17,7 +17,7 @@ search.app:
   - D365CS
 ms.reviewer: nenellim
 ---
-# How you can close queue items
+# How to close queue items
 
 You can use the following sample code to trigger the closure of queue items Omnichannel for Customer Service. You can modify the sample code to suit the needs of your organization.
 
