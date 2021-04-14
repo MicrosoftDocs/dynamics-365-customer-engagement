@@ -1,6 +1,6 @@
 ---
-title: Understanding dashboards in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
-description: Understand dashboards in Customer Service Hub for Dynamics 365 Customer Service.
+title: "Understand dashboards in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs"
+description: "Understand dashboards in Customer Service Hub in Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -18,7 +18,7 @@ search.app:
   - D365CS
 ---
 
-# Manage service cases using interactive dashboards
+# Manage cases using interactive dashboards
 
 Use interactive dashboards to effectively manage service cases in the Customer Service Hub application.
 
