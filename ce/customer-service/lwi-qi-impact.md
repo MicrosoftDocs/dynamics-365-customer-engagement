@@ -1,6 +1,6 @@
 ---
-title: "How the liveworkitem-queueitem sync impacts the Queue Item APIs| Microsoft Docs"
-description: "How the liveworkitem-queueitem sync impacts the Queue Item APIs"
+title: "Impact of Unified Routing on Queue Item APIs| Microsoft Docs"
+description: "How unified routing impacts the Queue Item APIs"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -17,12 +17,12 @@ search.app:
   - D365CS
 ms.reviewer: nenellim
 ---
-# How the liveworkitem-queueitem sync impacts the queueitem entity in unified routing
+# How unified routing impacts the Queue Item APIs
 
-When you change the status of a live work item or a queue item, the queue item entity is impacted in the following ways:
+When you change the status of a queue item that has been routed using unified routing, the queue item is impacted in the following ways:
 
-- For a particular queue item, when you change the queue from a (1) regular queue to an automatically routed queue or (2) from one automatically routed queue to another via the [AddToQueue Action](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9) on the entity record or by clicking **Route To** (via the [**RouteTo Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9)) on the queue item, the associated queue for the live work item is also updated to the same destination queue.
-- For the queue items that have associated live work items, when you update the **Worked By** field by clicking **Route To** on the Queue Item grid (via the [**RouteTo Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9)) on the queue item, the live work item is also assigned to the same agent.
-- When a queue item with an associated live work item, you cannot use remove it from the queue by clicking **Pick** ([**PickFromQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9)) or **Release** ([**ReleaseToQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/releasetoqueue?view=dynamics-ce-odata-9)) on the queue item.
-- When you deactivate a queue item that's part of an automatically routed queue, you cannot activate it again.
-- When you delete a queue item using the [**ReleaseToQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/releasetoqueue?view=dynamics-ce-odata-9), [**RemoveFromQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9) or by deleting or canceling the underlying record, the associated live work item is also closed.
+- When you change the queue of a particular queue item from (1) a basic queue to an advanced queue or (2) from one advanced queue to another by clicking  **Add to Queue** on the record (via the [AddToQueue Action](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/addtoqueue?view=dynamics-ce-odata-9)) or by clicking **Route To** on the queue item (via the [**RouteTo Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9)), the associated queue for the live work item () is also updated to the same destination queue. This will, in turn, update the unified routing services that maintain agent presence and capacity with the corresponding changes.
+- When you update the **Worked By** field of queue items by clicking **Route To** on the Queue Item grid (via the [**RouteTo Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/routeto?view=dynamics-ce-odata-9)), the live work item () is also assigned to the same agent.
+- When a queue item has been updated using unified routing, you cannot use remove it from the queue by clicking **Pick** ([**PickFromQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9)) or **Release** ([**ReleaseToQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/releasetoqueue?view=dynamics-ce-odata-9)) on the queue item.
+- When you deactivate a queue item that's part of an advanced queue, you cannot activate it again.
+- When you delete a queue item using the [**ReleaseToQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/releasetoqueue?view=dynamics-ce-odata-9), [**RemoveFromQueue Action**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9) or by deleting or canceling the underlying record, the associated live work item is also closed. This will, in turn, update the unified routing services that maintain agent presence and capacity with the corresponding changes.
