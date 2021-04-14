@@ -100,6 +100,7 @@
 #### [Work with queues](work-with-queues.md)
 
 ### Developer experience
+#### [Customize skills on any entity form](customize-skills.md)
 
 ## Case management
 ### Administrator experience
