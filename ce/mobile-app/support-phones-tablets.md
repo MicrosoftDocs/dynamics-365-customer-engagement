@@ -34,8 +34,14 @@ To do this, install the Dynamics 365 for phones or tablets mobile app on your iO
 |--------------------------------------------------------------------|---------------|---------------|
 |       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 12.4.9 or later  |     1 GB (2 GB recommended)     
 |     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
-| [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8) |      10       |     2 GB (4 GB recommended)                     
+                
  
+ 
+ |                              Platform                              |   Versions    | RAM (minimum)  | 
+|--------------------------------------------------------------------|---------------|---------------|
+|       [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)       | 10 |     1 GB (4 GB recommended)     
+
+  
   
 ## Install the app 
 
