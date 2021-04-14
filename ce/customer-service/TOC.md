@@ -375,8 +375,8 @@
 ##### [Monitor, assign, and transfer conversations](monitor-conversations.md)
 ##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
 
-### Customize dashboards based on Unified Interface
-#### [Customize interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
+### Customize dashboards
+#### [Customize interactive dashboards based on Unified Interface](configure-interactive-dashboards-customer-service-hub.md)
 
 ## Service scheduling
 ### [Overview of Service scheduling](basics-service-service-scheduling.md)
