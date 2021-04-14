@@ -18,9 +18,9 @@ search.app:
   - D365CS
 ---
 
-# Unified routing diagnostics
+# Diagnostics for unified routing
 
-Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using unified routing. 
+Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using unified routing.
 
 ## Enable routing diagnostics
 
@@ -28,22 +28,20 @@ To see data related to work items and their status, you need to enable routing d
 
 1. Sign in to Dynamics 365.
 
-2. Perform one of the following steps. 
+2. Perform one of the following steps:
 
-In Customer Service Hub, go to the **Service Management** work area and select **Diagnostics**.
+   - In Customer Service Hub, go to the **Service Management** work area and select **Diagnostics**.
 
-or
-
-Sign in to **Omnichannel admin center** and select **Diagnostics** from the **Advanced settings** options in the menu.
+   - Sign in to Omnichannel admin center and select **Diagnostics** from the **Advanced settings** options in the menu.
 
 3. On the **Routing diagnostics** page command bar, select **Turn on routing diagnostics**.
 
 4. In the confirmation message that appears, select **Yes**.
 
-You'll see a list of new work items appear on your screen. However, Work items may not appear on your screen immediately.
+   You'll see a list of new work items appear on your screen. However, Work items may not appear on your screen immediately.
 
 > [!NOTE]
-> After you enable diagnostics, the data will be stored in your CDS storage. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
+> After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
 
 
 ## Understand routing stages and diagnostics
@@ -84,7 +82,7 @@ A work item passes through three stages.
 
 If a work item doesn't run through a particular rule set in the **Classification rulesets** list, the **Run status** check mark is displayed in red. When the work item executes a particular rule set, the **Run status** check mark is displayed in green. A work item executes all rule sets, but it doesn't execute all rule items within the rule set.
 
- ### Route to queue
+### Route to queue
 
 Queue routing rules are formulated to send the work item to the correct queue. More information: [Set Up routing and assignment rules](routing-rules.md)
 
@@ -103,12 +101,8 @@ Each work item is assigned to an agent or is sent to a queue based on the **Assi
 
 ### See also
 
-- [Overview of skill based routing](overview-skill-work-distribution.md)
-
-- [Assignment methods for Queues](assignment-methods.md)
-
-- [Create and manage routing rules](routing-rules.md)
-
-- [Routing and assignment rules](routing-workstream-queues.md)
-
+[Overview of skill based routing](overview-skill-work-distribution.md)  
+[Assignment methods for Queues](assignment-methods.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Routing and assignment rules](routing-workstream-queues.md)  
 
