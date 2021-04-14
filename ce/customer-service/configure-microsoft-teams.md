@@ -113,7 +113,7 @@ Make sure that the following prerequisites are met:
 5. Select **Test and distribute**, and then select **Install** to test your app.
 
   > [!NOTE]
-  > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant.md).
+  > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 ### See also
 
