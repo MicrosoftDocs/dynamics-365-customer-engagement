@@ -207,7 +207,7 @@ If an update is available, a notification is displayed on the **Gamification Set
 
 ## Uninstall the Gamification solution
 
-You need to remove **GamificationUpdate** *before* you remove **Gamification**. More information about removing a preferred solution: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution)
+To uninstall Gamification, delete the Gamification Updater and Gamification solutions from the Dynamics 365 Organization. Note that you must first delete the **GamificationUpdater solution** followed by *the* **Gamification solution**. More information about removing a preferred solution: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution)
 
 ## Privacy notice  
 
