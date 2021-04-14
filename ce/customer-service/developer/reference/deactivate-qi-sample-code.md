@@ -1,5 +1,5 @@
 ---
-title: "How to close queue itema - sample code| Microsoft Docs"
+title: "How to close queue items - sample code| Microsoft Docs"
 description: "Sample code to close or deactivate queue items"
 author: mh-jaya
 ms.author: v-jmh
