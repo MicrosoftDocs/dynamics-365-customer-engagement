@@ -2,7 +2,7 @@
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 description: About support for Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 2/12/2021
+ms.date: 4/14/2021
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
