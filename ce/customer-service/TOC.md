@@ -105,7 +105,6 @@
 #### [How to close queue items - sample code][deactivate-qi-sample-code.md]
 
 
-
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
