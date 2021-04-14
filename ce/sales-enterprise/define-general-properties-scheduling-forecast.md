@@ -1,7 +1,7 @@
 ---
 title: "Define general properties and scheduling for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define general properties and scheduling for a forecast in Dynamics 365 Sales."
-ms.date: 08/01/2020
+ms.date: 04/14/2021
 ms.service: "dynamics-365-sales"
 ms.custom: "dyn365-sales"
 ms.topic: article
