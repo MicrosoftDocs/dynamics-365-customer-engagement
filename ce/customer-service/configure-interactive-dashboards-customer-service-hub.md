@@ -42,7 +42,8 @@ The interactive dashboards come in two flavors:
 - Single-stream dashboards
   
 ### Multi-stream dashboard standard view  
- In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
+
+In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
   
  ![Multistream interactive dashboard](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
   
@@ -72,7 +73,8 @@ The interactive dashboards come in two flavors:
  ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
   
 ## Configure filter fields and security roles for the interactive dashboards
- When you configure interactive dashboards, your first task is to enable fields and security roles, so that interactive dashboards can be configured for them. Note, that interactive dashboards are now enabled for all entities and custom entities by default.
+
+When you configure interactive dashboards, your first task is to enable fields and security roles, so that interactive dashboards can be configured for them. Note, that interactive dashboards are now enabled for all entities and custom entities by default.
 
 To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
 
@@ -80,7 +82,8 @@ To know more about how to enable custom entities, see [Enable custom entities in
 > All customization tasks for the Customer Service Hub must be done in Microsoft Dataverse.
   
 ### Configure filter fields  
- For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
+
+For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
 
 - Appears in global filter in interactive experience
 - Sortable in interactive experience dashboard
@@ -133,9 +136,10 @@ The following illustration shows the flyout dialog with the list of the availabl
 ![Sort by dropdown list](media/sort-field.png "Sort by dropdown list") 
   
 ### Enable security roles  
- Select and enable security roles that will be able to view the interactive dashboards.  
+
+Select and enable security roles that will be able to view the interactive dashboards.  
   
- #### To enable the security roles  
+#### To enable the security roles  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -153,7 +157,8 @@ The following illustration shows the flyout dialog with the list of the availabl
 
      
 ## Configure interactive dashboards  
- The following sections describe how to configure various types of interactive dashboards.  
+
+The following sections describe how to configure various types of interactive dashboards.  
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout
   
