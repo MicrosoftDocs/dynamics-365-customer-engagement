@@ -1,7 +1,7 @@
 ---
 title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
-ms.date: 03/23/2021
+ms.date: 04/13/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -33,9 +33,9 @@ To learn more about email marketing and deliverability see [Best practices for e
 
 ## The default authenticated domain
 
-By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". The pre-authenticated domain means that you can begin sending authenticated emails right away. But you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
+By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in `-dyn365mktg.com`. The pre-authenticated domain means that you can begin sending authenticated emails right away. But you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
 
-When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form *account-name*@*domain-name*). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will lower message deliverability.
+When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form `account-name*@*domain-name`). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, `MyName@contoso-dyn365mktg.com`), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will lower message deliverability.
 
 ## Which domains to authenticate
 
@@ -77,7 +77,71 @@ To set up Dynamics 365 Marketing and the DNS to authenticate marketing email mes
 
 6. When you are done setting up the DNS records with your provider, return to your authenticated-domain record in Dynamics 365 Marketing and select **Confirm DNS registration** on the command bar. Dynamics 365 Marketing checks to make sure the values are correctly set up and active in the DNS system. If you get a success message, then everything is working and you're done. DNS registration may require up to 24 hours to take effect, so try again later if your registration isn't confirmed right away.
 
-### Example DNS records for domain contoso.com
+## Envelope-from domain
+
+If you want to go further with the domain authentication process, you should look at **Envelope-from domain** feature. Every email has two **From** addresses. The first one (described in RFC5322) is the main **From** address,
+or, simply, the “friendly from” address. The second From address (RFC5321), is a
+so-called **Envelope From** address, or “Return-Path” address.
+
+To ensure good deliverability, the domains that you use for sending should be aligned. *Alignment* of domains means that the SPF and DKIM domains
+match the **From** address, at least partially. For SPF *alignment*, the
+**From** and **Envelope-from** domains must match. For DKIM alignment, the
+d-parameter of the DKIM (DKIM domain) must align with the **From**
+domain.
+
+To set up the Envelope-from feature for your domain, go to **Settings** >
+**Email marketing** > **Domain authentications**. Select **+New**, then, on the
+**New domain authentication** form, enable the **Enable custom Envelope-from domain** option. The Envelope-from feature requires you to set up one additional
+DNS record for your domain.
+
+> [!div class="mx-imgBorder"]
+> ![Enable custom Envelope-from domain screenshot](media/authenticate-envelope-from-switch.png)
+
+The Envelope-from domain name is generated automatically for the domain you
+enter during the domain authentication process when you enable the feature. If you want to customize the Envelope-from domain name, you must meet the following requirements:
+
+1. The Envelope-from field should not be empty.
+1. The Envelope-from domain should be a subdomain of a domain you have entered.
+1. The Envelope-from domain should start with “bouncing”.
+1. No dots are allowed in the subdomain name.
+1. Only plain letters and numbers are allowed (no symbols).
+
+You will see an error message if one of the requirements is not met.
+
+### Examples of Envelope-from domains
+
+*Your domain is:* `test.dynmkt.com`
+- *Default Envelope-from domain:* `bouncing.test.dynmkt.com`
+    > [!div class="mx-imgBorder"]
+    > ![Default Envelope-from domain screenshot](media/authenticate-default-envelope-from.png)
+- *Custom Envelope-from domain example:* `bouncingcustom.test.dynmkt.com`
+    > [!div class="mx-imgBorder"]
+    > ![Custom Envelope-from domain screenshot](media/authenticate-custom-envelope-from.png)
+
+The Envelope-from domain *cannot* be one of the following:
+- `bouncing.custom.test.dynmkt.com`
+- `test.dynmkt.com`
+- `bouncing##.test.dynmkt.com`
+- `bouncing.test.notdynmkt.com`
+
+### Create a CNAME record
+
+After the Envelope-from domain is entered, select **Save**. The appropriate DNS record values will then be generated for you. You can find the record values in the **Envelope-from key** section.
+
+Next, you need to create another CNAME record for your Envelope-from domain to be validated. Contact your DNS provider and tell them you'd like to create another CNAME DNS record with the value taken from the **Envelope-from key** section.
+
+After the DNS record has been created, wait at least 30 minutes before proceeding to the final step. DNS servers need some time to populate newly created DNS records.
+
+After the DNS record update is complete, select **Refresh** and then **Confirm**. If everything was set up properly, the status of your domain in top right corner should change to **Confirmed**, as in the image below.
+> [!div class="mx-imgBorder"]
+> ![Confirmed DNS record update screenshot](media/authenticate-dns-update.png)
+
+After your domain’s **Envelope-from status** is confirmed, your Envelope-from sending domain will adhere to your Envelope-from settings every time you use the specified From domain when sending emails in Dynamics 365 Marketing.
+
+> [!NOTE]
+> If you use another domain that does not have an Envelope-from domain set, Marketing will use the **default Envelope-from** domain provided by the system. 
+
+## Example DNS records for domain contoso.com
 
 This example is valid if you are adding DNS records into the root domain contoso.com.
 
