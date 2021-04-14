@@ -55,7 +55,7 @@ Use the navigation bar at the top to access the site map, search, quick create, 
 
 ## Site map
 
-Use the site map to navigate to the **Home**, **Recent** items, **Pinned** items and **Dashboards**.
+Use the site map to navigate to **Home**, **Recent** items, **Pinned** items and **Dashboards**.
 
 ![Open the site map menu](../media/site-map-menu.gif)
 
