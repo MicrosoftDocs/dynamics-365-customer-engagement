@@ -62,7 +62,6 @@
 
 
 ### Administrator experience
-#### [Unified Routing diagnostics](unified-routing-diagnostics.md)
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 #### [Create and manage queues for conversations](queues-omnichannel.md)
@@ -92,6 +91,7 @@
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 
 #### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
+#### [Diagnostics for unified routing](unified-routing-diagnostics.md)
 #### [Show customers their position in a queue](show-queue.md)
 #### [Show customers their average wait time in a queue](average-wait-time.md)
 
@@ -109,6 +109,7 @@
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
 #### [Similar records suggestions](suggest-similar-cases-for-a-case.md)
+
 ### Agent experience
 #### [Create cases](customer-service-hub-user-guide-create-a-case.md)
 #### [Resolve, cancel, and reassign cases](customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md)
@@ -116,6 +117,7 @@
 #### [View, block, or deactivate a social profile](view-block-deactivate-social-profile.md)
 #### [Convert a case to a knowledge article](customer-service-hub-user-guide-convert-case-to-knowledge-article.md)
 #### [View AI suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)
+#### [Manage cases using interactive dashboards](customer-service-hub-user-guide-dashboard.md)
 ### Customize case management
 #### [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md)
 #### [Modify case resolution dialog box](customer-service-hub-user-guide-modify-case-resolution-dialog.md)
@@ -322,17 +324,12 @@
 ## Bots
 
 ### Administrator experience
-
 #### [Integrate an Azure bot](configure-bot.md)
-
 #### [Configure context variables for bots](context-variables-for-bot.md)
-
 #### [Link customer and case when bot escalates to human agent](link-customer-case-when-bot-escalates.md)
 
 ### Developer experience
-
 #### [Enable bot context NuGet package](enable-bot-context.md)
-
 #### [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)
 #### [Download attachments from Azure bot](download-attachments-bot.md)
 #### [Display suggested actions in a vertical layout](suggested-actions.md)
@@ -381,8 +378,9 @@
 #### Monitor conversations
 ##### [Monitor, assign, and transfer conversations](monitor-conversations.md)
 ##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
-### Customize insights
-#### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
+
+### Customize dashboards
+#### [Customize interactive dashboards based on Unified Interface](configure-interactive-dashboards-customer-service-hub.md)
 
 ## Service scheduling
 ### [Overview of Service scheduling](basics-service-service-scheduling.md)

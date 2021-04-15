@@ -35,7 +35,7 @@ To preserve your reputation as a sender, Dynamics 365 Marketing has developed a 
 
     When email sending is suspended, you see a warning banner in your email tool about a problem detected by the deliverability protection system. The banner contains details about the problem and recommendations to improve future email messages.
 
-    If your email sending is suspended, create a ticket with our deliverability team. When we believe that you have taken sufficient steps to address the cause of suspension, we will reinstate your account.
+    If your email sending is suspended, create a ticket with our [Email Deliverability team](mailto:dynmktdeliverability@microsoft.com). When we believe that you have taken sufficient steps to address the cause of suspension, we will reinstate your account.
 
 ## What are the email limits for Dynamics 365 Marketing?
 
