@@ -43,7 +43,7 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
     > ![Set Regarding](../media/set-regarding.gif)
     
     > [!NOTE]
-    > For information on the search works, see [Use the lookup column on a row](powerapps/user/lookup-field.md).
+    > For information on to use search to look for a row, see [Use the lookup column on a row](powerapps/user/lookup-field.md).
    
 4. When the item is successfully tracked and linked to the selected row, you'll see a **Tracked regarding** message.
 
