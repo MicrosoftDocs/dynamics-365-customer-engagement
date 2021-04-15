@@ -102,7 +102,7 @@
 ### Developer experience
 #### [Customize skills on any entity form](customize-skills.md)
 #### [How unified routing impacts queue items and the underlying APIs](lwi-qi-impact.md)
-#### [How to close live work items or deactivate queue items - sample code](deactivate-qi-sample-code.md) 
+#### [Sample code - How to close live work items or deactivate queue items](deactivate-qi-sample-code.md) 
 
 
 ## Case management
