@@ -1,6 +1,6 @@
 ---
-title: "App for Outlook support matrix (Dynamics 365 apps) | MicrosoftDocs"
-description: Supported set-up for Dynamics 365 App for Outlook
+title: "Supported setup for  Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
+description: Supported setup for Dynamics 365 App for Outlook
 ms.custom: 
 ms.date: 02/17/2021
 ms.reviewer: 
@@ -22,7 +22,9 @@ search.app:
   - D365Outlook
 ---
 
-## Support matrix for  Dynamics 365 App for Outlook
+## Supported setup for Dynamics 365 App for Outlook
+
+The following are the supported envioments to use Dynamics 365 App for Outlook.
 
 **Dynamics 365 and Microsoft Exchange Online**
 
