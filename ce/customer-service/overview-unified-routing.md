@@ -49,6 +49,8 @@ The requirements for unified routing and supported geographical regions are same
 - [International availability of Omnichannel for Customer Service](international-availability.md)
 - [Supported languages](international-availability.md#language-availability)
 
+You can configure unified routing only through the Omnichannel admin center or Customer Service Hub app.
+
 The intelligent skill finder uses AI Builder to create and train the machine learning model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
 
 - [Availability of AI Builder](/ai-builder/availability-region)
