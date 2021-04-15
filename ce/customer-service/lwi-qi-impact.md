@@ -29,3 +29,9 @@ When you change the status of a queue item that has been routed using unified ro
 - When you update a queue item using unified routing, you cannot remove it from the queue by selecting **Pick** ([**PickFromQueue Action**](/dynamics365/customer-engagement/web-api/pickfromqueue?view=dynamics-ce-odata-9)) or **RouteTo Action** on the queue item.
 - When you deactivate a queue item that's part of an advanced queue, you cannot activate it again.
 - When you delete a queue item by selecting **Remove** (via the [**RemoveFromQueue Action**](/dynamics365/customer-engagement/web-api/removefromqueue?view=dynamics-ce-odata-9)) or by deleting or canceling the underlying record, the associated live work item (msdyn_ocliveworkitem) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+
+### See also
+
+[Overview of unified routing](overview-unified-routing.md)  
+[Set up unified routing](set-up-routing-process.md)  
+[Set up record routing](set-up-record-routing.md) 
