@@ -19,7 +19,7 @@ ms.reviewer: nenellim
 ---
 # How to customize skills on any form
 
-Dynamics 365 ships a control that you can embed in any of your entity forms. 
+Dynamics 365 ships a control that you can embed in any of your forms. 
 Say you have a case form where you want to add a **Skills** control, here are the steps to add the skill update control on the case form:
 
 1. In Dynamics 365, go to Advanced Settings > Customizations > Customize the System.
