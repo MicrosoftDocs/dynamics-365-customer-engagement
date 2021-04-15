@@ -24,7 +24,9 @@ search.app:
 
 # Basic navigation in App for Outlook
 
-Use Dynamics 365 App for Outlook to tap the power of your Dynamics 365 apps while you’re using Outlook on the desktop, web, or phone. When Dynamics 365 App for Outlook is installed, depending on which version of the app you have installed, you'll see a Dynamics 365 pane or window next to a selected Outlook email message, or when you're composing an email message or setting up a meeting or appointment.
+Extend the power of productivity in Outlook with Microsoft Dynamics 365 App for Outlook so you can experience your Dynamics 365 app in context of customer communication in Outlook. Track your emails and appointments in Outlook to your Dynamics 365 app and associate them to the right rows.
+
+Use Dynamics 365 App for Outlook while you’re using Outlook on the desktop, web, or phone. When Dynamics 365 App for Outlook is installed, depending on which version of the app you have installed, you'll see a Dynamics 365 pane or window next to a selected Outlook email message, or when you're composing an email message or setting up a meeting or appointment.
 
 It's easy to access the Dynamics 365 pane whether you're using Outlook on your desktop or the web app.
 
@@ -33,7 +35,7 @@ It's easy to access the Dynamics 365 pane whether you're using Outlook on your d
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
    
-- In Outlook Web App, open an email and then select More (...) > **Dynamics 365**.
+- In Outlook Web Access, open an email and then select More (...) > **Dynamics 365**.
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane in Outlook Web Access](../media/outlook-web-app.png)  
@@ -43,11 +45,13 @@ It's easy to access the Dynamics 365 pane whether you're using Outlook on your d
 
 |Term  |Definition  |
 |---------|---------|
-|[Set regarding](track-message-or-appointment.md)     |Track and link the email or appointment to an existing row in Dynamics 365 apps.|
-|Track     |Create a copy of the email or appointment in Dynamics 365 apps.   |
-|[Untrack](track-message-or-appointment.md#untrack-a-linked-email-or-appointment)     |Remove the copy of the email or appointment from Dynamics 365. |
+|[Set regarding](track-message-or-appointment.md)     |Track and link the email or appointment to an existing row your Dynamics 365 app.|
+|Track     |Create a copy of the email or appointment in your Dynamics 365 app.   |
+|[Untrack](track-message-or-appointment.md#untrack-a-linked-email-or-appointment)     |Remove the copy of the email or appointment from your Dynamics 365 app. |
+|Track success |Your email or appointment is successfuly copied to  your Dynamics 365 app.   |
+|Track failure |Your email or appointment is failed to copy to your Dynamics 365 app.   | 
+|Track pending |Your email or appointment is currently quequed to be coped to your Dynamics 365 app.   | 
 
- 
 ## Navigation bar
 
 Use the navigation bar at the top to access the site map, search, quick create, and more commands.
