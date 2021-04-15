@@ -37,9 +37,15 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-5. In the **Set Regarding** textbox, type in your search text and select the row to associate the email or appointment with.
+3. In the **Set Regarding** textbox, type in your search text and select the row to associate the email or appointment with.
 
-   ![Set Regarding](../media/set-regarding.gif)
+    > [!div class="mx-imgBorder"] 
+    > ![Set Regarding](../media/set-regarding.gif)
+   
+4. When the item is successful tracked and link to the select row, you'll see **Tracked regarding**.  
+
+   > [!div class="mx-imgBorder"] 
+   > ![Item tracked successfully](../media/track-success.png) 
 
 ## View a linked email or appointment in your app
 
