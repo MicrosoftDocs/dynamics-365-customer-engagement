@@ -20,6 +20,8 @@ search.app:
 ---
 # Set up and edit your Gamification user profile
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Your colleagues will surely want to see who they're competing with in the games. Add a profile picture to make sure they recognize you.  
 
 ## Update profile settings
