@@ -50,7 +50,7 @@ Use **Track without Regarding** in Dynamics 365 app for Outlook to track an emai
    > [!div class="mx-imgBorder"] 
    > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
 
-2 The item is created as an email activity in  Dynamics 365 and isn't linked to a specific row.
+2. The item is created as an email activity in  Dynamics 365 and isn't linked to a specific row.
 
    > [!div class="mx-imgBorder"] 
    > ![See the track without regarding item in your app](../media/track-without-regarding-in-app.png)
