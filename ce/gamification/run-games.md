@@ -21,6 +21,8 @@ search.app:
 
 # Set up and run games in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Commissioners and game managers create and run games in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] to gamify KPIs for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and motivate employees to deliver their best results. Create games whenever you want, and schedule them to start at any time.
 
 Before you start setting up a game in [!INCLUDE[cc_gamification_portal](../includes/cc-gamification-portal.md)], make sure the following prerequisites are met:
