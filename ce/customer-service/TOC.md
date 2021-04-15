@@ -54,12 +54,10 @@
 ### [Manage capacity profiles](capacity-profiles.md)
 ### [Role persona mapping](role-persona-mapping.md)
 
-
 ## Unified routing and assignment
 ### [Overview of unified routing](overview-unified-routing.md)
 ### [How routing and assignment works](set-up-routing-process.md)
 ### [Routing and assignment rules](routing-workstream-queues.md)
-
 
 ### Administrator experience
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
@@ -88,7 +86,7 @@
 ##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
 
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
-#### [Automatically route cases](create-rules-automatically-route-cases.md)
+#### [Automatically route cases](create-rules-automatically-route-cases.md)3
 
 #### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
 #### [Diagnostics for unified routing](unified-routing-diagnostics.md)
@@ -96,6 +94,7 @@
 #### [Show customers their average wait time in a queue](average-wait-time.md)
 
 ### Agent experience
+
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
 
@@ -240,6 +239,7 @@
 
 ## Channels
 ### [Introduction to channels](channels.md)
+
 ### Administrator experience
 #### Set up SMS channels
 ##### [Configure an SMS channel for TeleSign](configure-sms-channel.md)
@@ -258,12 +258,14 @@
 #### Set up entity records channel
 ##### [Route entity records](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
+
 ### Agent experience
 #### [Use SMS channel](sms-telesign-twilio.md)
 #### [Use Facebook channel](facebook.md)
 #### [Use WhatsApp channel](whatsapp.md)
 #### [Use Teams channel](teams-channel.md)
 #### [Use WeChat channel](wechat-channel.md)
+
 ### Developer experience
 #### Bring your own custom messaging channel
 ##### [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)
@@ -636,6 +638,7 @@
 ### [Report issues in Omnichannel for Customer Service](report-issues.md)
 
 ## FAQs on Customer Service
+### [FAQs on unified routing](unified-routing-faqs.md)
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 ### [FAQs on Omnichannel for Customer Service](faqs.md)
 

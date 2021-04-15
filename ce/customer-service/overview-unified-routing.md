@@ -4,7 +4,7 @@ description: "Overview of unified routing in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 04/15/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -43,11 +43,19 @@ Unified routing optimizes businesses in the following ways:
 
 ## System requirements, supported geographical regions
 
-The requirements for unified routing and supported geographical regions are same as those applicable for Omnichannel for Customer Service. For more information, see the following articles:
+The requirements for unified routing and supported geographical regions are same as those that are applicable for Omnichannel for Customer Service. For more information, see the following articles:
 
 - [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
 - [International availability of Omnichannel for Customer Service](international-availability.md)
 - [Supported languages](international-availability.md#language-availability)
+
+The intelligent skill finder uses AI Builder to create and train the machine learning model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
+
+- [Availability of AI Builder](/ai-builder/availability-region)
+- [Supported languages](/ai-builder/prebuilt-language-detection)
+
+> [!NOTE]
+> Unified routing is not supported in Unified Service Desk.
 
 ### See also
 
