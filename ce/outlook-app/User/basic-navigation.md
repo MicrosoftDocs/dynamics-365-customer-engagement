@@ -46,7 +46,8 @@ If you're using the Outlook desktop client Outlook Web Access you can pin App fo
 
 - To pin the add-in, select the pin. To unpin, select the pin again.
 
-![Pin the add-in](../media/pin-addin.gif)  
+   > [!div class="mx-imgBorder"] 
+   > ![Pin the add-in](../media/pin-addin.gif)  
 
 
 ## Terminology
