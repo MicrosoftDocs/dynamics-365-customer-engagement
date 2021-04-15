@@ -76,7 +76,7 @@ search.app:
 
 **Dynamics 365 or Microsoft Exchange Server (on-premises)**
 
-| **Feature**                                         | **Outlook desktop client** | ** **               | ** **        | ** **           | **Outlook web access** | ** **         | **Mobile** | ** ** |
+| **Feature**                                         | **Outlook desktop client** |                |        |           | **Outlook web access** |          | **Mobile** | |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------|
 |                                                     | Outlook C2R                | Outlook 16 or later | Outlook 2013 | Outlook for Mac | Microsoft Edge         | Google Chrome | Android    | iOS   |
 | Sent and received email                             | X                          | X                   | X            | X               | X                      | X             |            |       |
@@ -124,7 +124,7 @@ search.app:
 
 **Dynamics 365 and Microsoft Exchange Server (on-premises)**
 
-| **Feature**                                         | **Outlook desktop client** | ** **               | ** **        | ** **           | **Outlook web access** | ** **         | **Mobile** |     |
+| **Feature**                                         | **Outlook desktop client** |               |       |            | **Outlook web access** |         | **Mobile** |     |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-----|
 |                                                     | Outlook C2R                | Outlook 16 or later | Outlook 2013 | Outlook for Mac | Microsoft Edge         | Google Chrome | Android    | iOS |
 | Sent and received email                             | X                          | X                   | X            | X               | X                      | X             |            |     |
