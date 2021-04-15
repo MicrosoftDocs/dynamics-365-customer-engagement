@@ -37,7 +37,16 @@ It's easy to access the Dynamics 365 pane whether you're using Outlook on your d
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane in Outlook Web Access](../media/outlook-web-app.png)  
- 
+   > 
+
+## Terminology
+
+|Term  |Definition  |
+|---------|---------|
+|[Set regarding](track-message-or-appointment.md)     |Track and link the email or appointment to an existing row in Dynamics 365 apps.|
+|Track     |Create a copy of the email or appointment in Dynamics 365 apps.   |
+|[Untrack](track-message-or-appointment.md#untrack-a-linked-email-or-appointment)     |Remove the copy of the email or appointment from Dynamics 365. |
+
  
 ## Navigation bar
 
