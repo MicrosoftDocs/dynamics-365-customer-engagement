@@ -1,6 +1,6 @@
 ---
-title: "How to close queue items - sample code| Microsoft Docs"
-description: "Sample code to close or deactivate queue items"
+title: "How to close live work items - sample code| Microsoft Docs"
+description: "Sample code to close live work items or deactivate queue items"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -17,9 +17,9 @@ search.app:
   - D365CS
 ms.reviewer: nenellim
 ---
-# How to close queue items
+# How to close live work items
 
-You can use the following sample code to trigger the closure of queue items Omnichannel for Customer Service. You can modify the sample code to suit the needs of your organization.
+You can use the following sample code to trigger the closure of live work items by deactivating the associated queue item. You can modify the sample code to suit the needs of your organization.
 
    ```csharp
     static void Main(string[] args)

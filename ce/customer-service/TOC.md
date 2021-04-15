@@ -101,7 +101,7 @@
 
 ### Developer experience
 #### [Customize skills on any entity form](customize-skills.md)
-#### [How unified routing impacts Queue Item APIs](lwi-qi-impact.md)
+#### [How unified routing impacts queue items and the underlying APIs](lwi-qi-impact.md)
 #### [How to close queue items - sample code](deactivate-qi-sample-code.md) 
 
 
