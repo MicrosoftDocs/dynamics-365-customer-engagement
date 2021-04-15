@@ -42,7 +42,7 @@ It's easy to access the Dynamics 365 pane whether you're using Outlook on your d
    
 ## Pin 
 
-If you're using the Outlook desktop client Outlook Web Access you can pin App for Outlook so that it remains open when you navigate from one email to another. 
+If you're using the Outlook desktop client Outlook Web Access you can pin App for Outlook so that it remains open when you navigate from one email to another. If don't see the pin option verifiy that it's supported for your setup. For more information, see [What's supported](support-matrix.md).
 
 - To pin the add-in, select the pin. To unpin, select the pin again.
 
