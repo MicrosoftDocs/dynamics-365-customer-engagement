@@ -43,18 +43,18 @@ Unified routing optimizes businesses in the following ways:
 
 ## System requirements, supported geographical regions
 
-The requirements for unified routing and supported geographical regions are same as those that are applicable for Omnichannel for Customer Service. For more information, see the following articles:
+Unified routing is supported in the same geographical regions as those supported by Omnichannel for Customer Service. More information: [International availability of Omnichannel for Customer Service](international-availability.md)
 
-- [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
-- [International availability of Omnichannel for Customer Service](international-availability.md)
-- [Supported languages](international-availability.md#language-availability)
+The requirements for unified routing are same as those that are applicable for Omnichannel for Customer Service. More information: [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
 
-You can configure unified routing only through the Omnichannel admin center or Customer Service Hub app.
+For the langauges supported in unified routing, see [Supported languages](international-availability.md#language-availability).
 
-The intelligent skill finder uses AI Builder to create and train the machine learning model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
+You can configure unified routing only through the Omnichannel admin center or Customer Service Hub app. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
+
+The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
 
 - [Availability of AI Builder](/ai-builder/availability-region)
-- [Supported languages](/ai-builder/prebuilt-language-detection)
+- [Supported languages](/ai-builder/before-you-build-text-classification-model#prerequisites)
 
 > [!NOTE]
 > Unified routing is not supported in Unified Service Desk.
