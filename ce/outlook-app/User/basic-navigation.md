@@ -39,7 +39,13 @@ It's easy to access the Dynamics 365 pane whether you're using Outlook on your d
 
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane in Outlook Web Access](../media/outlook-web-app.png)  
-   > 
+   
+## Pin 
+
+If you're using the Outlook desktop client Outlook Web Access you can pin App for Outlook so that it remains open when you navigate from one email to another.
+
+![Pin the add-in](../media/pin-addin.gif)  
+
 
 ## Terminology
 
@@ -62,7 +68,7 @@ Use the navigation bar at the top to access the site map, search, quick create, 
 2. **Search**: Search for rows across multiple tables sorted by relevance. 
 3. **Create a new row**: Create a new row for the tables that have been included in the App for Outlook and are enabled for quick create.
 4. **More commands**: Access more such as user information, information your Dynamics 365 environment, the [**Assistant**](assistant.md), and [**Outlook checker**](../diagnostic-checker.md).
-5. **Pin**: Select the pin icon to pin Dynamics 365 App pane so that it remains open when you navigate from one email to another
+5. **Pin**: Select the pin icon to pin Dynamics 365 App pane so that it remains open when you navigate from one email to another.
 
 
 
