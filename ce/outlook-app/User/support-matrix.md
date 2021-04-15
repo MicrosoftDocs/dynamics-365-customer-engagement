@@ -1,6 +1,30 @@
-﻿Dynamics 365 and Microsoft Exchange Online
+---
+title: "App for Outlook support matrix (Dynamics 365 apps) | MicrosoftDocs"
+description: Supported set-up for Dynamics 365 App for Outlook
+ms.custom: 
+ms.date: 02/17/2021
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+applies_to: Dynamics 365 apps
+caps.latest.revision: 1
+author: mduelae
+ms.author: mkaur
+manager: kvivek
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Outlook
+---
 
- 
+## Support matrix for  Dynamics 365 App for Outlook
+
+**Dynamics 365 and Microsoft Exchange Online**
 
 | **Feature**                                         | **Outlook desktop client** |                     |              |                 | **Outlook web access** |               | **Mobile** |     |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-----|
@@ -50,7 +74,7 @@
 
  
 
-Dynamics 365 or Microsoft Exchange Server (on-premises).
+**Dynamics 365 or Microsoft Exchange Server (on-premises)**
 
 | **Feature**                                         | **Outlook desktop client** | ** **               | ** **        | ** **           | **Outlook web access** | ** **         | **Mobile** | ** ** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------|
@@ -98,7 +122,7 @@ Dynamics 365 or Microsoft Exchange Server (on-premises).
 
  
 
-Dynamics 365 and Microsoft Exchange Server (on-premises)
+**Dynamics 365 and Microsoft Exchange Server (on-premises)**
 
 | **Feature**                                         | **Outlook desktop client** | ** **               | ** **        | ** **           | **Outlook web access** | ** **         | **Mobile** |     |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-----|
