@@ -17,34 +17,7 @@ searchScope:
 ---
 # Security Roles
 
-Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines limits on the user's view of data and on the user's interactions with that data.
-
-## Permissions
-
-Permissions define the actions that a user is permitted to do on an entity. The following permissions are supported:
-
-| **Permission** | **Allowed Action** |
-|-------------------------|-------------------------|
-| Create | Allows the user to create a record. |
-| Read | Allows the user to view a record. |
-| Write | Allows the user to update an existing record. |
-| Delete | Allows the user to delete a record. |
-| Append | Allows the user to associate another entity with a record, acting as a lookup field. The user should have the **Append to** permission on the entity being associated. For example, if an opportunity record has the contact field as a lookup, the users must have a security role that has Append permissions for Opportunities and Append to permissions for Contacts. |
-| Append to | Allows the user to use an entity as a lookup field in another entity. |
-| Assign | Allows the user to change the owner of a record. |
-| Share | Allows the user to share a record with another user. The user can grant specific permissions while sharing the record. |
-
-## Access Levels
-
-Access levels define the scope of permissions. For example, a Sales Vice President would have a broader scope compared to a salesperson. The Sales VP may need access to the data of the entire Business Unit, whereas a Salesperson’s access could just be limited to their own team. The following access levels are supported:
-
-| **Access Level** | **Scope of Permissions** |
-|-------------------------|-------------------------|
-| None | No permissions given. |
-| User | Access to the records that are owned either by the user or the team the user belongs to, or the records shared with the user |
-| Business Unit | Access to the records that are owned by the business unit that the user belongs to. |
-| Parent: Child Business Units | Access to the records of the business unit that the user belongs to and all of its child business units |
-| Organization | Access to all the records in Dynamics 365 for the entire organization. |
+Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines limits on the user's view of data and on the user's interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
 ## Predefined Security Roles for Sales
 
