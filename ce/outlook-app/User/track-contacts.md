@@ -26,6 +26,9 @@ search.app:
 
 Access your Outlook contacts and Dynamics 365 contacts and see which contacts are tracked. You can also link a Outlook contact to an account in your Dynamics 365 app.
 
+To use this add-in option your admin must enable your Dynamics 365 mailbox for appointments, contacts, and tasks.
+
+
    > [!div class="mx-imgBorder"] 
    > ![Select add-in](../media/all-contacts.png)  
  
