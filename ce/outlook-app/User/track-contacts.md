@@ -30,3 +30,8 @@ Access your Outlook contacts and Dynamics 365 contacts and see which contacts ar
 
    > [!div class="mx-imgBorder"] 
    > ![Select add-in](../media/access-add-in.png)  
+
+
+   > [!div class="mx-imgBorder"] 
+   > ![Select add-in](../media/all-contacts.png)  
+
