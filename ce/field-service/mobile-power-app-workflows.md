@@ -23,8 +23,8 @@ search.app:
 Use Microsoft Power Automate flows and the Dynamics 365 workflow engine to create workflows and business processes for technicians using the Field Service (Dynamics 365) mobile app.
 
 For more information, see the following articles: 
-- [Create a flow that uses Microsoft Dataverse](https://docs.microsoft.com/power-automate/common-data-model-intro) 
-- [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)
+- [Create a flow that uses Microsoft Dataverse](/power-automate/common-data-model-intro) 
+- [Create custom business logic through processes](../customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes.md)
 
 Power Automate flows and workflows will trigger when the mobile app is synced with the server and the conditions of the workflow are met. If there is no internet connectivity, use offline JavaScript as seen in the next section.
 
