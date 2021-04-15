@@ -42,7 +42,7 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
     > [!div class="mx-imgBorder"] 
     > ![Set Regarding](../media/set-regarding.gif)
    
-4. When the item is successful tracked and link to the select row, you'll see **Tracked regarding**.  
+4. When the item is successfully tracked and linked to the selected row, you'll see a **Tracked regarding** message.
 
    > [!div class="mx-imgBorder"] 
    > ![Item tracked successfully](../media/track-success.png) 
