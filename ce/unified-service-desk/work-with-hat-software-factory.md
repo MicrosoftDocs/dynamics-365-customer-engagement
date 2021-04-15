@@ -1,8 +1,8 @@
 ---
 title: "Work with the HAT Software Factory in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the HAT Software factory in Unified Service Desk that is used for integrating application and Windows Workflow Foundation automation."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article

@@ -34,7 +34,7 @@ This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_on
 
 ### Use multiple threads  
 
- Add threading support to your application to break up the work across multiple CPUs. This suggestion assumes that you are running your code on a multiprocessor system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [NET Framework Advanced Development Guide article on Managed Threading](https://msdn.microsoft.com/library/3e8s7xdd.aspx).  
+ Add threading support to your application to break up the work across multiple CPUs. This suggestion assumes that you are running your code on a multiprocessor system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [NET Framework Advanced Development Guide article on Managed Threading](/dotnet/standard/threading/).  
 
 ### Allow the system to create GUIDs 
 
@@ -55,7 +55,7 @@ In addition, if your custom code works with thousands of entity records, use of 
 performance than the early-bound entity types. However, this flexibility has a disadvantage because you cannot verify entity and attribute names at compile time. If your entities are already 
 defined at code time and slight performance degradation is acceptable, you should use the early-bound types that you can generate by using the 
 [!INCLUDE[sdk_CodeGenUtility](../includes/sdk-codegenutility.md)] tool. 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Early Bound Entity Classes in Code](org-service/use-early-bound-entity-classes-code.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Early Bound Entity Classes in Code](/powerapps/developer/data-platform/org-service/early-bound-programming#early-boundearly-bound)  
 
 ### Disable plug-ins
 
@@ -238,7 +238,7 @@ process that includes a 'Workflow Expansion Task' and the actual workflow instan
 
 The return value from the `Execute` method is used by the workflow runtime to mark the activity as “completed.” 
 You should use `return base.Execute(executionContext)` unless the activity bypasses base class functionality. Avoid returning `ActivityExecutionStatus.Closed`. 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ActivityExecutionStatus Enumeration](https://msdn.microsoft.com/library/system.workflow.componentmodel.activityexecutionstatus.aspx)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ActivityExecutionStatus Enumeration](/dotnet/api/system.workflow.componentmodel.activityexecutionstatus)  
 
 <a name="how-to-report-exceptions-custom-workflow-activities"></a> 
 ### How should you report exceptions in custom workflow activities?
@@ -264,7 +264,7 @@ Best practices for securing your implementation of Dynamics 365 Customer Engagem
 - Require that all users use strong passwords for their accounts.
 
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](https://technet.microsoft.com/library/hh699825.aspx)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699825(v=crm.8))  
 -->
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 Customer Engagement (on-premises)](../admin/security-concepts.md)  
 
@@ -301,9 +301,9 @@ Best practices for developing server-side code for Dynamics 365 Customer Engagem
 
 For more information about security, see the following topics:
 
-- [Security in Visual Studio](https://msdn.microsoft.com/library/4cftbc6c.aspx)
-- [Secure Coding Guidelines for the .NET Framework](https://msdn.microsoft.com/library/8a3x2b7f.aspx)
-- [Securing ASP.NET Web Sites](https://msdn.microsoft.com/library/91f66yxt.aspx)
+- [Security in Visual Studio](/previous-versions/visualstudio/visual-studio-2015/ide/security-in-visual-studio)
+- [Secure Coding Guidelines for the .NET Framework](/dotnet/standard/security/secure-coding-guidelines)
+- [Securing ASP.NET Web Sites](/previous-versions/aspnet/91f66yxt(v=vs.100))
 
 ### Client-side development
 
@@ -312,9 +312,9 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 - Use web resources instead of pages that require server-side processing whenever possible. If your requirements can only be achieved by using server-side processing, adhere to the requirement that your custom webpages are installed in a separate website from Dynamics 365 Customer Engagement (on-premises). Set the trust level for your site appropriately, depending on your confidence level in the security of your code. This reduces the threat from cross-site scripting and other threats.  
 - For improved security, make sure that your separate website runs on a different account from Dynamics 365 Customer Engagement (on-premises). This account should have the minimum access possible and one that does not have direct access to the Microsoft databases. You can use a complex password that doesn’t expire because no person signs in to this account – only in to your application.
 - Avoid use of [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] controls because they have known security problems.
-- Be aware of the limitations of client scripting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Best practices: Client scripting in Customer Engagement](clientapi/client-scripting-best-practices.md)
+- Be aware of the limitations of client scripting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Best practices: Client scripting in Customer Engagement](/powerapps/developer/model-driven-apps/best-practices/business-logic/)
 - Use plug-ins to apply business logic regardless of how the data changes are made.
-- Always use a confirmation dialog box when you delete records or apply sensitive changes, such as adding a new user to a security role. You can use  [openConfirmDialog](clientapi/reference/Xrm-Navigation/openConfirmDialog.md) to display a dialog. This helps prevent techniques such as click-jacking or UI redressing where a malicious developer may embed your page in a seemingly innocuous page to trick a user into performing actions that may compromise security or perform unwanted actions on data.  
+- Always use a confirmation dialog box when you delete records or apply sensitive changes, such as adding a new user to a security role. You can use  [openConfirmDialog](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openConfirmDialog) to display a dialog. This helps prevent techniques such as click-jacking or UI redressing where a malicious developer may embed your page in a seemingly innocuous page to trick a user into performing actions that may compromise security or perform unwanted actions on data.  
 
 ### Security best practices for your website include the following:
 
@@ -324,7 +324,7 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 
   For more information, see the following:  
 
-- [Overview of Web Application Security Threats](https://msdn.microsoft.com/library/f13d73y6.aspx)  
+- [Overview of Web Application Security Threats](/previous-versions/f13d73y6(v=vs.140))  
 - [Download: Microsoft Anti-Cross Site Scripting Library V4.2](https://www.microsoft.com/download/details.aspx?id=28589)  
 - [ASP.NET Web Application Security](https://msdn.microsoft.com/library/330a99hc.aspx)  
 - [Introduction to Web Application Security](https://msdn.microsoft.com/library/aa711426\(VS.71\).aspx)  

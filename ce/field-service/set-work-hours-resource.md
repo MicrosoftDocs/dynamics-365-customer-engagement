@@ -1,23 +1,22 @@
 ---
 title: Set work hours for a resource (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to set work hours for a resource in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
 ---
 
 # Set work hours for a resource (Customer Service)

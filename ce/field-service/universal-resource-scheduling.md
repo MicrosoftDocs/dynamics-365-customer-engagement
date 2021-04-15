@@ -1,33 +1,32 @@
 ---
 title: "Schedule anything in Dynamics 365 with Universal Resource Scheduling | MicrosoftDocs"
-ms.custom: 
-  - dyn365-projectservice
-  - dyn365-fieldservice
 ms.date: 09/30/2017
-searchScope: 
-  - Customer Service
-  - Field Service
-  - Project Service
-ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - common-scheduler
-ms.tgt_pltfrm: 
 ms.topic: get-started-article
-author: FieldServiceDave
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
-caps.latest.revision: 14
+author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
+ms.reviewer: krbjoran
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 14
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-projectservice
+  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365PS
   - D365FS
+ms.technology: common-scheduler
+searchScope: 
+  - Customer Service
+  - Field Service
+  - Project Service
 ---
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
 

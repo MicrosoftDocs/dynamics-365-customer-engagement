@@ -37,7 +37,7 @@ This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provi
 
 ## What is Azure Cosmos DB?
 
-[!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] is Microsoft's globally distributed multi-model database service for mission-critical applications. It provides rich and familiar SQL query capabilities with consistent low latencies over schema-less JSON data. More information: [Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/azure/cosmos-db/sql-api-introduction)
+[!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] is Microsoft's globally distributed multi-model database service for mission-critical applications. It provides rich and familiar SQL query capabilities with consistent low latencies over schema-less JSON data. More information: [Introduction to Azure Cosmos DB: SQL API](/azure/cosmos-db/sql-api-introduction)
 
 ## Requirements
 
@@ -81,7 +81,7 @@ SQL query filtering supports the following operators.
 - String operators: like, contains, begins with, ends with
 
 > [!NOTE]
-> Usage of the like operator is translated to the equivalent contains/begins with/ends with operators. The  [!INCLUDE [cc-docdb-api-short](../includes/cc-docdb-api-short.md)] does not support pattern arguments as described in the topic [Like (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/language-elements/like-transact-sql). The [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] can translate the single special case Like(‘[aA]%’) to BeginsWith(‘a’) OR BeginsWith(‘A’). Notice that string comparison in the [!INCLUDE [cc-docdb-api-short](../includes/cc-docdb-api-short.md)] is case sensitive.
+> Usage of the like operator is translated to the equivalent contains/begins with/ends with operators. The  [!INCLUDE [cc-docdb-api-short](../includes/cc-docdb-api-short.md)] does not support pattern arguments as described in the topic [Like (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql). The [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] can translate the single special case Like(‘[aA]%’) to BeginsWith(‘a’) OR BeginsWith(‘A’). Notice that string comparison in the [!INCLUDE [cc-docdb-api-short](../includes/cc-docdb-api-short.md)] is case sensitive.
 
 ## Add a data source using the Azure Cosmos DB for SQL API Data Provider
 

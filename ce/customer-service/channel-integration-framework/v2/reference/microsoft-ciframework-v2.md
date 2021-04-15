@@ -1,8 +1,8 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: "Read about the APIs of Dynamics 365 Channel Integration Framework"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/28/2020
 ms.topic: reference

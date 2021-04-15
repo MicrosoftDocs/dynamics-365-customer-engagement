@@ -1,8 +1,8 @@
 ---
 title: "Create a CTI Connector | MicrosoftDocs"
 description: "Learn about the CTI Connector component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. CTI Connector consists of the ICtiControl interface, which includes the CtiHostedControl class containing methods and events that will be called and listened to by the CTI Desktop Manager component."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/25/2019
 ms.topic: article
@@ -20,7 +20,7 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] consists of the [ICtiControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface, which includes the [CtiHostedControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.controls.ctihostedcontrol) class containing methods and events that will be called and listened to by the [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component.
+The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] consists of the [ICtiControl](/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface, which includes the [CtiHostedControl](/dotnet/api/microsoft.uii.desktop.cti.controls.ctihostedcontrol) class containing methods and events that will be called and listened to by the [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component.
 
  [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] supports two models of interaction with CTI systems:
 
@@ -32,7 +32,7 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
 
 <a name="Define"></a>
 ## Define a CTI Connector
- [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] implements the [ICtiControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface. To define a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], use the CRM SDK [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
+ [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] implements the [ICtiControl](/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface. To define a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], use the CRM SDK [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project template. [Download](https://go.microsoft.com/fwlink/p/?LinkId=400925) the **CRM SDK Templates** from the Visual Studio gallery, and double-click the CRMSDKTemplates.vsix file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].
 
 > [!NOTE]
 >  The template works if you have [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] 4.6.2 and [!INCLUDE[pn_microsoft_visual_studio_2012](../includes/pn-microsoft-visual-studio-2012.md)], [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], or [!INCLUDE[pn_visual_studio_2015](../includes/pn-visual-studio-2015.md)]. Additionally, you must have [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](https://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](https://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d).
@@ -52,7 +52,7 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
 
 3. In **Solution Explorer**, right-click the CtiConnector.cs file, and select **View Code** to display the code.
 
-4. Implement the required methods and events. For sample code that demonstrates how to create a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], [download and install the UII SDK](https://go.microsoft.com/fwlink/p/?LinkId=395257), and then browse to the UII\SampleCode\UII\CCA\Source Code\Cti Root folder. For more information about the methods and events to implement for a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], see the [ICtiControl](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface.
+4. Implement the required methods and events. For sample code that demonstrates how to create a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], [download and install the UII SDK](https://go.microsoft.com/fwlink/p/?LinkId=395257), and then browse to the UII\SampleCode\UII\CCA\Source Code\Cti Root folder. For more information about the methods and events to implement for a [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)], see the [ICtiControl](/dotnet/api/microsoft.uii.desktop.cti.core.icticontrol) interface.
 
 5. Save your project, and build it (**Build** > **Build Solution**). After the project builds successfully, an assembly (.dll file) is generated with the same names as your project (unless you changed it in the project properties) in the \bin\debug folder of your project.
 

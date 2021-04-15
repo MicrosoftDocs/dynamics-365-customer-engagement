@@ -23,6 +23,8 @@ search.app:
 
 # Understand security roles used in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Administrators assign licenses to users to grant them permissions for certain applications. [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] users can't be enabled for [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] unless they have a Dynamics 365 license assigned. The first user to have a Game Manager security role assigned by a system admin is required to set up the connection to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].
 
   
@@ -39,7 +41,7 @@ Administrators assign licenses to users to grant them permissions for certain ap
 - **Gamification app access**: Enables gamification users (including Game managers) to access the Gamification app for Unified Interface.
 
 
-[Learn more about security roles and permissions in Dynamics 365 apps.](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges)
+[Learn more about security roles and permissions in Dynamics 365 apps.](/dynamics365/customer-engagement/admin/security-roles-privileges)
 
 To learn more about the permissions of the available security roles, refer to the following table.  
   

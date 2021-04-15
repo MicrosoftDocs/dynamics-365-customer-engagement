@@ -1,8 +1,8 @@
 ---
 title: "Recovering an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering an Internet Explorer process instance"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/06/2018
 ms.topic: article
@@ -16,7 +16,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Recover an Internet Explorer process instance
+# Recover an Internet Explorer process instance (deprecated)
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 

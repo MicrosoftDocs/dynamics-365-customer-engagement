@@ -1,7 +1,8 @@
 
 # [Overview](overview.md)
 # [New and upcoming features](new-upcoming.md)
-# [Getting started with Field Service](user-guide.md)
+# [Field Service user guide](user-guide.md)
+# [Get started](field-service-get-started.md)
 
 # Installation + upgrade
 ## [Field Service installation (web + mobile)](install-field-service.md)
@@ -46,8 +47,11 @@
 ## [Capture resolution details](work-order-resolutions.md)
 ## [Work order completion surveys](work-order-surveys.md)
 
-# Bookable resources
-## [Set up bookable resources](set-up-bookable-resources.md)
+# Frontline workers & bookable resources
+## [Set up frontline workers](frontline-worker-set-up.md)
+## [Email for frontline workers](frontline-worker-set-up-email-approval.md)
+## [Create bookable resources](set-up-bookable-resources.md)
+## [Display a bookable resource on the schedule board](add-resource-schedule-board.md)
 ## [Apply a calendar to a bookable resource](calendar-resource.md)
 ## [Bookable resource categories](set-up-bookable-resource-categories.md)
 ## [Characteristics](set-up-characteristics.md)
@@ -67,6 +71,7 @@
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Booking timestamps + journals](booking-timestamps.md)
+### [Include appointments in scheduling](appointment-scheduling.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
 ### [Analytics dashboard](scheduling-analytics-reports.md)
@@ -77,8 +82,8 @@
 ### [Time constraints](schedule-time-constraints.md)
 ### [Resource preferences](resource-preferences.md)
 ### [Quick scheduling](quick-scheduling.md)
-### [Multi-resource](multi-resource-scheduling-requirement-groups.md)
-### [Multi-day](schedule-multi-day-work.md)
+### [Multiresource](multi-resource-scheduling-requirement-groups.md)
+### [Multiday](schedule-multi-day-work.md)
 ### [Crews](resource-crews.md)
 ### [Pools](resource-pools.md)
 ### [Facilities](facility-scheduling.md)

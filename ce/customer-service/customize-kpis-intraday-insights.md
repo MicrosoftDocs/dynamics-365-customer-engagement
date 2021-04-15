@@ -49,7 +49,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
@@ -105,7 +105,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")

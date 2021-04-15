@@ -239,7 +239,7 @@ You need to approve each user mailbox or queue before that mailbox can process e
     You can find information on recurring issues and other troubleshooting information in [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md).
 
 > [!TIP]
-> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](https://go.microsoft.com/fwlink/p/?linkid=391868).
+> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](/power-platform/admin/when-would-want-use-check-box).
 
 ## Test email configuration for all mailboxes associated with an email server profile
 
@@ -250,7 +250,4 @@ You need to approve each user mailbox or queue before that mailbox can process e
     When you test the email configuration, an asynchronous job runs in the background. It may take a few minutes for the test to be completed. Microsoft Dynamics 365 tests the email configuration of all the mailboxes associated with the Exchange Server profile. For the mailboxes configured with server-side synchronization for synchronizing appointments, tasks, and contacts, it also checks to make sure they’re configured properly.
 
 > [!TIP]
-> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](https://go.microsoft.com/fwlink/p/?linkid=391868).
-
-
-
+> If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](/power-platform/admin/when-would-want-use-check-box).

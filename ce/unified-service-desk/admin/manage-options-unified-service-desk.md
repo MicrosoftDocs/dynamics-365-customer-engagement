@@ -1,8 +1,8 @@
 ---
 title: "Manage options for Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to change the global settings in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/15/2021
 ms.topic: article
@@ -153,6 +153,7 @@ Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes
    |            **Others**            | This option allows you to type one of the global options listed in this table that doesn't appear in the **Global Options** list. | 
 
 ::: moniker-end
+
 
 5. Select **Save**.
 

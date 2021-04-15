@@ -22,6 +22,8 @@ search.app:
 
 # Manage users from Dynamics 365 apps and their security roles
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 When you set up a new game, you need to define which users will be players and which will be fans in your upcoming [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] game. Users from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] are available automatically in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].
 
 
@@ -38,7 +40,7 @@ After users are imported, an administrator can [change the security role](unders
 
 You can delete users from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] by deleting their user accounts in the connected organization. If the user is still active in your organization, you can't remove them in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. 
 
-For step-by-step instructions, see [Delete a user from your organization](https://docs.microsoft.com/office365/admin/add-users/delete-a-user)
+For step-by-step instructions, see [Delete a user from your organization](/office365/admin/add-users/delete-a-user)
 
 ### Remove a deleted user from Gamification
 

@@ -1,8 +1,8 @@
 ---
-title: "Connect to a model-drive app using the Unified Service Desk  client | MicrosoftDocs"
+title: "Connect to a model-driven app using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/16/2020
 ms.topic: article
@@ -92,7 +92,7 @@ To change the timeout value, configure the **SingleSignOnThreshold** UII option 
 
 2. Select **Options**.  
 
-3. On the **Active UII Options** page, select **+ New**.
+3. On the **Active UII Options** page, select **New**.
 
 4. For **Name**, enter **SingleSignOnThreshold**. For **Value**, enter the time in ms.
 
@@ -111,11 +111,14 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 
 2. Select **Options**.  
 
-3. On the **Active UII Options** page, select **+ New**.
+3. On the **Active UII Options** page, select **New**.
 
 4. For **Name**, enter **SingleSignOnEnabledBrowsers**. For **Value**, enter **Chrome**.
 
 5. Select **Save**.
+
+> [!IMPORTANT] 
+> Both Chrome and EdgeWebView2 SSO should not be enabled at a time. If both the browsers are given in the SingleSignOnEnabledBrowsers UII option, SSO will not work. Either Chrome or EdgeWebView2 options should only be given for the UII option. 
 
 ::: moniker-end
 

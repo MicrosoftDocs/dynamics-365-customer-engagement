@@ -1,23 +1,22 @@
 ---
 title: Create a simple selection rule (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to create a simple selection rule in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service)

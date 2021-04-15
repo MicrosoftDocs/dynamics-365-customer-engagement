@@ -1,9 +1,8 @@
 ---
 title: "Set up Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to get and set up Dynamics 365 Sales."
-ms.date: 07-13-2020
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 07/13/2020
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

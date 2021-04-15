@@ -2,13 +2,12 @@
 title: "Enable creation of orders from quotes in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Quickly create orders from quotes in Dynamics 365 Sales Professional so the relevant data is populated from the quote."
 ms.date: 07/21/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-quote
   - D365-Entity-salesorder

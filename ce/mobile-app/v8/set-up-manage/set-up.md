@@ -39,7 +39,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-
 Microsoft Dynamics 365 apps organizations using Dynamics 365 for tablets require the Microsoft Dynamics CRM Online Fall ‘13 release or later.
 
 > [!IMPORTANT]
-> For Dynamics 365 for phones and Dynamics 365 for tablets, Microsoft Dynamics 365 apps (on-premises) deployments require Internet-facing deployment (IFD) for users to access their data. If you have your Microsoft Dynamics 365 apps website available over the internet but it is not using the Microsoft Dynamics 365 apps IFD configuration, it is not supported. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 apps Deployment Manager on your Microsoft Dynamics 365 apps Server. The Authentication Summary section should show that both Claims-Based Authentication and Internet-facing deployment (IFD) are enabled. More information: [Configure IFD for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/dn609803.aspx).
+> For Dynamics 365 for phones and Dynamics 365 for tablets, Microsoft Dynamics 365 apps (on-premises) deployments require Internet-facing deployment (IFD) for users to access their data. If you have your Microsoft Dynamics 365 apps website available over the internet but it is not using the Microsoft Dynamics 365 apps IFD configuration, it is not supported. To verify that your on-premises deployment is configured for IFD, open Microsoft Dynamics 365 apps Deployment Manager on your Microsoft Dynamics 365 apps Server. The Authentication Summary section should show that both Claims-Based Authentication and Internet-facing deployment (IFD) are enabled. More information: [Configure IFD for Microsoft Dynamics 365 apps](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
 
 ![Dynamics 365 apps IFD settings](../../media/crm-ua-moca-claims.png "Dynamics 365 apps IFD settings")
 
@@ -175,7 +175,7 @@ Before your users install the Windows 8.1 app, complete these steps:
   
 6. Close the group policy editor and save your changes.  
   
-   [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](https://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
+   [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](/previous-versions/windows/apps/dn475742(v=win.10)) and [Group Policy](/windows/deployment/deploy-whats-new)  
   
 ### Update the registry on unmanaged mobile devices using a script  
  If your mobile devices are unmanaged, see the following sample [!INCLUDE[pn_PowerShell_short](../../../includes/pn-powershell-short.md)] script that shows how to change the registry on each [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] or later device.  
@@ -566,7 +566,7 @@ else
 Dynamics 365 for phones and Dynamics 365 for tablets users transitioned to Microsoft Dynamics 365 apps on Microsoft Online Services environment will automatically renew their sign-in for **up to**30 days.
 
 ### Microsoft Dynamics CRM 2015 or later (on-premises versions)
-Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later require an [Internet-facing deployment](https://technet.microsoft.com/library/dn609803.aspx).
+Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later require an [Internet-facing deployment](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)).
 
 > [!NOTE]
 > Microsoft Dynamics CRM 2013 or later is required for Dynamics 365 for tablets users to connect to their Microsoft Dynamics 365 apps organization. Organizations that are using earlier versions of on-premises editions of Microsoft Dynamics 365 apps will need to upgrade.
@@ -580,7 +580,7 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
   
 - **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure.  
   
-- **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](https://technet.microsoft.com/library/hh831713.aspx) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../../../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](https://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
+- **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831713(v=ws.11)) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../../../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](https://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
   
 <a name="BKMK_OtherFeatures"></a>   
 ## Other features  

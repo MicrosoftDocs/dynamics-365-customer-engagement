@@ -2,7 +2,7 @@
 title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 description: About support for Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 2/12/2021
+ms.date: 4/14/2021
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -24,22 +24,29 @@ search.app:
 ---
 # What's supported
 
-Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-professional/help-hub), [Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/customer-service/help-hub), and [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/marketing/help-hub)), built on Microsoft Dataverse on your mobile device. 
+Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.md)), built on Microsoft Dataverse on your mobile device. 
 
 To do this, install the Dynamics 365 for phones or tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], or Windows 10 devices. 
   
 ## Supported devices for the mobile app
+
   
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|---------------|
-|       [iOS](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)       | 12.4.9 or later  |     1 GB (2 GB recommended)     
-|     [Android](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
-| [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8) |      10       |     2 GB (4 GB recommended)                     
+|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 12.4.9 or later  |     1 GB (2 GB recommended)     
+|     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
+                
  
+## Supported device for Microsoft Dynamics 365 (Preview) 
+ |                              Platform                              |   Versions    | RAM (minimum)  | 
+|--------------------------------------------------------------------|---------------|---------------|
+|       [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)       | 10 |     1 GB (4 GB recommended)     
+
+  
   
 ## Install the app 
 
-To install the app see, [Install the app from your device’s app store](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets#install-the-app-from-your-devices-app-store).
+To install the app see, [Install the app from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store).
 
 
 ## Supported tablets to run customer engagement apps in a web browser 
@@ -80,9 +87,9 @@ Customer engagement apps running on a web browser on an iOS or Android tablet pr
   
 - [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)] presence  
   
-- Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](../customize/create-design-forms.md).  
+- Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](../customerengagement/on-premises/customize/create-design-forms.md).  
 
-For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](../admin/web-application-requirements.md).
+For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](/power-platform/admin/web-application-requirements).
 
 ## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] 
 
@@ -136,23 +143,23 @@ When the application first loads after installation, it will determine the devic
 
 ## Deprecated and unsupported platforms
 
-- Effective April 2021, the old [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
+- Effective April 2021, the old [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
   > [!NOTE]
-  > There is a new app for Windows: [Basic navigation for Dynamics 365 (Preview) app for Windows](https://docs.microsoft.com/dynamics365/mobile-app/windows-mobile-app). 
+  > There is a new app for Windows: [Basic navigation for Dynamics 365 (Preview) app for Windows](./windows-mobile-app.md). 
 
 - As of April 1, 2021, the mobile app will no longer support iOS 11, Android 6 and Android 7.0. The minimum Android version will be 7.1.1 and the minimum iOS version will be 12.4.9.
 
 - As of December 1, 2019, the mobile app will no longer support iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
 
 - As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
-](https://docs.microsoft.com/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
+](/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 
 - On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported to run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing).
 
   
 ### See also  
  [Set up and manage tablets and phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)   
- [Web application requirements for Dynamics 365 apps](../admin/web-application-requirements.md)   
+ [Web application requirements for Dynamics 365 apps](/power-platform/admin/web-application-requirements)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,6 +20,13 @@ search.app:
 
 # Resource scheduling optimization version history
 
+## 3.3.0.108
+
+- Improved predictive travel time user experience. Allows users to distinguish bookings that used predictive travel (and thus have more accurate travel time that includes historical traffic) from those that did not.
+- Fixed bug in which 401 error was thrown in creation of account and contact records after Field Service autoupdate. Error message: "The remote server returned an error: (401) Unauthorized."
+- Fixed bug in which “Something went wrong. Try reloading the page. If you still see this message, please contact your administrator to file a support request" when trying to display booking tool tip view on the new schedule board. This would occur when hovering over any booking. 
+
+
 ## 3.2.3.3
 -	Fixed bug: a hard and virtually locked booking that was out of scope would show up as a create operation in the optimization request booking tab. Optimization request bookings are created for virtually locked bookings if resource scheduling optimization has something to change. If there is nothing to change, the record should not be created. 
 
