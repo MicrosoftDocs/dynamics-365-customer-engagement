@@ -24,6 +24,8 @@ search.app:
 ---
 # Overview for players and fans in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 First things first—you need to sign in to your [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] profile. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Sign in to Gamification](sign-in.md)  
   
  Next, add a [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] profile picture so the other players can recognize you. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Set up your profile](set-up-profile.md)  
