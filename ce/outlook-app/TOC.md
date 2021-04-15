@@ -14,7 +14,7 @@
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
 ## [What's suppported](user/support-matrix.md)
 ## [Basic navigation in App for Outlook](user/basic-navigation.md)
-## [Link an email message or appointment to a specific row](user/track-message-or-appointment.md)
+## [Link an email or appointment to a specific row](user/track-message-or-appointment.md)
 ## [FAQs about email tracking](user/faq-email-tracking.md)
 ## [Create a new contact, lead, or account](user/add-email-recipient-as-a-row.md)
 ## [Add a phone call, appointment, or task activity](user/add-activities.md)
