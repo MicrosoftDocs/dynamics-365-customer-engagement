@@ -1,5 +1,5 @@
 ---
-title: "How to close live work items - sample code| Microsoft Docs"
+title: "How to close live work items or deactivate queue items - sample code| Microsoft Docs"
 description: "Sample code to close live work items or deactivate queue items"
 author: mh-jaya
 ms.author: v-jmh
@@ -17,7 +17,7 @@ search.app:
   - D365CS
 ms.reviewer: nenellim
 ---
-# How to close live work items
+# How to close live work items or deactivate queue items
 
 You can use the following sample code to trigger the closure of live work items by deactivating the associated queue item. You can modify the sample code to suit the needs of your organization.
 
