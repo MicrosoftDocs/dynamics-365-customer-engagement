@@ -22,7 +22,7 @@ search.app:
   - D365Outlook
 ---
 
-## Supported setup for Dynamics 365 App for Outlook
+## What's suppported to use Dynamics 365 App for Outlook
 
 The following are the supported envioments to use Dynamics 365 App for Outlook.
 
