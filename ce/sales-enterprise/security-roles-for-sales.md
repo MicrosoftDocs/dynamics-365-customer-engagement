@@ -1,5 +1,5 @@
 ---
-title: "Security Roles for Sales (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Predefined Security Roles for Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Predefined Security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system."
 ms.date: 04/16/2021
 ms.service: dynamics-365-sales
@@ -15,11 +15,9 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Security Roles
+# Predefined Security Roles for Sales
 
 Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines limits on the user's view of data and on the user's interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
-
-## Predefined Security Roles for Sales
 
 The predefined security roles for Sales include permissions and access levels that the default sales personas will need. For example, the Sales Manager and Salesperson security roles can be associated with the respective users in your organization. As a system administrator, you can verify the permissions and access levels granted for each role and modify it to suit your needs. For more information, see [Create or edit a security role](/power-platform/admin/create-edit-security-role).
 
