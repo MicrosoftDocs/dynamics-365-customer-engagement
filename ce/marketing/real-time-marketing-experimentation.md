@@ -68,3 +68,9 @@ The journey will usually run the entire test automatically. It starts by sending
 - **Ended**: These are tests are completed by finding a winner via statistical significance or timed out when scheduled to end through a date and time.  They cannot be reused. 
 
 ## Understand your results
+
+There are three possible A/B test result outcomes:
+
+1. **Test concluded with a clear winner**: The test concluded that one version is performing significantly better than the other. The winning version has a “winner” badge and is distributed to any new customers that funnel through the journey.
+1. **Test was not conclusive**: The test concluded that recipients are as likely to engage with version A as they would engage with version B. In this case, the default version is sent to any new customers that funnel through the journey.
+1. **The test was stopped**: This means that you or one of your coworkers stopped the test before it could conclude. In this case, the version specified by you or your coworker is sent to any new customers that funnel through the journey.
