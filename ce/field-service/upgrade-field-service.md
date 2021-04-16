@@ -33,7 +33,7 @@ Multiple Field Service updates are released every year.
 
 Though it is rare, occasionally a critical "hot fix" will be released outside of the monthly minor updates or the bi-yearly major updates.
 
-The details of upcoming major and minor releases are listed in the [upcoming release plans](https://docs.microsoft.com/dynamics365/release-plans/) once they are committed. As an example, April 2020 release plans will include major and minor updates from November 2019 through April 2020; and October 2020 release plans will include major and minor updates from May 2020 through October 2020.
+The details of upcoming major and minor releases are listed in the [upcoming release plans](/dynamics365/release-plans/) once they are committed. As an example, April 2020 release plans will include major and minor updates from November 2019 through April 2020; and October 2020 release plans will include major and minor updates from May 2020 through October 2020.
 
 
 ### How do I upgrade my environment?
@@ -89,7 +89,7 @@ To understand what version of the Field Service solution is in your environment,
 ### Best practices
 
 1. Before upgrading your production instance of Field Service, make a copy of the production instance and upgrade the copy first. Then test your business processes to understand consequences and upgrade the actual production instance after.
-2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because it's upgrading to the [Unified Client Interface (UCI)](https://docs.microsoft.com/power-platform/admin/about-unified-interface). For more information, see the [Field Service UCI Upgrade Playbook](https://aka.ms/fsuciupgrade). 
+2. Upgrading from Field Service version 7.x to 8.x is considered a major upgrade because it's upgrading to the [Unified Client Interface (UCI)](/power-platform/admin/about-unified-interface). For more information, see the [Field Service UCI Upgrade Playbook](https://aka.ms/fsuciupgrade). 
 3. If your organization is using Project Service Automation along with Field Service, it is recommended to upgrade both at the same time or soon after each other due to shared functionality.
 4. Editing out-of-the-box web resources is unsupported and can cause functional issues after upgrading. You can use [Solution Health Hub](./troubleshoot-field-service-solution-health.md) to understand if web resources have been edited.
 
@@ -100,7 +100,7 @@ To understand what version of the Field Service solution is in your environment,
 
 There are two steps to upgrade the Field Service (Dynamics 365) mobile app.
 
-**Step 1.** Upgrade Field Service (as described in the previous section). Upgrading Field Service will also upgrade the "Field Service Mobile" model-driven app. For example, upgrading to [Field Service v8.8.32.59](https://docs.microsoft.com/dynamics365/field-service/version-history#883259) includes an update to Field Service and the Field Service mobile app.
+**Step 1.** Upgrade Field Service (as described in the previous section). Upgrading Field Service will also upgrade the "Field Service Mobile" model-driven app. For example, upgrading to [Field Service v8.8.32.59](./version-history.md#883259) includes an update to Field Service and the Field Service mobile app.
 
 **Step 2.** After Field Service is upgraded, you must upgrade the mobile app on your mobile phone or tablet. You can do this the same way you upgrade any app on your phone or tablet, either manually or with automatic updates.
 
@@ -131,7 +131,7 @@ If the diagnostic tool flags any web resources that should not have been edited,
 
 ### Plan for updated Universal FetchXML (UFX) queries
 
-Occasionally, Resource Scheduling releases will include updates to the Universal FetchXML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. For more information, see the article on [schedule board tab settings](https://docs.microsoft.com/dynamics365/field-service/schedule-board-tab-settings#other-settings).
+Occasionally, Resource Scheduling releases will include updates to the Universal FetchXML (UFX) queries that control how resources and requirements are fetched and loaded on the schedule board or in schedule assistant results. For more information, see the article on [schedule board tab settings](./schedule-board-tab-settings.md#other-settings).
 
 For example, a new version of Resource Scheduling may add a new resource filter to the left panel of the schedule board. To make this update possible, the update will come with a new UFX query for the **Retrieve Resources Query** as seen in the screenshot below.
 
@@ -194,7 +194,7 @@ As an example, downloading Field Service Mobile from the Windows Store can allow
 
 ### Step 2: Upgrade the mobile configuration tool (Woodford) solution
 
-To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](https://docs.microsoft.com/dynamics365/field-service/mobile-faq-latest-version) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
+To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](./mobile-faq-latest-version.md) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
  
 
 ### Step 3: Upgrade the mobile project template.

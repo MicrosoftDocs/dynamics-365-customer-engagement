@@ -20,6 +20,8 @@ search.app:
 ---
 # Let other players know about your time off in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 If you’re going to be out of the office during any period of the game&mdash;for example, on vacation, a business trip, or at a conference&mdash;make sure to set or update your time-off schedule. This ensures that other players can't draft you during these periods, and that players who currently have you on their team will be able to choose temporary replacements.  
   
 ## Set or update your time-off schedule

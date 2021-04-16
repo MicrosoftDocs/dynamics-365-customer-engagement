@@ -137,7 +137,7 @@ The following capabilities were included with the October 2017 update to Field S
  
  **Field Service**
  
- - **Field Resource Hub app for field techs**: With this app, field technicians can do basic tasks on their phone or tablet, such as view upcoming appointments, view and edit bookings, and mark service tasks complete. For more information, check out the [Field Resource Hub User's Guide](../field-service/field-resource-hub-users-guide.md)
+ - **Field Resource Hub app for field techs**: With this app, field technicians can do basic tasks on their phone or tablet, such as view upcoming appointments, view and edit bookings, and mark service tasks complete. For more information, check out the [Field Resource Hub User's Guide](./field-service-mobile-app-user-guide.md)
 
 - **Easily find and assign another resource for a booking on the schedule board.** If the original resource is unavailable, right-click the booking and choose **Substitute Resource** to find another resource. The system automatically checks the original resource requirement for the booking and finds a substitute resource that fits the requirement.
 
@@ -146,7 +146,7 @@ The following capabilities were included with the October 2017 update to Field S
    ![Substitute Resource on the schedule board](../field-service/media/substitute_resource.png "Substitute Resource on the schedule board") 
  
 **Project Service Automation**
- - **Project Resource hub**: The Project Resource Hub app lets resources use their phone or tablet to enter time and expenses for projects. For more information, check out the [Project Resource Hub User's Guide](../project-service/project-resource-hub-users-guide.md)
+ - **Project Resource hub**: The Project Resource Hub app lets resources use their phone or tablet to enter time and expenses for projects. For more information, check out the [Project Resource Hub User's Guide](/dynamics365/project-operations/psa/project-resource-hub-users-guide)
  
 **Connected Field Service**
  - **Use your existing Azure resources to provision Connected Field Service.** Do this by importing devices that are registered in Azure IoT hub into Dynamics 365. You can also use existing resource groups to provision required Azure resources. The following Azure resources can be used with Connected Field Service: 
@@ -191,7 +191,7 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
 ### See also  
  [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)   
- [Dynamics 365 Project Service Automation - User's Guide](../project-service/admin-guide.md)
+ [Dynamics 365 Project Service Automation - User's Guide](/dynamics365/project-operations/psa/admin-guide)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,7 +28,7 @@ Field Service inspections are digital forms that technicians use to quickly and 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
 
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-advanced.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
 
@@ -123,7 +123,7 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 ### Compact question view
 
 > [!Note]
-> The compact question view feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+> The compact question view feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
 
 Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
@@ -266,7 +266,7 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
 
 > [!Note]
-> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/field-service-mobile-app-user-guide#step-3-import-the-mobile-project-template).
+> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](./field-service-mobile-app-user-guide.md#step-3-import-the-mobile-project-template).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile configurator, showing the list of projects.](media/inspections-fsm-mobile-project.png)

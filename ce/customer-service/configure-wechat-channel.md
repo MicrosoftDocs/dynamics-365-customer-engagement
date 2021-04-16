@@ -48,7 +48,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
    2. In **Account details**, enter the following information:
     - **Original ID:** Specify the WeChat account number.
     - **Developer ID (AppID):** Specify the WeChat Developer ID.
-    - **Developer password (AppSecret):**Specify the WeChat Developer password.
+    - **Developer password (AppSecret):** Specify the WeChat Developer password.
     - **Token:** Specify the WeChat token.
     - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
 
