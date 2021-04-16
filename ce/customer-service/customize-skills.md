@@ -1,6 +1,6 @@
 ---
-title: "Customize skills on any form| Microsoft Docs"
-description: "Learn how to customize skills on any form"
+title: "How to customize form to view skills on a routed record| Microsoft Docs"
+description: "Learn how to customize any form to view skills on a routed record"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -17,7 +17,7 @@ search.app:
   - D365CS
 ms.reviewer: nenellim
 ---
-# How to customize skills on any form
+# How to customize forms to view skills on any routed record
 
 Dynamics 365 ships a control that you can embed in any of your forms. 
 Say you have a case form where you want to add a **Skills** control, here are the steps to add the skill update control on the case form:
@@ -36,13 +36,13 @@ Say you have a case form where you want to add a **Skills** control, here are th
    In the **Field Properties** dialog box, on the **Display** tab, enter a label name for the field.
 
 7. Select the **Control** tab, click **Add Controls**, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the drop-down list and select **OK**.
-
+             << need a screenshot here>>
 8. Save and publish the form.
     
 
 ### See also
 
-[Overview of unified routing](overview-unified-routing.md)
+[Overview of unified routing](overview-unified-routing.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing](set-up-routing-process.md)  
