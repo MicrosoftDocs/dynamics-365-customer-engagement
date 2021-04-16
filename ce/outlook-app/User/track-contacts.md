@@ -78,12 +78,23 @@ Follow the steps below to link and track your Outlook contacts to a row in your 
    > [!div class="mx-imgBorder"] 
    > ![Choose a contact in your app to link to](../media/link-outlook-contact-2.png) 
 
-4.  To avoid issues, until the tracking is complete before navigate away from the page. 
+4.  To avoid issues, until the linking is complete before you navigate away from the page. 
 
 ## Track Outlook contacts without linking them to an account
 
 You can track a single or multiple contacts from Outlook in your Dynamics 365 app without linking it to an account row.
 
+1. From **Outlook Contacts**, select a contact(s) that is not already tracked.
+2. On the command bar, select **Track**.
+
    > [!div class="mx-imgBorder"] 
    > ![Demo of how to track a Outlook contact in your app.](../media/track-without-linking.gif) 
+   
+3. To avoid issues, until the tracking is complete before you navigate away from the page. 
 
+## Untrack contacts
+
+Users can untrack contacts. In that case, they will be prompted to choose between
+
+- **Untrack & Delete**: Deletes the of the contact record in Dynamics 365, if the user has sufficient privileges.
+- Untrack & Keep – This will result in the contact record remaining Dynamics 365.
