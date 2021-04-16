@@ -33,12 +33,11 @@ To use this add-in option your admin must enable your Dynamics 365 mailbox for a
    > ![Select add-in](../media/all-contacts.png)  
  
 Legend
-1. **Outlook Contacts**: View all your Outlook contacts. The same contacts are displayed in the default contacts view in Dynamics 365.
-2. **Dynamics 365 Contacts**: View all your Dynamics 365 contacts.
-3. **Tracked**: See whether a contact is tracked or not, or whether tracking status is pending.
-4. **Company**: Select to open a Dynamics 365 account record.
-5. **Business Phone**: Select the number to dial the number.
-6. **Email**: Select to view detail about the email address and compose a new email.
+1. **Outlook Contacts**: View all your Outlook contacts. The same contacts are displayed in the default contacts view your Dynamics 365 app.
+2. **Dynamics 365 Contacts**: View all your Dynamics 365 app contacts.
+3. **Tracked**: See whether a contact is tracked or not, or whether the tracking status is pending.
+4. **Company**: If the contact is tracked, select to open the row in your app.
+
 
 ## Access contacts
 
