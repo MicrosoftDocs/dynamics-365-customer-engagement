@@ -58,8 +58,24 @@ In the contacts list, select **Dynamics 365 Contacts** and then select the check
 
 ## Track Outlook contacts 
 
-Depending on the [server-side synchronization filters](power-platform/admin/choose-records-synchronize-dynamics-365-outlook-exchange.md), the active contacts that the user owns in Dynamics 365 should be synchronized to Outlook after the mailbox is configured.
+Depending on the [server-side synchronization filters](/power-platform/admin/choose-records-synchronize-dynamics-365-outlook-exchange.md), the active contacts that the user owns in your app should be synchronized to Outlook after the mailbox is configured. A user can track a single or multiple contacts from Outlook to your Dynamics 365 app. 
 
+   > [!div class="mx-imgBorder"] 
+   > ![Demo of how to link a Outlook contact to a row in your app.](../media/link-outlook-contact-3.gif) 
+
+
+Follow the steps below to link and track your Outlook contacts to a row in your app.
+
+1. From **Outlook Contacts**, select a contact(s) that is not already tracked.
+3. On the command bar, select **Link**.
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![Link an Outlook contact](../media/link-outlook-contact.png) 
+ 
+5. Chose the row that you want to link the contact(s) with and then select elect **Link**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Choose a contact in your app to link to](../media/link-outlook-contact-2.png) 
 
 
 
