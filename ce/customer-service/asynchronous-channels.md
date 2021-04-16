@@ -10,28 +10,31 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
-# Asynchronous channel support
+# Live chat and asynchronous channels support
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Card support
+## Card support for live chat and asynchronous channels
 
-The following cards are supported across different channels.
+The following cards are supported across different channels when you're using bots.
 
-| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | |
-|----------|---------------|-----------|--------------|----------------|-------------|------------|
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  
-| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  
-| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |   
-| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
+| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | CardCarousel|
+|----------|---------------|-----------|--------------|----------------|-------------|------------|----|
+| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          | ✔  |
+| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✔|
+| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | ✔|
+|live chat             | ✔           |         |     |               |    |                                     |✔ |
+| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | |
+| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | ✔* |
+
 
 > [!Note]
 >
 > - The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
-> - The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.
-> - Video card support can be achieved by adding the video URL in the adaptive card.
-> - Date input element, animations element are not supported in the adaptive card 
+> - The Direct Line channel supports all the cards mentioned in the table, but it's up to the client to implement them.
+> - Video card support can be achieved by adding the video URL in the adaptive card. <!--Neeraja: Confirm with Girish which statement is true because in the table that you've added, one row indicates that no video/audio is supported. -->
+> - Date input element, animations element are not supported in the adaptive card.
+> - Card carousel is not supported in Direct Line on Android devices.
 
 ✔: Supported: Card is supported fully with the exception that some channels support a subset of Card Actions. They might limit the number of actions allowed on each card. Varies by channel.
 
@@ -57,10 +60,7 @@ For more information, see the following:
 | -------- | ------ | ---------- | -------- | ------- | ------- | ----------- | ----------- | ----------- | 
 | Date input element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ |
 | Animations element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
-| CardCarousel elements are not supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Audio card and Media card elements are not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
-| Suggested actions are not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |✖ | ✖ | ✔ |
-| CardCarousel elements are not supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Some markdown elements are not supported | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
 | Receipt card element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ |
 | Sign in card element is not supported for some channels | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | 
