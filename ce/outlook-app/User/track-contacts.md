@@ -103,3 +103,12 @@ You can also untrack a contact and choose to delete the contact's information fr
 
    > [!div class="mx-imgBorder"] 
    > ![Untrack a contact](../media/untrack-contact.png) 
+
+
+## Filter contacts
+
+From the **Dynamics 365 Contacts** tab, you can access the same contact views that you you see in your Dynamics 365 app. However, if one of these views includes a column from a related table, then that view won't be displayed.
+
+- From the **Dynamics 365 Contacts** tab, the view drop-down menu and then select a view.
+   > [!div class="mx-imgBorder"] 
+   > ![Change view](../media/change-contact-view.png) 
