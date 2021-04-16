@@ -66,7 +66,7 @@ Make sure that the following prerequisites are met:
    - **Name:** Specify a name for the channel.
    - **Owner:** Accept the default value, or specify a different value.
 
-3. In **Step 2: Work distribution**, select the out-of-the-box work stream for Teams. Alternatively, you can create a [work stream](work-streams-introduction.md) for Teams and associate it with the Teams channel.
+3. In **Step 2: Work distribution**, select the out-of-the-box work stream for Teams. Alternatively, you can create a [work stream](create-workstreams.md) for Teams and associate it with the Teams channel.
 
 4. Select **Save**. The Teams channel is saved.
 
@@ -94,7 +94,7 @@ Make sure that the following prerequisites are met:
 
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
 
-       To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](https://docs.microsoft.com/microsoftteams/platform/resources/bot-v3/bots-files).
+       To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](/microsoftteams/platform/resources/bot-v3/bots-files).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
@@ -111,6 +111,9 @@ Make sure that the following prerequisites are met:
 4. Make sure that you've configured the options in **App details**.
 
 5. Select **Test and distribute**, and then select **Install** to test your app.
+
+  > [!NOTE]
+  > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 ### See also
 

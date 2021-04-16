@@ -23,6 +23,8 @@ search.app:
 ---
 # Schedule weekly or one-time emails in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Send weekly updates on the leaderboards or announce award winners by using scheduled email capabilities in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. A commissioner or game manager can schedule weekly or one-time emails to be sent to any user involved in a game. This feature is particularly helpful to keep your players engaged if you don't stream the leaderboard to a screen in your office.
 
 ## Manage scheduled emails
