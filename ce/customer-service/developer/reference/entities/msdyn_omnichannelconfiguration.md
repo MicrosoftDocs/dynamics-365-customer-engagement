@@ -1,22 +1,23 @@
 ---
-title: "msdyn_omnichannelconfiguration Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration entity."
-ms.date: 03/31/2021
-ms.service: "crm-online"
+title: "msdyn_omnichannelconfiguration table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity."
+ms.date: 04/16/2021
+ms.service: "powerapps"
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
-manager: "shujoshi"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
 ---
-# msdyn_omnichannelconfiguration Entity Reference
+# msdyn_omnichannelconfiguration table/entity reference
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
+> [!NOTE]
+> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 Configuration for Omnichannel
 
 **Added by**: Omnichannel - Base Patch Solution
@@ -34,7 +35,7 @@ Configuration for Omnichannel
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -52,9 +53,9 @@ Configuration for Omnichannel
 
 <a name="writable-attributes"></a>
 
-## Writable attributes
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_defaultAgentInputLanguage](#BKMK_msdyn_defaultAgentInputLanguage)
@@ -67,6 +68,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_EnableRealTimeTranslation](#BKMK_msdyn_EnableRealTimeTranslation)
 - [msdyn_enablesoundnotifications](#BKMK_msdyn_enablesoundnotifications)
 - [msdyn_inactive_presence_lookup](#BKMK_msdyn_inactive_presence_lookup)
+- [msdyn_isdefaultpersonamapped](#BKMK_msdyn_isdefaultpersonamapped)
 - [msdyn_ispersonalizationofsoundenabled](#BKMK_msdyn_ispersonalizationofsoundenabled)
 - [msdyn_isPersonalMessagesEnabled](#BKMK_msdyn_isPersonalMessagesEnabled)
 - [msdyn_ispersonasecurityrolemappingenabled](#BKMK_msdyn_ispersonasecurityrolemappingenabled)
@@ -114,7 +116,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_defaultAgentInputLanguage Options
+#### msdyn_defaultAgentInputLanguage Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -177,7 +179,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enable_advance_entity_routing Options
+#### msdyn_enable_advance_entity_routing Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -200,7 +202,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enable_missed_notifications Options
+#### msdyn_enable_missed_notifications Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -223,7 +225,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_enable_supervisor_assign Options
+#### msdyn_enable_supervisor_assign Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -246,7 +248,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_enable_supervisor_monitor Options
+#### msdyn_enable_supervisor_monitor Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -271,7 +273,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enable_unified_routing_diagnostic Options
+#### msdyn_enable_unified_routing_diagnostic Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -294,7 +296,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_enable_visitorjourney Options
+#### msdyn_enable_visitorjourney Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -317,7 +319,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_EnableRealTimeTranslation Options
+#### msdyn_EnableRealTimeTranslation Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -340,7 +342,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enablesoundnotifications Options
+#### msdyn_enablesoundnotifications Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -365,6 +367,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_isdefaultpersonamapped"></a> msdyn_isdefaultpersonamapped
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|isdefaultpersonamapped|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isdefaultpersonamapped|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_isdefaultpersonamapped Choices/Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_ispersonalizationofsoundenabled"></a> msdyn_ispersonalizationofsoundenabled
 
 |Property|Value|
@@ -377,7 +402,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_ispersonalizationofsoundenabled Options
+#### msdyn_ispersonalizationofsoundenabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -400,7 +425,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isPersonalMessagesEnabled Options
+#### msdyn_isPersonalMessagesEnabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -423,7 +448,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_ispersonasecurityrolemappingenabled Options
+#### msdyn_ispersonasecurityrolemappingenabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -448,7 +473,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_IsSkillBasedRoutingEnabled Options
+#### msdyn_IsSkillBasedRoutingEnabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -473,7 +498,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_IsUpdateSkillsEnabled Options
+#### msdyn_IsUpdateSkillsEnabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -496,7 +521,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_maskforagent Options
+#### msdyn_maskforagent Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -519,7 +544,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_maskforcustomer Options
+#### msdyn_maskforcustomer Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -621,7 +646,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -642,7 +667,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -684,9 +709,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
@@ -1016,5 +1041,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[About the Entity Reference](../about-entity-reference.md)<br />
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
+<xref href="Microsoft.Dynamics.CRM.msdyn_omnichannelconfiguration?text=msdyn_omnichannelconfiguration EntityType" />
