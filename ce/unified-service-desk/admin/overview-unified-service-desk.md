@@ -1,8 +1,8 @@
 ---
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
 description: "Get started with Unified Service Desk"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: hero-article
@@ -53,3 +53,6 @@ tags: MigrationHO
  [Call center challenges and how Unified Service Desk can help?](../../unified-service-desk/admin/call-center-challenges-how-unified-service-desk-can-help.md)
 
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

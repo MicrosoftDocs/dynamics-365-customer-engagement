@@ -2,14 +2,13 @@
 title: "Find your way around the Sales Hub app | MicrosoftDocs"
 description: "Learn how to get around and navigate through the Sales Hub app."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: get-started-article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: brycho
 ms.custom: 
   - dyn365-sales
-ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
-manager: brycho
 ---
 
 # Find your way around the Sales Hub app
@@ -31,3 +30,6 @@ customer records, your calendar, and settings. You'll also find quick access to 
 
 ![Sales Hub menu options](media/saleshubnav2.png "Sale Hub menu options")
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

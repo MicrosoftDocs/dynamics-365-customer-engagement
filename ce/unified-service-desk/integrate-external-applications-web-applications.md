@@ -1,8 +1,8 @@
 ---
 title: "Integrate with external applications and web applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about integrating with external application and web application n Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -52,3 +52,6 @@ Use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interfac
  [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)  
   
  [Programming reference](../unified-service-desk/programming-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

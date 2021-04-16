@@ -23,6 +23,8 @@ search.app:
 
 # Overview for commissioners and game managers in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 As with any software application, the tool itself doesn’t make you successful. It needs to be used and set up the right way to achieve the best results. Before you get started setting up your first game in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] and organizing a competition for your teams, there are a few things to keep in mind:  
   
 First things first&mdash;you need to install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] from [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] and make sure users have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] license assigned. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution in Dynamics 365 apps](manage-gamification-in-dynamics-365-online.md)  
@@ -38,3 +40,6 @@ Get started with setting up your first game. [!INCLUDE[proc_more_information](..
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)   
  [Install and configure the Gamification solution in Dynamics 365 apps](manage-gamification-in-dynamics-365-online.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

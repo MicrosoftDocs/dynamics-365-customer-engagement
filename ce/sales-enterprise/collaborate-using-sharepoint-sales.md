@@ -2,14 +2,13 @@
 title: Collaborate using SharePoint in Dynamics 365 Sales | Microsoft Docs
 description: Learn how to collaborate using SharePoint within a model-driven app for leads and opportunities
 ms.date: 12/05/2019
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
+  - "dyn365-sales"
 ---
 
 # Collaborate using SharePoint 
@@ -121,3 +120,6 @@ When you select one or more documents in the Documents list, you can take the fo
 ### See also
 
 [SharePoint, OneNote, and OneDrive integration with Common Data Service](/powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

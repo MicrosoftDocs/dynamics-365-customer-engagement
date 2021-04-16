@@ -294,7 +294,7 @@ foreach (Contact contact in nonHikers.Entities)
 
 ## Create a multi-select picklist with code
 
-The easiest way to create a multi-select picklist is to use the attribute editor in the customization tools. More information [Create and edit fields](../../../customize/create-edit-fields.md)
+The easiest way to create a multi-select picklist is to use the attribute editor in the customization tools. More information [Create and edit fields](../customize/create-edit-fields.md)
 
 But if you need to automate creation of this kind of attribute you can use C# code like the following with the organization service which creates a multi-select picklist to allow choices of outdoor activities to the `contact` entity. More information [Create attributes](/powerapps/developer/common-data-service/org-service/metadata-attributemetadata#create-attributes)
 
@@ -334,8 +334,11 @@ But if you need to automate creation of this kind of attribute you can use C# co
 
 ### See also
 [Introduction to entity attributes](introduction-entity-attributes.md)<br />
-[Create an entity using the Web API](webapi/create-entity-web-api.md)<br />
-[Query Data using the Web API](webapi/query-data-web-api.md)<br />
-[Work with attribute metadata](org-service/work-attribute-metadata.md)<br />
+[Create an entity using the Web API](/powerapps/developer/data-platform/webapi/create-entity-web-api)<br />
+[Query Data using the Web API](/powerapps/developer/data-platform/webapi/query-data-web-api)<br />
+[Work with attribute metadata](/powerapps/developer/data-platform/org-service/metadata-attributemetadata)<br />
 [Sample: Work with attribute metadata](org-service/sample-work-attribute-metadata.md)<br />
-[Use the early-bound entity classes for create, update, and delete](org-service/use-early-bound-entity-classes-create-update-delete.md)
+[Use the early-bound entity classes for create, update, and delete](/powerapps/developer/data-platform/org-service/organizationservicecontext)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

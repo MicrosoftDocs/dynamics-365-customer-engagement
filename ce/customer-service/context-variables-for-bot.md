@@ -4,7 +4,7 @@ description: "Context variables to use when configuring a bot in Omnichannel for
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/04/2021 
+ms.date: 03/24/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -26,7 +26,7 @@ The following table contains the list of variables in Omnichannel for Customer S
 >
 > - The context variable names are used as is and not changed when you author flows in Power Virtual Agents or Azure bots.
 > - The length of the context variable names must be 200 characters or less.
-> - The value that is passed to the context variable must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
+> - Use exact match to pass the value to the context variable because it is case sensitive. Also, the value must be 4,000 characters or less so that the conversation can be successfully escalated to agents.
 
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents | How to map in Azure |
 |-----|-----|-------|-------|-----|
@@ -47,6 +47,7 @@ Make sure that you have the following details:
 - The Omnichannel context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
 - The schema details. A copy of the sample schema details is as follows.
 
+```
         Schema: 
         {
             "type": "array",
@@ -66,6 +67,7 @@ Make sure that you have the following details:
                 ]
             }
         }
+```
 
 "PrimaryDisplayValue" will contain the value from the attribute in the Dataverse entities. The mapping for the entity attributes is as follows:
 
@@ -96,3 +98,6 @@ The following steps explain how to configure a Power Automate flow to parse the 
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

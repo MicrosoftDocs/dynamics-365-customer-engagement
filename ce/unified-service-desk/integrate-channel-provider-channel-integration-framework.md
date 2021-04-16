@@ -1,8 +1,8 @@
 ---
 title: "Integrate channel using Channel Integration Framework (CIF) | MicrosoftDocs"
 description: "Learn how to integrate channel provider like softphone, message, bots, and so on with Unified Service Desk client application using the Channel Integration Framework."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/10/2019
 ms.topic: article
@@ -41,3 +41,6 @@ Based on your organization requirements, you must create actions and attach them
 
 - [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)
 - [Create a Channel Integration Framework hosted control](create-channel-integration-framework-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

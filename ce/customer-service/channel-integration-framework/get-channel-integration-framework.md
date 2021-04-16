@@ -1,8 +1,8 @@
 ---
 title: "Get Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
 description: "Learn how to download, install, and set up Dynamics 365 Channel Integration Framework version 1.0."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: get-started-article
@@ -33,3 +33,6 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 ## See also
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework version 1.0](sample-softphone-integration.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

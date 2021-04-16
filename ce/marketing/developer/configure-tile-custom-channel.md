@@ -143,13 +143,13 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>ComplianceField</td>
-    <td>Contains a boolean attribute of the <a href="../../developer/entities/contact.md" data-raw-source="[Contact](/powerapps/developer/common-data-service/reference/entities/contact)">Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
+    <td>Contains a boolean attribute of the <a href="/dynamics365/customerengagement/on-premises/developer/entities/contact" data-raw-source="[Contact](/powerapps/developer/common-data-service/reference/entities/contact)">Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
     
-    For example, if you set the value of this element to <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
+    For example, if you set the value of this element to <a href="/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
 
     <code>&lt;ComplianceField&gt;donotphone&lt;/ComplianceField&gt;</code>
  
-    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a> attribute for the contact record is <b>false</b>.
+    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the <a href="/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a> attribute for the contact record is <b>false</b>.
     </td>
     </tr>
     <tr>
@@ -244,3 +244,6 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 > [Step 3: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

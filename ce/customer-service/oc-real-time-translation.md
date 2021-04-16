@@ -46,3 +46,6 @@ The following image shows a sample screenshot of the customer experience.
 
 [View a customer summary](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

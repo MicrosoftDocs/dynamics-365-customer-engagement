@@ -1,8 +1,8 @@
 ---
 title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
 description: ""
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -32,3 +32,6 @@ applies_to:
 [onsendkbarticle](../events/onsendkbarticle.md)
 
 [onsizechanged](../events/onsizechanged.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Known issues of performance enhancement for CRM entity page loads | MicrosoftDocs"
 description: "Learn about the known issues of the Internet Explorer pooling feature."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/15/2018
 ms.topic: article
@@ -52,3 +52,6 @@ If the session tab does not have the close button, you must close the [!INCLUDE[
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
  
 [Performance enhancement for CRM entity page loads](../admin/performance-enhancement-CRM-entity-page-loads.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

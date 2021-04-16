@@ -171,3 +171,6 @@ Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) wit
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
  [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

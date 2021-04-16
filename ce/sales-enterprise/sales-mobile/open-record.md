@@ -25,7 +25,7 @@ You can [view details](#view-details) and [edit records and entities](#edit-reco
 > [!NOTE]
 > - The fields that you see on the compact form are defined in the quick view form of the entity.
 > - The lightweight view doesn't include all attributes of the entity.
-> - This is a lightweight form that contains any attributes defined in the first form on quick view form set order. More information: [Set the form order](https://docs.microsoft.com/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
+> - This is a lightweight form that contains any attributes defined in the first form on quick view form set order. More information: [Set the form order](/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 
 You can view the details of records in the following ways: 
 
@@ -89,9 +89,12 @@ The following reminder insight cards are supported:
 </tr>
 </table>   
 
-To learn more about insight cards, go to [Insight cards reference](https://docs.microsoft.com/dynamics365/ai/sales/action-cards-reference).  
+To learn more about insight cards, go to [Insight cards reference](/dynamics365/ai/sales/action-cards-reference).  
 
 ## See also
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

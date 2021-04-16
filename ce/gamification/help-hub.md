@@ -23,6 +23,8 @@ search.app:
 
 # Gamification help and training
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 <table>
 <tr>
 <td>
@@ -83,3 +85,6 @@ search.app:
 </td>
 </tr>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,7 +32,7 @@ Send surveys and questionnaires to customers when a work order is completed to l
 
 Create a survey that you would like to send once a work order in complete.
 
-If you're an existing Dynamics 365 Customer Voice user, use [https://forms.office.com](https://forms.office.com) to sign in. To purchase Forms Pro licenses, see the article: [Purchase Microsoft Forms Pro](https://docs.microsoft.com/forms-pro/purchase).
+If you're an existing Dynamics 365 Customer Voice user, use [https://forms.office.com](https://forms.office.com) to sign in. To purchase Forms Pro licenses, see the article: [Purchase Microsoft Forms Pro](/forms-pro/purchase).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Forms Pro showing the my forms screen.](./media/work-order-survey-new-form.png)
@@ -98,3 +98,6 @@ A few minutes after the work order system status becomes **Open - Completed** or
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image of a phone showing the emailed survey.](./media/work-order-survey-email-receive.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

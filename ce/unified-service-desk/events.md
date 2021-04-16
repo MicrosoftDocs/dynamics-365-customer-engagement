@@ -1,8 +1,8 @@
 ---
 title: "Events in Unified Service Desk | MicrosoftDocs"
 description: "Events in Unified Service Desk are notifications that a hosted control can trigger to indicate to the application that something is occurring. You can assign action calls to an event that you want to run when an event occurs, and the action calls will be executed in the order that is defined in the Order field of the event definition."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -27,3 +27,6 @@ Events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   
  [Action calls](../unified-service-desk/action-calls.md)   
  [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

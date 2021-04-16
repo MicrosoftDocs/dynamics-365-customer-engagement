@@ -2,11 +2,10 @@
 title: "Admin settings overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn about the settings to configure your Sales Hub app."
 ms.date: 04/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -38,3 +37,6 @@ The Overview page opens. The Overview page is a landing page that consolidates a
 [Set up enhanced email](set-up-enhanced-email.md)  
 [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)  
 [Enable or disable PDF generation from sales records](enable-pdf-generation-quote.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

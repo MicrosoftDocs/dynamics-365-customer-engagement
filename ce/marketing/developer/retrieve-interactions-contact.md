@@ -180,3 +180,5 @@ OData-Version: 4.0
 
 [Data protection and the GDPR](../gdpr.md)   
 [Preview: Prepare for analytic reporting with Power BI](../custom-analytics.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

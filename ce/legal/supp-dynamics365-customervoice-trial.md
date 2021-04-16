@@ -93,3 +93,5 @@ termination of your relationship with Microsoft. For the avoidance of doubt, any
 damages arising from the obligations imposed on you by these Supplemental Terms
 are not subject any exclusion or cap on your liability that may be included in
 the Agreement.
+
+

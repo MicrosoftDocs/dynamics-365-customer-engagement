@@ -1,8 +1,8 @@
 ---
 title: "Send authentication token | Microsoft Docs"
 description: "Read how you can pass an authentication token to Omnichannel for Customer Service"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/3/2020
 ms.topic: reference
@@ -83,3 +83,6 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 [removeAuthTokenProvider](developer/reference/methods/removeAuthTokenProvider.md)<br />
 [JavaScript API reference](developer/omnichannel-reference.md)<br />
 [Manage custom context](send-context-starting-chat.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,15 +2,14 @@
 title: "Associate documents with playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_playbookinstance
   - D365-Entity-msdyn_playbookactivity
@@ -27,7 +26,7 @@ For example, create a playbook template that sales reps can follow when the deci
 
 ## Prerequisites
 
-So that you can add documents, make sure that document management for the playbook activity entity is enabled. Document Management must also be enabled for playbook activity and all the entities to which documents must be copied, that is, task, appointment, and phone call. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](../admin/enable-sharepoint-document-management-specific-entities.md), [Set up SharePoint integration](../admin/set-up-sharepoint-integration.md).
+So that you can add documents, make sure that document management for the playbook activity entity is enabled. Document Management must also be enabled for playbook activity and all the entities to which documents must be copied, that is, task, appointment, and phone call. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable SharePoint document management for specific entities](/power-platform/admin/enable-sharepoint-document-management-specific-entities), [Set up SharePoint integration](/power-platform/admin/set-up-sharepoint-integration).
 
 ## Add documents 
 
@@ -43,7 +42,7 @@ So that you can add documents, make sure that document management for the playbo
     > [!div class="mx-imgBorder"]  
     > ![Documents tab on the Playbook activity form](media/documents-tab-on-playbook-activity-form.png "Documents tab on the Playbook activity form")
 
-3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents](../basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
+3.	Select **Upload** to add documents that a sales rep might need while working on this playbook activity. The documents are stored on the configured SharePoint site. For more information about working with documents, see [Manage your SharePoint documents](../customerengagement/on-premises/basics/manage-sharepoint-documents-document-locations-in-dynamics-365-apps.md).
 
 
 > [!NOTE]
@@ -54,3 +53,6 @@ So that you can add documents, make sure that document management for the playbo
 ### See also
 [Manage playbook templates](manage-playbook-templates.md)  
 [Enforce best practices with playbooks](enforce-best-practices-playbooks.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

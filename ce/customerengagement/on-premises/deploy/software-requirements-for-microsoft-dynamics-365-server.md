@@ -46,7 +46,7 @@ This topic lists the software and application requirements for this version of [
   
  
 ### Server Core installations  
- With the exception of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_Help_Server](../includes/pn-help-server.md)] and [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] roles, you can install any [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)] server role on a Server Core installation of [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)]. Server Core is a minimal server installation option for the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] family of operating systems. Server Core provides a low-maintenance server environment with limited functionality. For more information about Server Core as implemented on [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)], see [Server Core for Windows Server 2016](https://docs.microsoft.com/windows-server/get-started/sconfig-on-ws2016)  
+ With the exception of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_Help_Server](../includes/pn-help-server.md)] and [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] roles, you can install any [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)] server role on a Server Core installation of [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)]. Server Core is a minimal server installation option for the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] family of operating systems. Server Core provides a low-maintenance server environment with limited functionality. For more information about Server Core as implemented on [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)], see [Server Core for Windows Server 2016](/windows-server/get-started/sconfig-on-ws2016)  
   
 > [!IMPORTANT]
 >  To install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on a Server Core [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)], you must run Setup in silent mode from the command line. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the command prompt to install Microsoft Dynamics 365 Server](use-command-prompt-install-dynamics-365-server.md)  -->
@@ -138,7 +138,7 @@ This topic lists the software and application requirements for this version of [
     -   Encryption certificates. The following encryption certificates are required. You can use the same encryption certificate for both purposes, such as when you use a wildcard certificate:  
   
         > [!IMPORTANT]
-        >  If you use a certificate that is created by using a custom certificate request, the template that was used must be the **Legacy key** template. Custom certificate requests created by using the **CNG key** template are incompatible with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about custom certificate request templates, see [Create a Custom Certificate Request](https://technet.microsoft.com/library/cc730929.aspx).  
+        >  If you use a certificate that is created by using a custom certificate request, the template that was used must be the **Legacy key** template. Custom certificate requests created by using the **CNG key** template are incompatible with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about custom certificate request templates, see [Create a Custom Certificate Request](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730929(v=ws.11)).  
   
         -   Claims encryption. Claims-based authentication requires identities to provide an encryption certificate for authentication. This certificate should be trusted by the computer where you are installing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] so it must be located in the local Personal store where the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] is running.  
   
@@ -152,7 +152,7 @@ This topic lists the software and application requirements for this version of [
   
 -   SQL word breakers  
   
-     This is only required for some [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] language editions. For more information about word breaker versions for languages supported by [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Configure and Manage Word Breakers and Stemmers for Search](https://go.microsoft.com/fwlink/p/?linkid=127754).  
+     This is only required for some [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] language editions. For more information about word breaker versions for languages supported by [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Configure and Manage Word Breakers and Stemmers for Search](/sql/relational-databases/search/configure-and-manage-word-breakers-and-stemmers-for-search).  
   
 -   [!INCLUDE[pn_SQL_Server_Agent](../includes/pn-sql-server-agent.md)] service  
   
@@ -202,3 +202,6 @@ This topic lists the software and application requirements for this version of [
  [Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)   
  [Microsoft Dynamics 365 Customer Engagement (on-premises) reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

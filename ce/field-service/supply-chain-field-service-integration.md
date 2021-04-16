@@ -22,7 +22,7 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-While Dynamics 365 Field Service includes basic [inventory capabilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their Enterprise Resource Planning (ERP) systems. Organizations using the Microsoft Dynamics 365 stack will find it easy to integrate Dynamics 365 Field Service and [Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/) systems. 
+While Dynamics 365 Field Service includes basic [inventory capabilities](./inventory-purchasing-returns-overview.md) for managing technician truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their Enterprise Resource Planning (ERP) systems. Organizations using the Microsoft Dynamics 365 stack will find it easy to integrate Dynamics 365 Field Service and [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/) systems. 
 
 Leveraging Common Data Model and Common Data Service in Dynamics 365, you can set up a synchronous two-way integration for the following entities, with more entities planned: 
 
@@ -96,14 +96,17 @@ As the last part of the process, a purchase order is created in Field Service wi
 
 - Dual-write allows organizations to integrate Supply Chain Management with Common Data Service, even without Field Service. 
 
-- The dual-write integration described in this article is separate and more robust than the previously released [prospect to cash](https://docs.microsoft.com/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator that is one-direction, batch, asynchronous, and does not respect business rules and validations. 
+- The dual-write integration described in this article is separate and more robust than the previously released [prospect to cash](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) data integrator that is one-direction, batch, asynchronous, and does not respect business rules and validations. 
 
 ## See also
 
-- [Overview of Dynamics 365 Field Service inventory capabilities](https://docs.microsoft.com/dynamics365/field-service/inventory-purchasing-returns-overview)
+- [Overview of Dynamics 365 Field Service inventory capabilities](./inventory-purchasing-returns-overview.md)
 
-- [Customer assets in Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/configure-set-up-customer-assets)
+- [Customer assets in Dynamics 365 Field Service](./configure-set-up-customer-assets.md)
 
-- [Pricing in Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/create-price-list) 
+- [Pricing in Dynamics 365 Field Service](./create-price-list.md) 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

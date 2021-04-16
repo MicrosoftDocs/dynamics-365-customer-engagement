@@ -22,8 +22,11 @@ ms.author: matp
   
  For the multiple language features to continue working, you must follow these steps:  
   
-1.  Complete the upgrade. For on-premises versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], complete both [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and organization upgrades. For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], make sure that your organization has been updated to the appropriate version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage updates](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-updates)  
+1.  Complete the upgrade. For on-premises versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], complete both [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and organization upgrades. For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], make sure that your organization has been updated to the appropriate version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage updates](/dynamics365/customer-engagement/admin/manage-updates)  
   
 2.  Upgrade the Language Packs to corresponding [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Language Packs.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install and enable a Language Pack](../deploy/install-and-enable-a-language-pack.md)  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

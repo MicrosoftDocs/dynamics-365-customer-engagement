@@ -22,3 +22,6 @@ ms.author: matp
   
  Make sure that you can connect to the website by using the specified URL. For example, enter the URL into a web browser to verify that you can connect. You must resolve any issues that may be preventing the connection and then try again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,6 +58,19 @@ With predictive travel enabled, resource scheduling optimization will generate a
 > [!Note]
 > Running an optimization with predictive travel time may change the order of the bookings to optimize objectives and constraints. Additionally, it may increase the runtime for the engine to optimize the requirements and bookings.
 
+As of Field Service version 8.8.40.x+ (2021 Wave 1 release) and resource scheduling optimization version 3.3.0.108+, bookings that utilized predictive travel will have a blue dot next to the travel time, as shown in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of predictive travel time indicator on booking and booking card.](./media/PredictiveTravel-UX1-ScheduleBoard.png)
+
+Hovering on a booking with predictive travel time will also show this indicator in the booking card in the **Estimated Travel Duration** field, along with a _(with historical traffic)_ suffix and informational link. The legend explains this indicator as well.
+
+Additionally, the booking form includes a **Travel Time Calculation** field in the **Resource Scheduling Optimization** tab, which is set to _Bing Maps with historical traffic_ for bookings with predictive travel times. Resource scheduling optimization administrators can use this to report and quantify volume of bookings that did and did not use historical traffic, and then refine scopes accordingly to improve overall business metrics. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of booking form with travel time calculation field.](./media/PredictiveTravel-UX2-BookingForm.png)
+
+
 ## Configuration considerations
 
 - Predictive travel times that use historical data is a feature only available for scheduling with resource scheduling optimization. Predictive travel is not currently supported for the schedule assistant or manual scheduling.
@@ -75,3 +88,6 @@ With predictive travel enabled, resource scheduling optimization will generate a
 - Running resource scheduling optimization with predictive travel times can result in different travel times and different sequences of schedules.
 
 - Predictive travel time is not real-time traffic, so they will not reflect one-time events like traffic accidents or road closures. Instead, this feature will take into account general traffic patterns like high volumes of cars in the morning when many people are commuting to work.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

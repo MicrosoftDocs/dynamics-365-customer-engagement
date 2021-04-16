@@ -109,3 +109,6 @@ Select the **First Name** property with the description and select the pencil ic
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)     
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

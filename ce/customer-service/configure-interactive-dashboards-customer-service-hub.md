@@ -1,6 +1,6 @@
 ---
-title: Configure interactive dashboards in the Customer Service Hub | Microsoft Docs
-description: Know how to configure interactive dashboards in Dynamics 365 Customer Service.
+title: "Customize interactive dashboards that are based on Unified Interface | Microsoft Docs"
+description: "Know how to configure interactive dashboards in Dynamics 365 Customer Service."
 author: neeranelli
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
@@ -19,7 +19,7 @@ search.app:
   - D365CS
 ---
 
-# Configure interactive dashboards in the Customer Service Hub
+# Customize interactive dashboards that are based on Unified Interface
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -42,7 +42,8 @@ The interactive dashboards come in two flavors:
 - Single-stream dashboards
   
 ### Multi-stream dashboard standard view  
- In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
+
+In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
   
  ![Multistream interactive dashboard](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
   
@@ -72,7 +73,8 @@ The interactive dashboards come in two flavors:
  ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
   
 ## Configure filter fields and security roles for the interactive dashboards
- When you configure interactive dashboards, your first task is to enable fields and security roles, so that interactive dashboards can be configured for them. Note, that interactive dashboards are now enabled for all entities and custom entities by default.
+
+When you configure interactive dashboards, your first task is to enable fields and security roles, so that interactive dashboards can be configured for them. Note, that interactive dashboards are now enabled for all entities and custom entities by default.
 
 To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
 
@@ -80,7 +82,8 @@ To know more about how to enable custom entities, see [Enable custom entities in
 > All customization tasks for the Customer Service Hub must be done in Microsoft Dataverse.
   
 ### Configure filter fields  
- For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
+
+For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
 
 - Appears in global filter in interactive experience
 - Sortable in interactive experience dashboard
@@ -133,9 +136,10 @@ The following illustration shows the flyout dialog with the list of the availabl
 ![Sort by dropdown list](media/sort-field.png "Sort by dropdown list") 
   
 ### Enable security roles  
- Select and enable security roles that will be able to view the interactive dashboards.  
+
+Select and enable security roles that will be able to view the interactive dashboards.  
   
- #### To enable the security roles  
+#### To enable the security roles  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -151,11 +155,10 @@ The following illustration shows the flyout dialog with the list of the availabl
 
    ![Choose to enable security role](media/choose-enable-security-role.png "Choose to enable security role")
 
-   ![Enable security roles](media/security-roles.png "Enable security roles")
-
-  
+     
 ## Configure interactive dashboards  
- The following sections describe how to configure various types of interactive dashboards.  
+
+The following sections describe how to configure various types of interactive dashboards.  
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout
   
@@ -300,3 +303,6 @@ Similarly, if you go to the **Priority** field to modify the colors of the case 
 [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](customer-service-hub-user-guide-dashboard.md) <br>
  [Create and edit dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)   <br>
  [Create or edit a chart](../basics/create-edit-chart.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

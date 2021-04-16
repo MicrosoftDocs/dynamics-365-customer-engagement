@@ -1,8 +1,8 @@
 ---
 title: "UII actions in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UII actions in Unified Service Desk that define a specific operation that can be performed when called."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -26,3 +26,6 @@ UII action is a concept inherited from [!INCLUDE[pn_user_interface_integration](
  [Action calls](../unified-service-desk/action-calls.md)   
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)   
  [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

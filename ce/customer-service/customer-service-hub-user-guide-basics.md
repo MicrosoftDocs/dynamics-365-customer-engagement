@@ -9,6 +9,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
+
 # Learn the basics of the Customer Service Hub
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
@@ -204,7 +205,7 @@ To create a new site, you need to go to **Advanced find** ![Advanced find](media
 
 ### Related section
 
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps. For information, see [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
   
@@ -349,3 +350,6 @@ To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find
 
 [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

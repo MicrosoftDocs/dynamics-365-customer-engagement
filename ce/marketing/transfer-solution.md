@@ -23,11 +23,11 @@ search.app:
 Dynamics 365 is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox environment, test them, and then transfer the final customizations to your production environments when they're ready. Best practices recommend that you proceed as follows:
 
 1. [Create a copy](manage-marketing-environments.md#copy-to-sandbox) of your current production environment onto a sandbox environment where you can work without affecting your ongoing operations.
-1. [Create a new managed solution](https://docs.microsoft.com/powerapps/maker/common-data-service/create-solution) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
+1. [Create a new managed solution](/powerapps/maker/common-data-service/create-solution) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
 1. Test the customized solution on your sandbox until you've confirmed it's working correctly.
-1. [Export](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) the custom solution from your sandbox and then [Import](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions) it on your production environment.
+1. [Export](/powerapps/maker/common-data-service/import-update-export-solutions) the custom solution from your sandbox and then [Import](/powerapps/maker/common-data-service/import-update-export-solutions) it on your production environment.
 
-For general information about creating and working with solutions, see the links in the previous procedure and also the [Solutions overview](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview). For a full example procedure, see the following sections.
+For general information about creating and working with solutions, see the links in the previous procedure and also the [Solutions overview](/powerapps/maker/common-data-service/solutions-overview). For a full example procedure, see the following sections.
 
 ## Example procedure part 1: Create a custom solution
 
@@ -157,7 +157,9 @@ To import a solution:
 ### See also
 [Manage your Marketing environments](manage-marketing-environments.md)  
 [Transfer data between environments](transfer-data.md)  
-[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
-[Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)  
-[Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
-[Import, update, and export solutions](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)
+[Administer Power Apps](/power-platform/admin/admin-guide)  
+[Environments overview](/power-platform/admin/environments-overview)  
+[Move configuration data across environments and organizations](/power-platform/admin/manage-configuration-data)  
+[Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

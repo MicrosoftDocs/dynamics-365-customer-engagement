@@ -1,10 +1,10 @@
 ---
 title: "Create message templates in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to create message templates in Omnichannel for Customer Service."
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 07/20/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -18,34 +18,25 @@ Message templates enable the one-time creation of reusable messages that can be 
 
 To create a message template:
 
-1. Log in to the Omnichannel Administration app. 
+1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Message templates**. If you're using the Omnichannel Administration app, under **Settings**, select **Message templates**.
 
-2. Under **Settings**, click **Message templates**.
+2. Select **New**, and enter the following details:
 
-3. Click **New**.
+    - **Name:** Enter a name.
+    - **Channel:** Select a channel (SMS or Twitter).
+    - **Default language:** Select a language.
+    - **Default text:** Enter the default text for the message.
 
-4. Enter a name.
+3. Select **Save**. After saving the template, the **Message template** panel appears.
 
-5. Select a channel (SMS or Twitter).
-
-6. Enter a description.
-
-    > [!div class=mx-imgBorder]
-    > ![Create a new message template](media/message-template.png "Create a new message template")
-
-7. Click **Save**. After saving the template, the **Message template** panel appears. 
-
-    > [!div class=mx-imgBorder]
-    > ![Create a new message](media/message-template2.png "Create a new message")
-
-8. Click **New message** and create a message using localized text in each language you want to support.
+4. Select **New message** and create a message using localized text in each language that you want to support.
 
     > [!div class=mx-imgBorder]
     > ![Create localized text of new message](media/message-template3.png "Create localized text of new message")
     
     Message templates support the following slugs.  
 
-    | Slug | Description | 
+    | Slug | Description |
     |-----------------|-----------------------------|
     | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
     | {LastName{Customer}}| The last name of the customer.|
@@ -57,7 +48,7 @@ To create a message template:
 
       For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
     
-9. Click **Save & Close** to see your localized message appear in the list of message templates.
+9. Select **Save & Close** to see your localized message appear in the list of message templates.
 
 ## See also
 
@@ -65,3 +56,6 @@ To create a message template:
 [Configure an SMS channel for TeleSign](configure-sms-channel.md) <br />
 [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md) <br />
 [Configure a WhatsApp a channel through Twilio](configure-whatsapp-channel.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

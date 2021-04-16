@@ -204,5 +204,8 @@ See more on how to detect duplicates during Create and Update operation in [Mana
 ### See also  
  [Duplicate Detection](detect-duplicate-data-for-developers.md)   
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)   
- [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md)   
+ [Use Messages (Request and Response Classes) with the Execute Method](/powerapps/developer/data-platform/org-service/use-messages)   
  [Duplicate Detection Messages](duplicate-detection-messages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

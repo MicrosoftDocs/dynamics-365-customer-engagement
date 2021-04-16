@@ -2,8 +2,7 @@
 title: "msdyn_playbookactivityattribute EntityType | MicrosoftDocs"
 description: "Entity reference for msdyn_playbookactivityattribute EntityType"
 ms.date: 04/08/2019
-ms.service: 
-  - crm-online
+ms.service: crm-online
 ms.topic: article
 author: susikka
 ms.author: susikka
@@ -50,3 +49,6 @@ Properties represent fields of data stored in the entity. Some properties are re
 ### See also
 
 [Entity reference for playbooks](../playbook-entity-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

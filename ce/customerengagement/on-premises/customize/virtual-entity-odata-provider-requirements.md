@@ -81,7 +81,7 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
    - **OData v4 Data Provider**. Your environment includes an Odata v4 data provider that can be used to connect to data sources that support the OData v4 open standard.  
 
-   - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
+   - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](/dynamics365/?panel=developer_sales#pivot=developer)  
 
 4. On the New Data Source properties page, complete the following fields, and then save the record.  
 
@@ -91,7 +91,7 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
    - **Timeout in seconds**. Enter the number of seconds to wait for a response from the web service before a data request time-out. For example, enter 30 to wait a maximum of thirty seconds before a time-out occurs.  
 
-   - **Pagination mode**. Select whether to use client-side or server-side paging to control how query results are paged. The default value is client-side paging. With server-side paging, the server controls how results are paged by using the $skiptoken parameter, which is added to the query string. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skip Token System Query Option ($skiptoken)](https://msdn.microsoft.com/library/dd942121.aspx)  
+   - **Pagination mode**. Select whether to use client-side or server-side paging to control how query results are paged. The default value is client-side paging. With server-side paging, the server controls how results are paged by using the $skiptoken parameter, which is added to the query string. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skip Token System Query Option ($skiptoken)](/openspecs/windows_protocols/ms-odata/4dda9434-c2c5-4577-8e01-7bf9e822d90a)  
        -  **Return inline count**. Returns the total number records in the result set. This setting is used to enable next page functionality when you return data to a grid. Use a value of false if your OData endpoint doesn't support the OData $inclinecount parameter. The default value is false.
 
    - **Request Parameters**. Optionally, you can add custom header or query string parameters used to connect to the OData web service, such as authentication parameters to the external service. Select **Query String** to toggle between header and query string parameter and value. Up to 10 header or query strings can be added.  
@@ -102,4 +102,7 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 ### See also  
 
 [Create and edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md) <br/>
-[TechNet Blog: Interact with data from external systems using the new virtual entities](https://blogs.technet.microsoft.com/lystavlen/2017/09/08/virtual-entities/)
+[TechNet Blog: Interact with data from external systems using the new virtual entities](/archive/blogs/lystavlen/virtual-entities)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

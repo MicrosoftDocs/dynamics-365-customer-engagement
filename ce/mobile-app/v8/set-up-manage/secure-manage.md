@@ -47,10 +47,10 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
   
 -   [Microsoft Intune](https://www.microsoft.com/server-cloud/products/microsoft-intune/)  
   
--   [Documentation for Microsoft Intune](https://technet.microsoft.com/library/jj676587.aspx)  
+-   [Documentation for Microsoft Intune](/mem/intune/)  
   
 ## Set up  conditional access to Dynamics 365 apps  
- You can use [!INCLUDE[pn_ms_System_Center_Config_Mgr_short](../../../includes/pn-ms-system-center-config-mgr-short.md)] conditional access to manage access to [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](https://technet.microsoft.com/library/dn919655.aspx).  
+ You can use [!INCLUDE[pn_ms_System_Center_Config_Mgr_short](../../../includes/pn-ms-system-center-config-mgr-short.md)] conditional access to manage access to [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] from mobile devices based on conditions you specify. For more information about setting up conditional access, see [Conditional Access in Configuration Manager](/previous-versions/system-center/system-center-2012-R2/dn919655(v=technet.10)).  
   
 > [!NOTE]
 >  To use conditional access, you must have an Azure Active Directory premium subscription.
@@ -70,14 +70,14 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
 
 2. Within the Good Control server, add connection URLs to the allowed list. Any domain that the app needs to access for connection or content must be in the **Allowed Domains** list.
 
-   If you're using an on-premises deployment, see [Configure a Microsoft Dynamics 365 apps Internet-facing deployment](https://technet.microsoft.com/library/hh699814.aspx).
+   If you're using an on-premises deployment, see [Configure a Microsoft Dynamics 365 apps Internet-facing deployment](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699814(v=crm.8)).
   
 3. Send users the email address and access key they will need to set up the app, or set up another secured application to act as an authentication delegate.  
   
 ### What users need to do  
  Users should update to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] application. On the Apple App store, the latest version is 1.1. On the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809) or Good Control Console, the latest version is listed as 1.1.0.  
   
- Direct your users to [Secure your mobile data with Microsoft Dynamics 365 apps for Good](https://go.microsoft.com/fwlink/p/?LinkID=525026)  
+ Direct your users to [Secure your mobile data with Microsoft Dynamics 365 apps for Good](../../../customerengagement/on-premises/basics/basics-guide.md)  
   
 ### Install [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)]  
  The app is listed in the [Good Dynamics Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=524809) and can be downloaded from the [Apple App Store](https://go.microsoft.com/fwlink/p/?LinkId=524762).  
@@ -134,3 +134,6 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
   
 - Contact [Good Technology](https://www1.good.com/) regarding the specific support that can be provided with your suite/pricing, as well as the correct server setup for your needs and situation.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

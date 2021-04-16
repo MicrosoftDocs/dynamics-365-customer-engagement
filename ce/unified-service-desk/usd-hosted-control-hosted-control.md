@@ -1,8 +1,8 @@
 ---
 title: "USD Hosted Control (Hosted Control) | MicrosoftDocs"
 description: "Learn about the USD Hosted Control."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/17/2020
 ms.topic: article
@@ -28,3 +28,6 @@ Use the **USD Hosted Control** type of hosted control to create custom hosted co
 ### See also
 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

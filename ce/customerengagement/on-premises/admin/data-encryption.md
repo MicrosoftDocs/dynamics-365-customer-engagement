@@ -60,7 +60,10 @@ Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL
 6. As a best practice, save the text file that contains the encryption key on a computer in a secure location on an encrypted hard drive.  
   
 ### See also  
- [SQL Server Encryption](https://technet.microsoft.com/library/bb510663.aspx)   
- [FIPS 140 Evaluation](https://technet.microsoft.com/library/cc750357.aspx)   
+ [SQL Server Encryption](/sql/relational-databases/security/encryption/sql-server-encryption)   
+ [FIPS 140 Evaluation](/windows/security/threat-protection/fips-140-validation)   
  [Manage Your Data](../admin/manage-your-data.md)   
  [Manage configuration data](manage-configuration-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,7 +48,7 @@ Before working with templates, make sure you have the required privileges to cre
     > [!div class=mx-imgBorder]
     > ![Choose language](media/ka-choose-language.png "Choose language")
  
-5.	On the **New Knowledge Article Template** page, enter the values for the required fields that you want to pre-populate when the template is selected.<!-- 
+5.	On the **New Knowledge Article Template** page, enter the values for the required fields that you want to pre-populate when the template is selected. 
 
     |Section|Field|Description|
     |-------|-----|-----------|
@@ -99,6 +99,9 @@ KnowledgeManagement.CommandBarActions.Instance.knowledgeArticle_onload
 
 10. Select **Save**, and then select **Publish**.
 
-## See also
+### See also
 
 [Create knowledge articles using templates](customer-service-hub-user-guide-knowledge-article.md#create-knowledge-articles-using-templates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

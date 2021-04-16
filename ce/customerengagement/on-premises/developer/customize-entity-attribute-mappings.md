@@ -102,7 +102,7 @@ For more information see [Create a new entity from another entity](/powerapps/de
 
 ## Retrieve the entity and attribute mappings
 
- An easy way to see the mappings that have been created is to use the following FetchXML query. For more information on how to run this query, see [Use FetchXML to Construct a Query](org-service/use-fetchxml-construct-query.md).
+ An easy way to see the mappings that have been created is to use the following FetchXML query. For more information on how to run this query, see [Use FetchXML to Construct a Query](/powerapps/developer/data-platform/use-fetchxml-construct-query).
 
 ```xml
 
@@ -122,3 +122,6 @@ For more information see [Create a new entity from another entity](/powerapps/de
 
  [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Create and edit entity relationships: Mapping Entity Fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

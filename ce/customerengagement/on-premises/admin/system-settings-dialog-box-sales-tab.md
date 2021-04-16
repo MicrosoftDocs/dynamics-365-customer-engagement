@@ -3,10 +3,9 @@ title: "System Settings dialog box - Sales tab  | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 10/01/2019
-ms.service:
-  - crm-online
+ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 08b3057d-03ad-41d0-a6b3-4770add682b2
@@ -70,3 +69,6 @@ Use the settings on this page to configure system-level settings for the sales a
  [Create product bundles to sell multiple items together](../../../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)   
  [Use properties to describe a product](../../../sales-enterprise/use-properties-describe-product.md)  
  [Administrator and Sales Manager Guide](../../../sales-enterprise/admin-guide.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -25,7 +25,7 @@ search.app:
 
 ## Why did I receive an email or Message Center notification about a Field Service update?
 
-Roughly once a month, Field Service pushes a standard update to customers on Field Service version 8.8.6 and higher. A message is sent each month prior to this update highlighting that an update is planned. For more information on this update, see our [documentation](https://docs.microsoft.com/dynamics365/field-service/upgrade-field-service#when-are-field-service-updates-released) on the different kinds of Field Service updates and [when Field Service updates are planned](https://docs.microsoft.com/dynamics365/field-service/version-history#latest-version-availability).
+Roughly once a month, Field Service pushes a standard update to customers on Field Service version 8.8.6 and higher. A message is sent each month prior to this update highlighting that an update is planned. For more information on this update, see our [documentation](./upgrade-field-service.md#when-are-field-service-updates-released) on the different kinds of Field Service updates and [when Field Service updates are planned](./version-history.md#latest-version-availability).
 
 The other type of update messages that some may have received highlights that one or more of your environments are on a version of Field Service lower than 8.8.6. This message advises that you need to upgrade your environment as soon as possible or Microsoft will conduct the update for you. Be sure to take action as soon as possible.
 
@@ -106,7 +106,7 @@ You can resolve this issue by following the steps outlined below. The attribute 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the troubleshooting pathway outlined in the previous steps in the customization settings](./media/faq-attributemap-upgrade-error-billing-account.png)
+> ![Screenshot showing the troubleshooting pathway outlined in the previous steps.](./media/faq-attributemap-upgrade-error-billing-account.png)
 
 ## What is the msdyn_postponegenerationuntil field that is found on many Field Service entities?
 
@@ -124,10 +124,13 @@ This field is found in the following entities:
 8.	Incident Types Setup (msdyn_incidenttypessetup)
 9.	Quote Booking Setup (msdyn_quotebookingsetup)
 
+## What about product bundles? I'd like to use them in Field Service scenarios.
+
+Unfortunately, at this time, using product bundles within Field Service is not supported.
 
 ## See also
 
-- [Resource Scheduling Optimization FAQs](rso-faq.md)
+- [Resource scheduling optimization FAQs](rso-faq.md)
 - [Field Service Mobile FAQs](activate-fs-mobile-app-license.md)
 - [Get help for Field Service Mobile](mobile-get-help.md)
 
@@ -139,3 +142,6 @@ This field is found in the following entities:
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,9 +38,9 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INC
   
 -   [Exchange Online](https://technet.microsoft.com/library/jj200580\(v=exchg.150\).aspx)  
   
--   [Exchange Online Service Description](https://technet.microsoft.com/library/jj819276.aspx)  
+-   [Exchange Online Service Description](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)  
   
--   [Office 365 service comparison](https://technet.microsoft.com/office/dn788955)  
+-   [Office 365 service comparison](/office365/servicedescriptions/office-365-service-descriptions-technet-library)  
   
 > [!TIP]
 >  To make sure you’ve got a good connection to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], run the [Microsoft Remote Connectivity Analyzer](https://testconnectivity.microsoft.com/). For information on what tests to run, see [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx).  
@@ -286,3 +286,6 @@ Admins, as described in the Permission model table, can change the settings so m
 ### See also  
  [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

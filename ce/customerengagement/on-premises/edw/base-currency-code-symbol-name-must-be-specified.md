@@ -22,3 +22,6 @@ ms.author: matp
   
  You must specify a base currency code, base currency symbol, and base currency name before you can continue.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

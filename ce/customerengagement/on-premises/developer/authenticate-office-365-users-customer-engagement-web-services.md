@@ -113,3 +113,6 @@ proxy constructor. The generic `GetProxy` method shown previously can be used to
  [Helper Code: ServerConnection Class](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/QuickStart/SDK%20Helper%20Code/CrmServiceHelpers.cs)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

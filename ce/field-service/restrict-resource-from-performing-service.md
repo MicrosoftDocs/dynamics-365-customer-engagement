@@ -1,23 +1,22 @@
 ---
 title: Restrict a resource from performing a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to restrict a resource from performing a service in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.assetid: 069d1768-3521-4407-8b1f-582706ecfcf6
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: 069d1768-3521-4407-8b1f-582706ecfcf6
 ---
 
 # Restrict a resource from performing a service (Customer Service)
@@ -25,7 +24,7 @@ ms.assetid: 069d1768-3521-4407-8b1f-582706ecfcf6
 You can restrict a resource from performing a service and define the service capacity for the resource. You can also restrict when a resource is available to be scheduled for a specific service. The resource is still available for scheduling service activities for other services.
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
@@ -81,3 +80,6 @@ You can restrict a resource from performing a service and define the service cap
   
 ### See also  
  [Set work hours for a resource](../field-service/set-work-hours-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "What's new in Dynamics 365 Channel Integration Framework | Microsoft Docs"
 description: "Read about the new features provided in the latest release of Dynamics 365 Channel Integration Framework."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 10/16/2019
 ms.topic: get-started-article
@@ -99,3 +99,6 @@ More information: [Configure channel provider in Dynamics 365 Channel Integratio
 ## See also
 
 [Download Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

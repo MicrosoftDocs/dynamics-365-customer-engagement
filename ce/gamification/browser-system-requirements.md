@@ -22,18 +22,23 @@ search.app:
 
 # Browser requirements to enable a seamless experience in Gamification
 
-[!INCLUDE[pn_gamification](../includes/pn-gamification.md)] is a cloud-based service that requires no special software running on users’ computers other than an up-to-date web browser. The system and browser requirements for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the same as those for [Microsoft Dynamics 365 apps](https://go.microsoft.com/fwlink/p/?linkid=830208). In addition, your browser must be configured as follows:  
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
+[!INCLUDE[pn_gamification](../includes/pn-gamification.md)] is a cloud-based service that requires no special software running on users’ computers other than an up-to-date web browser. The system and browser requirements for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the same as those for [Microsoft Dynamics 365 apps](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531055(v=crm.8)). In addition, your browser must be configured as follows:  
   
-- **Allow [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**  
+- **Allow JavaScript from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**  
   
-     [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] must be enabled for your browser, at least for your [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] domain. Most browsers enable [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] by default.  
+     JavaScript must be enabled in your browser. Most browsers enable JavaScript by default.  
   
 - **Allow cookies from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**  
   
-     Cookies must be enabled for your browser, at least for your [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] domain. Most browsers enable cookies by default.  
+     Cookies must be enabled for your Gamification domain. Most browsers enable cookies by default.  
   
 ### See also
 
 [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)  
 [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)  
 [Overview for players and fans in Gamification](for-players-fans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

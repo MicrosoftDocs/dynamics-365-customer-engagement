@@ -1,8 +1,8 @@
 ---
 title: "Create a CTI Desktop Manager | MicrosoftDocs"
 description: "The CTI Desktop Manager component is the interface between the computer telephony integration (CTI) system and Unified Service Desk or User Interface Integration (UII). The CTI Desktop Manager component creates the following two objects that collectively manage the state and data in a call- CallStateManager and AgentStateManager."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -22,17 +22,17 @@ search.app:
 
 The CTI Desktop Manager component is the interface between the computer telephony integration (CTI) system and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] or [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)]. The CTI Desktop Manager component creates the following two objects that collectively manage the state and data in a call:  
   
--   `CallStateManager`: The [CtiCallStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.cticallstatemanager) class is used as the base class that contains properties, methods, and events for communicating with the CTI Connector component to issue commands related to call management such as answer call, hang up, hold call, and transfer call. It provides multi-call management features and pre-wired events for the CTI Controls (user interface) to connect to, and base implementation and extensibility points for vendor specific customizations.  
+-   `CallStateManager`: The [CtiCallStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.cticallstatemanager) class is used as the base class that contains properties, methods, and events for communicating with the CTI Connector component to issue commands related to call management such as answer call, hang up, hold call, and transfer call. It provides multi-call management features and pre-wired events for the CTI Controls (user interface) to connect to, and base implementation and extensibility points for vendor specific customizations.  
   
--   `AgentStateManager`: The [CtiAgentStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctiagentstatemanager) is used as the base class that contains properties, methods, and events for communicating with the CTI Connector component related to agent state management (agent’s availability such as available, busy, and away). It provides pre-wired events for the CTI Controls (user interface) to connect to, and base implementation and extensibility points for vendor specific customizations.  
+-   `AgentStateManager`: The [CtiAgentStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.ctiagentstatemanager) is used as the base class that contains properties, methods, and events for communicating with the CTI Connector component related to agent state management (agent’s availability such as available, busy, and away). It provides pre-wired events for the CTI Controls (user interface) to connect to, and base implementation and extensibility points for vendor specific customizations.  
   
 <a name="define"></a>   
 ## Define a CTI Desktop Manager component  
  The CTI Desktop Manager implements the following interfaces:  
   
-- [ICtiAgentStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatemanager)  
+- [ICtiAgentStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatemanager)  
   
-- [ICtiCallStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticallstatemanager)  
+- [ICtiCallStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.icticallstatemanager)  
   
   You define a CTI Desktop Manager component in the same project as the one that you use for defining your CTI Connector using the **USD CTI Connector** project template. For more information about using this template, see [Create a CTI Connector](../unified-service-desk/create-cti-connector.md).  
   
@@ -42,17 +42,17 @@ The CTI Desktop Manager component is the interface between the computer telephon
   
 <a name="CustLookup"></a>   
 ## Raise a search request when a call arrives  
- When a new call arrives, you can invoke a search request to look up the automatic number identification (ANI) number in Microsoft Dataverse repository, get extra information, such as first name, last name, and so on, and create a session. [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] provides the [CtiLookupRequest](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) class that describes a customer lookup request that the CTI system sends to a customer search provider. This class describes common data elements that the CTI system will provide. It also gives you the ability to add custom data to the request.  
+ When a new call arrives, you can invoke a search request to look up the automatic number identification (ANI) number in Microsoft Dataverse repository, get extra information, such as first name, last name, and so on, and create a session. [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] provides the [CtiLookupRequest](/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) class that describes a customer lookup request that the CTI system sends to a customer search provider. This class describes common data elements that the CTI system will provide. It also gives you the ability to add custom data to the request.  
   
  The customer lookup or search is implemented depending on whether you are searching in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] or UII:  
   
 - **Unified Service Desk**: The search request is handled by the Global Manager hosted control.  
   
-- **User Interface Integration (UII)**: The lookup request is sent to [ICustomerSearch](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.core.icustomersearch), and it is up to you how you want to implement the search control. You can also send additional data to the search request using the [String)](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest.addlookuprequestitem\(system.string,system.string\)) method. UII provides you project templates to create a Windows Forms-based or WPF-based customer search control with the CTI search request pre-wired.  
+- **User Interface Integration (UII)**: The lookup request is sent to [ICustomerSearch](/dotnet/api/microsoft.uii.desktop.core.icustomersearch), and it is up to you how you want to implement the search control. You can also send additional data to the search request using the [String)](/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest.addlookuprequestitem(system.string,system.string)) method. UII provides you project templates to create a Windows Forms-based or WPF-based customer search control with the CTI search request pre-wired.  
   
 <a name="CallData"></a>   
 ## Access call data and events  
- Use the [CallInfoData](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.callinfodata) class to access information about a call that is in process in [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]). The following example shows the syntax of this class:  
+ Use the [CallInfoData](/dotnet/api/microsoft.uii.desktop.cti.core.callinfodata) class to access information about a call that is in process in [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]). The following example shows the syntax of this class:  
   
 ```  
 CallInfoData calldata = GetCallInfoData(ctiCallRefCallId);  
@@ -60,7 +60,7 @@ CallInfoData calldata = GetCallInfoData(ctiCallRefCallId);
   
 <a name="CallActions"></a>   
 ## Enable or disable call actions  
- Use the [CtiCallActionOptions](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.cticallactionoptions) class to enable or disable call actions. The following example code shows how to use this class to handle a call.  
+ Use the [CtiCallActionOptions](/dotnet/api/microsoft.uii.desktop.cti.core.cticallactionoptions) class to enable or disable call actions. The following example code shows how to use this class to handle a call.  
   
 ```csharp  
 public override void OnCallStateChanged(CtiCoreEventArgs e)  
@@ -150,3 +150,6 @@ public override void OnCallStateChanged(CtiCoreEventArgs e)
  [Create a CTI Control](../unified-service-desk/create-cti-control.md)   
  [Walkthrough: Use CTI Desktop Manager ro create a CTI adapter](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

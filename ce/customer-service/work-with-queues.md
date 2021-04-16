@@ -4,8 +4,8 @@ description: "Pick an item from a queue in Customer Service Hub to work on it."
 ms.date: 11/02/2020
 ms.service:  dynamics-365-customerservice
 ms.topic: article
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 
@@ -138,3 +138,6 @@ If you want another person in your organization to work on an activity, you can 
 ### See also
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

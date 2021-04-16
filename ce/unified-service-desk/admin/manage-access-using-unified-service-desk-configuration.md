@@ -1,8 +1,8 @@
 ---
 title: "Manage access using Unified Service Desk  configuration | MicrosoftDocs"
 description: "Learn to control how agents use Unified Service Desk  by using configuration."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -192,3 +192,6 @@ tags: MigrationHO
  [Unified Service Desk Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
 
  [Cache specific configuration for agents](set-configuration-cache-version.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

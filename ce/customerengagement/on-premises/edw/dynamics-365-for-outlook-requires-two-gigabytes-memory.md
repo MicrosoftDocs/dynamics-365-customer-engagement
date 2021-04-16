@@ -22,3 +22,6 @@ ms.author: matp
   
  Upgrade the computer so that it has at least 2 GB of total RAM. For information about how to increase RAM, view the computer's documentation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

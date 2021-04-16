@@ -46,3 +46,6 @@ Before you can enable a language, you must first install the language pack. More
 
 [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
 [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

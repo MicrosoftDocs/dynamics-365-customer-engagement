@@ -1,8 +1,8 @@
 ---
 title: "Start chat proactively | Microsoft Docs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/06/2020
 ms.topic: reference
@@ -412,3 +412,6 @@ The sample code given below shows how you can proactively offer chat invite to a
 [Initiate a chat](initiate-chat-wait-time.md)<br />
 [Display custom context](display-custom-context.md)<br />
 [Live chat JavaScript API reference](developer/omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

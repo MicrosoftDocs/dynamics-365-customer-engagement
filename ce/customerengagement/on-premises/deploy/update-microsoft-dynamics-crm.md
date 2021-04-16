@@ -51,7 +51,7 @@ Dynamics 365 Server and desktop applications are engineered to use [!INCLUDE[pn_
   
  When you enable [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], updates are automatically downloaded for Dynamics 365 Customer Engagement (on-premises) for Customer Enagement and for any other Microsoft applications that are enabled to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)].  
   
- If you don’t want to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], you can still download updates from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)] and manually install them or push them out to the appropriate computers by using [!INCLUDE[pn_ms_Windows_Update_Srvcs_long](../includes/pn-ms-windows-update-srvcs-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Windows Server Update Services](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus).  
+ If you don’t want to use [!INCLUDE[pn_Microsoft_Update](../includes/pn-microsoft-update.md)], you can still download updates from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)] and manually install them or push them out to the appropriate computers by using [!INCLUDE[pn_ms_Windows_Update_Srvcs_long](../includes/pn-ms-windows-update-srvcs-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Windows Server Update Services](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus).  
   
    
 ### Update requirements  
@@ -60,3 +60,6 @@ Dynamics 365 Server and desktop applications are engineered to use [!INCLUDE[pn_
 <!-- ## See Also  
  [Operating Microsoft Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md)  -->
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

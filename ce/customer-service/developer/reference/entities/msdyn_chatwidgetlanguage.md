@@ -1,8 +1,8 @@
 ---
 title: "msdyn_chatwidgetlanguage Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_chatwidgetlanguage entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
@@ -646,3 +646,6 @@ Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livech
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

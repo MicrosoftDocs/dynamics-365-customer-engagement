@@ -1,8 +1,8 @@
 ---
 title: "runMacro (Omnichannel for Customer Service JavaScript API reference)| MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 10/17/2019
 ms.topic: article
@@ -42,3 +42,6 @@ Microsoft.ProductivityMacros.runMacro(macroName).then(function(success){
 
 [Overview of Productivity Tools](../../../productivity-tools.md)<br />
 [Automate tasks with macros](../../../../app-profile-manager/macros.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

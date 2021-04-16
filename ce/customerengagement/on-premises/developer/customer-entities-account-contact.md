@@ -62,3 +62,6 @@ The *account* and *contact* entities in [!INCLUDE[pn_microsoftcrm](../includes/p
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

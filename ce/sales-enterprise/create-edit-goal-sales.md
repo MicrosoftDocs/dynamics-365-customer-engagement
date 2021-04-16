@@ -1,14 +1,13 @@
 ---
 title: "Create or edit goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
-ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 02/10/2021
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-goal
   - D365-Entity-metric
@@ -17,14 +16,11 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
-# Create or edit goals (Sales and Sales Hub)
+# Create or edit goals (Sales Hub)
 
 Use goals to keep track of your progress on achieving target revenue.  
-  
-## Create a goal (Sales Hub)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
@@ -101,23 +97,10 @@ Use goals to keep track of your progress on achieving target revenue.
 
 13.	Select **Save** or **Save & Close**.
 
-## Create a goal (Sales)
-  
-1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_goals](../includes/proc-goals.md)]  
-  
-3. If you are using the Sales app, select **New**.  
-  
-4. On the **New Goal** form, enter information or observe any noted restrictions or requirements as needed. Use the handy tooltips as a guide.  
-  
-5. Select or tap **Save** or **Save & Close**.  
-  
+
   
 ### See also  
  [Create or edit a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

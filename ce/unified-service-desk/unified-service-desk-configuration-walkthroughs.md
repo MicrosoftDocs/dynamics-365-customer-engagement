@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk  configuration walkthroughs | MicrosoftDocs"
 description: "Unified Service Desk walkthroughs provide a step-by-step tutorial on configuring an agent application from scratch and progressively adding features."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -46,3 +46,6 @@ Each walkthrough in this section covers an area or a combination of areas in [!I
  [Walkthrough: Create a UII WPF Hosted Control](../unified-service-desk/walkthrough-create-uii-wpf-hosted-control.md)  
   
  [Walkthrough: Use the generic listener adapter for CTI event routing](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

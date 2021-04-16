@@ -5807,3 +5807,5 @@ See list Entity [listaccount_association](list.md#BKMK_listaccount_association) 
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

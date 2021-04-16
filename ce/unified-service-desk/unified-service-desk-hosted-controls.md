@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk Hosted Controls | MicrosoftDocs"
 description: "Learn about the basic concepts related to hosted controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -29,7 +29,7 @@ The hosted control concept is central to the [!INCLUDE[pn_unified_service_desk](
   
 <a name="BaseClass"></a>   
 ## Base class of a Unified Service Desk hosted control  
- All the predefined and custom hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are objects that are derived from the [DynamicsBaseHostedControl](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class. This class defines the methods and properties that are applicable to all the hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ All the predefined and custom hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are objects that are derived from the [DynamicsBaseHostedControl](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.dynamicsbasehostedcontrol) class. This class defines the methods and properties that are applicable to all the hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
  This is important for you to know because you can also create [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted controls, which are derived from another class, and host them in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. For more information about the UII hosted controls, see [Use UII hosted controls with Unified Service Desk](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md).  
   
@@ -47,3 +47,6 @@ The hosted control concept is central to the [!INCLUDE[pn_unified_service_desk](
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)   
  [Use UII hosted controls with Unified Service Desk](../unified-service-desk/use-uii-hosted-controls-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

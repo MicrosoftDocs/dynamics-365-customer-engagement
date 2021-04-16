@@ -1,8 +1,8 @@
 ---
 title: "Walkthrough  Configure Best Practices Analyzer in Unified Service Desk | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 05/15/2018
 ms.topic: article
@@ -289,3 +289,6 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

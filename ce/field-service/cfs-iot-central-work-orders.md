@@ -76,3 +76,6 @@ After you've saved the flow, head on back to your Azure IoT Central environment.
 
 > [!div class="nextstepaction"]
 > [Step 4: Send booking updates to Azure IoT Central](cfs-iot-central-bookings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

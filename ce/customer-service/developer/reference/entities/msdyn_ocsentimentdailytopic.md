@@ -1,8 +1,8 @@
 ---
 title: "msdyn_ocsentimentdailytopic Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsentimentdailytopic entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
@@ -854,3 +854,6 @@ Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdaily
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

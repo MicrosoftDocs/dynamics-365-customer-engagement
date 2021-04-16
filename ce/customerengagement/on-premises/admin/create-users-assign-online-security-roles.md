@@ -115,7 +115,7 @@ After you create users, you must assign security roles for them to use Customer 
 ## Disable a user
 
 > [!NOTE]
-> You can [assign records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/assign-record-user-team) to a disabled user and also [share reports](https://docs.microsoft.com/dynamics365/customer-engagement/basics/share-report-users-teams) and accounts with them. This can be useful when migrating on-premises versions to online. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
+> You can [assign records](/dynamics365/customer-engagement/basics/assign-record-user-team) to a disabled user and also [share reports](/dynamics365/customer-engagement/basics/share-report-users-teams) and accounts with them. This can be useful when migrating on-premises versions to online. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
 
 1.  Go to **Settings** > **Security**.
 
@@ -200,7 +200,10 @@ The following table shows the fields that are populated on the Customer Engageme
 
 
 ### See also  
- [Assigning Admin Roles](https://go.microsoft.com/fwlink/p/?LinkId=255444)   
+ [Assigning Admin Roles](/microsoft-365/admin/add-users/assign-admin-roles)   
  [Add users to Office 365 for business](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc?ui=en-US&rs=en-US&ad=US)   
  [Security roles and privileges](../admin/security-roles-privileges.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

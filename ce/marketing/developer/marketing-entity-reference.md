@@ -18,7 +18,7 @@ search.app:
 
 # Dynamics 365 Marketing entity reference
 
-All the entities that are installed as part of the Dynamics 365 Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
+All the entities that are installed as part of the Dynamics 365 Marketing solutions support the [standard extensibility/programming model](../../customerengagement/on-premises/developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
 
 > [!IMPORTANT]
 > While all the entities in Dynamics 365 Marketing support the standard extensibility/programming model, you should be careful while programmatically creating, updating, or deleting these entity records. This is because some entities have a dependency on each other and the web application to provide the requisite user experiences and functionalities in the Marketing app. Manipulating these entities programmatically will prevent you from using the functionalities in the intended and supported way. Some examples of the complex functionality that cannot be achieved by programmatically working with the entities are:
@@ -30,7 +30,7 @@ To view information about all the entities and their properties, attributes, and
 ## Install Entity Metadata Browser
 
 1. [Download](https://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip) Entity Metadata Browser solution (.zip) to your computer.
-2. Sign in to your Dynamics 365 Marketing instance, and import the Entity Metadata Browser solution file to install it. For information about how to install a managed solution, see [Import, update, and export solutions](../../customize/import-update-upgrade-solution.md) 
+2. Sign in to your Dynamics 365 Marketing instance, and import the Entity Metadata Browser solution file to install it. For information about how to install a managed solution, see [Import, update, and export solutions](../../customerengagement/on-premises/customize/import-update-upgrade-solution.md) 
 
 ## Use Entity Metadata Browser
 
@@ -95,3 +95,6 @@ You can perform the following actions:
 
 > [!NOTE]
 > The community tools are not a product of Microsoft. Microsoft does not extend support to the community tools. If you have questions related to the tools, please contact the publisher. More information: [XrmToolBox](https://www.xrmtoolbox.com)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

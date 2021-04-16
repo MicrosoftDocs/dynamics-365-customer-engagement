@@ -1,10 +1,10 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/10/2019
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -19,7 +19,35 @@ search.app:
 
 # What's new in Unified Service Desk for developers and customizers
 
+
+::: moniker range="dynamics-usd-4.2"
+
+## What's new in Unified Service Desk 4.2 (Preview)
+
+This topic contains information about changes in [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] for developers and customizers available in this version. 
+
+### Use Edge WebView2 Process to host web applications in Unified Service Desk
+
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
+
+The advantages of using the Edge WebView2 Process hosting method are:
+
+- Available on supported versions of the Windows operating system.
+- Highly reliable.
+- Easy to configure to host applications in Unified Service Desk.
+- Switch seamlessly from one browser to another for your entire organization.
+- Enhanced performance and memory optimization.
+
+More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](edge-webview2-process.md)
+
+
+::: moniker-end
+
 ::: moniker range="dynamics-usd-4.1"
+
+##  What's new in Unified Service Desk 4.1.1.1433
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region.
 
 ##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
@@ -41,7 +69,7 @@ More information: [Use Chrome Process to host web applications in Unified Servic
 
 Bring your channel providers and integrate them with Unified Service Desk client application using Channel Integration Framework.
 
-If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](../customer-service/channel-integration-framework/channel-integration-framework.md), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** - for you to host the channel provider within Unified Service Desk client application.
 
@@ -253,3 +281,6 @@ More information: [Configure JAWS screen reader support](configure-jaws-screen-r
 ### See also  
  [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

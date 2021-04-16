@@ -76,3 +76,6 @@ Dynamics 365 Customer Engagement (on-premises) uses online synchronization filte
 ### See also  
  [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md) 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

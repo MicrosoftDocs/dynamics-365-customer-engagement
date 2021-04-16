@@ -1,8 +1,8 @@
 ---
 title: "Get Dynamics 365 Channel Integration Framework (CIF) version 2.0  | Microsoft Docs"
 description: "Learn how to download, install, and set up Dynamics 365 Channel Integration Framework (CIF) version 2.0."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/02/2020
 ms.topic: get-started-article
@@ -32,3 +32,6 @@ More information on:
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../customer-service/system-requirements-omnichannel.md)<br />
 [Known issues](../known-issues.md)<br />
 [FAQs for Channel Integration Framework](../faq-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

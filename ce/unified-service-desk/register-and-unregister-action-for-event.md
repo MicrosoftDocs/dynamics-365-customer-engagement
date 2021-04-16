@@ -1,8 +1,8 @@
 ---
 title: "Register and unregister action for event in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the events that can be registered/unregistered for an action."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -39,35 +39,35 @@ This topic describes the events that can be registered/unregistered for an actio
 ## Event names  
  The following event names can be used to subscribe in the register/unregister activities:  
   
--   [AsyncContentLoadedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.asynccontentloadedevent.aspx)  
+-   [AsyncContentLoadedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.asynccontentloadedevent)  
   
--   [AutomationFocusChangedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.automationfocuschangedevent.aspx)  
+-   [AutomationFocusChangedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.automationfocuschangedevent)  
   
--   [AutomationPropertyChangedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.automationpropertychangedevent.aspx)  
+-   [AutomationPropertyChangedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.automationpropertychangedevent)  
   
--   [LayoutInvalidatedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.layoutinvalidatedevent.aspx)  
+-   [LayoutInvalidatedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.layoutinvalidatedevent)  
   
--   [MenuClosedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.menuclosedevent.aspx)  
+-   [MenuClosedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.menuclosedevent)  
   
--   [MenuOpenedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.menuopenedevent.aspx)  
+-   [MenuOpenedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.menuopenedevent)  
   
--   [ToolTipClosedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.tooltipclosedevent.aspx)  
+-   [ToolTipClosedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.tooltipclosedevent)  
   
--   [ToolTipOpenedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.automationelementidentifiers.tooltipopenedevent.aspx)  
+-   [ToolTipOpenedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.tooltipopenedevent)  
   
--   [ElementAddedToSelectionEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.selectionitempattern.elementaddedtoselectionevent.aspx)  
+-   [ElementAddedToSelectionEvent](/dotnet/api/system.windows.automation.selectionitempattern.elementaddedtoselectionevent)  
   
--   [ElementRemovedFromSelectionEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.selectionitempattern.elementremovedfromselectionevent.aspx)  
+-   [ElementRemovedFromSelectionEvent](/dotnet/api/system.windows.automation.selectionitempattern.elementremovedfromselectionevent)  
   
--   [ElementSelectedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.selectionitempattern.elementselectedevent.aspx)  
+-   [ElementSelectedEvent](/dotnet/api/system.windows.automation.selectionitempattern.elementselectedevent)  
   
--   [InvalidatedEvent](https://msdn.microsoft.com/library/system.windows.automation.selectionpattern.invalidatedevent.aspx)  
+-   [InvalidatedEvent](/dotnet/api/system.windows.automation.selectionpattern.invalidatedevent)  
   
--   [InvokedEvent](https://msdn.microsoft.com/library/vstudio/system.windows.automation.invokepattern.invokedevent.aspx)  
+-   [InvokedEvent](/dotnet/api/system.windows.automation.invokepattern.invokedevent)  
   
--   [TextChangedEvent](https://msdn.microsoft.com/library/system.windows.automation.textpatternidentifiers.textchangedevent.aspx)  
+-   [TextChangedEvent](/dotnet/api/system.windows.automation.textpatternidentifiers.textchangedevent)  
   
--   [TextSelectionChangedEvent](https://msdn.microsoft.com/library/system.windows.automation.textpatternidentifiers.textselectionchangedevent.aspx)  
+-   [TextSelectionChangedEvent](/dotnet/api/system.windows.automation.textpatternidentifiers.textselectionchangedevent)  
   
 > [!NOTE]
 >  For a Windows open/closed event, the parent control should be registered for the event. For menu Items, before registering for the event, the menu item should be visible in the UI. The corresponding `Execute` control needs to be done to make this visible.  For an application main window, the following binding needs to be added: `<UIElement type="ControlType.Window" name="ApplicationMainWindow" />` For the desktop, the following binding needs to be added: `<UIElement StartFromDesktop="True" type="ControlType.Pane" name="Desktop">`  
@@ -75,3 +75,6 @@ This topic describes the events that can be registered/unregistered for an actio
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

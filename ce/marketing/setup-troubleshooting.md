@@ -48,13 +48,13 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
     Your monthly email quota is equal to 10 times the number of marketing contacts you have purchased.
 
 - **If I use a contact only once in a month and don’t use it next month, does it count?**  
-    Marketing contacts are not reset on monthly basis. Contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract. Reductions to the total number of marketable contacts are not reflected in the [contact meter in the quota management view](https://docs.microsoft.com/dynamics365/marketing/quota-management) until the contacts are deleted.
+    Marketing contacts are not reset on monthly basis. Contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on the anniversary of your contract. Reductions to the total number of marketable contacts are not reflected in the [contact meter in the quota management view](./quota-management.md) until the contacts are deleted.
 
 - **How can I learn more about Dynamics 365 Marketing licensing?**
   - For an overview, see [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) 
   - For complete terms that apply to subscribed (paid) versions, download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
   - For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
-  - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
+  - Check the [Readme](./known-issues.md) document for the latest news and updates.
 
 <a name="incompatible-platform"></a>
 
@@ -87,7 +87,7 @@ In some cases, when you sign up for a trial of Dynamics 365 or Microsoft 365, yo
 To fix this, do one of the following:
 
 - If you are just setting up a trial of Marketing, then consider creating a new trial tenant and set up the Marketing trial there, as described in [Choose or prepare your Microsoft 365 tenant](trial-signup.md#choose-tenant).
-- If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the Marketing setup wizard again. For instructions on how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).
+- If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the Marketing setup wizard again. For instructions on how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](/azure/active-directory/enterprise-users/domains-admin-takeover).
 
 <a name="run-fre"></a>
 
@@ -269,16 +269,8 @@ Marketing typically shares data with other Dynamics 365 applications running on 
 
 Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
 
-More information: [About Unified Interface for model-driven apps in Power Apps](https://docs.microsoft.com/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
+More information: [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
 
 <a name="contact-support"></a>
 
-## How can I contact support if I still need help?
-
-For more support and help resources you can:
-
-- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
-- Get in touch with the community on the [Dynamics 365 Marketing forum](https://community.dynamics.com/365/marketing/f/768).
-- Find more [online help resources for Dynamics 365](https://docs.microsoft.com/power-platform/admin/get-help-support).
-
-If you’ve already tried to set up the application several times and are still having trouble, open a support case through your applicable Microsoft Premier channel or MPN partner channel.
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

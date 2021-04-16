@@ -1,8 +1,8 @@
 ---
 title: "Use UII adapters to interact with external and web applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use UII adapters to interact with your external and web applications without having access to the application’s source code in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -21,13 +21,13 @@ You can use [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inte
   
 <a name="AppAdapter"></a>   
 ## Use the UII application adapter  
- External applications are executable (.exe) files that weren’t written specifically for [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)]. External applications have their own processes. Typically, they’re written using Win32 APIs, Microsoft Foundation Classes (MFC), or Visual Basic 6.0. A UII application adapter ([HostedApplicationAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.hostedapplicationadapter)) allows you to modify the behavior of the application without access to its source code.  
+ External applications are executable (.exe) files that weren’t written specifically for [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)]. External applications have their own processes. Typically, they’re written using Win32 APIs, Microsoft Foundation Classes (MFC), or Visual Basic 6.0. A UII application adapter ([HostedApplicationAdapter](/dotnet/api/microsoft.uii.csr.hostedapplicationadapter)) allows you to modify the behavior of the application without access to its source code.  
   
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project template for creating a [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] application adapter that contains pre-wired events and methods that you should implement to create your application adapter. For information about how you can create a UII application adapter to integrate with an external application, see [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md).  
   
 <a name="WebAppAdapter"></a>   
 ## Use the UII web application adapter  
- You can host any browser-based site, webpage, or web application in **Unified Service Desk**. A UII web application adapter ([WebApplicationAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.webapplicationadapter)) acts as an interface between the hosted web application and **Unified Service Desk**, allowing you to modify the behavior of the application without accessing its source code.  
+ You can host any browser-based site, webpage, or web application in **Unified Service Desk**. A UII web application adapter ([WebApplicationAdapter](/dotnet/api/microsoft.uii.csr.webapplicationadapter)) acts as an interface between the hosted web application and **Unified Service Desk**, allowing you to modify the behavior of the application without accessing its source code.  
   
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project template for creating a UII web application adapter that contains pre-wired events and methods that you should implement to create your web application adapter. For information about how you can create a UII web application adapter to integrate with an external application, see [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md).  
   
@@ -60,3 +60,6 @@ You can use [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inte
  [UII adapters](../unified-service-desk/uii-adapters.md)   
  [Walkthrough: Create a UII Application Adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md)   
  [Walkthrough: Create a UII Web Application Adapter](../unified-service-desk/walkthrough-create-uii-web-application-adapter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

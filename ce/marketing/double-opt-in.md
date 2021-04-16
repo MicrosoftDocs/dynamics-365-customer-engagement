@@ -129,7 +129,7 @@ The previous illustration highlights important elements provided by the **custon
 - **{{Message.ConfirmationObjectDescription}}**: Resolves to the **Description** field for the new consent level the contact has chosen.
 - **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the Dynamics 365 Marketing server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
-The following screenshot shows an **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. More information: [Create and edit global option sets](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-global-option-sets)
+The following screenshot shows an **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. More information: [Create and edit global option sets](/powerapps/maker/common-data-service/create-edit-global-option-sets)
 
 ![Consent option-set values available to confirmation-request messages](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
 
@@ -186,3 +186,5 @@ To set up and enable the global double opt-in system:
 
 ### See also
 [Form double opt-in](form-double-opt-in.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

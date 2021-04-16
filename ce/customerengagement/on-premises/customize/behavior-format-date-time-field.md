@@ -132,3 +132,6 @@ In Dynamics 365 Customer Engagement (on-premises), the Date and Time data type i
  [Create and edit fields](../customize/create-edit-fields.md)   
  [Define calculated fields](../customize/define-calculated-fields.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

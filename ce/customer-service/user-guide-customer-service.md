@@ -580,3 +580,6 @@ You can manage multiple cases more efficiently if you use parent and child cases
 [Set up OneNote integration (for admins)](../admin/set-up-onenote-integration-in-dynamics-365.md) 
   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

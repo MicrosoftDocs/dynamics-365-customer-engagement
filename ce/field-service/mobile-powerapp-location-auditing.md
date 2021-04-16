@@ -91,7 +91,7 @@ Here you see a list of locations throughout the day, listed by user.
 > ![Screenshot of advanced find in Field Service, showing a location audit for one user.](./media/mobile-location-geolocation-tracking-results.png)
 
 > [!Note]
-> If you want to correlate technician location with other Field Service record type updates, such as booking resource bookings, go to this [auditing overview](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity).  
+> If you want to correlate technician location with other Field Service record type updates, such as booking resource bookings, go to this [auditing overview](/power-platform/admin/audit-data-user-activity).  
 
 ## Additional notes
 
@@ -104,3 +104,5 @@ Here you see a list of locations throughout the day, listed by user.
 ### See also
 
 [Geofencing](mobile-powerapp-geofence.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

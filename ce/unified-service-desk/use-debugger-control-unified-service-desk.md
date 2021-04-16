@@ -1,8 +1,8 @@
 ---
 title: "Use the Debugger control in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use the Debugger hosted control test your UII actions and action calls, view debug output, and view replacement parameters captured during execution in Unifed Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -59,10 +59,13 @@ To use debugger control in one of your sample [!INCLUDE[pn_unified_service_desk]
   
  ![Test action calls & UII actions in debugger](../unified-service-desk/media/usd-customize-display-2.png "Test action calls & UII actions in debugger")  
   
-- In the **Action Calls** tab, select an action call from the drop-down list, and then click the **Run Action Call** button ![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button") to view the results of the action call. For more information about testing an action call, see the [Test the action call for customizing your display](https://msdn.microsoft.com/library/dn864892.aspx#Test) section in the topic for customizing a theme.  
+- In the **Action Calls** tab, select an action call from the drop-down list, and then click the **Run Action Call** button ![USD debugger Run Action Call button](../unified-service-desk/media/usd-run-action-call-icon.png "USD debugger Run Action Call button") to view the results of the action call. For more information about testing an action call, see the [Test the action call for customizing your display](/previous-versions/dynamicsusd-2/developers-guide/dn864892(v=usd.2)#Test) section in the topic for customizing a theme.  
   
-- In the **Direct Action** tab, you can directly call UII actions on hosted controls in the system. This is a great way to test action call configuration before creating an action call for the UII action. Replacement parameters can be used in the **Data** field while testing UII actions. If you have the required permissions, you can also create hosted controls and UII actions by clicking the Add buttons next to the respective drop-down lists. This opens the **New Hosted Control** or **New UII Action** page in Internet Explorer based on what you chose to create. For more information about testing a UII action, see the [Run the Unified Service Desk client to work with custom hosted control](https://msdn.microsoft.com/library/dn864925.aspx#run) section in the topic for creating a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control.  
+- In the **Direct Action** tab, you can directly call UII actions on hosted controls in the system. This is a great way to test action call configuration before creating an action call for the UII action. Replacement parameters can be used in the **Data** field while testing UII actions. If you have the required permissions, you can also create hosted controls and UII actions by clicking the Add buttons next to the respective drop-down lists. This opens the **New Hosted Control** or **New UII Action** page in Internet Explorer based on what you chose to create. For more information about testing a UII action, see the [Run the Unified Service Desk client to work with custom hosted control](/previous-versions/dynamicsusd-2/developers-guide/dn864925(v=usd.2)#run) section in the topic for creating a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control.  
   
 ### See also  
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
  [Debug your custom code for Unified Service Desk](../unified-service-desk/debug-custom-code-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

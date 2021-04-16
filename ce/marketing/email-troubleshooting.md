@@ -45,7 +45,7 @@ The above-listed URLs, as well as the Google URL below, link to external pages t
 If you are not using any of the above-listed email security software, use the following links to set the default options for allowing Marketing services in Office365/Exchange and GSuite/Google Apps:
 
 - [GSuite/Google Apps - Add IP addresses to allow lists in Gmail](https://support.google.com/a/answer/60751)
-- [Office365/Exhange - Configure connection filtering](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-connection-filter-policy)
+- [Office365/Exhange - Configure connection filtering](/microsoft-365/security/office-365-security/configure-the-connection-filter-policy)
 
 Find the Microsoft Dynamics 365 Marketing public IP addresses used for sending e-mails: [Public IP addresses used for sending e-mails](get-ready-email-marketing.md#public-ip-addresses-used-for-sending-e-mails)
 
@@ -55,3 +55,5 @@ Find the Microsoft Dynamics 365 Marketing public IP addresses used for sending e
 ### See also
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

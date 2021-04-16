@@ -27,7 +27,7 @@ In this article, we'll explore creating products, services, and price lists to u
 ## Prerequisites 
 
 - Any version of Dynamics 365 Field Service
-- Basic knowledge of Dynamics 365 [product catalogs](https://docs.microsoft.com/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products). 
+- Basic knowledge of Dynamics 365 [product catalogs](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md). 
 
 ## Create products and services
 
@@ -74,7 +74,7 @@ Go to **Field Service** > **Settings** > **Price Lists** > **+New**.
   
 Use the tooltips to help fill in your information, and then select **Save**.  
 
-For more information, see the article on [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
+For more information, see the article on [creating a price list (Project Service Automation)](/dynamics365/project-operations/psa/create-price-list). 
 
 
 ## Add price list items  
@@ -90,7 +90,7 @@ Enter the following information:
 
 - **Amount**: enter the price of the product or service. Note this represents an hourly rate for services.
 
-To understand the other standard pricing options with Dynamics 365 price lists, see the article on [adding price list items](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products#add-items-to-the-price-list-sales)
+To understand the other standard pricing options with Dynamics 365 price lists, see the article on [adding price list items](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md#add-items-to-the-price-list-sales)
 
 
 ## Add Field Service price list items
@@ -171,3 +171,6 @@ Add default price lists for territories or customer segments. This makes it easi
  - [Getting started with Field Service](../field-service/user-guide.md)
  - [Create work order templates with incident types](../field-service/configure-incident-types.md)
  - [Entitlements](./work-order-entitlements.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

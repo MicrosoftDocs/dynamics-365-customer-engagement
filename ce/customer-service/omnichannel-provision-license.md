@@ -1,10 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
-description: "Provision Omnichannel for Customer Service to add or remove channels"
+description: "Provision Omnichannel for Customer Service to add or remove channels."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/29/2020
+ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -29,11 +29,11 @@ To provision the Omnichannel for Customer Service application, make sure the fol
 
 ## Provide data access consent
 
-To allow Omnichannel for Customer Service to read and write data on behalf of users, follow these below steps:
+Use the following steps to allow Omnichannel for Customer Service to read and write data on behalf of users:
 
 1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838).
 2. Sign in using **Global Tenant Admin** credentials.
-3. Select the check box **Consent on behalf of your organization**.
+3. Select the **Consent on behalf of your organization** check box.
 4. Select **Accept** to grant data access consent.
 
     > [!div class=mx-imgBorder]
@@ -44,13 +44,17 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 ## Set up Omnichannel for Customer Service
 
 1. In **Power Platform Admin Center**, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
-2. In the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
+2. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
+   
+   > [!NOTE]
+   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. There are similar-looking menu options, but the correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**. 
+  
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 
     > [!div class=mx-imgBorder]
     > ![Manage Omnichannel for Customer Service](media/OC-provisioning-ppadmin.png "Manage Omnichannel for Customer Service")
 
-4. Select **OK** on the **Manage Omnichannel for Customer Service** message. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
+4. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
 5. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
 
@@ -65,12 +69,12 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!div class=mx-imgBorder]
     > ![Select org](media/select-org.png "Select org")
 
-7. Select the **Chat** tab and set the toggle to Yes to enable the Chat channel for your organization.
+7. Select the **Chat** tab and set the toggle to **Yes** to enable the Chat channel for your organization.
 
     > [!div class=mx-imgBorder]
     > ![Enable chat](media/enable-chat.png "Enable chat")
 
-8. Select the **SMS** tab and set the toggle to Yes to enable SMS. Select the check box to confirm that you agree to the SMS terms.
+8. Select the **SMS** tab and set the toggle to **Yes** to enable SMS. Select the check box to confirm that you agree to the SMS terms.
 
     > [!div class=mx-imgBorder]
     > ![Enable SMS](media/enable-sms-with-omnichannel.png "Enable SMS")
@@ -78,17 +82,17 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
     > [!IMPORTANT]
     > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
 
-9.  Select the **Social** tab and set the toggle to Yes to enable social channels.
+9.  Select the **Social** tab and set the toggle to **Yes** to enable social channels.
 
     > [!div class=mx-imgBorder]
     > ![Enable social channels](media/enable-social.png "Enable social channels")
 
-10. Select the **Microsoft Teams** tab and set the toggle to Yes to enable Microsoft Teams. 
+10. Select the **Microsoft Teams** tab and set the toggle to **Yes** to enable Microsoft Teams. 
 
     > [!div class=mx-imgBorder]
     > ![Enable Microsoft Teams](media/enable-teams.png "Enable Microsoft Teams")
 
-11. On the **Confirmation** page, verify your selections, and select **Finish** to provision Omnichannel for Customer Service in your organization.
+11. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
 
     > [!div class=mx-imgBorder]
     > ![Summary tab on Manage Omnichannel instances page](media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
@@ -100,14 +104,16 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
 
 > [!IMPORTANT]
-> If the provisioning of Omnichannel for Customer Service fails and you retry it, you might see an app profile named **Omnichannel Upgraded OOB Default app profile** on the **App profiles** page in Power Apps. You can safely delete this app profile that is created.
+>
+> - After you successfully provision Omnichannel for Customer Service, you might see the status as "Not configured" on the **Dynamics 365 apps** page. You can safely ignore the status.
+> - If the provisioning of Omnichannel for Customer Service fails and you retry it, you might see an app profile named **Omnichannel Upgraded OOB Default app profile** on the **App profiles** page in Power Apps. You can safely delete this app profile that is created.
 
 ## Update Omnichannel for Customer Service application
 
-After Omnichannel for Customer Service application is successfully provisioned, you can update the environment by enabling or disabling the required channels.
+After the Omnichannel for Customer Service application is successfully provisioned, you can update the environment by enabling or disabling the required channels.
 
-1. In **Power Platform Admin Center**, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
-2. In the left pane, expand **Resources**, and select **Dynamics 365 Apps**.
+1. In the **Power Platform Admin Center**, on the **Environments** page, select the environment where you want to set up Omnichannel for Customer Service.
+2. In the left pane, expand **Resources**, and then select **Dynamics 365 Apps**.
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 4. Select **OK** on the **Manage Omnichannel for Customer Service** message. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
@@ -116,7 +122,7 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 
 5. Select the channel to be enabled. For example, in this procedure, we will enable the Social channels.
 
-6. On the **Social** tab, set the toggle to Yes to enable social channels in your environment.
+6. On the **Social** tab, set the toggle to **Yes** to enable social channels in your environment.
 
     > [!div class=mx-imgBorder]
     > ![Enable Social channels](media/select-oc-social.PNG "Enable Social channels")
@@ -126,9 +132,9 @@ After Omnichannel for Customer Service application is successfully provisioned, 
     > [!div class=mx-imgBorder]
     > ![Update status](media/update-oc-complete.png "Update status")
 
-8. To disable a previously enabled channel, set the toggle to No. For example, in this procedure, we will disable the Social channel.
+8. To disable a previously enabled channel, set the toggle to **No**. For example, in this procedure, we will disable the Social channel.
 
-   - On the **Social** tab, set the toggle to No to disable social channels in your environment. A confirmation message is displayed to remove the channel. Select **Remove**.
+   - On the **Social** tab, set the toggle to **No** to disable social channels in your environment. A confirmation message is displayed to remove the channel. Select **Remove**.
 
         > [!div class=mx-imgBorder]
         > ![Disable Social channel](media/disable-social.png "Disable Social channels")
@@ -144,3 +150,6 @@ After Omnichannel for Customer Service application is successfully provisioned, 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Understand and create work streams](work-streams-introduction.md)  
 [Manage users](users-user-profiles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

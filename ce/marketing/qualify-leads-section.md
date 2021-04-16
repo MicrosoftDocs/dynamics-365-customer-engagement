@@ -21,3 +21,6 @@ search.app:
 # Manage, score, and qualify leads
 
 Topics in this section explain how to manage and evaluate leads, including how to monitor what people do on your website, register clicks on social posts and online ads, import leads generated with LinkedIn Lead Gen Forms, and set rules that score leads based on their interactions with your marketing initiatives.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

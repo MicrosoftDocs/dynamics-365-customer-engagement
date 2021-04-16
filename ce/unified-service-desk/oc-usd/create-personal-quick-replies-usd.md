@@ -1,8 +1,8 @@
 ---
 title: "Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk | MicrosoftDocs"
 description: "Learn to create personal quick replies in Omnichannel for Customer Service from within Unified Service Desk client application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/05/2021
 ms.topic: article
@@ -66,3 +66,6 @@ The quick replies you created are available on the **Personal** tab, and those c
 
 [Send quick replies in the chat](left-control-panel.md#send-quick-replies-in-the-chat)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

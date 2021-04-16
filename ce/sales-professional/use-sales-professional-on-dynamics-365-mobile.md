@@ -2,14 +2,13 @@
 title: "Use Sales Professional on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
 description: "Use Sales Professional on Dynamics 365 phones and tablets"
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Use the Sales Professional app on mobile devices
@@ -242,7 +241,7 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 You can use the Sales Professional app on Dynamics 365 for mobile in offline mode when you're experiencing intermittent connectivity. Select the **Enable Mobile Offline** option in the app module properties to access the Sales Professional app offline. 
 
-An administrator must have associated a mobile offline profile to your user record before you can work offline. The administrator can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md).
+An administrator must have associated a mobile offline profile to your user record before you can work offline. The administrator can use the **Sample Sales Scenario** mobile offline profile that's shipped out of the box, or create your own profile. For more information, see [Configure mobile offline synchronization for your mobile app](../mobile-app/setup-mobile-offline.md).
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work offline on your mobile device](../mobile-app/work-in-offline-mode.md)
 
@@ -289,6 +288,9 @@ Yes, custom fields of all types are available to use offline. For lookup fields,
 
 ### See also
 
-[Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+[Basic navigation on Dynamics 365 for phones and tablets](../mobile-app/user-guide-mobile-app.md)
 
 [Help resources for salespeople](user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

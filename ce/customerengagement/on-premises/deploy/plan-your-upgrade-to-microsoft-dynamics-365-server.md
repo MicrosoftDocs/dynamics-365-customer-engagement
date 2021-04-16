@@ -49,7 +49,7 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
   
 -   **In-place upgrade.** Although this option doesn’t require a different computer for [!INCLUDE [pn-dynamics-365-server-v-90](../includes/pn-dynamics-365-server-v-90.md)] or a different instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], it poses the greatest risk if upgrade issues occur because a rollback and reinstall of the previous version of Dynamics 365 Server will be required to avoid potential downtime.  
   
- For the latest product information, see the [Microsoft Dynamics 365 Customer Engagement (on-premises), version 9.0 Readme](https://go.microsoft.com/fwlink/?linkid=2020048).  
+ For the latest product information, see the [Microsoft Dynamics 365 Customer Engagement (on-premises), version 9.0 Readme](/dynamics365-release-plan/2019wave2/).  
   
 > [!IMPORTANT]
 >  Always run a full backup of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] databases before you upgrade to a new version of the product. <!-- For information about database backups, see [Back up the Microsoft Dynamics 365 Customer Engagement (on-premises) System](back-up-the-microsoft-dynamics-365-system.md).  -->
@@ -112,3 +112,6 @@ This section provides guidelines for preparing for an upgrade to [!INCLUDE [pn-d
 ## See Also  
 [Import an organization](import-an-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

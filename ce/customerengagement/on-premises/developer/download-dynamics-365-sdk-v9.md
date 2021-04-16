@@ -35,7 +35,7 @@ To download developer tools, see [Download tools from NuGet](download-tools-nuge
 
 ## SDK assemblies
 
-The SDK assemblies are available as NuGet packages that you can directly use in your Visual Studio projects. For information about using a NuGet package in Visual Studio, see [Install and use a package in Visual Studio](https://docs.microsoft.com/nuget/quickstart/install-and-use-a-package-in-visual-studio)
+The SDK assemblies are available as NuGet packages that you can directly use in your Visual Studio projects. For information about using a NuGet package in Visual Studio, see [Install and use a package in Visual Studio](/nuget/quickstart/install-and-use-a-package-in-visual-studio)
 
 The following SDK assemblies are available:
 
@@ -57,3 +57,6 @@ For the complete list of developer code samples, see [Sample code directory for 
 
 [Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

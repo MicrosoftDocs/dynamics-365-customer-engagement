@@ -1,8 +1,8 @@
 ---
 title: "WebDDA in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using Web data-driven adapter (WebDDA) in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -50,3 +50,6 @@ The Web data-driven adapter (WebDDA) provides access to HTML-based applications.
  [WinDDA](../unified-service-desk/windda.md)   
  [UIADDA](../unified-service-desk/uiadda.md)   
  [JavaDDA](../unified-service-desk/javadda.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

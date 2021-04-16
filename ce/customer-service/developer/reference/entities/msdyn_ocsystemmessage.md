@@ -1,8 +1,8 @@
 ---
 title: "msdyn_ocsystemmessage Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsystemmessage entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
@@ -731,3 +731,6 @@ See msdyn_livechatconfig Entity [msdyn_livechatconfig_msdyn_ocsystemmessage](msd
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

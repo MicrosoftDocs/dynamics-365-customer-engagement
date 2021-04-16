@@ -917,3 +917,5 @@ See msdyn_iotpropertydefinition Entity [msdyn_msdyn_iotpropertydefinition_msdyn_
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_iotdeviceproperty?text=msdyn_iotdeviceproperty EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

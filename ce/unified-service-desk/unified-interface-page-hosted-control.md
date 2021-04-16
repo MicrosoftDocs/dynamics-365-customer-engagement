@@ -1,8 +1,8 @@
 ---
 title: "Unified Interface Page hosted control to load a page from a model-driven app | MicrosoftDocs"
 description: "Learn about the Unified Interface Page hosted control type to load a URL or page from a model-driven app. When a model-driven app page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/12/2020
 ms.topic: article
@@ -87,7 +87,7 @@ Fires a user-defined event from this hosted control.
 |-----------|---------------------------------|
 | name      | The name of the user-defined event. |
 
-All subsequent name/value pairs become the parameters to the event. More information: [Create a user-defined event](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/create-user-defined-event)
+All subsequent name/value pairs become the parameters to the event. More information: [Create a user-defined event](/dynamics365/customer-engagement/unified-service-desk/create-user-defined-event)
 
 ### GetSelectedIds
 
@@ -302,7 +302,7 @@ The following predefined events are associated with this hosted control type.
 
 ### ActiveClosed
 
-Occurs when the active hosted control is closed by using the [**CloseActive**](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control#CloseActive) action.  
+Occurs when the active hosted control is closed by using the [**CloseActive**](/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control#CloseActive) action.  
 
 | Parameter | Description                                                          |
 |-----------|----------------------------------------------------------------------|
@@ -382,3 +382,6 @@ More information: [onsendkbarticle](/dynamics365/customer-engagement/developer/c
 [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
 [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)  
 [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

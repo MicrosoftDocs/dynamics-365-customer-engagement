@@ -1,8 +1,8 @@
 ---
 title: "Add the personalization tab to enable personal quick replies | MicrosoftDocs"
 description: "Learn how to add the personalization tab to enable quick replies in Omnichannel for Customer Service on Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/12/2021
 ms.topic: article
@@ -96,3 +96,6 @@ You can can add the personalization tab by doing the following:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

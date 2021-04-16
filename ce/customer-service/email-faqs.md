@@ -86,3 +86,6 @@ If you've enabled an email form but it is doesn't display, you'll need to enable
        ![Manually encode HTML tag values](\media\email-encode-value.png "Manually encode value for verbatim HTML tags")
   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

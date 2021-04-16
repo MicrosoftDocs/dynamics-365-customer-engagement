@@ -1,10 +1,10 @@
 ---
 title: "Channel Analytics | MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework version 2.0."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/24/2020
+ms.date: 04/05/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -72,15 +72,21 @@ The `updateConversation` API can be invoked if the channel provider wants to enr
 
 Channel Analytics can be enabled at a Dynamics 365 Channel Integration Framework provider level. It can be enabled using both the user interface and the Web API.
 
-#### Using User Interface
+#### Using app profile manager
 
-1. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+1. Sign in to your [Power Apps](https://make.powerapps.com) portal.
 
-![Dynamics 365 drop-down button to find Channel Integration Framework](../media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
+2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**.
 
-2. Select **+ New** to add a new provider.
+3. On the menu that appears, select **App profile manager**.
 
-3. In the **New Channel** page, set **Enable Analytics** field to **Yes**.
+4. Select **App profiles** from the site map, and then, select your app profile.
+
+5. Select the **Channels** tab.
+
+6. Select **+ New** to add a new provider.
+
+7. In the **New Channel** page, set **Enable Analytics** field to **Yes**.
 
 ![Enable channel analytics using user interface](../media/enable-channel-analytics.PNG "Enable channel analytics")
 
@@ -162,8 +168,12 @@ More information: [Sample code for softphone integration using Dynamics 365 Chan
 
 ## See also
 
+[App profile manager overview](../../../app-profile-manager/overview.md)
 [Softphone integration sample code for Channel Integration Framework version 2.0](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2)<br />
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)<br />
 [Frequently asked questions](../faq-channel-integration-framework.md)<br />
 [updateConversation API](reference/microsoft-ciframework/updateConversation.md)<br />
 [logAnalyticsEvent](reference/microsoft-ciframework/logAnalyticsEvent.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

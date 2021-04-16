@@ -72,3 +72,6 @@ curl -X GET \
 ## See also
 [Using Events API](using-events-api.md)<br />
 [Customize the response from Events API](customize-events-api-response.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ The following operating systems are supported for offline mode.
   
 ### See also  
  [Set up Dynamics 365 for Outlook](set-up.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

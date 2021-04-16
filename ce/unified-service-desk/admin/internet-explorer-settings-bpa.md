@@ -1,8 +1,8 @@
 ---
 title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 09/03/2020
 ms.topic: article
@@ -167,7 +167,7 @@ To enable the option using Internet options:
 5. Select **Apply**, and then select **OK**.
 
 > [!TIP]
-> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/).
+> An alternative mitigation is retaining the default settings in the **Security** zones, and adding the instance and authentication URLs to the **Trusted sites**. For more information, see the [blog](/archive/blogs/usd/ie-process-mode-gives-httpevent-popup).
 
 ## Cleanup HTCs
 
@@ -213,3 +213,6 @@ If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or ea
 [System configurations](../admin/system-configurations-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

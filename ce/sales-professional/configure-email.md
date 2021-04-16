@@ -2,14 +2,13 @@
 title: "Set up email in Dynamics 365 Sales Professional by integrating with Exchange | MicrosoftDocs"
 description: "Enable users to send and receive emails by configuring email in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Set up email in Dynamics 365 Sales Professional by integrating with Exchange
@@ -45,7 +44,7 @@ To configure Exchange, you must have:
 -   Exchange Online subscription
 
 For more information about managing subscriptions, see [Manage Microsoft Dynamics 365 (online)
-instances](https://go.microsoft.com/fwlink/?linkid=730725).
+instances](../admin/backup-restore-instances.md).
 
 1.  In the site map, select **Sales Settings**, and then under **Standard settings**, select **Set up email**.
 
@@ -88,3 +87,6 @@ instances](https://go.microsoft.com/fwlink/?linkid=730725).
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Admin settings overview](admin-settings-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

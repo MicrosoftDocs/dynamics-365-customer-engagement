@@ -43,7 +43,7 @@ The portals solution is highly flexible and customizable. You can create portals
 
 If all you need are the standard marketing page and event website features provided by Dynamics 365 Marketing, then, you never actually have to access the portal capabilities directly because Dynamics 365 Marketing creates, configures, and manages these portals automatically. However, you can also use the portals solution to create custom portals and websites that include features that interact directly with Dynamics 365 data.
 
-For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
+For complete details about how to work with the portals solution, see [its online help](/powerapps/maker/portals/overview).
 
 ### Work with marketing pages
 
@@ -63,9 +63,12 @@ For instructions about how to download, customize, and install the event website
 
 To set up your own custom portals solutions, you must work with the full Power Apps portals settings, which are only available in the Power Apps portals app. To get to the app, open the app-selector menu and select **Power Apps portals**.
 
-For complete details about how to work with the portals solution, see [its online help](../portals/administer-manage-portal-dynamics-365.md).
+For complete details about how to work with the portals solution, see [its online help](/powerapps/maker/portals/overview).
 
 ### See also
 
-[Deliver web engagement experience with portal capabilities for Dynamics 365](../portals/administer-manage-portal-dynamics-365.md)  
+[Deliver web engagement experience with portal capabilities for Dynamics 365](/powerapps/maker/portals/overview)  
 [Find your way around](navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -95,5 +95,8 @@ As with other types of templates in Dynamics 365 Marketing, segment templates su
 [Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Design behavioral segments](segments-interaction.md)  
 [Design static segments](segments-static.md)  
-[Combine segments into a compound segment (combined audiences)](segments-compound.md)
+[Combine segments into a compound segment (combined audiences)](./segmentation-lists-subscriptions.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -20,4 +20,9 @@ search.app:
 ---
 # Table of contents
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 [!INCLUDE[TOC](TOC.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

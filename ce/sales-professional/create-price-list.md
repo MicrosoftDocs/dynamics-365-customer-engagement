@@ -2,14 +2,21 @@
 title: "Create price lists in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Define what to charge for your products or services by creating a price list and price list items in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-product
+  - D365-Entity-pricelevel
+  - D365-Entity-productpricelevel
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create price lists
@@ -69,3 +76,6 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 [Create unit groups and add units](create-unit-group-add-units.md)
 [Create a product](create-products.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

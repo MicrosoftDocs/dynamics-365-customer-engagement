@@ -20,7 +20,7 @@ search.app:
 
 # Manage Field Service Mobile with Microsoft Intune
 
-Mobile Application Management (MAM) is software that enables IT administrators to apply and enforce corporate policies on mobile apps. One MAM option for IT administrators is [Microsoft Intune](https://docs.microsoft.com/intune/apps/app-management), which offers a suite of features that lets you publish, push, configure, secure, monitor, and update mobile apps - including Field Service Mobile.
+Mobile Application Management (MAM) is software that enables IT administrators to apply and enforce corporate policies on mobile apps. One MAM option for IT administrators is [Microsoft Intune](/intune/apps/app-management), which offers a suite of features that lets you publish, push, configure, secure, monitor, and update mobile apps - including Field Service Mobile.
 
 MAM is important to field service organizations whose technicians use Field Service Mobile primarily because:
 
@@ -43,7 +43,7 @@ With an Intune-enabled Field Service Mobile app, IT administrators can:
 
 ## Get started
 
-Intune is a separate Microsoft product that is not included with Field Service. Refer to the documentation on [What is Microsoft Intune app management?](https://docs.microsoft.com/intune/apps/app-management) and [Adding and assigning an app with Intune](https://docs.microsoft.com/intune/apps/quickstart-add-assign-app) to get started.
+Intune is a separate Microsoft product that is not included with Field Service. Refer to the documentation on [What is Microsoft Intune app management?](/intune/apps/app-management) and [Adding and assigning an app with Intune](/intune/apps/quickstart-add-assign-app) to get started.
 
 ## Prefill default Org URL in mobile app sign-in screen
 
@@ -229,3 +229,6 @@ For Windows:
 
 - Standard MAM capabilities for Field Service Mobile will work with or without MDM device enrollment in Intune.
 - Standard app configuration policies with Intune are supported for the [Field Service (Dynamics 365) mobile app](mobile-2020-power-platform.md); however, specific configurations like prefill of URL or username are not available.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

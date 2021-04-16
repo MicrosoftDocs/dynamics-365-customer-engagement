@@ -2,14 +2,13 @@
 title: "Work with views (lists) in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use views to browse through and manage data in Dynamics 365 Sales Professional to improve your productivity."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Work with views (lists)
@@ -38,7 +37,7 @@ A typical view page contains these components:
 
 - **View selector:** When you select a view such as Accounts, My Activities, or Contacts, records in the grid change based on the view you’ve selected.
 
-    More information: [Create and edit views](../customize/create-edit-views.md).
+    More information: [Create and edit views](../customerengagement/on-premises/customize/create-edit-views.md).
 
     > [!NOTE]
     > To configure a view as the default, select the pin icon next to the view.
@@ -79,3 +78,6 @@ You can perform different actions such as sort, delete, and refresh on items in 
 ### See also
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

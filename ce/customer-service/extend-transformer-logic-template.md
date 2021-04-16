@@ -1,8 +1,8 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/01/2019
 ms.topic: article
@@ -39,3 +39,6 @@ kaobject["content"] = "Hello World";
 
 [Create a knowledge article using template](create-knowledge-article-using-template.md)<br />
 [Tutorial: Write and register a plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

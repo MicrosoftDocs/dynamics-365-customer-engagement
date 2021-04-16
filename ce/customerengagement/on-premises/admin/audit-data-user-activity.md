@@ -24,7 +24,7 @@ search.audienceType:
 The Dynamics 365 Customer Engagement (on-premises) auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
 <!-- 
 > [!NOTE]
-> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](enable-use-comprehensive-auditing.md).
+> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](/power-platform/admin/enable-use-comprehensive-auditing).
 -->
  The audit logs help the Customer Engagement (on-premises) administrator answer questions such as:  
   
@@ -140,3 +140,6 @@ System administrators and customizers can start or stop auditing for an organiza
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Getting started with customization](../customize/getting-started-customization.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

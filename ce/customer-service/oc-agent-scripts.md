@@ -38,7 +38,7 @@ The agent script section consists of a set of steps. Based on the type of agent 
 
 Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can execute the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
 
-## Prerequisite 
+## Prerequisite
 
 Ensure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](add-users-assign-roles.md).
 
@@ -105,8 +105,11 @@ The **Chat session** script has the following steps
 | Agent script | Close conversation | Follow these steps to close a conversation | View | When you select the view icon, the system loads another agent script from the current agent script. In this sample, the another agent script is **Close conversation** script. |
 
 
-Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure, see [Guide agents with scripts](agent-scripts.md).
+Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure agent scripts, see [Guide agents with scripts](../app-profile-manager/agent-scripts.md).
 
 ### See also
 
 [Guide agents with scripts](../app-profile-manager/agent-scripts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

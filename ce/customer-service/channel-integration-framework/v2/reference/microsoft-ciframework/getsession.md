@@ -1,8 +1,8 @@
 ---
 title: "getSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/23/2020
 ms.topic: reference
@@ -50,3 +50,6 @@ Microsoft.CIFramework.getSession("session-id-1").then(
     }
 );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

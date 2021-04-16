@@ -1,8 +1,8 @@
 ---
 title: "Troubleshoot Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to troubleshoot and resolve issues in Unified Service Desk ."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -29,3 +29,6 @@ search.app:
  [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-actions-events.md)  
 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

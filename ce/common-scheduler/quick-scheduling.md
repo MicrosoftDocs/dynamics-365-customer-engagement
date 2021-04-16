@@ -21,3 +21,6 @@ search.app:
 # Quick scheduling in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-quick-scheduling.md](../shared/urs/quick-scheduling.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

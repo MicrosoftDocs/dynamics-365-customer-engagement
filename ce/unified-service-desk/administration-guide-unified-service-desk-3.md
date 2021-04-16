@@ -1,8 +1,8 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -40,3 +40,6 @@ This guide provides information about how to install, administer, and manage [!I
  [Administer and manage overview](../unified-service-desk/admin/administer-manage-unified-service-desk.md)  
   
  [Troubleshoot Unified Service Desk](../unified-service-desk/admin/troubleshoot-unified-service-desk.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

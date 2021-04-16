@@ -42,3 +42,5 @@ manager: "kvivek"
 
   ### See also
   [Entities, metadata, and the metadata browser](create-edit-metadata.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

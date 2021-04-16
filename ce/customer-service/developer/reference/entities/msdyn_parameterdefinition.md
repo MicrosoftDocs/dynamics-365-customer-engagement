@@ -1,8 +1,8 @@
 ---
 title: "msdyn_parameterdefinition Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_parameterdefinition entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
@@ -750,3 +750,6 @@ IntersectEntityName: msdyn_msdyn_paramdef_msdyn_actioninputparam<br />
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

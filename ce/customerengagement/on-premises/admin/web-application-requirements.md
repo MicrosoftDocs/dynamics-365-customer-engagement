@@ -69,9 +69,9 @@ Notice that the suggested network requirements include the metadata download nee
 |             [!INCLUDE[pn_windows8](../includes/pn-windows8.md)]    |  Limited support<sup>2</sup>    |     Not supported<sup>1</sup> |  Not Supported   |
 |            [!INCLUDE[pn_Windows_7](../includes/pn-windows-7.md)]   |   Limited support<sup>2</sup>    |   Not supported    |  Not supported   |
 
- <sup>1</sup> This version of [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] doesn’t support the version of [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Internet Explorer 11 – FAQ for IT Pros](https://technet.microsoft.com/library/dn268945.aspx)  <br/>
+ <sup>1</sup> This version of [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] doesn’t support the version of [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Internet Explorer 11 – FAQ for IT Pros](/internet-explorer/ie11-faq/faq-for-it-pros-ie11)  <br/>
 <sup>2</sup> Supported with the classic web application. Not supported with Unified Interface apps. <br/>
-<sup>3</sup> Check requirements for individual apps, such as [Customer Service Hub application requirements](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/customer-service-hub-user-guide-basics). Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](https://docs.microsoft.com/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)<br/>
+<sup>3</sup> Check requirements for individual apps, such as [Customer Service Hub application requirements](/dynamics365/customer-engagement/customer-service/customer-service-hub-user-guide-basics). Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)<br/>
 
 > [!IMPORTANT]
 >  Although you may be able to use [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)], [!INCLUDE[pn_IE_9](../includes/pn-ie-9.md)], or an [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] combination that is not supported in the previous table, those web browsers are not recommended and are not supported with this version of Customer Engagement (on-premises).  
@@ -116,3 +116,6 @@ To find the latest release for these web browsers, visit the software manufactur
 
 ### See also  
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

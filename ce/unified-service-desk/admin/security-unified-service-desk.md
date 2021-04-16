@@ -1,8 +1,8 @@
 ---
 title: "Manage access in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to control user access to Unified Service Desk  by using configuration and security roles."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -54,3 +54,6 @@ tags: MigrationHO
  [Manage access using Unified Service Desk security roles](../../unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles.md)  
   
  [Manage access using Unified Service Desk configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

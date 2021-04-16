@@ -2,14 +2,13 @@
 title: "Customize the Dynamics 365 Sales Professional app"
 description: "Learn how to customize the Dynamics 365 Sales Professional app."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Customize the Dynamics 365 Sales Professional app
@@ -33,7 +32,7 @@ The Dynamics 365 Sales Professional application is a modular app built to provid
 
     ![Sales Professional app in the App Designer](media/app-designer-sales-professional.png "Sales Professional app in the App Designer")
  
-You can now edit the app using the app designer. To learn about how to use the app designer to edit the app module: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md).
+You can now edit the app using the app designer. To learn about how to use the app designer to edit the app module: [Design custom business apps by using the app designer](../customerengagement/on-premises/customize/design-custom-business-apps-using-app-designer.md).
 
 
 
@@ -41,3 +40,6 @@ You can now edit the app using the app designer. To learn about how to use the a
 
 [Admin settings overview](admin-settings-overview.md)    
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

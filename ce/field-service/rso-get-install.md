@@ -53,3 +53,6 @@ Microsoft employees can request resource scheduling optimization trial environme
 ## Next steps
 
 After purchasing resource scheduling optimization, follow the [resource scheduling optimization deployment steps](./rso-deployment.md). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "UII Hosted Application Toolkit (HAT) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Hosted Application Toolkit (HAT) that facilitates the task of automating the user interface (UI) of a hosted application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -25,3 +25,6 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
  [Use UII automation adapter to interact with external and web applications](../unified-service-desk/use-uii-automation-adapter-interact-external-web-applications.md)   
  [Work with HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

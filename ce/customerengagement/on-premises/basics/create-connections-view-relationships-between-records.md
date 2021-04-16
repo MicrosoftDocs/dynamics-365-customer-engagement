@@ -3,10 +3,9 @@ title: "Create connections to define relationships between records (Dynamics 365
 description: ""
 keywords: 
 ms.date: 05/05/2020
-ms.service:
-  - crm-online
+ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3cd98c0b-0599-4d96-8e9a-095e2d528a9c
 author: jimholtz
@@ -61,3 +60,6 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
 3.  Select the connection you want to deactivate or delete, and then select **Deactivate** or **Delete**.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

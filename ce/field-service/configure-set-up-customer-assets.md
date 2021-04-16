@@ -234,6 +234,11 @@ Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators
 
 - [Booking alerts](./booking-alert.md), which can display helpful reminders on the schedule board, can be related to customer assets, among many other records.
 - Field Service Mobile (Xamarin) supports [adding 3D models to customer assets](../field-service/3D-viewer.md) that serve as three-dimensional knowledge articles. 3D models give technicians a better idea of the asset they're working on.
+- Use the **Check IoT Setup** ribbon button to check for information about the IoT setup such as, is IoT deployed, are there any devices in the environment. Manually doing this refresh may display more CFS ribbon items.
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of a the "Check IoT Setup" option in the top ribbon.](./media/cfs-device-check-setup.png)
+
   
 ### See also
 
@@ -242,3 +247,6 @@ Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators
 - [Adding 3D models to customer assets](../field-service/3D-viewer.md) 
 - [Asset properties](asset-properties.md)
 - [Define asset locations with functional location](assets-functional-location.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

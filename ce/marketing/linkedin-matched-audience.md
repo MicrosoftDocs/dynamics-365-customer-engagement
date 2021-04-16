@@ -59,3 +59,6 @@ To create a LinkedIn Matched Audience from a Dynamics 365 Marketing segment:
 ### See also
 [LinkedIn Lead Gen Forms integration](linkedin-lead-gen-integration.md)  
 [Configure LinkedIn Lead Gen](linkedin-configuration.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

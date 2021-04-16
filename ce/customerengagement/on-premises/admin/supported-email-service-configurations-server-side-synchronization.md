@@ -64,3 +64,6 @@ For most situations not supported by server-side synchronization, you can use th
 ### See also  
  [Server-side synchronization](../admin/server-side-synchronization.md)   
  [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

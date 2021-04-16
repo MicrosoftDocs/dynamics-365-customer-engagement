@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Make grids (lists) editable using the editable grid custom control
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Make model-driven app grids (lists) editable using the Editable Grid custom control](/powerapps/maker/model-driven-apps/make-grids-lists-editable-custom-control)
 
 In previous releases of Dynamics 365 Customer Engagement (on-premises), users couldn't enter data directly in grids (sometimes called lists) or subgrids on forms. They had to select the record in the grid to open a form, edit the data, and then save, which required multiple steps. With editable grids, users can do rich in-line editing directly from grids and subgrids whether they're using a web app, tablet, or phone.  
   
@@ -125,11 +125,12 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
   
 4.  In the **Set Properties** dialog box, select **Controls**, select **Add Control**, and then follow the same steps listed above.  
   
-## Supported out-of-the-box entities  
-  
-||||  
-|-|-|-|  
-|**Web/tablet/phone**|**Tablet/phone only**|**Web only**|  
+## Supported out-of-the-box entities
+
+This table lists the standard entities and client types that are supported with editable grids.
+
+|**Web/tablet/phone**|**Tablet/phone only**|**Web only**|
+|-|-|-|
 |Account<br /><br /> Appointment<br /><br /> Bookable Resource<br /><br /> Bookable Resource Booking<br /><br /> Bookable Resource Booking Header<br /><br /> Bookable Resource Category<br /><br /> Bookable Resource Category Assn<br /><br /> Bookable Resource Characteristic<br /><br /> Bookable Resource Group<br /><br /> Booking Status<br /><br /> Case<br /><br /> Category<br /><br /> Characteristic<br /><br /> Competitor<br /><br /> Contact<br /><br /> Email<br /><br /> Entitlement<br /><br /> Feedback<br /><br /> Invoice<br /><br /> Knowledge Article<br /><br /> Knowledge Article Views<br /><br /> Knowledge Base Record<br /><br /> Lead<br /><br /> Opportunity<br /><br /> Order<br /><br /> Phone Call<br /><br /> Price List<br /><br /> Product<br /><br /> Queue<br /><br /> Quote<br /><br /> Rating Model<br /><br /> Rating Value<br /><br /> SLA KPI Instance<br /><br /> Social Activity<br /><br /> Social Profile<br /><br /> Sync Error<br /><br /> Task<br /><br /> Team<br /><br /> User|Activity<br /><br /> Attachment<br /><br /> Channel Access Profile Rule Item<br /><br /> Competitor Address<br /><br /> Connection<br /><br /> Connection Role<br /><br /> Email Signature<br /><br /> Email Template<br /><br /> Expired Process<br /><br /> Invoice Product<br /><br /> Knowledge Article Incident<br /><br /> Lead To Opportunity Sales<br /><br /> Process<br /><br /> Mailbox<br /><br /> New Process<br /><br /> Note<br /><br /> Opportunity Product<br /><br /> Opportunity Sales Process<br /><br /> Order Product<br /><br /> Organization<br /><br /> Phone to Case Process<br /><br /> Price List Item<br /><br /> Queue Item<br /><br /> Quote Product<br /><br /> Sharepoint Document<br /><br /> Translation Process|Campaign<br /><br /> Campaign Activity<br /><br /> Campaign Response<br /><br /> Channel Access Profile<br /><br /> Channel Access Profile Rule<br /><br /> Contract<br /><br /> Entitlement Template<br /><br /> External Party<br /><br /> Marketing List<br /><br /> Position<br /><br /> Quick Campaign<br /><br /> Recurring Appointment<br /><br /> Sales Literature<br /><br /> SLA|  
  
 ##  Data types that aren't editable in an editable grid
@@ -178,3 +179,6 @@ This functionality isn't available with the web client. However, this functional
  [Create a business rule or business recommendation](../customize/create-business-rules-recommendations-apply-logic-form.md)<br/> 
  [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)<br/>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -30,7 +30,7 @@ More information: [Create templates for articles](/power-platform/admin/create-t
 
 Knowledge article templates help knowledge authors by simplifying the process of creating knowledge articles. Templates also help knowledge managers and authors in maintaining consistency in branding, language, and structure.
 
-More information: [Create knowledge article template](/dynamics365/customer-service/create-templates-knowledge-article) in Dynamics 365 Customer Service documentation
+More information: [Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md) in Dynamics 365 Customer Service documentation
 
 ## Email templates
 
@@ -89,3 +89,6 @@ After you create and import Office Word templates into Customer Engagement, with
 
 More information: [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365) in the Power Platform admin documentation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Toolbars in Unified Service Desk | MicrosoftDocs"
 description: "Learn about configuring toolbars in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -62,3 +62,6 @@ Toolbars in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-se
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
 
  [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

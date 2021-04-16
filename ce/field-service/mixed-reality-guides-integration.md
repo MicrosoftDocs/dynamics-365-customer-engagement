@@ -80,7 +80,10 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
 
 ### See also
 
-- [Overview of Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/overview)
+- [Overview of Dynamics 365 Field Service](/dynamics365/customer-engagement/field-service/overview)
       
       
    
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

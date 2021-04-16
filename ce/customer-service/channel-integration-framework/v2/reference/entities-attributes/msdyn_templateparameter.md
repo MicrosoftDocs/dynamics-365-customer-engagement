@@ -1,8 +1,8 @@
 ---
 title: "msdyn_templateparameter Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_templateparameter entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "jdaly"
 ms.date: 11/03/2020
 ms.topic: "reference"
@@ -820,3 +820,6 @@ See msdyn_applicationtabtemplate Entity [msdyn_applicationtabtemplate_templatepa
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -25,7 +25,7 @@ The pricing engine in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)
   
  To use the custom pricing for your opportunities, quotes, orders, and invoices:  
   
-1. Set the value of the `Organization.OOBPriceCalculationEnabled` attribute to `0` (false). You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to disable system pricing. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](https://go.microsoft.com/fwlink/p/?LinkId=512492)  
+1. Set the value of the `Organization.OOBPriceCalculationEnabled` attribute to `0` (false). You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to disable system pricing. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 2. Create a plug-in that contains your custom pricing code for calculating the price for your opportunity, quote, order, or invoice.  
   
@@ -35,9 +35,12 @@ The pricing engine in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)
   
    For a sample plug-in that calculates custom pricing for opportunities, quotes, orders, and invoices, see [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md).  
   
-   If you want to revert to using the out-of-box pricing for your opportunities, quotes, orders, and invoices, set the value of the `Organization.OOBPriceCalculationEnabled` attribute to `1` (true). You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] to enable system pricing. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](https://go.microsoft.com/fwlink/p/?LinkId=512492)  
+   If you want to revert to using the out-of-box pricing for your opportunities, quotes, orders, and invoices, set the value of the `Organization.OOBPriceCalculationEnabled` attribute to `1` (true). You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] to enable system pricing. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 ### See also  
  [Product pricing methods](product-pricing-methods.md)   
  [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

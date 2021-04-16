@@ -56,7 +56,7 @@ These entities and corresponding commands are available in offline mode.
 
 ## Supported  capabilities 
 
-- **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
+- **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 
 - **Business Process Flows**: You can use business process flows in offline mode if the following conditions are met:
 
@@ -70,7 +70,7 @@ These entities and corresponding commands are available in offline mode.
     - Previous stage
     - Set Active stage
 
-For more information, see [Run business process flows offline](https://docs.microsoft.com/power-automate/business-process-flows-overview#run-business-process-flows-offline).
+For more information, see [Run business process flows offline](/power-automate/business-process-flows-overview#run-business-process-flows-offline).
 
 - **Lookup support**: Lookups are supported for the entities that are mobile offline-enabled. All the entities participating in the lookup should also be offline-enabled.
 
@@ -86,8 +86,6 @@ For more information, see [Run business process flows offline](https://docs.micr
 
 
 ## Limitations 
-
-- **Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
 
 - **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
@@ -115,6 +113,7 @@ For more information, see [Run business process flows offline](https://docs.micr
 
 - **Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
 
+- **Web resources**: Web resources are currently not supported in the iOS platform for mobile offline.
 
 ## Tips
 
@@ -163,3 +162,6 @@ Ensure that you have configured at least one of the Profile rules for each entit
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

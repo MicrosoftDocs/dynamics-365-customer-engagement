@@ -1,25 +1,20 @@
 ---
 title: "Close opportunities as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
-ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 02/10/2021
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
-# Close opportunities as won or lost (Sales and Sales Hub)
+# Close opportunities as won or lost (Sales Hub)
 
 If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.  
   
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
-   
-   OR
-
-   In the Sales module, go to **Sales** > **Opportunities**.
-  
+    
 2. Open the opportunity you want to edit.  
   
 3. At the top of the **Opportunity** form, do one of the following:  
@@ -62,10 +57,6 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
    
-   OR
-
-    In the Sales module, go to **Sales** > **Opportunities**.
-
 2. To see all the closed opportunities, in the view selector, select the **Closed Opportunities** view.  
 
     > [!div class="mx-imgBorder"]  
@@ -74,6 +65,8 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 3. Select the opportunity that you want to reopen, and on the command bar, select **Reopen Opportunity**. The reopened opportunities start appearing in the open opportunities list.
   
 ### See also  
- [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
- [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
+ [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)    
  [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

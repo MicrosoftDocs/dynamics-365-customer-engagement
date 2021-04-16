@@ -1,8 +1,8 @@
 ---
 title: "Architecture overview of Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
 description: "Learn the architecture overview of Dynamics 365 Channel Integration Framework version 1.0."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: get-started-article
@@ -41,3 +41,6 @@ The Cloud Channel Provider is the service that you want to integrate and interac
 ## See also
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

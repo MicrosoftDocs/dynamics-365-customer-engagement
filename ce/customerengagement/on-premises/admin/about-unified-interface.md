@@ -90,7 +90,7 @@ There are certain capabilities that continue to be unavailable in the Unified In
 There are certain entities that are currently read-only on Unified Interface. Users will not be able to make changes to these entity records within an Unified Interface app.
 
 > [!NOTE]
-> Some entities are being deprecated. Check out [Important changes (deprecations) coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated).
+> Some entities are being deprecated. Check out [Important changes (deprecations) coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#contracts-contract-line-items-and-contract-templates-entities-are-deprecated).
 
 The following are entities that are currently read-only in Unified Interface:
 
@@ -108,3 +108,6 @@ The following are entities that are currently read-only in Unified Interface:
 - Case Resolution
 - Service
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Make sure that you have the required security role or equivalent permissions.
 ### See also
 
 [Service Scheduling overview](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

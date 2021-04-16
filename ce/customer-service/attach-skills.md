@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Attach skills to conversation
+# Attach skills to conversation in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -134,3 +134,6 @@ To attach skills, you need a workstream record. You can either create or use an 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

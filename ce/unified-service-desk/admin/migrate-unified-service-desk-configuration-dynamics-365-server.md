@@ -1,8 +1,8 @@
 ---
 title: "Migrate your Unified Service Desk  configuration to another instance | MicrosoftDocs"
 description: "Learn how to move a Unified Service Desk  configuration to another instance."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -51,3 +51,6 @@ After you have completed the development or configuration of your agent applicat
  [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  
   
  [Import Unified Service Desk configuration data](../../unified-service-desk/admin/import-unified-service-desk-configuration-data.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

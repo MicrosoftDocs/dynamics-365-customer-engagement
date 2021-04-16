@@ -1,8 +1,8 @@
 ---
 title: "Configure client caching in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set client caching."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -182,3 +182,6 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
  
  [Add a UII action to a hosted control](../../unified-service-desk/add-uii-action-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

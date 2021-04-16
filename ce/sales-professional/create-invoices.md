@@ -2,12 +2,18 @@
 title: "Create and manage invoices in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Bill your customers for upcoming sales by using invoices in Dynamics 365 Sales Professional."
 ms.date: 07/21/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create and manage invoices in Dynamics 365 Sales Professional
@@ -114,3 +120,6 @@ To directly send an email to a customer with an invoice attached, open the invoi
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

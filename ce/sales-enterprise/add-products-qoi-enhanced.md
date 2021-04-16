@@ -1,13 +1,12 @@
 ---
-title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales."
-ms.date: 01/08/2021
-ms.service:
-  - "dynamics-365-sales"
+title: "Enhanced experience for Adding products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
+ms.date: 04/02/2021
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
@@ -22,147 +21,115 @@ searchScope:
   - Sales
 ---
 
-# Preview: Add products to quotes, orders, or invoices (Sales Hub)
+# Preview: Add products to quotes, orders, or invoices by using the enhanced experience
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or one that you add as a write-in product.
+As a salesperson, you want to be able to easily identify and add products from the catalog to quotes, orders, or invoices. With the enhanced experience of adding products, you can:
 
-With the enhanced experience of adding products, salespeople can:
+- Quickly find products from the catalog, based on free-text search.
 
--  Quickly find products from the catalog based on free-text search, or filter products based on the product family or views.
+- See matching products as you enter text in the search field.
 
--  See the most-recently-used list of products while adding multiple products.
+- Pick products from the categorized list of product families.
 
--  View product details inline and compare products before selecting any, which helps them find the right product.
+- See the most recently used list of products while you add multiple products.
 
--  Select and add multiple products in one go.
+- View product details inline and compare products before selecting any, which helps you find the right product.
 
--  Add write-in products in just a few clicks.
+- Select and add multiple products at one go.
 
--  Specify price, quantity, and any other required information as configured by your system administrator.
+- Add write-in products by using as few clicks as possible.
+
+- Specify price, quantity, and any other required information as configured by your system administrator.
 
 > [!IMPORTANT]
+>
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 If you've created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
 
-> [!NOTE]
-> The process for adding a product to a quote record is the same as adding a product to an order or an invoice. This topic explains how to add products to a quote record.
-
-1. From the list of quotes, open the record to which you want to add the product.
-
-2. On the **Summary** tab, in the **Products** section, select the **More commands** icon ![More commands button](media/more-commands-icon.png "More Commands button"), and then select **Add products**.
-
-    The **Add products** dialog box opens.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Add products dialog box](media/add-products-qoi-dialog-box.png "Add products dialog box")
-
-    You can use this dialog box to edit line item details (product details) inline and also select multiple products at once. It has four tabs:
-
-    - **Products**: This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with entering the product name, you can also enter the price per unit and quantity. By default, 25 products are shown. On this tab, you can search and filter the list of products and select the one you want to add.
-
-      If you've selected a price list for the quote, the product list is filtered to show only those product records that have the same price list associated.
-
-      > [!IMPORTANT]
-      > The columns that you see in the dialog box are based on the columns defined in the **Quote products Add products** view. Your system administrator can customize this view to add the columns that are most useful for your business. For order products or invoice products, the columns are defined in the **Order products Add products** or **Invoice products Add products** views, respectively.
-    
-    - **Recently used**: This tab lists the last 15 products that the currently signed-in user has added to the quote.
-    
-    - **Write-in**: On this tab, you can create and add a write-in product.
-    
-    - **Selected**: This tab shows the count of the products selected to be added to the quote. Use this tab to verify or modify the final list of the items you've selected.
-
-3.  Search for and select the products you want to add, and then select **Add to quote**. When adding a product to an order or invoice, the button is named **Add to order** or **Add to invoice**, respectively.
-
-
-## Search for products
-
-On the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or the **Enter** key. The products matching the search criteria are shown.
-
-> [!div class="mx-imgBorder"]  
-> ![Search box on the Products tab](media/search-for-products-qoi.png "Search box on the Products tab")
-
-The search capability searches for the keyword in the product names or the fields of **Single Line of Text** or **Multiple Lines of Text** in the **Quick Find View** of the product table (entity). The search is performed by using the **Contains** search operator. This means that search results will show all the products that contain the keyword in one of the supported fields.
-
-Here's how the search results are ranked:
-
-- The records that have values that exactly match the keywords are shown first.
-
-- The records that broadly match the keywords are shown next. For example, if you enter **Windows 8.1** as the search keyword, product records that contain either **Windows** or **8.1** in the name or other supported fields are shown.
-
-## Filter products
-
-The following filters are available to enable you to further narrow your search:
-
-- **Product family**: Use this filter to see products in a specific product family. All product families in the **Active** or **Under revision** state are shown.
-- **Views**: Use this filter to see products in a specific saved view or user view. You can create a new view for the product table (entity).
-
-> [!div class="mx-imgBorder"]  
-> ![Product family and View product filters](media/filter-products-qoi-enhanced.png "Product family and View product filters")
+## Add products to a quote, order, or invoice
 
 > [!NOTE]
-> Search and filters work in conjunction. For example, if you've searched for a keyword and 50 results are showing, you can use a filter on top of this to further narrow your search.
+> The process of adding a product to a quote is the same as adding a product to an order or an invoice. This procedure explains how to add products to a quote.
 
-## See product details (applies both to Products and Recently used tabs)
+1. Open the quote to which you want to add products.
 
-Additional details of the product&mdash;like product name and ID&mdash;are shown inline below the product name. These additional details help salespeople identify the correct product. The data shown here is based on the columns (fields) added in the **Product Lookup view** of the product table (entity). Your system administrator or system customizer can customize this view to add other fields that are relevant for your business.
+2. On the **Summary** tab, select a **Price list**.  
+   The price list determines the cost of the product and the products you can select.
+   > [!NOTE] 
+   > By default, you must select a price list to be able to add products to
+   > the quote; however, your administrator can change the product
+   > catalog settings to make the **Price list** field optional. 
 
-> [!div class="mx-imgBorder"]  
-> ![Product details](media/add-products-product-details.png "Product details")
+3. In the **Products** grid, select **Add products**.
+   The **Add products** dialog box opens.
+ 
+   ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
 
-## Select products to add
+   > [!NOTE]
+   > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview. 
+   >
+   > The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
 
-**To select an existing product**
+4. Use one of the following options to identify and add products:
 
-1. Go to the **Products** tab or the **Recently used** tab.
-1. Select the check box next to the product that you want to add, and then enter the quantity of product. If you edit a row&mdash;for example, by entering a quantity for a product&mdash;that product is automatically selected.
+   - If you know the product names, simply search for them and add.
+   - If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
-   > [!div class="mx-imgBorder"]  
-   > ![Select the product to add](media/select-products-to-add-enh.png "Select the product to add")
+     > [!NOTE]
+     > The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
 
-1. Do one of the following:
+    > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
 
-    - If the product has a default price list associated with it, the **Price per unit** is populated in accordance with the associated price list. Enter the quantity.
+   - If you want to add products that you have recently chosen for another entity, open the **Recently used** tab.
 
-       > [!NOTE]
-       > To be able to override the default price of a product, the administrator must add the **Price Overridden** column (field) to the grid. After the **Price Overridden** column has been added, select **Override Price**.
+   - If you want to add a product or service that is not in the standard product catalog but is specific to the quote, open the **write in** tab and create a product on-the-fly.
+    > [!IMPORTANT]
+    >Do not use the write in option for standard products and services that your organization offers.
 
-    - If the product doesn't have an associated price list, enter the price per unit and quantity.
+5. In the **Price per unit** column, do one of the following:
 
-**To add a write-in product**
+   - If the product doesn't have an associated price list, enter the price manually.
+   - If the product has a default price list associated with it, **Price per unit** is populated in accordance with the associated price list. 
 
-1. Go to the **Write-in** tab.
+     > [!TIP] 
+     > If you want to override the default price of a product, request your administrator to add the **Price overridden** column to the grid. After the **Price overridden** column has been added, turn it on.
 
-2. Select **Write-in product**, and then enter the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
+6. Enter the quantity you want, and then select **Add**.
 
-   > [!div class="mx-imgBorder"]  
-   > ![Add a write-in product](media/add-write-in-product-enh.png "Add a write-in product")
+7. Repeat steps 4 through 6 for each product you want to add.
 
-## Review selected products
+8. When you're done, select **Save to quote**.
 
-When you select a product to add, a count is added to the **Selected** tab at the top of the screen. The count represents the number of products selected. On the **Products** tab or the **Recently used** tab, a check mark is shown for all the products that you've selected.
+## Remove products from a quote, order, or invoice
 
-> [!div class="mx-imgBorder"]  
-> ![Review selected products](media/review-selected-products-enh.png "Review selected products")
+> [!NOTE] 
+> The process for removing a product from a quote is the same as removing a product from an order or an invoice. This procedure explains how to remove products from a quote.
 
-> [!NOTE]
-> On the **Selected** tab, you can also change the details of the selected products.  
+Remove products if you've selected them inadvertently or they're
+no longer relevant for the quote. You can remove products in two circumstances:
 
-## Remove selected products
+- While adding products to the quote, by using the **Add products** dialog box
+- After you've added products to the quote, in the **Products** section of the quote
 
-You can easily remove products that you selected earlier but don't need anymore.
+**To remove a product from the Add products dialog box**
 
-To remove a product from the selection, go to the **Selected** tab. For the product that you want to remove, select the **Delete product** icon.
+1. In the **Add products** dialog box, select the **Selected** tab.
 
-> [!div class="mx-imgBorder"]  
-> ![Remove selected products](media/remove-selected-products-enh.png "Remove selected products")
+2. Next to the product you want to remove, select **Remove**.
+
+**To remove a product from the Products section**
+
+1. Open the quote, go to the **Products** section.
+
+2. Select the products that you want to remove, and then select **Delete quote product**.
+    The selected products will be removed from the quote after you confirm the deletion.
 
 ### See also
 
-[Add products to quotes, orders, or invoices](add-product-quote-order-invoice.md)  
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add Products dialog box](customize-add-products-dialog-box.md)

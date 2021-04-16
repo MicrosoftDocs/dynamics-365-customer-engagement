@@ -1,8 +1,8 @@
 ---
 title: "Use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
 description: "Learn how to use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework version 2.0"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/19/2020
 ms.topic: article
@@ -125,3 +125,6 @@ Session title = `Chat conversation`
 [Manage notification templates](notification-templates-cif.md)
 
 [Associate templates with workstreams](associate-templates-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

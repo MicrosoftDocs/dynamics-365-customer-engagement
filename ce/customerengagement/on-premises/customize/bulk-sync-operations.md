@@ -77,7 +77,7 @@ The SDK now contains the **SyncBulkOperationRequest** and **SyncBulkOperationRes
 
    Name|Description
    ----|-----
-   QuerySet| It's exactly like the QuerySet field used in [BulkDeleteRequest](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/gg326451%28v%3dcrm.8%29)
+   QuerySet| It's exactly like the QuerySet field used in [BulkDeleteRequest](/previous-versions/dynamicscrm-2016/developers-guide/gg326451%28v%3dcrm.8%29)
    OperationType| This is an integer 0, 1, or 2 that represents the operation types of pause, resume, and cancel, respectively.
 
 
@@ -92,3 +92,6 @@ The SDK now contains the **SyncBulkOperationRequest** and **SyncBulkOperationRes
 1.	**When to run**: Since operations can take significant time and resources, consider running these operations outside of business hours. The browser window remains busy until the job completes.
 1.	**Batch and Limit sizes**: The operations run in batches (default 500) for a maximum number of records (default 10000). These are defined in the Organization DB under OrganizationBase as SyncBulkOperationBatchSize and SyncBulkOperationMaxLimit. These values have been selected as the default based numerous studies on how many operations can be done without breaking the Async Service. Generally, higher numbers are not advised.
 1.	**Async Service Health**: If the Async Service is already exhibiting degradation (slowness, failures, etc.), seek customer support.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ To **delete**, select and highlight the time-off and select the delete icon.
     
 - [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

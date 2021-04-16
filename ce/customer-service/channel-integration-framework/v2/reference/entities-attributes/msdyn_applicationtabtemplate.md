@@ -1,8 +1,8 @@
 ---
 title: "msdyn_applicationtabtemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_applicationtabtemplate entity."
-author: "v-sailab"
-ms.author: "v-sailab"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "jdaly"
 ms.date: 10/21/2020
 ms.topic: "reference"
@@ -911,3 +911,6 @@ See msdyn_sessiontemplate Entity [msdyn_sessiontemplate_applicationtab](msdyn_se
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

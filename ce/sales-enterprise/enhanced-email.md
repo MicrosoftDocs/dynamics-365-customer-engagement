@@ -2,11 +2,10 @@
 title: "Send email using the enhanced email experience (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced email experience to compose an email without leaving the context of what you are working on."
 ms.date: 12/02/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -34,3 +33,6 @@ For more information about the email functionality, see [Use email](../customer-
 
 [Set up enhanced email](set-up-enhanced-email.md)<br>
 [Troubleshooting issues with email](ts-email.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

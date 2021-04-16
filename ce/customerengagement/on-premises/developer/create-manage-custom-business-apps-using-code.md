@@ -265,10 +265,13 @@ Use the DELETE request to delete a business app. For example:
 
 You can use the following client APIs to work with business apps:
 
-- [getCurrentAppName](clientapi/reference/xrm-utility/getglobalcontext/getcurrentappname.md)
-- [getCurrentAppProperties](clientapi/reference/xrm-utility/getglobalcontext/getCurrentAppProperties.md)
-- [getCurrentAppUrl](clientapi/reference/xrm-utility/getglobalcontext/getCurrentAppUrl.md) 
+- [getCurrentAppName](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppName)
+- [getCurrentAppProperties](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppProperties)
+- [getCurrentAppUrl](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppUrl) 
   
 ### See also  
 [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

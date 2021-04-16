@@ -45,3 +45,6 @@ You signed in to Unified Service Desk - Omnichannel for Customer Service applica
 
 - [Omnichannel for agents](omnichannel-agent.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

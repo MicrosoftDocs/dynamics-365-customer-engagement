@@ -31,7 +31,7 @@ Dynamics 365 Field Service inventory capabilities include:
 - Returns
 - Inventory journals
 
-For basic inventory requirements, many organizations utilize the above capabilities included with Field Service. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. A common example is integrating with [Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/sales-marketing/prospect-to-cash) using a pre-built [common data service "prospect to cash" template](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
+For basic inventory requirements, many organizations utilize the above capabilities included with Field Service. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. A common example is integrating with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) using a pre-built [common data service "prospect to cash" template](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
 
 ## Prerequisites
 
@@ -149,3 +149,5 @@ Most importantly, inventory journals are sometimes used to integrate Field Servi
 
 - [Products and services](./create-product-or-service.md)
 - [Manual inventory journals](./manual-inventory-journals.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

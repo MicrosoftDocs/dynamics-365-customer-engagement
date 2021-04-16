@@ -23,6 +23,8 @@ search.app:
 
 # Install and configure the Gamification solution
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 The [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] capabilities are a solution for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], hosted on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)], that you need to install before you can start using the capabilities to manage your [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] games, KPIs, and players.  
   
 ## Prerequisites  
@@ -88,7 +90,7 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
 When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Game Manager** is created in Dynamics 365. System admins can assign this security role to users who the admins want to enable to create KPIs.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Available security roles in Gamification](understand-security-roles.md)  
- More information about security roles and privileges: [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  
+ More information about security roles and privileges: [TechNet: Security roles and privileges](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531090(v=crm.8))  
 More information about KPIs in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]: [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md) 
 
 ## Gamification app access security role
@@ -140,7 +142,7 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
 
 - The user profile in Microsoft 365 has a non-empty first name, last name, email address 
 - The user has a global admin role in Microsoft 365 
-- The user has a system administrator security role with an [access mode of Read-Write](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-read-write-user-account).
+- The user has a system administrator security role with an [access mode of Read-Write](/power-platform/admin/create-users-assign-online-security-roles#create-a-read-write-user-account).
 
 > [!TIP]
 > Starting with Gamification solution update 17.10, you can connect multiple organizations (business units) of the same Microsoft 365 tenant to a shared Gamification web portal. Repeat the installation and activation for every organization you want to connect to your shared Gamification portal. Users with the Game Manager security role in Organization A can create games for Organization A in Gamification. If they are regular users in Organization B, they can participate as players or fans in games in Organization B. [Learn how to set up and run games.](run-games.md)
@@ -205,7 +207,7 @@ If an update is available, a notification is displayed on the **Gamification Set
 
 ## Uninstall the Gamification solution
 
-You need to remove **GamificationUpdate** *before* you remove **Gamification**. More information about removing a preferred solution: [Delete a preferred solution](https://technet.microsoft.com/library/dn878909.aspx#Delete%20a%20preferred%20solution)
+To uninstall Gamification, delete the **GamificationUpdater** and **Gamification** solutions from the Dynamics 365 organization. Note that you must first delete the **GamificationUpdater** solution followed by the **Gamification** solution. More information about removing a preferred solution: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution)
 
 ## Privacy notice  
 
@@ -219,3 +221,6 @@ You need to remove **GamificationUpdate** *before* you remove **Gamification**. 
  [Set up and run games in Gamification](run-games.md)   
  [Troubleshooting guide](troubleshooting-guide.md)    
  [Privacy information and license terms for Gamification](legal-information.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

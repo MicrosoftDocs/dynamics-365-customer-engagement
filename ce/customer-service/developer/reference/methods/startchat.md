@@ -1,8 +1,8 @@
 ---
 title: "startChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 07/08/2020
 ms.topic: article
@@ -43,3 +43,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [setAuthTokenProvider](setAuthTokenProvider.md)<br />
 [setContextProvider](setContextProvider.md)<br />
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

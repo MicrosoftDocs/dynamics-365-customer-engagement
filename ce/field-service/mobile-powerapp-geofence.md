@@ -45,9 +45,9 @@ In this article, we look at how to configure and use geofences by:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of geofence solutions appearing in the solution list in Dynamics 365.](./media/mobile-geofence-solutions.png)
 
-- [Connect to Bing Maps](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts and work orders to later place geofences around.
+- [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts and work orders to later place geofences around.
    
-- [Set auto geocode addresses to **yes**](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
+- [Set auto geocode addresses to **yes**](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
 
 - [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking.
 
@@ -72,7 +72,7 @@ Go to **Settings** > **Processes** and **Activate** the following processes. The
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings, showing a list of processes.](./media/mobile-2020-geofence-processes.png)
 
-If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#other-settings), enable the geofence Power Automate flows.
+If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows.
 
 1. Go to https://make.powerapps.com/ and select your environment.
 2. Go to **Solutions** > **Geofencing for Field Service**.
@@ -184,3 +184,5 @@ When the technician leaves the geofence, another "exit" event will be created.
 ### See also
 
 - [Geofencing for Field Service Mobile (Xamarin) app](field-service-mobile-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

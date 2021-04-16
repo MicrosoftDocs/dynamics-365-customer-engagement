@@ -39,3 +39,6 @@ search.audienceType:
 4.  The **Form Order** dialog is a simple list where you can move a selected form up or down in the form order.  
   
 5.  After you have set the order you want, click **OK** to close the dialog.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

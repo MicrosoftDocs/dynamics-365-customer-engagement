@@ -83,7 +83,7 @@ Segments, customer journeys, and other Dynamics 365 Marketing features require t
 
 To solve this, you can use Dynamics 365 custom workflows to automatically generate and link a contact record for each new or existing unmatched lead record. To create the link, populate the `parentcontactid` field of each lead record with the GUID of the relevant contact record (this field is labelled as **Parent contact for lead** when you're designing a workflow in the UI). This field connects to the contact record through an N:1 relation called `lead_parent_contact`.
 
-For more information about workflows, start with the [Classic Dataverse workflows](https://docs.microsoft.com/flow/workflow-processes).
+For more information about workflows, start with the [Classic Dataverse workflows](/flow/workflow-processes).
 
 Also, any user can manually select or create a contact for a lead by using the **Inquiry** stage of the **Lead to opportunity marketing sales process** business process on the lead record.
 
@@ -106,3 +106,6 @@ In the current version of Dynamics 365 Marketing, the techniques described here 
 - A built-in feature that creates and associates contacts when you import large numbers of leads at once.
 
 Going forward, we will continue to gather market feedback to identify solutions for business scenarios that still are not supported by this marketing model.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

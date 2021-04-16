@@ -1,8 +1,8 @@
 ---
 title: "Display custom context | Microsoft Docs"
 description: "Read how you can send display custom context on the UI"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/29/2019
 ms.topic: reference
@@ -22,3 +22,6 @@ For more information, see [setContextProvider method](developer/reference/method
 
 [Manage custom context](send-context-starting-chat.md)<br />
 [setContextProvider](developer/reference/methods/setContextProvider.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

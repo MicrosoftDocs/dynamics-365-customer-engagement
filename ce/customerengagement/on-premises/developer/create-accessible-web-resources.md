@@ -41,23 +41,23 @@ When you include web resources that provide user interface elements in your solu
   
  The first thing to consider is making sure that your HTML follows expected patterns of usage. For example, you can define an HTML `div` element with a click event so that it functions exactly like an HTML `button` element. However, the browser will not expect that a `div` element is being used as a button and will not expose the same properties and events to an AT application.  
   
- It is important that you use the correct HTML elements for the types of interactions users will have with your web resources. This is known as [semantic HTML](https://msdn.microsoft.com/gg671917.aspx).  
+ It is important that you use the correct HTML elements for the types of interactions users will have with your web resources. This is known as [semantic HTML](/microsoft-edge/accessibility/).  
   
- However, semantic HTML can only go so far. Modern web applications typically include custom controls that are composed of many HTML elements working together. Page content that is frequently updated dynamically using asynchronous [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is confusing for AT applications that rely only on semantic HTML. [Accessible Rich Internet Applications (ARIA)](https://msdn.microsoft.com/gg671918.aspx) technology provides a solution by extending HTML with additional attributes that communicate custom semantics.  
+ However, semantic HTML can only go so far. Modern web applications typically include custom controls that are composed of many HTML elements working together. Page content that is frequently updated dynamically using asynchronous [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] is confusing for AT applications that rely only on semantic HTML. [Accessible Rich Internet Applications (ARIA)](/microsoft-edge/accessibility/) technology provides a solution by extending HTML with additional attributes that communicate custom semantics.  
   
  ARIA provides a standard set of extended attributes that can be applied to HTML elements that are used in a control, or “widget.” These attributes describe the role that the HTML element plays in the control. ARIA also provides capabilities to improve the navigation experience and make the user aware of elements that may be updated dynamically. The recommended practice is to layer ARIA over semantic HTML.  
   
- In addition to including support for AT, there are other requirements you have to consider. For example, how does the UI adjust when the user increases the text size? Does your UI require that the user be able to differentiate colors to perform tasks? Can all actions be performed by using a keyboard? For more information, see [Introduction to Web Accessibility](https://msdn.microsoft.com/windows/gg671915).  
+ In addition to including support for AT, there are other requirements you have to consider. For example, how does the UI adjust when the user increases the text size? Does your UI require that the user be able to differentiate colors to perform tasks? Can all actions be performed by using a keyboard? For more information, see [Introduction to Web Accessibility](/previous-versions/windows/apps/hh452681(v=win.10)).  
   
 <a name="BKMK_SilverlightWebResources"></a>   
 ## Accessible Silverlight web resources  
- [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources are hosted in a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] form or an HTML web resource and the UI is rendered by the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] browser plug-in. [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] is a subset of the Windows Presentation Framework (WPF) and therefore programmatic access and AT are exposed by using UIA that resembles WPF windows applications. For more information, see [Silverlight Accessibility for Developers](https://msdn.microsoft.com/windows/gg591270).  
+ [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources are hosted in a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] form or an HTML web resource and the UI is rendered by the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] browser plug-in. [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] is a subset of the Windows Presentation Framework (WPF) and therefore programmatic access and AT are exposed by using UIA that resembles WPF windows applications. For more information, see [Silverlight Accessibility for Developers](/previous-versions/windows/).  
   
 <a name="BKMK_AccessiblityTestingTools"></a>   
 ## Accessibility testing tools  
  The following list provides some publicly available accessibility testing tools:  
   
- [Visual Studio Accessibility Checker](https://msdn.microsoft.com/library/ms228004)  
+ [Visual Studio Accessibility Checker](/previous-versions/ms228004(v=vs.140))  
  If you are using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] to edit your HTML web resource files, you will find that there are built-in tools to check for issues related to accessibility. In the **Tools** menu, select **Check Accessibility** to see a report that will provide guidance about accessibility related issues.  
   
  [UI Accessibility Checker](https://acccheck.codeplex.com/)  
@@ -75,13 +75,13 @@ When you include web resources that provide user interface elements in your solu
   
 -   [CRM, Accessibility, and 508](https://blogs.msdn.com/b/devkeydet/archive/2013/01/29/crm-accessibility-and-508.aspx)  
   
--   [Introduction to Web Accessibility](https://msdn.microsoft.com/windows/gg671915)  
+-   [Introduction to Web Accessibility](/previous-versions/windows/apps/hh452681(v=win.10))  
   
--   [Accessibility in Visual Studio and ASP.NET](https://msdn.microsoft.com/library/ms228004)  
+-   [Accessibility in Visual Studio and ASP.NET](/previous-versions/ms228004(v=vs.140))  
   
--   [Silverlight Accessibility for Developers](https://msdn.microsoft.com/windows/gg591270)  
+-   [Silverlight Accessibility for Developers](/previous-versions/windows/)  
   
--   [Accessibility Overview](https://msdn.microsoft.com/windows/bb735024.aspx)  
+-   [Accessibility Overview](/windows/apps/accessibility)  
   
 -   [Accessibility - W3C](https://www.w3.org/standards/webdesign/accessibility)  
   
@@ -91,3 +91,6 @@ When you include web resources that provide user interface elements in your solu
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

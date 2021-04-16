@@ -1,10 +1,10 @@
 ---
 title: "Unified Service Desk release notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/06/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
@@ -17,11 +17,27 @@ search.app:
 
 # Unified Service Desk known issues and limitations
 
+::: moniker range="dynamics-usd-4.2"
+
+## Unified Service Desk 4.2 
+
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+## Unified Service Desk encounters a non-fatal error
+
+While hosting web applications using the Edge WebView2 Process, Unified Service Desk crashes intermittently. However, the crash is non-fatal.
+<br>
+![Unified Service Desk fatal error](media/unified-service-desk-fatal-error.PNG "Unified Service Desk fatal error")
+
+**Workaround**
+Select **No** to continue using Unified Service Desk, or select **Yes** to restart Unified Service Desk. 
+
+::: moniker-end
+
 
 ::: moniker range="dynamics-usd-4.1"
 
-## Unified Service Desk 4.1 known issues and limitations
+## Unified Service Desk 4.1 
 
 ### Field values aren't populated in a new tab while a related record is being opened from the current page
 
@@ -89,7 +105,7 @@ Microsoft.Crm.UnifiedServiceDesk    Error    2     Message: Origin:USD
    at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
 ```
 
-More information: [WPF Render Thread Failures](https://docs.microsoft.com/archive/blogs/dsui_team/wpf-render-thread-failures)
+More information: [WPF Render Thread Failures](/archive/blogs/dsui_team/wpf-render-thread-failures)
 
 **Workaround:**
 
@@ -171,7 +187,7 @@ When you use **Chrome Process** to host applications in Unified Service Desk, if
 
 When you integrate a channel with Unified Service Desk by using Dynamics 365 Channel Integration Framework, and if that channel doesn't work on the Chromium browser (which is based on Chromium Embedded Framework), you might not have access to the microphone and webcam.
 
-### Preview: Edge Process
+### Edge Process
 
 #### Support for the CloseAndPrompt action in Edge Process
 
@@ -298,7 +314,7 @@ The following audio file types aren't supported in Unified Service Desk:
 
 ::: moniker range="dynamics-usd-4"
 
-## Unified Service Desk 4.0 known issues and limitations
+## Unified Service Desk 4.0 
 
 ### Selecting articles from the Unified Interface KM Control in Unified Service Desk displays an error
 
@@ -399,7 +415,7 @@ You can add an action call to another call by using the Unified Service Desk con
 
 ### Support for relevance search (search technique) in Unified Interface KM Control
 
-The **Unified Interface KM Control** supports [full-text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search?view=sql-server-2017) but doesn't support relevance search. For more information about the availability of relevance search, go to [Relevance search for knowledge management](https://docs.microsoft.com/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
+The **Unified Interface KM Control** supports [full-text search](/sql/relational-databases/search/full-text-search?view=sql-server-2017) but doesn't support relevance search. For more information about the availability of relevance search, go to [Relevance search for knowledge management](/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
 ### Quick create in the Unified Service Desk Administrator app
 
@@ -455,7 +471,7 @@ In the hosted control configuration of the URL, set `cmdbar=true`.
 
 ::: moniker range="dynamics-usd-3"
 
-## Unified Service Desk 3.3 known issues and limitations
+## Unified Service Desk 3.3 
 
 This section describes the known issues and limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
@@ -583,7 +599,7 @@ In this step, you create a navigation rule and set it to occur before other defa
 
 Now when you open a webpage, it will open in a new pop-up window.
 
-More information: [Unified Service Desk Best Practices – Open PDF Files in an IE Process Hosted Control](https://blogs.msdn.microsoft.com/usd/2017/09/27/unified-service-desk-best-practices-part-5-open-pdf-files-in-an-ie-process-hosted-control/)
+More information: [Unified Service Desk Best Practices – Open PDF Files in an IE Process Hosted Control](/archive/blogs/usd/unified-service-desk-best-practices-part-5-open-pdf-files-in-an-ie-process-hosted-control)
 
 ### Unified Service Desk crashes during sign-in
 
@@ -624,3 +640,6 @@ In the hosted control configuration of the URL, set `cmdbar=true`.
 [Improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
 
 ::: moniker-end
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

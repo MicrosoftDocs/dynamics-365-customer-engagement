@@ -1,8 +1,8 @@
 ---
 title: "Cache-specific configuration for agents in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about cache-specific configuration for agents in the configuration of Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/10/2019
 ms.topic: article
@@ -97,3 +97,6 @@ For example, for a user called agent1 running the Unified Service Desk client ap
 [Configure client caching in Unified Service Desk](configure-client-caching-unified-service-desk.md)
 
 [Manage access using Unified Service Desk configuration](manage-access-using-unified-service-desk-configuration.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

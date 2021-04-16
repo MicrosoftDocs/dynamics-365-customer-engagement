@@ -69,3 +69,6 @@ This topic focuses on how to create a system dashboard. To create a user dashboa
 ### See also  
 [Set properties for a chart or list included in a dashboard](set-properties-chart-list-included-dashboard.md) <br />
 [Configure interactive experience dashboards](configure-interactive-experience-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

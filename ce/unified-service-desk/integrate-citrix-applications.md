@@ -1,8 +1,8 @@
 ---
 title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/21/2020
 ms.topic: article
@@ -27,7 +27,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
   
  The [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application hosted  in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client uses the Independent Computing Architecture (ICA) protocol to remotely communicate with the application on a [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] server. A Citrix .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
   
- For more information about integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)], see [Blog: Citrix and Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/13/citrix-and-unified-service-desk/)  
+ For more information about integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)], see [Blog: Citrix and Unified Service Desk](/archive/blogs/usd/citrix-and-unified-service-desk)  
   
  This topic provides information about configuring server- and client-side components for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications, sample [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] adapters, and some best practices.  
   
@@ -203,7 +203,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 
    You can then use one of the standard [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] logging providers, for example, (the file logging provider, to write the trace logs to a file. The traces will also appear in any attached debuggers. The same settings on the client-side (UnifiedServiceDesk.exe.config file) will activate tracing on the client-side.
 
-- In Windows, multiple processes running the same program share their memory pages that contain executable code. The nature of .NET programs is that the just-in-time (JIT) compiler compiles the intermediate language (IL) to machine instructions (executable code) at runtime when the application is launched. This runtime compiling prevents the sharing of otherwise identical code pages, which prevents the code page sharing optimization. Because the server-side executable (Microsoft.Uii.Csr.CitrixIntegration.exe) is a .NET program where multiple instances can be running on a single computer, it will be effective to leverage the [Ngen.exe (Native Image Generator)](https://msdn.microsoft.com/library/6t9t5wcf.aspx) tool to create native images of the dependent assemblies for the server-side executable, and install them into the native image cache on the local computer. This will facilitate better server resource utilization by using native images from the cache instead of using the JIT compiler to compile the original assembly.
+- In Windows, multiple processes running the same program share their memory pages that contain executable code. The nature of .NET programs is that the just-in-time (JIT) compiler compiles the intermediate language (IL) to machine instructions (executable code) at runtime when the application is launched. This runtime compiling prevents the sharing of otherwise identical code pages, which prevents the code page sharing optimization. Because the server-side executable (Microsoft.Uii.Csr.CitrixIntegration.exe) is a .NET program where multiple instances can be running on a single computer, it will be effective to leverage the [Ngen.exe (Native Image Generator)](/dotnet/framework/tools/ngen-exe-native-image-generator) tool to create native images of the dependent assemblies for the server-side executable, and install them into the native image cache on the local computer. This will facilitate better server resource utilization by using native images from the cache instead of using the JIT compiler to compile the original assembly.
 
 ### See also
  [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)
@@ -211,3 +211,6 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
  [Create and manage UII hosted applications](../unified-service-desk/create-manage-uii-hosted-applications.md)
  
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

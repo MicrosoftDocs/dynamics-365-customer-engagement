@@ -28,15 +28,15 @@ Entities are defined by metadata. By defining or changing the entity metadata, y
 
 Entities can be created using either the Organization service or the Web API. The following information can be applied to both.
 
-- With the Organization service you will use the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> class. More information: [Create a custom entity](org-service/create-custom-entity.md) and [Retrieve, update, and delete entities](org-service/retrieve-update-delete-entities.md)
-- With the Web API you will use the <xref:Microsoft.Dynamics.CRM.EntityMetadata> EntityType. More information : [Create and update entity definitions using the Web API](webapi/create-update-entity-definitions-using-web-api.md).
+- With the Organization service you will use the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> class. More information: [Create a custom entity](/powerapps/developer/data-platform/org-service/create-custom-entity) and [Retrieve, update, and delete entities](/powerapps/developer/data-platform/org-service/metadata-retrieve-update-delete-entities)
+- With the Web API you will use the <xref:Microsoft.Dynamics.CRM.EntityMetadata> EntityType. More information : [Create and update entity definitions using the Web API](/powerapps/developer/data-platform/webapi/create-update-entity-definitions-using-web-api).
  
 <a name="BKMK_EntityMetadataMessages"></a>
 
 ## Entity metadata operations
 How you work with entity metadata depends on which service you use.
 
-Since the Web API is a RESTful endpoint, it uses a different way to create, retrieve, update, and delete metadata. Use `POST`, `GET`, `PUT`, and `DELETE` HTTP verbs to work with metadata entitytypes. More information : [Create and update entity definitions using the Web API](webapi/create-update-entity-definitions-using-web-api.md).
+Since the Web API is a RESTful endpoint, it uses a different way to create, retrieve, update, and delete metadata. Use `POST`, `GET`, `PUT`, and `DELETE` HTTP verbs to work with metadata entitytypes. More information : [Create and update entity definitions using the Web API](/powerapps/developer/data-platform/webapi/create-update-entity-definitions-using-web-api).
 
 One exception to this is the <xref href="Microsoft.Dynamics.CRM.RetrieveMetadataChanges?text=RetrieveMetadataChanges Function" /> provides a way to compose a metadata query and track changes over time. 
 
@@ -122,14 +122,17 @@ If working with Organization Service, use <xref:Microsoft.Xrm.Sdk.Messages.Retri
  [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md)  
  [View Data using Charts (Visualizations)](customize-dev/view-data-with-visualizations-charts.md)   
  [Which Entities are Customizable?](which-entities-are-customizable.md)   
- [Create a Custom Entity](org-service/create-custom-entity.md)   
- [Retrieve, Update and Delete Entities](org-service/retrieve-update-delete-entities.md)   
- [Create and Update an Emailable Entity](org-service/create-update-entity-emailed.md)   
- [Create a Custom Activity Entity](org-service/create-custom-activity-entity.md)   
+ [Create a Custom Entity](/powerapps/developer/data-platform/org-service/create-custom-entity)   
+ [Retrieve, Update and Delete Entities](/powerapps/developer/data-platform/org-service/metadata-retrieve-update-delete-entities)   
+ [Create and Update an Emailable Entity](/powerapps/developer/data-platform/org-service/create-update-entity-emailed)   
+ [Create a Custom Activity Entity](/powerapps/developer/data-platform/org-service/samples/create-custom-activity)   
  [Modify Entity Icons](modify-icons-entity.md)   
  [Modify Entity Messages](modify-messages-entity.md)   
- [Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)   
- [Sample: Create a Custom Activity Entity](org-service/sample-create-custom-activity-entity.md)   
- [Sample: Create and Update an Emailable Entity](org-service/sample-create-update-emailable-entity.md)   
- [Sample: Dump Entity Metadata to a File](org-service/sample-dump-entity-metadata-file.md)   
- [Sample: Dump Entity Privlege Information to a File](org-service/sample-dump-entity-privilege-information-file.md)
+ [Sample: Create and Update Entity Metadata](/powerapps/developer/data-platform/org-service/create-custom-entity)   
+ [Sample: Create a Custom Activity Entity](/powerapps/developer/data-platform/org-service/samples/create-custom-activity)   
+ [Sample: Create and Update an Emailable Entity](/powerapps/developer/data-platform/org-service/samples/work-activity-party-records)   
+ [Sample: Dump Entity Metadata to a File](/powerapps/developer/data-platform/org-service/samples/dump-entity-metadata-file)   
+ [Sample: Dump Entity Privlege Information to a File](/powerapps/developer/data-platform/org-service/samples/dump-entity-metadata-file)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

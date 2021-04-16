@@ -20,6 +20,8 @@ search.app:
 ---
 # Set up and edit your Gamification user profile
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Your colleagues will surely want to see who they're competing with in the games. Add a profile picture to make sure they recognize you.  
 
 ## Update profile settings
@@ -40,3 +42,6 @@ To change the default language as configured by the commissioner, select your pr
  [Draft and manage your fantasy teams in Gamification](manage-fantasy-team.md)  
  [Sign in to Gamification](sign-in.md)  
  [See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

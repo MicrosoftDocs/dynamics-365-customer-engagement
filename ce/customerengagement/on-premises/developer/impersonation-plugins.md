@@ -25,7 +25,7 @@ Impersonation is used to execute business logic (custom code) on behalf of a Dyn
 
 General information about using impersonation with plug-ins can be found in the Dataverse topic [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user). The information that follows below is specific to on-premises plug-in development.
   
- Plug-ins not executed by either the sandbox or asynchronous service execute under the security account that is specified on the **Identity** tab of the **CRMAppPool Properties** dialog box. The dialog box can be accessed by right-clicking the **CRMAppPool** application pool in [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] Manager and then clicking **Properties** in the shortcut menu. By default, CRMAppPool uses the Network Service account identity but this can be changed by a system administrator during installation. If the **CRMAppPool** identity is changed to a system account other than Network Service, the new identity account must be added to the **PrivUserGroup** group in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change a Microsoft Dynamics 365 Customer Engagement (on-premises) service account or AppPool identity](https://technet.microsoft.com/library/hh699751.aspx) for more detailed instructions.
+ Plug-ins not executed by either the sandbox or asynchronous service execute under the security account that is specified on the **Identity** tab of the **CRMAppPool Properties** dialog box. The dialog box can be accessed by right-clicking the **CRMAppPool** application pool in [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] Manager and then clicking **Properties** in the shortcut menu. By default, CRMAppPool uses the Network Service account identity but this can be changed by a system administrator during installation. If the **CRMAppPool** identity is changed to a system account other than Network Service, the new identity account must be added to the **PrivUserGroup** group in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change a Microsoft Dynamics 365 Customer Engagement (on-premises) service account or AppPool identity](/previous-versions/dynamicscrm-2013/implementation-guide/hh699751(v=crm.6)) for more detailed instructions.
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
@@ -33,3 +33,6 @@ General information about using impersonation with plug-ins can be found in the 
  [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context)  
  [Impersonate Another User](org-service/impersonate-another-user.md)  
  [Support offline execution](support-offline-execution.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

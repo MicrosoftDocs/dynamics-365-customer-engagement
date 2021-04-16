@@ -122,7 +122,7 @@ Use the **Additional information** tab to set up your event team and record gene
 
 Here you can [view and create online surveys](surveys.md) related to your event. You'd typically use these surveys to collect attendee opinions about how the event went. A second table provides links to individual survey responses.
 
-Surveys are provided by the [Dynamics 365 Customer Voice](https://docs.microsoft.com/dynamics365/customer-voice/help-hub) feature.
+Surveys are provided by the [Dynamics 365 Customer Voice](/dynamics365/customer-voice/help-hub) feature.
 
 ### The Room reservations tab
 
@@ -216,3 +216,6 @@ Use the following entities to model your venues:
 - **Events** > **Venue Management** > **Buildings**: Buildings represent free-standing structures that might or might not be divided into rooms.
 - **Events** > **Venue Management** > **Rooms**: Rooms represent subdivisions of buildings, and each must be assigned to a building record also stored in the system.
 - **Events** > **Venue Management** > **Layouts**: During an event, you might use a single room to host several types of sessions, each of which might require a different arrangement of chairs and other facilities. The room layout might have practical consequences that affect, for example, seating capacity. Each layout must be associated with a particular room, but you can set up any number of layouts for each room.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

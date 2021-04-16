@@ -81,3 +81,6 @@ Get-CrmSetting WebAddressSettings
  [Install Microsoft Dynamics 365 Server roles using the command prompt](install-using-command-prompt.md)   </br>
  [Install Microsoft Dynamics 365 Reporting Extensions using the command prompt](install-dynamics-365-reporting-extensions-command.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

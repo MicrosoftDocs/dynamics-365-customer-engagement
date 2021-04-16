@@ -1,8 +1,8 @@
 ---
 title: "Unified Service Desk  Upgrade package | MicrosoftDocs"
 description: "Overview of the Upgrade sample application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/17/2018
 ms.topic: article
@@ -43,3 +43,6 @@ search.app:
   
 ## See also  
  [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

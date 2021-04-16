@@ -23,3 +23,6 @@ search.audienceType:
 
 Managing data in Dynamics 365 Customer Engagement (on-premises) includes importing data into Customer Engagement (on-premises), cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
