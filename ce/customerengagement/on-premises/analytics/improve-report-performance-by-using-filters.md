@@ -108,3 +108,6 @@ Reports that return large data sets can be difficult to use and can cause perfor
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Dynamics 365 for Customer Engagement (online) Reporting Considerations](../analytics/reporting-considerations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

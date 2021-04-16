@@ -1,8 +1,8 @@
 ---
 title: "msdyn_appconfiguration Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_appconfiguration entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "jdaly"
 ms.date: 11/03/2020
 ms.topic: "reference"
@@ -893,3 +893,6 @@ IntersectEntityName: msdyn_appconfig_msdyn_channelprovider<br />
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 
 - [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

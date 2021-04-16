@@ -102,3 +102,6 @@ Make sure that you have the required security role or equivalent permissions.
 [Create and manage resource categories](resource-categories-service-scheduling.md)
  
 [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

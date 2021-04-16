@@ -22,3 +22,6 @@ ms.author: matp
   
  Restart the computer.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Make sure that you have the required security role or equivalent permissions.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

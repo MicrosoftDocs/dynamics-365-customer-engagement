@@ -43,7 +43,7 @@ In this article, we will explore entitlements for work orders with two scenarios
 
 - Dynamics 365 Customer Service  
 
-- Recommended: Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
+- Recommended: Knowledge of Dynamics 365 [price lists](/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
 
 
 ## Scenario 1: Entitlement for price list and discount
@@ -244,3 +244,6 @@ Even if multiple entitlements apply and 1 is chosen by default, the user can man
 
 - Entitlement application and price adjustment only happen online. If a work order product or work order service is created or edited when offline, the entitlement logic will only apply once that record syncs to the server.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

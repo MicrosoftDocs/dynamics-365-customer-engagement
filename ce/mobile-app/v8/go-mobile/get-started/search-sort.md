@@ -61,10 +61,13 @@ search.app:
 #### Export records to Excel  
  In [!INCLUDE[pn_Mobile_Express_long](../../../../includes/pn-mobile-express-long.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)], you can export records to [!INCLUDE[pn_microsoft_excel](../../../../includes/pn-microsoft-excel.md)], just like you can in the web app. From a grid view in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] or a list of records in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], tap **…** to open the command bar and then tap **Export to Excel**.  
   
- [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)] [Export data to Excel](../../../../basics/export-data-excel.md)  
+ [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)] [Export data to Excel](../../../../customerengagement/on-premises/basics/export-data-excel.md)  
   
 > [!IMPORTANT]
 >  [!INCLUDE[cc_feature_included_with_update_2016](../../../../includes/cc-feature-included-with-update-2016.md)]  
   
 ### See also  
- [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

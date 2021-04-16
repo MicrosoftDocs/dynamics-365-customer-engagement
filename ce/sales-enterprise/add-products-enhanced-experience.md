@@ -1,13 +1,12 @@
 ---
-title: "Preview: Add products to an opportunity by using the enhanced experience | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
-ms.date: 04/03/2020
-ms.service:
-  - "dynamics-365-sales"
+title: "Enhanced experience for adding products | MicrosoftDocs"
+description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales Enterprise."
+ms.date: 04/02/2021
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
@@ -21,161 +20,110 @@ searchScope:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+As a salesperson, you want to be able to easily identify and add products from the catalog that best fit the opportunity at hand. With the enhanced experience of adding products, you can:
 
-For salespeople, it's important to be able to quickly update opportunities by adding products that their customers are interested in.
+- Quickly find products from the catalog, based on free-text search.
 
-With the enhanced experience of adding products, salespeople can:
+- See matching products as you enter text in the search field.
 
--  Quickly find products from the catalog based on free-text search, or filter products based on the product family or views.
+- Pick products from the categorized list of product families.
 
--  See the most-recently-used list of products while adding multiple products.
+- See the most recently used list of products while you add multiple products.
 
--  View product details inline and compare products before selecting any, which helps them find the right product.
+- View product details inline and compare products before selecting any, which helps you find the right product.
 
--  Select and add multiple products in one go.
+- Select and add multiple products at one go.
 
--  Add write-in products by using as few clicks as possible.
+- Add write-in products by using as few clicks as possible.
 
--  Quickly specify the price and quantity of the products.
-
+- Specify price, quantity, and any other required information as configured by your system administrator.
 
 > [!IMPORTANT]
-> - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>- The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>- [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>- [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-**To add a product by using the enhanced experience**
+## Add products to an opportunity
 
-1.  From the list of opportunities, open the opportunity to which you want to add products.
+1. Open the opportunity to which you want to add products.
 
-2.  Go to the **Product Line Items** tab.
+2. Go to the **Products** tab.
 
-3.  Select a **Price List**. The price list determines the cost of the product.
+3. Select a **Price list**. 
+   The price list determines the cost of the product and the products you can select.
+   > [!NOTE] 
+   > By default, you must select a price list to be able to add products to
+   > an opportunity; however, your administrator can change the product
+   > catalog settings to make the **Price list** field optional.
 
-    > [!NOTE]
-    > By default, you must select a price list to be able to add products to an opportunity; however, your administrator can change your organization settings to make the **Price List** field optional.
+4. Under **Revenue**, do one of the following:
 
-4.  If you want the estimated revenue of the opportunity to be calculated based on all the products added to the opportunity, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
+   - To calculate the estimated revenue of the opportunity based on all the products added to the opportunity, select **System calculated**.
 
-5.  In the **Product Line Items** grid, select **Add products**.
+   - To use a custom estimated revenue, select **User provided**.
 
-    The Quick Create: Opportunity Product pane opens.
+5. In the **Products** grid, select **Add products**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Add Opportunity Product pane](media/add-opportunity-product-pane.png "Add Opportunity Product pane")
+   ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
 
-    The form shows four tabs:
+   > [!NOTE]
 
-    -   **Products**. This tab lists all the products and product bundles that are in the **Active** or **Revised** state. Along with entering the product name, it's also possible for you to enter the price per unit and quantity. By default, 25 products are shown. Select **Load more** to see more products. On this tab, you can search and filter the list of products and select the one you want to add.
+   > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview.
+   >
+   > The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
 
-        If you've selected a price list for the opportunity, the product list is filtered to show only those product records that have the same price list associated.
-    
-    -   **Recently Used**. This tab lists the last 15 products that the currently logged-in user has recently added to any opportunity.
-    
-    -   **Write-In**. This tab lets you create and add a write-in product.
-    
-    -   **Selected**. This tab shows the count of the products selected to be added to the opportunity. Use this tab to verify or modify the final list of the items you've selected.
+6. Use one of the following options to identify and add products:
 
-6.  Search for and select the products you want to add, and then select **Add to Opportunity**.
-    
-    More information:
-    
-    -  [Search for products](#search-for-products)
-    -  [Filter products](#filter-products)
-    -  [See product details](#see-product-details-applies-both-to-products-and-recently-used-tabs)
-    -  [Select products to add](#select-products-to-add)
-    -  [Review selected products](#review-selected-products)
-    -  [Remove selected products](#remove-selected-products)
+   - If you know the product names, simply search for them and add.
+   - If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
-## Search for products
+     > [!NOTE]
+     > The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
 
-To search for a specific product from the list, on the **Products** tab, enter the keyword in the **Search** field, and then select the **Search** icon or select the Enter key. The products matching the search criteria are shown.
+    > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
 
-The Search capability searches for the keyword in the product names or the fields of Single Line of Text or Multiple Line of Text in the Quick Find View of the Product entity. The search is performed by using the 'Contain' search operator. This means that search results show all the products that contain the keyword in one of the supported fields.
+   - If you want to add products that you have recently chosen for another opportunity, open the **Recently used** tab.
 
-Here's how the search results are ranked/ordered:
+   - If you want to add a product or service that is not in the standard product catalog but is specific to the opportunity, open the **write in** tab and create a product on-the-fly.
+    > [!IMPORTANT]
+    >Do not use the write in option for standard products and services that your organization offers.
 
--  The records that have values that exactly match the keywords are shown first.
+7. In the **Price per unit** column, do one of the following:
 
--   The records that broadly match the keywords are shown next. For example, if you enter **Windows 8.1** as the search keyword, it will search for product records that contain either Windows or 8.1 in the name or other supported fields.
+   - If the product doesn't have an associated price list, enter the price manually.
+   - If the product has a default price list associated with it, **Price per unit** is populated in accordance with the associated price list. 
 
-## Filter products
+     > [!TIP] 
+     > If you want to override the default price of a product, request your administrator to add the **Price overridden** column to the grid. After the **Price overridden** column has been added, turn it on.
 
-Filters are available to enable you to further narrow down your search. 
+8. Enter the quantity you want, and then select **Add**.
 
-The following filters are available:
+9. Repeat steps 6 through 8 for each product you want to add.
 
--  Product family. Use this filter to see products in a specific product family
--  Views. Use this filter to see products in a specific saved view or user view. 
+10. When you're done, select **Save to opportunity**.
 
-> [!div class="mx-imgBorder"]  
-> ![Use product filters](media/filter-products.png "Use product filters")
+## Remove products from an opportunity
 
+Remove products if you've selected them inadvertently or they're
+no longer relevant for the opportunity. You can remove products in two circumstances:
 
-> [!NOTE]
-> Search and filters work in conjunction. For example, if you've searched for a keyword and 50 results are showing, you can use a filter on top of this to further narrow down this search.
+- While adding products to the opportunity, by using the **Add products** dialog box
+- After you've added products to the opportunity, on the **Products** tab
 
-## See product details (applies both to Products and Recently used tabs)
+**To remove a product from the Add products dialog box**
 
-There are two ways you can see more details about the product:
+1. In the **Add products** dialog box, select the **Selected** tab.
 
--  Select the product name. The product line item expands to show more details such as the product ID, description, and so on.
+2. Next to the product you want to remove, select **Remove**.
 
-   You can expand multiple products at once. When you want to compare multiple products before you add them, this method works best.
+**To remove a product from the Products tab**
 
--  Select the information icon. The following additional details are shown: validity period, price list, unit, unit group.
+1. Open the opportunity, go to the **Products** tab.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Information icon to see product details](media/list-of-products-information-icon.png "Information icon to see product details")
-
-    A new pop-up window with additional details opens.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Product details pop-up window](media/product-details-pop-up.png "Product details pop-up window")
-
-## Select products to add
-
--  To select an existing product to add, go to the **Products** tab or the **Recently used** tab. Select the **Plus** icon next to the product name you want to add, and then enter the quantity of product. 
-
-    > [!div class="mx-imgBorder"]  
-    > ![Select the product to add](media/select-products-to-add.png "Select the product to add")
-
-    -   If a product has a default price list associated with it, the **Price per unit** is populated in accordance with the associated price list. Enter the quantity. By default, the quantity is set to 1.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Enter product quantity](media/enter-product-quantity.png "Enter product quantity")
-
-    > [!NOTE]
-    > If you want to override the default price, select the product name to expand the product line item, and then turn off the **Default Price** toggle.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Flip the switch to override price](media/switch-to-override-price.png "Turn off the Default Price toggle to override the price")
-
-    -   If the product doesn't have an associated price list, enter the price per unit and quantity.
-
--  To add a write-in product, on the **Write-in** tab, select **Write-in product**, and then fill in the details in the **Product Name**, **Price Per Unit**, and **Quantity** columns.
-
-    > [!div class="mx-imgBorder"]  
-    > ![Add write-in product](media/add-write-in-product.png "Add a write-in product")
-    
-## Review selected products
-
-When you select a product to add, a count is added to the **Selected** tab at the top of the screen. The count represents the number of products selected. In the **Products** tab or the **Recently used** tab, a check mark is shown for all the products that you've selected.
-
-> [!div class="mx-imgBorder"]  
-> ![Review selected products](media/review-selected-products.png "Review selected products")
-
-## Remove selected products
-
-You can easily remove products that you selected earlier but don't need anymore.
-
-To remove a product from the selection, go to the **Selected** tab. For the product that you want to remove, select the **Delete product** icon.
-
-> [!div class="mx-imgBorder"]  
-> ![Remove selected products](media/remove-selected-products.png "Remove selected products")
-
+2. Select the products that you want to remove, and then select **Delete opportunity product**.
+    The selected products will be removed from the opportunity after you confirm the deletion.
 
 ### See also
 
-[Add products to an opportunity](add-products-opportunity.md)  
-[Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)
+[Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
+[Customize the Add products dialog box](customize-add-products-dialog-box.md)

@@ -2,13 +2,12 @@
 title: "Work with activities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
 ms.date: 10/14/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-activitypointer
   - D365-UI-*
@@ -76,3 +75,6 @@ Here are some important things to know about your Kanban view:
 ### See also
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

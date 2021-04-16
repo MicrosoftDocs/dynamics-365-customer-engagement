@@ -1,8 +1,8 @@
 ---
 title: "Deprecated Omnichannel for Customer Service entities | Microsoft Docs"
 description: "List of Omnichannel for Customer Service entities that have been deprecated"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 09/10/2020
 ms.topic: reference
@@ -36,3 +36,6 @@ The following entities have been deprecated. These entities will still be visibl
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

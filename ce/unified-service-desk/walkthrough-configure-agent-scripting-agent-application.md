@@ -1,8 +1,8 @@
 ---
 title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -457,3 +457,6 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
 
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

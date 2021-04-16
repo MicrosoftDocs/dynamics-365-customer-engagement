@@ -2,14 +2,13 @@
 title: "View product hierarchy (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get a visual snapshot of the products your organization sells by looking at the product hierarchy in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # View product hierarchy (Sales)
@@ -32,3 +31,6 @@ A product hierarchy gives you a visual snapshot of the products your organizatio
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
  [Create a product family](../sales-enterprise/create-product-family.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

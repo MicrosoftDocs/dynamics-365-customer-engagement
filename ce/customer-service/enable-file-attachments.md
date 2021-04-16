@@ -37,7 +37,7 @@ You can set the file extension types that customers and agents can share.
 
 To configure the file size limit and file extensions, follow these steps:
 
-1. Sign in to Omnichannel Administrator.
+1. Sign in to Dynamics 365.
 
 2. Select the settings icon in the nav bar, and then select **Advanced Settings**.
 
@@ -70,3 +70,6 @@ Now, agents and customers can share file attachments during their conversation.
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)<br>
 [Configure a WeChat channel](configure-wechat-channel.md)<br>
 [Configure a LINE channel](configure-line-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-title: Timer control in the Case form to track time against an SLA | Microsoft Docs
-description: Know how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service
+title: "Timer control for SLA-enabled entities | Microsoft Docs"
+description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -18,19 +18,56 @@ search.app:
   - D365CS
 ---
 
-# Add a timer control to the Case form to track time against an SLA
+# Add a timer control for SLA-enabled entities
 
-Add a timer control to an entity form to help users gauge the amount of time they have to complete a task—typically as specified in a service level agreement (SLA). The timer control initially displays a count-down timer to show the time remaining to complete the task.  
+Add a timer control to an service-level agreement (SLA) enabled entity form to help users gauge the amount of time they have to complete a task as specified in the SLA. The timer control displays count-down timers that show the current status and time remaining for the configured SLA KPIs.
+
+## Add an SLA timer to an SLA-enabled entity
+
+After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. Some of the KPIs that agents can see include the different stages that KPIs go through.
+
+For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
+
+A sample runtime view of the SLA Timer is as follows.
+
+![Runtime view of the SLA timers](media/sla-timer-runtime.png "Runtime view of the SLA timers")
+
+> [!NOTE]
+> The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
+
+Do the following steps to add the SLA timer control for the case entity.
+
+> [!IMPORTANT]
+> You can add the SLA timer control only in the classic PowerApps experience.
+
+1. In your Dynamics 365 environment, select **Advanced Settings** to go to **Customizations**.
+2. Select **Customize the System**, and in the **Solutions** page, expand **Entities** under **Components**.
+3. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
+4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
+5. Double-click the subgrid, and on the **Set Properties** dialog box, enter the necessary details.
+   - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
+
+   > ![Configure SLA Timer in customizations](../customer-service/media/sla-timer-properties.png "Configure SLA Timer in customizations")
+
+6. On the **Controls** tab, enter the following information:
+   1. Select **Add Control**, and choose SLA Timer.
+   2. In the **SLA Timer** area, enter a value for **Update_Frequency_key** to set the timer refresh interval. For optimal performance, choose an interval that is not too short. The default interval is 30 minutes.
+
+   > ![Set refresh frequency for timer](media/sla-timer-update-frequency.png)
+
+7. Save and publish the solution.
+
+## Add an out-of-the-box timer control to the Case form
+
+ On a case form, the timer control can show any of the following, depending on the actions of the customer service representative (CSR) and what you specify when you set up the timer control:  
   
- On a case  form, the timer control can show any of the following, depending on the actions of the customer service representative (CSR) and what you specify when you set up the timer control:  
+- If the CSR completes the task within the time remaining, the control shows the word **Succeeded**.  
   
--   If the CSR completes the task within the time remaining, the control shows the word **Succeeded**.  
+- If the CSR doesn’t complete the task within the time remaining, the control shows the word **Expired**.  
   
--   If the CSR doesn’t complete the task within the time remaining, the control shows the word **Expired**.  
+- As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed. This behavior is optional.  
   
--   As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed. This behavior is optional.  
-  
--   If a condition causes the milestone to be canceled, the control shows the word **Canceled**. This behavior is optional.  
+- If a condition causes the milestone to be canceled, the control shows the word **Canceled**. This behavior is optional.  
   
 -   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
   
@@ -39,17 +76,17 @@ Add a timer control to an entity form to help users gauge the amount of time the
     ![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png "Timer control expired in Customer Service Hub")
   
 > [!IMPORTANT]
-> - The instructions in this topic apply  if you're adding a timer to track time for  the date/time field of any entity, or for tracking time against standard  SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
+> - The instructions in this topic apply if you're adding a timer to track time for the date/time field of any entity, or for tracking time against standard SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
 > [!NOTE]
-> The above screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app](media/timer-control-webclient.png)
+> The screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app](media/timer-control-webclient.png)
 
 
 For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
 
 
-## Add a timer control to the Case form  
+### Add an out-of-the-box timer control  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -107,3 +144,6 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
 
 [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 ### See also  
  [Create or edit a selection rule](../customer-service/create-simple-selection-rule.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

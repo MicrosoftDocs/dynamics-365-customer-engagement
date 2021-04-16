@@ -1,8 +1,8 @@
 ---
 title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[setMode](includes/setMode-description.md)]
 
 [!INCLUDE[token-setMode](../../../shared/token-setMode.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

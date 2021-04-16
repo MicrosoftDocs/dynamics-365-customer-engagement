@@ -1,14 +1,13 @@
 ---
 title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
-ms.date: 12/22/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 02/10/2021
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-goal
   - D365-Entity-metric
@@ -19,12 +18,10 @@ searchScope:
   - Customer Engagement
 ---
 
-# Define goal rollup queries (Sales & Sales Hub)
+# Define goal rollup queries (Sales Hub)
 
 
 Use the rollup query to gather data about a given goal, including all its related goals, in one view.  
-
-## Create a rollup query (Sales Hub)
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
@@ -72,52 +69,11 @@ Use the rollup query to gather data about a given goal, including all its relate
 > [!NOTE]
 >  The maximum number of records that can be counted  in a goal rollup query is 5000.  
   
-
-## Create a rollup query (Sales)
-  
-1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. Go to **Rollup Queries**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
-  
-3. To create a new rollup query, in the **Records** group, select **New**.  
-  
-    -OR-  
-  
-    To edit a rollup query, select **Edit**.  
-  
-4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-    - **Name**.  Enter a name between 1 and 50 characters.  
-  
-    - **Entity Type**. Select the record type.  
-  
-    - **Owner**. Select the **Lookup** icon, and select the user or team who will own this query.  
-
-        > [!NOTE]
-        >  If you change this selection after you add your query criteria in the **Query** section, your query criteria will be deleted.  
-  
-5. In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type.
-
-6. To see the results for the query, select **View Records**.  
-  
-7. Select **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  
-  
-8. To view the data for a goal, on the nav bar, select **Sales**, and then select **Goals**.  
-  
-9. Select the goal you want, and then select **More Commands**![More Commands button in Appointment Activity](../sales-enterprise/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then select **Recalculate**.  
-  
-     The values of the actuals are recalculated. You can see the recalculated values in the **Percentage Achieved**, **Actual**, and **In-Progress** columns. If you open the goal, under **Actuals**, you can see the **Last Rolled Up Date**.  
-  
-> [!NOTE]
->  The maximum number of records that can be counted  in a goal rollup query is 5000.  
-  
+ 
 ### See also  
 
 [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   
 [Define a goal metric](create-edit-goal-metric.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

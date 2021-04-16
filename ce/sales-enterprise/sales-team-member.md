@@ -2,11 +2,10 @@
 title: "Sales Team Member app for users with Team Member license (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn about the Team Member license enforcement and the new Sales Team Member app."
 ms.date: 04/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -50,4 +49,7 @@ When users open the Sales Team Member app, in the site map, they'll see the avai
 
 ### See also
 
-[Dynamics 365 Team Members license](https://docs.microsoft.com/dynamics365/get-started/team-members-license)  
+[Dynamics 365 Team Members license](/dynamics365/get-started/team-members-license)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

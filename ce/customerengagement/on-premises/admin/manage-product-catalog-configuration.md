@@ -87,3 +87,6 @@ Dynamics 365 Customer Engagement (on-premises) offers a rich, easy to configure 
  [Manage configuration data](manage-configuration-data.md)   
  [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=MptViq7tf_s&index=2&list=PLC3591A8FE4ADBE07)   
  [Product catalog entities](manage-product-catalog-configuration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

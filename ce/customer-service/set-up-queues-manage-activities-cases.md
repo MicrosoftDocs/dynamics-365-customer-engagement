@@ -1,10 +1,10 @@
 ---
 title: Set up queues to manage activities and cases (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service
+description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2019
+ms.date: 01/27/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -53,7 +53,7 @@ For example, you could create separate queues for first tier and second tier pro
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
   
-## Create a queue (Customer Service Hub) 
+## Create a queue (Customer Service Hub)
   
 Follow the steps given below to create or edit a queue: 
   
@@ -73,9 +73,9 @@ Follow the steps given below to create or edit a queue:
   
     To edit a queue, select the queue in the list of queues, and then on the command bar, select **Edit**.  
   
-5. Type or change information in the text boxes.  
+4. Type or change information in the text boxes.  
   
-    Hovertips provide hints about what to enter.  
+    Hover tips provide hints about what to enter.  
   
    - In the **Summary** section, complete the required fields.  
   
@@ -95,9 +95,9 @@ Follow the steps given below to create or edit a queue:
 
 6. Select **Save**.
 
-   ![queues-csh](media/queues-csh.png)
+   ![queues in Customer Service hub](media/queues-csh.png)
 
-## Create a queue (Customer Service app) 
+## Create a queue (Customer Service app)
 
 Follow the steps given below to create or edit a queue: 
   
@@ -121,7 +121,7 @@ Follow the steps given below to create or edit a queue:
   
 5. Type or change information in the text boxes.  
   
-    Hovertips provide hints about what to enter.  
+    Hover tips provide hints about what to enter.  
   
    - In the **Summary** section, complete the required fields.  
   
@@ -147,11 +147,13 @@ Follow the steps given below to create or edit a queue:
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-## View queue items for a queue 
- In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue are listed.  
+## View queue items for a queue
+
+In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue are listed.  
   
 ## Route items to queues  
- For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. 
+
+For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
 
@@ -160,14 +162,19 @@ Alternatively, you can manually add cases and activities to queues.
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
   
 ## Assign items to agents
- Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents or to other queues, users, or teams.  
+
+Queues share cases or activities as a group until these are taken out of the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents or to other queues, users, or teams.  
 
 To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!Note]
 > - When two agents simultaneously add cases to the queue, then the system creates two queue items instead of a single queue item.
-> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item. 
+> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
+> - From a queue, when an agent picks a case created by another agent and releases it, then the case gets assigned to the queue owner and not the agent who created the case.
 
 ### See also  
 
 [Work with Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

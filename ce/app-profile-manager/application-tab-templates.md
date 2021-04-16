@@ -1,6 +1,6 @@
 ---
-title: "Manage application tab templates in Customer Service workspace or Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing application tab templates in Customer Service workspace or Omnichannel Administration app"
+title: "Manage application tab templates | MicrosoftDocs"
+description: "Learn about managing application tab templates in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -153,3 +153,6 @@ The out-of-the-box application tab templates are as follows:
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

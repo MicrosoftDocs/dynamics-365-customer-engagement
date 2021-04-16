@@ -1,8 +1,8 @@
 ---
 title: "Omnichannel for Customer Service for developers | MicrosoftDocs"
 description: "Developer guide for Omnichannel for Customer Service provides developers the information they need to get started with using the extensibility features"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/06/2020
 ms.topic: article
@@ -91,3 +91,6 @@ Read how you can implement a connector to integrate custom messaging channels us
 [Omnichannel for Customer Service for system customizers](../omnichannel-customizer.md)<br />
 [Omnichannel for Customer Service for agents](../omnichannel-agent-overview.md)<br />
 [Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

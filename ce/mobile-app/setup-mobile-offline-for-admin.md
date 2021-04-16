@@ -1,7 +1,8 @@
 ---
-title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets (using old admin interface) | MicrosoftDocs"
+title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets (using legecy admin interface) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/21/2020
+description: Configure mobile offline synchronization in Dynamics 365 for phones and tablets.
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,7 +26,7 @@ search.app:
 # Set up mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
 > [!IMPORTANT]
-> This topic covers how to set-up mobile offline synchronization using the legacy admin interface. For instructions on how to set-up mobile offline using the latest version, see [Configure mobile offline synchronization](preview-setup-mobile-offline.md).
+> This topic covers how to set-up mobile offline synchronization using the legacy admin interface. For instructions on how to set-up mobile offline using the latest version, see [Configure mobile offline synchronization](setup-mobile-offline.md).
 
 
 Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
@@ -50,12 +51,12 @@ One of the first things you need to do is enable entities that will be available
 1. To open settings for apps that use Unified Interface, look in the upper-right corner and select the Gear icon. Then select **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/Settings_Custom1.png "Settings Customizations")
+   >![Select advanced settings](media/Settings_Custom1.png "Select advanced settings")
   
 2. Select **Settings** > **Customizations** and then select **Customize the System**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
+   >![Select Customize the System](media/Settings_Custom.png "Select Customize the System")
    
   
 3. Expand **Entities** in the left pane.  
@@ -65,11 +66,11 @@ One of the first things you need to do is enable entities that will be available
 5. Under **Outlook & Mobile**, select **Enable for mobile offline**. 
 
    > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/Settings_Custom3.png "Customize the System")
+   >![Select Enable for mobile offline](media/Settings_Custom3.png "Enable for mobile offline")
    
    
 > [!IMPORTANT]
-> Effective February 2021, **Organization data download filter** option are deprecated. We recommend that you start preparing your organization and move relevant data filters from **Organization data download filter** to the offline profile option which lets you determine what data will be available when users work in offline mode. For more information, see [Create a mobile offline profile](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline#step-2-create-a-mobile-offline-profile-to-determine-what-data-will-be-available-while-offline). Once the old filter criteria has been moved to offline profile, you can clear or delete the filters set in **Organization data download filter**. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](https://docs.microsoft.com/power-platform/important-changes-coming#organization-data-download-filters-for-mobile-offline-are-deprecated).
+> Effective February 2021, **Organization data download filter** option are deprecated. We recommend that you start preparing your organization and move relevant data filters from **Organization data download filter** to the offline profile option which lets you determine what data will be available when users work in offline mode. For more information, see [Create a mobile offline profile](./setup-mobile-offline.md#step-2-create-a-mobile-offline-profile-to-determine-what-data-will-be-available-while-offline). Once the old filter criteria has been moved to offline profile, you can clear or delete the filters set in **Organization data download filter**. For more information, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming#organization-data-download-filters-for-mobile-offline-are-deprecated).
  
 6. Select **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
   
@@ -131,10 +132,10 @@ You need to create mobile offline profiles for users to configure filters that d
 9. Enter a name and select an entity. Only entities that can be enabled for mobile offline appear in the **Entity** list.  
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/enable_entities_for_offline.png "Settings Customizations")
+   >![Enter a name and select an entity](media/enable_entities_for_offline.png "Enter a name and select an entity")
  
 
-10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities).
+10. Select a **Data Download Filter** based on the ownership type for the entity. Entity ownership is decided when you create the entity. For more information, see [Types of entities and entity ownership](/powerapps/maker/common-data-service/types-of-entities).
 
  
    |Entity ownership type|Available Data Download Filter options |  
@@ -267,3 +268,6 @@ For information on capabilities and limitations of mobile offline, see [Mobile o
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

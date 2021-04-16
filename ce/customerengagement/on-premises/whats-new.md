@@ -32,3 +32,6 @@ This topic lists new features that are available with Dynamics 365 Customer Enga
 > [!NOTE]
 > The offline capability in Dynamics 365 for Outlook, version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook, version 9.0 will continue to be supported in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

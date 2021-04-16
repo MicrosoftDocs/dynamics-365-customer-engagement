@@ -4,8 +4,8 @@ description: "Learn how to troubleshoot issues with forecasting in Dynamics 365 
 ms.date: 03/24/2020
 ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -125,6 +125,50 @@ To resolve this error, your administrator must provide read privileges on **Fore
     > ![Provide read privileges for Forecast Configuration entity](media/ts-forecasting-provide-read-privileges.png "Provide read privileges for Forecast Configuration entity")  
 5. Close the settings.   
 
+<a name="forecast-category-not-changed"> </a>
+## Unable to view drill down data in a forecast grid
+
+**Reason**
+
+You don’t have enough privileges for **Forecast Configuration** entity to view drill down data in the forecast grid. The error shown in the following image is displayed.  
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the error message "something went wrong".](media/ts-forecasting-drilldown-loading-error.png "Error message for unable to fetch drill down data in a forecast grid")
+
+**Resolution**
+
+To resolve this error, your administrator must provide read privileges on **Forecast Configuration** entity to your security role. Follow these steps:  
+1. Go to **Advanced settings**, and then select **Settings** > **Security** > **Security Roles**.   
+2. Select the security role for which you want to apply the privileges.  
+3. On the security role page, select **Custom Entities** tab and go to **Forecast Configuration** row.   
+4. Select and provide the read privileges.   
+    > [!div class="mx-imgBorder"]
+    > ![Provide read privileges for Forecast Configuration entity](media/ts-forecasting-provide-read-privileges.png "Provide read privileges for Forecast Configuration entity")  
+5. Close the settings.   
+
+
+<a name="forecast-category-not-updated"> </a>
+## Forecast category fields are not getting updated
+
+**Reason**      
+In a forecast, after updating the forecast category field to Won or Lost, the opportunities are still appearing in the previous pipeline bucket. This error is occurring due to the **Opportunity Forecast Category Mapping Process** workflow is disabled in your organization.    
+
+**Resolution**     
+To resolve the error, activate the **Opportunity Forecast Category Mapping Process** workflow. Follow these steps:    
+1. Go to **Advanced settings**, and then select **Settings** > **Customizations** > **Customize the System**.    
+2. From the sitemap, select **Processes**.    
+3. Select the **Opportunity Forecast Category Mapping Process** workflow and select **Activate**.    
+    > [!div class="mx-imgBorder"]
+    > ![Activate the Opportunity Forecast Category Mapping Process workflow](media/ts-forecasting-activate-opportunity-forecast-category-process.png "Activate the Opportunity Forecast Category Mapping Process workflow")  
+    The forecast categories in the opportunities will be updated properly. For opportunities that were changed before activating the workflow must be manually changed.
+    Also, open the **Opportunity Forecast Category Mapping Process** workflow and verify that the conditions are properly defined for each forecast category.   
+    > [!div class="mx-imgBorder"]
+    > ![The Opportunity Forecast Category Mapping Process workflow conditions](media/ts-forecasting-opportunity-forecast-category-process-conditions.png "The Opportunity Forecast Category Mapping Process workflow conditions")    
+4. Save and close the settings.    
+
+
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

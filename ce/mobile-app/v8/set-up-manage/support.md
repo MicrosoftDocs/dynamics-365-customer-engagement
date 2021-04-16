@@ -30,7 +30,7 @@ CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for phones tha
 > [!NOTE]
 > Tablet support requires Microsoft Dynamics CRM Online Fall ‘13 or later, or Microsoft Dynamics CRM 2015 or later.
 >
-> For on-premises deployments of Dynamics 365 apps, the mobile apps require an [Internet-facing deployment](https://technet.microsoft.com/library/dn609803.aspx) of Microsoft Dynamics 365 apps Server that uses claims-based authentication.
+> For on-premises deployments of Dynamics 365 apps, the mobile apps require an [Internet-facing deployment](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn609803(v=crm.8)) of Microsoft Dynamics 365 apps Server that uses claims-based authentication.
 
 <a name="BKMK_CRMforPhones"></a>
 
@@ -60,7 +60,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 
 ### Windows tablets
 
- You can run the Dynamics 365 apps for Windows tablets app on devices that meet the following requirements. You can also run the Dynamics 365 apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699710.aspx).  
+ You can run the Dynamics 365 apps for Windows tablets app on devices that meet the following requirements. You can also run the Dynamics 365 apps web app on a supported web browser on these devices. For more information about web browser support, see [Web application requirements for Microsoft Dynamics 365 apps](/previous-versions/dynamicscrm-2016/administering-dynamics-365/hh699710(v=crm.8)).  
   
  Download the Microsoft Dynamics 365 apps from the Windows Marketplace for [Windows 8.1 tablets](https://go.microsoft.com/fwlink/p/?LinkID=392776) and [Windows 10 tablets](https://go.microsoft.com/fwlink/p/?LinkID=808734).  
   
@@ -118,7 +118,7 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../../../includes/pn-moca-crm-and
 <a name="BKMK_BrowserSupport"></a>   
 
 ## Web browser support for tablets  
-You can run Microsoft Dynamics 365 apps in the default web browser on any of the supported [Windows tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Windows8) listed earlier. For [Apple iPad tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_iPad), iOS 7, iOS 8, and iOS 9 are supported. For [Android](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Nexus), versions 4.2.2, 4.3, 4.4, 5.0, and 6.0 are supported for the tablets listed earlier.
+You can run Microsoft Dynamics 365 apps in the default web browser on any of the supported [Windows tablets](#BKMK_Windows8) listed earlier. For [Apple iPad tablets](#BKMK_iPad), iOS 7, iOS 8, and iOS 9 are supported. For [Android](#BKMK_Nexus), versions 4.2.2, 4.3, 4.4, 5.0, and 6.0 are supported for the tablets listed earlier.
   
  Using [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
@@ -140,5 +140,8 @@ You can run Microsoft Dynamics 365 apps in the default web browser on any of the
 
 - Adding attachments to Notes—for Apple iPad users with Dynamics 365 apps (on-premises)
   
--   Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](https://technet.microsoft.com/library/dn531143.aspx#BKMK_ClassicFormEntities).  
+-   Entities that use classic forms such as Goal and Order Product see, [Entities using classic forms](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531143(v=crm.8)#BKMK_ClassicFormEntities).  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

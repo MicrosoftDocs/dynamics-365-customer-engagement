@@ -1,8 +1,8 @@
 ---
 title: "msdyn_smsnumber Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_smsnumber entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/20/2020
 ms.topic: "reference"
@@ -754,3 +754,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Post-migration steps | MicrosoftDocs"
 description: "Test migration of web client configurations to the Unified Interface app."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/16/2020
 ms.topic: article
@@ -589,3 +589,6 @@ After you make these updates, when you sign in to the Unified Service Desk clien
 [Create custom panel layout](../create-custom-panel-layout.md)  
 [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)  
 [Configure toolbars in your application](../configure-toolbars-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

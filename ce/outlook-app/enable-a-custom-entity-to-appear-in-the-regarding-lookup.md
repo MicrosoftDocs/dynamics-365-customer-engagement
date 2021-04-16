@@ -1,7 +1,8 @@
 ---
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/22/2019
+description: Enable activities to use Set Regarding lookup in App for Outlook.
+ms.date: 02/17/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,12 +22,50 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize the Regarding lookup to add or remove entities
+# Enable activities to use Set Regarding lookup in App for Outlook
 
-1. In your Dynamics 365 app, go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
+In App for Outlook the **Set Regarding** lookup lets you link an email message, appointment, or task to a specific app row. To use the **Set Regarding** lookup, activities need to be enabled for the table. 
 
-   ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
+Most out-of-box (OOB) tables have activities enabled by default, which cannot be disabled. For custom tables that you create, make sure to enable activities to use  the **Set Regarding** lookup in App for Outlook. Once activities are enabled, it cannot be disabled for any table.
+
+
+   > [!div class="mx-imgBorder"]
+   >![Set regaring lookup](media/set-regarding-lookup.png "Set regarding lookup")
+
+
+## Enable activities for a table
+
+1. To enable activities, Sign in to [Power Apps](https://make.powerapps.com).
+
+  
+2. On the left nav, select **Data** to expand it and then select **Tables**.  
+
+   > [!div class="mx-imgBorder"]
+   >![Go to Tables in maker portal](media/maker-data-tables.png "Go to Tables in maker portal")
    
-    > [!NOTE]
-   > To add a custom entity, see [Filter entities and views that appear in Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
+  
+3. Select a table.
+
+4. On the command bar, select **Settings**. 
+
+   > [!div class="mx-imgBorder"]
+   >![Select settings](media/maker-row-settings.png "Select setting")
+
+5. Expand **Collaboration**, and select **Enable for activities** and then choose **Done**. 
+
+   > [!div class="mx-imgBorder"]
+   >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
+   
+  > [!IMPORTANT]
+  > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
+   
+6.  Select **Save Table** > and then publish the table.
+
+
+
+## See also
+
+[Filter entities and views that appear in Dynamics 365 App for Outlook](/dynamics365/customer-engagement/outlook-app/filter-entities-and-views).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

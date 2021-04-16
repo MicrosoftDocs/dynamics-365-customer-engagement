@@ -1,15 +1,14 @@
 ---
 title: "Change the parent of a product (reparenting) (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales."
-ms.date: 06/10/2020
-ms.service: 
-  - "dynamics-365-sales"
+ms.date: 01/12/2020
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Change the parent of a product (reparenting)
@@ -20,7 +19,7 @@ To change the parent of a product, bundle, or family, open the respective record
 
 Things to consider when changing reparenting:
 
--	Products which are re-parented cannot be reverted.
+-	Products which are re-parented can't be reverted. When a product is reparented, the properties inherited from the previous parent are lost. Thus, you can't revert the properties of the reparented product to the last active version of the product. 
 - You can only select a product family as a parent.
 - You can only set product families that are in the Under Revision, Draft, or Active state as a parent.
 -	You can only change or remove the parent from records that are in the **Under Revision** or **Draft** status.
@@ -35,3 +34,6 @@ For example, think of a TV that was previously classified as "Plasma." The organ
 
 [Set up products (Sales and Sales Hub)](create-product-sales.md)  
 [Set up a product family (Sales and Sales Hub)](create-product-family.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "msdyn_ocfbpage Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocfbpage entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/31/2020
 ms.topic: "reference"
@@ -937,3 +937,6 @@ See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocfbpage](msdy
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

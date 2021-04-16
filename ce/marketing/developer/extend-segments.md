@@ -18,12 +18,12 @@ search.app:
 
 # Basic operations on segments using the segmentation API
 
-A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll target all the contacts you have, but in most cases, you'll choose whom you want to target based on demographic or firmographic data and other considerations. More information: [Working with segments](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions).
+A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll target all the contacts you have, but in most cases, you'll choose whom you want to target based on demographic or firmographic data and other considerations. More information: [Working with segments](/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions).
 
 The Segmentation API enables programmatic interaction with segment records. The Segmentation API leverages the standard Microsoft Dataverse Web API for manipulating entities or messages. More information: [Use the Microsoft Dataverse Web API](/powerapps/developer/common-data-service/webapi/overview). When you create a segment, the properties of the segment are stored in the **msdyncrm_segment** entity. You can browse the entity metadata information using `@odata.context` in the **GET** response.
 
 > [!NOTE]
-> Before you perform operations, you should install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
+> Before you perform operations, you should install the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup).
 
 This topic demonstrates how to perform basic operations on **msdyncrm_segment** entity. Pass the following mandatory fields to create a segment.
 
@@ -357,3 +357,6 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
     "ValidationResult": "[{\"ErrorCode\":\"SegmentDciValidator_SegmentInvalid\",\"FieldName\":\"msdyncrm_query\"}]"
 }
 ```
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

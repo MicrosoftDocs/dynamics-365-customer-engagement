@@ -42,7 +42,7 @@ The below end-to-end integration processes can be easily implemented based on a 
 
 Azure IoT Central requires no extensive cloud development or coding skills to get an IoT solution up and running.  
 
-With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows in an easy visual designer without the need for coding experience.
+With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows.
 
 Check out our [Connected Customer Service for IoT Central tutorial](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-receive-alerts) to get started.
 
@@ -53,12 +53,10 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 
 ## Privacy details for Connected Customer Service
 
-By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources (listed below) are deployed and your Dynamics 365 for Customer Engagement instance will send data (such as commands) to Azure to enable IoT–enabled scenarios that register devices and then send and receive commands to the registered devices. An administrator can uninstall Connected Customer Service to remove the functionality and then navigate to the Azure portal to manage any related Azure services that are no longer needed.
+After you install Connected Customer Service for Dynamics 365 and provide your Azure subscription information, the Azure resources are deployed. Your Customer Engagement instance will send data such as commands, to Azure to enable IoT–enabled scenarios that register devices. Then, commands will be sent to and received from the registered devices.
 
-Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections.
+The Azure components and services that are involved with Connected Customer Service functionality are described in the following sections.
 
-> [!NOTE]
-> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
 
 [Service bus queue](https://azure.microsoft.com/documentation/articles/service-bus-dotnet-get-started-with-queues/)
 
@@ -66,7 +64,7 @@ This provides a queue for both inbound and outbound messages (commands) flowing 
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/)
 
-This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagement and Queue connectors are used for polling the queue.
+This provides an orchestration service that uses a Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Customer Engagement and Queue connectors are used for polling the queue.
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/)
 
@@ -90,9 +88,12 @@ Queries that Stream Analytics uses are stored to Azure Blob storage.
 
 - [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-visualize-device-readings) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
+> [!NOTE]
+> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
+
 ## User experience for Connected Customer Service
 
-The following is a list of Connected Customer Service actions that agents can take:
+A list of Connected Customer Service actions that agents can take is as follows:
 
 1. **Convert an IoT alert to a case**: Agents can convert an IoT alert to a case that includes pre-populated IoT alert details.
 
@@ -131,3 +132,6 @@ The following is a list of Connected Customer Service actions that agents can ta
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

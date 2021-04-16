@@ -77,3 +77,6 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
  [Plug-in Development](plugin-development.md)<br />
  [Debug a Plug-in](debug-plugin.md)<br />
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

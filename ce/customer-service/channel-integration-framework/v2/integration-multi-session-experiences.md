@@ -1,10 +1,10 @@
 ---
 title: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app) | MicrosoftDocs"
 description: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app)."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 04/05/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -23,8 +23,13 @@ To learn more, see:
 
 - [Manage sessions in Omnichannel for Customer Service](../../../omnichannel/agent/agent-oc/oc-manage-sessions.md)
 
-- [Preview: Customer Service Workspace](../../csw-overview.md)
+- [App profile manager](../../../app-profile-manager/overview.md)
+
+- [Customer Service workspace](../../csw-overview.md)
 
 ## See also
 
 [Modes and locations for the communication widget](modes-communication-widget.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

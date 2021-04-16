@@ -2,6 +2,7 @@
 title: "Introduction to Omnichannel Insights dashboard for supervisors | MicrosoftDocs"
 description: "Introduction to Omnichannel Insights dashboard for supervisors"
 author: neeranelli
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/31/2019
@@ -41,3 +42,6 @@ Verify the following prerequisites before you use the Omnichannel Chat and Senti
 [Configure Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md)
 
 [View and understand Omnichannel Insights dashboards](omnichannel-insights-dashboard.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

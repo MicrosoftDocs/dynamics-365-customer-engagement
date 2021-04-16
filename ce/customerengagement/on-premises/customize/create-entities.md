@@ -42,7 +42,7 @@ search.audienceType:
 
 > [!NOTE]
 >  - If you are using [!INCLUDE[tn_Safari](../includes/tn-safari.md)] as your browser, you may receive a timeout error when trying to save or publish a new custom entity. If this occurs we recommend you use a different browser to create entities.  
->  - In order for the entity name to work with [Dynamics 365 for Customer Service embedded knowledge search](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search), the maximum entity name length including the publisher prefix can’t exceed 24 characters.
+>  - In order for the entity name to work with [Dynamics 365 for Customer Service embedded knowledge search](/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search), the maximum entity name length including the publisher prefix can’t exceed 24 characters.
  
 To create an activity entity, select **Define as an activity entity** before you save the entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activity entities](../customize/types-of-entities.md#BKMK_ActivityEntities)  
 
@@ -71,3 +71,6 @@ As an app maker or customizer, you can create and edit entities by using solutio
 [Create and edit fields (attributes)](create-edit-fields.md) <br />
 [Create or edit a main form for an entity](create-edit-main-forms.md) <br />
 [Understand views (lists)](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

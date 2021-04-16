@@ -20,5 +20,8 @@ ms.author: matp
   
 ## Solution
   
- Install or enable full-text search. For information about full-text search with [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Get Started with Full-Text Search](https://docs.microsoft.com/sql/relational-databases/search/get-started-with-full-text-search?view=sql-server-2017).
+ Install or enable full-text search. For information about full-text search with [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Get Started with Full-Text Search](/sql/relational-databases/search/get-started-with-full-text-search?view=sql-server-2017).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

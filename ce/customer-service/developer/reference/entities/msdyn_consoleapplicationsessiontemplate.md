@@ -1,8 +1,8 @@
 ---
 title: "msdyn_consoleapplicationsessiontemplate Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_consoleapplicationsessiontemplate entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
@@ -859,3 +859,6 @@ See msdyn_agentscript Entity [msdyn_msdyn_agentscript_msdyn_sessiontemplate](msd
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

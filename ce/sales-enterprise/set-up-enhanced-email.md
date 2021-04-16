@@ -2,11 +2,10 @@
 title: "Set up the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
 ms.date: 04/16/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -58,3 +57,6 @@ Before sales reps can use enhanced email, you must enable it.
 ### See also
 
 [Send email using the enhanced email experience](enhanced-email.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

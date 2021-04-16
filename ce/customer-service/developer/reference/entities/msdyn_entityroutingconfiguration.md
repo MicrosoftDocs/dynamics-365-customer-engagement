@@ -1,8 +1,8 @@
 ---
 title: "msdyn_entityroutingconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_entityroutingconfiguration entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/18/2020
 ms.topic: "reference"
@@ -763,3 +763,6 @@ Same as msdyn_liveworkstream entity [msdyn_entityroutingconfiguration_msdyn_live
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

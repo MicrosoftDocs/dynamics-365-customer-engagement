@@ -13,6 +13,10 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+Chat is a widely desired channel through which customers prefer to reach customer support. Customers appreciate being able to chat with human agents when self-service options don’t allow them to solve their own issues. 
+
+Dynamics 365 Customer Service offers full featured, first-party chat capabilities for agents to support customers. Chat transcripts from Power Virtual Agents or other live agents and pre-conversation survey data transfers to live agents to maintain full context of the customer issue as it moves between channels and people. Agents can help customers in the language of their choice with real-time translation, and escalate to voice and video if a visual demonstration and audio are needed to help customers. Features like quick replies, whisper, barge, consult, and transfer to other agents ensure agents can handle any workflow while chatting with customers.  
+
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 
 In this section, you will learn how to:
@@ -51,3 +55,6 @@ If your organization is concerned about the data collected by this service, you 
 [Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

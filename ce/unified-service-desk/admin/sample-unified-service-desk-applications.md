@@ -1,8 +1,8 @@
 ---
 title: "Sample Unified Service Desk | MicrosoftDocs"
 description: "Discover the sample application available with Unified Service Desk  that you can use to quickly get you started."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -31,3 +31,6 @@ To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../include
 ## See also  
  [Deploy sample Unified Service Desk applications to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

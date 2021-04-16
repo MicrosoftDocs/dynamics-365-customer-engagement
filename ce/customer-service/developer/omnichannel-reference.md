@@ -1,8 +1,8 @@
 ---
 title: "Live chat SDK JavaScript API Reference| Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 07/01/2019
 ms.topic: reference
@@ -37,3 +37,6 @@ The following JavaScript methods can be used to perform various operations with 
 ### See also
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Learn to use Unified Service Desk| MicrosoftDocs"
 description: "This section provides information about the features and capabilities of Unified Service Desk that you can use to configure your agent desktop application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -53,3 +53,6 @@ This section provides information about the features and capabilities of [!INCLU
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)  
   
  [Unified Service Desk configuration walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

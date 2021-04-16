@@ -1,16 +1,15 @@
 ---
 title: "Set up product families (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 Sales."
-ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.date: 02/10/2021
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-product
   - D365-UI-*
@@ -19,7 +18,7 @@ searchScope:
   - Customer Engagement
 ---
 
-# Set up product families (Sales and Sales Hub)
+# Set up product families (Sales Hub)
 
 Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it. A product family lets you group and categorize products, making it easier for you to manage them.  
   
@@ -62,39 +61,7 @@ Make it easier for sales agents to find products and services in a product catal
   
 7. On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
 
-## Create a product family (Sales)
-  
-1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
-  
-3. In the **Product Catalog** area, select **Families & Products**.  
-  
-4. To create a family, select **Add Family**.  
-  
-    -OR-  
-  
-    To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
-  
-    If you want to see your current product family levels, see [View product hierarchy](../sales-enterprise/view-product-hierarchy.md).  
-  
-5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-   > [!NOTE]
-   > The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
-  
-6. Select **Save**.  
-  
-7. In the list of products, families, and bundles, open the family that you just created.  
-  
-8. In the **Product Properties** section, select the **Add Properties** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
-  
+ 
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
@@ -106,3 +73,6 @@ Make it easier for sales agents to find products and services in a product catal
  [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
  [Clone a product](../sales-enterprise/clone-product.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

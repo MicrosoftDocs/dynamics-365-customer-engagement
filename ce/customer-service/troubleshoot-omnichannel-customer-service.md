@@ -1,10 +1,10 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/30/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -78,14 +78,14 @@ To avoid the provisioning failure, you must remove the Teams Service Principal a
 ![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
 
 2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
-3. Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+3. Type the `Install-Module AzureAD` command in the PowerShell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
 ![Execute command](media/powershell2.png "Execute command")
 
 4. PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
 ![Run command](media/powershell3.png "Run command")
 
 5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
-This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
+This establishes a connection with the tenant's Azure Active Directory, so you can manage it using PowerShell.
 6. Sign in to your organization as a tenant admin.
 7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
@@ -94,7 +94,7 @@ This establishes a connection with the tenant's Azure Active Directory, so you c
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
-## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled <a name="oc-csw-errors></a> 
+## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled <a name="oc-csw-errors"></a> 
 
 ### Issue
 
@@ -102,11 +102,20 @@ As an agent, when you log in to the Omnichannel for Customer Service application
 
 ### Resolution
 
-When you open the Omnichannel for Customer Service application or Customer Service workspace with Omnichannel enabled, the system performs a variety of tasks including logging in to Omnichannel, preparing for notifications, and setting your presence. If the system encounters any errors while performing these operations, they are displayed on the user interface.  
+When you open the Omnichannel for Customer Service application or Customer Service workspace with Omnichannel enabled, the system performs a variety of tasks including logging in to Omnichannel, preparing for notifications, and setting your presence. If the system encounters any errors while performing these operations, they are displayed on the user interface.
 
-If you get any of the errors listed in the table below, work with your administrator to ensure you have the right security roles, Omnichannel capacity, and default presence set. When the administrator makes changes to these settings, the changes may take up to 15 minutes to reflect. As an agent, you should log out, clear your browser cache, and close and reopen the browser to try again. If the issue persists, work with your administrator to create a service request with details including the organization URL, agent ID, error message, and client session ID value.
+If you get any of the errors listed below, check if Security Defaults is turned on. If it is turned on, the agent should have the right authentication set up. Alternatively, Security Defaults can be switched off if it is not required.
+
+To learn more about Security Defaults, see the topic [What are security defaults?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+
+
+
+If your tenant is configured with Azure Security Defaults, make sure your users have multi-factor authentication set up on their accounts. Otherwise, they might run into a single sign-on error. To learn more about Azure Security defaults, see [What are security defaults ?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+
 
 ### Error messages 
+
+  - There was a problem with your single sign-on account. Please sign out of all Microsoft Dynamics 365 apps and sign in again. If this continues, have your administrator contact Microsoft Support with client session ID.
 
   - Something went wrong while authenticating—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
@@ -165,7 +174,7 @@ In Power Automate, you might see either **Cases Work Distribution Flow** or **En
 
 ### Resolution
 
-To workaround the issue, you need to reset the Flow. To reset the Flow, follow these steps.
+To work around the issue, you must reset the Flow. To reset the Flow, follow these steps.
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -218,6 +227,20 @@ There may be an issue with customizations in the **Entity Records Distribution F
 Go to **Entity Records Distribution Flow** and review your customization made to the flow. 
 
 Review and resolve the error that is due to your customizations. For more information, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+
+## Unable to deploy custom solution containing Agentscript solution
+
+### Issue
+
+When you try to deploy a custom solution, it fails on account of a dependency on the Agentscript solution, which is part of Omnichannel for Customer Service.
+
+### Cause
+
+The Agentscript solution has been deprecated and was not present in the target environment. It has been replaced by the msdyn_Agentscripts solution.
+
+### Resolution
+
+ We recommend that you remove all references of the Agentscript solution from the custom solution, and then reimport the solution.
 
 ## Power Virtual Agents bot conversations appear as active on dashboard even after customer has ended chat<a name="pvaendconv"></a>
 
@@ -582,7 +605,7 @@ The issue might happen due to the following reasons:
 Perform the following:
 
 - Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](omnichannel-provision-license.md). 
+- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision for Omnichannel for Customer Service](omnichannel-provision-license.md). 
 - Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](add-users-assign-roles.md).
 - Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
 
@@ -619,7 +642,7 @@ To delete the solutions, follow these steps:
    - DynamicsUnifiedServiceDesk
    - UiiForMicrosoftDynamicsCRM
       > [!NOTE]
-      > You must the delete the solutions in the following order:
+      > You must delete the solutions in the following order:
       > 1. USDISHCustomization or USDWebClientCustomization
       > 2. USDUnifiedInterfaceCustomization
       > 3. DynamicsUnifiedServiceDesk
@@ -643,5 +666,18 @@ The issue is due to the package deployment failure.
 
 ### Resolution
 
-You must the deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+You must deploy the Unified Service Desk - Omnichannel for Customer Service package again. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
 
+## Conversation control becomes blank
+
+### Issue
+
+Conversation widget becomes blank while swapping between browser tabs in Google Chrome or Chromium-based Microsoft Edge.
+
+### Resolution
+
+Upgrade your browser version as per the system requirements of Dynamics 365 Channel Integration Framework version 2.0. To learn more, see [System requirements](channel-integration-framework/v2/system-requirements-channel-integration-framework-v2.md).
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

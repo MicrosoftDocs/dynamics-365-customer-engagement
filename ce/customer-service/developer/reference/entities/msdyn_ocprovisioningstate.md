@@ -1,8 +1,8 @@
 ---
 title: "msdyn_ocprovisioningstate Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocprovisioningstate entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
@@ -882,3 +882,6 @@ See msdyn_ocwhatsappchannelaccount Entity [msdyn_ocwhatsappchannelaccount_msdyn_
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "removeAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 07/01/2019
 ms.topic: article
@@ -64,3 +64,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ## See also
 
 [JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

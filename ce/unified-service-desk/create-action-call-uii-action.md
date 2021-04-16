@@ -1,8 +1,8 @@
 ---
 title: "Create an action call for a UII action | MicrosoftDocs"
 description: "Learn about creating an action call for a UII action."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2017
 ms.topic: article
@@ -52,7 +52,7 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
    |     Field      | Description |
    |----------------|------------------------------------------------------------|
    |   Condition    | This is a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] expression that should result in true or false. For example, “[[account.name]]”==”My Account”<br /><br /> If the condition results in false or throws an exception, the action won’t be performed. If the action is blank or the result is true, the action will be performed. **Note:**  If the condition results in false or throws an exception, the action won’t be performed. If the action is blank or the result is true, the action will be performed.               |
-   |  Shortcut Key  | This is a shortcut key that can be used by an agent to run this action while within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Anything valid for the `KeyBinding.Gesture` string can be used here. For more information see: [https://msdn.microsoft.com/library/system.windows.input.keybinding.gesture.aspx](https://msdn.microsoft.com/library/system.windows.input.keybinding.gesture.aspx).<br /><br /> Examples:<br /><br /> -   CTRL+R<br />-   CTRL+ALT+A<br />-   SHIFT+ALT+A<br />-   CTRL-F12 |
+   |  Shortcut Key  | This is a shortcut key that can be used by an agent to run this action while within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. Anything valid for the `KeyBinding.Gesture` string can be used here. For more information see: [https://msdn.microsoft.com/library/system.windows.input.keybinding.gesture.aspx](/dotnet/api/system.windows.input.keybinding.gesture).<br /><br /> Examples:<br /><br /> -   CTRL+R<br />-   CTRL+ALT+A<br />-   SHIFT+ALT+A<br />-   CTRL-F12 |
 
    > [!TIP]
    >  You can view the embedded help at the bottom of the **New Action Call** page to know the description and the applicable parameters that can be passed using the action call.  
@@ -80,3 +80,6 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Error code reference for Omnichannel for Customer Service | MicrosoftDocs"
 description: "Read about the error codes and error messages that are returned when using the live chat SDK methods, and how to resolve the errors"
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 10/09/2019
 ms.topic: article
@@ -39,3 +39,6 @@ Given below is a sample `errorEvent` object that is raised when the context prov
 
 [JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
 [Developer guide](../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

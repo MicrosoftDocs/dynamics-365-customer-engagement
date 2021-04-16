@@ -35,7 +35,10 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Integrate a bot with Omnichannel for Customer Service
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service).
+
+> [!NOTE]
+> Bots can escalate conversations to agents only if they are a part of push-based work streams.
 
 To integrate a bot with Omnichannel for Customer Service, you must:
 
@@ -126,7 +129,7 @@ If the bot escalates the customer query, it is routed to the appropriate queue a
 
 #### Create a context variable
 
-You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create work streams](work-streams-introduction.md).
+You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create work streams](create-workstreams.md).
 
 #### Create routing rules
 
@@ -157,7 +160,7 @@ This sample provides exact steps and configuration values to integrate a bot and
         > ![Create a rule to send customer query to bot](media/bot-rule.png "Create a rule to send customer query to bot")
     - **CreditCardRule**: Specify the work stream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
-        > ![Create a rule to send customer query from bot to an agent](media/credit-card-rule.png "Create a rule to send a customer query from a bot to an agent")
+        > ![Send customer queries from a bot to an agent, by creating a rule.](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
     - **HomeLoanRule**: Specify the work stream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
@@ -205,10 +208,13 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)<br>
+[Understand and create work streams](create-workstreams.md)<br>
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Hosted control types, action, and event reference in Unified Service Desk | MicrosoftDocs"
 description: "The section provides information about the various types of hosted controls in Unified Service Desk, and the predefined User Interface Integration (UII) actions and events available for each hosted control type."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/17/2018
 ms.topic: article
@@ -82,3 +82,6 @@ This section provides information about the various types of hosted controls in 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)  
   
  [Unified Service Desk Developer Overview](../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

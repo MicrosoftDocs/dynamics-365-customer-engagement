@@ -1,8 +1,8 @@
 ---
 title: "notifyNewActivity (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/03/2020
 ms.topic: reference
@@ -57,3 +57,6 @@ Microsoft.CIFramework.notifyNewActivity(sessionId, count).then(
 ### See also
 
 [notifyKpiBreach API](notifyKPIBreach.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

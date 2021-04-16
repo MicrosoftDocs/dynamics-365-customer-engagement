@@ -1,8 +1,8 @@
 ---
 title: "Build a custom CTI adapter for Unified Service Desk | MicrosoftDocs"
 description: "Learn about building a custom computer telephony integration (CTI) adapter to connect to a CTI system that provides access to events and CTI actions via web services or APIs."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -30,3 +30,6 @@ You can build a custom [!INCLUDE[pn_computer_telephony_integration_cti](../inclu
 ### See also  
  [Considerations for creating a CTI adapter for Unified Service Desk](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md)   
  [Integrate with CTI systems using CTI adapters](../unified-service-desk/integrate-cti-systems-cti-adapters.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

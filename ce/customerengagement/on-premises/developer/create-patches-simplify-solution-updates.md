@@ -115,10 +115,12 @@ If you add an entity to a solution and export the solution, the entity and all o
  For a managed solution things are handled slightly differently. You first clone the unmanaged solution (A), incorporating all of its patches and then exporting it as a managed solution (B). In the target organization that contains the managed version of the (A) solution and its patches, you import managed solution (B) and then execute <xref:Microsoft.Crm.Sdk.Messages.DeleteAndPromoteRequest> or the <xref href="Microsoft.Dynamics.CRM.DeleteAndPromote?text=DeleteAndPromote Action" /> to replace managed solution (A) and its patches with the upgraded managed solution (B) that has a higher version number.  
   
 ### See also  
- [Use segmented solutions and patches to simplify solution updates](https://technet.microsoft.com/library/mt628808.aspx)   
+ [Use segmented solutions and patches to simplify solution updates](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt628808(v=crm.8))   
  [Plan For Solution Development](plan-solution-development.md)   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)   
  [Solution Entity](entities/solution.md)   
  [Maintain Managed Solutions](maintain-managed-solutions.md)   
  [Publish your app on AppSource](publish-app-appsource.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

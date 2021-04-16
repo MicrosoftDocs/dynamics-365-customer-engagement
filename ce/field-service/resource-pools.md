@@ -21,3 +21,6 @@ search.app:
 # Resource pool scheduling
 
 [!INCLUDE[topic-urs-resource-pools.md](../shared/urs/resource-pools.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

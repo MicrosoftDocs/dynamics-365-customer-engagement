@@ -143,7 +143,7 @@ Submitting support requests online allows us to deliver fast and deep technical 
 
 ### Is there a phone number I can call to contact Dynamics 365 Support? 
 
-Contacting Dynamics 365 Support over the phone will not speed up the processing of your request, and you will get a much better and faster experience by contacting support via the correct support portals listed earlier in this topic. If you cannot submit a request online, you can find a local support number from our list of regional [Global Customer Service Centers](https://go.microsoft.com/fwlink/p/?LinkID=616794).
+Contacting Dynamics 365 Support over the phone will not speed up the processing of your request, and you will get a much better and faster experience by contacting support via the correct support portals listed earlier in this topic. If you cannot submit a request online, you can find a local support number from our list of regional [Global Customer Service Centers](/microsoft-365/admin/contact-support-for-business-products).
 
 ### How do I submit a support request? 
 
@@ -156,7 +156,7 @@ Contacting Dynamics 365 Support over the phone will not speed up the processing 
 
 ### How do I submit a support request if I cannot sign in to the Dynamics 365 support portal for my product or service? 
  
-If you cannot submit a support request online, you can find a local support phone number from our list of regional [Global Customer Service Centers](https://go.microsoft.com/fwlink/p/?LinkID=616794).
+If you cannot submit a support request online, you can find a local support phone number from our list of regional [Global Customer Service Centers](/microsoft-365/admin/contact-support-for-business-products).
 
 ### How do I get support if I don’t have a Dynamics 365 subscription yet, and I get an error message while creating one? 
 
@@ -168,14 +168,14 @@ Any users with the tenant admin roles on the tenant containing the Dynamics 365 
 
 ### How do I authorize another person to submit support requests for a particular Dynamics 365 subscription? 
 
-To grant permission, you must have a tenant administrator role on the tenant that contains the Dynamics 365 subscription. Assign the Service Administrator role to all users who want to create and manage support requests for that given tenant but do not require other permissions. [Learn more](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide) about role assignments in the portal.
+To grant permission, you must have a tenant administrator role on the tenant that contains the Dynamics 365 subscription. Assign the Service Administrator role to all users who want to create and manage support requests for that given tenant but do not require other permissions. [Learn more](/office365/admin/add-users/about-admin-roles?view=o365-worldwide) about role assignments in the portal.
 
 ### I am developing applications on behalf of my client or assisting my client who is running Dynamics 365. How do I get support? 
 
 You can get support from Dynamics 365 in two ways:
 
 - Being an administrator of your customer’s tenant, you can use or purchase a Dynamics 365 Support plan for that account, as any subscription you own under the same account is covered by the same support plan. You can also use your Partner benefits (for example, Advanced Support for Partners or Microsoft Partner Network Support) to submit a support request.
-- Get support using your customer’s account. To do so, the Partner (you) must have administrator or owner privileges to the customer’s subscription, most often through being a [Delegated Administrator](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/partners#provide-delegated-administration) on the tenant. The Partner can then use the customer’s subscription, or the Partner can use their Dynamics 365 Support Benefits (for example, Advanced Support for Partners or Microsoft Partner Network Support) to submit a support request.
+- Get support using your customer’s account. To do so, the Partner (you) must have administrator or owner privileges to the customer’s subscription, most often through being a [Delegated Administrator](/office365/servicedescriptions/office-365-platform-service-description/partners#provide-delegated-administration) on the tenant. The Partner can then use the customer’s subscription, or the Partner can use their Dynamics 365 Support Benefits (for example, Advanced Support for Partners or Microsoft Partner Network Support) to submit a support request.
 
 ### What is Initial Response Time, and how quickly can I expect to hear back from someone after submitting my support request? 
 
@@ -228,7 +228,7 @@ At the end of your term, your plan will automatically renew to the same Dynamics
 Manage your support plan subscriptions through the [Microsoft 365 Admin Portal](https://portal.office.com/).
 
 - To change your support plan, first cancel your existing support plan, and then purchase a new support plan.
-- To cancel your support plan, select the support plan subscription that you want to cancel, and then select **Cancel subscription**.   [Learn more](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/cancel-your-subscription?view=o365-worldwide) by reviewing this article.
+- To cancel your support plan, select the support plan subscription that you want to cancel, and then select **Cancel subscription**.   [Learn more](/office365/admin/subscriptions-and-billing/cancel-your-subscription?view=o365-worldwide) by reviewing this article.
 
 If you still have questions, open a new support request with the Billing team in the [Microsoft 365 Admin Portal](https://portal.office.com/). 
 
@@ -288,3 +288,6 @@ Yes, if you are eligible for these benefits and have activated your support acce
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

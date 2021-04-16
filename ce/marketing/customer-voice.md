@@ -21,7 +21,7 @@ search.app:
 # Add surveys to your marketing campaigns
 
 > [!NOTE]
-> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://docs.microsoft.com/dynamics365/customer-voice) documentation.
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](/dynamics365/customer-voice) documentation.
 
 Dynamics 365 Marketing includes built in support for adding surveys to your marketing campaigns. Build surveys using [Dynamics 365 Customer Voice](https://dynamics.microsoft.com/customer-voice) and access them directly from Marketing components including the segment builder, the email designer, and the customer journey design. You can use surveys to make data-driven decisions and apply your findings to your marketing initiatives. You can even automate survey experiences and use data generated from surveys for advanced segmentation and customer profiling.
 
@@ -30,7 +30,7 @@ Dynamics 365 Marketing includes built in support for adding surveys to your mark
 
 ## Step one: Create a survey in Dynamics 365 Customer Voice
 
-All surveys that you create in a Dynamics 365 Customer Voice environment are ready to use in Marketing. To learn about creating surveys, refer to the [Create a survey](https://docs.microsoft.com/dynamics365/customer-voice/create-survey) article.
+All surveys that you create in a Dynamics 365 Customer Voice environment are ready to use in Marketing. To learn about creating surveys, refer to the [Create a survey](/dynamics365/customer-voice/create-survey) article.
 
 ## Use surveys with dynamic segments
 
@@ -94,7 +94,7 @@ To add a Dynamics 365 Customer Voice survey to customer journey:
     - If/then based on an answer
 
 > [!IMPORTANT]
-> Entity names related to Forms Pro have changed to "Customer Voice." For example, if you are using [Advanced Find](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search) to search entities related to your surveys, you will need to search for Customer Voice, not Forms Pro.
+> Entity names related to Forms Pro have changed to "Customer Voice." For example, if you are using [Advanced Find](../customerengagement/on-premises/basics/save-advanced-find-search.md) to search entities related to your surveys, you will need to search for Customer Voice, not Forms Pro.
 > 
 > The entities associated with Dynamics 365 Customer Voice surveys are listed below:
 >
@@ -113,3 +113,5 @@ To add a Dynamics 365 Customer Voice survey to customer journey:
 ### See also
 
 [Create marketing forms](marketing-forms.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

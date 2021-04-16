@@ -1,8 +1,8 @@
 ---
 title: "setWidth (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -19,3 +19,6 @@ applies_to:
 [!INCLUDE[setWidth](includes/setWidth-description.md)]
 
 [!INCLUDE[token-setWidth](../../../shared/token-setWidth.md)]
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

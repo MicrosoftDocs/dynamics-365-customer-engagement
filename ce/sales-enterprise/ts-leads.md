@@ -2,13 +2,12 @@
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
 ms.date: 05/26/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-lead
   - D365-UI-*
@@ -255,3 +254,6 @@ This is by design. In the lead form, after selecting the existing account, only 
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

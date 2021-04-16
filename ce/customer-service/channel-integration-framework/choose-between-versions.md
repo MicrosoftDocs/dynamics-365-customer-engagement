@@ -1,8 +1,8 @@
 ---
 title: "How to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 | Microsoft Docs"
 description: "Learn how to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/02/2020
 ms.topic: article
@@ -11,6 +11,7 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
+
 
 # Choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0
 
@@ -69,3 +70,6 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 [Integrate Channel Integration Framework version 2.0 with Omnichannel for Customer Service](v2/integration-multi-session-experiences.md)  
 [Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)  
 [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

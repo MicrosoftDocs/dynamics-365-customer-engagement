@@ -1,10 +1,10 @@
 ---
 title: "Understand conversation states in Omnichannel | MicrosoftDocs"
-description: "Learn what the conversation states are in Omnichannel."
-author: neeranelli
-ms.author: nenellim
+description: "Learn about the conversation states in Omnichannel."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -20,7 +20,7 @@ The conversation can be in an open or closed state and can have the following st
 - [Open](#open)
 - [Active](#active)
 - [Waiting](#waiting)
-- [Wrapup](#wrap-up)
+- [Wrap-up](#wrap-up)
 - [Closed](#closed)
 
 > [!NOTE]
@@ -56,13 +56,16 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation, and you're no longer getting reply, you can close the session without ending the conversation (applicable only for SMS and social channels). This will keep conversation in waiting state. |  Channel  |
 | Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
 
+> [!NOTE]
+> If you decline a conversation 10 times within a time span of five minutes, then the conversation will be moved to the **Closed** state.
+
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active1.png "Active state")
 
 ## Wrap-up
 
 This is an intermediate state after you end the conversation, when you can do post-conversation activities, such as, taking notes and update the customer information before moving the conversation to **Closed**. In **Wrap-up**, your (agent) capacity is consumed.
 
-The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario. 
+The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
@@ -95,6 +98,9 @@ Omnichannel for Customer Service has a default time set for the conversation to 
 ### Understand working of auto-close of conversations
 
 The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that do not transition for more than the default configured time. These conversations become eligible for automatic-closure, and next time, when the scheduler runs, these conversations are moved from the existing status reason to the **Closed** state.
+
+> [!IMPORTANT]
+> To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
 
 ### Default time for automatic closure of conversation
 
@@ -140,3 +146,6 @@ Programmatically, you can change the default time and set it as per your organiz
 
 [View communication panel](oc-conversation-control.md)  
 [Automatic closure of a conversation](auto-close-conversation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

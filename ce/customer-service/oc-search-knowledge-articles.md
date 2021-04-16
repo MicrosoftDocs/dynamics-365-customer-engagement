@@ -68,7 +68,7 @@ You can perform the following actions for the knowledge article:
 - Copy the article URL to copy the external URL of the article so you can share it with your customers in a chat.
 - Provide feedback by selecting the thumbs up or thumbs down icon.
   - Make sure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
-  - Customer service agents and customer service managers can create, or view feedbacks based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
+  - Customer service agents and customer service managers can create, or view feedback based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
 - When you select thumbs down, the **Comments** box to provide feedback appears. Optionally, provide additional information and reasons for the feedback.
 
 ### Filter knowledge articles
@@ -110,3 +110,6 @@ When you interact with a customer in the conversation control, you can use the *
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)  
 [View customer summary](oc-customer-summary.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

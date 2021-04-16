@@ -21,34 +21,23 @@ search.audienceType:
 ---
 # SharePoint Document Management software requirements
 
-If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with Dynamics 365 Customer Engagement (on-premises), you must meet the requirements listed in this topic.  
+If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with Dynamics 365 Customer Engagement (on-premises), you must meet the requirements listed here:  
 
-## Use document management in Customer Engagement (on-premises)
+- To use server-based integration with SharePoint, you can use Microsoft SharePoint Online or Microsoft SharePoint 2013 SP1 on-premises (or a later version).
 
-If you are using server-based integration with SharePoint, you can use Microsoft SharePoint Online or Microsoft SharePoint 2013 SP1 on-premises (or a later version).
+     > [!IMPORTANT]
+     > SharePoint Foundation versions aren’t supported for use with Customer Engagement (on-premises) document management.
 
-If you are using the Microsoft Dynamics CRM 2016 List Component for Microsoft SharePoint, one of the following versions of Microsoft SharePoint must be available:
+<br />
 
-- Microsoft SharePoint 2013 or Microsoft SharePoint 2013 SP1
-
-- Microsoft SharePoint 2010 SP1 or SP2
-
-- Microsoft SharePoint Online
-
-**A SharePoint site collection**. You also need at least one site collection configured and available for Customer Engagement (on-premises).
-
-Either **Server-based SharePoint integration** (recommended) or **Microsoft Dynamics CRM List Component**, must be enabled.
-
-The Microsoft Dynamics CRM List Component is a SharePoint solution. you must download and install. More information: Microsoft Dynamics CRM List Component for Microsoft SharePoint
-
-> [!IMPORTANT]
-> SharePoint Foundation versions aren’t supported for use with Customer Engagement (on-premises) document management.
-
-Users who access SharePoint from Customer Engagement (on-premises) must have appropriate permissions on the SharePoint site collection where the document management components are installed. For more information about how to grant membership on a site collection, see the SharePoint Help.
+- A SharePoint site collection. You also need at least one site collection configured and available for Customer Engagement (on-premises).
+- Server-based SharePoint integration must be enabled. More information: [Manage your documents using SharePoint](manage-documents-using-sharepoint.md)
+- Users who access SharePoint from Customer Engagement (on-premises) must have appropriate permissions on the SharePoint site collection where the document management components are installed. For more information about how to grant membership on a site collection, see the SharePoint Help.
 
 <a name="BKMK_enable_servertoserver"></a>   
 
-## Server-based SharePoint integration  
+## About server-based SharePoint integration
+
  Earlier versions of Customer Engagement (on-premises) document management use a client-to-server strategy to authenticate and transmit data from Customer Engagement (on-premises) to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. Server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration provides the following benefits:  
 
 - User interface that is consistent with the newly-updated Customer Engagement (on-premises) user interface.  
@@ -92,5 +81,9 @@ Users who access SharePoint from Customer Engagement (on-premises) must have app
 >   - **[!INCLUDE[pn_crm_2016_list_component_sharepoint_server_2010](../includes/pn-crm-2016-list-component-sharepoint-server-2010.md)]** . This version doesn’t work with [!INCLUDE[pn_sharepoint_2013](../includes/pn-sharepoint-2013.md)].  
 >   - **[!INCLUDE[pn_crm_2016_list_component_sharepoint_server_2013](../includes/pn-crm-2016-list-component-sharepoint-server-2013.md)]** . This version doesn’t work with [!INCLUDE[pn_ms_SharePoint_2010_short](../includes/pn-ms-sharepoint-2010-short.md)].  -->
 
-### See also  
+### See also
+
 [Set up SharePoint integration](set-up-sharepoint-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

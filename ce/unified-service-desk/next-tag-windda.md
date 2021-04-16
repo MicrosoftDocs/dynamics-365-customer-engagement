@@ -1,8 +1,8 @@
 ---
 title: "Next Tag (WinDDA) in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
 description: "The topic describes the attributes of the Next tag (winDDA)."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -54,3 +54,6 @@ search.app:
 ### See also  
  [Win DDA](../unified-service-desk/windda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

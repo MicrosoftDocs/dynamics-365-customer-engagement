@@ -25,12 +25,12 @@ search.app:
 <tr><td>
 
 <h2>Set up and get started</h2>
-<li><a href="https://go.microsoft.com/fwlink/p/?linkid=864736" data-raw-source="[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)">Readme</a></li>
+<li><a href="/dynamics365/marketing/known-issues" data-raw-source="[Readme](./known-issues.md)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
 <li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 Marketing</a></li>
 <li><a href="manage-marketing-environments.md" data-raw-source="[Manage Marketing environments](manage-marketing-environments.md)">Manage Marketing environments</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
-<li><a href="open-advanced-settings.md" data-raw-source="[Open the administration settings](open-advanced-settings.md)">Open the administration settings</a></li>
+<li><a href="open-settings.md" data-raw-source="[Open the administration settings](open-settings.md)">Open the administration settings</a></li>
 <li><a href="navigation.md" data-raw-source="[Find your way around](navigation.md)">Find your way around</a></li>
 <li><a href="get-ready-email-marketing.md" data-raw-source="[Best practices for email marketing](get-ready-email-marketing.md)">Best practices for email marketing</a></li>
 <li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
@@ -80,3 +80,6 @@ search.app:
 </td></tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

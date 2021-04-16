@@ -60,3 +60,6 @@ Refer to the sample link at the end of this topic for sample code that demonstra
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)<br />
 <!-- Bug 696490 should make the Audit entity public again: [Audit Entity](entities/audit.md)<br /> -->
  [Auditing Entity Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

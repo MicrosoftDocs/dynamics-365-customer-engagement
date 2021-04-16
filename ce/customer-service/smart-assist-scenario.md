@@ -1,8 +1,8 @@
 ---
 title: "Implement a custom scenario for smart assist bot | MicrosoftDocs"
-description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+description: "Implement a custom scenario for smart assist bot"
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/25/2020
 ms.topic: article
@@ -147,4 +147,7 @@ You can use the client-side APIs to open knowledge base articles. See [Client AP
 
 [Build a smart assist bot](smart-assist-bot.md)<br />
 [Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)<br />
-[Smart assist for agents](smart-assist.md)
+[Smart assist for agents](../app-profile-manager/smart-assist.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,4 +66,7 @@ To remove a subject from the subject tree, select the subject and select **Remov
 
 ### See also
 
-[Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
+[Configure Customer Service)](configure-cs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

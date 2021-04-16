@@ -231,3 +231,6 @@ Verify the following prerequisites before you start creating the site map:
 ### See also  
  [Create or edit an app](../customize/create-edit-app.md)   
  [Add or edit app components](../customize/add-edit-app-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

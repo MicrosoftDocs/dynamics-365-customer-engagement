@@ -1,8 +1,8 @@
 ---
 title: "Manage access using Unified Service Desk security roles | MicrosoftDocs"
 description: "Learn to control how agents use Unified Service Desk by using security roles."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -31,4 +31,7 @@ You must assign the two [!INCLUDE[pn_unified_service_desk](../../includes/pn-uni
 
  [Create Unified Service Desk Configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)   
  [Access management in Unified Service Desk](../../unified-service-desk/admin/security-unified-service-desk.md)   
- [Privilege and role entities](https://msdn.microsoft.com/library/gg328230.aspx)
+ [Privilege and role entities](/previous-versions/dynamicscrm-2016/developers-guide/gg328230(v=crm.8))
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

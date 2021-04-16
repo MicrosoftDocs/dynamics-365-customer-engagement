@@ -35,3 +35,6 @@ This topic lists the resources that you can use to get started with using the We
 
 [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br />
 [Authenticate with the Web API](authenticate-web-api.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

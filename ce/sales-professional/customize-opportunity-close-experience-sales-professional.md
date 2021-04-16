@@ -2,12 +2,17 @@
 title: "Customize the Opportunity Close form (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Customize the opportunity close experience to enable sales reps to capture important details in Dynamics 365 Sales Professional about why an opportunity was closed."
 ms.date: 07/31/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunity
+  - D365-UI-Form
+  - Dynamics 365
+  - Sales
 ---
 
 # Customize the Opportunity Close form (Sales Professional)
@@ -96,7 +101,7 @@ To create fields,
 
 5.  Under the **Opportunity Close** node, select **Fields**.
 
-6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
+6.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customerengagement/on-premises/customize/create-edit-fields.md)
 
 
 ## Add newly created custom fields to the Opportunity Close form
@@ -130,3 +135,6 @@ either from the Opportunity timeline or from the **Related Activities** grid, wh
 ### See also
 [Create or edit opportunities](manage-opportunities-sales-professional.md#close-an-opportunity)  
 [Enable customization of the Opportunity Close form](enable-opportunity-close-customization-sales-professional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

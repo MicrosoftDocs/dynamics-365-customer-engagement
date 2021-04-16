@@ -1,8 +1,8 @@
 ---
 title: "Generate performance data log files Performance data collection using keyboard shortcuts | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 10/31/2018
 ms.topic: article
@@ -158,3 +158,6 @@ To configure a new performance data collection keyboard shortcut:
 [Configure auditing and diagnostics in Unified Service Desk](../admin/configure-auditing-diagnostics-unified-service-desk.md)
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

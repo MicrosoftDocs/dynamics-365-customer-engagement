@@ -1,23 +1,22 @@
 ---
 title: Overview of service and service scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
 ---
 
 # Overview of service and service scheduling (Customer Service)
@@ -25,7 +24,7 @@ ms.assetid: 7904d0f0-6295-4fec-a843-f1ee5267536b
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Learn the basics of getting started with managing services and service scheduling in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ## Understand the service terminology  
   
@@ -83,3 +82,6 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
     
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

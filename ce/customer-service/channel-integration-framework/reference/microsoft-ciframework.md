@@ -1,8 +1,8 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -62,3 +62,6 @@ These APIs enable you to perform CRUD operations on entity records.
 [What's new in Channel Integration Framework](../whats-new-channel-integration-framework.md)
 
 [System requirements for Channel Integration Framework](../system-requirements-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,5 @@ You can drill down into any of the accessibility issues found to get help on how
 ![Accessibility checker drill-down](./media/accessibility-checker-issue-drill.png "Accessibility checker drill down")
 
 Once you have made an update, you can hit the button at the end "Check it again" to ensure your fix has passed the accessibility requirements.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

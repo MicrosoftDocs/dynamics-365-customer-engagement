@@ -155,3 +155,6 @@ This topic describes how to create customer summary-related action calls in Unif
 
 - [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
 - [Step 4: Add the hosted control, action calls, and events to configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

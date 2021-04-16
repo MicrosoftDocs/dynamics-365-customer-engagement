@@ -1,8 +1,8 @@
 ---
 title: "Live chat widget telemetry| Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 05/15/2020
 ms.topic: reference
@@ -36,3 +36,6 @@ data-enable-telemetry = "false"
 ### See also
 
 [Customize a chat widget](customize-chat-widget.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

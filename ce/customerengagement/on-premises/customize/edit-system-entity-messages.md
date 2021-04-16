@@ -40,3 +40,6 @@ search.audienceType:
  
 ### See also
 [Create or edit an entity](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

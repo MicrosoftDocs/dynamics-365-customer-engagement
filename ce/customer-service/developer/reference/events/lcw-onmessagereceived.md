@@ -1,30 +1,149 @@
 ---
 title: "lcw onMessageReceived | MicrosoftDocs"
-description: 
-author: platkat
-ms.author: ktaylor
+description: lcw onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
+ms.date: 04/16/2021
 ms.topic: article
 ms.reviewer: nenellim
+ms.service: dynamics-365-customerservice
 ---
-# lcw:onMessageReceived  (Omnichannel for Customer Service JavaScript API reference)
+# lcw:onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when a new message is received by the chat widget. You can use this event to create custom experiences when a new message comes in for the user. For example, playing a sound notification or updating the page title to catch the user’s eye. 
+The `lcw:onMessageReceived` event is triggered when the chat widget gets a new message. You can use this event to create custom experiences for the user. For example, play a sound notification or update the page title to catch the user eye for the new message.
 
-The message can either be sent by a user (for example, an agent in Dynamics) or the system (for example, an automated message). This event will contain data in the payload to explain the source of the message. 
+Users such as an agent in Dynamics 365 can send the message or the system can send an automated message. So, the possible values for `messageType` are "user" and "system".
+
+This event will contain data in the payload to explain the source of the message.
 
 ## Sample payload
+
+**Agent assigned**
 
 ```JSON
 { 
 
-detail: { 
+"channelData": { 
 
-messageType: "user" 
+"tags": [
+    "system",
+    "agentassignmentready"
+],
+
+},
+"messageType": "system"
 
 } 
+```
+
+**Agent accepted**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentaccepted"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Agent sent a message**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "public",
+    "client_activity_id:1612311164266bkaspzvq05b"
+],
+
+},
+"messageType": "user"
+
+} 
+```
+
+**Agent ended the conversation**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentendconversation"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Agent ended the session**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "primarysessionclosed"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Agent assignment failed**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "agentassignmentfailure"
+],
+
+},
+"messageType": "system"
+
+} 
+```
+
+**Queue position**
+
+```JSON
+{ 
+
+"channelData": { 
+
+"tags": [
+    "system",
+    "queueposition",
+    "customerqueuepositionnext"
+],
+
+},
+"messageType": "system"
 
 } 
 ```
@@ -32,12 +151,15 @@ messageType: "user"
 ## Example
 
 ```javascript
-window.addEventListener("lcw:onMessageReceived", function handleWidgetMessageReceivedEvent(){ // Handle the live chat widget message sent event }); 
+window.addEventListener("lcw:onMessageReceived", function handleWidgetMessageReceivedEvent(payload){ // Handle the live chat widget message sent event });
 ```
 
 ### See also
 
-[lcw:onMessageSent](lcw-onmessagesent.md)<br />
-[lcw:ready](lcw-ready.md)<br />
-[lcw:error](lcw-error.md)<br />
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+[`lcw:onMessageSent`](lcw-onmessagesent.md)<br />
+[`lcw:ready`](lcw-ready.md)<br />
+[`lcw:error`](lcw-error.md)<br />
+[`Live chat SDK JavaScript API reference`](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

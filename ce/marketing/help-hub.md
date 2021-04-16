@@ -29,7 +29,7 @@ search.app:
 <li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 Marketing</a></li>
 <li><a href="manage-marketing-environments.md" data-raw-source="[Manage Marketing environments](manage-marketing-environments.md)">Manage Marketing environments</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
-<li><a href="open-advanced-settings.md" data-raw-source="[Open the Settings work area](open-advanced-settings.md)">Open the Settings work area</a></li>
+<li><a href="open-settings.md" data-raw-source="[Open the administration settings](open-settings.md)">Open the Settings work area</a></li>
 <li><a href="organization-settings.md" data-raw-source="[Organization settings](organization-settings.md)">Organization settings</a></li>
 <li><a href="business-management-settings.md" data-raw-source="[Business Management settings](business-management-settings.md)">Business Management settings</a></li>
 <li><a href="marketing-settings.md" data-raw-source="[Marketing settings](marketing-settings.md)">Marketing settings</a></li>
@@ -100,3 +100,6 @@ search.app:
 <li><a href="developer/marketing-organization-metadata.md" data-raw-source="[Metadata reference for your organization](developer/marketing-organization-metadata.md)">Metadata reference for your organization</a></li>
 </td></tr>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

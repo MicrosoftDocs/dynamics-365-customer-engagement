@@ -2,8 +2,7 @@
 title: "Troubleshooting issues related to currency and price list (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with currency and price list in Dynamics 365 Sales."
 ms.date: 07/09/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -74,8 +73,11 @@ You can change the currency and price list for the entities in the following sta
 4. Add back the product records or quote records, and then save the form.
 
 > [!NOTE]
-> You can change currency by using the entity attribute. To learn more, see [Transaction Currency (currency) entity](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/transaction-currency-currency-entity).
+> You can change currency by using the entity attribute. To learn more, see [Transaction Currency (currency) entity](../customerengagement/on-premises/developer/transaction-currency-currency-entity.md).
 
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

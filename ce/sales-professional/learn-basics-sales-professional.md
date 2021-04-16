@@ -2,14 +2,13 @@
 title: "Get started using Dynamics 365 Sales Professional"
 description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
 ms.date: 12/09/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Get started using Dynamics 365 Sales Professional
@@ -102,3 +101,6 @@ The following ready-to-use business processes are available that you can use as 
 
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

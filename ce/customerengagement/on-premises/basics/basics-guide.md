@@ -1,6 +1,7 @@
 ---
 title: "Basics Guide (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 keywords: sales; service; marketing
+description: Basics Guide for Dynamics 365 Customer Engagement (on-premises), version 9.
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
@@ -34,7 +35,7 @@ Dynamics 365 Customer Engagement (on-premises) are not just for using in a web b
 can also use them on your phone, on your [!INCLUDE[tn_android](../includes/tn-android.md)] tablet, or on your [!INCLUDE[tn_apple_ipad](../includes/tn-apple-ipad.md)]. This guide covers using the system in your web browser, to keep it as short
 as possible and because the mobile apps work almost the same as on the web.
 
-Download the app from the online store for your phone or tablet (search for "Dynamics 365" to find the app). You may need to check with the person who manages your system day-to-day, to make sure you have the security permissions required to use the app. To learn more, see [Get started with Dynamics 365 for phones](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets). You can also do your work from within [!INCLUDE[pn_outlook_short](../includes/pn-outlook-short.md)], if you want. Check with your system administrator for details, or see [Dynamics 365 App for Outlook User's Guide](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide).
+Download the app from the online store for your phone or tablet (search for "Dynamics 365" to find the app). You may need to check with the person who manages your system day-to-day, to make sure you have the security permissions required to use the app. To learn more, see [Get started with Dynamics 365 for phones](/dynamics365/customer-engagement/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets). You can also do your work from within [!INCLUDE[pn_outlook_short](../includes/pn-outlook-short.md)], if you want. Check with your system administrator for details, or see [Dynamics 365 App for Outlook User's Guide](/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide).
 
 ## Get valuable learning even if your system has been customized
 Even if your system has been customized to match your business (and you use different names or your screens look different), you'll still find these basics useful, because we only included tasks that anyone using the system would do, no matter how the screens have been changed.
@@ -63,3 +64,6 @@ If it turns out that you can't see or access something described in this guide, 
 [Customization Guide](../customize/overview.md)<br />
 [Dynamics 365 Customer Engagement (on-premises) Help](../overview.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

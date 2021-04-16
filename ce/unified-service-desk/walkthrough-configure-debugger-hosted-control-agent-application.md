@@ -1,8 +1,8 @@
 ---
 title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/17/2018
 ms.topic: article
@@ -178,3 +178,6 @@ search.app:
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
 
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

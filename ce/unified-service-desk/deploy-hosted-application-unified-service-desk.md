@@ -1,8 +1,8 @@
 ---
 title: "Deploy the hosted application to Unified Service Desk | MicrosoftDocs"
 description: "Learn about deploying the hosted application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -62,3 +62,6 @@ Once you have created a hosted application as described in [Create a HAT hosted 
  [Configure the HAT application](../unified-service-desk/configure-hosted-application.md)   
  [Configuring an action for the HAT application](../unified-service-desk/configure-action-hosted-application.md)   
  [Import the hosted application from Unified Service Desk](../unified-service-desk/import-hosted-application-from-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

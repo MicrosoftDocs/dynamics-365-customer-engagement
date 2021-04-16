@@ -1,8 +1,8 @@
 ---
 title: "Walkthrough  Use the generic listener adapter for CTI event routing | MicrosoftDocs"
 description: "Learn about using the CTI Desktop Manager and generic listener in to expose the CTI events as screen pops in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -193,3 +193,6 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 ### See also  
  [Integrate with CTI systems](../unified-service-desk/integrate-cti-systems-cti-adapters.md)   
  [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

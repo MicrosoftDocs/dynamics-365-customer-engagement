@@ -28,8 +28,7 @@ You must add a web resource and make sure that the required language translation
 
 ## Enable real-time translation for agent and customer conversations
 
-1. Sign in to the Omnichannel Administration app.
-1. Under **Settings**, select **Real Time Translation**.
+1. In the site map of Omnichannel admin center, select **Agent experience**, and then select **Manage** for **Real Time Translation**. If you're using the Omnichannel Administration app, under **Settings**, select **Real Time Translation**.
 1. On the **Omnichannel Configuration·Real Time Translation Settings** page, in the **General Information** area, set the toggle for **Turn on** to **Yes**.
 1. In **Default input language**, select the language for agents to converse with customers. The translation engine translates the customer messages for agents to the language specified. By, default, it's set to English (en-us).
 1. In the **Web resource** area, in the **Web resource URL** box, enter the link of the web resource.
@@ -41,3 +40,6 @@ You must add a web resource and make sure that the required language translation
 
 [Add a web resource for real-time translation](add-web-resource-real-time-translation.md)  
 [Real-time language translation of conversations for agents and customers](oc-real-time-translation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

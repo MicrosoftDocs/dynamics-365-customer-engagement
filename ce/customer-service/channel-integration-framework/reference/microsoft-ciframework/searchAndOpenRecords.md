@@ -1,8 +1,8 @@
 ---
 title: "searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -20,3 +20,6 @@ applies_to:
 [!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
 
 [!INCLUDE[token-searchAndOpenRecords](../../shared/token-searchAndOpenRecords.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

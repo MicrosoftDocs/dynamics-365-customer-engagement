@@ -50,7 +50,7 @@ Configuring an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-
     > -   The **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)] Domain** must be a subdomain of the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain**. By default, "dev." is pre-pended to the **[!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] Domain** to make the **[!INCLUDE[pn_Discovery_Web_Service](../includes/pn-discovery-web-service.md)] Domain**.  
     > -   The domains must be valid for the [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)] certificate's common name or names.  
   
-     For more information about web addresses, see [Install Microsoft Dynamics CRM Server on multiple computers](https://technet.microsoft.com/library/hh699803.aspx).  
+     For more information about web addresses, see [Install Microsoft Dynamics CRM Server on multiple computers](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699803(v=crm.8)).  
   
 6.  In the **Enter the external domain where your Internet-facing servers are located** box, type the external domain information where your internet-facing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] servers are located, and then select **Next**.  
   
@@ -69,9 +69,12 @@ Configuring an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-
 11. Configure relying parties for IFD.  
   
     > [!IMPORTANT]
-    > You must configure a relying party for IFD. For more information, see [Configure the AD FS server for IFD](https://technet.microsoft.com/library/gg188600.aspx).  
+    > You must configure a relying party for IFD. For more information, see [Configure the AD FS server for IFD](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/gg188600(v=crm.8)).  
   
 ## See also  
  [Configure claims-based authentication](configure-claims-based-authentication.md)   
  [Disable an Internet-facing deployment](disable-an-internet-facing-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

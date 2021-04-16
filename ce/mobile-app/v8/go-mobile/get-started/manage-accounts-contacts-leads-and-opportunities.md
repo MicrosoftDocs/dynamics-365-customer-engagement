@@ -56,4 +56,7 @@ search.app:
  [!INCLUDE[cc_privacy_moca_user_content_and_location](../../../../includes/cc-privacy-moca-user-content-and-location.md)]  
   
 ### See also  
- [Dynamics 365 for phones and tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for phones and tablets User's Guide](../../../../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

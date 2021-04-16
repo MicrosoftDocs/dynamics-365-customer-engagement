@@ -52,7 +52,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 
 The following software features are required to run the Windows PowerShell cmdlets described in this topic:
 - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
-- [Azure Active Directory Module for Windows PowerShell (64-bit version)](https://docs.microsoft.com/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
+- [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
 
 ### Configure server-based authentication
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
@@ -81,7 +81,7 @@ Import-Module MSOnlineExt -force
 4. Connect to Office 365.
 
    When you run the Connect-MsolService command, you must provide a valid Microsoft account that has Office 365 Global Administrator membership for the Exchange Online license that is required.
-   For detailed information about each of the Azure Active Directory PowerShell commands listed here, see [MSDN: Manage Azure AD using Windows PowerShell](https://msdn.microsoft.com/library/azure/jj151815.aspx).
+   For detailed information about each of the Azure Active Directory PowerShell commands listed here, see [MSDN: Manage Azure AD using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)).
 
 ```powershell
 $msolcred = get-credential
@@ -262,3 +262,6 @@ When you test the email configuration, an asynchronous job runs in the backgroun
 ## See also
 [Server-side synchronization](../admin/server-side-synchronization.md) </br>
 [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

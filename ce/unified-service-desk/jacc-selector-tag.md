@@ -1,8 +1,8 @@
 ---
 title: "JAccSelector Tag in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the elements of <JAccSelector>."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -46,3 +46,6 @@ search.app:
 ### See also  
  [JavaDDA](../unified-service-desk/javadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

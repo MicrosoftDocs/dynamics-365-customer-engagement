@@ -1,8 +1,8 @@
 ---
 title: "msdyn_liveconversation Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_liveconversation entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 07/29/2020
 ---
@@ -1157,3 +1157,6 @@ See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_liveconver
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

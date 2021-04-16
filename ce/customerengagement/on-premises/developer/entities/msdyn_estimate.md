@@ -931,3 +931,5 @@ See msdyn_project Entity [msdyn_msdyn_project_msdyn_estimate_Project](msdyn_proj
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_estimate?text=msdyn_estimate EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

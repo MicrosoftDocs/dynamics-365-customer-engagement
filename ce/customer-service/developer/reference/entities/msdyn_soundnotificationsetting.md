@@ -1,8 +1,8 @@
 ---
 title: "msdyn_soundnotificationsetting Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_soundnotificationsetting entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 08/04/2020
 ms.topic: "reference"
@@ -981,3 +981,6 @@ See msdyn_soundfile Entity [msdyn_soundnotificationsetting_linksoundf](msdyn_sou
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

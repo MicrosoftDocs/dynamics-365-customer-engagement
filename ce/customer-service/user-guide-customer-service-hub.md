@@ -1,6 +1,6 @@
 ---
-title: "User Guide (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Guide to learn about the Customer Service Hub."
+title: "Introduction to Customer Service | MicrosoftDocs"
+description: "Learn about Customer Service Hub."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -48,7 +48,7 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
-[Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
+[Configure Customer Service](configure-cs.md)
 
 ## Accessibility and GDPR
 
@@ -66,6 +66,8 @@ Refer below to know how the Customer Service Hub app complies to accessibility a
 
 ### See also
   
-[Overview of Customer Service and Customer Service Hub ](overview.md)
+[Overview of Customer Service and Customer Service Hub ](overview.md)  
+[Upgrade to the Customer Service Hub](upgrade-ish-csh.md)  
 
-[Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

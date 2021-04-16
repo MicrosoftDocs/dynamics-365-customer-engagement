@@ -1,8 +1,8 @@
 ---
 title: "getFocusedTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
@@ -47,3 +47,6 @@ console.log(error.message);
 }
 );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -2,12 +2,17 @@
 title: "Create or edit opportunities in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track a deal that has more probability of turning into a business as an opportunity in Dynamics 365 Sales Professional."
 ms.date: 02/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunity
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create or edit opportunities in Dynamics 365 Sales Professional
@@ -133,3 +138,6 @@ Whether you win a sale or close an opportunity, you probably want to close it. Y
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)  
 [Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional](manage-activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ search.audienceType:
  
 ### See also
 [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

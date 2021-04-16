@@ -33,7 +33,7 @@ The templates included with Dynamics 365 Marketing provide:
 
 The first thing you do each time you create a new message, page, or form is to choose a template.  You can easily work with the supplied content and styles using the designer, but the column layout is semi-permanently established by the template you choose (you can only change it using the HTML code editor).
 
-![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
+![Dialog for choosing an email template](media/email-template-dialog2.png "Dialog box for choosing an email template")
 
 When you create a new design, the selected template's content is copied into it. The design and template aren't linked, so when you edit the design, the template won't change; likewise, any future changes that you make to a template won't affect any existing designs that were created using it.
 
@@ -151,3 +151,6 @@ Dynamics 365 Marketing provides both a simulated preview and an inbox preview fo
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Design elements reference](content-blocks-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

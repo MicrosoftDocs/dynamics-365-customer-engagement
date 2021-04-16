@@ -41,3 +41,6 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports that d
  [Create Custom Reports Using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)   
  [Sample Reports](../analytics/example-reports.md)   
  [Sample: Make a Report Context-Sensitive](../analytics/example-make-report-context-sensitive.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

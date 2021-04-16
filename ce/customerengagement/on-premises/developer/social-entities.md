@@ -29,9 +29,9 @@ Use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] social care gene
   
 - Social Profile to track a contact’s presence in social media  
   
-- Rule driven manual and automated Case creation and attribute values in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automatically create cases from email or social monitoring](https://go.microsoft.com/fwlink/p/?LinkId=393464).  
+- Rule driven manual and automated Case creation and attribute values in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automatically create cases from email or social monitoring](../basics/basics-guide.md).  
   
-  You can use this framework to automatically convert social posts to case, create social profiles and contact records for the author of the posts in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], search existing records, and associate social posts and profiles to them. You can configure watch lists with keywords, #tags, @mentions to identify the social buzz around your brand, product or service on social channels like Twitter or Facebook. Then, associate the watch list with a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] queue, which is set up to automatically create cases from social posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automatically create cases from email or social monitoring](https://go.microsoft.com/fwlink/p/?LinkId=393464).  
+  You can use this framework to automatically convert social posts to case, create social profiles and contact records for the author of the posts in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], search existing records, and associate social posts and profiles to them. You can configure watch lists with keywords, #tags, @mentions to identify the social buzz around your brand, product or service on social channels like Twitter or Facebook. Then, associate the watch list with a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] queue, which is set up to automatically create cases from social posts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automatically create cases from email or social monitoring](../basics/basics-guide.md).  
   
   ![Social care concept diagram](media/social-care-concepts.png "Social care concept diagram")  
   
@@ -39,7 +39,7 @@ Use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] social care gene
   
   [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] allows external services to connect to it, but won’t call into any external service and connect to it. The primary recipients of social data are [SocialActivity Entity](entities/socialactivity.md) and [SocialProfile Entity](entities/socialprofile.md), which are compliant with the changes in the social data.  
   
-  The data model and API used in social care framework provides the developers an opportunity to extend and customize the sample app to meet their business scenario. You can download the sample app based on [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] APIs to get visibility into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sample Application Using Microsoft Dynamics CRM Social Care Framework](https://msdn.microsoft.com/library/dn744885.aspx).  
+  The data model and API used in social care framework provides the developers an opportunity to extend and customize the sample app to meet their business scenario. You can download the sample app based on [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] APIs to get visibility into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sample Application Using Microsoft Dynamics CRM Social Care Framework](/previous-versions/dynamicscrm-2013/developer-articles/dn744885(v=crm.6)).  
   
 ## In This Section  
  [SocialActivity Entity](entities/socialactivity.md)  
@@ -49,4 +49,7 @@ Use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] social care gene
 ## Related Sections  
  [Model Your Business Data](model-business-data.md)  
   
- [Sample Application Using Microsoft Dynamics CRM Social Care Framework](https://msdn.microsoft.com/library/dn744885.aspx)
+ [Sample Application Using Microsoft Dynamics CRM Social Care Framework](/previous-versions/dynamicscrm-2013/developer-articles/dn744885(v=crm.6))
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

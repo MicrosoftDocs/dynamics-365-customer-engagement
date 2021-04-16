@@ -1,7 +1,7 @@
 ---
-title: "Configure matching strategies (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Configure form matching (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one in Dynamics 365 Marketing."
-ms.date: 10/04/2019
+ms.date: 03/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,9 +18,9 @@ search.app:
   - D365Mktg
 ---
 
-# Set matching strategies
+# Set form matching
 
-Matching strategies define how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one.
+Form matching defines how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one.
 
 For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, Dynamics 365 Marketing will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
 
@@ -28,13 +28,14 @@ For leads, if an existing lead record is found to match an incoming form submiss
 
 You'll probably have just a few matching strategies of each type&nbsp;many organizations use just one of each. Therefore, you can define each strategy just once and then it'll be available for selection each time you create a new form, and when you define the default strategies for all new forms. There are three places where you can view and create matching strategies:
 
-- Go to **Settings** > **Advanced settings** > **Marketing settings** > **Matching strategy** to view, create and edit all strategies that are available on your instance.
+- Go to **Settings** > **Lead management** > **Form matching** to view, create and edit all strategies that are available on your instance.
 - You can select a default strategy of each type (lead and contact). These will be selected by default each time a user creates a new marketing form, but users can then customize the setting as needed for each individual form. More information: [Configure landing pages](mkt-settings-landing-pages.md)
 - When you are creating or editing a marketing form, you'll  be able to select from among the available strategies, or create new ones. More information: [Create, view, and manage marketing forms](marketing-forms.md)
 
 In each case, the settings are the same.
 
-![Setting the matching strategy](media/marketing-page-matching.png "Setting the matching strategy")
+> [!div class="mx-imgBorder"]
+> ![Setting form matching](media/marketing-page-matching2.png)
 
 Describe your strategy by entering a **Name** and **Description**. Set the **Target** field to the type of entity your strategy applies to (lead or contact).
 
@@ -43,10 +44,12 @@ The list under the **Attributes** heading specifies which contact or lead attrib
 Use the buttons in the toolbar for the **Attributes** section to add, edit, and remove attribute in the list.
 
 > [!NOTE]
-> For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the default configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). However, the page ID is only provided by marketing pages hosted on a [Dynamics 365 Portal](portal-optional.md); for captured forms and forms embedded on an [external site](embed-forms.md), no page ID is saved, so all external forms will look like the same form when it comes to lead matching.
+> For lead matching, you might consider adding both **emailaddress1** and a lead-origin attribute such as **msdyncrm_marketingpageid** (this is the default configuration). This enables the system to identify leads based on the combination of email address and the specific marketing page that created the lead. By including the page ID as part of your lead-matching strategy, you'll be able to have multiple leads for a single contact, with each lead tracking interest in a different campaign (provided each campaign is using its own marketing page). However, the page ID is only provided by marketing pages hosted on a [Power Apps portal](portal-optional.md); for captured forms and forms embedded on an [external site](embed-forms.md), no page ID is saved, so all external forms will look like the same form when it comes to lead matching.
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [Configure landing pages](mkt-settings-landing-pages.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,7 @@
 title: "Sentiment monitoring | MicrosoftDocs"
 description: "Enable sentiment monitoring to understand customer sentiment across channels"
 author: lalexms
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: laalexan
 manager: shujoshi
 ms.date: 08/03/2020
@@ -138,3 +139,6 @@ This feature is intended to help customer service managers or supervisors enhanc
 [Enable sentiment analysis](enable-sentiment-analysis.md)<br>
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)<br>
 [Monitor conversations](monitor-conversations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,7 +28,7 @@ By using Power Automate for Field Service Mobile processes, you can:
 - Delete records and schedule jobs. 
 - Perform robust approvals. 
 
-For a comparison of features between Dynamics 365 workflows versus Power Automate flows, see [this feature comparison table.](https://docs.microsoft.com/power-automate/replace-workflows-with-flows).
+For a comparison of features between Dynamics 365 workflows versus Power Automate flows, see [this feature comparison table.](/power-automate/replace-workflows-with-flows).
 
 For more information, see the following video.
 
@@ -107,3 +107,6 @@ Flows that are shipped out-of-the-box are managed and cannot be changed. If you 
 ## Additional notes
 
 - Creating custom Power Automate flows will require appropriate licensing for Power Automate. For more information, see [Power Automate pricing](https://preview.flow.microsoft.com/en-us/pricing/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

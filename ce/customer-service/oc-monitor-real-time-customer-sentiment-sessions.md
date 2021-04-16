@@ -75,3 +75,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to a conversation](oc-take-notes.md)  
 [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

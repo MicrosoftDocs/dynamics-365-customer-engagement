@@ -27,7 +27,7 @@ The content in this topic can be used for [!INCLUDE[pn_dynamics_crm_online](../i
 ## Pass parameters to set field record values  
   
 > [!NOTE]
->  You can pass parameter values to the form to set field values using the `Xrm.Navigation.`[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function. For an example, see [Example: Use Xrm.Navigation.openForm to Open a New Window](set-field-values-using-parameters-passed-form.md#BKMK_ExampleXrmNavigationOpentForm).  
+>  You can pass parameter values to the form to set field values using the `Xrm.Navigation.`[openForm](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm) function. For an example, see [Example: Use Xrm.Navigation.openForm to Open a New Window](set-field-values-using-parameters-passed-form.md#BKMK_ExampleXrmNavigationOpentForm).  
   
  When you open a new form by using the URL address, you can include arguments in the `extraqs` parameter to set field values. The following requirements must be met:  
   
@@ -125,7 +125,7 @@ To set the value for **multi-select option set** field, Specify integer values f
   
 <a name="BKMK_ExampleXrmNavigationOpentForm"></a>   
 ## Example: Use Xrm.Navigation.openForm to open a new window  
- The following sample sets default values on several different fields and shows how to use the `Xrm.Navigation`.[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function. It is equivalent to the previous example that used the `window.open` method.  
+ The following sample sets default values on several different fields and shows how to use the `Xrm.Navigation`.[openForm](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm) function. It is equivalent to the previous example that used the `window.open` method.  
   
 ```javascript  
 function OpenNewContact() {  
@@ -182,5 +182,8 @@ function OpenNewContact() {
   
 ### See also  
  [Open Forms And Views with a URL](open-forms-views-dialogs-reports-url.md)   
- [openForm](clientapi/reference/Xrm-Navigation/openForm.md)  
+ [openForm](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm)  
  [Configure a form to accept custom querystring parameters](configure-form-accept-custom-querystring-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

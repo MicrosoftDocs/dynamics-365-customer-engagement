@@ -2,14 +2,13 @@
 title: "Use document templates in Dynamics 365 Sales Professional to create standardized documents | MicrosoftDocs"
 description: "Send out standardized and consistent documents to your customers by using document templates in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Use document templates to create standardized documents
@@ -71,3 +70,6 @@ Save a copy either online or to your computer. Send the file to others for their
 [Manage Excel templates in Dynamics 365 Sales Professional](manage-excel-templates.md)  
 [Manage Word templates in Dynamics 365 Sales Professional](manage-word-templates.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

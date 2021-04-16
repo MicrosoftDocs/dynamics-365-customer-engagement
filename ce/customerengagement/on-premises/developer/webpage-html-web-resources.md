@@ -150,3 +150,6 @@ Because an HTML web resource is just streamed to the user's browser, it can incl
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   
  [Using Image (JPG, PNG, GIF) Web Resources](image-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

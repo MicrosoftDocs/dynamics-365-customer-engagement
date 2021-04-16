@@ -1,8 +1,8 @@
 ---
 title: "Listener Hosted Control (Hosted Control) in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
 description: "Learn about using the Listener Hosted Control type of hosted control, introduced in Unified Service Desk 2.0, to configure a custom listener for your auditing, diagnostic, and trace logs."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -23,3 +23,6 @@ Use the `Listener Hosted Control` type of hosted control, introduced in [!INCLUD
   
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: "Connection Manager (Hosted Control) | MicrosoftDocs"
 description: "The Connection Manager hosted control type manages connections to Microsoft Dataverse, and makes it available to the rest of the agent application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -53,3 +53,6 @@ The **Connection Manager** hosted control type manages connections to Microsoft 
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)   
  [Unified Service Desk Hosted Controls](../unified-service-desk/unified-service-desk-hosted-controls.md)   
  [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

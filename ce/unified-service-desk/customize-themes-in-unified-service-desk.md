@@ -1,8 +1,8 @@
 ---
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
 description: "Themes in Unified Service Desk define the look and feel of the agent application. A theme in Unified Service Desk consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -78,7 +78,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 > [!NOTE]
 >  WPF and XAML scripting are essential skills required for customizing the display of your agent applications by manipulating controls in a XAML file.  
   
- Use the **SetTheme** action for the Global Manager hosted application to customize the default style of the agent application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports merging of your customizations with the existing theme or display style of the agent application. This effectively means that you just need to specify the controls or areas that you want to be changed along with the ResourceDictionary reference block to customize an existing display style. For general information about ResourceDictionary, select [ResourceDictionary and XAML resource references](https://msdn.microsoft.com/library/windows/apps/Hh968442.aspx).  
+ Use the **SetTheme** action for the Global Manager hosted application to customize the default style of the agent application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports merging of your customizations with the existing theme or display style of the agent application. This effectively means that you just need to specify the controls or areas that you want to be changed along with the ResourceDictionary reference block to customize an existing display style. For general information about ResourceDictionary, select [ResourceDictionary and XAML resource references](/previous-versions/windows/apps/hh968442(v=win.10)).  
   
  Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
   
@@ -204,3 +204,6 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Use themes to customize the appearance of your application](../unified-service-desk/customize-appearance-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

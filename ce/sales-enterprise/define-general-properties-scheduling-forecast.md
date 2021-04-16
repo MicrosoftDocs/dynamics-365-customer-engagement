@@ -1,7 +1,7 @@
 ---
 title: "Define general properties and scheduling for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define general properties and scheduling for a forecast in Dynamics 365 Sales."
-ms.date: 08/01/2020
+ms.date: 04/14/2021
 ms.service: "dynamics-365-sales"
 ms.custom: "dyn365-sales"
 ms.topic: article
@@ -14,7 +14,7 @@ manager: shujoshi
 
 Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
 
-**To enter configuration and scheduling information**
+## Basic forecast scheduling
 
 1.	In the **General** step, enter a descriptive name for the forecast. For example, **Kenny's Org FY 2020 Forecast**.
 
@@ -23,7 +23,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
 
-    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
@@ -89,12 +89,15 @@ Using the general properties and scheduling options of the forecast configuratio
 
 6.	Choose a **Default underlying records view**. This is the default view used when users select a row or a cell of the forecast to view its underlying opportunities. To learn more, see [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md).
 
-7.	In the **Scheduling** section, specify the following information.
+7.	In the **Scheduling** section, specify the following information. <a name="basic-scheduling"> </a>  
+
+    >[!NOTE]
+    >You can use the advanced scheduling to configure the forecast scheduling based on the calendar used by your organization. More information: [Advanced scheduling](#advanced-scheduling)
 
     | Parameter | Description |
     |-----------|-------------|
     | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
-    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).|
+    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. To learn more, see [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings).|
     | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter you want to start forecasting. |
     | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span up to one year. <br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
     | Valid from | This field is read-only. It identifies the date the forecast starts. |
@@ -110,7 +113,7 @@ Using the general properties and scheduling options of the forecast configuratio
         The start date determines when the fiscal year must start and the name base defines which date has to be considered to name the fiscal year.
         
         > [!div class="mx-imgBorder"]
-        > ![Verify organizational fisical settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fisical settings")
+        > ![Verify organizational fiscal settings](media/forecast-schedule-org-fy-settings.png "Verify organizational fiscal settings")
         
         In the above image, you can see that:
         
@@ -118,7 +121,7 @@ Using the general properties and scheduling options of the forecast configuratio
         
         **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
         
-        To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).
+        To learn more, see [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings).
         
     2. In the **Scheduling** section, select the following values:<br>
         **Forecast period** as **Monthly**<br>
@@ -136,6 +139,27 @@ Using the general properties and scheduling options of the forecast configuratio
 
 8.	Select **Next**.
 
+## Advanced scheduling
+
+Using advanced scheduling, you can configure forecast scheduling based on the calendar used by your organization. For example, a car manufacturing company, Contoso, has a planning calendar that uses 13 weeks per quarter. Contoso uses what's referred to as a 4-4-5 calendar, in which quarters are divided into two 4-week months and one 5-week month. The 13 weeks can also be grouped into 5–4–4 or 4–5–4 calendars, depending on organizational requirements.
+
+Forecasting now supports the selection of different calendar patterns to match your organizational requirements. In the **Scheduling** section, enable the advanced scheduling option.
+
+> [!div class="mx-imgBorder"]
+> ![Enable advanced scheduling preview](media/forecast-adv-scheduling-enable-preview.png "Enable advanced scheduling preview")     
+
+In addition to the [basic scheduling settings described earlier in this article](#basic-scheduling), the following options are available for you to configure:
+
+- **Fiscal Year Start Date**: Select the date depending on your organization's fiscal year start date. In general, the fiscal year start date starts at the beginning of a quarter, such as January 1, April 1, July 1, or October 1.
+- **Calendar Template**: Select the calendar template that corresponds to the accounting periods used in your organization. The calendar patterns supported in forecasting are described in the following table.
+
+    | Calendar templates | Description |
+    |--------------------|-------------|
+    | 4-4-5, 4-5-4, and 5-4-4 | This calendar pattern divides a year into four quarters of 13 weeks each. In the 4-4-5 pattern, the quarter is grouped into two 4-week months and one 5-week month. Similarly, the grouping can be configured as 5–4–4 or 4–5–4. Using this calendar pattern, the end date of the period is always the same day of the week, which is useful for shift or manufacturing planning because every period is the same length.<br>This calendar pattern has only 364 days (7 days &times; 52 weeks), meaning that a fifty-third week will need to be added every five or six years. This might make year-on-year comparison difficult. You can add an extra week to a specific quarter or month by selecting **Add week** in the preview section. |
+    | Gregorian | This calendar pattern is a 12-month period between January 1 and December 31. You can choose a different start and end date for this 12-month period. |
+    | Broadcast Calendar | This calendar pattern starts on a Monday and ends on a Sunday, and every month has either four or five such weeks. The broadcast calendar months thus have either 28 or 35 days.<br>The key link between the broadcast and Gregorian calendars is that the first week of every broadcast month always contains the Gregorian calendar first of the month. For example, if January 1 falls on a Saturday, the broadcast calendar year begins on the preceding Monday, December 27. Broadcast January would then have five weeks, ending on January 30, and the four weeks of broadcast February would begin on January 31. The number of weeks in a broadcast month is based on the number of Sundays that fall in that month, with the period ending on the last Sunday of the month.<br>When you choose this option, the **Fiscal Year Start Date** is automatically set to the Monday in the week that contains January 1. To remained aligned with the established broadcast calendar logic, the start date can't be changed. |
+    | 3-3-3-4, 3-3-4-3, 3-4-3-3, and 4-3-3-3 | This calendar pattern divides a year into 13 periods where each period is of 4 weeks. For example, in 3-3-3-4 calender, the first 3 quarters consist of 3 periods and the fourth quarter consists 4 periods. Similarly, the grouping can also be configured as 3-3-4-3, 3-4-3-3, or 4-3-3-3.<br>This calendar pattern has only 364 days (7 days &times; 52 weeks), meaning that a fifty-third week will need to be added every five or six years. This might make year-on-year comparison difficult. You can add an extra week to a specific quarter or month by selecting **Add week** in the preview section. |
+    
 <table>
 <tr><td>
 
@@ -144,14 +168,15 @@ Using the general properties and scheduling options of the forecast configuratio
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Provide viewing permissions](provide-permissions-forecast.md)
+> [Next step: Provide viewing and adjustment privileges](provide-permissions-forecast.md)
 </td></tr>
 </table>
 
 ### See also
 
-[Configure forecasts in your organization](configure-forecast.md)
-
-[Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
-
+[Configure forecasts in your organization](configure-forecast.md)  
+[Configure forecasts by using a custom rollup entity](configure-forecast-using-custom-rollup-entity.md)  
 [Troubleshooting forecasts](ts-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

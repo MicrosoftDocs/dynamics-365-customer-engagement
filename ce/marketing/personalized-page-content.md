@@ -26,8 +26,8 @@ As with marketing emails, you can create landing pages, and other types of web p
 The required cookie is set in a user's browser when they open any Dynamics 365 Marketing landing page, embedded form, or subscription center. The cookie might initially be anonymous but gets linked to a contact record when the contact submits a landing page with valid contact details or opens a subscription center using a personalized link sent to them in email.
 - **JavaScript is used to fetch values from the relevant contact record to the marketing page**  
 Dynamics 365 Marketing generates the code you must add to your page to connect to the database and fetch the field values, but you must modify this with the specific field names you want to use, and also write your own JavaScript to make use of those values on the page. You might display contact values directly, or use them programmatically to modify page content, layout, and more.
-- **Personalized pages must run either on an authenticated domain or the Dynamics 365 Portal, and use HTTPS**  
-For security purposes, personalized pages are only supported on domains that are authenticated with Dynamics 365 Marketing (including native marketing pages running on a Dynamics 365 Portal, which are always authenticated). Personalized pages must furthermore be accessed using HTTPS (not HTTP).
+- **Personalized pages must run either on an authenticated domain or the Power Apps portal, and use HTTPS**  
+For security purposes, personalized pages are only supported on domains that are authenticated with Dynamics 365 Marketing (including native marketing pages running on a Power Apps portal, which are always authenticated). Personalized pages must furthermore be accessed using HTTPS (not HTTP).
 - **Data access is restricted to explicitly allow listed fields from the contact entity**  
 For security, the solution will only provide those field values that you specifically configure to make available to personalized landing pages.
 - **Contacts must accept form prefilling to see personalized marketing page content**  
@@ -55,7 +55,7 @@ You can use fields of the following types on personalized pages:
 
 Domain authentication helps ensure that your organization's websites (external domains) really do belong to your organization, and that your Dynamics 365 Marketing instance is authorized to interact with those domains and send marketing emails associated with them. It requires your system administrator to prove ownership of each domain by submitting signed certificates through the DNS system. Before you start developing a personalized page for your website, be sure to ask your system administrator whether your domain is authenticated for use with Dynamics 365 Marketing. For instructions, see [Authenticate your domains](mkt-settings-authenticate-domains.md).
 
-For native marketing pages, which are designed in Dynamics 365 Marketing and run on your Dynamics 365 Portal, authentication is automatic, so you don't need to set up an authenticated domain for these.
+For native marketing pages, which are designed in Dynamics 365 Marketing and run on your Power Apps portal, authentication is automatic, so you don't need to set up an authenticated domain for these.
 
 ## Set up page personalization
 
@@ -150,3 +150,6 @@ As mentioned in the introduction to this topic, page personalization requires th
 1. Fill out all the fields on the registration form and be sure to mark the "remember me" check box. When you submit the form, Dynamics 365 Marketing will set a cookie in your browser, which enables the system to identify you the next time you open a marketing page.
 1. Allow about 30 seconds for the system to process the submission and create a new contact record.
 1. Open your personalized marketing page and confirm the personalization features work as expected.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,16 +1,15 @@
 ---
-title: "Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Dynamics 365 Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 07/16/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 02/15/2021
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
-# Overview of Sales and Sales Hub
+# Overview of Dynamics 365 Sales
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! 
 
@@ -18,22 +17,17 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 [!INCLUDE[cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
-## Available anywhere, on any device
+## Different sales solutions for different size of businesses
 
-Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is available in: 
+Dynamics 365 Sales is available in the following flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to suit the different business needs: 
 
-- The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops.
+- The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is optimized to work on mobile devices as well as desktops. This app is available with the Dynamics 365 Sales Enterprise licensing plan. 
 
-- The Sales app is designed for the legacy web client and is the full-featured, desktop-optimized web client app for sales scenarios. 
-
-    > [!IMPORTANT]
-    > With the April 2019 release, any new subscription to Dynamics 365 Sales will not have the Sales app (web client). The existing organizations where the Sales app was available will show a notification prompting users to update their legacy web client apps to Unified Interface. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Update your apps to Unified Interface](../admin/update-apps-to-unified-interface.md), [Enable Unified Interface Only mode](../admin/enable-unified-interface-only.md)
-
-- The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
+- The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. This app is available with the Dynamics 365 Sales Professional licensing plan. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
 
   > [!NOTE]
   > 
-  > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
+  > In addition to these, the new Microsoft Dynamics 365 Sales mobile app (preview) is available. This app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. More information: [Overview of the Dynamics 365 Sales mobile app](/sales-mobile/dynamics-365-sales-mobile-app).
 
 
 ## What Dynamics 365 Sales offers
@@ -67,4 +61,7 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
 ### See also
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
-[User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)  
+[User Guide](../sales-enterprise/user-guide.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

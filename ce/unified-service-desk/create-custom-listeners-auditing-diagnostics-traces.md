@@ -1,8 +1,8 @@
 ---
 title: "Create custom listeners for auditing, diagnostics and traces | MicrosoftDocs"
 description: "Learn about creating custom listeners that lets you target the log output to files, the event log, or other sources. Until the previous version of Unified Service Desk, you could only use the standard listeners to write auditing, diagnostics, and trace logs in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -41,11 +41,11 @@ A listener lets you target the log output to files, the event log, or other sour
 ## Define your custom listener for Unified Service Desk  
  You can combine the code for your custom listener for auditing, diagnostics, and trace logging into a single assembly or different assemblies. The class containing your listener code must be derived from:  
   
--   [IAuditService](https://docs.microsoft.com/dotnet/api/microsoft.uii.aifservices.iauditservice) for auditing logs  
+-   [IAuditService](/dotnet/api/microsoft.uii.aifservices.iauditservice) for auditing logs  
   
--   [ILogging](https://docs.microsoft.com/dotnet/api/microsoft.uii.common.logging.ilogging) for diagnostic logs  
+-   [ILogging](/dotnet/api/microsoft.uii.common.logging.ilogging) for diagnostic logs  
   
--   [TraceListener](https://msdn.microsoft.com/library/hy72797k.aspx) for trace logs  
+-   [TraceListener](/dotnet/api/system.diagnostics.tracelistener) for trace logs  
   
 > [!NOTE]
 >  Make a note of the namespace and class names in your listener code. You will need these to create instances of Listener Hosted Control to refer to your custom code.  
@@ -233,3 +233,6 @@ namespace SampleCustomUSDListener
 ### See also
 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

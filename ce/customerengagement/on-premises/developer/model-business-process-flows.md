@@ -58,7 +58,7 @@ A business process flow definition is stored in the <xref:Microsoft.Dynamics.CRM
   
 <a name="ActivateBPF"></a>   
 ## Activate business process flow  
- Before you can use the process flow, you have to activate it. To activate it, you must have the `prvActivateBusinessProcessFlow` privilege for the `Workflow` entity. Use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message to set the state of the `Workflow` entity record to `Activated`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md) 
+ Before you can use the process flow, you have to activate it. To activate it, you must have the `prvActivateBusinessProcessFlow` privilege for the `Workflow` entity. Use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message to set the state of the `Workflow` entity record to `Activated`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](/powerapps/developer/data-platform/special-update-operation-behavior) 
 
  > [!NOTE]
  > You can also use the business process flow designer to activate a business process flow. 
@@ -80,7 +80,7 @@ You can retrieve the name of your business process flow entity using any of the 
 
 - **Using the UI**: Use the customization UI to browse to your business process flow entity:
 
-    ![](media/bpf-entity-name.png)
+    ![BPF entity name](media/bpf-entity-name.png "BPF entity name")
 - **Using the Web API**: Use the following request:
 
     **Request**
@@ -137,7 +137,7 @@ The custom entity that is automatically created on activating a business process
 
 The custom business process flow entity has organization scope. The regular create, retrieve, update and delete privileges on this entity define the permission the user would have based on his or her assigned roles. By default, when the business process flow custom entity is created, only **System Administrator** and **System Customizer** security roles are granted access to it, and you must explicitly grant permissions to the new business process flow entity (for example, **My Custom BPF**) for other security roles as required.
 
-![](media/bpf-privileges.png)
+![BPF privileges](media/bpf-privileges.png "BPF privileges")
 
 <a name="ManageBPF"></a>   
 ## Create, retrieve, update, and delete business process flow entity records (process instances)  
@@ -148,7 +148,7 @@ The custom business process flow entity has organization scope. The regular crea
 
  Lets consider the following example where we have a cross-entity business process flow, "My Custom BPF," with 3 stages: S1:Account, S2:Account, and S3:Contact. 
 
- ![](media/sample-bpf.png)
+ ![Sample BPF](media/sample-bpf.png "Sample BPF")
  
 ### Retrieve all the records (instances) for a business process flow entity
  If the name of your business process flow entity is "new_mycustombpf", use the following query to retrieve all the records (process instances) for your business process flow entity:  
@@ -380,7 +380,7 @@ The only exception to this is programmatically modifying the **ProcessId** attri
 
 <a name="BKMK_clientSideScript"></a>   
 ## Client-side programmability support for business process flows  
- With [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] there is a client-side object you can use to interact with business process flows in your form scripts. Business process flows trigger client-side events every time a process is either applied to a record, the stage is changed, or its status is changed to `Active`, `Finished`, or `Aborted`. More information: [formContext.data.process (Client API reference)](clientapi/reference/formcontext-data-process.md)  
+ With [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] there is a client-side object you can use to interact with business process flows in your form scripts. Business process flows trigger client-side events every time a process is either applied to a record, the stage is changed, or its status is changed to `Active`, `Finished`, or `Aborted`. More information: [formContext.data.process (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process)  
   
 <a name="BKMK_MaxSettings"></a>   
 ## Maximum number of processes, stages, and steps  
@@ -397,3 +397,6 @@ The only exception to this is programmatically modifying the **ProcessId** attri
 ### See also    
    
  - [Business process flows](../customize/business-process-flows-overview.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

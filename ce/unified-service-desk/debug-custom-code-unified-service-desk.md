@@ -1,8 +1,8 @@
 ---
 title: "Debug your custom code for Unified Service Desk | MicrosoftDocs"
 description: "Learn about debugging your custom code that you create for Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -58,3 +58,6 @@ Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn
 
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)   
  [Unified Service Desk and the UII framework](../unified-service-desk/unified-service-desk-uii-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

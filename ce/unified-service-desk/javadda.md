@@ -1,8 +1,8 @@
 ---
 title: "JavaDDA in Unified Service Desk | MicrosoftDocs"
 description: "The Java data-driven adapter (JavaDDA) uses the Java Access Bridge to automate Java applications. User Interface Integration (UII) supports Java Access Bridge 2.0.2."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -48,3 +48,6 @@ The [!INCLUDE[pn_Java](../includes/pn-java.md)] data-driven adapter (JavaDDA) us
  [WinDDA](../unified-service-desk/windda.md)   
  [WebDDA](../unified-service-desk/web-dda.md)   
  [UIADDA](../unified-service-desk/uiadda.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,10 @@
 title: "Enable customization of the Opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Enable the system customizers to customize the opportunity close experience in Dynamics 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
 ms.date: 04/03/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -48,3 +47,6 @@ If you're using a custom app, in addition to enabling the customization of oppor
 
 [Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
 [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

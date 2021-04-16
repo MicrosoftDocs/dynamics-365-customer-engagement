@@ -51,7 +51,7 @@ The content that your customer journey delivers to contacts as they traverse the
 ### Actions
 
 - **Create lead**: The create-lead tile creates a new lead for each contact or account that enters the tile. It doesn't try to match any existing leads, so it always creates a new one. Each lead created will be linked either to the contact who entered the tile, or to the account that contact belongs to (the company or organization they work for).
-- **Run workflow**: Use a Run workflow tile to invoke a [custom workflow](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) at any point in the customer journey. You can use this tile to advance a process stage, create alerts, and more. Workflows are highly customizable. Many organizations work with internal or external consultants to optimize workflows for their own unique, internal business requirements.
+- **Run workflow**: Use a Run workflow tile to invoke a [custom workflow](../customerengagement/on-premises/customize/workflow-processes.md) at any point in the customer journey. You can use this tile to advance a process stage, create alerts, and more. Workflows are highly customizable. Many organizations work with internal or external consultants to optimize workflows for their own unique, internal business requirements.
 - **LinkedIn campaign**: The LinkedIn campaign tile links each contact who passes through it to a specific LinkedIn campaign. Thus, this tile makes it possible for a subsequent trigger tile to react to submissions of any LinkedIn Lead Gen Forms that belong to that campaign on LinkedIn.
 
 ### Sales activities
@@ -62,7 +62,7 @@ The content that your customer journey delivers to contacts as they traverse the
 
 - **Custom channel**: Custom channel tiles provide similar capabilities to the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in Dynamics 365 Marketing. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your Dynamics 365 Marketing instance.
 
-  Custom channels use the existing extensibility infrastructure and tooling in Dynamics 365, such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of Dynamics 365. More information: [Extend customer journeys using custom channels](https://docs.microsoft.com/dynamics365/marketing/developer/extend-customer-journeys-custom-channels)
+  Custom channels use the existing extensibility infrastructure and tooling in Dynamics 365, such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of Dynamics 365. More information: [Extend customer journeys using custom channels](./developer/extend-customer-journeys-custom-channels.md)
 
 ### Legacy tiles
 
@@ -81,7 +81,7 @@ The content that your customer journey delivers to contacts as they traverse the
     
   With the new designer, this is no longer needed as the audience can be defined using a form, by selecting the form submitted as a source. Alternatively, an audience can be defined by using a segment of all the people who submitted a given form. 
 
-- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
+- **Marketing page**: The marketing page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Power Apps portal. In the old designer, this tile could be used as a nested tile under email tiles to represent a marketing page link that is included in the email message’s content. It could also be used to enable trigger tiles placed later in the pipeline to “know” about the marketing link and to react to contact interactions with it. 
 
   In the new designer, the same can be achieved by adding a Marketing page entity as a dependency to an email (in the properties of the email tile). 
 
@@ -99,3 +99,6 @@ The content that your customer journey delivers to contacts as they traverse the
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

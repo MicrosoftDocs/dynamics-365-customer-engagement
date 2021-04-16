@@ -2,16 +2,15 @@
 title: "Entity reference for playbooks (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Reference documentation for the playbooks entities"
 ms.date: 04/08/2019
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
 ms.topic: reference
 author: susikka
 ms.author: susikka
 manager: shujoshi
 search.audienceType: 
   - developer
+ms.custom: 
+  - dyn365-sales
 search.app: 
   - D365CE
 ---
@@ -32,3 +31,6 @@ Use this reference to understand the available operations that can be performed 
 
 [Developer Guide for Sales](../developer-guide.md)<br />
 [Enforce best practices with playbooks](../../enforce-best-practices-playbooks.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

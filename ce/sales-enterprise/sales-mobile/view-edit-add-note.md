@@ -1,4 +1,4 @@
-﻿---
+---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
 ms.date: 11/30/2020
@@ -16,7 +16,7 @@ manager: shujoshi
 You can see the notes associated with a record in the **Notes** section of the record details.
 
 > [!NOTE]
-> You can associate annotations with only those custom entities that are created with the [CreateEntityRequest.HasNotes Property](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.createentityrequest.hasnotes?view=dynamics-general-ce-9#Microsoft_Xrm_Sdk_Messages_CreateEntityRequest_HasNotes)
+> You can associate annotations with only those custom entities that are created with the [CreateEntityRequest.HasNotes Property](/dotnet/api/microsoft.xrm.sdk.messages.createentityrequest.hasnotes?view=dynamics-general-ce-9#Microsoft_Xrm_Sdk_Messages_CreateEntityRequest_HasNotes)
 
 ![View a note](media/sm-view-note.png "View a note")
 
@@ -59,7 +59,7 @@ You can perform the following actions in the **Notes** section.
 4.  To take a photo from your mobile camera and attach it to the note, tap ![Camera icon](media/sm-take-photo-note.png "Camera icon").
 
     > [!NOTE]
-    > If you're adding the note by using the navigation bar at the bottom of the screen, you must connect the note to the record that it's regarding. Tap **Next**, and then select the record you want to associate the note with. More information about annotation: [annotation EntityType](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/annotation?view=dynamics-ce-odata-9)
+    > If you're adding the note by using the navigation bar at the bottom of the screen, you must connect the note to the record that it's regarding. Tap **Next**, and then select the record you want to associate the note with. More information about annotation: [annotation EntityType](/dynamics365/customer-engagement/web-api/annotation?view=dynamics-ce-odata-9)
 
     If you're adding the note by using the navigation bar at the bottom of the screen, you must set the entity you would like the note to be connected to. Tap **Next**, and then select the record you want to associate the note with. Learn more about annotation in dynamics entities
 
@@ -81,3 +81,5 @@ You can perform the following actions in the **Notes** section.
 
 [Learn the basics](learn-basics-mobile-app.md)    
 [View meetings](view-agenda.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

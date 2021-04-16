@@ -40,7 +40,7 @@ After knowledge management is set up, users will be able to:
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
   
-1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Settings**. 
+1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Settings**.
   
 2. In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
@@ -62,7 +62,7 @@ After knowledge management is set up, users will be able to:
 
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
-2. Go to **Settings** > **Service Management**. 
+2. Go to **Settings** > **Service Management**.
   
 3. Under **Knowledge Base Management**, select **Embedded Knowledge Search**.  
   
@@ -99,3 +99,6 @@ To know more about how users use this option, see [Submit ratings and feedback f
 ### See also  
 
  [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

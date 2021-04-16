@@ -2,14 +2,13 @@
 title: "Sales transactions in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Understand how quotes and invoices are used in a sales transaction."
 ms.date: 08/03/2020
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ---
 
 # Sales transactions in Dynamics 365 Sales Professional
@@ -46,3 +45,6 @@ The **Use Current Pricing** price comes directly from the product catalog. If yo
 [Create and manage quotes in Dynamics 365 Sales Professional](create-quotes-sales-professional.md)  
 [Create and manage invoices in Dynamics 365 Sales Professional](create-invoices.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

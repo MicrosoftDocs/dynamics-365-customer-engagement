@@ -52,3 +52,6 @@ The following steps describe how to set up a context-sensitive report.
 ### See also  
  [Sample Reports](../analytics/example-reports.md)   
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

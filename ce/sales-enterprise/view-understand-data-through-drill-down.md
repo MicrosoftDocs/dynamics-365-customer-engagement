@@ -80,3 +80,6 @@ More information: [View and manage underlying opportunities](view-and-manage-und
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 [Configure and manage drill-down entities](configure-manage-drill-downs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

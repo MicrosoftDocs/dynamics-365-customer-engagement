@@ -21,7 +21,7 @@ search.audienceType:
 
 By default, a product record is in the **Draft** state when you create it, and isn’t available for your sales agents. The record becomes available to your sales agents only when you publish it, which changes the state of the record to **Active**. For products that aren’t associated with a product family, that is, products that don’t have a parent product family record, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** attribute to `1` (true). By default, this attribute is set to `0` (false) for a fresh installation of Dynamics 365 Customer Engagement (on-premises) and to `1` (true) if you’re upgrading from a previous version of Dynamics 365 Customer Engagement (on-premises) to ensure compatibility for your applications working with the previous version of Dynamics 365 where the product records were created in an **Active** state.  
   
- You can also use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products are created in an active state. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage product catalog configuration](https://technet.microsoft.com/library/dn832125.aspx)  
+ You can also use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products are created in an active state. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
  Furthermore, you can revise, revert, retire, and activate your product records to maintain your product catalog as per your business requirements. The following illustration shows the state transitions of a product when you perform various operations on a product record in Dynamics 365 Customer Engagement (on-premises).  
   
@@ -63,7 +63,7 @@ _serviceProxy.Execute(publishRequest);
 > [!IMPORTANT]
 >  For the product or bundle records that aren’t associated with a product family, you must publish them individually after creating or editing them to make them available to your sales agents. For product or bundle records associated with a product family, use the <xref:Microsoft.Crm.Sdk.Messages.PublishProductHierarchyRequest> message on the parent product family record to publish multiple child product or bundle records, along with the parent product family record, at once.  
 > 
->  Also, for products that aren’t associated with a product family, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** attribute to `1` (true). Alternately, use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products not associated with product families are created in an active state. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](https://go.microsoft.com/fwlink/p/?LinkId=512492)  
+>  Also, for products that aren’t associated with a product family, you can create them directly in an **Active** state by setting the **Organization.CreateProductsWithoutParentInActiveState** attribute to `1` (true). Alternately, use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products not associated with product families are created in an active state. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 <a name="Revise"></a>   
 ## Revise a product family, product, or bundle  
@@ -130,3 +130,6 @@ RevertProductResponse reverted = (RevertProductResponse)_serviceProxy.Execute(re
  [Manage Product Pricing](product-pricing-methods.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

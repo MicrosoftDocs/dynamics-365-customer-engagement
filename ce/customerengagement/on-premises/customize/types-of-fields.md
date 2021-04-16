@@ -20,16 +20,16 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-
 ---
-
 # Types of fields and field data types
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of columns](/powerapps/maker/data-platform/types-of-fields)
 
+<a name="BKMK_TypesOfFields"></a>
 
-<a name="BKMK_TypesOfFields"></a>   
-## Types of fields  
- The following table contains information about the field types available.  
+## Types of fields
+
+The following table contains information about the field types available.  
 
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  
@@ -119,7 +119,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **None**    |                                                                                                                                                                                                                                                                                                                                                                 This option simply displays a number.                                                                                                                                                                                                                                                                                                                                                                 |
 | **Duration**  | This format option can be used to display a list of duration options. But the data stored in the database is always a number of minutes. The field looks like a drop-down list and provides suggested options like **1 minute**, **15 minutes**, **30 minutes** all the way up to **3 days**. People can choose these options. However, people can also just type in a number of minutes and it resolves to that period of time. For example, type in 60 and it resolves to 1 hour. Or they can enter “1 hour” or “2 days” and it will resolve to display that time.<br /><br /> The duration must be entered in the following format: “x minutes”, “x hours” or “x days”. Hours and days can also be entered using decimals, for example, “x.x hours” or “x.x days”.<br /><br />**NOTE:** Values must be expressible in minutes, sub-minute values will be rounded to the nearest minute.|
-| **Time Zone** |                                                                                                                                                   This option displays a select list of time zones such as **(GMT-12:00) International Date Line West** and **(GMT-08:00) Pacific Time (US & Canada)**. Each of these zones is stored as a number. For example, for the time zone **(GMT-08:00) Pacific Time (US & Canada)**, the TimeZoneCode is 4. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TimeZoneCode Class (Sdk Assembly)](https://msdn.microsoft.com/library/bb959779.aspx)                                                                                                                                                    |
+| **Time Zone** |                                                                                                                                                   This option displays a select list of time zones such as **(GMT-12:00) International Date Line West** and **(GMT-08:00) Pacific Time (US & Canada)**. Each of these zones is stored as a number. For example, for the time zone **(GMT-08:00) Pacific Time (US & Canada)**, the TimeZoneCode is 4. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TimeZoneCode Class (Sdk Assembly)](/previous-versions/dynamics-crm4/developers-guide/bb959779(v=msdn.10))                                                                                                                                                    |
 | **Language**  |                                                                                                                                                                                                                                                      This option displays a list of the languages provisioned for your organization. The values are displayed as a drop-down list of language names, but the data is stored as a number using LCID codes. [!INCLUDE[languagecode](../includes/languagecode.md)]                                                                                                                                                                                                                                                       |
 
 <a name="BKMK_UsingTheRightTypeOfNumber"></a>   
@@ -202,3 +202,6 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
   When the image is uploaded, it will be converted to a .jpg format and all downloaded images will also use this format. If an animated .gif is uploaded, only the first frame is saved.  
 
   When an image is uploaded, it will be resized to a maximum size of 144 pixels by 144 pixels. People should resize or crop the images before they upload them so that they will display well using this size. All images are cropped to be square. If both sides of an image are smaller than 144 pixels, the image will be cropped to be a square with the dimensions of the smaller side.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

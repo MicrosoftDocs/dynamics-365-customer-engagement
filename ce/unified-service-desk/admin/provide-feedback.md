@@ -1,8 +1,8 @@
 ---
 title: "Provide feedback about Unified Service Desk | MicrosoftDocs"
 description: "Learn about providing feedback about Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/24/2018
 ms.topic: article
@@ -211,3 +211,6 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 ## See also
 
 [Help improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

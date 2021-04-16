@@ -142,10 +142,12 @@
       href: admin/export-unified-service-desk-configuration-data.md
   - name: Performance enhancement for loading Customer Engagement app pages
     href: admin/performance-enhancement-CRM-entity-page-loads.md
-  - name: Recover Internet Explorer process instance
-    href: admin/recover-internet-explorer-process-instance.md
+  - name: Recover Edge WebView2 Process instance (Preview)
+    href: admin/recover-edge-webview2-process-instance.md
   - name: Recover Chrome Process instance
     href: admin/recover-chrome-process-instance.md
+  - name: Recover Internet Explorer process instance (deprecated)
+    href: admin/recover-internet-explorer-process-instance.md
   - name: Configure close confirmation window
     href: admin/configure-close-confirmation-window.md
 - name: Configure your agent application using Unified Service Desk
@@ -192,16 +194,18 @@
         items:
         - name: Select a hosting method for your controls
           href: select-hosting-method-controls.md
-        - name: Use Edge Process to host web applications (Preview)
-          href: edge-process.md
+        - name: Use Edge WebView2 Process to host web applications (Preview)
+          href: edge-webview2-process.md
         - name: Use Chrome Process to host web applications
           href: chrome-process.md       
-        - name: Use IE Process to host web applications
-          href: ie-process.md
-        - name: Use Internal WPF to host web applications
-          href: internal-wpf.md
         - name: Use Web Hosted Application to host web applications
           href: web-hosted-application.md
+        - name: Use IE Process to host web applications (deprecated)
+          href: ie-process.md
+        - name: Use Internal WPF to host web applications (deprecated)
+          href: internal-wpf.md
+        - name: Use Edge Process to host web applications (legacy - discontinued)
+          href: edge-process.md
         - name: Behavior in Chrome Process and IE Process
           href: hosting-type-differences.md
       - name: Create or edit a hosted control
@@ -583,6 +587,8 @@
   items:
   - name: Overview of Unified Service Desk
     href: oc-usd/omnichannel-customer-service-unified-service-desk.md
+  - name: System requirements of Omnichannel for Customer service with Unified Service Desk
+    href: oc-usd/omnichannel-usd-system-requirements.md
   - name: Deploy Omnichannel for Customer Service package
     href: oc-usd/omnichannel-customer-service-package.md
   - name: Configure settings for Unified Service Desk
@@ -609,6 +615,8 @@
       href: oc-usd/link-unlink-record.md
     - name: View communication panel 
       href: oc-usd/left-control-panel.md
+    - name: Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk
+      href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
       href: oc-usd/right-control-panel.md
     - name: Understand conversation states 
@@ -713,15 +721,17 @@
         href: oc-customizer/search-step7-add-hosted-control-action-calls-events-configurations.md
     - name: Configure session name information 
       href: oc-customizer/configure-session-name-information.md
-    - name: Configure Scriptlets to define case and channel titles 
+    - name: Add personalization tab
+      href: oc-customizer/add-personalization-tab.md
+    - name: Configure scriptlets to define case and channel titles 
       href: oc-customizer/configure-Scriptlets-define-case-channel-titles.md
     - name: Configure link to conversation button in Unified Service Desk 
       href: oc-customizer/configure-link-to-conversation.md
 - name: Known issues and limitations of Unified Service Desk
   href: release-notes.md
 - name: Dynamics 365 Customer Service
-  href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
+  href: ../customer-service/help-hub.md
 - name: Omnichannel for Customer Service Guide
-  href: https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide
+  href: ../customer-service/introduction-omnichannel.md
 - name: Dynamics 365 Channel Integration Framework Guide
-  href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+  href: ../customer-service/channel-integration-framework/channel-integration-framework.md

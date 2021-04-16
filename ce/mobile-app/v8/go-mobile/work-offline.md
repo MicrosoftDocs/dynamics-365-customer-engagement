@@ -67,9 +67,9 @@ Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phone
 
 - If user was working on a record and loose the network connection, the updates on the record will be saved in the offline mode and will be synchronized to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] once the user goes back online. The record, once synchronized to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)], will follow the filter rule for availability in offline mode. 
 
-For more information, see [Work offline in Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/mt812230.aspx).
+For more information, see [Work offline in Dynamics 365 for phones and tablets]().
 
-For a list of entities supported in mobile offline, see [Entities displayed in Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531159.aspx#Entities%20displayed%20in%20Dynamics%20365%20for%20phones%20and%20tablets).
+For a list of entities supported in mobile offline, see [Entities displayed in Dynamics 365 for phones and tablets](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531159(v=crm.8)#Entities%20displayed%20in%20Dynamics%20365%20for%20phones%20and%20tablets).
 
 ## Other offline capabilities
 
@@ -77,11 +77,11 @@ For a list of entities supported in mobile offline, see [Entities displayed in D
 - Automatic replay for offline actions. All the data created or modified by user in offline are replayed to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)]  automatically without user intervention. 
 - Actions are replayed from the offline synchronization in queue. The changes are played back in the same sequence as they were created/modified/ deleted. This ensure that the data state is maintained and there are no data mismatch on [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)]. 
 - Mobile offline supports conflict detection and error resolution. Conflict error for any update and delete will be detected and users can resolve the error in the  [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] web client and on the mobile client. Any other errors created in offline will also be available for users to edit and resubmit. 
-- The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see [Xrm.Mobile.offline (client-side reference)](https://msdn.microsoft.com/library/mt787123.aspx).
+- The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see [Xrm.Mobile.offline (client-side reference)](/previous-versions/dynamicscrm-2016/developers-guide/mt787123(v=crm.8)).
 
 ### Mobile offline blogs
 
-- Feature overview: [The new full offline experience with mobile Dynamics CRM apps](https://blogs.technet.microsoft.com/lystavlen/2016/04/21/the-new-full-offline-experience-with-mobile-dynamics-crm-apps/)
+- Feature overview: [The new full offline experience with mobile Dynamics CRM apps](/archive/blogs/lystavlen/the-new-full-offline-experience-with-mobile-dynamics-crm-apps)
 - Filtering in mobile offline: [Filter your data for mobile offline usage on Microsoft Dynamics 365 apps](https://blogs.msdn.microsoft.com/crm/2017/07/07/filter-your-data-for-mobile-offline-usage-on-microsoft-dynamics-365/)
 
 ### Mobile offline videos
@@ -263,3 +263,6 @@ Background sync will be disabled if:
 
  Note that offline synchronization is not supported by on-premises deployments.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

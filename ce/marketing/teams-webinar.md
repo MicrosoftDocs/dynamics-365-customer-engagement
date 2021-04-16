@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 12/09/2020
+ms.date: 01/21/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -25,7 +25,7 @@ search.app:
 This article explains how to use Microsoft Teams as an online meetings provider for Dynamics 365 Marketing events. Teams event functionality is now incorporated directly into Marketing, allowing you to host Teams live events for webinars and Teams meetings for interactive online meetings.
 
 > [!NOTE]
-> To use Microsoft Teams as a webinar provider, you must have a [Microsoft 365 license](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service. If you do not have the correct license, you will not see the Teams Meeting or Teams Live Event options as a part of the **Streaming providers** list.
+> To use Microsoft Teams as a webinar provider, you must have a [Microsoft 365 license](/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service. If you do not have the correct license, you will not see the Teams Meeting or Teams Live Event options as a part of the **Streaming providers** list.
 
 ## Create an online event
 
@@ -45,7 +45,7 @@ After you flip the **Do you want to stream this event** toggle to **Yes**, you w
 
 Use Teams live events to create webinar style online meetings. Live event presenters can share content, video, and audio. Attendees can view the content, but cannot share their own audio, video, or content.
 
-Live events are useful for conference keynotes or meetings where a few presenters are presenting to a large audience. The audience can optionally submit questions using the Q&A feature for the live event. More information on Teams live events: [What are Microsoft Teams live events?](https://docs.microsoft.com/microsoftteams/teams-live-events/what-are-teams-live-events)
+Live events are useful for conference keynotes or meetings where a few presenters are presenting to a large audience. The audience can optionally submit questions using the Q&A feature for the live event. More information on Teams live events: [What are Microsoft Teams live events?](/microsoftteams/teams-live-events/what-are-teams-live-events)
 
 > [!NOTE]
 > You can only create "public" Teams live events from Dynamics 365 Marketing. These events are open to anyone. Attendees are not required to sign in to attend the event.
@@ -79,13 +79,13 @@ More information on details and settings for Teams live events: [Schedule a Team
 
 **How to invite a guest to present in a Live Event**
 
-- Ensure that the guest user is added to your Teams instance. You only have to do this once. Learn more about adding guest users: [Guest to present](https://docs.microsoft.com/microsoftteams/teams-live-events/plan-for-teams-live-events#guest-to-present)
+- Ensure that the guest user is added to your Teams instance. You only have to do this once. Learn more about adding guest users: [Guest to present](/microsoftteams/teams-live-events/plan-for-teams-live-events#guest-to-present)
 - As a best practice, Teams recommends that you create a channel for producers and presenters of the live event so they can chat and share information before the event. Guests who don't have Microsoft 365 credentials won't see the Calendar in Teams. To make it easy for them to join the event, producers can post the event link to the channel. Presenters can then open Teams, go to the channel, and select the link to join the event.
 - Add a guest as a presenter in your live event by adding them as a speaker in your event or session in Dynamics 365 Marketing using the steps detailed above.
 
 ### Teams meetings
 
-The Teams meetings option allows you to create an interactive online meeting experience where all attendees are able to share audio, video, or content. More information about Teams meetings: [Meetings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/tutorial-meetings-in-teams)
+The Teams meetings option allows you to create an interactive online meeting experience where all attendees are able to share audio, video, or content. More information about Teams meetings: [Meetings in Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
 
 ### Others
 
@@ -110,6 +110,9 @@ Once a live event or meeting is created or updated, and the producers and presen
 After creating the event, going live with it, and gathering registrations, you should [send the registrants an email](email-design.md) to provide the attendee URL. In the Marketing email designer, you will find a new **Teams check-in** element in the new **Events communication** area.
 
 The **Teams check-in** button generates a unique attendee URL for each registrant. When the registrant selects the button, Marketing will create a relevant check-in record for them, giving insights about the attendance of the live event in Marketing.
+
+> [!IMPORTANT]
+> Because the **Teams check-in** button generates a unique URL for each registrant, anyone who selects the **Teams check-in** button from a forwarded email will not be able to check in to the event.
 
 **To create a Teams check-in button**:
 
@@ -142,3 +145,6 @@ Once the live event is over, the attendees can view the recording of the event b
 
 [Event management settings](events-settings.md)  
 [Set up a webinar](set-up-webinar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

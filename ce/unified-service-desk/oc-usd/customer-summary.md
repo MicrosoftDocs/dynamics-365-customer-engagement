@@ -1,10 +1,10 @@
 ---
 title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
-description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
+description: "Customer summary is a page where you can get all available information about the customer with who you're going to interact."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
+ms.date: 01/13/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 monikerRange: '>= dynamics-usd-4.1'
@@ -32,6 +32,9 @@ Having this information ready can help support agents reduce the hold time that 
 
 > [!div class=mx-imgBorder]
 > ![Customer summary page](../media/oc-usd-customer360-page.png "Customer summary page")
+
+> [!NOTE]
+> We recommend that you don't use **Advanced Find** to navigate to the **Customer Summary** form because the form might not be displayed correctly.
 
 ## Customer
 
@@ -139,7 +142,7 @@ Based on the type of agent script your system administrator has configured, you 
 
 ### Text instructions
 
-Text instructions provides guidance for the action you must perform. A text instruction step in the agent script shows a title, instructions, and the **Text instruction** icon. After you perform the the instruction, you can select the **Mark as done** icon to indicate that you've executed the step.
+Text instructions provides guidance for the action you must perform. A text instruction step in the agent script shows a title, instructions, and the **Text instruction** icon. After you perform the instruction, you can select the **Mark as done** icon to indicate that you've executed the step.
 
 **Example**
 | Title | Instruction that you perform |
@@ -183,3 +186,6 @@ A *sub-agent script* is another agent script that has been invoked from the curr
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)
 - [setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

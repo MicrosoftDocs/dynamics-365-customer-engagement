@@ -3,10 +3,9 @@ title: "Set up sales territories to organize business markets by geographical ar
 description: ""
 keywords: 
 ms.date: 03/30/2020
-ms.service:
-  - crm-online
+ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a7fef06e-31ad-43d1-b4a6-c234a836b191
@@ -114,3 +113,6 @@ Organizations can create a model and visualize their sales territories in a hier
 ### See also  
  [Administrator and sales manager guide](../../../sales-enterprise/admin-guide.md)   
  [Nurture sales from lead to order (Sales)](../../../sales-enterprise/nurture-sales-from-lead-order-sales.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

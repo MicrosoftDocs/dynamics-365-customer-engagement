@@ -23,3 +23,6 @@ ms.author: matp
  Start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], and, in the **Servers** area, enable each [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] that is disabled. Alternatively, you can use the [Enable-CrmServer](/powershell/module/microsoft.crm.powershell/enable-crmserver?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or the methods that are described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

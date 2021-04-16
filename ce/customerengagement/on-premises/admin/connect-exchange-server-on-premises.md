@@ -33,7 +33,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
 
      For more information on authentication, see:  
 
-   - [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]: [Configure Integrated Windows Authentication](https://docs.microsoft.com/previous-versions/office/exchange-server-2010/aa998638(v%3dexchg.141))
+   - [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]: [Configure Integrated Windows Authentication](/previous-versions/office/exchange-server-2010/aa998638(v%3dexchg.141))
 
    - [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]: [Configure Basic Authentication](https://technet.microsoft.com/library/aa996407\(v=exchg.141\).aspx)  
 
@@ -43,7 +43,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
 
    - [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)]: [Default settings for Exchange virtual directories](https://technet.microsoft.com/library/gg247612\(v=exchg.150\).aspx) 
 
-   - [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]: [Default settings for Exchange virtual directories](https://technet.microsoft.com/library/gg247612(v=exchg.160).aspx)
+   - [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]: [Default settings for Exchange virtual directories](/Exchange/clients/default-virtual-directory-settings)
 
 3. **ApplicationImpersonation role**. You need to create and configure a service account with the **ApplicationImpersonation** role in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Impersonation and EWS in Exchange](https://msdn.microsoft.com/library/office/dn722377\(v=exchg.150\).aspx).  
 
@@ -203,3 +203,6 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
  [Server-side synchronization](../admin/server-side-synchronization.md)   
  [Autodiscover service](https://technet.microsoft.com/library/bb124251\(v=exchg.150\).aspx)   
  [Managing the Autodiscover Service](https://technet.microsoft.com/library/aa995956\(v=exchg.141\).aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

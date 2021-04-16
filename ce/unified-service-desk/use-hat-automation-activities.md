@@ -1,8 +1,8 @@
 ---
 title: "Use HAT automation activities in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use HAT automation activities to automate your hosted applications in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -40,3 +40,6 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
 ### See also  
  [Automate hosted applications using HAT automation activities](../unified-service-desk/automate-hosted-applications-using-hat-automation-activities.md)   
  [Types of HAT automation activities](../unified-service-desk/types-of-hat-automation-activities.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

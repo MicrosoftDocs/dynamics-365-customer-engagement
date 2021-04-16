@@ -2,6 +2,7 @@
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
 author: neeranelli
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
 ms.date: 04/03/2020
@@ -238,3 +239,6 @@ Before you customize the template app, read the information here and perform eac
 
 [Introduction to Customer Service Analytics](introduction-customer-service-analytics.md)  
 [View and understand Customer Service Analytics](customer-service-analytics.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

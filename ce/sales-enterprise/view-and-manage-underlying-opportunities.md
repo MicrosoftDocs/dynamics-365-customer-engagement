@@ -2,22 +2,20 @@
 title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
   - D365-UI-*
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # View and manage underlying opportunities 
@@ -96,7 +94,7 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 3.	Select **Show as Kanban**. 
 
-    The table view changes into a kanban view. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
+    The table view changes into a kanban view and the order of columns is displayed based on the order that is defined in the option set in the application. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
 
     > [!div class="mx-imgBorder"]
     > ![View forecast underlying opportunities in kanban](media/forecast-view-underlying-opportunities-kanban.png "View forecast underlying opportunities in a kanban view")
@@ -115,3 +113,6 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [View a forecast](view-forecasts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

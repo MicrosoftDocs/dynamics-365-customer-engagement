@@ -35,15 +35,15 @@ To setup the **Entity Record** channel for cases, follow the steps:
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
 | [Step 1: Create queues and add agents](#step-1-create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
-| [Step 2: Enable entity for activities and queues](#step-2-enable-entity-for-activities-and-queues)| Enable the entity for activities and queues. |
+| [Step 2: Enable entity for activities and queues](#enable-entities)| Enable the entity for activities and queues. |
 | [Step 3: Enable entity for routing channel](#step-3-enable-entity-for-routing) | Create entity record configuration to enable an entity for routing. |
 | [Step 4: Create routing rules](#step-4-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
 ## Step 1: Create queues and add agents
 
-Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-queue).
+Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
 
-## Step 2: Enable entity for activities and queues
+## Step 2: Enable entity for activities and queues<a name="enable-entities"> </a>
 
 Any entity you want to enable for routing needs to be enabled for activities and queues.
 
@@ -75,7 +75,7 @@ Create entity record configuration to enable an entity for routing.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select **+ New** in the **Active Entities** page.
+3. Select **New** in the **Active Entities** page.
 
 4. Specify the following in the **New Entity** page.
 
@@ -84,10 +84,10 @@ Create entity record configuration to enable an entity for routing.
     | Basic Details | Name | Specify a name to the entity record channel. | Case entity channel  <br> **Note:** This is an example value.|
     | Basic Details | Entity | Select an entity from the list. | Case (Incident) |
 
-5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a default workstream is automatically created to distribute these entity records.
+5. Select **Save** to save the entity record channel. After you save, in the **Work distribution** section, a default work stream is automatically created to distribute these entity records.
 
 > [!Note]
-> When you create an entity record channel configuration, a default work stream will be created to distribute these entity records. You can edit the default workstream or create more workstreams as per your business scenarios. To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
+> When you create an entity record channel configuration, a default work stream will be created to distribute these entity records. You can edit the default work stream or create more work streams as per your business scenarios. To learn more, see [Create work stream for entity record routing](set-up-entity-workstream.md).
 
 ## Step 4: Create routing rules
 
@@ -104,7 +104,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 3. Select an entity records channel that you created for routing the records from the **Active Entities** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](media/case-entity-channel1.png "Case workstream")
+    > ![Select a case work stream](media/case-entity-channel1.png "Case workstream")
 
 4. Select the **Routing Rules** tab in the entity records channel.
 
@@ -129,7 +129,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Description | This routing rule set is used for routing high priority cases to agents. | Specify a description for you to identify the purpose of the routing rule set. |
 
     > [!div class=mx-imgBorder] 
-    > ![Add New Rule Item](media/case-ws-rr-entity.png "Add New Rule Item")
+    > ![Add rule item](media/case-ws-rr-entity.png "Add rule item")
 
 7. Select **Save** to save the rule set. Once you save the record, you can see the **Rule Items** section in the page.
 
@@ -137,7 +137,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     
    You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the entity records. Let's see how to define the rule items. To create a new rule item, follow steps 8-13.
 
-8. Select **+ New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
+8. Select **New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](media/case-ws-rr2.png "Add New Rule Item")
@@ -149,7 +149,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used for routing credit card cases. | Specify a description for you to identify the purpose of the rule item. |
 
-10. Select **+ Add** in the **Rule Criteria** section, and then select **+ Add row**.
+10. Select **Add** in the **Rule Criteria** section, and then select **Add row**.
 
     a. Select a rule from the list for the first box. For example, **Subject**.
 
@@ -160,7 +160,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     > [!Note]
     > You can define conditions for both primary entity attributes and related entity attributes.
 
-11. Select **Queue** for the **Route to** field. 
+11. Select **Queue** for the **Route to** field.
 
 12. Select an omnichannel queue for the **Add to Queue** field.
 
@@ -178,7 +178,7 @@ You've successfully created queues, enabled entity for routing, and created rout
 
 ## Upgrade path for preview users
 
-If you are upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You need to create a new entity records channel and then redefine the workstreams. To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
+If you are upgrading from preview release to the latest version, then earlier configured work streams will be obsolete. You need to create a new entity records channel and then redefine the work streams. To learn more, see [Create workstream for entity record routing](set-up-entity-workstream.md).
 
 
 ## See also
@@ -188,3 +188,6 @@ If you are upgrading from preview release to the latest version, then earlier co
 [Create workstream for entity record routing](set-up-entity-workstream.md)
 
 [Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

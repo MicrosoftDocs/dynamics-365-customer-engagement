@@ -10,11 +10,11 @@ ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
-# Understand conversation states in Omnichannel for Customer Service
+# Understand how conversation states work in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The topic explains the various states of the conversation (work item) in Omnichannel.
+The topic explains the various states of the conversation (work item) in Omnichannel for Customer Service.
 
 Types of conversation states:
 
@@ -150,3 +150,6 @@ Programmatically, you can change the default time and set it as per your organiz
 [View communication panel](left-control-panel.md)
 
 [Automatic closure of a conversation](../../customer-service/auto-close-conversation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: "Delete Microsoft Teams data | MicrosoftDocs"
 ms.custom: 
 description: "Delete Microsoft Teams data."
-ms.date: 8/26/2020
+ms.date: 8/27/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -37,7 +37,7 @@ The following data is stored with Dynamics 365 app integration with Microsoft Te
 
 You can contact support to request data deletion. Run the following Windows PowerShell commands to gather the information needed by the support team.
 
-For more information on how to install Windows PowerShell, see [Azure ActiveDirectory](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
+For more information on how to install Windows PowerShell, see [Azure ActiveDirectory](/powershell/azure/active-directory/overview?view=azureadps-1.0&preserve-view=true).
 
 |Command  |Comment  |
 |---------|---------|
@@ -46,3 +46,6 @@ For more information on how to install Windows PowerShell, see [Azure ActiveDire
 |``` (Get-MsolCompanyInformation).ObjectId ```        |         |
 
 Record this information to provide to the support team.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

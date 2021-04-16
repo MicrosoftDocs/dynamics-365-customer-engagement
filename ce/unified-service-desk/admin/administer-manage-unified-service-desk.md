@@ -1,8 +1,8 @@
 ---
 title: "Administer and manage Unified Service Desk | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/25/2017
 ms.topic: article
@@ -45,3 +45,6 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
 [Overview of configuring agent application](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
 [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,16 +1,15 @@
 ---
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+description: "Track the replies to your campaigns by using campaign responses in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-list
   - D365-Entity-campaign
@@ -21,7 +20,7 @@ searchScope:
   - Sales
 ---
 
-# Track a marketing campaign response using in-app marketing (Sales)
+# Track a marketing campaign response using in-app marketing (Sales Hub)
 
 Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
   
@@ -55,7 +54,7 @@ Record the replies you get from potential customers in response to a specific ma
 
   
 ### See also  
- [System Settings dialog box - Marketing tab](../admin/system-settings-dialog-box-marketing-tab.md)   
+ [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)   
  [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
@@ -63,3 +62,6 @@ Record the replies you get from potential customers in response to a specific ma
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Create or edit a campaign template using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Dynamics 365 Customer Engagement (on-premises) includes two kinds of SLAs, stand
 ### See also  
  [Video: SLA Enhancements in Microsoft Dynamics CRM 2015](https://youtu.be/rgmPqLsG8WI)   
  [Enable languages](../admin/enable-languages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

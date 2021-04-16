@@ -41,3 +41,6 @@ The following table lists the minimum and recommended hardware requirements for 
  [Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   
  [Microsoft SQL Server hardware requirements for Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

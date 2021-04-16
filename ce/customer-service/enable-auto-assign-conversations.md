@@ -39,3 +39,6 @@ Perform the following steps:
 
 [Manage notification templates](notification-templates.md)  
 [View notifications](oc-notifications.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

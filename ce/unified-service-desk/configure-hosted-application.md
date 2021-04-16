@@ -1,8 +1,8 @@
 ---
 title: "Configure the hosted application | MicrosoftDocs"
 description: "Learn about the configuring the hosted application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -59,3 +59,6 @@ After you create the hosted application (see [Create a HAT hosted application pr
  [Configure an action for the hosted application](../unified-service-desk/configure-action-hosted-application.md)   
  [Deploy your hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md#deploy)   
  [Import the hosted application from Unified Service Desk](../unified-service-desk/import-hosted-application-from-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

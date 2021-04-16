@@ -2,14 +2,17 @@
 title: "Manage your customers in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Store important information about the accounts and contacts you do business with in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: 
-  - dynamics-365-sales
+ms.service: dynamics-365-sales
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - dyn365-sales
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-account
+  - D365-Entity-contact
 ---
 
 # Manage your customers
@@ -106,3 +109,6 @@ To create or edit a contact:
 
 [Develop sales from lead to cash in Dynamics 365 Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

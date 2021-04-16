@@ -43,7 +43,7 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Configure a Facebook channel](configure-facebook-channel.md)</br>
 - [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
-- [Create a new Omnichannel queue](queues-omnichannel.md#create-a-queue)<br>
+- [Create a new Omnichannel queue](queues-omnichannel.md)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
 - [Enable knowledge articles in the Omnichannel for Customer Service](knowledge-management-oc.md) </br>
 - [Add a chat widget](add-chat-widget.md)<br>
@@ -52,3 +52,6 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Create and manage operating hours](create-operating-hours.md)<br>
 - [Create chat authentication settings](create-chat-auth-settings.md)<br>
 - [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

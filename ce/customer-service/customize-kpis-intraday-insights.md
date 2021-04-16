@@ -2,6 +2,7 @@
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
 description: "Learn how to add custom KPIs to the intraday insights dashboard in Omnichannel for Customer Service."
 author: neeranelli
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/24/2019
@@ -48,7 +49,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
@@ -104,7 +105,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
@@ -174,3 +175,6 @@ The tables in the intraday insights dataset consists of entity attributes along 
 ### See also
 
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

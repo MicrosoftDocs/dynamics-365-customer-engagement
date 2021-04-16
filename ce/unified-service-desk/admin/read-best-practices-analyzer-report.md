@@ -1,8 +1,8 @@
 ---
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 05/15/2018
 ms.topic: article
@@ -63,3 +63,6 @@ You must expand a parameter to see the details, which illustrate the following:
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

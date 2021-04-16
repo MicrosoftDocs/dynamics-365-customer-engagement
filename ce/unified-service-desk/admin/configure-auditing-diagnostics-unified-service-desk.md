@@ -1,8 +1,8 @@
 ---
 title: "Configure auditing and diagnostics in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 02/06/2018
 ms.topic: article
@@ -224,3 +224,6 @@ The audit and diagnostics record is activated.
  [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)   
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
  [Performance data collection using keyboard shortcut](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

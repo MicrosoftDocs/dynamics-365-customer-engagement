@@ -68,7 +68,7 @@ Monthly quota add-ons for Microsoft Social Engagement will cease with the discon
 
 ###	Who can customers contact for billing issues and concerns?
 
-If customers need to locate their Dynamics 365 (online) billing and subscription support team, they can go to [Dynamics 365 (online) Billing FAQ](https://technet.microsoft.com/library/mt826763.aspx) to locate their billing support number or submit a billing support query. They can also email us at [MSEEol@microsoft.com](mailto:MSEEol@microsoft.com) for any escalations.
+If customers need to locate their Dynamics 365 (online) billing and subscription support team, they can go to [Dynamics 365 (online) Billing FAQ](/power-platform/admin/signup-for-powerapps-admin) to locate their billing support number or submit a billing support query. They can also email us at [MSEEol@microsoft.com](mailto:MSEEol@microsoft.com) for any escalations.
 
 
 ## Retrieving data from Microsoft Social Engagement and quota information 
@@ -89,3 +89,6 @@ For questions related to transitioning, please contact your Microsoft representa
 
 [Business Applications release notes](https://dynamics.microsoft.com/business-applications/release/)    
 [Dynamics 365 International Availability Guide](https://aka.ms/dynamics_365_international_availability_deck)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

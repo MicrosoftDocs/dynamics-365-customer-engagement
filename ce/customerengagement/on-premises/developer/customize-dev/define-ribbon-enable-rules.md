@@ -176,3 +176,6 @@ Uses the `<ValueRule>` element. Use this rule to check the value of a specific f
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Define Ribbon Commands](define-ribbon-commands.md)   
  [Define Ribbon Display Rules](define-ribbon-display-rules.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,12 +2,18 @@
 title: "Create or edit orders (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
 ms.date: 07/21/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-salesorder
+  - D365-Entity-quote
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Create and manage orders in Dynamics 365 Sales Professional
@@ -93,3 +99,6 @@ Typically, you convert a quote that you have won into an order. Start with an ac
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  
 [Enable creation of orders from quotes](enable-creation-of-orders-from-quotes.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

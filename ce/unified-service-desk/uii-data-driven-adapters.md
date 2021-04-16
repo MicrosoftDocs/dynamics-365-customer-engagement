@@ -1,8 +1,8 @@
 ---
 title: "UII data driven adapters in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use a data-driven adapter to define a way to identify a UI component of a hosted application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -37,3 +37,6 @@ Data-driven adapters are used by the [!INCLUDE[pn_hosted_application_toolkit_hat
  [UII Hosted Application Toolkit (HAT)](../unified-service-desk/uii-hosted-application-toolkit-hat.md)   
  [Use UII automation adapter to interact with external and web applications](../unified-service-desk/use-uii-automation-adapter-interact-external-web-applications.md)   
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

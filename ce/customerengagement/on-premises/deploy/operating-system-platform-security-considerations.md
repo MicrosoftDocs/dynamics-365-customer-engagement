@@ -59,7 +59,7 @@ In the broadest sense, security involves planning and considering tradeoffs betw
   
 -   [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] administrators should enable RDL Sandboxing to restrict access to the [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Enabling and Disabling RDL Sandboxing](/sql/reporting-services/report-server-sharepoint/enable-and-disable-rdl-sandboxing?view=sql-server-2017)  
   
--   Configure each SQL logon to use the master database as the default database. Although users shouldn’t have rights to the master database, as a best practice, you should change the default for every SQL logon (except those with the SYSADMIN role) to use *OrganizationName*_MSCRM as the default database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Securing SQL Server](https://go.microsoft.com/fwlink/p/?LinkID=200479)  
+-   Configure each SQL logon to use the master database as the default database. Although users shouldn’t have rights to the master database, as a best practice, you should change the default for every SQL logon (except those with the SYSADMIN role) to use *OrganizationName*_MSCRM as the default database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Securing SQL Server](/sql/relational-databases/security/securing-sql-server)  
   
 <a name="BKMK_SecuringExchange"></a>   
 ## Securing Exchange Server and Outlook  
@@ -85,3 +85,6 @@ In the broadest sense, security involves planning and considering tradeoffs betw
  [Setup overview for mobile apps](../../../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  </br>
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

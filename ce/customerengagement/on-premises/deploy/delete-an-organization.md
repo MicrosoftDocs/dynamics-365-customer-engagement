@@ -46,3 +46,6 @@ Before you can delete an organization, you must disable it. [Disable or enable a
  [Manage organizations](manage-organizations.md)   
  [Disable or enable an organization](disable-or-enable-an-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

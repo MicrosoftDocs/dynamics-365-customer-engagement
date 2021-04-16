@@ -2,13 +2,12 @@
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
 ms.date: 10/14/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
   - D365-UI-*
@@ -133,3 +132,6 @@ Here are some important things to know about your Kanban view:
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
 [Create or edit opportunities](create-edit-opportunity-sales.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

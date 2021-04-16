@@ -1,9 +1,9 @@
 ---
-title: "Configure the schedule board (Dynamics 365 Field Service and Dynamics 365 Project Service Automation) | MicrosoftDocs"
+title: "Use and configure the schedule board in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to configure the schedule board in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/07/2020
+ms.date: 01/12/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -14,7 +14,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Configure the schedule board for resource availability (Field Service)
+# Use and configure the schedule board in Dynamics 365 Field Service
 
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make.  Before you use the schedule board, it is important to set up the views and filters to your preference.  
   
@@ -59,17 +59,17 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
    - **Characteristics – Rating**, filters by skills that resources possess, with a rating of familiar, good, or proficient. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
   
-   - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](../project-service/configure-resource-roles.md)  
+   - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](/dynamics365/project-operations/psa/configure-resource-roles)  
   
    - **Service Territory** filters will narrow down the schedule board to only those resources who belong to that territory.  
   
-   - **Organizational units** filters groups or divisions in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units (Project Service Automation)](../project-service/create-organizational-units.md)  
+   - **Organizational units** filters groups or divisions in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create organizational units (Project Service Automation)](/dynamics365/project-operations/psa/create-organizational-units)  
   
    - **Resource Types**, when selected, will show up in the Schedule Board pane by associated category. Categories are defined by the user, but could include things like crew, technician, or plumber.  
   
    - **Teams** filters by teams that have been set up.  
   
-   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](../admin/create-edit-business-units.md)  
+   - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](/power-platform/admin/create-edit-business-units)  
   
 ### Set default filters  
  ![Schedule Board Default Filters](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
@@ -172,7 +172,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   -   Select **Add** at the bottom of the pop-up window to create the new tab.  
   
   > [!NOTE]
-  >  Your admin can also add custom views to the list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a public view for an entity](../customize/create-edit-views.md)  
+  >  Your admin can also add custom views to the list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a public view for an entity](../customerengagement/on-premises/customize/create-edit-views.md)  
   
 - Select the **Unscheduled Panels** view, and then choose a view from the drop-down list. Choose a view for the unscheduled bookings at the bottom of the schedule board.  
   
@@ -205,3 +205,6 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 [Create a work order](../field-service/create-work-order.md)   
 [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)   
 [Schedule a work order](../field-service/schedule-work-order.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

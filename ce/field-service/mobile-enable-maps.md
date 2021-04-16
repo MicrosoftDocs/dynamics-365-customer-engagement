@@ -41,7 +41,7 @@ In this article, we'll walk through how to set up maps and location services by 
 
 ## Get Map API key
 
-First, you'll need to generate a Bing Maps API key. For more information about getting a Bing Maps API key, [see this article](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
+First, you'll need to generate a Bing Maps API key. For more information about getting a Bing Maps API key, [see this article](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 
 1. Go to the [Bing Maps Dev Center](https://www.bingmapsportal.com/).
@@ -131,3 +131,6 @@ Back in Woodford, copy and paste the API key in the **Google API Key** field in 
  
  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

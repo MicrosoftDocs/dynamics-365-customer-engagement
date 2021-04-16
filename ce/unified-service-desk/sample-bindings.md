@@ -1,8 +1,8 @@
 ---
 title: "Sample bindings in Unified Service Desk | MicrosoftDocs"
 description: "The sample explains sample bindings in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -143,3 +143,6 @@ A data-driven adapter uses data, named the bindings, to define the way that it i
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

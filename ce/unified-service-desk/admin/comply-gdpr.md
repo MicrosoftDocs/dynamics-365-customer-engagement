@@ -1,8 +1,8 @@
 ---
 title: Comply with the General Data Protection Regulation (GDPR) | MicrosoftDocs
 description: Learn about General Data Protection Regulation (GDPR) and how Unified Service Desk complies with GDPR.
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 04/24/2018
 ms.topic: article
@@ -49,3 +49,6 @@ The GDPR makes clear that the concept of personal data includes online identifie
 ## See also
 
 [Unified Service Desk data compliance under GDPR](comply-unified-service-desk-data-gdpr.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

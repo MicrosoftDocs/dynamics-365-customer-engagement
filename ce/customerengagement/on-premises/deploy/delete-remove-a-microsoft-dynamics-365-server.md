@@ -43,3 +43,6 @@ To delete a [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server
  [Manage servers](manage-servers.md)   
  [Disable or enable a server](disable-or-enable-a-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

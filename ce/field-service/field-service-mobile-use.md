@@ -24,7 +24,7 @@ In this article, let's look at common tasks that technicians perform on Field Se
 
 ## Sign in and sync data
 
- To sign in, you need your organization's Dynamics 365 URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
+ To sign in, you need your organization's Dynamics 365 URL, your user name, and password. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator if you don't have this information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md).  
   
 1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign-in completes, you'll see the home screen.
   
@@ -61,11 +61,11 @@ The system administrator configures the app to sync when it launches, when infor
 When you first sign in to Field Service Mobile (Xamarin), you’ll see your home screen, which shows you a list of actionable items. To get more information, select any of the items.  
   
 > [!NOTE]
-> If you have a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] admin, dispatcher,  inventory purchase, or resource (field agent) security role, you can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile). However, depending on your security role, you may not have permission to access or change certain data in the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
+> If you have a [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] admin, dispatcher,  inventory purchase, or resource (field agent) security role, you can use [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile). However, depending on your security role, you may not have permission to access or change certain data in the app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md)  
   
 ### Dashboard
 
-Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)  
+Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)  
   
  ![Dashboard screen in the Field Service Mobile app](../field-service/media/field-service-dashboard-sceen.PNG "Dashboard screen in the Field Service Mobile app")  
   
@@ -365,3 +365,6 @@ If work still needs to be done, you can create a follow-up booking.
 
 - [Dynamics 365 Field Service - User's Guide](../field-service/user-guide.md)
 - [Overview of Dynamics 365 Field Service](../field-service/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

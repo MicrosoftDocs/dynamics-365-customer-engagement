@@ -1,7 +1,7 @@
 ---
 title: "Event management web application overview (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
-ms.date: 09/17/2020
+ms.date: 04/14/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,7 +18,7 @@ search.app:
 
 # Event management web application overview
 
-The event management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event portal that gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-event-portal).
+The event management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event portal that gives the users a web application where they can get to know more about the event details. More information: [Event Portal](/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
 The event portal consists of two parts:
 
@@ -30,7 +30,7 @@ You can implement the frontend using any of the available frameworks. The fronte
 You can host a custom event website in two ways:
 
 1. [Self-hosted](self-hosted.md)
-2. [Dynamics 365 Portal hosted](portal-hosted.md)
+2. [Power Apps portal hosted](portal-hosted.md)
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ To get started with customizing the demo event website, you need to follow these
    > You need to run the command in the same directory where the `package.json` file is located.
 
 6. See [public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224) to interact with the backend services.
-7. Dynamics 365 Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup)
+7. Dynamics 365 Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup)
 
 ## Download sample event website
 
@@ -80,6 +80,8 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
+|Sample Event Website| 1.34.0 (April release)| - Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/210413_EventWebsite.zip)
+|Sample Event Website| 1.30.0 (December release)| - Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/201205-EventWebsite.zip)
 |Sample Event Website| 1.28.0 (October release)| - Added possibility to opt in for local date conversion. <br/>- Added additional website language configurations.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/201005-EventWebsite.zip)
 |Sample Event Website| 1.27.0 (September release)| - Added possibility to configure the display of the dates. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200909-EventWebsite.zip)
 |Sample Event Website| 1.24.0 (June release)| - Updated deployment script to allow single file deployment for Portals. <br/>- Minor improvements and bug fixes.| [Download](https://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/200605-EventWebsite.zip)
@@ -112,7 +114,7 @@ Some of the parameters that you need to understand before you start configuring 
 |**useRestStack** | This setting specifies which API is used. If set to true, then the new event management public API is used. If set to false, then the deprecated event management Portal API is used. This API can only be used if you host the custom event website on Portals. To use the new event management public API, you need to register the web application.|
 |**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynamics 365 Marketing instance. This token is not required if you're using the deprecated event management Portal API.
 |**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported or not (that is, the user can register or sign in). If set to false, then the application doesn't display a way to sign in or register.|
-|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
+|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Power Apps portals identity management** then this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
 |**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
 |**dateSettings** | This setting can be used to configure how the dates will be formatted in the website. If `convertToLocalDate` flag is set to true, all dates will be automatically converted to the end users local time. |
@@ -135,6 +137,9 @@ To expose the new field to be visible in the API, follow the steps below:
 ### See also
 
 [Self-hosted](self-hosted.md)<br />
-[Dynamics 365 Portal hosted](portal-hosted.md)<br/>
+[Power Apps portal hosted](portal-hosted.md)<br/>
 [Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

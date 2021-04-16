@@ -1,8 +1,8 @@
 ---
 title: "Standard Web Application hosted control to load a non-model-driven app page | MicrosoftDocs"
 description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -193,3 +193,6 @@ Occurs when the page has finished loading. On a CRM Page type of hosted control,
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)   
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

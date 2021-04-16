@@ -790,3 +790,6 @@ See systemuser Entity [user_msdyn_twitterengagementctx](systemuser.md#BKMK_user_
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

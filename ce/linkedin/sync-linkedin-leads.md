@@ -26,8 +26,9 @@ search.app:
 
 [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] enables seamless synchronization of [!include[LinkedIn](../includes/pn-linkedin.md)] leads to Dynamics 365 apps. [!include[LinkedIn](../includes/pn-linkedin.md)] members can drive leads from [Sponsored Content](https://business.linkedin.com/marketing-solutions/native-advertising) campaigns, based on a variety of calls to action. The [!include[LinkedIn Connector](../includes/pn-linkedin-solution-shortest.md)] lets campaign managers sync the leads from [LinkedIn's Lead Gen forms](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads) to a Dynamics 365 instance for further nurturing. If a lead is already known in a Dynamics 365 app, the data for that lead will be updated by using the information provided from [!include[LinkedIn](../includes/pn-linkedin.md)]; otherwise, a new lead record is created.
 
-> [!NOTE]
-> You need a Dynamics 365 organization with the Sales app to use the [!include[LinkedIn Connector](../includes/pn-linkedin-solution-shortest.md)].
+>[!NOTE]
+>You need a Dynamics 365 organization with the Sales app to use the [!include[LinkedIn Connector](../includes/pn-linkedin-solution-shortest.md)].
+
 
 ## Quick start guide to install and use the connector
 
@@ -49,3 +50,6 @@ search.app:
 [Configure a matching strategy to update leads from LinkedIn Lead Gen ads](configure-matching-strategy.md)
 [Analyze leads and lead performance](review-leads.md)
 [Microsoft Online Services Privacy Statement](https://go.microsoft.com/fwlink/p/?LinkId=512132)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,10 @@
 title: "Help resources for administrator & sales managers (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -76,3 +75,6 @@ manager: annbe
 </td></tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,7 +40,7 @@ If you have users and offices around the world, it is important to properly repr
   
 |Member name and value|Description|  
 |---------------------------|-----------------|  
-|`UserLocal`|-   Stores the date and time value as UTC value in the system.<br />-   The retrieve operation returns the UTC value.<br />-   The update operation converts the UTC value to the current user’s time zone value, and then stores the updated value as is or as the equivalent UTC value depending on the kind ([DateTimeKind](https://msdn.microsoft.com/library/shx7s921.aspx)) of the value specified for update. If the specified value is of UTC kind, it’s stored as is. Otherwise, the UTC-equivalent value is stored.<br />-   Retrieving the formatted value converts from UTC to the user’s current time zone based on the time zone and locale setting of the user.<br />-   For the Web API, the attribute is exposed as DateTimeOffset.<br />-   This behavior is used for system attributes like `CreatedOn` and `ModifiedOn`, and cannot be changed. You should use this behavior for custom attributes where you want to store date and time values with the time zone information.|  
+|`UserLocal`|-   Stores the date and time value as UTC value in the system.<br />-   The retrieve operation returns the UTC value.<br />-   The update operation converts the UTC value to the current user’s time zone value, and then stores the updated value as is or as the equivalent UTC value depending on the kind ([DateTimeKind](/dotnet/api/system.datetimekind)) of the value specified for update. If the specified value is of UTC kind, it’s stored as is. Otherwise, the UTC-equivalent value is stored.<br />-   Retrieving the formatted value converts from UTC to the user’s current time zone based on the time zone and locale setting of the user.<br />-   For the Web API, the attribute is exposed as DateTimeOffset.<br />-   This behavior is used for system attributes like `CreatedOn` and `ModifiedOn`, and cannot be changed. You should use this behavior for custom attributes where you want to store date and time values with the time zone information.|  
 |`DateOnly`|-   Stores the actual date value with the time value as 12:00 AM (00:00:00) in the system.<br />-   For the retrieve and update operations, no time zone conversion is performed, and the time value is always 12 AM (00:00:00).<br />-   Retrieving the formatted value displays the date value without any time zone conversion.<br />-   For the Web API, the attribute is exposed as Date.<br />-   This behavior should be used for custom attributes that store birthdays and anniversaries, where the time information is not required.|  
 |`TimeZoneIndependent`|-   Stores the actual date and time values in the system regardless of the user time zone.<br />-   For the retrieve and update operations, no time zone conversion is performed, and actual date and time values are returned and updated respectively in the system regardless of the user time zone.<br />-   Retrieving the formatted value displays the date and time value (without any time zone conversion) based on the format as specified by the current user’s time zone and locale setting.<br />-   For the Web API, the attribute is exposed as DateTimeOffset.<br />-   This behavior should be used for attributes that store information such as check in and check out time for hotels.|  
   
@@ -50,7 +50,7 @@ If you have users and offices around the world, it is important to properly repr
   
  In the sample code, you can also set the value of the `DateTimeBehavior` property by directly specifying the string value: `DateTimeBehavior = "UserLocal"`  
   
- If you do not specify the behavior while creating a date and time attribute, the attribute is created with the `UserLocal` behavior by default. For the complete sample code, see [Sample: Convert date and time values](org-service/sample-convert-date-time-behavior.md).  
+ If you do not specify the behavior while creating a date and time attribute, the attribute is created with the `UserLocal` behavior by default. For the complete sample code, see [Sample: Convert date and time values](/dotnet/api/microsoft.xrm.sdk.messages.convertdateandtimebehaviorrequest).  
   
 > [!IMPORTANT]
 > - Once you create a date and time attribute with behavior set to `DateOnly` or `TimeZoneIndependent`, you cannot change the behavior of the attribute. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change the behavior of a DateTime attribute](behavior-format-date-time-attribute.md#ChangeBehavior)  
@@ -78,7 +78,7 @@ If you have users and offices around the world, it is important to properly repr
   
 - Next X Hours  
   
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Date and time query operators in FetchXML](org-service/fiscal-date-older-datetime-query-operators-fetchxml.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Date and time query operators in FetchXML](/powerapps/developer/data-platform/use-fetchxml-fiscal-date-older-datetime-query-operators)  
   
 <a name="ChangeBehavior"></a>   
 ## Change the behavior of a date and time attribute  
@@ -125,7 +125,7 @@ If you have users and offices around the world, it is important to properly repr
   
   [!code-csharp[DateTimeAttributeBehavior#ConvertDateandTimeBehavior3](../snippets/csharp/CRMV8/datetimeattributebehavior/cs/convertdateandtimebehavior3.cs#convertdateandtimebehavior3)]  
   
-  For the complete sample code, see [Sample: Convert date and time values](org-service/sample-convert-date-time-behavior.md).  
+  For the complete sample code, see [Sample: Convert date and time values](/dotnet/api/microsoft.xrm.sdk.messages.convertdateandtimebehaviorrequest).  
   
 <a name="Convert"></a>   
 ## Convert behavior of existing date and time values in the database 
@@ -165,11 +165,14 @@ If you have users and offices around the world, it is important to properly repr
   
   [!code-csharp[DateTimeAttributeBehavior#ConvertDateandTimeBehavior1](../snippets/csharp/CRMV8/datetimeattributebehavior/cs/convertdateandtimebehavior1.cs#convertdateandtimebehavior1)]  
   
-  For the complete sample code, see [Sample: Convert date and time values](org-service/sample-convert-date-time-behavior.md)  
+  For the complete sample code, see [Sample: Convert date and time values](/dotnet/api/microsoft.xrm.sdk.messages.convertdateandtimebehaviorrequest)  
   
 ### See also  
- [Sample: Convert date and time values](org-service/sample-convert-date-time-behavior.md)   
+ [Sample: Convert date and time values](/dotnet/api/microsoft.xrm.sdk.messages.convertdateandtimebehaviorrequest)   
  [Behavior and format of the Date and Time field](../customize/behavior-format-date-time-field.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)          
  <xref:Microsoft.Xrm.Sdk.Messages.ConvertDateAndTimeBehaviorRequest>      
  <xref:Microsoft.Xrm.Sdk.Metadata.DateTimeAttributeMetadata>  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

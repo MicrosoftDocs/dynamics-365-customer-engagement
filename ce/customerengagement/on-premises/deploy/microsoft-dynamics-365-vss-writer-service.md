@@ -52,7 +52,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Volume Shadow Co
   
 -   Backup and restore of [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] databases that are integrated with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For these databases, use the [SharePoint VSS Writer](/SharePoint/administration/prepare-to-back-up-and-restore).  
   
--   Backup and restore of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] databases that are used for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting. For these databases, use the [SQL Server VSS Writer](https://technet.microsoft.com/library/ms175536.aspx).  
+-   Backup and restore of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] databases that are used for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] reporting. For these databases, use the [SQL Server VSS Writer](/sql/database-engine/configure-windows/sql-writer-service).  
   
 <a name="BKMK_Steps"></a>   
 ## Steps required to use with System Center Data Protection Manager  
@@ -70,3 +70,6 @@ Set-DPMGlobalproperty -dpmservername DPM_SRVR_NAME -registeredwriters APPS_VSS_W
  [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)   </br>
  [Back up the Microsoft Dynamics 365 Customer Engagement (on-premises) System](back-up-the-microsoft-dynamics-365-system.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

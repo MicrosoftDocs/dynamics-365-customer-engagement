@@ -1,8 +1,8 @@
 ---
 title: "msdyn_ocliveworkitemcharacteristic Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitemcharacteristic entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
@@ -916,3 +916,6 @@ Same as msdyn_ocsessioncharacteristic entity [msdyn_msdyn_ocliveworkitemcharacte
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

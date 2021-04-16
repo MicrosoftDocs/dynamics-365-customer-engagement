@@ -2,6 +2,7 @@
 title: View and understand Customer Service Analytics | Microsoft Docs
 description: Dashboards and reports provide historical operational metrics and KPIs to manage contact centers.
 author: neeranelli
+feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
 ms.date: 04/06/2020
@@ -127,3 +128,6 @@ Select the subject you're interested in, and information is filtered according t
 [Configure Customer Service analytics and insights in Customer Service Hub](configure-customer-service-analytics-insights-csh.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](customer-service-analytics-insights-csh.md)  
 [Configure Customer Service Analytics in Power BI](configure-customer-service-analytics-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

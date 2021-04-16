@@ -64,7 +64,7 @@ With the recent update, instead of blocking you from using App for Outlook, you 
 To fix issues with server-side synchronization, contact your administrator, who can view the status of the service and take necessary steps to address the issue.
 
 ## Dynamics 365 App for Outlook does not display the recipient picker and instead displays a different dashboard. How do I switch it back?
-Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365 apps. For more information, see [Limitations when customizing Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/outlook-app/limitations-when-customizing-app-for-outlook#customizing-app-for-outlook-sitemap).
+Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365 apps. For more information, see [Limitations when customizing Dynamics 365 App for Outlook](./limitations-when-customizing-app-for-outlook.md#customizing-app-for-outlook-sitemap).
 
 ## When I open Dynamics 365 App for Outlook, I see a blue screen with errors related to Server-Side Synchronization. How do I recover from this?
 Currently, Dynamics 365 App for Outlook requires Server-Side Synchronization to be successfully set up on the Exchange mailbox. Depending on the scenario, you may see one of the following messages displayed.
@@ -73,12 +73,12 @@ Currently, Dynamics 365 App for Outlook requires Server-Side Synchronization to 
  -	Email account isn’t configured with server-side sync for appointments, contacts, and tasks
  -	Your mailbox is inactive
 
-This means that there is an issue with the Server-Side Synchronization settings on the mailbox. Make sure Server-Side Synchronization is set up correctly. Note, this requires admin privileges. For more information see, [Connect Dynamics 365 apps to Exchange Online](https://docs.microsoft.com/dynamics365/admin/connect-exchange-online). 
+This means that there is an issue with the Server-Side Synchronization settings on the mailbox. Make sure Server-Side Synchronization is set up correctly. Note, this requires admin privileges. For more information see, [Connect Dynamics 365 apps to Exchange Online](/power-platform/admin/connect-exchange-online). 
 
 ## When I track or set the Regarding record on an email or an appointment in Outlook, it goes into a “Pending” state. Why?
 Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 via Server-Side Synchronization, which is an asynchronous service that runs in the background approximately every 15 minutes.
 The scenarios where an Outlook item is immediately tracked to Dynamics 365 apps is documented in the [Synchronization and tracking
-](https://docs.microsoft.com/dynamics365/outlook-app/dynamics-365-app-outlook-user-s-guide#synchronization-and-tracking) section of the user guide.
+](./dynamics-365-app-outlook-user-s-guide.md#synchronization-and-tracking) section of the user guide.
 
 ## As an administrator, when I go to the Dynamics 365 App for Outlook section in **Settings**, a user does not appear in the **All Eligible Users** list. 
 For more information, see [A user does not appear in the All Eligible Users list within the Dynamics 365 App for Outlook area](https://support.microsoft.com/help/4345543).
@@ -114,3 +114,6 @@ For frequently used pages, pin the app so that it will stay loaded even when you
 
 ## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
 This feature is no longer available for configuration.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

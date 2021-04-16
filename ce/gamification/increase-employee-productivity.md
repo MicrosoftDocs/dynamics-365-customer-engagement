@@ -27,6 +27,8 @@ search.app:
 
 # Keep your employees engaged and productive by using Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Driving results is a key factor for a successful business. [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] helps you to keep your employees engaged and motivated to deliver their best performance.
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/2ab672e9-e374-4c76-b662-003fa68dfa59" frameborder="0" allowfullscreen=""></iframe></div>
@@ -96,3 +98,6 @@ Have a look at [What's new in Gamification](release-notes.md) for release notes,
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Overview for players and fans in Gamification](for-players-fans.md)
  [What's new in Gamification](release-notes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

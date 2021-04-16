@@ -292,3 +292,6 @@ The /config [drive:] [[path] configfilename.xml]] command-line parameter provide
  [Sample server XML configuration file](sample-server-xml-configuration-file.md) </br>  
  [Sample server XML configuration file for installing with pre-created groups](sample-server-xml-config-file-pre-created-groups.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

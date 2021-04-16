@@ -91,3 +91,6 @@ The following is the schema for the data description XML string for charts in vi
  [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md)   
  [Sample Charts](sample-charts.md)   
  [Use FetchXML to Construct a Query](../org-service/use-fetchxml-construct-query.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

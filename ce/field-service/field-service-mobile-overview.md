@@ -3,7 +3,7 @@ title: "Overview of Field Service Mobile (Xamarin app) - MicrosoftDocs"
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 03/29/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: overview
@@ -29,8 +29,8 @@ For a guided walkthrough, check out the following video.
 ## Supported platforms
 
 - Windows 10, desktop + tablet
-- iOS 12.0+, phones + tablets
-- Android 6.0+, phones + tablets
+- iOS 11.0+, phones + tablets
+- Android 7.0+, phones + tablets
 
 ## Key capabilities
 
@@ -165,3 +165,6 @@ For accessing Dynamics 365 Field Service entities and fields, the Field Service 
 
 - [Mobile configurations and customizations](mobile-app-configuration-customization.md)
 - [Push notifications](mobile-push-notifications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

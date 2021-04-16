@@ -398,9 +398,12 @@ You should now see the device on the customer asset, under **Connected Devices**
 
 - [MXChip developer site](https://aka.ms/iot-devkit)
 
-- [Connect an MXChip IoT DevKit device to IoT Central](https://docs.microsoft.com/azure/iot-central/howto-connect-devkit)
+- [Connect an MXChip IoT DevKit device to IoT Central](/azure/iot-central/howto-connect-devkit)
 
 - [MXChip 2.1 Firmware on GitHub](https://github.com/Azure/iot-central-firmware/releases/tag/mxchip-v2.1.0)
 
-- [Overview of Connected Field Service with IoT Central](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview)
+- [Overview of Connected Field Service with IoT Central](/dynamics365/customer-engagement/field-service/cfs-iot-overview)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

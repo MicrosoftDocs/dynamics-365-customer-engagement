@@ -774,3 +774,5 @@ See activitypointer Entity [activitypointer_activity_parties](activitypointer.md
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.activityparty?text=activityparty EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

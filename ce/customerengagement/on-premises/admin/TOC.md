@@ -65,7 +65,7 @@
 ### [Transactions with multiple currencies](manage-transactions-with-multiple-currencies.md)
 ### [Enable languages](enable-languages.md)
 ### [Fiscal year](work-fiscal-year-settings.md)
-<!--### [Privacy preferences](set-privacy-preferences-organization.md)-->
+<!--### [Privacy preferences](/power-platform/admin/settings-privacy-security)-->
 ### [Sales territories](set-up-sales-territories-organize-business-markets-geographical-area.md)
 ### [Auto-numbering prefixes](change-auto-number-prefix-contract-case-article-quote-order-invoice-campaign-category-knowledge-articles.md)
 ### [Define subjects for cases, products, and articles](define-subjects-categorize-cases-products-articles.md)
@@ -103,7 +103,7 @@
 ## [View and take action on bulk deletion jobs](view-take-action-bulk-deletion-jobs.md)
 ## [Monitor and manage system jobs](monitor-manage-system-jobs.md)
 ## [Audit data and user activity](audit-data-user-activity.md)
-## [Enable and use Activity Logging](enable-use-comprehensive-auditing.md)
+## [Enable and use Activity Logging](/power-platform/admin/enable-use-comprehensive-auditing)
 ## [Data encryption](data-encryption.md)
 ## [Remove user personal data](remove-user-personal-data.md)
 ## [Free storage space](free-storage-space.md) 
@@ -125,6 +125,7 @@
 #### [Overview](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
 #### [Connect to POP3 or SMTP servers](connect-to-pop3-or-smtp-servers.md) 
 #### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md)
+#### [Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Server (on-premises)](connect-on-prem-exchange-server-on-prem.md)
 #### [Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online](connect-dynamics-365-on-premises-exchange-online.md)
 #### [Migrate settings from the Email Router to server-side synchronization](migrate-settings-email-router-server-side-synchronization.md)
 #### [Troubleshooting](troubleshooting-monitoring-server-side-synchronization.md)
@@ -151,10 +152,10 @@
 ## Extend with integration and solutions
 ### Manage your documents using SharePoint 
 #### [Overview](manage-documents-using-sharepoint.md)
-<!-- #### [Software requirements](sharepoint-document-management-software-requirements.md) -->
+#### [Software requirements](sharepoint-document-management-software-requirements.md)
 #### Set up
-<!-- ##### [Overview](set-up-sharepoint-integration.md)
-##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+##### [Overview](set-up-sharepoint-integration.md)
+<!-- ##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
 ##### [Set up Dynamics 365 (online) and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md) -->
 ##### [Set up Dynamics 365 on-premises and SharePoint Online](on-prem-server-based-sharepoint-online.md)
 ##### [Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
@@ -168,9 +169,9 @@
 ##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)-->
 #### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md)
 ### Connect to Microsoft Social Engagement
-#### [Connect, assign licenses, and reset](connect-microsoft-social-engagement.md)
-#### [Install the Social Selling Assistant](install-social-selling-assistant.md)
-#### [Control social data](control-social-data.md)
+#### [Connect, assign licenses, and reset](https://dynamics.microsoft.com/microsoft-social-engagement-transition/)
+#### [Install the Social Selling Assistant](https://dynamics.microsoft.com/microsoft-social-engagement-transition/)
+#### [Control social data](https://dynamics.microsoft.com/microsoft-social-engagement-transition/)
 ### [Manage Bing Maps](manage-bing-maps-organization.md)
 <!--### [Enable Flow integration](enable-embedded-flow-in-your-organization.md)-->
 <!-- ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)  -->
@@ -182,12 +183,12 @@
 #### [Overview](add-office-365-online-services.md)
 #### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
 #### [Connect Customer Engagement to SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
-<!--#### [Setup Microsoft Teams integration](integrate-with-microsoft-teams.md)-->
+<!--#### [Setup Microsoft Teams integration](/dynamics365/customerengagement/on-premises/basics/teams-integration)-->
 #### [Skype for Business and Skype integration](skype-business-integration.md)
 #### [Set up Customer Engagement to use Skype or Skype for Business](set-up-skype-or-skype-for-business.md)
 <!--#### [Deploy Office 365 Groups](deploy-office-365-groups.md)-->
 <!--#### [Enable viewing profile cards](enable-profile-card.md)-->
-<!--#### [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md)-->
+<!--#### [Set up OneNote integration](../basics/collaborate-with-team.md)-->
 #### [Enable OneDrive for Business](connect-onedrive-business.md)
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)

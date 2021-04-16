@@ -19,11 +19,10 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-
 ---
 # Map entity fields
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Map table columns](/powerapps/maker/data-platform/map-entity-fields)
 
 <a name="BKMK_mappingEntityFields"></a>   
  
@@ -93,3 +92,6 @@ search.audienceType:
 
 [Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)<br />
 [Create N:N (many-to-many) relationships](create-and-edit-nn-many-to-many-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

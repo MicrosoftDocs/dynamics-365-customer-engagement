@@ -1,6 +1,6 @@
 ---
 title: "Create auto-number-attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs)"
-description: "Learn about creating auto-number attribute in the same way you create a string attribute using the StringAttributeMetadata class except that you use the new AutoNumberFormat property. Use the AutoNumberFormat property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicates the length and type of values that are generated."
+description: "Learn about creating auto-number attribute in the same way you create a string attribute using the StringAttributeMetadata class except that you use the new AutoNumberFormat property. Use the AutoNumberFormat property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicate the length and type of values that are generated."
 keywords: Auto-number attributes
 ms.date: 04/03/2020
 ms.service: crm-online
@@ -20,14 +20,14 @@ search.audienceType:
 
 # Create auto-number attributes
 
-With the Dynamics 365 Customer Engagement (on-premises) version 9 release, you can add an auto-number attribute for any entity. Currently, you can add the attribute programmatically. There is no user interface to add this type of attribute. The topic explains how you can programmatically create an auto-number attribute and set a seed value for sequential elements. In addition, the topic shows how to set the sequence number for the next record if you need to reset the seed at any time later.
+With the Dynamics 365 Customer Engagement (on-premises) version 9 release, you can add an auto-number attribute for any entity. Currently, you can add the attribute programmatically. There is no user interface to add this type of attribute. This article explains how you can programmatically create an auto-number attribute and set a seed value for sequential elements. In addition, this article shows how to set the sequence number for the next record if you need to reset the seed at any time later.
 > [!NOTE]
 >The setting of the seed is optional. There is no need to call the seed if you don’t need to reseed.
 
 
-You can create an auto-number attribute in the same way you create a string attribute using the **StringAttributeMetadata** class except that you use the new **AutoNumberFormat** property. Use the **AutoNumberFormat** property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicates the length and type of values that are generated. The random strings help you to avoid duplicates or collisions, especially when offline clients trying to create auto-numbers.
+You can create an auto-number attribute in the same way you create a string attribute using the **StringAttributeMetadata** class except that you use the new **AutoNumberFormat** property. Use the **AutoNumberFormat** property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicate the length and type of values that are generated. The random strings help you to avoid duplicates or collisions, especially when offline clients trying to create auto-numbers.
 
-When creating an auto-number attribute, the **StringAttributeMetadata.FormatName** property or the **StringAttributeMetadata.Format** property values must be Text. Since these are the default values you will typically not set this property. You cannot create an auto-number attribute that uses any other special kind of format such as Email, Phone, TextArea, Url or any other [existing formats](https://msdn.microsoft.com/library/microsoft.xrm.sdk.metadata.stringformatname.aspx).
+When creating an auto-number attribute, the **StringAttributeMetadata.FormatName** property or the **StringAttributeMetadata.Format** property values must be Text. Since these are the default values, you will typically not set this property. You cannot create an auto-number attribute that uses any other special kind of format such as Email, Phone, TextArea, Url, or any other [existing formats](/previous-versions/dynamicscrm-2016/developers-guide/dn439753(v=crm.8)).
 
 Autonumber sequencing is managed by SQL and is ensured to be unique.
 
@@ -40,10 +40,10 @@ Autonumber sequencing is managed by SQL and is ensured to be unique.
 > [!NOTE]
 >You can modify an existing format text attribute to be an auto-number format.
 
-In the legacy web client, when adding a control on a form bound to an auto-number attribute, the control is disabled automatically and behaves as read-only in the form where end-users cannot edit the control. In the Unified Interface, controls bound to an auto-number attribute need to explicitly be set as disabled. If you do not set the initial attribute value on the form, the value is set only after you save the entity. Auto-numbering can be applied to attribute field values in views, grids and so on.
+In the legacy web client, when adding a control on a form bound to an auto-number attribute, the control is disabled automatically and behaves as read-only in the form where end users cannot edit the control. In the Unified Interface, controls bound to an auto-number attribute need to explicitly be set as disabled. If you do not set the initial attribute value on the form, the value is set only after you save the entity. Auto-numbering can be applied to attribute field values in views, grids, and so on.
 
 ### Examples
-The following examples show how to create a new auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget** which will have a value that looks like this: **WID-00001-AB7LSFG-20170913070240**.
+The following examples show how to create a new auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget, which will have a value that looks like this: **WID-00001-AB7LSFG-20170913070240**.
 Using the Organization service with SDK assemblies **CreateAttributeRequest** and **StringAttributeMetadata** classes:
 
 ```csharp
@@ -69,7 +69,7 @@ CreateAttributeRequest widgetSerialNumberAttributeRequest = new CreateAttributeR
 
 You can create and update entity definitions using the Web API.
 
-More information: [Create and update entity definitions using the Web API > Create attributes](https://msdn.microsoft.com/library/mt593078.aspx#Anchor_3).
+More information: [Create and update entity definitions using the Web API > Create attributes](/previous-versions/dynamicscrm-2016/developers-guide/mt593078(v=crm.8)#Anchor_3).
 
 #### Request
 ```http
@@ -144,7 +144,7 @@ These examples show how you can configure the **AutoNumberFormat** property to g
 |`CAS-{SEQNUM:6}-{DATETIMEUTC:yyyyMMddhh}-{RANDSTRING:6}`|`CAS-002002-2017091309-HTZOUR`|
 |`CAS-{SEQNUM:6}-{DATETIMEUTC:yyyyMM}-{RANDSTRING:6}-{DATETIMEUTC:hhmmss}`|`CAS-002000-201709-Z8M2Z6-110901`|
 
-The random string placeholders are optional.You can include more than one random string placeholder. Use any of the format value for datetime placeholders from [Standard Date and Time Format Strings](https://docs.microsoft.com/dotnet/standard/base-types/standard-date-and-time-format-strings).
+The random string placeholders are optional. You can include more than one random string placeholder. Use any of the format values for datetime placeholders from [Standard Date and Time Format Strings](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
 ### String length
 
@@ -166,7 +166,7 @@ The table shows the string length value for the random and sequential placeholde
     <td>The minimum value of the <b>MIN_LENGTH</b> is 1. The number continues to increment beyond the minimum length.</td>
     <td>When you save the entity, the auto-number attribute works fine and continue to work fine for larger values of <b>MIN_LENGTH</b>.</td></table>
 
-For sequential value placeholders, the **MIN_LENGTH** is a minimum length. If you set the value to be 2, the initial value will be 01, and the 100th entity value will be 100. The number will continue to increment beyond the minimum length. The value in setting the length for sequential values is to establish a consistent length for the auto-generated value by adding additional 0s to the initial value. It will not limit the absolute value. Random value placeholders will always be the same length.
+For sequential value placeholders, the **MIN_LENGTH** is a minimum length. If you set the value to be 2, the initial value will be 01, and the 100th entity value will be 100. The number will continue to increment beyond the minimum length. The value in setting the length for sequential values is to establish a consistent length for the autogenerated value by adding additional 0s to the initial value. It will not limit the absolute value. Random value placeholders will always be the same length.
 
 Because the sequential values can get larger than the minimum length allotted for them, you should not adjust the **StringAttributeMetadata.MaxLength** property to match the length of your formatted value. There is little value in doing this and it could cause an error in the future if the value exceeds the **MaxLength** value. Make sure you leave enough room for a realistic range of sequential values.
 
@@ -245,7 +245,7 @@ _serviceProxy.Execute(req);
 ```
 Using the Web API **SetAutoNumberSeed** Action.
 
-More information: [Use Web API actions > Unbound actions](https://msdn.microsoft.com/library/mt607600.aspx#bkmk_unboundActions)
+More information: [Use Web API actions > Unbound actions](/previous-versions/dynamicscrm-2016/developers-guide/mt607600(v=crm.8)#bkmk_unboundActions)
 
 #### Request
 
@@ -273,8 +273,8 @@ OData-Version: 4.0
 
 ### Auto Number Manager
 
-**[Auto Number Manager](https://www.xrmtoolbox.com/plugins/Rappen.XrmToolBox.AutoNumManager/)** for XrmToolBox is a community driven tool for Dynamics 365 Customer Engagement (on-premises) that provides a UI to set, update and remove auto number format on new or existing attributes.
-Please see the [Developer tools](developer-tools.md) topic for community developed tools and [anm.xrmtoolbox.com](https://anm.xrmtoolbox.com) for more information about Auto Number Manager.
+**[Auto Number Manager](https://www.xrmtoolbox.com/plugins/Rappen.XrmToolBox.AutoNumManager/)** for XrmToolBox is a community driven tool for Dynamics 365 Customer Engagement (on-premises) that provides a UI to set, update, and remove auto number format on new or existing attributes.
+See the [Developer tools](developer-tools.md) article for community developed tools and [anm.xrmtoolbox.com](https://anm.xrmtoolbox.com) for more information about Auto Number Manager.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
@@ -284,3 +284,6 @@ Please see the [Developer tools](developer-tools.md) topic for community develop
 ### See Also
 [Metadata and data models](metadata-data-models.md)  
 [Customize entity attribute metadata](customize-entity-attribute-metadata.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

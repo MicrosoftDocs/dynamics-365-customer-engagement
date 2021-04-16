@@ -1,8 +1,8 @@
 ---
 title: "Configure toolbars in your application | MicrosoftDocs"
 description: "Learn about configuring toolbars in your application."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
@@ -789,3 +789,6 @@ The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of
  [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

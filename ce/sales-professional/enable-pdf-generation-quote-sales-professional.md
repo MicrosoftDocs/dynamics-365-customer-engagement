@@ -2,12 +2,20 @@
 title: "Enable or disable generation of PDF files from sales records (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Enable your users to create and share professional-looking PDF files with customers."
 ms.date: 10/28/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdyn_salespro
+  - D365-Entity-opportunity
+  - D365-Entity-quote
+  - D365-Entity-salesorder
+  - D365-Entity-invoice
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
 ---
 
 # Enable or disable PDF generation from sales records
@@ -54,3 +62,6 @@ If you're using Dynamics 365 for phones on a mobile device, you can enable the c
 ### See also
 
 [Create PDF files from sales records](create-quote-pdf-sales-professional.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ For this scenario, you must create the following:
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)
 - [Configure session name information using session lines](configure-session-name-information.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

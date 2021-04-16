@@ -1,8 +1,8 @@
 ---
 title: "Call center challenges and how Unified Service Desk can help | MicrosoftDocs"
 description: "Understand how Unified Service Desk can help your service agents."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -76,3 +76,6 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
  [Components of Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)   
  [Learn to use Unified Service Desk](../../unified-service-desk/learn-to-use-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

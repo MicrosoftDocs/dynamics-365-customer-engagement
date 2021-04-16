@@ -27,3 +27,6 @@ The Solutions feature can be used to export all unmanaged solution customization
  [Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md) </br>  
  [Dynamics 365 Customer Engagement (on-premises) failure recovery](microsoft-dynamics-365-failure-recovery.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

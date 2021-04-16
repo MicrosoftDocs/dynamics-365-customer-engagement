@@ -37,3 +37,6 @@ Use the **Organizations** page to view, change, add, enable, disable, and import
  [Import an organization](import-an-organization.md)   
  [Delete an organization](delete-an-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

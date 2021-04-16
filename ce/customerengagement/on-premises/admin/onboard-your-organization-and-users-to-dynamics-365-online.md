@@ -47,7 +47,7 @@ Trials can be converted to a full version by applying a commercial product key i
  If your organization has 250 or more [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps users, you may be interested in [purchasing a Dynamics 365 for Customer Engagement apps enterprise licensing agreement](https://www.microsoft.com/licensing).  
   
 ### Buy through a cloud solution provider  
- A cloud solution provider can work closely with you to understand the needs of your business or organization. [Learn how to find a Dynamics 365 partner](https://docs.microsoft.com/partner-center/).  
+ A cloud solution provider can work closely with you to understand the needs of your business or organization. [Learn how to find a Dynamics 365 partner](/partner-center/).  
   
 ### Choose your support  
  Microsoft provides flexible, industry-leading support, services, and resources that enable users to quickly address technical issues and maximize return on your Customer Engagement (on-premises) investment. Choose a plan that best meets your business requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 support](https://www.microsoft.com/dynamics365/support)  
@@ -75,7 +75,7 @@ Customer Engagement (on-premises) provides an import tool for importing simple d
   
 -   [Download a template for data import](../admin/download-template-data-import.md)  
   
--   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
+-   [Best practices for migrating your data](/dynamics/s-e/)  
   
 Customer Engagement (on-premises) also provides advanced tools for exporting to [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. 
   
@@ -84,8 +84,11 @@ Customer Engagement (on-premises) also provides advanced tools for exporting to 
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
-- [Dynamics 365 for phones and tablets User's Guide](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+- [Dynamics 365 for phones and tablets User's Guide](../basics/dynamics-365-phones-tablets-users-guide-onprem.md)  
   
 - [Customize Dynamics 365 for phones and tablets to work for your business](../customize/customize-phones-tablets.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

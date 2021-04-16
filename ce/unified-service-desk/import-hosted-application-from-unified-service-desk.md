@@ -1,8 +1,8 @@
 ---
 title: "Import hosted application from Unified Service Desk  | MicrosoftDocs"
 description: "Learn about importing the hosted application from Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -43,3 +43,6 @@ A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../
  [Configure the HAT application](../unified-service-desk/configure-hosted-application.md)   
  [Configuring an action for the HAT application](../unified-service-desk/configure-action-hosted-application.md)   
  [Deploy your hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md#deploy)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Find and apply updates to core and shared solutions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out when an update for one or more Dynamics 365 Marketing solutions is available and apply the update."
-ms.date: 09/19/2020
+ms.date: 04/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -33,11 +33,11 @@ When you install Dynamics 365 Marketing, all its solutions are installed by the 
 
 - **Core Marketing solutions**: These are the solutions that provide core features that are unique to Marketing (including the Dynamics 365 Connector for LinkedIn Lead Gen Forms). Though there are several of these, you'll be able to maintain and update them all at once using a setup wizard like the one you used to install Marketing for the first time.
 - **Dynamics 365 Customer Voice**: This solution enables model-driven apps in Dynamics 365 to host surveys and collect responses. It's also available as an add-on or bundle for other apps. You must update this solution separately from the other solutions included with Marketing, using its own update program.
-- **Dynamics 365 Portals**: This solution enables model-driven apps in Dynamics 365 to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Customer Voice, you must update this solution using its own update program.
+- **Power Apps portals**: This solution enables model-driven apps in Dynamics 365 to host interactive portals that display and collect Dynamics 365 data, including the events portal and marketing pages. Like Customer Voice, you must update this solution using its own update program.
 
 ## Find out when new updates are available
 
-Microsoft releases updates to Dynamics 365 Marketing every month or so, with a major refresh every six months. We announce monthly updates (and other news) in the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) page, where we also summarize all the new features and bug fixes included with each release. Future directions and major releases are described on the [Dynamics 365 and Power Platform Release Plans](https://docs.microsoft.com/business-applications-release-notes/index) website.
+Microsoft releases updates to Dynamics 365 Marketing every month or so, with a major refresh every six months. We announce monthly updates (and other news) in the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) page, where we also summarize all the new features and bug fixes included with each release. Future directions and major releases are described on the [Dynamics 365 and Power Platform Release Plans](/business-applications-release-notes/index) website.
 
 You can also find out when an update is available by checking the status of your apps and solutions in the Marketing settings, as described in the following sections.
 
@@ -49,13 +49,11 @@ Dynamics 365 Marketing includes several solutions and services, each of which ha
 
     ![Select Settings in the area picker](media/apply-updates-settings2.png "Select Settings in the area picker")
 
-1. Select **Advanced settings** in left pane, then select **Go to quick setup** in the upper right.
+1. The **Settings overview** page will open. Go to **Overview** > **Versions**.
 
-    ![Open the Instances tab](media/apply-updates-quick-setup2.png "Open the Instances tab")
+    ![Open the Instances tab](media/apply-updates-versions.png "Open the Instances tab")
 
-1. In the quick setup form, verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
-
-    ![Apply updates](media/apply-updates-version2.png "Apply updates")
+1. The versions page will open. Verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
 
 ## Find and apply updates for core Marketing solutions
 
@@ -80,7 +78,8 @@ To find and apply available updates to all core Marketing solutions, including t
 
 1. The Marketing setup wizard opens. It shows the name of the Dynamics 365 Marketing instance you are about to update. Make sure you have chosen the right one. Look at the top of the page to see if any updates are available. If no message is shown, no updates are available for the current organization and you can quit the wizard.
 
-    ![Setup wizard running on an existing Marketing instance](media/fre-re-run2.png "Setup wizard running on an existing Marketing instance")
+    > [!div class="mx-imgBorder"]
+    > ![Setup wizard running on an existing Marketing instance](media/fre-re-run3.png)
 
 1. If an **Install** button is shown next to the **Update available** message, select it to start the update. The update starts right away, and a page opens to track the progress of the update and will tell you when it's finished.
 
@@ -91,7 +90,7 @@ To find and apply available updates to all core Marketing solutions, including t
 > [!WARNING]
 > Always check for and apply core Marketing solution updates using the setup wizard (as described in the [previous section](#find-and-apply-updates-for-core-marketing-solutions) *before* you look for shared solution updates. You will also see core Marketing solutions listed when you follow the instructions provided in this section, but you risk breaking your installation if you try to update core Marketing solutions from here, even if they show an update is available.
 
-To update shared (non-core Marketing) solutions, including Customer Voice and Dynamics 365 Portals:
+To update shared (non-core Marketing) solutions, including Customer Voice and Power Apps portals:
 
 1. Go to [admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com), then go to **Environments** on the left navigation pane.
 
@@ -105,7 +104,7 @@ To update shared (non-core Marketing) solutions, including Customer Voice and Dy
 
     ![Select Dynamics 365 apps in your environment](media/apply-updates-dynamics-365-apps.png "Select Dynamics 365 apps in your environment")
 
-1. A list of solutions installed on your selected environment is shown. Look in the **Status** column for any solutions that show a value of "Update available." The solutions that are relevant for Marketing are "Dynamics 365 Portals – Base Portal" and "Dynamics 365 Customer Voice."  
+1. A list of solutions installed on your selected environment is shown. Look in the **Status** column for any solutions that show a value of "Update available." The solutions that are relevant for Marketing are "Power Apps portals – Base Portal" and "Dynamics 365 Customer Voice."  
 
    > [!WARNING]
    > As mentioned at the start of this procedure, you must not update core Marketing solutions from here. Always run the Marketing update wizard first, before you start looking for shared-solution updates. Be sure not to update any of the core Marketing solutions while you are updating the shared solutions, even if they show an update is available.
@@ -127,3 +126,5 @@ If your event website is [self-hosted](./developer/self-hosted.md), you must [in
 [Open the Power Platform admin center](power-platform-admin-center.md)  
 [Manage Marketing environments](manage-marketing-environments.md)  
 [Uninstall Marketing](uninstall-marketing.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

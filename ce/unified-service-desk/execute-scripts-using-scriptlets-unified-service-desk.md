@@ -1,8 +1,8 @@
 ---
 title: "Execute scripts using scriptlets in Unified Service Desk | MicrosoftDocs"
 description: "Scriptlets are snippets of JavaScript that are executed when using a special syntax for your replacement parameter."
-author: v-sailab
-ms.author: v-sailab
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
@@ -78,3 +78,6 @@ My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);
 ### See also  
  [Replacement parameters](../unified-service-desk/replacement-parameters.md)   
  [Global and session-based Unified Service Desk hosted controls](../unified-service-desk/unified-service-desk-hosted-controls.md#Global)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

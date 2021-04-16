@@ -30,12 +30,12 @@ Once your new payment gateway is in place on your event website, you can configu
 
 The procedure for building and enabling a payment gateway depends on [how you host your event website](set-up-event-portal.md):
 
-- If you are hosting the event website on a Dynamics 365 Portal, then see  [Create a payment gateway when hosting on the Dynamics 365 Portal](#portal) for instructions.
+- If you are hosting the event website on a Power Apps portal, then see  [Create a payment gateway when hosting on the Power Apps portal](#portal) for instructions.
 - If you are hosting the event website on an external server, then see [Create a payment gateway when hosting on an external site](#external) for instructions.
 
 <a name="portal"></a>
 
-## Create a payment gateway when hosting on the Dynamics 365 Portal
+## Create a payment gateway when hosting on the Power Apps portal
 
 ### Add a new payment gateway to your event website
 
@@ -118,7 +118,7 @@ For details about how to develop the system for receiving payment and finalizing
 
 If you are hosting the event website on your own web server, then you must download and customize the event website to include the payment option as needed. Your payment provider will give you the instructions you need to interact with their system.
 
-For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a Dynamics 365 Portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
+For more information about how to download the latest version of the event website, customize it, build it, and then deploy it on a Power Apps portal or external website, see [Build and host a custom event website](developer/event-management-web-application.md).
 
 For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
 
@@ -138,7 +138,7 @@ After a contact submits their registration and payment details, the following ev
 
 You'll probably need assistance from a developer to create the custom back-end service. You (or your developer) can use any implementation technology you like to create it.
 
-Your back-end service must authenticate against your Dynamics 365 Marketing instance to enable the service to execute the custom actions needed to finalize the workflow. More information: [Authenticate to Microsoft Dataverse with the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/authenticate-web-api)
+Your back-end service must authenticate against your Dynamics 365 Marketing instance to enable the service to execute the custom actions needed to finalize the workflow. More information: [Authenticate to Microsoft Dataverse with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api)
 
 Depending on your payment provider, your back-end service may also be able to apply additional checks to the transaction. This isn't strictly required to finalize the registration, but it is good practice. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action `msevtmgt_GetPurchaseDetailsAction`. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, and currency symbol.
 
@@ -150,8 +150,11 @@ After your back-end solution has verified payment, it must invoke the `msevtmgt_
 - `ReadableEventId`: A value that uniquely identifies the event. One way that you can see this is by opening the relevant event record, going to the **General** tab and finding the **Readable event ID** field.
 - `UserId`: Identifies the contact who made the purchase. This is the ID for the contact record in Dynamics 365.
 
-For more information about how to execute custom actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+For more information about how to execute custom actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ### See also
 
 [Set up the event website](set-up-event-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
