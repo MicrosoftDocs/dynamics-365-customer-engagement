@@ -46,3 +46,21 @@ To access your contacts, from the Outlook navigation pane, select More ![Outlook
 
    > [!div class="mx-imgBorder"] 
    > ![Select add-in](../media/access-add-in.png)  
+
+
+### View contact card
+
+In the contacts list, select **Dynamics 365 Contacts** and then select the checkbox next to a contact's name. The contact details appear on the right side of the screen.
+
+   > [!div class="mx-imgBorder"] 
+   > ![View contact details](../media/view-contact-details.png)  
+
+
+## Track Outlook contacts 
+
+Depending on the [server-side synchronization filters](power-platform/admin/choose-records-synchronize-dynamics-365-outlook-exchange.md), the active contacts that the user owns in Dynamics 365 should be synchronized to Outlook after the mailbox is configured.
+
+
+
+
+
