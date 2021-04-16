@@ -4,7 +4,7 @@ description: lcw onMessageReceived  (Omnichannel for Customer Service JavaScript
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 04/16/2021
 ms.topic: article
 ms.reviewer: nenellim
 ms.service: dynamics-365-customerservice
