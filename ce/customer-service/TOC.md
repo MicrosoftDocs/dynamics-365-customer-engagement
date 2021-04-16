@@ -100,7 +100,7 @@
 #### [Work with queues](work-with-queues.md)
 
 ### Developer experience
-#### [Customize skills on any form](customize-skills.md)
+#### [Customize forms to view skills on any routed record](customize-forms-for-skills.md)
 #### [How unified routing impacts queue items and the corresponding APIs](unified-routing-impact-on-APIs.md)
 #### [How to close live work items or deactivate queue items](deactivate-qi-sample-code.md) 
 
