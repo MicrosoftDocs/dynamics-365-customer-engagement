@@ -28,7 +28,7 @@ window.addEventListener("lcw:threadUpdate", function handleLivechatThreadUpdateE
 
 ### See also
 
-[lcw:error](lcw-error.md)<br />
+[`lcw:error`](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md) 
 
 
