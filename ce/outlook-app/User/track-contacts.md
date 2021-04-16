@@ -92,9 +92,16 @@ You can track a single or multiple contacts from Outlook in your Dynamics 365 ap
    
 3. To avoid issues, until the tracking is complete before you navigate away from the page. 
 
-## Untrack contacts
+## Untrack a contact
 
-Users can untrack contacts. In that case, they will be prompted to choose between
+You can also untrack a contact and choose to delete the contact's information from your Dynamics 365 app or keep the record by stop tracking it.
 
-- **Untrack & Delete**: Deletes the of the contact record in Dynamics 365, if the user has sufficient privileges.
-- Untrack & Keep – This will result in the contact record remaining Dynamics 365.
+1. From **Outlook Contacts**, select a contact(s) that you want to stop tracking
+2. On the command bar, select **Untrack**.
+3. Then select one of the following:
+    - **Untrack & Delete**: Delete the contact record from your app.
+    - **Untrack & Keep**: Kepp the contact record in your app but stop tracking it.
+
+
+   > [!div class="mx-imgBorder"] 
+   > ![Untrack a contact](../media/untrack-contact.png) 
