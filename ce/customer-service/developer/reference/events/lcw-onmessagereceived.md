@@ -9,13 +9,15 @@ ms.topic: article
 ms.reviewer: nenellim
 ms.service: dynamics-365-customerservice
 ---
-# lcw:onMessageReceived  (Omnichannel for Customer Service JavaScript API reference)
+# lcw:onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when a new message is received by the chat widget. You can use this event to create custom experiences when a new message comes in for the user. For example, playing a sound notification or updating the page title to catch the user’s eye. 
+The `lcw:onMessageReceived` event is triggered when the chat widget gets a new message. You can use this event to create custom experiences for the user. For example, play a sound notification or update the page title to catch the user eye for the new message.
 
-The message can either be sent by a user (for example, an agent in Dynamics) or the system (for example, an automated message), so the possible values for messageType are "user" and "system". This event will contain data in the payload to explain the source of the message. 
+Users such as an agent in Dynamics 365 can send the message or the system can send an automated message. So, the possible values for `messageType` are "user" and "system".
+
+This event will contain data in the payload to explain the source of the message.
 
 ## Sample payload
 
@@ -154,10 +156,10 @@ window.addEventListener("lcw:onMessageReceived", function handleWidgetMessageRec
 
 ### See also
 
-[lcw:onMessageSent](lcw-onmessagesent.md)<br />
-[lcw:ready](lcw-ready.md)<br />
-[lcw:error](lcw-error.md)<br />
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+[`lcw:onMessageSent`](lcw-onmessagesent.md)<br />
+[`lcw:ready`](lcw-ready.md)<br />
+[`lcw:error`](lcw-error.md)<br />
+[`Live chat SDK JavaScript API reference`](../../omnichannel-reference.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
