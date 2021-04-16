@@ -37,7 +37,7 @@ Legend
 2. **Dynamics 365 Contacts**: View all your Dynamics 365 app contacts.
 3. **Tracked**: See whether a contact is tracked or not, or whether the tracking status is pending.
 4. **Company**: If the contact is tracked, select to open the row in your app.
-
+5. **Search**: Switch to the **Dynamics 365 Contacts** tab on the top of screen to view the list of all of your active contacts in the Dynamics 365 app. You can search for data stored in the full name, title, department, and business address field. You can’t search for data stored in any of the other fields such as business phone, account, or email. You also can't search for data within the tracking status, business phone, or email field.
 
 ## Access contacts
 
