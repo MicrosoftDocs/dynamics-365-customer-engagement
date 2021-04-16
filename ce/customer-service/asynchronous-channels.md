@@ -1,5 +1,5 @@
 ---
-title: "Asynchronous channel support"
+title: "Live chat and asynchronous channel support"
 description: "Adaptive card, emojis, and other support in asynchronous channels in Omnichannel for Customer Service."
 author: platkat
 ms.author: ktaylor
@@ -36,7 +36,7 @@ The following cards are supported across different channels when you're using bo
 > - Date input element, animations element are not supported in the adaptive card.
 > - Card carousel is not supported in Direct Line on Android devices.
 
-✔: Supported: Card is supported fully with the exception that some channels support a subset of Card Actions. They might limit the number of actions allowed on each card. Varies by channel.
+✔: Supported: Card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card. Varies by channel.
 
 ⚠: Partial support: Card might not be displayed at all if it contains inputs or buttons. Varies by channel.
 
