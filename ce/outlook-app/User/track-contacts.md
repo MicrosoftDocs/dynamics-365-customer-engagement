@@ -66,7 +66,7 @@ Depending on the server-side synchronization filters, the active contacts which 
 
 Follow the steps below to link and track your Outlook contacts to a row in your app.
 
-1. From **Outlook Contacts**, select a contact(s) that is not already tracked.
+1. From the **Outlook Contacts** tab, select a contact(s) that is not already tracked.
 2. On the command bar, select **Link**.
  
    > [!div class="mx-imgBorder"] 
@@ -83,7 +83,7 @@ Follow the steps below to link and track your Outlook contacts to a row in your 
 
 You can track a single or multiple contacts from Outlook in your Dynamics 365 app without linking it to an account row.
 
-1. From **Outlook Contacts**, select a contact(s) that is not already tracked.
+1. From the **Outlook Contacts** tab, select a contact(s) that is not already tracked.
 2. On the command bar, select **Track**.
 
    > [!div class="mx-imgBorder"] 
@@ -95,7 +95,7 @@ You can track a single or multiple contacts from Outlook in your Dynamics 365 ap
 
 You can also untrack a contact and choose to delete the contact's information from your Dynamics 365 app or keep the record by stop tracking it.
 
-1. From **Outlook Contacts**, select a contact(s) that you want to stop tracking
+1. From the **Outlook Contacts** tab, select a contact(s) that you want to stop tracking
 2. On the command bar, select **Untrack**.
 3. Then select one of the following:
     - **Untrack & Delete**: Delete the contact record from your app.
@@ -105,10 +105,11 @@ You can also untrack a contact and choose to delete the contact's information fr
    > ![Untrack a contact](../media/untrack-contact.png) 
 
 
-## Filter contacts
+## Change views
 
 From the **Dynamics 365 Contacts** tab, you can access the same contact views that you you see in your Dynamics 365 app. However, if one of these views includes a column from a related table, then that view won't be displayed.
 
-- From the **Dynamics 365 Contacts** tab, the view drop-down menu and then select a view.
+- From the **Dynamics 365 Contacts** tab, select down arrow and then select a view.
+
    > [!div class="mx-imgBorder"] 
    > ![Change view](../media/change-contact-view.png) 
