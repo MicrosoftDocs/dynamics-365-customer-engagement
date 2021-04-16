@@ -28,14 +28,14 @@ Consider the following scenario:
 
 A field service organization would like to offer an [SLA](https://hosting.review/web-hosting-glossary/#8) to their customers where field technicians must arrive at the customer's location within 3 hours from the time a work order is created. The organization would also like a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
 
-For more information on SLAs in a broader Dynamics 365 capacity, visit our [article on the defining SLAs](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/define-service-level-agreements). 
+For more information on SLAs in a broader Dynamics 365 capacity, visit our [article on the defining SLAs](/dynamics365/customer-engagement/customer-service/define-service-level-agreements). 
 
 In this article, we'll walk through how to associate SLAs to Field Service work orders.
 
 ## Prerequisites
 
 - Field Service v8.3+
-- Knowledge of [Dynamics 365 Service Level Agreements](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/define-service-level-agreements)
+- Knowledge of [Dynamics 365 Service Level Agreements](/dynamics365/customer-engagement/customer-service/define-service-level-agreements)
 
 ## Step 1: Enable SLA functionality for Field Service
 

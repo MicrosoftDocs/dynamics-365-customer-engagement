@@ -86,7 +86,7 @@ Make sure your IoT devices are related to the device category. You can add all I
 
 ## View summary tiles on the mobile app
 
-Summary tiles and device readings are viewable on the mobile app when connected to the internet. For more information, see the article on [Connected Field Service on Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/cfs-mobile-powerapp#view-summary-tiles-and-device-readings). 
+Summary tiles and device readings are viewable on the mobile app when connected to the internet. For more information, see the article on [Connected Field Service on Field Service (Dynamics 365) mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings). 
 
 ## Configuration considerations
 
