@@ -129,7 +129,7 @@ Select the global search icon to search for records across accounts, contacts, w
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
-For more information, see the article on [configuring global search](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-configure#customize-global-search-and-enable-scan-to-search).
+For more information, see the article on [configuring global search](./mobile-power-app-configure.md#customize-global-search-and-enable-scan-to-search).
 
 ## Work offline and update offline data
 
