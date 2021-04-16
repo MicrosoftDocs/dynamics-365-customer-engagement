@@ -42,7 +42,7 @@ Legend
 
 ## Access contacts
 
-To access your contacts, from the navigation pane in Outlook, select More ![Outlook navigation options](../media/outlook-nav-options.png) and then select **Add-ins**.
+To access your contacts, from the Outlook navigation pane, select More ![Outlook navigation options](../media/outlook-nav-options.png) and then select **Add-ins**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select add-in](../media/access-add-in.png)  
