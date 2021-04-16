@@ -58,8 +58,8 @@ Then save and publish the article.
 
 For more information on knowledge articles, visit the following Customer Service documentation:
 
-- [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
-- [Set up a search provider](https://docs.microsoft.com/dynamics365/customer-service/set-up-search-providers)
+- [Create and manage knowledge articles](../customer-service/customer-service-hub-user-guide-knowledge-article.md)
+- [Set up a search provider](../customer-service/set-up-search-providers.md)
 
 ## Associate knowledge article to customer assets, incident types, products
 

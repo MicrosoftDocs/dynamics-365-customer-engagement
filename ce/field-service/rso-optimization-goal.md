@@ -48,7 +48,7 @@ This creates the booking if it can be completed within the resource’s working 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource](media/c56516997db07c1f0ef64bdcc507350f.png)
 
-[What happens if I remove the **Schedule within working hours** constraint?](https://docs.microsoft.com/dynamics365/field-service/rso-faq#what-happens-if-i-remove-the-schedule-within-working-hours-constraint)
+[What happens if I remove the **Schedule within working hours** constraint?](./rso-faq.md#what-happens-if-i-remove-the-schedule-within-working-hours-constraint)
 
 ### Meets Required Characteristics
 

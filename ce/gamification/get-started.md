@@ -21,6 +21,8 @@ search.app:
 
 # Concepts to learn before you get started using Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Here are some basic guidelines for game models, key performance indicators (KPIs), awards, prizes, teams, player positions, and more. Familiarize yourself with these concepts to create games that work best for your business.  
   
 ## Game models and sports themes  

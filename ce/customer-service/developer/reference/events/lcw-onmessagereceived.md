@@ -1,10 +1,10 @@
 ---
 title: "lcw onMessageReceived | MicrosoftDocs"
-description: lcw onMessageReceived  (Omnichannel for Customer Service JavaScript API reference)
+description: lcw onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 04/16/2021
 ms.topic: article
 ms.reviewer: nenellim
 ms.service: dynamics-365-customerservice
@@ -21,7 +21,7 @@ This event will contain data in the payload to explain the source of the message
 
 ## Sample payload
 
-**Agent assignment**
+**Agent assigned**
 
 ```JSON
 { 

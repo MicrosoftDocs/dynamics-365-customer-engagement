@@ -22,6 +22,8 @@ search.app:
 
 # Gamification terminology
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 For a quick reference, review these terms used in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].
 
 ## Security roles

@@ -4,7 +4,7 @@ description: "This topic provides information about how to download Unified Serv
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/04/2020
+ms.date: 04/05/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -25,6 +25,16 @@ This topic provides information about the location from where you can download U
 This topic provides information about the location from where you can download various versions of Unified Service Desk solutions and the client application. For information about:
 - System requirements to install a version of Unified Service Desk, see [Unified Service Desk System Requirements](admin/unified-service-desk-system-requirements.md)
 - Deploying Unified Service Desk solution or installing the client application, see [Install, deploy, and upgrade Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)
+
+::: moniker range="dynamics-usd-4.2"
+
+|  Version  |  Download Location |
+|------------------|---------------|
+| [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2159819) |
+
+
+::: moniker-end 
+
 
 ::: moniker range="dynamics-usd-4.1"
 

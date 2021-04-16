@@ -49,7 +49,7 @@ You can easily open your app and see the meeting or appointment that you've link
    > [!div class="mx-imgBorder"] 
    > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
 
-## Change the row an email or appointment is liked to
+## Change the row an email or appointment is linked to
 
 You can change the row an email or appointment is linked to using the **Change Regarding** feature.
 
