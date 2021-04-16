@@ -63,10 +63,9 @@
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 #### [Create and manage queues for conversations](queues-omnichannel.md)
-#### Set up skill-based routing for conversations
 #### [Create workstreams](create-workstreams.md)
 #### [Create work streams for records in Omnichannel Administration](set-up-entity-workstream.md)
-#### [Create multiple workstreams for entity records](multiple-ws-entity-record-routing.md)
+#### [Create multiple workstreams for records](multiple-ws-entity-record-routing.md)
 #### [Set up routing and assignment rules in Omnichannel Administration](routing-rules.md)
 #### [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
