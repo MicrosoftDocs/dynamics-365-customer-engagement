@@ -16,11 +16,13 @@ ms.reviewer: nenellim
 
 ## Card support
 
-| Channel              | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card |
-|----------------------|---------------|-----------|--------------|----------------|-------------|------------|
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ❌          | 
-| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
-| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
+The following cards are supported across different channels.
+
+| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | |
+|----------|---------------|-----------|--------------|----------------|-------------|------------|
+| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  
+| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  
+| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |   
 | Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | 
 | Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | 
 
@@ -28,7 +30,8 @@ ms.reviewer: nenellim
 >
 > - The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
 > - The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.
-> - Video card support can be achieved by adding the video URL in the adaptive card. 
+> - Video card support can be achieved by adding the video URL in the adaptive card.
+> - Date input element, animations element are not supported in the adaptive card 
 
 ✔: Supported: Card is supported fully with the exception that some channels support a subset of Card Actions. They might limit the number of actions allowed on each card. Varies by channel.
 
@@ -47,13 +50,30 @@ For more information, see the following:
   - [Sending and Receiving Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
 
+
+### Adaptive cards support
+
+| Description | Teams | Facebook | Telegram | Line | Direct Line | Twitter | SMS | WhatsApp |
+| -------- | ------ | ---------- | -------- | ------- | ------- | ----------- | ----------- | ----------- | 
+| Date input element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ |
+| Animations element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
+| CardCarousel elements are not supported for bot framework |  ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
+| Audio card and Media card elements are not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
+| Suggested actions are not supported for some channels | ✖ | ✔ | ✔ | ✖ | ✖ |✖ | ✖ | ✔ |
+| CardCarousel elements are not supported for bot framework cards | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
+| Some markdown elements are not supported | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
+| Receipt card element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ |
+| Sign in card element is not supported for some channels | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | 
+| Some markdown elements are supported  | ✔ | ✔ | ✔ | ✔ |✔ | ✔ | ✔ | ✔ |
+
+
 ## Suggested actions support
 
 Suggested actions are supported fully with the exception that some channels might limit the number of actions allowed. The number of actions supported varies by channel.
 
 | Channel            | Suggested actions support       |
 |--------------------|---------------------------------|
-| Microsoft Teams    | No                              |
+| Microsoft Teams    | Yes                             |
 | Facebook           | Yes                             |
 | LINE               | Yes                             |
 | Twitter            | No                              |
