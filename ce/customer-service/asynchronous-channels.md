@@ -18,7 +18,7 @@ ms.reviewer: nenellim
 
 The following cards are supported across different channels.
 
-| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | 
+| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | |
 |----------|---------------|-----------|--------------|----------------|-------------|------------|
 | Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          |  
 | Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  
@@ -30,7 +30,8 @@ The following cards are supported across different channels.
 >
 > - The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
 > - The Direct Line channel supports all the above mentioned cards, but it's up to the client to implement them.
-> - Video card support can be achieved by adding the video URL in the adaptive card. 
+> - Video card support can be achieved by adding the video URL in the adaptive card.
+> - Date input element, animations element are not supported in the adaptive card 
 
 ✔: Supported: Card is supported fully with the exception that some channels support a subset of Card Actions. They might limit the number of actions allowed on each card. Varies by channel.
 
