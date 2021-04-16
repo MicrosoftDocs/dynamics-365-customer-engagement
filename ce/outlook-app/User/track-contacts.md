@@ -80,7 +80,7 @@ Follow the steps below to link and track your Outlook contacts to a row in your 
 
 4.  To avoid issues, until the linking is complete before you navigate away from the page. 
 
-## Track Outlook contacts without linking them to an account
+## Track Outlook contacts without linking to an account
 
 You can track a single or multiple contacts from Outlook in your Dynamics 365 app without linking it to an account row.
 
