@@ -1,6 +1,6 @@
 ---
 title: "lcw onMessageReceived | MicrosoftDocs"
-description: lcw onMessageReceived  (Omnichannel for Customer Service JavaScript API reference)
+description: lcw onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.topic: article
 ms.reviewer: nenellim
 ms.service: dynamics-365-customerservice
 ---
-# lcw:onMessageReceived  (Omnichannel for Customer Service JavaScript API reference)
+# lcw:onMessageReceived (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -19,7 +19,7 @@ The message can either be sent by a user (for example, an agent in Dynamics) or 
 
 ## Sample payload
 
-**Agent assignment**
+**Agent assigned**
 
 ```JSON
 { 
