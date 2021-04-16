@@ -102,6 +102,5 @@ You can also untrack a contact and choose to delete the contact's information fr
     - **Untrack & Delete**: Delete the contact record from your app.
     - **Untrack & Keep**: Kepp the contact record in your app but stop tracking it.
 
-
    > [!div class="mx-imgBorder"] 
    > ![Untrack a contact](../media/untrack-contact.png) 
