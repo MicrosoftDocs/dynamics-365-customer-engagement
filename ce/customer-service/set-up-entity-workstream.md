@@ -9,13 +9,13 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Create work stream for entity record routing in Omnichannel Administration
+# Create workstreams for record routing in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Create entity record work stream
+## Create record workstream
 
-To route entity records, as a first step, you need to enable entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md).
+To route records, as a first step, you need to enable entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md).
 
 This topic describes how to create a work stream for an entity that has been enabled for routing.
 
@@ -27,7 +27,7 @@ This topic describes how to create a work stream for an entity that has been ena
 
 4. Specify the following in the **New Work Stream** page.
 
-    | Tab | Field | Value | Description | 
+    | Tab | Field | Value | Description |
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
     | Work Distribution | Name | Case Work stream | Provide a name to the work stream. <br> **Note:** The value provided is an example.  |
     | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
@@ -42,7 +42,7 @@ This topic describes how to create a work stream for an entity that has been ena
 5. Select **Save** to save the work stream.
 
 > [!Note]
-> When you enable an entity for routing, the Omnichannel Administration app creates a default work stream for each entity. If you create a new work stream or update the default work stream according to your business scenario, you need to update the work stream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+> When you enable an entity for routing, the Omnichannel Administration app creates a default work stream for the entity. If you create a new work stream or update the default work stream according to your business scenario, you need to update the work stream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
 ## Upgrade path for preview users
 
