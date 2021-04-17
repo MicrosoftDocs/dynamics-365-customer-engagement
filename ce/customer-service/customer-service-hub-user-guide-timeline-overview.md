@@ -4,7 +4,7 @@ description: "Timeline Overview for Users"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/16/2021
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -337,15 +337,21 @@ When enabled by your system administrator, you can either add a post to a record
 
 ### Add a mention or reference a team member in a post
 
-![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-1.png "Add a mention or reference to a team member in a post on timeline")
+![Add a mention or reference to a team member in a post on timeline](media\timeline_at_1_legend.png "Add a mention or reference to a team member in a post on timeline")
 
 Legend
 1. Typing the @ sign in the **Post** field will display a flyout menu with a list of users that have been recently used.
 2. If the user record is not displayed, typing the name after the @ sign refreshes the records in the flyout menu using the **Dynamics 365 Quick Find** search engine that's operating in the background.
 3. Switch views using **Advanced** to display the **Lookup Records** pane. In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to search records.
 
+When you mouse over the profile image, you can view the user's detailed profile card.
+
+![View user profile card](media\timeline_at_2_profile_card.png "View user profile card")
+
+<!--
 > [!NOTE]
 > You can mention only a system user in a post.
+-->
 
 ### Add references in a post in timeline records
 
