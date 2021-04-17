@@ -453,7 +453,7 @@ As an administrator, you can configure additional entities to appear when a user
 - "opportunity"
 - "knowledgearticle"
 
-To configure additional entities, add and modify the following code to the configuration file you are using for rich text editor:
+To configure additional entities, add and modify the following code to the configuration file you are using for rich text notes and posts:
 
 ```
      "defaultSupportedProps": {
