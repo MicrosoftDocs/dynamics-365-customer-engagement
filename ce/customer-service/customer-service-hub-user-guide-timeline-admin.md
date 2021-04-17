@@ -434,12 +434,42 @@ Only enable the activities that you need on this form. If you select more than 1
 |![Posts on timeline](media\timeline-posts-1a.png "Posts on timeline") ||![Posts on timeline - Runtime](media\timeline-posts-1b.png "Posts on timeline - Runtime")|
 |The **Posts** the section expands when enabled and  allows you to **Sort notes by** date created or date modified on. Date **Created On** is the default setting. || 1. When enabled, posts can be accessed via **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A drop-down menu displays, and you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.<BR><BR> When date **Created On** is used to sort posts on the timeline, the location in the timeline remains constant even when there are responses to that post. <BR><BR> When date **Modified On** is used to sort posts on the timeline, the location in the timeline adjusts to the top when there are responses to that post. <BR>BR> **NOTE**: The timeline doesn't automatically refresh when post replies are added.|
 
-## Mentions in notes and posts on timeline
+## Configure mentions in notes and posts on timeline
 
-Rich text post provides same formatting and inline image capabilities as available with rich text notes
-Configuration for the rich text experience is available in the maker experience (make.powerapps.com)
+When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
 
-To enable the rich text posts including mentions, contact Microsoft
+By default, the **@** symbol returns matches with the first name, last name or email address of system users starting with the search string.
+
+By default, the **#** symbol returns matches with the account and contact name entity records starting with the search string.
+
+As an administrator, you can configure additional entities to appear when a user types these symbols. Note that adding more entities to the default configured entities may result in slower load times, so add only the entities required by your organization. You can add the following additional entities:
+
+- "systemuser"
+- "contact"
+- "competitor"
+- "lead"
+- "account"
+- "incident"
+- "opportunity"
+- "knowledgearticle"
+
+To configure additional entities, add and modify the following code to the configuration file you are using for rich text editor:
+
+```
+     "defaultSupportedProps": {
+        "pcfmentions" : {
+            "markerMap" : {
+                "@" : ["systemuser"],
+                "#" : ["account", "contact"]
+            },
+            "calloutWidthInpx" : "300px",
+            "debounceInms" : 250
+        }
+      }
+
+```
+
+To enable the rich text posts including mentions, contact Microsoft.
 
 ## Save and publish timeline updates and changes
 
@@ -484,7 +514,7 @@ When a system event corresponding to an active rule occurs, an auto-post message
 
 If you are using a CRM app other than CSH or CSw, you need to add your own sitemap. To add your own site map in your app:
 
-1. Open your app in the App Designer.
+1. Open your app in the App Designer in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
 2. Click the pencil icon to open the Sitemap Designer.
 3. Click the + symbol and select **Subarea** from the drop-down list.
 4. In the **Entity** drop-down list, select **Post Rule Configuration entity**, and enter a **Title**.
