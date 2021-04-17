@@ -428,25 +428,25 @@ Only enable the activities that you need on this form. If you select more than 1
 
 ![Configure the form for notes](media\timeline-configure-form-notes.png "Configure the form for notes")
 
-You can configure how information is displayed in notes, such as relevant users and dates, and whether or not to include labels.
+You can configure how information is displayed in notes, such as relevant users and dates, and whether or not to include labels. This enables you to increase or reduce the number of timeline records that appear onscreen.
 
 Go to your timeline configuration in [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"), scroll down to the **Notes** section containing the **Configure form** field, and edit the following fields in the default form:
 
 - Header
-  - Label option: Show or hide the label, "Created by" or "Modified by".
-  - Label: Select the **Use default label** checkbox label to use the label.
-  - Data field: Select to show either the user who created the note or the user who modified the note.
-  - Display option: Show or hide the user who created or modified the note.
+  - Label option: Hide, show, or show on hover the label, "Created by" or "Modified by".
+  - Label: Select the **Use default label** checkbox label to display the label "Note modified by". Deselect the checkbox to display the label "Modified by".
+  - Data field: Select to show either the user who created the note or the user who modified the note. The label changes to match the data field you selected.
+  - Display option: Always show, show on expand, or hide this header containing the user who created or modified the note.
 - Body1
   - Label option: Show or hide the label of the note.
-  - Display option: Show or hide the body text.
+  - Display option: Always show, show on expand, or hide the body text.
 - Body2
   - Label option: Show or hide the label of the note.
-  - Display option: Show or hide the body text.
+  - Display option: Always show, show on expand, or hide the body text.
 - Footer
   - Label option: Show or hide the label, "Created on", "Modified on", or "Overridden on".
-  - Data field: Select to show the time stamp with the createdon, modifiedon, or overridenon data.
-  - Display option: Show or hide the createdon, modifiedon, or overridenon data.
+  - Data field: Select to show the createdon, modifiedon, or overridenon date.
+  - Display option: Always show, show on expand, this footer containing the createdon, modifiedon, or overridenon date.
 
 ## Posts on timeline
 
@@ -462,22 +462,22 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ![Configure the form for posts](media\timeline-configure-form-posts.png "Configure the form for posts")
 
-You can configure how information is displayed in posts, such as relevant users and dates, and whether or not to include labels.
+You can configure how information is displayed in posts, such as relevant users and dates, and whether or not to include labels. This enables you to increase or reduce the number of timeline records that appear onscreen.
 
 Go to your timeline configuration in [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"), scroll down to the **Posts** section containing the **Configure form** field, and edit the following fields in the default form:
 
 - Header
-  - Label option: Show or hide the label, "Created by" or "Modified by".
-  - Label: Select the **Use default label** checkbox label to use the label.
-  - Data field: Select to show the user who created the post.
-  - Display option: Show or hide the user who created the post.
+  - Label option: Hide, show, or show on hover the label, "Created by" or "Modified by".
+  - Label: Select the **Use default label** checkbox label to display the label.
+  - Data field: Select to show the user who created the post. The label changes to match the data field you selected.
+  - Display option: Always show, show on expand, or hide this header containing the user who created the post.
 - Body2
   - Label option: Show or hide the label of the post.
-  - Display option: Show or hide the body text.
+  - Display option: Always show, show on expand, or hide the body text.
 - Footer
   - Label option: Show or hide the label, "Created on", "Modified on", or "Overridden on".
-  - Data field: Select to show the time stamp with the createdon or modifiedon data.
-  - Display option: Show or hide the createdon or modifiedon data.
+  - Data field: Select to show the createdon or modifiedon date.
+  - Display option: Always show, show on expand, this footer containing the createdon or modifiedon date.
 
 ## Configure mentions in notes and posts on timeline
 
