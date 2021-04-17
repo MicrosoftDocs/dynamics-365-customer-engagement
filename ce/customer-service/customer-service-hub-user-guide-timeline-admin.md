@@ -4,7 +4,7 @@ description: "Timeline configuration overview for administrators"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/26/2021
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -422,7 +422,7 @@ Only enable the activities that you need on this form. If you select more than 1
 |Configuration View | |Display View|
 |-------------------|-|------------|
 |![Notes on timeline](media\timeline-notes-1a.png "Notes on timeline") | | ![Notes on timeline - Runtime](media\timeline-notes-3.png "Notes on timeline - Runtime")|
-|The **Notes** the section expands when enabled and allows you to:<BR>1. **Sort notes by** date created or date modified. The **Modified On** date is the default setting. <BR>2. Add a relative web resource path in the **Rich text editor configuration URL** field for customized note capability. More information: [Enable or disable rich text editor](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline) ||1. When enabled, Notes can be access via the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using rich text editing.|
+|The **Notes** the section expands when enabled and allows you to:<BR>1. **Sort notes by** date created or date modified. The **Modified On** date is the default setting. <BR>2. Add a relative web resource path in the **Rich text editor configuration URL** field for customized note capability. More information: [Add the rich text editor control to a model-driven app](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control) ||1. When enabled, Notes can be access via the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using rich text editing.|
 
 ## Posts on timeline
 
@@ -433,6 +433,13 @@ Only enable the activities that you need on this form. If you select more than 1
 |-------------------|-|-------------|
 |![Posts on timeline](media\timeline-posts-1a.png "Posts on timeline") ||![Posts on timeline - Runtime](media\timeline-posts-1b.png "Posts on timeline - Runtime")|
 |The **Posts** the section expands when enabled and  allows you to **Sort notes by** date created or date modified on. Date **Created On** is the default setting. || 1. When enabled, posts can be accessed via **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A drop-down menu displays, and you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.<BR><BR> When date **Created On** is used to sort posts on the timeline, the location in the timeline remains constant even when there are responses to that post. <BR><BR> When date **Modified On** is used to sort posts on the timeline, the location in the timeline adjusts to the top when there are responses to that post. <BR>BR> **NOTE**: The timeline doesn't automatically refresh when post replies are added.|
+
+## Mentions in notes and posts on timeline
+
+Rich text post provides same formatting and inline image capabilities as available with rich text notes
+Configuration for the rich text experience is available in the maker experience (make.powerapps.com)
+
+To enable the rich text posts including mentions, contact Microsoft
 
 ## Save and publish timeline updates and changes
 
@@ -455,10 +462,35 @@ This following image shows the General tab, where you can modify the Timeline Co
 
 ![Timeline Control Properties General tab](media\timeline-control-properties-general.png "Timeline Control Properties General tab")
 
-The following iamge shows the Activities tab, where you can modify the Timeline Control properties:
+The following image shows the Activities tab, where you can modify the Timeline Control properties:
 
 ![Timeline Control Properties Activities tab](media\timeline-control-properties-activities.png "Timeline Control Properties Activities tab")
 
+## Configure auto-post messages to display on the timeline
+
+> [!NOTE]
+> The auto-post functionality is only available for CRM applications and is not available for CDS-only organizations.
+
+You can configure which auto-post messages will appear on the timeline when a system event occurs. The auto-post configuration replaces the legacy Activity Feed Configuration and Activity Feed Configuration Rules.
+
+To configure the auto-post messages that should be displayed:
+
+1. In Customer Service Hub, go to **Service Management**, and under **Timeline settings**, click **Auto-post rules**.
+2. Select which auto-post rules to make active using the grid and **Activate** and **Deactivate** buttons at the top.
+
+When a system event corresponding to an active rule occurs, an auto-post message will display on the timeline.
+
+![Auto-post rules timeline settings](media\timeline_auto-post_rules.png "Auto-post rules timeline settings")
+
+If you are using a CRM app other than CSH or CSw, you need to add your own sitemap. To add your own site map in your app:
+
+1. Open your app in the App Designer.
+2. Click the pencil icon to open the Sitemap Designer.
+3. Click the + symbol and select **Subarea** from the drop-down list.
+4. In the **Entity** drop-down list, select **Post Rule Configuration entity**, and enter a **Title**.
+5. Click **Save** and then click **Publish**.
+
+![Add a subarea in the Sitemap Designer](media\timeline_sitemap_designer_subarea.png "Add a subarea in the Sitemap Designer")
 
 ## Create and add custom activities to timeline
 
