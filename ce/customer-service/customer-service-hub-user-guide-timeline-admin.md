@@ -423,6 +423,14 @@ Only enable the activities that you need on this form. If you select more than 1
 |-------------------|-|------------|
 |![Notes on timeline](media\timeline-notes-1a.png "Notes on timeline") | | ![Notes on timeline - Runtime](media\timeline-notes-3.png "Notes on timeline - Runtime")|
 |The **Notes** the section expands when enabled and allows you to:<BR>1. **Sort notes by** date created or date modified. The **Modified On** date is the default setting. <BR>2. Add a relative web resource path in the **Rich text editor configuration URL** field for customized note capability. More information: [Add the rich text editor control to a model-driven app](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control) ||1. When enabled, Notes can be access via the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using rich text editing.|
+  
+### Configure the form for notes
+
+![Configure the form for notes](media\timeline-configure-form-notes.png "Configure the form for notes")
+
+You can configure how information is presented in notes by editing the following fields:
+
+
 
 ## Posts on timeline
 
@@ -434,9 +442,14 @@ Only enable the activities that you need on this form. If you select more than 1
 |![Posts on timeline](media\timeline-posts-1a.png "Posts on timeline") ||![Posts on timeline - Runtime](media\timeline-posts-1b.png "Posts on timeline - Runtime")|
 |The **Posts** the section expands when enabled and  allows you to **Sort notes by** date created or date modified on. Date **Created On** is the default setting. || 1. When enabled, posts can be accessed via **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A drop-down menu displays, and you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.<BR><BR> When date **Created On** is used to sort posts on the timeline, the location in the timeline remains constant even when there are responses to that post. <BR><BR> When date **Modified On** is used to sort posts on the timeline, the location in the timeline adjusts to the top when there are responses to that post. <BR>BR> **NOTE**: The timeline doesn't automatically refresh when post replies are added.|
 
+### Configure the form for posts
+
+![Configure the form for posts](media\timeline-configure-form-posts.png "Configure the form for posts")
+
+
 ## Configure mentions in notes and posts on timeline
 
-When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com")
+When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"). The users and entities displayed is pulled from the configuration file provided in the **Rich text editor configuration URL** field. More information: [Use the rich text editor control in Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control)
 
 By default, the **@** symbol returns matches with the first name, last name or email address of system users starting with the search string.
 
