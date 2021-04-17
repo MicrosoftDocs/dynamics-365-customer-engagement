@@ -344,7 +344,7 @@ Legend
 2. If the user record is not displayed, typing the name after the @ sign refreshes the records in the flyout menu using the **Dynamics 365 Quick Find** search engine that's operating in the background.
 3. Switch views using **Advanced** to display the **Lookup Records** pane. In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to search records.
 
-When you mouse over the profile image, you can view the user's detailed profile card.
+When you mouse over the profile image, you can view the user's detailed profile card and online presence status.
 
 ![View user profile card](media\timeline_at_2_profile_card.png "View user profile card")
 
