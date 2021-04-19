@@ -108,7 +108,7 @@ You can monitor goals using the business intelligence tools in Dynamics 365.
 
 You can set up a customized dashboard to list goals you track, or a report that has a complete view of a team's goal and performance toward it.
 
-## Understand goals and security roles**
+## Understand goals and security roles
 
 User roles limit what each user can see, depending on what type of access they have and what kinds of records they need to view. Dynamics 365 allows you to set security on an entity or on a specific field. This helps to keep access to information from users who should not see it.
 

@@ -20,7 +20,7 @@ searchScope:
 
 # Define goal rollup queries (Sales Hub)
 
-Use rollup queries to specify additional criteria that is applied on existing goal metrics. For example, you could create a goal metric that measures all invoices closed within a specific period. A rollup query could then show you invoices owned by one person, or for customers in one territory.
+Use rollup queries to specify additional criteria that you want to apply on existing goal metrics. For example, you could create a goal metric that measures all invoices closed within a specific period. A rollup query could then show you invoices owned by one person, or for customers in one territory.
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
