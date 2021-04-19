@@ -62,7 +62,7 @@ You can easily open your app and see the meeting or appointment that you've link
 
 You can change the row an email or appointment is linked to using the **Change Regarding** feature.
 
-1. Open the email or appointment which you want to link to a different row.
+1. Open the email or appointment that you want to link to a different row.
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
