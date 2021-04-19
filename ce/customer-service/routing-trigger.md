@@ -8,7 +8,7 @@ ms.date: 04/09/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-# Set up routing for records in Customer Service
+# Set up basic routing for records in Customer Service
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
