@@ -2,7 +2,7 @@
 title: "Track your Outlook contacts using App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: Track your Outlook contacts using App for Outlook.
 ms.custom: 
-ms.date: 04/15/2021
+ms.date: 04/19/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -72,7 +72,7 @@ Follow the steps below to link and track your Outlook contacts to a row in your 
    > [!div class="mx-imgBorder"] 
    > ![Link an Outlook contact](../media/link-outlook-contact.png) 
  
-3. Chosse the account row that you want to link the contact(s) with and then select elect **Link**.
+3. Choose the account row that you want to link the contact(s) with and then select elect **Link**.
 
    > [!div class="mx-imgBorder"] 
    > ![Choose a contact in your app to link to](../media/link-outlook-contact-2.png) 
@@ -93,13 +93,13 @@ You can track a single or multiple contacts from Outlook in your Dynamics 365 ap
 
 ## Untrack a contact
 
-You can also untrack a contact and choose to delete the contact's information from your Dynamics 365 app or keep the record by stop tracking it.
+You can also untrack a contact and choose to delete the contact's information from your Dynamics 365 app or keep the row by stop tracking it.
 
 1. From the **Outlook Contacts** tab, select a contact(s) that you want to stop tracking
 2. On the command bar, select **Untrack**.
 3. Then select one of the following:
-    - **Untrack & Delete**: Delete the contact record from your app.
-    - **Untrack & Keep**: Kepp the contact record in your app but stop tracking it.
+    - **Untrack & Delete**: Delete the contact row from your app.
+    - **Untrack & Keep**: Keep the contact row in your app but stop tracking it.
 
    > [!div class="mx-imgBorder"] 
    > ![Untrack a contact](../media/untrack-contact.png) 
@@ -126,10 +126,10 @@ You can easily see which contacts are tracked or untracked.
 
 ## FAQs
 
-1. When I search in a view, why does it only return 5,000 rows? This current limit is 5,000 whem you're search a view from the Outlook App.
-2. Why can't I track contacts using Oulook on the web? You need Outlook 2016 or later to use the contact tracking feature.
+1. When I search in a view, why does it only return 5,000 rows? This current limit is 5,000 when you're search a view from the Outlook App.
+2. Why can't I track contacts using Outlook on the web? You need Outlook 2016 or later to use the contact tracking feature.
 3. What happens when a contact is deleted from the Dynamics 365 app?  If you're not the owner of the contact row, then deleting a contact from Dynamics 365 deletes the tracked contact from Outlook. If you're the owner of the contact row, deleting a contact from your Dynamics 365 does not delete the contact from Outlook.
-4. What happens when a contact is deleted from Outlook? Deleting a tracked contact in Outlook doesn't delete the contact record from Microsoft Dynamics 365. Regardless or ownership of the contact row, if you have delete permissions on for the contact row and you stop tracking the contact, App for Outook will asks whether you want to delete the contact record from Microsoft Dynamics 365.
+4. What happens when a contact is deleted from Outlook? Deleting a tracked contact in Outlook doesn't delete the contact row from Microsoft Dynamics 365. Regardless or ownership of the contact row, if you have delete permissions on for the contact row and you stop tracking the contact, App for Outook will asks whether you want to delete the contact row from Microsoft Dynamics 365.
 
 
 
