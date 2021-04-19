@@ -4,7 +4,7 @@ description: "Instructions for configuring an SMS channel in Omnichannel for Cus
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 04/15/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -60,7 +60,7 @@ To sign up for TeleSign
       - **Customer ID:** Customer ID generated from the TeleSign account.
       - **API key:** API key generated from the TeleSign account.
    3. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
-    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
+    - **Number:** Specify the support phone number that you purchased from TeleSign in the *<phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **Type:** Select Geo, Short code, or Toll free.
     - **Description:** Enter a description.
     - **Validate:** Select to validate the customer ID and API key.
@@ -126,7 +126,7 @@ To sign up for TeleSign
     > [!NOTE]
     >
     > - You can configure only one phone number per work stream.
-    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
+    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
     > - Short code is supported for enterprise accounts.
 
     > [!div class=mx-imgBorder]
