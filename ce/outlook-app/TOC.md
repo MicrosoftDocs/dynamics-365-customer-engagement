@@ -12,7 +12,7 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
-## [What's suppported](user/support-matrix.md)
+## [What's supported](user/support-matrix.md)
 ## [Basic navigation in App for Outlook](user/basic-navigation.md)
 ## [Link an email or appointment to a specific row](user/track-message-or-appointment.md)
 ## [Track an email or appointment without linking it to a specific row](user/track-without-set-regarding.md)
