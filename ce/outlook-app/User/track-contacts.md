@@ -30,7 +30,7 @@ To use this feature your admin must enable your Dynamics 365 mailbox for appoint
 
 
    > [!div class="mx-imgBorder"] 
-   > ![Select add-in](../media/all-contacts.png)  
+   > ![Viw your contacts](../media/all-contacts.png)  
  
 Legend
 1. **Outlook Contacts**: View all your Outlook contacts. The same contacts are displayed in the default contacts view your Dynamics 365 app.
