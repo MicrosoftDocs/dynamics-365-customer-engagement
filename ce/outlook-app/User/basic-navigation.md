@@ -42,7 +42,7 @@ It's easy to access the Dynamics 365 pane whether you're using Outlook on your d
    
 ## Pin 
 
-If you're using the Outlook desktop client Outlook Web Access you can pin App for Outlook so that it remains open when you navigate from one email to another. If don't see the pin option verifiy that it's supported for your setup. For more information, see [What's supported](support-matrix.md).
+If you're using the Outlook desktop client Outlook Web Access, you can pin App for Outlook so that it remains open when you navigate from one email to another. If don't see the pin option verify that it's supported for your setup. For more information, see [What's supported](support-matrix.md).
 
 - To pin the add-in, select the pin. To unpin, select the pin again.
 
@@ -57,9 +57,9 @@ If you're using the Outlook desktop client Outlook Web Access you can pin App fo
 |[Set regarding](track-message-or-appointment.md)     |Track and link the email or appointment to an existing row your Dynamics 365 app.|
 |Track     |Create a copy of the email or appointment in your Dynamics 365 app.   |
 |[Untrack](track-message-or-appointment.md#untrack-a-linked-email-or-appointment)     |Remove the copy of the email or appointment from your Dynamics 365 app. |
-|Track success |Your email or appointment is successfuly copied to  your Dynamics 365 app.   |
+|Track success |Your email or appointment is successfully copied to  your Dynamics 365 app.   |
 |Track failure |Your email or appointment is failed to copy to your Dynamics 365 app.   | 
-|Track pending |Your email or appointment is currently quequed to be coped to your Dynamics 365 app.   | 
+|Track pending |Your email or appointment is in pending state to be copied to your Dynamics 365 app.   | 
 
 ## Navigation bar
 
@@ -77,7 +77,7 @@ Use the navigation bar at the top to access the site map, search, quick create, 
 
 ## Site map
 
-Use the site map to navigate to **Home**, **Recent** items, **Pinned** items and **Dashboards**.
+Use the site map to navigate to **Home**, **Recent** items, **Pinned** items, and **Dashboards**.
 
 ![Open the site map menu](../media/site-map-menu.gif)
 
