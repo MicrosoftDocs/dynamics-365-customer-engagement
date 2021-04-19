@@ -50,7 +50,7 @@
 #### [Customize the Add Products dialog box](customize-add-products-dialog-box.md)
 
 ### Goal management
-#### [Goals Overview](goals-overview.md)
+#### [Goals Setting Process](goals-overview.md)
 #### [Goal settings](/power-platform/admin/system-settings-dialog-box-goals-tab)
 #### [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)
 #### [Define a goal metric](../sales-enterprise/create-edit-goal-metric.md)

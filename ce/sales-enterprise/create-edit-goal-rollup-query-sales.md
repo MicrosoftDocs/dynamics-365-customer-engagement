@@ -20,7 +20,7 @@ searchScope:
 
 # Define goal rollup queries (Sales Hub)
 
-When you define rollup queries, you identify the record types to compare against the goals you define in the rollup fields. For example, you could create a goal metric that measures all invoices closed within a specific period. A rollup query could then show you invoices owned by one person, or for customers in one territory.
+Use rollup queries to specify additional criteria that is applied on existing goal metrics. For example, you could create a goal metric that measures all invoices closed within a specific period. A rollup query could then show you invoices owned by one person, or for customers in one territory.
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
@@ -33,18 +33,18 @@ When you define rollup queries, you identify the record types to compare against
  
 4.	To create a new rollup query, on the command bar, select **New**.
 
-5. In the **Entity Type** field, select the entity for the rollup query. For example, if you want the invoices for customers in a territory,select the Invoice entity.  
+5. In the **Entity Type** field, select the entity for the rollup query. For example, if you want the invoices for customers in a territory, select the Invoice entity.  
       > [!NOTE]
-      >  If you change the entity type after you add your query criteria in the Query builder, the query criteria will be deleted as it is based on the entity type.  
+      >  If you change the entity type after you add your query criteria in the Query builder, the query criteria will be deleted.  
   
-6. In the Query builder, add the criteria for your query. 
+6. In the Query builder, add the criteria for your query.  
 
     > [!div class="mx-imgBorder"]  
     > ![Build a query for rollup](media/rollup-query-builder.png "Build a query for rollup")
   
 7. To see the results for the query, select **View records**.  
   
-8. Select **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  
+8. Save the query.  
     Now that the rollup query is created, you can apply it to the goals of individuals or teams who need to meet this specific criteria.
 
 ## Apply rollup query to a goal
@@ -54,8 +54,10 @@ Rollup queries define additional criteria for a goal. Applying the rollup query 
 **Follow these steps:**
 
 1. In the Sales Hub app, navigate to  **Performance**, **Goals** in the left pane.  
+
 2. Open the goal to which you want to apply the rollup query.  
-3. (Optional) Select the **Actuals** tab and note down the values before applying the rollup query.
+
+3. (Optional) Select the **Actuals** tab and note down the values before applying the rollup query.  
     This step helps in comparing the values after applying the rollup query.  
 4. Select the **Goal Criteria** tab.  
 5. Select the rollup query in the **Rollup Query - Actual** and **Rollup Query - In-Progress** fields.  

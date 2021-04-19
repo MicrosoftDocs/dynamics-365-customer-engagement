@@ -1,6 +1,6 @@
 ---
-title: "Goals Overview (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
+title: "Goals Setting Process (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365."
 ms.date: 04/19/2021
 ms.service: dynamics-365-sales
 ms.topic: article
@@ -15,9 +15,9 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Goals Overview
+# Goals Setting Process
 
-With Dynamics 365, you can define, monitor, and track goals for your organization and team. For example, your sales organization can define goals based on sales revenue for a specific territory, number of leads created, number of units sold, and so on. Similarly, your customer service organization can define goals based on the number of cases closed.
+With Dynamics 365, you can define, measure, and track goals for your organization and team. For example, your sales organization can define goals based on sales revenue for a specific territory, number of leads created, number of units sold, and so on. Similarly, your customer service organization can define goals based on the number of cases closed.
 
 You can create parent goals based on criteria like market research, budget planning, and historical performance. You'll typically assign parent goals to managers, and then assign child goals to individuals, teams, organizations, territories, and product lines. These child goals roll up into the overall goals for a specified metric.  
 
@@ -31,9 +31,9 @@ To set goals, consider these factors:
 - Setting targets (Revenue target, for example)
 - Setting Time periods for goals (Fiscal, Quarter, or custom)
 - Monitoring goals (Actual and in-progress values)
-- Goals and security roles
+- Goals and security roles (Goals and access control)
 
-## Goal hierarchy
+## Define Goal hierarchy
 
 Typically, a single manager's goal is a total of the goals assigned to that staff. A large organization's goal could be a combination of regional sales or service goals.
 
@@ -43,7 +43,7 @@ Deleting a parent goal does not delete the child goal. Deleting a parent goal on
 
 The goal rollup is done from the bottom of the hierarchy to the top. During rollup, the parent goal total is the sum of all its child goals.
 
-## Setting goal metrics
+## Set goal metrics
 
 There are two types of goal metrics:
 
@@ -76,7 +76,7 @@ You must have at least one of the following rollup fields, but you cannot have m
 
 More information: [Create or edit a goal metric](create-edit-goal-metric.md)
 
-## Defining rollup queries
+## Define rollup queries
 
 Goals roll up from the bottom of the goal hierarchy to the top, with Dynamics 365 rolling child goal totals into their parent goal totals. Goals at the top of a hierarchy reflect a summation of all the goals in the organization.
 
@@ -86,13 +86,13 @@ You can only query one entity type in a query, but the query builder helps you m
 
 More information: [Create or edit a rollup query](create-edit-goal-rollup-query-sales.md)
 
-**Setting targets**
+## Set targets
 
 You can specify a target value for each goal for measuring the results of the goal rollup, and you can also specify a stretch target for each goal. A target revenue goal for one product line might be $100,000, with a stretch target of $120,000.
 
 More information: [Create or edit goals](create-edit-goal-sales.md)
 
-**Time periods for goals**
+## Set Time periods for goals
 
 You can set a fiscal period, such as a quarter or year, or a custom period, such as a campaign or sales event.
 
@@ -102,13 +102,13 @@ Changing a fiscal year or fiscal period does not automatically change the dates 
 
 More information: [Create or edit goals](create-edit-goal-sales.md)
 
-**Monitoring goals**
+## Monitor goals
 
 You can monitor goals using the business intelligence tools in Dynamics 365.
 
 You can set up a customized dashboard to list goals you track, or a report that has a complete view of a team's goal and performance toward it.
 
-**Goals and security roles**
+## Understand goals and security roles**
 
 User roles limit what each user can see, depending on what type of access they have and what kinds of records they need to view. Dynamics 365 allows you to set security on an entity or on a specific field. This helps to keep access to information from users who should not see it.
 
