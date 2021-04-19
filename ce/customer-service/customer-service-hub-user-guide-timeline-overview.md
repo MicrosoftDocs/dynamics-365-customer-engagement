@@ -187,9 +187,9 @@ When you type the **#** symbol, the results you see are matches with the account
 
 ### Add a note or post to a record on timeline
 
-When enabled by your system administrator, you can either add a note or a post to a record on timeline. Each note has a maximum size limit of 100,000 characters.
+When enabled by your system administrator, you can either add a note or a post to a record on timeline. Each note and post has a maximum size limit of 100,000 characters.
 
-You can also enter a note and add it to a record, but you can only add one attachment per note. If note is not enabled by your system administrator, you can't add an attachment.
+You can also enter a note and add it to a record, but you can only add one attachment per note. If note is not enabled by your system administrator, you can't add an attachment. 
 
 **Note display view**
 
