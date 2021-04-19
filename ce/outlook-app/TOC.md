@@ -19,6 +19,7 @@
 ## [FAQs about email tracking](user/faq-email-tracking.md)
 ## [Create a new contact, lead, or account](user/add-email-recipient-as-a-row.md)
 ## [Add a phone call, appointment, or task activity](user/add-activities.md)
+## [Track contacts](user/track-contacts.md)
 ## [Use the assistant to gain insights](user/assistant.md)
 ## [Add an email template](user/email-template.md)
 ## [Add sales literature or a knowledge base article to an email](user/add-literature-or-kb.md)
