@@ -426,9 +426,9 @@ Only enable the activities that you need on this form. If you select more than 1
   
 ### Configure form for notes
 
-![Configure the form for notes](media\timeline-configure-form-notes.png "Configure the form for notes")
-
 You can configure how information is displayed in notes, such as relevant users and dates, and whether or not to include labels. This enables you to increase or reduce the number of timeline records that appear onscreen.
+
+![Configure the form for notes](media\timeline-configure-form-notes.png "Configure the form for notes")
 
 Go to your timeline configuration in [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"), scroll down to the **Notes** section containing the **Configure form** field, and edit the following fields in the default form:
 
@@ -460,9 +460,9 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ### Configure form for posts
 
-![Configure the form for posts](media\timeline-configure-form-posts.png "Configure the form for posts")
-
 You can configure how information is displayed in posts, such as relevant users and dates, and whether or not to include labels. This enables you to increase or reduce the number of timeline records that appear onscreen.
+
+![Configure the form for posts](media\timeline-configure-form-posts.png "Configure the form for posts")
 
 Go to your timeline configuration in [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"), scroll down to the **Posts** section containing the **Configure form** field, and edit the following fields in the default form:
 
