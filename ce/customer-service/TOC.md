@@ -84,8 +84,8 @@
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
 ##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
 
-#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
-#### [Automatically route cases](create-rules-automatically-route-cases.md)
+#### [Create and manage basic queues for cases](set-up-queues-manage-activities-cases.md)
+#### [Automatically route cases using basic rule sets](create-rules-automatically-route-cases.md)
 
 #### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
 #### [Diagnostics for unified routing](unified-routing-diagnostics.md)
