@@ -47,7 +47,7 @@ Unified routing is supported in the same geographical regions as those supported
 
 The requirements for unified routing are same as those that are applicable for Omnichannel for Customer Service. More information: [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)
 
-For the langauges supported in unified routing, see [Supported languages](international-availability.md#language-availability).
+For the languages that are supported in unified routing, see [Supported languages](international-availability.md#language-availability).
 
 You can configure unified routing only through the Omnichannel admin center or Customer Service Hub app. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
 
