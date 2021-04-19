@@ -24,7 +24,7 @@ search.app:
 
 # What's supported to use Dynamics 365 App for Outlook
 
-The following are the supported envioments to use Dynamics 365 App for Outlook.
+The following are the supported environments to use Dynamics 365 App for Outlook.
 
 **Dynamics 365 and Microsoft Exchange Online**
 
