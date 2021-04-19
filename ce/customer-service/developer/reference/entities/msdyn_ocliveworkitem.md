@@ -7,12 +7,6 @@ ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"
 manager: "shujoshi"
-<<<<<<< HEAD
-=======
-ms.date: 03/15/2021
-ms.topic: "reference"
-ms.service: "crm-online"
->>>>>>> 15674d6c7ff6e94b4c5676c511b2538fe707e086
 search.audienceType: 
   - developer
 search.app: 
