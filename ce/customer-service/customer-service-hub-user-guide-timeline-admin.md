@@ -450,6 +450,8 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ## Posts on timeline
 
+To enable rich text posts on timeline, contact Microsoft. 
+
 > [!NOTE]
 > Posts are currently only available for CRM applications.
 
@@ -481,7 +483,7 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ## Configure mentions in notes and posts on timeline
 
-To enable rich text notes and posts including mentions, contact Microsoft. When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"). The users and entities displayed is pulled from the configuration file provided in the **Rich text editor configuration URL** field. More information: [Use the rich text editor control in Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control)
+To enable mentions, contact Microsoft. When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"). The users and entities displayed is pulled from the configuration file provided in the **Rich text editor configuration URL** field. More information: [Use the rich text editor control in Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control)
 
 By default, the **@** symbol returns matches with the first name, last name or email address of system users starting with the search string.
 
@@ -513,6 +515,7 @@ To configure additional entities, add and modify the following code to the confi
       }
 
 ```
+The "systemser" entity will persist for **@** and the "account" and "contact" entities for **#** regardless of how the file is edited.
 
 ## Save and publish timeline updates and changes
 
