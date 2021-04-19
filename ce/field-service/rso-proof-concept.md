@@ -246,7 +246,7 @@ Now that we've had a look at types of data that will make for a useful POC, let'
 
 With POCs, it's not unheard of to receive multiple data sets representing information such as a months’ worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run resource scheduling optimization to the first of the month or period you want to schedule. For example, if running for the month of January on December 16, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 through January 31.
 
-For more detailed information about setting up optimization schedules, see [this article on on the subject](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule).  
+For more detailed information about setting up optimization schedules, see [this article on on the subject](/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule).  
 
 
 ### Receiving disruptors

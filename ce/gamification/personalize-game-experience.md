@@ -21,6 +21,8 @@ search.app:
 
 # Manage settings to personalize the game experience in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 As a commissioner, you can upload custom logos, provide a pointer for players to get in touch with you, configure Stream TV posts, and choose how to handle player stats and completed games in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
 
 ## Generate a security key

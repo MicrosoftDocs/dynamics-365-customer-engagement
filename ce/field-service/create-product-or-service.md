@@ -31,7 +31,7 @@ In this article, let's explore creating products and services, adding and using 
 
 - Product catalog functionality is available for all version of Dynamics 365 Field Service.
 
-- Basic knowledge of the Dynamics 365 [product catalog](https://docs.microsoft.com/dynamics365/sales-enterprise/set-up-product-catalog-walkthrough) and [price lists](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products). 
+- Basic knowledge of the Dynamics 365 [product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md). 
 
 
 ## Create a product or service
@@ -94,7 +94,7 @@ Next, add the products and services as price list items to the price lists of yo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of price list items](./media/work-order-products-price-list-items.png)
 
-For more information, see the article on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](../project-service/create-price-list.md). 
+For more information, see the article on [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [creating a price list (Project Service Automation)](/dynamics365/project-operations/psa/create-price-list). 
 
 You can also go to **Related** > **Field Service Price List Items** to add additional pricing options for Field Service products and services.
 
@@ -139,7 +139,7 @@ Work order products can be related to different aspects of the work order either
 For example, if the product or service is added from a work order incident type, the related work order incident type will be populated. If the work order incident type was for a specific customer asset, that asset will be populated here. 
 
 > [!Note]
-> Work order products and service are typically added to work orders via work order incident types. For more information, see the article on [creating work order templates with incident types](https://docs.microsoft.com/dynamics365/field-service/configure-incident-types).
+> Work order products and service are typically added to work orders via work order incident types. For more information, see the article on [creating work order templates with incident types](./configure-incident-types.md).
 
 ### Other
 
@@ -270,7 +270,7 @@ Another Field Service setting for inventory is **Use Of Products out of Stock**.
 
 - Inventory adjustments products can have a positive or negative quantity to increment or decrement inventory as needed.
 - Integrating work order product inventory with ERP systems is typically executed with work order product, inventory journals, or invoice records.
-- Product bundling, introduced in Dynamics 365 Sales, does not currently extend to Field Service scenarios. For more information, see this article about [product bundles in Dynamics 365 Sales](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-bundles-sell-multiple-items-together).
+- Product bundling, introduced in Dynamics 365 Sales, does not currently extend to Field Service scenarios. For more information, see this article about [product bundles in Dynamics 365 Sales](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md).
 
 ### Known issues
 

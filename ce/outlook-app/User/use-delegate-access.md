@@ -117,7 +117,7 @@ Track an email using **Track without Regarding** to add the email an activity in
    > [!div class="mx-imgBorder"] 
    > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
 
-2 The item is created as an email activity in  Dynamics 365 and isn't linked to a specific row.
+2. The item is created as an email activity in  Dynamics 365 and isn't linked to a specific row.
 
    > [!div class="mx-imgBorder"] 
    > ![See the track without regarding item in your app](../media/track-without-regarding-in-app.png)

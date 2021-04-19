@@ -35,19 +35,19 @@ First, let's define the roles that are within of your workforce and understand h
 **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information on CFS security, see the article on [setting up security roles for Connected Field Service](cfs-security-roles.md).  
 
 ## Prerequisites 
-- Your organization must have a Microsoft 365 or Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permission](https://docs.microsoft.com/microsoft-365/admin/admin-overview/admin-overview?redirectSourcePath=%2Farticle%2Foffice-365-admin-overview-c7228a3e-061f-4575-b1ef-adf1d1669870&view=o365-worldwide).
+- Your organization must have a Microsoft 365 or Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permission](/microsoft-365/admin/admin-overview/admin-overview?view=o365-worldwide).
 - You'll need either a free trial of Dynamics 365 Field Service, or have paid licenses. Learn more about [starting a free trial](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice).
 
 ## Step 1: Add users + assign Dynamics 365 Field Service licenses
 After the admin has purchased trial or paid Dynamics 365 Field Service licenses for their users, they can now add and assign them licenses.
 
-See the topic on [Creating users and assigning security roles in the Power Platform](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles) for more details. 
+See the topic on [Creating users and assigning security roles in the Power Platform](/power-platform/admin/create-users-assign-online-security-roles) for more details. 
 
 1. Log into the [Microsoft 365 administrator portal](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1) using your organization’s admin account. 
 
 2. In the left navigation bar, select **Users** > **Active Users**.
 
-3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
+3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
 
 ![Screenshot of adding users in Admin Center.](./media/Admin-Center-User.PNG)
 
@@ -110,11 +110,11 @@ Woohoo! You have now assigned a security role and field security profile to a us
 
 1. After adding and assigning security profiles, what should I do next? 
 
-As an admin, you can start configuring the rest of Dynamics 365 Field Service. Specifically, to fully provision your frontline workers, you will need to assign them to an [offline data profile](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-system-offline).
+As an admin, you can start configuring the rest of Dynamics 365 Field Service. Specifically, to fully provision your frontline workers, you will need to assign them to an [offline data profile](./mobile-power-app-system-offline.md).
 
 2. Can I add multiple people to a security role and/or a field security profile? 
 
-Yes. Use the [Teams feature](https://docs.microsoft.com/power-platform/admin/manage-teams) to help you group multiple users and then assign them to a security role and/or profile. 
+Yes. Use the [Teams feature](/power-platform/admin/manage-teams) to help you group multiple users and then assign them to a security role and/or profile. 
 
 3. Can I make a copy of security roles? 
 

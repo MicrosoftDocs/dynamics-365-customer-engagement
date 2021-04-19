@@ -12,6 +12,7 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
+## [Basic navigation in App for Outlook](user/basic-navigation.md)
 ## [Link an email message or appointment to a row in Dynamics 365](user/track-message-or-appointment.md)
 ## [FAQs about email tracking](user/faq-email-tracking.md)
 ## [Create a new contact, lead, or account](user/add-email-recipient-as-a-row.md)
