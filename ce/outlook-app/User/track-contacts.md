@@ -57,7 +57,7 @@ In the contacts list, select **Dynamics 365 Contacts** and then select the check
 
 ## Link Outlook contacts to an account 
 
-You can link and track a single or multiple contacts from Outlook to a account row in your Dynamics 365 app. 
+You can link and track a single or multiple contacts from Outlook to an account row in your Dynamics 365 app. 
 
    > [!div class="mx-imgBorder"] 
    > ![Demo of how to link a Outlook contact to a row in your app.](../media/link-outlook-contact-3.gif) 
@@ -106,7 +106,7 @@ You can also untrack a contact and choose to delete the contact's information fr
 
 ## Change views
 
-From the **Dynamics 365 Contacts** tab, you can access the same contact views that you you see in your Dynamics 365 app. However, if one of these views includes a column from a related table, then that view won't be displayed.
+Use the **Dynamics 365 Contacts** tab, to access the same contact views that you see in your Dynamics 365 app. However, if one of these views includes a column from a related table, then that view won't be displayed.
 
 - From the **Dynamics 365 Contacts** tab, select down arrow and then select a view.
 
@@ -126,10 +126,11 @@ You can easily see which contacts are tracked or untracked.
 
 ## FAQs
 
-1. When I search in a view, why does it only return 5,000 rows? This current limit is 5,000 when you're search a view from the Outlook App.
+1. When I search in a view, why does it only return 5,000 rows? This current limit is 5,000 when you search a view from in Dynamics 365 App for Outlook.
 2. Why can't I track contacts using Outlook on the web? You need Outlook 2016 or later to use the contact tracking feature.
 3. What happens when a contact is deleted from the Dynamics 365 app?  If you're not the owner of the contact row, then deleting a contact from Dynamics 365 deletes the tracked contact from Outlook. If you're the owner of the contact row, deleting a contact from your Dynamics 365 does not delete the contact from Outlook.
-4. What happens when a contact is deleted from Outlook? Deleting a tracked contact in Outlook doesn't delete the contact row from Microsoft Dynamics 365. Regardless or ownership of the contact row, if you have delete permissions on for the contact row and you stop tracking the contact, App for Outook will asks whether you want to delete the contact row from Microsoft Dynamics 365.
+4. What happens when a contact is deleted from Outlook? Deleting a tracked contact in Outlook doesn't delete the contact row from your Dynamics 365 app. Regardless of ownership of the contact row, if you have delete permissions for the contact and you stop tracking the contact, App for Outlook will ask whether you want to delete the contact row from  your Dynamics 365 app.
+
 
 
 
