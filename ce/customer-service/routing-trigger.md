@@ -79,7 +79,7 @@ To enable automatic trigger to route the entity records, create a custom Flow.
 9. Type **Perform an unbound action** in the search box, and select the action from the list. The **Perform an unbound action** step appears.
 
     > [!div class=mx-imgBorder] 
-    > ![Select Perform an unbound action](media/route-trigger3.png "Select Perform an unbound action")
+    > ![Select perform an unbound action](media/route-trigger3.png "Select perform an unbound action")
 
 10. Type **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field.
 
@@ -96,7 +96,7 @@ To enable automatic trigger to route the entity records, create a custom Flow.
     > Here, `leads` is the entity collection name.
     
     > [!div class=mx-imgBorder] 
-    > ![Select Perform an unbound action](media/route-trigger4.png "Select Perform an unbound action")
+    > ![Select Perform an unbound action example](media/route-trigger4.png "Select Perform an unbound action example")
 
 
 12. Select **Save**.
