@@ -1,61 +1,60 @@
 ---
-title: "msdyn_skillattachmentruleitem Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_skillattachmentruleitem entity."
+title: "msdyn_ocphonenumber Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocphonenumber entity."
+ms.date: 04/05/2021
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"
 manager: "shujoshi"
-ms.date: 10/12/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
-ms.reviewer: nenellim
 ---
-# msdyn_skillattachmentruleitem Entity Reference
+# msdyn_ocphonenumber Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 
 
-**Added by**: Omnichannel - Skill Based Routing Solution
+**Added by**: Omnichannel - CommunicationBase Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocphonenumbers(*msdyn_ocphonenumberid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocphonenumbers<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocphonenumbers(*msdyn_ocphonenumberid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocphonenumbers(*msdyn_ocphonenumberid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocphonenumbers<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocphonenumbers(*msdyn_ocphonenumberid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocphonenumbers(*msdyn_ocphonenumberid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_skillattachmentruleitems|
-|DisplayCollectionName|Skill Attachment Rules|
-|DisplayName|Skill Attachment Rule|
-|EntitySetName|msdyn_skillattachmentruleitems|
+|CollectionSchemaName|msdyn_ocphonenumbers|
+|DisplayCollectionName|Phone Numbers|
+|DisplayName|Phone Number|
+|EntitySetName|msdyn_ocphonenumbers|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_skillattachmentruleitems|
-|LogicalName|msdyn_skillattachmentruleitem|
+|LogicalCollectionName|msdyn_ocphonenumbers|
+|LogicalName|msdyn_ocphonenumber|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_skillattachmentruleitemid|
+|PrimaryIdAttribute|msdyn_ocphonenumberid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_skillattachmentruleitem|
+|SchemaName|msdyn_ocphonenumber|
 
 <a name="writable-attributes"></a>
 
@@ -64,13 +63,17 @@ ms.reviewer: nenellim
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_condition](#BKMK_msdyn_condition)
-- [msdyn_description](#BKMK_msdyn_description)
-- [msdyn_expression](#BKMK_msdyn_expression)
-- [msdyn_liveworkstream](#BKMK_msdyn_liveworkstream)
+- [msdyn_countryisocode](#BKMK_msdyn_countryisocode)
+- [msdyn_FormattedPhoneNumber](#BKMK_msdyn_FormattedPhoneNumber)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_rulejson](#BKMK_msdyn_rulejson)
-- [msdyn_skillattachmentruleitemId](#BKMK_msdyn_skillattachmentruleitemId)
+- [msdyn_occommunicationprovidersettingId](#BKMK_msdyn_occommunicationprovidersettingId)
+- [msdyn_ocphonenumberId](#BKMK_msdyn_ocphonenumberId)
+- [msdyn_phoneinboundenabled](#BKMK_msdyn_phoneinboundenabled)
+- [msdyn_phonenumber](#BKMK_msdyn_phonenumber)
+- [msdyn_phoneoutboundenabled](#BKMK_msdyn_phoneoutboundenabled)
+- [msdyn_smsinboundenabled](#BKMK_msdyn_smsinboundenabled)
+- [msdyn_smsoutboundenabled](#BKMK_msdyn_smsoutboundenabled)
+- [msdyn_type](#BKMK_msdyn_type)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -97,66 +100,36 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_condition"></a> msdyn_condition
+### <a name="BKMK_msdyn_countryisocode"></a> msdyn_countryisocode
 
 |Property|Value|
 |--------|-----|
-|Description|The Skill Attachment Rule's Condition|
-|DisplayName|Condition|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_condition|
-|MaxLength|10000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msdyn_description"></a> msdyn_description
-
-|Property|Value|
-|--------|-----|
-|Description|The Skill Attachment Rule's Description|
-|DisplayName|Description|
+|Description|ISO code for the country|
+|DisplayName|Country ISO Code|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_description|
-|MaxLength|100|
+|LogicalName|msdyn_countryisocode|
+|MaxLength|3|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_expression"></a> msdyn_expression
+### <a name="BKMK_msdyn_FormattedPhoneNumber"></a> msdyn_FormattedPhoneNumber
 
 |Property|Value|
 |--------|-----|
-|Description|The Skill Attachment Rule's Expression|
-|DisplayName|Expression|
-|Format|Text|
+|Description|Readable field to display a phone number|
+|DisplayName|Formatted Phone Number|
+|FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_expression|
-|MaxLength|10000|
+|LogicalName|msdyn_formattedphonenumber|
+|MaxLength|100|
 |RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msdyn_liveworkstream"></a> msdyn_liveworkstream
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for Work Stream associated with Skill Attachment Rule.|
-|DisplayName|Work Stream|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkstream|
-|RequiredLevel|ApplicationRequired|
-|Targets|msdyn_liveworkstream|
-|Type|Lookup|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
@@ -175,34 +148,162 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_rulejson"></a> msdyn_rulejson
+### <a name="BKMK_msdyn_occommunicationprovidersettingId"></a> msdyn_occommunicationprovidersettingId
 
 |Property|Value|
 |--------|-----|
-|Description|The Skill Attachment Rule's output|
-|DisplayName|Rule Json|
-|Format|Text|
-|IsLocalizable|False|
+|Description|Unique identifier for Communication Provider Setting associated with Phone Number.|
+|DisplayName|Communication provider setting|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_rulejson|
-|MaxLength|10000|
+|LogicalName|msdyn_occommunicationprovidersettingid|
 |RequiredLevel|None|
-|Type|Memo|
+|Targets|msdyn_occommunicationprovidersetting|
+|Type|Lookup|
 
 
-### <a name="BKMK_msdyn_skillattachmentruleitemId"></a> msdyn_skillattachmentruleitemId
+### <a name="BKMK_msdyn_ocphonenumberId"></a> msdyn_ocphonenumberId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Skill Attachment Rule|
+|DisplayName|Phone number|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_skillattachmentruleitemid|
+|LogicalName|msdyn_ocphonenumberid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_phoneinboundenabled"></a> msdyn_phoneinboundenabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates if inbound calling is enabled on the phone number|
+|DisplayName|Phone Inbound Enabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_phoneinboundenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_phoneinboundenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_phonenumber"></a> msdyn_phonenumber
+
+|Property|Value|
+|--------|-----|
+|Description|The phone number of the phone number entity.|
+|DisplayName|Phone number|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_phonenumber|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_phoneoutboundenabled"></a> msdyn_phoneoutboundenabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates if inbound calling is enabled on the phone number|
+|DisplayName|Phone Outbound Enabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_phoneoutboundenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_phoneoutboundenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_smsinboundenabled"></a> msdyn_smsinboundenabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates if inbound SMS is enabled on the phonenumber|
+|DisplayName|SMS Inbound Enabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_smsinboundenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_smsinboundenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_smsoutboundenabled"></a> msdyn_smsoutboundenabled
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates if outbound SMS is enabled on the phone number|
+|DisplayName|SMS Outbound Enabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_smsoutboundenabled|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_smsoutboundenabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_type"></a> msdyn_type
+
+|Property|Value|
+|--------|-----|
+|Description|The phone number type|
+|DisplayName|Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_type|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_type Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Geo|
+|192350001|Toll free|
+|192350002|Short code|
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -256,7 +357,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Skill Attachment Rule|
+|Description|Status of the phone number|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -278,7 +379,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Skill Attachment Rule|
+|Description|Reason for the status of the phone number|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -346,7 +447,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkstreamName](#BKMK_msdyn_liveworkstreamName)
+- [msdyn_occommunicationprovidersettingIdName](#BKMK_msdyn_occommunicationprovidersettingIdName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -593,7 +694,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkstreamName"></a> msdyn_liveworkstreamName
+### <a name="BKMK_msdyn_occommunicationprovidersettingIdName"></a> msdyn_occommunicationprovidersettingIdName
 
 |Property|Value|
 |--------|-----|
@@ -603,7 +704,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamname|
+|LogicalName|msdyn_occommunicationprovidersettingidname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -709,74 +810,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
 
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_skillattachmentruleitem_target"></a> msdyn_skillattachmentruleitem_target
-
-Same as msdyn_skillattachmenttarget entity [msdyn_skillattachmentruleitem_target](msdyn_skillattachmenttarget.md#BKMK_msdyn_skillattachmentruleitem_target) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_skillattachmenttarget|
-|ReferencingAttribute|msdyn_skillattachmentruleitemid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_skillattachmentruleitem_target|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-- [lk_msdyn_skillattachmentruleitem_createdby](#BKMK_lk_msdyn_skillattachmentruleitem_createdby)
-- [lk_msdyn_skillattachmentruleitem_createdonbehalfby](#BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby)
-- [lk_msdyn_skillattachmentruleitem_modifiedby](#BKMK_lk_msdyn_skillattachmentruleitem_modifiedby)
-- [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](#BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby)
-- [user_msdyn_skillattachmentruleitem](#BKMK_user_msdyn_skillattachmentruleitem)
-
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_createdby"></a> lk_msdyn_skillattachmentruleitem_createdby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby"></a> lk_msdyn_skillattachmentruleitem_createdonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedby"></a> lk_msdyn_skillattachmentruleitem_modifiedby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby"></a> lk_msdyn_skillattachmentruleitem_modifiedonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_user_msdyn_skillattachmentruleitem"></a> user_msdyn_skillattachmentruleitem
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [user_msdyn_skillattachmentruleitem](systemuser.md#BKMK_user_msdyn_skillattachmentruleitem) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,61 +1,60 @@
 ---
-title: "msdyn_skillattachmentruleitem Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_skillattachmentruleitem entity."
+title: "msdyn_rulesetdependencymapping Entity Reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_rulesetdependencymapping entity."
+ms.date: 03/31/2021
+ms.service: "crm-online"
+ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"
 manager: "shujoshi"
-ms.date: 10/12/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
-ms.reviewer: nenellim
 ---
-# msdyn_skillattachmentruleitem Entity Reference
+# msdyn_rulesetdependencymapping Entity Reference
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
+For internal use only entity used to store an implicit mapping between a ruleset and polymorphic entity
 
-
-**Added by**: Omnichannel - Skill Based Routing Solution
+**Added by**: Dynamics 365 UR Decision Engine Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_rulesetdependencymappings(*msdyn_rulesetdependencymappingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_rulesetdependencymappings<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_rulesetdependencymappings(*msdyn_rulesetdependencymappingid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_rulesetdependencymappings(*msdyn_rulesetdependencymappingid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_rulesetdependencymappings<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_skillattachmentruleitems(*msdyn_skillattachmentruleitemid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_rulesetdependencymappings(*msdyn_rulesetdependencymappingid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_rulesetdependencymappings(*msdyn_rulesetdependencymappingid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_skillattachmentruleitems|
-|DisplayCollectionName|Skill Attachment Rules|
-|DisplayName|Skill Attachment Rule|
-|EntitySetName|msdyn_skillattachmentruleitems|
+|CollectionSchemaName|msdyn_rulesetdependencymappings|
+|DisplayCollectionName|Rulesetentitymappings|
+|DisplayName|Rulesetentitymapping|
+|EntitySetName|msdyn_rulesetdependencymappings|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_skillattachmentruleitems|
-|LogicalName|msdyn_skillattachmentruleitem|
+|LogicalCollectionName|msdyn_rulesetdependencymappings|
+|LogicalName|msdyn_rulesetdependencymapping|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_skillattachmentruleitemid|
+|PrimaryIdAttribute|msdyn_rulesetdependencymappingid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_skillattachmentruleitem|
+|SchemaName|msdyn_rulesetdependencymapping|
 
 <a name="writable-attributes"></a>
 
@@ -64,13 +63,14 @@ ms.reviewer: nenellim
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_condition](#BKMK_msdyn_condition)
-- [msdyn_description](#BKMK_msdyn_description)
-- [msdyn_expression](#BKMK_msdyn_expression)
-- [msdyn_liveworkstream](#BKMK_msdyn_liveworkstream)
 - [msdyn_name](#BKMK_msdyn_name)
-- [msdyn_rulejson](#BKMK_msdyn_rulejson)
-- [msdyn_skillattachmentruleitemId](#BKMK_msdyn_skillattachmentruleitemId)
+- [msdyn_referencedpolymorphicentityid](#BKMK_msdyn_referencedpolymorphicentityid)
+- [msdyn_referencedpolymorphicentityidIdType](#BKMK_msdyn_referencedpolymorphicentityidIdType)
+- [msdyn_referencedpolymorphiclogicalname](#BKMK_msdyn_referencedpolymorphiclogicalname)
+- [msdyn_referencingruleid](#BKMK_msdyn_referencingruleid)
+- [msdyn_referencingrulename](#BKMK_msdyn_referencingrulename)
+- [msdyn_referencingrulesetid](#BKMK_msdyn_referencingrulesetid)
+- [msdyn_rulesetdependencymappingId](#BKMK_msdyn_rulesetdependencymappingId)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -97,68 +97,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_condition"></a> msdyn_condition
-
-|Property|Value|
-|--------|-----|
-|Description|The Skill Attachment Rule's Condition|
-|DisplayName|Condition|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_condition|
-|MaxLength|10000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msdyn_description"></a> msdyn_description
-
-|Property|Value|
-|--------|-----|
-|Description|The Skill Attachment Rule's Description|
-|DisplayName|Description|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_description|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_expression"></a> msdyn_expression
-
-|Property|Value|
-|--------|-----|
-|Description|The Skill Attachment Rule's Expression|
-|DisplayName|Expression|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_expression|
-|MaxLength|10000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msdyn_liveworkstream"></a> msdyn_liveworkstream
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for Work Stream associated with Skill Attachment Rule.|
-|DisplayName|Work Stream|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_liveworkstream|
-|RequiredLevel|ApplicationRequired|
-|Targets|msdyn_liveworkstream|
-|Type|Lookup|
-
-
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
@@ -175,32 +113,107 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
-### <a name="BKMK_msdyn_rulejson"></a> msdyn_rulejson
+### <a name="BKMK_msdyn_referencedpolymorphicentityid"></a> msdyn_referencedpolymorphicentityid
 
 |Property|Value|
 |--------|-----|
-|Description|The Skill Attachment Rule's output|
-|DisplayName|Rule Json|
-|Format|Text|
+|Description|Polymorphic entity id referenced by the ruleset|
+|DisplayName|Referenced polymorphic entity id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_referencedpolymorphicentityid|
+|RequiredLevel|None|
+|Targets|characteristic,msdyn_capacityprofile,msdyn_decisionruleset,queue,ratingvalue|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_referencedpolymorphicentityidIdType"></a> msdyn_referencedpolymorphicentityidIdType
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_referencedpolymorphicentityididtype|
+|RequiredLevel|None|
+|Type|EntityName|
+
+
+### <a name="BKMK_msdyn_referencedpolymorphiclogicalname"></a> msdyn_referencedpolymorphiclogicalname
+
+|Property|Value|
+|--------|-----|
+|Description|Polymorphic entity logical name referenced by the ruleset|
+|DisplayName|Referenced polymorphic entity logical name|
+|FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_rulejson|
-|MaxLength|10000|
+|LogicalName|msdyn_referencedpolymorphiclogicalname|
+|MaxLength|100|
 |RequiredLevel|None|
-|Type|Memo|
+|Type|String|
 
 
-### <a name="BKMK_msdyn_skillattachmentruleitemId"></a> msdyn_skillattachmentruleitemId
+### <a name="BKMK_msdyn_referencingruleid"></a> msdyn_referencingruleid
+
+|Property|Value|
+|--------|-----|
+|Description|Rule id referencing the polymorphic entity|
+|DisplayName|Referencing rule id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_referencingruleid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_referencingrulename"></a> msdyn_referencingrulename
+
+|Property|Value|
+|--------|-----|
+|Description|Rule name referencing the polymorphic entity|
+|DisplayName|Referencing rule name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_referencingrulename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_referencingrulesetid"></a> msdyn_referencingrulesetid
+
+|Property|Value|
+|--------|-----|
+|Description|Ruleset id containing rule referencing the polymorphic entity|
+|DisplayName|Referencing rule set id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_referencingrulesetid|
+|RequiredLevel|None|
+|Targets|msdyn_decisionruleset|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_rulesetdependencymappingId"></a> msdyn_rulesetdependencymappingId
 
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|Skill Attachment Rule|
+|DisplayName|msdyn_rulesetdependencymappingid|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
-|LogicalName|msdyn_skillattachmentruleitemid|
+|LogicalName|msdyn_rulesetdependencymappingid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
 
@@ -256,7 +269,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Skill Attachment Rule|
+|Description|Status of the Rule set entity mapping|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -278,7 +291,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Skill Attachment Rule|
+|Description|Reason for the status of the Rule set entity mapping|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -346,7 +359,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_liveworkstreamName](#BKMK_msdyn_liveworkstreamName)
+- [msdyn_referencedpolymorphicentityidName](#BKMK_msdyn_referencedpolymorphicentityidName)
+- [msdyn_referencedpolymorphicentityidYomiName](#BKMK_msdyn_referencedpolymorphicentityidYomiName)
+- [msdyn_referencingrulesetidName](#BKMK_msdyn_referencingrulesetidName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -593,7 +608,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_liveworkstreamName"></a> msdyn_liveworkstreamName
+### <a name="BKMK_msdyn_referencedpolymorphicentityidName"></a> msdyn_referencedpolymorphicentityidName
 
 |Property|Value|
 |--------|-----|
@@ -603,8 +618,40 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_liveworkstreamname|
-|MaxLength|100|
+|LogicalName|msdyn_referencedpolymorphicentityidname|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_referencedpolymorphicentityidYomiName"></a> msdyn_referencedpolymorphicentityidYomiName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_referencedpolymorphicentityidyominame|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_referencingrulesetidName"></a> msdyn_referencingrulesetidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_referencingrulesetidname|
+|MaxLength|200|
 |RequiredLevel|None|
 |Type|String|
 
@@ -709,74 +756,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
 
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_msdyn_skillattachmentruleitem_target"></a> msdyn_skillattachmentruleitem_target
-
-Same as msdyn_skillattachmenttarget entity [msdyn_skillattachmentruleitem_target](msdyn_skillattachmenttarget.md#BKMK_msdyn_skillattachmentruleitem_target) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_skillattachmenttarget|
-|ReferencingAttribute|msdyn_skillattachmentruleitemid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_skillattachmentruleitem_target|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-<a name="manytoone"></a>
-
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-- [lk_msdyn_skillattachmentruleitem_createdby](#BKMK_lk_msdyn_skillattachmentruleitem_createdby)
-- [lk_msdyn_skillattachmentruleitem_createdonbehalfby](#BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby)
-- [lk_msdyn_skillattachmentruleitem_modifiedby](#BKMK_lk_msdyn_skillattachmentruleitem_modifiedby)
-- [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](#BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby)
-- [user_msdyn_skillattachmentruleitem](#BKMK_user_msdyn_skillattachmentruleitem)
-
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_createdby"></a> lk_msdyn_skillattachmentruleitem_createdby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby"></a> lk_msdyn_skillattachmentruleitem_createdonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedby"></a> lk_msdyn_skillattachmentruleitem_modifiedby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby"></a> lk_msdyn_skillattachmentruleitem_modifiedonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_user_msdyn_skillattachmentruleitem"></a> user_msdyn_skillattachmentruleitem
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [user_msdyn_skillattachmentruleitem](systemuser.md#BKMK_user_msdyn_skillattachmentruleitem) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
