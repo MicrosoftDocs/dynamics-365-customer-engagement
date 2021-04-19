@@ -91,9 +91,9 @@ If you are adding an authenticated chat experience to a custom website, your web
         YQIDAQAB 
         -----END PUBLIC KEY-----   
         
-    If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
+  If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
 
-    ```
+  ```
    [
         { 
             "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=",
@@ -106,7 +106,7 @@ If you are adding an authenticated chat experience to a custom website, your web
             "expiry": 1608495423
         } 
    ]
-    ```
+   ```
         
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
