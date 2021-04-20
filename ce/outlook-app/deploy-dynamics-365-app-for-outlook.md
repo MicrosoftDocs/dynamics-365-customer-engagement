@@ -43,6 +43,40 @@ Before you begin make sure these prerequisites are met:
 - Verify what's supported: [System requirements, limits, and configuration values for App for Outlook](support-info-deployment.md)
 
 
+## Step 1: Set the default synchronization method
+
+To use Dynamcis 365 App for Outlook you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](../power-platform/admin/set-incoming-outgoing-email-synchronization.md)
+
+1. From your app, go to **Settings** > **Advanced Settings**.
+
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/outlookapp_advancedsettings.png)
+
+2. Go **Settings** > **Administration** and then select **System Settings**.
+
+   > [!div class="mx-imgBorder"]
+   >![Go to system settings](media/system-settings.png)
+   
+3. Select the **Email** tab, and set **Process Email Using** to **Server-Side Synchronization**.
+
+   > [!div class="mx-imgBorder"]
+   >![Select server-side sync](media/set-sync-settings.png)
+
+
+## Step 2: Test and enable mailboxes
+
+Enable your users mailsboxs so they can use Dynamics 365 App for Outlook. 
+
+1. From your app, go to **Settings** > **Advanced Settings**.
+
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/outlookapp_advancedsettings.png)
+   
+2. Go **Settings** > **Email Configuration** and then select **Mailboxes**.
+
+   > [!div class="mx-imgBorder"]
+   >![Go to mailboxes settings](media/mail-boxes.png)
+
 ## Provide security role access
 
 Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of privileges required to run App for Outlook are packaged as a security role called **Dynamics 365 App for Outlook User** which is bound to the App. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. In order to achieve this, follow the steps below:
