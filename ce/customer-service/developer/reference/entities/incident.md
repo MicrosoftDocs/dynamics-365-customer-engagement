@@ -14,7 +14,7 @@ search.app:
   - D365CE
 ms.reviewer: nenellim
 ---
-# Incident Entity Reference
+# Incident Entity Reference 
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
