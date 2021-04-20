@@ -40,7 +40,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > If you are on **Field Service version 8.8.24 or higher**, ignore this message.
 > If you are on a **Field Service version lower than 8.8.24**:
 > - If you are only sending the data type “doubles,” there will be no impact. If you are sending other data types, these other data types will not appear in your device readings chart until you upgrade to Field Service version 8.8.24.
-> For more information about the Azure changes, [see this article](https://docs.microsoft.com/azure/time-series-insights/time-series-insights-long-data-type).
+> For more information about the Azure changes, [see this article](/azure/time-series-insights/time-series-insights-long-data-type).
 
 - The device readings chart is available for Connected Field Service with either Azure IoT Hub or using a [custom IoT provider](cfs-custom-iot-provider.md).
 
@@ -57,9 +57,9 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > ![Screenshot of the deployment screen showing configuration of Azure resources](./media/connected-field-service-IoT-hub-device-measurements-deployment1-2.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights deployment.
-- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
+- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
 ).
-- Create the client secret: Follow the steps in [Create a new application secret](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
+- Create the client secret: Follow the steps in [Create a new application secret](/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
 ). 
 
 > [!div class="mx-imgBorder"]
@@ -120,7 +120,7 @@ To view device readings, the following data must be in place:
 
 ## View device readings on the mobile app
 
-Device readings and summary tiles are viewable on the mobile app when connected to the internet. For more information, see the article: [Connected Field Service on Field Service (Dynamics 365) mobile app](https://docs.microsoft.com/dynamics365/field-service/cfs-mobile-powerapp#view-summary-tiles-and-device-readings)  
+Device readings and summary tiles are viewable on the mobile app when connected to the internet. For more information, see the article: [Connected Field Service on Field Service (Dynamics 365) mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
 
 ## Error codes
 
