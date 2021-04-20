@@ -1,7 +1,7 @@
 ---
-title: "What's supported for Dynamics 365 App for Outlook | MicrosoftDocs"
+title: "System requirements, limits, and configuration values for Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
-description: What's supported for Dynamics 365 App for Outlook.
+description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
 ms.date: 04/20/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -22,13 +22,14 @@ search.app:
 ---
 
 
-# What's supported
+# System requirements, limits, and configuration values for App for Outlook
 
 
-## Requirements  
- The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
- 
- 
+This topic contains requirements, limits, and configuration values for Dynamics 365 App for Outlook
+
+
+## Email
+
  |  |  |
 |---------|---------|
 |**Email Server**     |  <ul><li>Exchange Server 2013 CU 14 or greater</li><br/>  <li>Exchange Server 2016</li><br/> <li>Exchange Online</li></ul>       |
