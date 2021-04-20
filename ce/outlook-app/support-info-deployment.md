@@ -85,7 +85,7 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 
 (5) Supported on iPhones 6S or higher, with iOS 8 or higher.
 
-### Supported browsers for Outlook on the web  
+## Supported browsers for Outlook on the web  
  You can use Dynamics 365 App for Outlook with Outlook on the web on the following browsers: 
 
 -   Internet Explorer 11, or Microsoft Edge 
