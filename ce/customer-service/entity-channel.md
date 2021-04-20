@@ -28,7 +28,7 @@ Cases and other entity records can be routed to omnichannel queues along with wo
 
 This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents skill, capacity, and presence.
 
-## Configure entity records channel
+## Configure records channel
 
 To setup the **Entity Record** channel for cases, follow the steps:
 
@@ -41,7 +41,7 @@ To setup the **Entity Record** channel for cases, follow the steps:
 
 ## Step 1: Create queues and add agents
 
-Create a new omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
+Create an omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
 
 ## Step 2: Enable entity for activities and queues<a name="enable-entities"> </a>
 
