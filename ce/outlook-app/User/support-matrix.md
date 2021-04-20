@@ -1,6 +1,6 @@
 ---
-title: "Supported setup for  Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
-description: Supported setup for Dynamics 365 App for Outlook
+title: "Supported features (Dynamics 365 apps) | MicrosoftDocs"
+description: Supported features using App for Oulook on Outlook desktop client, Outlook Web Access, and a mobile device.
 ms.custom: 
 ms.date: 02/17/2021
 ms.reviewer: 
@@ -22,13 +22,13 @@ search.app:
   - D365Outlook
 ---
 
-# What's supported to use Dynamics 365 App for Outlook
+# Supported features 
 
-The following are the supported environments to use Dynamics 365 App for Outlook.
+The tables below shows the supported features using App for Oulook on Outlook desktop client, Outlook Web Access, and a mobile device.
 
 **Dynamics 365 and Microsoft Exchange Online**
 
-| **Feature**                                         | **Outlook desktop client** |                     |              |                 | **Outlook web access** |               | **Mobile** |     |
+| **Feature**                                         | **Outlook desktop client** |                     |              |                 | **Outlook Web Access** |               | **Mobile** |     |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-----|
 |                                                     | Outlook C2R                | Outlook 16 or later | Outlook 2013 | Outlook for Mac | Microsoft Edge         | Google Chrome | Android    | iOS |
 | Sent and received email                             | X                          | X                   | X            | X               | X                      | X             | X          | X   |
