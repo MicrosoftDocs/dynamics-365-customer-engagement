@@ -22,7 +22,7 @@ search.app:
   - D365Outlook
 ---
 
-# Track a task to Dynamics 365
+# Track tasks to Dynamics 365
 
 Track your tasks in Microsoft Outlook to your Dynamics 365 app. You can only track a task using category based tracking. 
 
