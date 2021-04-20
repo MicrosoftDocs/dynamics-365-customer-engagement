@@ -746,7 +746,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream"></a> msdyn_entityroutingconfiguration_msdyn_liveworkstream
 
-Same as msdyn_liveworkstream entity [msdyn_entityroutingconfiguration_msdyn_liveworkstream](msdyn_liveworkstream.md#BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream) Many-To-One relationship.
+Same as msdyn_liveworkstream entity [msdyn_entityroutingconfiguration_msdyn_liveworkstream](msdyn_liveworkstream.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

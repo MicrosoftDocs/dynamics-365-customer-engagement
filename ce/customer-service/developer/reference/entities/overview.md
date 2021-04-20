@@ -119,7 +119,7 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_usersetting](msdyn_usersetting.md)|
 |[msdyn_visitorjourney](msdyn_visitorjourney.md)|
 |[msdyn_wechatengagementctx](msdyn_wechatengagementctx.md)|
-|[msdyn_whatsappengagementctx](msdyn_whatsappengagementctx)|
+|[msdyn_whatsappengagementctx](msdyn_whatsappengagementctx.md)|
 |[queue](queue.md)|
 |[socialprofile](socialprofile.md)|
 |[systemuser](systemuser.md)|
