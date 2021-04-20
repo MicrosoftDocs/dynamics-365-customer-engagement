@@ -17,7 +17,7 @@ You can configure settings for record routing in Customer Service Hub, Omnichann
 
 ## Provision unified routing
 
-To enable unified routing in Customer Service, do the following:
+To provision unified routing in Customer Service, do the following:
 
 1. In Customer Service Hub, go to **Service Management**.
 2. In the site map, under **Service Terms**, select **Service Configuration**.
@@ -27,7 +27,6 @@ To enable unified routing in Customer Service, do the following:
 After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing.
 
 > ![Site map view for unified routing](media/enable-unified-routing.png)
-
 
 ## Prerequisites
 
