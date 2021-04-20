@@ -64,7 +64,7 @@ If you're adding authentication for a chat widget on a website developed using P
 - **JavaScript client function**: `auth.getAuthenticationToken`
 - **Token endpoint**: `<portal_base_URL>/_services/auth/token`
 
-The Power Apps portal will attempt to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
+The Power Apps portal will try to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
 
 ## Setup for custom portals that are not created using Power Apps
 
