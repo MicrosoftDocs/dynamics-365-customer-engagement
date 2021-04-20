@@ -90,22 +90,24 @@ If you are adding an authenticated chat experience to a custom website, your web
         7M6ZL4vsDevq7E/v3tf6qxpSSHzt4XspXVQty9QHhqDqBEY3PfI4L2JjgIGuPhfS 
         YQIDAQAB 
         -----END PUBLIC KEY-----   
-      ```  
-    If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded:
+        
+  If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
 
-      ```
-        [
+  ```
+   [
         { 
-          "kid": "aYO4EaKT1xYU9JCoqALz6YURr41BqL0Hqp4in6hu4=", 
-          "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZABCDEFmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnVTVVFRSmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNQMHBkNjFOa3JKa2c0aStheThwS2ZqdjNUOHN3NWdaVHFweFFaaitVRWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0NCg==" 
-        }, 
-        { 
-          "kid": "tYL4NaKT1xRO8WCoqALv6DCVr41MqL0Hqp4ik7hu5=", 
-          "publicKey": "YJ0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tPO0NCk1JSUJJakFOQmdrcBhraUc5dzBCQVFFRkFBT0KBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnABCDEFmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNHJKEFNjFOa3JKa2c0aStheThwS2ZqdjBEHUF3NWdaVHFweCCaaitERWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tQM0NCg==" 
+            "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp4in7hu4=",
+            "publicKey": LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnVTVVFRSmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNQMHBkNjFOa3JKa2c0aStheThwS2ZqdjNUOHN3NWdaVHFweFFaaitVRWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0NCg==",
+            "expiry": 1608495423
+        },
+   {
+            "kid": "qWO4EaKT1xRO7JC/oqALz6DCVr41B/qL0Hqp__valid=",
+            "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBbjFLdXhtSEh3V3hjelZSWGRBVmMNCnBEaFZwa0FnYklhTGZBUWc1bFpvemZqc29vcWRGWkl0VlFMdmRERWFVeDNqTytrTkxZM0JFRnBYVDZTN3ZNZCsNCnZoM2hpMDNsQ1dINnNCTWtaSWtuUUliMnFpekFsT0diU2EvK3JrUElnYnpXQjRpT1QyWVhyOVB4bXR5d2o4WUINCnYram55VU5DSzMyZy9FYWsvM0k3YW1vZ2pJY0JISjNFTjVuQWJBMExVVnJwMW5DODJmeEVPOHNJTzNYdjlWNVUNCnc5QnVTVVFRSmtMejNQYVI5WTdRZUEyNW5LUGtqTXZ2Y0UxVU5oeVpIYlNLbmorSitkZmFjb1hsSGtyMEdGTXYNCldkSDZqR0pWcGNQMHBkNjFOa3JKa2c0aStheThwS2ZqdjNUOHN3NWdaVHFweFFaaitVRWxqaVM0SHRPTlhkNlENCnZRSURBUUFCDQotLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0NCg==",
+            "expiry": 1608495423
         } 
-        ] 
-      ```
-
+   ]
+   ```
+        
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
     a. The JWT header will look similar to this example: 
