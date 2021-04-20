@@ -853,7 +853,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_macroactiontemplate_msdyn_actioninput"></a> msdyn_msdyn_macroactiontemplate_msdyn_actioninput
 
-Same as msdyn_actioninputparameter entity [msdyn_msdyn_macroactiontemplate_msdyn_actioninput](msdyn_actioninputparameter.md#BKMK_msdyn_msdyn_macroactiontemplate_msdyn_actioninput) Many-To-One relationship.
+Same as msdyn_actioninputparameter entity [msdyn_msdyn_macroactiontemplate_msdyn_actioninput](msdyn_actioninputparameter.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

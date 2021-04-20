@@ -6,6 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 10/09/2019
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # Error code reference for Omnichannel for Customer Service
 

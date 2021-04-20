@@ -910,15 +910,15 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_SocialProfile_createdonbehalfby"></a> lk_SocialProfile_createdonbehalfby
 
-See systemuser Entity [lk_SocialProfile_createdonbehalfby](systemuser.md#BKMK_lk_SocialProfile_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_SocialProfile_createdonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_socialProfile_owning_user"></a> socialProfile_owning_user
 
-See systemuser Entity [socialProfile_owning_user](systemuser.md#BKMK_socialProfile_owning_user) One-To-Many relationship.
+See systemuser Entity [socialProfile_owning_user](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_SocialProfile_modifiedonbehalfby"></a> lk_SocialProfile_modifiedonbehalfby
 
-See systemuser Entity [lk_SocialProfile_modifiedonbehalfby](systemuser.md#BKMK_lk_SocialProfile_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_SocialProfile_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### See also
 

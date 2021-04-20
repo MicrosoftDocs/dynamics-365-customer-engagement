@@ -67,106 +67,106 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
   - [Entity Properties](#entity-properties)
   - [Writable attributes](#writable-attributes)
     - [<a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber](#-importsequencenumber)
-    - [<a name="BKMK_msdyn_AllowedPresences"></a> msdyn_AllowedPresences](#-msdyn_allowedpresences)
-      - [msdyn_AllowedPresences Options](#msdyn_allowedpresences-options)
-    - [<a name="BKMK_msdyn_APIKey"></a> msdyn_APIKey](#-msdyn_apikey)
-    - [<a name="BKMK_msdyn_apikeyversionnumber"></a> msdyn_apikeyversionnumber](#-msdyn_apikeyversionnumber)
-    - [<a name="BKMK_msdyn_AssignWorkItemAfterDecline"></a> msdyn_AssignWorkItemAfterDecline](#-msdyn_assignworkitemafterdecline)
-    - [<a name="BKMK_msdyn_AutoCloseAfterInactivity"></a> msdyn_AutoCloseAfterInactivity](#-msdyn_autocloseafterinactivity)
-    - [<a name="BKMK_msdyn_bot_queue"></a> msdyn_bot_queue](#-msdyn_bot_queue)
-    - [<a name="BKMK_msdyn_bot_rule"></a> msdyn_bot_rule](#-msdyn_bot_rule)
-    - [<a name="BKMK_msdyn_bot_user"></a> msdyn_bot_user](#-msdyn_bot_user)
-    - [<a name="BKMK_msdyn_capacityformat"></a> msdyn_capacityformat](#-msdyn_capacityformat)
+    - [<a name="BKMK_msdyn_AllowedPresences"></a> msdyn_AllowedPresences]
+      - [msdyn_AllowedPresences Options]
+    - [<a name="BKMK_msdyn_APIKey"></a> msdyn_APIKey]
+    - [<a name="BKMK_msdyn_apikeyversionnumber"></a> msdyn_apikeyversionnumber](#BKMK_msdyn_apikeyversionnumber)
+    - [<a name="BKMK_msdyn_AssignWorkItemAfterDecline"></a> msdyn_AssignWorkItemAfterDecline]
+    - [<a name="BKMK_msdyn_AutoCloseAfterInactivity"></a> msdyn_AutoCloseAfterInactivity](#BKMK_msdyn_autocloseafterinactivity)
+    - [<a name="BKMK_msdyn_bot_queue"></a> msdyn_bot_queue](#BKMK_msdyn_bot_queue)
+    - [<a name="BKMK_msdyn_bot_rule"></a> msdyn_bot_rule](#BKMK_msdyn_bot_rule)
+    - [<a name="BKMK_msdyn_bot_user"></a> msdyn_bot_user](#BKMK_msdyn_bot_user)
+    - [<a name="BKMK_msdyn_capacityformat"></a> msdyn_capacityformat](#BKMK_msdyn_capacityformat)
       - [msdyn_capacityformat Options](#msdyn_capacityformat-options)
-    - [<a name="BKMK_msdyn_CapacityRequired"></a> msdyn_CapacityRequired](#-msdyn_capacityrequired)
-    - [<a name="BKMK_msdyn_ConnectorsURL"></a> msdyn_ConnectorsURL](#-msdyn_connectorsurl)
-    - [<a name="BKMK_msdyn_conversationmode"></a> msdyn_conversationmode](#-msdyn_conversationmode)
+    - [<a name="BKMK_msdyn_CapacityRequired"></a> msdyn_CapacityRequired](#BKMK_msdyn_capacityrequired)
+    - [<a name="BKMK_msdyn_ConnectorsURL"></a> msdyn_ConnectorsURL](#BKMK_msdyn_connectorsurl)
+    - [<a name="BKMK_msdyn_conversationmode"></a> msdyn_conversationmode](#BKMK_msdyn_conversationmode)
       - [msdyn_conversationmode Options](#msdyn_conversationmode-options)
-    - [<a name="BKMK_msdyn_CustomerID"></a> msdyn_CustomerID](#-msdyn_customerid)
-    - [<a name="BKMK_msdyn_enableagentaffinity"></a> msdyn_enableagentaffinity](#-msdyn_enableagentaffinity)
+    - [<a name="BKMK_msdyn_CustomerID"></a> msdyn_CustomerID](#BKMK_msdyn_customerid)
+    - [<a name="BKMK_msdyn_enableagentaffinity"></a> msdyn_enableagentaffinity](#BKMK_msdyn_enableagentaffinity)
       - [msdyn_enableagentaffinity Options](#msdyn_enableagentaffinity-options)
-    - [<a name="BKMK_msdyn_enableautomatedmessages"></a> msdyn_enableautomatedmessages](#-msdyn_enableautomatedmessages)
+    - [<a name="BKMK_msdyn_enableautomatedmessages"></a> msdyn_enableautomatedmessages](#BKMK_msdyn_enableautomatedmessages)
       - [msdyn_enableautomatedmessages Options](#msdyn_enableautomatedmessages-options)
-    - [<a name="BKMK_msdyn_enableselectingfrompushbasedworkstreams"></a> msdyn_enableselectingfrompushbasedworkstreams](#-msdyn_enableselectingfrompushbasedworkstreams)
+    - [<a name="BKMK_msdyn_enableselectingfrompushbasedworkstreams"></a> msdyn_enableselectingfrompushbasedworkstreams](#BKMK_msdyn_enableselectingfrompushbasedworkstreams)
       - [msdyn_enableselectingfrompushbasedworkstreams Options](#msdyn_enableselectingfrompushbasedworkstreams-options)
-    - [<a name="BKMK_msdyn_EntityRoutingConfigurationId"></a> msdyn_EntityRoutingConfigurationId](#-msdyn_entityroutingconfigurationid)
-    - [<a name="BKMK_msdyn_FallBackLanguage"></a> msdyn_FallBackLanguage](#-msdyn_fallbacklanguage)
-    - [<a name="BKMK_msdyn_FollowUpAfterWaiting"></a> msdyn_FollowUpAfterWaiting](#-msdyn_followupafterwaiting)
-    - [<a name="BKMK_msdyn_handlingtimethreshold"></a> msdyn_handlingtimethreshold](#-msdyn_handlingtimethreshold)
-    - [<a name="BKMK_msdyn_LastValidationOn"></a> msdyn_LastValidationOn](#-msdyn_lastvalidationon)
-    - [<a name="BKMK_msdyn_LastValidationStatus"></a> msdyn_LastValidationStatus](#-msdyn_lastvalidationstatus)
-    - [<a name="BKMK_msdyn_liveworkstreamId"></a> msdyn_liveworkstreamId](#-msdyn_liveworkstreamid)
-    - [<a name="BKMK_msdyn_masterentityroutingconfigurationid"></a> msdyn_masterentityroutingconfigurationid](#-msdyn_masterentityroutingconfigurationid)
-    - [<a name="BKMK_msdyn_matchinglogic"></a> msdyn_matchinglogic](#-msdyn_matchinglogic)
+    - [<a name="BKMK_msdyn_EntityRoutingConfigurationId"></a> msdyn_EntityRoutingConfigurationId](#BKMK_msdyn_entityroutingconfigurationid)
+    - [<a name="BKMK_msdyn_FallBackLanguage"></a> msdyn_FallBackLanguage](#BKMK_msdyn_fallbacklanguage)
+    - [<a name="BKMK_msdyn_FollowUpAfterWaiting"></a> msdyn_FollowUpAfterWaiting](#BKMK_msdyn_followupafterwaiting)
+    - [<a name="BKMK_msdyn_handlingtimethreshold"></a> msdyn_handlingtimethreshold](#BKMK_msdyn_handlingtimethreshold)
+    - [<a name="BKMK_msdyn_LastValidationOn"></a> msdyn_LastValidationOn](#BKMK_msdyn_lastvalidationon)
+    - [<a name="BKMK_msdyn_LastValidationStatus"></a> msdyn_LastValidationStatus](#BKMK_msdyn_lastvalidationstatus)
+    - [<a name="BKMK_msdyn_liveworkstreamId"></a> msdyn_liveworkstreamId](#BKMK_msdyn_liveworkstreamid)
+    - [<a name="BKMK_msdyn_masterentityroutingconfigurationid"></a> msdyn_masterentityroutingconfigurationid](#BKMK_msdyn_masterentityroutingconfigurationid)
+    - [<a name="BKMK_msdyn_matchinglogic"></a> msdyn_matchinglogic](#BKMK_msdyn_matchinglogic)
       - [msdyn_matchinglogic Options](#msdyn_matchinglogic-options)
-    - [<a name="BKMK_msdyn_MaxConcurrentConnection"></a> msdyn_MaxConcurrentConnection](#-msdyn_maxconcurrentconnection)
-    - [<a name="BKMK_msdyn_mode"></a> msdyn_mode](#-msdyn_mode)
+    - [<a name="BKMK_msdyn_MaxConcurrentConnection"></a> msdyn_MaxConcurrentConnection](#BKMK_msdyn_maxconcurrentconnection)
+    - [<a name="BKMK_msdyn_mode"></a> msdyn_mode](#BKMK_msdyn_mode)
       - [msdyn_mode Options](#msdyn_mode-options)
-    - [<a name="BKMK_msdyn_name"></a> msdyn_name](#-msdyn_name)
-    - [<a name="BKMK_msdyn_Notification"></a> msdyn_Notification](#-msdyn_notification)
+    - [<a name="BKMK_msdyn_name"></a> msdyn_name](#BKMK_msdyn_name)
+    - [<a name="BKMK_msdyn_Notification"></a> msdyn_Notification](#BKMK_msdyn_notification)
       - [msdyn_Notification Options](#msdyn_notification-options)
-    - [<a name="BKMK_msdyn_notificationscenarioplaceholder"></a> msdyn_notificationscenarioplaceholder](#-msdyn_notificationscenarioplaceholder)
-    - [<a name="BKMK_msdyn_notificationtemplate_consult"></a> msdyn_notificationtemplate_consult](#-msdyn_notificationtemplate_consult)
-    - [<a name="BKMK_msdyn_notificationtemplate_incoming_auth"></a> msdyn_notificationtemplate_incoming_auth](#-msdyn_notificationtemplate_incoming_auth)
-    - [<a name="BKMK_msdyn_notificationtemplate_incoming_unauth"></a> msdyn_notificationtemplate_incoming_unauth](#-msdyn_notificationtemplate_incoming_unauth)
-    - [<a name="BKMK_msdyn_notificationtemplate_supervisorassign"></a> msdyn_notificationtemplate_supervisorassign](#-msdyn_notificationtemplate_supervisorassign)
-    - [<a name="BKMK_msdyn_notificationtemplate_transfer"></a> msdyn_notificationtemplate_transfer](#-msdyn_notificationtemplate_transfer)
-    - [<a name="BKMK_msdyn_recordidentificationrule"></a> msdyn_recordidentificationrule](#-msdyn_recordidentificationrule)
-    - [<a name="BKMK_msdyn_RecordIdentificationValidationRule"></a> msdyn_RecordIdentificationValidationRule](#-msdyn_recordidentificationvalidationrule)
-    - [<a name="BKMK_msdyn_routingcontractid"></a> msdyn_routingcontractid](#-msdyn_routingcontractid)
-    - [<a name="BKMK_msdyn_Screenpoptimeout"></a> msdyn_Screenpoptimeout](#-msdyn_screenpoptimeout)
-    - [<a name="BKMK_msdyn_Screenpoptimeout_optionSet"></a> msdyn_Screenpoptimeout_optionSet](#-msdyn_screenpoptimeout_optionset)
+    - [<a name="BKMK_msdyn_notificationscenarioplaceholder"></a> msdyn_notificationscenarioplaceholder](#BKMK_msdyn_notificationscenarioplaceholder)
+    - [<a name="BKMK_msdyn_notificationtemplate_consult"></a> msdyn_notificationtemplate_consult](#BKMK_msdyn_notificationtemplate_consult)
+    - [<a name="BKMK_msdyn_notificationtemplate_incoming_auth"></a> msdyn_notificationtemplate_incoming_auth](#BKMK_msdyn_notificationtemplate_incoming_auth)
+    - [<a name="BKMK_msdyn_notificationtemplate_incoming_unauth"></a> msdyn_notificationtemplate_incoming_unauth](#BKMK_msdyn_notificationtemplate_incoming_unauth)
+    - [<a name="BKMK_msdyn_notificationtemplate_supervisorassign"></a> msdyn_notificationtemplate_supervisorassign](#BKMK_msdyn_notificationtemplate_supervisorassign)
+    - [<a name="BKMK_msdyn_notificationtemplate_transfer"></a> msdyn_notificationtemplate_transfer](#BKMK_msdyn_notificationtemplate_transfer)
+    - [<a name="BKMK_msdyn_recordidentificationrule"></a> msdyn_recordidentificationrule](#BKMK_msdyn_recordidentificationrule)
+    - [<a name="BKMK_msdyn_RecordIdentificationValidationRule"></a> msdyn_RecordIdentificationValidationRule](#BKMK_msdyn_recordidentificationvalidationrule)
+    - [<a name="BKMK_msdyn_routingcontractid"></a> msdyn_routingcontractid](#BKMK_msdyn_routingcontractid)
+    - [<a name="BKMK_msdyn_Screenpoptimeout"></a> msdyn_Screenpoptimeout](#BKMK_msdyn_screenpoptimeout)
+    - [<a name="BKMK_msdyn_Screenpoptimeout_optionSet"></a> msdyn_Screenpoptimeout_optionSet](#BKMK_msdyn_screenpoptimeout_optionset)
       - [msdyn_Screenpoptimeout_optionSet Options](#msdyn_screenpoptimeout_optionset-options)
-    - [<a name="BKMK_msdyn_sessionscenarioplaceholder"></a> msdyn_sessionscenarioplaceholder](#-msdyn_sessionscenarioplaceholder)
-    - [<a name="BKMK_msdyn_sessiontemplate_default"></a> msdyn_sessiontemplate_default](#-msdyn_sessiontemplate_default)
-    - [<a name="BKMK_msdyn_smsprovider"></a> msdyn_smsprovider](#-msdyn_smsprovider)
+    - [<a name="BKMK_msdyn_sessionscenarioplaceholder"></a> msdyn_sessionscenarioplaceholder](#BKMK_msdyn_sessionscenarioplaceholder)
+    - [<a name="BKMK_msdyn_sessiontemplate_default"></a> msdyn_sessiontemplate_default](#BKMK_msdyn_sessiontemplate_default)
+    - [<a name="BKMK_msdyn_smsprovider"></a> msdyn_smsprovider](#BKMK_msdyn_smsprovider)
       - [msdyn_smsprovider Options](#msdyn_smsprovider-options)
-    - [<a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource](#-msdyn_streamsource)
+    - [<a name="BKMK_msdyn_streamsource"></a> msdyn_streamsource](#BKMK_msdyn_streamsource)
       - [msdyn_streamsource Options](#msdyn_streamsource-options)
-    - [<a name="BKMK_msdyn_TelesignInboundURL"></a> msdyn_TelesignInboundURL](#-msdyn_telesigninboundurl)
-    - [<a name="BKMK_msdyn_TwilioInboundURL"></a> msdyn_TwilioInboundURL](#-msdyn_twilioinboundurl)
-    - [<a name="BKMK_msdyn_waitingtimethreshold"></a> msdyn_waitingtimethreshold](#-msdyn_waitingtimethreshold)
-    - [<a name="BKMK_msdyn_workdistributionmode"></a> msdyn_workdistributionmode](#-msdyn_workdistributionmode)
+    - [<a name="BKMK_msdyn_TelesignInboundURL"></a> msdyn_TelesignInboundURL]
+    - [<a name="BKMK_msdyn_TwilioInboundURL"></a> msdyn_TwilioInboundURL]
+    - [<a name="BKMK_msdyn_waitingtimethreshold"></a> msdyn_waitingtimethreshold](#BKMK_msdyn_waitingtimethreshold)
+    - [<a name="BKMK_msdyn_workdistributionmode"></a> msdyn_workdistributionmode](#BKMK_msdyn_workdistributionmode)
       - [msdyn_workdistributionmode Options](#msdyn_workdistributionmode-options)
-    - [<a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn](#-overriddencreatedon)
-    - [<a name="BKMK_OwnerId"></a> OwnerId](#-ownerid)
-    - [<a name="BKMK_OwnerIdType"></a> OwnerIdType](#-owneridtype)
-    - [<a name="BKMK_statecode"></a> statecode](#-statecode)
+    - [<a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn]
+    - [<a name="BKMK_OwnerId"></a> OwnerId]
+    - [<a name="BKMK_OwnerIdType"></a> OwnerIdType]
+    - [<a name="BKMK_statecode"></a> statecode]
       - [statecode Options](#statecode-options)
-    - [<a name="BKMK_statuscode"></a> statuscode](#-statuscode)
+    - [<a name="BKMK_statuscode"></a> statuscode](#BKMK_statuscode)
       - [statuscode Options](#statuscode-options)
-    - [<a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber](#-timezoneruleversionnumber)
-    - [<a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode](#-utcconversiontimezonecode)
+    - [<a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber]
+    - [<a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode]
   - [Read-only attributes](#read-only-attributes)
-    - [<a name="BKMK_CreatedBy"></a> CreatedBy](#-createdby)
-    - [<a name="BKMK_CreatedByName"></a> CreatedByName](#-createdbyname)
-    - [<a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName](#-createdbyyominame)
-    - [<a name="BKMK_CreatedOn"></a> CreatedOn](#-createdon)
-    - [<a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy](#-createdonbehalfby)
-    - [<a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName](#-createdonbehalfbyname)
-    - [<a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName](#-createdonbehalfbyyominame)
-    - [<a name="BKMK_ModifiedBy"></a> ModifiedBy](#-modifiedby)
-    - [<a name="BKMK_ModifiedByName"></a> ModifiedByName](#-modifiedbyname)
-    - [<a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName](#-modifiedbyyominame)
-    - [<a name="BKMK_ModifiedOn"></a> ModifiedOn](#-modifiedon)
-    - [<a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy](#-modifiedonbehalfby)
-    - [<a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName](#-modifiedonbehalfbyname)
-    - [<a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName](#-modifiedonbehalfbyyominame)
-    - [<a name="BKMK_msdyn_bot_queueName"></a> msdyn_bot_queueName](#-msdyn_bot_queuename)
-    - [<a name="BKMK_msdyn_bot_userName"></a> msdyn_bot_userName](#-msdyn_bot_username)
-    - [<a name="BKMK_msdyn_bot_userYomiName"></a> msdyn_bot_userYomiName](#-msdyn_bot_useryominame)
-    - [<a name="BKMK_msdyn_entityroutingconfigurationIdName"></a> msdyn_entityroutingconfigurationIdName](#-msdyn_entityroutingconfigurationidname)
-    - [<a name="BKMK_msdyn_masterentityroutingconfigurationidName"></a> msdyn_masterentityroutingconfigurationidName](#-msdyn_masterentityroutingconfigurationidname)
-    - [<a name="BKMK_msdyn_routingcontractidName"></a> msdyn_routingcontractidName](#-msdyn_routingcontractidname)
-    - [<a name="BKMK_msdyn_skillattachmentrulescount"></a> msdyn_skillattachmentrulescount](#-msdyn_skillattachmentrulescount)
-    - [<a name="BKMK_msdyn_skillattachmentrulescount_Date"></a> msdyn_skillattachmentrulescount_Date](#-msdyn_skillattachmentrulescount_date)
-    - [<a name="BKMK_msdyn_skillattachmentrulescount_State"></a> msdyn_skillattachmentrulescount_State](#-msdyn_skillattachmentrulescount_state)
-    - [<a name="BKMK_OwnerIdName"></a> OwnerIdName](#-owneridname)
-    - [<a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName](#-owneridyominame)
-    - [<a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit](#-owningbusinessunit)
-    - [<a name="BKMK_OwningTeam"></a> OwningTeam](#-owningteam)
-    - [<a name="BKMK_OwningUser"></a> OwningUser](#-owninguser)
-    - [<a name="BKMK_VersionNumber"></a> VersionNumber](#-versionnumber)
+    - [<a name="BKMK_CreatedBy"></a> CreatedBy]
+    - [<a name="BKMK_CreatedByName"></a> CreatedByName]
+    - [<a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName]
+    - [<a name="BKMK_CreatedOn"></a> CreatedOn]
+    - [<a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy]
+    - [<a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName]
+    - [<a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName]
+    - [<a name="BKMK_ModifiedBy"></a> ModifiedBy]
+    - [<a name="BKMK_ModifiedByName"></a> ModifiedByName]
+    - [<a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName]
+    - [<a name="BKMK_ModifiedOn"></a> ModifiedOn]
+    - [<a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy]
+    - [<a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName]
+    - [<a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName]
+    - [<a name="BKMK_msdyn_bot_queueName"></a> msdyn_bot_queueName]
+    - [<a name="BKMK_msdyn_bot_userName"></a> msdyn_bot_userName]
+    - [<a name="BKMK_msdyn_bot_userYomiName"></a> msdyn_bot_userYomiName]
+    - [<a name="BKMK_msdyn_entityroutingconfigurationIdName"></a> msdyn_entityroutingconfigurationIdName]
+    - [<a name="BKMK_msdyn_masterentityroutingconfigurationidName"></a> msdyn_masterentityroutingconfigurationidName]
+    - [<a name="BKMK_msdyn_routingcontractidName"></a> msdyn_routingcontractidName]
+    - [<a name="BKMK_msdyn_skillattachmentrulescount"></a> msdyn_skillattachmentrulescount]
+    - [<a name="BKMK_msdyn_skillattachmentrulescount_Date"></a> msdyn_skillattachmentrulescount_Date]
+    - [<a name="BKMK_msdyn_skillattachmentrulescount_State"></a> msdyn_skillattachmentrulescount_State]
+    - [<a name="BKMK_OwnerIdName"></a> OwnerIdName]
+    - [<a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName]
+    - [<a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit]
+    - [<a name="BKMK_OwningTeam"></a> OwningTeam]
+    - [<a name="BKMK_OwningUser"></a> OwningUser]
+    - [<a name="BKMK_VersionNumber"></a> VersionNumber]
     - [See also](#see-also)
 
 

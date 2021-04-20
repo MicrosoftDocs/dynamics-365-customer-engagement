@@ -644,7 +644,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem"></a> msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem
 
-Same as msdyn_chatquestionnaireresponseitem entity [msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem](msdyn_chatquestionnaireresponseitem.md#BKMK_msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem) Many-To-One relationship.
+Same as msdyn_chatquestionnaireresponseitem entity [msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem](msdyn_chatquestionnaireresponseitem.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -665,7 +665,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_surveyquestion_msdyn_chatansweroption"></a> msdyn_surveyquestion_msdyn_chatansweroption
 
-See msdyn_surveyquestion Entity [msdyn_surveyquestion_msdyn_chatansweroption](msdyn_surveyquestion.md#BKMK_msdyn_surveyquestion_msdyn_chatansweroption) One-To-Many relationship.
+See msdyn_surveyquestion Entity [msdyn_surveyquestion_msdyn_chatansweroption](msdyn_surveyquestion.md) One-To-Many relationship.
 
 ### See also
 

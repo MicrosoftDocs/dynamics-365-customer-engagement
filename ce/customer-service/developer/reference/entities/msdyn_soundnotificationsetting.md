@@ -767,7 +767,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [msdyn_soundnotificationsetting_SyncErrors](syncerror.md#BKMK_msdyn_soundnotificationsetting_SyncErrors) Many-To-One relationship.
+Same as syncerror entity [msdyn_soundnotificationsetting_SyncErrors](#BKMK_msdyn_soundnotificationsetting_SyncErrors) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -784,7 +784,7 @@ Same as syncerror entity [msdyn_soundnotificationsetting_SyncErrors](syncerror.m
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [msdyn_soundnotificationsetting_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_soundnotificationsetting_DuplicateMatchingRecord) Many-To-One relationship.
+Same as duplicaterecord entity [msdyn_soundnotificationsetting_DuplicateMatchingRecord](#BKMK_msdyn_soundnotificationsetting_DuplicateMatchingRecord) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -801,7 +801,7 @@ Same as duplicaterecord entity [msdyn_soundnotificationsetting_DuplicateMatching
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [msdyn_soundnotificationsetting_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_soundnotificationsetting_DuplicateBaseRecord) Many-To-One relationship.
+Same as duplicaterecord entity [msdyn_soundnotificationsetting_DuplicateBaseRecord](#BKMK_msdyn_soundnotificationsetting_DuplicateBaseRecord) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -818,7 +818,7 @@ Same as duplicaterecord entity [msdyn_soundnotificationsetting_DuplicateBaseReco
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [msdyn_soundnotificationsetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_soundnotificationsetting_AsyncOperations) Many-To-One relationship.
+Same as asyncoperation entity [msdyn_soundnotificationsetting_AsyncOperations](#BKMK_msdyn_soundnotificationsetting_AsyncOperations) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -835,7 +835,7 @@ Same as asyncoperation entity [msdyn_soundnotificationsetting_AsyncOperations](a
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [msdyn_soundnotificationsetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_soundnotificationsetting_MailboxTrackingFolders) Many-To-One relationship.
+Same as mailboxtrackingfolder entity [msdyn_soundnotificationsetting_MailboxTrackingFolders](#BKMK_msdyn_soundnotificationsetting_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -852,7 +852,7 @@ Same as mailboxtrackingfolder entity [msdyn_soundnotificationsetting_MailboxTrac
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [msdyn_soundnotificationsetting_ProcessSession](processsession.md#BKMK_msdyn_soundnotificationsetting_ProcessSession) Many-To-One relationship.
+Same as processsession entity [msdyn_soundnotificationsetting_ProcessSession](#BKMK_msdyn_soundnotificationsetting_ProcessSession) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -869,7 +869,7 @@ Same as processsession entity [msdyn_soundnotificationsetting_ProcessSession](pr
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [msdyn_soundnotificationsetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_soundnotificationsetting_BulkDeleteFailures) Many-To-One relationship.
+Same as bulkdeletefailure entity [msdyn_soundnotificationsetting_BulkDeleteFailures](#BKMK_msdyn_soundnotificationsetting_BulkDeleteFailures) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -886,7 +886,7 @@ Same as bulkdeletefailure entity [msdyn_soundnotificationsetting_BulkDeleteFailu
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [msdyn_soundnotificationsetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_soundnotificationsetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as principalobjectattributeaccess entity [msdyn_soundnotificationsetting_PrincipalObjectAttributeAccesses](#BKMK_msdyn_soundnotificationsetting_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -903,7 +903,7 @@ Same as principalobjectattributeaccess entity [msdyn_soundnotificationsetting_Pr
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [msdyn_soundnotificationsetting_Annotations](annotation.md#BKMK_msdyn_soundnotificationsetting_Annotations) Many-To-One relationship.
+Same as annotation entity [msdyn_soundnotificationsetting_Annotations](#BKMK_msdyn_soundnotificationsetting_Annotations) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -935,43 +935,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_soundnotificationsetting_createdby](systemuser.md#BKMK_lk_msdyn_soundnotificationsetting_createdby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_soundnotificationsetting_createdby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_soundnotificationsetting_createdonbehalfby"></a> lk_msdyn_soundnotificationsetting_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_soundnotificationsetting_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_soundnotificationsetting_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_soundnotificationsetting_createdonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_soundnotificationsetting_modifiedby"></a> lk_msdyn_soundnotificationsetting_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_soundnotificationsetting_modifiedby](systemuser.md#BKMK_lk_msdyn_soundnotificationsetting_modifiedby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_soundnotificationsetting_modifiedby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_soundnotificationsetting_modifiedonbehalfby"></a> lk_msdyn_soundnotificationsetting_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_soundnotificationsetting_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_soundnotificationsetting_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_soundnotificationsetting_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_soundnotificationsetting"></a> user_msdyn_soundnotificationsetting
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_soundnotificationsetting](systemuser.md#BKMK_user_msdyn_soundnotificationsetting) One-To-Many relationship.
+See systemuser Entity [user_msdyn_soundnotificationsetting](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_team_msdyn_soundnotificationsetting"></a> team_msdyn_soundnotificationsetting
 
 **Added by**: System Solution Solution
 
-See team Entity [team_msdyn_soundnotificationsetting](team.md#BKMK_team_msdyn_soundnotificationsetting) One-To-Many relationship.
+See team Entity [team_msdyn_soundnotificationsetting](#BKMK_team_msdyn_soundnotificationsetting) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_soundnotificationsetting"></a> business_unit_msdyn_soundnotificationsetting
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_msdyn_soundnotificationsetting](businessunit.md#BKMK_business_unit_msdyn_soundnotificationsetting) One-To-Many relationship.
+See businessunit Entity [business_unit_msdyn_soundnotificationsetting](#BKMK_business_unit_msdyn_soundnotificationsetting) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_soundnotificationsetting_linksoundf"></a> msdyn_soundnotificationsetting_linksoundf
 
