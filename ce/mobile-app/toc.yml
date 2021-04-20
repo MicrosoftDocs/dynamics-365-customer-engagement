@@ -2,7 +2,7 @@
   href: overview.md
 - name: Administrator basics
   items:
-  - name: What\'s supported
+  - name: What's supported
     href: support-phones-tablets.md
   - name: Set up mobile app
     href: set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md
