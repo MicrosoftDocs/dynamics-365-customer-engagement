@@ -181,7 +181,7 @@ Legend
 
 Notes allow you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record. The mention capability is available in timeline only when rich text notes and rich text posts are enabled. 
 
-When you type the **@** symbol, the results you see are matches with the first name, last name or email address of system users starting with your search string. When you mouse over the profile image, you can view the user's detailed profile card and online presence status. More information: [View the profile card for a contact or user](https://docs.microsoft.com/en-us/powerapps/user/profile-cards)
+When you type the **@** symbol, the results you see are matches with the first name, last name or email address of system users starting with your search string. When you mouse over the profile image, you can view the user's detailed profile card and online presence status. More information: [View the profile card for a contact or user](/powerapps/user/profile-cards)
 
 When you type the **#** symbol, the results you see are matches with the account and contact name entity records starting with your search string.
 

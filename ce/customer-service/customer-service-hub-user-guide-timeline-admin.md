@@ -14,9 +14,9 @@ ms.reviewer: lalexms
 
 The timeline helps agents see all customer interaction history across channels, personnel, and the support lifecycle. The timeline is used across Dynamics 365 applications to capture activities like notes, appointments, emails, tasks, and more, to ensure that all interactions with the customer are tracked and visible over time. Agents use the timeline to quickly catch up on all of the latest activity details with the customer to provide the most personalized support experience.  
 
-The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts, which gives users a better understanding and helps them deliver more personalized service in an efficient and effective manner.	
+The timeline control provides an easy and immersive experience to view information related to an entity, such as cases, accounts, or contacts, which gives users a better understanding and helps them deliver more personalized service in an efficient and effective manner.
 
-This experience gives system administrators the ability to configure the information displayed in each timeline to help users access information and create new activity records, such as emails and tasks directly from the timeline quickly so they can deliver more personalized service.	
+This experience gives system administrators the ability to configure the information displayed in each timeline to help users access information and create new activity records, such as emails and tasks directly from the timeline quickly so they can deliver more personalized service.
 
 ## Navigate to timeline configurations
 
@@ -422,7 +422,7 @@ Only enable the activities that you need on this form. If you select more than 1
 |Configuration View | |Display View|
 |-------------------|-|------------|
 |![Notes on timeline](media\timeline-notes-1a.png "Notes on timeline") | | ![Notes on timeline - Runtime](media\timeline-notes-3.png "Notes on timeline - Runtime")|
-|The **Notes** the section expands when enabled and allows you to:<BR>1. **Sort notes by** date created or date modified. The **Modified On** date is the default setting. <BR>2. Add a relative web resource path in the **Rich text editor configuration URL** field for customized note capability. More information: [Add the rich text editor control to a model-driven app](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control) ||1. When enabled, Notes can be access via the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using rich text editing.|
+|The **Notes** the section expands when enabled and allows you to:<BR>1. **Sort notes by** date created or date modified. The **Modified On** date is the default setting. <BR>2. Add a relative web resource path in the **Rich text editor configuration URL** field for customized note capability. More information: [Add the rich text editor control to a model-driven app](/powerapps/maker/model-driven-apps/rich-text-editor-control) ||1. When enabled, Notes can be access via the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A dropdown will appear where you can access **Notes**.<BR>3. Use the Notes feature to create a note to add to a record using rich text editing.|
   
 ### Configure form for notes
 
@@ -458,7 +458,7 @@ To enable rich text posts on timeline, contact Microsoft.
 |Configuration View | | Display View|
 |-------------------|-|-------------|
 |![Posts on timeline](media\timeline-posts-1a-rich-text.png "Posts on timeline") ||![Posts on timeline - Runtime](media\timeline-posts-1b.png "Posts on timeline - Runtime")|
-|The **Posts** the section expands when enabled and allows you to:<br>1. **Sort notes by** date created or date modified. The **Created On** date is the default setting.<BR>2. Add a relative web resource path in the **Rich text editor configuration URL** field for customized post capability. More information: [Add the rich text editor control to a model-driven app](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control) || 1. When enabled, posts can be accessed via **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A drop-down menu displays, and you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.<BR><BR> When date **Created On** is used to sort posts on the timeline, the location in the timeline remains constant even when there are responses to that post. <BR><BR> When date **Modified On** is used to sort posts on the timeline, the location in the timeline adjusts to the top when there are responses to that post. <BR><BR> **NOTE**: The timeline doesn't automatically refresh when post replies are added.|
+|The **Posts** the section expands when enabled and allows you to:<br>1. **Sort notes by** date created or date modified. The **Created On** date is the default setting.<BR>2. Add a relative web resource path in the **Rich text editor configuration URL** field for customized post capability. More information: [Add the rich text editor control to a model-driven app]/powerapps/maker/model-driven-apps/rich-text-editor-control) || 1. When enabled, posts can be accessed via **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record") icon.<BR>2. A drop-down menu displays, and you can access **Posts**.<BR>3. Use the Post feature to create a post to add to a record.<BR><BR> When date **Created On** is used to sort posts on the timeline, the location in the timeline remains constant even when there are responses to that post. <BR><BR> When date **Modified On** is used to sort posts on the timeline, the location in the timeline adjusts to the top when there are responses to that post. <BR><BR> **NOTE**: The timeline doesn't automatically refresh when post replies are added.|
 
 ### Configure form for posts
 
@@ -483,7 +483,7 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ## Configure mentions in notes and posts on timeline
 
-To enable mentions, contact Microsoft. When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"). The users and entities displayed is pulled from the configuration file provided in the **Rich text editor configuration URL** field. More information: [Use the rich text editor control in Power Apps](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/rich-text-editor-control)
+To enable mentions, contact Microsoft. When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"). The users and entities displayed is pulled from the configuration file provided in the **Rich text editor configuration URL** field. More information: [Use the rich text editor control in Power Apps](/powerapps/maker/model-driven-apps/rich-text-editor-control)
 
 By default, the **@** symbol returns matches with the first name, last name or email address of system users starting with the search string.
 
@@ -570,7 +570,7 @@ If you are using a CRM app other than CSH or CSw, you need to add your own sitem
 
 ## Create and add custom activities to timeline
 
-You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step-by-step guide.
+You can create custom entities to display on the timeline by enabling specific options during the creation of the entity. See the [How to create and add custom activities](/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-custom-activity-in-timeline) for a step-by-step guide.
 
 ## Configure blocked attachment file types in timeline
 
