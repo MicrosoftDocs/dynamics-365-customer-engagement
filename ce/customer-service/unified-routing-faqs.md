@@ -17,7 +17,7 @@ This topic contains the FAQs that you as an administrator, supervisor, or agent 
 
 ### What SKUs must I have to get unified routing?​
 
-Customers will get unified routing for entities, such as Cases, Leads, and Custom Entity as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for those channels automatically.
+Customers will get unified routing for entities, such as Cases, Leads, and custom entities as a part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
 
 ### What will happen to my current workstreams after unified routing is installed?
 
@@ -26,6 +26,10 @@ For messaging channels, a migration utility will be available to upgrade the wor
 ### Will unified routing support activity routing?​
 
 Yes, unified routing supports routing activities, including email.
+
+### What happens to my existing queues after I migrate to unified routing?
+
+The existing queues will be automatically migrated to unified routing.
 
 ### Will intelligent skill finder be available in all geographical regions?​
 

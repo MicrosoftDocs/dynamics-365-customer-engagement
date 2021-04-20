@@ -1,18 +1,14 @@
 ---
 title: "msdyn_conversationsuggestionrequestpayload Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_conversationsuggestionrequestpayload entity."
-author: "platkat"
-ms.author: "ktaylor"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
-ms.date: 10/12/2020
+ms.date: 03/15/2021
 ms.topic: "reference"
 ms.service: "dynamics-365-customerservice"
-search.audienceType: 
-  - developer
-search.app: 
-  - PowerApps
-  - D365CE
-ms.reviewer: nenellim
+applies_to: 
+  - "Dynamics 365 (online)"
 ---
 # msdyn_conversationsuggestionrequestpayload Entity Reference
 
@@ -583,46 +579,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
 
-## Many-To-One Relationships
-
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-- [lk_msdyn_conversationsuggestionrequestpayload_createdby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby)
-- [lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby)
-- [lk_msdyn_conversationsuggestionrequestpayload_modifiedby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby)
-- [lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby](#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby)
-
-
-### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby"></a> lk_msdyn_conversationsuggestionrequestpayload_createdby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_createdby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby"></a> lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_createdonbehalfby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby"></a> lk_msdyn_conversationsuggestionrequestpayload_modifiedby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_modifiedby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedby) One-To-Many relationship.
-
-### <a name="BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby"></a> lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby
-
-**Added by**: System Solution Solution
-
-See systemuser Entity [lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_conversationsuggestionrequestpayload_modifiedonbehalfby) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

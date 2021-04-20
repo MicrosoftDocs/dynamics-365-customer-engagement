@@ -20,6 +20,8 @@ search.app:
 ---
 # Ask game-specific questions or report issues to the commissioner
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 When you need to get in touch with a commissioner or want to raise an issue with a game, you can reach out to the commissioners from within [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
   
  To reach out by using the help options the commissioner has provided, sign in to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], and then go to **Help** > **Contact Commissioner**.
