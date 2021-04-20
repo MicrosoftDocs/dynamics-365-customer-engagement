@@ -22,7 +22,6 @@ To provision unified routing in Customer Service, do the following:
 1. In Customer Service Hub, go to **Service Management**.
 2. In the site map, under **Service Terms**, select **Service Configuration**.
 3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see a message that unified routing is being provisioned.
-4. Select **Save**.
 
 After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing.
 

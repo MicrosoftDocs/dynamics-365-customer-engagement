@@ -4,7 +4,7 @@ description: "Instructions to create chat authentication settings in Omnichannel
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -64,6 +64,8 @@ If you're adding authentication for a chat widget on a website developed using P
 - **JavaScript client function**: `auth.getAuthenticationToken`
 - **Token endpoint**: `<portal_base_URL>/_services/auth/token`
 
+The Power Apps portal will try to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
+
 ## Setup for custom portals that are not created using Power Apps
 
 If you are adding an authenticated chat experience to a custom website, your web development team will need to do some initial set up before your administrators can configure authenticated chat. 
@@ -110,7 +112,7 @@ If you are adding an authenticated chat experience to a custom website, your web
         
 3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
-    a. The JWT header will look similar to this example: 
+    a. The JWT header will look similar to the following example.
        
     ```JavaScript
     { 
@@ -129,20 +131,24 @@ If you are adding an authenticated chat experience to a custom website, your web
     } 
     ```
 
-   b. The JWT payload should include the following: 
+   b. The JWT payload should include the following.
 
-     - At minimum, these claims: 
+     - At minimum, the following claims.
 
           | Claim | Definition |
           |-------|-------------------------------------------------------------------------------------------------------------|
           | Iss   | The issuer of the token. |
           | Iat   | The date the token was issued. This is in numeric date format.  |
           | Exp   | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
-          | Sub   | The subject of the claim. (We recommend using the GUID of the contact or account record in CRM.)  |
+          | SubId   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. |
+          |||
 
-     - The lwicontext(s): the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](send-context-starting-chat.md).
+     - The lwicontexts: the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](send-context-starting-chat.md).
+       
+       > [!NOTE]
+       > You can also identify records automatically by using context variables. For information: [Automatically identify customers using pre-chat responses and setContext API method](record-identification-rule.md).
      
-     - Any other data you wish to pass. 
+     - Any other data you want to pass.
 
         Your payload will look similar to this example: 
 
@@ -208,7 +214,7 @@ If you are adding an authenticated chat experience to a custom website, your web
 
     b. The name of the javascript client function from step 4. This will be called internally by the live chat widget during the start of a chat. 
        
-      Example: auth.getAuthenticationToken 
+      Example: auth.getAuthenticationToken
 
     > [!NOTE]
     > If your user experience exposes the chat button before users are authenticated, make sure to redirect them to your authentication page as needed. This can be done in the method in step 4, or as an earlier step in your user flow. 
@@ -232,11 +238,12 @@ If you are adding an authenticated chat experience to a custom website, your web
 
 ### See also
 
-[Add a chat widget](add-chat-widget.md) <br>
-[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
-[Create quick replies](create-quick-replies.md) <br>
-[Create and manage operating hours](create-operating-hours.md) <br>
-[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+[Add a chat widget](add-chat-widget.md)  
+[Configure a pre-chat survey](configure-pre-chat-survey.md)  
+[Create quick replies](create-quick-replies.md)  
+[Create and manage operating hours](create-operating-hours.md)  
+[Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)  
+[Automatically identify customers](record-identification-rule.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
