@@ -92,7 +92,7 @@ The tenant admin must provide consent for the enterprise application to be creat
    This means the directory admin or a tenant admin.
    
 3. Is the activation for Dynamics 365 for all environments or per environment?
-Consent is given at tenant level. This applies to all Dynamics 365 Instance within a tenant.
+Consent is given to all instances within a tenant, but the admin needs to manually enable functionality for each instance.
 
 4. What active directory privileges are given to the customer engagement apps?
 
