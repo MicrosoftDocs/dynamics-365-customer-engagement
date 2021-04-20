@@ -17,7 +17,7 @@ You can configure settings for record routing in Customer Service Hub, Omnichann
 
 ## Prerequisites
 
-- To route entity records, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#enable-entities)
+- To route records for an entity, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#enable-entities)
 - The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing)
 - You must have the CSR Manager role to configure record routing.
 
@@ -25,7 +25,7 @@ You can configure settings for record routing in Customer Service Hub, Omnichann
 
 You can configure record routing for entities through Customer Service Hub or Omnichannel admin center.
 
-Perform the following steps to configure record routing:
+Perform the following steps to configure record routing: 
 
 1. If you're using Customer Service Hub, then in the **Service Management** change area, on the site map, select **Record routing** under **Unified Routing**. If you're using Omnichannel admin center, on the site map, select **Record routing** under **General settings**.
 
@@ -83,6 +83,7 @@ The following screenshot shows a workstream with the required intake rule and ro
    > [!NOTE]
    > The agent notifications that you configure for entity record routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
+
 ## Create entity record workstream in Omnichannel Administration
 
 This section describes how to create a workstream for an entity that has been enabled for routing.
@@ -95,7 +96,7 @@ This section describes how to create a workstream for an entity that has been en
 
 4. Specify the following on the **New Work Stream** page:
 
-   | Tab | Field | Value | Description | 
+   | Tab | Field | Value | Description |
    |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
    | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
