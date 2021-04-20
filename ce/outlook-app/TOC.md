@@ -12,11 +12,12 @@
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
 # [Using the app](dynamics-365-app-outlook-user-s-guide.md)
-## [What's supported](user/support-matrix.md)
+## [Supported features](user/support-matrix.md)
 ## [Basic navigation in App for Outlook](user/basic-navigation.md)
 ## [Link an email or appointment to a specific row](user/track-message-or-appointment.md)
 ## [Track an email or appointment without linking it to a specific row](user/track-without-set-regarding.md)
 ## [FAQs about email tracking](user/faq-email-tracking.md)
+## [Track tasks](user/track-a-task.md)
 ## [Create a new contact, lead, or account](user/add-email-recipient-as-a-row.md)
 ## [Add a phone call, appointment, or task activity](user/add-activities.md)
 ## [Track contacts](user/track-contacts.md)
