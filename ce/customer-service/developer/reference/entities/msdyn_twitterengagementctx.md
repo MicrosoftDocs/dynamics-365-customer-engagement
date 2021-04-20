@@ -1,8 +1,8 @@
 ---
 title: "msdyn_twitterengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_twitterengagementctx entity."
-author: "platkat"
-ms.author: "ktaylor"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
 ms.date: 10/12/2020
 ms.topic: "reference"
@@ -760,31 +760,31 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_twitterengagementctx_createdby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_createdby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_twitterengagementctx_createdby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_twitterengagementctx_createdonbehalfby"></a> lk_msdyn_twitterengagementctx_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_twitterengagementctx_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_twitterengagementctx_createdonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_twitterengagementctx_modifiedby"></a> lk_msdyn_twitterengagementctx_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_twitterengagementctx_modifiedby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_modifiedby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_twitterengagementctx_modifiedby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_twitterengagementctx_modifiedonbehalfby"></a> lk_msdyn_twitterengagementctx_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_twitterengagementctx_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_twitterengagementctx_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_twitterengagementctx_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_twitterengagementctx"></a> user_msdyn_twitterengagementctx
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_twitterengagementctx](systemuser.md#BKMK_user_msdyn_twitterengagementctx) One-To-Many relationship.
+See systemuser Entity [user_msdyn_twitterengagementctx](systemuser.md) One-To-Many relationship.
 
 ### See also
 

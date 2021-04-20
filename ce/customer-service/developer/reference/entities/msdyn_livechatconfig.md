@@ -1867,7 +1867,7 @@ See msdyn_authenticationsettings Entity [msdyn_msdyn_authsettings_msdyn_livechat
 
 **Added by**: Omnichannel – Base Solution
 
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid) One-To-Many relationship.
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid](msdyn_liveworkstream.md) One-To-Many relationship.
 
 ### See also
 
