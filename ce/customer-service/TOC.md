@@ -85,7 +85,7 @@
 ##### [Enable agents to attach skills, create rating models](enable-skill-routing-create-rating-model.md)
 ##### [Set up skill finder model](intelligent-skill-model.md)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
-#### [Add skill update control on any routed record](add-skill-update-control.md)
+##### [Add skill update control on any routed record](add-skill-update-control.md)
 ##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
 
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
