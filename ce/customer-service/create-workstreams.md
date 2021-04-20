@@ -25,7 +25,7 @@ The workstream can be one of the following types:
 
 > [!IMPORTANT]
 >
-> - Entity routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing.
+> - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing).
 > - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app.
 
 ## Create a workstream in Omnichannel admin center
