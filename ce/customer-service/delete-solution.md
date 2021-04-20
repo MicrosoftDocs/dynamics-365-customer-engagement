@@ -4,7 +4,7 @@ description: "Learn how to delete an Omnichannel solution from an organization."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/08/2020
+ms.date: 04/20/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -25,7 +25,7 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-2. On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
+4. On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
 
     1.  `ProductivityToolsAnchor`
     2.  `msdyn_OmnichannelProductivityToolsSettings`
@@ -63,8 +63,11 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
     34. `ScenariosAndChannels`
     35. `msdyn_CIFrameworkPatch`
     36. `ChannelAPIIntegrationFramework`
+    37. `OmnichannelIntelligence` 
+    38. `OmnichannelConfiguration`
+    39. `msdyn_MacrosDataOmnichannel`
 
-3. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
+5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
 After all the solutions are deleted, Omnichannel for Customer Service solutions are completely deleted from your organization.
 
