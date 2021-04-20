@@ -32,9 +32,9 @@ Say you have a case form where you want to add a **Skills** control, here are th
 
 4. On the **Insert** tab, select **Section** > **One Column**. Drag and drop the section on the form.
  
-5. From the **Field Explorer**, select an appropriate field (**Case Title** in our example) to add onto the section you just created, and save the form.
+5. From the **Field Explorer**, select an appropriate field (such as **Case Title**) to add onto the section you just created, and save the form.
 
-6. Select the field you just added and click **Change Properties**.  In the **Field Properties** dialog box that appears, select the **Display** tab and enter a label name for the field.
+6. Select the field you just added and click **Change Properties**.  In the **Field Properties** dialog box that appears, select the **Display** tab and enter a label name for the field, such as **Skills**.
     > ![Set Field Properties in the Display tab](media/field-properties-display-tab.png)
 
 7. On the **Controls** tab, select **Add Controls**. 
