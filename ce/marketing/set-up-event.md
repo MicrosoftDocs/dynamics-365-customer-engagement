@@ -1,7 +1,7 @@
 ---
 title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing."
-ms.date: 03/02/2020
+ms.date: 04/21/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -32,7 +32,8 @@ You can see a list of all your event records by [opening the **Events** work are
 
 If you often run similar events, you can save time by creating one or more [event templates](event-templates.md) and then choosing an appropriate template when you first create a new event.
 
-![Example of an event record](media/event-record.png "An example of an event record")
+> [!div class="mx-imgBorder"]
+> ![Example of an event record](media/event-record2.png)
 
 As with many other forms in Dynamics 365, the event form provides a summary of its most important settings at the top, where you'll also find the business workflow timeline, which helps organize your work at each stage of the event-management process. A standard business workflow for events is provided out of the box, but you can customize it to match the process in place at your organization.
 
