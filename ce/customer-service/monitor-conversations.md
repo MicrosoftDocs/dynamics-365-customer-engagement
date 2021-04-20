@@ -1,11 +1,11 @@
 ---
 title: "Monitor and assign conversations as a supervisor | MicrosoftDocs"
-description: "Learn how to monitor conversations as a supervisor"
-author: lalexms
+description: "Learn how to monitor conversations as a supervisor."
+author: mh-jaya
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -88,6 +88,28 @@ At times, you may need to manually assign a conversation. In such cases, the con
   - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned.
 
 5. Depending on the option you chose in Step 4, choose the agent or queue, and then select **Assign**.
+
+## Transfer a conversation
+
+At times, you may need to transfer an ongoing conversation from an agent to another agent or queue. In such cases, the conversation should be in an active or waiting status.
+
+1. Sign in to the **Omnichannel for Customer Service** app.
+
+2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+
+    The list of available agents and their capacities, and queues, is displayed.
+    > [!div class=mx-imgBorder]
+    > ![Select Assign option](media/assign-agents-conversations.png "Select Assign option")
+
+3. Choose a conversation in an **Active** or **Waiting** state, and select **Transfer** on the top-right corner.
+    > [!div class=mx-imgBorder]
+    > ![Select agent or queue option](media/assign-agent-queue.png "Select either agent or queue option")
+
+4. On the **Transfer conversations** dialog box, select **Agent**.
+
+  Select to transfer the conversation to an agent, and choose an agent name from the list. Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
+
+5. After choosing the agent, select **Transfer**.
 
 ### See also
 
