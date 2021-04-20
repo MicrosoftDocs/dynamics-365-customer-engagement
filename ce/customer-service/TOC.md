@@ -85,6 +85,7 @@
 ##### [Enable agents to attach skills, create rating models](enable-skill-routing-create-rating-model.md)
 ##### [Set up skill finder model](intelligent-skill-model.md)
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
+#### [Add skill update control on any routed record](add-skill-update-control.md)
 ##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
 
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
@@ -100,7 +101,6 @@
 #### [Work with queues](work-with-queues.md)
 
 ### Developer experience
-#### [Customize forms to view skills on any routed record](customize-forms-for-skills.md)
 #### [How unified routing impacts queue items and the corresponding APIs](unified-routing-impact-on-APIs.md)
 #### [How to close live work items or deactivate queue items](deactivate-qi-sample-code.md) 
 
