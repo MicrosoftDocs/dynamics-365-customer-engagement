@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-After you set up and enable an entity for routing, you can manually trigger the routing for the records using the save and route button on the entity record forms. As an administrator, you can also setup automatic triggers to route these entity records using Power Automate. Let us look at the triggers in detail in the following sections:
+After you set up and enable an entity for routing, you can manually trigger the routing for the records using the save and route button on the entity record forms. As an administrator, you can also set up automatic triggers to route these entity records using Power Automate. Let us look at the triggers in detail in the following sections:
 
 - Manual trigger using **Save & Route** and **Apply Routing Rules**
 - Automatic trigger using custom Flow
@@ -44,9 +44,9 @@ The record will be routed based on the active routing rule set.
 
 ## Automatically trigger routing using Flow
 
-You can setup a custom flow, to trigger routing for records based on conditions such as when a record is created, updated, and so on. Let's see how to setup a custom flow for create condition.
+You can set up a custom flow, to trigger routing for records based on conditions such as when a record is created, updated, and so on. Let's see how to set up a custom flow for create condition.
 
-To enable automatic trigger to route the entity records, create a custom Flow.
+To enable automatic trigger to route the records, create a custom Flow.
 
 1. Sign in to Power Automate.
 
@@ -76,14 +76,14 @@ To enable automatic trigger to route the entity records, create a custom Flow.
 
 8. Select **New step**. The **Choose an action** step appears.
 
-9. Type **Perform an unbound action** in the search box, and select the action from the list. The **Perform an unbound action** step appears.
+9. Enter **Perform an unbound action** in the search box, and select the action from the list. The **Perform an unbound action** step appears.
 
     > [!div class=mx-imgBorder] 
     > ![Select perform an unbound action](media/route-trigger3.png "Select perform an unbound action")
 
-10. Type **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field.
+10. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field.
 
-11. Type the entity collection name and unique identifier of the record in the specified format against the **Target** field:
+11. Enter the entity collection name and unique identifier of the record in the specified format against the **Target** field:
 
     Format: `<entity collection name>(unique identifier of the entity)`
     Example: leads(Lead)
