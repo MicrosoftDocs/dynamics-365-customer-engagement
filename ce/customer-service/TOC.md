@@ -383,9 +383,9 @@
 #### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 
 ## Service scheduling
-### [Overview of Service scheduling](basics-service-service-scheduling.md)
 ### [Upcoming changes](scheduling-overview.md)
 ### Customer Service Scheduling
+#### [Overview of Service scheduling](basics-service-service-scheduling.md)
 #### [Manage security roles](manage-security-roles.md)
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
