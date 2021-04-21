@@ -44,8 +44,7 @@ Before you start using the **Omnichannel Ongoing Conversations** dashboard, here
 
 - You can transfer conversations to and from agents only, and not bots.
 
-- You can only transfer Active or Waiting state conversations. 
-<!-- add about consultee  -->
+- You can only transfer **Active** or **Waiting** state conversations. 
 
 ## Monitor and join conversations
 
@@ -126,7 +125,7 @@ At times, you may need to transfer an ongoing conversation from an agent to anot
 
 [Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
 [Enable sentiment analysis](enable-sentiment-analysis.md)  
-[Enable supervisors to monitor and assign conversations](configure-intraday-dashboard-supervisor.md)  
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
