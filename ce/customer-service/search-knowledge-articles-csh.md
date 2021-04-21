@@ -236,7 +236,7 @@ Only the filters that your administrator has configured are viewable. If your ad
 
 Any personalization you make to your filter selections will also be applicable to the form-based knowledge control and standalone knowledge base search page.
 
-If you deactivate a filter, it will display as deactivated. If you reactivate the same filter later, the filter will keep its previous configuation.
+If you deactivate a filter, it will appear as deactivated. If you reactivate the same filter later, the filter will keep its previous configuation.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
@@ -312,7 +312,7 @@ To view the auto-filtered results:
 
 Let’s understand this in detail with the help of an example.
 
-In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image:
+In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
 
 ![Select Auto filter results](media/ka-select-auto-filter-results.png "Select Auto filter results")   
   
