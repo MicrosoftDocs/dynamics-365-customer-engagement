@@ -75,7 +75,7 @@ Enable your users mailsboxs so they can use Dynamics 365 App for Outlook.
 2. Go **Settings** > **Email Configuration** and then select **Mailboxes**.
 
    > [!div class="mx-imgBorder"]
-   >![Go to mailboxes settings](media/mailboxes.png.png)
+   >![Go to mailboxes settings](media/mailboxes.png)
 
 ## Provide security role access
 
