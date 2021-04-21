@@ -462,7 +462,7 @@
 ### [Overview](developer/omnichannel-developer.md)
 ### [Extend Omnichannel for Customer Service](extend-omnichannel.md)
 ### Entity reference
-#### [Overview](developer/reference/entities/overview.md)
+#### [Overview](developer/reference/entities/overview-entity-ref.md)
 #### [Deprecated entities](developer/reference/entities/deprecated-entities.md)
 #### [incident](developer/reference/entities/incident.md)
 #### [msdyn_actioninputparameter](developer/reference/entities/msdyn_actioninputparameter.md)
