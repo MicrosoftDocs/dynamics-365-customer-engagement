@@ -1,6 +1,6 @@
 ---
-title: "Skill update control for routed records| Microsoft Docs"
-description: "Learn how to add a skill update control on forms to view skills on any routed record"
+title: "Skill control for routed records| Microsoft Docs"
+description: "Learn how to add a skill control on forms to view skills on any routed record"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -17,17 +17,17 @@ search.app:
   - D365CS
 ms.reviewer: nenellim
 ---
-# Add a skill update control to view skills on any routed record
+# Add a skill control to view skills on any routed record
 
-Dynamics 365 provides an out-of-the box control that you can embed in any of your forms to view the skills of any routed record. To be able to add the skill update control, you must have the System Administrator or System Customizer security role or equivalent permissions. To know more about your security role, see [View your user profile](../basics/view-your-user-profile.md).
+Dynamics 365 provides an out-of-the box control that you can embed in any of your forms to view the skills of any routed record. To be able to add the skill control, you must have the System Administrator or System Customizer security role or equivalent permissions. To know more about your security role, see [View your user profile](../basics/view-your-user-profile.md).
 
-Say you want to add the skill update control named **Skills** to a case form, then:
+Say you want to add the skill control named **Skills** to a case form, then:
 
 1. In Dynamics 365, go to **Advanced Settings** > **Customizations** > **Customize the System**.
 
 2. In the navigation pane, under **Components**, select **Entities** > **Case** > **Forms**. 
 
-3. From the **Forms** list that appears on the grid, select the form where you want to add the skill update control. In this example, we have selected the **Case for Interactive experience** form.
+3. From the **Forms** list that appears on the grid, select the form where you want to add the skill control. In this example, we have selected the **Case for Interactive experience** form.
 
 4. On the **Insert** tab, select **Section** > **One Column**. Drag and drop the section on the form.
  
@@ -43,7 +43,7 @@ Say you want to add the skill update control named **Skills** to a case form, th
 
   In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the drop-down list and click **OK**.
     > [!div class=mx-imgBorder]
-    > ![Select the Skill Update Control from the drop-down list](media/add-skill-update-control.png "Select the Skill Update Control from the drop-down list")
+    > ![Select the Skill Control from the drop-down list](media/add-skill-update-control.png "Select the Skill Control from the drop-down list")
 
 9. Save and publish the form.
    

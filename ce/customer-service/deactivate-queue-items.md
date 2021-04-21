@@ -65,3 +65,10 @@ You can use the following sample code to trigger the closure of live work items 
         }
     }
    ```
+
+[Overview of unified routing](overview-unified-routing.md)  
+[Set up unified routing](set-up-routing-process.md)  
+[How unified routing impacts queue items and the corresponding APIs](unified-routing-impact-on-APIs.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

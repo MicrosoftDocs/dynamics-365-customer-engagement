@@ -38,7 +38,14 @@ Before you start using the **Omnichannel Ongoing Conversations** dashboard, here
 
 - You can monitor only conversations that are in the **Active** and **Wrap-up** states.
 
-- You can't monitor conversations that are assigned to you.
+- You cannot monitor conversations that are assigned to you.
+
+- You can transfer conversations only on messaging channels, and not on elevated voice and video channels. 
+
+- You can transfer conversations to and from agents only, and not bots.
+
+- You can only transfer Active or Waiting state conversations. 
+<!-- add about consultee  -->
 
 ## Monitor and join conversations
 
@@ -76,7 +83,7 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of available agents and their capacities, and queues, is displayed.
+    The list of available agents, their capacities, and queues, is displayed.
     > [!div class=mx-imgBorder]
     > ![Select Assign option](media/assign-agents-conversations.png "Select Assign option")
 
@@ -111,6 +118,9 @@ At times, you may need to transfer an ongoing conversation from an agent to anot
 
 5. After selecting the agent, select **Transfer**.
     The selected conversation is transferred to the agent.
+
+> [!NOTE]
+> When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent becomes a consultee to the conversation that is now being managed by the second agent.
 
 ### See also
 
