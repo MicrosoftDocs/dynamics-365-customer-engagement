@@ -109,6 +109,40 @@ When the set up is successful the **configuration Test Results** section should 
 > ![Open a mailbox to verify that it's set up correctly](media/verify-mailbox.png)
 
 
+## Provide security role access
+
+Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of privileges required to run App for Outlook are packaged as a security role called **Dynamics 365 App for Outlook User** which is bound to the App. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. 
+
+1. From your app, go to **Settings** > **Advanced Settings**.
+
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/outlookapp_advancedsettings.png)
+
+2. Go **Settings** > **Security** and then select **Users**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select a user settings](media/user-settings.png)
+
+3.  Select the users from the list and then select **Manage Roles**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select manage roles](media/manage-roles.png)
+
+5.  In the **Manage User Roles** dialog, select the **Dynamics 365 App for Outlook User** security role to the users and then select **OK**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select user role](media/select-user-role.png)
+
+This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead entity, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead entity where applicable.
+
+> [!NOTE]
+>  - The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
+> “You haven't been authorized to use this app. Check with your system administrator to update your settings.”
+>  - At this time, adding a team to the **Dynamics 365 App for Outlook User** security role doesn't automatically propogate the privileges to the users within that team.
+
+
+
+
 ## Deploy App for Outlook
 
 Deploy App for Outlook to your users.
@@ -152,35 +186,7 @@ The app will appear in the Outlook ribbon for the added users.
 
 
 
-## Provide security role access
 
-
-
-
-
-
-Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of privileges required to run App for Outlook are packaged as a security role called **Dynamics 365 App for Outlook User** which is bound to the App. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. In order to achieve this, follow the steps below:
-
-1. From your app, go to **Settings** > **Advanced Settings**.
-
-   > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/outlookapp_advancedsettings.png)
-
-2. Go **Settings** > **Security** and then select **Users**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select a user settings](media/user-settings.png)
-
-3.  Select the users from the list and then select **Manage Roles**.
-
-5.  In the **Manage User Roles** dialog, apply the **Dynamics 365 App for Outlook User** security role to the users.
-
-This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead entity, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead entity where applicable.
-
-> [!NOTE]
->  - The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
-> “You haven't been authorized to use this app. Check with your system administrator to update your settings.”
->  - At this time, adding a team to the **Dynamics 365 App for Outlook User** security role doesn't automatically propogate the privileges to the users within that team.
 
 
 
