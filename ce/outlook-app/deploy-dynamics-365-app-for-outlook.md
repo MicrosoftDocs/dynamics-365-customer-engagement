@@ -75,7 +75,7 @@ Enable and test user mailboxs so they can use Dynamics 365 App for Outlook.
 2. Go **Settings** > **Email Configuration** and then select **Mailboxes**.
 
    > [!div class="mx-imgBorder"]
-   >![Go to mailboxes settings](media/mailboxes.png)
+   > ![Go to mailboxes settings](media/mailboxes.png)
    
 3. Select the **Active Mailboxes** view, and then select the mailboxes that you want to test and enable. 
 
@@ -109,12 +109,51 @@ When the set up is successful the **configuration Test Results** section should 
 > ![Open a mailbox to verify that it's set up correctly](media/verify-mailbox.png)
 
 
+## Deploy App for Outlook
+
+Deploy App for Outlook to your users.
+
+1. From your app, go to **Settings** > **Advanced Settings**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Setting Customizations](media/outlookapp_advancedsettings.png)
+
+2. Go **Settings** > **Dynamics 365 App for Outlook**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Go to Dynamics 365 App for Outlook](media/settings-app-for-outlook.png)
+
+3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have two options to deploy the app to your users:
+ 
+ - Select the checkbox to automatically add App for Outlook to all eligible users. When you select this option, the system will keep an eye and if anything changes, it will add or remove the app automatically. Then select **Save**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Automatically deply the app](media/deploy-app-auto.png)
+   
+   
+ - Select **ADD APP FOR EIGIBILE USERS** to deploy the app to users that are set up correctly. When you do this the **Status** changes to **Pending**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Automatically deply the app](media/deploy-app-auto-1.png)
+
+
+
+
+
+
+
+
 
 
 
 
 
 ## Provide security role access
+
+
+
+
+
 
 Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of privileges required to run App for Outlook are packaged as a security role called **Dynamics 365 App for Outlook User** which is bound to the App. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. In order to achieve this, follow the steps below:
 
