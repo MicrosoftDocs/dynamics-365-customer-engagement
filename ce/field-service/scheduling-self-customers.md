@@ -20,7 +20,7 @@ search.app:
 # Enable customers to self schedule service appointments
 
 > [!Note]
-A preview feature is a feature which is not complete, but is made available before it is officially in a release so customers can get early access and provide feedback. Prview features aren't menat for production use and may have limited or restricted functionality. <br> <br>Microsoft does not provide support for thsi preview feature. Microsoft Dynamics 365 Technicial Support won't be able to help you with issues or questions. Preview features aren't meant for production use and subject to a sperate supplemental terms of user (add link here)
+> A preview feature is a feature which is not complete, but is made available before it is officially in a release so customers can get early access and provide feedback. Prview features aren't menat for production use and may have limited or restricted functionality. <br> <br>Microsoft does not provide support for thsi preview feature. Microsoft Dynamics 365 Technicial Support won't be able to help you with issues or questions. Preview features aren't meant for production use and subject to a sperate supplemental terms of user (add link here)
 
 
 
