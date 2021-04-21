@@ -125,16 +125,16 @@ Deploy App for Outlook to your users.
 
 3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have two options to deploy the app to your users:
  
- - Select the checkbox to automatically add App for Outlook to all eligible users. When you select this option, the system will keep an eye and if anything changes, it will add or remove the app automatically. Then select **Save**.
+    - Select the checkbox to automatically add App for Outlook to all eligible users. When you select this option, the system will keep an eye and if anything changes, it will add or remove the app automatically. Then select **Save**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Automatically deply the app](media/deploy-app-auto.png)
+      > [!div class="mx-imgBorder"]
+      > ![Automatically deply the app](media/deploy-app-auto.png)
    
    
- - Select **ADD APP FOR EIGIBILE USERS** to deploy the app to users that are set up correctly. When you do this the **Status** changes to **Pending**.
+    - Select **ADD APP FOR EIGIBILE USERS** to deploy the app to users that are set up correctly. When you do this the **Status** changes to **Pending**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Automatically deply the app](media/deploy-app-auto-1.png)
+      > [!div class="mx-imgBorder"]
+      > ![Automatically deply the app](media/deploy-app-auto-1.png)
 
 
 
