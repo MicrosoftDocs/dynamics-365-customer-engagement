@@ -50,7 +50,7 @@ To use Dynamcis 365 App for Outlook you need to set Server-side synchronization 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/outlookapp_advancedsettings.png)
+   > ![Setting Customizations](media/outlookapp_advancedsettings.png)
 
 2. Go **Settings** > **Administration** and then select **System Settings**.
 
@@ -60,22 +60,37 @@ To use Dynamcis 365 App for Outlook you need to set Server-side synchronization 
 3. Select the **Email** tab, and set **Process Email Using** to **Server-Side Synchronization**.
 
    > [!div class="mx-imgBorder"]
-   >![Select server-side sync](media/set-sync-settings.png)
+   > ![Select server-side sync](media/set-sync-settings.png)
 
 
-## Step 2: Test and enable mailboxes
+## Step 2: Test eamil configuration and enable mailboxes
 
-Enable your users mailsboxs so they can use Dynamics 365 App for Outlook. 
+Enable and test user mailboxs so they can use Dynamics 365 App for Outlook. 
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/outlookapp_advancedsettings.png)
+   > ![Setting Customizations](media/outlookapp_advancedsettings.png)
    
 2. Go **Settings** > **Email Configuration** and then select **Mailboxes**.
 
    > [!div class="mx-imgBorder"]
    >![Go to mailboxes settings](media/mailboxes.png)
+   
+3. Select the **Active Mailboxes** view, and then select the mailboxes that you want to test and enable. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Select the mailboxes that you want to enable](media/select-mailboxes.png)
+
+
+
+
+
+
+
+
+
+
 
 ## Provide security role access
 
