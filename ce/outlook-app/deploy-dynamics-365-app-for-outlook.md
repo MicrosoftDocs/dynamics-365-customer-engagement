@@ -43,7 +43,7 @@ Before you begin make sure these prerequisites are met:
 - Verify what's supported: [System requirements, limits, and configuration values for App for Outlook](support-info-deployment.md)
 
 
-## Step 1: Set the default synchronization method
+## Set the default synchronization method
 
 To use Dynamcis 365 App for Outlook you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](../power-platform/admin/set-incoming-outgoing-email-synchronization.md)
 
@@ -63,7 +63,7 @@ To use Dynamcis 365 App for Outlook you need to set Server-side synchronization 
    > ![Select server-side sync](media/set-sync-settings.png)
 
 
-## Step 2: Test eamil configuration and enable mailboxes
+## Test eamil configuration and enable mailboxes
 
 Enable and test user mailboxs so they can use Dynamics 365 App for Outlook. 
 
@@ -113,6 +113,10 @@ When the set up is successful the **configuration Test Results** section should 
 
 Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of privileges required to run App for Outlook are packaged as a security role called **Dynamics 365 App for Outlook User** which is bound to the App. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. 
 
+> [!NOTE]
+>  - The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**.
+>  - If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propogate the privileges to the users within that team.
+
 1. From your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
@@ -133,19 +137,13 @@ Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of p
    > [!div class="mx-imgBorder"]
    > ![Select user role](media/select-user-role.png)
 
-This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead entity, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead entity where applicable.
-
-> [!NOTE]
->  - The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 
-> “You haven't been authorized to use this app. Check with your system administrator to update your settings.”
->  - At this time, adding a team to the **Dynamics 365 App for Outlook User** security role doesn't automatically propogate the privileges to the users within that team.
-
+This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
 
 
 
 ## Deploy App for Outlook
 
-Deploy App for Outlook to your users.
+Deploy App for Outlook to your users so they can start using the app.
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
