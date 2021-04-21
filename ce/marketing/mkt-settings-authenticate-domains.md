@@ -1,7 +1,7 @@
 ---
 title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
-ms.date: 04/13/2021
+ms.date: 04/16/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -113,16 +113,24 @@ You will see an error message if one of the requirements is not met.
 *Your domain is:* `test.dynmkt.com`
 - *Default Envelope-from domain:* `bouncing.test.dynmkt.com`
     > [!div class="mx-imgBorder"]
-    > ![Default Envelope-from domain screenshot](media/authenticate-default-envelope-from.png)
+    > ![Default Envelope-from domain screenshot](media/authenticate-default-envelope-from2.png)
 - *Custom Envelope-from domain example:* `bouncingcustom.test.dynmkt.com`
     > [!div class="mx-imgBorder"]
-    > ![Custom Envelope-from domain screenshot](media/authenticate-custom-envelope-from.png)
+    > ![Custom Envelope-from domain screenshot](media/authenticate-custom-envelope-from2.png)
 
 The Envelope-from domain *cannot* be one of the following:
 - `bouncing.custom.test.dynmkt.com`
+    > [!div class="mx-imgBorder"]
+    > ![Added dots error screenshot](media/authenticate-error-dots.png)
 - `test.dynmkt.com`
+    > [!div class="mx-imgBorder"]
+    > ![Start with bouncing error screenshot](media/authenticate-error-bouncing.png)
 - `bouncing##.test.dynmkt.com`
+    > [!div class="mx-imgBorder"]
+    > ![Added symbols error screenshot](media/authenticate-error-symbols.png)
 - `bouncing.test.notdynmkt.com`
+    > [!div class="mx-imgBorder"]
+    > ![Subdomain error screenshot](media/authenticate-error-subdomain.png)
 
 ### Create a CNAME record
 
@@ -157,6 +165,10 @@ This example is valid if you are adding DNS records into the root domain contoso
 `Host name or Alias: eurkey2._domainkey`  
 `Points to address: eurkey2contosocom.marketing.dynamics.com`
 
+**CNAME record 3 (Envelope-from)**  
+`Host name or Alias: bouncing`  
+`Points to address: nam.pb-dynmktg.com`
+
 ### Example DNS records for subdomain promo.contoso.com
 
 **TXT record**  
@@ -171,9 +183,13 @@ This example is valid if you are adding DNS records into the root domain contoso
 `Host name or Alias: eurkey2._domainkey.promo`  
 `Points to address: eurkey2promocontosocom.marketing.dynamics.com`
 
+**CNAME record 3 (Envelope-from)**  
+`Host name or Alias: bouncingpromo`  
+`Points to address: nam.pb-dynmktg.com`
+
 ### DNS Confirmation Statuses
 
-As you are setting up an authenticated domain, you can track the progress of both its **Ownership status** and **Email status**, each of which is reported as one of the following:
+As you are setting up an authenticated domain, you can track the progress of all its statuses: **Envelope-from status**, **Ownership status**, and **Email status**, each of which is reported as one of the following:
 
 | **Status** | **Description** |
 | --- | --- |

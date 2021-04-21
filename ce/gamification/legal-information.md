@@ -20,6 +20,8 @@ search.app:
 ---
 # Privacy information and license terms for Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Refer to the following documents and web pages for legal information about [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].  
   
 ## License Terms for Microsoft Dynamics 365 - Gamification  

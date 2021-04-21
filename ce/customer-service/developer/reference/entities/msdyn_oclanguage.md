@@ -643,7 +643,7 @@ Listed by **SchemaName**.
 
 **Added by**: Omnichannel - Facebook Patch Solution
 
-Same as msdyn_ocfbpage entity [msdyn_msdyn_oclanguage_msdyn_ocfbpage_facebookpagelanguage](msdyn_ocfbpage.md#BKMK_msdyn_msdyn_oclanguage_msdyn_ocfbpage_facebookpagelanguage) Many-To-One relationship.
+Same as msdyn_ocfbpage entity [msdyn_msdyn_oclanguage_msdyn_ocfbpage_facebookpagelanguage](msdyn_ocfbpage.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

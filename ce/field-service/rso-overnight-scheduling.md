@@ -94,7 +94,7 @@ Go to **Resource Scheduling Optimization app** > **Optimization Goals** > **+New
 
 Set **Engine Effort Level** to **Moderate**, **Intense**, or **Very Intense**. As effort level intensity increases, the optimization will take longer to run, but will return better optimizations. Because overnight scheduling is intended to run during the night when no one is working, the optimization can typically afford more time to run. 
 
-Add the constraints resource scheduling optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [resource scheduling optimization configurations](https://docs.microsoft.com/dynamics365/field-service/rso-configuration#define-the-optimization-goal).
+Add the constraints resource scheduling optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [resource scheduling optimization configurations](./rso-configuration.md#define-the-optimization-goal).
 
 Select **Save**.
 
