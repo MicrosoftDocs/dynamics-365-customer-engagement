@@ -46,7 +46,7 @@ Say you want to add the skill update control named **Skills** to a case form, th
 9. Save and publish the form.
    
 > [!NOTE]
-> To be able to add the skill update form in Customer Service workspace or Omnichannel admin center, you can add the skill update control to the Case for Multisession experience form.
+> To be able to add the skill update form in Customer Service workspace or the Omnichannel admin center, you can add the skill update control to the Case for Multisession experience form.
 
 ### See also
 
