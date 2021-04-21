@@ -98,14 +98,6 @@
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
 
-<<<<<<< HEAD
-### Developer experience
-#### [How unified routing impacts queue items and the corresponding APIs](unified-routing-impact-on-APIs.md)
-#### [How to close live work items or deactivate queue items](deactivate-qi-sample-code.md) 
-
-
-=======
->>>>>>> 18bb1b9d04a9b304189e21a5e02e0333950eca55
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
