@@ -88,6 +88,7 @@
 ### [Pools](resource-pools.md)
 ### [Facilities](facility-scheduling.md)
 ### [Advanced filters](schedule-assistant-advanced-filters.md)
+### [Self scheduling for customers](scheduling-self-customers.md)
 
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
