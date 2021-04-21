@@ -32,9 +32,9 @@ When you change the status of a queue item that has been routed using unified ro
 
 ### See also
 
-[Overview of unified routing](overview-unified-routing.md)  
-[Set up record routing](set-up-record-routing.md) 
-[Set up unified routing](set-up-routing-process.md)  
+[Overview of unified routing](overview-unified-routing.md)   
+[Set up record routing](set-up-record-routing.md)   
+[Set up unified routing](set-up-routing-process.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
