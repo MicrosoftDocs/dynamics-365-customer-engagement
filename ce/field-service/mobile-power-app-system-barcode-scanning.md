@@ -3,7 +3,7 @@ title: "Barcode scanning and global search on the Field Service (Dynamics 365) m
 description: Learn about barcode scanning and global search in the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 04/21/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -30,21 +30,15 @@ By scanning barcodes, technicians can:
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
-## Step 1: Enable global search
+## Step 1: Add a barcode field to the form
 
-By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
-
-For more information, see: [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365)
-
-## Step 2: Confirm the barcode field
-
-After enabling global search, make sure there is a barcode field on the entity you wish to search via barcode scan. A common example is adding a barcode field to the customer asset form.
+First make sure there is a barcode field on the entity you wish to add the barcode information to or retrieve via search later on. A common example is adding a barcode field to the customer asset form which we will show in this article. 
 
 > [!Note]
 > For an additional walkthrough, see this video: [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479).
 ).
 
-1. Find Field Service mobile in your list of Dynamics 365 and select **Open in App Designer**.
+1. Find Field Service Mobile in your list of Dynamics 365 and select **Open in App Designer**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the list of Dynamics 365 apps, showing "Open in app designer" for Field Service Mobile.](./media/openinappdesigner.png)
@@ -84,10 +78,42 @@ After enabling global search, make sure there is a barcode field on the entity y
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the field properties for the barcode scanner control in Power Apps.](./media/enablefortabandmobile.png)
 
-9. Back in the app, the form has field with the barcode scanner option. Selecting the barcode icon will open the camera and read any barcode or QR code.
+
+
+
+## Step 2: Test scanning a barcode to populate the field value
+
+9. Back in the app, the form has field with the barcode scanner option. Selecting the barcode icon will open the camera and read any barcode or QR code. After your device's camera successfully reads the QR code you 
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing the barcode field back in the Field Service (Dynamics 365) Field Service mobile app.](./media/mobilewithfield.png)
+
+## Step 3: Enable categorized search 
+
+
+https://docs.microsoft.com/en-us/power-platform/admin/configure-relevance-search-organization
+
+## Step 4: Test scanning a barcode to search for the record with the matching barcode
+
+
+> [!div class="mx-imgBorder"]
+> ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
+
+> [!Note]
+> If you are using offline first the record will need to be included in your offline profile and downlaoded to the device. 
+
+
+
+
+## Step 1: Enable global search
+
+By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
+
+For more information, see: [How to Setup Global Search](https://community.dynamics.com/crm/b/xrm/posts/how-to-set-up-global-search-in-microsoft-dynamics-365)
+
+## Step 2: Confirm the barcode field
+
+After enabling global search, 
 
 
 
