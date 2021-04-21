@@ -377,10 +377,19 @@
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
 #### Monitor conversations
 ##### [Monitor, assign, and transfer conversations](monitor-conversations.md)
-##### [Monitor and analyze sentiment](supervisor-sentiment-monitoring.md)
+<<<<<<< HEAD
+##### [Monitor and analyze sentiments](supervisor-sentiment-monitoring.md)
+=======
+##### [Monitor and analyze sentiments](supervisor-sentiment-monitoring.md)
+<<<<<<< HEAD
 
 ### Customize dashboards
 #### [Customize interactive dashboards based on Unified Interface](configure-interactive-dashboards-customer-service-hub.md)
+=======
+>>>>>>> 2468dac03ba33188e46114b585b8ddc351a929a8
+### Customize insights
+#### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
+>>>>>>> cdaa774d75cd7fea536cfc3626c7b7ebdeab6321
 
 ## Service scheduling
 ### [Overview of Service scheduling](basics-service-service-scheduling.md)
