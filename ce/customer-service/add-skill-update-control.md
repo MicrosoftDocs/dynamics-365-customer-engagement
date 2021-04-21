@@ -34,13 +34,14 @@ Say you want to add the skill update control named **Skills** to a case form, th
 5. From the **Field Explorer**, select an appropriate field (such as **Case Title**) to add onto the section you just created, and save the form.
 
 6. Select the field you just added and click **Change Properties**.  In the **Field Properties** dialog box that appears, select the **Display** tab and enter a label name for the field, such as **Skills**.
-    > ![Set Field Properties in the Display tab](media/field-properties-display-tab.png)
+    > [!div class=mx-imgBorder]
+    > ![Set Field Properties in the Display tab](media/field-properties-display-tab.png "Set Field Properties in the Display tab")
 
 7. On the **Controls** tab, select **Add Controls**. 
-    > ![Select Add Controls in the Controls tab](media/field-properties-controls-tab.png)
+    > ![Select Add Controls in the Controls tab](media/field-properties-controls-tab.png "Select Add Controls in the Controls tab")
 
   In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the drop-down list and click **OK**.
-    > ![Select the Skill Update Control from the drop-down list](media/add-skill-update-control.png)
+    > ![Select the Skill Update Control from the drop-down list](media/add-skill-update-control.png "Select the Skill Update Control from the drop-down list")
 
 9. Save and publish the form.
    
