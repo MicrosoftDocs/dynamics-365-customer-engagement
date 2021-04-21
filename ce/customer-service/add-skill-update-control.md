@@ -37,9 +37,9 @@ Say you want to add the skill update control named **Skills** to a case form, th
     > [!div class=mx-imgBorder]
     > ![Set Field Properties in the Display tab](media/field-properties-display-tab.png "Set Field Properties in the Display tab")
 
-7. On the **Controls** tab, select **Add Controls**. 
+7. On the **Controls** tab, select **Add Control**. 
     > [!div class=mx-imgBorder]
-    > ![Select Add Controls in the Controls tab](media/field-properties-controls-tab.png "Select Add Controls in the Controls tab")
+    > ![Select Add Control in the Controls tab](media/field-properties-controls-tab.png "Select Add Control in the Controls tab")
 
   In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the drop-down list and click **OK**.
     > [!div class=mx-imgBorder]
