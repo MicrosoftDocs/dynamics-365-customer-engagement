@@ -127,12 +127,12 @@ Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of p
    > [!div class="mx-imgBorder"]
    > ![Select a user settings](media/user-settings.png)
 
-3.  Select the users from the list and then select **Manage Roles**.
+3. Select the users from the list and then select **Manage Roles**.
 
    > [!div class="mx-imgBorder"]
    > ![Select manage roles](media/manage-roles.png)
 
-5.  In the **Manage User Roles** dialog, select the **Dynamics 365 App for Outlook User** security role to the users and then select **OK**.
+5. In the **Manage User Roles** dialog, select the **Dynamics 365 App for Outlook User** security role to the users and then select **OK**.
 
    > [!div class="mx-imgBorder"]
    > ![Select user role](media/select-user-role.png)
