@@ -136,13 +136,17 @@ Deploy App for Outlook to your users.
       > [!div class="mx-imgBorder"]
       > ![Automatically deply the app](media/deploy-app-auto-1.png)
 
+     
+4. The status will change to **Added to Outlook** and the app will be aviliable for your users. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Status changes to added to Outlook](media/added-to-outlook.png)
 
 
+The app will appear in the Outlook ribbon for the added users.
 
-
-
-
-
+   > [!div class="mx-imgBorder"] 
+   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
 
 
