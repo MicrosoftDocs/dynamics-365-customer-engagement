@@ -17,9 +17,8 @@ This topic provides information about the prerequisites and system requirements 
 
 You can deploy Omnichannel for Customer Service over a Customer Service application and experience it in the following ways:
 
-- Unified Service Desk client application
-
 - Omnichannel for Customer Service app - Web experience on the Unified Interface application
+- Unified Service Desk client application
 
 ## Prerequisites
 
@@ -63,17 +62,17 @@ The following browsers are supported by the live chat widget in Omnichannel for 
 
 See [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to know how to enable the Omnichannel for Customer Service app in your org.
 
-To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
 > [!NOTE]
 >
 > - Omnichannel for Customer Service is not supported with Dynamics 365 Customer Engagement (on-premises).
 > - Omnichannel for Customer Service is supported only on desktops, and not on phones and tablets.
-> - Microsoft recommends that you use browsers for Omnichannel for Customer Service in normal mode for optimal experience.
+> - We recommend that you use browsers in normal mode to optimally experience Omnichannel for Customer Service.
 
 ## Allow access to websites
 
-If your organization is using a URL filter to block a category of websites, you need to allow specific websites as an exception for your users to access the Omnichannel for Customer Service app and live chat widget in the business portal:
+If your organization is using a URL filter to block a category of websites or URLs, allow the following websites as an exception for your users to access the Omnichannel for Customer Service app and live chat widget in the business portal:
 
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
