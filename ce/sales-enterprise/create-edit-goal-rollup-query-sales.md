@@ -24,7 +24,7 @@ Use rollup queries to specify additional criteria that you want to apply on exis
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-2.	Select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") at the lower-left corner, and then select **App Settings**.  
+2.	In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
     > [!div class="mx-imgBorder"]
     > ![Select the Change area icon and then select App Settings](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
