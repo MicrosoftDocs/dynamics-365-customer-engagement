@@ -1,5 +1,5 @@
 ---
-title: "How to close live work items or deactivate queue items| Microsoft Docs"
+title: "Close live work items or deactivate queue items| Microsoft Docs"
 description: "Sample code to close live work items or deactivate queue items"
 author: mh-jaya
 ms.author: v-jmh
