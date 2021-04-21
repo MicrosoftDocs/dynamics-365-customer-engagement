@@ -73,7 +73,7 @@ First make sure there is a barcode field on the entity you wish to add the barco
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Add Control window showing the barcode scanner option.](./media/addbarcodecontrol.png)
 
-8. Enable the control for phones and tablets, then save and publish the changes.
+8. Enable the control for phones and tablets, then **save and publish** the changes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the field properties for the barcode scanner control in Power Apps.](./media/enablefortabandmobile.png)
@@ -83,43 +83,45 @@ First make sure there is a barcode field on the entity you wish to add the barco
 
 ## Step 2: Test scanning a barcode to populate the field value
 
-9. Back in the app, the form has field with the barcode scanner option. Selecting the barcode icon will open the camera and read any barcode or QR code. After your device's camera successfully reads the QR code you 
+Back in the app, you will see the barcode enabled field as a barcode icon next to the field. Selecting the barcode icon will open the camera and read any barcode or QR code. After your device's camera successfully reads the QR code the barcode value will be populated into the field. The simply save the form. 
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing the barcode field back in the Field Service (Dynamics 365) Field Service mobile app.](./media/mobilewithfield.png)
 
-## Step 3: Enable categorized search 
+Within the mobile app you may need to go to Profile > Reconfigure to enable new published changes.
 
-By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize global search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
+## Step 3: Enable search 
 
-For more information, see: [How to Setup Global Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize search to include additional entities, such as customer asset and product, which helps technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
 
 You will need to:
-1. Enable the entity your barcode is part of for categorized search (in our example the 'Customer Asset' entity).
-2. Add the field that you previosuly enabled for barcode scanning to the entiities 
+1. Enable the entity your barcode is part of for relevance search (in our example the 'Customer Asset' entity). For more information, see [how to set up relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization). 
+2. Add the barcode-enabled field to the entities' quick find view as seen in the image below.
 
-mobile-2020-barcode-customer-asset-quick-find
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-barcode-customer-asset-quick-find.png)
+
+
 
 ## Step 4: Test scanning a barcode to search for the record with the matching barcode
 
+After enabling your entiity for relevance search and enabling the barcode field on the quick find view of the entity, save and publish your changes and test searching for the record via barcode.
+
+Enter the barcode value into the barcode field.
+
+Select the search icon at the top of the mobile app. 
+
+Select Categorized Search then select the barcode scanning icon.
+
+Scan the barcode and the system will search for records with a matching barcode. 
 
 > [!div class="mx-imgBorder"]
 > ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
 > [!Note]
-> If you are using offline first the record will need to be included in your offline profile and downlaoded to the device. 
-
-
-
-
-## Step 1: Enable global search
-
-
-
-## Step 2: Confirm the barcode field
-
-After enabling global search, 
+> If you are using offline first the record will need to be included in your offline profile and downlaoded to the device to display in search results. 
 
 
 
