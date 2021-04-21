@@ -96,7 +96,7 @@
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
 ### Developer experience
-#### [How unified routing impacts queue items and the corresponding APIs](unified-routing-impact-on-APIs.md)
+#### [How unified routing impacts queue items and their APIs](unified-routing-impact-on-APIs.md)
 #### [Close live work items or deactivate queue items](deactivate-queue-items.md)
 
 
