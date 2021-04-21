@@ -82,16 +82,25 @@ Enable and test user mailboxs so they can use Dynamics 365 App for Outlook.
    > [!div class="mx-imgBorder"]
    > ![Select the mailboxes that you want to enable](media/select-mailboxes.png)
 
-4. On the command bar first select **APPROVE EMAIL** and then select **TEST & ENABLE MAILBOX**.  (((((Start HERE)))))
+4. On the command select first **APPROVE EMAIL** and then select **OK**.  
 
    > [!div class="mx-imgBorder"]
-   > ![Select test and enable maillbox](media/select-mailboxes-1.png)
+   > ![Select approve email](media/select-mailboxes-1.png)
+
+5. Once approved, on the command bar select **TEST & ENABLE MAILBOX**.   
+
+   > [!div class="mx-imgBorder"]
+   > ![Select test and enable maillbox](media/select-mailboxes-test.png)
+
+6. On the confirmation dialog box, select **OK**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select ok to confirm](media/select-mailboxes-confirm.png)
 
 The **configuration Test Results** should change from **Not Run** to **Success**. 
 
 
-
-
+ 
 
 
 
