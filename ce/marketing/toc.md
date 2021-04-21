@@ -172,7 +172,7 @@
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Create activity templates](activity-templates.md)
-#### [Troubleshoot customer journey customization errors](customer-journey-recover-items.md)
+#### [Troubleshoot customer journey customization errors](customer-journey-recovery-items.md)
 
 ### Lead generation and management
 #### [The lead lifecycle](lead-lifecycle.md)
