@@ -38,9 +38,11 @@ Say you want to add the skill update control named **Skills** to a case form, th
     > ![Set Field Properties in the Display tab](media/field-properties-display-tab.png "Set Field Properties in the Display tab")
 
 7. On the **Controls** tab, select **Add Controls**. 
+    > [!div class=mx-imgBorder]
     > ![Select Add Controls in the Controls tab](media/field-properties-controls-tab.png "Select Add Controls in the Controls tab")
 
   In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the drop-down list and click **OK**.
+    > [!div class=mx-imgBorder]
     > ![Select the Skill Update Control from the drop-down list](media/add-skill-update-control.png "Select the Skill Update Control from the drop-down list")
 
 9. Save and publish the form.
@@ -54,3 +56,5 @@ Say you want to add the skill update control named **Skills** to a case form, th
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing](set-up-routing-process.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
