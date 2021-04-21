@@ -1,11 +1,11 @@
 ---
-title: "Monitor, assign and transfer conversations as a supervisor | MicrosoftDocs"
-description: "Learn how to monitor, assign and transfer conversations as a supervisor."
+title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
+description: "Learn how to monitor, assign, and transfer conversations as a supervisor."
 author: mh-jaya
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
