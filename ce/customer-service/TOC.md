@@ -84,12 +84,6 @@
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
 ##### [Add skill control for routed record](add-skill-update-control.md)
 ##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
-
-### Developer experience
-#### How unified routing impacts queue items and the corresponding APIs
-#### How to close live work items or deactivate queue items
-
-
 #### [Create and manage basic queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases using basic rule sets](create-rules-automatically-route-cases.md)
 
@@ -99,9 +93,12 @@
 #### [Show customers their average wait time in a queue](average-wait-time.md)
 
 ### Agent experience
-
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
+### Developer experience
+#### How unified routing impacts queue items and the corresponding APIs
+#### How to close live work items or deactivate queue items
+
 
 ## Case management
 ### Administrator experience
