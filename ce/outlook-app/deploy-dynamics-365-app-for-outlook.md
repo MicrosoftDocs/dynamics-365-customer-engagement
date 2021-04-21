@@ -146,7 +146,7 @@ Deploy App for Outlook to your users.
 The app will appear in the Outlook ribbon for the added users.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
+   > ![Open App for Outlook pane](media/open-pane-appforoutlook.png)  
 
 
 
