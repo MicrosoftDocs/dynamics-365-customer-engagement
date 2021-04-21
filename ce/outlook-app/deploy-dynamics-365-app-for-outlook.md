@@ -63,7 +63,7 @@ To use Dynamcis 365 App for Outlook you need to set Server-side synchronization 
    > ![Select server-side sync](media/set-sync-settings.png)
 
 
-## Test eamil configuration and enable mailboxes
+## Test email configuration and enable mailboxes
 
 Enable and test user mailboxs so they can use Dynamics 365 App for Outlook. 
 
