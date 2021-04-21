@@ -117,7 +117,7 @@ Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of p
 >  - The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**.
 >  - If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propogate the privileges to the users within that team.
 
-1. From your app, go to **Settings** > **Advanced Settings**.
+1. To add users to the App for Outlook security role, from your app, go to **Settings** > **Advanced Settings**.
 
    > [!div class="mx-imgBorder"]
    >![Setting Customizations](media/outlookapp_advancedsettings.png)
@@ -143,7 +143,9 @@ This will ensure that the users have the basic privileges needed to access App f
 
 ## Deploy App for Outlook
 
-Deploy App for Outlook to your users so they can start using the app.
+After setting up server-side synchronization, you can push Dynamics 365 App for Outlook to some or all users, or you can have users install it themselves as needed.
+
+## Push the app to users  
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
@@ -155,20 +157,26 @@ Deploy App for Outlook to your users so they can start using the app.
    > [!div class="mx-imgBorder"]
    > ![Go to Dynamics 365 App for Outlook](media/settings-app-for-outlook.png)
 
-3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have two options to deploy the app to your users:
+3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have servel options to deploy the app to your users:
  
-    - Select the checkbox to automatically add App for Outlook to all eligible users. When you select this option, the system will keep an eye and if anything changes, it will add or remove the app automatically. Then select **Save**.
+    - **Option 1**: Select the checkbox to automatically add App for Outlook to all eligible users. If a user's email is synchronized through server-side synchronization, you won’t have to do anything more to push the app to them.
 
       > [!div class="mx-imgBorder"]
       > ![Automatically deply the app](media/deploy-app-auto.png)
    
    
-    - Select **ADD APP FOR EIGIBILE USERS** to deploy the app to users that are set up correctly. When you do this the **Status** changes to **Pending**.
+    - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. When you do this the **Status** changes to **Pending**.
 
       > [!div class="mx-imgBorder"]
       > ![Automatically deply the app](media/deploy-app-auto-1.png)
 
-     
+   
+   - **Option 3**: To push the app to certain users, select those users in the list, and then select **Add App to Outlook**.
+   
+      > [!div class="mx-imgBorder"]
+      > ![Automatically deply the app](media/add-app-to-selected.png)
+   
+   
 4. The status will change to **Added to Outlook** and the app will be aviliable for your users. 
 
    > [!div class="mx-imgBorder"]
