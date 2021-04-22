@@ -33,8 +33,8 @@ If you no longer using App for Oulook, you can disable or remove the add-in.
 
    ![Go to my add-ins](../media/my-addins.png "Go to my add-ins")  
 
-3. Go to the **Dynmics 365** add-in and then select ![More actions](../media/more-outlook-button.png) More > 
+3. Go to the **Dynmics 365** add-in and then select ![More actions](../media/more-outlook-button.png) More and then do one of the following:
 
    - To disable the app, in the Dynamics 365 row, clear the **Turned on** check box.  
 
-   - To remove the app, select the Dynamics 365 row, and then click the Minus button. 
+   - To remove the app, select **Remove**. 
