@@ -35,7 +35,12 @@ The event management application now allows you to use marketing forms for event
 
 ## Settings in the header
 
-The header settings are available at the top of the page. To edit the header settings, select the **More header fields** button (which looks like a down-pointing chevron) at the right side of the header. The button opens a drop-down dialog with the following settings:
+The header settings are available at the top of the page. To edit the header settings, select the **More header fields** button (which looks like a down-pointing chevron) at the right side of the header. 
+
+> [!div class="mx-imgBorder"]
+> ![Event registration form header settings](media/event-forms-header.png)
+
+The button opens a drop-down dialog with the following settings:
 
 - **Name:** Enter a name for the form. The form name you enter is the name you'll see in the forms list and when adding the form to an event page.
 - **Form type:** For event registration marketing forms, leave the selected form type set to Event registration.
