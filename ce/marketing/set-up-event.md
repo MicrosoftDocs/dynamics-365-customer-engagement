@@ -125,15 +125,15 @@ The **Room reservations** tab provides a calendar that shows the rooms assigned 
 
 ### The Recovery items tab
 
-The **Recovery items** tab allows system admins to track customization errors, improving the event workflow creation process. This tab contains a grid with custom errors and gives the administrators options to handle them. For events, typical errors occur during registration on event websites.
+The **Recovery items** tab allows system administrators to track customization errors, improving the event workflow creation process. This tab contains a grid with customization errors and gives administrators options to handle them. For events, typical errors occur during registration on event websites.
 
 > [!div class="mx-imgBorder"]
 > ![List of event recovery items](media/event-recovery-items.png)
 
-After selecting rows in the Recovery items tab, you can delete the items (which will delete them from blob storage), or you can fix the issue and "recover" the item, which will replay the previously failed functionality.
+After selecting rows in the Recovery items tab, you can delete the items (which will delete them from blob storage), or you can fix the issue and "recover" any item, which will replay the previously failed functionality.
 
 > [!NOTE]
-> If there are items in the Recovery items tab, non-system admin users will receive a notification that says, "There seem to be some issues with this event. Ask your system admin for assistance."
+> If there are items in the Recovery items tab, non-system admin users will receive a notification that says, "There seems to be some issues with this event. Ask your system admin for assistance."
 
 ### The Related menu
 
@@ -223,6 +223,5 @@ Use the following entities to model your venues:
 - **Events** > **Venue Management** > **Buildings**: Buildings represent free-standing structures that might or might not be divided into rooms.
 - **Events** > **Venue Management** > **Rooms**: Rooms represent subdivisions of buildings, and each must be assigned to a building record also stored in the system.
 - **Events** > **Venue Management** > **Layouts**: During an event, you might use a single room to host several types of sessions, each of which might require a different arrangement of chairs and other facilities. The room layout might have practical consequences that affect, for example, seating capacity. Each layout must be associated with a particular room, but you can set up any number of layouts for each room.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
