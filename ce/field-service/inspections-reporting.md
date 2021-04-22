@@ -23,6 +23,12 @@ search.app:
 
 Reports or dashboards can be created and actions can be taken based on the inspection responses provided by the technicians. 
 
+Below is just one example of the type of PowerBI dashboard you can create with Inspection Response data.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/response-dashboard-snapshot.png)
+
 ## Understand, view, and report inspection responses
 
 All the responses entered for an inspection are stored in Microsoft Dataverse. Inspection responses can be parsed into individual question responses. 
