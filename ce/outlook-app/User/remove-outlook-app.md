@@ -25,13 +25,15 @@ search.app:
 
 If you no longer using App for Oulook, you can disable or remove the add-in. 
 
-1. In Outlook **Home** and then select **Get Add-ins**.  
+1. In the Outlook **Home** ribbon, select **Get Add-ins**.  
 
-   ![Go to the Get Add-ins menu](../media/get-addin-menu.png "Manage the Dynamics 365 App for Outlook add-in")  
+   ![Go to the Get Add-ins menu](../media/get-addin-menu.png)  
 
-   This opens the **Microsoft 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-ins. If you click the Dynamics 365 row, you can see which instance the app is connected to.  
+2. On the Add-ins for Outlook page, select **My add-ins**. 
 
-2. Do one of the following:  
+   ![Go to my add-ins](../media/my-addins.png "Go to my add-ins")  
+
+4. 
 
    - To disable the app, in the Dynamics 365 row, clear the **Turned on** check box.  
 
