@@ -32,9 +32,17 @@ Use Dynamics 365 App for Outlook while you’re using Outlook on the desktop, we
 > - Dynamics 365 App for Outlook works with latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), [Dynamics 365 Marketing](../marketing/help-hub.md). [Dynamics 365 Field Service](../dynamics365/field-service/overview.md), and [Dynamics 365 Project Service Automation](../dynamics365/project-operations/psa/overview.md)), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 > - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn946901(v=crm.8)). 
 
+
+## Install 
+
+Before you install App for Outlook, contact your administrator and to make sure all the prerequisites are met. For more information, see [Deploy Dynamics 365 App for Outlook](../deploy-dynamics-365-app-for-outlook.md).
+
+In most cases, you're administrator will automaticlly push the app and it will be aviliable in your Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves](Have users install App for Outlook themselves).
+
+
 ## Access the app
 
-It's easy to access the Dynamics 365 pane whether you're using Outlook on your desktop or the web app.
+Once installed it's easy to access the Dynamics 365 App for Outlook pane whether you're using Outlook on your desktop or the web app.
 
 - In the Outlook desktop client, select **Dynamics 365**.
 
@@ -63,7 +71,7 @@ If you're using the Outlook desktop client Outlook Web Access, you can pin App f
 |[Set regarding](track-message-or-appointment.md)     |Track and link the email or appointment to an existing row your Dynamics 365 app.|
 |Track     |Create a copy of the email or appointment in your Dynamics 365 app.   |
 |[Untrack](track-message-or-appointment.md#untrack-a-linked-email-or-appointment)     |Remove the copy of the email or appointment from your Dynamics 365 app. |
-|Track success |Your email or appointment is successfully copied to  your Dynamics 365 app.   |
+|Track Successful |Your email or appointment is successfully copied to  your Dynamics 365 app.   |
 |Track failure |Your email or appointment is failed to copy to your Dynamics 365 app.   | 
 |Track pending |Your email or appointment is in pending state to be copied to your Dynamics 365 app.   | 
 
