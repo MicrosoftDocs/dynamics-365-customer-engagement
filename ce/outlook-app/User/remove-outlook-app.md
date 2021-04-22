@@ -25,7 +25,7 @@ search.app:
 
 To disable or remove the App for Outlook add-in follow these steps:
 
-1. In the Outlook **Home** ribbon, select **Get Add-ins**.  
+1. From the Outlook **Home** ribbon, select **Get Add-ins**.  
 
    > [!div class="mx-imgBorder"] 
    > ![Go to the Get Add-ins menu](../media/get-addin-menu.png)  
