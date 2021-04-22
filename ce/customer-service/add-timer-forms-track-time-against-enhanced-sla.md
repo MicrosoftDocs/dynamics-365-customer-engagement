@@ -40,7 +40,7 @@ A timer helps users gauge the amount of time they have to complete a key perform
   
 -   If a condition causes the SLA KPI to be canceled, the control shows the word **Canceled**. This behavior is optional.  
   
--   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
+-   If either of the required fields in the **Timer Control** dialog box does not have a value in the record, the control shows the words **Not Set**.  
   
 To add a timer to track time against enhanced SLAs:  
   
