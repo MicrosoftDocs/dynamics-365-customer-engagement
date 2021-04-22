@@ -34,25 +34,25 @@ The journey will usually run the entire test automatically. The test starts by s
 ## Creating and adding an A/B test:
 
 1. Create your initial content [in the email editor](real-time-marketing-email.md), as usual. Perfect the content and be sure to check it for errors to make sure it can go live.
-1. When your content is ready, go to your list of journeys and do the following:
-    - Select the **Add an A/B test** element in the dialog.
-    - Choose which channel you wish to test in version A and version B, then select **Create test**. 
-1. A side pane will open. Enter the following information in the side pane:
-    - To identify your test, enter a name for it. This name is displayed in the A/B test panel and in the customer journey analytics when you are looking at which tests are running. Once the journey is live, you cannot rename your test.  
-    - Pick the content for the channel you prepared in step one. You can do this through a drop-down by either selecting the child tiles in the journey builder, or by making a selection on the side panel.
-1. Choose the audience distribution you would like. The slider is automatically on 50-50, but you can set the slider to your desired distribution. The minimum a version can receive is 10%, and the maximum is 90%. Remember that, traditionally, version A is your control group and version B is your variant.
-
-## Preparing to execute your test:  
-
-1. **Winning metric**: You can set the winning condition for your test by choosing a winning metric: The version with the most journey goal events hit, the most clicks, or the most opens.  
-1. **Test duration**: You can also choose between ending the test automatically or at a specific date and time. For best results, we recommend letting the test determine a winner automatically when the results reach statistical significance. Once a clear winner is determined, the system will send the winning version to the rest of your audience. The losing version will be discarded.
-1. **Default version**: Lastly, choose a default version, should the test not end successfully. In cases where a winner has not been determined by the deadline specified through the date and time, the default version is automatically sent.
+1. When your content is ready, go **Real-time marketing** > **Customer engagement** > **Journeys** and select an existing journey or create a new one. 
+1. After you have selected a journey, select the plus sign to add element, then do the following:
+    - Select the **Test message or channels against each other** element in the dialog.
+    - Choose which channel you wish to test in version A and version B, then select **Create test**.
+1. A side pane titled **A/B test** will open. Enter the following information in the side pane:
+    - **Display name**: To identify your test, enter a name for it. This name is displayed in the A/B test panel and in the customer journey analytics when you are looking at which tests are running. Once the journey is live, you cannot rename your test.  
+    - **Versions**: Pick the content for the channel you prepared in step one. You can do this through a drop-down by either selecting the child tiles in the journey builder, or by making a selection on the side panel.
+    - **Audience** Choose the audience distribution you would like. The slider is automatically on 50-50, but you can set the slider to your desired distribution. The minimum a version can receive is 10%, and the maximum is 90%. Remember that, traditionally, version A is your control group and version B is your variant.
+    - **Winning metric**: You can set the winning condition for your test by choosing a winning metric: The version with the most journey goal events hit, the most clicks, or the most opens.  
+    - **This test ends**: You can also choose between ending the test automatically or at a specific date and time. For best results, we recommend letting the test determine a winner automatically when the results reach statistical significance. Once a clear winner is determined, the system will send the winning version to the rest of your audience. The losing version will be discarded.
+    - **Default version**: Lastly, choose a default version, should the test not end successfully. In cases where a winner has not been determined by the deadline specified through the date and time, the default version is automatically sent.
 1. Finish setting up your journey as usual and then go live.
 
 > [!NOTE]
 > You can add up to five tests per journey by repeating the steps above. You can test similar channels (email A vs email B) or test different channels (email vs text message).
 
 ## Monitor the lifecycle of your A/B tests
+
+After you have published your journey, you can open it to track the lifecycle of your tests.
 
 - **Draft**: These tests have not ran yet, so you can still edit the settings.
 - **In progress**: These tests are currently being run. The settings are locked and you can’t make significant changes.  
