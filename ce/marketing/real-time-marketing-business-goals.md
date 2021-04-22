@@ -20,6 +20,11 @@ search.app:
 
 # Set a business goal and measure progress through a journey
 
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
 Most customer journeys are created to drive a specific customer behavior or action such as making a purchase, signing up for an event, or renewing a subscription. You can now choose the intended behavior as the goal of your customer journey and set a target you want to hit. Using the goal, you can measure the success of the customer journey on an ongoing basis. Goal settings enable you to make incremental improvements to reach your targets more quickly and effectively.
 
 Using the goal-setting feature, you can:
