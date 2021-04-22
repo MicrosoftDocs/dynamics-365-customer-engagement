@@ -1,4 +1,4 @@
----
+--
 title: "Send current technician location and arrival times to your customers with Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to send customers information about their upcoming service in Dynamics 365 Field Service
 ms.custom:
@@ -21,8 +21,6 @@ search.app:
 
 # Send current technician location and arrival times to your customers with Dynamics 365 Field Service
 
-> [!Note]
-> This feature is currently in public preview and only available in English language in North American environments.
 
 Provide your customers with automated service reminders and notifications that include estimated technician arrival times; these reminders make it so customers can better plan their time around service visits.
 
@@ -46,11 +44,11 @@ In this article, we'll walk through how to set up and configure service notifica
 
 - Field Service version (8.8.30.103+)
 - The Field Service mobile app
-- [Technician location sharing](./mobile-powerapp-location-auditing.md) must be enabled in Field Service, and also allowed from the technician's mobile device.
+- [Technician location sharing](https://docs.microsoft.com/dynamics365/field-service/mobile-powerapp-location-auditing) must be enabled in Field Service, and also allowed from the technician's mobile device.
 - SMS provider supporting Microsoft Power Automate connector for mobile SMS communication.
 - Office 365 Exchange account for email communications.
 
-## Step 1: Set up the Field Service customer experiences portal (preview)
+## Step 1: Set up the Field Service customer experiences portal
 
 First, we need to set up the customer experience portal with Power Apps portals.
 
@@ -59,7 +57,8 @@ Go to  http://make.powerapps.com and select **Create**.
 Select **Field Service Portal (Preview)**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps, showing the Field Service portal.](./media/01_PAPortal_FSTemplate.jpg)
+> ![Screenshot of Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
+
 
 Enter your portal's name and desired subdomain and display language, then select **Create**.
 
@@ -105,26 +104,35 @@ To configure SMS:
 ## Step 3: Set up the customer experience
 
 > [!Note]
-> When enabling this experience, messages can be sent to contacts of the account associated with bookings. If testing in non-production orgs, make sure your test data does not have real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
+> When enabling this experience, messages can be sent to Contacts of the Account associated with bookings. If testing in non-production orgs, make sure your test data does not have real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
 
 In Field Service, Go to **Field Service Settings** > **Customer Portal** > **Customer Portal Settings**.
 
+### General and Notification Settings
+
+
+> [!Note]
+> The same Field Service Customer Portal contains multiple customer-focused features including Track My Technician and Self Scheduling (Preview). These features are indpendnetly enabled while sharing common configuration. Some Settings in the general tab only apply to one experience while others apply to mutliple.
+
 Configure the following settings as needed: 
 
-- **Enable Notifications**: Toggles notifications on or off. For more information, see this section: [Notifications](#notifications).
-- **Reminder Timing**: Send reminders between *0* and *7* days before scheduled booking time.  
-    - Setting to *0* will disable reminder notifications, but other notifications will be sent. 
+- **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled indpenently. For details on each message see [Notifications](#notifications).
+
 - **Communication Type**: Define whether your customer will receive email, SMS, or both message types.
-- **Show Resource Details**: When the technician is traveling, the customer will see the technician's name and photo as configured in Field Service. 
+
+- **Send Messages To**: By default messages will be sent to the "Reported By" contact in the Work Order. If there is no Reported By contact, messages will be sent to Contact noted in this field.
+
 - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
 
+- **Include Survey (Preview)**: You can embed a Customer Voice survey which will be presented to your customers on the portal at the concluion of the booking. For mroe information see (Field Service Customer Portal Survey)[#field-service-customer-portal-survey-(preview)]
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the customer portal settings in Field Service.](./media/05_FSSettings_landing.jpg)
+> ![Screenshot of the customer portal settings in Field Service.](./media/TmT_Configuration.png)
 
 
 ### Branding and content
 
-You can also customize the branding and content for your customer portals.
+Customize the branding and content for your Field Service Customer Portal.
 
 From the customer portal settings, go to the **Display** tab.
 
@@ -132,7 +140,7 @@ Here you can customize:
 
 - Font type and color for the online portal.
 - Background and foreground colors.
-- Code snippets: These snippets are dynamic content strings that when updated, can reflect consistent content across the portal, email, and SMS when applicable. Some important code snippets to include:
+- Code snippets: These snippets are dynamic content strings that when updated, reflect consistent content across the portal, email, and SMS when applicable. Some important code snippets to include:
   - Contact email
   - Contact phone
   - Company name
@@ -140,10 +148,25 @@ Here you can customize:
   - Page footer
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the customer portal settings, showing the display options.](./media/Settings-Display.jpg)
+> ![Screenshot of the customer portal settings, showing the display options.](./media/TMT-DisplaySettings.png)
+
 
 > [!Note]
-> To upload and update the portal header image, you will need to access the Power Portal Makers website. For more information, see the section: [Portal Designer](#portal-designer).
+> The header and footer of your Portal are updated via Portal Designer. There is direct link to the Designer experience from the Display Settings tab. For more information on Portal Designer, see the section: [Portal Designer](#portal-designer).
+
+### Track My Technciain Settings
+
+- **Enable Map**: When enabled the map will be shown on the Portal experience. 
+
+- **Show Resource Name**: When the Technciian is traveling, the portal and messaging will show technicain name as per their Field Service User.
+
+- **Show Resource Image**: When Technician is traveling, the portal will show an image of the technician. If no image is avialble in CRM only the resource initials will be shown.
+
+- **Show Resource Phone**: When Technician is traveling, a phone icon will be shown on the Portal which the end customer can click to call or text the technician. This will use the "Main Phone" value configured for the CRM User. If no phone number is configured in CRM while this setting is enabled no phone icon will be shwon to the end user.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Track My Tech Settings.](./media/TmT-GASettings.png)
 
 ## Step 4: Testing the experience as an end user
 
@@ -165,11 +188,12 @@ To test reschedule notifications and cancel notifications, perform steps 1-6; th
 
 ### Notifications
 
-After configuring your portal and enabling notifications, emails and SMS messages will be sent to the primary contact of the booking service account.
+After configuring your portal and enabling notifications, emails and SMS messages will be sent to the Reported By contact assosiated with Work orders. When the Reported By Contact is not entered, notifications will be the contact based on "Send Messages To" value under (settings)[#general-and-notification-settings]. By default this is the Primary Contact of the Account.
+
 
 Messages are automatically generated by the following events:
 
-- Service reminder: Reminder messages are sent within *7* days of the scheduled service time. This message will carry the scheduled service time and a link to your portal with basic details including confirmation of service account location shown on a map.
+- **Booking Reminder**: Reminder messages are sent within *7* days of the scheduled service time. This message will carry the scheduled service time and a link to your portal with basic details including confirmation of service account location shown on a map.
   - By default, service reminders will be scheduled to send daily at 10:00 AM UTC for any bookings within your configured time period. This time can be adjusted in Power Automate. For more information, see this section: [How do I change the timing of reminder messages](#how-do-i-change-the-timing-of-reminder-message)?
 
 > [!div class="mx-imgBorder"]
@@ -178,7 +202,7 @@ Messages are automatically generated by the following events:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an email notification about upcoming service.](./media/10_email-reminder.jpg)
 
-- Technician traveling: Sent when the booking status is *Traveling*. This message communicates estimated time of arrival while considering traffic on expected route. This message links to your customer portal with a map, so your customer can see progress to your service location.
+- **Technician Traveling**: Sent when the booking status is *Traveling*. This message communicates estimated time of arrival while considering traffic on expected route. This message links to your customer portal with a map, so your customer can see progress to your service location.
 
 > [!div class="mx-imgBorder"]
 > ![Device renders showing the map and technician location in the customer portal.](./media/technician-locator-mobile-en-route.jpg)
@@ -186,7 +210,7 @@ Messages are automatically generated by the following events:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an email notification telling the customer that the technician is on the way.](./media/13-email-traveling.jpg)
 
-- Service complete: Sent when booking status is *Complete*. This message confirms work was completed, along with date and time of completion. 
+- **Booking Complete**: Sent when booking status is *Complete*. This message confirms work was completed, along with date and time of completion. 
 
 > [!div class="mx-imgBorder"]
 > ![Device renders showing text notifications with service updates, alongside the customer portal.](./media/technician-locator-mobile-complete.jpg)
@@ -194,7 +218,7 @@ Messages are automatically generated by the following events:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an email telling the customer that the service has been completed.](./media/15-email-completed.jpg)
 
-- Service rescheduled: Sent when a scheduled service appointment changes by more than 10 minutes from previously scheduled start time.
+- **Booking Rescheduled**: Sent when a scheduled service appointment changes by more than 10 minutes from previously scheduled start time.
 
 > [!div class="mx-imgBorder"]
 > ![Device renders showing text notifications that service has been rescheduled, alongside the customer portal.](./media/technician-locator-mobile-reschedule.png)
@@ -202,7 +226,7 @@ Messages are automatically generated by the following events:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an email telling the customer that the service has been rescheduled. ](./media/11_email-reschedule.jpg)
 
-- Service canceled: When a scheduled service appointment is canceled.
+- **Booking Canceled**: When a scheduled service appointment is canceled.
 
 > [!div class="mx-imgBorder"]
 > ![Device render of a mobile phone with a text message telling the customer that service has been canceled.](./media/technician-locator-mobile-cancel.png)
@@ -213,12 +237,18 @@ Messages are automatically generated by the following events:
 > [!Note] 
 > Service rescheduling and service canceling messages are only sent if a reminder message had previously been sent.
 
+> [!Note]
+> Notifications "Booking Confirmation" is relavent only to [Self Service scheduling](https://docs.microsoft.com/) scenario and not avialable with Track My Technician feature.
+!!!ADD CROSS LINK URL HERE!!!
+
+
 ### Portal states
 
 - Reminders, traveling, and completion messages include a link to an online web experience hosted on Power Portals.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the customer portal, showing the map and details about the service.](./media/12-portal-desktop-reminder.jpg)
+> ![Screenshot of the customer portal, showing the map and details about the service on desktop.](./media/TmT-Desktop-Confirmed.png)
+
 
 - Responsive design makes this portal accessible from mobile, tablet, or desktop. 
 - The customer portal renders different states depending on state of the associated booking.
@@ -228,14 +258,18 @@ Messages are automatically generated by the following events:
 > Technicians must be sharing their location from their Field Service mobile application to provide estimated travel time and display real time locations on the portal.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the customer portal showing active technician details](./media/13-portal-traveling.jpg)
+> ![Screenshot of the customer portal showing active technician details](./media/TMT-Desktop-Traveling.png)
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the customer portal showing that work has been completed.](./media/14-portal-completed.jpg)
+> ![Screenshot of the customer portal showing that work has been completed.](./media/TMT-Desktop-Complete-Map.png)
+
 
 ### Portal designer
 
-As an alternative to using content snippets, you can update content and access some more advanced configuration as part of the portal designer experience. 
+You can update your Portal header and footer images, adjust colors, and access more advanced configuration from the Power Portal designer experience. 
+
+There is a direct link to the Portal Designer from your Customer Portal Settings > Design section. Alternately you can navigate there:
 
 - Go to https://make.powerapps.com.
 - Select **Apps**.
@@ -246,7 +280,7 @@ As an alternative to using content snippets, you can update content and access s
 
 In the portal designer, selected content can be updated and will be reflected in the customer portal. Updating content snippets in the portal maker will also influence content in the messages when applicable.
 
-The portal designer also lets you upload a customized header image or make more fine-tuned adjustments to CSS and the portal's header or footer.
+In the Portal Designer you will went to upload your mobile and desktop header images, and adjust color theme of the header and footer areas.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Apps portal designer.](./media/portaleditor_exp.jpg)
@@ -272,6 +306,18 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of notification details in Field Service.](./media/09_FSSettings_BookingNotifications-details.jpg)
+
+
+## Field Service Customer Portal Survey (Preview)
+
+To support improvements within your organization you can now embed a Customer Voice survey directly within the Field Service Customer Experiences Portal. When the survey embed code is added into [Configuration](#) it will automatically render the survey on the Completed State of Portal experience.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of embedded survey in power portal.](./media/TMT-Desktop-Complete-Survey.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of embedded survey in power portal.](./media/TMT-Mobile-Complete-Survey.png)
+
 
 ## Additional notes
 
@@ -300,6 +346,11 @@ Currently the Field Service customer portal is deployed as a standalone experien
 
 When we make updates to the customer experience portal, new features or enhancements will be unpublished and require the org admin to publish the update before they reflect on the live experience.
 
+
+### Does the Field Service Customer Experiences portal support all languages?
+
+The portal will support Field Service languages with the exception of Arabic and Hebrew.
+
 ### I don't have a Twilio or Office 365 Exchange account. Are there other services I can use for messaging?
 
 Yes, you can use alterative SMS or email providers as long as they have connectors supported by Power Automate. Clone the existing email and SMS flows, remove the current connectors, and add desired connectors.
@@ -314,4 +365,4 @@ General content and format of the notifications are following a fixed template a
 
 ### How do I update my Field Service customer experiences portal?
 
-We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and select "Portals." If an update is avialable, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment.
+We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and select "Portals." If an update is avialable, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
