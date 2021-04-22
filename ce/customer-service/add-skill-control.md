@@ -44,7 +44,7 @@ Say you want to add the skill control named **Skills** to a case form, then:
 <!-- need an image here -->
    
 > [!NOTE]
-> To be able to add the skill control form in **Customer Service workspace** or the **Omnichannel admin center**, you can add the control to the **Case for Multisession experience** form.
+> To be able to customize a form to add the skill control in **Customer Service workspace** or the **Omnichannel admin center**, you can add the control to the **Case for Multisession experience** form.
 
 ### See also
 
