@@ -35,9 +35,9 @@ Use Dynamics 365 App for Outlook while you’re using Outlook on the desktop, we
 
 ## Install 
 
-Before you install App for Outlook, contact your administrator and to make sure all the prerequisites are met. For more information, see [Deploy Dynamics 365 App for Outlook](../deploy-dynamics-365-app-for-outlook.md).
+Before you install App for Outlook, contact your administrator and make sure all the prerequisites are met. For more information, see [Deploy Dynamics 365 App for Outlook](../deploy-dynamics-365-app-for-outlook.md).
 
-In most cases, you're administrator will automaticlly push the app and it will be aviliable in your Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves](Have users install App for Outlook themselves).
+In most cases, you're administrator will automaticlly push the app to you and it is aviliable in the Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves](Have users install App for Outlook themselves).
 
 
 ## Access the app
