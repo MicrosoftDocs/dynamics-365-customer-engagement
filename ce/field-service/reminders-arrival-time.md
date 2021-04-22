@@ -102,7 +102,7 @@ To configure SMS:
 ## Step 3: Set up the customer experience
 
 > [!Note]
-> When enabling this experience, messages can be sent to contacts of the account associated with bookings. If testing in non-production orgs, make sure your test data does not have real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
+> When enabling customer experience, messages can be sent to contacts of the account associated with bookings. If testing in non-production orgs, make sure your test data does not have real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
 
 In Field Service, Go to **Field Service Settings** > **Customer Portal** > **Customer Portal Settings**.
 
