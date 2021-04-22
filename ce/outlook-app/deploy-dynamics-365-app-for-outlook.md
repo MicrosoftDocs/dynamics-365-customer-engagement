@@ -2,7 +2,7 @@
 title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
-ms.date: 04/20/2021
+ms.date: 04/22/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -140,7 +140,7 @@ Dynamics 365 App for Outlook is an App Module in version 9 and later. The minimu
 This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
 
 
-## Step 4: Push the app to your users
+## Step 4: Install App for Oulook
 
 Follow these steps to push Dynamics 365 App for Outlook to selected users, all users, or have users install it themselves as needed.
 
@@ -187,7 +187,7 @@ The app will appear in the Outlook ribbon for the added users.
    > ![Open App for Outlook pane](media/open-pane-appforoutlook.png)  
 
 
-### To have users install the app themselves  
+### Have users install App for Outlook themselves  
 
 
 1. From your app, go to **Settings** > **Advanced Settings**.
