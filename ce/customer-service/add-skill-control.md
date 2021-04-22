@@ -35,11 +35,11 @@ Say you want to add the skill control named **Skills** to a case form, then:
 
 6. Select the field you just added and click **Change Properties**.  In the **Field Properties** dialog box that appears, select the **Display** tab and enter a label name for the field, such as **Skills**.
     > [!div class=mx-imgBorder]
-    > ![Set Field Properties in the Display tab](media/field-properties-display-tab.png "Set Field Properties in the Display tab")
+    > ![Set Field Properties on the Display tab](media/field-properties-display-tab.png "Set Field Properties on the Display tab")
 
 7. On the **Controls** tab, select **Add Control**. 
     > [!div class=mx-imgBorder]
-    > ![Select Add Control in the Controls tab](media/field-properties-controls-tab.png "Select Add Control in the Controls tab")
+    > ![Select Add Control on the Controls tab](media/field-properties-controls-tab.png "Select Add Control on the Controls tab")
 
   In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the drop-down list and click **OK**.
     > [!div class=mx-imgBorder]
