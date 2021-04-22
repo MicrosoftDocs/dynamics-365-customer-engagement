@@ -35,7 +35,7 @@ The predefined security roles for Sales include permissions and access levels th
 | Forecast user | Any user in the organization who needs access to the forecast data for tracking and analysis  | View forecast and drill-down forecast data |
 |  |  |  |
 | **Playbook** |  |  |
-| Playbook Manager | Sales manager or an equivalent role that create playbooks for the organization. | Create playbook categories and playbook templates, and add documents to the playbook template. |
+| Playbook Manager | Sales manager or an equivalent role that creates playbooks for the organization. | Create playbook categories and playbook templates, and add documents to the playbook template. |
 | Playbook User | Sales representatives who use playbooks while working on a record | Launch playbooks in the context of an entity, mark a playbook as completed, and track playbook activities. |
 |  |  |  |
 | **System Roles** |  |  |
