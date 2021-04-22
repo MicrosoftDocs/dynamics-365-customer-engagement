@@ -32,8 +32,6 @@ landingContent:
         links:
           - text: Real-time marketing quickstart guide
             url: real-time-marketing-quickstart.md
-          - text: Connect Customer Insights segments to real-time marketing
-            url: real-time-marketing-customer-insights.md
       - linkListType: learn
         links:
           - text: Known issues in real-time marketing

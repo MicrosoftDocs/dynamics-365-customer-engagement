@@ -1,7 +1,7 @@
 ---
 title: "Work with real-time marketing segments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to work with real-time marketing segments in Dynamics 365 Marketing."
-ms.date: 04/01/2021
+ms.date: 04/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
