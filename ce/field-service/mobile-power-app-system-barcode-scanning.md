@@ -32,10 +32,10 @@ By scanning barcodes, technicians can:
 
 ## Step 1: Add a barcode field to the form
 
-First, make sure there is a barcode field on the record type you want to add the barcode information. A common example is adding a barcode field to the customer asset form, which we'll walk through in this article. 
+First, make sure there is a barcode field on the record type you want to add the barcode information. A common example is adding a barcode field to the customer asset form, which we'll walk through in this article.
 
 > [!Note]
-> For an another walkthrough, see this video: [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479).
+> For another walkthrough, see this video: [Use and configure the Dynamics 365 Field Service mobile app](https://youtu.be/tcDt_vJ5csI?t=479).
 ).
 
 1. Find **Field Service Mobile** in your list of Dynamics 365 apps and select **Open in App Designer**.
