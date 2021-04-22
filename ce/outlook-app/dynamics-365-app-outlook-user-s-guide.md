@@ -57,27 +57,6 @@ For more information on FAQs, see [Frequently Asked Questions about Dynamics 365
    > [!NOTE]
    > If you have trouble installing  the app, see the troubleshooting section in [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md).  
 
-## Disable or remove the Outlook app  
-
-1. In [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], click **File**, and then click **Manage Add-ins**.  
-
-   ![Manage the Dynamics 365 App for Outlook add-in](../outlook-app/media/manage-the-dynamics-365-app-outlook-add-in.png "Manage the Dynamics 365 App for Outlook add-in")  
-
-   This opens the **Microsoft 365** dialog box where you can see all your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-ins. If you click the Dynamics 365 row, you can see which instance the app is connected to.  
-
-2. Do one of the following:  
-
-   - To disable the app, in the Dynamics 365 row, clear the **Turned on** check box.  
-
-   - To remove the app, select the Dynamics 365 row, and then click the Minus button.  
-
-## Terminology
-
-|Term  |Definition  |
-|---------|---------|
-|Set regarding     |Track and link the email or appointment to an existing record in Dynamics 365 apps.|
-|Tracking      |Create a copy of the email or appointment in Dynamics 365 apps.   |
-
 
 
 ### Create a new record  
