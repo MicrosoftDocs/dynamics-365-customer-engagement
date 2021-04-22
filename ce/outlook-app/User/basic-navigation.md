@@ -35,9 +35,9 @@ Use Dynamics 365 App for Outlook while you’re using Outlook on the desktop, we
 
 ## Install 
 
-Before you install App for Outlook, contact your administrator and make sure all the prerequisites are met. For more information, see [Deploy Dynamics 365 App for Outlook](../deploy-dynamics-365-app-for-outlook.md).
+Before installing App for Outlook, contact your administrator and make sure all the prerequisites are met. For more information, see [Deploy Dynamics 365 App for Outlook](../deploy-dynamics-365-app-for-outlook.md).
 
-In most cases, you're administrator will automaticlly push the app to you and it is aviliable in the Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [Have users install App for Outlook themselves](../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves).
+In most cases, you're administrator will automaticlly push the app to you and it should be aviliable in the Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [Have users install App for Outlook themselves](../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves).
 
 
 ## Access the app
@@ -56,9 +56,9 @@ Once installed it's easy to access the Dynamics 365 App for Outlook pane whether
    
 ## Pin 
 
-If you're using the Outlook desktop client Outlook Web Access, you can pin App for Outlook so that it remains open when you navigate from one email to another. If don't see the pin option verify that it's supported for your setup. For more information, see [What's supported](support-matrix.md).
+If you're using the Outlook desktop client or Outlook Web Access, you can pin App for Outlook so that it remains open when you navigate from one email to another. If don't see the pin option verify that it's supported for your setup. For more information, see [What's supported](support-matrix.md).
 
-- To pin the add-in, select the pin. To unpin, select the pin again.
+- To pin the app, select the pin. To unpin, select the pin again.
 
    > [!div class="mx-imgBorder"] 
    > ![Pin the add-in](../media/pin-addin.gif)  
@@ -69,7 +69,7 @@ If you're using the Outlook desktop client Outlook Web Access, you can pin App f
 |Term  |Definition  |
 |---------|---------|
 |[Set regarding](track-message-or-appointment.md)     |Track and link the email or appointment to an existing row your Dynamics 365 app.|
-|Track     |Create a copy of the email or appointment in your Dynamics 365 app.   |
+|[Track](track-message-or-appointment.md)     |Create a copy of the email or appointment in your Dynamics 365 app.   |
 |[Untrack](track-message-or-appointment.md#untrack-a-linked-email-or-appointment)     |Remove the copy of the email or appointment from your Dynamics 365 app. |
 |Track Successful |Your email or appointment is successfully copied to  your Dynamics 365 app.   |
 |Track failure |Your email or appointment is failed to copy to your Dynamics 365 app.   | 
