@@ -38,7 +38,7 @@ Before you start using the **Omnichannel Ongoing Conversations** dashboard, here
 
 - You can monitor only conversations that are in the **Active** and **Wrap-up** states.
 
-- You cannot monitor conversations that are assigned to you.
+- You can't monitor conversations that are assigned to you.
 
 - You can transfer conversations only on messaging channels, and not on elevated voice and video channels. 
 
@@ -92,7 +92,7 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
 
-  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list. Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
+  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list. Agents whose presence match with one of the allowed presence values in the work stream configuration only will be listed.
   - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned.
 
 5. Depending on the option you chose in Step 4, choose the agent or queue, and then select **Assign**.
