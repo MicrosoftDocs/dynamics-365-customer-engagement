@@ -380,8 +380,6 @@
 
 ### Customize dashboards
 #### [Customize interactive dashboards based on Unified Interface](configure-interactive-dashboards-customer-service-hub.md)
-### Customize insights
-#### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
 
 ## Service scheduling
 ### [Upcoming changes](scheduling-overview.md)

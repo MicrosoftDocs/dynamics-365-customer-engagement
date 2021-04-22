@@ -63,7 +63,7 @@ Do the following steps to add the SLA timer control for the case entity.
   
 - If the CSR completes the task within the remaining time, the control shows the word **Succeeded**.  
   
-- If the CSR doesn’t complete the task within the time remaining time, the control shows the word **Expired**.  
+- If the CSR doesn’t complete the task within the remaining time, the control shows the word **Expired**.  
   
 - As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed. This behavior is optional.  
   
