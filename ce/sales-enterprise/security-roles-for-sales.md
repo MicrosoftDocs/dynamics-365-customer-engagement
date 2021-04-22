@@ -56,4 +56,4 @@ responsible for enforcing best practices for Playbooks, assign the Sales Manager
 5. Notify the user and have them check their permissions.
 
 ### See also
-[Create users and assign security roles](create-users-assign-online-security-roles.md)
+[Create users and assign security roles](ce/customerengagement/on-premises/admin/create-users-assign-online-security-roles.md)
