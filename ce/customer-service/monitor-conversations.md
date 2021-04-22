@@ -50,9 +50,7 @@ Before you start using the **Omnichannel Ongoing Conversations** dashboard, here
 
 ## Monitor and join conversations
 
-By monitoring the conversations, you get an overview of how each conversation is trending, such as sentiments and agent responses, and can choose to join a conversation that might need your attention.
-  
-By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.
+As a supervisor, you can monitor conversations to know how they are trending, and view customer sentiments and agent responses. You can choose to join a conversation that needs your attention. By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 
