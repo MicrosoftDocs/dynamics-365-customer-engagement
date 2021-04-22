@@ -17,15 +17,15 @@ search.app:
   - D365CS
 ms.reviewer: nenellim
 ---
+
 # Add a skill control to view skills on any routed record
 
-Dynamics 365 provides an out-of-the box custom control that you can embed in any of your forms to view the skills of any routed record. 
-To be able to add the skill control, you must have the System Administrator or System Customizer security role or equivalent permissions. To know more about your security role, see [View your user profile](../basics/view-your-user-profile.md).
+Dynamics 365 provides an out-of-the box custom control that you can embed in any of your forms to view the skills of any routed record. To be able to add the skill control, you must have the System Administrator or System Customizer security role or equivalent permissions. To know more about your security role, see [View your user profile](../basics/view-your-user-profile.md).
 
 Say you want to add the skills control named **Skills** to a case form, then:
 
-1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**. 
-On the page that appears, in the site map, under **Components**, expand **Entities**, select **Case**, and then select **Forms**. 
+1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then  select **Customize the System**. 
+  On the page that appears, in the site map, under **Components**, expand **Entities**, select **Case**, and then select **Forms**. 
 
 2. In the **Active Forms** list that appears on the grid, select the form where you want to add the skill control. In this example, we have selected the **Case for Interactive experience** form.
 
@@ -36,7 +36,7 @@ On the page that appears, in the site map, under **Components**, expand **Entiti
 5. Select the field you just added and select **Change Properties**.  In the **Field Properties** dialog box that appears, select the **Display** tab and enter a label name for the field, such as **Skills**.
 
 6. On the **Controls** tab, select **Add Control**. 
-    In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the dropdown list and select **OK**.
+   In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the dropdown list and select **OK**.
 
 7. Save and publish the solution.
    The skill control is now added to the **Case Interactive experience** form.
