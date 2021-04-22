@@ -54,3 +54,6 @@ responsible for enforcing best practices for Playbooks, assign the Sales Manager
 4. Select **Manage Roles** and choose the roles that you want to assign to the user.
 
 5. Notify the user and have them check their permissions.
+
+### See also
+[Create users and assign security roles](create-users-assign-online-security-roles.md)
