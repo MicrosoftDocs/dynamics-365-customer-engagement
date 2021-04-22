@@ -122,7 +122,6 @@
 #### Get started with real-time marketing
 ##### [Real-time marketing quickstart guide](real-time-marketing-quickstart.md)
 ##### [Connect Customer Insights segments to real-time marketing](real-time-marketing-customer-insights.md)
-##### [Event-based journey example](real-time-marketing-example.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)
 ##### [Troubleshoot + FAQs](real-time-marketing-faq.md)
 #### Channels
@@ -134,6 +133,7 @@
 ##### [Work with segments in real-time marketing](real-time-marketing-segments.md)
 ##### [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
 ##### [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md)
+##### [Set a business goal and measure progress through a journey](real-time-marketing-business-goals.md)
 ##### [Personalize content](real-time-marketing-personalize.md)
 ##### [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
 ##### [Access and interpret analytics](real-time-marketing-analytics.md)
