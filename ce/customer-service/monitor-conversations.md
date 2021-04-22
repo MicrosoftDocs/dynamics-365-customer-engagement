@@ -34,13 +34,15 @@ The following screenshot is an example of Omnichannel Ongoing Conversations:
 
 Before you start using the **Omnichannel Ongoing Conversations** dashboard, here are a few things you must be aware of:
 
-- The monitor feature is supported for work streams configured for all channels except Entity Records.
+- The monitor feature is supported for workstreams configured for all channels except Entity Records.
 
 - You can monitor only conversations that are in the **Active** and **Wrap-up** states.
 
 - You can't monitor conversations that are assigned to you.
 
-- You can transfer conversations only on messaging channels, and not on elevated voice and video channels. 
+- You can transfer conversations only on messaging channels such as Live Chat, SMS, or WhatsApp. 
+
+-  
 
 - You can transfer conversations to and from agents only, and not bots.
 
@@ -48,9 +50,9 @@ Before you start using the **Omnichannel Ongoing Conversations** dashboard, here
 
 ## Monitor and join conversations
 
-By monitoring the conversations, you will get an overview of how each conversation is trending, such as sentiments and agent responses, and can choose to join a conversation that might need your attention.
+By monitoring the conversations, you get an overview of how each conversation is trending, such as sentiments and agent responses, and can choose to join a conversation that might need your attention.
   
-By joining the conversation, you provide necessary inputs to both agent and customer based on the selected message mode (public or internal) in the communication panel.
+By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 
@@ -70,13 +72,13 @@ By joining the conversation, you provide necessary inputs to both agent and cust
     > [!div class=mx-imgBorder]
     > ![Select Join chat](media/supervisor-select-join-chat.png "Select Join chat")
 
-    When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
+    When you join the conversation, a notification is sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
 
     To learn more, see [View communication panel](oc-conversation-control.md).
 
 ## Assign conversations
 
-At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open status or not assigned to any agent. You can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded will be displayed.
+At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open status or not assigned to any agent. You can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded is displayed.
 
 1. Sign in to the **Omnichannel for Customer Service** app.
 
@@ -92,7 +94,7 @@ At times, you may need to manually assign a conversation. In such cases, the con
 
 4. On the **Assign conversations** dialog box, choose one of the following options:
 
-  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list. Agents whose presence match with one of the allowed presence values in the work stream configuration only will be listed.
+  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list. Agents whose presence match with one of the allowed presence values in the workstream configuration only will be listed.
   - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned.
 
 5. Depending on the option you chose in Step 4, choose the agent or queue, and then select **Assign**.
@@ -113,10 +115,9 @@ At times, you may need to transfer an ongoing conversation from an agent to anot
 
 4. On the **Transfer conversations** dialog box, select **Agent**.
 
-      Select to transfer the conversation to an agent by choosing an agent name from the list. Agents whose presence match with one of the allowed presence values in the work stream configuration only will be listed.
+      Select to transfer the conversation to an agent by choosing an agent name from the list. Only those agents whose presence match with one of the allowed presence values in the workstream configuration will be listed.
 
-5. After selecting the agent, select **Transfer**.
-    The selected conversation is transferred to the agent.
+5. Select **Transfer**. The selected conversation is transferred to the agent.
 
 > [!NOTE]
 > When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent becomes a consultee to the conversation that is now being managed by the second agent.
