@@ -19,16 +19,19 @@ ms.reviewer: nenellim
 ---
 # Add a skill control to view skills on any routed record
 
-Dynamics 365 provides an out-of-the box control that you can embed in any of your forms to view the skills of any routed record. To be able to add the skill control, you must have the System Administrator or System Customizer security role or equivalent permissions. To know more about your security role, see [View your user profile](../basics/view-your-user-profile.md).
+Dynamics 365 provides an out-of-the box custom control that you can embed in any of your forms to view the skills of any routed record. 
 
-Say you want to add the skill control named **Skills** to a case form, then:
+To be able to add the skill control, you must have the System Administrator or System Customizer security role or equivalent permissions. To know more about your security role, see [View your user profile](../basics/view-your-user-profile.md).
+- 
+
+Say you want to add the skills control named **Skills** to a case form, then:
 
 1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**. 
 On the page that appears, in the site map, under **Components**, expand **Entities**, select **Case**, and then select **Forms**. 
 
 2. In the **Active Forms** list that appears on the grid, select the form where you want to add the skill control. In this example, we have selected the **Case for Interactive experience** form.
 
-3. On the **Insert** tab, select **Section** > **One Column**. Drag and drop the section on the form.
+3. On the **Insert** tab, select **Section**, and then select **One Column**. Drag the  section to the form.
  
 4. From the **Field Explorer**, select an appropriate field (such as **Case Title**) to add onto the section you just created, and save the form.
 
@@ -37,12 +40,15 @@ On the page that appears, in the site map, under **Components**, expand **Entiti
 6. On the **Controls** tab, select **Add Control**. 
     In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the dropdown list and select **OK**.
 
-7. Save and publish the form.
+7. Save and publish the solution.
    The skill control is now added to the **Case Interactive experience** form.
 <!-- need an image here -->
    
 > [!NOTE]
 > To customize a form to add the skill control in **Customer Service workspace** or the **Omnichannel admin center**, you can add the control to the **Case for Multisession experience** form.
+
+After the skills control has been added to a case form, an agent can now view the newly added custom control on all routed records in **Customer Service Hub**. The agent can view or delete existing skills, and even add new skills from the existing skill set. To enable agents to update skills, see [Allow agents to update skills](enable-skill-routing-create-rating-model.md)
+
 
 ### See also
 

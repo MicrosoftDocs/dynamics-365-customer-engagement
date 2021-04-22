@@ -20,7 +20,7 @@ ms.reviewer: nenellim
 # How to close live work items or deactivate queue items
 
 You can use the following sample code in your Console App (.NET framework) of Visual Studio to trigger the closure of live work items by deactivating the associated queue item. 
-For information on how you can modify the sample code to suit the needs of your organization, see [Quickstart: Organization service sample (C#)](/powerapps/developer/data-platform/org-service/quick-start-org-service-console-app)
+For information on how you can modify the sample code to suit your environment, see [Quickstart: Organization service sample (C#)](/powerapps/developer/data-platform/org-service/quick-start-org-service-console-app)
 
    ```csharp
     static void Main(string[] args)
