@@ -38,4 +38,4 @@ To disable or remove the App for Outlook add-in follow these steps:
 3. Go to the **Dynmics 365** add-in, select ![More actions](../media/more-outlook-button.png) **More actions** > **Remove**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Select remove to delete the add-in](../media/my-addins.png "remove-addin.png")  
+   > ![Select remove to delete the add-in](../media/remove-addin.png)  
