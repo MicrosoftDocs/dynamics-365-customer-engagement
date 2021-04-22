@@ -25,7 +25,7 @@ The predefined security roles for Sales include permissions and access levels th
 |-------------------------|-------------------------|-------------------------|
 | **Sales** |  |  |
 | Sales Manager | Users who manage a team of sellers and are responsible for the team's performance. They are also responsible for creating and managing product SKUs, setting sales targets, and projecting sales forecasts. | Create product families and bundles, create, retire and clone products, translate product name and properties Publish a product or bundle to make it available for selling, Define related products to increase sales, Revise products,, create sales literature, Analyze sales data, Configure sales forecasts, project forecasts, Adjust forecast values , define and track goals for the team. |
-| Sales team member | Users whose jobs aren't necessarily tied to a function but who still need to use the basic functionality of a line-of-business system. This license gives users lightweight access through designated scenarios built into the Team Member experience. | Access to the Sales Team Member App.Access to  contacts or view accounts.View leads and opportunities linked with accounts or contacts, or see other sales-related data.Add notes and activities, such as tasks. |
+| Sales team member | Users whose jobs aren't necessarily tied to a function but who still need to use the basic functionality of a line-of-business system. This license gives users lightweight access through designated scenarios built into the Team Member experience. More information: [Sales Team Member app for users with Team Member license](sales-team-member.md) | Access to the Sales Team Member App.Access to  contacts or view accounts.View leads and opportunities linked with accounts or contacts, or see other sales-related data.Add notes and activities, such as tasks. |
 | Salesperson | Sellers who work on opportunities, quotes, orders, and invoices. | Access to everything from lead to order – Lead, Opportunities, Quote, Order, Invoice.</br>Create accounts and contacts, and track goals |
 | Vice President of Sales | Users who typically manage the sales organization for several business units or the entire organization. | Same permissions as the Sales Manager, except that their scope of access will be at the business unit or organization level. |
 |  |  |  |
@@ -35,8 +35,8 @@ The predefined security roles for Sales include permissions and access levels th
 | Forecast user | Any user in the organization who needs access to the forecast data for tracking and analysis  | View forecast and drill-down forecast data |
 |  |  |  |
 | **Playbook** |  |  |
-| Playbook Manager | Sales manager or an equivalent role who enforces best practices for playbooks | Create playbook categories and playbook templates, and add documents to the playbook template. |
-| Playbook User | Sales representatives who create and launch playbooks | Launch playbooks in the context of an entity, mark a playbook as completed, and track playbook activities . |
+| Playbook Manager | Sales manager or an equivalent role that create playbooks for the organization. | Create playbook categories and playbook templates, and add documents to the playbook template. |
+| Playbook User | Sales representatives who use playbooks while working on a record | Launch playbooks in the context of an entity, mark a playbook as completed, and track playbook activities. |
 |  |  |  |
 | **System Roles** |  |  |
 | System Administrator | Users who need to configure the sales settings and administer the system. | System administrators are super users of the systems; they have access to the entire system. They can add users, assign roles, elevate roles, and configure the system as per the organization's needs. |
