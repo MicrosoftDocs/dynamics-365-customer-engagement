@@ -199,7 +199,7 @@ The app will appear in the Outlook ribbon for the added users.
 2. Select the  **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), again and then select **Apps for Dynamics 365 apps**.  
 
    > [!div class="mx-imgBorder"]
-   > ![Select Apps for Dynamics 365 apps](media/app-for-ce.png)
+   > ![Select Apps for Dynamics 365 apps](media/apps-for-ce.png)
 
 3. In the **Apps for Dynamics 365 apps** screen, under **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**, users select **Add app to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]**.  
 
