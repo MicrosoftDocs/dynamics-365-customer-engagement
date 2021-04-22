@@ -26,6 +26,7 @@
 ## [Add sales literature or a knowledge base article to an email](user/add-literature-or-kb.md)
 ## [Use delegate access](user/use-delegate-access.md)
 ## [Track S/MIME signed emails](user/s-mime-email.md)
+## [Remove Dynamics 365 App for Outlook](user/remove-outlook-app.md)
 
 
 # [Run the checker to troubleshoot issues](diagnostic-checker.md)
