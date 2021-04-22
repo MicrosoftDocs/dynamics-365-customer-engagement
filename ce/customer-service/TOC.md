@@ -636,6 +636,7 @@
 
 ## FAQs on Customer Service
 ### [FAQs on unified routing](unified-routing-faqs.md)
+### [FAQs on create records automatically, activity monitor](arc-faqs.md)
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 ### [FAQs on Omnichannel for Customer Service](faqs.md)
 
