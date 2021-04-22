@@ -18,6 +18,7 @@ search.app:
 ms.reviewer: nenellim
 ---
 # Add a skill control to view skills on any routed record
+
 Dynamics 365 provides an out-of-the box custom control that you can embed in any of your forms to view the skills of any routed record. 
 To be able to add the skill control, you must have the System Administrator or System Customizer security role or equivalent permissions. To know more about your security role, see [View your user profile](../basics/view-your-user-profile.md).
 
