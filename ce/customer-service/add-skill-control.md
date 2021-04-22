@@ -42,8 +42,6 @@ Say you want to add the skill control named **Skills** to a case form, then:
     > ![Select Add Control on the Controls tab](media/field-properties-controls-tab.png "Select Add Control on the Controls tab")
 
   In the **Add Control** dialog box that appears, select the **CC_OCRoutedEtnRelatedRecordsControl** custom control from the drop-down list and click **OK**.
-    > [!div class=mx-imgBorder]
-    > ![Select the Skill Control from the drop-down list](media/add-skill-update-control.png "Select the Skill Control from the drop-down list")
 
 9. Save and publish the form.
    
