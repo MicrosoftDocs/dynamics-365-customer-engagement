@@ -142,6 +142,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |68|Custom Control Default Config|
 |70|Field Security Profile|
 |71|Field Permission|
+|80|Model-driven App|
 |90|Plugin Type|
 |91|Plugin Assembly|
 |92|SDK Message Processing Step|
