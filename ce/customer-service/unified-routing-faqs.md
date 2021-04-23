@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for unified rout
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/22/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -25,7 +25,7 @@ For messaging channels, a migration utility will be available to upgrade the wor
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
-Workstreams that you create in Omnichannel admin center will be displayed in the Omnichannel Administration app and can be managed. But we recommend that you manage the workstreams in the apps that you've created them.
+These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Ommichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
 
 ### Will unified routing support activity routing?​
 
