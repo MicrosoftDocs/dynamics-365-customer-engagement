@@ -1,5 +1,5 @@
 ---
-title: "Process for Setting Goals (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Process for setting goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365."
 ms.date: 04/19/2021
 ms.service: dynamics-365-sales
@@ -80,7 +80,7 @@ More information: [Create or edit a goal metric](create-edit-goal-metric.md)
 
 Goals roll up from the bottom of the goal hierarchy to the top, with Dynamics 365 rolling child goal totals into their parent goal totals. Goals at the top of a hierarchy reflect a summation of all the goals in the organization.
 
-When you define rollup queries, you identify the record types to compare against the goals you define in the rollup fields. For example, you could create a goal metric that measures all invoices closed within a specific period. A rollup query could then show you invoices owned by one person, or for customers in one territory.
+When you define rollup queries, you identify the record types to compare against the goals you define in the rollup fields. For example, you could create a goal metric that measures all invoices closed within a specific period. You could then create a rollup query to show invoices that are owned by a person, or raised for customers in a territory.
 
 You can only query one entity type in a query, but the query builder helps you make a query as simple or as complex as you need. As you fine-tune your query, you can test the results.
 
