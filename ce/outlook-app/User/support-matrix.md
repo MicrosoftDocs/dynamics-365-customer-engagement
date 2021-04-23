@@ -167,4 +167,4 @@ The tables below shows the supported features using App for Outlook on Outlook d
 |                                                     |                            |                     |              |                 |                        |               |            |     |
 | **Pin add-in**                                      | X                          | X*                    |              |                 | X                      | X             |            |     |
 
-* Requires Outlook 2016 for Windows build 7668.2000 or later.
+*Requires Outlook 2016 for Windows build 7668.2000 or later.
