@@ -109,7 +109,7 @@ If the setup is successful the **configuration Test Results** section should cha
 > ![Open a mailbox to verify that it's setup correctly](media/verify-mailbox.png)
 
 
-## Setp 3: Provide security role access
+## Step 3: Provide security role access
 
 The security role **Dynamics 365 App for Outlook User** is available from build 9.1.0.4206 or later. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**. You must add users to this role so they can use Dynamics 365 App for Outlook. This will ensure that the users have the basic privileges needed to access App for Outlook. 
 
@@ -185,7 +185,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
    > [!div class="mx-imgBorder"]
    > ![Go to Dynamics 365 App for Outlook](media/settings-app-for-outlook.png)
 
-3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have sereral different options on how you can deploy the app to your users:
+3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have several different options on how you can deploy the app to your users:
  
     - **Option 1**: Select the checkbox to automatically add App for Outlook to all eligible users. If a user's email is synchronized through server-side synchronization, you won’t have to do anything more to push the app to them.
 
