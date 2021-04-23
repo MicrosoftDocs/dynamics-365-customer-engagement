@@ -23,7 +23,7 @@ search.app:
 
 ## View the IoT dashboard
 
- The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)
+ The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)
 
  > [!div class="mx-imgBorder"]
 > ![Screenshot of the Connected Field Service dashboard.](./media/cfs-chart.png)

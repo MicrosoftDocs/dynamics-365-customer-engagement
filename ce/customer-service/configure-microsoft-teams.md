@@ -27,11 +27,37 @@ Make sure that the following prerequisites are met:
 
 - An app is created and configured in **Teams** > **App Studio**.
 
-<a name="configureteams"></a>
+## Configure a Microsoft Teams channel in Omnichannel admin center<a name="configureinoac"></a>
 
-## Configure a Microsoft Teams channel in Omnichannel for Customer Service
+1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
+2. Enter the following details:
+   1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
+   2. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
+   3. On the **Callback information** page, copy the value in the **Bot ID** box. You'll use it in the Teams app to update the value for the bot ID.
+   4. Select **Done**. The account is added to the list.
+3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+4. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
+    1. On the **Microsoft Teams setup** page, in the **Available Microsoft Teams accounts** list, select the number that you created.
+    2. On the **Language** page, select the language.
+    3. On the **Behaviors** page, configure the following options:
+      - [Custom automated messages](configure-automated-message.md)
+      - [Post-conversation survey](configure-post-conversation-survey.md)
+   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+      - Customers can send file attachments
+      - Agents can send file attachments
+   5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
+5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+8. In **Advanced settings**, configure the following options based on your business needs:
+   - [Sessions](../app-profile-manager/session-templates.md)
+   - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
+   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Smart assist bots](smart-assist-bot.md)
+   - [Quick replies](create-quick-replies.md)
 
-### Create a Teams channel
+## Configure a Microsoft Teams channel in Omnichannel Administration<a name="configureteams"></a>
+
 
 1. In Omnichannel Administration under **Channels**, select **Teams**. The **New Teams Channel** page appears.
 
@@ -40,7 +66,7 @@ Make sure that the following prerequisites are met:
    - **Name:** Specify a name for the channel.
    - **Owner:** Accept the default value, or specify a different value.
 
-3. In **Step 2: Work distribution**, select the out-of-the-box work stream for Teams. Alternatively, you can create a [work stream](work-streams-introduction.md) for Teams and associate it with the Teams channel.
+3. In **Step 2: Work distribution**, select the out-of-the-box work stream for Teams. Alternatively, you can create a [work stream](create-workstreams.md) for Teams and associate it with the Teams channel.
 
 4. Select **Save**. The Teams channel is saved.
 
@@ -52,21 +78,9 @@ Make sure that the following prerequisites are met:
 6. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 7. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-### Configure Teams details
-
-1. In the Teams app, go to **App Studio** > **Manifest editor**, and then select the app that you configured for Omnichannel for Customer Service.
-
-2. Select the ellipsis (...), and then select **Edit**.
-
-3. Select **Bots** > **Edit**, and then paste the **Bot ID** value in the box that appears under **Connect to a different Bot id**.
-
-4. Make sure that you've configured the options in **App details**.
-
-5. Select **Test and distribute**, and then select **Install** to test your app.
-
 ### Modify settings for a specific Teams account
 
-1. In the Omnichannel Administration app, go to **Microsoft Teams** and select the account you want to modify. 
+1. In the Omnichannel Administration app, go to **Microsoft Teams** and select the account you want to modify.
 
 2. On the **General settings** tab, provide the following information:
 
@@ -80,11 +94,26 @@ Make sure that the following prerequisites are met:
 
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
 
-       To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](https://docs.microsoft.com/microsoftteams/platform/resources/bot-v3/bots-files).
+       To learn more about uploading media in Microsoft Teams, see [Microsoft Teams documentation](/microsoftteams/platform/resources/bot-v3/bots-files).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+
+## Configure Teams details
+
+1. In the Teams app, go to **App Studio** > **Manifest editor**, and then select the app that you configured for Omnichannel for Customer Service.
+
+2. Select the ellipsis (...), and then select **Edit**.
+
+3. Select **Bots** > **Edit**, and then paste the **Bot ID** value in the box that appears under **Connect to a different Bot id**.
+
+4. Make sure that you've configured the options in **App details**.
+
+5. Select **Test and distribute**, and then select **Install** to test your app.
+
+  > [!NOTE]
+  > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 ### See also
 

@@ -134,7 +134,7 @@ The AI model and AI configuration entities use the following workflow processes.
 
 AI suggestions for Case and Knowledge became available as of Oct, 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there is no penalty if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios/patterns to purchase additional capacity in a manner minimally disruptive to those customers. 
 
-The service protection limits for AI suggestions are defined as below. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user license available in the tenant.
+The service protection limits for AI suggestions are defined in the following table. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
 | Area    | Limits     | Notes     |
 |----------|------------|-----------|

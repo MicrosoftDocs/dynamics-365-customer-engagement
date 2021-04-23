@@ -1,7 +1,7 @@
 ---
 title: "Define general properties and scheduling for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define general properties and scheduling for a forecast in Dynamics 365 Sales."
-ms.date: 08/01/2020
+ms.date: 04/14/2021
 ms.service: "dynamics-365-sales"
 ms.custom: "dyn365-sales"
 ms.topic: article
@@ -23,7 +23,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
 
-    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")
@@ -97,7 +97,7 @@ Using the general properties and scheduling options of the forecast configuratio
     | Parameter | Description |
     |-----------|-------------|
     | Forecast period | Select whether the forecast is to be generated monthly or quarterly. By default, **Quarterly** is selected. You can schedule the forecast up to one year. |
-    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).|
+    | Fiscal year | Select the fiscal year for the forecast. This is populated based on the organization's fiscal year settings. To learn more, see [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings).|
     | Forecast starts at | Select the time period to start forecasting. If you select the forecast period as **Monthly**, select the month you want to start forecasting. If you select the forecast period as **Quarterly**, select the quarter you want to start forecasting. |
     | Number of periods | Enter the number of forecast periods to be generated. You can only create forecasts that span up to one year. <br> **Note**: If you set the **Forecast period** to **Monthly**, **Fiscal year** to **FY19**, **Forecast starts at** as **January**, and **Number of periods** as **4**, the generated forecasts will be grouped by four months: January, February, March, and April. In such a case, the forecast start and end dates will automatically be set to January 1, 2019 and April 30, 2019, respectively. |
     | Valid from | This field is read-only. It identifies the date the forecast starts. |
@@ -121,7 +121,7 @@ Using the general properties and scheduling options of the forecast configuratio
         
         **Name Based On** is selected as **End Date** specifying that the name of fiscal year is **FY2020**. If the option is selected as **Start Date**, the name will be **FY2019**.
         
-        To learn more, see [Work with fiscal year settings](https://docs.microsoft.com/power-platform/admin/work-fiscal-year-settings).
+        To learn more, see [Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings).
         
     2. In the **Scheduling** section, select the following values:<br>
         **Forecast period** as **Monthly**<br>
@@ -141,14 +141,9 @@ Using the general properties and scheduling options of the forecast configuratio
 
 ## Advanced scheduling
 
-> [!IMPORTANT]
-> - The enhanced experience for advanced scheduling is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 Using advanced scheduling, you can configure forecast scheduling based on the calendar used by your organization. For example, a car manufacturing company, Contoso, has a planning calendar that uses 13 weeks per quarter. Contoso uses what's referred to as a 4-4-5 calendar, in which quarters are divided into two 4-week months and one 5-week month. The 13 weeks can also be grouped into 5–4–4 or 4–5–4 calendars, depending on organizational requirements.
 
-Forecasting now supports the selection of different calendar patterns to match your organizational requirements. In the **Scheduling** section, enable the preview for advanced scheduling.
+Forecasting now supports the selection of different calendar patterns to match your organizational requirements. In the **Scheduling** section, enable the advanced scheduling option.
 
 > [!div class="mx-imgBorder"]
 > ![Enable advanced scheduling preview](media/forecast-adv-scheduling-enable-preview.png "Enable advanced scheduling preview")     

@@ -1,0 +1,114 @@
+- name: Overview
+  href: overview.md
+- name: Administrator basics
+  items:
+  - name: What's supported
+    href: support-phones-tablets.md
+  - name: Set up mobile app
+    href: set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md
+  - name: Manage and secure devices
+    href: secure-manage-phones-tablets.md
+- name: Set-up mobile offline
+  items:
+  - name: Configure mobile offline
+    href: setup-mobile-offline.md
+  - name: Mobile offline capabilities and limitations
+    href: mobile-offline-capabilities.md
+- name: Install the mobile app
+  items:
+  - name: Install Dynamics 365 for phones and tablets
+    href: install-dynamics-365-for-phones-and-tablets.md
+  - name: Migrate to the Power Apps mobile app
+    href: migration.md
+- name: User Guides
+  items:
+  - name: Basic navigation in Dynamics 365 for phones and tablets
+    href: user-guide-mobile-app.md
+  - name: Basic navigation for Dynamics 365 (Preview) app for Windows
+    href: windows-mobile-app.md
+  - name: Work offline on your mobile device
+    href: work-in-offline-mode.md
+- name: Troubleshooting
+  href: troubleshooting-things-know-about-phones-tablets.md
+- name: Older version (8.x)
+  items:
+  - name: Overview
+    href: ../mobile-app/v8/about-this-content.md
+  - name: Administrator Guide
+    items:
+    - name: Configure mobile offline (using legacy admin interface)
+      href: setup-mobile-offline-for-admin.md
+    - name: Setup and manage phones and tablets
+      items:
+      - name: Set up
+        href: v8/set-up-manage/set-up.md
+      - name: Support
+        href: v8/set-up-manage/support.md
+      - name: Secure and manage
+        href: v8/set-up-manage/secure-manage.md
+      - name: Troubleshoot
+        href: v8/set-up-manage/troubleshoot.md
+    - name: Things to know and troubleshooting
+      items:
+      - name: Get the Company News Timeline
+        href: v8/go-mobile/admin-troubleshoot/get-company-news-timeline.md
+      - name: Reconfigure
+        href: ../mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure.md
+      - name: Secure your mobile data with Microsoft Dynamics 365 apps for Good
+        href: ../mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md
+      - name: iFrame and web resource support
+        href: ../mobile-app/v8/go-mobile/admin-troubleshoot/iframe-web-resource-support.md
+      - name: Troubleshoot a startup error
+        href: ../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md
+      - name: Troubleshoot error code 800c0019 on Windows Phones
+        href: ../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-error-code-800c0019-windows-phones.md
+  - name: User Guide
+    items:
+    - name: Install the mobile app
+      href: ../mobile-app/v8/go-mobile/get-started/install.md
+    - name: Sign in and sign out
+      href: ../mobile-app/v8/go-mobile/get-started/email-sign-in.md
+    - name: Reconfigure
+      href: ../mobile-app/v8/go-mobile/get-started/reconfigure.md
+    - name: Basic navigation
+      href: ../mobile-app/v8/go-mobile/get-started/basic-navigation.md
+    - name: The workspace - your personalized action hub
+      href: ../mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md
+    - name: Notes
+      href: ../mobile-app/v8/go-mobile/get-started/notes.md
+    - name: Scan barcodes
+      href: ../mobile-app/v8/go-mobile/get-started/scan-barcodes.md
+    - name: User your browser for non-mobile features
+      href: ../mobile-app/v8/go-mobile/get-started/use-browser-non-mobile-features.md
+    - name: A note for Android users
+      href: ../mobile-app/v8/go-mobile/get-started/note-android.md
+    - name: More help and how-to information
+      href: ../mobile-app/v8/go-mobile/get-started/more-help-how-users.md
+    - name: Manage accounts, contacts, leads, and opportunities
+      href: ../mobile-app/v8/go-mobile/get-started/manage-accounts-contacts-leads-and-opportunities.md
+    - name: Track your progress with charts
+      href: ../mobile-app/v8/go-mobile/get-started/track-progress-charts.md
+    - name: Track customer service cases
+      href: ../mobile-app/v8/go-mobile/get-started/track-customer-service-cases.md
+    - name: Manage quotes, orders, and invoices
+      href: ../mobile-app/v8/go-mobile/get-started/manage-quotes-orders-invoices.md
+    - name: Nurture leads through the sales process
+      href: ../mobile-app/v8/go-mobile/get-started/nurture-leads-through-sales-process.md
+    - name: Manage activities.md
+      href: ../mobile-app/v8/go-mobile/get-started/manage-activities.md
+    - name: Create a communication card
+      href: ../mobile-app/v8/go-mobile/get-started/create-communication-card.md
+    - name: Email and call customers
+      href: ../mobile-app/v8/go-mobile/get-started/email-and-call-customers.md
+    - name: Search and sort
+      href: ../mobile-app/v8/go-mobile/get-started/search-sort.md
+    - name: Dashboard views
+      href: ../mobile-app/v8/go-mobile/get-started/dashboard-views.md
+    - name: Use Cortana voice commands
+      href: ../mobile-app/v8/go-mobile/get-started/use-cortana-voice-commands.md
+    - name: Pin your favorites
+      href: ../mobile-app/v8/go-mobile/get-started/pin-favorites.md
+    - name: Manage work orders, agreements, customer assets, and time off requests
+      href: ../mobile-app/v8/go-mobile/get-started/manage-work-orders-agreements-customer-assets-time-off-requests.md
+    - name: Work offline
+      href: ../mobile-app/v8/go-mobile/work-offline.md

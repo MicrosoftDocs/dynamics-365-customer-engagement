@@ -28,9 +28,11 @@ With this change for online customers, we are no longer using the term "Dynamics
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-For online customers, these Dynamics 365 (collectively referred as customer engagement apps) run on [Common Data Service](/powerapps/maker/common-data-service/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
-Administration for customer engagement apps has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Administer Power Platform](/power-platform/admin/admin-documentation).
+For online customers, these Dynamics 365 apps (collectively referred to as customer engagement apps) run on [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+
+Administration for customer engagement apps has transitioned to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). More information: [Administer Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+
 
 ### See also
 [Power Apps documentation](/powerapps/)<br/>

@@ -65,6 +65,7 @@
 #### [Warm up an IP or domain](email-warm-up.md)
 #### [Email policies and suspension standards](email-policies.md)
 #### [Deliverability recommendations when changing ESPs](deliverability-change-esp.md)
+#### [Google Postmaster Tools - What it is and how it can help you](google-postmaster.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Email troubleshooting](email-troubleshooting.md)
 
@@ -73,6 +74,7 @@
 #### [Open the Power Apps customization window](customize-open-powerapps.md)
 #### [Create and customize marketing calendars](customize-marketing-calendars.md)
 #### [Create and customize template labels](customize-template-labels.md)
+#### [Customize the email designer](developer/email-designer-customization.md)
 
 ### Privacy and compliance
 #### [Data protection and GDPR](gdpr.md)
@@ -199,6 +201,7 @@
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Create activity templates](activity-templates.md)
+#### [Troubleshoot customer journey customization errors](customer-journey-recovery-items.md)
 
 ### Lead generation and management
 #### [The lead lifecycle](lead-lifecycle.md)

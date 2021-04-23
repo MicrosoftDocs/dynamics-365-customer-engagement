@@ -43,7 +43,7 @@ When you sell your products in different regions, it is important that you trans
  When you get the localized data back from translation, import it into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
   
 > [!IMPORTANT]
->  It is important to provision the language packs first. If you import translated values for languages that aren't provisioned in the organization, they'll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs](https://technet.microsoft.com/library/hh699674.aspx)  
+>  It is important to provision the language packs first. If you import translated values for languages that aren't provisioned in the organization, they'll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699674(v=crm.8))  
 > <!-- Fix this link - cannot find it in migrated content -->
 
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
@@ -88,7 +88,7 @@ When you sell your products in different regions, it is important that you trans
   
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
- [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)
+ [Set up duplicate detection rules to keep your data clean](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -139,7 +139,7 @@ Time entries are not created in offline mode, but are created upon sync.
 
 ### See also
 
-- [Time and expense in Project Service Automation](https://docs.microsoft.com/dynamics365/project-service/time-expense-collaboration-guide)
+- [Time and expense in Project Service Automation](/dynamics365/project-operations/psa/time-expense-collaboration-guide)
 
 - [Booking timestamps](booking-timestamps.md)
 

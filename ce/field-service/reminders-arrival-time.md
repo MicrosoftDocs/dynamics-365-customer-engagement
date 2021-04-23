@@ -46,7 +46,7 @@ In this article, we'll walk through how to set up and configure service notifica
 
 - Field Service version (8.8.30.103+)
 - The Field Service mobile app
-- [Technician location sharing](https://docs.microsoft.com/dynamics365/field-service/mobile-powerapp-location-auditing) must be enabled in Field Service, and also allowed from the technician's mobile device.
+- [Technician location sharing](./mobile-powerapp-location-auditing.md) must be enabled in Field Service, and also allowed from the technician's mobile device.
 - SMS provider supporting Microsoft Power Automate connector for mobile SMS communication.
 - Office 365 Exchange account for email communications.
 
@@ -314,4 +314,4 @@ General content and format of the notifications are following a fixed template a
 
 ### How do I update my Field Service customer experiences portal?
 
-We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and select "Portals." If an update is avialable, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
+We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and select "Portals." If an update is avialable, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment.

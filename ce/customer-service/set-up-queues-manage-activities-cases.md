@@ -1,10 +1,10 @@
 ---
-title: Set up queues to manage activities and cases (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Create and manage basic queues | MicrosoftDocs
 description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/27/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -18,25 +18,25 @@ search.app:
   - D365CS
 ---
 
-# Create and manage queues
+# Create and manage basic queues
 
 Queues help you to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. 
 
  Queues can be useful in:  
   
--   Having a centralized list of pending work that needs attention  
+- Having a centralized list of pending work that needs attention  
   
--   Sorting tasks by type or by the people assigned to complete them  
+- Sorting tasks by type or by the people assigned to complete them  
   
 Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
   
--   Different products or services  
+- Different products or services  
   
--   Different subscription levels (regular, premium customers)  
+- Different subscription levels (regular, premium customers)  
   
--   Various activity categories  
+- Various activity categories  
   
--   Different geography  
+- Different geography  
 
  By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. 
 
@@ -53,13 +53,13 @@ For example, you could create separate queues for first tier and second tier pro
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
   
-## Create a queue (Customer Service Hub) 
+## Create a basic queue in Customer Service Hub
   
 Follow the steps given below to create or edit a queue: 
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
-   #### Check your security role  
+   #### Check your security role
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -73,7 +73,7 @@ Follow the steps given below to create or edit a queue:
   
     To edit a queue, select the queue in the list of queues, and then on the command bar, select **Edit**.  
   
-5. Type or change information in the text boxes.  
+4. Type or change information in the text boxes.  
   
     Hover tips provide hints about what to enter.  
   
@@ -97,7 +97,7 @@ Follow the steps given below to create or edit a queue:
 
    ![queues in Customer Service hub](media/queues-csh.png)
 
-## Create a queue (Customer Service app) 
+## Create a queue in Customer Service app
 
 Follow the steps given below to create or edit a queue: 
   
@@ -147,11 +147,13 @@ Follow the steps given below to create or edit a queue:
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-## View queue items for a queue 
- In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue are listed.  
+## View queue items for a queue
+
+In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue are listed.  
   
-## Route items to queues  
- For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. 
+## Route items to basic queues  
+
+For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
 
@@ -160,7 +162,8 @@ Alternatively, you can manually add cases and activities to queues.
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
   
 ## Assign items to agents
- Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents or to other queues, users, or teams.  
+
+Queues share cases or activities as a group until these are taken out of the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents or to other queues, users, or teams.  
 
 To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 

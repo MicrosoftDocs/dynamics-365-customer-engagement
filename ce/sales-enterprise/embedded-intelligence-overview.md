@@ -21,7 +21,7 @@ Relationship Insights includes the following features, which all work together t
   
 -   Auto capture  
 
-All of these features are available as preview features in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and are only available in North American sites that use US English (en-us). Some basic features of the relationship assistant are also available in the [!INCLUDE[pn_crm_8_2_0_op](../includes/pn-crm-8-2-0-op.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).  
+All of these features are available as preview features in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and are only available in North American sites that use US English (en-us). Some basic features of the relationship assistant are also available in the [!INCLUDE[pn_crm_8_2_0_op](../includes/pn-crm-8-2-0-op.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](/dynamics365/ai/sales/intro-admin-guide-sales-insights).  
   
 A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
@@ -33,7 +33,7 @@ When fully included in the product, Relationship Insights will help salespeople 
 <a name="GettingStarted"></a>   
 
 ## Getting started  
- The administrator must enable each Relationship Insights feature before you can try it out. For complete details about prerequisites, how to enable each feature, and how to set them up, see [Configure and enable embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md).  
+ The administrator must enable each Relationship Insights feature before you can try it out. For complete details about prerequisites, how to enable each feature, and how to set them up, see [Configure and enable embedded intelligence](/dynamics365/ai/sales/intro-admin-guide-sales-insights).  
   
 <a name="Assistant"></a>   
 
@@ -48,7 +48,7 @@ When fully included in the product, Relationship Insights will help salespeople 
   
  The system reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an important opportunity is nearing its close date; and much more.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../sales-enterprise/relationship-assistant.md), [Action cards reference](../sales-enterprise/action-cards-reference.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](/dynamics365/ai/sales/assistant), [Action cards reference](/dynamics365/ai/sales/action-cards-reference)  
   
 <a name="EmailEngagement"></a>   
 
@@ -71,7 +71,7 @@ When fully included in the product, Relationship Insights will help salespeople 
   
  To protect the privacy preferences of your customers, you can choose to not allow followed messages for individual contacts by setting a flag on their contact or lead record.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](email-engagement.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](/dynamics365/ai/sales/email-engagement)  
   
 <a name="AutoCapture"></a>   
 
@@ -82,7 +82,7 @@ When fully included in the product, Relationship Insights will help salespeople 
   
  You can still track messages in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] in all the ways that you could before, including by using the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] or tracked folders. All tracked messages in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] are available to Relationship Insights features.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture](../sales-enterprise/auto-capture.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture](/dynamics365/ai/sales/auto-capture)  
  
 <!--
 <a name="RelationshipAnalytics"></a>
