@@ -20,7 +20,44 @@ search.app:
 
 # Resource scheduling optimization version history
 
-## 3.3.0.108
+## Release schedule
+
+When a new version of Dynamics 365 Field Service resource scheduling optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+
+For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/). 
+
+|Station | Region | Current version | Next version |  Scheduled date
+|------| -------|-------|-----|------|         
+|<strong>Station 1</strong> | | |  | |
+| | <i>First Release</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |N/A | N/A
+|<strong>Station 2</strong> | | |  | |
+| | <i>South America</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
+| | <i>Canada</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |04/23/2021
+| | <i>India</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
+| | <i>France</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
+| | <i>United Arab Emirates</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
+| | <i>South Africa</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |04/23/2021
+| | <i>Germany</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
+| | <i>Switzerland</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
+|<strong>Station 3</strong> | |  |  | |
+| | <i>Japan</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
+| | <i>Asia Pacific</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
+| | <i>Great Britain</i> |[3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
+| | <i>Oceana</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
+|<strong>Station 4</strong> | |  |  | |
+| | <i>Europe</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 05/21/2021
+|<strong>Station 5</strong> | |  |  | |
+| | <i>North America</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 05/28/2021
+|<strong>Station 6</strong> | |  |  | |
+| | <i>Government Community Cloud</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  |N/A
+| | <i>China</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |N/A
+| | <i>Dedicated Scale Groups</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  |N/A
+
+>[!Note]
+> - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
+> - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.3.0.115
 
 - Improved predictive travel time user experience. Allows users to distinguish bookings that used predictive travel (and thus have more accurate travel time that includes historical traffic) from those that did not.
 - Fixed bug in which 401 error was thrown in creation of account and contact records after Field Service autoupdate. Error message: "The remote server returned an error: (401) Unauthorized."
