@@ -57,22 +57,23 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 ## 8.8.41.28 
+
 (Includes Universal Resource Scheduling version [3.12.44.127](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#31244127))
 -	Fixed an issue in business process flow being available on a copied agreement.
 -	Corrected an issue with work order product where estimate total cost was not getting updated when quantity was changed.
--	Fixed an issue in Field service settings Inspections tab where update of 'Analytics enabled' and form save was failing.
--	Updated to throw a form error if the user is trying to create a product bundle and they have set the Field Service Product Type value as product bundles cannot be used with Field Service.
--	Fixed an issue where Notes failed to load in the new Field service mobile app when opened in airplane mode.
--	Corrected an issue where on opening a work order an error dialog is shown when "Disable Customer asset validation state" is set as YES under Field Service settings.
+-	Fixed an issue in Field service settings **Inspections** tab where update of "Analytics enabled" and form save was failing.
+-	Updated to throw a form error if the user is trying to create a product bundle and they have set the **Field Service Product Type** value as product bundles cannot be used with Field Service.
+-	Fixed an issue where notes failed to load in the Field Service (Dynamics 365) mobile app when opened in airplane mode.
+-	Fixed an issue where upon opening a work order, an error dialog is shown when "Disable Customer asset validation state" is set to *Yes* under Field Service settings.
 -	Fixed an issue to enable users to change line status of work order product from null to some nonnull value without any error.
 -	Made performance improvements with system actions invoked during time entry view load.
 -	Corrected an issue where quick book triggered from the new work order experience was not respecting work order's territory.
--	Fixed below issues in inspections:
-    -	selecting a date value from the date control automatically updated the date to one day before the selected date.
-    -	In the exported pdf the question description was hidden.
+-	Fixed the following issues with inspections:
+    -	Selecting a date value from the date control automatically updated the date to one day before the selected date.
+    -	In the exported PDF, the question description was hidden.
     -	Entity lookup value getting removed on change of focus.
     -	Enhanced support for Hebrew, Arabic, Japanese characters in the imported JSON.
-    -	Fixed an issue with exported inspection JSON where options in checkbox, radio button and dropdown questions were getting duplicated.
+    -	Fixed an issue with exported inspection JSON where options in checkbox, radio button, and dropdown questions were getting duplicated.
     -	Fixed a performance issue in generating the inspection response pdf.
     -	Fixed an issue with inspection load failure in offline with a lot of attachment questions.
 
