@@ -23,7 +23,7 @@ search.app:
 ---
 # Track appointments from another person in your organization
 
-You can track appointments from another person's Dynamics 365 app using Dynamics 365 App for Outlook. To enable this capability, you need to enable the OrgDBOrgSetting in your organization. Dynamics 365 apps provides the OrgDBOrgSettings tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations.
+You can track appointments from another person's Dynamics 365 app using Dynamics 365 App for Outlook. To enable this capability, you need to enable the OrgDBOrgSetting in your organization. For Dynamics 365 apps you can use the OrgDBOrgSettings tool which gives administrators the ability to implement specific updates that was previously reserved for registry implementations.
 
 1. Follow the instructions [in this article](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) for steps to extract the tool.
 2. After extracting the tool, enable the *OrgDBOrgSetting TrackAppointmentsFromNonOrganizer*.
