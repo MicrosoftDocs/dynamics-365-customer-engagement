@@ -89,8 +89,8 @@ For more information, see [Blank page appears within Dynamics App for Outlook](h
 > [!Note]
 > If the link above does not work in Internet Explorer (IE), please try using another browser.
 
-## Some of my appointments in Outlook and Dynamics 365 apps are cancelled or deleted unexpectedly. Why is this happening?
-For more information, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
+## Some of my appointments in Outlook and Dynamics 365 apps are canceled or deleted unexpectedly. Why is this happening?
+For more information, see [An appointment is canceled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
 
 ## I am unable to track contacts.
 For more information, see [Issue when trying to access Dynamics 365 apps within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
@@ -109,7 +109,7 @@ However, when scripts which do not rely on cookie authentication are used, those
 ## I am able to use Dynamics 365 App for Outlook in Outlook Web Access in the Microsoft Edge browser, but it doesn’t work in Outlook Desktop. Why?
 Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installed on your machine. If you have Internet Explorer 11 already, please also make sure your organization URL <orgname.crm.dynamics.com> is not in the Compatibility View list.
 
-## My app for Oulook launch takes time every time I load it for mail item.
+## My App for Outlook launch takes time every time I load it for mail item.
 For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 
 
 ## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
