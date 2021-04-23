@@ -25,17 +25,17 @@ For example, a parent goal might be to generate a certain number of sales leads 
 
 To set goals, consider these factors:
 
-- Goal hierarchy (parent-child relationship)
-- Setting goal metrics (revenue, leads, cases closed, and so on)
-- Defining rollup queries (Goals specific to a territory or a customer)
-- Setting targets (Revenue target, for example)
-- Setting Time periods for goals (Fiscal, Quarter, or custom)
-- Monitoring goals (Actual and in-progress values)
-- Goals and security roles (Goals and access control)
+- [Goal hierarchy](#define-goal-hierarchy)  
+- [Setting goal metrics](#set-goal-metrics)  
+- [Defining rollup queries](#define-rollup-queries)
+- [Setting targets](#set-targets)  
+- [Setting time periods for goals](#set-Time-periods-for-goals)  
+- [Monitoring goals](#monitor-goals)  
+- [Goals and security roles](#understand-goals-and-security-roles)  
 
 ## Define Goal hierarchy
 
-Typically, a single manager's goal is a total of the goals assigned to that staff. A large organization's goal could be a combination of regional sales or service goals.
+Typically, a manager's goal is a total of the goals assigned to their staff. A large organization's goal could be a combination of regional sales or service goals.
 
 A staff goal is a child goal of a manager's goal, which in turn can have a parent goal at the regional level, and so on. A goal can have only one parent goal, but a parent goal can have multiple child goals.
 
@@ -47,17 +47,17 @@ The goal rollup is done from the bottom of the hierarchy to the top. During roll
 
 There are two types of goal metrics:
 
-- **Count:** This counts things you track, such as how many sales phone calls were completed in a given period.
+- **Count:** Counts things you track, such as how many sales phone calls were completed in a given period.
 
-- **Amount:** This metric is more versatile; it can track things like revenue or sales measured in something other than whole numbers. You could use an amount metric to track sales of a product sold by weight, or to make a goal more specific, such as the number of sales calls that lasted longer than five minutes, instead of only the total number of calls made.
+- **Amount:** Tracks things like revenue or sales measured in something other than whole numbers. This metric is more versatile. You could use the amount metric to track sales of a product sold by weight, or to make a goal more specific, such as the number of sales calls that lasted longer than five minutes, instead of only the total number of calls made.
 
 If your metric type is Amount, you need to further specify the amount data type:
 
-- **Money:** Track a monetary amount, such as revenue from a product line.
+- **Money:** Tracks a monetary amount, such as revenue from a product line.
 
-- **Integer:** Use this for anything countable in whole numbers, such as units sold.
+- **Integer:** Tracks anything countable in whole numbers, such as units sold.
 
-- **Decimal:** Use this for data that include partial numbers, such as pounds sold of a product sold by weight.
+- **Decimal:** Tracks data that include partial numbers, such as pounds sold of a product sold by weight.
 
 If your metric type is Count, the data type is always an integer.
 
@@ -72,7 +72,7 @@ You must have at least one of the following rollup fields, but you cannot have m
 
 - **In-Progress:** Can be modified as In-progress (Money), In-progress (Integer), or In-progress (Decimal), depending on the data type. This includes measurable results that could contribute to a goal, but are not counted yet as actual. For example, an in-progress rollup field that shows qualified leads that have not been contacted could help you track progress toward contacting leads.
 
-- **Custom Rollup Field:** Can be modified as Custom Rollup Field (Money), Custom Rollup Field (Money), or Custom Rollup Field (Money), depending on the data type. Use this to track a third category for results. You could use the actual result to show contacted leads, the in-progress rollup field to track qualified leads, and the custom rollup field to track new leads.
+- **Custom Rollup Field:** Can be modified as Custom Rollup Field (Money), Custom Rollup Field (Integer), or Custom Rollup Field (Decimal), depending on the data type. Use this to track a third category for results. You could use the actual result to show contacted leads, the in-progress rollup field to track qualified leads, and the custom rollup field to track new leads.
 
 More information: [Create or edit a goal metric](create-edit-goal-metric.md)
 
@@ -92,11 +92,11 @@ You can specify a target value for each goal for measuring the results of the go
 
 More information: [Create or edit goals](create-edit-goal-sales.md)
 
-## Set Time periods for goals
+## Set time periods for goals
 
 You can set a fiscal period, such as a quarter or year, or a custom period, such as a campaign or sales event.
 
-If your organization merges with another organization that uses different time periods, you can change yours to match.
+If your organization merges with another organization that uses different time periods, you can change yours to match with the merging organization.
 
 Changing a fiscal year or fiscal period does not automatically change the dates for the goals; you will need to update them to show the new dates as a separate step.
 
