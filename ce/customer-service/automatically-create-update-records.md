@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/03/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -145,6 +145,8 @@ You can review and track the health of the automatic record creation rules and r
 > [!IMPORTANT]
 > The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
 
+> ![Results of the activity monitor](media/activitiy-monitor-results.png "Results of the activity monitor")
+
 The following details are available for the rules:
 
 - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
@@ -211,6 +213,6 @@ Perform the following steps in Power Automate to manually map a contact:
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
-
+[FAQs on activity monitor](arc-faqs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
