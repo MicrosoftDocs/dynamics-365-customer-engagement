@@ -18,11 +18,11 @@ search.app:
   - D365FS
 ---
 
-# Resource Scheduling Optimization version history
+# Resource scheduling optimization version history
 
 ## Release schedule
 
-When a new version of Dynamics 365 Field Service Resource Scheduling Optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+When a new version of Dynamics 365 Field Service resource scheduling optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/). 
 
