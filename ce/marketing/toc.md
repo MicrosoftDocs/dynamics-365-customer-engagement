@@ -140,10 +140,10 @@
 #### Assets
 ##### [Real-time marketing asset library](real-time-marketing-asset-library.md)
 #### Administration
-##### [Data protection and the GDPR for real-time marketing](real-time-marketing-gdpr.md)
 ##### [Manage user compliance settings](real-time-marketing-compliance-settings.md)
-##### [Real-time marketing link tracking mechanics](real-time-marketing-link-tracking-mechanics.md)
 ##### [Manage email and text consent settings](real-time-marketing-email-text-consent.md)
+##### [Select the audience source for real-time journeys](real-time-marketing-audience-data.md)
+##### [Real-time marketing link tracking mechanics](real-time-marketing-link-tracking-mechanics.md)
 ##### [Outbound marketing consent](real-time-marketing-outbound-consent.md)
 
 ### Email campaigns
