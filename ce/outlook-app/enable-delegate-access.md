@@ -26,9 +26,7 @@ search.app:
 
 # Set up delegate access 
 
-Set up delegate access to allow someone to track Microsoft Dataverse information using the Dynamics 365 App for Outlook.
-
-Set up delegate access in Outlook to give someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Microsoft Dataverse using the Dynamics 365 App for Outlook.
+Set up delegate access to allow someone to track information in your Dynamics 365 apps using Dynamics 365 App for Outlook. When you set up delegate access it gives someone permission to act on your behalf. For example, you might want an assistant to create and respond to email or meeting requests for you and then track the information in Dynamics 365 apps using the Dynamics 365 App for Outlook.
 
 ## Prerequisites
 
