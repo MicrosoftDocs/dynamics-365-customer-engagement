@@ -97,8 +97,6 @@
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
 
-### Developer experience
-
 ## Case management
 ### Administrator experience
 #### [Define parent and child cases](define-settings-parent-child-cases.md)
@@ -380,9 +378,9 @@
 #### [Customize interactive dashboards based on Unified Interface](configure-interactive-dashboards-customer-service-hub.md)
 
 ## Service scheduling
-### [Overview of Service scheduling](basics-service-service-scheduling.md)
 ### [Upcoming changes](scheduling-overview.md)
 ### Customer Service Scheduling
+#### [Overview of Service scheduling](basics-service-service-scheduling.md)
 #### [Manage security roles](manage-security-roles.md)
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)

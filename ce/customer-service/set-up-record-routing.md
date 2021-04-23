@@ -4,7 +4,7 @@ description: "Learn how to set up record routing in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -15,17 +15,29 @@ ms.service: dynamics-365-customerservice
 
 You can configure settings for record routing in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration.
 
+## Provision unified routing
+
+To provision unified routing in Customer Service, do the following:
+
+1. In Customer Service Hub, go to **Service Management**.
+2. In the site map, under **Service Terms**, select **Service Configuration**.
+3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see a message that unified routing is being provisioned.
+
+After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing.
+
+> ![Site map view for unified routing](media/enable-unified-routing.png)
+
 ## Prerequisites
 
-- To route records for an entity, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#enable-entities)
-- The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing)
+- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing](#provision-unified-routing).
+- To route records for an entity, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#enable-entities).
 - You must have the CSR Manager role to configure record routing.
 
 ## Configure unified routing for records
 
 You can configure record routing for entities through Customer Service Hub or Omnichannel admin center.
 
-Perform the following steps to configure record routing: 
+Perform the following steps to configure record routing:
 
 1. If you're using Customer Service Hub, then in the **Service Management** change area, on the site map, select **Record routing** under **Unified Routing**. If you're using Omnichannel admin center, on the site map, select **Record routing** under **General settings**.
 
@@ -84,9 +96,11 @@ The following screenshot shows a workstream with the required intake rule and ro
    > The agent notifications that you configure for entity record routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 
+
+
 ## Create entity record workstream in Omnichannel Administration
 
-This section describes how to create a workstream for an entity that has been enabled for routing.
+This section describes how to create a workstream for an entity that has been enabled for routing. The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing).
 
 1. Sign in to the Omnichannel Administration app.
 

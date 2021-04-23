@@ -4,7 +4,7 @@ description: See how you can effectively search knowledge articles in the Custom
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -232,11 +232,11 @@ Agents can do the following:
 - Set preselects
 - Activate or deactivate a filter
 
-Only the filters that your administrator has configured are viewable. If the administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message will be displayed that says, "No filters have been configured. Contact your administrator."
+Only the filters that your administrator has configured are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message will be displayed that says, "No filters have been configured. Contact your administrator."
 
 Any personalization you make to your filter selections will also be applicable to the form-based knowledge control and standalone knowledge base search page.
 
-If agent deactivates a filter, then agents will see that filter as deactivated with message indicating the deactivation. Agents won't see the filters on the knowledge control. When the filter is activated again, the filter configuration will remain as it was previously configured.
+If you deactivate a filter, it will appear as deactivated. If you reactivate the same filter later, the filter will keep its previous configuation.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
@@ -308,15 +308,15 @@ To view the auto-filtered results:
 3. If you want to disable automatic filtering option and search the entire knowledge base for articles, deselect the **Auto-filter results** option.  
 
     > [!NOTE]
-    > Administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the auto filtered results. To learn more, see  [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
+    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option in order for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the auto-filtered results. More information: [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
 
 Let’s understand this in detail with the help of an example.
 
-In the below illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** check box selected, only those knowledge articles whose subject is **Xbox** are automatically filtered in and displayed. Other articles are automatically filtered out. This is shown in the below image.
+In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
 
 ![Select Auto filter results](media/ka-select-auto-filter-results.png "Select Auto filter results")   
   
-However, if the Auto filter results check box is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
+However, if the Auto filter results checkbox is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
 
 ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
 
@@ -333,7 +333,7 @@ For more information on setting up search providers, see [Set up a search provid
 
 As a customer service agent, you can easily provide feedback on knowledge articles with the help of knowledge article rating in the Customer Service Hub. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
 
-When you are working on a case and refer to an article from the **Knowledge Base Search** control, you will be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved
+When you are working on a case and refer to an article from the **Knowledge Base Search** control, you'll be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved.
 
 > [!NOTE]
 > - Ensure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
