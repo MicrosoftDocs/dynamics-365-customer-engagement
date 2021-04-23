@@ -49,8 +49,8 @@ the reply with the App for Outlook including replies to this
 because the master email is still tracked.
 
 An administrator can change the
-[*OrgDbOrgSetting*](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) to,
-**IgnoreConversationIndexAndInReplyToForCorrelation** and change this
+[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to,
+**IgnoreConversationIndexAndInReplyToForCorrelation** which changes the
 functionality when **Use correlation to track email conversations** is the
 only selected email correlation option. However, if tracking token or
 smart matching is enabled, it will still track based on those
@@ -74,8 +74,8 @@ the forward with the App for Outlook as well as any replies to this
 because the master email is still tracked.
 
 An administrator can change the
-[*OrgDbOrgSetting*](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) to,
-**IgnoreConversationIndexAndInReplyToForCorrelation** and it changes this
+[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to,
+**IgnoreConversationIndexAndInReplyToForCorrelation** which changes the
 functionality when **Use correlation to track email conversations** is the
 only selected email correlation option. However, if tracking token or
 smart matching is enabled, it will still track based on those
@@ -100,8 +100,8 @@ is best to assume this scenario will also track.
 If you untrack a reply or forward to a thread on a tracked email thread,
 and if the initial/master email is still tracked, it will continue to
 track replies. If there are certain replies you do not want to track,
-you will need to untrack these manually or change the [*OrgDbOrgSetting*](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) to
-**IgnoreConversationIndexAndInReplyToForCorrelation** to prevent replies
+you will need to untrack these manually or change the [*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to
+**IgnoreConversationIndexAndInReplyToForCorrelation** and prevent replies
 and forwards from being tracked. 
 
 ## 2. When resolving recipient email addresses to rows in Dynamics 365, if there is more than one row in Dynamics 365 with the same email address, which row is it resolved to?
