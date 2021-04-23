@@ -1,7 +1,7 @@
 ---
-title: "Predefined Security Roles for Sales (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Predefined Security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system."
-ms.date: 04/16/2021
+title: "Predefined security roles for Sales (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system."
+ms.date: 04/23/2021
 ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
@@ -15,13 +15,13 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Predefined Security Roles for Sales
+# Predefined security roles for Sales
 
-Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines  the user's access to data and the user's interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines  users access to data and their interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
 The predefined security roles for Sales include permissions and access levels that the default sales personas will need. For example, the Sales Manager and Salesperson security roles can be associated with the respective users in your organization. As a system administrator, you can verify the permissions and access levels granted for each role and modify it to suit your needs. For more information, see [Create or edit a security role](/power-platform/admin/create-edit-security-role).
 
-| **Security Roles** | **Who needs it?** | **Access Granted** |
+| **Security roles** | **Who needs it?** | **Access granted** |
 |-------------------------|------------|-------------------------|
 | Sales Manager | Users who manage a team of sellers and are responsible for the team's performance. They are also responsible for creating and managing product SKUs, setting sales targets, and projecting sales forecasts. | Access to product management, sales management, sales forecasting, and goal management. |
 | Salesperson | Sellers who work on opportunities, quotes, orders, and invoices. | Access to everything from lead to order – Lead, Opportunities, Quote, Order, Invoice.</br>Create accounts and contacts, and track goals |
@@ -35,20 +35,20 @@ The predefined security roles for Sales include permissions and access levels th
 |  |  |  |
 
 
-## Assign Security Roles to a User
+## Assign security roles to users
 
 Associate one or more security roles to a user depending on their roles and responsibilities. For example, if a Sales Manager is also
 responsible for enforcing best practices for Playbooks, assign the Sales Manager and Playbook Manager security roles to that user.
 
 **Follow these steps:**
 
-1. From the Sales Hub app, select the Settings icon in the top-right
+1. In the Sales Hub app, select the Settings icon in the top-right
    corner and select **Advanced Settings**.
 
 2. Select **Settings** in the Business Management interface and
    navigate to **System, Security**.
 
-3. Select **Users** and open the user account to which you want to
+3. Select **Users** and then open the user account to which you want to
    assign the role.
 
 4. Select **Manage Roles** and choose the roles that you want to assign to the user.
