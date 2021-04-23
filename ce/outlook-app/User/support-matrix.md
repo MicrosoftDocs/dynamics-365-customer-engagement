@@ -57,7 +57,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | View information                                    | X                          | X                   |              |                 |                        |               |            |     |
 | Track and untrack                                   | X                          | X                   |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
-| **Tasks**                                           |                            |                     |              |                 |                        |               |            |     |
+| **Tasks (applies to only [category based tracking](track-a-task.md))**                                           |                            |                     |              |                 |                        |               |            |     |
 | View information                                    | X                          | X                   |              |                 |                        |               |            |     |
 | Track and Untrack                                   | X                          | X                   |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
@@ -106,7 +106,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | View information                                    | X                          | X                   |              |                 |                        |               |            |       |
 | Track and Untrack                                   | X                          | X                   |              |                 |                        |               |            |       |
 |                                                     |                            |                     |              |                 |                        |               |            |       |
-| **Tasks**                                           |                            |                     |              |                 |                        |               |            |       |
+| **Tasks (applies to only [category based tracking](track-a-task.md)**                                           |                            |                     |              |                 |                        |               |            |       |
 | View information                                    | X                          | X                   |              |                 |                        |               |            |       |
 | Track and Untrack                                   | X                          | X                   |              |                 |                        |               |            |       |
 |                                                     |                            |                     |              |                 |                        |               |            |       |
@@ -153,7 +153,7 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | View information                                    | X                          |                  |              |                 |                        |               |            |     |
 | Track and Untrack                                   | X                          |                   |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
-| **Tasks**                                           |                            |                     |              |                 |                        |               |            |     |
+| **Tasks (applies to only [category based tracking](track-a-task.md)**                                           |                            |                     |              |                 |                        |               |            |     |
 | View information                                    | X                          | X                   |              |                 |                        |               |            |     |
 | Track and Untrack                                   | X                          | X                   |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
