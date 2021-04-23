@@ -32,7 +32,7 @@ The latest release of Dynamics 365 App for Outlook works with customer engagemen
 
 ## Prerequisites
 
-Before you begin make sure these prerequisites are met:
+The following prerequisites are required before you begin setup.
 
 - Setup synchronization of incoming email through server-side synchronization: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
 
@@ -45,7 +45,7 @@ Before you begin make sure these prerequisites are met:
 
 ## Step 1: Set the default synchronization method
 
-To use Dynamics 365 App for Outlook you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](/power-platform/admin/set-incoming-outgoing-email-synchronization)
+To use Dynamics 365 App for Outlook, you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](/power-platform/admin/set-incoming-outgoing-email-synchronization)
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
@@ -82,12 +82,12 @@ Enable and test your user mailboxes so they can use Dynamics 365 App for Outlook
    > [!div class="mx-imgBorder"]
    > ![Select the mailboxes that you want to enable](media/select-mailboxes.png)
 
-4. On the command select first **APPROVE EMAIL** and then select **OK**.  
+4. On the command bar, select **APPROVE EMAIL** and then select **OK**.  
 
    > [!div class="mx-imgBorder"]
    > ![Select approve email](media/select-mailboxes-1.png)
 
-5. Once approved, on the command bar select **TEST & ENABLE MAILBOX**.   
+5. Once approved, select **TEST & ENABLE MAILBOX**.   
 
    > [!div class="mx-imgBorder"]
    > ![Select test and enable maillbox](media/select-mailboxes-test.png)
@@ -111,7 +111,7 @@ If the setup is successful the **configuration Test Results** section should cha
 
 ## Setp 3: Provide security role access
 
-The security role **Dynamics 365 App for Outlook User** is available from build 9.1.0.4206 or later. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. This will ensure that the users have the basic privileges needed to access App for Outlook. 
+The security role **Dynamics 365 App for Outlook User** is available from build 9.1.0.4206 or later. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**. You must add users to this role so they can use Dynamics 365 App for Outlook. This will ensure that the users have the basic privileges needed to access App for Outlook. 
 
 Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
 
