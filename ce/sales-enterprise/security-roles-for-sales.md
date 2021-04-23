@@ -48,7 +48,7 @@ responsible for enforcing best practices for Playbooks, assign the Sales Manager
 2. Select **Settings** in the Business Management interface and
    navigate to **System, Security**.
 
-3. Select **Users** and then open the user account to which you want to
+3. Select **Users** and then select the user account to which you want to
    assign the role.
 
 4. Select **Manage Roles** and choose the roles that you want to assign to the user.
