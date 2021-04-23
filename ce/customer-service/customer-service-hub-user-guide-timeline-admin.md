@@ -4,7 +4,7 @@ description: "Timeline configuration overview for administrators"
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/16/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
@@ -450,7 +450,7 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ## Posts on timeline
 
-To enable rich text posts on timeline, contact Microsoft. 
+To enable rich text posts on timeline, contact [Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support). 
 
 > [!NOTE]
 > Posts are currently only available for CRM applications.
