@@ -1,6 +1,7 @@
 ---
 title: "Frequently Asked Questions about Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
+description: Frequently Asked Questions about Dynamics 365 App for Outlook
 ms.date: 05/5/2019
 ms.reviewer: 
 ms.service: crm-online
