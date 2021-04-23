@@ -49,8 +49,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 05/28/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.3.0.115](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  |N/A
-| | <i>China</i> |  [3.3.0.115](https://docs.microsoft.com/en-us/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |N/A
+| | <i>Government Community Cloud</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  |N/A
+| | <i>China</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |N/A
 | | <i>Dedicated Scale Groups</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  |N/A
 
 >[!Note]
