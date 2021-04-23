@@ -45,7 +45,7 @@ Before you begin make sure these prerequisites are met:
 
 ## Step 1: Set the default synchronization method
 
-To use Dynamcis 365 App for Outlook you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](../power-platform/admin/set-incoming-outgoing-email-synchronization.md)
+To use Dynamcis 365 App for Outlook you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](/power-platform/admin/set-incoming-outgoing-email-synchronization)
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
