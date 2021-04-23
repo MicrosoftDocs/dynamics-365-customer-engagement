@@ -42,7 +42,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 - You have a System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].   
 - You can integrate LinkedIn Sales Navigator with Dynamics 365 Customer Engagement only and can't be integrated with a Microsoft Dataverse organization.
-- You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365. Microsoft Relationship Sales (MRS) solution includes Dynamics Sales Enterprise and [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions/compare-plans) license.<br>or<br>
+- <a name='unable-to-sign-into-display-widget'></a>You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365. Microsoft Relationship Sales (MRS) solution includes Dynamics Sales Enterprise and [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions/compare-plans) license.<br>or<br>
     If you don't have MRS Solution or MRS Solution plus for LinkedIn Sales Navigator license, you'll need to sign up your team for [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions) or [LinkedIn Sales Navigator Enterprise](https://business.linkedin.com/sales-solutions).
 
     > [!NOTE]
