@@ -19,11 +19,11 @@ ms.service: dynamics-365-customerservice
 
 As a supervisor, you can monitor, assign or transfer conversations that are being handled by agents. 
 Monitoring conversations helps you identify the conversations to see how they are trending and if they need your immediate attention. You can also view customer sentiments and agent responses. 
-You can also join a conversation in the consult mode, so you can provide your expertise and share your experience with the agent who is interacting with the customer. When you join a conversation, notifications about your presence are sent to the agent and customer who are part of the conversation. 
+You can also join a conversation in the consult mode, you can provide your expertise and share your experience with the agent who is interacting with the customer. When you join a conversation, notifications about your presence are sent to the agent and customer who are part of the conversation. 
 
-As a supervisor, if your administrator has enabled the **Assign** feature, you can also manually assign conversations to agents in cases where a conversation is not assigned. Only conversations that are in an **Open** state can be assigned by supervisors.
+[!NOTE]
+> To be able to monitor or assign conversations, your administrator should enable the **Supervisor Monitor** and **Supervisor Assign** settings in **Omnichannel Administration.**
 
-Also, you can transfer ongoing conversations that are in the active or waiting states from one agent to another.
 
 Use the **Omnichannel Ongoing Conversations** dashboard to access the monitor and assign features. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
@@ -63,7 +63,7 @@ The following screenshot is an example of Omnichannel Ongoing Conversations:
 
 ## Assign conversations
 
-At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open state and not assigned to any agent. You can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded is displayed.
+At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open state and not assigned to any agent. As a supervisor, you can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded is displayed.
 
 1. From the dashboard view selector in **Omnichannel for Customer Service**, select the **Omnichannel Ongoing Conversations** dashboard.
 
@@ -75,7 +75,7 @@ At times, you may need to manually assign a conversation. In such cases, the con
     > [!div class=mx-imgBorder]
     > ![Select agent or queue option](media/assign-agent-queue.png "Select either agent or queue option")
 
-3. On the **Assign conversations** dialog box, select either **Agent** or **Queue**.
+3. On the **Assign conversations** dialog box, select **Agent** or **Queue**.
 
   If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
   If you select **Queue:**, then all other queues except the one to which the conversation is currently assigned, are displayed.
@@ -88,7 +88,7 @@ At times, you may need to manually assign a conversation. In such cases, the con
 At times, you may need to transfer an ongoing conversation from an agent to another agent. In such cases, the conversation should be in an **Active** or **Waiting** state.
 
 > [!NOTE]
-> You can transfer conversations only on messaging channels such as Live Chat, SMS, or WhatsApp, particularly those that do not happen over voice or video modes. You can transfer conversations to and from agents only, and not bots.
+> You can transfer conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. But, if and when these conversations switch to voice or video modes, you will not be able to transfer such conversations. Also, you can transfer conversations to and from agents only, and not bots.
 
 1. From the dashboard view selector in **Omnichannel for Customer Service**, select the **Omnichannel Ongoing Conversations** dashboard.
 
