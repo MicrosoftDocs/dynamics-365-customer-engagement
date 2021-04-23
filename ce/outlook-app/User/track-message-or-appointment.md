@@ -25,7 +25,7 @@ search.app:
 
 # Link an email message or appointment to a specific row in your app
 
-Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email message or appointment to a specific row in your app. When you link an email message or appointment to a specific account, opportunity, or case row and the system populates the regarding lookup for the email or appointment and tracks it in your app.
+Use **Set Regarding** in Dynamics 365 App for Outlook to associate an email message or appointment to a specific row in your app. When you link an email message or appointment to a specific account, opportunity, or case row and the system populates the regarding lookup for the email or appointment and tracks it in your app.
 
 
 ## Link an email message or appointment
