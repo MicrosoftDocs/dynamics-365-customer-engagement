@@ -29,9 +29,6 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image of the Field Service (Dynamics 365) mobile app on a phone and a tablet.](./media/mobile-2020-tablet-website.png)
-
 ## Prerequisites
 
 Before using the mobile app, a system administrator must [install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md) along with users and security roles.
