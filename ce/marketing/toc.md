@@ -122,9 +122,8 @@
 ### Preview: Real-time marketing
 #### [Real-time marketing overview](real-time-marketing-overview.yml)
 #### Get started with real-time marketing
-##### [Real-time marketing quickstart guide](real-time-marketing-quickstart.md)
+##### [Install the real-time marketing preview](real-time-marketing-install.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)
-##### [Troubleshoot + FAQs](real-time-marketing-faq.md)
 #### Channels
 ##### [Create real-time marketing emails](real-time-marketing-email.md)
 ##### [Create push notifications](real-time-marketing-push-notifications.md)

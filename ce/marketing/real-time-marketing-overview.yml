@@ -28,16 +28,12 @@ landingContent:
   # Card
   - title: Get started with real-time marketing
     linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Real-time marketing quickstart guide
-            url: real-time-marketing-quickstart.md
       - linkListType: learn
         links:
+          - text: Install the real-time marketing preview
+            url: real-time-marketing-install.md
           - text: Known issues in real-time marketing
             url: real-time-marketing-known-issues.md
-          - text: Troubleshoot + FAQs
-            url: real-time-marketing-faq.md
 
   # Card
   - title: Customer engagement
