@@ -75,6 +75,23 @@ If you're using the Outlook desktop client or Outlook Web Access, you can pin Ap
 |Track failure |Your email or appointment is failed to copy to your Dynamics 365 app.   | 
 |Track pending |Your email or appointment is in pending state to be copied to your Dynamics 365 app.   | 
 
+
+## Synchronization and tracking 
+
+The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 apps. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 apps. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
+
+In most cases items are immediately tracked, aside from when an email is in compose mode and recurring appointments.
+
+   > [!NOTE]
+   > Server Side Synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.
+
+If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an item to Dynamics 365 apps, the track status of the item will be “Pending”.
+
+![Outlook app server side sync](../media/Outlook_app_server_side_sync.png "Outlook app server side sync")
+
+   > [!NOTE]
+   > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
+
 ## Navigation bar
 
 Use the navigation bar at the top to access the site map, search, quick create, and more commands.
