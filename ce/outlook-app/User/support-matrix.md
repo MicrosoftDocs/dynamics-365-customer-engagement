@@ -150,8 +150,8 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | Track and Untrack                                   | X                          | X                   | X            | X               | X                      | X             |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
 | **Contacts**                                        |                            |                     |              |                 |                        |               |            |     |
-| View information                                    | X                          | X                   |              |                 |                        |               |            |     |
-| Track and Untrack                                   | X                          | X                   |              |                 |                        |               |            |     |
+| View information                                    | X                          |                  |              |                 |                        |               |            |     |
+| Track and Untrack                                   | X                          |                   |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
 | **Tasks**                                           |                            |                     |              |                 |                        |               |            |     |
 | View information                                    | X                          | X                   |              |                 |                        |               |            |     |
@@ -165,4 +165,4 @@ The tables below shows the supported features using App for Outlook on Outlook d
 | Track contacts                                      |                            |                     |              |                 |                        |               |            |     |
 | Track tasks                                         |                            |                     |              |                 |                        |               |            |     |
 |                                                     |                            |                     |              |                 |                        |               |            |     |
-| **Pin add-in**                                      | X                          | X                   |              |                 | X                      | X             |            |     |
+| **Pin add-in**                                      | X                          | X (Outlook 2016 for Windows build 7668.2000 or later)                   |              |                 | X                      | X             |            |     |
