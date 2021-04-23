@@ -117,9 +117,10 @@ Perform the following steps to enable the AI suggestions for related knowledge a
 
 1. Sign in to Omnichannel Admin Centre application
 
-or
+ or
 
-Sign in to Customer Service Hub.
+ Sign in to Customer Service Hub.
+
 2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
