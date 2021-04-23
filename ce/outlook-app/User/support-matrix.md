@@ -1,6 +1,6 @@
 ---
 title: "Supported features (Dynamics 365 apps) | MicrosoftDocs"
-description: Supported features using App for Oulook on Outlook desktop client, Outlook Web Access, and a mobile device.
+description: Supported features using App for Outlook on Outlook desktop client, Outlook Web Access, and a mobile device.
 ms.custom: 
 ms.date: 02/17/2021
 ms.reviewer: 
@@ -24,11 +24,11 @@ search.app:
 
 # Supported features 
 
-The tables below shows the supported features using App for Oulook on Outlook desktop client, Outlook Web Access, and a mobile device.
+The tables below shows the supported features using App for Outlook on Outlook desktop client, Outlook Web Access, and a mobile device.
 
 **Dynamics 365 and Microsoft Exchange Online**
 
-| **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Crome**         | **Mobile Device: Andriod** |**Mobile Device: iOS** |
+| **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Chrome**         | **Mobile Device: Andriod** |**Mobile Device: iOS** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------| 
 | Sent and received email                             | X                          | X                   | X            | X               | X                      | X             | X          | X   |
 | View information                                    | X                          | X                   | X            | X               | X                      | X             | X          | X   |
@@ -77,7 +77,7 @@ The tables below shows the supported features using App for Oulook on Outlook de
 
 **Dynamics 365 or Microsoft Exchange Server (on-premises)**
 
-| **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Crome**         | **Mobile Device: Andriod** |**Mobile Device: iOS** |
+| **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Chrome**         | **Mobile Device: Andriod** |**Mobile Device: iOS** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------|                                                  
 | Sent and received email                             | X                          | X                   | X            | X               | X                      | X             |            |       |
 | View information                                    | X                          | X                   | X            | X               | X                      | X             |            |       |
@@ -124,7 +124,7 @@ The tables below shows the supported features using App for Oulook on Outlook de
 
 **Dynamics 365 and Microsoft Exchange Server (on-premises)**
 
-| **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Crome**         | **Mobile Device: Andriod** |**Mobile Device: iOS** |
+| **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook Web Access: Microsoft Edge** | **Outlook Web Access: Google Chrome**         | **Mobile Device: Andriod** |**Mobile Device: iOS** |
 |-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------| 
 | Sent and received email                             | X                          | X                   | X            | X               | X                      | X             |            |     |
 | View information                                    | X                          | X                   | X            | X               | X                      | X             |            |     |
