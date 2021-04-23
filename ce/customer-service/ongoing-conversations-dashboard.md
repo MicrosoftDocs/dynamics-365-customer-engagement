@@ -25,7 +25,7 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 
 ## View Omnichannel Ongoing Conversations dashboard
 
-The **Omnichannel Ongoing Conversations** is available in:
+The **Omnichannel Ongoing Conversations** dashboard is available in:
 
 - [Unified Service Desk](#unified-service-desk)
 - [Omnichannel for Customer Service](#omnichannel-for-customer-service)
@@ -53,7 +53,7 @@ The **Omnichannel Ongoing Conversations** is available in:
 2.	Select the **Omnichannel Ongoing Conversations Dashboard** tab.
 
     The Omnichannel Ongoing Conversations dashboard displays the list of conversations that you and agents are handling. 
-
+<!-- this image needs to be updated-->
     > [!div class=mx-imgBorder]
     > ![Omnichannel Ongoing Conversations dashboard](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard")
 

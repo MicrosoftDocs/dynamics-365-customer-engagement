@@ -42,7 +42,7 @@ Say you want to add the skills control named **Skills** to a case form, then:
 
 8. Save and publish the solution.
    The skill control is now added to the **Case Interactive experience** form.
-<!-- need an image here -->
+
    
 > [!NOTE]
 > To customize a form to add the skill control in **Customer Service workspace** or the **Omnichannel admin center**, you can add the control to the **Case for Multisession experience** form.
