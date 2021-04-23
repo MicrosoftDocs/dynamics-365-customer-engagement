@@ -98,7 +98,7 @@ Use the navigation bar at the top to access the site map, search, quick create, 
 
 ![Top navigation bar](../media/top-nav-bar.png)
 
-1. **Site map**: Use the site map to navigate to the **Home**, **Recent** items, **Pinned** items and **Dashboards**.
+1. **Site map**: Use the site map to navigate to the **Home**, **Recent** items, **Pinned** items, and **Dashboards**.
 2. **Search**: Search for rows across multiple tables sorted by relevance. 
 3. **Create a new row**: Create a new row for the tables that have been included in the App for Outlook and are enabled for quick create.
 4. **More commands**: Access more such as user information, information your Dynamics 365 environment, the [**Assistant**](assistant.md), and [**Outlook checker**](../diagnostic-checker.md).
