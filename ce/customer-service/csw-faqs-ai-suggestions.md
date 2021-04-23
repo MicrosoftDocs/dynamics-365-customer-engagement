@@ -36,7 +36,7 @@ It may be caused by one of the following reasons:
 
 ## I get an error message that the language selected is not supported. What should I do?
 
-There are seven languages that support case, conversation and knowledge article suggestions. You need to set your language settings to match the supported languages. For more information on the supported languages, see [Enable AI suggestions for cases, knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)
+There are seven languages that support case, conversation and knowledge article suggestions. You need to set your language settings to match the supported languages. For more information on the supported languages, see [Enable AI suggestions for cases, knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md).
 
 ## I get an error message that detected language doesn't match the language settings.
 
