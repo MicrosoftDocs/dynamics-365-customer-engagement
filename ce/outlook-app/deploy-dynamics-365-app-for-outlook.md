@@ -111,11 +111,43 @@ When the set up is successful the **configuration Test Results** section should 
 
 ## Setp 3: Provide security role access
 
-Dynamics 365 App for Outlook is an App Module in version 9 and later. The minimum set of privileges required to run App for Outlook are packaged as a security role called **Dynamics 365 App for Outlook User** which is bound to the App. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. 
+The security role **Dynamics 365 App for Outlook User** is available from build 9.1.0.4206 or later. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**. You need to add users to this role in order for them to access Dynamics 365 App for Outlook. This will ensure that the users have the basic privileges needed to access App for Outlook. 
+
+Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
+
+App for Outlook also requires Server-Side Synchronization to be properly configured with the minimum security roles required by the service. These roles are outlined in the tablle below.
+
+
+| **Privilege name**                      | **Table**         | **Location (tab) within security role**             |
+|-----------------------------------------|--------------------|-----------------------------------------------------|
+| prvReadEmailServerProfile               | EmailServerProfile | Business Management                                 |
+| prvWriteMailbox                         | Mailbox            | Business Management                                 |
+| prvReadMailbox                          | Mailbox            | Business Management                                 |
+| prvReadOrganization                     | Organization       | Business Management                                 |
+| prvSyncToOutlook (exchangesyncidmapping | Outlook            | Business Management &gt; Privacy-related privileges |
+| prvReadActionCard                       | ActionCard         | Core Records                                        |
+| prvDeleteActivity                       | Activity           | Core Records                                        |
+| prvAppendActivity                       | Activity           | Core Records                                        |
+| prvWriteActivity                        | Activity           | Core Records                                        |
+| prvCreateActivity                       | Activity           | Core Records                                        |
+| prvReadActivity                         | Activity           | Core Records                                        |
+| prvAppendToActivity                     | Activity           | Core Records                                        |
+| prvReadConnection                       | Connection         | Core Records                                        |
+| prvAssignContact                        | Contact            | Core Records                                        |
+| prvReadContact                          | Contact            | Core Records                                        |
+| prvWriteContact                         | Contact            | Core Records                                        |
+| prvCreateContact                        | Contact            | Core Records                                        |
+| prvDeleteContact                        | Contact            | Core Records                                        |
+| prvReadUserQuery                        | Saved View         | Core Records                                        |
+| prvReadQueue                            | Queue              | Core Records                                        |
+| prvReadQuery                            | View               | Customization                                       |
+| prvReadIncident                         | Case               | Service                                             |
+| prvSearchAvailability                   |                    | Service Management &gt; Miscellaneous Privileges    |
+| prvOverrideCreatedOnCreatedBy           |                    | Service Management &gt; Miscellaneous Privileges    |
+
 
 > [!NOTE]
->  - The security role **Dynamics 365 App for Outlook User** is available from build 9.1.0.4206 or later. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: **You haven't been authorized to use this app. Check with your system administrator to update your settings**.
->  - If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propogate the privileges to the users within that team.
+>  If you create a team and add the team to the **Dynamics 365 App for Outlook User** security role, this doesn't automatically propogate the privileges to the users within that team.
 
 1. To add users to the App for Outlook security role, from your app, go to **Settings** > **Advanced Settings**.
 
@@ -136,8 +168,6 @@ Dynamics 365 App for Outlook is an App Module in version 9 and later. The minimu
 
    > [!div class="mx-imgBorder"]
    > ![Select user role](media/select-user-role.png)
-
-This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
 
 
 ## Step 4: Install App for Oulook
