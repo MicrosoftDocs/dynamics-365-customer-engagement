@@ -17,7 +17,7 @@ searchScope:
 ---
 # Predefined security roles for Sales
 
-Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines  users access to data and their interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+Security roles control users access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines  users access to data and their interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
 The predefined security roles for Sales include permissions and access levels that the default sales personas will need. For example, the Sales Manager and Salesperson security roles can be associated with the respective users in your organization. As a system administrator, you can verify the permissions and access levels granted for each role and modify it to suit your needs. For more information, see [Create or edit a security role](/power-platform/admin/create-edit-security-role).
 
@@ -43,15 +43,14 @@ responsible for enforcing best practices for Playbooks, assign the Sales Manager
 **Follow these steps:**
 
 1. In the Sales Hub app, select the Settings icon in the top-right
-   corner and select **Advanced Settings**.
+   corner, and select **Advanced Settings**.
 
-2. Select **Settings** in the Business Management interface and
-   navigate to **System, Security**.
+2. Select **Settings** in the Business Management interface, and
+   go to **Security** under **System**.
 
-3. Select **Users** and then select the user account to which you want to
-   assign the role.
+3. Select **Users**, and then select the user account.
 
-4. Select **Manage Roles** and choose the roles that you want to assign to the user.
+4. Select **Manage Roles**, and choose the roles that you want to assign to the user.
 
 5. Notify the user and have them check their permissions.
 
