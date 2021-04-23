@@ -33,12 +33,6 @@ As we continue to work on the real-time marketing preview and refine the experie
 - Data retention is 3 months for operational analytics and 12 months for the aggregate cross-journey analytics dashboard.
 - In some cases of error, funnel numbers are adjusted for sanitization (for example, the delivered shouldn't exceed sent).
 
-## SMS
-
-- Currently limited to one phone number.
-- Only United State numbers are issued (even when using the app in the United Kingdom).
-- Dynamics 365 Customer Voice survey links are not supported in SMS messages.
-
 ## Dynamics 365 Customer Insights
 
 - Existing CI customers will need to set up a new CI environment using **Copy config**.
@@ -46,3 +40,9 @@ As we continue to work on the real-time marketing preview and refine the experie
 ## Journey & orchestration
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
+
+## SMS
+
+- Currently limited to one phone number.
+- Only United State numbers are issued (even when using the app in the United Kingdom).
+- Dynamics 365 Customer Voice survey links are not supported in SMS messages.
