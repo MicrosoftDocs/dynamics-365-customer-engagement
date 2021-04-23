@@ -29,7 +29,7 @@ Offline configuration is achieved by:
 1. Setting up an offline profile (one exists by default).
 2. Adding users to the offline profile.
 3. Publishing the offline profile.
-4. Adding the offline profile to the Field Service Mobile model-driven app. 
+4. Adding the offline profile to the Field Service mobile model-driven app. 
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
@@ -47,9 +47,6 @@ For a guided walkthrough, check out the following video.
 ## Set up an offline profile
 
 Go to the Power Platform admin center at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/), and find and select your environment.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center showing environments.](./media/offline-2020-ppac.png)
 
 Select **Settings** at the top.
 
