@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 02/18/2021
 ms.reviewer: krbjoran
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: dynamics-365-customerservice
 applies_to: 
   - "Dynamics 365 (online)"
@@ -45,7 +45,7 @@ After installing or upgrading to **Field Service v8.8.22+**, the "Field Service"
 ```https://[your-environment-name].crm.dynamics.com/apps```
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service apps](media/admin-apps.png)
+> ![Field Service apps on mobile devices.](media/admin-apps.png)
 
 ## Assign mobile app users appropriate security roles
 
@@ -53,7 +53,7 @@ After installing or upgrading to **Field Service v8.8.22+**, the "Field Service"
 - Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Manage Roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
+> ![The manage roles dialogue in Dynamics 365.](./media/mobile-2020-resource-security-role.png)
 
 ## Assign security roles to the Field Service mobile app
 
@@ -74,9 +74,6 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 > ![Screenshot of a mobile device app store, showing two Field Service Mobiles in the list, and highlighting the Field Service (Dynamics 365) app.](./media/mobile-2020-download-signin.jpg)
 
 Launch the app and sign in with your username and password, which should be the user credentials of the technician user with the **Field Service - Resource** security role. View the articles on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of sign in](./media/quickstart-mobile-signin.png)
 
 ## (Optional) Schedule a work order
 
