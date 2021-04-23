@@ -54,21 +54,18 @@
 ### [Manage capacity profiles](capacity-profiles.md)
 ### [Role persona mapping](role-persona-mapping.md)
 
-
 ## Unified routing and assignment
 ### [Overview of unified routing](overview-unified-routing.md)
 ### [How routing and assignment works](set-up-routing-process.md)
 ### [Routing and assignment rules](routing-workstream-queues.md)
 
-
 ### Administrator experience
 #### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
 #### [Automatically route cases](create-rules-automatically-route-cases.md)
 #### [Create and manage queues for conversations](queues-omnichannel.md)
-#### Set up skill-based routing for conversations
 #### [Create workstreams](create-workstreams.md)
-#### [Create work streams for entity records in Omnichannel Administration](set-up-entity-workstream.md)
-#### [Create multiple workstreams for entity records](multiple-ws-entity-record-routing.md)
+#### [Create work streams for records in Omnichannel Administration](set-up-entity-workstream.md)
+#### [Create multiple workstreams for records](multiple-ws-entity-record-routing.md)
 #### [Set up routing and assignment rules in Omnichannel Administration](routing-rules.md)
 #### [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
@@ -87,8 +84,8 @@
 ##### [Set up skills, assign agents](setup-skills-assign-agents.md)
 ##### [Attach skills to conversations in Omnichannel Administration](attach-skills.md)
 
-#### [Create and manage queues for cases](set-up-queues-manage-activities-cases.md)
-#### [Automatically route cases](create-rules-automatically-route-cases.md)
+#### [Create and manage basic queues for cases](set-up-queues-manage-activities-cases.md)
+#### [Automatically route cases using basic rule sets](create-rules-automatically-route-cases.md)
 
 #### [Set up routing for conversations in Omnichannel for Customer Service](understand-omnichannel-customer-service-hub.md)
 #### [Diagnostics for unified routing](unified-routing-diagnostics.md)
@@ -96,10 +93,9 @@
 #### [Show customers their average wait time in a queue](average-wait-time.md)
 
 ### Agent experience
+
 #### [Manage case queues and route cases](customer-service-hub-user-guide-case-queues-and-routing.md)
 #### [Work with queues](work-with-queues.md)
-
-### Developer experience
 
 ## Case management
 ### Administrator experience
@@ -240,6 +236,7 @@
 
 ## Channels
 ### [Introduction to channels](channels.md)
+
 ### Administrator experience
 #### Set up SMS channels
 ##### [Configure an SMS channel for TeleSign](configure-sms-channel.md)
@@ -258,12 +255,14 @@
 #### Set up entity records channel
 ##### [Route entity records](entity-channel.md)
 ##### [Route trigger for entity records](routing-trigger.md)
+
 ### Agent experience
 #### [Use SMS channel](sms-telesign-twilio.md)
 #### [Use Facebook channel](facebook.md)
 #### [Use WhatsApp channel](whatsapp.md)
 #### [Use Teams channel](teams-channel.md)
 #### [Use WeChat channel](wechat-channel.md)
+
 ### Developer experience
 #### Bring your own custom messaging channel
 ##### [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)
@@ -379,9 +378,9 @@
 #### [Customize interactive dashboards based on Unified Interface](configure-interactive-dashboards-customer-service-hub.md)
 
 ## Service scheduling
-### [Overview of Service scheduling](basics-service-service-scheduling.md)
 ### [Upcoming changes](scheduling-overview.md)
 ### Customer Service Scheduling
+#### [Overview of Service scheduling](basics-service-service-scheduling.md)
 #### [Manage security roles](manage-security-roles.md)
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
@@ -636,6 +635,7 @@
 ### [Report issues in Omnichannel for Customer Service](report-issues.md)
 
 ## FAQs on Customer Service
+### [FAQs on unified routing](unified-routing-faqs.md)
 ### [FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)
 ### [FAQs on Omnichannel for Customer Service](faqs.md)
 

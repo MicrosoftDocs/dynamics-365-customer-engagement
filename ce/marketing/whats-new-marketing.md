@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/07/2021
+ms.date: 04/22/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -266,9 +266,6 @@ The Dynamics 365 Marketing December 2020 update includes improvements to event r
 
 ### Monthly enhancements
 
-- **Event management**
-    - Added a new API for generating personalized calendar (.ics) files based on event and session data.
-    - Using the new API, marketers can add an “Add to calendar” button to registration confirmation emails that automatically generates a personalized iCalendar file.
 - **Marketing emails**
     - Responding to customer feedback, we added email designer support for rounded corners in Outlook
     - We also improved email rendering consistency when forwarding emails in Outlook.
