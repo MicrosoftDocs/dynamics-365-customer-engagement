@@ -125,6 +125,22 @@ Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs ins
 |German - 1031|Norwegian - 1044|Ukrainian - 1058|  
 |Greek - 1032|Polish - 1045|Vietnamese - 1066|  
 
+## Synchronization and tracking 
+
+The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 apps. Server-side synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 apps. However, in some cases, server-side synchronization service is used to promote the item to Dynamics 365 apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
+
+In most cases items are immediately tracked, aside from when an email is in compose mode and recurring appointments.
+
+   > [!NOTE]
+   > Server-side synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.
+
+If the Dynamics 365 App for Outlook uses Server-side synchronization to track an item to Dynamics 365 apps, the track status of the item will be “Pending”.
+
+![Outlook app Server-side synchronization](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
+
+   > [!NOTE]
+   > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
+
 ## Things to know
 
 - The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
