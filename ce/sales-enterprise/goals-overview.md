@@ -15,7 +15,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Process for Setting Goals
+# Process for setting goals
 
 With Dynamics 365, you can define, measure, and track goals for your organization and team. For example, your sales organization can define goals based on sales revenue for a specific territory, number of leads created, number of units sold, and so on. Similarly, your customer service organization can define goals based on the number of cases closed.
 
@@ -33,7 +33,7 @@ To set goals, consider these factors:
 - [Monitoring goals](#monitor-goals)  
 - [Goals and security roles](#understand-goals-and-security-roles)  
 
-## Define Goal hierarchy
+## Define goal hierarchy
 
 Typically, a manager's goal is a total of the goals assigned to their staff. A large organization's goal could be a combination of regional sales or service goals.
 
@@ -57,7 +57,7 @@ If your metric type is Amount, you need to further specify the amount data type:
 
 - **Integer:** Tracks anything countable in whole numbers, such as units sold.
 
-- **Decimal:** Tracks data that include partial numbers, such as pounds sold of a product that is sold by weight.
+- **Decimal:** Tracks data that includes partial numbers, such as pounds sold of a product that is sold by weight.
 
 If your metric type is Count, the data type is always an integer.
 
