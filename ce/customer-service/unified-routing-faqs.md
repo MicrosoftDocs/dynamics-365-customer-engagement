@@ -25,7 +25,7 @@ For messaging channels, a migration utility will be available to upgrade the wor
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
-These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Ommichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
+These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
 
 ### Will unified routing support activity routing?​
 
