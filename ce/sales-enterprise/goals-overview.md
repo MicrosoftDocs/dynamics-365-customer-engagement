@@ -29,7 +29,7 @@ To set goals, consider these factors:
 - [Setting goal metrics](#set-goal-metrics)  
 - [Defining rollup queries](#define-rollup-queries)
 - [Setting targets](#set-targets)  
-- [Setting time periods for goals](#set-Time-periods-for-goals)  
+- [Setting time periods for goals](#set-time-periods-for-goals)  
 - [Monitoring goals](#monitor-goals)  
 - [Goals and security roles](#understand-goals-and-security-roles)  
 
@@ -47,7 +47,7 @@ The goal rollup is done from the bottom of the hierarchy to the top. During roll
 
 There are two types of goal metrics:
 
-- **Count:** Counts things you track, such as how many sales phone calls were completed in a given period.
+- **Count:** Counts things that you track, such as how many sales phone calls were completed in a given period.
 
 - **Amount:** Tracks things like revenue or sales measured in something other than whole numbers. This metric is more versatile. You could use the amount metric to track sales of a product sold by weight, or to make a goal more specific, such as the number of sales calls that lasted longer than five minutes, instead of only the total number of calls made.
 
@@ -57,7 +57,7 @@ If your metric type is Amount, you need to further specify the amount data type:
 
 - **Integer:** Tracks anything countable in whole numbers, such as units sold.
 
-- **Decimal:** Tracks data that include partial numbers, such as pounds sold of a product sold by weight.
+- **Decimal:** Tracks data that include partial numbers, such as pounds sold of a product that is sold by weight.
 
 If your metric type is Count, the data type is always an integer.
 
@@ -96,7 +96,7 @@ More information: [Create or edit goals](create-edit-goal-sales.md)
 
 You can set a fiscal period, such as a quarter or year, or a custom period, such as a campaign or sales event.
 
-If your organization merges with another organization that uses different time periods, you can change yours to match with the merging organization.
+If your organization merges with another organization that uses different time periods, you can change yours to match with the new organization.
 
 Changing a fiscal year or fiscal period does not automatically change the dates for the goals; you will need to update them to show the new dates as a separate step.
 
