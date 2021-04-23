@@ -24,10 +24,6 @@ search.app:
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
-
 With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-advanced.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
@@ -282,7 +278,6 @@ Find the inspection form and enter answers. Technicians can upload files, take p
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/inspections-mobile-r-2.png)
-
 
 When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
 
