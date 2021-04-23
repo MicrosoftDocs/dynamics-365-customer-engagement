@@ -45,7 +45,7 @@ The following prerequisites are required before you begin setup.
 
 ## Step 1: Set the default synchronization method
 
-To use Dynamics 365 App for Outlook, you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](/power-platform/admin/set-incoming-outgoing-email-synchronization)
+To use Dynamics 365 App for Outlook, you need to set server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](/power-platform/admin/set-incoming-outgoing-email-synchronization)
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
@@ -115,7 +115,7 @@ The security role **Dynamics 365 App for Outlook User** is available from build 
 
 Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
 
-App for Outlook also requires Server-Side Synchronization to be properly configured with the minimum security roles required by the service. These roles are outlined in the table below.
+App for Outlook also requires server-side synchronization to be properly configured with the minimum security roles required by the service. These roles are outlined in the table below.
 
 
 | **Privilege name**                      | **Table**         | **Location (tab) within security role**             |
