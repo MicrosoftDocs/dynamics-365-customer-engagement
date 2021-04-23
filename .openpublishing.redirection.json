@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/audience-data.md",
+      "redirect_url": "real-time-marketing-audience-data",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/open-advanced-settings.md",
       "redirect_url": "open-settings",
       "redirect_document_id": "false"
