@@ -1,7 +1,7 @@
 ---
 title: "Process for setting goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Define, track, and measure performance-based Sales and Customer Service goals in Dynamics 365."
-ms.date: 04/19/2021
+ms.date: 04/23/2021
 ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
