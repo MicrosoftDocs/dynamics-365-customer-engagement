@@ -20,6 +20,8 @@ search.app:
 
 # Issue converting an email to a case
 
+You can use the Activity monitor that is available on the **Record creation and update rules** page, and configure the options to view skipped scenarios, failed scenarios, or all scenarios for a time period. More information:[Use activity monitor to review and track rules](automatically-create-update-records.md#Use-activity-monitor-to-review-and-track-rules).
+
 ## Case creation fails when mail is sent from queue address to same queue address on which automatic record creation rule is configured
 
 ### Scenario

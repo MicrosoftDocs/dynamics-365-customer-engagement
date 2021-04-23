@@ -53,7 +53,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 1. In the Omnichannel Configuration page, in the **Rating Model** section, select **New Rating Model**.
 
-2 Specify the following in the **New Rating Model** page.
+2. Specify the following in the **New Rating Model** page.
 
   | Tab | Field | Description | Example value  |
   |------------|-----------------|----------------|--------------------------------------------|
