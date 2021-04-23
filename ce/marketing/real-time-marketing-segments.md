@@ -60,14 +60,16 @@ This will take you directly to the segment builder, where you can create and sav
 
 To edit your segment, select any segment name from the segments list. This will take you to the details view. Select **Open Segment** on the top ribbon. This will open the selected segment in its source builder. In the builder, select **Edit** to edit your segment.
 
-You can determine the source of the segment by looking at the **Source** column in the segments list.
+You can determine the source of a segment by looking at the **Source** column in the segments list.
 
 ## Segments created in Customer Insights
 
 If you have a subscription to [Dynamics 365 Customer Insights](/dynamics365/customer-insights/index) and have connected your instance to Dynamics 365 Marketing, segments from Customer Insights will also be available to you in real-time marketing.
 
-You can determine the source of your outbound Marketing segment or your Customer Insight segment when you make segment selections in your customer journey creation.
-![image](https://user-images.githubusercontent.com/82061205/115825397-39934a80-a3be-11eb-8833-0040b6f6bf47.png)
+As shown in the image below, you can see whether a segment is a Marketing segment or a Customer Insights segment when you make a segment selection in your customer journey.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of segment sources](media/real-time-marketing-segment-source.png)
 
 Learn more about [setting up and managing a Customer Insights connection to Dynamics 365 Marketing](/customer-insights/audience-insights/manage-environments).
 
