@@ -37,7 +37,7 @@ Use App for Outlook while you’re using Outlook on the desktop, web, or phone. 
 
 Before installing App for Outlook, contact your administrator and make sure all the prerequisites are met. For more information, see [Deploy Dynamics 365 App for Outlook](../deploy-dynamics-365-app-for-outlook.md).
 
-In most cases, you're administrator will automaticlly push the app to you and it should be aviliable in the Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [Have users install App for Outlook themselves](../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves).
+In most cases, your administrator will automatically push the app to you and it should be available in the Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [Have users install App for Outlook themselves](../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves).
 
 
 ## Access the app
@@ -56,7 +56,7 @@ Once installed it's easy to access the Dynamics 365 App for Outlook pane whether
    
 ## Pin 
 
-If you're using the Outlook desktop client or Outlook Web Access, you can pin App for Outlook so that it remains open when you navigate from one email to another. If don't see the pin option verify that it's supported for your setup. For more information, see [What's supported](support-matrix.md).
+If you're using the Outlook desktop client or Outlook Web Access, you can pin App for Outlook so that it remains open when you navigate from one email to another. If you don't see the pin option, then verify that it's supported for your setup. For more information, see [What's supported](support-matrix.md).
 
 - To pin the app, select the pin. To unpin, select the pin again.
 
@@ -78,16 +78,16 @@ If you're using the Outlook desktop client or Outlook Web Access, you can pin Ap
 
 ## Synchronization and tracking 
 
-The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 apps. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 apps. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
+The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 apps. Server-side synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 apps. However, in some cases, server-side synchronization service is used to promote the item to Dynamics 365 apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
 
 In most cases items are immediately tracked, aside from when an email is in compose mode and recurring appointments.
 
    > [!NOTE]
-   > Server Side Synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.
+   > Server-side synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.
 
-If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an item to Dynamics 365 apps, the track status of the item will be “Pending”.
+If the Dynamics 365 App for Outlook uses Server-side synchronization to track an item to Dynamics 365 apps, the track status of the item will be “Pending”.
 
-![Outlook app server side sync](../media/Outlook_app_server_side_sync.png "Outlook app server side sync")
+![Outlook app Server-side synchronization](../media/Outlook_app_server_side_sync.png "Outlook app server side sync")
 
    > [!NOTE]
    > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
