@@ -25,7 +25,7 @@ search.app:
 
 # Track an email or appointment without linking it to a specific row 
 
-Use **Track without Regarding** in Dynamics 365 app for Outlook to track an email message or appointment without linking it to a specific row in your app.
+Use **Track without Regarding** in Dynamics 365 App for Outlook to track an email message or appointment without linking it to a specific row in your app.
 
 
 1. Open an email or appointment that you want to associate to a row in your app. 
