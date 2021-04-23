@@ -41,7 +41,23 @@ The key highlights of the feature are as follows:
 >   - Japan
 >   - Asia Pacific
 >   - Australia
-> - The AI suggestions feature supports only English content and is available for administrators to set up only in organizations that have the base language set as English. For agents to view the suggested knowledge articles and similar cases, you must also set the User Interface Language as English in the users' personalization settings. Otherwise, "No suggestions" will be displayed in smart assist.
+
+## Multilingual support for AI similar cases and knowledge articles
+
+AI similar cases and knowledge articles are now supported in seven different languages. Customers who have cases, conversations or knowledge articles in languages other than English can now benefit from the AI multi language availability. The supported languages are listed as follows.
+
+- Dutch
+- English
+- French
+- German
+- Italian
+- Japanese
+- Spanish
+
+
+When an agent accepts an incoming case or conversation, the knowledge article suggestions first checks if the agent has set up a specific language, and if no language setting is found, the user's personal UI language settings is used to display similar cases and knowledge article suggestions. 
+
+After an agents accepts a case or conversation, AI smart assist checks if the language is supported and matched. If the language is supported, case suggestions are displayed in the same language, if the language is not supported, then no suggestions are displayed. If no suggestions are displayed, the agent can update the settings to supported languages.
 
 ## How AI suggestions for similar cases and knowledge articles works
 
@@ -77,7 +93,12 @@ Make sure that the following requirements are met:
 
 Perform the following steps to enable the AI suggestions for similar cases:
 
-1. Sign in to the Customer Service Hub app.
+1. Sign in to Omnichannel Admin Centre application
+
+or
+
+Sign in to Customer Service Hub.
+
 2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. In the **Premium AI capabilities** section, select** **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
@@ -94,7 +115,11 @@ Perform the following steps to enable the AI suggestions for similar cases:
 
 Perform the following steps to enable the AI suggestions for related knowledge articles:
 
-1. Sign in to the Customer Service Hub app.
+1. Sign in to Omnichannel Admin Centre application
+
+or
+
+Sign in to Customer Service Hub.
 2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
 4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
