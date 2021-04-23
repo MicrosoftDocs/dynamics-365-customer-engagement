@@ -139,7 +139,7 @@ If the Dynamics 365 App for Outlook uses Server-side synchronization to track an
 ![Outlook app Server-side synchronization](media/Outlook_app_server_side_sync.png "Outlook app server side sync")
 
    > [!NOTE]
-   > For manually tracked items, App for Outlook only synchronize pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
+   > For manually tracked items, App for Outlook only synchronizes pre-definded fields between Outlook (Exchange) and Dynamics 365 apps. Any [Field level synchronization settings](/power-platform/admin/what-fields-synchronized-outlook) will have no effect while tracking the items manually from App for Outlook.
 
 ## Things to know
 
