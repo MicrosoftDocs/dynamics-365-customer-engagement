@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Real-time marketing uses [segments](segmentation-lists-subscriptions.md) directly from outbound marketing and [Customer Insights](dynamics365/customer-insights/index.md). You can view the segments available to you in real-time marketing by going to **Audience** > **Segments**.
+Real-time marketing uses [segments](segmentation-lists-subscriptions.md) directly from outbound marketing and [Customer Insights](/dynamics365/customer-insights/index). You can view the segments available to you in real-time marketing by going to **Audience** > **Segments**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the segments list in real-time marketing](media/real-time-marketing-segments.png)
@@ -64,7 +64,7 @@ You can determine the source of the segment by looking at the **Source** column 
 
 ## Segments created in Customer Insights
 
-If you have a subscription to [Dynamics 365 Customer Insights](dynamics365/customer-insights/index.md) and have connected your instance to Dynamics 365 Marketing, segments from Customer Insights will also be available to you in real-time marketing.
+If you have a subscription to [Dynamics 365 Customer Insights](/dynamics365/customer-insights/index) and have connected your instance to Dynamics 365 Marketing, segments from Customer Insights will also be available to you in real-time marketing.
 
 Learn more about [setting up and managing a Customer Insights connection to Dynamics 365 Marketing](/customer-insights/audience-insights/manage-environments).
 

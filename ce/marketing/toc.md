@@ -118,7 +118,7 @@
 #### [Design elements reference](content-blocks-reference.md)
 
 ### Preview: Real-time marketing
-#### [Real-time marketing overview](real-time-marketing-overview.md)
+#### [Real-time marketing overview](real-time-marketing-overview.yml)
 #### Get started with real-time marketing
 ##### [Real-time marketing quickstart guide](real-time-marketing-quickstart.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)

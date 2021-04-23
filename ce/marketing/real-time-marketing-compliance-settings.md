@@ -36,9 +36,6 @@ search.app:
 
 At the time of setup or later, the administrator or power user needs to go to **Settings** > **Compliance**  and define the consent model, the company address, and customize the preference center page for your end users.
 
-> [!div class="mx-imgBorder"]
-> ![compliance settings](../media/compliance2.png)
-
 First, the administrator must select which consent model your system will use. The consent model selection is made once and can’t be changed afterwards.
 
 There are two options to select from in Private Preview. With the **Restrictive** model, your customers’ opt-ins will be required for sending marketing emails and text messages, and for behavior tracking. Default values for these fields are the following:
@@ -58,9 +55,6 @@ You also need to enter a valid physical postal address for your organization. Th
 ## Preference page
 
 The second step setting up the compliance center is defining the content for the Preference page – the public web page that your customers can access to review and change their preferences.
-
-> [!div class="mx-imgBorder"]
-> ![compliance settings](../media/preference-page.png)
 
 > [!NOTE]
 > The following Preference page examples are not recommendations or advice on what you are legally required to have in your compliance Preference page. It is your sole responsibility to ensure that you comply with all applicable laws, including obtaining valid consents from your end users.
