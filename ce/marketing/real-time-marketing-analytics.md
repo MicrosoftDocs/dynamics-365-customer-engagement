@@ -46,3 +46,10 @@ Select any component to view near real-time operational analytics in the right p
 
 ## Aggregate cross-journey analytics
 
+The built-in aggregate cross-journey analytics dashboard shows relevant metrics and insights for all your journey orchestrations in one place. Review recent journey effectiveness and quickly share reports with stakeholders.
+
+## Channel analytics
+
+Better understand each message's performance using near real-time analytics and historic trends.
+
+In addition to email analytics, you can review text message and push notification performance using the built in channel reporting.
