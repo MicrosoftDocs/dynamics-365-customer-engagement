@@ -136,6 +136,7 @@
 ##### [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md)
 ##### [Set a business goal and measure progress through a journey](real-time-marketing-business-goals.md)
 ##### [Personalize content](real-time-marketing-personalize.md)
+##### [Use natural language in real-time marketing journeys](real-time-marketing-natural-language.md)
 ##### [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
 ##### [Access and interpret analytics](real-time-marketing-analytics.md)
 ##### [Real-time marketing event triggers](real-time-marketing-event-triggers.md)
