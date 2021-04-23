@@ -40,7 +40,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Germany</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
 | | <i>Switzerland</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 05/07/2021
+| | <i>Japan</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
 | | <i>Asia Pacific</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
 | | <i>Great Britain</i> |[3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
 | | <i>Oceana</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
