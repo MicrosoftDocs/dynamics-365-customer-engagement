@@ -93,10 +93,10 @@ In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label is changed 
    > ![Smart Links Content Viewed confirmation on the timeline](media/faq-smart-links-content-viewed-confirmation.png "Smart links Content Viewed confirmation on the timeline")     
 
 <a name="show-smart-links-activity-on-timeline"> </a>
-**How can I show a Smart Links activity on the timeline?**    
+**How can I show an activity (InMail, Message, or Smart Links) on the timeline?**    
 
 **Answer:**    
-If you've properly configured CRM sync and activity writeback, the Smart Links activity will successfully write back from LinkedIn Sales Navigator to Dynamics 365 and appear on the timeline. If the Smart Links activities don't appear on the timeline, follow these steps:    
+If you've properly configured CRM sync and activity writeback, the activity will successfully write back from LinkedIn Sales Navigator to Dynamics 365 and appear on the timeline. If the activities don't appear on the timeline, follow these steps:    
 
 1. Sign in to your Dynamics 365 app.   
 2. Go to **Advanced Settings** > **Customizations** > **Customize the System**.      
@@ -107,7 +107,7 @@ If you've properly configured CRM sync and activity writeback, the Smart Links a
 5. In the **Activities Tab Properties** window, under **Unified Interface Properties (New)** tab, select the **Activities** tab.     
 6. In the **Filter By** section, select the following options:    
    - From the **Show these activities** list, select **Show selected**.
-   - From the options, select the **Ctrl** key, and then select the **Smart Links Content Viewed** activity.    
+   - From the options, select the **Ctrl** key, and then select the activity.    
    > [!div class="mx-imgBorder"]
    > ![Select options to show Smart Links activities](media/faq-select-options-filter-by-section.png "Select options to show Smart Links activities")         
 7. Select **OK**, and then save and publish the customizations.
