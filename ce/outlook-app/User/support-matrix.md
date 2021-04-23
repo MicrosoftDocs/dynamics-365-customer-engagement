@@ -79,8 +79,7 @@ The tables below shows the supported features using App for Oulook on Outlook de
 **Dynamics 365 or Microsoft Exchange Server (on-premises)**
 
 | **Feature**                                         | **Outlook desktop client: Outlook C2R** | **Outlook desktop client: Outlook 16 or later**               | **Outlook desktop client: Outlook 2013**        | **Outlook desktop client: Outlook for Mac**          | **Outlook web access: Microsoft Edge** | **Outlook web access: Google Crome**         | **Mobile Device: Andriod** |**Mobile Device: iOS** |
-|-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------|
-|                                                     | Outlook C2R                | Outlook 16 or later | Outlook 2013 | Outlook for Mac | Microsoft Edge         | Google Chrome | Android    | iOS   |
+|-----------------------------------------------------|----------------------------|---------------------|--------------|-----------------|------------------------|---------------|------------|-------|                                                  
 | Sent and received email                             | X                          | X                   | X            | X               | X                      | X             |            |       |
 | View information                                    | X                          | X                   | X            | X               | X                      | X             |            |       |
 | Track and Untrack                                   | X                          | X                   | X            | X               | X                      | X             |            |       |
