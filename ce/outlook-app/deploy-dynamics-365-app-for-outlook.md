@@ -28,7 +28,7 @@ search.app:
 
 This topic covers how to set up and deploy Dynamics 365 App for Outlook.
 
-Dynamics 365 App for Outlook works with latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), [Dynamics 365 Marketing](../marketing/help-hub.md). [Dynamics 365 Field Service](../dynamics365/field-service/overview.md), and [Dynamics 365 Project Service Automation](../dynamics365/project-operations/psa/overview.md)), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../dynamics365/field-service/overview.md), and [Dynamics 365 Project Service Automation](../dynamics365/project-operations/psa/overview.md)), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 ## Prerequisites
 
@@ -166,13 +166,13 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
     - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. When you do this the **Status** changes to **Pending**.
 
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app](media/deploy-app-auto-1.png)
+      > ![Automatically deply the app for eigible users](media/deploy-app-auto-1.png)
 
    
    - **Option 3**: Push the app to certain users, select those users in the list, and then select **Add App to Outlook**.
    
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app](media/add-app-to-selected.png)
+      > ![Automatically deply the app to certain users](media/add-app-to-selected.png)
    
    
 4. The status will change to **Added to Outlook** and the app will be aviliable for your users. 
