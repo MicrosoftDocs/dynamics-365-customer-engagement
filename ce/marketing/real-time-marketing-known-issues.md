@@ -33,11 +33,11 @@ As we continue to work on the real-time marketing preview and refine the experie
 - Data retention is 3 months for operational analytics and 12 months for the aggregate cross-journey analytics dashboard.
 - In some cases of error, funnel numbers are adjusted for sanitization (for example, the delivered shouldn't exceed sent).
 
-## Channels
+## SMS
 
 - Currently limited to one phone number.
 - Only United State numbers are issued (even when using the app in the United Kingdom).
-- Dynamics 365 Customer Voice survey links are not supported.
+- Dynamics 365 Customer Voice survey links are not supported in SMS messages.
 
 ## Dynamics 365 Customer Insights
 
