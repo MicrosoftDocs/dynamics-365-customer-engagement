@@ -26,7 +26,7 @@ search.app:
 
 # Deploy and install Dynamics 365 App for Outlook  
 
-This topic covers how to set up and deploy Dynamics 365 App for Outlook.
+This topic covers how to setup and deploy Dynamics 365 App for Outlook.
 
 The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
@@ -34,7 +34,7 @@ The latest release of Dynamics 365 App for Outlook works with customer engagemen
 
 Before you begin make sure these prerequisites are met:
 
-- Set up synchronization of incoming email through server-side synchronization: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Setup synchronization of incoming email through server-side synchronization: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
 
 - Dynamics 365 App for Outlook is an Outlook add-in that uses Exchange Web Services (EWS) to interact with Microsoft Exchange. This requires OAuth be enabled on Microsoft Exchange. For more information: [Authentication and permission considerations for the makeEwsRequestAsync method](/outlook/add-ins/web-services#authentication-and-permission-considerations-for-the-makeewsrequestasync-method).
 
@@ -45,7 +45,7 @@ Before you begin make sure these prerequisites are met:
 
 ## Step 1: Set the default synchronization method
 
-To use Dynamcis 365 App for Outlook you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](/power-platform/admin/set-incoming-outgoing-email-synchronization)
+To use Dynamics 365 App for Outlook you need to set Server-side synchronization for your email processing. For more information on email synchronization, see [Set incoming and outgoing email synchronization](/power-platform/admin/set-incoming-outgoing-email-synchronization)
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
@@ -65,7 +65,7 @@ To use Dynamcis 365 App for Outlook you need to set Server-side synchronization 
 
 ## Step 2: Test email configuration and enable mailboxes
 
-Enable and test your user mailboxs so they can use Dynamics 365 App for Outlook. 
+Enable and test your user mailboxes so they can use Dynamics 365 App for Outlook. 
 
 1. From your app, go to **Settings** > **Advanced Settings**.
 
@@ -97,16 +97,16 @@ Enable and test your user mailboxs so they can use Dynamics 365 App for Outlook.
    > [!div class="mx-imgBorder"]
    > ![Select ok to confirm](media/select-mailboxes-confirm.png)
 
-You may need to wait for the system to process the updates. The more mailboxs you enable, the longer it may take.
+You may need to wait for the system to process the updates. The more mailboxes you enable, the longer it may take.
 
 ### Step 2.1: Verify configuration
 
-Next, verify the mailbox are set up correctly, open the mailboxs that you tested in the previous step.
+To verify  mailbox is setup correctly, open the mailbox that you tested in the previous step.
 
-When the set up is successful the **configuration Test Results** section should change from **Not Run** to **Success**. 
+If the setup is successful the **configuration Test Results** section should change from **Not Run** to **Success**. 
 
 > [!div class="mx-imgBorder"]
-> ![Open a mailbox to verify that it's set up correctly](media/verify-mailbox.png)
+> ![Open a mailbox to verify that it's setup correctly](media/verify-mailbox.png)
 
 
 ## Setp 3: Provide security role access
@@ -115,7 +115,7 @@ The security role **Dynamics 365 App for Outlook User** is available from build 
 
 Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead table, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead table where applicable.
 
-App for Outlook also requires Server-Side Synchronization to be properly configured with the minimum security roles required by the service. These roles are outlined in the tablle below.
+App for Outlook also requires Server-Side Synchronization to be properly configured with the minimum security roles required by the service. These roles are outlined in the table below.
 
 
 | **Privilege name**                      | **Table**         | **Location (tab) within security role**             |
@@ -170,7 +170,7 @@ App for Outlook also requires Server-Side Synchronization to be properly configu
    > ![Select user role](media/select-user-role.png)
 
 
-## Step 4: Install App for Oulook
+## Step 4: Install App for Outlook
 
 Follow these steps to push Dynamics 365 App for Outlook to selected users, all users, or have users install it themselves as needed.
 
@@ -185,7 +185,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
    > [!div class="mx-imgBorder"]
    > ![Go to Dynamics 365 App for Outlook](media/settings-app-for-outlook.png)
 
-3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have servel options to deploy the app to your users:
+3. The **Getting Started with Microsoft Dynamics 365 App for Outlook** page lists all eligible users that can use App for Outlook. You have sereral different options on how you can deploy the app to your users:
  
     - **Option 1**: Select the checkbox to automatically add App for Outlook to all eligible users. If a user's email is synchronized through server-side synchronization, you won’t have to do anything more to push the app to them.
 
@@ -193,7 +193,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
       > ![Automatically deply the app](media/deploy-app-auto.png)
    
    
-    - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. When you do this the **Status** changes to **Pending**.
+    - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are setup correctly. When you do this the **Status** changes to **Pending**.
 
       > [!div class="mx-imgBorder"]
       > ![Automatically deply the app for eigible users](media/deploy-app-auto-1.png)
@@ -205,7 +205,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
       > ![Automatically deply the app to certain users](media/add-app-to-selected.png)
    
    
-4. The status will change to **Added to Outlook** and the app will be aviliable for your users. 
+4. The status will change to **Added to Outlook** and the app will be available for your users. 
 
    > [!div class="mx-imgBorder"]
    > ![Status changes to added to Outlook](media/added-to-outlook.png)
