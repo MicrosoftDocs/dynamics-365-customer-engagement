@@ -11,6 +11,7 @@
 
 ### Sales management
 #### [Overview of admin settings](admin-settings-overview.md)
+#### [Predefined security roles for Sales](security-roles-for-sales.md)
 #### [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 #### [Set up sales territories](/power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area)
 #### [System Settings - Sales](system-settings-sales-tab.md)
