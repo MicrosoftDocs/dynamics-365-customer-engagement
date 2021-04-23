@@ -77,8 +77,7 @@ This means that there is an issue with the Server-Side Synchronization settings 
 
 ## When I track or set the Regarding record on an email or an appointment in Outlook, it goes into a “Pending” state. Why?
 Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 via Server-Side Synchronization, which is an asynchronous service that runs in the background approximately every 15 minutes.
-The scenarios where an Outlook item is immediately tracked to Dynamics 365 apps is documented in the [Synchronization and tracking
-](./dynamics-365-app-outlook-user-s-guide.md#synchronization-and-tracking) section of the user guide.
+
 
 ## As an administrator, when I go to the Dynamics 365 App for Outlook section in **Settings**, a user does not appear in the **All Eligible Users** list. 
 For more information, see [A user does not appear in the All Eligible Users list within the Dynamics 365 App for Outlook area](https://support.microsoft.com/help/4345543).
