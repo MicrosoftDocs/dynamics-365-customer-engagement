@@ -21,7 +21,7 @@ search.app:
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkI
 
 
 Field Service self-service scheduling aims to improve your customers' scheduling experiences by providing them flexibility to schedule on their own time, directly from their devices.
@@ -102,14 +102,14 @@ In Field Service, Go to **Field Service Settings** > **Customer Portal** > **Cus
 
 Configure the following settings as needed: 
 
-- **Send self-scheduling experience to Account Contacts**: When enabled, new Contacts who are associated with active Field Service accounts will be sent an email, which invites the contact to create a Power Portal account for self-scheduling. For more information, see this section: [Notifications](#notifications).
+- **Send self-scheduling experience to Account Contacts**: When enabled, new Contacts who are associated with active Field Service accounts will be sent an email, which invites the contact to create a Power Portal account for self-scheduling. For more information, see this section: [Notifications](#notifications-types).
     - When enabling this option, you have the ability to send to only new contacts going forward, or send to all existing contacts. If a contact has already received the invite in the past, they won't receive a second email invite. 
 
-- **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. For information on each message, see this section: [Notifications](#notifications).
+- **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. For information on each message, see this section: [Notifications](#notifications-types).
 
 - **Communication Type**: Define whether the customer will receive email, SMS, or both message types. 
 
-- **Send Messages To**: This feature is only used with [Track My Technician](./dynamics365/field-service/reminders-arrival-time).  
+- **Send Messages To**: This feature is only used with [Track My Technician](reminders-arrival-time.md).  
 
 - **Include Survey (Preview)**: This feature is used only with [Track My Technician](https://docs.microsoft.com/dynamics365/field-service/reminders-arrival-time). 
 
@@ -138,7 +138,7 @@ Here you can customize:
   - Page footer
 
 > [!div class="mx-imgBorder"]
-> ![The customer portal settings, showing the display options.](./media/SS_Settings_Display.png)
+> ![The customer portal settings, showing the display settings options.](./media/SS_Settings_Display.png)
 
 > [!Note]
 > To upload and update the portal header image, access the Power Apps portal designer. There is a link to the designer from the **Display Settings** tab. For more information on the portal designer, see the section: [Portal designer](#portal-designer).
@@ -227,11 +227,9 @@ To review and test changes, set up an account and contact in Field Service, as i
 > [!div class="mx-imgBorder"]
 > ![Email confirmation showing that the scheduled work has been completed.](./media/SS-Email-Complete.png)
 
-
 > [!Note]
 > The **Techncian Traveling** notification is relevant only to the [**Track My Technician**](https://docs.microsoft.com/dynamics365/field-service/reminders-arrival-time) funcationality, and isnt' avialable while only self-scheduling is enabled.
 
-Notifications are configured in [general configuration](#general-configuration).  
 
 ### Portal experience
 
@@ -252,11 +250,11 @@ Select the **Self Scheduling** option in the header to access the scheduling exp
 
 From the self-scheduling experience, customers can: 
 
-1. Select their **Service Product**, which is a list of assets associated with their account. This functionality must be enabled in [self-scheduling settings](#Self-scheduling-settings).
+1. Select their **Service Product**, which is a list of assets associated with their account. This functionality must be enabled in [self-scheduling settings](#self-scheduling-settings).
     - The address shown under the service product is the account location by default. If a service product with a different functional location is selected, the address for the booking is updated to that functional location address.
 2. Select their **Service Type**, which is a list of incident types made available to the end user.
 3. Based on the service product and service type, the user is presented a list of dates and times that technicians are available, based on skills required for the job.
-4. When enabled via [Self Scheduling Settings](#Self-scheduling-settings), the user can optionally enter additional details with their scheduling request. 
+4. When enabled via [self-scheduling settings](#self-scheduling-settings), the user can optionally enter additional details with their scheduling request. 
 5. After selecting **Book**, the user will see a confirmation screen. 
 
 After successfully submitting their scheduling request, the user will then see a confirmation, including the details for their booking.
