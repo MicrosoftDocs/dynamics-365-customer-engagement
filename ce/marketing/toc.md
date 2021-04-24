@@ -139,6 +139,7 @@
 ##### [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
 ##### [Access and interpret analytics](real-time-marketing-analytics.md)
 ##### [Real-time marketing event triggers](real-time-marketing-event-triggers.md)
+##### [Custom event triggers in real-time marketing](real-time-marketing-custom-events.md)
 #### Assets
 ##### [Real-time marketing asset library](real-time-marketing-asset-library.md)
 #### Administration

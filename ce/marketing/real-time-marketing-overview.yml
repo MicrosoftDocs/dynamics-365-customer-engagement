@@ -62,6 +62,8 @@ landingContent:
             url: real-time-marketing-tile-reference.md
           - text: Real-time marketing event triggers
             url: real-time-marketing-event-triggers.md
+          - text: Custom event triggers in real-time marketing
+            url: real-time-marketing-custom-events.md
 
   # Card
   - title: Administration

@@ -1,7 +1,7 @@
 ---
-title: "Real-time marketing custom event triggers (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Custom event triggersReal-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing custom event triggers in Dynamics 365 Marketing."
-ms.date: 04/19/2021
+ms.date: 04/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,43 +18,50 @@ search.app:
   - D365Mktg
 ---
 
-# Real-time marketing custom events 
+# Custom event triggers in real-time marketing
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
 > 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that is subject to legal or regulatory compliance requirements.
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Custom events provide a flexible way to capture important moments and interactions to orchestrate engaging customer interactions.
+Custom events provide a flexible way to capture important moments and interactions, allowing you to orchestrate engaging customer interactions.
 
-A Custom Event is a user-defined signal that can contain and transport any type of information a customer journey can act upon. Real-time marketing users are in full control of what a custom event represent and what kind of information does it convey.
+A custom event is a user-defined signal that can contain and transport any type of information that a customer journey can act upon. Real-time marketing users are in full control of what custom events represent and what kind of information they convey.
 
-Creating a Real-time marketing custom event is a simple process, however it requires collaboration between marketing users and a developer team who will be responsible for integration of small snippets of code in systems that will ultimately trigger the event. 
+Creating a custom event in real-time marketing is straightforward. However, custom events require collaboration between marketing users and a developer team who will be responsible for integration of small snippets of code in systems that will ultimately trigger the event.
 
-More specifically, creating a custom event involves three separate steps:
+Creating a custom event involves three steps:
 
-## Initial event creation
-This step is performed in the Event Trigger section of the Real-time marketing application by choosing "New" from the top menu and following on screen instructions to define: 
+## 1. Initial event creation
 
-### Title and description
-Consider giving the event a short and descriptive title as well as a description to help other users find the right event trigger in the catalog.  
+This step is performed in the **Event triggers** section of real-time marketing. To create the custom even, select **+New event** from the top ribbon and follow the on-screen instructions to define:
+
+### Title and Description
+
+Give the event a short, descriptive title. Include a description to help other users find the right event trigger in the catalog.  
 
 ### Attributes
-Event attributes enrich the event and provide additional context for the journey to create branches or personalize content. For example, a 'Wi-Fi Sign up' custom event may contain a 'Location' attribute that represent the physical location where a customer has completed a sign-up: the value of the 'Location' attribute could then be used in a journey to, for example, send a different message if the sign up comes from the parking lot or the main lobby.
 
-Attributes have a name and a Data type: choosing the correct data type (Text, Number, True or False, or Date/Time) is important to ensure that customer journeys can provide appropriate comparators in conditions: for example, if an Attribute is of Data type Number, the journey will provide comparator such as 'less than' or 'equal to', whereas for Attributes of type 'Date/Time' the journey will provide comparators such as 'before', 'on' and 'after'.
+Event attributes enrich the event and provide additional context for the journey to create branches or personalize content. For example, a *Wi-Fi sign-up* custom event may contain a *Location* attribute that represents the physical location where a customer has completed a sign-up. The value of the *Location* attribute could then be used in a journey to, for example, send a different message if the sign-up comes from the parking lot or the main lobby.
 
-> [!IMPORTANT]
-> A special type of attributes called 'Customer Data' is present by default in every custom event. This attribute will contain customer-specific data such as names, addresses or phone numbers to be used in customer journeys. It is important to choose the correct Data Type for this attribute, which can either be a Dynamics 365 Contact/Lead or an Audience Insights Customer Profile. Please consult with your developer team to ensure the correct data type is used.  
-
-## Event integration
-Once the event is created, a code snippet is generated by the system. This code snippet can be downloaded and shared with developers, or can be directly accessed through the link provided by the system. Note that in order to directly access the code snippet, developers will need access to Dynamics 365 for Marketing.
-
-The code snippet contains extensive instructions on how to integrate the event code on external systems. This can be achieved using either Javascript (for web pages), C#/Python (for standalone systems) or through the IoS and Android SDKs. 
+Attributes have a **Name** and a **Data type**. Choosing the correct data type (Text, Number, True or false, or Data/time) is important to ensure that customer journeys can provide appropriate comparators in conditions. For example, if an attribute is of data type **Number**, the journey will provide a comparator such as *less than* or *equal to*. If an attribute is of type **Date/time**, the journey will provide comparators such as *before*, *on*, and *after*.
 
 > [!IMPORTANT]
-> ### Event security
-> Some integration of custom events can present security implications. The code snippet that is provided with the event contains an 'ingestion key' that uniquely identifies the Real-time marketing instance. An attacker with access to the ingestion key could possibly send spurious events that can trigger unintended customer journeys. It's a good practice to (a) protect the ingestion key wherever possible and (b) limit the use of attributes in custom events, especially when those attributes can be used to personalize content and act as potential attack vectors such as cross-site scripting.
+> A special type of attribute called **Customer data** is present by default in every custom event. This attribute will contain customer-specific data such as names, addresses, or phone numbers to be used in customer journeys. It is important to choose the correct data type for this attribute, which can either be a Dynamics 365 Contact or Lead, or an [Audience insights customer profile](/customer-insights/audience-insights/overview). Consult with your developer team to ensure the correct data type is used.  
 
-## Finalize the event
-Once the integration has been completed, the event detail page will show information to confirm that the custom event is working as expected. With the integration complete and verified, the event can finally be marked as **Ready to use**, which will make the event visible and available in journeys. 
+## 2. Event integration
+
+Once the event is created, a code snippet is generated by the system. You can download the code snippet and share it with developers. Or, developers can access the snippet directly through the link provided by the app.
+
+> [!NOTE]
+> To directly access the code snippet, developers will need access to the Dynamics 365 Marketing app.
+
+The code snippet contains extensive instructions detailing how to integrate the event code on external systems. You can integrate the event using JavaScript (for web pages), C# or Python (for standalone systems), or through the iOS and Android SDKs.
+
+> [!IMPORTANT]
+> Some integration of custom events can present security implications. The code snippet that is provided with the event contains an *ingestion key* that uniquely identifies the real-time marketing instance. An attacker with access to the ingestion key could possibly send spurious events that can trigger unintended customer journeys. It's a good practice to (a) protect the ingestion key wherever possible, and (b) limit the use of attributes in custom events, especially when those attributes can be used to personalize content and act as potential attack vectors such as cross-site scripting.
+
+## 3. Finalize the event
+
+Once the integration has been completed, the **Event triggers** page will show information to confirm that the custom event is working as expected. With the integration complete and verified, the event will be marked as **Ready to use**, which will make the event visible and available in journeys.

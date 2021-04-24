@@ -35,7 +35,7 @@ Starting in the April 2021 Dynamics 365 Marketing release, you can opt in for pr
 1. From Dynamics 365 Marketing, switch to the **Settings** area using the area switcher on the bottom of the left navigation.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the area switcher](./media/real-time-marketing-install-settings.png)
+    > ![Screenshot of the area switcher settings](./media/real-time-marketing-install-settings.png)
 
 1. Navigate to **Overview** > **Versions**.
 1. In the **Preview features** tile, select **Install**.
@@ -44,3 +44,7 @@ Starting in the April 2021 Dynamics 365 Marketing release, you can opt in for pr
     > ![Screenshot of the preview features tile showing in the versions page](./media/real-time-marketing-install-tile.png)
 
 1. Installation may take over one hour to complete. The installation will continue even if you close the browser window.
+1. When installation is complete, you can access real-time marketing features by selecting **Real-time marketing** in the area switcher.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of real-time marketing in the area switcher](./media/real-time-marketing-install-area-switch.png)
