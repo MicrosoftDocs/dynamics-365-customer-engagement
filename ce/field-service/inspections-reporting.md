@@ -103,12 +103,6 @@ The status of the flows can be checked as shown in the following screenshot.
 
 Attachments like images in the inspection can be retrieved using flows. Steps are shared in the guide in the next section.
 
-## More Details Guide
-Follow the below link to get a detailed PDF guide covering a lot of details about response parsing.
-
-[Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
-
-
 ## Configuration considerations
 
 ### Use Power Automate flow to parse inspection responses (deserialization of responses)
