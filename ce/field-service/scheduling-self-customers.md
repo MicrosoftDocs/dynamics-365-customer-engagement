@@ -102,7 +102,7 @@ In Field Service, Go to **Field Service Settings** > **Customer Portal** > **Cus
 
 Configure the following settings as needed: 
 
-- **Send self-scheduling experience to Account Contacts**: When enabled, new Contacts who are associated with active Field Service accounts will be sent an email which invites the contact to create a Power Portal account for self-scheduling. For more information, see this section: [Notifications](#notifications).
+- **Send self-scheduling experience to Account Contacts**: When enabled, new Contacts who are associated with active Field Service accounts will be sent an email, which invites the contact to create a Power Portal account for self-scheduling. For more information, see this section: [Notifications](#notifications).
     - When enabling this option, you have the ability to send to only new contacts going forward, or send to all existing contacts. If a contact has already received the invite in the past, they won't receive a second email invite. 
 
 - **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. For information on each message, see this section: [Notifications](#notifications).
