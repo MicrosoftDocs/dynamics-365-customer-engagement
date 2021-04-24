@@ -21,85 +21,87 @@ search.app:
 
 # Run reports on inspection responses
 
-Administrators can create reports based on the answers technicians respond to inspections. 
+Reports or dashboards can be created and actions can be taken based on the inspection responses provided by the technicians. 
+
+In the following screenshot is an example of the type of Power BI dashboard you can create with inspection responses.
+
+> [!div class="mx-imgBorder"]
+> ![Power BI showing an inspection response dashboard.](./media/response-dashboard-snapshot.png)
 
 ## Understand, view, and report inspection responses
 
-All the responses entered by technicians are stored in Microsoft Dataverse. They can configure analytics settings in **Field Service settings**, which lets them parse the inspection responses into individual question responses.
+All responses entered for an inspection are stored in Microsoft Dataverse. Inspection responses can be parsed into individual question responses. 
 
-There are three entities stored in Dataverse:
+First, you need to configure how often inspection response should be parsed and organized in Dataverse.
 
-1. **Customer Voice survey question**: each inspection question.
-2. **Customer Voice survey response**: a response to an inspection.
-3. **Customer Voice survey question response**: each individual response to each inspection question.
-
-In this section, we'll walk through how to configure the analytics settings in order to parse individual inspection responses into individual question responses.
-
-First, we'll define how often inspection answers should be parsed and organized in Dataverse.
-
-Go to **Field Service app** > **Settings** > **Field Service Settings** > **Inspection tab**.
+To enable response parsing, go to **Field Service app** > **Settings** > **Field Service Settings** > **Inspection tab**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service settings page.](./media/0-inspection-snapshot-parse-response.png)
+> ![The Field Service settings page.](./media/0-inspection-snapshot-parse-response.png)
 
 Make sure **Analytics enabled** is set to **Yes**. For **Analytics frequency**, consider the following options:
 
-- **Daily**: Every day on the **Record generation start time**, the **Deserialization of Inspection Response – Recurrent** flow triggers and updates the deserialized inspection response JSON in ```msfp_surveyresponse``` and creates new records for responses and corresponding questions in the ```msfp_questionresponse``` entity.
-- **Immediately**:  As soon as a work order service task is marked complete, the **Deserialization of Inspection Response** flow triggers and updates the deserialized inspection response JSON in ```msfp_surveyresponse```, and also creates new records for responses and corresponding questions in ```msfp_questionresponse``` entity.
-- **Custom**: Define your own frequency in number of days. See the following screenshot for an example.
+- **Daily**: Use this setting for inspection responses to be parsed into individual question responses once daily. Every day on the **Record generation start time**, out-of-box flows will be triggered to populate individual question responses into a Dataverse table.
+- **Immediately**: Use this setting if you need question responses to be available in Dataverse as soon as an inspection is marked complete.
+- **Custom**: Define your own frequency by providing the number of days when parsing should be done. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the analytics section on inspection settings, showing custom configurations.](./media/customFrequency.jpg)
+> ![The analytics section on inspection settings, showing custom configurations.](./media/customFrequency.jpg)
 
 > [!Note]
 > When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
 
-Next, we need to create and publish an inspection. See the following screenshot for an example.
+Now that analytics are configured, questions and responses are ready to be saved into the three tables in Dataverse:
+
+1. **Customer Voice survey question or msfp_question**: stores each inspection question.
+2. **Customer Voice survey response or msfp_surveyresponse**: a response to an inspection.
+3. **Customer Voice survey question response or msfp_questionresponse**: each individual response to each inspection question.
+
+Now we are ready to create and publish an inspection. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a sample inspection in Field Service.](./media/1-inspections-snapshot-1.jpg)
+> ![Sample inspection in Field Service.](./media/1-inspections-snapshot-1.jpg)
 
-In our example, we've created an inspection with four questions.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the sample inspection, showing additional questions.](./media/2-inspections-snapshot-2.jpg)
-
-After publishing an inspection, the questions are stored in Dataverse, and can be found in the **Customer Voice survey question** entity in Power Apps. Here, you can see entries for each question on an inspection.
+After publishing an inspection, the questions are stored in Dataverse, and can be found in the **Customer Voice survey question** table in Power Apps. Here, you can see entries for each question on an inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps, showing the Customer Voice survey question entity detail page.](./media/5-snapshot-after-publish-inspection.jpg)
+> ![Power Apps, showing the Customer Voice survey question entity detail page.](./media/5-snapshot-after-publish-inspection.jpg)
 
-If a question on an inspection has no response, the **Customer Voice survey question response** entity detail will remain empty.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/6-response-snapshot-before-completion.jpg)
-
-Back on our sample inspection, we added some values for the questions, as seen in the following screenshot, and saved the inspection. 
+Before any inspection is completed, the **Customer Voice survey question response** table will be empty.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection with questions answered.](./media/7-snapshot-after-response-1.jpg)
+> ![Customer Voice survey question responses in Power Apps.](./media/6-response-snapshot-before-completion.jpg)
+
+Back on our sample inspection, we added some responses for the questions, as seen in the following screenshot, and completed the inspection. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection with additional questions answered.](./media/8-response-snapshot-after-completion-2.jpg)
+> ![An inspection with questions answered.](./media/7-snapshot-after-response-1.jpg)
 
-Back in Power Apps, on the **Customer Voice survey question response** entity, you'll see the values to each submitted response from the inspection.
+Checking again in the **Customer Voice survey question response** table, you'll see the values to each submitted response from the inspection.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps showing the inspection responses in the Customer Voice survey question response entity.](./media/9-CDS-data-upon-completion.jpg)
+> ![Power Apps, showing the inspection responses in the Customer Voice survey question response entity.](./media/9-CDS-data-upon-completion.jpg)
 
-> [!Note]
-> All the logic described in this section of the article is driven by a Power Automate flow to deserialize inspection definitions, and is shipped by default with the inspections feature.
->
-> Upon publish of an inspection, the deserialized inspection definition JSON data is ingested into the Dynamics 365 Customer Voice entity **msfp_question**. This flow gets triggered on state changed to published and performs the same.
+## Out-of-box flows
+
+All the logic described in the previous section is driven by Power Automate flows, and is shipped by default with the inspections capability.
+
+The following flows are involved:
+
+1. **Deserialization of Inspection Definition Flow**: this flow gets triggered upon publish of an inspection and populates inspection questions into ```msfp_question``` table.
+
+2. **Deserialization of Inspection Response – Recurrent Flow**: this flow triggers when frequency is set to **Daily** or **Custom** and updates the parsed inspection response JSON into ```msfp_surveyresponse``` and creates new records for responses and corresponding questions in the ```msfp_questionresponse``` table.
+
+3. **Deserialization of Inspection Response Flow**: this flow takes care of response parsing when frequency is set to **Immediately**. 
+
+The status of the flows can be checked as shown in the following screenshot. 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the inspection deserialization flow in Power Automate.](./media/10-Flow-for-published-questions.jpg)
+> ![Inspection deserialization flow in Power Automate.](./media/10-Flow-for-published-questions.jpg)
 
-## Parse inspection responses
+## Attachments or images within a response 
 
-Inspection parsing allows you to isolate and select specific parts of inspection responses, like taking an inspection attachment or image within a response to use for other business processes. 
-
-[Download guide to understand inspection response parsing](https://aka.ms/inspections-parse)
-
+Attachments like images in the inspection can be retrieved using flows. Steps are shared in the guide in the next section.
 
 ## Configuration considerations
 
