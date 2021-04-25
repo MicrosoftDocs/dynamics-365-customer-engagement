@@ -39,30 +39,32 @@ search.app:
     - If there are other emails or phone numbers provided by the same customer, consent must be requested separately for each of them.  
     - If multiple people share the same email address or phone number, then they also share consent. For example, if contact A opted out from email 1, contact B (sharing same email) will be opted out as well.
 
-
 ## Compliance setup
 
-At the time of setup or later, the administrator needs to go to **Settings** > **Customer engagement** > **Compliance** and define the consent model, the company address, and customize the preference center page for your end users.
+At the time of setup or later, an administrator needs to go to **Settings** > **Customer engagement** > **Compliance** and define the consent model, the company address, and customize the preference center page for your end users.
 
 First, the administrator must select which consent model your system will use. The consent model selection is made once and can’t be changed afterwards.
 
-There are two options to select from in the real-time marketing preview. With the **Restrictive** model, your customers will be required to opt-in in order to receive marketing emails and text messages, and for behavior tracking. Default values for these fields are the following:
+There are two options to select from. With the **Restrictive** model, your customers will be required to opt in in order to receive marketing emails and text messages, and allow behavior tracking. Default values for these fields are the following:
 
 | Allow Email  | Allow SMS    | Allow Tracking   |
 |--------------|--------------|------------------|
 | FALSE        | FALSE        | FALSE            | 
 
-With the **Non-restrictive** model, your customers’ initial opt-ins will *not* be required to receive marketing emails and for behavior tracking. In compliance with the [United State Telephone Consumer Protection Act (TCPA)](https://www.fcc.gov/sites/default/files/tcpa-rules.pdf), sending text messages will still require customers to opt-in first. Default values for these fields are the following:
+With the **Non-restrictive** model, your customers’ initial opt-ins will *not* be required to receive marketing emails and allow behavior tracking. In compliance with the [United State Telephone Consumer Protection Act (TCPA)](https://www.fcc.gov/sites/default/files/tcpa-rules.pdf), sending text messages will still require customers to opt in first. Default values for these fields are the following:
 
 | Allow Email  | Allow SMS    | Allow Tracking   |
 |--------------|--------------|------------------|
 | TRUE         | FALSE        | TRUE             | 
 
-You also need to enter a valid physical postal address for your organization. The address will be included in the content of all marketing emails. If the field is empty or contains the default value ("TestAddress"), marketing emails will be blocked in the customer journey.
+The administrator will also need to enter a valid physical postal address for your organization. By default, the address that was entered during the Dynamics 365 Marketing setup is displayed. You may change the address at any time. The address will be included in the content of all marketing emails. 
+
+> [!IMPORTANT]
+> If the physical address field is empty, marketing emails will be blocked in customer journeys.
 
 ## Preference page
 
-The second step in setting up the compliance center is defining the content for the Preference page. The Preference page is the public web page that your customers can access to review and change their consent preferences.
+The second step in setting up the compliance center is defining the content for the Preference page. The Preference page is the public web page that your customers can access to review and change their consent settings.
 
 > [!NOTE]
 > The following Preference page examples are not recommendations or advice on what you are legally required to have in your compliance Preference page. It is your sole responsibility to ensure that you comply with all applicable laws, including obtaining valid consents from your end users.
@@ -70,7 +72,7 @@ The second step in setting up the compliance center is defining the content for 
 The Preference page includes the following content:
 
 - **Page title**: The title of the page.
-- **Description**: A description that clarifies the purpose of this page.
+- **Description**: A description that explains the purpose of the page.
 - Names and descriptions of all three consent dimensions.
     - **Allow email**
     - **Allow SMS**
@@ -82,3 +84,6 @@ The Preference page includes the following content:
 - **Error page**: Text for the error page (in case of error in submitting).
 
 After configuring the **Compliance** and **Preference page** tabs, select the **Save** button.
+
+> [!NOTE]
+> Settings for outbound marketing consent will be taken from your Marketing environment (GDPR configuration). These settings are optional,and depend on the approach you’ve selected to manage consent in outbound marketing customer journeys. Learn more: [Real-real time marketing outbound consent](real-time-marketing-outbound-consent.md)
