@@ -54,7 +54,7 @@ The following message will appear:
 
 To load consent from contacts, the following prerequisites must be met:
 
-1. Only one email address from a contact record will be loaded. This field is defined in the [Audience configuration](real-time-marketing-audience.md)and can be changed by administrator.
+1. Only one email address from a contact record will be loaded. This field is defined in the [Audience configuration](real-time-marketing-audience-data.md)and can be changed by administrator.
 1. Consent information is loaded from the *Allow bulk email* field of a contact record.
 1. If two or more contacts share the same email address, consent for the email will be set to *Allow* **only** when all contacts contain the value *Bulk email=Allow*. In all other cases, consent for the email address will be set to *Do not allow*.
 1. If consent for the email already exists in real-time marketing (for example, you decide to load consent from contacts after some email consent items were already manually added), the above-listed rule applies. The email address is only opted in if **both** email consent values are set to *Allow* **and** all consent records from contacts that share the same email address are set to *Allow*.
