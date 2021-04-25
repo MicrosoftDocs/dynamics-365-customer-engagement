@@ -24,7 +24,7 @@ search.app:
 Audience configuration is the place where you can set up the data sources for your audience. For Public Preview, the entities supported are **Contact**, **Lead** and **Customer profile**.  
 
 > [!div class="mx-imgBorder"]
-> ![compliance settings](../media/audience-configuration.png)
+> ![compliance settings](media/audience-configuration.png)
 
 For Contacts and Leads there are default recipient fields set up, both for email and phone number. These fields will be put into the "Send-to" field be default. You can also add additional recipient fields or change the default one.
 For Customer Profiles, there's no default fields set. This is up to you, to tell the system which fields should be used when email or text message should be sent.
