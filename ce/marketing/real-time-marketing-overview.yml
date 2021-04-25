@@ -76,8 +76,6 @@ landingContent:
             url: real-time-marketing-email-text-consent.md
           - text: Select the audience source for real-time journeys
             url: real-time-marketing-audience-data.md
-          - text: Outbound marketing consent
-            url: real-time-marketing-outbound-consent.md
       - linkListType: reference
         links:
           - text: Real-time marketing link tracking mechanics

@@ -86,4 +86,4 @@ The Preference page includes the following content:
 After configuring the **Compliance** and **Preference page** tabs, select the **Save** button.
 
 > [!NOTE]
-> Settings for outbound marketing consent will be taken from your Marketing environment (GDPR configuration). These settings are optional,and depend on the approach you’ve selected to manage consent in outbound marketing customer journeys. Learn more: [Real-real time marketing outbound consent](real-time-marketing-outbound-consent.md)
+> Settings for outbound marketing consent will be taken from your Marketing environment (GDPR configuration). These settings are optional,and depend on the approach you’ve selected to manage consent in outbound marketing customer journeys. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md)

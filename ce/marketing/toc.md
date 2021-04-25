@@ -147,7 +147,6 @@
 ##### [Manage email and text consent settings](real-time-marketing-email-text-consent.md)
 ##### [Select the audience source for real-time journeys](real-time-marketing-audience-data.md)
 ##### [Real-time marketing link tracking mechanics](real-time-marketing-link-tracking-mechanics.md)
-##### [Outbound marketing consent](real-time-marketing-outbound-consent.md)
 
 ### Email campaigns
 #### [Email marketing overview](prepare-marketing-emails.md)
