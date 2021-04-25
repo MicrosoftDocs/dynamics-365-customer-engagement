@@ -81,7 +81,7 @@ Refer to the step-by-step summary on the right side of the mobile app configurat
 
 ## Create push notification messages
 
-After you have successfully created your mobile app configuration, you can start creating push notification messages by going to **Real-time marketing** > **Channels** > **Push notifications** and selecting the **+New push notification** button. After you select the button, you will be taken to the push notification message editor.
+After you have successfully created your mobile app configuration, you can start creating push notification messages by going to **Real-time marketing** > **Channels** > **Push notifications** and selecting **+New push notification** in the top ribbon. You will then be taken to the push notification message editor.
 
 > [!div class="mx-imgBorder"]
 > ![Push editor screenshot](media/real-time-marketing-push-editor.png)
