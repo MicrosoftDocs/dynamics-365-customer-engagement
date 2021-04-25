@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-The real-time marketing email editor shares much of its look and feel with the [outbound marketing email editor](prepare-marketing-emails). The email editor was recently upgraded to make email authoring easier and quicker.
+The real-time marketing email editor shares much of its look and feel with the [outbound marketing email editor](prepare-marketing-emails.md). The email editor was recently upgraded to make email authoring easier and quicker.
 
 Learn more about creating email in Dynamics 365 Marketing: [Create a new email and design its content](email-design.md).
 

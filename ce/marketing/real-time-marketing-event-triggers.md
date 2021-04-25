@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Event triggers control the flow of [event-based journeys](real-time-marketing-event-based-journeys.md). They represent customer actions such as a whitepaper download, a form submitted, or a Wi-Fi sign-up. Event triggers can also represent significant business events, such as a purchase that has shipped or completion of an enrollment process.
+Event triggers control the flow of [event-based journeys](real-time-marketing-event-based-journey.md). They represent customer actions such as a whitepaper download, a form submitted, or a Wi-Fi sign-up. Event triggers can also represent significant business events, such as a purchase that has shipped or completion of an enrollment process.
 
 Event triggers can be used to start, continue, or stop a journey. For example:
 
