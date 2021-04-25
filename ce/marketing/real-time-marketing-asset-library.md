@@ -25,3 +25,22 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
+The new, centralized asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content.
+
+## Asset library features
+
+### Quickly upload assets
+
+You can upload a single media file, bulk upload a few media files, or even upload an entire folder.
+
+### Organize and find assets with ease
+
+Use tags to organize your assets as needed. All images uploaded into the library are automatically analyzed and described by AI (using AI tags). As a result, you can easily find an image containing a searched object. For example, by typing “house,” you will find all images showcasing houses, regardless of their file names. You can also sort your assets by *Title* or *Last modified* date.
+
+### View assets in different ways
+
+Depending on your preferences, you can view your assets either in a thumbnail view or a list view.
+
+### Update your assets when needed
+
+You can replace your assets with newer versions whenever needed.
