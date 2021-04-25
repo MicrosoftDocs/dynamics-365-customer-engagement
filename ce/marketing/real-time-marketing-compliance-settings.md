@@ -27,10 +27,18 @@ search.app:
 
 ## Compliance terms and definitions
 
-- **Consent center** (**Real-time marketing** > **Audience** > **Consent center**): The area within real-time marketing where you can check and manage your customers’ preferences and export consent audit reports.
-- **Compliance** (**Settings** > **Customer engagement** > **Compliance**): The area within the Dynamics 365 Marketing settings where an administrator sets up the compliance system, defining the consent model and the descriptions for the end user’s preference center page.
-- **Consent model**: The model that is applied throughout the system. In the real-time marketing preview, there are only two options to select from: Restrictive and Non-Restrictive (see details below).
-- **Preference page**: A web page for your customers where they can change their consent settings for receiving emails and text messages, as well as for tracking.
+- **Consent center** (**Real-time marketing** > **Audience** > **Consent center**): The area within real-time marketing where you can manage your customers’ consent per contact point, either for email or mobile phone number.
+- **Compliance** (**Settings** > **Customer engagement** > **Compliance**): The area within the Dynamics 365 Marketing settings where an administrator sets up compliance for:
+    - **Real-time marketing**: The administrator can select the consent model, enter the company’s physical address, and define the content of the end user’s preference center page.
+    -	**Outbound marketing**: The administrator can enable use of the minimum consent level attribute for customer journeys and audit the *Consent given* field (formerly called *GDPR configuration*).
+- **Consent model**: The model that is applied throughout the system. There are two options to select from: Restrictive and Non-Restrictive (see details below).
+- **Preference center page**: A web page where your customers can change their consent settings for receiving emails and text messages, as well as for tracking.
+- **Audience data** (**Settings** > **Customer engagement** > **Audience configuration**): The administrator can define which fields from **Profile**, **Lead**, and **Contact** entities contain customers’ email addresses and mobile phone numbers, and which fields can be used by email and SMS channels in real-time marketing.
+- **Profile-based consent**: Customer consent that is stored on a profile level (for example, on a contact record). Consent is applied any time an email or SMS message is sent to the profile on any of the email addresses or phone numbers associated with it. Outbound marketing consent is profile-based.
+- **Contact point-based consent**: In this model, customers give consent for specific contact points, for example, a work email address or a private phone number.
+    - If there are other emails or phone numbers provided by the same customer, consent must be requested separately for each of them.  
+    - If multiple people share the same email address or phone number, then they also share consent. For example, if contact A opted out from email 1, contact B (sharing same email) will be opted out as well.
+
 
 ## Compliance setup
 
