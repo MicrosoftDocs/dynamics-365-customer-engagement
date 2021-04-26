@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Troubleshooting and frequently asked questions for real-time marketing in Dynamics 365 Marketing."
-ms.date: 04/06/2021
+ms.date: 04/27/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

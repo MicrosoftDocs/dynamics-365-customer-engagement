@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing link tracking mechanics (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing link tracking mechanics in Dynamics 365 Marketing."
-ms.date: 04/23/2021
+ms.date: 04/27/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
