@@ -1,21 +1,21 @@
 ## 3.12.44.127
 
-- When a booking alert is created in the context of the **SYSTEM** user, an error was thrown that the user does not have create privileges, this bug is now fixed. 
+- When a booking alert is created in the context of the **SYSTEM** user, an error was thrown that the user does not have create privileges. This bug is now fixed. 
 - Fixed a bug where a time tooltip is shown on the hourly view of the schedule board and does not close.
-- When schedule assistant is used on onsite requirements with fulfilment preferences of Intervals, the end time of the suggested timeslot on the List view is shown incorrect. This bug is now fixed. 
-- msdyn_searchresourceavailability API returned same GUIDs for all the suggested timeslots when fulfilment preferences are used. This bug is now fixed. 
-- In days, weeks, and months views of the Schedule Board, when new bookings are created or existing bookings are edited, a new visual spinner is shown to represent the progress of the operation. 
+- When schedule assistant is used on onsite requirements with fulfillment preferences of intervals, the end time of the suggested time slot on the list view is shown incorrect. This bug is now fixed. 
+- msdyn_searchresourceavailability API returned same GUIDs for all the suggested timeslots when fulfillment preferences are used. This bug is now fixed. 
+- In days, weeks, and months views of the schedule board, when new bookings are created or existing bookings are edited, a new visual spinner is shown to represent the progress of the operation. 
 - When custom fields of the booking record are displayed on the booking template of the new schedule board, only the schema name of the custom field are displayed instead of the display name of the custom field. This bug is now fixed. 
 - Creation of a booking via dragging and dropping of the unscheduled workorder on the new schedule board is now supported on the Firefox browser. 
 - The available resource names are truncated on the quick book panel, this bug is now fixed. 
-- When the requirement view used to display the unscheduled requirements on the Schedule board has no sorting defined, an error was thrown. This bug is now fixed. 
+- When the requirement view used to display the unscheduled requirements on the schedule board has no sorting defined, an error was thrown. This bug is now fixed. 
 - When creating multiday booking using **Evenly Distribute** booking method, user cannot overbook resources with single booking if per-time-period duration is greater than resource's availability during that time. This bug is now fixed. 
-- Priority, Territory and Status look up fields can now be filtered on the requirement panel of the new schedule board. 
-- When the requirement map pins are hidden from showing on the Map panel of the schedule board, the requirements were still retrieved in the backend. This bug is now fixed to remove the unnecessary call and improve the load time of the schedule board. 
-- Due to different timezones used, the resource availability did not respect the business closure of the Resource working hours. This bug is now fixed. 
-- Fixed a bug where If user updates appointment series by adding required attendees, new bookings were not created, when (legacy) appointment scheduling feature is enabled. 
+- Priority, territory and status lookup fields can now be filtered on the requirement panel of the new schedule board. 
+- When the requirement map pins are hidden from showing on the map panel of the schedule board, the requirements were still retrieved in the backend. This bug is now fixed to remove the unnecessary call and improve the load time of the schedule board. 
+- Due to different timezones used, the resource availability did not respect the business closure of the resource working hours. This bug is now fixed. 
+- Fixed a bug where if user updates appointment series by adding required attendees, new bookings were not created, when (legacy) appointment scheduling feature is enabled. 
 - When quick book is used on requirement groups with multiple requirements with the field **Select** = **Any** option, then multiple combinations of same set of resources were shown in the suggested resources. This bug is now fixed. 
-- When trying to filter the schedule board to specific resources, it does not filter anything out as Retrieve Resource Query field on the schedule board tab was pointing to an incorrect value. This bug is now fixed. 
+- When trying to filter the schedule board to specific resources, it does not filter anything out as **Retrieve Resource Query** field on the schedule board tab was pointing to an incorrect value. This bug is now fixed. 
 
 ## 3.12.43.68 - 2021 wave 1 general availability
 
