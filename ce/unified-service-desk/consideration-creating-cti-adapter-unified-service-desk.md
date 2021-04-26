@@ -134,7 +134,7 @@ We recommend that the following actions be defined and implemented in the **CTI 
  [CTIDESKTOPMANAGERCONTROL](/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.ctidesktopmanagercontrol)   
  [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)   
  [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md)   
- [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)
+ [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
