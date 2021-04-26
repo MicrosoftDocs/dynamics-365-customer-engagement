@@ -25,7 +25,9 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Push notifications are messages sent to customers who have installed your mobile app. You can send these messages as part of real-time journeys, similar to other outbound messages like SMS.
+Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
+
+You can send push messages as part of real-time journeys, similar to other outbound messages like SMS.
 
 ## Create a mobile app configuration
 
@@ -95,6 +97,18 @@ Using the *On-click behavior* field, you can also specify the message behavior w
 Try test sending the push notification to your mobile app configuration or add it to a journey to see how it can be used.
 
 To stop messages from being sent, you can deactivate or delete them.
+
+## Personalize your push notifications
+
+As with the email editor, you can personalize push notifications to insert dynamic data that is unique to each notification recipient.
+
+To personalize a push notification:
+- Select the **Personalization** button ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+- Choose a **Data source**. Your data source can be based on **Compliance**, **Events**, or a **Customer Insights** profile.
+- After choosing the data source, you can search for the specific attribute you are looking for.
+- Add a **Label** to quickly identify your token in the content.
+
+When you send the push notification from a journey, it will automatically populate the token according to the attribute you selected.
 
 ## Send push notification messages in a journey
 

@@ -64,7 +64,19 @@ After you create your phone number, you start authoring text messages by going t
 
 To test your message, try test sending it to any United States mobile number. You can also add it to a journey to see how it can be triggered by events.
 
-## Track your text messaging metrics from channel insights
+## Personalize test messages
+
+Personalizing text messages allows you to insert dynamic data that is unique to each message recipient. You may want to dynamically populate a name, an appointment time, a location, or any other unique data.
+
+To personalize a text message:
+- Select the **Personalization** button ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+- Choose a **Data source**. Your data source can be based on **Compliance**, **Events**, or a **Customer Insights** profile.
+- After choosing the data source, you can search for the specific attribute you are looking for.
+- Add a **Label** to quickly identify your token in the content.
+
+When you send the text message from a journey, it will automatically populate the token according to the attribute you selected.
+
+## Track your text message metrics from channel insights
 
 You can see how customers reacted to your text messages by checking the text message analytics in the message itself and within journeys.
 
