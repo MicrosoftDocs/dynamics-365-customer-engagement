@@ -16,7 +16,7 @@ search.app:
 ---
 # New and upcoming features in Field Service
 
-The team is excited to announce our newest updates! Ranging from the Unified Interface framework, data compliance, all the way to more powerful search queries for resource scheduling, and more. You asked, we listened.
+The team is excited to announce our newest updates across proactive service delivery and insights, scheduling, technician success, asset servicing, and end-customer engagement! You asked, we listened.
 
 Take a look at the [current Field Service release plans](/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/) to see our newest enhancements and additions.
 
