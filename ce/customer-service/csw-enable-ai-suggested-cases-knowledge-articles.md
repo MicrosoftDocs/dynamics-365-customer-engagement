@@ -75,6 +75,7 @@ AI suggestions for similar cases and knowledge articles are now supported in sev
 After an agent opens a case or accepts a conversation, smart assist checks the language from the following sources:
 
 - If the language selected in the language settings is supported or not.
+
 - If the language that the AI has detected matches the language of the case or conversation that the agent accepts. 
 
 If the languages from the above two sources are supported and matched, suggestions are displayed in the same language with the case or the conversation. If the language is not supported or not matched, then no suggestions are displayed. If no suggestions are displayed due to unsupported languages, the agent can update the settings to supported languages. The language settings used in AI suggestions as listed as follows:
