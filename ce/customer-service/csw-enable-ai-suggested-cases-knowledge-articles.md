@@ -91,7 +91,7 @@ Make sure that the following requirements are met:
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
-- If administration mode is enabled, make sure that background operations are also enabled. For more info about administration mode and how to enable background operations, see [Administration Mode](power-platform/admin/admin-mode#set-administration-mode.md). 
+- If administration mode is enabled, make sure that background operations are also enabled. For more info about administration mode and how to enable background operations, see [Administration Mode](power-platform/admin/admin-mode.md). 
 
 
 
