@@ -33,16 +33,27 @@ In addition to the standard email editor features, the real-time marketing email
 
 ## Features unique to the real-time marketing email editor
 
-### Powerful personalization
+### Powerful email personalization
 
-The real-time marketing email editor has a new assist edit control to bind personalized data.
+The real-time marketing email editor has a new assist edit control to bind personalized data. Use personalized data to dynamically populate information that is unique to each email recipient.
 
 To add personalized data to a real-time marketing email:
 
-- Create a placeholder by adding text, then selecting the **Personalization** button ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the toolbar.
+- Create a placeholder by adding a text field, then selecting the **Personalization** button ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the toolbar.
+- Choose a **Data source**. Your data source can be based on **Compliance**, **Events**, or a **Customer Insights** profile.
+- After choosing the data source, you can search for the specific attribute you are looking for.
+- Add a **Label** to quickly identify your token in the content.
+- Personalized tokens are highlighted in the content designer.
+
+    > [!div class="mx-imgBorder"]
+    > ![Email tokens screenshots](media/real-time-marketing-personal-token.png)
+
+- You can see and edit all your tokens in the **Dynamic data** tab.
 
 ### AI-driven image suggestions
 
-The new editor analyzes the text content of your email and, using AI, suggests the most relevant images from the new asset library.
+The new editor analyzes the text content of your email and, using AI, suggests the most relevant images from the new asset library. The images are tagged automatically, saving you time.
+
+The image asset library supports JPEG, GIF, and PNG images.
 
 Learn more about the [Asset library](real-time-marketing-asset-library.md)
