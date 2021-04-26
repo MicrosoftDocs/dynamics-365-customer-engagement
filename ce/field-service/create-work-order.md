@@ -30,6 +30,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 
 <a name="BKMK_workorderlifecycle"></a>   
+
 ## Work order lifecycle  
   
 - **Work order creation:** A work order is created, usually from a case or opportunity  
@@ -55,6 +56,26 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
  
 ## Create a work order  
+
+### From the get started page
+
+1. As a Field Service administrator or system administator in the **Field Service** app, go to the **Get Started** page.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the getting started page in Field Service.](./media/get-started.png)
+
+2. Select **Create** in the **Create your work orders** section.
+
+3. Fill in the basic information about the work order.
+
+4. In the form, add as many tasks, products, and services as needed.
+
+5. If you want to immediately schedule the work order, select **Save & Book**. Select **Save & Close** to only save the work order.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the new work order form triggered from the get started page in Field Service.](./media/get-started-wo.png)
+
+### From the work order form and record list
 
 Go to **Field Service** > **Service** > **Work Orders** > **+New**.
 
