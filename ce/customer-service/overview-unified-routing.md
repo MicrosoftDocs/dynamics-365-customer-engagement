@@ -65,3 +65,6 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
