@@ -20,7 +20,7 @@
 ### [Dynamics 365 US Government Community Cloud (GCC) availability](government-availability.md)
 
 ## Accessibility and privacy
-### [Accessibility](dynamics365/get-started/accessibility/customer-engagement/accessibility)
+### [Accessibility](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
 ### [Privacy and personal data](https://docs.microsoft.com/dynamics365/get-started/gdpr/)
 ### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
 
