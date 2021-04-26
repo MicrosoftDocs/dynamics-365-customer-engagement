@@ -236,7 +236,7 @@ A booking from the past might be moved if its booking status indicated that it s
     constraint.
 
 ## What happens if I remove the "Schedule within Working Hours" constraint?
-When you remove this constraint, resource scheduling optimization will still respect working hours, but not as strictly. It won't leave time at the end of the day to travel to the resource's ending location and bookings will end at or near the end of a resource's working day and may spill over into non-working hours. Bookings, however, won't disregard working hours and won't be scheduled 24-7.
+When you remove this constraint, resource scheduling optimization will still respect working hours and create bookings within the resource's working hours but _can_ schedule **travel** outside of working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings will end within a resource's working hours. 
 
 ## Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
 
