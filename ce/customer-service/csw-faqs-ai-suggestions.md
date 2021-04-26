@@ -28,19 +28,16 @@ It may be caused by one of the following reasons:
 - The first time pre-process operation handles up to 1,500 published knowledge articles and 10,000 resolved cases from the most recent ones. Older articles and resolved cases are not picked up from the first time pre-processing, so they won’t be surfaced as suggestions.
 - Suggestions are displayed for only active cases. Suggestions are updated when an active case is created or updated.
 - The case title or description is not clear enough to describe the problem, therefore, the model can't find articles or similar cases that match what's described.
-- The model cannot detect the language because there is not enough information in the case or conversation.
-- Cases and conversations contain mixed languages.
-- Only English content is supported. For knowledge articles, the locale must be English.
-- To see suggestions, User Interface Language must be set to English in users' personalization settings.
+
 
 
 ## I get an error message that the language selected is not supported. What should I do?
 
-There are seven languages that support case, conversation and knowledge article suggestions. You need to set your language settings to match the supported languages. For more information on the supported languages, see [Enable AI suggestions for cases, knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md).
+There are seven languages that support similar case and knowledge article suggestions. You need to set your language settings to match the supported languages. For more information on the supported languages and language settings, see [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#Language support for AI suggestions).
 
 ## I get an error message that detected language doesn't match the language settings.
 
-The AI model is used to detect the language of the case and conversation suggestions. If the language detected does not match the language in the settings or if the language is unsupported, suggestions are not displayed. 
+The AI model is used to detect the language of the cases and conversations. If the language detected does not match the language in the settings or if the language is unsupported, suggestions are not displayed. If the case or conversation doesn’t contain enough information or it contains mixed languages, the AI model may not be able to detect the language correctly. For more information on how language support works, see  [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#Language support for AI suggestions).
 
 ## I get an error message in Suggestions settings page, “We couldn’t pre-process the case records or knowledge articles”. What should I do?
 

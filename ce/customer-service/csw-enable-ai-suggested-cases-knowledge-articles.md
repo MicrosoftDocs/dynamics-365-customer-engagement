@@ -42,23 +42,6 @@ The key highlights of the feature are as follows:
 >   - Asia Pacific
 >   - Australia
 
-## Multilingual support for AI similar cases and knowledge articles
-
-AI similar cases and knowledge articles are now supported in seven different languages. Customers who have cases, conversations or knowledge articles in languages other than English can now benefit from the AI multi language availability. The supported languages are listed as follows.
-
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Spanish
-
-
-When an agent accepts an incoming case or conversation, the knowledge article suggestions first checks if the agent has set up a specific language, and if no language setting is found, the user's personal UI language settings is used to display similar cases and knowledge article suggestions. 
-
-After an agents accepts a case or conversation, AI smart assist checks if the language is supported and matched. If the language is supported, case suggestions are displayed in the same language, if the language is not supported, then no suggestions are displayed. If no suggestions are displayed, the agent can update the settings to supported languages.
-
 ## How AI suggestions for similar cases and knowledge articles works
 
 The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to agents, helping agents take actions during their interactions with customers. After the productivity pane is enabled in Customer Service workspace or the Omnichannel for Customer Service app, the smart assist cards with suggestions appear on the productivity pane.
@@ -77,6 +60,29 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 > - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
 > - After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
 
+## Language support for AI suggestions
+
+AI suggestions for similar cases and knowledge articles are now supported in seven languages. The supported languages are listed as follows. 
+
+- Dutch
+- English
+- French
+- German
+- Italian
+- Japanese
+- Spanish
+
+After an agent opens a case or accepts a conversation, smart assist checks the language from the following sources:
+
+- If the language selected in the language settings is supported or not.
+- If the language that the AI has detected matches the language of the case or conversation that the agent accepts. 
+
+If the languages from the above two sources are supported and matched, suggestions are displayed in the same language with the case or the conversation. If the language is not supported or not matched, then no suggestions are displayed. If no suggestions are displayed due to unsupported languages, the agent can update the settings to supported languages. The language settings used in AI suggestions as listed as follows:
+
+- For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
+
+- For knowledge article suggestions, smart assist first checks the languages selected in the **Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
+
 ## Prerequisites
 
 Make sure that the following requirements are met:
@@ -85,19 +91,19 @@ Make sure that the following requirements are met:
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
-- The feature works only when the administration mode is disabled. For how to update the administration mode, see 
-[Edit properties of an environment](https://go.microsoft.com/fwlink/p/?linkid=2151237)
+- If administration mode is enabled, make sure that background operations are also enabled. For more info about administration mode and how to enable background operations, see [Administration Mode](power-platform/admin/admin-mode#set-administration-mode). 
+
 
 
 ## Enable AI suggestions for similar cases
 
 Perform the following steps to enable the AI suggestions for similar cases:
 
-1. Sign in to Omnichannel Admin Centre application
+1. Sign in to  Customer Service Hub.
 
 or
 
-Sign in to Customer Service Hub.
+Sign in to Omnichannel Admin Centre application.
 
 2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. In the **Premium AI capabilities** section, select** **Manage** under **Suggestions**. The **Suggestions** page appears.
@@ -115,11 +121,11 @@ Sign in to Customer Service Hub.
 
 Perform the following steps to enable the AI suggestions for related knowledge articles:
 
-1. Sign in to Omnichannel Admin Centre application
+1. Sign in to Customer Service Hub. 
 
  or
 
- Sign in to Customer Service Hub.
+ Sign in to Omnichannel Admin Centre application .
 
 2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
