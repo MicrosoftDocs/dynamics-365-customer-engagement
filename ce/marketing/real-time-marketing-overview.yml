@@ -32,6 +32,8 @@ landingContent:
         links:
           - text: Install the real-time marketing preview
             url: real-time-marketing-install.md
+          - text: Use Customer Insights profiles and segments in real-time marketing
+            url: real-time-marketing-ci-profile.md
           - text: Known issues in real-time marketing
             url: real-time-marketing-known-issues.md
 

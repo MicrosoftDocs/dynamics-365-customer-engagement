@@ -123,6 +123,7 @@
 #### [Real-time marketing overview](real-time-marketing-overview.yml)
 #### Get started with real-time marketing
 ##### [Install the real-time marketing preview](real-time-marketing-install.md)
+##### [Use Customer Insights profiles and segments in real-time marketing](real-time-marketing-ci-profile.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)
 #### Channels
 ##### [Create real-time marketing emails](real-time-marketing-email.md)
