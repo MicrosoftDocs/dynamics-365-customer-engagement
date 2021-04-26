@@ -1,9 +1,9 @@
 ---
 title: "Create a CTI Control | MicrosoftDocs"
 description: "The topic explains on how to create a CTI control."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: "mh-jaya"
+ms.author: "v-jmh"
+manager: "shujoshi"
 ms.date: 12/31/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -83,12 +83,12 @@ string UserDefinedCommand(string command, string request);
    |     Display Group     |                                                                                                                                                                                               CtiPanel                                                                                                                                                                                                |
    |        Adapter        |                                                                                                                                                                                            Use No Adapter                                                                                                                                                                                             |
    
-5. Select the **Hosting** tab, and specify the following:
+5. Select the **Hosting** tab, and specify the following values:
 
    |         Field         |                                                                                                                                                                                                 Value                                                                                                                                                                                                 |
    |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |     Assembly URI      |                                                                                                                                                          This is the name of your assembly (.dll) file that you built in the previous step.                                                                                                                                                           |
-   |     Assembly Type     | This is the name of your assembly followed by a dot, and then the class name of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Control. For example, if your assembly (dll) name is `MyCtiControl`, and the name of the class of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] project is `CtiControl`, type the following in this field: `MyCtiControl.CtiControl`. |
+   |     Assembly URI      |                                                                                                                                                          Name of your assembly (.dll) file that you built in the previous step.                                                                                                                                                           |
+   |     Assembly Type     | Name of your assembly followed by a dot, and then the class name of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Control. For example, if your assembly (dll) name is `MyCtiControl`, and the name of the class of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] project is `CtiControl`, type the following value in this field: `MyCtiControl.CtiControl`. |
 
 
 6. Select **Save** to create the hosted control.  

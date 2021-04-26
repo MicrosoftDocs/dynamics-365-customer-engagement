@@ -17,13 +17,12 @@ ms.service: dynamics-365-customerservice
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-As a supervisor, you can monitor, assign or transfer conversations that are being handled by agents. 
-Monitoring conversations helps you identify the conversations to see how they are trending and if they need your immediate attention. You can also view customer sentiments and agent responses. 
-You can also join a conversation in the consult mode, you can provide your expertise and share your experience with the agent who is interacting with the customer. When you join a conversation, notifications about your presence are sent to the agent and customer who are part of the conversation. 
+As a supervisor, you can monitor, assign or transfer conversations that are being handled by agents.
+Monitoring conversations helps you identify the conversations to see how they are trending and if they need your immediate attention. You can also view customer sentiments and agent responses.
+You can also join a conversation in the consult mode, you can provide your expertise and share your experience with the agent who is interacting with the customer. When you join a conversation, notifications about your presence are sent to the agent and customer who are part of the conversation.
 
 [!NOTE]
 > To be able to monitor or assign conversations, your administrator should enable the **Supervisor Monitor** and **Supervisor Assign** settings in **Omnichannel Administration.**
-
 
 Use the **Omnichannel Ongoing Conversations** dashboard to access the monitor and assign features. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
@@ -111,7 +110,5 @@ At times, you may need to transfer an ongoing conversation from an agent to anot
 
 [Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
 [Enable sentiment analysis](enable-sentiment-analysis.md)  
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
