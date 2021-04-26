@@ -29,7 +29,7 @@ You can grant or remove the [!INCLUDE[pn_Deployment_Administrator](../includes/p
 1. In the **Select User** dialog box, in the **Enter object name to select** box, type the name of a user, who must exist in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], and then select **Check Names**.  
   
 1. After the user name is accepted, select **OK**.
-1. [Add the deployment administrator to the PrivUserGroup_OUname Active Directory security group](#add-the-deployment-administrator-to-the-privusergroup_ouname-active-directory-security-group)
+1. [Add the deployment administrator to the PrivUserGroup_OUname Active Directory security group](#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group)
 
 #### Add the deployment administrator to the PrivUserGroup Active Directory security group
 

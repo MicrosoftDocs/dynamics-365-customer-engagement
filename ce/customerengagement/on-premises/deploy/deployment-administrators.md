@@ -35,7 +35,7 @@ After a user is added as a deployment administrator, the member of the Deploymen
 
 Failed to install CustomControlsCoreException: Microsoft.Crm.CrmException: The user Id(s) [00000000-0000-0000-0000-000000000000] is invalid.
 
-When this error occurs the administrative task doesn't complete. This issue occurs because the user isn't a member of the PrivUserGroup security group. To resolve this issue, [Add the deployment administrator to the PrivUserGroup Active Directory security group](add-a-new-deployment-administrator.md#add-the-deployment-administrator-to-the-privusergroup_ouname-active-directory-security-group).
+When this error occurs the administrative task doesn't complete. This issue occurs because the user isn't a member of the PrivUserGroup security group. To resolve this issue, [Add the deployment administrator to the PrivUserGroup Active Directory security group](add-a-new-deployment-administrator.md#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group).
 
 ## See also  
  [Add a new Deployment Administrator](add-a-new-deployment-administrator.md)   
