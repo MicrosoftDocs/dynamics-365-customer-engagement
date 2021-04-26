@@ -20,7 +20,7 @@
 ### [Dynamics 365 US Government Community Cloud (GCC) availability](government-availability.md)
 
 ## Accessibility and privacy
-### [Accessibility](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+### [Accessibility](dynamics365/get-started/accessibility/customer-engagement/accessibility)
 ### [Privacy and personal data](https://docs.microsoft.com/dynamics365/get-started/gdpr/)
 ### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
 
@@ -36,7 +36,7 @@
 ### [Try channels in Omnichannel for Customer Service](try-channels.md)
 
 ## Get started
-### [Get started with Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/)
+### [Get started with Customer Service](/learn/modules/get-started-with-dynamics-365-for-customer-service/)
 ### [Configure Customer Service](configure-cs.md)
 ### [Omnichannel admin center](oc-admin-center.md)
 ### [Customer Service Hub](customer-service-hub-user-guide-basics.md)
