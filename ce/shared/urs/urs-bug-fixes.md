@@ -6,7 +6,7 @@
 - msdyn_searchresourceavailability API returned same GUIDs for all the suggested timeslots when fulfillment preferences are used. This bug is now fixed. 
 - In days, weeks, and months views of the schedule board, when new bookings are created or existing bookings are edited, a new visual spinner is shown to represent the progress of the operation. 
 - When custom fields of the booking record are displayed on the booking template of the new schedule board, only the schema name of the custom field are displayed instead of the display name of the custom field. This bug is now fixed. 
-- Creation of a booking via dragging and dropping of the unscheduled workorder on the new schedule board is now supported on the Firefox browser. 
+- Creation of a booking via dragging and dropping of the unscheduled work order on the new schedule board is now supported on the Firefox browser. 
 - The available resource names are truncated on the quick book panel, this bug is now fixed. 
 - When the requirement view used to display the unscheduled requirements on the schedule board has no sorting defined, an error was thrown. This bug is now fixed. 
 - When creating multiday booking using **Evenly Distribute** booking method, user cannot overbook resources with single booking if per-time-period duration is greater than resource's availability during that time. This bug is now fixed. 
