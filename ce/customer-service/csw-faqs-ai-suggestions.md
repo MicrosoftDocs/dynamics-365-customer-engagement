@@ -33,7 +33,7 @@ It may be caused by one of the following reasons:
 
 ## I get an error message that the selected language is not supported.
 
-There are seven languages that support similar case and knowledge article suggestions. You need to make sure that your language setting matches one of the languages supported by AI suggestions. For more information on the supported languages and language settings, see [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#Language-support-for-ai-suggestions).
+You need to make sure that your language setting matches one of the languages supported by AI suggestions. For more information on the supported languages and language settings, see [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#Language-support-for-ai-suggestions).
 
 ## I get an error message that detected language doesn't match the language settings.
 

@@ -78,7 +78,7 @@ After an agent opens a case or accepts a conversation, smart assist checks the l
 
 - If the language that the AI has detected in the case or conversation that the agent accepts matches the language settings. 
 
-If the language verification passes, the suggestions are displayed in the language used in the case or the conversation. Suggestions aren't displayed if the language doesn't match or is not supported. In such cases, the agent should update the settings to use supported languages. The language settings used in AI suggestions are listed as follows:
+If the language verification passes, the suggestions are displayed in the language used in the case or the conversation. Suggestions aren't displayed if the language doesn't match or isn't supported. In such cases, the agent should update the settings to use supported languages. The language settings used in AI suggestions are listed as follows:
 
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
