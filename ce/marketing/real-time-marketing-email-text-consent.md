@@ -30,6 +30,27 @@ The real-time marketing Consent center allows you to track consent information g
 > [!NOTE]
 > Real-time marketing consent is contact-point based. Customer consent is stored per email address or phone number, as opposed to being stored per Contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
+Whether consent is checked before sending emails and text messages depends on the consent model that you select on **Compliance** page. [Learn more about compliance settings](real-time-marketing-compliance-settings)
+
+## How consent is respected for emails
+
+When creating a new email message, one of the parameters you need to set up is **Message designation**. To set up message designation, select the three dots in the email header to the left of the **Ready to send** button, then select **Settings**. This will open a slide out pane on the right titled **Email settings**. 
+
+The message designation is a drop down field in which you can choose **Commercial** or **Transactional**. By default, new email messages are designated as commercial.
+
+> [!div class="mx-imgBorder"]
+> ![Message designation settings screenshot](media/real-time-marketing-message-designation.png)
+
+As required for commercial email, a **Company Address** placeholder and an **Unsubscribe** link are added to the email footer automatically. The company address reflects the value set on **Compliance** page. The unsubscribe link leads to the Preference page, where customers can review and change communication preferences.
+
+The presence of a company address and unsubscribe link is checked when you select **Ready to send**. The app will notify you if one of these parameters is missing.
+
+If you want to send commercial email, the app will check whether the email addresses of the target audience have granted consent when a customer journey is started. Messages will only be sent to customers whose email addresses were opted-in.  
+ 
+## How consent is respected for text messages
+ 
+ In the real time marketing Public Preview, only transactional text messages can be sent. Sending transactional text messages requires a mobile number has opted in before it can receive the message.
+
 ## Adding consent data
 
 When you initially install real-time marketing, the real-time marketing consent center (**Real-time marketing** > **Audience** > **Consent center**) will contain no records, even if you already gathered consent in outbound marketing. You can add consent information using one of three methods:
