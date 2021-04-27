@@ -55,7 +55,7 @@ Marketing can automatically discover CI data and make it available for real-time
   - If the setup is correct, Marketing will be able to discover CI and you should see the success indicator.
 
 > [!div class="mx-imgBorder"]
-> ![CI setup success screenshot](media/real-time-marketing-ci-profile-success.png)
+> ![CI setup success screenshot](media/real-time-marketing-ci-profile-success2.png)
 
 ## Set up default properties for unified customer profiles
 
