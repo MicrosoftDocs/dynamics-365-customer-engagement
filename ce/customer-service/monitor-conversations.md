@@ -17,12 +17,12 @@ ms.service: dynamics-365-customerservice
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-As a supervisor, you can monitor, assign or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+As a supervisor, you can monitor, assign or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard. For more information, go to [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 Monitoring conversations lets you understand how they are trending and to check if any conversation needs your immediate attention. You can also view customer sentiments and agent responses.
 
 > [!NOTE]
-> To be able to monitor, assign or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign** or **Supervisor Transfer**&mdash;in **Omnichannel Administration.**
+> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign** or **Supervisor Transfer**&mdash;in **Omnichannel Administration**.
 
 
 ## Monitor and join conversations
@@ -81,6 +81,7 @@ You can transfer an ongoing conversation that's in the **Active** or **Waiting**
 
 > [!NOTE]
 > When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent. 
+> When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboardIn some cases, the conversation can also time out. So, you can experience a lag when you transfer conversations among your agents.
 
 ### See also
 
