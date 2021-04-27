@@ -33,6 +33,8 @@ The **Omnichannel intraday insights** tab provides information on conversations 
 
 The **Conversations insights** section provides insights about conversation requests that have been generated in the past 24 hours, with KPIs such as the number and state of the conversations. The following image shows an example of the **Conversations insights** section of the Omnichannel intraday insights report.
 
+> [!div class="mx-imgBorder"]
+> ![Conversation Insights](media/conversation-insights.png "Conversation Insights")
 
 This section of the dashboard displays the following KPIs about conversations.
 
@@ -55,7 +57,10 @@ This section of the dashboard displays the following KPIs about conversations.
 
 The **Agent insights** section provides information about the latest KPIs, the health of the queues, and the status of agents on a given day. The agent insights section consolidates conversations in both live chat and digital messaging platforms. An example of the **Agent insights** section is shown in the following image.
 
-An example of the **Agent insights** section is shown in the following image.
+> [!div class="mx-imgBorder"]
+> ![Agent Insights](media/agent-insights.png "Agent Insights")
+
+
 
 This section consists of the following performance indicators.
 
@@ -70,12 +75,15 @@ This section consists of the following performance indicators.
 | Agent availability | The distribution of agents presence |
 | Agents with longest handle time | The number of agents with the longest time to accept a conversation and resolve it |
 | Total sessions transferred | The number of conversations that are trasferred to agents and supervisors. |
-| Average consult time | 
+| Average consult time | The average time that an agent takes to consult with another agent or supervisor. |
 
 
 ## Agents Insights dashboard
 
 Th agent insights dashboard consists of the following performance indicators.
+
+> [!div class="mx-imgBorder"]
+> ![Agents insights dashboard](media/agents-insights-dashboard.png "Agents insights dashboard")
 
 | Conversation status | Description |
 |-------|-------|
@@ -90,16 +98,11 @@ Th agent insights dashboard consists of the following performance indicators.
 | Participation mode | The average distribution of different participation modes |
 | Transfer rate by agent | Rate of transfer of conversations done by an agent |
 | Transfer rate by queue | Rate of conversations transferred from one queue to the other |
-| Consult acceptance rate | 
+| Consult acceptance rate | Rate of consult sessions accepted | 
 
 You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations.
-
-The following image shows the options for viewing agent information in specific queues.
-
-> [!div class="mx-imgBorder"]
-> ![View agent information](media/view-agent-info-queues.png "View agent information")
 
 The **Agent insights** table displays the following information.
 
@@ -160,6 +163,9 @@ This section displays the following details.
 
 This section of the dashboard displays the following KPIs about conversations.
 
+> [!div class="mx-imgBorder"]
+> ![Conversation insights dashboard](media/conversation-insights-dashboard.png "Agents insights dashboard")
+
 | Metric | Description |
 |-------|-------|
 | Inbound | The number of conversations that happened in the last 24 hours. |
@@ -181,6 +187,9 @@ You can also view a report on the average conversation handle time, average wait
 
 The **Ongoing conversations** section provides information about the status of the conversation and its wait time, and is also where you can assign the conversation to agents based on their status and capacity. You can reassign the conversation to a different queue by using the ongoing conversations report. This report also displays information about the channel through which the conversation came in, along with the time and date that the conversation was picked up.
 
+> [!div class="mx-imgBorder"]
+> ![Ongoing conversations](media/ongoing-conversations.png "Ongoing conversations")
+
 The **Ongoing conversations** table displays the following metrics.
 
 | Title | The title of the case |
@@ -197,6 +206,8 @@ The **Ongoing conversations** table displays the following metrics.
 | Created on | The date on which the conversation was created on |
 | Conversation ID | The conversation's ID |
 
+The **Closed conversations** table provides information related to all the conversations that have been closed.
+
 ### Assign a conversation
 
 You can assign a conversation to another agent or route it to another queue through the ongoing conversations report. Select the **Assign** option in the **Action** column in the report. Select an available agent, and then select **Assign**.If no agent is available, you can move the conversation to another queue and check whether an agent is available. After an agent is assigned, the action is changed to **Monitor**.
@@ -209,7 +220,7 @@ You can assign a conversation to another agent or route it to another queue thro
 
 You can filter information by selecting the queues that have been defined for your organization. From the **Omnichannel queues** drop-down list, select the queues you want, and the information will be filtered according to your selection. This helps you quickly analyze the KPIs and take any necessary steps to improve outcomes.
 
-> [!div class=mx-imgBorder]
+> [!div class="mx-imgBorder"]
 > ![Queue selection](media/supervisor-queue-selector.png "Queue selection")
 
 ## Average handle time
