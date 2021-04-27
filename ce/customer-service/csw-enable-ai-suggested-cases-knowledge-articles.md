@@ -62,7 +62,7 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 
 ## Language support for AI suggestions
 
-AI suggestions for similar cases and knowledge articles are now supported in seven languages. The supported languages are listed as follows. 
+AI suggestions for similar cases and knowledge articles are now supported in the following languages:
 
 - Dutch
 - English
@@ -76,13 +76,13 @@ After an agent opens a case or accepts a conversation, smart assist checks the l
 
 - If the language selected in the language settings is supported or not.
 
-- If the language that the AI has detected matches the language of the case or conversation that the agent accepts. 
+- If the language that the AI has detected in the case or conversation that the agent accepts matches the language settings. 
 
-If the languages from the above two sources are supported and matched, suggestions are displayed in the same language with the case or the conversation. If the language is not supported or not matched, then no suggestions are displayed. If no suggestions are displayed due to unsupported languages, the agent can update the settings to supported languages. The language settings used in AI suggestions as listed as follows:
+If the language verification passes, the suggestions are displayed in the language used in the case or the conversation. Suggestions aren't displayed if the language doesn't match or is not supported. In such cases, the agent should update the settings to use supported languages. The language settings used in AI suggestions are listed as follows:
 
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
-- For knowledge article suggestions, smart assist first checks the languages selected in the **Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
+- For knowledge article suggestions, smart assist first checks for the language that is set in the **Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#personalize-your-language-preferences-for-authoring-knowledge-articles).
 
 ## Prerequisites
 
@@ -100,21 +100,20 @@ Make sure that the following requirements are met:
 
 Perform the following steps to enable the AI suggestions for similar cases:
 
-1. Sign in to  Customer Service Hub.
+1. Sign in to  Customer Service Hub. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 
 or
 
-Sign in to Omnichannel Admin Centre application.
+Sign in to Omnichannel Admin Centre application. Select **Insights** and then select **Settings**.
 
-2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
-3. In the **Premium AI capabilities** section, select** **Manage** under **Suggestions**. The **Suggestions** page appears.
-4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
-5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
+2. Select** **Manage** and then **Suggestions**. The **Suggestions** page appears.
+3. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
+4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
 
-6. Select **Save**.
+5. Select **Save**.
 
    > ![Enable AI-suggested similar cases](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
@@ -122,18 +121,17 @@ Sign in to Omnichannel Admin Centre application.
 
 Perform the following steps to enable the AI suggestions for related knowledge articles:
 
-1. Sign in to Customer Service Hub. 
+1. Sign in to Customer Service Hub.  In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 
  or
 
- Sign in to Omnichannel Admin Centre application .
+ Sign in to Omnichannel Admin Centre application. Select **Insights** and then select **Settings**.
 
-2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
-3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
-4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
-5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
+2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
+3. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
+4. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
 
-6. Select **Save**.
+5. Select **Save**.
 
 ## Model pre-processing status
 
