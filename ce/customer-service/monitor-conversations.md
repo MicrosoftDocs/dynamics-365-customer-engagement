@@ -27,7 +27,7 @@ When you monitor conversations, you can understand how they are trending and als
 
 ## Monitor and join conversations
 
-As a supervisor, you can monitor or assign workstreams that are configured for all channels except entity records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.  
+As a supervisor, you can monitor or assign workstreams that are configured for all channels except records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.  
 
 > [!NOTE]
 >  You can't monitor conversations that are assigned to you.
