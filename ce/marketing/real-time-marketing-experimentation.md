@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Real-time marketing in Dynamics 365 Marketing uses powerful AI-driven A/B tests to examine your event-based customer journeys, allowing you to gain insights into how best to reach your customers.
+Real-time marketing in Dynamics 365 Marketing uses powerful A/B tests to examine your event-based customer journeys, allowing you to gain insights into how best to reach your customers.
 
 Using A/B tests, you can measure which channel or content messaging strategy leads to higher success. Each test compares a control group of users (version A) against a variant (version B). The control group receives a default experience. The variant group receives a different experience or message. By comparing the results of the groups, you can determine which is the most effective.
 
@@ -56,7 +56,7 @@ After you have published your journey, you can open it to track the lifecycle of
 
 - **Draft**: These tests have not ran yet, so you can still edit the settings.
 - **In progress**: These tests are currently being run. The settings are locked and you can’t make significant changes.  
-- **Stopped**: Theses tests are on pause and can be resumed by the marketer.
+- **Stopped**: Theses tests are on stopped and the marketer can choose which version to send.
 - **Ended**: These are tests were completed by finding a statistically significant winner or by timing out when scheduled to end at a set date and time. Ended tests cannot be reused.
 
 ## Understand your results
