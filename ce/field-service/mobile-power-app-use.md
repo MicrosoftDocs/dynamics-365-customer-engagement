@@ -29,9 +29,6 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 - Offline capabilities so technicians can continue viewing and recording work in areas without internet.
 
 
-> [!div class="mx-imgBorder"]
-> ![Simulated image of the Field Service (Dynamics 365) mobile app on a phone and a tablet.](./media/mobile-2020-tablet-website.png)
-
 ## Prerequisites
 
 Before using the mobile app, a system administrator must [install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md) along with users and security roles.
@@ -50,9 +47,6 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 
 Launch the app and sign in with your username and password.  
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of sign in](./media/quickstart-mobile-signin.png)
-
 Administrators should go to the articles on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
 
 Upon sign-in, the app will download important Field Service information as defined by administrators. 
@@ -65,7 +59,7 @@ Upon sign-in, the app will download important Field Service information as defin
 To get to the sitemap, select the menu icon from the calendar view. From here, you can find other important information like accounts, contacts, customer assets, or to submit time entries.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing two mobile devices with screenshots of Field Service (Dynamics 365). The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
+> ![Two mobile devices showing the Field Service (Dynamics 365) mobile app. The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
 
 ## View scheduled work orders
 
@@ -73,7 +67,7 @@ The first screen you'll see is a calendar view of your scheduled work orders.
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing two mobile devices with Field Service (Dynamics 365). The screen on the left has a list of My Open Resource Bookings by date. The screen on the right has a list of My Open Resource Bookings in a flat list.](./media/mobile-2020-booking-view.jpg)
+> ![Two mobile devices showing the Field Service (Dynamics 365) mobile app. The screen on the left has a list of My Open Resource Bookings by date. The screen on the right has a list of My Open Resource Bookings in a flat list.](./media/mobile-2020-booking-view.jpg)
 
 Select **More** > **Show as** > **Read-only Grid** to see the bookings as a list as shown on the right side of the screenshot.
 
@@ -83,7 +77,7 @@ Select **More** > **Show as** > **Read-only Grid** to see the bookings as a list
 Select a booking to see more details about the booking time and the work order. For example, you can update the status to **Traveling** to indicate you are driving to the customer location; on the **Customer tab**, you can see the work order location on a map and trigger turn-by-turn driving directions from a GPS app on your phone such as Bing Maps, Apple Maps, Waze, or Google Maps.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing two mobile devices side by side, both with screenshots of Field Service (Dynamics 365). Screenshot on the left shows a bookable resource booking on the general tab. Screenshot on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
+> ![Two mobile devices side by side, both showing the Field Service (Dynamics 365) mobile app. Device on the left shows a bookable resource booking on the general tab. Device on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
 
 The functional location field above the address tells the technician exactly where to go within an address. 
 
@@ -96,24 +90,24 @@ On the **Service tab**, you'll see work order details like work order service ta
 
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
+> ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
 
 ## Take notes with attached pictures, videos and files
 
 On the **Notes** tab, you can easily capture multiple text, photo, audio, and video notes and associate them with the booking. You can also attach files. These notes help you record and build relevant work history. Customer signatures can also be captured. The **Timeline** tab is available for other historical data connected to the booking.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the notes tab with options to attach notes. Middle screenshot shows camera view. Right screenshot shows the notes tab with photo notes added.](./media/mobile-uci-quick-notes.png)
+> ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the notes tab with options to attach notes. Middle screenshot shows camera view. Right screenshot shows the notes tab with photo notes added.](./media/mobile-uci-quick-notes.png)
 
 ## Service assets
 
 > [!div class="mx-imgBorder"]
-> ![Device renders with the Field Service mobile app, showing active customer assets in a list.](./media/mobile-2020-customer-asset-navigate.png)
+> ![Device with the Field Service mobile app, showing active customer assets in a list.](./media/mobile-2020-customer-asset-navigate.png)
 
 Technicians can also view and interact with functional location and customer asset hierarchies on the mobile app.
 
 > [!div class="mx-imgBorder"]
-> ![Device renders with the Field Service mobile app, showing asset hierarchies and functional locations.](./media/mobile-2020-functional-location-hierarchy-combined.png)
+> ![Device with the Field Service mobile app, showing asset hierarchies and functional locations.](./media/mobile-2020-functional-location-hierarchy-combined.png)
 
 > [!Note]
 > Internet connectivity is required to view and interact with functional location and customer asset hierarchy trees on the Field Service mobile app.
@@ -127,7 +121,7 @@ For a guided walkthrough of functional locations on the Field Service mobile app
 Select the global search icon to search for records across accounts, contacts, work orders, customer assets, or any other entity. Technicians can also search by scanning a barcode with their phone's camera. The barcode scan will find records that have a matching barcode field.
 
 > [!div class="mx-imgBorder"]
-> ![Simulated image showing four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
+> ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
 For more information, see the article on [configuring global search](./mobile-power-app-configure.md#customize-global-search-and-enable-scan-to-search).
 
@@ -140,10 +134,9 @@ Consider a scenario where a technician needs to work in the basement of an indus
 Upon sign-in, the app will download important Field Service information as defined by system administrators. 
 
 > [!div class="mx-imgBorder"]
-> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)
+> ![Devices with the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)
 
 When the **Status** is set to **Available**, you'll have all the data you need to work offline.
-
 
 
 > [!Note]
@@ -152,7 +145,7 @@ When the **Status** is set to **Available**, you'll have all the data you need t
 Technicians can also **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the **Update offline data** option. 
 
 > [!div class="mx-imgBorder"]
-> ![Device renders showing the Field Service (Dynamics 365) mobile app, showing how to get to the update offline data option.](./media/mobile-2020-offline-update-offline-data2.png)
+> ![Devices with the Field Service (Dynamics 365) mobile app, showing how to get to the update offline data option.](./media/mobile-2020-offline-update-offline-data2.png)
 
 Technicians may also want to sync specific views when they have internet connectivity. For instance: 
 
@@ -163,7 +156,7 @@ To sync specific views, select **Refresh** from the app's bottom menu. For examp
 
 
 > [!div class="mx-imgBorder"]
-> ![Device render showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
+> ![Devices showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
 
 System administrators can find more information in the topic on [configuring offline sync filters](mobile-power-app-system-offline.md).
 
@@ -182,7 +175,7 @@ Technicians can view and create time entries in the mobile app.
 From the main menu, go to **Time Entry**, then create a new one. In the **Type** field select whether the time entry relates to work, vacation, absence, break, and so on.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of time entry on the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-time-entry-all.png)
+> ![Time entry on the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-time-entry-all.png)
 
 For a guided walkthrough, check out the following video.
 

@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for unified rout
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -21,7 +21,11 @@ Customers will get unified routing for entities, such as Cases, Leads, and custo
 
 ### What will happen to my current workstreams after unified routing is installed?
 
-For messaging channels, a migration utility will be available to upgrade the workstream and associated routing rules. For entity routing, you'll configure new workstream and rules in unified routing.
+For messaging channels, a migration utility will be available to upgrade the workstream and associated routing rules. For entity routing, you'll configure new workstreams and rules in unified routing.
+
+### Why do I see workstreams that I didn't create in Omnichannel Administration?
+
+These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you've used to create them.
 
 ### Will unified routing support activity routing?​
 
