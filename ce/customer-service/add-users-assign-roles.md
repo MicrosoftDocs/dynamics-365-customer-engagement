@@ -48,10 +48,11 @@ Perform the following steps to assign roles to users in the **Advanced Settings*
 
 5. In the **Manage User Roles** dialog box, select the security roles that you want to assign to the user, and then select **OK**.
 
-To view and manage users in Omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
+To view and manage users in omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
 ## Understand roles and their privileges
 
+Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges that are listed as follows.
 
 | Privileges | Omnichannel administrator | Omnichannel supervisor| Omnichannel agent|Productivity tools user| Productivity tools administrator|
 |---------|---------|-----------|---------|---------|---------|
@@ -91,7 +92,6 @@ To view and manage users in Omnichannel for Customer Service, see [Manage users 
 | Can read `msdyn_macrosolutionconfiguration` ||||| Yes |
 | Can create/read/write/append/delete macro action ||||| Yes |
 |||||||
-
 
 ### See also
 
