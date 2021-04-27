@@ -17,6 +17,10 @@ All users who are assigned the **Omnichannel administrator**, **Omnichannel supe
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 
+## Prerequisite
+
+To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Field Service, Project Service, or Service Scheduling.
+
 ## Manage a user in Omnichannel for Customer Service
 
 1. In the site map of Omnichannel admin center, select **Users** under **General settings**. If you're using the Omnichannel Administration app, select **Users** under **Queues & Users**.
