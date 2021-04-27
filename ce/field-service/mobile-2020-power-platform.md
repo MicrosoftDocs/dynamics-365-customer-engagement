@@ -19,7 +19,7 @@ search.app:
 ---
 
 # Implement the Field Service (Dynamics 365) mobile app for your technicians
-<!--note from editor: Just to explain some edits: Writing Style Guide doesn't like to use "as well as" to mean "and," and it likes "vs." in headings even though we spell out "versus" in body text.-->
+
 Field service technicians often need to see and update their work orders while onsite at a job.
 
 There are currently two mobile apps available for technicians who use Dynamics 365 Field Service:
@@ -35,13 +35,13 @@ Both the Field Service (Dynamics 365) mobile app _and_ Field Service Mobile (Xam
 
 ## Implementation and migration
 
-We recommend using the Field Service (Dynamics 365) mobile app to benefit from the new features and continuous investments in the platform, and to avoid future migration, which must occur by June 2022. To learn about existing and upcoming capabilities for the two apps, refer to the feature comparison table later in this article.<!--note from editor: Suggested.-->
+We recommend using the Field Service (Dynamics 365) mobile app to benefit from the new features and continuous investments in the platform, and to avoid future migration, which must occur by June 2022. To learn about existing and upcoming capabilities for the two apps, refer to the feature comparison table later in this article.
 
 While the new Field Service (Dynamics 365) mobile app continues to evolve, we'll continue to make available and support the current Field Service Mobile (Xamarin) app. By June 2021, new deployments must use the Field Service (Dynamics 365) mobile app; support for the current Field Service Mobile (Xamarin) app will end June 2022.
 
 ## Feature comparison: Field Service (Dynamics 365) mobile app vs. Field Service Mobile (Xamarin)
 
-Use the following feature comparison table to understand which mobile app is right for your business.<!--note from editor: To go by the style guide, we don't want to have blank cells (I thought "Not applicable" was better than "None"), and the entries in a column should be parallel. Please double-check my attempt to make the Details column entries into full sentences.-->
+Use the following feature comparison table to understand which mobile app is right for your business.
 
 
 | Feature | Category | Field Service (Dynamics 365) mobile app | Field Service Mobile (Xamarin) | Details |
@@ -65,7 +65,7 @@ Use the following feature comparison table to understand which mobile app is rig
 | Scan to find asset (Global search) | Technician | Yes | Yes | Not applicable |
 | [Location sharing and auditing](./geofencing.md#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | Yes | Yes | You can enable real-time sharing of the technician's location with the back office. |
 | Enhanced offline sync filters | Admin | Yes | Yes | These are offline by default, and the data available offline can be customized (for example, by location or by accounts for scheduled bookings). |
-| Offline by default | Technician | Yes | Yes | The app is offline by default, so the technician is always ready.<!--note from editor: Is this what "tech" means here?--> |
+| Offline by default | Technician | Yes | Yes | The app is offline by default, so the technician is always ready. |
 | Allow technician to force data sync | Technician | Yes | Yes | The technician can manually force data sync. |
 | Bulk-add users  | Admin | Yes| Yes | You can quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes | Yes | Use a checklist to quickly mark a task as complete. |
