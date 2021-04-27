@@ -28,6 +28,9 @@ For example, let's say you have an e-commerce website. You capture information a
 
 To target visitors with abandoned carts, you first need to define a [custom event trigger](real-time-marketing-custom-events.md) for any shopper that abandons a cart. You will need to set the **Data type** field for the event trigger's **Customer Data** property to **Profile (Customer Insights)**. You will then need to set up an [event-based journey](real-time-marketing-event-based-journey.md) using the abandoned cart trigger.
 
+> [!div class="mx-imgBorder"]
+> ![Cart custom event screenshot](media/real-time-marketing-ci-profile-cart-event.png)
+
 Alternately, you can create a scheduled journey targeting the customers in an abandoned cart segment. When creating your journey, you will be able to see segments from both Marketing and Customer Insights in the **Audience** dropdown.
 
 ## Set up your CI environment for real-time marketing
