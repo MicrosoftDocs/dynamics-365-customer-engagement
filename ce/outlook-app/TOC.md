@@ -29,9 +29,9 @@
 ## [Track S/MIME signed emails](user/s-mime-email.md)
 ## [Remove Dynamics 365 App for Outlook](user/remove-outlook-app.md)
 
-
-# [Run the checker to troubleshoot issues](diagnostic-checker.md)
-# [FAQs](faq.md)
+# [FAQs and troubleshooting]
+## [Run the checker to troubleshoot issues](diagnostic-checker.md)
+## [FAQs](faq.md)
 
 
 # Version 8.x
