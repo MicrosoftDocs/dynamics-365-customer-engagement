@@ -33,6 +33,10 @@ As we continue to work on the real-time marketing preview and refine the experie
 - Data retention is 3 months for operational analytics and 12 months for the aggregate cross-journey analytics dashboard.
 - In some cases of error, funnel numbers are adjusted for sanitization (for example, the delivered shouldn't exceed sent).
 
+## Channel optimization
+
+- The AI model cannot consider availability and consent at the time of public preview. If a customer blocks a specific channel (for example, a text message) or has not provided consent to be reached through a specific channel, the AI model will not have access to this information and may send them down the blocked path.
+
 ## Consent
 
 - Only one email address can be checked for consent for contacts.
