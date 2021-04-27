@@ -1,5 +1,5 @@
 ---
-title: "Manage email and text consent settings (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Manage consent for email and text messages in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing email and text consent settings in Dynamics 365 Marketing."
 ms.date: 04/27/2021
 ms.service: dynamics-365-marketing
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Manage email and text consent settings
+# Manage consent for email and text messages in real-time marketing
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.

@@ -72,7 +72,7 @@ landingContent:
         links:
           - text: Manage user compliance settings
             url: real-time-marketing-compliance-settings.md
-          - text: Manage email and text consent settings
+          - text: Manage consent for email and text messages in real-time marketing
             url: real-time-marketing-email-text-consent.md
           - text: Select the audience source for real-time journeys
             url: real-time-marketing-audience-data.md

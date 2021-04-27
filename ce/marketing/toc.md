@@ -145,7 +145,7 @@
 ##### [Real-time marketing asset library](real-time-marketing-asset-library.md)
 #### Administration
 ##### [Manage user compliance settings](real-time-marketing-compliance-settings.md)
-##### [Manage email and text consent settings](real-time-marketing-email-text-consent.md)
+##### [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 ##### [Select the audience source for real-time journeys](real-time-marketing-audience-data.md)
 ##### [Real-time marketing link tracking mechanics](real-time-marketing-link-tracking-mechanics.md)
 
