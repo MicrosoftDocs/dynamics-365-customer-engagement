@@ -22,9 +22,32 @@ search.app:
   - D365Outlook
 ---
 # Customize the track regarding card 
-## Customize the track regarding card
 
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
+As an admin, you may want to change the form a user see when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**]((user/track-message-or-appointment.md). For example, you might want to replace **Mobile Phone** with **Company Name** in the contact card.
+
+To change the fields that appear, follow these steps:
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+
+  
+2. On the left nav, select **Data** to expand it and then select **Tables**.  
+
+   > [!div class="mx-imgBorder"]
+   > ![Go to Tables in maker portal](media/maker-data-tables.png)
+   
+  
+3. Select a table such as **Contact** and then select the **Forms** tab.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select the forms tab](media/maker-form-tab.png)
+
+4. Select the **App for Outlook Contact Card** form.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select the App for Outlook Contact Card form](media/maker-outlook-contact-card.png)
+
+
+
 
 ![Initial contact card](media/initial-contact-card.png "Initial contact card")
 
