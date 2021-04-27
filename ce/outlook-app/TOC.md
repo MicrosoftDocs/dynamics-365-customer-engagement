@@ -11,7 +11,7 @@
 ## [Filter entities and views that appear in Dynamics 365 App for Outlook](filter-entities-and-views.md)
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
-# [Using the app](dynamics-365-app-outlook-user-s-guide.md)
+# [Using the app]
 ## [Supported features](user/support-matrix.md)
 ## [Basic navigation in App for Outlook](user/basic-navigation.md)
 ## [Link an email or appointment to a specific row](user/track-message-or-appointment.md)
