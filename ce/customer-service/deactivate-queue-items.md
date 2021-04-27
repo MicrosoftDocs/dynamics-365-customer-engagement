@@ -19,8 +19,9 @@ ms.reviewer: nenellim
 ---
 # How to close live work items or deactivate queue items
 
-You can use the following sample code in your Console App (.NET framework) of Visual Studio to trigger the closure of live work items by deactivating the associated queue item. 
-For information on how you can modify the sample code to suit your environment, see [Quickstart: Organization service sample (C#)](/powerapps/developer/data-platform/org-service/quick-start-org-service-console-app)
+You can use the following sample code in your Console App (.NET framework) of Visual Studio to trigger the closure of live work items by deactivating the associated queue item.
+
+For information about how you can modify the sample code to suit your environment, go to [Quickstart: Organization service sample (C#)](/powerapps/developer/data-platform/org-service/quick-start-org-service-console-app).
 
    ```csharp
     static void Main(string[] args)
@@ -70,9 +71,10 @@ For information on how you can modify the sample code to suit your environment, 
 
 
 ### See also
+
 [Overview of unified routing](overview-unified-routing.md)  
 [Set up unified routing](set-up-routing-process.md)  
-[How unified routing impacts queue items and the corresponding APIs](unified-routing-impact-on-APIs.md) 
+[How unified routing affects queue items and the corresponding APIs](unified-routing-impact-on-APIs.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
