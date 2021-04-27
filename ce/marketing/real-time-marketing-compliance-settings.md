@@ -94,7 +94,7 @@ Outbound marketing has a different consent model than real-time marketing. Real-
 
 Learn more about outbound marketing's consent model: [Data protection and the GDPR](gdpr.md)
 
-After you install real-time marketing, you will notice a slight change in the Marketing administrative settings related to where you enable the GDPR configuration. To enable the GDPR configuration, go to **Settings** > **Compliance** > **Outbound consent**.
+After you install real-time marketing, you will notice a slight change in the  settings related to the GDPR configuration. To enable the GDPR configuration, go to **Settings** > **Compliance** > **Outbound consent**.
 
 > [!div class="mx-imgBorder"]
 > ![Configure outbound consent screenshot](media/real-time-marketing-outbound-consent.png)
@@ -103,11 +103,13 @@ By default, both switches are turned off. If you had a GDPR configuration enable
 
 In outbound marketing, you can configure each customer journey (and lead scoring model) to only process contacts that have given a minimum required level of consent. To enable this consent control, activate the **Enable the minimum consent level selection drop down** switch.
 
-The second switch enables logging changes of the contact attribute *Consent given*. The value of this field will be checked to allow contact to participate in the customer journey.
+The second switch, **Log consent changes for this field**, enables logging of contact attribute *Consent given* changes.
 
-So, if you want to use this feature in your customer journeys, you will need to do the following:
+### Use outbound consent in customer journeys
 
-1)	Gather consent for your end users. Consent should be captured in the field “Consent given”.
-2)	Set up minimum consent level for a customer journey.
+To use this feature in customer journeys:
 
-The audit data for “Consent given” field can be found on a Contact record.
+1) Gather consent from your end users. Consent should be captured in the *Consent given* field.
+2) Set a minimum consent level for the customer journey.
+
+You can find the audit data for the *Consent given* field in a user's contact record.
