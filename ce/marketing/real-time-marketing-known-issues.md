@@ -53,6 +53,14 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
 
+## Natural language
+
+-	Natural language for journey conditions is not compatible with events or behavioral attributes.
+    - "Customers that opened an email" is not a phrase we currently support.
+-	The entity type of the journey will follow the entity type the journey is bound to.
+    - If the journey is contact-bound, the natural language will also require the term "contact."
+    - If the journey is customer profile-bound, the natural language will also require the term "customer."
+
 ## SMS
 
 - Currently limited to one phone number.
