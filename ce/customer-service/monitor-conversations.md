@@ -81,6 +81,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 > [!NOTE]
 > When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent. 
+
 > When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
 
 ### See also
