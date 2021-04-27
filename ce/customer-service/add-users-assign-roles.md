@@ -66,7 +66,6 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can add/remove agents from queue | Yes | Yes ||||
 | Can add/remove users from presence | Yes | Yes ||||
 | Can assign/monitor/transfer conversations || Yes ||||
-
 | Can create/read/write/append/delete agent script ||||| Yes |
 | Can create/read/write/append/delete agent script step ||||| Yes |
 | Can create/read/write/append/delete agent script workflow ||||| Yes |
