@@ -1,5 +1,5 @@
 ---
-title: "Custom event triggersReal-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Custom event triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing custom event triggers in Dynamics 365 Marketing."
 ms.date: 04/27/2021
 ms.service: dynamics-365-marketing
