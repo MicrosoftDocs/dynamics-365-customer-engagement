@@ -123,18 +123,19 @@
 #### [Real-time marketing overview](real-time-marketing-overview.yml)
 #### Get started with real-time marketing
 ##### [Install the real-time marketing preview](real-time-marketing-install.md)
+##### [Use Customer Insights profiles and segments in real-time marketing](real-time-marketing-ci-profile.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)
 #### Channels
 ##### [Create real-time marketing emails](real-time-marketing-email.md)
 ##### [Create push notifications](real-time-marketing-push-notifications.md)
 ##### [Create outbound text messages](real-time-marketing-outbound-text-messaging.md)
+##### [Use AI-driven run-time channel optimization](real-time-marketing-channel-optimization.md)
 #### Customer engagement
 ##### [Create an event-based journey](real-time-marketing-event-based-journey.md)
 ##### [Work with segments in real-time marketing](real-time-marketing-segments.md)
 ##### [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
 ##### [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md)
 ##### [Set a business goal and measure progress through a journey](real-time-marketing-business-goals.md)
-##### [Personalize content](real-time-marketing-personalize.md)
 ##### [Use natural language in real-time marketing journeys](real-time-marketing-natural-language.md)
 ##### [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
 ##### [Access and interpret analytics](real-time-marketing-analytics.md)

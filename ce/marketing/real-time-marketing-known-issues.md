@@ -33,13 +33,33 @@ As we continue to work on the real-time marketing preview and refine the experie
 - Data retention is 3 months for operational analytics and 12 months for the aggregate cross-journey analytics dashboard.
 - In some cases of error, funnel numbers are adjusted for sanitization (for example, the delivered shouldn't exceed sent).
 
+## Channel optimization
+
+- The AI model cannot consider availability and consent at the time of public preview. If a customer blocks a specific channel (for example, a text message) or has not provided consent to be reached through a specific channel, the AI model will not have access to this information and may send them down the blocked path.
+
+## Consent
+
+- Only one email address can be checked for consent for contacts.
+- Only one physical address field is available for commercial emails.
+
 ## Dynamics 365 Customer Insights
 
+- Before installing Dynamics 365 Marketing in the Dataverse environment, you need to enable data sharing with Dataverse in the Customer Insights environment you intend to use with Marketing. To enable data sharing, refer to step 6 in the [Edit an existing environment CI documentation](/customer-insights/audience-insights/manage-environments#edit-an-existing-environment). Optionally, you can also create a new CI environment using a copy of your existing environment and enable data sharing in the former. If you have already installed Dynamics 365 Marketing before doing this step, rerun the Dynamics 365 Marketing provisioning after you have enabled data sharing.
 - Existing CI customers will need to set up a new CI environment using **Copy config**.
+- You cannot instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you will have to manage an infra to run Python.
+- Customer Insights cannot create profiles with BigInt type and may silently fail to create particular profiles that have values out of the normal int range. Out of the box, Contact and Lead entities have two such fields that should be removed from final customer profile objects.
 
 ## Journey & orchestration
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
+
+## Natural language
+
+-	Natural language for journey conditions is not compatible with events or behavioral attributes.
+    - "Customers that opened an email" is not a phrase we currently support.
+-	The entity type of the journey will follow the entity type the journey is bound to.
+    - If the journey is contact-bound, the natural language will also require the term "contact."
+    - If the journey is customer profile-bound, the natural language will also require the term "customer."
 
 ## SMS
 

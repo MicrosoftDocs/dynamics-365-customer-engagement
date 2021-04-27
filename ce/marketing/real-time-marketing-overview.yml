@@ -32,6 +32,8 @@ landingContent:
         links:
           - text: Install the real-time marketing preview
             url: real-time-marketing-install.md
+          - text: Use Customer Insights profiles and segments in real-time marketing
+            url: real-time-marketing-ci-profile.md
           - text: Known issues in real-time marketing
             url: real-time-marketing-known-issues.md
 
@@ -46,8 +48,6 @@ landingContent:
             url: real-time-marketing-segment-based-journey.md
           - text: Set a business goal and measure progress through a journey
             url: real-time-marketing-business-goals.md
-          - text: Personalize content
-            url: real-time-marketing-personalize.md
           - text: Use natural language in real-time marketing journeys
             url: real-time-marketing-natural-language.md
           - text: Experiment and refine real-time marketing journeys
@@ -92,6 +92,8 @@ landingContent:
             url: real-time-marketing-push-notifications.md
           - text: Create outbound text messages
             url: real-time-marketing-outbound-text-messaging.md
+          - text: Use AI-driven run-time channel optimization
+            url: real-time-marketing-channel-optimization.md
 
   # Card
   - title: Assets

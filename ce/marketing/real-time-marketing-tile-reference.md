@@ -58,7 +58,7 @@ By default, customers will end the journey when they complete all the steps. You
 
 Journey goals let you track and [analyze the performance of the journey](real-time-marketing-analytics.md). You can use an event trigger as the journey goal and measure the success of the journey based on the customers who perform the event trigger as they are going through the journey.
 
-Journey goals can also help you determine the winner of A/B tests and find the best channel for channel optimization. For more information about using A/B tests, see [experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md).
+Journey goals can also help you determine the winner of A/B tests and find the best channel for channel optimization. For more information about using A/B tests, see [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
 
 ## Messaging customers
 
@@ -70,11 +70,11 @@ Real-time marketing customer journeys lets you reach customers through various c
 
 ### A/B test
 
-A/B tests allow you measure which channel or content messaging strategy leads to higher success. For more information about using A/B tests, see [experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md).
+A/B tests allow you measure which channel or content messaging strategy leads to higher success. For more information about using A/B tests, see [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md).
 
 ### Channel optimization
 
-Channel optimization uses AI to find the best channel to reach each individual customer and improve your engagement.
+Channel optimization uses AI to find the best channel to reach each individual customer and improve your engagement. To learn more about channel optimization, see [Use AI-driven run-time channel optimization](real-time-marketing-channel-optimization.md)
 
 ## Branching the customer journey
 
