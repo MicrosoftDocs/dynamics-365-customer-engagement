@@ -330,6 +330,7 @@
 ### Administrator guide
 #### [Enable Dynamics 365 Sales mobile](sales-mobile/enable-sales-mobile.md)
 #### [Modify quick view forms](sales-mobile/modify-quick-view-form.md)
+#### [Create custom push notifications](sales-mobile/create-push-notification.md)
 ### User guide
 #### Install the app
 ##### [Install the app on iOS](sales-mobile/install-ios-app.md)
