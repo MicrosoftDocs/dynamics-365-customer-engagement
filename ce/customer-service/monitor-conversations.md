@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 As a supervisor, you can monitor, assign or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard. For more information, go to [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
-Monitoring conversations lets you understand how they are trending and to check if any conversation needs your immediate attention. You can also view customer sentiments and agent responses.
+When you monitor conversations, you can understand how they are trending and also check if any conversation needs your immediate attention. You can also view customer sentiments and agent responses.
 
 > [!NOTE]
 > To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**.
