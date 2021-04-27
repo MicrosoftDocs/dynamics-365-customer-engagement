@@ -25,6 +25,9 @@ search.app:
 
 An app maker can change the form a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). For example, on the contact form you might want to replace the **Mobile Phone** column with **Company Name** column instead.
 
+   > [!div class="mx-imgBorder"]
+   > ![Contact card before customization](media/before-cust.png)
+
 It's importand to note, that only the first three columns appear in the track regarding contact card. Although, a related sub-grid can be added to the quick view form, but it doesn't render within the **Track Regarding** contact card.
 
 To change the columns that appear, follow these steps:
@@ -66,6 +69,9 @@ After completing the above, right-click in the track regarding card, and then ch
 
 ![After customizing card](media/after-customizing-card.png "After customizing card")</br>
 The company name now appears after the contact name in the Contact card.
+
+   > [!div class="mx-imgBorder"]
+   > ![Contact row after customization](media/after-cust.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
