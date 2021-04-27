@@ -62,10 +62,10 @@ To manually assign a conversation, the conversation should be in an open state a
 
 ## Transfer conversations
 
-You can transfer an ongoing conversation that's in the **Active** or **Waiting** state from one agent to another. You can transfer all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. However, if and when these conversations switch from the text mode to voice or video modes, you can't transfer them across agents.
+You can transfer ongoing conversations that are in the **Active** or **Waiting** states. You can transfer all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. However, if and when these conversations switch from the text mode to voice or video modes, you can't transfer them across agents.
 
 > [!NOTE]
->  You can transfer conversations to and from agents only, and not bots.
+> You can transfer conversations to and from agents only, and not bots.
 
 1. From the dashboard view selector in **Omnichannel for Customer Service**, select the **Omnichannel Ongoing Conversations** dashboard.
 
@@ -81,7 +81,7 @@ You can transfer an ongoing conversation that's in the **Active** or **Waiting**
 
 > [!NOTE]
 > When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent. 
-> When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboardIn some cases, the conversation can also time out. So, you can experience a lag when you transfer conversations among your agents.
+> When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
 
 ### See also
 
