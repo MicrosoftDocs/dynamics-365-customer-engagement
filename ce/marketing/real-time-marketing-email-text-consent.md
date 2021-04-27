@@ -69,8 +69,12 @@ To see a compact view for a single consent record or make changes to it, select 
 
 ## Audit consent records
 
-To audit consent records:
+You can keep a record of all consent-related changes per contact record, who made them and when. The suditing system is usually disabled by defult, so you'll need to set it up if you want to use it to log consent changes.
+
+To access auditing features:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
-1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Auditing**.
-1. Select **Global audit settings**, then select the **Start auditing** checkbox. Begin the audit by selecting **OK**.
+2. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Auditing**.
+3. Select **Global audit settings**, then select the **Start auditing** checkbox. Begin the audit by selecting **OK**.
+4. Select **Entity and Field Audit Settings**.  In the left column, in the list of fields select **Contact Point Consent**. Ensure that auditing for this field is switched on.
+5. You can access all information about field chnages in the **Audit summary View** area of **Auditing** page in Advanced settings.
