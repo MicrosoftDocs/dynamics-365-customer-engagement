@@ -19,8 +19,8 @@ search.app:
 ---
 
 # Install and set up the Field Service (Dynamics 365) mobile app
-<!--note from editor: Please note (and verify) the edit to the title metadata. The title, H1, and description all need to be unique.-->
-The Field Service (Dynamics 365) mobile app is designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. This mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview) and you can customize it to your business needs by using the same admin console as all Dynamics 365 business apps.<!--note from editor: Suggested.-->
+
+The Field Service (Dynamics 365) mobile app is designed and optimized for technicians to view Dynamics 365 Field Service work orders, customer assets, accounts, and contacts. This mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview) and you can customize it to your business needs by using the same admin console as all Dynamics 365 business apps.
 
 For a guided walkthrough, check out the following video.
 
@@ -56,7 +56,7 @@ Set up a Dynamics 365 Field Service user with the **Field Service-Resource** sec
 
 ## Assign security roles to the Field Service mobile app
 
-On the **Field Service Mobile** card<!--note from editor: Edit okay?-->, select the ellipses (...), select **Manage Roles**, and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
+On the **Field Service Mobile** card, select the ellipses (...), select **Manage Roles**, and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
