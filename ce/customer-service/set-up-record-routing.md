@@ -99,11 +99,9 @@ The following screenshot shows a workstream with the required intake rule and ro
    > The agent notifications that you configure for record routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 
-
-
 ## Create record workstream in Omnichannel Administration
 
-This section describes how to create a workstream for a record that has been enabled for routing. The records that you want to configure routing for should also be enabled in your environment. More information: [Enable records for routing](entity-channel.md#step-3-enable-entity-for-routing).
+This section describes how to create a workstream for a record that has been enabled for routing. The records that you want to configure routing for should also be enabled in your environment. More information: [Enable records for routing](entity-channel.md#step-3-enable-record-for-routing).
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -117,7 +115,7 @@ This section describes how to create a workstream for a record that has been ena
    |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
    | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
-   | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create an entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing). |
+   | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create an entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-record-for-routing). |
    | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** The value provided is an example. |
    | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
    | Work Distribution | Allowed Presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** The value provided is an example. |
@@ -130,12 +128,12 @@ This section describes how to create a workstream for a record that has been ena
 
 ### Upgrade path for preview users
 
-If you're upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You'll need to create a new entity records channel and then redefine the workstreams. To learn more, see [Entity records routing](entity-channel.md).
+If you're upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You'll need to create a new records channel and then redefine the workstreams. To learn more, see [Records routing](entity-channel.md).
 
 ### See also
 
-[Entity records routing](entity-channel.md)  
+[Records routing](entity-channel.md)  
 [Create workstreams](create-workstreams.md)  
-[Create multiple work streams for entity records routing](multiple-ws-entity-record-routing.md)  
+[Create multiple work streams for records routing](multiple-ws-entity-record-routing.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
