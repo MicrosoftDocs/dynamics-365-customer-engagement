@@ -30,8 +30,7 @@ As we continue to work on the real-time marketing preview and refine the experie
 ## Analytics
 
 - In the aggregate cross-journey analytics dashboard, an extra step is needed to load the Power BI report in the Android and iPad native apps. To load the report, go to **Analytics**, then select a row, select the **Show as from** sub menu, then select **CC_Analytics_ReportingControl**.
-- Data retention is 3 months for operational analytics and 12 months for the aggregate cross-journey analytics dashboard.
-- In some cases of error, funnel numbers are adjusted for sanitization (for example, the delivered shouldn't exceed sent).
+- Data retention is 3 months for added details of operational data (such as contacts impacted by delivery and interaction issues), and 12 months for all other metrics (including operational and aggregate analytics).
 
 ## Channel optimization
 
