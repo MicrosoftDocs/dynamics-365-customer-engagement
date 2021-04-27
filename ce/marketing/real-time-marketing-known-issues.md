@@ -49,6 +49,11 @@ As we continue to work on the real-time marketing preview and refine the experie
 - You cannot instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you will have to manage an infra to run Python.
 - Customer Insights cannot create profiles with BigInt type and may silently fail to create particular profiles that have values out of the normal int range. Out of the box, Contact and Lead entities have two such fields that should be removed from final customer profile objects.
 
+## Email editor
+
+- The real-time marketing email editor *does not* contain the following capabilities from the outbound marketing email editor: video, custom code, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
+- Emails created in outbound marketing need to be recreated in the real-time marketing email designer to be used in real-time marketing.
+
 ## Journey & orchestration
 
 - Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
@@ -64,5 +69,5 @@ As we continue to work on the real-time marketing preview and refine the experie
 ## SMS
 
 - Currently limited to one phone number.
-- Only United State numbers are issued (even when using the app in the United Kingdom).
+- Only United States numbers are issued (even when using the app in the United Kingdom).
 - Dynamics 365 Customer Voice survey links are not supported in SMS messages.

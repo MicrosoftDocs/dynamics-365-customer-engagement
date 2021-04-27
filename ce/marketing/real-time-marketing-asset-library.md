@@ -25,7 +25,10 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-The new, centralized asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content.
+The new, centralized asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content. 
+
+> [!NOTE]
+> The asset library supports JPEG, GIF, and PNG images.
 
 ## Asset library features
 

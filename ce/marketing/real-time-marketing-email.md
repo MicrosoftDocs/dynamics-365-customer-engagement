@@ -54,6 +54,4 @@ To add personalized data to a real-time marketing email:
 
 The new editor analyzes the text content of your email and, using AI, suggests the most relevant images from the new asset library. The images are tagged automatically, saving you time.
 
-The image asset library supports JPEG, GIF, and PNG images.
-
 Learn more about the [Asset library](real-time-marketing-asset-library.md)
