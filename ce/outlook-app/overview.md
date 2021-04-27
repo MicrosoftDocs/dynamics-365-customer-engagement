@@ -53,7 +53,7 @@ To start using App for Outlook
 
 - [System requirements, limits, and configuration](support-info-deployment.md)
 - [Deploy and install Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)
-- [Basic navigation in App for Outlook](../user/basic-navigation)
+- [Basic navigation in App for Outlook](user/basic-navigation.md)
 - [Supported features](/user/support-matrix.md)
 
 
