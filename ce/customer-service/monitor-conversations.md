@@ -82,8 +82,6 @@ You can transfer an ongoing conversation that's in the **Active** or **Waiting**
 > [!NOTE]
 > When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent. 
 
-> After a conversation has been transferred from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject** on the communication panel. In some cases, the conversation can also time out. So, you can experience a lag in the transfer time. 
-
 ### See also
 
 [Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
