@@ -23,7 +23,7 @@ search.app:
 ---
 # Customize the track regarding card 
 
-As an admin, you may want to change the form a user see when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**]((user/track-message-or-appointment.md). For example, you might want to replace **Mobile Phone** with **Company Name** in the contact card.
+As an admin, you may want to change the form a user see when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). For example, you might want to replace  **Mobile Phone** with **Company Name** on the contact card.
 
 To change the fields that appear, follow these steps:
 
@@ -45,6 +45,36 @@ To change the fields that appear, follow these steps:
 
    > [!div class="mx-imgBorder"]
    > ![Select the App for Outlook Contact Card form](media/maker-outlook-contact-card.png)
+
+5. Drag **Company Name** above **Mobile Phone**.
+
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit the form and drag company name above mobile phone](media/maker-edit-contact-form.png)
+
+  > [!NOTE]
+  > Only the first three fields appear in the track regarding card. Although, a related sub-grid can be added to the quick view form, but it doesn't render within the **Track Regarding** card.
+
+7. Select **Save** > **Publish** and then close the form editor.
+8. On the solution page, **Publish All Customizations** and then close the solutions page.
+
+   > [!div class="mx-imgBorder"]
+   > ![Publish customizations](media/maker-publish-customizations.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
