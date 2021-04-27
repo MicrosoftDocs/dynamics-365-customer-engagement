@@ -55,7 +55,7 @@ To manually assign a conversation, the conversation should be in an open state a
 3. On the **Assign conversations** dialog box, select **Agent** or **Queue**.
 
     > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
-    > If you select **Queue:**, then all other queues except the one to which the conversation is currently assigned, are displayed.
+    > If you select **Queue**, then all other queues except the one to which the conversation is currently assigned, are displayed.
 
 4. After selecting the agent or queue, select **Assign**.
    The conversation is now assigned to the agent or queue you selected.
