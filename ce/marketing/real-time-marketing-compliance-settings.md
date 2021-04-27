@@ -34,7 +34,7 @@ search.app:
 - **Consent model**: The model that is applied throughout the system. There are two options to select from: Restrictive and Non-Restrictive (see details below).
 - **Preference center page**: A web page where your customers can change their consent settings for receiving emails and text messages, as well as for tracking.
 - **Audience data** (**Settings** > **Customer engagement** > **Audience configuration**): The administrator can define which fields from **Profile**, **Lead**, and **Contact** entities contain customers’ email addresses and mobile phone numbers, and which fields can be used by email and SMS channels in real-time marketing.
-- **Profile-based consent**: Customer consent that is stored on a profile level (for example, on a contact record). Consent is applied any time an email or SMS message is sent to the profile on any of the email addresses or phone numbers associated with it. Outbound marketing consent is profile-based.
+- **Contact-based consent**: Customer consent that is stored on a contact level (e.g. on a contact record). Consent is applied any time an email or SMS message is sent to the contact on any of the email addresses or phone numbers associated with it. Outbound marketing consent is contact-based.
 - **Contact point-based consent**: In this model, customers give consent for specific contact points, for example, a work email address or a private phone number.
     - If there are other emails or phone numbers provided by the same customer, consent must be requested separately for each of them.  
     - If multiple people share the same email address or phone number, then they also share consent. For example, if contact A opted out from email 1, contact B (sharing same email) will be opted out as well.
@@ -44,6 +44,7 @@ search.app:
 At the time of setup or later, an administrator needs to go to **Settings** > **Customer engagement** > **Compliance** and define the consent model, the company address, and customize the preference center page for your end users.
 
 First, the administrator must select which consent model your system will use. The consent model selection is made once and can’t be changed afterwards.
+By defult, the Restrictive model is selected.
 
 There are two options to select from. With the **Restrictive** model, your customers will be required to opt in in order to receive marketing emails and text messages, and allow behavior tracking. Default values for these fields are the following:
 
