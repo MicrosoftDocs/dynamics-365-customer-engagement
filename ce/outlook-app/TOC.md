@@ -11,7 +11,7 @@
 ## [Filter entities and views that appear in Dynamics 365 App for Outlook](filter-entities-and-views.md)
 ## [Limitations when customizing the app](limitations-when-customizing-app-for-outlook.md)   
 
-# [Using the app]
+# Using the app
 ## [Supported features](user/support-matrix.md)
 ## [Basic navigation in App for Outlook](user/basic-navigation.md)
 ## [Link an email or appointment to a specific row](user/track-message-or-appointment.md)
@@ -29,7 +29,7 @@
 ## [Track S/MIME signed emails](user/s-mime-email.md)
 ## [Remove Dynamics 365 App for Outlook](user/remove-outlook-app.md)
 
-# [FAQs and troubleshooting]
+# FAQs and troubleshooting
 ## [Run the checker to troubleshoot issues](diagnostic-checker.md)
 ## [FAQs](faq.md)
 
