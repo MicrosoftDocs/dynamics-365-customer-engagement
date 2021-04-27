@@ -57,6 +57,4 @@ Business events represent changes in Dynamics 365 applications such as Sales or 
 - *Contact phone number updated*
 - *Lead created*
 - *Incident created*
-- *Incident state updated*
 - *Opportunity created*
-- *Opportunity state updated*
