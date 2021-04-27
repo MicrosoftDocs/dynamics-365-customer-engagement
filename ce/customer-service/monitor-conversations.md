@@ -21,8 +21,7 @@ As a supervisor, you can monitor, assign or transfer conversations that are bein
 
 Monitoring conversations lets you understand how they are trending and to check if any conversation needs your immediate attention. You can also view customer sentiments and agent responses.
 
-
-[!NOTE]
+> [!NOTE]
 > To be able to monitor, assign or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign** or **Supervisor Transfer**&mdash;in **Omnichannel Administration.**
 
 
@@ -41,7 +40,7 @@ As a supervisor, you can monitor or assign workstreams that are configured for a
 3. Select a conversation that you want to monitor and select **Monitor**.
     The conversation page opens.
 
-4. Optionally, you can join a conversation. Select **Join chat** in the communication panel.
+4. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
     When you join the conversation, both the agent and the customer receive notifications that you have joined the conversation. Depending on your requirement, you can consult with the agent and customer via public or internal modes. For more information, go to [View communication panel](oc-conversation-control.md).
 
@@ -55,8 +54,8 @@ To manually assign a conversation, the conversation should be in an open state a
 
 3. On the **Assign conversations** dialog box, select **Agent** or **Queue**.
 
-  If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
-  If you select **Queue:**, then all other queues except the one to which the conversation is currently assigned, are displayed.
+    > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
+    > If you select **Queue:**, then all other queues except the one to which the conversation is currently assigned, are displayed.
 
 4. After selecting the agent or queue, select **Assign**.
    The conversation is now assigned to the agent or queue you selected.
@@ -82,7 +81,8 @@ You can transfer an ongoing conversation that's in the **Active** or **Waiting**
 
 > [!NOTE]
 > When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent. 
-> After a conversation has been transferred from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting Accept or Reject on the communication panel. In some cases, the conversation can also time out. So, you can experience a lag in the transfer time. 
+
+> After a conversation has been transferred from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject** on the communication panel. In some cases, the conversation can also time out. So, you can experience a lag in the transfer time. 
 
 ### See also
 
