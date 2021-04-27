@@ -52,7 +52,7 @@ To view and manage users in Omnichannel for Customer Service, see [Manage users 
 
 ## Understand roles and their privileges
 
-Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges that are listed as follows.
+
 | Privileges | Omnichannel administrator | Omnichannel supervisor| Omnichannel agent|Productivity tools user| Productivity tools administrator|
 |---------|---------|-----------|---------|---------|---------|
 | Can view user list/presence list/work stream list/queue list/PBI config list | Yes | Yes ||||
@@ -72,7 +72,6 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can view/add/edit/delete operating hours | Yes |||||
 | Can view/add/edit/delete auth settings | Yes |||||
 | Can view operating hours || Yes ||||
-| Can assign/monitor/transfer conversations || Yes ||||
 | Can view user list/presence list/work stream list/queue list ||| Yes |||
 | Can view quick replies ||| Yes |||
 | Can read agent script |||| Yes ||
