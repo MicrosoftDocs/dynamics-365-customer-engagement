@@ -92,7 +92,6 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can view/add/edit/delete auth settings | Yes |||||
 | Can view/add/edit/delete operating hours | Yes |||||
 | Can view/add/edit/delete quick replies | Yes | Yes ||||
-
 |||||||
 
 ### See also
