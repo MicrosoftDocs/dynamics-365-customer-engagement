@@ -70,8 +70,8 @@
 #### [Associate templates with workstreams](../app-profile-manager/associate-templates.md)
 
 #### [Set up record routing](set-up-record-routing.md)
-##### [Enable entities for routing](entity-channel.md)
-##### [Route trigger for entity records](routing-trigger.md)
+##### [Enable records for routing](entity-channel.md)
+##### [Set up basic routing for records](routing-trigger.md)
 
 #### [Create queues](queues-omnichannel.md)
 ##### [Set up assignment methods for queues](assignment-methods.md)
@@ -252,9 +252,6 @@
 #### Set up a custom messaging channel
 ##### [Configure a custom messaging channel](configure-custom-channel.md)
 #### [Asynchronous channel support](asynchronous-channels.md)
-#### Set up entity records channel
-##### [Route entity records](entity-channel.md)
-##### [Route trigger for entity records](routing-trigger.md)
 
 ### Agent experience
 #### [Use SMS channel](sms-telesign-twilio.md)

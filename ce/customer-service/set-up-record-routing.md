@@ -22,6 +22,9 @@ To provision unified routing in Customer Service, do the following:
 1. In Customer Service Hub, go to **Service Management**.
 2. In the site map, under **Service Terms**, select **Service Configuration**.
 3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see a message that unified routing is being provisioned.
+   
+> [!IMPORTANT]
+> If you are upgrading your environment from a previous version and have existing workstreams for record routing, we recommend that you enable unified routing only after recreating the required workstreams anew. Otherwise, the existing workstreams will stop working.
 
 After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing.
 
@@ -30,12 +33,12 @@ After unified routing is provisioned, the site map is updated with the **Unified
 ## Prerequisites
 
 - To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing](#provision-unified-routing).
-- To route records for an entity, you must enable the entity for routing using entity records channel configuration. More information: [Entity records routing](entity-channel.md#enable-entities).
+- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](entity-channel.md#enable-entities).
 - You must have the CSR Manager role to configure record routing.
 
 ## Configure unified routing for records
 
-You can configure record routing for entities through Customer Service Hub or Omnichannel admin center.
+You can configure unified routing for records through Customer Service Hub or Omnichannel admin center.
 
 Perform the following steps to configure record routing:
 
@@ -43,7 +46,7 @@ Perform the following steps to configure record routing:
 
 2. On the **Record routing** page, select **Add**.
 
-3. In the **Add a record type** dialog box, select an entity from the **Record type** list, and select **Add**. The entity is added and listed on the **Record routing** page.
+3. In the **Add a record type** dialog box, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
 
 4. Do the following tasks:
    1. Configure workstreams.
@@ -51,7 +54,7 @@ Perform the following steps to configure record routing:
 
 ### Create workstreams for record routing
 
-To configure a workstream for the entity record, do the following:
+To configure a workstream for the record, do the following:
 
 1. In the Customer Service Hub app, in the **Service Management** change area, on the site map, select **Workstream** under **Unified Routing**, and then select **New**. If you're using Omnichannel admin center, on the site map, select **Workstreams** under **General settings**.
 
@@ -59,13 +62,13 @@ To configure a workstream for the entity record, do the following:
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
     - **Type**: Select **Record**.
-    - **Record type**: Select an entity record from the list.
+    - **Record type**: Select a record from the list.
 
 3. Select **Create**. The workstream is created.
 
 ### Configure intake rules
 
-Intake rules for an entity record help determine the workstream to be picked up to assign an incoming work item.
+Intake rules for a record help determine the workstream to be picked up to assign an incoming work item.
 
 Perform the following steps to configure the intake rules:
 
@@ -93,14 +96,14 @@ The following screenshot shows a workstream with the required intake rule and ro
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    > [!NOTE]
-   > The agent notifications that you configure for entity record routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
+   > The agent notifications that you configure for record routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 
 
 
-## Create entity record workstream in Omnichannel Administration
+## Create record workstream in Omnichannel Administration
 
-This section describes how to create a workstream for an entity that has been enabled for routing. The entities that you want to configure routing for should also be enabled in your environment. More information: [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing).
+This section describes how to create a workstream for a record that has been enabled for routing. The records that you want to configure routing for should also be enabled in your environment. More information: [Enable records for routing](entity-channel.md#step-3-enable-entity-for-routing).
 
 1. Sign in to the Omnichannel Administration app.
 
