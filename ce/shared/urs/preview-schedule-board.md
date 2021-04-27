@@ -275,7 +275,3 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 3. Save and publish the changes.
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
 5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
-
-### Support for drag-and-drop to create bookings on schedule board
-
-Drag-and-drop functionality to create bookings on the new schedule board is not supported in Firefox web browsers. This functionality will be supported in a future update. 
