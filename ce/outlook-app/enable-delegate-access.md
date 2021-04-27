@@ -73,7 +73,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 > - The organization settings are configured properly.
 > - After the organization settings are configured, App for Outlook is redeployed for all users.
 
-## Frequently asked questions
+## FAQs about delegate access
 
 ### Are shared folders supported as part of the delegate access feature?
 
