@@ -59,15 +59,14 @@ To change the columns that appear, follow these steps:
 
 
 7. Select **Save** > **Publish** and then close the form editor.
-8. On the solution page, **Publish All Customizations** and then close the solutions page.
+8. On the solution page, select **Publish All Customizations** and then close the solutions page.
 
    > [!div class="mx-imgBorder"]
    > ![Publish customizations](media/maker-publish-customizations.png)
 
 
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
+After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the changes to appear.
 
-![After customizing card](media/after-customizing-card.png "After customizing card")</br>
 The company name now appears after the contact name in the Contact card.
 
    > [!div class="mx-imgBorder"]
