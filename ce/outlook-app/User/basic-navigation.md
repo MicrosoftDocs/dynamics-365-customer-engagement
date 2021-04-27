@@ -24,7 +24,7 @@ search.app:
 
 # Basic navigation in App for Outlook
 
-Use Dynamics 365 App for Outlook while you’re using Outlook on the desktop, web, or phone. When App for Outlook is installed you can use the Dynamics 365 pane to link and track Outlook emails and appointments to records in your Dynamics 365 app.
+Use Dynamics 365 App for Outlook while you’re using Outlook on the desktop, web, or phone. When App for Outlook is installed you can use the Dynamics 365 pane to link and track Outlook emails and appointments to records in your app.
 
 > [!IMPORTANT]
 > - The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](../../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../../customer-service/help-hub.md), [Dynamics 365 Marketing](../../marketing/help-hub.md). [Dynamics 365 Field Service](../../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md)), [Dynamics 365 Customer Engagement (on-premises), version 9](../../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
