@@ -92,6 +92,8 @@ landingContent:
             url: real-time-marketing-push-notifications.md
           - text: Create outbound text messages
             url: real-time-marketing-outbound-text-messaging.md
+          - text: Use AI-driven run-time channel optimization
+            url: real-time-marketing-channel-optimization.md
 
   # Card
   - title: Assets

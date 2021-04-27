@@ -129,6 +129,7 @@
 ##### [Create real-time marketing emails](real-time-marketing-email.md)
 ##### [Create push notifications](real-time-marketing-push-notifications.md)
 ##### [Create outbound text messages](real-time-marketing-outbound-text-messaging.md)
+##### [Use AI-driven run-time channel optimization](real-time-marketing-channel-optimization.md)
 #### Customer engagement
 ##### [Create an event-based journey](real-time-marketing-event-based-journey.md)
 ##### [Work with segments in real-time marketing](real-time-marketing-segments.md)
