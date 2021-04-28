@@ -1,0 +1,316 @@
+- name: Administer Dynamics 365 Customer Engagement (on-premises)
+  href: overview.md
+- name: Getting started
+  items: 
+  - name: Overview
+    href: getting-started.md
+  - name: Supported web browsers and mobile devices
+    href: supported-web-browsers-and-mobile-devices.md
+  - name: Web application requirements
+    href: web-application-requirements.md
+  - name: Support for devices
+    href: device-support.md
+  - name: About Unified Interface
+    href: about-unified-interface.md
+  - name: Onboard your organization and users
+    href: onboard-your-organization-and-users-to-dynamics-365-online.md
+  - name: Onboarding cheat sheet for admins
+    href: onboarding-cheat-sheet-admins.md
+- name: Support and pricing
+  items: 
+  - name: Overview
+    href: billing-support.md
+  - name: Determine your organization ID and name
+    href: determine-org-id-name.md
+  - name: Help and additional resources
+    href: help-additional-resources.md
+  - name: Troubleshoot problems
+    href: troubleshoot-dynamics-365-problems.md
+- name: Manage security, users, and teams
+  items: 
+  - name: Overview
+    href: manage-security-users-and-teams.md
+  - name: Security concepts
+    items: 
+    - name: Overview
+      href: security-concepts.md
+    - name: Security roles and privileges
+      items: 
+      - name: About security roles and privileges
+        href: security-roles-privileges.md
+      - name: Create or edit a security role
+        href: create-edit-security-role.md
+      - name: Copy a security role
+        href: copy-security-role.md
+      - name: Create an administrative user and prevent privilege elevation
+        href: prevent-elevation-security-role-privilege.md
+      - name: Assign security roles to a form
+        href: assign-security-roles-form.md
+    - name: User session and access management
+      href: user-session-management.md
+    - name: Field-level security
+      href: field-level-security.md
+    - name: Set permissions for a field
+      href: set-up-security-permissions-field.md
+    - name: Enable or disable field security
+      href: enable-disable-security-field.md
+    - name: Hierarchy security
+      href: hierarchy-security.md
+  - name: Create users and assign security roles
+    href: create-users-assign-online-security-roles.md
+  - name: System and application users
+    href: system-application-users.md
+  - name: Manage teams
+    href: manage-teams.md
+  - name: Team templates
+    href: about-team-templates.md
+  - name: Team templates for access rights
+    href: create-team-template-add-entity-form.md
+  - name: Add teams or users to field security profile
+    href: add-teams-users-field-security-profile.md
+  - name: Synchronize user information between Customer Engagement and Active Directory
+    href: synchronize-user-information-active-directory.md
+  - name: Add or remove sales territory members
+    href: add-remove-territory-members.md
+  - name: "Troubleshooting: Read-write access"
+    href: troubleshooting-user-needs-read-write-access-organization.md
+- name: Set up an organization
+  items: 
+  - name: Overview
+    items: 
+    - name: Overview
+      href: set-up-a-dynamics-365-organization.md
+    - name: Numbers, currencies, times, and dates
+      href: customize-regional-options-admins.md
+    - name: Transactions with multiple currencies
+      href: manage-transactions-with-multiple-currencies.md
+    - name: Enable languages
+      href: enable-languages.md
+    - name: Fiscal year
+      href: work-fiscal-year-settings.md
+    - name: Sales territories
+      href: set-up-sales-territories-organize-business-markets-geographical-area.md
+    - name: Auto-numbering prefixes
+      href: change-auto-number-prefix-contract-case-article-quote-order-invoice-campaign-category-knowledge-articles.md
+    - name: Define subjects for cases, products, and articles
+      href: define-subjects-categorize-cases-products-articles.md
+  - name: Create or edit business unit
+    href: create-edit-business-units.md
+  - name: Delete business unit
+    href: delete-business-unit.md
+  - name: Assign business unit to different parent business
+    href: assign-business-unit-different-parent.md
+  - name: Create or edit a site
+    href: create-edit-site.md
+  - name: Add resources to a site
+    href: add-resources-site.md
+  - name: Enhanced service level agreements
+    href: enhanced-service-level-agreements.md
+  - name: Configure Quick Find options
+    href: configure-quick-find.md
+  - name: Manage product catalog configuration
+    href: manage-product-catalog-configuration.md
+  - name: Enable rich text for appointment activities
+    href: enable-rich-text-experience.md
+- name: Performance tuning and optimization
+  items: 
+  - name: Overview
+    href: performance-tuning-and-optimization.md
+  - name: Verify network capacity and throughput for clients
+    href: verify-network-capacity-throughput-clients.md
+  - name: Key preparation and configuration tasks
+    href: key-preparation-and-configuration-tasks.md
+  - name: Data query performance
+    href: analyze-improve-data-query-performance.md
+- name: Manage your data
+  items: 
+  - name: Overview
+    href: manage-your-data.md
+  - name: Add or remove sample data
+    href: add-remove-sample-data.md
+  - name: Import data
+    href: import-data-all-record-types.md
+  - name: Template for data import
+    href: download-template-data-import.md
+  - name: Detect duplicate data
+    href: detect-duplicate-data.md
+  - name: Duplicate detection rules
+    href: set-up-duplicate-detection-rules-keep-data-clean.md
+  - name: Turn duplicate detection rules on or off
+    href: turn-duplicate-detection-rules-off-whole-organization.md
+  - name: Bulk duplicate detection
+    href: run-bulk-system-jobs-detect-duplicate-records.md
+  - name: Bulk deletions
+    href: delete-bulk-records.md
+  - name: View and take action on bulk deletion jobs
+    href: view-take-action-bulk-deletion-jobs.md
+  - name: Monitor and manage system jobs
+    href: monitor-manage-system-jobs.md
+  - name: Audit data and user activity
+    href: audit-data-user-activity.md
+  - name: Enable and use Activity Logging
+    href: /power-platform/admin/enable-use-comprehensive-auditing
+  - name: Data encryption
+    href: data-encryption.md
+  - name: Remove user personal data
+    href: remove-user-personal-data.md
+  - name: Free storage space
+    href: free-storage-space.md
+  - name: Recover database space by deleting audit logs
+    href: recover-database-space-deleting-audit-logs.md
+  - name: Enable change tracking to control data synchronization
+    href: enable-change-tracking-control-data-synchronization.md
+  - name: Move configuration data
+    href: manage-configuration-data.md
+  - name: Work with templates
+    href: work-with-templates.md
+- name: Extend Customer Engagement (on-premises)
+  items: 
+  - name: Overview
+    href: extend.md
+  - name: Integrate (synchronize) your email system
+    items: 
+    - name: Overview
+      href: integrate-synchronize-your-email-system.md
+    - name: Deploy Dynamics 365 App for Outlook
+      href: ../../../outlook-app/deploy-dynamics-365-app-for-outlook.md
+    - name: Deploy email for Unified Interface
+      href: deploy-email-unified-interface.md
+    - name: Server-side sync overview
+      items: 
+      - name: About server-side sync
+        href: server-side-synchronization.md
+      - name: Supported email service configurations
+        href: supported-email-service-configurations-server-side-synchronization.md
+    - name: Set up server-side sync
+      items: 
+      - name: Overview
+        href: set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md
+      - name: Connect to POP3 or SMTP servers
+        href: connect-to-pop3-or-smtp-servers.md
+      - name: Connect to IMAP or SMTP servers
+        href: connect-to-imap-servers.md
+      - name: Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Server (on-premises)
+        href: connect-on-prem-exchange-server-on-prem.md
+      - name: Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online
+        href: connect-dynamics-365-on-premises-exchange-online.md
+      - name: Migrate settings from the Email Router to server-side synchronization
+        href: migrate-settings-email-router-server-side-synchronization.md
+      - name: Troubleshooting
+        href: troubleshooting-monitoring-server-side-synchronization.md
+      - name: When would I want to use this check box?
+        href: when-would-want-use-check-box.md
+      - name: Error logging
+        href: error-logging-server-side-synchronization.md
+      - name: Best practices
+        href: best-practices-server-side-synchronization.md
+      - name: Forward mailboxes or edit mailboxes
+        href: create-forward-mailboxes-edit-mailboxes.md
+    - name: Configure Outlook or Exchange folder-level tracking
+      href: configure-outlook-exchange-folder-level-tracking.md
+    - name: Use Outlook category to track appointments and emails
+      href: use-outlook-category-track-appointments-emails.md
+    - name: Track Outlook email by moving it to a tracked Exchange folder
+      href: track-outlook-email-by-moving-it-tracked-exchange-folder.md
+    - name: Set incoming and outgoing email synchronization
+      href: set-incoming-outgoing-email-synchronization.md
+    - name: Choose records to synchronize with Exchange
+      href: choose-records-synchronize-dynamics-365-outlook-exchange.md
+    - name: Control field synchronization with Outlook
+      href: control-field-synchronization-outlook.md
+    - name: How field security affects synchronization with Outlook
+      href: how-field-security-affects-synchronization-between-outlook.md
+    - name: What fields can be synchronized with Outlook?
+      href: what-fields-synchronized-outlook.md
+    - name: View the fields synchronized with Outlook
+      href: view-fields-synchronized-dynamics-365-outlook.md
+    - name: Frequently asked questions about synchronizing records
+      href: frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md
+    - name: Set personal options that affect tracking and synchronization
+      href: set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md
+    - name: Monitor email processing errors
+      href: monitor-email-processing-errors.md
+    - name: Why does the email sent have "Pending Send" status?
+      href: why-email-message-sent-have-pending-send-status.md
+    - name: Email message filtering and correlation
+      href: email-message-filtering-correlation.md
+    - name: Forward mailbox vs. individual mailboxes
+      href: forward-mailbox-vs-individual-mailboxes.md
+    - name: Recover from Exchange Server failure
+      href: recover-from-exchange-server-failure.md
+  - name: Extend with integration and solutions
+    items: 
+    - name: Manage your documents using SharePoint
+      items: 
+      - name: Overview
+        href: manage-documents-using-sharepoint.md
+      - name: Software requirements
+        href: sharepoint-document-management-software-requirements.md
+      - name: Set up
+        items: 
+        - name: Overview
+          href: set-up-sharepoint-integration.md
+        - name: Set up Dynamics 365 on-premises and SharePoint Online
+          href: on-prem-server-based-sharepoint-online.md
+        - name: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
+          href: on-prem-server-based-sharepoint-on-prem.md
+        - name: Switching from the list component
+          href: switching-list-component-changing-deployment.md
+      - name: Troubleshoot SharePoint integration
+        href: troubleshoot-set-up-sharepoint-online.md
+    - name: Connect to Microsoft Social Engagement
+      items: 
+      - name: Connect, assign licenses, and reset
+        href: https://dynamics.microsoft.com/microsoft-social-engagement-transition/
+      - name: Install the Social Selling Assistant
+        href: https://dynamics.microsoft.com/microsoft-social-engagement-transition/
+      - name: Control social data
+        href: https://dynamics.microsoft.com/microsoft-social-engagement-transition/
+    - name: Manage Bing Maps
+      href: manage-bing-maps-organization.md
+    - name: Add Office 365 Online services
+      items: 
+      - name: Overview
+        href: add-office-365-online-services.md
+      - name: Connect Customer Engagement to Exchange Online
+        href: connect-exchange-online.md
+      - name: Connect Customer Engagement to SharePoint Online
+        href: set-up-dynamics-365-online-to-use-sharepoint-online.md
+      - name: Skype for Business and Skype integration
+        href: skype-business-integration.md
+      - name: Set up Customer Engagement to use Skype or Skype for Business
+        href: set-up-skype-or-skype-for-business.md
+      - name: Enable OneDrive for Business
+        href: connect-onedrive-business.md
+      - name: Enable Office Delve
+        href: enable-office-delve.md
+      - name: Connect to Yammer
+        href: connect-yammer.md
+- name: System Settings Dialog Box Reference
+  items: 
+  - name: General tab
+    href: system-settings-dialog-box-general-tab.md
+  - name: Calendar tab
+    href: system-settings-dialog-box-calendar-tab.md
+  - name: Formats tab
+    href: system-settings-dialog-box-formats-tab.md
+  - name: Auditing tab
+    href: system-settings-dialog-box-auditing-tab.md
+  - name: Email tab
+    href: system-settings-dialog-box-email-tab.md
+  - name: Marketing tab
+    href: system-settings-dialog-box-marketing-tab.md
+  - name: Customization tab
+    href: system-settings-dialog-box-customization-tab.md
+  - name: Outlook tab
+    href: system-settings-dialog-box-outlook-tab.md
+  - name: Reporting tab
+    href: system-settings-dialog-box-reporting-tab.md
+  - name: Goals tab
+    href: system-settings-dialog-box-goals-tab.md
+  - name: Sales tab
+    href: system-settings-dialog-box-sales-tab.md
+  - name: Service tab
+    href: system-settings-dialog-box-service-tab.md
+  - name: Synchronization tab
+    href: system-settings-dialog-box-synchronization-tab.md
