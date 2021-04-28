@@ -1,0 +1,130 @@
+- name: Dynamics 365 for Outlook Administrator Guide
+  items: 
+  - name: Dynamics 365 for Outlook Administrator Guide
+    href: admin-guide/dynamics-365-for-outlook.md
+  - name: Hardware requirements
+    href: admin-guide/hardware-requirements.md
+  - name: Software requirements
+    href: admin-guide/software-requirements.md
+  - name: Support
+    href: admin-guide/support.md
+  - name: Set up
+    items: 
+    - name: Set up
+      href: admin-guide/set-up.md
+    - name: Permissions required for Dynamics 365 for Outlook tasks
+      href: admin-guide/permissions-required-tasks.md
+    - name: Planning and installing
+      items: 
+      - name: Planning and installing
+        href: admin-guide/planning-installing.md
+      - name: Upgrade Microsoft Dynamics CRM for Outlook
+        href: admin-guide/upgrade.md
+      - name: Install
+        href: admin-guide/install.md
+      - name: Advanced deployment options
+        items: 
+        - name: Advanced deployment options
+          href: admin-guide/advanced-deployment-options.md
+        - name: Deploy using Group Policy
+          href: admin-guide/deploy-using-group-policy.md
+        - name: Install for desktop virtualization
+          href: admin-guide/install-desktop-virtualization.md
+        - name: Install without an Internet connection
+          href: admin-guide/install-without-internet-connection.md
+        - name: Use SCCM to install
+          href: admin-guide/use-sccm.md
+    - name: Uninstall or repair
+      href: admin-guide/uninstall-or-repair.md
+    - name: Configure synchronization for appointments, contacts, and tasks
+      href: admin-guide/configure-synchronization-appointments-contacts-tasks.md
+    - name: Install using a command prompt
+      href: admin-guide/install-using-command-prompt.md
+    - name: Failure recovery
+      href: admin-guide/failure-recovery.md
+    - name: Control field synchronization
+      href: admin-guide/control-field-synchronization.md
+    - name: Which fields can be synchronized
+      href: admin-guide/which-fields-synchronized.md
+    - name: How field security affects synchronization
+      href: admin-guide/field-security-synchronization.md
+    - name: Troubleshooting and things to know
+      href: admin-guide/troubleshooting-things-to-know.md
+- name: Dynamics 365 for Outlook User Guide
+  items: 
+  - name: Dynamics 365 for Outlook User Guide
+    href: user-guide/dynamics-365-outlook-user-s-guide.md
+  - name: Set up and configure
+    items: 
+    - name: Set up
+      href: user-guide/set-up.md
+    - name: Configure another organization
+      href: user-guide/configure-another-organization.md
+    - name: Set up and configure Dynamics 365 for Outlook from Microsoft 365
+      href: user-guide/set-up-configure-dynamics-365-outlook-office-365.md
+    - name: The Outlook email address should be the same as the Dynamics 365 apps email address
+      href: user-guide/outlook-email-address-should-same.md
+  - name: Get started
+    items: 
+    - name: Do your Dynamics 365 apps work in Outlook
+      href: user-guide/dynamics-365-work-outlook.md
+    - name: Overview of tracking records
+      href: user-guide/overview-tracking-records.md
+    - name: Customize the Reading Pane
+      href: user-guide/customize-reading-pane.md
+    - name: Create a Microsoft Word mail-merge document
+      href: user-guide/create-word-mail-merge-document.md
+  - name: Track email, appointments, contacts, and tasks
+    items: 
+    - name: Track Outlook email by moving it to a tracked Exchange folder
+      href: user-guide/track-outlook-email-by-moving-it-tracked-exchange-folder.md
+    - name: Track Outlook email by choosing a button in Dynamics 365 for Outlook
+      href: user-guide/track-outlook-email-by-choosing-button.md
+    - name: Set an option to automatically track incoming Outlook email
+      href: user-guide/set-option-automatically-track-incoming-outlook-email.md
+    - name: Track Outlook contacts
+      href: user-guide/track-outlook-contacts.md
+    - name: Use a wizard to add and track multiple Outlook contacts
+      href: user-guide/use-wizard-add-track-multiple-outlook-contacts.md
+    - name: Track Outlook tasks
+      href: user-guide/track-outlook-tasks.md
+    - name: Track Outlook appointments
+      href: user-guide/track-outlook-appointments.md
+    - name: Deleting records that have been tracked
+      href: user-guide/delete-records-that-have-been-tracked.md
+  - name: Synchronize data
+    items: 
+    - name: Frequently asked questions about synchronizing records
+      href: user-guide/frequently-asked-questions-synchronizing-records.md
+    - name: Choose the records to synchronize
+      href: user-guide/choose-records-synchronize-exchange.md
+    - name: View the fields that are synchronized
+      href: user-guide/view-fields-synchronized.md
+    - name: Synchronize records manually
+      href: user-guide/synchronize-records-manually.md
+    - name: Control field synchronization
+      href: user-guide/control-field-synchronization-exchange.md
+    - name: Which fields can be synchronized
+      href: user-guide/which-fields-synchronized.md
+    - name: How security affects synchronization
+      href: user-guide/how-security-affects-synchronization-exchange.md
+    - name: System Settings dialog box - Synchronization tab
+      href: user-guide/system-settings-dialog-box-synchronization-tab.md
+    - name: Create or modify synchronization filters or view synchronizing fields
+      href: user-guide/create-modify-synchronization-filters-view-synchronizing-fields.md
+  - name: Work offline
+    items: 
+    - name: Work offline with Dynamics 365 for Outlook
+      href: user-guide/work-offline-dynamics-365-outlook.md
+    - name: Choose records to work with offline
+      href: user-guide/choose-records-work-offline.md
+    - name: Example of going offline
+      href: user-guide/example-going-offline.md
+  - name: Set options
+    items: 
+    - name: Set address book options
+      href: user-guide/set-address-book-options.md
+    - name: Customize your regional settings
+      href: user-guide/customize-regional-settings.md
+    - name: Set personal options that affect tracking and synchronization
+      href: user-guide/set-personal-options-affect-tracking-synchronization-exchange.md

@@ -1,0 +1,62 @@
+- name: Overview
+  href: overview.md
+- name: What's new with Dynamics 365 App for Outlook
+  href: whats-new.md
+- name: Deploying the app
+  href: deploy-dynamics-365-app-for-outlook.md
+- name: Customizing the app
+  items: 
+  - name: Customizing the app
+    href: Customizing-the-app.md
+  - name: Set up delegate access
+    href: enable-delegate-access.md
+  - name: Customize the track regarding card
+    href: customize-the-track-regarding-card.md
+  - name: Customize which entities appear in Quick create 
+    href: add-a-custom-entity-to-quick-create.md
+  - name: Enable activities to use Set Regarding lookup
+    href: enable-a-custom-entity-to-appear-in-the-regarding-lookup.md
+  - name: Customize the app to auto populate data from an Outlook item to a Quick Create form
+    href: auto-populate-data-into-quickcreate.md
+  - name: Expand the fields search on in Regarding lookup
+    href: search-on-custom-field-regarding-lookup.md
+  - name: Filter entities and views that appear in Dynamics 365 App for Outlook
+    href: filter-entities-and-views.md
+  - name: Limitations when customizing the app
+    href: limitations-when-customizing-app-for-outlook.md
+- name: Using the app
+  items: 
+  - name: Using the app
+    href: dynamics-365-app-outlook-user-s-guide.md
+  - name: Link an email message or appointment to a row in Dynamics 365
+    href: user/track-message-or-appointment.md
+  - name: FAQs about email tracking
+    href: user/faq-email-tracking.md
+  - name: Create a new contact, lead, or account
+    href: user/add-email-recipient-as-a-row.md
+  - name: Add a phone call, appointment, or task activity
+    href: user/add-activities.md
+  - name: Use the assistant to gain insights
+    href: user/assistant.md
+  - name: Add an email template
+    href: user/email-template.md
+  - name: Add sales literature or a knowledge base article to an email
+    href: user/add-literature-or-kb.md
+  - name: Use delegate access
+    href: user/use-delegate-access.md
+  - name: Track S/MIME signed emails
+    href: user/s-mime-email.md
+- name: Run the checker to troubleshoot issues
+  href: diagnostic-checker.md
+- name: FAQs
+  href: faq.md
+- name: Version 8.x
+  items: 
+  - name: About this content
+    href: ../outlook-app/v8/about-this-content.md
+  - name: What's new with Dynamics 365 App for Outlook, version 8.2
+    href: ../outlook-app/v8/whats-new-v8.md
+  - name: Deploy Dynamics 365 App for Outlook
+    href: ../outlook-app/v8/deploy-dynamics-365-app-for-outlook.md
+  - name: Dynamics 365 App for Outlook User Guide, version 8.2
+    href: ../outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md

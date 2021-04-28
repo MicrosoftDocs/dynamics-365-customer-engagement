@@ -1,0 +1,426 @@
+- name: Overview
+  href: overview.md
+- name: New and upcoming features
+  href: new-upcoming.md
+- name: Field Service user guide
+  href: user-guide.md
+- name: Get started
+  href: field-service-get-started.md
+- name: Installation + upgrade
+  items: 
+  - name: Field Service installation (web + mobile)
+    href: install-field-service.md
+  - name: Upgrade Field Service
+    href: upgrade-field-service.md
+  - name: Uninstall Field Service
+    href: uninstall-field-service.md
+  - name: Preview new features
+    href: field-service-preview.md
+- name: Administration
+  items: 
+  - name: Initial configuration
+    href: perform-initial-configurations-setup.md
+  - name: Set up users and security roles
+    href: view-user-accounts-security-roles.md
+  - name: Location and map settings
+    href: field-service-maps-address-locations.md
+  - name: Priorities
+    href: set-priorities.md
+  - name: Postal codes
+    href: set-up-postal-codes.md
+  - name: Tax codes
+    href: set-up-tax-codes.md
+  - name: Territories
+    href: set-up-territories.md
+  - name: Sample data installation
+    href: install-sample-data-8-x.md
+  - name: Field Service settings
+    href: configure-default-settings.md
+- name: Quickstarts
+  items: 
+  - name: Set up users to create, schedule, and view work orders
+    href: quickstart-schedule-work-order.md
+  - name: Auto-schedule a list of work orders with RSO
+    href: rso-quickstart.md
+- name: Work orders
+  items: 
+  - name: Work order process architecture
+    href: field-service-architecture.md
+  - name: Create a new work order
+    href: create-work-order.md
+  - name: Work order life cycle and statuses
+    href: work-order-status-booking-status.md
+  - name: Add account details to a work order
+    href: work-order-customer-account.md
+  - name: Work order types
+    href: create-work-order-types.md
+  - name: Price list
+    href: create-price-list.md
+  - name: Products and services
+    href: create-product-or-service.md
+  - name: Service task types
+    href: set-up-service-task-types.md
+  - name: Knowledge articles
+    href: field-service-knowledge-management.md
+  - name: Work order summary reports
+    href: reports.md
+  - name: Inspections
+    items: 
+    - name: Create and view inspections
+      href: inspections.md
+    - name: Advanced inspection options
+      href: inspections-advanced.md
+    - name: Run reports on inspections
+      href: inspections-reporting.md
+  - name: Work order templates (incident types)
+    href: configure-incident-types.md
+  - name: Predictive work duration and resource proficiency suggestions (Preview)
+    href: analytics-predictive-work-duration.md
+  - name: Capture resolution details
+    href: work-order-resolutions.md
+  - name: Work order completion surveys
+    href: work-order-surveys.md
+- name: Frontline workers & bookable resources
+  items: 
+  - name: Frontline worker setup
+    items: 
+    - name: Frontline worker setup
+      href: frontline-worker-set-up.md
+    - name: Mailbox setup
+      href: frontline-worker-set-up-email-approval.md
+  - name: Set up bookable resources
+    href: set-up-bookable-resources.md
+  - name: Display a bookable resource on the schedule board
+    href: add-resource-schedule-board.md
+  - name: Apply a calendar to a bookable resource
+    href: calendar-resource.md
+  - name: Bookable resource categories
+    href: set-up-bookable-resource-categories.md
+  - name: Characteristics
+    href: set-up-characteristics.md
+  - name: Send technician arrival time and current map location
+    href: reminders-arrival-time.md
+  - name: Resource pay types
+    href: set-up-resource-pay-types.md
+  - name: Submit and approve time-off requests
+    href: submit-approve-time-off-requests.md
+  - name: Time entry
+    href: field-service-time-entry.md
+- name: Scheduling
+  items: 
+  - name: Universal Resource Scheduling for Field Service
+    href: universal-resource-scheduling-for-field-service.md
+  - name: Types of scheduling
+    href: scheduling-capabilities.md
+  - name: Scheduling personas
+    href: scheduling-roles-personas.md
+  - name: The 5 stages of scheduling adoption
+    href: 5-stages-scheduling-adoption.md
+  - name: Administration and configuration
+    items: 
+    - name: Enable an entity for scheduling
+      href: schedule-new-entity.md
+    - name: Geocoding for travel time
+      href: turn-on-auto-geocoding.md
+    - name: Booking statuses
+      href: set-up-booking-statuses.md
+    - name: Booking timestamps + journals
+      href: booking-timestamps.md
+    - name: Include appointments in scheduling
+      href: appointment-scheduling.md
+    - name: Fulfillment preferences
+      href: set-up-time-groups.md
+    - name: Booking rules
+      href: set-up-booking-rules.md
+    - name: Analytics dashboard
+      href: scheduling-analytics-reports.md
+  - name: Scheduling
+    items: 
+    - name: Schedule assistant overview
+      href: schedule-assistant.md
+    - name: Travel time and distance
+      href: schedule-with-travel-time.md
+    - name: Time constraints
+      href: schedule-time-constraints.md
+    - name: Resource preferences
+      href: resource-preferences.md
+    - name: Quick scheduling
+      href: quick-scheduling.md
+    - name: Multi-resource
+      href: multi-resource-scheduling-requirement-groups.md
+    - name: Multi-day
+      href: schedule-multi-day-work.md
+    - name: Crews
+      href: resource-crews.md
+    - name: Pools
+      href: resource-pools.md
+    - name: Facilities
+      href: facility-scheduling.md
+    - name: Advanced filters
+      href: schedule-assistant-advanced-filters.md
+  - name: Schedule board
+    items: 
+    - name: Configure the schedule board
+      href: configure-schedule-board.md
+    - name: Share schedule board tabs
+      href: share-schedule-board-tab.md
+    - name: Utilization
+      href: schedule-board-utilization.md
+    - name: Schedule board custom resource attribute
+      href: extend-schedule-board-custom-resource-attribute.md
+    - name: Edit booking templates
+      href: booking-template.md
+    - name: Booking alerts
+      href: booking-alert.md
+    - name: Schedule board tab settings
+      href: schedule-board-tab-settings.md
+    - name: Next-generation schedule board experience
+      href: preview-schedule-board.md
+- name: Mobile app
+  items: 
+  - name: Implement and adopt the mobile app
+    href: mobile-2020-power-platform.md
+  - name: Overview
+    href: mobile-power-app-overview.md
+  - name: System requirements
+    href: mobile-power-app-system-requirements.md
+  - name: Install and setup
+    href: mobile-power-app-get-started.md
+  - name: Use the mobile app
+    href: mobile-power-app-use.md
+  - name: Edit sitemap, forms, and views
+    href: mobile-power-app-configure.md
+  - name: Offline data and sync filters
+    href: mobile-power-app-system-offline.md
+  - name: Barcode scanning and global search
+    href: mobile-power-app-system-barcode-scanning.md
+  - name: Booking maps
+    href: mobile-powerapp-booking-maps.md
+  - name: Push notifications
+    href: mobile-power-app-push-notifications.md
+  - name: Location tracking, sharing, and auditing
+    href: mobile-powerapp-location-auditing.md
+  - name: Geofencing
+    href: mobile-powerapp-geofence.md
+  - name: Technician service reports
+    href: mobile-powerapp-reporting.md
+  - name: Workflows and scripts
+    href: mobile-power-app-workflows.md
+  - name: Intune mobile app management
+    href: mobile-power-app-intune.md
+  - name: Use Microsoft Power Platform
+    href: mobile-power-utilize-platform.md
+  - name: FAQs
+    href: mobile-power-app-faq.md
+  - name: Field Service Mobile (Xamarin app)
+    items: 
+    - name: Overview
+      href: field-service-mobile-overview.md
+    - name: Install and Setup
+      href: field-service-mobile-app-user-guide.md
+    - name: Use the app
+      href: field-service-mobile-use.md
+    - name: Customizations and configurations
+      href: mobile-app-configuration-customization.md
+    - name: Activate mobile configurator
+      href: activate-fs-mobile-app-license.md
+    - name: Map API key
+      href: mobile-enable-maps.md
+    - name: Upgrade the mobile project template
+      href: mobile-upgrade-project.md
+    - name: Push notifications
+      href: mobile-push-notifications.md
+    - name: Device and app management with Microsoft Intune
+      href: field-service-mobile-intune.md
+    - name: Geofencing
+      href: geofencing.md
+    - name: Deep linking
+      href: mobile-deeplink.md
+    - name: Use Power Automate flows with Field Service Mobile
+      href: mobile-workflow-to-flow.md
+    - name: FAQs (Xamarin app)
+      items: 
+      - name: What is the latest version of the mobile app and configuration tool?
+        href: mobile-faq-latest-version.md
+      - name: Mobile app won't sync to server or crashes immediately
+        href: mobile-faq-sync-crash.md
+      - name: Bookings don't appear when logged into the app?
+        href: mobile-faq-bookings-not-showing.md
+      - name: Bookings not scheduled to me show up when logged into the mobile app
+        href: mobile-faq-bookings-not-scheduled-to-me.md
+      - name: More FAQs
+        href: mobile-faq.md
+  - name: Get help
+    href: mobile-get-help.md
+- name: Agreements and preventive maintenance
+  items: 
+  - name: Agreements
+    href: set-up-customer-agreements.md
+  - name: Service level agreements
+    href: sla-work-orders.md
+  - name: Agreement sub-statuses
+    href: set-up-agreement-sub-statuses.md
+  - name: Entitlements
+    href: work-order-entitlements.md
+- name: Asset servicing
+  items: 
+  - name: Customer assets
+    href: configure-set-up-customer-assets.md
+  - name: Functional location
+    href: assets-functional-location.md
+  - name: Asset properties
+    href: asset-properties.md
+  - name: 3D asset models
+    href: 3D-viewer.md
+- name: Inventory and purchasing
+  items: 
+  - name: Overview
+    href: inventory-purchasing-returns-overview.md
+  - name: Warehouses
+    href: create-warehouse.md
+  - name: Create a purchase order
+    href: create-purchase-order.md
+  - name: Process a return
+    href: process-return.md
+  - name: Manual inventory journals
+    href: manual-inventory-journals.md
+- name: Resource scheduling optimization add-on
+  items: 
+  - name: Overview
+    href: rso-overview.md
+  - name: Get resource scheduling optimization
+    href: rso-get-install.md
+  - name: Quickstart
+    href: rso-quickstart.md
+  - name: Deployment
+    href: rso-deployment.md
+  - name: Configuration and setup
+    href: rso-configuration.md
+  - name: Scopes
+    href: rso-optimization-scope.md
+  - name: Goals
+    href: rso-optimization-goal.md
+  - name: Schedules
+    href: rso-optimization-schedule.md
+  - name: Publishing
+    href: rso-schedule-optimization.md
+  - name: Set up a proof of concept
+    href: rso-proof-concept.md
+  - name: Schedule in sequence
+    href: rso-requirement-dependency.md
+  - name: Predictive travel times
+    href: rso-predictive-travel.md
+  - name: Travel outside working hours
+    href: rso-travel-outside-working-hours.md
+  - name: Running resource scheduling optimization
+    items: 
+    - name: Publishing + monitoring
+      href: rso-schedule-optimization.md
+    - name: Overnight scheduling
+      href: rso-overnight-scheduling.md
+    - name: Single resource optimization
+      href: single-resource-optimization.md
+    - name: Simulations
+      href: rso-simulation.md
+  - name: Lock options for bookings
+    href: booking-lock-options.md
+  - name: Resolving conflicts for bookings
+    href: rso-handling-resolving-booking-conflicts.md
+  - name: Analytics dashboard
+    href: scheduling-analytics-reports.md
+  - name: FAQs + troubleshooting
+    href: rso-faq.md
+- name: Connected Field Service (IoT)
+  items: 
+  - name: Overview
+    href: connected-field-service.md
+  - name: Administration
+    items: 
+    - name: Architecture
+      href: developer/connected-field-service-architecture.md
+    - name: Security roles for Connected Field Service
+      href: cfs-security-roles.md
+    - name: Authorize API app connection
+      href: cfs-authorize-api-connection.md
+    - name: Device categories
+      href: cfs-device-categories.md
+  - name: Connect your IoT data
+    items: 
+    - name: Azure IoT Hub
+      items: 
+      - name: Azure IoT Hub
+        href: developer/connected-field-service-developer-guide.md
+      - name: Prerequisites for Azure subscription
+        href: cfs-azure-subscription.md
+      - name: Installation
+        href: installation-setup-iothub.md
+      - name: Register IoT devices
+        href: cfs-register-devices.md
+      - name: Pull device data
+        href: cfs-pull-device-data.md
+      - name: "Quickstart: Build your own IoT solution"
+        href: connected-field-service-overview.md
+    - name: Azure IoT Central
+      href: cfs-iot-overview.md
+    - name: Use custom IoT providers
+      href: cfs-custom-iot-provider.md
+  - name: Analyze
+    items: 
+    - name: Receive IoT alerts from Azure IoT Central
+      href: cfs-iot-central-alerts.md
+    - name: Associate devices with customer accounts
+      href: cfs-iot-central-associate-devices.md
+    - name: Summary tiles
+      href: cfs-summary-tiles.md
+    - name: Visualizing device readings
+      href: cfs-visualizations-iot-hub.md
+    - name: Reports
+      href: cfs-powerbi.md
+    - name: AI for IoT alerts
+      href: iot-alerts-ai-based-suggestions.md
+  - name: Take action
+    items: 
+    - name: IoT alerts
+      href: cfs-iot-alerts.md
+    - name: Connected Field Service on mobile
+      href: cfs-mobile-powerapp.md
+    - name: Send commands
+      href: cfs-commands.md
+    - name: Receive IoT alerts from real MXChip device
+      href: cfs-iotcentral-mxchip.md
+    - name: IoT - Parent IoT alerts workflow
+      href: developer/iot-parent-iot-alerts-workflow.md
+    - name: Extend standard components or add Azure services
+      href: developer/extend-connected-field-service-solutions.md
+  - name: Troubleshoot + FAQs
+    href: cfs-troubleshoot.md
+- name: Integrations
+  items: 
+  - name: Dynamics 365 Supply Chain Management
+    href: supply-chain-field-service-integration.md
+  - name: Dynamics 365 Remote Assist
+    href: remote-assist-hololens.md
+  - name: Dynamics 365 Guides
+    href: mixed-reality-guides-integration.md
+  - name: SAP integration
+    href: field-service-sap-integration.md
+- name: Additional resources
+  items: 
+  - name: Version history (web + mobile)
+    items: 
+    - name: Field Service
+      href: version-history.md
+    - name: Universal Resource Scheduling
+      href: field-service-version-history-resource-scheduling.md
+    - name: Resource Scheduling Optimization
+      href: field-service-version-history-resource-scheduling-optimization.md
+    - name: Field Service Mobile (Xamarin)
+      href: field-service-version-history-mobile.md
+  - name: AppSource add-ins for Field Service
+    href: appsource-addins.md
+  - name: Dynamics 365 US Government cloud (GCC) availability
+    href: field-service-dynamics365-government.md
+- name: Troubleshoot with Solution Health Hub
+  href: troubleshoot-field-service-solution-health.md
+- name: General FAQs
+  href: troubleshoot-faq.md

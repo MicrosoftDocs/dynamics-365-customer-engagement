@@ -1,0 +1,30 @@
+- name: Administer customer engagement apps in Dynamics 365
+  items: 
+  - name: Administer customer engagement apps in Dynamics 365
+    href: admin-guide.md
+  - name: Manage instances
+    items: 
+    - name: Manage instances
+      href: new-instance-management.md
+    - name: Sandbox
+      href: manage-sandbox-instances.md
+    - name: Add instance
+      href: add-instance-subscription.md
+    - name: Switch instance
+      href: switch-instance.md
+    - name: Copy instance
+      href: copy-instance.md
+    - name: Delete instance
+      href: delete-instance.md
+    - name: Back up and restore instances
+      href: backup-restore-instances.md
+    - name: Support instances
+      href: support-instance.md
+    - name: Move instance
+      href: move-instance-tenant.md
+    - name: Edit properties of an instance
+      href: edit-properties-instance.md
+    - name: Multiple online instances or tenants
+      href: multiple-online-instances-tenants.md
+    - name: Add and edit multiregional instances
+      href: add-edit-multiregional-instances.md
