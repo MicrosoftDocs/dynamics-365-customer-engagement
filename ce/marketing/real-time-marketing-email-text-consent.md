@@ -34,12 +34,12 @@ Whether consent is checked before sending emails and text messages depends on th
 
 ## How consent is respected for emails
 
-When creating a new email message, one of the parameters you need to set up is **Message designation**. To set up message designation, select the three dots in the email header to the left of the **Ready to send** button, then select **Settings**. This will open a slide out pane on the right titled **Email settings**. 
+When creating a new email message, one of the parameters you need to set up is **Message designation**. To set up message designation, select the gear icon ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") in the email header. This will open the **Email header** settings pane on the right side of the page. Navigate to the **Email settings** section.
 
 The message designation is a drop down field in which you can choose **Commercial** or **Transactional**. By default, new email messages are designated as commercial.
 
 > [!div class="mx-imgBorder"]
-> ![Message designation settings screenshot](media/real-time-marketing-message-designation.png)
+> ![Message designation settings screenshot](media/real-time-marketing-message-designation2.png)
 
 As required for commercial email, a **Company Address** placeholder and an **Unsubscribe** link are added to the email footer automatically. The company address reflects the value set on **Compliance** page. The unsubscribe link leads to the Preference page, where customers can review and change communication preferences.
 
@@ -62,7 +62,7 @@ When you initially install real-time marketing, the real-time marketing consent 
 1. Load consent information that was already captured for contacts from previous Dynamics 365 Marketing settings.
 
 > [!div class="mx-imgBorder"]
-> ![Email and text consent entry screenshot](media/real-time-marketing-email-text-consent.png)
+> ![Email and text consent entry screenshot](media/real-time-marketing-email-text-consent2.png)
 
 ## Loading consent from contacts
 
