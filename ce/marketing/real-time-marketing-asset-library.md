@@ -30,6 +30,9 @@ The new, centralized asset library lets you upload files that are automatically 
 > [!NOTE]
 > The asset library supports JPEG, GIF, and PNG images.
 
+> [!div class="mx-imgBorder"]
+> ![Single photo asset library screenshot](media/real-time-marketing-asset-library2.png)
+
 ## Asset library features
 
 ### Quickly upload assets
@@ -40,9 +43,12 @@ You can upload a single media file, bulk upload a few media files, or even uploa
 
 Use tags to organize your assets as needed. All images uploaded into the library are automatically analyzed and described by AI (using AI tags). As a result, you can easily find an image containing a searched object. For example, by typing “house,” you will find all images showcasing houses, regardless of their file names. You can also sort your assets by *Title* or *Last modified* date.
 
+> [!div class="mx-imgBorder"]
+> ![Thumbnail asset library screenshot](media/real-time-marketing-asset-library-full.png)
+
 ### View assets in different ways
 
-Depending on your preferences, you can view your assets either in a thumbnail view or a list view.
+Depending on your preferences, you can view your assets as a single photo, a thumbnail view, or a list view.
 
 ### Update your assets when needed
 
