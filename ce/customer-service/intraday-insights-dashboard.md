@@ -118,6 +118,9 @@ Wrap-up | The total number of conversations in the wrap-up stage. |
 | Email ID | The email address of the agent handling the conversation. |
 |||
 
+> [!div class="mx-imgBorder"]
+> ![Agent details](media/agent-insights-dashboard-table.png "Agent details")
+
 You can also view details about a specific agent by right-clicking the agent's name and then selecting **Drill through** > **Agent details** on the shortcut menu, as shown in the following image.
 
 > [!div class="mx-imgBorder"]
@@ -126,7 +129,7 @@ You can also view details about a specific agent by right-clicking the agent's n
 > [!NOTE]
 > The **Drill through** feature isn't supported outside of Omnichannel for Customer Service.
 
-Details about the agent are displayed, as shown in the following image.
+Details about the agent are displayed as shown in the following image.
 
 > [!div class="mx-imgBorder"]
 > ![View details for an agent](media/view-agent-details.png "View details for an agent")
@@ -210,7 +213,7 @@ The **Closed conversations** table provides information related to all the conve
 
 ### Assign a conversation
 
-You can assign a conversation to another agent or route it to another queue through the ongoing conversations report. Select the **Assign** option in the **Action** column in the report. Select an available agent, and then select **Assign**.If no agent is available, you can move the conversation to another queue and check whether an agent is available. After an agent is assigned, the action is changed to **Monitor**.
+You can assign a conversation to another agent or route it to another queue through the ongoing conversations report. Select the **Assign** option in the **Action** column in the report. Select an available agent, and then select **Assign**. If no agent is available, you can move the conversation to another queue and check whether an agent is available. After an agent is assigned, the action is changed to **Monitor**.
 
 > [!NOTE]
 > You can assign a conversation when it's in any state except **Closed**. 
@@ -232,11 +235,11 @@ When a conversation is transferred, the active time spent by all agents who are 
 
 Average handle time will be accurately calculated if you ensure the following:
 
-- Agents close the sessions by selecting the **Close** button at the end of their shift. More information: [Conversation in waiting status](oc-conversation-state.md)
+- Agents close the sessions by selecting the **Close** button at the end of their shift. More information: [Conversation in waiting status](oc-conversation-state.md).
 - Agents don't change the computer time.
 - Agents don't use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
-When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently computes a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md)
+When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently computes a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md).
 
 ### See also
 
