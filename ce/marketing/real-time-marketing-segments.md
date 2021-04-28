@@ -63,6 +63,8 @@ You can determine the source of a segment by looking at the **Source** column in
 
 If you have a subscription to [Dynamics 365 Customer Insights](/dynamics365/customer-insights/index) and have connected your instance to Dynamics 365 Marketing, segments from Customer Insights will also be available to you in real-time marketing.
 
+Learn more: [Use Customer Insights profiles and segments in real-time marketing](real-time-marketing-ci-profile.md)
+
 As shown in the image below, you can see whether a segment is a Marketing segment or a Customer Insights segment when you make a segment selection in your customer journey.
 
 > [!div class="mx-imgBorder"]
