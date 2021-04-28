@@ -27,9 +27,6 @@ search.app:
 
 Real-time marketing uses [segments](segmentation-lists-subscriptions.md) directly from outbound marketing and [Customer Insights](/dynamics365/customer-insights/index). You can view the segments available to you in real-time marketing by going to **Audience** > **Segments**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the segments list in real-time marketing](media/real-time-marketing-segments.png)
-
 ## Segments from outbound marketing
 
 To create a journey based on a segment from outbound marketing:
