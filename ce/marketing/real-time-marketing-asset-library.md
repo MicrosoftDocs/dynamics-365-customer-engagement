@@ -30,10 +30,10 @@ The new, centralized asset library lets you upload files that are automatically 
 > [!NOTE]
 > The asset library supports JPEG, GIF, and PNG images.
 
+## Asset library features
+
 > [!div class="mx-imgBorder"]
 > ![Single photo asset library screenshot](media/real-time-marketing-asset-library2.png)
-
-## Asset library features
 
 ### Quickly upload assets
 

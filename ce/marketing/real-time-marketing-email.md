@@ -29,13 +29,9 @@ The real-time marketing email editor shares much of its look and feel with the [
 
 Learn more about creating email in Dynamics 365 Marketing: [Create a new email and design its content](email-design.md)
 
-> [!div class="mx-imgBorder"]
-> ![Email editor screenshot](media/real-time-marketing-email-editor.png)
-
 ## Features unique to the real-time marketing email editor
 
 In addition to the standard email editor features, the real-time marketing email editor includes unique personalization capabilities and AI-driven image suggestions.
-
 
 ### Powerful email personalization
 
@@ -49,6 +45,9 @@ To add personalized data to a real-time marketing email:
 - Add a **Label** to quickly identify your token in the content.
 - Personalized tokens are highlighted in the content designer.
 - You can see and edit all your tokens in the **Dynamic data** tab.
+
+> [!div class="mx-imgBorder"]
+> ![Email editor screenshot](media/real-time-marketing-email-editor.png)
 
 ### AI-driven image suggestions
 
