@@ -102,3 +102,11 @@ landingContent:
         links:
           - text: Real-time marketing asset library
             url: real-time-marketing-asset-library.md
+
+  # Card
+  - title: Developer
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Push notification setup for application developers
+            url: real-time-marketing-developer-push.md
