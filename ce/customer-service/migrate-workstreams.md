@@ -25,3 +25,6 @@ After the migration is complete, open the Omnichannel admin center app, and veri
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
+[Configure work classification rulesets](configure-work-classification.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
