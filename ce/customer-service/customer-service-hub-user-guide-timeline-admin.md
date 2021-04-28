@@ -48,7 +48,7 @@ To begin, select the entity and form where you want to add and configure your ti
 #### Select a form for timeline configuration example:
 ![Select a form for timeline configuration](media\timeline-configuration-2a.png "Select a form for timeline configuration")
 
-1. In this example we selected **Forms** under the **Account** entity, which displayed a list of **Form types**. 
+1. In this example, we selected **Forms** under the **Account** entity, which displayed a list of **Form types**. 
 2. Since timelines can only be used on **Main** form types, we selected **Account for Interactive experiences**. 
 
 ### Add or remove a timeline from an entity form
@@ -294,14 +294,14 @@ When you expand the **Activities record settings** on the timeline component sec
 |Configuration View ||Display View|
 |-------------------|-|-----------|
 |![How to configure activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-11a.png "How to configure activity record types")||![Activity record types](media\timeline-how-to-configure-activity-record-types-display-options-advanced-11d.png "activity record types")|
-|1. Expand and view **Activities** under the **Record settings** section using the caret (^).<BR> 2. A list of **Activity types** is displayed in the expanded view. <BR> 3. You can enable or disable activity by selecting an activity type. In this example we selected **Email**<BR><BR> To enable an **Activity type**, check the box next to **Enable** and select **Done**.<BR><BR>To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in the timeline.  || 1. When enabled, an **Activity type** will appear under the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record"). <BR> 2. The activity type will be displayed as an option the user can choose from the dropdown menu. <BR> 3. Also, the **Activity type** record is displayed in the body of the timeline.| 
+|1. Expand and view **Activities** under the **Record settings** section using the caret (^).<BR> 2. A list of **Activity types** is displayed in the expanded view. <BR> 3. You can enable or disable activity by selecting an activity type. In this example, we selected **Email**<BR><BR> To enable an **Activity type**, check the box next to **Enable** and select **Done**.<BR><BR>To disable an **Activity type**, uncheck the box next to **Enable** and select **Done**. This will grey out all other items in the box and disable the activity type from displaying on the timeline.  This also disables the activity type from being created or viewed in the timeline.  || 1. When enabled, an **Activity type** will appear under the **Create a timeline record** ![Create a timeline record](media\timeline-create-a-record-icon.png "Create a timeline record"). <BR> 2. The activity type will be displayed as an option the user can choose from the dropdown menu. <BR> 3. Also, the **Activity type** record is displayed in the body of the timeline.| 
 
 > [!NOTE]
 > A check mark appears to the right next to enabled **Activity types**. Additional record type settings are disabled until they're enabled under that specific record type.
 
 ### Enable status tags on activity record types
 
-Status tags match the status filter that display in the timeline to help you to see at a glance if the state of an activity record is **Active**, **Overdue**, or **Closed** on a task, appointment or email.  Admin can enable or disable status tags for any **Activity type** in the **Record settings**. Status tags are enabled by default.
+Status tags match the status filter that display in the timeline to help you to see at a glance if the state of an activity record is **Active**, **Overdue**, or **Closed** on a task, appointment, or email.  Admin can enable or disable status tags for any **Activity type** in the **Record settings**. Status tags are enabled by default.
 
 |Configuration View | | Display View|
 |-------------------|--|------------|
@@ -354,7 +354,7 @@ The Card Header displays the title/subject in your timeline email form. You can 
 |Configuration View || Display View|
 |-------------------|-|------------|
 |![Customize a card form in timeline - Header](media\timeline-create-and-use-card-forms-header-1a.png "Customize a card form in timeline - Header")||![Card form in timeline - Header Display](media\timeline-create-and-use-card-forms-header-display-1a.png "Card form in timeline - Header Display")|
-| **Field 1** <BR>1. Regardless of the field you choose for this section, it will appear as a bold header at the top of your timeline record. For this example, we selected **Subject** for this field. <br><BR>**Field 2** <BR>2. Again regardless of the field you choose for this section as well, this field will always appears in the bottom-right corner of the timeline record. For this example we selected **Modified On** for this field. ||**Field 1**<BR>1. Field 1 from the card header is always displayed in this section of the timeline record.<BR><BR>**Field 2**<BR>2. Field 2 from the card header is always displayed in this section of the timeline record. |  	
+| **Field 1** <BR>1. Regardless of the field you choose for this section, it will appear as a bold header at the top of your timeline record. For this example, we selected **Subject** for this field. <br><BR>**Field 2** <BR>2. Again regardless of the field you choose for this section as well, this field will always appears in the bottom-right corner of the timeline record. For this example, we selected **Modified On** for this field. ||**Field 1**<BR>1. Field 1 from the card header is always displayed in this section of the timeline record.<BR><BR>**Field 2**<BR>2. Field 2 from the card header is always displayed in this section of the timeline record. |  	
 
 **Details Section**
 
@@ -363,7 +363,7 @@ The Card Details section displays in the body of your the timeline email record.
 |Configuration View ||Display View|
 |------------------|--|-----------|
 |![Customize a card form in timeline - Details section](media\timeline-create-and-use-card-forms-details-1a.png "Customize a card form in timeline - Details section") | |![Display the card form in timeline - Details section](media\timeline-create-and-use-card-forms-details-display-1a.png "Display the card form in timeline - Details section")|
-|The Card Details will always appear below the Header regardless of the field you choose.<BR><BR>**Field 1**<BR>1. In the card details Field 1 acts as a sub-header on the timeline record. For this example we selected **To** for this field.<BR><BR>**Field 2**<BR>2. This field will only display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed and formatted. For this example we selected **CC** for this field.<BR><BR>**Field 3**<BR>3. This field follows the content of Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example we selected **Description** for this field.||**Field 1**<BR>1. This field always displays in this section and acts as a sub-header on the timeline record. <BR><BR>**Field 2**<BR>2. This field always displays in this section and only displays one line of text in the summary view but when expanded, content is fully displayed. <BR><BR>**Field 3**<BR>3. This field will always display in this section and is only viewable when the record is expanded.|	
+|The Card Details will always appear below the Header regardless of the field you choose.<BR><BR>**Field 1**<BR>1. In the card details Field 1 acts as a subheader on the timeline record. For this example, we selected **To** for this field.<BR><BR>**Field 2**<BR>2. This field will only display one line of text in a summary view on the timeline record.  When you expand your timeline record,  content in this field is fully displayed and formatted. For this example, we selected **CC** for this field.<BR><BR>**Field 3**<BR>3. This field follows the content of Field 2 and is part of the main body of your timeline record that is only viewable when you expand the record. For this example, we selected **Description** for this field.||**Field 1**<BR>1. This field always displays in this section and acts as a subheader on the timeline record. <BR><BR>**Field 2**<BR>2. This field always displays in this section and only displays one line of text in the summary view but when expanded, content is fully displayed. <BR><BR>**Field 3**<BR>3. This field will always display in this section and is only viewable when the record is expanded.|	
 
 **Footer Section**<br>
 This section is not visible on the timeline record.  
@@ -371,7 +371,7 @@ This section is not visible on the timeline record.
 |Configuration View | |Display View|
 |-------------------|--|-----------|
 |![Customize a card form in timeline - Footer section](media\timeline-create-and-use-card-forms-details-footer-1a.png "Customize a card form in timeline - Footer section")| ||
-|**Field 1**<BR>1. For this example we selected **Owner** for this field.<br><BR>**Field 2**<BR>2. For this example we selected **Regarding** for this field.<br><BR>**Field 3**<BR>3. For this example we selected **Priority** for this field.| |These fields are not visible on the timeline record |
+|**Field 1**<BR>1. For this example, we selected **Owner** for this field.<br><BR>**Field 2**<BR>2. For this example, we selected **Regarding** for this field.<br><BR>**Field 3**<BR>3. For this example, we selected **Priority** for this field.| |These fields are not visible on the timeline record |
 
 ### Set the date to use when sorting activities in timeline
 
@@ -396,7 +396,7 @@ Some dates can only exist on specific types of activities. For example, **Date s
 ![How to set create activities form type in timeline](media\timeline-how-to-set-create-activities-form-type-1a.png "How to set create activities form type in timeline")
 
 1. The **Create activities** feature allows you to choose which type of form you want to work in based on your business needs.  
-2. **Quick create form** appears in a model on the right. There are some activities which do not support quick create that will always use email for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
+2. **Quick create form** appears in a model on the right. There are some activities that don't support quick create that will always use email, for example. For more information, see [Create or edit model-driven app quick create forms for a streamlined data entry experience](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms).
 <BR>**Main form** navigates you to the activity entity main form. For more information, see [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms).  
 
 > [!NOTE]
@@ -487,11 +487,11 @@ To enable mentions in notes and posts, contact [Microsoft Help + support](https:
 
 When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"). The users and entities that are displayed are pulled from the configuration file provided in the **Rich text editor configuration URL** field. More information: [Use the rich text editor control in Power Apps](/powerapps/maker/model-driven-apps/rich-text-editor-control)
 
-By default, the **@** symbol returns matches with the first name, last name or email address of system users starting with the search string.
+By default, the **@** symbol returns matches with the first name, last name, or email address of system users starting with the search string.
 
 By default, the **#** symbol returns matches with the account and contact name entity records starting with the search string.
 
-As an administrator, you can configure additional entities to appear when a user types these symbols. Note that adding more entities to the default configured entities may result in slower load times, so add only the entities required by your organization. You can add the following additional entities:
+As an administrator, you can configure additional entities to appear when a user types these symbols. Adding more entities to the default configured entities may result in slower load times, so only add the entities that are required by your organization. You can add the following additional entities:
 
 - "systemuser"
 - "contact"
