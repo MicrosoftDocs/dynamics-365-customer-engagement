@@ -1,7 +1,7 @@
 ---
 title: "Customize the track regarding card in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/09/2018
+ms.date: 04/28/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -30,7 +30,7 @@ For example, the contact card in Outlook has three columns title **Job Title**, 
    > [!div class="mx-imgBorder"]
    > ![Contact card example](media/sample-contact-card-columns.png)
 
-If you wanted to updated the columns and repalace the **Mobile Phone** column with the **Company Name** column instead, you need to update the contact form and change the columns that appear.
+To repalace the **Mobile Phone** column with the **Company Name** column, then you need to update the contact form and update the columns that appear.
 
    > [!div class="mx-imgBorder"]
    > ![Contact card before customization](media/before-cust.png)
