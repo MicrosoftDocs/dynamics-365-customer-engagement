@@ -23,14 +23,16 @@ search.app:
 ---
 # Customize the track regarding card 
 
-An app maker can change the form a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). For example, on the contact form you might want to replace the **Mobile Phone** column with **Company Name** column instead.
+An app maker can change the form a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). 
+
+For example, the contact card table for Outlook has three columns called **Job Title**, **Business Phone**, and **Mobile Phone**.
 
    > [!div class="mx-imgBorder"]
    > ![Contact card before customization](media/before-cust.png)
 
-It's importand to note, that only the first three columns appear in the track regarding contact card. Although, a related sub-grid can be added to the quick view form, but it doesn't render within the **Track Regarding** contact card.
+If you wanted to updated the columns and repalace the **Mobile Phone** column with the **Company Name** column instead, you need to update the contact form and change the columns that appear.
 
-To change the columns that appear, follow these steps:
+To do this, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -51,7 +53,7 @@ To change the columns that appear, follow these steps:
    > [!div class="mx-imgBorder"]
    > ![Select the App for Outlook Contact Card form](media/maker-outlook-contact-card.png)
 
-5. Drag **Company Name** above **Mobile Phone**.
+5. Drag **Company Name** above **Mobile Phone**. It's important to note, that only the first three columns appear in the track regarding contact card. Although, a related sub-grid can be added to the quick view form, but it doesn't render within the **Track Regarding** contact card.
 
 
    > [!div class="mx-imgBorder"]
@@ -67,7 +69,7 @@ To change the columns that appear, follow these steps:
 
 After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the changes to appear.
 
-The company name now appears after the contact name in the Contact card.
+The company name now appears at the bottom instead of the mobile phone number.
 
    > [!div class="mx-imgBorder"]
    > ![Contact row after customization](media/after-cust.png)
