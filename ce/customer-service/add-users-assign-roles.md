@@ -73,6 +73,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can view/add/edit/delete operating hours | Yes |||||
 | Can view/add/edit/delete auth settings | Yes |||||
 | Can view operating hours || Yes ||||
+| Can monitor, assign, and transfer conversations || Yes ||||
 | Can view user list/presence list/work stream list/queue list ||| Yes |||
 | Can view quick replies ||| Yes |||
 | Can read agent script |||| Yes ||

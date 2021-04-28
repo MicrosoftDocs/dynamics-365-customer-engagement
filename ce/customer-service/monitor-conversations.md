@@ -1,7 +1,7 @@
 ---
 title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations as a supervisor."
-author: mh-jaya
+author: "mh-jaya"
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: v-jmh
 manager: shujoshi
@@ -9,114 +9,82 @@ ms.date: 04/21/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-
 # Monitor, assign, and transfer conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-As a supervisor, you can monitor the conversations that are being handled by agents. Monitoring the conversations helps you identify the conversations that need your attention to provide your expertise or suggestions to close. You can select a conversation from the dashboard and choose the **Monitor** action from the grid command bar. You can also join a conversation. When you join, notifications about your presence are sent to the agent and customer who are in the conversation. You join the conversation in consult mode, which enables you to provide your expertise to the agent who is interacting with the customer.
+As a supervisor, you can monitor, assign or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard. For more information, go to [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
-As a supervisor, if your administrator has enabled the **Assign** feature, you can also manually assign conversations to agents in cases where a conversation is not assigned. Only conversations that are in an open state can be assigned by supervisors.
+When you monitor conversations, you can understand how they are trending and also check if any conversation needs your immediate attention. You can also view customer sentiments and agent responses.
 
-Also, you can transfer ongoing conversations that are in the active or waiting status from one agent to another.
-
-Use the **Omnichannel Ongoing Conversations** dashboard to access the monitor and assign features. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
-
-The following screenshot is an example of Omnichannel Ongoing Conversations:
-
-> [!div class=mx-imgBorder]
-> ![Omnichannel Ongoing Conversations dashboard example](media/supervisor-ongoing-conversations-dashboard.png "Omnichannel Ongoing Conversations dashboard example")
-
-## Things you must know
-
-Before you start using the **Omnichannel Ongoing Conversations** dashboard, here are a few things you must be aware of:
-
-- The monitor feature is supported for work streams configured for all channels except Entity Records.
-
-- You can monitor only conversations that are in the **Active** and **Wrap-up** states.
-
-- You can't monitor conversations that are assigned to you.
+> [!NOTE]
+> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**.
 
 ## Monitor and join conversations
 
-By monitoring the conversations, you will get an overview of how each conversation is trending, such as sentiments and agent responses, and can choose to join a conversation that might need your attention.
-  
-By joining the conversation, you provide necessary inputs to both agent and customer based on the selected message mode (public or internal) in the communication panel.
+As a supervisor, you can monitor or assign workstreams that are configured for all channels except records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.  
 
-1. Sign in to the **Omnichannel for Customer Service** app.
+> [!NOTE]
+> You can't monitor conversations that are assigned to you.
 
-2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+1. Sign in to **Omnichannel for Customer Service**.
 
+2. From the dashboard view selector, select the **Omnichannel Ongoing         Conversations** dashboard.
     The list of conversations currently being handled by your agents is displayed.
 
-3. Choose a conversation to monitor and select **Monitor** on the top-right corner.
-
-    > [!div class=mx-imgBorder]
-    > ![Select Monitor option](media/supervisor-select-monitor-conversation.png "Select Monitor option")
-
+3. Select a conversation that you want to monitor and select **Monitor**.
     The conversation page opens.
 
-4. You can choose to join a conversation as required. Select **Join chat** in the communication panel.
+4. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
-    > [!div class=mx-imgBorder]
-    > ![Select Join chat](media/supervisor-select-join-chat.png "Select Join chat")
-
-    When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start a consultation with the agent and customer by using a messaging mode (public or internal). By default, the messaging mode is internal.
-
-    To learn more, see [View communication panel](oc-conversation-control.md).
+    When you join the conversation, both the agent and the customer receive notifications that you have joined the conversation. Depending on your requirement, you can consult with the agent and customer via public or internal modes. For more information, go to [View communication panel](oc-conversation-control.md).
 
 ## Assign conversations
 
-At times, you may need to manually assign a conversation. In such cases, the conversation should be in an open status or not assigned to any agent. You can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded will be displayed.
+To manually assign a conversation, the conversation should be in an open state and not assigned to any agent. As a supervisor, you can override the agent's presence and allocated capacity when assigning conversations to them. When you override agent capacity, the number of units by which their capacity is exceeded is displayed.
 
-1. Sign in to the **Omnichannel for Customer Service** app.
+1. From the dashboard view selector in **Omnichannel for Customer Service**, select the **Omnichannel Ongoing Conversations** dashboard.
 
-2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+2. Select a conversation in an **Open** state, and then select **Assign**.
 
-    The list of available agents and their capacities, and queues, is displayed.
-    > [!div class=mx-imgBorder]
-    > ![Select Assign option](media/assign-agents-conversations.png "Select Assign option")
+3. On the **Assign conversations** dialog box, select **Agent** or **Queue**.
 
-3. Choose a conversation in an **Open** state, and select **Assign** on the top-right corner.
-    > [!div class=mx-imgBorder]
-    > ![Select agent or queue option](media/assign-agent-queue.png "Select either agent or queue option")
+    > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
+    > If you select **Queue**, then all other queues except the one to which the conversation is currently assigned, are displayed.
 
-4. On the **Assign conversations** dialog box, choose one of the following options:
-
-  - **Agent:** Select to assign the conversation to an agent, and choose an agent name from the list. Agents whose presence matches with one of the allowed presence values in the work stream configuration only will be listed.
-  - **Queue:** Select a queue from the queues list. All queues are listed except the queue to which the conversation is currently assigned.
-
-5. Depending on the option you chose in Step 4, choose the agent or queue, and then select **Assign**.
+4. After selecting the agent or queue, select **Assign**.
+   The conversation is now assigned to the agent or queue you selected.
 
 ## Transfer conversations
 
-At times, you may need to transfer an ongoing conversation from an agent to another agent. In such cases, the conversation should be in an active or waiting status.
+You can transfer ongoing conversations that are in the **Active** or **Waiting** states. You can transfer all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. However, if and when these conversations switch from the text mode to voice or video modes, you can't transfer them across agents.
 
-1. Sign in to the **Omnichannel for Customer Service** app.
+> [!NOTE]
+> You can transfer conversations to and from agents only, and not bots.
 
-2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
+1. From the dashboard view selector in **Omnichannel for Customer Service**, select the **Omnichannel Ongoing Conversations** dashboard.
 
     The list of available agents, their capacities, and queues is displayed.
 
-3. Choose a conversation in an **Active** or **Waiting** state, and select **Transfer** on the top-right corner.
-    > [!div class=mx-imgBorder]
-    > ![Select Transfer option](media/transfer-agents-conversations.png "Select Transfer option")
+2. Select a conversation in an **Active** or **Waiting** state and select **Transfer**.
 
-4. On the **Transfer conversations** dialog box, select **Agent**.
+3. On the **Transfer conversations** dialog, select the agent that you want to transfer the conversation to, from the list of agents that appears.
 
-      Select to transfer the conversation to an agent by choosing an agent name from the list. Agents whose presence match with one of the allowed presence values in the work stream configuration only will be listed.
+      Only those agents whose presence matches with one of the allowed presence values in the workstream configuration will be listed.
 
-5. After selecting the agent, select **Transfer**.
-    The selected conversation is transferred to the agent.
+4. Select **Transfer**. The selected conversation is transferred to the agent.
+
+> [!NOTE]
+> When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent.
+
+> When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
 
 ### See also
 
 [Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
 [Enable sentiment analysis](enable-sentiment-analysis.md)  
-[Enable supervisors to monitor and assign conversations](configure-intraday-dashboard-supervisor.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
