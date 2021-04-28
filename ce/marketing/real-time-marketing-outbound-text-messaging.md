@@ -57,7 +57,7 @@ messages. This results in the phone number being blocked and becoming unusable. 
 After you create your phone number, you start authoring text messages by going to **Real-time marketing** > **Channels** > **Text messages** and selecting **+New text message** in the top ribbon. This will take you to the text messaging editor.
 
 > [!div class="mx-imgBorder"]
-> ![Text editor screenshot](media/real-time-marketing-text-editor.png)
+> ![Text editor screenshot](media/real-time-marketing-text-editor2.png)
 
 > [!IMPORTANT]
 > In the text messaging editor, the message designation is pre-selected as transactional for numbers that might be prone to carrier filtering if used for promotional or marketing messaging. To make sure that your number is not blocked by carriers, it is highly recommended to use this number for transactional messaging only.
