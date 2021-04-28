@@ -31,11 +31,11 @@ It may be caused by one of the following reasons:
 
 ## I get an error message that the selected language is not supported.
 
-You need to make sure that your language setting matches one of the languages supported by AI suggestions. For more information on the supported languages and language settings, see [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#Language-support-for-ai-suggestions).
+You need to make sure that your language setting matches one of the languages supported by AI suggestions. For more information on the supported languages and language settings, see [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions).
 
 ## I get an error message that detected language doesn't match the language settings.
 
-The AI model is used to detect the language of the cases and conversations. If the language detected doesn't match the language in the settings or if the language is not supported, suggestions are not displayed. If the case or conversation doesn’t contain enough information or contains mixed languages, the AI model may not be able to detect the language correctly. More information on how language support works, see  [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#Language-support-for-ai-suggestions).
+The AI model is used to detect the language of the cases and conversations. If the language detected doesn't match the language in the settings or if the language is not supported, suggestions are not displayed. If the case or conversation doesn’t contain enough information or contains mixed languages, the AI model may not be able to detect the language correctly. More information on how language support works, see  [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions).
 
 ## I get an error message in Suggestions settings page, “We couldn’t pre-process the case records or knowledge articles”. What should I do?
 
