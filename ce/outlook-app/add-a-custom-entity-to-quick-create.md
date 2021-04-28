@@ -1,7 +1,7 @@
 ---
 title: "Add a custom table to the quick create menu in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-description: Add a custom table to appear to the quick create menu in  Dynamics 365 App for Outlook.
+description: Add a custom table to appear to the quick create menu in Dynamics 365 App for Outlook.
 ms.date: 04/28/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -24,12 +24,26 @@ search.app:
 ---
 # Customize which tables appear in quick create  
 
+An app maker can enable a table or custom table that you create to appear in the create **New** menu (quick create menu) in Dynamics 365 App for Outlook. 
+
+
+In the **Before** you can see 
+
+|**Before**  |**After** |
+|---------|---------|
+| ![Quick create menu before adding a new table](user/media/custom-table-before.png)     |     ![A custom table has been added to the quick create menu](user/media/custom-table-after.png "Power Apps mobile user interface with model-driven and canvas apps")  |
 
 
 
-Follow these steps to enable a custom entity to appear in Quick create. Note, this example shows addition of custom entity but it can be used to add any entity.
+Legend:
 
-![Custom entity in Quick create](media/custom-entity-quick-create.png) 
+1. **New** (quick create) button.
+2. Tables that are enabled for quick create.
+3. App maker has enanbled a custom table to appear in the quick create menu.
+
+
+
+
 
 1. In your app, go to **Settings** > **Customizations** > **Customize the System**.
 2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
