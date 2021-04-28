@@ -450,7 +450,7 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ## Posts on timeline
 
-To enable rich text posts on timeline, contact [Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support). 
+To enable rich text posts on timeline, contact [Microsoft Support](/power-platform/admin/get-help-support). 
 
 > [!NOTE]
 > Posts are currently only available for CRM applications.
