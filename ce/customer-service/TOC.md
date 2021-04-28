@@ -375,7 +375,7 @@
 ##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
 #### Monitor conversations
-##### [Monitor, assign, and transfer conversations](monitor-conversations.md)
+##### [Monitor and assign conversations](monitor-conversations.md)
 ##### [Monitor and analyze sentiments](supervisor-sentiment-monitoring.md)
 
 ### Customize dashboards
