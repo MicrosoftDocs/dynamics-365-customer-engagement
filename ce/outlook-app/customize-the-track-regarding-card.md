@@ -1,6 +1,7 @@
 ---
-title: "Customize the track regarding card in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
-ms.custom: 
+title: "Customize the track regarding contact card in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
+ms.custom:
+description: How to modify the App for Outlook Contact Card form.
 ms.date: 04/28/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -21,21 +22,21 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize the track regarding card 
+# Customize the track regarding contact card 
 
-An app maker can change the form a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). 
+An app maker can modify the contact card a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). To modify the contact card an app maker, needs to moidify the **App for Outlook Contact Card** form.
 
-For example, the contact card in Outlook has three columns title **Job Title**, **Business Phone**, and **Mobile Phone**. These are the three columns a user see when they track and email or appointment with a contact.
+In the example below, the **App for Outlook Contact Card** form has three columns titled **Job Title**, **Business Phone**, and **Mobile Phone**. This is the same columns a user sees when they track and email or appointment using the contact card.
 
    > [!div class="mx-imgBorder"]
    > ![Contact card example](media/sample-contact-card-columns.png)
 
-To repalace the **Mobile Phone** column with the **Company Name** column, then you need to update the contact form and update the columns that appear.
+If you wanted to modify the **Mobile Phone** column and replace it with the **Company Name** column, then you need to update the contact card form and update the columns that appear.
 
    > [!div class="mx-imgBorder"]
    > ![Contact card before customization](media/before-cust.png)
 
-To change the columns that appear on the contact card, follow these steps:
+To modify columns that appear on the contact card, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
