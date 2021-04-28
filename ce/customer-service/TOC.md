@@ -316,7 +316,9 @@
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
 #### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
-#### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)
+#### [Enable Supervisor settings](enable-supervisor-settings.md)
+##### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)
+##### [Enable Supervisor to monitor, assign, and transfer conversations](enable-monitor-assign-transfer-conv.md)
 #### [Configure real-time customer sentiment](enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md)
 
@@ -336,7 +338,7 @@
 #### Omnichannel Insights
 ##### [Introduction to Omnichannel Insights](intro-dynamics-365-omnichannel-insights-dashboard.md)
 ##### [View and understand Omnichannel Insights dashboard](omnichannel-insights-dashboard.md)
-#### Monitor conversations (monitor-conversations.md)
+#### Monitor,assign, and transfer conversations (monitor-conversations.md)
 ##### [Monitor and analyze sentiments](supervisor-sentiment-monitoring.md)
 ### Customize insights
 #### [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
