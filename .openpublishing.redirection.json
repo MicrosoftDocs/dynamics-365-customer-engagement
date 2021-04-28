@@ -1826,11 +1826,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/index.md",
-      "redirect_url": "https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customize/import-update-export-solutions.md",
       "redirect_url": "export-solution",
       "redirect_document_id": "false"
