@@ -1,7 +1,7 @@
 ---
 title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations as a supervisor."
-author: mh-jaya
+author: "mh-jaya"
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,6 @@ ms.date: 04/21/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-
 # Monitor, assign, and transfer conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -24,13 +23,12 @@ When you monitor conversations, you can understand how they are trending and als
 > [!NOTE]
 > To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**.
 
-
 ## Monitor and join conversations
 
 As a supervisor, you can monitor or assign workstreams that are configured for all channels except records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.  
 
 > [!NOTE]
->  You can't monitor conversations that are assigned to you.
+> You can't monitor conversations that are assigned to you.
 
 1. Sign in to **Omnichannel for Customer Service**.
 
@@ -80,7 +78,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 4. Select **Transfer**. The selected conversation is transferred to the agent.
 
 > [!NOTE]
-> When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent. 
+> When you transfer an **Active** or **Waiting** state conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent.
 
 > When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
 
