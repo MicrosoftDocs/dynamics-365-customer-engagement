@@ -70,7 +70,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |         |Resource (Resource)                   |The Resource entity as explained below |
 |         |Location (TimeSlotLocation)           |The entity contains details about the location of a time slot. See the below TimeSlotLocation for more details |
 |         |TimeGroup (TimeSlotTimeGroup)         |The entity contains details about a time group. See the below TimeSlotTimeGroup for more details |
-|         |AvailableIntervals (List <<Guide>OutputTimeSlot>)|A collection of available intervals.|
+|         |AvailableIntervals (List<<Guide>OutputTimeSlot>)|A collection of available intervals.|
 |Resource |Resource (EntityReference)|An entity reference to the bookable resource.|
 |         |BusinessUnit (EntityReference) |An entity reference to the bookable resource group.|
 |         |OrganizationUnit (EntityReference) |An entity reference to the organizational unit.|
