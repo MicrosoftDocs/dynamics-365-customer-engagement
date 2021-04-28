@@ -27,6 +27,21 @@ Push notifications help to engage app users and help them prioritize key tasks. 
 
 For information on creating push notifications, see [Create push notifications for Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification).
 
+## Validate your flow
+
+1. In [Power Automate](https://flow.microsoft.com), select **My flows** from the navigation bar on the left, and then select a flow.
+
+    ![Select a flow](media/select-flow.png "Select a flow")
+
+2. From the run history, select an instance of the run.
+
+    ![Run history of a flow](media/flow-run-history.png "Run history of a flow")
+
+3. Validate the inputs passed during the run.
+
+    ![Validate the inputs of a flow](media/flow-inputs.png "Validate the inputs of a flow")
+
+
 ### See also
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
