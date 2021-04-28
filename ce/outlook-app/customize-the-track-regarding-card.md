@@ -25,7 +25,7 @@ search.app:
 
 An app maker can change the form a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). 
 
-For example, the contact card table for Outlook has three columns called **Job Title**, **Business Phone**, and **Mobile Phone**.
+For example, the contact card table for Outlook has three columns called **Job Title**, **Business Phone**, and **Mobile Phone**. These are the three columns a user see when they track and email or appointment with a contact.
 
    > [!div class="mx-imgBorder"]
    > ![Contact card before customization](media/sample-contact-card-columns.png)
