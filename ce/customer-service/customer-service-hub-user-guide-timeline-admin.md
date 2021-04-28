@@ -483,7 +483,12 @@ Go to your timeline configuration in [make.powerapps.com](https://make.powerapps
 
 ## Configure mentions in notes and posts on timeline
 
-To enable mentions in notes and posts, contact [Microsoft Help + support](https://docs.microsoft.com/power-platform/admin/get-help-support). You can also temporarily try out this feature before asking Microsoft to enable it by appending the following text string to your current browser session URL: ```&flags=FCB.TimelineWallRichTextPosts=true,FCB.TimelineNotesRichTextMentions=true```
+To enable mentions in notes and posts, contact [Microsoft Help + support](https://docs.microsoft.com/power-platform/admin/get-help-support). You can also temporarily try out this feature before asking Microsoft to enable it by appending the following text string to your current browser session URL:
+
+```
+&flags=FCB.TimelineWallRichTextPosts=true,FCB.TimelineNotesRichTextMentions=true
+
+```
 
 When the rich text editor is enabled, users can mention other users and entities in notes and posts using the **@** and **#** symbols. Configuration for the rich text editor is available in the maker experience in **Power Apps**: [make.powerapps.com](https://make.powerapps.com "make.powerapps.com"). The users and entities that are displayed are pulled from the configuration file provided in the **Rich text editor configuration URL** field. More information: [Use the rich text editor control in Power Apps](/powerapps/maker/model-driven-apps/rich-text-editor-control)
 
