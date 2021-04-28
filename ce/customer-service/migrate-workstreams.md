@@ -4,7 +4,7 @@ description: "Use the migration tool to migrate workstreams to enable them for u
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/15/2021
+ms.date: 04/28/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -19,7 +19,12 @@ You can use the migration utility that is available at the following link:
 
 Download the [Migrate workstreams for unified routing](https://go.microsoft.com/fwlink/p?linkid=2161582) PDF that is available with the migration utility and follow the steps to migrate your workstreams.
 
-After the migration is complete, open the Omnichannel admin center app, and verify that the workstreams are migrated according to your requirement. You can then configure the work classification rules and any other settings pertaining to unified routing.
+After the migration is complete, open the Omnichannel admin center app, and perform the following steps to verify that the workstreams are migrated according to your requirement:
+
+1. Open the route to queue rules and skill identification rules, if any, and verify the migrated rules to make sure that they represent the same rules as what you've configured before migration.
+2. Perform a sanity check by initiating chats and verifying that they are routed to the expected queues.
+
+You can then configure the work classification rules and any other settings pertaining to unified routing.
 
 ### See also
 
