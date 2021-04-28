@@ -1,7 +1,7 @@
 ---
 title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
-ms.date: 11/30/2020
+ms.date: 04/28/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -18,7 +18,7 @@ Records and regarding entities can be accessed from the home page or the Meeting
 - On the home page, go to the **Recent records** section.   
 - On the Meetings page, go to the **Regarding** section.   
 
-You can [view details](#view-details) and [edit records and entities](#edit-records-and-entities) on records on the home and Meetings pages. Additionally, you can [change a regarding entity](view-agenda.md#change-regarding-entity) and [add a regarding entity](view-agenda.md#add-regarding-entity) on the Meetings page.
+You can [view details](#view-details), [create new records](#create-records-and-activities), and [edit records](#edit-records-and-entities) on the home and Meetings pages. Additionally, you can [change a regarding entity](view-agenda.md#change-regarding-entity) and [add a regarding entity](view-agenda.md#add-regarding-entity) on the Meetings page.
 
 ## View details
 
@@ -39,6 +39,25 @@ The Meeting details page displays the regarding entity that is related to the me
 
 >[!NOTE]
 >To learn more about notes, go to [Manage notes](view-edit-add-note.md).
+
+## Create records and activities
+
+Follow these steps to quickly create records and activities in the Dynamics 365 Sales mobile app.
+
+1.  Tap the plus sign ![Plus icon](media/sm-plus-icon.png "Plus icon") on the navigation bar at the bottom of the screen.
+
+2.  Tap **Create new**.
+
+    ![Create a new record](media/sm-create-record.png "Create a new record")
+
+3.  Select a table type from the list.
+
+    ![Select a table from the list](media/select-table.png "Select a table from the list")
+
+4.	In the **Create New (table)** form, fill in the details, and then tap **Save**.
+
+> [!NOTE]
+> To understand which table types are supported for quick creation of records and activities, see [Configure tables for quick creation](configure-quick-create.md).
 
 ## Edit records and entities
 
