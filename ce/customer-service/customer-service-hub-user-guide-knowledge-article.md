@@ -78,8 +78,8 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 10. In the **Assign Primary Author** drop-down list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
 
     Once a new article created, the author value will be replicated to Primary author if it is a systemuser but not a team. The knowledge article author must be a single user (not a team) in order to be searchable and to load properly.
- 
-   You can mark the article complete by selecting the checkbox at this stage.
+    
+    You can mark the article complete by selecting the checkbox at this stage.
 
 > [!TIP]
 > Select the icon ![flyout icon](media/flyout.png) to pin the stage flyout vertically.
