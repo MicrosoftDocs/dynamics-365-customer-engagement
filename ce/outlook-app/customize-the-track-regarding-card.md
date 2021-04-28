@@ -73,7 +73,7 @@ To modify columns that appear on the contact card, follow these steps:
    > ![Publish customizations](media/maker-publish-customizations.png)
 
 
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the changes to appear. Once synchronization is complete, the company name now appears at the bottom instead of the mobile phone number.
+After completing the above, right-click in the track regarding card, and then choose **Refresh**. It will take a few minutes for the synchronization to complete and the changes to appear. Once synchronization is complete, the company name now appears at the bottom instead of the mobile phone number.
 
    > [!div class="mx-imgBorder"]
    > ![Contact row after customization](media/after-cust.png)
