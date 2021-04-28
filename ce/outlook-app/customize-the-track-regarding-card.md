@@ -28,7 +28,7 @@ An app maker can change the form a user sees when they track an email or appoint
 For example, the contact card table for Outlook has three columns called **Job Title**, **Business Phone**, and **Mobile Phone**.
 
    > [!div class="mx-imgBorder"]
-   > ![Contact card before customization](media/sample-contact-card-folumns.png)
+   > ![Contact card before customization](media/sample-contact-card-columns.png)
 
 If you wanted to updated the columns and repalace the **Mobile Phone** column with the **Company Name** column instead, you need to update the contact form and change the columns that appear.
 
