@@ -106,7 +106,7 @@ or
 
 Sign in to Omnichannel Admin Centre application. Select **Insights** and then select **Settings**.
 
-2. Select** **Manage** and then **Suggestions**. The **Suggestions** page appears.
+2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
 3. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
 4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
