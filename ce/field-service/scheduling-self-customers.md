@@ -24,7 +24,7 @@ search.app:
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
 
 
-Field Service self-service scheduling aims to improve your customers' scheduling experience by providing them flexibility to schedule on their own time, directly from their devices.<!--note from editor: In the image, can you remove that extra digit from the end of the phone number? -->
+Field Service self-service scheduling aims to improve your customers' scheduling experience by providing them flexibility to schedule on their own time, directly from their devices.
 
 > [!div class="mx-imgBorder"]
 > ![Self-service scheduling functionality on a tablet and mobile device.](./media/SS_Hero-screens.png)
@@ -46,7 +46,7 @@ First, we need to set up the customer experience portal with Power Apps portals.
    > [!div class="mx-imgBorder"]
    > ![Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
 
-1. Enter your portal's name and subdomain, select the display language you want, and then select **Create**.<!--note from editor: Edit okay? Or do you select the subdomain rather than enter it?-->
+1. Enter your portal's name and subdomain, select the display language you want, and then select **Create**.
 
 You'll get an email when the portal has been provisioned, and then you can move on to the next step.
 
@@ -67,8 +67,8 @@ Here you'll find three Power Automate flows. Email and SMS flows are off by defa
 > [!div class="mx-imgBorder"]
 > ![List of flows available in the "Dynamics 365 Field Service PowerApps Portal – Flow" solution.](./media/SS_PAFlow_Flows.jpg)
 
->[!NOTE]
->The following procedures use the popular providers Exchange and Twilio as examples.<!--note from editor: Suggested.--> You can substitute an alternate connector by cloning the flows and configuring the connector you want.
+> [!NOTE]
+> The following procedures use the popular providers Exchange and Twilio as examples. You can substitute an alternate connector by cloning the flows and configuring the connector you want.
 <!--markdownlint-disable MD036-->
 **To configure email**
 
@@ -76,7 +76,7 @@ Here you'll find three Power Automate flows. Email and SMS flows are off by defa
 1. Select **Edit**.
 1. Select the **Send an Email** Exchange connector.
 1. Add your Office 365 Exchange account connection.
-1. Save the flow, and then select **Turn On**.<!--note from editor: Edit okay?-->
+1. Save the flow, and then select **Turn On**.
 
 **To configure SMS**
 
@@ -90,7 +90,7 @@ Here you'll find three Power Automate flows. Email and SMS flows are off by defa
 ## Step 3: Set up the customer experience
 
 > [!NOTE]
-> As you enable this experience, messages can<!--note from editor: Should this be "will be sent"?--> be sent to contacts of the Field Service account associated with bookings. If you're testing in a non-production org, make sure your test data doesn't contain real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
+> As you enable this experience, messages can be sent to contacts of the Field Service account associated with bookings. If you're testing in a non-production org, make sure your test data doesn't contain real customer email addresses or phone numbers. If your org contains real data, you can prevent unnecessary communication by adding accounts to exclusion lists.
 
 In Field Service, go to **Field Service Settings** > **Customer Portal** > **Customer Portal Settings**.  
 
@@ -101,7 +101,7 @@ In Field Service, go to **Field Service Settings** > **Customer Portal** > **Cus
 
 Configure the following settings, as needed: 
 
-- **Send self-scheduling experience to Account Contacts**: When enabled, new contacts who are associated with active Field Service accounts will be sent an email that invites the contact to create a Power Apps portals<!--note from editor: Edit okay?--> account for self-scheduling. More information: [Notification types](#notification-types)
+- **Send self-scheduling experience to Account Contacts**: When enabled, new contacts who are associated with active Field Service accounts will be sent an email that invites the contact to create a Power Apps portals account for self-scheduling. More information: [Notification types](#notification-types)
 
     >[!NOTE]
     >When enabling this option, you can choose to send the invitation only to new contacts going forward, or to all existing contacts. If a contact has already received the invitation, they won't receive a second one. 
@@ -109,13 +109,13 @@ Configure the following settings, as needed:
 - **Messaging**: Messages are sent at specific points in the Field Service customer lifecycle. These messages can be enabled or disabled independently. More information: [Notification types](#notification-types)
 
 - **Communication Type**: Define whether the customer will receive email, SMS, or both message types. 
-<!--note from editor: Is it necessary to cover these settings then?-->
+- 
 - **Send Messages To**: This feature is only used with [Track My Technician](reminders-arrival-time.md).  
 
 - **Include Survey (Preview)**: This feature is only used with [Track My Technician](reminders-arrival-time.md). 
 
 - **Exclusion lists**: Exclude specific service accounts or service types from all messaging.
-<!--note from editor: Is there any reason not to blur the "Include Survey" field? It has been truncated horizontally, but I could actually figure it out if I put my mind to it. (Which maybe isn't a problem in any case?) -->
+
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/SS_Settings_Config.PNG)
 
@@ -198,7 +198,7 @@ To review and test changes, set up an account and contact in Field Service as if
 
 1. Schedule service via the self-scheduling portal. You'll receive an email confirming your booking.
 
-1. Back in Field Service, confirm that the work order is created and the booking is scheduled.<!--note from editor: Edit okay?-->
+1. Back in Field Service, confirm that the work order is created and the booking is scheduled.
 
 
 ## Configuration considerations
@@ -206,7 +206,7 @@ To review and test changes, set up an account and contact in Field Service as if
 ### Notification types
 
 **Self-scheduling portal invitation**: As new contacts are added to accounts, they'll be sent an invitation link that allows the customer to create an account with the self-scheduling portal. This notification is sent only as email.
-<!--note from editor: In the next six images, please use a different phone number (555-555-0123 would work).-->
+
 > [!div class="mx-imgBorder"]
 > ![Email invitation with a link to the self-scheduling portal.](./media/SS-Email-Invite.png)
 
@@ -270,7 +270,7 @@ From the self-scheduling experience, customers can:
 5. Select **Book**. 
 
 After successfully submitting their scheduling request, the user will then see a confirmation message that includes the details for their booking.
-<!--note from editor: Please use a different phone number (555-555-0123 would work).-->
+
 > [!div class="mx-imgBorder"]
 > ![The customer portal, showing self-scheduling confirmed.](./media/SS-Portal-scheduled.png)
 
@@ -281,11 +281,11 @@ As an alternative to using content snippets, you can update content and access m
 1. Go to https://make.powerapps.com.
 1. Select **Apps**.
 1. Select **Edit** on the portal you created.
-<!--note from editor: To be parallel with other images, can you smudge the environment name?-->
+
 > [!div class="mx-imgBorder"]
 > ![Power Apps, showing the list of apps.](./media/SS_edit-portal.jpg)
 
-In the portal designer, selected content can be updated and will be reflected in the customer portal. Updating content snippets in the portal designer<!--note from editor: Edit okay?--> will also update content in the messages, when applicable.
+In the portal designer, selected content can be updated and will be reflected in the customer portal. Updating content snippets in the portal designer will also update content in the messages, when applicable.
 
 You can use the portal designer to upload a customized header image or make more fine-tuned adjustments to the style sheet and the portal's header or footer.
 
@@ -319,7 +319,7 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ### Can you cancel a booking from the portal?
 
-You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability.<!--note from editor: Maybe give a link to release plans here? -->
+You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enchancements, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 ### Can you self-schedule a booking that requires groups of resources?
 
@@ -343,7 +343,7 @@ Make sure you have the correct process enabled for this functionality.
 3. Open the process to edit. Scroll down and select **View Properties**.
 4. Edit the **From** field to a user&mdash;most likely the same account you use to send notifications for the scheduling experience&mdash; and then select **Save and Close**.
 5. Go to **Settings** > **Email Configuration** > **Mailboxes**. 
-6. Select the user you set in step 4<!--note from editor: Edit okay?-->, select **Approve Email**, and then select **Test & Enable Mailbox**.
+6. Select the user you set in step 4, select **Approve Email**, and then select **Test & Enable Mailbox**.
 
 > [!div class="mx-imgBorder"]
 > ![Field Service process edit page, showing the "Send Password Reset to Contact" process.](./media/SS-Process-sendemail.PNG)
@@ -388,5 +388,5 @@ The general content and format of the notifications are based on a fixed templat
 
 ### How do I update my Field Service customer experiences portal?
 
-We'll publish updates over time to introduce new features and functionality for the customer portal. Updates aren't automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and then select **Portals**. If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal, and apply the update to your<!--note from editor: Edit okay?--> environment. 
+We'll publish updates over time to introduce new features and functionality for the customer portal. Updates aren't automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and then select **Portals**. If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal, and apply the update to your environment. 
 <!--markdownlint-enable MD036-->
