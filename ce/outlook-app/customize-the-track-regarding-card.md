@@ -65,7 +65,7 @@ To modify columns that appear on the contact card, follow these steps:
 
 
 7. Select **Save** > **Publish** and then close the form editor.
-8. On the solution page, select **Publish All Customizations** and then close the solutions page.
+8. On the solutions page, select **Publish All Customizations** and then close the solutions page.
 
    > [!div class="mx-imgBorder"]
    > ![Publish customizations](media/maker-publish-customizations.png)
