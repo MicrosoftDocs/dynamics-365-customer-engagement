@@ -441,6 +441,7 @@
 ### [Security roles for Connected Customer Service](cs-iot-security-roles.md)
 
 ## Migration solutions
+### [Migrate workstreams to enable for unified routing](migrate-workstreams.md)
 ### [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)
 ### [Strategy for migrating from contracts to entitlements](contract-to-entitlement-migration.md)
 ### Migrate service scheduling
