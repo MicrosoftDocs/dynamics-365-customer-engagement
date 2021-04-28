@@ -24,7 +24,9 @@ search.app:
 ---
 # Customize the track regarding contact card 
 
-An app maker can modify the contact card a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). To modify the contact card an app maker, needs to moidify the **App for Outlook Contact Card** form.
+An app maker can modify the contact card a user sees when they track an email or appointment using [**Track without Regarding**](user/track-without-set-regarding.md) or [**Set Regarding**](user/track-message-or-appointment.md). 
+
+To modify the contact card an app maker, needs to moidify the **App for Outlook Contact Card** form.
 
 In the example below, the **App for Outlook Contact Card** form has three columns titled **Job Title**, **Business Phone**, and **Mobile Phone**. This is the same columns a user sees when they track and email or appointment using the contact card.
 
