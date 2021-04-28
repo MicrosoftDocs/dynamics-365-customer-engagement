@@ -17,10 +17,15 @@ Push notifications help to engage app users and help them prioritize key tasks. 
 
 - **Mobile app**: Select **Sales**.
 - **Your app**: Select the app that you want to set up the notification for.
+- **Recipients Item-1**: Enter user's email, or user's Azure Active Directory object ID.
+- **Message**: Enter the notification message.
+- **Open app**: Select **Yes**.
+- **Entity**:  Select which entity the notification is for.
+- **Record ID**: Enter the record ID. If you don't enter a record ID, the mobile app will open at the home screen when you tap the notification. If you enter record ID, the mobile app will open the specified record when you tap the notification.
 
 ![Send push notification V2 action](media/sm-push-notif.png "Send push notification V2 action")
 
-For information on the remaining fields and creating push notifications, see [Create push notifications for Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification).
+For information on creating push notifications, see [Create push notifications for Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/power-apps-mobile-notification).
 
 ### See also
 
