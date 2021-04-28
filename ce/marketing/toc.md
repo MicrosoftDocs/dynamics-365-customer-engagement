@@ -134,13 +134,13 @@
 ##### [Create an event-based journey](real-time-marketing-event-based-journey.md)
 ##### [Work with segments in real-time marketing](real-time-marketing-segments.md)
 ##### [Create a segment-based journey](real-time-marketing-segment-based-journey.md)
+##### [Real-time marketing event triggers](real-time-marketing-event-triggers.md)
+##### [Custom event triggers in real-time marketing](real-time-marketing-custom-events.md)
 ##### [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md)
 ##### [Set a business goal and measure progress through a journey](real-time-marketing-business-goals.md)
 ##### [Use natural language in real-time marketing journeys](real-time-marketing-natural-language.md)
 ##### [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md)
 ##### [Access and interpret analytics](real-time-marketing-analytics.md)
-##### [Real-time marketing event triggers](real-time-marketing-event-triggers.md)
-##### [Custom event triggers in real-time marketing](real-time-marketing-custom-events.md)
 #### Assets
 ##### [Real-time marketing asset library](real-time-marketing-asset-library.md)
 #### Administration

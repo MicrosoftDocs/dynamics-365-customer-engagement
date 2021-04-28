@@ -56,14 +56,14 @@ landingContent:
             url: real-time-marketing-analytics.md
       - linkListType: reference
         links:
-          - text: Work with segments in real-time marketing
-            url: real-time-marketing-segments.md
-          - text: Real-time marketing journey tile reference
-            url: real-time-marketing-tile-reference.md
           - text: Real-time marketing event triggers
             url: real-time-marketing-event-triggers.md
           - text: Custom event triggers in real-time marketing
             url: real-time-marketing-custom-events.md
+          - text: Work with segments in real-time marketing
+            url: real-time-marketing-segments.md
+          - text: Real-time marketing journey tile reference
+            url: real-time-marketing-tile-reference.md
 
   # Card
   - title: Administration
