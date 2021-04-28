@@ -319,7 +319,7 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ### Can you cancel a booking from the portal?
 
-You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enchancements, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enhancements, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
 
 ### Can you self-schedule a booking that requires groups of resources?
 
