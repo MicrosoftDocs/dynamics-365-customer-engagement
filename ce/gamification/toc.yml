@@ -1,0 +1,64 @@
+- name: Improve productivity
+  items: 
+  - name: Improve productivity
+    href: increase-employee-productivity.md
+  - name: Overview for commissioners and game managers
+    items: 
+    - name: Overview for commissioners and game managers
+      href: for-commissioners-game-managers.md
+    - name: Before you get started
+      href: get-started.md
+    - name: Understand security roles
+      href: understand-security-roles.md
+    - name: Manage users and security roles
+      href: manage-players-fans.md
+    - name: Install and configure Gamification
+      href: manage-gamification-in-dynamics-365-online.md
+    - name: Manage KPIs
+      href: configure-kpis.md
+    - name: Best practices for KPIs
+      href: best-practices-kpis.md
+    - name: Run games
+      href: run-games.md
+    - name: Gamification settings
+      href: personalize-game-experience.md
+    - name: Excel point scoring
+      href: update-scores-using-excel-point-scoring.md
+    - name: Schedule emails
+      href: schedule-weekly-one-time-emails.md
+    - name: Weekly awards
+      href: define-weekly-awards.md
+    - name: Configure Stream TVs
+      href: configure-view-tvs.md
+  - name: Overview for players and fans
+    items: 
+    - name: Overview for players and fans
+      href: for-players-fans.md
+    - name: Sign in
+      href: sign-in.md
+    - name: Manage your user profile
+      href: set-up-profile.md
+    - name: Manage your team
+      href: manage-fantasy-team.md
+    - name: Log your time off
+      href: log-time-off.md
+    - name: Post on the smack talk board
+      href: smack-talk-post.md
+    - name: Contact a commissioner
+      href: contact-commissioner.md
+    - name: View a leaderboard
+      href: view-leaderboard.md
+  - name: What's new in Gamification
+    href: release-notes.md
+  - name: Glossary
+    href: glossary.md
+  - name: Browser settings
+    href: browser-system-requirements.md
+  - name: FAQ
+    href: frequently-asked-questions.md
+  - name: Troubleshooting
+    href: troubleshooting-guide.md
+  - name: Privacy and legal information
+    href: legal-information.md
+  - name: Dynamics 365 Gamification and GDPR
+    href: dynamics-365-gamification-gdpr.md
