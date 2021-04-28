@@ -31,7 +31,7 @@ In the **Before** you can see
 
 |**Before**  |**After** |
 |---------|---------|
-| ![Quick create menu before adding a new table](user/media/custom-table-before.png)     |     ![A custom table has been added to the quick create menu](user/media/custom-table-after.png "Power Apps mobile user interface with model-driven and canvas apps")  |
+| ![Quick create menu before adding a new table](media/custom-table-before.png)     |     ![A custom table has been added to the quick create menu](media/custom-table-after.png "Power Apps mobile user interface with model-driven and canvas apps")  |
 
 
 
