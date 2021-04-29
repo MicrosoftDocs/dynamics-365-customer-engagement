@@ -35,7 +35,7 @@ An app maker can enable a table or a custom table to appear in the create **New*
 
 ## Step 1: Enable a table to appear in **New** (quick create) menu
 
-1 Sign in to [Power Apps](https://make.powerapps.com).
+1. Sign in to [Power Apps](https://make.powerapps.com).
 
 2. On the left nav, select **Data** to expand it and then select **Tables**.  
 
@@ -48,12 +48,12 @@ An app maker can enable a table or a custom table to appear in the create **New*
    > [!div class="mx-imgBorder"]
    > ![Select settings](media/maker-row-settings.png "Select setting")
 
-5. Expand **More settings** > **Create and update settings** and then select the checkbox for **Enable quick create forms**.
+4. Expand **More settings** > **Create and update settings** and then select the checkbox for **Enable quick create forms**.
 
    > [!div class="mx-imgBorder"]
    > ![Enable the table for quick create](media/enable-table-quick-create.png)
 
-6. Select **Done** and then **Save Table**.
+5. Select **Done** and then **Save Table**.
 
 ## Step 2: Create a quick create form  
   
