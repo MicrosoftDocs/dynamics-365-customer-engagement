@@ -70,14 +70,7 @@ These fields that will be populated automatically:
    
 7. Select **Save and publish**.
 
-## Use quick create to create a case 
 
-1. Open an email item that you want to create a case entity for and then select the **Dynamics 365** button. 
-2. On the **Dynamics 365** pane, select ![Quick Create](media/outlookapp_quickcreate.png "Quick Create form") **Quick Create** > **Case**.
-
-    The information from the Outlook item will auto populate in the case form.
-
-3. When you're done, select **Save and Close**. 
 
 
 
