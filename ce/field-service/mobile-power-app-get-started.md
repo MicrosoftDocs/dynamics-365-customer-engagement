@@ -49,17 +49,21 @@ After you install or upgrade to Field Service v8.8.22+, the **Field Service** an
 
 ## Assign mobile app users appropriate security roles
 
-Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
+Set up a Dynamics 365 Field Service user with the **Field Service-Resource** security role and **Field Service-Resource** field security profile. This user will sign in to the Field Service (Dynamics 365) mobile app as a technician.
 
 > [!div class="mx-imgBorder"]
 > ![The Manage User Roles dialog in Dynamics 365](./media/mobile-2020-resource-security-role.png)
 
+Pro Tip: Use the [getting started page](frontline-worker-set-up) to quickly create a frontline worker and automate set up steps.
+
 ## Assign security roles to the Field Service mobile app
 
-On the **Field Service Mobile** card, select the ellipses (...), select **Manage Roles**, and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
+Go to [https://make.powerapps.com/](https://make.powerapps.com/) > _Apps_ in the left pane.
+
+Find the **Field Service Mobile** model driven app and select the ellipses (...), select **Share**, and assign the app to the **Field Service-Resource**, **Field Service-Administrator**, and other relevant roles that will need access to the mobile app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-admin-assign-role-app.png)
+> ![Screenshot of the Dynamics 365 list of apps, showing the Field Service Mobile solution in the list.](./media/mobile-2020-assign-roles-to-app.png)
 
 ## Download the app and sign in
 
