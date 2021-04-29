@@ -25,6 +25,8 @@ search.app:
 
 Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case entity. You can only enable the quick create option for the case entity. 
 
+![Demo of how to create a case table using quick create](media/emil-to-case.gif)
+
 
 
 These fields that will be populated automatically:
