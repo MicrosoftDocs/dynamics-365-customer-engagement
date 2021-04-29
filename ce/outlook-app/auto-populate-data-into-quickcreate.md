@@ -35,11 +35,11 @@ These fields that will be populated automatically:
 |                                                                                                |                                                                                              |                                                                                      |
 |------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 |                                          **Outlook item field**                                           |  | **Quick Create Case form field** |
-|                             Currently selected contact's account (if known)                                |                                             Mapped to ->                                              |                                         Customer                                          |
+|                             Email sender                                |                                             Mapped to ->                                              |                                         Contact                                          |
 |                            Email/appointment subject                            |                                              Mapped to ->                                              |                                         Case Title                                          |
 |                              Currently selected contact (if known)                              |                                             Mapped to ->                                              |                                         Contact                                          |
 |                              Email                                |                                               Mapped to ->                                               |                                         Origin                                          |
-|                                   Email/appointment body                                     |                                              Mapped to ->                                              |                                          Description                                        |
+|                                   Email body                                     |                                              Mapped to ->                                              |                                          Description                                        |
 
 
 
