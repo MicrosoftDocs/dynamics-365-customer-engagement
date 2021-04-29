@@ -89,5 +89,6 @@ This step is only nesscessary if you're adding a custom table that you created t
    > [!div class="mx-imgBorder"]
    > ![Select and add the custom table](media/app-designer-add-table.png)
 
+5. Select **Save** and then **Publish** the app.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
