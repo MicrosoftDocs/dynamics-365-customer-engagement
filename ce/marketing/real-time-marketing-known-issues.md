@@ -1,7 +1,7 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 04/27/2021
+ms.date: 04/30/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

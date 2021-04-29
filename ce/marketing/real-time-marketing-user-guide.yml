@@ -5,7 +5,7 @@ title: Real-time marketing user guide
 metadata:
   title: "Real-time marketing user guide (Dynamics 365 Marketing) | Microsoft Docs"
   description: "Learn how to use real-time marketing capabilities, features, and benefits in Dynamics 365 Marketing."
-  ms.date: 04/27/2021
+  ms.date: 04/30/2021
   ms.service: dynamics-365-marketing
   ms.custom: 
     - dyn365-marketing
@@ -29,6 +29,8 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
+          - text: Real-time marketing overview
+            url: real-time-marketing-overview.md
           - text: Install the real-time marketing preview
             url: real-time-marketing-install.md
           - text: Use Customer Insights profiles and segments in real-time marketing

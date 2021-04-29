@@ -120,8 +120,9 @@
 #### [Design elements reference](content-blocks-reference.md)
 
 ### Preview: Real-time marketing
-#### [Real-time marketing overview](real-time-marketing-overview.yml)
+#### [Real-time marketing user guide](real-time-marketing-user-guide.yml)
 #### Get started with real-time marketing
+##### [Real-time marketing overview](real-time-marketing-overview.md)
 ##### [Install the real-time marketing preview](real-time-marketing-install.md)
 ##### [Use Customer Insights profiles and segments in real-time marketing](real-time-marketing-ci-profile.md)
 ##### [Known issues in real-time marketing](real-time-marketing-known-issues.md)
