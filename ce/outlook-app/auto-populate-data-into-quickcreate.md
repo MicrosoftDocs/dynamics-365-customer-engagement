@@ -53,12 +53,12 @@ These fields that will be populated automatically:
    > [!div class="mx-imgBorder"]
    > ![Edit the solution](media/edit-mailapp-solution.png)
    
-5. Select **Case** table and on the command bar, select **Edit**.
+5. Select the **Case** table and then on the command bar, select **Edit**.
 
    > [!div class="mx-imgBorder"]
    > ![Edit the case table](media/edit-case-table.png)
 
-6. Select the **Forms** tab and on the command bar select **Form settings**.
+6. Select the **Forms** tab and then on the command bar select **Form settings**.
 
    > [!div class="mx-imgBorder"]
    > ![Edit form settings](media/form-settings.png)
