@@ -54,11 +54,21 @@ These fields that will be populated automatically:
    > ![Edit the solution](media/edit-mailapp-solution.png)
    
 5. Select **Case** table and on the command bar, select **Edit**.
-6. 
+
    > [!div class="mx-imgBorder"]
    > ![Edit the case table](media/edit-case-table.png)
 
-7. Select the **Forms** tab and on the command bar select **Form settings**.
+6. Select the **Forms** tab and on the command bar select **Form settings**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit form settings](media/form-settings.png)
+
+6. On the left select **Form order** and then select **Quick Create Form** from the dropdown menu. Move **App for OUtlook Case Quick Create** to the top of the list. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit the form order](media/form-settings-1.png)
+   
+7. Select **Save and publish**.
 
 ## Use quick create to create a case 
 
