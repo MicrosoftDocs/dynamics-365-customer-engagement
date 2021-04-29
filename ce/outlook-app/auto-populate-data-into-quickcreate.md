@@ -47,7 +47,7 @@ These fields that will be populated automatically:
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solution**.
-3. Select an existing unmanaged solution or create a new one.
+3. Select an existing unmanaged solution or create a new one. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
 4. On the command bar select. **Edit**.
 
    > [!div class="mx-imgBorder"]
