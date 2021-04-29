@@ -172,6 +172,7 @@ Here you can customize:
 
 To review and test changes, we recommend setting up an account and contact as if you are an end customer.  
 
+
 1. Create an account in Field Service with an address local to your area.
 2. Next, create a contact in Field Service with a test email address and mobile phone number.
 3. Assign the contact as the primary contact of the test account you created.
@@ -357,6 +358,9 @@ Yes, you can use alterative SMS or email providers as long as they have connecto
 ### How can I manually enter a resource location without sharing location from the Field Service mobile app?
 
 To inject a new location, use advanced find in **Field Service** and search for **Geolocation Tracking**. Choose **New Geolocation Tracking**. Enter the resource and the desired latitude and longitude values.
+
+Note - Please be sure to enable Geolocation Tracking in Field Service Settings.
+
 
 ### How do I edit email and SMS content?
 
