@@ -4,7 +4,7 @@ description: "Understand and create workstreams in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/28/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -116,6 +116,9 @@ Select a workstream to perform any of the following actions:
 - **Delete**: Lets you delete the workstream if you no longer need it1 in your organization.
 
 ## Create a workstream in Omnichannel Administration
+
+> [!NOTE]
+> This section is not applicable to configuring unified routing.
 
 Perform the following steps:
 

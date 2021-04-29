@@ -4,14 +4,14 @@ description: "Use the migration tool to migrate workstreams to enable them for u
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/28/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Migrate workstreams created in Omnichannel Administration
+# Migrate messaging workstreams created in Omnichannel Administration
 
-If you are upgrading your Omnichannel for Customer Service instance to the latest release and want to use unified routing, we recommend that you migrate your existing workstreams that you created in the Omnichannel Administration app.
+If you are upgrading your Omnichannel for Customer Service instance to the latest release and want to use unified routing, we recommend that you migrate your existing workstreams for the messaging channels that you created in the Omnichannel Administration app.
 
 You can use the migration utility that is available at the following link:
 
@@ -31,5 +31,6 @@ You can then configure the work classification rules and any other settings pert
 [Overview of unified routing](overview-unified-routing.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
+[Get started with Omnichannel admin center](oc-admin-center.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
