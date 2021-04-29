@@ -282,11 +282,11 @@
     href: process-return.md
   - name: Manual inventory journals
     href: manual-inventory-journals.md
-- name: Resource scheduling optimization add-on
+- name: Resource Scheduling Optimization add-in
   items: 
   - name: Overview
     href: rso-overview.md
-  - name: Get resource scheduling optimization
+  - name: Get Resource Scheduling Optimization
     href: rso-get-install.md
   - name: Quickstart
     href: rso-quickstart.md
