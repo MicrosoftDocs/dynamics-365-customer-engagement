@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/email-postprocessing.md",
+      "redirect_url": "email-design",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/developer/reference/entities/overview.md",
       "redirect_url": "overview-entity-ref",
       "redirect_document_id": "false"
