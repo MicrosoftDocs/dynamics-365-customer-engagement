@@ -53,9 +53,11 @@ You'll get an email when the portal has been provisioned, and then you can move 
 
 ## Step 2: Configure email and SMS connectors in Power Automate
 
-Customers will be able to access their service portal by using a unique link sent to their email or as a text message via SMS.
+Customers will access their service portal with a unique link sent to their email or as a text message. To set this up, you'll need to configure one or both communication methods.
 
-Next, we need to configure email and SMS in Power Automate:
+We provide a links directly to the Power Automate Flows for Email and SMS via Field Service [Customer Portal Settings](#set-up-the-customer-experience)
+
+Alternately, you can access the Power Automate Flows for Email and SMS within Power Automate:
 
 Go to [http://make.powerapps.com](http://make.powerapps.com) > **Solutions**. Select **Dynamics 365 Field Service PowerApps Portal – Flow** in the list.
 
@@ -70,21 +72,22 @@ Here you'll find three Power Automate flows. Email and SMS flows are off by defa
 > [!NOTE]
 > The following procedures use the popular providers Exchange and Twilio as examples. You can substitute an alternate connector by cloning the flows and configuring the connector you want.
 <!--markdownlint-disable MD036-->
-**To configure email**
 
-1. Select **Field Service PowerApps Power Flow Email Notification**.
-1. Select **Edit**.
-1. Select the **Send an Email** Exchange connector.
-1. Add your Office 365 Exchange account connection.
-1. Save the flow, and then select **Turn On**.
+To configure email:
 
-**To configure SMS**
+- Click the **Field Service PowerApps Power Flow Email Notification**. This will open the Flow in a new tab.
+- With the Flow open, select **Edit**.
+- Select the **Send an Email** Exchange connector.
+- Add your Office 365 Exchange account connection.
+- Save and **Turn On** the flow.
 
-1. Select **Field Service PowerApps Power Flow SMS Notification**.
-1. Select **Edit**.
-1. Select the Twilio connector.
-1. Add your Twilio account details.
-1. Save the flow, and then select **Turn On**.
+To configure SMS:
+
+- Select **Field Service PowerApps Power Flow SMS Notification**. This will open the Flow in a new tab.
+- With the Flow open, select **Edit**.
+- Select the Twilio connector.
+- Add your Twilio account details.
+- Save and **Turn On** the flow.
 
 
 ## Step 3: Set up the customer experience
@@ -115,6 +118,8 @@ Configure the following settings, as needed:
 - **Include Survey (Preview)**: This feature is only used with [Track My Technician](reminders-arrival-time.md). 
 
 - **Exclusion lists**: Exclude specific service accounts or service types from all messaging.
+
+- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate Flows where you configure the [Email and SMS connectors](#step-2:-configure-email-and-sms-connectors-within-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/SS_Settings_Config.PNG)
@@ -317,13 +322,25 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ## FAQ for self-scheduling portals
 
+### While testing I deleted and and re-added my Contact to an Account but I do not receive an new Self Scheduling invite email?
+
+Presently a contact with a matching email will only recieve the portal invite once, even if the Contact is deleted and re-added to the system. You can work around this with the following steps:
+	1. Navigate to “Portal Management” app in Power App Admin.
+	2. Open the newly created contact record.
+	3. On the command bar, click on “Create Invitation”.
+	4. From the newly created invitation record, copy the “invite code”
+	5. Navigate to the “Web Roles” tab and click on “Add existing web role”
+	6. Select the “Web Api Users” web role.
+	7. Send the invite code and the portal link to desired email contact.
+ 
+From the Portal Side: 
+	1. Open your self scheduling Portal and navigate to the Login screen. 
+	2. Click on “redeem invitation”.
+	3. Use the invite code to create a portal account.
+
 ### Can you cancel a booking from the portal?
 
 You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enhancements, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
-
-### Can you self-schedule a booking that requires groups of resources?
-
-With this functionality in preview, you can only self-schedule individual resources that meet all requirements for the booking.
 
 ### Who receives the notifications when a booking is self-scheduled?
 
@@ -388,5 +405,14 @@ The general content and format of the notifications are based on a fixed templat
 
 ### How do I update my Field Service customer experiences portal?
 
-We'll publish updates over time to introduce new features and functionality for the customer portal. Updates aren't automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and then select **Portals**. If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal, and apply the update to your environment. 
+We'll publish updates over time to introduce new features and functionality for the customer portal. Updates aren't automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences portal installed, and then select **Portals**. If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal, and apply the update to your environment. 
 <!--markdownlint-enable MD036-->
+
+
+
+## Known Issues and Limitations in Preview
+ - Scheduling is done for user resources only at this time.
+ - You can receive scheduling slots for resources which location agnostic or outside of the service territory from which the user is scheduling.
+ - Under some circumstances the address of the Account is not populated in a work order when self scheduling.
+ - Technician is currently not booked taking into account Travel Time.
+ - Currently cannot self-schedule incident types which require crews or requiremnets which require multiple resources. 
