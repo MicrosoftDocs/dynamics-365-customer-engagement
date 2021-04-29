@@ -69,6 +69,6 @@ To enable a table to appear in **New** (quick create) menu, follow these steps:
    > [!div class="mx-imgBorder"]
    >![Enable the table for quick create](media/enable-table-quick-create.png)
 
-6. Select **Done and then **Save Table**.
+6. Select **Done** and then **Save Table**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
