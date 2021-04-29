@@ -55,9 +55,6 @@ An app maker can enable a table or a custom table to appear in the create **New*
 
 6. Select **Done** and then **Save Table**.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
 ## Step 2: Create a quick create form  
   
 1. Sign in to [Power Apps](https://make.powerapps.com).
@@ -74,3 +71,6 @@ An app maker can enable a table or a custom table to appear in the create **New*
 5.  When you are finished, select **Save**.  
   
 6.  Select **Publish** to see the new form in the application.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
