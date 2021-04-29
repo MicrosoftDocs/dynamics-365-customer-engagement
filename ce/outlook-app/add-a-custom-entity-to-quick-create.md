@@ -38,26 +38,38 @@ Legend:
 
 1. **New** (quick create) button.
 2. Current list of tables that are enabled for quick create.
-3. An app maker has enabled a new table and it now appears in the quick create menu.
+3. An app maker has enabled a new table to appear in the quick create menu.
 
 
+To enable a table to appear in **New** (quick create) menu, follow these steps:
 
+1 Sign in to [Power Apps](https://make.powerapps.com).
 
+ 
+2. On the left nav, select **Data** to expand it and then select **Tables**.  
 
-1. In your app, go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
+   > [!div class="mx-imgBorder"]
+   > ![Go to Tables in maker portal](media/maker-data-tables.png)
+   
+  
+3. Select a table such as **Contact** and then select the **Forms** tab.
 
-   ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")
-3. Verify the custom entity has a quick create form. Chose **Forms** and browse for form type **Quick Create**. Create a quick create form if needed.
+   > [!div class="mx-imgBorder"]
+   > ![Select the forms tab](media/maker-form-tab.png)
 
-   ![Quick create form](media/quick-create-form.png "Quick create form")
-4. Verify the custom entity is added to the app designer. Choose **Apps**, and then open **App for Outlook**.
+3. Select a table.
 
-   ![Apps for Outlook in Apps](media/apps-for-outlook-in-apps.png)
-5. In the app designer, choose **Entities** and browse to find your custom entity.
+4. On the command bar, select **Settings**. 
 
-   ![Custom entity in app designer](media/custom-entity-app-designer.png)
+   > [!div class="mx-imgBorder"]
+   >![Select settings](media/maker-row-settings.png "Select setting")
 
+5. Expand **More settings** > **Create and update settings** and then select the checkbox for **Enable quick create forms**. 
 
+   > [!div class="mx-imgBorder"]
+   >![Enable the table for quick create](media/enable-table-quick-create.png)
+
+6. Select **Done**  
+6.  Select **Save Table** > and then publish the table.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
