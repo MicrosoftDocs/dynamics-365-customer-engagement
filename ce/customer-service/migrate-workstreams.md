@@ -32,5 +32,6 @@ You can then configure the work classification rules and any other settings pert
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
 [Get started with Omnichannel admin center](oc-admin-center.md)  
+[FAQs on unified routing](unified-routing-faqs.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
