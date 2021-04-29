@@ -1,0 +1,70 @@
+- name: Overview of Universal Resource Scheduling
+  href: schedule-anything-with-universal-resource-scheduling.md
+- name: Scheduling
+  items: 
+  - name: Schedule assistant overview
+    href: schedule-assistant.md
+  - name: Quick scheduling
+    href: quick-scheduling.md
+  - name: Travel time and distance
+    href: schedule-travel-time.md
+  - name: Multi-resource scheduling
+    href: multi-resource-scheduling-requirement-groups.md
+  - name: Multi-day scheduling
+    href: schedule-multi-day-work.md
+  - name: Fulfillment preferences
+    href: fulfillment-preferences.md
+  - name: Resource crew scheduling
+    href: resource-crews.md
+  - name: Facility scheduling
+    href: facility-scheduling.md
+  - name: Resource pools
+    href: resource-pools.md
+  - name: Time constraints
+    href: schedule-time-constraints.md
+  - name: Advanced filters
+    href: schedule-assistant-advanced-filters.md
+- name: Schedule board configuration
+  items: 
+  - name: Enable an entity for scheduling
+    href: schedule-new-entity.md
+  - name: Share schedule board tabs
+    href: share-schedule-board-tab.md
+  - name: Utilization
+    href: schedule-board-utilization.md
+  - name: Schedule board custom resource attribute
+    href: extend-schedule-board-custom-resource-attribute.md
+  - name: Edit booking template
+    href: booking-template.md
+  - name: Booking alerts
+    href: booking-alert.md
+  - name: Schedule board tab settings
+    href: schedule-board-tab-settings.md
+  - name: Next-generation schedule board experience
+    href: preview-schedule-board.md
+- name: Extensibility
+  items: 
+  - name: Extensibility updates
+    href: developer/extensibility-release-notes.md
+  - name: Preferred geospatial data provider
+    items: 
+    - name: Use your preferred geospatial data provider
+      href: developer/use-preferred-geospatial-data-provider.md
+    - name: Create custom plug-in to use your preferred geospatial data provider
+      href: developer/create-custom-plugin-preferred-geospatial-data-provider.md
+    - name: Register and deploy custom plug-in to use your preferred geospatial data provider
+      href: developer/register-deploy-custom-plugin-preferred-geospatial-data-provider.md
+    - name: "Sample: Custom plug-in to use Google Maps API as geospatial data provider"
+      href: developer/sample-custom-plugin-google-geospatial-data-provider.md
+  - name: Customizing resource matching
+    items: 
+    - name: Understanding and customizing resource matching
+      href: developer/understanding-and-customizing-resource-matching-in-urs.md
+    - name: Find resources by language - A step by step guide
+      href: developer/extending-urs-step-by-step.md
+    - name: Universal FetchXML
+      href: developer/universal-fetchxml.md
+- name: Deprecations
+  href: deprecations.md
+- name: Bug fixes
+  href: bug-fixes.md
