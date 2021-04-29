@@ -12,7 +12,7 @@ ms.prod: dynamicscrm-2016
 
 ::: moniker range="op-9-1"
 
-This section lists the features that are included in the 9.1 update and are new to Dynamics 365 Customer Engagement (on-premises). The Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams.
+This section lists the features that are included in the Microsoft Dynamics 365 9.1 Service Pack 1, version 9.1 update and are new to Dynamics 365 Customer Engagement (on-premises). The Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces many feature enhancements designed to empower marketing, sales, and service teams.
 
 ## Enterprise Sales usability enhancements
 
