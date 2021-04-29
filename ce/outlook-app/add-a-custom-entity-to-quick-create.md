@@ -75,7 +75,7 @@ An app maker can enable a table or a custom table to appear in the create **New*
   
 ## Step 3 (optional): Verify the custom table is added to the app designer
 
-This step is only nesscessary if you're adding a custome table that you craated to the quick create form.
+This step is only nesscessary if you're adding a custom table that you created to the quick create form.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left navigation pane, select **Apps**.
@@ -83,6 +83,11 @@ This step is only nesscessary if you're adding a custome table that you craated 
 
    > [!div class="mx-imgBorder"]
    > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
+
+4. In the app designer, choose table and browse to find your custom table.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select and add the custom table](media/app-designer-add-table.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
