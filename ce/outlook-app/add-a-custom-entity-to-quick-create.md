@@ -44,14 +44,7 @@ To enable a table to appear in **New** (quick create) menu, follow these steps:
    > ![Go to Tables in maker portal](media/maker-data-tables.png)
    
   
-3. Select a table such as **Contact** and then select the **Forms** tab.
-
-   > [!div class="mx-imgBorder"]
-   > ![Select the forms tab](media/maker-form-tab.png)
-
-3. Select a table.
-
-4. On the command bar, select **Settings**. 
+3. Select a table then on the command bar, select **Settings**. 
 
    > [!div class="mx-imgBorder"]
    >![Select settings](media/maker-row-settings.png "Select setting")
