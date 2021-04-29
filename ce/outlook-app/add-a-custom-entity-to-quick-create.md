@@ -64,12 +64,12 @@ To enable a table to appear in **New** (quick create) menu, follow these steps:
    > [!div class="mx-imgBorder"]
    >![Select settings](media/maker-row-settings.png "Select setting")
 
-5. Expand **More settings** > **Create and update settings** and then select the checkbox for **Enable quick create forms**. 
+5. Expand **More settings** > **Create and update settings** and then select the checkbox for **Enable quick create forms**
 
    > [!div class="mx-imgBorder"]
    >![Enable the table for quick create](media/enable-table-quick-create.png)
 
 6. Select **Done**  
-6.  Select **Save Table** > and then publish the table.
+6. Select **Save Table** > and then publish the table.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
