@@ -54,7 +54,7 @@ Set up a Dynamics 365 Field Service user with the **Field Service-Resource** sec
 > [!div class="mx-imgBorder"]
 > ![The Manage User Roles dialog in Dynamics 365](./media/mobile-2020-resource-security-role.png)
 
-Pro Tip: Use the [getting started page](frontline-worker-set-up) to quickly create a frontline worker and automate set up steps.
+Pro Tip: Use the [frontline worker setup](frontline-worker-set-up) to quickly create a frontline worker and automate set up steps.
 
 ## Assign security roles to the Field Service mobile app
 
@@ -78,7 +78,7 @@ Open the app and sign in with your username and password, which should be the us
 
 ## (Optional) Schedule a work order
 
-To view work orders on the mobile app, you must also [create a bookable resource](./set-up-bookable-resources.md) related to your technician user, and schedule work orders to the bookable resource.
+To view work orders on the mobile app, you must also [set up a frontline worker](frontline-worker-set-up) related to your technician user, and schedule work orders to the bookable resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board, showing a list of unscheduled work orders.](./media/mobile-2020-scheduled-work-orders.png)
