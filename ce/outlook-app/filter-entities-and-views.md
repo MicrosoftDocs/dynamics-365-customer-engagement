@@ -44,8 +44,8 @@ Follow these steps to set which tables and views appear in App for Outlook:
 
    > [!div class="mx-imgBorder"]
    > ![Dynamics 365 apps My Apps page](media/AddEntities_3.png "Dynamics 365 apps My Apps page")
-
-4.  Review the list of Views that are available for the table and deselect the ones you don't want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an entity and further, on one of the views defined for that entity.
+   
+5. Review the list of Views that are available for the table and deselect the ones you don't want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an entity and further, on one of the views defined for that entity.
 
  
    > [!div class="mx-imgBorder"]
