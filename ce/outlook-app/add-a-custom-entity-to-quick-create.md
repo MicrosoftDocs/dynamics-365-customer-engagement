@@ -46,7 +46,7 @@ An app maker can enable a table or a custom table to appear in the create **New*
 3. Select a table then on the command bar, select **Settings**. 
 
    > [!div class="mx-imgBorder"]
-   >![Select settings](media/maker-row-settings.png "Select setting")
+   > ![Select settings](media/maker-row-settings.png "Select setting")
 
 5. Expand **More settings** > **Create and update settings** and then select the checkbox for **Enable quick create forms**.
 
@@ -59,18 +59,30 @@ An app maker can enable a table or a custom table to appear in the create **New*
   
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
-2.  Expand **Data**, select **Tables**, select the table that you enabled for **Enable quick create forms** , and then select the **Forms** tab.  
+2.  On the left navigation pane, expand **Data**, select **Tables**, select the table that you enabled for **Enable quick create forms** , and then select the **Forms** tab.  
 
    > [!div class="mx-imgBorder"]
-   >![Select the forms tab for the table](media/table-forms-tab.png)
+   > ![Select the forms tab for the table](media/table-forms-tab.png)
 
-3.  On the toolbar, select **Add form** > **Quick Create Form**.  
-  
+3.  On the toolbar, select **Add form** > **Quick Create Form**. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Add from and then choose quick create form](media/form-quick-create.png)
+
 4.  In the form designer drag any columns from the **Column Explorer** into the sections on the form.  
   
-5.  When you are finished, select **Save**.  
+5.  When you are finished, select **Save** and then **Publish**.
   
-6.  Select **Publish** to see the new form in the application.
+## Step 3 (optional): Verify the custom table is added to the app designer
+
+This step is only nesscessary if you're adding a custome table that you craated to the quick create form.
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left navigation pane, select **Apps**.
+3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
