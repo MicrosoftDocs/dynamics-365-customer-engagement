@@ -30,9 +30,9 @@ A timer helps users gauge the amount of time they have to complete a key perform
   
  The timer control can show any of the following, depending on the actions of the user and what you as a system administrator or customizer specify when you set up the timer control:  
   
--   If the user completes the task within the time remaining, the control shows the word **Succeeded**.  
+-   If the user completes the task within the remaining time, the control shows the word **Succeeded**.  
   
--   If the user doesn’t complete the task within the time remaining, the control shows the word **Expired**.  
+-   If the user doesn’t complete the task within the remaining time, the control shows the word **Expired**.  
   
 -   As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed.  
   
@@ -40,7 +40,7 @@ A timer helps users gauge the amount of time they have to complete a key perform
   
 -   If a condition causes the SLA KPI to be canceled, the control shows the word **Canceled**. This behavior is optional.  
   
--   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
+-   If either of the required fields in the **Timer Control** dialog box does not have a value in the record, the control shows the words **Not Set**.  
   
 To add a timer to track time against enhanced SLAs:  
   
