@@ -45,25 +45,20 @@ These fields that will be populated automatically:
 
 ## Enable quick create for a case table
 
-1. From your app, go to **Settings** > **Advanced Settings**.
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left nav, select **Solution**.
+3. Select an existing unmanaged solution or create a new one.
+4. On the command bar select. **Edit**.
 
    > [!div class="mx-imgBorder"]
-   >![Setting Customizations](media/outlookapp_advancedsettings.png "Settings Customizations")
-  
-2. Select **Settings** > **Customizations** and then select **Customize the System**.  
-
-   > [!div class="mx-imgBorder"]
-   >![Select a Customize the System](media/outlookapp_customize.png "Customize the System")
-
-3.	Expand **Entities** and then select the **Case** entity.
-4.	Expand the entity and select **Forms**, then select **Form Order** and  **Quick Create Form Set**.
-5.	Ensure that **App for Outlook Case Quick Create** form is at the top of the list, for it to be used for quick create scenario and then select **OK**.
-
-    > [!div class="mx-imgBorder"] 
-    > ![App for Outlook Case Quick Create form](media/outlookapp_qcf.png "App for Outlook Case Quick Create form")
+   > ![Edit the solution](media/edit-mailapp-solution.png)
    
-6.	On the solution page, select **Publish All Customizations** and then close the page.
+5. Select **Case** table and on the command bar, select **Edit**.
+6. 
+   > [!div class="mx-imgBorder"]
+   > ![Edit the case table](media/edit-case-table.png)
 
+7. Select the **Forms** tab and on the command bar select **Form settings**.
 
 ## Use quick create to create a case 
 
