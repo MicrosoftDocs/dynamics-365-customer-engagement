@@ -33,11 +33,10 @@ An app maker can enable a table or a custom table to appear in the create **New*
 | ![Quick create menu before adding a new table](media/custom-table-before.png)     |     ![A custom table has been added to the quick create menu](media/custom-table-after.png "Power Apps mobile user interface with model-driven and canvas apps")  |
 
 
-To enable a table to appear in **New** (quick create) menu, follow these steps:
+## Step 1: Enable a table to appear in **New** (quick create) menu
 
 1 Sign in to [Power Apps](https://make.powerapps.com).
 
- 
 2. On the left nav, select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
@@ -52,8 +51,26 @@ To enable a table to appear in **New** (quick create) menu, follow these steps:
 5. Expand **More settings** > **Create and update settings** and then select the checkbox for **Enable quick create forms**.
 
    > [!div class="mx-imgBorder"]
-   >![Enable the table for quick create](media/enable-table-quick-create.png)
+   > ![Enable the table for quick create](media/enable-table-quick-create.png)
 
 6. Select **Done** and then **Save Table**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
+## Step 2: Create a quick create form  
+  
+1. Sign in to [Power Apps](https://make.powerapps.com).
+
+2.  Expand **Data**, select **Tables**, select the table that you enabled for **Enable quick create forms** , and then select the **Forms** tab.  
+
+   > [!div class="mx-imgBorder"]
+   >![Select the forms tab for the table](media/table-forms-tab.png)
+
+3.  On the toolbar, select **Add form** > **Quick Create Form**.  
+  
+4.  In the form designer drag any columns from the **Column Explorer** into the sections on the form.  
+  
+5.  When you are finished, select **Save**.  
+  
+6.  Select **Publish** to see the new form in the application.
