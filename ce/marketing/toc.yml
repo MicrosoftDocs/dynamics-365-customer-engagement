@@ -236,8 +236,6 @@
         href: spam-checker.md
       - name: Design and run A/B tests on your email designs
         href: email-a-b-testing.md
-      - name: Disable auto-adjustment of HTML
-        href: email-postprocessing.md
       - name: Troubleshoot + FAQs
         href: email-troubleshoot.md
     - name: Marketing pages and forms

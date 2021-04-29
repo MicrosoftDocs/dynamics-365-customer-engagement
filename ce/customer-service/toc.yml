@@ -790,6 +790,8 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
+    - name: Migrate workstreams created in Omnichannel Administration
+      href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
