@@ -51,7 +51,7 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
    > [!div class="mx-imgBorder"]
    >![Select settings](media/maker-row-settings.png "Select setting")
 
-5. Expand **More settings** > **Collaboration**, and select the checkbox for **Enable for activities** and then choose **Done**. 
+5. Expand **More settings** > **Collaboration**, and select the checkbox for **Enable for activities** and then select **Done**. 
 
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
