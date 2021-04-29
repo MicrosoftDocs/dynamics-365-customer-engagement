@@ -59,7 +59,7 @@ To modify columns that appear on the contact card, follow these steps:
    > [!div class="mx-imgBorder"]
    > ![Select the App for Outlook Contact Card form](media/maker-outlook-contact-card.png)
 
-5. Drag **Company Name** above **Mobile Phone**. It's important to note, that only the first three columns appear in the track regarding contact card. Although, a related sub-grid can be added to the quick view form, but it doesn't render within the **Track Regarding** contact card.
+5. In the form designer drag **Company Name** above **Mobile Phone**. It's important to note, that only the first three columns appear in the track regarding contact card. Although, a related sub-grid can be added to the quick view form, but it doesn't render within the **Track Regarding** contact card.
 
 
    > [!div class="mx-imgBorder"]
