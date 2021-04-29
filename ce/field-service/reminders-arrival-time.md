@@ -67,7 +67,9 @@ You'll get an email when the portal has been provisioned, and you can move on to
 
 Customers will be able to access their service portal with a unique link sent to their email or as a text message. To set this up, you'll need to configure one or both communication methods.
 
-To configure email and SMS within Power Automate:
+We provide a links directly to the Power Automate Flows for Email and SMS via Field Service [Customer Portal Settings](#set-up-the-customer-experience)
+
+Alternately, you can access the Power Automate Flows for Email and SMS within Power Automate:
 
 Go to https://make.powerapps.com > **Solutions**. Select **Dynamics 365 Field Service PowerApps Portal – Flow** in the list.
 
@@ -84,16 +86,16 @@ Here you'll find three Power Automate flows. Email and SMS flows are off by defa
 
 To configure email:
 
-- Select **Field Service PowerApps Power Flow Email Notification**.
-- Select **Edit**.
+- Click the **Field Service PowerApps Power Flow Email Notification**. This will open the Flow in a new tab.
+- With the Flow open, select **Edit**.
 - Select the **Send an Email** Exchange connector.
 - Add your Office 365 Exchange account connection.
 - Save and **Turn On** the flow.
 
 To configure SMS:
 
-- Select **Field Service PowerApps Power Flow SMS Notification**.
-- Select **Edit**.
+- Select **Field Service PowerApps Power Flow SMS Notification**. This will open the Flow in a new tab.
+- With the Flow open, select **Edit**.
 - Select the Twilio connector.
 - Add your Twilio account details.
 - Save and **Turn On** the flow.
@@ -121,7 +123,9 @@ Configure the following settings as needed:
 
 - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
 
-- **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see (Field Service Customer Portal Survey)[#field-service-customer-portal-survey-(preview)]
+- **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](#field-service-customer-portal-survey-(preview))
+
+- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate Flows where you configure the [Email and SMS connectors](#step-2:-configure-email-and-sms-connectors-within-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/TmT_Configuration.png)
@@ -360,4 +364,12 @@ General content and format of the notifications are following a fixed template a
 
 ### How do I update my Field Service customer experiences portal?
 
-We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not atomically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences (preview) portal installed, and select "Portals." If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
+We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service ustomer experiences portal installed, and select "Portals." If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
+
+### I had the Preview version of Track My Technician and after upgrade to GA my navigation bar is now offset. How do I fix this?
+
+There were changes to some of the Content Snippets between the Preview and GA versions of Track My Technician. One of which can impact the navigation bar of the Portal interface. To correct this update the "Mobile Header" content snippet from Old Value to New Value
+  - Old value: <div style="text-align:center; padding:5px"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>
+  - New value: <div class="navbar-brand-centered"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>![image](https://user-images.githubusercontent.com/46036300/116596757-6974ad80-a8ea-11eb-9694-4766dbf4c6e2.png)
+
+
