@@ -24,14 +24,13 @@ search.app:
 ---
 # Customize which tables appear in quick create  
 
-An app maker can enable a table or custom table that you create to appear in the create **New** menu also know as thequick create menu in Dynamics 365 App for Outlook. 
+An app maker can enable a table or a custom table that you create to appear in the create **New** menu (quick create) in Dynamics 365 App for Outlook. 
 
 
 
 |Before: Quick create menu  |After: Quick create menu with custom table added |
 |---------|---------|
 | ![Quick create menu before adding a new table](media/custom-table-before.png)     |     ![A custom table has been added to the quick create menu](media/custom-table-after.png "Power Apps mobile user interface with model-driven and canvas apps")  |
-
 
 
 To enable a table to appear in **New** (quick create) menu, follow these steps:
