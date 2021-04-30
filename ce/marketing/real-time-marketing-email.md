@@ -37,7 +37,7 @@ In addition to the standard email editor features, the real-time marketing email
 
 The real-time marketing email editor has a new assist edit control to bind personalized data. Use personalized data to dynamically populate information that is unique to each email recipient.
 
-To add personalized data to a real-time marketing email:
+#### To add personalized data to a real-time marketing email
 
 - Create a placeholder by adding a text field, then selecting the **Personalization** button ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the toolbar.
 - Choose a **Data source**. Your data source can be based on **Compliance**, **Events**, or a **Customer Insights** profile.
