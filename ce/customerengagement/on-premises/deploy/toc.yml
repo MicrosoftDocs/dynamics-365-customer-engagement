@@ -1,0 +1,310 @@
+- name: Deploy and operate Dynamics 365 Customer Engagement (on-premises)
+  items: 
+  - name: Deploy and operate Dynamics 365 Customer Engagement (on-premises)
+    href: deploy-and-operate-dynamics-365-on-premises.md
+  - name: Planning Dynamics 365 Customer Engagement (on-premises)
+    items: 
+    - name: Planning Dynamics 365 Customer Engagement (on-premises)
+      href: planning-your-deployment-of-microsoft-dynamics-365.md
+    - name: Editions and licensing
+      href: microsoft-dynamics-365-editions-and-licensing.md
+    - name: System requirements and required technologies
+      items: 
+      - name: System requirements and required technologies
+        href: system-requirements-required-technologies.md
+      - name: Hardware requirements for Dynamics 365 Server
+        items: 
+        - name: Hardware requirements for Dynamics 365 Server
+          href: hardware-requirements.md
+        - name: Dynamics 365 Server hardware requirements
+          href: microsoft-dynamics-365-server-hardware-requirements.md
+        - name: SQL Server hardware requirements
+          href: sql-server-hardware-requirements-dynamics-365-server.md
+      - name: Software requirements
+        href: software-requirements-for-microsoft-dynamics-365-server.md
+      - name: SQL Server requirements and recommendations
+        href: sql-server-requirements-recommendations.md
+      - name: Active Directory and network requirements
+        href: active-directory-network-requirements.md
+      - name: Reporting requirements
+        href: microsoft-dynamics-365-reporting-requirements.md
+      - name: Language support
+        href: microsoft-dynamics-365-language-support.md
+    - name: Prerequisites and considerations for planning your deployment
+      items: 
+      - name: Prerequisites and considerations for planning your deployment
+        href: prerequisites-considerations-planning-deployment.md
+      - name: SQL Server installation and configuration
+        items: 
+        - name: SQL Server installation and configuration
+          href: sql-server-installation-and-configuration.md
+        - name: SQL Server requirements and recommendations
+          href: sql-server-requirements-recommendations.md
+        - name: SQL Server deployment
+          href: sql-server-deployment.md
+      - name: Planning requirements for SQL Server Reporting Services
+        href: planning-requirements-for-sql-server-reporting-services.md
+    - name: Security considerations
+      items: 
+      - name: Security considerations
+        href: security-considerations-for-microsoft-dynamics-365.md
+      - name: Security best practices
+        href: security-best-practices-for-microsoft-dynamics-365.md
+      - name: Administration best practices
+        href: best-practices-on-premises-deployments.md
+      - name: Operating system and platform technology security
+        href: operating-system-platform-security-considerations.md
+      - name: Network ports required
+        href: network-ports-for-microsoft-dynamics-365.md
+      - name: Multiple-server deployment
+        items: 
+        - name: Multiple-server deployment
+          href: microsoft-dynamics-365-multiple-server-deployment.md
+        - name: Server roles
+          href: microsoft-dynamics-365-server-roles.md
+        - name: Support for multiple-server topologies
+          href: dynamics-365-multiple-server-topologies.md
+    - name: Plan your upgrade
+      items: 
+      - name: Plan your upgrade
+        href: plan-your-upgrade-to-microsoft-dynamics-365-server.md
+      - name: "Before you upgrade: issues and considerations"
+        href: before-you-upgrade-issues-and-considerations.md
+      - name: Configure an Internet-facing deployment
+        href: configure-internet-facing-deployment.md
+    - name: Accessibility
+      href: accessibility-in-microsoft-dynamics-365.md
+  - name: Installing Dynamics 365 Customer Engagement (on-premises)
+    items: 
+    - name: Installing Dynamics 365 Customer Engagement (on-premises)
+      href: installing-on-premises-dynamics-365.md
+    - name: Install or upgrade Dynamics 365 Server
+      items: 
+      - name: Install or upgrade Dynamics 365 Server
+        href: install-or-upgrade-microsoft-dynamics-365-server.md
+      - name: Dynamics 365 Server installation
+        items: 
+        - name: Dynamics 365 Server installation
+          href: microsoft-dynamics-365-server-installation.md
+        - name: Install Dynamics 365 Front End Server and Back End Server roles
+          href: install-dynamics-365-front-back-end-server-roles.md
+        - name: Install Dynamics 365 Full Server role
+          href: install-full-server-role-on-server.md
+    - name: Install Dynamics 365 Reporting Extensions
+      href: install-microsoft-dynamics-365-reporting-extensions.md
+    - name: Upgrading Dynamics 365 Server
+      items: 
+      - name: Upgrading Dynamics 365 Server
+        href: upgrading-microsoft-dynamics-365-server.md
+      - name: Upgrade from Dynamics 365 Server
+        href: upgrade-from-microsoft-dynamics-365-server.md
+      - name: Upgrade Dynamics 365 Reporting Extensions
+        href: upgrade-microsoft-dynamics-crm-reporting-extensions.md
+      - name: After the upgrade
+        href: after-the-upgrade.md
+    - name: Install or upgrade Language Packs
+      href: install-or-upgrade-language-packs.md
+    - name: Install and enable a Language Pack
+      items: 
+      - name: Install and enable a Language Pack
+        href: install-and-enable-a-language-pack.md
+      - name: Upgrade and enable a Language Pack
+        href: upgrade-and-enable-a-language-pack.md
+    - name: Troubleshooting installation and upgrade
+      href: troubleshooting-installation-and-upgrade.md
+    - name: Configure IFD
+      items: 
+      - name: Configure IFD
+        href: configure-ifd-for-dynamics-365.md
+      - name: "Implement claims-based authentication: internal access"
+        items: 
+        - name: "Implement claims-based authentication: internal access"
+          href: implement-claims-based-authentication-internal-access.md
+        - name: Deploy and configure AD FS
+          href: deploy-and-configure-ad-fs.md
+        - name: Configure the Dynamics 365 Server for claims-based authentication
+          href: configure-the-dynamics-365-server-for-claims-based-authentication.md
+        - name: Configure the AD FS server for claims-based authentication
+          href: configure-the-ad-fs-server-for-claims-based-authentication.md
+        - name: Add the AD FS website to the Local intranet security zone
+          href: add-the-ad-fs-website-to-the-local-intranet-security-zone.md
+        - name: Test internal claims-based authentication
+          href: test-internal-claims-based-authentication.md
+      - name: "Implement claims-based authentication: external access"
+        items: 
+        - name: "Implement claims-based authentication: external access"
+          href: implement-claims-based-authentication-external-access.md
+        - name: Configure Dynamics 365 Server for IFD
+          href: configure-the-dynamics-365-server-for-ifd.md
+        - name: Configure the AD FS server for IFD
+          href: configure-the-ad-fs-server-for-ifd.md
+        - name: Test external claims-based authentication
+          href: test-external-claims-based-authentication.md
+      - name: Dynamics 365 for tablets and IFD
+        href: dynamics-365-for-tablets-and-ifd.md
+      - name: Dynamics 365 for phones and IFD
+        href: dynamics-365-for-phones-and-ifd.md
+      - name: Configure Dynamics 365 for Outlook to use claims-based authentication
+        href: configure-dynamics-365-for-outlook-to-use-claims-based-authentication.md
+      - name: Troubleshoot Dynamics 365 Server IFD
+        href: troubleshoot-dynamics-365-server-ifd.md
+    - name: Use the command prompt to install
+      items: 
+      - name: Use the command prompt to install
+        href: use-command-prompt-install-dynamics-365-server.md
+      - name: Install Dynamics 365 Server by using a command prompt
+        items: 
+        - name: Install Dynamics 365 Server by using a command prompt
+          href: install-dynamics-365-server-command-prompt.md
+        - name: Dynamics 365 Server XML configuration file
+          items: 
+          - name: Dynamics 365 Server XML configuration file
+            href: microsoft-dynamics-365-server-xml-configuration-file.md
+          - name: Sample server XML configuration file
+            href: sample-server-xml-configuration-file.md
+          - name: Sample server XML configuration file for installing with pre-created groups
+            href: sample-server-xml-config-file-pre-created-groups.md
+        - name: Install Dynamics 365 Server roles using the command prompt
+          items: 
+          - name: Install Dynamics 365 Server roles using the command prompt
+            href: install-using-command-prompt.md
+          - name: Sample XML file WebApplicationServer and OrganizationWebService roles
+            href: sample-xml-config-webapp-organizationweb.md
+          - name: Sample XML file HelpServer role
+            href: sample-xml-configuration-file-helpserver.md
+      - name: Install Reporting Extensions using a command prompt
+        items: 
+        - name: Install Reporting Extensions using a command prompt
+          href: install-dynamics-365-reporting-extensions-command.md
+        - name: Dynamics 365 Reporting Extensions XML configuration file
+          items: 
+          - name: Dynamics 365 Reporting Extensions XML configuration file
+            href: dynamics-365-reporting-extensions-xml-config-file.md
+          - name: Sample Dynamics 365 Reporting Extensions XML configuration file
+            href: sample-dynamics-365-reporting-extensions-xml-config-file.md
+      - name: Install Report Authoring Extension using a command prompt
+        items: 
+        - name: Install Report Authoring Extension using a command prompt
+          href: install-report-authoring-extension-command-prompt.md
+        - name: Report Authoring Extension XML file
+          items: 
+          - name: Report Authoring Extension XML file
+            href: dynamics-365-report-authoring-extension-xml-config-file.md
+          - name: Sample Report Authoring Extension XML file
+            href: sample-report-authoring-extension-xml-config-file.md
+    - name: Post-installation and configuration guidelines
+      href: post-installation-configuration-guidelines-dynamics-365.md
+    - name: Available apps for Dynamics 365 Customer Engagement (on-premises)
+      href: available-apps.md
+    - name: Uninstall, repair, and change
+      items: 
+      - name: Uninstall, repair, and change
+        href: uninstall-repair-and-change-microsoft-dynamics-365.md
+      - name: Uninstall, change, or repair Dynamics 365 Server
+        href: uninstall-change-repair-dynamics-365-server.md
+      - name: Uninstall or repair Dynamics 365 Reporting Extensions
+        href: uninstall-repair-dynamics-365-reporting-extensions.md
+      - name: Uninstall or repair Dynamics 365 Report Authoring Extension
+        href: uninstall-repair-dynamics-365-report-authoring-extension.md
+      - name: Uninstall or repair a Dynamics 365 Language Pack
+        href: uninstall-repair-dynamics-365-language-pack.md
+  - name: Operating Dynamics 365 Customer Engagement (on-premises)
+    items: 
+    - name: Operating Dynamics 365 Customer Engagement (on-premises)
+      href: operating-microsoft-dynamics-365.md
+    - name: Administer the deployment using Windows PowerShell
+      items: 
+      - name: Administer the deployment using Windows PowerShell
+        href: administer-the-deployment-using-windows-powershell.md
+      - name: Update deployment configuration settings
+        items: 
+        - name: Update deployment configuration settings
+          href: update-deployment-configuration-settings.md
+        - name: Configure claims settings
+          href: configure-claims-settings.md
+        - name: Configure IFD settings
+          href: configure-ifd-settings.md
+        - name: Configure web address settings
+          href: configure-web-address-settings.md
+        - name: Configure OAuth settings
+          href: configure-oauth-settings.md
+    - name: Use Deployment Manager to manage the deployment
+      items: 
+      - name: Use Deployment Manager to manage the deployment
+        href: use-deployment-manager-to-manage-the-deployment.md
+      - name: Deployment properties
+        href: microsoft-dynamics-365-deployment-properties.md
+      - name: Change the product key
+        href: change-the-product-key.md
+      - name: Using Windows PowerShell to perform Deployment Manager tasks
+        href: powershell-deployment-manager-tasks.md
+      - name: Configure claims-based authentication
+        href: configure-claims-based-authentication.md
+      - name: Disable claims-based authentication
+        href: disable-claims-based-authentication.md
+      - name: Configure an Internet-facing deployment
+        href: configure-an-internet-facing-deployment.md
+      - name: Disable an Internet-facing deployment
+        href: disable-an-internet-facing-deployment.md
+      - name: Deployment administrators
+        items: 
+        - name: Deployment administrators
+          href: deployment-administrators.md
+        - name: Add a new deployment administrator
+          href: add-a-new-deployment-administrator.md
+        - name: Remove a deployment administrator
+          href: remove-a-deployment-administrator.md
+      - name: Manage organizations
+        items: 
+        - name: Manage organizations
+          href: manage-organizations.md
+        - name: Edit an organization's attributes
+          href: edit-an-organization-s-attributes.md
+        - name: Disable or enable an organization
+          href: disable-or-enable-an-organization.md
+        - name: Add a new organization
+          href: add-a-new-organization.md
+        - name: Import an organization
+          href: import-an-organization.md
+        - name: Upgrade an organization
+          href: upgrade-an-organization.md
+        - name: Update an organization
+          href: update-an-organization.md
+        - name: Troubleshoot organization import and upgrade issues
+          href: troubleshoot-organization-import-and-upgrade-issues.md
+        - name: Delete an organization
+          href: delete-an-organization.md
+      - name: Manage servers
+        items: 
+        - name: Manage servers
+          href: manage-servers.md
+        - name: Disable or enable a server
+          href: disable-or-enable-a-server.md
+        - name: Delete (remove) a server
+          href: delete-remove-a-microsoft-dynamics-365-server.md
+    - name: Update Dynamics 365 Customer Engagement (on-premises)
+      href: update-microsoft-dynamics-crm.md
+    - name: Database maintenance
+      items: 
+      - name: Database maintenance
+        href: microsoft-dynamics-365-database-maintenance.md
+      - name: Organization database indexes
+        href: dynamics-365-organization-database-indexes.md
+    - name: Data protection and recovery
+      items: 
+      - name: Data protection and recovery
+        href: microsoft-dynamics-365-data-protection-and-recovery.md
+      - name: Dynamics 365 VSS writer service
+        href: microsoft-dynamics-365-vss-writer-service.md
+      - name: Back up the system
+        href: back-up-the-microsoft-dynamics-365-system.md
+      - name: Exporting and importing customizations and solutions
+        href: exporting-and-importing-customizations-and-solutions.md
+      - name: Failure recovery
+        items: 
+        - name: Failure recovery
+          href: microsoft-dynamics-365-failure-recovery.md
+        - name: SQL Server failure recovery
+          href: sql-server-failure-recovery.md
+        - name: Dynamics 365 Server failure recovery
+          href: microsoft-dynamics-365-server-failure-recovery.md

@@ -1,0 +1,52 @@
+- name: App profile manager
+  items: 
+  - name: App profile manager
+    href: overview.md
+  - name: Roles and permissions
+    href: security-roles.md
+  - name: Use app profile manager
+    href: app-profile-manager.md
+  - name: Settings
+    href: settings.md
+  - name: Templates
+    items: 
+    - name: Manage session templates
+      href: session-templates.md
+    - name: Manage application tab templates
+      href: application-tab-templates.md
+    - name: Manage notification templates
+      href: notification-templates.md
+    - name: Associate templates with work streams
+      href: associate-templates.md
+  - name: Productivity tools
+    items: 
+    - name: Manage smart assist
+      href: smart-assist.md
+    - name: Manage agent scripts
+      href: agent-scripts.md
+    - name: Manage macros
+      href: macros.md
+    - name: Automation dictionary to pass parameters
+      href: automation-dictionary-keys.md
+  - name: Developer guide
+    items: 
+    - name: Overview of JavaScript API reference
+      href: reference/microsoft-apm.md
+    - name: Methods
+      items: 
+      - name: createTab
+        href: reference/microsoft-apm/createTab.md
+      - name: focusTab
+        href: reference/microsoft-apm/focusTab.md
+      - name: refreshTab
+        href: reference/microsoft-apm/refreshTab.md
+      - name: closeTab
+        href: reference/microsoft-apm/closeTab.md
+  - name: Readme
+    href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+- name: Customer Service workspace
+  href: ../customer-service/csw-overview.md
+- name: Omnichannel for Customer Service
+  href: ../omnichannel/omnichannel-customer-service-guide.md
+- name: Dynamics 365 Channel Integration Framework Guide
+  href: ../customer-service/channel-integration-framework/channel-integration-framework.md

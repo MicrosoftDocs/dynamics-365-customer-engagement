@@ -4,7 +4,7 @@ description: "Learn how to set up entity work stream in the Omnichannel for Cust
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/25/2019
+ms.date: 04/28/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -21,7 +21,7 @@ This topic describes how to create a work stream for an entity that has been ena
 
 1. Sign in to the Omnichannel Administration app.
 
-2. Select **Work Streams** under **Channels** in the sitemap.
+2. Select **Work Streams** under **Channels** in the site map.
 
 3. Select **New** in the **Active Work Streams** page.
 
@@ -31,7 +31,7 @@ This topic describes how to create a work stream for an entity that has been ena
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
     | Work Distribution | Name | Case Work stream | Provide a name to the work stream. <br> **Note:** The value provided is an example.  |
     | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
-    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create a entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-entity-for-routing). |
+    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create a entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-record-for-routing). |
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the work stream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|

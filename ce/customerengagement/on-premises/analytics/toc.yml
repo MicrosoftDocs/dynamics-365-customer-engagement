@@ -1,0 +1,44 @@
+- name: Reporting and Analytics for Dynamics 365 Customer Engagement (on-premises)
+  href: reporting-analytics-with-dynamics-365.md
+- name: Get started
+  items: 
+  - name: Get started
+    href: get-started-writing-reports.md
+  - name: Report writing environment using SQL Server Data Tools
+    href: report-writing-environment-using-sql-server-data-tools.md
+  - name: Install Dynamics 365 Report Authoring Extension
+    href: install-dynamics-365-report-authoring-extension.md
+  - name: Create a new report using SQL Server Data Tools
+    href: create-a-new-report-using-sql-server-data-tools.md
+- name: Working with reports
+  items: 
+  - name: Working with reports
+    href: working-with-microsoft-dynamics-365-reports.md
+  - name: Add report navigation
+    href: add-report-navigation.md
+  - name: Categorize and display in different languages
+    href: categorize-display-reports-different-languages.md
+  - name: Use parameters
+    href: use-parameters-in-reports.md
+- name: Test and troubleshoot
+  href: test-and-troubleshoot-reports.md
+- name: Publish
+  href: publish-reports.md
+- name: Report best practices
+  items: 
+  - name: Report best practices
+    href: best-practices-reports.md
+  - name: Improve performance
+    href: improve-performance-reports.md
+  - name: Improve performance by using filters
+    href: improve-report-performance-by-using-filters.md
+- name: Example reports
+  items: 
+  - name: Example reports
+    href: example-reports.md
+  - name: Limit the number of items displayed in a chart
+    href: example-limit-number-items-displayed-chart.md
+  - name: Display the top X values
+    href: example-display-top-x-values.md
+  - name: Make a report context-sensitive
+    href: example-make-report-context-sensitive.md

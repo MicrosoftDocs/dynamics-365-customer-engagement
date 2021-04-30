@@ -1,6 +1,6 @@
 ---
-title: "Set up routing for records | MicrosoftDocs"
-description: "Learn how to route records automatically."
+title: "Set up basic routing for records in Customer Service | MicrosoftDocs"
+description: "Learn how to configure basic routing for records."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-After you set up and enable an entity for routing, you can manually trigger the routing for the records using the save and route button on the entity record forms. As an administrator, you can also set up automatic triggers to route these entity records using Power Automate. Let us look at the triggers in detail in the following sections:
+After you set up and enable a record for routing, you can manually trigger the routing for the records using the save and route button on the entity record forms. As an administrator, you can also set up automatic triggers to route these entity records using Power Automate. Let us look at the triggers in detail in the following sections:
 
 - Manual trigger using **Save & Route** and **Apply Routing Rules**
 - Automatic trigger using custom Flow
