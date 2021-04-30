@@ -64,3 +64,4 @@ You'll do the following:
 [Create workstreams](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Manage capacity profiles](capacity-profiles.md)  
+[Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)  
