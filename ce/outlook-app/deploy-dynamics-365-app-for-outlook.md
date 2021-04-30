@@ -26,15 +26,15 @@ search.app:
 
 # Deploy and install Dynamics 365 App for Outlook  
 
-This topic covers how to setup and deploy Dynamics 365 App for Outlook.
+This topic covers how to set up and deploy Dynamics 365 App for Outlook.
 
 The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 ## Prerequisites
 
-The following prerequisites are required before you begin setup.
+The following prerequisites are required before you begin set up.
 
-- Setup synchronization of incoming email through server-side synchronization: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Set up synchronization of incoming email through server-side synchronization: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
 
 - Dynamics 365 App for Outlook is an Outlook add-in that uses Exchange Web Services (EWS) to interact with Microsoft Exchange. This requires OAuth be enabled on Microsoft Exchange. For more information: [Authentication and permission considerations for the makeEwsRequestAsync method](/outlook/add-ins/web-services#authentication-and-permission-considerations-for-the-makeewsrequestasync-method).
 
@@ -101,12 +101,12 @@ You may need to wait for the system to process the updates. The more mailboxes y
 
 ### Step 2.1: Verify configuration
 
-To verify  mailbox is setup correctly, open the mailbox that you tested in the previous step.
+To verify  mailbox is set up correctly, open the mailbox that you tested in the previous step.
 
-If the setup is successful the **configuration Test Results** section should change from **Not Run** to **Success**. 
+If the set up is successful, the **configuration Test Results** section will change from **Not Run** to **Success**. 
 
 > [!div class="mx-imgBorder"]
-> ![Open a mailbox to verify that it's setup correctly](media/verify-mailbox.png)
+> ![Open a mailbox to verify that it's set up correctly](media/verify-mailbox.png)
 
 
 ## Step 3: Provide security role access
@@ -193,7 +193,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
       > ![Automatically deply the app](media/deploy-app-auto.png)
    
    
-    - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are setup correctly. When you do this the **Status** changes to **Pending**.
+    - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** will change to **Pending**.
 
       > [!div class="mx-imgBorder"]
       > ![Automatically deply the app for eigible users](media/deploy-app-auto-1.png)
