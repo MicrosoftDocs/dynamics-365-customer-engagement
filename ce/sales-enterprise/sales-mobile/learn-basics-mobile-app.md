@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 12/10/2020
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: udaykirang
@@ -10,8 +10,6 @@ manager: shujoshi
 ---
 
 # Learn the basics
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insight cards that are specific to you. Typically, the home page displays the following kinds of information:
 

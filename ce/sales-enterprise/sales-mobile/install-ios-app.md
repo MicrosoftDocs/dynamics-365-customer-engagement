@@ -1,7 +1,7 @@
 ---
 title: Install the Dynamics 365 Sales mobile app on iOS
 description: Instructions to install the Dynamics 365 Sales mobile app on iOS
-ms.date: 11/30/2020
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,8 +10,6 @@ manager: shujoshi
 ---
 
 # Install the app on iOS
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1. Go to the Apple App Store and install the **TestFlight** app.
 

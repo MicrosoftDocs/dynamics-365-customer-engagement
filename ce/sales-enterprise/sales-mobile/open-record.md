@@ -1,7 +1,7 @@
 ---
 title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
-ms.date: 04/28/2021
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,8 +10,6 @@ manager: shujoshi
 ---
 
 # Manage records
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Records and regarding entities can be accessed from the home page or the Meetings page.
 

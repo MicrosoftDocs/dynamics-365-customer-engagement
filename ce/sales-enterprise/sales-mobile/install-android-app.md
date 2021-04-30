@@ -1,7 +1,7 @@
 ---
 title: Install the Dynamics 365 Sales mobile app on Android
 description: Instructions to install the Dynamics 365 Sales mobile app on Android
-ms.date: 11/30/2020
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,8 +10,6 @@ manager: shujoshi
 ---
 
 # Install the app on Android
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Dynamics 365 Sales mobile app can be installed on Android devices without a work profile.
 
