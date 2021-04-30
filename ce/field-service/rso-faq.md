@@ -31,9 +31,9 @@ If you’re able to see the **Delete Current Deployment** option through the res
 - Make sure your Dynamics 365 org is NOT in administration mode.
 
   > [!div class="mx-imgBorder"]
-  > ![](media/34ef04527c9cdb67c34a7c64c08bd868.png)
+  > ![Disabling admin mode in Resource Scheduling Optimization](media/disabling-admin-mode.png)
 
-- Check to see that the resource scheduling optimization add-on user has the resource scheduling optimization security role.
+- Check to see that the resource scheduling optimization add-in user has the resource scheduling optimization security role.
 
 ## Installing the resource scheduling optimization solution failed through the Dynamics 365 admin center solution management page. What are my options?
 
