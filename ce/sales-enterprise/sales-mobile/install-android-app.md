@@ -15,23 +15,13 @@ The Dynamics 365 Sales mobile app can be installed on Android devices without a 
 
 ## Install the app on Android without a work profile
 
-1.	On your Android device, go to the [preview version of the Android app](https://go.microsoft.com/fwlink/p/?linkid=2152008)
+1. Go to the Google Play Store, and search for **Dynamics 365 Sales**.
 
-2.	On the **App Center** page, tap **Download**.
+    Alternately, you can [click here](https://go.microsoft.com/fwlink/?linkid=2161889) to open the app on Play Store.
 
-    ![Download the Sales mobile app](media/android-install-step2.png "Download the Sales mobile app")
+2. Tap **Install** to install the app.
 
-3.	In the confirmation message to download the .apk file, tap **Download**.
-
-    ![Download the Sales.apk file](media/android-install-step3.png "Download the Sales.apk file")
-
-4.	In the mobile app, tap **Install**.
-
-    ![Install the app on Android](media/android-install-step4.png "Install the app on Android")
-
-5.	When the app is installed, tap **Open**.
-
-    ![Open the app](media/android-install-step5.png "Open the app")
+    ![Install the app on iOS](media/android-install-app.png "Install the app on iOS")
 
 ## Install the app on Android with a work profile
 
