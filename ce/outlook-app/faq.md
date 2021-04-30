@@ -24,11 +24,58 @@ search.app:
 ---
 # Frequently Asked Questions about Dynamics 365 App for Outlook
 
-## Are there any known issues?
-Yes, here is the list of known issues:
+## Users with custom security role can't access Dynamics 365 App for Outlook
 
-- Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
- 
+Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md). You may also get this error: **Sorry, something went wrong while initializing the app**
+
+To workaround this issue, see
+-  [Sorry something went wrong while initializing the app when accessing the Dynamics 365 App for Outlook](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
+-  [Configure Outlook or Exchange folder-level tracking](/power-platform/admin/configure-outlook-exchange-folder-level-tracking)
+
+
+## Some users might experience add-in error with the following symptoms:
+
+You try to use the add-in by selecting Dynamics 365 App for Outlook, and the pane appears. After about 30 seconds, a yellow error section is displayed at the at the top of
+    the pane. The error could be any of the following:
+
+- ADD-IN ERROR This add-in could not be started. Close this dialog
+        to ignore the problem or select **Restart** to try again.
+
+- ADD-IN ERROR This add-in is not responding. Close this warning
+        dialog to keep it running or select **Restart** to try again.
+
+- ADD-IN ERROR This add-in seems to be having problems. Select **Restart** to try starting it again.
+
+- ADD-IN ERROR Sorry, we had to rest because this add-in wasn't
+        responding.
+
+Sometimes, selecting **Restart** causes the error again.
+
+**Solutions**
+
+Here are some of the ways in which you can address this issue:
+
+-  Add/update the below registry keys for the users experiencing the
+    add-in error.
+
+    - **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\16.0\\Wef**\]  
+ **AlertInterval**=dword:00000000**
+
+    - **\[**HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Office\\16.0\\Wef**\]  
+ **AlertInterval**=dword:00000000**
+
+    Additional information on the registry keys can be found
+[When debugging with the Microsoft Edge DevTools, the add-in crashes or reloads](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins#when-debugging-with-the-microsoft-edge-devtools-the-add-in-crashes-or-reloads).
+
+If the registry key doesn't work, one of the below are the only solutions for the add-in error.
+
+-  Users experiencing add-in error can use Outlook Web App in Microsoft
+    Edge or Google Chrome browsers to access Dynamics 365 App for
+    Outlook.
+
+-  Alternatively, users can update their Outlook client to the latest
+    CR2 monthly enterprise channel or current channel.
+
 
 ## I am having authentication issues with Dynamics 365 App for Outlook while using Dynamics 365 Customer Engagement (on-premises) and Active Directory Federation Services. What can I do to resolve it?
 
@@ -113,7 +160,11 @@ Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installe
 For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 
 
 ## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
+
 This feature is no longer available for configuration.
+
+### Delegated users cannot track emails
+Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
