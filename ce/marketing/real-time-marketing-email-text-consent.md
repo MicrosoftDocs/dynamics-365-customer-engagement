@@ -30,7 +30,7 @@ The real-time marketing Consent center allows you to track consent information g
 > [!NOTE]
 > Real-time marketing consent is contact-point based. Customer consent is stored per email address or phone number, as opposed to being stored per Contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
-Whether consent is checked before sending emails and text messages depends on the consent model that you select on **Compliance** page. [Learn more about compliance settings](real-time-marketing-compliance-settings)
+Whether consent is checked before sending emails and text messages depends on the consent model that you select on **Compliance** page. [Learn more about compliance settings](real-time-marketing-compliance-settings.md)
 
 ## How consent is respected for emails
 
