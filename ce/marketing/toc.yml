@@ -218,7 +218,7 @@
       items: 
       - name: Customer journey orchestration user guide
         href: real-time-marketing-user-guide.yml
-      - name: Get started with real-time marketing
+      - name: Get started with customer journey orchestration
         items: 
         - name: Real-time marketing overview
           href: real-time-marketing-overview.md
