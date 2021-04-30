@@ -48,7 +48,7 @@ These fields that will be populated automatically:
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solution**.
 3. Select an existing unmanaged solution or create a new one. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
-4. On the command bar select. **Edit**.
+4. On the command bar, select **Edit**.
 
    > [!div class="mx-imgBorder"]
    > ![Edit the solution](media/edit-mailapp-solution.png)
@@ -63,7 +63,7 @@ These fields that will be populated automatically:
    > [!div class="mx-imgBorder"]
    > ![Edit form settings](media/form-settings.png)
 
-6. On the left select **Form order** and then select **Quick Create Form** from the dropdown menu. Move **App for OUtlook Case Quick Create** to the top of the list. 
+6. On the left, select **Form order** and then select **Quick Create Form** from the dropdown menu. Move **App for Outlook Case Quick Create** to the top of the list. 
 
    > [!div class="mx-imgBorder"]
    > ![Edit the form order](media/form-settings-1.png)
