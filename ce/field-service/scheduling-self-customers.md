@@ -55,7 +55,7 @@ You'll get an email when the portal has been provisioned, and then you can move 
 
 Customers will access their service portal with a unique link sent to their email or as a text message. To set this up, you'll need to configure one or both communication methods.
 
-We provide a links directly to the Power Automate Flows for Email and SMS via Field Service [Customer Portal Settings](#set-up-the-customer-experience)
+We provide links directly to the Power Automate flows for email and SMS via Field Service [customer portal settings](#set-up-the-customer-experience)
 
 Alternately, you can access the Power Automate Flows for Email and SMS within Power Automate:
 
@@ -75,19 +75,19 @@ Here you'll find three Power Automate flows. Email and SMS flows are off by defa
 
 To configure email:
 
-- Click the **Field Service PowerApps Power Flow Email Notification**. This will open the Flow in a new tab.
-- With the Flow open, select **Edit**.
-- Select the **Send an Email** Exchange connector.
-- Add your Office 365 Exchange account connection.
-- Save and **Turn On** the flow.
+1. Select **Field Service PowerApps Power Flow Email Notification**, which will open the flow in a new tab.
+1. With the Flow open, select **Edit**.
+1. Select the **Send an Email** Exchange connector.
+1. Add your Office 365 Exchange account connection.
+1. Save and **Turn On** the flow.
 
 To configure SMS:
 
-- Select **Field Service PowerApps Power Flow SMS Notification**. This will open the Flow in a new tab.
-- With the Flow open, select **Edit**.
-- Select the Twilio connector.
-- Add your Twilio account details.
-- Save and **Turn On** the flow.
+1. Select **Field Service PowerApps Power Flow SMS Notification**, which will open the flow in a new tab.
+1. With the Flow open, select **Edit**.
+1. Select the Twilio connector.
+1. Add your Twilio account details.
+1. Save and **Turn On** the flow.
 
 
 ## Step 3: Set up the customer experience
@@ -119,7 +119,7 @@ Configure the following settings, as needed:
 
 - **Exclusion lists**: Exclude specific service accounts or service types from all messaging.
 
-- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate Flows where you configure the [Email and SMS connectors](#step-2:-configure-email-and-sms-connectors-within-power-automate).
+- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2:-configure-email-and-sms-connectors-within-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/SS_Settings_Config.PNG)
@@ -322,21 +322,23 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ## FAQ for self-scheduling portals
 
-### While testing I deleted and and re-added my Contact to an Account but I do not receive an new Self Scheduling invite email?
+### While testing, I deleted and and readded my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
 
-Presently a contact with a matching email will only recieve the portal invite once, even if the Contact is deleted and re-added to the system. You can work around this with the following steps:
-	1. Navigate to “Portal Management” app in Power App Admin.
-	2. Open the newly created contact record.
-	3. On the command bar, click on “Create Invitation”.
-	4. From the newly created invitation record, copy the “invite code”
-	5. Navigate to the “Web Roles” tab and click on “Add existing web role”
-	6. Select the “Web Api Users” web role.
-	7. Send the invite code and the portal link to desired email contact.
+A contact with a matching email will only recieve the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
+
+1. Go to **Portal Management** app in the Power Apps admin center.
+1. Open the newly created contact record.
+1. On the command bar, select **Create Invitation**.
+1. From the newly created invitation record, copy the *Invite code*.
+1. Go to the **Web Roles** tab and select **Add existing web role**.
+1. Select the *Web Api Users* web role.
+1. Send the invite code and the portal link to desired email contact.
  
-From the Portal Side: 
-	1. Open your self scheduling Portal and navigate to the Login screen. 
-	2. Click on “redeem invitation”.
-	3. Use the invite code to create a portal account.
+From the portal side: 
+
+1. Open your self-scheduling portal and go to the signin screen. 
+2. Select **Redeem invitation**.
+3. Use the invite code to create a portal account.
 
 ### Can you cancel a booking from the portal?
 
@@ -409,10 +411,12 @@ We'll publish updates over time to introduce new features and functionality for 
 <!--markdownlint-enable MD036-->
 
 
+## Additional notes
 
-## Known Issues and Limitations in Preview
+### Known issues and limitations in preview
+
  - Scheduling is done for user resources only at this time.
- - You can receive scheduling slots for resources which location agnostic or outside of the service territory from which the user is scheduling.
- - Under some circumstances the address of the Account is not populated in a work order when self scheduling.
- - Technician is currently not booked taking into account Travel Time.
- - Currently cannot self-schedule incident types which require crews or requiremnets which require multiple resources. 
+ - You can receive scheduling slots for resources that are location-agnostic or outside of the service territory from which the user is scheduling.
+ - Under some circumstances, the address of the account is not populated in a work order when self-scheduling.
+ - Frontline worker is currently not booked taking into account travel time.
+ - Currently cannot self-schedule incident types, which require crews or requiremnets with multiple resources. 
