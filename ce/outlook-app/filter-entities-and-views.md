@@ -24,9 +24,9 @@ search.app:
 ---
 # Filter tables and views that appear in Dynamics 365 App for Outlook  
 
-If you are a system administrator or a customizer, you can choose to expose only the required set of entities to be available to Dynamics 365 App for Outlook.You can do this through App Modules.
+An app maker can customize Dynamics 365 App for Outlook to show tables that are required for your organization's needs. 
 
-With the Power Apps App Designer, you can control the specific entities that appear in Dynamics 365 App for Outlook’s **Quick Create** menu and the **Regarding** lookup. This helps you get to the record you are looking for faster and also modularize business logic by exposing only the relevant entities for your users in Dynamics 365 App for Outlook.
+Use the Power Apps app designer, to control the specific tables that appear in  the App for Outlook’s **Quick Create** menu and the **Regarding** lookup. Modularize business logic by exposing only the relevant set of tables to your users and help them get to the information they need faster.
 
 Follow these steps to set which tables and views appear in App for Outlook:
 
@@ -45,7 +45,7 @@ Follow these steps to set which tables and views appear in App for Outlook:
    > [!div class="mx-imgBorder"]
    > ![Dynamics 365 apps My Apps page](media/AddEntities_3.png "Dynamics 365 apps My Apps page")
    
-5. Review the list of Views that are available for the table and deselect the ones you don't want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an entity and further, on one of the views defined for that entity.
+5. Review the list of Views that are available for the table and deselect the ones you don't want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an table and further, on one of the views defined for that table.
 
  
    > [!div class="mx-imgBorder"]
