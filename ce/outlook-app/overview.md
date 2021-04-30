@@ -23,7 +23,7 @@ search.app:
 ---
 # Overview of Dynamics 365 App for Outlook
 
-Use Dynamics 365 App for Outlook and tap the power of Dynamics 365 apps while using Outlook on the desktop, web, or mobile. You can view information about an email or appointment or link an Outlook email or appointment to an opportunity, account, or case in your app.
+Use Dynamics 365 App for Outlook and tap the power of Dynamics 365 apps while using Outlook on the desktop, web, or mobile. You can view information about an email or appointment or link it to an opportunity, account, or case in your app.
 
 Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
@@ -32,11 +32,11 @@ Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynam
 
 With Dynamics 365 App for Outlook, you can:
   
-- View information about contacts and leads that is stored in your app. You can view this informaion in the context of an email message, meeting, or appointment. 
+- View information about contacts and leads that is stored in your app. You can also view this information in the context of an email message, meeting, or appointment. 
   
 - Link email messages, meetings, and appointments to a row in your app. For example, link an email message to a specific account, opportunity, or case. 
 
-- Open app an row directly from Outlook.
+- Open an app row directly from Outlook.
 
 - Create a new row.
 
