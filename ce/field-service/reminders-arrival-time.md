@@ -86,7 +86,7 @@ Here you'll find three Power Automate flows. Email and SMS flows are off by defa
 
 To configure email:
 
-- Click the **Field Service PowerApps Power Flow Email Notification**. This will open the Flow in a new tab.
+- Select **Field Service PowerApps Power Flow Email Notification**, which will open the flow in a new tab.
 - With the Flow open, select **Edit**.
 - Select the **Send an Email** Exchange connector.
 - Add your Office 365 Exchange account connection.
@@ -94,7 +94,7 @@ To configure email:
 
 To configure SMS:
 
-- Select **Field Service PowerApps Power Flow SMS Notification**. This will open the Flow in a new tab.
+- Select **Field Service PowerApps Power Flow SMS Notification**, which will open the flow in a new tab.
 - With the Flow open, select **Edit**.
 - Select the Twilio connector.
 - Add your Twilio account details.
@@ -125,7 +125,7 @@ Configure the following settings as needed:
 
 - **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](#field-service-customer-portal-survey-(preview))
 
-- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate Flows where you configure the [Email and SMS connectors](#step-2:-configure-email-and-sms-connectors-within-power-automate).
+- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2:-configure-email-and-sms-connectors-within-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/TmT_Configuration.png)
@@ -359,7 +359,8 @@ Yes, you can use alterative SMS or email providers as long as they have connecto
 
 To inject a new location, use advanced find in **Field Service** and search for **Geolocation Tracking**. Choose **New Geolocation Tracking**. Enter the resource and the desired latitude and longitude values.
 
-Note - Please be sure to enable Geolocation Tracking in Field Service Settings.
+>[!NOTE]
+> Be sure to enable **Geolocation Tracking** in Field Service settings.
 
 
 ### How do I edit email and SMS content?
@@ -368,12 +369,12 @@ General content and format of the notifications are following a fixed template a
 
 ### How do I update my Field Service customer experiences portal?
 
-We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service ustomer experiences portal installed, and select "Portals." If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
+We will publish updates over time to introduce new features and functionality for the customer portal. Updates are not automatically published to your portal; they must be applied by the organization administrator for your environment. To apply an update, go to https://admin.powerplatform.microsoft.com/, select the environment that has the Field Service customer experiences portal installed, and select **Portals**. If an update is available, you'll see a message saying so, with an option to **Update now**. Select your portal and apply the update to our environment. 
 
-### I had the Preview version of Track My Technician and after upgrade to GA my navigation bar is now offset. How do I fix this?
+### I had the preview version of Track My Technician,and after upgrade to GA my navigation bar is now offset. How do I fix this?
 
-There were changes to some of the Content Snippets between the Preview and GA versions of Track My Technician. One of which can impact the navigation bar of the Portal interface. To correct this update the "Mobile Header" content snippet from Old Value to New Value
-  - Old value: <div style="text-align:center; padding:5px"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>
-  - New value: <div class="navbar-brand-centered"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>![image](https://user-images.githubusercontent.com/46036300/116596757-6974ad80-a8ea-11eb-9694-4766dbf4c6e2.png)
+There were changes to some of the cntent snippets between the Preview and GA versions of Track My Technician. One of these changes can impact the navigation bar of the portal interface. To correct this issue, update the **Mobile Header** content snippet from the following old value to the new value:
+  - Old value: ```<div style="text-align:center; padding:5px"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>```
+  - New value: ```<div class="navbar-brand-centered"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>![image](https://user-images.githubusercontent.com/46036300/116596757-6974ad80-a8ea-11eb-9694-4766dbf4c6e2.png)```
 
 
