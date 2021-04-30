@@ -20,13 +20,15 @@ search.app:
 
 # Frequently asked questions for the Field Service (Dynamics 365) mobile app
 
-## Why can't I sign in on Android device while using Authenticator or Company Portal?
-There is an intermittent issue with Microsoft Authenticator app version 6.2104.2518 and Company Portal version 5.0.5123.0, which causes sign-in to fail with no error message in the Field Service mobile app.
+## Why can't I sign in on an Android device while using Authenticator or Company Portal?
+
+There is an intermittent issue with Microsoft Authenticator app version 6.2104.2518 and Company Portal version 5.0.5123.0, which causes signin to fail with no error message in the Field Service (Dynamics 365) mobile app.
 
 A fix will be released shortly. Regularly check the Authenticator app or the Company Portal mobile app for updates. Until then, try this workaround:
 
 1. Make sure you have a good internet connection.
-2. Close Field Service mobile and then wait for one minute and then try signing in again.
+2. Close the Field Service mobile app; wait for one minute and then try signing in again.
+
 If you still can't sign in after several attempts, try launching your app in the web browser as a temporary solution until the Authenticator or Company Portal apps are updated.
 
 
