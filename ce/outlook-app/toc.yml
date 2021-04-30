@@ -26,7 +26,7 @@
   items: 
   - name: Basic navigation in App for Outlook
     href: user/basic-navigation.md
-  - name: Link an email or appointment to a specific row
+  - name: Link and track an email or appointment to a specific row in your app
     href: user/track-message-or-appointment.md
   - name: Track an email or appointment without linking it to a specific row
     href: user/track-without-set-regarding.md
