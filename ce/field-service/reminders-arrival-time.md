@@ -125,7 +125,7 @@ Configure the following settings as needed:
 
 - **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](#field-service-customer-portal-survey-preview)
 
-- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
+- **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/TmT_Configuration.png)
@@ -373,7 +373,7 @@ We will publish updates over time to introduce new features and functionality fo
 
 ### I had the preview version of Track My Technician,and after upgrade to GA my navigation bar is now offset. How do I fix this?
 
-There were changes to some of the cntent snippets between the Preview and GA versions of Track My Technician. One of these changes can impact the navigation bar of the portal interface. To correct this issue, update the **Mobile Header** content snippet from the following old value to the new value:
+There were changes to some of the content snippets between the Preview and GA versions of Track My Technician. One of these changes can impact the navigation bar of the portal interface. To correct this issue, update the **Mobile Header** content snippet from the following old value to the new value:
   - Old value: ```<div style="text-align:center; padding:5px"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>```
   - New value: ```<div class="navbar-brand-centered"><img src="/contoso.png" alt="Contoso Limited" style="width: 132px; height: auto;"></div>![image](https://user-images.githubusercontent.com/46036300/116596757-6974ad80-a8ea-11eb-9694-4766dbf4c6e2.png)```
 

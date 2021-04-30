@@ -119,7 +119,7 @@ Configure the following settings, as needed:
 
 - **Exclusion lists**: Exclude specific service accounts or service types from all messaging.
 
-- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
+- **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/SS_Settings_Config.PNG)
@@ -324,7 +324,7 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ### While testing, I deleted and and readded my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
 
-A contact with a matching email will only recieve the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
+A contact with a matching email will only receive the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
 
 1. Go to **Portal Management** app in the Power Apps admin center.
 1. Open the newly created contact record.
@@ -419,4 +419,4 @@ We'll publish updates over time to introduce new features and functionality for 
  - You can receive scheduling slots for resources that are location-agnostic or outside of the service territory from which the user is scheduling.
  - Under some circumstances, the address of the account is not populated in a work order when self-scheduling.
  - Frontline worker is currently not booked taking into account travel time.
- - Currently cannot self-schedule incident types, which require crews or requiremnets with multiple resources. 
+ - Currently cannot self-schedule incident types, which require crews or requirements with multiple resources. 
