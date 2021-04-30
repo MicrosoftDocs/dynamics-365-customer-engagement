@@ -89,3 +89,7 @@ You can change the row an email or appointment is linked to using the **Change R
   > [!div class="mx-imgBorder"] 
   > ![Untrack a email or appointment](../media/untrack-item.png)  
 
+
+## Track all email in a folder
+
+For more information, see [Configure Outlook or Exchange folder-level tracking](/power-platform/admin/configure-outlook-exchange-folder-level-tracking).
