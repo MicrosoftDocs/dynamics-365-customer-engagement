@@ -33,9 +33,9 @@
   - name: Track appointments from another person in your organization
     href: user/track-from-another-user.md
   - name: Use delegate access
-  - href: user/use-delegate-access.md
+    href: user/use-delegate-access.md
   - name: Track contacts
-  - href: user/track-a-task.md
+    href: user/track-a-task.md
   - name: Create a new contact, lead, or account
     href: user/add-email-recipient-as-a-row.md
   - name: Add a phone call, appointment, or task activity
@@ -49,7 +49,7 @@
   - name: Track S/MIME signed emails
     href: user/s-mime-email.md
   - name: Remove Dynamics 365 App for Outlook  
-  - href: user/remove-outlook-app.md
+    href: user/remove-outlook-app.md
 - name: FAQs and troubleshoot
   items: 
   - name: Run the checker to troubleshoot issues
