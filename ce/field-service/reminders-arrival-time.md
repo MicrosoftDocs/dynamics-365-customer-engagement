@@ -67,7 +67,7 @@ You'll get an email when the portal has been provisioned, and you can move on to
 
 Customers will be able to access their service portal with a unique link sent to their email or as a text message. To set this up, you'll need to configure one or both communication methods.
 
-We provide a links directly to the Power Automate Flows for Email and SMS via Field Service [Customer Portal Settings](#set-up-the-customer-experience)
+We provide a links directly to the Power Automate Flows for Email and SMS via Field Service [Customer Portal Settings](#step-3-set-up-the-customer-experience)
 
 Alternately, you can access the Power Automate Flows for Email and SMS within Power Automate:
 
@@ -123,9 +123,9 @@ Configure the following settings as needed:
 
 - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
 
-- **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](#field-service-customer-portal-survey-(preview))
+- **Include Survey (Preview)**: You can embed a Customer Voice survey, which will be presented to your customers on the portal at the conclusion of the booking. For more information, see [Field Service Customer Portal Survey](#field-service-customer-portal-survey-preview)
 
-- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2:-configure-email-and-sms-connectors-within-power-automate).
+- **Powre Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/TmT_Configuration.png)
