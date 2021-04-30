@@ -24,9 +24,9 @@ search.app:
 ---
 # Filter tables and views that appear in Dynamics 365 App for Outlook  
 
-An app maker can customize Dynamics 365 App for Outlook to show tables that are required for your organization's needs. 
+Modularize business logic by exposing only the relevant set of tables to your users and help them get to the information they need faster. An app maker can customize Dynamics 365 App for Outlook to show tables that are required for your organization's needs. 
 
-Use the Power Apps app designer, to control the specific tables that appear in  the App for Outlook’s **Quick Create** menu and the **Regarding** lookup. Modularize business logic by exposing only the relevant set of tables to your users and help them get to the information they need faster.
+Use the Power Apps app designer, to control which tables appear in the App for Outlook’s **Quick Create** menu and the **Regarding** lookup. 
 
 Follow these steps to set which tables and views appear in App for Outlook:
 
