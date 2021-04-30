@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Dynamics 365 Marketing’s real-time marketing features empower customer experience-focused organizations. These features enable organizations to:
+Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural language input assistance, business users can build event-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support. Dynamics 365 Marketing’s real-time marketing features enable organizations to:
 
 ## Engage customers in real-time
 
@@ -45,9 +45,7 @@ Dynamics 365 Marketing’s real-time marketing features empower customer experie
 - Easily customize and connect with tools you already use.
 - Efficiently manage compliance requirements and accessibility guidelines.
 
-The real-time marketing features differentiate Dynamics 365 Marketing from the competition. We’re not just for marketers anymore. With AI and natural language input assistance, business users can build event-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support.
-
-Some of real-time marketing’s standout features are listed below. To read about all of the new features, check out our [2021 wave 1 release plan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/planned-features). See a [demo of the real-time marketing features in action](https://youtu.be/8yfIwz3Ue3Q?t=961) from Microsoft Ignite 2021.
+To read about all of the new features, check out our [2021 wave 1 release plan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/planned-features). See a [demo of the real-time marketing features in action](https://youtu.be/8yfIwz3Ue3Q?t=961) from Microsoft Ignite 2021.
 
 > [!NOTE]
 > Preview features are available in the US region. The preview features will be available in the EU region in May. Other regions will be supported at the time of general availability.
