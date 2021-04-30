@@ -31,16 +31,8 @@ The key highlights of the feature are as follows:
 - Continuous improvement of the recommendation model through comprehensive feedback mechanism.
 
 > [!NOTE]
->
-> - The AI suggestions feature is currently available only in the following geographical locations:
->   - North America
->   - South America
->   - Canada
->   - United Kingdom
->   - Europe
->   - Japan
->   - Asia Pacific
->   - Australia
+> The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+
 
 ## How AI suggestions for similar cases and knowledge articles works
 
@@ -82,7 +74,7 @@ If the language verification passes, the suggestions are displayed in the langua
 
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
-- For knowledge article suggestions, smart assist first checks for the language that is set in the **Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Search for knowledge articles](search-knowledge-articles-csh.md#personalize-your-knowledge-search-article-filters).
+- For knowledge article suggestions, smart assist first checks for the language that is set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Search for knowledge articles](search-knowledge-articles-csh.md#personalize-your-knowledge-search-article-filters).
 
 ## Prerequisites
 
