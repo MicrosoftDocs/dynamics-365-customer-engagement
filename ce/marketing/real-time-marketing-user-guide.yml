@@ -27,7 +27,7 @@ landingContent:
   # Card
   - title: Get started with real-time marketing
     linkLists:
-      - linkListType: learn
+      - linkListType: get-started
         links:
           - text: Real-time marketing overview
             url: real-time-marketing-overview.md
