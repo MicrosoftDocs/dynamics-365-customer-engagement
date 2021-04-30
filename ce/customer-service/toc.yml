@@ -166,10 +166,6 @@
         href: understand-omnichannel-customer-service-hub.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
-      - name: Show customers their position in a queue
-        href: show-queue.md
-      - name: Show customers their average wait time in a queue
-        href: average-wait-time.md
     - name: Agent experience
       items: 
       - name: Manage case queues and route cases
@@ -336,6 +332,10 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Show customers their position in a queue
+        href: show-queue.md
+      - name: Show customers their average wait time in a queue
+        href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
     - name: Agent experience
