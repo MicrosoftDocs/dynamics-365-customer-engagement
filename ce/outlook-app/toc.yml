@@ -1,6 +1,6 @@
 - name: Overview
   href: overview.md
-- name: System requiremetns, limits, and configuration
+- name: System requirements, limits, and configuration
   href: Support-info-deployment.md
 - name: Supported features
   href: user/support-matrix.md
