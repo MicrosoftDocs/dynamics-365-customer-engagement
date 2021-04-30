@@ -35,12 +35,12 @@ Dynamics 365 Marketing’s real-time marketing features empower customer experie
 
 - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
 
-## Personalize customer experiences with AI.
+## Personalize customer experiences with AI
 
 - Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics.
 - [Customer Insights segment and profile integration](real-time-marketing-ci-profile.md) allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
 
-## Grow with a unified, adaptable platform.
+## Grow with a unified, adaptable platform
 
 - Easily customize and connect with tools you already use.
 - Efficiently manage compliance requirements and accessibility guidelines.
