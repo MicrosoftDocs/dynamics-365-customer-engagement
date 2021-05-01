@@ -1,7 +1,7 @@
 ---
-title: "Trouletshoot and Frequently Asked Questions about Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
+title: "Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-description: Trouletshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
+description: Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
 ms.date: 04/30/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Trouletshoot and FAQs about Dynamics 365 App for Outlook
+# Troubleshoot and FAQs about Dynamics 365 App for Outlook
 
 ## Users with custom security role can't access Dynamics 365 App for Outlook
 
