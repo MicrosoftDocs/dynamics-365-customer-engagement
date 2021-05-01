@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 
-title: Real-time marketing user guide
+title: Customer journey orchestration user guide
 
 metadata:
-  title: "Real-time marketing user guide (Dynamics 365 Marketing) | Microsoft Docs"
+  title: "Customer journey orchestration user guide (Dynamics 365 Marketing) | Microsoft Docs"
   description: "Learn how to use real-time marketing capabilities, features, and benefits in Dynamics 365 Marketing."
   ms.date: 04/30/2021
   ms.service: dynamics-365-marketing
@@ -25,9 +25,9 @@ metadata:
 
 landingContent:
   # Card
-  - title: Get started with real-time marketing
+  - title: Get started with customer journey orchestration
     linkLists:
-      - linkListType: learn
+      - linkListType: get-started
         links:
           - text: Real-time marketing overview
             url: real-time-marketing-overview.md
