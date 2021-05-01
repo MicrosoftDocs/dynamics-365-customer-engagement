@@ -167,7 +167,7 @@ However, when scripts which do not rely on cookie authentication are used, those
 This feature is no longer available for configuration.
 
 
-### Delegated users cannot track emails
+## Delegated users cannot track emails
 Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
 
 ## I need help troubleshooting the App.
