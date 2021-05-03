@@ -31,9 +31,4 @@
 - name: Troubleshooting
   href: troubleshooting-things-know-about-phones-tablets.md
 - name: Older version (8.x)
-  items:
-  - name: Administrator Guide
-    items:
-    - name: Setup and manage phones and tablets
-    - name: Things to know and troubleshooting
-  - name: User Guide
+  href: /previous-versions/dynamicscrm-2016/mobile-app/v8/about-this-content
