@@ -21,6 +21,13 @@ search.audienceType:
 ---
 # Virtual entity walkthrough using the OData v4 Data Provider
 
+::: moniker range="op-9-1"
+Imagine that you want to access, create, update, and delete some personal information about a contact from an external data source within your custom business app. Because the data source used for this walkthrough has an OData v4 web service, you can use the OData v4 Data Provider included with your version of Dynamics 365 Customer Engagement. More information: [Virtual table walkthrough using the OData v4 Data Provider](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
+
+::: moniker-end
+
+::: moniker range="op-9-0"
+
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Virtual table walkthrough](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
 
 ## About this virtual entity walkthrough
@@ -173,6 +180,8 @@ The **All Tickets** view displays. Notice that you may need to refresh your brow
 Open a **Ticket** record to view the form that includes the **Title** and **Severity** fields for the given record.
 
 ![Ticket record](media/ticket-record.png)
+
+::: moniker-end
 
 ### See also
 
