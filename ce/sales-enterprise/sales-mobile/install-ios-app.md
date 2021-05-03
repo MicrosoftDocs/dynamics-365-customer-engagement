@@ -11,9 +11,9 @@ manager: shujoshi
 
 # Install the app on iOS
 
-1. Go to the Apple App Store, and search for **Dynamics 365 Sales**.
+1. On your iOS device, go to the Apple App Store, and search for **Dynamics 365 Sales**.
 
-    Alternately, you can [click here](https://go.microsoft.com/fwlink/?linkid=2161888) to open the app on App Store.
+    Alternately, you can [tap here](https://go.microsoft.com/fwlink/?linkid=2161888) to open the app on App Store.
 
 2. Tap **Get** to install the app.
 
