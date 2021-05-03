@@ -749,7 +749,7 @@
     - name: Service Scheduling FAQs
       items:
       - name: Service Scheduling FAQs
-        href: customer-service/service-scheduling-faq.md
+        href: service-scheduling-faq.md
     - name: Developer experience
       items: 
       - name: Search resource availability and create bookings
