@@ -23,9 +23,6 @@ Microsoft Intune can co-exist with Mobile Device Management (MDM) within Microso
 
 Before end users can use the Dynamics 365 Sales mobile app on their devices, an Intune admin must add the app to Intune and also assign the app to end users.
 
-> [!NOTE]
-> After you configure Intune, background data refresh is turned off for the Dynamics 365 Sales mobile app on your iOS or Android device. Dynamics 365 Sales mobile refreshes the data from the Dynamics 365 Sales mobile service on the web when you enter the app.
-
 ## Step 1: Add the Dynamics 365 Sales mobile app to Intune
 
 To add the Dynamics 365 Sales mobile app to Intune, use the steps provided in the following topics:
