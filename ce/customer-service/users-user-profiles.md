@@ -36,7 +36,6 @@ To add the work hour for a bookable resource, universal resource scheduling must
     | User Details | Capacity | Allocate a value that indicates the capacity of the agent. For information: [Capacity](#capacity). | 100 |
     | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel for Customer Service app. |
 
-
 5. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
 6. Specify the name of agent in the **Name** field.
