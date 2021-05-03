@@ -19,5 +19,8 @@ For your supervisors to be able to monitor, assign, and transfer conversations, 
 
 > To enable supervisors to transfer conversations, go to **Supervisor settings** and set **Supervisor Transfer** to **Yes**.
 
+### See also
+
+[Monitor conversations](monitor-conversations.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
