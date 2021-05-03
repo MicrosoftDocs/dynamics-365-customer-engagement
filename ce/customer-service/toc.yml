@@ -746,6 +746,10 @@
         href: create-edit-resource-group.md
       - name: Manage sites
         href: use-sites-manage-service-locations.md
+    - name: Service Scheduling FAQs
+      items:
+      - name: Service Scheduling FAQs
+        href: customer-service/service-scheduling-faq.md
     - name: Developer experience
       items: 
       - name: Search resource availability and create bookings
