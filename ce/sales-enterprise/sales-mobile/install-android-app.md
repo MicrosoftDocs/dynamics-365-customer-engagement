@@ -1,7 +1,7 @@
 ---
 title: Install the Dynamics 365 Sales mobile app on Android
 description: Instructions to install the Dynamics 365 Sales mobile app on Android
-ms.date: 11/30/2020
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -11,33 +11,16 @@ manager: shujoshi
 
 # Install the app on Android
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+1. On your Android device, go to the Google Play Store, and search for **Dynamics 365 Sales**.
 
-The Dynamics 365 Sales mobile app can be installed on Android devices without a work profile.
+    Alternately, you can [tap here](https://go.microsoft.com/fwlink/?linkid=2161889) to open the app on Play Store.
 
-## Install the app on Android without a work profile
+2. Tap **Install** to install the app.
 
-1.	On your Android device, go to the [preview version of the Android app](https://go.microsoft.com/fwlink/p/?linkid=2152008)
+    ![Install the app on iOS](media/android-install-app.png "Install the app on iOS")
 
-2.	On the **App Center** page, tap **Download**.
+### See also
 
-    ![Download the Sales mobile app](media/android-install-step2.png "Download the Sales mobile app")
-
-3.	In the confirmation message to download the .apk file, tap **Download**.
-
-    ![Download the Sales.apk file](media/android-install-step3.png "Download the Sales.apk file")
-
-4.	In the mobile app, tap **Install**.
-
-    ![Install the app on Android](media/android-install-step4.png "Install the app on Android")
-
-5.	When the app is installed, tap **Open**.
-
-    ![Open the app](media/android-install-step5.png "Open the app")
-
-## Install the app on Android with a work profile
-
-Currently, installation of the app on Android with a work profile is not supported. For more details, contact [Dynamics 365 Sales mobile support](mailto:DSalesMobileSupport@microsoft.com). 
-
+[Configure mobile apps with Microsoft Intune](configure-app-intune.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Modify quick view forms for the Dynamics 365 Sales mobile app
 description: Learn to modify quick view forms for the Dynamics 365 Sales mobile app.
-ms.date: 03/03/2021
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,8 +10,6 @@ manager: shujoshi
 ---
 
 # Modify quick view forms
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Dynamics 365 Sales mobile app uses the quick view form to display table details. This is a lightweight form that doesn't include all attributes of the table. More information: [Create a quick view form](/powerapps/maker/model-driven-apps/create-edit-quick-view-forms)
 
