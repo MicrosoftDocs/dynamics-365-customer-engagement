@@ -26,7 +26,7 @@ To provision unified routing in Customer Service, do the following:
 > [!IMPORTANT]
 > If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you enable unified routing only after recreating the required workstreams anew.
 
-After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing. The site map is also updated with the **Unified Routing** area if Omnichannel for Customer Service is installed and you upgrade it before enabling unified routing in Customer Service Hub.
+After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing. The site map is also updated with the **Unified Routing** area if Omnichannel for Customer Service is installed or if you upgrade Omnichannel for Customer Service before enabling unified routing in Customer Service Hub.
 
 > ![Site map view for unified routing](media/enable-unified-routing.png)
 
