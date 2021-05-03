@@ -45,7 +45,7 @@ While creating a service activity, manual selection of resources is not supporte
 
 ## How do I install Core Service Scheduling from the Power Platform admin center?
 
-For steps on how to install Core Service Scheduling from the Power Platform admin center, see [Install Core Service Scheduling from the Power Platform admin center](install-core-service-scheduling-from-power-platform-admin-center.md).
+For steps on how to install Core Service Scheduling from the Power Platform admin center, see [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md).
 
 ### See also
 
