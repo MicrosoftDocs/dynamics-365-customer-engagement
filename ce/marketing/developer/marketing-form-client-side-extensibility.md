@@ -29,14 +29,16 @@ We're consuming the latest version of JavaScript API. Make sure that your refere
 Place the custom code right after the `form-loader.js` script.
 
 Code sample:
+```JS
+<script src="https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=..."></script>
+<script>
+// correct - the script will attach event handlers right after form loader script
+MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {});
 
-`<script src="https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.69"></script>`<br>
-`<script>`<br>
-`// correct - the script will attach event handlers right after form loader script`<br>
-`MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {});`<br>
-`// wrong - the script will attach event handlers after window has finished loading, form already might have been loaded in the meantime and no events will trigger anymore`<br>
-~~`window.onload = function() { MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {}); };`~~<br>
-`</script>`<br>
+// wrong - the script will attach event handlers after window has finished loading, form already might have been loaded in the meantime and no events will trigger anymore
+// window.onload = function() { MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {}); };
+</script>
+```
 
 ### MsCrmMkt.MsCrmFormLoader methods
 

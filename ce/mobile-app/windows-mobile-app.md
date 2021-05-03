@@ -296,6 +296,10 @@ To send feedback about the app, go back to the **Apps** page, and then select **
 
 ## Known issues and unsupported features
 
+### Web resources are not supported for offline
+
+Web resources are not supported for Windows devices for offline mode.
+
 ### Media capture isn't supported
 
 You can add notes, but can't capture and attach photos, videos, or audio. However, you can attach local files of any type, including photo, video, or audio.  

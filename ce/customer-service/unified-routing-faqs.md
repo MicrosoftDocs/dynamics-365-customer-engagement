@@ -21,7 +21,11 @@ Customers will get unified routing for entities, such as Cases, Leads, and custo
 
 ### What will happen to my current workstreams after unified routing is installed?
 
-For messaging channels, a migration utility will be available to upgrade the workstream and associated routing rules. For entity routing, you'll configure new workstreams and rules in unified routing.
+For messaging channels, use the migration utility to migrate the workstream and associated routing rules. For entity routing, you'll configure new workstreams and rules in unified routing. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md). 
+
+### What are the implications when migration is in progress?
+
+There is no downtime involved when you are migrating the workstreams, but it is recommended that you perform the migration during low load or off hours.
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 

@@ -1,7 +1,7 @@
 ---
 title: "Embed forms on external websites (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to publish a form on an external site and capture the submissions in Dynamics 365 Marketing."
-ms.date: 09/23/2020
+ms.date: 04/26/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -89,7 +89,7 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
     1. A new authenticated domain record opens. Make the following settings:
 
         - **Domain name**: Enter the name of the domain you want to authenticate.
-        - Select **Enable prefilled forms** check box.
+        - Select the **Enable for forms hosting** check box.
 
 1. If your form **does** use prefill (including all subscription center forms), you must authenticate the domain(s) where you'll use the form. More information: [Enable prefilling on embedded forms](#form-prefil)
 
@@ -142,15 +142,15 @@ To set up a form capture:
 
 1. Sign in to Dynamics 365 Marketing and go to **Marketing** > **Internet Marketing** > **Form fields**. Each of the records listed here establishes a mapping between a field available for use in a marketing form and an actual field from the contact and/or lead entity in the underlying database. Check to make sure that each of the fields required by your external form is correctly mapped here, and add any missing fields if necessary. More information: [Create and manage input fields for use in forms](marketing-fields.md)
 
-1. Go to **Marketing forms** and click on the **Capture form** button. This will start the form capture wizard that will take you through each step, starting with tracking script placement into your webpage.
+1. Go to **Marketing forms** and select the **Capture form** button. This will start the form capture wizard that will take you through each step, starting with tracking script placement into your webpage.
 
-1. **Enter the form location**: Enter the URL of the third-party page where the form capture wizard will check if there is a valid tracking script inserted. Your webpage will open in a new tab where the wizard will continuously check for tracking scripts. This enables the wizard to detect dynamically injected scripts. You should leave this tab open until you are finished capturing your form.
+1. **Enter the form location**: Enter the URL of the third-party page where the form capture wizard will check if there is a valid tracking script inserted. Your webpage will open in a new tab where the wizard will continuously check for tracking scripts. This enables the wizard to detect dynamically injected scripts. Leave this tab open until you are finished capturing your form.
 
     ![Enter the form location](media/embed-forms-location.png "Enter the form location")
 
-1. Click the button in the new tab to proceed to the next steps in the form capture wizard.
+1. Select the button in the new tab to proceed to the next steps in the form capture wizard.
 
-1. **Check for a tracking script**: If this is your first time capturing this form and you need to generate a script for your website, click on the **I need a new script** button. This will create a website entity, which you can access in the **Marketing websites** section and rename later. If you already have a script, use the dropdown list to find your script for the form’s web page.
+1. **Check for a tracking script**: If this is your first time capturing this form and you need to generate a script for your website, select the **I need a new script** button. This will create a website entity, which you can access in the **Marketing websites** section and rename later. If you already have a script, use the dropdown list to find your script for the form’s web page.
 
     ![Check for the tracking script](media/embed-forms-check-script.png "Check for the tracking script")
 
@@ -192,7 +192,7 @@ Once you have a captured or hosted form set up, you're ready to start using it i
 
 ### Link to an external form from an email message
 
-Unlike local landing pages, there is no [design element](content-blocks-reference.md) dedicated to external forms. Therefore, use either a button element or a standard text link to link to your embedded form using its page URL from your webserver.
+Unlike local landing pages, there is no [design element](content-blocks-reference.md) dedicated to external forms. Therefore, use either a button element or a standard text link to your embedded form using its page URL from your webserver.
 
 ### Use external forms with journey triggers
 
