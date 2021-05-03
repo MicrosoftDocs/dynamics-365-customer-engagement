@@ -117,9 +117,9 @@ The matrix describes the channel, status reason, and default configured time.
  | Entity records (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
  | Entity records (Case) | Active | None | For an entity channel, a conversation that is  **Active** won’t be automatically closed. |
  |  |  |  |  |
- | SMS | Open | 30 days | For an SMS channel, a conversation in the **Open** state for more than 30 days is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
- | SMS | Active | 30 days | For an SMS channel, a conversation that is **Active** for more than 30 days is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
- | SMS | Wrap-up | 1 day | For an SMS channel, a conversation in **Wrap-up** for more than 1 day is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+ | SMS, Teams, and social channels | Open | 30 days | For an asynchronous channel, such as SMS, Teams, and social channels, a conversation in the **Open** state for more than 30 days is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
+ | SMS, Teams, and social channels | Active | 30 days | For an asynchronous channel, such as SMS, Teams, and social channels, a conversation that is **Active** for more than 30 days is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
+ | SMS, Teams, and social channels | Wrap-up | 1 day | For an asynchronous channel, such as SMS, Teams, and social channels, a conversation in **Wrap-up** for more than 1 day is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
 
 **Example**
 
