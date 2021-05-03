@@ -13,7 +13,15 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can configure settings for record routing in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration.
+You can configure routing for records in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+
+If you have only Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
+
+## Prerequisites
+
+- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing](#provision-unified-routing).
+- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](entity-channel.md#enable-entities).
+- You must have the CSR Manager role to configure record routing.
 
 ## Provision unified routing
 
@@ -29,12 +37,6 @@ To provision unified routing in Customer Service, do the following:
 After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing. The site map is also updated with the **Unified Routing** area if Omnichannel for Customer Service is installed or if you upgrade Omnichannel for Customer Service before enabling unified routing in Customer Service Hub.
 
 > ![Site map view for unified routing](media/enable-unified-routing.png)
-
-## Prerequisites
-
-- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing](#provision-unified-routing).
-- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](entity-channel.md#enable-entities).
-- You must have the CSR Manager role to configure record routing.
 
 ## Configure unified routing for records
 
