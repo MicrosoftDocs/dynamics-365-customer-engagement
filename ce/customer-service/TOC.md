@@ -316,7 +316,7 @@
 #### [Configure Customer Service analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md)
 #### [Configure intraday insights](configure-intraday-dashboard-supervisor.md)
 #### [Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
-#### [Enable Supervisor settings]
+#### Enable Supervisor settings
 ##### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)
 ##### [Enable Supervisor to monitor, assign, and transfer conversations](enable-monitor-assign-transfer-conv.md)
 #### [Configure real-time customer sentiment](enable-sentiment-analysis.md)
