@@ -13,11 +13,11 @@ ms.service: dynamics-365-customerservice
 
 For your supervisors to be able to monitor, assign, and transfer conversations, you must enable to respective settings in Omnichannel Administration.
 
-> To enable supervisors to monitor conversations, go to **Supervisor settings** and set **Supervisor Monitor** to **Yes**.
+> To enable supervisors to monitor conversations, go to **Supervisor settings** and set the **Supervisor Monitor** toggle to **Yes**.
 
-> To enable supervisors to assign conversations, go to **Supervisor settings** and set **Supervisor Assign** to **Yes**.
+> To enable supervisors to assign conversations, go to **Supervisor settings** and set the **Supervisor Assign** toggle to **Yes**.
 
-> To enable supervisors to transfer conversations, go to **Supervisor settings** and set **Supervisor Transfer** to **Yes**.
+> To enable supervisors to transfer conversations, go to **Supervisor settings** and set the **Supervisor Transfer** toggle to **Yes**.
 
 ### See also
 
