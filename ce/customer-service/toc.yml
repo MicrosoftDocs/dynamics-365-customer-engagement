@@ -685,7 +685,7 @@
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
       - name: Install Core Service Scheduling from Power Platform admin center
-        href: install-core-service-scheduling-from-power-platform-admin-center
+        href: install-core-service-scheduling-from-power-platform-admin-center.md
       - name: Manage security roles
         href: manage-security-roles.md
       - name: Create and manage organizational units
