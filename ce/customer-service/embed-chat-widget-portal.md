@@ -4,7 +4,7 @@ description: "Instructions to embed chat widget in your website or Power Apps po
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/04/2020
+ms.date: 05/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -83,7 +83,7 @@ After the chat widget is configured, it has the following capabilities:
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
-> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](/portals/manage-portal-content.md). 
+> For advanced configuration like embedding chat widget on specific web pages, see [Create and manage portals](https://docs.microsoft.com/powerapps/maker/portals/portal-templates). 
 
 ### See also
 
