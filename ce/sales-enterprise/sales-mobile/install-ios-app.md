@@ -20,5 +20,8 @@ manager: shujoshi
     ![Install the app on iOS](media/ios-install-app.png "Install the app on iOS")
 
 
+### See also
+
+[Configure mobile apps with Microsoft Intune](configure-app-intune.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
