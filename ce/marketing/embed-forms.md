@@ -19,7 +19,7 @@ search.app:
 ---
 
 # Embed forms on external websites
-<!--note from editor: Our style guide says to shorten "Dynamics 365 Marketing" to "Marketing" after the first use, but I can see why you don't do that here - I think it's too easy for the reader to confuse the product name with a generic reference. The edits I made to "Power Apps portal" (to some variation of "a portal created with the Power Apps portals feature") are also based on the style guide. However, I do realize that there are hundreds of occurrences of "Power Apps portal" in the doc set.-->
+
 Dynamics 365 Marketing provides a complete solution for designing, publishing, and hosting landing pages on a portal created with the Power Apps portals feature that runs on your Dynamics 365 Marketing instance. However, you can also create or embed forms on your own external website that submit values back to Dynamics 365 Marketing. These external pages function similarly to native Dynamics 365 Marketing landing pages, so they'll generate contacts or leads in your database when they're submitted. However, a few limitations apply, depending on how you implement the external forms.
 
 There are two basic methods for integrating an external form page with Dynamics 365 Marketing:
@@ -106,7 +106,7 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 Form prefilling enables your forms to include prefilled values for known contacts. Prefilling makes your forms easier for contacts to use and can therefore help to increase your submission rates. The feature uses cookies to identify contacts who have previously submitted a form or opened a subscription center by using a personalized link sent in email.
 
-Because form prefilling requires the form to fetch contact values from your Dynamics 365 database, a few extra security measures are in place to help protect contacts' privacy. This means that contacts need to opt in for form prefilling and that you must authenticate each external domain where you'll embed the form. The solution only allows prefilled values to be shown to contacts whose contact record has the _allow-prefill_ flag set. Contacts can set or clear their allow-prefill flag themselves by using any landing page form<!--note from editor: Edit okay?-->, provided the form includes the setting. Dynamics 365 Marketing users can also edit a contact record directly to edit this setting for that contact.
+Because form prefilling requires the form to fetch contact values from your Dynamics 365 database, a few extra security measures are in place to help protect contacts' privacy. This means that contacts need to opt in for form prefilling and that you must authenticate each external domain where you'll embed the form. The solution only allows prefilled values to be shown to contacts whose contact record has the _allow-prefill_ flag set. Contacts can set or clear their allow-prefill flag themselves by using any landing page form, provided the form includes the setting. Dynamics 365 Marketing users can also edit a contact record directly to edit this setting for that contact.
 
 To create a form with prefilling that you can embed on an external website:
 
