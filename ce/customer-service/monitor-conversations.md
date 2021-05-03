@@ -5,7 +5,7 @@ author: "mh-jaya"
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/21/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -17,12 +17,12 @@ ms.service: dynamics-365-customerservice
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-As a supervisor, you can monitor, assign, or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard. For more information, go to [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+As a supervisor, you can monitor, assign, or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
-When you monitor conversations, you can see and understand how they are proceeding, and also check if any conversation needs your immediate attention. You can also view customer sentiments and agent responses.
+When you monitor conversations, you can see and understand how they are proceeding, and also check if any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
 > [!NOTE]
-> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**.
+> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**. More information: [How to enable supervisor settings](enable-monitor-assign-transfer-conv.md).
 
 ## Monitor and join conversations
 
@@ -33,7 +33,7 @@ As a supervisor, you can monitor or assign conversations or work items that are 
 
 1. Sign in to **Omnichannel for Customer Service**.
 
-2. From the dashboard view selector, select the **Omnichannel Ongoing         Conversations** dashboard.
+2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
     The list of conversations currently being handled by your agents is displayed.
 
 3. Select a conversation that you want to monitor and select **Monitor**.
@@ -41,7 +41,7 @@ As a supervisor, you can monitor or assign conversations or work items that are 
 
 4. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
-    When you join the conversation, both the agent and the customer receive notifications that you have joined the conversation. Depending on your requirement, you can consult with the agent and customer via public or internal modes. For more information, go to [View communication panel](oc-conversation-control.md).
+    When you join the conversation, both the agent and the customer receive notifications that you have joined the conversation. Depending on your requirement, you can consult with the agent and customer via public or internal modes. More information: [View communication panel](oc-conversation-control.md).
 
 ## Assign conversations
 
@@ -70,7 +70,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
     The list of available agents, their capacities, and queues is displayed.
 
-2. Select a conversation in an **Active** or **Waiting** state and select **Transfer**.
+2. Select a conversation in an **Active** or **Waiting** state, and then select **Transfer**.
 
 3. On the **Transfer conversations** dialog, select the agent that you want to transfer the conversation to, from the list of agents that appears.
 
@@ -79,7 +79,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 4. Select **Transfer**. The selected conversation is transferred to the agent.
 
 > [!NOTE]
-> When you transfer an **Active** conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent.
+> When you transfer an **Active** conversation from one agent to another, the first agent is added as consultant to the conversation that's now being managed by the second agent.
 
 > When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
 
