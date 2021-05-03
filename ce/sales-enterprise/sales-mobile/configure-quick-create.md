@@ -15,10 +15,10 @@ Dynamics 365 Sales mobile app supports quick creation of records and activities.
 
 ## Enable a table or an activity for quick creation
 
-In order for a table or activity to be available in the quick creation list, it should have the following properties:
+A table or activity should have the following properties to be available in the quick creation list:
 
 - Enabled for quick creation and visible in mobile
-- Have a quick view form set up
+- Have a quick view form
 
 ### Enabled for quick creation and visible in mobile
 
@@ -29,14 +29,14 @@ For a table or an activity to be available for quick creation and visible in mob
 
 ![Enable table or activity for quick creation and visible in mobile](media/enable-quick-create.png "Enable table or activity for quick creation and visible in mobile")
 
-When you select the check boxes, the following metadata properties are set as below:
+When you select the checkboxes, the following metadata properties are set:
 
 - IsQuickCreateEnabled is set to true
 - IsVisibleInMobile is set to true
 
-### Have a quick view form set up
+### Have a quick view form
 
-Quick creation is only enabled for tables or activities with a quick view form. For information to create a quick view form, see [Create a quick view form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-view-forms).
+Quick creation is enabled only for tables or activities that have a quick view form. For information to create a quick view form, see [Create a quick view form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-view-forms).
 
 ## Control which fields are displayed in the quick creation form
 
