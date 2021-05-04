@@ -24,7 +24,7 @@ Marketing forms can be extended using JavaScript to perform custom business acti
 
 ## JavaScript API
 
-We're consuming the latest version of JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
+We're consuming the latest version of JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=[version tag]` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=[version tag]` respectively. The `?v=[version tag]` part can be omitted. Old scripts - i.e. scripts in format of `https://mktdplp102cdn.azureedge.net/public/static/[version tag]/js/form-loader.js` or `https://mktdplp102cdn.azureedge.net/public/static/[version tag]/js/loader.js` are obsolete and no longer supported.
 
 Place the custom code right after the `form-loader.js` script.
 
