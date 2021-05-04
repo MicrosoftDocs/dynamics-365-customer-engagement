@@ -271,7 +271,7 @@ The following features are not yet present on Unified Interface, but these are 
 
 -   Reports
 
-## Read, create, update, and delete transaction support for virtual entities
+## Create, update, and delete transaction support for virtual entities
 
 Using the included OData v4 provider, read, create, update, and delete data from an external data source within your custom business app. More information: [Virtual entity walkthrough using the OData v4 Data Provider](customize/virtual-entity-walkthrough-using-odata-provider.md)
 
