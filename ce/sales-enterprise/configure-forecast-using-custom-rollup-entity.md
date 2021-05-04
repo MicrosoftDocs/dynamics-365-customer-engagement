@@ -102,7 +102,7 @@ Let's configure this forecast.
 ## Opportunity split 
 
 >[!IMPORTANT]
->The opportunity split entity is a custom entity and is not available by default. To select opportunity split as a rollup entity as defined in this section, you must create this custom entity.
+>The opportunity split is a custom entity and is not available by default. To choose opportunity split as a rollup entity as defined in this section, you must create opportunity split custom entity. More information: [Create an entity](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities)
 
 Use this model to create an opportunity split forecast.
 
