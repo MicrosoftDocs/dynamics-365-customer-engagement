@@ -118,7 +118,7 @@ Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installe
 For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 
 
 
-### Dynamics 365 App for Outlook does not display the recipient picker and instead displays a different dashboard. How do I switch it back?
+## Dynamics 365 App for Outlook does not display the recipient picker and instead displays a different dashboard. How do I switch it back?
 Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365 apps. For more information, see [Limitations when customizing Dynamics 365 App for Outlook](./limitations-when-customizing-app-for-outlook.md#customizing-app-for-outlook-sitemap).
 
 ## Some of my appointments in Outlook and Dynamics 365 apps are canceled or deleted unexpectedly. Why is this happening?
@@ -149,7 +149,7 @@ To fix issues with server-side synchronization, contact your administrator, who 
 Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 via Server-Side Synchronization, which is an asynchronous service that runs in the background approximately every 15 minutes.
 
 
-## I am unable to track contacts.
+## I'm unable to track contacts.
 For more information, see [Issue when trying to access Dynamics 365 apps within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
 
 
@@ -167,8 +167,6 @@ However, when scripts which do not rely on cookie authentication are used, those
 This feature is no longer available for configuration.
 
 
-## Delegated users cannot track emails
-Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
 
 ## I need help troubleshooting the App.
 For more information, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
