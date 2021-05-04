@@ -183,7 +183,7 @@ Open a **Ticket** record to view the form that includes the **Title** and **Seve
 
 ::: moniker-end
 
-### See also
+### See also 
 
 [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
 
