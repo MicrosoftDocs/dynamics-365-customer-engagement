@@ -106,9 +106,9 @@ Let's configure this forecast.
 
 Use this model to create an opportunity split forecast.
 
-For opportunity split&ndash;based forecasting, the user-level revenue comes from the Opportunity Split entity. Therefore, **Opportunity Split** must be selected as the rollup entity and **User** as the hierarchy entity that has a direct relationship with the rollup entity through the **Owner** attribute. 
+For opportunity split&ndash;based forecasting, the user-level revenue comes from the opportunity split entity. Therefore, **Opportunity Split** must be selected as the rollup entity and **User** as the hierarchy entity that has a direct relationship with the rollup entity through the **Owner** attribute. 
 
-The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in the Opportunity entity that's related to the Opportunity Split rollup entity. 
+The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in the Opportunity entity that's related to the opportunity split rollup entity. 
 
 So, we're using the following entities to create the forecast:
 
