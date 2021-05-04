@@ -35,9 +35,15 @@ System customizers have access to the Sitemap Designer using the App Designer fo
 3. Select the **Default Solution** > **More Commands** > **Edit**.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit form settings](media/edit-solution.png)
+   > ![Edit the default solution](media/edit-solution.png)
+
+4. Select **All** and then select **Dashboard**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Sort by dashboard](media/sort-by-dashboard.png)
 
 
+  
 Navigate to **Settings** > **Customizations** > **Customize the system**.
 2. From the menu on the left, expand **Components** and then select **Dashboards**.
 3. Select **App for Outlook Dashboard** and then select **Enable Security Roles**.
