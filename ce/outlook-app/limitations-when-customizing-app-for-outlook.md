@@ -58,6 +58,23 @@ System customizers have access to the Sitemap Designer using the App Designer fo
 
 This issue is also seen when the sitemap for App for Outlook has been modified. For example, the sitemap for App for Outlook has an alternate dashboard in the **Default Dashboard** field. To resolve this issue, do the following:
 
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left navigation pane, select **Apps**.
+3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
+
+4. In the app designer, choose table and browse to find your custom table.
+
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png "Dynamics 365 App for Outlook sitemap designer")
+
+5. Select  **Open the Site May Designer**
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
 1. Open App for Outlook sitemap designer. Go to **Settings** > **Customizations** > **Customize the system** > **Apps** > **App for Outlook**.
 
 ![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png "Dynamics 365 App for Outlook sitemap designer")
