@@ -66,43 +66,16 @@ This issue is also seen when the sitemap for App for Outlook has been modified. 
    > [!div class="mx-imgBorder"]
    > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
 
-4. In the app designer, choose table and browse to find your custom table.
+4. Select **Open the Site Map Designer** 
 
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png "Dynamics 365 App for Outlook sitemap designer")
+   > ![Edit Dynamics 365 App for Outlook sitemap designer](media/eidt-site-map.png "Edit Dynamics 365 App for Outlook sitemap designer")
 
-5. Select  **Open the Site May Designer**
+5.  Select **Dashboards** and make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the **Default Dashboard** is **App for Outlook Dashboard**.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 App for Outlook sitemap designer page](media/AppForOutlookSiteMap_4.png "Dynamics 365 App for Outlook sitemap designer page")
 
-1. Open App for Outlook sitemap designer. Go to **Settings** > **Customizations** > **Customize the system** > **Apps** > **App for Outlook**.
-
-![Dynamics 365 App for Outlook sitemap designer](media/AppDesigner_AppForOutlook_3.png "Dynamics 365 App for Outlook sitemap designer")
-
-2. Make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the default dashboard is **App for Outlook Dashboard**.
-
-![Dynamics 365 App for Outlook sitemap designer page](media/AppForOutlookSiteMap_4.png "Dynamics 365 App for Outlook sitemap designer page")
-
-
-#### Dashboard customization in Dynamics 365 App for Outlook
-
-The following dashboard customizations are not supported currently.
-
--  In Dynamics 365 App for Outlook, you will not be able to switch dashboards by navigating to the main menu and then **Home**.
-   Choosing the Dashboards option will redirect back to the default App for Outlook dashboard.
-
-   ![Dynamics 365 App for Outlook Dashboard](media/CustomDashboard.PNG "Dynamics 365 App for Outlook Dashboard")
-
-
-- Switching the default dashboard for App for Outlook in App designer
-
-  System customizers have access to the App Designer for Dynamics 365 App for Outlook as it is one of the App Modules in version 9.0.
-We recommend that you do not change the default App for Outlook dashboard as that is not a supported.
-
-  ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
-  
-> [!Note]
-> Business process flows are not supported in Dynamics 365 App for Outlook. When customizing the app, you should not explicitly select any business process flows.
 
 
 
