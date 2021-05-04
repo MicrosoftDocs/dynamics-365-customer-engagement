@@ -32,7 +32,8 @@ System customizers have access to the Sitemap Designer using the App Designer fo
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solutions**.
-3. Select the **Default Solution** > **More Commands** > **Edit**>
+3. Select the **Default Solution** > **More Commands** > **Edit**.
+
    > [!div class="mx-imgBorder"]
    > ![Edit form settings](media/edit-solution.png)
 
