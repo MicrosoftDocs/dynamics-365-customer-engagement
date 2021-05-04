@@ -52,12 +52,11 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
     > [!div class="mx-imgBorder"] 
     > ![Outlook Checker pane.](media/outloook-checker-pane.png "Outlook Checker pane") 
 
-    When you set the toggle to **Show**, the checker icon is added to the command bar under **More commands** ![More commands button in Outlook pane](media/morecommends_outlook.png "More commands in Outlook pane").
+    When you set the toggle to **Show**, you can access the **Outlook checker** by selecting **More commands** ![More commands button in Outlook pane](media/morecommends_outlook.png "More commands in Outlook pane").
    
     > [!div class="mx-imgBorder"] 
     > ![Outlook Checker on the command bar.](media/checker-commandbar.png "Outlook Checker on the command bar")
      
-    
 4. Select **Run diagnostics** to run the checker.
 
     > [!div class="mx-imgBorder"] 
@@ -71,8 +70,6 @@ Use the Outlook Checker to run a diagnostic check and scan for potential issues 
 ## Common issues
 
 1. If you don't have sufficient privileges to use Dynamics 365 App for Outlook, see [A privilege error occurs when attempting to use Dynamics 365 App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2135239).
-
-
 
 2. If you deactivated one of the views used by Dynamics 365 App for Outlook and get an error, see [The view is not available error message](/previous-versions/sql/sql-server-2008-r2/ms188674(v=sql.105)).
 
