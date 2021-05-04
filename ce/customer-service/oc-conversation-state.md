@@ -57,7 +57,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
 
 > [!NOTE]
-> If you decline a conversation 10 times within a time span of five minutes, then the conversation will be moved to the **Closed** state.
+> If you decline a conversation 10 times within a time span of 5 minutes, then the conversation will be moved to the **Closed** state.
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active1.png "Active state")
 
@@ -134,7 +134,7 @@ For the chat channel, a conversation is in open state at 1100 hours of Jan 10, 2
 
 For chat and SMS channel, a conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the work stream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
-For example, when you set **Auto-close after inactivity** to five minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than five minutes.
+For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
 
 To learn more, see [Create a work stream](work-streams-introduction.md#create-a-work-stream).
 
