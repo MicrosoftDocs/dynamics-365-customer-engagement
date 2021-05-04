@@ -21,7 +21,7 @@ searchScope:
 
 # Configure forecasts by using a custom rollup entity
 
-Forecasting supports custom and other out-of-the-box rollup entities so you can configure a forecast that's specific to your organizational requirements.
+Forecasting supports custom and other out-of-the-box rollup entities (now known as tables) so you can configure a forecast that's specific to your organizational requirements.
 
 ## How it works
 
@@ -102,7 +102,7 @@ Let's configure this forecast.
 ## Opportunity split 
 
 >[!IMPORTANT]
->The opportunity split is a custom entity and is not available by default. To choose opportunity split as a rollup entity as defined in this section, create opportunity split custom entity. More information: [Create an entity](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-entities)
+>The opportunity split is a custom entity and isn't available by default. To choose opportunity split as a rollup entity, you must first create opportunity split custom entity. More information: [Create a custom table](/powerapps/maker/data-platform/data-platform-create-entity).
 
 Use this model to create an opportunity split forecast.
 
