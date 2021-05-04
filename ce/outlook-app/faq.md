@@ -26,7 +26,7 @@ search.app:
 
 ## Users with custom security role can't access Dynamics 365 App for Outlook
 
-Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md). You may also get this error: **Sorry, something went wrong while initializing the app**
+Users who are assigned a custom security role may not be able to access Dynamics 365 App for Outlook. You may also get this error: **Sorry, something went wrong while initializing the app**
 
 To workaround this issue, see
 -  [Sorry something went wrong while initializing the app when accessing the Dynamics 365 App for Outlook](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
