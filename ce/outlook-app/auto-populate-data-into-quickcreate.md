@@ -32,14 +32,13 @@ Use the quick create form in App for Outlook to auto populate information from a
 
 These fields that will be populated automatically:
 
-|                                                                                                |                                                                                              |                                                                                      |
+|        Outlook item field                                                                                        |                                                                                         Mapped to     |       Quick Create Case form field                                                                             |
 |------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-|                                          **Outlook item field**                                           |  | **Quick Create Case form field** |
-|                             Currently selected contact's account (if known)                                |                                             Mapped to ->                                              |                                         Customer                                          |
-|                            Email subject                            |                                              Mapped to ->                                              |                                         Case Title                                          |
-|                              Email sender                              |                                             Mapped to ->                                              |                                         Contact                                          |
-|                              Email                                |                                               Mapped to ->                                               |                                         Origin                                          |
-|                                   Email body                                     |                                              Mapped to ->                                              |                                          Description                                        |
+|                             Currently selected contact's account (if known)                                |                                             -->                                              |                                         Customer                                          |
+|                            Email subject                            |                                             -->                                              |                                         Case Title                                          |
+|                              Email sender                              |                                             -->                                              |                                         Contact                                          |
+|                              Email                                |                                               -->                                             |                                         Origin                                          |
+|                                   Email body                                     |                                              -->                                              |                                          Description                                        |
 
 
 
