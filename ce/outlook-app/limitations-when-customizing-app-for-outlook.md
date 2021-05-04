@@ -69,12 +69,12 @@ This issue is also seen when the sitemap for App for Outlook has been modified. 
 4. Select **Open the Site Map Designer** 
 
    > [!div class="mx-imgBorder"]
-   > ![Edit Dynamics 365 App for Outlook sitemap designer](media/eidt-site-map.png "Edit Dynamics 365 App for Outlook sitemap designer")
+   > ![Edit Dynamics 365 App for Outlook sitemap designer](media/eidt-site-map.png)
 
-5.  Select **Dashboards** and make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the **Default Dashboard** is **App for Outlook Dashboard**.
+5. Select **Dashboards** and make sure that the App for Outlook sitemap has **Dashboard** as the first sub area and that the **Default Dashboard** is **App for Outlook Dashboard**.
 
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 App for Outlook sitemap designer page](media/AppForOutlookSiteMap_4.png "Dynamics 365 App for Outlook sitemap designer page")
+   > ![Dynamics 365 App for Outlook sitemap designer page with default dashboard](media/default-dashboard.png)
 
 
 
