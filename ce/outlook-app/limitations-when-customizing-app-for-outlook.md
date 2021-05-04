@@ -1,7 +1,8 @@
 ---
 title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/30/2020
+ms.date: 05/04/2021
+description: When customizing the app you make run into these limitations.
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,9 +28,16 @@ When customizing the app you make run into these limitations.
 
 #### Customizing App for Outlook sitemap
 
-System customizers have access to the Sitemap Designer (within the App Designer) for Dynamics 365 App for Outlook. It is one of the App Modules in version 9.0. The Dynamics 365 App for Outlook default landing page is a dashboard that is configured in the App Module. Customizations to App for Outlook sitemap are not supported at this time. If you are unable to view the Dynamics 365 App for Outlook landing page when you open App for Outlook, please follow the steps below.
+System customizers have access to the Sitemap Designer using the App Designer for Dynamics 365 App for Outlook. It is one of the App Modules in version 9.0. The Dynamics 365 App for Outlook default landing page is a dashboard that is configured in the App Module. Customizations to App for Outlook sitemap are not supported at this time. If you are unable to view the Dynamics 365 App for Outlook landing page when you open App for Outlook, please follow the steps below.
 
-1. Navigate to **Settings** > **Customizations** > **Customize the system**.
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left nav, select **Solutions**.
+3. Select the **Default Solution** > **More Commands** > **Edit**>
+   > [!div class="mx-imgBorder"]
+   > ![Edit form settings](media/edit-solution.png)
+
+
+Navigate to **Settings** > **Customizations** > **Customize the system**.
 2. From the menu on the left, expand **Components** and then select **Dashboards**.
 3. Select **App for Outlook Dashboard** and then select **Enable Security Roles**.
 
