@@ -53,18 +53,8 @@ System customizers have access to the Sitemap Designer using the App Designer fo
    > [!div class="mx-imgBorder"]
    > ![Assign security role scren](media/assign-security-roles-screen.png)
 
+7. When you're done, select **OK**. 
 
-Navigate to **Settings** > **Customizations** > **Customize the system**.
-2. From the menu on the left, expand **Components** and then select **Dashboards**.
-3. Select **App for Outlook Dashboard** and then select **Enable Security Roles**.
-
-![Dynamics 365 App for Outlook Customizations page](media/PowerApps_DefaultSolution_1.png "Dynamics 365 App for Outlook Customizations page")
-
-4. On the **Assign Security Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
-
-![Dynamics 365 App for Outlook Assign Sercity Roles](media/AppForOutlookDashboard_2.png "Dynamics 365 App for Outlook Assign Sercity Roles")
-
-5. Select **OK**.
 
 This issue is also seen when the sitemap for App for Outlook has been modified i.e. the sitemap for App for Outlook has an alternate dashboard in the **Default Dashboard** field. To resolve this issue, do the following:
 
