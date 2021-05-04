@@ -102,7 +102,7 @@ Let's configure this forecast.
 ## Opportunity split 
 
 >[!IMPORTANT]
->The opportunity split is a custom entity and isn't available by default. To choose opportunity split as a rollup entity, you must first create opportunity split custom entity. More information: [Create a custom table](/powerapps/maker/data-platform/data-platform-create-entity).
+>The opportunity split is a custom entity and isn't available by default. You must first create the opportunity split custom entity to be able to use as a rollup entity. More information: [Create a custom table](/powerapps/maker/data-platform/data-platform-create-entity).
 
 Use this model to create an opportunity split forecast.
 
