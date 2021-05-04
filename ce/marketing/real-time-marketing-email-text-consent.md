@@ -99,3 +99,6 @@ To access auditing features:
 3. Select **Global audit settings**, then select the **Start auditing** checkbox. Begin the audit by selecting **OK**.
 4. Select **Entity and Field Audit Settings**.  In the left column, in the list of fields, select **Contact Point Consent**. Ensure that auditing for this field is switched on.
 5. You can access all information about field changes in the **Audit summary View** area of the **Auditing** page in **Advanced settings**.
+
+[!IMPORTANT]
+> If you restore data in CJO, please keep in mind that all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. So we advise you, before starting the restore process, to export consent data into Excel and use it as a reference after restore is completed.
