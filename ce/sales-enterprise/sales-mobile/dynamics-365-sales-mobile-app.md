@@ -27,7 +27,7 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-ios-app.md) 
 
 ### See also
 
-[Enable Dynamics 365 Sales mobile](enable-sales-mobile.md)   
+[Prerequisites for the Dynamics 365 Sales mobile app](prereq-sales-mobile.md)   
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)
 
 

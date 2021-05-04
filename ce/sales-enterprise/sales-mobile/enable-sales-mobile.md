@@ -1,6 +1,6 @@
 ---
-title: Enable the Dynamics 365 Sales mobile app
-description: Instructions to enable the Dynamics 365 Sales mobile app
+title: Prerequisites for the Dynamics 365 Sales mobile app
+description: Learn about the prerequisites for the Dynamics 365 Sales mobile app
 ms.date: 05/04/2021
 ms.topic: article
 ms.service: dynamics-365-sales
