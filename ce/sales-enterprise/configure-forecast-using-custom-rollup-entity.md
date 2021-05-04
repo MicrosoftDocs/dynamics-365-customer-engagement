@@ -101,6 +101,9 @@ Let's configure this forecast.
 
 ## Opportunity split 
 
+>[!IMPORTANT]
+>The opportunity split entity is a custom entity and is not available by default. To select opportunity split as a rollup entity as defined in this section, you must create this custom entity.
+
 Use this model to create an opportunity split forecast.
 
 For opportunity split&ndash;based forecasting, the user-level revenue comes from the Opportunity Split entity. Therefore, **Opportunity Split** must be selected as the rollup entity and **User** as the hierarchy entity that has a direct relationship with the rollup entity through the **Owner** attribute. 
