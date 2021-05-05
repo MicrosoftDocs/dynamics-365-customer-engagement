@@ -4,7 +4,7 @@ description: Know how to create and manage users and user profiles in the Omnich
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/04/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -38,11 +38,22 @@ To add the work hour for a bookable resource, universal resource scheduling must
 
 5. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
-6. Specify the name of agent in the **Name** field.
+6. Do the following:
+   1. Specify the name of agent in the **Name** field.
 
-7. Select **Save**.
+   2. Select **Save**. The **Work Hours** tab is enabled.
 
-8. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
+   3. You can update the existing work hours or create work hours for the user.
+
+   4. On the **Omnichannel** tab of the **Bookable Resource** page for the user, select **New Bookable Resource Characteristic**.
+   
+   5. In **Skill Name**, search for and select a skill.
+   
+   6. In **Rating Value**, select the rating value that the user has on the skill.
+   
+   7. Save and close to return to the **Omnichannel** tab of the **User** page.
+
+7. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
 > [!div class=mx-imgBorder]
 > ![Default presence](media/oc-user-omni-tab.png)
