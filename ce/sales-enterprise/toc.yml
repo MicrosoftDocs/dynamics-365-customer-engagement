@@ -578,8 +578,8 @@
       href: sales-mobile/dynamics-365-sales-mobile-app.md
     - name: Administrator guide
       items: 
-      - name: Enable Dynamics 365 Sales mobile
-        href: sales-mobile/enable-sales-mobile.md
+      - name: Prerequisites for Dynamics 365 Sales mobile
+        href: sales-mobile/prereq-sales-mobile.md
       - name: Modify quick view forms
         href: sales-mobile/modify-quick-view-form.md
       - name: Create custom push notifications
