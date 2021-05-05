@@ -101,7 +101,7 @@ The status of the flows can be checked as shown in the following screenshot.
 
 ## Attachments or images within a response 
 
-Attachments like images in the inspection can be retrieved using flows. Steps are shared in the guide in the next section.
+Attachments like images in the inspection can be retrieved using flows. For more information, see the next section. 
 
 ## Configuration considerations
 
