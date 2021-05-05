@@ -1,5 +1,5 @@
 ---
-title: "Resource scheduling optimization version history | MicrosoftDocs"
+title: "Resource Scheduling Optimization version history | MicrosoftDocs"
 description: Find a list of important updates for resource scheduling optimization in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
@@ -18,11 +18,11 @@ search.app:
   - D365FS
 ---
 
-# Resource scheduling optimization version history
+# Resource Scheduling Optimization version history
 
 ## Release schedule
 
-When a new version of Dynamics 365 Field Service resource scheduling optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+When a new version of Dynamics 365 Field Service Resource Scheduling Optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/). 
 
@@ -56,6 +56,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.3.1.38
+
+- Fixed a bug that caused Resource Scheduling Optimization to delete bookings that were locked to resource and time, if the booking was the length of an entire shift. 
+- Fixed a bug that prevented Resource Scheduling Optimization from deleting bookings that needed to be deleted, if they were not associated with a resource requirement record.
 
 ## 3.3.0.115
 
