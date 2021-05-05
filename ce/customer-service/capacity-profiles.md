@@ -35,7 +35,7 @@ Perform the following steps to configure the capacity profile:
 1. In Omnichannel admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
 
   > [!NOTE]
-  > In Customer Service Hub, the **User attributes** area will appear in the site map only if unified routing is enabled in Service configuration settings.
+  > In Customer Service Hub, the **User attributes** area will appear in the site map only if unified routing is enabled in service configuration settings.
 
 2. On the **User attributes** page, select the **Manage** option for **Capacity profile**.
 3. On the **Capacity profiles** page, select **Create new**.
