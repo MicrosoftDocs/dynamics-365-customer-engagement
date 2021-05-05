@@ -17,9 +17,6 @@ All users who are assigned the **Omnichannel administrator**, **Omnichannel supe
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 
-## Prerequisite
-
-To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling.
 
 ## Manage a user in Omnichannel for Customer Service
 
@@ -42,6 +39,9 @@ To add the work hour for a bookable resource, universal resource scheduling must
    1. Specify the name of agent in the **Name** field.
 
    2. Select **Save**. The **Work Hours** tab is enabled.
+ 
+    > [!IMPORTANT]
+    > To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling.
 
    3. You can update the existing work hours or create work hours for the user.
 
@@ -51,9 +51,9 @@ To add the work hour for a bookable resource, universal resource scheduling must
    
    6. In **Rating Value**, select the rating value that the user has on the skill.
    
-   7. Save and close to return to the **Omnichannel** tab of the **User** page.
+   5. Save and close to return to the **Omnichannel** tab of the **User** page.
 
-7. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
+8. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
 > [!div class=mx-imgBorder]
 > ![Default presence](media/oc-user-omni-tab.png)
