@@ -55,4 +55,5 @@ Perform the following steps to configure the capacity profile:
 ### See also
 
 [Create workstreams](create-workstreams.md)  
+[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  
