@@ -19,7 +19,7 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Prerequisite
 
-To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Field Service, Project Service, or Service Scheduling.
+To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling.
 
 ## Manage a user in Omnichannel for Customer Service
 
@@ -41,6 +41,7 @@ To add the work hour for a bookable resource, universal resource scheduling must
 6. Specify the name of agent in the **Name** field.
 
 7. Select **Save**.
+
 8. If capacity profile is configured, in the **Capacity** area, select **Add Existing Capacity Profile**, and select a profile in the list.
 
 > [!div class=mx-imgBorder]

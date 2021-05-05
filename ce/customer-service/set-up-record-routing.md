@@ -4,7 +4,7 @@ description: "Learn how to set up record routing in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/20/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -34,7 +34,9 @@ To provision unified routing in Customer Service, do the following:
 > [!IMPORTANT]
 > If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you enable unified routing only after recreating the required workstreams for record routing.
 
-After unified routing is provisioned, the site map is updated with the **Unified Routing** area that contains the options to configure unified routing. The site map is also updated with the **Unified Routing** area if you install Omnichannel for Customer Service or if you upgrade Omnichannel for Customer Service even though you haven't yet enabled unified routing in Customer Service Hub.
+After unified routing is provisioned, for Customer Service users, the site map is updated with the **Unified Routing** area.
+
+However, the site map will also be updated with the **Unified Routing** area for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service. This will happen even if you don't enable unified routing.
 
 > ![Site map view for unified routing](media/enable-unified-routing.png)
 
