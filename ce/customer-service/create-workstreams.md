@@ -42,7 +42,7 @@ Perform the following steps:
       - **Messaging**: To configure the workstream for chat and other conversation channels.
       - **Record**: To configure the workstream for entity record, such as case and email activity.
     - **Channel**: This box appears if you have selected the type as Messaging. Select a channel from the list.
-    - **Record**: This box appears if you have selected the type as Record. Select the entity record from the list.
+    - **Record**: This box appears if you have selected the type as Record. Select the entity record from the list. More information: [Set up record routing](set-up-record-routing.md).
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
