@@ -57,6 +57,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.3.1.38
+- Fixed a bug to ensure that the requirement tabs on the schedule board will always display the right records. Previously, in some cases an error, "Sequence contains no elements (1,1)", would be thrown due to an action not being handled correctly.
+- Fixed a bug which caused Resource Scheduling Optimization (RSO) to delete bookings that were locked to resource and time, if the booking was the length of an entire shift. 
+- Improved schedule board performance by fixing a bug which caused loading of unscheduled requirement map pins when “Hide Requirements” was set to “True” in the map settings.
+- Fixed a bug which prevented RSO from deleting bookings that needed to be deleted, if they weren’t associated with a resource requirement record.
+- Prior to this release, when a new PME RSO app user was created, it was granted an RSO role, but other roles were not copied from the old RSO app user. This bug fix ensures that all previous roles are transferred over to the new app user. 
+
 ## 3.3.0.115
 
 - Improved predictive travel time user experience. Allows users to distinguish bookings that used predictive travel (and thus have more accurate travel time that includes historical traffic) from those that did not.
