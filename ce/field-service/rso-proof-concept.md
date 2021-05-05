@@ -324,7 +324,7 @@ For more information about resource scheduling optimization, how it works, and h
 - [Resource scheduling optimization overview](rso-overview.md)
 - [Configuring resource scheduling optimization](rso-configuration.md)
 - [Scheduling optimization in resource scheduling optimization](rso-schedule-optimization.md)
-- [Resource scheduling optimization frequently asked questions](rso-faq.md)
+- [Resource scheduling optimization frequently asked questions](rso-faq.yml)
 - [Resource scheduling optimization quickstart](rso-quickstart.md)
 
 

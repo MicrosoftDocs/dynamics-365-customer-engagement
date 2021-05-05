@@ -194,7 +194,7 @@ As an example, downloading Field Service Mobile from the Windows Store can allow
 
 ### Step 2: Upgrade the mobile configuration tool (Woodford) solution
 
-To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](./mobile-faq-latest-version.md) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
+To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](./mobile-faq-latest-version.yml) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
  
 
 ### Step 3: Upgrade the mobile project template.
