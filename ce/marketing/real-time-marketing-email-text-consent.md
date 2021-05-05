@@ -1,7 +1,7 @@
 ---
 title: "Manage consent for email and text messages in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing email and text consent settings in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 05/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -100,5 +100,5 @@ To access auditing features:
 4. Select **Entity and Field Audit Settings**.  In the left column, in the list of fields, select **Contact Point Consent**. Ensure that auditing for this field is switched on.
 5. You can access all information about field changes in the **Audit summary View** area of the **Auditing** page in **Advanced settings**.
 
-[!IMPORTANT]
-> If you restore data in CJO, please keep in mind that all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. So we advise you, before starting the restore process, to export consent data into Excel and use it as a reference after restore is completed.
+> [!IMPORTANT]
+> If you restore data in customer journey orchestration, all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
