@@ -24,7 +24,7 @@ search.app:
 ---
 # Limitations when customizing Dynamics 365 App for Outlook
 
-When customizing the app you make run into these limitations.
+This topic covers limitations when customizing Dynamics 365 App for Outlook.
 
 ## Business process flows
 
@@ -32,7 +32,7 @@ Business process flows are not supported in Dynamics 365 App for Outlook. When c
 
 ## Customizing App for Outlook sitemap
 
-System customizers have access to the Sitemap Designer using the App Designer for Dynamics 365 App for Outlook. It's one of the App Modules in version 9.x. The Dynamics 365 App for Outlook default landing page is a dashboard that is configured in the App Module. Customizations to App for Outlook sitemap are not supported at this time. If you are unable to view the Dynamics 365 App for Outlook landing page when you open App for Outlook, follow the steps below.
+System customizers have access to the Sitemap Designer using the App Designer for Dynamics 365 App for Outlook. It's one of the App Modules in version 9.x. The Dynamics 365 App for Outlook default landing page is a dashboard that is configured in the App Module. If you are unable to view the Dynamics 365 App for Outlook landing page when you open App for Outlook, follow the steps below.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solutions**.
