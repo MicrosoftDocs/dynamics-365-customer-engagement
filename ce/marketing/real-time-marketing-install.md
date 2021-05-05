@@ -43,7 +43,7 @@ Starting in the April 2021 Dynamics 365 Marketing release, you can opt in for pr
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the preview features tile showing in the versions page](./media/real-time-marketing-install-tile.png)
 
-1. Installation can take over one hour to complete. The installation will continue even if you close the browser window.
+1. Installation can take more than one hour to complete. The installation will continue even if you close the browser window.
 1. When installation is complete, you can access real-time marketing features by selecting **Real-time marketing** in the area switcher.
 
     > [!div class="mx-imgBorder"]
