@@ -169,10 +169,11 @@ Let's take a look at the self-scheduling settings, and what they do:
 
 As part of the self-scheduling experience, the customer can select the incident type (shown as **Service Type**) that represents the work needed. As a Field Service administrator, you can make specific incident types available to your customers and set a user-friendly display name for the incident type shown on the self-scheduling portal.
 
-Incident Types need to be configured with following steps to properly show in the Self Scheduling Portal:
-1. Check "Enable for C2" and apply a Friendly Name.
-2. Set a "Default Work Order" Type which is assosiated with a price list for the Incident Type.
-3. Set an estimated duration for the Incident Type. This is work duration shown to user in the Portal.
+Incident types must be configured with following steps to properly appear in the self-scheduling portal:
+
+1. Check **Enable for C2** and apply a user-friendly name.
+2. Set a **Default Work Order** type, which is assosiated with a price list for the incident type.
+3. Set an estimated duration for the incident type. This value is the work duration shown to user in the portal.
 
 > [!div class="mx-imgBorder"]
 > ![Customer portal settings, showing the field for the user-friendly name for incident types.](./media/SS_Incident_Type-displayname.png)
