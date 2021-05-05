@@ -28,11 +28,11 @@ Resource and operations managers need to be able to monitor key operational metr
 
 By finding answers to these questions, scheduling managers can plan an effective resource scheduling strategy and provide better guidance to resources. Ultimately, a better strategy saves time and money, and allows for continuous improvement on customer experience. 
 
-Field Service and resource scheduling optimization provide three reports focused on different scenarios and user personas:
+Field Service and Resource Scheduling Optimization provide three reports focused on different scenarios and user personas:
 
 1. Resource and utilization, included with Field Service
-2. Resource scheduling optimization admin, included with resource scheduling optimization
-3. Optimization summary, included with resource scheduling optimization
+2. Resource Scheduling Optimization admin, included with Resource Scheduling Optimization
+3. Optimization summary, included with Resource Scheduling Optimization
   
 
 In this article, we'll take a look at these three reports in greater detail. 
@@ -44,11 +44,11 @@ In this article, we'll take a look at these three reports in greater detail.
   1. Install or upgrade Field Service
   2. The Resource and utilization report will appear in the Field Service app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
-- To get both resource scheduling optimization reports:
+- To get both Resource Scheduling Optimization reports:
 
   1. Install or upgrade Field Service
   2. Install or upgrade the **Resource Scheduling Optimization** add-in
-  3. Both the resource scheduling optimization admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
+  3. Both the Resource Scheduling Optimization admin and the optimization summary reports will appear in the Resource Scheduling Optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
 
 ## Resource and utilization reports
@@ -95,16 +95,16 @@ Let's take a look at what each of these metrics are reporting.
 | Resource work time quartile analysis  |	Compares each resource's travel time to work time and ranks them into relative quartiles.  |
 | Resource metrics |	Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day. | 
 
-## Resource scheduling optimization admin reports
+## Resource Scheduling Optimization admin reports
 
-The resource scheduling optimization admin report analyzes when and how resource scheduling optimization runs, but not the actual booking results.
+The Resource Scheduling Optimization admin report analyzes when and how Resource Scheduling Optimization runs, but not the actual booking results.
 
 Go to the **Resource Scheduling Optimization** app and find **Reports** under the **Analytics** section. 
 
-To run the report, the resource scheduling optimization administrator needs to select one optimization schedule - for example, WA Schedule 1 - and select one or more optimization requests.  
+To run the report, the Resource Scheduling Optimization administrator needs to select one optimization schedule - for example, WA Schedule 1 - and select one or more optimization requests.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the resource scheduling optimization admin report.](./media/scheduling-analytics-rso-admin.png)
+> ![Screenshot of the Resource Scheduling Optimization admin report.](./media/scheduling-analytics-rso-admin.png)
 
 
 | Visuals |	Description | 
@@ -120,7 +120,7 @@ To run the report, the resource scheduling optimization administrator needs to s
 The optimization summary analyzes the automatically scheduled bookings and the effect this has on the business, such as an analysis of minimized travel time.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a resource scheduling optimization summary report.](./media/scheduling-analytics-rso-summary.png)
+> ![Screenshot of a Resource Scheduling Optimization summary report.](./media/scheduling-analytics-rso-summary.png)
 
 | Visuals |	Description | 
 | --- | --- |
