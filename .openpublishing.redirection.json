@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/outlook-app/v8/about-this-content.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/about-this-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/outlook-app/v8/deploy-dynamics-365-app-for-outlook.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/deploy-dynamics-365-app-for-outlook",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/outlook-app/v8/whats-new-v8.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/whats-new-v8",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/mobile-app/v8/about-this-content.md",
       "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/about-this-content",
       "redirect_document_id": false
@@ -195,7 +215,7 @@
       "redirect_url": "real-time-marketing-audience-data",
       "redirect_document_id": "false"
     },
-    {      
+    {
       "source_path": "ce/customer-service/topics-dashboard-cs.md",
       "redirect_url": "case-topics-dashboard-cs",
       "redirect_document_id": "false"
