@@ -114,7 +114,7 @@ The May 2021 Marketing update includes email editor improvements, expanded Teams
 - **Event management**
     - Set comprehensive Teams webinar configuration options directly from Marketing events pages.
 - **Marketing emails**
-    - The [new email editor experience](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises) is now available by default to new users.
+    - The [new email editor experience](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises) is now available to new users by default .
     - Duplicate, edit, and delete email sections and elements with one click.
     - Move sections and elements on the canvas.
     - Switch to the new email editor experience directly from the editor itself, without admin privileges.
@@ -122,7 +122,7 @@ The May 2021 Marketing update includes email editor improvements, expanded Teams
 - **Marketing pages**
     - Marketing forms now support JavaScript, improving customization possibilities.
     - Improved user interface for C2 lookup fields.
-    - Provided a new API to populate lookup fields with customizable values.
+    - New API to populate lookup fields with customizable values.
 <!--
 ### Bug fixes
 
