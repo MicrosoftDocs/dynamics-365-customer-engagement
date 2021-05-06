@@ -30,7 +30,7 @@ sections:
       - question: |
           How do I extend or activate my mobile configuration tool (Woodford) trial?
         answer: |
-          The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](./install-field-service.md#download-the-field-service-mobile-app-on-a-phone-or-tablet), you'll need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. For more information, see the article on [activating or extending the mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md).
+          The Mobile Configuration Tool (Woodford) is used to configure and customize the Field Service Mobile app. After [installing and setting up Field Service Mobile](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service), you'll need to activate or extend the Mobile Configuration Tool (Woodford) within 30 days. For more information, see the article on [activating or extending the mobile configuration tool (Woodford) trial](activate-fs-mobile-app-license.md).
           
       - question: |
           What version of Field Service Mobile am I using?
@@ -146,7 +146,7 @@ sections:
       - question: |
           Why do users get the error "Your Organization has not configured the Field Service Mobile app with the correct project"?
         answer: |
-          This message means the mobile application has not been set up with the correct mobile project or the logged in user is getting access to an incorrect mobile project based on their security role. See the article on [installing and setting up Field Service Mobile](./install-field-service.md#download-the-field-service-mobile-app-on-a-phone-or-tablet) to set up the mobile app with Microsoft's mobile project as a base parent and [Field Service mobile project library](./version-history.md#mobile-project-file-library) to see a list of previous mobile projects. 
+          This message means the mobile application has not been set up with the correct mobile project or the logged in user is getting access to an incorrect mobile project based on their security role. See the article on [installing and setting up Field Service Mobile](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service) to set up the mobile app with Microsoft's mobile project as a base parent and [Field Service mobile project library](./version-history.md) to see a list of previous mobile projects. 
           
           
       - question: |
