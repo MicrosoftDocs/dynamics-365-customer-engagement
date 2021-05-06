@@ -46,7 +46,7 @@ Supported devices for mobile offline:
 
 - For iOS, version 13.19043.32 or later 
 - for Android, version 4.3.19043.33 or later 
-- Windows 10, version 16299.0 or running [Dynamics 365 (Preview) app](windows-mobile-app.md)
+- Windows 10, version 16299.0 or later using the [Dynamics 365 (Preview) app](windows-mobile-app.md)
 > [!NOTE]
 > - The offline feature isn't supported for Dynamics 365 Customer Engagement (on-premises). 
 
