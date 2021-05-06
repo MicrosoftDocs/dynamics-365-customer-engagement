@@ -36,7 +36,7 @@ If an individual resource's schedule needs to be reoptimized, a dispatcher can m
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-1.png)
+> ![Screenshot of triggering single resource optimization from schedule board_1](media/rso-single-resource-1.png)
 
 
 ## Prerequisites
@@ -95,7 +95,7 @@ There are three ways to run single resource optimization:
 In Field Service version 8.0+, you can right-click a resource from any schedule board view and select **Optimize Schedule**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of triggering single resource optimization from schedule board](media/rso-single-resource-2.png)
+> ![Screenshot of triggering single resource optimization from schedule board_2](media/rso-single-resource-2.png)
 
 
 You will now see:

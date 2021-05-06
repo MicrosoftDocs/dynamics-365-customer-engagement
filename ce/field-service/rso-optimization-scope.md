@@ -67,7 +67,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    **Example 1:** You want to have a booking created or moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of optimization range settings](media/62ab888c08dfc0bdd81587535de73d5d.png)
+   > ![Screenshot of optimization range settings_1](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
    - **Range Reference**: The start moment for all subsequent work order range
      calculation (Job current time or Beginning of the Job’s current day).
@@ -81,7 +81,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    **Example 2**: You want to have a booking created/moved into the next two days.
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of optimization range settings](media/6a06b7a1a69c2f493686442af5e44520.png)
+   > ![Screenshot of optimization range settings_2](media/6a06b7a1a69c2f493686442af5e44520.png)
    > [!div class="mx-imgBorder"]
    > ![Image showing range offset and duration](media/5d265da65e27891ebab3319627e9a3fa.png)
 
