@@ -69,7 +69,7 @@ sections:
           3. If completing both steps 1 and 2 above do not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
           
       - question: |
-          Why doesn't the bookable resource booking form show work order details like **Customer**, **Service**, and **Notes**?
+          Why doesn't the bookable resource booking form show work order details like Customer, Service, and Notes?
         answer: |
           Sometimes you may not see the correct booking form. You may see the following result:
           
