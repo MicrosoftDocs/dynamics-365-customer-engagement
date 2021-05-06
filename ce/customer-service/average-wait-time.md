@@ -25,7 +25,7 @@ The average wait time is calculated based on wait times from the previous 48 hou
 > [!NOTE]
 > If skill-based routing is configured with exact skill match, the queue position that's displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of an agent to the customer might take longer than expected.
 
-## Enable average wait time
+## Enable average wait time in Omnichannel Administration
 
 1.	Sign in to Omnichannel Administration.
 
@@ -33,7 +33,7 @@ The average wait time is calculated based on wait times from the previous 48 hou
 
 3.	Open the chat widget in which you want to enable the wait time setting.
 
-4.	Go to the **Basic details** tab.
+4.	Go to the **General settings** tab.
 
 5.	In the **Customer waiting** area, change **Show average wait time** to **Yes**. (This feature is set to **No** by default.)
 
