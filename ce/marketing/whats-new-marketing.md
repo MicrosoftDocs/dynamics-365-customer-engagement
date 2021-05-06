@@ -42,7 +42,7 @@ The much-anticipated customer journey orchestration features have made their pub
     - Easily customize and connect with tools you already use.
     - Efficiently manage compliance requirements and accessibility guidelines.
 
-The May 2021 Marketing update includes improved participant engagement-based communication for online events powered by Microsoft Teams, email editor improvements, JavaScript support for marketing forms, performance upgrades, and bug fixes.
+The May 2021 Marketing update includes email editor improvements, expanded Teams webinar configuration options, JavaScript support for marketing forms, performance upgrades, and bug fixes.
 
 ### Version number
 
@@ -112,14 +112,12 @@ The May 2021 Marketing update includes improved participant engagement-based com
 ### Monthly enhancements
 
 - **Event management**
-    - Use Teams webinar engagement information to create segments to follow up with attendees who started the online event but did not finish it.
-    - Use segments to share Teams webinar event summaries and recordings, as well as understand what kind of webinars attendees would like in the future.
-    - Better understand your Teams webinar audience and deliver a personalized follow-up experience.
+    - Set comprehensive Teams webinar configuration options directly from Marketing events pages.
 - **Marketing emails**
     - The [new email editor experience](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises) is now available by default to new users.
     - Duplicate, edit, and delete email sections and elements with one click.
     - Move sections and elements on the canvas.
-    - Use the new email editor without the need of an administrator to enable it.
+    - Switch to the new email editor experience directly from the editor itself, without admin privileges.
     - Select one mor multiple borders in an element.
 - **Marketing pages**
     - Marketing forms now support JavaScript, improving customization possibilities.
