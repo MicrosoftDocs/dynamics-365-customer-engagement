@@ -24,7 +24,7 @@ To protect an agent's privacy, you can configure your chat widget to display eit
 
 3. Open the chat widget in which you need to configure the agent display name.
 
-5. Go to the **Basic details** tab.
+5. Go to the **General settings** tab.
 
 6. In the **Display agent name** field, select one of the following:
 
