@@ -86,7 +86,7 @@ The May 2021 Marketing update includes improved participant engagement-based com
     - [Docs](real-time-marketing-experimentation.md)
 - **Hyper-personalize customer journeys using data and insights from Dynamics 365 Customer Insights**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/hyper-personalize-customer-journeys-using-data-insights-dynamics-365-customer-insights)
-    - [Docs](real-time-marketing-ci-profile.md)
+    - [Docs](real-time-marketing-segments.md)
 - **Improve journey effectiveness with a built-in cross-journey aggregate dashboard**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/improve-journey-effectiveness-new-set-built-analytics-dashboards-cross-journey-insights)
     - [Docs](real-time-marketing-analytics.md)
