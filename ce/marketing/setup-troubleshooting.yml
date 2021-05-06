@@ -112,13 +112,13 @@ sections:
       - question: |
           How can I fix occasional portal issues?
         answer: |
-          Marketing pages and the event website both run on Power Apps portals. Sometimes, you may notice that settings you make in Dynamics 365 Marketing aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-cache), or [restarting it](#restart-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
+          Marketing pages and the event website both run on Power Apps portals. Sometimes, you may notice that settings you make in Dynamics 365 Marketing aren't reflected on the portal right away, such as (for the event website): updates to banner images, speaker images, or payment gateway assignments&mdash;or, your portal may become unresponsive or otherwise unreliable. You can often solve all of these issues either by [clearing the portal cache](#portal-url), or [restarting it](#restart-the-portal). It's faster to clear the cache, but restarting it will sometimes solve more or other issues.
           
           ### Clear the portal cache
         
-          You can solve many portal issues by clearing the portal cache. Once you have a portal user set up and configured as an administrator, this is faster and easier than [restarting the portal](#restart-portal), though some problem may still require a restart.
+          You can solve many portal issues by clearing the portal cache. Once you have a portal user set up and configured as an administrator, this is faster and easier than [restarting the portal](#restart-the-portal), though some problem may still require a restart.
           
-          The subsections below explain how to set up the required portal user and then run the clear-cache command. If you already have a portal user that's configured as an administrator, just skip ahead to [Step 3: Clear the portal cache](#cache-only).
+          The subsections below explain how to set up the required portal user and then run the clear-cache command. If you already have a portal user that's configured as an administrator, just skip ahead to [Step 3: Clear the portal cache](#step-3-clear-the-portal-cache).
           
           ### Step 1: Create an account on your portal
 
