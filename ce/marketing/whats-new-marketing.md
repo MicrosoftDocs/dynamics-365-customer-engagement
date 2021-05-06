@@ -125,7 +125,6 @@ The May 2021 Marketing update includes improved participant engagement-based com
     - Marketing forms now support JavaScript, improving customization possibilities.
     - Improved user interface for C2 lookup fields.
     - Provided a new API to populate lookup fields with customizable values.
-
 <!--
 ### Bug fixes
 
