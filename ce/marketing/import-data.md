@@ -175,7 +175,7 @@ Note the following on how alternate key and duplicate detection works while impo
 
 You must wait for an import job to be completed before you can repair failures.
 
-1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
+1. Go to **Settings** > **Advanced Settings** > **Data Management** > **Imports**. Import jobs for all recent imports are listed here.
 1. Find your job in the list and check its progress. The **Status** column shows the status of the import by using the following values:
     - Submitted
     - Parsing
@@ -190,7 +190,7 @@ You must wait for an import job to be completed before you can repair failures.
 
 ## Delete imported records
 
-1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
+1. Go to **Settings** > **Advanced Settings** > **Data Management** > **Imports**. Import jobs for all recent imports are listed here.
 1. Select the import file that you want to delete, followed by one of the following actions:
    - **Delete import source file**: Deletes the import log file and its details.
    - **Delete imported records**: Deletes all records that were imported from the selected file.
