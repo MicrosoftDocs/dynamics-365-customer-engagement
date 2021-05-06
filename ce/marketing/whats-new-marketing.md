@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 04/22/2021
+ms.date: 05/06/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -27,6 +27,123 @@ Marketing updates are [pushed to all customers automatically](https://cloudblogs
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
+## May 2021 update
+
+The much-anticipated customer journey orchestration features have made their public preview debut to customers in North America. Customers with Dynamics 365 Marketing paid or trial subscriptions are able to use the new features. Marketing now has capabilities to empower customer experience-focused organizations to deliver digitally transformed customer experiences in real time. These features enable organizations to:
+
+- Engage customers in real-time.
+    - With features such as event-based customer journeys, custom event triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+- Win customers and earn loyalty faster.
+    - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
+- Personalize customer experiences with AI.
+    - Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics.
+    - Customer Insights segment and profile integration allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
+- Grow with a unified, adaptable platform.
+    - Easily customize and connect with tools you already use.
+    - Efficiently manage compliance requirements and accessibility guidelines.
+
+The May 2021 Marketing update includes improved participant engagement-based communication for online events powered by Microsoft Teams, email editor improvements, JavaScript support for marketing forms, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10072.1070 |
+
+> [!Tip]
+> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+
+### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+> [!NOTE]
+> The customer journey orchestration preview features are available in the US region. The preview features will be available in the EU region in May. Other regions will be supported at the time of general availability.
+
+- **AI-driven run-time channel optimization**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-run-time-channel-optimization)
+    - [Docs](real-time-marketing-channel-optimization.md)
+- **AI-driven recommendations for images**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-recommendations-image-video-document-or-fragment)
+    - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
+- **Author personalized content across email, SMS, and push notifications through a new point-and-click interface**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
+    - [Docs](real-time-marketing-email.md#to-add-personalized-data-to-a-real-time-marketing-email)
+- **Create and send SMS messages to any mobile phone**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-send-sms-messages-mobile-phone)
+    - [Docs](real-time-marketing-outbound-text-messaging.md)
+- **Deliver push notifications to any Android or iOS app**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/deliver-push-notifications-android-or-ios-app)
+    - [Docs](real-time-marketing-push-notifications.md)
+- **Event catalog with built-in and custom events for triggering customer journeys**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/event-catalog-built-in-custom-events-triggering-customer-journeys)
+    - [Docs](real-time-marketing-event-triggers.md)
+- **Experiment with the next action in a journey to optimize for results**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/experiment-next-action-journey-optimize-results)
+    - [Docs](real-time-marketing-experimentation.md)
+- **Hyper-personalize customer journeys using data and insights from Dynamics 365 Customer Insights**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/hyper-personalize-customer-journeys-using-data-insights-dynamics-365-customer-insights)
+    - [Docs](real-time-marketing-ci-profile.md)
+- **Improve journey effectiveness with a built-in cross-journey aggregate dashboard**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/improve-journey-effectiveness-new-set-built-analytics-dashboards-cross-journey-insights)
+    - [Docs](real-time-marketing-analytics.md)
+- **In real time, monitor your customer journeys and channel KPIs**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-monitor-customer-journeys-channel-kpis)
+    - [Docs](real-time-marketing-analytics.md)
+- **Real-time, event-based customer journey orchestration**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-event-based-customer-journey-orchestration)
+    - [Docs](real-time-marketing-event-based-journey.md)
+- **Search, version, manage, and tag your digital assets with a new centralized asset library**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/search-version-manage-tag-digital-assets-new-centralized-asset-library)
+    - [Docs](real-time-marketing-asset-library.md)
+- **Set business goals for journeys and measure progress to the goals**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/set-business-goals-journeys-measure-progress-goal)
+    - [Docs](real-time-marketing-business-goals.md)
+- **Use continuously updating, multidata-source segments from Customer Insights in your marketing campaigns**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/use-continuously-updating-multidata-source-segments-customer-insights-marketing-campaigns)
+    - [Docs](real-time-marketing-ci-profile.md)
+- **Use natural language to create conditions for branching customer journeys**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/use-natural-language-create-conditions-branching-customer-journeys)
+    - [Docs](real-time-marketing-natural-language.md)
+
+### Monthly enhancements
+
+- **Event management**
+    - Use Teams webinar engagement information to create segments to follow up with attendees who started the online event but did not finish it.
+    - Use segments to share Teams webinar event summaries and recordings, as well as understand what kind of webinars attendees would like in the future.
+    - Better understand your Teams webinar audience and deliver a personalized follow-up experience.
+- **Marketing emails**
+    - The [new email editor experience](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises) is now available by default to new users.
+    - Duplicate, edit, and delete email sections and elements with one click.
+    - Move sections and elements on the canvas.
+    - Use the new email editor without the need of an administrator to enable it.
+    - Select one mor multiple borders in an element.
+- **Marketing pages**
+    - Marketing forms now support JavaScript, improving customization possibilities.
+    - Improved user interface for C2 lookup fields.
+    - Provided a new API to populate lookup fields with customizable values.
+
+<!--
+### Bug fixes
+
+- **Customer journeys**
+    - 
+- **Event management**
+    - 
+- **First run experience**
+    - 
+- **Lead management**
+    - 
+- **Marketing emails**
+    - 
+- **Marketing pages**
+    - 
+- **Segmentation**
+    - 
+-->
 ## April 2021 update
 
 The Dynamics 365 Marketing April 2021 update includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever.
