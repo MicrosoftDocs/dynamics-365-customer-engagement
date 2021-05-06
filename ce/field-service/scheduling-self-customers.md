@@ -119,7 +119,7 @@ Configure the following settings, as needed:
 
 - **Exclusion lists**: Exclude specific service accounts or service types from all messaging.
 
-- **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
+- **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-in-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/SS_Settings_Config.PNG)
@@ -168,6 +168,12 @@ Let's take a look at the self-scheduling settings, and what they do:
 ### Configure incident type
 
 As part of the self-scheduling experience, the customer can select the incident type (shown as **Service Type**) that represents the work needed. As a Field Service administrator, you can make specific incident types available to your customers and set a user-friendly display name for the incident type shown on the self-scheduling portal.
+
+Incident types must be configured with following steps to properly appear in the self-scheduling portal:
+
+1. Check **Enable for C2** and apply a user-friendly name.
+2. Set a **Default Work Order** type, which is associated with a price list for the incident type.
+3. Set an estimated duration for the incident type. This value is the work duration shown to user in the portal.
 
 > [!div class="mx-imgBorder"]
 > ![Customer portal settings, showing the field for the user-friendly name for incident types.](./media/SS_Incident_Type-displayname.png)
