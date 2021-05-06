@@ -39,7 +39,7 @@ Perform the following steps to configure the options to download and email chat 
 
 3. Open the chat widget in which you need to configure download and email of chat transcripts.
 
-4. Go to the **Basic details** tab.
+4. Go to the **General settings** tab.
 
 5. Under **Chat Transcripts**, select **Yes** or **No** for the following:
 
@@ -48,9 +48,6 @@ Perform the following steps to configure the options to download and email chat 
    - **Allow email of transcript**: Allows your customers to send the chat transcript as an email.
 
    By default, both the options are set to **No**.
-
-   > [!div class=mx-imgBorder]
-   > ![Enable chat transcript](media/oc-chat-transcript-enable.png "Enable chat transcript")
 
 6. If you select **Yes** for **Allow email of transcript**, you must select an email template and a mailbox from which the email will be sent. Administrators have a choice to either:
 
