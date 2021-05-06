@@ -4,7 +4,7 @@ description: "Learn how to configure proactive chat in Omnichannel for Customer 
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/13/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -20,19 +20,18 @@ Information about the user journey, time spent on a web page, and more can be us
 > [!NOTE]
 > Proactive chat can be triggered only on pages where the chat widget is embedded.
 
-## Enable proactive chat
+## Enable proactive chat in Omnichannel Administration 
 
-1.	Sign in to Omnichannel Administration.
+1.	Sign in to the Omnichannel Administration app.
 2.	Open the chat widget for which you need to turn on proactive chat.
-3.	Go to the **Basic details** tab.
+3.	Go to the **General settings** tab.
 4.	Under **Proactive chat**, select **Yes** for **Enable Proactive Chat**. By default, it is set to **No**.
-
-    > [!div class=mx-imgBorder]
-    > ![Enable proactive chat](media/proactive-chat.png "Enable proactive chat")
 
 The conditions to trigger the proactive chat are defined in the web page code in which the chat widget is embedded. If the conditions are fulfilled, the proactive chat invitation is displayed with the help of an API.
 
 For example scenarios and sample code, see [Start chat proactively](start-proactive-chat.md).
+
+To enable proactive chat in the Omnichannel admin center, see [Configure a pre-conversation survey in Omnichannel Administration](configure-pre-chat-survey#configure-a-pre-conversation-survey-in-omnichannel-admin-center.md).
 
 ## Customer experience of proactive chat
 
