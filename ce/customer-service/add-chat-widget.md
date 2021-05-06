@@ -55,6 +55,8 @@ Perform the following steps to configure chat in Omnichannel admin center:
 
 ## Configure a chat widget in Omnichannel Administration
 
+Before you set up a chat widget, you need to configure a workstream to define how chat conversations should be routed to queues. For more information, see [Create a workstream in Omnichannel Administration](create-workstreams#create-a-workstream-in-omnichannel-administration.md)
+
 1. Sign in to Dynamics 365, and select Omnichannel Administration.
 
 2. Go to **Channels** > **Chat**.
