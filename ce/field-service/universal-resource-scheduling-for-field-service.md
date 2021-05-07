@@ -187,7 +187,7 @@ The API key will populate automatically and use the Bing Maps API.
 > ![Screenshot of setting Connect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
 
 > [!Note]
-> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden. 
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden, as this is a Microsoft internal key that is not meant to be exposed to external parties.   
 
 ### Configure booking statuses
 
