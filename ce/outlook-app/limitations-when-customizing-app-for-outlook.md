@@ -46,13 +46,13 @@ System customizers have access to the Sitemap Designer using the App Designer fo
    > [!div class="mx-imgBorder"]
    > ![Sort by dashboard](media/sort-by-dashboard.png)
 
-5. Select **App for Outlook Dashboard** and then on the command bar selet **Enable security roles**.
+5. Select **App for Outlook Dashboard** and then on the command bar select **Enable security roles**.
 
    > [!div class="mx-imgBorder"]
    > ![Select App for OUtlook Dashbaord and then select enable security roles](media/enable-security-role.png)
 
 
-6. On the **Assign Security Role: App foru Outlook Dashboard** dialog, select **Display to everyone** and **Enable for fallback**.
+6. On the **Assign Security Role: App for Outlook Dashboard** dialog, select **Display to everyone** and **Enable for fallback**.
 
    > [!div class="mx-imgBorder"]
    > ![Assign security role scren](media/assign-security-roles-screen.png)
