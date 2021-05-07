@@ -42,7 +42,7 @@ AI discovered topics in Omnichannel historical analytics are often prime candida
 
 The topics capability in the Omnichannel historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages:
 
--English
+- English
 - French
 - German 
 - Italian
@@ -53,4 +53,4 @@ The topics capability in the Omnichannel historical analytics reports comes with
 
 ### See also
 
-[Omnichannel conversation dashboard](oc-conversation-dashboard.md)  
+[Omnichannel Conversation Dashboard](oc-conversation-dashboard.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Use AI to check your message-content spam score (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing."
-ms.date: 04/03/2020
+ms.date: 04/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -21,9 +21,6 @@ search.app:
 # Check the spam risk of your email content
 
 The spam checker feature applies artificial intelligence to analyze the content of each marketing email message. Spam checker then generates a range that predicts how likely the message is to be flagged by content-based spam filters.
-
-> [!NOTE]
-> Before you can use spam checker, your admin must enable and configure it. If you don't see the features described in this topic, please ask your admin to enable spam checker for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
 
 There are two ways to view your spam risk:
 

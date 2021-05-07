@@ -20,6 +20,7 @@ search.app:
 
 # Frequently asked questions for the Field Service (Dynamics 365) mobile app
 
+
 ## How do I enable address suggestions?
 
 The mobile app can recommend addresses as technicians type them into a work order when an Internet connection is available. Address suggestions make data entry quicker and more accurate.    

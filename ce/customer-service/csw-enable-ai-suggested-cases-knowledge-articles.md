@@ -31,17 +31,8 @@ The key highlights of the feature are as follows:
 - Continuous improvement of the recommendation model through comprehensive feedback mechanism.
 
 > [!NOTE]
->
-> - The AI suggestions feature is currently available only in the following geographical locations:
->   - North America
->   - South America
->   - Canada
->   - United Kingdom
->   - Europe
->   - Japan
->   - Asia Pacific
->   - Australia
-> - The AI suggestions feature supports only English content and is available for administrators to set up only in organizations that have the base language set as English. For agents to view the suggested knowledge articles and similar cases, you must also set the User Interface Language as English in the users' personalization settings. Otherwise, "No suggestions" will be displayed in smart assist.
+> The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+
 
 ## How AI suggestions for similar cases and knowledge articles works
 
@@ -61,6 +52,30 @@ The AI suggestions are powered by a set of pre-trained natural language understa
 > - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
 > - After you enable or disable the settings, they will be in place only after agents refresh or reopen their browser and not in the currently active sessions nor on session switch.
 
+## Language support for AI suggestions
+
+AI suggestions for similar cases and knowledge articles are now supported in the following languages:
+
+- Dutch
+- English
+- French
+- German
+- Italian
+- Japanese
+- Spanish
+
+After an agent opens a case or accepts a conversation, smart assist checks the language from the following sources:
+
+- If the language selected in the language settings is supported or not.
+
+- If the language that the AI has detected in the case or conversation that the agent accepts matches the language settings. 
+
+If the language verification passes, the suggestions are displayed in the language used in the case or the conversation. Suggestions aren't displayed if the language doesn't match or isn't supported. In such cases, the agent should update the settings to use supported languages. The language settings used in AI suggestions are listed as follows:
+
+- For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
+
+- For knowledge article suggestions, smart assist first checks for the language that is set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** settings is used to display knowledge article suggestions. More information, see [Search for knowledge articles](search-knowledge-articles-csh.md#personalize-your-knowledge-search-article-filters).
+
 ## Prerequisites
 
 Make sure that the following requirements are met:
@@ -69,24 +84,28 @@ Make sure that the following requirements are met:
 - The	productivity pane is enabled. By default, the productivity pane is enabled out of the box. More information: [Enable productivity pane](../app-profile-manager/app-profile-manager.md#enable-prod-pane).
 - The System Administrator role is granted.
 - The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
-- The feature works only when the administration mode is disabled. For how to update the administration mode, see 
-[Edit properties of an environment](https://go.microsoft.com/fwlink/p/?linkid=2151237)
+- If administration mode is enabled, make sure that background operations are also enabled. For more info about administration mode and how to enable background operations, see [Administration Mode](/power-platform/admin/admin-mode). 
+
 
 
 ## Enable AI suggestions for similar cases
 
 Perform the following steps to enable the AI suggestions for similar cases:
 
-1. Sign in to the Customer Service Hub app.
-2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
-3. In the **Premium AI capabilities** section, select** **Manage** under **Suggestions**. The **Suggestions** page appears.
-4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
-5. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
+1. Sign in to  Customer Service Hub. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
+
+or
+
+Sign in to Omnichannel Admin Centre application. Select **Insights** and then select **Settings**.
+
+2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
+3. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable similar case suggestions**.
+4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively if you do not want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
 
-6. Select **Save**.
+5. Select **Save**.
 
    > ![Enable AI-suggested similar cases](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
@@ -94,13 +113,17 @@ Perform the following steps to enable the AI suggestions for similar cases:
 
 Perform the following steps to enable the AI suggestions for related knowledge articles:
 
-1. Sign in to the Customer Service Hub app.
-2. In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
-3. Select **Manage** under **Suggestions**. The **Suggestions** page appears.
-4. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
-5. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
+1. Sign in to Customer Service Hub.  In the **Change area**, select **Service Management**, and then under **Analytics and Insights**, select **Settings**.
 
-6. Select **Save**.
+ or
+
+ Sign in to Omnichannel Admin Centre application. Select **Insights** and then select **Settings**.
+
+2. Select **Manage** and then **Suggestions**. The **Suggestions** page appears.
+3. In the **Settings** > **Summary** area, set the toggle to **Yes** for **Enable knowledge article suggestions**.
+4. In the **Data mapping** > **Knowledge article data fields** area, make sure that **Title** and **Content** are selected in **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that is displayed to the agent at runtime.
+
+5. Select **Save**.
 
 ## Model pre-processing status
 

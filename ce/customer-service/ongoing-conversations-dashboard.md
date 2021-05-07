@@ -25,21 +25,21 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 
 ## View Omnichannel Ongoing Conversations dashboard
 
-The **Omnichannel Ongoing Conversations** is available in:
+The **Omnichannel Ongoing Conversations** dashboard is available in:
 
 - [Unified Service Desk](#unified-service-desk)
 - [Omnichannel for Customer Service](#omnichannel-for-customer-service)
 
 ### Unified Service Desk
 
-1.	Open the **Unified Service Desk** client application.
+1. Open the **Unified Service Desk** client application.
 
-2.	Sign in with your supervisor credentials.
+2. Sign in with your supervisor credentials.
 
     > [!NOTE]
     > To learn more, see [Sign in to Unified Service Desk – Omnichannel for Customer Service](../unified-service-desk/oc-usd/signin-unified-service-desk-omnichannel.md).
 
-3.	Select the **Conversations** tab.
+3. Select the **Conversations** tab.
 
     The **Omnichannel Ongoing Conversations** dashboard displays the list of conversations that you and agents are handling.
 
@@ -48,9 +48,9 @@ The **Omnichannel Ongoing Conversations** is available in:
   
 ### Omnichannel for Customer Service
 
-1.	Go to *https://**YourOrganization**.dynamics.com/apps* and select **Omnichannel for Customer Service**.
+1. Go to *https://**YourOrganization**.dynamics.com/apps* and select **Omnichannel for Customer Service**.
 
-2.	Select the **Omnichannel Ongoing Conversations Dashboard** tab.
+2. Select the **Omnichannel Ongoing Conversations Dashboard** tab.
 
     The Omnichannel Ongoing Conversations dashboard displays the list of conversations that you and agents are handling. 
 

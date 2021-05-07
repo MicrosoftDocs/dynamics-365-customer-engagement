@@ -1,7 +1,7 @@
 ---
 title: "Extend marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 03/23/2021
+ms.date: 05/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,7 +24,7 @@ Marketing forms can be extended using JavaScript to perform custom business acti
 
 ## JavaScript API
 
-We're consuming the latest version of JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=...` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=...` respectively. 
+We're consuming the latest version of the JavaScript API. Make sure that your references to `form-loader.js` or `loader.js` script look like `https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=[version tag]` or `https://mktdplp102cdn.azureedge.net/public/latest/js/loader.js?v=[version tag]`, respectively. The `?v=[version tag]` section can be omitted. Older scripts (scripts that look like `https://mktdplp102cdn.azureedge.net/public/static/[version tag]/js/form-loader.js` or `https://mktdplp102cdn.azureedge.net/public/static/[version tag]/js/loader.js`) are obsolete and no longer supported.
 
 Place the custom code right after the `form-loader.js` script.
 
