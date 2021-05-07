@@ -46,7 +46,7 @@ This section of the dashboard displays the following KPIs about conversations.
 | Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. | 
 | Average handle time per conversation | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](#average-handle-time)|
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
-| Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. ||
+| Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
 | Conversation status by queue | The distribution of the status of conversations across different queues. |
 | Transfer/Escalation rate by queue |  The rate of transfer and escalations from one queue to the other |
 | Abandon rate by queue | The rate of conversations that have been abandoned by customers. |
