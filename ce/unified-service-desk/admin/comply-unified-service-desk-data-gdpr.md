@@ -17,11 +17,8 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Data definitions and stages are outlined in the GDPR. Let's look at the following data contained in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and see how they relate to those outlined in the GDPR:
+This topic discusses how the audit log files, diagnostic log files, and telemetry data contained in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comply with the GDPR.
 
-- Audit log files
-- Diagnostic log files
-- Telemetry data
 
 ## Audit log files
 

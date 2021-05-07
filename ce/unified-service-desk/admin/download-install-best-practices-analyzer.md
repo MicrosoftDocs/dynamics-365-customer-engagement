@@ -1,6 +1,6 @@
 ---
-title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
-description: "Learn about downloading and installing the Best Practices Analyzer."
+title: "Download and install the Best Practices Analyzer | MicrosoftDocs"
+description: "Learn to download and install the Best Practices Analyzer."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -14,7 +14,7 @@ search.app:
   - D365USD
 ---
 
-# Download and Install Best Practices Analyzer
+# Download and install the Best Practices Analyzer
 
 ## [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support matrix and download location
 

@@ -1,6 +1,6 @@
 ---
-title: "Import Unified Service Desk  configuration data | MicrosoftDocs"
-description: "Learn how configuration data can be imported in to a target instance."
+title: "Import Unified Service Desk configuration data | MicrosoftDocs"
+description: "Learn how configuration data can be imported into a target instance."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -21,7 +21,9 @@ tags: MigrationHO
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data to the target [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] by using either of the following ways:  
+This topic explains how you can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data to the target [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)].
+
+You can import configuration data by:  
   
 - Using the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)]  
   

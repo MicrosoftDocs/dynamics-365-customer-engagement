@@ -1,6 +1,6 @@
 ---
-title: "Distribute custom hosted controls using Customization Files with Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to deploy customization files."
+title: "Distribute custom hosted controls using customization files  | MicrosoftDocs"
+description: "Learn how to use customization files to distribute custom hosted controls to agent computers."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -21,7 +21,8 @@ tags: MigrationHO
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Dynamics 365 instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
+This topic explains how you can use customization files to distribute custom hosted controls and functionality to agent computers. 
+To control the distribution, create or update a customization file record and associate it with a configuration. When agents associated with the configuration sign in to the Dynamics 365 instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
   
  To distribute custom controls and functionality:
   

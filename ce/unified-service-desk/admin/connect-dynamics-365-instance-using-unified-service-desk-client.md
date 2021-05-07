@@ -21,6 +21,7 @@ tags: MigrationHO
 # Connect to a model-driven app
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+Use this topic to understand how you can connect to the Unified Service Desk solution using the Unified Service Desk client.
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the Microsoft Dataverse instance where you've deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. When you sign in by using the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the Dataverse instance, and accordingly exposes the controls and functionality in the application.  
 

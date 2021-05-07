@@ -1,6 +1,6 @@
 ---
 title: "Download the Unified Service Desk Performance Analyzer | MicrosoftDocs"
-description: "Learn om how to download Unified Service Desk Performance Analyzer."
+description: "Learn how to download Unified Service Desk Performance Analyzer."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -22,9 +22,9 @@ monikerRange: '>= dynamics-usd-3'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Unified Service Desk Performance Analyzer is an executable file that you can download and save on your machine. After downloading, you can run the executable file to import the performance data log files and then generate the reports.
+The Unified Service Desk Performance Analyzer is an executable file that you can run to import performance data log files and generate reports. 
 
-Download the [Unified Service Desk Performance Analyzer](https://go.microsoft.com/fwlink/p/?linkid=2034281).
+To download the Performance Analyzer, go to [Unified Service Desk Performance Analyzer](https://go.microsoft.com/fwlink/p/?linkid=2034281).
 
 > [!div class ="nextstepaction"]
 > [Generate (collect) performance data log](performance-data-collection-using-keyboard-shortcut.md)
