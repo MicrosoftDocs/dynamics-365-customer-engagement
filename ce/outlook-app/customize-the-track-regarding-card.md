@@ -24,16 +24,16 @@ search.app:
 ---
 # Customize the track regarding contact card 
 
-An app maker can modify the contact card a user sees when they track an email or appointment using [**Set Regarding**](user/track-message-or-appointment.md). 
+An app maker can modify the columns on a contact card that is used to track an email or appointment using [**Set Regarding**](user/track-message-or-appointment.md). 
 
-To modify the contact card an app maker, needs to modify the **App for Outlook Contact Card** form.
+To change the columns on a contact card you need to modifiy the **App for Outlook Contact Card** form.
 
-In the example below, the **App for Outlook Contact Card** form has three columns titled **Job Title**, **Business Phone**, and **Mobile Phone** that are the same columns a user sees on the contact card.
+In the example below, the **App for Outlook Contact Card** form has three columns titled **Job Title**, **Business Phone**, and **Mobile Phone**. These are also the same columns a user sees on the contact card.
 
    > [!div class="mx-imgBorder"]
    > ![Contact card example](media/sample-contact-card-columns.png)
 
-If you wanted to modify the **Mobile Phone** column and replace it with the **Company Name** column, then you need to update the **App for Outlook Contact Card** form and modify the columns.
+To replace the **Mobile Phone** column with **Company Name** instead, you need to update the **App for Outlook Contact Card** form.
 
    > [!div class="mx-imgBorder"]
    > ![Contact card before customization](media/before-cust.png)
