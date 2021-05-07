@@ -45,7 +45,7 @@ The real-time marketing email editor has a new assist edit control to bind perso
 
 #### To add personalized data to a real-time marketing email
 
-- Create a placeholder by adding a text field and then selecting the **Personalization** button ![](media/real-time-marketing-personalization.png "") in the toolbar.
+- Create a placeholder by adding a text field and then selecting the **Personalization** button ![Personalization button](media/real-time-marketing-personalization.png "Personalization button") in the toolbar.
 - Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
 - After choosing the data source, you can search for the specific attribute or event trigger you are looking for.
 - Add a **Label** to quickly identify your token in the message content.
@@ -53,7 +53,7 @@ The real-time marketing email editor has a new assist edit control to bind perso
 - You can see and edit all your tokens in the **Personalize** tab in the **Toolbox**.
 
 > [!div class="mx-imgBorder"]
-> ![Email editor screenshot](media/real-time-marketing-email-editor.png)
+> ![Email editor screenshot](media/real-time-marketing-email-editor.png "Email editor screenshot")
 
 ### AI-driven image suggestions
 
@@ -62,4 +62,4 @@ The new editor analyzes the text content of your email and, using AI, suggests t
 Learn more about the [Asset library](real-time-marketing-asset-library.md)
 
 > [!div class="mx-imgBorder"]
-> ![Image suggestions screenshot](media/real-time-marketing-image-suggestions.png)
+> ![Image suggestions screenshot](media/real-time-marketing-image-suggestions.png "Image suggestions screenshot")
