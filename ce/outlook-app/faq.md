@@ -2,7 +2,7 @@
 title: "Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
-ms.date: 04/30/2021
+ms.date: 05/07/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -44,7 +44,7 @@ This means that there is an issue with the Server-Side Synchronization settings 
 
 ## Some users might experience add-in error with the following symptoms:
 
-You try to use the add-in by selecting Dynamics 365 App for Outlook, and the pane appears. After about 30 seconds, a yellow error section is displayed at the at the top of
+You try to use the add-in by selecting Dynamics 365 App for Outlook, and the pane appears. After about 30 seconds, a yellow error section is displayed at the of
     the pane. The error could be any of the following:
 
 - ADD-IN ERROR This add-in could not be started. Close this dialog
@@ -93,7 +93,7 @@ If you have enabled Internet-facing deployment on the Microsoft Dynamics 365 Ser
 1. On the server open the Internet Information Services (IIS) Manager program.
 2. In the left panel, expand the domain name > expand and navigate to **Sites** > **Microsoft Dynamics CRM**.
 3. Expand **XRMServices** and then select **2011**.
-    1. Double click on **Authentication** in the features view.
+    1. Double-click on **Authentication** in the features view.
     2. Right-click on the **Windows Authentication** row and then select **Enable** if it is disabled.
     3. Right-click again on the **Windows Authentication** and then select **Providers**.
     4. For each of the listed providers, select the provider and then choose **Remove**.
@@ -109,10 +109,10 @@ All of the  above steps need to be completed for all included folders and files 
 For more information, see [Blank page appears within Dynamics App for Outlook](https://go.microsoft.com/fwlink/p/?linkid=2007128).
 
 > [!Note]
-> If the link above does not work in Internet Explorer (IE), please try using another browser.
+> If the link above does not work in Internet Explorer (IE), try using another browser.
 
 ## I am able to use Dynamics 365 App for Outlook in Outlook Web Access in the Microsoft Edge browser, but it doesn’t work in Outlook Desktop. Why?
-Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installed on your machine. If you have Internet Explorer 11 already, please also make sure your organization URL <orgname.crm.dynamics.com> is not in the Compatibility View list.
+Dynamics 365 App for Outlook needs Internet Explorer 11 or higher to be installed on your machine. If you have Internet Explorer 11 already, also make sure your organization URL <orgname.crm.dynamics.com> is not in the Compatibility View list.
 
 ## My App for Outlook launch takes time every time I load it for mail item.
 For frequently used pages, pin the app so that it will stay loaded even when you switch to other mail items. 
@@ -129,9 +129,9 @@ For more information, see [An appointment is canceled or deleted unexpectedly wh
 When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 apps language setting in order to be consistent with the host application experience.
 
 
-## What does this notification mean, Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 apps data?
+## What does this notification mean, Track and Set Regarding are currently disabled. To use these features, contact your admin. You can still view and interact with your Dynamics 365 apps data?
 
-When you use Dynamics 365 App for Outlook, you might see this notification, **Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 apps data**.
+When you use Dynamics 365 App for Outlook, you might see this notification, **Track and Set Regarding are currently disabled. To use these features, contact your admin. You can still view and interact with your Dynamics 365 apps data**.
 
 > [!div class="mx-imgBorder"] 
 > ![Outlook app notification](media/serversidesync.png "Outlook app notification")
@@ -168,6 +168,6 @@ This feature is no longer available for configuration.
 
 
 
-## I need help troubleshooting the App.
+## I need help with troubleshooting the App.
 For more information, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
