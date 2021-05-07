@@ -111,7 +111,7 @@
     - name: Routing and assignment rules
       href: routing-workstream-queues.md
     - name: Administrator experience
-      items: 
+      items:
       - name: Create and manage queues for cases
         href: set-up-queues-manage-activities-cases.md
       - name: Automatically route cases
