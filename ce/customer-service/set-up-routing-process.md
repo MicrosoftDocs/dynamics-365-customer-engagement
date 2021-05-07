@@ -24,38 +24,12 @@ Unified routing can be configured in the Omnichannel admin center or Customer Se
 
 The high-level process to set up unified routing for a channel or record is as follows:
 
-### For routing of messaging channels
-
-You'll do the following:
-
-1. Create a messaging workstream
-2. Configure routing rules
-  - Configure manual work classification rulesets
-    - Create demand rules
-  - Configure machine-learning work classification rulesets
-    - Configure route-to-queues ruleset
-
-### For record routing
-
-You'll do the following:
-
-- Create a record workstream
-   1. Configure routing rules
-      - Configure work classification rulesets
-      - Configure route-to-queues ruleset
-   2. Configure intake rules
-
-### Create queues for record or messaging
-
-- Create “record” or "messaging" queues
-  - Choose assignment method
-     - **Out-of-the-box:** Highest capacity or Round robin
-     - Custom assignment method
-        1. Configure prioritization ruleset
-        2. Assignment rulesets
-           1. Decision list of rules.
-           2. Selection criteria
-
+1. [Create a workstream](create-workstreams.md)
+2. [Configure routing rules](configure-work-classification.md)
+3. [Create queues](queues-omnichannel.md)
+4. [Configure assignment rules](assignment-methods.md)
+5. [Set up unified routing for records](set-up-record-routing.md)
+6. [Set up skill-based routing](overview-skill-work-distribution.md)
 
 
 
