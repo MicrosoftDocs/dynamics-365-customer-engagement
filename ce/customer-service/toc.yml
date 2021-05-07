@@ -103,13 +103,15 @@
     - name: Role persona mapping
       href: role-persona-mapping.md
   - name: Unified routing and assignment
-    items: 
-    - name: Overview of unified routing
-      href: overview-unified-routing.md
-    - name: How routing and assignment works
-      href: set-up-routing-process.md
-    - name: Routing and assignment rules
-      href: routing-workstream-queues.md
+    items:
+    - name: Unified routing
+      items:
+      - name: Overview of unified routing
+        href: overview-unified-routing.md
+      - name: How routing and assignment works
+        href: set-up-routing-process.md
+      - name: Routing and assignment rules
+        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -152,8 +154,6 @@
           href: entity-channel.md
         - name: Set up basic routing for records
           href: routing-trigger.md
-      - name: Create queues
-        items: 
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing

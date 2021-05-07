@@ -59,7 +59,7 @@ Perform the following steps:
    - [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
 5. Configure routing rules for the workstream. More information: [Configure work classification rules](configure-work-classification.md)
-6. If you want to configure route to queues, see [Configure route to queues](configure-work-classification.md#configure-route-to-queues-ruleset-and-rules).
+6. If you want to configure route to queues, see [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules).
 
 
 ### Configure work distribution
