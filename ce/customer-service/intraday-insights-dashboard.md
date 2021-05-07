@@ -74,7 +74,7 @@ This section consists of the following performance indicators.
 | Conversations per online agent | The number of conversations that are handled by each agent |
 | Agent availability | The distribution of agents presence |
 | Agents with longest handle time | The number of agents with the longest time to accept a conversation and resolve it |
-| Total sessions transferred | The number of conversations that are trasferred to agents and supervisors. |
+| Total sessions transferred | The number of conversations that are transferred to agents and supervisors. |
 | Average consult time | The average time that an agent takes to consult with another agent or supervisor. |
 
 
