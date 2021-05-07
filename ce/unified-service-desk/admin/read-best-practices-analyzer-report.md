@@ -16,7 +16,9 @@ search.app:
 
 # Read Best Practices Analyzer report
 
-The Best Practices Analyzer report provides information to help you understand the results of the analysis.
+This section describes the layout of the Best Practices Analyzer report and provides information to help you understand the results of the analysis.
+
+![Best Practices Analyzer report](../media/bpa-report.PNG "Best Practices Analyzer report")
 
 The report displays the following elements:
 
