@@ -28,7 +28,7 @@ This article provides information about frequently asked question about tracking
 
 ## 1. Replies and Forwards of an email that is part of a tracked conversation in Dynamics 365
 
-### Example A
+### Scenario A
 
 - User A sends an email to multiple recipients, including contacts and other Dynamics 365 users.
 
@@ -57,7 +57,7 @@ smart matching is enabled, it will still track based on those
 correlation methods. 
 
 
-### Example B
+### Scenario B
 
 - User A sends an email to multiple recipients, including contacts and other Dynamics 365 users.
 
@@ -83,7 +83,7 @@ correlation methods. \*\*link to email settings paragraph on this
 setting.
  
 
-### Example C
+### Scenario C
 
 - User A sends an email to multiple recipients, including contacts and other Dynamics 365 users.
 
@@ -143,14 +143,14 @@ to inactive User rows.
  
 ### Examples of resolving the sending email address
 
-**Example A**
+**Scenario A**
 - Two contacts exist with same the same email address.  
 - The tracking user has access to both, but does not own either.  
  
 The sender will resolve to the first created contact. This will be the
 same result if the tracking user owns both contacts.  
 
-**Example B**
+**Scenario B**
 - Two contacts exist with the same email address.  
 - The tracking user has access to both contacts but owns the last
 created contact.  
@@ -159,14 +159,14 @@ The sender will resolve to the contact owned by the tracking user, even
 though it was the last created.  
  
 
-**Example C**
+**Scenario C**
 - Two contacts and one account exist with the same email address  
 - The tracking user owns both contacts and the account  
 - The account was created before the account.  
 
 The sender will resolve to the first created contact.
 
-**Example D:**
+**Scenario D:**
 - Two contacts and 1 account exist with the same email address.  
 - The tracking user does not own either contact, but does own the
 account. 
