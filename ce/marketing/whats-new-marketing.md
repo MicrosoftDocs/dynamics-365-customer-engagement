@@ -42,7 +42,7 @@ The much-anticipated customer journey orchestration features have made their pub
     - Easily customize and connect with tools you already use.
     - Efficiently manage compliance requirements and accessibility guidelines.
 
-The May 2021 Marketing update includes email editor improvements, expanded Teams webinar configuration options, JavaScript support for marketing forms, performance upgrades, and bug fixes.
+The May 2021 Marketing monthly update includes email editor improvements, expanded Teams webinar configuration options, JavaScript support for marketing forms, performance upgrades, and bug fixes.
 
 ### Version number
 
@@ -118,29 +118,35 @@ The May 2021 Marketing update includes email editor improvements, expanded Teams
     - Duplicate, edit, and delete email sections and elements with one click.
     - Move sections and elements on the canvas.
     - Switch to the new email editor experience directly from the editor itself, without admin privileges.
-    - Select one mor multiple borders in an element.
+    - Select one or multiple borders in an element.
 - **Marketing pages**
     - Marketing forms now support JavaScript, improving customization possibilities.
     - Improved user interface for C2 lookup fields.
     - New API to populate lookup fields with customizable values.
-<!--
+
 ### Bug fixes
 
 - **Customer journeys**
-    - 
+    - Upgraded *ConditionControl* to integrate new strings.
+    - Improved timezone labels in customer journey milestone timestamps.
+- **Data services**
+    - Resolved a data services issue that sometimes resulted in an entity sync failure.
 - **Event management**
-    - 
+    - Fixed an error related to the *autocreateaccessteams* property that occasionally resulted in an upgrade failure.
+    - Fixed an issue that sometimes caused deactivated wait list items to get picked up for registration.
+    - Resolved an error that caused cancelled registrations to sometimes appear in the *My registrations* list.
 - **First run experience**
-    - 
-- **Lead management**
-    - 
+    - Improved data clean up during uninstall.
 - **Marketing emails**
-    - 
+    - Added dynamic content support to the *Link to* field.
+    - Added support for custom forms to the email editor.
+    - Resolved an error that caused email button text to not load correctly.
+    - Fixed an issue that caused rounded buttons to not center correctly in Outlook.
 - **Marketing pages**
-    - 
-- **Segmentation**
-    - 
--->
+    - Resolved an issue that caused query strings to not be parsed by some servers.
+- **Shared UX**
+    - Resolved an error that caused image links added to content blocks to not function as expected.
+
 ## April 2021 update
 
 The Dynamics 365 Marketing April 2021 update includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever.
