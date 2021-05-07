@@ -211,12 +211,7 @@ The **Ongoing conversations** table displays the following metrics.
 
 The **Closed conversations** table provides information related to all the conversations that have been closed.
 
-### Assign a conversation
-
-You can assign a conversation to another agent or route it to another queue through the ongoing conversations report. Select the **Assign** option in the **Action** column in the report. Select an available agent, and then select **Assign**. If no agent is available, you can move the conversation to another queue and check whether an agent is available. After an agent is assigned, the action is changed to **Monitor**.
-
-> [!NOTE]
-> You can assign a conversation when it's in any state except **Closed**. 
+You can also assign a conversation to an agent or route it to another queue. More information :[Monitor and assign conversations](monitor-conversations.md#assign-a-conversation).
 
 
 ## View and filter reports
