@@ -4,7 +4,7 @@ description: "How to show customers their average wait time for a chat widget in
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/31/2020
+ms.date: 05/07/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -25,19 +25,20 @@ The average wait time is calculated based on wait times from the previous 48 hou
 > [!NOTE]
 > If skill-based routing is configured with exact skill match, the queue position that's displayed to a customer on the chat portal widget might not be accurate; therefore, the assignment of an agent to the customer might take longer than expected.
 
-## Enable average wait time in Omnichannel Administration
+## Enable average wait time
 
-1.	Sign in to Omnichannel Administration.
+If you're using Omnichannel admin center, do the following:
 
-2.	Go to **Channels** > **Chat**.
+1. Go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Behaviors** tab.
+2. Select **Show average wait time** if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent.
+3. Save and close.
 
-3.	Open the chat widget in which you want to enable the wait time setting.
+If you're using Omnichannel Administration, do the following:
 
-4.	Go to the **General settings** tab.
-
-5.	In the **Customer waiting** area, change **Show average wait time** to **Yes**. (This feature is set to **No** by default.)
-
-6.  Select **Save**.
+1. Go to **Channels** &gt; **Chat**, and open the chat widget in which you need to configure the settings.
+2. Select the **General settings** tab.
+3. In the **Customer waiting** area, change **Show average wait time** to **Yes**. By default, it is set to **No**.
+4. Select **Save**.
 
 ### See also
 

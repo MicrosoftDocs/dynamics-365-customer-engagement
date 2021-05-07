@@ -20,7 +20,11 @@ Information about the user journey, time spent on a web page, and more can be us
 > [!NOTE]
 > Proactive chat can be triggered only on pages where the chat widget is embedded.
 
-## Enable proactive chat in Omnichannel Administration 
+## Enable proactive chat in Omnichannel admin center
+
+In Omnichannel admin center, go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat widget** tab of the **Chat channel settings** page, set the toggle for **Proactive chat** to **On**.
+
+## Enable proactive chat in Omnichannel Administration
 
 1.	Sign in to Omnichannel Administration.
 2.	Open the chat widget for which you need to turn on proactive chat.
@@ -30,8 +34,6 @@ Information about the user journey, time spent on a web page, and more can be us
 The conditions to trigger the proactive chat are defined in the web page code in which the chat widget is embedded. If the conditions are fulfilled, the proactive chat invitation is displayed with the help of an API.
 
 For example scenarios and sample code, see [Start chat proactively](start-proactive-chat.md).
-
-To enable proactive chat in the Omnichannel admin center, see [Configure a pre-conversation survey in Omnichannel Administration](configure-pre-chat-survey#configure-a-pre-conversation-survey-in-omnichannel-admin-center.md).
 
 ## Customer experience of proactive chat
 
