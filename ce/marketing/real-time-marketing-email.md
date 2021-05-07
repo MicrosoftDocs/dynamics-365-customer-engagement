@@ -45,7 +45,7 @@ The real-time marketing email editor has a new assist edit control to bind perso
 
 #### To add personalized data to a real-time marketing email
 
-- Create a placeholder by adding a text field and then selecting the **Personalization** button ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the toolbar.
+- Create a placeholder by adding a text field and then selecting the **Personalization** button ![](media/real-time-marketing-personalization.png "") in the toolbar.
 - Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
 - After choosing the data source, you can search for the specific attribute or event trigger you are looking for.
 - Add a **Label** to quickly identify your token in the message content.
