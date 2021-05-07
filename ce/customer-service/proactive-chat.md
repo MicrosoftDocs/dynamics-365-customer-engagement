@@ -40,7 +40,7 @@ For example scenarios and sample code, see [Start chat proactively](start-proact
 When proactive chat is enabled, the chat invitation is displayed to customers based on the configured triggers.
 
 > [!div class=mx-imgBorder]
-> ![Proactive chat notification](media/proactive-chat-invite.png "Proactive chat notification")
+> ![Customer experience of proactive chat notification](media/proactive-chat-invite.png "Customer experience of proactive chat notification")
 
 The customer can accept the chat invitation or close it. If the customer doesn't accept, the chat invitation is closed automatically after a minute. The one-minute timer for automatic closure can't be configured.
 
@@ -50,7 +50,7 @@ The customer can accept the chat invitation or close it. If the customer doesn't
 When a customer accepts the proactive chat invitation, an agent receives the notification.
 
 > [!div class=mx-imgBorder]
-> ![Proactive chat agent notification](media/proactive-chat-agent.png "Proactive chat agent notification")
+> ![Agent experience of proactive chat agent notification](media/proactive-chat-agent.png "Agent experience of proactive chat agent notification")
 
 The agent then accepts the chat request and starts conversing with the customer to provide the required help. The [customer summary](oc-customer-summary.md) is loaded and displayed if the customer’s details match the stored data. 
 
