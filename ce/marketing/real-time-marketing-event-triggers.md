@@ -41,7 +41,7 @@ Real-time marketing offers three types of events in the event triggers catalog: 
 
 Custom events are defined by real-time marketing users. Custom events provide a flexible way to capture any customer action or significant business event.
 
-Refer to [Custom events triggers in real-time marketing](real-time-marketing-custom-events.md) for more information, including important notes about security for custom events.
+Refer to [Custom event triggers in real-time marketing](real-time-marketing-custom-events.md) for more information, including important notes about security for custom events.
 
 ### Interaction events
 
