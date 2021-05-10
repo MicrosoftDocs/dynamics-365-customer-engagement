@@ -18,14 +18,13 @@ ms.reviewer: nenellim
 
 The following table lists the cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-| Channel   | Adaptive card | Hero card | Thumbnail card | Sign in card | Audio card | CardCarousel|
+| Channel | Adaptive card | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
 |----------|---------------|-----------|----------------|-------------|------------|----|
-| Microsoft Teams      | ✔             | ✔        |  ✔              | ✔           | ✖          | ✔  |
-| Facebook             | ⚠🔶          | ✔         |  ✔              | ✔           | 🌐         |  ✔| 
-| LINE                 | ⚠🔶          | ✔         | ✔              | ✔           | 🌐         | ✔|
-|live chat             | ✔           |    ✖     | |  ✔   |  ✖  | ✔ |                                    | 
-| Custom (Telegram)    | ⚠🔶          | ✔         | ✔              | ✔           | 🌐         | ✔ |
-| Custom (Direct Line) | ✔             | ✔         |  ✔              | ✔           | ✔          | ✔* |
+| Microsoft Teams  | ✔      | ✔     |  ✔   | ✔  | ✖  | ✔  |
+| Facebook  | ⚠🔶  | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
+| LINE    | ⚠🔶 | ✔ | ✔   | ✔ | 🌐  | ✔|
+|live chat | ✔ | ✖  | |  ✔   |  ✖  | ✔ |                                    | Custom (Telegram)  | ⚠🔶 | ✔ | ✔ | ✔ | 🌐 | ✔ |
+| Custom (Direct Line) | ✔ | ✔ |  ✔ | ✔ | ✔  | ✔* |
 
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card that varies by channel.
