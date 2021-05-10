@@ -58,9 +58,10 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 
 ## 8.8.41.53 
+
 This release is a hotfix on Field Service version [8.8.41.28](#884128).
 
--	Added an Advanced setting to disable product bundle validation. If user sets product.bundle.optout=true then user would be able to add new/modify existing product bundle with Field Service type set.
+-	Added an advanced setting to disable product bundle validation. If user sets ```product.bundle.optout=true``` then user would be able to add new or modify existing product bundle with Field Service type set.
 
 ## 8.8.41.28 
 
