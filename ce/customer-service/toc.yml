@@ -112,8 +112,6 @@
         href: set-up-routing-process.md
       - name: Routing and assignment rules
         href: routing-workstream-queues.md
-    - name: Administrator experience
-      items:
     - name: Create and manage workstreams
       items:
       - name: Create and manage workstreams for unified routing
