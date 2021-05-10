@@ -4,7 +4,7 @@ description: "Learn about the integration of knowledge management with Power Vir
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 05/013/2021
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
