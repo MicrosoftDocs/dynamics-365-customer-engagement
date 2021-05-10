@@ -28,8 +28,6 @@ In this article, let's look at common tasks that technicians perform on Field Se
   
 1. Open the app, and enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] credentials. When sign-in completes, you'll see the home screen.
   
-   ![Screenshot of the home screen in the Field Service Mobile app](../field-service/media/field-service-mobile-home-screen.PNG "Home screen in the Field Service Mobile app")  
-  
 2. To sync your device to the server, tap the **Sync** button to download changes made on the server to your phone or tablet, and upload information from your device to the server.  
   
    ![Screenshot of the sync the Field Service Mobile app device](../field-service/media/field-service-sync-mobile-device.PNG "Sync the Field Service Mobile app device")  
@@ -66,9 +64,8 @@ When you first sign in to Field Service Mobile (Xamarin), you’ll see your home
 ### Dashboard
 
 Your dashboard provides a quick overview of business data. Depending on how things are set up in [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] (mobile), you may see a default system dashboard or one that you created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)  
-  
- ![Dashboard screen in the Field Service Mobile app](../field-service/media/field-service-dashboard-sceen.PNG "Dashboard screen in the Field Service Mobile app")  
-  
+
+
 ### Accounts
 
 In **Accounts**, you can see a list of your service accounts.  

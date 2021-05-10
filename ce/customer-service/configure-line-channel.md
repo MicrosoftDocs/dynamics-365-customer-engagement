@@ -155,9 +155,6 @@ If a customer initiates a conversation from the LINE website and then later swit
 
 The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](oc-notifications.md)
 
-> [!div class=mx-imgBorder]
-> ![LINE chat agent notification](media/line-chat-agent-notify.png "LINE chat agent notification")
-
 Once the LINE social profile is linked to an user customer/contact record by the agent, subsequent LINE conversations are linked to the customer records and the customer summary is populated.
 
 If the customer isn't identified by name, a new contact record can be created.

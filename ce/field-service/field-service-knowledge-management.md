@@ -32,9 +32,7 @@ Access to these articles can:
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO 
-https://www.microsoft.com/videoplayer/embed/RWxBzW]
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxBzW]
 
 In this article, we'll walk through how to: 
 

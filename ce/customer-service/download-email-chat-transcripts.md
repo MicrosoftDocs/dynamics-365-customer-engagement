@@ -4,7 +4,7 @@ description: "Learn how to download or email chat transcripts"
 author: platkat
 ms.author: ktaylor
 manager: autumna
-ms.date: 03/19/2021
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -14,7 +14,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Chat for Dynamics 365 Customer Service allows customers to download and email a copy of their chat transcripts. When download and email options are enabled by an administrator, customers can request a copy of their chat transcript at any time during a chat session and are reminded at the end of the conversation to request a transcript. Icons at the bottom of the chat widget allow the customer to initiate an email or download a copy of their chat transcript, which is sent once the chat ends.
+Chat for Dynamics 365 Customer Service allows customers to download and email a copy of their chat transcripts. When download and email options are enabled by an administrator, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
 
 **Prerequisite**: Administrators should set up mailboxes before enabling, and must select the **Allow other Dynamics 365 users to send email on your behalf** checkbox for this feature to work. For more information, see [Dynamics 365 Email Setup](https://support.microsoft.com/help/4020807/dynamics-365-e-mail-setup-configuration-and-dynamics-365-for-mobile-ho) and [Dynamics 365 Email tab options](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/set-personal-options#email-tab-options).
 
@@ -39,7 +39,7 @@ Perform the following steps to configure the options to download and email chat 
 
 3. Open the chat widget in which you need to configure download and email of chat transcripts.
 
-4. Go to the **Basic details** tab.
+4. Go to the **General settings** tab.
 
 5. Under **Chat Transcripts**, select **Yes** or **No** for the following:
 
@@ -48,9 +48,6 @@ Perform the following steps to configure the options to download and email chat 
    - **Allow email of transcript**: Allows your customers to send the chat transcript as an email.
 
    By default, both the options are set to **No**.
-
-   > [!div class=mx-imgBorder]
-   > ![Enable chat transcript](media/oc-chat-transcript-enable.png "Enable chat transcript")
 
 6. If you select **Yes** for **Allow email of transcript**, you must select an email template and a mailbox from which the email will be sent. Administrators have a choice to either:
 

@@ -28,8 +28,8 @@ The high-level process to set up unified routing for a channel or record is as f
 
 You'll do the following:
 
-- Create a messaging workstream
-- Configure routing rules
+1. Create a messaging workstream
+2. Configure routing rules
   - Configure manual work classification rulesets
     - Create demand rules
   - Configure machine-learning work classification rulesets
@@ -64,3 +64,4 @@ You'll do the following:
 [Create workstreams](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Manage capacity profiles](capacity-profiles.md)  
+[Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)  

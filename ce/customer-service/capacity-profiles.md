@@ -35,7 +35,7 @@ Perform the following steps to configure the capacity profile:
 1. In Omnichannel admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
 
   > [!NOTE]
-  > Unified routing must be enabled in Service configuration settings in Customer Service Hub for the **User attributes** area to appear in the site map.
+  > In Customer Service Hub, the **User attributes** area will appear in the site map only if unified routing is enabled in service configuration settings.
 
 2. On the **User attributes** page, select the **Manage** option for **Capacity profile**.
 3. On the **Capacity profiles** page, select **Create new**.
@@ -45,14 +45,15 @@ Perform the following steps to configure the capacity profile:
    -  **Reset frequency**: Period after which capacity consumption can be reset for agents. If you select **Immediate**, capacity will be reset immediately. If you select **End of day**, capacity will be reset after the agent's shift ends. Once configured, you'll have to recreate the capacity profile if you want to change the reset frequency.
    -  **Assignment blocking**: Set the toggle to **Yes**. When the agent reaches the work item limit of the capacity profile, any new work items won't be automatically assigned to the agent.
 5. On the **Users** tab, select **Add user**, and in the **Users** list, select the users.
-   > [IMPORTANT]
-   > Users must be configured as a bookable resource to be assigned the capacity profile.
+   > [!IMPORTANT]
+   > Users must be configured as a bookable resource to be assigned the capacity profile. More information: [Manage users](users-user-profiles.md).
 6. Select **Add user**. The capacity profile is assigned to the user.
 
 > [!NOTE]
 > In Omnichannel Administration, you can create a capacity profile in the **Capacity** area of the **User** page.
 
-
 ### See also
 
-[Create workstreams](create-workstreams.md)
+[Create workstreams](create-workstreams.md)  
+[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
+[Map role personas](role-persona-mapping.md)  

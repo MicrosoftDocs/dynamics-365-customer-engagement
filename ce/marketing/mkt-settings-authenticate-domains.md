@@ -1,7 +1,7 @@
 ---
 title: "Domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website in Dynamics 365 Marketing."
-ms.date: 04/15/2021
+ms.date: 04/16/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -165,8 +165,8 @@ This example is valid if you are adding DNS records into the root domain contoso
 `Host name or Alias: eurkey2._domainkey`  
 `Points to address: eurkey2contosocom.marketing.dynamics.com`
 
-**CNAME record 3 (Envelope-from)**
-`Host name or Alias: bouncing`
+**CNAME record 3 (Envelope-from)**  
+`Host name or Alias: bouncing`  
 `Points to address: nam.pb-dynmktg.com`
 
 ### Example DNS records for subdomain promo.contoso.com
@@ -183,8 +183,8 @@ This example is valid if you are adding DNS records into the root domain contoso
 `Host name or Alias: eurkey2._domainkey.promo`  
 `Points to address: eurkey2promocontosocom.marketing.dynamics.com`
 
-**CNAME record 3 (Envelope-from)**
-`Host name or Alias: bouncingpromo`
+**CNAME record 3 (Envelope-from)**  
+`Host name or Alias: bouncingpromo`  
 `Points to address: nam.pb-dynmktg.com`
 
 ### DNS Confirmation Statuses

@@ -6,6 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 08/12/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # startProactiveChat
 

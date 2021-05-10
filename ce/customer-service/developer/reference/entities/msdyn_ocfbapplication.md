@@ -1,8 +1,8 @@
 ---
 title: "msdyn_ocfbapplication Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocfbapplication entity."
-author: "platkat"
-ms.author: "ktaylor"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
 ms.date: 10/12/2020
 ms.topic: "reference"
@@ -694,31 +694,31 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocfbapplication_createdby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_createdby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_ocfbapplication_createdby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_ocfbapplication_createdonbehalfby"></a> lk_msdyn_ocfbapplication_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocfbapplication_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_ocfbapplication_createdonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_ocfbapplication_modifiedby"></a> lk_msdyn_ocfbapplication_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocfbapplication_modifiedby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_modifiedby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_ocfbapplication_modifiedby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_ocfbapplication_modifiedonbehalfby"></a> lk_msdyn_ocfbapplication_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_ocfbapplication_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_ocfbapplication_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_ocfbapplication_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_ocfbapplication"></a> user_msdyn_ocfbapplication
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_ocfbapplication](systemuser.md#BKMK_user_msdyn_ocfbapplication) One-To-Many relationship.
+See systemuser Entity [user_msdyn_ocfbapplication](systemuser.md) One-To-Many relationship.
 
 ### See also
 

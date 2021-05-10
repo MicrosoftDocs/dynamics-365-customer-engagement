@@ -822,7 +822,7 @@ Same as msdyn_ocsentimentdailytopickeyword entity [msdyn_msdyn_ocsentimentdailyt
 
 ### <a name="BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid"></a> msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid
 
-Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid](msdyn_ocsentimentdailytopictrending.md#BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid) Many-To-One relationship.
+Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid](msdyn_ocsentimentdailytopictrending.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -837,7 +837,7 @@ Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdaily
 
 ### <a name="BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid"></a> msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid
 
-Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid](msdyn_ocsentimentdailytopictrending.md#BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid) Many-To-One relationship.
+Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid](msdyn_ocsentimentdailytopictrending.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
