@@ -18,7 +18,7 @@ search.app:
 tags: MigrationHO
 ---
 
-# Overview to Unified Service Desk
+# Overview of Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 

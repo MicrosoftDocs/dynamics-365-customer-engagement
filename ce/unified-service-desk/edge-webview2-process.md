@@ -4,7 +4,7 @@ description: "Know about the Edge WebView2 Process hosting method for your contr
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 05/31/2021
 ms.topic: "article"
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -18,21 +18,14 @@ search.app:
 monikerRange: '>= dynamics-usd-4.2'
 ---
 
-# Preview: Use Edge WebView2 Process to host web applications
+# Use Edge WebView2 process to host web applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
+The Edge WebView2 process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
 
-The Edge WebView2 Process (Preview) browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
-
-The advantages of using the Edge WebView2 Process hosting method are as follows:
+The advantages of using the Edge WebView2 process hosting method are as follows:
 
 - Available on supported versions of the Windows operating system.
 - Highly reliable.
@@ -40,13 +33,13 @@ The advantages of using the Edge WebView2 Process hosting method are as follows:
 - Switch seamlessly from one browser to another for your entire organization.
 - Enhanced performance and memory optimization.
 
-Also, administrators will be able to perform the following:
+Also, administrators can perform the following:
 
 - Select Edge WebView2 process as the hosting type for the organization.
 - Select Edge WebView2 process as the hosting type for select web applications, alongside Chrome process.
 
 
-## Edge WebView2 Process settings
+## Edge WebView2 process settings
 
 You can set the **Edge WebView2** process on the hosted controls (existing hosted controls and new hosted controls) to host applications. This allows you to choose the hosted controls that uses **Edge WebView2 Process** based on your requirements. More information: [Create a hosted control with hosting type as Edge WebView2](edge-webview2-process.md#create-a-hosted-control-with-hosting-type-as-edge-webview2)
 
@@ -54,7 +47,7 @@ If you want to set the **Edge WebView2** process to host the applications for an
 
 If you want to set the **Edge WebView2** process only for some agents in your organization, then in the **UnifiedServiceDesk.exe.config** file, add the **GlobalBrowserMode** key with the value as **EdgeWebView2**. More information: [Enable Edge WebView2 for an entire organization](edge-webview2-process.md#enable-edge-webview2-for-an-entire-organization)
 
-## Enable Edge WebView2 Process
+## Enable Edge WebView2 process
 
 Enable the **Edge WebView2** process in any one of the following ways:
 
