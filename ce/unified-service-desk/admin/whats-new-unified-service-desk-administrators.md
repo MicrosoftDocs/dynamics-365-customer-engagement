@@ -43,13 +43,13 @@ The advantages of using the Edge WebView2 Process hosting method are:
 
 Also, administrators will be able to perform the following:
 
-- Select Edge process as the hosting type for the organization.
-- Select Edge process as the hosting type for select web applications, alongside Chrome process.
+- Select Edge WebView2 process as the hosting type for the organization.
+- Select Edge WebView2 process as the hosting type for select web applications, alongside Chrome process.
 
 More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
 
 
-### Recover an Edge WebView2 Process instance
+### Recover an Edge WebView2 process instance
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Edge WebView2 Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
@@ -59,11 +59,11 @@ More information: [Recover an Edge WebView2 process instance](recover-edge-webvi
 
 ### Pool process instances for Edge WebView2 Process
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 Process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 Process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-By default, the Edge WebView2 Process instance pooling is enabled.
+By default, the Edge WebView2 process instance pooling is enabled.
 
-With the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+With the Edge WebView2 process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
 ::: moniker-end 
 
@@ -79,13 +79,13 @@ This release supports the Dynamics 365 model-driven apps deployed in Switzerland
 
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
-- Enhancements for the Chrome Process hosting type include the following:
+- Enhancements to the Chrome process hosting type include the following:
 
-  * Unified Service Desk support for Chrome Process upgraded to Chromium version 84. More information: [Use Chrome Process to host web application](../chrome-process.md)
+  * Unified Service Desk support for Chrome process upgraded to Chromium version 84. More information: [Use Chrome Process to host web application](../chrome-process.md)
   * Support for editing PDFs (if the PDF has editable fields) with Chrome Process webpages. More information: [Edit PDF in chrome process](../chrome-process.md#edit-a-pdf-in-chrome-process)
-  * Accessibility support for the Chrome Process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
+  * Accessibility support for the Chrome process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
   * Confirmation messages displayed on close and save sessions. More information: [Enable the close confirmation dialog box with Chrome Process](../chrome-process.md#enable-the-close-confirmation-dialog-box-with-chrome-process) and [Enable the confirmation dialog box with Chrome Process](../chrome-process.md#enable-the-confirmation-dialog-box-with-chrome-process)
-  * Open source parameters supported to enhance the performance of Chrome Process&ndash;based webpages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
+  * Open source parameters supported to enhance the performance of Chrome process&ndash;based webpages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
   * Default folder enabled to download attachments. More information: [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
 
 - Multiple headers supported during the Navigate action of a Unified Service Desk POST event. More information: [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard Web Application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM Page hosted control](../crm-page-hosted-control.md#navigate).
