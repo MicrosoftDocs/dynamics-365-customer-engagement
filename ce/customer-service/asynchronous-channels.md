@@ -23,7 +23,8 @@ The following table lists the cards that are supported across different channels
 | Microsoft Teams  | ✔      | ✔     |  ✔   | ✔  | ✖  | ✔  |
 | Facebook  | ⚠🔶  | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
 | LINE    | ⚠🔶 | ✔ | ✔   | ✔ | 🌐  | ✔|
-|live chat | ✔ | ✖  | |  ✔   |  ✖  | ✔ |                                    | Custom (Telegram)  | ⚠🔶 | ✔ | ✔ | ✔ | 🌐 | ✔ |
+|live chat | ✔ | ✖  |  |  ✔   |  ✖  | ✔ |
+| Custom (Telegram)  | ⚠🔶 | ✔ | ✔ | ✔ | 🌐 | ✔ |
 | Custom (Direct Line) | ✔ | ✔ |  ✔ | ✔ | ✔  | ✔* |
 
 
@@ -31,7 +32,7 @@ The following table lists the cards that are supported across different channels
 
 ⚠: Partial support; card might not be displayed at all if it contains inputs or buttons and varies by channel.
 
-✖: No support
+✖: No support.
 
 🔶: Card is converted to an image.
 
