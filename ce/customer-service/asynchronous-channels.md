@@ -4,7 +4,7 @@ description: "Adaptive card, emojis, and other support in asynchronous channels 
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/15/2021
+ms.date: 05/11/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
@@ -16,7 +16,7 @@ ms.reviewer: nenellim
 
 ## Card support for live chat and asynchronous channels
 
-The following cards are supported across different channels when you're using bots. Cards such as receipt card and animation cards are unsupported across all channels. Other social channels like Twitter, SMS, WhatsApp, and WeChat do not support the following cards.
+The following table lists the cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
 | Channel   | Adaptive card | Hero card | Thumbnail card | Sign in card | Audio card | CardCarousel|
 |----------|---------------|-----------|----------------|-------------|------------|----|
@@ -28,17 +28,17 @@ The following cards are supported across different channels when you're using bo
 | Custom (Direct Line) | ✔             | ✔         |  ✔              | ✔           | ✔          | ✔* |
 
 
-✔: Supported: Card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card. Varies by channel.
+✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card that varies by channel.
 
-⚠: Partial support: Card might not be displayed at all if it contains inputs or buttons. Varies by channel.
+⚠: Partial support; card might not be displayed at all if it contains inputs or buttons and varies by channel.
 
 ✖: No support
 
-🔶: Card is converted to image
+🔶: Card is converted to an image.
 
-🌐: Card is converted to unformatted text:  Links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
+🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
-The support categories are intentionally broad and do not fully explain how every card feature is supported in each channel due to the many possible combinations of cards, features, and channels. Use the information in the table as a base reference, but test each of your cards in the desired channels.
+Cards such as receipt card and animation cards are not supported across all channels. Other social channels, such as Twitter, SMS, WhatsApp, and WeChat don't support any cards listed in the preceding table.
 
 For more information, see the following:
 
