@@ -13,7 +13,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-
+::: moniker range=">=dynamics-usd-4.2"
 # Unified Interface sample application package
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
