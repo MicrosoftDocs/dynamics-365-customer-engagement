@@ -166,12 +166,14 @@
         href: attach-skills.md
       - name: Add skill control for routed records
         href: add-skill-control.md
-    - name: Create and manage basic queues for cases
-      href: set-up-queues-manage-activities-cases.md
-    - name: Automatically route cases using basic rule sets
-      href: create-rules-automatically-route-cases.md
-    - name: Set up routing for conversations in Omnichannel for Customer Service
-      href: understand-omnichannel-customer-service-hub.md
+    - name: Configure basic routing
+      items:
+      - name: Create and manage basic queues for cases
+        href: set-up-queues-manage-activities-cases.md
+      - name: Automatically route cases using basic rule sets
+        href: create-rules-automatically-route-cases.md
+      - name: Set up routing for conversations in Omnichannel for Customer Service
+        href: understand-omnichannel-customer-service-hub.md
     - name: Diagnostics for unified routing
       href: unified-routing-diagnostics.md
     - name: Developer experience
