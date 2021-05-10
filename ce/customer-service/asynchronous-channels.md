@@ -16,31 +16,23 @@ ms.reviewer: nenellim
 
 ## Card support for live chat and asynchronous channels
 
-The following cards are supported across different channels when you're using bots.
+The following cards are supported across different channels when you're using bots. Cards such as receipt card and animation cards are unsupported across all channels. Other social channels like Twitter, SMS, WhatsApp, and WeChat do not support the following cards.
 
-| Channel   | Adaptive card | Hero card | Receipt card | Thumbnail card | Sign in card | Audio card | CardCarousel|
-|----------|---------------|-----------|--------------|----------------|-------------|------------|----|
-| Microsoft Teams      | ✔             | ✔        | ✔            | ✔              | ✔           | ✖          | ✔  |
-| Facebook             | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         |  ✔|
-| LINE                 | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | ✔|
-|live chat             | ✔           |         |     |               |    |                                     |✔ |
-| Custom (Telegram)    | ⚠🔶          | ✔         | ✔            | ✔              | ✔           | 🌐         | |
-| Custom (Direct Line) | ✔             | ✔         | ✔            | ✔              | ✔           | ✔          | ✔* |
+| Channel   | Adaptive card | Hero card | Thumbnail card | Sign in card | Audio card | CardCarousel|
+|----------|---------------|-----------|----------------|-------------|------------|----|
+| Microsoft Teams      | ✔             | ✔        |  ✔              | ✔           | ✖          | ✔  |
+| Facebook             | ⚠🔶          | ✔         |  ✔              | ✔           | 🌐         |  ✔| 
+| LINE                 | ⚠🔶          | ✔         | ✔              | ✔           | 🌐         | ✔|
+|live chat             | ✔           |    ✖     | |  ✔   |  ✖  | ✔ |                                    | 
+| Custom (Telegram)    | ⚠🔶          | ✔         | ✔              | ✔           | 🌐         | ✔ |
+| Custom (Direct Line) | ✔             | ✔         |  ✔              | ✔           | ✔          | ✔* |
 
-
-> [!Note]
->
-> - The Twitter, WeChat, WhatsApp, and SMS channels do not support cards.
-> - The Direct Line channel supports all the cards mentioned in the table, but it's up to the client to implement them.
-> - Video card support can be achieved by adding the video URL in the adaptive card. <!--Neeraja: Confirm with Girish which statement is true because in the table that you've added, one row indicates that no video/audio is supported. -->
-> - Date input element, animations element are not supported in the adaptive card.
-> - Card carousel is not supported in Direct Line on Android devices.
 
 ✔: Supported: Card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card. Varies by channel.
 
 ⚠: Partial support: Card might not be displayed at all if it contains inputs or buttons. Varies by channel.
 
-❌: No support
+✖: No support
 
 🔶: Card is converted to image
 
@@ -54,17 +46,6 @@ For more information, see the following:
   - [Upload media, Twitter developer documentation](https://developer.twitter.com/docs/media/upload-media/uploading-media/media-best-practices)
 
 
-### Adaptive cards support
-
-| Description | Teams | Facebook | Telegram | Line | Direct Line | Twitter | SMS | WhatsApp |
-| -------- | ------ | ---------- | -------- | ------- | ------- | ----------- | ----------- | ----------- | 
-| Date input element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ |
-| Animations element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
-| Audio card and Media card elements are not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
-| Some markdown elements are not supported | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
-| Receipt card element is not supported | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ |
-| Sign in card element is not supported for some channels | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | 
-| Some markdown elements are supported  | ✔ | ✔ | ✔ | ✔ |✔ | ✔ | ✔ | ✔ |
 
 
 ## Suggested actions support
@@ -100,7 +81,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
 
 > [!Note]
-> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent will receive a .png image. When an agent sents a .gif image outbound, the customer will receive a .png image. 
+> - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent will receive a .png image. When an agent sends a .gif image outbound, the customer will receive a .png image. 
 > - The Direct Line channel supports the above attachment types, but it is up to the client to implement them.
 > - For LINE inbound and outbound messages, when a .gif image is sent, the recipient will receive a .jpg image.
 > - For WhatsApp messages, when a customer sends an attachment in document format (for example, a .docx, .xlsx, or .txt file), the agent will receive the attachment name as message text. We recommend converting documents to PDFs to send as attachments. 
