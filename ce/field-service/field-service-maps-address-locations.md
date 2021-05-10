@@ -49,7 +49,7 @@ Connecting to Maps is enabled by default for new environments. To confirm your e
 > ![Screenshot of setting connect to maps to yes](media/Perform-Initial-Configurations-image7.png)  
 
 > [!Note]
-> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden.
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden, and is unavailable for end users and external parties.  
 
 Save and close.
 
