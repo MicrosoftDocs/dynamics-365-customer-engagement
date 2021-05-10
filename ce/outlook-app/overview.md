@@ -42,15 +42,14 @@ With Dynamics 365 App for Outlook, you can:
   
 - Link email messages, meetings, and appointments to a row in your app. For example, link an email message to a specific account, opportunity, or case. 
 
-- Open an app row directly from Outlook.
-
-- Create a new row.
+- Create new rows and open it directly from Outlook.
 
 - Add a phone call, task, or appointment activity. 
 
+- Synchronize and track Outlook contacts with your app.
+
 - Add email templates, knowledge articles, and sales literature when you create an email message or set up a meeting.  
   
-- Track your Outlook contacts in your app.
 
 ## Get started
 
