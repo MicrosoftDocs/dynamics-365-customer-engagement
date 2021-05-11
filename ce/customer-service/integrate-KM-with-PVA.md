@@ -24,13 +24,13 @@ To integrate a Power Virtual Agents bot to assist in Knowledge management, you n
 9. Publish Power Virtual Agents bot
 10. Share the Power Virtual Agents bot
 
-## Prerequisite
 
-Set up your Power Apps portal before you begin intergrating Knowledge Management with Power Virtual Agent bots. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-konwledge-search.md).
 
 ## Create and publish knowledge articles to Power Apps portal
 
-You can create and manage knowledge articles by marking the **Internal** field to **No**. For more information on managing knowledge articles, see [Create and manage knowledge articles](customer-service-hub-user-guide-konwledge-article.md).
+Set up your Power Apps portal before you begin integrating Knowledge Management with Power Virtual Agent bots. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-konwledge-search.md).
+
+You can create and manage knowledge articles by marking the **Internal** field to **No**. For more information on managing knowledge articles, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
 ## Create a Power Virtual Agents bot
 

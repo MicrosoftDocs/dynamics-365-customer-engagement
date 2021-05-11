@@ -276,7 +276,7 @@
     items: 
     - name: Administrator experience
       items: 
-      - name: Intergrate knowledge management with Power Virtual Agents
+      - name: Integrate knowledge management with Power Virtual Agents
         href: integrate-KM-with-PVA.md
       - name: Set up knowledge search providers
         href: set-up-search-providers.md
