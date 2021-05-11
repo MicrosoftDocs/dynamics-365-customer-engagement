@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Integrate Knowldege Management with Power Virtual Agents bot
+# Integrate Knowledge Management with Power Virtual Agents bot
 
 To integrate a Power Virtual Agents bot to assist in Knowledge management, you need to perform the following steps.
 
@@ -42,11 +42,11 @@ You can create and manage knowledge articles by marking the **Internal** field t
 
 ## Create a topic and add an action
 
-You need to create a system fallback topic that can help agents present answers to customers when the knowledge search doesn't provide relevant knowledge articles. To create a fallback topic, perform the following steps.
+The system fallback topic can help agents present answers to customers when the knowledge search doesn't provide relevant knowledge articles. You can create the fallback topic and add an action. The action allows the fallback topic to be displayed as a message to agents. To create a fallback topic, perform the following steps.
 
 1. In the Power Virtual Agents portal, select **Settings** and then **System Fallback**.
-2. Select **Add** to add a system fallback topic.
-3. After the topic is added, select **Go to Fallback topic** to author the topic. You can view your fallback topic by selecting **Topics** and then **System**.
+2. Select **Add**.
+3. After the topic is added, select **Go to Fallback topic** to author the topic.
 
 You can add an action to the topic that you created. Adding an action allows the fallback topic to be displayed as a message to agents.
 Perform the following steps to add a call back action and  initiate the flow.
@@ -65,7 +65,7 @@ This process takes you to the Power Apps portal and opens a new template for aut
 
 ## Use the Knowledge search Power Automate template
 
-You can use the newly created Power Automate template to connect to the knowledge base by performing the following steps.
+You can use the Power Automate template that you created to connect to the knowledge base by performing the following steps.
 
 1. In the Power Automate page, select **Template**.
  
