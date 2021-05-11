@@ -1,6 +1,7 @@
 ---
 title: "Create or edit a chart (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to create or eidt a chart.
 ms.date: 09/15/2017
 ms.reviewer: 
 ms.service: crm-online
@@ -52,9 +53,9 @@ Present large quantities of data in your organization in a more insightful and g
 
 2.  In the **Aggregate** drop-down box, select the option by which you want to group the field you selected in **Legend Entries (Series)**.  
 
-        For non-numeric fields, you can select only **Count: All** or **Count: Non-empty**. For numeric fields, you can select one of the following aggregation options: **Count: All**, **Count: Non-empty**, **Avg**, **Max**, **Min**, or **Sum**.  
+       For non-numeric fields, you can select only **Count: All** or **Count: Non-empty**. For numeric fields, you can select one of the following aggregation options: **Count: All**, **Count: Non-empty**, **Avg**, **Max**, **Min**, or **Sum**.  
 
-        NULL values are not considered for computing minimum, maximum, and average of data. However, zeros (0) are considered. For example, if you have the following data:  
+       NULL values are not considered for computing minimum, maximum, and average of data. However, zeros (0) are considered. For example, if you have the following data:  
 
     |Records|Potential Customer|Established Value|  
     |-------------|------------------------|-----------------------|  
@@ -63,7 +64,7 @@ Present large quantities of data in your organization in a more insightful and g
     |Opportunity 3|Account 2|0|  
     |Opportunity 4|Account 2|250|  
 
-        The average for Account 1 is 250 because the NULL value wasn’t used. The average for Account 2 is 125 because the zero was used.  
+       The average for Account 1 is 250 because the NULL value wasn’t used. The average for Account 2 is 125 because the zero was used.  
 
 3.  To create a chart with multiple series, select the **Add a series** icon ![add&#95;series](../basics/media/add-series.png "add_series"), select another field to display on the series axis, and then select an aggregate option for that series.  
 
@@ -81,7 +82,7 @@ Present large quantities of data in your organization in a more insightful and g
 
 8.  To create a comparison chart with multiple categories, select the **Add a category** icon ![add&#95;series](../basics/media/add-series.png "add_series"), and then select another field to display on the category axis.  
 
-        You can add only two category items and one series item to a comparison chart.  
+       You can add only two category items and one series item to a comparison chart.  
 
 9. For fields that are of the datetime type, select the option by which you want to group the field you selected as the category.  
 
@@ -140,9 +141,9 @@ Present large quantities of data in your organization in a more insightful and g
 
 2.  In the **Aggregate** drop-down box, select the option by which you want to group the field you selected in **Legend Entries (Series)**.  
 
-        For non-numeric fields, you can select only **Count: All** or **Count: Non-empty**. For numeric fields, you can select one of the following aggregation options: **Count: All**, **Count: Non-empty**, **Avg**, **Max**, **Min**, or **Sum**.  
+       For non-numeric fields, you can select only **Count: All** or **Count: Non-empty**. For numeric fields, you can select one of the following aggregation options: **Count: All**, **Count: Non-empty**, **Avg**, **Max**, **Min**, or **Sum**.  
 
-        NULL values are not considered for computing minimum, maximum, and average of data. However, zeros (0) are considered. For example, if you have the following data:  
+       NULL values are not considered for computing minimum, maximum, and average of data. However, zeros (0) are considered. For example, if you have the following data:  
 
     |Records|Potential Customer|Established Value|  
     |-------------|------------------------|-----------------------|  
@@ -151,7 +152,7 @@ Present large quantities of data in your organization in a more insightful and g
     |Opportunity 3|Account 2|0|  
     |Opportunity 4|Account 2|250|  
 
-        The average for Account 1 is 250 because the NULL value wasn’t used. The average for Account 2 is 125 because the zero was used.  
+       The average for Account 1 is 250 because the NULL value wasn’t used. The average for Account 2 is 125 because the zero was used.  
 
 3.  To create a chart with multiple series, select the **Add a series** icon ![add&#95;series](../basics/media/add-series.png "add_series"), select another field to display on the series axis, and then select an aggregate option for that series.  
 
@@ -169,7 +170,7 @@ Present large quantities of data in your organization in a more insightful and g
 
 8.  To create a comparison chart with multiple categories, select the **Add a category** icon ![add&#95;series](../basics/media/add-series.png "add_series"), and then select another field to display on the category axis.  
 
-        You can add only two category items and one series item to a comparison chart.  
+       You can add only two category items and one series item to a comparison chart.  
 
 9. For fields that are of the datetime type, select the option by which you want to group the field you selected as the category.  
 
