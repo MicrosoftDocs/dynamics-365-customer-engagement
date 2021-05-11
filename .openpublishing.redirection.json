@@ -16,6 +16,206 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/outlook-app/v8/about-this-content.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/about-this-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/outlook-app/v8/deploy-dynamics-365-app-for-outlook.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/deploy-dynamics-365-app-for-outlook",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/outlook-app/v8/whats-new-v8.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/whats-new-v8",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/about-this-content.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/about-this-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/work-offline.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/work-offline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/admin-troubleshoot/get-company-news-timeline.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/admin-troubleshoot/get-company-news-timeline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/admin-troubleshoot/iframe-web-resource-support.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/admin-troubleshoot/iframe-web-resource-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-error-code-800c0019-windows-phones.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-error-code-800c0019-windows-phones",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/basic-navigation.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/basic-navigation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/create-communication-card.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/create-communication-card",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/dashboard-views.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/dashboard-views",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/email-and-call-customers.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/email-and-call-customers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/email-sign-in.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/email-sign-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/install.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/install",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/manage-accounts-contacts-leads-and-opportunities.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/manage-accounts-contacts-leads-and-opportunities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/manage-activities.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/manage-activities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/manage-quotes-orders-invoices.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/manage-quotes-orders-invoices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/manage-work-orders-agreements-customer-assets-time-off-requests.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/manage-work-orders-agreements-customer-assets-time-off-requests",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/more-help-how-users.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/more-help-how-users",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/note-android.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/note-android",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/notes.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/nurture-leads-through-sales-process.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/nurture-leads-through-sales-process",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/pin-favorites.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/pin-favorites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/reconfigure.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/reconfigure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/scan-barcodes.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/scan-barcodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/search-sort.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/search-sort",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/track-customer-service-cases.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/track-customer-service-cases",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/track-progress-charts.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/track-progress-charts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/use-browser-non-mobile-features.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/use-browser-non-mobile-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/use-cortana-voice-commands.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/use-cortana-voice-commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/set-up-manage/secure-manage.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/set-up-manage/secure-manage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/set-up-manage/set-up.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/set-up-manage/set-up",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/set-up-manage/support.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/set-up-manage/support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/v8/set-up-manage/troubleshoot.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/v8/set-up-manage/troubleshoot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/mobile-app/setup-mobile-offline-for-admin.md",
+      "redirect_url": "/previous-versions/dynamicscrm-2016/mobile-app/setup-mobile-offline-for-admin",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/marketing/email-postprocessing.md",
       "redirect_url": "email-design",
       "redirect_document_id": "false"
@@ -21133,7 +21333,16 @@
       "source_path": "ce/customer-service/enable-knowledge-search-analytics.md",
       "redirect_url": "/dynamics365/customer-service/enable-knowledge-search-insights",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/enable-sales-mobile.md",
+      "redirect_url": "/dynamics365/sales-enterprise/sales-mobile/prereq-sales-mobile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/productivity-tools.md",
+      "redirect_url": "../app-profile-manager/productivity-tools",
+      "redirect_document_id": false
     }
   ]
 }
-

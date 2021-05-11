@@ -26,6 +26,10 @@ After the migration is complete, open the Omnichannel admin center app, and perf
 
 You can then configure the work classification rules and any other settings pertaining to unified routing.
 
+## Migrate workstreams for routing records
+
+In Omnichannel for Customer Service, the existing workstreams for routing records can't be migrated. Instead, you'll need to create them anew in Omnichannel admin center or Customer Service Hub, and enable them for unified routing.
+
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  

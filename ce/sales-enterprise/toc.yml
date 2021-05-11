@@ -578,10 +578,14 @@
       href: sales-mobile/dynamics-365-sales-mobile-app.md
     - name: Administrator guide
       items: 
-      - name: Enable Dynamics 365 Sales mobile
-        href: sales-mobile/enable-sales-mobile.md
+      - name: Prerequisites for Dynamics 365 Sales mobile
+        href: sales-mobile/prereq-sales-mobile.md
       - name: Modify quick view forms
         href: sales-mobile/modify-quick-view-form.md
+      - name: Create custom push notifications
+        href: sales-mobile/create-push-notification.md
+      - name: Configure tables for quick creation of records and activities
+        href: sales-mobile/configure-quick-create.md
     - name: User guide
       items: 
       - name: Install the app
@@ -590,6 +594,8 @@
           href: sales-mobile/install-ios-app.md
         - name: Install the app on Android
           href: sales-mobile/install-android-app.md
+        - name: Configure mobile apps with Microsoft Intune
+          href: sales-mobile/configure-app-intune.md
       - name: Use the Dynamics 365 Sales mobile app
         href: sales-mobile/use-sales-mobile-app.md
       - name: Learn the basics

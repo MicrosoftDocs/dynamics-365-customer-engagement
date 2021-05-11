@@ -1,5 +1,5 @@
 ---
-title: "Resource scheduling optimization version history | MicrosoftDocs"
+title: "Resource Scheduling Optimization version history | MicrosoftDocs"
 description: Find a list of important updates for resource scheduling optimization in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
@@ -18,11 +18,11 @@ search.app:
   - D365FS
 ---
 
-# Resource scheduling optimization version history
+# Resource Scheduling Optimization version history
 
 ## Release schedule
 
-When a new version of Dynamics 365 Field Service resource scheduling optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+When a new version of Dynamics 365 Field Service Resource Scheduling Optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/). 
 
@@ -31,31 +31,36 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 1</strong> | | |  | |
 | | <i>First Release</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |N/A | N/A
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
-| | <i>Canada</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |04/23/2021
-| | <i>India</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
-| | <i>France</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
-| | <i>United Arab Emirates</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
-| | <i>South Africa</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |04/23/2021
-| | <i>Germany</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
-| | <i>Switzerland</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 04/23/2021
+| | <i>South America</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38| 05/07/2021
+| | <i>Canada</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  |05/07/2021
+| | <i>India</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  | 05/07/2021
+| | <i>France</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  | 05/07/2021
+| | <i>United Arab Emirates</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  | 05/07/2021
+| | <i>South Africa</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  |05/07/2021
+| | <i>Germany</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  | 05/07/2021
+| | <i>Switzerland</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  | 05/07/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
-| | <i>Asia Pacific</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
-| | <i>Great Britain</i> |[3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
-| | <i>Oceana</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 04/30/2021
+| | <i>Japan</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38   | 05/14/2021
+| | <i>Asia Pacific</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38   | 05/14/2021
+| | <i>Great Britain</i> |[3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38   | 05/14/2021
+| | <i>Oceana</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38   | 05/14/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  | 05/21/2021
+| | <i>Europe</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38   | 05/21/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD | 05/28/2021
+| | <i>North America</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  | 05/28/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  |N/A
-| | <i>China</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD |N/A
-| | <i>Dedicated Scale Groups</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |TBD  |N/A
+| | <i>Government Community Cloud</i> | [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38   |05/12/2021
+| | <i>China</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38 |05/12/2021
+| | <i>Dedicated Scale Groups</i> |  [3.3.0.115](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#330115) |3.3.1.38  |05/12/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.3.1.38
+
+- Fixed a bug that caused Resource Scheduling Optimization to delete bookings that were locked to resource and time, if the booking was the length of an entire shift. 
+- Fixed a bug that prevented Resource Scheduling Optimization from deleting bookings that needed to be deleted, if they were not associated with a resource requirement record.
 
 ## 3.3.0.115
 

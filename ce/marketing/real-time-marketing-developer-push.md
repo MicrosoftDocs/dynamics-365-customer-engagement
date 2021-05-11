@@ -1,6 +1,6 @@
 ---
 title: "Push notification setup for application developers (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
+description: "Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing."
 ms.date: 04/30/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -30,17 +30,19 @@ To register a device running an iOS application, the following request should be
 
 Request URL:
 
-    POST {PublicEndpoint}/api/v1.0/orgs/{OrganizationId}/pushchannel/apps/{ApplicationId}/devices/{UserId}
+```
+POST {PublicEndpoint}/api/v1.0/orgs/{OrganizationId}/pushchannel/apps/{ApplicationId}/devices/{UserId}
+```
 
 Request Body:
-
-    {
-        "ApnsDeviceContract": {
-            "ApnsToken": {ApnsToken}
-        },
-        "ApiToken": {ApiToken}
-    }
-
+```
+{
+    "ApnsDeviceContract": {
+        "ApnsToken": {ApnsToken}
+    },
+    "ApiToken": {ApiToken}
+}
+```
 Parameters:
 
 - **PublicEndpoint**: Taken from the "Public Endpoint" field of the mobile app configuration entity.
@@ -56,16 +58,20 @@ To register a device for an Android application, the following request should be
 
 Request URL:
 
-    POST {PublicEndpoint}/api/v1.0/orgs/{OrganizationId}/pushchannel/apps/{ApplicationId}/devices/{UserId}
+```
+POST {PublicEndpoint}/api/v1.0/orgs/{OrganizationId}/pushchannel/apps/{ApplicationId}/devices/{UserId}
+```
 
 Request Body:
 
-    {
-        "FcmDeviceContract": {
-            "FcmToken": {FcmToken}
-        },
-        "ApiToken": {ApiToken}
-    }
+```
+{
+    "FcmDeviceContract": {
+        "FcmToken": {FcmToken}
+    },
+    "ApiToken": {ApiToken}
+}
+```
 
 Parameters:
 
@@ -88,7 +94,9 @@ First, the correct entity must be selected. This step is crucial because, in Mar
 
 As an example, if the Contact Dataverse entity is used, and the email address field is used as the unique key for an end-user as a Contact, one possibility is to retrieve the correct ID using an OData GET call to Dataverse is the following:
 
-    https://<your Marketing instance>.dynamics.com/api/data/v9.0/contacts?$filter=emailaddress1 eq 'andrew@contosoltd.com'
+```    
+https://<your Marketing instance>.dynamics.com/api/data/v9.0/contacts?$filter=emailaddress1 eq 'andrew@contosoltd.com'
+```
 
 This query to Dataverse will return a single contact that has 'andrew@contosoltd.com' as the email address. Once this ID is acquired (in this example, a Contact ID), it should be used as the UserId parameter in the mobile application.
 

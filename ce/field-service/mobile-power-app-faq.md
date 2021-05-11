@@ -20,19 +20,6 @@ search.app:
 
 # Frequently asked questions for the Field Service (Dynamics 365) mobile app
 
-## Why can't I sign in on an Android device while using Authenticator or Company Portal?
-
-There is an intermittent issue with Microsoft Authenticator app version 6.2104.2518 and Company Portal version 5.0.5123.0, which causes signin to fail with no error message in the Field Service (Dynamics 365) mobile app.
-
-A fix will be released shortly. Regularly check the Authenticator app or the Company Portal mobile app for updates. Until then, try this workaround:
-
-1. Make sure you have a good internet connection.
-2. Close the Field Service mobile app; wait for one minute and then try signing in again.
-
-If you still can't sign in after several attempts, try launching your app in the web browser as a temporary solution until the Authenticator or Company Portal apps are updated.
-
-
-
 ## How do I enable address suggestions?
 
 The mobile app can recommend addresses as technicians type them into a work order when an Internet connection is available. Address suggestions make data entry quicker and more accurate.    
@@ -114,7 +101,22 @@ Not at this time. Support for non-public clouds will be added to Field Service m
 > ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and the "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
 
 
+## Why do I get "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
 
+> [!div class="mx-imgBorder"]
+> ![An error message showing "Insufficient Permissions" in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
+
+This error can occur when your environment has multiple Dynamics 365 apps installed, like Dynamics 365 Field Service and Dynamics 365 Customer Service with Omnichannel.
+
+To fix this issue:
+
+1. Verify your user is assigned the **Field Service - Resource** security role _and_ field security profile
+2. Edit the **Field Service - Resource** security role and assign read privileges for the **Master Entity Routing Configuration** entity in **Custom Entities**.
+3. Edit the **Field Service - Resource** security role and assign read privileges for the **Routing Rule Set** entity in the **Service Management** tab.
+
+
+> [!div class="mx-imgBorder"]
+> ![Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.](./media/fsm-insufficient-permission-faq.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

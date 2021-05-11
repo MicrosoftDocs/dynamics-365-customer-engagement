@@ -166,10 +166,6 @@
         href: understand-omnichannel-customer-service-hub.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
-      - name: Show customers their position in a queue
-        href: show-queue.md
-      - name: Show customers their average wait time in a queue
-        href: average-wait-time.md
     - name: Agent experience
       items: 
       - name: Manage case queues and route cases
@@ -294,6 +290,8 @@
         href: set-up-knowledge-management-embedded-knowledge-search.md
       - name: Configure knowledge article search filters
         href: enable-knowledge-article-search-filters.md
+      - name: Integrate knowledge management with Power Virtual Agents
+        href: integrate-KM-with-PVA.md
       - name: Create and manage knowledge categories
         href: create-manage-categories.md
       - name: Extend transformer logic on templates
@@ -336,6 +334,10 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Show customers their position in a queue
+        href: show-queue.md
+      - name: Show customers their average wait time in a queue
+        href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
     - name: Agent experience
@@ -684,6 +686,8 @@
       items: 
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
+      - name: Install Service Scheduling From Power Platform
+        href: install-service-scheduling-from-power-platform.md
       - name: Manage security roles
         href: manage-security-roles.md
       - name: Create and manage organizational units
@@ -746,6 +750,10 @@
         href: create-edit-resource-group.md
       - name: Manage sites
         href: use-sites-manage-service-locations.md
+    - name: Service Scheduling FAQs
+      items:
+      - name: Service Scheduling FAQs
+        href: service-scheduling-faq.md
     - name: Developer experience
       items: 
       - name: Search resource availability and create bookings
