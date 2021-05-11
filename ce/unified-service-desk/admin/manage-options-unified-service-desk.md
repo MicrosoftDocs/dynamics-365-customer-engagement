@@ -17,11 +17,11 @@ search.app:
   - D365USD
 ---
 
-# Options for Unified Service Desk
+# How to change global settings or options in Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] (**Settings** > **Unified Service Desk** > **Options**) to manage global name/value pairs that are used by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components.  
+Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to manage global name/value pairs that are used by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components.  
 
 **To manage [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] options**
 

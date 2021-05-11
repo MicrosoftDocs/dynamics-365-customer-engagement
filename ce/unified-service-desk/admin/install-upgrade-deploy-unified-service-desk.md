@@ -1,6 +1,6 @@
 ---
 title: "Install, deploy, and upgrade Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to install or upgrade Unified Service Desk ."
+description: "Learn how to install or upgrade Unified Service Desk."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -17,13 +17,15 @@ search.app:
   - D365USD
 tags: MigrationHO
 ---
-# Install, deploy, and upgrade Unified Service Desk
+# How to install, deploy, and upgrade Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], you must identify the Microsoft Dataverse platform instance that you want to build and deploy the configuration on. While you can use a new Dataverse instance, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Dataverse customization is mostly complete. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] controls the call center agent’s view of Dataverse by manipulating windows, injecting [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)], and so on. If major changes occur to Dataverse environment after [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, it might cause your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration to no longer work as required. While the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration often comes later in Dataverse implementation, having [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in mind when designing your Dataverse platform environment is beneficial.  
+Use this topic to understand how to install, deploy, and upgrade Unified Service Desk, and how to configure and deploy the agent application.
+
+Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], you must identify the Microsoft Dataverse platform instance on which you want to build and deploy the configuration. While you can use a new Dataverse instance, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Dataverse customization is mostly complete. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] controls the call center agent’s view of Dataverse by manipulating windows, injecting [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)], and so on. If major changes occur to Dataverse environment after [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, it might cause your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration to no longer work as required. While the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration often comes later in Dataverse implementation, having [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in mind when designing your Dataverse platform environment is useful.  
   
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] installation and deployment is done in phases where initially you set up a development environment to configure agent applications using one of the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications as the base. Next, you test how your configurations appear and work using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application by connecting to Dataverse instance where you configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Next, you use the customized [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on to a Production instance of Dataverse, and the client application. The configuration includes the Customization Files package used to distribute to your agent’s computers any files and assemblies that are required.  
+ [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] installation and deployment is done in phases where initially you set up a development environment to configure agent applications using one of the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications as the base. Next, you test how your configurations appear and work using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application by connecting to Dataverse instance where you configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Next, you use the customized [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on to a Production instance of Dataverse, and the client application. The configuration includes the Customization Files package used to distribute any files and assemblies that are required to your agent’s computers. 
   
 > [!IMPORTANT]
 >  You can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to integrate with third-party line-of-business (LOB) applications. However, before deploying an integrated solution (involving [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and LOB applications) in the production environment in your organization, you must thoroughly test your integrated solution to ensure that the performance results are aligned with your expectations. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] might not function appropriately if integrated with LOB applications that demonstrate user interface (UI) blocking, memory leak issues, and slow response times.  
@@ -40,7 +42,7 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
 3. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, and connect to Dataverse instance where you deployed the packages to verify that everything is working correctly. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Connect to a instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
   
    **Set up additional development computers**  
-  
+
    To set up additional development computers for configuring your agent desktop applications using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on the computer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
   
 ## Step 2: Configure and test your agent application  

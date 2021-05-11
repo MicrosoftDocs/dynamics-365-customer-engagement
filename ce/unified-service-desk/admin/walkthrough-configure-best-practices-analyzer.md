@@ -17,14 +17,13 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application.
+This walkthrough demonstrates how you can configure and set up [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application.
 
-![Generate Best Practices Analyzer report](../media/bpa-report-generation-new.gif "Generate Best Practices Analyzer report")
 
 <a name="Step1"></a>   
 ## Step 1: Create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control
 
-In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control.
+In this step, you'll create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control.
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -48,8 +47,8 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
    | General |     Display Group      |                                       MainPanel                                       |
    | General | Application is Dynamic |                                        Checked                                        |
    | General |     User Can Close     |                                        Checked                                        |
-   | Hosting |      Assembly URI      |               `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`                |
-   | Hosting |     Assembly Type      | `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl` |
+   | Hosting |      Assembly URI      |               `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyzer`                |
+   | Hosting |     Assembly Type      | `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyzer.BestPracticesAnalyzerControl` |
 
     ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-1.PNG "Create Best Practices Analyzer hosted control")
 

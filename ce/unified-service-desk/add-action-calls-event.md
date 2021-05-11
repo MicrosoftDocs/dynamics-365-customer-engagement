@@ -17,7 +17,9 @@ search.app:
   - D365USD
 ---
 # Add action calls to an event
-You can add multiple action calls to an event, and the action calls will be executed in the order that is defined in the **Order** field of the event definition. To do so:  
+You can add multiple action calls to an event so that they are executed in the order that is defined in the **Order** field of the event definition. 
+
+To add action calls to an event:
   
 1. Sign in to Unified Service Desk Administrator.  
   

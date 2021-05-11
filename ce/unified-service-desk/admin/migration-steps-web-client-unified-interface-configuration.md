@@ -21,7 +21,9 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from Web Client to  Unified Interface is a three-step process.
+Use this topic to understand how you can migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from the Web Client to the Unified Interface.
+
+The migration process consists of the following steps:
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
@@ -57,7 +59,7 @@ This diagram illustrates the flow of the migration:
 When the export is successfully completed, select **Next**.</br>
 ![Export configurations screen](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
 
-5. In the **Select Configurations** screen, select the configuration elements (hosted controls) you want to migrate, and select **Next**.</br>This is a multi-select list, and you can select several configuration elements to migrate.
+5. In the **Select Configurations** screen, select the configuration elements (hosted controls) you want to migrate, and select **Next**.</br>This is a multiple selection list, and you can select several configuration elements to migrate.
 </br>The migration assistant displays only the hosted controls to select. If you select a hosted control, the migration assistant exports all the actions, action calls, events, and other elements associated with the particular hosted control.</br>
 ![Select configurations screen](../media/usd-migration-assistant-select-configurations.PNG "Select configurations screen")
 
@@ -99,7 +101,7 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 
 ## Step 3: Use Configuration Migration Tool to import and deploy the configurations on Unified Interface App
 
-**Prerequesites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget).
+**Prerequisites:** Download the Configuration Migration tool (DataMigrationUtility.exe). To download the tool, see [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget).
 
 1. Go to the location where you downloaded the Configuration Migration Tool (DataMigrationUtility.exe).
 
@@ -122,13 +124,13 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 
 ## See also
 
-[Migration of Unified Service Desk configurations from Web Client to Unified Interface apps](overview-migration-assistant.md)
+[Migration of Unified Service Desk configurations from Web Client to Unified Interface apps](overview-migration-assistant.md)  
 
-[Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
+[Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)  
 
-[Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
+[Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)  
 
-[Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)
+[Import configuration data](/dynamics365/customer-engagement/admin/import-configuration-data)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

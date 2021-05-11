@@ -234,7 +234,7 @@
         href: customize-login-and-splash-screens-in-unified-service-desk.md
       - name: Customize themes in Unified Service Desk
         href: customize-themes-in-unified-service-desk.md
-    - name: Add multilanguage support for your agent applications
+    - name: Add multiple language support for your agent applications
       href: add-multilanguage-support-agent-applications.md
     - name: Configure Unified Service Desk to use knowledge
       href: configure-unified-service-desk-use-dynamics-365-knowledge.md
@@ -373,7 +373,7 @@
             href: windda.md
           - name: AccControl Tag
             href: acccontrol-tag.md
-          - name: ACCSelector Tag
+          - name: AccSelector Tag
             href: acc-selector-tag.md
           - name: Next Tag
             href: next-tag-windda.md
