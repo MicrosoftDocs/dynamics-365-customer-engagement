@@ -36,7 +36,7 @@ The following table displays the key performance indicators in the conversation 
 | Abandon rate | The percentage of conversations that are not engaged by agents.| All conversations are considered. |
 | Avg. speed to answer (seconds) | The average time customers waited in the queue before connecting to an agent. (time for acceptance) | Conversations engaged and conversations that are in the closed state are considered. |
 | Avg. CSAT | Average of customer satisfaction rating provided by customers. Only available if Customer Voice has been configured as a post conversation survey tool. |
-| Avg. conversation sentiment | Average sentiment score based on the verbatims provided in customer voice survey. |
+| Avg. conversation sentiment | Average sentiment score based on the customer's conversation experience. |
 ||||
 
 > [!div class="mx-imgBorder"]

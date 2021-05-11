@@ -67,6 +67,24 @@ Suggested trigger phrases and the topics related to the case title are provided.
 > [!NOTE]
 > Bots created through the Microsoft Teams channel will not be listed in the bot selection list.
 
+
+## Language availability for topics 
+
+The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages: 
+
+- English 
+- French 
+- German 
+- Italian 
+- Japanese 
+- Portuguese 
+- Simplified Chinese 
+- Spanish 
+
+> [!NOTE]
+> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+
+
 ### See Also
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
