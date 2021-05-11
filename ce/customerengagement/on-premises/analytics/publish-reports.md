@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Publish reports
+# Publish reports using the web application
 
 To make reports available to users, publish the reports.  
   

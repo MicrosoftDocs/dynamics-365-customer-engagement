@@ -1,5 +1,7 @@
 ---
 title: "Cannot Connect to the Specified Microsoft SQL Server | Microsoft Docs"
+description: Environment diagnostics warning that the user can't connect to the SQL Server
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
