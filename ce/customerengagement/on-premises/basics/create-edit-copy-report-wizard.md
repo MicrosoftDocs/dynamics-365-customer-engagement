@@ -1,6 +1,7 @@
 ---
 title: "Create or edit a report using the Report Wizard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to create or edit a report using the Report Wizard.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -84,7 +85,7 @@ If the report includes a chart, specify the type of chart, and how the data is d
 
 1.  Select the chart type, and then select **Next**.  
 
-        The **Chart preview** area shows how the data will be displayed.  
+       The **Chart preview** area shows how the data will be displayed.  
 
     -   For vertical and horizontal bar charts and line charts, specify which data to display on each axis:  
 
@@ -194,7 +195,7 @@ If the report includes a chart, specify the type of chart, and how the data is d
 
 1.  Select the chart type, and then select **Next**.  
 
-        The **Chart preview** area shows how the data will be displayed.  
+       The **Chart preview** area shows how the data will be displayed.  
 
     -   For vertical and horizontal bar charts and line charts, specify which data to display on each axis:  
 
