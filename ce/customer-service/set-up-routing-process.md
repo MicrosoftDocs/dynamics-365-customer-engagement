@@ -15,8 +15,8 @@ ms.service: "dynamics-365-customerservice"
 
 Unified routing can be configured in the Omnichannel admin center or Customer Service Hub app only.
 
-- To configure record routing, set the entity routing toggle to yes. More information:[Provision unified routing](set-up-record-routing.md#provision-unified-routing)
-- To use skill-based routing, skills must be configured.
+- To configure record routing, set the entity routing toggle to yes. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing)
+- To use skill-based routing, skills must be configured. More information: [Set up skills for routing](overview-skill-work-distribution.md)
 - To use machine learning work classification, the skill model must be configured and published. More information: [Set up intelligent skill finder model](intelligent-skill-model.md)
 - To use capacity profile-based classification, the capacity profile must be configured. More information: [Create and manage capacity profiles](capacity-profiles.md)
 
