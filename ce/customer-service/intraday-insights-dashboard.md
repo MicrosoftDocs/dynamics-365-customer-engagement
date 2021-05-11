@@ -19,7 +19,7 @@ The **Omnichannel intraday insights** dashboards provide information about the h
 - [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
-The information displayed in these sections is based on the conversations that have been closed in the last 24 hours, and is refreshed every 15 minutes. The report fetches the latest data and is generated in real time. If the report is kept open in a pre-configured Power BI workspace, it's automatically refreshed after 15 minutes; in a customer-configured workspace, the report is refreshed after every 5 minutes.
+The information displayed in these sections is based on the conversations that have been closed within the last 24 hours. The report fetches the latest data and is generated in real time. If the report is kept open, it's automatically refreshed after 15 minutes. The report if it's in a pre-configured Power BI workspace is auto refreshed after every 5 minutes. 
 
 > [!IMPORTANT]
 > To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
@@ -31,7 +31,7 @@ The **Omnichannel intraday insights** tab provides information on conversations 
 
 ### Conversations insights
 
-The **Conversations insights** section provides insights about conversation requests that have been generated in the past 24 hours, with KPIs such as the number and state of the conversations. The following image shows an example of the **Conversations insights** section of the Omnichannel intraday insights report.
+The **Conversations insights** section provides insights about conversation requests with KPIs such as the number and state of the conversations. The following image shows an example of the **Conversations insights** section of the Omnichannel intraday insights report.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation Insights](media/conversation-insights.png "Conversation Insights")
@@ -43,14 +43,21 @@ This section of the dashboard displays the following KPIs about conversations.
 |-------|-------|
 | Average wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. |
 | Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. |
-| Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. | 
+| Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. |
+| Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. | 
 | Average handle time per conversation | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](#average-handle-time)|
 | Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
 | Conversation status by queue | The distribution of the status of conversations across different queues. |
-| Transfer/Escalation rate by queue |  The rate of transfer and escalations from one queue to the other |
+| Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred atleast once. Escalation rate is the percentage of conversations within a queue that was escalated to a supervisor |
 | Abandon rate by queue | The rate of conversations that have been abandoned by customers. |
-|||
+
+> [!NOTE]
+> The following metrics are also displayed on a per-queue basis.
+> - Avg wait time per conversation
+> - Avg handle time per conversation
+> - Exceeding 5 mins wait time
+> - Exceeding 5 mins handle time
 
 
 ### Agent insights
@@ -69,40 +76,40 @@ This section consists of the following performance indicators.
 | Agents logged in | The number of agents who are signed in.|
 | Average handle time per session | The average time that an agent takes to accept a conversation and resolve it |
 | Average session acceptance time | The average time an agent takes to accept an incoming conversation |
-| Session rejection rate | The rate of sessions that were rejected by agents |
+| Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them |
 | Session time out rate | The rate of sessions that were timed out |
 | Conversations per online agent | The number of conversations that are handled by each agent |
 | Agent availability | The distribution of agents presence |
 | Agents with longest handle time | The number of agents with the longest time to accept a conversation and resolve it |
-| Total sessions transferred | The number of conversations that are transferred to agents and supervisors. |
-| Average consult time | The average time that an agent takes to consult with another agent or supervisor. |
+| Total sessions transferred | The number of sessions that were transferred to other agents or supervisors |
+| Average consult time | The average time spent by agents consulting with other agents or supervisors |
 
 
-## Agents Insights dashboard
+## Agents Insights report
 
-Th agent insights dashboard consists of the following performance indicators.
+The agent insights dashboard consists of the following metrics.
 
 > [!div class="mx-imgBorder"]
 > ![Agents insights dashboard](media/agents-insights-dashboard.png "Agents insights dashboard")
 
-| Conversation status | Description |
+| Metrics | Description |
 |-------|-------|
 | Agents logged in | The number of agents who are signed in.|
-| Agents with available capacity | The number of agents who have the capacity to accept incoming conversation requests. |
-| Average handle time per session | The average time that an agent takes to accept a conversation and resolve it. |
-| Session rejection rate | The rate of conversation sessions rejected by agents due to lack of capacity. |
-| Sessions time out rate | The rate of sessions that were timed out. |
-| Sessions transfer rate | The rate of sessions that were transferred to another agent or queue.
-| Agent status | The status and presence of agents |
+| Agents with available capacity | The number of agents who have the capacity to accept incoming conversation requests as well as the available capacity across all capacity profiles. |
+| Average handle time per session | The average time taken by an agent to accept an incoming session after it is assigned |
+| Session reject rate | The rate of conversation sessions rejected by agents due to lack of capacity. |
+| Session time out rate | The percentage of sessions that were timed out, out of the total sessions assigned. |
+| Session transfer rate | The percentage of sessions that were transferred to another agent or queue. |
+| Agent status | The presence status of an agent |
 | Conversation status by channel | The distribution of the different conversations statuses across different channels. |
-| Participation mode | The average distribution of different participation modes |
-| Transfer rate by agent | Rate of transfer of conversations done by an agent |
-| Transfer rate by queue | Rate of conversations transferred from one queue to the other |
-| Consult acceptance rate | Rate of consult sessions accepted | 
+| Participation mode | The distribution of the sessions across various participation types - Primary indicates the agent who's assigned the session, Consult indicates agents who are engaged in a consulting session and Monitor indicates an ongoing Supervisors monitor session |
+| Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue |
+| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue |
+| Consult acceptance rate | The percentage of consult requests accepted by an agent out of the total requests received | 
 
 You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
-You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations.
+You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations as well as an agent's available capacity across different capacity profiles. Unit based capacity is accounted against Unit capacity profile.
 
 The **Agent insights** table displays the following information.
 
@@ -116,7 +123,7 @@ Wrap-up | The total number of conversations in the wrap-up stage. |
 | Closed | The number of conversations that are closed. |
 | Avg handle time (min) | The average of an individual agent's handle time in minutes for all closed conversations that the agent is involved in. More information: [Average handle time](#average-handle-time). |
 | Email ID | The email address of the agent handling the conversation. |
-|||
+
 
 > [!div class="mx-imgBorder"]
 > ![Agent details](media/agent-insights-dashboard-table.png "Agent details")
@@ -138,10 +145,11 @@ This section displays the following details.
 
 | Detail | Description |
 |-------|-------|
+| Profile | The capacity profiles that are assigned to an agent. If a profile is force assigned it is displayed in red |
+| Total capacity | The total capacity as configured in the profile |
+| Available capacity | The current available capacity.  Available capacity can be displayed as negative due to supervisor assigns |
 | Status | The agent's current presence : **Available**, **Offline**, **Do not disturb**, or **Busy**. |
 | Status since | The amount of time that the agent's presence has been in its current state. |
-| Available capacity | The agent's current free capacity. |
-| Total capacity | The total capacity configured for an agent. |
 | Logged in duration 24 hrs | The total duration for which the agent has been signed in during the past 24 hours.|
 | Logged off duration 24 hrs | The total duration for which the agent has been signed out during the past 24 hours. |
 | Logged in duration 12 hrs | The total duration for which the agent has been signed in during the past 12 hours.|
@@ -160,29 +168,28 @@ This section displays the following details.
 | Customer sentiment | The current sentiment. |
 | Created on | The conversation creation time. |
 | Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that's beyond the agent's available capacity. |
-|||
 
-## Conversation insights dashboard
 
-This section of the dashboard displays the following KPIs about conversations.
+## Conversation insights report
+
+This section of the dashboard displays the following s about conversations.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation insights dashboard](media/conversation-insights-dashboard.png "Agents insights dashboard")
 
 | Metric | Description |
 |-------|-------|
-| Inbound | The number of conversations that happened in the last 24 hours. |
-| Ongoing | The number of conversations that are ongoing. |
-| Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent. |
-| Closed | The number of conversations that are closed. |
-| Abandon rate | The rate of conversations that have been abandoned by customers. |
-| Longest wait time | The longest time that the conversation was in queue. |
-| Average conversation handle time | The average time an agent takes to handle a conversation |
-| Average wait time (min) | The average time that conversations are in waiting stage before they are accepted |
+| Inbound | The number of conversations created in the last 24 hours. |
+| Ongoing |The number of conversations in Active, Waiting and Wrap-up statuses |
+| Waiting in queue | The number of conversations that are waiting in the queue and are ready to be picked up by an agent |
+| Closed | The number of conversations closed in the last 24 hours |
+| Longest wait time | The longest time that a conversation is in queue waiting to be picked up by an agent |
+| Average conversation handle time | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](#average-handle-time) |
+| Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned |
 | Average wrap time (min) | The average time of conversations that are in the wrap up stage. |
-| Conversation status | The distribution of conversations across all statuses |
-| Abandon rate | The rate of conversations that have been abandoned by customers |
-| Transfer rate by queue | The rate of conversations that have been transferred from one queue to the other |
+| Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed** |
+| Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent |
+| Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue |
 
 You can also view a report on the average conversation handle time, average wait time, transfer rate, and more. The report can be filtered to display an in-depth analysis of each chat channel through which conversations have come in.
 
