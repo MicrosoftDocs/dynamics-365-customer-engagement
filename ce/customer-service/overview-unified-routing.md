@@ -29,7 +29,9 @@ For instance, an organization receiving an incoming chat will add information on
 
 Unified routing optimizes businesses in the following ways:
 
-- Routing to the best queue by using attributes in a related entity, saving an admin from creating a custom workflow.
+- Connecting end-customers with the best-suited agent to provide the right outcome upon first contact.
+
+- Routing conversations to the best queue by using attributes in a related entity, saving an admin from creating a custom workflow.
 
 - Using skills-based routing to automatically assign incoming work, matching to the best agent and decreasing resolution time.
 
