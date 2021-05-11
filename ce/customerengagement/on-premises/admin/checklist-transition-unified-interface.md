@@ -1,6 +1,6 @@
 ---
-title: "Checklist: Unified Interface transition | MicrosoftDocs"
-description: "Checklist to ensure that you're prepared for transition to Unified Interface."
+title: "Checklist: Unified Interface transition (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Checklist to ensure that you're prepared for transition to Unified Interface in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: ""
 ms.date: 05/21/2020
 ms.reviewer: "kvivek"
