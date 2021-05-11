@@ -1,6 +1,7 @@
 ---
 title: "Quick create--Enter new contacts (or other data)--fast! (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to create a new record using quick create.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -9,10 +10,10 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: brycho
+author: mduelae
 ms.assetid: 201e9f66-56e7-4f58-b51e-9c73cf5f50b8
 caps.latest.revision: 19
-ms.author: brycho
+ms.author: mkaur
 manager: brycho
 search.audienceType: 
   - enduser
