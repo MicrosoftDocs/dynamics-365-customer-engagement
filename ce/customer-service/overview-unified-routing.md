@@ -23,13 +23,15 @@ During the assignment stage, the service requests are prioritized and then assig
 
 For instance, an organization receiving an incoming chat will add information on the work item—such as skills required, urgency level, category of customer, and importance level—in the classification stage, based on certain conditions that are met as part of the configured rules. In the assignment stage, an organization might want to first prioritize the incoming chats based on highest urgency level and importance, and then assign them to the agents by matching the skills required, current workload status, and availability.
 
-![Unified routing work classification overview](media/work-classification-overview.png "Unified routing work classification overview")
+![Unified routing work classification overview](media/unified-routing-overview.png "Unified routing work classification overview")
 
 ## How unified routing helps achieve business efficiency
 
 Unified routing optimizes businesses in the following ways:
 
-- Routing to the best queue by using attributes in a related entity, saving an admin from creating a custom workflow.
+- Connecting end-customers with the best-suited agent to provide the right outcome upon first contact.
+
+- Routing work items to the best queue by using attributes in a related entity, thereby saving an admin from creating a custom workflow.
 
 - Using skills-based routing to automatically assign incoming work, matching to the best agent and decreasing resolution time.
 

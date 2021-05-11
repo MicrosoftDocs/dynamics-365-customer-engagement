@@ -21325,8 +21325,13 @@
       "redirect_document_id": false
     },
     {
+<<<<<<< HEAD
       "source_path": "ce/customer-service/conversation-dashboard.md",
       "redirect_url": "oc-conversation-topics-dashboard",
+=======
+      "source_path": "ce/customer-service/productivity-tools.md",
+      "redirect_url": "../app-profile-manager/productivity-tools",
+>>>>>>> 71550d6095d6cdc450086c9cdcd89e4c11b88784
       "redirect_document_id": false
     }
   ]
