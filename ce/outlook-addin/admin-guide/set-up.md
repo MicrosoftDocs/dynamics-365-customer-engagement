@@ -35,9 +35,11 @@ This section covers installing and deploying Dynamics 365 for Outlook.
 > [!IMPORTANT]
 > You must have the latest version of Dynamics 365 for Outlook (version 8.2.3) to connect to Dynamics 365 apps version 9.0. Version 8.2.3 provides support for [Transport Layer Security (TLS) 1.2](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/) required for connecting Dynamics 365 for Outlook and Dynamics 365 apps version 9.0. For more information, see [Update for Dynamics 365 for Outlook](https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises).
 >
-> Effective October 1 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is retired. Customers must transition to the modern [Dynamics 365 App for Outlook](../../outlook-app/overview.md) at the earliest. Microsoft will not provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
-> 
-> Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
+> Effective October 1, 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) was retired. Microsoft won’t provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
+>
+>- Effective December 4, 2020, the legacy Dynamics 365 for Outlook is not available for Power Apps and customer engagement apps (Dynamics 365 Sales, Customer Service, Marketing, and Field Service). Use the modern [Dynamics 365 App for Outlook instead](../../outlook-app/overview.md).
+>- [Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/overview.md) users can continue to use the legacy Dynamics 365 for Outlook. However, we recommend that you transition to the modern Dynamics 365 App for Outlook at the earliest. 
+>
 > For further information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
 
 
