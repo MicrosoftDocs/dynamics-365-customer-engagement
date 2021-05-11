@@ -9,13 +9,17 @@ ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
 
-# Productivity tools
+# Overview of productivity tools
 
 ## Introduction
 
 The Dynamics 365 Productivity Tools app provides capabilities that help users perform day-to-day operations in a fast, efficient, and process-compliant manner and deliver value to customers.
 
 The Dynamics 365 Productivity Tools app contains the following functionality to help with repetitive and monotonous tasks, such as greet customers and fill forms. The tool also helps with displaying AI-based suggestions for knowledge articles and similar cases to agents, and thereby helps users perform day-to-day operations in a fast, efficient, and process-compliant manner.
+
+> [!NOTE]
+>
+> The productivity pane and productivity tools are not available in Omnichannel for Customer Service on Unified Service Desk.
 
 ### Macros
 
