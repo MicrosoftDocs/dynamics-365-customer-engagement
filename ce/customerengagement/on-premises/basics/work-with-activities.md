@@ -1,6 +1,7 @@
 ---
 title: "Work with activities and the activities feed (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to work with activities.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -57,7 +58,7 @@ You can find your activities under **My Work**. Once there, select the **Activit
 - Select the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
   
    > [!div class="mx-imgBorder"] 
-   > ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Shows all activities](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="Filter"></a>  
  
@@ -69,7 +70,7 @@ You can find your activities under **My Work**. Once there, select the **Activit
 2. Select the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Filter the list of activities](../basics/media/crm-ua-basicsguide-activities-view-select.png "Filter the list of activities")  
   
 <a name="New"></a>   
 
@@ -198,7 +199,7 @@ You can find your activities under **My Work**. Once there, select the **Activit
 - Select the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
   
    > [!div class="mx-imgBorder"] 
-   > ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Shows all activities](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities")  
   
 <a name="Filter"></a>  
  
@@ -210,7 +211,7 @@ You can find your activities under **My Work**. Once there, select the **Activit
 2. Select the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Filter the list of activities](../basics/media/crm-ua-basicsguide-activities-view-select.png "Filter the list of activities")  
   
 <a name="New"></a>   
 
