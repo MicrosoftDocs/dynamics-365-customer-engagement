@@ -54,7 +54,7 @@ This opens a new template for authoring.
 
 You can use the Power Automate template that you created to connect to the knowledge base by performing the following steps.
 
-1. In the Power Automate page, select **Template**.
+1. In the Power Automate page, select **Templates**.
  
     > [!NOTE]
     > In the pop-up box that appears, select **Leave** and exit the current browser page.
@@ -76,7 +76,7 @@ You can use the Power Automate template that you created to connect to the knowl
      > ![Add a solution](media/add-solution-KM-PVA.png "Add a solution")
 
 10. In the list of solutions, select the solution you just created. It should be at the top of the list. If it isn't, search by your email address, which is part of the solution name.
-11. In the solution, select **Add existing**, and then select **Flow** from the list.
+11. In the solution, select **Add existing**, and then select **Cloud Flow** from the list.
 12. Find your flow from the **Outside solutions** list, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent flow.
 
 ### Add your solution's flow to Power Virtual Agents bot
