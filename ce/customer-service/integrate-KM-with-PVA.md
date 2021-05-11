@@ -22,7 +22,7 @@ Integrate a Power Virtual Agents bot to assist in Knowledge management by perfor
 
 ## Create and publish knowledge articles to Power Apps portal
 
-Set up your Power Apps portal before you begin integrating Knowledge Management with Power Virtual Agent bots. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-knowledge-search.md).
+Set up your Power Apps portal before you begin integrating Knowledge Management with Power Virtual Agents bot. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-knowledge-search.md).
 
 You can create and manage knowledge articles by marking the **Internal** field to **No**. For more information on managing knowledge articles, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
@@ -31,7 +31,7 @@ You can create and manage knowledge articles by marking the **Internal** field t
 The system fallback topic can help agents present answers to customers when the knowledge search doesn't provide relevant knowledge articles. You can create the fallback topic and add an action. The action allows the fallback topic to be displayed as a message to agents.
 
 1. Sign in to Power Virtual Agents.
-2. Select **New bot**.
+2. Create a **New bot**. More information : [Create and delete bots](/power-virtual-agents/authoring-first-bot).
 
 You can select **Topics** to see the knowledge articles and topics that are provided by the bot.
 
@@ -48,9 +48,9 @@ You can select **Topics** to see the knowledge articles and topics that are prov
     > [!div class="mx-imgBorder"]
     > ![Create a flow to call an action](media/create-a-flow-KM-PVA.png "Create a flow to call an action")
 
-This opens a new template for authoring.
+The Power Automate application is opened on a new tab where you will configure the template settings.
 
-## Use Power Automate template to add the solution to the flow
+## Use Power Automate Template to add the solution to the flow
 
 You can use the Power Automate template that you created to connect to the knowledge base by performing the following steps.
 
@@ -65,7 +65,7 @@ You can use the Power Automate template that you created to connect to the knowl
     > ![Create a flow](media/template-KM-PVA.png "Create a flow")
 
 3. Select **Continue**. You will be redirected to the Power Automate flow template.
-4. select **Solutions**. This will help the agent find the topic and connect to the flow.
+4. Save the template and then select **Solutions**. 
 5. Select **New solution**.
 6. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: *johndoe-power-virtual-agent-knowledgesearch-fallback*.
 7. Select your publisher from the list of choices.
@@ -99,7 +99,7 @@ You can use the Power Automate template that you created to connect to the knowl
     
 
     
-#kbcardjason()
+#kbcardjson()
 ```
 - 
 {
@@ -161,9 +161,9 @@ You can use the Power Automate template that you created to connect to the knowl
 }
 ```
 
-## Test the flow to publish and share the Power Virtual Agents bot
+## Test and publish the Power Virtual Agents bot
 
-Once you have the fallback topic saved, you can test your Bot by typing some queries, if an existing topic can't answer the question, the topic that you created is displayed as a message. 
+After you have the fallback topic saved, you can test your bot by typing some queries. If an existing topic can't answer the question, the topic that you created is displayed as a message. After publishing the Power Virtual Agents bot, you can also share your bot. 
 
   > [!div class="mx-imgBorder"]
   > ![Test flow](media/test-flow-KM-PVA.png "Test flow")
@@ -175,3 +175,7 @@ You can share the demo by configuring it as a channel.
 1. Select **Manage** > **Channel**.
 2. Select **Demo website** from the channels list.
 3. Copy the link and select **Save**.
+
+### See also
+
+[Create and edit topics](/power-virtual-agents/authoring-create-edit-topics)
