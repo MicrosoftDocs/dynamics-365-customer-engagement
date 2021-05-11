@@ -298,6 +298,8 @@
         href: set-up-knowledge-management-embedded-knowledge-search.md
       - name: Configure knowledge article search filters
         href: enable-knowledge-article-search-filters.md
+      - name: Integrate knowledge management with Power Virtual Agents
+        href: integrate-KM-with-PVA.md
       - name: Create and manage knowledge categories
         href: create-manage-categories.md
       - name: Extend transformer logic on templates
