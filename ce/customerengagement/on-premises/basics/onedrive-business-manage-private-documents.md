@@ -1,6 +1,7 @@
 ---
-title: "Use OneDrive for Business to manage your private documents (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Use OneDrive for Business to manage your private documents and files (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: Use OneDrive for Business to manage your private documents.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -18,7 +19,7 @@ search.audienceType:
   - enduser
 
 ---
-# Use OneDrive for Business to manage your private documents
+# Use OneDrive for Business to manage your private documents and files
 
 ::: moniker range=">= op-9-1"
 
