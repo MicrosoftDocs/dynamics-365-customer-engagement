@@ -12,23 +12,23 @@
   href: download-unified-service-desk.md
 - name: Introduction to Unified Service Desk
   items:
-  - name: Overview of Unified Service Desk
+  - name: What is Unified Service Desk?
     href: admin/overview-unified-service-desk.md
   - name: Call center challenges and how Unified Service Desk can help
     href: admin/call-center-challenges-how-unified-service-desk-can-help.md
-  - name: Sample Unified Service desk applications
+  - name: Unified Service Desk sample applications
     items:  
     - name: Use sample applications to get started
       href: admin/sample-unified-service-desk-applications.md
-    - name: Unified Service Desk New Environment sample package
+    - name: New Environment sample package
       href: admin/unified-service-desk-new-environment-package.md
-    - name: Unified Service Desk Interactive Service Hub sample package
+    - name: Interactive Service Hub sample package
       href: admin/unified-service-desk-interactive-service-hub-package.md
-    - name: Unified Service Desk Web Client sample package
+    - name: Web Client sample package
       href: admin/unified-service-desk-dynamics-365-web-client-package.md
-    - name: Unified Service Desk Unified Interface sample package
+    - name: Unified Interface sample package
       href: admin/unified-service-desk-dynamics-365-unified-interface-package.md
-    - name: Unified Service Desk Upgrade sample package
+    - name: Upgrade sample package
       href: admin/unified-service-desk-upgrade-package.md
 - name: Install, deploy, and upgrade Unified Service Desk
   items:
