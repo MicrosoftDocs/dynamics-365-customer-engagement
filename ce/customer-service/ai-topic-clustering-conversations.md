@@ -54,4 +54,4 @@ The topics capability in the Omnichannel historical analytics reports comes with
 ### See also
 
 [Omnichannel Conversation Dashboard](oc-conversation-dashboard.md) 
-[Topics Dashboard](oc-conversation-topics-dashboard-cs.md) 
+[Topics Dashboard](oc-conversation-topics-dashboard.md) 
