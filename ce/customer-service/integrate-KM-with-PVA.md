@@ -1,7 +1,7 @@
 ---
 title: "Integrate Knowledge Management with Power Virtual Agents bot| MicrosoftDocs"
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
-author: Meghanalanka
+author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
 ms.date: 05/13/2021
@@ -11,17 +11,13 @@ ms.service: dynamics-365-customerservice
 
 # Integrate Knowledge Management with Power Virtual Agents bot
 
-To integrate a Power Virtual Agents bot to assist in Knowledge management, you need to perform the following steps.
+Integrate a Power Virtual Agents bot to assist in Knowledge management by performing the following steps.
 
 1. Create and publish knowledge articles to Power Apps portal
-2. Create a Power Virtual Agents bot
-3. Create a topic and add an action
-4. Use Knowledge search Power Automate template
-5. Add a Power Automate flow to the solution
-6. Add the solution's flow to Power Virtual Agents
-7. Test the flow
-8. Publish Power Virtual Agents bot
-9. Share the Power Virtual Agents bot
+2. Create a topic for Power Virtual Agents bot and add an action
+3. Use Power Automate template to add the solution to Power Virtual Agents bot
+4. Test the flow to publish and share the Power Virtual Agents bot
+
 
 
 ## Create and publish knowledge articles to Power Apps portal
@@ -30,40 +26,31 @@ Set up your Power Apps portal before you begin integrating Knowledge Management 
 
 You can create and manage knowledge articles by marking the **Internal** field to **No**. For more information on managing knowledge articles, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
-## Create a Power Virtual Agents bot
+## Create a topic for Power Virtual Agents bot and add an action
+
+The system fallback topic can help agents present answers to customers when the knowledge search doesn't provide relevant knowledge articles. You can create the fallback topic and add an action. The action allows the fallback topic to be displayed as a message to agents.
 
 1. Sign in to Power Virtual Agents.
 2. Select **New bot**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Add a new bot](media/new-bot-KM-PVA.png "Add a new bot")
+You can select **Topics** to see the knowledge articles and topics that are provided by the bot.
 
- You can select **Topics** to see the knowledge articles and topics that are provided by the bot.
-
-## Create a topic and add an action
-
-The system fallback topic can help agents present answers to customers when the knowledge search doesn't provide relevant knowledge articles. You can create the fallback topic and add an action. The action allows the fallback topic to be displayed as a message to agents. To create a fallback topic, perform the following steps.
-
-1. In the Power Virtual Agents portal, select **Settings** and then **System Fallback**.
-2. Select **Add**.
-3. After the topic is added, select **Go to Fallback topic** to author the topic.
-
-You can add an action to the topic that you created. Adding an action allows the fallback topic to be displayed as a message to agents.
-Perform the following steps to add a call back action and  initiate the flow.
-
-1. On the authoring canvas, delete the **Escalate** item by selecting **Options.**
+3. Select **Settings** and then **System Fallback**.
+4. Select **Add**.
+5. After the topic is added, select **Go to Fallback topic** to author the topic.
+6. On the authoring canvas, delete the **Escalate** item by selecting **Options.**
 
     > [!div class="mx-imgBorder"]
     > ![Author a fallback topic](media/escalate-fallback-KM-PVA.png "Author a fallback topic")
 
-2. Select the connector flowing to the message box and select **Call an action** > **Create a flow**.
+7. Select the connector flowing to the message box and select **Call an action** > **Create a flow**.
 
     > [!div class="mx-imgBorder"]
     > ![Create a flow to call an action](media/create-a-flow-KM-PVA.png "Create a flow to call an action")
 
-This process takes you to the Power Apps portal and opens a new template for authoring.
+This opens a new template for authoring.
 
-## Use the Knowledge search Power Automate template
+## Use Power Automate template to add the solution to the flow
 
 You can use the Power Automate template that you created to connect to the knowledge base by performing the following steps.
 
@@ -78,28 +65,21 @@ You can use the Power Automate template that you created to connect to the knowl
     > ![Create a flow](media/template-KM-PVA.png "Create a flow")
 
 3. Select **Continue**. You will be redirected to the Power Automate flow template.
-
-## Add a Power Automate flow to your solution
-
-For the agent to find the topic and connect to the flow, it must be included within the power automate solution.
-
-1. In the Power Automate portal, select **Solutions.**
-2. Select **New solution**.
-3. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: *johndoe-power-virtual-agent-knowledgesearch-fallback*.
-4. Select your publisher from the list of choices.
-5. Accept the default values for name and version.
-6. Select **Create** to finish the process.
+4. select **Solutions**. This will help the agent find the topic and connect to the flow.
+5. Select **New solution**.
+6. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: *johndoe-power-virtual-agent-knowledgesearch-fallback*.
+7. Select your publisher from the list of choices.
+8. Accept the default values for name and version.
+9. Select **Create** to finish the process.
  
      > [!div class="mx-imgBorder"]
      > ![Add a solution](media/add-solution-KM-PVA.png "Add a solution")
 
-### Add your flow to the solution
+10. In the list of solutions, select the solution you just created. It should be at the top of the list. If it isn't, search by your email address, which is part of the solution name.
+11. In the solution, select **Add existing**, and then select **Flow** from the list.
+12. Find your flow from the **Outside solutions** list, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent flow.
 
-1. In the list of solutions, select the solution you just created. It should be at the top of the list. If it isn't, search by your email address, which is part of the solution name.
-2. In the solution, select **Add existing**, and then select **Flow** from the list.
-3. Find your flow from the **Outside solutions** list, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent flow.
-
-## Add your solution's flow to Power Virtual Agents
+### Add your solution's flow to Power Virtual Agents bot
 
 1. Open the browser with the authoring canvas.
 2. To insert a new step in the flow, above the **Message** action box, select the connector and then select **Call an action**.
@@ -181,20 +161,16 @@ For the agent to find the topic and connect to the flow, it must be included wit
 }
 ```
 
-## Test the flow
+## Test the flow to publish and share the Power Virtual Agents bot
 
 Once you have the fallback topic saved, you can test your Bot by typing some queries, if an existing topic can't answer the question, the topic that you created is displayed as a message. 
 
   > [!div class="mx-imgBorder"]
   > ![Test flow](media/test-flow-KM-PVA.png "Test flow")
 
-## Publish the Power Virtual Agents bot
-
 To publish the Power Virtual agent bot, select **Publish** and look for the demo link that you will find on the same page.
 
-## Share the Power Virtual Agents bot
-
-To share the demo, you need to first configure it as a channel.
+You can share the demo by configuring it as a channel. 
 
 1. Select **Manage** > **Channel**.
 2. Select **Demo website** from the channels list.
