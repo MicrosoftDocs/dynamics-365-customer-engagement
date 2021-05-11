@@ -1,10 +1,10 @@
 ---
-title: "Approaching a user experience and Unified Interface transition | MicrosoftDocs"
-description: "Learn how to plan and execute your transition from the legacy web client to Unified Interface"
+title: "Approaching a user experience and Unified Interface transition (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Learn how to plan and execute your transition from the legacy web client to Unified Interface in Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: ""
 ms.date: 07/24/2019
 ms.reviewer: ""
-ms.service: powerapps
+ms.service: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
