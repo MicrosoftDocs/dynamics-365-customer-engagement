@@ -208,11 +208,11 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
    - **Filter Entity**: The visual filters (interactive charts) and global filter attributes are based on this entity.  
       
-    - **Entity View**: The visual filters (interactive charts) are based on this view.  
+   - **Entity View**: The visual filters (interactive charts) are based on this view.  
       
-    - **Filter By**: The field that the time frame filter applies to.  
+   - **Filter By**: The field that the time frame filter applies to.  
       
-    - **Time Frame**: The default time frame filter value for the **Filter By** field.  
+   - **Time Frame**: The default time frame filter value for the **Filter By** field.  
       
  After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply click on the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
   
