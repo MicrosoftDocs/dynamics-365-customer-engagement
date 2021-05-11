@@ -24,6 +24,8 @@ search.app:
 ---
 # Get answers to frequently asked questions about Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 ## How does this work?
 
  As a player, each week you earn points by performing activities based on the key performance indicators (KPIs) configured by your organization. The KPIs for each game appear at the bottom of the leaderboard. If you participate in a game that uses fantasy teams&mdash;a type of game where you form a fictional team based on available players&mdash;you also are a team manager and can draft your colleagues (other players) to be on your own fantasy team. Draft your team before the game begins, and track how your team is doing. You can make changes to your roster each week to optimize your team score.

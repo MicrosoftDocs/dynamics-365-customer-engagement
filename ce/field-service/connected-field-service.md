@@ -3,7 +3,7 @@ title: "Connected Field Service - Overview | MicrosoftDocs"
 description: Learn all about Connected Field Service for Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 09/30/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: overview
@@ -17,6 +17,9 @@ search.app:
 # Connected Field Service - Overview
 
 Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform. 
+
+>[!Note]
+> To see a video overview of Connected Field Service, [you can watch one here](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
 
 Key benefits of Connected Field Service:
 
@@ -61,7 +64,7 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 ## Privacy details for Connected Field Service
 [!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
 
-- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 ### See also  
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)    

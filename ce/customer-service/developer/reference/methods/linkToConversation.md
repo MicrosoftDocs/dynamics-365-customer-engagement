@@ -7,6 +7,7 @@ manager: shujoshi
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: nenellim
+ms.service: dynamics-365-customerservice
 ---
 # linkToConversation
 

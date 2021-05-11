@@ -16,7 +16,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Recover an Internet Explorer process instance
+# Recover an Internet Explorer process instance (deprecated)
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 

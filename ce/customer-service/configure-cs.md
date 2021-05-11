@@ -20,23 +20,20 @@ search.app:
 
 # Configure Customer Service
 
-Use the Customer Service Hub app to set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service-level agreements (SLAs), entitlements, and customer service schedules.
+Use the Customer Service Hub app to set up everything related to customer service, like defining parent-child case hierarchy, creating queues, routing rule sets, rules for automatic case creation, service-level agreements (SLAs), entitlements, and customer service schedules. 
 
 ## Customer Service Hub
 
-Use the Service Management to set up various admin tasks for customer service.
+Use the Service Management to set up various admin tasks for customer service. 
 
-In the bottom left pane, select the change area, and select Service Management.
+In the bottom left pane, select the change area, and select Service Management. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the site map navigation](customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
 
-![access-service-managemen-csh](media/access-service-management-csh.png)
 
 ## Customer Service app
 
 In the Customer Service app, navigate to **Settings > Service Management**.
-
-![Access service management in Customer Service app](media/access-service-management-cs.png "Access service management in Customer Service app")
 
 ## Case settings
 

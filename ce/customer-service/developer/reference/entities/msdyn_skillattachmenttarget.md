@@ -1,8 +1,8 @@
 ---
 title: "msdyn_skillattachmenttarget Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_skillattachmenttarget entity."
-author: "platkat"
-ms.author: "ktaylor"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
 ms.date: 10/12/2020
 ms.topic: "reference"
@@ -723,31 +723,31 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmenttarget_createdby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_createdby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmenttarget_createdby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_skillattachmenttarget_createdonbehalfby"></a> lk_msdyn_skillattachmenttarget_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmenttarget_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmenttarget_createdonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_skillattachmenttarget_modifiedby"></a> lk_msdyn_skillattachmenttarget_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmenttarget_modifiedby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_modifiedby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmenttarget_modifiedby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_skillattachmenttarget_modifiedonbehalfby"></a> lk_msdyn_skillattachmenttarget_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmenttarget_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmenttarget_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmenttarget_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_skillattachmenttarget"></a> user_msdyn_skillattachmenttarget
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_skillattachmenttarget](systemuser.md#BKMK_user_msdyn_skillattachmenttarget) One-To-Many relationship.
+See systemuser Entity [user_msdyn_skillattachmenttarget](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_skillattachmentruleitem_target"></a> msdyn_skillattachmentruleitem_target
 

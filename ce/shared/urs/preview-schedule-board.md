@@ -263,7 +263,8 @@ The next snippet is what it looks like after:
 
 ## Additional notes
 
-The schedule board is only supported in Unified Client Interface web (Field Service v8.x+) and not in tablets or phones.
+- The schedule board is only supported in Unified Interface web (Field Service v8.x+) and not in tablets or phones.
+- The booking status colors that appear on the schedule board have lower opacity than the defined booking status colors. This behavior is similar to the Outlook calendar. When a booking is selected on the schedule board, the booking color will appear with normal opacity.
 
 ### Uninstall schedule board
 
@@ -274,7 +275,3 @@ To uninstall the new schedule board solution ("Resource Scheduling Controls"), p
 3. Save and publish the changes.
 4. Go to the resource scheduling app, clear the browser's cache, and reload schedule board. The old schedule board will load without the toggle in the top right of the screen.
 5. Once the solution is uninstalled, the new schedule board will not be available for the environment until you upgrade your Field Service app to the latest available version.
-
-### Support for drag-and-drop to create bookings on schedule board
-
-Drag-and-drop functionality to create bookings on the new schedule board is not supported in Firefox web browsers. This functionality will be supported in a future update. 

@@ -38,14 +38,14 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
 
 - [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience. More information: [Dynamics 365 Field Service Help](../field-service/overview.md) 
   
-- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
+- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 Project Service Automation Help](/dynamics365/project-operations/psa/overview) 
   
 ## Prerequisites  
  Before you can start using  Universal Resource Scheduling, make sure you have the following:  
   
 - You will need to have either [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] or [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)].  
   
-- A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
+- A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](/power-platform/admin/try-powerapps-dynamics-365)  
   
 - To manage the solution once it has been deployed you will need user credentials with Universal Resource Scheduling security role.  
   
@@ -71,7 +71,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
 7. On the **BOOKING SETUP METADATA: INFORMATION** form, use the tooltips to edit the default opens.  
   
    > [!NOTE]
-   >  To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 system - define status reasons](../customize/define-status-reason-transitions.md)  
+   >  To update the Booking Status Field Logical Name, you will first need to customize the system to add additional statuses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customize your Dynamics 365 system - define status reasons](../customerengagement/on-premises/customize/define-status-reason-transitions.md)  
    > 
    >  In attribute settings sections field, can be mapped from entity that was enabled for scheduling to fields on booking requirement. For example, from Date, to Date, Territory, Duration and others.  
   
@@ -155,7 +155,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 ### See also  
  [Install Dynamics 365 Field Service](../field-service/install-field-service.md)    
- [Install Dynamics 365 Project Service Automation](../project-service/install-customize.md)    
+ [Install Dynamics 365 Project Service Automation](/dynamics365/project-operations/psa/install-customize)    
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

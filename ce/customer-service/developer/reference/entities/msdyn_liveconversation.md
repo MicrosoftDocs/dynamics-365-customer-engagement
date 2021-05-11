@@ -5,6 +5,7 @@ author: "mh-jaya"
 ms.author: v-jmh
 manager: "shujoshi"
 ms.date: 07/29/2020
+ms.service: dynamics-365-customerservice
 ---
 # msdyn_liveconversation Entity Reference
 
@@ -1147,7 +1148,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation"></a> msdyn_msdyn_liveworkstream_msdyn_liveconversation
 
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_liveconversation](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation) One-To-Many relationship.
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_liveconversation](msdyn_liveworkstream.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation"></a> msdyn_msdyn_omnichannelqueue_msdyn_liveconversation
 

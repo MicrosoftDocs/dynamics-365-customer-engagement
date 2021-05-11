@@ -27,7 +27,7 @@ Before we begin, here are the top places for information about Field Service:
   
   <ul>
 <li><a href="overview.md" data-raw-source="[Docs](overview.md)">Docs</a></li>
-  <li><a href="https://docs.microsoft.com/learn/browse/?products=dynamics-field-service" data-raw-source="[Guided Learn courses](https://docs.microsoft.com/learn/browse/?products=dynamics-field-service)">Guided Learn courses</a></li>
+  <li><a href="/learn/browse/?products=dynamics-field-service" data-raw-source="[Guided Learn courses](/learn/browse/?products=dynamics-field-service)">Guided Learn courses</a></li>
 <li> <a href="https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X" data-raw-source="[[YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)]">YouTube Channel</a>
 <li> <a href="https://aka.ms/fs-videos" data-raw-source="[[Video tutorials](https://aka.ms/fs-videos)]">Video tutorials</a>
 <li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
@@ -138,7 +138,7 @@ The purpose of this section is to help you explore all the features of Field Ser
  
  <li> <a href="connected-field-service.md" data-raw-source="[Overview of Connected Field Service](connected-field-service.md)">Overview of Connected Field Service</a> </li> 
  
- <li><a href="https://docs.microsoft.com/dynamics365/field-service/developer/connected-field-service-architecture" data-raw-source="[CFS with IoTHub architecture](https://docs.microsoft.com/dynamics365/field-service/developer/connected-field-service-architecture)">CFS with IoTHub architecture</a></li>
+ <li><a href="/dynamics365/field-service/developer/connected-field-service-architecture" data-raw-source="[CFS with IoTHub architecture](./developer/connected-field-service-architecture.md)">CFS with IoTHub architecture</a></li>
  
  <li><a href="installation-setup-iothub.md" data-raw-source="[Step 1: Installation and setup - Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)">Step 1: Installation and setup - Connected Field Service for Azure IoT Hub</a></li>
   
@@ -148,7 +148,9 @@ The purpose of this section is to help you explore all the features of Field Ser
   
   <li> <a href="cfs-visualizations-iot-hub.md" data-raw-source="[Step 4: View device readings](cfs-visualizations-iot-hub.md)">Step 4: View device readings</a> </li>
   
-  <li> <a href="cfs-mobile-powerapp.md" data-raw-source="[Step 5: Connected Field Service on the mobile app](cfs-mobile-powerapp.md)">Step 5: Connected Field Service on the mobile app</a> </li>
+  <li> <a href="cfs-iot-alerts.md" data-raw-source="[Step 5: Create IoT alerts and convert them to work orders](cfs-iot-alerts.md)">Step 5: Create IoT alerts and convert them to work orders</a> </li>
+  
+  <li> <a href="cfs-mobile-powerapp.md" data-raw-source="[Step 6: Connected Field Service on the mobile app](cfs-mobile-powerapp.md)">Step 6: Connected Field Service on the mobile app</a> </li>
 </ul>
 </td>
 </tr>
@@ -181,34 +183,34 @@ Looking for training outside of documentation? Here are some of our training res
 
 ### Business Decision Maker
 
-- [Dynamics 365 for Field Service](https://docs.microsoft.com/learn/modules/dynamics-365-for-field-service/) (Microsoft Learn): This module shows application features, benefits, and case studies. Takes 30 minutes.
+- [Dynamics 365 for Field Service](/learn/modules/dynamics-365-for-field-service/) (Microsoft Learn): This module shows application features, benefits, and case studies. Takes 30 minutes.
 
 
 ### Business User
 
-- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
+- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
 
 ### Implementation Project Manager
 
-- [Implementing Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
-- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](https://docs.microsoft.com/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
-- [Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/paths/dynamics-365-fundamentals/) (Microsoft Learn): Check out this learning path if you&#39;re interested in how the Dynamics 365 products work together. Takes 11 hours. Also available as an instructor-led course. [Dynamics 365 Fundamentals, MB-901](https://docs.microsoft.com/learn/certifications/courses/mb-901t00).
+- [Implementing Microsoft Dynamics 365 for Field Service](/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
+- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Dynamics 365 Fundamentals](/learn/paths/dynamics-365-fundamentals/) (Microsoft Learn): Check out this learning path if you&#39;re interested in how the Dynamics 365 products work together. Takes 11 hours. Also available as an instructor-led course. [Dynamics 365 Fundamentals, MB-901](/learn/certifications/courses/mb-901t00).
 
 ### Functional Consultant
 
-- [Implementing Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours. Also available as a series of instructor-led courses:
-  - [Microsoft Dynamics 365 Field Service, MB240](https://docs.microsoft.com/learn/certifications/courses/mb-240t00)
-  - [Configuring Microsoft Dynamics 365 Field Service, MB240T01](https://docs.microsoft.com/learn/certifications/courses/mb-240t01)
-  - [Work order and delivery execution for Dynamics 365 Field Service, MB240-T02](https://docs.microsoft.com/learn/certifications/courses/mb-240t02)
-- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Universal Resource Scheduling (URS) is a Dynamics 365 Field Service solution that allows organizations from different industries with different scenarios schedule resources. Takes 5 hours. Also available as an instructor-led course: [Universal Resource Scheduling for Dynamics 365 for Field Service, MB-240T03](https://docs.microsoft.com/learn/certifications/courses/mb-240t03).
-- [Working with Connected Field Service for Dynamics 365 and Azure IoT](https://docs.microsoft.com/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
+- [Implementing Microsoft Dynamics 365 for Field Service](/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours. Also available as a series of instructor-led courses:
+  - [Microsoft Dynamics 365 Field Service, MB240](/learn/certifications/courses/mb-240t00)
+  - [Configuring Microsoft Dynamics 365 Field Service, MB240T01](/learn/certifications/courses/mb-240t01)
+  - [Work order and delivery execution for Dynamics 365 Field Service, MB240-T02](/learn/certifications/courses/mb-240t02)
+- [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Universal Resource Scheduling (URS) is a Dynamics 365 Field Service solution that allows organizations from different industries with different scenarios schedule resources. Takes 5 hours. Also available as an instructor-led course: [Universal Resource Scheduling for Dynamics 365 for Field Service, MB-240T03](/learn/certifications/courses/mb-240t03).
+- [Working with Connected Field Service for Dynamics 365 and Azure IoT](/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
 
 ### Certifications
 
-- [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](https://docs.microsoft.com/learn/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
+- [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](/learn/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
   
-- [Microsoft Certified: Dynamics 365 Fundamentals](https://docs.microsoft.com/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); the Power Platform; cloud concepts; cloud security; Dynamics 365 security; Common Data Service; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
+- [Microsoft Certified: Dynamics 365 Fundamentals](/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); the Power Platform; cloud concepts; cloud security; Dynamics 365 security; Common Data Service; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,9 +35,9 @@ The [!INCLUDE[pn_Java](../includes/pn-java.md)] data-driven adapter (JavaDDA) us
   
 -   [Search Path Node Tag](../unified-service-desk/search-path-node-tag.md)  
   
--   [Next Tag](../unified-service-desk/next-tag-javadda.md) [](../unified-service-desk/next-tag-javadda.md "Next Tag")  
+-   [Next Tag](../unified-service-desk/next-tag-javadda.md)  
   
--   [NextRole Tag](../unified-service-desk/nextrole-tag.md) [](../unified-service-desk/nextrole-tag.md "NextRole Tag")  
+-   [NextRole Tag](../unified-service-desk/nextrole-tag.md) 
   
 -   [FindWindow search path tag](../unified-service-desk/find-window-search-path-tag.md)  
   

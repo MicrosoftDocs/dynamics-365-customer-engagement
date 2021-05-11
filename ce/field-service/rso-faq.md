@@ -1,6 +1,6 @@
 ---
-title: FAQ and troubleshooting tips for resource scheduling optimization in Dynamics 365 Field Service
-description: Find answers to common issues with resource scheduling optimization in Dynamics 365 Field Service
+title: FAQ and troubleshooting tips for Resource Scheduling Optimization in Dynamics 365 Field Service
+description: Find answers to common issues with Resource Scheduling Optimization in Dynamics 365 Field Service
 author: FieldServiceDave
 ms.reviewer: krbjoran
 ms.date: 11/20/2020
@@ -14,34 +14,34 @@ search.app:
   - D365FS
 ---
 
-# FAQ and troubleshooting tips for resource scheduling optimization in Dynamics 365 Field Service
+# FAQ and troubleshooting tips for Resource Scheduling Optimization in Dynamics 365 Field Service
 
-## Why doesn’t resource scheduling optimization on Org B work anymore after I copied Dynamics 365 Org A to Org B (with resource scheduling optimization deployed)? 
+## Why doesn’t Resource Scheduling Optimization on Org B work anymore after I copied Dynamics 365 Org A to Org B (with Resource Scheduling Optimization deployed)? 
 
-Resource scheduling optimization Endpoint, which is used for connecting Dynamics 365 org and resource scheduling optimization Azure resources on Org B, will be broken after copying an org or rest org. The recommended approach is to delete the current resource scheduling optimization deployment (this will not delete anything inside of the Dynamics 365 Org), copy and reset the org, and then redeploy resource scheduling optimization to target the Dynamics 365 org as needed.
+Resource scheduling optimization Endpoint, which is used for connecting Dynamics 365 org and Resource Scheduling Optimization Azure resources on Org B, will be broken after copying an org or rest org. The recommended approach is to delete the current Resource Scheduling Optimization deployment (this will not delete anything inside of the Dynamics 365 Org), copy and reset the org, and then redeploy Resource Scheduling Optimization to target the Dynamics 365 org as needed.
 
-## My resource scheduling optimization deployment takes a long time and won’t finish. What should I do?
+## My Resource Scheduling Optimization deployment takes a long time and won’t finish. What should I do?
 
-If your resource scheduling optimization deployment won’t complete (it neither fails nor succeeds), you will need to contact the Microsoft Support team.
+If your Resource Scheduling Optimization deployment won’t complete (it neither fails nor succeeds), you will need to contact the Microsoft Support team.
 
-## My resource scheduling optimization deployment or upgrade failed. What should I do?
+## My Resource Scheduling Optimization deployment or upgrade failed. What should I do?
 
-If you’re able to see the **Delete Current Deployment** option through the resource scheduling optimization deployment app, you can try to delete the existing deployment first (this will not delete anything inside of the Dynamics 365 org) and then try to redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
+If you’re able to see the **Delete Current Deployment** option through the Resource Scheduling Optimization deployment app, you can try to delete the existing deployment first (this will not delete anything inside of the Dynamics 365 org) and then try to redeploy the latest version. If it fails again, check the admin settings. If the settings are correct but it still fails, contact the Microsoft Support team.
 
 - Make sure your Dynamics 365 org is NOT in administration mode.
 
   > [!div class="mx-imgBorder"]
   > ![](media/34ef04527c9cdb67c34a7c64c08bd868.png)
 
-- Check to see that the resource scheduling optimization add-on user has the resource scheduling optimization security role.
+- Check to see that the Resource Scheduling Optimization add-on user has the Resource Scheduling Optimization security role.
 
-## Installing the resource scheduling optimization solution failed through the Dynamics 365 admin center solution management page. What are my options?
+## Installing the Resource Scheduling Optimization solution failed through the Dynamics 365 admin center solution management page. What are my options?
 
-Don’t install the resource scheduling optimization solution from the solution management page. Use the resource scheduling optimization deployment app to deploy resource scheduling optimization. This includes both the Dynamics 365 side solution as well as Azure resources. 
+Don’t install the Resource Scheduling Optimization solution from the solution management page. Use the Resource Scheduling Optimization deployment app to deploy Resource Scheduling Optimization. This includes both the Dynamics 365 side solution as well as Azure resources. 
 
-## Can I modify the out-of-box resource scheduling optimization security role?
+## Can I modify the out-of-box Resource Scheduling Optimization security role?
 
-Modifying the out-of-box resource scheduling optimization security role can cause issues such as resource scheduling optimization upgrade failure, resource scheduling optimization job not pulling requirements/bookings as expected, and more. We don’t recommend modifying the out-of-box security role directly. Instead, copy it as a new role and customize as needed.
+Modifying the out-of-box Resource Scheduling Optimization security role can cause issues such as Resource Scheduling Optimization upgrade failure, Resource Scheduling Optimization job not pulling requirements/bookings as expected, and more. We don’t recommend modifying the out-of-box security role directly. Instead, copy it as a new role and customize as needed.
 
 ## How do I cancel a long-running schedule or blocked schedule?
 
@@ -49,7 +49,7 @@ If your schedule has been running for a long time and seems stuck or blocked, us
 
 ## I’m seeing the message “SAS Key has not been configured” when I publish a schedule. Is this ok?
 
-This means the resource scheduling optimization Azure resources are not set up correctly. We recommend going to the resource scheduling optimization deployment app to check the resource scheduling optimization deployment status. Redeploy as needed to fix the issue.
+This means the Resource Scheduling Optimization Azure resources are not set up correctly. We recommend going to the Resource Scheduling Optimization deployment app to check the Resource Scheduling Optimization deployment status. Redeploy as needed to fix the issue.
 
 > [!div class="mx-imgBorder"]
 > ![](media/6e42a1e32814b0bb5fd4e39134c5b5a1.png)
@@ -62,13 +62,13 @@ This typically means a custom plug-in ran into an unhandled null value. This can
 
 Sometimes you see this message for the following scenarios:
 
-- If you manually update the same bookings in the middle of a resource scheduling optimization run, resource scheduling optimization
+- If you manually update the same bookings in the middle of a Resource Scheduling Optimization run, Resource Scheduling Optimization
     will not overwrite the changes and will fail the request.
-- If you have a workflow/plug-in updating the same bookings during a resource scheduling optimization run,
-    resource scheduling optimization will not overwrite the changes your other system logic did and will fail
+- If you have a workflow/plug-in updating the same bookings during a Resource Scheduling Optimization run,
+    Resource Scheduling Optimization will not overwrite the changes your other system logic did and will fail
     the request.
-- If you have multiple resource scheduling optimization schedules that share the same resources and run at
-    the same time, resource scheduling optimization might show this message. To better understand the
+- If you have multiple Resource Scheduling Optimization schedules that share the same resources and run at
+    the same time, Resource Scheduling Optimization might show this message. To better understand the
     situation and further troubleshoot, check the following:
     - Scroll through the optimization request booking grid and inspect the
         operation details column for each individual requirement and booking.
@@ -105,7 +105,7 @@ There are various reasons for this. First, review the optimization results from 
     - Are work hours configured and available during the optimization range?
       - If they are unconfigured, they could still be scheduled.
       - They might be set to not work on the days being optimized per the
-            resource scheduling optimization run scope.
+            Resource Scheduling Optimization run scope.
     - Do they have any time off requests created or approved for the period of
         time that is being optimized?
 - Resource preferences:
@@ -125,17 +125,17 @@ Here are more details to analyze:
 - A quick validation for this is to select one of the resource requirements
     that won’t schedule and use the Schedule Assistant to see if it finds
     results.
-  - While the schedule assistant and the resource scheduling optimization are not exactly the same, they
+  - While the schedule assistant and the Resource Scheduling Optimization are not exactly the same, they
         evaluate based on similar criteria and if the Schedule Assistant finds
-        results, resource scheduling optimization generally will, too.
+        results, Resource Scheduling Optimization generally will, too.
 
     > [!NOTE]
     > There are some scenarios where the Schedule Assistant may find
-        results and the resource scheduling optimization won’t.
+        results and the Resource Scheduling Optimization won’t.
       > - If your resources found as potential matches do not have **Optimize
-            Schedule** set to **Yes** (meaning resource scheduling optimization would not consider them).
+            Schedule** set to **Yes** (meaning Resource Scheduling Optimization would not consider them).
       > - If your date windows on the requirement are outside of the scope of
-            your resource scheduling optimization run.
+            your Resource Scheduling Optimization run.
       > - If your territory for the requirement doesn’t match the resources’
             territory.
             
@@ -148,7 +148,7 @@ Here are more details to analyze:
         metadata setup.
 
 - Territories:
-  - The resource scheduling optimization scope doesn’t necessarily depend on territory, but the resource scheduling optimization run
+  - The Resource Scheduling Optimization scope doesn’t necessarily depend on territory, but the Resource Scheduling Optimization run
         still does a territory match between requirement and resource:
     - If a requirement is assigned to a territory, then the resource must
             also be assigned to that territory for the requirement to be
@@ -206,13 +206,13 @@ Here are more details to analyze:
 
 ## Why are my completed, canceled, or other bookings being optimized when they shouldn’t be moved?
 
-Booking Status has a **Scheduling Method** field that dictates how resource scheduling optimization should consider booking records of that status:
+Booking Status has a **Scheduling Method** field that dictates how Resource Scheduling Optimization should consider booking records of that status:
 
-- If Booking Status is set to **Optimize**, resource scheduling optimization will move those bookings
+- If Booking Status is set to **Optimize**, Resource Scheduling Optimization will move those bookings
     around.
-- If Booking Status is set to **Do Not Move**, resource scheduling optimization will not move or optimize
+- If Booking Status is set to **Do Not Move**, Resource Scheduling Optimization will not move or optimize
     those bookings.
-- If Booking Status is set to **Ignore**, resource scheduling optimization will not consider that booking
+- If Booking Status is set to **Ignore**, Resource Scheduling Optimization will not consider that booking
     record; it will be as if the booking record doesn’t exist.
 
   > [!NOTE]
@@ -222,12 +222,12 @@ Booking Status has a **Scheduling Method** field that dictates how resource sche
     > - Booking statuses that mean the visit is canceled should be set to
         **Ignore**.
     > - Booking statuses that mean the visit is scheduled or any other status
-        where you want resource scheduling optimization to consider moving the work around should be set to
+        where you want Resource Scheduling Optimization to consider moving the work around should be set to
         **Optimize**.
 
 ## Why are some of my past bookings being removed?
 
-A booking from the past might be moved if its booking status indicated that it should be optimized and if this booking is included in the optimization scope’s booking view. Because of this, it might appear (especially in a testing scenario where no one is actually completing work) that all of the bookings from the past are being rescheduled if no one changed the booking to a booking status that would keep the record from being moved. Here are a few ways you can block resource scheduling optimization from moving past bookings:
+A booking from the past might be moved if its booking status indicated that it should be optimized and if this booking is included in the optimization scope’s booking view. Because of this, it might appear (especially in a testing scenario where no one is actually completing work) that all of the bookings from the past are being rescheduled if no one changed the booking to a booking status that would keep the record from being moved. Here are a few ways you can block Resource Scheduling Optimization from moving past bookings:
 
 - Pick a booking status of **Do Not Move**.
 - Remove the booking from the booking view.
@@ -236,7 +236,7 @@ A booking from the past might be moved if its booking status indicated that it s
     constraint.
 
 ## What happens if I remove the "Schedule within Working Hours" constraint?
-When you remove this constraint, resource scheduling optimization will still respect working hours, but not as strictly. It won't leave time at the end of the day to travel to the resource's ending location and bookings will end at or near the end of a resource's working day and may spill over into non-working hours. Bookings, however, won't disregard working hours and won't be scheduled 24-7.
+When you remove this constraint, Resource Scheduling Optimization will still respect working hours and create bookings within the resource's working hours but _can_ schedule travel outside of working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings will end within a resource's working hours. 
 
 ## Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
 
@@ -308,9 +308,9 @@ If any exception or error happens when an optimization schedule is still running
 > [!div class="mx-imgBorder"]
 > ![](media/f1f4fe1d470e6897e8d0a3c548d52649.png)
 
-## Why is resource scheduling optimization scheduling bookings that overlap with resource break times? 
+## Why is Resource Scheduling Optimization scheduling bookings that overlap with resource break times? 
 
-Right now, resource scheduling optimization can’t split travel time from the booking from a visual perspective. It looks like resource scheduling optimization is scheduling bookings that overlap break time, but actually they are not because resource scheduling optimization can’t split travel time from its working duration tile from the schedule board visualized view perspective. What you see on the schedule board may look like this:
+Right now, Resource Scheduling Optimization can’t split travel time from the booking from a visual perspective. It looks like Resource Scheduling Optimization is scheduling bookings that overlap break time, but actually they are not because Resource Scheduling Optimization can’t split travel time from its working duration tile from the schedule board visualized view perspective. What you see on the schedule board may look like this:
 
 > [!div class="mx-imgBorder"]
 > ![](media/f8f4439b4e9fd2e1529e9ea65be76013.png)
@@ -324,7 +324,7 @@ Ideally, it should look like this:
 
 If you experience an optimization job failure with the error message "Related failed to update bookings," go to the bookings tab and search for failed bookings. There is a more detailed error message: "User lacks privileges."
 
-To fix this issue, make your resource scheduling optimization user has the correct security roles and field security profiles: 
+To fix this issue, make your Resource Scheduling Optimization user has the correct security roles and field security profiles: 
 
 Security roles:
 
@@ -344,11 +344,11 @@ Go to **Settings** > **Security** > **Users** > **Application Users** view.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Srvice settings.](./media/SRStep1.png)
 
-Find the user named "Resource Scheduling Optimization." This user is created when resource scheduling optimization is deployed. 
+Find the user named "Resource Scheduling Optimization." This user is created when Resource Scheduling Optimization is deployed. 
 
 You can also use advanced find to create a query to find users that have first name containing "Resource Scheduling." 
 
-Edit columns to include created date to easily decipher when the resource scheduling optimization user was created. 
+Edit columns to include created date to easily decipher when the Resource Scheduling Optimization user was created. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced find options in Field Service.](./media/SRStep2.png)
@@ -357,7 +357,7 @@ Edit columns to include created date to easily decipher when the resource schedu
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the "edit columns" option in the Field Service advanced find.](./media/SRstep3.png)
 
-Go to the newly created user view and make sure both resource scheduling optimization users have the same roles including "Resource Scheduling Optimization".
+Go to the newly created user view and make sure both Resource Scheduling Optimization users have the same roles including "Resource Scheduling Optimization".
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the manage user roles window in Field Service settings.](./media/SRStep4_2.png)
@@ -374,15 +374,15 @@ Go to **Settings** > **Security** > **Field Security Profiles** view.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the advanced find in Field Service.](./media/FSPStep2.png)
 
-Find the user named "Resource Scheduling Optimization." This user is created when resource scheduling optimization is deployed. Use advanced find field security profiles that have users with the first name containing "Resource Scheduling."
+Find the user named "Resource Scheduling Optimization." This user is created when Resource Scheduling Optimization is deployed. Use advanced find field security profiles that have users with the first name containing "Resource Scheduling."
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the advanced find showing the resource scheduling optimization field security profile.](./media/FSPStep3.png)
+> ![Screenshot of the advanced find showing the Resource Scheduling Optimization field security profile.](./media/FSPStep3.png)
 > 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the lookup records window showing the resource scheduling optimization field security profiles.](./media/FSPStep4.png)
+> ![Screenshot of the lookup records window showing the Resource Scheduling Optimization field security profiles.](./media/FSPStep4.png)
 
-Add resource scheduling optimization users to the "Resource Scheduling Optimization - Administrator" and "Resource Scheduling Optimization-Dispatcher" field security profiles.
+Add Resource Scheduling Optimization users to the "Resource Scheduling Optimization - Administrator" and "Resource Scheduling Optimization-Dispatcher" field security profiles.
  
 Ensure field security profiles have consistent permissions when comparing the old and new app users.
 

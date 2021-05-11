@@ -58,12 +58,11 @@ When a customer initiates a conversation, the following happens:
    > [!div class=mx-imgBorder]
    > ![Skill-based routing setup](media/skill-based-routing2.png "Skill-based routing setup")
 
-- [Step 1: Enable skill-based routing](enable-skill-routing-create-rating-model.md#enable-skill-based-routing)
-- [Step 2: Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model)
-- [Step 3: Create skill type](setup-skills-assign-agents.md#create-skill-type)
-- [Step 4: Create skills](setup-skills-assign-agents.md#create-skills)
-- [Step 5: Assign agents to skill](setup-skills-assign-agents.md#assign-agents-to-skill)
-- [Step 6: Create rules to attach skill](attach-skills.md#create-rules-to-attach-a-skill)
+- [Step 1: Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model)
+- [Step 2: Create skill type](setup-skills-assign-agents.md#create-skill-type)
+- [Step 3: Create skills](setup-skills-assign-agents.md#create-skills)
+- [Step 4: Assign agents to skill](setup-skills-assign-agents.md#assign-agents-to-skill)
+- [Step 5: Create rules to attach skill](attach-skills.md#create-rules-to-attach-a-skill)
 
 ## Videos
 

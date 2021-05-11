@@ -241,8 +241,6 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
 ### See also  
  [Solution Tools for Team Development](solution-tools-team-development.md)   
  [Use Source Control with Solution Files](use-source-control-solution-files.md)   
- [Solution Component File Reference](solution-component-file-reference-solutionpackager.md)   
  [Introduction to Solutions](introduction-solutions.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Know about the SLA issues and how to troubleshoot them.
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/30/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -66,7 +66,10 @@ When you update the target record such that “Applicable when” condition is n
 
 ### Reason
 
-When you define the Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
+When you define the "Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
+
+> [!NOTE]
+> When you define the conditions on the same attribute, a recommendation message is displayed that suggests you to not use the same attribute.
 
 ### Workaround
 

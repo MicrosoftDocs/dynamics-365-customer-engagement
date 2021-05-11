@@ -20,6 +20,8 @@ search.app:
 ---
 # See how you rank against other players on a Gamification leaderboard
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 There's no real competition without a leaderboard. [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] offers several leaderboards, depending on how the game is set up.
 
 ## Find your way around

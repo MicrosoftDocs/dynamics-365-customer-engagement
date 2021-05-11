@@ -1,7 +1,7 @@
 ---
 title: "Find and apply updates to core and shared solutions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out when an update for one or more Dynamics 365 Marketing solutions is available and apply the update."
-ms.date: 09/19/2020
+ms.date: 04/12/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -49,13 +49,11 @@ Dynamics 365 Marketing includes several solutions and services, each of which ha
 
     ![Select Settings in the area picker](media/apply-updates-settings2.png "Select Settings in the area picker")
 
-1. Select **Advanced settings** in left pane, then select **Go to quick setup** in the upper right.
+1. The **Settings overview** page will open. Go to **Overview** > **Versions**.
 
-    ![Open the Instances tab](media/apply-updates-quick-setup2.png "Open the Instances tab")
+    ![Open the Instances tab](media/apply-updates-versions.png "Open the Instances tab")
 
-1. In the quick setup form, verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
-
-    ![Apply updates](media/apply-updates-version2.png "Apply updates")
+1. The versions page will open. Verify the status of your application. If the application isn’t up to date, you can choose to update it from here.
 
 ## Find and apply updates for core Marketing solutions
 

@@ -1,10 +1,10 @@
 ---
-title: "Manage application tab templates in Customer Service workspace or Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing application tab templates in Customer Service workspace or Omnichannel Administration app"
+title: "Manage application tab templates | MicrosoftDocs"
+description: "Learn about managing application tab templates in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 05/06/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
@@ -19,7 +19,7 @@ The horizontal bar beneath the model-driven app navigation bar is called the app
 
 With application tab template, you can define the applications that are available for a session, and then associate the applications with a session.
 
-For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from  the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
+For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
 
 As an administrator, you can create multiple application tab templates.
 
@@ -52,29 +52,19 @@ As an administrator, you can create multiple application tab templates.
 
 ## Application types
 
-The types of applications available are as follows:
+The following types of applications are available:
 
 - Entity list
 - Entity record
 - Web resource
-- Control
+- Control (for internal use only)
 - Dashboard
 - Search
 - Third Party Website
 
-### Control
-
-The parameters available for the custom control application type are as follows:
-
-| parameter | Example value | Description |
-|----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| controlName | `MscrmControls.OCSearchRuntime.OCSearchRuntimeControl` | Name of the control. <br> Type = String |
-| data | `{key1:value1}` | Defines the attributes and values for the control. <br> Type = JSON Object |
-
-
 ### Dashboard
 
-The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows:
+The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows.
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -84,7 +74,7 @@ The application type is used to display the dashboard as an application. The par
 
 ### Entity list
 
-The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows:
+The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows.
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -94,7 +84,7 @@ The application type is used to display an entity view that defines how a list o
 
 ### Entity record
 
-The parameters available for the entity record application type are as follows:
+The parameters available for the entity record application type are as follows.
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -109,7 +99,7 @@ The parameters available for the entity record application type are as follows:
 
 ### Search
 
-The parameters available for the entity search application type are as follows:
+The parameters available for the entity search application type are as follows.
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -118,7 +108,7 @@ The parameters available for the entity search application type are as follows:
 
 ### Web resource
 
-The application type is used to display Web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
+The application type is used to display Web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows.
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|
@@ -128,7 +118,7 @@ The application type is used to display Web resources that represent files, whic
 
 ### Third party website
 
-The application type is used to display first-party and third-party websites as an application. You can use this type to host only the websites that are compatible for iframe hosting. The parameters available for the website URL application type are as follows:
+The application type is used to display first-party and third-party websites as an application. You can use this type to host only the websites that are compatible for iframe hosting. The parameters available for the website URL application type are as follows.
 
 | parameter | Example value | Description |
 |----------------------------|---------------------------------|-----------------------------------------------------------------------------|

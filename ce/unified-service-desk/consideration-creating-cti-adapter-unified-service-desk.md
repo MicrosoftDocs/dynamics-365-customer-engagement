@@ -30,7 +30,7 @@ This topic provides information on things to consider while creating a computer 
 
 - [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] controls are placed on `CtiPanel`  panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The height of the control should be 23 to fit in `CtiPanel`. Larger controls may be used.  
 
-- Multiple [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] control or user interface components can exist on `CtiPanel`. This is a horizontal stack panel so if you have multiple controls on this panel, they will appear next to each other.  
+- Multiple [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] control or user interface components can exist on `CtiPanel`. This is a horizontal stack panel so if you have multiple controls on this panel, they appear next to each other.  
 
 <a name="Actions"></a>   
 ## Actions supported for telephony functions  
@@ -40,10 +40,10 @@ We recommend that the following actions be defined and implemented in the **CTI 
 
 |Action|Description|  
 |------------|-----------------|  
-|Dial|The number to call. If this parameter is not provided, a dialpad will be displayed for the user to enter digits.<br /><br /> If the call is on an active call, this action would dial digits as if for an IVR.|  
-|Transfer|This would initiate or complete a transfer. If a transfer has been initiated but not completed, this would transfer the call and ignore the parameter. If an active call is present, it would place the call on hold and make a new call by passing the context data.|  
-|Conference|This would initiate or complete a conference. If a conference has been initiated but not completed, this would conference the call and ignore the parameter. If an active call is present, it would place the call on hold and make a new call by passing the context data.|  
-|Hangup|This ends the current call.|  
+|Dial|The number to call. If this parameter is not provided, a dialpad is displayed for the user to enter digits.<br /><br /> If the call is active, this action dials the digits as if for an IVR.|  
+|Transfer| Initiate or complete a transfer. If a transfer has been initiated but not completed, this action transfers the call and ignores the parameter. If an active call is present, this action places the call on hold and makes a new call by passing the context data.|  
+|Conference| Initiate or complete a conference. If a conference has been initiated but not completed, this action opens the call in conference mode and ignores the parameter. If an active call is present, it places the call on hold and makes a new call by passing the context data.|  
+|Hangup| Ends the current call.|  
 
 > [!NOTE]
 >  If these actions are supported by the **CTI Desktop Manager** hosted control, users will be able to trigger this functionality from a wide variety of locations within the application, thus providing a tightly integrated agent experience.  
@@ -58,7 +58,7 @@ We recommend that the following actions be defined and implemented in the **CTI 
   | Parameter |                                                                                               Description                                                                                               |
   |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
   | direction | Specify “inbound” for incoming calls and “outbound” for outgoing calls.<br /><br /> Is used by the system to allow the admin to specify different behavior depending on the direction of the call. |
-  | Calltype  |                                                                    Specify “phonecall” for voicecalls and “chat” for chat sessions.                                                                    |
+  | Calltype  |                                                                    Specify “phonecall” for voice calls and “chat” for chat sessions.                                                                    |
 
 
 - [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapters should not automatically create activities in Microsoft Dataverse because this is not always the required behavior. Therefore, this should be left for the system administrators to configure.  
@@ -134,7 +134,7 @@ We recommend that the following actions be defined and implemented in the **CTI 
  [CTIDESKTOPMANAGERCONTROL](/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.ctidesktopmanagercontrol)   
  [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)   
  [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md)   
- [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)
+ [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

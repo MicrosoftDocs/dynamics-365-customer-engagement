@@ -32,9 +32,7 @@ A Dynamics 365 Customer Engagement (on-premises) solution is a compressed (.zip)
 ## In This Section  
  [Use the SolutionPackager Tool to Compress and Extract a Solution File](compress-extract-solution-file-solutionpackager.md)  
   
- [Use Source Control with Solution Files](use-source-control-solution-files.md)  
-  
- [Solution Component File Reference (SolutionPackager)](solution-component-file-reference-solutionpackager.md)  
+ [Use Source Control with Solution Files](use-source-control-solution-files.md)   
   
 ## Related Sections  
  [Developer Tools](developer-tools.md)  

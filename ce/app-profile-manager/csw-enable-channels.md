@@ -25,7 +25,7 @@ To enable agents to be able to have conversations in Customer Service workspace,
     
     b. [Queues and users](../customer-service/queues-omnichannel.md)
     
-    c. [Work streams](../customer-service/work-streams-introduction.md)
+    c. [Work streams](../customer-service/create-workstreams.md)
     
 3. Assign the Omnichannel agent and/or Omnichannel supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](../customer-service/add-users-assign-roles.md).
 

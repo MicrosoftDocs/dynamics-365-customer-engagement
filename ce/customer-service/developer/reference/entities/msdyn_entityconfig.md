@@ -681,7 +681,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig"></a> msdyn_msdyn_liveworkstream_msdyn_entityconfig
 
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig) One-To-Many relationship.
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig](msdyn_liveworkstream.md) One-To-Many relationship.
 
 ### See also
 

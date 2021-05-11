@@ -23,9 +23,7 @@ search.audienceType:
 
 *This topic applies to Dynamics 365 Customer Engagement (on-premises). For the Power Apps version of this topic, see: [SolutionPackager tool](/power-platform/alm/solution-packager-tool)*
 
-The SolutionPackager tool can be used with any source control system. After a solution .zip file has been extracted to a folder, simply add and submit the files to your source control system. These files can then be synchronized on another computer where they can be packed into a new identical solution .zip file.  
-  
- An important aspect when using extracted component files in source control is that adding all the files into source control may cause unnecessary duplication. See the [Solution Component File Reference](solution-component-file-reference-solutionpackager.md) to see which files are generated for each component type and which files are recommended for use in source control.  
+The SolutionPackager tool can be used with any source control system. After a solution .zip file has been extracted to a folder, simply add and submit the files to your source control system. These files can then be synchronized on another computer where they can be packed into a new identical solution .zip file.
   
  As further customizations and changes are necessary for the solution, developers should edit or customize components through existing means, export again to create a .zip file, and extract the compressed solution file into the same folder.  
   
@@ -142,7 +140,6 @@ The SolutionPackager tool can be used with any source control system. After a so
   
 ### See also  
  [Solution Tools for Team Development](solution-tools-team-development.md)   
- [Solution Component File Reference (SolutionPackager)](solution-component-file-reference-solutionpackager.md)   
  [Use the SolutionPackager Tool to Compress and Extract a Solution File](compress-extract-solution-file-solutionpackager.md)
 
 

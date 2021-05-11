@@ -28,6 +28,8 @@
   items: 
   - name: Using the app
     href: dynamics-365-app-outlook-user-s-guide.md
+  - name: Basic navigation in App for Outlook
+    href: user/basic-navigation.md
   - name: Link an email message or appointment to a row in Dynamics 365
     href: user/track-message-or-appointment.md
   - name: FAQs about email tracking
@@ -50,13 +52,3 @@
   href: diagnostic-checker.md
 - name: FAQs
   href: faq.md
-- name: Version 8.x
-  items: 
-  - name: About this content
-    href: ../outlook-app/v8/about-this-content.md
-  - name: What's new with Dynamics 365 App for Outlook, version 8.2
-    href: ../outlook-app/v8/whats-new-v8.md
-  - name: Deploy Dynamics 365 App for Outlook
-    href: ../outlook-app/v8/deploy-dynamics-365-app-for-outlook.md
-  - name: Dynamics 365 App for Outlook User Guide, version 8.2
-    href: ../outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md

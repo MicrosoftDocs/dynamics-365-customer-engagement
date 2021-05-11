@@ -4,7 +4,7 @@ description: Understand Knowledge Management in Customer Service Hub for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/12/2021
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -76,14 +76,34 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 9. In the **Article Subject** drop-down list, choose the subject of the article to help with article searches.  
   
 10. In the **Assign Primary Author** drop-down list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
- 
-    You can  mark the article complete by selecting the checkbox at this stage.
+
+    Once a new article is created, the author value will be replicated to Primary author if it is a system user but not a team. The knowledge article author must be a single user (not a team) in order for it to be searchable and to load properly.
+    
+    You can mark the article complete by selecting the checkbox at this stage.
 
 > [!TIP]
 > Select the icon ![flyout icon](media/flyout.png) to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
+## Personalize your language preferences for authoring knowledge articles
+
+If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
+
+1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
+2. Select the **Authoring** tab.
+3. Do one of the following:
+   - Set **Use organization’s language value** to **Yes**.
+   - Select your preferred language from the drop-down list.
+   > [!NOTE]
+   > At any point, agents can only either set the org language or select a language from the list.
+   
+4. Select **Save**.
+   When you create a new knowledge article, the default language you selected is used.
+5. If you need to change the language for a specific article only, select the **Summary** tab, and then select your preferred language in the **Language** field.
+6. Select **Save**.
+
+The changes you've made will affect the agent experience. When agents go to create new articles, the settings they made will be reflected. 
 
 ## Create knowledge articles using templates
 

@@ -4,7 +4,7 @@ description: "Learn how to define service-level agreements in Dynamics 365 Custo
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -102,7 +102,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 7. Select **Activate**. The SLA KPI is saved and activated.
 
-## Create an SLA in Customer Service Hub<a name="create-slas"></a>
+## Create SLAs in Customer Service Hub<a name="create-slas"></a>
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
 
@@ -128,7 +128,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 ### Create an SLA item
 
 1. In **Customer Service Hub** > **Service Management**, select the SLA for which you want to add an SLA item.
- 
+
 2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
 3. On the **General** tab, enter the following details.
@@ -140,17 +140,20 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
   
 4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
-6. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
-7. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+  > [!IMPORTANT]
+  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message will be displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
+
+6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
+7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
 
-8. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
   > [!NOTE]
-  >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
+  > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
 
 8. Select **Save**.
 
@@ -169,22 +172,36 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
      > [!NOTE]
      > We recommend that you don't edit the predefined flow, which can cause breaks in the flow, and the SLA might not work as defined.
 
-   c. Select **Switch**. The following condition steps are displayed:
+   c. Select **Switch**. The following condition steps are displayed for each of which you can configure a required action:
 
      - **Is Nearing Non-Compliance**: Will run when the warning time is reached for the SLA.
      - **Is Succeeded**: Will run when the SLA succeeds.
      - **Is Non-compliant**: Will run when the SLA fails.
-      ![SLA flow in Power Automate](media/sla-default-flow.png "SLA fLow in Power Automate")
 
     d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears, in which you can configure the action that must be performed when the warning time has been reached for the SLA.
 
-      i. Search for an action to add or go to the existing entities, such as **Mail**.
+    e. In **Choose an operation**, search for an action, such as **Perform an unbound action**, and select it.
 
-      ii. Select **Send an email notification**. Update the options to define the information in the mail.
+    f. In **Action Name**, select **msdyn_SendEmailFromTemplate**, and configure the following options that are displayed for the action:
+      - **From**
+      - **To Item**
+      - **Cc Item**
+      - **Regarding**
+      - **Template**
 
-    e. Configure the actions for **Is Succeeded** and **Is Non-compliant**, as required.
+      > [!NOTE]
+      > To obtain the value for the **Template** field, see [Open Data Protocol](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata).
 
-    f. Save and exit Power Automate.
+    g. Repeat the steps to configure the actions for **Is Succeeded** and **Is Non-compliant**.
+
+      A sample screenshot of the configured action is as follows.
+
+      ![Configured action in Power Automate](media/sla-default-flow.png "Configured action in Power Automate")
+
+    h. Save and exit Power Automate.
+
+    > [!NOTE]
+    > More information: [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
 
 4. Select **Save & Close** on the SLA item dialog box.
 
@@ -208,7 +225,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Service Management**. 
+2. Go to **Settings** > **Service Management**.
 
 3. Go to **Service Level Agreements**.  
 

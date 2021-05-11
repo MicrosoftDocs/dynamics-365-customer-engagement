@@ -18,7 +18,7 @@ search.app:
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Use IE Process to host web applications
+# Use IE Process to host web applications (Deprecated)
 
 > [!Note]
 >

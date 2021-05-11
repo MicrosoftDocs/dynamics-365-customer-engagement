@@ -1,7 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 01/24/2020
+ms.date: 04/19/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -42,7 +42,7 @@ To purchase and assign a free Marketing user license:
 1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com) using an admin account that has permissions to purchase services and assign licenses.
 
 1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**.
-1. On the **Purchase services** page, type "Marketing" into the serch field near the top of the page and then press Enter on your keyboard.
+1. On the **Purchase services** page, type "Marketing" into the search field near the top of the page and then press Enter on your keyboard.
 
 1. Select the **Dynamics 365 Marketing User License** tile, which shows a price of **Free**.
 
@@ -182,14 +182,9 @@ The tables in this section summarize the purpose of each role added by Dynamics 
 
 ### Surveys security roles
 
-The surveys package adds the following security roles:
+The surveys package adds the following security role:
 
-- Survey Administrator
-- Survey Designer
-- Survey Feedback Publisher
-- Survey Service
-- Survey User
-- Customer Voice app access role
+- Project Owner
 
 ## Don't modify or remove the Marketing service user
 

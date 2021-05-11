@@ -858,7 +858,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Omnichannel – Facebook Solution
 
-See msdyn_ocfbpage Entity [msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate](msdyn_ocfbpage.md#BKMK_msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate) One-To-Many relationship.
+See msdyn_ocfbpage Entity [msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate](msdyn_ocfbpage.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid"></a> msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid
 

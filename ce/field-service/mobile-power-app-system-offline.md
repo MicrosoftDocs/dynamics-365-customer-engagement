@@ -29,7 +29,7 @@ Offline configuration is achieved by:
 1. Setting up an offline profile (one exists by default).
 2. Adding users to the offline profile.
 3. Publishing the offline profile.
-4. Adding the offline profile to the Field Service Mobile model-driven app. 
+4. Adding the offline profile to the Field Service mobile model-driven app. 
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
@@ -37,7 +37,7 @@ Offline configuration is achieved by:
 > [!Note]
 > When the technician has internet connectivity, data on the device will automatically be refreshed at a minimum interval of five minutes. For more information, see [sync filters](#sync-intervals) in this article.
 
-For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
+For more information on offline profiles, see the article on [setting up mobile offline synchronization](/dynamics365/mobile-app/preview-setup-mobile-offline).
 
 
 For a guided walkthrough, check out the following video.
@@ -47,9 +47,6 @@ For a guided walkthrough, check out the following video.
 ## Set up an offline profile
 
 Go to the Power Platform admin center at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/), and find and select your environment.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center showing environments.](./media/offline-2020-ppac.png)
 
 Select **Settings** at the top.
 
@@ -84,7 +81,7 @@ Within your offline profile you can:
 
 Open the **Field Service Mobile - Offline Profile**.  
 
-Add users or [teams](https://docs.microsoft.com/power-platform/admin/manage-group-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team, while individual users are displayed directly in the offline profile. Organizations with many users should leverage teams to help ease maintenance of user access.
+Add users or [teams](/power-platform/admin/manage-group-teams) to the offline profile in the right **People with offline access** panel. When a team is added to the profile, the users within that team are displayed under the team, while individual users are displayed directly in the offline profile. Organizations with many users should leverage teams to help ease maintenance of user access.
 \
 A user or team can only be added to one offline profile at a time. If a user or team is added to another offline profile, you will see a warning stating that the user is already part of a different offline profile. If you continue with the change, the user or team will be moved to the new profile. 
 
@@ -114,7 +111,7 @@ For example, the **Bookable Resource Booking** (in other words, the booking) ent
 > The default offline profile is updated periodically as part of Field Service updates. If you edited the offline sync filter of an entity, the entity's sync filter will not receive updates; other entity sync filters that have not been edited will receive updates in an unpublished state. Administrators can review the updates and decide if they want to take the update or continue with the previous sync filters. This only applies to sync filters and relationships will receive updates while keeping your specific changes.
 
 
-For more information on offline profiles, see the article on [setting up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/preview-setup-mobile-offline).
+For more information on offline profiles, see the article on [setting up mobile offline synchronization](/dynamics365/mobile-app/preview-setup-mobile-offline).
 
 ## Sync intervals
 
@@ -186,13 +183,13 @@ While we recommend making changes directly to the default offline profile to rec
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: ``` Xrm.WebApi.online```.
-- [More platform supported capabilities and limitations for offline](https://docs.microsoft.com/dynamics365/mobile-app/mobile-offline-capabilities)
+- [More platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 
 
 ### See also
 
-- [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
-- [Enable entities for mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
