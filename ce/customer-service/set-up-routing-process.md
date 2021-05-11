@@ -1,5 +1,5 @@
 ---
-title: "Set up unified routing | MicrosoftDocs"
+title: "How unified routing and assignment works in Customer Service | MicrosoftDocs"
 description: "How to set up unified routing"
 author: neeranelli
 ms.author: nenellim
@@ -9,12 +9,13 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Set up unified routing
+# How unified routing and assignment works
 
 ## Prerequisites
 
 Unified routing can be configured in the Omnichannel admin center or Customer Service Hub app only.
 
+- The latest release of Customer Service and Omnichannel for Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/)
 - To configure record routing, set the entity routing toggle to yes. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing)
 - To use skill-based routing, skills must be configured. More information: [Set up skills for routing](overview-skill-work-distribution.md)
 - To use machine learning work classification, the skill model must be configured and published. More information: [Set up intelligent skill finder model](intelligent-skill-model.md)
