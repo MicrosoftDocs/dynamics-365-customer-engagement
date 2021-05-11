@@ -23,7 +23,7 @@ search.audienceType:
 
 You can access **Form properties** by opening solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select **Web Resource** to view web resource properties.
 
-![web-resource-properties](media/web-resource-properties.png)
+![Add a web resource dialog box](media/web-resource-properties.png)
 
  For step-by-step instructions, see [Create and edit web resources](create-edit-web-resources.md).  
 
