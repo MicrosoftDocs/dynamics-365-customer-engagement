@@ -1,6 +1,7 @@
 ---
 title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to import accounts, leads, or other data.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -81,15 +82,15 @@ Whether your data is stored in spreadsheets, databases, or other systems, you'll
   
        **Example of field delimiter:**  
 
-           Company Name,Address,City,State  
+          Company Name,Address,City,State  
         
        The default delimiter for data is double quotation marks (").The other supported delimiters for data are single quotation mark ('), and **None**.  
     
        **Examples of data delimiter:**  
         
-               Company Name,Address  
+          Company Name,Address  
         
-               "Fabrikam, Inc.","150 A Street"  
+          "Fabrikam, Inc.","150 A Street"  
         
        > [!NOTE]
        >  Because an XML file does not use delimiters, if you upload a file that is in XML Spreadsheet 2003 format, or a .zip file that contains XML Spreadsheet 2003 files, the delimiter information won't be available.  
@@ -207,15 +208,15 @@ Whether your data is stored in spreadsheets, databases, or other systems, you'll
   
        **Example of field delimiter:**  
 
-           Company Name,Address,City,State  
+          Company Name,Address,City,State  
         
        The default delimiter for data is double quotation marks (").The other supported delimiters for data are single quotation mark ('), and **None**.  
     
        **Examples of data delimiter:**  
         
-               Company Name,Address  
+          Company Name,Address  
         
-               "Fabrikam, Inc.","150 A Street"  
+          "Fabrikam, Inc.","150 A Street"  
         
        > [!NOTE]
        >  Because an XML file does not use delimiters, if you upload a file that is in XML Spreadsheet 2003 format, or a .zip file that contains XML Spreadsheet 2003 files, the delimiter information won't be available.  
