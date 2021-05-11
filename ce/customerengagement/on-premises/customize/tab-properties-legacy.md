@@ -26,7 +26,7 @@ search.audienceType:
 ## Tab properties
 You can access **Tab properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the tabs on the form canvas to view tab properties.
 
-![tab-properties](media/tab-properties.png)
+![Tab properties dialog box](media/tab-properties.png)
 
  The following table shows properties that may be set for tabs on the form:
 

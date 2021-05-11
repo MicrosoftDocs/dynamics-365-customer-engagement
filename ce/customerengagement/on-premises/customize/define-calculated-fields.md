@@ -121,21 +121,21 @@ Calculated fields let you automate manual calculations used in your business pro
   
  **Create the calculated field called “Follow-up Date”:**  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-1.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Create the calculated field called follow up date](../customize/media/calc-field-follow-update-1.PNG "Create the calculated field called follow up date")  
   
  **Set the two conditions on the originating lead:**  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-2.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Set the first condition for the calculated field](../customize/media/calc-field-follow-update-2.PNG "Set the first condition for the calculated field")  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-3.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Set the second condition for the calculated field](../customize/media/calc-field-follow-update-3.PNG "Set the second condition for the calculated field")  
   
  **Provide the formula to follow up in one week:**  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-4.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Provide the formula for the calculated field](../customize/media/calc-field-follow-update-4.PNG "Provide the formula for the calculated field")  
   
  **Provide the formula to follow up in one month:**  
   
- ![Set Follow up date in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-5.PNG "Set Follow up date in Dynamics 365 for Customer Engagement")  
+ ![Provide the second formula](../customize/media/calc-field-follow-update-5.PNG "Provide the second formula")  
   
  **Altogether:**  
   
