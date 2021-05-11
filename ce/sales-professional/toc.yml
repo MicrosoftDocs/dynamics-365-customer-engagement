@@ -1,0 +1,194 @@
+- name: Dynamics 365 Sales Professional
+  items: 
+  - name: Help resources for Dynamics 365 Sales Professional
+    href: help-hub.md
+  - name: What's new
+    href: whats-new.md
+  - name: Sign up for free trial of Dynamics 365 Sales Professional
+    href: try-dynamics365-sales-professional.md
+  - name: Get started
+    items: 
+    - name: Overview
+      href: sales-professional-overview.md
+    - name: Get started with the basics
+      href: learn-basics-sales-professional.md
+    - name: Use lookup fields on forms
+      href: /powerapps/user/lookup-field
+    - name: Work with views (lists)
+      href: work-with-views.md
+    - name: Manage your customers
+      href: manage-accounts-contacts.md
+    - name: Manage tasks, appointments, email, or phone calls
+      href: manage-activities.md
+    - name: Send email using the enhanced email experience
+      href: enhanced-email-sp.md
+    - name: Work with activities in the Kanban view
+      href: activity-kanban-view-sp.md
+    - name: Learning Catalog
+      items: 
+      - name: Learning Catalog
+        href: learning-catalog.md
+      - name: Business Decision Maker
+        href: learning-bdm.md
+      - name: Business User
+        href: learning-bus-user.md
+      - name: Implementation Project Manager
+        href: learning-project-manager.md
+      - name: Administrator
+        href: learning-administrator.md
+      - name: Developer
+        href: learning-developer.md
+      - name: Functional Consultant
+        href: learning-functional-consultant.md
+      - name: Partner Sales and Marketing
+        href: learning-sales.md
+  - name: User guide
+    items: 
+    - name: Help resources for salespeople
+      href: user-guide.md
+    - name: Develop sales from lead to cash
+      items: 
+      - name: Develop sales from lead to cash
+        href: develop-sales-lead-to-cash-sales-professional.md
+      - name: Create and manage leads
+        href: manage-leads-sales-professional.md
+      - name: Create or edit opportunities
+        href: manage-opportunities-sales-professional.md
+      - name: Add products to an opportunity
+        href: add-products-opportunity-sp.md
+      - name: Add products to an opportunity by using the enhanced experience
+        href: add-products-enhanced-experience-sp.md
+      - name: Work with opportunities in the Kanban view
+        href: opportunity-kanban-view-sp.md
+    - name: Understand sales transactions
+      items: 
+      - name: Understand sales transactions
+        href: understanding-sales-transactions-sales-professional.md
+      - name: Create and manage quotes
+        href: create-quotes-sales-professional.md
+      - name: Create and manage orders
+        href: create-orders-sp.md
+      - name: Create and manage invoices
+        href: create-invoices.md
+      - name: Add products to a quote, order, or invoice
+        href: add-product-quote-order-invoice-sp.md
+    - name: Set up a product catalog
+      items: 
+      - name: Create products
+        href: create-products.md
+      - name: Create price lists
+        href: create-price-list.md
+      - name: Create a unit group and add units
+        href: create-unit-group-add-units.md
+    - name: Improve productivity
+      items: 
+      - name: Gain insights with dashboards
+        href: gain-insights-dashboards-sales-professional.md
+      - name: Assign records to a user or team
+        href: assign-records-sales-professional.md
+      - name: Manage your SharePoint documents and document locations
+        href: manage-sharepoint-documents-sales-professional.md
+      - name: Use document templates to create standardized documents
+        href: use-document-templates-sales-professional.md
+      - name: Create PDF documents from sales records
+        href: create-quote-pdf-sales-professional.md
+    - name: Get started with in-app marketing
+      items: 
+      - name: Overview
+        href: get-started-app-marketing-sp.md
+      - name: Create a marketing list
+        href: create-marketing-list-using-app-marketing-sp.md
+      - name: Create a quick campaign
+        href: create-quick-campaign-using-app-marketing-sp.md
+      - name: Add assets to a campaign
+        href: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sp.md
+      - name: Create or edit a campaign
+        href: create-edit-campaign-using-app-marketing-sp.md
+      - name: Add an activity to a campaign
+        href: add-activity-campaign-using-app-marketing-sp.md
+      - name: Track a marketing campaign response
+        href: track-marketing-campaign-response-using-app-marketing-sp.md
+    - name: Use Sales Professional on the mobile app
+      href: use-sales-professional-on-dynamics-365-mobile.md
+  - name: Troubleshooting
+    items: 
+    - name: Dynamics 365 Sales Professional troubleshooting guide
+      href: troubleshooting-sp.md
+  - name: Administrator and sales manager guide
+    items: 
+    - name: Help resources for admins and sales managers
+      href: admin-guide.md
+    - name: Provision your Dynamics 365 Sales Professional environment
+      href: provision-sales-professional-instance.md
+    - name: Overview of admin settings
+      href: admin-settings-overview.md
+    - name: Standard settings
+      items: 
+      - name: Configure Dynamics 365 Sales Professional to integrate with SharePoint
+        href: connect-with-sharepoint.md
+      - name: Import data into Dynamics 365 Sales Professional
+        href: import-data.md
+      - name: Add or remove sample data
+        href: install-sample-data.md
+      - name: Add or manage users
+        href: manage-users.md
+      - name: Set up email by integrating with Exchange
+        href: configure-email.md
+    - name: Advanced settings
+      items: 
+      - name: Set up branding and theming
+        href: change-color-scheme-logo.md
+      - name: Add or manage teams
+        href: manage-teams.md
+      - name: Create and manage Excel templates
+        href: manage-excel-templates.md
+      - name: Create and manage Word templates
+        href: manage-word-templates.md
+      - name: Enable automatic generation of quotes and invoices
+        href: enable-automatic-generation-quotes-invoices.md
+      - name: Enable creation of orders from quotes
+        href: enable-creation-of-orders-from-quotes.md
+      - name: Export data or template
+        href: export-data.md
+      - name: Enable or disable PDF generation from sales records
+        href: enable-pdf-generation-quote-sales-professional.md
+    - name: Other settings
+      items: 
+      - name: Enable customization of the Opportunity Close form
+        href: enable-opportunity-close-customization-sales-professional.md
+      - name: Make price list optional
+        href: make-price-list-optional-sp.md
+      - name: Define lead qualification experience
+        href: define-lead-qualification-experience-sp.md
+      - name: Set up enhanced email
+        href: set-up-enhanced-email-sp.md
+      - name: Add the Kanban control to Opportunity or Activity entities
+        href: add-kanban-control-sp.md
+      - name: Enable the enhanced experience of adding products
+        href: enable-enhanced-add-product-experience-sp.md
+  - name: Customizer guide
+    items: 
+    - name: Customize forms
+      href: customize-forms.md
+    - name: Customize views
+      href: customize-views.md
+    - name: Customize business process flows
+      href: customize-business-process-flows.md
+    - name: Customize the Opportunity Close form
+      href: customize-opportunity-close-experience-sales-professional.md
+    - name: Customize the Dynamics 365 Sales Professional app
+      href: manage-app.md
+  - name: Integrations
+    items: 
+    - name: Integrate LinkedIn Sales Navigator solutions
+      href: ../linkedin/integrate-sales-navigator.md
+    - name: Microsoft Teams integration
+      href: ../teams-integration/teams-integration.md
+    - name: Integrate sample softphone with Dynamics 365 Sales
+      href: sample-softphone-integration-sp.md
+- name: Resources for other Sales apps
+  items: 
+  - name: Help resources for Dynamics 365 Sales (Enterprise)
+    href: ../sales-enterprise/help-hub.md
+  - name: Sales Team Member app for users with Team Member license
+    href: ../sales-enterprise/sales-team-member.md
