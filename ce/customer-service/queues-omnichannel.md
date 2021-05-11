@@ -65,45 +65,10 @@ You can manage the queues on the **Queues** page.
 
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog box. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
 
-## Create a queue in Omnichannel Administration
-
-Out of the box, the following default queues are available in Omnichannel for Customer Service:
-
-- **Default entity queue**: The queue that is available for routing entity records.
-- **Default messaging queue**: The queue that is available for routing all messaging conversations pertaining to the live chat, SMS, and social channels.
-
-The default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues. Therefore, the membership of these default queues also can't be changed.
-
-> [!NOTE]
-> When no custom queues or routing rules are defined, all conversations are directed to one of the out-of-the-box default queues based on the work item type.
-
-Perform the following steps to create a queue in Omnichannel for Customer Service:
-
-1. In the Omnichannel Administration site map, go to **Queues & Users** > **Queues**. The **Omnichannel queues** view is displayed.
-2. On the command bar, select **New**.
-3. On the **Summary** tab, in the **General Information** section, provide the following information:
-
-    - **Name**: Enter a name for the queue.
-    - **Priority**: Assign a priority to define how quickly a conversation should be picked from the queue.
-    - **Queue type**: Select either **Messaging** or **Entity**. You can't edit the queue type after you save the queue.
-    - **Owner**: Search and select an owner for the queue if you do not want to use the default owner.
-    - **Operating Hours**: Search and select an operating hour schedule that you want to specify for the queue.
-
-4. Select **Save**. The **Users (Agents)** section is displayed.
-
-   > [!div class=mx-imgBorder]
-   > ![Omnichannel queue](media/oc-create-queue.png "Omnichannel queue")
-
-5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
-6. On the **Lookup Records** flyout menu, select the agents to add, and then select **Add**.
-
-    > [!TIP]
-    > To select users from other views, you can change the view by selecting **Change View**.
-
 ### See also
 
-[Create workstreams](create-workstreams.md)  
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
+[Create workstreams for unified routing](create-workstreams.md)  
+[Create and manage assignment methods](assignment-methods.md#create-an-assignment-method)  
 [Create and manage operating hours](create-operating-hours.md)  
 
 

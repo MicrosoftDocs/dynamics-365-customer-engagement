@@ -1,5 +1,5 @@
 ---
-title: "Create work classification rulesets | MicrosoftDocs"
+title: "Configure work classification rulesets | MicrosoftDocs"
 description: "How to create work classification rulesets"
 author: neeranelli
 ms.author: nenellim
@@ -8,16 +8,16 @@ ms.date: 04/09/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
-# Configure work classification rules
+# Configure work classification rulesets
 
-Work classification lets you define classification rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
+In unified routing, work classification lets you define classification rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
 With the CSR Manager or Omnichannel administrator role, perform the tasks listed in this section to configure the work classification rules for the workstream that you created. You will perform these tasks in the Omnichannel admin center or Customer Service Hub app.
 
 > [!IMPORTANT]
 > You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
 
-## Create manual work classification rulesets
+## Create work classification rulesets
 
 The rules in a ruleset will be evaluated when a work item enters the queue.
 
@@ -47,7 +47,7 @@ Follow these steps to create a manual skill classification ruleset:
 6. In the **Output** area, select the attribute whose value will be set if the conditions are met.
 7. If you want to manually set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
-## Create machine learning-based skill classification ruleset
+## Create machine learning-based skill classification rulesets
 
 To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](intelligent-skill-model.md)
 
@@ -67,7 +67,7 @@ Do the following to configure a machine learning-based ruleset:
 
     ![Machine learning rule type](media/ur-ml-rule-type.png "Machine learning rule type")
 
-## Configure route to queues ruleset and rules
+## Configure route to queues rulesets and rules
 
 1. In Omnichannel admin center or Customer Service Hub, select a workstream, and in the **Routing rules** section, select **Create ruleset** beside **Route to queues**, and then select **Create Rule** in **Decision list**.
 2. In the **Create route to queue rule** dialog box, enter a name in **Rule Name**.

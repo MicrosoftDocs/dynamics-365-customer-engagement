@@ -103,75 +103,79 @@
     - name: Role persona mapping
       href: role-persona-mapping.md
   - name: Unified routing and assignment
-    items: 
+    items:
     - name: Overview of unified routing
-      href: overview-unified-routing.md
-    - name: How routing and assignment works
-      href: set-up-routing-process.md
-    - name: Routing and assignment rules
-      href: routing-workstream-queues.md
-    - name: Administrator experience
-      items: 
-      - name: Create and manage queues for cases
-        href: set-up-queues-manage-activities-cases.md
-      - name: Automatically route cases
-        href: create-rules-automatically-route-cases.md
-      - name: Create and manage queues for conversations
-        href: queues-omnichannel.md
-      - name: Create workstreams
+      items:
+      - name: Overview of unified routing
+        href: overview-unified-routing.md
+      - name: How routing and assignment works
+        href: set-up-routing-process.md
+      - name: Routing and assignment rules
+        href: routing-workstream-queues.md
+    - name: Create and manage workstreams
+      items:
+      - name: Create and manage workstreams for unified routing
         href: create-workstreams.md
-      - name: Create work streams for records in Omnichannel Administration
-        href: set-up-entity-workstream.md
-      - name: Create multiple workstreams for records
-        href: multiple-ws-entity-record-routing.md
-      - name: Set up routing and assignment rules in Omnichannel Administration
-        href: routing-rules.md
+      - name: Create and manage workstreams in Omnichannel Administration
+        href: create-workstreams-oca.md
       - name: Associate templates with workstreams
         href: ../app-profile-manager/associate-templates.md
-      - name: Set up record routing
-        items: 
-        - name: Set up record routing
-          href: set-up-record-routing.md
-        - name: Enable records for routing
-          href: entity-channel.md
-        - name: Set up basic routing for records
-          href: routing-trigger.md
-      - name: Create queues
-        items: 
-        - name: Create queues
-          href: queues-omnichannel.md
-        - name: Set up assignment methods for queues
-          href: assignment-methods.md
+    - name: Configure routing rules
+      items:
       - name: Configure work classification rulesets
         href: configure-work-classification.md
-      - name: Set up skill-identification rules
-        items: 
-        - name: Overview of skill-based routing
-          href: overview-skill-work-distribution.md
-        - name: Enable agents to attach skills, create rating models
-          href: enable-skill-routing-create-rating-model.md
-        - name: Set up skill finder model
-          href: intelligent-skill-model.md
-        - name: Set up skills, assign agents
-          href: setup-skills-assign-agents.md
-        - name: Attach skills to conversations in Omnichannel Administration
-          href: attach-skills.md
-        - name: Add skill control for routed records
-          href: add-skill-control.md
+      - name: Set up routing and assignment rules in Omnichannel Administration
+        href: routing-rules.md  
+    - name: Create and manage queues
+      items:
+      - name: Create and manage queues for unified routing
+        href: queues-omnichannel.md
+      - name: Create queues in Omnichannel Administration
+        href: Create-queues-oca.md  
+      - name: Create and manage basic queues
+        href: set-up-queues-manage-activities-cases.md
+    - name: Configure assignment methods
+      items:
+      - name: Configure assignment methods for queues
+        href: assignment-methods.md     
+    - name: Set up record routing
+      items: 
+      - name: Set up unified routing for records
+        href: set-up-record-routing.md
+      - name: Set up record routing in Omnichannel Administration
+        href: set-up-entity-workstream.md
+      - name: Create multiple workstreams for records in Omnichannel Administration
+        href: multiple-ws-entity-record-routing.md  
+      - name: Automatically route cases
+        href: create-rules-automatically-route-cases.md
+      - name: Enable records for routing
+        href: entity-channel.md
+      - name: Set up basic routing for records
+        href: routing-trigger.md
+    - name: Set up skill-based routing
+      items: 
+      - name: Overview of skill-based routing
+        href: overview-skill-work-distribution.md
+      - name: Enable agents to attach skills, create rating models
+        href: enable-skill-routing-create-rating-model.md
+      - name: Set up skill finder model
+        href: intelligent-skill-model.md
+      - name: Set up skills, assign agents
+        href: setup-skills-assign-agents.md
+      - name: Attach skills to conversations in Omnichannel Administration
+        href: attach-skills.md
+      - name: Add skill control for routed records
+        href: add-skill-control.md
+    - name: Configure basic routing
+      items:
       - name: Create and manage basic queues for cases
         href: set-up-queues-manage-activities-cases.md
       - name: Automatically route cases using basic rule sets
         href: create-rules-automatically-route-cases.md
       - name: Set up routing for conversations in Omnichannel for Customer Service
         href: understand-omnichannel-customer-service-hub.md
-      - name: Diagnostics for unified routing
-        href: unified-routing-diagnostics.md
-    - name: Agent experience
-      items: 
-      - name: Manage case queues and route cases
-        href: customer-service-hub-user-guide-case-queues-and-routing.md
-      - name: Work with queues
-        href: work-with-queues.md
+    - name: Diagnostics for unified routing
+      href: unified-routing-diagnostics.md
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
@@ -194,6 +198,10 @@
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
+      - name: Manage case queues and route cases
+        href: customer-service-hub-user-guide-case-queues-and-routing.md
+      - name: Work with queues
+        href: work-with-queues.md        
       - name: View, block, or deactivate a social profile
         href: view-block-deactivate-social-profile.md
       - name: Convert a case to a knowledge article
