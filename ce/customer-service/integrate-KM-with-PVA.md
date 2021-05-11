@@ -4,25 +4,23 @@ description: "Learn about the integration of knowledge management with Power Vir
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 05/13/2021
+ms.date: 05/11/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
 # Integrate Knowledge Management with Power Virtual Agents bot
 
-Integrate a Power Virtual Agents bot to assist in Knowledge management by performing the following steps.
+Integrate a Power Virtual Agents bot to assist in Knowledge Management by performing the following steps.
 
 1. Create and publish knowledge articles to Power Apps portal
 2. Create a topic for Power Virtual Agents bot and add an action
 3. Use Power Automate template to add the solution to Power Virtual Agents bot
 4. Test the flow to publish and share the Power Virtual Agents bot
 
+## Create and publish knowledge articles
 
-
-## Create and publish knowledge articles to Power Apps portal
-
-Set up your Power Apps portal before you begin integrating Knowledge Management with Power Virtual Agents bot. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-knowledge-search.md).
+Set up your Power Apps portal before integrate Knowledge Management with Power Virtual Agents bot. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-knowledge-search.md).
 
 You can create and manage knowledge articles by marking the **Internal** field to **No**. For more information on managing knowledge articles, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
@@ -43,7 +41,7 @@ You can select **Topics** to see the knowledge articles and topics that are prov
     > [!div class="mx-imgBorder"]
     > ![Author a fallback topic](media/escalate-fallback-KM-PVA.png "Author a fallback topic")
 
-7. Select the connector flowing to the message box and select **Call an action** > **Create a flow**.
+7. Select the connector flowing to the message box and select **Call an action** and then **Create a flow**.
 
     > [!div class="mx-imgBorder"]
     > ![Create a flow to call an action](media/create-a-flow-KM-PVA.png "Create a flow to call an action")
@@ -79,7 +77,7 @@ You can use the Power Automate template that you created to connect to the knowl
 11. In the solution, select **Add existing**, and then select **Cloud Flow** from the list.
 12. Find your flow from the **Outside solutions** list, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent flow.
 
-### Add your solution's flow to Power Virtual Agents bot
+### Add the solution's flow to Power Virtual Agents bot
 
 1. Open the browser with the authoring canvas.
 2. To insert a new step in the flow, above the **Message** action box, select the connector and then select **Call an action**.
@@ -91,7 +89,7 @@ You can use the Power Automate template that you created to connect to the knowl
 
 5. To return the knowledge article search results to the bot, there are a few steps that you can perform.
     
-    - To correctly set the output variable to the **Generate answer from Dataverse knowledge articles for Power Virtual Agent** action, select **UnrecognizedTriggerPhrase**, from the **Message** action box. Then select the dropdown next to {x} to insert a variable, then select  **textResult** which has the article result in text format which will render the whole article content as text in the message. 
+    - To correctly set the output variable to the **Generate answer from Dataverse knowledge articles for Power Virtual Agent** action, select **UnrecognizedTriggerPhrase**, from the **Message** action box. Select the drop-down box next to {x} to insert a variable. Select  **textResult** which has the article result in text format. This will render the whole article content as text in the message. 
     
     - Or use thumbnail cards to show the article. More information: [Respond with cards](/composer/how-to-send-cards#thumbnailcard).
     
