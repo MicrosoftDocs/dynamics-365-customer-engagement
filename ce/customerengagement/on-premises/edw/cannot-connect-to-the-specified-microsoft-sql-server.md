@@ -25,7 +25,7 @@ ms.author: matp
   
  ## Solution
   
- For information about how to troubleshoot this problem, see [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-2017).
+ For information about how to troubleshoot this problem, see [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-2017&preserve-view=true).
 
 
 
