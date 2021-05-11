@@ -15,20 +15,19 @@ To integrate a Power Virtual Agents bot to assist in Knowledge management, you n
 
 1. Create and publish knowledge articles to Power Apps portal
 2. Create a Power Virtual Agents bot
-3. Create a system fall back topic
+3. Create a system fallback topic
 4. Use Knowledge search Power Automate template
-5. Create a Power Automate solution
-6. Add a Power Automate flow to your solution
-7. Add your solution's flow to Power Virtual Agents
-8. Test the flow
-9. Publish Power Virtual Agents bot
-10. Share the Power Virtual Agents bot
+5. Add a Power Automate flow to your solution
+6. Add your solution's flow to Power Virtual Agents
+7. Test the flow
+8. Publish Power Virtual Agents bot
+9. Share the Power Virtual Agents bot
 
 
 
 ## Create and publish knowledge articles to Power Apps portal
 
-Set up your Power Apps portal before you begin integrating Knowledge Management with Power Virtual Agent bots. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-konwledge-search.md).
+Set up your Power Apps portal before you begin integrating Knowledge Management with Power Virtual Agent bots. More information: [Configure Knowledge Management](set-up-knowledge-management-embedded-knowledge-search.md).
 
 You can create and manage knowledge articles by marking the **Internal** field to **No**. For more information on managing knowledge articles, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
@@ -62,7 +61,7 @@ Use the Power Virtual Agents authoring canvas to connect the newly created fallb
 2. Select **+** connector flowing to the message box and select **Call an action** > **Create a flow**.
 
 > [!div class="mx-imgBorder"]
-> ![Create a flow](media/create-a-flow-KM-PVA.png "Create a flow")
+> ![Create a flow to call an action](media/create-a-flow-KM-PVA.png "Create a flow to call an action")
 
 This process takes you to the Power Apps portal and opens a new template for authoring.
 
@@ -88,7 +87,7 @@ For the agent to find the and connect to the flow, it must be included within th
 
 1. In the Power Automate portal, select **Solutions.**
 2. Select **+New solution**.
-3. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: jondoe-power-virtual-agent-knowledgesearch-fallback.
+3. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: *jondoe-power-virtual-agent-knowledgesearch-fallback*.
 4. Select your publisher from the list of choices.
 5. Accept the default values for name and version.
 6. Select **Create** to finish the process.
@@ -115,7 +114,7 @@ For the agent to find the and connect to the flow, it must be included within th
 5. To return the knowledge article search results to the bot, there are a few options.
     
     - To correctly set the output variable to the **Generate answer from Dataverse knowledge articles for Power Virtual Agent** action, in the **Message** action, select **UnrecognizedTriggerPhrase**, then select the icon to insert a variable, {x}, then select  **textResult** which has the article result in text format which will render the whole article content in text in the message. 
-    - Or use thumbnail cards to show the article. More information: [Respond with cards](composer/how-to-send-cards#thumbnailcard).
+    - Or use thumbnail cards to show the article. More information: [Respond with cards](composer/how-to-send-cards).
     - Or use the sample code to render in adaptive cards
     
 #kbcardjason()
