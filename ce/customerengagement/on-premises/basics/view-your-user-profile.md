@@ -1,6 +1,7 @@
 ---
 title: "View your user profile (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: View your profile.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -26,7 +27,7 @@ search.audienceType:
 
 Your user profile displays useful information about you to your entire organization; for example, your contact information, your organization, and your security role. Depending on your security role, you may be able to make changes to your user profile.  
   
-1. On the upper-right corner of the screen, select the **Settings** button ![user-profile-settings-button](media/user-profile-settings-button.gif) > **Options**.  
+1. On the upper-right corner of the screen, select the **Settings** button ![Setting button](media/user-profile-settings-button.gif) > **Options**.  
  
 2.  Scroll down to the very bottom of the **Set Personal Options** dialog box, and then choose **View your user information**.  
   
@@ -51,7 +52,7 @@ Your user profile displays useful information about you to your entire organizat
 
 Your user profile displays useful information about you to your entire organization; for example, your contact information, your organization, and your security role. Depending on your security role, you may be able to make changes to your user profile.  
   
-1. On the upper-right corner of the screen, select the **Settings** button ![user-profile-settings-button](media/user-profile-settings-button.gif) > **Options**.  
+1. On the upper-right corner of the screen, select the **Settings** button ![Setting button](media/user-profile-settings-button.gif) > **Options**.  
  
 2.  Scroll down to the very bottom of the **Set Personal Options** dialog box, and then choose **View your user information**.  
   
