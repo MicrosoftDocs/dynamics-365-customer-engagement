@@ -1,6 +1,6 @@
 ---
 title: "Create queues in Omnichannel Administration | MicrosoftDocs"
-description: "See how you can create and manage queues in Omnichannel for Customer Service"
+description: "See how you can create and manage queues in Omnichannel Administration"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
