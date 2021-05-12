@@ -42,18 +42,18 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
     > [!div class="mx-imgBorder"]
     > ![Discount list form](media/discount-list-form.png "Discount list form")
  
-6.	To add discount details to the list, on select the **Related** tab, and then select **Discounts**.
+6.	To add discount details to the list, select the **Related** tab, and then select **Discounts**.
 
     > [!div class="mx-imgBorder"]
     > ![Discount tab on the Discount List form](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
  
-7.	On the **Discounts** tab, select **Add New Discount**.
+7.	On the **Discounts** tab, select **New Discount**.
 
 8.	In the **New Discount** form, fill in the following information, and select **Save & Close**:
 
-    a.	**Begin quantity**. Enter the minimum quantity that if a customer purchase, they will be eligible for a discount.
+    a.	**Begin quantity**. Enter the minimum quantity to purchase to be eligible for the discount.  
 
-    b.	**End quantity**. Enter the maximum quantity that if a customer purchase, they will be eligible for a discount.
+    b.	**End quantity**. Enter the maximum quantity for which the discount is applicable.  
 
     c.	**Percentage**. Enter the percentage of discount the customer will receive.
 
