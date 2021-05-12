@@ -1,6 +1,6 @@
 ---
 title: "WinDDA in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the Windows data-driven adapter (WinDDA) and how to use it to interact iwth Windows-based applications. "
+description: "Learn about the Windows data-driven adapter (WinDDA) and how to use it to interact with Windows-based applications. "
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
