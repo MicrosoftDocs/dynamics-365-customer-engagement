@@ -1,6 +1,6 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
-description: "Learn about the new features for developers and customizers in Unified Service Desk."
+description: "This topic contains information about the new Unified Service Desk features for developers and customizers."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
