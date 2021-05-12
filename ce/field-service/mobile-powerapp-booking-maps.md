@@ -3,7 +3,7 @@ title: "Booking maps in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about how to setup booking maps for frontline workers in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/01/2021
+ms.date: 05/12/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: "article"
@@ -23,7 +23,7 @@ search.app:
 Frontline workers can view their scheduled work orders on a map from the Field Service mobile app. Seeing their work on the map helps frontline workers plan their day and provides an easy way to trigger travel directions or contact the customer.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of bookings on a map in the Field Service mobile app.](./media/mobile-2020-booking-maps.png)
+> ![Device render of Field Service mobile, showing the map view with one day of the week selected.](./media/bookable-maps-pins3-wf.png)
 
 
 ## Prerequisites
