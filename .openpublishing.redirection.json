@@ -16,6 +16,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customerengagement/on-premises/basics/quick-create-enter-data-fast copy.md ",
+      "redirect_url": "quick-create-enter-data-fast",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/basics/onedrive-business-manage-private-documents.md",
+      "redirect_url": "use-onedrive-business-manage-private-documents",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/outlook-app/v8/about-this-content.md",
       "redirect_url": "/previous-versions/dynamicscrm-2016/outlook-app/v8/about-this-content",
       "redirect_document_id": false

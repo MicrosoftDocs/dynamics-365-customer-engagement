@@ -100,8 +100,7 @@ The following screenshot shows a workstream with the required intake rule and ro
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    > [!NOTE]
-   > The agent notifications that you configure for record routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
-
+   > The agent notifications that you configure for routing of records based on unified routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 ## Create record workstream in Omnichannel Administration
 
