@@ -1,7 +1,7 @@
 ---
-title: "Expand the columns that the Set Regarding lookup searches on in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
+title: "Expand the columns which the Set Regarding lookup searches on in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom:  
-description: Expand the columns that the Set Regarding lookup searches on in Dynamics 365 App for Outlook.
+description: Expand the columns which the Set Regarding lookup searches on in Dynamics 365 App for Outlook.
 ms.date: 05/12/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Expand the columns that the Set Regarding lookup searches on
+# Expand the columns which the Set Regarding lookup searches on
 
 To have the Set Regarding lookup search on custom columns in Dynamics 365 App for Outlook, that column must be added to the table’s quick find view.
 
@@ -37,7 +37,7 @@ To have the Set Regarding lookup search on custom columns in Dynamics 365 App fo
    > [!div class="mx-imgBorder"]
    > ![Edit the solution](media/edit-mailapp-solution-1.png)
    
-4. On the command bar select the **All** and then select **Table**.
+4. On the command bar, select the **All** and then select **Table**.
 
    > [!div class="mx-imgBorder"]
    > ![Select table](media/edit-table.png)
