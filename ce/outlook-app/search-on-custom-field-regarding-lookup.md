@@ -23,7 +23,37 @@ search.app:
 ---
 # Expand the fields search on in Regarding lookup 
 
-To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s quick find view.
+To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom columns, that column must be added to the table’s quick find view.
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left nav, select **Solution**.
+3. Select the solution that contains the table. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
+4. On the command bar, select **Edit**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit the solution](media/edit-mailapp-solution.png)
+   
+5. On the command bar select the **All** and then select **Table**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select table](media/edit-table.png)
+
+6. Select the **Forms** tab and then on the command bar select **Form settings**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit form settings](media/form-settings.png)
+
+6. On the left, select **Form order** and then select **Quick Create Form** from the dropdown menu. Move **App for Outlook Case Quick Create** to the top of the list. 
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit the form order](media/form-settings-1.png)
+   
+7. Select **Save and publish**.
+
+
+
+
+
 
 1. In your Dynamics 365 app, go to **Settings** > **Customizations** > **Customize the System**.
 2. Choose an entity, then choose **Views**.
