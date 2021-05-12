@@ -58,7 +58,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
     c.	**Percentage** or **Amount**. Enter the percentage or the amount of discount the customer will receive.
 
-    For example, this discount list will offer a discount of $5 whenever the customer purchases between 3 – 5 pieces of televisions.
+    For example, this discount list will offer a discount of $5 whenever the customer purchases between 2 – 5 pieces of televisions.
 
     > [!div class="mx-imgBorder"]
     > ![Discount form](media/discount-form.png "Discount form")
