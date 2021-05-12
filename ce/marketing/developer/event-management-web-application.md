@@ -128,8 +128,8 @@ To expose the new field to be visible in the API, follow the steps below:
 
 1. Open your Dynamics 365 Marketing instance.
 1. Open **Advanced Find**
-1. Select the **Website Entity Configurations** entity from the dropdown and click on **Results**
-1. Click on **New Website Entity Configuration** to create a new record.
+1. Select the **Website Table Configurations** entity from the dropdown and click on **Results**
+1. Click on **New Website Table Configuration** to create a new record.
 1. Enter the name of your choice in the **Name** field.
 1. Select the entity that you want an extra field to be visible in the **Selected Entity** field.
 1. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the API, and you can utilize it in the frontend.
