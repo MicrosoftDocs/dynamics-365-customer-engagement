@@ -22,9 +22,13 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Expand the columns search on in Regarding lookup 
+# Expand the columns that the Set Regarding lookup searches on
 
 To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom columns, that column must be added to the table’s quick find view.
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit the solution](media/set-regarding-search.png)
+
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solution**.
