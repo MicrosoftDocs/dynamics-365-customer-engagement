@@ -1,5 +1,7 @@
 ---
 title: "One or more organizations can't be upgraded | Microsoft Docs"
+description: Environment diagnostics warning that one or more organization databases can't be upgraded.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

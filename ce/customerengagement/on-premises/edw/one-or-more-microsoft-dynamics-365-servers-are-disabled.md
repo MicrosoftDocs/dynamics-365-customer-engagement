@@ -1,5 +1,7 @@
 ---
 title: "One or more Microsoft Dynamics 365 Servers are disabled | Microsoft Docs"
+description: Environment diagnostics warning that servers are disabled.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
