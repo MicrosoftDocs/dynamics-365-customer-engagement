@@ -27,18 +27,17 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 2. On the left nav, select **Solution**.
-3. Select the solution that contains the table. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
-4. On the command bar, select **Edit**.
+3. Select the solution that contains the table and then select **Edit** on the command bar. For more information on solutions, see [Solutions overview](/maker/data-platform/solutions-overview.md).
 
    > [!div class="mx-imgBorder"]
    > ![Edit the solution](media/edit-mailapp-solution-1.png)
    
-5. On the command bar select the **All** and then select **Table**.
+4. On the command bar select the **All** and then select **Table**.
 
    > [!div class="mx-imgBorder"]
    > ![Select table](media/edit-table.png)
 
-6. Select a table such as **Account** to edit it.
+5. Select a table such as **Account** to edit it.
 
 6. Select **Views** and make sure **Quick Find Active Accounts** view is active.
 
