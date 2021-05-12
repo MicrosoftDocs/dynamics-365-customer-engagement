@@ -53,6 +53,8 @@ Increase seller productivity by enabling the enhanced experience for searching a
     > ![Enhanced add product experience setting](media/system-settings-sales-tab-enhanced-add-products.png "Enhanced add product experience setting")
 
 4. Select **OK**.
+   Sellers can now use the enhanced experience for adding products while working on opportunity, quote, order, and invoice.
+   Note: As an administrator, you can customize the Add products dialog box by adding  more columns to the grid or adding more attributes to the Product column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md).  
 
 
 ### See also
