@@ -70,13 +70,11 @@ Enter in the following code snippet:
 
 ```
 
-In the Event Handlers section change the Event from onLoad to onSave of the form.
-
+In the event handlers section, change the event from *onLoad* to *onSave* of the form.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-workflows2.png))
+> ![Handler properties within the form properties.](./media/mobile-2020-workflows2.png))
 
-  
 Save and publish customizations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
