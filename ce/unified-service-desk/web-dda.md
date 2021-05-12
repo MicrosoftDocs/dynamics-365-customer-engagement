@@ -1,6 +1,6 @@
 ---
 title: "WebDDA in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using Web data-driven adapter (WebDDA) in Unified Service Desk."
+description: "Learn about using Web data-driven adapter (WebDDA) and its binding elements to access HTML-based applications in Unified Service Desk."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

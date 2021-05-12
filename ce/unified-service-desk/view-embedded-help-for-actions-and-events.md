@@ -1,6 +1,6 @@
 ---
-title: "View embedded help for actions and events in Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
+title: "Embedded help for actions and events in Unified Service Desk | MicrosoftDocs"
+description: "Use this topic to learn how you can view embedded help for actions and events for hosted controls within Microsoft Dataverse in Unified Service Desk."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -23,12 +23,14 @@ search.app:
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides an embedded help on actions and events within Microsoft Dataverse.  
   
 <a name="Actions"></a>   
+
 ## Embedded help for actions  
  When you create an action call for a UII action, the help is displayed below the data field. For information about creating an action call, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
   
  ![Embedded help for action](../unified-service-desk/media/crm-itpro-usd-embeddedhelpaction.png "Embedded help for action")  
   
 <a name="Events"></a>   
+
 ## Embedded help for events  
  Open an event definition to view the help for the event. To do so:  
   
