@@ -37,16 +37,12 @@ Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynam
 ## Benefits
 
 With Dynamics 365 App for Outlook, you can:
-  
-- View information about contacts and leads that is stored in your app. You can also view this information in the context of an email message, meeting, or appointment. 
-  
+
 - Link email messages, meetings, and appointments to a row in your app. For example, link an email message to a specific account, opportunity, or case. 
 
-- Create new rows and open it directly from Outlook.
+- View information in the context of an email message, meeting, or appointment. 
 
-- Add a phone call, task, or appointment activity. 
-
-- Synchronize and track Outlook contacts with your app.
+- Synchronize contacts and related information so that Exchange and your app is always up to date.
 
 - Add email templates, knowledge articles, and sales literature when you create an email message or set up a meeting.  
   
