@@ -40,9 +40,6 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 
 6. Select a table such as **Account** to edit it.
 
-   > [!div class="mx-imgBorder"]
-   > ![Edit form settings](media/form-settings.png)
-
 6. Select **Views** and make sure **Quick Find Active Accounts** view is active.
 
    > [!div class="mx-imgBorder"]
@@ -50,19 +47,6 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
    
 7. Select **Save and publish**.
 
-
-
-
-
-
-1. In your Dynamics 365 app, go to **Settings** > **Customizations** > **Customize the System**.
-2. Choose an entity, then choose **Views**.
-3. Open **Account Quick View**.
-
-   ![Account lookup view](media/account-lookup-view.png)
-4. Enable the custom field, and then choose **OK**.
-
-5. Choose **Save** > **Publish** on the **Home** tab.
   
   
 
