@@ -21323,6 +21323,11 @@
       "source_path": "ce/sales-enterprise/sales-mobile/enable-sales-mobile.md",
       "redirect_url": "/dynamics365/sales-enterprise/sales-mobile/prereq-sales-mobile",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/productivity-tools.md",
+      "redirect_url": "../app-profile-manager/productivity-tools",
+      "redirect_document_id": false
     }
   ]
 }
