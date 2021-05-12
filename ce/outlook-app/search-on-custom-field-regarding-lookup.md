@@ -31,22 +31,22 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 4. On the command bar, select **Edit**.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the solution](media/edit-mailapp-solution.png)
+   > ![Edit the solution](media/edit-mailapp-solution-1.png)
    
 5. On the command bar select the **All** and then select **Table**.
 
    > [!div class="mx-imgBorder"]
    > ![Select table](media/edit-table.png)
 
-6. Select the **Forms** tab and then on the command bar select **Form settings**.
+6. Select a table such as **Account** to edit it.
 
    > [!div class="mx-imgBorder"]
    > ![Edit form settings](media/form-settings.png)
 
-6. On the left, select **Form order** and then select **Quick Create Form** from the dropdown menu. Move **App for Outlook Case Quick Create** to the top of the list. 
+6. Select **Views** and make sure **Quick Find Active Accounts** view is active.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the form order](media/form-settings-1.png)
+   > ![Enable Quick Find Active Accounts view](media/quick-find-active-accounts.png)
    
 7. Select **Save and publish**.
 
