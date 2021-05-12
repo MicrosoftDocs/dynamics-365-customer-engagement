@@ -17,7 +17,7 @@ ms.service: "dynamics-365-customerservice"
 
 In Omnichannel for Customer Service, queues are used for collecting and distributing workload among agents. Workload includes conversations, such as chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
 
-## How conversations are routed to queues
+## How work items are routed to queues
 
 Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business, such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue. You also can set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
@@ -26,22 +26,22 @@ In an enterprise scenario, you can have various supervisors handling different i
 To simplify the routing experience for administrators and supervisors, queues are categorized based on the channel types as follows:
 
 - **Messaging**: To route all messaging conversations pertaining to the live chat, SMS, and social channels.
-- **Entity records**: To route cases pertaining to entity records.
+- **Records**: To route work items pertaining to records.
 
 The queue types help ensure issues will be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that will be available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
 
 You can assign priority to queues. A lower value indicates higher priority and a higher value indicates lower priority. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if two chat conversations are waiting in two queues that have priority defined as 1 and 2 respectively, the chat conversation with priority value 1 will be allocated to an agent first.
 
-## Create a queue for the messaging channel in Omnichannel admin center
+## Create a queue in Omnichannel admin center
 
-In this section, we cover information on how to create a queue for the messaging channel and set operating hour record for the queue.
+In this section, we cover information on how to create a queue and set operating hour record for the queue.
 
 1. In the left pane, select **Queues**, and then do the following:
 
     1. On the **Queues** page, select **New**.
     2. In the **Create a queue** dialog box, enter the following:
        - **Name**: A name for the queue.
-       - **Type**: Select **Messaging**.
+       - **Type**: Select **Messaging** or **Record**.
        - **Group number**: A number to organize the queue. 
     3. Select **Create**. The queue that you created is displayed.
      
