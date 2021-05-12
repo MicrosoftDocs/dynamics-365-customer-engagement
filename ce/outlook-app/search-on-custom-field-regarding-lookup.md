@@ -1,6 +1,7 @@
 ---
 title: "Search on custom field in Regarding lookup in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
-ms.custom: 
+ms.custom: Search on custom field in Regarding lookup in Dynamics 365 App for Outlook
+description: 
 ms.date: 07/17/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -21,7 +22,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Expand the fields search on in Regarding lookup 
+# Expand the columns search on in Regarding lookup 
 
 To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom columns, that column must be added to the table’s quick find view.
 
@@ -37,14 +38,14 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
    > [!div class="mx-imgBorder"]
    > ![Select table](media/edit-table.png)
 
-5. Select a table such as **Account** to edit it.
+5. Select a table to edit it such as **Account**.
 
-6. Select **Views** and make sure **Quick Find Active Accounts** view is active.
+6. Select **Views** and make sure that **Quick Find Active Accounts** view is active.
 
    > [!div class="mx-imgBorder"]
    > ![Enable Quick Find Active Accounts view](media/quick-find-active-accounts.png)
    
-7. Select **Save and publish**.
+
 
   
   
