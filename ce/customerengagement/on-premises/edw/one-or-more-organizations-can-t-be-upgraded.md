@@ -26,7 +26,7 @@ ms.author: matp
   
  ## Solution 1
   
- We recommend that you apply the latest update. Then, in the Organizations area of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], update each organization. Alternatively, you can use the [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or use the methods that are described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. Find the latest updates: [Dynamics 365 for Customer Engagement on-premise cumulative updates](https://support.microsoft.com/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates)  
+ We recommend that you apply the latest update. Then, in the Organizations area of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], update each organization. Alternatively, you can use the [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps&preserve-view=true) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or use the methods that are described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. Find the latest updates: [Dynamics 365 for Customer Engagement on-premise cumulative updates](https://support.microsoft.com/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates)  
   
  **Solution 2**  
   
