@@ -1,8 +1,8 @@
 ---
-title: "Search on custom field in Regarding lookup in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
-ms.custom: Search on custom field in Regarding lookup in Dynamics 365 App for Outlook
-description: 
-ms.date: 07/17/2019
+title: "Expand the columns that the Set Regarding lookup searches on in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
+ms.custom:  
+description: Expand the columns that the Set Regarding lookup searches on in Dynamics 365 App for Outlook.
+ms.date: 05/12/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Expand the columns that the Set Regarding lookup searches on
 
-To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom columns, that column must be added to the table’s quick find view.
+To have the Set Regarding lookup search on custom columns in Dynamics 365 App for Outlook, that column must be added to the table’s quick find view.
 
    > [!div class="mx-imgBorder"]
    > ![Edit the solution](media/set-regarding-search.png)
