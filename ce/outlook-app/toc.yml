@@ -18,7 +18,7 @@
     href: enable-a-custom-entity-to-appear-in-the-regarding-lookup.md
   - name: Customize the app to auto populate data from an Outlook item to a Quick Create form
     href: auto-populate-data-into-quickcreate.md
-  - name: Expand the fields search on in Regarding lookup
+  - name: Expand the columns that the Set Regarding lookup searches on
     href: search-on-custom-field-regarding-lookup.md
   - name: Filter entities and views that appear in Dynamics 365 App for Outlook
     href: filter-entities-and-views.md
