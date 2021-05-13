@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/23/2021
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -169,7 +169,7 @@ Perform the following steps to use the activity monitor for the rules:
     > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
-4. Perform the following steps to select the states you want to monitor:
+4. Perform the following steps to turn on or off monitoring for the states:
    1. Select **Monitor options** on the command bar. The **Monitor options** dialog box appears.
    2. Select any or all the following states:
       - Ready for Power Automate / workflow

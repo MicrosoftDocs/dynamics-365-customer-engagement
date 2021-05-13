@@ -4,7 +4,7 @@ description: See how you can fix an issue converting an email to a case in Dynam
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/04/2018
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -51,7 +51,7 @@ If the email to case conversion is not working, follow the below troubleshooting
 
 **Step 1**. Check if the email is syncing with the system. </br>
 - **Action**: Navigate to **Activities** and look for Email activity.</br>
-- **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration. 
+- **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration.
 
 **Step 2**.  Notice that an email activity is created but a related QueueItem is not found.  </br>
 
@@ -141,6 +141,8 @@ You must validate the configuration and validation steps given in the following 
 
  
 ### See also
+
+[Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Automatically create a case from an email](automatically-create-case-from-email.md)  
 
 
