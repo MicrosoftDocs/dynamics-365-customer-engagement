@@ -225,7 +225,7 @@
     - name: View the fields synchronized with Outlook
       href: view-fields-synchronized-dynamics-365-outlook.md
     - name: Frequently asked questions about synchronizing records
-      href: frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md
+      href: frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml
     - name: Set personal options that affect tracking and synchronization
       href: set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md
     - name: Monitor email processing errors
