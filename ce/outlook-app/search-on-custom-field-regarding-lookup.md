@@ -42,9 +42,9 @@ To have the Set Regarding lookup search on custom columns in Dynamics 365 App fo
    > [!div class="mx-imgBorder"]
    > ![Select table](media/edit-table.png)
 
-5. Select a table to edit it such as **Account**.
+5. Select a table such as **Account** to edit the table. 
 
-6. Select **Views** and make sure that **Quick Find Active Accounts** view is active.
+6. Select **Views** and make sure that **Quick Find Active Accounts** view is active. It it's not, then open the view and select the necessary find columns.
 
    > [!div class="mx-imgBorder"]
    > ![Enable Quick Find Active Accounts view](media/quick-find-active-accounts.png)
