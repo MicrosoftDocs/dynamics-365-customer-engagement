@@ -26,8 +26,8 @@ Your Dynamics 365 tenant must be co-located in one of the following geographic l
 
 Omnichannel for Customer Service April 2021 update is available in the following regions:
 
-|   Geographic location                     |            Date      |
-|-------------------------------------------|----------------------|
+|   Geographic location                     |   Date             |
+|-------------------------------------------|--------------------|
 | Asia Pacific                              |   April 13, 2021   |
 | Australia                                 |   April 14, 2021   |
 | Canada                                    |   April 07, 2021   |  
@@ -36,6 +36,7 @@ Omnichannel for Customer Service April 2021 update is available in the following
 | Germany                                   |   April 09, 2021   |
 | India                                     |   April 08, 2021   |
 | Japan                                     |   April 15, 2021   |
+| North America                             |   April 24, 2021   |
 | South America                             |   April 08, 2021   |
 | Switzerland                               |   April 10, 2021   |
 | United Arab Emirates (UAE)                |   April 08, 2021   |
@@ -45,8 +46,6 @@ Omnichannel for Customer Service April 2021 update is available in the following
 > [!Note]
 >
 > If your Dynamics 365 tenant is located in Brazil or Norway, Omnichannel for Customer Service is currently not available.
-
-
 
 ### October 2020 update
 
@@ -66,8 +65,6 @@ Omnichannel for Customer Service October 2020 update is available in the followi
 | United Arab Emirates (UAE)                |   October 12, 2020   |
 | United Kingdom                            |   October 12, 2020   |
 |||
-
-
 
 ### April 2020 update
 

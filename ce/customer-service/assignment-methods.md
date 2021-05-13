@@ -1,6 +1,6 @@
 ---
-title: Set up assignment methods in Customer Service | MicrosoftDocs
-description: "Set up assignment methods in Customer Service"
+title: :Configure assignment methods for queues | MicrosoftDocs"
+description: "Configure assignment methods for queues in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Assignment methods for queues
+# Configure assignment methods for queues
 
 Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
 

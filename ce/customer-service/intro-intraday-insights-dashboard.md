@@ -60,7 +60,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)  
 [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  
 [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)  
-[Monitor conversations](monitor-conversations.md)  
+[Monitor and assign conversations](monitor-conversations.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

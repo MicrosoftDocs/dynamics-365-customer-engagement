@@ -24,13 +24,13 @@ This walkthrough demonstrates how to set up two work streams, one each for high 
 
 ### In this section
 
-[Step 1: Create work stream](#step-1-create-work stream)
+[Step 1: Create work stream](#step-1-create-work-stream)
 
 [Step 2: Update Entity Record Distribution Flow](#step-2-update-entity-records-distribution-flow)
 
 ## Step 1: Create work stream
 
-Create entity records work stream to define how the records will be distributed. In this walkthrough, let us create two work streams - **High Priority Cases** and **Low Priority Cases**.
+Create entity records work stream to define how the records will be distributed. In this walkthrough, we will create two work streams - **High Priority Cases** and **Low Priority Cases**.
 
 High priority cases work stream is set up to distribute the cases using automatic push, and the capacity required in 60 units.
 

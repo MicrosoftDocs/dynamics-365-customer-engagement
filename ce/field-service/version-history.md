@@ -28,33 +28,40 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/15/2021
+| | <i>First Release</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/14/2021
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | 04/30/2021
-| | <i>Canada</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |04/30/2021
-| | <i>India</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | 04/30/2021
-| | <i>France</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | 04/30/2021
-| | <i>United Arab Emirates</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | 04/30/2021
-| | <i>South Africa</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |04/30/2021
-| | <i>Germany</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | 04/30/2021
-| | <i>Switzerland</i> | [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | 04/30/2021
+| | <i>South America</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>Canada</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>India</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>France</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>United Arab Emirates</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>South Africa</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>Germany</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>Switzerland</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128)  | 05/07/2021
-| | <i>Asia Pacific</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128)  | 05/07/2021
-| | <i>Great Britain</i> |[8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128)  | 05/07/2021
-| | <i>Oceana</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128)  | 05/07/2021
+| | <i>Japan</i> |  [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
+| | <i>Asia Pacific</i> |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
+| | <i>Great Britain</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
+| | <i>Oceana</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128)  | 05/14/2021
+| | <i>Europe</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153)  | 05/14/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128)  | 05/21/2021
+| | <i>North America</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153)  | 05/21/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141)  | 04/30/2021
-| | <i>China</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) | 04/30/2021
-| | <i>Dedicated Scale Groups</i> |  [8.8.35.44](https://docs.microsoft.com/dynamics365/field-service/version-history#883544) | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141)  | 04/30/2021
+| | <i>Government Community Cloud</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | 05/19/2021
+| | <i>China</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153)  | 05/19/2021
+| | <i>Dedicated Scale Groups</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153)  | 05/28/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+
+## 8.8.41.53 
+
+This release is a hotfix on Field Service version [8.8.41.28](#884128).
+
+-	Added an advanced setting to disable product bundle validation. If user sets ```product.bundle.optout=true``` then user would be able to add new or modify existing product bundle with Field Service type set.
 
 ## 8.8.41.28 
 
