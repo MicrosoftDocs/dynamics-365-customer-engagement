@@ -123,9 +123,9 @@ The CertificateReconfiguration.ps1 is a Windows PowerShell script that installs 
     
       - **serviceAccount** ‘*DomainName\\UserName*’ or ‘Network Service’.
             
-        ```   
-        serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
-        ``` 
+      ```   
+      serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
+      ``` 
         
       - **updateCrm**. Adds the certificate information to the Microsoft Customer Engagement (on-premises) configuration database.
         

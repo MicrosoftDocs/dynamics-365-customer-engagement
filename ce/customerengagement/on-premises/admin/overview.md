@@ -4,10 +4,10 @@ description: "Resources and topics provided to help you manage and configure Cus
 ms.custom: on-premises
 ms.date: 09/12/2020
 ms.reviewer: "kvivek"
-ms.service: crm
+ms.service: crm-online
 ms.topic: "article"
 author: "kvivek"
-ms.author: "KumarVivek"
+ms.author: "kvivek"
 manager: "kvivek"
 ---
 # Administrator Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x

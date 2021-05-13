@@ -78,22 +78,22 @@ The following software features are required to run the Windows PowerShell cmdle
 
 2.  Prepare the certificate.
     
-        ```
-        $CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMWebApplicationService -storeFindType FindBySubjectDistinguishedName”
+    ```
+    $CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMWebApplicationService -storeFindType FindBySubjectDistinguishedName”
         
-        Invoke-Expression -command $CertificateScriptWithCommand
-        ```
+     Invoke-Expression -command $CertificateScriptWithCommand
+     ```
 
 3.  Prepare the PowerShell session.
     
     The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the PowerShell session. <!-- For more information about these cmdlets see [Windows PowerShell Core Cmdlets](/powershell/module/microsoft.powershell.core/). -->
     
-        ```
-        Enable-PSRemoting -force
-        New-PSSession
-        Import-Module MSOnline -force
-        Import-Module MSOnlineExt -force
-        ```
+    ```
+    Enable-PSRemoting -force
+    New-PSSession
+    Import-Module MSOnline -force
+    Import-Module MSOnlineExt -force
+    ```
 
 4.  Connect to Office 365.
     
@@ -101,48 +101,48 @@ The following software features are required to run the Windows PowerShell cmdle
     
     For detailed information about each of the MSOnline module for Azure Active Directory PowerShell commands listed here, see [MSOnline](/powershell/module/msonline/?view=azureadps-1.0#msonline).
     
-        ```
-        $msolcred = get-credential
-        connect-msolservice -credential $msolcred
-        ```
+    ```
+    $msolcred = get-credential
+    connect-msolservice -credential $msolcred
+    ```
 
 5.  Set the certificate.
     
-        ```
-        $Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
-        $Certificate.Import(“c:\Personalcertfile.cer”)
-        $CERCertificateBin = $Certificate.GetRawCertData()
-        $CredentialValue = [System.Convert]::ToBase64String($CERCertificateBin)
-        ```
+    ```
+    $Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
+    $Certificate.Import(“c:\Personalcertfile.cer”)
+    $CERCertificateBin = $Certificate.GetRawCertData()
+    $CredentialValue = [System.Convert]::ToBase64String($CERCertificateBin)
+    ```
 
 6.  Set the Azure Active Directory Service Principal Name (SPN) in SharePoint.
     
     Replace *\*.contoso.com* with the domain name where Microsoft Dynamics 365 Server is located.
     
-        ```
-        $RootDomain = “*.contoso.com”
-        $CRMAppId = "00000007-0000-0000-c000-000000000000" 
-        New-MsolServicePrincipalCredential -AppPrincipalId $CRMAppId -Type asymmetric -Usage Verify -Value $CredentialValue
-        $CRM = Get-MsolServicePrincipal -AppPrincipalId $CRMAppId
-        $ServicePrincipalName = $CRM.ServicePrincipalNames
-        $ServicePrincipalName.Remove("$CRMAppId/$RootDomain")
-        $ServicePrincipalName.Add("$CRMAppId/$RootDomain")
-        Set-MsolServicePrincipal -AppPrincipalId $CRMAppId -ServicePrincipalNames $ServicePrincipalName
-        ```
+    ```
+    $RootDomain = “*.contoso.com”
+    $CRMAppId = "00000007-0000-0000-c000-000000000000" 
+    New-MsolServicePrincipalCredential -AppPrincipalId $CRMAppId -Type asymmetric -Usage Verify -Value $CredentialValue
+    $CRM = Get-MsolServicePrincipal -AppPrincipalId $CRMAppId
+    $ServicePrincipalName = $CRM.ServicePrincipalNames
+    $ServicePrincipalName.Remove("$CRMAppId/$RootDomain")
+    $ServicePrincipalName.Add("$CRMAppId/$RootDomain")
+    Set-MsolServicePrincipal -AppPrincipalId $CRMAppId -ServicePrincipalNames $ServicePrincipalName
+    ```
 
 7.  Configure the Microsoft Dynamics 365 Server for server-based authentication with SharePoint.
     
-        ```
-        Add-PSSnapin Microsoft.Crm.PowerShell 
-        $setting = New-Object "Microsoft.Xrm.Sdk.Deployment.ConfigurationEntity"
-        $setting.LogicalName = "ServerSettings"
-        $setting.Attributes = New-Object "Microsoft.Xrm.Sdk.Deployment.AttributeCollection"
-        $attribute1 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerPrincipalId", "00000001-0000-0000-c000-000000000000")
-        $setting.Attributes.Add($attribute1)
-        $attribute2 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerMetadataUrl", "https://accounts.accesscontrol.windows.net/metadata/json/1")
-        $setting.Attributes.Add($attribute2)
-        Set-CrmAdvancedSetting -Entity $setting
-        ```
+    ```
+    Add-PSSnapin Microsoft.Crm.PowerShell 
+    $setting = New-Object "Microsoft.Xrm.Sdk.Deployment.ConfigurationEntity"
+    $setting.LogicalName = "ServerSettings"
+    $setting.Attributes = New-Object "Microsoft.Xrm.Sdk.Deployment.AttributeCollection"
+    $attribute1 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerPrincipalId", "00000001-0000-0000-c000-000000000000")
+    $setting.Attributes.Add($attribute1)
+    $attribute2 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerMetadataUrl", "https://accounts.accesscontrol.windows.net/metadata/json/1")
+    $setting.Attributes.Add($attribute2)
+    Set-CrmAdvancedSetting -Entity $setting
+    ```
 
 ## Run the Enable Server-Based SharePoint Integration Wizard
 
@@ -170,10 +170,10 @@ The following software features are required to run the Windows PowerShell cmdle
 
 1.  In the Azure Active Directory module for Windows PowerShell shell, run the following commands.
     
-        ```
-        $CRMContextId = (Get-MsolCompanyInformation).ObjectID
-        $CRMContextId
-        ```
+    ```
+    $CRMContextId = (Get-MsolCompanyInformation).ObjectID
+    $CRMContextId
+    ```
 
 2.  Copy the GUID that is displayed to the clipboard.
 

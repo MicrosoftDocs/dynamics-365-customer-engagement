@@ -4,7 +4,6 @@ description: "Step-by-step guidance whether you’re still evaluating Customer E
 ms.custom:
 ms.date: 10/01/2019
 ms.service: crm-online
-ms.custom: 
 ms.topic: article
 author: jimholtz
 ms.author: jimholtz

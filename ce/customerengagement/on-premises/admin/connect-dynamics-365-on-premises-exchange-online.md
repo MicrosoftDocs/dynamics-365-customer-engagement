@@ -54,7 +54,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 
 The following software features are required to run the Windows PowerShell cmdlets described in this topic:
 - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
-- [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
+- [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1)
 
 ### Configure server-based authentication
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
@@ -69,7 +69,7 @@ Invoke-Expression -command $CertificateScriptWithCommand
 
 3. Prepare the Windows PowerShell session.
 
-   The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the Windows PowerShell session. For more information about these cmdlets see [Windows PowerShell Core Cmdlets](/powershell/module/Microsoft.PowerShell.Core/?view=powershell-5.1).
+   The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the Windows PowerShell session. For more information about these cmdlets see [Windows PowerShell Core Cmdlets](/powershell/module/Microsoft.PowerShell.Core).
 
 ```powershell
 Enable-PSRemoting -force
