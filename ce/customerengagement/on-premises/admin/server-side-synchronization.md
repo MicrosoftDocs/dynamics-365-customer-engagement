@@ -1,5 +1,5 @@
 ---
-title: "Server-side synchronization  | MicrosoftDocs"\
+title: "Server-side synchronization  | MicrosoftDocs"
 description: "Synchronize data for each user that can be controlled by using synchronization filters."
 ms.custom: 
 ms.date: 10/01/2019
@@ -13,9 +13,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 96ab5216-fe94-419a-b8a4-03ef2519ca90
 caps.latest.revision: 20
-author: crm-online
-ms.author: kvivek
-manager: kvivek
+author: jimholtz
+ms.author: jimholtz
 search.audienceType: 
   - admin
 
