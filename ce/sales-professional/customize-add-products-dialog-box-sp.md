@@ -24,7 +24,10 @@ searchScope:
 > [!IMPORTANT]
 > Customizations described in this topic must be done within a custom solution. For more information see, [Why you shouldn't use the default solutions to manage customizations](/power-platform/alm/use-solutions-for-your-customizations#why-you-shouldnt-use-the-default-solutions-to-manage-customizations)
   
-As a system administrator, you can customize the **Add products** dialog box by adding information that will help your salespeople to identify and select products quickly. 
+As a system administrator, you can customize the **Add products** dialog box by adding information that will help your salespeople to identify and select products quickly.
+ 
+> [!NOTE]
+> The customizations are only applicable for the enhanced experience. Make sure that you've [enabled the Add products preview](enable-enhanced-add-product-experience-sp.md) feature.
 
 You can either add more columns to the grid or add more attributes to the **Product** column. Attributes in the **Product** column help sellers get more information *before* choosing a product. So, if you want to add a category or product ID to help distinguish products from each other, add it to the **Product** column. On the other hand, if sellers need to perform an action *after* selecting a product&mdash;for example, choosing delivery priority (a custom attribute)&mdash;add that attribute to the grid.
 
@@ -42,38 +45,22 @@ By default, the **Add products** dialog box displays the following columns in th
 - Price per unit
 - Quantity
 
-> [!NOTE]
-> The procedure below refers to the customization option available in the Sales Hub app. If you are using a custom app, access the following views from Power Apps:
-> - Opportunity products Add products
-> - Quote products Add products
-> - Order products Add products
-> - Invoice products Add products
-
-For information about editing views, go to [Choose and configure columns in model-driven app
-views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
-
 **To add or remove columns in the grid**
 
-1. In the Sales Hub app, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area") in the lower-left corner of the page and then select **App Settings**.  
+1. Sign in to Power Apps and open the view editor. For step-by-step instructions, see [Choose and configure columns in views](../customerengagement/on-premises/customize/choose-and-configure-columns#open-the-view-editor).  
+1. Select the following tables and views to configure the Add products dialog box for opportunity, quote, order, and invoice:
+   
+    |Table Name  |View Name  |
+    |---------|---------|
+    |Opportunity Product     |Opportunity products Add Products         |
+    |Quote Product     | Quote products Add Products        |
+    |Order Product     | Order products Add Products         |
+    |Invoice Product     |Invoice products Add Products          |
 
-2. Under **Product Catalog**, select **Product Catalog Settings**.  
-
-3. Turn on the **Adding products (preview)** option, if you haven't already.  
-    You'll see additional options to customize the Add products dialog box for
-    opportunity, quote, invoice, and order.  
-
-4. Select the add products view of the entity that you want to customize. For example, select **Quote 'add products'** view to customize the Add products dialog for quotes.  
-    You will be redirected to the corresponding view in Power Apps.
-
-5. Select **+ View Column** and then select the columns you want to add to the grid. Or, simply drag-and-drop the columns into the grid.
-
-6. To remove a column, select the column in the grid and select **Remove**.
-
-7. Select **Publish** to save and publish the customizations.
-    The changes are applicable to the Add products dialog of the selected entity.
-
-8. Open the entity that you've customized. If you customized the add products view for quotes, open a quote and then select **Add products**. Verify whether the customizations to the grid are reflected in the dialog box.
-    
+2. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](../customerengagement/on-premises/customize/choose-and-configure-columns#add-columns-to-views).
+1. Publish the customization.  
+     The changes should now be visible in the Add products dialog of the corresponding entity. See, [Add products to an opportunity by using the enhanced experience (Sales Professional)](add-products-enhanced-experience-sp.md)
+   
 
 ## Add or edit attributes in the Product column
 
@@ -83,34 +70,19 @@ By default, the **Product** column in the Add product dialog includes the produc
 
 **Note**: The **Product** column can display up to three attributes, apart from the product name.  
 
-> [!NOTE]
-> The procedure below refers to the customization option available in **Product Catalog Settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or edit product attributes:**
 
-1. In the Sales Hub app, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png  "Icon to change the work area") in the lower-left corner of the page and then select **App Settings**.
+1. Open Power Apps, and select the **Product Lookup View** in the **Product** table.  
 
-2. Under **Product Catalog**, select **Product Catalog Settings**.
+1. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](../customerengagement/on-premises/customize/choose-and-configure-columns#add-columns-to-views).  
 
-3. Turn on **Adding products (preview)**, if you haven't already.
-    You'll see additional options for customizing the Add products dialog box.
-
-4. Select **Customize Product lookup view.**
-    You'll be redirected to the **Product Lookup View** in Power Apps.
-
-5. Select **+ View Column** and then select the attributes you want to add. Or, simply drag-and-drop the attributes into the grid.
-
-6. To remove an attribute, select the attribute in the grid and select **Remove**.
-
-7. Select **Publish** to save and publish the customizations.
-    The changes are applicable to the Add products dialog of opportunity, quote, order, and invoice.
-
-7. To verify the changes, open an opportunity and select **Add products**.  
-   You will see the updated attributes in the **Product** column.
+1. Save and publish the customization.
+     The changes should now be visible in the Product column of the Add products dialog for all entities. See, [Add products to an opportunity by using the enhanced experience (Sales Professional)](add-products-enhanced-experience-sp.md)  
 
 ## Customize the fields to search  
 
-By default, the search field in the Add products dialog searches the product name, ID, and description. You can expand the search to include other text-based fields too. For example, you can add the hierarchy path field to the search scope.
+By default, the search field in the Add products dialog searches the product name, ID, and description. You can expand the search to include other text-based fields too. For example, you can add the Vendor Name field to the search scope.
 
 **To customize the fields to search:**
 
