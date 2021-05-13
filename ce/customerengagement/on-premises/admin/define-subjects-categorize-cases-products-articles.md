@@ -1,5 +1,6 @@
 ---
 title: Define subjects to categorize cases, products, and articles  | MicrosoftDocs
+description: "Mark and categorize service cases, knowledge base articles, products, and sales literature."
 ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online

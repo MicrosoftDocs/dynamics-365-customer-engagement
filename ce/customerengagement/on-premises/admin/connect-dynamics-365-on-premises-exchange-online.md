@@ -1,5 +1,6 @@
 ---
 title: "Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online | Microsoft Docs"
+description: "Configure server-based authentication between Dynamics 365 (on-premises) and Exchange Online."
 ms.custom: ""
 ms.date: "2/20/2020"
 ms.prod: "crm-2016"

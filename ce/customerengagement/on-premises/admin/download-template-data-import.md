@@ -1,5 +1,6 @@
 ---
 title: "Download a template for data import  | MicrosoftDocs"
+description: " Import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

@@ -1,5 +1,6 @@
 ---
 title: "Audit data and user activity  | MicrosoftDocs"
+description: "Log changes that are made to customer records and user access so you can review the activity later."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

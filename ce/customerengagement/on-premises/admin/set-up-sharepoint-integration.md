@@ -1,5 +1,6 @@
 ---
 title: "Set up SharePoint integration | MicrosoftDocs"
+description: "Set up server-side synchronization of email, appointments, contacts, and tasks."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

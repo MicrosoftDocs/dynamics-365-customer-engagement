@@ -1,5 +1,6 @@
 ---
 title: "Enable Office Delve with Dynamics 365 for Customer Engagement| MicrosoftDocs"
+description: "Enable Office Delve with Dynamics 365 for Customer Engagement."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

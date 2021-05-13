@@ -1,5 +1,6 @@
 ---
 title: "Create users and assign security roles | MicrosoftDocs"
+description: "Add users to your organization one at a time, or add multiple users at the same time by using the Add Users wizard."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

@@ -1,5 +1,6 @@
 ---
 title: "View the fields that are synchronized between Customer Engagement (on-premises) and Outlook | MicrosoftDocs"
+description: "View the fields that are synchronized between Customer Engagement (on-premises) and Outlook."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

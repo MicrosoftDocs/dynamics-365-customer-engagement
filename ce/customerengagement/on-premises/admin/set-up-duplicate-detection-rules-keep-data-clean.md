@@ -1,5 +1,6 @@
 ---
 title: "Set up duplicate detection rules to keep your data clean in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Set rules to reduce duplicate records in the system."
 ms.custom: 
 ms.date: 10/30/2017
 ms.reviewer: 

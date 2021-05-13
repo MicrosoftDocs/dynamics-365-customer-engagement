@@ -1,5 +1,6 @@
 ---
 title: "Set personal options that affect tracking and synchronization between Customer Engagement (on-premises) and Outlook or Exchange | MicrosoftDocs"
+description: "Set personal options that affect tracking and synchronization between Customer Engagement (on-premises) and Outlook or Exchange."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

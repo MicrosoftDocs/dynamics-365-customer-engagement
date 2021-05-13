@@ -1,5 +1,6 @@
 ---
 title: "Assign security roles to a form  | MicrosoftDocs"
+description: "Control form and field access by assigning different security roles to different forms you create."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

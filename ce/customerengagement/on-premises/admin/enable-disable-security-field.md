@@ -1,5 +1,6 @@
 ---
 title: "Enable or disable security for a field  | MicrosoftDocs"
+description: "Field-level security lets you set which fields users can see or edit."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

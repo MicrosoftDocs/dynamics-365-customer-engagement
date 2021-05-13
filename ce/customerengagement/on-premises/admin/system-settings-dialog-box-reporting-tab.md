@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Reporting tab  | MicrosoftDocs"
+description: "Configure reporting settings for Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

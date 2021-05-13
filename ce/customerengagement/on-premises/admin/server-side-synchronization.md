@@ -1,5 +1,6 @@
 ---
-title: "Server-side synchronization  | MicrosoftDocs"
+title: "Server-side synchronization  | MicrosoftDocs"\
+description: "Synchronize data for each user that can be controlled by using synchronization filters."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

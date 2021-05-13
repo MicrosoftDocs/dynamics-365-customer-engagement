@@ -1,5 +1,6 @@
 ---
 title: "Connect Customer Engagement (on-premises) to POP3 or SMTP servers | MicrosoftDocs"
+description: "Connect Dynamics 365 Customer Engagement (on-premises) with POP3 and SMTP email servers."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -22,7 +23,7 @@ search.audienceType:
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with POP3 and SMTP email servers such as used for Gmail and Yahoo! Mail.  
+Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with POP3 and SMTP email servers, such as used for Gmail and Yahoo! Mail.  
 
 > [!NOTE]
 >  

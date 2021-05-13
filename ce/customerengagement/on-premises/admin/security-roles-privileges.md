@@ -1,5 +1,6 @@
 ---
 title: "Security roles and privileges | MicrosoftDocs"
+description: "Set up an organizational structure that both protects sensitive data and enables collaboration."
 ms.custom: 
 ms.date: 10/07/2019
 ms.reviewer: 

@@ -1,5 +1,6 @@
 ---
 title: "Manage product catalog configuration   | MicrosoftDocs"
+description: "Manage product catalog configuration to help your company sell products and services with greater efficiency."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

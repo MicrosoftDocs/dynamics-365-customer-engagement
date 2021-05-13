@@ -1,5 +1,6 @@
 ---
 title: "Switching from the list component or changing the SharePoint deployment  | MicrosoftDocs"
+description: "Switch from the list component to server-based authentication."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

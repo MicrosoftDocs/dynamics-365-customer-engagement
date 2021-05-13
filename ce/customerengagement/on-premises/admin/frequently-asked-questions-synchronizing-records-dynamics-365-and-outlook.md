@@ -1,5 +1,6 @@
 ---
 title: "Frequently asked questions about synchronizing records  | MicrosoftDocs"
+description: "Synchronizing records between Customer Engagement (on-premises) and Microsoft Outlook."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

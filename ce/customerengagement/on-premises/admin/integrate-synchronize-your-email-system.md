@@ -1,5 +1,6 @@
 ---
 title: "Integrate (synchronize) your email system  | MicrosoftDocs"
+description: "Store all customer communications in one place, so anyone with the appropriate permissions can see all relevant customer records."
 ms.custom: 
 ms.date: 12/11/2020
 ms.reviewer: 

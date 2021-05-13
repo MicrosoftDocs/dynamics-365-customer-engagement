@@ -1,5 +1,6 @@
 ---
 title: "Email message filtering and correlation | MicrosoftDocs"
+description: "Use Email message filtering and correlation to specify which emails are tracked."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

@@ -1,5 +1,6 @@
 ---
 title: "Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business | MicrosoftDocs"
+description: "Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

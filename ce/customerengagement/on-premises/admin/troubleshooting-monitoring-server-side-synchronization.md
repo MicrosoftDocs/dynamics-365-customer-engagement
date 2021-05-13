@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting and monitoring server-side synchronization  | MicrosoftDocs"
+description: "Discusses issues and resolutions for troubleshooting server-side synchronization."
 ms.custom: 
   - dyn365-deflc
 ms.date: 10/01/2019

@@ -1,6 +1,6 @@
 ---
 title: "Administrator Guide for Dynamics 365 Customer Engagement (on-premises), version 9 | MicrosoftDocs"
-description: "Add description."
+description: "Resources and topics provided to help you manage and configure Customer Engagement (on-premises) applications and services."
 ms.custom: on-premises
 ms.date: 09/12/2020
 ms.reviewer: "kvivek"

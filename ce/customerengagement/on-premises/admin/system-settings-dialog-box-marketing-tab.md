@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Marketing tab  | MicrosoftDocs"
+description: "Configure marketing settings for Dynamics 365 Customer Engagement (on-premises)."
 description: ""
 keywords: 
 ms.date: 10/01/2019

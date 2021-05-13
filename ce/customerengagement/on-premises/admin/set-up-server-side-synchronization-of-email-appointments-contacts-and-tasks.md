@@ -1,5 +1,6 @@
 ---
 title: "Set up server-side synchronization of email, appointments, contacts, and tasks | MicrosoftDocs"
+description: "Set up server-side synchronization of email, appointments, contacts, and tasks."
 ms.custom: 
 ms.date: 04/16/2020
 ms.reviewer: 

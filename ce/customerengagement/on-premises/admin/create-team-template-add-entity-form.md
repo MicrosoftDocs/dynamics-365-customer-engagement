@@ -1,5 +1,6 @@
 ---
 title: "Create a team template and add to an entity form  | MicrosoftDocs"
+description: "Create a team template to control access rights for automatically created teams."
 ms.custom: 
 ms.date: 03/19/2020
 ms.reviewer: 

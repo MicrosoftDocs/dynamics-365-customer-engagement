@@ -1,5 +1,6 @@
 ---
 title: "Set up Dynamics 365 for Customer Engagement apps to use SharePoint Online | MicrosoftDocs"
+description: "Set up Dynamics 365 for Customer Engagement to use SharePoint Online."
 ms.custom: 
 ms.date: 06/10/2019
 ms.reviewer: 

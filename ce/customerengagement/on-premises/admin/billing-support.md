@@ -1,5 +1,6 @@
 ---
 title: "Support and billing | MicrosoftDocs"
+description: "Support is available in markets where Dynamics 365 Online services are offered."
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 

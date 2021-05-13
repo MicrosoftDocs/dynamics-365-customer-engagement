@@ -1,5 +1,6 @@
 ---
 title: "Free storage space  |  MicrosoftDocs"
+description: "Reduce the amount of storage space used by removing or deleting different types of information from Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

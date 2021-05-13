@@ -1,5 +1,6 @@
 ---
 title: "Run bulk system jobs to detect duplicate records in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Check for duplicates regularly to make sure that users don’t inadvertently create duplicate contacts, accounts, leads, or other types of records."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

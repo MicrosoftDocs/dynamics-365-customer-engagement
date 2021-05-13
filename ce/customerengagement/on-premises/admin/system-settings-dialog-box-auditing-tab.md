@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Auditing tab  | MicrosoftDocs"
+description: "Enable auditing to track changes to your organization’s data."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

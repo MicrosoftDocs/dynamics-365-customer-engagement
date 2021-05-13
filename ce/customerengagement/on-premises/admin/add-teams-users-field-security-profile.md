@@ -1,5 +1,6 @@
 ---
 title: "Add teams or users to a field security profile  | MicrosoftDocs"
+description: "Role-based security controls access to specific entity types."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

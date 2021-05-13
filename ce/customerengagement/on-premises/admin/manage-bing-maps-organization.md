@@ -1,5 +1,6 @@
 ---
 title: "Manage Bing Maps for your Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
+description: "Manage Bing Maps for your entire Dynamics 365 apps organization."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

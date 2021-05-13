@@ -1,5 +1,6 @@
 ---
 title: "Create or edit a site  | MicrosoftDocs"
+description: "Create a new site to add an office location or other facility where service operations take place."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

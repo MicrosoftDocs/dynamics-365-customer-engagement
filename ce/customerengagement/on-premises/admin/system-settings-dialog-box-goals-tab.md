@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Goals tab  | MicrosoftDocs"
+description: "Set the duration and frequency of the automatic rollup of goals."
 description: ""
 keywords: 
 ms.date: 10/01/2019

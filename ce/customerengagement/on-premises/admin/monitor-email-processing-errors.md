@@ -1,5 +1,6 @@
 ---
 title: "Monitor email processing errors  | MicrosoftDocs"
+description: "Distinguish between email-level, mailbox-level, and email server profile-level errors and whether a corrective action is needed."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
