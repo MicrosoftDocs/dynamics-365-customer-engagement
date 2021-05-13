@@ -67,6 +67,10 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
     > [!TIP]
     > To select users from other views, you can change the view by selecting **Change View**.
 
+> [!IMPORTANT]
+>
+> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work distribution. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](assignment-methods.md).
+
 ### See also
 
 [Create workstreams in Omnichannel Administration](create-workstreams-oca.md)  

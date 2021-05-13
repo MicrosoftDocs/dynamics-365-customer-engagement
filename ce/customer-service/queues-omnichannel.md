@@ -4,7 +4,7 @@ description: "See how you can create and manage queues in Omnichannel for Custom
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
