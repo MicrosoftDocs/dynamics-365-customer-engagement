@@ -29,6 +29,8 @@ Increase seller productivity by enabling the enhanced experience for searching a
 -  Compare products before selecting them.
 -  Add multiple products in one go.
 
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 > [!IMPORTANT]
 > - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
@@ -54,7 +56,7 @@ Increase seller productivity by enabling the enhanced experience for searching a
 
 4. Select **OK**.
    Sellers can now use the enhanced experience for adding products while working on opportunity, quote, order, and invoice.
-   Note: As an administrator, you can customize the Add products dialog box by adding  more columns to the grid or adding more attributes to the Product column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md).  
+   Note: As an administrator, you can customize the Add products dialog box by adding  more columns to the grid or adding more attributes to the Product column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box.md-sp).  
 
 
 ### See also

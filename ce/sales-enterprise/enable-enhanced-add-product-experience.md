@@ -19,6 +19,8 @@ The enhanced experience helps your salespeople to quickly find products that the
 - Compare products before selecting them.
 - Add multiple products in one go.
 
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 > [!IMPORTANT]
 >
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
