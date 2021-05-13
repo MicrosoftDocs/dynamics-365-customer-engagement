@@ -22,13 +22,13 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you will learn about creating rules for automatically creating records for cases from incoming emails.
+In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
 
 ## Set up rules for creating or updating records automatically
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.
 
- A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the records.
+A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the records.
 
 ## Activities and entities supported by rules for creating or updating records automatically
 
@@ -53,7 +53,7 @@ Make sure that the following prerequisites are met:
 
 ## Configure rules for creating or updating records automatically
 
-You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions when a rule can be run.
+You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions for when a rule can be run.
 
 1. In Customer Service Hub site map, go to **Service Management**, and select **Automatic record creation and update rules**. The **Record creation and update rules** page appears.
 
@@ -98,7 +98,7 @@ You can configure a rule that when active will be run for incoming emails. Using
    > ![Automatically create record rule configured](media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")
 
   > [!NOTE]
-  > The rule will be in the draft status till you activate it.
+  > The rule will be in the draft status until you activate it.
 
 ## Configure advanced settings for rules
 
@@ -125,7 +125,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
     If set to no, a case will be created even if a related case exists. When set to yes, no new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
 
     > [!Note]
-    > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and do not select any time duration in the **Select the amount of time** box.
+    > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
 
 3. In **Advanced settings**, by default the user who is creating the rule is listed in the **Owner whose permissions the rule uses to run** box. You can add more users or change the default value.
 4. Select **Save** or **Save & Close**.
