@@ -54,7 +54,7 @@ To migrate the messaging workstreams, you can use the Unified Routing Migration 
 > [!Note]
 > After you migrate the workstreams, you'll be able to manage them only in the Omnichannel admin center app. We recommend that you familiarize yourself with the new app before migrating. More information: [Get started with Omnichannel admin center](oc-admin-center.md).
 
-### Can I manage my workstreams, in the Omnichannel Administration app post migration?
+### Can I manage my workstreams in the Omnichannel Administration app post migration?
 
 No. Although you will see the migrated workstreams in the old admin app as well, we recommend that you manage the migrated workstreams in the new Omnichannel admin center app.
 
@@ -68,10 +68,13 @@ To rollback the migration, you will need to contact [Microsoft Support](https://
 
 ### How can I migrate the entity routing workstreams?
 
-Entity routing workstreams must be recreated in the new Omnichannel admin center or Customer Service Hub app, and the rules must be manually recreated in the new workstream.
+Entity routing workstreams must be recreated in the new Omnichannel admin center or Customer Service Hub app and the rules must be manually recreated in the new workstream.
 
 If you need further help, contact Microsoft Support.
 
+### Can I create workstreams for routing records in the Omnichannel Administration app after upgrading Omnichannel for Customer Service to 2021 release wave 1?
+
+No. After upgrade, you'll no longer be able to create workstreams for routing records because they will not work as expected. We recommend that you start using the new Omnichannel admin center app to create and manage routing of records.
 
 ### See also
 

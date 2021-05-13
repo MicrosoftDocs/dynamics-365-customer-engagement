@@ -13,6 +13,9 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+> [!IMPORTANT]
+> If you've upgraded your Omnichannel for Customer service environment to 2021 release wave 1, then we recommend that you use the new Omnichannel admin center app to configure record routing. You can no longer configure record routing in the Omnichannel Administration app because it will not work as expected. If you've existing workstreams for routing records, you'll need to recreate them in the new Omnichannel admin center app. More information: [Migrate workstreams for routing records](migrate-workstreams.md#migrate-workstreams-for-routing-records).
+
 ## Create a record workstream
 
 To route records, as a first step, you need to enable entity for routing using entity records channel configuration. To learn more [Entity records routing](entity-channel.md).
@@ -42,11 +45,11 @@ This topic describes how to create a work stream for an entity that has been ena
 5. Select **Save** to save the work stream.
 
 > [!Note]
-> When you enable an entity for routing, the Omnichannel Administration app creates a default work stream for the entity. If you create a new work stream or update the default work stream according to your business scenario, you need to update the work stream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+> When you enable an entity for routing, the Omnichannel Administration app creates a default workstream for the entity. If you create a new work stream or update the default work stream according to your business scenario, you need to update the work stream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
 ## Upgrade path for preview users
 
-If you are upgrading from preview release to the latest version, then earlier configured work streams will be obsolete. You need to create a new entity records channel and then redefine the work streams. To learn more, see [Entity records routing](entity-channel.md).
+If you are upgrading to the latest version from a preview version, then earlier configured work streams will be obsolete. You need to create a new entity records channel and then redefine the workstreams.
 
 ## See also
 
