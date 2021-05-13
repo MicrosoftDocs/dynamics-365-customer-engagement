@@ -1,5 +1,6 @@
 ---
 title: "Assign a business unit a different parent business  | MicrosoftDocs"
+description: "Assign a different parent business to a business unit to accommodate changes in your business requirements."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

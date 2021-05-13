@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Service tab  | MicrosoftDocs"
+description: "Set preferences for the customer service area, such as service level agreements and entitlements in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

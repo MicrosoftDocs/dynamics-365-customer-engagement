@@ -1,5 +1,6 @@
 ---
 title: "Delete bulk records  | MicrosoftDocs"
+description: "Maintain data quality and manage the consumption of system storage in Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -23,7 +24,7 @@ search.audienceType:
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-The *bulk deletion* feature helps you to maintain data quality and manage the consumption of system storage in Dynamics 365 Customer Engagement (on-premises) by deleting data that you no longer need.  
+The *bulk deletion* feature helps you to m+ by deleting data that you no longer need.  
   
  For example, you can delete the following data in bulk:  
   

@@ -1,5 +1,6 @@
 ---
 title: "Create forward mailboxes or edit mailboxes  | MicrosoftDocs"
+description: "When you create queues in Dynamics 365 Customer Engagement (on-premises), respective mailbox records also get created."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

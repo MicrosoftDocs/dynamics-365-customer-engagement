@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting: User needs read-write access  | MicrosoftDocs"
+description: "Troubleshooting: User needs read-write access."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

@@ -1,5 +1,6 @@
 ---
 title: "Control field synchronization between Customer Engagement (on-premises) and Outlook | MicrosoftDocs"
+description: "Set the sync direction between Dynamics 365 Customer Engagement (on-premises) and Outlook."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -36,7 +37,7 @@ With field synchronization, admins can set the sync direction between Dynamics 3
 
 2. In the web app, select **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
   
-   For [Unified Interface](about-unified-interface.md), select Settings (![Gear button](../admin/media/selection-rule-gear.gif "Gear button")) in the upper-right corner > **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
+   For [Unified Interface](about-unified-interface.md), select Settings (![Selection rule gear button](../admin/media/selection-rule-gear.gif "Gear button")) in the upper-right corner > **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
   
 3. Under **Synchronize Microsoft Dynamics 365 items with Outlook or Exchange**, select **synchronized fields**.  
   

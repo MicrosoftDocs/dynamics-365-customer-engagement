@@ -1,5 +1,6 @@
 ---
 title: "Change auto-numbering prefixes  | MicrosoftDocs"
+description: "Change the default three-character prefixes and number format to match your organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

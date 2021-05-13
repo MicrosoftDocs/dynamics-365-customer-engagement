@@ -1,5 +1,6 @@
 ---
 title: "Remove user personal data  | MicrosoftDocs"
+description: "Remove personal data from all tenant instances."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

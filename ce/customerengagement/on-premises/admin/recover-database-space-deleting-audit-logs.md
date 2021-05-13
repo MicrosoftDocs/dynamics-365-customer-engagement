@@ -1,5 +1,6 @@
 ---
 title: "Recover database space by deleting audit logs | MicrosoftDocs"
+description: "Delete old and unwanted logs to clean up your database space."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -23,7 +24,7 @@ search.audienceType:
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-When you enable auditing, Dynamics 365 Customer Engagement (on-premises) stores the change history for transactions in the form of audit logs in the database. You can delete the old or unwanted logs to clean up the database space.  
+When you enable auditing, Dynamics 365 Customer Engagement (on-premises) stores the change history for transactions in the form of audit logs in the database. You can delete old and unwanted logs to clean up your database space.  
   
 > [!CAUTION]
 >  When you delete an audit log, you can no longer view the audit history for the period covered by that audit log.  

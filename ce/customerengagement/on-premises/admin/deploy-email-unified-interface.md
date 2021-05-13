@@ -1,5 +1,6 @@
 ---
 title: "Enable accessible email  | MicrosoftDocs"
+description: "Improve accessibility when reading and editing email in Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

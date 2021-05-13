@@ -1,5 +1,6 @@
 ---
 title: "View and take action on bulk deletion jobs | MicrosoftDocs"
+description: "view the status of, pause, postpone, and resume a system job that you created using Bulk Record Deletion."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

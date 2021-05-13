@@ -1,5 +1,6 @@
 ---
 title: "Enable change tracking to control data synchronization  | MicrosoftDocs"
+description: "Enable change tracking to control data synchronization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -34,7 +35,7 @@ Large Dynamics 365 Customer Engagement (on-premises) organizations that synchron
    ![Select Change Tracking for an entity](../admin/media/change-tracking.PNG "Select Change Tracking for an entity")  
   
 ### See also  
- [](../admin/manage-your-data.md "Manage your data")
+ [Manage your data](../admin/manage-your-data.md "Manage your data")
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

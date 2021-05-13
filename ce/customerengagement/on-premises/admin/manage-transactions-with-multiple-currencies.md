@@ -1,5 +1,6 @@
 ---
 title: "Manage transactions with multiple currencies | MicrosoftDocs"
+description: "Add the currencies that are most appropriate for your current and future business needs."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

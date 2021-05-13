@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Formats tab  | MicrosoftDocs"
+description: "Control how Dynamics 365 Customer Engagement (on-premises) displays numbers, currencies, times, and dates for your organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

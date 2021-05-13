@@ -1,5 +1,6 @@
 ---
 title: "Data encryption  | MicrosoftDocs"
+description: "Enhance security by encrypting your data."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

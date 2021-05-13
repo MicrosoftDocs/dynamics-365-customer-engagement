@@ -1,5 +1,6 @@
 ---
 title: "Copy a security role  | MicrosoftDocs"
+description: "Save time creating a security role by copying one."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

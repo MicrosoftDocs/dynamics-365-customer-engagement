@@ -1,5 +1,6 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
+description: "Share business objects and collaborate with other people across business units."
 ms.custom: 
 ms.date: 01/10/2020
 ms.reviewer: 

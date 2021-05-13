@@ -1,5 +1,6 @@
 ---
 title: "Customize regional options  | MicrosoftDocs"
+description: "You can customize how numbers, currencies, times, and dates appear to everyone in your organization." 
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

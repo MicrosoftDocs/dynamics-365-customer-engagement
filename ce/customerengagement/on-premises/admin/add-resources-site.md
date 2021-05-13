@@ -1,5 +1,6 @@
 ---
 title: "Add resources to a site  | MicrosoftDocs"
+description: "Add resources such as users, equipment, or facilities to a site."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

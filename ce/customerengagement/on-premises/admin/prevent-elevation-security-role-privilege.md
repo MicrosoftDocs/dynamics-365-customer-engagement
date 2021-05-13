@@ -1,5 +1,6 @@
 ---
 title: "Create an administrative user and prevent elevation of security role privilege | MicrosoftDocs"
+description: "Create a new security role based on an existing set of privileges."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

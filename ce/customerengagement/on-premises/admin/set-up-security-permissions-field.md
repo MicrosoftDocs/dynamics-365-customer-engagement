@@ -1,5 +1,6 @@
 ---
 title: "Set up security permissions for a field  | MicrosoftDocs"
+description: "Restrict access to a field by creating a field security profile."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

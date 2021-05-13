@@ -1,5 +1,6 @@
 ---
 title: "Migrate settings from the Email Router to server-side synchronization  | MicrosoftDocs"
+description: "Set up email and synchronize your appointments, contacts, and tasks."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

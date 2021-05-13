@@ -1,5 +1,6 @@
 ---
 title: "Configure Quick Find options (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
+description: "Provides quick results to users who enter simple queries to commonly-searched entities."
 ms.custom: 
 ms.date: 10/17/2019
 ms.reviewer: 

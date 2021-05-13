@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - General tab  | MicrosoftDocs"
+description: "Change general system-level settings like preferences for saving, decimal and currency precision, and other default settings for Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 01/27/2020
 ms.reviewer: 

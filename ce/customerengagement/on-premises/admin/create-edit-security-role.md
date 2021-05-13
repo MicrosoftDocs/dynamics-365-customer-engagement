@@ -1,5 +1,6 @@
 ---
 title: "Create or edit a security role | MicrosoftDocs"
+description: "Create new security roles to accommodate changes in your business requirements."
 ms.custom: 
 ms.date: 10/11/2018
 ms.reviewer: 

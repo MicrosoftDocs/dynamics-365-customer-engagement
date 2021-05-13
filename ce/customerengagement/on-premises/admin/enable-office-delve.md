@@ -1,5 +1,6 @@
 ---
 title: "Enable Office Delve with Dynamics 365 for Customer Engagement| MicrosoftDocs"
+description: "Enable Office Delve with Dynamics 365 for Customer Engagement."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -17,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# About Office Delve/Graph
+# Enable Office Delve with Dynamics 365 for Customer Engagement
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

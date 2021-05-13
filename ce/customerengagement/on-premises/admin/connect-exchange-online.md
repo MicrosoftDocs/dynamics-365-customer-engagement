@@ -1,6 +1,6 @@
 ---
 title: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online | MicrosoftDocs"
-description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online"
+description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online."
 ms.custom: 
 ms.date: 05/14/2020
 ms.reviewer: 

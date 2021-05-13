@@ -1,5 +1,6 @@
 ---
 title: "Hierarchy security  | MicrosoftDocs"
+description: "Create several business units and then add the hierarchy security."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -16,7 +17,6 @@ caps.latest.revision: 30
 ms.author: jimholtz
 search.audienceType: 
   - admin
-
 ---
 # Hierarchy security to control access
 

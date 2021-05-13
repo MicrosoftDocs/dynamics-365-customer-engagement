@@ -1,5 +1,6 @@
 ---
 title: "Determine your environment's organization ID and name | MicrosoftDocs"
+description: "Determine your environment's organization ID and name using customization settings."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

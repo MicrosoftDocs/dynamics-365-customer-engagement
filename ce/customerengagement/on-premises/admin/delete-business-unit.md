@@ -1,5 +1,6 @@
 ---
 title: "Delete a business unit | MicrosoftDocs"
+description: "Delete a business unit to completely remove it from Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

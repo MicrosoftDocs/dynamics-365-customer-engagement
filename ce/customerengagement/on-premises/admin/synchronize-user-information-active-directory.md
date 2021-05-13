@@ -1,5 +1,6 @@
 ---
 title: "Synchronize user information between Customer Engagement (on-premises) and Active Directory | MicrosoftDocs"
+description: "Set up claims-based authentication for Internet-facing deployments (IFDs) of the product."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

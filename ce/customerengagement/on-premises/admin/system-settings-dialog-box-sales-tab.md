@@ -1,6 +1,6 @@
 ---
 title: "System Settings dialog box - Sales tab  | MicrosoftDocs"
-description: ""
+description: "Configure system-level settings for the sales area of Dynamics 365 Customer Engagement (on-premises)."
 keywords: 
 ms.date: 10/01/2019
 ms.service: crm-online

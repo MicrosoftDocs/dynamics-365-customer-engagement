@@ -1,5 +1,6 @@
 ---
 title: "When would I want to use this check box? | MicrosoftDocs"
+description: "A user can be a member of more than one Dynamics 365 Customer Engagement (on-premises) organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

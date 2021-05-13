@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Customization tab  | MicrosoftDocs"
+description: "Set preferences for plug-in and workflow tracing and also the use of application mode."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
