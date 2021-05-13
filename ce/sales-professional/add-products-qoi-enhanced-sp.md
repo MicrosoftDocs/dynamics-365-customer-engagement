@@ -121,5 +121,5 @@ no longer relevant for the quote. You can remove products in two circumstances:
 
 ### See also
 
-[Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
-[Customize the Add Products dialog box](customize-add-products-dialog-box.md)
+[Enable the enhanced experience of adding products](enable-enhanced-add-product-experience-sp.md)  
+[Customize the Add Products dialog box](customize-add-products-dialog-box-sp.md)

@@ -110,5 +110,5 @@ By default, the search field in the Add products dialog searches the product nam
 
 [Create a solution](/powerapps/maker/data-platform/create-solution)  
 [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)  
-[Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
-[Add products to quotes, orders, or invoices](add-products-qoi-enhanced.md)
+[Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience-sp.md)  
+[Add products to quotes, orders, or invoices](add-products-qoi-enhanced-sp.md)
