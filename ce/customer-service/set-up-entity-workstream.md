@@ -1,10 +1,10 @@
 ---
-title: "Set up entity work stream | MicrosoftDocs"
-description: "Learn how to set up entity work stream in the Omnichannel for Customer Service."
+title: "Set up workstream for records in Omnichannel Administration | MicrosoftDocs"
+description: "Learn how to set up record workstream in the Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/28/2021
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
