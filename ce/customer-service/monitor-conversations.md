@@ -2,10 +2,9 @@
 title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
 author: "mh-jaya"
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/21/2021
+ms.date: 05/15/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -86,5 +85,6 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 [Configure Intraday insights dashboard for Unified Service Desk](configure-intraday-dashboard-supervisor.md)  
 [Enable sentiment analysis](enable-sentiment-analysis.md)  
+[Enable Supervisor settings in Omnichannel for Customer Service](enable-monitor-assign-transfer-conv.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

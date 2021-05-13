@@ -633,7 +633,7 @@
         - name: Provide access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
         - name: Enable supervisors to monitor, assign, and transfer conversations
-          href: enable-supervisor-settings.md
+          href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
