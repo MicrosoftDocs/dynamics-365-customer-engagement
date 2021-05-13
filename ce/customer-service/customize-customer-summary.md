@@ -16,7 +16,7 @@ ms.service: "dynamics-365-customerservice"
 
 You can customize the following for the **Customer summary** page:
 
-- Add or remove existing or custom controls
+- Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
 

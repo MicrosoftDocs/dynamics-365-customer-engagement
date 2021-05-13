@@ -22,6 +22,8 @@ search.app:
 
 # Browser requirements to enable a seamless experience in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] is a cloud-based service that requires no special software running on users’ computers other than an up-to-date web browser. The system and browser requirements for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the same as those for [Microsoft Dynamics 365 apps](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531055(v=crm.8)). In addition, your browser must be configured as follows:  
   
 - **Allow JavaScript from [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]**  

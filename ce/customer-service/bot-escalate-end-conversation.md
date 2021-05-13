@@ -295,7 +295,7 @@ You understand that your data may be transmitted and shared with external system
 ### See also
 
 [Integrate a bot](configure-bot.md)  
-[Create context variables](work-streams-introduction.md)  
+[Create context variables](create-workstreams.md#configure-context-variables)  
 [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)  
 [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
 

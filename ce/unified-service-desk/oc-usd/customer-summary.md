@@ -145,6 +145,7 @@ Based on the type of agent script your system administrator has configured, you 
 Text instructions provides guidance for the action you must perform. A text instruction step in the agent script shows a title, instructions, and the **Text instruction** icon. After you perform the instruction, you can select the **Mark as done** icon to indicate that you've executed the step.
 
 **Example**
+
 | Title | Instruction that you perform |
 |----------------|-------------------------------------------------------------------------|
 | Greet customer | Greet the customer by using the welcome message from the quick reply repository.|

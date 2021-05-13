@@ -62,7 +62,6 @@ While the Field Service (Dynamics 365) mobile app works on all devices that meet
 
 ### See also
 
-[What's supported Dynamics 365 phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/support-phones-tablets)
+[What's supported Dynamics 365 phones and tablets](../mobile-app/support-phones-tablets.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

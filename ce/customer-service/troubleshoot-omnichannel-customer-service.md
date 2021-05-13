@@ -1,10 +1,10 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/12/2021
+ms.date: 04/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -78,14 +78,14 @@ To avoid the provisioning failure, you must remove the Teams Service Principal a
 ![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
 
 2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
-3. Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+3. Type the `Install-Module AzureAD` command in the PowerShell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
 ![Execute command](media/powershell2.png "Execute command")
 
 4. PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
 ![Run command](media/powershell3.png "Run command")
 
 5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
-This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
+This establishes a connection with the tenant's Azure Active Directory, so you can manage it using PowerShell.
 6. Sign in to your organization as a tenant admin.
 7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
 
@@ -110,7 +110,12 @@ To learn more about Security Defaults, see the topic [What are security defaults
 
 
 
+If your tenant is configured with Azure Security Defaults, make sure your users have multi-factor authentication set up on their accounts. Otherwise, they might run into a single sign-on error. To learn more about Azure Security defaults, see [What are security defaults ?](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)
+
+
 ### Error messages 
+
+  - There was a problem with your single sign-on account. Please sign out of all Microsoft Dynamics 365 apps and sign in again. If this continues, have your administrator contact Microsoft Support with client session ID.
 
   - Something went wrong while authenticating—please try again. If this continues, have your administrator contact Microsoft Support with the client session ID.
 
@@ -169,7 +174,7 @@ In Power Automate, you might see either **Cases Work Distribution Flow** or **En
 
 ### Resolution
 
-To workaround the issue, you need to reset the Flow. To reset the Flow, follow these steps.
+To work around the issue, you must reset the Flow. To reset the Flow, follow these steps.
 
 1. Sign in to the Omnichannel Administration app.
 

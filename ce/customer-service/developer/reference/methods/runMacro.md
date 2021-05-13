@@ -6,6 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 10/17/2019
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ---
 # runMacro
 
@@ -40,7 +41,7 @@ Microsoft.ProductivityMacros.runMacro(macroName).then(function(success){
 
 ## See also
 
-[Overview of Productivity Tools](../../../productivity-tools.md)<br />
+[Overview of Productivity Tools](../../../../app-profile-manager/productivity-tools.md)<br />
 [Automate tasks with macros](../../../../app-profile-manager/macros.md)
 
 

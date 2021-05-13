@@ -21,7 +21,7 @@ search.app:
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service and contains various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The Insights dashboards for Customer Service and Omnichannel for Customer Service contain various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
 Insights dashboards cover Customer Service, Omnichannel for Customer Service, and Knowledge Management. The Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel for Customer Service dashboards provide a view into the support operation across channels. For Knowledge managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
 
@@ -62,7 +62,7 @@ The Case Topics dashboard shows a detailed breakdown of cases and their assigned
    > [!div class=mx-imgBorder]
    > ![Analytics Topics dashboard](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics dashboard")
    
-For more information about the Case Topics dashboard, see [Topics dashboard](topics-dashboard-cs.md)
+For more information about the Case Topics dashboard, see [Topics dashboard](case-topics-dashboard-cs.md)
 
 
 ### Knowledge Search Analytics report
@@ -74,7 +74,58 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 
 For more information about the Knowledge Search Analytics report, see [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
 
-## Information you need to know about the analytics reports
+## Omnichannel historical analytics reports
+
+The following dashboard reports are available for Omnichannel historical analytics.
+
+### Conversation
+
+The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. 
+
+> [!div class="mx-imgBorder"]
+> ![Conversation dashboard](media/conversation-dashboard.png "Conversation dashboard")
+
+For more details about the conversation report, see [Conversation dashboard](conversation-dashboard.md)
+
+
+### Queue
+
+The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
+
+> [!div class="mx-imgBorder"]
+> ![Queue dashboard](media/queue-report.png "Queue dashboard")
+
+For more details about the queue report, see [Queue dashboard](oc-queue-dashboard.md)
+
+### Agent
+
+The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance.
+
+> [!div class="mx-imgBorder"]
+> ![Agent dashboard](media/agent-report-cs.png "Agent report").
+
+For more details about the Agent report, see [Agent dashboard](agent-dashboard-cs.md)
+
+### Bot
+
+The Bot dashboard shows charts and KPIs that you can use to understand how bots are playing a role in a support organization. 
+
+> [!div class="mx-imgBorder"]
+> ![Bot dashboard](media/oc-bot-dashboard.png "Bot dashboard")
+
+For more details about the bot report, see [Bot dashboard](oc-bot-dashboard.md)
+
+### Conversation Topics
+
+The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. 
+
+> [!div class="mx-imgBorder"]
+> ![Conversation Topics](media/conversation-topics-dashboard.png "Conversation Topics")
+
+For more details about the Topics dashboard, see [Topics dasboard](oc-conversation-topics-dashboard.md)
+
+
+## Information that you need to know about the analytics reports
 
 ### Reports refresh, data retention
 

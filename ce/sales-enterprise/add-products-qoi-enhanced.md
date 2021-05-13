@@ -1,5 +1,5 @@
 ---
-title: "Add products to quotes, orders, or invoices by using the enhanced experience (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Enhanced experience for Adding products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
 ms.date: 04/02/2021
 ms.service: dynamics-365-sales
@@ -21,7 +21,7 @@ searchScope:
   - Sales
 ---
 
-# Preview: Add products to quotes, orders, or invoices 
+# Preview: Add products to quotes, orders, or invoices by using the enhanced experience
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -71,7 +71,7 @@ If you've created a quote from an opportunity, the products added to the opportu
    ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
 
    > [!NOTE]
-   > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview.
+   > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview. 
    >
    > The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
 

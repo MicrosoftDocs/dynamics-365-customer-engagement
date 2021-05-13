@@ -20,6 +20,8 @@ search.app:
 
 # Troubleshooting guide
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 ## I have installed Gamification from AppSource and get the error "Cannot create organization" while activating.
 
 You should be able to install and activate Gamification if the pre-requisites in [Activate Gamification in Dynamics 365](manage-gamification-in-dynamics-365-online.md#activate-gamification-in-dynamics-365) are met. If you are still facing an issue, please try the following options: 

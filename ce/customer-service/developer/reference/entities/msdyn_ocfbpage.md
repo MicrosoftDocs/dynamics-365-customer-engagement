@@ -931,7 +931,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Omnichannel – Base Solution
 
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocfbpage](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocfbpage) One-To-Many relationship.
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocfbpage](msdyn_liveworkstream.md) One-To-Many relationship.
 
 ### See also
 

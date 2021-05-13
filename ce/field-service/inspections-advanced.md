@@ -105,7 +105,7 @@ Some question types are limited. For example, the entity lookup question type wi
 ## Export inspection responses as PDF
 
 > [!Note]
-> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
 
 Inspection responses can also be exported as a PDF from the work order service task. There is a new option - **Export Responses** - on the work order service task that saves the inspection in the same format and with the responses filled in.
 
@@ -126,7 +126,7 @@ Inspection responses can also be exported as a PDF from the work order service t
 ## Import and export inspection templates
 
 > [!Note]
-> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
 
 Administrators can export inspection templates to then import into another environment. This is valuable in scenarios where an inspection was created in a test environment but now needs to be imported into a live production environment to use. Importing saves you having to re-create the inspection from scratch in the production environment.
 
@@ -146,7 +146,7 @@ In the list of inspections in another environment, select **Import from json** i
 ## Language translations
 
 > [!Note]
-> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+> The feature in this section is currently available as early access. For more information, see the article on [how to opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
 
 Inspection creators can add language variations for each inspection.
 
@@ -184,7 +184,7 @@ Associating a customer asset allows the technician to see which customer asset n
 ### Add inspections to customer assets without work orders
 
 > [!Note]
-> The feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
+> The feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
 
 To enable inspections on customer assets without a work order, an admin must perform the following steps.
 

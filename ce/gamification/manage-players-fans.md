@@ -22,6 +22,8 @@ search.app:
 
 # Manage users from Dynamics 365 apps and their security roles
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 When you set up a new game, you need to define which users will be players and which will be fans in your upcoming [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] game. Users from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] are available automatically in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].
 
 

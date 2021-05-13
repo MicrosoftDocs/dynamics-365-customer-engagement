@@ -1,6 +1,6 @@
 ---
-title: Understanding dashboards in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
-description: Understand dashboards in Customer Service Hub for Dynamics 365 Customer Service.
+title: "Manage cases using interactive dashboards | Microsoft Docs"
+description: "Understand dashboards in Customer Service Hub in Dynamics 365 Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -18,7 +18,7 @@ search.app:
   - D365CS
 ---
 
-# Manage service cases using interactive dashboards
+# Manage cases using interactive dashboards
 
 Use interactive dashboards to effectively manage service cases in the Customer Service Hub application.
 
@@ -62,7 +62,7 @@ The illustrations given below show multi-stream and single-stream dashboards wit
 - Refresh All
 - Timeframe filter 
   
-![dashboard-header](media/dashboard-header.png "Dashboard header")
+![dashboard header](media/dashboard-header.png "Dashboard header")
   
 ### Multi-stream dashboard standard view  (with visual filter)
  In the multi-stream dashboard, when you select **Show Visual Filter**, you see a row of visual filters at the top with the data streams below.  
@@ -147,7 +147,7 @@ By using a combination of Visual and Global filters, you can drill down from a l
 
 For example, you can choose to view cases created in **This Quarter**, or  **Last Quarter**. You can also apply **Custom Time Frame** filter, where you can choose a particular start and end date to view the records created during a specific timeframe.   
 
-![custom-timeframe](media/custom-timeframe.png "Custom timeframe")
+![custom timeframe](media/custom-timeframe.png "Custom timeframe")
   
   
 
@@ -185,7 +185,7 @@ Select the Bulk Select icon and select multiple records by selecting the check b
 
 In the streams, the color is depicted using the thin vertical line to the left of the work item description. You can work with your administrator to choose the colors you like for your dashboard data.  
 
-![color-streams](media/color-streams.png "Color streams in dashboard")
+![color streams in dashboard](media/color-streams.png "Color streams in dashboard")
 
 
 ## Information for customizers  

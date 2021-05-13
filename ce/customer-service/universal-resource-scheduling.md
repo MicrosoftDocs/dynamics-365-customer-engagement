@@ -62,7 +62,7 @@ Use the following input and output parameters for the Search Resource Availabili
 
 |Returns | Name(Type)  | Description |
 |---|---|---|
-|Time slot(Entity collection) |StartTime (DateTime) | The start time.|
+|Time slot (Entity collection) |StartTime (DateTime) | The start time.|
 |         |EndTime (DateTime)                    |The end time.|
 |         |ArrivalTime (DateTime)                |The arrival time.|
 |         |Effort (Double)                       |The effort/capacity.|

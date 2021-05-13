@@ -69,12 +69,12 @@ Connect Azure IoT Central to Connected Field Service by configuring the "Create 
 
 3. Once on the Refrigerated Vending Machine detail page, navigate to the **Dashboard** tab, seen below in the screenshot.
 
-    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, refer to [this documentation](https://docs.microsoft.com/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
+    a. You should see service and scheduling fields in the Contoso Template. Their values should be empty. If you can't see these fields, refer to [this documentation](/azure/iot-central/howto-manage-devices#change-a-property) to add the properties.
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the service details on and IoT Central device](media/iot-central-alerts-3.png)
 
-1. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
+1. Next, while still on this detail page, head over to the **Rules** tab, and create the rule "Cash drawer level is high." For more information on creating a rule, learn more in [this IoT Central tutorial](/azure/iot-central/tutorial-configure-rules).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the rules tab in IoT Central](media/iot-central-alerts-4.png)
@@ -289,9 +289,9 @@ You've now completed the tutorials. Nice work.
 
 
 ## Learn more about Azure IoT Central
-- [What is Azure IoT Central?](https://docs.microsoft.com/azure/iot-central/overview-iot-central)
-- [Tour of Azure IoT Central user interface](https://docs.microsoft.com/azure/iot-central/overview-iot-central-tour)
-- [Create a new application in Azure IoT Central - tutorial](https://docs.microsoft.com/azure/iot-central/quick-deploy-iot-central)
+- [What is Azure IoT Central?](/azure/iot-central/overview-iot-central)
+- [Tour of Azure IoT Central user interface](/azure/iot-central/overview-iot-central-tour)
+- [Create a new application in Azure IoT Central - tutorial](/azure/iot-central/quick-deploy-iot-central)
 
 
 

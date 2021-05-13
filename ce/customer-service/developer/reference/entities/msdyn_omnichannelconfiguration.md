@@ -1,19 +1,23 @@
 ---
-title: "msdyn_omnichannelconfiguration Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration entity."
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
-ms.date: 09/14/2020
+title: "msdyn_omnichannelconfiguration table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity."
+ms.date: 04/16/2021
+ms.service: "powerapps"
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
-applies_to: 
-  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
+search.audienceType: 
+  - developer
+search.app: 
+  - PowerApps
+  - D365CE
 ---
-# msdyn_omnichannelconfiguration Entity Reference
+# msdyn_omnichannelconfiguration table/entity reference
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
+> [!NOTE]
+> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 Configuration for Omnichannel
 
 **Added by**: Omnichannel - Base Patch Solution
@@ -23,21 +27,15 @@ Configuration for Omnichannel
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -55,21 +53,25 @@ Configuration for Omnichannel
 
 <a name="writable-attributes"></a>
 
-## Writable attributes
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msdyn_defaultAgentInputLanguage](#BKMK_msdyn_defaultAgentInputLanguage)
+- [msdyn_enable_advance_entity_routing](#BKMK_msdyn_enable_advance_entity_routing)
 - [msdyn_enable_missed_notifications](#BKMK_msdyn_enable_missed_notifications)
 - [msdyn_enable_supervisor_assign](#BKMK_msdyn_enable_supervisor_assign)
 - [msdyn_enable_supervisor_monitor](#BKMK_msdyn_enable_supervisor_monitor)
+- [msdyn_enable_unified_routing_diagnostic](#BKMK_msdyn_enable_unified_routing_diagnostic)
 - [msdyn_enable_visitorjourney](#BKMK_msdyn_enable_visitorjourney)
 - [msdyn_EnableRealTimeTranslation](#BKMK_msdyn_EnableRealTimeTranslation)
 - [msdyn_enablesoundnotifications](#BKMK_msdyn_enablesoundnotifications)
 - [msdyn_inactive_presence_lookup](#BKMK_msdyn_inactive_presence_lookup)
+- [msdyn_isdefaultpersonamapped](#BKMK_msdyn_isdefaultpersonamapped)
 - [msdyn_ispersonalizationofsoundenabled](#BKMK_msdyn_ispersonalizationofsoundenabled)
 - [msdyn_isPersonalMessagesEnabled](#BKMK_msdyn_isPersonalMessagesEnabled)
+- [msdyn_ispersonasecurityrolemappingenabled](#BKMK_msdyn_ispersonasecurityrolemappingenabled)
 - [msdyn_IsSkillBasedRoutingEnabled](#BKMK_msdyn_IsSkillBasedRoutingEnabled)
 - [msdyn_IsUpdateSkillsEnabled](#BKMK_msdyn_IsUpdateSkillsEnabled)
 - [msdyn_maskforagent](#BKMK_msdyn_maskforagent)
@@ -114,7 +116,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_defaultAgentInputLanguage Options
+#### msdyn_defaultAgentInputLanguage Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -165,6 +167,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msdyn_enable_advance_entity_routing"></a> msdyn_enable_advance_entity_routing
+
+|Property|Value|
+|--------|-----|
+|Description|Setting to change advance entity routing for the org.|
+|DisplayName|Enable advance entity routing|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_advance_entity_routing|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enable_advance_entity_routing Choices/Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_enable_missed_notifications"></a> msdyn_enable_missed_notifications
 
 |Property|Value|
@@ -177,7 +202,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enable_missed_notifications Options
+#### msdyn_enable_missed_notifications Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -200,7 +225,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_enable_supervisor_assign Options
+#### msdyn_enable_supervisor_assign Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -223,7 +248,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_enable_supervisor_monitor Options
+#### msdyn_enable_supervisor_monitor Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -231,6 +256,31 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|No|
 
 **DefaultValue**: True
+
+
+
+### <a name="BKMK_msdyn_enable_unified_routing_diagnostic"></a> msdyn_enable_unified_routing_diagnostic
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Setting to change unified routing diagnostic for the org.|
+|DisplayName|Enable unified routing diagnostic|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_unified_routing_diagnostic|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enable_unified_routing_diagnostic Choices/Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
 
 
 
@@ -246,7 +296,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_enable_visitorjourney Options
+#### msdyn_enable_visitorjourney Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -269,7 +319,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_EnableRealTimeTranslation Options
+#### msdyn_EnableRealTimeTranslation Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -292,7 +342,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_enablesoundnotifications Options
+#### msdyn_enablesoundnotifications Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -317,6 +367,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Lookup|
 
 
+### <a name="BKMK_msdyn_isdefaultpersonamapped"></a> msdyn_isdefaultpersonamapped
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|isdefaultpersonamapped|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isdefaultpersonamapped|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_isdefaultpersonamapped Choices/Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: False
+
+
+
 ### <a name="BKMK_msdyn_ispersonalizationofsoundenabled"></a> msdyn_ispersonalizationofsoundenabled
 
 |Property|Value|
@@ -329,7 +402,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_ispersonalizationofsoundenabled Options
+#### msdyn_ispersonalizationofsoundenabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -352,7 +425,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isPersonalMessagesEnabled Options
+#### msdyn_isPersonalMessagesEnabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -360,6 +433,29 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |0|No|
 
 **DefaultValue**: False
+
+
+
+### <a name="BKMK_msdyn_ispersonasecurityrolemappingenabled"></a> msdyn_ispersonasecurityrolemappingenabled
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|ispersonasecurityrolemappingenabled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ispersonasecurityrolemappingenabled|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_ispersonasecurityrolemappingenabled Choices/Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
+
+**DefaultValue**: True
 
 
 
@@ -377,7 +473,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_IsSkillBasedRoutingEnabled Options
+#### msdyn_IsSkillBasedRoutingEnabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -394,15 +490,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Enable Update Skills for Conversation|
-|DisplayName|Enable Update Skills|
+|Description|This will enable agents to view and update skills for a conversation.|
+|DisplayName|Enable update skill control|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_isupdateskillsenabled|
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_IsUpdateSkillsEnabled Options
+#### msdyn_IsUpdateSkillsEnabled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -425,7 +521,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_maskforagent Options
+#### msdyn_maskforagent Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -448,7 +544,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_maskforcustomer Options
+#### msdyn_maskforcustomer Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -550,7 +646,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -571,7 +667,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -613,9 +709,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
@@ -945,8 +1041,4 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

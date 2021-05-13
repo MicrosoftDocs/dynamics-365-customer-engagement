@@ -37,16 +37,6 @@ Skill-based routing allows you to easily match the conversation to the agent mos
 
 - Faster conversation resolution.
 
-## Understand skill-based routing
-
-   > [!div class=mx-imgBorder] 
-   > ![Skill-based routing](media/skill-based-routing1.png "Skill-based routing")
-
-When a customer initiates a conversation, the following happens:
-
-- Based on the skill attachment rules, the system attaches the skills to the conversation.
-- Based on the routing rules, the system routes the conversation to the appropriate queue.
-- Now, the work distribution system starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
 
 ## Prerequisites
 
@@ -55,15 +45,13 @@ When a customer initiates a conversation, the following happens:
 
 ## Skill-based routing overview steps
 
-   > [!div class=mx-imgBorder]
-   > ![Skill-based routing setup](media/skill-based-routing2.png "Skill-based routing setup")
-
-- [Step 1: Enable skill-based routing](enable-skill-routing-create-rating-model.md#enable-skill-based-routing)
-- [Step 2: Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model)
-- [Step 3: Create skill type](setup-skills-assign-agents.md#create-skill-type)
-- [Step 4: Create skills](setup-skills-assign-agents.md#create-skills)
-- [Step 5: Assign agents to skill](setup-skills-assign-agents.md#assign-agents-to-skill)
-- [Step 6: Create rules to attach skill](attach-skills.md#create-rules-to-attach-a-skill)
+The steps to configure skill-based routing are as follows:
+  
+- [Step 1: Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model)
+- [Step 2: Create skill type](setup-skills-assign-agents.md#create-skill-type)
+- [Step 3: Create skills](setup-skills-assign-agents.md#create-skills)
+- [Step 4: Assign agents to skill](setup-skills-assign-agents.md#assign-agents-to-skill)
+- [Step 5: Create rules to attach skill](attach-skills.md#create-rules-to-attach-a-skill)
 
 ## Videos
 
@@ -73,7 +61,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
-[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Attach skills to conversation](attach-skills.md)  
 

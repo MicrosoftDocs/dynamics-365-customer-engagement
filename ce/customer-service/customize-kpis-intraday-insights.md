@@ -49,7 +49,7 @@ You can add the custom KPIs that are specific to your organization to intraday i
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
@@ -105,7 +105,7 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
    The dataset selection dialog box opens.
 
-4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace-in-the-omnichannel-administration-app)), and then select **Load**.
+4. Select **IntradayMonitoring** from the workspace that you have created through configuration ([Configure Power BI workspace in Omnichannel Administration app](configure-intraday-dashboard-supervisor.md#configure-the-power-bi-workspace)), and then select **Load**.
 
    > [!div class=mx-imgBorder]
    > ![Select intraday insights datasets](media/supervisor-admin-custom-kpis-select-pbidatasets-intraday.png "Select intraday insights datasets")
@@ -150,17 +150,17 @@ You can edit the measures and visuals of existing custom and out-of-the-box KPIs
 
 The tables in the intraday insights dataset consists of entity attributes along with measures and calculated columns. The following are the list of entity that are supported in Intraday insights:
 
-- **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity).
+- **Agent**. To learn more about entity attributes for agent, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity).
 
-- **AgentAvailability**. To learn more about entity attributes for agent availability, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity) and [msdyn_presence](developer/reference/entities/msdyn_presence.md).
+- **AgentAvailability**. To learn more about entity attributes for agent availability, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [msdyn_presence](developer/reference/entities/msdyn_presence.md).
 
-- **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity) and [Queue Entity](developer/reference/entities/overview.md#queue-entity).
+- **AgentQueueAssociation**. To learn more about entity attributes for agent queue association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [Queue Entity](developer/reference/entities/overview-entity-ref.md#queue-entity).
 
-- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](developer/reference/entities/overview.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
+- **AgentRoleAssociation**. To learn more about about entity attributes for agent role association, see [SystemUser entity](developer/reference/entities/overview-entity-ref.md#systemuser-entity) and [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
 
 - **Presence**. To learn more about entity attributes for presence, see [msdyn_presence Entity Reference - Writable attributes](developer/reference/entities/msdyn_presence.md#writable-attributes).
 
-- **Queue**. To learn more about entity attributes for queue, see [Queue Entity](developer/reference/entities/overview.md#queue-entity).
+- **Queue**. To learn more about entity attributes for queue, see [Queue Entity](developer/reference/entities/overview-entity-ref.md#queue-entity).
 
 - **RoleBase**. To learn more about entity attributes for role base, see [role EntityType](/dynamics365/customer-engagement/web-api/role?view=dynamics-ce-odata-9).
 

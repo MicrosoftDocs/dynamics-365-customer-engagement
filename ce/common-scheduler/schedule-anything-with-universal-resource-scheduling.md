@@ -24,7 +24,7 @@ For organizations that use:
 
 - Dynamics 365 Field Service, you can use scheduling tools to assign work orders to the closest field technicians in the area. More information: [Dynamics 365 Field Service Help](../field-service/universal-resource-scheduling-for-field-service.md) 
 
-- Dynamics 365 Customer Service, you can use scheduling tools to book cases to customer service reps in the right department and time zone. More information: [Dynamics 365 Customer Service - Service Scheduling](../customer-service/basics-service-service-scheduling.md)
+- Dynamics 365 Customer Service, you can use scheduling tools to book cases to customer service reps in the right department and time zone.
 
 - Dynamics 365 Project Service Automation, you can use scheduling tools to staff projects with consultants who have availability and the appropriate skill set. More information: [Dynamics 365 Project Service Automation Help](../project-service/overview.md) 
     

@@ -3,7 +3,7 @@ title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile
 description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 05/12/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -23,8 +23,8 @@ search.app:
 Use Microsoft Power Automate flows and the Dynamics 365 workflow engine to create workflows and business processes for technicians using the Field Service (Dynamics 365) mobile app.
 
 For more information, see the following articles: 
-- [Create a flow that uses Microsoft Dataverse](https://docs.microsoft.com/power-automate/common-data-model-intro) 
-- [Create custom business logic through processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)
+- [Create a flow that uses Microsoft Dataverse](/power-automate/common-data-model-intro) 
+- [Create custom business logic through processes](../customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes.md)
 
 Power Automate flows and workflows will trigger when the mobile app is synced with the server and the conditions of the workflow are met. If there is no internet connectivity, use offline JavaScript as seen in the next section.
 
@@ -70,8 +70,11 @@ Enter in the following code snippet:
 
 ```
 
-Ensure the web resource triggers on save of the form.
-  
+In the event handlers section, change the event from *onLoad* to *onSave* of the form.
+
+> [!div class="mx-imgBorder"]
+> ![Handler properties within the form properties.](./media/mobile-2020-workflows2.png))
+
 Save and publish customizations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,11 +9,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Attach skills to conversation
+# Attach skills to conversation in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Understand skill
+## Understand skill-based routing
+
+   > [!div class=mx-imgBorder] 
+   > ![Skill-based routing](media/skill-based-routing1.png "Skill-based routing")
+
+When a customer initiates a conversation, the following happens:
+
+- Based on the skill attachment rules, the system attaches the skills to the conversation.
+- Based on the routing rules, the system routes the conversation to the appropriate queue.
+- Now, the work distribution system starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
 
 In the portal, when a customer fills in the prechat survey questions, the system receives them as context variables. The system attaches these variables to the incoming conversation as a skill. The work distribution engine matches the skills of the agents. The skill is matched on exact or closest match. If the agent and conversation skills match, the work distribution engine assigns the conversation to the agent.
 

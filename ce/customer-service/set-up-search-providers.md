@@ -4,7 +4,7 @@ description: Learn how to set up a search provider for knowledge management in D
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -21,18 +21,18 @@ search.app:
 
 Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self service, assisted service, and onsite service), expedites issue resolution and drives customer and agent satisfaction and productivity.
 
-The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.  
+The ability to create, import, and share knowledge bases is a core capability of successful support delivery. With knowledge management, agents and supervisors can author knowledge articles from templates, add knowledge search providers from multiple sources (SharePoint, Microsoft Search, and other Dynamics 365 organizations), and receive AI-triggered knowledge suggestions while helping customers to accelerate support delivery.  
 
 You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization.
 
 There are three types of search providers you can set up: 
 
 > [!NOTE]
-> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Search Connector integrations described below are currently in preview and are subject to change.
+> Use of the search provider feature is not currently supported in the US Department of Defense cloud.<br></br> The SharePoint and the Microsoft Graph connector integrations described below are currently in preview and are subject to change.
 
   -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
   -	**Sharepoint** (Preview): This option requires you to enter the SharePoint URL. 
-  -	**Microsoft Search Connector** (Preview): This option is for organizations that already use Microsoft search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft search connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview).
+  -	**Microsoft Graph connector** (Preview): This option is for organizations that already use Microsoft Search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft Graph connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview).
   
 From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
 
