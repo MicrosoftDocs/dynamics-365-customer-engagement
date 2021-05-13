@@ -29,14 +29,12 @@ The high-level process to set up unified routing for a channel or record is as f
 2. [Configure routing rules](configure-work-classification.md)
 3. [Create queues](queues-omnichannel.md)
 4. [Configure assignment rules](assignment-methods.md)
-5. [Set up unified routing for records](set-up-record-routing.md)
-6. [Set up skill-based routing](overview-skill-work-distribution.md)
 
 
 ### See also
 
-[Create and manage workstreams for unified routing](create-workstreams.md)  
-[Set up record routing](set-up-record-routing.md)  
+[Set up unified routing for records](set-up-record-routing.md)  
+[Set up skill-based routing](overview-skill-work-distribution.md)  
 [Manage capacity profiles](capacity-profiles.md)  
 [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)  
 [FAQs on unified routing](unified-routing-faqs.md)  
