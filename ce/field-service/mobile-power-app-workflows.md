@@ -3,7 +3,7 @@ title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile
 description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 05/12/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -70,8 +70,11 @@ Enter in the following code snippet:
 
 ```
 
-Ensure the web resource triggers on save of the form.
-  
+In the event handlers section, change the event from *onLoad* to *onSave* of the form.
+
+> [!div class="mx-imgBorder"]
+> ![Handler properties within the form properties.](./media/mobile-2020-workflows2.png))
+
 Save and publish customizations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
