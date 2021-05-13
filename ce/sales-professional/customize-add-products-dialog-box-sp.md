@@ -47,7 +47,7 @@ By default, the **Add products** dialog box displays the following columns in th
 
 **To add or remove columns in the grid**
 
-1. Sign in to Power Apps and open the view editor. For step-by-step instructions, see [Choose and configure columns in views](../customerengagement/on-premises/customize/choose-and-configure-columns#open-the-view-editor).  
+1. Sign in to Power Apps and open the view editor. For step-by-step instructions, see [Choose and configure columns in views](powerapps/maker/model-driven-apps/choose-and-configure-columns/choose-and-configure-columns#open-the-view-editor).  
 1. Select the following tables and views to configure the Add products dialog box for opportunity, quote, order, and invoice:
    
     |Table Name  |View Name  |
@@ -57,7 +57,7 @@ By default, the **Add products** dialog box displays the following columns in th
     |Order Product     | Order products Add Products         |
     |Invoice Product     |Invoice products Add Products          |
 
-2. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](../customerengagement/on-premises/customize/choose-and-configure-columns#add-columns-to-views).
+2. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](powerapps/maker/model-driven-apps/choose-and-configure-columns/choose-and-configure-columns#add-columns-to-views).
 1. Publish the customization.  
      The changes should now be visible in the Add products dialog of the corresponding entity. See, [Add products to an opportunity by using the enhanced experience (Sales Professional)](add-products-enhanced-experience-sp.md)
    
@@ -75,7 +75,7 @@ By default, the **Product** column in the Add product dialog includes the produc
 
 1. Open Power Apps, and select the **Product Lookup View** in the **Product** table.  
 
-1. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](../customerengagement/on-premises/customize/choose-and-configure-columns#add-columns-to-views).  
+1. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](powerapps/maker/model-driven-apps/choose-and-configure-columns/choose-and-configure-columns#add-columns-to-views).  
 
 1. Save and publish the customization.
      The changes should now be visible in the Product column of the Add products dialog for all entities. See, [Add products to an opportunity by using the enhanced experience (Sales Professional)](add-products-enhanced-experience-sp.md)  
