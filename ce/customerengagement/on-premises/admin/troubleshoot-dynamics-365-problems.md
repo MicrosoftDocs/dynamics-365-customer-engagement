@@ -25,7 +25,7 @@ We're sorry you're having a problem with Dynamics 365 Customer Engagement (on-pr
   
 ## Outlook and email integration  
   
--   [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
+-   [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml)  
   
 -   [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md)  
   
