@@ -43,7 +43,7 @@ Use the Omnichannel admin center app to quickly configure and add a chat widget 
 
 Follow these steps to embed your chat widget into a Power Apps portal. For steps to embed your chat widget into your website, see [Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md). For steps to embed your chat widget into mobile experiences, see [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md).
 
-1.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1.	[Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
 2.	Go to **Portal** > **Content Snippets**.
 3.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
