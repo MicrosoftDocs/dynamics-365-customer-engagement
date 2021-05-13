@@ -145,7 +145,7 @@ You can review and track the health of the automatic record creation rules and r
 > [!IMPORTANT]
 > The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
 
-> ![Results of the activity monitor](media/activitiy-monitor-results.png "Results of the activity monitor")
+> ![Results of the activity monitor](media/activity-monitor-results.png "Results of the activity monitor")
 
 The following details are available for the rules:
 
@@ -160,6 +160,7 @@ The following details are available for the rules:
 Perform the following steps to use the activity monitor for the rules:
 
 1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
+
 2. Use the **Advanced filters** option to narrow down the view to list rules, such as list only those rules that match a specified condition.
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
