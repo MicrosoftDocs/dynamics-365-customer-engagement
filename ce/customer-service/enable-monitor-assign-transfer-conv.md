@@ -15,9 +15,9 @@ As an administrator, you can enable your supervisors to take definite actions on
 
 - To enable your supervisors to monitor how conversations are being handled by their agents, go to **Supervisor settings** and set the **Supervisor Monitor** toggle to **Yes**.
 
-To enable supervisors to assign conversations, go to **Supervisor settings** and set the **Supervisor Assign** toggle to **Yes**.
+- To enable supervisors to assign conversations, go to **Supervisor settings** and set the **Supervisor Assign** toggle to **Yes**.
 
-To enable supervisors to transfer conversations, go to **Supervisor settings** and set the **Supervisor Transfer** toggle to **Yes**.
+- To enable supervisors to transfer conversations, go to **Supervisor settings** and set the **Supervisor Transfer** toggle to **Yes**.
 
 ## See also
 
