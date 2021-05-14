@@ -212,7 +212,7 @@ To review and test changes, set up an account and contact in Field Service as if
 1. Back in Field Service, confirm that the work order is created and the booking is scheduled.
 
 > [!NOTE]
-> You can manually create the portal user from Contact form using "Create Invitation" button in toolbar. Creating an invitation in this way will require an additional step of adding "Web API User" role to the user account before they can access the Portal. See [How do I manually create a portal user?(#how-do-i-manually-create-a-portal-user-?)
+> You can manually create the portal user from Contact form using "Create Invitation" button in toolbar. Creating an invitation in this way will require an additional step of adding "Web API User" role to the user account before they can access the Portal. See [How do I manually create a portal user?](#how-do-i-manually-create-a-portal-user-?)
 
 ## Configuration considerations
 
