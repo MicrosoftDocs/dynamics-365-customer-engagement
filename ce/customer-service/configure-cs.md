@@ -41,7 +41,7 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 - [Parent Child Case Settings](define-settings-parent-child-cases.md)
 - [Routing Rule Sets](create-rules-automatically-route-cases.md)
 - [Automatic Record Creation](set-up-rules-to-automatically-create-or-update-records.md)
-- [Subjects](../admin/define-subjects-categorize-cases-products-articles.md)
+- [Subjects](/power-platform/admin/define-subjects-categorize-cases-products-articles)
   
 ## Service terms  
 
@@ -49,7 +49,7 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 - [Entitlements](create-entitlement-define-support-terms-customer.md)
 - [Holiday Schedule](set-up-holiday-schedule.md)
 - [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
-- [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
+- [Service Configuration Settings](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 ## Templates
 
