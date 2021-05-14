@@ -628,11 +628,11 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
-      - name: Enable Supervisor settings
+      - name: Enable supervisor settings
         items:
         - name: Provide access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
-        - name: Enable Supervisors to monitor, assign, and transfer conversations
+        - name: Enable supervisors to monitor, assign, and transfer conversations
           href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
