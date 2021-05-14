@@ -212,7 +212,7 @@ To review and test changes, set up an account and contact in Field Service as if
 1. Back in Field Service, confirm that the work order is created and the booking is scheduled.
 
 > [!NOTE]
-> You can manually create the portal user from Contact form using "Create Invitation" button in toolbar. Creating an invitation in this way will require an additional step of adding "Web API User" role to the user account before they can access the Portal. See [How do I manually create a portal user?](#how-do-i-manually-create-a-portal-user)
+> You can manually create the portal user from the contact form using the **Create Invitation** option in the toolbar. Creating an invitation this way will require an additional step of adding the **Web API User** role to the user account before they can access the portal. For more information, see this section: [How do I manually create a portal user?](#how-do-i-manually-create-a-portal-user)
 
 ## Configuration considerations
 
@@ -328,18 +328,19 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 > [!div class="mx-imgBorder"]
 > ![Notification details in Field Service.](./media/09_FSSettings_BookingNotifications-details.jpg)
 
-## FAQ for self-scheduling portals
+## FAQs for self-scheduling portals
 
-### How do I manually create a Portal user?
+### How do I manually create a portal user?
 
-Within the Field Service Contact you can manually generate a Portal invite code by using the "Create Invitation" button within the Toolbar. This will generate the invite code for the Contact. However at this time you will need to manually assign the "Web Api Users" role to the user before they can access the Field Service Self Scheduling portal.
+Within the Field Service contact, you can manually generate a portal invite code by using the **Create Invitation** option within the toolbar. Selecting this option will generate the invite code for the contact. At this time, you must also manually assign the **Web Api Users** role to the user before they can access the Field Service self-scheduling portal.
 
 To set the required role:
-1. In the Contact, select **Related** > **Web Roles**
-2. Select **Add Existing Web Role**
-3. Select **Web API User** role
-4. Select **Add**
-5. Select **Save & Close**
+
+1. In the Contact, select **Related** > **Web Roles**.
+1. Select **Add Existing Web Role**.
+1. Select **Web API User** role.
+1. Select **Add**.
+1. Select **Save & Close**.
 
 
 ### While testing, I deleted and and re-added my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
