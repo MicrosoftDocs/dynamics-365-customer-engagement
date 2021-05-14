@@ -103,26 +103,60 @@ To create a cascading field:
 
 After creating a custom entity to use with a lookup field, or if your lookup field is not working, you should double check that you have the settings listed below enabled for the entity you're using with the lookup field.
 
-> [!NOTE]
-> We currently do not support filtering entities by state code. Entities will appear in lookups regardless of their state code.
 
-1. [Enable and configure relevance search](/power-platform/admin/configure-relevance-search-organization#enable-relevance-search) for the entity you want to use with the lookup field. The relevance search configuration is located in the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Make sure you and your organization are aware that the lookup data you will be configuring will be available online on the Internet. You need to assess the personal identifiable information and other sensitive information that might be made available online. Once you acknowledge that, by enabling the related option, you are able to complete the configuration.  
 
-    ![Enable relevance search](media/marketing-fields-relevance2.png "Enable relevance search")
+1. Define the Contact and Lead mapping. If you choose to map both, they should return the same type of entity for the mapping to be completed. 
 
-1. Within the relevance search configuration, locate and select the entity on the left side that you want to include in the lookup field. Next, add the entity to the right panel by selecting **Add**.
+1. For each entity you selected for the mapping, you would define:
+-  the view that control what values are shown. For example, if you want to show all the active values only, you can select the related view (for example, if you are configuring an **Account** lookup you can select the **Active Accounts** view). 
+-  the attribute used for searching. For example, the **Account name** could be used for an **Account** lookup. 
 
-      ![Entity select screen](media/marketing-fields-entity-select.png "Entity select screen")
+1. Check the Security Roles for the configuration you selected.
 
 If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity.
 
 For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
 
-1. To set the Security Role manually, go to **Settings** > **Security** > **Security Roles** > **Marketing Services User** > **Custom Entities**.
-1. Under the **Custom Entities** tab, find the name of your custom entity and mark the **Read** column box (the second column) green.
+To set the Security Role manually, go to **Settings > Security > Security Roles > Marketing Services User Extensible Role > Custom Entities**.
 
-      ![Security roles for custom entity](media/marketing-fields-security-roles.png "Security roles for custom entity")
+Under the Custom Entities tab, find the name of your custom entity and mark the Read column box (the second column) green.
 
+If you use a filter, make sure the **Marketing Services User Extensible Role** has read permissions for entities used in the corresponding view. For example, if you use the view “Accounts being followed” as an Account filter, you need to ensure that the role has read privilege for the entity Post.
+
+### Set lookup fields via API
+You can use the JavaScript API to perform a search request in the background and populate the lookup field with items containing the specified search term.
+
+For example, you can search for all items containing “Microsoft” after the form is loaded:
+```
+MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {
+    MsCrmMkt.MsCrmFormLoader.fillLookupFromSearch("b9051065-5851-41db-94bc-b7e1dc6bb646", "Microsoft")
+        .then(function (r) {
+            console.log("Success performing search");
+        }).catch(function (e) {
+            console.error("Error performing search");
+        });
+    });
+```
+These are the details of the function, available under ```MsCrmMkt.MsCrmFormLoader``` methods:
+
+- Function Name: ```.fillLookupFromSearch(lookupFieldId, searchTerm)```
+- Description: Performs a search request in the background and populates the specified lookup field with results
+- Parameters
+  - ```lookupFieldId```:
+    - type: string
+    - description: lookup input field id, for example "b9051065-5851-41db-94bc-b7e1dc6bb646"
+  - ```searchTerm```:
+    - type: string
+    - description: what to search for, for example john@contoso.com
+- Returns: ```Promise<boolean>```
+
+You can find more functions at:
+https://docs.microsoft.com/en-us/dynamics365/marketing/developer/marketing-form-client-side-extensibility#javascript-api
+
+
+
+      
 ### See also
 
 [Design your digital content](design-digital-content.md)  
