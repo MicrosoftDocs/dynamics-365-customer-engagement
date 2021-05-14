@@ -343,7 +343,7 @@ To set the required role:
 1. Select **Save & Close**.
 
 
-### While testing, I deleted and and re-added my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
+### While testing, I deleted and and readded my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
 
 A contact with a matching email will only receive the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
 
