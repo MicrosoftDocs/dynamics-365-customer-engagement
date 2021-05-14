@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # How to enable your supervisors to monitor, assign, and transfer conversations
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, and transfer conversations by enabling the respective permissions in Omnichannel Administration **Supervisor Settings**.
 
 - To enable your supervisors to monitor how conversations are happening or being handled by their agents, set the **Supervisor Monitor** toggle to **Yes**. 
