@@ -4,7 +4,7 @@ description: Know how to automatically create or update records by setting up ru
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/03/2020
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -22,13 +22,13 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you will learn about creating rules for automatically creating records for cases from incoming emails.
+In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
 
 ## Set up rules for creating or updating records automatically
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.
 
- A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the records.
+A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the records.
 
 ## Activities and entities supported by rules for creating or updating records automatically
 
@@ -53,7 +53,7 @@ Make sure that the following prerequisites are met:
 
 ## Configure rules for creating or updating records automatically
 
-You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions when a rule can be run.
+You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions for when a rule can be run.
 
 1. In Customer Service Hub site map, go to **Service Management**, and select **Automatic record creation and update rules**. The **Record creation and update rules** page appears.
 
@@ -98,7 +98,7 @@ You can configure a rule that when active will be run for incoming emails. Using
    > ![Automatically create record rule configured](media/arc-csh-rule-all-steps-configured.png " Automatically create record rule configured")
 
   > [!NOTE]
-  > The rule will be in the draft status till you activate it.
+  > The rule will be in the draft status until you activate it.
 
 ## Configure advanced settings for rules
 
@@ -125,7 +125,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
     If set to no, a case will be created even if a related case exists. When set to yes, no new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
 
     > [!Note]
-    > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and do not select any time duration in the **Select the amount of time** box.
+    > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
 
 3. In **Advanced settings**, by default the user who is creating the rule is listed in the **Owner whose permissions the rule uses to run** box. You can add more users or change the default value.
 4. Select **Save** or **Save & Close**.
@@ -145,6 +145,8 @@ You can review and track the health of the automatic record creation rules and r
 > [!IMPORTANT]
 > The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
 
+> ![Results of the activity monitor](media/activity-monitor-results.png "Results of the activity monitor")
+
 The following details are available for the rules:
 
 - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
@@ -158,6 +160,7 @@ The following details are available for the rules:
 Perform the following steps to use the activity monitor for the rules:
 
 1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
+
 2. Use the **Advanced filters** option to narrow down the view to list rules, such as list only those rules that match a specified condition.
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
@@ -167,7 +170,7 @@ Perform the following steps to use the activity monitor for the rules:
     > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
-4. Perform the following steps to select the states you want to monitor:
+4. Perform the following steps to turn on or off monitoring for the states:
    1. Select **Monitor options** on the command bar. The **Monitor options** dialog box appears.
    2. Select any or all the following states:
       - Ready for Power Automate / workflow
@@ -211,6 +214,6 @@ Perform the following steps in Power Automate to manually map a contact:
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
-
+[FAQs on activity monitor](arc-faqs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
