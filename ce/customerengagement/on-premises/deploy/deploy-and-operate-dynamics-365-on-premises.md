@@ -51,6 +51,3 @@ This guide provides a set of comprehensive deployment and operation topics that 
 
 ::: moniker-end  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
