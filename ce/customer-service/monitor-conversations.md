@@ -22,6 +22,7 @@ When you monitor conversations, you can understand how they are being handled by
 > [!NOTE]
 > To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**.
 
+
 ## Monitor and join conversations
 
 As a supervisor, you can monitor or assign conversations that are configured for all channels except records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.  
