@@ -211,6 +211,8 @@ To review and test changes, set up an account and contact in Field Service as if
 
 1. Back in Field Service, confirm that the work order is created and the booking is scheduled.
 
+> [!NOTE]
+> You can manually create the portal user from Contact form using "Create Invitation" button in toolbar. Creating an invitation in this way will require an additional step of adding "Web API User" role to the user account before they can access the Portal. See [How do I manually create a portal user?(#how-do-i-manually-create-a-portal-user-?)
 
 ## Configuration considerations
 
@@ -328,7 +330,19 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 
 ## FAQ for self-scheduling portals
 
-### While testing, I deleted and and readded my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
+### How do I manually create a Portal user?
+
+Within the Field Service Contact you can manually generate a Portal invite code by using the "Create Invitation" button within the Toolbar. This will generate the invite code for the Contact. However at this time you will need to manually assign the "Web Api Users" role to the user before they can access the Field Service Self Scheduling portal.
+
+To set the required role:
+1. In the Contact, select **Related** > **Web Roles**
+2. Select **Add Existing Web Role**
+3. Select **Web API User** role
+4. Select **Add**
+5. Select **Save & Close**
+
+
+### While testing, I deleted and and re-added my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
 
 A contact with a matching email will only receive the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
 
