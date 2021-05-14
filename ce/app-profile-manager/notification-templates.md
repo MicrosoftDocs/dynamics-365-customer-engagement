@@ -24,7 +24,7 @@ As an administrator, system integrator, or partner, you can use the out-of-the-b
 
 ## Desktop notifications
 
-For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](../omnichannel/system-requirements-omnichannel.md).
+For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](../customer-service/system-requirements-omnichannel.md).
 
 > [!Note]
 >

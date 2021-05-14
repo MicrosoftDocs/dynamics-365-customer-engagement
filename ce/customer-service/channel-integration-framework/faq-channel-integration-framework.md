@@ -136,7 +136,7 @@ You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider 
 
 Beyond that point, you can listen to `onSessionClosed` Event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
 
-For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](reference/events/onsessionclosed.md) event.
+For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event.
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 

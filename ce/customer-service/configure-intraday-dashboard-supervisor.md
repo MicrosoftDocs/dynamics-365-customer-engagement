@@ -71,7 +71,7 @@ Review the following prerequisites before configuring the supervisor insights:
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-   1. Create a security group in Azure Active Directory (Azure AD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
+   1. Create a security group in Azure Active Directory (Azure AD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
    2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
    
@@ -149,7 +149,7 @@ You must configure the Power BI workspace using the Omnichannel admin center or 
  > [!NOTE]
  > You can also see the status of different configuration stages such as workspace, dashboard, and datasets. When a workspace is created successfully, all the statuses will have a green check. If failed, the respective configuration stage check will be red, and an error message is displayed. Resolve the error and create the workspace again.
 
-8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
 
    > [!IMPORTANT]
    > - You can configure only one record in the **Omnichannel Administration** app. 
@@ -183,7 +183,7 @@ You must configure the Power BI workspace using the Omnichannel admin center or 
 
 6. Select **Add** > **Close**.
 
-7. Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+7. Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
 
 
 ### Configure customized intraday insights for Unified Service Desk
@@ -202,7 +202,7 @@ Configuring the Power BI workspace provides you only the **Intraday Monitoring**
 
 Follow these steps to configure Power BI dashboards:
 
-1.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-report-open).
+1.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](/power-bi/consumer/end-user-report-open).
 
 2.  Pin the required tiles to dashboards. 
 
@@ -216,11 +216,11 @@ Follow these steps to configure Power BI dashboards:
     > [!div class=mx-imgBorder]
     > ![Pin a report on a dashboard](media/supervisor-admin-pin-report-dashboard.png "Pin a report on a dashboard")  
 
-    To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/power-bi/service-dashboard-pin-tile-from-report).
+    To learn more, see [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report).
 
 3.  Select **Set as featured** so the created dashboard will display at the top each time you open the Power BI service.
 
-4.  Share the dashboard and reports with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).  
+4.  Share the dashboard and reports with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).  
 
 5.  For Unified Service Desk configuration, copy the URL of the dashboard.  
 
@@ -272,7 +272,7 @@ You must add users in the supervisor configuration to access any supervisor insi
 
 Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the lifecycle of the client application.
 
-To learn more, see [Client caching overview](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1&preserve-view=true).  
+To learn more, see [Client caching overview](/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?preserve-view=true&view=dynamics-usd-4.1).  
 
 1.  Sign in to **Dynamics 365 Customer Service**.
 

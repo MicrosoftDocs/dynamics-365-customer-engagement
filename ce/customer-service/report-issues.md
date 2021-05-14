@@ -33,7 +33,7 @@ You can copy the information while communicating with a customer by using one of
 
 4. Paste the diagnostic report in the notepad, and save.
 
-5. Share the diagnostic report when you contact [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+5. Share the diagnostic report when you contact [Microsoft support](/power-platform/admin/get-help-support).
 
 ## Diagnostic report information
 
