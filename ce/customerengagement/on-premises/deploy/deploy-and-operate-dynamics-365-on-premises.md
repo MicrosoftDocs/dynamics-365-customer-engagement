@@ -18,7 +18,7 @@ manager: kvivek
 # Deploy and operate Dynamics 365 Customer Engagement (on-premises), version 9.x
 
 ::: moniker range="op-9-1"
-Dynamics 365 Customer Engagement (on-premises), version 9.1 is available as an update to version 9 or 8.2 customers.
+Dynamics 365 Customer Engagement (on-premises), version 9.1 is available as an update to version 9 customers.
 
 - If you already have version 9 or 8.2 deployed, start here: [Update Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/deploy/update-to-v91?view=op-9-1)
 
