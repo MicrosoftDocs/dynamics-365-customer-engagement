@@ -150,7 +150,7 @@ You can activate the entitlement and then set it as the default entitlement for 
   
 2. In the **Confirm set default** dialog box, select **OK**.  
   
-   Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in step 4 here, [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md).  
+   Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in step 4 here, [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab).  
   
 ## Associate entitlements to cases
 
