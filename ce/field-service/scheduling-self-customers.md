@@ -212,7 +212,7 @@ To review and test changes, set up an account and contact in Field Service as if
 1. Back in Field Service, confirm that the work order is created and the booking is scheduled.
 
 > [!NOTE]
-> You can manually create the portal user from Contact form using "Create Invitation" button in toolbar. Creating an invitation in this way will require an additional step of adding "Web API User" role to the user account before they can access the Portal. See [How do I manually create a portal user?](#how-do-i-manually-create-a-portal-user-?)
+> You can manually create the portal user from Contact form using "Create Invitation" button in toolbar. Creating an invitation in this way will require an additional step of adding "Web API User" role to the user account before they can access the Portal. See [How do I manually create a portal user?](#how-do-i-manually-create-a-portal-user)
 
 ## Configuration considerations
 
@@ -362,7 +362,7 @@ From the portal side:
 
 ### Can you cancel a booking from the portal?
 
-You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enhancements, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enhancements, see the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/). 
 
 ### Who receives the notifications when a booking is self-scheduled?
 
