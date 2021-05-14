@@ -18,7 +18,7 @@ ms.custom:
 
 ## See Also
 
-[Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
+[Configure channel provider for your Dynamics 365 organization](./configure-channel-provider-app-profile-manager.md)
 
 [Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)
 

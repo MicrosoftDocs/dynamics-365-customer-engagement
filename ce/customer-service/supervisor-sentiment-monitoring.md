@@ -38,7 +38,7 @@ Omnichannel for Customer Service sentiment analysis supports multiple languages.
 > - Unsupported languages don't receive a sentiment score.
 > - If profanity is detected in English, the sentiment shows as Negative or Very negative.
 
-To learn more, see [Explore Text Translator API](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
+To learn more, see [Explore Text Translator API](/azure/cognitive-services/translator/translator-info-overview).
 
 ## Personas
 

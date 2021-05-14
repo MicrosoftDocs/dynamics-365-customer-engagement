@@ -30,8 +30,8 @@ ms.custom:
   
 <td><h2>Accessibility and privacy</h2>
   <ul>
-  <li><a href="https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility in Dynamics 365 Customer Service]https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility">Accessibility in Dynamics 365 Customer Service</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/get-started/gdpr/" data-raw-source="[Privacy and personal data in Customer Service]https://docs.microsoft.com/dynamics365/get-started/gdpr/">Privacy and personal data in Customer Service</a></li>
+  <li><a href="/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility in Dynamics 365 Customer Service]https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility">Accessibility in Dynamics 365 Customer Service</a></li>
+<li><a href="/dynamics365/get-started/gdpr/" data-raw-source="[Privacy and personal data in Customer Service]https://docs.microsoft.com/dynamics365/get-started/gdpr/">Privacy and personal data in Customer Service</a></li>
 <li><a href="keyboard-navigation-support-customer-service-hub.md" data-raw-source="[Keyboard navigation support]keyboard-navigation-support-customer-service-hub.md">Keyboard navigation support</a></li>
  </li> 
   </ul>
@@ -54,10 +54,10 @@ ms.custom:
 <td><h2>Learn</h2>
    <ul>
 
-  <li><a href="https://docs.microsoft.com/learn/modules/introduction-dynamics-365-customer-service" data-raw-source="[Introduction to Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/introduction-dynamics-365-customer-service">Introduction to Dynamics 365 Customer Service</a></li>
-  <li><a href="https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Get started with Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service">Get started with Dynamics 365 Customer Service</a></li>
-  <li><a href="https://docs.microsoft.com/learn/modules/getting-started-omnichannel" data-raw-source="[Getting started with Omnichannel for Customer Service]https://docs.microsoft.com/learn/modules/getting-started-omnichannel">Getting started with Omnichannel for Customer Service</a></li>
- <li><a href="https://docs.microsoft.com/learn/modules/work-distribution-omnichannel" data-raw-source="[Routing and work distribution in Omnichannel for Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/work-distribution-omnichannel">Routing and work distribution in Omnichannel for Dynamics 365 Customer Service</a></li>
+  <li><a href="/learn/modules/introduction-dynamics-365-customer-service" data-raw-source="[Introduction to Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/introduction-dynamics-365-customer-service">Introduction to Dynamics 365 Customer Service</a></li>
+  <li><a href="/learn/modules/get-started-with-dynamics-365-for-customer-service" data-raw-source="[Get started with Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service">Get started with Dynamics 365 Customer Service</a></li>
+  <li><a href="/learn/modules/getting-started-omnichannel" data-raw-source="[Getting started with Omnichannel for Customer Service]https://docs.microsoft.com/learn/modules/getting-started-omnichannel">Getting started with Omnichannel for Customer Service</a></li>
+ <li><a href="/learn/modules/work-distribution-omnichannel" data-raw-source="[Routing and work distribution in Omnichannel for Dynamics 365 Customer Service]https://docs.microsoft.com/learn/modules/work-distribution-omnichannel">Routing and work distribution in Omnichannel for Dynamics 365 Customer Service</a></li>
  
   </ul>
   </td>
@@ -127,7 +127,7 @@ ms.custom:
 </li>
   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
 <li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migrate-tool-faqs.md)">Migration Tool FAQs</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](https://docs.microsoft.com/dynamics365/omnichannel/faqs)">Omnichannel for Customer Service FAQs</a></li>
+<li><a href="/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](./faqs.md)">Omnichannel for Customer Service FAQs</a></li>
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 
      
@@ -159,9 +159,9 @@ ms.custom:
   
 <h2>Related apps & framework</h2>
 
-<li><a href="https://docs.microsoft.com/dynamics365/app-profile-manager/overview" data-raw-source="[App profile manager](https://docs.microsoft.com/dynamics365/app-profile-manager/overview)">App profile manager</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
+<li><a href="/dynamics365/app-profile-manager/overview" data-raw-source="[App profile manager](../app-profile-manager/overview.md)">App profile manager</a></li>
+<li><a href="/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a></li>
+<li><a href="/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](./channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
 
 
 </td>

@@ -37,7 +37,7 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Smart assist must be enabled.
 - One of the following:
     - AI-suggested similar cases and knowledge articles should be enabled by your administrator. This feature is currently available in preview mode only.
-    - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../omnichannel/developer/how-to/smart-assist-bot.md).
+    - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../customer-service/smart-assist-bot.md).
 
 ## Enable AI suggestions for similar cases and knowledge articles
 
