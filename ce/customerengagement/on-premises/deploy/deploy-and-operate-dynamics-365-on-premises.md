@@ -22,7 +22,7 @@ Dynamics 365 Customer Engagement (on-premises), version 9.1 is available as an u
 
 - If you already have version 9 or 8.2 deployed, start here: [Update Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/deploy/update-to-v91?view=op-9-1)
 
-- If you are installing Customer Engagement (on-premises) for the first time, select [9.0] from **Version** list above the left navigation to view tge deployment instruction for version 9.
+- If you are installing Customer Engagement (on-premises) for the first time, select **9.0** from the **Version** list above the left navigation to view tge deployment instruction for version 9.
 
 ::: moniker-end
 
