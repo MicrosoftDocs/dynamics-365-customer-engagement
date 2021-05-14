@@ -1,6 +1,6 @@
 ---
 title: Enable Supervisor settings in Omnichannel Administration | MicrosoftDocs
-description: How to enable supervisors to monitor, assign, and transfer conversations in Omnichannel Administration
+description: "How to enable supervisors to monitor, assign, and transfer conversations in Omnichannel Administration."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
