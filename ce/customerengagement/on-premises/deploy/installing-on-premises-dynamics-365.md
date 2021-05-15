@@ -1,5 +1,5 @@
 ---
-title: "Installing Dynamics 365 Customer Engagement (on-premises) (on-premises), version 9.x | Microsoft Docs"
+title: "Installing Dynamics 365 Customer Engagement (on-premises), version 9.x | Microsoft Docs"
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: crm-2016
@@ -16,7 +16,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Installing Dynamics 365 Customer Engagement (on-premises) (on-premises)
+# Installing Dynamics 365 Customer Engagement (on-premises)
 
 ::: moniker range="op-9-1"
 [!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
