@@ -30,11 +30,13 @@ The first step is to set your security permission. This is a critical requiremen
 
 Permissions must be set per the following example. Otherwise, you will not see the modified Case Resolution dialog box, but the box case resolution instead.
 
+<!--> Remove these graphics and also update the above line based on Swati's response.
 > [!div class=mx-imgBorder]
 > ![Security Role: Customer Service Representative](media/csr-setting-case-resolution.png "Security Role: Customer Service Representative")
 
 > [!div class=mx-imgBorder]
 > ![Security Role: Customer Service Representative (CSR) Manager](media/csr-manager-setting-case-resolution.png "Security Role: Customer Service Representative (CSR) Manager")
+<-->
 
 > [!IMPORTANT]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified Case Resolution dialog.
