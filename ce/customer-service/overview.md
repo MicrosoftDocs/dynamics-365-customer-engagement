@@ -35,7 +35,7 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 The following capabilities are available in the different app experiences, depending on your needs. Select the app of your choice to read more about the details of the user experience in each app: 
 
 
-|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
+|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](./introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |✖  |
@@ -91,7 +91,7 @@ For more details about app accessibility and GDPR compliance, see [Accessibility
 ## Get Started with Customer Service
 
  - [Customer Service Workspace](customer-service-workspace-system-requirements.md)
- - [Omnichannel for Customer Service](../omnichannel/introduction-omnichannel.md)
+ - [Omnichannel for Customer Service](./introduction-omnichannel.md)
  - [Customer Service Hub](user-guide-customer-service-hub.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

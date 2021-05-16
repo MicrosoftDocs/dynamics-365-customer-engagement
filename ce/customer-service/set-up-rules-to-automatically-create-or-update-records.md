@@ -158,7 +158,7 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 
     If you don’t select this check box, records are created only for email messages that have a contact or account as the senders.  
 
-    This option, in conjunction with the **Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** option in the rule owner's Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)).  
+    This option, in conjunction with the **Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** option in the rule owner's Personal Options, determines whether a case and contact record is created (see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md)).  
 
 2. **Create case if a valid entitlement exists for the customer**. If you select this check box, a case is created only if an active entitlement exists for the customer.  
 

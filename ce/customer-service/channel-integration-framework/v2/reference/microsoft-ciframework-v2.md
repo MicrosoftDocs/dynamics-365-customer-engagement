@@ -79,7 +79,7 @@ Channel Analytics APIs enable you to track event analytics.
 
 | Methods | Description |
 |---------|-------------|
-| [initLogAnalytics](microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics.|
+| [initLogAnalytics](/dynamics365/customer-service/channel-integration-framework/v2/reference/updateConversation) | Invoke this method on an incoming conversation to log analytics.|
 | [logAnalyticsEvent](microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events.|
 
 ## Session Indicator APIs

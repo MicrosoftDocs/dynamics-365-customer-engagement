@@ -67,8 +67,8 @@ After an entitlement is created from the entitlement template, add custom code t
 
 Create custom fields in entitlement templates to migrate data from the fields in the contract template that aren't available in the entitlement template. Perform the following steps to switch from the contract template and map to the entitlement template:
 
-1. Create custom fields with attributes on the entitlement template. For more information, see [Create and edit fields (attributes)](/dynamics365/customerengagement/on-premises/customize/create-edit-fields).
-2. Place the created fields on the form as per your business needs. For more information, see [Add a field to a form](/dynamics365/customerengagement/on-premises/customize/add-field-form).
+1. Create custom fields with attributes on the entitlement template. For more information, see [Create and edit fields (attributes)](../customerengagement/on-premises/customize/create-edit-fields.md).
+2. Place the created fields on the form as per your business needs. For more information, see [Add a field to a form](../customerengagement/on-premises/customize/add-field-form.md).
 
 ## Mapping: Contracts to entitlements
 
@@ -114,7 +114,7 @@ An entitlement can be canceled only immediately; you can't set a date to cancel 
 
 Billing unit isn't available in entitlements. To achieve this capability in entitlements, use custom logic.
 
-For simple rollups, use rollup fields. For more information, see [rollup fields](/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
+For simple rollups, use rollup fields. For more information, see [rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).
 
 #### Commands in contracts
 

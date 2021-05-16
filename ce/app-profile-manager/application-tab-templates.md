@@ -125,7 +125,7 @@ The application type is used to display first-party and third-party websites as 
 | data | `stackoverflow` |Query parameters that you want to search. <br> Type = String|
 | url | https://www.bing.com/search? | <br> Type = String|
 
-To learn more, see [Third-party application tab refreshes when focus is changed](../omnichannel/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
+To learn more, see [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
 
 ### Out-of-the-box application tab templates
 
