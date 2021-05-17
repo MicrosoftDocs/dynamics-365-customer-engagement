@@ -116,6 +116,7 @@ chatWebView.evaluateJavascript(
 After the chat is closed, the live chat widget triggers the [lcw:closeChat](../developer/reference/events/lcw-closechat) event. You can listen for this event, and run the post-chat steps.
 
 ### See also
+
 [startChat](developer/reference/methods/startchat.md)  
 [lcw:closeChat](developer/reference/events/lcw-closechat.md)  
 [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)  
