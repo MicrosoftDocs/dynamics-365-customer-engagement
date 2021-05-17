@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-As a supervisor, you can monitor, assign or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard. For more information, go to [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+As a supervisor, you can monitor, assign, or transfer conversations that are being handled by your agents using the **Omnichannel Ongoing Conversations** dashboard. For more information, go to [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 When you monitor conversations, you can understand how they are being handled by your agents and also check if any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
@@ -53,8 +53,8 @@ To manually assign a conversation, the conversation should be in an open state a
     > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
     > If you select **Queue**, then all other queues except the one to which the conversation is currently assigned, are displayed.
 
-4. After selecting the agent or queue, select **Assign**.
-   The conversation is now assigned to the agent or queue you selected.
+4. Select **Assign**.
+   The conversation is now assigned to the agent or queue that you selected.
 
 ## Transfer conversations
 
@@ -67,18 +67,16 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
     The list of available agents, their capacities, and queues is displayed.
 
-2. Select a conversation in an **Active** or **Waiting** state and select **Transfer**.
+2. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
 
-3. On the **Transfer conversations** dialog, select the agent that you want to transfer the conversation to, from the list of agents that appears.
+3. On the **Transfer conversations** dialog, select an agent from the list of agents that appears.
 
       Only those agents whose presence matches with one of the allowed presence values in the workstream configuration will be listed.
 
 4. Select **Transfer**. The selected conversation is transferred to the agent.
 
     > [!NOTE]
-    > When you transfer an **Active** conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent.
-    >
-    > When you transfer a conversation from one agent to another, the conversation is successfully transferred when the latter acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
+    > When you transfer an **Active** conversation from one agent to another, the first agent is added as consultant to the conversation that is now being managed by the second agent. The conversation is successfully transferred when the second agent acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
 
 ### See also
 

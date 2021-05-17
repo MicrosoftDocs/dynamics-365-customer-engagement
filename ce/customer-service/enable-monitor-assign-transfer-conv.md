@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# How to enable your supervisors to monitor, assign, and transfer conversations
+# Enable your supervisors to monitor, assign, and transfer conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
