@@ -96,12 +96,6 @@
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
-    - name: Manage users
-      href: users-user-profiles.md
-    - name: Manage capacity profiles
-      href: capacity-profiles.md
-    - name: Role persona mapping
-      href: role-persona-mapping.md
   - name: Unified routing and assignment
     items:
     - name: Overview of unified routing
@@ -174,6 +168,14 @@
           href: create-rules-automatically-route-cases.md
         - name: Set up routing for conversations in Omnichannel for Customer Service
           href: understand-omnichannel-customer-service-hub.md
+      - name: Configure users for unified routing
+        items:
+        - name: Manage users
+          href: users-user-profiles.md
+        - name: Manage capacity profiles
+          href: capacity-profiles.md
+        - name: Role persona mapping
+          href: role-persona-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
     - name: Developer experience

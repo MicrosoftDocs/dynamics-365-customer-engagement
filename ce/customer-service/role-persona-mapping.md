@@ -4,7 +4,7 @@ description: "Information about how security roles can be mapped to personas."
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -25,7 +25,8 @@ Default mapping will automatically assign primary roles depending on the Dynamic
 | ------------- | ---------------- | ------------------- | --------------- |
 | Customer Service Enterprise | CSR Manager | CSR Manager | Customer Service Representative |
 | Omnichannel for Customer Service | Omnichannel administrator | Omnichannel supervisor | Omnichannel agent |  
-| Customer Service Enterprise + Omnichannel for Customer Service | CSR Manager + Omnichannel administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |   
+| Customer Service Enterprise + Omnichannel for Customer Service | CSR Manager + Omnichannel administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |
+|||||
 
 ### Manage personas
 
@@ -35,40 +36,40 @@ To customize the role to persona mapping, perform the following steps.
 
 or
 
-Sign in to Customer Service Hub, and go to the **Service Management** change area. 
+Sign in to Customer Service Hub, and go to the **Service Management** change area.
 
 2. Select **User attributes** from the **Unified routing** menu.
 
 3. Select **Manage** for **Role persona mapping**.
 
-4. Select any one of the personas to add or remove security roles. 
+4. Select any one of the personas to add or remove security roles.
 
-5. Select or clear the selection from the checkboxes next to the security roles in the configuration window. 
+5. Select or clear the selection from the checkboxes next to the security roles in the configuration window.
 
 6. Select **Save and Close**.
 
-You can now see the new roles populated in the personas. 
+You can now see the new roles populated in the personas.
 
 ## Enable access to applications
 
 Users with security roles mapped to personas do not get automatic access to associated dashboards or applications. Access needs to be provided by administrators.  
 
-Perform the following steps to ensure that access and privileges are provided to users. 
+Perform the following steps to ensure that access and privileges are provided to users.
 
-1. Create the required user role. For more information on how to create and assign user security roles. 
+1. Create the required user role. More information: [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 
-2. Add and edit user permissions and privileges as required. 
+2. Add and edit user permissions and privileges as required.
 
-3. Sign in to Dynamics 365. 
+3. Sign in to Dynamics 365.
 
-4. Select the ellipsis in the application tile. 
+4. Select the ellipsis in the application tile of the app for which you want to configure the custom role.
 
-5. Select **Manage roles**. 
+5. Select **Manage roles**.
 
-6. In the dialog box that appears, select the custom role that you want to grant permission to and select **Save**. 
+6. In the dialog box that appears, select the custom role that you want to grant permission to and select **Save**.
 
 > [!NOTE] 
-> Custom security roles must have correct access levels for the appropriate records to ensure persona mapping will work.   
+> Custom security roles must have correct access levels for the appropriate records to ensure persona mapping will work.
 
 ## Enable access to forms and dashboards
 
@@ -78,11 +79,17 @@ To enable access to a form or dashboard, perform the following steps.
 
 2. Go to **Advanced Settings** > **Settings**.
 
-3. Select **Customizations** > **Customize the system**. 
+3. Select **Customizations** > **Customize the system**.
 
-4. From the **Solution Default Solution** list, select **Entities** > **Characteristics**, and then **Forms**. 
+4. From the **Solution Default Solution** list, select **Entities** > **Characteristics**, and then **Forms**.
 
-5. Open an active form, and select **Enable security roles**. 
+5. Open an active form, and select **Enable security roles**.
 
-6. Select the role that you want to provide access to, and select **OK**. 
+6. Select the role that you want to provide access to, and select **OK**.
 
+### See also
+
+[Overview of unified routing](overview-unified-routing.md)  
+[Manage users for unified routing](users-user-profiles.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]  
