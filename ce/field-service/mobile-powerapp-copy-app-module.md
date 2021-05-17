@@ -43,16 +43,18 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 ## Additional Notes
 
 
+## Create a custom app module based on "Field Service Mobile"
 
-**Q: How do I make a custom App Module for Field Service Mobile?**
 
-While we recommend using the standard Field Service Mobile app module, there may be times when an organization will require a second app module or have a custom app module that can be used with the Field Service Mobile application.
+While we recommend using the standard Field Service Mobile app module, there may be times when an organization will require a second app module or have a custom app module that can be used with the Field Service Mobile application as shown in the image below.
 
-By leveraging the components and sitemap of the Field Service Mobile app you will have a great starting point from which you can customize your experience.
+![](media/image6.png)
+
+By leveraging the components and Site Map of the Field Service Mobile app you will have a great starting point from which you can customize your experience.
 
 To create a new Field Service Mobile app module:
 
-1.  In CRM, navigate to the list of your App Modules and location option to "+ Create New App".
+1.  In Dynamics 365, navigate to the list of your App Modules and location option to "+ Create New App".
 
 ![Graphical user interface  application Description automatically generated](media/image1.png)
 
@@ -60,7 +62,7 @@ To create a new Field Service Mobile app module:
 
 ![Graphical user interface  application  website Description automatically generated](media/image2.png)
 
-3.  The resulting screen allows you to select the solution and site map from which you will create the app module. Select Solution "Field Service" and Sitemap "Field Service Mobile" and click "Done. \\
+3.  The resulting screen allows you to select the solution and site map from which you will create the app module. Select Solution "Field Service" and Site Map "Field Service Mobile" and click "Done.
 
 ![Graphical user interface  application Description automatically generated](media/image3.png)
 
@@ -68,11 +70,11 @@ To create a new Field Service Mobile app module:
 
 ![Graphical user interface  application Description automatically generated](media/image4.png)
 
-**Q: How do I make my custom App Module available to Field Service Mobile app with Offline?**
+## Make the custom app module available in Field Service Mobile with Offline 
 
 Once the App Module is created, you will need to tag the app module so that it is available to the Field Service Mobile application. To make the app module available to Field Service Mobile:
 
-1.  Associate your app module to a Solution: In CRM go to "Settings" then "Solutions" then "New". Enter required details in the resulting screen, then save and close.
+1.  Associate your app module to a Solution: In Dynamics 365 go to "Settings" then "Solutions" then "New". Enter required details in the resulting screen, then save and close.
 
 2.  After saving you will be back on the Solutions and see your new Solution. Open that solution and scroll down to "Model-driven Apps".
 
@@ -88,9 +90,9 @@ Once the App Module is created, you will need to tag the app module so that it i
 
 5.  Open the exported Solution (.zip) and edit the file "Customizations.xml"
 
-6.  Within Customizations.XML, locate XML node for &lt;AppModule&gt;
+6.  Within Customizations.XML, locate XML node for <AppModule>
 
-7.  Within &lt;AppModule&gt;, you will insert two nodes for &lt;appsettings&gt; as shown below.
+7.  Within "< AppModule >", you will insert two nodes for "< appsettings >" as shown below.
 
     1.  The first is to allow tag the app module for Field Service Mobile application.
 
@@ -98,45 +100,30 @@ Once the App Module is created, you will need to tag the app module so that it i
 
         2.  *value* is set to, "FieldServiceMobile".
 
-        3.  
 
-    2.  The second allows the app module to run in Offline-first mode
+    2.  The second makes the app eligible to run in Offline First.
 
         1.  *uniquename* is the name of your new app module. This follows format of*\[publisher prefix\]\_\[app module unique name\]\_\[app settings unique name\]*. Or "new\_CustomAppModule\_ServerMode" in our example.
 
         2.  *value* is the application, "ServerMode".
 
-&lt;appsettings&gt;
-
-&lt;appsetting uniquename="new\_CustomAppModule\_ChannelAvailability"&gt;
-
-&lt;value&gt;FieldServiceMobile&lt;/value&gt;
-
-&lt;iscustomizable&gt;1&lt;/iscustomizable&gt;
-
-&lt;settingdefinitionid&gt;
-
-&lt;uniquename&gt;ChannelAvailability&lt;/uniquename&gt;
-
-&lt;/settingdefinitionid&gt;
-
-&lt;/appsetting&gt;
-
-&lt;appsetting uniquename="new\_CustomAppModule\_ServerMode"&gt;
-
-&lt;value&gt;false&lt;/value&gt;
-
-&lt;iscustomizable&gt;1&lt;/iscustomizable&gt;
-
-&lt;settingdefinitionid&gt;
-
-&lt;uniquename&gt;ServerMode&lt;/uniquename&gt;
-
-&lt;/settingdefinitionid&gt;
-
-&lt;/appsetting&gt;
-
-&lt;/appsettings&gt;
+                <appsettings>
+                <appsetting uniquename="new\_CustomAppModule\_ChannelAvailability">
+                <value>FieldServiceMobile</value>
+                <iscustomizable>1</iscustomizable>
+                <settingdefinitionid>
+                <uniquename>ChannelAvailability</uniquename>
+                </settingdefinitionid>
+                </appsetting>
+                
+                <appsetting uniquename="new\_CustomAppModule\_ServerMode">
+                <value>false</value>
+                <iscustomizable>1</iscustomizable>
+                <settingdefinitionid>
+                <uniquename>ServerMode</uniquename>
+                </settingdefinitionid>
+                </appsetting>
+                </appsettings>
 
 8.  Save the updated XML file and re-add to the .zip file of your solution.
 
