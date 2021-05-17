@@ -19,7 +19,7 @@ You can use Microsoft Dynamics 365 admin center to assign user security roles. P
 
 ## Map roles to personas
 
-Default mapping will automatically assign primary roles depending on the Dynamics 365 services enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary  security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Ommichannel for Customer Service.  
+Default mapping will automatically assign primary roles depending on the Dynamics 365 services enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary  security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.  
 
 | Service | Admin persona default mapping | Supervisor persona default mapping | Agent persona default mapping |
 | ------------- | ---------------- | ------------------- | --------------- |

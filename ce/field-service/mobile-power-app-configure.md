@@ -1,5 +1,5 @@
 ---
-title: "Edit the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
+title: "Customize the Field Service (Dynamics 365) mobile app SiteMap, forms, and views | MicrosoftDocs"
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
@@ -18,9 +18,9 @@ search.app:
   - D365FS
 ---
 
-# Edit the sitemap (home screen), forms, and views
+# Customize the mobile app
 
-Administrators can edit how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
+Administrators can customize how the Field Service (Dynamics 365) mobile app looks and functions for technicians.
 
 ## Edit Sitemap entities on home screen
 

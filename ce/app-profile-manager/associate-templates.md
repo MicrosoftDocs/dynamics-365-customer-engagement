@@ -22,7 +22,7 @@ After you create a workstream, you can modify the default templates that are att
 Perform the following steps:
 
 1. Go to the workstream for which you want to modify the template, and expand the **Advanced settings** section.
-2. Select **Edit** beside **Sessions**, and on the **Sessions** panel that appears, select a template in the **Default template** list
+2. Select **Edit** beside **Sessions**, and on the **Sessions** panel that appears, select a template in the **Default template** list.
 3. Select **Save and close**.
 4. Select **Edit** beside **Agent notifications**, and on the **Agent notifications** panel that appears, select a template for each of the following types of notifications:
     - Incoming unauthenticated
