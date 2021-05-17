@@ -20,7 +20,7 @@ In Omnichannel for Customer Service, agents can search for details in transcript
 
 ## Prerequisites
 
-Ensure that relevance search is enabled in your environment. To learn more, see [Enable relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization#enable-relevance-search).
+Ensure that relevance search is enabled in your environment. To learn more, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization#enable-relevance-search).
  
 ## Walk-through to configure relevance search
 

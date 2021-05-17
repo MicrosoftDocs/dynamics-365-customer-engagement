@@ -25,7 +25,7 @@ ms.custom:
 
 [Add Channel Integration Framework as a dependent solution](add-cif-solution-dependent-solution.md)
 
-[Entity reference](reference/entities-attributes/msdyn-ciprovider.md)
+[Entity reference](/dynamics365/customer-service/channel-integration-framework/v2/msdyn_channelprovider)
 
 [setClickToAct](reference/microsoft-ciframework/setClickToAct.md)
 
