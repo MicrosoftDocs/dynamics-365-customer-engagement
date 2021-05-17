@@ -126,7 +126,7 @@
           href: configure-work-classification.md
         - name: Set up routing and assignment rules in Omnichannel Administration
           href: routing-rules.md  
-      - name: Configure assignment
+      - name: Configure work assignment
         items:
         - name: Routing and assignment rules
           href: routing-workstream-queues.md        
