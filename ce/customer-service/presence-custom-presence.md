@@ -23,7 +23,7 @@ The presence status indicates an agent's availability. A presence status consist
   - Away
   - Offline
 
-  Only the base statuses are available for selection in **Allowed Presences** while creating a [work stream](work-streams-introduction.md).
+  Only the base statuses are available for selection in **Allowed Presences** while creating a [work stream](create-workstreams.md).
 
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
 
@@ -72,8 +72,8 @@ Perform the following steps to create a presence record:
 ### See also
 
 [Manage a user in Omnichannel for Customer Service](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
-[Understand and create work streams](work-streams-introduction.md)  
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
+[Understand and create work streams](create-workstreams.md)  
+[Overview of unified routing](overview-unified-routing.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
