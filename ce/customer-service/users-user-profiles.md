@@ -66,6 +66,6 @@ Capacity is the arbitrary scale that you choose and set for each of the work str
 
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Configure and manage presence status](presence-custom-presence.md)  
-
+[Role personas for unified routing](role-persona-mapping.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
