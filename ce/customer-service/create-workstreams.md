@@ -125,6 +125,10 @@ When a conversation becomes active from the waiting status, it might not be assi
 
 Because the conversation assignment takes place using the notification alert, the agent has the option to reject the assignment.
 
+### Associate templates
+
+You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates in Omnichannel admin center](../app-profile-manager/associate-templates.md#associate-templates-with-workstreams-in-omnichannel-admin-center)
+
 ### See also
 
 [Set up record routing](set-up-record-routing.md)  
