@@ -30,9 +30,6 @@ Routing and work distribution is a two-step process:
 1. Routing dispatches conversations into the right queues.
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
-> [!div class=mx-imgBorder]
-> ![Graphical representation of routing and work distribution scenario](media/unified-routing-work-distribution.png "Graphical representation of routing and work distribution scenario")
-
 ## Overview of routing system
 
 A customer initiates a conversation from the portal, and the conversation reaches the Omnichannel system. Now, based on the routing rules condition defined in the routing system, it starts routing the conversation to the appropriate queues.
