@@ -1,5 +1,5 @@
 ---
-title: "Make a copy of the "Field Service Mobile" app module | MicrosoftDocs"
+title: "Add a custom app module to the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
@@ -19,34 +19,21 @@ search.app:
 - D365FS
 ---
 
-# Make a copy of the "Field Service Mobile" app module
-## Prerequisites
-> [!Note]
->
+# Add a custom app module to the Field Service (Dynamics 365) mobile app
 
->[!TIP] 
-> 
+While it is recommended to use the standard "Field Service Mobile" app module, there may be times when an organization wants to give frontline workers access to an additional custom app module to assist in other business use cases and processes.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+In this article we will describe how to make an additional Dynamics 365 model driven app available to frontline workers from within the Field Service (Dynamics 365) mobile app. 
 
-For a guided walkthrough, check out the following video.
+This is accomplished by:
 
-> [!VIDEO 
-https://www.microsoft.com/en-us/videoplayer/embed/RWyHY4]
-
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
-
-
-## Configuration considerations
-## Additional Notes
-
+1. Creating a custom app module based on the "Field Service Mobile" app module.
+2. Adding the custom app module to the "Field Service Mobile" app module.
 
 ## Create a custom app module based on "Field Service Mobile"
 
-
-While we recommend using the standard Field Service Mobile app module, there may be times when an organization will require a second app module or have a custom app module that can be used with the Field Service Mobile application as shown in the image below.
+ as shown in the image below.
 
 ![](media/image6.png)
 
@@ -66,21 +53,25 @@ To create a new Field Service Mobile app module:
 
 ![Graphical user interface  application Description automatically generated](media/image3.png)
 
-4.  Your new app module will be created with all typical Field Service Mobile components. You can now begin customizing your app module. When ready be sure to Publish the app module.
+4.  Your new app module will be created with all typical Field Service Mobile components. You can now begin customizing your app module. 
 
 ![Graphical user interface  application Description automatically generated](media/image4.png)
 
-## Make the custom app module available in Field Service Mobile with Offline 
+5. **Publish** the app module after making changes.
 
-Once the App Module is created, you will need to tag the app module so that it is available to the Field Service Mobile application. To make the app module available to Field Service Mobile:
+## Make the custom app module available in "Field Service Mobile" 
+
+Once the custom app module is created, you will need to tag the app module so that it is available to the Field Service Mobile application and eligible for Offline First. 
+
+To make the app module available to Field Service Mobile:
 
 1.  Associate your app module to a Solution: In Dynamics 365 go to "Settings" then "Solutions" then "New". Enter required details in the resulting screen, then save and close.
 
 2.  After saving you will be back on the Solutions and see your new Solution. Open that solution and scroll down to "Model-driven Apps".
 
-    1.  If you have already created your App Module select "Add Existing" then select your desired app module.
+    1.  If you have already created your app module select "Add Existing" then select your desired app module.
 
-    2.  If you have not yet created the app module you can start creation process by selecting "New".
+    2.  If you have not yet created the app module you can start the creation process by selecting "New".
 
 ![Graphical user interface  text  application  email Description automatically generated](media/image5.png)
 
@@ -90,7 +81,7 @@ Once the App Module is created, you will need to tag the app module so that it i
 
 5.  Open the exported Solution (.zip) and edit the file "Customizations.xml"
 
-6.  Within Customizations.XML, locate XML node for <AppModule>
+6.  Within Customizations.XML, locate XML node for "< AppModule >"
 
 7.  Within "< AppModule >", you will insert two nodes for "< appsettings >" as shown below.
 
