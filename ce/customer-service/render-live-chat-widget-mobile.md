@@ -35,7 +35,7 @@ The Omnichannel Chat SDK is supported on React Native, and therefore works for i
 
  To download and install the open source Omnichannel Chat SDK on npm, go to: [Omnichannel Chat SDK](https://www.npmjs.com/package/@microsoft/omnichannel-chat-sdk).
 
- To read the GitHub documentation of the SDK, go to: (https://github.com/microsoft/omnichannel-chat-sdk).
+ More info: [GitHub documentation of Omnichannel Chat SDK](https://github.com/microsoft/omnichannel-chat-sdk).
 
 Examples of the Omnichannel Chat SDK are below:
 
@@ -90,7 +90,7 @@ var html: String = """
 
 The rendering of the live chat widget in the mobile web experience can be optimized by using data attributes such as `data-hide-chat-button` and `data-render-mobile`, along with some of the APIs and events provided by the live chat widget client SDK.
 
-The usage of the `data-hide-chat-button` attribute in the preceding sample code hides the default open chat button available in the live chat widget. So instead of using the default chat button, you can add a button that aligns with the mobile app. To open a chat session, you can call the [startChat](../developer/reference/methods/startchat) method when the new chat button is clicked.
+The usage of the `data-hide-chat-button` attribute in the preceding sample code hides the default open chat button available in the live chat widget. So instead of using the default chat button, you can add a button that aligns with the mobile app. To open a chat session, you can call the [startChat](../developer/reference/methods/startchat.md) method when the new chat button is clicked.
 
 ```javascript
 chatWebView.evaluateJavascript(
@@ -99,21 +99,21 @@ chatWebView.evaluateJavascript(
 )
 ```
 
-You use the `data-render-mobile` attribute to optimize the rendering of the live chat widget on mobile. For example, it hides the header of the chat widget. Along with the header, the **Close (X)** button also goes away. To close the chat, you have to create an "end chat" button in the mobile app and call the [closeChat](../developer/reference/methods/closechat) method on the click event.
+You use the `data-render-mobile` attribute to optimize the rendering of the live chat widget on mobile. For example, it hides the header of the chat widget. Along with the header, the **Close (X)** button also goes away. To close the chat, you have to create an "end chat" button in the mobile app and call the [closeChat](../developer/reference/methods/closechat.md) method on the click event.
 
 ```javascript
 chatWebView.evaluateJavascript(
     "Microsoft.Omnichannel.LiveChatWidget.SDK.closeChat();", null)
 ```
 
-The preceding code covers the scenario where the user of the mobile app ends the chat. In another scenario, where an agent ends the conversation, you can listen for the [lcw:threadUpdate](https://docs.microsoft.com/en-us/dynamics365/customer-service/developer/reference/events/lcw-threadupdate) event and call the [closeChat](../developer/reference/methods/closechat) method to end the conversation from the client side.
+The preceding code covers the scenario where the user of the mobile app ends the chat. In another scenario, where an agent ends the conversation, you can listen for the [lcw:threadUpdate](../developer/reference/events/lcw-threadupdate.md) event and call the [closeChat](../developer/reference/methods/closechat.md) method to end the conversation from the client side.
 
 ```javascript
 chatWebView.evaluateJavascript(
     "window.addEventListener(\"lcw:threadUpdate\", function(){Microsoft.Omnichannel.LiveChatWidget.SDK.closeChat();})", null)
 ```
 
-After the chat is closed, the live chat widget triggers the [lcw:closeChat](../developer/reference/events/lcw-closechat) event. You can listen for this event, and run the post-chat steps.
+After the chat is closed, the live chat widget triggers the [lcw:closeChat](../developer/reference/events/lcw-closechat.md) event. You can listen for this event, and run the post-chat steps.
 
 ### See also
 
