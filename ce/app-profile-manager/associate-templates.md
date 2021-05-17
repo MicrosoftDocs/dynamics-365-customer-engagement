@@ -9,13 +9,13 @@ ms.service: "dynamics-365-customerservice"
 ms.topic: article 
 ---
 
-# Associate templates with work streams
+# Associate templates with workstreams
 
 The session, notification, and application tab templates that you create need to be associated with a work stream so that the Omnichannel system uses the corresponding templates for an incoming conversation.
 
 After an agent accepts the conversation request, a session starts for which the session template is used. In the session, certain application tabs are required such as dashboard, knowledge article search, and case pages. These application tabs are configured using the application tab templates and are associated with a session.
 
-## Attach templates in work streams
+## Attach templates with workstreams in Omnichannel Administration
 
 You can attach only generic type of templates to work streams. By default, the out-of-the-box templates are associated based on the channel. However, you can replace the default templates with the ones that you create.
 
@@ -25,7 +25,7 @@ You can attach only generic type of templates to work streams. By default, the o
 
 3. Select a work stream for which you want to associate the templates.
 
-4. Select the **Templates** tab in the work stream. You can see the **Sessions** and **Notifications** sections. 
+4. Select the **Templates** tab in the work stream. You can see the **Sessions** and **Notifications** sections.
 
 5. You can accept the default session template or select the search icon in **Look for Session Templates**.
 

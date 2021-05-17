@@ -118,23 +118,21 @@
         href: create-workstreams.md
       - name: Create and manage workstreams in Omnichannel Administration
         href: create-workstreams-oca.md
-      - name: Associate templates with workstreams
-        href: ../app-profile-manager/associate-templates.md
-    - name: Configure routing rules
-      items:
-      - name: Configure work classification rulesets
-        href: configure-work-classification.md
-      - name: Set up routing and assignment rules in Omnichannel Administration
-        href: routing-rules.md  
     - name: Create and manage queues
       items:
       - name: Create and manage queues for unified routing
         href: queues-omnichannel.md
       - name: Create queues in Omnichannel Administration
-        href: Create-queues-oca.md  
+        href: Create-queues-oca.md
       - name: Create and manage basic queues
         href: set-up-queues-manage-activities-cases.md
-    - name: Configure assignment methods
+    - name: Configure work classification
+      items:
+      - name: Configure work classification rulesets for unified routing
+        href: configure-work-classification.md
+      - name: Set up routing and assignment rules in Omnichannel Administration
+        href: routing-rules.md  
+    - name: Configure assignment
       items:
       - name: Configure assignment methods for queues
         href: assignment-methods.md     
