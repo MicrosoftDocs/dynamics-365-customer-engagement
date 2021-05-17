@@ -1,5 +1,5 @@
 ---
-title: "Add products to an opportunity by using the enhanced experience (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Enhanced experience for adding products to opportunity (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales."
 ms.date: 04/17/2020
 ms.service: dynamics-365-sales
