@@ -146,7 +146,7 @@
           href: set-up-entity-workstream.md
         - name: Create multiple workstreams for records in Omnichannel Administration
           href: multiple-ws-entity-record-routing.md  
-        - name: Automatically route cases
+        - name: Automatically route cases using basic routing rulesets
           href: create-rules-automatically-route-cases.md
         - name: Enable records for routing
           href: entity-channel.md
