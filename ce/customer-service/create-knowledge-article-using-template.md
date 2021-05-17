@@ -31,7 +31,7 @@ The **msdyn_GetKAObjectFromTemplate** action requires the following parameters:
 
 | Type | Description |
 | ---- | ---- |
-| [KnowledgeArticle](../developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
+| [KnowledgeArticle](../customerengagement/on-premises/developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
 
 ## Example
 

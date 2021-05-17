@@ -43,7 +43,7 @@ Make sure the following prerequisites have been met before configuring the dashb
 - You have Power BI Pro license that is required to do the following:
   - To get Omnichannel insights from app store and install it in your organization.
   - For users to use the template app or to share it with other Power BI Pro users.
-- You have assigned template app workspace to a premium capacity so that every free user in the organization can consume the report. For information, see [Ways to collaborate and share in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports).
+- You have assigned template app workspace to a premium capacity so that every free user in the organization can consume the report. For information, see [Ways to collaborate and share in Power BI](/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports).
 - You have enabled the embedding of Power BI reports in Dynamics 365 Customer Service by doing the following:
   1. Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
   2. Go to the **Reporting** tab and select **Yes** for **Allow Power BI visualization embedding**.

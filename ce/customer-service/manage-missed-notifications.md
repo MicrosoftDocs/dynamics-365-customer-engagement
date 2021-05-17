@@ -31,7 +31,7 @@ With the missed notifications feature, you can now choose to automatically set a
 
 ### See also
 
-[Manage notification settings and templates](notification-templates.md)  
+[Manage notification settings and templates](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
 [View notifications](oc-notifications.md)  
 
 

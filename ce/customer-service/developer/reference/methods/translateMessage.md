@@ -113,7 +113,7 @@ The `errorCode` parameter in `ErrorObject` represents the errors only from the f
 |UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
 ||||
 
-The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 **Sample response**
 

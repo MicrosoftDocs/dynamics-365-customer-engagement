@@ -115,7 +115,7 @@ When you're viewing a record:
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
 
-More information: [Create and manage queues](https://docs.microsoft.com/dynamics365/customer-service/set-up-queues-manage-activities-cases) and [Create and manage a case](https://docs.microsoft.com/dynamics365/customer-service/user-guide-customer-service#create-and-manage-a-case).
+More information: [Create and manage queues](./set-up-queues-manage-activities-cases.md) and [Create and manage a case](./user-guide-customer-service.md#create-and-manage-a-case).
 
 ## Quickly create new records
   
@@ -205,7 +205,7 @@ To create a new site, you need to go to **Advanced find** ![Advanced find](media
 
 ### Related section
 
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps. For information, see [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps. For information, see [Reference Panel in model-driven apps ](/powerapps/user/navigation#reference-panel).
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
   
