@@ -35,8 +35,8 @@ As an example, consider the prioritization rule as seen in the following screens
 
 ![Prioritization scenario](media/ur-prioritization-scenario.png "Prioritization scenario")
 
-1. Create a prioritization ruleset
-2. Create a decision list of rules
+1. [Create an assignment method](#create-an-assignment-method)
+2. [Configure selection criteria](#configure-selection-criteria)
 
 ## How assignment rulesets work
 
@@ -105,7 +105,7 @@ Follow these steps to configure the selection criteria for the assignment rulese
 
 1. For the assignment method, in the **Assignment** section, select **Create rule**, and in the **Decision list** area, select **Create rule**.
 2. In the **Create selection criteria rule** dialog box, enter a rule name, and define the conditions.
-3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the Decision list area.
+3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the **Decision list** area.
 4. Define as many rules as the number of assignment rulesets.
 
 ### See also

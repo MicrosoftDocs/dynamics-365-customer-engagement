@@ -45,7 +45,7 @@ In exact skill matching, the assignment logic searches for an agent with the 
 
 If no agent is available with all the required skills and corresponding or higher proficiency, then the conversation remains unassigned in the queue.
 
-Exact match will filter all matching agents whose proficiency is more than the required proficiency, that is when the agent rating value is greater than or equal to the required value.
+Exact match will filter all matching agents whose proficiency is greater than or equal to the required proficiency.
 
 The following table describes how exact skill matching works for a single or multiple-skill scenario.
 
@@ -72,7 +72,7 @@ The following table describes how exact skill matching works for a single- or mu
 | Multiple | Xbox = 4 <br> Spanish = 5 |<ul><li> Agents are first ordered by exact qualified (Xbox equals 4, Spanish equals 5), then overqualified (Xbox is greater than 4, Spanish is greater than 5) and then underqualified (Xbox is less than 4, Spanish is less than 5). </li> <li> If none of the criteria are met, then the work item might be assigned to an agent who doesn't have the Xbox and Spanish skills. </li></ul>|
 
 > [!Note]
-> The system provides a score for the agents against each skill based on the scenarios mentioned and rating model. The system calculates the normalised score of the agent considering the skills and then, based on the score, assigns the conversation to the agents.
+> The system provides a score for the agents against each skill based on the scenarios mentioned and rating model. The system calculates the normalised score of the agent by considering the skills and then, based on the score, assigns the conversation to the agents.
 
 ## Prerequisites
 
