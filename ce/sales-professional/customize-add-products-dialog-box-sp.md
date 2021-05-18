@@ -47,7 +47,7 @@ By default, the **Add products** dialog box displays the following columns in th
 
 **To add or remove columns in the grid**
 
-1. Sign in to Power Apps and open the view editor. For step-by-step instructions, see [Choose and configure columns in views](powerapps/maker/model-driven-apps/choose-and-configure-columns/choose-and-configure-columns#open-the-view-editor).  
+1. Sign in to Power Apps and open the view editor. For step-by-step instructions, see [Choose and configure columns in views](/powerapps/maker/model-driven-apps/choose-and-configure-columns/choose-and-configure-columns#open-the-view-editor).  
 1. Select the following tables and views to configure the Add products dialog box for opportunity, quote, order, and invoice:
    
     |Table Name  |View Name  |
