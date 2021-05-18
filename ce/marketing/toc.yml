@@ -33,7 +33,7 @@
     - name: Uninstall Marketing
       href: uninstall-marketing.md
     - name: Installation and management FAQ
-      href: install-manage-faq.md
+      href: install-manage-faq.yml
   - name: Administration
     items: 
     - name: Administration overview
@@ -149,7 +149,7 @@
       - name: How the app uses cookies
         href: cookies.md
     - name: Administration and setup FAQ
-      href: setup-troubleshooting.md
+      href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
   - name: Marketing user guide
