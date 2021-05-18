@@ -28,23 +28,23 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/14/2021
+| | <i>First Release</i> | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) |TBD | 05/28/2021
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
-| | <i>Canada</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
-| | <i>India</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
-| | <i>France</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
-| | <i>United Arab Emirates</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
-| | <i>South Africa</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
-| | <i>Germany</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
-| | <i>Switzerland</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) |TBD | 05/21/2021
+| | <i>South America</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
+| | <i>Canada</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
+| | <i>India</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
+| | <i>France</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
+| | <i>United Arab Emirates</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
+| | <i>South Africa</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
+| | <i>Germany</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
+| | <i>Switzerland</i> | [8.8.41.28](https://docs.microsoft.com/dynamics365/field-service/version-history#884128) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/21/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
-| | <i>Asia Pacific</i> |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
-| | <i>Great Britain</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
-| | <i>Oceana</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) |TBD | 05/28/2021
+| | <i>Japan</i> |  [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/28/2021
+| | <i>Asia Pacific</i> |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/28/2021
+| | <i>Great Britain</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/28/2021
+| | <i>Oceana</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 05/28/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153)  | 05/14/2021
+| | <i>Europe</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.31](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) | 06/04/2021
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [8.8.40.141](https://docs.microsoft.com/dynamics365/field-service/version-history#8840141) |[8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153)  | 05/21/2021
 |<strong>Station 6</strong> | |  |  | |
@@ -57,6 +57,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 
+## 8.8.42.31 
+
+(Includes Universal Resource Scheduling version [3.12.45.7](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312457))
+
+-	Will be available shortly.
+   
 ## 8.8.41.53 
 
 This release is a hotfix on Field Service version [8.8.41.28](#884128).
