@@ -26,7 +26,7 @@ The settings are divided into the following categories:
 
     ![Tap Settings](media/sm-select-settings.png "Tap Settings")
 
-    The Settings panel is displayed.
+    The **Settings** panel is displayed.
 
     ![Settings panel](media/sm-settings-panel.png "Settings panel")
 
