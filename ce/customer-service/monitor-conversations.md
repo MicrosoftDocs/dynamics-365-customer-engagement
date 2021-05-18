@@ -20,7 +20,7 @@ As a supervisor, you can monitor, assign, or transfer conversations that are bei
 When you monitor conversations, you can understand how they are being handled by your agents and also check if any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
 > [!NOTE]
-> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**. More info: [Enable Supervisor settings in Omnichannel Administration](enable-monitor-assign-transfer-conv.md).
+> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in **Omnichannel Administration**. More information: [Enable Supervisor settings in Omnichannel Administration](enable-monitor-assign-transfer-conv.md).
 
 ## Monitor and join conversations
 
