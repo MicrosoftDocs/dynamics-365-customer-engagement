@@ -610,3 +610,5 @@
         href: sales-mobile/create-contact.md
       - name: Manage notes
         href: sales-mobile/view-edit-add-note.md
+      - name: Dynamics 365 Sales mobile app settings
+        href: sales-mobile/app-settings.md
