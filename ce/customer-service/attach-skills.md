@@ -68,8 +68,8 @@ The following table describes how exact skill matching works for a single- or mu
 
 | Skill scenario | Skill & proficiency  | Description |
 |--------|---------------------|-----------------|
-| Single | Xbox = 4 | <ul><li> Agents are first ordered by exact qualified match (Xbox = 4), followed by overqualified match (Xbox > 4), and then underqualified match (Xbox < 4)</li> <li> If none of the criteria are met, then the work item might be assigned to an agent who doesn't have the Xbox skill.</li> </ul>|
-| Multiple | Xbox = 4 <br> Spanish = 5 |<ul><li> Agents are first ordered by exact qualified (Xbox = 4, Spanish = 5), then overqualified (Xbox > 4, Spanish > 5) and then underqualified (Xbox < 4, Spanish < 5). </li> <li> If none of the criteria are met, then the work item might be assigned to an agent who doesn't have the Xbox and Spanish skills. </li></ul>|
+| Single | Xbox = 4 | <ul><li> Agents are first ordered by exact qualified match (Xbox equals 4), followed by overqualified match (Xbox is greater than 4), and then underqualified match (Xbox is less than 4)</li> <li> If none of the criteria are met, then the work item might be assigned to an agent who doesn't have the Xbox skill.</li> </ul>|
+| Multiple | Xbox = 4 <br> Spanish = 5 |<ul><li> Agents are first ordered by exact qualified (Xbox equals 4, Spanish equals 5), then overqualified (Xbox is greater than 4, Spanish is greater than 5) and then underqualified (Xbox is less than 4, Spanish is less than 5). </li> <li> If none of the criteria are met, then the work item might be assigned to an agent who doesn't have the Xbox and Spanish skills. </li></ul>|
 
 > [!Note]
 > The system provides a score for the agents against each skill based on the scenarios mentioned and rating model. The system calculates the normalised score of the agent considering the skills and then, based on the score, assigns the conversation to the agents.
