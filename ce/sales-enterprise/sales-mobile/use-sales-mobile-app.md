@@ -53,6 +53,8 @@ By default, the production apps are displayed. If you want to see the apps from 
 
 2. Turn on the **Show non-production apps** toggle.
 
+    ![Show non-production apps toggle](media/non-prod-apps-toggle.png "Show non-production apps toggle")
+
 3. In the confirmation message, tap **Confirm**.
 
 4. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
@@ -66,6 +68,8 @@ By default, the production apps are displayed. If you want to see the apps from 
 3. Tap your profile picture at the top left of the screen.
 
 4. Turn on the **Show non-production apps** toggle.
+
+    ![Show non-production apps toggle](media/non-prod-apps-toggle.png "Show non-production apps toggle")
 
 5. In the confirmation message, tap **Confirm**.
 
