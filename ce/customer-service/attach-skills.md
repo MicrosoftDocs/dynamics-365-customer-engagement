@@ -38,7 +38,7 @@ Admins can achieve the skill matching based on the business requirements:
 
 - Exact skill matching
 - Closest or nearest skill matching
- 
+
 ### Exact skill matching
 
 In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency and lists them in the order of highest available capacity by default. The default order can be set to round robin by the administrator.
