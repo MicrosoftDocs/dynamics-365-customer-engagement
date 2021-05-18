@@ -15,7 +15,7 @@ searchScope:
   - Sales
 ---
 
-# Preview: Add products to an opportunity by using the enhanced experience
+# Preview: Add products to an opportunity by using enhanced experience
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

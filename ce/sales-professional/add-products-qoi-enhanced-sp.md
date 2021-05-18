@@ -20,7 +20,7 @@ searchScope:
   - Sales
 ---
 
-# Preview: Add products to quotes, orders, or invoices by using the enhanced experience
+# Preview: Add products to quotes, orders, or invoices by using  enhanced experience
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
