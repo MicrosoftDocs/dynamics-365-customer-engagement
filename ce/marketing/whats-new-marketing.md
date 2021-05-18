@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/13/2021
+ms.date: 05/18/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -51,7 +51,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
 | Marketing        | 1.35.10072.1070 |
 
 > [!Tip]
-> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 ### Preview features
 
@@ -163,7 +163,7 @@ This release also includes social posting to Instagram, an API to enable or disa
 | Marketing        | 1.35.10071.2007 |
 
 > [!Tip]
-> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 ### Monthly enhancements
 
