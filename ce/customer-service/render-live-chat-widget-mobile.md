@@ -35,7 +35,7 @@ The Omnichannel Chat SDK is supported on React Native, and therefore works for i
 
  To download and install the open source Omnichannel Chat SDK on npm, go to: [Omnichannel Chat SDK](https://www.npmjs.com/package/@microsoft/omnichannel-chat-sdk).
 
- More info: [GitHub documentation of Omnichannel Chat SDK](https://github.com/microsoft/omnichannel-chat-sdk).
+ More information: [GitHub documentation of Omnichannel Chat SDK](https://github.com/microsoft/omnichannel-chat-sdk)
 
 Examples of the Omnichannel Chat SDK are below:
 
@@ -43,7 +43,7 @@ Examples of the Omnichannel Chat SDK are below:
 
 - Web Reference App: [BotFramework-WebChat](https://github.com/microsoft/BotFramework-WebChat)
 
-To view examples, go to: [Chat SDK Sample Apps](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
+To view all examples, go to: [Chat SDK Sample Apps](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
 
 > [!NOTE]
 > Most future updates on chat customization will happen on the Omnichannel Chat SDK package.
@@ -55,7 +55,7 @@ Though we recommend using the Omnichannel Chat SDK, if the SDK does not meet you
 > [!NOTE]
 > Embedding a live chat widget code has many more limitations and restrictions compared to the Omnichannel Chat SDK such as reduced performance, limited mobile usability, and unavailable features.
 >
-> Also, live chat widget features such as escalating to voice and video, and downloading the chat transcript aren't supported on the mobile app.
+> Live chat widget features such as escalating to voice and video, and downloading the chat transcript aren't supported on the mobile app.
 
 A `WebView` is an embedded browser that enables a native application to display web content. Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the live chat widget on mobile devices. The WebView capability is offered on both Android and iOS.
 
