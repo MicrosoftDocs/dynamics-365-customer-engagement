@@ -14,9 +14,9 @@ manager: shujoshi
 Settings provides a consolidated view for relevant information about the app, helpful links to submit ideas, report issues, share feedback, and sign out option.
 
 The settings are divided into the following categories:
-- Help and feedback
-- About
-- Account
+- [Help and feedback](#help-and-feedback)
+- [About](#about)
+- [Account](#account)
 
 **To open the Settings panel**
 
@@ -26,7 +26,7 @@ The settings are divided into the following categories:
 
     ![Tap Settings](media/sm-select-settings.png "Tap Settings")
 
-3. The Settings panel is displayed.
+    The Settings panel is displayed.
 
     ![Settings panel](media/sm-settings-panel.png "Settings panel")
 
