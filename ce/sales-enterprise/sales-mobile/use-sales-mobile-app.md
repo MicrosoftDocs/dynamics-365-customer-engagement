@@ -43,6 +43,35 @@ You can sign in to the Dynamics 365 Sales mobile app by using your work email ad
 
     ![Sign out](media/sm-settings-panel.png "Sign out")
 
+## View non-production apps
+
+By default, the production apps are displayed. If you want to see the apps from your trial or sandbox environment, you must enable the **Show non-production apps** setting.
+
+**If you've not selected the app to use**
+
+1. Tap your profile picture at the top left of the screen. 
+
+2. Turn on the **Show non-production apps** toggle.
+
+3. In the confirmation message, tap **Confirm**.
+
+4. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
+
+**If you've selected the app to use**
+
+1. Sign out from the app.
+
+2. Sign in to the app.
+
+3. Tap your profile picture at the top left of the screen.
+
+4. Turn on the **Show non-production apps** toggle.
+
+5. In the confirmation message, tap **Confirm**.
+
+6. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
+
+
 ## First run experience
 
 When you sign in and select the app for the first time, you'll see the display cards. Review the display cards on the app and on the last card, select **Let's go** to move to the home page.
