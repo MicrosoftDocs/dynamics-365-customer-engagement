@@ -31,11 +31,11 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 ## Prerequisites
 
-- Product licenses - You need a product license for Power Virtual Agents ([start a trial](https://go.microsoft.com/fwlink/p/?LinkId=2092080&clcid=0x409)) and Omnichannel for Customer service ([learn more](/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365)).
+- Product licenses - Omnichannel for Customer Service includes the the license for Power Virtual Agents. More information, see [Dynamics 365 Licensing Guide (PDF)](https://go.microsoft.com/fwlink/p/?LinkId=866544). To get Omnichannel trial, see [Try channels in Omnichannel for Customer Service](try-channels.md).
 - Role - In order to successfully complete these steps, the signed-in user must be an Omnichannel Administrator. [Learn more about managing and assigning user roles in Omnichannel](add-users-assign-roles.md).
 - Azure Application ID - You will need an application registered in Azure prior to connecting to Omnichannel for Customer Service. [Learn more](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-- Bot - You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
-- Chat widget - You must have a preconfigured chat widget to enable the bot to communicate with end users. For more information, see [Add a chat widget](add-chat-widget.md).
+- Bot - You must have a pre-configured bot that can integrate with Omnichannel for Customer Service. For more information, see [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel).
+- Chat widget - You must have a pre-configured chat widget to enable the bot to communicate with end users. For more information, see [Add a chat widget](add-chat-widget.md).
 
 ## Configure your Power Virtual Agents bot
 
