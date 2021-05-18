@@ -32,9 +32,9 @@ While Dynamics 365 Field Service includes basic inventory capabilities for manag
 
 ## Integrate with Remote Assist 
 
-If your organization uses Dynamics 365 Field Service to manage field service work orders, your frontline workers using Dynamics 365 Remote Assist on HoloLens can see their Field Service bookings and quickly call the remote collaborator listed in the booking's Support Contact field. Check this doc Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens | Microsoft Docs to learn more 
+If your organization is using Dynamics 365 Remote Assist, frontline workers can trigger a mixed reality video call from the Field Service mobile app or their HoloLens. This connects the frontline worker with a remote knowledge worker who can share their expertise and ultimately increase the chances of fixing the issue on the first trip. See the topic on [collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist](https://docs.microsoft.com/en-us/dynamics365/field-service/remote-assist-hololens) to learn more.
 
-https://docs.microsoft.com/en-us/dynamics365/field-service/remote-assist-hololens
+
 
 ## Integrate with D365 Guides 
 Integration with Dynamics 365 Guides lets Field Service customers attach mixed reality guides to Field Service tasks. When work orders are assigned to technicians, the technicians can use a dedicated Field Service tab in the Dynamics 365 Guides HoloLens app to launch the assigned guide and get their work done. Check this doc Integrate Field Service with Dynamics 365 Guides | Microsoft Docs to learn more 
