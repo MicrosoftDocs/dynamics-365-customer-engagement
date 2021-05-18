@@ -104,6 +104,8 @@
         href: overview-unified-routing.md
       - name: How routing and assignment works
         href: set-up-routing-process.md
+      - name: Routing and assignment rules
+        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -128,8 +130,6 @@
           href: routing-rules.md  
       - name: Configure work assignment
         items:
-        - name: Routing and assignment rules
-          href: routing-workstream-queues.md        
         - name: Configure assignment methods for queues
           href: assignment-methods.md     
       - name: Set up record routing
@@ -178,6 +178,7 @@
           href: role-persona-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+    - name: Agent experience
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
