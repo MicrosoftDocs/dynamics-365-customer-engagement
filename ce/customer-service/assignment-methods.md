@@ -35,9 +35,6 @@ As an example, consider the prioritization rule as seen in the following screens
 
 ![Prioritization scenario](media/ur-prioritization-scenario.png "Prioritization scenario")
 
-1. [Create an assignment method](#create-an-assignment-method)
-2. [Configure selection criteria](#configure-selection-criteria)
-
 ## How assignment rulesets work
 
 The assignment ruleset is an order list of assignment rules. Each assignment rule represents a set of conditions that is used to determine the agents to select and an order by field to sort the matching agents. At runtime, the assignment rule with the top order is evaluated first. The agents are matched as per the conditions specified in the rule. If more than one matching agents exist, they are sorted by the ordered-by field, and the top agent is assigned the work. If no agents are matched, then the next assignment rule in the rule set is evaluated. This can be thought of as gradual relaxation of constraints in the assignment such that first the strictest criteria is applied, and then the conditions are slowly reduced so that the best agent is found.
