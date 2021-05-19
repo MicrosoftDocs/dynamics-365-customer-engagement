@@ -54,6 +54,8 @@ Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../in
 
 ### Best Practices Analyzer for Unified Service Desk 4.1
 
+Only applies to Dynamics 365 version 9 or higher.
+
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-4-1](../../includes/pn-unified-service-desk-4-1.md)] is available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample package.
 
 You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
@@ -63,6 +65,8 @@ You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-se
 ::: moniker range="=dynamics-usd-4"  
 
 ### Best Practices Analyzer for Unified Service Desk 4.0
+
+Only applies to Dynamics 365 version 9 or higher.
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] is available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample package.
 
