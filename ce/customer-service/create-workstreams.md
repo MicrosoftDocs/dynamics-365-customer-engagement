@@ -13,9 +13,9 @@ ms.service: "dynamics-365-customerservice"
 
 ## Overview
 
-A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and case. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
+A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and case.
 
-A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
+The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
 
 The workstream can be one of the following types:
 
@@ -29,6 +29,8 @@ The workstream can be one of the following types:
 > - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 ## Create a workstream in Omnichannel admin center
+
+While you can create the workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps, this topic covers the steps for Omnichannel admin center.
 
 Perform the following steps:
 
