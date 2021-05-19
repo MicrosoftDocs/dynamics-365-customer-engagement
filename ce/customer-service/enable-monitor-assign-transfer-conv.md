@@ -1,5 +1,5 @@
 ---
-title: Enable Supervisor settings in Omnichannel Administration | MicrosoftDocs
+title: Enable supervisor settings in Omnichannel Administration | MicrosoftDocs
 description: "How to enable supervisors to monitor, assign, and transfer conversations in Omnichannel Administration."
 author: mh-jaya
 ms.author: v-jmh
@@ -21,9 +21,9 @@ As an administrator, you can enable your supervisors to take specific actions on
 
 - To enable supervisors to transfer conversations from one agent to another, set the **Supervisor Transfer** toggle to **Yes**. 
 
-To disable any of the settings, set the respective toggle to **No**.
+To disable any of the settings, set their respective toggle to **No**.
 
-## See also
+### See also
 
 [Monitor, assign, and transfer conversations](monitor-conversations.md)  
 [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  
