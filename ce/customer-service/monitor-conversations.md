@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.<!--note from editor: Just FYI, you'll notice I left style guide violations alone in this paragraph ("is not," "may"), because we aren't supposed to touch legalese.-->
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 As a supervisor, you can monitor, assign, or transfer conversations that are being handled by your agents by using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
 
@@ -29,7 +29,7 @@ As a supervisor, you can monitor or assign conversations that are configured for
 > [!NOTE]
 > You can't monitor conversations that are assigned to you.
 
-1. Sign in to Omnichannel for Customer Service.
+1. Sign in to Dynamics 365 and open Omnichannel for Customer Service app.
 
 2. From the dashboard view selector, select the **Omnichannel Ongoing Conversations** dashboard.
     The list of conversations currently being handled by your agents is displayed.
@@ -39,7 +39,7 @@ As a supervisor, you can monitor or assign conversations that are configured for
 
 4. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
-    When you join the conversation, both the agent and the customer receive notifications that you've joined. Depending on your requirements, you can consult with the agent and customer via public or internal modes. For more information, go to [View communication panel](oc-conversation-control.md).<!--note from editor: Notice in the two following procedures that I've outdented the last paragraphs. When the paragraph applies to the whole procedure, it doesn't need to be indented. But when it applies only to the step that precedes it (which is the case here), the indent makes good sense.-->
+    When you join the conversation, both the agent and the customer receive notifications that you've joined. Depending on your requirements, you can consult with the agent and customer via public or internal modes. For more information, go to [View communication panel](oc-conversation-control.md).
 
 ## Assign conversations
 
