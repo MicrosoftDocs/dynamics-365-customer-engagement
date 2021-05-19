@@ -49,7 +49,7 @@ To manually assign a conversation, the conversation should be in an open state a
 
 2. Select a conversation in an **Open** state, and then select **Assign**.
 
-3. In the **Assign conversations** dialog, select **Agent** or **Queue**.
+3. In the **Assign conversations** dialog box, select **Agent** or **Queue**.
 
     > If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
     > If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
@@ -71,7 +71,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 2. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
 
-3. On the **Transfer conversations** dialog, select an agent from the list of agents that appears.
+3. In the **Transfer conversations** dialog box, select an agent from the list of agents that appears.
 
       Only those agents whose presence matches with one of the allowed presence values in the workstream configuration will be listed.
 
