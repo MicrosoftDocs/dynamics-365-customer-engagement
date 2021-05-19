@@ -34,7 +34,7 @@ Omnichannel for Customer Service April 2021 update is available in the following
 | Europe                                    |   April 17, 2021   |
 | France                                    |   April 09, 2021   |
 | Germany                                   |   April 09, 2021   |
-| Government Community Cloud                |   May 15, 2021     |
+| Government Community Cloud (GCC)          |   May 15, 2021     |
 | India                                     |   April 08, 2021   |
 | Japan                                     |   April 15, 2021   |
 | North America                             |   April 24, 2021   |
