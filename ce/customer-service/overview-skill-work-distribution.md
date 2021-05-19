@@ -51,7 +51,7 @@ The steps to configure skill-based routing are as follows:
 - [Step 2: Create skill type](setup-skills-assign-agents.md#create-skill-type)
 - [Step 3: Create skills](setup-skills-assign-agents.md#create-skills)
 - [Step 4: Assign agents to skill](setup-skills-assign-agents.md#assign-agents-to-skill)
-- [Step 5: Create rules to attach skill](attach-skills.md#create-rules-to-attach-a-skill)
+- [Step 5: Create rules to attach skill](assignment-methods.md)
 
 ## Videos
 

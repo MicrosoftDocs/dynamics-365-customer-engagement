@@ -4,7 +4,7 @@ description: Visit this page to see what's recently deprecated in Dynamics 365 C
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/05/2021
+ms.date: 05/18/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -38,7 +38,7 @@ Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dy
 
 This will impact customers who use Dynamics 365 and Microsoft Power Platform products that are designed to be used through an Internet Explorer 11 interface. After August 2021, Internet Explorer 11 won't be supported for such Dynamics 365 and Microsoft Power Platform products. We recommend that customers transition to Microsoft Edge.
 
-For the complete list of products impacted by this change and transitioning from Internet Explorer 11 to a supported browser, see FAQ: [Internet Explorer 11 deprecation for Dynamics 365 and Microsoft Power Platform Products](https://aka.ms/IEsupportDeprecationBAG). If you have additional questions, contact your Microsoft Customer Service representative or Microsoft Partner.
+If you have more questions, contact your Microsoft Customer Service representative or Microsoft Partner.
 
 ## Automatic record creation rules in web client are deprecated
 
