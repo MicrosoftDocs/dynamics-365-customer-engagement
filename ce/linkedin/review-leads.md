@@ -29,7 +29,7 @@ When a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matches a lead reco
 ## See the details of a lead
 
 To see the details of a lead record, go to **Sales** > **Leads** and select the lead record from the list. If the lead was created by the connector, the lead source is **[!include[LinkedIn](../includes/pn-linkedin.md)] Sponsored Content**. If an existing lead record was updated, the system updates the lead field values by using the information submitted by the lead on [!include[LinkedIn](../includes/pn-linkedin.md)].
-More information about creating or editing a lead: [Create or edit a lead](https://go.microsoft.com/fwlink/p?linkid=832163).
+More information about creating or editing a lead: [Create or edit a lead](../sales-enterprise/create-edit-lead-sales.md).
 
 ![Review and analyze leads and lead performance](media/See-details-of-lead.png "Review and analyze leads and lead performance")
 
@@ -47,7 +47,7 @@ When you create your own dashboard, consider adding a chart for the record type 
 
 ![Add a component to dashboard](media/Add-component-to-dashboard.png "Add a component to the dashboard")
 
-More information about building custom dashboards: [Create or customize dashboards](https://go.microsoft.com/fwlink/p/?linkid=834422) and [Manage dashboard components](https://go.microsoft.com/fwlink/p/?linkid=320334).
+More information about building custom dashboards: [Create or customize dashboards](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826623(v=crm.8)) and [Manage dashboard components](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826584(v=crm.8)).
 
 ## Analyze individual LinkedIn Lead Gen forms and submissions
 

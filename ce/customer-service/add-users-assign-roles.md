@@ -32,7 +32,7 @@ For more information on the App Profile Manager Administrator and App Profile Us
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Assign roles to users
 
@@ -98,6 +98,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
+[Role personas for unified routing](role-persona-mapping.md)  
 [Guide agents with scripts](../app-profile-manager/agent-scripts.md)  
 [Automate tasks with macros](../app-profile-manager/macros.md)  
 

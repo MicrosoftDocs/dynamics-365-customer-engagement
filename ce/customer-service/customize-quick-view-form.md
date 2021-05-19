@@ -40,7 +40,7 @@ The following procedure shows how to modify the **Customer profile** quick view 
 6.  Select **Save**, and then select **Publish**.
 
 > [!TIP]
-> To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
+> To edit a quick view form, see [Edit a quick view form](/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 
 ### See also

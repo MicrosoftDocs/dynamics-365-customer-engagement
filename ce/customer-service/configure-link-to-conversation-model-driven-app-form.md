@@ -302,11 +302,11 @@ To learn more, see [Import the ribbon](/powerapps/developer/model-driven-apps/ex
 
 ## See also
 
-[Export, prepare to edit, and import the ribbon](https://docs.microsoft.com/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)
+[Export, prepare to edit, and import the ribbon](/powerapps/developer/model-driven-apps/export-prepare-edit-import-ribbon#import-the-ribbon)
 
-[Define ribbon enable rules](https://docs.microsoft.com/powerapps/developer/model-driven-apps/define-ribbon-enable-rules)
+[Define ribbon enable rules](/powerapps/developer/model-driven-apps/define-ribbon-enable-rules)
 
-[Pass data from a page as a parameter to Ribbon Actions](https://docs.microsoft.com/powerapps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions)
+[Pass data from a page as a parameter to Ribbon Actions](/powerapps/developer/model-driven-apps/pass-data-page-parameter-ribbon-actions)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

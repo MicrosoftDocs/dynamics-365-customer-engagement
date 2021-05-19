@@ -19,8 +19,8 @@ This topic provides information on how you can enable similar case suggestions i
 > [!IMPORTANT]
 > Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
 
-- You need to have an understanding on how to create a bot using [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
-- Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp). See the section [Retrieve application information from the LUIS.ai portal](https://docs.microsoft.com/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=csharp#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
+- You need to have an understanding on how to create a bot using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
+- Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
 
 ## Scenario: Similar case suggestion
 
@@ -46,15 +46,15 @@ Given below are the steps for enabling the similar case scenario.
 
 1. **Set up Similarity Rules**
 
-Setup similarity rule by following the steps 1 to 7 in mentioned here: [Create a new similarity rule to view similar cases](https://docs.microsoft.com/dynamics365/customer-service/suggest-similar-cases-for-a-case#create-a-new-similarity-rule-to-view-similar-cases).
+Setup similarity rule by following the steps 1 to 7 in mentioned here: [Create a new similarity rule to view similar cases](./suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases).
  
 2. **Turn Relevance search ON**
 
-Turn On Relevance Search in the administrator section. More information: [Enable a field for exact matching of similar cases](https://docs.microsoft.com/dynamics365/customer-service/suggest-similar-cases-for-a-case#enable-a-field-for-exact-matching-of-similar-cases). 
+Turn On Relevance Search in the administrator section. More information: [Enable a field for exact matching of similar cases](./suggest-similar-cases-for-a-case.md#enable-a-field-for-exact-matching-of-similar-cases). 
   
 3. **Similar cases API**
 
-Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](https://docs.microsoft.com/dynamics365/customer-service/suggest-similar-cases-for-a-case). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
+Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](./suggest-similar-cases-for-a-case.md). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
 
 **Request**
 
