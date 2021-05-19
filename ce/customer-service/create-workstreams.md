@@ -19,8 +19,8 @@ A workstream can belong to multiple channels of the same type, like multiple cha
 
 The workstream can be one of the following types:
 
-**Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
-**Record**: To route entity records.
+- **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
+- **Record**: To route entity records.
 
 
 > [!IMPORTANT]
