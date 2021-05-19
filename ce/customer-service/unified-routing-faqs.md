@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for unified rout
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2021
+ms.date: 05/18/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -78,7 +78,7 @@ No. After upgrade, you'll no longer be able to create workstreams for routing re
 
 ### Can I route any record type by using basic routing?
 
-No. You can configure basic routing for only cases. To route any record type, use unified routing.
+No. Basic routing can be used only for cases. To route any record type, use unified routing.
 
 ### See also
 
