@@ -61,7 +61,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.45.7](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312457))
 
--	Will be available shortly.
+-	Check back soon for a full list of updates.
    
 ## 8.8.41.53 
 
