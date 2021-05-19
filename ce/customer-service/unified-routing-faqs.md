@@ -76,7 +76,12 @@ If you need further help, contact Microsoft Support.
 
 No. After upgrade, you'll no longer be able to create workstreams for routing records because they will not work as expected. We recommend that you start using the new Omnichannel admin center app to create and manage routing of records.
 
+### Can I route any record type by using basic routing?
+
+No. You can configure basic routing for only cases. To route any record type, use unified routing.
+
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
 [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
+[Set up unified routing for records](set-up-record-routing.md)  
