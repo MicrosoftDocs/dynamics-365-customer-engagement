@@ -596,7 +596,7 @@
           href: sales-mobile/install-android-app.md
         - name: Configure mobile apps with Microsoft Intune
           href: sales-mobile/configure-app-intune.md
-      - name: Use the Dynamics 365 Sales mobile app
+      - name: Use the app
         href: sales-mobile/use-sales-mobile-app.md
       - name: Learn the basics
         href: sales-mobile/learn-basics-mobile-app.md
@@ -610,5 +610,5 @@
         href: sales-mobile/create-contact.md
       - name: Manage notes
         href: sales-mobile/view-edit-add-note.md
-      - name: Dynamics 365 Sales mobile app settings
+      - name: App settings
         href: sales-mobile/app-settings.md
