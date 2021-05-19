@@ -1,6 +1,6 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
-description: "Understand and create workstreams in Customer Service"
+description: "Understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Create workstreams
+# Create workstreams for unified routing
 
 ## Overview
 
@@ -46,7 +46,7 @@ Perform the following steps:
 
 3. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
-    > ![Set up a channel](media/set-up-wechat.png "Set up a channel") 
+    > ![Set up a channel](media/set-up-chat.png "Set up a channel")
 4. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
    - [Configure a Facebook channel](configure-facebook-channel.md)
@@ -124,6 +124,10 @@ When a conversation becomes active from the waiting status, it might not be assi
 - Reassigns conversations to the same agent, irrespective of the agent's capacity and presence.
 
 Because the conversation assignment takes place using the notification alert, the agent has the option to reject the assignment.
+
+### Associate templates
+
+You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates in Omnichannel admin center](../app-profile-manager/associate-templates.md#associate-templates-with-workstreams-in-omnichannel-admin-center)
 
 ### See also
 

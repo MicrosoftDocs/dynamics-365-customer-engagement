@@ -39,6 +39,7 @@ In Omnichannel for Customer Service, the existing workstreams for routing record
 [Overview of unified routing](overview-unified-routing.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
+[Set up record routing](set-up-record-routing.md)  
 [Get started with Omnichannel admin center](oc-admin-center.md)  
 [FAQs on unified routing](unified-routing-faqs.md)  
 

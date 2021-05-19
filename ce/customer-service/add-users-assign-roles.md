@@ -99,6 +99,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
+[Role personas for unified routing](role-persona-mapping.md)  
 [Guide agents with scripts](../app-profile-manager/agent-scripts.md)  
 [Automate tasks with macros](../app-profile-manager/macros.md)  
 

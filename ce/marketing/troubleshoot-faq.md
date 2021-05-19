@@ -49,5 +49,5 @@ Admins can use the [Help + support experience](/power-platform/admin/get-help-su
 
 ### See also
 
-[Administration and setup FAQ](setup-troubleshooting.md)   
-[Installation and management FAQ](install-manage-faq.md)
+[Administration and setup FAQ](setup-troubleshooting.yml)   
+[Installation and management FAQ](install-manage-faq.yml)
