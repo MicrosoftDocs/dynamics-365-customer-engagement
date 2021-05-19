@@ -632,8 +632,12 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
-      - name: Provide access to Ongoing Conversations dashboard
-        href: configure-ongoing-conversations-dashbaord.md
+      - name: Enable supervisor settings
+        items:
+        - name: Provide access to Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Enable supervisors to monitor, assign, and transfer conversations
+          href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
@@ -682,7 +686,7 @@
           href: omnichannel-insights-dashboard.md
       - name: Monitor conversations
         items: 
-        - name: Monitor and assign conversations
+        - name: Monitor, assign, and transfer conversations
           href: monitor-conversations.md
         - name: Monitor and analyze sentiments
           href: supervisor-sentiment-monitoring.md

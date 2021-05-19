@@ -64,16 +64,7 @@ ms.custom:
   </ul>
   </td>
 </tr>    
-    
- <td><h2>Knowledge management</h2>
-   <ul>
-  <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
-   <li><a href="search-knowledge-articles-csh.md" data-raw-source="[Search for knowledge articles](search-knowledge-articles-csh.md)">Search for knowledge articles</a></li>
-   <li><a href="set-up-knowledge-management-embedded-knowledge-search.md" data-raw-source="[Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)">Configure knowledge management</a></li>
-   <li><a href="knowledge-base-search-methods.md" data-raw-source="[Learn about knowledge base search mechanisms](knowledge-base-search-methods.md)">Learn about knowledge base search mechanisms</a></li>
-       </ul>
-  </td>
-
+  
   <td><h2>Unified routing</h2>
    <ul>
   <li><a href="overview-unified-routing.md" data-raw-source="[Overview of unified routing](overview-unified-routing.md)">Overview of unified routing</a></li>
@@ -84,7 +75,18 @@ ms.custom:
      
   </li> 
   </ul>
+  </td>    
+ 
+ <td><h2>Knowledge management</h2>
+   <ul>
+  <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
+   <li><a href="search-knowledge-articles-csh.md" data-raw-source="[Search for knowledge articles](search-knowledge-articles-csh.md)">Search for knowledge articles</a></li>
+   <li><a href="set-up-knowledge-management-embedded-knowledge-search.md" data-raw-source="[Configure knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)">Configure knowledge management</a></li>
+   <li><a href="knowledge-base-search-methods.md" data-raw-source="[Learn about knowledge base search mechanisms](knowledge-base-search-methods.md)">Learn about knowledge base search mechanisms</a></li>
+       </ul>
   </td>
+
+  
 <tr>
  <td><h2>Insights</h2>
    <ul>
