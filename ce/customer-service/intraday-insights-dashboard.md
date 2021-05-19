@@ -78,6 +78,8 @@ This section consists of the following performance indicators.
 | Average session acceptance time | The average time an agent takes to accept an incoming conversation |
 | Session rejection rate | The percentage of sessions rejected by the agents out of the total sessions assigned to them |
 | Session time out rate | The rate of sessions that were timed out |
+| Sessions rejected by agents | The percentage of sessions rejected out of the total sessions assigned per agent |
+| Sessions timed out | The rate of sessions that were timed out per agent |
 | Conversations per online agent | The number of conversations that are handled by each agent |
 | Agent availability | The distribution of agents presence |
 | Agents with longest handle time | The number of agents with the longest time to accept a conversation and resolve it |
@@ -91,6 +93,9 @@ The agent insights dashboard consists of the following metrics.
 
 > [!div class="mx-imgBorder"]
 > ![Agents insights dashboard](media/agents-insights-dashboard.png "Agents insights dashboard")
+
+> [!div class="mx-imgBorder"]
+> ![Agents insights dashboard](media/agents-insights-dashboard-1.png "Agents insights dashboard")
 
 | Metrics | Description |
 |-------|-------|
@@ -140,6 +145,9 @@ Details about the agent are displayed as shown in the following image.
 
 > [!div class="mx-imgBorder"]
 > ![View details for an agent](media/view-agent-details.png "View details for an agent")
+
+> [!div class="mx-imgBorder"]
+> ![View details for an agent](media/view-agent-details-1.png "View details for an agent")
 
 This section displays the following details.
 
