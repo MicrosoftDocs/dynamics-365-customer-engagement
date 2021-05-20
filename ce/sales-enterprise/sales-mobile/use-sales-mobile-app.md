@@ -13,9 +13,9 @@ manager: shujoshi
 
 Use the Dynamics 365 Sales mobile app to plan your day by seeing what it has in store such as upcoming meetings and insights. You can also take post-meeting actions such as adding notes, creating contacts, and updating data in relevant records.
 
-## Sign in and sign out of the app
+## Sign in and sign out from the app
 
-You can sign in to the Dynamics 365 Sales mobile app by using your work email address you use for Dynamics 365. If you need help with your sign-in information, contact your Dynamics 365 administrator.
+You can sign in to the Dynamics 365 Sales mobile app by using the work email address you use for Dynamics 365. If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
 ### Sign in to the app
 
@@ -47,9 +47,9 @@ You can sign in to the Dynamics 365 Sales mobile app by using your work email ad
 
 By default, the production apps are displayed. If you want to see the apps from your trial or sandbox environment, you must enable the **Show non-production apps** setting.
 
-**If you've not selected the app to use**
+**If you haven't selected the app to use**
 
-1. Tap your profile picture at the top left of the screen. 
+1. Tap your profile picture at the upper left of the screen. 
 
 2. Turn on the **Show non-production apps** toggle.
 
@@ -65,7 +65,7 @@ By default, the production apps are displayed. If you want to see the apps from 
 
 2. Sign in to the app.
 
-3. Tap your profile picture at the top left of the screen.
+3. Tap your profile picture at the upper left of the screen.
 
 4. Turn on the **Show non-production apps** toggle.
 
