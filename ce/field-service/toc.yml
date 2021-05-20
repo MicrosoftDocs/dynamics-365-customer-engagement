@@ -208,6 +208,8 @@
     href: mobile-power-app-workflows.md
   - name: Intune mobile app management
     href: mobile-power-app-intune.md
+  - name: Deep link
+    href: mobile-powerapp-deeplink.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
   - name: FAQs
