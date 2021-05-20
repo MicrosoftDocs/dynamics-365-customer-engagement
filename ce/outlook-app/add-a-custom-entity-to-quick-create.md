@@ -55,7 +55,9 @@ An app maker can enable a table or a custom table to appear in the create **New*
 
 5. Select **Done** and then **Save Table**.
 
-## Step 2: Create a quick create form  
+## Step 2: Create a quick create form
+
+If the quick create form is already enabled, then you can skip this step.
   
 1. Sign in to [Power Apps](https://make.powerapps.com).
 
@@ -73,7 +75,7 @@ An app maker can enable a table or a custom table to appear in the create **New*
   
 5.  When you're done, select **Save** and then **Publish**.
   
-## Step 3 (optional): Verify the custom table is added to the app designer
+## Step 3: Verify the custom table is added to the app designer
 
 This step is only necessary if you're adding a custom table that you created to the quick create form.
 
