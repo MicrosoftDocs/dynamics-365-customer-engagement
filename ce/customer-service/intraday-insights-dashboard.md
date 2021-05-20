@@ -19,7 +19,7 @@ The **Omnichannel intraday insights** dashboards provide information about the h
 - [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
-The information displayed in these sections is based on the conversations that have been closed within the last 24 hours. The report fetches the latest data and is generated in real time. If the report is kept open, it's automatically refreshed after 15 minutes. The report if it's in a pre-configured Power BI workspace is auto refreshed after every 5 minutes. 
+The information displayed in these sections is based on the conversations that are currently not closed or have been closed within the last 24 hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace the report auto refreshes after every 5 minutes. 
 
 > [!IMPORTANT]
 > To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
@@ -41,23 +41,16 @@ This section of the dashboard displays the following KPIs about conversations.
 
 | Metric | Description |
 |-------|-------|
-| Average wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. |
-| Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. |
+| Average wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent is assigned. This metric is also displayed on a per-queue basis. |
+| Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. This metric is also displayed on a per-queue basis. |
 | Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. |
 | Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. | 
-| Average handle time per conversation | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. More information: [Average handle time](#average-handle-time)|
-| Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
+| Average handle time per conversation | For a conversation, the handle time used to calculate the average is defined as the cumulative handle time of its individual sessions. *Session handle time* is defined as the elapsed time between the creation of a session and the time that it's closed. Average handle time is also displayed on a per-queue basis. More information: [Average handle time](#average-handle-time)|
+| Exceeding 5 mins handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. This metric is also displayed on a per-queue basis. |
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |
 | Conversation status by queue | The distribution of the status of conversations across different queues. |
 | Transfer/Escalation rate by queue | The transfer rate is the percentage of conversations in a queue that was transferred atleast once. Escalation rate is the percentage of conversations within a queue that was escalated to a supervisor |
 | Abandon rate by queue | The rate of conversations that have been abandoned by customers. |
-
-> [!NOTE]
-> The following metrics are also displayed on a per-queue basis.
-> - Avg wait time per conversation
-> - Avg handle time per conversation
-> - Exceeding 5 mins wait time
-> - Exceeding 5 mins handle time
 
 
 ### Agent insights
@@ -89,7 +82,7 @@ This section consists of the following performance indicators.
 
 ## Agents Insights report
 
-The agent insights dashboard consists of the following metrics.
+The agent insights report consists of the following metrics.
 
 > [!div class="mx-imgBorder"]
 > ![Agents insights dashboard](media/agents-insights-dashboard.png "Agents insights dashboard")
@@ -180,7 +173,7 @@ This section displays the following details.
 
 ## Conversation insights report
 
-This section of the dashboard displays the following s about conversations.
+This section of the dashboard displays the following metrics about conversations.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation insights dashboard](media/conversation-insights-dashboard.png "Agents insights dashboard")
