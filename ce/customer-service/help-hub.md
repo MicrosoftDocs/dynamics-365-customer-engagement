@@ -45,6 +45,8 @@ ms.custom:
 <li><a href="Configure-cs.md" data-raw-source="[Configure Customer Service]Configure-cs.md">Configure Customer Service</a></li>
 <li><a href="csw-overview.md" data-raw-source="[Use Customer Service workspace]csw-overview.md">Use Customer Service workspace</a></li>
 
+<li><a href="oc-admin-center.md" data-raw-source="[Use Omnichannel admin center]oc-admin-center.md">Use Omnichannel admin center</a></li>
+
       
  
   </ul>
@@ -62,7 +64,19 @@ ms.custom:
   </ul>
   </td>
 </tr>    
-    
+  
+  <td><h2>Unified routing</h2>
+   <ul>
+  <li><a href="overview-unified-routing.md" data-raw-source="[Overview of unified routing](overview-unified-routing.md)">Overview of unified routing</a></li>
+   <li><a href="create-workstreams.md" data-raw-source="[Create and manage workstreams for unified routing](create-workstreams.md)">Create and manage workstreams for unified routing</a></li>
+   <li><a href="queues-omnichannel.md" data-raw-source="[Create and manage queues for unified routing](queues-omnichannel.md)">Create and manage queues for unified routing</a></li>
+   <li><a href="set-up-record-routing.md" data-raw-source="[Set up unified routing for records](set-up-record-routing.md)">Set up unified routing for records</a></li>
+   
+     
+  </li> 
+  </ul>
+  </td>    
+ 
  <td><h2>Knowledge management</h2>
    <ul>
   <li><a href="customer-service-hub-user-guide-knowledge-article.md" data-raw-source="[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)">Create and manage knowledge articles</a></li>
@@ -71,7 +85,9 @@ ms.custom:
    <li><a href="knowledge-base-search-methods.md" data-raw-source="[Learn about knowledge base search mechanisms](knowledge-base-search-methods.md)">Learn about knowledge base search mechanisms</a></li>
        </ul>
   </td>
+
   
+<tr>
  <td><h2>Insights</h2>
    <ul>
   <li><a href="introduction-customer-service-analytics.md" data-raw-source="[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)">Introduction to Customer Service Insights</a></li>
@@ -82,7 +98,7 @@ ms.custom:
   </li> 
   </ul>
   </td>
-</tr>  
+
 
  <td><h2>Chat</h2>
    <ul>
@@ -92,7 +108,7 @@ ms.custom:
    <li><a href="embed-chat-widget-portal.md" data-raw-source="[Embed a chat widget in a web portal](embed-chat-widget-portal.md)">Embed a chat widget in a web portal</a></li>
      </ul>
   </td>  
-
+</tr>  
  <td><h2>Agent productivity tools</h2>
    <ul>
   <li><a href="csw-productivity-pane.md" data-raw-source="[Productivity pane in Customer Service workspace](csw-productivity-pane.md)">Productivity pane in Customer Service workspace</a></li>
@@ -102,13 +118,14 @@ ms.custom:
   </li> 
   </ul>
   </td>
-</tr>  
+ 
 
  <td><h2>Channels</h2>
    <ul>
   <li><a href="channels.md" data-raw-source="[Learn about channels](channels.md)">Learn about channels</a></li>
      </ul>
   </td>  
+</tr> 
 
  <td><h2>Extend Customer Service</h2>
 <ul>
@@ -118,7 +135,7 @@ ms.custom:
   </li> 
   </ul>
   </td>
-</tr>  
+
 
  <td><h2>Troubleshoot and FAQs</h2>
    <ul>
@@ -131,7 +148,9 @@ ms.custom:
 <li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 
      
- </td>  
+ </td>
+
+</tr>
 
  <td><h2>Videos</h2>
 
@@ -145,7 +164,7 @@ ms.custom:
 </td>
 
 
-<tr>
+
 <td><h2>Blogs</h2>
 <ul>
 <li><a href="https://cloudblogs.microsoft.com/dynamics365/bdm/2020/10/06/innovation-on-the-service-suite-of-dynamics-365-applications/" data-raw-source="[Innovation on the service suite of Dynamics 365 applications](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/10/06/innovation-on-the-service-suite-of-dynamics-365-applications/)">Innovation on the service suite of Dynamics 365 applications</a></li>
@@ -154,9 +173,13 @@ ms.custom:
    <li><a href="https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/" data-raw-source="[Announcing first-party voice in Dynamics 365 Customer Service](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)">Announcing first-party voice in Dynamics 365 Customer Service</a></li>
 </ul>
 </td>
+</tr>
+
+<tr>
 
 <td>
-  
+
+
 <h2>Related apps & framework</h2>
 
 <li><a href="/dynamics365/app-profile-manager/overview" data-raw-source="[App profile manager](../app-profile-manager/overview.md)">App profile manager</a></li>

@@ -4,7 +4,7 @@ description: "Overview of unified routing in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/15/2021
+ms.date: 05/18/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -69,6 +69,7 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [Set up record routing](set-up-record-routing.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
 [FAQs on unified routing](unified-routing-faqs.md)  
+[Migrate workstreams created in Omnichannel Administration app](migrate-workstreams.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

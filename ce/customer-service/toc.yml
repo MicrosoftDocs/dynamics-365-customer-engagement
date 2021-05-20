@@ -104,6 +104,8 @@
         href: overview-unified-routing.md
       - name: How routing and assignment works
         href: set-up-routing-process.md
+      - name: Routing and assignment rules
+        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -128,8 +130,6 @@
           href: routing-rules.md  
       - name: Configure work assignment
         items:
-        - name: Routing and assignment rules
-          href: routing-workstream-queues.md        
         - name: Configure assignment methods for queues
           href: assignment-methods.md     
       - name: Set up record routing
@@ -178,6 +178,12 @@
           href: role-persona-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+    - name: Agent experience
+      items:
+      - name: Work with queues
+        href: work-with-queues.md
+      - name: Manage case queues and route cases
+        href: customer-service-hub-user-guide-case-queues-and-routing.md
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
@@ -200,10 +206,6 @@
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
-      - name: Manage case queues and route cases
-        href: customer-service-hub-user-guide-case-queues-and-routing.md
-      - name: Work with queues
-        href: work-with-queues.md        
       - name: View, block, or deactivate a social profile
         href: view-block-deactivate-social-profile.md
       - name: Convert a case to a knowledge article
@@ -630,8 +632,12 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
-      - name: Provide access to Ongoing Conversations dashboard
-        href: configure-ongoing-conversations-dashbaord.md
+      - name: Enable supervisor settings
+        items:
+        - name: Provide access to Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Enable supervisors to monitor, assign, and transfer conversations
+          href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
@@ -680,7 +686,7 @@
           href: omnichannel-insights-dashboard.md
       - name: Monitor conversations
         items: 
-        - name: Monitor and assign conversations
+        - name: Monitor, assign, and transfer conversations
           href: monitor-conversations.md
         - name: Monitor and analyze sentiments
           href: supervisor-sentiment-monitoring.md

@@ -4,7 +4,7 @@ description: Learn how to set up queues to manage activities and cases in Dynami
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/19/2021
+ms.date: 05/18/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -173,7 +173,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 > - From a queue, when an agent picks a case created by another agent and releases it, then the case gets assigned to the queue owner and not the agent who created the case.
 
 ### See also  
-
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Work with Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)
 
 

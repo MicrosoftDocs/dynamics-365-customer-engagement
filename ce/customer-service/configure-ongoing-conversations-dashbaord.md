@@ -9,7 +9,6 @@ ms.date: 06/20/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-
 # Provide access to Ongoing Conversations dashboard
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]

@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/13/2021
+ms.date: 05/19/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -22,7 +22,7 @@ search.app:
 
 We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
-Marketing updates are [pushed to all customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
+Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
@@ -51,7 +51,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
 | Marketing        | 1.35.10072.1070 |
 
 > [!Tip]
-> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 ### Preview features
 
@@ -71,7 +71,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
     - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
 - **Author personalized content across email, SMS, and push notifications through a new point-and-click interface**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
-    - [Docs](real-time-marketing-email.md#to-add-personalized-data-to-a-real-time-marketing-email)
+    - [Docs](real-time-marketing-email.md#add-personalized-data-to-a-real-time-marketing-email)
 - **Create and send SMS messages to any mobile phone**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-send-sms-messages-mobile-phone)
     - [Docs](real-time-marketing-outbound-text-messaging.md)
@@ -163,7 +163,7 @@ This release also includes social posting to Instagram, an API to enable or disa
 | Marketing        | 1.35.10071.2007 |
 
 > [!Tip]
-> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 ### Monthly enhancements
 
