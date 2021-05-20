@@ -45,7 +45,7 @@ Follow these steps to set which tables and views appear in App for Outlook:
    > [!div class="mx-imgBorder"]
    > ![Select table that you want to enable](media/AddEntities_3.png "Dynamics 365 apps My Apps page")
    
-5. Review the list of Views that are available for the table and deselect the ones you don't want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on an table and further, on one of the views defined for that table.
+5. Review the list of Views that are available for the table and deselect the ones you don't want to be available in Dynamics 365 App for Outlook. In Dynamics 365 App for Outlook **Regarding** lookup,  you can filter results based on a table and further, on one of the views defined for that table.
 
  
    > [!div class="mx-imgBorder"]
@@ -55,7 +55,7 @@ Follow these steps to set which tables and views appear in App for Outlook:
 
 > [!NOTE]
 > - You can also remove tables from Dynamics 365 App for Outlook.
-> - An table must have activities enabled for it to appear in the **Set Regarding** lookup. For more information, see [Enable activities to use Set Regarding lookup in App for Outlook](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md).
+> - A table must have activities enabled for it to appear in the **Set Regarding** lookup. For more information, see [Enable activities to use Set Regarding lookup in App for Outlook](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md).
 
 
 
