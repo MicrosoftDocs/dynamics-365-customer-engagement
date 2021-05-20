@@ -9,9 +9,12 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Understand routing and work assignment
+# Routing and assignment in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!NOTE]
+> If your Omnichannel for Customer Service instance has been upgraded to the 2021 release wave 1, you can start using unified routing. More information: [Overview of unified routing](overview-unified-routing.md)
 
 Routing and work assignment ensures that conversations from all the channels are routed to agents efficiently.
 
@@ -63,7 +66,6 @@ An agent is available in the following scenarios:
 - The agent affinity is set to yes for a work stream.
 
 Whenever agents are available, the work assignment system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to the agent who satisfies the capacity condition.
-
 
 ## Scenario walk-through of routing and work assignment
 
