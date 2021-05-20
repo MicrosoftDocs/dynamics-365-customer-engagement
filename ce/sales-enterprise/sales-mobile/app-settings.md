@@ -60,9 +60,9 @@ This section contains links to actions such as viewing the version of the mobile
 
 ## Account
 
-This section contains a link to sign out of the mobile app.
+This section contains a link to sign out from the mobile app.
 
-- **Sign out**: Allows you to sign out of the app.
+- **Sign out**: Allows you to sign out from the app.
 
 ### See also
 
