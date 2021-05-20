@@ -2,7 +2,7 @@
 title: "Set up delegate access for Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Set up delegate access for Dynamics 365 App for Outlook. 
-ms.date: 02/26/2020
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

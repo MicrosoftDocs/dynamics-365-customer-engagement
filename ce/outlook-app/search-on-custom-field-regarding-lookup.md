@@ -2,7 +2,7 @@
 title: "Expand the columns which the Set Regarding lookup searches on in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom:  
 description: Expand the columns which the Set Regarding lookup searches on in Dynamics 365 App for Outlook.
-ms.date: 05/12/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

@@ -2,7 +2,7 @@
 title: "Filter tables and views that appear in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom:
 description: Filter tables and views that appear in Dynamics 365 App for Outlook  
-ms.date: 04/29/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

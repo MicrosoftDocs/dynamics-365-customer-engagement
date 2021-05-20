@@ -2,7 +2,7 @@
 title: "FAQs about email tracking (Dynamics 365 apps) | MicrosoftDocs"
 description: FAQs about email tracking using App for Outlook
 ms.custom: 
-ms.date: 03/19/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

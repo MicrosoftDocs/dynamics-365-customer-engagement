@@ -2,7 +2,7 @@
 title: "Add a phone call, appointment, or task activity for a row using App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: How to add a phone call, appointment, or task activity for a row using App for Outlook
 ms.custom: 
-ms.date: 02/17/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

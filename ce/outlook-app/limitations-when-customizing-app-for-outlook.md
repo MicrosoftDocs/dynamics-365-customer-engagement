@@ -1,7 +1,7 @@
 ---
 title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/04/2021
+ms.date: 05/20/2021
 description: When customizing the app you make run into these limitations.
 ms.reviewer: 
 ms.service: crm-online

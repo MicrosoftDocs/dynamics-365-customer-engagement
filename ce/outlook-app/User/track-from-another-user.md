@@ -2,7 +2,7 @@
 title: "Track appointments from another person in your organization (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Track appointments from another person in your organization.
-ms.date: 04/22/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

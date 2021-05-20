@@ -2,7 +2,7 @@
 title: "Remove Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Remove Dynamics 365 App for Outlook.
-ms.date: 04/22/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
