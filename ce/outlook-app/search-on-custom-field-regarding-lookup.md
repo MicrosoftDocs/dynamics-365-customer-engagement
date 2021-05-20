@@ -27,7 +27,7 @@ search.app:
 To have the Set Regarding lookup search on custom columns in Dynamics 365 App for Outlook, that column must be added to the table’s quick find view.
 
    > [!div class="mx-imgBorder"]
-   > ![Edit the solution](media/set-regarding-search.png)
+   > ![Quick find view](media/set-regarding-search.png)
 
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
