@@ -2,7 +2,7 @@
 title: "Create a new contact, lead, or account row using an email address (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Add an email recipient as a contact, lead, or account using Dynamics 365 app for Outlook.
-ms.date: 03/19/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
