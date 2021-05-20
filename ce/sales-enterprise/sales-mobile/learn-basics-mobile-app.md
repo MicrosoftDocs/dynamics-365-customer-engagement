@@ -108,7 +108,7 @@ Select the bidirectional arrows in the upper-right corner to switch to other men
 
 The **Settings** panel provides more information about the app, helpful links to submit ideas, report issues, and share feedback, and a sign-out option.
 
-To open the **Settings** panel, tap your profile picture on the upper left of the screen, and then tap **Settings**.
+To open the **Settings** panel, tap your profile picture at the upper left of the screen, and then tap **Settings**.
 
 More information: [Dynamics 365 Sales mobile app settings](app-settings.md)
 
