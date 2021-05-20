@@ -1,14 +1,14 @@
 ---
-title: "Enhanced experience for Adding products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
-ms.date: 04/02/2021
+title: "Enhanced experience for Adding products to quotes, orders, or invoices | MicrosoftDocs"
+description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Professional."
+ms.date: 05/17/2021
 ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 searchScope:
-  - D365-App-msdynce_saleshub
+  - D365-App-msdyn_salespro
   - D365-Entity-quote
   - D365-Entity-salesorder
   - D365-Entity-invoice
@@ -16,12 +16,11 @@ searchScope:
   - D365-Entity-salesorderdetail
   - D365-Entity-invoicedetail
   - D365-UI-*
-  - Customer Engagement
   - Dynamics 365
   - Sales
 ---
 
-# Preview: Add products to quotes, orders, or invoices by using the enhanced experience
+# Preview: Add products to quotes, orders, or invoices by using  enhanced experience
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -30,8 +29,6 @@ As a salesperson, you want to be able to easily identify and add products from t
 - Quickly find products from the catalog, based on free-text search.
 
 - See matching products as you enter text in the search field.
-
-- Pick products from the categorized list of product families.
 
 - See the most recently used list of products while you add multiple products.
 
@@ -62,13 +59,8 @@ If you've created a quote from an opportunity, the products added to the opportu
 
 2. On the **Summary** tab, select a **Price list**.  
    The price list determines the cost of the product and the products you can select.
-   > [!NOTE] 
-   > By default, you must select a price list to be able to add products to
-   > the quote; however, your administrator can change the product
-   > catalog settings to make the **Price list** field optional. 
 
-3. In the **Products** grid, select **Add products**.
-   The **Add products** dialog box opens.
+3. In the **Products** grid, select the vertical ellipsis, and select **Add products**
  
    ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
 
@@ -80,12 +72,8 @@ If you've created a quote from an opportunity, the products added to the opportu
 4. Use one of the following options to identify and add products:
 
    - If you know the product names, simply search for them and add.
-   - If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
-
      > [!NOTE]
-     > The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
-
-    > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
+     > The products displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
 
    - If you want to add products that you have recently chosen for another entity, open the **Recently used** tab.
 
@@ -133,5 +121,5 @@ no longer relevant for the quote. You can remove products in two circumstances:
 
 ### See also
 
-[Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
-[Customize the Add Products dialog box](customize-add-products-dialog-box.md)
+[Enable the enhanced experience of adding products](enable-enhanced-add-product-experience-sp.md)  
+[Customize the Add Products dialog box](customize-add-products-dialog-box-sp.md)
