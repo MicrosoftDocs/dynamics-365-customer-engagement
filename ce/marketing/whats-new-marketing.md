@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/18/2021
+ms.date: 05/19/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -71,7 +71,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
     - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
 - **Author personalized content across email, SMS, and push notifications through a new point-and-click interface**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
-    - [Docs](real-time-marketing-email.md#to-add-personalized-data-to-a-real-time-marketing-email)
+    - [Docs](real-time-marketing-email.md#add-personalized-data-to-a-real-time-marketing-email)
 - **Create and send SMS messages to any mobile phone**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-send-sms-messages-mobile-phone)
     - [Docs](real-time-marketing-outbound-text-messaging.md)
