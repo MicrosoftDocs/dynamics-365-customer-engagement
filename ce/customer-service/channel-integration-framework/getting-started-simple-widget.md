@@ -1,6 +1,6 @@
 ---
-title: "Get started with building a simple communication widget with Dynamics 365 Channel Integration Framework version 1.0 | MicrosoftDocs"
-description: "How to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework version 1.0."
+title: "Walkthrough: Build a simple communication widget using CIF v1.0 | Microsoft Docs"
+description: "Demonstrates how to build a simple "Hello World" communication widget using Dynamics 365 Channel Integration Framework (CIF) v1.0"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

@@ -1,6 +1,6 @@
 ---
-title: "How to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 | Microsoft Docs"
-description: "Learn how to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0."
+title: "How to choose between Dynamics 365 CIF versions 1.0 and 2.0 | Microsoft Docs"
+description: "Know the feature differences between Dynamics 365 Channel Integration Framework v1.0 and v2.0., so you can choose the one that best suits your business needs."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

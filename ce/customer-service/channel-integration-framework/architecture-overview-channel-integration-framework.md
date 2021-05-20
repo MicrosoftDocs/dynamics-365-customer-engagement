@@ -1,6 +1,6 @@
 ---
-title: "Architecture overview of Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
-description: "Learn the architecture overview of Dynamics 365 Channel Integration Framework version 1.0."
+title: "Architecture overview of Dynamics 365 CIF v1.0 | Microsoft Docs"
+description: "Learn the architecture overview of Dynamics 365 Channel Integration Framework v1.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Architecture overview of Dynamics 365 Channel Integration Framework 
+# Architecture overview of Dynamics 365 Channel Integration Framework v1.0 
 
 Dynamics 365 Channel Integration Framework version 1.0 provides an extensible framework to integrate third-party channel providers to serve your customers with more focus and agility.
 

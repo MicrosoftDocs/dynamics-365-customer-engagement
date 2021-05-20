@@ -1,6 +1,6 @@
 ---
-title: "Get Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
-description: "Learn how to download, install, and set up Dynamics 365 Channel Integration Framework version 1.0."
+title: "Get Dynamics 365 Channel Integration Framework (CIF) v1.0 | Microsoft Docs"
+description: "Use this topic to get the download link and prerequisites information for Dynamics 365 Channel Integration Framework v1.0"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# How to get Dynamics 365 Channel Integration Framework
+# How to get Dynamics 365 Channel Integration Framework version 1.0
 
 Dynamics 365 Channel Integration Framework is an application (solution) available in Microsoft AppSource.
 

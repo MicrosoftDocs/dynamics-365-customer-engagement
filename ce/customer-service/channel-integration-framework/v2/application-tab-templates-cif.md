@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Manage application tab templates for applications
+# Manage application tab templates
 
 ## Overview
 

@@ -1,6 +1,6 @@
 ---
-title: "Known issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: "Learn about known issues and resolutions for Dynamics 365 Channel Integration Framework."
+title: "Known issues for Dynamics 365 Channel Integration Framework | Microsoft Docs"
+description: "Learn about known issues and resolutions for Dynamics 365 Channel Integration Framework (CIF)."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

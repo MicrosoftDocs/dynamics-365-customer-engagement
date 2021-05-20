@@ -1,6 +1,6 @@
 ---
-title: "System requirements of Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: "Learn about the system requirements of Dynamics 365 Channel Integration Framework and how to get started using it."
+title: "System requirements of Dynamics 365 CIF v1.0 | Microsoft Docs"
+description: "Learn about the system requirements of Dynamics 365 Channel Integration Framework (CIF) v1.0 and how to get started using it."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,9 +12,9 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# System requirements of Dynamics 365 Channel Integration Framework
+# System requirements of Dynamics 365 Channel Integration Framework v1.0
 
-This topic describes the system requirements of Dynamics 365 Channel Integration Framework.
+This topic describes the system requirements of Dynamics 365 Channel Integration Framework (CIF) version 1.0.
 
 ## Dynamics 365
 

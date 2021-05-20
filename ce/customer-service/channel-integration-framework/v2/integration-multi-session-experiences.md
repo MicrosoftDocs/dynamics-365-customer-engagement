@@ -1,6 +1,6 @@
 ---
-title: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app) | MicrosoftDocs"
-description: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app)."
+title: "Integrate Dynamics 365 CIF v2.0 with Omnichannel for Customer Service | MicrosoftDocs"
+description: "Integrate Dynamics 365 Channel Integration Framework v2.0 with the Omnichannel for Customer Service multiple session app."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
-# Integrate with Omnichannel for Customer Service app (multi-session app)
+# Integrate with Omnichannel for Customer Service multiple session app
 
 The Omnichannel for Dynamics 365 Customer Service app enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides a context-rich multitasking experience across different customer sessions.
 

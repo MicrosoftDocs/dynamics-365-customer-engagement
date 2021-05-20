@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Channel Integration Framework guide | Microsoft Docs"
-description: "Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface apps using a browser-based JavaScript API library."
+description: "Use this topic for getting started with Channel Integration Framework (CIF) v1.0 and v2.0. Includes download links and the Javascript reference.
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

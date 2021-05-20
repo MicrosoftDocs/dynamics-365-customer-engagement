@@ -1,6 +1,6 @@
 ---
-title: "Authenticate channel users in Dynamics 365 Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
-description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework (CIF) version 2.0. The Dynamics 365 Channel Integration Framework supports the SAML-based single sign-on (SSO) for your agents or users to log in to the widget (channel)."
+title: "Authenticate channel users in Dynamics 365 CIF v1.0 | Microsoft Docs"
+description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework (CIF) version 1.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Authenticate channel users to log in to the channel
+# Authenticate channel users to log in to the channel in CIF v1.0
 
 [!INCLUDE[token-authenticate-channel-users](shared/token-authenticate-channel-users.md)]
 
