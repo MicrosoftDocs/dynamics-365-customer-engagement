@@ -47,7 +47,7 @@ Using the goal-setting feature, you can:
 1. Go to **Real-time marketing** > **Customer engagement** > **Journeys** and open an existing journey or create a new one.
 1. Select **Goal** on the right side pane.
     > [!NOTE]
-    > You can only select one goal per journey.    > 
+    > You can select only one goal per journey.    > 
 1. Under **The goal of this journey is**, select the general purpose of the journey—for example, **Engage customers**.
 1. Under **This goal is met when**, define successful criteria for the goal. The successful criteria may be in the form of completing a custom event, or completing an event from the event catalog.
 1. Under **The amount of people needed for this goal is**, specify a target amount you think would mean success. For example, you might determine the goal was successful if 50 percent of the customers that go through the journey achieve it.
@@ -64,9 +64,9 @@ Using the goal-setting feature, you can:
 
 ## Attribution window for the journey
 
-A user can only count toward the journey goal as long as they are actively a part of the journey. There is a default listening time of three days after the journey completed, in case the desired action takes place after the user left the journey. The app will not count the journey success of a user if they:
-- Never entered the journey because they were part of an exclusion segment.
-- Exited the journey because they were added to a suppression segment and hit the goal after they exited the journey.
+A user can only count toward the journey goal as long as they are actively a part of the journey. There is a default listening time of three days after the journey completed, in case the desired action takes place after the user left the journey. The app will not count the journey success of a user if:
+- They never entered the journey because they were part of an exclusion segment.
+- They exited the journey because they were added to a suppression segment and hit the goal after they exited the journey.
 - The journey is completed and the user hit the goal after the default three-day window expired.
 
 If a user is part of two journeys with the same goal, and the user hits the goal event after journey 1 has ended (or they have exited), but before journey 2 has ended (or they have exited), the user will *only* count toward the journey 2 goal.
