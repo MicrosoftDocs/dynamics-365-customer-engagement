@@ -28,7 +28,7 @@ The workstream can be one of the following types:
 > - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing).
 > - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
-## Create a workstream in Omnichannel admin center
+## Create a workstream
 
 While you can create the workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps, this topic covers the steps for Omnichannel admin center.
 
@@ -60,6 +60,7 @@ Perform the following steps:
    - [Configure an SMS channel for TeleSign](configure-sms-channel.md)
    - [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
+   - [Configure record routing](set-up-record-routing.md)
 
 ### Configure routing rules
 
