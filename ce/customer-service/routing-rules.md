@@ -1,6 +1,6 @@
 ---
-title: Create and manage routing rules in Omnichannel for Customer Service | MicrosoftDocs
-description: Understand how to create and manage routing rules in Omnichannel for Customer Service
+title: "Set up routing rules and assignment rules in Omnichannel Administration | MicrosoftDocs"
+description: "Understand how to create and manage routing rules in Omnichannel Administration app"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

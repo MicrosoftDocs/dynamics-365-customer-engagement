@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for unified rout
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2021
+ms.date: 05/18/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -54,7 +54,7 @@ To migrate the messaging workstreams, you can use the Unified Routing Migration 
 > [!Note]
 > After you migrate the workstreams, you'll be able to manage them only in the Omnichannel admin center app. We recommend that you familiarize yourself with the new app before migrating. More information: [Get started with Omnichannel admin center](oc-admin-center.md).
 
-### Can I manage my workstreams, in the Omnichannel Administration app post migration?
+### Can I manage my workstreams in the Omnichannel Administration app post migration?
 
 No. Although you will see the migrated workstreams in the old admin app as well, we recommend that you manage the migrated workstreams in the new Omnichannel admin center app.
 
@@ -68,12 +68,20 @@ To rollback the migration, you will need to contact [Microsoft Support](https://
 
 ### How can I migrate the entity routing workstreams?
 
-Entity routing workstreams must be recreated in the new Omnichannel admin center or Customer Service Hub app, and the rules must be manually recreated in the new workstream.
+Entity routing workstreams must be recreated in the new Omnichannel admin center or Customer Service Hub app and the rules must be manually recreated in the new workstream.
 
 If you need further help, contact Microsoft Support.
 
+### Can I create workstreams for routing records in the Omnichannel Administration app after upgrading Omnichannel for Customer Service to 2021 release wave 1?
+
+No. After upgrade, you'll no longer be able to create workstreams for routing records because they will not work as expected. We recommend that you start using the new Omnichannel admin center app to create and manage routing of records.
+
+### Can I route any record type by using basic routing?
+
+No. Basic routing can be used only for cases. To route any record type, use unified routing.
 
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
 [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
+[Set up unified routing for records](set-up-record-routing.md)  

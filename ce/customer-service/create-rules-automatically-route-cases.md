@@ -18,11 +18,11 @@ search.app:
   - D365CS
 ---
 
-# Automatically route cases using basic routing rule sets
+# Automatically route cases using basic routing rulesets
 
 Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
 
-## Add routing rule sets site map for custom apps
+## Add routing rulesets site map for custom apps
 
 While creating custom apps, you might not have routing rules sets available in your site map. You must add the routing rule sets site map for your custom app to access. To add routing rule sets to site map, follow these steps:
 

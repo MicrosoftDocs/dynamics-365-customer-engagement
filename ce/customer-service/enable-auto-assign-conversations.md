@@ -37,7 +37,7 @@ Perform the following steps:
 
 ### See also
 
-[Manage notification templates](notification-templates.md)  
+[Manage notification templates](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
 [View notifications](oc-notifications.md)  
 
 

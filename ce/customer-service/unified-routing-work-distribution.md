@@ -1,37 +1,34 @@
 ---
-title: Understand unified routing and work distribution | MicrosoftDocs
-description: Understand about unified routing and work distribution in Omnichannel for Customer Service
+title: Understand routing and work distribution | MicrosoftDocs
+description: Understand about routing and work distribution in Omnichannel for Customer Service
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/11/2021
+ms.date: 05/12/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Understand unified routing and work distribution
+# Understand routing and work distribution
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Intelligent work item classification and omnichannel routing capabilities enable the flexibility and automation of AI-enabled workflows that increase routing efficiency and decrease human effort. 
+Intelligent work item classification and omnichannel routing capabilities enable the flexibility and automation of AI-enabled workflows that increase routing efficiency and decrease human effort.
 
 Traditionally, organizations use queue-based routing, where incoming service requests are routed to a relevant queue, and agents work on those service requests by picking them from the queue. Organizations can miss service-level agreements if agents pick the easier service requests and leave the higher-priority requests in the queue. To address this scenario, organizations either create custom workflows to periodically distribute service requests among their agents or have dedicated personnel to distribute the service requests equitably among agents while adhering to organizational and customer preferences. Both methods are inefficient and error-prone, and necessitate continuous queue supervision.
 
 The intelligent routing service in Dynamics 365 Customer Service uses a combination of AI models and rules to assign incoming service requests from all channels (cases, entities, chat, digital messages, and voice) to the best-suited agents. The assignment rules take into account customer-specified criteria, such as priority and autoskills matching. The new routing service eliminates the need for constant queue supervision and manual work distribution to offer operational efficiencies for organizations.
 
-Advantages of unified routing and work distribution are as follows:
+Advantages of routing and work distribution are as follows:
 
 - Automate work assignments across channels.
 - Set up work assignments for the best available agents based on their capacity and presence.
 - Analyze and manage agent productivity across channels.
 
-Unified routing and work distribution is a two-step process:
+Routing and work distribution is a two-step process:
 
 1. Routing dispatches conversations into the right queues.
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
-
-> [!div class=mx-imgBorder]
-> ![Graphical representation of routing and work distribution scenario](media/unified-routing-work-distribution.png "Graphical representation of routing and work distribution scenario")
 
 ## Overview of routing system
 
@@ -43,7 +40,11 @@ When the conversation reaches to the queues, the work distribution system distri
 
 ## Overview of work distribution system
 
-The work distribution system distributes/assigns the conversation (work item) to an agent based on the following triggers:
+> [!IMPORTANT]
+>
+> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work distribution. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](assignment-methods.md).
+
+The work distribution system assigns the conversation (work item) to an agent based on the following triggers:
 
 - Work item available trigger
 - Agent available trigger

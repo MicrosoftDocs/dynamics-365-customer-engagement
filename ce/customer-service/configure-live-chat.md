@@ -4,7 +4,7 @@ description: "Instructions to configure a chat widget in Omnichannel for Custome
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/11/2020
+ms.date: 05/13/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,40 +13,37 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Use the Omnichannel Administration app to quickly configure and add a chat widget to your portal to chat with your website visitors. To configure a chat widget and embed it in portal, you must:
+Use the Omnichannel admin center app to quickly configure and add a chat widget to your portal to chat with your website visitors. To configure a chat widget and embed it in portal, you must:
 
-## Step 1: Create a live chat work stream
+## Step 1: Create a workstream for live chat
 
-1. Sign in to the Omnichannel Administration app, and in the site map, go to **Work Streams** and select **New** from the command bar.
-2. On the **Summary** tab of the new work stream page, provide the name of the work stream.
-3. In the **Channel** drop-down list, select **Live chat** as the channel.
-4. Select **Save** to save the live chat work stream.
+1. Sign in to Dynamics 365, and open the Omnichannel Admin center app.
+2. In the site map, go to **Workstreams** in **General Settings**, and select **New** from the command bar.
+3. On the **Create a workstream** dialog box, do the following:
+   
+   - **Name**: Specify a workstream name
+   - **Work distribution mode**: Select **Push** or **Pick**.
+   - **Type**: Select **Messaging**.
+   - **Channel**: Select **Chat**.
 
    > [!div class=mx-imgBorder]
-   > ![New work stream](media/omni-channel-new-work-stream.png)
+   > ![New work stream](media/omnichannel-new-workstream.png)
+
+4. Select **Create**.
 
 ## Step 2: Configure a chat widget
 
-1. Go to **Channels** &gt; **Chat**.
-2. Select **New** to create a chat widget. The **New Chat Widget** page opens.
-3. On the **Basic details** tab, provide the following information:
-   1. In the **General information** section, enter a name for the chat widget.
-   2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget, and save the record.
-4. Copy the widget snippet code from the **Code snippet** section. This snippet code will be used in [Step 3](#step-3-embed-chat-widget-in-portal).
-
-    > [!div class=mx-imgBorder]
-    > ![Configure the basic details of a chat widget and copy code snippet of a chat widget](media/chat-widget-snippet.png "Configure the basic details of a chat widget and copy code snippet of a chat widget")
+1. On the workstream page that you created, select **Set up chat**.
+2. On the **Live chat setup** wizard that appears, enter the details. More information: [Configure a chat widget in Omnichannel admin center](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center).
 
 ## Step 3: Embed chat widget in portal
-
 
 > [!NOTE]
 > The chat widget requires session storage and local storage to be functional in your customers’ browsers. Make sure to notify your customers to enable cookies in their browsers so these services can work properly.
 
-
 Follow these steps to embed your chat widget into a Power Apps portal. For steps to embed your chat widget into your website, see [Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md). For steps to embed your chat widget into mobile experiences, see [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md).
 
-1.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1.	[Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
 2.	Go to **Portal** > **Content Snippets**.
 3.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
@@ -67,12 +64,12 @@ You can maximize the chat widget by selecting it.
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md) </br>
-[Create and manage routing rules in Omnichannel](routing-rules.md) </br>
+[create workstreams for unified routing](create-workstreams.md)  
+[Configure work classification](configure-work-classification.md)  
 [Configure a chat widget](set-up-chat-widget.md)  
 [Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md)  
 [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat)  
-[Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md)   
+[Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
