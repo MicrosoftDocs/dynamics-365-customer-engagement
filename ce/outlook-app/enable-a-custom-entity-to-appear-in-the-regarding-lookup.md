@@ -62,6 +62,24 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 6.  Select **Done** and then **Save Table**.
 
 
+## Verify the table is added to the app designer
+
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left navigation pane, select **Apps**.
+3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
+
+4. In the app designer, choose table and browse to find your custom table.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select and add the custom table](media/app-designer-add-table.png)
+
+5. Select **Save** and then **Publish** the app.
+
+
 
 ## See also
 
