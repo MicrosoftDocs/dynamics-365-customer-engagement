@@ -24,6 +24,9 @@ Administrators can control what data is downloaded to the Field Service (Dynamic
 
 When a user is added to an offline profile, the app will download data to the device. In offline mode, entity data is read from the local device database and will not read live data from the server. This allows the app to perform consistently with or without internet connectivity. The local database will be updated with new data as defined by the administrator in the offline profile at predefined intervals or on demand by the app user. 
 
+>[!TIP] 
+> We recommend using the offline feature, even if your frontline workers always have internet access. Using downloaded data is much faster than using data on the server that is accessed over the internet, and improves overall performance. 
+
 Offline configuration is achieved by:
 
 1. Setting up an offline profile (one exists by default).
@@ -67,15 +70,18 @@ Within your offline profile you can:
 - Set up item association by creating relationships between entities. Item association saves time because you won't need to set filters for every entity; you can associate related entities that follow filters set on the related entity.
 
 
-### Best practices for the offline profile:
+### Implementation guidance for the offline profile:
 
-- Use the default **Field Service Mobile - Offline Profile** as your starting point and update it based on your business needs.
-- Keep default record types in place; these record types are intentionally selected as a core set of record types used in Field Service.
-- Avoid using "All Data" filter, which can result in significant amounts of data coming down and can impact sync times.
+**Use the offline profile included with Field Service**. The default **Field Service Mobile - Offline Profile** provides an ideal starting point for offline configuration, with defaults for out-of-the-box record types and sync intervals. Use this profile and build upon it by including your custom record types. By working within the provided profile, default entities can still receive updates over time. With offline data, in-app performance such as displaying forms will be much better. Limiting the amount of data in the offline profile to what is needed by the user will improve sync performance.
 
+**Avoid removing default record types from the offline profile**. These default record types are purposefully added to ensure the right data is available to the frontline worker. Focus on adding the record types you need to the offline profile rather than removing ones you don't need.
+
+**Avoid using “All records” as an offline filter**. The offline profile is the gate that controls the amount of data downloaded to the frontline workers’ devices. To keep sync times fast and efficient, avoid including “All records” as an entity filter and avoid wide date ranges. For example, rather than downloading all customer asset records, download only the records related to scheduled work orders. This will reduce the number of customer asset records without impacting work that needs to be done. 
+
+**Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device is connected to the internet or on the next sync. Use offline JavaScript to run workflows on the device quickly and without internet access. For more information, go to [Workflows and scripts for the Field Service (Dynamics 365) mobile app](mobile-power-app-workflows.md).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
+> ![The Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
 
 ## Add users and teams to the offline profile
 
