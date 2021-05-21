@@ -42,16 +42,16 @@ Examples of sample apps in the Omnichannel Chat SDK include:
 To view all sample apps, go to [Chat SDK Sample Apps](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
 
 > [!NOTE]
-> Most future updates on chat customization will happen on the Omnichannel Chat SDK package.
+> Since most of the new feature updates for chat customization will be part of the Omnichannel Chat SDK package, we recommend that you download and install the most recent version. 
 
 ## Render the live chat widget using embedded code
 
 Though we recommend using the Omnichannel Chat SDK, if the SDK does not meet your requirements, then you can embed a live chat widget code in your mobile app.
 
 > [!NOTE]
-> Embedding a live chat widget code has many more limitations and restrictions compared to the Omnichannel Chat SDK such as reduced performance, limited mobile usability, and unavailable features.
+> - Embedding a live chat widget code has many more limitations and restrictions compared to the Omnichannel Chat SDK such as reduced performance, limited mobile usability, and unavailable features.
 >
-> Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile apps.
+> - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile apps.
 
 Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the live chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
 
