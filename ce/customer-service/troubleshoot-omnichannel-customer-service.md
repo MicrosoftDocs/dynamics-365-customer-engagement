@@ -24,19 +24,17 @@ For security, reliability, and performance reasons, Omnichannel is separated by 
 
 ### Resolution
 
-Perform the following:
-
-From the admin portal, select the desired region from the drop-down menu. 
+Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Click the region in the upper-right corner and select a new region from the drop-down list. 
 
    > [!div class=mx-imgBorder]
-   > ![Region drop-down menu screenshot](media/oc-region-menu.png "Region drop-down menu")
+   > ![Power Platform admin center change region](media/oc-region-menu.png "Power Platform admin center change region")
 
 Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
 
 The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
 
    > [!div class=mx-imgBorder]
-   > ![Provisioning application screenshot](media/oc-region-provision.png "Provisioning application screenshot")
+   > ![Manage Omnichannel environments](media/oc-region-provision.png "Manage Omnichannel environments")
 
 ## Omnichannel provisioning fails due to expired Teams Service Principal
 
