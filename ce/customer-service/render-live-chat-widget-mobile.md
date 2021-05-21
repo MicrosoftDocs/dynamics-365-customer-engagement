@@ -1,5 +1,5 @@
 ---
-title: "Render a live chat widget on mobile apps | MicrosoftDocs"
+title: "Render the live chat widget on mobile apps | MicrosoftDocs"
 description: "Learn to customize the live chat widget on your mobile apps using the Omnichannel Chat SDK. Alternatively, embed the widget code directly in your apps."
 author: mh-jaya
 ms.author: v-jmh
