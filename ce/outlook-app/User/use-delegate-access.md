@@ -2,7 +2,7 @@
 title: "Use delegate access (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Use delegate access in Dynamics 365 App for Outlook.
-ms.date: 03/19/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

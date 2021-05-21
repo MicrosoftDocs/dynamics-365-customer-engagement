@@ -119,14 +119,14 @@ Add other information as needed, and then on the command bar, select **Send**.
 
 The knowledge base search is enabled to use the relevance search mechanism in the knowledge base search control area.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How relevance search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How relevance search works](/power-platform/admin/configure-relevance-search-organization)
 
 The relevance search mechanism uses Azure search service to index and search records. Relevance search provides improved search functionality, such as better relevance, highlighted search keyword text, and search within attachments and notes. With relevance search, you can also configure search fields in the knowledge article entity.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization)
 
 > [!NOTE]
-> To enable relevance search for knowledge article entity, see [Enable relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).</br>
+> To enable relevance search for knowledge article entity, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](/power-platform/admin/configure-relevance-search-organization).</br>
 If relevance search is not enabled for the entity, standard full-text search is used.
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).

@@ -24,7 +24,7 @@ Microsoft is committed to making its products and services easier for everyone t
 
 Dynamics 365 Customer Service supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.
 
-The Customer Service Hub app is based in Unified Interface. To see the list of keyboard shortcuts that apply to an app based on Unified Interface, see [Use keyboard shortcuts in Dynamics 365 Customer Service applications](../basics/keyboard-shortcuts.md).
+The Customer Service Hub app is based in Unified Interface. To see the list of keyboard shortcuts that apply to an app based on Unified Interface, see [Use keyboard shortcuts in Dynamics 365 Customer Service applications](../customerengagement/on-premises/basics/keyboard-shortcuts.md).
 
 
 |To do |Select|  
