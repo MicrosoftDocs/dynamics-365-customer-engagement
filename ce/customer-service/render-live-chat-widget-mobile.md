@@ -42,7 +42,7 @@ Examples of sample apps in the Omnichannel Chat SDK include:
 To view all sample apps, go to [Chat SDK Sample Apps](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
 
 > [!NOTE]
-> Since most of the new feature updates for chat customization will be part of the Omnichannel Chat SDK package, we recommend that you download and install the most recent version. 
+> We recommend that you frequently check and download the most recent version of the Omnichannel Chat SDK package so you can implement the latest features included in the SDK.
 
 ## Render the live chat widget using embedded code
 
