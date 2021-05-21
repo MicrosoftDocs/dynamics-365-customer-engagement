@@ -59,7 +59,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 > [!NOTE]
 > If you decline a conversation 10 times within a time span of 5 minutes, then the conversation will be moved to the **Closed** state.
 
-![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active1.png "Active state")
+![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active.png "Active state")
 
 ## Wrap-up
 
