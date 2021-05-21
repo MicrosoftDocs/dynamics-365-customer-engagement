@@ -1,6 +1,6 @@
 ---
 title: "Overview of Dynamics 365 Field Service integrations | MicrosoftDocs"
-description: description
+description: Learn about the various ways to integrate Dynamics 365 Field Service with other business apps.
 ms.custom:
 - dyn365-fieldservice
 ms.date: 01/05/2021
@@ -21,10 +21,10 @@ search.app:
 
 # Overview of Field Service integrations
 
-Microsoft Dynamics 365 Field Service integrates with various business apps to streamline your field serivce data and operations. 
+Microsoft Dynamics 365 Field Service integrates with various business apps to streamline your field service data and operations. 
 
 
-## Integrate with Supply Chain Management
+## Integrate with Dynamics 365 Supply Chain Management
 
 While Dynamics 365 Field Service includes basic inventory capabilities for managing frontline worker truck stock, tracking asset service history, requesting purchase orders, and documenting returns; many field service organizations still integrate Field Service with their enterprise resource planning (ERP) systems. Organizations using the Microsoft Dynamics 365 stack will find it easy to integrate Dynamics 365 Field Service and Dynamics 365 Supply Chain Management systems. By leveraging Microsoft Dataverse (formerly Common Data Service), you can set up a synchronous two-way integration. For more information, see the article: [Integrate Dynamics 365 Field Service and Supply Chain Management](supply-chain-field-service-integration.md). 
 
