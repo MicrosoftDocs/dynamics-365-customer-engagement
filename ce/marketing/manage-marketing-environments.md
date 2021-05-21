@@ -117,6 +117,9 @@ As with copy operations, backup and restore operations typically require a few e
 > [!IMPORTANT]
 > Backups **do not** include Marketing services or the data they contain. When you restore a backup, all organizational data, solutions, apps, and customizations will be present, but no interaction data, insights, or previously uploaded files will be available on the restored system. The situation is similar to that of [copying a Marketing environment](#copy-to-sandbox).
 
+> [!WARNING]
+> If you restore data in customer journey orchestration, all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
+
 ### Automatic system backups
 
 Microsoft automatically makes daily backup copies of all Dynamics 365 environments, including those that have the Marketing app installed. Like other types of copies and backups, automatic system backups include the full organizational database, but not the interaction records or image files stored in the marketing services. System backups are kept for just a few days and then deleted.
