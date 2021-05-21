@@ -68,6 +68,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 |---------------|------------------|---------------------------------------------------------|------------|
 | Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Chat and SMS |
 
+
 ![Transition from wrap-up to closed state](../../customer-service/media/oc-conversation-wrap-up.png "Wrap-up state")
 
 ## Waiting
