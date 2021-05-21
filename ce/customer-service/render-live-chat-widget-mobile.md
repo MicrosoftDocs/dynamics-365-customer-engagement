@@ -46,11 +46,9 @@ To view all sample apps, go to [Chat SDK Sample Apps](https://github.com/microso
 
 ## Render the live chat widget using embedded code
 
-If the SDK does not meet your requirements, you can embed a live chat widget code in your mobile app.
+If the SDK does not meet your requirements, you can embed a live chat widget code in your mobile app. Embedding a chat widget code has many more limitations and restrictions&mdash;reduced performance, limited mobile usability, and unavailable features&mdash;compared to the Omnichannel Chat SDK.
 
 > [!NOTE]
-> - Embedding a chat widget code has many more limitations and restrictions&mdash;reduced performance, limited mobile usability, and unavailable features&mdash;compared to the Omnichannel Chat SDK.
->
 > - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile apps.
 
 Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
