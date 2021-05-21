@@ -496,6 +496,8 @@
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: bring-your-own-channel-sample-html.md
+        - name: Markdowns in custom messaging channel
+          href: markdown-bring-your-own-channel.md
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
