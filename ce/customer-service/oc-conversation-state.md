@@ -26,7 +26,7 @@ The conversation can be in an open or closed state and can have the following st
 > [!NOTE]
 > Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
 
- ![Omnichannel conversation states](media/oc-conversation-state1.png "Conversation states")
+ ![Omnichannel conversation states](media/oc-conversation-state.png "Conversation states")
  
  *Channel* refers to the chat, SMS, social, and Teams channels supported in Omnichannel for Customer Service.
 
@@ -59,7 +59,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 > [!NOTE]
 > If you decline a conversation 10 times within a time span of 5 minutes, then the conversation will be moved to the **Closed** state.
 
-![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active1.png "Active state")
+![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active.png "Active state")
 
 ## Wrap-up
 
@@ -85,7 +85,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 | Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Channel |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period while the session is still active in the browser. | Channel |
 
-![Transition from waiting to closed, active, or open state](media/oc-conversation-waiting1.png "Waiting state")
+![Transition from waiting to closed, active, or open state](media/oc-conversation-waiting.png "Waiting state")
 
 ## Closed
 
