@@ -101,7 +101,22 @@ Not at this time. Support for non-public clouds will be added to Field Service m
 > ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and the "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
 
 
+## Why do I get "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
 
+> [!div class="mx-imgBorder"]
+> ![An error message showing "Insufficient Permissions" in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
+
+This error can occur when your environment has multiple Dynamics 365 apps installed, like Dynamics 365 Field Service and Dynamics 365 Customer Service with Omnichannel.
+
+To fix this issue:
+
+1. Verify your user is assigned the **Field Service - Resource** security role _and_ field security profile
+2. Edit the **Field Service - Resource** security role and assign read privileges for the **Master Entity Routing Configuration** entity in **Custom Entities**.
+3. Edit the **Field Service - Resource** security role and assign read privileges for the **Routing Rule Set** entity in the **Service Management** tab.
+
+
+> [!div class="mx-imgBorder"]
+> ![Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.](./media/fsm-insufficient-permission-faq.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

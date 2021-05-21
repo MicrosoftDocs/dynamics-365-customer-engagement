@@ -58,9 +58,9 @@ To configure channel providers:
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)<br />
-[Configure channel provider in Channel Integration Framework version 2.0](v2/configure-channel-provider-channel-integration-framework.md)<br />
+[Configure channel provider in Channel Integration Framework version 2.0](/dynamics365/customer-service/channel-integration-framework/configure-channel-provider-app-profile-manager)<br />
 [FAQs for Channel Integration Framework](faq-channel-integration-framework.md)<br />
-[Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+[Bring your own channel](../bring-your-own-channel.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

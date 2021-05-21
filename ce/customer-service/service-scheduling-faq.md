@@ -4,7 +4,7 @@ description: See some common questions about service scheduling and setting it u
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/16/2020
+ms.date: 05/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -42,6 +42,10 @@ Scheduling in the Customer Service Hub is a customer-driven update. You need to 
 
 While creating a service activity, manual selection of resources is not supported in the new scheduling experience in Customer Service Hub.
 
+
+## How do I install Core Service Scheduling from the Power Platform admin center?
+
+For steps on how to install Core Service Scheduling from the Power Platform admin center, see [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md).
 
 ### See also
 

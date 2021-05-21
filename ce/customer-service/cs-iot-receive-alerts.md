@@ -31,7 +31,7 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the device list in IoT Central](media/cs-iot-device-list.png)
 
-3. Once on the MXChip001 detail page, navigate to the **Rules** tab, and create the rule "Temperature level." For more information on creating a rule, learn more in [this IoT Central tutorial](https://docs.microsoft.com/azure/iot-central/tutorial-configure-rules).
+3. Once on the MXChip001 detail page, navigate to the **Rules** tab, and create the rule "Temperature level." For more information on creating a rule, learn more in [this IoT Central tutorial](/azure/iot-central/tutorial-configure-rules).
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the rules tab in IoT Central](media/cs-iot-rules.png)

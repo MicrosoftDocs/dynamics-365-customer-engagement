@@ -47,7 +47,7 @@ Before you begin, make sure you have the **System Administrator** security role 
 
   - **Primary Email**: Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address. 
 
-  - **Time Zone**: Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** page. More information: [Set personal options](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/set-personal-options) 
+  - **Time Zone**: Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** page. More information: [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md) 
 
   - **Description**: Add details about the facility or equipment, such as the numbers, size, make, or model.
   
