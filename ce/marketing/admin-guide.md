@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Administrator Guide (Marketing)
+# Administrator guide (Marketing)
 
 <table>
 

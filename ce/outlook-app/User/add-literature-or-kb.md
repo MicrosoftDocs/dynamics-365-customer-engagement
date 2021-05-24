@@ -2,7 +2,7 @@
 title: "Insert sales literature or a knowledge base article to email message using Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: How to insert sales literature or a knowledge base article in an email
 ms.custom: 
-ms.date: 02/17/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

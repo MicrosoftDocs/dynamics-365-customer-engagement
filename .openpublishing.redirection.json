@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/outlook-app/Customizing-the-app.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/outlook-app/dynamics-365-app-outlook-user-s-guide.md",
+      "redirect_url": "user/basic-navigation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/outlook-app/whats-new.md",
+      "redirect_url": "/dynamics365/release-plans",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/basics/quick-create-enter-data-fast copy.md ",
       "redirect_url": "quick-create-enter-data-fast",
       "redirect_document_id": false
