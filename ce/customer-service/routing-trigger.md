@@ -1,5 +1,5 @@
 ---
-title: "Set up basic routing for records in Customer Service | MicrosoftDocs"
+title: "Route records using unified routing | MicrosoftDocs"
 description: "Learn how to configure basic routing for records."
 author: neeranelli
 ms.author: nenellim
