@@ -16,14 +16,14 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-After you set up and enable a record for routing, you can manually trigger the routing for the records using the save and route button on the entity record forms. As an administrator, you can also set up automatic triggers to route these entity records using Power Automate. Let us look at the triggers in detail in the following sections:
+After you set up and enable a record for routing, you can manually start the routing for the records using the save and route button on the entity record forms. As an administrator, you can also route these records automatically using Power Automate. The routing options are as follows:
 
-- Manual trigger using **Save & Route** and **Apply Routing Rules**
-- Automatic trigger using custom Flow
+- Manually route records by using **Save & Route** and **Apply Routing Rules**
+- Automatically route records by using custom Flow
 
 ## Manually route the record
 
-After you enable a record for routing, you see the **Save & Route** option in the form ribbon on the command bar and **Apply Routing rules** in the record view ribbon on the command bar. You can use these commands to route the record.
+After you enable a record for routing, you see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing rules** on the record view ribbon on the command bar. You can use these commands to route the record.
 
 1. Sign in to your model-driven app.
 
@@ -106,13 +106,14 @@ Now, based on the flow that is defined, whenever a record, say lead, is created,
 > [!Note]
 > - For case entity record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case entity record. 
 > - If **Route Case** is set to **Yes**, the record will be routed upon creation.
-> - If **Route Case** is set to No, the record will not be routed upon creation. 
+> - If **Route Case** is set to No, the record will not be routed upon creation.
 > - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
 > - You can also build a custom flow to automatically trigger routing for cases using any other field per your business scenario, as explained in this topic.
 
 ### See also
 
-[Entity records routing](entity-channel.md)
+[Overview of routing](overview-unified-routing.md)  
+[Set up routing for records](set-up-record-routing.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
