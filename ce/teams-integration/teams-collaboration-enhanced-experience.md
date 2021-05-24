@@ -29,19 +29,19 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 
 ## Connect a record or a view to a team channel from customer engagement apps in Dynamics 365
 
-1. In customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service), open a record or view.
-2. When the record or view is open, on the command bar, select **Collaborate**.
+1. In customer engagement apps (such as Dynamics 365 Sales or Dynamics 365 Customer Service), open a record or a view.
+2. On the command bar, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
    > ![Collaborate option](media/teams-collorate-option_1.png "Collaborate option in Dynamics 365 app")
 
 3. On the **Collaborate with Microsoft Teams** window, you will see one of the following: 
-    - **If there’s no channel that is already connected**: You can connect the current record or view to any team channel by selecting, **Get started**.
+    - **If there’s no channel**: You can connect the current record or view to any team channel by selecting, **Get started**.
 
       > [!div class="mx-imgBorder"]
       > ![Get started button](media/teams-get-started-2.png "Selected Get Started")
 
-    - **If there is channel that is already connected**: You can use the existing connected channel by selecting the channel and then select **Start collaboration**. This will open Microsoft Teams and navigate to the connected channel that you selected, or you can connect the current record or view to another team channel by selecting, **Create a new connection**.
+    - **If there is channel that's already connected**: Select a channel from the list and then select, **Start collaboration**. This will open Microsoft Teams and navigate to the channel that you selected. Or, connect the current record or view to a new team channel by selecting, **Create a new connection**.
 
       > [!div class="mx-imgBorder"]
       > ![Select existing channel](media/teams-existing-channel-screen-note.png "Selected existing channel")
