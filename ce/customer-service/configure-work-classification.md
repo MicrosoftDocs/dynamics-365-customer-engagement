@@ -59,7 +59,7 @@ Do the following to configure a machine learning-based ruleset:
 2. On the **Work classification** page, select **Create new**.
 3. In the **Create work classification ruleset** dialog box, select **Rule Type** as **Machine learning model**, and enter a name and description.
 4. Select a model in the **Select skill identification model** list, and select **Create**.
- 
+
    ![Machine learning skill ruleset](media/ur-ml-skill-ruleset.png "Machine learning skill ruleset")
 
 5. On the page that appears, in the **Input attributes** area, select **Add attribute**, and select the attributes from the **Attributes** or **Related Entities** category. For an incoming work item, these attribute values will be concatenated and sent to the machine learning model for skill prediction.
@@ -75,17 +75,17 @@ Do the following to configure a machine learning-based ruleset:
 2. In the **Create route to queue rule** dialog box, enter a name in **Rule Name**.
 3. In **Conditions**, define the set of conditions.
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
- 
+
    ![Configure route to queue decision rules](media/ur-route-to-queue-decision.png "Configure route to queue decision rules")
-   
+
 5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
- 
+
 > [!NOTE] 
 > You can reorder the rules in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
 ### See also
 
-[Create a workstream for unified routing](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center)  
+[Create a workstream for unified routing](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

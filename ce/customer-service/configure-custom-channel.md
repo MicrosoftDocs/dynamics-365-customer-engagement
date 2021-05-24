@@ -62,7 +62,7 @@ After you add the messaging channel to the Bot Channel registration in Azure Bot
 
 In Omnichannel admin center, perform the following steps to configure a workstream for the custom messaging channel:
 
-1. [Create a workstream](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center).
+1. [Create a workstream](create-workstreams.md).
 2. [Configure work distribution](create-workstreams.md#configure-work-distribution)
 3. [Configure Advanced settings](create-workstreams.md#configure-advanced-settings)
 4. [Add a bot](create-workstreams.md#add-a-bot)
