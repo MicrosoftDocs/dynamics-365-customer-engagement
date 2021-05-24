@@ -31,7 +31,7 @@ This topic explains how you can use the Omnichannel Chat SDK to customize the li
 
 Use the Omnichannel Chat SDK to create Omnichannel for Customer Service chat widgets in mobile apps. The open-source Omnichannel Chat SDK comes with a fully customizable user interface with Omnichannel chat methods and features. The SDK is supported on React Native, and therefore works for iOS and Android apps, and also on web browsers.
 
-For download instructions and information, go to [Omnichannel Chat SDK Installation page on Github](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 Examples of sample apps in the Omnichannel Chat SDK include:
 
