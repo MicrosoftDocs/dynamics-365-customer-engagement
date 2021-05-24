@@ -1,10 +1,10 @@
 ---
 title: "Render the live chat widget on mobile apps | MicrosoftDocs"
-description: "Learn to customize the live chat widget on your mobile apps using the Omnichannel Chat SDK. Alternatively, embed the widget code directly in your apps."
+description: "Learn to customize live chat widget on your mobile apps using Omnichannel Chat SDK. Alternatively, embed widget code directly in your apps."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/16/2021
+ms.date: 05/24/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 
@@ -46,7 +46,7 @@ To view all sample apps, go to [Chat SDK Sample Apps](https://github.com/microso
 
 ## Render the live chat widget using embedded code
 
-If the SDK does not meet your requirements, you can embed a live chat widget code in your mobile app. Embedding a chat widget code has many more limitations and restrictions&mdash;reduced performance, limited mobile usability, and unavailable features&mdash;compared to the Omnichannel Chat SDK.
+If the SDK does not meet your requirements, you can embed a live chat widget code in your mobile app. However, embedding a chat widget code has many more limitations and restrictions compared to using the Omnichannel Chat SDK, such as reduced performance, limited mobile usability, and unavailable features.
 
 > [!NOTE]
 > - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile apps.
@@ -100,7 +100,7 @@ chatWebView.evaluateJavascript(
     "Microsoft.Omnichannel.LiveChatWidget.SDK.closeChat();", null)
 ```
 
-The above code covers the scenario where the user of the mobile app ends the chat. However, in another scenario, where an agent ends the conversation, you can listen for the [lcw:threadUpdate](developer/reference/events/lcw-threadupdate.md) event and call the [closeChat](developer/reference/methods/closechat.md) method to end the conversation from the client side, as shown in the code below.
+The preceding code covers the scenario where the user of the mobile app ends the chat. However, in another scenario, where an agent ends the conversation, you can listen for the [lcw:threadUpdate](developer/reference/events/lcw-threadupdate.md) event and call the [closeChat](developer/reference/methods/closechat.md) method to end the conversation from the client side, as shown in the following code.
 
 ```javascript
 chatWebView.evaluateJavascript(
