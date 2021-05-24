@@ -20,7 +20,7 @@ search.app:
 
 # Workflows and scripts for the Field Service (Dynamics 365) mobile app
 
-Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes will work when the mobile app is running in [offline first](mobile-power-app-system-offline.md) and others require internet connectitivty. For more information, see this article: [Mobile offline capabilities and limitations](/dynamics365/mobile-app/mobile-offline-capabilities).
+Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes will work when the mobile app is running in [offline first](mobile-power-app-system-offline.md) and others require internet connectivity. For more information, see this article: [Mobile offline capabilities and limitations](/dynamics365/mobile-app/mobile-offline-capabilities).
 
 
 ## Dynamics 365 workflows and Power Automate flows
