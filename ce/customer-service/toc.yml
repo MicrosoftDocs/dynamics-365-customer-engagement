@@ -88,8 +88,6 @@
         href: chat-dynamics365-customer-service-demo-data.md
       - name: Quickly configure a chat widget
         href: configure-live-chat.md
-      - name: Understand routing and work distribution
-        href: unified-routing-work-distribution.md
   - name: User management
     items: 
     - name: Create users and assign security roles
@@ -142,9 +140,9 @@
           href: multiple-ws-entity-record-routing.md  
         - name: Automatically route cases using basic routing rulesets
           href: create-rules-automatically-route-cases.md
-        - name: Enable records for routing
+        - name: Route records in Omnichannel Administration app
           href: entity-channel.md
-        - name: Set up basic routing for records
+        - name: Route records using unified routing
           href: routing-trigger.md
       - name: Set up skill-based routing
         items: 
@@ -156,7 +154,7 @@
           href: intelligent-skill-model.md
         - name: Set up skills, assign agents
           href: setup-skills-assign-agents.md
-        - name: Attach skills to conversations in Omnichannel Administration
+        - name: Attach skills to conversations
           href: attach-skills.md
         - name: Add skill control for routed records
           href: add-skill-control.md
@@ -178,6 +176,8 @@
           href: role-persona-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+      - name: Understand routing and work assignment in Omnichannel Administration
+        href: unified-routing-work-distribution.md  
     - name: Agent experience
       items:
       - name: Work with queues
