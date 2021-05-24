@@ -3,7 +3,7 @@ title: "Configure offline data for the Field Service (Dynamics 365) mobile app |
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/19/2021
+ms.date: 05/24/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -18,36 +18,42 @@ search.app:
   - D365FS
 ---
 
-# Configure offline data and sync filters for the Field Service (Dynamics 365) mobile app
+# Enable Offline First in the Field Service (Dynamics 365) mobile app
 
-Administrators can control what data is downloaded to the Field Service (Dynamics 365) mobile app with their offline profile.  
+Oftentimes frontline workers need to work in areas without internet access like remote areas or underground. Configure _Offline First_ to allow frontline workers to continue using the Field Service (Dynamics 365) mobile app when there is no internet connection. 
 
-When a user is added to an offline profile, the app will download data to the device. In offline mode, entity data is read from the local device database and will not read live data from the server. This allows the app to perform consistently with or without internet connectivity. The local database will be updated with new data as defined by the administrator in the offline profile at predefined intervals or on demand by the app user. 
-
->[!TIP] 
-> We recommend using the offline feature, even if your frontline workers always have internet access. Using downloaded data is much faster than using data on the server that is accessed over the internet, and improves overall performance. 
-
-Offline configuration is achieved by:
-
-1. Setting up an offline profile (one exists by default).
-2. Adding users to the offline profile.
-3. Publishing the offline profile.
-4. Adding the offline profile to the Field Service mobile model-driven app. 
+In Offline First, important data is downloaded to the device for viewing when there is no internet, and any data changes the frontline worker makes are stored locally on the device and synced to the server when internet connection is restored. 
 
 > [!div class="mx-imgBorder"]
 > ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
 
-> [!Note]
-> When the technician has internet connectivity, data on the device will automatically be refreshed at a minimum interval of five minutes. For more information, see [sync filters](#sync-intervals) in this article.
+Furthermore, administrators can control what data is downloaded to the Field Service (Dynamics 365) mobile app with their offline profile.  
 
-For more information on offline profiles, see the article on [setting up mobile offline synchronization](/dynamics365/mobile-app/preview-setup-mobile-offline).
 
+>[!TIP] 
+> Configuring Offline First creates a fast and consistent experience and is highly recommended. 
+
+Configure Offline First in 4 steps:
+
+1. Set up an offline profile (one exists by default).
+2. Add users to the offline profile.
+3. Edit and publish the offline profile as needed.
+4. Add the offline profile to the Field Service mobile model-driven app. 
 
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
 
-## Set up an offline profile
+## Step 1: set up an offline profile
+
+Offline entities, relationships, and user assignment is managed through your **Offline Profile**. Field Service provides an out-of-the-box offline profile called **Field Service Mobile - Offline Profile** with recommended default settings for Field Service entities. 
+
+Within your offline profile you can:
+
+- Define entities that are available offline and their sync interval.
+- Define filters for each entity. For example, by default we set a filter to only get the bookings entity within a range of seven days before or after current date.
+- Set up item association by creating relationships between entities. Item association saves time because you won't need to set filters for every entity; you can associate related entities that follow filters set on the related entity.
+
 
 Go to the Power Platform admin center at [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/), and find and select your environment.
 
@@ -61,14 +67,10 @@ Go to **Users + permissions section** > **Mobile configuration**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the Mobile configuration option.](./media/offline-2020-ppac-mobile-configuration.png)
 
-Offline entities, relationships, and user assignment is managed through your **Offline Profile**. Field Service provides an out-of-the-box offline profile called **Field Service Mobile - Offline Profile** with recommended default settings for Field Service entities. 
 
-Within your offline profile you can:
 
-- Define entities that are available offline and their sync interval.
-- Define filters for each entity. For example, by default we set a filter to only get the bookings entity within a range of seven days before or after current date.
-- Set up item association by creating relationships between entities. Item association saves time because you won't need to set filters for every entity; you can associate related entities that follow filters set on the related entity.
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
 
 ### Implementation guidance for the offline profile:
 
@@ -83,7 +85,7 @@ Within your offline profile you can:
 > [!div class="mx-imgBorder"]
 > ![The Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
 
-## Add users and teams to the offline profile
+## Step 2: Add users and teams to the offline profile
 
 Open the **Field Service Mobile - Offline Profile**.  
 
@@ -94,7 +96,7 @@ A user or team can only be added to one offline profile at a time. If a user or 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
-## Edit the offline profile
+## Step 3: edit and publish the offline profile as needed
 
 For each entity, you can choose a data download filter:
 
@@ -119,6 +121,39 @@ For example, the **Bookable Resource Booking** (in other words, the booking) ent
 
 For more information on offline profiles, see the article on [setting up mobile offline synchronization](/dynamics365/mobile-app/preview-setup-mobile-offline).
 
+
+## Step 4: add the offline profile to the app
+
+Go to your Dynamics 365 apps by going to ```yourenvironment.crm.dynamics.com/apps```, then go to the app designer for Field Service mobile.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the app designer.](./media/mobile-2020-open-app-designer.png)
+
+Go to **Properties** and add the offline profile you published if it is not already there.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the app designer, on the Field Service mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
+
+> [!Note]
+> Field Service customers can create additional offline profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
+
+## Understanding Offline First vs Online
+
+Once an offline profile is configured, the mobile app always runs in Offline First with and without internet connection. This optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection.
+
+When it comes to internet connectivity the app functions within 3 scenarios.
+
+1.	**Online** – Occurs when there is internet but no offline profile is configured. The mobile app functions like using a Dynamics 365 app with internet on your PC laptop. When internet is lost or diminished the mobile app is essentially unusable. Not recommended.
+2.	**Offline First _without_ internet connection** – Data is downloaded to the device and all changes are saved locally to your mobile device. When internet is restored, the changes are synced to the server.
+3. **Offline First _With_ internet connection** – Data is downloaded to the device and all changes are saved locally but because there is internet connection the user can manually sync to receive the latest data from the server like a new booking. The app will also automatically attempt to sync every few minutes. For more information, see [sync filters](#sync-intervals) in this article.
+
+### Best practices for the offline profile:
+
+- Use the default **Field Service Mobile - Offline Profile** as your starting point and update it based on your business needs.
+- Keep default record types in place; these record types are intentionally selected as a core set of record types used in Field Service.
+- Avoid using "All Data" filter, which can result in significant amounts of data coming down and can impact sync times.
+
+
 ## Sync intervals
 
 Sync intervals define how often record type data will automatically sync down to the users' devices. Sync intervals can be a minimum of five minutes or as long as one day. Records that change frequently can have a short duration sync interval, while infrequently changed records do not need to sync as often. With variable sync intervals, administrators have greater control over data and can help improve sync performance.
@@ -136,20 +171,6 @@ Dependencies based on selected relationships and custom filters that includes re
 > Sync intervals are defined per record type with Field Service v8.8.40+. Prior to this version, all record types will have a five-minute sync interval.
 
 
-## Add the offline profile to the app
-
-Go to your Dynamics 365 apps by going to ```yourenvironment.crm.dynamics.com/apps```, then go to the app designer for Field Service mobile.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the app designer.](./media/mobile-2020-open-app-designer.png)
-
-Go to **Properties** and add the offline profile you published if it is not already there.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the app designer, on the Field Service mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
-
-> [!Note]
-> Field Service customers can create additional offline profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
 
 ## Sync conflicts 
 
@@ -194,6 +215,7 @@ While we recommend making changes directly to the default offline profile to rec
 
 ### See also
 
+- [Set up mobile offline synchronization](/dynamics365/mobile-app/preview-setup-mobile-offline).
 - [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 - [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
 
