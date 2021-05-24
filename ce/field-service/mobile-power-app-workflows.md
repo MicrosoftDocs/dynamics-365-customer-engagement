@@ -25,7 +25,7 @@ Administrators can use processes like Dynamics 365 workflows, Power Automate flo
 
 ## Dynamics 365 workflows and Power Automate flows
 
-Workflows and flows are commonly used to run data validations and autopopulate data based on triggers and conditions. There are many things to consider when creating workflows and flows. Many Dynamics workflows are being replaced with Power Automate flows, so we recommend trying Power Automate flows first to be more future-proof. For more information, see this article: [Comparison of workflows and flow](https://docs.microsoft.com/power-automate/replace-workflows-with-flows). 
+Workflows and flows are commonly used to run data validations and autopopulate data based on triggers and conditions. There are many things to consider when creating workflows and flows. Many Dynamics workflows are being replaced with Power Automate flows, so we recommend trying Power Automate flows first to be more future-proof. For more information, see this article: [Comparison of workflows and flow](/power-automate/replace-workflows-with-flows). 
 
 Workflows and flows will only run with an internet connection. Workflows and flows will execute when the mobile app is running online or running in **Offline First** with internet connection. The mobile app can only run online when there is no offline profile configured. When the app is running in **Offline First** with an internet connection, the user can execute workflows and flows by first saving the record; when saved, the changers are synced to the server, which triggers the workflow or flow server-side. The user can then sync the offline data manually or wait for next sync cadence (5 minutes by default) to pull down the results of the workflow or flow. 
 
