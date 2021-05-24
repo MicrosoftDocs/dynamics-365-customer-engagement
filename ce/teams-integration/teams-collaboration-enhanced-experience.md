@@ -65,7 +65,8 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
             > ![Choose a team](media/teams-create-new-team-4.png "Choose a team")
 
 
-        2. Enter a name for the team and then select **Next**. If you have opted in for [early access](/power-platform/admin/opt-in-early-access-updates), then choose a **Sensitivity** label from the list and you can also choose to make the team private. 
+        2. Enter a name for the team and then select **Next**. </br>
+           If you have opted in for [early access](/power-platform/admin/opt-in-early-access-updates), then choose a **Sensitivity** label from the list. Hover over the label to see tool tips to get more information about the label. You can also select **Make it a private  team** and make the team private so only the team owner can add additional members.  
         
             > [!div class="mx-imgBorder"]
             > ![Enter name and select next](media/teams-enter-team-name-5.png "Enter a team name")
