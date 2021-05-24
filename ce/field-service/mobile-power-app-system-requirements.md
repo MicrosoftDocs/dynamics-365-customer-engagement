@@ -59,6 +59,8 @@ While the Field Service (Dynamics 365) mobile app works on all devices that meet
 | Android | Samsung Galaxy S20, Samsung Galaxy S10, Redmi Note 9, Asus Zenfone Max pro M1, Vivo Z1 Pro, One plus 7T, Pixel 2 | |
 | iOS | iPhone X, iPhone 11 | iPad Air (3rd Gen) |
 
+>[!TIP] 
+> For the best performance, make sure your team has 1) newer devices that 2) run the latest operating system versions, in that order.
 
 ### See also
 
