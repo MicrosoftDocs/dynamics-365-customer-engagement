@@ -62,11 +62,39 @@ However, the administrator can configure settings that allow for simpler navigat
 
 ### Simplify navigation in Customer Service workspace
 
-You can use the following utility to simplify navigation for agents when they work on cases in the Customer Service workspace app. The agents will be able to do the following actions:
+You can use the following utility to simplify navigation for agents when they work on cases in Dynamics 365 Customer Service workspace. The agents will be able to do the following actions with the **Home** and **Global search** options in a new session or an existing session.
 
-- Select a case to open it in a session tab.
-- Select a customer record of a case to open in an application tab.
-- Select a customer record on the homepage to open it in a session tab.
+**Home**
+
+From the home session, you can open a record in the following ways and launch it as a new session. You can see the records you open in the left navigation pane.
+
+- Open a record from a view to launch the record in a new session.
+- Open a record from a dashboard to launch the record in a new session.
+- Open a record from a queue to launch the record in a new session.
+- Create a new record from view. Selecting **New** to launch the entity form in a new session.
+
+**Global search**
+
+- Search records using global search to launch a list of all the retrieved records in a new tab. 
+- Open a record from **Home** using global search to launch the record in a new session. 
+- Open a record from an existing session using global search to launch the record in a new tab.
+
+**Session**
+
+In an already open session, the agents will be able to use the following navigation to open or search for records.
+
+- Open a related record from a form in a session to automatically launch the record in a new tab within the same session.
+- Open a related record from the timeline to automatically launch the record in a new tab within the same session.
+- Create a record from the timeline to automatically launch the entity form in a new tab in the same session.
+- Select **New** to create a new record from a form to launch the entity form in a new session.
+
+**Focus**
+
+Selecting a record or session that is already open, sets focus to the open session instead of opening the session or record multiple times.
+
+**Hotkeys**
+
+Selecting Shift +  click overrides the default navigation and opens the record in a new session and selecting Ctrl + click overrides the default navigation and opens the record in a new tab.
 
 > [!IMPORTANT]
 > You must have the System Administrator role to run the utility.
