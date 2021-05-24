@@ -23,6 +23,8 @@ search.app:
 ---
 # Enhanced Collaboration Experience with Microsoft Teams
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Easily connect customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, or Dynamics 365 Project Service Automation) records or views to a Microsoft Teams channel using the **Collaborate** button on the record or view page. The step-by-step process will help you connect the selected record or view to a Microsoft Teams channel.
 
 The [basic collaboration experience](teams-collaboration.md) only lets you pin a record or a view to a team channel from within Microsoft Teams. The enhanced collaboration experience includes everything in the [basic collaboration experience](teams-collaboration.md) and also lets you pin connect a record or a view to a team channel while you are working in customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales and Dynamics 365 Customer Service). 
@@ -65,7 +67,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
             > ![Choose a team](media/teams-create-new-team-4.png "Choose a team")
 
 
-        2. Enter a name for the team and then select **Next**. </br>
+        2. Enter a name for the team and then select **Next**. </br></br>
            If you have opted in for [early access](/power-platform/admin/opt-in-early-access-updates), then choose a **Sensitivity** label from the list. Hover over the label to see tool tips to get more information about the label. You can also select **Make it a private  team** and make the team private so only the team owner can add additional members.  
         
             > [!div class="mx-imgBorder"]
