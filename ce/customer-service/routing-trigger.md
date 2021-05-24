@@ -44,7 +44,7 @@ The record will be routed based on the active routing rule set.
 
 ## Automatically route using Flow
 
-You can set up a custom flow based on conditions, such as when a record is created and updated, to route the records automatically. Let's see how to set up a custom flow for create condition.
+You can set up a custom flow that is based on conditions, such as when a record is created and updated, to route the records automatically. Let's see how to set up a custom flow for create condition.
 
 To enable automatic trigger to route the records:
 
