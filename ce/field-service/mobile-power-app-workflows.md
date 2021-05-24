@@ -3,7 +3,7 @@ title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile
 description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/12/2021
+ms.date: 05/24/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -23,22 +23,23 @@ search.app:
 Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes will work when the mobile app is running in [offline first](mobile-power-app-system-offline.md) and others require internet connectitivty. For more information, see this article: [Mobile offline capabilities and limitations](/dynamics365/mobile-app/mobile-offline-capabilities).
 
 
-## Dynamics workflows and Power Automate flows
-Workflows and flows are commonly used to run data validations and auto-populate data based on triggers and conditions. There are many other things to consider when creating workflows and flows. Many Dynamics workflows are being replaced with Power Automate flows, so it is generally recommended to try using Power Automate flows first to be more future proof. Refer to the following doc for a [comparison of workflows and flow](https://docs.microsoft.com/power-automate/replace-workflows-with-flows). 
+## Dynamics 365 workflows and Power Automate flows
 
+Workflows and flows are commonly used to run data validations and autopopulate data based on triggers and conditions. There are many things to consider when creating workflows and flows. Many Dynamics workflows are being replaced with Power Automate flows, so we recommend trying Power Automate flows first to be more future-proof. For more information, see this article: [Comparison of workflows and flow](https://docs.microsoft.com/power-automate/replace-workflows-with-flows). 
 
-Workflows and flows will only execute with internet connection. This means workflows and flows will execute when the mobile app is running Online or running in Offline First with internet connection. The mobile app can only run Online when there is no Offline Profile configured. When the app is running in Offline First with an internet connection the user can execute workflows and flows by first saving the record which syncs the changes up to the server and thus triggers the workflow or flow server side, and then syncing the offline data manually or waiting for next sync cadence (5 minutes by default) to pull down the results of the workflow or flow. 
-
+Workflows and flows will only run with an internet connection. Workflows and flows will execute when the mobile app is running online or running in **Offline First** with internet connection. The mobile app can only run online when there is no offline profile configured. When the app is running in **Offline First** with an internet connection, the user can execute workflows and flows by first saving the record; when saved, the changers are synced to the server, which triggers the workflow or flow server-side. The user can then sync the offline data manually or wait for next sync cadence (5 minutes by default) to pull down the results of the workflow or flow. 
 
 ## Business rules
-You can create business rules and recommendations to apply form logic without writing JavaScript code or creating plug-ins. Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to Main and Quick Create forms. 
 
-Business rules will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
+You can create business rules and recommendations to apply form logic without writing JavaScript code or creating plugins. Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. They can be applied to main and quick create forms. 
+
+Business rules will run online, offline first with internet connection, and offline first without internet connection.
 
 ## Actions
-With Actions, you can perform operations, such as Create, Update, Delete, Assign, or Perform Action. Internally, an action creates a custom message. Developers refer to these actions as ”messages”. Each of these messages is based on actions taken on an entity record. If the goal of a process is to create a record, then update it, and then assign it, there are three separate steps.
 
-Actions will only run when the app is running Online.
+With actions, you can perform operations, such as create, update, delete, assign, or perform action. Internally, an action creates a custom message. Developers refer to these actions as "messages". Each of these messages is based on actions taken on a record type. If the goal of a process is to create a record, then update it, and then assign it, there are three separate steps.
+
+Actions will only run when the app is running online.
 
 
 ## Offline JavaScript
