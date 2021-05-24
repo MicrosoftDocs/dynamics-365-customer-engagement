@@ -38,7 +38,7 @@ Sensitivity labels is only available when [Enhanced Collaboration Experience wit
 
 2. From the site map, under **General Settings**, select **Chat and collaborate**.
 
-3. Set the **Create private Teams and add sensitivity/confidentiality labels in the Enhanced Microsoft Teams Integration** toggle to **Yes** and then select **Save**.
+3. Set the **Create private Teams and add sensitivity/confidentiality labels in the Enhanced Microsoft Teams Integration** toggle to **Yes** and then select **Save**. 
 
    > [!div class="mx-imgBorder"]
    > ![Turn on sensitivity/confidentiality labels.](media/sen-labels.png)
