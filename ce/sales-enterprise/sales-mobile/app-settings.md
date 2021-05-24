@@ -1,7 +1,7 @@
 ---
 title: Modify settings for the Dynamics 365 Sales mobile app
 description: Learn to modify settings for the Dynamics 365 Sales mobile app.
-ms.date: 05/18/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Dynamics 365 Sales mobile app settings
 
-The Settings panel provides a consolidated view for relevant information about the app, helpful links to submit ideas, report issues, and share feedback, and a sign-out option.
+The **Settings** panel provides a consolidated view for relevant information about the app, helpful links to submit ideas, report issues, and share feedback, and a sign-out option.
 
 The settings are divided into the following categories:
 - [Help and feedback](#help-and-feedback)
