@@ -25,7 +25,7 @@ search.app:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, render the chat widget in your apps using embedded code. 
+This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, render the chat widget in your apps using embedded code.
 
 ## Customize the live chat widget using the Omnichannel Chat SDK
 
