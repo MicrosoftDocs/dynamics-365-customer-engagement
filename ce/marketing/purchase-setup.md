@@ -62,7 +62,7 @@ Unlike most other model-driven apps in Dynamics 365, Dynamics 365 Marketing isn'
 
 You can choose to run your marketing pages, landing pages, and events website either on an external web server (such as your own CMS system) or on a Dynamics 365 Portal or Power Apps portal running on the same tenant as your Dynamics 365 Marketing environment. Dynamics 365 Portals and Power Apps portals are licensed separately from Dynamics 365 Marketing. For details about portal licensing, see the [Power Apps and Flow licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing). If you use an external website for your events website and marketing pages, then no portals license is needed. You'll choose which solution to use when you run the Dynamics 365 Marketing setup wizard and can change your mind later by running it again. More information: [Integrate Marketing with a CMS system or Power Apps portals](portal-optional.md)
 
-For more information about Dynamics 365 Marketing licensing, see the [Administration and setup FAQ](setup-troubleshooting.md#licensing). For complete licensing details, including specific quotas and other conditions, see the  [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
+For more information about Dynamics 365 Marketing licensing, see the [Administration and setup FAQ](setup-troubleshooting.yml#licensing). For complete licensing details, including specific quotas and other conditions, see the  [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 
 ## Prerequisites and requirements
 
@@ -73,13 +73,13 @@ To run the setup wizard, you must meet all the following requirements:
 - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 environment. You can have at most one Dynamics 365 Marketing app per environment, and each Dynamics 365 Marketing app can only be used with one Dynamics 365 environment.
 - You must sign into your tenant with a user account that has all the following:
    - A security role (such as _Global admin_ or _Service support admin_) that allows you to modify the target Dynamics 365 environment. (If you're reinstalling Marketing on an environment where Marketing was previously installed, then _Service support admin_ users must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
-   - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.md#register-apps-azure) for information about how to confirm this setting for your account.
+   - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.yml#register-apps-azure) for information about how to confirm this setting for your account.
    - A Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 environment. (The Dynamics 365 Marketing license agreement doesn't legally require the installing user to have this license, but a known technical issue currently makes it necessary.)
 - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 - Close all other browser windows and tabs before starting.
 - Clear your browser cache before starting.
 
-If you run into trouble while working with the setup wizard, see the [Administration and setup FAQ](setup-troubleshooting.md) for some possible solutions.
+If you run into trouble while working with the setup wizard, see the [Administration and setup FAQ](setup-troubleshooting.yml) for some possible solutions.
 
 > [!IMPORTANT]
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial or subscribed version of the product.

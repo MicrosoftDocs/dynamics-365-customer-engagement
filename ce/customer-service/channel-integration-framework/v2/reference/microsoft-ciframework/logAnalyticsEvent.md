@@ -64,7 +64,7 @@ Promise with value as string
 
 ## See also
 
-[initLogAnalytics method](initLogAnalytics.md)<br />
+[initLogAnalytics method](./updateconversation.md)<br />
 [Channel Analytics](../../channel-analytics.md)
 
 

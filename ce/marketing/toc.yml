@@ -33,7 +33,7 @@
     - name: Uninstall Marketing
       href: uninstall-marketing.md
     - name: Installation and management FAQ
-      href: install-manage-faq.md
+      href: install-manage-faq.yml
   - name: Administration
     items: 
     - name: Administration overview
@@ -149,7 +149,7 @@
       - name: How the app uses cookies
         href: cookies.md
     - name: Administration and setup FAQ
-      href: setup-troubleshooting.md
+      href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
   - name: Marketing user guide
@@ -214,6 +214,70 @@
         href: custom-template-attributes.md
       - name: Design elements reference
         href: content-blocks-reference.md
+    - name: "Preview: Real-time customer journey orchestration"
+      items: 
+      - name: Real-time marketing user guide
+        href: real-time-marketing-user-guide.yml
+      - name: Get started with real-time marketing
+        items: 
+        - name: Real-time marketing overview
+          href: real-time-marketing-overview.md
+        - name: Install the real-time marketing preview
+          href: real-time-marketing-install.md
+        - name: Use Customer Insights profiles and segments in real-time marketing
+          href: real-time-marketing-ci-profile.md
+        - name: Known issues in real-time marketing
+          href: real-time-marketing-known-issues.md
+      - name: Channels
+        items: 
+        - name: Create real-time marketing emails
+          href: real-time-marketing-email.md
+        - name: Create push notifications
+          href: real-time-marketing-push-notifications.md
+        - name: Create outbound text messages
+          href: real-time-marketing-outbound-text-messaging.md
+        - name: Use AI-driven run-time channel optimization
+          href: real-time-marketing-channel-optimization.md
+      - name: Customer engagement
+        items: 
+        - name: Create an event-based journey
+          href: real-time-marketing-event-based-journey.md
+        - name: Work with segments in real-time marketing
+          href: real-time-marketing-segments.md
+        - name: Create a segment-based journey
+          href: real-time-marketing-segment-based-journey.md
+        - name: Real-time marketing event triggers
+          href: real-time-marketing-event-triggers.md
+        - name: Custom event triggers in real-time marketing
+          href: real-time-marketing-custom-events.md
+        - name: Real-time marketing journey tile reference
+          href: real-time-marketing-tile-reference.md
+        - name: Set a business goal and measure progress through a journey
+          href: real-time-marketing-business-goals.md
+        - name: Use natural language in real-time marketing journeys
+          href: real-time-marketing-natural-language.md
+        - name: Experiment and refine real-time marketing journeys
+          href: real-time-marketing-experimentation.md
+        - name: Access and interpret analytics
+          href: real-time-marketing-analytics.md
+      - name: Assets
+        items: 
+        - name: Real-time marketing asset library
+          href: real-time-marketing-asset-library.md
+      - name: Administration
+        items: 
+        - name: Manage user compliance settings
+          href: real-time-marketing-compliance-settings.md
+        - name: Manage consent for email and text messages in real-time marketing
+          href: real-time-marketing-email-text-consent.md
+        - name: Select the audience source for real-time journeys
+          href: real-time-marketing-audience-data.md
+        - name: Real-time marketing link tracking mechanics
+          href: real-time-marketing-link-tracking-mechanics.md
+      - name: Developer
+        items: 
+        - name: Push notification setup for application developers
+          href: real-time-marketing-developer-push.md
     - name: Email campaigns
       items: 
       - name: Email marketing overview
@@ -236,6 +300,8 @@
         href: spam-checker.md
       - name: Design and run A/B tests on your email designs
         href: email-a-b-testing.md
+      - name: Disable auto-adjustment of HTML
+        href: email-postprocessing.md
       - name: Troubleshoot + FAQs
         href: email-troubleshoot.md
     - name: Marketing pages and forms
@@ -292,7 +358,7 @@
         href: linkedin-matched-audience.md
       - name: Use Customer Insights segments in Marketing
         href: customer-insights-segments.md
-    - name: Customer journey orchestration
+    - name: Customer journeys
       items: 
       - name: Create automated campaigns with customer journeys
         href: customer-journeys-create-automated-campaigns.md

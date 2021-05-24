@@ -8,7 +8,7 @@ ms.date: 11/11/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-# Records routing in Omnichannel Administration app
+# Route records in Omnichannel Administration app
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -24,7 +24,7 @@ With routing for records, organizations can route cases and other records to omn
 
 ### Routing and queues
 
-Cases and other records can be routed to omnichannel queues along with work items that originate from other channels such as Chat and SMS. 
+Cases and other records can be routed to omnichannel queues with work items that originate from other channels such as Chat and SMS. 
 
 This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents skill, capacity, and presence.
 

@@ -296,9 +296,9 @@ To send feedback about the app, go back to the **Apps** page, and then select **
 
 ## Known issues and unsupported features
 
-### Web resources are currently not supported
+### Web resources are not supported for offline
 
-Web resources are not supported for Windows.
+Web resources are not supported for Windows devices for offline mode.
 
 ### Media capture isn't supported
 

@@ -54,7 +54,7 @@ In the Service calendar, you can do the following tasks and activities:
 ### See also  
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)   
  [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)   
- [Create or edit an appointment](../basics/create-edit-appointment.md)   
+ [Create or edit an appointment](../customerengagement/on-premises/basics/create-edit-appointment.md)   
  [Overview of service and service scheduling](basics-service-service-scheduling.md)
 
 

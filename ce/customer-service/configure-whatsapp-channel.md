@@ -226,7 +226,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
 [Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Skill-based routing](overview-skill-work-distribution.md)<br>
 [Create message templates](create-message-templates.md)<br>
-[Templates](templates-overview.md)<br>
+[Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)<br>
 [Delete a configured channel](delete-channel.md)
 
 
