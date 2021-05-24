@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) on the different
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2020
+ms.date: 05/24/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -51,9 +51,9 @@ If you would like to try out Chat for Dynamics 365 for free, sign up for a trial
 
 ## Agent experiences
 
-### Can I use Chat for Dynamics 365 in the Customer Service Hub app module or any custom app module?
+### In which apps can I use Chat for Dynamics 365?
 
-No. You can only use Chat in the **Omnichannel for Customer Service** app. The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md).
+You can use Chat in the Omnichannel for Customer Service and Customer Service Workspace apps.
 
 ### Can I work on cases along with chats?
 

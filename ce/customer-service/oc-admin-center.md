@@ -26,7 +26,7 @@ If you are an upgrading user of Omnichannel for Customer Service, you can perfor
 
 [Unified routing](overview-unified-routing.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Create workstreams](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center)  
+[Create workstreams](create-workstreams.md)  
 [Create queues for conversations](queues-omnichannel.md)  
 [Set up record routing](set-up-record-routing.md)  
 [FAQs on unified routing](unified-routing-faqs.md)  
