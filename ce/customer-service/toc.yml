@@ -400,9 +400,9 @@
         href: oc-real-time-translation.md
     - name: Developer experience
       items: 
-      - name: Customize chat widget using data tags
+      - name: Customize chat widgets using data tags
         href: customize-chat-widget.md
-      - name: Customize live chat widget for mobile apps
+      - name: Customize live chat widgets for mobile apps
         href: render-live-chat-widget-mobile.md
       - name: Download transcripts in bulk
         href: download-transcripts-bulk.md

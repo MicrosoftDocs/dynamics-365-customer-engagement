@@ -1,5 +1,5 @@
 ---
-title: "Customize a chat widget using data tags | Microsoft Docs"
+title: "Customize chat widgets using data tags | Microsoft Docs"
 description: "Read how you can customize chat widgets by using data tags on the chat widget script"
 author: mh-jaya
 ms.author: v-jmh
