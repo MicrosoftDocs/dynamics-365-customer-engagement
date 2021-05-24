@@ -60,9 +60,9 @@ To create a new "Field Service Mobile" app module:
 
 ## Make the custom app module available in "Field Service Mobile" 
 
-Once the custom app module is created, you'll need to tag the app module so that it's available to the Field Service Mobile app and eligible for **Offline First**. 
+Once the custom app module is created, you'll need to tag the app module so that it's available to the Field Service mobile app and eligible for **Offline First**. 
 
-To make the app module available to Field Service Mobile:
+To make the app module available to the Field Service mobile app:
 
 1.  Associate your app module to a solution: In Dynamics 365, go to **Settings** > **Solutions** > **New**. Enter required details in the resulting screen, then save and close.
 
@@ -122,7 +122,7 @@ To make the app module available to Field Service Mobile:
 
 9.  Import the solution .zip back into your Dynamics 365 organization.
 
-10. After successfully tagging your application for Field Service Mobile, you should now see the app module in the app picker screen when after signing into to the app.
+10. After successfully tagging your application for Field Service mobile, you should now see the app module in the app picker screen when after signing into to the app.
 
 ![Field Service mobile app, showing the custom app module you created.](media/image6.png)
 
