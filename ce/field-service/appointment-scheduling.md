@@ -3,7 +3,7 @@ title: "Appointments included in resource scheduling in Dynamics 365 Field Servi
 description: Learn how to include appointments in resource scheduling in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/01/2021
+ms.date: 05/24/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -24,10 +24,16 @@ Organizations often use appointments in Dynamics 365. Typical examples are a sal
 
 Dynamics 365 Appointments ([Microsoft Dataverse appointments](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/appointment)) can be displayed on the Field Service schedule board alongside bookings and can be considered during scheduling to understand if a frontline worker or bookable resource is available. 
 
-By including appointments on the schedule board and during the scheduling process, dispatchers can have an accurate view of availability in one place and don't have to switch between multiple tools such as Outlook, service calendar, and Field Service's new schedule board. This view increases schedulers’ productivity and reduces avoidable scheduling errors. Furthermore, admins no longer need to create bookings based on appointments. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
+
+By including appointments on the schedule board and during the scheduling process, dispatchers can have an accurate view of availability in one place and don't have to switch between multiple tools such as Outlook, service calendar, and Field Service's new schedule board. This view increases schedulers’ productivity and reduces avoidable scheduling errors. Furthermore, admins no longer need to create bookings based on appointments. 
+
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWEhqZ]
 
 ## Prerequisites
 
