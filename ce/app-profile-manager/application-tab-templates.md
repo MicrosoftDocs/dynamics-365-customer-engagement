@@ -82,13 +82,12 @@ The application type is used to display an entity view that defines how a list o
 | entityName | Logical name of the entity. | String <br> Slugs | account <br>`{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
 | viewId | GUID of the view. | String | `00000000-0000-0000-00aa-000010001031` |
 
-
 > [!NOTE]
 > If the target view does not exist or is not included in the app module definition, then the default entity view will be rendered instead.
 
 ### Entity record
 
-The application type is used to display an existing record or to open a form to create a record. 
+The application type is used to display an existing record or to open a form to create a record.
 
 The parameters available for the entity record application type when opening an existing record are as follows:
 
@@ -104,7 +103,7 @@ The parameters available for the entity record application type when opening an 
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | entityName | Logical name of the entity. | String <br> Slugs <br> <br> | contact <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
 | data | Data to be pre-populated in the form.| json | `{"firstname":"Paul", "lastname":"Cannon" , "jobtitle":"Sales Manager"}` |
-| formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` | 
+| formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 ### Search
 
@@ -121,7 +120,7 @@ The application type is used to display third-party websites as an application. 
 
 |Parameter | Description | Supported values | Example |
 |----------------------------|------------------------------------------------------------------------|-------------------------------|----------------------------------------------|
-| url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | https://www.bing.com/search?q=  |
+| url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | <https://www.bing.com/search?q=>  |
 | data | Additional data parameter to be parsed with the url parameter. <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Web resource
@@ -133,25 +132,22 @@ The application type is used to display web resources that represent files, whic
 | webresourceName | Name of the web resource to open. | String | `msdyn_kbsearchpagehost.html`|
 | data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
-
 #### How parsing works
 
 These examples are based on a scenario where the case was opened as the anchor tab in a new session with ticket number: `CAS-01003-P3B7G1`.
 
-**url** parameter: https://www.bing.com/search?q= <br>
+**url** parameter: <https://www.bing.com/search?q=> <br>
 **data** parameter using slugs: `{anchor.ticketnumber}` <br>
-Expected url: https://www.bing.com/search?q=CAS-01003-P3B7G1 <br>
+**Expected url**: <https://www.bing.com/search?q=CAS-01003-P3B7G1> <br>
 
-**url**: https://www.bing.com/search?q= <br>
-**data parameter using odata**: `{$odata.incident.ticketnumber.?$filter=incidentid eq `{anchor.incidentid}`&$select=ticketnumber}` <br>
-**Expected URL**: https://www.bing.com/search?q=CAS-01003-P3B7G1 <br>
+**url**: <https://www.bing.com/search?q=> <br>
+**data parameter using odata**: `{$odata.incident.ticketnumber.?$filter=incidentid eq`{anchor.incidentid}`&$select=ticketnumber}` <br>
+**Expected URL**: <https://www.bing.com/search?q=CAS-01003-P3B7G1> <br>
 
 > [!NOTE]
-> The url parameter requires the correct url format using 'http://'  or 'https://'. 
+> The url parameter requires the correct url format using 'http://'  or 'https://'.
 
 To learn more, see [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
-
-
 
 ### Out-of-the-box application tab templates
 
