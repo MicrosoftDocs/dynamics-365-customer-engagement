@@ -66,7 +66,7 @@ The following types of applications are available:
 
 The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows:
 
-| Parameter | Description | Supported values | Example |
+|Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | dashboardId | GUID of the dashboard.| String | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
@@ -77,7 +77,7 @@ The application type is used to display the dashboard as an application. The par
 
 The application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The parameters available for the entity view application type are as follows:
 
-| Parameter | Description | Supported values | Example |
+|Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | entityName | Logical name of the entity. | String <br> Slugs | account <br>`{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
 | viewId | GUID of the view. | String | `00000000-0000-0000-00aa-000010001031` |
@@ -92,7 +92,7 @@ The application type is used to display an existing record or to open a form to 
 
 The parameters available for the entity record application type when opening an existing record are as follows:
 
-| Parameter | Description | Supported values | Example |
+|Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | entityName | Logical name of the entity.  | String <br> Slugs <br> | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
 | entityId  | GUID of the entity record. | String <br> Slugs <br>  odata <br> | <br>`d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
@@ -100,7 +100,7 @@ The parameters available for the entity record application type when opening an 
 
 The parameters available for the entity record application type when opening an entity form to create a new record are as follows:
 
-| Parameter | Description | Supported values | Example |
+|Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | entityName | Logical name of the entity. | String <br> Slugs <br> <br> | contact <br> | `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
 | data | Data to be pre-populated in the form.| json | `{"firstname":"Paul", "lastname":"Cannon" , "jobtitle":"Sales Manager"}` |
@@ -110,7 +110,7 @@ The parameters available for the entity record application type when opening an 
 
 The parameters available for the entity search application type are as follows:
 
-| Parameter | Description | Supported values | Example |
+|Parameter | Description | Supported values | Example |
 |---------------------------|----------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | searchType | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance Search </li> <li> **1** for Categorized Search </li></ul> | Number | 0 |
 | searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> odata <br> | <br> contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
@@ -119,7 +119,7 @@ The parameters available for the entity search application type are as follows:
 
 The application type is used to display third-party websites as an application. You can use this type to host only the websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
 
-| Parameter | Description | Supported values | Example |
+|Parameter | Description | Supported values | Example |
 |---------------------------|----------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | https://www.bing.com/search?q=  |
 | data | Additional data parameter to be parsed with the url parameter. <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | <br>contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
@@ -128,7 +128,7 @@ The application type is used to display third-party websites as an application. 
 
 The application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
 
-| Parameter | Description | Supported values | Example |
+|Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | webresourceName | Name of the web resource to open. | String | `msdyn_kbsearchpagehost.html`|
 | data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | <br> contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
@@ -169,6 +169,5 @@ The out-of-the-box application tab templates are as follows:
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
