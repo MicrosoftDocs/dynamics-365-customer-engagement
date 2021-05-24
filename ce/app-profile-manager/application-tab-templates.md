@@ -136,18 +136,20 @@ The application type is used to display web resources that represent files, whic
 
 These examples are based on a scenario where the case was opened as the anchor tab in a new session with ticket number: `CAS-01003-P3B7G1`.
 
-**url** parameter: <https://www.bing.com/search?q=> <br>
+**url** parameter: `https://www.bing.com/search?q=` <br>
 **data** parameter using slugs: `{anchor.ticketnumber}` <br>
-**Expected url**: <https://www.bing.com/search?q=CAS-01003-P3B7G1> <br>
+**Expected url**: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
-**url**: <https://www.bing.com/search?q=> <br>
-**data parameter using odata**: `{$odata.incident.ticketnumber.?$filter=incidentid eq`{anchor.incidentid}`&$select=ticketnumber}` <br>
-**Expected URL**: <https://www.bing.com/search?q=CAS-01003-P3B7G1> <br>
+**url**: `https://www.bing.com/search?q=` <br>
+**data parameter using odata**: `{$odata.incident.ticketnumber.?$filter=incidentid eq'{anchor.incidentid}'&$select=ticketnumber}` <br>
+**Expected URL**: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
 > [!NOTE]
 > The url parameter requires the correct url format using 'http://'  or 'https://'.
-
+<!-->
+To check if this text is still applicable.
 To learn more, see [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
+<-->
 
 ### Out-of-the-box application tab templates
 
