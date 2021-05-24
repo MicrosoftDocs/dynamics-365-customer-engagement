@@ -142,7 +142,7 @@
           href: create-rules-automatically-route-cases.md
         - name: Enable records for routing
           href: entity-channel.md
-        - name: Set up basic routing for records
+        - name: Route records using unified routing
           href: routing-trigger.md
       - name: Set up skill-based routing
         items: 
