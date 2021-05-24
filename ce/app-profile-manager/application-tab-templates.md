@@ -120,7 +120,7 @@ The application type is used to display third-party websites as an application. 
 
 |Parameter | Description | Supported values | Example |
 |----------------------------|------------------------------------------------------------------------|-------------------------------|----------------------------------------------|
-| url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | <https://www.bing.com/search?q=>  |
+| url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | `https://www.bing.com/search?q=`  |
 | data | Additional data parameter to be parsed with the url parameter. <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Web resource
@@ -146,10 +146,10 @@ These examples are based on a scenario where the case was opened as the anchor t
 
 > [!NOTE]
 > The url parameter requires the correct url format using 'http://'  or 'https://'.
-<!-->
+<!--
 To check if this text is still applicable.
 To learn more, see [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
-<-->
+-->
 
 ### Out-of-the-box application tab templates
 
