@@ -95,7 +95,7 @@ The parameters available for the entity record application type when opening an 
 |Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | entityName | Logical name of the entity.  | String <br> Slugs <br> | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
-| entityId  | GUID of the entity record. | String <br> Slugs <br>  odata <br> | <br>`d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
+| entityId  | GUID of the entity record. | String <br> Slugs <br>  odata <br> | `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
 | formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 The parameters available for the entity record application type when opening an entity form to create a new record are as follows:
@@ -113,7 +113,7 @@ The parameters available for the entity search application type are as follows:
 |Parameter | Description | Supported values | Example |
 |----------------------------|------------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | searchType | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance Search </li> <li> **1** for Categorized Search </li></ul> | Number | 0 |
-| searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> odata <br> | <br> contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> odata <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Third-party website
 
@@ -122,7 +122,7 @@ The application type is used to display third-party websites as an application. 
 |Parameter | Description | Supported values | Example |
 |----------------------------|------------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | https://www.bing.com/search?q=  |
-| data | Additional data parameter to be parsed with the url parameter. <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | <br>contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| data | Additional data parameter to be parsed with the url parameter. <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Web resource
 
