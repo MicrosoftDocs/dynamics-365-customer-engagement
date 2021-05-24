@@ -154,7 +154,7 @@
           href: intelligent-skill-model.md
         - name: Set up skills, assign agents
           href: setup-skills-assign-agents.md
-        - name: Attach skills to conversations in Omnichannel Administration
+        - name: Attach skills to conversations
           href: attach-skills.md
         - name: Add skill control for routed records
           href: add-skill-control.md

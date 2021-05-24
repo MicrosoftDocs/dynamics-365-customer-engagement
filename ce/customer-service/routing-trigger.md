@@ -4,11 +4,11 @@ description: "Learn how to configure basic routing for records."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-# Set up basic routing for records in Customer Service
+# Route records in Customer Service using unified routing
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -21,9 +21,9 @@ After you set up and enable a record for routing, you can manually trigger the r
 - Manual trigger using **Save & Route** and **Apply Routing Rules**
 - Automatic trigger using custom Flow
 
-## Manual trigger
+## Manually route the record
 
-After you enable a record for routing, you see the **Save & Route** option in the form ribbon on the command bar and **Apply Routing rules**  in the record view ribbon on the command bar. You can use these commands to route the record.
+After you enable a record for routing, you see the **Save & Route** option in the form ribbon on the command bar and **Apply Routing rules** in the record view ribbon on the command bar. You can use these commands to route the record.
 
 1. Sign in to your model-driven app.
 
@@ -42,11 +42,11 @@ After you enable a record for routing, you see the **Save & Route** option in th
 
 The record will be routed based on the active routing rule set.
 
-## Automatically trigger routing using Flow
+## Automatically route using Flow
 
-You can set up a custom flow, to trigger routing for records based on conditions such as when a record is created, updated, and so on. Let's see how to set up a custom flow for create condition.
+You can set up a custom flow based on conditions, such as when a record is created and updated, to route the records automatically. Let's see how to set up a custom flow for create condition.
 
-To enable automatic trigger to route the records, create a custom Flow.
+To enable automatic trigger to route the records:
 
 1. Sign in to Power Automate.
 
