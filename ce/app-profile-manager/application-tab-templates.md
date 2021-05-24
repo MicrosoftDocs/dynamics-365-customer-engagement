@@ -1,10 +1,10 @@
 ---
 title: "Manage application tab templates | MicrosoftDocs"
 description: "Learn about managing application tab templates in Customer Service"
-author: neeranelli
-ms.author: nenellim
+author: "mh-jaya"
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/06/2021
+ms.date: 05/28/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
@@ -54,78 +54,104 @@ As an administrator, you can create multiple application tab templates.
 
 The following types of applications are available:
 
+- Dashboard
 - Entity list
 - Entity record
+- Search
+- Third-party website
 - Web resource
 - Control (for internal use only)
-- Dashboard
-- Search
-- Third Party Website
 
 ### Dashboard
 
-The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows.
+The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows:
 
-| parameter | Example value | Description |
-|----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| dashboardId | `d201a642-6283-4f1d-81b7-da4b1685e698` | GUID of the dashboard. <br> Type = String |
-| entityType  | incident | Entity type of the record. <br> Type = String |
-| type | system | The value is either `system` or `user`. <br> Type = String |
+| Parameter | Description | Supported values | Example |
+|----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| dashboardId | GUID of the dashboard.| String | `d201a642-6283-4f1d-81b7-da4b1685e698` |
+
+> [!NOTE]
+> If the target dashboard is not included in the app module definition, then the default dashboard will be rendered instead.
 
 ### Entity list
 
-The application type is used to display an entity view that defines how a list of records for a specific entity is displayed in the Omnichannel application. The parameters available for the entity view application type are as follows.
+The application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The parameters available for the entity view application type are as follows:
 
-| parameter | Example value | Description |
-|----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| entityName | Account | Logical name of the entity. <br> Type = String |
-| viewId | `00000000-0000-0000-00AA-000010001003` | GUID of the view. <br> Type = String|
-| viewType  | savedquery |  Defines the view type. Possible values are as follows:<br /><br /> - **1039**<br />     Use for a system view. The `viewid` represents the Id of a `savedquery` record.<br />- **4230**<br />     Use for a personal view. The `viewid` represents the Id of a `userquery` record.   <br> Type = String |
+| Parameter | Description | Supported values | Example |
+|----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| entityName | Logical name of the entity. | String <br> Slugs | account <br>`{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
+| viewId | GUID of the view. | String | `00000000-0000-0000-00aa-000010001031` |
+
+
+> [!NOTE]
+> If the target view does not exist or is not included in the app module definition, then the default entity view will be rendered instead.
 
 ### Entity record
 
-The parameters available for the entity record application type are as follows.
+The application type is used to display an existing record or to open a form to create a record. 
 
-| parameter | Example value | Description |
-|----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| createFromEntity | account | Designates a record that provides default values based on mapped attribute values. The lookup object has the following String properties: `entityType`, `id`, and `name` (optional). <br> Type = JSON Object | 
-| data | `{"firstname":"Rigsby", "lastname":"cho" , "jobtitle":"Sales Manager"}` | Defines the attributes and values for the new entity record. <br> Type = JSON Object |
-| entityId  | `d72e3735-5dca-e911-a826-000d3a1f0599` | GUID of the entity record. <br> Type = String  |
-| entityName | account | Logical name of the entity. <br> Type = String |
-| formId | `8448B78F-8F42-454E-8E2A-F8196B0419AF` | GUID of the form instance. <br> Type = String |
-| processId |  | GUID of the business process. <br> Type = String |
-| relationship |  | Relationship object of the record. <br> Type = JSON Object |
-| selectStageId | | GUID of the selected stage in business process instance.  <br> Type = String |
+The parameters available for the entity record application type when opening an existing record are as follows:
+
+| Parameter | Description | Supported values | Example |
+|----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| entityName | Logical name of the entity.  | String <br> Slugs <br> | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
+| entityId  | GUID of the entity record. | String <br> Slugs <br>  odata <br> | <br>`d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
+| formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
+
+The parameters available for the entity record application type when opening an entity form to create a new record are as follows:
+
+| Parameter | Description | Supported values | Example |
+|----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| entityName | Logical name of the entity. | String <br> Slugs <br> <br> | contact <br> | `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
+| data | Data to be pre-populated in the form.| json | `{"firstname":"Paul", "lastname":"Cannon" , "jobtitle":"Sales Manager"}` |
+| formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` | 
 
 ### Search
 
-The parameters available for the entity search application type are as follows.
+The parameters available for the entity search application type are as follows:
 
-| parameter | Example value | Description |
-|----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| searchText  | Printer Noise | Define the string you want to search. <br> Type = String |
-| searchType | 0 | Define to use Relevance search or Categorized search. The possible values are: <br> - **0** for RelevanceSearch <br> - **1** for CategorizedSearch  <br> Type = Number|
+| Parameter | Description | Supported values | Example |
+|---------------------------|----------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| searchType | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance Search </li> <li> **1** for Categorized Search </li></ul> | Number | 0 |
+| searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> odata <br> | <br> contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+
+### Third-party website
+
+The application type is used to display third-party websites as an application. You can use this type to host only the websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
+
+| Parameter | Description | Supported values | Example |
+|---------------------------|----------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | https://www.bing.com/search?q=  |
+| data | Additional data parameter to be parsed with the url parameter. <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | <br>contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Web resource
 
-The application type is used to display Web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows.
+The application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
 
-| parameter | Example value | Description |
-|----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| data | Printer Noise | Provide string or key value pair, according to the requirement of the web resource.  <br> Type = String|
-| webresourceName | `msdyn_kbsearchpagehost.html` |Name of the web resource to open. <br> Type = String|
+| Parameter | Description | Supported values | Example |
+|----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| webresourceName | Name of the web resource to open. | String | `msdyn_kbsearchpagehost.html`|
+| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | <br> contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 
-### Third party website
+#### How parsing works
 
-The application type is used to display first-party and third-party websites as an application. You can use this type to host only the websites that are compatible for iframe hosting. The parameters available for the website URL application type are as follows.
+These examples are based on a scenario where the case was opened as the anchor tab in a new session with ticket number: `CAS-01003-P3B7G1`.
 
-| parameter | Example value | Description |
-|----------------------------|---------------------------------|-----------------------------------------------------------------------------|
-| data | `stackoverflow` |Query parameters that you want to search. <br> Type = String|
-| url | https://www.bing.com/search? | <br> Type = String|
+**url** parameter: https://www.bing.com/search?q= <br>
+**data** parameter using slugs: `{anchor.ticketnumber}` <br>
+Expected url: https://www.bing.com/search?q=CAS-01003-P3B7G1 <br>
+
+**url**: https://www.bing.com/search?q= <br>
+**data parameter using odata**: `{$odata.incident.ticketnumber.?$filter=incidentid eq `{anchor.incidentid}`&$select=ticketnumber}` <br>
+**Expected URL**: https://www.bing.com/search?q=CAS-01003-P3B7G1 <br>
+
+> [!NOTE]
+> The url parameter requires the correct url format using 'http://'  or 'https://'. 
 
 To learn more, see [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
+
+
 
 ### Out-of-the-box application tab templates
 
