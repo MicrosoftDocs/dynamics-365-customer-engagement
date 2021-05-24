@@ -2,7 +2,7 @@
 title: "Enhanced Collaboration Experience with Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Connect with Microsoft Teams and collaborate with team members using the Dynamics 365 app for Microsoft Teams."
-ms.date: 8/26/2020
+ms.date: 5/30/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,7 +51,8 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 
 4. After you select **Get started** or **Create a new connection**, you will enter into the connection process. 
 
-   **Step 1**- **Team selection**: Choose an existing team or create a new team.
+   **Step 1**: Choose an existing team or create a new team.
+   
    - Choose an existing team that you belong to and then select **Next**.
 
      > [!div class="mx-imgBorder"]
@@ -64,12 +65,13 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
             > ![Choose a team](media/teams-create-new-team-4.png "Choose a team")
 
 
-        2. Enter a name for the team and then select **Next**.
+        2. Enter a name for the team and then select **Next**. If you have opted in for [early access](/power-platform/admin/opt-in-early-access-updates), then choose a **Sensitivity** label from the list and you can also choose to make the team private. 
+        
             > [!div class="mx-imgBorder"]
             > ![Enter name and select next](media/teams-enter-team-name-5.png "Enter a team name")
 
 
-   **Step 2**- **Channel selection**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
+   **Step 2**: Choose an existing channel and then select **Next**, or select **Create new channel** to create a new channel.
 
       > [!div class="mx-imgBorder"]
       > ![Choose a channel](media/teams-choose-channel.png "Choose a channel")
@@ -80,7 +82,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
       > > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
 
 
-   **Step 3**- **Add recommended team members**: If you are the owner of the selected team then you can add recommended teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed teammates. You can also use the search option to find the teammates in the list. When you are done, select **Finish**.
+   **Step 3**: If you are the owner of the selected team then you can add recommended teammates who either own the record or the record has been shared with them to the team member group. From the list, select any or all listed teammates. You can also use the search option to find the teammates in the list. When you are done, select **Finish**.
 
    > [!NOTE]
    > You will only see this step only if you are the owner of the selected team while connecting to a customer engagement app record. If you are connecting a view of customer engagement app to a Microsoft Teams channel, you will skip this step. For more information on how to share a record, see [Assign or share records.](/powerapps/user/assign-or-share-records).
