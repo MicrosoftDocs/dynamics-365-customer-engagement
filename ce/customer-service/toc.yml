@@ -402,7 +402,7 @@
       items: 
       - name: Customize a chat widget
         href: customize-chat-widget.md
-      - name: Render live chat widget on mobile app
+      - name: Customize live chat widget for mobile apps
         href: render-live-chat-widget-mobile.md
       - name: Download transcripts in bulk
         href: download-transcripts-bulk.md

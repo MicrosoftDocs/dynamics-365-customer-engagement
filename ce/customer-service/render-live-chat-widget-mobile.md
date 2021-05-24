@@ -1,6 +1,6 @@
 ---
-title: "Render the live chat widget on mobile apps | MicrosoftDocs"
-description: "Learn to customize live chat widget on your mobile apps using Omnichannel Chat SDK. Alternatively, embed widget code directly in your apps."
+title: "Customize live chat widget for mobile apps | MicrosoftDocs"
+description: "Learn to customize live chat widget on your mobile apps using Omnichannel Chat SDK. Alternatively, use sample code to embed widget code directly in your apps."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -19,13 +19,13 @@ search.app:
   - D365USD
 ---
 
-# Customize the live chat widget for mobile apps
+# Customize live chat widget for mobile apps
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, you can also use a sample code to embed the live chat widget in your apps.
+This topic explains how you can use the Omnichannel Chat SDK to customize the live chat widget for mobile apps. Alternatively, render the chat widget in your apps using embedded code. 
 
 ## Customize the live chat widget using the Omnichannel Chat SDK
 
@@ -53,7 +53,7 @@ If the SDK does not meet your requirements, you can embed a live chat widget cod
 
 Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
 
-The sample code for rendering the chat widget in a mobile application is as follows:
+The sample code for rendering the chat widget in a mobile application is as follows.
 
 ```kotlin
 var html: String = """
