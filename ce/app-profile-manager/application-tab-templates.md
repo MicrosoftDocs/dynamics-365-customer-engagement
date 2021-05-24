@@ -1,6 +1,6 @@
 ---
 title: "Manage application tab templates | MicrosoftDocs"
-description: "Learn how to create application tab templates in Customer Service. Also learn about the various application types and their predefined set of parameters."
+description: "Learn how to create application tab templates in Customer Service. Also learn about the various application types and their corresponding parameters."
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
@@ -131,7 +131,7 @@ The application type is used to display web resources that represent files, whic
 |Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | webresourceName | Name of the web resource to open. | String | `msdyn_kbsearchpagehost.html`|
-| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | <br> contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 
 #### How parsing works
