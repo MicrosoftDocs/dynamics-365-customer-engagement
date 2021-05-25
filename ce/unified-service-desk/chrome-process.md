@@ -533,18 +533,10 @@ The Chrome Process provides many options that can be used on the webpages within
 6. For the **Name** field, enter **ChromeProcessParameters**.
 
 7. For the **Value** field, enter a valid Chrome process parameter.
-<<<<<<< HEAD
 
     The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `.
   
     Note that the parameters are separated by semicolons. More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189)
-=======
-    
-    The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `.
-    
-    Note that the parameters are separated by semicolons. 
-    More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
->>>>>>> 1c2ac21a3712efa56b6fa8b4f6986a099f013f3b
 
 8. Select **Save**.
 
