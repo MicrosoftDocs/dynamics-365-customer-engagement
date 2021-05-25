@@ -161,9 +161,9 @@ Example JavaScript function definition. The following JavaScript code is the onl
     function Validate(ctx) {
       var url = Xrm.Page.context.getClientUrl();
       var ruleResult = {
-  	IsValid = false;
-       Message = '';
-       Type = 'error';
+  	IsValid = false,
+       Message = '',
+       Type = 'error'
       };
 
       //
