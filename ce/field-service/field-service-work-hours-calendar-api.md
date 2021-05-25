@@ -93,8 +93,8 @@ These are the times during which the business is closed. Every entity can be set
 
 ### Request
 The request contains only one attribute – `CalendarEventInfo` and this is of String type. It contains several other attributes that are all embedded in this string. 
->[!NOTE]
-In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
+> [!NOTE]
+> In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
 
 **CalendarEventInfo**
 | Name     | Type   | Required     | Description |
@@ -154,168 +154,170 @@ Let’s walk through some real life scenarios that this API can be used for.
 Bob and Tim are delivery truck drivers for Contoso Enterprises, Bellevue. Their dispatcher, Debbie, is responsible for making changes to their work hour calendars. She does that using Save and Delete calendar APIs.
 
 > [!NOTE]
-For each of the following example scenarios, the box with the blue text (first block) contains the request and the box with the green text (second block) contains the response.
+> For each of the following example scenarios, the box with the blue text (first block) contains the request and the box with the green text (second block) contains the response.
 
 ### Create a working hour occurrence.
 Bob is scheduled to drive around to deliver packages from 9:00 am to 5:00 pm on 15th May 2021. Debbie uses the msdyn_SaveCalendar API.
 
-> <span style="color:blue"> {
+Request:
+> `{
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-15T09:00:00.000Z\",\"EndTime\":\"2021-05-5T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}]}]}"
-}</span>
+}`
 
-> <span style="color:green">{
+Response:
+>`{
   "InnerCalendarIds": "[\"9519e271-18b5-eb11-a81d-000d3afb1dba\"]"
-}</span>
+}`
 
 
 ### Edit a working hour occurrence.
 His schedule then changes to start from 10:00 am on 15th May 2021. Debbie uses the msdyn_SaveCalendar API.
 
-> <span style="color:blue"> {
+>  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"IsEdit\":\"true\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-15T10:00:00.000Z\",\"EndTime\":\"2021-05-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}], \"InnerCalendarId\":\"9519e271-18b5-eb11-a81d-000d3afb1dba\"}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"9519e271-18b5-eb11-a81d-000d3afb1dba\"]"
-}</span>
+} `
 
 
 ### Delete a working hour occurrence.
 A family emergency comes up! Bob needs to cancel his entire day of work. Debbie uses the msdyn_DeleteCalendar API.
-> <span style="color:blue"> {
+>  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"InnerCalendarId\":\"9519e271-18b5-eb11-a81d-000d3afb1dba\"}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"9519e271-18b5-eb11-a81d-000d3afb1dba\"]"
-}</span>
+} `
 
 
 
 ### Create a working hour daily recurrence.
 Starting 20th May 2021, Bob decides to work with Contoso all week from 8:00 am to 5:00 pm. He’s going to stop working here on 15th July 2021.
 
-> <span style="color:blue"> {
+> `  {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RecurrenceEndDate\":\"2021-07-15T00:00:00.000Z\",\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T08:00:00.000Z\",\"EndTime\":\"2021-05-20T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA\"}]}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"f5486570-41b5-eb11-a81d-000d3afb1dba\"]"
-}</span>
+} `
 
 
 
 ### Edit a working hour daily recurrence with increased capacity.
 Bob is getting burnt out due to all those hours of driving. Bob then decided to stop working all week on 15th June 2021. Until then he will continue the previously decided all week schedule. Debbie makes these changes using the msdyn_SaveCalendar API.
 
-> <span style="color:blue"> {
+> `  {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RecurrenceEndDate\":\"2021-06-15T00:00:00.000Z\",\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T08:00:00.000Z\",\"EndTime\":\"2021-05-20T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"InnerCalendarId\":\"f5486570-41b5-eb11-a81d-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY= SU,MO,TU,WE,TH,FR,SA\"}]}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"f5486570-41b5-eb11-a81d-000d3afb1dba\"]"
-}</span>
+} `
 
 
 ### Create a working hour weekly recurrence.
 Starting from 16th June 2021, Bob will work from 8:00 am to 5:00 pm on Wednesdays and Fridays. He takes a break from 12:00 pm to 12:30 pm for lunch. Debbie uses the msdyn_SaveCalendar API. But oops, she makes a mistake and schedules the break from 12:00 pm to 1:00 pm.
 
-> <span style="color:blue"> {
+>  ` {
   "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-16T08:00:00.000Z\",\"EndTime\":\"2021-06-16T12:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}, {\"StartTime\":\"2021-06-15T12:00:00.000Z\",\"EndTime\":\"2021-06-15T13:00:00.000Z\",\"Effort\":null,\"WorkHourType\":1}, {\"StartTime\":\"2021-06-15T13:00:00.000Z\",\"EndTime\":\"2021-06-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE,TH,FR\"}]}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"c94adf3a-21b5-eb11-a81d-000d3afb1dba\"]"
-}</span>
+} `
 
 
 ### Edit a break from a working hour weekly recurrence.
 Debbie then corrects her mistake and changes the break to be from 12:00 pm to 12:30 pm using the msdyn_SaveCalendar API.
 
-> <span style="color:blue"> {
+> `  {
   "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"IsEdit\":\"true\",\\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-15T08:00:00.000Z\",\"EndTime\":\"2021-06-15T12:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}, {\"StartTime\":\"2021-06-15T12:00:00.000Z\",\"EndTime\":\"2021-06-15T12:30:00.000Z\",\"Effort\":null,\"WorkHourType\":1}, {\"StartTime\":\"2021-06-15T12:30:00.000Z\",\"EndTime\":\"2021-06-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"InnerCalendarId\":\"c94adf3a-21b5-eb11-a81d-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE,TH,FR\"}]}"
-}</span>
+} `
 
-> <span style="color:green">{
+>  `{
   "InnerCalendarIds": "[\" c94adf3a-21b5-eb11-a81d-000d3afb1dba \"]"
-}
-</span>
+}`
+ 
 
 
 ### Create a working hour custom recurrence.
 Tim works for Contoso on Mondays from 8:00 am to 5:00 pm and Wednesdays from 11:00 am to 3:00 pm. He started his role on 16th May 2021. Debbie uses the msdyn_SaveCalendar API to create his work hours.
 
-> <span style="color:blue"> {
+> `  {
 "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\\"TimeZoneCode\":5,\"IsVaried\":true,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-16T08:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=MO\"},{\"Rules\":[{\"StartTime\":\"2021-05-16T11:00:00.000Z\",\"EndTime\":\"2021-05-16T15:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE\"}]}"
-}
-</span>
+}`
+ 
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\", \"37d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
-}
-</span>
+}`
+ 
 
 
 ### Edit a working hour custom recurrence.
 This then changes: his work hours are now Wednesdays 5:00 pm to 8:00 pm and Thursday 10:00 am to 12:00 pm. Monday is removed from his schedule. Debbie uses the msdyn_SaveCalendar API to achieve this.
 
-> <span style="color:blue"> {
+> `  {
 "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\\"TimeZoneCode\":5,\"IsVaried\":true,\"IsEdit\":true,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-16T08:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"InnerCalendarId\":\"34d2210c-9fb6-eb11-a820-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=MO\"},{\"Rules\":[{\"StartTime\":\"2021-05-16T13:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":3,\"InnerCalendarId\":\"37d2210c-9fb6-eb11-a820-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE\"}]}"
-}
-</span>
+}`
+ 
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\", \"37d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
-}
-</span>
+}`
+ 
 
 
 ### Edit a working hour occurrence in a recurrence.
 On 26th May, Tim is only able to work from 5:00 pm to 7:00 pm. Debbie uses the msdyn_SaveCalendar API here.
 
-> <span style="color:blue"> {
+>  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-26T017:00:00.000Z\",\"EndTime\":\"2021-05-26T19:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}]}, \"InnerCalendarId\":\"34d2210c-9fb6-eb11-a820-000d3afb1dba\"]}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
-}</span>
+} `
 
 ### Delete a working hour custom recurrence.
-> <span style="color:blue"> {
+>  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"InnerCalendarId\":\"34d2210c-9fb6-eb11-a820-000d3afb1dba\",\"IsVaried\":true}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
-}</span>
+} `
 
 
 
 ### Create a Time-Off
 Tim will be taking 3 days off for a family vacation starting on 9th June 2021.
 
-> <span style="color:blue"> {
+>  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"InnerCalendarDescription\":\"Family Vacation\"\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-15T00:00:00.000Z\",\"EndTime\":\"2021-06-17T00:00:00.000Z\",\"Effort\":1,\"WorkHourType\":3}]}]}"
-}</span>
+} `
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"1141e271-18b5-eb11-a81d-000d3afb1dba\"]"
-}</span>
+} `
 
 
 ### Create All-Day working hours.
 Tim has a 72-hour shift starting 20th May 2021. Debbie uses the msdyn_SaveCalendar API to create his work hours.
 
-> <span style="color:blue"> {
+> `  {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T00:00:00.000Z\",\"EndTime\":\"2021-05-22T00:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}], \"InnerCalendarId\":\"9519e271-18b5-eb11-a81d-000d3afb1dba\"}]}"
-}
-</span>
+}`
+ 
 
-> <span style="color:green">{
+> ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\", \"37d2210c-9fb6-eb11-a820-000d3afb1dba\", \"4bcc69b8-a2b6-eb11-a820-000d3afb1dba\"]"
-}
-</span>
+}`
+ 
 
 
 ## Troubleshooting and Errors
