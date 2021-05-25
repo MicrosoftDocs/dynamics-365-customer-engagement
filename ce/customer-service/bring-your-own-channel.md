@@ -18,7 +18,7 @@ Omnichannel for Customer Service allows you to implement a connector to integrat
 
 ### Adapter Webhook API Service
 
-When the user enters a message, the adapter API is invoked from the channel. It processes the inbound request and sends either success or failure status as a response. The adapter API service must implement the IChannelAdapter interface, and sends the inbound request to the respective channel adapter to process the request.
+When the user enters a message, the adapter API is invoked from the channel. It processes the inbound request and sends either success or failure status as a response. The adapter API service must implement the `IChannelAdapter` interface, and sends the inbound request to the respective channel adapter to process the request.
 
 ```javascript
 /// <summary>
@@ -41,7 +41,7 @@ When the user enters a message, the adapter API is invoked from the channel. It 
         catch (Exception ex)
         {
             _logger.LogError($"postactivityasync: {ex}");
-            return StatusCode(500, "An error occured while handling your request.");
+            return StatusCode(500, "An error occurred while handling your request.");
         }
 
         return StatusCode(200);
