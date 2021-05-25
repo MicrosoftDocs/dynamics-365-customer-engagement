@@ -20,6 +20,18 @@ search.app:
 
 # Troubleshoot issues in service-Level agreements in Customer Service
 
+## SLA KPI instances that move to a terminal status can't be reactivated
+
+I accidentally moved an SLA KPI status to a terminal status and reverted but the SLA KPI instance is not reactivated.
+
+### Reason
+
+Terminal statuses for SLAs are non-compliant and succeeded and therefore can't be reactivated.
+
+### Resolution
+
+
+
 ## Warn and fail duration times are incorrect for the SLA
 
 Why do I see that some service-level agreements (SLAs) don't take into account daylight saving time for warn and fail duration?
