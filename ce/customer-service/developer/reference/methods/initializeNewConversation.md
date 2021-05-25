@@ -47,7 +47,7 @@ interface conversationConfig {
         inviteParams: InviteParams;  // Implements InviteParams interface, Represents the parameters received on a conversation invite  
 }
 ```
-The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 The `channelType` parameter in `InviteParams` interface represents a supported channel in Omnichannel for Customer Service. The channels are listed as follows.
 

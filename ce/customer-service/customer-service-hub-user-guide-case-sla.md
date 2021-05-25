@@ -45,13 +45,13 @@ A sample runtime view of the SLA Timer is as follows.
 Only the failure time is tracked and saved on the case record. You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed and takes into consideration the business hours. For example, if failure time is set to 5 days and business hours are 9:00 a.m. to 5:00 p.m., then you will see 5 days on the timer. If failure time is set to 10 hours, then you will see 1 day and 2 hours on the timer.
 
 > [!NOTE]
-> It is recommended to use only Enhanced SLA because Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 Customer Service](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> It is recommended to use only Enhanced SLA because Standard SLA is deprecated. For more information, see [Important changes coming in Dynamics 365 Customer Service](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ### Case form with Enhanced SLA applied
 
 When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record is created for each SLA KPI that is tracked for that case. On the **Summary** tab of the case record, you’ll see a timer that shows the time remaining to meet each SLA KPI. When a service rep puts a case on hold, the status of the SLA KPI Instance is set to **Paused**. You can see the time for which a case was on hold and the last time the case was put on hold. These details are not available on the case form by default, but your system customizer can add these fields on the case form for you. 
 
-The on-hold time is the time for which the case was set to a status that you defined as an **On-Hold** status in the **System settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](../admin/system-settings-dialog-box-service-tab.md)
+The on-hold time is the time for which the case was set to a status that you defined as an **On-Hold** status in the **System settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:
 

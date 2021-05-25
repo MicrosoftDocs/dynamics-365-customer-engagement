@@ -211,7 +211,7 @@ The **Ongoing conversations** table displays the following metrics.
 
 The **Closed conversations** table provides information related to all the conversations that have been closed.
 
-You can also assign a conversation to an agent or route it to another queue. More information: [Monitor and assign conversations](monitor-conversations.md#assign-a-conversation).
+You can also assign a conversation to an agent or route it to another queue. More information: [Monitor and assign conversations](monitor-conversations.md#assign-conversations).
 
 
 ## View and filter reports

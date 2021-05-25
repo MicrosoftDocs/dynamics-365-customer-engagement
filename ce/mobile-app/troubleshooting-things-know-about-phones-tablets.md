@@ -96,6 +96,9 @@ For other device manufacturers, please email Dynamics 365 Mobile Support dynmobi
 
 ## Error message: This record is unavailable
  If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
+ 
+## Flows created in a solution is not supported 
+The Flow action menu in Dynamics 365 for phones and tablets app doesn't support flows created in a solution.
   
   
 ### Admin instructions to resolve the issue

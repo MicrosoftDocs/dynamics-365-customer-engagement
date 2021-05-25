@@ -52,7 +52,7 @@ After you create a skill type, you can create skills in the Omnichannel admin ce
 
     | Field | Description  | Example value |
     |-----------|---------------------|------------------------------|
-    | Name | Specify the name of the skill. | Spanish <br> **Note:** <br> The name must be unique. |    
+    | Name | Specify the name of the skill. | Spanish <br> **Note:** <br> The name must be unique. |
     | Type | Select a skill type from the drop-down list. | Language |
     | Description | Provide a description of the skill. | This record is used to define the skill level of the Spanish language. |
 

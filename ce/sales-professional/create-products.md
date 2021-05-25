@@ -33,7 +33,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
     -  **Product ID**.
 
-    -  **Parent**. Select a parent product family for the product. If you're creating a child product in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
+    -  **Parent**. Do not use. This field is not supported for Sales Professional.
 
     -  **Valid From**/**Valid To**. Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
 

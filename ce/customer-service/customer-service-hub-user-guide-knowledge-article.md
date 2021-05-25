@@ -283,7 +283,7 @@ By default, the rich text editor functionality is available for use with knowled
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
 
-For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+For more information about rich text control properties, see [Rich text editor control configuration options](/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
 
   
 ## Mark a knowledge article for review  
@@ -495,7 +495,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
    > [!NOTE]
-   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
+   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).
 
 - **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
@@ -537,7 +537,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
  Knowledge managers and authors can now monitor the status of knowledge articles using the two  default dashboards available in the Customer Service Hub.  
   
 > [!NOTE]
->  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
+>  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
   
 ### My knowledge Dashboard  
  This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
@@ -558,10 +558,10 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
 #### Manage versions in alternate keys for knowledge article entity
-If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
+If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
 
 ## Prevent duplicate workflows with knowledge article operations   
-If you use [workflow processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to perform knowledge article operations, such as:
+If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as:
 - Create a knowledge article
 -	Update a knowledge article
 
@@ -632,7 +632,7 @@ Now, when you perform a create or update operation, the workflow process will tr
 
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 
-[Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)
+[Use Workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

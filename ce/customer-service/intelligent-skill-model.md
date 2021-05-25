@@ -81,7 +81,7 @@ Perform the following steps to upload the data for training your model:
 
 ### See also
 
-[Create a workstream for unified routing](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center)  
+[Create a workstream for unified routing](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  

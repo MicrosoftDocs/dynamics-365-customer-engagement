@@ -16,7 +16,7 @@ To quickly get started, follow the instructions mentioned in this topic for buil
 
 ## Prerequisites
 
-You need to have an understanding on how to create a bot using [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true).
+You need to have an understanding on how to create a bot using [Azure Bot Service](/azure/bot-service/abs-quickstart?preserve-view=true&view=azure-bot-service-4.0).
 
 ## Sample bot that displays knowledge article recommendations
 
