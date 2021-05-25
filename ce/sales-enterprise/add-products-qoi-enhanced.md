@@ -43,6 +43,8 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - Specify price, quantity, and any other required information as configured by your system administrator.
 
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 > [!IMPORTANT]
 >
 > - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]

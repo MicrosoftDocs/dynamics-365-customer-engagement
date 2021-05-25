@@ -299,7 +299,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ### Sample code
 
-This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](https://docs.microsoft.com/bingmaps/rest-services/locations/).
+This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](/bingmaps/rest-services/locations/).
 
 ```javascript
 <!-- Code to show proactive chat invite if visitor is visiting the page in a particular country or region -->

@@ -120,7 +120,7 @@ If the partner wants to fire some custom event for their KPIs, they can do it wi
 
 ## Channel Analytics Entities
 
-Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Dataverse for every third party conversation launched through it.
+Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](/dynamics365/omnichannel/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) record in Dataverse for every third party conversation launched through it.
 
 ### msdyn_kpieventdefinition
 

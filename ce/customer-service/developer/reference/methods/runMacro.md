@@ -41,7 +41,7 @@ Microsoft.ProductivityMacros.runMacro(macroName).then(function(success){
 
 ## See also
 
-[Overview of Productivity Tools](../../../productivity-tools.md)<br />
+[Overview of Productivity Tools](../../../../app-profile-manager/productivity-tools.md)<br />
 [Automate tasks with macros](../../../../app-profile-manager/macros.md)
 
 

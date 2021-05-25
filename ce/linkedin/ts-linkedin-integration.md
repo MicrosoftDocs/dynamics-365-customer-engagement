@@ -24,7 +24,7 @@ When enabling the data validation option (**Enable LinkedIn updates**) in the **
 
 ![Error in enabling LinkedIn updates](media/lisn-update-error.png "Error in enabling LinkedIn updates")
 
-For more information about the data validation capability of LinkedIn Sales Navigator, see [Data validation](https://docs.microsoft.com/dynamics365/linkedin/data-validation).
+For more information about the data validation capability of LinkedIn Sales Navigator, see [Data validation](./data-validation.md).
 
 **Resolution**
 

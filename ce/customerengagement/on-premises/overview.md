@@ -14,7 +14,7 @@ manager: "annbe"
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Help!
 
-Effective October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: [Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)
+Effective October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: [Dynamics 365 Licensing Update](/dynamics365/licensing/update)
 
 With this change for *online* customers, we are no longer using the term "Dynamics 365 for Customer Engagement apps" to refer to the collection of following apps and its related services:
 - Dynamics 365 Sales
@@ -23,7 +23,7 @@ With this change for *online* customers, we are no longer using the term "Dynami
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-For *online* customers, these Dynamics 365 apps (collectively referred as customer engagement apps) run on [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+For *online* customers, these Dynamics 365 apps (collectively referred as customer engagement apps) run on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 For *on-premises* customers, "Dynamics 365 Customer Engagement (on-premises)" is the official name of the product that provides sales, service, and marketing features. Customer Engagement (on-premises) shares many features in common with Dataverse and Power Apps. 
 

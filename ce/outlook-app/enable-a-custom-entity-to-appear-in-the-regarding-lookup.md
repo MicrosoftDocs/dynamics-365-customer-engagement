@@ -2,7 +2,7 @@
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Enable activities to use Set Regarding lookup in App for Outlook.
-ms.date: 02/17/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,15 +51,33 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
    > [!div class="mx-imgBorder"]
    >![Select settings](media/maker-row-settings.png "Select setting")
 
-5. Expand **Collaboration**, and select **Enable for activities** and then choose **Done**. 
-
+5. Expand **More settings** > **Collaboration**, and select the checkbox for **Enable for activities**.
+6. 
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
    
   > [!IMPORTANT]
   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
-6.  Select **Save Table** > and then publish the table.
+6.  Select **Done** and then **Save Table**.
+
+
+## Verify the table is added to the app designer
+
+
+1. Sign in to [Power Apps](https://make.powerapps.com).
+2. On the left navigation pane, select **Apps**.
+3. From the list of apps select **Dynamics 365 App for Outlook** and then select **Edit**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Dynamics 365 App for Outlook and then select edit](media/edit-apps-outlook.png)
+
+4. In the app designer, choose table and browse to find your custom table.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select and add the custom table](media/app-designer-add-table.png)
+
+5. Select **Save** and then **Publish** the app.
 
 
 

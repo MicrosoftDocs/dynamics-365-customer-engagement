@@ -134,9 +134,9 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     > [!NOTE]
     > To configure routing rules and other options in the work stream for Twilio, see the following:
     > - [Skill-based routing](overview-skill-work-distribution.md)
-    > - [Productivity tools](productivity-tools.md)
+    > - [Productivity tools](../app-profile-manager/productivity-tools.md)
     > - [Smart assist](../app-profile-manager/smart-assist.md)
-    > - [Templates](templates-overview.md)
+    > - [Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)
 
 ## Establish a connection between Omnichannel for Customer Service and the Twilio account
 

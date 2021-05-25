@@ -32,7 +32,7 @@ There are three types of search providers you can set up:
 
   -	**Cross-Organizational Search**: This option allows you to specify a different organization under the same tenant of the current organization and search the articles from that organization. The list from the current tenant is automatically identified. 
   -	**Sharepoint** (Preview): This option requires you to enter the SharePoint URL. 
-  -	**Microsoft Graph connector** (Preview): This option is for organizations that already use Microsoft Search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft Graph connectors, see [Overview of Microsoft Graph connectors](https://docs.microsoft.com/microsoftsearch/connectors-overview).
+  -	**Microsoft Graph connector** (Preview): This option is for organizations that already use Microsoft Search to index all external data. You only need to specify the unique connection ID when you create the connector. To learn more about Microsoft Graph connectors, see [Overview of Microsoft Graph connectors](/microsoftsearch/connectors-overview).
   
 From an authentication perspective, your agents must have access to external content or they won't be able to view search results. 
 

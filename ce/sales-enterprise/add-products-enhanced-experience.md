@@ -1,5 +1,5 @@
 ---
-title: "Enhanced experience for adding products | MicrosoftDocs"
+title: "Enhanced experience for adding products to opportunity | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products to opportunities in Dynamics 365 Sales Enterprise."
 ms.date: 04/02/2021
 ms.service: dynamics-365-sales
@@ -37,6 +37,8 @@ As a salesperson, you want to be able to easily identify and add products from t
 - Add write-in products by using as few clicks as possible.
 
 - Specify price, quantity, and any other required information as configured by your system administrator.
+
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
 
 > [!IMPORTANT]
 >- The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
