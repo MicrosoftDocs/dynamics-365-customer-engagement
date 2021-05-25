@@ -8,8 +8,6 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-ms.custom: 
-  - "dyn365-sales"
 ---
 
 # Overview of admin settings (Sales Professional)

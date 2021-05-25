@@ -8,8 +8,6 @@ ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-ms.custom: 
-  - dyn365-sales
 ---
 
 # Get started with in-app marketing (Sales)
