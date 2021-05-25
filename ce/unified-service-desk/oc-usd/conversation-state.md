@@ -102,7 +102,7 @@ Advantages of automatic-closure of a conversation:
 
 The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remain in the same state more than the default configured time. These conversations become eligible for automatic-closure, and next time, when the scheduler runs, these conversations are moved from the existing state to the **Closed** state.
 
-### Default time for automatic closure of conversation
+### Default time for automatic closure of conversations
 
 The conversations coming from different channel has varied scenarios and hence has different default configured time. 
 Administrator can change the default configured time as per the business requirement programmatically. To learn more, see [Set default time using APIs](#set-default-time-using-apis).

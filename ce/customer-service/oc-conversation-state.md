@@ -102,7 +102,7 @@ The Omnichannel for Customer Service application checks the conversations every 
 > [!IMPORTANT]
 > To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
 
-### Default time for automatic closure of conversation
+### Default time for automatic closure of conversations
 
 All channels have different default configured time after which conversations can be moved to Closed. The administrator can change the default configured time as per the business requirement programmatically. To learn more, see [Set default time using APIs](#set-default-time-using-apis).
 
