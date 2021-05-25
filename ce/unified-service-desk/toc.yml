@@ -142,7 +142,7 @@
       href: admin/export-unified-service-desk-configuration-data.md
   - name: Performance enhancement for loading Customer Engagement app pages
     href: admin/performance-enhancement-CRM-entity-page-loads.md
-  - name: Recover Edge WebView2 Process instance (Preview)
+  - name: Recover Edge WebView2 Process instance
     href: admin/recover-edge-webview2-process-instance.md
   - name: Recover Chrome Process instance
     href: admin/recover-chrome-process-instance.md
@@ -194,7 +194,7 @@
         items:
         - name: Select a hosting method for your controls
           href: select-hosting-method-controls.md
-        - name: Use Edge WebView2 Process to host web applications (Preview)
+        - name: Use Edge WebView2 Process to host web applications
           href: edge-webview2-process.md
         - name: Use Chrome Process to host web applications
           href: chrome-process.md       
