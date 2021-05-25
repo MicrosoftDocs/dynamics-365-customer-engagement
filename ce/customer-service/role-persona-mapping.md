@@ -36,7 +36,7 @@ Custom security roles can be created at an organizational or business unit level
    - Customer Service Representative
 
 3. Customize permissions and access levels for your new security role.
-4. Save the security role with a that will help you identify it during persona mapping.
+4. Save the security role with a name that will help you identify it during persona mapping.
 
 For example, if your organization is expecting a large seasonal increase in chat service requests, you might hire some seasonal employees to exclusively handle chat channels. You could create a security role for the "seasonal service rep" using the steps above. First, you'd identify that users with this role are part of the agent archetype. Knowing that, you would create a copy of the "Omnichannel  agent" security role. By starting with a copied role, you are less likely to face user issues by under-granting privilege. As part of customizing, you might remove read access for records not related to chat, such as Survey feedback, SMS, or voice channels. Finally, you can save the new security role as "seasonal service rep".
 
