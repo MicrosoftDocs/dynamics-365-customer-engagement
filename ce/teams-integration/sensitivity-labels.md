@@ -36,7 +36,7 @@ Sensitivity labels in Microsoft Teams integration with customer engagement apps 
 
 ## Turn on Sensitivity labels
 
-Sensitivity labels is only available when the Enhanced Collaboration Experience is turned on. For more information, see [Install and set up Microsoft Teams integration](teams-install-app).
+Sensitivity labels is only available when the Enhanced Collaboration Experience is turned on. For more information, see [Install and set up Microsoft Teams integration](teams-install-app.md).
 
 
 1. On the lower right, go to **Change area** and then select, **App Settings**.
@@ -51,4 +51,4 @@ Sensitivity labels is only available when the Enhanced Collaboration Experience 
    > [!div class="mx-imgBorder"]
    > ![Turn on sensitivity/confidentiality labels.](media/sen-labels.png)
 
-To learn how to use sensitivity labels, see [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience).
+To learn how to use sensitivity labels, see [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience.md).
