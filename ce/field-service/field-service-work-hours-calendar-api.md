@@ -93,8 +93,8 @@ These are the times during which the business is closed. Every entity can be set
 
 ### Request
 The request contains only one attribute – `CalendarEventInfo` and this is of String type. It contains several other attributes that are all embedded in this string. 
->[!NOTE]
-In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
+> [!NOTE]
+> In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
 
 **CalendarEventInfo**
 | Name     | Type   | Required     | Description |
@@ -154,7 +154,7 @@ Let’s walk through some real life scenarios that this API can be used for.
 Bob and Tim are delivery truck drivers for Contoso Enterprises, Bellevue. Their dispatcher, Debbie, is responsible for making changes to their work hour calendars. She does that using Save and Delete calendar APIs.
 
 > [!NOTE]
-For each of the following example scenarios, the box with the blue text (first block) contains the request and the box with the green text (second block) contains the response.
+> For each of the following example scenarios, the box with the blue text (first block) contains the request and the box with the green text (second block) contains the response.
 
 ### Create a working hour occurrence.
 Bob is scheduled to drive around to deliver packages from 9:00 am to 5:00 pm on 15th May 2021. Debbie uses the msdyn_SaveCalendar API.
