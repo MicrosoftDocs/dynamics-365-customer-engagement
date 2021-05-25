@@ -187,7 +187,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
     /// <reference path="xrm.d.ts" />
     function brErrorCallback(sb) {
     // Add custom error handeling here if desired.
-     return:
+     return;
     function brWarningCallback(sb) {
     // Add custom warning handeling here if desired.
     return;
