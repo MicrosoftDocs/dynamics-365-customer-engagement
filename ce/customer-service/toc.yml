@@ -474,7 +474,7 @@
         items: 
         - name: Configure a custom messaging channel
           href: configure-custom-channel.md
-      - name: Asynchronous channel support
+      - name: Live chat and asynchronous channel support
         href: asynchronous-channels.md
     - name: Agent experience
       items: 

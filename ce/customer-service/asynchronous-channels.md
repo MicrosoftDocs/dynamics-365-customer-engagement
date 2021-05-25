@@ -23,14 +23,16 @@ The following table lists the cards that are supported across different channels
 | Microsoft Teams  | ✔      | ✔     |  ✔   | ✔  | ✖  | ✔  |
 | Facebook  | ⚠🔶  | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
 | LINE    | ⚠🔶 | ✔ | ✔   | ✔ | 🌐  | ✔|
-|live chat | ✔ | ✖  |  |  ✔   |  ✖  | ✔ |
+|live chat | ✔ | ✖  | ✔ |  ✔   |  ✖  | ✔ |
 | Custom (Telegram)  | ⚠🔶 | ✔ | ✔ | ✔ | 🌐 | ✔ |
-| Custom (Direct Line) | ✔ | ✔ |  ✔ | ✔ | ✔  | ✔* |
+| Custom (Direct Line) | ✔ | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card that varies by channel.
 
-⚠: Partial support; card might not be displayed at all if it contains inputs or buttons and varies by channel.
+⚠: Partial support; card might not be displayed at all if it contains inputs or buttons and varies by channel. 
+
+✔* : Card elements are supported in the Webchat version of Custom (Direct Line), but not in the Android version.
 
 ✖: No support.
 
@@ -61,6 +63,7 @@ Suggested actions are supported fully with the exception that some channels migh
 | WeChat             | No                              |
 | WhatsApp           | No                              |
 | SMS                | No                              |
+| Live chat          | Yes                             |
 | Custom messaging (Telegram) | Yes                    |
 | Custom messaging (Direct Line) | Yes                 |
 
