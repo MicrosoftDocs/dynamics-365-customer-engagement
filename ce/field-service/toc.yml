@@ -130,6 +130,8 @@
       href: set-up-time-groups.md
     - name: Booking rules
       href: set-up-booking-rules.md
+    - name: Edit work hours calendar with APIs
+      href: field-service-work-hours-calendar-api.md
     - name: Analytics dashboard
       href: scheduling-analytics-reports.md
   - name: Scheduling
