@@ -21,13 +21,11 @@ search.app:
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-
 ::: moniker range="dynamics-usd-4.2"
 
 ## What's new in Unified Service Desk 4.2
 
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
-
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
@@ -48,7 +46,6 @@ Also, administrators will be able to perform the following:
 
 More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
 
-
 ### Recover an Edge WebView2 process instance
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Edge WebView2 Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
@@ -65,7 +62,7 @@ By default, the Edge WebView2 process instance pooling is enabled.
 
 With the Edge WebView2 process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
-::: moniker-end 
+::: moniker-end
 
 ::: moniker range="dynamics-usd-4.1"
 
@@ -93,7 +90,6 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 - Single sign-on feature enabled by default. More information: [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
 
 - Special characters supported in Unified Service Desk. More information: [Enable the encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-the-encoding-and-escaping-of-special-characters).
-
 
 ## What's new in Unified Service Desk 4.1
 
@@ -159,7 +155,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administer and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
-The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
+The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
@@ -180,7 +176,7 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
 
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
 ### Web Client - Unified Interface Migration Assistant
 The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
@@ -204,7 +200,6 @@ Your service agents can use the **Unified Interface KM Control** hosted control 
 ### Unified Blue theme for Unified Service Desk
 
 The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
-
 
 ### Unified Service Desk Administrator App
 
@@ -255,7 +250,6 @@ The categories against which [!INCLUDE[pn-best-practices-analyzer](../../include
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available for the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] versions.
 
-
 |                                                                                                                                          [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version                                                                                                                                          |                                                                                                                                                      Availability                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                                                                                                                          [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]                                                                                                                                          |                                                                                                  Available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web client demo package.                                                                                                  |
@@ -302,7 +296,6 @@ In this case, you hold the responsibility to delete the Diagnostic log files.
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Comply with General Data Protection Regulation (GDPR)](../admin/comply-gdpr.md) and [Unified Service Desk data compliance under GDPR](../admin/comply-unified-service-desk-data-gdpr.md)
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]
-
 
 ### Performance enhancement for CRM page loads
 
@@ -400,11 +393,10 @@ These are the limitations:
 ::: moniker-end
 
 ## See also  
- [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)     
+ [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)  
 
- [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   
+ [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)  
 
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
