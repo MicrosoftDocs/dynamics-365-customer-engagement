@@ -20,7 +20,7 @@ When an agent sends (*outbound*) a formatted message with markdowns to a bot, th
 > To be able to use markdowns in your custom messaging channels, your administrator must enable the markdown settings under **Agent experience** in Omnichannel Administration or the Omnichannel admin center app. More information: [Enable agents to turn on markdowns](enable-markdowns.md)
 
 ## Format for the markdowns
-The following table lists the markdown formats used by the inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot). 
+The following table lists the markdown formats used by the inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
 <!--
 | Style | Example | Markdown | XML (HTML) |
 | --- | --- | --- | --- |
@@ -28,18 +28,18 @@ The following table lists the markdown formats used by the inbound messages rece
 |
 -->
 
-| Style | Inbound | Outbound | Example |
+|Style |Inbound |Outbound |Example |
 | --- | --- | --- | --- |
-| bold | **text** | **text** | *text* |
-| italic | _text_ | _text_ | *text* |
-| strikethrough | ~text~ | ~text~ | ~~text~~ |
-| header (levels 1&ndash;4) | <ul> <li> # header1 </li> <li> ## header2 </li><li> ### header3 </li><li> #### header4 </li></ul> | <ul> <li> # header1 </li> <li> ## header2 </li><li> ### header3 </li><li> #### header4 </li></ul> | **Heading Text 3** </li></ul> 
+| bold | \*bold\* | \*bold\* | **text** |
+| italic | \_italics\_ | \_italics\_ | *text* |
+| strikethrough | ~strikethrough~ | ~strikethrough~ | ~~text~~ |
+| header (levels 1&ndash;4) | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
 | link | `https://www.microsoft.com` [link]`(https://www.microsoft.com)`  | `https://www.microsoft.com` [link]`(https://www.microsoft.com)`| <https://www.microsoft.com>|
-| monospace | ```\ntext\n```  |```\ntext\n```  | ```text```
+| monospace | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
 
 For inbound messages, set the markdown text to the Activity text field.
- 
-For outbound messages, the markdown text will be received in the Activity text field (similar to a normal message). 
+
+For outbound messages, the markdown text will be received in the Activity text field (similar to a normal message).
 
 ### See also
 
