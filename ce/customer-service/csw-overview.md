@@ -207,17 +207,17 @@ class OCAppUtility extends AppModuleUtility {
 
 - Run one of the following commands at the console window:
 
-   - For Customer Service workspace:
+  - For Customer Service workspace:
 
-        `CSWAppUtility.setMultisessionNavigationImprovementsSetting();` 
+   `CSWAppUtility.setMultisessionNavigationImprovementsSetting();` 
 
-   - For Omnichannel for Customer Service:
+  - For Omnichannel for Customer Service:
 
-        `OCAppUtility.setMultisessionNavigationImprovementsSetting();`
+   `OCAppUtility.setMultisessionNavigationImprovementsSetting();`
 
-   - For both the multisession apps:
+  - For both the multisession apps:
 
-        `AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);`
+   `AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);`
 
 > [!NOTE]
 > To turn off the navigation settings, run the command by using the `false` option.
