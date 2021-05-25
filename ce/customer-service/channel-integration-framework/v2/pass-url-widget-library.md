@@ -18,7 +18,7 @@ ms.custom:
 
 ## See also
 
-[Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
+[Configure a channel provider for your Dynamics 365 organization](./configure-channel-provider-app-profile-manager.md)
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
 

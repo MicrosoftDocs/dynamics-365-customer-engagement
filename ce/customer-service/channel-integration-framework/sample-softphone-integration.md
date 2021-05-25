@@ -22,7 +22,7 @@ ms.custom:
 > [!Important]
 > - This sample code currently has limited availability.
 > - The sample code for softphone integration with Dynamics 365 using Dynamics 365 Channel Integration Framework is made available so customers can get early access and provide feedback. The sample code is not meant for production use and may have limited or restricted functionality.
-> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](https://go.microsoft.com/fwlink/p/?LinkId=511446).
+> - Microsoft doesn't provide support for this sample code for production use and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. This is subject to [supplemental terms of use](../../legal/supp-dynamics365-preview.md).
 
 ## Prerequisites
 

@@ -23,7 +23,7 @@ search.app:
 For any customer service team, it’s important to give customers the right information at the right time. After your administrator sets up knowledge management for your organization, you can search for articles while working on a customer’s case or other records in Dynamics 365 Customer Service, give customers accurate and consistent information, and also redirect frequently-asked questions. With rich knowledge at your fingertips, you’re likely to spend less time finding information, potentially reducing issue handling time and increasing customer satisfaction.
   
 > [!IMPORTANT]
-> [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base as a knowledge management solution has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> [!INCLUDE[pn_parature](../includes/pn-parature.md)] knowledge base as a knowledge management solution has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
  You’ll see knowledge articles residing either in Dynamics 365 Customer Service. 
   

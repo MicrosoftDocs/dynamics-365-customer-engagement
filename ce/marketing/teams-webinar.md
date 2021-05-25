@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 01/21/2021
+ms.date: 05/18/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -113,6 +113,9 @@ The **Teams check-in** button generates a unique attendee URL for each registran
 
 > [!IMPORTANT]
 > Because the **Teams check-in** button generates a unique URL for each registrant, anyone who selects the **Teams check-in** button from a forwarded email will not be able to check in to the event.
+
+> [!TIP]
+> If an attendee selects the **Teams check-in** button *more than 30 minutes* before the event starts, the check-in **will not** be created. This is a hard-coded feature to prevent accidental check-ins when a recipient tests the link after they receive the email.
 
 **To create a Teams check-in button**:
 

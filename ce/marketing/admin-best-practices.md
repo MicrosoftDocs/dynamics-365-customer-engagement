@@ -32,7 +32,7 @@ This document discusses some of the key elements for managing Marketing, focusin
 Dynamics 365 Marketing has a different licensing model than other Dynamics 365
 applications. You can find more details about the Marketing licensing model in
 [How to Purchase](purchase-setup.md#how-to-purchase-dynamics-365-marketing)
-and [Marketing Contacts Purchase](setup-troubleshooting.md#how-is-dynamics-365-marketing-licensed), as well as in the [Dynamics 365 Licensing guide](https://download.microsoft.com/download/9/6/7/96706B15-1CBE-47B7-AB9E-6BC31A377BBB/Dynamics%20365%20Licensing%20Guide%20-%20Feb%202020.pdf). Some important aspects of Marketing’s licensing model are:
+and [Marketing Contacts Purchase](setup-troubleshooting.yml#how-is-dynamics-365-marketing-licensed-), as well as in the [Dynamics 365 Licensing guide](https://download.microsoft.com/download/9/6/7/96706B15-1CBE-47B7-AB9E-6BC31A377BBB/Dynamics%20365%20Licensing%20Guide%20-%20Feb%202020.pdf). Some important aspects of Marketing’s licensing model are:
 
 - You do not purchase user licenses of Marketing. You purchase the Marketing app and bundles of marketing contacts.
 - One Marketing app license permits deployment on only one Dynamics 365 environment. The environment could be a sandbox or production. Deploying on multiple Dynamics 365 environments requires multiple Marketing app licenses.

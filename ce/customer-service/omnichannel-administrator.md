@@ -30,9 +30,8 @@ You can view the entities in the **Omnichannel Administration** site map.
 
 ## In this section
 
-- [Understand unified routing and work distribution](unified-routing-work-distribution.md)
-- [Scenario walk-through of unified routing and work distribution](unified-routing-work-distribution.md#scenario-walk-through-of-unified-routing-and-work-distribution)
-- [Understand and create work streams](work-streams-introduction.md)
+- [Understand routing and work distribution](unified-routing-work-distribution.md)
+- [Understand and create work streams](create-workstreams.md)
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
