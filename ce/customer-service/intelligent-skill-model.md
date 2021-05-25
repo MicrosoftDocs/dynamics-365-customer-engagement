@@ -33,6 +33,8 @@ Perform the steps in this section to set up the intelligent skill finder model. 
 7. Select **Train model**, and select **Train model** on the confirmation dialog box.
 8. After the status changes to training completed, select the rows that you want to publish, and select **Publish model**. The skills model is ready for use.
 
+You should retrain your model iteratively to improve the model with new data in Microsoft Dataverse. For example, New data would be created when agents update the skills for records or conversations.
+
 ### Use training data imported from Excel file
 
 If you don't have data to train your model, you can populate skills and attributes data in Excel files and upload them to the application by using the import feature of Microsoft Dataverse.

@@ -4,7 +4,7 @@ description: "Learn about the skill-based routing in Omnichannel for Customer Se
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/10/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -37,21 +37,9 @@ Skill-based routing allows you to easily match the conversation to the agent mos
 
 - Faster conversation resolution.
 
-
 ## Prerequisites
 
-- You must use the latest version of Omnichannel for Customer Service.
 - If your environment has scheduling solutions, then it must be version 9.0.0.0 or later.
-
-## Skill-based routing overview steps
-
-The steps to configure skill-based routing are as follows:
-  
-- [Step 1: Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model)
-- [Step 2: Create skill type](setup-skills-assign-agents.md#create-skill-type)
-- [Step 3: Create skills](setup-skills-assign-agents.md#create-skills)
-- [Step 4: Assign agents to skill](setup-skills-assign-agents.md#assign-agents-to-skill)
-- [Step 5: Create rules to attach skill](assignment-methods.md)
 
 ## Videos
 
