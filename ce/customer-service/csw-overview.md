@@ -53,57 +53,65 @@ The following table displays the elements of the Customer Service workspace.
 
 By default, you can use the following navigation options to open and view cases, accounts, and other details on the Customer Service Agent Dashboard:
 
-- Select Shift + mouse click to open a new session tab for the record you want to open. 
-- Selecting the record replaces your view with the form for the record you opened. 
+- Select Shift while clicking to open a new session tab for the record you want to open. 
+- Select the record to replace your view with the form for the record you opened. 
 - Select the back arrow in the upper-left corner of the form to get back to your previous view. 
-- Select Ctrl + mouse click to open items in a new tab. 
+- Select Ctrl while clicking to open items on a new tab. 
 
-However, the administrator can configure settings that allow for simpler navigation options that doesn't require agents to use complex keyboard selections. Perform the steps in the Simplify navigation in Customer Service workspace section to enable the settings. 
+However, an administrator can configure settings that allow for simpler navigation options that don't require you to use complex keyboard selections. The administrator can perform the steps in the following section to enable these settings. 
 
-### Simplify navigation in Customer Service workspace
+### Use simplified navigation
 
-You can use the utility listed in this section to simplify navigation for agents when they work on cases in Dynamics 365 Customer Service workspace. The agents will be able to do the following actions with the **Home** and **Global search** options in a new session or an existing session.
+When an administrator enables simplified navigation, the navigation options will have the following characteristics.
 
-**Home**
+- From the **Home** session, you can select a record in the following ways and open it as a new session (you'll see the records you opened on the left pane):
 
-The records that you open are stacked in the left navigation pane. From the home session, you can open a record in the following ways and launch it as a new session.
+  - Select a record in a view to open the record in a new session.
+  - Select a record in a dashboard to open the record in a new session.
+  - Select a record from a queue to open the record in a new session.
+  - Create a new record in a view&mdash;select **New** to open the entity form in a new session.
 
-- Open a record from a view to launch the record in a new session.
-- Open a record from a dashboard to launch the record in a new session.
-- Open a record from a queue to launch the record in a new session.
-- Create a new record from view by selecting **New** to launch the entity form in a new session.
+- When you use global search, you can:
 
-**Global search**
+  - Search records and open a list of all the retrieved records on a new tab. 
+  - Search for and select a record from the Home session and open the record in a new session. 
+  - Search for and select a record from an existing session and open the record on a new tab.
 
-- Search records using global search to launch a list of all the retrieved records in a new tab. 
-- Open a record from **Home** using global search to launch the record in a new session. 
-- Open a record from an existing session using global search to launch the record in a new tab.
+- In a session that's already open, you'll be able to use the following navigation to open records or search for them:
 
-**Session**
+  - Select a related record from a form in a session to automatically open the record on a new tab within the same session.
+  - Select a related record from the timeline to automatically open the record on a new tab within the same session.
+  - Create a record from the timeline to automatically open the entity form on a new tab in the same session.
+  - Select **New** to create a new record from a form to open the entity form in a new session.
 
-In an already open session, the agents will be able to use the following navigation to open or search for records.
 
-- Open a related record from a form in a session to automatically launch the record in a new tab within the same session.
-- Open a related record from the timeline to automatically launch the record in a new tab within the same session.
-- Create a record from the timeline to automatically launch the entity form in a new tab in the same session.
-- Select **New** to create a new record from a form to launch the entity form in a new session.
+- Selecting a record or session that's already open sets focus to the open session, instead of opening the session or record multiple times.
 
-**Focus**
+- Selecting Shift while clicking overrides the new, simplified navigation  and opens the record in a new session. Selecting Ctrl while clicking overrides the simplified navigation and opens the record on a new tab.
 
-When you select a record or session that is already open, sets focus to the open session instead of opening the session or record multiple times.
+**To explore simplified navigation after it's configured**
 
-**Hotkeys**
+1. Open Customer Service workspace.
 
-Select shift + click to override the default navigation and open the record in a new session. Select ctrl + click to override the default navigation and open the record in a new tab.
+2. On the Customer Service Agent Dashboard, perform the following actions:
+
+   - Select a case. The case record opens on a session tab.
+   - Select the customer in the case. The customer record opens on an application tab.
+   - Select a customer in the list on the dashboard. The customer record opens on the session tab.
+
+
+### Admin: Configure the simplified navigation experience
 
 > [!IMPORTANT]
-> You must have the System Administrator role to run the utility.
+> You must have the System Administrator role to run this utility.
 
-Perform the following steps to configure the navigation:
+**To copy the code for the utility**
 
-1. Sign into Dynamics 365.
-2. Press the f12 key to open the developer tools.
-3. Copy the following code and paste it in the **Console** tab of the developer tools to run the utility that manages app settings.
+1. Sign in to Dynamics 365.
+
+1. Select **F12** to open the developer tools.
+
+1. Copy the following code, and paste it on the **Console** tab of the developer tools.
 
 ```
 /**
@@ -193,28 +201,27 @@ class CSWAppUtility extends AppModuleUtility {
 class OCAppUtility extends AppModuleUtility {
     static app = "OmniChannelEngagementHub"; 
 }
-```
-4. Run one of the following commands at the console to update the navigation settings.
+   ```
 
-   - **For Customer Service workspace:**
+**To turn on the simplified navigation settings**
 
-        CSWAppUtility.setMultisessionNavigationImprovementsSetting(); 
+- Run one of the following commands at the console window:
 
-   - **For Omnichannel for Customer Service app:**
+  - For Customer Service workspace:
 
-        OCAppUtility.setMultisessionNavigationImprovementsSetting();
+   `CSWAppUtility.setMultisessionNavigationImprovementsSetting();` 
 
-   - **For both the multisession apps:**
+  - For Omnichannel for Customer Service:
 
-        AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);
+   `OCAppUtility.setMultisessionNavigationImprovementsSetting();`
 
-    > [!NOTE]
-    > To turn off the navigation setting, you can run one of the commands by using the "false" option.
+  - For both the multisession apps:
 
-5. Open Customer Service workspace and do one or more of the following actions on the Customer Service Agent Dashboard to explore the simplified navigation:
-   - Select a case. The case record opens in a session tab.
-   - Select the customer in the case. The customer record opens in a application tab.
-   - Select a customer in the list on the dashboard. The customer record opens in the session tab.
+   `AppSettingUtility.updateAppSetting('msdyn_MultisessionNavigationImprovements', true);`
+
+> [!NOTE]
+> To turn off the navigation settings, run the command by using the `false` option.
+
 
 ### Work with cases
 
