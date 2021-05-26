@@ -95,17 +95,14 @@ For other device manufacturers, please email Dynamics 365 Mobile Support dynmobi
 
 
 ## Error message: This record is unavailable
- If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
+If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
  
-## Power Automate Flow menu opens a blank Login to Flow screen on iOS 14 
-
-If you encounter a blank **Login to Flow** page when using the Power Automate Flow menu in the mobile app, enable **Allow Cross-Website Tracking** in **iOS Settings** > **Power Apps** and open the app again. 
+## Power Automate Flow menu opens a blank login to Flow screen on iOS 14 
+If you get a blank **Login to Flow** screen when using the Power Automate Flow menu in Power Apps mobile, then go to **iOS Settings** > **Power Apps** and enable **Allow Cross-Website Tracking**. When you're done, open the app again. 
 
 ## Flows created in a solution is not supported 
 The Flow action menu in Dynamics 365 for phones and tablets app doesn't support flows created in a solution.
 
-
-  
 ### Admin instructions to resolve the issue
 
 If you're an admin, you can avoid users getting this error by making sure all mobile users have access to the sales dashboard:  
