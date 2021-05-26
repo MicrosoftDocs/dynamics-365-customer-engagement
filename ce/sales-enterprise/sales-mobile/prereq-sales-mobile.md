@@ -19,7 +19,7 @@ Before field sellers can use the Dynamics 365 Sales mobile app, you must ensure 
 
 - To get the optimal mobile experience:
     - It is recommended to enable relevance search for the environment. More information: [Configure relevance search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization)
-    - It is recommended to have Exchange Online environment.
+    - It is recommended to have Exchange Online.
 - To set a regarding record for a meeting, you must enable server-side synchronization in your environment. More information: [Server-side synchronization](/power-platform/admin/server-side-synchronization).
 -	The mobile app users must have the following permissions:   
     -	Read permission for [Organization Entity](../../customerengagement/on-premises/developer/entities/organization.md).
