@@ -151,7 +151,7 @@
         - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
         - name: Enable agents to update skills
-          href: enable-skill-routing-create-rating-model.md
+          href: allow-agents-update-skills.md
         - name: Set up skill finder model
           href: intelligent-skill-model.md
         - name: Set up skill-based routing in Omnichannel Administration

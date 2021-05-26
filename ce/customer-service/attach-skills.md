@@ -131,7 +131,7 @@ To attach skills, you need a workstream record. You can either create or use an 
 ### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
+[Allow agents to update skills](allow-agents-update-skills.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 
 

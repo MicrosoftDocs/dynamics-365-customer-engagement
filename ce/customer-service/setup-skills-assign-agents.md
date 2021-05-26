@@ -142,7 +142,7 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 4. Select an agent name for the **User (Agent)** field. Only the name of the agents who are added as Bookable Resources appears in drop-down.
 
-5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. To learn more, see [Rating value of skills](enable-skill-routing-create-rating-model.md#rating-value-of-skills).
+5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. To learn more, see [Rating value of skills](#rating-value-of-skills).
 
 6. Select **Save and Close**. The agent you added is displayed in the grid.
 
@@ -158,8 +158,6 @@ Alternatively, you can also add a skill to the user (agent). To learn more, see 
 ## See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
-[Attach skills to conversation](attach-skills.md)  
 [Manage users](users-user-profiles.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
