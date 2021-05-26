@@ -73,7 +73,7 @@
       - name: Add products to a quote, order, or invoice
         href: add-product-quote-order-invoice-sp.md
       - name: Add products to a quote, order, or invoice by using the enhanced experience
-      - href: add-products-qoi-enhanced-sp.md
+        href: add-products-qoi-enhanced-sp.md
     - name: Set up a product catalog
       items: 
       - name: Create products
@@ -179,7 +179,7 @@
     - name: Customize the Opportunity Close form
       href: customize-opportunity-close-experience-sales-professional.md
     - name: Customize the Add Products dialog box
-    - href: customize-add-products-dialog-box-sp.md
+     href: customize-add-products-dialog-box-sp.md
     - name: Customize the Dynamics 365 Sales Professional app
       href: manage-app.md
   - name: Integrations
