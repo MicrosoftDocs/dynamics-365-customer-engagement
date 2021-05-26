@@ -55,7 +55,7 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
- [Customize quick campaign form using marketingformdisplayattributesset Web API](../sales-enterprise/developer/marketingformdisplayattributessetApi.md)
+ [Customize quick campaign and campaign activity distribution forms](../sales-enterprise/developer/marketingformdisplayattributessetApi.md)
  
 
 

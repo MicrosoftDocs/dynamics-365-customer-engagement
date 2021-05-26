@@ -446,7 +446,7 @@
         href: ../sales-enterprise/developer/reference/custom-actions/events-context.md
     - name: In-app marketing
       items: 
-      - name: Customize quick campaign form using marketingformdisplayattributesset Web API
+      - name: Customize quick campaign and campaign activity distribution forms
         href: ../sales-enterprise/developer/marketingformdisplayattributessetApi.md        
     - name: Custom actions
       items: 
