@@ -208,6 +208,10 @@
     href: mobile-power-app-workflows.md
   - name: Intune mobile app management
     href: mobile-power-app-intune.md
+  - name: Deep link
+    href: mobile-powerapp-deeplink.md
+  - name: Add a custom app module to the mobile app
+    href: mobile-powerapp-copy-app-module.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
   - name: FAQs
