@@ -1,7 +1,7 @@
 ---
 title: Prerequisites for the Dynamics 365 Sales mobile app
 description: Learn about the prerequisites for the Dynamics 365 Sales mobile app
-ms.date: 05/05/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -17,7 +17,9 @@ Field sellers spend a lot of time on the road, traveling to meet customers. "On-
 
 Before field sellers can use the Dynamics 365 Sales mobile app, you must ensure that the following prerequisites are met:
 
-- To get the optimal mobile experience, it is recommended to enable relevance search for the environment. More information: [Configure relevance search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization)
+- To get the optimal mobile experience:
+    - It is recommended to enable relevance search for the environment. More information: [Configure relevance search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization)
+    - It is recommended to have Exchange Online environment.
 - To set a regarding record for a meeting, you must enable server-side synchronization in your environment. More information: [Server-side synchronization](/power-platform/admin/server-side-synchronization).
 -	The mobile app users must have the following permissions:   
     -	Read permission for [Organization Entity](../../customerengagement/on-premises/developer/entities/organization.md).
