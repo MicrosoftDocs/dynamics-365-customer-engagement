@@ -50,4 +50,4 @@ OData-Version: 4.0
 
 [Create a quick campaign using in-app marketing (Sales)](../create-quick-campaign-using-app-marketing-sales.md)
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
