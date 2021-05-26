@@ -125,11 +125,11 @@
         - name: Configure work classification rulesets for unified routing
           href: configure-work-classification.md
         - name: Set up routing and assignment rules in Omnichannel Administration
-          href: routing-rules.md  
+          href: routing-rules.md
       - name: Configure work assignment
         items:
         - name: Configure assignment methods for queues
-          href: assignment-methods.md     
+          href: assignment-methods.md
       - name: Set up record routing
         items: 
         - name: Set up unified routing for records

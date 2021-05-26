@@ -15,15 +15,11 @@ ms.service: dynamics-365-customerservice
 
 By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model.
 
-## Allow agents to update skills
-
 Perform the following steps to enable the setting that'll allow agents to update skills for a work item.
 
 1. Sign in to Dynamics 365.
 
-2. Do one of the following depending on the app you're using:
-   - In Omnichannel admin center, in the site map, select **User attributes**, and then select **Manage** beside **Skill-based routing**.
-   - In Customer Service Hub, in the site map, select **User attributes** under **Unified Routing**, and then select **Manage** beside **Skill-based routing**.
+2. In Omnichannel admin center or in Customer Service Hub, in the site map, select **User attributes**, and then select **Manage** beside **Skill-based routing** on the **User attributes** page.
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 
