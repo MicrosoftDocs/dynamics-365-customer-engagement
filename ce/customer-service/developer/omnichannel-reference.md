@@ -1,12 +1,11 @@
 ---
 title: "Live chat SDK JavaScript API Reference| Microsoft Docs"
 description: ""
+ms.date: 07/01/2019
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Live chat SDK JavaScript API Reference
 

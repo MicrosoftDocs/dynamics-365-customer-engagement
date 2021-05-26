@@ -1,11 +1,10 @@
 ---
 title: "FAQs on activity monitor for creating records automatically | Microsoft Docs"
 description: "This topic shares answers to commonly asked questions about automatic record creation and activity monitoring in Dynamics 365 Customer Service."
-author: neeranelli
-ms.author: nenellim
 ms.date: 04/23/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: neeranelli
+ms.author: nenellim
 ms.reviewer: nenellim
 ---
 

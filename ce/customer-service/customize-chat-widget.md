@@ -1,12 +1,11 @@
 ---
 title: "Customize chat widgets using data tags | Microsoft Docs"
 description: "Read how you can customize chat widgets by using data tags on the chat widget script"
+ms.date: 04/09/2021
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Customize a chat widget using data tags
 

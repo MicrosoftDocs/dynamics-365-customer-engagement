@@ -2,7 +2,6 @@
 title: "Get started using Dynamics 365 Sales Professional"
 description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
 ms.date: 12/09/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

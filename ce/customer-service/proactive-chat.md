@@ -1,12 +1,11 @@
 ---
 title: "Configure proactive chat | MicrosoftDocs"
 description: "Learn how to configure proactive chat in Omnichannel for Customer Service."
+ms.date: 05/06/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/06/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Configure proactive chat

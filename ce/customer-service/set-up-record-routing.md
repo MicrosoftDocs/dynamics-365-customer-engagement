@@ -1,12 +1,11 @@
 ---
 title: "Set up record routing | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
+ms.date: 05/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Set up record routing

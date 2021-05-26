@@ -1,14 +1,11 @@
 ---
 title: Schedule a service activity | Microsoft Docs
 description: How to schedule a service activity in the Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Use the Service Schedule Activity form to schedule a service activity

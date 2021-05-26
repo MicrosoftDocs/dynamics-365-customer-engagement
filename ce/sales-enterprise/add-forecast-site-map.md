@@ -2,7 +2,6 @@
 title: "Add the forecast grid and configuration options in a site map (Dynamics 365 Sales) | MicrosoftDocs"
 description: "How to add the forecast grid and configuration options in a site map in Dynamics 365 Sales."
 ms.date: 12/13/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag

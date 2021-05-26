@@ -1,12 +1,11 @@
 ---
 title: "Customer Service workspace system requirements | MicrosoftDocs"
 description: "Learn about the system requirements for Customer Service workspace."
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Customer Service workspace system requirements

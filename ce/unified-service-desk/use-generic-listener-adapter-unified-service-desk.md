@@ -1,20 +1,19 @@
 ---
 title: "Use the generic listener adapter in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use generic listener adapter that can be used as a testing tool for integrating Unified Service Desk with the CTI middleware applications that have the ability to open a URL on the user's computer when a CTI event occurs."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use the generic listener adapter in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a generic listener adapter that can be used as a testing tool for integrating [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] with the [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] middleware applications that have the ability to open a URL on the user's computer when a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] event occurs. The generic listener adapter listens for HTTP request on a known port (5000): `https://localhost:5000/`  

@@ -3,7 +3,6 @@ title: Configure tables for quick creation of records and activities in the Dyna
 description: Learn to configure tables for quick creation of records and activities in the Dynamics 365 Sales mobile app.
 ms.date: 05/04/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

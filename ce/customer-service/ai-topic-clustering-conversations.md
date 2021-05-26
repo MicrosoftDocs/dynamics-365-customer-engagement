@@ -1,12 +1,11 @@
 ---
 title: "Configure AI topic clustering for conversations | MicrosoftDocs"
 description: "Configure topic cLustering for conversations using AI"
+ms.date: 04/09/2021
+ms.topic: article
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure AI topic clustering for conversations

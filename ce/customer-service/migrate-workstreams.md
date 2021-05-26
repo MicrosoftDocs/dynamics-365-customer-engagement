@@ -1,12 +1,11 @@
 ---
 title: "Migrate workstreams | MicrosoftDocs"
 description: "Use the migration tool to migrate workstreams to enable them for unified routing"
+ms.date: 05/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Migrate workstreams created in Omnichannel Administration

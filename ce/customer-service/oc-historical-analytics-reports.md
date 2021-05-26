@@ -1,12 +1,11 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
+ms.date: 10/22/2020
+ms.topic: article
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 10/22/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure Omnichannel historical analytics reports

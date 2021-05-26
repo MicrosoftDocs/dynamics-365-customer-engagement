@@ -1,12 +1,11 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
 description: "Instructions to set up quick replies in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create quick replies

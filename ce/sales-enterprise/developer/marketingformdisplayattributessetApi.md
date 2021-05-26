@@ -2,7 +2,6 @@
 title: "Customize quick campaign form using marketingformdisplayattributesset Web API (Dynamics 365 Sales) | MicrosoftDocs"
 description: 
 ms.date: 05/26/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag

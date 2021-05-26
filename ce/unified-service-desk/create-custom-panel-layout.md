@@ -1,20 +1,19 @@
 ---
 title: "Create a custom panel layout | MicrosoftDocs"
 description: "Panel layouts in Unified Service Desk are hosted controls, which provide the ability to load all sorts of different layouts in the system. Unified Service Desk provides some predefined panel layouts for you to use in your agent application."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Create a custom panel layout
 

@@ -2,7 +2,6 @@
 title: "Forecast with multiple data type columns (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Forecast with multiple data type columns"
 ms.date: 10/26/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
