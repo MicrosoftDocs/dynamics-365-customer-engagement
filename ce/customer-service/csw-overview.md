@@ -62,16 +62,16 @@ However, the administrator can configure settings that allow for simpler navigat
 
 ### Simplify navigation in Customer Service workspace
 
-You can use the following utility to simplify navigation for agents when they work on cases in Dynamics 365 Customer Service workspace. The agents will be able to do the following actions with the **Home** and **Global search** options in a new session or an existing session.
+You can use the utility listed in this section to simplify navigation for agents when they work on cases in Dynamics 365 Customer Service workspace. The agents will be able to do the following actions with the **Home** and **Global search** options in a new session or an existing session.
 
 **Home**
 
-From the home session, you can open a record in the following ways and launch it as a new session. You can see the records you open in the left navigation pane.
+The records that you open are stacked in the left navigation pane. From the home session, you can open a record in the following ways and launch it as a new session.
 
 - Open a record from a view to launch the record in a new session.
 - Open a record from a dashboard to launch the record in a new session.
 - Open a record from a queue to launch the record in a new session.
-- Create a new record from view. Selecting **New** to launch the entity form in a new session.
+- Create a new record from view by selecting **New** to launch the entity form in a new session.
 
 **Global search**
 
@@ -90,11 +90,11 @@ In an already open session, the agents will be able to use the following navigat
 
 **Focus**
 
-Selecting a record or session that is already open, sets focus to the open session instead of opening the session or record multiple times.
+When you select a record or session that is already open, sets focus to the open session instead of opening the session or record multiple times.
 
 **Hotkeys**
 
-Selecting Shift +  click overrides the default navigation and opens the record in a new session and selecting Ctrl + click overrides the default navigation and opens the record in a new tab.
+Select shift + click to override the default navigation and open the record in a new session. Select ctrl + click to override the default navigation and open the record in a new tab.
 
 > [!IMPORTANT]
 > You must have the System Administrator role to run the utility.
