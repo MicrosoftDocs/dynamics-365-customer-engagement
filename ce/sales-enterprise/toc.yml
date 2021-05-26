@@ -444,6 +444,10 @@
         href: ../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md
       - name: Events and context objects for underlying records grid
         href: ../sales-enterprise/developer/reference/custom-actions/events-context.md
+    - name: In-app marketing
+      items: 
+      - name: Customize quick campaign form using marketingformdisplayattributesset Web API
+        href: ../sales-enterprise/developer/marketingformdisplayattributessetApi.md        
     - name: Custom actions
       items: 
       - name: Overview
