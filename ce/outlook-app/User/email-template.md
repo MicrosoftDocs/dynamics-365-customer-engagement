@@ -2,7 +2,7 @@
 title: "Add an email template when you create an email message (Dynamics 365 apps) | MicrosoftDocs"
 description: How to add an email template using Dynamics 365 App for Outlook
 ms.custom: 
-ms.date: 02/17/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

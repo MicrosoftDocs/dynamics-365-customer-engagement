@@ -1,39 +1,43 @@
 - name: Overview
   href: overview.md
-- name: What's new with Dynamics 365 App for Outlook
-  href: whats-new.md
-- name: Deploying the app
-  href: deploy-dynamics-365-app-for-outlook.md
-- name: Customizing the app
+- name: System requirements, limits, and configuration
+  href: Support-info-deployment.md
+- name: Supported features
+  href: user/support-matrix.md
+- name: Deploy and customize the app
   items: 
-  - name: Customizing the app
-    href: Customizing-the-app.md
+  - name: Deploy and install the app
+    href: deploy-dynamics-365-app-for-outlook.md
   - name: Set up delegate access
     href: enable-delegate-access.md
   - name: Customize the track regarding card
     href: customize-the-track-regarding-card.md
-  - name: Customize which entities appear in Quick create 
+  - name: Add a table to the quick create menu 
     href: add-a-custom-entity-to-quick-create.md
   - name: Enable activities to use Set Regarding lookup
     href: enable-a-custom-entity-to-appear-in-the-regarding-lookup.md
   - name: Customize the app to auto populate data from an Outlook item to a Quick Create form
     href: auto-populate-data-into-quickcreate.md
-  - name: Expand the fields search on in Regarding lookup
+  - name: Expand the columns which the Set Regarding lookup searches on
     href: search-on-custom-field-regarding-lookup.md
   - name: Filter entities and views that appear in Dynamics 365 App for Outlook
     href: filter-entities-and-views.md
-  - name: Limitations when customizing the app
-    href: limitations-when-customizing-app-for-outlook.md
 - name: Using the app
   items: 
-  - name: Using the app
-    href: dynamics-365-app-outlook-user-s-guide.md
   - name: Basic navigation in App for Outlook
     href: user/basic-navigation.md
-  - name: Link an email message or appointment to a row in Dynamics 365
+  - name: Link and track an email or appointment to a specific row in your app
     href: user/track-message-or-appointment.md
-  - name: FAQs about email tracking
-    href: user/faq-email-tracking.md
+  - name: Track an email or appointment without linking it to a specific row
+    href: user/track-without-set-regarding.md
+  - name: Track appointments from another person in your organization
+    href: user/track-from-another-user.md
+  - name: Use delegate access
+    href: user/use-delegate-access.md
+  - name: Track contacts
+    href: user/track-contacts.md
+  - name: Track tasks
+    href: user/track-a-task.md
   - name: Create a new contact, lead, or account
     href: user/add-email-recipient-as-a-row.md
   - name: Add a phone call, appointment, or task activity
@@ -44,11 +48,17 @@
     href: user/email-template.md
   - name: Add sales literature or a knowledge base article to an email
     href: user/add-literature-or-kb.md
-  - name: Use delegate access
-    href: user/use-delegate-access.md
   - name: Track S/MIME signed emails
     href: user/s-mime-email.md
-- name: Run the checker to troubleshoot issues
-  href: diagnostic-checker.md
-- name: FAQs
-  href: faq.md
+  - name: Remove Dynamics 365 App for Outlook  
+    href: user/remove-outlook-app.md
+- name: FAQs, troubleshoot, and limitations
+  items: 
+  - name: Run the checker to troubleshoot issues
+    href: diagnostic-checker.md
+  - name: Limitations when customizing Dynamics 365 App for Outlook
+    href: limitations-when-customizing-app-for-outlook.md
+  - name: Troubleshoot and FAQs about Dynamics 365 App for Outlook
+    href: faq.md
+  - name: FAQs about email tracking
+    href: user/faq-email-tracking.md
