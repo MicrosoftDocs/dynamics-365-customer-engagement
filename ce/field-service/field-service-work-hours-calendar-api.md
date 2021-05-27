@@ -34,29 +34,29 @@ Organizations have the need to programmatically create, edit, or delete work hou
 - Usage of one of the following entities: [Bookable Resource](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/bookableresource?view=dynamics-ce-odata-9), [Resource Requirement](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_resourcerequirement?view=dynamics-ce-odata-9), [Work Hour Template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_workhourtemplate?view=dynamics-ce-odata-9), [Project](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_project?view=dynamics-ce-odata-9).
 
 ## Calendar Types
-### Occurrence
+#### Occurrence
 When a [work hour type](##work-hour-types) occurs only once in the entity's calendar, it is called an occurrence.
 
 For example, if a resource working from 5 am to 10 am on 26 May 2021.
 
 This API only supports occurrences that start and end within the same day. Taking another example, one cannot create working hours for an entity from 26 May 2021 8:00 pm to 27 May 2021 10:00 am using just one call of the msdyn_SaveCalendar API. You would need to make two calls instead. See the [example section](##example-scenarios-for-api-usage) for more details. The only exception to this rule is when it is an all-day occurrence. 
 
-### All-Day Occurrence
+#### All-Day Occurrence
 When a work hour type occurs for one or more whole days, starting at 12 am of the start date, it is an all-day occurrence. The maximum period for an all-day occurrence is five years.
 
 For example, if a resource works all day from 26 May 2021 to 30 May 2021.
 
-### Weekly Recurrence
+#### Weekly Recurrence
 When a work hour type occurs at the same times of select days of every week, it is called a weekly recurrence.
 
 For example, if a resource working from 5 am to 10 am every Monday, Tuesday and Wednesday.
 
-### Daily Recurrence
+#### Daily Recurrence
 When a work hour type occurs at the same times of every day, it is called a daily recurrence.
 
 For example, if a resource working from 5 am to 10 am every day of the week.
 
-### Custom Recurrence
+#### Custom Recurrence
 When a work hour type occurs at the same time and day of every week, it is called a custom recurrence. The times across different days can be different.
 
 For example, if a resource working from 5 am to 10 am every Monday and 12 pm to 3 pm every Wednesday.
@@ -64,7 +64,7 @@ For example, if a resource working from 5 am to 10 am every Monday and 12 pm to 
 ## Work Hour Types
 This API supports the create, update, and delete operations of the following work hour types.
 
-### Working Hours
+#### Working Hours
 
 These are times during which an entity is available to perform work.
 <br> Using this API, you can do the following to working hours-
@@ -84,7 +84,7 @@ These are times during which an entity is available to perform work.
 - Create occurrence that spans 24 hours but doesn't start and end at 12:00 am.
 - Create/Edit/Delete an all-day recurrence.
 
-### Non-Working Hour
+#### Non-Working Hour
 
 These are times during which the entity is unavailable to work due to an unspecified reason.
 <br> Using this API, you can do the following to non-working hours-
@@ -95,7 +95,7 @@ These are times during which the entity is unavailable to work due to an unspeci
 <br> Using this API, you _cannot_ do the following to non-working hours-
 - Create/Edit a non-working hour recurrence.
 
-### Break
+#### Break
 These are times in a working day during which an entity is taking a break and is hence unavailable for work. Breaks cannot exist without working hours; they have to be next to two working hours of a day. Breaks cannot overlap with working hours.  
 <br> Using this API, you can do the following to breaks-
 - Create/ Edit breaks on working hours.
@@ -104,7 +104,7 @@ These are times in a working day during which an entity is taking a break and is
 - Delete only breaks from an occurrence or recurrence of working hours.
 
 
-### Time Off 
+#### Time Off 
 These are times during which an entity is unavailable to work due to a vacation. The reason for time off can be specified.
 <br> Using this API, you can do the following to time off-
 -	Create/ Edit time off with a label.
@@ -113,7 +113,7 @@ These are times during which an entity is unavailable to work due to a vacation.
 <br> Using this API, you _cannot_ do the following to time off-
 - Create/Edit a time off hour recurrence.
 
-### Business Closure
+#### Business Closure
 You can [create business closure entities](https://docs.microsoft.com/en-us/dynamics365/customer-service/set-when-business-closed-csh) and during these times, the business is closed. Using the Save Calendar API, every entity can be set to observe or ignore business closure times followed by the organization using the optional [“ObserveClosure”](####calendareventinfo) key. When they are set to observe them, the entity will be unavailable to work due to the holiday.
 
 ## Save Calendar API
@@ -374,14 +374,14 @@ Tim has a 72-hour shift starting 20 May 2021. Debbie uses the msdyn_SaveCalendar
 
 ## Troubleshooting and Errors
 
-1. StartTime cannot be greater or equal to EndTime.
+#### StartTime cannot be greater or equal to EndTime.
 
 Make sure there are no overlaps in the time slots of the different calendar rules. Check the dates to make sure StartTime is not greater than the EndTime. Also check the times - it should follow the 24 hour format. 
 
-3. There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted. -or- Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''.
-Make sure that the string is parsed correctly. There might be missing '\[','\]','{','}',',',':'.  
+#### There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted. -or- Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''.
+Make sure that the string is parsed correctly. There might be missing brackets, commas or semicolons.  
 
-5. Invalid recurrence pattern. Please refer to the documentation for supported patterns.
+#### Invalid recurrence pattern. Please refer to the documentation for supported patterns.
 
 We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include lesser days. However, `FREQ` and `INTERVAL` values cannot be changed. Make sure there are no spaces in the pattern.
 
