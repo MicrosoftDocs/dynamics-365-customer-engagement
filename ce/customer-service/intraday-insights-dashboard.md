@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 The **Omnichannel intraday insights** dashboards provide information about the health and key performance indicators (KPIs) for your organization. Omnichannel intraday insights consists of the following reports.
 
-- [IntradayMonitoring](#IntradayMonitoring)
+- [IntradayMonitoring](#intradaymonitoring)
 - [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
