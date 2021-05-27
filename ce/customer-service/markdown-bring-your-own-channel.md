@@ -8,25 +8,26 @@ ms.date: 05/28/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
-# How markdowns work in custom messaging channels
+# Preview: How markdowns work in custom messaging channels
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!IMPORTANT]
+>
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
+> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 Omnichannel for Customer Service lets you send and receive messages with markdowns across custom messaging channels. As a developer, understanding how the markdowns are passed through and knowing their format will help you update the HTML styling and tags in your own user interface.
 
 When an agent sends (*outbound*) a formatted message with markdowns to a bot, the Direct Line Bot receives the markdowns in a certain format. Now, if a bot receives (*inbound*) a formatted message from its customer or the customer's bot, it must be able to appropriately interpret the message with the markdowns. As a developer, you will need to know how to mark down appropriately so that the message is formatted correctly for your agents and customers.
 
 > [!NOTE]
-> To be able to use markdowns in your custom messaging channels, your administrator must enable the markdown settings under **Agent experience** in Omnichannel Administration or the Omnichannel admin center app. More information: [Enable agents to turn on markdowns](enable-markdowns.md)
+> To be able to use markdowns in your custom messaging channels, your administrator must enable the markdown settings under **Agent experience** in Omnichannel Administration or the Omnichannel admin center app. More information: [Enable agents to format messages in Omnichannel for Customer Service](asynchronous-channels.md)
 
 ## Format for the markdowns
 The following table lists the markdown formats used by the inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
-<!--
-| Style | Example | Markdown | XML (HTML) |
-| --- | --- | --- | --- |
-| header (levels 1&ndash;3) | **Text** | `### Text` | `<h3>Text</h3>` |
-|
--->
 
 |Style |Inbound |Outbound |Example |
 | --- | --- | --- | --- |
