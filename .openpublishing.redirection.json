@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/enable-skill-routing-create-rating-model.md",
+      "redirect_url": "allow-agents-update-skills",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/outlook-app/Customizing-the-app.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
