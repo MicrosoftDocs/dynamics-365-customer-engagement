@@ -45,7 +45,7 @@ To configure Exchange, you must have:
 -   Exchange Online subscription
 
 > [!NOTE]
-> Users who need to access the mailboxes in Dynamics 365 must have either Sales Professional Person or Sales Professional Manager security roles.
+> Users who need to access the mailboxes in Dynamics 365 must have either Sales Professional Person or Sales Professional Manager security roles. For information about assigning security roles to users, see [Manage users](manage-users.md#assign-a-security-role-to-a-user).  
 
 For more information about managing subscriptions, see [Manage Microsoft Dynamics 365 (online)
 instances](../admin/backup-restore-instances.md).
@@ -79,7 +79,7 @@ instances](../admin/backup-restore-instances.md).
 
     - Dynamics 365 App for Outlook is automatically enabled for all the users.
 
-5.  If users are already created in your organization, the mailboxes of the users with Sales Professional Person or Sales Professional Manager security roles will appear in the **Mailboxes** list. For more information about adding users and assigning security roles, see [Manage users](manage-users.md).  
+5.  If users are already created in your organization, the mailboxes of the users with Sales Professional Person or Sales Professional Manager security roles will appear in the **Mailboxes** list. 
 
 6. The mailboxes will be in the **Not Run** state initially. Select **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
