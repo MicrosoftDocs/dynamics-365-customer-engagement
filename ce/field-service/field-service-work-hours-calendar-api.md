@@ -1,29 +1,22 @@
 ---
-title: "Save and Delete Calendar | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 05/20/2021
-ms.reviewer: ""
-ms.service: dynamics-365-resourcescheduling
+title: "Edit Work Hour Calendar Using APIs | MicrosoftDocs"
+description: description
+ms.custom:
+- dyn365-fieldservice
+ms.date: 05/24/2021
+ms.reviewer: krbjoran
+ms.service: dynamics-365-customerservice
+ms.topic: article
 ms.suite: ""
-ms.technology: 
-  - "resource-scheduling"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.2.21055"
-author: rikothap
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
-ms.author: FieldServiceDave
-manager: hegate
-search.audienceType: 
-  - admin
-  - customizer
-search.app: 
-  - D365CE
-  - D365FS
+applies_to:
+- "Dynamics 365 (online)"
+- "Dynamics 365 Version 9.x"
+author: FieldServiceDave
+ms.author: daclar
+manager: shellyha
+search.app:
+- D365CE
+- D365FS
 ---
 
 # Edit Work Hour Calendar Using APIs 
