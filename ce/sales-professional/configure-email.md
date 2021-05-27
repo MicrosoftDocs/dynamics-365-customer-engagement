@@ -16,7 +16,8 @@ ms.custom:
 > [!IMPORTANT]
 > This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-To store email and other messaging records in Dynamics 365 Sales Professional, you need to synchronize it with your email system.
+To store email and other messaging records in Dynamics 365 Sales Professional, you need to synchronize it with your email system. Once you configure Exchange and approve mailboxes of users, they can email contacts from the Dynamics 365 records. For example, a seller can email a contact from an opportunity record and track the conversation in the opportunity timeline. This feature helps keep the conversations in context.
+
 
 Dynamics 365 Sales Professional uses server-side synchronization to synchronize your email system with Dynamics 365 Sales.
 
@@ -39,9 +40,12 @@ To configure Exchange, you must have:
 
 -   System Administrator or Sales Professional Manager role
 
--   Microsoft 365 subscription.
+-   Microsoft 365 subscription
 
 -   Exchange Online subscription
+
+> [!NOTE]
+> Users who need to access the mailboxes in Dynamics 365 must have either Sales Professional Person or Sales Professional Manager security roles.
 
 For more information about managing subscriptions, see [Manage Microsoft Dynamics 365 (online)
 instances](../admin/backup-restore-instances.md).
@@ -66,18 +70,21 @@ instances](../admin/backup-restore-instances.md).
     -   Existing user mailboxes that have valid Exchange licenses are automatically approved. Approval of mailboxes is required for the mailbox to process email. The incoming and outgoing email configuration of the selected mailboxes is tested, and mailboxes are then enabled for processing email.
 
         > [!Important]
-        > User mailboxes are automatically approved and enabled only when the primary email of the user is equal to the user's UPN (User Principal Name attribute).      
+        > User mailboxes are automatically approved and enabled only in the following cases:  
+        	- The primary email of the user is the same as the user's UPN (User Principal Name attribute).  
+            - The user is associated with the Sales Professional Person or Sales Professional Manager security role.  
+    
 
-    -  For newly added users, you must manually test and enable the mailboxes.
+    -  For newly added users, manually test and enable the mailboxes.  
 
     - Dynamics 365 App for Outlook is automatically enabled for all the users.
 
-5.  If users are already created in your organization, the mailboxes of the users will appear in the **Mailbox** list. For more information about adding users, see [Manage users](manage-users.md).  
+5.  If users are already created in your organization, the mailboxes of the users with Sales Professional Person or Sales Professional Manager security roles will appear in the **Mailboxes** list. For more information about adding users and assigning security roles, see [Manage users](manage-users.md).  
 
 6. The mailboxes will be in the **Not Run** state initially. Select **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
     > [!div class="mx-imgBorder"]
-    > ![Button to configure Exchange](media/button-configure-exchange.png "Button to configure Exchange")
+    > ![Button to approve and test mailboxes](media/test-approve-mailbox "Button to approve and test mailboxes")
 
     > [!Note]
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select the **Approve and test mailboxes** button to test and approve the mailboxes.
