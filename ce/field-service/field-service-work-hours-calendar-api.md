@@ -123,7 +123,7 @@ The request contains only one attribute – `CalendarEventInfo` and this is of S
 >[!NOTE]
 In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
 
-**CalendarEventInfo**
+####CalendarEventInfo
 | Name     | Type   | Required     | Description |
 | :-------- | :--------- | :--------- | :----- |
 |  EntityLogicalName | String   | Yes   | This key describes the entity from which the API is being called. The calendar of this entity is to be created or edited. |
@@ -146,7 +146,7 @@ In this table below, _Type_ represents the format expected to make a successful 
 |InnerCalendarId|	GUID|	No|	This is an edit specific key. If a rule is being edited, the InnerCalendarId needs to be passed here. |
 |Action	|Integer|	No|	This is custom recurrence specific key. If a custom recurrence is being created or edited, one of the following enums should be entered: (1) Adding a day to the recurrence, (2)	Deleting a day from the recurrence, (3) Editing only the start/ end dates or times, or capacity (4) Editing anything apart from previous keys. Please read the [Custom Recurrence](##CustomRecurrence) section for more information on this.|
 
-**Rules**
+####Rules
 |Name	|Type|	Required|	Description|
 | :-------- | :--------- | :--------- | :------ |
 |StartTime|	DateTime|	Yes|	This key contains a datetime entry of the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). Eg. \"2021-05-15T12:00:00.000Z\". The time portion determines the start time of the work hour in the earlier specified time zone. The date portion determines the start date of the work hour. Here, 15th May 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was “BYDAY=TU,WE”, but 15th May (Saturday) is the date, the API will automatically create/edit rules for all Tuesdays and Wednesdays following 15th May. Each rule doesn’t have to have the date corresponding to the day. 
@@ -163,6 +163,7 @@ This POST API creates/ modifies calendar rule records for the select entity. Add
 
 ## Delete Calendar Contract
 ### Request
+
 |Name |	Type|	Required|	Description|
 |:--|:--|:--|:--|
 |EntityLogicalName|	String|	Yes	|This field describes the entity whose calendar rules are to be deleted.|
@@ -172,6 +173,7 @@ This POST API creates/ modifies calendar rule records for the select entity. Add
 
 ### Response
 This POST API deletes calendar rule records for the select entity. Additionally, it gives the following output.
+
 |Name |	Type|	Description|
 |:--|:--|:--|
 |InnerCalendarIds|	String|	An array of InnerCalendarIds that are a result of the POST operation.|
