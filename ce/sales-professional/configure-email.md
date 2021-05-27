@@ -16,7 +16,7 @@ ms.custom:
 > [!IMPORTANT]
 > This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.
 
-To store email and other messaging records in Dynamics 365 Sales Professional, you need to synchronize it with your email system. Once you configure Exchange and approve mailboxes of users, they can email contacts from the Dynamics 365 records. For example, a seller can email a contact from an opportunity record and track the conversation in the opportunity timeline. This feature helps keep the conversations in context.
+To store email and other messaging records in Dynamics 365 Sales Professional, you need to synchronize it with your email system. Once you configure Exchange and approve mailboxes of users, they can email contacts from the Dynamics 365 records. For example, a seller can email a contact from an opportunity record and track the conversation in the opportunity timeline. This integration helps keep the conversations in context.
 
 
 Dynamics 365 Sales Professional uses server-side synchronization to synchronize your email system with Dynamics 365 Sales.
