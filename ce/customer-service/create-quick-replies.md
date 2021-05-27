@@ -40,8 +40,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | {FirstName{Agent}}| The first name of the agent.|
     | {LastName{Agent}}| The last name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
-
-      For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
+    |||
 
 5. Select **Save**.
 

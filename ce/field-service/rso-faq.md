@@ -31,7 +31,7 @@ If you’re able to see the **Delete Current Deployment** option through the Res
 - Make sure your Dynamics 365 org is NOT in administration mode.
 
   > [!div class="mx-imgBorder"]
-  > ![](media/34ef04527c9cdb67c34a7c64c08bd868.png)
+  > ![Disabling admin mode in Resource Scheduling Optimization](media/disabling-admin-mode.png)
 
 - Check to see that the Resource Scheduling Optimization add-on user has the Resource Scheduling Optimization security role.
 

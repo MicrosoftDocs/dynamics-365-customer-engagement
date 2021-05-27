@@ -3,7 +3,7 @@ title: "Field Service technician service reporting | MicrosoftDocs"
 description: Learn about setting up service reports for Field Service technicians
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/13/2021
+ms.date: 05/21/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -46,7 +46,15 @@ For a guided walkthrough, check out the following video.
 
 1. Download the [reporting solution](https://aka.ms/fsmreporting-solution). 
 2. Import the reporting solution into your environment. The import will install a reporting form, ribbon command, and includes a sample report so you can execute functionality within your environment. We recommend that the solution is imported as a managed solution.
-3. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity.
+
+> [!div class="mx-imgBorder"]
+> ![List of solutions in Dynamics 365.](./media/mobile-2020-service-reports-import.png)
+
+3. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity. Save and publish your changes. 
+
+> [!div class="mx-imgBorder"]
+> ![The app designer showing Field Service Mobile.](./media/mobile-2020-service-reports-enable-form.png)
+
 4. At this point you'll be able to view functionality of the report in your mobile app and evaluate changes necessary for your organization.
 
 ## Create your custom report
