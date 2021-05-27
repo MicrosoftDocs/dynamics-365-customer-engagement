@@ -178,6 +178,39 @@ This POST API deletes calendar rule records for the select entity. Additionally,
 |:--|:--|:--|
 |InnerCalendarIds|	String|	An array of InnerCalendarIds that are a result of the POST operation.|
 
+## How to Call the API
+
+This API can be called by using the browser. Follow the steps to do this -
+1. Open the browser and the org to which you need to make these calendar changes.
+2. Press F12 to open Developer Tools (Ctrl+Shift+I for Edge and F12 for Chrome).
+3. In the console, enter the following function, after replacing [org-name] with org details (for example, http://rstest.crm.dynamics.com):
+
+       function CalendarAction(action, data) {
+           let req = new XMLHttpRequest();
+           req.open("POST", "**[org-name]**/api/data/v9.0/" + action, true);
+           req.setRequestHeader("OData-MaxVersion", "4.0");
+           req.setRequestHeader("OData-Version", "4.0");
+           req.setRequestHeader("Accept", "application/json");
+           req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+           req.setRequestHeader("Prefer", 'odata.include-annotations="*"');
+           req.onreadystatechange = function () {
+               if (this.readyState === 4) {
+                   req.onreadystatechange = null;
+                   if(this.status == 200) {
+                       console.log(JSON.parse(this.response));
+                   } else {
+                       console.error(JSON.parse(this.response));
+                   }
+               }
+           };
+           req.send(JSON.stringify(data));
+       }
+       
+4. Once this function is defined, you can call it to create, edit, or delete calendars using the API. Enter the following call:
+
+        CalendarAction("msdyn_SaveCalendar", {"CalendarEventInfo":"{\"CalendarId\":\"df0857c4-50f5-4576-8e89-   f236670ad2d5\",\"ObjectTypeCode\":1150,\"TimeZoneCode\":92,\"StartDate\":\"2021-04-25T00:00:00.000Z\",\"IsVaried\":false,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-04-25T08:00:00.000Z\",\"EndTime\":\"2021-04-25T17:00:00.000Z\",\"Duration\":540,\"Effort\":1,\"TimeCode\":0,\"SubCode\":1}]}]}"})
+
+See the section below to make different calls based on need. Replace the "action" of the call above with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar` and "data" with the relevant `CalendarEventInfo`.
 
 ## Example Scenarios for API usage
 
@@ -331,6 +364,7 @@ On 26 May, Tim is only able to work from 1:00 pm to 7:00 pm. Debbie uses the msd
 } `
 
 ### Delete a working hour custom recurrence.
+Tim has to delete his entire schedule as he decides to leave the company. Debbie uses the msdyn_DeleteCalendar API here.
 
 **Request**
 >  ` {
@@ -374,14 +408,14 @@ Tim has a 72-hour shift starting 20 May 2021. Debbie uses the msdyn_SaveCalendar
 
 ## Troubleshooting and Errors
 
-#### StartTime cannot be greater or equal to EndTime.
+**StartTime cannot be greater or equal to EndTime.**
 
 Make sure there are no overlaps in the time slots of the different calendar rules. Check the dates to make sure StartTime is not greater than the EndTime. Also check the times - it should follow the 24 hour format. 
 
-#### There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted. -or- Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''.
+** There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted. -or- Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''.**
 Make sure that the string is parsed correctly. There might be missing brackets, commas or semicolons.  
 
-#### Invalid recurrence pattern. Please refer to the documentation for supported patterns.
+** Invalid recurrence pattern. Please refer to the documentation for supported patterns.**
 
 We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include lesser days. However, `FREQ` and `INTERVAL` values cannot be changed. Make sure there are no spaces in the pattern.
 
