@@ -35,7 +35,7 @@ Organizations have the need to programmatically create, edit or delete work hour
 
 ## Calendar Types
 ### Occurrence
-When a [work hour type](##WorkHourTypes) occurs just once in the entity's calendar, it is called an occurrence.
+When a [work hour type](##work-hour-types) occurs just once in the entity's calendar, it is called an occurrence.
 
 For example, if a resource working from 5 am to 10 am on 5/26/21.
 
@@ -123,7 +123,7 @@ The request contains only one attribute – `CalendarEventInfo` and this is of S
 >[!NOTE]
 In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
 
-####CalendarEventInfo
+#### CalendarEventInfo
 | Name     | Type   | Required     | Description |
 | :-------- | :--------- | :--------- | :----- |
 |  EntityLogicalName | String   | Yes   | This key describes the entity from which the API is being called. The calendar of this entity is to be created or edited. |
@@ -131,7 +131,7 @@ In this table below, _Type_ represents the format expected to make a successful 
 |RulesAndRecurrences	| RulesAndRecurrences	| Yes | This key contains multiple attributes as listed in the table below. |
 | IsVaried	|Boolean	|No|	This key should be set to true for custom recurrence scenarios.|
 |IsEdit|	Boolean|	No|	This key should be set to true for editing an existing rule(s).|
-| TimeZoneCode|	Integer|	No|	This key takes an integer value corresponding to the time zone for the calendar rules. Please check the [TimeZoneCode](##TimeZoneCode) section below for the mapping. Default value – user's time zone.
+| TimeZoneCode|	Integer|	No|	This key takes an integer value corresponding to the time zone for the calendar rules. Please check the [TimeZoneCode](##timezonecode) section below for the mapping. Default value – user's time zone.
 | InnerCalendarDescription|	String|	No|	This key is only needed if the calendar rule is for Time Off. It should contain the reason for Time Off.| 
 | ObserveClosure|	Boolean|	No|	This key is specific to recurrences. If it is set to true, the entity will observe business closure.|
 |RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. Default value for occurrences – null. Default value for recurrences - 30th Dec 9999, 23:59:59 hours, UTC.|
@@ -144,9 +144,9 @@ In this table below, _Type_ represents the format expected to make a successful 
 |Rules| Rules |	Yes |	This key contains multiple attributes as listed in the table below.
 |RecurrencePattern|	String|	No|	This key is specific to recurrences. We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include lesser days. However, `FREQ` and `INTERVAL` values cannot be changed.| 
 |InnerCalendarId|	GUID|	No|	This is an edit specific key. If a rule is being edited, the InnerCalendarId needs to be passed here. |
-|Action	|Integer|	No|	This is custom recurrence specific key. If a custom recurrence is being created or edited, one of the following enums should be entered: (1) Adding a day to the recurrence, (2)	Deleting a day from the recurrence, (3) Editing only the start/ end dates or times, or capacity (4) Editing anything apart from previous keys. Please read the [Custom Recurrence](##CustomRecurrence) section for more information on this.|
+|Action	|Integer|	No|	This is custom recurrence specific key. If a custom recurrence is being created or edited, one of the following enums should be entered: (1) Adding a day to the recurrence, (2)	Deleting a day from the recurrence, (3) Editing only the start/ end dates or times, or capacity (4) Editing anything apart from previous keys. Please read the [Custom Recurrence](##custom-recurrence) section for more information on this.|
 
-####Rules
+#### Rules
 |Name	|Type|	Required|	Description|
 | :-------- | :--------- | :--------- | :------ |
 |StartTime|	DateTime|	Yes|	This key contains a datetime entry of the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). Eg. \"2021-05-15T12:00:00.000Z\". The time portion determines the start time of the work hour in the earlier specified time zone. The date portion determines the start date of the work hour. Here, 15th May 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was “BYDAY=TU,WE”, but 15th May (Saturday) is the date, the API will automatically create/edit rules for all Tuesdays and Wednesdays following 15th May. Each rule doesn’t have to have the date corresponding to the day. 
