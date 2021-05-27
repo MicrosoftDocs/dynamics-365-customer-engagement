@@ -84,7 +84,7 @@ instances](../admin/backup-restore-instances.md).
 6. The mailboxes will be in the **Not Run** state initially. Select **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
     > [!div class="mx-imgBorder"]
-    > ![Button to approve and test mailboxes](media/test-approve-mailbox "Button to approve and test mailboxes")
+    > ![Button to approve and test mailboxes](media/test-approve-mailbox.png "Button to approve and test mailboxes")
 
     > [!Note]
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select the **Approve and test mailboxes** button to test and approve the mailboxes.
