@@ -23,3 +23,6 @@ search.app:
 Microsoft Teams allows you to connect with audiences through engaging webinars, created and managed directly within the familiar Teams interface. However, it’s critical to follow up with webinar participants, closing the loop of engagement and ensuring that the right leads are created and nurtured.  
 
 For customers of Dynamics 365 Marketing who create Teams webinars, following up with participants is a one click operation. When a webinar is finished, the “Follow up with participants” button will prepare ready to use contacts, segments, emails, events, registrations, check-ins, as well as a journey, tying the webinar data together in the Marketing organization of your choice.
+
+> [!NOTE]
+> Each of Microsoft Teams and Dynamics 365 Marketing have their own [Service-Specific License Terms](https://www.microsoft.com/licensing/terms/productoffering) and the service-specific terms that apply will depend on which service is processing your data.  For example, when you seamlessly transition from Microsoft Teams to Dynamics 365 Marketing, your Microsoft Teams data related to the webinar (such as attendance report, engagement data, etc.) will be transferred to Dynamics 365 Marketing, whereupon it becomes Dynamics 365 Marketing data and the Dynamics 365 service-specific terms will apply.
