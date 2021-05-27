@@ -152,7 +152,7 @@ In this table below, _Type_ represents the format expected to make a successful 
 |StartTime|	DateTime|	Yes|	This key contains a datetime entry of the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). Eg. \"2021-05-15T12:00:00.000Z\". The time portion determines the start time of the work hour in the earlier specified time zone. The date portion determines the start date of the work hour. Here, 15th May 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was “BYDAY=TU,WE”, but 15th May (Saturday) is the date, the API will automatically create/edit rules for all Tuesdays and Wednesdays following 15th May. Each rule doesn’t have to have the date corresponding to the day. 
 |EndTime|	DateTime|	Yes|	This contains a datetime entry following the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). Eg. \"2021-05-15T12:00:00.000Z\".The time portion determines the end time of the work hour in the earlier specified time zone. The date portion *must* contain the same date as the date portion of the StartTime. The only exceptions are if it is (a) An All-Day occurrence. In this case the date portion should reflect the end date of the All-Day occurrence. (b) The occurrence ends at the end of the day. i.e 12 am of the following day.In this case, the date should be \"2021-05-16T00:00:00.000Z\". To specify the end date of the recurrence, please modify the “RecurrenceEndDate” attribute.
 |WorkHourType	|Integer|	Yes	|This key contains an enum corresponding to one of the following options: (0) Working, (1)	Break, (2) Non-working, (3) Time Off |
-| Effort |	Integer	| No |	This key determines the capacity of the entity. It must be whole numbers. Default value = 1
+| Effort |	Integer	| No |	This key determines the capacity of the entity. It must be whole numbers. Default value = 1|
 
 ### Output
 This POST API creates/ modifies calendar rule records for the select entity. Additionally, it gives the following output.
@@ -174,7 +174,7 @@ This POST API creates/ modifies calendar rule records for the select entity. Add
 This POST API deletes calendar rule records for the select entity. Additionally, it gives the following output.
 |Name |	Type|	Description|
 |:--|:--|:--|
-|InnerCalendarIds|	String|	An array of InnerCalendarIds that are a result of the POST operation.
+|InnerCalendarIds|	String|	An array of InnerCalendarIds that are a result of the POST operation.|
 
 
 ## Example Scenarios for API usage
