@@ -1,6 +1,6 @@
 ---
-title: "Markdowns in custom messaging channel | Microsoft Docs"
-description: "Use this topic to understand how markdowns are passed through in custom messaging channels."
+title: "Markdown formats for custom messaging channels | Microsoft Docs"
+description: "Use this topic to understand how markdowns are passed through in custom messaging channels in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 05/28/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
-# Preview: How markdowns work in custom messaging channels
+# Preview: Markdown formats for custom messaging channels
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
