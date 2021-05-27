@@ -1,7 +1,7 @@
 ---
-title: "Use sensitivity labels to protect content in Microsoft Teams| MicrosoftDocs"
+title: "Enable sensitivity labels to protect content in Microsoft Teams| MicrosoftDocs"
 ms.custom: 
-description: Use sensitivity labels to protect content in Microsoft Teams
+description: Use sensitivity labels to protect content in Microsoft Teams.
 ms.date: 05/24/2021
 ms.reviewer: 
 ms.service: crm-online
@@ -20,7 +20,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use sensitivity labels to protect content in Microsoft Team
+# Enable sensitivity labels to protect content in Microsoft Teams
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -35,7 +35,7 @@ Sensitivity labels in Microsoft Teams integration with customer engagement apps 
 
 ## Prerequisites
 
-The following prerequisites are required:
+The following prerequisites are required before you turn on Sensitivity labels in your app:
 
  - Azure Information Protection (AIP) P2 Premium license. For more information, see [Azure Information Protection](https://azure.microsoft.com/services/information-protection)
  - Create and configure sensitivity labels in your tenat. For more information, see [Create and configure sensitivity labels and their policies](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
