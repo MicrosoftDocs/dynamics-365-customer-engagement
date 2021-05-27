@@ -1,41 +1,75 @@
 ---
-title: "Edit Work Hour Calendar Using APIs | MicrosoftDocs"
-description: description
-ms.custom:
-- dyn365-fieldservice
-ms.date: 05/24/2021
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.topic: article
+title: "Save and Delete Calendar | MicrosoftDocs"
+ms.custom: 
+  - dyn365-fieldservice
+ms.date: 05/20/2021
+ms.reviewer: ""
+ms.service: dynamics-365-resourcescheduling
 ms.suite: ""
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+ms.technology: 
+  - "resource-scheduling"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.2.21055"
+author: rikothap
+ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
+caps.latest.revision: 42
+ms.author: FieldServiceDave
+manager: hegate
+search.audienceType: 
+  - admin
+  - customizer
+search.app: 
+  - D365CE
+  - D365FS
 ---
-
 
 # Edit Work Hour Calendar Using APIs 
 
-Organizations have the need to programmatically create, edit or delete work hours on the calendars of their resources. Calendars have working hours, time off, breaks that determine the availability of their resource to schedule work. 
-<br> <br> Use the Save Calendar and Delete Calendar API to programmatically create, update and delete calendar rules for select entities.
-- The Save Calendar API (msdyn_SaveCalendar) creates, or updates calendar records on a selected entity, based on the rules, dates, and patterns passed as the request.
-- The Delete Calendar API(msdyn_DeleteCalendar) deletes a calendar record on a selected entity.
-This is helpful for increasing flexibility to the working hours of entities such as Bookable Resources, Resource Requirement, Project and so on.
-This document contains the details of the API contract and their usage with examples.
+Organizations have the need to programmatically create, edit or delete work hours on the calendars of their resources. Calendars have working hours, time off and breaks that determine the availability of their resource to schedule work. Additionally, they work in specific time zones, may observe business closure, and can have varied capacity. The SaveCalendar API allows us to set these for resources. Please see documentation on how we add [work hours to a bookable resource](https://docs.microsoft.com/en-us/dynamics365/field-service/set-up-bookable-resources#add-work-hours) in Field Service. 
+<br> <br> Use the Save Calendar and Delete Calendar API to modify calendar rules for select entities.
+- The Save Calendar API (msdyn_SaveCalendar) creates, or updates calendar records on a selected entity, based on the inputs passed as the request.
+- The Delete Calendar API (msdyn_DeleteCalendar) deletes all inner calendar rules (Learn more about [Calendar entities](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/calendar-entities)) of a calendar on a selected entity, based on the inputs passed as the request.
+
+<br>This document contains details of the APIs' request and response, and their usage with examples.
 
 ## Prerequisites
 
-- Platform version 9.2.21055 or above with Field Service version 8.8.42.31.
-- Usage of one of the following entities: [Bookable Resource](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/bookableresource?view=dynamics-ce-odata-9), [Resource Requirement](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_resourcerequirement?view=dynamics-ce-odata-9), [Operating Hour](https://docs.microsoft.com/en-us/dynamics365/customer-service/developer/reference/entities/msdyn_operatinghour), [Work Hour Template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_workhourtemplate?view=dynamics-ce-odata-9), [System User](https://docs.microsoft.com/en-us/dynamics365/customer-service/developer/reference/entities/systemuser), [Project](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_project?view=dynamics-ce-odata-9), Extended User Setting, [Equipment](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/equipment?view=dynamics-ce-odata-9).
+- Platform version 9.2.21055.00012 or above with Field Service version 8.8.42.31.
+- Usage of one of the following entities: [Bookable Resource](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/bookableresource?view=dynamics-ce-odata-9), [Resource Requirement](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_resourcerequirement?view=dynamics-ce-odata-9), [Work Hour Template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_workhourtemplate?view=dynamics-ce-odata-9), [Project](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/msdyn_project?view=dynamics-ce-odata-9).
+
+## Calendar Types
+### Occurrence
+When a [work hour type](##WorkHourTypes) occurs just once in the entity's calendar, it is called an occurrence.
+
+For example, if a resource working from 5 am to 10 am on 5/26/21.
+
+This API only supports occurrences that start and end within the same day. Taking another example, one cannot create working hours for an entity from 5/26/21 8 pm to 5/27/21 10 am using just one call of the msdyn_SaveCalendar API. You would need to make two calls of the msdyn_SaveCalendar API. Please see the example section more details. The only exception to this rule is when it is an all-day occurrence. 
+
+### All-Day Occurrence
+When a work hour type occurs for a period of 1 or more whole days, starting at 12 am of the start date, it is an all-day occurrence. The maximum period for an all-day occurrence is 5 years.
+
+For example, if a resource works all day from 5/26/21 to 5/30/21.
+
+### Weekly Recurrence
+When a work hour type occurs at the same times of select days of the week, every week, it is called a weekly recurrence.
+
+For example, if a resource working from 5 am to 10 am every Monday, Tuesday and Wednesday.
+
+### Daily Recurrence
+When a work hour type occurs at the same times of every day, it is called a daily recurrence.
+
+For example, if a resource working from 5 am to 10 am every day of the week.
+
+### Custom Recurrence
+When a work hour type occurs at the same time and day of every week, it is called a custom recurrence. The times across different days can be different.
+
+For example, if a resource working from 5 am to 10 am every Monday and 12 pm to 3 pm every Wednesday.
 
 ## Work Hour Types
-This API supports the CUD (Create Update Delete) operations of the following work hour types.
+This API supports the Create, Update and Delete operations of the following work hour types.
 
 ### Working Hours
 
@@ -47,7 +81,7 @@ These are the times during which an entity is available to perform work.
 -	Create/ Edit/ Delete a working hour custom recurrence.
 -	Create/ Edit/ Delete all-day working hours.
 -	Create/ Edit/ Delete additional capacity on working hours.
--	Edit a working hour occurrence in a recurrence.
+-	Edit a single working hour occurrence in a recurrence.
 -	Edit “This and Following occurrences” in a recurrence.
 -	Change a working hour occurrence to a recurrence.
 -	Change the time zone of the calendar rule.
@@ -87,18 +121,18 @@ These are the times during which an entity is unavailable to work due to a vacat
 - Create/Edit a time off hour recurrence.
 
 ### Business Closure
-These are the times during which the business is closed. Every entity can be set to observe or ignore business closure times followed by the organization using the optional “ObserveClosure” key in the API contract. When they are set to observe them, the entity will be unavailable to work due to the holiday.
+You can [create business closure entities](https://docs.microsoft.com/en-us/dynamics365/customer-service/set-when-business-closed-csh) and during these times, the business is closed. Using the SaveCalendar API, every entity can be set to observe or ignore business closure times followed by the organization using the optional “ObserveClosure” key. When they are set to observe them, the entity will be unavailable to work due to the holiday.
 
-## Save Calendar Contract
+## Save Calendar API
 
-### Request
+### Input
 The request contains only one attribute – `CalendarEventInfo` and this is of String type. It contains several other attributes that are all embedded in this string. 
-> [!NOTE]
-> In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
+>[!NOTE]
+In this table below, _Type_ represents the format expected to make a successful request. However, it is all parsed as a single string.
 
 **CalendarEventInfo**
 | Name     | Type   | Required     | Description |
-| :-------- | :--------- | :--------- | :- |
+| :-------- | :--------- | :--------- | :----- |
 |  EntityLogicalName | String   | Yes   | This key describes the entity from which the API is being called. The calendar of this entity is to be created or edited. |
 | CalendarId  | Guid | Yes| This key contains the calendar ID related to the entity described above. When any of these entities are created, a calendar record is also automatically created. This API is editing that calendar record by adding rules or editing existing rules.|
 |RulesAndRecurrences	| RulesAndRecurrences	| Yes | This key contains multiple attributes as listed in the table below. |
@@ -113,7 +147,7 @@ The request contains only one attribute – `CalendarEventInfo` and this is of S
 
 #### RulesAndRecurrences
 |Name | Type | Required | Description |
-| :-------- | :--------- | :--------- | :- |
+| :-------- | :--------- | :--------- | :----- |
 |Rules| Rules |	Yes |	This key contains multiple attributes as listed in the table below.
 |RecurrencePattern|	String|	No|	This key is specific to recurrences. We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include lesser days. However, `FREQ` and `INTERVAL` values cannot be changed.| 
 |InnerCalendarId|	GUID|	No|	This is an edit specific key. If a rule is being edited, the InnerCalendarId needs to be passed here. |
@@ -121,13 +155,15 @@ The request contains only one attribute – `CalendarEventInfo` and this is of S
 
 **Rules**
 |Name	|Type|	Required|	Description|
-| :-------- | :--------- | :--------- | :- |
+| :-------- | :--------- | :--------- | :------ |
 |StartTime|	DateTime|	Yes|	This key contains a datetime entry of the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). Eg. \"2021-05-15T12:00:00.000Z\". The time portion determines the start time of the work hour in the earlier specified time zone. The date portion determines the start date of the work hour. Here, 15th May 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was “BYDAY=TU,WE”, but 15th May (Saturday) is the date, the API will automatically create/edit rules for all Tuesdays and Wednesdays following 15th May. Each rule doesn’t have to have the date corresponding to the day. 
 |EndTime|	DateTime|	Yes|	This contains a datetime entry following the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). Eg. \"2021-05-15T12:00:00.000Z\".The time portion determines the end time of the work hour in the earlier specified time zone. The date portion *must* contain the same date as the date portion of the StartTime. The only exceptions are if it is (a) An All-Day occurrence. In this case the date portion should reflect the end date of the All-Day occurrence. (b) The occurrence ends at the end of the day. i.e 12 am of the following day.In this case, the date should be \"2021-05-16T00:00:00.000Z\". To specify the end date of the recurrence, please modify the “RecurrenceEndDate” attribute.
 |WorkHourType	|Integer|	Yes	|This key contains an enum corresponding to one of the following options: (0) Working, (1)	Break, (2) Non-working, (3) Time Off |
 | Effort |	Integer	| No |	This key determines the capacity of the entity. It must be whole numbers. Default value = 1
 
-### Response
+### Output
+This POST API creates/ modifies calendar rule records for the select entity. Additionally, it gives the following output.
+
 |Name |	Type|	Description|
 |:--|:--|:--|
 | InnerCalendarIds|	String |	An array of InnerCalendarIds Guids that are a result of the POST operation. |
@@ -142,6 +178,7 @@ The request contains only one attribute – `CalendarEventInfo` and this is of S
 |IsVaried	|Bool	|No	|This field is recurrence specific and is set to yes if it is a custom recurrence rule being deleted.
 
 ### Response
+This POST API deletes calendar rule records for the select entity. Additionally, it gives the following output.
 |Name |	Type|	Description|
 |:--|:--|:--|
 |InnerCalendarIds|	String|	An array of InnerCalendarIds that are a result of the POST operation.
@@ -149,22 +186,20 @@ The request contains only one attribute – `CalendarEventInfo` and this is of S
 
 ## Example Scenarios for API usage
 
-Let’s walk through some real life scenarios that this API can be used for.
+Let’s walk through some scenarios that this API can be used for.
 
 Bob and Tim are delivery truck drivers for Contoso Enterprises, Bellevue. Their dispatcher, Debbie, is responsible for making changes to their work hour calendars. She does that using Save and Delete calendar APIs.
 
-> [!NOTE]
-> For each of the following example scenarios, the box with the blue text (first block) contains the request and the box with the green text (second block) contains the response.
 
 ### Create a working hour occurrence.
 Bob is scheduled to drive around to deliver packages from 9:00 am to 5:00 pm on 15th May 2021. Debbie uses the msdyn_SaveCalendar API.
 
-Request:
+**Request**
 > `{
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-15T09:00:00.000Z\",\"EndTime\":\"2021-05-5T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}]}]}"
 }`
 
-Response:
+**Response**
 >`{
   "InnerCalendarIds": "[\"9519e271-18b5-eb11-a81d-000d3afb1dba\"]"
 }`
@@ -173,10 +208,12 @@ Response:
 ### Edit a working hour occurrence.
 His schedule then changes to start from 10:00 am on 15th May 2021. Debbie uses the msdyn_SaveCalendar API.
 
+**Request**
 >  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"IsEdit\":\"true\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-15T10:00:00.000Z\",\"EndTime\":\"2021-05-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}], \"InnerCalendarId\":\"9519e271-18b5-eb11-a81d-000d3afb1dba\"}"
 } `
 
+**Response**
 > ` {
   "InnerCalendarIds": "[\"9519e271-18b5-eb11-a81d-000d3afb1dba\"]"
 } `
@@ -184,10 +221,13 @@ His schedule then changes to start from 10:00 am on 15th May 2021. Debbie uses t
 
 ### Delete a working hour occurrence.
 A family emergency comes up! Bob needs to cancel his entire day of work. Debbie uses the msdyn_DeleteCalendar API.
+
+**Request**
 >  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"InnerCalendarId\":\"9519e271-18b5-eb11-a81d-000d3afb1dba\"}"
 } `
 
+**Response**
 > ` {
   "InnerCalendarIds": "[\"9519e271-18b5-eb11-a81d-000d3afb1dba\"]"
 } `
@@ -197,10 +237,12 @@ A family emergency comes up! Bob needs to cancel his entire day of work. Debbie 
 ### Create a working hour daily recurrence.
 Starting 20th May 2021, Bob decides to work with Contoso all week from 8:00 am to 5:00 pm. He’s going to stop working here on 15th July 2021.
 
+**Request**
 > `  {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RecurrenceEndDate\":\"2021-07-15T00:00:00.000Z\",\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T08:00:00.000Z\",\"EndTime\":\"2021-05-20T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA\"}]}"
 } `
 
+**Response**
 > ` {
   "InnerCalendarIds": "[\"f5486570-41b5-eb11-a81d-000d3afb1dba\"]"
 } `
@@ -210,10 +252,12 @@ Starting 20th May 2021, Bob decides to work with Contoso all week from 8:00 am t
 ### Edit a working hour daily recurrence with increased capacity.
 Bob is getting burnt out due to all those hours of driving. Bob then decided to stop working all week on 15th June 2021. Until then he will continue the previously decided all week schedule. Debbie makes these changes using the msdyn_SaveCalendar API.
 
+**Request**
 > `  {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RecurrenceEndDate\":\"2021-06-15T00:00:00.000Z\",\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T08:00:00.000Z\",\"EndTime\":\"2021-05-20T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"InnerCalendarId\":\"f5486570-41b5-eb11-a81d-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY= SU,MO,TU,WE,TH,FR,SA\"}]}"
 } `
 
+**Response**
 > ` {
   "InnerCalendarIds": "[\"f5486570-41b5-eb11-a81d-000d3afb1dba\"]"
 } `
@@ -222,10 +266,12 @@ Bob is getting burnt out due to all those hours of driving. Bob then decided to 
 ### Create a working hour weekly recurrence.
 Starting from 16th June 2021, Bob will work from 8:00 am to 5:00 pm on Wednesdays and Fridays. He takes a break from 12:00 pm to 12:30 pm for lunch. Debbie uses the msdyn_SaveCalendar API. But oops, she makes a mistake and schedules the break from 12:00 pm to 1:00 pm.
 
+**Request**
 >  ` {
   "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-16T08:00:00.000Z\",\"EndTime\":\"2021-06-16T12:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}, {\"StartTime\":\"2021-06-15T12:00:00.000Z\",\"EndTime\":\"2021-06-15T13:00:00.000Z\",\"Effort\":null,\"WorkHourType\":1}, {\"StartTime\":\"2021-06-15T13:00:00.000Z\",\"EndTime\":\"2021-06-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE,TH,FR\"}]}"
 } `
 
+**Response**
 > ` {
   "InnerCalendarIds": "[\"c94adf3a-21b5-eb11-a81d-000d3afb1dba\"]"
 } `
@@ -234,10 +280,12 @@ Starting from 16th June 2021, Bob will work from 8:00 am to 5:00 pm on Wednesday
 ### Edit a break from a working hour weekly recurrence.
 Debbie then corrects her mistake and changes the break to be from 12:00 pm to 12:30 pm using the msdyn_SaveCalendar API.
 
+**Request**
 > `  {
   "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"IsEdit\":\"true\",\\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-15T08:00:00.000Z\",\"EndTime\":\"2021-06-15T12:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}, {\"StartTime\":\"2021-06-15T12:00:00.000Z\",\"EndTime\":\"2021-06-15T12:30:00.000Z\",\"Effort\":null,\"WorkHourType\":1}, {\"StartTime\":\"2021-06-15T12:30:00.000Z\",\"EndTime\":\"2021-06-15T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"InnerCalendarId\":\"c94adf3a-21b5-eb11-a81d-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE,TH,FR\"}]}"
 } `
 
+**Response**
 >  `{
   "InnerCalendarIds": "[\" c94adf3a-21b5-eb11-a81d-000d3afb1dba \"]"
 }`
@@ -247,11 +295,12 @@ Debbie then corrects her mistake and changes the break to be from 12:00 pm to 12
 ### Create a working hour custom recurrence.
 Tim works for Contoso on Mondays from 8:00 am to 5:00 pm and Wednesdays from 11:00 am to 3:00 pm. He started his role on 16th May 2021. Debbie uses the msdyn_SaveCalendar API to create his work hours.
 
+**Request**
 > `  {
 "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\\"TimeZoneCode\":5,\"IsVaried\":true,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-16T08:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=MO\"},{\"Rules\":[{\"StartTime\":\"2021-05-16T11:00:00.000Z\",\"EndTime\":\"2021-05-16T15:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE\"}]}"
 }`
  
-
+**Response**
 > ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\", \"37d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
 }`
@@ -261,11 +310,12 @@ Tim works for Contoso on Mondays from 8:00 am to 5:00 pm and Wednesdays from 11:
 ### Edit a working hour custom recurrence.
 This then changes: his work hours are now Wednesdays 5:00 pm to 8:00 pm and Thursday 10:00 am to 12:00 pm. Monday is removed from his schedule. Debbie uses the msdyn_SaveCalendar API to achieve this.
 
+**Request**
 > `  {
 "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\\"TimeZoneCode\":5,\"IsVaried\":true,\"IsEdit\":true,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-16T08:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":1,\"InnerCalendarId\":\"34d2210c-9fb6-eb11-a820-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=MO\"},{\"Rules\":[{\"StartTime\":\"2021-05-16T13:00:00.000Z\",\"EndTime\":\"2021-05-16T17:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}],\"Action\":3,\"InnerCalendarId\":\"37d2210c-9fb6-eb11-a820-000d3afb1dba\",\"RecurrencePattern\":\"FREQ=WEEKLY;INTERVAL=1;BYDAY=WE\"}]}"
 }`
  
-
+**Response**
 > ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\", \"37d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
 }`
@@ -275,19 +325,23 @@ This then changes: his work hours are now Wednesdays 5:00 pm to 8:00 pm and Thur
 ### Edit a working hour occurrence in a recurrence.
 On 26th May, Tim is only able to work from 5:00 pm to 7:00 pm. Debbie uses the msdyn_SaveCalendar API here.
 
+**Request**
 >  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-26T017:00:00.000Z\",\"EndTime\":\"2021-05-26T19:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}]}, \"InnerCalendarId\":\"34d2210c-9fb6-eb11-a820-000d3afb1dba\"]}"
 } `
 
+**Response**
 > ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
 } `
 
 ### Delete a working hour custom recurrence.
+
+**Request**
 >  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\"InnerCalendarId\":\"34d2210c-9fb6-eb11-a820-000d3afb1dba\",\"IsVaried\":true}"
 } `
-
+**Response**
 > ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\"]"
 } `
@@ -297,10 +351,12 @@ On 26th May, Tim is only able to work from 5:00 pm to 7:00 pm. Debbie uses the m
 ### Create a Time-Off
 Tim will be taking 3 days off for a family vacation starting on 9th June 2021.
 
+**Request**
 >  ` {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"InnerCalendarDescription\":\"Family Vacation\"\"EntityLogicalName\":\"bookableresource\",\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-06-15T00:00:00.000Z\",\"EndTime\":\"2021-06-17T00:00:00.000Z\",\"Effort\":1,\"WorkHourType\":3}]}]}"
 } `
 
+**Response**
 > ` {
   "InnerCalendarIds": "[\"1141e271-18b5-eb11-a81d-000d3afb1dba\"]"
 } `
@@ -309,11 +365,12 @@ Tim will be taking 3 days off for a family vacation starting on 9th June 2021.
 ### Create All-Day working hours.
 Tim has a 72-hour shift starting 20th May 2021. Debbie uses the msdyn_SaveCalendar API to create his work hours.
 
+**Request**
 > `  {
  "CalendarEventInfo": "{\"CalendarId\":\"2f2637c1-3576-4b22-9490-97c3ac7d2734\",\"EntityLogicalName\":\"bookableresource\",\\"TimeZoneCode\":5,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-05-20T00:00:00.000Z\",\"EndTime\":\"2021-05-22T00:00:00.000Z\",\"Effort\":1,\"WorkHourType\":0}], \"InnerCalendarId\":\"9519e271-18b5-eb11-a81d-000d3afb1dba\"}]}"
 }`
  
-
+**Response**
 > ` {
   "InnerCalendarIds": "[\"34d2210c-9fb6-eb11-a820-000d3afb1dba\", \"37d2210c-9fb6-eb11-a820-000d3afb1dba\", \"4bcc69b8-a2b6-eb11-a820-000d3afb1dba\"]"
 }`
@@ -323,6 +380,10 @@ Tim has a 72-hour shift starting 20th May 2021. Debbie uses the msdyn_SaveCalend
 ## Troubleshooting and Errors
 
 ## Additional Notes
+capacity
+Custom recurrence
+Occurence
+
 ## TimeZoneCode
 
 |Enum| TimeZone|
