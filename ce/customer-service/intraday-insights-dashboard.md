@@ -176,7 +176,7 @@ This section displays the following details.
 
 ## Conversation insights report
 
-This section of the dashboard displays the following metrics about conversations.
+This Conversation insights report displays the following metrics about conversations.
 
 > [!div class="mx-imgBorder"]
 > ![Conversation insights dashboard](media/conversation-insights-dashboard.png "Agents insights dashboard")
