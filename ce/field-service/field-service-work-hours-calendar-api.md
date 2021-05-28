@@ -41,7 +41,7 @@ This article contains details of each API's input (request) and output (response
 
 ## Calendar types
 
-### Occurrence
+#### Occurrence
 
 When a [work hour type](##work-hour-types) occurs only once in the entity's calendar, it's called an occurrence.
 
@@ -49,25 +49,25 @@ For example, consider a resource working from 5:00 AM to 10:00 AM on 26 May 2021
 
 This API only supports occurrences that start and end within the same day. Taking another example, one cannot create working hours for an entity from 26 May 2021 8:00 PM to 27 May 2021 10:00 AM using just one call of the ```msdyn_SaveCalendar``` API. You would need to make two calls instead. For more information, see the [example section in this article](##example-scenarios-for-api-usage). The only exception to this rule is when it is an all-day occurrence. 
 
-### All-day occurrence
+#### All-day occurrence
 
 When a work hour type occurs for one or more whole days, starting at 12 AM of the start date, it's an all-day occurrence. The maximum period for an all-day occurrence is five years.
 
 For example: a resource works all day from 26 May 2021 to 30 May 2021.
 
-### Weekly recurrence
+#### Weekly recurrence
 
 When a work hour type occurs at the same times of select days of every week, it's called a weekly recurrence.
 
 For example: a resource works from 5 AM to 10 AM every Monday, Tuesday, and Wednesday.
 
-### Daily recurrence
+#### Daily recurrence
 
 When a work hour type occurs at the same times every day, it's called a daily recurrence.
 
 For example: a resource works from 5 AM to 10 AM every day of the week.
 
-### Custom recurrence
+#### Custom recurrence
 
 When a work hour type occurs at the same time and day of every week, it's called a custom recurrence. The times across different days can be different.
 
@@ -77,7 +77,7 @@ For example: a resource works from 5 AM to 10 AM every Monday, and 12 PM to 3 PM
 
 This API supports the create, update, and delete operations of the following work hour types.
 
-### Working hours
+#### Working hours
 
 Working hours are times during which an entity is available to perform work.
 
@@ -100,7 +100,7 @@ Using this API, you _cannot_ do the following to working hours:
 - Create occurrence that spans 24 hours but doesn't start and end at 12:00 AM.
 - Create /Edit / Delete an all-day recurrence.
 
-### Non-working hour
+#### Non-working hour
 
 These are times during which the entity is unavailable to work due to an unspecified reason.
 
@@ -114,7 +114,7 @@ Using this API, you _cannot_ do the following to non-working hours:
 
 - Create / Edit a non-working hour recurrence.
 
-### Break
+#### Break
 
 These are times in a working day during which an entity is taking a break and is unavailable for work. Breaks can't exist without working hours; they have to be next to two working hours of a day. Breaks cannot overlap with working hours.  
 
@@ -127,7 +127,7 @@ Using this API, you _cannot_ do the following to breaks:
 - Delete only breaks from an occurrence or recurrence of working hours.
 
 
-### Time off 
+#### Time off 
 These are times during which an entity is unavailable to work due to a vacation. The reason for time off can be specified.
 
 Using this API, you can do the following to time off:
@@ -139,7 +139,7 @@ Using this API, you _cannot_ do the following to time off:
 
 - Create / Edit a time-off hour recurrence.
 
-### Business closure
+#### Business closure
 
 You can [create business closure entities](/dynamics365/customer-service/set-when-business-closed-csh) and during these times, the business is closed. Using the **Save Calendar API**, every entity can be set to observe or ignore business closure times followed by the organization using the optional [“ObserveClosure”](####calendareventinfo) key. When they are set to observe them, the entity will be unavailable to work due to the holiday.
 
