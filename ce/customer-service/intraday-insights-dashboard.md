@@ -89,7 +89,7 @@ You can view specific insights about the performance of individual agents or gro
 > ![Agents insights dashboard](media/agents-insights-dashboard.png "Agents insights dashboard")
 
 > [!div class="mx-imgBorder"]
-> ![Agents insights dashboard](media/agents-insights-dashboard-1.png "Agents insights dashboard")
+> ![Agents insights graph](media/agents-insights-dashboard-1.png "Agents insights graph")
 
 | Metrics | Description |
 |-------|-------|
@@ -141,7 +141,7 @@ Details about the agent are displayed as shown in the following image.
 > ![View details for an agent](media/view-agent-details.png "View details for an agent")
 
 > [!div class="mx-imgBorder"]
-> ![View details for an agent](media/view-agent-details-1.png "View details for an agent")
+> ![Agent profile](media/view-agent-details-1.png "Agent profile")
 
 This section displays the following details.
 
