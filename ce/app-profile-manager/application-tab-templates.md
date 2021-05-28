@@ -162,6 +162,7 @@ The out-of-the-box application tab templates are as follows:
 - Power BI
 - Search
 
+
 ### See also
 
 [Manage session templates](session-templates.md)  
