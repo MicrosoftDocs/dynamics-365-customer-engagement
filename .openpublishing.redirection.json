@@ -21358,6 +21358,11 @@
       "source_path": "ce/customer-service/productivity-tools.md",
       "redirect_url": "../app-profile-manager/productivity-tools",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/embedded-intelligence-overview.md",
+      "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_document_id": false
     }
   ]
 }
