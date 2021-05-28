@@ -29,8 +29,8 @@ KPIs for the following areas are displayed:
 | Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. |
 | Avg. conversation handle time (min)  | The average total conversation active time across engaged conversations. |
 | Avg. CSAT | The average CSAT score provided by customers from Dynamics 365 Customer Voice survey responses.  |
-| Avg. conversation sentiment | The average predicted sentiment of the customer across engaged conversations | 
-| Avg. customer effort time (min) | The average time from the start of conversation to the start of the conversation wrap-up time  |
+| Avg. conversation sentiment | The average predicted sentiment of the customer across engaged conversations. |
+| Avg. customer effort time (min) | The average time from the start of conversation to the start of the conversation wrap-up time.  |
 | Transfer rate | The number of sessions transferred by an agent. |
 
 The topics metrics chart displays the following metrics.
@@ -58,7 +58,7 @@ To access the drill-down, select any metric value for the topic you're intereste
 
 ## Topic automation to Power Virtual Agents
 
-AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization's administrator for use.  
+AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization's administrator.  
 
 After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting Power Virtual Agents on the **Topics** metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This will open the topic editing form.
 

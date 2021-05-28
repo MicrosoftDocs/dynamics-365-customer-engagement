@@ -1,6 +1,6 @@
 ---
-title: "Bot dashboard in omnichannel for Customer Service | Microsoft Docs"
-description: "Learn about the Bot dashboard in omnichannel for Customer Service historical analytics to better understand agent performance in your organization."
+title: "Bot dashboard in Omnichannel for Customer Service | Microsoft Docs"
+description: "Learn about the Bot dashboard in Omnichannel for Customer Service historical analytics to better understand agent performance in your organization."
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi

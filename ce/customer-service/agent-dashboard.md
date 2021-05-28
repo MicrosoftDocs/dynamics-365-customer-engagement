@@ -29,10 +29,10 @@ The reports summarize the KPIs for the specified time period and percentage chan
 
 | KPI | Description |
 | ------------------------ | ----------------- |
-| Engaged sessions | The number of sessions accepted by an agent |
-| Rejected/ timed-out sessions rate | The number of sessions presented to an agent and not accepted |
-| Transfer rate | The percentage of conversations that are transferred to another agent/queue |
-| Avg. session handle time | The average total session active time across engaged sessions  |
+| Engaged sessions | The number of sessions accepted by an agent. |
+| Rejected/ timed-out sessions rate | The number of sessions presented to an agent and not accepted. |
+| Transfer rate | The percentage of conversations that are transferred to another agent/queue. |
+| Avg. session handle time | The average total session active time across engaged sessions.  |
 | Avg. CSAT | The average of customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice has been configured as a post conversation survey tool. |
 | Avg session sentiment | The average predicted sentiment of a customer based on the conversation transcript from the session. |
 
@@ -41,9 +41,9 @@ The charts display the following metrics.
 | Title | Description |
 | ---------------- | ---------------- |
 | Engaged sessions | The number of sessions accepted by an agent, by day |
-| Avg. session handle time | The average amount of time an agent actively spends on a session, by day |
-| Avg. CSAT | The customer CSAT trend, based on Dynamics 365 Customer Voice survey responses |
-| Sentiment zones | The breakdown of customer sentiment across sessions by level  |
+| Avg. session handle time | The average amount of time an agent actively spends on a session, by day. |
+| Avg. CSAT | The customer CSAT trend, based on Dynamics 365 Customer Voice survey responses. |
+| Sentiment zones | The breakdown of customer sentiment across sessions by level.  |
 
 > [!div class="mx-imgBorder"]
 > ![Agent summary chart](media/oc-agent-summary.png "Agent summary chart")
@@ -75,20 +75,20 @@ The charts display the following metrics.
 
 | Consult/Monitor | Description |
 | --------------- | --------------- |
-| Consult sessions | The number of sessions where the agent has participated in consult mode |
-| Avg. consult time (min) | The average time an agent spent during a session in consult mode |
-| Monitor sessions | The number of sessions where the agent has participated in monitor mode |
-| Avg. monitor time (min) | The average time an agent spent on a session in monitoring mode |
+| Consult sessions | The number of sessions where the agent has participated in consult mode. |
+| Avg. consult time (min) | The average time an agent spent during a session in consult mode. |
+| Monitor sessions | The number of sessions where the agent has participated in monitor mode. |
+| Avg. monitor time (min) | The average time an agent spent on a session in monitoring mode. |
 
 
 | Availability | Description |
 | --------------- | ---------------- |
-| Agent total login time (hrs) | The time an agent is logged into Omnichannel for Customer Service |
-| Agent available duration (hrs) | The time an agent is in the available state in Omnichannel for Customer Service |
-| Agent busy duration (hrs) | The time an agent is in the busy state in  Omnichannel for Customer Service |
-| Agent busy (DND) duration (hrs) | The time an agent is in the busy do not disturb (DND) state in Omnichannel for Customer Service |
-| Agent away duration (hrs) | The time an agent is in the away state in Omnichannel for Customer Service |
-| Agent offline duration (hrs) | The time an agent is signed out of Omnichannel for Customer Service |
+| Agent total login time (hrs) | The time an agent is logged into Omnichannel for Customer Service. |
+| Agent available duration (hrs) | The time an agent is in the available state in Omnichannel for Customer Service. |
+| Agent busy duration (hrs) | The time an agent is in the busy state in  Omnichannel for Customer Service. |
+| Agent busy (DND) duration (hrs) | The time an agent is in the busy do not disturb (DND) state in Omnichannel for Customer Service. |
+| Agent away duration (hrs) | The time an agent is in the away state in Omnichannel for Customer Service. |
+| Agent offline duration (hrs) | The time an agent is signed out of Omnichannel for Customer Service. |
 
 ## Agent drill down view
 

@@ -37,7 +37,7 @@ The following KPIs are displayed in the Queue dashboard.
 | Avg. wait time (sec) | The average time customers waited before connecting to an agent. This is similar to "speed to answer," but it includes the wait time from each session within a conversation. |
 | Avg. session handle time | The total session active time across engaged sessions. |
 | Transfer rate | The percentage of conversations that were transferred to another agent or queue. |
-| Avg. session sentiment | The average predicted customer sentiment for a given session |
+| Avg. session sentiment | The average predicted customer sentiment for a given session. |
 
 
 The following charts are displayed in the Queue dashboard.
@@ -59,20 +59,20 @@ The following charts are displayed in the Queue dashboard.
 | Session summary | Description |
 | ---------------- | ---------------- |
 | Incoming sessions | The number of sessions initiated by a customer |
-| Engaged sessions | The number of sessions accepted by an agent  |
-| Avg. wait time (sec) | The average time customers waited before connecting to agents. This is similar to "speed to answer," but it includes wait time from each session within a conversation |
+| Engaged sessions | The number of sessions accepted by an agent.  |
+| Avg. wait time (sec) | The average time customers waited before connecting to agents. This is similar to "speed to answer," but it includes wait time from each session within a conversation. |
 | Session rejected/timed out rate | The number of sessions presented to an agent that weren't accepted. |
 | Transfer rate | The percentage of conversations that were transferred to another agent or queue. |
 | Avg. session time (min) | The average time, from session start to end, for engaged sessions. |
 | Avg. session handle time (min) | The average of the total session active time across engaged sessions. |
-| Avg. session sentiment | The average predicted customer sentiment for a given session |
+| Avg. session sentiment | The average predicted customer sentiment for a given session. |
 
 
 | Session details | Description |
 | --------------- | ----------------- |
 | Avg. session active time (min) | The average total session active time across engaged conversations. |
 | Avg. session inactive time (min) | The average total session inactive time across engaged sessions.  |
-| Avg. incoming messages | he average total number of incoming messages from the customer, per session. |
+| Avg. incoming messages | The average total number of incoming messages from the customer, per session. |
 | Avg. outgoing messages | The average total number of outgoing messages from the customer, per session. |
 | Incoming messages | The total incoming messages from the customer, per session. |
 | Outgoing messages | The total outgoing messages per session from customer , per session.|
@@ -80,8 +80,8 @@ The following charts are displayed in the Queue dashboard.
 
 | Consult/ Monitor | Descriptions | 
 | --------------------- | --------------------- |
-| Consult sessions | Number of sessions where the agent has participated in consult mode |
-| Avg consult time (min) | Average time an agent spent during a session in consult mode |
+| Consult sessions | Number of sessions where the agent has participated in consult mode. |
+| Avg consult time (min) | Average time an agent spent during a session in consult mode. |
 | Monitor sessions | Number of sessions where the agent has participated in monitor mode |
 | Avg monitor time (min) | Average time agent spent on a session in monitoring mode | 
 
