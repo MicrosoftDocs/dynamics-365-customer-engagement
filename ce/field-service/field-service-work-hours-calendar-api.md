@@ -25,8 +25,8 @@ Organizations often need to programmatically create, edit, or delete work hours 
 
 You can also use the **Save Calendar** and **Delete Calendar API** to modify calendar rules for select record types, similar to what can be achieved on the work hour control linked above.
 
-- The **Save Calendar API** (```msdyn_SaveCalendar```) creates or updates calendar records on a selected entity, based on the inputs passed as the request.
-- The **Delete Calendar API** (```msdyn_DeleteCalendar```) deletes all [inner calendar rules](/dynamics365/customerengagement/on-premises/developer/calendar-entities) of a calendar on a selected entity, based on the inputs passed as the request.
+- The **Save Calendar API** (```msdyn_SaveCalendar```) creates or updates calendar records on a selected entity, based on the inputs passed as the input.
+- The **Delete Calendar API** (```msdyn_DeleteCalendar```) deletes all [inner calendar rules](/dynamics365/customerengagement/on-premises/developer/calendar-entities) of a calendar on a selected entity, based on the inputs passed as the input.
 
 This article contains details of each API's input (request) and output (response), and their usage with examples.
 
@@ -192,7 +192,7 @@ This POST API creates / modifies calendar rule records for the select entity. It
 
 ## Delete calendar API
 
-### Request
+### Input
 
 |**Name** |	**Type**|	**Required**|	**Description**|
 |:--|:--|:--|:--|
@@ -201,7 +201,7 @@ This POST API creates / modifies calendar rule records for the select entity. It
 |CalendarId	|Guid	|Yes|	This field describes the CalendarId of the entity.
 |IsVaried	|Bool	|No	|This field is recurrence-specific and is set to yes if it is a custom recurrence rule being deleted.
 
-### Response
+### Output
 
 This POST API deletes calendar rule records for the select entity. Additionally, it gives the following output.
 
