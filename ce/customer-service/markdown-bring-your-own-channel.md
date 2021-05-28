@@ -35,7 +35,7 @@ The following table lists the markdown formats used by the inbound messages rece
 | italic | \_italics\_ | \_italics\_ | *text* |
 | strikethrough | ~strikethrough~ | ~strikethrough~ | ~~text~~ |
 | header (levels 1&ndash;4) | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
-| link | `https://www.microsoft.com` [link]`(https://www.microsoft.com)`  | `https://www.microsoft.com` [link]`(https://www.microsoft.com)`| <https://www.microsoft.com>|
+| link | [link] (https://www.microsoft.com) |  [link] (https://www.microsoft.com) | <https://www.microsoft.com>|
 | monospace | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
 
 For inbound messages, set the markdown text to the Activity text field.
