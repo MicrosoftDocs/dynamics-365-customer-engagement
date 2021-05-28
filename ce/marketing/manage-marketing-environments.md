@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 12/02/2020
+ms.date: 05/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -118,7 +118,7 @@ As with copy operations, backup and restore operations typically require a few e
 > Backups **do not** include Marketing services or the data they contain. When you restore a backup, all organizational data, solutions, apps, and customizations will be present, but no interaction data, insights, or previously uploaded files will be available on the restored system. The situation is similar to that of [copying a Marketing environment](#copy-to-sandbox).
 
 > [!WARNING]
-> If you restore data in customer journey orchestration, all consents will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
+> If you restore data in real-time marketing, all consents will return to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
 
 ### Automatic system backups
 
@@ -231,6 +231,5 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 [Move configuration data across environments and organizations](/power-platform/admin/manage-configuration-data)  
 [Solutions overview](/powerapps/maker/common-data-service/solutions-overview)  
 [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
