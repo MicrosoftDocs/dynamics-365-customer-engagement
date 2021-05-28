@@ -44,18 +44,7 @@ The service managers must have the admin or service manager role to view the rep
 You can see the following reports by navigating to the **Service** > **Insights** > **Knowledge search analytics** page. Search term insights are displayed.
 
 > [!NOTE]
->
-> - The knowledge search analytics dashboard is currently available only in the following geographical locations:
->   - North America
->   - South America
->   - Canada
->   - United Kingdom
->   - Europe
->   - Japan
->   - India
->   - Asia Pacific
->   - Australia
-> - The knowledge base analytics dashboard supports only English content and is available only in organizations that have the base language set as English.
+> The knowledge base analytics dashboard supports only English content and is available only in organizations that have the base language set as English.
 
 ### See also
 
