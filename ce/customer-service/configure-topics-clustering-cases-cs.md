@@ -77,11 +77,15 @@ The topics capability in the Customer Service historical analytics reports comes
 - Simplified Chinese 
 - Spanish 
 
+> [!NOTE]
+> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+
 
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
 [Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
+[Topics Dashboard](case-topics-dashboard-cs.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
