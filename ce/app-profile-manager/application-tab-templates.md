@@ -122,16 +122,6 @@ The application type is used to display third-party websites as an application. 
 |----------------------------|------------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | url | The website URL to be displayed in the app tab. <br> **This field is required.** <br> | String <br> | `https://www.bing.com/search?q=`  |
 | data | Additional data parameter to be parsed with the url parameter. <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
-
-### Web resource
-
-The application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
-
-|Parameter | Description | Supported values | Example |
-|----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
-| webresourceName | Name of the web resource to open. | String | `msdyn_kbsearchpagehost.html`|
-| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
-
 #### How parsing works
 
 These examples are based on a scenario where the case was opened as the anchor tab in a new session with ticket number: `CAS-01003-P3B7G1`.
@@ -145,11 +135,18 @@ These examples are based on a scenario where the case was opened as the anchor t
 **Expected URL**: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
 > [!NOTE]
-> The url parameter requires the correct url format using 'http://'  or 'https://'.
-<!--
-To check if this text is still applicable.
+> The url parameter requires the correct url format using 'http://' or 'https://'.
+
 To learn more, see [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
--->
+
+### Web resource
+
+The application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
+
+|Parameter | Description | Supported values | Example |
+|----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
+| webresourceName | Name of the web resource to open. | String | `msdyn_kbsearchpagehost.html`|
+| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Out-of-the-box application tab templates
 
@@ -161,7 +158,6 @@ The out-of-the-box application tab templates are as follows:
 - Omnichannel Conversations Dashboard
 - Power BI
 - Search
-
 
 ### See also
 
