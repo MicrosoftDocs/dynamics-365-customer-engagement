@@ -20,7 +20,7 @@ The **Omnichannel intraday insights** dashboards provide information about the h
 - [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
-The information displayed in these reports is based on the conversations that were started or closed within the last 24hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace the report auto refreshes after every 5 minutes. 
+The information displayed in these reports is based on the conversations that were started or closed within the last 24 hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace, the report auto refreshes after every 5 minutes. 
 
 > [!IMPORTANT]
 > To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
