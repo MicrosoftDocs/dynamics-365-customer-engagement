@@ -20,7 +20,7 @@ The **Omnichannel intraday insights** dashboards provide information about the h
 - [Conversations insights](#conversations-insights)
 - [Agent insights](#agent-insights)
 
-The information displayed in these reports is based on the conversations that were started and closed within the last 24hours. The information displayed in these sections is based on the conversations that are currently not closed or have been closed within the last 24 hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace the report auto refreshes after every 5 minutes. 
+The information displayed in these reports is based on the conversations that were started or closed within the last 24hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace the report auto refreshes after every 5 minutes. 
 
 > [!IMPORTANT]
 > To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
@@ -83,7 +83,7 @@ This section consists of the following performance indicators.
 
 The agent insights report consists of metrics from an agent’s standpoint and provides an overview of agent performance.  The report shows all up agent metrics across all channels or channel wise agent performance. Supervisors can select the **All** tab to view agents performance across all channels or select **Live chat** or **Digital messaging** tabs to view the agent performance for the corresponding channel. Digital messaging includes all asynchronous channels like Facebook messenger, Twitter, WeChat, SMS etc. 
 
-The agent insights report consists of the following metrics.
+You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session. The agent insights report consists of the following metrics.
 
 > [!div class="mx-imgBorder"]
 > ![Agents insights dashboard](media/agents-insights-dashboard.png "Agents insights dashboard")
@@ -105,8 +105,6 @@ The agent insights report consists of the following metrics.
 | Transfer rate by agent | The percentage of sessions transferred by the agent to another agent or queue |
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue |
 | Consult acceptance rate | The percentage of consult requests accepted by an agent out of the total requests received | 
-
-You can view specific insights about the performance of individual agents or groups of agents, such as their availability, average length of time in conversations, and average response time per session.
 
 You can filter on a specific queue or set of queues to view more specific information about an agent or group of agents. You can select the **Status** field to modify the presence indicator for an agent. You can also hover over an agent's name and a pop-up window will appear, showing details such as the agent's presence, current conversations, and the sentiments of those conversations as well as an agent's available capacity across different capacity profiles. Unit based capacity is accounted against Unit capacity profile.
 
@@ -218,7 +216,7 @@ The **Ongoing conversations** table displays the following metrics.
 | Handle time (min) | Total time taken to accept and close the conversation |
 | Wrap time (min) | Total time in which the conversation was in the wrap stage |
 | Sentiment | The real-time sentiment analysis |
-| Created on | The date on which the conversation was created on. The date and time is displayed in the UTC format. |
+| Created on | The date on which the conversation was created on. The date and time is displayed in the UTC time zone. |
 | Conversation ID | The conversation's ID |
 
 The **Closed conversations** table provides information related to all the conversations that have been closed.
