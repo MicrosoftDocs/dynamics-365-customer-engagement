@@ -163,7 +163,7 @@ The request contains only one attribute – `CalendarEventInfo` and this is a *S
 | TimeZoneCode|	Integer|	No|	This key takes an integer value corresponding to the time zone for the calendar rules. Check the [TimeZoneCode](##timezonecode) section below for the mapping. Default value – user's time zone.
 | InnerCalendarDescription|	String|	No|	This key is only needed if the calendar rule is for Time Off. It should contain the reason for Time Off.| 
 | ObserveClosure|	Boolean|	No|	This key is specific to recurrences. If it is set to true, the entity will observe business closure.|
-|RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. Default value for occurrences – null. Default value for recurrences - 30 Dec 9999, 23:59:59 hours, UTC.|
+|RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. If the timestamp is 08:00:00 or lesser, the recurrence end date is one day before the specified date. If the timestamp is 08:00:01 or later, the date is respected as is. Default value for occurrences – null. Default value for recurrences - 30 Dec 9999, 23:59:59 hours, UTC.|
 |RecurrenceSplit|	Boolean|	No|	This key is specific to recurrences. It is set to true for editing “This and following occurrences” of a recurrence.|
 |ResourceId	| Guid |	No|	This key contains the SystemUserId or ResourceId and is only to be passed when the entity associated with this call is a bookable resource of type SystemUser. This is necessary to check for OwnCalendar privileges in the **Service Management** tab.
 
