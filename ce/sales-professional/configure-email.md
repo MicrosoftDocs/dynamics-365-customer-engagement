@@ -1,5 +1,5 @@
 ---
-title: "Set up email in Dynamics 365 Sales Professional by integrating with Exchange | MicrosoftDocs"
+title: "Set up email by integrating with Exchange - Sales Professional | MicrosoftDocs"
 description: "Enable users to send and receive emails by configuring email in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
 ms.service: dynamics-365-sales
@@ -73,7 +73,7 @@ For more information about managing subscriptions, go to [Manage Microsoft Dynam
         > - The primary email of the user is the same as the User Principal Name (UPN) attribute of the user.  
         > - The user is associated with the Sales Professional Person or Sales Professional Manager security role.  
 
-    -  For newly added users, you'll need to<!--note from editor: Edit okay? To make it clear that this doesn't happen in the background.--> manually test and enable the mailboxes.  
+    -  For newly added users, you'll need to manually test and enable the mailboxes.  
 
     - Dynamics 365 App for Outlook is automatically enabled for all users.
 
