@@ -55,11 +55,11 @@ You can enable Edge WebView2 Process in any of the following ways:
 
 ### Order of precedence
 
-- Setting the **GlobalBrowserMode** Global UII option value as **EdgeWebView2** takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have the hosting type set to **Chrome**. At the organization level, you set the **GlobalBrowserMode** Global UII option value as **EdgeWebView2**. In this scenario, the Global UII option takes precedence, and Edge WebView2 Process will host the applications. 
+- Setting the **GlobalBrowserMode** Global UII option value as **EdgeWebView2** takes precedence over the individual hosted control settings. <br><br>For example, some hosted controls have the hosting type set to **EdgeWebView2**. At the organization level, you set the **GlobalBrowserMode** Global UII option value as **EdgeWebView2**. In this scenario, the Global UII option takes precedence, and the configuration uses the Edge WebView2 Process to host the applications. 
 
-- Setting the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have their hosting type set to **Chrome**. For a few agents, you've set the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file on their desktops. The value set in the **UnifiedServiceDesk.exe.config** file takes precedence, and Edge WebView2 Process will host the applications on that desktop computer.<!--note from editor: Edit suggested (and I assume it's true that this precedence applies only to the local computer?).-->
+- Setting the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop takes precedence over the individual hosted control settings.<br><br>For example, some hosted controls have their hosting type set to **EdgeWebView2**. For a few agents, you've set the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file on their client desktops. The value set in the **UnifiedServiceDesk.exe.config** file takes precedence, and the configuration uses Edge WebView2 Process to host the applications.
 
-- Setting the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop takes precedence over other settings.<!--note from editor: What's the actual difference between this statement and the previous bullet? It seems to just have swapped "other settings" for "individual hosted control settings." Should it say something like "...takes precedence over all other settings"?  Or, can it be deleted entirely?-->
+- Setting the **GlobalBrowserMode** key to **EdgeWebView2** in the **UnifiedServiceDesk.exe.config** file for a particular client desktop takes precedence over other settings.
 
 <a name="create-a-hosted-control-with-hosting-type-as-edge-webview2"></a>
 
@@ -312,7 +312,7 @@ Edge WebView2 Process supports the ability to switch languages on webpages withi
 
 6. For the **Name** field, enter **EdgeWebView2Language**.
 
-7. For the **Value** field, enter the locale code. More information: [Languages Codes](https://go.microsoft.com/fwlink/p/?linkid=2153933)
+7. For the **Value** field, enter the locale code. More information: [Language Codes](../openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a)
 
     > [!NOTE]
     > Only the locales available in the path <C:\Program Files\Microsoft Dynamics CRM USD\USD\locales> are supported.
