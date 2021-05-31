@@ -58,5 +58,5 @@ The trial environment includes many of the same features as the paid version. Th
 ### Additional resources
 
 [Explore training on Microsoft Learn](/learn/browse/?filter-products=dynamics-customer-service)  
-[Watch videos on the product playlist](https://youtube.com)  
+[Watch videos on the product playlist](https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0)  
 
