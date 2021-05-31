@@ -10,7 +10,7 @@ ms.custom: template-get-started
 ms.reviewer: shujoshi
 ---
 
-# Sign up for a free trial of Customer Service
+# Sign up for a free Customer Service trial
 
 We offer a free 30-day trial for Dynamics 365 Customer Service. Installing the trial is a great way to try before you buy. After a quick setup, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even load your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview)
 
