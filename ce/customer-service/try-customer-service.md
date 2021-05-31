@@ -38,6 +38,15 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
 - Dynamics 365 Power Automate
     - To build customized and automated flows and business processes
 
+### How do I remove sample data from the trial instance?
+
+Your trial environment has been curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because this is a real environment, you can manually add or delete individual data records in your trial environment as you want. There is no option to bulk delete the sample data and configurations from the trial environments.
+
+### How do I reset or reimport sample data?
+
+Sample data comes with the trial environment and experience. To get a fresh dataset, you must wait for your trial to expire and start a new trial.
+
+
 ## What to try
 
 The trial environment includes many of the same features as the paid version. The following links will guide you through using some of the key features.
