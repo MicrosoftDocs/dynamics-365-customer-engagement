@@ -56,8 +56,6 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation.  |  Channel  |
 | Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
 
-> [!NOTE]
-> If you decline a conversation 10 times within a time span of 5 minutes, then the conversation will be moved to the **Closed** state.
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active1.png "Active state")
 
@@ -104,7 +102,7 @@ The Omnichannel for Customer Service application checks the conversations every 
 
 ### Default time for automatic closure of conversation
 
-All channels have different default cofigured time after which conversations can be moved to Closed. The administrator can change the default configured time as per the business requirement programmatically. To learn more, see [Set default time using APIs](#set-default-time-using-apis).
+All channels have different default configured time after which conversations can be moved to Closed. The administrator can change the default configured time as per the business requirement programmatically. To learn more, see [Set default time using APIs](#set-default-time-using-apis).
 
 The matrix describes the channel, status reason, and default configured time.
 
