@@ -38,7 +38,7 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 
 | From status reason | To status reason | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel and Entity Record |
+| Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel and Record |
 | Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
 
 ![Transition from open to active or closed](media/oc-conversation-open1.png "Transition from open to active or closed")
@@ -54,7 +54,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). | Channel |
 | Active        | Open             | When you disconnect the conversation and don't reconnect within a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Channel  |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation.  |  Channel  |
-| Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
+| Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
 > [!NOTE]
 > If you decline a conversation 10 times within a time span of 5 minutes, then the conversation will be moved to the **Closed** state.
@@ -114,8 +114,8 @@ The matrix describes the channel, status reason, and default configured time.
  | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
  | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic-closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
- | Entity records (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
- | Entity records (Case) | Active | None | For an entity channel, a conversation that is  **Active** won’t be automatically closed. |
+ | Records (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
+ | Records (Case) | Active | None | For an entity channel, a conversation that is  **Active** won’t be automatically closed. |
  |  |  |  |  |
  | SMS, Teams, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
@@ -146,6 +146,5 @@ Programmatically, you can change the default time and set it as per your organiz
 
 [View communication panel](oc-conversation-control.md)  
 [Automatic closure of a conversation](auto-close-conversation.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
