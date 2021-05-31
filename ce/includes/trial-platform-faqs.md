@@ -16,6 +16,9 @@ No problem. We’ve got you covered. When you sign up for the trial, you'll rece
 2.	Enter the email ID that you used, to sign up for the trial.  
     You'll be redirected to your trial instance.  
 
+### How do I sign up for the trial without a Microsoft 365 tenant?
+
+You can enter a non-work email address and we automatically create a tenant for you.
 
 ### How do I start using the trial?
 
@@ -42,6 +45,13 @@ To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com
 You can extend the trial for another 30 days in the admin center.
 <steps for trial extension>
 
+### How do I reset the trial environment?
+
+
+### Can I convert the trial to a paid license during the trial?
+
+
+### Can I convert the trial to a paid license after the trial?
 
 ### Why did my trial expire before 30 days?
 
@@ -50,3 +60,5 @@ It's possible that there's no activity on the trial instance for 14 consecutive 
 ### Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, Customer Service?
 
 Yes, you can. Access the [trial site]() for the app and sign up. You can use the same email account to sign up for multiple trials. However, each trial instance will be on a different organization and as such the data won’t be shared across apps. 
+
+### How do I cancel the trial?
