@@ -41,8 +41,8 @@ The advantages of using the Edge WebView2 Process hosting method are:
 
 Also, administrators will be able to perform the following:
 
-- Select Edge WebView2 process as the hosting type for the organization.
-- Select Edge WebView2 process as the hosting type for select web applications, alongside Chrome process.
+- Select Edge WebView2 Process as the hosting type for the organization.
+- Select Edge WebView2 Process as the hosting type for select web applications, alongside Chrome process.
 
 More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
 
@@ -392,7 +392,7 @@ These are the limitations:
 
 ::: moniker-end
 
-## See also  
+### See also
  [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)  
 
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)  
@@ -400,3 +400,4 @@ These are the limitations:
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
