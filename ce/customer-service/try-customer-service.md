@@ -20,6 +20,8 @@ To start the trial, go to the [Try Dynamics 365 Customer Service]( https://dynam
 
 ## Trial FAQ
 
+[!INCLUDE [trial-platform-faqs](../includes/trial-platform-faqs.md)]
+
 ### How do I start using the trial?
 
 Your trial is completely touchless. After you sign-up, all of the provisioning, installation, configuration, and setup is available out of the box. After you set up your trial, you will see the main screen of the app. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](<!--Link to the Additional resources section on your trial page-->).
