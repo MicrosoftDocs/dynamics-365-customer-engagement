@@ -80,15 +80,15 @@ You can add the custom KPIs that are specific to your organization to intraday i
    > [!div class=mx-imgBorder]
    > ![Verify created measure](media/supervisor-admin-custom-kpis-select-verify-measure-formula.png "Verify created measure")
 
-    To learn more about creating measure, see [Create a measures](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures#create-a-measure).
+    To learn more about creating measure, see [Create a measures](/power-bi/desktop-tutorial-create-measures#create-a-measure).
 
-8. Add the measure to your report. To learn more, see [Use your measure in the report](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report).
+8. Add the measure to your report. To learn more, see [Use your measure in the report](/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report).
 
 9. Publish the report.
 
     The custom KPI measure is added to the intraday insights dashboard.
 
-To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures).
+To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](/power-bi/desktop-tutorial-create-measures).
 
 ## Edit measures and visuals of existing KPIs
 

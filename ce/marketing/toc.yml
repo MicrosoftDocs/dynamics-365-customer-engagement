@@ -33,7 +33,7 @@
     - name: Uninstall Marketing
       href: uninstall-marketing.md
     - name: Installation and management FAQ
-      href: install-manage-faq.md
+      href: install-manage-faq.yml
   - name: Administration
     items: 
     - name: Administration overview
@@ -149,7 +149,7 @@
       - name: How the app uses cookies
         href: cookies.md
     - name: Administration and setup FAQ
-      href: setup-troubleshooting.md
+      href: setup-troubleshooting.yml
     - name: Known issues and workarounds
       href: known-issues.md
   - name: Marketing user guide
@@ -214,11 +214,11 @@
         href: custom-template-attributes.md
       - name: Design elements reference
         href: content-blocks-reference.md
-    - name: "Preview: Customer journey orchestration"
+    - name: "Preview: Real-time customer journey orchestration"
       items: 
-      - name: Customer journey orchestration user guide
+      - name: Real-time marketing user guide
         href: real-time-marketing-user-guide.yml
-      - name: Get started with customer journey orchestration
+      - name: Get started with real-time marketing
         items: 
         - name: Real-time marketing overview
           href: real-time-marketing-overview.md
@@ -358,7 +358,7 @@
         href: linkedin-matched-audience.md
       - name: Use Customer Insights segments in Marketing
         href: customer-insights-segments.md
-    - name: Customer journey orchestration
+    - name: Customer journeys
       items: 
       - name: Create automated campaigns with customer journeys
         href: customer-journeys-create-automated-campaigns.md

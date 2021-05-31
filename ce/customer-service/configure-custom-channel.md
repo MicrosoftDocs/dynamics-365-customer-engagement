@@ -62,7 +62,7 @@ After you add the messaging channel to the Bot Channel registration in Azure Bot
 
 In Omnichannel admin center, perform the following steps to configure a workstream for the custom messaging channel:
 
-1. [Create a workstream](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center).
+1. [Create a workstream](create-workstreams.md).
 2. [Configure work distribution](create-workstreams.md#configure-work-distribution)
 3. [Configure Advanced settings](create-workstreams.md#configure-advanced-settings)
 4. [Add a bot](create-workstreams.md#add-a-bot)
@@ -91,7 +91,7 @@ To configure other options in the work stream, see the following:
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](../app-profile-manager/productivity-tools.md)
 - [Smart assist](../app-profile-manager/smart-assist.md)
-- [Templates](templates-overview.md)
+- [Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)
 
 ## Step 4: Create a custom messaging account
 
@@ -226,7 +226,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](../app-profile-manager/productivity-tools.md)  
 [Smart assist](../app-profile-manager/smart-assist.md)  
-[Templates](templates-overview.md)  
+[Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

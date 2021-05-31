@@ -31,16 +31,16 @@ See the following section to learn the types of search mechanisms available:
 
 - **Full-text search**: Lets you run full-text queries against character-based data in SQL Server tables. 
  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Full-text search](/sql/relational-databases/search/full-text-search)
 
 - **Relevance search**:  Lets you search across multiple pre-defined entities and returns result sorted by relevance.  
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](https://docs.microsoft.com/powerapps/user/relevance-search)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relevance search](/powerapps/user/relevance-search)
    <br> 
 
-   See [Configure Relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) to learn how to configure Relevance search to improve search results and performance.
+   See [Configure Relevance search](/power-platform/admin/configure-relevance-search-organization) to learn how to configure Relevance search to improve search results and performance.
 
-   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).
+   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](/power-platform/admin/configure-relevance-search-organization).
 
 ## Search the knowledge base
 
@@ -64,7 +64,7 @@ You can search the knowledge base from the following areas in the Customer Servi
 
   
 > [!NOTE]
-> You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md).
+> You can also search the knowledge base using Portals. See [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
 
 
 With each of the previous search areas, the search results might vary based on the underlying search option used:

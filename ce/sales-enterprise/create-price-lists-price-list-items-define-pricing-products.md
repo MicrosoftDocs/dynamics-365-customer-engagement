@@ -110,7 +110,6 @@ Price lists tie the unit, product, and pricing details together, so before you c
             > [!div class="mx-imgBorder"]
             > ![Pricing information tab on the price list form](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
 
-        More information: [Price calculation for opportunity, quote, order, and invoice records](price-calculation-opportunity-quote-order-invoice-records.md)
  
 7.  You can also associate default price lists for territories so that the sales reps working with accounts on contacts in certain territories have the price list selected by default. 
 

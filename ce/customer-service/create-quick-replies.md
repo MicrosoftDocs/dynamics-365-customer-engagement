@@ -40,8 +40,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | {FirstName{Agent}}| The first name of the agent.|
     | {LastName{Agent}}| The last name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
-
-      For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
+    |||
 
 5. Select **Save**.
 
@@ -100,7 +99,7 @@ For example, when you set up a live chat widget or Facebook page, the quick repl
 [Create and manage operating hours](create-operating-hours.md)  
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)  
-[Language settings for agents](https://docs.microsoft.com/powerapps/user/set-personal-options)
+[Language settings for agents](/powerapps/user/set-personal-options)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
