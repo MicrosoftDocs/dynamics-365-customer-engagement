@@ -83,7 +83,7 @@ Use the Power Automate template that you created to connect to the knowledge bas
      > [!div class="mx-imgBorder"]
      > ![Add a solution](media/add-solution-KM-PVA.png "Add a solution")
 
-10. In the list of solutions, select the solution you just created. It should appear at the top of the list. If it doesn't, search by the convention you used in step 6 to name the solution.<!--note from editor: Edit okay? Or should step 6 be more firm about this and say something like "We recommend that you use your email as a prefix for the solution name"? In which case, this step would be fine the way you had it.-->
+10. In the list of solutions, select the solution you just created. It should appear at the top of the list. If it doesn't, search by the convention you used in step 6 to name the solution.
 
 11. In the solution, select **Add existing**, and then select **Cloud Flow** from the list.
 
