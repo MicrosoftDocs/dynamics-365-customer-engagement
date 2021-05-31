@@ -1,17 +1,16 @@
 ### Which email address I should use for signing up?
 
-There are three ways to sign up for a trial: 
+You can use of the following ways to sign up for a trial:
 
-1. If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account. To purchase a license, follow up with the administrator of your Microsoft corporate account.  
+- If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account. To purchase a license, follow up with the administrator of your Microsoft corporate account.
 
-2. If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, we'll create a temporary account for you. Use your personal email to sign up for trial and you'll be the administrator on the account and for the trial.  
+- If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, we'll create a temporary account for you. Use your personal email to sign up for trial and you'll be the administrator on the account and for the trial.
 
-3. If you're a business establishing a new relationship with Microsoft, use your business email address to set up your account. You can carry forward the account and retain it if you choose to purchase the license.  
+- If you're a business establishing a new relationship with Microsoft, use your business email address to set up your account. You can carry forward the account and retain it if you choose to purchase the license.
 
+### I don’t remember the link for my trial instance  
 
-### I don’t remember the URL for my trial instance  
-
-No problem. We’ve got you covered. When you sign up for the trial, you'll receive an email with the trial instance details. In case you don't see it in your inbox, check your spam folder. Alternatively, follow the steps below to access the instance: 
+No problem. We’ve got you covered. When you sign up for the trial, you'll receive an email with the trial instance details. In case you don't see it in your inbox, check your spam folder. Alternatively, use the following steps to access your instance:
  
 1.	Go to trial site and select **Get started**.  
 2.	Enter the email ID that you used, to sign up for the trial.  
@@ -20,7 +19,7 @@ No problem. We’ve got you covered. When you sign up for the trial, you'll rece
 
 ### How do I start using the trial?
 
- After  the trial instance is ready, you'll arrive on the Get Started page. The Get started page provides links to product tours and videos. To learn more, see [What to try](#what-to-try). 
+After the trial instance is ready, you'll arrive on the Get Started page. The Get started page provides links to product tours and videos. To learn more, see [What to try](#what-to-try).
 
 ### What are the trial limits and quotas?
 
@@ -32,11 +31,11 @@ The following limitations apply for the trial:
 
 ### What are the system requirements for the trial?
 
-- This app is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements)
+This is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements)
 
 ### How can I add more users to a trial?
 
-- To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit.
+To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit.
 
 ### How do I extend the trial?
 
