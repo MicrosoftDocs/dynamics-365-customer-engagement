@@ -99,8 +99,8 @@ The parameters available for the entity record application type when opening an 
 -->
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
-| entityName | Logical name of the entity. | - String <br> - Slugs <br> | <br> - account <br> - `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`|
-| entityId  | GUID of the entity record. | - String <br> - Slugs <br> - odata <br> | <br> - `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> - `{anchor.new_entityid}` <br> - `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
+| entityName | Logical name of the entity. | - String <br> - Slugs <br> | - account <br> - `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`|
+| entityId  | GUID of the entity record. | - String <br> - Slugs <br> - odata <br> | - `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> - `{anchor.new_entityid}` <br> - `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
 | formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 The parameters available for the entity record application type when opening an entity form to create a new record are as follows:
