@@ -77,7 +77,7 @@ When an administrator enables simplified navigation, the navigation options will
   - Search for and select a record from the Home session and open the record in a new session. 
   - Search for and select a record from an existing session and open the record on a new tab.
 
-- In a session that's already open, you'll be able to use the following navigation to open records or search for them:
+- In a session that's already open, you'll be able to use the following navigation to open records.
 
   - Select a related record from a form in a session to automatically open the record on a new tab within the same session.
   - Select a related record from the timeline to automatically open the record on a new tab within the same session.
@@ -97,7 +97,7 @@ When an administrator enables simplified navigation, the navigation options will
 
    - Select a case. The case record opens on a session tab.
    - Select the customer in the case. The customer record opens on an application tab.
-   - Select a customer in the list on the dashboard. The customer record opens on the session tab.
+  
 
 
 ### Admin: Configure the simplified navigation experience
