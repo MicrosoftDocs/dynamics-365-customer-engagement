@@ -20,8 +20,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Topics dashboard
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases to help you better understand how different case types and topic areas are impacting your organization’s support performance.
 
 ![Topics dashboard](media/topics-dashboard-analytics-cs.png "Topics dashboard")
@@ -85,6 +83,23 @@ The suggested trigger phases as well as the topic based on the case title is pro
 
 > [!NOTE]
 > Any bots created through the Microsoft Teams channel will not be listed in the bot selection list. Users who create bots by using the drill down page for a topic in Customer Service workspace will be redirected to Customer Service Hub for form completion. 
+
+## Language availability for topics 
+
+The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages: 
+
+- English 
+- French 
+- German 
+- Italian 
+- Japanese 
+- Portuguese 
+- Simplified Chinese 
+- Spanish 
+
+> [!NOTE]
+> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+
 
 ### See also
 

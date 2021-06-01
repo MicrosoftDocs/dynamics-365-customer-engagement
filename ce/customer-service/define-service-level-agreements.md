@@ -432,7 +432,7 @@ For a Case entity, set an SLA as the default if you want it to apply to all case
 To set an SLA as the default, select an active SLA from the list, and then select **Set as Default** on the command bar.  
 
 > [!NOTE]
->  If you deactivate a default SLA, you must activate it again before resetting it as the default.  
+> If you deactivate a default SLA, you must activate it again before resetting it as the default.  
 
 ## Disable an SLA in Customer Service app
 
@@ -440,12 +440,15 @@ During maintenance activities or when you're importing records and you don't wan
 
 ## How an is SLA applied<a name="how-is-the-sla-applied"></a>
 
-When a record is created, the SLA is applied (either by default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change&mdash;that is, when the fields that are added in the **Applicable When** conditions of the SLA change&mdash;the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.  
+When a record is created, the SLA is applied (either by default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change&mdash;that is, when the fields that are added in the **Applicable When** conditions of the SLA change&mdash;the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.
 
-When the SLA is applied again, all the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.  
+When the SLA is applied again, all of the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.
+
 
 > [!NOTE]
->  You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
+>
+> - In Unified Interface, after the SLA moves to a terminal status, which is non-compliant or succeeded, the applicable when and success criteria will not be evaluated again on the SLA.
+> - You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
 
 ## Apply SLAs on demand<a name="apply-sla-on-demand"></a>
 

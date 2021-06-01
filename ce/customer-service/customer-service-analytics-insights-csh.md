@@ -84,7 +84,7 @@ The Conversation dashboard gives you a broad overview of the assisted support cu
 > [!div class="mx-imgBorder"]
 > ![Conversation dashboard](media/conversation-dashboard.png "Conversation dashboard")
 
-For more details about the conversation report, see [Conversation dashboard](conversation-dashboard.md)
+For more details about the conversation report, see [Conversation dashboard](oc-conversation-dashboard.md)
 
 
 ### Queue
