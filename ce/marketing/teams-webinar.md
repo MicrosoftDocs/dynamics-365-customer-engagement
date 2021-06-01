@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 05/28/2021
+ms.date: 06/01/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -80,7 +80,7 @@ The Teams meetings option allows you to create an interactive online meeting exp
 ### Teams live events
 
 > [!NOTE]
-> We recommend that you use Teams webinars for your presentation event needs. Although Teams live events are still available, Teams webinars provide richer functionality out of the box.
+> We recommend that you use Teams webinars for your presentation event needs. Although Teams live events are still available, Teams webinars provide richer functionality (such as the ability to use [breakout rooms](https://support.microsoft.com/office/use-breakout-rooms-in-teams-meetings-7de1f48a-da07-466c-a5ab-4ebace28e461)) out of the box.
 
 Use Teams live events to create webinar-style online meetings. Live event presenters can share content, video, and audio. Attendees can view the content, but cannot share their own audio, video, or content.
 
