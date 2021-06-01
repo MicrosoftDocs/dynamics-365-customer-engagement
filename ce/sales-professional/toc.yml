@@ -54,9 +54,9 @@
         href: manage-leads-sales-professional.md
       - name: Create or edit opportunities
         href: manage-opportunities-sales-professional.md
-      - name: Add products to an opportunity
+      - name: Add products to opportunity
         href: add-products-opportunity-sp.md
-      - name: Add products to an opportunity by using the enhanced experience
+      - name: Add products to opportunity by using enhanced experience
         href: add-products-enhanced-experience-sp.md
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view-sp.md
@@ -70,8 +70,10 @@
         href: create-orders-sp.md
       - name: Create and manage invoices
         href: create-invoices.md
-      - name: Add products to a quote, order, or invoice
+      - name: Add products to quote, order, or invoice
         href: add-product-quote-order-invoice-sp.md
+      - name: Add products to quote, order, or invoice by using enhanced experience
+        href: add-products-qoi-enhanced-sp.md
     - name: Set up a product catalog
       items: 
       - name: Create products
@@ -176,6 +178,8 @@
       href: customize-business-process-flows.md
     - name: Customize the Opportunity Close form
       href: customize-opportunity-close-experience-sales-professional.md
+    - name: Customize the Add Products dialog box
+      href: customize-add-products-dialog-box-sp.md
     - name: Customize the Dynamics 365 Sales Professional app
       href: manage-app.md
   - name: Integrations
