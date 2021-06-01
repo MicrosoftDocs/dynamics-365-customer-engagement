@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 Use the Omnichannel admin center app to quickly configure and add a chat widget to your portal to chat with your website visitors. To configure a chat widget and embed it in portal, you must:
 
-## Step 1: Create a workstream for live chat
+## Step 1: Create a workstream for chat
 
 1. Sign in to Dynamics 365, and open the Omnichannel Admin center app.
 2. In the site map, go to **Workstreams** in **General Settings**, and select **New** from the command bar.
