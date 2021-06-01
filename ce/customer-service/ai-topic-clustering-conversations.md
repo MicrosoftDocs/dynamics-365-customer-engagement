@@ -43,10 +43,10 @@ The topics capability in the Omnichannel historical analytics reports comes with
 
 - English
 - French
-- German 
+- German
 - Italian
 - Japanese
-- Portugese
+- Portuguese
 - Simplified Chinese
 - Spanish
 

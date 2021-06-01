@@ -38,4 +38,4 @@ No valid entitlement for this email sender.
 
 No applicable reason can be specified.
 
-**Resolution**: If the reason is empty and the state says **Ready for workflow/Power automate**, and the case doesn't get created, then check systemjobs if it's a legacy rule, or check flow runs if it's a modern rule.
+**Resolution**: If the reason is empty and the state says **Ready for workflow/Power automate**, and the case doesn't get created, then check system jobs if it's a legacy rule, or check flow runs if it's a modern rule.
