@@ -22,7 +22,7 @@ If your organization uses custom roles, and you want a user with the custom role
 
 ## Roles for Customer Service workspace
 
-By default, the privileges pertaining to the App Profile Userrole have been added to the Customer Service Representative and CSR Manager roles out of the box. You need to manually provide the App Profile Manager Administrator role to the user who will create app profiles, templates, productivity tools, and channel provider configurations.
+By default, the privileges pertaining to the App Profile User role have been added to the Customer Service Representative and CSR Manager roles out of the box. You need to manually provide the App Profile Manager Administrator role to the user who will create app profiles, templates, productivity tools, and channel provider configurations.
 
 ## Roles for Omnichannel for Customer Service
 
