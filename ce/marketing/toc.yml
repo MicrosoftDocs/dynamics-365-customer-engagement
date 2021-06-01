@@ -10,6 +10,8 @@
     items: 
     - name: Sign up for a free trial
       href: trial-signup.md
+    - name: Trial FAQ
+      href: trial-faq.yml
     - name: Purchase and set up Dynamics 365 Marketing
       href: purchase-setup.md
     - name: Integrate Marketing with a CMS system or Power Apps portals
