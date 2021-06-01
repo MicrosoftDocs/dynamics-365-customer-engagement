@@ -65,7 +65,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
     - Select **Save** to save the rule.
   
 
-      ![similar case configuration](media/similar-case-config.PNG)
+      ![Similar case configuration](media/similar-case-config.PNG "Similar case configuration")
 
   1. In the **Match Fields** tab:
 
@@ -80,7 +80,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
        | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. <br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
        |||
 
-       ![similar-case-rule](media/similar-case-rule.PNG)
+       ![Similar case rule](media/similar-case-rule.PNG "Similar case rule")
 
 5. Select **Save** to save the rule.
 

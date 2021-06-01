@@ -43,7 +43,7 @@ To provision unified routing in Customer Service, do the following:
      
      The permissions are as follows:
       - **Access Common data Service as organization users**: Is required by Omnichannel for Customer Service to write conversation data to Dynamics 365 on behalf of the agent.
-      - **Sign in and read user profile**: Is required for the app to acquire an Azure Active Directory token as the user to access Omnchannel for Customer Service back-end applications.
+      - **Sign in and read user profile**: Is required for the app to acquire an Azure Active Directory token as the user to access Omnichannel for Customer Service back-end applications.
       - **Read and write all dashboards, Read and write all reports, Read and write all workspaces**: Are required for Omnichannel for Customer Service analytics. The application is used for configuring analytics for the customer using Microsoft Power BI, which requests access to Power BI workspaces or reports.
       
       Select **Accept**. The provisioning of unified routing starts.
