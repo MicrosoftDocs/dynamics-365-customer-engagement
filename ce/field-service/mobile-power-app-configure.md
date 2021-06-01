@@ -3,7 +3,7 @@ title: "Customize the Field Service (Dynamics 365) mobile app SiteMap, forms, an
 description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/30/2020
+ms.date: 06/01/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -99,6 +99,10 @@ Add and delete booking fields as needed.
 
 Another way you can add work order information to the booking form is to add a [quick view form](../customerengagement/on-premises/customize/create-edit-quick-view-forms.md) that displays work order fields. Quick view forms are read-only, but you can go to the related work order form from there.
 
+>[!TIP] 
+> The combined _Booking and Work Order_ form is made possible by a PCF control called "Form component control" See the topic on
+[Editing related table records directly from another table’s main form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/form-component-control) for more details.
+
 For more information, see the article on [customizing entity forms](/powerapps/developer/model-driven-apps/customize-entity-forms).
 
 ## Edit views
@@ -113,6 +117,8 @@ For more information, see the article on [customizing entity forms](/powerapps/d
 ### See also
 
 - [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [Model-driven apps developer documentation](https://docs.microsoft.com/powerapps/developer/model-driven-apps/)
 - [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
+- [Editing related table records directly from another table’s main form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/form-component-control)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

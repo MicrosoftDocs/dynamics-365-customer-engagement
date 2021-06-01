@@ -118,6 +118,8 @@ By default, Dynamics 365 Field Service is configured to search against account, 
 > [!Note]
 > If you are using offline first the record will need to be included in your offline profile and downlaoded to the device to display in search results. 
 
+### See also
 
+[getBarcodeValue - Power Apps](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
