@@ -19,7 +19,7 @@ search.app:
 
 # Sign up for a free trial
 
-Our app offers a free 30-day trial. Installing the trial is a great way to try before you buy. After a quick setup, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even load your own customer data. [Learn more about the features](overview.md)
+Our app offers a free 30-day trial. Installing the trial is a great way to try before you buy. After a quick setup, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even load your own customer data. [Learn more about Dynamics 365 Marketing features](overview.md)
 
 ## Set up your trial
 
