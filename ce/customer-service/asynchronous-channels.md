@@ -18,13 +18,13 @@ ms.reviewer: nenellim
 
 The following table lists the cards that are supported across different channels when you're using bots. The support categories are intentionally broad because many possible combinations of cards, features, and channels are applicable. We recommend that you use the information in the table as a base reference, and test each of your cards in the required channels.
 
-| Channel | Adaptive card | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
-|----------|---------------|-----------|----------------|-------------|------------|----|
-| Microsoft Teams  | ✔      | ✔     |  ✔   | ✔  | ✖  | ✔  |
-| Facebook  | ⚠🔶  | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
-| LINE    | ⚠🔶 | ✔ | ✔   | ✔ | 🌐  | ✔|
-| Custom (Telegram)  | ⚠🔶 | ✔ | ✔ | ✔ | 🌐 | ✔ |
-| Custom (Direct Line) | ✔ | ✔ |  ✔ | ✔ | ✔*  | ✔* |
+| Channel | Hero card | Thumbnail card | Sign in card |Audio card | CardCarousel |
+|---------------|-----------|----------------|-------------|------------|----|
+| Microsoft Teams  | ✔     |  ✔   | ✔  | ✖  | ✔  |
+| Facebook | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
+| LINE    | ✔ | ✔   | ✔ | 🌐  | ✔|
+| Custom (Telegram)  | ✔ | ✔ | ✔ | 🌐 | ✔ |
+| Custom (Direct Line) | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
 
 ✔: Supported; card is supported fully with the exception that some channels support a subset of the card actions. They might limit the number of actions allowed on each card that varies by channel.
@@ -39,7 +39,7 @@ The following table lists the cards that are supported across different channels
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
-The markdown element for adaptive cards is supported in live chats.
+Adaptive card elements like text block and images are supported across channels. Elements like the markdown element is fully supported in Facebook, Line, custom (Telegram), and live chat channels but is only partially supported in Teams and custom (Direct Line).
 
 Cards such as receipt card and animation cards are not supported across all channels. Other social channels, such as Twitter, SMS, WhatsApp, and WeChat don't support any cards listed in the preceding table.
 
