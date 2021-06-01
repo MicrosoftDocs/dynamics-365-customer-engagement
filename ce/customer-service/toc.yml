@@ -140,8 +140,6 @@
           href: multiple-ws-entity-record-routing.md  
         - name: Route records in Omnichannel Administration app
           href: entity-channel.md
-        - name: Route records using unified routing
-          href: routing-trigger.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
@@ -176,6 +174,8 @@
         href: unified-routing-work-distribution.md  
     - name: Agent experience
       items:
+      - name: Route records using unified routing
+        href: routing-trigger.md
       - name: Work with queues
         href: work-with-queues.md
       - name: Manage case queues and route cases
