@@ -23,7 +23,6 @@ The following table lists the cards that are supported across different channels
 | Microsoft Teams  | ✔      | ✔     |  ✔   | ✔  | ✖  | ✔  |
 | Facebook  | ⚠🔶  | ✔  |  ✔  | ✔ | 🌐  |  ✔| 
 | LINE    | ⚠🔶 | ✔ | ✔   | ✔ | 🌐  | ✔|
-|live chat | ✔ | ✖  | ✔ |  ✔   |  ✖  | ✔ |
 | Custom (Telegram)  | ⚠🔶 | ✔ | ✔ | ✔ | 🌐 | ✔ |
 | Custom (Direct Line) | ✔ | ✔ |  ✔ | ✔ | ✔*  | ✔* |
 
@@ -40,7 +39,7 @@ The following table lists the cards that are supported across different channels
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
-The markdown element for adaptive cards is supported in live chats. For more information on other adaptive card elements, see 
+The markdown element for adaptive cards is supported in live chats.
 
 Cards such as receipt card and animation cards are not supported across all channels. Other social channels, such as Twitter, SMS, WhatsApp, and WeChat don't support any cards listed in the preceding table.
 
