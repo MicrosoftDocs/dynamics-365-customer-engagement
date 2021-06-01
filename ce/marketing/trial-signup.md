@@ -26,7 +26,7 @@ Our app offers a free 30-day trial. Installing the trial is a great way to try b
 To start the trial:
 
 - Go to the [trial overview page](https://dynamics.microsoft.com/marketing/overview/) and select the **Get started** button. 
-- Then, follow the onscreen guidance to enter your email and contact information. The trial will take a few moments to set up, then you will be ready to start using the app.
+- Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and contact information. The trial will take a few moments to set up, then you will be ready to start using the app.
 
 ## What to try
 
