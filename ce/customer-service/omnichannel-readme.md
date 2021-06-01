@@ -30,7 +30,7 @@ For example, you've completed executing two agent scripts and three steps in the
 
 When you host first- or third-party URLs in Omnichannel for Customer Service using the application tab, and when an agent switches from the current application tab to another application tab within the session or switches to another session, the application that is hosted in the tab will be refreshed to the initial state. 
 
-For example, your session has two application tabs, **Knowledge Search** and **Bing Search** (`https://www.bing.com`. You select the **Bing Search** tab and see the Bing search page. Now, you'll search for a keyword - **Latest Surface laptop**, and the search results are displayed.  When you switch from  **Bing Search** to **Knowledge Search**, and again switch to **Bing Search**, the search page is refreshed, and you'll see the Bing search page.
+For example, your session has two application tabs, **Knowledge Search** and **Bing Search** (`https://www.bing.com`). You select the **Bing Search** tab and see the Bing search page. Now, you'll search for a keyword - **Latest Surface laptop**, and the search results are displayed.  When you switch from  **Bing Search** to **Knowledge Search**, and again switch to **Bing Search**, the search page is refreshed, and you'll see the Bing search page.
 
 ## Install routing rules solution to use entity records routing
 
