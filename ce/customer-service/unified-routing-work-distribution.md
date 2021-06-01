@@ -1,6 +1,6 @@
 ---
-title: Understand routing and work distribution | MicrosoftDocs
-description: Understand about routing and work distribution in Omnichannel for Customer Service
+title: Routing and assignment in Omnichannel Administration | MicrosoftDocs
+description: Understand about routing and work assignment in Omnichannel Administration
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,26 +9,25 @@ ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
 
-# Understand routing and work distribution
+# Routing and assignment in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Intelligent work item classification and omnichannel routing capabilities enable the flexibility and automation of AI-enabled workflows that increase routing efficiency and decrease human effort.
+> [!NOTE]
+> If your Omnichannel for Customer Service instance has been upgraded to the 2021 release wave 1, you can start using unified routing. More information: [Overview of unified routing](overview-unified-routing.md)
 
-Traditionally, organizations use queue-based routing, where incoming service requests are routed to a relevant queue, and agents work on those service requests by picking them from the queue. Organizations can miss service-level agreements if agents pick the easier service requests and leave the higher-priority requests in the queue. To address this scenario, organizations either create custom workflows to periodically distribute service requests among their agents or have dedicated personnel to distribute the service requests equitably among agents while adhering to organizational and customer preferences. Both methods are inefficient and error-prone, and necessitate continuous queue supervision.
+Routing and work assignment ensures that conversations from all the channels are routed to agents efficiently.
 
-The intelligent routing service in Dynamics 365 Customer Service uses a combination of AI models and rules to assign incoming service requests from all channels (cases, entities, chat, digital messages, and voice) to the best-suited agents. The assignment rules take into account customer-specified criteria, such as priority and autoskills matching. The new routing service eliminates the need for constant queue supervision and manual work distribution to offer operational efficiencies for organizations.
-
-Advantages of routing and work distribution are as follows:
+Advantages of routing and work assignment are as follows:
 
 - Automate work assignments across channels.
 - Set up work assignments for the best available agents based on their capacity and presence.
 - Analyze and manage agent productivity across channels.
 
-Routing and work distribution is a two-step process:
+Routing and work assignment is a two-step process:
 
 1. Routing dispatches conversations into the right queues.
-2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
+2. Work assignment allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 ## Overview of routing system
 
@@ -36,76 +35,54 @@ A customer initiates a conversation from the portal, and the conversation reache
 
 The routing rules condition is based on the channel, CRM, and customer context that you, as an administrator, define in the Omnichannel Administration app.
 
-When the conversation reaches to the queues, the work distribution system distributes the conversation based on certain triggers. To learn more, see [Overview of work distribution system](unified-routing-work-distribution.md#overview-of-work-distribution-system)
+When the conversation reaches to the queues, the work assignment system assigns the conversation based on triggers that are explained in the following sections.
 
-## Overview of work distribution system
+## Overview of work assignment system
 
 > [!IMPORTANT]
 >
-> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work distribution. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](assignment-methods.md).
+> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work assignment. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](assignment-methods.md).
 
-The work distribution system assigns the conversation (work item) to an agent based on the following triggers:
+The work assignment system assigns the conversation (work item) to an agent based on the following triggers:
 
 - Work item available trigger
 - Agent available trigger
 
 ### Work item available trigger
 
-When a conversation is present in a queue, the work distribution system searches for the best available agent based on the capacity and presence if there are no other conversations present in the queue.
+When a conversation is present in a queue, the work assignment system searches for the best available agent based on the capacity and presence if there are no other conversations present in the queue.
 
 If there are other conversations present in the queues, then the conversation will be added to the end of the queue and will be assigned to the agents after other conversations are assigned.
 
-If one or more agents are available, then the work distribution system takes a course of action based on the following scenarios.
-
-  | Sl no | Scenario | Work distribution system action |
-  |---------------|-----------------|---------------------------------------|
-  | 1 | One or more agent is available | Assigns the conversation to an agent with the highest available capacity |
-  | 2 | One or more agent is available with same capacity | Assigns the conversation to an agent who has a lesser number of active sessions for the current workstream |
-  | 3 | One or more agent is available with same capacity and number of active sessions | Assigns the conversation to an agent who is waiting for a longer duration for a conversation |
-
-   > [!Note]
-   > - The work distribution system gives higher priority to the agents who have worked and got disconnected from a conversation in the past.
-   > - The work distribution system gives lower priority to the agents who have rejected, transferred, or timed out the conversation.
-
 ### Agent available trigger
 
-The work distribution system assigns one of the existing conversations that is in the queues when an agent is available.
+The work assignment system assigns one of the existing conversations that is in the queues when an agent is available.
 
 An agent is available in the following scenarios:
 
- - When an agent signs in to the Omnichannel for Customer Service app.
- - When an agent presence status changes from one state to another, such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**. An agent is also available depending on the allowed presence that is configured for the work stream.
- - When an agent capacity changes due to the closure of a conversation or assignment of a conversation.
- - The agent affinity is set to yes for a work stream.
+- When an agent signs in to the Omnichannel for Customer Service app.
+- When an agent presence status changes from one state to another, such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**. An agent is also available depending on the allowed presence that is configured for the work stream.
+- When an agent capacity changes due to the closure of a conversation or assignment of a conversation.
+- The agent affinity is set to yes for a work stream.
 
-Whenever agents are available, the work distribution system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to the agent who satisfies the capacity condition.
+Whenever agents are available, the work assignment system always retrieves the oldest conversations (longer duration) that is present in the highest priority queue and assigns the conversation to the agent who satisfies the capacity condition.
 
-When more than one conversation satisfies the capacity, then the work distribution system takes a course of action based on the following scenarios.
+## Scenario walk-through of routing and work assignment
 
-  | Sl no | Scenario | Work distribution system action |
-  |---------------|-----------------|---------------------------------------|
-  | 1 | More than one conversation | Assigns the conversation from the high priority queue |
-  | 2 | More than one conversation in the high priority queue | Assigns the conversation that is oldest (longer duration) in the high priority queue |
+The following section outlines a scenario to understand unified routing and work assignment and how conversations are assigned to agents.
 
-> [!Note]
-> If an agent has rejected, transferred, timed out a conversation, then the work distribution system gives lower priority to these conversations over other existing conversations in the queue.
-
-## Scenario walk-through of unified routing and work distribution 
-
-The following section outlines a scenario to understand unified routing and work distribution and how conversations are assigned to agents.
-
-A customer initiates a conversation (chat) regarding **Billing**. Now, unified routing and work distribution help route the conversation to the **Billing** queue, and assign the conversation to an agent who is a member of the queue with the required presence and capacity. This is shown in the following illustration.
+A customer initiates a conversation (chat) regarding **Billing**. Now, routing and work assignment help route the conversation to the **Billing** queue, and assign the conversation to an agent who is a member of the queue with the required presence and capacity. This is shown in the following illustration.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](media/oc-scenario.png)
+> ![Routing and work assignment scenario](media/oc-scenario.png)
 
 Let us see the steps involved in the scenario walk-through.
 
-- When a chat conversation originates from the customer, the system identifies the channel, and the routing and work distribution configuration details are applied. These configuration details are defined in the workstreams. Learn more, see [Understand and create work streams](work-streams-introduction.md).
+- When a chat conversation originates from the customer, the system identifies the channel, and the routing and work assignment configuration details are applied. These configuration details are defined in the workstreams. Learn more, see [Understand and create work streams](create-workstreams-oca.md).
 
     In this walk-through, the system identifies the work stream as **Product & Billing live chat** and applies the configuration details of the  work stream to the incoming conversation. In this work-stream, the conversation requires a capacity of **50 units**. This implies that when the system assigns this conversation to an agent, the system blocks 50 units of agent’s capacity.
 
-- Next, the routing and work distribution logic starts. With the help of context variables, **Routing rules** identify that the conversation belongs to the **Billing** queue, and the system routes to the **Billing** queue. 
+- Next, the routing and work assignment logic starts. With the help of context variables, **Routing rules** identify that the conversation belongs to the **Billing** queue, and the system routes to the **Billing** queue.
 
 - As the conversation reaches the Billing queue, the system  allocates the conversation to one of the agents of the Billing queue, who satisfy the following criteria:
 
@@ -139,7 +116,7 @@ To effectively route and distribute work to agents, admins can set up the follow
 
 - [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 - [Manage users in Omnichannel for Customer Service](users-user-profiles.md)
-- [Understand and create work streams](work-streams-introduction.md)
+- [Understand and create work streams](create-workstreams-oca.md)
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an SMS channel](configure-sms-channel.md)
 - [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
@@ -150,8 +127,6 @@ To effectively route and distribute work to agents, admins can set up the follow
 ### See also
 
 [Omnichannel for Customer Service for administrators](omnichannel-administrator.md)  
-
-
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
