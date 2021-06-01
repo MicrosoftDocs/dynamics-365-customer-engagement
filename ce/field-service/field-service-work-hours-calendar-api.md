@@ -32,7 +32,7 @@ This article contains details of each API's input (request) and output (response
 
 ## Prerequisites
 
-- Platform version 9.2.21055 or above with Field Service version 8.8.42.31.
+- Platform version 9.2.21055 or above with Universal Resource Scheduling version 3.12.45.7.
 - Usage of one of the following record types: 
   - [Bookable resource](/dynamics365/customer-engagement/web-api/bookableresource?view=dynamics-ce-odata-9), 
   - [Resource requirement](/dynamics365/customer-engagement/web-api/msdyn_resourcerequirement?view=dynamics-ce-odata-9), 
