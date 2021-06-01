@@ -31,7 +31,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
  Set up automatic suggestion of similar cases by creating advanced similarity rules. The rules you create use the Relevance search mechanism.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](/powerapps/user/search-records)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](/powerapps/user/relevance-search)
 
 > [!IMPORTANT]
 > It is recommended to enable Relevance search for your org to see the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand how relevance search impacts search results](#understand-how-relevance-search-impacts-search-results)
