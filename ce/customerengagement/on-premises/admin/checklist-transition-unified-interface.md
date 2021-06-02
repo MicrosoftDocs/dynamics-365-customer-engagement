@@ -52,7 +52,7 @@ The solution checker analyzes these solution components:
 
 -   Even if the all issues aren’t directly associated with Unified Interface, we recommend that you spend time reviewing them to improve the overall health of your application.
 
-For more information about Power Apps Checker, go to [Power Apps solution checker](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker).
+For more information about Power Apps Checker, go to [Power Apps solution checker](/powerapps/maker/data-platform/use-powerapps-checker).
 
 ## Check third-party solutions compatibility with Unified Interface
 
@@ -206,9 +206,9 @@ This is the opportunity to rethink the experience in the context of business pro
 
 -   Embed **Power BI** reports and tiles in forms: consolidate data across multiple systems in a single view. -->
 
--   Consider leveraging **Interactive Dashboards** to configure a one-stop workplace that allows global filtering across dashboard components. More information: [Configure interactive experience dashboards](../customize/configure-interactive-dashboards.md)
+-  Consider leveraging **Interactive Dashboards** to configure a one-stop workplace that allows global filtering across dashboard components. More information: [Configure interactive experience dashboards](../customize/configure-interactive-dashboards.md)
 
-Configure **Custom Help Panes and Guided Tasks** so that users quickly get help and guidance.
+- Configure **Custom Help Panes and Guided Tasks** so that users quickly get help and guidance. More information: [Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
 
 ## Conduct user acceptance testing
 
