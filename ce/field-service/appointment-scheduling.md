@@ -141,7 +141,7 @@ You may further verify that the deprecated configuration has been turned off, by
 > ![Screenshot to verify deprecated configuration has been turned off.](./media/Appointment03-DeprecatedFeatureIsOff.png)
 
 
- Previously, the schedule board and scheduling operations used only [bookings](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. If you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This functionality created issues when changes in bookings did not reflect in appointments and vice versa. This April 2021 Wave 1 feature adds [Microsoft Dataverse appointments](/dynamics365/customer-engagement/web-api/appointment) as another data source for resource scheduling.
+ Previously, the schedule board and scheduling operations used only [bookings](/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. If you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This functionality created issues when changes in bookings did not reflect in appointments and vice versa. This April 2021 Wave 1 feature adds [Microsoft Dataverse appointments](/dynamics365/customer-engagement/web-api/appointment) as another data source for resource scheduling.
 
 Now Microsoft Dataverse appointments are included directly in resource scheduling, so there is no longer any need to have bookings automatically created for appointments and to face the issue of changes in one not reflecting in the other. 
 
