@@ -283,7 +283,7 @@ More information: [Create guided help for your Unified Interface app](/powerapps
 
 ## Power Apps Checker module for PowerShell
 
-This module is for solution developers to perform rich static analysis checks on their solutions against a set of best practice rules to quickly identify problematic patterns. More information: [Get started using the PowerApps checker module](/powershell/powerapps/get-started-powerapps-checker?view=pa-ps-latest#report-format)
+This module is for solution developers to perform rich static analysis checks on their solutions against a set of best practice rules to quickly identify problematic patterns. More information: [Get started using the PowerApps checker module](/powershell/powerapps/get-started-powerapps-checker?view=pa-ps-latest&preserve-view=true)
 
 ## Create, update, and delete transaction support for virtual entities
 
