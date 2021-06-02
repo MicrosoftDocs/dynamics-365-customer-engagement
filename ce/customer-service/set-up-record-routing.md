@@ -4,7 +4,7 @@ description: "Learn how to set up record routing in Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2021
+ms.date: 05/31/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -16,6 +16,11 @@ ms.service: dynamics-365-customerservice
 You can configure routing for records in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
 If you have only Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
+
+> [!IMPORTANT]
+> 
+> - Once you enable the unified routing feature in the configuration settings, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
+> - If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating the required workstreams for record routing.
 
 ## Prerequisites
 
@@ -29,16 +34,32 @@ To provision unified routing in Customer Service, do the following:
 
 1. In Customer Service Hub, go to **Service Management**.
 2. In the site map, under **Service Terms**, select **Service Configuration**.
-3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see a message that unified routing is being provisioned.
+3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see one of the following:
+
+   - A request to grant consent to access data.
+      
+      > [!div class=mx-imgBorder]
+      > ![Consent to allow access to data](media/data-consent.png "Consent to allow access to data")
+     
+     The permissions are as follows:
+      - **Access Common data Service as organization users**: Is required by Omnichannel for Customer Service to write conversation data to Dynamics 365 on behalf of the agent.
+      - **Sign in and read user profile**: Is required for the app to acquire an Azure Active Directory token as the user to access Omnichannel for Customer Service back-end applications.
+      - **Read and write all dashboards, Read and write all reports, Read and write all workspaces**: Are required for Omnichannel for Customer Service analytics. The application is used for configuring analytics for the customer using Microsoft Power BI, which requests access to Power BI workspaces or reports.
+      
+      Select **Accept**. The provisioning of unified routing starts.
    
-> [!IMPORTANT]
-> If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you enable unified routing only after recreating the required workstreams for record routing.
+   - A message that unified routing is being provisioned.
+
+   If Omnichannel for Customer Service is available but not provisioned or upgraded to the latest release, one of the following messages will be displayed above the **Turn on unified routing** toggle:
+   
+   - "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
+   - "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
 
 After unified routing is provisioned, for Customer Service users, the site map is updated with the **Unified Routing** area.
 
-However, the site map will also be updated with the **Unified Routing** area for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service. This will happen even if you don't enable unified routing.
+However, the site map will also be updated with the **Unified Routing** area for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service.
 
-> ![Site map view for unified routing](media/enable-unified-routing.png)
+> ![Site map view for unified routing](media/unified-routing-site-map.png)
 
 ## Configure unified routing for records
 
