@@ -1,14 +1,11 @@
 ---
 title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn what are the conversation states in Omnichannel for Customer Service."
-ms.date: 07/31/2020
+ms.date: 06/02/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/02/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
