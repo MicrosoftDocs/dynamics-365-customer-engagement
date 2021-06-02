@@ -45,6 +45,7 @@ You can extend the trial for another 30 days in the admin center. For instructio
 
 ### How do I reset the trial environment?
 
+You cannot reset the trial instance. However, you can wait for the trial period to end and then sign up again for a fresh instance.
 
 ### Why did my trial expire before 30 days?
 
