@@ -120,6 +120,6 @@ By default, Dynamics 365 Field Service is configured to search against account, 
 
 ### See also
 
-[getBarcodeValue - Power Apps](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue)
+[```getBarcodeValue``` - Power Apps](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
