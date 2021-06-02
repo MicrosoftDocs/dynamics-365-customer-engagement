@@ -90,17 +90,11 @@ The application type is used to display an entity view that defines how a list o
 The application type is used to display an existing record or to open a form to create a record.
 
 The parameters available for the entity record application type when opening an existing record are as follows:
-<!--
+
 |Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | entityName | Logical name of the entity.  | String <br> Slugs <br> | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
-| entityId  | GUID of the entity record. | String <br> Slugs <br>  odata <br> | `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
-| formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
--->
-|Parameter | Description | Supported values | Example |
-|---------|--------------|------------------|---------|
-| entityName | Logical name of the entity. | - String <br> - Slugs <br> | - account <br> - `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`|
-| entityId  | GUID of the entity record. | - String <br> - Slugs <br> - odata <br> | - `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> - `{anchor.new_entityid}` <br> - `{$odata.account.name.?$filter=accountid eq '{anchor._customerid_value}'}`
+| entityId  | GUID of the entity record. | String <br> Slugs <br>  | `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> 
 | formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 The parameters available for the entity record application type when opening an entity form to create a new record are as follows:
