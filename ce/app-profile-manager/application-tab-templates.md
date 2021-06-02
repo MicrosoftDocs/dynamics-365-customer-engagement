@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/28/2021
+ms.date: 06/04/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
