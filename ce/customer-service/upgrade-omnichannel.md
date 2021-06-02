@@ -1,6 +1,6 @@
 ---
 title: "Upgrade Omnichannel for Customer Service | MicrosoftDocs"
-description: "Perform the following steps to upgrade to the latest version of Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the topic to upgrade to the latest version of Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
