@@ -22,14 +22,13 @@ search.app:
 
 Organizations often use appointments in Dynamics 365. Typical examples are a salesperson using appointments to meet with potential customers or a customer service rep creating a service appointment to help a customer with an issue. Other examples may include organizations creating appointments because of integrations with other systems.
 
-Dynamics 365 Appointments ([Microsoft Dataverse appointments](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/appointment)) can be displayed on the Field Service schedule board alongside bookings and can be considered during scheduling to understand if a frontline worker or bookable resource is available. 
+Dynamics 365 Appointments ([Microsoft Dataverse appointments](/dynamics365/customer-engagement/web-api/appointment)) can be displayed on the Field Service schedule board alongside bookings and can be considered during scheduling to understand if a frontline worker or bookable resource is available. 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board with appointments.](./media/Appointment05-ScheduleBoard.png)
 
-By including appointments on the schedule board and during the scheduling process, dispatchers can have an accurate view of availability in one place and don't have to switch between multiple tools such as Outlook, service calendar, and Field Service's new schedule board. This view increases schedulers’ productivity and reduces avoidable scheduling errors. Furthermore, admins no longer need to create bookings based on appointments. 
-
+By including appointments on the schedule board and during the scheduling process, dispatchers can have an accurate view of availability in one place and don't have to switch between multiple tools such as Outlook, service calendar, and Field Service's new schedule board. This view increases scheduler productivity and reduces avoidable scheduling errors. Additionally, admins no longer need to create bookings based on appointments. 
 
 For a guided walkthrough, check out the following video.
 
@@ -38,7 +37,7 @@ For a guided walkthrough, check out the following video.
 ## Prerequisites
 
 - Field Service 8.8.40.x+ (April Wave 1 2021)
-- Resource scheduling optimization 3.3.0.108+, only if there is a requirement for appointments to be supported in optimization-related scheduling operations.
+- Resource Scheduling Optimization 3.3.0.108+, only if there is a requirement for appointments to be supported in optimization-related scheduling operations.
 
 ## Step 1: Enable setting to include appointments in resource scheduling 
 
@@ -69,10 +68,10 @@ To control individual resources, go to the **Scheduling** tab on the resource fo
 ## Step 2: Create an appointment
 
 You can create Dataverse appointments in Dynamics 365 apps like in
-- [Customer Service Hub using Activities](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities). 
-- [Dynamics 365 Sales Professional to manage tasks, appointments, email, or phone calls](https://docs.microsoft.com/dynamics365/sales-professional/manage-activities).
+- [Customer Service Hub using Activities](/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-activities). 
+- [Dynamics 365 Sales Professional to manage tasks, appointments, email, or phone calls](/dynamics365/sales-professional/manage-activities).
 
-Dataverse appointments can also originate in Outlook, and be synced to Dynamics 365 if [server-side synchronization](https://docs.microsoft.com/power-platform/admin/server-side-synchronization) has been set up. An Outlook appointment must be manually assigned the special [Tracked to Dynamics 365](https://docs.microsoft.com/power-platform/admin/use-outlook-category-track-appointments-emails) category so it appears as a Dataverse appointment record.
+Dataverse appointments can also originate in Outlook, and be synced to Dynamics 365 if [server-side synchronization](/power-platform/admin/server-side-synchronization) has been set up. An Outlook appointment must be manually assigned the special [Tracked to Dynamics 365](/power-platform/admin/use-outlook-category-track-appointments-emails) category so it appears as a Dataverse appointment record.
 
 
 ## Step 3: View appointments on the schedule board
@@ -92,7 +91,7 @@ Some more key points:
 
 ### Customize appointment colors on the schedule board
 
-The new schedule board uses the colors defined in [Dataverse appointment](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the appointment colors that show on the new schedule board.  
+The new schedule board uses the colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the appointment colors that show on the new schedule board.  
 
 ### Hide canceled appointments in the schedule board
 
@@ -105,14 +104,14 @@ Go to the old schedule board using the toggle in the top-right. Open the tab and
 
 ## Step 4: Respect appointments when scheduling 
 
-For customers with resource scheduling optimization, appointments will be respected in both non-interactive and interactive optimizations. 
+For customers with Resource Scheduling Optimization, appointments will be respected in both non-interactive and interactive optimizations. 
 
 - Non-interactive optimizations are triggered when an optimization schedule is run. 
 - Interactive optimizations are triggered from the new schedule board, from **Optimize Schedule** (by right-clicking on a resource), the **Suggest resources (Preview)**, and **Book resources (Preview)** buttons that appear when a requirement is selected in the bottom grid. 
 
 Appointments with statuses *Busy* and *Completed* will be considered as unavailable by scheduling operations. 
 
-For customers without resource scheduling optimization, the schedule assistant is planned to consider appointments in a future release. 
+For customers without Resource Scheduling Optimization, the schedule assistant is planned to consider appointments in a future release. 
 
 Meanwhile, developers can use the schedule assistant APIs for both requirements and requirement groups for:
 
@@ -142,7 +141,7 @@ You may further verify that the deprecated configuration has been turned off, by
 > ![Screenshot to verify deprecated configuration has been turned off.](./media/Appointment03-DeprecatedFeatureIsOff.png)
 
 
- Previously, the schedule board and scheduling operations used only [bookings](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. If you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This functionality created issues when changes in bookings did not reflect in appointments and vice versa. This April 2021 Wave 1 feature adds [Microsoft Dataverse appointments](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/appointment) as another data source for resource scheduling.
+ Previously, the schedule board and scheduling operations used only [bookings](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/bookableresourcebooking) as a data source. If you wanted to show appointments on the schedule board or respect them in resource availability, you would first need to create corresponding bookings. This functionality created issues when changes in bookings did not reflect in appointments and vice versa. This April 2021 Wave 1 feature adds [Microsoft Dataverse appointments](/dynamics365/customer-engagement/web-api/appointment) as another data source for resource scheduling.
 
 Now Microsoft Dataverse appointments are included directly in resource scheduling, so there is no longer any need to have bookings automatically created for appointments and to face the issue of changes in one not reflecting in the other. 
 
