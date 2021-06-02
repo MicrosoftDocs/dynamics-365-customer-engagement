@@ -8,8 +8,6 @@ ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-ms.custom: 
-  - "dyn365-sales"
 searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-list

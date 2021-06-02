@@ -4,7 +4,6 @@ description: Learn about the Dynamics 365 Sales mobile app
 ms.date: 05/31/2021
 ms.topic: article
 ms.custom: intro-internal
-ms.topic: article
 ms.service: crm-online
 author: sbmjais
 ms.author: shjais
