@@ -556,8 +556,8 @@
         href: developer/marketing-entity-reference.md
     - name: Work with segments using code
       href: developer/extend-segments.md
-    - name: Attach names and emails to Dynamics 365 Customer Voice surveys sent from customer journeys
-      href: /dynamics365/marketing/export-customer-voice
+    - name: Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
+      href: developer/export-customer-voice.md
     - name: Entity mapping with custom workflows
       href: entity-mapping.md
     - name: Limitations on migrating files between environments
