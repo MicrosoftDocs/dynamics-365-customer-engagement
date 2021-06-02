@@ -1,14 +1,11 @@
 ---
 title: Restrict a resource from performing a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to restrict a resource from performing a service in Dynamics 365 Customer Service
+ms.date: 10/01/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Restrict a resource from performing a service

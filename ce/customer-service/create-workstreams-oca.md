@@ -1,12 +1,11 @@
 ---
 title: "Create workstreams in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to create workstreams in the Omnichannel Administration app"
+ms.date: 05/07/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/07/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Create workstreams in Omnichannel Administration

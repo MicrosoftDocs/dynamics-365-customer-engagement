@@ -2,7 +2,6 @@
 title: "Adjust forecast values in sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Adjust values in a forecast in Dynamics 365 Sales."
 ms.date: 02/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag

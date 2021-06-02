@@ -1,12 +1,11 @@
 ---
 title: "Attach Omnichannel Toast Notification-related action calls to events | MicrosoftDocs"
 description: "Learn how to add Omnichannel Toast Notification-related action calls to events"
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 4: Add the action calls to the events 

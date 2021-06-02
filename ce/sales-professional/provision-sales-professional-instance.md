@@ -1,8 +1,7 @@
 ---
 title: "Provision your Dynamics 365 Sales Professional environment (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
+description: "Learn about the provisioning of your environment in Dynamics 365 Sales Professional."
 ms.date: 09/23/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
