@@ -1,12 +1,11 @@
 ---
 title: "Create and manage data-masking rules | MicrosoftDocs"
 description: "Instructions on how to create and manage data-masking rules in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create and manage data-masking rules

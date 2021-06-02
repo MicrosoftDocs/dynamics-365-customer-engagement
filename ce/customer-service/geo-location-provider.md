@@ -1,12 +1,11 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
 description: "Instructions to set up visitor location detection in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Set up visitor location detection

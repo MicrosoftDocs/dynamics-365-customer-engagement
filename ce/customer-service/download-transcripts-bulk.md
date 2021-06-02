@@ -1,12 +1,11 @@
 ---
 title: "Download Omnichannel for Customer Service transcripts in bulk | MicrosoftDocs"
 description: "Learn about transcripts and how to download them in bulk"
+ms.date: 02/10/2021
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/10/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Download Omnichannel for Customer Service transcripts in bulk
 

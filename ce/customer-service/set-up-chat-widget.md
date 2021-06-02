@@ -1,12 +1,11 @@
 ---
 title: "Configure a chat channel | MicrosoftDocs"
 description: "Instructions to configure a chat channel in Omnichannel for Customer Service."
+ms.date: 09/03/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Configure a chat channel

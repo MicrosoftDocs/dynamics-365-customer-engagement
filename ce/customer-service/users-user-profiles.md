@@ -1,12 +1,11 @@
 ---
 title: Create and manage users and user profiles | MicrosoftDocs
 description: Know how to create and manage users and user profiles in the Omnichannel for Customer Service
+ms.date: 05/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Manage users in Omnichannel for Customer Service

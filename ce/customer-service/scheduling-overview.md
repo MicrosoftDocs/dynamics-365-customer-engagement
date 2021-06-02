@@ -1,12 +1,11 @@
 ---
 title: "Customer Service Scheduling - Overview | MicrosoftDocs"
 description: "Overview of Service Scheduling migration options in Dynamics 365 Customer Service."
+ms.date: 10/01/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Upcoming changes to the Service Scheduling experience

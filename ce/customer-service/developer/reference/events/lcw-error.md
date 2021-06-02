@@ -1,11 +1,10 @@
 ---
 title: "lcw error | MicrosoftDocs"
 description: lcw error (Omnichannel for Customer Service JavaScript API reference)
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # lcw:error (Omnichannel for Customer Service JavaScript API reference)
 

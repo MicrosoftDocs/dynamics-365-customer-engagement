@@ -2,7 +2,6 @@
 title: "Create a marketing list using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Create marketing list in Dynamics 365 Sales Professional group your accounts, contacts or leads so you can send your marketing campaigns to these groups."
 ms.date: 12/06/2019
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr

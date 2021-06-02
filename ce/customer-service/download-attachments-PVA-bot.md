@@ -1,12 +1,11 @@
 ---
 title: "Download attachments from your Power Virtual Agents bot| Microsoft Docs"
 description: "Read about the various cards and attachments supported by various channels."
+ms.date: 04/09/2021
+ms.topic: reference
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 
 # Download attachments from Power Virtual Agents bot in Omnichannel
