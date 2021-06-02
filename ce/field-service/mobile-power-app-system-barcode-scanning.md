@@ -92,7 +92,7 @@ Within the mobile app you may need to go to **Profile** > **Reconfigure** to ena
 
 By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize search to include additional record types, such as customer assets and products. Expanding search parameters can help technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
-1. Enable the record type your barcode is part of for relevance search. In our example, we use the customer asset record type). For more information, see [how to set up relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization). 
+1. Enable the record type your barcode is part of for relevance search. In our example, we use the customer asset record type). For more information, see [how to set up relevance search](/power-platform/admin/configure-relevance-search-organization). 
 
 2. Add the barcode-enabled field to the record type's quick find view, as seen in the following screenshot.
 
