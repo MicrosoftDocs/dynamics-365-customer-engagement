@@ -6,6 +6,9 @@ ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 06/02/2021
+ms.topic: article
+ms.service: "dynamics-365-customerservice"
 ---
 
 # Understand conversation states in Omnichannel for Customer Service
@@ -26,7 +29,7 @@ The conversation can be in an open or closed state and can have the following st
 > Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
 
  ![Omnichannel conversation states](media/oc-conversation-state.png "Conversation states")
- 
+
  *Channel* refers to the chat, SMS, social, and Teams channels supported in Omnichannel for Customer Service.
 
 ## Open
