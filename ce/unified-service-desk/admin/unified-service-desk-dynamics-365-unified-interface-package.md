@@ -1,12 +1,11 @@
 ---
 title: "Unified Service Desk  Unified Interface package | MicrosoftDocs"
 description: "Overview of the Unified Interface sample application."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 

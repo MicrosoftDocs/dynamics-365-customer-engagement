@@ -1,20 +1,19 @@
 ---
 title: "Programming reference in Unified Service Desk | MicrosoftDocs"
 description: "The reference documentation for the public assemblies that constitute the Unified Service Desk and User Interface Integration (UII) SDK."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Programming reference
 The reference documentation for the public assemblies that constitute the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] SDK is available here: [Programming Reference](/dotnet/api/microsoft.crm.unifiedservicedesk.basecontrol) 

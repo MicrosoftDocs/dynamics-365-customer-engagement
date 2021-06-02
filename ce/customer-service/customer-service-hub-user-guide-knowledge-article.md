@@ -1,14 +1,11 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
+ms.date: 05/03/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/03/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and manage knowledge articles

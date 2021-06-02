@@ -1,20 +1,19 @@
 ---
 title: "Configure close confirmation window | MicrosoftDocs"
 description: "Learn to configure the close confirmation window to prevent the accidental closure of Unified Service Desk."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: ">=dynamics-usd-4"
 ---
 

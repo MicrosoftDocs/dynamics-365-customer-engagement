@@ -1,12 +1,11 @@
 ---
 title: "Role persona mapping | MicrosoftDocs"
 description: "Information about how security roles can be mapped to personas."
+ms.date: 05/17/2021
+ms.topic: article
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 05/17/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Add security roles for admins and users

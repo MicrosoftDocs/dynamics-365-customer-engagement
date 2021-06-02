@@ -1,12 +1,11 @@
 ---
 title: "Manage custom context | Microsoft Docs"
 description: "Learn how you can send custom context to a chat session that can help decide the queue to route the chat to."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi 
 ms.date: 02/11/2021
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Manage custom context
 

@@ -1,11 +1,10 @@
 ---
-title: Business and technical decision makers learning catalog 
-description: Find all the training options for business and technical decision makers. 
-author: loreleishannonmsft
-ms.topic: article
+title: Business and technical decision makers learning catalog
+description: Find all the training options for business and technical decision makers.
 ms.date: 11/01/2019
+ms.topic: article
+author: loreleishannonmsft
 ms.author: v-lshann
-
 ---
 
 # Business and Technical Decision Makers Learning Catalog

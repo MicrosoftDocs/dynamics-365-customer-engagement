@@ -1,12 +1,11 @@
 ---
 title: "Prerequisites for Setting Up Connected Customer Service for Azure IoT Central | MicrosoftDocs"
 description: "Prerequisites for setting up Connected Customer Service for Azure IoT Central."
+ms.date: 02/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 

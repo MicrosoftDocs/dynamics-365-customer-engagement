@@ -1,12 +1,11 @@
 ---
 title: "Remove Omnichannel for Customer Service| MicrosoftDocs"
 description: "Learn how to remove Omnichannel for Customer Service and disable all channels on an organization."
+ms.date: 09/01/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Remove Omnichannel for Customer Service

@@ -1,20 +1,19 @@
 ---
 title: "Upgrade a Unified Service Desk solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk ."
+ms.date: 02/06/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/06/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Upgrading the solution
 You can upgrade an existing Unified Service Desk sample application package to the latest Unified Service Desk by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  

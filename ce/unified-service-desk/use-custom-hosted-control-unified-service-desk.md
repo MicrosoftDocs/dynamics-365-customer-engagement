@@ -1,20 +1,19 @@
 ---
 title: "Use custom hosted control in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to create a custom hosted control if you have a special requirement that isn’t addressed by the predefined hosted control types in Unified Service Desk."
+ms.date: 07/13/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/13/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use custom hosted control in Unified Service Desk
 

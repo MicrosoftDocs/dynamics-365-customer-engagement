@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel for Customer Service for administrators | MicrosoftDocs"
 description: "Use administration app for configuring Omnichannel for Customer Service"
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Omnichannel for Customer Service for administrators
 

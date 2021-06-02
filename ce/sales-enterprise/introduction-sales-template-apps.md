@@ -2,7 +2,6 @@
 title: "Analyze your sales data by using Power BI template apps | MicrosoftDocs"
 description: "Learn about analyzing your sales data by using Power BI template apps."
 ms.date: 03/12/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: sbmjais
 ms.author: shjais

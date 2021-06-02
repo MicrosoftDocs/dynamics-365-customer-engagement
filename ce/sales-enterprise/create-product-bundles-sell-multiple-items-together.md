@@ -2,7 +2,6 @@
 title: "Set up product bundles to sell multiple items together (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Combine products in a bundle in Dynamics 365 Sales to sell multiple items together."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr

@@ -1,12 +1,11 @@
 ---
 title: "Configure settings for skill-based routing, create rating model | MicrosoftDocs"
 description: "Learn about how to configure settings for skill-based routing and create rating model in Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Allow agents to update skills, create a rating model

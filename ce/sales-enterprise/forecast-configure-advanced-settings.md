@@ -2,7 +2,6 @@
 title: "Configure advanced settings for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
 ms.date: 11/06/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag

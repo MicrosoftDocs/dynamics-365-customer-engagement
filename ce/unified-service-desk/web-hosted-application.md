@@ -1,20 +1,19 @@
 ---
 title: "Use Web Hosted Application browser control to host web applications | MicrosoftDocs"
 description: "Learn about using the Web Hosted Application browser control for hosting web applications in Unified Service Desk."
+ms.date: 12/01/2018
+ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/01/2018
-ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-3'
 ---
 
