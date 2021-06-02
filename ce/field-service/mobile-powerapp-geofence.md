@@ -1,9 +1,9 @@
 ---
-title: "Geofencing for the Field Service mobile app | MicrosoftDocs"
-description: Learn how to use geofences for the Field Service mobile app.
+title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/07/2021
+ms.date: 06/16/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -176,6 +176,34 @@ When the technician leaves the geofence, another "exit" event will be created.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of location expiration configuration field](./media/mobile-geofence-location-expiration.png)
+
+### Geofence trigger filters
+
+Geofence trigger filters can be used to define when a geofence event will trigger, relative to time values of the booking.   
+
+When geofencing is enabled, the geofence will be created for all bookings, which can result in performance issues if there are many pre-created or past bookings. Geofence trigger filters allow you to define a time window within which the geofence will be created and events can be triggered. Along with performance improvements, these filters can help avoid false-positive geofence events. By filtering to only relevant upcoming service appointments, you can avoid a scenario where a frontline worker inadvertently travels through a geofence that isn't currently their active engagement.  
+
+When trigger filters are enabled, you can enable one or two different time-based filters. Filtered fields include: 
+
+- **Start Time** 
+- **End Time**
+- **Actual Arrival Time** 
+- **Created On** 
+- **Estimated Arrival Time** 
+- **Modified On** 
+- **Offline Time Stamp** 
+- **Record Created On** 
+
+You can then set a value in days before or after the current date for the filter. 
+
+In the scenario shown in the following screenshot, a geofence will only be created and trigger events for bookings that meet the following condition: 
+
+- **Start Time** of the booking is within the last day or next day. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Example of configured geofence filters in Field Service.](./media/mobile-geofence-filters.png)
+
   
 ## Additional notes
 
