@@ -277,7 +277,9 @@ Use custom help panes and guided tasks to give your Unified Interface applicatio
 
 **Feature details**
 
-Use custom help panes to provide table, form, and language-specific help and guidance that includes rich text, content links, images, and video links. More information: [Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
+Use custom help panes to provide table, form, and language-specific help and guidance that includes rich text, content links, images, and video links. 
+
+More information: [Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
 
 ## Power Apps Checker module for PowerShell
 
