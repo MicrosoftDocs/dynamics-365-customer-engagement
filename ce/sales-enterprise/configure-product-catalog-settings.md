@@ -2,12 +2,10 @@
 title: "Configure product catalog settings (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure the settings to change the seller experience while selecting products from the catalog."
 ms.date: 04/02/2021
-ms.service: dynamics-365-sales
 ms.topic: article
-author: lavanyakr01 
+author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-
 ---
 # Configure product catalog settings
 

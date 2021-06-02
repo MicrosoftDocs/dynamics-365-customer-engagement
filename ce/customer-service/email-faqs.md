@@ -1,11 +1,10 @@
 ---
 title: "Email FAQs | Microsoft Docs"
 description: "Email FAQs"
-author: lalexms
-ms.author: laalexan
 ms.date: 01/18/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: lalexms
+ms.author: laalexan
 ms.reviewer: nenellim
 ---
 

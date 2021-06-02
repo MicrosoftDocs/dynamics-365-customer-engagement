@@ -1,12 +1,11 @@
 ---
 title: "lcw onClose | MicrosoftDocs"
 description: lcw onClose (Omnichannel for Customer Service JavaScript API reference)
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.topic: article
 ms.reviewer: nenellim
-ms.service: dynamics-365-customerservice
 ---
 # lcw:onClose (Omnichannel for Customer Service JavaScript API reference)
 

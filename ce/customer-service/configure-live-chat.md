@@ -1,12 +1,11 @@
 ---
 title: "Configure a chat widget and embed it in portal | MicrosoftDocs"
 description: "Instructions to configure a chat widget in Omnichannel for Customer Service and embed it in Power Apps portals."
+ms.date: 05/13/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Quickly configure a chat widget

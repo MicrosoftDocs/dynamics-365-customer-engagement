@@ -3,7 +3,6 @@ title: "Dynamics 365 Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
 ms.date: 05/04/2021
 ms.custom: intro-internal
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr

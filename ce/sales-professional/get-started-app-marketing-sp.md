@@ -2,7 +2,6 @@
 title: "Get started with in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use in-app marketing in Dynamics 365 Sales Professional to promote your business and improve sales with targeted marketing campaigns."
 ms.date: 12/06/2019
-ms.service: dynamics-365-sales
 ms.custom: intro-internal
 ms.topic: get-started-article
 author: lavanyakr01
