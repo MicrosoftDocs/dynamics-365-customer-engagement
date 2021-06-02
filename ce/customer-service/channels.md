@@ -1,6 +1,6 @@
 ---
 title: "Overview of channel in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about channels in Omnichannel for Customer Service."
+description: "This topic provides information on the different messaging channels available in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

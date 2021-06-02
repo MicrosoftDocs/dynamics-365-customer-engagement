@@ -1,6 +1,6 @@
 ---
-title: "Associate templates with work streams in the Omnichannel Administration app | MicrosoftDocs"
-description: "Learn how to associate templates with work streams in the Omnichannel Administration app"
+title: "Add templates to work streams in the Omnichannel Administration app | MicrosoftDocs"
+description: "Learn how to associate templates with work streams to use during incoming conversations in the Omnichannel Administration app"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

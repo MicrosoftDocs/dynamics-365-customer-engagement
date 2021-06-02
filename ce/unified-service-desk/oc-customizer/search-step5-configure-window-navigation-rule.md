@@ -1,6 +1,6 @@
 ---
 title: "Configure window navigation rule for search | MicrosoftDocs"
-description: "Learn how to create window navigation rule for search."
+description: "Perform the following steps to create window navigation rule for search in Unified Service Desk."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
