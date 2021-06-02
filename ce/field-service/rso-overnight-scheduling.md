@@ -19,20 +19,20 @@ search.app:
 
 # Automated overnight scheduling with Resource Scheduling Optimization
 
-Resource scheduling optimization is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes it's best for these optimizations to run when the humans who do the work are asleep.
+Resource Scheduling Optimization is flexible and can be configured to run optimizations based on your organization's scheduling needs. Sometimes it's best for these optimizations to run when the humans who do the work are asleep.
 
 In this topic, we will dive into overnight scheduling. 
 
 Overnight scheduling means Resource Scheduling Optimization runs each night at a defined time and schedules work orders for the following day. The next morning, a dispatcher finds a fully optimized schedule board for that day where jobs are scheduled to the appropriate resources based on skills, promised time windows, preferred resources, roles, and more. 
 
-Resource scheduling optimization will not automatically run again for the rest of the work day. The dispatcher can make changes as needed with manual scheduling or the schedule assistant to accommodate delays, cancellations, and special customer requests. Any changes the dispatcher makes will take priority over resource scheduling  optimizations. 
+Resource Scheduling Optimization will not automatically run again for the rest of the work day. The dispatcher can make changes as needed with manual scheduling or the schedule assistant to accommodate delays, cancellations, and special customer requests. Any changes the dispatcher makes will take priority over resource scheduling  optimizations. 
 
 Overnight scheduling saves time by letting Resource Scheduling Optimization handle the bulk of scheduling during non-work hours while still relying on the expertise of dispatchers. 
 
 ## Prerequisites
 
 - Field Service version 7.x+.
-- Resource scheduling optimization version 1.5+.
+- Resource Scheduling Optimization version 1.5+.
 - This Resource Scheduling Optimization scenario involves creating a scope, goal, and a schedule. To learn more about these three key components of Resource Scheduling Optimization, see the article on [Resource Scheduling Optimization configuration](./rso-configuration.md).
 
 
@@ -94,7 +94,7 @@ Go to **Resource Scheduling Optimization app** > **Optimization Goals** > **+New
 
 Set **Engine Effort Level** to **Moderate**, **Intense**, or **Very Intense**. As effort level intensity increases, the optimization will take longer to run, but will return better optimizations. Because overnight scheduling is intended to run during the night when no one is working, the optimization can typically afford more time to run. 
 
-Add the constraints Resource Scheduling Optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [Resource Scheduling Optimization configurations](./rso-configuration.md#define-the-optimization-goal).
+Add the constraints Resource Scheduling Optimization should consider based on your business needs. For example, if your work orders require different characteristics (skills), add the **Meets Required Characteristics** constraint. For more information on constraints, see the article on [resource scheduling optimization configurations](/dynamics365/field-service/rso-configuration#enable-resource-scheduling-optimization).
 
 Select **Save**.
 
@@ -113,7 +113,7 @@ Configure the following:
 
 - Set **Timer Mode** to **Fixed**.
 
-- For **Valid From** and **Valid To**, enter the date range for which overnight scheduling is valid. Resource scheduling optimization will not run automatically outside of this date range, but it can always be triggered manually with the **Run Now** option in the top ribbon.
+- For **Valid From** and **Valid To**, enter the date range for which overnight scheduling is valid. Resource Scheduling Optimization will not run automatically outside of this date range, but it can always be triggered manually with the **Run Now** option in the top ribbon.
 
 Next, go to the **Filter** tab and enter the following values to define when you want Resource Scheduling Optimization to run:
 
@@ -152,9 +152,9 @@ A defining characteristic of overnight scheduling is that dispatchers have prior
 
 ### See also
 
-- [Resource scheduling optimization quickstart](./rso-quickstart.md)
+- [Resource Scheduling Optimization quickstart](./rso-quickstart.md)
 - [Booking lock options](./booking-lock-options.md)
-- [Resource scheduling optimization configuration](./rso-configuration.md)
+- [Resource Scheduling Optimization configuration](./rso-configuration.md)
 
 
 

@@ -25,6 +25,7 @@ Because the Dynamics 365 Field Service mobile app is built on Microsoft Power Pl
 
 | Area	| Microsoft Power Platform reference doc |
 | --- | --- |
+| Model-driven apps | [Model-driven apps developer documentation](/powerapps/developer/model-driven-apps/) |
 | Views | 	- [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer)</br> - [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
 | Custom iframe integration | 	[Use IFRAME and web resource controls on a form](/powerapps/developer/model-driven-apps/use-iframe-and-web-resource-controls-on-a-form) | 
 | Custom HTML pages | 	[Webpage (HTML) web resources](/powerapps/developer/model-driven-apps/webpage-html-web-resources) 
