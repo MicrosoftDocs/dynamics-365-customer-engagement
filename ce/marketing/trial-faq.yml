@@ -2,69 +2,68 @@
 metadata:
   title: "Trial FAQ"
   description: "Solutions to common questions and issues that can occur during the installation and management of product trials."
-  author: <!--Required. Your GitHub user alias, with correct capitalization.-->
-  ms.date: <!--Required. mm/dd/yyyy format.-->
+  author: alfergus
+  ms.date: 06/01/2021
   ms.topic: article
-  ms.service: <!--Required. The cloud application the page is about.-->
-  ms.custom: template-get-started <!--Required. Leave this value as is for tracking purposes.-->
-  ms.reviewer: <!--Optional. The Microsoft alias of a person that reviews the content.-->
-  ms.subservice: <!--Optional. The more granular service to which the content belongs.-->
+  ms.service: dynamics-365-marketing
+  ms.custom: template-get-started
     
 title: Trial FAQ
-summary: Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the installation and management of product trials.
+summary: |
+  Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the installation and management of product trials.
 
 sections:
   - name: Ignored
     questions:
       - question: |
-    	  How do I start using the trial?
-        answer: |
-	      After you set up your trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](<!--Link to the Additional resources section on your trial page-->) on the trial set up page.
+    	    How do I start using the trial?
+  answer: |
+	        After you set up your trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](<!--Link to the Additional resources section on your trial page-->) on the trial set up page.
       - question: |
     	  What features are available in the trial?
-        answer: |
+  answer: |
         <!--App specific. Customize this response to fit your app.-->
       - question: |
     	  What are the trial limits and quotas?
-        answer: |
+  answer: |
 	      <!--App specific. Customize this response to fit your app.-->
       - question: |
     	  What are the system requirements for the trial?
-        answer: |
+  answer: |
 	      This app is a cloud-based service that does not require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements)
       - question: |
     	  How do I sign up for the trial without a Microsoft 365 tenant?
-        answer: |
+  answer: |
 	      <!--Should be consistent across the platform, but needs a boilerplate answer.-->
       - question: |
     	  How can I add more users to a trial?
-        answer: |
+  answer: |
 	      To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit.
       - question: |
     	  How do I extend the trial?
-        answer: |
+  answer: |
 	      <!--Should be consistent across the platform, but needs a boilerplate answer.-->
       - question: |
     	  How do I reset the trial environment?
-        answer: |
+  answer: |
 	      <!--Should be consistent across the platform, but needs a boilerplate answer.-->
       - question: |
     	  Can I convert the trial to a paid license *during* the trial?
-        answer: |
+  answer: |
 	      <!--Should be consistent across the platform, but needs a boilerplate answer.-->
       - question: |
     	  Can I convert the trial to a paid license *after* the trial?
-        answer: |
+  answer: |
 	      <!--Should be consistent across the platform, but needs a boilerplate answer.-->
       - question: |
     	  How do I cancel the trial?
-        answer: |
+  answer: |
 	      <!--Should be consistent across the platform, but needs a boilerplate answer.-->
       - question: |
     	  How do I remove sample data from the trial?
-        answer: |
+  answer: |
 	      <!--App specific. Customize this response to fit your app.-->
       - question: |
     	  How do I reset or reimport sample data?
-        answer: |
+  answer: |
 	      <!--App specific. Customize this response to fit your app.-->
