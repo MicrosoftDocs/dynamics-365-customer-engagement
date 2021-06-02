@@ -2,19 +2,19 @@
 
 (Includes Resource Scheduling controls version 1.1.6.211322)
 
-- **msdyn_searchresourceavailabilityforrequirementgroup** action sometimes failed with invalid Organizational Unit locations, this bug is now fixed and will filter the resources to the Organizational Unit passed even when invalid location is used for the Organizational Unit. 
+- **msdyn_searchresourceavailabilityforrequirementgroup** action sometimes failed with invalid organizational unit locations. This bug is now fixed and will filter the resources to the organizational unit passed even when invalid location is used for the organizational unit. 
 - **msdyn_SearchResourceAvailability** and **msdyn_SearchResourceAvailabilityforRequirementgroup** actions are now compatible with the web API endpoints. You could use the API parameter **version** = 3, to use this capability.
-- Fixed a bug where, Columns (Fields) of type **Customer** would now  show both Account records and Contact records when filtered in Column filters on the requirement panel of the Schedule Board. 
-- Improvements were made on the load time of the Schedule Assistant in the vertical view to reduce the load times. 
+- Fixed a bug where columns (fields) of type **Customer** would show both account records and contact records when filtered in column filters on the requirement panel of the schedule board. 
+- Improvements were made to the load time of the schedule assistant in the vertical view. 
 
 ## 3.12.45.7
 
 (Includes Resource Scheduling controls version 1.1.5.211181)
 
-- When booking a Resource via the Schedule Assistant, on the days/weeks/months views and using the **Double book if needed** option on the booking panel, clicking on Book button would keep the spinner loading without completing the operation. This specifically happens when the resource has no working hour in the duration of the requirement detail. This bug is now fixed. 
-- Fixed an accessibility bug on the grid used in the Requirement Groups. The contrast ratio of keyboard focus on column headers in grid with background is 1.2:1 which is less than required contrast ratio 3:1. This bug is now fixed. 
-- Fixed an accessibility bug on the grid used in the Requirement Groups. At 400% zoom, content inside **Search** popup in **Preferred Resource** column is not completely visible. With this fix, entire content that is visible at default view should be clearly visible at 400% also. 
-- Fixed, a bug where a validation is done on the Booking, that the **End time cannot be before or same as the estimated arrival time**, when the Actual arrival time is already populated. With this fix, the validation would be that the **End time cannot be before or same as the actual arrival time**, as long as the actual arrival time is populated. 
+- When booking a resource from the schedule assistant, on the days, weeks, and months views and using the **Double book if needed** option on the booking panel, clicking on book button would keep the spinner loading without completing the operation. This specifically happened when the resource has no working hour in the duration of the requirement detail. This bug is now fixed. 
+- Fixed an accessibility bug on the grid used in the requirement groups. The contrast ratio of keyboard focus on column headers in grid with background is 1.2:1 which is less than required contrast ratio 3:1. This bug is now fixed. 
+- Fixed an accessibility bug on the grid used in the requirement groups. At 400% zoom, content inside **Search** popup in **Preferred Resource** column is not completely visible. With this fix, entire content that is visible at default view should be clearly visible at 400%. 
+- Fixed a bug where a validation is done on the booking, that the **End time cannot be before or same as the estimated arrival time**, when the actual arrival time is already populated. With this fix, the validation would be that the **End time cannot be before or same as the actual arrival time**, as long as the actual arrival time is populated. 
 
 ## 3.12.44.127
 
