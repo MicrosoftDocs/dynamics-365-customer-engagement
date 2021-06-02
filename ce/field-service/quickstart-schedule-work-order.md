@@ -64,6 +64,9 @@ Assign each user a license or trial license that includes Dynamics 365 Field Ser
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active users in the Microsoft 365 admin center](./media/quickstart-o365-admin-users.png)
 
+> [!Note]
+> You may need to also assign your users to your environment in the Power Platform admin center. See the topic on [adding users to an environment](https://docs.microsoft.com/power-platform/admin/add-users-to-environment) for more details.
+
 
 ## Step 3: Create and schedule a work order 
 
