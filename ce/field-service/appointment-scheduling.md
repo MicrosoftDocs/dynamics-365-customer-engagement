@@ -105,7 +105,7 @@ Go to the old schedule board using the toggle in the top-right. Open the tab and
 
 ### Appointments marked Private in Outlook will not show their subject on the Schedule Board
 
-As of Field Service 8.8.41.28+, appointments that are marked Private in Outlook and synced to Dynamics using server side synchronization, will not show their subject on the schedule board. Note the subject is still synced to the Dataverse Appointment record and is visible there, but the schedule board will show 'Private' instead of the subject on the appointment and on the card that shows when hovering on an appointment. 
+As of Field Service 8.8.41.28+, appointments that are marked Private in Outlook and synced to Dynamics using server side synchronization, will not show their subject on the schedule board. Note the subject is still synced to the Dataverse Appointment record and is visible there, but the schedule board will show **Private** instead of the subject on the appointment and on the card that shows when hovering on an appointment. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule board with an appointment that was marked Private in Outlook](./media/Appointment07-PrivateAppointments.png)
