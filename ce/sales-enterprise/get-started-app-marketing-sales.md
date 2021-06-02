@@ -2,7 +2,6 @@
 title: "Get started with in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: 
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr

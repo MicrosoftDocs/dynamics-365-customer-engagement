@@ -1,12 +1,11 @@
 ---
 title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "A starting point for learning Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 12/16/2020
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/16/2020
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-customerservice"
 ---

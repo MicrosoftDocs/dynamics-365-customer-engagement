@@ -1,12 +1,11 @@
 ---
 title: "Overview of channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about channels in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Overview of channels

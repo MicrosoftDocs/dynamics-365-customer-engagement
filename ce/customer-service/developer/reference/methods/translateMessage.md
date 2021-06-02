@@ -1,12 +1,11 @@
 ---
 title: "translateMessage (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: "translateMessage method in Omnichannel for Customer Service"
+ms.date: 10/12/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # translateMessage

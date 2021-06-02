@@ -1,20 +1,19 @@
 ---
 title: "Impact of unified routing on queue items and the corresponding APIs| Microsoft Docs"
 description: "How unified routing affects queue items and the corresponding APIs"
+ms.date: 04/15/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/15/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - developer
   - customizer
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ms.reviewer: nenellim
 ---
 # How unified routing affects queue items and the corresponding APIs

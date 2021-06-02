@@ -3,16 +3,10 @@ title: "Matching strategy for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to specify which leads in Dynamics 365 apps get updated by configuring the matching strategy for newly synced LinkedIn leads."
 keywords: lead matching, field mapping, linkedin leads, lead record
 ms.date: 04/02/2018
-ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-  - Dynamics 365 Marketing
-ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -20,6 +14,11 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - Dynamics 365 Sales
+  - Dynamics 365 Marketing
+ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
+topic-status: Drafting
 ---
 
 # Configure a matching strategy to update leads from [!include[LinkedIn](../includes/pn-linkedin.md)] ads

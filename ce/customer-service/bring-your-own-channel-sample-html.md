@@ -1,12 +1,11 @@
 ---
 title: "Test the custom messaging channel | Microsoft Docs"
 description: "This topic provides sample code to test the integration of custom messaging channels."
+ms.date: 07/07/2020
+ms.topic: reference
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/07/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 # Test the custom messaging channel

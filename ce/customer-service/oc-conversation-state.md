@@ -1,12 +1,11 @@
 ---
 title: "Understand conversation states in Omnichannel | MicrosoftDocs"
 description: "Learn about the conversation states in Omnichannel."
+ms.date: 05/03/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/03/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Understand conversation states in Omnichannel for Customer Service
@@ -56,8 +55,6 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation.  |  Channel  |
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
-> [!NOTE]
-> If you decline a conversation 10 times within a time span of 5 minutes, then the conversation will be moved to the **Closed** state.
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](media/oc-conversation-active.png "Active state")
 

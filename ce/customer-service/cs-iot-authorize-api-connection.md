@@ -1,12 +1,11 @@
 ---
 title: "Authorize API connection between Dynamics 365 and Azure IoTHub  | MicrosoftDocs"
 description: "Learn how to authorize the API connection between Dynamics 365 and Azure IoTHub."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Authorize API connection between Dynamics 365 and Azure IoT
