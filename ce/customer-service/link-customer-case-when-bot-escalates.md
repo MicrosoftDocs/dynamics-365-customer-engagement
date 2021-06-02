@@ -1,12 +1,11 @@
 ---
 title: "Link customer and case to conversation when bot escalates| Microsoft Docs"
 description: "How to link customer and case to conversation when bot escalates to human agent."
+ms.date: 03/24/2021
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/24/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # How to link customer and case to conversations when bots escalate to human agents
 

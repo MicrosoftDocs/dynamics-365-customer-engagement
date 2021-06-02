@@ -1,12 +1,11 @@
 ---
 title: "Enable bot context NuGet package | Microsoft Docs"
 description: "Enable a bot to understand context while authoring a bot flow"
+ms.date: 03/04/2021
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/04/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 # Enable bot context NuGet package

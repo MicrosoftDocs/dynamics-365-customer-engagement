@@ -1,14 +1,11 @@
 ---
 title: "Cases SLAs in Customer Service Hub | Microsoft Docs"
 description: "Learn about Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 08/24/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/24/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Case SLAs

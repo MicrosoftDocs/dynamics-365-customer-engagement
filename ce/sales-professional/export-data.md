@@ -2,7 +2,6 @@
 title: "Export data or template in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Export your data to Excel to do analysis or to share your data with others who don't have access to the Sales Professional app."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

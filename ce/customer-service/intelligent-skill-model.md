@@ -1,12 +1,11 @@
 ---
 title: "Set up skill training model | MicrosoftDocs"
 description: "Learn about how to enable skill-based routing and create rating model in Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Set up intelligent skill finder model
 

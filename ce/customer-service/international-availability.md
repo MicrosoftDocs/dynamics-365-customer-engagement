@@ -4,9 +4,6 @@ description: "This topic contains information on the availability of Omnichannel
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/18/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # International availability of Omnichannel for Customer Service
 
