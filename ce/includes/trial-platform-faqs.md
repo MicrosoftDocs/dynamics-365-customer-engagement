@@ -15,6 +15,7 @@ You can use of the following ways to sign up for a trial:
 > [!NOTE]
 > For the best trial experience, avoid accessing the trial site in incognito mode.  
 
+### I don’t remember the URL for my trial instance 
 No problem. We’ve got you covered. When you sign up for the trial, you'll receive an email with the trial instance details. In case you don't see it in your inbox, check your spam folder. Alternatively, use the following steps to access your instance:
  
 1.	Go to trial site and select **Try for free**.  
@@ -40,7 +41,7 @@ To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com
 
 ### How do I extend the trial?
 
-You can extend the trial for another 30 days in the admin center. For instructions, see https://docs.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide#extend-your-trial.
+You can extend the trial for another 30 days in the admin center. For instructions, see (Extend your trial)[https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide#extend-your-trial].
 
 
 ### How do I reset the trial environment?
