@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) on the different
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/24/2021
+ms.date: 06/02/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -81,23 +81,18 @@ No. You can consult with any available agent in the queue from which the chat or
 
 No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent will become primary and can initiate further transfers or consults.
 
-### Why are my agents not receiving any new chats?
+### Why are my agents not receiving any new conversations?
 
-New conversation (chat) requests will be assigned to an agent when:
+New conversation requests will be assigned to an agent when:
 
 - There is a new incoming chat request.
-- The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and work stream for an incoming chat in the Omnichannel Conversation Dashboard.
-- The agent present is set to an **Allowed Presence** for the workstream.
+- The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and workstream for an incoming chat in the Omnichannel Conversation Dashboard.
+- The agent presence is set to an **Allowed Presence** for the workstream.
 - The agent has capacity to receive the incoming chat from the workstream. Remaining capacity can be checked by tallying up the items assigned on the agent’s dashboard – including **Active** and **Wrap-up** – against the agent’s configured maximum capacity.
-
-If more than one agent meets the above conditions, they will be assigned chats in this order:
-
-- The agent with the most remaining capacity will receive the chat first.
-- If multiple agents have the same remaining capacity, the agent who has not been assigned work item for a longer duration will receive the new conversation request.
 
 ### Who can see internal messages?
 
-Agents and supervisors can see internal messages. The customer can’t see internal messages.
+Only the agents and supervisors can see internal messages.
 
 ### What does the timer in the communication panel represent?
 
@@ -109,7 +104,7 @@ For information about managing work items from your dashboard, see [View agent d
 
 ### Where are conversations stored and how can I access them?
 
-Conversations and sessions are stored as activity types within the Model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
+Conversations and sessions are stored as activity types within the model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
 
 ## Administration
 
