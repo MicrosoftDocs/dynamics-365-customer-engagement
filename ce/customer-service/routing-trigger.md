@@ -1,12 +1,11 @@
 ---
 title: "Route records using unified routing | MicrosoftDocs"
 description: "Learn how to configure basic routing for records."
+ms.date: 05/24/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/24/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Route records in Customer Service using unified routing
 

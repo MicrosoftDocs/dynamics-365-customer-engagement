@@ -1,12 +1,11 @@
 ---
 title: Conversation dashboard in Omnichannel for Customer Service | Microsoft Docs
 description: Learn about the Conversation dashboard insights to better understand agent performance in your organization.
+ms.date: 04/09/2021
+ms.topic: article
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Conversation dashboard

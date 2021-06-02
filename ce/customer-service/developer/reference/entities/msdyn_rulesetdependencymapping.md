@@ -2,7 +2,6 @@
 title: "msdyn_rulesetdependencymapping Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_rulesetdependencymapping entity."
 ms.date: 03/31/2021
-ms.service: "crm-online"
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"

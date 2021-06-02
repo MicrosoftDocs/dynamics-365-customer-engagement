@@ -1,12 +1,11 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Instructions to create and manage operating hours in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create and manage operating hours

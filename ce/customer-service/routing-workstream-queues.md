@@ -1,12 +1,11 @@
 ---
 title: "Routing rules in unified routing | MicrosoftDocs"
 description: "Routing rules in unified routing"
+ms.date: 05/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/18/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Routing and assignment rules
