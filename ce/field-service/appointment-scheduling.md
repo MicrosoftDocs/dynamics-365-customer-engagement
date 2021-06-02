@@ -93,7 +93,7 @@ Some more key points:
 
 The new schedule board uses the colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the appointment colors that show on the new schedule board.  
 
-### Hide canceled appointments in the schedule board
+### Hide canceled appointments on the schedule board
 
 If you do not wish to see canceled appointments on the new schedule board, the **Hide Canceled** tab-level setting accessible from the old schedule board will hide both canceled bookings and canceled appointments on the new schedule board. 
 
@@ -101,6 +101,15 @@ Go to the old schedule board using the toggle in the top-right. Open the tab and
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of hide canceled tab setting in old schedule board.](./media/Appointment06-HideCanceledAppointment.png)
+
+
+### Appointments marked private in Outlook will not show their subject on the schedule board
+
+As of Field Service 8.8.41.28+, appointments that are marked _Private_ in Outlook and synced to Dynamics 365 using server-side synchronization will not show their subject on the schedule board. If the subject is synced to the Dataverse appointment record, it will be visible there, but the schedule board will show **Private** instead of the subject on the appointment and on the card that shows when hovering on an appointment. 
+
+> [!div class="mx-imgBorder"]
+> ![The schedule board with an appointment that was marked "Private" in Outlook](./media/Appointment07-PrivateAppointments.png)
+
 
 ## Step 4: Respect appointments when scheduling 
 
