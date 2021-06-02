@@ -19,18 +19,20 @@ search.app:
 
 # Sign up for a free trial
 
-Our app offers a free 30-day trial. Installing the trial is a great way to try before you buy. After a quick setup, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even load your own customer data. [Learn more about Dynamics 365 Marketing features](overview.md)
+Dynamics 365 Marketing offers a free 30-day trial. After a quick setup, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even load your own customer data. [Learn more about Dynamics 365 Marketing features](overview.md)
 
-## Set up your trial
+## Set up the trial
 
 To start the trial:
 
-- Go to the [trial overview page](https://dynamics.microsoft.com/marketing/overview/) and select the **Get started** button. 
-- Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information. The trial will take a few moments to set up, then you will be ready to start using the app.
+- Go to the [trial overview page](https://dynamics.microsoft.com/marketing/overview/) and select the **Get started** button.
+- Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
+
+The trial will take a few moments to set up, then you will be ready to start using the app.
 
 ## What to try
 
-The trial environment includes many of the same features as the paid version. The links below will guide you through using some of the key features.
+The trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
 
 - [Create a marketing email and go live](create-marketing-email.md)
 - [Create a dynamic segment](create-segment.md)
