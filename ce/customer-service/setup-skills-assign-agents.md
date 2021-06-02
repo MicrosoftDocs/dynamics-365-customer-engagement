@@ -19,7 +19,7 @@ ms.service: dynamics-365-customerservice
 
 As an administrator, to create skills, you need at least one skill type in the system. For example, to add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
 
-### Create skill type
+### Create skill types
 
 1. Sign in to the Dynamics 365 instance as an administrator.
 
@@ -35,7 +35,9 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 7. Select **Save** to save the skill type.
 
-8. Select **Publish** to publish the customization changes.
+8. Create as many skill types as required.
+
+9. Select **Publish** to publish the customization changes.
 
     > [!div class=mx-imgBorder] 
     > ![Create skill type](media/create-skill-type.png "Create skill type")

@@ -4,7 +4,7 @@ description: "Information about how security roles can be mapped to personas."
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 05/25/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.service: "dynamics-365-customerservice"
 ---
@@ -106,49 +106,10 @@ To enable access to a form or dashboard, perform the following steps:
 
 6. Select the role that you want to provide access to, and select **OK**.
 
-### Roles and privileges in unified routing
-
-Runtime Experiences
-Save and Route for entity with Unified Routing
-Queue operations - Pick/Route/Release/Remove/Add To Queue
-Entity operations - close the queue item/ resolve of case
-Skill based routing - do we need anything specifically?
-Session Management
-Presence loading for agents
-Admin Configuration
-Intake Rules configuration
-Workstream configuration
-Queue configuration
-Presence Configuration
-Persona Mapping
-Skill Management
-ISBR configuration
-Diagnostics
-
-The personas and their privileges are as follows.
-
-|Privileges|Admin| Supervisor | Agent|
-|-------|------|----------|--------|
-|Save and route record|||Yes|
-|Queue operations: Pick, route, release, remove, and add to queue|||Yes|
-|Record operations: Close queue item and resolve case |||Yes|
-|Session management|||Yes|
-|Load presence|||Yes|
-|Configure intake rules|Yes|||
-|Configure workstreams|Yes|||
-|Configure queues|Yes|||
-|Configure presence| Yes|||
-|Persona mapping|Yes|||
-|Manage skills|Yes|||
-|Configure intelligent skill building rules|Yes|||
-|View and configure diagnostics|Yes|||
-||||||
-
-
 
 ### See also
 
-[Overview of unified routing](overview-unified-routing.md)  y
+[Overview of unified routing](overview-unified-routing.md)  
 [Manage users for unified routing](users-user-profiles.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  
