@@ -79,24 +79,24 @@ No. You can consult with any available agent in the queue from which the chat or
 
 ### Can an agent who receives a consult also initiate a consult or transfer?
 
-No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent will become primary and can initiate further transfers or consults.
+No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent becomes the primary agent and can initiate further transfers or consults.
 
 ### Why are my agents not receiving any new conversations?
 
-New conversation requests will be assigned to an agent when:
+New conversation requests are assigned to an agent when:
 
-- There is a new incoming chat request.
+- A new chat request comes in.
 - The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and workstream for an incoming chat in the Omnichannel Conversation Dashboard.
 - The agent presence is set to an **Allowed Presence** for the workstream.
 - The agent has capacity to receive the incoming chat from the workstream. Remaining capacity can be checked by tallying up the items assigned on the agent’s dashboard – including **Active** and **Wrap-up** – against the agent’s configured maximum capacity.
 
 ### Who can see internal messages?
 
-Only the agents and supervisors can see internal messages.
+Only agents and supervisors can see internal messages.
 
 ### What does the timer in the communication panel represent?
 
-The timer in the communication panel represents how long the current session tab has been open. If the chat has moved into a wrap state, the timer will reset and increment accordingly to show the wrap time. If the conversation is closed and reopened later, the timer will reset.
+The timer in the communication panel represents how long the current session tab has been open. If the chat has moved into a wrap-up state, the timer is reset and incremented accordingly to show the wrap-up time. If the conversation is closed and reopened later, the timer is reset.
 
 ### How do I open chats on my dashboard?
 
