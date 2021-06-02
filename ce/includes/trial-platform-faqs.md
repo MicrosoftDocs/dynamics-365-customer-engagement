@@ -2,7 +2,7 @@
 
 You can use of the following ways to sign up for a trial:
 
-1. If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account. This is the fastest way to sign up for the trial.  
+- If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account. This is the fastest way to sign up for the trial.  
 
 - If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, we'll create a temporary account for you. Use your personal email to sign up for trial and you'll be the administrator on the account and for the trial.
 
@@ -29,9 +29,10 @@ You can enter a non-work email address and we automatically create a tenant for 
 
 The following limitations apply for the trial:
 
-- The trial instance is available to you for 30 days. After that, you can either request for an extension for another 30 days or buy a paid license.  
-- The trial will expire if there’s no activity on the instance for 14 consecutive days.  
-- You can add up to 25 users to the trial instance.
+- The trial instance is available to you for 30 days. After that, you can request for an extension for another 30 days or buy a paid license or sign up for a new trial.  
+- The trial will expire if there’s no activity on the instance for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
+- You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends.  
+ 
 
 ### How can I add more users to a trial?
 
@@ -39,16 +40,11 @@ To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com
 
 ### How do I extend the trial?
 
-You can extend the trial for another 30 days in the admin center.
-<steps for trial extension>
+You can extend the trial for another 30 days in the admin center. For instructions, see https://docs.microsoft.com/en-us/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide#extend-your-trial.
+
 
 ### How do I reset the trial environment?
 
-
-### Can I convert the trial to a paid license during the trial?
-
-
-### Can I convert the trial to a paid license after the trial?
 
 ### Why did my trial expire before 30 days?
 
