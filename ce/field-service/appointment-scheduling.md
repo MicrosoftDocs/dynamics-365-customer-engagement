@@ -93,7 +93,7 @@ Some more key points:
 
 The new schedule board uses the colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** metadata of each of the **StatusCode** option set values will change the appointment colors that show on the new schedule board.  
 
-### Hide canceled appointments in the schedule board
+### Hide canceled appointments on the schedule board
 
 If you do not wish to see canceled appointments on the new schedule board, the **Hide Canceled** tab-level setting accessible from the old schedule board will hide both canceled bookings and canceled appointments on the new schedule board. 
 
