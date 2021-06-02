@@ -44,6 +44,6 @@ The trial environment includes many of the same features as the paid version. Th
 
 - [Explore training on Microsoft Learn](/learn/browse/?products=dynamics-marketing)
 - [Watch videos on the product playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_cV1n1es1YJt_T2A5u-XpR)
-- [Trial FAQ](trial-faq.yml)
+- [Trial FAQ](trial-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
