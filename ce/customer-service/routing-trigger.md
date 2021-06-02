@@ -1,10 +1,10 @@
 ---
 title: "Route records using unified routing | MicrosoftDocs"
-description: "Learn how to configure basic routing for records."
-author: neeranelli
-ms.author: nenellim
+description: "Learn how to manually route records using  basic routing for records."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/24/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -16,18 +16,15 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-After you set up and enable a record for routing, you can manually start the routing for the records using the save and route button on the entity record forms. As an administrator, you can also route these records automatically using Power Automate. The routing options are as follows:
+After you set up and enable a record for routing, you can manually start the routing for the records using the save and route button on the record forms. As an administrator, you can also route these records automatically using Power Automate. 
 
-- Manually route records by using **Save & Route** and **Apply Routing Rules**
-- Automatically route records by using custom Flow
-
-## Manually route the record
+## Manually route records
 
 After you enable a record for routing, you see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing rules** on the record view ribbon on the command bar. You can use these commands to route the record.
 
 1. Sign in to your model-driven app.
 
-2. Select a record that your administrator has enabled routing. <br> For example, in this procedure, **Leads** is enabled for routing, and hence, you can see the button in the Leads form command bar.
+2. Select a routed record. <br> For example, in this procedure, **Leads** is enabled for routing, and hence, you can see the button in the Leads form command bar.
 
 3. Select **Leads** in the site map, and you can view the **Apply Routing rules**  in the entity view ribbon command bar. Selecting the **Apply Routing rules** button also routes the record.
 
@@ -35,16 +32,14 @@ After you enable a record for routing, you see the **Save & Route** option on th
 
 5. Select **Save & Route** the command bar. The **Route Case** dialog box appears.
 
-6. Select **Route**.
+6. Select **Route**. The record is routed based on the active routing rule set.
 
     > [!div class=mx-imgBorder] 
     > ![Manual trigger](media/manual-trigger.png "Manual trigger")
 
-The record will be routed based on the active routing rule set.
+## Automatically route records using Flow
 
-## Automatically route using Flow
-
-You can set up a custom flow that is based on conditions, such as when a record is created and updated, to route the records automatically. Let's see how to set up a custom flow for create condition.
+You can set up a custom flow to automatically route records based on conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
 
 To enable automatic trigger to route the records:
 
@@ -52,9 +47,9 @@ To enable automatic trigger to route the records:
 
 2. Select the environment for which you want to update the Flow.
 
-3. Select **My Flows** in the site map.
+3. Select **My flows** in the site map.
 
-4. Select **New** and select the **Automated-from blank** option. Select **Skip** in the **Build an automated flow** dialog.
+4. Select **New** and select the **Automated cloud flow** under Build your own from blank option. Select **Skip** in the **Build an automated flow** dialog box.
 
 5. Type **Common Data Service**, and select it from the list. The Common Data Service connector enables you to connect to the Microsoft Dataverse environment.
 
@@ -67,7 +62,7 @@ To enable automatic trigger to route the records:
 
     | Field | Description | Example Value |
     |-----------------|----------------------------|-----------------------------|
-    | Trigger condition| Specify the condition to fire the trigger. That is, when you select a trigger condition, based on this state, the entity record will be routed automatically. <br> <br> The list of possible values are: <ul> <li>Create</li> <li>Create or Delete</li> <li>Create or Update</li> <li>Create or Update or Delete</li> <li>Delete</li> <li>Update</li> <li>Update or Delete</li>| Create |
+    | Trigger condition| Specify the condition to fire the trigger. That is, when you select a trigger condition, based on this state, the record will be routed automatically. <br> <br> The list of possible values are: <ul> <li>Create</li> <li>Create or Delete</li> <li>Create or Update</li> <li>Create or Update or Delete</li> <li>Delete</li> <li>Update</li> <li>Update or Delete</li>| Create |
     | The entity name | Specify the entity collection name for which you want to fire the trigger. |  Leads |
     | Scope | Specify where this trigger must be applied. | Organization |
 
@@ -104,7 +99,7 @@ To enable automatic trigger to route the records:
 Now, based on the flow that is defined, whenever a record, say lead, is created, the flow applies the **ApplyRoutingRuleRecord** action on the record. Similarly, you can create a custom Flow based on your business scenarios.
 
 > [!Note]
-> - For case entity record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case entity record. 
+> - For case record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
 > - If **Route Case** is set to **Yes**, the record will be routed upon creation.
 > - If **Route Case** is set to No, the record will not be routed upon creation.
 > - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
