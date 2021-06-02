@@ -26,13 +26,11 @@ The instructions apply to the following Dynamics 365 apps:
 
 - Dynamics 365 Customer Service
 
-- Dynamics 365 Field Service
-
 <!-- Dynamics 365 Project Service Automation  -->
 
-<!-- ## Run the Power Apps Solution Checker on your solutions
+## Run the Power Apps Solution Checker on your solutions
 
-The [Power Apps solution checker](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker) performs a rich static analysis check on your solutions against a set of best practice rules to quickly identify problematic patterns. After the check completes, you receive a detailed report that lists the issues identified, the components and code affected, and links to documentation that describes how to resolve each issue.
+The [Power Apps solution checker module for PowerShell](/powershell/powerapps/get-started-powerapps-checker?view=pa-ps-latest&preserve-view=true) can be used to perform a rich static analysis check on your solutions against a set of best practice rules to quickly identify problematic patterns. After the check completes, you receive a detailed report that lists the issues identified, the components and code affected, and links to documentation that describes how to resolve each issue.
 
 The solution checker analyzes these solution components:
 
@@ -52,7 +50,9 @@ The solution checker analyzes these solution components:
 
 -   Logic executed on the server side, such as plug-ins, custom workflow activities, and the configuration of SDK message steps shouldn’t impact the user interface and hence shouldn’t impact the transition to Unified Interface.
 
--   Even if the all issues aren’t directly associated with Unified Interface, we recommend that you spend time reviewing them to improve the overall health of your application.  -->
+-   Even if the all issues aren’t directly associated with Unified Interface, we recommend that you spend time reviewing them to improve the overall health of your application.
+
+For more information about Power Apps Checker, go to [Power Apps solution checker](/powerapps/maker/data-platform/use-powerapps-checker).
 
 ## Check third-party solutions compatibility with Unified Interface
 
@@ -67,7 +67,7 @@ Prior to transitioning to Unified Interface, it’s important that you make sure
 
 ## Identify replacements for deprecated features
 
-Based on the <!-- outputs of the **Power Apps Solution Checker** and the -->information contained in [Important changes (deprecations) coming](/power-platform/important-changes-coming) on deprecated client APIs and features, you should have a good understanding of the customizations and features that either need to be corrected or replaced in your Unified Interface project.
+Based on the outputs of the **Power Apps Solution Checker** and the information contained in [Important changes (deprecations) coming](/power-platform/important-changes-coming) on deprecated client APIs and features, you should have a good understanding of the customizations and features that either need to be corrected or replaced in your Unified Interface project.
 
 Here are some of the most common areas needing attention:
 
@@ -113,15 +113,15 @@ Instead of using the **Dynamics 365 – Custom** app, which isn't optimized for 
 
 The Dynamics 365 apps that have already been optimized for Unified Interface are the following:
 
--   Dynamics 365 Sales Hub
+- Dynamics 365 Sales Hub
 
--   Dynamics 365 Customer Service Hub
+- Dynamics 365 Customer Service Hub
 
--   Dynamics 365 Marketing
+<!--  Dynamics 365 Marketing
 
--   Dynamics 365 Field Service (version 8.x and later)
+Dynamics 365 Field Service (version 8.x and later)
 
-<!--   Dynamics 365 Project Service Automation (version 3.x and later)  -->
+ Dynamics 365 Project Service Automation (version 3.x and later)  -->
 
 ### What are Dynamics 365 custom business apps?
 
@@ -206,9 +206,9 @@ This is the opportunity to rethink the experience in the context of business pro
 
 -   Embed **Power BI** reports and tiles in forms: consolidate data across multiple systems in a single view. -->
 
--   Consider leveraging **Interactive Dashboards** to configure a one-stop workplace that allows global filtering across dashboard components. More information: [Configure interactive experience dashboards](../customize/configure-interactive-dashboards.md)
+-  Consider leveraging **Interactive Dashboards** to configure a one-stop workplace that allows global filtering across dashboard components. More information: [Configure interactive experience dashboards](../customize/configure-interactive-dashboards.md)
 
-<!--   Configure **Custom Help Panes and Guided Tasks** so that users quickly get help and guidance. -->
+- Configure **Custom Help Panes and Guided Tasks** so that users quickly get help and guidance. More information: [Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
 
 ## Conduct user acceptance testing
 
@@ -220,9 +220,9 @@ Testing will help identify remaining items to be addressed before transitioning 
 
 Conduct a review of your existing and planned training materials to ensure they have the latest screenshots and reflect any changes you have made to the user flow.
 
-## Check your transition date
+<!--## Check your transition date
 
-<!--On December 1, 2020, [the legacy web client will no longer be available](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Be sure to migrate well in advance to ensure there’s time for any issues to be addressed. -->
+On December 1, 2020, [the legacy web client will no longer be available](https://docs.microsoft.com/power-platform/important-changes-coming#legacy-web-client-is-deprecated). Be sure to migrate well in advance to ensure there’s time for any issues to be addressed. -->
 
 ### See also
 [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](about-unified-interface.md) <br />

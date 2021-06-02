@@ -271,6 +271,20 @@ The following features are not yet present on Unified Interface, but these are 
 
 -   Reports
 
+## Custom help panes and guided tasks
+
+Use custom help panes and guided tasks to give your Unified Interface application a custom in-product help experience that is tailored to your organization.
+
+**Feature details**
+
+Use custom help panes to provide table, form, and language-specific help and guidance that includes rich text, content links, images, and video links. 
+
+More information: [Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
+
+## Power Apps Checker module for PowerShell
+
+This module is for solution developers to perform rich static analysis checks on their solutions against a set of best practice rules to quickly identify problematic patterns. More information: [Get started using the PowerApps checker module](/powershell/powerapps/get-started-powerapps-checker?view=pa-ps-latest&preserve-view=true)
+
 ## Create, update, and delete transaction support for virtual entities
 
 Using the included OData v4 provider, read, create, update, and delete data from an external data source within your custom business app. More information: [Virtual entity walkthrough using the OData v4 Data Provider](customize/virtual-entity-walkthrough-using-odata-provider.md)
