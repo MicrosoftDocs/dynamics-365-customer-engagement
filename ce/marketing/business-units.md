@@ -104,6 +104,7 @@ To enable or disable this feature:
 
 1. Go to **Settings** > **Other settings** > **Feature switches**.
 1. Set the **Business unit scoping** slider to **On** to turn the feature on, or to **Off** to turn it off.
+1. Go to **Content settings** > Select or create a new [content setting](dynamic-email-content.md) specific for the scope of business unit > Set **Default for owning business unit** to **Yes**.
 
 ### See also
 
