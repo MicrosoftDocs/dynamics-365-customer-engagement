@@ -2,6 +2,7 @@
 title: "Admin settings overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn about the settings to configure your Sales Hub app."
 ms.date: 04/03/2020
+ms.custom: intro-internal
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
