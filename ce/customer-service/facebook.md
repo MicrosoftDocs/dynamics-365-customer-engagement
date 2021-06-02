@@ -1,6 +1,6 @@
 ---
 title: "Facebook channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about Facebook channel through Twilio agent experience in Omnichannel for Customer Service."
+description: "This topic provides information about Facebook channel through the Twilio agent experience in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
