@@ -7,8 +7,6 @@ ms.custom: intro-internal
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-ms.custom: 
-  - intro-internal
 ---
 
 # Overview of the Dynamics 365 Sales mobile app
