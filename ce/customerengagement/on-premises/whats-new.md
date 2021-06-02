@@ -271,7 +271,7 @@ The following features are not yet present on Unified Interface, but these are 
 
 -   Reports
 
-## Custom Help panes and guided tasks
+## Custom help panes and guided tasks
 
 Use custom help panes and guided tasks to give your Unified Interface application a custom in-product help experience that is tailored to your organization.
 
