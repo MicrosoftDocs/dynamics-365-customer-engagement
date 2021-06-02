@@ -1,6 +1,6 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
-description: "Understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service"
+description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

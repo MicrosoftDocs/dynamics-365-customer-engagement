@@ -1,6 +1,6 @@
 ---
 title: "Create window navigation rule for communication panel | MicrosoftDocs"
-description: "Learn how to create window navigation rule for communication panel."
+description: "Perform the steps mentioned in the topic to create window navigations rules for the communication panel in Unified Service Desk."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

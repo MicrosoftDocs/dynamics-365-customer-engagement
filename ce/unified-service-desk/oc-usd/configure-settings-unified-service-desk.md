@@ -1,6 +1,6 @@
 ---
 title: "Configure recommended settings for Unified Service Desk | MicrosoftDocs"
-description: "Learn how to configure recommended settings for Unified Service Desk."
+description: "The topic provides information on how to configure the recommended settings for Unified Service Desk."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

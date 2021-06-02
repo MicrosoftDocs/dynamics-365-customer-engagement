@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
-description: "Learn about the system requirements of Omnichannel for Customer Service."
+description: "This topic provides information about the system requirements of Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
