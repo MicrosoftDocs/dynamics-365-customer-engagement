@@ -1,13 +1,3 @@
-### Which email address I should use for signing up?
-
-You can use of the following ways to sign up for a trial:
-
-- If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account. This is the fastest way to sign up for the trial.  
-
-- If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, we'll create a temporary account for you. Use your personal email to sign up for trial and you'll be the administrator on the account and for the trial.
-
-- If you're a business establishing a new relationship with Microsoft, use your business email address to set up your account. You can carry forward the account and retain it if you choose to purchase the license.
-
 ### What are the system requirements for the trial?
 
 - This is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements)
@@ -16,7 +6,8 @@ You can use of the following ways to sign up for a trial:
 > For the best trial experience, avoid accessing the trial site in incognito mode.  
 
 ### I don’t remember the URL for my trial instance 
-No problem. We’ve got you covered. When you sign up for the trial, you'll receive an email with the trial instance details. In case you don't see it in your inbox, check your spam folder. Alternatively, use the following steps to access your instance:
+
+No problem. We’ve got you covered. When you sign up for the trial, you'll receive an email with the trial details. In case you don't see it in your inbox, check your spam folder. Alternatively, use the following steps to access your instance:
  
 1.	Go to trial site and select **Try for free**.  
 2.	Enter the email ID that you used, to sign up for the trial.  
@@ -46,7 +37,7 @@ You can extend the trial for another 30 days in the admin center. For instructio
 
 ### How do I reset the trial environment?
 
-You cannot reset the trial instance. However, you can wait for the trial period to end and then sign up again for a fresh instance.
+You cannot reset the trial environment. However, you can wait for the trial period to end and then sign up again for a fresh environment.
 
 ### Why did my trial expire before 30 days?
 
@@ -60,4 +51,4 @@ Yes, you can. Access the [trial site]() for the app and sign up. You can use the
 
  Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing](https://dynamics.microsoft.com/pricing/) page for more information on pricing and purchase. To purchase the license on an existing account, work with the administrator of the account to apply for licenses.  
 
-Once you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and  remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with. 
+Once you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and  remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.  
