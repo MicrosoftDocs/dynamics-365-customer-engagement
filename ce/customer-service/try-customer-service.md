@@ -1,6 +1,6 @@
 ---  
-title: "Get started with a free trial – Customer Service |MicrosoftDocs"
-description: Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the apps using embedded tours and videos and get started within a few seconds.
+title: "Sign up for a free trial – Customer Service | MicrosoftDocs"
+description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the apps using embedded tours and videos and get started within a few seconds."
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/04/2021
