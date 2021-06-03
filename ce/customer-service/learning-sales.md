@@ -1,11 +1,10 @@
 ---
 title: Microsoft partner sales and marketing learning catalog
 description: Find all the training options for partner sales and marketing.
-author: loreleishannonmsft
-ms.author: v-lshann
 ms.date: 01/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Microsoft Sales and Marketing Learning Catalog

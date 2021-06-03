@@ -1,12 +1,11 @@
 ---
 title: "Configure recommended settings for Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure recommended settings for Unified Service Desk."
+ms.date: 06/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

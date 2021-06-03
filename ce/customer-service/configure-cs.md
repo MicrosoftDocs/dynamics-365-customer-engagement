@@ -1,14 +1,11 @@
 ---
 title: Configure Dynamics 365 Customer Service | MicrosoftDocs
 description: Configure Dynamics 365 Customer Service.
+ms.date: 12/21/2020
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/21/2020
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Configure Customer Service

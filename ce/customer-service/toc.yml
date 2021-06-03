@@ -144,8 +144,6 @@
           href: create-rules-automatically-route-cases.md
         - name: Route records in Omnichannel Administration app
           href: entity-channel.md
-        - name: Route records using unified routing
-          href: routing-trigger.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
@@ -158,8 +156,6 @@
           href: setup-skills-assign-agents.md
         - name: Attach skills to conversations
           href: attach-skills.md
-        - name: Add skill control for routed records
-          href: add-skill-control.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
@@ -182,6 +178,8 @@
         href: unified-routing-work-distribution.md  
     - name: Agent experience
       items:
+      - name: Route records using unified routing
+        href: routing-trigger.md
       - name: Work with queues
         href: work-with-queues.md
       - name: Manage case queues and route cases
@@ -190,6 +188,8 @@
       items: 
       - name: How unified routing affects queue items and their APIs
         href: unified-routing-impact-on-APIs.md
+      - name: Add skill control for routed records
+        href: add-skill-control.md        
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
   - name: Case management

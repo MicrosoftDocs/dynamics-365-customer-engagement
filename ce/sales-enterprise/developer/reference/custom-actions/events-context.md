@@ -2,13 +2,12 @@
 title: "Events and context object for forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: Events and context object for forecasting in Dynamics 365 Sales
 ms.date: 10/12/2020
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-
+ms.custom: 
+  - dyn365-sales
 ---
 # Events and context object
 

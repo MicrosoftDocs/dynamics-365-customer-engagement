@@ -3,16 +3,10 @@ title: "Install Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft D
 description: "Learn about the prerequisites and how you can install the LinkedIn Connector for your Dynamics 365 organization."
 keywords: AppSource, LinkedIn Lead Gen Connector, Installation, Setup
 ms.date: 04/02/2018
-ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-ms.assetid: 1f4ee997-8460-4f6c-a77e-138e850ecd97
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-ms.custom: 
-  - dyn365-LinkedIn
 search.audienceType: 
   - admin
   - customizer
@@ -20,6 +14,11 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - Dynamics 365 Sales
+ms.assetid: 1f4ee997-8460-4f6c-a77e-138e850ecd97
+ms.custom: 
+  - dyn365-LinkedIn
 ---
 
 # Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource

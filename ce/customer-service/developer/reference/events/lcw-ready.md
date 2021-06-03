@@ -1,11 +1,10 @@
 ---
 title: "lcw ready | MicrosoftDocs"
 description: lcw ready (Omnichannel for Customer Service JavaScript API reference)
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # lcw:ready (Omnichannel for Customer Service JavaScript API reference)

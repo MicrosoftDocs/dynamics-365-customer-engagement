@@ -1,12 +1,11 @@
 ---
 title: "Configure SMS channel for Twilio | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel for Twilio in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure an SMS channel for Twilio

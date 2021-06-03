@@ -1,12 +1,11 @@
 ---
 title: "How unified routing and assignment works in Customer Service | MicrosoftDocs"
 description: "How to set up unified routing"
+ms.date: 05/10/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/10/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # How unified routing and assignment works

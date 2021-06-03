@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel for Customer Service for agent | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent"
+ms.date: 06/18/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/18/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Omnichannel for agents

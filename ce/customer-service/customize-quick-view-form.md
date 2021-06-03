@@ -1,12 +1,11 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
 description: "Learn how to customize the quick view forms present in the Customer Summary page."
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Customize quick view forms
 

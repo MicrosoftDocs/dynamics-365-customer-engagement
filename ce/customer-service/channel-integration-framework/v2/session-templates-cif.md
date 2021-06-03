@@ -1,12 +1,11 @@
 ---
 title: "Manage session templates in Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
 description: "Learn about managing session templates in Dynamics 365 Channel Integration Framework version 2.0."
+ms.date: 04/05/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Manage session templates in Dynamics 365 Channel Integration Framework version 2.0
