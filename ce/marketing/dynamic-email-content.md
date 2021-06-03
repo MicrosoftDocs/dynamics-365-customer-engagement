@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 02/12/2021
+ms.date: 06/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -55,6 +55,7 @@ To view, edit, or create a content-settings record:
     - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings record. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Address line 2**: Enter supplemental postal address information (if needed). Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Default**: Set to **Yes** to make the current content-settings record the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
+    - **Default for owning business unit**: This setting is only available when [business unit scoping](business-units.md#enable-or-disable-business-unit-scopes) is enabled. Set this to **Yes** to make the current content-settings record the default for all new customer journeys within the business unit. There must always be exactly one default content setting for the business unit scope; if you change the default, the existing default will automatically be changed to **No**.
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
     - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings record. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist edit):<br>
     `{{msdyncrm_marketingpage(3343053c-8daf-e911-a85e-000d3a3155d5).msdyncrm_full_page_url}}`
@@ -111,7 +112,7 @@ When you are selecting a relationship in assist edit, the options are displayed 
 - ***FieldName (PrimaryEntity) -> SecondaryEntity***  
     When the primary entity is in parentheses and shows a field name, it’s a *many-to-one* (N:1) relation that leads to a single record from the secondary entity. You should therefore usually use the second drop-down list to choose a field from the secondary entity to display with your expression.
 - ***PrimaryEntity -> FieldName (SecondaryEntity)***  
-    When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values form each available related record.
+    When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values from each available related record.
 - ***PrimaryEntity -> SecondaryEntity***  
     When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and you cannot use this relationship for personalization. This is because the relationship is maintained by an intermediate entity, and you can only traverse to the intermediate entity from the primary entity.
 
