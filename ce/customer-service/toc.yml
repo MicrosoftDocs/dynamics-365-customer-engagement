@@ -148,8 +148,8 @@
           href: setup-skills-assign-agents.md
         - name: Enable agents to update skills
           href: allow-agents-update-skills.md
-        - name: Set up skill finder model
-          href: intelligent-skill-model.md
+        - name: Set up skill-based routing in unified routing
+          href: set-up-skill-based-routing.md
         - name: Set up skill-based routing in Omnichannel Administration
           href: attach-skills.md
       - name: Configure basic routing
@@ -185,7 +185,7 @@
       - name: How unified routing affects queue items and their APIs
         href: unified-routing-impact-on-APIs.md
       - name: Add skill control for routed records
-        href: add-skill-control.md        
+        href: add-skill-control.md
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
   - name: Case management
