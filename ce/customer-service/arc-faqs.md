@@ -1,11 +1,10 @@
 ---
 title: "FAQs on activity monitor for creating records automatically | Microsoft Docs"
 description: "This topic shares answers to commonly asked questions about automatic record creation and activity monitoring in Dynamics 365 Customer Service."
-author: neeranelli
-ms.author: nenellim
 ms.date: 04/23/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: neeranelli
+ms.author: nenellim
 ms.reviewer: nenellim
 ---
 
@@ -39,4 +38,4 @@ No valid entitlement for this email sender.
 
 No applicable reason can be specified.
 
-**Resolution**: If the reason is empty and the state says **Ready for workflow/Power automate**, and the case doesn't get created, then check systemjobs if it's a legacy rule, or check flow runs if it's a modern rule.
+**Resolution**: If the reason is empty and the state says **Ready for workflow/Power automate**, and the case doesn't get created, then check system jobs if it's a legacy rule, or check flow runs if it's a modern rule.

@@ -1,12 +1,11 @@
 ---
 title: "Extend Omnichannel for Customer Service | MicrosoftDocs"
 description: "Embed Omnichannel for Customer Service functionality into your website or app, or bring functionality from other apps into Omnichannel for Customer Service."
+ms.date: 07/07/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/07/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 

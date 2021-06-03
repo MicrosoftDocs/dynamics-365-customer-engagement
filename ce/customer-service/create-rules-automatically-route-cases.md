@@ -1,14 +1,11 @@
 ---
-title: Route cases using basic routing rulesets | MicrosoftDocs
-description: Understand how to create rules to route cases in Dynamics 365 Customer Service
+title: Automatically route cases using basic routing rule sets | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
+ms.date: 05/26/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/27/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Route cases using basic routing rulesets

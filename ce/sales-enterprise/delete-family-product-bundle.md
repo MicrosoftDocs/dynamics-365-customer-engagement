@@ -2,7 +2,6 @@
 title: "Delete a family, product, or bundle (Dynamics 365 Sales) | MicrosoftDocs"
 description: "If you're no longer selling a product, delete it from Dynamics 365 Sales."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

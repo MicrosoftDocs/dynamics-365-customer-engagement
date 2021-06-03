@@ -1,20 +1,19 @@
 ---
 title: "Skill control for routed records| Microsoft Docs"
 description: "Learn how to add a skill control on forms to view skills on any routed record"
+ms.date: 04/20/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/20/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ms.reviewer: nenellim
 ---
 

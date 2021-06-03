@@ -1,3 +1,21 @@
+## 3.12.46.21
+
+(Includes Resource Scheduling controls version 1.1.6.211322)
+
+- **msdyn_searchresourceavailabilityforrequirementgroup** action sometimes failed with invalid organizational unit locations. This bug is now fixed and will filter the resources to the organizational unit passed even when invalid location is used for the organizational unit. 
+- **msdyn_SearchResourceAvailability** and **msdyn_SearchResourceAvailabilityforRequirementgroup** actions are now compatible with the web API endpoints. You could use the API parameter **version** = 3, to use this capability.
+- Fixed a bug where columns (fields) of type **Customer** would show both account records and contact records when filtered in column filters on the requirement panel of the schedule board. 
+- Improvements were made to the load time of the schedule assistant in the vertical view. 
+
+## 3.12.45.7
+
+(Includes Resource Scheduling controls version 1.1.5.211181)
+
+- When booking a resource from the schedule assistant, on the days, weeks, and months views and using the **Double book if needed** option on the booking panel, clicking on book button would keep the spinner loading without completing the operation. This specifically happened when the resource has no working hour in the duration of the requirement detail. This bug is now fixed. 
+- Fixed an accessibility bug on the grid used in the requirement groups. The contrast ratio of keyboard focus on column headers in grid with background is 1.2:1 which is less than required contrast ratio 3:1. This bug is now fixed. 
+- Fixed an accessibility bug on the grid used in the requirement groups. At 400% zoom, content inside **Search** popup in **Preferred Resource** column is not completely visible. With this fix, entire content that is visible at default view should be clearly visible at 400%. 
+- Fixed a bug where a validation is done on the booking, that the **End time cannot be before or same as the estimated arrival time**, when the actual arrival time is already populated. With this fix, the validation would be that the **End time cannot be before or same as the actual arrival time**, as long as the actual arrival time is populated. 
+
 ## 3.12.44.127
 
 - When a booking alert is created in the context of the **SYSTEM** user, an error was thrown that the user does not have create privileges. This bug is now fixed. 
@@ -25,7 +43,7 @@ The following Universal Resource Scheduling 2020 Wave 1 features in general avai
 - Appointment data included in resource scheduling.
 - Embedded optimizer enhancements within schedule board (preview).
 
-This release also includes all the fixes included in the [2021 wave 1 early access](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#3124015---2021-wave-1-early-access) and [2021 wave 1 early access update 1](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312424---2021-wave-1-early-access-update-1).
+This release also includes all the fixes included in the [2021 wave 1 early access](/dynamics365/common-scheduler/bug-fixes#3124015---2021-wave-1-early-access) and [2021 wave 1 early access update 1](/dynamics365/common-scheduler/bug-fixes#312424---2021-wave-1-early-access-update-1).
 
 - When creating multiday booking using **Evenly Distribute** booking method, user cannot overbook resource with single booking if duration is greater than resource's availability during that time. This bug is now fixed. 
 - Fixed a bug where quick scheduling is used on a requirement group with work location set to *Facility*, no available resources are returned. 
@@ -49,7 +67,7 @@ This release also includes all the fixes included in the [2021 wave 1 early acce
 
 ## 3.12.42.4 - 2021 wave 1 Early access update 1
 
-The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface.
 
@@ -60,7 +78,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 3.12.40.15 - 2021 wave 1 Early access
 
-The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features. 
+The release is only applied when an environment is opted into the early access of 2021 wave 1 and introduces the [resource scheduling 2021 wave 1](/dynamics365-release-plan/2021wave1/service/dynamics365-field-service/planned-features#scheduling) new and updated features. 
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface. 
 
@@ -82,7 +100,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 3.12.35.6
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312355)
+This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](/dynamics365/common-scheduler/bug-fixes#312355)
 
 - We fixed a bug that impacted the performance of the schedule assistant. 
 
@@ -95,19 +113,19 @@ This release is a hotfix on Universal Resource Scheduling version [3.12.35.5](ht
 
 ## 3.12.34.92
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.34.60](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#3123460)
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.60](/dynamics365/common-scheduler/bug-fixes#3123460)
 - We fixed a bug that impacted the performance of the Schedule assistant. 
 
 ## 3.12.34.60
 
-This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#312344)
+This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](/dynamics365/common-scheduler/bug-fixes#312344)
 - Fixed a bug where resources with certain workhours calendar types (type = -1) were not returned by the Schedule Assistant.
 
 ## 3.12.34.4
 
 - Fixed a bug where schedule assistant and schedule board ignore start and end time inputs when duration is more than 24 hours when scheduling an opportunity record. 
 - Fixed a bug where the search button remains disabled when **Time To Promised** is initially greater than search end, even if parameters are adjusted.
-- Fixed a bug where a validation error occurred for ```bookableresourcebooking.msdyn_milestraveled```. The value -0.999999690624 of type ``System.Double`` is outside the valid range (0 to 1000000000). 
+- Fixed a bug where a validation error occurred for `bookableresourcebooking.msdyn_milestraveled`. The value -0.999999690624 of type `System.Double` is outside the valid range (0 to 1000000000). 
 - Booking tooltip on multiday views now shows in the correct booking length on the current schedule board and the next-generation schedule board.
 - Fixed a bug where the booking is created with an incorrect duration when a user tries to create a booking using the quick book option.
 
@@ -118,7 +136,7 @@ This release is a hotfix on Universal Resource Scheduling version [3.12.34.4](ht
 - Fixed a bug on the legacy schedule board, where selecting an empty timeslot on the board, and on searching for lookup records, all resource requirement records in the system show up instead of those matching the selected requirement panel at the bottom.
 - Fixed an issue where non-admin Field Service users cannot update the Booking records due to insufficient privilege on entity ```msdyn_schedulingfeatureflag```. This bug is now fixed.
 - When a booking is canceled on the schedule board and then the work order (or requirement) record is again dragged to the same resource after the canceled booking, the travel time is incorrectly calculated as zero from the previous canceled booking. This bug is now fixed and the travel time is correctly calculated from the previous resource location.
-- Fixed an issue where, custom ```DateTime``` fields from requirement record’s associated entities like work order are not respecting schedule board tab time zone in requirements panel. With this fix, all ```DateTime``` fields on the requirement panel will be shown in the time zone of the schedule board tab.
+- Fixed an issue where, custom `DateTime` fields from requirement record’s associated entities like work order are not respecting schedule board tab time zone in requirements panel. With this fix, all `DateTime` fields on the requirement panel will be shown in the time zone of the schedule board tab.
 - When a work hours template with a time off is applied to another resource, the time off description and title were not getting copied. This bug is now fixed.
 - When a multi-day booking is created with out an associated resource requirement record, changing Booking status on the booking, throws an error, this issue is now fixed.
 - The schedule assistant calculates the distance and travel time for the Resources to the booking via the default map provider Bing, this is only enabled when the field “connect to maps” is set to yes. There was an issue where regardless of the value selected, schedule assistant always used the default map provider to calculate distance and travel time. This bug is now fixed.
@@ -145,7 +163,7 @@ The following Universal Resource Scheduling 2020 Wave 2 features in general avai
 - Enhanced calendar for requirements
 - Embedded optimizer within schedule board (Preview)
 
-This release also includes all the fixes included in the [2020 wave 2 early access](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#version-312295-2020-wave-2-early-access) and [2020 wave 2 early access update 1](https://docs.microsoft.com/dynamics365/common-scheduler/bug-fixes#version-3123011-2020-wave-2-early-access-update-1).
+This release also includes all the fixes included in the [2020 wave 2 early access](/dynamics365/common-scheduler/bug-fixes#version-312295-2020-wave-2-early-access) and [2020 wave 2 early access update 1](/dynamics365/common-scheduler/bug-fixes#version-3123011-2020-wave-2-early-access-update-1).
 - Fixed a bug on the map view of the schedule board, where scheduled requirements with remaining duration equals 0 are still being shown as unscheduled requirement pin, leading to double requirements. With this fix, once a requirement is scheduled and Remaining duration equals 0, the pin will not be displayed as a requirement pin. 
 - The days on the daily view of the schedule board are shown in right-to-left orientation for the right-to-left languages like Hebrew, Arabic. 
 - Fixed a bug where a new requirement record is created, the status of the requirement record created is not respecting the **Default Requirement Active State** value of the associated booking setup metadata record of the requirement. This bug is now fixed, and the default status of the newly created Requirement record will be based on the default requirement active status of the associated booking setup metadata record.
@@ -180,7 +198,7 @@ This release also includes all the fixes included in the [2020 wave 2 early acce
 
 ## 3.12.30.11 - 2020 wave 2 early access update 1
 
-The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
 
@@ -192,7 +210,7 @@ In addition, this release includes the following changes that have the potential
 
 ## 3.12.29.5 - 2020 wave 2 early access
 
-The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
+The release is only applied when an environment is opted into early access and introduces the [resource scheduling 2020 wave 2](/dynamics365-release-plan/2020wave2/service/dynamics365-field-service/planned-features#scheduling) new and updated features.
 
 In addition, this release includes the following changes that have the potential to change the existing system behavior or interface:
 
@@ -252,7 +270,7 @@ In addition, this release includes the following changes that have the potential
 
 - For organizations that have [schedule board preview enabled](https://aka.ms/scheduleboard), the schedule board preview can be accessed from **Field Service** application sitemap along with **Universal Resource Scheduling** application sitemap.
 - Fixed an issue where booking tooltip blinks when the height of the tooltip is greater than the height of the visible center Gantt area, where bookings are displayed on the schedule board. With this fix, the tooltip would not blink and the user would be able to select the hyperlinks on the tooltip to open the respective record in a new window.
-- Fixed the issue where [intervals](https://docs.microsoft.com/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfillment preferences was not working on the schedule assistant.
+- Fixed the issue where [intervals](/dynamics365/common-scheduler/fulfillment-preferences#interval-setup) functionality of fulfillment preferences was not working on the schedule assistant.
 - Resolved the issue of duplicated time slots for the resources on the list view type of the days view of the schedule board.
 - Multiple calls to retrieve data in the list view type of the days view are reduced to one call, in order to improve schedule board performance.
 - Fixed the issue where available time slots of resources are displayed differently on schedule assistant and the quick scheduling pane for the schedulable entities that do not have an associated resource requirement record.
@@ -273,7 +291,7 @@ In addition, this release includes the following changes that have the potential
   - Enhanced work hours calendar for resources
   - requirement dependency for efficient workflow
   - resource scheduling dashboard
-- This release also includes all fixes included in the [3.12.9.76 EA package](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312976---april-2020-wave-1-early-access).
+- This release also includes all fixes included in the [3.12.9.76 EA package](/dynamics365/field-service/field-service-version-history-resource-scheduling#312976---april-2020-wave-1-early-access).
 - Fixed an issue where the booking method on booking panel was not selectable on the list view of the days view in schedule board.
 - Fixed a caching issue on the **Get Driving Directions** pop-up functionality of the schedule board, where previously cached values were being used for calculating the route.
 - Resolved the incorrect location displayed for the booking on the map view of the schedule board, due to the incorrect formatting issue in conversion of the latitude and longitude on the map in languages like German.

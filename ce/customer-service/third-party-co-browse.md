@@ -1,12 +1,11 @@
 ---
 title: "Enable third-party co-browse and screen sharing | Microsoft Docs"
 description: ""
+ms.date: 06/09/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/09/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 
 # Enable third-party co-browse and screen sharing

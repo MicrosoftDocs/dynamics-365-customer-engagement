@@ -1,11 +1,10 @@
 ---
 title: Implementation project managers learning catalog
 description: Find all the training options for implementation project managers.
-author: loreleishannonmsft
-ms.author: v-lshann
 ms.date: 01/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Implementation Project Managers Learning Catalog

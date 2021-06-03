@@ -1,12 +1,11 @@
 ---
 title: "Timeline FAQs | MicrosoftDocs"
 description: "Timeline FAQs"
+ms.date: 07/27/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/27/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 

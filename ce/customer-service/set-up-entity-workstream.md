@@ -1,12 +1,11 @@
 ---
 title: "Set up workstream for records in Omnichannel Administration | MicrosoftDocs"
 description: "Learn how to set up record workstream in the Omnichannel for Customer Service."
+ms.date: 05/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create workstreams for record routing in Omnichannel Administration

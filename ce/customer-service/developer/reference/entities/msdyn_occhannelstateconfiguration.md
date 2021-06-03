@@ -1,12 +1,11 @@
 ---
 title: "msdyn_occhannelstateconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_occhannelstateconfiguration entity."
+ms.date: 08/18/2020
+ms.topic: "reference"
 author: "mh-jaya"
 ms.author: v-jmh
 manager: "shujoshi"
-ms.date: 08/18/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 applies_to: 
   - "Dynamics 365 (online)"
 ---

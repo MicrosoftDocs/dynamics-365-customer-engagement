@@ -1,12 +1,11 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "How to configure work classification rulesets for unified routing in Customer Service and Omnichannel for Customer Service"
+ms.date: 05/17/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/17/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Configure work classification rulesets for unified routing
 
