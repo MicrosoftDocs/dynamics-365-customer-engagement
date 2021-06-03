@@ -39,7 +39,7 @@ After [getting access to Resource Scheduling Optimization](./rso-get-install.md)
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the "Deploy Resource Scheduling Optimization instance" window](media/rso-instance.png)
     
-Resource scheduling optimization is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the Resource Scheduling Optimization deployment app’s page. If additional Resource Scheduling Optimization instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are not yet available to Cloud Solution Providers or retail purchase.
+Resource Scheduling Optimization is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the Resource Scheduling Optimization deployment app’s page. If additional Resource Scheduling Optimization instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are not yet available to Cloud Solution Providers or retail purchase.
 
 5. Select **Upgrade to new version** to apply a new update if one is available.
 

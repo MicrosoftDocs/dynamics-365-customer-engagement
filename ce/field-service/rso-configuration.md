@@ -112,12 +112,12 @@ The settings described here are selected and applied to all optimization scopes.
     > Any booking status with an empty scheduling method will be treated as Do Not Move.
     
    - **Optimize**: This status means Resource Scheduling Optimization is free to move this booking around. 
-   - **Do Not Move**: This means Resource Scheduling Optimization doesn't alter the booking. Resource scheduling optimization preserves the estimated arrival time and assigned resource. The booking’s
+   - **Do Not Move**: This means Resource Scheduling Optimization doesn't alter the booking. Resource Scheduling Optimization preserves the estimated arrival time and assigned resource. The booking’s
     start time and estimated travel duration may be changed if Resource Scheduling Optimization schedules a
     booking in a new location before the Do Not Move booking). This operates the
     same as if the user set the booking to **Locked to resource + time** on the
     scheduling lock options field.
-   - **Ignore**: Resource scheduling optimization will completely ignore this booking. It will ignore for both
+   - **Ignore**: Resource Scheduling Optimization will completely ignore this booking. It will ignore for both
     location and time, meaning there will be overlaps. It is as if the booking
     doesn’t exist. Use this when the booking status is in the state of proposed or canceled.
 
