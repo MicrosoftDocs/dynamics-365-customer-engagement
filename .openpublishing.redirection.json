@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/intelligent-skill-model.md",
+      "redirect_url": "set-up-skill-based-routing#set-up-intelligent-skill-finder-model",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/enable-skill-routing-create-rating-model.md",
       "redirect_url": "allow-agents-update-skills",
       "redirect_document_id": "false"
