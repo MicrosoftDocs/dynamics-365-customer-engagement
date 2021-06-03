@@ -190,6 +190,8 @@
         href: add-skill-control.md        
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
+      - name: Trigger routing for non-case records using a plugin
+        href: trigger-routing-non-case-records.md
   - name: Case management
     items: 
     - name: Administrator experience

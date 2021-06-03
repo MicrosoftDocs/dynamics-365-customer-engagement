@@ -43,42 +43,42 @@ You can set up a custom flow to automatically route records based on conditions,
 
 To enable automatic trigger to route the records:
 
-1. Sign in to Power Automate.
+1. Sign in to Power Automate and select the environment for which you want to update the Flow.
 
-2. Select the environment for which you want to update the Flow.
+2. Select **My flows** in the site map. Then, select **New flow** and under **Build your own from blank** option, select **Automated cloud flow**.
+    The **Build an automated cloud flow** dialog box appears.
 
-3. Select **My flows** in the site map.
+3. Select **Skip**. A list of all connectors and triggers is displayed.
+    > [!div class=mx-imgBorder]
+    > ![List of all built-in, custom, premium, and standard connectors](media/route-trigger1.png "List of all built-in, custom, premium, and standard connectors.")
 
-4. Select **New** and select the **Automated cloud flow** under Build your own from blank option. Select **Skip** in the **Build an automated flow** dialog box.
-
-5. Type **Common Data Service**, and select it from the list. The Common Data Service connector enables you to connect to the Microsoft Dataverse environment.
-
-6. Type **When a record is created, updated or deleted** in the search box, and select it from the list. **When a record is created, updated or deleted** is the trigger condition step.
+4. Select **Microsoft Dataverse**, and in the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Dataverse and When a record is created, updated or deleted trigger](media/route-trigger1.png "Select Dataverse and When a record is created, updated or deleted trigger")
+    > ![Select When a row is added, modified or deleted trigger](media/route-trigger2.png "Select When a row is added, modified or deleted trigger")
 
-7. Specify the following in the **When a record is created, updated or deleted** trigger.
-
+5. Specify the following values in the **When a record is created, updated or deleted** trigger.
+<!--
+The UI is self-explanatory. The table details are not required.
     | Field | Description | Example Value |
     |-----------------|----------------------------|-----------------------------|
-    | Trigger condition| Specify the condition to fire the trigger. That is, when you select a trigger condition, based on this state, the record will be routed automatically. <br> <br> The list of possible values are: <ul> <li>Create</li> <li>Create or Delete</li> <li>Create or Update</li> <li>Create or Update or Delete</li> <li>Delete</li> <li>Update</li> <li>Update or Delete</li>| Create |
-    | The entity name | Specify the entity collection name for which you want to fire the trigger. |  Leads |
+    | Change type | Specify the condition to fire the trigger. That is, when you select a trigger condition, based on this state, the record is routed automatically. <br> <br> The list of possible values are: <ul> <li>Create</li> <li>Create or Delete</li> <li>Create or Update</li> <li>Create or Update or Delete</li> <li>Delete</li> <li>Update</li> <li>Update or Delete</li>| Create |
+    | Table name | Specify the entity collection name for which you want to fire the trigger. |  Leads |
     | Scope | Specify where this trigger must be applied. | Organization |
+-->
+    > [!div class=mx-imgBorder] 
+    > ![Specify the trigger conditions](media/route-trigger3.png "Specify the trigger conditions")
+
+6. Select **New step**. The **Choose an operation** dialog box appears.
+
+7. Select **Perform an unbound action** from the list. The **Perform an unbound action** dialog box appears.
 
     > [!div class=mx-imgBorder] 
-    > ![Specify the trigger condition](media/route-trigger2.png "Specify the trigger condition")
+    > ![Select perform an unbound action](media/route-trigger4.png "Select perform an unbound action")
 
-8. Select **New step**. The **Choose an action** step appears.
+8. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
 
-9. Enter **Perform an unbound action** in the search box, and select the action from the list. The **Perform an unbound action** step appears.
-
-    > [!div class=mx-imgBorder] 
-    > ![Select perform an unbound action](media/route-trigger3.png "Select perform an unbound action")
-
-10. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field.
-
-11. Enter the entity collection name and unique identifier of the record in the specified format against the **Target** field:
+9. Enter the entity collection name and unique identifier of the record in the specified format against the **Target** field:
 
     Format: `<entity collection name>(unique identifier of the entity)`
     Example: leads(Lead)
@@ -94,7 +94,7 @@ To enable automatic trigger to route the records:
     > ![Select Perform an unbound action example](media/route-trigger4.png "Select Perform an unbound action example")
 
 
-12. Select **Save**.
+10. Select **Save**.
 
 Now, based on the flow that is defined, whenever a record, say lead, is created, the flow applies the **ApplyRoutingRuleRecord** action on the record. Similarly, you can create a custom Flow based on your business scenarios.
 
@@ -109,6 +109,6 @@ Now, based on the flow that is defined, whenever a record, say lead, is created,
 
 [Overview of routing](overview-unified-routing.md)  
 [Set up routing for records](set-up-record-routing.md)  
-
+[Sample code to trigger routing for non-case records](trigger-routing-non-case-records.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
