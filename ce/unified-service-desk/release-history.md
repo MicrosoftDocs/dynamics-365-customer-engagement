@@ -197,6 +197,7 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 
 ::: moniker-end
 
+<!--
 ::: moniker range="dynamics-usd-3"
 
 <a name="Release_3_3"></a>   
@@ -267,6 +268,7 @@ Content for earlier version of Unified Service Desk continues to be available on
 [What's new for Developers](what-s-new-in-unified-service-desk.md)
 
 ::: moniker-end
+-->
 
 <!--| Version 3.3, April 2018    | [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] update |
 | Version 3.2, February 2018 | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |
