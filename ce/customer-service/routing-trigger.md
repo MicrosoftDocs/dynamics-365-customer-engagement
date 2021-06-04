@@ -50,7 +50,7 @@ To enable automatic trigger to route the records:
 
 3. Select **Skip**. A list of all connectors and triggers is displayed.
     > [!div class=mx-imgBorder]
-    > ![List of all built-in, custom, premium, and standard connectors](media/route-trigger1.png "List of all built-in, custom, premium, and standard connectors.")
+    > ![List of all connectors and triggers](media/route-trigger1.png "List of all connectors and triggers.")
 
 4. Select **Microsoft Dataverse**, and in the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
 
@@ -58,6 +58,7 @@ To enable automatic trigger to route the records:
     > ![Select When a row is added, modified or deleted trigger](media/route-trigger2.png "Select When a row is added, modified or deleted trigger")
 
 5. Specify the following values in the **When a record is created, updated or deleted** trigger.
+
 <!--
 The UI is self-explanatory. The table details are not required.
     | Field | Description | Example Value |
@@ -66,8 +67,9 @@ The UI is self-explanatory. The table details are not required.
     | Table name | Specify the entity collection name for which you want to fire the trigger. |  Leads |
     | Scope | Specify where this trigger must be applied. | Organization |
 -->
-    > [!div class=mx-imgBorder] 
-    > ![Specify the trigger conditions](media/route-trigger3.png "Specify the trigger conditions")
+
+   > [!div class=mx-imgBorder]
+   > ![Specify the trigger conditions](media/route-trigger3.png "Specify the trigger conditions")
 
 6. Select **New step**. The **Choose an operation** dialog box appears.
 
