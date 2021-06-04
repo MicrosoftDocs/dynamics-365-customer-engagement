@@ -1,6 +1,6 @@
 ---
 title: "Enable third-party co-browse and screen sharing | Microsoft Docs"
-description: ""
+description: "Learn how to enable third-party co-browse and screen sharing in Customer Service"
 ms.date: 06/03/2021
 ms.topic: reference
 author: mh-jaya
@@ -14,7 +14,7 @@ manager: shujoshi
 
 Co-browse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A co-browse or screen-sharing escalation channel allows your organization’s agents to start a co-browse or screen-sharing session with customers. Using co-browse, agents can see and interact with a customer’s web browser. Using screen sharing, agents can see and interact with the customer’s current screen. This provides customers with an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
 
-Co-browse and screen sharing are enabled within Omnichannel Add-in for Dynamics 365 Customer Service chat channel by integration with third-party solutions.  Extensibility is provided to enable any providers to onboard their co-browse and screen-sharing solution to Omnichannel for Customer Service.
+Co-browse and screen sharing can be enabled in the Omnichannel Customer Service chat channel by integration with third-party solutions. Extensibility is provided to enable any providers to onboard their co-browse and screen-sharing solution to Omnichannel for Customer Service.
 
 > [!NOTE]
 > Third-party co-browse and screen sharing features are not available in Unified Service Desk.
@@ -85,7 +85,7 @@ The following section lists the required entity data needed to support this feat
  
  The Escalation Channel Mode attribute will tell what this button can do. For example, co-browse, audio, video. When users select a certain Escalation Channel Mode for a conversation action—for example, “co-browse”—Omnichannel for Customer Service will handle this co-browse event and trigger a list of internal events like “create new session for secondary channel,” “send system messages,” and “update presence,” which should be implemented in the Omnichannel for Customer Service code base.   
 
-One provider can bring several channel capabilities, but for one Conversation Action and one Provider, the capability should be unique.  This is handled by using the Channel Capability entity, as shown in the following schema.
+One provider can bring several channel capabilities, but for one Conversation Action and one Provider, the capability should be unique. This is handled by using the Channel Capability entity, as shown in the following schema.
 
 | Channel Capability | Provider | Escalation Channel Mode | Conversation Action |
 |--------|--------|--------|--------| 
@@ -120,7 +120,7 @@ We encourage our integrated third-party co-browse providers to make their co-bro
 5. Under **Templates**, select **Application tabs**. 
 6. Select **New** to create a channel application tab. 
 
-   See [Manage application tab templates](https://docs.microsoft.com/dynamics365/app-profile-manager/application-tab-templates#create-an-application-tab-template) for more information about completing this form.
+   See [Manage application tab templates](/dynamics365/app-profile-manager/application-tab-templates#create-an-application-tab-template) for more information about completing this form.
    
 7. In the Application type field, select **webresource**. 
 
