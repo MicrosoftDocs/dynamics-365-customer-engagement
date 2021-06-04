@@ -10,7 +10,9 @@ ms.service: dynamics-365-customerservice
 ---
 # Trigger routing for non-case records using the plugin
 
-The sample code checks if the message is to create a record and if the record is email message. If both conditions are met, then it runs the `msdyn_ApplyRoutingRuleEntityRecord` action. You can use the sample code in your Console App (.NET framework) of Visual Studio to trigger routing for non-case records using the IPlugin interface.
+The sample code checks for two conditions&mdash;whether the message is to create a record and whether the record is an email message. If both conditions are met, then the sample code triggers the `msdyn_ApplyRoutingRuleEntityRecord` action. 
+[!NOTE]
+> You can use the sample code in your Console App (.NET framework) of Visual Studio to trigger routing for non-case records using the IPlugin interface.
   
 ```csharp
 public class SamplePlugin : IPlugin 
@@ -34,7 +36,7 @@ public class SamplePlugin : IPlugin
                     { 
                         try 
                         {  
-                            // Obtain the organization service reference which you will need for web service calls 
+                            // Obtain the organization service reference that you'll need for web service calls 
                             IOrganizationServiceFactory serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory)); 
                             IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId); 
                             // Execute msdyn_ApplyRoutingRuleEntityRecord request 
