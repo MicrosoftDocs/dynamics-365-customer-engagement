@@ -162,6 +162,8 @@
           href: create-rules-automatically-route-cases.md
         - name: Set up routing for conversations in Omnichannel for Customer Service
           href: understand-omnichannel-customer-service-hub.md
+        - name: Route records automatically using Flow
+          href: routing-trigger-automatic.md
       - name: Configure users for unified routing
         items:
         - name: Manage users
@@ -176,7 +178,7 @@
         href: unified-routing-work-distribution.md  
     - name: Agent experience
       items:
-      - name: Route records using unified routing
+      - name: Route records manually using unified routing
         href: routing-trigger.md
       - name: Work with queues
         href: work-with-queues.md
