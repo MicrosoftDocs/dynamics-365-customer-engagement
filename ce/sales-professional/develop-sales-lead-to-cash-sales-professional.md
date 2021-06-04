@@ -2,7 +2,6 @@
 title: "Develop sales from lead to cash in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Use the sales process in Dynamics 365 Sales Professional to close more deals and improve customer satisfaction."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
