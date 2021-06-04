@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model.
 
-Perform the following steps to enable the setting that'll allow agents to update skills for a work item.
+Perform the following steps to enable the setting that allows agents to update skills for a work item.
 
 1. Sign in to Dynamics 365.
 
@@ -27,7 +27,7 @@ Perform the following steps to enable the setting that'll allow agents to update
 
    If the rating model doesn't exist, create a rating model. To learn more, see [Create rating model](setup-skills-assign-agents.md#create-a-rating-model).
 
-   After you select a rating model, the **Rating Model Details** section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
+   After you select a rating model, the **Rating Model Details** section displays the **Name**, **Min Rating Value**, **Max Rating Value**, and the **Rating Values (Rating Model)** grid.
 
    Use the following steps to add a rating value in the grid:
 

@@ -1,5 +1,5 @@
 ---
-title: Automatically route cases using basic routing rule sets | MicrosoftDocs
+title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
 ms.date: 05/26/2021
 ms.topic: article
@@ -22,11 +22,11 @@ ms.custom:
 > [!NOTE]
 > We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
 
-Use routing rules in Dynamics 365 Customer Service to route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
+Use routing rules in Customer Service to route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
 
 ## Add routing rulesets site map for custom apps
 
-While creating custom apps, you might not have routing rules sets available in your site map. You must add the routing rulesets site map for your custom app to access. To add routing rulesets to site map, follow these steps:
+While creating custom apps, you might not have routing rules sets available in your site map. You must add the routing rulesets to the site map for your custom app to access. To add routing rulesets to the site map, follow these steps:
 
 1. Sign in to https://"<"org">*.dynamics.com/apps, and go to App designer.
 
@@ -116,7 +116,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 7. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
-    > - Only one routing ruleset can be active at any point of time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
+    > - Only one routing ruleset can be active at any point in time. If you try to activate a rule when another rule is active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
     > - If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
 
 ## Create a routing ruleset (Customer Service app)
