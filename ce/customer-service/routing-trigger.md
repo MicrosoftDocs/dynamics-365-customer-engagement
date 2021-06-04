@@ -1,6 +1,6 @@
 ---
 title: "Route records using unified routing | MicrosoftDocs"
-description: "Learn how to manually route records using  basic routing for records."
+description: "Learn how to manually route records using basic routing for records."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -16,21 +16,21 @@ ms.service: dynamics-365-customerservice
 
 ## Overview
 
-After you set up and enable a record for routing, you can manually start the routing for the records using the save and route button on the record forms. As an administrator, you can also route these records automatically using Power Automate. 
+After you set up and enable a record for routing, you can manually start the routing for the records using the **Save & Route** button on the record forms. As an administrator, you can also route these records automatically using Power Automate. 
 
 ## Manually route records
 
-After you enable a record for routing, you see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing rules** on the record view ribbon on the command bar. You can use these commands to route the record.
+When you enable a record for routing, you'll see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing rules** on the record view ribbon on the command bar. You can use these commands to route the record.
 
 1. Sign in to your model-driven app.
 
-2. Select a routed record. <br> For example, in this procedure, **Leads** is enabled for routing, and hence, you can see the button in the Leads form command bar.
+2. Select a routed record. <br> For example, in this procedure, **Leads** is enabled for routing, so you can see the **Save & Route** button on the Leads form command bar.
 
-3. Select **Leads** in the site map, and you can view the **Apply Routing rules**  in the entity view ribbon command bar. Selecting the **Apply Routing rules** button also routes the record.
+3. Select **Leads** in the site map, and you can view the **Apply Routing rules**  in the entity view ribbon command bar. Selecting **Apply Routing rules** also routes the record.
 
 4. Select a lead record from the **My Open Leads** view.
 
-5. Select **Save & Route** the command bar. The **Route Case** dialog box appears.
+5. Select **Save & Route** on the command bar. The **Route Case** dialog box appears.
 
 6. Select **Route**. The record is routed based on the active routing rule set.
 
@@ -102,9 +102,9 @@ Now, based on the flow that is defined, whenever a record, say lead, is created,
 
 > [!Note]
 > - For case record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
-> - If **Route Case** is set to **Yes**, the record will be routed upon creation.
-> - If **Route Case** is set to No, the record will not be routed upon creation.
-> - By default, for all the cases created from user interface, the **Route Case** field is set to **No**. Hence, the routing for these is not triggered.
+> - If **Route Case** is set to **Yes**, the record is routed upon creation.
+> - If **Route Case** is set to **No**, the record is not routed upon creation.
+> - By default, for all of the cases created from user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
 > - You can also build a custom flow to automatically trigger routing for cases using any other field per your business scenario, as explained in this topic.
 
 ### See also
