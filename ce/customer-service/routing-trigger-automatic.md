@@ -1,5 +1,5 @@
 ---
-title: "Automatically route records using Flow | MicrosoftDocs"
+title: "Automatically route records using custom flow | MicrosoftDocs"
 description: "Learn how to set up custom flow to automatically route records using Power Automate."
 author: mh-jaya
 ms.author: v-jmh
@@ -21,7 +21,7 @@ As an administrator, you can also route records automatically using Power Automa
 
 To enable automatic trigger to route the records:
 
-1. Sign in to Power Automate and select the environment for which you want to update the Flow.
+1. Sign in to Power Automate and select the environment for which you want to update the flow.
 
 2. Select **My flows** in the site map. Then, select **New flow** and under **Build your own from blank** option, select **Automated cloud flow**.
     The **Build an automated cloud flow** dialog box appears.
@@ -73,7 +73,7 @@ The UI is self-explanatory. The table details are not required.
 
 10. Select **Save**.
 
-Now, based on the flow that is defined, whenever a record, say lead, is created, the flow applies the **ApplyRoutingRuleRecord** action on the record. Similarly, you can create a custom Flow based on your business scenarios.
+Now, based on the flow that is defined, whenever a record, say lead, is created, the flow applies the **ApplyRoutingRuleRecord** action on the record. Similarly, you can create a custom flow based on your business scenarios.
 
 > [!Note]
 > - For case record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
