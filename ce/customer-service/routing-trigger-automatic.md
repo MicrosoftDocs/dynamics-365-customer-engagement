@@ -86,7 +86,7 @@ Now, based on the flow that is defined, whenever a record, say lead, is created,
 
 [Overview of routing](overview-unified-routing.md)  
 [Set up routing for records](set-up-record-routing.md)  
-[Manually route records](routing-trigger.md#manually-route-records)  
+[Manually route records](routing-trigger.md)  
 [Sample code to trigger routing for non-case records](trigger-routing-non-case-records.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
