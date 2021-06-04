@@ -1,5 +1,5 @@
 ---
-title: "Automatically route records using custom flow | MicrosoftDocs"
+title: "Route records automatically using custom flow | MicrosoftDocs"
 description: "Learn how to set up custom flow to automatically route records using Power Automate."
 author: mh-jaya
 ms.author: v-jmh
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Automatically route records in Customer Service using flow
+# Route records automatically using custom flow
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -85,7 +85,7 @@ Now, based on the flow that is defined, whenever a record, say lead, is created,
 ### See also
 
 [Overview of routing](overview-unified-routing.md)  
-[Set up routing for records](set-up-record-routing.md)   
+[Set up routing for records](set-up-record-routing.md)  
 [Manually route records](routing-trigger.md#manually-route-records)  
 [Sample code to trigger routing for non-case records](trigger-routing-non-case-records.md)  
 

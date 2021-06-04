@@ -1,6 +1,6 @@
 ---
-title: "Route records using unified routing | MicrosoftDocs"
-description: "Learn how to manually route records using basic routing for records."
+title: "Route records manually using unified routing | MicrosoftDocs"
+description: "Learn how to route records manually using the Save and Route option on record forms."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -8,7 +8,7 @@ ms.date: 06/04/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-# Route records in Customer Service using unified routing
+# Route records manually using unified routing
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -16,7 +16,7 @@ ms.service: dynamics-365-customerservice
 
 After you set up and enable a record for routing, you can manually start the routing for the records using the **Save & Route** button on the record forms.
 
-## Manually route records
+## Route records using Save and Route option
 
 When you enable a record for routing, you'll see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing rules** on the record view ribbon on the command bar. You can use these commands to route the record.
 
@@ -35,12 +35,11 @@ When you enable a record for routing, you'll see the **Save & Route** option on 
     > [!div class=mx-imgBorder] 
     > ![Manual trigger](media/manual-trigger.png "Manual trigger")
 
-
 ### See also
 
 [Overview of routing](overview-unified-routing.md)  
 [Set up routing for records](set-up-record-routing.md)  
-[Automatically route records using Flow](routing-trigger-automatic.md#automatically-route-records-using-flow)  
+[Automatically route records using custom flow](routing-trigger-automatic.md#automatically-route-records-using-flow)  
 [Sample code to trigger routing for non-case records](trigger-routing-non-case-records.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
