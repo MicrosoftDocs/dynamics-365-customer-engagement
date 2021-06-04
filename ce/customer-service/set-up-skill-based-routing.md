@@ -77,7 +77,7 @@ You can achieve closest skill match in one of the following ways:
 
 - In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Closest Match**. In the assignment method of the queue, choose one of the out-of-the-box assignment methods (highest capacity or round robin).
 
-  In this scenario where closest match is chosen as the skill matching algorithm at workstream level, and one of the out-of-the-box assignment method is chosen (round robin or highest capacity); if more than one agent with same skill score is there; system won't order them by round robin or highest capacity. System will keep assigning all the incoming work items to the same agent till other constraints like capacity and presence are being satisifed.
+  In this scenario where closest match is chosen as the skill matching algorithm at workstream level, and one of the out-of-the-box assignment method is chosen (round robin or highest capacity); if more than one agent with same skill score is there; system won't order them by round robin or highest capacity. System will keep assigning all the incoming work items to the same agent till other constraints like capacity and presence are being satisfied.
 
 - Create a custom assignment method and create order by using proficiency or skill count to achieve closest match.
   
