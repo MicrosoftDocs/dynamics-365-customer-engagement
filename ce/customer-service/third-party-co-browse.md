@@ -135,9 +135,9 @@ There will be a single URL parameter called `data` that will contain a JSON obje
 
 ## Create the third-party co-browse and screen-sharing solution with the required data 
 
-ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework]() section and the [App Tab Template for third-party co-browse]() section to make this framework work. 
+ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework](#third-party-co-browse-and-screen-sharing-extensibility-framework) section and the [App Tab Template for third-party co-browse](#app-tab-template-for-third-party-co-browse) section to make this framework work. 
 
-Here are the data input requirements for third-party providers:  
+The data input requirements for third-party providers are as follows:  
 
 1. App Tab Template record.  
 2. Conversation Action record. (If you have both co-browse and screen-sharing options, you can create two records, one for each.)  
@@ -180,7 +180,7 @@ When a co-browse and screen-sharing button is defined, it will be rendered at th
 ## Omnichannel session services and data flow for third-party co-browse and screen sharing
 
 
-When an agent selects the button for co-browse or screen sharing, it triggers the application tab inside of the Omnichannel service. Omnichannel will handle the events as escalation channels event type. Omnichannel internal services will update the status for current session events.  
+When an agent selects the button for co-browse or screen sharing, it triggers the application tab inside of the Omnichannel service. Omnichannel for Customer Service will handle the events as escalation channels event type. Omnichannel for Customer Service internal services will update the status for current session events.  
 
 After the third-party applications take over, all data will be handled by a third-party application server. See the following graph for the integration data flow.
 
