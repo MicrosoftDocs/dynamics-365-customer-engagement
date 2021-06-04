@@ -62,6 +62,6 @@ public class SamplePlugin : IPlugin
 
 [Overview of routing](overview-unified-routing.md)  
 [Set up routing for records](set-up-record-routing.md)  
-[Automatically route records using Flow](routing-trigger.md#automatically-route-records-using-flow)
+[Automatically route records using Flow](routing-trigger-automatic.md#automatically-route-records-using-flow)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
