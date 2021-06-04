@@ -45,7 +45,7 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
 
-## Step 1: set up an offline profile
+## Step 1: Set up an offline profile
 
 Offline record types, relationships, and user assignments are managed through your **Offline Profile**. 
 
@@ -85,7 +85,7 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
 > [!div class="mx-imgBorder"]
 > ![The Power Platform admin center, showing mobile offline profiles.](./media/mobile-2020-offline-profile-ppac.png)
 
-## Step 2: add users and teams to the offline profile
+## Step 2: Add users and teams to the offline profile
 
 Open the **Field Service Mobile - Offline Profile**.  
 
@@ -96,7 +96,7 @@ A user or team can only be added to one offline profile one at a time. If a user
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
-## Step 3: edit and publish the offline profile as needed
+## Step 3: Edit and publish the offline profile as needed
 
 For each record type, you can choose a data download filter:
 
@@ -171,8 +171,6 @@ Dependencies based on selected relationships and custom filters that includes re
 > [!Note]
 > Sync intervals are defined per record type with Field Service v8.8.40+. Prior to this version, all record types will have a five-minute sync interval.
 
-
-
 ## Sync conflicts 
 
 Sync conflicts can happen if there is a mismatch between data on the device and data on the server. For example, when a frontline worker edits a work order on their mobile app and a back-office dispatcher edits the same work order on their computer, neither of these modifications have yet been synchronized between them. Which modification should be applied to the record, both in the app and on the server, after the next synchronization takes place?
@@ -204,15 +202,11 @@ While we recommend making changes directly to the default offline profile to rec
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
-
-
-
 #### Known limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: ``` Xrm.WebApi.online```.
 - [More platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
-
 
 ### See also
 
