@@ -113,12 +113,15 @@ For third-party co-browse, ISVs need to input the conversation action data for t
 
 We encourage our integrated third-party co-browse providers to make their co-browse and screen-sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers.  You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083) and click **Apps*.
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083) and click **Apps**.
 2. Click the ellipsis next to Omnichannel for Customer Service and select **App profile manager**.
 3. Click **App profiles**.
 4. Expand **Omnichannel for Customer Service**.
 3. Under **Templates**, select **Application tabs**. 
-4. Select **New** to create a channel application tab. See [Manage application tab templates](https://docs.microsoft.com/dynamics365/app-profile-manager/application-tab-templates#create-an-application-tab-template) for more information about completing this form.
+4. Select **New** to create a channel application tab. 
+
+   See [Manage application tab templates](https://docs.microsoft.com/dynamics365/app-profile-manager/application-tab-templates#create-an-application-tab-template) for more information about completing this form.
+   
 5. In the Application type field, select **webresource**. 
 
 In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
