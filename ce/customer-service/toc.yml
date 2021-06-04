@@ -142,6 +142,8 @@
           href: create-rules-automatically-route-cases.md
         - name: Route records in Omnichannel Administration app
           href: entity-channel.md
+        - name: Automatically route records using custom flow
+          href: routing-trigger-automatic.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
@@ -162,8 +164,6 @@
           href: create-rules-automatically-route-cases.md
         - name: Set up routing for conversations in Omnichannel for Customer Service
           href: understand-omnichannel-customer-service-hub.md
-        - name: Route records automatically using Flow
-          href: routing-trigger-automatic.md
       - name: Configure users for unified routing
         items:
         - name: Manage users
