@@ -48,7 +48,7 @@ The skill control is now added to the **Case Interactive experience** form.
 > [!NOTE]
 > To customize a form to add the skill control in Customer Service workspace or the Omnichannel admin center, you can add the control to the **Case for Multisession experience** form.
 
-After the skill control has been added to a case form, an agent can view the newly added custom control on all routed records in Customer Service Hub. The agent can view or delete existing skills, and even add new skills from the existing skill set. To enable agents to update skills, go to [Allow agents to update skills](enable-skill-routing-create-rating-model.md).
+After the skill control has been added to a case form, an agent can view the newly added custom control on all routed records in Customer Service Hub. The agent can view or delete existing skills, and even add new skills from the existing skill set. To enable agents to update skills, go to [Allow agents to update skills](allow-agents-update-skills.md).
 
 
 ### See also

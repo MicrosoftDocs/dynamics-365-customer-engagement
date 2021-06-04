@@ -50,7 +50,7 @@ Follow these steps to create a manual skill classification ruleset:
 
 ## Create machine learning-based skill classification rulesets
 
-To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](intelligent-skill-model.md)
+To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)
 
 Do the following to configure a machine learning-based ruleset:
 
