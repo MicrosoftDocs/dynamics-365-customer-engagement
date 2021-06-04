@@ -24,7 +24,7 @@ Co-browse and screen sharing can be enabled in the Omnichannel Customer Service 
 - An active digital messaging or chat subscription. 
 - Updated Omnichannel base and Omnichannel chat solution with third-party co-browse externalities enabled.
 
-## Third-party co-browse and screen-sharing extensibility framework
+## Third-party co-browse and screen-sharing extensibility framework<a name="third-party-co-browse"> </a>
 
 To enable third-party co-browse and screen sharing, the Omnichannel for Customer Service application has added an extensibility system to support this feature. In this system, a few entities have been added to the Omnichannel for Customer Service solution, and third-party co-browse and screen-sharing providers should use these entities to enable their co-browse and screen-sharing feature in the Omnichannel for Customer Service framework. The following graph explains the basic entity relationships that support the third-party co-browse and screen-sharing feature.
 
@@ -109,7 +109,7 @@ For third-party co-browse, ISVs need to input the conversation action data for t
 | -----| -----| -----| ----- |
 | ISVCobrowse | Open App Tab Template  | ISVAppTabTemplate  | Co-browse  |
 
-## App Tab Template for third-party co-browse and screen sharing 
+## App Tab Template for third-party co-browse and screen sharing<a name="app-tab-template"> </a> 
 
 We encourage our integrated third-party co-browse providers to make their co-browse and screen-sharing applications inside of an Omnichannel for Customer Service tab. When the agent selects the **Co-browse** button in the chat widget, it will open this tab.  Inside of this tab, the agent can start and end the co-browse sessions and share the session invitations with customers.  You can include the data in this form inside of your solution. Follow these steps to create the App Tab Template:
 
@@ -135,7 +135,7 @@ There will be a single URL parameter called `data` that will contain a JSON obje
 
 ## Create the third-party co-browse and screen-sharing solution with the required data 
 
-ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework](#third-party-co-browse-and-screen-sharing-extensibility-framework) section and the [App Tab Template for third-party co-browse](#app-tab-template-for-third-party-co-browse) section to make this framework work. 
+ISVs should bring in all the required data as specified in the [Third-party co-browse extensibility framework](#third-party-co-browse) section and the [App Tab Template for third-party co-browse](#app-tab-template) section to make this framework work. 
 
 The data input requirements for third-party providers are as follows:  
 
