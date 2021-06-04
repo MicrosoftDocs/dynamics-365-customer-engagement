@@ -117,14 +117,14 @@ We encourage our integrated third-party co-browse providers to make their co-bro
 2. Click the ellipsis next to Omnichannel for Customer Service and select **App profile manager**.
 3. Click **App profiles**.
 4. Expand **Omnichannel for Customer Service**.
-3. Under **Templates**, select **Application tabs**. 
-4. Select **New** to create a channel application tab. 
+5. Under **Templates**, select **Application tabs**. 
+6. Select **New** to create a channel application tab. 
 
    See [Manage application tab templates](https://docs.microsoft.com/dynamics365/app-profile-manager/application-tab-templates#create-an-application-tab-template) for more information about completing this form.
    
-5. In the Application type field, select **webresource**. 
+7. In the Application type field, select **webresource**. 
 
-In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
+8. In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
 
 webresourcename: <URL path to the web resource>
 
