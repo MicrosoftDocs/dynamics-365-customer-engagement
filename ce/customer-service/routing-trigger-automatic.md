@@ -73,7 +73,9 @@ The UI is self-explanatory. The table details are not required.
 
 10. Select **Save**.
 
-Now, based on the flow that is defined, whenever a record, say lead, is created, the flow applies the **ApplyRoutingRuleRecord** action on the record. Similarly, you can create a custom flow based on your business scenarios.
+Now, based on the flow that is defined, whenever a record, say lead, is created, the flow applies the **ApplyRoutingRuleRecord** action on the record. Similarly, you can create a custom flow based on your business scenarios. 
+
+You can also perform other actions in the flow, such as filtering out certain records that you do not want to route, performing some data transformation, and so on.
 
 > [!Note]
 > - For case record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
