@@ -55,10 +55,9 @@ The UI is self-explanatory. The table details are not required.
 
 7. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog box appears.
 
+8. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
     > [!div class=mx-imgBorder] 
     > ![Enter custom value](media/route-trigger5.png "Specify Action name")
-
-8. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
 
 9. Enter the entity collection name and unique identifier of the record in the specified format against the **Target** field:
 
@@ -71,9 +70,6 @@ The UI is self-explanatory. The table details are not required.
     > 2. Search for `LogicalCollectionName`, and you can view the entity collection name for a particular entity.
     > For example: `"LogicalCollectionName":"leads"`
     > Here, `leads` is the entity collection name.
-    
-    > [!div class=mx-imgBorder] 
-    > ![Select Perform an unbound action example](media/route-trigger4.png "Select Perform an unbound action example")
 
 10. Select **Save**.
 
