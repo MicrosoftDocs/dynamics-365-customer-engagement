@@ -126,7 +126,7 @@ We encourage our integrated third-party co-browse providers to make their co-bro
 
 8. In the Parameters section, add the web resource URL and query parameters that are required for ISVs to open their web resources. 
 
-    `webresourcename: <URL path to the web resource>`
+    webresourcename: `<URL path to the web resource>`
 
 > [!div class="mx-imgBorder"]
 > ![Web resource for co-browse feature](media/web-resource-co-browse.PNG "Web resource for co-browse feature")
