@@ -40,7 +40,7 @@ When you enable a record for routing, you'll see the **Save & Route** option on 
 
 [Overview of routing](overview-unified-routing.md)  
 [Set up routing for records](set-up-record-routing.md)  
-[Automatically route records using Flow](routing-trigger-automatic.md#automatically-route-records-using-flow)
-[Sample code to trigger routing for non-case records](trigger-routing-non-case-records.md)
+[Automatically route records using Flow](routing-trigger-automatic.md#automatically-route-records-using-flow)  
+[Sample code to trigger routing for non-case records](trigger-routing-non-case-records.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
