@@ -3,7 +3,7 @@ title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDo
 description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
 ms.custom:
 - dyn365-fieldservice
-ms.date: 06/16/2021
+ms.date: 06/04/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -169,15 +169,7 @@ When the technician leaves the geofence, another "exit" event will be created.
 > [!Note]
 > If you want to test entering a geofence but cannot physically travel to the location, you can expand the geofence radius to include your current location. 
 
-## Configuration considerations
-
-- Custom geofences using entities other than accounts and bookable resources are supported.
-- You can configure how far back in time a geolocation is valid. This is important for scenarios when a bookable resource synchronizes a geolocation to the server and then loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling** > **Settings** > **Scheduling Parameter** > **Geo Data** > **Geo Location Expires After X Minutes**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of location expiration configuration field](./media/mobile-geofence-location-expiration.png)
-
-### Geofence trigger filters
+## Geofence trigger filters
 
 Geofence trigger filters can be used to define when a geofence event will trigger, relative to time values of the booking.   
 
@@ -203,6 +195,16 @@ In the scenario shown in the following screenshot, a geofence will only be creat
 
 > [!div class="mx-imgBorder"]
 > ![Example of configured geofence filters in Field Service.](./media/mobile-geofence-filters.png)
+
+
+
+## Configuration considerations
+
+- Custom geofences using entities other than accounts and bookable resources are supported.
+- You can configure how far back in time a geolocation is valid. This is important for scenarios when a bookable resource synchronizes a geolocation to the server and then loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling** > **Settings** > **Scheduling Parameter** > **Geo Data** > **Geo Location Expires After X Minutes**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of location expiration configuration field](./media/mobile-geofence-location-expiration.png)
 
   
 ## Additional notes
