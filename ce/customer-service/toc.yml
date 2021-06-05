@@ -315,6 +315,8 @@
       - name: Create and manage knowledge articles
         href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
+        href: csw-search-knowledge-articles.md
+      - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
       - name: Search for knowledge articles on smart assist
         href: oc-search-knowledge-articles.md
