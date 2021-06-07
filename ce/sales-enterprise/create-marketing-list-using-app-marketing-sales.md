@@ -1,6 +1,6 @@
 ---
 title: "Create a marketing list using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+description: "Learn how to create a marketing list using in-app marketing in Dynamics 365 Sales to run a campaign."
 ms.date: 10/01/2019
 ms.topic: get-started-article
 author: lavanyakr01

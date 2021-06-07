@@ -15,7 +15,7 @@ searchScope:
   - Sales
 ---
 
-# Define lead qualification experience
+# Define the lead qualification experience 
 
 Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
 
