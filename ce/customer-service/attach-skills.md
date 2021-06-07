@@ -1,12 +1,11 @@
 ---
 title: "Attach skill to an incoming conversation | MicrosoftDocs"
 description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app."
+ms.date: 05/17/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/17/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Attach skills to conversations in Omnichannel Administration
@@ -134,7 +133,7 @@ To attach skills, you need a workstream record. You can either create or use an 
 ### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
+[Allow agents to update skills](allow-agents-update-skills.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 
 

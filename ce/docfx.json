@@ -97,6 +97,17 @@
           "show_learn_banner"
         ]
       },
+      "ms.service": {
+        "customer-service/**/*.md": "dynamics-365-customerservice",
+        "linkedin/**/*.md": "dynamics-365-linkedinconnector",
+        "sales-enterprise/**/*.md": "dynamics-365-sales",
+        "sales-professional/**/*.md": "dynamics-365-sales",
+        "unified-service-desk/**/*.md": "dynamics-365-customerservice"
+      },
+      "ms.subservice": {
+        "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
+        "unified-service-desk/**/*.md": "unified-service-desk"
+      },
       "learn_banner_products": {
         "**/*.md": [
           "dynamics-customer-engagement"

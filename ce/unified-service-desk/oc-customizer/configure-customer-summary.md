@@ -4,9 +4,6 @@ description: "Learn how to configure customer summary pages for agents  using Om
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

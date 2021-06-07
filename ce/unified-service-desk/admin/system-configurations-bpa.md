@@ -1,12 +1,11 @@
 ---
 title: "System configurations | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
+ms.date: 04/24/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/24/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 

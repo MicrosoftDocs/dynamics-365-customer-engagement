@@ -1,12 +1,11 @@
 ---
 title: "initializeNewConversation (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
+ms.date: 10/12/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # initializeNewConversation

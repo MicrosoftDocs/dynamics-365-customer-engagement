@@ -1,15 +1,11 @@
 ---
 title: "Customize live chat widgets for mobile apps | MicrosoftDocs"
 description: "Learn to customize live chat widgets on your mobile apps using Omnichannel Chat SDK. Alternatively, use sample code to embed widget code directly in your apps."
+ms.date: 05/24/2021
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/24/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
   - developer
@@ -17,6 +13,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Customize live chat widget for mobile apps
