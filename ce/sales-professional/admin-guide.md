@@ -1,6 +1,6 @@
 ---
 title: "Help resources for administrator & sales managers (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales."
+description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
 ms.topic: get-started-article
 author: lavanyakr01

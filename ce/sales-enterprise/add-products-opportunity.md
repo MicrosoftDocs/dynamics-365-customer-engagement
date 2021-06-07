@@ -1,6 +1,6 @@
 ---
 title: "Add products to an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Develop your opportunity by defining the products your customers are interested in purchasing."
+description: "Develop your opportunity by defining the products your customers are interested in purchasing in Dynamics 365 Sales."
 ms.date: 06/15/2020
 ms.topic: article
 author: lavanyakr01
