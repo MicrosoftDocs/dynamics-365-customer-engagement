@@ -14,6 +14,7 @@ search.app:
   - D365USD
 ms.custom: 
   - dyn365-USD
+monikerRange: '>= dynamics-usd-4'
 ---
 
 # What's new in Unified Service Desk for developers and customizers
