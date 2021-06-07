@@ -18,13 +18,13 @@ After you set up and enable a record for routing, you can manually start the rou
 
 ## Route records using Save and Route option
 
-When you enable a record for routing, you'll see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing rules** on the record view ribbon on the command bar. You can use these commands to route the record.
+When you enable a record for routing, you'll see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing Rules** on the entity view ribbon on the command bar. You can use these commands to route the record.
 
 1. Sign in to your model-driven app.
 
-2. Select a routed record. <br> For example, in this procedure, **Leads** is enabled for routing, so you can see the **Save & Route** button on the Leads form command bar.
+2. Select the record you want to route or select the record on your record view. <br> For example, in this procedure, **Leads** is enabled for routing, so you can see the **Save & Route** button on the Leads form command bar.
 
-3. Select **Leads** in the site map, and you can view the **Apply Routing rules**  in the entity view ribbon command bar. Selecting **Apply Routing rules** also routes the record.
+3. Select **Leads** in the site map, and you can view the **Apply Routing Rules** in the entity view ribbon command bar. Selecting **Apply Routing Rules** also routes the record.
 
 4. Select a lead record from the **My Open Leads** view.
 
