@@ -33,6 +33,7 @@ Before we begin, here are the top places for information about Field Service:
 <li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
 <li> <a href="https://community.dynamics.com/365/fieldservice" data-raw-source="[[Forum](https://community.dynamics.com/365/fieldservice)]">Forum</a>
 <li> <a href="https://cloudblogs.microsoft.com/dynamics365/it/" data-raw-source="[[Blog](https://cloudblogs.microsoft.com/dynamics365/it/)]">Blog</a>
+<li> <a href="https://aka.ms/fspartner-join" data-raw-source="[[Join the partner community](https://aka.ms/fspartner-join)]">Join the partner community</a>
 <li> <a href="https://dynamics.microsoft.com/contact-us/" data-raw-source="[[Get help](https://dynamics.microsoft.com/contact-us/)]">Get help</a>
   </ul>
   </td>

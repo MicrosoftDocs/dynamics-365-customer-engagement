@@ -2,7 +2,6 @@
 title: "Add products to a quote, order, or invoice (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales Professional."
 ms.date: 06/24/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

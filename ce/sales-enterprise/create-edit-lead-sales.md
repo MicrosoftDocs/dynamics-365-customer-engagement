@@ -2,7 +2,6 @@
 title: "Create or edit leads (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

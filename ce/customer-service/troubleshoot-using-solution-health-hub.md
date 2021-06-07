@@ -1,12 +1,11 @@
 ---
 title: "Troubleshoot issues in Customer Service and Omnichannel for Customer Service with Solution Health Hub | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Customer Service and Omnichannel for Customer Service by using the Solution Health Hub."
+ms.date: 03/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/05/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Troubleshoot issues in Customer Service and Omnichannel for Customer Service using Solution Health Hub

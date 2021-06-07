@@ -2,7 +2,6 @@
 title: "Retire products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Retire a product in Dynamics 365 Sales so that it is no longer available to your sales agents for selling."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

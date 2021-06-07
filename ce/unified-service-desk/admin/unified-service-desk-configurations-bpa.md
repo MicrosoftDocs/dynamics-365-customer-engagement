@@ -1,12 +1,11 @@
 ---
 title: "Unified Service Desk configurations | MicrosoftDocs"
 description: "Learn about the Unified Service Desk configurations that you make in Microsoft Dataverse on which the Best practices Analyer performs analysis and displays a report."
+ms.date: 04/24/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/24/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations

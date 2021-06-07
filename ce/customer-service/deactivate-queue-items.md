@@ -1,20 +1,19 @@
 ---
 title: "Close live work items or deactivate queue items| Microsoft Docs"
 description: "Sample code to close live work items or deactivate queue items"
+ms.date: 04/15/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/15/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - developer
   - customizer
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ms.reviewer: nenellim
 ---
 # How to close live work items or deactivate queue items

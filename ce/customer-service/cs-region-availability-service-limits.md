@@ -1,13 +1,12 @@
 ---
 title: "Regional availability and service limits for Customer Service | MicrosoftDocs"
 description: "Learn about regional availability and service limits for Customer Service applications."
-author: meghanalanka
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: v-mlanka
-manager: shujoshi
 ms.date: 04/09/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: meghanalanka
+ms.author: v-mlanka
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Regional availability for Customer Service

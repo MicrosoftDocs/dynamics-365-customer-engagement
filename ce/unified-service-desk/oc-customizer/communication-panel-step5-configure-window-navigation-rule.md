@@ -1,12 +1,11 @@
 ---
 title: "Create window navigation rule for communication panel | MicrosoftDocs"
 description: "Learn how to create window navigation rule for communication panel."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

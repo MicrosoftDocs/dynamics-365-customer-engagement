@@ -1,12 +1,11 @@
 ---
 title: "Show customers their position in a queue | MicrosoftDocs"
 description: "How to show customers their queue position for a chat widget in Omnichannel for Customer Service."
+ms.date: 05/04/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/04/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Show customers their position in a queue

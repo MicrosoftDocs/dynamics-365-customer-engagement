@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel admin center | MicrosoftDocs"
 description: "Get started with Omnichannel admin center"
+ms.date: 04/09/2021
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ---
 
 # Get started with Omnichannel admin center
