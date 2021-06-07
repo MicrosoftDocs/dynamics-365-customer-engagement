@@ -4,9 +4,6 @@ description: "The topic provides information on how to configure the recommended
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

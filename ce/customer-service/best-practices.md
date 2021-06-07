@@ -4,9 +4,6 @@ description: "This topic provides information about the guidelines to use Omnich
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/28/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
   - customizer

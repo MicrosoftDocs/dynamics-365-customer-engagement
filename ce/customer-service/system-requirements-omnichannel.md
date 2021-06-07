@@ -4,9 +4,6 @@ description: "This topic provides information about the system requirements of O
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/19/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Omnichannel for Customer Service system requirements

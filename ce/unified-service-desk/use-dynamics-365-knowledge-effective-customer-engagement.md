@@ -1,20 +1,19 @@
 ---
 title: "Use knowledge base management for effective customer engagement in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use knowledge base management for effective customer engagement in Unified Service Desk."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Use knowledge base management for effective customer engagement in Unified Service Desk

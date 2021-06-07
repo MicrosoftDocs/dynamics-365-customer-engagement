@@ -1,12 +1,11 @@
 ---
 title: "IoT - Parent IoT Alerts workflow | MicrosoftDocs"
 description: "Links potential redundant IoT alerts to an existing parent alert."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # IoT - Parent IoT Alerts workflow

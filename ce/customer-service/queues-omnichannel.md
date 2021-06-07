@@ -4,9 +4,6 @@ description: "This topic provides information and steps to help you learn  how y
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Work with queues in Omnichannel for Customer Service

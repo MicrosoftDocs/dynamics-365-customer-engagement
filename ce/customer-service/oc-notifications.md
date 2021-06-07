@@ -1,12 +1,11 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # View notifications

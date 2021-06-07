@@ -1,20 +1,19 @@
 ---
 title: "Deploy sample Unified Service Desk package using Package Deployer | MicrosoftDocs"
 description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Overview of Package Deployer and the sample applications

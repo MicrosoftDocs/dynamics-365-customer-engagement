@@ -1,12 +1,11 @@
 ---
 title: "Create a record in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to create a record in Omnichannel for Customer Service app."
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create a record

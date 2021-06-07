@@ -4,9 +4,6 @@ description: "Perform the steps mentioned in the topic to integrate an Azure bot
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/09/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Integrate an Azure bot

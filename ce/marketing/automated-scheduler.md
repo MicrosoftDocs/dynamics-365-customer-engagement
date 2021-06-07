@@ -1,7 +1,7 @@
 ---
 title: "Improve email engagement with an automated scheduling (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use smart scheduling to let the AI find the best times and days to deliver email messages to each contact in Dynamics 365 Marketing."
-ms.date: 10/20/2020
+ms.date: 06/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -19,9 +19,17 @@ search.app:
   - D365Mktg
 ---
 
-# Use automated scheduling to help improve email engagement
+# Automatically select the best time to send an email message
 
-The automated scheduling feature applies artificial intelligence to identify the days and times when each contact is most likely to be actively reading their email. The feature has two main components:
+By analyzing historical data, the automated scheduler selects the best time to send an email message, within a time window that is unique to each contact.
+
+The time window the automated schedule selects is based on the time that each contact arrives at the email tile. The time window is unique to each contact. The time window is bounded by one of the following (whichever is sooner):
+
+- The scheduled end time of the customer journey.
+- The expiration time of the email, if configured.
+- Seven days into the future.
+
+The feature has two main components:
 
 - **Auto scheduler for customer journeys**: Enables customer journeys to schedule message deliveries to each individual contact automatically based on the _best time to email_ calculated by the AI for that contact.
 - **Detailed email interaction results**: Provides informative heat-map graphs that summarize the email-interaction trends for each individual contact. The following insights are provided here:
@@ -32,6 +40,9 @@ The automated scheduling feature applies artificial intelligence to identify the
 > [!NOTE]
 > Before you can use automated scheduling, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable automated scheduling for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
 
+> [!IMPORTANT]
+> The automated scheduler is only available in the **Email** tile.
+
 ## Create a customer journey that automatically sends messages at the optimal time
 
 Normally, customer journeys process all contacts in a target segment at once and deliver messages according to the run schedule without regard to each contact's interaction history. With automated scheduling, however, you can use AI to apply delivery times optimized for each individual recipient. This can often improve your open rates.
@@ -40,9 +51,9 @@ To create a journey that uses optimized delivery times:
 
 1. Go to **Marketing** > **Marketing execution** > **Customer journeys** and then either create or open a journey.
 
-1. Design your journey as usual but turn on the **Automated scheduling** for each email tile where you want to use automated scheduling. To activate automated scheduled, click on the email tile, go to **Schedule**, and flip the toggle for **Automated scheduling enabled**.
+1. Design your journey as usual but turn on the **Automated scheduling** for each email tile where you want to use automated scheduling. To activate automated scheduled, select the email tile, go to **Schedule**, and flip the toggle for **Automated scheduling enabled**.
 
-    ![Activate automated scheduling](media/automated-scheduler-activate.PNG "Activate automated scheduling")
+    ![Activate automated scheduling](media/automated-scheduler-activate2.png "Activate automated scheduling")
         
 1. Repeat the previous step for each email in your journey where you want to use automated scheduling.
 

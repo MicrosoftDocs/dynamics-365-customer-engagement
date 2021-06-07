@@ -4,9 +4,6 @@ description: "This topic provides the steps you can perform to set up quick repl
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create quick replies

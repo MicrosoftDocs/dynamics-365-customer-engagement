@@ -3,7 +3,6 @@ title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 Sales."
 keywords: custom control, sales navigator, linkedin, integration, customization
 ms.date: 03/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi

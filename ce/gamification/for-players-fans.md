@@ -38,7 +38,7 @@ First things first—you need to sign in to your [!INCLUDE[pn_gamification](../i
   
  If you're often on the road to visit customers and prospects, or you take a vacation, make sure you log your time off so other players can adjust their fantasy teams. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Log your time off in Dynamics 365 - Gamification](log-time-off.md)  
   
- Have a look at the FAQ if you want to know what to do next or have a general question. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Get answers to frequently asked questions about Gamification](frequently-asked-questions.md)  
+ Have a look at the FAQ if you want to know what to do next or have a general question. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Get answers to frequently asked questions about Gamification](frequently-asked-questions.yml)  
   
 ### See also
 
