@@ -123,16 +123,9 @@ SetupUnifiedServiceDesk.exe uninstall
 ## Next Step  
  Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on Microsoft Dataverse. For more information, see [Deploy Unified Service Desk packages to a Dataverse platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
-<!-->
-<a name="knownissues"></a>   
 
-## Known issues  
   
-### Unified Service Desk client setup (SetupUnifiedServiceDesk.exe) hangs after you click Install  
- This can happen when you run setup as a user who does not have local Administrators group membership, using “Run as different user”, and when some Windows User Account Control (UAC) settings have been changed from the default, for example, if the **Admin Approval Mode for the Built-in Administrator account** UAC setting is set to **Disabled** on the local computer where setup runs. By default, Admin Approval Mode for the built-in Administrator account is enabled, but can be disabled through a Group Policy change.  
--->
-  
-## See also
+### See also
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
  [Update Unified Service Desk](../../unified-service-desk/admin/update-unified-service-desk-solution.md)
 
