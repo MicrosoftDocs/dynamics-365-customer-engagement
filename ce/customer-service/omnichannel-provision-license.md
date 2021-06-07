@@ -1,12 +1,11 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Provision Omnichannel for Customer Service to add or remove channels."
+ms.date: 04/09/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Provision Omnichannel for Customer Service

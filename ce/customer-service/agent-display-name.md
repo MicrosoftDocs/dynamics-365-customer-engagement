@@ -4,9 +4,6 @@ description: "This topic provides procedural information to configure an agent's
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/07/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Configure agent display name

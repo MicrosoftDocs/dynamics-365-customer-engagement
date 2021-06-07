@@ -1,12 +1,11 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
+ms.date: 04/02/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/02/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Troubleshoot Omnichannel for Customer Service
 

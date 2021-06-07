@@ -1,11 +1,10 @@
 ---
 title: Business and technical decision makers learning catalog
 description: Find all the training options for business and technical decision makers.
-author: loreleishannonmsft
-ms.author: v-lshann
 ms.date: 01/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Business and Technical Decision Makers Learning Catalog

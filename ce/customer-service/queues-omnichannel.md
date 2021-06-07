@@ -1,12 +1,11 @@
 ---
 title: Work with queues in Omnichannel for Customer Service | MicrosoftDocs
 description: "See how you can create and manage queues in Omnichannel for Customer Service"
+ms.date: 05/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Work with queues in Omnichannel for Customer Service

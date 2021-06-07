@@ -1,12 +1,11 @@
 ---
 title: "Teams channel | MicrosoftDocs"
 description: "Information about Teams channel in the agent dashboard for Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Use a Microsoft Teams channel

@@ -1,20 +1,19 @@
 ---
 title: "UIA property list in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UIA property list in Unified Service Desk."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # UIA property list in Unified Service Desk
 The following is a list of the UIA properties:  
