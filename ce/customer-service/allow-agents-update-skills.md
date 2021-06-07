@@ -1,10 +1,10 @@
 ---
 title: "Allow agents to update skills | MicrosoftDocs"
-description: "Learn about how to configure settings for skill-based routing and create rating model in Customer Service."
+description: "Learn about how to enable agents to update skills at runtime and attach a rating model for skill-based routing in Customer Service and Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 06/07/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model.
+By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can enable agents to add or remove skills for a work item at runtime. By default, the skill control is available only for the messaging channels. For records channel, you'll need to customize the form. More information: [Add a skill control for routed records](add-skill-control.md).
 
 Perform the following steps to enable the setting that allows agents to update skills for a work item.
 
@@ -38,7 +38,6 @@ Perform the following steps to enable the setting that allows agents to update s
    3. Select **Save and Close** to save and add the rating value.
 
 5. Select **Save**.
-
 
 
 ### See also
