@@ -47,6 +47,6 @@ If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 ### See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)  
-[Use Edge WebView2 Process to host web application](../edge-webview2-process.md)
+[Use Edge WebView2 Process to host web applications](../edge-webview2-process.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
