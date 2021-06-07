@@ -4,9 +4,6 @@ description: "This topic provides information on the different messaging channel
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Overview of channels

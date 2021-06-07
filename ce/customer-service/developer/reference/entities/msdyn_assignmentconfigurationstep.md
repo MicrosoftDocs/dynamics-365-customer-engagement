@@ -2,7 +2,6 @@
 title: "msdyn_assignmentconfigurationstep Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_assignmentconfigurationstep entity."
 ms.date: 04/09/2021
-ms.service: "crm-online"
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"

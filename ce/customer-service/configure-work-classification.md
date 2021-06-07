@@ -1,12 +1,11 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "How to configure work classification rulesets for unified routing in Customer Service and Omnichannel for Customer Service"
+ms.date: 05/17/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/17/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Configure work classification rulesets for unified routing
 
@@ -51,7 +50,7 @@ Follow these steps to create a manual skill classification ruleset:
 
 ## Create machine learning-based skill classification rulesets
 
-To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](intelligent-skill-model.md)
+To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)
 
 Do the following to configure a machine learning-based ruleset:
 

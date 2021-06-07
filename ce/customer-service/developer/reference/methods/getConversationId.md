@@ -1,13 +1,12 @@
 ---
 title: "getConversationId (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: 
+ms.date: 10/15/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/15/2020
-ms.topic: article
 ms.reviewer: nenellim
-ms.service: dynamics-365-customerservice
 ---
 # getConversationId
 

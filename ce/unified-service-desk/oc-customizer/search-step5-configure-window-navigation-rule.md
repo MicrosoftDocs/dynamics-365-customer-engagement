@@ -4,9 +4,6 @@ description: "Perform the following steps to create window navigation rule for s
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/25/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

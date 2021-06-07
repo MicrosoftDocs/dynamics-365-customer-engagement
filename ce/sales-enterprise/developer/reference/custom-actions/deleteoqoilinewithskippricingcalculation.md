@@ -2,14 +2,13 @@
 title: "DeleteOQOILineWithSkipPricingCalculation custom action (Dynamics 365 Sales) | MicrosoftDocs"
 description: 
 ms.date: 07/09/2020
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: susikka
 ms.author: susikka
 manager: shujoshi
-ms.reviewer: susikka
 ms.custom: 
   - dyn365-sales
+ms.reviewer: susikka
 ---
 # DeleteOQOILineWithSkipPricingCalculation custom action
 

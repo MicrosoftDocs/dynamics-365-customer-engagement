@@ -4,9 +4,6 @@ description: "This topic provides information about the steps to perform to embe
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/02/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Embed chat widget in your website or portal

@@ -4,9 +4,6 @@ description: "Perform the steps mentioned in the topic to configure automated me
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
