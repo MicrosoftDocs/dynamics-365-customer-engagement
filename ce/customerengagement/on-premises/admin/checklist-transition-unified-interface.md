@@ -18,7 +18,7 @@ search.app:
 
 # Checklist: Unified Interface transition
 
-Follow the steps in this article to ensure that you're prepared for transition to Unified Interface. Readiness for transitioning to Unified Interface will depend on whether you are aiming for basic compatibility or redesigning to take full advantage of new capabilities. For more detailed information, see the [Unified Interface Playbook](unified-interface-playbook.md).
+Follow the steps in this article to ensure that you're prepared for transition to Unified Interface. Readiness for transitioning to Unified Interface will depend on whether you are aiming for basic compatibility or redesigning to take full advantage of new capabilities.
 
 The instructions apply to the following Dynamics 365 apps:
 
@@ -77,7 +77,7 @@ Here are some of the most common areas needing attention:
 
 -   **Task flows**: Consider using business process flows to replace task flows. More information: [Business process flows overview](../customize/business-process-flows-overview.md)
 
--   **Dynamics 365 for Outlook (COM Add-in)**: Consider replacing the [deprecated](/power-platform/important-changes-coming#dynamic-365-for-outlook-is-deprecated) Dynamics 365 for Outlook (COM Add-in) with the modern, lightweight [Dynamics 365 App for Outlook](/dynamics365/outlook-app/overview). For further information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook)
+-   **Dynamics 365 for Outlook (COM Add-in)**: Consider replacing the [deprecated](/power-platform/important-changes-coming#dynamic-365-for-outlook-is-deprecated) Dynamics 365 for Outlook (COM Add-in) with the modern, lightweight [Dynamics 365 App for Outlook](/dynamics365/outlook-app/overview).
 
 - **Dynamics 365 Customer Service**:
     -   Service scheduling: Consider using [Universal Resource Scheduling](/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling) instead of legacy service scheduling.
