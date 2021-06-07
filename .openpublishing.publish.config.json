@@ -7,7 +7,7 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [
-        ">= dynamics-usd-3"
+        ">= dynamics-usd-3", ">= op-9-0"
       ],
       "xref_query_tags": [
         "/dotnet",
