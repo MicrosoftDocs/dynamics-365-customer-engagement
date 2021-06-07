@@ -195,9 +195,9 @@ Administrators can view past sync errors by going to **Settings** > **Sync Error
 
 ## Configuration considerations
 
-#### Copy the offline profile 
+#### Should I make a copy of the offline profile?
 
-While we recommend making changes directly to the default offline profile to receive updates, you can also copy the offline profile and make offline filter changes in the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
+It is recommended to use the mobile offline profile included with Field Service and make offline filter changes directly in the "Field Service Mobile - Offline Profile." One key benefit of using the default offline profile is it allows your offline profile to receive updates to unchanges entity sync filters. Having said that, you have the option to copy the default "Field Service Mobile - Offline Profile" to make changes to the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
