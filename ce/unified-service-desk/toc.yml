@@ -727,8 +727,6 @@
       href: oc-customizer/configure-Scriptlets-define-case-channel-titles.md
     - name: Configure link to conversation button in Unified Service Desk 
       href: oc-customizer/configure-link-to-conversation.md
-- name: Known issues and limitations of Unified Service Desk
-  href: release-notes.md
 - name: Dynamics 365 Customer Service
   href: ../customer-service/help-hub.md
 - name: Omnichannel for Customer Service Guide
