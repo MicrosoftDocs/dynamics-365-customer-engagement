@@ -1,6 +1,6 @@
 ---
-title: "Work with activities in the Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Use the opportunity Kanban view to visualize all your activities with a card-based view and manage these activities quickly by moving them across the swim lanes."
+title: "Work with activities in Kanban view (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Use the opportunity Kanban view to visualize activities in a card-based view and manage by moving them across the swim lanes in Dynamics 365 Sales Professional."
 ms.date: 04/16/2020
 ms.topic: article
 author: lavanyakr01
@@ -14,7 +14,7 @@ searchScope:
   - Sales
 ---
 
-# Work with activities in the Kanban view (Sales Professional)
+# Work with activities in Kanban view (Sales Professional)
 
 The Kanban view for activities helps salespeople to manage multiple activities quickly. Looking at the Kanban view, salespeople can quickly see the activities and the status they're in. In the Activity Kanban view, activities are represented visually with cards. The lanes represent the default statuses of activities. You can drag the activities to different lanes to move them from one status to another.
 

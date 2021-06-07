@@ -1,6 +1,6 @@
 ---
-title: "Enable or disable generation of PDF files from sales records (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Enable your users to create and share professional-looking PDF files with customers."
+title: "Enable or disable PDF generation from sales records (Dynamics 365 Sales Professional) | MicrosoftDocs"
+description: "Enable your users to create and share professional-looking PDF files with customers in Dynamics 365 Sales Professional."
 ms.date: 10/28/2020
 ms.topic: article
 author: lavanyakr01
@@ -17,7 +17,7 @@ searchScope:
   - Sales
 ---
 
-# Enable or disable PDF generation from sales records
+# Enable or disable PDF generation from sales records (Sales Professional)
 
 The PDF generation capability allows your users to generate PDF files directly from sales records. The capability to create PDF files is supported on the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices. You can select the entities on which you want to enable PDF generation.
 

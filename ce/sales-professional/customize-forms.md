@@ -1,6 +1,6 @@
 ---
 title: "Customize forms (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Change or design the forms to allow your users to enter or find information quickly."
+description: "Change or design the forms to allow your users to enter or find information quickly in Dynamics 365 Sales Professional."
 ms.date: 06/22/2020
 ms.topic: article
 author: lavanyakr01
