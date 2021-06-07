@@ -20,8 +20,6 @@ tags: MigrationHO
 
 # What is Unified Service Desk?
 
->>>>>>> 43d751a2f70ab4f370305f25bbe89c391a43432c
-
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] model-driven apps provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in Microsoft Dataverse. You can aggregate customer information from different areas in Dataverse into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business critical information so they can quickly engage with customers and address queries and issues.  
@@ -53,7 +51,7 @@ tags: MigrationHO
   
   For information about the core [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] concepts, see [Components of Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md).
 
-## See also
+### See also
  [Call center challenges and how Unified Service Desk can help?](../../unified-service-desk/admin/call-center-challenges-how-unified-service-desk-can-help.md)  
 
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)  
