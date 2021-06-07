@@ -1,12 +1,11 @@
 ---
 title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
 description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 with Dynamics 365 model-driven apps."
+ms.date: 11/17/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/17/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -61,7 +60,7 @@ ms.custom:
 
 1. Get the **Dynamics 365 Channel Integration Framework** solution. For more information, see [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md).
 
-2. Configure the channel provider by providing the detail as shown in the matrix. For more information, see [Configure the channel provider](configure-channel-provider-channel-integration-framework.md).
+2. Configure the channel provider by providing the detail as shown in the matrix. For more information, see [Configure the channel provider](./configure-channel-provider-app-profile-manager.md).
 
    | Field | Description |
    |-------|-------|

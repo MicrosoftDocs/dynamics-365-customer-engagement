@@ -1,13 +1,12 @@
 ---
 title: "Add custom KPIs to intraday insights dashboard | MicrosoftDocs"
 description: "Learn how to add custom KPIs to the intraday insights dashboard in Omnichannel for Customer Service."
-author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
-manager: shujoshi
 ms.date: 10/24/2019
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Customize KPIs for intraday insights
@@ -80,15 +79,15 @@ You can add the custom KPIs that are specific to your organization to intraday i
    > [!div class=mx-imgBorder]
    > ![Verify created measure](media/supervisor-admin-custom-kpis-select-verify-measure-formula.png "Verify created measure")
 
-    To learn more about creating measure, see [Create a measures](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures#create-a-measure).
+    To learn more about creating measure, see [Create a measures](/power-bi/desktop-tutorial-create-measures#create-a-measure).
 
-8. Add the measure to your report. To learn more, see [Use your measure in the report](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report).
+8. Add the measure to your report. To learn more, see [Use your measure in the report](/power-bi/desktop-tutorial-create-measures#use-your-measure-in-the-report).
 
 9. Publish the report.
 
     The custom KPI measure is added to the intraday insights dashboard.
 
-To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures).
+To learn more about how to create custom measures, see [Tutorial: Create your own measures in Power BI Desktop](/power-bi/desktop-tutorial-create-measures).
 
 ## Edit measures and visuals of existing KPIs
 

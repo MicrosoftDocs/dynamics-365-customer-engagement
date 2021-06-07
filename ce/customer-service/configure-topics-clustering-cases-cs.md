@@ -1,13 +1,12 @@
 ---
 title: "Configure AI topic clustering for cases | MicrosoftDocs"
 description: "Learn how to configure and view the topics clustering dashboard in Customer Service Hub and Customer Service workspace"
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure AI topic clustering for cases
@@ -77,11 +76,15 @@ The topics capability in the Customer Service historical analytics reports comes
 - Simplified Chinese 
 - Spanish 
 
+> [!NOTE]
+> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+
 
 ### See also
 
 [Introduction to Customer Service analytics and insights](introduction-customer-service-analytics.md)  <br>
 [Dashboard overview](customer-service-analytics-insights-csh.md)  <br> 
+[Topics Dashboard](case-topics-dashboard-cs.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Analytics and insights in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Discover insights from your customer service data"
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Preview: Discover insights from your customer service data

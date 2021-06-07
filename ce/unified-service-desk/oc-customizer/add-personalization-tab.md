@@ -1,12 +1,11 @@
 ---
 title: "Add the personalization tab to enable personal quick replies | MicrosoftDocs"
 description: "Learn how to add the personalization tab to enable quick replies in Omnichannel for Customer Service on Unified Service Desk."
+ms.date: 01/12/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 01/12/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

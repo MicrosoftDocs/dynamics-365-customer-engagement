@@ -1,12 +1,11 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: "Read about the APIs of Dynamics 365 Channel Integration Framework"
+ms.date: 02/28/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/28/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -79,7 +78,7 @@ Channel Analytics APIs enable you to track event analytics.
 
 | Methods | Description |
 |---------|-------------|
-| [initLogAnalytics](microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics.|
+| [initLogAnalytics](/dynamics365/customer-service/channel-integration-framework/v2/reference/updateConversation) | Invoke this method on an incoming conversation to log analytics.|
 | [logAnalyticsEvent](microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events.|
 
 ## Session Indicator APIs

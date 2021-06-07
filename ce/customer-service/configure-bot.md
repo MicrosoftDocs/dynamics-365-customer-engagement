@@ -1,12 +1,11 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Instructions to integrate an Azure bot in Omnichannel for Customer Service."
+ms.date: 09/09/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/09/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Integrate an Azure bot
@@ -35,7 +34,7 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Integrate a bot with Omnichannel for Customer Service
 
-**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service).
+**Prerequisites**: You must have a bot that is built using Microsoft Bot Framework and registered with Azure Bot Service. For more information on how to build a bot, see [Azure Bot Service Documentation](/azure/bot-service/?view=azure-bot-service).
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they are a part of push-based work streams.
@@ -87,7 +86,7 @@ To create a bot user:
     - **Agent type**: Select **Bot application user**.
     - **Bot application ID**: Bot's application ID from Azure AD that you copied in the previous step.
 
-    For more information on creating an application user, see [Create an application user](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
+    For more information on creating an application user, see [Create an application user](/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
 5.	Save the record.
 

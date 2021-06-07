@@ -1,12 +1,11 @@
 ---
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Demo data installation for Chat for Dynamics 365 Customer Service"
+ms.date: 10/19/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 
@@ -116,7 +115,7 @@ Next you need to update a data mapping file with the email address of the defaul
 4. Select **Save**.
 
   > [!TIP]
-  > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](https://docs.microsoft.com/dynamics365/admin/backup-restore-instances).
+  > We recommend creating a backup of your environment so you can revert to the initial stage if you encounter issues during the demo data installation. To learn more, see [Back up and restore instances](../admin/backup-restore-instances.md).
 
 ## Run the package deployer
 
@@ -229,7 +228,7 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 
 ### See also
 
-[Try channels in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/try-channels)
+[Try channels in Omnichannel for Customer Service](./try-channels.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

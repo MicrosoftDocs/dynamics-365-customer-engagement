@@ -1,11 +1,10 @@
 ---
 title: "Configure the email experience in customer engagement apps | MicrosoftDocs"
 description: "Learn how to configure the email experience in customer engagement apps."
-author: lalexms
-ms.author: laalexan
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: lalexms
+ms.author: laalexan
 ms.reviewer: nenellim
 ---
 
@@ -99,7 +98,7 @@ There are a variety of properties that can be modified and will apply to the ema
 
 ### See also
 
-[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
+[Configure email](/power-platform/admin/settings-email)<br>
 [Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>

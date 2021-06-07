@@ -1,12 +1,11 @@
 ---
 title: "Embed chat widget in your website or portal | MicrosoftDocs"
 description: "Instructions to embed chat widget in your website or Power Apps portal."
+ms.date: 05/02/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/02/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Embed chat widget in your website or portal
@@ -33,7 +32,7 @@ To embed a chat widget in Power Apps portals:
 4.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-5.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+5.	[Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
 6.	Go to **Portal** > **Content Snippets**.
 7.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
@@ -83,7 +82,7 @@ After the chat widget is configured, it has the following capabilities:
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
-> For advanced configuration like embedding chat widget on specific web pages, see [Create and manage portals](https://docs.microsoft.com/powerapps/maker/portals/portal-templates). 
+> For advanced configuration like embedding chat widget on specific web pages, see [Create and manage portals](/powerapps/maker/portals/portal-templates). 
 
 ### See also
 

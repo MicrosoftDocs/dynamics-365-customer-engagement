@@ -2,13 +2,13 @@
 title: "Configure columns and layouts to display in a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure columns and layouts to display in a forecast in Dynamics 365 Sales."
 ms.date: 10/26/2020
-ms.service: "dynamics-365-sales"
-ms.custom: "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-forecastconfiguration
   - D365-Entity-forecastdefinition

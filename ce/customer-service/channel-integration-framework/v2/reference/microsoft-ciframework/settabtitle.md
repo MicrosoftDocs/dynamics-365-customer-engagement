@@ -1,12 +1,11 @@
 ---
 title: "setTabTitle (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: ""
+ms.date: 03/06/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/06/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

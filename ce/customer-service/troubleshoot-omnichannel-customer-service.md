@@ -1,12 +1,11 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
+ms.date: 04/02/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/02/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Troubleshoot Omnichannel for Customer Service
 
@@ -24,19 +23,17 @@ For security, reliability, and performance reasons, Omnichannel is separated by 
 
 ### Resolution
 
-Perform the following:
-
-From the admin portal, select the desired region from the drop-down menu. 
+Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Click the region in the upper-right corner and select a new region from the drop-down list. 
 
    > [!div class=mx-imgBorder]
-   > ![Region drop-down menu screenshot](media/oc-region-menu.png "Region drop-down menu")
+   > ![Power Platform admin center change region](media/oc-region-menu.png "Power Platform admin center change region")
 
 Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
 
 The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
 
    > [!div class=mx-imgBorder]
-   > ![Provisioning application screenshot](media/oc-region-provision.png "Provisioning application screenshot")
+   > ![Manage Omnichannel environments](media/oc-region-provision.png "Manage Omnichannel environments")
 
 ## Omnichannel provisioning fails due to expired Teams Service Principal
 
@@ -488,7 +485,7 @@ As an agent or a supervisor, you see that some conversations are stuck in the wr
 
 ### Resolution
 
-When conversations are ended by the agent or customer, they transition to the wrap-up state. In order to close the conversation, the primary agent assigned to the conversation needs to close the conversation in the session panel. To learn more about closing sessions, see [Manage sessions in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-manage-sessions#close-a-session). To learn more about the wrap-up conversation state, see [Understand conversation states in Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-conversation-state#wrap-up).
+When conversations are ended by the agent or customer, they transition to the wrap-up state. In order to close the conversation, the primary agent assigned to the conversation needs to close the conversation in the session panel. To learn more about closing sessions, see [Manage sessions in Omnichannel for Customer Service](./oc-manage-sessions.md#close-a-session). To learn more about the wrap-up conversation state, see [Understand conversation states in Omnichannel for Customer Service](./oc-conversation-state.md#wrap-up).
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 

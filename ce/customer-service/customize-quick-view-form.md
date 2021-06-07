@@ -1,12 +1,11 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
 description: "Learn how to customize the quick view forms present in the Customer Summary page."
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Customize quick view forms
 
@@ -40,7 +39,7 @@ The following procedure shows how to modify the **Customer profile** quick view 
 6.  Select **Save**, and then select **Publish**.
 
 > [!TIP]
-> To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
+> To edit a quick view form, see [Edit a quick view form](/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 
 ### See also

@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel for Customer Service for administrators | MicrosoftDocs"
 description: "Use administration app for configuring Omnichannel for Customer Service"
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Omnichannel for Customer Service for administrators
 
@@ -30,9 +29,8 @@ You can view the entities in the **Omnichannel Administration** site map.
 
 ## In this section
 
-- [Understand unified routing and work distribution](unified-routing-work-distribution.md)
-- [Scenario walk-through of unified routing and work distribution](unified-routing-work-distribution.md#scenario-walk-through-of-unified-routing-and-work-distribution)
-- [Understand and create work streams](work-streams-introduction.md)
+- [Understand routing and work distribution](unified-routing-work-distribution.md)
+- [Understand and create work streams](create-workstreams.md)
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics

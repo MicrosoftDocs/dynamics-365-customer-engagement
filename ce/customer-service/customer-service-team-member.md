@@ -1,14 +1,11 @@
 ---
 title: Customer Service Team Member app | Microsoft Docs
 description: Customer Service Team Member app
+ms.date: 12/28/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/28/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 # Customer Service Team Member app
 
@@ -30,7 +29,7 @@ The Customer Service Team Member app must be manually installed in your instance
 3. On the apps list page, select the ellipses beside **Customer Service Team Member**, and select **Install**.
 4. In the **Install Customer Service Team Member** panel, select an environment from the list.
 5. Select the terms of service, and then select **Install**.
-6. Grant the **Customer Service Team Member** role to the users who will access the app. To learn about granting the role, see [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+6. Grant the **Customer Service Team Member** role to the users who will access the app. To learn about granting the role, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 ## Change the default account
 
@@ -88,7 +87,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 ### See also
 
-[Dynamics 365 Team Members license](https://docs.microsoft.com/dynamics365/get-started/team-members-license)
+[Dynamics 365 Team Members license](/dynamics365/get-started/team-members-license)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

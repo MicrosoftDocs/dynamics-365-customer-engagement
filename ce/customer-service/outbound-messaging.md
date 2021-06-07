@@ -1,12 +1,11 @@
 ---
 title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: Meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: nenellim
 ---
 
@@ -74,7 +73,7 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 ## Set up a Power Automate flow
 
-Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, see [Power Automate documentation](https://docs.microsoft.com/power-automate/). You can download and import the following sample flows to get started:
+Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, see [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
 
 - [Case Creation flow](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
 
@@ -96,7 +95,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
     - **Scheduled:** Send a message at a point in time, at one or more times, or after an amount of time that you specify.
 
-    For more information about the current limits and configuration details for flows, see [Limits and configuration in Power Automate](https://docs.microsoft.com/power-automate/limits-and-config).
+    For more information about the current limits and configuration details for flows, see [Limits and configuration in Power Automate](/power-automate/limits-and-config).
 
  3. Add the action, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
 

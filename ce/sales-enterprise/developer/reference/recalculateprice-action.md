@@ -2,7 +2,6 @@
 title: "RecalculatePrice Action (Developer Guide for Dynamics 365 Sales) | MicrosoftDocs"
 description: 
 ms.date: 04/25/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: susikka
 ms.author: susikka

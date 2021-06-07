@@ -1,14 +1,11 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
+ms.date: 04/20/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/20/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Search for knowledge articles in the Customer Service Hub
@@ -30,15 +29,15 @@ For more information, see [Knowledge Base Search control](#knowledge-base-search
 
 Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Relevance Search in the knowledge base search control area, in addition to the global search area where Relevance Search is already enabled.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](/power-platform/admin/configure-relevance-search-organization)
 
 Relevance Search uses Azure search service to index and search records. Relevance Search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Relevance Search, you can also configure searchable fields in the knowledge article entity. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization)
 
 
 > [!NOTE]
-> To enable Relevance Search for the knowledge article entity, see [Enable Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization).</br>
+> To enable Relevance Search for the knowledge article entity, see [Enable Relevance Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](/power-platform/admin/configure-relevance-search-organization).</br>
 If Relevance search is not enabled for the entity, standard Full-text search is used. 
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
@@ -122,7 +121,7 @@ Type a keyword in the search box to search for knowledge articles.
   > [!NOTE]
   > If there's a style tag with CSS styles at the top of the article, the summary of the content in the knowledge search results list will contain style tags. Use inline CSS styling instead of putting styles in style tags.
 
-- If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization) 
+- If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
@@ -187,7 +186,7 @@ To configure the ability to copy and send article URLs, see [Configure knowledge
 Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links. 
 
 > [!NOTE]
-> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how create a portal, see [Create a portal in an environment containing customer engagement apps](https://docs.microsoft.com/powerapps/maker/portals/create-dynamics-portal).
+> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
 
 To configure a knowledge base article URL, do the following:
 
