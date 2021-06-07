@@ -1,12 +1,11 @@
 ---
 title: "Automatic closure of a conversation| Microsoft Docs"
 description: "Read how you can auto-close a conversation using the Web API"
+ms.date: 10/25/2019
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/25/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Automatic closure of a conversation
 

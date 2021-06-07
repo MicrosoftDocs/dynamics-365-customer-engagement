@@ -4,9 +4,6 @@ description: "This topic provides information about WhatsApp channel through the
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Use WhatsApp channel

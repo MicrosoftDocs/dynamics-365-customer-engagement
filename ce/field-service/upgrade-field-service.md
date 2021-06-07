@@ -52,7 +52,7 @@ Go to **Admin**.
 Then go to the Dynamics 365 Admin Center. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center](./media/upgrade-admin-d365.png)
+> ![Screenshot of the Dynamics 365 admin center_1](./media/upgrade-admin-d365.png)
 
 
 
@@ -61,7 +61,7 @@ You can also go directly to [https://admin.powerplatform.microsoft.com/environme
 Select and highlight the environment that has the Field Service app you want to upgrade. In the top ribbon, select **Resources** > **Dynamics 365 apps**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center ](./media/upgrade-fs-new-ppac.jpg)
+> ![Screenshot of the Dynamics 365 admin center_2](./media/upgrade-fs-new-ppac.jpg)
 
 In the list of solutions, find and select the Field Service app. It will indicate if an upgrade is available. Then select the **Update** in the top.
 
@@ -157,7 +157,7 @@ From the Power Platform admin center located at [https://admin.powerplatform.mic
 To upgrade resource scheduling optimization, in the left pane select **Resources** > **Dynamics 365 apps**, find resource scheduling optimization, and select **Manage**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Dynamics 365 admin center](./media/rso-upgrade-manage-powerapps-admin.png)
+> ![Screenshot of the Dynamics 365 admin center_3](./media/rso-upgrade-manage-powerapps-admin.png)
 
 
 Then select **Upgrade to new version**.
@@ -194,7 +194,7 @@ As an example, downloading Field Service Mobile from the Windows Store can allow
 
 ### Step 2: Upgrade the mobile configuration tool (Woodford) solution
 
-To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](./mobile-faq-latest-version.md) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
+To unlock the new capabilities of the updated Field Service Mobile app, you'll then need to [download](https://aka.ms/fsmobile-configurator) and [import](./mobile-faq-latest-version.yml) the latest version of the Mobile Configuration tool (Woodford) solution into your environment.
  
 
 ### Step 3: Upgrade the mobile project template.

@@ -4,9 +4,6 @@ description: "Perform the steps mentioned in the topic to remove Omnichannel for
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Remove Omnichannel for Customer Service

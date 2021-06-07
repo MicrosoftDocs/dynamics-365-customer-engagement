@@ -4,9 +4,6 @@ description: "Perform the steps mentioned in the topic to upgrade to the latest 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/13/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Upgrade Omnichannel for Customer Service

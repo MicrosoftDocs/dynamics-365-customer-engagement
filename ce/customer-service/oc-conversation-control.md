@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Conversation control is a communication panel in Omnichannel where you interact with the customer."
+ms.date: 01/11/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/11/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # View communication panel

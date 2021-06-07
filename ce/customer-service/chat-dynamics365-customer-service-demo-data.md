@@ -4,9 +4,6 @@ description: "This topic offers instructions on how to install sample or demo da
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 

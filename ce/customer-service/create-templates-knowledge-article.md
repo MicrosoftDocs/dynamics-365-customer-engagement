@@ -1,12 +1,11 @@
 ---
 title: "Create templates for knowledge articles for Dynamics 365 Customer Service | MicrosoftDocs"
 description: Learn how to create templates that simplify the process of creating knowledge articles.
+ms.date: 12/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 12/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 ---

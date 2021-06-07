@@ -4,9 +4,6 @@ description: "This topic provides information about Facebook channel through the
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Use Facebook channel

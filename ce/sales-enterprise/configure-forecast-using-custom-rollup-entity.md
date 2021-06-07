@@ -2,13 +2,13 @@
 title: "Configure a forecast using custom rollup entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure a forecast using custom rollup entity in Dynamics 365 Sales."
 ms.date: 10/26/2020
-ms.service: "dynamics-365-sales"
-ms.custom: "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
   - D365-Entity-msdyn_forecastdefinition
@@ -16,7 +16,6 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Configure forecasts by using a custom rollup entity

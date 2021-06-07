@@ -3,7 +3,7 @@ title: "Overview of the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about the Field Service (Dynamics 365) mobile app with this general overview.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 11/17/2020
+ms.date: 06/04/2021
 ms.reviewer: krbjoran
 ms.topic: overview
 ms.service: dynamics-365-customerservice
@@ -32,6 +32,10 @@ Available natively for Apple iOS and Google Android phones and tablets, the Fiel
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
+
+### See also
+
+[5 tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

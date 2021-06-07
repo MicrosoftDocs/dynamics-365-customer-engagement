@@ -1,12 +1,11 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
+ms.date: 02/04/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/04/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # setContextProvider
 

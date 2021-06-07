@@ -2,7 +2,6 @@
 title: "Create or edit goals (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

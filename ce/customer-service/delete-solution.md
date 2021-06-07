@@ -4,9 +4,6 @@ description: "Perform the steps mentioned in the topic to delete an Omnichannel 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/20/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Delete solutions

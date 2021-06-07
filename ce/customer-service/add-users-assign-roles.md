@@ -4,9 +4,6 @@ description: "Perform the steps to enable users and assign roles in Omnichannel 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/19/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
