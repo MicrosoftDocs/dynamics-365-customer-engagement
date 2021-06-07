@@ -1,12 +1,11 @@
 ---
-title: :Configure assignment methods for queues | MicrosoftDocs"
-description: "Configure assignment methods for queues in Customer Service"
+title: "Configure assignment methods for queues | MicrosoftDocs"
+description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure assignment methods for queues
@@ -34,9 +33,6 @@ You can create only one prioritization ruleset per queue.
 As an example, consider the prioritization rule as seen in the following screenshot. This rule will match all the work items where the routed record (case) contains data and priority equals high. The matched items will be further sorted based on a first in and first out attribute.
 
 ![Prioritization scenario](media/ur-prioritization-scenario.png "Prioritization scenario")
-
-1. Create a prioritization ruleset
-2. Create a decision list of rules
 
 ## How assignment rulesets work
 
@@ -105,7 +101,7 @@ Follow these steps to configure the selection criteria for the assignment rulese
 
 1. For the assignment method, in the **Assignment** section, select **Create rule**, and in the **Decision list** area, select **Create rule**.
 2. In the **Create selection criteria rule** dialog box, enter a rule name, and define the conditions.
-3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the Decision list area.
+3. In **Execute ruleset**, select the assignment ruleset that must be run when the conditions are met, and then select **Create**. The rule is listed in the **Decision list** area.
 4. Define as many rules as the number of assignment rulesets.
 
 ### See also

@@ -1,15 +1,14 @@
 ---
 title: "Routing rules in unified routing | MicrosoftDocs"
 description: "Routing rules in unified routing"
+ms.date: 05/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
-# Routing rules for a workstream
+# Routing and assignment rules
 
 A workstream is a container for work items to be enriched, routed, and assigned. A workstream is associated with a channel, such as live chat. Routing rules are written as rulesets, which comprise rule items. Routing rules for a workstream are composed of work classification rules and route-to-queue rules.
 

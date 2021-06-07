@@ -1,8 +1,7 @@
 ---
 title: "Create a marketing list using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+description: "Learn how to create a marketing list using in-app marketing in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -71,7 +70,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
     
     4.  Select **Find**.  
   
-    6.  Select the members that you want to add, and then select one of the following:  
+    6.  Select the members that you want to add, and then select one of the following options:  
   
         -   Add only selected  
   
@@ -87,12 +86,15 @@ Your marketing list is the core of running a successful marketing campaign. It c
     
     4.  Select **Find**.  
   
-    5.  Select the members that you want to remove, select one of the following:  
+    5.  Select the members that you want to remove, select one of the following options:  
   
         -   Remove only selected  
   
         -   Remove all  
   
+    >[!NOTE]
+    > For the better performance of application and avoid time outs, remove the members in the marketing list in groups of 10000 at a time. For example, if there are 20000 members in a marketing list and you want to remove the members. Remove 10000 members first and then remove the other 10000. 
+    
     #### Evaluate using Advanced Find  
   
     1. In the **Add Members using advanced find** dialog box, the entity that the marketing list is targeted at is automatically selected.
@@ -103,7 +105,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
     4.  Select **Find**.  
   
-    5.  Select the members that you want to keep, select one of the following:  
+    5.  Select the members that you want to keep, select one of the following options:  
   
         -   Keep only selected  
   

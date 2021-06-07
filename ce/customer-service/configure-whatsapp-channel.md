@@ -1,12 +1,11 @@
 ---
 title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
 description: "Learn about the WhatsApp channel through Twilio and how to configure the channel in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure a WhatsApp channel through Twilio

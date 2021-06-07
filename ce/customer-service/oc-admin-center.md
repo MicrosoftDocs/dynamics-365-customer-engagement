@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel admin center | MicrosoftDocs"
 description: "Get started with Omnichannel admin center"
+ms.date: 04/09/2021
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ---
 
 # Get started with Omnichannel admin center
@@ -22,14 +21,14 @@ If you are an upgrading user of Omnichannel for Customer Service, you can perfor
 > - We recommend that you use Omnichannel admin center for managing Omnichannel for Customer Service.
 > - You can set up unified routing for Customer Service and Omnichannel for Customer Service in the Omnichannel admin center and Customer Service Hub apps only.
 
-
 ### See also
 
 [Unified routing](overview-unified-routing.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Create workstreams](create-workstreams.md#create-a-workstream-in-omnichannel-admin-center)  
+[Create workstreams](create-workstreams.md)  
 [Create queues for conversations](queues-omnichannel.md)  
 [Set up record routing](set-up-record-routing.md)  
+[FAQs on unified routing](unified-routing-faqs.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

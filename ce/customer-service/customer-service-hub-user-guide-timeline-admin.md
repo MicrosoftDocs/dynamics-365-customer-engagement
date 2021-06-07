@@ -1,12 +1,11 @@
 ---
 title: "Configure Timeline | MicrosoftDocs"
 description: "Timeline configuration overview for administrators"
+ms.date: 04/28/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/28/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 
