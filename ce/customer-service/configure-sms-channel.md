@@ -1,6 +1,6 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
-description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the topic to configure an SMS channel in Omnichannel for Customer Service."
 ms.date: 04/15/2021
 ms.topic: article
 author: neeranelli

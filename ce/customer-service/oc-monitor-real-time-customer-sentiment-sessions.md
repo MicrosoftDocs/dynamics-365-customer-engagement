@@ -1,6 +1,6 @@
 ---
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
-description: "Learn how to monitor real-time customer sentiment while interacting with customers."
+description: "This topic provides information on how to monitor real-time customer sentiment and analyse customer's satisfaction levels while interacting with customers."
 ms.date: 07/01/2020
 ms.topic: article
 author: lalexms

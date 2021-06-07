@@ -1,6 +1,6 @@
 ---
 title: "Attach Omnichannel Toast Notification-related action calls to events | MicrosoftDocs"
-description: "Learn how to add Omnichannel Toast Notification-related action calls to events"
+description: "Perform the steps mentioned in the topic to add Omnichannel Toast Notification-related action calls to events."
 ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli

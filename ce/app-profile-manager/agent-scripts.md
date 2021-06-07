@@ -1,6 +1,6 @@
 ---
 title: "Agent scripts to configure | MicrosoftDocs"
-description: "Learn about agent scripts and how to configure them."
+description: "Follow the steps mentioned in the topic to create and configure agent scripts."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

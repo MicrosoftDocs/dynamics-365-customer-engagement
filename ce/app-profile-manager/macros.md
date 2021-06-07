@@ -1,6 +1,6 @@
 ---
 title: "Macros in the Customer Service workspace and Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about macros and how to configure in the Customer Service workspace and Omnichannel Administration app."
+description: "This topic provides information about macros and how to configure macros in the Customer Service workspace and Omnichannel Administration app."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
