@@ -19,7 +19,6 @@ monikerRange: '>= dynamics-usd-4'
 
 # What's new in Unified Service Desk for developers and customizers
 
-
 ::: moniker range="dynamics-usd-4.2"
 
 ## What's new in Unified Service Desk 4.2
@@ -28,7 +27,7 @@ This topic contains information about changes in [!INCLUDE[pn-unified-service-de
 
 ### Use Edge WebView2 Process to host web applications in Unified Service Desk
 
-The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk.
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge WebView2, it'll work in Unified Service Desk.
 
 The advantages of using the Edge WebView2 Process hosting method are:
 
@@ -39,7 +38,6 @@ The advantages of using the Edge WebView2 Process hosting method are:
 - Enhanced performance and memory optimization.
 
 More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](edge-webview2-process.md)
-
 
 ::: moniker-end
 
