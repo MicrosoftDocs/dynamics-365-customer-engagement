@@ -3,7 +3,7 @@ title: "Predictive travel times for Resource Scheduling Optimization | Microsoft
 description: Learn how to use predictive travel times for Resource Scheduling Optimization in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 10/01/2020
+ms.date: 05/24/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -22,13 +22,17 @@ search.app:
 
 In order to predict accurate travel times for technicians, it's important to remember that travel times can vary because of traffic conditions.
 
-Resource scheduling optimization can use historical traffic information in order to predict more accurate travel times for technicians. Better travel time predictions mean more accurate and realistic scheduling for dispatchers and technicians alike.
+Resource Scheduling Optimization can use historical traffic information in order to predict more accurate travel times for technicians. Better travel time predictions mean more accurate and realistic scheduling for dispatchers and technicians alike.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWEhsq]
 
 ## Prerequisites
 
 - **Connect to Maps** must be set to **Yes**. Go to **Resource Scheduling App** > **Settings** > **Administration** > **Scheduling Parameters** to make sure.
 - Predictive travel times that use historical data is only available for scheduling with Resource Scheduling Optimization; the feature is not currently supported for the schedule assistant or manual scheduling.
-- Resource scheduling optimization v3.2.0.4+.
+- Resource Scheduling Optimization v3.2.0.4+.
 
 ## Set travel time calculation on optimization goal
 
@@ -65,7 +69,7 @@ As of Field Service version 8.8.40.x+ (2021 Wave 1 release) and Resource Schedul
 
 Hovering on a booking with predictive travel time will also show this indicator in the booking card in the **Estimated Travel Duration** field, along with a _(with historical traffic)_ suffix and informational link. The legend explains this indicator as well.
 
-Additionally, the booking form includes a **Travel Time Calculation** field in the **Resource Scheduling Optimization** tab, which is set to _Bing Maps with historical traffic_ for bookings with predictive travel times. Resource scheduling optimization administrators can use this to report and quantify volume of bookings that did and did not use historical traffic, and then refine scopes accordingly to improve overall business metrics. 
+Additionally, the booking form includes a **Travel Time Calculation** field in the **Resource Scheduling Optimization** tab, which is set to _Bing Maps with historical traffic_ for bookings with predictive travel times. Resource Scheduling Optimization administrators can use this to report and quantify volume of bookings that did and did not use historical traffic, and then refine scopes accordingly to improve overall business metrics. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking form with travel time calculation field.](./media/PredictiveTravel-UX2-BookingForm.png)

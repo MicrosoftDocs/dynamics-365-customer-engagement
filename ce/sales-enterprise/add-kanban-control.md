@@ -2,7 +2,6 @@
 title: "Add Kanban control to Opportunity or Activity entities | MicrosoftDocs"
 description: "Add the Kanban control to help sellers to manage opportunity or activity entity in Dynamics 365 Sales."
 ms.date: 10/14/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

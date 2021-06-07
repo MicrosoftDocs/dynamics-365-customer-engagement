@@ -1,12 +1,11 @@
 ---
 title: "runMacro (Omnichannel for Customer Service JavaScript API reference)| MicrosoftDocs"
 description: 
+ms.date: 10/17/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/17/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # runMacro
 

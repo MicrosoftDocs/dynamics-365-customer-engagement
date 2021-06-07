@@ -2,7 +2,6 @@
 title: "Manage your customers in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Store important information about the accounts and contacts you do business with in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

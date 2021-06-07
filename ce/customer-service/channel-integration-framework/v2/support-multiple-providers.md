@@ -1,12 +1,11 @@
 ---
 title: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
 description: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0"
+ms.date: 12/31/2018
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2018
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

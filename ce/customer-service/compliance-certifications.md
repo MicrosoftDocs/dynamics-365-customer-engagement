@@ -1,12 +1,11 @@
 ---
 title: "Compliance certification of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the international availability of Omnichannel for Customer Service. This topic explains the language and geographic availability."
+ms.date: 02/28/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 02/28/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 # Compliance certifications of Omnichannel for Customer Service

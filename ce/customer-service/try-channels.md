@@ -1,12 +1,11 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
+ms.date: 02/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Try channels in Omnichannel for Customer Service

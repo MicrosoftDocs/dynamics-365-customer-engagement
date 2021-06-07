@@ -1,17 +1,16 @@
 ---
 title: "addHandler (JavaScript API Reference) for Channel Integration Framework (CIF) | MicrosoftDocs"
 description: ""
+ms.date: 10/12/2018
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/12/2018
-ms.topic: reference
-ms.service: dynamics-365-customerservice
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
 # addHandler (CIF JavaScript API Reference)

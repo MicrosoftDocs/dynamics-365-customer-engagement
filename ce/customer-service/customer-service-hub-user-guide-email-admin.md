@@ -1,12 +1,11 @@
 ---
 title: "Configure email | Microsoft Docs"
 description: "Learn how to configure email in customer engagement apps."
+ms.date: 04/05/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 

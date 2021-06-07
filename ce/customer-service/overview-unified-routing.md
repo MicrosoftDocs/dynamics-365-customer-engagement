@@ -1,12 +1,11 @@
 ---
 title: "Overview of unified routing | MicrosoftDocs"
 description: "Overview of unified routing in Customer Service"
+ms.date: 05/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/18/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Overview of unified routing

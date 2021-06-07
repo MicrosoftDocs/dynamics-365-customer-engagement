@@ -125,11 +125,11 @@
         - name: Configure work classification rulesets for unified routing
           href: configure-work-classification.md
         - name: Set up routing and assignment rules in Omnichannel Administration
-          href: routing-rules.md  
+          href: routing-rules.md
       - name: Configure work assignment
         items:
         - name: Configure assignment methods for queues
-          href: assignment-methods.md     
+          href: assignment-methods.md
       - name: Set up record routing
         items: 
         - name: Set up unified routing for records
@@ -138,27 +138,25 @@
           href: set-up-entity-workstream.md
         - name: Create multiple workstreams for records in Omnichannel Administration
           href: multiple-ws-entity-record-routing.md  
-        - name: Automatically route cases using basic routing rulesets
-          href: create-rules-automatically-route-cases.md
         - name: Route records in Omnichannel Administration app
           href: entity-channel.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
           href: overview-skill-work-distribution.md
-        - name: Enable agents to attach skills, create rating models
-          href: enable-skill-routing-create-rating-model.md
-        - name: Set up skill finder model
-          href: intelligent-skill-model.md
-        - name: Set up skills, assign agents
+        - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Attach skills to conversations
+        - name: Enable agents to update skills
+          href: allow-agents-update-skills.md
+        - name: Set up skill-based routing in unified routing
+          href: set-up-skill-based-routing.md
+        - name: Set up skill-based routing in Omnichannel Administration
           href: attach-skills.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
           href: set-up-queues-manage-activities-cases.md
-        - name: Automatically route cases using basic rule sets
+        - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
         - name: Set up routing for conversations in Omnichannel for Customer Service
           href: understand-omnichannel-customer-service-hub.md
@@ -187,7 +185,7 @@
       - name: How unified routing affects queue items and their APIs
         href: unified-routing-impact-on-APIs.md
       - name: Add skill control for routed records
-        href: add-skill-control.md        
+        href: add-skill-control.md
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
   - name: Case management
