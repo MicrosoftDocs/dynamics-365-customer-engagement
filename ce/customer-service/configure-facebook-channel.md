@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Many customers use social messaging channels like Facebook Messenger for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 where the session ends when the chat window is closed.
+Many customers use social messaging channels like Facebook Messenger for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they find time, unlike real-time channels like Chat for Dynamics 365 where the session ends when the chat window is closed.
 
 The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
@@ -53,7 +53,7 @@ To add the Facebook channel instance, you must configure the channel account by 
    5. Review the **Summary** page, and select **Create**. The channel instance is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+7. (Optional) Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot).
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
@@ -197,11 +197,11 @@ If a customer initiates a conversation from the Facebook page and then later swi
 
 The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](facebook.md)
 
-Once the Facebook social profile is linked to an user customer/contact record by the agent, subsequent Facebook conversations are linked to the customer records and the customer summary is populated.
+Once the Facebook social profile is linked to a customer/contact record by the agent, subsequent Facebook conversations are linked to the customer records and the customer summary is populated.
 
 If the customer is not identified based on name, a new contact record can be created.
 
-Customer can send attachments only if you enable.  If you don't enable the option for the customers, they can send the file. However, agents won't receive the file and will see an error.
+The customer can send attachments only if you enable them.  If you don't enable the option for the customers, they can still attempt to send the file. However, agents won't receive the file and will see an error.
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file](media/fb-customer1.png "Customer sending file")
