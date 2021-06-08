@@ -1,6 +1,6 @@
 ---
-title: "Create a record in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to create a record in Omnichannel for Customer Service app."
+title: "Create records | MicrosoftDocs"
+description: "Learn how you can create a record by using the various methods in the Omnichannel for Customer Service app."
 ms.date: 12/27/2019
 ms.topic: article
 author: neeranelli
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Create a record
+# Create a record for conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -20,7 +20,7 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create a record from the Customer Summary page
 
-In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation. 
+In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
 
 To create a new record:
 
@@ -28,9 +28,9 @@ To create a new record:
     
     | Option | Section | Description |
     |---------------------|------------------------|------------------------------------------------|
-    | + New Account | Customer | Select this option to create a new account record |
-    | + New Contact | Customer | Select this option to create a new contact record |
-    | + New Case | Case | Select this option to create a new case record |
+    | New Account | Customer | Select this option to create a new account record |
+    | New Contact | Customer | Select this option to create a new contact record |
+    | New Case | Case | Select this option to create a new case record |
 
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](media/customer-summary-create-record.PNG "Create account, contact, and case")
@@ -85,7 +85,7 @@ In the Customer Summary page, when you are trying to search a record in customer
 
 1. Type to search in the search box. The records appear as a list that matches your search criteria.
 
-2. Select **+ New** below the list of records. The Quick create pane appears.
+2. Select **New** below the list of records. The Quick create pane appears.
 
     > [!div class=mx-imgBorder]
     > ![Quick create record](media/customer-summary-search-section-create-case.png "Quick create record")

@@ -1,6 +1,6 @@
 ---
-title: "TeleSign, Twilio channels agent experience in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the TeleSign, Twilio SMS channels agent experience in Omnichannel for Customer Service."
+title: "Agent experience for TeleSign and Twilio channels | MicrosoftDocs"
+description: "Learn about the agent experience in interactign with conversations that originate from the TeleSign and Twilio SMS channels in the Omnichannel for Customer Service app."
 ms.date: 04/06/2020
 ms.topic: article
 author: neeranelli
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Use an SMS channel
+# Use SMS channels
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
