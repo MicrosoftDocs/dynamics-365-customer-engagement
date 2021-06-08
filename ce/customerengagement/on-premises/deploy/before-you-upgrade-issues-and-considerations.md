@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Before you upgrade: issues and considerations
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This topic describes how you can upgrade to Dynamics 365 for Customer Enagagement, version 9.0.  
   
@@ -38,7 +43,6 @@ This topic describes how you can upgrade to Dynamics 365 for Customer Enagagemen
 ## See Also  
  [Upgrading from Microsoft Dynamics 365](plan-your-upgrade-to-microsoft-dynamics-365-server.md)   
 
-
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

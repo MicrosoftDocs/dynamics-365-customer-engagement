@@ -1,5 +1,6 @@
 ---
 title: "Data query performance  | MicrosoftDocs"
+description: "Index management is executed automatically using Azure SQL Database automatic tuning."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

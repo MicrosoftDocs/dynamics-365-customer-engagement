@@ -1,5 +1,6 @@
 ---
-title: "Change navigation within a form (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Change navigation within a form with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to change navigation within a form with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 

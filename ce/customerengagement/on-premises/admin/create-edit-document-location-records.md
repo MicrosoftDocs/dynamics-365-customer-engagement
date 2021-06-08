@@ -1,5 +1,6 @@
 ---
 title: "Create or edit document location records  | MicrosoftDocs"
+description: "Store documents for Dynamics 365 Customer Engagement (on-premises) records."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

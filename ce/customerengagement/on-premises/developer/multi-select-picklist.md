@@ -22,7 +22,7 @@ search.audienceType:
 # Multi-Select Picklist attributes
 
 > [!NOTE]
-> Multi-select picklist attributes were added with the Dynamics 365 Customer Engagement (on-premises) version 9.0.
+> Multi-select picklist attributes were added with the Dynamics 365 Customer Engagement (on-premises) version 9.x.
 >
 > Clients that do not use the current .NET assemblies need to include <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion> with a value of `9.0.0.0` or higher in order to work with <xref:Microsoft.Xrm.Sdk.Metadata.MultiSelectPicklistAttributeMetadata> attributes. More information: <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion>.
 
@@ -37,7 +37,7 @@ Just like picklist attributes, there is technically no upper limit on the number
 With the Web API, you set the values by passing a string containing comma separated number values as shown in the following example:
 ### Request
 ```http
-POST [organization uri]/api/data/v9.0/contacts HTTP/1.1
+POST [organization uri]/api/data/v9.1/contacts HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -54,7 +54,7 @@ OData-Version: 4.0
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [organization uri]/api/data/v9.0/contacts(0c67748a-b78d-e711-811c-000d3a75bdf1)
+OData-EntityId: [organization uri]/api/data/v9.1/contacts(0c67748a-b78d-e711-811c-000d3a75bdf1)
 ```
 
 With the Organization service using the assemblies, use the <xref:Microsoft.Xrm.Sdk.OptionSetValueCollection> to set values for this attribute as shown in the following C# example:
@@ -114,7 +114,7 @@ The following example shows the use of the `ContainsValues` query function to re
 
 #### Request
 ```http
-GET [organization uri]/api/data/v9.0/contacts?$select=fullname,sample_outdooractivities&$filter=Microsoft.Dynamics.CRM.ContainValues(PropertyName='sample_outdooractivities',PropertyValues=%5B'2'%5D) HTTP/1.1
+GET [organization uri]/api/data/v9.1/contacts?$select=fullname,sample_outdooractivities&$filter=Microsoft.Dynamics.CRM.ContainValues(PropertyName='sample_outdooractivities',PropertyValues=%5B'2'%5D) HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -130,7 +130,7 @@ Preference-Applied: odata.include-annotations="OData.Community.Display.V1.Format
 Content-Length: 1092
 
 {
-    "@odata.context": "[organization uri]/api/data/v9.0/$metadata#contacts(fullname,sample_outdooractivities)",
+    "@odata.context": "[organization uri]/api/data/v9.1/$metadata#contacts(fullname,sample_outdooractivities)",
     "value": [{
         "@odata.etag": "W/\"529811\"",
         "fullname": "Monte Orton",
@@ -176,7 +176,7 @@ The following example shows the use of the `not-contain-values` operator in the 
 
 #### Request
 ```http
-GET [organization uri]/api/data/v9.0/contacts?fetchXml=%253Cfetch%2520distinct%253D'false'%2520no-lock%253D'false'%2520mapping%253D'logical'%253E%253Centity%2520name%253D'contact'%253E%253Cattribute%2520name%253D'fullname'%2520%252F%253E%253Cattribute%2520name%253D'sample_outdooractivities'%2520%252F%253E%253Cfilter%2520type%253D'and'%253E%253Ccondition%2520attribute%253D'sample_outdooractivities'%2520operator%253D'not-contain-values'%253E%253Cvalue%253E2%253C%252Fvalue%253E%253C%252Fcondition%253E%253C%252Ffilter%253E%253C%252Fentity%253E%253C%252Ffetch%253E HTTP/1.1
+GET [organization uri]/api/data/v9.1/contacts?fetchXml=%253Cfetch%2520distinct%253D'false'%2520no-lock%253D'false'%2520mapping%253D'logical'%253E%253Centity%2520name%253D'contact'%253E%253Cattribute%2520name%253D'fullname'%2520%252F%253E%253Cattribute%2520name%253D'sample_outdooractivities'%2520%252F%253E%253Cfilter%2520type%253D'and'%253E%253Ccondition%2520attribute%253D'sample_outdooractivities'%2520operator%253D'not-contain-values'%253E%253Cvalue%253E2%253C%252Fvalue%253E%253C%252Fcondition%253E%253C%252Ffilter%253E%253C%252Fentity%253E%253C%252Ffetch%253E HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -191,7 +191,7 @@ OData-Version: 4.0
 Preference-Applied: odata.include-annotations="OData.Community.Display.V1.FormattedValue"
 
 {
-    "@odata.context": "[organization uri]/api/data/v9.0/$metadata#contacts(fullname,sample_outdooractivities,contactid)",
+    "@odata.context": "[organization uri]/api/data/v9.1/$metadata#contacts(fullname,sample_outdooractivities,contactid)",
     "value": [{
         "@odata.etag": "W/\"529806\"",
         "fullname": "Wayne Yarborough",

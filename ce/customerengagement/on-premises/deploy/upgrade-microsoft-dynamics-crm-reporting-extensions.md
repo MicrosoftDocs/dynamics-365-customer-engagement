@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Upgrade Microsoft Dynamics 365 Reporting Extensions
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 Dynamics 365 Reporting Extensions aren’t supported for in-place upgrade. To upgrade to the new version, you must first uninstall the existing version.  
   
@@ -39,7 +44,6 @@ Dynamics 365 Reporting Extensions aren’t supported for in-place upgrade. To up
  [Upgrade Dynamics 365 Server](upgrade-from-microsoft-dynamics-365-server.md) </br> 
  [After the upgrade](after-the-upgrade.md)   
 
-
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

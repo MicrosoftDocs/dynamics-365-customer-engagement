@@ -59,7 +59,7 @@ To connect with an online environment, see the information provided in this Powe
   | Variable Name | Value |
   |----|---|
   |`url`|`https://yourservername/yourorgname`|
-  |`version`|`9.0`|
+  |`version`|`9.1`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 
   ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
