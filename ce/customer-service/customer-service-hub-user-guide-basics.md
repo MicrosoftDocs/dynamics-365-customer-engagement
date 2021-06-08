@@ -1,12 +1,11 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 
@@ -287,6 +286,8 @@ In the Customer Service Hub site map, select **Service** > **Activities**. The *
 ### Insert a knowledge article into an email
 
 While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
+
+You can insert a knowledge article in an email in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#insert-knowledge-articles-into-an-email)
 
 1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 

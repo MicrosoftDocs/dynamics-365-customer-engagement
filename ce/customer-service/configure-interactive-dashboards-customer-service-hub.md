@@ -1,15 +1,11 @@
 ---
 title: "Customize interactive dashboards that are based on Unified Interface | Microsoft Docs"
 description: "Know how to configure interactive dashboards in Dynamics 365 Customer Service."
-author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
-manager: shujoshi
 ms.date: 03/15/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -17,6 +13,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Customize interactive dashboards that are based on Unified Interface

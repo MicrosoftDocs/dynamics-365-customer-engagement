@@ -2,12 +2,12 @@
 title: "Install the LinkedIn Sales Insights solution for accounts (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Install the LinkedIn Sales Insights solution for accounts in Dynamics 365 Sales."
 ms.date: 02/11/2020
-ms.service: "dynamics-365-sales"
-ms.custom: "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Install or delete the LinkedIn Sales Insights solution

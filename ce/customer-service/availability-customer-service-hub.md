@@ -1,14 +1,11 @@
 ---
 title: "Availability of Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Contains information on availability of Customer Service Hub."
+ms.date: 04/01/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Availability of Customer Service Hub

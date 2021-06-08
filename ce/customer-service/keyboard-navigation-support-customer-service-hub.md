@@ -1,14 +1,11 @@
 ---
 title: Keyboard shortcuts for the Customer Service Hub | Microsoft Docs
 description: Use the keyboard shortcuts to perform common tasks in Customer Service Hub.
+ms.date: 04/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Keyboard navigation support for the Customer Service Hub

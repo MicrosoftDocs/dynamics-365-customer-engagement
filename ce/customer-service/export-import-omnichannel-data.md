@@ -1,12 +1,11 @@
 ---
 title: "Export and import Omnichannel Administration app data | MicrosoftDocs"
 description: "Learn to export and import Omnichannel Administration app data from a source organization to another organization."
+ms.date: 02/02/2021
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 02/02/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 

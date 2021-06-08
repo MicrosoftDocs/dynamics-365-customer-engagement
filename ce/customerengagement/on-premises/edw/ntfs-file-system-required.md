@@ -1,5 +1,7 @@
 ---
 title: "NTFS file system required | Microsoft Docs"
+description: Environment diagnostics warning that the file system isn't NTFS.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

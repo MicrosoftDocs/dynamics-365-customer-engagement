@@ -1,12 +1,11 @@
 ---
 title: "Demo data installation for Chat for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Demo data installation for Chat for Dynamics 365 Customer Service"
+ms.date: 10/19/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/19/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 

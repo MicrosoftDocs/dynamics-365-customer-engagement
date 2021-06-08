@@ -1,20 +1,19 @@
 ---
 title: "Unified Service Desk Hosted Controls | MicrosoftDocs"
 description: "Learn about the basic concepts related to hosted controls in Unified Service Desk."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Unified Service Desk Hosted Controls
 The hosted control concept is central to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] implementation, and is the primary element used for building agent applications using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. A hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is a .NET component or a model-driven app/external webpage that is hosted within an agent application.

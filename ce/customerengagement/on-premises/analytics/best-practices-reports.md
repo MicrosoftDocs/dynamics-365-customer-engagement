@@ -1,5 +1,6 @@
 ---
-title: "Best practices for reports  | MicrosoftDocs"
+title: "Best practices for reports with Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
+description: Understand the best ways to create reports
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

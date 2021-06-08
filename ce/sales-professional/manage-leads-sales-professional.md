@@ -2,7 +2,6 @@
 title: "Create and manage leads in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track your potential buyers as leads in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
