@@ -11,8 +11,6 @@ ms.topic: article
 
 # Manage application tab templates
 
-## Introduction
-
 An application tab template in Customer Service lets you specify the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
 The horizontal bar beneath the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that can't be closed; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, there may be few other applications that system opens by default based on the configuration.
@@ -46,13 +44,13 @@ As an administrator, you can create multiple application tab templates.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-6. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
+6. Select the **Value** field of a parameter to edit and provide the value. For information on parameters, go to [Application types in the application templates](#application-types).
 
 7. Select **Save**.
 
 ## Application types
 
-The following types of applications are available:
+The following types of applications are available.
 
 - Dashboard
 - Entity list
@@ -64,18 +62,18 @@ The following types of applications are available:
 
 ### Dashboard
 
-The application type is used to display the dashboard as an application. The parameters available for the dashboard application type are as follows:
+The application type is used to display the dashboard as an application. The following parameters are available for the dashboard application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | dashboardId | GUID of the dashboard.| String | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
 > [!NOTE]
-> If the target dashboard is not included in the app module definition, then the default dashboard will be rendered instead.
+> If the target dashboard is not included in the app module definition, the default dashboard is displayed instead.
 
 ### Entity list
 
-The application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The parameters available for the entity view application type are as follows:
+The application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The following parameters are available for the entity view application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -83,13 +81,13 @@ The application type is used to display an entity view that defines how a list o
 | viewId | GUID of the view. | String | `00000000-0000-0000-00aa-000010001031` |
 
 > [!NOTE]
-> If the target view does not exist or is not included in the app module definition, then the default entity view will be rendered instead.
+> If the target view does not exist or is not included in the app module definition, the default entity view is displayed instead.
 
 ### Entity record
 
 The application type is used to display an existing record or to open a form to create a record.
 
-The parameters available for the entity record application type when opening an existing record are as follows:
+The following parameters are available for the entity record application type when an existing record is opened.
 
 |Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
@@ -97,17 +95,17 @@ The parameters available for the entity record application type when opening an 
 | entityId  | GUID of the entity record. | String <br> Slugs <br>  | `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> 
 | formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
-The parameters available for the entity record application type when opening an entity form to create a new record are as follows:
+The following parameters are available for the entity record application type when an entity form is opened to create a new record.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | entityName | Logical name of the entity. | String <br> Slugs <br> <br> | contact <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
-| data | Data to be pre-populated in the form.| json | `{"firstname":"Paul", "lastname":"Cannon" , "jobtitle":"Sales Manager"}` |
+| data | Data to be pre-populated in the form.| json | `{"firstname":"Paul", "lastname":"Cannon", "jobtitle":"Sales Manager"}` |
 | formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 ### Search
 
-The parameters available for the entity search application type are as follows:
+The following parameters are available for the entity search application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -137,11 +135,11 @@ These examples are based on a scenario where the case was opened as the anchor t
 > [!NOTE]
 > The url parameter requires the correct url format using 'http://' or 'https://'.
 
-To learn more, see [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
+For more information, go to [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
 
 ### Web resource
 
-The application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The parameters available for the web resources application type are as follows:
+The application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The following parameters are available for the web resources application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
