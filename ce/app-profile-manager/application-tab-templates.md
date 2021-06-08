@@ -26,7 +26,7 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create an application tab template
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the App Profile Manager Administrator page.
 2. In the left pane, under Templates, select **Application tabs**. The Unified Interface page opens on a new tab.
 3. Select **New** in the **Active Application Tab Templates** page.
 
