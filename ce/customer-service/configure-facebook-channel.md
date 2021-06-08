@@ -51,9 +51,9 @@ To add the Facebook channel instance, you must configure the channel account by 
 
       To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).  
    5. Review the **Summary** page, and select **Create**. The channel instance is configured.
-5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. (Optional) Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot).
+7. (Optional) Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot)
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
