@@ -17,6 +17,9 @@ An application tab template in Customer Service lets you specify the type of app
 
 The horizontal bar beneath the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that can't be closed; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, there may be few other applications that system opens by default based on the configuration.
 
+  > [!Note]
+  > The anchor tab cannot be customized.
+
 With application tab template, you can define the applications that are available for a session, and then associate the applications with a session.
 
 For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
