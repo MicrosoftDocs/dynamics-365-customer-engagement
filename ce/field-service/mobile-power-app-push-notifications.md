@@ -27,6 +27,11 @@ Push notifications can be used to:
 - Notify technicians they have been assigned a booking.
 - Remind technicians to enter important business data.
 
+There are 2 ways to enable push notifications for your organization.
+
+1. Enable the push notification Cloud flow that is included with Dynamics Field Service. The included push notification notifies technicians when they have been assigned a booking.
+2. Create a custom push notification based on custom triggers using the Power Automate Send Push Notification V2 connector. 
+
 ## Prerequisites
 
 To use push notifications in the Field Service (Dynamics 365) mobile app, you'll need:
@@ -47,7 +52,7 @@ To use push notifications in the Field Service (Dynamics 365) mobile app, you'll
 
 Push notifications are messages delivered by apps on your phone. Dynamics 365 Field Service includes a template for push notifications for the mobile app and you can use Power Apps Notifications V2 on the Power Platform to create custom push notifications based on custom triggers. 
 
-Exercise: Frontline workers must receive a push notification on their mobile device when they are scheduled a work order. Turn on the Power Automate cloud flows included with Field Service to enable push notifications for the Field Service mobile app. 
+Configure the following Cloud flow to send frontline workers a push notification on their mobile device when they are scheduled a work order.  
  
 Go to [https://make.powerapps.com](https://make.powerapps.com)
 
@@ -79,13 +84,13 @@ Back in Solutions find the Field Service solution named msdyn_FieldService_patch
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-push-turn-on-flow.png)
 
-Double click into the Field Service – Notify user about booking (UCI app) Cloud flow and ensure the Connection References section contains both the CDS Connection Reference and the Field Service Push Notification Connection.
+Double click into the _Field Service – Notify user about booking (UCI app)_ Cloud flow and ensure the Connection References section contains both the **CDS Connection Reference** and the **Field Service Push Notification Connection**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-2020-push-connection4.png)
 
 > [!Note]
-> Troubleshoot: if the Connection References are not listed, repeat the above steps in this article from the beginning in a new private browser window.
+> Troubleshoot: if the Connection References are not listed, repeat the above steps in this article from the beginning in a new private web browser window.
 
  
 
