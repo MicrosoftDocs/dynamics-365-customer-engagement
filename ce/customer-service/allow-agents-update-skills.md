@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can enable agents to add or remove skills for a work item at runtime. By default, the skill control is available only for the messaging channels. For records channel, you'll need to customize the form. More information: [Add a skill control for routed records](add-skill-control.md).
+By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can enable agents to add or remove skills for a work item at runtime. By default, the skill control is available only for the messaging channels. For the records channel, you'll need to customize the form. More information: [Add a skill control for routed records](add-skill-control.md).
 
 Perform the following steps to enable the setting that allows agents to update skills for a work item.
 
