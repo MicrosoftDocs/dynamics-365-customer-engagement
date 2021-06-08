@@ -1,5 +1,6 @@
 ---
 title: "Server-side synchronization  | MicrosoftDocs"
+description: "Synchronize data for each user that can be controlled by using synchronization filters."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,7 +15,6 @@ ms.assetid: 96ab5216-fe94-419a-b8a4-03ef2519ca90
 caps.latest.revision: 20
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 

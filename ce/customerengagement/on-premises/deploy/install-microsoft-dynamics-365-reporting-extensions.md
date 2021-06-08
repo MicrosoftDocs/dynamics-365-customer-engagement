@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] has the following requirements:  
   
@@ -76,6 +81,6 @@ manager: kvivek
 ## See also  
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

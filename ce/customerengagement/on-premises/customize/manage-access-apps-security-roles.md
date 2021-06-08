@@ -1,5 +1,5 @@
 ---
-title: "Manage access to Power Apps apps by using security roles | MicrosoftDocs"
+title: "Manage access to Power Apps apps by using security roles with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to control access to your Power Apps apps"
 keywords: 
 ms.date: 12/04/2018

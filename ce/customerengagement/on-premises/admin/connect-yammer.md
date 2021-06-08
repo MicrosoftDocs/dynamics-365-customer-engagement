@@ -1,5 +1,6 @@
 ---
 title: "Connect Customer Engagement to Yammer | MicrosoftDocs"
+description: "Yammer provides your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings."
 ms.custom: 
 ms.date: 10/02/2018
 ms.reviewer: 
@@ -14,16 +15,16 @@ ms.assetid: 7e180f88-c913-4b46-a923-c7162cf44566
 caps.latest.revision: 25
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
-# Connect to Yammer 
+# Connect Customer Engagement to Yammer 
 
-*This content also applies to the on-premises version.*
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
-[!INCLUDE[pn_yammer](../includes/pn-yammer.md)] gives colleagues at your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings.  
+[!INCLUDE[pn_yammer](../includes/pn-yammer.md)] provides your organization a central place to have conversations, create and edit documents, and share information without sending a single email or attending any meetings.  
   
  After you set up your organization to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], employees will see posts in a newsfeed on their [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps dashboard whenever people update customer info, and they’ll be able to join in the conversation with their own posts.  
   
