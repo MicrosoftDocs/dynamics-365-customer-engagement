@@ -281,6 +281,8 @@
       href: open-forms-views-dashboards-mobile-client-url.md
     - name: Client scripting using JavaScript
       href: clientapi/client-scripting.md
+    - name: Client scripting reference
+      href: clientapi/reference.md
     - name: Web resources for Customer Engagement (on-premises)
       href: web-resources.md
       items:
