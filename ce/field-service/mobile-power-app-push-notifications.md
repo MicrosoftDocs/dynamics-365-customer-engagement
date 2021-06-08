@@ -34,6 +34,10 @@ To use push notifications in the Field Service (Dynamics 365) mobile app, you'll
 - [Microsoft Power Automate](https://flow.microsoft.com/)
 - The Field Service (Dynamics 365) mobile app v13.20101.19+ for iOS or v3.20101.19+ Android devices. Visit the app's **About** section to check which version you have.
 - Consent for notifications in your device's settings for the Field Service (Dynamics 365) mobile app. In your mobile device settings, enable push notifications. Below is an example for iOS.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-allow-mobile-wireframe.png)
+
 - Review the [privacy notes for Field Service push notifications](mobile-push-notifications-privacy.md). 
 
 > [!Note]
@@ -45,40 +49,61 @@ Push notifications are messages delivered by apps on your phone. Dynamics 365 Fi
 
 Exercise: Frontline workers must receive a push notification on their mobile device when they are scheduled a work order. Turn on the Power Automate cloud flows included with Field Service to enable push notifications for the Field Service mobile app. 
  
-Go to https://make.powerapps.com
+Go to [https://make.powerapps.com](https://make.powerapps.com)
+
 Make sure the Field Service environment you created in the prerequisites is chosen in the top right.
+
 Select Solutions in the left pane then go to the Default Solution.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-connection1.png)
  
 Edit the Field Service Push Notification Connection and ensure it is enabled for your environment. Use the image below for context.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-connection2.png)
  
 Next, edit the CDS Connection Reference and ensure it is enabled for your environment. Use the image below for context.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-connection3.png)
  
 
 Back in Solutions find the Field Service solution named msdyn_FieldService_patch_update. There are multiple solutions named Field Service so make sure to choose the right one. 
 
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-solution.png)
  
-Find the Cloud flow called Field Service – Notify user about booking (UCI app) and turn it on. 
+**Turn On** the Cloud flow called _Field Service – Notify user about booking (UCI app)_. 
 
- 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-turn-on-flow.png)
+
 Double click into the Field Service – Notify user about booking (UCI app) Cloud flow and ensure the Connection References section contains both the CDS Connection Reference and the Field Service Push Notification Connection.
-Troubleshoot: if the Connection References are not listed, repeat this exercise from the beginning in a new private browser window.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-connection4.png)
+
+> [!Note]
+> Troubleshoot: if the Connection References are not listed, repeat the above steps in this article from the beginning in a new private browser window.
 
  
 
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-notification-final-wireframe.png)
 
 
 ## Test push notifications
 
-Schedule a work order to your frontline worker that you have been logging into the mobile app with.
+Schedule a work order to your frontline worker that has a user set up for the mobile app.
 
- 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-2020-push-schedule.png) 
 
 Within 60 seconds you should receive a push notification from the Field Service mobile app.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 ## Create a custom push notification
 
