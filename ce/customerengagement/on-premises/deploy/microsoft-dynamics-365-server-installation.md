@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Server installation
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] on a computer that doesn’t already have [!INCLUDE [pn-microsoftcrm-server](../includes/pn-microsoftcrm-server.md)] installed.  
   
@@ -54,6 +59,6 @@ This section covers procedures to install [!INCLUDE [pn-microsoftcrm-server](../
  <!-- [Upgrading Microsoft Dynamics CRM Server](upgrading-microsoft-dynamics-crm-server.md) </br> -->
  [Install Dynamics 365 for Outlook](../../../outlook-addin/admin-guide/install.md) </br> 
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

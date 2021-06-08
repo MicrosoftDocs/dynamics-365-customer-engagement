@@ -1,5 +1,5 @@
 ---
-title: Section properties for Main forms | MicrosoftDocs
+title: Section properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the section properties for a main form
 Keywords: Main form; Section properties; Dynamics 365 for Customer Engagement
 author: Mattp123
@@ -27,7 +27,7 @@ search.audienceType:
 
 You can access **Section properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the sections to see the **Section Properties** page. 
 
-![section-properties](media/section-properties.png)
+![Section properties dialog box](media/section-properties.png)
   
 
 |                                       Tab                                        |                    Property                    |                                                                                                                                                      Description                                                                                                                                                       |

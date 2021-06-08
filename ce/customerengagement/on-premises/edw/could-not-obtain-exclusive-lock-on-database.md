@@ -1,5 +1,7 @@
 ---
 title: "Could not obtain exclusive lock on database &#39;databasename&#39; | Microsoft Docs"
+description: Environment diagnostics warning that an exlusive lock to the database can't be established.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

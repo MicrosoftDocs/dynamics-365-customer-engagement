@@ -1,5 +1,6 @@
 ---
 title: "System and application users | MicrosoftDocs"
+description: "Identifying special system and application users created when the system is provisioned."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
