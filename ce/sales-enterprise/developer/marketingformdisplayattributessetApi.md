@@ -21,9 +21,9 @@ The **marketingformdisplayattributesset** action expects the following input par
 
 | Parameter name | Required? | Type | Description |
 |----------------|----------|------|-------------|
-| Entitylogicalname | Yes | Edm.String | Specifies the name of the entity for custom form. |
-| Displayattributelist | Yes | Edm.String | Specifies the list of attributes to be displayed in custom form. <br> You can get the attribute names from system customizations. For example, to view the attribute names of **Phone Call**, go to **Advance settings** > **Customizations** > **Customize the system** > **Entities** > **Phone Call** > **Fields** and the names are listed under **Name** column. <br>![Phone call attribute names under system customization settings](../media/dev-phone-call-field-names.png "Phone call attribute names under system customization settings")|
-| Name | Yes | Edm.String | Specifies the name of the quick campaign or distribute campaign activity form attributes settings. |
+| ```entitylogicalname``` | Yes | Edm.String | Specifies the name of the entity for custom form.<br>**Note:** Each `entitylogicalname` must have only one record in the application. If there is more than one record, the application considers the record based on which it was first created. To view the list of records, make a GET API call:<br>```GET [Organization URI]/api/data/v9.0/marketingformdisplayattributesset```<br>```HTTP/1.1``` |
+| ```displayattributelist``` | Yes | Edm.String | Specifies the list of attributes to be displayed in custom form. <br> You can get the attribute names from system customizations. For example, to view the attribute names of **Phone Call**, go to **Advance settings** > **Customizations** > **Customize the system** > **Entities** > **Phone Call** > **Fields** and the names are listed under **Name** column. <br>![Phone call attribute names under system customization settings](../media/dev-phone-call-field-names.png "Phone call attribute names under system customization settings")|
+| ```name``` | Yes | Edm.String | Specifies the name of the quick campaign or distribute campaign activity form attributes settings. |
 
 ## Action example
 

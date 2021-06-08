@@ -1,5 +1,6 @@
 ---
-title: "Create and edit fields | MicrosoftDocs"
+title: "Create and edit fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to create and edit fields
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 

@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Planning requirements for SQL Server Reporting Services
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] are data processing extensions that are installed on the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server. [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] accept the authentication information from [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] and passes it to the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server. [!INCLUDE[pn_Microsoft_Dynamics_CRM_Reporting_Extensions_Setup](../includes/pn-microsoft-dynamics-crm-reporting-extensions-setup.md)] includes both the [!INCLUDE[pn_Fetch_data_processing_extension](../includes/pn-fetch-data-processing-extension.md)] and [!INCLUDE[pn_SQL_data_processing_extension](../includes/pn-sql-data-processing-extension.md)].  
   
@@ -55,6 +60,6 @@ The [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-report
 ## See Also  
  [SQL Server installation and configuration](sql-server-installation-and-configuration.md)   
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

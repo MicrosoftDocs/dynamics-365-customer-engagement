@@ -1,5 +1,6 @@
 ---
 title: "Monitor email processing errors  | MicrosoftDocs"
+description: "Distinguish between email-level, mailbox-level, and email server profile-level errors and whether a corrective action is needed."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,12 +15,14 @@ ms.assetid: e82b4e40-ecec-46eb-b3d9-355acdbbe24e
 caps.latest.revision: 18
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Monitor email processing errors
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Dynamics 365 Customer Engagement (on-premises) generates alerts if errors occur while email is being processed. An error can be classified based on the nature of the error and on whether the error is for an email, a mailbox, or an email server profile.  
 

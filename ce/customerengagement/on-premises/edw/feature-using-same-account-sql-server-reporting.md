@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 Server feature using the same account as instance of SQL Server Reporting Services | Microsoft Docs"
+description: Environment diagnostics warning that a service account is already used elsewhere.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

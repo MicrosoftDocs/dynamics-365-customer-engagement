@@ -1,5 +1,6 @@
 ---
 title: "Forward mailbox vs. individual mailboxes  | MicrosoftDocs"
+description: "Use mailbox monitoring to poll one or more mailboxes for incoming email messages."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
