@@ -595,7 +595,7 @@
     - name: User guide
       items: 
       - name: Install the mobile app
-        href: install-mobile-app.md
+        href: sales-mobile/install-mobile-app.md
       - name: Use the Dynamics 365 Sales mobile app
         href: sales-mobile/use-sales-mobile-app.md
       - name: Learn the basics
