@@ -88,7 +88,7 @@ Some system entities will have more than one active or inactive state.The follow
 >
 > To retrieve the `StateCode` options for an entity you can use the following Web API query  by substituting the `LogicalName` of the entity with `appointment` used below:
 > ```HTTP
-> GET [organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='appointment')/Attributes(LogicalName='statecode')/Microsoft.Dynamics.CRM.StateAttributeMetadata/OptionSet?$select=Options
+> GET [organization URI]/api/data/v9.1/EntityDefinitions(LogicalName='appointment')/Attributes(LogicalName='statecode')/Microsoft.Dynamics.CRM.StateAttributeMetadata/OptionSet?$select=Options
 > ```
 
 ## DuplicateRule Special messages

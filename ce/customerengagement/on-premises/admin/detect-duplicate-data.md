@@ -1,5 +1,6 @@
 ---
 title: "Detect duplicate data  | MicrosoftDocs"
+description: "Dynamics 365 apps have simple duplicate detection rules for accounts, contacts, and leads."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

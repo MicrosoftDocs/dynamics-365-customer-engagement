@@ -1,5 +1,5 @@
 ---
-title: Quick view control properties for main forms | MicrosoftDocs
+title: Quick view control properties for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the quick view control properties for main forms
 Keywords: Quick view control properties; Dynamics 365 for Customer Engagement; Main forms
 author: Mattp123
