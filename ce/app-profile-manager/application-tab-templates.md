@@ -13,9 +13,9 @@ ms.topic: article
 
 An application tab template in Customer Service lets you specify the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
-The horizontal bar beneath the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that can't be closed or customized; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, there may be few other applications that system opens by default based on the configuration.
+The horizontal bar beneath the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that can't be closed or customized; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, there may be a few other applications that the system opens by default based on the configuration.
 
-With the application tab template, you can define applications that are available for a session, and then associate the applications with a session.
+With the application tab template, you can define applications that are available for a session, and then associate those applications with the session.
 
 For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
 
@@ -26,7 +26,7 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create application tab templates
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager Administrator page.
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
 2. In the left pane, under Templates, select **Application tabs**. The Unified Interface page opens on a new tab.
 3. Select **New** in the **Active Application Tab Templates** page.
 
@@ -62,7 +62,7 @@ The following types of applications are available:
 
 ### Dashboard
 
-The application type is used to display the dashboard as an application. The following parameter is available for the dashboard application type:
+This application type is used to display the dashboard as an application. The following parameter is available for the dashboard application type:
 
 - **Parameter**: dashboardId
 - **Description**: GUID of the dashboard
@@ -74,7 +74,7 @@ The application type is used to display the dashboard as an application. The fol
 
 ### Entity list
 
-The application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The following parameters are available for the entity view application type.
+This application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The following parameters are available for the entity view application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -86,7 +86,7 @@ The application type is used to display an entity view that defines how a list o
 
 ### Entity record
 
-The application type is used to display an existing record or to open a form to create a record.
+This application type is used to display an existing record or to open a form to create a record.
 
 The following parameters are available for the entity record application type when an existing record is opened.
 
@@ -115,7 +115,7 @@ The following parameters are available for the entity search application type.
 
 ### Third-party website
 
-The application type is used to display third-party websites as an application. You can use this type to host only the websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
+This application type is used to display third-party websites as an application. You can use this type to host only the websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -140,7 +140,7 @@ For more information, go to [Third-party application tab refreshes when focus is
 
 ### Web resource
 
-The application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The following parameters are available for the web resources application type.
+This application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, and CSS, and several image formats. The following parameters are available for the web resources application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
