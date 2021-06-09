@@ -590,16 +590,12 @@
         href: sales-mobile/create-push-notification.md
       - name: Configure tables for quick creation of records and activities
         href: sales-mobile/configure-quick-create.md
+      - name: Configure mobile apps with Microsoft Intune
+        href: sales-mobile/configure-app-intune.md
     - name: User guide
       items: 
-      - name: Install the app
-        items: 
-        - name: Install the app on iOS
-          href: sales-mobile/install-ios-app.md
-        - name: Install the app on Android
-          href: sales-mobile/install-android-app.md
-        - name: Configure mobile apps with Microsoft Intune
-          href: sales-mobile/configure-app-intune.md
+      - name: Install the mobile app
+        href: install-mobile-app.md
       - name: Use the Dynamics 365 Sales mobile app
         href: sales-mobile/use-sales-mobile-app.md
       - name: Learn the basics
