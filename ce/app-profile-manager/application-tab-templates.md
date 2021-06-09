@@ -92,7 +92,7 @@ The following parameters are available for the entity record application type wh
 |Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
 | entityName | Logical name of the entity.  | String <br> Slugs <br> | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
-| entityId  | GUID of the entity record. | String <br> Slugs <br>  | `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor.new_entityid}` <br> 
+| entityId  | GUID of the entity record. | String <br> Slugs <br>  | `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor._customerid_value}` <br> 
 | formId | GUID of the form instance. | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 The following parameters are available for the entity record application type when an entity form is opened to create a new record.
