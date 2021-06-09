@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Install the app on iOS and Android
 
-You can install the Dynamics 365 Sales mobile app on iOS and Android. If you are reading this document on a computer, you can scan the relevant QR code to install the mobile app on your mobile device.
+The Dynamics 365 Sales mobile app is supported on both iOS and Android. If you are reading this document on a computer, you can scan the relevant QR code to install the mobile app on your mobile device.
 
 ![QR codes to install the app](media/install-app-qr-codes.png "QR codes to install the app")
 
