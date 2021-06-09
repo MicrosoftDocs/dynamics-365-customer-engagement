@@ -1,20 +1,19 @@
 ---
 title: "Composite DDA | MicrosoftDocs"
 description: "The composite data-driven adapter is an extension of the DDA architecture introduced with UII. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different DDAs to access the required functionality."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Composite DDA
 The composite data-driven adapter is an extension of the DDA architecture introduced with [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)]. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different DDAs to access the required functionality. An example for this could be a Java applet in a web application. You can use the composite DDA in these scenarios.  

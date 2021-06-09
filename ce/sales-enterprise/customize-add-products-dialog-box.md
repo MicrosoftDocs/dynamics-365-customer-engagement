@@ -1,13 +1,12 @@
 ---
-title: "Preview: Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Preview  Customize the Add Products dialog box (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize the Add Products dialog box so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
 ms.date: 04/02/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-opportunity
   - D365-UI-*
@@ -48,7 +47,7 @@ By default, the **Add products** dialog box displays the following columns in th
 > - Invoice products Add products
 
 For information about editing views, go to [Choose and configure columns in model-driven app
-views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or remove columns in the grid**
 
@@ -82,7 +81,7 @@ By default, the **Product** column in the Add product dialog includes the produc
 **Note**: The **Product** column can display up to three attributes, apart from the product name.  
 
 > [!NOTE]
-> The procedure below refers to the customization option available in **Product Catalog Settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/choose-and-configure-columns).
+> The procedure below refers to the customization option available in **Product Catalog Settings**. If you are using a custom app, access the **Product Lookup View** from Power Apps. For information on editing views in Power Apps, see [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns).
 
 **To add or edit product attributes:**
 

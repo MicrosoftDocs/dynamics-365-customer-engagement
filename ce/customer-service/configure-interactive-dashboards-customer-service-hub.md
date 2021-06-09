@@ -1,15 +1,11 @@
 ---
 title: "Customize interactive dashboards that are based on Unified Interface | Microsoft Docs"
 description: "Know how to configure interactive dashboards in Dynamics 365 Customer Service."
-author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
-manager: shujoshi
 ms.date: 03/15/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -17,6 +13,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Customize interactive dashboards that are based on Unified Interface
@@ -32,7 +31,7 @@ Dashboards pull together key information, so customer service representatives ca
 For more information about dashboards, see [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../customer-service/customer-service-hub-user-guide-dashboard.md)
 
 > [!NOTE]
->  The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues must be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
+> The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues must be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
   
 The illustrations in this topic show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
 
@@ -47,27 +46,32 @@ In the multi-stream dashboard, you see a row of visual filters at the top with t
   
  ![Multistream interactive dashboard](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
   
-### Multi-stream dashboard tile view  
+### Multi-stream dashboard tile view
+
  Multi-stream dashboard in tile view:  
   
  ![Multistream dashboard tile view](../customer-service/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
   
-### Multi-stream dashboard layouts  
+### Multi-stream dashboard layouts
+
  For multi-stream dashboards, you can choose from four different layouts.  
   
  ![Multistream dashboard layouts](../customer-service/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
   
-### Multi-stream entity-specific dashboard  
+### Multi-stream entity-specific dashboard
+
  The entity-specific dashboard for the **Case** entity is shown here.  
   
 ![Multistream cases dashboard](../customer-service/media/interactive-dashboard-cases-entity-specific.png "Multi-stream cases dashboard")
   
-### Single-stream dashboard  
+### Single-stream dashboard
+
  The single-stream dashboard contains the data stream on the left and visual filters and tiles on the right.  
   
 ![single stream dashboard](media/interactive-dashboards-single-stream-csh.png "Single-stream dashboard")
   
-### Single-stream dashboard layouts  
+### Single-stream dashboard layouts
+
  For single-stream dashboards, you can choose from four different layouts.  
   
  ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts")  
@@ -200,7 +204,7 @@ The following sections describe how to configure various types of interactive da
 ![Creating charts for visual filters](media/interactive-dashboard-visual-charts-x-y-axes.png "Creating charts for visual filters") 
 
   
- Next, configure the **Streams**. Just like with adding components in the charts, select the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustration.  
+Next, configure the **Streams**. Just like with adding components in the charts, select the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustration.  
 
 Configure the stream for the **Items available to work on** as shown here:
 
@@ -225,9 +229,9 @@ Follow the steps given below to edit individual streams of an existing dashboard
   
 3. Under **Components**, select **Dashboards**.  
   
-    -OR-  
+   -OR-  
   
-    If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
+   If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
   
 4. In the grid, double-click the interactive dashboard that you want to edit, to open it.  
   
@@ -240,7 +244,7 @@ Follow the steps given below to edit individual streams of an existing dashboard
    You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
   
 ### Configure an entity-specific dashboard  
- An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences. 
+ An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences.
 
 For example, instead of selecting an entity, some fields in the entity-specific dashboard are preset to the entity for which you are creating the dashboard.  
   
@@ -256,20 +260,22 @@ For example, instead of selecting an entity, some fields in the entity-specific 
   
 6. When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
   
-   The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
+The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
   
-### Configure a single-stream dashboard  
- Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. 
+### Configure a single-stream dashboard
 
- If the tiles are included, they are always displayed on the dashboard. To configure a tile, you select on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
+Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. 
+
+If the tiles are included, they are always displayed on the dashboard. To configure a tile, you select on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
 ![addtile](media/add-tile.png "Add tile")
   
 ## Configure dashboard colors  
- For all **Option Set** and **Two Options** type fields, such as the **Case Type**, **IsEscalated** or **Priority** of the **Case** entity, you can configure a particular color that will appear in the charts and streams for specific field values. For example, high priority cases can be shown in red, medium priority cases in blue, and low priority cases in green in the interactive charts. In the streams, there will be a thin vertical line in color next to the work item description.  
+
+For all **Option Set** and **Two Options** type fields, such as the **Case Type**, **IsEscalated** or **Priority** of the **Case** entity, you can configure a particular color that will appear in the charts and streams for specific field values. For example, high priority cases can be shown in red, medium priority cases in blue, and low priority cases in green in the interactive charts. In the streams, there will be a thin vertical line in color next to the work item description.  
   
 > [!NOTE]
->  The color coding isn’t available for the tag charts and doughnut charts. These charts appear on the dashboard in white, gray, and black shades.  
+> The color coding isn’t available for the tag charts and doughnut charts. These charts appear on the dashboard in white, gray, and black shades.  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -283,7 +289,7 @@ For example, instead of selecting an entity, some fields in the entity-specific 
   
 6. When the **Modify List Value** dialog appears, set the new value in the **Color** text box. Select **OK**.  
   
-    Select **Save and Close**.  
+   Select **Save and Close**.  
   
 7. Select **Publish** for your changes to take effect.  
   
@@ -299,10 +305,11 @@ Similarly, if you go to the **Priority** field to modify the colors of the case 
 
 ![Change dashboard color for case priority](media/priority-color-modify.png "Change dashboard color for case priority")
   
-### See also  
+### See also
+
 [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](customer-service-hub-user-guide-dashboard.md) <br>
- [Create and edit dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)   <br>
- [Create or edit a chart](../basics/create-edit-chart.md)  
+[Create and edit dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)   <br>
+[Create or edit a chart](../customerengagement/on-premises/basics/create-edit-chart.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

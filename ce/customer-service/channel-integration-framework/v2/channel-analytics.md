@@ -1,12 +1,11 @@
 ---
 title: "Channel Analytics | MicrosoftDocs"
 description: "Read about the APIs that enable you to log analytics in Dynamics 365 Channel Integration Framework version 2.0."
+ms.date: 04/05/2021
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -120,7 +119,7 @@ If the partner wants to fire some custom event for their KPIs, they can do it wi
 
 ## Channel Analytics Entities
 
-Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](../../../omnichannel/developer/reference/entities/msdyn_ocliveworkitem.md)) record in Dataverse for every third party conversation launched through it.
+Channel Integration Framework creates a Conversation entity ([msdyn_ocliveworkitem](/dynamics365/omnichannel/customer-service/developer/reference/entities/msdyn_ocliveworkitem)) record in Dataverse for every third party conversation launched through it.
 
 ### msdyn_kpieventdefinition
 

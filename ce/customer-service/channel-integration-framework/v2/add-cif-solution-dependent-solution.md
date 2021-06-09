@@ -1,12 +1,11 @@
 ---
 title: "Add a Dynamics 365 Channel Integration Framework (CIF) solution version 2.0 as a dependent solution| Microsoft Docs"
 description: "Read how you can add a Dynamics 365 Channel Integration Framework (CIF) solution version 2.0 as a dependent solution and use the solution's capabilities in your own solution."
+ms.date: 12/31/2019
+ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -22,7 +21,7 @@ ms.custom:
 
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)
 
-[Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
+[Configure a channel provider for your Dynamics 365 organization](./configure-channel-provider-app-profile-manager.md)
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
 

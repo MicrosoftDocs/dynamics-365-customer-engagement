@@ -3,7 +3,7 @@ title: "Install the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to install and set up the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/18/2021
+ms.date: 06/04/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -87,6 +87,7 @@ To view work orders on the mobile app, you must also [set up a frontline worker]
 ## Next steps
 
 - [Set up offline data and sync filters](mobile-power-app-system-offline.md)
+- [5 tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
 - [Quickstart: Schedule a work order and view it on the mobile application](quickstart-schedule-work-order.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

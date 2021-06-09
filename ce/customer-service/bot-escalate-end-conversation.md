@@ -1,12 +1,11 @@
 ---
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "How a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
+ms.date: 03/24/2021
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/24/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Enable a bot to escalate and end conversation
 
@@ -22,8 +21,8 @@ This topic describes how to program a bot in Omnichannel for Customer Service to
 You must ensure the following conditions are met to onboard a bot to Omnichannel for Customer Service as an agent.
 
 - The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
-- The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
-- The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
+- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
+- The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 <a name="bkmk_EngageBot"></a>
 
@@ -296,7 +295,7 @@ You understand that your data may be transmitted and shared with external system
 
 [Integrate a bot](configure-bot.md)  
 [Create context variables](create-workstreams.md#configure-context-variables)  
-[Azure Bot Service](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)  
-[Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
+[Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0)  
+[Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]  
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

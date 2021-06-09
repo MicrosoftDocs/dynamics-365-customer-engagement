@@ -3,11 +3,7 @@ title: "Data validation capabilities for the LinkedIn Sales Navigator integratio
 description: "Data validation for LinkedIn Sales Navigator integration in Dynamics 365 Sales"
 keywords: "installation, setup, sales navigator"
 ms.date: 07/09/2019
-ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 Version 9.x"
-  - "Dynamics 365 (online)"
 author: udaykirang
 ms.author: udag
 search.audienceType: 
@@ -17,6 +13,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 (online)"
 ---
 
 # Data validation

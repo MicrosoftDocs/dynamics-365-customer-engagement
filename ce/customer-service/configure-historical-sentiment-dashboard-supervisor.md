@@ -1,13 +1,12 @@
 ---
 title: "Configure Omnichannel Insights dashboards | MicrosoftDocs"
 description: "How to configure the Intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
-manager: shujoshi
 ms.date: 09/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure Omnichannel Insights dashboards
@@ -43,7 +42,7 @@ Make sure the following prerequisites have been met before configuring the dashb
 - You have Power BI Pro license that is required to do the following:
   - To get Omnichannel insights from app store and install it in your organization.
   - For users to use the template app or to share it with other Power BI Pro users.
-- You have assigned template app workspace to a premium capacity so that every free user in the organization can consume the report. For information, see [Ways to collaborate and share in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports).
+- You have assigned template app workspace to a premium capacity so that every free user in the organization can consume the report. For information, see [Ways to collaborate and share in Power BI](/power-bi/collaborate-share/service-how-to-collaborate-distribute-dashboards-reports).
 - You have enabled the embedding of Power BI reports in Dynamics 365 Customer Service by doing the following:
   1. Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
   2. Go to the **Reporting** tab and select **Yes** for **Allow Power BI visualization embedding**.

@@ -38,7 +38,7 @@ search.app:
 <li><a href="quota-management.md" data-raw-source="[Manage your quotas](quota-management.md)">Manage your quotas</a></li>
 <li><a href="customize.md" data-raw-source="[Customize Dynamics 365 Marketing](customize.md)">Customize Dynamics 365 Marketing</a></li>
 <li><a href="gdpr.md" data-raw-source="[Data protection and GDPR](gdpr.md)">Data protection and GDPR</a></li>
-<li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
+<li><a href="setup-troubleshooting.yml" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.yml)">Administration and setup FAQ</a></li>
 <li><a href="known-issues.md" data-raw-source="[Known issues and workarounds](known-issues.md)">Known issues and workarounds</a></li>
 
 </td><td>

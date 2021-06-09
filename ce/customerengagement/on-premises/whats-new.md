@@ -1,7 +1,7 @@
 ---
 title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9"
 description: Learn about the feature that are new to Dynamics 365 Customer Engagement (on-premises), version 9
-ms.date: "03/03/2021"
+ms.date: "06/07/2021"
 ms.topic: "topic"
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
 author: mattp123
@@ -271,6 +271,20 @@ The following features are not yet present on Unified Interface, but these are 
 
 -   Reports
 
+## Custom help panes and guided tasks
+
+Use custom help panes and guided tasks to give your Unified Interface application a custom in-product help experience that is tailored to your organization.
+
+**Feature details**
+
+Use custom help panes to provide table, form, and language-specific help and guidance that includes rich text, content links, images, and video links. 
+
+More information: [Create guided help for your Unified Interface app](/powerapps/maker/data-platform/create-custom-help-pages)
+
+## Power Apps Checker module for PowerShell
+
+This module is for solution developers to perform rich static analysis checks on their solutions against a set of best practice rules to quickly identify problematic patterns. More information: [Get started using the PowerApps checker module](/powershell/powerapps/get-started-powerapps-checker?view=pa-ps-latest&preserve-view=true)
+
 ## Create, update, and delete transaction support for virtual entities
 
 Using the included OData v4 provider, read, create, update, and delete data from an external data source within your custom business app. More information: [Virtual entity walkthrough using the OData v4 Data Provider](customize/virtual-entity-walkthrough-using-odata-provider.md)
@@ -299,10 +313,10 @@ This section lists new features that are available with Dynamics 365 Customer En
 |[Enterprise Service with the Unified Interface framework](/dynamics365/customer-engagement/customer-service/user-guide-customer-service-hub)      | 
 | [Enterprise Service classic web app user interface refresh](/dynamics365/customer-engagement/customer-service/help-hub)       | 
 | Run on-demand workflows from apps based on the Unified Interface framework  |
-| [App design enhancements](/dynamics365/customerengagement/on-premises/customize/create-edit-app)   |
+| [App design enhancements](./customize/create-edit-app.md)   |
 | [The assistant with standard cards](/dynamics365/customer-engagement/sales-enterprise/action-cards-reference)   |  
-|  [Virtual entities](customize/create-edit-virtual-entities.md)  |
-|  [Security enhancements: User session and access management](/dynamics365/customerengagement/on-premises/admin/user-session-management)   |
+| [Virtual entities](customize/create-edit-virtual-entities.md)  |
+| [Security enhancements: User session and access management](./admin/user-session-management.md)   |
 
 > [!NOTE]
 > The offline capability in Dynamics 365 for Outlook, version 9.0 isn't available in Dynamics 365 Customer Engagement (on-premises), version 9.x. However, the offline capability in Dynamics 365 for Outlook, version 9.0 will continue to be supported in [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).

@@ -1,12 +1,11 @@
 ---
 title: "Search, link, and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn on how to search, link, and unlink a record in Omnichannel for Customer Service, and link the record to a conversation."
+ms.date: 02/03/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Search, link, and unlink a record in Omnichannel for Customer Service

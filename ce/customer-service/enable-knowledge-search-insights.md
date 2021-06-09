@@ -1,13 +1,12 @@
 ---
 title: "Configure Knowledge search insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Knowledge search insights in Customer Service Hub and Customer Service workspace"
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure Knowledge search insights for Dynamics 365 Customer Service
@@ -44,18 +43,7 @@ The service managers must have the admin or service manager role to view the rep
 You can see the following reports by navigating to the **Service** > **Insights** > **Knowledge search analytics** page. Search term insights are displayed.
 
 > [!NOTE]
->
-> - The knowledge search analytics dashboard is currently available only in the following geographical locations:
->   - North America
->   - South America
->   - Canada
->   - United Kingdom
->   - Europe
->   - Japan
->   - India
->   - Asia Pacific
->   - Australia
-> - The knowledge base analytics dashboard supports only English content and is available only in organizations that have the base language set as English.
+> The knowledge base analytics dashboard supports only English content and is available only in organizations that have the base language set as English.
 
 ### See also
 

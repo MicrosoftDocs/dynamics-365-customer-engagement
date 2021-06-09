@@ -1,11 +1,10 @@
 ---
 title: "Convert an email to a template in customer engagement apps | MicrosoftDocs"
 description: "Learn how to convert an email to a template in customer engagement apps."
-author: lalexms
-ms.author: laalexan
 ms.date: 01/18/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: lalexms
+ms.author: laalexan
 ms.reviewer: nenellim
 ---
 
@@ -55,14 +54,14 @@ To view a complete list of all the email templates you've created:
       > [!Note] 
       > If you click in an area on the form that does not support dynamic text, it displays **Unable to insert**.
 
-   For more information on creating email templates and configurations, see [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email).
+   For more information on creating email templates and configurations, see [Create templates for email](/power-platform/admin/create-templates-email).
 
 ### See also
 
 
 ### See also
 
-[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
+[Configure email](/power-platform/admin/settings-email)<br>
 [Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>

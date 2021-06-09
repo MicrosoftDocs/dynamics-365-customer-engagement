@@ -1,12 +1,11 @@
 ---
 title: "User Guide (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Resources for the legacy Customer Service app."
+ms.date: 04/24/2020
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/24/2020
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -18,7 +17,7 @@ Dynamics 365 Customer Service unifies the way people experience your business, m
 This User's Guide shows customer service agents how to use the application. 
   
 > [!IMPORTANT]
-> This User Guide covers instructions for the the Customer Service app (legacy web client). To learn about the  Customer Service Hub app built on the Unified Interface framework, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). To learn more, see[Basics Guide](../basics/basics-guide.md).
+> This User Guide covers instructions for the the Customer Service app (legacy web client). To learn about the  Customer Service Hub app built on the Unified Interface framework, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). To learn more, see[Basics Guide](../customerengagement/on-premises/basics/basics-guide.md).
 
 ## Create and manage a case
 
@@ -250,7 +249,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 ### Add notes
 
- You can also easily add notes in the activities area. And if you’re on the latest version Dynamics 365 Customer Service, you have the benefits of using OneNote to take or review customer notes from within your records. For more information on OneNote, see: [Set up OneNote integration](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+ You can also easily add notes in the activities area. And if you’re on the latest version Dynamics 365 Customer Service, you have the benefits of using OneNote to take or review customer notes from within your records. For more information on OneNote, see: [Set up OneNote integration](/power-platform/admin/set-up-onenote-integration-in-dynamics-365).  
   
  This doesn’t replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
@@ -267,7 +266,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   ![Add Meeting Notes in OneNote](../customer-service/media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
-  > The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration](../admin/set-up-onenote-integration-in-dynamics-365.md).  
+  > The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration](/power-platform/admin/set-up-onenote-integration-in-dynamics-365).  
   
 ### Create an activity and associate it with a customer
 
@@ -574,10 +573,10 @@ You can manage multiple cases more efficiently if you use parent and child cases
 
 ### See also
 
-[Understanding how data is organized](../basics/how-data-organized.md)    
-[Find your way around Dynamics 365 Customer Service](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)  
-[What are business processes?](../basics/what-are-business-processes.md)  
-[Set up OneNote integration (for admins)](../admin/set-up-onenote-integration-in-dynamics-365.md) 
+[Understanding how data is organized](../customerengagement/on-premises/basics/how-data-organized.md)    
+[Find your way around Dynamics 365 Customer Service](../customerengagement/on-premises/basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)  
+[What are business processes?](../customerengagement/on-premises/basics/what-are-business-processes.md)  
+[Set up OneNote integration (for admins)](/power-platform/admin/set-up-onenote-integration-in-dynamics-365) 
   
  
 

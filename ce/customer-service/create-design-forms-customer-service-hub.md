@@ -1,14 +1,11 @@
 ---
 title: Create and design forms for Customer Service Hub | Microsoft Docs
 description: Know how to create and design main forms for Customer Service Hub
+ms.date: 06/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and design forms for Customer Service Hub
@@ -76,7 +75,7 @@ As a customizer, you can customize these forms in a way that it is easier for th
 |    Form Type     |                                                                                                                                                                                                                                                                                                                                                                  Description                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     **Main**     |                                                                                                                                                                                                                                                These forms provide the main user interface for interacting with entity data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Design considerations for main forms](../customerengagement/on-premises/customize/design-considerations-main-forms.md).                                                                                                                                                                                                                                                 |
-|  **Card Form**   |                                                                                                                   These forms are used in the interactive dashboards to show the entity data in the streams of interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Create a card form ](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-card-forms)<br /><br />  **Note:** These forms are only for use in the Customer Service Hub. You can’t use these in the Microsoft Dynamics 365 for Outlook and Microsoft Dynamics 365 for tablets.                                                                                                                    |
+|  **Card Form**   |                                                                                                                   These forms are used in the interactive dashboards to show the entity data in the streams of interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Create a card form ](/powerapps/maker/model-driven-apps/create-card-forms)<br /><br />  **Note:** These forms are only for use in the Customer Service Hub. You can’t use these in the Microsoft Dynamics 365 for Outlook and Microsoft Dynamics 365 for tablets.                                                                                                                    |
 | **Quick Create** |                                                                                                                                          These forms provide a basic form optimized for creating new records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit quick create forms](../customerengagement/on-premises/customize/create-edit-quick-view-forms.md)<br /><br /> The Customer Service Hub uses the same quick create form that’s used for the web application and uses the same customization experience. However, the forms are presented in the Customer Service Hub paradigm.                                                                                                                                           |
 |  **Quick View**  | These forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form.<br /><br /> There are also quick view forms created out-of-the-box for use in the reference panel to show records of related entity. When you open a record of the related entity at the runtime, it opens in a horizontal tab on top of the pane.<br /><br /> If the quick view form contains sub-grids, the sub-grids will appear in Dataverse at the runtime, but they won’t appear in the Customer Service Hub reference panel. |
 

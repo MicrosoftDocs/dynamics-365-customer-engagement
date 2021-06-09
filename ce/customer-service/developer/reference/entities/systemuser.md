@@ -2,7 +2,6 @@
 title: "SystemUser Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the SystemUser entity."
 ms.date: 04/01/2021
-ms.service: "crm-online"
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"
