@@ -1,6 +1,6 @@
 ---
 title: "WhatsApp channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic provides information about WhatsApp channel through the Twilio agent experience in Omnichannel for Customer Service."
+description: "This topic provides information about agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
