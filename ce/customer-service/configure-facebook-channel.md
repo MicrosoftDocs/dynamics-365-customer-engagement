@@ -53,7 +53,7 @@ To add the Facebook channel instance, you must configure the channel account by 
    5. Review the **Summary** page, and select **Create**. The channel instance is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. (Optional) Add a bot. You can skip this step if your conversations are handled human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot)
+7. Optionally, you can add a bot; skip this step if your conversations are handled by human agents only. More information: [Configure a bot](create-workstreams.md#add-a-bot)
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
@@ -66,12 +66,12 @@ To add the Facebook channel instance, you must configure the channel account by 
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
-  - [Step 1: Create a Facebook work stream](#step-1-create-a-facebook-work-stream)
-  - [Step 2: Create a Facebook channel](#step-2-create-a-facebook-channel)
-  - [Step 3: Create routing rules](#step-3-create-routing-rules)
-  - [Step 4: Modify settings for a specific Facebook page](#step-4-modify-settings-for-a-specific-facebook-page)
+1. Create a Facebook work stream  
+2. Create a Facebook channel
+3. Create routing rules
+4. Modify settings for a specific Facebook page
 
-### Step 1: Create a Facebook work stream
+### Create a Facebook work stream
 
 1. Sign in to Omnichannel Administration.
 
@@ -88,7 +88,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 6. Select **Save**.
 
-### Step 2: Create a Facebook channel
+### Create a Facebook channel
 
 1. Go to **Channels** > **Facebook**.
 
@@ -135,7 +135,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 > [!div class=mx-imgBorder]
 > ![Facebook application created](media/fb-app-created.png "Facebook application created")
 
-### Step 3: Create routing rules
+### Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 
@@ -153,9 +153,9 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
   - **Customer name**: The customer name is shown in the format "first name, last name".
   - **Locale**: For a list of locales, see Facebook developer documentation.
   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”
-  - **User Page Scoped Id**: This is shown as a number string. 
+  - **User Page Scoped Id**: This is shown as a number string.
 
-### Step 4: Modify settings for a specific Facebook page
+### Modify settings for a specific Facebook page
 
 1. In the Omnichannel Administration app, go to your Facebook application and select the Facebook page you want to modify. 
 
@@ -180,8 +180,8 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     
       To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
 
-3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
-    
+3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
+
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 ## Customer experience
@@ -201,7 +201,7 @@ Once the Facebook social profile is linked to a customer/contact record by the a
 
 If the customer is not identified based on name, a new contact record can be created.
 
-The customer can send attachments only if you enable them.  If you don't enable the option for the customers, they can still attempt to send the file. However, agents won't receive the file and will see an error.
+The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, agents won't receive the file and will see an error.
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file](media/fb-customer1.png "Customer sending file")
