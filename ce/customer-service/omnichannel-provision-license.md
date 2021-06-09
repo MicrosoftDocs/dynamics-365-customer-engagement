@@ -1,6 +1,6 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic provides information on how to provision Omnichannel for Customer Service to add or remove channels to create a unified interface to help customers."
+description: "Perform the steps in this topic to provision Omnichannel for Customer Service and add channels so that can you start using the product."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
