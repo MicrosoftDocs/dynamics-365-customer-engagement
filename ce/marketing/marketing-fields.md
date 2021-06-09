@@ -1,7 +1,7 @@
 ---
-title: "Set up input fields to be used in marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Set up input fields for marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up a form input field and map it to a database field in Dynamics 365 Marketing."
-ms.date: 08/25/2020
+ms.date: 06/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -103,31 +103,30 @@ To create a cascading field:
 
 After creating a custom entity to use with a lookup field, or if your lookup field is not working, you should double check that you have the settings listed below enabled for the entity you're using with the lookup field.
 
+1. The lookup data you will be configuring will be available on the Internet. You will need to assess which personally identifiable and sensitive information might be made available online. Once you acknowledge that by enabling the related option, you are able to complete the configuration.  
+1. Define contact and lead mapping. If you choose to map both, they should return the same type of entity for the mapping to be completed.
+1. For each entity you select for the mapping, define:
+    -  The view that controls which values are shown. If you want to show all the active values only, you can select the related view. For example, if you are configuring an **Account** lookup, you can select the **Active Accounts** view.
+    -  The attribute used for searching. For example, the **Account name** could be used for an **Account** lookup.
+1. Check the security roles for the configuration you selected.
 
-1. Make sure you and your organization are aware that the lookup data you will be configuring will be available online on the Internet. You need to assess the personal identifiable information and other sensitive information that might be made available online. Once you acknowledge that, by enabling the related option, you are able to complete the configuration.  
+If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity. For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
 
-1. Define the Contact and Lead mapping. If you choose to map both, they should return the same type of entity for the mapping to be completed. 
+To set the Security Role manually:
 
-1. For each entity you selected for the mapping, you would define:
--  the view that control what values are shown. For example, if you want to show all the active values only, you can select the related view (for example, if you are configuring an **Account** lookup you can select the **Active Accounts** view). 
--  the attribute used for searching. For example, the **Account name** could be used for an **Account** lookup. 
-
-1. Check the Security Roles for the configuration you selected.
-
-If the lookup field that you want to set up is a custom field you've created, ensure that Service User Roles are set up for the entity.
-
-For a new custom entity, you will need to enable the proper Security Role permission for your org. You will often need to set the Security Role manually.
-
-To set the Security Role manually, go to **Settings > Security > Security Roles > Marketing Services User Extensible Role > Custom Entities**.
-
-Under the Custom Entities tab, find the name of your custom entity and mark the Read column box (the second column) green.
-
-If you use a filter, make sure the **Marketing Services User Extensible Role** has read permissions for entities used in the corresponding view. For example, if you use the view “Accounts being followed” as an Account filter, you need to ensure that the role has read privilege for the entity Post.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. Select the **Security roles** icon.
+1. Go to **Marketing Services User Extensible Role** > **Custom Entities**.
+1. Under the **Custom Entities** tab, find the name of your custom entity and mark the **Read** column box (the second column) green.
+1. If you use a filter, make sure the **Marketing Services User Extensible Role** has read permissions for entities used in the corresponding view. For example, if you use the view “Accounts being followed” as an Account filter, you need to ensure that the role has a read privilege for the entity **Post**.
 
 ### Set lookup fields via API
+
 You can use the JavaScript API to perform a search request in the background and populate the lookup field with items containing the specified search term.
 
 For example, you can search for all items containing “Microsoft” after the form is loaded:
+
 ```
 MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {
     MsCrmMkt.MsCrmFormLoader.fillLookupFromSearch("b9051065-5851-41db-94bc-b7e1dc6bb646", "Microsoft")
@@ -138,30 +137,26 @@ MsCrmMkt.MsCrmFormLoader.on("afterFormLoad", function() {
         });
     });
 ```
+
 These are the details of the function, available under ```MsCrmMkt.MsCrmFormLoader``` methods:
 
 - Function Name: ```.fillLookupFromSearch(lookupFieldId, searchTerm)```
-- Description: Performs a search request in the background and populates the specified lookup field with results
+- Description: Performs a search request in the background and populates the specified lookup field with results.
 - Parameters
   - ```lookupFieldId```:
     - type: string
-    - description: lookup input field id, for example "b9051065-5851-41db-94bc-b7e1dc6bb646"
+    - description: lookup input field ID, for example "b9051065-5851-41db-94bc-b7e1dc6bb646"
   - ```searchTerm```:
     - type: string
     - description: what to search for, for example john@contoso.com
 - Returns: ```Promise<boolean>```
 
-You can find more functions at:
-https://docs.microsoft.com/en-us/dynamics365/marketing/developer/marketing-form-client-side-extensibility#javascript-api
+Find more functions in the [developer documentation](/dynamics365/marketing/developer/marketing-form-client-side-extensibility#javascript-api)
 
-
-
-      
 ### See also
 
 [Design your digital content](design-digital-content.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
