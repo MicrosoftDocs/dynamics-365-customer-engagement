@@ -29,7 +29,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ## June 2021 update
 
-The Dynamics 365 Marketing April 2021 update includes improved engagement-tracking for Microsoft Teams events, email editor improvements, an option to include iCalendar files in emails, improved bounce error notifications, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing June 2021 update includes improved engagement-tracking for Microsoft Teams events, email editor improvements, an option to include iCalendar files in emails, improved bounce error notifications, performance upgrades, and bug fixes.
 
 ### Version number
 
