@@ -31,7 +31,7 @@ When you sell your products in different regions, it is important that you trans
   
 4. In the **Export Field Translations** dialog box, select **OK**.  
   
-    All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with localizable attributes](/customerengagement/on-premises/developer/localize-product-property-values.md).  
+    All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with localizable attributes](/customerengagement/on-premises/developer/localize-product-property-values).  
   
 5. Save the .zip file to your local computer.  
   
