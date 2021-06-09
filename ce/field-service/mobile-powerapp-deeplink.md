@@ -25,7 +25,7 @@ Deep links let users move from one application to another on computers and mobil
 
 ## Open an entity record or entity list view in the Field Service (Dynamics 365) mobile app
 
-You can open an ```entityrecord``` or an ```entitylist``` view in the Field Service (Dynamics 365) app by using deep-link URLs from other apps. When you follow the link from an external app, the target element opens in the Field Service (Dynamics 365) app for phones or tablets.
+You can open an `entityrecord` or an `entitylist` view in the Field Service (Dynamics 365) app by using deep-link URLs from other apps. When you follow the link from an external app, the target element opens in the Field Service (Dynamics 365) app for phones or tablets.
 
 If you're already signed in to your instance in the app, the target record is displayed when you follow the link from an external app. Otherwise, you're prompted to sign in to your instance in the mobile app; after you're signed in, the target element is displayed. You must have the Field Service (Dynamics 365) app for phones or tablets installed on your mobile device to use this feature.
 
@@ -44,16 +44,16 @@ Deep links for Field Service should start with the following:
 | tenantId             | Connects to the correct tenant                                               |
 | forceOfflineDataSync | Ensures that data sync is triggered so that all the latest data is available |
 
-If opening an ```entityrecord``` form or creating a new ```entityrecord```, use the following parameters.
+If opening an `entityrecord` form or creating a new `entityrecord`, use the following parameters.
 
 | **Parameter**                       | **Description**                                                                                            |
 |---------------------------------|--------------------------------------------------------------------------------------------------------|
 | etn=&lt;entity-logical-name&gt; | Designates which entity to go to                                                                 |
 | pagetype=entityrecord           | Indicates that the target is a form    |
-| extraqs=&lt;form-id&gt;         | Designates which form to open for the ```entityrecord```; if not specified, the default form will open. The extraqs parameter can also be used to default field values.        |
+| extraqs=&lt;form-id&gt;         | Designates which form to open for the `entityrecord`; if not specified, the default form will open. The `extraqs` parameter can also be used to default field values.        |
 | id=&lt;record-id&gt;            | Designates which specific record to go to; if left blank, the create form for the entity will open |
 
-If the link goes to an ```entitylist``` view, add the following parameters.
+If the link goes to an `entitylist` view, add the following parameters.
 
 | **Parameter**                                                | **Description**                                                     |
 |--------------------------------------------------------------|---------------------------------------------------------------------|
