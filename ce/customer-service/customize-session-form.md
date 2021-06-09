@@ -1,6 +1,6 @@
 ---
-title: "Customize the session forms | MicrosoftDocs"
-description: 
+title: "Customize session forms | MicrosoftDocs"
+description: "To meet your business needs, learn how to add fields by customizing the session forms in Customer Service."
 ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
