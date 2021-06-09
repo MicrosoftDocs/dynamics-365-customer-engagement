@@ -35,7 +35,7 @@ The Dynamics 365 Marketing April 2021 update includes improved engagement-tracki
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10071.2007 |
+| Marketing        | 1.35.10073.2001 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
@@ -46,7 +46,7 @@ The Dynamics 365 Marketing April 2021 update includes improved engagement-tracki
     - Seamlessly push webinar attendee data from Microsoft Teams to Dynamics 365 Marketing. Use the data to engage with attendees and gain insights.
     - Attendee registrations and check-ins for Teams webinars are available in Marketing, regardless of whether the Teams webinar was created through Teams or event management in Marketing.
     - Create segments, powered by Teams registration and check-in information, to share event summaries and recordings.
-    - Use check-in information segments to gather attendee feedback to better understand what kind of webinars attendees would like see in the future.
+    - Use check-in information segments to gather attendee feedback to better understand what kind of webinars attendees would like to see in the future.
 - **Marketing emails**
     - “Add to Calendar” email button functionality automatically generates iCalendar files for events and sessions. Event attendees receive a personalized link to download their agenda as a calendar file.
     - Test send UI improvements.
@@ -65,7 +65,7 @@ The Dynamics 365 Marketing April 2021 update includes improved engagement-tracki
 - **Event management**
     - Resolved an issue that caused a business process error to appear instead of a "Check-in is already created for this registration" error.
     - Fixed an error that cause recording and attendance data to disappear when pushing ExtensionData to SchedulingService.
-    - Deactivated registration responses for cancelled registrations.
+    - Deactivated registration responses for canceled registrations.
 - **Marketing emails**
     - Improved rendering in Outlook when adding images to columns with borders.
     - Fixed an error that caused changes in the HTML editor to not correctly propagate to entities.
