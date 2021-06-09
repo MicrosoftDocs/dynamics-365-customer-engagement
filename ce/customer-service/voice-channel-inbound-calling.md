@@ -13,6 +13,7 @@ ms.service: dynamics-365-customerservice
 
 # Inbound calling
 
+// Use the following videos for help in writing this doc
 // Video references
 // https://microsoft-my.sharepoint.com/:v:/p/kausri/EWPcqqb09OtKkN6_x5KhCy4B5WfyrPRN_yoU_Ez23Eswag?e=d3cseJ
 
@@ -20,12 +21,14 @@ ms.service: dynamics-365-customerservice
 
 ## Prerequisites
 
-- Phone NUmber
 - Agent
 - Queue
+- Phone Number
 - Workstream 
 
 ## Make a call
+
+Customers call the phone number for the support team. This number is typically posted on a website and within a mobile app. 
 
 ## Accept a call
 
