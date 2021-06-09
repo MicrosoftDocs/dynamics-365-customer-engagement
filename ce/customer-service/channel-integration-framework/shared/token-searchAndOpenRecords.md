@@ -19,7 +19,8 @@
 
 **Description:** Returns Promise object containing string values. On success, returns the search results as per the search query. 
 > [!Note]
-> You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such $filter and $top in the method parameters. More information: [Query options overview](https://docs.microsoft.com/odata/concepts/queryoptions-overview)
+> You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such $filter, $select, and $top in the method parameters as shown in the [Examples](#Examples) section. 
+For more information about query options, see [Query options overview](https://docs.microsoft.com/odata/concepts/queryoptions-overview).
 
 ## Remarks
 
@@ -64,6 +65,23 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telepho
     function success(result) {
     res=JSON.parse(result);
         console.log(`The caller name is: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);
+        // perform operations on record retrieval and opening
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+);
+```
+
+### Example 3: Search and display top 10 active contact records.
+
+This sample code searches and displays the top 10 active contact records.
+
+```JavaScript
+Microsoft.CIFramework.searchAndOpenRecords("contact", “$filter=statecode eq 0&$select=description&$top=10", false ).then(
+    function success(result) { 
+    res=JSON.parse(result);
         // perform operations on record retrieval and opening
     },
     function (error) {
