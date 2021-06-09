@@ -1,6 +1,6 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
-description: "Instructions to set up visitor location detection in Omnichannel for Customer Service."
+description: "Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service."
 ms.date: 04/09/2021
 ms.topic: article
 author: lalexms
@@ -25,7 +25,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 2. Select **New** to add a geo location provider record.
 
-3.	In the **Quick Create: Geo Location Provider** pane, provide the following information:
+3. In the **Quick Create: Geo Location Provider** pane, provide the following information:
 
     - **Name**: Name of the geo location record.
 
@@ -34,7 +34,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
     > [!div class=mx-imgBorder]
     > ![Create a geo location record](media/geo-location-record.png "Create a geo location record")
 
-4.	Select **Save and Close**.
+4. Select **Save and Close**.
 
 ## Enable visitor location detection
 
