@@ -1,6 +1,6 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to configure a WeChat channel Omnichannel for Customer Service."
+description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
 ms.date: 04/09/2021
 ms.topic: article
 author: neeranelli
