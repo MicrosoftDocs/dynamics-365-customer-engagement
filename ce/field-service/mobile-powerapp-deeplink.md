@@ -3,7 +3,7 @@ title: "Use deep links with the Field Service (Dynamics 365) mobile app | Micros
 description: Learn about how to configure deep links for the Field Service (Dynamics 365) mobile app
 ms.custom:
 - dyn365-fieldservice
-ms.date: 05/24/2021
+ms.date: 06/09/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -50,7 +50,7 @@ If opening an ```entityrecord``` form or creating a new ```entityrecord```, use 
 |---------------------------------|--------------------------------------------------------------------------------------------------------|
 | etn=&lt;entity-logical-name&gt; | Designates which entity to go to                                                                 |
 | pagetype=entityrecord           | Indicates that the target is a form    |
-| extraqs=&lt;form-id&gt;         | Designates which form to open for the ```entityrecord```; if not specified, the default form will open        |
+| extraqs=&lt;form-id&gt;         | Designates which form to open for the ```entityrecord```; if not specified, the default form will open. The extraqs parameter can also be used to default field values.        |
 | id=&lt;record-id&gt;            | Designates which specific record to go to; if left blank, the create form for the entity will open |
 
 If the link goes to an ```entitylist``` view, add the following parameters.
