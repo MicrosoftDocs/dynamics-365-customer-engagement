@@ -20,3 +20,40 @@ ms.service: dynamics-365-customerservice
 
 ## Prerequisites
 
+- Phone NUmber
+- Agent
+- Queue
+- Workstream 
+
+## Make a call
+
+## Accept a call
+
+
+[Manage notification settings and templates](https://docs.microsoft.com/dynamics365/app-profile-manager/notification-templates)
+
+## Call controls
+
+- Mute
+- Hold
+- Consult
+- Transfer (to agent or queue)
+
+
+## Set up inbound calling
+
+Set up first run expereince
+Open Voice demo
+
+Phone Number
+
+### Phone Numbers
+
+### Language
+
+### Behaviors
+
+## Routine Rules
+
+## See also
+- Add a Power Virtual Agent Bot
