@@ -29,10 +29,15 @@ ms.service: dynamics-365-customerservice
 
 ## Accept a call
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-incoming-call-notification.png)
 
 [Manage notification settings and templates](https://docs.microsoft.com/dynamics365/app-profile-manager/notification-templates)
 
 ## Call controls
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-controls.png)
 
 - Mute
 - Hold
@@ -49,33 +54,55 @@ Phone Number
 
 ### Phone Numbers
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-number.png)
+
+
+
+
+
 ### Language
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-number-language1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-number-language2.png)
+
+
+
 
 ### Behaviors
 
-## Routine Rules
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-number-behaviors.png)
+
+### Routing Rules
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-route-queue.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-route-queue2.png)
 
 ## See also
 - Add a Power Virtual Agent Bot
 
 
 
-voice-channel-incoming-call-notification
-
-voice-channel-inbound-call-accept
 
 
-voice-channel-inbound-call-controls
-
-voice-channel-inbound-call-number
 
 
-voice-channel-inbound-call-number-language1
 
-voice-channel-inbound-call-number-language2
 
-voice-channel-inbound-call-number-behaviors
 
-voice-channel-inbound-call-route-queue
 
-voice-channel-inbound-call-route-queue2
+
+
+
+
+
+

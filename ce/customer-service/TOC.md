@@ -202,6 +202,7 @@
 ### Administrator experience
 #### [Install and set up](voice-channel-install.md)
 #### [Make and receive your first phone call](voice-channel-first-call.md)
+#### [Inbound calling](voice-channel-inbound-calling.md)
 #### [How to route voice calls to agents](voice-channel-route-queues.md)
 #### [Add an Intelligent Voicebot for IVR](voice-channel-ivr-bots.md)
 #### [Manage voice channel](voice-channel-manage.md)
