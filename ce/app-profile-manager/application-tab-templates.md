@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/04/2021
+ms.date: 06/09/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
@@ -15,7 +15,7 @@ An application tab template in Customer Service lets you specify the type of app
 
 The horizontal bar beneath the model-driven app navigation bar is called the application tab panel. Every customer session has at least one application tab that can't be closed; it is called **Anchor Tab**. That is, when a session is started, by default the system opens an application in the application tab panel. In addition, there may be few other applications that system opens by default based on the configuration.
 
-With application tab template, you can define the applications that are available for a session, and then associate the applications with a session.
+With the application tab template, you can define applications that are available for a session, and then associate the applications with a session.
 
 For example, you can create the **Customer summary** application type and associate it with Chat and SMS session. Now, when an agent accepts the notification from the chat or SMS channels, a session starts and by default the **Customer summary** page loads.
 
@@ -24,7 +24,7 @@ As an administrator, you can create multiple application tab templates.
   > [!Note]
   > You can't customize the out-of-the-box templates; instead, you'll need to create your own custom templates.
 
-## Create an application tab template
+## Create application tab templates
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager Administrator page.
 2. In the left pane, under Templates, select **Application tabs**. The Unified Interface page opens on a new tab.
@@ -40,7 +40,7 @@ As an administrator, you can create multiple application tab templates.
     | General | Page type | Select an application type from the list. |  Web Resource |
     | General | Description | Provide a description for your reference. | The application type is used to display knowledge base search page. |
 
-5. Select **Save**. After you save the template, the parameters for the application type that you selected appear in the **Parameters** section.
+5. Select **Save**. The parameters for the application type that you selected appear in the **Parameters** section.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
@@ -50,7 +50,7 @@ As an administrator, you can create multiple application tab templates.
 
 ## Application types
 
-The following types of applications are available.
+The following types of applications are available:
 
 - Dashboard
 - Entity list
@@ -62,11 +62,12 @@ The following types of applications are available.
 
 ### Dashboard
 
-The application type is used to display the dashboard as an application. The following parameters are available for the dashboard application type.
+The application type is used to display the dashboard as an application. The following parameter is available for the dashboard application type:
 
-|Parameter | Description | Supported values | Example |
-|---------|--------------|------------------|---------|
-| dashboardId | GUID of the dashboard.| String | `d201a642-6283-4f1d-81b7-da4b1685e698` |
+- **Parameter**: dashboardId
+- **Description**: GUID of the dashboard
+- **Supported values**: String
+- **Example**: `d201a642-6283-4f1d-81b7-da4b1685e698`
 
 > [!NOTE]
 > If the target dashboard is not included in the app module definition, the default dashboard is displayed instead.
