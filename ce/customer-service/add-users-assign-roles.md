@@ -1,6 +1,6 @@
 ---
-title: "Enable users for Omnichannel for Customer Service and assign roles | MicrosoftDocs"
-description: "Perform the steps to enable users and assign roles in Omnichannel for Customer Service."
+title: "Assign roles, enable users for Omnichannel for Customer Service | MicrosoftDocs"
+description: "Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
