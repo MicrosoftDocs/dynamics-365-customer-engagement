@@ -35,7 +35,7 @@ This topic lists the software and application requirements for this version of [
 
   
 ### Supported Windows Server editions
- The following editions of the [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] operating system are supported for installing and running [!INCLUDE[pn_crm_2016_server](../includes/pn-crm-2016-server.md)]:  
+ The following versions and editions of the Windows Server operating system are supported for installing and running [!INCLUDE[pn_crm_2016_server](../includes/pn-crm-2016-server.md)], version 9.1:  
 
 - Windows Server 2019 Standard
 - Windows Server 2019 Datacenter
