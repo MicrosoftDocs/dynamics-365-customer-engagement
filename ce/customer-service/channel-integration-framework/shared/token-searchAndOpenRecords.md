@@ -74,7 +74,7 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telepho
 );
 ```
 
-### Example 3: Search and display top 10 active contact records.
+### Example 3: Search and display top 10 active contact records
 
 This sample code searches and displays the top 10 active contact records.
 
