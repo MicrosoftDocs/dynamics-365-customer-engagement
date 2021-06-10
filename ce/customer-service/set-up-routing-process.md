@@ -1,67 +1,38 @@
 ---
-title: "Set up unified routing | MicrosoftDocs"
+title: "How unified routing and assignment works in Customer Service | MicrosoftDocs"
 description: "How to set up unified routing"
+ms.date: 05/10/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
-# Set up unified routing
+# How unified routing and assignment works
 
 ## Prerequisites
 
 Unified routing can be configured in the Omnichannel admin center or Customer Service Hub app only.
 
-- To configure record routing, set the entity routing toggle to yes.
-- To use skill-based routing, skills must be configured.
-- To use machine learning work classification, the skill model must be configured and published.
-- To use capacity-based classification, the capacity profile must be configured.
+- The latest release of Customer Service and Omnichannel for Customer Service must be installed. More information: [What's new in Customer Service](/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/)
+- To configure record routing, set the entity routing toggle to yes. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing)
+- To use skill-based routing, skills must be configured. More information: [Set up skills for routing](overview-skill-work-distribution.md)
+- To use machine learning work classification, the skill model must be configured and published. More information: [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)
+- To use capacity profile-based classification, the capacity profile must be configured. More information: [Create and manage capacity profiles](capacity-profiles.md)
 
 ## How to set up unified routing
 
 The high-level process to set up unified routing for a channel or record is as follows:
 
-### For routing of messaging channels
-
-You'll do the following:
-
-1. Create a messaging workstream
-2. Configure routing rules
-  - Configure manual work classification rulesets
-    - Create demand rules
-  - Configure machine-learning work classification rulesets
-    - Configure route-to-queues ruleset
-
-### For record routing
-
-You'll do the following:
-
-- Create a record workstream
-   1. Configure routing rules
-      - Configure work classification rulesets
-      - Configure route-to-queues ruleset
-   2. Configure intake rules
-
-### Create queues for record or messaging
-
-- Create “record” or "messaging" queues
-  - Choose assignment method
-     - **Out-of-the-box:** Highest capacity or Round robin
-     - Custom assignment method
-        1. Configure prioritization ruleset
-        2. Assignment rulesets
-           1. Decision list of rules.
-           2. Selection criteria
-
-
-
+1. [Create a workstream for unified routing](create-workstreams.md)
+2. [Configure routing rules](configure-work-classification.md)
+3. [Create queues](queues-omnichannel.md)
+4. [Configure assignment rules](assignment-methods.md)
 
 ### See also
 
-[Create workstreams](create-workstreams.md)  
-[Set up record routing](set-up-record-routing.md)  
+[Set up unified routing for records](set-up-record-routing.md)  
+[Set up skill-based routing](overview-skill-work-distribution.md)  
 [Manage capacity profiles](capacity-profiles.md)  
 [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)  
+[FAQs on unified routing](unified-routing-faqs.md)  

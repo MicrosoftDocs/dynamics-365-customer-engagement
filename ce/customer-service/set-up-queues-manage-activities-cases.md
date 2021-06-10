@@ -1,14 +1,11 @@
 ---
 title: Create and manage basic queues | MicrosoftDocs
 description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
+ms.date: 05/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/19/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and manage basic queues
@@ -48,7 +47,7 @@ For example, you could create separate queues for first tier and second tier pro
 - **Public queues:** Create public queues to let everyone in the organization view the queue and all the items it contains.
 
 > [!IMPORTANT]
-> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../developer/security-dev/security-model.md).
+> Private queues are a great way to organize cases, but do not restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
 
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, queues in service management are available in the Customer Service Hub. We recommend that you create and manage queues using the new experience.
@@ -91,7 +90,7 @@ Follow the steps given below to create or edit a queue:
   
    - In the **Email Settings** section, in the **Convert to email activities** drop-down list, choose which messages to track as activities.  
   
-      - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](../admin/create-forward-mailboxes-edit-mailboxes.md)  
+      - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
 
 6. Select **Save**.
 
@@ -136,7 +135,7 @@ Follow the steps given below to create or edit a queue:
   
    - In the **Email Settings** section, in the **Convert to email activities** drop-down list, choose which messages to track as activities.  
   
-   - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](../admin/create-forward-mailboxes-edit-mailboxes.md)  
+   - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
   
    - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
@@ -173,7 +172,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 > - From a queue, when an agent picks a case created by another agent and releases it, then the case gets assigned to the queue owner and not the agent who created the case.
 
 ### See also  
-
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Work with Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)
 
 

@@ -1,12 +1,11 @@
 ---
 title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
+ms.date: 04/16/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/16/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 
@@ -395,7 +394,7 @@ The following table describes the different formatting features and functionalit
 
 The rich text editor is enabled by default. Your system administrator can enable or disable the editor for you.
 
-For more information, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
+For more information, see [Enable rich-text editor for notes in timeline](/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
 
 
 ### See Also

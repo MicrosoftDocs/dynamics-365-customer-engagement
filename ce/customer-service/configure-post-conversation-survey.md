@@ -1,12 +1,11 @@
 ---
 title: "Configure post-conversation survey | MicrosoftDocs"
 description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure a post-conversation survey
@@ -22,7 +21,7 @@ You can configure your chat widget to show users a survey that they can respond 
 
 ## How post-conversation surveys work
 
-When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Dynamics 365 Customer Voice. More information: [Work with survey settings](https://docs.microsoft.com/dynamics365/customer-voice/distribution-settings)
+When you enable a post-conversation survey for a channel, the survey will appear for the customer after the agent or customer ends the conversation. While configuring the survey, you can use the settings for the response options available in Dynamics 365 Customer Voice. More information: [Work with survey settings](/dynamics365/customer-voice/distribution-settings)
 
 The post-conversation works as follows:
 

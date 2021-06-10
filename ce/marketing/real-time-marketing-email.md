@@ -1,7 +1,7 @@
 ---
 title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 05/19/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -37,7 +37,7 @@ In addition to the standard email editor features, the real-time marketing email
 
 The real-time marketing email editor has a new assist edit control to bind personalized data. Use personalized data to dynamically populate information that is unique to each email recipient.
 
-#### To add personalized data to a real-time marketing email
+#### Add personalized data to a real-time marketing email
 
 1. Create a placeholder by adding a text field and then selecting the **Personalization** button ![Personalization button](media/real-time-marketing-personalization.png "Personalization button") in the toolbar.
 1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.

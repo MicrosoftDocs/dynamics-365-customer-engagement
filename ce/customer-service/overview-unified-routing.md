@@ -1,12 +1,11 @@
 ---
 title: "Overview of unified routing | MicrosoftDocs"
 description: "Overview of unified routing in Customer Service"
+ms.date: 05/18/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/15/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Overview of unified routing
@@ -23,13 +22,15 @@ During the assignment stage, the service requests are prioritized and then assig
 
 For instance, an organization receiving an incoming chat will add information on the work item—such as skills required, urgency level, category of customer, and importance level—in the classification stage, based on certain conditions that are met as part of the configured rules. In the assignment stage, an organization might want to first prioritize the incoming chats based on highest urgency level and importance, and then assign them to the agents by matching the skills required, current workload status, and availability.
 
-![Unified routing work classification overview](media/work-classification-overview.png "Unified routing work classification overview")
+![Unified routing work classification overview](media/unified-routing-overview.png "Unified routing work classification overview")
 
 ## How unified routing helps achieve business efficiency
 
 Unified routing optimizes businesses in the following ways:
 
-- Routing to the best queue by using attributes in a related entity, saving an admin from creating a custom workflow.
+- Connecting end-customers with the best-suited agent to provide the right outcome upon first contact.
+
+- Routing work items to the best queue by using attributes in a related entity, thereby saving an admin from creating a custom workflow.
 
 - Using skills-based routing to automatically assign incoming work, matching to the best agent and decreasing resolution time.
 
@@ -61,11 +62,13 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 
 ### See also
 
-[Create workstreams](create-workstreams.md)  
+[How routing and assignment works](set-up-routing-process.md)  
+[Create workstreams for unified routing](create-workstreams.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Set up record routing](set-up-record-routing.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
 [FAQs on unified routing](unified-routing-faqs.md)  
+[Migrate workstreams created in Omnichannel Administration app](migrate-workstreams.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

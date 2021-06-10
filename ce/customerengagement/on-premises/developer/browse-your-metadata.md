@@ -36,7 +36,7 @@ You can use the Entity Metadata Browser to view entities and their properties in
 After you download the solution, you must install it. For information about how to install a managed solution, see [Import, update, and export solutions](../customize/import-update-upgrade-solution.md)  
 
 ## Open as an app
-The [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] (v9.0) version is configured as an app. After you install the **Entity Metadata Browser** solution, locate the **Metadata Tools** app and open it. **Entities** is the default view. From the **Tools** navigation area you can select **Entity Metadata** to inspect individual entities.
+The [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] (v9.x) version is configured as an app. After you install the **Entity Metadata Browser** solution, locate the **Metadata Tools** app and open it. **Entities** is the default view. From the **Tools** navigation area you can select **Entity Metadata** to inspect individual entities.
 
 ## Open from the solution configuration page
 For earlier versions you must use the following steps, but these also work for the latest verison.  

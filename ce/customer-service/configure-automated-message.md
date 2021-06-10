@@ -1,12 +1,9 @@
 ---
 title: "Configure automated messages | MicrosoftDocs"
-description: "Instructions to configure automated messages in Omnichannel for Customer Service"
+description: "Perform the steps mentioned in the topic to configure automated messages in Omnichannel for Customer Service"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -36,6 +33,13 @@ You can customize messages across instances within a channel. For example, you c
 1. Select a message in the Automated messages list.
 
 2. Edit the message text, and select **Save**.
+
+    The message field supports the following slugs.
+    
+    | **Slug** | **Description** |
+    |----------|-----------------|
+    |{AgentName} | The full name of the agent who is assigned to the conversation |
+    |{QueueName} | The name of the queue |
 
     > [!div class=mx-imgBorder]
     > ![Configure automated messages at channel level](media/automated-messages-general.png "Configure automated messages at channel level")

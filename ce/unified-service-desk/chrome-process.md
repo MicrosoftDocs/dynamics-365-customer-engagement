@@ -1,20 +1,19 @@
 ---
 title: "Use the Chrome Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
+ms.date: 02/15/2021
+ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/15/2021
-ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -516,7 +515,7 @@ To investigate Chrome Process crashes in Unified Service Desk, you must generate
 
 ## Add parameters using Chrome Process
 
-The Chrome Process provides many options that can be used on the webpages within Unified Service Desk. The **ChromeProcessParameters** option helps to add the parameters. The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `<br>Note that the parameters are separated by semicolons. More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189)
+The Chrome Process provides many options that can be used on the webpages within Unified Service Desk. The **ChromeProcessParameters** option helps to add the parameters. 
 
 **To add the ChromeProcessParameters UII option**
 
@@ -532,7 +531,12 @@ The Chrome Process provides many options that can be used on the webpages within
 
 6. For the **Name** field, enter **ChromeProcessParameters**.
 
-7. For the **Value** field, enter **True**.
+7. For the **Value** field, enter a valid Chrome process parameter.
+    
+    The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `.
+    
+    Note that the parameters are separated by semicolons. 
+    More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
 
 8. Select **Save**.
 

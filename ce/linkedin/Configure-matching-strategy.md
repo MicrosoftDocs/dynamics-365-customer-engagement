@@ -3,16 +3,10 @@ title: "Matching strategy for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to specify which leads in Dynamics 365 apps get updated by configuring the matching strategy for newly synced LinkedIn leads."
 keywords: lead matching, field mapping, linkedin leads, lead record
 ms.date: 04/02/2018
-ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Sales
-  - Dynamics 365 Marketing
-ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -20,6 +14,11 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - Dynamics 365 Sales
+  - Dynamics 365 Marketing
+ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
+topic-status: Drafting
 ---
 
 # Configure a matching strategy to update leads from [!include[LinkedIn](../includes/pn-linkedin.md)] ads
@@ -31,10 +30,10 @@ A matching strategy applies to all [!include[LinkedIn](../includes/pn-linkedin.m
 > [!NOTE]
 > If only a subset of the fields match, by default the system won't create a new lead from the form submission.  
 > To create new leads when the matching strategy fails, a system administrator or customizer can edit the **[!include[LinkedIn](../includes/pn-linkedin.md)] LeadGen Integration Configurations** entity and change the value for the **On Match fail** attribute from the default value **Ignore** to **Create new lead**. 
-> For quick access to this custom entity, consider [adding it to the site map](https://go.microsoft.com/fwlink/p/?linkid=850397).
+> For quick access to this custom entity, consider [adding it to the site map](../customerengagement/on-premises/customize/create-site-map-app.md).
 
 You need a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** security role to manage lead matching strategies.  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Create users and assign security roles](https://technet.microsoft.com/library/jj191623.aspx)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 
 ![Manage lead matching strategies](media/Manage-lead-matching-strategies.png "Manage lead matching strategies")
 

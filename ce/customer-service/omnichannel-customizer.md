@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel engagement hub for system customizers | MicrosoftDocs"
 description: 
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Omnichannel system customizers
 

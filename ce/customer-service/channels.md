@@ -1,12 +1,9 @@
 ---
 title: "Overview of channel in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about channels in Omnichannel for Customer Service."
+description: "This topic provides information on the different messaging channels available in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Overview of channels
@@ -85,7 +82,7 @@ You can get the SMS, social channels, and custom messaging channels with the fol
 
 You can get the Microsoft Teams channel with the following add-on license:
 
-- [Teams license](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)
+- [Teams license](/MicrosoftTeams/office-365-licensing)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,20 +1,19 @@
 ---
 title: Enable AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 02/02/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Enable AI suggestions for similar cases and knowledge articles
@@ -167,7 +166,7 @@ The service protection limits for AI suggestions are defined in the following ta
 ### See also
 
 [View AI-suggested similar cases and knowledge articles for active cases](csw-view-ai-suggested-cases-knowledge-articles.md)  
-[View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](../omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles.md)  
+[View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](./oc-view-ai-suggested-cases-articles.md)  
 [FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
 

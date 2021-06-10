@@ -1,5 +1,6 @@
 ---
 title: "Troubleshoot problems | MicrosoftDocs"
+description: "Use the following list of troubleshooting topics to quickly find information to solve your issue."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -25,7 +26,7 @@ We're sorry you're having a problem with Dynamics 365 Customer Engagement (on-pr
   
 ## Outlook and email integration  
   
--   [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
+-   [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml)  
   
 -   [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md)  
   

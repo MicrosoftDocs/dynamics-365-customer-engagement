@@ -1,12 +1,11 @@
 ---
 title: "Customize the Customer summary form | MicrosoftDocs"
 description: "Learn on how to customize the Customer summary form in Omnichannel for Customer Service as a system customizer."
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Customize the Customer summary form
 
@@ -58,8 +57,8 @@ This section displays case- and customer-related activities in the form of a tim
 
 [Omnichannel  system customizers](omnichannel-customizer.md)  
 [Customize the conversation form](customize-session-form.md)  
-[Configure agent and supervisor configurations in Unified Service Desk](../omnichannel/customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
-[Configure notification for agents](../omnichannel/customizer/configure-notification-screen-pop-agents.md)  
+[Configure agent and supervisor configurations in Unified Service Desk](../unified-service-desk/oc-customizer/create-agent-supervisor-configurations-unified-service-desk.md)  
+[Configure notification for agents](../unified-service-desk/oc-customizer/configure-notification-screen-pop-agents.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

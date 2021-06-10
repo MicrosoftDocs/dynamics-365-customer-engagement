@@ -1,5 +1,6 @@
 ---
 title: "Move data across instances and organizations | MicrosoftDocs"
+description: "Move configuration data across instances and organizations with the Configuration Migration tool."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

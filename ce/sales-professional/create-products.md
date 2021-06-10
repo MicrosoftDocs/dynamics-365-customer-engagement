@@ -2,7 +2,6 @@
 title: "Create products in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Create an inventory of all the products that your company sells by creating product records in Dynamics 365 Sales."
 ms.date: 10/01/2019
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,7 +32,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
 
     -  **Product ID**.
 
-    -  **Parent**. Select a parent product family for the product. If you're creating a child product in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
+    -  **Parent**. Do not use. This field is not supported for Sales Professional.
 
     -  **Valid From**/**Valid To**. Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
 

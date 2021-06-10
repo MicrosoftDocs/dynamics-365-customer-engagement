@@ -1,14 +1,11 @@
 ---
 title: Configure Dynamics 365 Customer Service | MicrosoftDocs
 description: Configure Dynamics 365 Customer Service.
+ms.date: 12/21/2020
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/21/2020
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Configure Customer Service
@@ -41,7 +40,7 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 - [Parent Child Case Settings](define-settings-parent-child-cases.md)
 - [Routing Rule Sets](create-rules-automatically-route-cases.md)
 - [Automatic Record Creation](set-up-rules-to-automatically-create-or-update-records.md)
-- [Subjects](../admin/define-subjects-categorize-cases-products-articles.md)
+- [Subjects](/power-platform/admin/define-subjects-categorize-cases-products-articles)
   
 ## Service terms  
 
@@ -49,7 +48,7 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 - [Entitlements](create-entitlement-define-support-terms-customer.md)
 - [Holiday Schedule](set-up-holiday-schedule.md)
 - [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
-- [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
+- [Service Configuration Settings](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 ## Templates
 

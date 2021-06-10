@@ -1,14 +1,11 @@
 ---
 title: "Manage cases using interactive dashboards | Microsoft Docs"
 description: "Understand dashboards in Customer Service Hub in Dynamics 365 Customer Service."
+ms.date: 06/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Manage cases using interactive dashboards
@@ -189,7 +188,7 @@ In the streams, the color is depicted using the thin vertical line to the left o
 
 
 ## Information for customizers  
- For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
+ For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
   
 
 ### See also

@@ -1,5 +1,6 @@
 ---
-title: "Customize and organize reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Customize and organize reports Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to create, edit, and manage reports
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 

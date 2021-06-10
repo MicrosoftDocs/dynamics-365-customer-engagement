@@ -1,15 +1,11 @@
 ---
 title: Topics Dashboard | Microsoft Docs
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -17,11 +13,12 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Topics dashboard
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases to help you better understand how different case types and topic areas are impacting your organization’s support performance.
 
@@ -86,6 +83,23 @@ The suggested trigger phases as well as the topic based on the case title is pro
 
 > [!NOTE]
 > Any bots created through the Microsoft Teams channel will not be listed in the bot selection list. Users who create bots by using the drill down page for a topic in Customer Service workspace will be redirected to Customer Service Hub for form completion. 
+
+## Language availability for topics 
+
+The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages: 
+
+- English 
+- French 
+- German 
+- Italian 
+- Japanese 
+- Portuguese 
+- Simplified Chinese 
+- Spanish 
+
+> [!NOTE]
+> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+
 
 ### See also
 

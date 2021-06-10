@@ -1,12 +1,11 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
-description: "Instructions to set up visitor location detection in Omnichannel for Customer Service."
+description: "Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Set up visitor location detection
@@ -18,7 +17,7 @@ You can configure your chat widget to detect a visitor's location based on their
 > [!NOTE]
 > If a customer has turned off location sharing from their web browser, the location cannot be detected even if you have enabled location detection.
 
-To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. For information on how to get the Bing Maps API key, see [Getting a Bing Maps Key](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
+To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. For information on how to get the Bing Maps API key, see [Getting a Bing Maps Key](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 ## Create a geo location provider record
 
@@ -26,7 +25,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 2. Select **New** to add a geo location provider record.
 
-3.	In the **Quick Create: Geo Location Provider** pane, provide the following information:
+3. In the **Quick Create: Geo Location Provider** pane, provide the following information:
 
     - **Name**: Name of the geo location record.
 
@@ -35,7 +34,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
     > [!div class=mx-imgBorder]
     > ![Create a geo location record](media/geo-location-record.png "Create a geo location record")
 
-4.	Select **Save and Close**.
+4. Select **Save and Close**.
 
 ## Enable visitor location detection
 

@@ -1,13 +1,12 @@
 ---
 title: "Customer Service Insights | MicrosoftDocs"
 description: "Learn about Customer Service Insights"
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Customer Service Insights
@@ -62,5 +61,7 @@ If you're a customer who uses the Customer Service Insights standalone web appli
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
 [Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819)
+[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
+[Configure AI topic clustering for conversation](ai-topic-clustering-conversations.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

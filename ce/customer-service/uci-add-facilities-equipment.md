@@ -1,14 +1,11 @@
 ---
 title: Add facilities and equipment | Microsoft Docs
 description: How to add facilities and equipment in Unified Interface-based Scheduling Service for Dynamics 365 Customer Service.
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Add facilities and equipment resources
@@ -47,7 +46,7 @@ Before you begin, make sure you have the **System Administrator** security role 
 
   - **Primary Email**: Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address. 
 
-  - **Time Zone**: Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** page. More information: [Set personal options](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/set-personal-options) 
+  - **Time Zone**: Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** page. More information: [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md) 
 
   - **Description**: Add details about the facility or equipment, such as the numbers, size, make, or model.
   

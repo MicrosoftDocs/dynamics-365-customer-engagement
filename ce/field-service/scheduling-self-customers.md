@@ -119,7 +119,7 @@ Configure the following settings, as needed:
 
 - **Exclusion lists**: Exclude specific service accounts or service types from all messaging.
 
-- **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-within-power-automate).
+- **Power Automate (Email & SMS links)**: These are direct links to the Power Automate flows where you configure the [email and SMS connectors](#step-2-configure-email-and-sms-connectors-in-power-automate).
 
 > [!div class="mx-imgBorder"]
 > ![The customer portal settings in Field Service.](./media/SS_Settings_Config.PNG)
@@ -169,6 +169,12 @@ Let's take a look at the self-scheduling settings, and what they do:
 
 As part of the self-scheduling experience, the customer can select the incident type (shown as **Service Type**) that represents the work needed. As a Field Service administrator, you can make specific incident types available to your customers and set a user-friendly display name for the incident type shown on the self-scheduling portal.
 
+Incident types must be configured with following steps to properly appear in the self-scheduling portal:
+
+1. Check **Enable for C2** and apply a user-friendly name.
+2. Set a **Default Work Order** type, which is associated with a price list for the incident type.
+3. Set an estimated duration for the incident type. This value is the work duration shown to user in the portal.
+
 > [!div class="mx-imgBorder"]
 > ![Customer portal settings, showing the field for the user-friendly name for incident types.](./media/SS_Incident_Type-displayname.png)
 
@@ -205,6 +211,8 @@ To review and test changes, set up an account and contact in Field Service as if
 
 1. Back in Field Service, confirm that the work order is created and the booking is scheduled.
 
+> [!NOTE]
+> You can manually create the portal user from the contact form using the **Create Invitation** option in the toolbar. Creating an invitation this way will require an additional step of adding the **Web API User** role to the user account before they can access the portal. For more information, see this section: [How do I manually create a portal user?](#how-do-i-manually-create-a-portal-user)
 
 ## Configuration considerations
 
@@ -320,7 +328,20 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 > [!div class="mx-imgBorder"]
 > ![Notification details in Field Service.](./media/09_FSSettings_BookingNotifications-details.jpg)
 
-## FAQ for self-scheduling portals
+## FAQs for self-scheduling portals
+
+### How do I manually create a portal user?
+
+Within the Field Service contact, you can manually generate a portal invite code by using the **Create Invitation** option within the toolbar. Selecting this option will generate the invite code for the contact. At this time, you must also manually assign the **Web Api Users** role to the user before they can access the Field Service self-scheduling portal.
+
+To set the required role:
+
+1. In the Contact, select **Related** > **Web Roles**.
+1. Select **Add Existing Web Role**.
+1. Select **Web API User** role.
+1. Select **Add**.
+1. Select **Save & Close**.
+
 
 ### While testing, I deleted and and readded my contact to an account but I don't receive an new self-scheduling invite email. Why not? 
 
@@ -342,7 +363,7 @@ From the portal side:
 
 ### Can you cancel a booking from the portal?
 
-You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enhancements, see the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/). 
+You can only reschedule bookings from the portal; you can't cancel them. Check back soon for feature enhancements as we work toward general availability. For more information about upcoming enhancements, see the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/). 
 
 ### Who receives the notifications when a booking is self-scheduled?
 

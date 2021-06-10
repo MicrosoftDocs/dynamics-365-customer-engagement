@@ -2,7 +2,6 @@
 title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

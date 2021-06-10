@@ -1,16 +1,18 @@
 ---
-title: Create and manage routing rules in Omnichannel for Customer Service | MicrosoftDocs
-description: Understand how to create and manage routing rules in Omnichannel for Customer Service
+title: "Set up routing rules and assignment rules in Omnichannel Administration | MicrosoftDocs"
+description: "Understand how to create and manage the routing rules in the Omnichannel Administration app"
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Create and manage routing rules in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
 

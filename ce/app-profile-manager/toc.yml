@@ -20,6 +20,8 @@
       href: associate-templates.md
   - name: Productivity tools
     items: 
+    - name: Overview of productivity tools
+      href: productivity-tools.md
     - name: Manage smart assist
       href: smart-assist.md
     - name: Manage agent scripts

@@ -88,98 +88,104 @@
         href: chat-dynamics365-customer-service-demo-data.md
       - name: Quickly configure a chat widget
         href: configure-live-chat.md
-      - name: Understand routing and work distribution
-        href: unified-routing-work-distribution.md
   - name: User management
     items: 
     - name: Create users and assign security roles
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
-    - name: Manage users
-      href: users-user-profiles.md
-    - name: Manage capacity profiles
-      href: capacity-profiles.md
-    - name: Role persona mapping
-      href: role-persona-mapping.md
   - name: Unified routing and assignment
-    items: 
+    items:
     - name: Overview of unified routing
-      href: overview-unified-routing.md
-    - name: How routing and assignment works
-      href: set-up-routing-process.md
-    - name: Routing and assignment rules
-      href: routing-workstream-queues.md
+      items:
+      - name: Overview of unified routing
+        href: overview-unified-routing.md
+      - name: How routing and assignment works
+        href: set-up-routing-process.md
+      - name: Routing and assignment rules
+        href: routing-workstream-queues.md
     - name: Administrator experience
-      items: 
-      - name: Create and manage queues for cases
-        href: set-up-queues-manage-activities-cases.md
-      - name: Automatically route cases
-        href: create-rules-automatically-route-cases.md
-      - name: Create and manage queues for conversations
-        href: queues-omnichannel.md
-      - name: Create workstreams
-        href: create-workstreams.md
-      - name: Create work streams for records in Omnichannel Administration
-        href: set-up-entity-workstream.md
-      - name: Create multiple workstreams for records
-        href: multiple-ws-entity-record-routing.md
-      - name: Set up routing and assignment rules in Omnichannel Administration
-        href: routing-rules.md
-      - name: Associate templates with workstreams
-        href: ../app-profile-manager/associate-templates.md
+      items:
+      - name: Create and manage workstreams
+        items:
+        - name: Create and manage workstreams for unified routing
+          href: create-workstreams.md
+        - name: Create and manage workstreams in Omnichannel Administration
+          href: create-workstreams-oca.md
+      - name: Create and manage queues
+        items:
+        - name: Create and manage queues for unified routing
+          href: queues-omnichannel.md
+        - name: Create queues in Omnichannel Administration
+          href: Create-queues-oca.md
+        - name: Create and manage basic queues
+          href: set-up-queues-manage-activities-cases.md
+      - name: Configure work classification
+        items:
+        - name: Configure work classification rulesets for unified routing
+          href: configure-work-classification.md
+        - name: Set up routing and assignment rules in Omnichannel Administration
+          href: routing-rules.md
+      - name: Configure work assignment
+        items:
+        - name: Configure assignment methods for queues
+          href: assignment-methods.md
       - name: Set up record routing
         items: 
-        - name: Set up record routing
+        - name: Set up unified routing for records
           href: set-up-record-routing.md
-        - name: Enable records for routing
+        - name: Set up record routing in Omnichannel Administration
+          href: set-up-entity-workstream.md
+        - name: Create multiple workstreams for records in Omnichannel Administration
+          href: multiple-ws-entity-record-routing.md  
+        - name: Route records in Omnichannel Administration app
           href: entity-channel.md
-        - name: Set up basic routing for records
-          href: routing-trigger.md
-      - name: Create queues
-        items: 
-        - name: Create queues
-          href: queues-omnichannel.md
-        - name: Set up assignment methods for queues
-          href: assignment-methods.md
-      - name: Configure work classification rulesets
-        href: configure-work-classification.md
-      - name: Set up skill-identification rules
+      - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
           href: overview-skill-work-distribution.md
-        - name: Enable agents to attach skills, create rating models
-          href: enable-skill-routing-create-rating-model.md
-        - name: Set up skill finder model
-          href: intelligent-skill-model.md
-        - name: Set up skills, assign agents
+        - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Attach skills to conversations in Omnichannel Administration
+        - name: Enable agents to update skills
+          href: allow-agents-update-skills.md
+        - name: Set up skill-based routing for unified routing
+          href: set-up-skill-based-routing.md
+        - name: Set up skill-based routing in Omnichannel Administration
           href: attach-skills.md
-        - name: Add skill control for routed records
-          href: add-skill-control.md
-      - name: Create and manage basic queues for cases
-        href: set-up-queues-manage-activities-cases.md
-      - name: Automatically route cases using basic rule sets
-        href: create-rules-automatically-route-cases.md
-      - name: Set up routing for conversations in Omnichannel for Customer Service
-        href: understand-omnichannel-customer-service-hub.md
+      - name: Configure basic routing
+        items:
+        - name: Create and manage basic queues for cases
+          href: set-up-queues-manage-activities-cases.md
+        - name: Route cases using basic rulesets
+          href: create-rules-automatically-route-cases.md
+        - name: Set up routing for conversations in Omnichannel for Customer Service
+          href: understand-omnichannel-customer-service-hub.md
+      - name: Configure users for unified routing
+        items:
+        - name: Manage users
+          href: users-user-profiles.md
+        - name: Manage capacity profiles
+          href: capacity-profiles.md
+        - name: Role persona mapping
+          href: role-persona-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
-      - name: Show customers their position in a queue
-        href: show-queue.md
-      - name: Show customers their average wait time in a queue
-        href: average-wait-time.md
+      - name: Understand routing and work assignment in Omnichannel Administration
+        href: unified-routing-work-distribution.md  
     - name: Agent experience
-      items: 
-      - name: Manage case queues and route cases
-        href: customer-service-hub-user-guide-case-queues-and-routing.md
+      items:
+      - name: Route records using unified routing
+        href: routing-trigger.md
       - name: Work with queues
         href: work-with-queues.md
+      - name: Manage case queues and route cases
+        href: customer-service-hub-user-guide-case-queues-and-routing.md
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
         href: unified-routing-impact-on-APIs.md
+      - name: Add a skill control for routed records
+        href: add-skill-control.md
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
   - name: Case management
@@ -294,6 +300,8 @@
         href: set-up-knowledge-management-embedded-knowledge-search.md
       - name: Configure knowledge article search filters
         href: enable-knowledge-article-search-filters.md
+      - name: Integrate knowledge management with Power Virtual Agents
+        href: integrate-KM-with-PVA.md
       - name: Create and manage knowledge categories
         href: create-manage-categories.md
       - name: Extend transformer logic on templates
@@ -307,6 +315,8 @@
       - name: Create and manage knowledge articles
         href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
+        href: csw-search-knowledge-articles.md
+      - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
       - name: Search for knowledge articles on smart assist
         href: oc-search-knowledge-articles.md
@@ -336,6 +346,10 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Show customers their position in a queue
+        href: show-queue.md
+      - name: Show customers their average wait time in a queue
+        href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
     - name: Agent experience
@@ -386,9 +400,9 @@
         href: oc-real-time-translation.md
     - name: Developer experience
       items: 
-      - name: Customize a chat widget
+      - name: Customize chat widgets using data tags
         href: customize-chat-widget.md
-      - name: Render live chat widget on mobile app
+      - name: Customize live chat widgets for mobile apps
         href: render-live-chat-widget-mobile.md
       - name: Download transcripts in bulk
         href: download-transcripts-bulk.md
@@ -618,8 +632,12 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
-      - name: Provide access to Ongoing Conversations dashboard
-        href: configure-ongoing-conversations-dashbaord.md
+      - name: Enable supervisor settings
+        items:
+        - name: Provide access to Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Enable supervisors to monitor, assign, and transfer conversations
+          href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
@@ -668,7 +686,7 @@
           href: omnichannel-insights-dashboard.md
       - name: Monitor conversations
         items: 
-        - name: Monitor and assign conversations
+        - name: Monitor, assign, and transfer conversations
           href: monitor-conversations.md
         - name: Monitor and analyze sentiments
           href: supervisor-sentiment-monitoring.md
@@ -1178,8 +1196,8 @@
       href: troubleshoot-sla-issues.md
     - name: Unable to delete a managed solution
       href: troubleshoot-delete-managed-solution.md
-    - name: Known issues
-      href: omnichannel-readme.md
+    - name: Known issues in Customer Service and Omnichannel for Customer Service
+      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
     - name: Troubleshoot with Solution Health Hub

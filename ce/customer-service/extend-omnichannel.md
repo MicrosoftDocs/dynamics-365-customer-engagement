@@ -1,12 +1,11 @@
 ---
 title: "Extend Omnichannel for Customer Service | MicrosoftDocs"
 description: "Embed Omnichannel for Customer Service functionality into your website or app, or bring functionality from other apps into Omnichannel for Customer Service."
+ms.date: 07/07/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/07/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -43,7 +42,7 @@ The following table shows the SKUs that correspond with each experience.
 
 Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Dynamics 365 Customer Service). These APIs allow the telephony channel to show notifications for an incoming conversation with relevant information, start new sessions for conversations, and open application tabs as needed.
 
-For more information, see [Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework).
+For more information, see [Dynamics 365 Channel Integration Framework version 2.0](./channel-integration-framework/v2/overview-channel-integration-framework.md).
 
 ### Other messaging channels
 
@@ -56,7 +55,7 @@ For more information, see [Configure a custom messaging channel](configure-custo
 ### See also
 
 [Bring your own custom messaging channel: Direct Line bot](bring-your-own-channel.md)  
-[Connect a bot to Direct Line](https://docs.microsoft.com/azure/bot-service/bot-service-channel-connect-directline)  
-[Dynamics 365 Channel Integration Framework version 2.0](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/v2/overview-channel-integration-framework)  
+[Connect a bot to Direct Line](/azure/bot-service/bot-service-channel-connect-directline)  
+[Dynamics 365 Channel Integration Framework version 2.0](./channel-integration-framework/v2/overview-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

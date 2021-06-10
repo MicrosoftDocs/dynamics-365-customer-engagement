@@ -1,6 +1,6 @@
 ---
-title: "Get resource scheduling optimization | MicrosoftDocs"
-description: Learn how to get resource scheduling optimization for Dynamics 365
+title: "Get Resource Scheduling Optimization | MicrosoftDocs"
+description: Learn how to get Resource Scheduling Optimization for Dynamics 365
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/11/2020
@@ -18,17 +18,17 @@ search.app:
   - D365FS
 ---
 
-# Get resource scheduling optimization
+# Get Resource Scheduling Optimization
 
-There are two ways to get resource scheduling optimization:
+There are two ways to get Resource Scheduling Optimization:
 
-- Buy a resource scheduling optimization license
+- Buy a Resource Scheduling Optimization license
 - Request a trial from your local Microsoft representative
 
 
-## Option 1: Buy a resource scheduling optimization license
+## Option 1: Buy a Resource Scheduling Optimization license
 
-In order to get access to resource scheduling optimization, you must first have access to Field Service. If you already have Field Service installed, skip to step 4.   
+In order to get access to Resource Scheduling Optimization, you must first have access to Field Service. If you already have Field Service installed, skip to step 4.   
 
 1. Purchase Field Service. Go to the **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
    
@@ -44,15 +44,15 @@ In order to get access to resource scheduling optimization, you must first have 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 admin center on the Instances tab](./media/admin-install-fs-instances.png)
 
-4. Purchase resource scheduling optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of resource scheduling optimization is based on the number of resources whose schedules are optimized.
+4. Purchase Resource Scheduling Optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized.
 
 ## Option 2: Request trial
 
-Microsoft employees can request resource scheduling optimization trial environments for themselves or for customers and partners by filling out the [resource scheduling optimization trial environment form](https://aka.ms/rsotrial). If you are a customer or partner, contact your local Microsoft representative.
+Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by filling out the [Resource Scheduling Optimization trial environment form](https://aka.ms/rsotrial). If you are a customer or partner, contact your local Microsoft representative.
 
 ## Next steps
 
-After purchasing resource scheduling optimization, follow the [resource scheduling optimization deployment steps](./rso-deployment.md). 
+After purchasing Resource Scheduling Optimization, follow the [Resource Scheduling Optimization deployment steps](./rso-deployment.md). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

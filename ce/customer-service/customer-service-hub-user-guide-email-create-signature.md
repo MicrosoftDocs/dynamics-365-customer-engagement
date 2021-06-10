@@ -1,11 +1,10 @@
 ---
 title: "Use an email signature in customer engagement apps | MicrosoftDocs"
 description: "Learn how to use an email signature in customer engagement apps."
-author: lalexms
-ms.author: laalexan
 ms.date: 01/18/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: lalexms
+ms.author: laalexan
 ms.reviewer: nenellim
 ---
 

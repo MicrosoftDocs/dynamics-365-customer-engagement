@@ -1,9 +1,9 @@
 ---
 title: Overview of the Dynamics 365 Sales mobile app
 description: Learn about the Dynamics 365 Sales mobile app
-ms.date: 05/03/2021
+ms.date: 05/31/2021
 ms.topic: article
-ms.service: dynamics-365-sales
+ms.custom: intro-internal
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -11,9 +11,12 @@ manager: shujoshi
 
 # Overview of the Dynamics 365 Sales mobile app
 
-Mobile apps help sellers build great customer relationships, stay up-to-date with important information, and respond to their customers faster. The new Microsoft Dynamics 365 Sales mobile app (preview) is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
+Mobile apps help sellers build great customer relationships, stay up-to-date with important information, and respond to their customers faster. The new Microsoft Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
 
-In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios.
+In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios while still supporting model-driven configurations. 
+
+> [!NOTE]
+> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablet app to migrate and start using the Dynamics 365 Sales app instead.
 
 With the Dynamics 365 Sales mobile app, you can do the following (and much more):
 
@@ -27,7 +30,7 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-ios-app.md) 
 
 ### See also
 
-[Enable Dynamics 365 Sales mobile](enable-sales-mobile.md)   
+[Prerequisites for the Dynamics 365 Sales mobile app](prereq-sales-mobile.md)   
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)
 
 
