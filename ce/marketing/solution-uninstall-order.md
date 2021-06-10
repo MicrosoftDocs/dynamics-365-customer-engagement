@@ -28,6 +28,42 @@ To delete Dynamics 365 from an instance, first open the Marketing setup wizard a
 
 Marketing solution uninstall order:
 
+Real-time part of marketing:
+1. DynamicsMKT_AnchorSolution
+1. DynamicsMKT_CxpApplicationUser
+1. DynamicsMKT_CIConnection
+1. DynamicsMKT_Roles
+1. msdyn_InsightsAnalyticsMKTAnalytics
+1. msdyn_InsightsAnalyticsMKTConfiguration
+1. msdyn_DataInsightsAndAnalyticsForMKT
+1. DynamicsMKT_Configuration
+1. DynamicsMKT_CustomerVoiceIntegration
+1. DynamicsMKT_StandaloneSitemap
+1. DynamicsMKT_Sitemap
+1. DynamicsMKT_CxpGetStartedExperience
+1. DynamicsMKT_PushNotification
+1. DynamicsMKT_EmailChannel
+1. DynamicsMKT_CxpEmailEditor
+1. DynamicsMKT_CxpEmailEditorCanvas
+1. DynamicsMKT_EmailEditorCanvasShared
+1. DynamicsMKT_EmailEditorShared
+1. DynamicsMKT_PersonalizationUI
+1. DynamicsMKT_CxpCmsIntegration
+1. DynamicsMKT_SmsChannel
+1. DynamicsMKT_OrchestrationAnalytics
+1. DynamicsMKT_CxpOrchestrationUI
+1. DynamicsMKT_Consent
+1. DynamicsMKT_AssetControlsSolution
+1. DynamicsMKT_CxpFormControls
+1. DynamicsMKT_OrchestrationEngineAttachCI
+1. DynamicsMKT_OrchestrationEngine
+1. DynamicsMKT_FeatureConfiguration
+1. DynamicsMKT_BaseSolution
+1. DynamicsMKT_Segmentation
+1. DynamicsMKT_SharedMarketingControls
+1. MicrosoftDynamics_ContentEditor
+
+Outbound part of marketing:
 1. MicrosoftDynamics_MktCompleteAnchorSolution
 1. MicrosoftDynamics_SubscriptionList_patch
 1. MicrosoftDynamics_SubscriptionList
@@ -107,6 +143,9 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_HealthChecker
 
 If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.
+
+Marketing installation also installs some dependencies that might be used in other applications, those can be uninstalled only if they're not being used by non-marketing application:
+1. msdyn_DataInsightsAndAnalytics - enable Analytics capability for Dynamics 365 applications like Customer Service, Field Service and Universal Resource Scheduling
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
