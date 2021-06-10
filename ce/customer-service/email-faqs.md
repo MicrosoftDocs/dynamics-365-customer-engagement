@@ -8,7 +8,7 @@ ms.author: laalexan
 ms.reviewer: nenellim
 ---
 
-# Email FAQs and known issues
+# Email FAQs
 
 Find answers to common questions regarding the email experience features and functionality, configurations, and other key concepts.
 
@@ -77,14 +77,6 @@ If you've enabled an email form but it is doesn't display, you'll need to enable
     
     ![Site map link](media\email-site-map-link.png "New site map link")
     
-  
-  ## Known issues
-  
-  - Verbatim HTML tags, such as href=””, have their value removed if they aren't encoded in the experience by email templates from the legacy app. This is because the content sanitation library was upgraded to include this safety improvement in Dynamics 365. You can resolve this issue by manually encoding the value.
-    
-       ![Manually encode HTML tag values](\media\email-encode-value.png "Manually encode value for verbatim HTML tags")
-  
-
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
