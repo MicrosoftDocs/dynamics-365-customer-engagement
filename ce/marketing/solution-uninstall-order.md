@@ -28,7 +28,7 @@ To delete Dynamics 365 from an instance, first open the Marketing setup wizard a
 
 Marketing solution uninstall order:
 
-Real-time part of marketing:
+ Moments-based marketing:
 1. DynamicsMKT_AnchorSolution
 1. DynamicsMKT_CxpApplicationUser
 1. DynamicsMKT_CIConnection
@@ -59,11 +59,10 @@ Real-time part of marketing:
 1. DynamicsMKT_OrchestrationEngine
 1. DynamicsMKT_FeatureConfiguration
 1. DynamicsMKT_BaseSolution
-1. DynamicsMKT_Segmentation
 1. DynamicsMKT_SharedMarketingControls
 1. MicrosoftDynamics_ContentEditor
 
-Outbound part of marketing:
+Segment-based marketing:
 1. MicrosoftDynamics_MktCompleteAnchorSolution
 1. MicrosoftDynamics_SubscriptionList_patch
 1. MicrosoftDynamics_SubscriptionList
@@ -144,8 +143,8 @@ Outbound part of marketing:
 
 If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.
 
-Marketing installation also installs some dependencies that might be used in other applications, those can be uninstalled only if they're not being used by non-marketing application:
+Dependencies of the marketing application are installed alongside the marketing application. These can only be uninstalled if they are not used by other solutions:
 1. msdyn_DataInsightsAndAnalytics - enable Analytics capability for Dynamics 365 applications like Customer Service, Field Service and Universal Resource Scheduling
-
+1. DynamicsMKT_Segmentation - standard entity of segment representation and its metadata
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
