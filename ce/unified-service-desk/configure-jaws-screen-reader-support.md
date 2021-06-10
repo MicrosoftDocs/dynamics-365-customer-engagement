@@ -1,6 +1,6 @@
 ---
 title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
-description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Web Client package  are JAWS compliant."
+description: "Learn how to configure the JAWS screen reader to enable support for focusable (interactive) controls and tooltips."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
