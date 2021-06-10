@@ -136,7 +136,7 @@ These examples are based on a scenario where the case was opened as the anchor t
 > [!NOTE]
 > The url parameter requires the correct url format using 'http://' or 'https://'.
 
-For more information, go to [Third-party application tab refreshes when focus is changed](../customer-service/omnichannel-readme.md#third-party-application-tab-refreshes-when-focus-is-changed).
+For more information, go to [Third-party application tab refreshes when focus is changed](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
 ### Web resource
 
