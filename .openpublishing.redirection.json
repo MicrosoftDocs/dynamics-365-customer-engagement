@@ -21373,6 +21373,21 @@
       "source_path": "ce/sales-enterprise/embedded-intelligence-overview.md",
       "redirect_url": "/dynamics365/ai/sales/overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/install-ios-app.md",
+      "redirect_url": "install-mobile-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/install-android-app.md",
+      "redirect_url": "install-mobile-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/omnichannel-readme.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/p/?linkid=2165393",
+      "redirect_document_id": false
     }
   ]
 }

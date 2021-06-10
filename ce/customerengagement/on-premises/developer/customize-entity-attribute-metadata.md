@@ -26,7 +26,7 @@ Use `AttributeMetadata` (<xref href="Microsoft.Dynamics.CRM.AttributeMetadata?te
 Use the following Web API query to retrieve entity attributes in the context of an entity by expanding the Attributes collection-valued navigation property. More information: [Querying EntityMetadata attributes](/powerapps/developer/common-data-service/webapi/query-metadata-web-api#querying-entitymetadata-attributes)
 
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)?$select=LogicalName&$expand=Attributes($select=LogicalName;$filter=AttributeType eq Microsoft.Dynamics.CRM.AttributeTypeCode'Picklist')
+GET [Organization URI]/api/data/v9.1/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)?$select=LogicalName&$expand=Attributes($select=LogicalName;$filter=AttributeType eq Microsoft.Dynamics.CRM.AttributeTypeCode'Picklist')
 ```
 
 Use the specific class for each attribute type with the `CreateAttribute` message (For Organization Service see, <xref:Microsoft.Xrm.Sdk.Messages.CreateAttributeRequest>) to update attributes or create custom attributes.  

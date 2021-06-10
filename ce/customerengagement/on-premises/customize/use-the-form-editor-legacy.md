@@ -1,5 +1,5 @@
 ---
-title: "Change navigation within a form | MicrosoftDocs"
+title: "Change navigation within a form with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to change the navigation within a form"
 ms.custom: 
 ms.date: 01/11/2019
@@ -22,9 +22,7 @@ search.audienceType:
 ---
 # Change navigation within a form
 
-
-
- Navigation within a form allows app users to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation pane item for primary entity](create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)  
+Navigation within a form allows app users to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation pane item for primary entity](create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)  
   
  Any entity relationships that are configured to be displayed can be overridden within the form editor. You can also include navigation links to display web resources or other web sites via form navigation.  
   
