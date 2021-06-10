@@ -4,7 +4,7 @@ description: "Learn about how to smartly assist agents with the next-best steps 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 03/11/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
@@ -36,8 +36,8 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Productivity pane must be enabled. Out of the box, productivity pane is enabled by default.
 - Smart assist must be enabled.
 - One of the following:
-    - AI-suggested similar cases and knowledge articles should be enabled by your administrator. This feature is currently available in preview mode only.
-    - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../omnichannel/developer/how-to/smart-assist-bot.md).
+    - AI-suggested similar cases and knowledge articles should be enabled by your administrator.
+    - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../customer-service/smart-assist-bot.md).
 
 ## Enable AI suggestions for similar cases and knowledge articles
 
@@ -57,7 +57,7 @@ You can create an application user only in the web client. Use the bot applicati
 
 ### Step 2: Add a smart assist bot to a work stream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
 
-After you create a bot user, you need to add the bot to the work stream so that agents who are part of this workstream can see the suggestions.
+After you create a bot user, you need to add the bot to the work stream so that agents who use the channel of this workstream can see the suggestions.
 
 1. Sign in to the Omnichannel Administration app.
 
@@ -78,3 +78,5 @@ You can add multiple bots to a work stream based on your business requirements.
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

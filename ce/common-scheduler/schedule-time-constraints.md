@@ -21,3 +21,5 @@ search.app:
 # Schedule within time constraints in Universal Resource Scheduling
 
 [!INCLUDE[schedule-time-constraints.md](../shared/urs/schedule-time-constraints.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

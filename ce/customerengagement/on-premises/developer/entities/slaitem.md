@@ -803,3 +803,5 @@ See workflow Entity [slaitembase_workflowid](workflow.md#BKMK_slaitembase_workfl
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.slaitem?text=slaitem EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

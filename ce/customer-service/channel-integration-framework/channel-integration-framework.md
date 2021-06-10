@@ -1,12 +1,11 @@
 ---
 title: "Dynamics 365 Channel Integration Framework guide | Microsoft Docs"
 description: "Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface apps using a browser-based JavaScript API library."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -124,7 +123,7 @@ ms.custom:
 <li><a href="v2/reference/microsoft-ciframework-v2.md" data-raw-source="[Microsoft.CIFramework
  methods](v2/reference/microsoft-ciframework-v2.md)">Microsoft.CIFramework</a></li>
 <li><a href="v2/reference/client-side-events.md" data-raw-source="[Client-side events](v2/reference/client-side-events.md)">Client-side events</a>
-<li><a href="v2/reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Entity reference](v2/reference/entities-attributes/msdyn-ciprovider.md)">Entity reference</a></li>
+<li><a href="/dynamics365/customer-service/channel-integration-framework/msdyn_channelprovider" data-raw-source="[Entity reference](/dynamics365/customer-service/channel-integration-framework/msdyn_channelprovider)">Entity reference</a></li>
 </td>
 </tr>
 
@@ -132,8 +131,11 @@ ms.custom:
 
 <h2>Related apps & framework</h2>
 
-<a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a>
+<a href="/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](../help-hub.md)">Customer Service Hub Help</a>
 
-<a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a>
+<a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a>
 
-<a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a>
+<a href="/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](../../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

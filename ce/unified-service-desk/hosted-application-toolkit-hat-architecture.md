@@ -1,20 +1,19 @@
 ---
 title: "Hosted Application Toolkit (HAT) architecture in Unified Service Desk | MicrosoftDocs"
 description: "The topic illustrates the components of Hosted Application Toolkit (HAT) and the application startup process."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Hosted Application Toolkit (HAT) architecture
 This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] and the application startup process.  
@@ -48,3 +47,6 @@ This topic illustrates the components of [!INCLUDE[pn_hosted_application_toolkit
  [UII Application Integration Framework](../unified-service-desk/uii-application-integration-framework.md)   
  [Work with HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)   
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

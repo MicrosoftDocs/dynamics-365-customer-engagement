@@ -44,3 +44,6 @@ Resources represent the people, tools, rooms, or pieces of equipment that are us
  [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)  
   
  [Service Entity](service-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

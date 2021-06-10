@@ -1,12 +1,11 @@
 ---
 title: "Automatic closure of a conversation| Microsoft Docs"
 description: "Read how you can auto-close a conversation using the Web API"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 10/25/2019
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Automatic closure of a conversation
 
@@ -114,3 +113,6 @@ In case the conversation is in wrap-up state—that is, if the agent has resolve
 
 [Automatic closure of a conversation](oc-conversation-state.md#automatic-closure-of-a-conversation)  
 [Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

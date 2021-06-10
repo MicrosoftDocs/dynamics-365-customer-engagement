@@ -78,3 +78,6 @@ An activity party represents a person or group associated with an activity. An a
  [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   
  [Sample: Send an E-mail Using a Template](sample-send-email-template.md)   
  [Sample: Validate an Appointment](sample-validate-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

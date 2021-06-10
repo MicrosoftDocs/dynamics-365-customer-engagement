@@ -123,3 +123,6 @@ You can create an opportunity from a qualified lead or you can create a new oppo
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Customer Entities](customer-entities-account-contact.md)   
  [Create Early-Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](org-service/create-early-bound-entity-classes-code-generation-tool.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

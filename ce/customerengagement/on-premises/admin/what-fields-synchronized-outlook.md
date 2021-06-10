@@ -1,7 +1,6 @@
 ---
 title: "What fields can be synchronized between Customer Engagement (on-premises) and Outlook? | MicrosoftDocs"
-description: ""
-keywords: 
+description: "Set whether a sync occurs and the sync direction for Customer Engagement (on-premises) and Outlook."
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
@@ -228,3 +227,6 @@ Dynamics 365 Customer Engagement (on-premises) administrators can set whether a 
 3. **Start Date:** When a task is created and tracked in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)], the system assigns the task a reminder time. Reminder information is not synced from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] to Customer Engagement (on-premises). However, when a task has Due Time set in Customer Engagement (on-premises), it will be synchronized to Reminder Time in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].  
   
 ### See also  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

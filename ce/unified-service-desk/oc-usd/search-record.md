@@ -1,12 +1,11 @@
 ---
 title: "Search for records in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn on how to Search for records in Omnichannel for Customer Service and link the record to a conversation."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -96,3 +95,6 @@ To learn on how to link a record, see [Link a record to the conversation](link-u
 - [View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

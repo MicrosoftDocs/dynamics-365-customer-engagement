@@ -315,3 +315,6 @@ The following information is for the organization entity in a default, uncustomi
 ### See also  
  [Organization Entities](organization-entities.md)   
  [Organization Entity](entities/organization.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

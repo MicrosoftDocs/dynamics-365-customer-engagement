@@ -52,3 +52,6 @@ Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn
  [Browse the Metadata for Your Organization](../browse-your-metadata.md)  
   
  [Use the Web API with metadata](../webapi/use-web-api-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

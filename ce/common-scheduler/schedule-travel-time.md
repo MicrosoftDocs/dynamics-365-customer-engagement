@@ -23,3 +23,6 @@ search.app:
 [!INCLUDE[topic-urs-schedule-travel-time.md](../shared/urs/schedule-travel-time.md)]
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: "Deactivate and delete a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Deactivate and delete a forecast in Dynamics 365 Sales."
 ms.date: 10/13/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -81,3 +80,6 @@ You can permanently delete a forecast that is in the active, inactive, or draft 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

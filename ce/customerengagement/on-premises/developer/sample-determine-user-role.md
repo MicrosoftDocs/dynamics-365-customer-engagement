@@ -46,3 +46,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample: Remove a Role for a User](sample-remove-role-user.md)   
  [User and Team Entities](user-team-entities.md)   
     
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

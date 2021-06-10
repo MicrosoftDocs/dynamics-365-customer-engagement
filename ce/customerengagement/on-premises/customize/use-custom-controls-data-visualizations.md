@@ -1,5 +1,5 @@
 ---
-title: "Use custom controls for data visualizations | MicrosoftDocs"
+title: "Use custom controls for data visualizations with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to use custom controls for fields"
 ms.custom: 
 ms.date: 01/10/2019
@@ -90,3 +90,6 @@ Custom controls let you transform fields that traditionally contain text into vi
  [Create and edit views](../customize/create-edit-views.md)</br>
  [Customize Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md)</br>
  [Make grids (lists) editable in Dynamics 365 Customer Engagement (on-premises) using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

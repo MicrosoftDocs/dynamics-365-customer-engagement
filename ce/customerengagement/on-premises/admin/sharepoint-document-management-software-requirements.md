@@ -1,5 +1,6 @@
 ---
 title: "SharePoint Document Management software requirements  | MicrosoftDocs"
+description: "Use Microsoft SharePoint Online or Microsoft SharePoint on-premises for document management functionality with Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -84,3 +85,6 @@ If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint
 ### See also
 
 [Set up SharePoint integration](set-up-sharepoint-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
     
  [Opportunity Entities](opportunity-entities.md)   
  [Sample: Convert an Opportunity to a Quote (Early Bound)](sample-convert-opportunity-quote-early-bound.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

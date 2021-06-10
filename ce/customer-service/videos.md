@@ -1,15 +1,14 @@
 ---
-title: "Videos for Omnichannel for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Find video-based information about Omnichannel for Dynamics 365 Customer Service."
+title: "Videos for Omnichannel for Customer Service | MicrosoftDocs"
+description: "You can go through the videos listed in this topic to learn about the different features in Omnichannel for Customer Service."
+ms.date: 10/29/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/29/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
-# Videos
+# Videos for Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -35,3 +34,6 @@ The following videos help you get started with Omnichannel for Customer Service:
 - [Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)
 
 - [Historical Insights Report](https://go.microsoft.com/fwlink/p/?linkid=2097418)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

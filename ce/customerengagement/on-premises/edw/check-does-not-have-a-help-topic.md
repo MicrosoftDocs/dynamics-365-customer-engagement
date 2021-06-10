@@ -1,5 +1,7 @@
 ---
 title: "You've encountered a check that does not have a Help topic | Microsoft Docs"
+description: Environment diagnostics warning that a validation check has been encountered that doesn't have Help.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -23,5 +25,8 @@ There is currently no Help topic associated with this environment diagnostics ch
   
     -   [Dynamics 365 for Customer Engagement Community](https://community.dynamics.com/)  
   
-    -   Get help: [Microsoft Dynamics 365 for Customer Engagement support overview](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport)
+    -   Get help: [Microsoft Dynamics 365 for Customer Engagement support overview](/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

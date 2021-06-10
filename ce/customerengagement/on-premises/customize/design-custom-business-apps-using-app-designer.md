@@ -1,5 +1,5 @@
 ---
-title: "Design custom business apps by using the app designer | MicrosoftDocs"
+title: "Design custom business apps by using the app designer with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: Learn how to design apps using the app designer.
 ms.custom: 
 ms.date: 04/30/2019
@@ -65,3 +65,6 @@ Custom business apps are comprised of components such as entities, dashboards, f
 ### See Also  
  <!-- [Business apps in Dynamics 365 for Customer Engagement](../basics/business-apps-dynamics-365.md) -->
  [Create and manage custom business apps in Customer Engagement using code](../developer/create-manage-custom-business-apps-using-code.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

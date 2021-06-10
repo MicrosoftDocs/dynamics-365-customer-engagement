@@ -161,3 +161,6 @@ Administrators can choose settings that control several aspects of the way all m
 [Upload and use images and files](upload-images-files.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ This section describes how to troubleshoot installation and known issues.
  [Install Microsoft Dynamics 365](install-or-upgrade-microsoft-dynamics-365-server.md) </br>  
  [Install or upgrade language packs for Microsoft Dynamics 365](install-or-upgrade-language-packs.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

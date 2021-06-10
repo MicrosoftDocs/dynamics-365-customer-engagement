@@ -1,20 +1,19 @@
 ---
 title: "Add a UII action to a hosted control | MicrosoftDocs"
 description: "Learn about adding User Interface Integration (UII) actions to a hosted control type to provide new functionality."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Add a UII action to a hosted control
 As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] are developed, new [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions might get added to a hosted control type to provide new functionality. However, the new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions for a hosted control type will only be available out-of-box for the new instances of the hosted control type. If you have existing instances of a hosted control type in your configuration, the new [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions won’t become available by default. You will have to manually add the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] action to the hosted control record (instance) to be able to use the action in your action calls.  
@@ -44,3 +43,6 @@ As new versions of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)
  
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

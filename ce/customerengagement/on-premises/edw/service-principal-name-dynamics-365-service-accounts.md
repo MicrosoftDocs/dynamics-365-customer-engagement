@@ -13,7 +13,7 @@ author: Mattp123
 ms.author: matp
 ---
 # Verify Service Principal Name for Microsoft Dynamics 365 for Customer Engagement service accounts
-The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services are described below. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](https://go.microsoft.com/fwlink/p/?LinkID=306136).  
+The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services are described below. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699825(v=crm.8)).  
   
 -   **Application Service**. This service runs the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Web application that is used to connect users to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data.  
   
@@ -32,5 +32,8 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services are des
 > -   If you select to run the ASP.NET service under a domain user account that is not a domain administrator or a local administrator, you must set a local security policy after you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] for the ASP.NET service to work correctly. Also, depending on the password policies that you have implemented for your organization, the password for the user may expire. For more information, see the Microsoft Knowledge Base article 329290, [How to use the ASP.NET utility to encrypt credentials and session state connection strings](https://go.microsoft.com/fwlink/p/?linkid=53266).  
 > -   The service account may need an SPN for the URL used to access the Web site that is associated with it.  
   
- You use the setspn.exe command-line tool to read, modify, and delete the Service Principal Names (SPN) directory property for an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] service account. Setspn is included with [!INCLUDE[pn_ms_Windows_Server_long](../includes/pn-ms-windows-server-long.md)]. Notice that you must have **Validated write to service principal name** permissions to complete operations using setspn. For more information about setspn, see [Setspn](https://go.microsoft.com/fwlink/p/?LinkID=194151).
+ You use the setspn.exe command-line tool to read, modify, and delete the Service Principal Names (SPN) directory property for an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] service account. Setspn is included with [!INCLUDE[pn_ms_Windows_Server_long](../includes/pn-ms-windows-server-long.md)]. Notice that you must have **Validated write to service principal name** permissions to complete operations using setspn. For more information about setspn, see [Setspn](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731241(v=ws.10)).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

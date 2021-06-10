@@ -1,12 +1,11 @@
 ---
 title: "Delete a channel or page to stop receiving messages on a channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service."
+ms.date: 06/30/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 06/30/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 # Delete a configured channel
@@ -49,3 +48,6 @@ If you no longer want to receive messages on a Facebook page that you've configu
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Delete solutions](delete-solution.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

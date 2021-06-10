@@ -1,6 +1,6 @@
 ---
 title: "Add form navigation for related entities in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-descriptoin: Learn how to add form navigation for related entities
+description: Learn how to add form navigation for related entities
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -79,3 +79,6 @@ In the form Navigation Pane, you can add links to related entities. When a user 
   
 ### See also  
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

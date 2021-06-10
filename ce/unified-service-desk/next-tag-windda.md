@@ -1,20 +1,19 @@
 ---
 title: "Next Tag (WinDDA) in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
 description: "The topic describes the attributes of the Next tag (winDDA)."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Next Tag (WinDDA) in Unified Service Desk
 `<Next/>` tag can include an optional `match` attribute and an optional `offset` attribute. The `match` attribute has a default value of `"1"`, and the offset attribute has a default value of `"0"`. Each `<Next/>` element retrieves the next level of the [IAccessible](https://msdn.microsoft.com/library/accessibility.iaccessible\(v=vs.110\).aspx) hierarchy and scans it for a match between the inner text and the `Name` of each `IAccessible` node. This topic describes the attributes of the `Next` tag.  
@@ -54,3 +53,6 @@ search.app:
 ### See also  
  [Win DDA](../unified-service-desk/windda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

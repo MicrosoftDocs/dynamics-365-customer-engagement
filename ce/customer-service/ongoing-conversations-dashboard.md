@@ -1,13 +1,10 @@
 ---
 title: "Ongoing Conversations dashboard for supervisor | MicrosoftDocs"
-description: "Learn about Ongoing Conversations dashboard for supervisor"
+description: "This topic provides information about the Ongoing Conversations dashboard for supervisors to view information about the conversations handled by agents."
 author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/03/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # View and understand Omnichannel Ongoing Conversations dashboard
@@ -25,21 +22,21 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 
 ## View Omnichannel Ongoing Conversations dashboard
 
-The **Omnichannel Ongoing Conversations** is available in:
+The **Omnichannel Ongoing Conversations** dashboard is available in:
 
 - [Unified Service Desk](#unified-service-desk)
 - [Omnichannel for Customer Service](#omnichannel-for-customer-service)
 
 ### Unified Service Desk
 
-1.	Open the **Unified Service Desk** client application.
+1. Open the **Unified Service Desk** client application.
 
-2.	Sign in with your supervisor credentials.
+2. Sign in with your supervisor credentials.
 
     > [!NOTE]
     > To learn more, see [Sign in to Unified Service Desk – Omnichannel for Customer Service](../unified-service-desk/oc-usd/signin-unified-service-desk-omnichannel.md).
 
-3.	Select the **Conversations** tab.
+3. Select the **Conversations** tab.
 
     The **Omnichannel Ongoing Conversations** dashboard displays the list of conversations that you and agents are handling.
 
@@ -48,9 +45,9 @@ The **Omnichannel Ongoing Conversations** is available in:
   
 ### Omnichannel for Customer Service
 
-1.	Go to *https://**YourOrganization**.dynamics.com/apps* and select **Omnichannel for Customer Service**.
+1. Go to *https://**YourOrganization**.dynamics.com/apps* and select **Omnichannel for Customer Service**.
 
-2.	Select the **Omnichannel Ongoing Conversations Dashboard** tab.
+2. Select the **Omnichannel Ongoing Conversations Dashboard** tab.
 
     The Omnichannel Ongoing Conversations dashboard displays the list of conversations that you and agents are handling. 
 
@@ -62,3 +59,5 @@ The **Omnichannel Ongoing Conversations** is available in:
 [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  
 [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)  
 [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

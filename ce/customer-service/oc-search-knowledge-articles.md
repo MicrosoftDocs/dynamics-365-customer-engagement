@@ -1,12 +1,11 @@
 ---
-title: "Search for and share knowledge articles in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to set your presence status in Omnichannel for Customer Service."
+title: "Search and share knowledge articles | MicrosoftDocs"
+description: "Learn how to use the different search options to search for knowledge articles as an agent and share them with customers in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Search and share knowledge articles
@@ -110,3 +109,6 @@ When you interact with a customer in the conversation control, you can use the *
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)  
 [View customer summary](oc-customer-summary.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

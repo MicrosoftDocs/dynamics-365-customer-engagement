@@ -1,12 +1,11 @@
 ---
 title: "Create agent application using Unified Service Desk | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -49,3 +48,6 @@ tags: NoHandoff
 ## Reference
 
  [Unified Service Desk Team Blog](https://blogs.msdn.com/b/usd/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

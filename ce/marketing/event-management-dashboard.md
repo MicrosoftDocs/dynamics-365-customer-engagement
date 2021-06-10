@@ -27,3 +27,6 @@ You can see the event-management dashboard on any dashboard page in any area of 
 ### See also
 
 [Organize your work](organize-daily-work.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

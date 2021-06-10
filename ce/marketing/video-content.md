@@ -60,3 +60,6 @@ To add a video from your video library to the design of a marketing email or mar
 2. Drag a video element from the **Toolbox** panel to the appropriate location in your design.
 3. Select the new video element, open the **Properties** panel and use the **Source** lookup field to find and select the video from your library that you want to include here.
 4. Continue working with your design and eventually go live when you are ready to start using it.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

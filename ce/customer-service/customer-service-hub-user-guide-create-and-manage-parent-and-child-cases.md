@@ -1,14 +1,11 @@
 ---
 title: Create and manage parent and child cases in Customer Service Hub | Microsoft Docs
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
+ms.date: 04/28/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/28/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 # Create and manage parent and child cases
 
@@ -59,3 +58,6 @@ You can set a parent-child relationship between cases where you can set one case
 
 [Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

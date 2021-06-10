@@ -97,3 +97,6 @@ You can control which of your managed solution components are customizable by us
  [Maintain Managed Solutions](maintain-managed-solutions.md)   
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  <xref:Microsoft.Crm.Sdk.Messages.IsComponentCustomizableRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

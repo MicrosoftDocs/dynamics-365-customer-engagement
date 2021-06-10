@@ -64,3 +64,5 @@ Here is an example of an SPF TXT record, along with definitions of the parameter
 ### See also
 
 [Best practices for email marketing](get-ready-email-marketing.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

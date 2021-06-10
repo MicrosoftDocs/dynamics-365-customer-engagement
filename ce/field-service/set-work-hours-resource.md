@@ -1,23 +1,22 @@
 ---
 title: Set work hours for a resource (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to set work hours for a resource in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
 ---
 
 # Set work hours for a resource (Customer Service)
@@ -25,7 +24,7 @@ ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
 You can set the hours a user works or set the operating hours for a facility or equipment. By default, users, facilities, and equipment are set up for a 7-days-a-week, 24-hour schedule. 
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
  You can edit existing work hours by following steps 1 and 2 to go to the Users or Facilities/Equipment area. Then, open the resource you want to edit. Editing a schedule does not affect existing service activities created for the resource.  
   
@@ -206,3 +205,6 @@ You can set the hours a user works or set the operating hours for a facility or 
  [Set the capacity required for a service or resource](../field-service/set-capacity-required-service-resource.md)   
  [Set when your business is closed](../field-service/set-when-business-closed.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

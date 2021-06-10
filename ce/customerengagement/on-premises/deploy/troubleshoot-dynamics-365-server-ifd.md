@@ -100,3 +100,6 @@ manager: kvivek
 ## See Also  
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

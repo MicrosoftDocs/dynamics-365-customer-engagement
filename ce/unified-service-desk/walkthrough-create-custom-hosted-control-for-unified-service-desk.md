@@ -1,20 +1,19 @@
 ---
 title: "Walkthrough  Create custom hosted control for Unified Service Desk | MicrosoftDocs"
 description: "Learn about how to create a custom hosted control for Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough: Create custom hosted control for Unified Service Desk
 
@@ -185,3 +184,6 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Use custom hosted control in Unified Service Desk](../unified-service-desk/use-custom-hosted-control-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

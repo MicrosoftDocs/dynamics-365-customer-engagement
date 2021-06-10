@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel engagement hub for system customizers | MicrosoftDocs"
 description: 
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Omnichannel system customizers
 
@@ -23,3 +22,5 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [Customize Customer summary form](customize-customer-summary.md)
 - [Customize the session form](customize-session-form.md)
 - [Customize quick view forms](customize-quick-view-form.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

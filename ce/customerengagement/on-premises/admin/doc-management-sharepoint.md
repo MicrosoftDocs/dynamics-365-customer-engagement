@@ -1,5 +1,6 @@
 ---
 title: "Document management with SharePoint | Microsoft Docs"
+description: "Dynamics 365 for Customer Engagement apps document management with SharePoint lets users manage common document type."
 ms.custom: ""
 ms.date: "05/29/2019"
 ms.prod: "crm-2016"
@@ -37,3 +38,6 @@ Depending on your environment, there are several Dynamics 365 for Customer Engag
 
 Administrators set up document management, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

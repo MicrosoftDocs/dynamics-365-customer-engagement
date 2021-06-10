@@ -1,20 +1,19 @@
 ---
 title: "Replacement parameters in Unified Service Desk | MicrosoftDocs"
 description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Replacement parameters in Unified Service Desk
 
@@ -175,3 +174,6 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)   
  
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

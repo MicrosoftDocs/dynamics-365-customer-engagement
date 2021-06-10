@@ -163,3 +163,6 @@ Use the buttons in the left column of the **Preview** tab to see how your design
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

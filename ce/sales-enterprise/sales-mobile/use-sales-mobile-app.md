@@ -1,17 +1,14 @@
-﻿---
+---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 11/30/2020
+ms.date: 05/03/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
 
 # Use the Dynamics 365 Sales mobile app
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use the Dynamics 365 Sales mobile app to plan your day by seeing what it has in store such as upcoming meetings and insights. You can also take post-meeting actions such as adding notes, creating contacts, and updating data in relevant records.
 
@@ -59,3 +56,6 @@ The home page is displayed as shown in the following example screen:
 ### See also
 
 [Learn the basics](learn-basics-mobile-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

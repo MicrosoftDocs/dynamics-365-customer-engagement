@@ -50,3 +50,6 @@ If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for
   
   <sup>1</sup>The default folder name is **Program Files** or **Program Files (x86)**.  
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "View conversation and session form in model-driven apps apps | MicrosoftDocs"
 description: "Learn about the omnichannel conversations and session forms that users (agents and supervisors) who are not part of can Omnichannel for Customer Service can under the Activities in model-driven apps apps."
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View omnichannel conversations and omnichannel session in model-driven apps
@@ -53,3 +52,6 @@ The omnichannel session displays information about a conversation request.
 ## See also
 
 - [View customer summary and know everything about customers](customer-summary.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1274,3 +1274,5 @@ See businessunit Entity [BusinessUnit_ImportFiles](businessunit.md#BKMK_Business
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.importfile?text=importfile EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

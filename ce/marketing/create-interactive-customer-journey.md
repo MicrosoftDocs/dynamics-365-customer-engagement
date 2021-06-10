@@ -103,3 +103,6 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Working with segments](segmentation-lists-subscriptions.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

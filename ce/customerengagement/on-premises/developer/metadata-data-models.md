@@ -60,3 +60,6 @@ Dynamics 365 Customer Engagement (on-premises) uses a metadata driven architectu
  [Extend Dynamics 365 for Outlook](extend-customer-engagement-outlook.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

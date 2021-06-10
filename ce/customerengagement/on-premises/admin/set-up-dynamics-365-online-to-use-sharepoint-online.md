@@ -1,5 +1,6 @@
 ---
 title: "Set up Dynamics 365 for Customer Engagement apps to use SharePoint Online | MicrosoftDocs"
+description: "Set up Dynamics 365 for Customer Engagement to use SharePoint Online."
 ms.custom: 
 ms.date: 06/10/2019
 ms.reviewer: 
@@ -14,12 +15,14 @@ ms.assetid: c0219d78-f2e2-4fdd-9d54-2d7e1468fc0c
 caps.latest.revision: 11
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Set up Dynamics 365 for Customer Engagement to use SharePoint Online
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, you can:  
   
@@ -106,7 +109,7 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
 ### Next steps  
 Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you will need to enable the entities you want available for document management integration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable document management on entities](enable-sharepoint-document-management-specific-entities.md)    
 
-Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you can also enable integration with OneNote and OneDrive. More information: [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md). 
+Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you can also enable integration with OneNote and OneDrive. More information: [Set up OneNote integration](../basics/collaborate-with-team.md). 
 
 <a name="BKMK_UsingDocManage"></a>   
 
@@ -139,7 +142,7 @@ Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short
  
 ## Known issue
 
-SharePoint Online has introduced a new feature that enables a SharePoint or global administrator in Office 365 to block or limit access to SharePoint and OneDrive content from unmanaged devices. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices).
+SharePoint Online has introduced a new feature that enables a SharePoint or global administrator in Office 365 to block or limit access to SharePoint and OneDrive content from unmanaged devices. For more information, see [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices).
 
 You can set access at three levels:
 1. Allow full access  from desktop apps, mobile apps and the web
@@ -181,3 +184,6 @@ As a workaround, you can set the unmanaged devices policy to “Allow full acces
  [Manage your documents using SharePoint](manage-documents-using-sharepoint.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Monitor real-time customer sentiment | MicrosoftDocs"
 description: "Learn how to monitor real-time customer sentiment while interacting with customers."
+ms.date: 07/01/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Monitor real-time customer sentiment
@@ -75,3 +74,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to a conversation](oc-take-notes.md)  
 [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

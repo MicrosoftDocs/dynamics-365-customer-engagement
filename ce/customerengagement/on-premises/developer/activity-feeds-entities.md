@@ -85,3 +85,6 @@ The *activity feeds* help promote internal collaboration through quick and short
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Customer Entities (Account, Contact)](customer-entities-account-contact.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

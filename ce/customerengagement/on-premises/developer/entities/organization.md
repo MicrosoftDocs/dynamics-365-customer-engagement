@@ -9339,3 +9339,5 @@ See template Entity [Template_Organization](template.md#BKMK_Template_Organizati
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.organization?text=organization EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,11 +1,10 @@
 ---
 title: "lcw closeChat | MicrosoftDocs"
 description: lcw closeChat (Omnichannel for Customer Service JavaScript API reference)
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # lcw:closeChat (Omnichannel for Customer Service JavaScript API reference)
 
@@ -26,3 +25,6 @@ window.addEventListener("lcw:closeChat", function handleLivechatClosedEvent(){
 [lcw:ready](lcw-ready.md)<br />
 [lcw:error](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

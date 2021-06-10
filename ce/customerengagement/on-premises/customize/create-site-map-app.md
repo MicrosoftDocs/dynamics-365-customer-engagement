@@ -1,5 +1,5 @@
 ---
-title: "Create a site map for an app in Power Apps | MicrosoftDocs"
+title: "Create a site map for an app with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to create a site map for you app"
 keywords: 
 ms.date: 11/28/2018
@@ -231,3 +231,6 @@ Verify the following prerequisites before you start creating the site map:
 ### See also  
  [Create or edit an app](../customize/create-edit-app.md)   
  [Add or edit app components](../customize/add-edit-app-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

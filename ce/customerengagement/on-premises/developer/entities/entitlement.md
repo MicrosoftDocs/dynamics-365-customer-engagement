@@ -1967,3 +1967,5 @@ See product Entity [product_entitlement_association](product.md#BKMK_product_ent
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.entitlement?text=entitlement EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Find dozens of add-ins on the [Field Service AppSource page](https://appsource.m
 - Serialized inventory
 - Intelligent service
 - Enhanced maps
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "Error accessing URL | Microsoft Docs"
+description: Environment diagnostics warning that there was an error accessing the specified URL.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  Make sure that you can connect to the website by using the specified URL. For example, enter the URL into a web browser to verify that you can connect. You must resolve any issues that may be preventing the connection and then try again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -166,3 +166,6 @@ The new sort option
 ## July 2017
 
 The July 2017 update for Universal Resource Scheduling was the initial release for extensible queries, custom filter layouts, and resource cell template
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

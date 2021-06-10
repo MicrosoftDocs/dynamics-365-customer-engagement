@@ -46,3 +46,6 @@ search.audienceType:
  [SavedQuery Entity](entities/savedquery.md)<br />
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

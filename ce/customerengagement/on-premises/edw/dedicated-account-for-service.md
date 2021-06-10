@@ -1,5 +1,7 @@
 ---
 title: "We recommend a dedicated domain user account for this Microsoft Dynamics 365 for Customer Engagement service | Microsoft Docs"
+description: Environment diagnostics warning that a dedicated domain user account is recommended as the service identity.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -20,5 +22,8 @@ ms.author: matp
   
  ## Solution
   
- This is a warning and Setup can continue. However, for a more secure deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], we recommend that you specify a separate least-privileged user account for each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](https://go.microsoft.com/fwlink/p/?LinkID=306136).
+ This is a warning and Setup can continue. However, for a more secure deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], we recommend that you specify a separate least-privileged user account for each [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup and services](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699825(v=crm.8)).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -111,3 +111,5 @@ More information: [Analyze results to gain insights from your marketing activiti
 <dt><strong>Website visited</strong></dt>
 <dd>Dynamics 365 Marketing records a website visit each time somebody loads a page that includes a website tracking script created using Dynamics 365 Marketing. This includes both marketing pages hosted on a Power Apps portal and external pages that host a form or tracking script created with Dynamics 365 Marketing. The feature uses a cookie to uniquely identify each web browser that visits a site, but each visitor is anonymous until he or she submits a marketing page with form values that match an existing contact or create a new one. If a known contact switches to a new device, a new browser, or to private-browsing mode, website visits will again be recorded as anonymous until that contact submits a marketing page using that device/browser combination.</dd>
 </dl>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

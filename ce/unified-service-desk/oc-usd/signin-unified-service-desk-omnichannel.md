@@ -1,12 +1,11 @@
 ---
 title: "Sign in to Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to sign in to Omnichannel for Customer Service through Unified Service Desk client application."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Sign in to Unified Service Desk – Omnichannel for Customer Service
@@ -45,3 +44,6 @@ You signed in to Unified Service Desk - Omnichannel for Customer Service applica
 
 - [Omnichannel for agents](omnichannel-agent.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

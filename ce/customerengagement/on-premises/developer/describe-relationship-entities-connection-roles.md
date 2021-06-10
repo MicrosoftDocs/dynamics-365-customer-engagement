@@ -71,3 +71,6 @@ You can describe the relationship between records through the roles that you ass
  [Sample Code for Connection Entities](sample-code-connection-entities.md)   
  [Sample: Create Reciprocal Connection Role (Early Bound)](sample-create-reciprocal-connection-role-early-bound.md)   
  [Connection Entity](entities/connection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

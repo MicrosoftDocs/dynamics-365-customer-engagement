@@ -1,12 +1,11 @@
 ---
 title: "Delete Omnichannel solutions | MicrosoftDocs"
 description: "Learn how to delete an Omnichannel solution from an organization."
+ms.date: 04/20/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/08/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Delete solutions
@@ -23,9 +22,9 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
 
 2. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 
-3.	Go to Dynamics 365 **Settings** > **Solutions**.
+3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-2.	On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
+4. On the **Solutions** page, select each solution from the list below, one at a time, in sequence, and then select **Delete**.
 
     1.  `ProductivityToolsAnchor`
     2.  `msdyn_OmnichannelProductivityToolsSettings`
@@ -63,8 +62,11 @@ When you remove Omnichannel for Customer Service from your organization, the Omn
     34. `ScenariosAndChannels`
     35. `msdyn_CIFrameworkPatch`
     36. `ChannelAPIIntegrationFramework`
+    37. `OmnichannelIntelligence` 
+    38. `OmnichannelConfiguration`
+    39. `msdyn_MacrosDataOmnichannel`
 
-3.	A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
+5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
 After all the solutions are deleted, Omnichannel for Customer Service solutions are completely deleted from your organization.
 
@@ -108,3 +110,6 @@ The following steps describe how to delete the solution from your organization.
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Omnichannel for Customer Service on Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)  
 [Deploy Unified Service Desk - Omnichannel for Customer Service package](../unified-service-desk/oc-usd/omnichannel-customer-service-package.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

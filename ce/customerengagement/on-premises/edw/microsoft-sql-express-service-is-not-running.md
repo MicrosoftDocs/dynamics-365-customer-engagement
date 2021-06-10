@@ -1,5 +1,7 @@
 ---
 title: "Microsoft SQL Express service is not running | Microsoft Docs"
+description: Environment diagnostics warning that the SQL Express service isn't running.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  Setup will try to start the service. To verify, click **Back** to restart the check. If [!INCLUDE[pn_Setup](../includes/pn-setup.md)] cannot start the service, in the Windows **Run** box, type `services.msc`, and try to start [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] (Express instance) manually.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

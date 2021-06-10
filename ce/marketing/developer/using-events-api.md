@@ -85,3 +85,6 @@ To use the Events API, you need to provide a web application token in each reque
 [Customize the response from Events API](customize-events-api-response.md)<br />
 [Metadata reference for your organization](marketing-organization-metadata.md)<br />
 [Entity reference](marketing-entity-reference.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

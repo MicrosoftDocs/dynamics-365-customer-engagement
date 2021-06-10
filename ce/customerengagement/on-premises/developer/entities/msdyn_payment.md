@@ -1426,3 +1426,5 @@ See msdyn_workorder Entity [msdyn_msdyn_workorder_msdyn_payment_WorkOrder](msdyn
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_payment?text=msdyn_payment EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

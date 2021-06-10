@@ -1,12 +1,11 @@
 ---
 title: "Live chat widget telemetry| Microsoft Docs"
 description: ""
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 05/15/2020
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Live chat widget telemetry
 
@@ -36,3 +35,6 @@ data-enable-telemetry = "false"
 ### See also
 
 [Customize a chat widget](customize-chat-widget.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

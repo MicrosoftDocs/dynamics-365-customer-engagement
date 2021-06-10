@@ -1,12 +1,11 @@
 ---
 title: "Create Omnichannel Alert Notification-related action calls | MicrosoftDocs"
 description: "Learn how to create Omnichannel Alert Notification-related action calls that can be used to show notifications in Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 3: Create Omnichannel Alert Notification related-action calls
@@ -244,3 +243,6 @@ This topic describes how to create Omnichannel Alert Notification-related action
 - [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
 - [Step 5: Add the hosted control, events, and action calls to configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

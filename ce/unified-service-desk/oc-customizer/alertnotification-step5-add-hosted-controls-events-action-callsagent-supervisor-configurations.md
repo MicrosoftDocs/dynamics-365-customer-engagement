@@ -1,12 +1,11 @@
 ---
-title: "Add the hosted control, events,forms, and action calls to configurations | MicrosoftDocs"
-description: "Learn how to add the hosted control, events, forms, and action calls to the agent and supervisor configurations in Omnichannel for Customer Service - Unified Service Desk."
+title: "Add hosted control, events, forms, action calls | MicrosoftDocs"
+description: "Learn how to add a hosted control, events, forms, and action calls to use Omnichannel for Customer Service in Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 5: Add the hosted control, events, forms and action calls to configurations
@@ -15,7 +14,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Prerequisites 
+## Prerequisites
 
 - You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
@@ -72,3 +71,6 @@ monikerRange: '>= dynamics-usd-4.1'
 - [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
 - [Step 3: Create Omnichannel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md)
 - [Step 4: Add Omnichannel Alert Notification-related action calls to events](alertnotification-step4-add-action-calls-events.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

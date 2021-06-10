@@ -1,5 +1,5 @@
 ---
-titie: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT DYNAMICS 365 FOR iOS
+title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT DYNAMICS 365 FOR iOS
 author: ReneeW-CPub
 ---
 
@@ -190,3 +190,4 @@ incidental, consequential, or other damages.**
 **15. CONTACT INFORMATION.** If you have questions, complaints or claims with
 respect to the software, please contact the Microsoft affiliate serving your
 country (see <https://aka.ms/msoffices>).
+

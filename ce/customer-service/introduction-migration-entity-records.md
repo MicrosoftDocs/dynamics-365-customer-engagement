@@ -1,14 +1,11 @@
 ---
 title: "Introduction to migration of entity records (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
+ms.date: 10/11/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/11/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Introduction to migration of legacy Service scheduling data
@@ -58,3 +57,6 @@ After successful installation, you can access scheduling in the Customer Service
 [Plan your migration](plan-migration.md)
 
 [Migrate entity records](migrate-entity-records.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

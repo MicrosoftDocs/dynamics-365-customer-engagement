@@ -216,9 +216,9 @@ In addition to the default entity color, you can also customize a calendar to en
 
 To set up record-level custom colors using a free text field:
 
-1. [Add a custom field](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields) to the entity where you want to enable for record-level custom colors. This is the target entity (such as Event) to be displayed by the calendar you are customizing. This field will hold the custom color value assigned to each record, so give it name such as "Calendar color". The field must be of type **Single line of text**.
+1. [Add a custom field](/powerapps/maker/common-data-service/create-edit-fields) to the entity where you want to enable for record-level custom colors. This is the target entity (such as Event) to be displayed by the calendar you are customizing. This field will hold the custom color value assigned to each record, so give it name such as "Calendar color". The field must be of type **Single line of text**.
 
-1. [Customize the quick-create form of the target entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-quick-create-forms) to include the new color field. This will enable users to choose a color while they create a record from the calendar. Be sure to use the same quick-create form that you have [configured for use with your calendar](#config-calendar). You might also consider adding the color field to other forms where users may want to view or edit it (possibly including the main form).
+1. [Customize the quick-create form of the target entity](/powerapps/maker/model-driven-apps/create-edit-quick-create-forms) to include the new color field. This will enable users to choose a color while they create a record from the calendar. Be sure to use the same quick-create form that you have [configured for use with your calendar](#config-calendar). You might also consider adding the color field to other forms where users may want to view or edit it (possibly including the main form).
 
 1. [Configure your calendar](#config-calendar) to identify the color field for the target entity.
 
@@ -235,7 +235,7 @@ To set up record-level custom colors using an option set:
 
 1. Choose an **option set** field from the entity under which you would like to change the color of the record. This is the target entity (such as an event) that will display by the calender you are customizing.
 
-1. [Ensure that the option set for the field has the colors you like for the options](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-global-option-sets-solution-explorer#create-a-global-option-set). These colors will be displayed for the record on the calendar when that option is set for the field.
+1. [Ensure that the option set for the field has the colors you like for the options](/powerapps/maker/common-data-service/create-edit-global-option-sets-solution-explorer#create-a-global-option-set). These colors will be displayed for the record on the calendar when that option is set for the field.
 
 Users can choose any of the available HTML standards when entering color values, including:
 
@@ -247,3 +247,5 @@ Users can choose any of the available HTML standards when entering color values,
 1. [Configure your calendar](#config-calendar) to identify the color field for the target entity.
 
 1. Publish your customizations.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

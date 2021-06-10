@@ -1,11 +1,11 @@
 ---
 title: "closeChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 07/09/2020
 ms.topic: article
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # closeChat
 
@@ -42,3 +42,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [startChat](startChat.md)<br />
 [setContextProvider](setContextProvider.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

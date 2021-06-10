@@ -1,12 +1,11 @@
 ---
-title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
+title: "FAQs about Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about the frequently asked questions (FAQs) on the different features in Omnichannel for Customer Service and their requirements."
+ms.date: 05/24/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
@@ -47,13 +46,13 @@ No, Chat and related Omnichannel for Customer Service capabilities require a sep
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](try-channels.md). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
 
 ## Agent experiences
 
-### Can I use Chat for Dynamics 365 in the Customer Service Hub app module or any custom app module?
+### In which apps can I use Chat for Dynamics 365?
 
-No. You can only use Chat in the **Omnichannel for Customer Service** app. The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md).
+You can use Chat in the Omnichannel for Customer Service and Customer Service Workspace apps.
 
 ### Can I work on cases along with chats?
 
@@ -61,7 +60,7 @@ Yes. You can work on cases alongside customer conversations in different session
 
 ### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
 
-Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
+Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels is available in [Dynamics 365 Channel Integration Framework v2](channel-integration-framework/overview-channel-integration-framework.md).
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows?
 
@@ -79,29 +78,24 @@ No. You can consult with any available agent in the queue from which the chat or
 
 ### Can an agent who receives a consult also initiate a consult or transfer?
 
-No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent will become primary and can initiate further transfers or consults.
+No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent becomes the primary agent and can initiate further transfers or consults.
 
-### Why are my agents not receiving any new chats?
+### Why are my agents not receiving any new conversations?
 
-New conversation (chat) requests will be assigned to an agent when:
+New conversation requests are assigned to an agent when:
 
-- There is a new incoming chat request.
-- The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and work stream for an incoming chat in the Omnichannel Conversation Dashboard.
-- The agent present is set to an **Allowed Presence** for the workstream.
+- A new chat request comes in.
+- The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and workstream for an incoming chat in the Omnichannel Conversation Dashboard.
+- The agent presence is set to an **Allowed Presence** for the workstream.
 - The agent has capacity to receive the incoming chat from the workstream. Remaining capacity can be checked by tallying up the items assigned on the agent’s dashboard – including **Active** and **Wrap-up** – against the agent’s configured maximum capacity.
-
-If more than one agent meets the above conditions, they will be assigned chats in this order:
-
--	The agent with the most remaining capacity will receive the chat first.
--	If multiple agents have the same remaining capacity, the agent who has not been assigned work item for a longer duration will receive the new conversation request.
 
 ### Who can see internal messages?
 
-Agents and supervisors can see internal messages. The customer can’t see internal messages.
+Only agents and supervisors can see internal messages.
 
 ### What does the timer in the communication panel represent?
 
-The timer in the communication panel represents how long the current session tab has been open. If the chat has moved into a wrap state, the timer will reset and increment accordingly to show the wrap time. If the conversation is closed and reopened later, the timer will reset.
+The timer in the communication panel represents how long the current session tab has been open. If the chat has moved into a wrap-up state, the timer is reset and incremented accordingly to show the wrap-up time. If the conversation is closed and reopened later, the timer is reset.
 
 ### How do I open chats on my dashboard?
 
@@ -109,7 +103,7 @@ For information about managing work items from your dashboard, see [View agent d
 
 ### Where are conversations stored and how can I access them?
 
-Conversations and sessions are stored as activity types within the Model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
+Conversations and sessions are stored as activity types within the model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
 
 ## Administration
 
@@ -133,9 +127,9 @@ The Omnichannel for Customer Service app can be customized to include custom das
 
 This is currently not supported. Enabling customizations for the Conversation Summary Form is on our roadmap. 
 
-### Why am I not able to see the IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
+### Why am I not able to see the Intraday Monitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-the-omnichannel-for-customer-service-app-on-the-web).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
 
 ### What is the application ID field on the application user form?
 
@@ -202,19 +196,19 @@ The same widget will persist the chat as you cross different pages or websites.
 
 Yes, you can create custom context variables and create routing rules based on them. For more information, see the following:
 
-- [Understand and create workstreams](work-streams-introduction.md)
-- [Create and manage routing rules](/routing-rules.md)
+- [Understand and create workstreams](create-workstreams.md)
+- [Configure assignment methods for queues](assignment-methods.md)
 - [Manage custom context](send-context-starting-chat.md)
 
 ### Can Omnichannel routing be used for other external channels (for example, my phone calls)?
 
-No. Omnichannel routing can be used to route chat or SMS requests (in preview) only.
+No. Omnichannel routing can be used to route chat or SMS requests only.
 
 ## SMS
 
-### What information from a TeleSign account do I need to enter in the Omnichannel Administrator app?
+### What information from a TeleSign account do I need to enter while configuring the channel?
 
-You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel Administrator app when you create or set up an SMS workstream.
+You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in the Omnichannel admin center app when you create or set up an SMS workstream.
 
 ### I get an error when I try to use the Validate API Key to validate the TeleSign account information entered in the Omnichannel Administration app. What should I do?
 
@@ -253,3 +247,6 @@ All channels integrated into Omnichannel have the same routing capabilities, inc
 ### Can a third-party bot be integrated with Omnichannel through this feature?
 
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,7 +23,7 @@ search.app:
   - D365Sales
 ---
 
-# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps.
+# Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps
 
 
 Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run Dynamics 365 Customer Engagement (on-premises) apps when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. 
@@ -31,15 +31,15 @@ Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run D
 
 > [!NOTE]
 > There are separate mobile apps for:
->   - Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing): [Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/user-guide-mobile-app)
->   - Power Apps mobile: [Run model-driven apps and canvas apps on Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile)
->   - Dynamics 365 Field Service: [Field Service mobile app](https://go.microsoft.com/fwlink/?linkid=846157)
->   - Finance and Operations applications: [Finance and Operations mobile app](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
+>   - Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing): [Dynamics 365 for phones and tablets](../../../mobile-app/user-guide-mobile-app.md)
+>   - Power Apps mobile: [Run model-driven apps and canvas apps on Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile)
+>   - Dynamics 365 Field Service: [Field Service mobile app](../../../field-service/field-service-mobile-app-user-guide.md)
+>   - Finance and Operations applications: [Finance and Operations mobile app](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
 
 
     
 ## Install the app from your device’s app store  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)    
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../../../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
 
 ## Sign in 
 
@@ -304,3 +304,6 @@ The assistant draws your attention to your most important items and tasks, drawn
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

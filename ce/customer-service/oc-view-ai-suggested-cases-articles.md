@@ -1,12 +1,11 @@
 ---
 title: "View smart assist suggestions for knowledge articles and similar cases using AI | MicrosoftDocs"
 description: "View smart assist suggestions for knowledge articles and similar cases using AI."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # View smart assist suggestions for knowledge articles and similar cases using AI
@@ -71,3 +70,6 @@ If no cases match, then the card displays an appropriate message, such as "No su
 
 [Enable AI-suggested cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Smart assist suggestions using bot user](oc-smart-assist.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

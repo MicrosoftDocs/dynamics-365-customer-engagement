@@ -1,14 +1,11 @@
 ---
 title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create or edit a service (Customer Service app)
@@ -91,3 +90,6 @@ A service requires at least one selection rule and one or more resources, resour
  [Create or edit a selection rule](create-simple-selection-rule.md)   
  [Create or change a resource group](create-edit-resource-group.md)   
  [Set work hours for a resource](set-work-hours-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -161,9 +161,9 @@ Example JavaScript function definition. The following JavaScript code is the onl
     function Validate(ctx) {
       var url = Xrm.Page.context.getClientUrl();
       var ruleResult = {
-  	IsValid = false;
-       Message = '';
-       Type = 'error';
+  	IsValid = false,
+       Message = '',
+       Type = 'error'
       };
 
       //
@@ -187,7 +187,8 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
     /// <reference path="xrm.d.ts" />
     function brErrorCallback(sb) {
     // Add custom error handeling here if desired.
-     return:
+     return;
+    }
     function brWarningCallback(sb) {
     // Add custom warning handeling here if desired.
     return;
@@ -323,4 +324,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
 ### See also    
  [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
  [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
- [Create and edit web resources](../customize/create-edit-web-resources.md)
+ [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

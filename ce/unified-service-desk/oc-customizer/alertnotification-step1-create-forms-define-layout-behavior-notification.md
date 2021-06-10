@@ -1,12 +1,11 @@
 ---
 title: "Create forms to define the layout and behavior of the notification | MicrosoftDocs"
 description: "Learn how to create forms to define layout and behavior of the alert notification in Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 1: Create forms to define the layout and behavior of the notification
@@ -1809,3 +1808,6 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 - [Step 4: Attach Omnichannel Alert Notification-related to the events](alertnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

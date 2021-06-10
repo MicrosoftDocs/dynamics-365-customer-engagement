@@ -1,20 +1,19 @@
 ---
 title: "Post-migration steps | MicrosoftDocs"
 description: "Test migration of web client configurations to the Unified Interface app."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Post-migration steps
@@ -589,3 +588,6 @@ After you make these updates, when you sign in to the Unified Service Desk clien
 [Create custom panel layout](../create-custom-panel-layout.md)  
 [Customize themes in Unified Service Desk](../customize-themes-in-unified-service-desk.md)  
 [Configure toolbars in your application](../configure-toolbars-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

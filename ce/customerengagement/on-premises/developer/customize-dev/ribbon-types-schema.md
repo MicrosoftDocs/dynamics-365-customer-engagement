@@ -866,3 +866,6 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
  [Ribbon WSS Schema](ribbon-wss-schema.md)   
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)   
  [Customization XML Reference](../customization-xml-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

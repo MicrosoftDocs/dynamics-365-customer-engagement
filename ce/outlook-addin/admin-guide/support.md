@@ -63,3 +63,6 @@ Subsequently, you should filter out **Owning User (User)**, if it contains data 
 
 ### See Also  
  [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

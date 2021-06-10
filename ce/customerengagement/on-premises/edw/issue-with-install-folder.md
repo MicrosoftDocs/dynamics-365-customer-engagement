@@ -1,5 +1,7 @@
 ---
 title: "Setup detected an issue with the install folder specified | Microsoft Docs"
+description: Environment diagnostics warning that Setup detected issues with the specified install folder.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -38,3 +40,6 @@ ms.author: matp
   
 -   If you enter a valid, absolute path, have sufficient permissions to the install folder, and this problem continues, remove all the files that are in the install folder.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

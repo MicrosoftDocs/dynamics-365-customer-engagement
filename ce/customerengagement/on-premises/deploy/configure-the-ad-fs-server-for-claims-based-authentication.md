@@ -162,8 +162,11 @@ Grant-AdfsApplicationPermission -ClientRoleIdentifier "<ClientRoleIdentifier>" -
   
 2.  ServerroleIdentified :  the Identifier of your relying party. For example: https://adventureworkscycle3.crm.crmifd.com/  
   
- For more information, see [Grant-AdfsApplicationPermission](https://technet.microsoft.com/itpro/powershell/windows/adfs/grant-adfsapplicationpermission).  
+ For more information, see [Grant-AdfsApplicationPermission](/powershell/module/adfs/grant-adfsapplicationpermission).  
   
 ## See Also  
  [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

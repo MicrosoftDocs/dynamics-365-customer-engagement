@@ -1,7 +1,7 @@
 ---
 title: "Run Dynamics 365 Marketing with a Dynamics 365 Portal and/or CMS system (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how you can run interactive marketing features for Dynamics 365 Marketing by using an integrated Dynamics 365 Portal or by using your own website or CMS system."
-ms.date: 01/22/2021
+ms.date: 02/18/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -29,7 +29,7 @@ Read this topic to learn how you can run interactive marketing features for Dyna
 
 Power Apps portals is a replacement product for Dynamics 365 Portals. Both products will continue to be supported, but soon (or possibly already) only Power Apps portals will be available for new customers. Both products work on the same basic technical foundation and work in the same way from the perspective of Dynamics 365 Marketing. However, Power Apps portals provide additional features for users (which don't affect Dynamics 365 Marketing) and are licensed according to consumption (logins and page loads) rather than per instance.
 
-For details about portal licensing, see the [Power Apps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
+For details about portal licensing, see the [Power Apps and Flow licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
 
 Beyond these few differences, Dynamics 365 Portals and Power Apps portals work exactly the same from the perspective of Dynamics 365 Marketing, so you can consider these two terms to be interchangeable for the remainder of this topic and elsewhere in the Dynamics 365 Marketing documentation.
 
@@ -60,7 +60,7 @@ The following table compares how each of the public-facing interactive features 
 
 Each time you install Dynamics 365 Marketing, you must choose whether to integrate it with a portal.
 
-If you choose to enable portals integration when installing Dynamics 365 Marketing, the setup wizard will automatically check whether you have an unconfigured Power Apps portals license available. If you do, then the setup wizard will claim that license and integrate with it. If you don't have any Power Apps portals licenses available, then the setup wizard will create a trial Power Apps Portals instance for you and integrate with that. The trial is free, but expires in 30 days, after which you must either begin paying for it or stop using it. For details about portal licensing, see the [Power Apps and Flow licensing FAQ](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
+If you choose to enable portals integration when installing Dynamics 365 Marketing, the setup wizard will automatically check whether you have an unconfigured Power Apps portals license available. If you do, then the setup wizard will claim that license and integrate with it. If you don't have any Power Apps portals licenses available, then the setup wizard will create a trial Power Apps Portals instance for you and integrate with that. The trial is free, but expires in 30 days, after which you must either begin paying for it or stop using it. For details about portal licensing, see the [Power Apps and Flow licensing FAQ](/power-platform/admin/powerapps-flow-licensing-faq#can-you-share-more-details-regarding-the-new-powerapps-portals-licensing).
 
 If you choose the non-portals option, then the setup wizard won't attempt to claim a Dynamics 365 Portal or set up a demo Power Apps portal.
 
@@ -68,17 +68,17 @@ You can use portal features in parallel with website/CMS features provided you h
 
 > [!NOTE]
 > If have integrated Power Apps portals with your Dynamics 365 Marketing instance and the portal suddenly stops working or disappear, the portal trial license may have expired. To determine whether this is the case: 
-> 1. Navigate to the [Power Apps portals admin center](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview).
-> 2. Go to the [Portal Details](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application) section and check if the portals license is in an expired state.
+> 1. Navigate to the [Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview).
+> 2. Go to the [Portal Details](/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application) section and check if the portals license is in an expired state.
 >
-> If the portals integration is expired, you will need to [purchase a paid license](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application). You will then need to [reset the portals integration](uninstall-marketing.md#reset-any-power-apps-portals-connected-to-the-uninstalled-marketing-app) on the Marketing instance and re-provision.
+> If the portals integration is expired, you will need to [purchase a paid license](/powerapps/maker/portals/admin/admin-overview#add-yourself-as-an-owner-of-the-azure-ad-application). You will then need to [reset the portals integration](uninstall-marketing.md#reset-any-power-apps-portals-connected-to-the-uninstalled-marketing-app) on the Marketing instance and re-provision.
 
 ## Remove portal integration from an existing Marketing instance
 
 You can choose to remove portal integration from a Dynamics 365 Marketing instance at any time. If you choose to do so, the following will occur:
 
 - Your portal license will be released and can then be reused with another Marketing instance, or another Dynamics 365 app.
-- All of the existing portal content and settings will be permanently deleted.
+- The portal will be [reset](/powerapps/maker/portals/admin/reset-portal) during the removal process.
 - All existing marketing pages in Dynamics 365 Marketing will still be configured to be published on the now removed portal, so they will cease to function. However, their design and content will still be stored in Dynamics 365 Marketing. If you re-add a portal, the pages will be reconfigured to use the new portal and you'll be able to publish them there.
 - The event website will be removed. All events will still provide a link to the old website, so that link will no longer function. If you install the event website on your own server, it will work correctly right away (you won't have to update your event records), but if you want the links in your event records to open the new site, you must edit each record manually.
 
@@ -97,7 +97,7 @@ To remove portal integration from an existing Marketing instance:
 
     ![Select Portal Actions](media/portal-reset.png "Select Portal Actions")
 
-1. Select **Reset portal** and follow the instructions on your screen to reset the portal. More information: [Reset a portal](../portals/reset-portal.md).
+1. Select **Reset portal** and follow the instructions on your screen to reset the portal. More information: [Reset a portal](/powerapps/maker/portals/admin/reset-portal).
 
     > [!WARNING]
     > When you reset the portal, all of the existing portal content and settings will be permanently deleted.
@@ -142,3 +142,5 @@ To add a portal to an existing Marketing installation that doesn't have one:
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Set up the event website](set-up-event-portal.md)  
 [Build and host a custom event website](developer/event-management-web-application.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

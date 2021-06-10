@@ -60,3 +60,6 @@ When multiple developers have to work on the same solution, you may want to crea
  [Planning for Solution Development](plan-solution-development.md)   
  [Modularize your Solutions](organize-solutions.md)   
  [White Paper: Deploying Dynamics 365 Customer Engagement (on-premises) Solutions from Development through Test and Production Environments](https://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27824)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

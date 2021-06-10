@@ -1,20 +1,19 @@
 ---
 title: "Action calls | MicrosoftDocs"
 description: "Learn about actions that represents a call to a UII action associated with a hosted control. Action calls are used to pass parameters required to execute the underlying UII action in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Action calls
 An action call represents a call to a UII action associated with a hosted control. Action calls are used to pass parameters required to execute the underlying UII action in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
@@ -38,3 +37,6 @@ An action call represents a call to a UII action associated with a hosted contro
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1062,3 +1062,5 @@ See discounttype Entity [discount_type_product_price_levels](discounttype.md#BKM
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.productpricelevel?text=productpricelevel EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

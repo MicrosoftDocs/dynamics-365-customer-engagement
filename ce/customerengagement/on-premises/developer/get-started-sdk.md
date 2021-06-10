@@ -4,7 +4,7 @@ description: "This topic contains information about some specific key tasks and 
 ms.custom: 
 ms.date: 3/29/2019
 ms.reviewer: pehecke
-ms.service:
+ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,7 +30,7 @@ The Microsoft Dynamics 365 Customer Engagement (on-premises) Web Services provid
 
 ## Try out
 
- You can download the on-premises setup from [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2025342). During setup, you have the option to supply a commercial key or you can use one of the product keys listed on the download page for a 90 day free trial. More information about installing the on-premises version: [Microsoft Dynamics 365 Server installation](https://docs.microsoft.com/dynamics365/customer-engagement/on-premises/microsoft-dynamics-365-server-installation).
+ You can download the on-premises setup from [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2025342). During setup, you have the option to supply a commercial key or you can use one of the product keys listed on the download page for a 90 day free trial. More information about installing the on-premises version: [Microsoft Dynamics 365 Server installation](/dynamics365/customer-engagement/on-premises/microsoft-dynamics-365-server-installation).
 
  If you have an [MSDN subscription](https://msdn.microsoft.com/subscriptions), you can download [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] server software and access static activation keys that can be used for any number of installations.
 
@@ -71,7 +71,7 @@ The Microsoft Dynamics 365 Customer Engagement (on-premises) Web Services provid
 
  Form scripts provide a way to automate business processes, ensure data entered is valid, or just improve people’s experience when working in forms. Form scripts are written in [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and are added to Dynamics 365 Customer Engagement (on-premises) as *web resources*. You can learn more about how to create web resources in the application at [Create and edit web resources](../customize/create-edit-web-resources.md). For more detailed information, see [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md).
 
- Form scripts respond to events in the form. You can configure event handlers for many form events in the application using the form editor. To learn how to do that see [Use the form editor : Configure event handlers](https://technet.microsoft.com/library/dn531185.aspx#BKMK_EventHandlers). Detailed information for form script developers is in [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md). For information about the events and the object model used when writing forms, see the [Client API Reference](clientapi/reference.md).
+ Form scripts respond to events in the form. You can configure event handlers for many form events in the application using the form editor. To learn how to do that see [Use the form editor : Configure event handlers](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531185(v=crm.8)#BKMK_EventHandlers). Detailed information for form script developers is in [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md). For information about the events and the object model used when writing forms, see the [Client API Reference](/powerapps/developer/model-driven-apps/clientapi/reference).
 
 
 <a name="bkmk_windowsClient"></a>
@@ -97,3 +97,6 @@ The Microsoft Dynamics 365 Customer Engagement (on-premises) Web Services provid
 [Manage your deployment of Customer Engagement (on-premises)](manage-deployment.md)<br />
 [Sample code directory for the Customer Engagement (on-premises) SDK](sample-code-directory.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement (on-premises)](programming-reference.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

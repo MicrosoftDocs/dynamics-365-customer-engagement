@@ -19,7 +19,7 @@ search.app:
 ---
 # Administer customer engagement apps in Dynamics 365
 
-Effective October 2019, the *Dynamics 365 for Customer Engagement* SKU/license plan is no longer available for online customers. More information: [Dynamics 365 Licensing Update](https://docs.microsoft.com/dynamics365/licensing/update)
+Effective October 2019, the *Dynamics 365 for Customer Engagement* SKU/license plan is no longer available for online customers. More information: [Dynamics 365 Licensing Update](/dynamics365/licensing/update)
 
 With this change for online customers, we are no longer using the term "Dynamics 365 for Customer Engagement apps" to refer to the following collection of Dynamics 365 apps and their related services:
 - Dynamics 365 Sales
@@ -28,10 +28,15 @@ With this change for online customers, we are no longer using the term "Dynamics
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-For online customers, these Dynamics 365 (collectively referred as customer engagement apps) run on [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
-Administration for customer engagement apps has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Administer Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+For online customers, these Dynamics 365 apps (collectively referred to as customer engagement apps) run on [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro) and use Power Apps model-driven app design. More information: [What are model-driven apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+
+Administration for customer engagement apps has transitioned to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). More information: [Administer Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation).
+
 
 ### See also
-[Power Apps documentation](https://docs.microsoft.com/powerapps/)<br/>
+[Power Apps documentation](/powerapps/)<br/>
 [Dynamics 365 Customer Engagement (on-premises) documentation](../customerengagement/on-premises/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

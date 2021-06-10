@@ -126,3 +126,6 @@ Customizers and app designers can also copy and share the app URL from the **Pro
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

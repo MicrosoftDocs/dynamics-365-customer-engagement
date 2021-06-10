@@ -1,15 +1,14 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
-description: "Conversation control is a communication panel in Omnichannel where you interact with the customer."
+description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
+ms.date: 01/11/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/11/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
-# View communication panel
+# View the communication panel for conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -185,3 +184,6 @@ To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-c
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [Take notes specific to conversation](oc-take-notes.md)  
 [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

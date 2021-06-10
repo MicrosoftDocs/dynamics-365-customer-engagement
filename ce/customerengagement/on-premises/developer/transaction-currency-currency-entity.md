@@ -133,3 +133,6 @@ creditlimit_base = creditlimit / exchangerate
  [TransactionCurrency Entity](entities/transactioncurrency.md)   
  [Sample: Retrieve Currency Exchange Rate](sample-retrieve-currency-exchange-rate.md)   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

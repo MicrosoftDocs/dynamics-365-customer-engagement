@@ -54,3 +54,6 @@ This sample demonstrates how to audit user access to Dynamics 365 Customer Engag
 ## Related Sections  
 
 [Data Management in Dynamics 365 Customer Engagement (on-premises)](manage-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

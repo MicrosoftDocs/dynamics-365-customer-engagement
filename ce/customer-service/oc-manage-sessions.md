@@ -1,12 +1,11 @@
 ---
 title: "Manage sessions in Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to manage sessions using the session panel in Omnichannel for Customer Service app"
+ms.date: 04/06/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Manage sessions in Omnichannel for Customer Service
@@ -151,3 +150,6 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Download attachments from your Azure bot| Microsoft Docs"
 description: "Read about the various cards and attachments supported by various channels."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 07/21/2020
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Download attachments from your Azure bot
 
@@ -14,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 Follow these steps to download attachments from your Azure bot.
 
-1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
+1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
 
 2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
 
@@ -40,5 +39,8 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 
 ### See also
 
-[Card support by channel](https://docs.microsoft.com/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)<br />
+[Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)<br />
 [Asynchronous channel support](asynchronous-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

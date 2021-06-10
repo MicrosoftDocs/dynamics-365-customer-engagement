@@ -39,3 +39,6 @@ An organization in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], 
  [Administration and Security Entities](administration-security-entities.md)   
  [BusinessUnit Entity](entities/businessunit.md)   
  [User and team entities](user-team-entities.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

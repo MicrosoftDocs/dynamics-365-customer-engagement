@@ -98,7 +98,7 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
 |`ID`|The ID of the record that is mentioned in the post.|  
 |`Display String`|The text that you want to be displayed in the mention, such as a record’s name.|  
 
- The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](org-service/organization-service-entities.md). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+ The entity type codes for all default (non-custom) entities are predefined. For more information, see [IOrganizationService Entities](/powerapps/developer/data-platform/browse-your-metadata). [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
 
  You can specify multiple mentions in this attribute. To retrieve data contained in the mention, parse the string in the `Text` attribute to search for the “@[“ characters that separate mentions from other mentions or text.  
 
@@ -146,3 +146,6 @@ As a developer implementing collaboration scenarios with  activity feeds, you sh
  [Blog Post: Data management for Activity Feeds entities](https://blogs.msdn.com/b/crm/archive/2011/11/18/data-management-for-activity-feeds-entities.aspx)   
  [Blog Post: How to Add a Record Wall to a Form](https://blogs.msdn.com/b/crm/archive/2011/11/09/how-to-add-a-record-wall-to-a-form.aspx)   
  [Blog Post: Activity Feeds Solution & Development Environment](https://blogs.msdn.com/b/crm/archive/2012/01/26/activity-feeds-solution-amp-development-environment.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

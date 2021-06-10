@@ -23,3 +23,6 @@ The following APIs allow you to manage sessions in a multi-session apps.
 | [refreshTab](microsoft-apm/refreshTab.md) | Refreshes an app tab whose unique identifier (ID) is passed as a parameter.  |
 | [focusTab](microsoft-apm/focusTab.md) | Sets the focus on the app tab whose unique identifier (ID) is passed as a parameter. |
 | [closeTab](microsoft-apm/closeTab.md) | Closes the app tab whose unique identifier (ID) is passed as a parameter. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

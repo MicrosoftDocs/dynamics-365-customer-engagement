@@ -1,14 +1,11 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
+ms.date: 04/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/30/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Troubleshoot issues in service-Level agreements in Customer Service
@@ -66,7 +65,10 @@ When you update the target record such that “Applicable when” condition is n
 
 ### Reason
 
-When you define the Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
+When you define the "Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
+
+> [!NOTE]
+> When you define the conditions on the same attribute, a recommendation message is displayed that suggests you to not use the same attribute.
 
 ### Workaround
 
@@ -106,3 +108,5 @@ This is expected behavior for SLAs in the web client. We recommend that you defi
 
 [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)  
 [Define service-level agreements](define-service-level-agreements.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

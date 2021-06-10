@@ -21,3 +21,6 @@ search.app:
 # Bug fixes for Universal Resource Scheduling
 
 [!INCLUDE[urs-bug-fixes.md](../shared/urs/urs-bug-fixes.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,14 +1,11 @@
 ---
 title: Schedule a service activity (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to schedule a service activity in Dynamics 365 Customer Service
+ms.date: 06/01/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Schedule a service activity (Customer Service app)
@@ -38,3 +37,6 @@ Use the following links to learn more about service scheduling using service act
 [Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity-cs-app.md)<br/>
 [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md) <br/>
 [Create a selection rule to determine how resources are selected for service activities (Customer Service app)](create-simple-selection-rule.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

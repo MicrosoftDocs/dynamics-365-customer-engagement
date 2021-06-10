@@ -40,3 +40,6 @@ Review your customer journey records to identify the ones still using the custom
 [Introduction to solutions](/powerapps/developer/common-data-service/introduction-solutions)
 
 [Work with solutions](/powerapps/developer/common-data-service/work-solutions)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

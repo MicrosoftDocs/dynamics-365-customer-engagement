@@ -1,5 +1,6 @@
 ---
 title: "Verify network capacity and throughput for clients | MicrosoftDocs"
+description: "verify network capacity and throughput for clients."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -53,3 +54,6 @@ The report displays a table with test and benchmark information. Of particular i
 ### See also  
  [Performance tuning and optimization](../admin/performance-tuning-and-optimization.md)   
  [Key preparation and configuration tasks](../admin/key-preparation-and-configuration-tasks.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

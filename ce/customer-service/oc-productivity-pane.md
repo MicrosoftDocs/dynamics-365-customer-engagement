@@ -1,12 +1,11 @@
 ---
 title: "Productivity pane in the Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn what is and how to use productivity pane in Omnichannel for Customer Service to display agent scripts and smart-assist cards for your agents."
+ms.date: 01/31/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/31/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Use productivity pane to guide agents
@@ -36,3 +35,6 @@ Use the arrow to set the mode of the productivity pane.
 ## See also
 
 [Enable the productivity pane to provide guidance to agents](productivity-pane.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

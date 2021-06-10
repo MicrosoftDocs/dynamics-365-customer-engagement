@@ -181,3 +181,6 @@ Where:
 [Create interactive features with or without portals](portals.md)  
 [Set up an event](set-up-event.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

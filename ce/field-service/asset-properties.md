@@ -178,3 +178,6 @@ The property you added will now show in the list of eligible properties for this
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the property log on a customer asset.](./media/assets-properties-maintain-new-values-callout.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

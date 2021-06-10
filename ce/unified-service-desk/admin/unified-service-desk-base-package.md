@@ -1,20 +1,19 @@
 ---
 title: "Unified Service Desk  Base package | MicrosoftDocs"
 description: "Overview of the base sample application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Base sample application package
 
@@ -88,3 +87,6 @@ search.app:
   
 ## See also  
  [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

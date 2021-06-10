@@ -167,3 +167,7 @@ The requirement time zone is derived from the following values in the following 
 1. The time zone of the work hours template noted on both the requirement and the related work order, if applicable.
 2. The time zone of the user that created the requirement (the owner). If the owner is changed, the time zone is not changed. The user's time zone is defined in **Personalization Settings**.
 3. The time zone of the default schedule board tab of the system.
+
+### Resource requirment deletion
+
+When a resource requirement record is created, a calendar record is created. In Field Service **v8.8.40** or later, when a resource requirement is deleted, additional logic is added to check if the calendar is used by any of the Dynamics 365 out of the box entities; if the calendar is not used, then the calendar record is also deleted. A similar behavior is also put in place for the work hours templates. This deletion of the calendars improves the schedule assistant's performance. 

@@ -2,13 +2,11 @@
 title: "Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Track all your customer communications with activities in Dynamics 365 Sales Professional."
 ms.date: 04/03/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-activitypointer
   - D365-Entity-contact
@@ -16,7 +14,6 @@ searchScope:
   - D365-UI-*
   - Dynamics 365
   - Sales
-
 ---
 
 # Manage tasks, appointments, email, or phone calls in Dynamics 365 Sales Professional
@@ -150,3 +147,6 @@ you can mark the activity for that action as completed.
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)<br/>
 [Manage your customers](manage-accounts-contacts.md)  
 [Work with activities in the Kanban view](activity-kanban-view-sp.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

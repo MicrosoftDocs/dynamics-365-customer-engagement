@@ -107,3 +107,6 @@ Marketing solution uninstall order:
 1. MicrosoftDynamics_HealthChecker
 
 If you see any other "anchor" solutions that start with "MicrosoftDynamics_", you can delete these too. They are probably left over from an earlier version that you upgraded. You can remove these in any order after you've uninstalled the other solutions.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

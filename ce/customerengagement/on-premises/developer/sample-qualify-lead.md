@@ -44,3 +44,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sales Entities (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  <xref:Microsoft.Crm.Sdk.Messages.QualifyLeadRequest>   
  [Lead Entity](lead-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

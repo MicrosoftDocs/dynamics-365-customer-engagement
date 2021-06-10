@@ -73,10 +73,10 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 
 
 [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
-[Sample: Impersonate Using the ActOnBehalfOf Privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
+[Sample: Impersonate Using the ActOnBehalfOf Privilege](/powerapps/developer/data-platform/impersonate-another-user)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
-[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
-[Sample: Quick start for XRM Tooling API](xrm-tooling/sample-quick-start-xrm-tooling-api.md)<br />
+[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)<br />
+[Sample: Quick start for XRM Tooling API](/powerapps/developer/data-platform/xrm-tooling/sample-quick-start-xrm-tooling-api)<br />
   
   
 <a name="BKMK_Azure"></a>   
@@ -99,8 +99,8 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Business process flows  
 
 
-[Sample: getEnabledProcesses](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/getenabledprocesses)<br />
-[Sample: getActivePath](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/activepath/getactivepath)<br />
+[Sample: getEnabledProcesses](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/getenabledprocesses)<br />
+[Sample: getActivePath](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/activepath/getactivepath)<br />
   
 <a name="BKMK_Charts"></a>   
 ## Charts and dashboards  
@@ -159,26 +159,26 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Customization & metadata
 
 [Sample: Create a Custom Activity](sample-create-custom-activity.md)<br />
-[Sample: Create a Custom Activity Entity](org-service/sample-create-custom-activity-entity.md)<br />
-[Sample: Create Global Option Set](org-service/sample-create-global-option-set.md)<br />
-[Sample: Create and Retrieve Entity Relationships](org-service/sample-create-retrieve-entity-relationships.md)<br />
-[Sample: Create and Update an Emailable Entity](org-service/sample-create-update-emailable-entity.md)<br />
-[Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)<br />
+[Sample: Create a Custom Activity Entity](/powerapps/developer/data-platform/org-service/samples/create-custom-activity)<br />
+[Sample: Create Global Option Set](/powerapps/developer/data-platform/org-service/metadata-option-sets)<br />
+[Sample: Create and Retrieve Entity Relationships](/powerapps/developer/data-platform/org-service/metadata-relationshipmetadata)<br />
+[Sample: Create and Update an Emailable Entity](/powerapps/developer/data-platform/org-service/samples/work-activity-party-records)<br />
+[Sample: Create and Update Entity Metadata](/powerapps/developer/data-platform/org-service/create-custom-entity)<br />
 [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)<br />
-[Sample: Dump Attribute Metadata to a File](org-service/sample-dump-attribute-metadata-file.md)<br />
-[Sample: Dump Atttribute Picklist Metadata to a File](org-service/sample-dump-attribute-picklist-metadata-file.md)<br />
-[Sample: Dump Entity Metadata to a File](org-service/sample-dump-entity-metadata-file.md)<br />
-[Sample: Dump Entity Privilege Information to a File](org-service/sample-dump-entity-privilege-information-file.md)<br />
-[Sample: Dump Entity Relationship Information to a File](org-service/sample-dump-entity-relationship-information-file.md)<br />
-[Sample: Dump Global Option Set Information to a File](org-service/sample-dump-global-option-set-information-file.md)<br />
+[Sample: Dump Attribute Metadata to a File](/powerapps/developer/data-platform/org-service/samples/dump-entity-metadata-file)<br />
+[Sample: Dump Atttribute Picklist Metadata to a File](/powerapps/developer/data-platform/org-service/samples/dump-entity-metadata-file)<br />
+[Sample: Dump Entity Metadata to a File](/powerapps/developer/data-platform/org-service/samples/dump-entity-metadata-file)<br />
+[Sample: Dump Entity Privilege Information to a File](/powerapps/developer/data-platform/org-service/samples/dump-entity-metadata-file)<br />
+[Sample: Dump Entity Relationship Information to a File](/powerapps/developer/data-platform/org-service/metadata-relationshipmetadata)<br />
+[Sample: Dump Global Option Set Information to a File](/powerapps/developer/data-platform/org-service/metadata-option-sets)<br />
 [Sample: Export Ribbon Definitions](customize-dev/sample-export-ribbon-definitions.md)<br />
 [Sample: Import Files as Web Resources](sample-import-files-web-resources.md)<br />
 [Sample: Pass Multiple Values to a  Web Resource Through the Data Parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
-[Sample: Query Metadata and Detect Changes](org-service/sample-query-metadata-detect-changes.md)<br />
+[Sample: Query Metadata and Detect Changes](/powerapps/developer/data-platform/org-service/metadata-option-sets)<br />
 [Sample: Set and retrieve entity images](sample-set-retrieve-entity-images.md)<br />
 [Sample: Web Resource Utility](sample-web-resource-utility.md)<br />
 [Sample: Work with Attributes](org-service/sample-work-attribute-metadata.md)<br />
-[Sample: Work with Global Option Sets](org-service/sample-work-global-option-sets.md)<br />
+[Sample: Work with Global Option Sets](/powerapps/developer/data-platform/org-service/metadata-option-sets)<br />
 [Sample: Work With Solutions](sample-work-solutions.md)<br />
 [Sample: Work with Views](customize-dev/sample-work-views.md)<br />
   
@@ -193,7 +193,7 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 
 ## Deployment web service
 
- [Sample: Use Deployment Service Messages](https://msdn.microsoft.com/library/gg309630.aspx)<br /> 
+ [Sample: Use Deployment Service Messages](/previous-versions/dynamicscrm-2016/developers-guide/gg309630(v=crm.8))<br /> 
   
 <a name="BKMK_Discovery"></a>
 
@@ -205,9 +205,9 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Duplicate detection  
 
 
-[Sample: Detect Multiple Duplicate Records](org-service/sample-detect-multiple-duplicate-records.md)<br />
-[Sample: Enable Duplicate Detection and Retrieve Duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
-[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
+[Sample: Detect Multiple Duplicate Records](/powerapps/developer/data-platform/duplicate-detection-messages)<br />
+[Sample: Enable Duplicate Detection and Retrieve Duplicates](/powerapps/developer/data-platform/enable-disable-duplicate-detection)<br />
+[Sample: Use duplicate detection when creating and updating records](/powerapps/developer/data-platform/run-duplicate-detection)<br />
   
 <a name="BKMK_Entities"></a>   
 ## Entity records  
@@ -215,10 +215,10 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 
 [Sample: Assign a Record to a New Owner](org-service/sample-assign-record-new-owner.md)<br />
 [Sample: Assign a Record to a Team](sample-assign-record-team.md)<br />
-[Sample: Associate Records (Early Bound)](org-service/sample-associate-records-early-bound.md)<br />
-[Sample: Create, Retrieve, Update and Delete Records (Early Bound)](org-service/sample-create-retrieve-update-delete-records-early-bound.md)<br />
+[Sample: Associate Records (Early Bound)](/powerapps/developer/data-platform/org-service/entity-operations-associate-disassociate)<br />
+[Sample: Create, Retrieve, Update and Delete Records (Early Bound)](/powerapps/developer/data-platform/org-service/samples/early-bound-entity-operations)<br />
 [Sample: Create and Update Records With Related Records (Early Bound)](org-service/sample-create-update-records-related-records-early-bound.md)<br />
-[Sample: Create, Retrieve, Update and Delete (Late Bound)](org-service/sample-create-retrieve-update-delete-late-bound.md)<br />
+[Sample: Create, Retrieve, Update and Delete (Late Bound)](/powerapps/developer/data-platform/org-service/entity-operations-update-delete)<br />
 [Sample: Initialize a Record From an Existing Record](org-service/sample-initialize-record-existing-record.md)<br />
 [Sample: Merge Two Records](sample-merge-two-records.md)<br />
 [Sample: Retrieve Valid Status Transitions](sample-retrieve-valid-status-transitions.md)<br />
@@ -249,13 +249,13 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 
 
 [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
-[Sample: Execute Multiple Requests](org-service/sample-execute-multiple-requests.md)<br />
-[Sample: Execute multiple requests in transaction](org-service/sample-execute-multiple-requests-transaction.md)<br />
-[Helper Code: SystemUserProvider class](org-service/helper-code-systemuserprovider-class.md)<br />
-[Sample: Impersonation using the ActOnBehalfOf privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
+[Sample: Execute Multiple Requests](/powerapps/developer/data-platform/org-service/execute-multiple-requests#exampleexample)<br />
+[Sample: Execute multiple requests in transaction](/powerapps/developer/data-platform/org-service/use-executetransaction)<br />
+[Helper Code: SystemUserProvider class](https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs#/SampleHelpers.cs)<br />
+[Sample: Impersonation using the ActOnBehalfOf privilege](/powerapps/developer/data-platform/impersonate-another-user)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
-[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
-[Sample: Use the Organization Service Context](org-service/sample-use-organization-service-context.md)<br />
+[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)<br />
+[Sample: Use the Organization Service Context](/powerapps/developer/data-platform/org-service/organizationservicecontext)<br />
   
 <a name="BKMK_Plugins"></a>   
 ## Plug-ins  
@@ -278,34 +278,34 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 ## Processes, workflows and dialogs  
 
 
-[Sample: Calculate a Credit Score with a Custom Workflow Activity](workflow/sample-calculate-credit-score-custom-workflow-activity.md)<br />
-[Sample: Create a custom workflow activity](workflow/sample-create-custom-workflow-activity.md)<br />
+[Sample: Calculate a Credit Score with a Custom Workflow Activity](/powerapps/developer/data-platform/workflow/sample-calculate-credit-score-custom-workflow-activity)<br />
+[Sample: Create a custom workflow activity](/powerapps/developer/data-platform/workflow/sample-create-custom-workflow-activity)<br />
 [Sample: Create a Process Using a Template](sample-create-process-using-template.md)<br />
 [Sample: Create a real-time workflow in code](sample-create-real-time-workflow-code.md)<br />
 [Sample: Create a Workflow in Code](sample-create-workflow-code.md)<br />
 [Sample: Create, Retrieve, Update, and Delete (CRUD) a Dialog](sample-create-retrieve-update-delete-dialog.md)<br />
 [Sample: Execute a Workflow](sample-run-workflow.md)<br />
 [Sample: Set the State of a Workflow](sample-set-state-workflow.md)<br />
-[Sample: Update Next Birthday Using a Custom Workflow Activity](workflow/sample-update-next-birthday-using-custom-workflow-activity.md)<br />
+[Sample: Update Next Birthday Using a Custom Workflow Activity](/powerapps/developer/data-platform/workflow/sample-update-next-birthday-using-custom-workflow-activity)<br />
   
 <a name="BKMK_Query"></a>   
 ## Query & search  
 
 
 [Sample: Complex LINQ Queries](org-service/sample-complex-linq-queries.md)<br />
-[Sample: Convert Queries Between Fetch and Query Expression](org-service/sample-convert-queries-fetch-queryexpression.md)<br />
+[Sample: Convert Queries Between Fetch and Query Expression](/powerapps/developer/data-platform/org-service/samples/convert-queries-fetch-queryexpression)<br />
 [Sample: Create a LINQ Query](org-service/sample-create-linq-query.md)<br />
 [Sample: Create a LINQ query with late binding](org-service/sample-create-linq-query-late-binding.md)<br />
 [Sample: More LINQ query examples](org-service/sample-more-linq-query-examples.md)<br />
 [Sample: Retrieve multiple with condition operators using LINQ](org-service/sample-retrieve-multiple-with-condition-operators-using-linq.md)<br />
-[Sample: Retrieve Multiple with Query By Attribute Using Strong Types](org-service/sample-retrieve-multiple-querybyattribute-class.md)<br />
-[Sample: Retrieve Multiple with Query Expression Using Strong Types](org-service/sample-retrieve-multiple-queryexpression-class.md)<br />
-[Sample: Retrieve Records from an Intersect Table](org-service/sample-retrieve-records-intersect-table.md)<br />
-[Sample: Retrieve With One-To-Many Relationship](org-service/sample-retrieve-with-one-to-many-relationship.md)<br />
-[Sample: Use Aggregation in FetchXML](org-service/sample-use-aggregation-fetchxml.md)<br />
-[Sample: Use FetchXML with a Paging Cookie](org-service/sample-use-fetchxml-paging-cookie.md)<br />
-[Sample: Use QueryExpression with a paging cookie](org-service/sample-use-queryexpression-with-a-paging-cookie.md)<br />
-[Sample: Validate and Execute a Saved Query](org-service/sample-validate-execute-saved-query.md)<br />
+[Sample: Retrieve Multiple with Query By Attribute Using Strong Types](/powerapps/developer/data-platform/org-service/samples/retrieve-multiple-querybyattribute-class)<br />
+[Sample: Retrieve Multiple with Query Expression Using Strong Types](/powerapps/developer/data-platform/org-service/samples/retrieve-multiple-queryexpression-class)<br />
+[Sample: Retrieve Records from an Intersect Table](/powerapps/developer/data-platform/org-service/samples/retrieve-records-intersect-table)<br />
+[Sample: Retrieve With One-To-Many Relationship](/powerapps/developer/data-platform/org-service/metadata-relationshipmetadata#retrieve-entity-relationshipsretrieve-entity-relationships)<br />
+[Sample: Use Aggregation in FetchXML](/powerapps/developer/data-platform/org-service/samples/use-aggregation-fetchxml)<br />
+[Sample: Use FetchXML with a Paging Cookie](/powerapps/developer/data-platform/org-service/samples/use-fetchxml-paging-cookie)<br />
+[Sample: Use QueryExpression with a paging cookie](/powerapps/developer/data-platform/org-service/samples/use-queryexpression-with-a-paging-cookie)<br />
+[Sample: Validate and Execute a Saved Query](/powerapps/developer/data-platform/org-service/samples/validate-execute-saved-query)<br />
   
 <a name="BKMK_Queues"></a>   
 ## Queues  
@@ -384,3 +384,6 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
   
 ### See also  
  [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

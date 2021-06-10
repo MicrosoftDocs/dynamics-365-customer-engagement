@@ -105,3 +105,6 @@ Start by designing the HTML version of your message. When you're almost done, go
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

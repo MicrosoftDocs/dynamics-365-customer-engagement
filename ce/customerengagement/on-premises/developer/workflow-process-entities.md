@@ -50,3 +50,6 @@ There are two messages you can use to work with processes. <xref:Microsoft.Crm.S
   <!-- Bug 700905 
  [ProcessSession Entity](entities/processsession.md)
  -->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

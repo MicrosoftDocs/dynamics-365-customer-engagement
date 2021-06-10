@@ -43,3 +43,6 @@ Find out what's working and what you need to change in your campaigns. Use the c
 ### See also  
  [Run a report](../basics/run-report.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

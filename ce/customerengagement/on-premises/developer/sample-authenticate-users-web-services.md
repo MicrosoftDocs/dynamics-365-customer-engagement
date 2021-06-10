@@ -44,3 +44,6 @@ This sample shows how to authenticate a user with Dynamics 365 Customer Engageme
  [Authenticate Users with Dynamics 365 Customer Engagement Web Services](authenticate-users.md)   
  [Authenticate Office 365 Users with Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement](connect-microsoft-office-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

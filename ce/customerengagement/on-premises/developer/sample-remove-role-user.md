@@ -48,3 +48,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
     
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

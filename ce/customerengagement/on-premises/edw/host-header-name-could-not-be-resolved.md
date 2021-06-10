@@ -1,5 +1,7 @@
 ---
 title: "Host header name could not be resolved | Microsoft Docs"
+description: Environment diagnostics warning that the host header name couldn't be resolved.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ Setup cannot resolve the host header name because a Domain Name System (DNS) ent
 
 Host header names must be mapped by using a DNS server or a Hosts file. For more information about configuring a DNS server, view the Help in the DNS service documentation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

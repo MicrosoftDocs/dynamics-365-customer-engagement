@@ -42,3 +42,6 @@ You use the entities described in this section to manage various phases of a sal
  [Model Your Business Data](model-business-data.md)  
   
  [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

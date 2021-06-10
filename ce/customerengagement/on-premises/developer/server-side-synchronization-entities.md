@@ -65,3 +65,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], se
  [Sales Literature Entities](sales-literature-entities.md)  
   
  [Schedule and Appointment Entities](schedule-appointment-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

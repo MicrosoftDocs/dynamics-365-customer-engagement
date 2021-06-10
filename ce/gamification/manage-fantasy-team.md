@@ -20,6 +20,8 @@ search.app:
 ---
 # Draft and manage your fantasy teams in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 When you participate in a fantasy team game, you become a team manager who can draft your own team.  
   
 After the commissioner activates the game, you'll receive an email with instructions to sign in to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] and create your [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] profile. In a next step, you'll be asked to draft your team.  
@@ -71,3 +73,6 @@ After the commissioner activates the game, you'll receive an email with instruct
 
  [Overview for players and fans in Gamification](for-players-fans.md)   
  [See how you rank against other players on a Gamification leaderboard](view-leaderboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

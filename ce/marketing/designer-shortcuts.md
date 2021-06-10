@@ -25,8 +25,8 @@ search.app:
 
 Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other model-driven apps in Dynamics 365. For details, see the following help topics:
 
-- [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
-- [Keyboard shortcuts in Dynamics 365 applications](../basics/keyboard-shortcuts.md)
+- [Accessibility for people with disabilities](../customerengagement/on-premises/basics/accessibility-people-with-disabilities.md)
+- [Keyboard shortcuts in Dynamics 365 applications](../customerengagement/on-premises/basics/keyboard-shortcuts.md)
 
 > [!IMPORTANT]
 > If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, and tabs). The standard keyboard navigation technique for this is to use tab alone, but because Dynamics 365 Marketing sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
@@ -232,3 +232,6 @@ Most of the standard navigation and selection keyboard commands function as usua
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Design lead-scoring models](score-manage-leads.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

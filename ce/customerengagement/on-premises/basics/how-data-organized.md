@@ -62,3 +62,6 @@ different names for the types of records, because your organization calls that t
 ### See also  
  [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

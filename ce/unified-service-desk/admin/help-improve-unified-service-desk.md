@@ -1,20 +1,19 @@
 ---
 title: "Help improve Unified Service Desk  | MicrosoftDocs"
 description: "Learn how you can make our app better by sending system and application information to Microsoft."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 11/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 # Improve Unified Service Desk
@@ -104,3 +103,6 @@ Configuring and setting the value of the **HelpImproveUSD** global option to **F
 
 [Manage options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)  
 [Provide feedback about Unified Service Desk](../admin/provide-feedback.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,6 @@
 ---
 title: "Create or edit a security role | MicrosoftDocs"
+description: "Create new security roles to accommodate changes in your business requirements."
 ms.custom: 
 ms.date: 10/11/2018
 ms.reviewer: 
@@ -14,12 +15,15 @@ ms.assetid: 6c72559d-28a6-49ae-bb88-7a3eea6db611
 caps.latest.revision: 33
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
 
 ---
 # Create or edit a security role to manage access
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.
   
@@ -157,3 +161,6 @@ When you import the solution, it creates the **min prv apps use** role which you
  [Security concepts for Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Copy a security role](../admin/copy-security-role.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

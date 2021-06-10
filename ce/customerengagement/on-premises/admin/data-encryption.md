@@ -1,5 +1,6 @@
 ---
 title: "Data encryption  | MicrosoftDocs"
+description: "Enhance security by encrypting your data."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,12 +15,14 @@ ms.assetid: f88f7c87-2ee2-42f3-8101-7271f6731cf9
 caps.latest.revision: 28
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Enhance security by encrypting your data
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
   
@@ -60,7 +63,10 @@ Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL
 6. As a best practice, save the text file that contains the encryption key on a computer in a secure location on an encrypted hard drive.  
   
 ### See also  
- [SQL Server Encryption](https://technet.microsoft.com/library/bb510663.aspx)   
- [FIPS 140 Evaluation](https://technet.microsoft.com/library/cc750357.aspx)   
+ [SQL Server Encryption](/sql/relational-databases/security/encryption/sql-server-encryption)   
+ [FIPS 140 Evaluation](/windows/security/threat-protection/fips-140-validation)   
  [Manage Your Data](../admin/manage-your-data.md)   
  [Manage configuration data](manage-configuration-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

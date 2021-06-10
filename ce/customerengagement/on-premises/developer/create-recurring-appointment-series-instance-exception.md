@@ -80,3 +80,6 @@ When you create a recurring appointment master (series), [!INCLUDE[pn_microsoftc
  [Update a recurring appointment](update-recurring-appointment.md)   
  [Sample: Create a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md)   
  [Sample: Convert an Appointment to a Recurring Appointment](sample-convert-appointment-recurring-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

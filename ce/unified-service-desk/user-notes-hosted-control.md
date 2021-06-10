@@ -1,20 +1,19 @@
 ---
 title: "User Notes (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the User Notes type of hosted control in Unified Servoce Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # User Notes (Hosted Control)
 Use **User Notes** hosted control type to provide agents with a scratch pad to type notes during an interaction. Language specific spell checking can be applied to this component by calling the **SetLanguage** action. This component does not automatically pick up the current language of the user, by design. The ability to change the language used is intended to provide the ability to set the language appropriate for the transaction. For example, consider there is a bilingual agent that can speak English and Spanish. The IVR may pass the language selection from the phone system to the agent application’s CTI adapter. This language selection can then be used to set the spell check language for this hosted control.
@@ -124,4 +123,7 @@ Use **User Notes** hosted control type to provide agents with a scratch pad to t
  [View predefined actions and events for a hosted control](../unified-service-desk/view-predefined-actions-events-hosted-control.md)
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics CRM](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

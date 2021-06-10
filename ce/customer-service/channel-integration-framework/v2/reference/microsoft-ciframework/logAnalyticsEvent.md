@@ -1,12 +1,11 @@
 ---
 title: "logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
 description: ""
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 10/25/2019
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -64,5 +63,8 @@ Promise with value as string
 
 ## See also
 
-[initLogAnalytics method](initLogAnalytics.md)<br />
+[initLogAnalytics method](./updateconversation.md)<br />
 [Channel Analytics](../../channel-analytics.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

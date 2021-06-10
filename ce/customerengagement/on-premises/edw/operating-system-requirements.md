@@ -1,5 +1,7 @@
 ---
 title: "Operating system requirements | Microsoft Docs"
+description: Environment diagnostics warning that the operating system isn't supported for this version.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -28,3 +30,6 @@ ms.author: matp
   [Microsoft Dynamics 365 for Outlook software requirements](../../../outlook-addin/admin-guide/software-requirements.md)
  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

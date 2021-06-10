@@ -39,3 +39,6 @@ manager: kvivek
  [Planning Dynamics 365 Customer Engagement (on-premises)](planning-your-deployment-of-microsoft-dynamics-365.md) </br>  
  [Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

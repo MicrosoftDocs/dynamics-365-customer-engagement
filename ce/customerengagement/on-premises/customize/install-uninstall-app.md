@@ -56,3 +56,6 @@ An app can be made available as a solution. This allows you to package one or mo
   
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

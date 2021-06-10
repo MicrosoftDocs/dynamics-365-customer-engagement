@@ -60,3 +60,6 @@ manager: kvivek
  [Security considerations for Microsoft Dynamics 365](security-considerations-for-microsoft-dynamics-365.md)   </br>
  [Microsoft Dynamics 365 administration best practices](best-practices-on-premises-deployments.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

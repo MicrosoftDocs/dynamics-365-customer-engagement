@@ -87,3 +87,6 @@ To see usage statistics about one of your redirect URLs, go to **Marketing** > *
 [Design lead-scoring models](score-manage-leads.md)  
 [Set up lead scoring](set-up-lead-scoring.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

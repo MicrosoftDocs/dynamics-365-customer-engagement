@@ -1,5 +1,5 @@
 ---
-title: "Import translated entity and field text | MicrosoftDocs"
+title: "Import translated entity and field text with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to import translated entity and field text"
 ms.custom: 
 ms.date: 12/04/2018
@@ -52,3 +52,6 @@ If you have customized entity or field text, such as field labels or drop-down l
 
 ### See also  
  [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

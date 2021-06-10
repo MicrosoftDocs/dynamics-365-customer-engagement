@@ -1,12 +1,11 @@
 ---
 title: Create personal quick replies in Omnichannel for Customer Service | MicrosoftDocs
 description: Create personal quick replies in Omnichannel for Customer Service
+ms.date: 01/11/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/11/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -53,3 +52,6 @@ For more information on personal quick replies, see [Send predefined messages in
 
 [Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chats)  
 [Manage applications](oc-manage-applications.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

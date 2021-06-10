@@ -1,12 +1,11 @@
 ---
 title: "WhatsApp channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about WhatsApp channel through Twilio agent experience in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Use WhatsApp channel
@@ -68,3 +67,6 @@ In Omnichannel for Customer Service, you can:
 ### See also
 
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

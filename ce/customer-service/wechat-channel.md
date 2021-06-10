@@ -1,12 +1,11 @@
 ---
 title: "WeChat channel in Omnichannel Agent Dashboard | MicrosoftDocs"
 description: "Information about using a WeChat channel in the agent dashboard for Omnichannel for Customer Service."
+ms.date: 04/06/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Use a WeChat channel
@@ -54,3 +53,6 @@ In Omnichannel for Customer Service, you can:
 ### See also
 
 [Configure a WeChat channel](configure-wechat-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "Cannot verify Microsoft Office Outlook | Microsoft Docs"
+description: Environment diagnostics warning that Setup can't verify Office Outlook
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -24,3 +26,6 @@ ms.author: matp
   
  For more information, see [Microsoft Dynamics 365 for Outlook software requirements](../../../outlook-addin/admin-guide/software-requirements.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

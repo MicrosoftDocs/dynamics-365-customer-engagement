@@ -668,3 +668,5 @@ See systemuser Entity [lk_sdkmessagefilter_modifiedonbehalfby](systemuser.md#BKM
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sdkmessagefilter?text=sdkmessagefilter EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

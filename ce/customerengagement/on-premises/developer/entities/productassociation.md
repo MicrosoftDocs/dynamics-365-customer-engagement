@@ -982,3 +982,5 @@ See uom Entity [unit_of_measurement_productassociation](uom.md#BKMK_unit_of_meas
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.productassociation?text=productassociation EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

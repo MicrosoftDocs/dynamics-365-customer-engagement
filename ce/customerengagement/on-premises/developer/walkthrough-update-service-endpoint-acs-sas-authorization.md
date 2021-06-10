@@ -57,3 +57,6 @@ Shared Access Signature (SAS) is the recommended authorization method for the Dy
 ### See also  
  [Azure extensions for Dynamics 365 Customer Engagement](azure-extensions.md)   
  [Azure integration with Dynamics 365 Customer Engagement](azure-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

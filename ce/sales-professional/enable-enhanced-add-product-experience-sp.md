@@ -1,14 +1,12 @@
 ---
-title: "Enable the enhanced experience of adding products | MicrosoftDocs"
+title: "Enable the enhanced add products experience in Sales Professional | MicrosoftDocs"
 description: "Enable your salespeople to quickly find and add multiple products to opportunities in Dynamics 365 Sales by enabling the enhanced 'add product' experience."
 ms.date: 04/17/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-opportunityproduct
   - D365-Entity-quotedetail
@@ -29,6 +27,8 @@ Increase seller productivity by enabling the enhanced experience for searching a
 -  View product details inline.
 -  Compare products before selecting them.
 -  Add multiple products in one go.
+
+[!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
 
 > [!IMPORTANT]
 > - The enhanced "add product" experience is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -54,8 +54,13 @@ Increase seller productivity by enabling the enhanced experience for searching a
     > ![Enhanced add product experience setting](media/system-settings-sales-tab-enhanced-add-products.png "Enhanced add product experience setting")
 
 4. Select **OK**.
+   Sellers can now use the enhanced experience for adding products while working on opportunity, quote, order, and invoice.
+   Note: As an administrator, you can customize the Add products dialog box by adding  more columns to the grid or adding more attributes to the Product column in the dialog box. For more information, see [Preview: Customize the Add Products dialog box](customize-add-products-dialog-box-sp.md).  
 
 
 ### See also
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience-sp.md)  
+[Add products to quotes, orders, or invoices by using the enhanced experience](add-products-qoi-enhanced-sp.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

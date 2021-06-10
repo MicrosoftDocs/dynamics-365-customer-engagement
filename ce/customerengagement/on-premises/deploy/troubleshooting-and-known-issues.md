@@ -30,3 +30,6 @@ Learn about creating trace files to troubleshoot error messages or other issues 
  [Operating Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md)   </br>
  [Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

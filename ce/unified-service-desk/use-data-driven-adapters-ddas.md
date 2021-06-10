@@ -1,20 +1,19 @@
 ---
 title: "Use data driven adapters (DDAs) in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use data-driven adapters (DDAs) in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use data driven adapters (DDAs) in Unified Service Desk
 Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. These adapters are generic assemblies that handle only the interaction with the UI and do not contain business processes. The [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] SDK ships with a DDA that provides a common set of functions that allows you to host and access a wide range of applications. However, you might require additional functionality depending on the type of application. There are various ways of extending the existing functionality, such as creating a new DDA (and using it in a composite DDA with outer DDAs) and extending an existing DDA.  
@@ -44,7 +43,7 @@ Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUD
   
 <a name="create"></a>   
 ## Creating a DDA  
- You can create a new DDA by simply inheriting the [DataDrivenAdapterBase](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
+ You can create a new DDA by simply inheriting the [DataDrivenAdapterBase](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
   
  The class has the constructor which can be overloaded.  
   
@@ -54,15 +53,15 @@ Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUD
   
  You can use the following classes to extend the existing UII DDAs:  
   
-- [WinDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.windatadrivenadapter): Creates an adapter based on the WinDDA.  
+- [WinDataDrivenAdapter](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.windatadrivenadapter): Creates an adapter based on the WinDDA.  
   
-- [WebDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.webdatadrivenadapter): Creates an adapter based on the WebDDA.  
+- [WebDataDrivenAdapter](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.webdatadrivenadapter): Creates an adapter based on the WebDDA.  
   
-- [JavaDataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.javadatadrivenadapter): Creates an adapter based on the JavaDDA.  
+- [JavaDataDrivenAdapter](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.javadatadrivenadapter): Creates an adapter based on the JavaDDA.  
   
-- [UIADataDrivenAdapter](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.uiadatadrivenadapter): Creates an adapter based on the UIADDA.  
+- [UIADataDrivenAdapter](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.uiadatadrivenadapter): Creates an adapter based on the UIADDA.  
   
-  All the preceding classes derive from [DataDrivenAdapterBase](https://docs.microsoft.com/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
+  All the preceding classes derive from [DataDrivenAdapterBase](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase) class.  
   
 <a name="bindings"></a>   
 ## Bindings  
@@ -162,3 +161,6 @@ if (action.Name == "AddToHistory")
   
 ### See also  
  [Work with HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

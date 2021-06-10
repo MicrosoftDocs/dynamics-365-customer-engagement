@@ -97,3 +97,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

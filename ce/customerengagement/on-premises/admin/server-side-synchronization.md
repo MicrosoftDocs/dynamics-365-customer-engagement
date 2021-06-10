@@ -1,5 +1,6 @@
 ---
 title: "Server-side synchronization  | MicrosoftDocs"
+description: "Synchronize data for each user that can be controlled by using synchronization filters."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,7 +15,6 @@ ms.assetid: 96ab5216-fe94-419a-b8a4-03ef2519ca90
 caps.latest.revision: 20
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 
@@ -57,4 +57,7 @@ Server-side synchronization is the preferred option for organizations with users
   
 ### See also  
  [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
- [Synchronizing data with Outlook or Exchange FAQ](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
+ [Synchronizing data with Outlook or Exchange FAQ](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

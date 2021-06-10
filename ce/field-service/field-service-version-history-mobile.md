@@ -25,6 +25,21 @@ search.app:
 
 This article chronicles important updates related to Field Service Mobile (Xamarin) app and associated mobile project templates.
 
+
+## 13.2.208 (Only iOS)
+
+### Bug fixes
+
+- iOS 14.5: Apps crashing on iOS 14.5 when using Intune policies
+
+## 13.2.205
+
+### Bug fixes
+
+- All platforms: App is crashing when an entity form has invalid fields
+- Localized report does not appear on the list in the App
+- iOS 14.2: App crashes when distributed via Intune MDM
+
 ## 13.2.203
 
 ### Updates 
@@ -241,7 +256,7 @@ This article chronicles important updates related to Field Service Mobile (Xamar
 
 Mobile projects hold configurations and customizations of the Field Service Mobile app such as view and form layout, mobile workflows called form rules, and offline HTML/JavaScript. These mobile projects are imported through the Field Service Mobile Configuration Tool (Woodford). The Field Service engineering team periodically releases new mobile project templates and the latest one can always be downloaded at [https://aka.ms/fsmobile-project](https://aka.ms/fsmobile-project).
 
-To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
+To learn more about mobile projects, see our topic on [installing the Field Service Mobile Configuration Tool](/dynamics365/customer-engagement/field-service/install-field-service#install-the-field-service-mobile-configuration-tool).
 
 ## 1.0.7289
 
@@ -347,3 +362,6 @@ Bug Fixes:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service mobile 2017 app download example](media/mobile-field-service-mobile-2017-windows-app-store.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

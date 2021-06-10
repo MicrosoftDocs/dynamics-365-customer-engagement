@@ -1,12 +1,11 @@
 ---
 title: "Create Omnichannel Toast Notification hosted control | MicrosoftDocs"
 description: "Learn how to create Omnichannel Toast notification hosted control for agents using Omnichannel for Customer Service in Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 2: Create hosted control
@@ -65,3 +64,6 @@ This topic describes how to create Omnichannel Toast Notification hosted control
 - [Step 4: Attach Omnichannel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

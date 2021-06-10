@@ -21,3 +21,5 @@ search.app:
 # Schedule within time constraints in Dynamics 365 Field Service
 
 [!INCLUDE[schedule-time-constraints.md](../shared/urs/schedule-time-constraints.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "The organization database selected for import is a different version | Microsoft Docs"
+description: Environment diagnostics warning that the organization you're trying to import is a different version than the deployment.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -24,3 +26,6 @@ ms.author: matp
   
  This is a warning message and the import operation can continue. However, after the import of the organization is complete, we recommend that you reapply the updates, which might have been applied to the deployment. Doing this makes sure that the organization has the same level of update as the deployment.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,20 +1,19 @@
 ---
 title: "View embedded help for actions and events in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to view embedded help for actions and events for hosted controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # View embedded help for actions and events in Unified Service Desk
 
@@ -44,3 +43,6 @@ search.app:
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
     
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

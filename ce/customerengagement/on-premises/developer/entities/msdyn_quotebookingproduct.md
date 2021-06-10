@@ -1690,3 +1690,5 @@ See uom Entity [msdyn_uom_msdyn_quotebookingproduct_Unit](uom.md#BKMK_msdyn_uom_
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_quotebookingproduct?text=msdyn_quotebookingproduct EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

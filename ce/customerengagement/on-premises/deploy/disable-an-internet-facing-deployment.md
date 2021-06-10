@@ -30,3 +30,6 @@ Disable an  [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-fac
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)   
  [Configure claims-based authentication](configure-claims-based-authentication.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

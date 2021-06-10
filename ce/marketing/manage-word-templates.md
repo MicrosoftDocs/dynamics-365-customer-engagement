@@ -152,3 +152,6 @@ An administrator can use the **Settings** page to upload the Word template into 
 
 [Export data to Word or Excel docs](export-data-word-excel.md)  
 [Business management settings](business-management-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

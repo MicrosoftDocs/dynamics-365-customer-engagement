@@ -893,3 +893,5 @@ See msdyn_resourcerequirement Entity [msdyn_resourcerequirement_requirementorgan
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_requirementorganizationunit?text=msdyn_requirementorganizationunit EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

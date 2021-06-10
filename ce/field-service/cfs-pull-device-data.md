@@ -40,7 +40,7 @@ Go to an **IoT Device**, and select **Pull Device Data** to pull in the most rec
 From the **Device Data History** tab on the device, you'll find a list of all data pulls for this device.
 
 > [!Note]
-> You can pull device data from a customer asset if the customer asset is [connected to IoT devices](https://docs.microsoft.com/dynamics365/field-service/cfs-register-devices#connect-to-asset). Select **Pull Device Data** in the ribbon of the customer asset record.
+> You can pull device data from a customer asset if the customer asset is [connected to IoT devices](./cfs-register-devices.md#connect-to-asset). Select **Pull Device Data** in the ribbon of the customer asset record.
 
 ## Device data on IoT alerts
 
@@ -57,3 +57,6 @@ Go to **IoT Settings** > **Device Data Pulls** tab. Set **Scheduled Data Pull** 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT settings, on the Device Data Pulls tab.](./media/cfs-device-pulls-schedule.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

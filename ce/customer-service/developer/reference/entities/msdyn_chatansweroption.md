@@ -1,12 +1,11 @@
 ---
 title: "msdyn_chatansweroption Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_chatansweroption entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 ---
 # msdyn_chatansweroption Entity Reference
 
@@ -644,7 +643,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem"></a> msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem
 
-Same as msdyn_chatquestionnaireresponseitem entity [msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem](msdyn_chatquestionnaireresponseitem.md#BKMK_msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem) Many-To-One relationship.
+Same as msdyn_chatquestionnaireresponseitem entity [msdyn_msdyn_chatansweroption_msdyn_chatquestionnaireresponseitem](msdyn_chatquestionnaireresponseitem.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -665,9 +664,12 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_surveyquestion_msdyn_chatansweroption"></a> msdyn_surveyquestion_msdyn_chatansweroption
 
-See msdyn_surveyquestion Entity [msdyn_surveyquestion_msdyn_chatansweroption](msdyn_surveyquestion.md#BKMK_msdyn_surveyquestion_msdyn_chatansweroption) One-To-Many relationship.
+See msdyn_surveyquestion Entity [msdyn_surveyquestion_msdyn_chatansweroption](msdyn_surveyquestion.md) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

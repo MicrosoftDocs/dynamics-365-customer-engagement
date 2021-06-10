@@ -78,3 +78,6 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
  [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   
  [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

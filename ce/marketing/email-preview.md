@@ -1,7 +1,7 @@
 ---
 title: "Preview and test send an email message design (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use in-app previews and test sends to inspect and test your email message design in Dynamics 365 Marketing."
-ms.date: 04/03/2020
+ms.date: 02/19/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -58,6 +58,8 @@ Use the following drop-down lists on the right side of the **Designer** > **Prev
 
 ## Use the advanced inbox preview feature
 
+<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/?linkid=2154667" frameborder="0" allowfullscreen=""></iframe></div>
+
 Go to the **Designer** > **Preview** > **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms. This feature renders your message by using native code from each of the listed target platforms, and then delivers your preview as an image file showing the precise results. As with the simple preview, you can use the **Designer** > **Preview** > **Inbox Preview** > **Properties** tab to choose a **Contact** record and **Resource Set** from which to draw dynamic values (see also the previous section).
 
 The inbox preview is provided by a Microsoft partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)). Your Dynamics 365 Marketing license includes a limited number of inbox previews per month, and this quota is shared by your entire organization. After your organization has used all the available previews for the month, each user must set up their own Litmus account if they want to create additional previews. Personal Litmus quotas apply to individual users, not to the entire organization. When you've used all your free previews, you'll be given the option to sign in to Litmus directly from the **Inbox Preview** tab in Dynamics 365 Marketing. After you're signed in, the integration is seamless.
@@ -98,3 +100,6 @@ Select the **Save** button the bottom of the flyout panel to send the message to
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Set the sender, receiver, language, and legal designation](email-properties.md) 
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel JavaScript API Reference | Microsoft Docs"
 description: "Omnichannel JavaScript API Reference"
+ms.date: 10/20/2020
+ms.topic: reference
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/20/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 # Omnichannel JavaScript API Reference
@@ -28,3 +27,6 @@ The following JavaScript methods can be used to perform various operations with 
 ### See also
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

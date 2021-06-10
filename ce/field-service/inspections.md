@@ -24,11 +24,7 @@ search.app:
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection on a tablet and a phone](./media/inspections-mobile-2020-tablet-phone.png)
-
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](https://docs.microsoft.com/dynamics365/field-service/inspections-advanced#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-advanced.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
 
@@ -81,6 +77,10 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 > ![Screenshot of a new example inspection, showing the toolbox with question types on the right side.](./media/inspections-create.png)
 
 - **Textbox:** Allows technicians to enter text from their keyboard for a free form response. There is an option in the advanced panel to make the textbox bigger to allow for multiline responses.
+In Early Access opt in release a TextBox can be input with a default value and can also be made as read only.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of textbox read only.](./media/textbox-read-only.jpg)
+
 
 - **Checkbox**, **radiogroup**, **dropdown**: Allows technicians to choose an answer from predefined options. The question types **Checkbox**, **Radiogroup**, and **Dropdown** are similar, except the **Checkbox** question type is multi-select, whereas **Radiogroup** and **Dropdown** allow for a single answer. The difference between **Radiogroup** and **Dropdown** is cosmetic and should be used based on desired user experience.
 
@@ -106,7 +106,6 @@ Add a question to the inspection by double-clicking or dragging-and-dropping a q
 - **Matrix (Dynamic):** Adds a grid of questions. More rows can be added dynamically while performing the inspection. See the following screenshot for an example.
 
 
-
 > [!div class="mx-imgBorder"]
 > ![Device render showing an inspection form allowing adding more rows.](./media/inspections-matrix-barcode.png)
 
@@ -119,12 +118,16 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 
 ### Compact question view
 
+> [!Note]
+> The compact question view feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
+
 Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
 Inspection creators can show or hide the title and description of the inspection when inspection performers are viewing it.
+Also, the auto numbering of the questions can be disabled to assign custom numbering.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection version showing the toggle for hiding the title.](./media/compactness1.png)
+> ![Screenshot of an inspection version showing the toggle for hiding the title.](./media/show-question-numbers.jpg)
 
 Choose layout density.
 
@@ -259,7 +262,7 @@ Back in Dynamics 365, a dispatcher will see inspection responses.
 After the work order is scheduled to the appropriate technician, they can see and complete the inspection from the work order on the [Field Service Mobile](field-service-mobile-overview.md) app.
 
 > [!Note]
-> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](https://docs.microsoft.com/dynamics365/field-service/field-service-mobile-app-user-guide#step-3-import-the-mobile-project-template).
+> You must download and import a new mobile project template into the mobile configuration tool (Woodford) to use inspections on Field Service Mobile during public preview. [Download the mobile project template for inspections](https://aka.ms/fsmobile-project). For more information on mobile project templates, see the topic on [importing the mobile project template](./field-service-mobile-app-user-guide.md#step-3-import-the-mobile-project-template).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the mobile configurator, showing the list of projects.](media/inspections-fsm-mobile-project.png)
@@ -275,7 +278,6 @@ Find the inspection form and enter answers. Technicians can upload files, take p
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile app showing a sample inspection.](./media/inspections-mobile-r-2.png)
-
 
 When finished, the technician can select **Mark Complete** or set **Complete %** to 100.
 
@@ -353,3 +355,6 @@ Compared to work order incident types and service tasks, inspections have more b
 - **Easier to create**: Administrators can quickly create an inspection with a drag-and-drop interface without needing to create new entities and fields.
 - **Easier to fill out**: Technicians can quickly enter responses for each inspection question and save all of them at once, rather than having to open and close multiple work order service task records.
 - **More flexible and robust**: Field Service inspections have many question formats and validation options, such as multi-option select, mandatory fields, images, attachments, and more.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

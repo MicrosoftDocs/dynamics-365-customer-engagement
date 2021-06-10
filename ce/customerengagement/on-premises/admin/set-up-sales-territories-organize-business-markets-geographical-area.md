@@ -1,18 +1,16 @@
 ---
 title: "Set up sales territories to organize business markets by geographical area  | MicrosoftDocs"
-description: ""
-keywords: 
+description: "Create territories for customer and market segments in Dynamics 365 Customer Engagement (on-premises)."
+ms.custom: 
 ms.date: 03/30/2020
-ms.service:
-  - crm-online
+ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a7fef06e-31ad-43d1-b4a6-c234a836b191
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,6 +18,10 @@ caps.latest.revision: 36
 ---
 
 # Set up sales territories to organize business markets by geographical area
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Improve sales potential and revenues by creating territories for customer and market segments in Dynamics 365 Customer Engagement (on-premises). Then assign appropriate sales people to handle the sales and revenue opportunities for those territories.  
   
@@ -114,3 +116,6 @@ Organizations can create a model and visualize their sales territories in a hier
 ### See also  
  [Administrator and sales manager guide](../../../sales-enterprise/admin-guide.md)   
  [Nurture sales from lead to order (Sales)](../../../sales-enterprise/nurture-sales-from-lead-order-sales.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

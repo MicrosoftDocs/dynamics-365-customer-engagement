@@ -1,11 +1,11 @@
 ---
 title: "linkToConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: "Omnichannel for Customer Service Session API reference"
+ms.date: 10/20/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/20/2020
-ms.topic: article
 ms.reviewer: nenellim
 ---
 # linkToConversation
@@ -44,3 +44,6 @@ Microsoft.Omnichannel.linkToConversation("incident", "6b726d86-d37c-43b8-b3a4-c4
 ## See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [PriceLevel Entity](entities/pricelevel.md)   
  [Opportunity Entity](entities/opportunity.md)   
  [Sample: Set Negative Prices in Opportunities, Quotes and Sales Orders](sample-set-negative-prices-opportunities-quotes-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

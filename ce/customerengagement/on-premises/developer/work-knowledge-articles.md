@@ -124,7 +124,7 @@ KnowledgeArticle respObject = (KnowledgeArticle)_serviceProxy.Retrieve(Knowledge
   
 - 6: Discarded (after a knowledge article is discarded)  
   
-  To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md).  
+  To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform specialized operations using Update](/powerapps/developer/data-platform/special-update-operation-behavior).  
   
   The following sample code shows how to publish a knowledge article record.  
   
@@ -174,7 +174,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
 <a name="Search"></a>   
 ## Search knowledge articles using full-text search  
- Knowledge articles in Dynamics 365 Customer Engagement (on-premises), including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search).  
+ Knowledge articles in Dynamics 365 Customer Engagement (on-premises), including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](/sql/relational-databases/search/full-text-search).  
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
@@ -186,7 +186,7 @@ The Knowledge Management functionality in Dynamics 365 Customer Service has been
 - [KbArticleComment](entities/kbarticlecomment.md) 
 - [KbArticleTemplate](entities/kbarticletemplate.md)  
 
-Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
+Deprecation of the legacy knowledge entities was announced in the, [Important changes coming in future releases of Microsoft Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#some-knowledge-management-entities). 
 
 Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](../../../customer-service/customer-service-hub-user-guide-knowledge-article).  
 
@@ -206,4 +206,7 @@ Use the following for help with migration:
  - [KnowledgeArticleViews Entity](entities/knowledgearticleviews.md)
  - [KnowledgeBaseRecord Entity](entities/knowledgebaserecord.md)
  - [LanguageLocale Entity](entities/languagelocale.md)
- - [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
+ - [Important changes coming in future releases of Microsoft Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#bkmk_CrmKMEntities) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

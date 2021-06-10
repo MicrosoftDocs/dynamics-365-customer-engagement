@@ -649,3 +649,6 @@ A Tool Bar that contains buttons
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)   
  [Schema Support for the Customization File](edit-customizations-xml-file-schema-validation.md)   
  <xref:Microsoft.Crm.Sdk.Messages.ExportSolutionRequest.ExportIsvConfig>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

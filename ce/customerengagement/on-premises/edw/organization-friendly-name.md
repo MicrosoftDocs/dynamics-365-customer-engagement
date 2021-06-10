@@ -1,5 +1,7 @@
 ---
 title: "The organization friendly name must be less than 160 characters | Microsoft Docs"
+description: Environment diagnostics warning that the specified name is too long.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  Shorten the organization friendly name length so that it is 159 characters or less.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

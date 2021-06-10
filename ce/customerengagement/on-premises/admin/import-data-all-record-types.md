@@ -1,5 +1,6 @@
 ---
 title: "Import data (all record types)  | MicrosoftDocs"
+description: "Import data (all record types) from multiple sources."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -50,3 +51,6 @@ There are several ways to import data into Customer Engagement (on-premises):
   
 ### See also  
  [Detect duplicate data](../admin/detect-duplicate-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

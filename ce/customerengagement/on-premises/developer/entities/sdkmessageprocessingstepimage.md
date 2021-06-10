@@ -636,3 +636,5 @@ See systemuser Entity [modifiedby_sdkmessageprocessingstepimage](systemuser.md#B
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sdkmessageprocessingstepimage?text=sdkmessageprocessingstepimage EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

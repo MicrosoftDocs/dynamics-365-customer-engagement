@@ -31,3 +31,6 @@ To perform Dynamics 365 Report Authoring Extension maintenance, select from the 
  [Uninstall, repair, and change Microsoft Dynamics 365](uninstall-repair-and-change-microsoft-dynamics-365.md)  </br> 
  [Uninstall or repair a Microsoft Dynamics 365 Language Pack](uninstall-repair-dynamics-365-language-pack.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

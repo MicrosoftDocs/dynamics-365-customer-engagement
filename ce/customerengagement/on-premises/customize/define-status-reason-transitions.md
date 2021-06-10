@@ -1,5 +1,5 @@
 ---
-title: "Define status reason transitions | MicrosoftDocs"
+title: "Define status reason transitions with Date and Time data type  | MicrosoftDocs"
 description: "Learn how to define status reason transitions"
 ms.custom: 
 ms.date: 11/28/2018
@@ -71,3 +71,6 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
 ### See Also  
  [Create and edit fields](../customize/create-edit-fields.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Cookies set and read (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 Marketing."
-ms.date: 09/10/2020
+ms.date: 05/19/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -23,7 +23,9 @@ search.app:
 Dynamics 365 Marketing identifies website visitors by using a technology called *cookies*. A cookie is a small file that's sent by a server and saved by your browser. Each time you visit a server for which a cookie is set, your browser submits that cookie value back to the server. In this way the cookie can provide a unique visitor ID, which enables the server to return information that is unique to you. This is the technology that originally made the online shopping cart possible.
 
 > [!IMPORTANT]
-> Many countries/regions (including the European Union) require that you obtain consent before setting a cookie on a resident's machine. It is your organization's responsibility to be aware of, and conform to, all relevant laws and regulations in the markets where you operate, including when it comes to obtaining consent to set cookies. For example, you can read more about the EU regulations at [ec.europa.eu/ipg/basics/legal/cookies/](https://ec.europa.eu/ipg/basics/legal/cookies/).
+> Many countries/regions (including the European Union) require that you obtain consent before setting a cookie on a resident's machine. It is your organization's responsibility to be aware of, and conform to, all relevant laws and regulations in the markets where you operate, including when it comes to obtaining consent to set cookies. You can read more about the EU regulations at [ec.europa.eu/ipg/basics/legal/cookies/](https://ec.europa.eu/ipg/basics/legal/cookies/).
+> 
+> This page explains how Dynamics 365 Marketing can help your organization conform to these regulations.
 
 Dynamics 365 Marketing can generate a small piece of JavaScript code that reads and sets cookies on any page where you place the code. All you need to do to let Dynamics 365 Marketing record visits to a given page is to include the script on that page.
 
@@ -40,7 +42,33 @@ Dynamics 365 Marketing sets three different types of cookies:
 > [!NOTE]
 > The Dynamics 365 Marketing application itself also sets cookies to enable sign-in sessions and other technical features. These only affect direct users of Dynamics 365 Marketing (such as your internal marketing personnel), not the general public. Microsoft&#39;s standard privacy policy applies for these users.
 
+## How to disable non-essential Dynamics 365 Marketing cookies
+
+Dynamics 365 Marketing provides a JavaScript API to help your organization conform with data regulations by disabling non-essential Marketing cookies. By defining the following function in your web pages, Marketing will not set non-essential cookies.
+
+```
+<script>
+    function d365mktConfigureTracking() {
+         return {Anonymize: true};
+    }
+</script>
+```
+
+> [!NOTE]
+> Without the above code, Marketing *will* set non-essential cookies by default.
+
+If you use a third-party system to handle consent such as a consent service or a cookie banner, you can instruct Marketing to set non-essential cookies with the following call:
+
+```
+MsCrmMkt.reconfigureTracking({Anonymize: false})
+```
+
+Without non-essential cookies, Marketing's tracking capabilities are limited. In some scenarios, users will appear to be anonymous. For example, form submissions will continue to work correctly as user identification is based on the submitted data not on cookies, but form prefill data will not work.
+
 ### See also
 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Register link clicks and website visits](register-engagement.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

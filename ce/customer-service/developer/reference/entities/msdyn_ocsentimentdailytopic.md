@@ -1,12 +1,11 @@
 ---
 title: "msdyn_ocsentimentdailytopic Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsentimentdailytopic entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -822,7 +821,7 @@ Same as msdyn_ocsentimentdailytopickeyword entity [msdyn_msdyn_ocsentimentdailyt
 
 ### <a name="BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid"></a> msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid
 
-Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid](msdyn_ocsentimentdailytopictrending.md#BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid) Many-To-One relationship.
+Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_basetopicid](msdyn_ocsentimentdailytopictrending.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -837,7 +836,7 @@ Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdaily
 
 ### <a name="BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid"></a> msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid
 
-Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid](msdyn_ocsentimentdailytopictrending.md#BKMK_msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid) Many-To-One relationship.
+Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_ocsentimentdailytopictrending_dailytopicid](msdyn_ocsentimentdailytopictrending.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -854,3 +853,6 @@ Same as msdyn_ocsentimentdailytopictrending entity [msdyn_msdyn_ocsentimentdaily
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

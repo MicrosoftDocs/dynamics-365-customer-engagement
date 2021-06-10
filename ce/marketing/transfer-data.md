@@ -40,7 +40,7 @@ Complete the following prerequisites before transferring data and configurations
 1. Make sure no records are in a "live" state. The Configuration Migration tool will not transfer entities that are in a "live" state, thus import to the destination environment will be partial.
 
     > [!NOTE]
-    > The Configuration Migration tool includes options to exclude or filter live records. The exclude functionality removes the **Status** field, exporting all entities regardless of status. The filter functionality limited the entities that are exported. [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with these features.
+    > The Configuration Migration tool includes options to exclude or filter live records. The exclude functionality removes the **Status** field, exporting all entities regardless of status. The filter functionality limited the entities that are exported. [Contact technical support](/power-platform/admin/get-help-support) for assistance with these features.
 
 1. Ensure that the source and destination environments are running the same version of Dynamics 365 Marketing and are using an identical database schema (at least for the data you are transferring).
 
@@ -55,7 +55,7 @@ The following notes apply when you use export/import to move data from one Dynam
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
 
-The Configuration Migration tool helps you extract your data and configuration details from one environment and then import them to another. To get the tool, follow the instructions given in [Download tools from NuGet](../developer/download-tools-nuget.md).
+The Configuration Migration tool helps you extract your data and configuration details from one environment and then import them to another. To get the tool, follow the instructions given in [Download tools from NuGet](../customerengagement/on-premises/developer/download-tools-nuget.md).
 
 ## Make sure your source and destination are running the same version of Marketing
 
@@ -89,14 +89,14 @@ To generate the required schema:
 
 1. In the utility, select **Create schema** and then sign into your source environment.
 
-1. Follow the instructions provided in [Create a schema to export configuration data](https://docs.microsoft.com/power-platform/admin/create-schema-export-configuration-data) to generate the schema. Be sure to include all of the solutions, entities, and fields for which you want to transfer data, and also make sure all dependencies are included.
+1. Follow the instructions provided in [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data) to generate the schema. Be sure to include all of the solutions, entities, and fields for which you want to transfer data, and also make sure all dependencies are included.
 
 > [!TIP]
 > Here are a few links and notes that may help you generate the schema you need:
 > 
 > - You can use the metadata browser tool to explore and understand your database structure. For details about how to install and use it, see the [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md).
-> - While you're [creating your schema](https://docs.microsoft.com/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, you can check for relationships used by any selected entity by selecting the **Show the relationships for the selected entity** check box. This can help keep you from leaving out any dependencies.
-> - When you're done [creating your schema](https://docs.microsoft.com/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, select **Tools** > **Validate Schema** from the menu bar. This will check for dependencies for all your selected entities, and can also help point out other common issues.
+> - While you're [creating your schema](/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, you can check for relationships used by any selected entity by selecting the **Show the relationships for the selected entity** check box. This can help keep you from leaving out any dependencies.
+> - When you're done [creating your schema](/power-platform/admin/create-schema-export-configuration-data) with the Configuration Migration tool, select **Tools** > **Validate Schema** from the menu bar. This will check for dependencies for all your selected entities, and can also help point out other common issues.
 
 ## Export data from your source environment
 
@@ -168,7 +168,10 @@ To import data to your destination environment:
 ### See also
 [Manage your Marketing environments](manage-marketing-environments.md)  
 [Transfer customizations between environments](transfer-solution.md)  
-[Administer Power Apps](https://docs.microsoft.com/power-platform/admin/admin-guide)  
-[Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)  
-[Move configuration data across environments and organizations](https://docs.microsoft.com/power-platform/admin/manage-configuration-data)  
-[Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)
+[Administer Power Apps](/power-platform/admin/admin-guide)  
+[Environments overview](/power-platform/admin/environments-overview)  
+[Move configuration data across environments and organizations](/power-platform/admin/manage-configuration-data)  
+[Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: Share knowledge articles in the Omnichannel for Customer Service | MicrosoftDocs
 description: Understand how you can share knowledge articles in Omnichannel for Customer Service
+ms.date: 10/09/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/09/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -40,3 +39,6 @@ To know more about how to configure the external portal in the **Customer Servic
 
 [Search and share knowledge articles](oc-search-knowledge-articles.md)  
 [Search and share knowledge articles in Customer Service workspace](csw-search-knowledge-articles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -22,6 +22,8 @@ search.app:
 
 # Gamification terminology
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 For a quick reference, review these terms used in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)].
 
 ## Security roles
@@ -81,3 +83,6 @@ Stream TV is a way to stream smack talk notifications and leaderboards from acti
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)  
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)  
  [Overview for players and fans in Gamification](for-players-fans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

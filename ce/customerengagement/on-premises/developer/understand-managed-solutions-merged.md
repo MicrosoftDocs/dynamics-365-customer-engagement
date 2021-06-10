@@ -63,3 +63,6 @@ When you prepare your managed solution to be installed, remember that an organiz
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  [Customize Entity Forms in Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-entity-forms.md)   
  [Change Application Navigation using the SiteMap](customize-dev/change-application-navigation-using-sitemap.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

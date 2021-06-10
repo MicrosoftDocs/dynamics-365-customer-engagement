@@ -22,6 +22,8 @@ search.app:
 
 # Manage Stream TV games in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Display a slide show for daily, weekly, and monthly KPIs on TVs and screens around your office. All other game models can also be displayed on TVs.
 To create a Stream TV from multiple active games, see [Stream results from active games](configure-view-tvs.md#stream-results-from-active-games).
 
@@ -110,3 +112,6 @@ Stream leaderboards from multiple active games to screens around your office to 
  [Privacy information and license terms for Gamification](legal-information.md)   
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Define the actions to be performed by a command bar or ribbon control in a `<Com
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Define Ribbon Display Rules](define-ribbon-display-rules.md)   
  [Pass Microsoft Dynamics 365 Customer Engagement data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

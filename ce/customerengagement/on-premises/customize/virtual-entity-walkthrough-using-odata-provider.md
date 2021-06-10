@@ -1,8 +1,8 @@
 ---
-title: "Virtual entity walkthrough using the OData Data Provider | MicrosoftDocs"
+title: "Virtual entity walkthrough using the OData Data Provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to use the OData v4 data provider with a virtual entity"
 ms.custom: 
-ms.date: 01/14/2019
+ms.date: 05/03/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,6 +20,13 @@ search.audienceType:
   - customizer
 ---
 # Virtual entity walkthrough using the OData v4 Data Provider
+
+::: moniker range="op-9-1"
+Imagine that you want to access, create, update, and delete some personal information about a contact from an external data source within your custom business app. Because the data source used for this walkthrough has an OData v4 web service, you can use the OData v4 Data Provider included with your version of Dynamics 365 Customer Engagement. More information: [Virtual table walkthrough using the OData v4 Data Provider](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
+
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Virtual table walkthrough](/powerapps/maker/data-platform/virtual-entity-walkthrough-using-odata-provider)
 
@@ -174,8 +181,13 @@ Open a **Ticket** record to view the form that includes the **Title** and **Seve
 
 ![Ticket record](media/ticket-record.png)
 
-### See also
+::: moniker-end
+
+### See also 
 
 [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
 
 [Create and edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement log file does not exist | Microsoft Docs"
+description: Environment diagnostics warning that a database file is missing.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -26,3 +28,6 @@ ms.author: matp
   
 -   Remove the .mdf or .ldf file from the folder, and then run Setup again and choose to create a new database.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

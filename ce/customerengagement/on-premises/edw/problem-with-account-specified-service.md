@@ -31,7 +31,7 @@ Review the message in the [!INCLUDE [pn-environment-diagnostics-wizard](../inclu
   
 -   Verify that the user account is not a local system account.  
   
--   Verify that the credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup, services, and components](https://go.microsoft.com/fwlink/p/?LinkID=306136).  
+-   Verify that the credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For more information, see [Minimum permissions required for Microsoft Dynamics CRM Setup, services, and components](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699825(v=crm.8)).  
   
  ## Cause 2
   
@@ -49,3 +49,6 @@ Review the message in the [!INCLUDE [pn-environment-diagnostics-wizard](../inclu
   
  Add the service account to the **Performance Log Users** local group or specify an account that already has this permission. Alternatively, you can use the Network Service account.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

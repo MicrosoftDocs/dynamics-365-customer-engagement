@@ -1,12 +1,11 @@
 ---
 title: "Attach customer summary-related action calls to events | MicrosoftDocs"
 description: "Learn how to attach the customer summary-related action calls to events for agents using Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -66,3 +65,6 @@ This topic describes how to attach the customer summary-related action calls to 
 
 - [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
 - [Step 2: Create customer summary-related action calls](customer-summary-step2-create-action-calls.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

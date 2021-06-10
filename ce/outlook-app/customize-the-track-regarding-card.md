@@ -1,7 +1,8 @@
 ---
-title: "Customize the track regarding card in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
-ms.custom: 
-ms.date: 01/09/2018
+title: "Customize the track regarding contact card in Dynamics 365 App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
+ms.custom:
+description: How to modify the App for Outlook Contact Card form.
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,35 +22,61 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize the track regarding card 
-## Customize the track regarding card
+# Customize the track regarding contact card 
 
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
+An app maker can modify the columns on a contact card that is used to track an email or appointment using [**Set Regarding**](user/track-message-or-appointment.md). 
 
-![Initial contact card](media/initial-contact-card.png "Initial contact card")
+To modify these columns, an app  maker needs to edit the **App for Outlook Contact Card** form.
 
-To change the fields that appear, follow these steps:
+In the example below, the **App for Outlook Contact Card** form has three columns titled **Job Title**, **Business Phone**, and **Mobile Phone**. These are also the same columns a user sees on the contact card.
 
-1. In your app, go to **Settings** > **Customizations** > **Customize the System**.
-2. Expand **Entities** and choose an entity such as **Contact**.
-3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
+   > [!div class="mx-imgBorder"]
+   > ![Contact card example](media/sample-contact-card-columns.png)
 
-   ![Contact entity form](media/contact-entity-form.png)
+To replace the **Mobile Phone** column with **Company Name** instead, you need to update the **App for Outlook Contact Card** form.
 
-4. Drag **Company Name** above **Business Phone**.
+   > [!div class="mx-imgBorder"]
+   > ![Contact card before customization](media/before-cust.png)
 
-   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
+To modify columns that appear on the contact card, follow these steps:
 
-   ![After dragging field](media/after-dragging-fields.png "After dragging field")
+1. Sign in to [Power Apps](https://make.powerapps.com).
 
-   > [!NOTE]
-   > The first three fields appear in the track regarding card.
+ 
+2. On the left nav, select **Data** to expand it and then select **Tables**.  
 
-5. Select **Save**, **Publish**, and then close the form editor.
-6. On the solution page, **Publish All Customizations**. 
-7. Close the solutions page.
+   > [!div class="mx-imgBorder"]
+   > ![Go to Tables in maker portal](media/maker-data-tables.png)
+   
+  
+3. Select a table such as **Contact** and then select the **Forms** tab.
 
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
+   > [!div class="mx-imgBorder"]
+   > ![Select the forms tab](media/maker-form-tab.png)
 
-![After customizing card](media/after-customizing-card.png "After customizing card")</br>
-The company name now appears after the contact name in the Contact card.
+4. Select the **App for Outlook Contact Card** form.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select the App for Outlook Contact Card form](media/maker-outlook-contact-card.png)
+
+5. In the form designer drag **Company Name** above **Mobile Phone**. It's important to note, that only the first three columns appear in the track regarding contact card. Although a related subgrid can be added to the quick view form, but it doesn't render within the **Track Regarding** contact card.
+
+
+   > [!div class="mx-imgBorder"]
+   > ![Edit the form and drag company name above mobile phone](media/maker-edit-contact-form.png)
+
+
+7. Select **Save** > **Publish** and then close the form editor.
+8. On the solutions page, select **Publish All Customizations** and then close the solutions page.
+
+   > [!div class="mx-imgBorder"]
+   > ![Publish customizations](media/maker-publish-customizations.png)
+
+
+After completing the above, right-click in the track regarding card, and then choose **Refresh**. It will take a few minutes for the synchronization to complete and the changes to appear. Once synchronization is complete, the company name now appears at the bottom instead of the mobile phone number.
+
+   > [!div class="mx-imgBorder"]
+   > ![Contact row after customization](media/after-cust.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

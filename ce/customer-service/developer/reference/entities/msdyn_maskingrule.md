@@ -1,12 +1,11 @@
 ---
 title: "msdyn_maskingrule Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_maskingrule entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -605,3 +604,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ The deployment architecture you will use depends on your business needs. Example
  [Planning Your Deployment of Microsoft Dynamics CRM 2015](planning-your-deployment-of-microsoft-dynamics-365.md)   
  [Multiple-server deployment](microsoft-dynamics-365-multiple-server-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "msdyn_channelprovider Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_channelprovider entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "jdaly"
 ms.date: 11/03/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "jdaly"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -925,8 +924,11 @@ See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_
 
 ### See also
 
-- [Configure the channel provider](../../configure-channel-provider-channel-integration-framework.md)
+- [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/configure-channel-provider-app-profile-manager)
 
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 
 - [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

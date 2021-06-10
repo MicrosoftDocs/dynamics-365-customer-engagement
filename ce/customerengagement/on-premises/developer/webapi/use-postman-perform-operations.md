@@ -29,3 +29,6 @@ The operations that you can perform using the Web API are same for the online an
 ## See also
 
 [What is Power Apps?](/powerapps/powerapps-overview)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

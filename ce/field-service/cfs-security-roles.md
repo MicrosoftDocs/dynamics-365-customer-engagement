@@ -22,9 +22,6 @@ search.app:
 
 Security roles for Connected Field Service allow administrators to give appropriate access to Internet of Things (IoT) entities, including alerts, assets, devices, and commands, which are all included with Field Service v8.3+. These security roles should be added to existing Field Service security roles for field service administrators, dispatchers, and resources. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/cfs-entities-navbar.png)
-
 In general, access to IoT entities should mimic access to the customer asset entity for field service administrators, dispatchers, and resources.
 
 ## Prerequisites
@@ -99,3 +96,6 @@ Because business process flows are not displayed on the Field Service Mobile app
 ## Additional notes
 
 - Any user who needs to work with device registration and device data pulls (IoT Hub operations) should be given the **IoT Administrator** and **IoT Endpoint User** security roles.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

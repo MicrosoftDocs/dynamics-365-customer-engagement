@@ -1,5 +1,6 @@
 {:allowed-branchname-matches ["^master$" "^master-omnichannel$"]
  :allowed-filename-matches ["(?i)ce/(?:(?!customerengagement/on-premises/developer/entities/systemuser.md))"]
+ :use-skip-label true
  :targets
  {
      :scores

@@ -1,12 +1,11 @@
 ---
 title: "Create customer summary-related action calls for agents | MicrosoftDocs"
 description: "Learn how to set up the customer summary-related action calls for agents using Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -155,3 +154,6 @@ This topic describes how to create customer summary-related action calls in Unif
 
 - [Step 1: Create customer summary hosted control](customer-summary-step1-create-hosted-control.md)
 - [Step 4: Add the hosted control, action calls, and events to configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

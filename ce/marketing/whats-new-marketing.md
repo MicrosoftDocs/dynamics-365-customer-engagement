@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/08/2020
+ms.date: 06/09/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -20,12 +20,408 @@ search.app:
 
 # What's new in Dynamics 365 Marketing
 
-We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](https://docs.microsoft.com/dynamics365/release-plans/).
+We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
-Marketing updates are [pushed to all customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
+Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## June 2021 update
+
+The Dynamics 365 Marketing June 2021 update includes improved engagement-tracking for Microsoft Teams events, email editor improvements, an option to include iCalendar files in emails, improved bounce error notifications, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10073.2001 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+### Monthly enhancements
+
+- **Event management**
+    - Seamlessly push webinar attendee data from Microsoft Teams to Dynamics 365 Marketing. Use the data to engage with attendees and gain insights.
+    - Attendee registrations and check-ins for Teams webinars are available in Marketing, regardless of whether the Teams webinar was created through Teams or event management in Marketing.
+    - Create segments, powered by Teams registration and check-in information, to share event summaries and recordings.
+    - Use check-in information segments to gather attendee feedback to better understand what kind of webinars attendees would like to see in the future.
+- **Marketing emails**
+    - “Add to Calendar” email button functionality automatically generates iCalendar files for events and sessions. Event attendees receive a personalized link to download their agenda as a calendar file.
+    - Test send UI improvements.
+    - Ability to set up a physical company address in the email editor.
+    - Improved email rendering and reliability.
+    - More visibility for bounces caused by suppression lists, allowing users to differentiate between new and old bounces.
+    - Detailed bounce error codes are displayed, leading to an improved understanding of bounce causes.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Fixed an issue that prevented date and time input when adding a second **Wait until** tile.
+    - Customer journeys now show an error if segmentation times out while going live.
+    - Fixed an issue that caused an error when attempting to stop a campaign with multiple iterations.
+    - Fixed an error related to the time control on the **Permitted times** setting.
+- **Event management**
+    - Resolved an issue that caused a business process error to appear instead of a "Check-in is already created for this registration" error.
+    - Fixed an error that cause recording and attendance data to disappear when pushing ExtensionData to SchedulingService.
+    - Deactivated registration responses for canceled registrations.
+- **Marketing emails**
+    - Improved rendering in Outlook when adding images to columns with borders.
+    - Fixed an error that caused changes in the HTML editor to not correctly propagate to entities.
+- **Marketing insights**
+    - Improved sorting of segment records.
+- **Marketing pages**
+    - Fixed an issue that sometimes caused a delete button to appear for users without delete and write permissions.
+    - Resolved an error that sometimes led to form double submission when using a redirect URL.
+    - Resolved a form ID error when a form is inserted into a page multiple times.
+- **Settings**
+    - Resolved an error that occasionally prevented the **Versions** page from loading.
+    - Improved language localization in advanced settings.
+- **Shared UX**
+    - Improved rendering of custom controls in forms.
+- **Social posting**
+    - Removed exception on assigning a lead owner when no LinkedIn account is set.
+
+## May 2021 update
+
+The much-anticipated customer journey orchestration features have made their public preview debut to customers in North America. Customers with Dynamics 365 Marketing paid or trial subscriptions are able to use the new features. Marketing now has capabilities to empower customer experience-focused organizations to deliver digitally transformed customer experiences in real time. These features enable organizations to:
+
+- Engage customers in real-time.
+    - With features such as event-based customer journeys, custom event triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+- Win customers and earn loyalty faster.
+    - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
+- Personalize customer experiences with AI.
+    - Turn insights into relevant action with AI-driven recommendations for content, channels, and analytics.
+    - Customer Insights segment and profile integration allows organizations to seamlessly leverage the deep customer understanding in Customer Insights.
+- Grow with a unified, adaptable platform.
+    - Easily customize and connect with tools you already use.
+    - Efficiently manage compliance requirements and accessibility guidelines.
+
+The May 2021 Marketing monthly update includes email editor improvements, expanded Teams webinar configuration options, JavaScript support for marketing forms, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10072.1070 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+> [!NOTE]
+> The customer journey orchestration preview features are available in the US region. The preview features will be available in the EU region in May. Other regions will be supported at the time of general availability.
+
+- **AI-driven run-time channel optimization**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-run-time-channel-optimization)
+    - [Docs](real-time-marketing-channel-optimization.md)
+- **AI-driven recommendations for images**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/ai-driven-recommendations-image-video-document-or-fragment)
+    - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
+- **Author personalized content across email, SMS, and push notifications through a new point-and-click interface**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
+    - [Docs](real-time-marketing-email.md#add-personalized-data-to-a-real-time-marketing-email)
+- **Create and send SMS messages to any mobile phone**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-send-sms-messages-mobile-phone)
+    - [Docs](real-time-marketing-outbound-text-messaging.md)
+- **Deliver push notifications to any Android or iOS app**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/deliver-push-notifications-android-or-ios-app)
+    - [Docs](real-time-marketing-push-notifications.md)
+- **Event catalog with built-in and custom events for triggering customer journeys**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/event-catalog-built-in-custom-events-triggering-customer-journeys)
+    - [Docs](real-time-marketing-event-triggers.md)
+- **Experiment with the next action in a journey to optimize for results**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/experiment-next-action-journey-optimize-results)
+    - [Docs](real-time-marketing-experimentation.md)
+- **Hyper-personalize customer journeys using data and insights from Dynamics 365 Customer Insights**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/hyper-personalize-customer-journeys-using-data-insights-dynamics-365-customer-insights)
+    - [Docs](real-time-marketing-segments.md)
+- **Improve journey effectiveness with a built-in cross-journey aggregate dashboard**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/improve-journey-effectiveness-new-set-built-analytics-dashboards-cross-journey-insights)
+    - [Docs](real-time-marketing-analytics.md)
+- **In real time, monitor your customer journeys and channel KPIs**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-monitor-customer-journeys-channel-kpis)
+    - [Docs](real-time-marketing-analytics.md)
+- **Real-time, event-based customer journey orchestration**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-event-based-customer-journey-orchestration)
+    - [Docs](real-time-marketing-event-based-journey.md)
+- **Search, version, manage, and tag your digital assets with a new centralized asset library**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/search-version-manage-tag-digital-assets-new-centralized-asset-library)
+    - [Docs](real-time-marketing-asset-library.md)
+- **Set business goals for journeys and measure progress to the goals**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/set-business-goals-journeys-measure-progress-goal)
+    - [Docs](real-time-marketing-business-goals.md)
+- **Use continuously updating, multidata-source segments from Customer Insights in your marketing campaigns**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/use-continuously-updating-multidata-source-segments-customer-insights-marketing-campaigns)
+    - [Docs](real-time-marketing-ci-profile.md)
+- **Use natural language to create conditions for branching customer journeys**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/use-natural-language-create-conditions-branching-customer-journeys)
+    - [Docs](real-time-marketing-natural-language.md)
+
+### Monthly enhancements
+
+- **Event management**
+    - Set comprehensive Teams webinar configuration options directly from Marketing events pages.
+- **Marketing emails**
+    - The [new email editor experience](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises) is now available to new users by default .
+    - Duplicate, edit, and delete email sections and elements with one click.
+    - Move sections and elements on the canvas.
+    - Switch to the new email editor experience directly from the editor itself, without admin privileges.
+    - Select one or multiple borders in an element.
+- **Marketing pages**
+    - Marketing forms now support JavaScript, improving customization possibilities.
+    - Improved user interface for C2 lookup fields.
+    - New API to populate lookup fields with customizable values.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Upgraded *ConditionControl* to integrate new strings.
+    - Improved timezone labels in customer journey milestone timestamps.
+- **Data services**
+    - Resolved a data services issue that sometimes resulted in an entity sync failure.
+- **Event management**
+    - Fixed an error related to the *autocreateaccessteams* property that occasionally resulted in an upgrade failure.
+    - Fixed an issue that sometimes caused deactivated wait list items to get picked up for registration.
+    - Resolved an error that caused cancelled registrations to sometimes appear in the *My registrations* list.
+- **First run experience**
+    - Improved data clean up during uninstall.
+- **Marketing emails**
+    - Added dynamic content support to the *Link to* field.
+    - Added support for custom forms to the email editor.
+    - Resolved an error that caused email button text to not load correctly.
+    - Fixed an issue that caused rounded buttons to not center correctly in Outlook.
+- **Marketing pages**
+    - Resolved an issue that caused query strings to not be parsed by some servers.
+- **Shared UX**
+    - Resolved an error that caused image links added to content blocks to not function as expected.
+
+## April 2021 update
+
+The Dynamics 365 Marketing April 2021 update includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever.
+
+> [!TIP]
+> To enable the email editor, activate the **Updated email editing experience** [feature switch](admin-feature-switches.md).
+
+This release also includes social posting to Instagram, an API to enable or disable cookies, a new custom “Envelope-From” domain option, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10071.2007 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+### Monthly enhancements
+
+- **Marketing emails**
+    - Added an in-app onboarding guide to the new email editor to ease user transition from the classic editor.
+    - The canvas and settings now include options for footer fields, making it easier to add footer elements such as a legal address or an unsubscribe link.
+    - To save time when creating new emails and templates, we added a settings option to save a default “from” name and email address.
+    - You can now set up a custom Envelope-From domain so the From domain used by the Dynamics 365 sending infrastructure is associated with a user’s brand instead of Dynamics 365. Setting up an Envelope-From domain allows users to protect their sending reputation and is important to [DMARC](https://dmarc.org) implementation.
+- **Marketing pages**
+    - Added a new API to enable, disable, or delete cookies, expanding options for user tracking and compliance. The API, which affects known and anonymous visitors, applies to hosted forms, marketing pages (when Power Apps Portal is used), and captured forms.
+- **Social posting**
+    - With this release, you can easily create rich content for Instagram. You can now optimize when posts are delivered by scheduling them.
+    - Post single photos to Instagram (limited to one photo per post, video posting is scheduled for an upcoming release).
+
+### Bug fixes
+
+- **Customer journeys**
+    - Added a mechanism to detect duplicate customer journey contacts.
+    - Fixed an error that allowed users to create non-functioning customer journeys by adding an Event tile after a Segment tile.
+    - Resolved an error that caused segment name changes to not reflect in the customer journey designer.
+    - Fixed an error that broke HTML when post-processing and designer editor meta tags were both in one email.
+    - Fixed an error that caused a customer journey popup element to be shown even after the tab was changed.
+    - Deprecated the unused "Marketing Machine Learning Spam Score User" role.
+- **Data services**
+    - Fixed an erroneous warning in segmentation stating that "Metadata type 'contact' does not exist."
+- **Event management**
+    - Added the ability to only show active records in the custom field lookup when creating an event custom registration field.
+    - Fixed an error that prevented users from adding existing sessions in Session tracks.
+- **First run experience**
+    - Resolved an issue where multi-geo PPAC provisioning failed to an org in a different geo.
+    - Fixed a UI error that sometimes showed a Marketing app as "not configured," even when it was configured.
+- **Marketing emails**
+    - Fixed an error that sometimes prevented an email button area from being clickable in Outlook.
+    - Improved email rendering in iOS and desktop Outlook.
+    - Fixed an error that caused changes to "stopped" state emails to not be detected.
+    - Fixed an error that sometimes caused rounded corner buttons to display rotate/resize marks after clicking off the button.
+- **Marketing pages**
+    - Fixed an error that prevented global double opt-in confirmation links from allowing query parameters.
+    - Resolved an issue that caused RedirectLinkClicked interactions to rely on cookies, even though the tracking link redirected to the redirect link.
+    - Fixed an error that caused query strings to not be parsed by some servers.
+    - Resolved a list ID type mismatch in form submission rendering.
+    - Fixed an issue that prevented an error from being thrown when a subscription center was changed to "Update Contact and Leads."
+    - Fixed an occasional SQL error when retrieving marketing form submissions.
+    - Resolved an error that caused the page editor to stop responding to changes when the page contained modified video elements.
+    - Resolved an issue that caused marketing form DateTime fields to always be treated as UTC time instead of exposing the correct time zone information.
+    - Resolved missing privilege errors for personalized pages in the "Marketing Manager - Business" user role.
+- **Segmentation**
+    - Fixed an issue that sometimes caused dates in dynamic segments to be partially cut off in the UI.
+- **Settings**
+    - Resolved loading errors on the **Versions** page.
+- **Shared UX**
+    - Fixed an error that sometimes caused cancelled registrations to not be removed from segments.
+- **Social posting**
+    - Fixed marketing roles missing privileges issues for social posting.
+
+## March 2021 update
+
+The Dynamics 365 Marketing March 2021 early access release includes a completely revamped email editor. The new email editor is a milestone release, addressing our customers’ most requested improvements. The email editor improves usability, helping marketers create engaging emails more quickly than ever. The March GA release includes improved email column rendering, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10070.1097 | 1.35.10070.2097 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Early access features
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). For more information about the 2021 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2021 release wave 1 features available for early access](/dynamics365-release-plan/2021wave1/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](/power-platform/admin/get-help-support).
+
+- **Create emails quickly with low effort and without compromises**
+    - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-emails-quickly-low-effort-without-compromises)
+    - [Docs](email-design.md)
+
+### Monthly enhancements
+
+- **Marketing emails**
+    - Improved column rendering when **Table layout for section** is enabled in the email designer.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Resolved a Norwegian localization issue.
+    - Fixed an error that caused duplicate email links to not filter when the version property was non-null.
+    - Resolved an error that caused marketing email insights to not be able to filter by inactive customer journeys.
+    - Fixed an error that caused the segment state to not update when PULL was turned off.
+- **Data services**
+    - Fixed an error that caused marketing analytics exports to occasionally fail.
+- **Event management**
+    - Resolved an issue that caused speaker links to not redirect to the selected speaker.
+    - Fixed a javascript error related to multi-choice custom registration fields.
+- **Marketing emails**
+    - Improved rendering consistency in form-level double opt-in emails.
+    - Fixed an issue that caused live emails to sometimes open with unsaved changes and not autosave.
+    - Fixed an error that caused lines added in a text element to not render in Outlook.
+    - Improved button rendering under bullet lists.
+    - Improved button rendering on top of background images in Outlook desktop.
+    - Improved divider code rendering.
+    - Fixed an error where empty content blocks in HTML prevented email saving.
+    - Fixed a rendering issue that caused section borders to double in Outlook.
+    - Resolved an error that caused backgrounds to be added to text elements in Outlook web.
+    - Fixed an issue that prevented preview text from updating when an email was sent using the **Send now** function.
+- **Marketing pages**
+    - Improved form double opt-in email validation functionality.
+    - Resolved an issue that occasionally caused customized default marketing pages to roll back during solution upgrade.
+    - Improved javascript functionality when client side marketing forms are loaded.
+    - Fixed an error that prevented adding contacts to a subscription list by re-submitting.
+    - Fixed an error that sometimes prevented videos from loading on marketing pages.
+    - Improved cookie reliability for tracking website visits and clicks.
+    - Resolved an error that caused a black box to appear in place of video tiles on live pages in the marketing page designer.
+- **Segmentation**
+    - Resolved an issue that prevented active registrants from being added to segments in customer journeys.
+- **Shared UX**
+    - Improved user role functionality to prevent modify actions from appearing for users without proper privileges.
+
+## February 2021 update
+
+Dynamics 365 Marketing 2021 release wave 1 early access includes rich text functionality in the email editor. February GA features include simplified Marketing settings, a Recovery Items tab for customer journeys and event management, more customization for send now functionality, improved delivery reliability for forms, and monthly bug fixes.
+
+### Version number
+
+| App              | GA release      | Early access    |
+|------------------|-----------------|-----------------|
+| Marketing        | 1.35.10069.1058 | 1.35.10069.2058 |
+
+> [!Tip]
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+
+### Early access features
+
+> [!IMPORTANT]
+> Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+>
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). For more information about the 2021 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2021 release wave 1 features available for early access](/dynamics365-release-plan/2021wave1/features-ready-early-access).
+>
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](/power-platform/admin/get-help-support).
+
+- **Marketing emails**
+    - Improved toolbox and editing properties in the email designer. The email editing toolbox is simplified, showing the most used parameters by default, streamlining email creation workflows.
+
+### Monthly enhancements
+
+- **Customer journeys**
+    - The new **Recovery Items** tab in customer journeys allows system admins to track customization errors, improving the workflow creation process.
+- **Event management**
+    - The **Recovery Items** tab is also available for error tracking in event workflows.
+    - Teams event recordings are now available to owners and producers.
+- **Marketing emails**
+    - You can now customize the lookup default view for the **send now** functionality.
+- **Marketing pages**
+    - Cookies employ a new hybrid first-party/third-party approach, improving delivery reliability for customers who block third party cookies.
+- **Shared UX**
+    - Marketing settings are revamped, making settings more accessible from the left navigation pane and simplifying the **Settings overview** page.
+    - You can now access the Marketing version number directly from the **Settings overview** page.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Removed the deprecated Social insights tab from customer journeys.
+    - Fixed an error that disabled auto scheduling if the days and hours were left in the default setting.
+- **Event management**
+    - Fixed an error that caused the Teams integration section to be visible in event forms after visibility by default was disabled.
+    - Removed the deprecated Social insights tab from event forms.
+- **First run experience**
+    - Fixed an issue that prevented existing security roles from being removed when adding new users and assigning licenses.
+- **Lead management**
+    - Fixed an error that sometimes caused the description field to be missing in a lead scoring model after a lead entity was selected.
+- **Marketing emails**
+    - Fixed an error that caused plain text fields in templates to be empty when auto generate was on.
+    - Removed the Email Editor V2 feature switch.
+    - Fixed an error that caused live emails to sometimes open with unsaved changes and then autosave.
+    - Resolved an error that caused an email text element to lose focus after creating an A/B test.
+    - Improved consistency in saving email template fields.
+    - All HTML processing is now prevented when postprocessing is disabled.
+    - Improved handling of elements in the email designer in the Firefox browser.
+- **Marketing insights**
+    - Enabled uploads of images above 4 MB.
+    - Fixed an error that caused content in the **Links** area under the **Insights** tab on a Marketing email form to not be visible to users who inherited privileges to relevant entities through "owner" team membership.
+- **Marketing pages**
+    - Fixed an issue that occasionally caused the cursor to appear in a lookup form at the bottom of a marketing page when the page loaded.
+    - Resolved an issue that caused padding preferences to not be saved in marketing forms.
+    - Resolved an issue that sometimes caused a form double opt-in email to set global double opt-in settings.
+    - Removed inaccurate references to submission behavior capture in form capture scenarios.
+    - Fixed an issue that caused matching behavior to update the topic (subject) field.
+    - Resolved an error that caused default matching strategies to not pre-populate when changing the setting to update contacts and leads.
+    - Resolved an issue that caused the lead matching strategy to show email attributes, but the contact matching strategy to not have any attributes.
+    - Improved prevention of matching strategy attribute duplication.
+    - Fixed an error that caused live marketing pages to show unsaved changes and then autosave them.
+    - Improved privilege validation when saving forms with lookup fields.
+    - Made the **Website** field in **New Form Page** editable.
+    - Fixed an error that caused the **Update contacts/leads** parameter to lock when switching the marketing form type.
+    - Form submissions now show subscription list names.
+- **Segmentation**
+    - Fixed the privilege check for the process stage entity in LoadProfileLookupPlugin.
+    - Resolved an issue that prevented the segment validation context from getting cleaned correctly.
 
 ## January 2021 update
 
@@ -42,13 +438,10 @@ The Dynamics 365 Marketing December 2020 update includes improvements to event r
 | Marketing        | 1.35.10068.1056 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Monthly enhancements
 
-- **Event management**
-    - Added a new API for generating personalized calendar (.ics) files based on event and session data.
-    - Using the new API, marketers can add an “Add to calendar” button to registration confirmation emails that automatically generates a personalized iCalendar file.
 - **Marketing emails**
     - Responding to customer feedback, we added email designer support for rounded corners in Outlook
     - We also improved email rendering consistency when forwarding emails in Outlook.
@@ -111,14 +504,14 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
 | Marketing        | 1.35.10067.1044 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Monthly enhancements
 
 - **Compliance**
-    - Together with the release of [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare/compliance-overview), Marketing is now HIPAA compliant.
+    - Together with the release of [Microsoft Cloud for Healthcare](/industry/healthcare/compliance-overview), Marketing is now HIPAA compliant.
 - **Event management**
-    - Microsoft Teams integration has improved the accuracy of event attendance tracking by restricting [attendee check-in](https://docs.microsoft.com/dynamics365/marketing/teams-webinar#inviting-registrants-to-attend-the-live-event-through-email) until 30 minutes before the start of the event.
+    - Microsoft Teams integration has improved the accuracy of event attendance tracking by restricting [attendee check-in](./teams-webinar.md#inviting-registrants-to-attend-the-live-event-through-email) until 30 minutes before the start of the event.
     - Events automatically shows Teams meetings and live events on the organizer's Outlook calendar.
 - **First run experience**
     - Addressing customer feedback, we’ve improved the portal trial experience.
@@ -167,7 +560,7 @@ The Dynamics 365 Marketing November 2020 update includes several enhancements in
 
 ## October 2020 update
 
-The Dynamics 365 Marketing October 2020 update includes several feature enhancements, performance upgrades, and bug fixes. Several [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features have been made generally available in the October update, including a new customer journey designer, built-in Teams functionality for events, email designer enhancements, flexible options for data after form submissions, in-place editing of email and forms, and expanded social posting options. This release also includes a preview of natural language input for creating segments.
+The Dynamics 365 Marketing October 2020 update includes several feature enhancements, performance upgrades, and bug fixes. Several [2020 release wave 2](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features have been made generally available in the October update, including a new customer journey designer, built-in Teams functionality for events, email designer enhancements, flexible options for data after form submissions, in-place editing of email and forms, and expanded social posting options. This release also includes a preview of natural language input for creating segments.
 
 ### Version number
 
@@ -176,27 +569,27 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 | Marketing        | 1.35.10066.1057 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### General availability enhancements
 
 - **Build customer journeys more efficiently using the new canvas experience**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/new-improved-customer-journey-canvas-experience)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/new-improved-customer-journey-canvas-experience)
     - [Docs](create-simple-customer-journey.md)
 - **Run webinars and meetings using built in Microsoft Teams functionality**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
     - [Docs](teams-webinar.md)
 - **Create engaging, customized emails faster**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
     - [Docs](email-design.md)
 - **Collect data from form submissions more easily with expanded entity options**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
     - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
 - **In-place editing of email and forms in customer journeys**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/in-place-editing-email-forms)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/in-place-editing-email-forms)
     - [Docs](customer-journeys-create-automated-campaigns.md#configure-tile-settings)
 - **Create and manage content-rich social media posts and easily monitor performance**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
     - [Docs](social-posting.md)
 
 ### Preview feature
@@ -207,7 +600,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
 
 - **Use natural language to create targeted segments**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-consume-segments-using-natural-language)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-consume-segments-using-natural-language)
     - [Docs](nl-segment-build.md)
 
 ### Bug fixes
@@ -248,7 +641,7 @@ The Dynamics 365 Marketing October 2020 update includes several feature enhancem
 
 ## September 2020 update
 
-The September update includes email designer enhancements, social posting improvements, improved localization of events, an updated template gallery, and 23 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including a new customer journey designer and flexible options for data after form submissions.
+The September update includes email designer enhancements, social posting improvements, improved localization of events, an updated template gallery, and 23 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including a new customer journey designer and flexible options for data after form submissions.
 
 ### Version number
 
@@ -257,22 +650,22 @@ The September update includes email designer enhancements, social posting improv
 | Marketing        | 1.35.10065.1064 | 1.35.10065.2064 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Early access features
 
 > [!IMPORTANT]
 > Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
 >
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](/dynamics365-release-plan/2020wave2/features-ready-early-access).
 >
-> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](/power-platform/admin/get-help-support).
 
 - **Build customer journeys more efficiently using the new canvas experience**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/new-improved-customer-journey-canvas-experience)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/new-improved-customer-journey-canvas-experience)
     - [Docs](create-simple-customer-journey.md)
 - **Collect data from form submissions more easily with expanded entity options**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/capture-data-more-easily-simplified-forms-requirements)
     - [Docs](marketing-forms.md#do-not-createupdate-contacts-or-leads)
 
 ### Monthly enhancements
@@ -321,7 +714,7 @@ The September update includes email designer enhancements, social posting improv
 
 ## August 2020 update
 
-The August update includes a preview of built-in Teams functionality for events, email designer enhancements, and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including improved social posting and email designer improvements.
+The August update includes a preview of built-in Teams functionality for events, email designer enhancements, and 33 bug fixes, improving reliability and stability. The early access release includes [2020 release wave 2](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/planned-features) features, including improved social posting and email designer improvements.
 
 ### Version number
 
@@ -330,22 +723,22 @@ The August update includes a preview of built-in Teams functionality for events,
 | Marketing        | 1.35.10064.1061 | 1.35.10064.2061 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Early access features
 
 > [!IMPORTANT]
 > Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
 >
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/features-ready-early-access).
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 2 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 2 features available for early access](/dynamics365-release-plan/2020wave2/features-ready-early-access).
 >
-> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](/power-platform/admin/get-help-support).
 
 - **Create and manage content-rich social media posts and easily monitor performance**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/improved-social-posting)
     - [Docs](social-posting.md)
 - **Create engaging, customized emails faster**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/create-customized-emails-faster)
     - [Docs](email-design.md)
 
 ### Preview feature
@@ -356,7 +749,7 @@ The August update includes a preview of built-in Teams functionality for events,
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate supplemental terms of use.
 
 - **Run webinars and meetings using built in Microsoft Teams functionality**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
+    - [Release plan](/dynamics365-release-plan/2020wave2/marketing/dynamics365-marketing/teams-integration-webinar)
     - [Docs](teams-webinar.md)
 
 ### Monthly enhancements
@@ -420,7 +813,7 @@ The Dynamics 365 Marketing July 2020 update includes several enhancements includ
 | Marketing        | 1.35.10063.1039 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Monthly enhancements
 
@@ -494,7 +887,7 @@ The Dynamics 365 Marketing June 2020 update includes several enhancements includ
 | Marketing        | 1.35.10062.1050 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Monthly enhancements
 
@@ -540,9 +933,9 @@ The Dynamics 365 Marketing June 2020 update includes several enhancements includ
 The Dynamics 365 Marketing May 2020 update includes several enhancements including a revamped form capture experience, performance upgrades, and bug fixes.
 
 > [!IMPORTANT]
-> With the May 2020 release, all [Marketing 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available.
+> With the May 2020 release, all [Marketing 2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/planned-features) features are now generally available.
 >
-> Beginning in May, updates will occur automatically, corresponding with the [amended 2020 release wave 1 deployment schedule](https://docs.microsoft.com/power-platform/admin/general-availability-deployment#deployment-schedule). We will gradually implement the new update policy for instances eligible for automatic upgrade, so organizations may not see any immediate impact to their eligible instances. Organizations can still [manually update using the Marketing Setup Wizard](https://docs.microsoft.com/dynamics365/marketing/apply-updates) if there is an update that has not yet been applied.
+> Beginning in May, updates will occur automatically, corresponding with the [amended 2020 release wave 1 deployment schedule](/power-platform/admin/general-availability-deployment#deployment-schedule). We will gradually implement the new update policy for instances eligible for automatic upgrade, so organizations may not see any immediate impact to their eligible instances. Organizations can still [manually update using the Marketing Setup Wizard](./apply-updates.md) if there is an update that has not yet been applied.
 >
 > [Learn more about the automatic update policy](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/).
 
@@ -553,7 +946,7 @@ The Dynamics 365 Marketing May 2020 update includes several enhancements includi
 | Marketing        | 1.35.10061.1037 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running). 
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running). 
 
 ### Monthly enhancements
 
@@ -592,7 +985,7 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 >
 > The features that were planned to be generally available in April 2020 will be released as planned. However, we won't be enabling any features that impact end-users automatically in April. The changes in the 2020 release wave 1 updates will be automatically enabled starting May 1, 2020.
 >
-> To learn more, visit [Dynamics 365 release schedule and early access](https://docs.microsoft.com/dynamics365/get-started/release-schedule).
+> To learn more, visit [Dynamics 365 release schedule and early access](/dynamics365/get-started/release-schedule).
 
 ### Version number
 
@@ -601,38 +994,38 @@ The Dynamics 365 Marketing April 2020 update includes several feature enhancemen
 | Marketing        | 1.35.10060.1066 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### General availability enhancements
 
 - **Ability to test-send dynamic email messages**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/ability-test-send-dynamic-email-messages)
     - [Docs](email-preview.md#preview-dynamic-text-from-contact-information)
 - **Automated scheduler**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/smart-scheduler)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/smart-scheduler)
     - [Docs](automated-scheduler.md)
 - **Compliance made easier**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/compliance-made-easier)
     - [Double opt-in for forms docs](form-double-opt-in.md)
     - [Historical view of consent-level changes docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
     - [Set consent for each contact docs](gdpr.md#view-and-set-the-consent-level-for-each-contact)
 - **Improved segment design and management**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-segment-design-management)
     - [Docs](segmentation-lists-subscriptions.md)
 - **Spam checker**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/spam-checker)
     - [Docs](spam-checker.md)
 - **Support for surveys using Microsoft Dynamics 365 Customer Voice**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/support-surveys-using-forms-pro)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/support-surveys-using-forms-pro)
     - [Docs](customer-voice.md)
 - **Export marketing results data to Excel for further analysis**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
     - [Docs](export-journey.md)
 - **Improved email content designer**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
     - [Docs](email-design.md)
 - **Improved customer journey experience**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
     - [Docs](email-expire.md)
 
 ### Monthly enhancements
@@ -690,7 +1083,7 @@ The Dynamics 365 Marketing March 2020 update includes several enhancements, perf
 | Marketing        | 1.35.10059.1039 | 1.35.10059.2039 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Preview features
 
@@ -743,29 +1136,29 @@ The Dynamics 365 Marketing February 2020 update includes an improved segment exp
 | Marketing        | 1.35.10058.1075 | 1.35.10058.2083 |
 
 > [!Tip]
-> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](https://docs.microsoft.com/dynamics365/marketing/apply-updates#find-out-which-version-of-dynamics-365-marketing-you-are-running).
+> To check your current version number, refer to [Find out which version of Dynamics 365 Marketing you are running](./apply-updates.md#find-out-which-version-of-dynamics-365-marketing-you-are-running).
 
 ### Early access features
 
 > [!IMPORTANT]
 > Early access features are currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
 >
-> For instructions on how to opt in and enable early access, see [Opt in to early access updates](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 1 features available for early access](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/features-ready-early-access).
+> For instructions on how to opt in and enable early access, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). For more information about the 2020 release wave 1 schedule, and for answers to frequently asked questions about the early access program, see [2020 release wave 1 features available for early access](/dynamics365-release-plan/2020wave1/features-ready-early-access).
 >
-> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum), your Microsoft contact or partner, and/or through [Microsoft Support](/power-platform/admin/get-help-support).
 
 - **Export data to Excel for further analysis**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
-    - [Docs](https://docs.microsoft.com/dynamics365/marketing/export-journey)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/export-data-excel-further-analysis)
+    - [Docs](./export-journey.md)
 - **Improved email content designer**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
-    - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-design-update)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-email-content-designer)
+    - [Docs](./email-design.md)
 - **Improved event management experience**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
-    - [Docs](https://docs.microsoft.com/dynamics365/marketing/event-forms)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-event-management-experience)
+    - [Docs](./event-forms.md)
 - **Improved customer journey experience**
-    - [Release plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
-    - [Docs](https://docs.microsoft.com/dynamics365/marketing/email-expire)
+    - [Release plan](/dynamics365-release-plan/2020wave1/dynamics365-marketing/improved-customer-journey-experience)
+    - [Docs](./email-expire.md)
 
 ### Monthly enhancements
 
@@ -933,7 +1326,7 @@ The A/B testing feature now freezes all test results when the test is finished. 
 
 For more information about this feature, see:
 
-- [Email A/B testing](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-marketing/email-ab-testing) (feature announcement)
+- [Email A/B testing](/dynamics365-release-plan/2019wave2/dynamics365-marketing/email-ab-testing) (feature announcement)
 - [Design and run A/B tests on your email designs](email-a-b-testing.md) (documentation)
 
 ### Segmentation improvements
@@ -942,7 +1335,7 @@ Segments now support many-to-many (N:N) relationships for custom entities, which
 
 For more information about this feature, see:
 
-- [Improved segmentation experience](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-marketing/improved-segmentation-experience) (feature announcement)
+- [Improved segmentation experience](/dynamics365-release-plan/2019wave2/dynamics365-marketing/improved-segmentation-experience) (feature announcement)
 - [Working with segments](segmentation-lists-subscriptions.md) (documentation)
 
 ### Customer journey insights improvements
@@ -966,3 +1359,6 @@ The Dynamics 365 Marketing November 2019 update includes the following bug fixes
 - Customer journeys: Individual marketing lists can now be reused across multiple customer journeys.
 - Websites: For website insights, the **Timeline** display has been renamed to **Visits**.
 - Customer Insights: Deleted contacts now sync correctly and more quickly.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

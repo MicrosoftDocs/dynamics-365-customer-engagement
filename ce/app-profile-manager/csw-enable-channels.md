@@ -25,7 +25,7 @@ To enable agents to be able to have conversations in Customer Service workspace,
     
     b. [Queues and users](../customer-service/queues-omnichannel.md)
     
-    c. [Work streams](../customer-service/work-streams-introduction.md)
+    c. [Work streams](../customer-service/create-workstreams.md)
     
 3. Assign the Omnichannel agent and/or Omnichannel supervisor roles to your users. More information: [Assign roles and enable users for Omnichannel for Customer Service](../customer-service/add-users-assign-roles.md).
 
@@ -85,3 +85,6 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 [Customer Service workspace overview](../customer-service/csw-overview.md)  
 [Omnichannel agent overview](../customer-service/omnichannel-agent-overview.md)  
 [Introduction to intraday supervisor experiences](../customer-service/intro-intraday-insights-dashboard.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Enable sound notifications for conversations in Omnichannel for Customer Service | MicrosoftDocs"
 description: "How to enable sound notifications for conversations in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Enable sound notifications for conversations
@@ -47,3 +46,6 @@ When you enable sound settings, the options to personalize settings are availabl
 ### See also
 
 [Personalize notifications](oc-personalize-sound-notifications.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "One or more Microsoft Dynamics 365 Servers are disabled | Microsoft Docs"
+description: Environment diagnostics warning that servers are disabled.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -20,6 +22,9 @@ ms.author: matp
   
  ## Solution
   
- Start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], and, in the **Servers** area, enable each [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] that is disabled. Alternatively, you can use the [Enable-CrmServer](/powershell/module/microsoft.crm.powershell/enable-crmserver?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or the methods that are described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
+ Start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], and, in the **Servers** area, enable each [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] that is disabled. Alternatively, you can use the [Enable-CrmServer](/powershell/module/microsoft.crm.powershell/enable-crmserver?view=dynamics365ce-ps&preserve-view=true) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or the methods that are described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

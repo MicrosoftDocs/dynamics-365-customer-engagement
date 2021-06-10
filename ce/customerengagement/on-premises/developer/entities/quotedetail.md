@@ -2819,3 +2819,5 @@ See territory Entity [msdyn_territory_quotedetail_ServiceTerritory](territory.md
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.quotedetail?text=quotedetail EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

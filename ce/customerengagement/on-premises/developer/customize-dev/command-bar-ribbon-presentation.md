@@ -103,3 +103,6 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
  [Ribbons Available in Microsoft Dynamics 365 Customer Engagement](ribbons-available-microsoft-dynamics-365.md)   
  [Export Ribbon Definitions](export-ribbon-definitions.md)   
  [Developers guide to customization for Microsoft Dynamics 365 Customer Engagement](customize-applications.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

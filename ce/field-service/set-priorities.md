@@ -30,8 +30,11 @@ Priority records let you prioritize your work orders. You can also assign each p
  [Set up territories](../field-service/set-up-territories.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Create work order types](../field-service/create-work-order-types.md)   
- [Set up work order sub-statuses](../field-service/set-up-work-order-sub-statuses.md)   
+ [Set up work order sub-statuses](./work-order-status-booking-status.md)   
  [Set up time groups](../field-service/set-up-time-groups.md)   
  [Set up service task types](../field-service/set-up-service-task-types.md)   
  [Configure incident types](../field-service/configure-incident-types.md)<br>
  [User's Guide](../field-service/user-guide.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

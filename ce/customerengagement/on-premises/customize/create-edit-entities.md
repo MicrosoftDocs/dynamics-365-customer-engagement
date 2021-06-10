@@ -1,5 +1,6 @@
 ---
-title: "Create or edit entities | MicrosoftDocs"
+title: "Create or edit entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Entities define the records created in the app
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -29,3 +30,6 @@ Entities define the types of records people can use in Dynamics 365 Customer Eng
   [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)  
  [Community blog: Custom Entity or Custom Activity](https://community.dynamics.com/crm/b/gonzaloruiz/archive/2012/08/13/custom-entity-or-custom-activity-in-crm-2011) <br/>
  [Create or edit virtual entities that contain data from an external data source](create-edit-virtual-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

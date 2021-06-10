@@ -20,3 +20,6 @@ search.app:
 # Resource crew scheduling
 
 [!INCLUDE[topic-urs-resource-crews.md](../shared/urs/resource-crews.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

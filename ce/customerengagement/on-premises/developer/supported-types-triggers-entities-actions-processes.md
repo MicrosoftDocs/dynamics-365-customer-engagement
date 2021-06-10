@@ -106,11 +106,11 @@ This topic provides information about the supported types and entities for proce
 
  For information about each type, see the following documentation for the respective namespaces:  
 
--   [System.Activities.Statements Namespace](https://msdn.microsoft.com/library/system.activities.statements.aspx)  
+-   [System.Activities.Statements Namespace](/dotnet/api/system.activities.statements)  
 
--   [System.ServiceModel.Activities Namespace](https://msdn.microsoft.com/library/system.servicemodel.activities.aspx)  
+-   [System.ServiceModel.Activities Namespace](/dotnet/api/system.servicemodel.activities)  
 
--   [System.ServiceModel.Activities.Presentation.Factories](https://msdn.microsoft.com/library/system.servicemodel.activities.presentation.factories.aspx)  
+-   [System.ServiceModel.Activities.Presentation.Factories](/dotnet/api/system.servicemodel.activities.presentation.factories)  
 
 ### Dynamics 365 Customer Engagement (on-premises)  
 
@@ -200,7 +200,7 @@ This topic provides information about the supported types and entities for proce
  You can choose to perform following actions using workflows in [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. Use the `sdkmessage.workflowsdkstepenabled` attribute to find the list of supported actions available under a workflow step. You can use the following Web API query to retrieve the list of supported actions:  
 
 ```
-[Organization URI]/api/data/v9.0/sdkmessages?$select=name&$filter=workflowsdkstepenabled%20eq%20true  
+[Organization URI]/api/data/v9.1/sdkmessages?$select=name&$filter=workflowsdkstepenabled%20eq%20true  
 ```  
 
 
@@ -230,3 +230,6 @@ This topic provides information about the supported types and entities for proce
  [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)   
  [Custom workflow activities (workflow assemblies)](custom-workflow-activities-workflow-assemblies.md)   
  <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ You can use the **Servers** area to disable or enable a [!INCLUDE[pn_microsoftcr
 ## See also  
  [Manage servers](manage-servers.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

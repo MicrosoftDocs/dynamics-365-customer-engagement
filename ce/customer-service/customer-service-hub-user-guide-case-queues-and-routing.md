@@ -1,14 +1,11 @@
 ---
 title: Cases to queues and routing in Customer Service Hub | Microsoft Docs
 description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
+ms.date: 11/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Case queues and routing
@@ -53,3 +52,6 @@ To know more about Queues, see [Work with Queues](work-with-queues.md).
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

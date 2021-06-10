@@ -1,12 +1,11 @@
 ---
-title: "Create a record in Omnichannel for Customer Service on Unified Service Desk | MicrosoftDocs"
-description: "Learn how to create a record in Omnichannel for Customer Service from within Unified Service Desk client application"
+title: "Create a record | MicrosoftDocs"
+description: "Learn how you can create a record by using the various methods in the Omnichannel for Customer Service app from within the Unified Service Desk client application."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -45,3 +44,6 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Link and unlink a record](link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

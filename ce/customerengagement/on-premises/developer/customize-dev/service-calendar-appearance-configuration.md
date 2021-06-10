@@ -145,3 +145,6 @@ div.ganttBlockserviceappointmentStatus8
  [Support for Editing the Customization File](when-edit-customization-file.md)   
  [Publish Customizations](publish-customizations.md)   
  [ISV Configuration File Schema](isv-configuration-file-schema.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

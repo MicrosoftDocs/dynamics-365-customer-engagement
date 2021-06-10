@@ -61,3 +61,6 @@ Display an option to delete the records created in the [Setup](#setup). The dele
 ### See also  
  [Customize Entity Views in Microsoft Dynamics 365 Customer Engagement](customize-entity-views.md)    
  [SavedQuery Entity](../entities/savedquery.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

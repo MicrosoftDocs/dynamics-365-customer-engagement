@@ -47,3 +47,6 @@ A *subject* categorizes entity records, such as articles and sales literature. B
 ### See also  
  [Subject Entity](entities/subject.md) 
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

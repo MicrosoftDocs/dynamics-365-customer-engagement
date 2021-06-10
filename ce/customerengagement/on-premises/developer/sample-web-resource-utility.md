@@ -60,3 +60,6 @@ Manually creating Web resources one at a time using the customization tools can 
  [Web Resource Messages and Methods](webresource-entity-messages-methods.md)   
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Streamline web resource development using Fiddler AutoResponder](streamline-javascript-development-fiddler-autoresponder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

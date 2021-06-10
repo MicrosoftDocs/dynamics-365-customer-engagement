@@ -107,14 +107,14 @@ Once the functional location is selected, you'll see that more detailed informat
 
 ### Add multiple functional locations to a single work order
 
-Use additional work order incident types to define more work that needs to be done in addition to the primary incident type.
+Use additional work order incidents to define more work that needs to be done in addition to the primary work order incident.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order incident.](./media/assets-functional-location-work-order-new-incident.png)
 
-For each work order incident type, you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
+For each work order incident, you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
 
-For example, imagine as part of one work order, a technician needs to go to three different buildings to perform a different task at each. In this scenario, add three work order incident types with each one having the respective functional location. Use the primary incident duration as either the most important work order incident or the location that the technician should travel to first.
+For example, imagine as part of one work order, a technician needs to go to three different buildings to perform a different task at each. In this scenario, add three work order incidents with each one having the respective functional location. Use the primary incident duration as either the most important work order incident or the location that the technician should travel to first.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order with related incidents.](./media/assets-functional-location-work-order-new-incident1.png)
@@ -161,3 +161,6 @@ To use functional locations on an agreement, select an agreement. Go to **Agreem
 
 - Multiple accounts can be associated to a functional location tree.
 - Field Service technicians can see functional locations from their Field Service mobile apps, but cannot see or manage the larger location and asset hierarchies.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

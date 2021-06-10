@@ -1,20 +1,19 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 tags: 
   - MigrationHO
   - LinksOnlyTopic
@@ -40,3 +39,6 @@ This guide provides information about how to install, administer, and manage [!I
  [Administer and manage overview](../unified-service-desk/admin/administer-manage-unified-service-desk.md)  
   
  [Troubleshoot Unified Service Desk](../unified-service-desk/admin/troubleshoot-unified-service-desk.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

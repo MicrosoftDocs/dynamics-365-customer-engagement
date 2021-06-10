@@ -1,5 +1,5 @@
 ---
-title: "Define alternate keys to reference records | MicrosoftDocs"
+title: "Define alternate keys to reference records with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to define alternate keys that can be used to reference records"
 ms.custom: 
 ms.date: 04/03/2020
@@ -60,3 +60,6 @@ The example below uses the Account Number field in the alternate key definition.
  [Create and edit web resources](../customize/create-edit-web-resources.md)   
  [Define alternate keys for an entity (Developer Guide)](../developer/define-alternate-keys-entity.md)
  [Use an alternate key to create a record (Developer Guide)](../developer/use-alternate-key-create-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

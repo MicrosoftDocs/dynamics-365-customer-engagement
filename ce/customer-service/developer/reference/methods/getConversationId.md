@@ -1,11 +1,11 @@
 ---
 title: "getConversationId (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: 
+ms.date: 10/15/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/15/2020
-ms.topic: article
 ms.reviewer: nenellim
 ---
 # getConversationId
@@ -33,3 +33,6 @@ A promise resolved with currently ongoing conversation id.
 ## See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

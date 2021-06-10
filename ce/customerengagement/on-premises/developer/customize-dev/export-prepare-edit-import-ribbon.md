@@ -162,3 +162,6 @@ To edit the ribbon, you must perform the following steps:
  [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Export Ribbon Definitions](export-ribbon-definitions.md)   
  [Use Localized Labels with Ribbons](use-localized-labels-ribbons.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

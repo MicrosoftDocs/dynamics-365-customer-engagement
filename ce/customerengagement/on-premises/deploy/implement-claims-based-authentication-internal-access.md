@@ -36,3 +36,6 @@ Enabling claims-based authentication for internal access to [!INCLUDE[pn_microso
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)   
  [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)  -->
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

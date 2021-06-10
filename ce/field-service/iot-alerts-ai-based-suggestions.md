@@ -133,3 +133,6 @@ The priority and suggested incident type is also displayed on the IoT alert form
 1. Convert IoT Alerts with suggested high priority to a new case or work order with the recommended incident type.
 2. Send and display the AI suggestions in Azure IoTCentral or Azure IoTHub.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

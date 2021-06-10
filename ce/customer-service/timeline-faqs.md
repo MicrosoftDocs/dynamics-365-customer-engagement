@@ -1,12 +1,11 @@
 ---
 title: "Timeline FAQs | MicrosoftDocs"
 description: "Timeline FAQs"
+ms.date: 07/27/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 07/27/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 
@@ -30,3 +29,6 @@ Find answers to common questions regarding the timeline experience features and 
 
 [Overview of timeline](customer-service-hub-user-guide-timeline-overview.md)  	
 [Configure timeline](customer-service-hub-user-guide-timeline-admin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

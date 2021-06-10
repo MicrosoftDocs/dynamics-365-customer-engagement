@@ -38,3 +38,6 @@ Use the following procedure to disable claims-based authentication.
  [Configure claims-based authentication](configure-claims-based-authentication.md)   
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

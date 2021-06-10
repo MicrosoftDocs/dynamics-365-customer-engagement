@@ -50,7 +50,7 @@ search.app:
 > [!IMPORTANT]
 >  [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] or earlier versions are not supported for use with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 > 
->  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock required URLs](../../admin/troubleshooting-unblock-urls-required.md). 
+>  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock required URLs](/power-platform/admin/troubleshooting-unblock-urls-required). 
   
  **Microsoft Office**. One of the following:  
   
@@ -123,3 +123,6 @@ The following operating systems are supported for offline mode.
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/kb/3124955)   
  [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/kb/3018360)   
  [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/kb/3005167)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

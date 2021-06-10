@@ -1,0 +1,24 @@
+- name: Microsoft Teams integration
+  items: 
+  - name: Microsoft Teams integration
+    href: teams-integration.md
+  - name: Install and set up
+    href: teams-install-app.md
+  - name: Basic vs Enhanced Collaboration Experience
+    href: teams-basic-vs-enhanced-collaboration.md
+  - name: Use Teams integration
+    items: 
+    - name: Basic Collaboration with Teams
+      href: teams-collaboration.md
+    - name: Enhanced Collaboration with Teams
+      href: teams-collaboration-enhanced-experience.md
+    - name: Use document management
+      href: teams-doc-management.md
+    - name: Use the personal dashboard
+      href: teams-personal-use.md
+  - name: Troubleshoot
+    href: teams-troubleshoot.md
+  - name: Dynamics 365 assistant for Microsoft Teams
+    href: /dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams
+  - name: Delete personal data
+    href: teams-delete-data.md

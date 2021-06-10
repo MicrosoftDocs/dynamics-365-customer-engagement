@@ -24,7 +24,7 @@ search.app:
 ---
 # Setup overview for mobile apps
 
-Your users can access their data stored in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) while they're out in the field by using either of the following apps:  
+Your users can access their data stored in Microsoft Dataverse while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
@@ -37,7 +37,7 @@ Your users can access their data stored in Microsoft Dataverse or Dynamics 365 C
   
 ### Required privileges  
 
-Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](https://docs.microsoft.com/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
+Microsoft Dataverse uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
  
  The app should be shared for the security role that user has been assigned.
   
@@ -103,7 +103,7 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 | service.powerapps.com |Starting with version 13.19091.20, used for email sign-in and the app list. |
 
 ### Security privileges  
- Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app).
+ Both Microsoft Dataverse and Dynamics 365 Customer Engagement (on-premises) use a security privilege, **Dynamics 365 apps for mobile**, to provides access to [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams. For more information on how to share apps in Microsoft Dataverse, see [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app).
   
   
 <a name="BKMK_Configure"></a>   
@@ -111,8 +111,8 @@ This list identifies all resources used by Dynamics 365 for phones and tablets. 
 
  You must configure apps that will be available for Dynamics 365 for phones and tablets mobile app.  
 
- - For Microsoft Dataverse, see [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity).
- - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/overview) 
+ - For Microsoft Dataverse, see [Create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity).
+ - For Dynamics 365 Customer Engagement (on-premises), see [App making and customization overview](../customerengagement/on-premises/customize/overview.md) 
   
 ### Charts  
  All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
@@ -146,7 +146,7 @@ The mobile app has multiple dashboards are available for users. After you set up
  
 6. Select **Save**.  
   
-   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [User Guide for Dynamics 365 for phones and tablets](dynamics-365-phones-tablets-users-guide.md)  
+   Show your users how to set and view the enabled dashboards on their phones or tablets. More information: [User Guide for Dynamics 365 for phones and tablets](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)  
   
 You can assign security roles to a dashboard, so the dashboard appears only to users with certain security roles. For example, to set who has access to the Sales Dashboard.
 
@@ -284,6 +284,9 @@ Things to note:
  [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md) </br>
  [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md) </br>
- [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md) </br>
- [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)
+ [Install Dynamics 365 for tablets and phones](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md) </br>
+ [Dynamics 365 for phones and tablets User's Guide](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

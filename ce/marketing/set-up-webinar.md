@@ -61,3 +61,5 @@ If you want to send out the links yourself then one way to do so is to set up a 
 
 [Event management settings](events-settings.md)  
 [Early access: Set up a Microsoft Teams webinar](teams-webinar.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

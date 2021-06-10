@@ -1,20 +1,19 @@
 ---
 title: "Add action calls to an event | MicrosoftDocs"
 description: "Learn about adding action calls to an event."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 12/31/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Add action calls to an event
 You can add multiple action calls to an event, and the action calls will be executed in the order that is defined in the **Order** field of the event definition. To do so:  
@@ -41,3 +40,6 @@ You can add multiple action calls to an event, and the action calls will be exec
  [Action calls](../unified-service-desk/action-calls.md)   
  [Events](../unified-service-desk/events.md)   
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

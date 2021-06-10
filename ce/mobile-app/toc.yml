@@ -1,0 +1,34 @@
+- name: Overview
+  href: overview.md
+- name: Administrator basics
+  items:
+  - name: What's supported
+    href: support-phones-tablets.md
+  - name: Set up mobile app
+    href: set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md
+  - name: Manage and secure devices
+    href: secure-manage-phones-tablets.md
+- name: Set-up mobile offline
+  items:
+  - name: Configure mobile offline
+    href: setup-mobile-offline.md
+  - name: Mobile offline capabilities and limitations
+    href: mobile-offline-capabilities.md
+- name: Install the mobile app
+  items:
+  - name: Install Dynamics 365 for phones and tablets
+    href: install-dynamics-365-for-phones-and-tablets.md
+  - name: Migrate to the Power Apps mobile app
+    href: migration.md
+- name: User Guides
+  items:
+  - name: Basic navigation in Dynamics 365 for phones and tablets
+    href: user-guide-mobile-app.md
+  - name: Basic navigation for Dynamics 365 (Preview) app for Windows
+    href: windows-mobile-app.md
+  - name: Work offline on your mobile device
+    href: work-in-offline-mode.md
+- name: Troubleshooting
+  href: troubleshooting-things-know-about-phones-tablets.md
+- name: Older version (8.x)
+  href: /previous-versions/dynamicscrm-2016/mobile-app/v8/about-this-content

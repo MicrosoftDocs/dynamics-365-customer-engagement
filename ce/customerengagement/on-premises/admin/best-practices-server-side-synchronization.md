@@ -1,5 +1,6 @@
 ---
 title: "Best practices for server-side synchronization  | MicrosoftDocs"
+description: "Best practices for planning and deploying server-side synchronization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -64,3 +65,6 @@ Consider the following when planning and deploying server-side synchronization.
 ### See also  
 [Server-side synchronization](../admin/server-side-synchronization.md) 
 [Troubleshooting server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

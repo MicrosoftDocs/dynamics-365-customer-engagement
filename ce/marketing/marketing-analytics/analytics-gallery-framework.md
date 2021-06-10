@@ -106,3 +106,6 @@ Each template and sample report contains the following common pages:
 - Two additional pages, **CDS-T entities** and **Interaction types**, provide detailed lookup for any profile type and the full interaction data model available for analytics reporting. You'll also find information about which interactions are enabled for loading in your report configuration. Note that not all interaction types are supported by the data-publishing mechanism.
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

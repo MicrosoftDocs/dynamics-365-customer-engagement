@@ -1,14 +1,11 @@
 ---
 title: Set custom icon for custom Case Origin field (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to set custom icon for custom Case Origin field in Dynamics 365 Customer Service
+ms.date: 06/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Set the custom icon in views for Case Origin field
@@ -66,3 +65,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
 ### See also  
  [Create and edit global option sets](../customerengagement/on-premises/customize/create-edit-global-option-sets.md)   
  [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

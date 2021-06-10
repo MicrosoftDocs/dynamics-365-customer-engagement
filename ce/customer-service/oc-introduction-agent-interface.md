@@ -1,12 +1,11 @@
 ---
-title: "Introduction to the agent interface of Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn about agent interface of Omnichannel for Customer Service app"
+title: "Introduction to agent interface | MicrosoftDocs"
+description: "Learn about the agent interface in the Omnichannel for Customer Service app and the capabilities that it offers to agents."
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Introduction to the agent interface of Omnichannel for Customer Service
@@ -137,3 +136,6 @@ The horizontal bar below the navigation bar is called the application tab panel.
 - [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

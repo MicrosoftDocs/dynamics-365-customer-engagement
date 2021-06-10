@@ -1,5 +1,7 @@
 ---
 title: "One or more organizations can't be upgraded | Microsoft Docs"
+description: Environment diagnostics warning that one or more organization databases can't be upgraded.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -24,9 +26,12 @@ ms.author: matp
   
  ## Solution 1
   
- We recommend that you apply the latest update. Then, in the Organizations area of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], update each organization. Alternatively, you can use the [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or use the methods that are described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. Find the latest updates: [Dynamics 365 for Customer Engagement on-premise cumulative updates](https://support.microsoft.com/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates)  
+ We recommend that you apply the latest update. Then, in the Organizations area of [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], update each organization. Alternatively, you can use the [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps&preserve-view=true) [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet or use the methods that are described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. Find the latest updates: [Dynamics 365 for Customer Engagement on-premise cumulative updates](https://support.microsoft.com/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates)  
   
  **Solution 2**  
   
  Start [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] and verify whether the organization that you’re trying to upgrade is disabled. You must enable the organization before you can upgrade it.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

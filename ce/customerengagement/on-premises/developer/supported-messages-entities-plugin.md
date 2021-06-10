@@ -67,7 +67,7 @@ To verify if a message and entity combination supports execution of plug-ins usi
 4. Enter the target message and primary entity in the appropriate fields to see if that combination is supported for plug-in registration.
 5. Cancel (close) the step registration form and exit the tool.
 
-To verify if a message and entity combination supports execution of plug-ins using a database query, use Advanced Find or a community tool (e.g., [FetchXML Builder](https://fxb.xrmtoolbox.com)) to execute the following fetchXML query. When using Advanced Find, you must create the query interactively.
+To verify if a message and entity combination supports execution of plug-ins using a database query, use Advanced Find or a community tool (e.g., [FetchXML Builder](https://www.xrmtoolbox.com/plugins/Cinteros.Xrm.FetchXmlBuilder/)) to execute the following fetchXML query. When using Advanced Find, you must create the query interactively.
 
 For Outlook client offline plug-ins:
 ```xml
@@ -101,3 +101,5 @@ For Outlook client offline plug-ins:
 [Write plug-ins to extend business processes](write-plugin-extend-business-processes.md)<br/>
 [Available events](/powerapps/developer/common-data-service/event-framework#available-events)<br/>
 [Plug-in Development](plugin-development.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

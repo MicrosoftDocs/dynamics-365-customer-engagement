@@ -1,5 +1,5 @@
 ---
-title: "Edit filter criteria and change sort order in views | MicrosoftDocs"
+title: "Edit filter criteria and change sort order in views with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to edit filter criteria and change sort order in views"
 ms.custom: 
 ms.date: 11/03/2018
@@ -38,3 +38,6 @@ Along with the columns displayed in a view, the filter criteria applied to a vie
  
 ### See also
 [Create or edit a views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

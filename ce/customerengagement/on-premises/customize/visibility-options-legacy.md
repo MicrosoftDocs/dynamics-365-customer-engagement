@@ -1,5 +1,5 @@
 ---
-title: "Show or hide form elements | MicrosoftDocs"
+title: "Show or hide form elements with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to display or hide from elements, such as tabs, sections, or fields"
 ms.custom: 
 ms.date: 01/31/2019
@@ -33,6 +33,9 @@ search.audienceType:
 ### See also
 
 [Create business rules and recommendations to apply logic in a form](create-business-rules-recommendations-apply-logic-form.md) <br />
-[formContext.ui.tabs (Client API reference)](../developer/clientapi/reference/formContext-ui-tabs.md) <br />
-[formContext.ui.sections (Client API reference)](../developer/clientapi/reference/formContext-ui-sections.md) <br />
-[setVisible (Client API reference)](../developer/clientapi/reference/controls/setVisible.md)
+[formContext.ui.tabs (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs) <br />
+[formContext.ui.sections (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections) <br />
+[setVisible (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/controls/setVisible)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

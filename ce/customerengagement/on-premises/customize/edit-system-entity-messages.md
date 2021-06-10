@@ -1,5 +1,5 @@
 ---
-title: "Edit system entity messages | MicrosoftDocs"
+title: "Edit system entity messages with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to edit system entity messages"
 ms.custom: 
 ms.date: 11/03/2018
@@ -40,3 +40,6 @@ search.audienceType:
  
 ### See also
 [Create or edit an entity](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

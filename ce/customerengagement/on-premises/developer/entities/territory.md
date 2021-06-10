@@ -1045,3 +1045,5 @@ See systemuser Entity [system_user_territories](systemuser.md#BKMK_system_user_t
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.territory?text=territory EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

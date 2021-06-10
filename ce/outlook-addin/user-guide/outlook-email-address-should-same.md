@@ -92,3 +92,6 @@ You’re seeing the following error message:
 6. Select the new account, and then choose **Set as Default**.  
   
 7. Choose **Close**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

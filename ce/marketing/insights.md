@@ -271,3 +271,6 @@ Redirect URLs provide the following [categories](#categories) on the **Insights*
 
 - **Overview**: Displays a map that shows where people were when they selected the redirected link.
 - **Timeline**: Shows a table with details about each time the redirect URL was selected.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

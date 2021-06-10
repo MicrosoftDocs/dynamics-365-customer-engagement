@@ -44,3 +44,6 @@ To perform [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.
  [Microsoft Dynamics 365 Uninstall, Repair, and Change Instructions](uninstall-repair-and-change-microsoft-dynamics-365.md)   </br>
  [Use the Command Prompt to Install Microsoft Dynamics 365](use-command-prompt-install-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,7 +59,7 @@ To connect with an online environment, see the information provided in this Powe
   | Variable Name | Value |
   |----|---|
   |`url`|`https://yourservername/yourorgname`|
-  |`version`|`9.0`|
+  |`version`|`9.1`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 
   ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
@@ -93,3 +93,6 @@ Create a new Web API request to test the connection with your Dynamics 365 Custo
 
 [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
 [Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory](../walkthrough-register-app-active-directory.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

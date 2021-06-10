@@ -1,20 +1,19 @@
 ---
 title: "Add multi-language support for your agent applications | MicrosoftDocs"
 description: "Learn about adding multi-language support for your agent applications. The multi-language support is available for all the components except for those that are surfaced through Customer Care Accelerator, which doesn’t support multi-language scenarios. This includes the hosted control tab names."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Add and manage multi-language support (localized resources) for your agent applications
 
@@ -46,7 +45,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
    1. Sign in to the Dynamics 365 instance.  
   
-   2. Go to **Settings** > **Customizations** ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))  
+   2. Go to **Settings** > **Customizations** ([How do I get there?](../customerengagement/on-premises/basics/basics-guide.md))  
   
    3. Click **Customize the System** to add the web resources to the default solution.  
   
@@ -93,3 +92,6 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
 ### See also  
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

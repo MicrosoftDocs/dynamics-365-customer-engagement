@@ -81,3 +81,6 @@ When you add an IFrame or a web resource to a form or dashboard, you must select
 [Sample: Import files as web resources](sample-import-files-web-resources.md)<br />
 [Sample: Web resource utility](sample-web-resource-utility.md)<br /> 
 [iFrame and web resource support in Dynamics 365 for tablets](../customize/iframe-web-resource-support-dynamics-365-phones-tablets.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

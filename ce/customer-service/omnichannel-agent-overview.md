@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel for Customer Service for agent | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent"
+ms.date: 06/18/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/18/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Omnichannel for agents
@@ -37,3 +36,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: "Delete or deactivate a view | MicrosoftDocs"
+title: "Delete or deactivate a view with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to delete or deactivate a view"
 ms.custom: 
 ms.date: 01/08/2019
@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Delete or deactivate a view 
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Delete or deactivate a model-driven app view](/powerapps/maker/model-driven-apps/remove-views)
   
 <a name="BKMK_RemoveViews"></a>   
 
@@ -48,3 +48,6 @@ search.audienceType:
 
 ### See also
 [Create or edit a view](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -27,7 +27,7 @@ All Dynamics 365 Customer Engagement (on-premises) records have unique identifie
 
 ## Create alternate keys  
 
-You can create alternate keys programmatically or by using the customizations tools. For more information about using the customization tools, see [Define alternate keys to reference CRM records](https://technet.microsoft.com/library/29e53691-0b18-4fde-a1d0-7490aa227898.aspx).  
+You can create alternate keys programmatically or by using the customizations tools. For more information about using the customization tools, see [Define alternate keys to reference CRM records](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn949335(v=crm.8)).  
 
 To define alternate keys programmatically, you first have to create an object of type <xref:Microsoft.Xrm.Sdk.Metadata.EntityKeyMetadata> (or use <xref href="Microsoft.Dynamics.CRM.EntityKeyMetadata?text=EntityKeyMetadata EntityType" /> if working with Web API). This class contains the key attributes. Once the key attributes are set, you can use `CreateEntityKey` to create the keys for an entity. This message takes the entity name and `EntityKeyMetadata` values as input to create the key.  
 
@@ -102,6 +102,8 @@ If the alternate key is deleted while an index creation job is still pending or 
 
 ### See also  
  [Using alternate keys](use-alternate-key-create-record.md)<br />
- [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md)<br />
- [Use Upsert to insert or update a record](use-upsert-insert-update-record.md)
+ [Use change tracking to synchronize data with external systems](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems)<br />
+ [Use Upsert to insert or update a record](/powerapps/developer/data-platform/use-upsert-insert-update-record)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

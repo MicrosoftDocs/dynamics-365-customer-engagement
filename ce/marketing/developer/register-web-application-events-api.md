@@ -44,3 +44,6 @@ To use the Events API, you need to provide a web application token in each reque
 ## See also
 
 [Using Events API](using-events-api.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

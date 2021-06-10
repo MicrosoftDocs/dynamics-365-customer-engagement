@@ -3,10 +3,9 @@ title: "See relationships in a hierarchical view (Dynamics 365 Customer Engageme
 description: "See how records are related by looking at their hierarchichal relationship in Dynamics 365 for Customer Engagement."
 keywords: hierarchy, relationship
 ms.date: 09/15/2010
-ms.service:
-  - crm-online
+ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 972864a7-dc1d-d91c-4003-6056bf312840
 author: mduelae
@@ -67,3 +66,6 @@ You can take the following actions from the hierarchical view:
 
 -	 Use command bar options to take action on selected records. You can select a record by selecting the check box in the top-right corner of a tile in the Tile view. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

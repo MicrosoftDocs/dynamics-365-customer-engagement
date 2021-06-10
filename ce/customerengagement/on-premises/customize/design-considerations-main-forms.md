@@ -1,5 +1,5 @@
 ---
-title: "Design considerations for main forms | MicrosoftDocs"
+title: "Design considerations for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to design main forms"
 ms.custom: 
 ms.date: 11/03/2018
@@ -64,3 +64,6 @@ Main forms are the primary user interface where people view and interact with th
  [Main form presentations](../customize/main-form-presentations.md)   
  [Optimize form performance](../customize/optimize-form-performance.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

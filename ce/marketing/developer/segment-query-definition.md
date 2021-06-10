@@ -398,3 +398,6 @@ Grammar definition describes how you can use the query language.
 ## See also 
 
 [Basic operations on segments using code](extend-segments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

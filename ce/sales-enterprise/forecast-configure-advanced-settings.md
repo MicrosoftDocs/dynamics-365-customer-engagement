@@ -2,7 +2,6 @@
 title: "Configure advanced settings for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
 ms.date: 11/06/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -60,7 +59,7 @@ As an administrator or forecast manager, you turn on the **View prediction insig
 > ![Enable prediction factors](media/forecast-prediction-factors-enable.png "Enable prediction factors")  
 
 >[!NOTE]
->Premium forecasting must be enabled for the **Prediction details** pane to work. More information: [About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
+>Premium forecasting must be enabled for the **Prediction details** pane to work. More information: [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
 
 ## Customize underlying records
 
@@ -129,3 +128,6 @@ The file is added to the forecast.
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

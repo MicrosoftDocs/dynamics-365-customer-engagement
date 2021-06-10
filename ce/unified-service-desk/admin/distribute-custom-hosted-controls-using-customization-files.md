@@ -1,20 +1,19 @@
 ---
 title: "Distribute custom hosted controls using Customization Files with Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to deploy customization files."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 # Customization Files and how to distribute custom hosted controls overview
@@ -73,3 +72,6 @@ Use the customization files feature to distribute custom hosted controls and fun
 ## See also  
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
  [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,14 +1,11 @@
 ---
 title: Set work hours to define availability (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to set work hours to define availability in Dynamics 365 Customer Service
+ms.date: 11/20/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Set work hours to define availability (Customer Service app)
@@ -113,3 +112,6 @@ Make sure that you have the required security role or equivalent permissions.
  
 [Set when your business is closed (Customer Service app)](set-when-business-closed-cs-app.md)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

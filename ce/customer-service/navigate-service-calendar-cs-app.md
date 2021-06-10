@@ -1,14 +1,11 @@
 ---
 title: Navigate the service calendar (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to navigate the service calendar in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Navigate the service calendar (Customer Service app)
@@ -54,5 +53,8 @@ In the Service calendar, you can do the following tasks and activities:
 ### See also  
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)   
  [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)   
- [Create or edit an appointment](../basics/create-edit-appointment.md)   
+ [Create or edit an appointment](../customerengagement/on-premises/basics/create-edit-appointment.md)   
  [Overview of service and service scheduling](basics-service-service-scheduling.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

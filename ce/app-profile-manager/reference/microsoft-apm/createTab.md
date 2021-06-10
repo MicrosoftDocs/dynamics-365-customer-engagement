@@ -61,3 +61,5 @@ Microsoft.Apm.createTab(tabInput).then((tabId)=>{
     console.log(error);
 });
 ```
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -636,3 +636,5 @@ See systemuser Entity [lk_timezonerule_createdonbehalfby](systemuser.md#BKMK_lk_
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.timezonerule?text=timezonerule EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ If you have more than one environment or app, you can use the **Settings** tab t
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -25,7 +25,7 @@ The app profile manager is available in Power Apps where you'll create the app p
 
 ## Prerequisites
 
-Make sure you have the App profile manager administrator role. More information: [Security roles](security-roles.md)
+Make sure you have the App Profile Manager Administrator role. More information: [Security roles](security-roles.md)
 
 ## Create an app profile
 
@@ -110,3 +110,6 @@ More information: [Roles and privileges associated with app profile manager](sec
 [Manage session templates](session-templates.md)  
 [Configure channels](../customer-service/channels.md)  
 [Manage agent scripts](agent-scripts.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

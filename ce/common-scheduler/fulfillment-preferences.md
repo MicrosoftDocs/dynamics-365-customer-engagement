@@ -23,3 +23,6 @@ search.app:
 # Fulfillment preferences in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/fulfillment-pref.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

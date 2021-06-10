@@ -61,4 +61,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create c
  [Activity Entities](activity-entities.md)   
  [ActivityPointer (activity) entity](activitypointer-activity-entity.md)   
  [Sample: Create a Custom Activity](sample-create-custom-activity.md)   
- [Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)
+ [Sample: Create and Update Entity Metadata](/powerapps/developer/data-platform/org-service/create-custom-entity)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

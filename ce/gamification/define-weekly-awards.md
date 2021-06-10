@@ -23,6 +23,8 @@ search.app:
 
 # Create weekly awards to keep players and fans engaged
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Configure weekly awards to keep players focused on delivering results for the right KPIs in [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Weekly awards are small contests that are part of a longer game and are also posted on the leaderboard. You'll configure weekly awards for a single KPI in each game period.  
 
 
@@ -54,3 +56,6 @@ Configure weekly awards to keep players focused on delivering results for the ri
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)   
  [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)   
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

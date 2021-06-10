@@ -45,3 +45,6 @@ The orphaned segment report identifies segments that aren't used anywhere. We re
 ![Orphaned segment report](media/Segmentation/Segmentation-OrphanedSegmentReport.png "Orphaned segment report")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

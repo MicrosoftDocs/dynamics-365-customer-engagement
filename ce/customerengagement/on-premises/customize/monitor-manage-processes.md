@@ -1,5 +1,6 @@
 ---
-title: "Monitor and manage workflow processes (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Monitor and manage workflow processes Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to monitor processes
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -19,8 +20,6 @@ search.audienceType:
 
 ---
 # Monitor and manage workflow processes
-
-
 
 To monitor and manage processes, you must locate the process, evaluate the status, and perform any actions necessary to address problems.  
   
@@ -71,3 +70,6 @@ To monitor and manage processes, you must locate the process, evaluate the statu
  [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)<br/>
  [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md)<br/>
  [Asynchronous service in Dynamics 365 Customer Engagement (on-premises)](../developer/asynchronous-service.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

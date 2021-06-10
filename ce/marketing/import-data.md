@@ -1,7 +1,7 @@
 ---
 title: "Import data (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 Marketing."
-ms.date: 07/01/2018
+ms.date: 06/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -175,14 +175,14 @@ Note the following on how alternate key and duplicate detection works while impo
 
 You must wait for an import job to be completed before you can repair failures.
 
-1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
-1. Find your job in the list and check its progress. The **Status** column shows the status of the import by using the following values:
+1. Go to **Settings** > **Advanced Settings** > **System** > **Data Management** > **Imports**. Import jobs for all recent imports are listed here.
+1. Find your job in the list and check its progress. The **Status Reason** column shows the status of the import by using the following values:
     - Submitted
     - Parsing
     - Transforming
     - Importing
     - Completed
-1. After the import is complete, the **Success**, **Failure**, and **Partial Import** columns will show the number of records that were successfully imported, failed to be imported, or were partially imported.
+1. After the import is complete, the **Success**, **Failure**, and **Partial Failure** columns will show the number of records that were successfully imported, failed to be imported, or were partially imported.
 1. Open the import file to view the records that were not imported or were partially imported. Double-click the import file record.
 1. Use the tabs to see information about failures, success, or partial failure of records during import.  
 ![Results of your import](media/import-results.png "Results of your import")
@@ -190,13 +190,15 @@ You must wait for an import job to be completed before you can repair failures.
 
 ## Delete imported records
 
-1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
+1. Go to **Settings** > **Advanced Settings** > **System** > **Data Management** > **Imports**. Import jobs for all recent imports are listed here.
 1. Select the import file that you want to delete, followed by one of the following actions:
    - **Delete import source file**: Deletes the import log file and its details.
-   - **Delete imported records**: Deletes all records that were imported from the selected file.
-   - **Delete all**: Deletes the import file along with the records that were imported from the import file.
+   - **All records imported to this entity during this import**: Deletes all records that were imported from the selected file.
+   - **All imported records from the .zip file**: Deletes the import file along with the records that were imported from the import file.
 
 ### See also
 
 [Business management settings](business-management-settings.md) 
 [Export data](export-data-Word-Excel.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

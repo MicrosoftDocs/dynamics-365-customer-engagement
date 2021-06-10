@@ -1,5 +1,7 @@
 ---
 title: "Encrypted fields in the organization database | Microsoft Docs"
+description: Environment diagnostics warning that encrypted fields are active by the encryption feature hasn't been activated.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -42,3 +44,6 @@ ms.author: matp
   
  For more information, see [Enhance security by encrypting your data](../admin/data-encryption.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

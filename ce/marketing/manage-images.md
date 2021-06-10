@@ -66,3 +66,6 @@ To view and edit your image library:
 ### See also
 
 [Upload and use images and files](upload-images-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

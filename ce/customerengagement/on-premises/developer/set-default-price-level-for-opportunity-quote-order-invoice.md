@@ -29,7 +29,7 @@ You can automatically set a default price level (price list) for an opportunity,
   
 - The value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute is set to 1 (true). By default, the value is set to 1 (true).  
   
-   You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether the default price level should be automatically selected for opportunities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](https://go.microsoft.com/fwlink/p/?LinkId=512492)  
+   You can also use the **Sales** tab in the system settings area in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether the default price level should be automatically selected for opportunities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 - A price level is associated with a territory using the **Territory Default Pricelist** connection role, and the territory is assigned to the user who creates or updates the opportunity, quote, order, or invoice record.  
   
@@ -43,7 +43,7 @@ You can automatically set a default price level (price list) for an opportunity,
   
 <a name="Disable"></a>   
 ## Disable automatic selection of default price level  
- You can turn off the automatic selection of a default price level for your opportunity, quote, order, or invoice by setting the value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute to 0 (`false`), or by using the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](https://go.microsoft.com/fwlink/p/?LinkId=512492)  
+ You can turn off the automatic selection of a default price level for your opportunity, quote, order, or invoice by setting the value of the `Organization.UseInbuiltRuleForDefaultPriceSelectionRule` attribute to 0 (`false`), or by using the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
 <a name="Extend"></a>   
 ## Extend default price level selection  
@@ -76,3 +76,6 @@ You can automatically set a default price level (price list) for an opportunity,
  [Opportunity Entities](opportunity-entities.md)   
  [Quote, order, and invoice entities](quote-order-invoice-entities.md)   
  [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

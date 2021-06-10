@@ -32,7 +32,7 @@ If you aren't satisfied with the subdomain name you chose when you installed Mar
 
 To change the URL for your portal and the default URL for your events and pages:
 
-1. If you haven't already done so, change the subdomain for your Power Apps portal by following the instructions given in [Change the base URL of a portal](../portals/change-base-url.md). Be sure to read the warning in the introduction to this topic before changing this.
+1. If you haven't already done so, change the subdomain for your Power Apps portal by following the instructions given in [Change the base URL of a portal](/powerapps/maker/portals/admin/change-base-url). Be sure to read the warning in the introduction to this topic before changing this.
 
 1. In Dynamics 365 Marketing, select **Marketing** in the top ribbon to change apps, then select **Power Apps portals**.
 
@@ -90,3 +90,5 @@ You can update the URLs for many events at the same time, but you'll still need 
 ### See also
 
 [Set up the event website](set-up-event-portal.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

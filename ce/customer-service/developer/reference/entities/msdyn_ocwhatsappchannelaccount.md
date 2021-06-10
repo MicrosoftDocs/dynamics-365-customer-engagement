@@ -1,12 +1,11 @@
 ---
 title: "msdyn_ocwhatsappchannelaccount Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocwhatsappchannelaccount entity."
-author: "v-sailab"
-ms.author: "v-sailab"
-manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -700,3 +699,6 @@ Same as msdyn_ocprovisioningstate entity [msdyn_ocwhatsappchannelaccount_msdyn_o
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

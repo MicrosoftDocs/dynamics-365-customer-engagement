@@ -1,5 +1,7 @@
 ---
 title: "Invalid customization of metadata configured | Microsoft Docs"
+description: Environment diagnostics warning there's customizations that aren't valid.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  This is a warning and you can continue with the import. However, we recommend that you review the Setup log file (c:\Users\\<user\>\AppData\Roaming\Microsoft\MSCRM\Logs) to determine whether the customization can be removed. If the customization is removed, such as a customization created from a solution, the solution may not work after the organization database is imported.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

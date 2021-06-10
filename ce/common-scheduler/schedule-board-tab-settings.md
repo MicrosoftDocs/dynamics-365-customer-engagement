@@ -20,3 +20,6 @@ search.app:
 # Schedule board tab settings in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-schedule-board-tab-settings.md](../shared/urs/schedule-board-tab-settings.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

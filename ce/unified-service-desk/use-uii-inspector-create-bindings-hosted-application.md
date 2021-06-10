@@ -1,20 +1,19 @@
 ---
 title: "Use UII inspector to create bindings for the hosted application in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use UII inspector to create bindings for the hosted application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use UII inspector to create bindings for the hosted application in Unified Service Desk
 After you create a hosted application, you can inspect it to create bindings. Inspecting an application means that you can select user interface (UI) controls for automating the hosted application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automate hosted applications using HAT automation activities](../unified-service-desk/automate-hosted-applications-using-hat-automation-activities.md)  
@@ -50,3 +49,6 @@ After you create a hosted application, you can inspect it to create bindings. In
  [Configure an action for the hosted application](../unified-service-desk/configure-action-hosted-application.md)   
  [Deploy your hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md#deploy)   
  [Import the hosted application from Unified Service Desk](../unified-service-desk/import-hosted-application-from-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ The marketing entities let you perform detailed campaign planning, manage the cr
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Service Entities (Contract, Incident, Knowledge Base)](service-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

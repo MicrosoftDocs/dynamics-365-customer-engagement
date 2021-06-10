@@ -1,5 +1,5 @@
 ---
-title: "Export customized entity and field text for translation | MicrosoftDocs"
+title: "Export customized entity and field text for translation with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to export entity and field text for translation"
 ms.custom: 
 ms.date: 11/04/2018
@@ -46,3 +46,6 @@ After you create customized entity and field text, you may want to translate it 
 
 ### See also  
  [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ search.audienceType:
 ### See also
 
 [Create 1:N (one-to-many) relationships](../customize/create-and-edit-1n-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

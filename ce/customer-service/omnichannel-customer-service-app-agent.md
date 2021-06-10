@@ -1,12 +1,11 @@
 ---
 title: "Agents using Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service app"
+ms.date: 06/18/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/18/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Agents using Omnichannel for Customer Service app
@@ -47,3 +46,6 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 - [Manage presence status](oc-manage-presence-status.md)
 - [Take notes specific to conversation](oc-take-notes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

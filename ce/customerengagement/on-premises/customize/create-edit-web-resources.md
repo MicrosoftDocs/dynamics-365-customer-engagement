@@ -157,3 +157,6 @@ Web resources are virtual files in multiple formats, such as html files, [!INCLU
 [Create and design forms](create-design-forms.md) <br />
 [Get started with customization](../customize/getting-started-customization.md) <br /> 
 [Web resources for Customer Engagement](../developer/web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

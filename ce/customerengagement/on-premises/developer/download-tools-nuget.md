@@ -109,8 +109,11 @@ To get the latest version of these tools, repeat these steps.
 [Developer tools](developer-tools.md)<br />
 [Visual Studio and the .NET Framework](visual-studio-dot-net-framework.md)<br />
 [Create early bound entity classes](org-service/create-early-bound-entity-classes-code-generation-tool.md)<br />
-[Create extensions for the code generation tool](org-service/extend-code-generation-tool.md)<br />
+[Create extensions for the code generation tool](/powerapps/developer/data-platform/org-service/extend-code-generation-tool)<br />
 [Browse the metadata for your organization](browse-your-metadata.md)<br />
 [Solution tools for team development](solution-tools-team-development.md)<br />
 [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](../admin/deploy-packages-using-package-deployer-windows-powershell.md)<br />
 [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

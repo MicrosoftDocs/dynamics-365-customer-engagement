@@ -44,3 +44,6 @@ A *privilege* is a permission to perform an action on a specific entity type in 
  [Sample: Remove a Role for a User](sample-remove-role-user.md)   
  [Sample: Retrieve the Roles for an Organization](sample-retrieve-roles-organization.md)   
  [Administration and Security Entities](administration-security-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

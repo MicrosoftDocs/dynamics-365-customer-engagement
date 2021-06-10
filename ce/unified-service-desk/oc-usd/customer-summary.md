@@ -1,12 +1,11 @@
 ---
 title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
 description: "Customer summary is a page where you can get all available information about the customer with who you're going to interact."
+ms.date: 01/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/13/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View a customer summary to get available information about a customer
@@ -145,6 +144,7 @@ Based on the type of agent script your system administrator has configured, you 
 Text instructions provides guidance for the action you must perform. A text instruction step in the agent script shows a title, instructions, and the **Text instruction** icon. After you perform the instruction, you can select the **Mark as done** icon to indicate that you've executed the step.
 
 **Example**
+
 | Title | Instruction that you perform |
 |----------------|-------------------------------------------------------------------------|
 | Greet customer | Greet the customer by using the welcome message from the quick reply repository.|
@@ -186,3 +186,6 @@ A *sub-agent script* is another agent script that has been invoked from the curr
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)
 - [setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

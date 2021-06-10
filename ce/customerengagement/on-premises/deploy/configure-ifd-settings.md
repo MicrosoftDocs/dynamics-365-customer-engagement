@@ -81,3 +81,6 @@ if($RemoveSnapInWhenDone)
 [Get and set deployment configuration settings](update-deployment-configuration-settings.md) </br>
 [Additional steps for clients unable to connect to the Dynamics 365 Server via IFD](post-installation-configuration-guidelines-dynamics-365.md#additional-steps-for-clients-unable-to-connect-to-the-dynamics-365-server-via-ifd)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Customer Service Hub system requirements | MicrosoftDocs"
 description: "System requirements for Customer Service Hub."
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # System requirements for Customer Service Hub
@@ -31,3 +30,6 @@ The following mobile devices and operating systems are supported:
 - **iOS 10:** Tablet and phone
 - **Android:** Tablet and phone (Android 6 and 7)
 - Windows 10
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

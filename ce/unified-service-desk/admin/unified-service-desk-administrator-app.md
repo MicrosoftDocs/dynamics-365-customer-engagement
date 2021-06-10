@@ -1,20 +1,19 @@
 ---
 title: "Use Unified Service Desk Administrator app to administer and manage Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to use the Unified Service Desk Administrator app to administer Unified Service Desk client."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 04/10/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: ">=dynamics-usd-4"
 ---
 
@@ -191,3 +190,6 @@ The configuration layout defines the behavior of the element that you open to pe
 [Overview of configuring agent application](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
 [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

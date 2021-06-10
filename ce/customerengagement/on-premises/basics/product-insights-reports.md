@@ -36,3 +36,6 @@ Use this report to see which products are used by a contact. For each contact, t
 
 ### See also  
  [Run a report](../basics/run-report.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

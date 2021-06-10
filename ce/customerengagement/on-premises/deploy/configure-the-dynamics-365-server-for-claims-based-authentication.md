@@ -149,3 +149,6 @@ After you have installed [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)]
 ## See Also  
  [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

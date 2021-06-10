@@ -48,3 +48,6 @@ An *organization* entity is internal to the customer relationship management pro
  [Administration and Security Entities](administration-security-entities.md)   
  [Organization Entity](entities/organization.md)   
  [BusinessUnitNewsArticle Entity](entities/businessunitnewsarticle.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

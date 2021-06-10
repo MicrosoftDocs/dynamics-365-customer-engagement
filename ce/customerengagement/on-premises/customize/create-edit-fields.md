@@ -1,5 +1,6 @@
 ---
-title: "Create and edit fields | MicrosoftDocs"
+title: "Create and edit fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to create and edit fields
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
@@ -22,7 +23,7 @@ search.audienceType:
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields)
 
-With Dynamics 365 Customer Engagement (on-premises), fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
+With Dynamics 365 Customer Engagement (on-premises), fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom fields.  
   
 <a name="BKMK_CreatingAndEditngFields"></a>   
 ## Create and edit fields  
@@ -125,3 +126,6 @@ With Dynamics 365 Customer Engagement (on-premises), fields define the individua
  [Define calculated fields](../customize/define-calculated-fields.md)   
 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

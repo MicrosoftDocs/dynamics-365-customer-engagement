@@ -1,5 +1,5 @@
 ---
-title: "Define calculated fields | MicrosoftDocs"
+title: "Define calculated fields with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to define calculated fields"
 ms.custom: 
 ms.date: 11/28/2018
@@ -121,21 +121,21 @@ Calculated fields let you automate manual calculations used in your business pro
   
  **Create the calculated field called “Follow-up Date”:**  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-1.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Create the calculated field called follow up date](../customize/media/calc-field-follow-update-1.PNG "Create the calculated field called follow up date")  
   
  **Set the two conditions on the originating lead:**  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-2.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Set the first condition for the calculated field](../customize/media/calc-field-follow-update-2.PNG "Set the first condition for the calculated field")  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-3.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Set the second condition for the calculated field](../customize/media/calc-field-follow-update-3.PNG "Set the second condition for the calculated field")  
   
  **Provide the formula to follow up in one week:**  
   
- ![Follow up date on an opportunity in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-4.PNG "Follow up date on an opportunity in Dynamics 365 for Customer Engagement")  
+ ![Provide the formula for the calculated field](../customize/media/calc-field-follow-update-4.PNG "Provide the formula for the calculated field")  
   
  **Provide the formula to follow up in one month:**  
   
- ![Set Follow up date in Dynamics 365 for Customer Engagement](../customize/media/calc-field-follow-update-5.PNG "Set Follow up date in Dynamics 365 for Customer Engagement")  
+ ![Provide the second formula](../customize/media/calc-field-follow-update-5.PNG "Provide the second formula")  
   
  **Altogether:**  
   
@@ -241,3 +241,6 @@ Calculated fields let you automate manual calculations used in your business pro
  [Create and edit fields](../customize/create-edit-fields.md#BKMK_CreatingAndEditngFields)   
  [Define rollup fields](../customize/define-rollup-fields.md)   
  [Video: Rollup and calculated fields in Dynamics CRM 2015](https://go.microsoft.com/fwlink/p/?LinkId=517727)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

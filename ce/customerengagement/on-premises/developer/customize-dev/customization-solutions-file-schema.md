@@ -2497,3 +2497,6 @@ Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E
  [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Customization XML Reference](../customization-xml-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

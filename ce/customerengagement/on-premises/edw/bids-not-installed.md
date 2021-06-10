@@ -1,5 +1,7 @@
 ---
 title: "Business Intelligence Development Studio is not installed for Microsoft SQL Server Reporting Services | Microsoft Docs"
+description: Environment diagnostics warning that a required application is missing
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  To resolve this requirement, install SQL Server Data Tools. More information: [Report writing environment using SQL Server Data Tools](../analytics/report-writing-environment-using-sql-server-data-tools.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

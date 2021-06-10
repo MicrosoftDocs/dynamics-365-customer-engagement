@@ -2,13 +2,11 @@
 title: "Create or edit orders (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
 ms.date: 07/21/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdyn_salespro
   - D365-Entity-salesorder
   - D365-Entity-quote
@@ -21,7 +19,7 @@ searchScope:
 
 Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
   
- One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. 
+ One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles to make it easier for you to choose products for upsell and cross-sell. 
 
 If your administrator has enabled the Quote to Order setting, you can create an order from a quote if you've already prepared a quote for your customer. More information: [Enable creation of orders from quotes](enable-creation-of-orders-from-quotes.md) 
   
@@ -100,3 +98,6 @@ Typically, you convert a quote that you have won into an order. Start with an ac
 [Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 [Sales transactions in Dynamics 365 Sales Professional](understanding-sales-transactions-sales-professional.md)  
 [Enable creation of orders from quotes](enable-creation-of-orders-from-quotes.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

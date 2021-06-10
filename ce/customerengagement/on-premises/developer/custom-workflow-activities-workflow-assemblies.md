@@ -42,3 +42,6 @@ For more detailed debugging information, see [Debug a plug-In](debug-plugin.md).
   
  [Write Plug-Ins for Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

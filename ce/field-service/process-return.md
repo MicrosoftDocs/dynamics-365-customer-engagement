@@ -144,3 +144,5 @@ You only need to create an RTV if the return is going back to the vendor. Once t
 ### See also    
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)   
  [Create a purchase order](../field-service/create-purchase-order.md)   
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

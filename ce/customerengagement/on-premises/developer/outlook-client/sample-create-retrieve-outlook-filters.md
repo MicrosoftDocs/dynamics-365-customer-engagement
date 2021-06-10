@@ -52,3 +52,6 @@ Display an option to delete the sample data that is created in [Setup](#setup). 
  [Offline and Outlook Filters and Templates](offline-outlook-filters-templates.md)   
  [SavedQuery Entity](../entities/savedquery.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

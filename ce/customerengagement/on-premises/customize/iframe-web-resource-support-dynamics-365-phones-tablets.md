@@ -46,3 +46,6 @@ For more information about using iFrames and web resources, see [Create web reso
   
 ### See also  
  [Create web resources](create-edit-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

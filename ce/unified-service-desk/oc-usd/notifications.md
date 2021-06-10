@@ -1,12 +1,11 @@
 ---
 title: "Notification ans screen pops for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the notifications and its types. Agents will see the notifications and screen pop in Omnichannel for Customer Service."
+ms.date: 01/31/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/31/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View alert and toast notifications
@@ -93,3 +92,6 @@ There are two themes for the notification - Dark and Light. You'll see the theme
 
 - [View communication panel](left-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

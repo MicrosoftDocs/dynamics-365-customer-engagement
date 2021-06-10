@@ -1,12 +1,11 @@
 ---
-title: "Smart assist for agents configured using custom Axure bot | MicrosoftDocs"
-description: "Learn how to use smart assist feature in the Omnichannel for Customer Service app."
+title: "Smart assist for agents configured using custom Azure bot | MicrosoftDocs"
+description: "Learn how to configure the smart assist bot by using Azure bot in the Omnichannel for Customer Service app."
+ms.date: 09/07/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # View smart assist suggestions for agents configured using custom Azure bot
@@ -34,5 +33,8 @@ When a conversation is escalated from a bot, the agent needs to accept the reque
 
 ## See also
 
-[Smart assist for agents (admin)](smart-assist.md)  
+[Smart assist for agents (admin)](../app-profile-manager/smart-assist.md)  
 [View smart assist suggestions using AI](oc-view-ai-suggested-cases-articles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

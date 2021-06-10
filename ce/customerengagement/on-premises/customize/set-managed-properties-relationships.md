@@ -1,5 +1,5 @@
 ---
-title: "Set managed properties for relationships in Power Apps | MicrosoftDocs"
+title: "Set managed properties for relationships in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to set managed properties for an entity relationship"
 ms.custom: 
 ms.date: 04/29/2019
@@ -31,3 +31,5 @@ tags:
 ### See also
 
 [Create and edit relationships between entities](create-edit-entity-relationships.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

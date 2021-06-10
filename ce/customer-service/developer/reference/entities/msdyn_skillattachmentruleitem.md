@@ -1,12 +1,11 @@
 ---
 title: "msdyn_skillattachmentruleitem Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_skillattachmentruleitem entity."
-author: "platkat"
-ms.author: "ktaylor"
-manager: "shujoshi"
 ms.date: 10/12/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: "v-jmh"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
@@ -747,33 +746,36 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby"></a> lk_msdyn_skillattachmentruleitem_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_createdonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_createdonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedby"></a> lk_msdyn_skillattachmentruleitem_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby"></a> lk_msdyn_skillattachmentruleitem_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_skillattachmentruleitem_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Entity [lk_msdyn_skillattachmentruleitem_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_skillattachmentruleitem"></a> user_msdyn_skillattachmentruleitem
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_skillattachmentruleitem](systemuser.md#BKMK_user_msdyn_skillattachmentruleitem) One-To-Many relationship.
+See systemuser Entity [user_msdyn_skillattachmentruleitem](systemuser.md) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

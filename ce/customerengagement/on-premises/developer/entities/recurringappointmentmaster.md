@@ -2631,3 +2631,5 @@ See knowledgearticle Entity [KnowledgeArticle_RecurringAppointmentMasters](knowl
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.recurringappointmentmaster?text=recurringappointmentmaster EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

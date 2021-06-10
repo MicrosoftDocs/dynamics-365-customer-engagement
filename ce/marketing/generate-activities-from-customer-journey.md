@@ -94,3 +94,6 @@ For this exercise, you'll set up a template to create task activities, and then 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

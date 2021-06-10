@@ -93,3 +93,6 @@ To add dynamic values, use the workflow designer **Form Assistant** in [!INCLUDE
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)   
  [Processes in Dynamics 365 Customer Engagement (on-premises) (formerly Workflows)](automate-business-processes-customer-engagement.md)   
  [Connect to Yammer](connect-yammer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

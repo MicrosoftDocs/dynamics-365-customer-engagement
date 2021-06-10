@@ -94,7 +94,7 @@ To find the simulator URL, sign in to your Azure subscription, and then select t
  The key can be accessed by selecting the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-iothub-resource-azure-portal.png)
+> ![Screenshot of Azure IoT Hub showing the primary key.](./media/cfs-simulator-connection.png)
   
 1. Select the IoT hub in the **Resource Group**.  
   
@@ -113,6 +113,9 @@ Now you can send a test command by using the sample simulator. For example, sele
 ## Privacy notice
 [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
-[Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/)
+[Azure Time Series Insight (Preview)](/azure/time-series-insights/)
 
 [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

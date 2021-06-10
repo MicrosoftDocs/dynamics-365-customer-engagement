@@ -1,5 +1,5 @@
 ---
-title: "Getting started with on-premise managed code application development (Developer Guide for Dynamics 365 Customer Engagement (on-premises) )| MicrosoftDocs"
+title: "Getting started with on-premises managed code application development (Developer Guide for Dynamics 365 Customer Engagement (on-premises) )| MicrosoftDocs"
 description: "This guide shows you how to write application code that connects to the Dynamics 365 Customer Engagement (on-premises) web services and invoke web methods to perform common business data operations like create, delete, update, and find"
 ms.custom: on-premise
 ms.date: 09/05/2019
@@ -31,3 +31,6 @@ This guide shows you how to write application code that connects to the Dynamics
  [Programming models for Dynamics 365 Customer Engagement (on-premises)](programming-models.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)  
  [PowerApps-Samples](https://github.com/Microsoft/PowerApps-Samples)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

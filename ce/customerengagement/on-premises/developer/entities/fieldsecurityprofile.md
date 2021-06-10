@@ -588,3 +588,5 @@ See team Entity [teamprofiles_association](team.md#BKMK_teamprofiles_association
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.fieldsecurityprofile?text=fieldsecurityprofile EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

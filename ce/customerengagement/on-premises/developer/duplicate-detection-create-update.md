@@ -35,7 +35,7 @@ Use Preference header `MSCRM.SuppressDuplicateDetection` and set its value to `f
 > [!NOTE]
 >  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 Customer Engagement (on-premises) includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
 
-For more information and examples on how to prohibit creation of duplicate records during create and update operations, see [Manage duplicate detection for create and update operations using Web API](webapi/manage-duplicate-detection-create-update.md).
+For more information and examples on how to prohibit creation of duplicate records during create and update operations, see [Manage duplicate detection for create and update operations using Web API](/powerapps/developer/data-platform/webapi/manage-duplicate-detection-create-update).
 
 <a name="BKMK_orgservice"></a>
 
@@ -43,12 +43,15 @@ For more information and examples on how to prohibit creation of duplicate recor
 
 Use `SuppressDuplicateDetection` parameter and set its value to `false` to activate duplicate detection and prohibit creation of a duplicate record during create and update operations.
 
-For more information and example on how to prohibit creation of duplicate records during create and update operations, see [Manage duplicate detection for create and update operations using Organization Service](org-service/manage-duplicate-detection-create-update.md).
+For more information and example on how to prohibit creation of duplicate records during create and update operations, see [Manage duplicate detection for create and update operations using Organization Service](/powerapps/developer/data-platform/run-duplicate-detection#detect-duplicates-during-create-and-update-operationsdetect-duplicates-during-create-and-update-operations).
 
 ### See Also
 
-[Manage duplicate detection during Create and Update operation using Web API](webapi/manage-duplicate-detection-create-update.md)  
-[Manage duplicate detection during Create and Update operation using Organization Service](org-service/manage-duplicate-detection-create-update.md)  
-[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)  
-[Sample: Detect multiple duplicate records](org-service/sample-detect-multiple-duplicate-records.md)  
+[Manage duplicate detection during Create and Update operation using Web API](/powerapps/developer/data-platform/webapi/manage-duplicate-detection-create-update)  
+[Manage duplicate detection during Create and Update operation using Organization Service](/powerapps/developer/data-platform/run-duplicate-detection#detect-duplicates-during-create-and-update-operationsdetect-duplicates-during-create-and-update-operations)  
+[Sample: Use duplicate detection when creating and updating records](/powerapps/developer/data-platform/run-duplicate-detection)  
+[Sample: Detect multiple duplicate records](/powerapps/developer/data-platform/duplicate-detection-messages)  
 [Run duplicate detection](run-duplicate-detection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

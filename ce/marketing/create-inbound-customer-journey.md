@@ -41,3 +41,6 @@ Another way to create an inbound journey is to start with an [behavioral segment
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

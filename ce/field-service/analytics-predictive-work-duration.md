@@ -247,3 +247,6 @@ Do not disable this custom action because insights and analytics features in Dyn
 | Key | String  |Yes | For internal use only. |
 | Value | String | Yes | For internal use only. |
 | ConfigName | String | No | For internal use only. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

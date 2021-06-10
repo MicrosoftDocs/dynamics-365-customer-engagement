@@ -1,6 +1,6 @@
 ---
-title: "Query and visualize hierarchical data | MicrosoftDocs"
-description: "Learn how to query and visualize heirarchical related data"
+title: "Query and visualize hierarchical data with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Learn how to query and visualize hierarchical related data"
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
@@ -112,3 +112,6 @@ For some entities, such as account and user, the visualizations are provided out
   
 ### See also  
 [Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

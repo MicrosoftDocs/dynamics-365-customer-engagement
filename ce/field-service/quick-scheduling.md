@@ -21,3 +21,6 @@ search.app:
 # Quick scheduling in Dynamics 365 Field Service
 
 [!INCLUDE[topic-urs-quick-scheduling.md](../shared/urs/quick-scheduling.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

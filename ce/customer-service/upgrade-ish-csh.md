@@ -1,14 +1,11 @@
 ---
 title: Upgrade from Interactive Service Hub to the Customer Service Hub app | Microsoft Docs
 description: Understand the upgrade path from Interactive Service Hub to the Customer Service Hub application
+ms.date: 07/12/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/12/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Upgrade to Customer Service Hub
@@ -40,7 +39,7 @@ Organizations using Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-onli
 
 Before you upgrade, it is important to note that once you upgrade to Customer Service Hub, there is no support to roll back to Interactive Service hub. Follow these best practices before upgrading any production organization:
 
-- Read about known issues with Customer Service Hub or Unified Interface at [Readme / Known Issues](../admin/readme-9.md).
+- Read about known issues with Customer Service Hub or Unified Interface at [Readme / Known Issues](/dynamics365-release-plan/2019wave2/).
 - The upgrade is designed to deliver a nearly seamless experience. But, certain changes require manual intervention by a system administrator. Read the steps outlined later in this guidance, [Manual post-upgrade configuration for System Administrators](#post-upgrade-configurations-for-system-administrators).
 - Upgrade a test or sandbox environment with your customizations and data.
 - Back up your customizations and data.
@@ -108,7 +107,7 @@ Once you’ve upgraded to the latest version, Customer Service Hub will be provi
 As described earlier, most of the Main forms would be in *Inactive* state after the upgrade. If Customer Service Hub does not have an Active form for any entity, users will get *Fallback forms* when they access an entity record. A fallback form is the default form that is available to users whose security roles do not have any forms assigned to them (read more in [Control access to forms](../customerengagement/on-premises/customize/control-access-forms.md)). To ensure that users have a seamless experience after upgrading, system administrators must perform certain manual tasks, as listed in the table below.
 
  
-As Main forms are supported in Unified Interface as well as in web client, activation would make them visible in web client too. System administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](../admin/assign-security-roles-form.md) for more information.
+As Main forms are supported in Unified Interface as well as in web client, activation would make them visible in web client too. System administrators are advised to assign appropriate security roles to avoid unintended access. See [Assign security roles to forms](/power-platform/admin/assign-security-roles-form) for more information.
 
 ![Post upgrade configuration for system admins](media/upgrade-post-upgrade-configurations-for-system-administrators.png)
 
@@ -131,3 +130,6 @@ As Main forms are supported in Unified Interface as well as in web client, activ
 [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md)
 
 [Create or edit a model-driven app by using the app designer](../customerengagement/on-premises/customize/create-edit-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

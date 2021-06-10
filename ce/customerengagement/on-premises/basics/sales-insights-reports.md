@@ -84,3 +84,6 @@ Click **Show All** to drill down into the report.
  
 ### See also  
  [Run a report](../basics/run-report.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

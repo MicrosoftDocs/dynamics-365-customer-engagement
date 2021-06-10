@@ -200,3 +200,6 @@ When configuring ribbon elements, you can define specific rules to control when 
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Define Ribbon Enable Rules](define-ribbon-enable-rules.md)   
  [Define Ribbon Actions](define-ribbon-actions.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

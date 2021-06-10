@@ -87,7 +87,7 @@ The claims-based security model extends traditional authentication models to inc
 13. Configure relying parties for claims-based authentication.  
   
     > [!IMPORTANT]
-    >  Claims-based authentication won’t work until you create the relying parties in STS. For more information, see [Configure the AD FS server for claims-based authentication](https://technet.microsoft.com/library/gg188595.aspx).  
+    >  Claims-based authentication won’t work until you create the relying parties in STS. For more information, see [Configure the AD FS server for claims-based authentication](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/gg188595(v=crm.8)).  
   
 <a name="BKMK_CRMAppPool"></a>   
 ### The CRMAppPool account and the Microsoft Dynamics 365 Customer Engagement (on-premises) encryption certificate  
@@ -111,3 +111,6 @@ Claims data sent from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)
  [Disable claims-based authentication](disable-claims-based-authentication.md)   
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

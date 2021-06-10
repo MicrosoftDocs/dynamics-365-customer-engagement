@@ -1,5 +1,6 @@
 ---
 title: "Remove user personal data  | MicrosoftDocs"
+description: "Remove personal data from all tenant instances."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,12 +15,14 @@ ms.assetid: b7faefff-25e2-44a5-8dd9-49bf1a1677c6
 caps.latest.revision: 19
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Remove user personal data
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 After a user is deleted by the global admin from the Microsoft 365 admin center, the user's personal data can be removed from all tenant instances. A user is deleted from the Microsoft 365 admin center when:
 
@@ -58,10 +61,13 @@ To remove personal data:
 
 ## Remove user personal data using Web services
 
-You can also update the data for a disabled user using the Web API or Organization service. The user information is stored in the [SystemUser](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/systemuser) entity, and you can update data in any of the [writeable attributes](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/systemuser#writable-attributes) in the SystemUser entity. For examples about updating data in a record, see: 
+You can also update the data for a disabled user using the Web API or Organization service. The user information is stored in the [SystemUser](/powerapps/developer/common-data-service/reference/entities/systemuser) entity, and you can update data in any of the [writeable attributes](/powerapps/developer/common-data-service/reference/entities/systemuser#writable-attributes) in the SystemUser entity. For examples about updating data in a record, see: 
 
-- [Update and delete entities using the Web API](../developer/webapi/update-delete-entities-using-web-api.md)
-- [Use the Entity class for create, update and delete](../developer/org-service/use-entity-class-create-update-delete.md)
+- [Update and delete entities using the Web API](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api)
+- [Use the Entity class for create, update and delete](/powerapps/developer/data-platform/org-service/entity-operations-update-delete)
 
 ### See also
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

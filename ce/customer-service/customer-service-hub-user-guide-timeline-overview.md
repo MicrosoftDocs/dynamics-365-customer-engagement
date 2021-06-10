@@ -1,12 +1,11 @@
 ---
 title: "Timeline Overview for Users | MicrosoftDocs"
 description: "Timeline Overview for Users"
+ms.date: 04/16/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/16/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: lalexms
 ---
 
@@ -33,6 +32,11 @@ When enabled by your system administrator, you can use the icons that are displa
 - [Explore more commands](#more-commands)
 - [Search Records](#search-records-on-timeline)
 - [Add attachments](#add-an-attachment-to-a-note-in-timeline)
+
+The timeline dashboard displays only the entities that are configured for the signed-in user. So, what you see on the timeline may differ from what another user will see. The signed-in user will see any records they've followed if those records are configured to display on the dashboard. For example, if only email and appointments are configured to display, then the signed-in user will only see email that relates to them, which can be email they've sent, email sent to them, and email they follow. The same would be true for appointments in this scenario. For more information on setting up timeline, see [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md).
+
+> [!Note]
+> The Notes feature is not available from the timeline. 
 
 ## Create a timeline record
 
@@ -174,13 +178,17 @@ Legend
 
 ## Work with notes and posts
 
-Notes allow you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record using Posts.  
+Notes allow you to record richly formatted information and images for reference, summary, or investigation. You can easily add a mention to another user or a reference to a timeline record. The mention capability is available in timeline only when rich text notes and rich text posts are enabled. 
+
+When you type the **@** symbol, the results you see are matches with the first name, last name or email address of system users starting with your search string. When you mouse over the profile image, you can view the user's detailed profile card and online presence status. More information: [View the profile card for a contact or user](/powerapps/user/profile-cards)
+
+When you type the **#** symbol, the results you see are matches with the account and contact name entity records starting with your search string.
 
 ### Add a note or post to a record on timeline
 
-When enabled by your system administrator, you can either add a note or a post to a record on timeline. Each note has a maximum size limit of 100,000 characters.
+When enabled by your system administrator, you can either add a note or a post to a record on timeline. Each note and post has a maximum size limit of 100,000 characters.
 
-You can also enter a note and add it to a record, but you can only add one attachment per note. If note is not enabled by your system administrator, you can't add an attachment.
+You can also enter a note and add it to a record, but you can only add one attachment per note. If note is not enabled by your system administrator, you can't add an attachment. 
 
 **Note display view**
 
@@ -260,6 +268,22 @@ Legend
 > - You can only format the message body of a note, not the title.
 > - The rich text editor is available only for Unified Interface.
 > - If you create a rich text editor note in Unified Interface and then view the note in the web client, it will display in HTML syntax.
+> 
+### Add a mention or reference a team member in a note
+
+![Add a mention or reference to a team member in a note on timeline](media\timeline_at_1_legend_note.png "Add a mention or reference to a team member in a note on timeline")
+
+Legend
+1. Typing the @ sign in the **Note** field will display a flyout menu with a list of users that have been recently used.
+2. If the user record is not displayed, typing the name after the @ sign refreshes the records in the flyout menu using the **Dynamics 365 Quick Find** search engine that's operating in the background.
+3. Switch views using **Advanced** to display the **Lookup Records** pane. In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to search records.
+
+When you mouse over the profile image, you can view the user's detailed profile card and online presence status.
+
+![View user profile card](media\timeline_at_2_profile_card.png "View user profile card")
+
+> [!NOTE]
+> You can mention only a system user, i.e. a team member within your organization, in a note.
 
 ### Add an attachment to a note in timeline
 
@@ -280,6 +304,52 @@ When you attach a file to your note, the **Edit note** screen displays, and atta
 > You can only add one file attachment per note.
 
 ![Edit note screen](media\edit-note-timeline.png "Edit note screen")
+
+## Work with posts
+
+When enabled by your system administrator, you can either add a post to a record or mention to another user or timeline.
+
+### Add a mention or reference a team member in a post
+
+![Add a mention or reference to a team member in a post on timeline](media\timeline_at_1_legend.png "Add a mention or reference to a team member in a post on timeline")
+
+Legend
+1. Typing the @ sign in the **Post** field will display a flyout menu with a list of users that have been recently used.
+2. If the user record is not displayed, typing the name after the @ sign refreshes the records in the flyout menu using the **Dynamics 365 Quick Find** search engine that's operating in the background.
+3. Switch views using **Advanced** to display the **Lookup Records** pane. In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to search records.
+
+When you mouse over the profile image, you can view the user's detailed profile card and online presence status.
+
+![View user profile card](media\timeline_at_2_profile_card.png "View user profile card")
+
+> [!NOTE]
+> You can mention only a system user, i.e. a team member within your organization, in a post.
+
+### Add references in a post in timeline records
+
+To add a reference such as links in a post to a timeline record, select the ![**Create a timeline record**](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
+
+![Add a link](media\timeline-add-link-12a.png "Add a link")
+
+Legend
+1. Links can be added to a record by typing **#** which will display a flyout menu with a list of records recently accessed. Type a keyword after the # tag and the display refreshes in the flyout menu via the **Dynamics 365 Quick Find** search engine that's operating in the background.
+2. Records displayed can be of any record type, such as accounts, contacts or leads.
+3. The icons beside the record names in the flyout menu indicate the record types, which helps you determine which record to select.  
+4. **Advanced** provides more options when a record cannot be located by allowing the user to  switch to a different view or create a new record.  
+
+### Look up records in posts in timeline
+
+![Lookup Records pane](media\timeline-add-links-to-records-1c.png "Lookup Records pane")
+
+Legend
+1. The **Lookup Records** pane provides users with options to switch between the **Recent records** and **All records** view to find a record.  
+2. **Change View** to see records from a different view.  
+3. **New Record** allows you to create a new record if you can't find the record you need.
+
+For more information on notes and post functionality and configuration, see:
+- [Display options](customer-service-hub-user-guide-timeline-admin.md#display-options)
+- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings)
+- [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
 
 ## Use the rich text editor toolbar
 The rich text editor toolbar provides features and functionality that allows you to work with rich text format in notes.
@@ -324,51 +394,13 @@ The following table describes the different formatting features and functionalit
 
 The rich text editor is enabled by default. Your system administrator can enable or disable the editor for you.
 
-For more information, see [Enable rich-text editor for notes in timeline](https://docs.microsoft.com/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
+For more information, see [Enable rich-text editor for notes in timeline](/powerapps/maker/model-driven-apps/set-up-timeline-control#enable-or-disable-rich-text-editor-for-notes-in-timeline "Enable rich-text editor for notes in timeline").
 
-## Work with posts
-
-When enabled by your system administrator, you can either add a post to a record or mention to another user or timeline.
-
-### Add a mention or reference a team member in a post
-
-![Add a mention or reference to a team member in a post on timeline](media\timeline-add-a-mention-1.png "Add a mention or reference to a team member in a post on timeline")
-
-Legend
-1. Typing the @ sign in the **Post** field will display a flyout menu with a list of users that have been recently used.
-2. If the user record is not displayed, typing the name after the @ sign refreshes the records in the flyout menu using the **Dynamics 365 Quick Find** search engine that's operating in the background.
-3. Switch views using **Advanced** to display the **Lookup Records** pane. In the **Lookup Records** pane, you can switch between the **Recent records** and **All records** view to search records.
-
-> [!NOTE]
-> You can mention only a system user in a post.
-
-### Add references in a post in timeline records
-
-To add a reference such as links in a post to a timeline record, select the ![**Create a timeline record**](media\timeline-create-a-record-icon.png "Create a timeline record") icon and select **Post**, then follow the steps below:
-
-![Add a link](media\timeline-add-link-12a.png "Add a link")
-
-Legend
-1. Links can be added to a record by typing **#** which will display a flyout menu with a list of records recently accessed. Type a keyword after the # tag and the display refreshes in the flyout menu via the **Dynamics 365 Quick Find** search engine that's operating in the background.
-2. Records displayed can be of any record type, such as accounts, contacts or leads.
-3. The icons beside the record names in the flyout menu indicate the record types, which helps you determine which record to select.  
-4. **Advanced** provides more options when a record cannot be located by allowing the user to  switch to a different view or create a new record.  
-
-### Look up records in posts in timeline
-
-![Lookup Records pane](media\timeline-add-links-to-records-1c.png "Lookup Records pane")
-
-Legend
-1. The **Lookup Records** pane provides users with options to switch between the **Recent records** and **All records** view to find a record.  
-2. **Change View** to see records from a different view.  
-3. **New Record** allows you to create a new record if you can't find the record you need.
-
-For more information on notes and post functionality and configuration, see:
-- [Display options](customer-service-hub-user-guide-timeline-admin.md#display-options)
-- [Record Settings](customer-service-hub-user-guide-timeline-admin.md#record-settings)
-- [Notes on timeline](customer-service-hub-user-guide-timeline-admin.md#notes-on-timeline)
 
 ### See Also
 
 [Configure Timeline](customer-service-hub-user-guide-timeline-admin.md)  
 [Timeline FAQs](timeline-faqs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

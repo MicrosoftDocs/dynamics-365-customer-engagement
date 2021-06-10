@@ -76,3 +76,6 @@ search.audienceType:
  [Enable SharePoint Integration for Entities](enable-document-management-entities.md)   
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Define custom claim mapping for SharePoint server-based integration](define-custom-claim-mapping-sharepoint-server-based-integration.md)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

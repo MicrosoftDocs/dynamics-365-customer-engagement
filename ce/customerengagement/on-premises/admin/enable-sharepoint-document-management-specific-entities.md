@@ -1,5 +1,6 @@
 ---
 title: "Enable SharePoint document management for specific entities | MicrosoftDocs"
+description: "Store the documents related to Dynamics 365 Customer Engagement (on-premises) entity records."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -76,3 +77,6 @@ Store the documents related to Dynamics 365 Customer Engagement (on-premises) en
 ### See also  
  [Edit existing SharePoint site records](../admin/edit-existing-sharepoint-site-records.md)   
  [Set up SharePoint integration](set-up-sharepoint-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

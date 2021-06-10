@@ -1,5 +1,5 @@
 ---
-title: "Managed properties for views | MicrosoftDocs"
+title: "Managed properties for views for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to set managed properties for a view"
 ms.custom: 
 ms.date: 12/04/2018
@@ -45,3 +45,6 @@ search.audienceType:
 
 ### See also
 [Create or edit a view](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

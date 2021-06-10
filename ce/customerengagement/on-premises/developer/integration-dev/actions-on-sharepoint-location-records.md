@@ -120,3 +120,6 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)   
  [Sample: Retrieve Absolute URL and Site Collection URL of a Location Record](sample-retrieve-absolute-url-and-site-collection-url-of-a-location-record.md)   
  [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with OneNote](integrate-onenote.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

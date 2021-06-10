@@ -1,12 +1,11 @@
 ---
-title: "Take notes specific to conversation in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to take notes specific to conversation in Omnichannel for Customer Service."
+title: "Take notes related to conversations | MicrosoftDocs"
+description: "As an agent, learn how to take notes specific to conversations when interacting with customers in the Omnichannel for Customer Service app."
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Take notes specific to conversation
@@ -46,3 +45,6 @@ Again, when you switch back to the session, launch the notes panel and take the 
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ After reviewing the results of their simulation runs, users can then apply or di
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing simulation status](media/rso_trigger_sim_6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -973,3 +973,5 @@ See msdyn_project Entity [msdyn_msdyn_project_msdyn_journal_DefaultProject](msdy
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_journal?text=msdyn_journal EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

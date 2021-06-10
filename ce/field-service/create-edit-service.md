@@ -1,23 +1,22 @@
 ---
 title: Create or change a service (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.service: dynamics-365-customerservice
+ms.topic: article
+ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
 author: lalexms
 ms.author: laalexan
 manager: shellyha
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.custom: 
+  - dyn365-customerservice
 search.app: 
   - D365CE
   - D365FS
-ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
 ---
 
 # Create or change a service (Customer Service)
@@ -31,7 +30,7 @@ To make scheduling services quick and easy, it’s helpful to predefine the spec
 A service requires at least one selection rule and one or more resources, resource groups, or teams before the service can be scheduled with a service activity.
 
 > [!IMPORTANT]
-> Service scheduling is deprecated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling is deprecated. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
 ## Create or change a service
   
@@ -91,3 +90,6 @@ A service requires at least one selection rule and one or more resources, resour
  [Create or edit a selection rule](create-simple-selection-rule.md)   
  [Create or change a resource group](create-edit-resource-group.md)   
  [Set work hours for a resource](set-work-hours-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

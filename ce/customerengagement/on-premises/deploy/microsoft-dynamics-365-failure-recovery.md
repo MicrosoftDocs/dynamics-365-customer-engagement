@@ -29,3 +29,6 @@ To understand failure recovery, you must examine different scenarios to learn ho
  [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)   </br>
  [Exporting and importing customizations and solutions](exporting-and-importing-customizations-and-solutions.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

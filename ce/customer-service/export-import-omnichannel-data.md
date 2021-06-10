@@ -1,12 +1,11 @@
 ---
 title: "Export and import Omnichannel Administration app data | MicrosoftDocs"
-description: "Export and import Omnichannel Administration app data from a source organization to another organization"
+description: "Learn to export and import Omnichannel Administration app data from a source organization to another organization."
+ms.date: 02/02/2021
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 07/13/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -30,13 +29,13 @@ To export and import your Omnichannel Administration app configuration data, ins
 
 You can export the configuration data from your source system by using the Omnichannel Administration app configuration data schema file.
 
-1. Download the Configuration Migration tool. Use the [PowerShell script](https://go.microsoft.com/fwlink/p/?linkid=2132473) to download the latest version of the tool.  
+1. Download the Configuration Migration tool. Use the [PowerShell script](/powerapps/developer/data-platform/download-tools-nuget) to download the latest version of the tool.  
 
-2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](https://go.microsoft.com/fwlink/p/?linkid=2132474).
+2. Create a schema file per Omnichannel Solution following the steps in [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data).
 
 3. Select the entities and fields that you want to export and import. The entities that you choose to export and import depend on the resources that you want to reuse across the source and target organizations. (Example: If you use the same API keys and provider for your geolocation provider, then you can include that entity, too.)
 
-    These are some of the core entities you can use, but you are not limited to only these entities:
+    Some of the core entities that you can use are as follows:
 
     -  Work stream
     -  Context variable
@@ -89,7 +88,7 @@ You can export the configuration data from your source system by using the Omnic
 
 To check and compare records between the source and target environment:
 
-1. Using [advanced find](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search), select all fields of the entities you previously exported and imported.
+1. Using [advanced find](../customerengagement/on-premises/basics/save-advanced-find-search.md), select all fields of the entities you previously exported and imported.
 
 2. Spot-check the data in several of the records.
 
@@ -113,3 +112,6 @@ For entity routing, follow the instructions to [Export and import your flows acr
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Enable third-party co-browse and screen sharing](third-party-co-browse.md)  
 [Overview of channels](channels.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
