@@ -1,5 +1,6 @@
 ---
-title: "Manage dashboard components (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Manage dashboard components with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to change the width, height, and location of dashboard components
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -19,8 +20,6 @@ search.audienceType:
 
 ---
 # Manage dashboard components
-
-
 
 You can create and design dashboards to show the information that you want exactly how you want to see it. While designing the dashboard, you can rearrange or remove the components that you have already added and change the height and width of a component.  
   

@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business and SKype integration with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Skype for Business and SKype integration with Dynamics 365 for Customer Engagement apps."
 ms.custom: 
 ms.date: 08/07/2020
 ms.reviewer: 

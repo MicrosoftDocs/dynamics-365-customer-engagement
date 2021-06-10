@@ -1,5 +1,5 @@
 ---
-title: "Define status reason transitions | MicrosoftDocs"
+title: "Define status reason transitions with Date and Time data type  | MicrosoftDocs"
 description: "Learn how to define status reason transitions"
 ms.custom: 
 ms.date: 11/28/2018

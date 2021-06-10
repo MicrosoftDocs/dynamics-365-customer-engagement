@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Sample XML configuration file that installs only the HelpServer role
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The following example installs only the [!INCLUDE[pn_Help_Server](../includes/pn-help-server.md)] role on the local computer.  
   
@@ -81,6 +86,6 @@ Get-CrmSetting WebAddressSettings
  [Install Microsoft Dynamics 365 Server roles using the command prompt](install-using-command-prompt.md)   </br>
  [Install Microsoft Dynamics 365 Reporting Extensions using the command prompt](install-dynamics-365-reporting-extensions-command.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

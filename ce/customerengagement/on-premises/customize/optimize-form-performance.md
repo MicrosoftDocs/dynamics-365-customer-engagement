@@ -1,5 +1,5 @@
 ---
-title: "Optimize form performance | MicrosoftDocs"
+title: "Optimize form performance with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to avoid form designs that cause a form to load slowly"
 ms.custom: 
 ms.date: 01/08/2019
@@ -21,8 +21,6 @@ search.audienceType:
 
 ---
 # Optimize form performance
-
-
 
 Forms that load slowly can reduce productivity and user adoption. Follow these recommendations to maximize how quickly your forms will load. Many of these recommendations are about how a developer may implement form scripts for your organization. Be sure to discuss these recommendations with developers who create form scripts for your forms.  
   

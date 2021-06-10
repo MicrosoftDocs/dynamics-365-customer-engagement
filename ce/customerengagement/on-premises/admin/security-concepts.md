@@ -1,5 +1,6 @@
 ---
 title: "Security concepts  | MicrosoftDocs"
+description: "Protect the data integrity and privacy in a Customer Engagement (on-premises) organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

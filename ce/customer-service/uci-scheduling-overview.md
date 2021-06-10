@@ -19,7 +19,7 @@ ms.custom:
 
 # Service scheduling overview
 
-Unified Interface-based Service Scheduling will replace the Legacy Service Scheduling experience by 12/01/2020.   
+Unified Interface-based Service Scheduling will replace the Legacy Service Scheduling experience by 12/01/2020.
 
 The following topics contain information about legacy Service Scheduling features: 
 
@@ -42,22 +42,16 @@ The following topics contain information about legacy Service Scheduling feature
 
    ![Admin portal business closure navigation](media/uci-business-closure.png "Navigation to the business closure link in the Admin portal")
 
-### See also  
+You can also set up service scheduling in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md)
 
-[Create or edit a service](uci-create-edit-service.md)
+### See also
 
-[Add facilities and equipment](uci-add-facilities-equipment.md)
-
-[Schedule a service activity](uci-schedule-service-activity.md)
-
-[Create resource groups](uci-create-resource-groups.md)
-
-[Use sites to manage your service locations](uci-create-sites.md)
-
-[Navigate the service calendar](uci-navigate-service-calendar.md)
-
-
- 
+[Create or edit a service](uci-create-edit-service.md)  
+[Add facilities and equipment](uci-add-facilities-equipment.md)  
+[Schedule a service activity](uci-schedule-service-activity.md)  
+[Create resource groups](uci-create-resource-groups.md)  
+[Use sites to manage your service locations](uci-create-sites.md)  
+[Navigate the service calendar](uci-navigate-service-calendar.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

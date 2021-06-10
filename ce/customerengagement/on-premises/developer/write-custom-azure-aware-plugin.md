@@ -41,7 +41,7 @@ In the following sample plug-in code has been added to obtain the [!INCLUDE[pn_W
 > [!NOTE]
 > The `serviceEndpointId` passed into the constructor in this code is the one you get from creating a service endpoint as described in [Walkthrough: Configure Azure (SAS) for integration with Customer Engagement](walkthrough-configure-azure-sas-integration.md)
 >
-> You can query available service endpoints for your environment using a `GET` request to Web API using your browser with a query like this: *`[organization Uri]`*`/api/data/v9.0/serviceendpoints?$select=name,description,serviceendpointid`
+> You can query available service endpoints for your environment using a `GET` request to Web API using your browser with a query like this: *`[organization Uri]`*`/api/data/v9.1/serviceendpoints?$select=name,description,serviceendpointid`
   
 [!code-csharp[WindowsAzure#SandboxPlugin](../snippets/csharp/CRMV8/windowsazure/cs/sandboxplugin.cs#sandboxplugin)]  
   

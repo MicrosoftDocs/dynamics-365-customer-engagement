@@ -1,5 +1,6 @@
 ---
 title: "Set up SharePoint integration | MicrosoftDocs"
+description: "Use the document management capabilities of SharePoint from within Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
