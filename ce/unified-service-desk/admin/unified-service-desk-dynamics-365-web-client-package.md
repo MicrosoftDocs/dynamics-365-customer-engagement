@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk  Web Client package | MicrosoftDocs"
-description: "Overview of the Web Client sample application."
+title: "Unified Service Desk Web Client package | MicrosoftDocs"
+description: "Learn about the Web Client sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

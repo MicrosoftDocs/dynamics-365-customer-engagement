@@ -1,6 +1,6 @@
 ---
 title: "Unified Interface Settings | MicrosoftDocs"
-description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
+description: "Learn how to configure the Unified Interface settings in Unified Service Desk, create the Unified Interface settings record and add it to a configuration."
 ms.date: 06/01/2019
 ms.topic: article
 author: mh-jaya

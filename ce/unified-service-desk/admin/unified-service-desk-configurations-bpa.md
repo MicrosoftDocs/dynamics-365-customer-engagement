@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk configurations | MicrosoftDocs"
-description: "Learn about the Unified Service Desk configurations that you make in Microsoft Dataverse on which the Best practices Analyer performs analysis and displays a report."
+description: "Learn how the Best Practices Analyzer checks Unified Service Desk for configurations that you make in Microsoft Dataverse."
 ms.date: 04/24/2018
 ms.topic: article
 author: mh-jaya

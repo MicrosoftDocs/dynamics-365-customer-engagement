@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk  - Interactive service hub package | MicrosoftDocs"
-description: "Overview of the Interactive service hub sample application."
+title: "Unified Service Desk - Interactive service hub package | MicrosoftDocs"
+description: "Learn about the Interactive Service Hub sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

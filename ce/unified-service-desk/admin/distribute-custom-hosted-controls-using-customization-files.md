@@ -1,6 +1,6 @@
 ---
-title: "Distribute custom hosted controls using Customization Files with Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to deploy customization files."
+title: "Distribute custom hosted controls using customization files  | MicrosoftDocs"
+description: "Learn how to create or update customization files to distribute custom hosted controls and functionality to agent computers."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

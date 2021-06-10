@@ -1,6 +1,6 @@
 ---
-title: "Post-migration steps | MicrosoftDocs"
-description: "Test migration of web client configurations to the Unified Interface app."
+title: "Post migration steps | MicrosoftDocs"
+description: "Learn about the tasks you must perform after migrating configurations from legacy web client to the Unified Interface app."
 ms.date: 11/16/2020
 ms.topic: article
 author: mh-jaya
