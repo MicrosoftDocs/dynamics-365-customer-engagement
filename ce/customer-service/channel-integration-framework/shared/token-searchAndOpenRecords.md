@@ -19,8 +19,8 @@
 
 **Description:** Returns Promise object containing string values. On success, returns the search results as per the search query. 
 > [!Note]
-> You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such $filter, $select, and $top in the method parameters as shown in the [Examples](#examples) section. 
-For more information about query options, see [Query options overview](https://docs.microsoft.com/odata/concepts/queryoptions-overview).
+> You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such as $filter, $select, and $top in the method parameters as shown in the [Examples](#examples) section. 
+> For more information about query options, see [Query options overview](../../../../../../odata/concepts/queryoptions-overview).
 
 ## Remarks
 
