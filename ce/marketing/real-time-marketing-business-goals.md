@@ -18,10 +18,6 @@ search.app:
   - D365Mktg
 ---
 
-<!-- See question in line 37. -->
-
-
-
 # Set a business goal and measure progress through a journey
 
 > [!IMPORTANT]
@@ -33,11 +29,7 @@ Most customer journeys are created to drive a specific customer behavior or acti
 
 Using the goal-setting feature, you can:
 
-
-<!-- In the first bullet, "customer onboarding" needs a verb. Could it be "improve"? Also, where it says "customize it," it isn't clear what "it" refers to. -->
-
-
-- Define goals that track customer engagement, drive a purchase, increase customer loyalty, customer onboarding, send general announcements or customize it to fit your desired outcomes.
+- Define goals that track customer engagement and onboarding, drive a purchase, increase customer loyalty, or send general announcements. You can also customize goals to fit your desired outcomes.
 - Measure the success of the customer journey on an ongoing basis using the goal metric and a target.
 - Optimize your A/B tests and channel selections based on the journey goal.
 - Express goal targets in count or percentage to determine how well a journey is performing.
