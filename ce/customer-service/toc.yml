@@ -1197,7 +1197,7 @@
     - name: Unable to delete a managed solution
       href: troubleshoot-delete-managed-solution.md
     - name: Known issues
-      href: omnichannel-readme.md
+      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
     - name: Troubleshoot with Solution Health Hub
