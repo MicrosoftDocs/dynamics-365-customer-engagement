@@ -195,17 +195,17 @@ Administrators can view past sync errors by going to **Settings** > **Sync Error
 
 ## Configuration considerations
 
-#### Should I make a copy of the offline profile?
+### Should I make a copy of the offline profile?
 
-It is recommended to use the mobile offline profile included with Field Service and make offline filter changes directly in the "Field Service Mobile - Offline Profile." One key benefit of using the default offline profile is it allows your offline profile to receive updates to unchanges entity sync filters. Having said that, you have the option to copy the default "Field Service Mobile - Offline Profile" to make changes to the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
+It is recommended to use the mobile offline profile included with Field Service and then make offline filter changes directly in the *Field Service Mobile - Offline Profile*. Using the default offline profile allows your offline profile to receive updates to unchanges entity sync filters. You can also copy the default *Field Service Mobile - Offline Profile*, and make changes to the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
-#### Known limitations
+### Known limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
-- Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: ``` Xrm.WebApi.online```.
+- Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: `Xrm.WebApi.online`.
 - [More platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 
 ### See also
