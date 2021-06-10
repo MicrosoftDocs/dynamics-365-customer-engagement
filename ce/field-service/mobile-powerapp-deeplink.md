@@ -71,4 +71,4 @@ If the link goes to an `entitylist` view, add the following parameters.
 
 ### See also
 
-[Set field values using parameters passed to a form](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form?view=op-9-1)
+[Set field values using parameters passed to a form](/dynamics365/customerengagement/on-premises/developer/set-field-values-using-parameters-passed-form?view=op-9-1&preserve-view=true)
