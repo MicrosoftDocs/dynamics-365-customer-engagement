@@ -18,10 +18,6 @@ search.app:
   - D365Mktg
 ---
 
-<!-- question from editor: Should the list that begins in line 111 be numbered (done in order)? -->
-
-
-
 # Create push notifications
 
 > [!IMPORTANT]
@@ -109,10 +105,11 @@ To stop messages from being sent, you can deactivate or delete them.
 As with the email editor, you can personalize push notifications to insert dynamic data that is unique to each notification recipient.
 
 To personalize a push notification:
-- Select **Personalization** ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
-- Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
-- After choosing the data source, you can search for the specific attribute or event trigger you want.
-- Add a **Label** to quickly identify your token in the message content.
+
+1. Select **Personalization** ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
+1. After choosing the data source, you can search for the specific attribute or event trigger you want.
+1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the push notification from a journey, it will automatically populate the token according to the attribute you selected.
 
