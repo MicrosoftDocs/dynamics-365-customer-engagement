@@ -130,6 +130,23 @@ sections:
           
           > [!div class="mx-imgBorder"]
           > ![Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.](./media/fsm-insufficient-permission-faq.png)
-          
+      
+      - question: |
+          How many columns or "fields" can be added to an entity view on the mobile app?
+        answer: |
+          Currently, a maximum of 3 columns or "fields" can be displayed in a mobile view. 
+      
+      - question: |
+          Can I configure the "Get Directions" map button to trigger a GPS map provider app of my choosing?
+        answer: |
+          Currently, the Get Directions map button will only trigger the default map provider of the device and this is currently not configurable.
+      - question: |
+          Is there a limit to the number of entities and custom entities that can be enabled in the mobile offline profile?
+        answer: |
+          There is currently no limit to the number of entities, custom or otherwise that can be added to the mobile offline profile. However, it is strongly recommended to minimize the number of entities and records downloaded to the device to shorten load times, shorten sync times, and improve overall performance.
+      - question: |
+          Is there a way to choose the columns or "fields" that are downloaded as part of a mobile offline profile?
+        answer: |
+          Offline profiles are filtered at the row level which adjusts the number of records downloaded. There is currently no way to filter columns or "fields."
           
           [!INCLUDE[footer-include](../includes/footer-banner.md)]          
