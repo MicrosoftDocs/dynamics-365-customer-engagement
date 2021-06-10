@@ -70,7 +70,7 @@ As shown in the following image, you can see whether a segment is a Marketing se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of segment sources](media/real-time-marketing-segment-source.png "Screenshot of segment sources")
 
-Learn more about [setting up and managing a Customer Insights connection to Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/manage-environments).
+Learn more about [setting up and managing a Customer Insights connection to Dynamics 365 Marketing](/dynamics365/customer-insights/audience-insights/manage-environments).
 
 ## Exclusion segment
 
