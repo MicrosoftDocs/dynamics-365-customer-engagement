@@ -43,7 +43,7 @@ Evaluate journey performance in near real time through built-in operational anal
 Select any component to view near real-time operational analytics in the right pane, including:
 
 - **Goal analytics**: If a goal has been defined a target set, you can view how the journey is progressing toward its goal and if it has met the goal.
-- **Channel analytics**: For any message in the journey (email, text, and push notification), view the delivery funnel and additional metrics to diagnose the content performance.
+- **Channel analytics**: For any message in the journey (email, text, or push notification), view the delivery funnel and additional metrics to diagnose the content performance.
 - **AI optimization**: Near real-time data to help you evaluate how applying AI optimization has helped your engagement rate.
 
 ### Aggregate cross-journey analytics
