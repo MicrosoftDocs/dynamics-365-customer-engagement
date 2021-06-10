@@ -18,9 +18,6 @@ search.app:
   - D365Mktg
 ---
 
-<!-- Please check my word deletion in line 98 to ensure it's correct. -->
-
-
 # Push notification setup for application developers
 
 [Push notification configuration for real-time marketing](real-time-marketing-push-notifications.md) requires some setup that must be completed by an app developer. To complete the mobile app configuration, the developer must register devices.
