@@ -35,7 +35,7 @@ If you are reading this document on your mobile device, you can install the app 
 
 2. Tap **Install** to install the app.
 
-    ![Install the app on iOS](media/android-install-app.png "Install the app on iOS")
+    ![Install the app on Android](media/android-install-app.png "Install the app on Android")
 
 ### See also
 
