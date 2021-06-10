@@ -1,6 +1,6 @@
 ---
-title: "Add the Omnichannel Alert Notification-related action calls to the events | MicrosoftDocs"
-description: "Learn how to add action calls to the events"
+title: "Add alert notification action calls to events | MicrosoftDocs"
+description: "Learn how to add action calls to the events as part of configuring alert notifications to use in Omnichannel for Customer Service on Unified Service Desk."
 ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli

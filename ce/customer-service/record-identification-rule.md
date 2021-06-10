@@ -1,6 +1,6 @@
 ---
-title: "Automatically identify customers using pre-chat responses and setContext API method | MicrosoftDocs"
-description: "How you can automatically identify customers using pre-chat responses in Omnichannel for Customer Service"
+title: "Automatically identify customers | MicrosoftDocs"
+description: "Learn how to automatically identify customers by using pre-chat responses in Omnichannel for Customer Service"
 ms.date: 03/24/2021
 ms.topic: article
 author: neeranelli

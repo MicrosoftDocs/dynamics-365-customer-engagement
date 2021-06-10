@@ -86,7 +86,7 @@ The **msdyn_SetTeamsDocumentStatus** action returns the following value:
 **Request**
 
 ```http
-POST [Organization URI]/api/data/v9.0/msdyn_SetTeamsDocumentStatus
+POST [Organization URI]/api/data/v9.1/msdyn_SetTeamsDocumentStatus
 HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
@@ -106,7 +106,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0
 {
-    "@odata.context": [Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyn_SetTeamsDocumentStatusResponse",
+    "@odata.context": [Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.msdyn_SetTeamsDocumentStatusResponse",
     "PassedLogicalEntityNames": "[account,contact]",
     "FailedLogicalEntityNames": "[]",
     "OperationResult": true

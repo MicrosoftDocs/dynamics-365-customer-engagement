@@ -1,5 +1,6 @@
 ---
 title: "Extend Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Dynamics 365 Customer Engagement (on-premises) is a very powerful business tool right out of the box."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

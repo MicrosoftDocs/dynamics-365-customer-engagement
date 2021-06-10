@@ -1,6 +1,6 @@
 ---
 title: "Configure proactive chat | MicrosoftDocs"
-description: "Learn how to configure proactive chat in Omnichannel for Customer Service."
+description: "Learn how to enable and configure proactive chat in Omnichannel for Customer Service and how it works at runtime."
 ms.date: 05/06/2021
 ms.topic: article
 author: lalexms

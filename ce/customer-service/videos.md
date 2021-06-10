@@ -1,6 +1,6 @@
 ---
-title: "Videos for Omnichannel for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Find video-based information about Omnichannel for Dynamics 365 Customer Service."
+title: "Videos for Omnichannel for Customer Service | MicrosoftDocs"
+description: "You can go through the videos listed in this topic to learn about the different features in Omnichannel for Customer Service."
 ms.date: 10/29/2020
 ms.topic: article
 author: neeranelli
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Videos
+# Videos for Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

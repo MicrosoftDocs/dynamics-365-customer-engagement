@@ -1,5 +1,7 @@
 ---
 title: "The organization base language does not match the server base language | Microsoft Docs"
+description: Environment diagnostics warning that the organization base language doesn't match the server.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
