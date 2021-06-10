@@ -1,7 +1,7 @@
 ---
 title: "Preview: Natural language use in segments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Example marketing segments to show various capabilities of Natural Language Query in Dynamics 365 Marketing."
-ms.date: 03/30/2021
+ms.date: 06/10/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -28,14 +28,14 @@ search.app:
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 > [!NOTE]
-> You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the **Segmentation Natural Language Queries** functionality under **Segmentation** before you are able to access it.
+> You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the **Natural Language queries for Segmentation** functionality under **Segmentation** before you are able to access it.
 
 > [!IMPORTANT]
 > The the natural language feature for segments currently only supports English language queries.
 
 If your administrator has enabled the natural language feature, you can use Natural Language Query (NLQ) to build segments in Dynamics 365 Marketing. Natural language input enables you to use common words and phrases to describe the people you want to include in dynamic and static segments without learning all the specifics of the Common Data Model (CDM) and best practices for building queries.
 
-Using the instructions in [Working with segments](segmentation-lists-subscriptions.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, leads, and activities.
+Using the instructions in [Working with segments](segmentation-lists-subscriptions.md), type and submit a statement, and the service will fill the query fields using information collected from your contacts, accounts, and leads.
 
 <!--- Most of the examples in this topic will reflect dynamic segments, as static segments are created by manually selecting each member instead of building queries that can find matching results for you, automatically updating the segment as the status of the member contacts and accounts change. -->
 
@@ -62,7 +62,6 @@ You might name the new segment “Contacts who live in Chicago with email and an
 
 A more complex segment that includes both profile and behavioral queries gives better results that let you make a better-targeted customer journey, perhaps helping reactivate a lapsed customer. For instance, you can create a segment that includes:
 
-- Contacts who live in Chicago who have an email address (profile).
 - Account name is Ford and status is active and revenue is larger than $1,000,000 (profile).
 
 This segment would find a group of contacts who have purchased from your company in the last six months in Chicago that are now unreachable through the email address in your organizational database, suggesting that a new email needs to be established for that contact.
@@ -90,7 +89,6 @@ You can use a variety of phrases to find contacts and accounts with various attr
 
 - Find accounts missing profile information
     - Companies with no business phone
-    - Companies with no contact person or a contact person without a phone number
 
 - Find contacts with particular attributes
     - Find contacts with an email address
