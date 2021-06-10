@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel for Customer Service for administrators | MicrosoftDocs"
-description: "Use administration app for configuring Omnichannel for Customer Service"
+description: "Use the Omnichannel Administration app for configuring the various settings in Omnichannel for Customer Service"
 ms.date: 12/27/2019
 ms.topic: article
 author: neeranelli

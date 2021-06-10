@@ -1,5 +1,6 @@
 ---
 title: "Security enhancements: User session and access management | MicrosoftDocs"
+description: "Use security enhancements to secure Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 

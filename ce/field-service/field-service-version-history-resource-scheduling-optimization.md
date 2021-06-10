@@ -29,16 +29,16 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |N/A | N/A
+| | <i>First Release</i> | 3.3.2.4 |N/A | N/A
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4 | 06/04/2021
-| | <i>Canada</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4  |06/04/2021
-| | <i>India</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4  | 06/04/2021
-| | <i>France</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4  | 06/04/2021
-| | <i>United Arab Emirates</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4  | 06/04/2021
-| | <i>South Africa</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4  |06/04/2021
-| | <i>Germany</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4  | 06/04/2021
-| | <i>Switzerland</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4  | 06/04/2021
+| | <i>South America</i> | 3.3.2.4 |TBD | 07/09/2021
+| | <i>Canada</i> | 3.3.2.4  |TBD  |07/09/2021
+| | <i>India</i> | 3.3.2.4 |TBD  | 07/09/2021
+| | <i>France</i> | 3.3.2.4  |TBD  | 07/09/2021
+| | <i>United Arab Emirates</i> | 3.3.2.4  |TBD  | 07/09/2021
+| | <i>South Africa</i> | 3.3.2.4  |TBD  |07/09/2021
+| | <i>Germany</i> | 3.3.2.4  |TBD  | 07/09/2021
+| | <i>Switzerland</i> | 3.3.2.4  |TBD  | 07/09/2021
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> |  [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4   | 06/11/2021
 | | <i>Asia Pacific</i> | [3.3.1.38](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |3.3.2.4   | 06/11/2021

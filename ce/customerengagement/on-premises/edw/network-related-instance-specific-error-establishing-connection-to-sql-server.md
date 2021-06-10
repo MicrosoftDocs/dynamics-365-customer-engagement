@@ -1,5 +1,7 @@
 ---
 title: "A network-related or instance-specific error occurred while establishing a connection to SQL Server | Microsoft Docs"
+description: Environment diagnostics warning that there were connection issues with the SQL Server.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

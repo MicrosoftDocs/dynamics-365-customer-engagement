@@ -1,6 +1,6 @@
 ---
-title: Routing and assignment in Omnichannel Administration | MicrosoftDocs
-description: Understand about routing and work assignment in Omnichannel Administration
+title: "Routing and assignment in Omnichannel Administration | MicrosoftDocs"
+description: "Learn about how routing and work assignment to agents can be configured in the Omnichannel Administration app."
 ms.date: 05/12/2021
 ms.topic: article
 author: neeranelli

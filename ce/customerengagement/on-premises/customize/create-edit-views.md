@@ -1,6 +1,6 @@
 ---
-title: "Understand views | MicrosoftDocs"
-description: ""
+title: "Understand views with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Learn about the different types of views"
 keywords: 
 ms.date: 11/09/2018
 ms.service: crm-online

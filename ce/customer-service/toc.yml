@@ -148,7 +148,7 @@
           href: setup-skills-assign-agents.md
         - name: Enable agents to update skills
           href: allow-agents-update-skills.md
-        - name: Set up skill-based routing in unified routing
+        - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
         - name: Set up skill-based routing in Omnichannel Administration
           href: attach-skills.md
@@ -184,7 +184,7 @@
       items: 
       - name: How unified routing affects queue items and their APIs
         href: unified-routing-impact-on-APIs.md
-      - name: Add skill control for routed records
+      - name: Add a skill control for routed records
         href: add-skill-control.md
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
@@ -315,6 +315,8 @@
       - name: Create and manage knowledge articles
         href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
+        href: csw-search-knowledge-articles.md
+      - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
       - name: Search for knowledge articles on smart assist
         href: oc-search-knowledge-articles.md
@@ -1194,8 +1196,8 @@
       href: troubleshoot-sla-issues.md
     - name: Unable to delete a managed solution
       href: troubleshoot-delete-managed-solution.md
-    - name: Known issues
-      href: omnichannel-readme.md
+    - name: Known issues in Customer Service and Omnichannel for Customer Service
+      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
     - name: Troubleshoot with Solution Health Hub

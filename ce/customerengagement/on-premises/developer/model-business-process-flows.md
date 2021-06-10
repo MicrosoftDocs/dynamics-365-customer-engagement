@@ -86,13 +86,13 @@ You can retrieve the name of your business process flow entity using any of the 
     **Request**
 
     ```
-    GET [Organization URI]/api/data/v9.0/workflows?$filter=name eq 'My Custom BPF'&$select=uniquename HTTP/1.1
+    GET [Organization URI]/api/data/v9.1/workflows?$filter=name eq 'My Custom BPF'&$select=uniquename HTTP/1.1
     ```
 
     **Response**
     ```
     {  
-    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#workflows(uniquename)",
+    "@odata.context":"[Organization URI]/api/data/v9.1/$metadata#workflows(uniquename)",
     "value":[  
          {  
              "@odata.etag":"W/\"1084677\"",
@@ -127,7 +127,7 @@ You can retrieve the name of your business process flow entity using any of the 
 > [!NOTE]
 > The <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsBPFEntity> property is `true` for business process flow entities. You can retrieve all the business process flow entities in your instance by running the following Web API request:
 > ```http
-> GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=SchemaName,LogicalName,DisplayName&$filter=IsBPFEntity eq true HTTP/1.1
+> GET [Organization URI]/api/data/v9.1/EntityDefinitions?$select=SchemaName,LogicalName,DisplayName&$filter=IsBPFEntity eq true HTTP/1.1
 > ```
 
 <a name="BPFSecurity"></a>   
@@ -154,7 +154,7 @@ The custom business process flow entity has organization scope. The regular crea
  If the name of your business process flow entity is "new_mycustombpf", use the following query to retrieve all the records (process instances) for your business process flow entity:  
   
 ```http
-GET [Organization URI]/api/data/v9.0/new_mycustombpfs HTTP/1.1 
+GET [Organization URI]/api/data/v9.1/new_mycustombpfs HTTP/1.1 
 ```
 
 At this point, you might not get any instances in your response as there are none. Run this request after creating an instance of your business process flow definition later in this topic.
@@ -175,14 +175,14 @@ To create a business process flow entity record, you need to specify the followi
     **Request**
 
     ```http
-    GET [Organization URI]/api/data/v9.0/processstages?$select=stagename&$filter=processid/workflowid eq 2669927e-8ad6-4f95-8a9a-f1008af6956f HTTP/1.1
+    GET [Organization URI]/api/data/v9.1/processstages?$select=stagename&$filter=processid/workflowid eq 2669927e-8ad6-4f95-8a9a-f1008af6956f HTTP/1.1
     ```
 
     **Response**
 
     ```http
     {
-        "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#processstages(stagename)",
+        "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#processstages(stagename)",
         "value": [
             {
                 "@odata.etag": "W/\"858240\"",
@@ -208,7 +208,7 @@ Next, use the following request to create an instance of your business process f
 **Request**
 
 ```http
-POST [Organization URI]/api/data/v9.0/new_mycustombpfs HTTP/1.1 
+POST [Organization URI]/api/data/v9.1/new_mycustombpfs HTTP/1.1 
 Content-Type: application/json; charset=utf-8 
 OData-MaxVersion: 4.0 
 OData-Version: 4.0 
@@ -225,13 +225,13 @@ Accept: application/json
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [Organization URI]/api/data/v9.0/new_mycustombpfs(cc3f721b-026e-e811-80ff-00155d513100)
+OData-EntityId: [Organization URI]/api/data/v9.1/new_mycustombpfs(cc3f721b-026e-e811-80ff-00155d513100)
 ```
 
 Note that if you want to create an instance of your business process flow definition with the active stage set as a stage ***other*** than the first stage, you must also provide `traversedpath` in your request. Traversed path is the comma-delimited string of process stage ids that represent visited stages of the business process flow instance. The following request creates an instance for an account record (ID=679b2464-71b5-e711-80f5-00155d513100) and active stage set as the second stage, S2 (ID=19a11fc0-3398-4214-8522-cb2a97f66e4b).
 
 ```http
-POST [Organization URI]/api/data/v9.0/new_mycustombpfs HTTP/1.1 
+POST [Organization URI]/api/data/v9.1/new_mycustombpfs HTTP/1.1 
 Content-Type: application/json; charset=utf-8 
 OData-MaxVersion: 4.0 
 OData-Version: 4.0 
@@ -257,7 +257,7 @@ To perform stage navigation, you will need the ID of the business process flow i
 Assuming the ID of the process instance you want to update is dc2ab599-306d-e811-80ff-00155d513100, use the following request to update the active stage from S1 to S2:
 
 ```http
-PATCH [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1
+PATCH [Organization URI]/api/data/v9.1/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1
 Content-Type: application/json
 OData-MaxVersion: 4.0
 OData-Version: 4.0
@@ -290,7 +290,7 @@ A process instance can have one of the following states: **Active**, **Finished*
 So, to **Abort** a process instance, use the following request set the `statecode` and `statuscode` values appropriately:
 
 ```http
-PATCH [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1   
+PATCH [Organization URI]/api/data/v9.1/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1   
 Content-Type: application/json   
 OData-MaxVersion: 4.0   
 OData-Version: 4.0 
@@ -313,7 +313,7 @@ Finally, to set a process instance status as **Finished**, which is only possibl
 For cross-entity navigation in this example, you must set the active stage of the process instance to the last stage, S3 (ID=a107e2fd-7543-4c1a-b6b4-b8060ecb1a1a), update the traversed path accordingly, and set a contact record as the primary entity record as per the business process flow definition.
 
 ```http
-PATCH [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1   
+PATCH [Organization URI]/api/data/v9.1/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1   
 Content-Type: application/json   
 OData-MaxVersion: 4.0   
 OData-Version: 4.0 
@@ -332,7 +332,7 @@ Use the following Web API request:
 **Request**
 
 ```http
-DELETE [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1
+DELETE [Organization URI]/api/data/v9.1/new_mycustombpfs(dc2ab599-306d-e811-80ff-00155d513100) HTTP/1.1
 ```  
 
 **Response**
