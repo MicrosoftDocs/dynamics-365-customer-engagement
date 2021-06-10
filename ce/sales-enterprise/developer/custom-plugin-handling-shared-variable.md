@@ -1,6 +1,6 @@
 ---
-title: "Custom plug-in handling through a shared variable (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use a shared variable in your custom plug-in to prevent triggering operations on parent entities"
+title: "Handle Custom plug-in by using shared variable – Sales Enterprise | MicrosoftDocs"
+description: "Use a shared variable in your custom plug-in to prevent it from triggering operations on parent entities."
 ms.date: 07/09/2020
 ms.topic: get-started-article
 author: susikka

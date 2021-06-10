@@ -1,5 +1,5 @@
 ---
-title: "RecalculatePrice Action (Developer Guide for Dynamics 365 Sales) | MicrosoftDocs"
+title: "RecalculatePrice Action - Developer Guide - Sales Enterprise | MicrosoftDocs"
 description: 
 ms.date: 04/25/2019
 ms.topic: article

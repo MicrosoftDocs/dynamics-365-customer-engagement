@@ -1,6 +1,6 @@
 ---
-title: "msdyn_playbookactivityattribute EntityType | MicrosoftDocs"
-description: "Entity reference for msdyn_playbookactivityattribute EntityType"
+title: "msdyn_playbookactivityattribute EntityType - Sales Enterprise | MicrosoftDocs"
+description: "As developer, use this reference information to understand the msdyn_playbookactivityattribute EntityType and its properties."
 ms.date: 04/08/2019
 ms.topic: article
 author: susikka
