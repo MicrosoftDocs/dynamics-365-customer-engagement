@@ -32,11 +32,15 @@ To run [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], yo
 
 ## Known issue where a deployment administrator has insufficient permission
 
-After a user is added as a deployment administrator, the member of the Deployment Administrators group might receive a message similar to the following when executing a deployment administrative task, such as importing an organization database.
+After a user is added as a deployment administrator, the member of the Deployment Administrators group might receive a message similar to one of the following when executing a deployment administrative task, such as importing an organization database.
 
 Failed to install CustomControlsCoreException: Microsoft.Crm.CrmException: The user Id(s) [00000000-0000-0000-0000-000000000000] is invalid.
 
-When this error occurs the administrative task doesn't complete. This issue occurs because the user isn't a member of the PrivUserGroup security group. To resolve this issue, [Add the deployment administrator to the PrivUserGroup Active Directory security group](add-a-new-deployment-administrator.md#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group).
+or 
+
+contextUserId=XXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX has correct privileges but allowImpersonationOfOrganizationSystemUser == false
+
+When an error like this occurs the administrative task doesn't complete successfully. This issue occurs because the user isn't a member of the PrivUserGroup security group. To resolve this issue, [Add the deployment administrator to the PrivUserGroup Active Directory security group](add-a-new-deployment-administrator.md#add-the-deployment-administrator-to-the-privusergroup-active-directory-security-group).
 
 ## See also  
  [Add a new Deployment Administrator](add-a-new-deployment-administrator.md)   
