@@ -79,7 +79,7 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telepho
 This sample code searches and displays the top 10 active contact records.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", “$filter=statecode eq 0&$select=description&$top=10", false ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false ).then(
     function success(result) { 
     res=JSON.parse(result);
         // perform operations on record retrieval and opening
