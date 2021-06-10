@@ -18,10 +18,6 @@ search.app:
   - D365Mktg
 ---
 
-
-<!-- question from editor: Should the list that begins on line 74 be numbered (in order)? -->
-
-
 # Create outbound text messages
 
 > [!IMPORTANT]
@@ -72,10 +68,11 @@ To test your message, try test-sending it to any United States mobile number. Yo
 Personalizing text messages allows you to insert dynamic data that is unique to each message recipient. You might want to dynamically populate a name, an appointment time, a location, or any other unique data.
 
 To personalize a text message:
-- Select **Personalization** ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
-- Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
-- After choosing the data source, you can search for the specific attribute or event trigger you want.
-- Add a **Label** to quickly identify your token in the message content.
+
+1. Select **Personalization** ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
+1. After choosing the data source, you can search for the specific attribute or event trigger you want.
+1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the text message from a journey, it will automatically populate the token according to the attribute you selected.
 
