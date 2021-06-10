@@ -100,14 +100,14 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 ## 3.2.1.71 
 
-- Resource scheduling optimization intelligence used to help dispatcher schedule multiple requirements in the schedule board. [Read about this update.] (https://docs.microsoft.com/dynamics365/field-service/preview-schedule-board)
+- Resource scheduling optimization intelligence used to help dispatcher schedule multiple requirements in the schedule board. [Read about this update.](/dynamics365/field-service/preview-schedule-board)
 - Increased end-to-end overall optimization performance by 3-5%.  
 
 ## 3.2.1.6 
 
 - Fixed bug: scenario installing the resource scheduling optimization analytics solution would remove the resource scheduling optimization app module icon. 
-- Allow resources to travel outside of working hours [Read about this update.] (https://docs.microsoft.com/dynamics365/field-service/rso-travel-outside-working-hours)
-- Improved predictive travel time accuracy [Read about this update.] (https://docs.microsoft.com/dynamics365/field-service/rso-predictive-travel) 
+- Allow resources to travel outside of working hours [Read about this update.](/dynamics365/field-service/rso-travel-outside-working-hours)
+- Improved predictive travel time accuracy [Read about this update.](/dynamics365/field-service/rso-predictive-travel) 
 
 ## 3.1.5.24 
 
