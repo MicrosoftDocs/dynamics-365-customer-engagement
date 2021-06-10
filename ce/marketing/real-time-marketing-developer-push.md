@@ -53,7 +53,7 @@ Parameters:
 - **ApplicationId**: Taken from the "Application ID" field of the mobile app configuration entity.
 - **UserId**: Identifier of the user in CRM. Can be a contact ID, a lead ID, or a Customer Insights ID.
 - **ApiToken**: Access token taken from the "Access Tokens" section of the mobile app configuration entity.
-- **ApnsToken**: Device registration token. [Learn more about how to locate the token.](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)
+- **ApnsToken**: Device registration token. [Learn more about how to locate the token](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns).
 
 ## Device registration for Android applications
 
