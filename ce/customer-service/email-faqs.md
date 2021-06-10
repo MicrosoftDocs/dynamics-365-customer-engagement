@@ -8,7 +8,7 @@ ms.author: laalexan
 ms.reviewer: nenellim
 ---
 
-# Email FAQs and known issues
+# Email FAQs
 
 Find answers to common questions regarding the email experience features and functionality, configurations, and other key concepts.
 
