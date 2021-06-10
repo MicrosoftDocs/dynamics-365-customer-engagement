@@ -1,5 +1,5 @@
 ---
-title: "Enable an entity for feedback | MicrosoftDocs"
+title: "Enable an entity for feedback with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to enable feedback for an entity"
 ms.custom: 
 ms.date: 04/29/2019
