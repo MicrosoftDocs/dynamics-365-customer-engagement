@@ -1,5 +1,5 @@
 ---
-title: "Deploy Omnichannel for Customer Service package on Unified Service Desk | MicrosoftDocs"
+title: "Deploy Omnichannel for Customer Service package | MicrosoftDocs"
 description: "Learn how to deploy Unified Service Desk - Omnichannel for Customer Service package on a model-driven app."
 ms.date: 02/15/2021
 ms.topic: article
