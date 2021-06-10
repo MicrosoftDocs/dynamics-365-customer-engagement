@@ -1,6 +1,6 @@
 ---
 title: "Download Unified Service Desk  | MicrosoftDocs"
-description: "This topic provides information about how to download Unified Service Desk."
+description: "Learn how to download Unified Service Desk, client applications, and other tools to manage your Unified Service Desk implementation."
 ms.date: 04/05/2020
 ms.topic: article
 author: mh-jaya
