@@ -1,6 +1,6 @@
 ---
-title: "Adjust forecast values in sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Adjust values in a forecast in Dynamics 365 Sales."
+title: "Adjust forecast values in sales forecasting - Sales Enterprise | MicrosoftDocs"
+description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
 ms.date: 02/03/2020
 ms.topic: article
 author: udaykirang

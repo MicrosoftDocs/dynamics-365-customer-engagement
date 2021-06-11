@@ -1,6 +1,6 @@
 ---
-title: "Configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
+title: "Configure forecasting - Sales Enterprise | MicrosoftDocs"
+description: "Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid."
 ms.date: 05/25/2020
 ms.topic: article
 author: udaykirang

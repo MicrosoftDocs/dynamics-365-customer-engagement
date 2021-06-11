@@ -1,10 +1,10 @@
 ---
-title: "Custom plug-in handling through a shared variable (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use a shared variable in your custom plug-in to prevent triggering operations on parent entities"
+title: "Handle Custom plug-in by using shared variable – Sales Enterprise | MicrosoftDocs"
+description: "Use a shared variable in your custom plug-in to prevent it from triggering operations on parent entities."
 ms.date: 07/09/2020
 ms.topic: get-started-article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales
@@ -15,11 +15,11 @@ ms.reviewer: susikka
 ## Issue
 
 - Create and update operations on Opportunity, Quote, Order, and Invoice entities are triggering updates on their parent entities.
-- Retrieving details about Opportunity, Quote, Order, and Invoice entities internally triggers the Price Calculation service, which subsequently triggers custom plug-ins created by customers. 
+- Retrieving details about Opportunity, Quote, Order, and Invoice entities internally trigger the Price Calculation service, which subsequently triggers custom plug-ins created by customers. 
 
 ## Resolution
 
-Custom plug-ins execute create, update, and save operations on Opportunity, Quote, Order, and Invoice entities. Create and update operations on these entities internally trigger the Price Calculation service, which subsequently updates associated price-related fields or attributes of their parent entities.
+Custom plug-ins execute create, update, and save operations on Opportunity, Quote, Order, and Invoice entities. Create and update operations on these entities internally trigger the Price Calculation service, which then updates associated price-related fields or attributes of their parent entities.
 
 You can identify or differentiate any updates in Opportunity, Quote, Order, or Invoice entities or parent Opportunity, Quote, Order, or Invoice entities by using the internal Price Calculation service or by using your own custom plug-in. The Boolean shared variable `InternalSystemPriceCalculationEvent`, which is accessible through `IPluginExecutionContext`, is available within the plug-in code. Any create or update event processed by using the Price Calculation service will set the value of the variable `InternalSystemPriceCalculationEvent` to `true`. The default value of `InternalSystemPriceCalculationEvent` is `false`. You can access this variable from your custom plug-in code to control the flow of your existing business logic.
 
