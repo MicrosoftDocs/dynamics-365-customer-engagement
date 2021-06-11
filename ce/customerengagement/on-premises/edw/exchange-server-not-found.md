@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Exchange Server not found or is not a supported version | Microsoft Docs"
+description: Environment diagnostics warning that there's a problem with the specified Exchange Server.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

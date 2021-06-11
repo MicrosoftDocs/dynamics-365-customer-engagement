@@ -1,5 +1,6 @@
 ﻿---
 title: "Connect Dynamics 365 (on-premises) to Exchange Server (on-premises) | MicrosoftDocs"
+description: "Connect Dynamics 365 (on-premises) with Microsoft Exchange Server (on-premises)."
 ms.custom: ""
 ms.date: 11/28/2018
 ms.reviewer: ""

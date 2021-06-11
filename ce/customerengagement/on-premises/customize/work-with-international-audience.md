@@ -1,5 +1,6 @@
 ---
-title: "Work with an international features | MicrosoftDocs"
+title: "Work with international features in Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
+description: This section explains the different international features available
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 

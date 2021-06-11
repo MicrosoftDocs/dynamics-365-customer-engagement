@@ -1,6 +1,6 @@
 ---
 title: "Set up workstream for records in Omnichannel Administration | MicrosoftDocs"
-description: "Learn how to set up record workstream in the Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the topic to set up record workstream in Omnichannel for Customer Service."
 ms.date: 05/13/2021
 ms.topic: article
 author: neeranelli

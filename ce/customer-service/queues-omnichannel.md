@@ -1,8 +1,6 @@
 ---
 title: Work with queues in Omnichannel for Customer Service | MicrosoftDocs
-description: "See how you can create and manage queues in Omnichannel for Customer Service"
-ms.date: 05/13/2021
-ms.topic: article
+description: "This topic provides information and steps to help you learn  how you can create and manage queues in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

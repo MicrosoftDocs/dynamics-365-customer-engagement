@@ -1,5 +1,6 @@
 ---
 title: "Enable OneDrive for Business (on-premises) with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Create and manage private documents with OneDrive for Business."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -14,10 +15,8 @@ ms.assetid: bdd1ca68-8231-451e-ab5c-b1bfae86dd23
 caps.latest.revision: 13
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Enable OneDrive for Business (on-premises)
 

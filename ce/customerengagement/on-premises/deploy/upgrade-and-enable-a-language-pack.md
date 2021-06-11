@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Upgrade and enable a Language Pack
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 After you upgrade [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.md)], if you had [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)][!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] installed you should install new [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] that correspond to the new version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. Then, enable the [!INCLUDE[cc_Language_Packs_short](../includes/cc-language-packs-short.md)] so they are available to users after the upgrade.  
   
@@ -35,6 +40,6 @@ After you upgrade [!INCLUDE[pn_crm_2015_server](../includes/pn-crm-2015-server.m
 ## See Also    
  [Uninstall or repair a Dynamics 365 language pack](uninstall-repair-dynamics-365-language-pack.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
