@@ -1,6 +1,6 @@
 ---
 title: "exportPdf Action | MicrosoftDocs"
-description: ""
+description: "Use this topic to understand the parameters, and request and response samples for generating a PDF using the exportPDF action."
 ms.date: 09/08/2020
 ms.topic: article
 author: lavanyakr01
