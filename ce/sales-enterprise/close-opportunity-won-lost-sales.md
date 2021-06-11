@@ -1,6 +1,6 @@
 ---
-title: "Close opportunities as won or lost (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Close the opportunity to indicate whether it was won or lost."
+title: "Close opportunities as won or lost - Sales Enterprise | MicrosoftDocs"
+description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
 ms.date: 02/10/2021
 ms.topic: article
 author: lavanyakr01

@@ -1,6 +1,6 @@
 ---
-title: "Add the forecast grid and configuration options in a site map (Dynamics 365 Sales) | MicrosoftDocs"
-description: "How to add the forecast grid and configuration options in a site map in Dynamics 365 Sales."
+title: "Add forecast grid and configuration to sitemap - Sales Enterprise | MicrosoftDocs"
+description: "As the forecast grid and configurations are based on URL custom control forms, add them manually to the sitemap so that your users can access."
 ms.date: 12/13/2019
 ms.topic: article
 author: udaykirang
@@ -10,20 +10,20 @@ ms.custom:
   - "dyn365-sales"
 ---
 
-# Add the forecast grid and configuration options in a site map
+# Add the forecast grid and configuration options to a sitemap
 
-When you create a custom model-driven app, you can choose a default solution to create a site map for the app. However, the list contains solutions that are based on entity forms only. The forecast options are based on URL custom control forms and do not appear in the solution list. You must manually add these options to the site map. After you add these options, users in your organization can see them on the app’s site map. 
+When you create a custom model-driven app, you can choose a default solution to create a sitemap for the app. However, the list contains solutions that are based on entity forms only. The forecast options are based on URL custom control forms and do not appear in the solution list. You must manually add these options to the sitemap. After you add these options, users in your organization can see them on the app’s sitemap. 
 
-Follow these steps to individually configure the site map for forecast grid and forecast configuration:
+Follow these steps to individually configure the sitemap for forecast grid and forecast configuration:
 
-1.	Open your custom app on the app designer and go to the site map designer.
+1.	Open your custom app on the app designer and go to the sitemap designer.
 
 2.	Select a group from the area for which you want to add the forecast options. 
 
     >[!NOTE]
     >We recommend using the General area for forecast grid and the Administration area for forecast configuration.
 
-3.	On the site map designer canvas, select **Add** > **Subarea**.
+3.	On the sitemap designer canvas, select **Add** > **Subarea**.
 
     OR
 
@@ -56,15 +56,15 @@ Follow these steps to individually configure the site map for forecast grid and 
     e.	(Optional) If required, enter unique IDs for the forecast grid and forecast configuration. You can also use the default IDs.
     
        > [!div class="mx-imgBorder"]
-       > ![Properties tab of site map designer](media/forecast-sitemap-properties.png "Properties tab of site map designer")
+       > ![Properties tab of sitemap designer](media/forecast-sitemap-properties.png "Properties tab of sitemap designer")
 
-6.	Save and close the site map designer page.
+6.	Save and close the sitemap designer page.
 
 7.	Publish your custom app.
 
-    The forecast grid and configuration options are now displayed on the site map.
+    The forecast grid and configuration options are now displayed on the sitemap.
 
-More information: [Create a site map for an app using the site map designer](/customerengagement/on-premises/customize/create-site-map-app.md#add-a-subarea-to-a-group-in-the-site-map)
+More information: [Create a sitemap for an app using the sitemap designer](/customerengagement/on-premises/customize/create-site-map-app.md#add-a-subarea-to-a-group-in-the-site-map)
 
 
 ### See also

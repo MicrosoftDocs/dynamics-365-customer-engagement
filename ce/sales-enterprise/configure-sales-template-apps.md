@@ -1,6 +1,6 @@
 ---
-title: "Configure Power BI template apps to work with Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn about configuring Power BI template apps to work with Dynamics 365 Sales."
+title: "Configure Power BI template apps for Sales - Sales Enterprise | MicrosoftDocs"
+description: "Establish a two-way communication between Dynamics 365 and Power BI template app and configure Sales Analytics and Process Analytics."
 ms.date: 03/30/2020
 ms.topic: article
 author: sbmjais
@@ -140,7 +140,7 @@ Each sales manager must configure their environment to integrate the Sales Analy
 5.  Select **Save**, and then select **Close**.
 
      > [!div class="mx-imgBorder"]
-    > ![Power BI Dashboard properties](media/pbi-dashboard.png "Power BI Dashboard properties")
+    > ![Sales Analytics dashboard](media/pbi-dashboard.png "Sales Analytics dashboard")
 
 The Sales Analytics for Dynamics 365 Sales dashboard is now available in Dynamics 365.
 
