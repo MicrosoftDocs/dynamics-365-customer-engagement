@@ -39,34 +39,50 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Germany</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
 | | <i>Switzerland</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
-| | <i>Asia Pacific</i> | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
-| | <i>Great Britain</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
-| | <i>Oceana</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
+| | <i>Japan</i> |   [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
+| | <i>Asia Pacific</i> | [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
+| | <i>Great Britain</i> | [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
+| | <i>Oceana</i> |  [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255)  | 06/04/2021
+| | <i>Europe</i> | [8.8.42.64](https://docs.microsoft.com/dynamics365/field-service/version-history#884264) | [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)  | 06/18/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255)  | 06/11/2021
+| | <i>North America</i> | [8.8.42.64](https://docs.microsoft.com/dynamics365/field-service/version-history#884264) | [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)  | 06/25/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | 06/09/2021
-| | <i>China</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255)  |  06/09/2021
-| | <i>Dedicated Scale Groups</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158)  | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | 06/18/2021
+| | <i>Government Community Cloud</i> | [8.8.42.64](https://docs.microsoft.com/dynamics365/field-service/version-history#884264) | [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)  |  06/23/2021
+| | <i>China</i> | [8.8.42.64](https://docs.microsoft.com/dynamics365/field-service/version-history#884264) | [8.8.43.93](https://docs.microsoft.com/dynamics365/field-service/version-history#884393)  |  06/23/2021
+| | <i>Dedicated Scale Groups</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158)  | [8.8.42.64](https://docs.microsoft.com/dynamics365/field-service/version-history#884264) | 06/18/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.43.93
+
+This release is a hotfix on Field Service version [8.8.43.77](#884351).
+
+-	Check back soon for a full list of updates.
+
 ## 8.8.43.77
 
 This release is a hotfix on Field Service version [8.8.43.51](#884351).
 
--	Check back soon for a full list of updates.
+- Fixed some performance issues.
 
 ## 8.8.43.51 
 
 (Includes Universal Resource Scheduling version [3.12.46.21](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124621))
 
--	Check back soon for a full list of updates.
+- Fixed an issue where work order product, work order service or work order service task were getting created for inactive incident type product, service ask and service task respectively through Agreements.
+-	Fixed an issue for invoices auto generated from work order that invoice date is sometimes updated to one day more or less than the actual date. A new advanced setting ‘Workorder.InvoiceDate.InUserTimeZone=true’ has been added which can be set to fix the issue. 
+-	Corrected an issue in case a custom real-time workflow is specified on work order after create to update any of the primary requirement fields eg: priority where the requirement failed to reflect the changes.
+-	Fixed an issue where time off request gets created incorrectly in case the record is created from the portal and reflects wrongly in the schedule board as well.
+
+
+## 8.8.42.64 
+
+This release is a hotfix on Field Service version [8.8.42.55](#884231).
+
+-	Fixed some performance issues.
 
 ## 8.8.42.55 
 
