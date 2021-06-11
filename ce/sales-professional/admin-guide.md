@@ -1,5 +1,5 @@
 ---
-title: "Help resources for administrator and sales manager  - Sales Professional | MicrosoftDocs"
+title: "Help resource-administrator and sales manager-Sales Professional | MicrosoftDocs"
 description: "Index page showing administration, system, user, and application configurations for Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
 ms.topic: get-started-article

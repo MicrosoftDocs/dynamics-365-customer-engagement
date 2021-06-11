@@ -1,5 +1,5 @@
 ---
-title: "Create quick campaign using in-app marketing - Sales Professional | MicrosoftDocs"
+title: "Create quick campaign using in-app marketing-Sales Professional | MicrosoftDocs"
 description: "Use quick campaigns to send e-mail blast to customers in Dynamics 365 Sales Professional to track success through campaign responses."
 ms.date: 12/06/2019
 ms.topic: article

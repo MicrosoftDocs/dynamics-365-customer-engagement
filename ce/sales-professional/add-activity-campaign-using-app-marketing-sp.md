@@ -1,5 +1,5 @@
 ---
-title: "Add activity to campaign using in-app marketing - Sales Professional | MicrosoftDocs"
+title: "Add activity to campaign in in-app marketing-Sales Professional | MicrosoftDocs"
 description: "Add planning and campaign activities to a marketing campaign to make it successful in Dynamics 365 Sales Professional."
 ms.date: 12/06/2019
 ms.topic: article

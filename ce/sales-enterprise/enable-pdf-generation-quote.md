@@ -1,5 +1,5 @@
 ---
-title: "Enable or disable PDF file generation from records - Sales Enterprise | MicrosoftDocs"
+title: "Enable or disable PDF generation from records-Sales Enterprise | MicrosoftDocs"
 description: "Enable your users to create and share professional-looking PDF files with customers in Dynamics 365 Sales."
 ms.date: 10/28/2020
 ms.topic: article
