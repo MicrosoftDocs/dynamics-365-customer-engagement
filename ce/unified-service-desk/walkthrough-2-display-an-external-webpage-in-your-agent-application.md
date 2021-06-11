@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 2  Display an external webpage in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display an external web page in Unified Service Desk."
+title: "Walkthrough 2: Display webpages and external URLs in your agent application | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying web pages and external URLs in your agent application. "
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
@@ -15,7 +15,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
 ---
-# Walkthrough 2: Display an external webpage in your agent application
+# Walkthrough 2: Display webpages and external URLs in your agent application
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

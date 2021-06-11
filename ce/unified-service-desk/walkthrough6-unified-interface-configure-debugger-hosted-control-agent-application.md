@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
+title: "Walkthrough 6: Configure the Debugger hosted control in your agent application | MicrosoftDocs"
 description: 
 ms.date: 06/25/2020
 ms.topic: article
