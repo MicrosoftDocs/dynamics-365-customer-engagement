@@ -1,6 +1,6 @@
 ---
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
-description: "Understand the layout of the Best Practices Analyzer report for Unified Service Desk so you can analyze the results of the report."
+description: "Use this topic to understand the layout of the Best Practices Analyzer report and analyze the results of the report."
 ms.date: 05/15/2018
 ms.topic: article
 author: mh-jaya

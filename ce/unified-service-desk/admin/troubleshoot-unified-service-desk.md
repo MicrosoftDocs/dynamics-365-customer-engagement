@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ---
-# Debug and troubleshoot
+#  Troubleshoot issues
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides robust debugging support by way of a debugger hosted control that provides real time trace information of the underlying executions and lots of libraries with support for diagnostic logging that can be enabled as required. The debugging support is an important feature that will help you effectively troubleshoot and resolve any issues during the configuration, and afterwards during day-to-day operations.  
   
   

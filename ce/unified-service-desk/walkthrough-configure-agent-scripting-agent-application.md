@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
-description: 
+title: "Walkthrough 7: Configure agent scripting in your agent applications | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring agent scripting in your agent applications."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

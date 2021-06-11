@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 8  Use knowledge base within your agent application | MicrosoftDocs"
-description: "Demonstrates how to configure a panel in Unified Service Desk to display knowledge base records."
+title: "Walkthrough 8: Use knowledge base within your agent application | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring panels to display knowledge base records."
 ms.date: 08/17/2018
 ms.topic: article
 author: mh-jaya

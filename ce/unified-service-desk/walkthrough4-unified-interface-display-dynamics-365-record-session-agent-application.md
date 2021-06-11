@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 4: Display session records using session controls | MicrosoftDocs"
-description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records using session controls."
+title: "Walkthrough 4: Display session records in Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in Unified Interface apps."
 ms.date: 12/31/2019
 ms.topic: article
 author: mh-jaya
