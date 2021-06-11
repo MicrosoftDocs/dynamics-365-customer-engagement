@@ -1,5 +1,5 @@
 ---
-title: "Frequently asked questions - Sales Enterprise | MicrosoftDocs"
+title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales"
 ms.date: 09/29/2020
 ms.topic: article

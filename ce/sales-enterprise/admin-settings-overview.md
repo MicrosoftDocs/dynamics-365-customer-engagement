@@ -1,5 +1,5 @@
 ---
-title: "Admin settings overview - Sales Enterprise | MicrosoftDocs"
+title: "Admin settings overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Admin settings provides an organized and unified experience for administrators to easily configure the sales app from a single place."
 ms.date: 04/03/2020
 ms.custom: intro-internal

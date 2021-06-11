@@ -1,5 +1,5 @@
 ---
-title: "Change the parent of a product (reparenting) - Sales Enterprise | MicrosoftDocs"
+title: "Change the parent of a product (reparenting) (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales."
 ms.date: 01/12/2020
 ms.topic: article

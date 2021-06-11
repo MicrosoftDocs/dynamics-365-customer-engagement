@@ -1,5 +1,5 @@
 ---
-title: "Predefined security roles for Sales - Sales Enterprise | MicrosoftDocs"
+title: "Predefined security roles for Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system."
 ms.date: 04/23/2021
 ms.topic: article

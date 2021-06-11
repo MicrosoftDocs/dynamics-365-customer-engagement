@@ -1,5 +1,5 @@
 ---
-title: "FAQ for LinkedIn Sales Navigator - Sales Enterprise | MicrosoftDocs"
+title: "FAQ for LinkedIn Sales Navigator (Dynamics 365 Sales) | MicrosoftDocs"
 description: "FAQ for LinkedIn Sales Navigator in Dynamics 365 Sales."
 ms.date: 07/15/2020
 ms.topic: article

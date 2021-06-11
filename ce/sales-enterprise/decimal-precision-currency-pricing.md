@@ -1,5 +1,5 @@
 ---
-title: "Decimal precision in currency and pricing - Sales Enterprise | MicrosoftDocs"
+title: "Decimal precision in currency and pricing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how decimal precision is used in currency and pricing in Dynamics 365 Sales."
 ms.date: 06/17/2020
 ms.topic: article

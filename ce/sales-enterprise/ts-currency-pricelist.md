@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting issues related to currency and price list - Sales Enterprise | MicrosoftDocs"
+title: "Troubleshooting issues related to currency and price list (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with currency and price list in Dynamics 365 Sales."
 ms.date: 07/09/2020
 ms.topic: article

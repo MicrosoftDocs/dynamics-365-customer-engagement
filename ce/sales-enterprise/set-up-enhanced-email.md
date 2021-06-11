@@ -1,5 +1,5 @@
 ---
-title: "Set up the enhanced email experience in Dynamics 365 Sales - Sales Enterprise | MicrosoftDocs"
+title: "Set up the enhanced email experience in Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
 ms.date: 04/16/2020
 ms.topic: article

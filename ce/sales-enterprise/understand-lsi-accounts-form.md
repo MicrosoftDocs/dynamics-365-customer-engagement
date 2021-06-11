@@ -1,5 +1,5 @@
 ---
-title: "Understand the LinkedIn Sales Insights tab in account forms - Sales Enterprise | MicrosoftDocs"
+title: "Understand the LinkedIn Sales Insights tab in account forms (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Understand the LinkedIn Sales Insights tab in account forms in Dynamics 365 Sales."
 ms.date: 02/11/2020
 ms.topic: article

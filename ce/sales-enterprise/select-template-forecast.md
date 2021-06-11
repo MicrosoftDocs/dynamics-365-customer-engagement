@@ -1,5 +1,5 @@
 ---
-title: "Select a template to configure forecasting - Sales Enterprise | MicrosoftDocs"
+title: "Select a template to configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Select a template to define the hierarchy to be used in a forecast in Dynamics 365 Sales."
 ms.date: 08/01/2020
 ms.topic: article

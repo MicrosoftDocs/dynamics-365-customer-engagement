@@ -1,5 +1,5 @@
 ---
-title: "Use properties to describe a product - Sales Enterprise | MicrosoftDocs"
+title: "Use properties to describe a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Simplify product management and classification by adding product properties in Dynamics 365 Sales."
 ms.date: 02/10/2021
 ms.topic: article

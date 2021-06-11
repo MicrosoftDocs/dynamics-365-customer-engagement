@@ -1,5 +1,5 @@
 ---
-title: "Use Sales Hub on Dynamics 365 for phones and tablets - Sales Enterprise | Microsoft Docs"
+title: "Use Sales Hub on Dynamics 365 for phones and tablets (Dynamics 365 Sales) | Microsoft Docs"
 description: "Use Sales Hub on Dynamics 365 phones and tablets"
 ms.date: 10/01/2019
 ms.topic: article

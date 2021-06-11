@@ -1,5 +1,5 @@
 ---
-title: "Configure and manage drill-down entities for a forecast - Sales Enterprise | MicrosoftDocs"
+title: "Configure and manage drill-down entities for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure and manage drill-down entities for a forecast in Dynamics 365 Sales."
 ms.date: 10/26/2020
 ms.topic: article

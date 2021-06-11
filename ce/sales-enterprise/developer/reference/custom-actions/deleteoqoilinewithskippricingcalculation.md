@@ -1,6 +1,6 @@
 ---
-title: "DeleteOQOILineWithSkipPricingCalculation custom action - Sales Enterprise | MicrosoftDocs"
-description: "This topic explains the parameters, and example web API calls for  deleting entities without triggering price calculation."
+title: "DeleteOQOILineWithSkipPricingCalculation custom action (Dynamics 365 Sales) | MicrosoftDocs"
+description: 
 ms.date: 07/09/2020
 ms.topic: get-started-article
 author: lavanyakr01

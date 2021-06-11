@@ -1,5 +1,5 @@
 ---
-title: "Make price list optional - Sales Enterprise | MicrosoftDocs"
+title: "Make price list optional (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Allow your salespeople to add products without associating a price list first."
 ms.date: 08/01/2019
 ms.topic: article

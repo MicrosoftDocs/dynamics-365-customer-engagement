@@ -1,5 +1,5 @@
 ---
-title: "Track a marketing campaign response using in-app marketing - Sales Enterprise | MicrosoftDocs"
+title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Track the replies to your campaigns by using campaign responses in Dynamics 365 Sales."
 ms.date: 10/01/2019
 ms.topic: article

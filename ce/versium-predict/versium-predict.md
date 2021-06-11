@@ -1,5 +1,5 @@
 ---
-title: "Versium Predict - Sales Enterprise | MicrosoftDocs"
+title: "Versium Predict (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
 ms.date: 09/30/2017
 ms.service: dynamics-365-sales

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting common issues across multiple entities - Sales Enterprise | MicrosoftDocs"
+title: "Troubleshooting common issues across multiple entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with multiple entities such as opportunity, quote, order, or invoice in Dynamics 365 Sales."
 ms.date: 03/24/2020
 ms.topic: article

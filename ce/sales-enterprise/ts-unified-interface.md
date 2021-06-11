@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting issues with Unified Interface - Sales Enterprise | MicrosoftDocs"
+title: "Troubleshooting issues with Unified Interface (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with Unified Interface in Dynamics 365 Sales."
 ms.date: 06/25/2020
 ms.topic: article

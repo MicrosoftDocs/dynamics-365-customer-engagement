@@ -1,5 +1,5 @@
 ---
-title: "Clone products - Sales Enterprise | MicrosoftDocs"
+title: "Clone products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Quickly create a copy of an existing product in Dynamics 365 Sales including all its details by cloning it."
 ms.date: 02/10/2021
 ms.topic: article
