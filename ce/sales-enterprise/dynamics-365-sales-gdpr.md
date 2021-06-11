@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Sales and GDPR | MicrosoftDocs"
-description: "Know how Dynamics 365 Sales complies with GDPR regulations."
+title: "Dynamics 365 Sales and GDPR - Sales Enterprise | MicrosoftDocs"
+description: "To comply with GDPR guidelines, we’ve made it possible to update read-only records through an export and import, and through SDKs."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01

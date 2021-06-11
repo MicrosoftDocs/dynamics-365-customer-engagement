@@ -1,6 +1,6 @@
 ---
-title: "Create or edit competitor records (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Track your competitors and their strengths to win sales against them."
+title: "Create or edit competitor records - Sales Enterprise) | MicrosoftDocs"
+description: "Track information about your competitor’s strengths and weaknesses and share it with your colleagues to help everyone stay current."
 ms.date: 02/10/2021
 ms.topic: article
 author: lavanyakr01

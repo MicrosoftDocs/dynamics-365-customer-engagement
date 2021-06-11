@@ -1,10 +1,10 @@
 ---
 title: "DeleteOQOILineWithSkipPricingCalculation custom action (Dynamics 365 Sales) | MicrosoftDocs"
-description: 
+description: "Use this topic to understand the parameters, and web API calls for deleting a line item without triggering price calculation."
 ms.date: 07/09/2020
 ms.topic: get-started-article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales
