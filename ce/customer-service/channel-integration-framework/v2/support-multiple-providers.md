@@ -1,6 +1,6 @@
 ---
-title: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Support multiple providers with Dynamics 365 Channel Integration Framework version 2.0"
+title: "Support multiple providers with Dynamics 365 CIF version 2.0 | Microsoft Docs"
+description: "Use this topic to understand how you can support multiple providers in Omnichannel for Customer Service using Dynamics 365 CIF version 2.0."
 ms.date: 12/31/2018
 ms.topic: reference
 author: mh-jaya

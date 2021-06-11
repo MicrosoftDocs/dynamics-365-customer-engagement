@@ -1,6 +1,6 @@
 ---
-title: "Overview of templates in the Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Learn about templates in Dynamics 365 Channel Integration Framework version 2.0"
+title: "Overview of templates in Dynamics 365 CIF version 2.0 | Microsoft Docs"
+description: "Use this topic to get an overview of the templates you can create as an administrator in Dynamics 365 CIF version 2.0."
 ms.date: 04/05/2021
 ms.topic: article
 author: mh-jaya
