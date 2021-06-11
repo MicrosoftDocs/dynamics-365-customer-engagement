@@ -1,5 +1,5 @@
 ---
-title: "Configure columns and layouts in forecast grid- Sales Enterprise | MicrosoftDocs"
+title: "Configure columns and layouts in forecast grid - Sales Enterprise | MicrosoftDocs"
 description: "Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more."
 ms.date: 10/26/2020
 ms.topic: article
