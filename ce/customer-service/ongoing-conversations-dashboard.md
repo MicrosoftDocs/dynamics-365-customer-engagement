@@ -1,8 +1,6 @@
 ---
 title: "Ongoing Conversations dashboard for supervisor | MicrosoftDocs"
-description: "Learn about Ongoing Conversations dashboard for supervisor"
-ms.date: 08/03/2020
-ms.topic: article
+description: "This topic provides information about the Ongoing Conversations dashboard for supervisors to view information about the conversations handled by agents."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

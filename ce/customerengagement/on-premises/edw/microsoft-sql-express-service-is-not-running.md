@@ -1,5 +1,7 @@
 ---
 title: "Microsoft SQL Express service is not running | Microsoft Docs"
+description: Environment diagnostics warning that the SQL Express service isn't running.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

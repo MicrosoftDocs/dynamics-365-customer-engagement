@@ -1,6 +1,6 @@
 ---
 title: "Overview of templates | MicrosoftDocs"
-description: "Learn about templates"
+description: "Learn about templates in Customer Service that can be managed by using app profiles."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Overview of templates
+# Overview of templates in Customer Service
 
 When you (an agent) get an incoming conversation request, the system searches and opens the records like case, contact, or account. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 

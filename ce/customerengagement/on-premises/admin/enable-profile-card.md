@@ -1,6 +1,6 @@
 ---
 title: "Enable viewing profile cards | MicrosoftDocs"
-description: "Enable viewing profile cards."
+description: "Find information related to users on their profile card."
 ms.custom: 
 ms.date: 06/03/2019
 ms.reviewer: 

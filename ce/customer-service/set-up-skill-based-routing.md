@@ -1,7 +1,7 @@
 ---
 title: "Set up skill-based routing | MicrosoftDocs"
 description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 06/04/2021
+ms.date: 06/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,34 +15,35 @@ The steps to configure skill-based routing are as follows:
 1. [Create a rating model](setup-skills-assign-agents.md#create-a-rating-model).
 2. [Create skill types and skills](setup-skills-assign-agents.md#create-skill-types).
 3. [Assign agents to skills](setup-skills-assign-agents.md#assign-agents-to-skill).
-4. [Set exact or closest match as the default skill matching algorithm for a workstream](create-workstreams.md#configure-work-distribution).
+4. [Set exact or closest match as the default skill-matching algorithm for a workstream](create-workstreams.md#configure-work-distribution).
 5. Choose one of the following skill-classification methods:
    - [Author manual classification rules to attach skills for a workstream](configure-work-classification.md#create-manual-skill-classification-rulesets).
    - [Setup intelligent skill finder model](#set-up-intelligent-skill-finder-model) and [Author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
 6. [Choose out of box assignment method or author a custom assignment method for a queue](assignment-methods.md).
 7. [Enable skill control for the agent](add-skill-control.md).
 
-
 ## How skills are matched
 
-For a workstream, how **Default skill matching algorithm** works when you set the value as exact match or closest match is explained in this section. When the work classification skill rules attach skills and proficiency level, the assignment method matches the required skill with the skills of the agent. The system assigns the conversation to an agent based on the skill criteria chosen.
+How the default skill match algorithm works when you set the value as exact match or closest match for a workstream is explained in this section. When the work classification skill rules attach skills and proficiency level, the assignment method matches the required skill with the skills of the agent. The system assigns the conversation to an agent based on the skill criteria chosen.
 
-You can achieve the skill matching based on the business requirements:
+The default skill-matching algorithm will work only with the out-of-the-box assignment method. If you choose to use the custom assignment method, then you'll need to write the conditions to achieve skill-based routing. The rules written for custom assignment override the algorithm in the work distribution settings of the workstream.
 
-- Exact skill matching
-- Closest or nearest skill matching
+You can achieve the following skill matching based on the business requirements:
+
+- Exact skill match
+- Closest or nearest skill match
 
 ### Exact match
 
 In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency.
 
-Exact match filters all matched agents whose rating value is greater than or equal to the required value, and then orders them based on the higher available capacity, capacity profile, or round robin as per the chosen assignment method.
+Exact match filters all matched agents whose rating value is greater than or equal to the required value, and then orders them based on the higher available capacity, capacity profile, or round robin as per the selected order by attribute.
 
 If an agent isn't available with all the required skills and corresponding proficiency, then the conversation remains unassigned in the queue.
 
 You can configure exact skill match in one of the following ways:
 
-- In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Exact Match**. In the assignment method of the queue, choose one of the out-of-the-box assignment methods (highest capacity or round robin). The exact match algorithm does not apply to work items if custom assignment method is applied to a queue.
+- In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Exact Match**. In the assignment method of the queue, choose highest capacity or round robin assignment method. The exact match algorithm is not applicable to work items if custom assignment method is applied to a queue. You'll need to write rules to achieve exact match for the custom assignment method.
 - Create a custom assignment method and create rules on attribute user skills:
 
   In exact skill match, as part of custom assignment method, you can write rule conditions to enable assignment logic to search for agents who match all the required skills or match all skills within a skill type. The matched agents can be ordered using the following order by options:
@@ -67,7 +68,7 @@ You can configure exact skill match in one of the following ways:
 
 ### Closest Match
 
-When finding an agent at the earliest is more important than waiting for agent with exact required skills, unified routing provides with an option to order agents using proficiency or skill count and thereby achieving closest skill match.
+When finding an agent at the earliest is more important than waiting for an agent with exact required skills, unified routing provides with an option to order agents using proficiency or skill count and thereby achieving closest skill match.
 
 Closest match orders all agents based on their closeness to the required skill and proficiency. For example, if the required skills are four, then agents with four skills will be put on top (exact qualified), then agent with five skills (overqualified), followed by agent with three skills (under qualified).
 
@@ -75,9 +76,9 @@ If no agent is available with any of the required skills, then the conversation 
 
 You can achieve closest skill match in one of the following ways:
 
-- In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Closest Match**. In the assignment method of the queue, choose one of the out-of-the-box assignment methods (highest capacity or round robin).
+- In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Closest Match**. In the assignment method of the queue, choose highest capacity or round robin assignment method.
 
-  In this scenario where closest match is chosen as the skill matching algorithm at workstream level, and one of the out-of-the-box assignment method is chosen (round robin or highest capacity); if more than one agent with same skill score is there; system won't order them by round robin or highest capacity. System will keep assigning all the incoming work items to the same agent till other constraints like capacity and presence are being satisfied.
+  In this scenario where closest match is chosen as the skill matching algorithm at workstream level, and round robin or highest capacity assignment method is chosen; if more than one agent with same skill score is there; the system won't order them by round robin or highest capacity. The system will continue to assign all the incoming work items to the same agent until other constraints like capacity and presence are satisfied.
 
 - Create a custom assignment method and create order by using proficiency or skill count to achieve closest match.
   

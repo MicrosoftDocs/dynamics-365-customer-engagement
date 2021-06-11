@@ -11,7 +11,6 @@ ms.topic: article
 
 # Automate tasks with macros 
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview of macros
 
@@ -48,7 +47,7 @@ The macros in Omnichannel for Customer Service have the following:
 
 ## Predefined automation actions
 
-In Omnichannel for Customer Service, macros provide three connectors:
+In Customer Service, macros provide three connectors:
 
 - [Productivity automation](#productivity-automation): Provides actions to perform model-driven app operations.
 

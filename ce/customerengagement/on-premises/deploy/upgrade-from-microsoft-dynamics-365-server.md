@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Upgrade Dynamics 365 Server
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This section shows you how to run the actual in-place upgrade on Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises). If you encounter problems during the upgrade, see [Troubleshooting installation and upgrade](troubleshooting-installation-and-upgrade.md) in this guide.  
   
@@ -113,7 +118,6 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
 ## See also  
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)   </br>
  
-
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

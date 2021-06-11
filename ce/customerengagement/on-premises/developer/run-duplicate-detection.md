@@ -45,7 +45,7 @@ The following example shows how to detect duplicates of a specified record using
 
 **Request**
 ```http
-GET [Organization URI]/api/data/v9.0/RetrieveDuplicates(BusinessEntity=@p1,MatchingEntityName=@p2,PagingInfo=@p3)?@p1={'@odata.type':'Microsoft.Dynamics.CRM.account','accountid':'0d1156d2-1598-e711-80e8-00155db64062'}&@p2='account'&@p3={'PageNumber':1,'Count':50} HTTP/1.1
+GET [Organization URI]/api/data/v9.1/RetrieveDuplicates(BusinessEntity=@p1,MatchingEntityName=@p2,PagingInfo=@p3)?@p1={'@odata.type':'Microsoft.Dynamics.CRM.account','accountid':'0d1156d2-1598-e711-80e8-00155db64062'}&@p2='account'&@p3={'PageNumber':1,'Count':50} HTTP/1.1
 If-None-Match: null
 OData-Version: 4.0
 OData-MaxVersion: 4.0
@@ -59,7 +59,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {
-    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts",
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#accounts",
     "value": [
         <Omitted for brevity: JSON data for any matching accounts including all properties>
     ]
@@ -85,7 +85,7 @@ The following example shows how to detect duplicates for an entity type by creat
 
 **Request**
 ```http
-POST [Organization URI]/api/data/v9.0/BulkDetectDuplicates HTTP/1.1
+POST [Organization URI]/api/data/v9.1/BulkDetectDuplicates HTTP/1.1
 If-None-Match: null
 OData-Version: 4.0
 Content-Type: application/json
@@ -113,7 +113,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {
-    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse",
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse",
     "JobId": "efaff068-7598-e711-80e8-00155db64062"
 }
 ```
@@ -121,7 +121,7 @@ The above request creates an asynchronous duplicate detection job whose JobID is
 
 **Request**
 ```http
-GET [Organization URI]/api/data/v9.0/asyncoperations(efaff068-7598-e711-80e8-00155db64062)/AsyncOperation_DuplicateBaseRecord
+GET [Organization URI]/api/data/v9.1/asyncoperations(efaff068-7598-e711-80e8-00155db64062)/AsyncOperation_DuplicateBaseRecord
 If-None-Match: null
 OData-Version: 4.0
 OData-MaxVersion: 4.0
@@ -154,7 +154,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {  
-   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#duplicaterecords",
+   "@odata.context":"[Organization URI]/api/data/v9.1/$metadata#duplicaterecords",
    "value":[  
       {  
          "owninguser":"b3ac4144-6d9a-e711-811c-000d3a75ce72",
