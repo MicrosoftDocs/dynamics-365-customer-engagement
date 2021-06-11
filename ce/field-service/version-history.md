@@ -42,7 +42,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Japan</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
 | | <i>Asia Pacific</i> | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
 | | <i>Great Britain</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
-| | <i>Oceana</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
+| | <i>Oceania</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255)  | 06/04/2021
 |<strong>Station 5</strong> | |  |  | |
