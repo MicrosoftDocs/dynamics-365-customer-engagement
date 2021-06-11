@@ -1,6 +1,6 @@
 ---
-title: Collaborate using SharePoint in Dynamics 365 Sales | Microsoft Docs
-description: Learn how to collaborate using SharePoint within a model-driven app for leads and opportunities
+title: "Collaborate using SharePoint - Sales Enterprise | Microsoft Docs"
+description: "Save and retrieve files related to a lead or opportunity in SharePoint from within the Sales Hub app." 
 ms.date: 12/05/2019
 ms.topic: article
 author: udaykirang

@@ -1,6 +1,6 @@
 ---
-title: "Define general properties and scheduling for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Define general properties and scheduling for a forecast in Dynamics 365 Sales."
+title: "Define properties and scheduling for forecasts - Sales Enterprise | MicrosoftDocs"
+description: "Define a forecast model using rollup and hierarchy entities and their relationship. Schedule how frequently you want to generate the forecast."
 ms.date: 04/14/2021
 ms.topic: article
 author: udaykirang
