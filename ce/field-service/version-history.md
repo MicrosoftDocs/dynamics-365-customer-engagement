@@ -60,7 +60,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is a hotfix on Field Service version [8.8.43.77](#884351).
 
--	Check back soon for a full list of updates.
+-	Fixed a bug that removed the work hours tab from the resource form.
 
 ## 8.8.43.77
 
@@ -83,6 +83,7 @@ This release is a hotfix on Field Service version [8.8.43.51](#884351).
 This release is a hotfix on Field Service version [8.8.42.55](#884231).
 
 -	Fixed some performance issues.
+-	Fixed a bug that removed the work hours tab from the resource form.
 
 ## 8.8.42.55 
 
