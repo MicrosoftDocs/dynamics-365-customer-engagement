@@ -1,6 +1,6 @@
 ---
 title: "Register and unregister action for event in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the events that can be registered/unregistered for an action."
+description: "Learn about events that can be registered/unregistered for an action and event names you can use to subscribe for the register/unregister activities."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
