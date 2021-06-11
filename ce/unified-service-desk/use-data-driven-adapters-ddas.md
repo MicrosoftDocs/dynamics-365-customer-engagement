@@ -1,6 +1,6 @@
 ---
 title: "Use data driven adapters (DDAs) in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to use data-driven adapters (DDAs) in Unified Service Desk."
+description: "Learn about data-driven adapters, their types, and how you can create new adapters or extend existing ones in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
