@@ -14,6 +14,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
+monikerRange: '>= dynamics-usd-4'
 ---
 
 # How to change global settings or options in Unified Service Desk
@@ -157,7 +158,7 @@ Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes
 5. Select **Save**.
 
 > [!NOTE]
->  Apart from the settings described here, you can also use **Options** to configure auditing and client caching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md) and [Configure client caching in Unified Service Desk](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
+>  Apart from the settings described here, you can also use **Options** to configure auditing and client caching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)
 
 ### See also
 
