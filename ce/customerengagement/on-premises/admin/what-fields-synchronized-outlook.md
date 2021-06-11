@@ -1,7 +1,6 @@
 ---
 title: "What fields can be synchronized between Customer Engagement (on-premises) and Outlook? | MicrosoftDocs"
-description: ""
-keywords: 
+description: "Set whether a sync occurs and the sync direction for Customer Engagement (on-premises) and Outlook."
 ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 

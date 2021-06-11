@@ -1,6 +1,6 @@
 ---
-title: "Publish a Dynamics 365 for Customer Engagement app using the app designer | MicrosoftDocs"
-description: ""
+title: "Publish a Dynamics 365 for Customer Engagement (on-premises) app using the app designer | MicrosoftDocs"
+description: "Learn how to publish your app"
 keywords: 
 ms.date: 04/30/2019
 ms.service: crm-online
@@ -24,8 +24,6 @@ search.audienceType:
 ---
 
 # Publish an app using the app designer
-
-
 
 Publish an app to make it available to users.  
   

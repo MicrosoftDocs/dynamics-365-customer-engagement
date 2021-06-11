@@ -1,5 +1,5 @@
 ---
-title: "Preview Feature: Use the Azure Cosmos DB for SQL API Data Provider | MicrosoftDocs"
+title: "Preview Feature: Use the Azure Cosmos DB for SQL API Data Provider with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to configure the Azure Cosmos DB for SQL API Data Provider to use with virtual entities."
 keywords: SQL API
 ms.date: 02/15/2019

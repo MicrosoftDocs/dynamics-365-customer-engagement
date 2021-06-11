@@ -1,8 +1,6 @@
 ---
 title: "Embed chat widget in your website or portal | MicrosoftDocs"
-description: "Instructions to embed chat widget in your website or Power Apps portal."
-ms.date: 05/02/2021
-ms.topic: article
+description: "This topic provides information about the steps to perform to embed a chat widget in your website or Power Apps portal."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
