@@ -1,6 +1,6 @@
 ---
-title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Add all items to your campaign in Dynamics 365 Sales that your need in this marketing context."
+title: "Add assets to campaigns using in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing. "
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
@@ -20,7 +20,7 @@ searchScope:
 
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)
 
-Add all items to your campaign that your need in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
+Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
 
 1. In the site map, select **Marketing Lists**.
 

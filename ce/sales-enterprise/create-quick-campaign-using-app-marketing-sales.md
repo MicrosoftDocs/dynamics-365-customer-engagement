@@ -1,6 +1,6 @@
 ---
-title: "Create a quick campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+title: "Create a quick campaign using in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01

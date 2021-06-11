@@ -1,6 +1,6 @@
 ---
-title: "Create a marketing list using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Learn how to create a marketing list using in-app marketing in Dynamics 365 Sales to run a campaign."
+title: "Create a marketing list using in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.."
 ms.date: 10/01/2019
 ms.topic: get-started-article
 author: lavanyakr01
