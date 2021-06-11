@@ -57,7 +57,7 @@ In Field Service, go to **Geolocation Settings**.
 The geolocation tracking records will be created in the following scenarios:
 
 1. **On sign-in** - When a user signs in to the Field Service mobile app, geolocation tracking records are created as the system figures out where the user is, and then it stops when the user stops moving. 
-2. **On move** - If the user moves away from their location more than 800 meters, it will create tracking records every 60 seconds (or your custom refresh interval) until they stop moving.
+2. **On move** - If the user moves away from their location more than 200 meters, it will create tracking records every 60 seconds (or your custom refresh interval) until they stop moving.
 3. **On stop after moving** - When the user comes to a still position after moving, it will create a few more tracking records as it settles and then it stops, before creating new records when location changes again.
 
 The above events only apply within the tracking start and end times and the location checking frequency is per the “Refresh Interval.”
