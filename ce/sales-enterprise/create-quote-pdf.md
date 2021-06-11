@@ -1,6 +1,6 @@
 ---
-title: "Create PDF files from sales records (Dynamics 365 Sales Enterprise) | MicrosoftDocs"
-description: "Create and share read-only, professional-looking PDF files for Dynamics 365 records with your customers in Dynamics 365 Sales Enterprise."
+title: "Create PDF files from sales records - Sales Enterprise | MicrosoftDocs"
+description: "Create and share read-only, professional-looking PDF files for records with your customers in Dynamics 365 Sales Enterprise."
 ms.date: 10/28/2020
 ms.topic: article
 author: lavanyakr01

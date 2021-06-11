@@ -1,5 +1,5 @@
 ---
-title: "Create PDF files from sales records (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Create PDF files from sales records - Sales Professional | MicrosoftDocs"
 description: "Create and share read-only, professional-looking PDF files for Dynamics 365 records with your customers in Dynamics 365 Sales Professional."
 ms.date: 10/28/2020
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: "Add products to opportunity (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Add products to opportunity - Sales Professional | MicrosoftDocs"
 description: "Develop your opportunity by defining products that your customers are interested in purchasing in Dynamics 365 Sales Professional."
 ms.date: 02/03/2020
 ms.topic: article

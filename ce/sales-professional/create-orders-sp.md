@@ -1,5 +1,5 @@
 ---
-title: "Create or edit orders (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Create or edit orders - Sales Professional | MicrosoftDocs"
 description: "Create and manage your sales orders for the products or services in Dynamics 365 Sales Professional."
 ms.date: 07/21/2020
 ms.topic: get-started-article

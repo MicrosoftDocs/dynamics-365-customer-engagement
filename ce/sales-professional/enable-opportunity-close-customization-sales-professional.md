@@ -1,5 +1,5 @@
 ---
-title: "Enable customization of Opportunity Close form (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Enable customization of Opportunity Close form - Sales Professional | MicrosoftDocs"
 description: "Allow administrators to enable the customization the opportunity close form to enable sellers to capture important details on why an opportunity was closed."
 ms.date: 10/01/2019
 ms.topic: article
@@ -14,7 +14,7 @@ searchScope:
   - Sales
 ---
 
-# Enable customization of the Opportunity Close form (Sales Professional)
+# Enable customization of Opportunity Close form (Sales Professional)
 
 To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
 

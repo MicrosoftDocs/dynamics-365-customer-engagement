@@ -1,5 +1,5 @@
 ---
-title: "Customize forms (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Customize forms - Sales Professional) | MicrosoftDocs"
 description: "Change or design the forms to allow your users to enter or find information quickly in Dynamics 365 Sales Professional."
 ms.date: 06/22/2020
 ms.topic: article
@@ -10,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Customize forms (Sales Professional)
+# Customize forms in Sales Professional
 
 > [!IMPORTANT]
 > This capability is introduced in the Dynamics 365 Sales Professional app version 9.1.0.0.

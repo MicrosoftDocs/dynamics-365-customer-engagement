@@ -1,5 +1,5 @@
 ---
-title: "Define lead qualification experience (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Define lead qualification experience - Sales Professional | MicrosoftDocs"
 description: "Give your salespeople the flexibility to choose which records to create on lead qualification in Dynamics 365 Sales Professional."
 ms.date: 10/01/2019
 ms.topic: article

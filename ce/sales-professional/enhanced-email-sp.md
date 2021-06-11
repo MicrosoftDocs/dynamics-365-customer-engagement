@@ -1,5 +1,5 @@
 ---
-title: "Send email using enhanced email experience (Dynamics 365 Sales Professional) | MicrosoftDocs"
+title: "Send email using enhanced email experience - Sales Professional | MicrosoftDocs"
 description: "Use the enhanced email experience to compose an email without leaving the context of what you are working on in Dynamics 365 Sales Professional."
 ms.date: 04/03/2020
 ms.topic: article

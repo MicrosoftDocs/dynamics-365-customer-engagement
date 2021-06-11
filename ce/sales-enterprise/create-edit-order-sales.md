@@ -1,5 +1,5 @@
 ---
-title: "Create or edit orders (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create or edit sales orders - Sales Enterprise | MicrosoftDocs"
 description: "Use orders in Dynamics 365 Sales to track details of the products or services your customers want to place an order for."
 ms.date: 02/10/2021
 ms.topic: get-started-article
@@ -17,7 +17,7 @@ searchScope:
   - Sales
 ---
 
-# Create or edit orders (Sales Hub)
+# Create or edit sales orders
 
 Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
   
