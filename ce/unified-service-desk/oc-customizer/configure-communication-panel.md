@@ -1,6 +1,6 @@
 ---
 title: "Configure communication panel for agents | MicrosoftDocs"
-description: "Learn how to configure communication panel for agents using Omnichannel for Customer Service."
+description: "This topic provides information on how to configure communication panel for agents using Omnichannel for Customer Service in Unified Service Desk."
 ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
