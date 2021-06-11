@@ -19,11 +19,9 @@ search.app:
 
 # Trial FAQ
 
-[!INCLUDE[trial-faq-platform](../shared/trial/trial-faq-platform.md)]
-
 ## How do I start using the trial?
 
-After you set up your trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](<!--Link to the Additional resources section on your trial page-->) on the trial set up page.
+After you set up your trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) on the trial set up page.
 
 ## What features are available in the trial?
 
@@ -31,44 +29,18 @@ After you set up your trial, you will arrive on the app's main screen. The main 
 
 ## What are the trial limits and quotas?
 
-<!--App specific. Customize this response to fit your app.-->
+The following limitations apply for the trial:
 
-## What are the system requirements for the trial?
-
-This app is a cloud-based service that does not require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements)
-
-## How do I sign up for the trial without a Microsoft 365 tenant?
-
-<!--Should be consistent across the platform, but needs a boilerplate answer.-->
-
-## How can I add more users to a trial?
-
-To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit.
-
-## How do I extend the trial?
-
-<!--Should be consistent across the platform, but needs a boilerplate answer.-->
-
-## How do I reset the trial environment?
-
-<!--Should be consistent across the platform, but needs a boilerplate answer.-->
-
-## Can I convert the trial to a paid license *during* the trial?
-
-<!--Should be consistent across the platform, but needs a boilerplate answer.-->
-
-## Can I convert the trial to a paid license *after* the trial?
-
-<!--Should be consistent across the platform, but needs a boilerplate answer.-->
-
-## How do I cancel the trial?
-
-<!--Should be consistent across the platform, but needs a boilerplate answer.-->
+- The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.
+- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.
+- You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends.
 
 ## How do I remove sample data from the trial?
 
 <!--App specific. Customize this response to fit your app.-->
 
-## How do I reset or reimport sample data?
+## How do I restore sample data?
 
 <!--App specific. Customize this response to fit your app.-->
+
+[!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
