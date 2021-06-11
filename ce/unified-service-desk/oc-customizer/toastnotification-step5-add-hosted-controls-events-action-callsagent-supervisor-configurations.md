@@ -1,6 +1,6 @@
 ---
-title: "Add the hosted control, events, forms, and action calls to configurations | MicrosoftDocs"
-description: "Learn how to add the hosted control, events, forms, and action calls to the agent and supervisor configurations in Omnichannel for Customer Service - Unified Service Desk."
+title: "Controls, events, forms, action calls for toast notifications | MicrosoftDocs"
+description: "Learn how to add a hosted control, events, forms, and action calls for toast notifications in Omnichannel for Customer Service on Unified Service Desk."
 ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli

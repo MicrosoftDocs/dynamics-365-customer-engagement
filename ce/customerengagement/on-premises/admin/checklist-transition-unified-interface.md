@@ -117,15 +117,9 @@ The Dynamics 365 apps that have already been optimized for Unified Interface are
 
 - Dynamics 365 Customer Service Hub
 
-<!--  Dynamics 365 Marketing
-
-Dynamics 365 Field Service (version 8.x and later)
-
- Dynamics 365 Project Service Automation (version 3.x and later)  -->
-
 ### What are Dynamics 365 custom business apps?
 
-**Dynamics 365 custom business apps** are a type of app you can create using the app designer that helps you provide tailored experience to your users depending on their role in the organization. For example, a salesperson can have a completely different experience than a customer service representative through different Dynamics 365 custom business apps even though they are using data from the same environment. Multiple Dynamics 365 custom business apps can be created in a Dynamics 365 Customer Engagement organization. More information: [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](about-unified-interface.md) and c[Create or edit an app by using the app designer](../customize/create-edit-app.md)
+**Dynamics 365 custom business apps** are a type of app you can create using the app designer that helps you provide tailored experience to your users depending on their role in the organization. For example, a salesperson can have a completely different experience than a customer service representative through different Dynamics 365 custom business apps even though they are using data from the same environment. Multiple Dynamics 365 custom business apps can be created in a Dynamics 365 Customer Engagement organization. More information: [About Unified Interface in Dynamics 365 Customer Engagement (on-premises)](about-unified-interface.md) and [Create or edit an app by using the app designer](../customize/create-edit-app.md)
 
 The Dynamics 365 apps listed earlier are examples of Dynamics 365 business apps.
 

@@ -41,20 +41,24 @@ To uninstall Field Service, administrators can go to **Settings** > **Solutions*
 | 12    | msdyn_Geofencing_Patch_1             |                                                           |
 | 13    | msdyn_Geofencing                     |                                                           |
 | 14    | msdyn_CFS_Patch_1                    |                                                           |
-| 15    | ConnectedFieldService                |                                                           |
-| 16    | msdynce_FieldServiceHealth_Patch     |                                                           |
-| 17    | msdynce_FieldServiceHealth           |                                                           |
-| 18    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
-| 19    | msdyn_FieldService                   |                                                           |
-| 20    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
-| 21    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
-| 22    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
-| 23    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
-| 24    | msdyn_TESA                           | Required for Project Service Automation       |
-| 25    | ResourceSchedulingControls           | Required for Project Service Automation                   |
-| 26    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
-| 27    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
-| 28    | msdynce_3DViewer                     |                                                           |
+| 15    | msdyn_FieldServiceGeolocation        |                                                           |
+| 16    | msdyn_Geolocation                    |                                                           |
+| 17    | ConnectedFieldService                |                                                           |
+| 18    | msdynce_FieldServiceHealth_Patch     |                                                           |
+| 19    | msdynce_FieldServiceHealth           |                                                           |
+| 20    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
+| 21    | FieldService                         |                                                           |
+| 22    | msdyn_Inspections                    |                                                           |
+| 23    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
+| 24    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
+| 25    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
+| 26    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
+| 27    | msdyn_TESA                           | Required for Project Service Automation       |
+| 28    | ResourceSchedulingControls           | Required for Project Service Automation                   |
+| 29    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
+| 30    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
+| 31    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
+| 32    | msdynce_3DViewer                     |                                                           |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

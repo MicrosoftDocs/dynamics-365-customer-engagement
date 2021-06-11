@@ -1,7 +1,7 @@
 ---
 title: "Event management web application overview (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
-ms.date: 04/14/2021
+ms.date: 06/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -128,8 +128,8 @@ To expose the new field to be visible in the API, follow the steps below:
 
 1. Open your Dynamics 365 Marketing instance.
 1. Open **Advanced Find**
-1. Select the **Website Entity Configurations** entity from the dropdown and click on **Results**
-1. Click on **New Website Entity Configuration** to create a new record.
+1. Select the **Website table configurations** entity from the dropdown and click on **Results**
+1. Click on **New Website table configuration** to create a new record.
 1. Enter the name of your choice in the **Name** field.
 1. Select the entity that you want an extra field to be visible in the **Selected Entity** field.
 1. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the API, and you can utilize it in the frontend.

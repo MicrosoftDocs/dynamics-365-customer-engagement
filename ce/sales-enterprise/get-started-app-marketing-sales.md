@@ -1,5 +1,5 @@
 ---
-title: "Get started with in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Get started with in-app marketing - Sales Enterprise | MicrosoftDocs"
 description: "Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales."
 ms.date: 10/01/2019
 ms.custom: intro-internal

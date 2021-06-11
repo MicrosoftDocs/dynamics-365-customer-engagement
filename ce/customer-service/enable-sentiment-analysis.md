@@ -1,5 +1,5 @@
 ---
-title: "Enable sentiment analysis to view in Omnichannel Ongoing Conversation dashboard | MicrosoftDocs"
+title: "Enable sentiment analysis | MicrosoftDocs"
 description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
 ms.date: 03/08/2021
 ms.topic: article
@@ -36,7 +36,6 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
     > ![Enable sentiment analysis](media/monitor-real-time.png "Enable sentiment analysis")
 
 After you enable real-time customer sentiment, you can view scores in the [Omnichannel Insights dashboards](configure-historical-sentiment-dashboard-supervisor.md).
-
 
 ## Agent settings
 
