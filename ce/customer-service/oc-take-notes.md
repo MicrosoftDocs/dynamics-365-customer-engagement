@@ -20,7 +20,7 @@ The communication panel allows you to capture information specific to the conver
 > ![Launch notes panel for taking notes](media/oceh-cc-option-notes.png "Launch notes panel for taking notes")  
 
 > [!div class=mx-imgBorder]
-> ![Launch notes panel for taking notes](media/oceh-cc-notes-view.png "Launch notes panel for taking notes")  
+> ![View notes panel for taking notes](media/oceh-cc-notes-view.png "View notes panel for taking notes")  
 
 For an unauthenticated conversation request, you can capture notes only when you link the contact to the conversation. That is, when the contact is either not present in the Omnichannel system or not identified, you cannot take notes unless you link to a conversation. 
 
