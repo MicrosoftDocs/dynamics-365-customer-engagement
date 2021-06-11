@@ -25,7 +25,7 @@ To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com
 
 ## How do I extend the trial?
 
-You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](https://docs.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide#extend-your-trial).
+You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](/microsoft-365/commerce/try-or-buy-microsoft-365#extend-your-trial).
 
 ## How do I reset the trial environment?
 
