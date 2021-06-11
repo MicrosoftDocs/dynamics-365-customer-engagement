@@ -19,6 +19,8 @@ search.app:
 
 # Trial FAQ
 
+[!INCLUDE[trial-faq-platform](../shared/trial/trial-faq-platform.md)]
+
 ## How do I start using the trial?
 
 After you set up your trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](<!--Link to the Additional resources section on your trial page-->) on the trial set up page.
