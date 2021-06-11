@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Dynamics 365 Sales Overview - Sales Enterprise | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
 ms.date: 05/04/2021
 ms.custom: intro-internal

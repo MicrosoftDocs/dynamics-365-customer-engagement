@@ -1,5 +1,5 @@
 ---
-title: "Events and context object for forecasting (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Events and context object for forecasting - Sales Enterprise | MicrosoftDocs"
 description: Events and context object for forecasting in Dynamics 365 Sales
 ms.date: 10/12/2020
 ms.topic: article

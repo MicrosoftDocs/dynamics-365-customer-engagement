@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting the Product entity (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Troubleshooting the Product entity - Sales Enterprise | MicrosoftDocs"
 description: "Follow the instructions in this article to troubleshoot the issues you might face while working with the Product entity in Dynamics 365 Sales."
 ms.date: 06/17/2020
 ms.topic: article

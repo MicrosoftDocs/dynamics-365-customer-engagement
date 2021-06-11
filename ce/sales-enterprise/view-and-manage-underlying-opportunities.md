@@ -1,5 +1,5 @@
 ---
-title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
+title: "View and manage the opportunities pipeline through sales forecasting - Sales Enterprise | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
 ms.date: 02/03/2020
 ms.topic: article

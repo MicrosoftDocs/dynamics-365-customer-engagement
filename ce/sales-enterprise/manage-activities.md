@@ -1,5 +1,5 @@
 ---
-title: "Track and manage activities (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Track and manage activities - Sales Enterprise | MicrosoftDocs"
 description: "Use activities in Dynamics 365 to track of all your customer communications."
 ms.date: 04/03/2020
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: "Create a unit group and add units to that group (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Create a unit group and add units to that group - Sales Enterprise | MicrosoftDocs"
 description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales."
 ms.date: 02/10/2021
 ms.topic: article

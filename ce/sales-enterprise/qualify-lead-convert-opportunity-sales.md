@@ -1,5 +1,5 @@
 ---
-title: "Qualify or convert leads (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Qualify or convert leads - Sales Enterprise | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 ms.date: 02/10/2021
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: "Print quote, invoice, or other records (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Print quote, invoice, or other records - Sales Enterprise | MicrosoftDocs"
 description: "Take a printed copy of a quote, invoice, or other records in Dynamics 365 Sales."
 ms.date: 04/13/2020
 ms.topic: article

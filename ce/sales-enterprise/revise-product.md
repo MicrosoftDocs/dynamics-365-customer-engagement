@@ -1,5 +1,5 @@
 ---
-title: "Revise products (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Revise products - Sales Enterprise | MicrosoftDocs"
 description: "Keep the product inventory updated by quickly revising the products in Dynamics 365 Sales."
 ms.date: 02/10/2021
 ms.topic: article

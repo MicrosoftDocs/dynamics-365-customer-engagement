@@ -1,5 +1,5 @@
 ---
-title: "Connect and share feedback (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Connect and share feedback - Sales Enterprise | MicrosoftDocs"
 description: "Connect with partners and other users of Dynamics 365 Sales, submit ideas, and share any feedback that you have for the Sales Hub app."
 ms.date: 10/01/2019
 ms.topic: article
@@ -44,7 +44,7 @@ You’ll be taken to the Dynamics 365 Sales Ideas page.
 
 ### See also
 
-[Sales Overview (Dynamics 365 Sales)](overview.md)  
+[Sales Overview - Sales Enterprise](overview.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

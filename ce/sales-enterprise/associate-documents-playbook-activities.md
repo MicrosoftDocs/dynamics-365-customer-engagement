@@ -1,5 +1,5 @@
 ---
-title: "Associate documents with playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Associate documents with playbook activities - Sales Enterprise | MicrosoftDocs"
 description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
 ms.date: 10/01/2019
 ms.topic: article

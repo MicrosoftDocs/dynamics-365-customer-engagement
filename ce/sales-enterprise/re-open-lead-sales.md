@@ -1,5 +1,5 @@
 ---
-title: "Reopen leads (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Reopen leads - Sales Enterprise | MicrosoftDocs"
 description: "Make changes to a disqualified lead by activating it."
 ms.date: 02/10/2021
 ms.topic: article

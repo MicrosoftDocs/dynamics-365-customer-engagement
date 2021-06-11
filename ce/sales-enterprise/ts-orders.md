@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting the Order entity (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Troubleshooting the Order entity - Sales Enterprise | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Order entity in Dynamics 365 Sales."
 ms.date: 03/24/2020
 ms.topic: article

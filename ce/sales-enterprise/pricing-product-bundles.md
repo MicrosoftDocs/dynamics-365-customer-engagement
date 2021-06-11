@@ -1,5 +1,5 @@
 ---
-title: "How are prices calculated for product bundles? (Dynamics 365 Sales) | MicrosoftDocs"
+title: "How are prices calculated for product bundles? - Sales Enterprise | MicrosoftDocs"
 description: "Understand how pricing of product bundles is determined in Dynamics 365 Sales."
 ms.date: 04/22/2020
 ms.topic: get-started-article

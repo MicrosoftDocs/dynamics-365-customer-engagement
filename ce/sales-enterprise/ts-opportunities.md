@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting the Opportunity entity (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Troubleshooting the Opportunity entity - Sales Enterprise | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Opportunity entity in Dynamics 365 Sales."
 ms.date: 04/22/2020
 ms.topic: article

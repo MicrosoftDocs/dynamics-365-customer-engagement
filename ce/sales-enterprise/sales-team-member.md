@@ -1,5 +1,5 @@
 ---
-title: "Sales Team Member app for users with Team Member license (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Sales Team Member app for users with Team Member license - Sales Enterprise | MicrosoftDocs"
 description: "Learn about the Team Member license enforcement and the new Sales Team Member app."
 ms.date: 04/03/2020
 ms.topic: article

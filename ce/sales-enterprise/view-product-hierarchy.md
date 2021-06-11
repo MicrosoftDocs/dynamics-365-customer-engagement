@@ -1,5 +1,5 @@
 ---
-title: "View product hierarchy (Dynamics 365 Sales) | MicrosoftDocs"
+title: "View product hierarchy - Sales Enterprise | MicrosoftDocs"
 description: "Get a visual snapshot of the products your organization sells by looking at the product hierarchy in Dynamics 365 Sales."
 ms.date: 10/01/2019
 ms.topic: article

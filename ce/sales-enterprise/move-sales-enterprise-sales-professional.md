@@ -1,5 +1,5 @@
 ---
-title: "Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional - Sales Enterprise | MicrosoftDocs"
 description: "Follow the steps in this topic to move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional."
 ms.date: 09/23/2020
 ms.topic: article

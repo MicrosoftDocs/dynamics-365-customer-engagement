@@ -1,5 +1,5 @@
 ---
-title: "Integrate sample softphone with Dynamics 365 Sales (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Integrate sample softphone with Dynamics 365 Sales - Sales Enterprise | MicrosoftDocs"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
 ms.date: 10/22/2019
 ms.topic: article

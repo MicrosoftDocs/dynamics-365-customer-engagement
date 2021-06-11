@@ -1,5 +1,5 @@
 ---
-title: "Define related products to increase sales (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Define related products to increase sales - Sales Enterprise | MicrosoftDocs"
 description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 Sales."
 ms.date: 02/10/2021
 ms.topic: article

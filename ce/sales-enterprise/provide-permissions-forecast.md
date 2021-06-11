@@ -1,5 +1,5 @@
 ---
-title: "Provide viewing permissions to access a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Provide viewing permissions to access a forecast - Sales Enterprise | MicrosoftDocs"
 description: "Provide viewing permissions to access a forecast in Dynamics 365 Sales."
 ms.date: 02/03/2020
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: "Recalculate an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Recalculate an opportunity - Sales Enterprise | MicrosoftDocs"
 description: "Recalculate the opportunity in Dynamics 365 Sales to change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities."
 ms.date: 10/01/2019
 ms.topic: article

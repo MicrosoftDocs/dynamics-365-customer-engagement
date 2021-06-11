@@ -1,5 +1,5 @@
 ---
-title: "Track playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Track playbook activities - Sales Enterprise | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
 ms.date: 10/01/2019
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting views (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Troubleshooting views - Sales Enterprise | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with entity views in Dynamics 365 Sales."
 ms.date: 06/30/2020
 ms.topic: article
