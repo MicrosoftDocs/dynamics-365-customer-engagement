@@ -140,7 +140,7 @@ Each sales manager must configure their environment to integrate the Sales Analy
 5.  Select **Save**, and then select **Close**.
 
      > [!div class="mx-imgBorder"]
-    > ![Power BI Dashboard properties](media/pbi-dashboard.png "Power BI Dashboard properties")
+    > ![Sales Analytics dashboard](media/pbi-dashboard.png "Sales Analytics dashboard")
 
 The Sales Analytics for Dynamics 365 Sales dashboard is now available in Dynamics 365.
 

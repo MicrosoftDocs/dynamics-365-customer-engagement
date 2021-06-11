@@ -3,8 +3,8 @@ title: "DeleteOQOILineWithSkipPricingCalculation custom action (Dynamics 365 Sal
 description: 
 ms.date: 07/09/2020
 ms.topic: get-started-article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales

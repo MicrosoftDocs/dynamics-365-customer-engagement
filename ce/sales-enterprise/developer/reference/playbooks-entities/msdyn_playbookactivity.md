@@ -3,8 +3,8 @@ title: "msdyn_playbookactivity EntityType - Sales Enterprise | MicrosoftDocs"
 description: "As developer, use this reference information to understand the msdyn_playbookactivity EntityType and its properties"
 ms.date: 04/08/2019
 ms.topic: article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # msdyn_playbookactivity EntityType

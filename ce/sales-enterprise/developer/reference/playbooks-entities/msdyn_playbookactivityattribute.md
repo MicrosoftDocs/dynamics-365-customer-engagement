@@ -3,8 +3,8 @@ title: "msdyn_playbookactivityattribute EntityType - Sales Enterprise | Microsof
 description: "As developer, use this reference information to understand the msdyn_playbookactivityattribute EntityType and its properties."
 ms.date: 04/08/2019
 ms.topic: article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # msdyn_playbookactivityattribute EntityType

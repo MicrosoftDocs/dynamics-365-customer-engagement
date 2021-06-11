@@ -3,8 +3,8 @@ title: "exportPdf Action | MicrosoftDocs"
 description: ""
 ms.date: 09/08/2020
 ms.topic: article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # exportPdf Action
