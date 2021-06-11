@@ -1,5 +1,6 @@
 ---
-title: "Create or edit entities | MicrosoftDocs"
+title: "Create or edit entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Entities define the records created in the app
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 

@@ -1,8 +1,6 @@
 ---
 title: "Delete Omnichannel solutions | MicrosoftDocs"
-description: "Learn how to delete an Omnichannel solution from an organization."
-ms.date: 04/20/2021
-ms.topic: article
+description: "Perform the steps mentioned in the topic to delete an Omnichannel solution from your organization"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

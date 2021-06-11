@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Server by using a command prompt
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 The following command will install Dynamics 365 Server:  
   
@@ -52,6 +57,6 @@ The following command will install Dynamics 365 Server:
  [Use the Command Prompt to Install Microsoft Dynamics 365](use-command-prompt-install-dynamics-365-server.md)   </br>
  [Microsoft Dynamics 365 Server XML configuration file](microsoft-dynamics-365-server-xml-configuration-file.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

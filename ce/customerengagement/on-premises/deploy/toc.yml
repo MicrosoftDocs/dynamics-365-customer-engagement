@@ -208,6 +208,8 @@
         href: uninstall-repair-dynamics-365-report-authoring-extension.md
       - name: Uninstall or repair a Dynamics 365 Language Pack
         href: uninstall-repair-dynamics-365-language-pack.md
+  - name: Updating Dynamics 365 Customer Engagement (on-premises)
+    href: update-to-v91.md
   - name: Operating Dynamics 365 Customer Engagement (on-premises)
     items: 
     - name: Operating Dynamics 365 Customer Engagement (on-premises)

@@ -1,5 +1,6 @@
 ---
 title: "Enhanced service level agreements  | MicrosoftDocs"
+description: "Service level agreements (SLAs) are a formalized method to help organizations meet service levels when they provide customer service and support."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
