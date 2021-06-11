@@ -1,6 +1,6 @@
 ---
-title: "Create or edit goals (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Keep track of your progress on achieving target revenue by using goals."
+title: "Create or edit goals - Sales Enterprise | MicrosoftDocs"
+description: "Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals."
 ms.date: 02/10/2021
 ms.topic: article
 author: lavanyakr01

@@ -1,10 +1,10 @@
 ---
-title: "Custom actions for manual forecasting (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
-description: "Reference documentation for the custom actions of manual forecasting"
+title: "Custom actions for forecasting - Sales Enterprise | MicrosoftDocs"
+description: "As a developer, use this reference documentation for defining custom actions for manual forecasting."
 ms.date: 06/22/2020
 ms.topic: reference
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 search.audienceType: 
   - developer
