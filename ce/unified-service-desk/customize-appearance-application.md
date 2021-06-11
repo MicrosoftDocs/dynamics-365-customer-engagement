@@ -1,6 +1,6 @@
 ---
 title: "Customize the appearance of your application | MicrosoftDocs"
-description: "Learn how to customize the appearance of your Unified Service Desk login screen, splash screen, and client application to align with your organization’s branding."
+description: "Learn how to customize the appearance of your Unified Service Desk login screen, splash screen, and client application to align with your organization branding."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
