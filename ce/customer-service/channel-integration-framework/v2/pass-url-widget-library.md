@@ -4,9 +4,6 @@ description: "Read how you can pass the URL of your Dynamics 365 instance to the
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/15/2021
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-a11y
   - dyn365-developer

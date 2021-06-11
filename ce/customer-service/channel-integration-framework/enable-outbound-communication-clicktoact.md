@@ -4,9 +4,6 @@ description: "Learn enable or configure outbound communication (ClickToAct) in C
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/16/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

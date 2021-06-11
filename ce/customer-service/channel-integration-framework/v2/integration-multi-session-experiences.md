@@ -4,9 +4,6 @@ description: "Integrate Dynamics 365 Channel Integration Framework v2.0 with the
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

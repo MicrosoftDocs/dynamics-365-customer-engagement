@@ -1,12 +1,11 @@
 ---
 title: "Build a smart assist bot | MicrosoftDocs"
 description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
+ms.date: 04/15/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/15/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Build a smart assist bot
 

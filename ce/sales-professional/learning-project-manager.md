@@ -1,11 +1,10 @@
 ---
-title: Implementation project managers learning catalog 
-description: Find all the training options for implementation project managers. 
-author: loreleishannonmsft
-ms.topic: article
+title: Implementation project managers learning catalog
+description: Find all the training options for implementation project managers.
 ms.date: 01/08/2020
+ms.topic: article
+author: loreleishannonmsft
 ms.author: v-lshann
-
 ---
 
 # Implementation Project Managers Learning Catalog

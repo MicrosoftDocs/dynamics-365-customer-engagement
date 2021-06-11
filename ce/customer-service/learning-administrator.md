@@ -1,11 +1,10 @@
 ---
 title: Learning catalog for administrators
 description: Find all the training options for administrators.
-author: loreleishannonmsft
-ms.author: v-lshann
 ms.date: 01/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: loreleishannonmsft
+ms.author: v-lshann
 ---
 
 # Administrators Learning Catalog

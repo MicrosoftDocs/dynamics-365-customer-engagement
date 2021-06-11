@@ -1,5 +1,6 @@
 ---
 title: "Categorize and display reports in different languages (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn how to categorize and display reports
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

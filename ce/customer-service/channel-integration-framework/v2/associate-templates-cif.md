@@ -4,9 +4,6 @@ description: "Learn about associating templates with scenarios in Dynamics 365 C
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Associate templates with scenarios

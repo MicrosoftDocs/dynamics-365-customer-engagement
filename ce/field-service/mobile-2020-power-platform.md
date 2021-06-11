@@ -3,7 +3,7 @@ title: "Dynamics 365 Field Service mobile apps | Microsoft Docs"
 description: Learn about the two Field Service mobile apps and when to use each one.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/23/2021
+ms.date: 06/04/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: overview
@@ -72,10 +72,24 @@ Use the following feature comparison table to understand which mobile app is rig
 
 Check [release plans](/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service, including the Field Service (Dynamics 365) mobile app.
 
+## Planning for your deployment
+
+Here are a few more planning tips to help with your project:
+
+**Do user acceptance training**. Ensure buy-in across your organization by bringing the people who will be using the app into the release process early. Select a diverse set of users across geographies or business units. Set up feedback channels to understand pain points and address problems before going live.
+
+**Do a phased roll out**. Reduce risk by segmenting your release over phases; commonly this is done by geography, or by business group. Take feedback from users and expand the deployment once stable.
+
+**Pilot the mobile apps side by side**. If you're a current customer of Field Service, you can pilot the new Field Service (Dynamics 365) mobile app alongside the Field Service Mobile (Xamarin) app, as well as other Field Service apps your organization might be using. This will help you assess how your frontline workers are currently using the apps, like what data is most important and what information is most commonly viewed and edited. You'll better understand what functionality to include in the new Field Service (Dynamics 365) mobile app.
+
+**Measure performance**. How the mobile app performs is a big factor in how much frontline workers enjoy using the app. Add performance measures to the deployment plan and test how editing forms, the mobile offline profile, and workflows affect app performance. Take feedback from users to determine what is necessary and what can be removed or hidden from forms.
+
+
 ### See also
 
-[What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)  
-[Enable entities for mobile offline synchronization](//dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
+- [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+- [5 tips for implementing the Field Service (Dynamics 365) mobile app](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
+- [Enable entities for mobile offline synchronization](/dynamics365/mobile-app/setup-mobile-offline-for-admin#step-1-enable-entities-for-mobile-offline-synchronization)
 
 
 

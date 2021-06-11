@@ -47,7 +47,7 @@ search.app:
 ## [What's new in Gamification](release-notes.md)
 ## [Glossary](glossary.md)
 ## [Browser settings](browser-system-requirements.md)
-## [FAQ](frequently-asked-questions.md)
+## [FAQ](frequently-asked-questions.yml)
 ## [Troubleshooting](troubleshooting-guide.md)
 ## [Privacy and legal information](legal-information.md)
 ## [Dynamics 365 Gamification and GDPR](dynamics-365-gamification-gdpr.md) 

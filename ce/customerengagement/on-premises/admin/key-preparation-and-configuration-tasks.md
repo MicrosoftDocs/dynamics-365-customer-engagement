@@ -1,5 +1,6 @@
 ---
 title: "Key preparation and configuration tasks | MicrosoftDocs"
+description: "Keep your organization optimized so that you can focus on what’s important."
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 

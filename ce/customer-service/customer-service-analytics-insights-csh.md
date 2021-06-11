@@ -1,15 +1,11 @@
 ---
 title: Insights dashboard overview | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -17,6 +13,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Dashboard overview
@@ -85,7 +84,7 @@ The Conversation dashboard gives you a broad overview of the assisted support cu
 > [!div class="mx-imgBorder"]
 > ![Conversation dashboard](media/conversation-dashboard.png "Conversation dashboard")
 
-For more details about the conversation report, see [Conversation dashboard](conversation-dashboard.md)
+For more details about the conversation report, see [Conversation dashboard](oc-conversation-dashboard.md)
 
 
 ### Queue

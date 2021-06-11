@@ -1,7 +1,7 @@
 ---
 title: "Emails and appointments are tracked with a Regarding record in Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/17/2019
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

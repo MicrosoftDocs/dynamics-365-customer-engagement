@@ -1,12 +1,11 @@
 ---
 title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
+ms.date: 05/15/2021
+ms.topic: article
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/15/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Monitor, assign, and transfer conversations
 
@@ -67,13 +66,13 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of available agents, their capacities, and queues is displayed.
+    The list of available agents and their capacities is displayed.
 
 2. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
 
 3. In the **Transfer conversations** dialog box, select an agent from the list of agents that appears.
 
-      Only those agents whose presence matches with one of the allowed presence values in the workstream configuration will be listed.
+      A list of agents belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
 
 4. Select **Transfer**. The selected conversation is transferred to the agent.
 

@@ -1,26 +1,23 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
-description: "Understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service"
+description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/29/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Create workstreams for unified routing
 
 ## Overview
 
-A workstream is a collection of routing rules. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
+A workstream is a container to enrich, route, and assign work items. The workstream can be associated with a channel, such as live chat and case.
 
-A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to.
+The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
 
 The workstream can be one of the following types:
 
-**Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
-**Record**: To route entity records.
+- **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
+- **Record**: To route entity records.
 
 
 > [!IMPORTANT]
@@ -28,7 +25,9 @@ The workstream can be one of the following types:
 > - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](set-up-record-routing.md#provision-unified-routing).
 > - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
-## Create a workstream in Omnichannel admin center
+## Create a workstream
+
+While you can create the workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps, this topic covers the steps for Omnichannel admin center.
 
 Perform the following steps:
 
@@ -58,9 +57,14 @@ Perform the following steps:
    - [Configure an SMS channel for TeleSign](configure-sms-channel.md)
    - [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
-5. Configure routing rules for the workstream. More information: [Configure work classification rules](configure-work-classification.md)
-6. If you want to configure route to queues, see [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules).
+   - [Configure record routing](set-up-record-routing.md)
 
+### Configure routing rules
+
+Routing rules for a workstream consists of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+
+- [Configure work classification rules](configure-work-classification.md)
+- [Configure route to queues](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules).
 
 ### Configure work distribution
 
@@ -72,7 +76,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
   - **Unit based**: Enter a value if your organization has configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
 - **Allowed presences**: Select the presences in which agents will be assigned.
-- **Default skill matching algorithm**: Select **Exact Match** or **Closest Match**.
+- **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to yes if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
 
 ### Configure advanced settings
@@ -112,7 +116,7 @@ You can manage the workstreams on the workstreams page in the Omnichannel admin 
 
 Select a workstream to perform any of the following actions:
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
-- **Copy**: Lets you create a copy of the workstream so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of"*<workstream>*.
+- **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of"*<workstream>*.
 - **Delete**: Lets you delete the workstream if you no longer need it1 in your organization.
 
 ### Agent affinity

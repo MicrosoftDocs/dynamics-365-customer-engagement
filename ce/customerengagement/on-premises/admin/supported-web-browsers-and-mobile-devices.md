@@ -1,5 +1,6 @@
 ---
 title: "Supported web browsers and mobile devices | MicrosoftDocs"
+description: "Access the model-driven apps with the most recent versions of popular browsers."
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 

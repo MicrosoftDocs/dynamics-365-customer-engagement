@@ -1,14 +1,11 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
+ms.date: 12/18/2020
+ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
-ms.date: 12/18/2020
-ms.topic: article
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Deprecations in Dynamics 365 Sales
