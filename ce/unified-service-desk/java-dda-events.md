@@ -1,6 +1,6 @@
 ---
 title: "JavaDDA Events in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the JavaDDA events. Java data-driven adapter (JavaDDA) provides a set of events to trigger automation executions in the Hosted Application Toolkit (HAT). The events correspond to the events in the Java runtime. All events are bound to the controls on the user interface (UI)."
+description: "Learn about JavaDDA and the set of events available to trigger automation executions in the Hosted Application Toolkit (HAT)."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

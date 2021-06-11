@@ -1,6 +1,6 @@
 ---
 title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
-description: "The topic explains the integration with Citrix application in Unified service Desk."
+description: "Learn to integrate Citrix applications using CTI adapters, and configure server and client-side components."
 ms.date: 01/21/2020
 ms.topic: article
 author: mh-jaya
