@@ -1,6 +1,6 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
-description: "Learn how to customize the quick view forms present in the Customer Summary page."
+description: "This topic provides procedural steps to customize the quick view forms present in the Customer Summary page in Omnichannel for Customer Service."
 ms.date: 10/05/2020
 ms.topic: article
 author: neeranelli

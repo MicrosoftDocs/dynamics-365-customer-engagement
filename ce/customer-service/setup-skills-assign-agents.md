@@ -1,8 +1,6 @@
 ---
 title: "Set up skills and assign agents | MicrosoftDocs"
-description: "Learn how to create skills and assign agents to those skills in Omnichannel for Customer Service."
-ms.date: 04/09/2021
-ms.topic: article
+description: "Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

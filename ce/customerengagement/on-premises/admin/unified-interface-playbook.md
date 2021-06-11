@@ -21,7 +21,7 @@ search.app:
 ---
 # Unified Interface Playbook
 
-This playbook is intended to help customers, partners, and Microsoft column roles plan and execute transitions from the legacy web client to Unified Interface.
+This playbook is intended to help customers, partners, and Microsoft field roles plan and execute transitions from the legacy web client to Unified Interface.
 
 In summary, the Unified Interface Playbook documents will help you:
 - Understand Unified Interface. 
@@ -38,6 +38,3 @@ In summary, the Unified Interface Playbook documents will help you:
 | [Chapter 3: Transition](https://download.microsoft.com/download/A/F/3/AF3D45A7-4F38-41BE-8956-1DF7A4A5AFDB/playbook-ch3-transition.pptx)|  PowerPoint     |
 | [Chapter 4: Optimize](https://download.microsoft.com/download/A/F/3/AF3D45A7-4F38-41BE-8956-1DF7A4A5AFDB/playbook-ch4-optimize.pptx)  | PowerPoint  |
 
-### See also
-[Dynamics 365 Project Service Automation Upgrade playbook](https://aka.ms/PSAUCIUpgrade)<br/>
-[Dynamics 365 Service Scheduling Migration playbook](https://aka.ms/ServiceSchedulePlaybook)
