@@ -141,6 +141,11 @@ sections:
           What about product bundles? I'd like to use them in Field Service scenarios.
         answer: |
           Unfortunately, at this time, using product bundles within Field Service is not supported.
+          
+      - question: |
+          Can I create a booking with a duration of 30 seconds? 
+        answer: |
+          No, the minimum duration for a booking is one minute. 
 
       - question: |
           See also
