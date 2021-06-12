@@ -1,10 +1,10 @@
 ---
 title: "Route records manually using unified routing | MicrosoftDocs"
-description: "Learn how to route records manually using the Save and Route option on record forms."
+description: "Learn how to route records manually using the Save & Route option on the record forms."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/04/2021
+ms.date: 06/11/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -14,17 +14,17 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-After you set up and enable a record for routing, you can manually start the routing for the records using the **Save & Route** button on the record forms.
+After you set up and enable a record for routing, you can manually start the routing using the **Save & Route** button on the record forms.
 
-## Route records using Save and Route option
+## Route records using Save & Route option
 
-When you enable a record for routing, you'll see the **Save & Route** option on the form ribbon on the command bar and **Apply Routing Rules** on the entity view ribbon on the command bar. You can use these commands to route the record.
+When you enable a record for routing, you'll see the **Save & Route** option on the form command bar, and **Apply Routing Rules** on the entity view command bar. You can use these commands to route the record.
 
 1. Sign in to your model-driven app.
 
-2. Select the record you want to route or select the record on your record view. <br> For example, in this procedure, **Leads** is enabled for routing, so you can see the **Save & Route** button on the Leads form command bar.
+2. Select the record you want to route or select the record on your record view. <br> In the following example, **Leads** is enabled for routing. You can see the **Save & Route** button on the Leads form command bar.
 
-3. Select **Leads** in the site map, and you can view the **Apply Routing Rules** in the entity view ribbon command bar. Selecting **Apply Routing Rules** also routes the record.
+3. Select **Leads** on the sitemap to view the **Apply Routing Rules** in the entity view command bar. Selecting **Apply Routing Rules** also routes the record.
 
 4. Select a lead record from the **My Open Leads** view.
 
