@@ -380,7 +380,7 @@ To migrate from the legacy Search API and Book API to the Universal Resource Sch
 |TraceInfo | |
 |ExtensionDataObject | | 
 |   |Time Slots|
-|   |Requirements(contraintbag) |
+|   |Requirements(constraintbag) |
 |   |PagingInfos |
 
 ## Example scenarios for migrating from the legacy scheduling API to Universal Resource Scheduling
