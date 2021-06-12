@@ -53,11 +53,11 @@ Use the following input and output parameters for the Search Resource Availabili
 | ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It is `false` by default|
 | ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots.It is `false` by default|
 | MaxResourceTravelRadius | Distance | No | Specifies the maximum travel radius for resources when computing available time slots. |
-| SortOrder | Integer | No | Specifies the requirementgroup order for the response. |
+| SortOrder | Integer | No | Specifies the requirement group order for the response. |
 | PageSize |Integer| No | Numbers of item returned in a page. It is 20 by default. |
 | PagingCookie | String | No | Paging cookie retrieved from previous searching result.|
 | OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units.|
-| RequiredResources |List&#60;Guid&#62; | No | Only the timeslots of the passed list of resources will show in the resulted timeslots. |
+| RequiredResources |List&#60;Guid&#62; | No | Only the time slots of the passed list of resources will show in the resulted time slots. |
 ||||
 
 ### Output
