@@ -442,12 +442,13 @@
     items:
     - name: Overview
       href: voice-channel.md
+    - name: Install and set up
+      href: voice-channel-install.md
+    - name: Make and receive your first phone call
+      href: voice-channel-first-call.md
     - name: Administrator experience
       items:
-      - name: Install and set up
-        href: voice-channel-install.md
-      - name: Make and receive your first phone call
-        href: voice-channel-first-call.md
+      
       - name: Inbound calling
         href: voice-channel-inbound-calling.md
       - name: How to route voice calls to agents
@@ -466,6 +467,14 @@
         href: voice-channel-agent-experience.md
       - name: FAQs
         href: voice-channel-faq.md
+    - name: Supervisor experience
+      items:
+      - name: Install and set up
+        href: voice-channel-install.md
+    - name: Developer experience
+      items:
+      - name: Install and set up
+        href: voice-channel-install.md
   - name: Portals
     items: 
     - name: Embed a chat widget in a portal
