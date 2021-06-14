@@ -38,16 +38,16 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 6. Specify the following values on the **New Hosted Control** page:
 
 
-   | Tab |         Field          |                                         Value                                         |
-   |----------------------------|------------------------|---------------------------------------------------------------------------------------|
-   | General |          Name          | Best Practices Analyzer  |
-   | General |      Display Name      | Best Practices Analyzer  |
-   | General |   USD Component Type   |                                  USD Hosted Control                                   |
-   | General | Application is Global  |                                        Checked                                        |
-   | General |     Display Group      |                                       MainPanel                                       |
-   | General | Application is Dynamic |                                        Checked                                        |
-   | General |     User Can Close     |                                        Checked                                        |
-   | Hosting |      Assembly URI      |               `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`                |
+   | Tab     | Field                  |     Value                |
+   |---------|------------------------|--------------------------|
+   | General |  Name                  | Best Practices Analyzer  |
+   | General |  Display Name          | Best Practices Analyzer  |
+   | General | USD Component Type     | USD Hosted Control       |
+   | General | Application is Global  | Checked                  |
+   | General |     Display Group      | MainPanel                |
+   | General | Application is Dynamic | Checked                  |
+   | General |     User Can Close     | Checked                  |
+   | Hosting |      Assembly URI      |  `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`                |
    | Hosting |     Assembly Type      | `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl` |
 
     ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-1.PNG "Create Best Practices Analyzer hosted control - General tab")
@@ -61,7 +61,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 9. Specify the following values on the **New Hosted Control** page: 
 
    |Field|Value|  
-   |-----------|-----------|
+   |-----|-----------|
    |Name|About Toolbar Container|
    |USD Component Type|Toolbar Container|
    |Display Group|AboutPanel|
@@ -109,7 +109,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 3. Specify the following values on the **New Toolbar Button** page:  
 
     |Field|Value|  
-    |-----------|-----------|  
+    |-----|-----------|  
     |Name|Settings|
     |Image|msdyusd_settings_16|
     |Tooltip|Settings|  
@@ -124,8 +124,8 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 6. Specify the following values on the **New Toolbar Button** page: 
 
 
-   |    Field    |                                        Value                                         |
-   |-------------|--------------------------------------------------------------------------------------|
+   |    Field   |                                        Value                                         |
+   |------------|--------------------------------------------------------------------------------------|
    |    Name     | Best Practices Analyzer |
    | Button Text |                         [[$Resources.BestPracticesAnalyzer]]                         |
    |   Tooltip   | Best Practices Analyzer |
