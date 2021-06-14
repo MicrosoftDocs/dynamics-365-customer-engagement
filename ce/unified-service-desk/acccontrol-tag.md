@@ -37,7 +37,7 @@ The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/a
 ```  
   
 > [!NOTE]
->  Some elements in the `Path` tag have a `<match>` attribute that you can use to add a counter to the search description. Both the following examples return the same search result, but the first example implements the `<match>` tag:  
+> Some elements in the `Path` tag have a `<match>` attribute that you can use to add a counter to the search description. Both the following examples return the same search result, but the first example implements the `<match>` tag:  
 > 
 > - **Example 1**  
 > 
