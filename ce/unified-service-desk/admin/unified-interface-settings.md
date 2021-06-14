@@ -59,7 +59,7 @@ you can add the Unified Interface Settings record to a configuration in two ways
 1. Go to the Unified Interface Setting record for which you want to attach the configuration.
 
 2. Choose **Related** > **Configuration**.<br>
-   ![Add configuration to the unified interface setting record](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the unified interface setting records")
+   ![Add configuration to the unified interface setting record in the Related tab](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the unified interface setting records in the Related tab")
 
 3. In the **Configuration** tab, select **Add Existing Configuration**.<br>
   > [!Note]

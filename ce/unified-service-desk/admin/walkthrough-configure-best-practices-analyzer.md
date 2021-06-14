@@ -50,9 +50,9 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
    | Hosting |      Assembly URI      |               `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`                |
    | Hosting |     Assembly Type      | `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl` |
 
-    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-1.PNG "Create Best Practices Analyzer hosted control")
+    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-1.PNG "Create Best Practices Analyzer hosted control - General tab")
 
-    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-2.PNG "Create Best Practices Analyzer hosted control")
+    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-2.PNG "Create Best Practices Analyzer hosted control - Hosting tab")
 
 7. Select **Save**.
 
@@ -261,11 +261,11 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 
 1. Sign in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
-2. Select the **Settings** list On the toolbar.
+2. Select the **Settings** list on the toolbar.
 
 3. Select **Best Practices Analyzer**.
 
-    ![Create action call to focus on Best Practices Analyzer](../media/best-practices-analyzer-button.PNG "Create action call to focus on Best Practices Analyzer")
+    ![Select Best Practices Analyzer from the Settings list](../media/best-practices-analyzer-button.PNG "Select Best Practices Analyzer from the Settings list")
 
 4. Select **Start Analysis**.<br>
    Best Practices Analyzer displays the report—it can help you determine your next steps.

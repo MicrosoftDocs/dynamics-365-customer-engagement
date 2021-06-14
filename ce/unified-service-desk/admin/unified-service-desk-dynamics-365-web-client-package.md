@@ -73,9 +73,9 @@ ms.custom:
   
 - Number of cases resolved. Displays the total number of resolved cases for the agent.  
   
-- Session Time: Displays the accrued time that the session tab it open.  
+- Session Time: Displays the accrued time that the session tab is open.  
   
-  ![unifiedservicedeskcrmwebclientpackage](../../unified-service-desk/media/unifiedservicedeskcrmwebclientpackage.png "unifiedservicedeskcrmwebclientpackage")  
+  ![unifiedservicedeskcrmwebclientpackage](../../unified-service-desk/media/unifiedservicedeskcrmwebclientpackage.png "Unified Service Desk CRM Web Client package")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  

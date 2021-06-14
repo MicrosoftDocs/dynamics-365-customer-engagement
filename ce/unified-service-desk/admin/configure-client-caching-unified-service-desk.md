@@ -148,7 +148,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 6. Select the **Related** tab, and then select **UII Actions**.  
   
-   ![Navigation to UII Actions for hosted control](../../unified-service-desk/unified-interface/media/usd-hosted-control-uii-action.png "Navigation to UII Actions for hosted control")  
+   ![Navigation to UII Actions for hosted control in Related tab](../../unified-service-desk/unified-interface/media/usd-hosted-control-uii-action.png "Navigation to UII Actions for hosted control in Related tab")  
   
 7. Select **+ Add New UII Action**.  
   
