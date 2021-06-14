@@ -10,3 +10,23 @@ ms.service: dynamics-365-customerservice
 ---
 
 # Call recording and transcripts
+
+## Prerequisites
+> [!Note]
+>
+
+>[!TIP] 
+> 
+
+
+
+## Step 1:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+## Step 2:
+
+## Configuration considerations
+## Additional Notes
