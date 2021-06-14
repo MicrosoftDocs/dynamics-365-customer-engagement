@@ -134,7 +134,7 @@
       href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
-    - name: Migration of a Unified Service Desk configuration
+    - name: Migration Unified Service Desk configuration
       href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
     - name: Import Unified Service Desk configuration data
       href: admin/import-unified-service-desk-configuration-data.md

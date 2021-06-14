@@ -92,7 +92,7 @@ Set **ShowScriptErrors** to **false**:
 4. In the **Value** field, select **false**.
 5. Select **Save**.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]](/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk.md)
 
 ## Client Caching
 
