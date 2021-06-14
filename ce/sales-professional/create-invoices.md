@@ -1,6 +1,6 @@
 ---
-title: "Create and manage invoices in Dynamics 365 Sales Professional | MicrosoftDocs"
-description: "Bill your customers for upcoming sales by using invoices in Dynamics 365 Sales Professional."
+title: "Create and manage invoices - Sales Professional | MicrosoftDocs"
+description: "Bill your customers for upcoming sales by creating and managing invoices in Dynamics 365 Sales Professional."
 ms.date: 07/21/2020
 ms.topic: article
 author: lavanyakr01
