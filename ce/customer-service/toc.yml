@@ -454,7 +454,7 @@
         href: voice-channel-outbound-calling.md
       - name: How to route voice calls to agents
         href: voice-channel-route-queues.md
-      - name: Add an Intelligent Voicebot for IVR
+      - name: Add Power Virtual Agent for conversational IVR
         href: voice-channel-ivr-bots.md
       - name: Manage voice channel
         href: voice-channel-manage.md
