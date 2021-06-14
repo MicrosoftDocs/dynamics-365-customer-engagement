@@ -4,7 +4,7 @@ description: "Learn how to route records manually using the Save & Route option 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/11/2021
+ms.date: 06/15/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -14,26 +14,26 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-After you set up and enable a record for routing, you can manually start the routing using the **Save & Route** button on the record forms.
+## Route records using the Save & Route or the Apply Routing Rules option
 
-## Route records using Save & Route option
+After you set up and enable a record for routing, you can manually start routing a record either by:
+- selecting a record on the home page grid and then selecting **Apply Routing Rule** on the toolbar.
+- opening a record form and then selecting  **Save & Route** on the form command bar.
 
-When you enable a record for routing, you'll see the **Save & Route** option on the form command bar, and **Apply Routing Rules** on the entity view command bar. You can use these commands to route the record.
+> [!Note]
+> The **Apply Routing Rule** button doesn't display on the home page grid of Activities.
+
+To manually route records:
 
 1. Sign in to your model-driven app.
 
-2. Select the record you want to route or select the record on your record view. <br> In the following example, **Leads** is enabled for routing. You can see the **Save & Route** button on the Leads form command bar.
+2. Select the record you want to route on the home page grid and then select **Apply Routing Rules**. 
+   Alternatively, open the record form and select **Save & Route** on the form command bar. 
 
-3. Select **Leads** on the sitemap to view the **Apply Routing Rules** in the entity view command bar. Selecting **Apply Routing Rules** also routes the record.
+   The **Route Case** dialog box appears.
 
-4. Select a lead record from the **My Open Leads** view.
+3. Select **Route**. The record is routed based on the active routing rule set.
 
-5. Select **Save & Route** on the command bar. The **Route Case** dialog box appears.
-
-6. Select **Route**. The record is routed based on the active routing rule set.
-
-    > [!div class=mx-imgBorder] 
-    > ![Manual trigger](media/manual-trigger.png "Manual trigger")
 
 ### See also
 

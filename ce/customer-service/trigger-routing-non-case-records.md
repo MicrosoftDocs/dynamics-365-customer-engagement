@@ -4,7 +4,7 @@ description: "This page provides sample code for developers to trigger routing f
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/04/2021
+ms.date: 06/15/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
