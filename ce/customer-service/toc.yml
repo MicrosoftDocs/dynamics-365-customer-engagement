@@ -484,7 +484,7 @@
     - name: Developer experience
       items:
       - name: Add Azure Bot Service for conversational IVR 
-        href: voice-channel-install.md
+        href: voice-channel-azure-bot-service.md
     - name: FAQs
       href: voice-channel-faq.md
   - name: Portals
