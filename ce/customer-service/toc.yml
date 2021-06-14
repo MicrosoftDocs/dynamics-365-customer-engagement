@@ -474,9 +474,12 @@
         href: voice-channel-music.md
     - name: Agent experience
       items:
-      - name: Using the agent desktop for voice
+      - name: Using call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
-      
+      - name: Call a customer
+        href: voice-channel-call-customer.md
+      - name: View call recording and transcripts
+        href: voice-channel-call-recording-transcripts.md
     - name: Supervisor experience
       items:
       - name: Call insights
