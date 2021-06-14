@@ -21,19 +21,15 @@ ms.service: dynamics-365-customerservice
 
 ## Prerequisites
 
-- Agent
-- Queue
+In order to receive inbound calls, you must have the following:
+
+1. The Voice channel must be provsioned and set up
+2. You must have an Agent set up
+3. You must have a Queue set up
 
 
 ## Step 1: Create a phone number
 
-
-## Set up inbound calling
-
-Set up first run expereince
-Open Voice demo
-
-Phone Number
 
 ### Phone Numbers
 
