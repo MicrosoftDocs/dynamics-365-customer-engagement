@@ -181,7 +181,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Action|ShowTab|  
     |Data|Contoso Help|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "Create an action call in Unified Service Desk")  
+    ![New Action Call page in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "New Action Call page in Unified Service Desk")  
 
 12. Click **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
 
