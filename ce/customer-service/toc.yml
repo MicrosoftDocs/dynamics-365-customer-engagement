@@ -493,7 +493,11 @@
       - name: Add Azure Bot Service for conversational IVR 
         href: voice-channel-azure-bot-service.md
     - name: FAQs
-      href: voice-channel-faq.md
+      items:
+      - name: FAQs
+        href: voice-channel-faq.md
+      - name: Regional Availability
+        href: voice-channel-region-availability.md
   - name: Portals
     items: 
     - name: Embed a chat widget in a portal
