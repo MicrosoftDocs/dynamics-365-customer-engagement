@@ -170,7 +170,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=true                                                            |
 
-    ![Create action call](../unified-service-desk/media/usd-expandrightpanelaction.png "Create action call")  
+    ![Create a new action call for Expand Right Panel Action](../unified-service-desk/media/usd-expandrightpanelaction.png "Create a new action call for Expand Right Panel Action")  
 
 11. Click **Save and Close**.  
 
@@ -186,7 +186,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=false                                                           |
 
-    ![Create action call](../unified-service-desk/media/usd-collapserightpanelaction.png "Create action call")  
+    ![Create a new action call for Collapse Right Panel Action](../unified-service-desk/media/usd-collapserightpanelaction.png "Create a new action call for Collapse Right Panel Action")  
 
 14. Click **Save and Close**.  
 
