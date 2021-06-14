@@ -1,6 +1,6 @@
 ---
 title: "AccControl tag | MicrosoftDocs"
-description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility (MSAA)."
+description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
