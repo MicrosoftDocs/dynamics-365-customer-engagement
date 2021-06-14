@@ -11,7 +11,6 @@ ms.topic: article
 
 # Manage notification settings and templates
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -32,7 +31,7 @@ For optimal functioning of desktop notifications, make sure that you are using t
 
 ### Desktop notifications when the app is in the background
 
-Agents can receive desktop notifications when the Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Agents can receive desktop notifications when the Customer Service workspace or Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
@@ -41,9 +40,9 @@ Agents can receive desktop notifications when the Omnichannel for Customer Servi
  > [!div class=mx-imgBorder]
  > ![Desktop notification](../customer-service/media/desktop-notification.png "Desktop notification")
 
-Agents can accept or reject the conversation request by selecting a button on the desktop notification. When an agent accepts the conversation, the Omnichannel for Customer Service app is made active and displayed to the agent, and a session is started.
+Agents can accept or reject the conversation request by selecting a button on the desktop notification. When an agent accepts the conversation, the app is made active and displayed to the agent, and a session is started.
 
-If the agent selects the notification message body and not a button, the Omnichannel for Customer Service app is made active and the notification is displayed to the agent in the app. Then the agent can choose to accept or reject the conversation by selecting the appropriate button.
+If the agent selects the notification message body and not a button, the app is made active and the notification is displayed to the agent in the app. Then the agent can choose to accept or reject the conversation by selecting the appropriate button.
 
 You can configure the wait time and the notification is displayed for the agent according to this time, but wait time isn't displayed on the notification. The desktop notification theme is based on the Windows operating system theme and settings.
 
@@ -67,7 +66,7 @@ The fields that are shown in the notification are based on the notification temp
 
 ## Slugs for notification field header
 
-A slug is a replacement parameter that Omnichannel for Customer Service  populates at runtime based on the context variables.
+A slug is a replacement parameter that is populated at runtime based on the context variables.
 
 The notification shows certain fields and values, called **Field header** and **Value** respectively.
 
@@ -97,7 +96,7 @@ The application supports the following slugs.
 
 ### Out-of-the-box notification templates
 
- For the supported channels, Omnichannel for Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](../customer-service/oc-notifications.md).
+ For the supported channels, Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](../customer-service/oc-notifications.md).
 
 The out-of-the-box templates are as follows.
 

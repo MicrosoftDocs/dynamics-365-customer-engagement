@@ -1,6 +1,6 @@
 ---
-title: "Create or edit invoices (Dynamics 365 Sales) | MicrosoftDocs"
-description: "An invoice is an order that has been billed to the customer."
+title: "Create or edit invoices - Sales Enterprise | MicrosoftDocs"
+description: "An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately."
 ms.date: 02/10/2021
 ms.topic: article
 author: lavanyakr01

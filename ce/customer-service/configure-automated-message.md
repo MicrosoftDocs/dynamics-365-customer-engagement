@@ -1,8 +1,6 @@
 ---
 title: "Configure automated messages | MicrosoftDocs"
-description: "Instructions to configure automated messages in Omnichannel for Customer Service"
-ms.date: 04/09/2021
-ms.topic: article
+description: "Perform the steps mentioned in the topic to configure automated messages in Omnichannel for Customer Service"
 author: platkat
 ms.author: ktaylor
 manager: shujoshi

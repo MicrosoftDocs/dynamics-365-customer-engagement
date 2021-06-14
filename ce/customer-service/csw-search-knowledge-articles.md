@@ -150,6 +150,7 @@ The required view columns are as follows:
 - Rating
 - Status
 - Modified On
+- Content
 
 ### See also
 
