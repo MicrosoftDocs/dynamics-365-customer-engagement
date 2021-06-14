@@ -1,6 +1,6 @@
 ---
-title: "Create or edit orders (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "A sales order is a quote that your customer has accepted."
+title: "Create or edit orders - Sales Professional | MicrosoftDocs"
+description: "Create and manage your sales orders for the products or services in Dynamics 365 Sales Professional."
 ms.date: 07/21/2020
 ms.topic: get-started-article
 author: lavanyakr01
@@ -15,7 +15,7 @@ searchScope:
   - Sales
 ---
 
-# Create and manage orders in Dynamics 365 Sales Professional
+# Create and manage orders (Sales Professional)
 
 Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
   

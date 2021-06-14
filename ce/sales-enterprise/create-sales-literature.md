@@ -1,6 +1,6 @@
 ---
-title: "Manage sales literature (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Stores sales-related information by using sales literature in Dynamics 365 Sales."
+title: "Manage sales literature - Sales Enterprise | MicrosoftDocs"
+description: "Sales literature is a repository to store sales-related information such as brochures or product specifications, which can be shared with others."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
