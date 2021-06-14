@@ -1,6 +1,6 @@
 ---
 title: "Create PDF files from sales records - Sales Enterprise | MicrosoftDocs"
-description: "Create and share PDF files with your customers for records that look professional and read only from your standard Word templates."
+description: "Create PDF files of sales records that look professional and read-only using your standard word templates and share it with your customers."
 ms.date: 10/28/2020
 ms.topic: article
 author: lavanyakr01
