@@ -91,7 +91,6 @@ You can also perform other actions in the flow, such as filtering out certain re
 > - If **Route Case** is set to **Yes**, the record is routed upon creation.
 > - If **Route Case** is set to **No**, the record is not routed upon creation.
 > - By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
-> - You can also build a custom flow to automatically trigger routing for cases using any other field per your business scenario.
 
 ### See also
 
