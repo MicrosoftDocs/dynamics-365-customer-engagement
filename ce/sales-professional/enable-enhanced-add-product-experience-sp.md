@@ -1,6 +1,6 @@
 ---
-title: "Enable the enhanced add products experience in Sales Professional | MicrosoftDocs"
-description: "Enable your salespeople to quickly find and add multiple products to opportunities in Dynamics 365 Sales by enabling the enhanced 'add product' experience."
+title: "Enable enhanced add products experience - Sales Professional | MicrosoftDocs"
+description: "Allow salespeople to quickly find and add multiple products to opportunities by enabling the enhanced add product experience."
 ms.date: 04/17/2020
 ms.topic: article
 author: lavanyakr01

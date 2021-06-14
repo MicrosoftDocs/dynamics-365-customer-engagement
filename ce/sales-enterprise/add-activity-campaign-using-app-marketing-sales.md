@@ -1,6 +1,6 @@
 ---
-title: "Add an activity to a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Add planning and campaign activities to a campaign to make it successful."
+title: "Add activity to campaign in in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
@@ -19,7 +19,7 @@ searchScope:
   - Customer Engagement
 ---
 
-# Add an activity to a campaign using in-app marketing (Sales)
+# Add activity to campaign using in-app marketing
 
 Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Planning activities are those you want to perform before you launch the campaign, and campaign activities are those you want to manage as part of the campaign. Examples of planning and campaign activities you can add include:  
   
