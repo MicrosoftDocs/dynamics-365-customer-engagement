@@ -1,5 +1,5 @@
 ---
-title: "Adding products to opportunity - Sales Enterprise | MicrosoftDocs"
+title: "Find and add multiple products to opportunity-Sales Enterprise | MicrosoftDocs"
 description: "Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities."
 ms.date: 04/02/2021
 ms.topic: article
