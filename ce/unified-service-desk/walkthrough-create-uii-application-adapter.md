@@ -206,9 +206,9 @@ You can create an application adapter if you want to integrate an external appli
   
 4. In the Adapter Configuration section, specify the following values:  
   
-   |||  
-   |-|-|  
-   |Field|Value|  
+   
+   |Field |Value |  
+   |----- |------|  
    |Adapter|Use Adapter|  
    |URI|`ExternalApplicationAdapter`|  
    |Type|`ExternalApplicationAdapter.AppAdapter`|  
