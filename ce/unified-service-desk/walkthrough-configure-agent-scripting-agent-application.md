@@ -108,7 +108,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Application is Global|Not checked|  
    |Display Group|MainPanel|  
 
-   ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a CRM Page hosted control")  
+   ![Create a CRM Page hosted control for new case form](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a CRM Page hosted control for new case form")  
 
 3. Click **Save**.  
 
@@ -126,7 +126,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Application is Global|Not checked|  
    |Display Group|MainPanel|  
 
-   ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-agent-script-task.png "Create a CRM Page hosted control")  
+   ![Create a CRM Page hosted control for existing account cases](../unified-service-desk/media/usd-create-agent-script-task.png "Create a CRM Page hosted control for existing account cases")  
 
 6. Click **Save**.  
 
@@ -196,7 +196,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|New_CRM_Page|  
    |Data|LogicalName=incident<br /> customerid=EntityReference([[$Context.InitialEntity]],[[$Context.Id]])  <br /> customeridname=[[$Context.name]] <br /> primarycontactid=[[$Context.primarycontactid.id]+]  <br /> primarycontactidname=[[$Context.primarycontactid.name]+] **Note:**  The new case form will be populated with the current account record data to help the agent quickly create a case for the customer.|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call in Unified Service Desk")  
+   ![Create an action call for Create Case](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call for Create Case")  
 
 9. Click **Save**.  
 
@@ -263,7 +263,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|AssociatedView|  
    |Data|navItemName=Cases<br />Id=[[$Context.Id]] <br />type=[[$Context.etc]] <br />tabset=areaService|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call.png "Create an action call in Unified Service Desk")  
+   ![Create an action call to display existing cases](../unified-service-desk/media/usd-create-action-call.png "Create an action call to display existing cases")  
 
 9. Click **Save**.  
 
@@ -277,7 +277,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Action|ShowTab|  
     |Data|Contoso existing cases for an account|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-2.png "Create an action call in Unified Service Desk")  
+    ![Create an action call to set focus on existing cases](../unified-service-desk/media/usd-create-action-call-2.png "Create an action call to set focus on existing cases")  
 
 11. Click **Save**.  
 
@@ -317,7 +317,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|CloseSession|  
    |Data|sessionid=[[$Context.SessionId]]|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-3.png "Create an action call in Unified Service Desk")  
+   ![Create an action call to close session](../unified-service-desk/media/usd-create-action-call-3.png "Create an action call to close session")  
 
 9. Click **Save**.  
 
@@ -342,7 +342,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|GoToTask|  
    |Data|Contoso: Welcome to Account Session|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-4.png "Create an action call in Unified Service Desk")  
+   ![Create an action call to display the agent script](../unified-service-desk/media/usd-create-action-call-4.png "Create an action call to display the agent script")  
 
 6. Click **Save**.  
 
