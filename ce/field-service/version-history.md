@@ -60,7 +60,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is a hotfix on Field Service version [8.8.43.77](#884351).
 
--	Check back soon for a full list of updates.
+-	Fixed a bug that removed the work hours tab from the resource form.
 
 ## 8.8.43.77
 
@@ -83,6 +83,7 @@ This release is a hotfix on Field Service version [8.8.43.51](#884351).
 This release is a hotfix on Field Service version [8.8.42.55](#884231).
 
 -	Fixed some performance issues.
+-	Fixed a bug that removed the work hours tab from the resource form.
 
 ## 8.8.42.55 
 
@@ -94,7 +95,11 @@ This release is a hotfix on Field Service version [8.8.42.31](#884231).
 
 (Includes Universal Resource Scheduling version [3.12.45.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312457))
 
--	Check back soon for a full list of updates.
+-	Frontline workers can view bookings in a map view as well in the new mobile app.
+-	Fixed an accessibility issue with assets where the **More** button shown as triple dots was getting skipped from tabbing.
+-	Corrected an issue of `OnSave` event handlers being removed from case form on Field Service installation.  
+-	Corrected behavior to not throw an error when the field `address1_line1` is not present in the form.
+
 
 ## 8.8.41.58 
 
