@@ -1,6 +1,6 @@
 ---
-title: "Channel Integration Framework (CIF) (Hosted Control) | MicrosoftDocs"
-description: "Learn about the Channel Integration Framework (CIF) hosted control type and the predefined UII actions supported by it."
+title: "Channel Integration Framework (Hosted Control) | MicrosoftDocs"
+description: "Learn about the Channel Integration Framework hosted control type and the predefined UII actions supported by it."
 ms.date: 04/10/2019
 ms.topic: article
 author: mh-jaya
