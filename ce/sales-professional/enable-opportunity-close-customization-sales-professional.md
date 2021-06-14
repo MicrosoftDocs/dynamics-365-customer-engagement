@@ -1,6 +1,6 @@
 ---
 title: "Enable customization of Opportunity Close form - Sales Professional | MicrosoftDocs"
-description: "Allow administrators to enable the customization the opportunity close form to enable sellers to capture important details on why an opportunity was closed."
+description: "Enable the customization of the opportunity close form so that sellers can capture important details on why an opportunity was closed."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
