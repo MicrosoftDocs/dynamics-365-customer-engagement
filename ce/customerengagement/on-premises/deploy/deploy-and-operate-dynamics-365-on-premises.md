@@ -51,7 +51,7 @@ This guide provides a set of comprehensive deployment and operation topics that 
 
 ::: moniker-end  
 
-## Known issues
+## Deployment and operation known issues
 
 ### A deployment administrator can't perform deployment adminstration tasks
 
