@@ -450,6 +450,8 @@
       items:
       - name: Inbound calling
         href: voice-channel-inbound-calling.md
+      - name: Outbound calling
+        href: voice-channel-outbound-calling.md
       - name: How to route voice calls to agents
         href: voice-channel-route-queues.md
       - name: Add an Intelligent Voicebot for IVR
