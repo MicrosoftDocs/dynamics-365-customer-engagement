@@ -21,8 +21,8 @@ ms.custom:
 ## JavaDDA events  
  The following table lists the events available in the [!INCLUDE[pn_Java](../includes/pn-java.md)]DDA:  
   
-|Event||Description|  
-|-----------|-|-----------------|  
+|Event |Description|  
+|------|-----------------|  
 |`CheckBoxSelected`|Invoked when the check box is selected (marker set).|  
 |`CheckBoxCleared`|Invoked when the check box is cleared (marker not set).|  
 |`RadioButtonSelected`|Invoked when the radio button is selected.|  
