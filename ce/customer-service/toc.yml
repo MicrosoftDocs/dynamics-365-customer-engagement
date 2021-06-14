@@ -498,6 +498,8 @@
         href: voice-channel-faq.md
       - name: Regional Availability
         href: voice-channel-region-availability.md
+      - name: Supprted Languages
+        href: voice-channel-supported-languages.md
   - name: Portals
     items: 
     - name: Embed a chat widget in a portal
