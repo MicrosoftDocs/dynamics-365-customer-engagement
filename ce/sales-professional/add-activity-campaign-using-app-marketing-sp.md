@@ -1,6 +1,6 @@
 ---
 title: "Add activity to campaign in in-app marketing-Sales Professional | MicrosoftDocs"
-description: "Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities."
+description: "Make your marketing campaigns successful by creating, distributing, and assigning your planning and campaign activities."
 ms.date: 12/06/2019
 ms.topic: article
 author: lavanyakr01
