@@ -1,6 +1,6 @@
 ---
 title: "Add activity to campaign in in-app marketing - Sales Enterprise | MicrosoftDocs"
-description: "Create, distribute, and assign planning and campaign activities to a marketing campaign to make it successful in Dynamics 365 Sales."
+description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
