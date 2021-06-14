@@ -95,10 +95,10 @@ This release is a hotfix on Field Service version [8.8.42.31](#884231).
 
 (Includes Universal Resource Scheduling version [3.12.45.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312457))
 
--	Front line workers can view bookings in a map view as well in the new mobile app.
--	Fixed an accessibility issue with assets where the more button shown as triple dots was getting skipped from tabbing.
--	Corrected an issue of OnSave event handlers being removed from case form on FS installation.  
--	Corrected behavior to not throw an error when the field 'address1_line1' is not present in the form.
+-	Frontline workers can view bookings in a map view as well in the new mobile app.
+-	Fixed an accessibility issue with assets where the **More** button shown as triple dots was getting skipped from tabbing.
+-	Corrected an issue of `OnSave` event handlers being removed from case form on Field Service installation.  
+-	Corrected behavior to not throw an error when the field `address1_line1` is not present in the form.
 
 
 ## 8.8.41.58 
