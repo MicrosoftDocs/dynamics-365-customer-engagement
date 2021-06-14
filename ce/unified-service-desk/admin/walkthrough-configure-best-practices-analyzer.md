@@ -50,9 +50,9 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
    | Hosting |      Assembly URI      |  `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`                |
    | Hosting |     Assembly Type      | `Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl` |
 
-    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-1.PNG "Create Best Practices Analyzer hosted control - General tab")
+    ![Create Best Practices Analyzer hosted control - General tab](../unified-interface/media/usd-create-bpa-hosted-control-1.PNG "Create Best Practices Analyzer hosted control - General tab")
 
-    ![Create Best Practices Analyzer hosted control](../unified-interface/media/usd-create-bpa-hosted-control-2.PNG "Create Best Practices Analyzer hosted control - Hosting tab")
+    ![Create Best Practices Analyzer hosted control - Hosting tab](../unified-interface/media/usd-create-bpa-hosted-control-2.PNG "Create Best Practices Analyzer hosted control - Hosting tab")
 
 7. Select **Save**.
 
