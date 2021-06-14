@@ -1,6 +1,6 @@
 ---
 title: "Set up email by integrating with Exchange - Sales Professional | MicrosoftDocs"
-description: "Enable users to send and receive emails by configuring email by integrating with Exchange in Dynamics 365 Sales Professional."
+description: "Configure email by integrating with Exchange the enables users to store email and other messaging records."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01

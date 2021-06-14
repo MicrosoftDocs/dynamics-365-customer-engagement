@@ -1,6 +1,6 @@
 ---
 title: "Work with activities in Kanban view - Sales Professional | MicrosoftDocs"
-description: "Use the opportunity Kanban view to visualize activities in a card-based view and manage by moving them across the swim lanes in Dynamics 365 Sales Professional."
+description: "Use the opportunity Kanban view to visualize activities in a card-based view and manage by moving them across the swim lanes."
 ms.date: 04/16/2020
 ms.topic: article
 author: lavanyakr01

@@ -1,6 +1,6 @@
 ---
 title: "Enable or disable PDF creation from records-Sales Professional | MicrosoftDocs"
-description: "Enable your users to create and share professional-looking PDF files with customers in Dynamics 365 Sales Professional."
+description: "Enable your users to create and share professional-looking PDF files for records in entities with customers."
 ms.date: 10/28/2020
 ms.topic: article
 author: lavanyakr01
