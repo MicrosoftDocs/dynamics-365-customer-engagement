@@ -1,10 +1,10 @@
 ---
 title: "Route records automatically using custom flow | MicrosoftDocs"
-description: "Learn how to set up custom flow to automatically route records using Power Automate."
+description: "Learn how to automatically route records by setting up a custom flow in Dynamics 365 Customer Service and Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/04/2021
+ms.date: 06/11/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -17,20 +17,20 @@ ms.service: dynamics-365-customerservice
 
 ## Set up custom flow to automatically route records
 
-As an administrator, you can also route records automatically using Power Automate. You can set up a custom flow to automatically route records based on conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
+As an administrator, you can route records automatically using Power Automate. Set up a custom flow to automatically route records based on certain conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
 
-To enable automatic trigger to route the records:
+To enable the automatic trigger of routing the records:
 
 1. Sign in to Power Automate and select the environment for which you want to update the flow.
 
-2. Select **My flows** in the site map. Then, select **New flow** and under **Build your own from blank** option, select **Automated cloud flow**.
+2. Select **My flows** in the sitemap, then select **New flow**. Under the **Build your own from blank** option, select **Automated cloud flow**.
     The **Build an automated cloud flow** dialog box appears.
 
 3. Select **Skip**. A list of all connectors and triggers is displayed.
     > [!div class=mx-imgBorder]
     > ![List of all connectors and triggers](media/route-trigger1.png "List of all connectors and triggers.")
 
-4. Select **Microsoft Dataverse**, and in the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
+4. Select **Microsoft Dataverse**. In the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
 
     > [!div class=mx-imgBorder]
     > ![Select When a row is added, modified or deleted trigger](media/route-trigger2.png "Select When a row is added, modified or deleted trigger")
@@ -55,34 +55,35 @@ The UI is self-explanatory. The table details are not required.
 
 7. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog box appears.
 
-8. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
+8. Enter **msdyn_ApplyRoutingRuleEntityRecord** into the **Action Name** field as a custom value.
     > [!div class=mx-imgBorder] 
     > ![Enter custom value](media/route-trigger5.png "Specify Action name")
 
-9. Enter the entity collection name and unique identifier of the record in the specified format against the **Target** field:
+9. In the **Target** field, enter the entity collection name and unique identifier of the record. Use the following format:
 
-    Format: `<entity collection name>(unique identifier of the entity)`
-    Example: leads(Lead)
+    **Format:** `<entity collection name>(unique identifier of the entity)`
+    
+    **Example:** leads(Lead)
 
     > [!Note]
     > 1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`
     > For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='lead')`.
-    > 2. Search for `LogicalCollectionName`, and you can view the entity collection name for a particular entity.
-    > For example: `"LogicalCollectionName":"leads"`
+    > 2. Search for `LogicalCollectionName` to view the entity collection name for a particular entity.
+    > For example: `"LogicalCollectionName":"leads"`.
     > Here, `leads` is the entity collection name.
 
 10. Select **Save**.
 
-Now, based on the flow that is defined, whenever a record, say lead, is created, the flow applies the **ApplyRoutingRuleRecord** action on the record. Similarly, you can create a custom flow based on your business scenarios. 
+Now, based on the flow that is defined, whenever a record (in this example, a lead) is created, the flow applies the **ApplyRoutingRuleRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
 
-You can also perform other actions in the flow, such as filtering out certain records that you do not want to route, performing some data transformation, and so on.
+You can also perform other actions in the flow, such as filtering out certain records that you don't want to route, performing data transformation, and more.
 
 > [!Note]
-> - For case record, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
+> - For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
 > - If **Route Case** is set to **Yes**, the record is routed upon creation.
 > - If **Route Case** is set to **No**, the record is not routed upon creation.
-> - By default, for all of the cases created from user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
-> - You can also build a custom flow to automatically trigger routing for cases using any other field per your business scenario, as explained in this topic.
+> - By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
+> - You can also build a custom flow to automatically trigger routing for cases using any other field per your business scenario.
 
 ### See also
 
