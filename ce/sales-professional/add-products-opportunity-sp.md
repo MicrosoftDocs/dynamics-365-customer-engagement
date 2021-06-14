@@ -1,6 +1,6 @@
 ---
-title: "Add products an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Develop your opportunity by defining products that your customers are interested in purchasing."
+title: "Add products to opportunity - Sales Professional | MicrosoftDocs"
+description: "Develop your opportunity by defining product bundles that helps you to choose products for upsell and cross-sell."
 ms.date: 02/03/2020
 ms.topic: article
 author: lavanyakr01
