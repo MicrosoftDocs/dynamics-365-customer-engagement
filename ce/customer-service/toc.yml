@@ -486,6 +486,8 @@
         href: voice-channel-monitor-calls.md
       - name: Call insights
         href: voice-channel-call-insights.md
+      - name: Reporting and analytics
+        href: voice-channel-report-analytics.md
     - name: Developer experience
       items:
       - name: Add Azure Bot Service for conversational IVR 
