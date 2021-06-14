@@ -1,5 +1,5 @@
 ---
-title: "Make and receive your first phone call in the Voice channel | MicrosoftDocs"
+title: "Inbound Calling in the Voice channel | MicrosoftDocs"
 description: "Introduction to using Omnichannel for Customer Service."
 author: neeranelli
 ms.author: daclar

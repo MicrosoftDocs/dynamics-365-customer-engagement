@@ -466,6 +466,12 @@
         href: voice-channel-survey.md
       - name: Set up a multi-language contact center
         href: voice-channel-multi-language-contact-center.md
+      - name: Handle Call Overflow
+        href: voice-channel-call-overflow.md
+      - name: Block a SPAM Number
+        href: voice-channel-block-number.md
+      - name: Manage Music
+        href: voice-channel-music.md
     - name: Agent experience
       items:
       - name: Using the agent desktop for voice
