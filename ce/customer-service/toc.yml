@@ -460,6 +460,12 @@
         href: voice-channel-manage.md
       - name: Number management
         href: voice-channel-number-management.md
+      - name: View usage and billing
+        href: voice-channel-usage-billing.md
+      - name: Configure post call survey
+        href: voice-channel-survey.md
+      - name: Set up a multi-language contact center
+        href: voice-channel-multi-language-contact-center.md
     - name: Agent experience
       items:
       - name: Using the agent desktop for voice
