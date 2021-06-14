@@ -1,6 +1,6 @@
 ---
 title: "Create or edit sales orders - Sales Enterprise | MicrosoftDocs"
-description: "Use orders in Dynamics 365 Sales to track details of the products or services your customers want to place an order for."
+description: "Use orders to track details of the products or services that your customers want to place an order for."
 ms.date: 02/10/2021
 ms.topic: get-started-article
 author: lavanyakr01

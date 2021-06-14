@@ -1,6 +1,6 @@
 ---
 title: "Create or edit campaign using in-app marketing - Sales Enterprise | MicrosoftDocs"
-description: "Use campaigns through in-app marketing in Dynamics 365 Sales Enterprise to expand your reach to new customers and improve sales."
+description: "Use campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing."
 ms.date: 10/01/2019
 ms.topic: article
 author: lavanyakr01
