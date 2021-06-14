@@ -32,9 +32,16 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 
 ## Call controls 
 
-- Mute: 
-- Hold: 
-- End: 
+## Call controls
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-inbound-call-controls.png)
+
+- Mute
+- Hold
+- Consult
+- Transfer (to agent or queue)
+- End 
 
 ## View customer information
 

@@ -23,29 +23,9 @@ ms.service: dynamics-365-customerservice
 
 - Agent
 - Queue
-- Phone Number
-- Workstream 
 
-## Make a call
 
-Customers call the phone number for the support team. This number is typically posted on a website and within a mobile app. 
-
-## Accept a call
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-incoming-call-notification.png)
-
-[Manage notification settings and templates](https://docs.microsoft.com/dynamics365/app-profile-manager/notification-templates)
-
-## Call controls
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/voice-channel-inbound-call-controls.png)
-
-- Mute
-- Hold
-- Consult
-- Transfer (to agent or queue)
+## Step 1: Create a phone number
 
 
 ## Set up inbound calling
@@ -62,7 +42,7 @@ Phone Number
 
 
 
-
+## Step 2: Configure phone number settings (Language, Behaviors, etc)
 
 ### Language
 
@@ -81,6 +61,8 @@ Phone Number
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-inbound-call-number-behaviors.png)
 
+## Step 3: Set up a workstream
+
 ### Routing Rules
 
 > [!div class="mx-imgBorder"]
@@ -89,6 +71,20 @@ Phone Number
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-inbound-call-route-queue2.png)
+
+## Step 4: Make and receive a call
+
+### Make a call
+
+A customer will call your support organization by simply calling the phone number you created. There are many ways a customer may find the phone number, like a website, portal, mobile app, via chat bot, etc.  
+
+### Receive and accept a call
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-incoming-call-notification.png)
+
+[Manage notification settings and templates](https://docs.microsoft.com/dynamics365/app-profile-manager/notification-templates)
+
 
 ## See also
 - Add a Power Virtual Agent Bot
