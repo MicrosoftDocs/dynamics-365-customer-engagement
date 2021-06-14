@@ -482,6 +482,8 @@
         href: voice-channel-call-recording-transcripts.md
     - name: Supervisor experience
       items:
+      - name: Monitor Voice Calls
+        href: voice-channel-monitor-calls.md
       - name: Call insights
         href: voice-channel-call-insights.md
     - name: Developer experience
