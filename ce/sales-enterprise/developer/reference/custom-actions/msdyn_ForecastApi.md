@@ -3,8 +3,8 @@ title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)
 description: "Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data"
 ms.date: 06/24/2020
 ms.topic: reference
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 search.audienceType: 
   - developer

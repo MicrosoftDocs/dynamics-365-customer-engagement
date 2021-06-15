@@ -1,5 +1,6 @@
 ---
 title: "Verify network capacity and throughput for clients | MicrosoftDocs"
+description: "verify network capacity and throughput for clients."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

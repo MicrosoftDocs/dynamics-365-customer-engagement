@@ -1,5 +1,5 @@
 ---
-title: "Use UII automation adapter to interact with external and web applications in Unified Service Desk | MicrosoftDocs"
+title: "Use UII automation adapter to interact with external applications | MicrosoftDocs"
 description: "Learn how to use UII automation adapter to interact with external and web applications in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article

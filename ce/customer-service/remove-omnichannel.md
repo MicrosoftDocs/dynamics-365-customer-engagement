@@ -1,8 +1,6 @@
 ---
 title: "Remove Omnichannel for Customer Service| MicrosoftDocs"
-description: "Learn how to remove Omnichannel for Customer Service and disable all channels on an organization."
-ms.date: 09/01/2020
-ms.topic: article
+description: "Perform the steps mentioned in the topic to remove Omnichannel for Customer Service and disable all the messaging channels in an organization."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

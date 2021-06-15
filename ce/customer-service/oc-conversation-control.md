@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
-description: "Conversation control is a communication panel in Omnichannel where you interact with the customer."
+description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
 ms.date: 01/11/2021
 ms.topic: article
 author: neeranelli
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# View communication panel
+# View the communication panel for conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

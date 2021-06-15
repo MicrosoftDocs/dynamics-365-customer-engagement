@@ -1,5 +1,6 @@
 ---
 title: "Set up server-side synchronization of email, appointments, contacts, and tasks | MicrosoftDocs"
+description: "Synchronize your email system with Dynamics 365 Customer Engagement (on-premises) at the server level."
 ms.custom: 
 ms.date: 04/16/2020
 ms.reviewer: 

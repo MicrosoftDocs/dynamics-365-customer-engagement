@@ -1,6 +1,6 @@
 ---
 title: "Set up routing rules and assignment rules in Omnichannel Administration | MicrosoftDocs"
-description: "Understand how to create and manage routing rules in Omnichannel Administration app"
+description: "Understand how to create and manage the routing rules in the Omnichannel Administration app"
 ms.date: 04/09/2021
 ms.topic: article
 author: neeranelli

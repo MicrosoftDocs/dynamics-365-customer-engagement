@@ -1,6 +1,6 @@
 ---
 title: "Help resources for Dynamics 365 Sales Enterprise | Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 Sales."
+description: "Browse help content and explore documentation depending on your role in the organization and what you need to accomplish in Dynamics 365 Sales."
 ms.date: 10/14/2019
 ms.topic: article
 author: lavanyakr01

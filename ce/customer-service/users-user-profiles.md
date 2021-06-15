@@ -1,7 +1,7 @@
 ---
-title: Create and manage users and user profiles | MicrosoftDocs
-description: Know how to create and manage users and user profiles in the Omnichannel for Customer Service
-ms.date: 05/05/2021
+title: "Create and manage users and user profiles | MicrosoftDocs"
+description: "This topic provides steps that you can perform to manage users in Omnichannel for Customer Service."
+ms.date: 05/25/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -40,7 +40,7 @@ For more information on how to create users and assign security roles, see [Assi
    2. Select **Save**. The **Work Hours** tab is enabled.
  
     > [!IMPORTANT]
-    > To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling.
+    > To add the work hour for a bookable resource, universal resource scheduling must be available in your organization. Universal resource scheduling is available with Dynamics 365 Field Service, Dynamics 365 Project Service, or Dynamics 365 Service Scheduling. More information: [Overview of Service Scheduling](/dynamics365/customer-service/basics-service-service-scheduling)
 
    3. You can update the existing work hours or create work hours for the user.
 

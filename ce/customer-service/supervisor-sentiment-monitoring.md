@@ -1,6 +1,6 @@
 ---
 title: "Sentiment monitoring | MicrosoftDocs"
-description: "Enable sentiment monitoring to understand customer sentiment across channels"
+description: "This topic provides information on how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service."
 ms.date: 08/03/2020
 ms.topic: article
 author: lalexms

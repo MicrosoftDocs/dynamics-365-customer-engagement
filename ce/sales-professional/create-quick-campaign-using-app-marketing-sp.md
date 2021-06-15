@@ -1,6 +1,6 @@
 ---
-title: "Create a quick campaign using in-app marketing (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Use quick campaigns to send e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product."
+title: "Create quick campaign using in-app marketing-Sales Professional | MicrosoftDocs"
+description: "Use quick campaigns to send e-mail blast to customers in Dynamics 365 Sales Professional to track success through campaign responses."
 ms.date: 12/06/2019
 ms.topic: article
 author: lavanyakr01

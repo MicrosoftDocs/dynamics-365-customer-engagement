@@ -1,6 +1,6 @@
 ---
 title: Common field properties in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the Common field properties for Main form in Dynamics 365 Customer Engagement (on-premises)
+description: Understand the Common field properties for Main form
 Keywords: Main form; Common field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -23,7 +23,7 @@ search.audienceType:
 
 You can access **Common field properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click one of the fields to view Common field properties.
 
-![common-field-properties](media/common-field-properties.png)
+![Common field properties](media/common-field-properties.png)
 
 The following table describes properties that all fields have. Certain types of fields have special properties. These are described in [Special field properties](../customize/special-field-properties-legacy.md).  
 

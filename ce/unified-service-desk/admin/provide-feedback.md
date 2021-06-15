@@ -1,6 +1,6 @@
 ---
-title: "Provide feedback about Unified Service Desk | MicrosoftDocs"
-description: "Learn about providing feedback about Unified Service Desk."
+title: "Provide feedback through toolbar option| MicrosoftDocs"
+description: "Learn how to provide feedback about Unified Service Desk from the toolbar. Also included is a walkthrough to configure the feedback window in your agent app."
 ms.date: 04/24/2018
 ms.topic: article
 author: mh-jaya

@@ -1,6 +1,6 @@
 ---
 title: "Sample bindings in Unified Service Desk | MicrosoftDocs"
-description: "The sample explains sample bindings in Unified Service Desk."
+description: "Learn about the sample bindings used by data-driven adapters to identify UI components of hosted applications."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

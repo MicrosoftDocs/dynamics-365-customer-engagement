@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting server-based authentication  | MicrosoftDocs"
+description: " Review the error log for information about why the site doesn’t validate."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

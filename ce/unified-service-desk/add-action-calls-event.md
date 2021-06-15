@@ -1,6 +1,6 @@
 ---
 title: "Add action calls to an event | MicrosoftDocs"
-description: "Learn about adding action calls to an event."
+description: "Learn how to add multiple action calls to an event and specify the order in which they must be run."
 ms.date: 12/31/2018
 ms.topic: article
 author: mh-jaya
@@ -16,7 +16,7 @@ ms.custom:
   - dyn365-USD
 ---
 # Add action calls to an event
-You can add multiple action calls to an event, and the action calls will be executed in the order that is defined in the **Order** field of the event definition. To do so:  
+You can add multiple action calls to an event so that they are run in the order that is defined in the **Order** field of the event definition. To do so:  
   
 1. Sign in to Unified Service Desk Administrator.  
   
@@ -32,7 +32,7 @@ You can add multiple action calls to an event, and the action calls will be exec
   
    ![Add action call to an event](../unified-service-desk/media/usd-add-action-call-event.png "Add action call to an event") 
   
-7. If you have added multiple action calls, double-click on each of the added action call record, specify the **Order** value, and then save the action call record. The order values are updated in the **Active Actions** area.   
+7. If you have added multiple action calls, double-click each of the added action call record, specify the **Order** value, and then save the action call record. The order values are updated in the **Active Actions** area.
   
 8. Select **Save**.  
   
