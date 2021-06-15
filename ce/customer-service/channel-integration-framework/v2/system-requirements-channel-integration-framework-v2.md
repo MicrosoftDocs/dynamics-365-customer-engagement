@@ -11,7 +11,7 @@ ms.custom:
 
 # System requirements for Dynamics 365 Channel Integration Framework 2.0
 
-This topic describes the system requirements for Dynamics 365 Channel Integration Framework 2.0.
+This topic lists the system requirements for Dynamics 365 Channel Integration Framework 2.0.
 
 ## Dynamics 365
 
@@ -32,7 +32,7 @@ To have multisession capabilities, your organization must use a multi-session ap
 
 ## Domains
 
-All the URLs must be secure (HTTPS).
+The domain of the channel URL should use HTTPS protocol.
 
 ## See also
 

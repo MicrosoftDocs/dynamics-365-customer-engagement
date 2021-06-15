@@ -11,11 +11,11 @@ ms.custom:
 
 # System requirements for Dynamics 365 Channel Integration Framework 1.0
 
-This topic describes the system requirements for Dynamics 365 Channel Integration Framework version 1.0.
+This topic lists the system requirements for Dynamics 365 Channel Integration Framework 1.0.
 
 ## Dynamics 365
 
-Dynamics 365 (online) version 9.1 and higher versions.
+Dynamics 365 (online) version 9.1 and later.
 
 ## Supported browsers
 
@@ -24,17 +24,17 @@ Dynamics 365 (online) version 9.1 and higher versions.
 - Google Chrome
 
 > [!NOTE]
-> Ensure microphone and speaker access is not blocked by browser policy for voice and video channels.
+> Ensure that microphone and speaker access is not blocked by browser policy for voice and video channels.
 
 ## Domains
 
-All the URLs must be secure (HTTPS).
+The domain of the channel URL should use HTTPS protocol.
 
 ## See also
 
-[Get Dynamics 365 Channel Integration Framework version 2.0](get-channel-integration-framework.md)
+[Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)
 
-[Get Dynamics 365 Channel Integration Framework version 1.0](v2/get-channel-integration-framework.md)
+[Get Dynamics 365 Channel Integration Framework 1.0](v2/get-channel-integration-framework.md)
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
 
