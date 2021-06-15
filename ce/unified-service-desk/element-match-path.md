@@ -1,6 +1,6 @@
 ---
 title: "ElementMatchPath in Unified Service Desk | MicrosoftDocs"
-description: "<ElementMatchPath> tag uses a sequence of HTML tags delimited by forward slashes. This topic describes how <ElementMatchPath> works."
+description: "Understand how the ElementMatchPath tag works in Unified Service Desk. Also included is a code snippet that shows how to use the tag."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

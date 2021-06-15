@@ -1,6 +1,6 @@
 ---
 title: "CCA Hosted Application (Hosted Control) | MicrosoftDocs"
-description: "The topic explains Customer Care Accelerator (CCA) hosted application (Hosted Control) that enables you to host an external application or web application in Unified Service Desk and interact with it by using the UII adapters."
+description: "Learn about the Customer Care Accelerator (CCA) Hosted Application hosted control type and how you can create the hosted control in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

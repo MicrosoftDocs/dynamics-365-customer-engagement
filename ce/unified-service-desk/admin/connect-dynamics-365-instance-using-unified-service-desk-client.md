@@ -1,6 +1,6 @@
 ---
-title: "Connect to a model-driven app using the Unified Service Desk  client | MicrosoftDocs"
-description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
+title: "Connect to a model-driven app using Unified Service Desk client | MicrosoftDocs"
+description: "Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk."
 ms.date: 11/16/2020
 ms.topic: article
 author: mh-jaya
