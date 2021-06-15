@@ -1,6 +1,6 @@
 ---
-title: "Associate templates with scenarios in Dynamics 365 CIF v2.0 | MicrosoftDocs"
-description: "Learn about associating templates with scenarios in Dynamics 365 Channel Integration Framework (CIF) v2.0."
+title: "Associate templates with scenarios in Channel Integration Framework v2.0 | MicrosoftDocs"
+description: "Learn about associating templates with scenarios in Dynamics 365 Channel Integration Framework v2.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

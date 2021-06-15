@@ -1,6 +1,6 @@
 ---
-title: "Get Dynamics 365 Channel Integration Framework (CIF) v2.0 | Microsoft Docs"
-description: "Use this topic to get the download link and prerequisites information for Dynamics 365 Channel Integration Framework v2.0"
+title: "Get Dynamics 365 Channel Integration Framework v2.0 | Microsoft Docs"
+description: "Use this topic to get the download link and prerequisites for Dynamics 365 Channel Integration Framework v2.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

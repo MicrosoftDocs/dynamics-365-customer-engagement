@@ -1,6 +1,6 @@
 ---
-title: "How to enable outbound communication (ClickToAct) in Dynamics 365 CIF v2.0 | Microsoft Docs"
-description: "Learn enable or configure outbound communication (ClickToAct) in Channel Integration Framework (CIF) v2.0 for Microsoft Dynamics 365."
+title: "Enable outbound communication in Channel Integration Framework v2.0 | Microsoft Docs"
+description: "Learn to enable or configure outbound communication in Channel Integration Framework v2.0 for Dynamics 365."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# How to enable outbound communication (ClickToAct) in CIF v2.0
+# How to enable outbound communication (ClickToAct) in Channel Integration Framework v2.0
 
 > [!IMPORTANT]
 > Minimum versions required to get this feature working without any customizations.

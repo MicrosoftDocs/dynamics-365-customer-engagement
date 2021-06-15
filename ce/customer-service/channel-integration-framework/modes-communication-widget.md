@@ -1,6 +1,6 @@
 ---
-title: "Modes and locations for the communication widget in CIF version 1.0 | MicrosoftDocs"
-description: "Learn about the token modes&mdash;docked, minimized, and hidden&mdash;used in CIF v1.0. "
+title: "Locations and modes for communication widgets | MicrosoftDocs"
+description: "Learn about the token modes&mdash;docked, minimized, and hidden&mdash;used in Channel Integration Framework v1.0. "
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Modes and locations for the communication widget in CIF v1.0
+# Locations and modes for the communication widget in Channel Integration Framework v1.0
 
 [!INCLUDE[token-modes-communication-widget](shared/token-modes-communication-widget.md)]
 

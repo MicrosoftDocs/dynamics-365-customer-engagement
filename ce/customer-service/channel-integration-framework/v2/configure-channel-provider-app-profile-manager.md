@@ -1,6 +1,6 @@
 ---
-title: "Configure channel provider using app profile manager in CIF v2.0 | Microsoft Docs"
-description: "Learn how to configure a channel provider using the app profile manager in Channel Integration Framework (CIF) v2.0."
+title: "Configure channel provider using app profile manager in Channel Integration Framework v2.0 | Microsoft Docs"
+description: "Learn how to configure a channel provider using the app profile manager in Channel Integration Framework v2.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Configure channel provider using app profile manager in CIF v2.0
+# Configure channel provider using app profile manager in Channel Integration Framework v2.0
 
 The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md).
 

@@ -1,6 +1,6 @@
 ---
-title: "Authenticate channel users in Dynamics 365 CIF v2.0 | Microsoft Docs"
-description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework (CIF) version 2.0."
+title: "Authenticate channel users in Channel Integration Framework v2.0 | Microsoft Docs"
+description: "Learn how to authenticate channel users in the Dynamics 365 Channel Integration Framework version 2.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Authenticate channel users to log in to the channel in CIF v2.0
+# Authenticate channel users to log in to the channel in Channel Integration Framework v2.0
 
 [!INCLUDE[token-authenticate-channel-users](../shared/token-authenticate-channel-users.md)]
 

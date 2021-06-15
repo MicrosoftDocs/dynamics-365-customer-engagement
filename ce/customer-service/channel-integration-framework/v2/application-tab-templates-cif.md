@@ -1,6 +1,6 @@
 ---
 title: "Manage application tab templates in Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: "Learn about managing application tab templates in Channel Integration Framework version 2.0."
+description: "Learn how to manage application tab templates in Channel Integration Framework version 2.0."
 ms.date: 04/05/2021
 ms.topic: article
 author: mh-jaya

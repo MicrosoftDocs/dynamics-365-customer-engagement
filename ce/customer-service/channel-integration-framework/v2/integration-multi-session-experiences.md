@@ -1,6 +1,6 @@
 ---
-title: "Integrate Dynamics 365 CIF v2.0 with Omnichannel for Customer Service | MicrosoftDocs"
-description: "Integrate Dynamics 365 Channel Integration Framework v2.0 with the Omnichannel for Customer Service multiple session app."
+title: "Integrate with Omnichannel for Customer Service multiple session app| MicrosoftDocs"
+description: "Integrate Dynamics 365 Channel Integration Framework v2.0 with Omnichannel for Customer Service multiple session app."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

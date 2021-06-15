@@ -1,6 +1,6 @@
 ---
-title: "Configure channel provider using app profile manager in CIF v1.0 | Microsoft Docs"
-description: "Learn how to configure a channel provider using the app profile manager in Channel Integration Framework (CIF) v1.0."
+title: "Configure channel providers in Channel Integration Framework v1.0 | Microsoft Docs"
+description: "Learn how to configure channel providers using app profile manager in Channel Integration Framework v1.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

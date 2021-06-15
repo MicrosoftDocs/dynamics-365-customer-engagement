@@ -1,6 +1,6 @@
 ---
-title: "Sample code for softphone integration using Dynamics 365 CIF v1.0 | Microsoft Docs"
-description: "Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework (CIF) v1.0 with Dynamics 365 model-driven apps."
+title: "Sample softphone integration using Channel Integration Framework v1.0 | Microsoft Docs"
+description: "Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework v1.0 with Dynamics 365 model-driven apps."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
