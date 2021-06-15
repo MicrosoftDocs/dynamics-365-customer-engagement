@@ -32,7 +32,7 @@ To have multisession capabilities, your organization must use a multi-session ap
 
 ## Domains
 
-The domain of the channel URL should be on HTTPS.
+The domain of the channel URL should use HTTPS protocol.
 
 ## See also
 

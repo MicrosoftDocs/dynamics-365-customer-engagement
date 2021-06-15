@@ -28,7 +28,7 @@ Dynamics 365 (online) version 9.1 and later.
 
 ## Domains
 
-The domain of the channel URL should be on HTTPS.
+The domain of the channel URL should use HTTPS protocol.
 
 ## See also
 
