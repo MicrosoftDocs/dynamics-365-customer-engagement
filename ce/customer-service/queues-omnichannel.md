@@ -1,18 +1,18 @@
 ---
-title: Work with queues in Omnichannel for Customer Service | MicrosoftDocs
+title: Create and manage queues for unified routing | MicrosoftDocs
 description: "This topic provides information and steps to help you learn  how you can create and manage queues in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Work with queues in Omnichannel for Customer Service
+# Create and manage queues for unified routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-In Omnichannel for Customer Service, queues are used for collecting and distributing workload among agents. Workload includes conversations, such as chat or SMS. Agents are added as members to the queues and the workload is distributed among these agents.
+In Omnichannel for Customer Service, queues are used for collecting and distributing work load among agents. Work load includes conversations, such as chat or SMS. Agents are added as members to the queues and the work load is distributed among these agents.
 
 ## How work items are routed to queues
 
