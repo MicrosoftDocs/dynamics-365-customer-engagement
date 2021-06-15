@@ -1,6 +1,6 @@
 ---
 title: "Create a user-defined event | MicrosoftDocs"
-description: "Unified Service Desk provides you with predefined events for hosted controls based on the type of the hosted control. Apart from these predefined events, you can also create your own events in Unified Service Desk, which are called user-defined events. You can use the FireEvent action or the event moniker to run user-defined events."
+description: "Learn how to create user-defined events in Unified Service Desk and how you can use the FireEvent action or the event moniker to run such events."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

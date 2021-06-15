@@ -1,6 +1,6 @@
 ---
 title: "Search data using entity searches in Unified Service Desk | MicrosoftDocs"
-description: "Entity searches are FetchXML definitions that query Microsoft Dataverse to return data. You can also use replacement parameters within the FetchXML queries in an entity search."
+description: "Learn how to search data using FetchXML definitions. Also find information about defining entity searches in Dataverse."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

@@ -1,6 +1,6 @@
 ---
-title: "Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Learn about sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0 with Dynamics 365 model-driven apps."
+title: "Softphone integration with Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Get the sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0 with Dynamics 365 model-driven apps."
 ms.date: 11/17/2020
 ms.topic: article
 author: mh-jaya
@@ -10,7 +10,7 @@ ms.custom:
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
-# Sample code for softphone integration using Dynamics 365 Channel Integration Framework version 2.0
+# Sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0
 
 [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version2) softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 2.0.
 

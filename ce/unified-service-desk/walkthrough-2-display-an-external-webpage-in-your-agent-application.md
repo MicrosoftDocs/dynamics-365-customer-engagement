@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 2  Display an external webpage in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display an external web page in Unified Service Desk."
+title: "Walkthrough 2: Display webpages and external URLs in your agent application | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying web pages and external URLs in your agent application. "
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
@@ -15,7 +15,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
 ---
-# Walkthrough 2: Display an external webpage in your agent application
+# Walkthrough 2: Display webpages and external URLs in your agent application
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -181,7 +181,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Action|ShowTab|  
     |Data|Contoso Help|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "Create an action call in Unified Service Desk")  
+    ![New Action Call page in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "New Action Call page in Unified Service Desk")  
 
 12. Click **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
 

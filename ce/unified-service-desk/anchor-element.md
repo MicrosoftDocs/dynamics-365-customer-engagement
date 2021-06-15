@@ -1,6 +1,6 @@
 ---
 title: "AnchorElement | MicrosoftDocs"
-description: "The topic explains about <AnchorElement> element which is one of the binding elements of the WebDDA."
+description: "Understand how AnchorElement works in Unified Service Desk. This topic also includes a code snippet that shows how to use the element."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

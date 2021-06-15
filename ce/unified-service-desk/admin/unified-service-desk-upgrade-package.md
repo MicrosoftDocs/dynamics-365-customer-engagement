@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk  Upgrade package | MicrosoftDocs"
-description: "Overview of the Upgrade sample application."
+title: "Unified Service Desk Upgrade package | MicrosoftDocs"
+description: "Learn about the Upgrade sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/17/2018
 ms.topic: article
 author: mh-jaya

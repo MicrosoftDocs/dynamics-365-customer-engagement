@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk - New Environment package | MicrosoftDocs"
-description: "Overview of the New Environment sample application."
+title: "Unified Service Desk&mdash;New Environment package | MicrosoftDocs"
+description: "Learn about the New Environment sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/17/2018
 ms.topic: article
 author: mh-jaya

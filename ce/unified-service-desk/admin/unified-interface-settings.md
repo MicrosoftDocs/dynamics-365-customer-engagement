@@ -1,6 +1,6 @@
 ---
 title: "Unified Interface Settings | MicrosoftDocs"
-description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
+description: "Learn how to configure Unified Interface settings in Unified Service Desk, create the Unified Interface Settings record, and add it to a configuration."
 ms.date: 06/01/2019
 ms.topic: article
 author: mh-jaya
@@ -59,7 +59,7 @@ you can add the Unified Interface Settings record to a configuration in two ways
 1. Go to the Unified Interface Setting record for which you want to attach the configuration.
 
 2. Choose **Related** > **Configuration**.<br>
-   ![Add configuration to the unified interface setting record](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the unified interface setting records")
+   ![Add configuration to the unified interface setting record in the Related tab](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the unified interface setting records in the Related tab")
 
 3. In the **Configuration** tab, select **Add Existing Configuration**.<br>
   > [!Note]

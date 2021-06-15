@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 1  Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
-description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Microsoft Dataverse."
+title: "Walkthrough 1: Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application in Unified Service Desk. "
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
