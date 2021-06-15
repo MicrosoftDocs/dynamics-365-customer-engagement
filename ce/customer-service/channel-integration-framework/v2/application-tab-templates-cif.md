@@ -1,6 +1,6 @@
 ---
-title: "Manage application tab templates in Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: "Learn about managing application tab templates in Dynamics 365 Channel Integration Framework version 2.0"
+title: "Manage application tab templates using app profile manager | MicrosoftDocs"
+description: "Learn how to manage application tab templates in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: article
 author: mh-jaya
@@ -8,7 +8,7 @@ ms.author: v-jmh
 manager: shujoshi
 ---
 
-# Manage application tab templates for applications
+# Manage application tab templates in Dynamics 365 Channel Integration Framework 2.0
 
 Application tab templates provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
@@ -22,7 +22,7 @@ For example, you can create the **Dashboard** application type and associate it 
 
 As an administrator, you can create multiple application tab templates.
 
-## Create application tab templates
+## Create or manage application tab templates
 
 To create or manage an application tab template, go to the app profile manager. For more information, see [Create application tab templates](../../../app-profile-manager/application-tab-templates.md#create-application-tab-templates) in the app profile manager documentation.
 
