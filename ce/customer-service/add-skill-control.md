@@ -31,7 +31,7 @@ To add a skill control named **Skills** to the case form:
 
 4. On the **Insert** tab, select **Section**, and then select **One Column**. Drag the section to the form.
  
-5. From the **Field Explorer**, select a field that supports a single line of text (such as **Case Title**) to add to the section you just added. Save the form.
+5. From the **Field Explorer**, select a field that supports a single line of text (such as **Case Title**) to add to the section you just created. Save the form.
 
 6. Select the field you just added, and then select **Change Properties**. 
 
