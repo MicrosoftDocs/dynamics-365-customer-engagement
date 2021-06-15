@@ -1,6 +1,6 @@
 ---
 title: "Deploy the hosted application to Unified Service Desk | MicrosoftDocs"
-description: "Learn about deploying the hosted application in Unified Service Desk."
+description: "Learn how to deploy hosted applications to Unified Service Desk, and also verify your application deployment. "
 ms.date: 12/31/2019
 ms.topic: article
 author: mh-jaya

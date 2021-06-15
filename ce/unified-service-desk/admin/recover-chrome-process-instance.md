@@ -1,6 +1,6 @@
 ---
-title: "Recover a Chrome Process instance in Unified Service Desk | MicrosoftDocs"
-description: "Learn about recovering a Chrome Process instance in Unified Service Desk"
+title: "Recover unresponsive Chrome process instances | MicrosoftDocs"
+description: "Learn how to recover Chrome process instances in Unified Service Desk. Also, know how to use keyboard shortcuts to terminate and recover such instances."
 ms.date: 04/10/2019
 ms.topic: article
 author: mh-jaya

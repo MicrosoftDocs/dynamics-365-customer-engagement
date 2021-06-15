@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 5  Display enhanced session information by displaying session name and overview data | MicrosoftDocs"
-description: "Demonstrates how to dynamically display session name and session overview information in Unified Service Desk to enhance the customer-interaction experience for your agents."
+title: "Walkthrough 5: Display session information for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying enhanced session information for Unified Interface apps."
 ms.date: 06/25/2020
 ms.topic: article
 author: mh-jaya
@@ -13,7 +13,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Walkthrough 5: Display enhanced session information by displaying session name and overview data
+# Walkthrough 5: Display enhanced session information
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: "Use HAT Software Factory to create a hosted application in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to HAT Software Factory to create a hosted application in Unified Service Desk."
+title: "Use HAT Software Factory to create hosted application projects | MicrosoftDocs"
+description: "Learn to install and use the HAT Software Factory to create hosted application projects in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

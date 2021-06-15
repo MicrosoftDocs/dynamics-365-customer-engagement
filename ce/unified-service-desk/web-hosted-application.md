@@ -1,6 +1,6 @@
 ---
-title: "Use Web Hosted Application hosting method for your controls in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the Web Hosted Application hosting methods for your controls in Unified Service Desk."
+title: "Use Web Hosted Application hosting method for your controls | MicrosoftDocs"
+description: "Learn about the Web Hosted application hosting method for hosting your controls in Unified Service Desk."
 ms.date: 12/01/2018
 ms.topic: "article"
 author: mh-jaya

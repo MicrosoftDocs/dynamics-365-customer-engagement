@@ -1,6 +1,6 @@
 ---
-title: "Help improve Unified Service Desk  | MicrosoftDocs"
-description: "Learn how you can make our app better by sending system and application information to Microsoft."
+title: "Help improve Unified Service Desk using improvement program | MicrosoftDocs"
+description: "Learn about the Unified Service Desk improvement program to help improve the service and product experience. Also, learn how to enable or disable the feature."
 ms.date: 11/06/2020
 ms.topic: article
 author: mh-jaya

@@ -1,6 +1,6 @@
 ---
 title: "Overview of Unified Service Desk Performance Analyzer | MicrosoftDocs"
-description: "Learn about the introduction and overview of Unified Service Desk Analyzer. What are the value propositions, support matrix, and download link of Unified Service Desk Performance Analyzer."
+description: "Learn about the Unified Service Desk Performance Analyzer, its advantages, and how you can download it. "
 ms.date: 10/31/2018
 ms.topic: article
 author: mh-jaya

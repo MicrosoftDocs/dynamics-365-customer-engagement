@@ -1,6 +1,6 @@
 ---
 title: "Customize themes in Unified Service Desk | MicrosoftDocs"
-description: "Themes in Unified Service Desk define the look and feel of the agent application. A theme in Unified Service Desk consists of a XAML resource library, and can be placed on any web server and referenced via URL or can be compile into .NET assemblies (dll), and distributed with the agent applications."
+description: "Learn how to use predefined and customized themes to define the look and feel of your agent application in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
 author: mh-jaya

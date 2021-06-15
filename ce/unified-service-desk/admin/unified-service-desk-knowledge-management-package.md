@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk  – Knowledge Management package | MicrosoftDocs"
-description: "Overview of the Knowledge Management sample application."
+title: "Unified Service Desk&mdash;Knowledge Management package | MicrosoftDocs"
+description: "Learn about the Knowledge Management sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
