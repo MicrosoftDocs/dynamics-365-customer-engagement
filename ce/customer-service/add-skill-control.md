@@ -1,6 +1,6 @@
 ---
-title: "Skill control for routed or custom records| MicrosoftDocs"
-description: "Learn how to add a skill control on forms to view skills of any routed or custom record."
+title: "Skill control for routed records| MicrosoftDocs"
+description: "Learn how to add a skill control on forms to view skills of any routed record."
 ms.date: 04/20/2021
 ms.topic: article
 author: mh-jaya
@@ -17,13 +17,13 @@ ms.custom:
 ms.reviewer: nenellim
 ---
 
-# Add a skill control for routed or custom records
+# Add a skill control for routed records
 
-Dynamics 365 provides an out-of-the box custom control that you can embed on any of your forms to view the skills of any routed or custom record. To be able to add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
+Dynamics 365 provides an out-of-the box custom control that you can embed on any of your forms to view the skills of any routed record. To be able to add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
 
 To add a skill control named **Skills** to the case form:
 
-1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then  select **Customize the System**. 
+1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**. 
 
 2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Forms**. 
 
