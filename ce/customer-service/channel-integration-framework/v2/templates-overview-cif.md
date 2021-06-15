@@ -1,6 +1,6 @@
 ---
-title: "Overview of templates in the Dynamics 365 Channel Integration Framework version 2.0 | Microsoft Docs"
-description: "Learn about templates in Dynamics 365 Channel Integration Framework version 2.0"
+title: "Overview of templates in Dynamics 365 Channel Integration Framework 2.0 | Microsoft Docs"
+description: "Use this topic to get an overview of the templates you can create as an administrator in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: article
 author: mh-jaya
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Overview of templates in Dynamics 365 Channel Integration Framework version 2.0
+# Overview of templates in Dynamics 365 Channel Integration Framework 2.0
 
 When you (an agent) get an incoming conversation request, Dynamics 365 Channel Integration Framework version 2.0 allows channel providers to search and open records on an incoming call. However, your organization might have different requirements and want to use different custom entities and correlate to a conversation.
 
