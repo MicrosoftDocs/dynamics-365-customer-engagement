@@ -19,12 +19,12 @@ search.app:
 
 # Sign up for a free trial
 
-Dynamics 365 Marketing offers a free 30-day trial. After a quick setup, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Marketing features](overview.md)
+Dynamics 365 Marketing offers a free 30-day trial. After a quick sign up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Marketing features](overview.md)
 
-**To start the trial**:
+**To sign up for the trial**:
 
-- Go to the [trial overview page](https://dynamics.microsoft.com/marketing/overview/) and select the **Get started** button.
-- Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
+1. Go to the [trial overview page](https://dynamics.microsoft.com/marketing/overview/) and select the **Get started** button.
+1. Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
 
 The trial takes a few moments to load, then you can start using the app.
 
