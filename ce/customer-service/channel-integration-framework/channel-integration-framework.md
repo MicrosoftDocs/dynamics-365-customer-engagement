@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Channel Integration Framework guide | Microsoft Docs"
-description: "Use this topic for getting started with Channel Integration Framework (CIF) v1.0 and v2.0. Includes download links and the Javascript reference.
+description: "Use this topic for getting started with Channel Integration Framework. Includes download links and the Javascript reference."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
