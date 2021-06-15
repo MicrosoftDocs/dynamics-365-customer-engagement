@@ -19,6 +19,12 @@ ms.service: dynamics-365-customerservice
 
 As an administrator, you can route records automatically using Power Automate. Set up a custom flow to automatically route records based on certain conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
 
+> [!Note]
+> - For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
+> - If **Route Case** is set to **Yes**, the record is routed upon creation.
+> - If **Route Case** is set to **No**, the record is not routed upon creation.
+> - By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
+
 To enable the automatic trigger of routing the records:
 
 1. Sign in to Power Automate and select the environment for which you want to update the flow.
@@ -67,7 +73,7 @@ To enable the automatic trigger of routing the records:
     > [!div class=mx-imgBorder] 
     > ![Enter custom value](media/route-trigger5.png "Specify Action name")
 -->
-9. In the **Target** field, enter the entity collection name and unique identifier of the record. Use the following format:
+9. In the **Target** field, enter the entity collection name and unique identifier of the record as follows:
 
     **Format:** `<entity collection name>(unique identifier of the entity)`
     
@@ -86,11 +92,6 @@ Now, based on the flow that is defined, whenever a record (in this example, a le
 
 You can also perform other actions in the flow, such as filtering out certain records that you don't want to route, performing data transformation, and more.
 
-> [!Note]
-> - For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
-> - If **Route Case** is set to **Yes**, the record is routed upon creation.
-> - If **Route Case** is set to **No**, the record is not routed upon creation.
-> - By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
 
 ### See also
 
