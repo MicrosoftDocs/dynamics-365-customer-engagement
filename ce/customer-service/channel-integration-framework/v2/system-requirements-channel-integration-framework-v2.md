@@ -11,7 +11,7 @@ ms.custom:
 
 # System requirements for Dynamics 365 Channel Integration Framework 2.0
 
-This topic describes the system requirements for Dynamics 365 Channel Integration Framework 2.0.
+This topic lists the system requirements for Dynamics 365 Channel Integration Framework 2.0.
 
 ## Dynamics 365
 
