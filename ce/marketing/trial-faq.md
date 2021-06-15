@@ -1,6 +1,6 @@
 ---
 title: "Trial FAQ (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Solutions to common questions related to trial setup and management."
+description: "Solutions to common questions related to Dynamics 365 Marketing trial setup and management. Learn how to resolve platform and app-specific issues."
 ms.date: 06/30/2021
 ms.service: dynamics-365-marketing
 ms.topic: article
@@ -21,7 +21,7 @@ search.app:
 
 ## How do I start using the trial?
 
-After you set up your trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) on the trial set up page.
+After you sign up for the trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) on the trial set up page.
 
 ## What features are available in the trial?
 

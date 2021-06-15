@@ -19,9 +19,9 @@ When you sign up for the trial, you'll receive an email with the trial details. 
 1. Go to trial site and select Try for free.
 1. Enter the email ID that you used, to sign up for the trial. You'll be redirected to your trial app.
 
-## How can I add more users to a trial?
+## How do I add more users to a trial?
 
-To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit.
+To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you are adding already has a Microsoft 365 account, assign them an appropriate security role in the trial org. For more information, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles.md#assign-a-security-role-to-a-user).
 
 ## How do I extend the trial?
 
@@ -37,7 +37,7 @@ The trial expires if there's no activity for 14 consecutive days. An email notif
 
 ## Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
-Yes, you can. Access the trial site for the app and sign up. You can use the same email account to sign up for different trials. However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.
+Yes, you can. To view all available trials, [visit the trial hub page](https://dynamics.microsoft.com/dynamics-365-free-trial). You can use the same email account to sign up for different trials. However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.
 
 ## Can I convert the trial to a paid license?
 
