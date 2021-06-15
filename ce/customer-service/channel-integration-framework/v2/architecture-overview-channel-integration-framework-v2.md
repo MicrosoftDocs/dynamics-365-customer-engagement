@@ -1,6 +1,6 @@
 ---
-title: "Architecture overview of Channel Integration Framework v2.0 | Microsoft Docs"
-description: "Get an overview of Channel Integration Framework v2.0 and its architecture that lets you integrate with third-party channel providers."
+title: "Architecture overview of Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Get an overview of Dynamics 365 Channel Integration Framework 2.0 and its architecture that lets you integrate with third-party channel providers."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Architecture overview of Dynamics 365 Channel Integration Framework v2.0
+# Architecture overview of Dynamics 365 Channel Integration Framework 2.0
 
 Dynamics 365 Channel Integration Framework version 2.0 provides an extensible framework to integrate third-party Computer Telephony Integration (CTI) systems to serve your customers with more focus and agility.
 

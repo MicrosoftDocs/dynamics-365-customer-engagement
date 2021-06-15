@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 Channel Integration Framework guide | Microsoft Docs"
-description: "Use this topic for getting started with Channel Integration Framework. Includes download links and the Javascript reference."
+title: "Dynamics 365 Channel Integration Framework guide | MicrosoftDocs"
+description: "Use this topic for getting started with Dynamics 365 Channel Integration Framework. Includes download links and Javascript reference."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

@@ -1,6 +1,6 @@
 ---
-title: "Add Channel Integration Framework v1.0 solution as a dependent solution| MicrosoftDocs"
-description: "Read how you can add a Channel Integration Framework v1.0 solution as a dependent solution and use its capabilities in your own solution."
+title: "Add Dynamics 365 Channel Integration Framework 1.0 solution| MicrosoftDocs"
+description: "Read how you can add a Channel Integration Framework 1.0 solution as a dependent solution and use its capabilities in your own solution."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

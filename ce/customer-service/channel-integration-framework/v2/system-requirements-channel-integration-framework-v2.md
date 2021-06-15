@@ -1,6 +1,6 @@
 ---
-title: "System requirements for Channel Integration Framework v2.0 | Microsoft Docs"
-description: "Learn about the system requirements for Dynamics 365 Channel Integration Framework v2.0 and how to get started using it."
+title: "System requirements for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about the system requirements for Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# System requirements for Dynamics 365 Channel Integration Framework v2.0
+# System requirements for Dynamics 365 Channel Integration Framework 2.0
 
 This topic describes the system requirements for Dynamics 365 Channel Integration Framework version 2.0.
 

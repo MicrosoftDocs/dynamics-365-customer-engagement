@@ -1,6 +1,6 @@
 ---
-title: "Configure channel providers in Channel Integration Framework v1.0 | Microsoft Docs"
-description: "Learn how to configure channel providers using app profile manager in Channel Integration Framework v1.0."
+title: "Configure channel providers for your Dynamics 365 organization | MicrosoftDocs"
+description: "Use this topic to understnad how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

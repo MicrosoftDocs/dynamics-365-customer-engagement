@@ -1,5 +1,5 @@
 ---
-title: "Known issues for Dynamics 365 Channel Integration Framework | Microsoft Docs"
+title: "Known issues for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Learn about known issues and workarounds for Dynamics 365 Channel Integration Framework."
 author: mh-jaya
 ms.author: v-jmh
