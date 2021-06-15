@@ -25,7 +25,7 @@ As an administrator, you can route records automatically using Power Automate. S
 > - If **Route Case** is set to **No**, the record is not routed upon creation.
 > - By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
 
-To enable the automatic trigger of routing the records:
+To enable the automatic routing of records:
 
 1. Sign in to Power Automate and select the environment for which you want to update the flow.
 
