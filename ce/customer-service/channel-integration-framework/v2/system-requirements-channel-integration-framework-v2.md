@@ -11,11 +11,11 @@ ms.custom:
 
 # System requirements for Dynamics 365 Channel Integration Framework 2.0
 
-This topic describes the system requirements for Dynamics 365 Channel Integration Framework version 2.0.
+This topic describes the system requirements for Dynamics 365 Channel Integration Framework 2.0.
 
 ## Dynamics 365
 
-Dynamics 365 (online) version 9.1 and higher versions.
+Dynamics 365 (online) version 9.1 and later.
 
 ## Omnichannel for Dynamics 365 Customer Service or Customer Service Workspace
 
