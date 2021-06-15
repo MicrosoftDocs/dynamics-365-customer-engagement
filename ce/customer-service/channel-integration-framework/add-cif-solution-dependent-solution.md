@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Add a Channel Integration Framework v1.0 solution as a dependent solution
+# Add a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](shared/token-add-cif-solution-dependent-solution.md)]
 
