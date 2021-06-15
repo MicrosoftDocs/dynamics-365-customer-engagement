@@ -9,7 +9,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Sample softphone integration using Dynamics 365 Channel Integration Framework v1.0
+# Sample softphone integration using Dynamics 365 Channel Integration Framework 1.0
 
 [Download](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/channel-integration-framework/TwilioSampleInteg_version1) the softphone integration sample for Microsoft Dynamics 365 Channel Integration Framework version 1.0.
 
