@@ -42,7 +42,7 @@ To enable the automatic trigger of routing the records:
     > [!div class=mx-imgBorder]
     > ![Select When a row is added, modified or deleted trigger](media/route-trigger2.png "Select When a row is added, modified or deleted trigger")
 -->
-5. Specify the following values for the Change type, Table name, and Scope fields.
+5. Specify the following values for the **Change type**, **Table name**, and **Scope** fields.
  
     - **Change type**: Create
  
@@ -77,18 +77,18 @@ To enable the automatic trigger of routing the records:
 
     **Format:** `<entity collection name>(unique identifier of the entity)`
     
-    **Example:** leads(Lead)
+    **Example:** emails(Email Message)
 
     > [!Note]
     > 1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`
-    > For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='lead')`.
+    > For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='email')`.
     > 2. Search for `LogicalCollectionName` to view the entity collection name for a particular entity.
-    > For example: `"LogicalCollectionName":"leads"`.
-    > Here, `leads` is the entity collection name.
+    > For example: `"LogicalCollectionName":"emails"`.
+    > Here, `emails` is the entity collection name.
 
 10. Select **Save**.
 
-Now, based on the flow that is defined, whenever a record (in this example, a lead) is created, the flow applies the **ApplyRoutingRuleRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
+Now, based on the flow that is defined, whenever a record (in this example, an email) is created, the flow applies the **ApplyRoutingRuleRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
 
 You can also perform other actions in the flow, such as filtering out certain records that you don't want to route, performing data transformation, and more.
 
