@@ -3,7 +3,7 @@ title: "Enable push notifications for the Field Service (Dynamics 365) mobile ap
 description: Learn how to enable push notifications for the Field Service (Dynamics 365) mobile app.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/08/2021
+ms.date: 06/10/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -27,10 +27,10 @@ Push notifications can be used to:
 - Notify technicians they have been assigned a booking.
 - Remind technicians to enter important business data.
 
-There are 2 ways to enable push notifications for your organization.
+There are two ways to enable push notifications for your organization.
 
-1. Enable the push notification Cloud flow that is included with Dynamics Field Service. The included push notification notifies technicians when they have been assigned a booking.
-2. Create a custom push notification based on custom triggers using the Power Automate Send Push Notification V2 connector. 
+1. Enable the push notification cloud flow included with Dynamics 365 Field Service. The included push notification notifies technicians when they have been assigned a booking.
+2. Create a custom push notification based on custom triggers using the Power Automate **Send Push Notification V2** connector. 
 
 ## Prerequisites
 
@@ -38,10 +38,10 @@ To use push notifications in the Field Service (Dynamics 365) mobile app, you'll
 
 - [Microsoft Power Automate](https://flow.microsoft.com/)
 - The Field Service (Dynamics 365) mobile app v13.20101.19+ for iOS or v3.20101.19+ Android devices. Visit the app's **About** section to check which version you have.
-- Consent for notifications in your device's settings for the Field Service (Dynamics 365) mobile app. In your mobile device settings, enable push notifications. Below is an example for iOS.
+- Consent for notifications in your device's settings for the Field Service (Dynamics 365) mobile app. In your mobile device settings, enable push notifications. See the following screenshot for an example in iOS.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-push-allow-mobile-wireframe.png)
+> ![Field Service (Dynamics 365) mobile app settings on iOS showing notification settings.](./media/mobile-2020-push-allow-mobile-wireframe.png)
 
 - Review the [privacy notes for Field Service push notifications](mobile-push-notifications-privacy.md). 
 
@@ -50,30 +50,29 @@ To use push notifications in the Field Service (Dynamics 365) mobile app, you'll
 
 ## Turn on push notifications included with Field Service
 
-Push notifications are messages delivered by apps on your phone. Dynamics 365 Field Service includes a template for push notifications for the mobile app and you can use Power Apps Notifications V2 on the Power Platform to create custom push notifications based on custom triggers. 
+Push notifications are messages delivered by apps on your phone. Dynamics 365 Field Service includes a template for push notifications for the mobile app. You can use the Power Apps **Notifications V2** on the Power Platform to create custom push notifications based on custom triggers. 
 
-Configure the following Cloud flow to send frontline workers a push notification on their mobile device when they are scheduled a work order.  
+Configure the following cloud flow to send frontline workers a push notification on their mobile device when they are scheduled a work order.  
  
-Go to [https://make.powerapps.com](https://make.powerapps.com)
+Go to [https://make.powerapps.com](https://make.powerapps.com).
 
 Make sure the Field Service environment you created in the prerequisites is chosen in the top right.
 
-Select Solutions in the left pane then go to the Default Solution.
+Select **Solutions** in the left pane, then go to the **Default Solution**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-push-connection1.png)
+> ![Power Apps on the Default Solution screen.](./media/mobile-2020-push-connection1.png)
  
-Edit the Field Service Push Notification Connection and ensure it is enabled for your environment. Use the image below for context.
+Edit the **Field Service Push Notification Connection** and make sure it's enabled for your environment.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-push-connection2.png)
+> ![Power Apps, on the "Edit Field Service Push Notifications" panel.](./media/mobile-2020-push-connection2.png)
  
-Next, edit the CDS Connection Reference and ensure it is enabled for your environment. Use the image below for context.
+Next, edit the **CDS Connection Reference** and make sure it's enabled for your environment.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/mobile-2020-push-connection3.png)
+> ![Power Apps, on the "Edit CDS Connection Reference" panel.](./media/mobile-2020-push-connection3.png)
  
-
 Back in Solutions find the Field Service solution named msdyn_FieldService_patch_update. There are multiple solutions named Field Service so make sure to choose the right one. 
 
 > [!div class="mx-imgBorder"]
