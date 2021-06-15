@@ -63,6 +63,7 @@ The following are required view columns:
 - Rating
 - Status
 - Modified On
+- Content
 
 ## Knowledge Base Search control
 
