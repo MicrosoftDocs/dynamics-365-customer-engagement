@@ -27,7 +27,6 @@ Search Path Elements
 </ButtonElement>  
   
 ```  
-  
 ## Elements of \<ButtonElement>  
  The following table describes the elements of `<ButtonElement>`  
   

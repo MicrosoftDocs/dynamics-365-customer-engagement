@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
+title: "Walkthrough 3: Display model-driven app records for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying model-driven app records for Unified Interface apps. "
 ms.date: 06/25/2020
 ms.topic: article
 author: mh-jaya

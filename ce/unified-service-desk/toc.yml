@@ -110,7 +110,7 @@
       href: admin/comply-gdpr.md
     - name: Comply Unified Service Desk data
       href: admin/comply-unified-service-desk-data-gdpr.md
-  - name: Configure auditing and diagnostics in Unified Service Desk
+  - name: Configure audit and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Distribute custom hosted controls using Customization Files
     href: admin/distribute-custom-hosted-controls-using-customization-files.md
@@ -134,7 +134,7 @@
       href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
-    - name: Migration of a Unified Service Desk configuration
+    - name: Migration Unified Service Desk configuration
       href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
     - name: Import Unified Service Desk configuration data
       href: admin/import-unified-service-desk-configuration-data.md
@@ -234,7 +234,7 @@
         href: customize-login-and-splash-screens-in-unified-service-desk.md
       - name: Customize themes in Unified Service Desk
         href: customize-themes-in-unified-service-desk.md
-    - name: Add multilanguage support for your agent applications
+    - name: Manage language support for your agent applications
       href: add-multilanguage-support-agent-applications.md
     - name: Configure Unified Service Desk to use knowledge
       href: configure-unified-service-desk-use-dynamics-365-knowledge.md

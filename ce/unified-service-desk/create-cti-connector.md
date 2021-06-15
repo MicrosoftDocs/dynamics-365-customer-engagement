@@ -1,6 +1,6 @@
 ---
 title: "Create a CTI Connector | MicrosoftDocs"
-description: "Learn about the CTI Connector component in your custom CTI adapter contains the logic to connect to and communicate with an external CTI system. CTI Connector consists of the ICtiControl interface, which includes the CtiHostedControl class containing methods and events that will be called and listened to by the CTI Desktop Manager component."
+description: "Learn how to create and define a CTI Connector component in Unified Service Desk. Also, understand how to configure a hosted control for the CTI Connector."
 ms.date: 01/25/2019
 ms.topic: article
 author: mh-jaya
