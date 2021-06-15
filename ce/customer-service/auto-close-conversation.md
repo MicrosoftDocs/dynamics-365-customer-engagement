@@ -1,6 +1,6 @@
 ---
-title: "Automatic closure of a conversation| Microsoft Docs"
-description: "Read how you can auto-close a conversation using the Web API"
+title: "Automatic closure of a conversation| MicrosoftDocs"
+description: "Use this topic to understand how to configure auto-close duration for conversations using the Web API."
 ms.date: 10/25/2019
 ms.topic: reference
 author: mh-jaya
