@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk Guide | MicrosoftDocs"
-description: "Unified Service Desk helps you configure call center agent applications that provide customer service agents with immediate and unified access to business critical customer information stored in your instance."
+description: "Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product."
 ms.date: 08/06/2018
 ms.topic: article
 author: mh-jaya

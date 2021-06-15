@@ -1,5 +1,5 @@
 ---
-title: "Use UII inspector to create bindings for the hosted application in Unified Service Desk | MicrosoftDocs"
+title: "Use UII inspector to create bindings for hosted applications | MicrosoftDocs"
 description: "Learn how to use UII inspector to create bindings for the hosted application in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article

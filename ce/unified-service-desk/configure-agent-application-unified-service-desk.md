@@ -1,6 +1,6 @@
 ---
 title: "Configure your agent application using Unified Service Desk | MicrosoftDocs"
-description: 
+description: "Learn how to use Unified Service Desk to quickly configure a highly customized agent application for your organization without using code. "
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
@@ -15,7 +15,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
 ---
-# Overview of configuring agent application
+# Configure your agent application
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

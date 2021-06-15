@@ -1,6 +1,6 @@
 ---
-title: "Reuse Entity Search definition in your custom code for Unified Service Desk | MicrosoftDocs"
-description: "Replacement parameters can be used throughout the application to pull data from data elements (called data parameters) captured during the execution of the application that augment and include the Unified Service Desk context."
+title: "Reuse entity search definition in your custom code | MicrosoftDocs"
+description: "Find information about reusing entity search definitions in your custom code using the EntitySearchRequest message."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

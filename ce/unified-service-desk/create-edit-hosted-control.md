@@ -1,6 +1,6 @@
 ---
 title: "Create or edit a hosted control | MicrosoftDocs"
-description: "Learn about creating or editing an existing hosted control."
+description: "Understand how to create and edit existing hosted controls using Unified Service Desk Administrator."
 ms.date: 12/31/2019
 ms.topic: article
 author: mh-jaya
@@ -28,7 +28,7 @@ You create or edit an existing hosted control using the Unified Service Desk Adm
   
    1.  To create a hosted control, select **New**.  
   
-   2.  To edit a hosted control, either select on the hosted control name in the **Name** column, or select the hosted control record in the list, and then select **Edit**.  
+   2.  To edit a hosted control, either select the hosted control name in the **Name** column, or select the hosted control record in the list, and then select **Edit**.  
   
 4. Depending on what you selected, a new hosted control page or the existing hosted control page is displayed.  
   
@@ -44,7 +44,7 @@ You create or edit an existing hosted control using the Unified Service Desk Adm
   
 6. Under the **Unified Service Desk** area, select a hosted control type from the **USD Component Type** list. The fields in the **New Hosted Control** page change based on the type of hosted control you select. For information about the various types of hosted control and the respective fields, see [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md).  
   
-7. select **Save** to create or update the hosted control.  
+7. Select **Save** to create or update the hosted control.  
   
    After you have created a new hosted control, you can view, add, or remove actions and events to the hosted control.  
   

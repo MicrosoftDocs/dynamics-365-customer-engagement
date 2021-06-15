@@ -95,7 +95,7 @@ A control needs to be uniquely identified by specifying some property condition 
   
         -   `System.Windows.Automation.ControlType`  
   
-### See also  
+### See also
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
 
