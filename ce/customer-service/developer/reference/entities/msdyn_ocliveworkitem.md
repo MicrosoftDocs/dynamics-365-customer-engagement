@@ -1,18 +1,13 @@
 ---
-title: "msdyn_ocliveworkitem table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
+title: "msdyn_ocliveworkitem Entity reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitem table/entity."
-ms.date: 06/16/2021
-ms.service: "powerapps"
+ms.date: 09/14/2020
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
-search.audienceType: 
-  - developer
-search.app: 
-  - PowerApps
-  - D365CE
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
+applies_to: 
+  - "Dynamics 365 (online)"
 ---
 # msdyn_ocliveworkitem table/entity reference
 
