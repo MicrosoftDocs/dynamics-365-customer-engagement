@@ -144,7 +144,7 @@ Lastly, as discussed in the [requirement groups topic](../../field-service/multi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the requirement group settings, showing different resource options](../../field-service/media/scheduling-quick-book-rg-option.png)
 
-To use requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section of the requirement groups topic. Additionally, you can use requirement groups for customer service scenarios. Visit the [customer service scheduling topic](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/basics-service-service-scheduling) to learn more.
+To use requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section of the requirement groups topic. Additionally, you can use requirement groups for customer service scenarios. Visit the [customer service scheduling topic](/dynamics365/customer-engagement/customer-service/basics-service-service-scheduling) to learn more.
 
 ## Configuration considerations
 
