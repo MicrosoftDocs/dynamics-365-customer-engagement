@@ -22,7 +22,7 @@ searchScope:
 
 # Deal manager 
 
-Deal manager is a dedicated workspace for sellers that can be personalized and customized depending on what sellers want to see in their workspace. As a seller,organize the opportunities in a way that makes sense to you, update information, and collaborate with others, all from a unified interface called Deal manager.
+Deal manager is a dedicated workspace for sellers that can be personalized and customized depending on what sellers want to see in their workspace. As a seller, organize the opportunities in a way that makes sense to you, update information, and collaborate with others, all from a unified interface called Deal manager.
 <!--screenshot of DM-->
 
 ## Access deal manager workspace
@@ -37,3 +37,5 @@ To access the deal manager workspace, select **Deal manager (preview)** in the S
 :::image type="content" source="media/deal-manager.PNG" alt-text="Screenshot of the Deal manager workspace, with the menu highlighted in the sitemap ":::
 
 
+## See also
+- Grant access to deal manager
