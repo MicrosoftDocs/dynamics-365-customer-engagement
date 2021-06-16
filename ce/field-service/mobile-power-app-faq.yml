@@ -25,7 +25,7 @@ sections:
   - name: Ignored
     questions: 
       
-      - question: |
+      - Name: |
           Mobile calendar and agenda view     
      
       - question: |
@@ -41,16 +41,9 @@ sections:
         answer: |
           Currently, customizations for the default booking calendar control are not supported.
 
-      - question: |
-          Other
-          
-      - question: |
-          Can I connect Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
-        answer: |
-          Not at this time. Support for non-public clouds will be added to Field Service mobile in the near future.
-
+  
       
-      - question: |
+      - Name: |
           Maps and locations
       
       - question: |
@@ -72,7 +65,7 @@ sections:
         answer: |
           Currently, the **Get Directions** map button will only trigger the default map provider of the device and is currently not configurable.
       
-      - question: |
+      - Name: |
           Offline 
 
       - question: |
@@ -91,10 +84,10 @@ sections:
           
           [!INCLUDE[footer-include](../includes/footer-banner.md)]          
        
-       - question: |
+       - Name: |
           Sign in 
 
-          - question: |
+        - question: |
           What do the "Reconfigure" and "Sign out" options do?
         answer: |
           **Sign Out**: User signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile application data that had previously been synced to the device. 
@@ -132,9 +125,14 @@ sections:
           2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service Mobile app.
           3. Sign in again, pull down the screen to refresh and wait for at least a few minutes.
           4. If completing steps 1 and 2 does not resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
-
+      
       - question: |
-          Entities, forms, views, and fields 
+          Can External Users access the Field Service (Dynamics 365) mobile app?
+        answer: |
+          Currently, external users cannot access the Field Service (Dynamics 365) mobile app.
+
+    - Name: |
+        Entities, forms, views, and fields 
 
       - question: |
           How many columns or "fields" can be added to an entity view on the mobile app?
@@ -158,4 +156,11 @@ sections:
           If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
           
           To solve this issue, make sure the user you're signed into the mobile app as has the **Field Service - Resource** security role. Also make sure that the right form (the mobile optimized booking and work order form) is associated with the booking entity in the app designer.
+    
+    - Name: |
+          Other
           
+      - question: |
+          Can I connect Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
+        answer: |
+          Not at this time. Support for non-public clouds will be added to Field Service mobile in the near future.
