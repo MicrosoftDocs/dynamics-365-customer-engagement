@@ -49,4 +49,4 @@ For the list of geographical regions supported in Omnichannel for Customer Servi
 
 For the list of languages supported in Customer Service, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
 
-For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language availability).
+For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
