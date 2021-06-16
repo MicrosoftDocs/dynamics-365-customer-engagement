@@ -1,16 +1,15 @@
 ---  
-title: "Trial FAQs for Customer Service |MicrosoftDocs"
+title: "Trial FAQ for Customer Service | MicrosoftDocs"
 description: "Know the answers to your frequently asked questions on the free trial of Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/04/2021
+ms.date: 06/30/2021
 ms.topic: get-started
-ms.service: dynamics-365-customerservice
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
 
-# Trial FAQs
+# Trial FAQ
 
 This topic answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
@@ -40,14 +39,14 @@ Your trial environment has been curated to provide you with a fully functional a
 
 Sample data comes with the trial environment and experience. To get a fresh dataset, you must wait for your trial to expire and start a new trial.
 
-### Which languages are supported in the trial version of Customer Service and Omnichannel for Customer Service?
-
-For the list of languages supported in Customer Service, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
-
-For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language availability).
-
 ### Which geographical regions are supported in the trial version of Customer Service and Omnichannel for Customer Service?
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
 For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md).
+
+### Which languages are supported in the trial version of Customer Service and Omnichannel for Customer Service?
+
+For the list of languages supported in Customer Service, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
+
+For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language availability).
