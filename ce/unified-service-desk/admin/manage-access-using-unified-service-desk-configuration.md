@@ -1,6 +1,6 @@
 ---
-title: "Manage access using Unified Service Desk  configuration | MicrosoftDocs"
-description: "Learn to control how agents use Unified Service Desk  by using configuration."
+title: "Use Unified Service Desk configuration to manage access | MicrosoftDocs"
+description: "Learn how to create configurations to manage agent access to components without having to manage their security roles."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
@@ -71,7 +71,7 @@ tags: MigrationHO
     |---------------------------------------|--------------------------------------------------|
     | Hosted Controls, Events and Actions | <ul> <li>Hosted Controls</li> <li>Events</li> <li>Actions</li> </ul> |
     | Toolbars, Window Navigation Rules and Entity Searches | <ul> <li>Toolbars</li> <li>Window Navigation Rules</li> <li>Entity Searches</li> </ul> |
-    | Session Lines, Agent Scripts and Scriplets | <ul> <li>Session Lines</li> <li>Agent Scripts</li> <li>Scriplets</li> </ul> |
+    | Session Lines, Agent Scripts and Scriptlets | <ul> <li>Session Lines</li> <li>Agent Scripts</li> <li>Scriptlets</li> </ul> |
     | Other Entities | <ul> <li>Customization Files</li> <li>Forms</li> <li>Options</li> </ul> |
   
 9. Select a tab. For example, **Hosted Controls, Events and Actions**.

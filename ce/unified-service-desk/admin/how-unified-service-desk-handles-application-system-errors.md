@@ -1,6 +1,6 @@
 ---
-title: "How Unified Service Desk  handles application and system errors | MicrosoftDocs"
-description: "Understand how application and system faults are managed in Unifed Service Desk."
+title: "How Unified Service Desk handles application and system errors | MicrosoftDocs"
+description: "Learn about the types of exceptions and also understand how application and system faults are managed in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

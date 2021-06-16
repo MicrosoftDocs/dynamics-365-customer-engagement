@@ -28,45 +28,62 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.43.51](https://docs.microsoft.com/dynamics365/field-service/version-history#884231) |TBD | 06/18/2021
+| | <i>First Release</i> | [8.8.43.51](/dynamics365/field-service/version-history#884231) |TBD | 06/18/2021
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
-| | <i>Canada</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
-| | <i>India</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
-| | <i>France</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
-| | <i>United Arab Emirates</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
-| | <i>South Africa</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
-| | <i>Germany</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
-| | <i>Switzerland</i> | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>South America</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>Canada</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>India</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>France</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>United Arab Emirates</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>South Africa</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>Germany</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
+| | <i>Switzerland</i> | [8.8.43.77](/dynamics365/field-service/version-history#884377) |TBD | 06/25/2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
-| | <i>Asia Pacific</i> | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
-| | <i>Great Britain</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
-| | <i>Oceana</i> |  [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | [8.8.43.77](https://docs.microsoft.com/dynamics365/field-service/version-history#884377)  | 06/11/2021
+| | <i>Japan</i> |   [8.8.43.93](/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
+| | <i>Asia Pacific</i> | [8.8.43.93](/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
+| | <i>Great Britain</i> | [8.8.43.93](/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
+| | <i>Oceania</i> |  [8.8.43.93](/dynamics365/field-service/version-history#884393)| TBD  | 07/02/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.41.53](https://docs.microsoft.com/dynamics365/field-service/version-history#884153) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255)  | 06/04/2021
+| | <i>Europe</i> | [8.8.42.64](/dynamics365/field-service/version-history#884264) | [8.8.43.93](/dynamics365/field-service/version-history#884393)  | 06/18/2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255)  | 06/11/2021
+| | <i>North America</i> | [8.8.42.64](/dynamics365/field-service/version-history#884264) | [8.8.43.93](/dynamics365/field-service/version-history#884393)  | 06/25/2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | 06/09/2021
-| | <i>China</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158) | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255)  |  06/09/2021
-| | <i>Dedicated Scale Groups</i> | [8.8.41.58](https://docs.microsoft.com/dynamics365/field-service/version-history#884158)  | [8.8.42.55](https://docs.microsoft.com/dynamics365/field-service/version-history#884255) | 06/18/2021
+| | <i>Government Community Cloud</i> | [8.8.42.64](/dynamics365/field-service/version-history#884264) | [8.8.43.93](/dynamics365/field-service/version-history#884393)  |  06/23/2021
+| | <i>China</i> | [8.8.42.64](/dynamics365/field-service/version-history#884264) | [8.8.43.93](/dynamics365/field-service/version-history#884393)  |  06/23/2021
+| | <i>Dedicated Scale Groups</i> | [8.8.41.58](/dynamics365/field-service/version-history#884158)  | [8.8.42.64](/dynamics365/field-service/version-history#884264) | 06/18/2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.43.93
+
+This release is a hotfix on Field Service version [8.8.43.77](#884351).
+
+-	Fixed a bug that removed the work hours tab from the resource form.
+
 ## 8.8.43.77
 
 This release is a hotfix on Field Service version [8.8.43.51](#884351).
 
--	Check back soon for a full list of updates.
+- Fixed some performance issues.
 
 ## 8.8.43.51 
 
-(Includes Universal Resource Scheduling version [3.12.46.21](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124621))
+(Includes Universal Resource Scheduling version [3.12.46.21](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124621))
 
--	Check back soon for a full list of updates.
+- Fixed an issue where work order product, work order service, or work order service task were getting created for inactive incident type product, service ask and service task respectively through agreements.
+-	Fixed an issue for invoices auto generated from work order that invoice date is sometimes updated to one day more or less than the actual date. A new advanced setting `Workorder.InvoiceDate.InUserTimeZone=true` has been added, which can be set to fix the issue. 
+-	Corrected an issue in the case a custom real-time workflow is specified on work order after create to update any of the primary requirement fields. For example, priority where the requirement failed to reflect the changes.
+-	Fixed an issue where time-off request gets created incorrectly when the record is created from the portal and also incorrectly reflects in the schedule board.
+
+
+## 8.8.42.64 
+
+This release is a hotfix on Field Service version [8.8.42.55](#884231).
+
+-	Fixed some performance issues.
+-	Fixed a bug that removed the work hours tab from the resource form.
 
 ## 8.8.42.55 
 
@@ -76,9 +93,13 @@ This release is a hotfix on Field Service version [8.8.42.31](#884231).
 
 ## 8.8.42.31 
 
-(Includes Universal Resource Scheduling version [3.12.45.7](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#312457))
+(Includes Universal Resource Scheduling version [3.12.45.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#312457))
 
--	Check back soon for a full list of updates.
+-	Frontline workers can view bookings in a map view as well in the new mobile app.
+-	Fixed an accessibility issue with assets where the **More** button shown as triple dots was getting skipped from tabbing.
+-	Corrected an issue of `OnSave` event handlers being removed from case form on Field Service installation.  
+-	Corrected behavior to not throw an error when the field `address1_line1` is not present in the form.
+
 
 ## 8.8.41.58 
 
@@ -94,7 +115,7 @@ This release is a hotfix on Field Service version [8.8.41.28](#884128).
 
 ## 8.8.41.28 
 
-(Includes Universal Resource Scheduling version [3.12.44.127](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#31244127))
+(Includes Universal Resource Scheduling version [3.12.44.127](/dynamics365/field-service/field-service-version-history-resource-scheduling#31244127))
 -	Fixed an issue in business process flow being available on a copied agreement.
 -	Corrected an issue with work order product where estimate total cost was not getting updated when quantity was changed.
 -	Fixed an issue in Field service settings **Inspections** tab where update of "Analytics enabled" and form save was failing.
@@ -116,7 +137,7 @@ This release is a hotfix on Field Service version [8.8.41.28](#884128).
 
 
 ## 8.8.40.141 
-This release is a hotfix on Field Service version [8.8.40.109](https://docs.microsoft.com/dynamics365/field-service/version-history#8840109).
+This release is a hotfix on Field Service version [8.8.40.109](/dynamics365/field-service/version-history#8840109).
 
 -	Fixed a Field Service upgrade issue when the relationship between knowledge article and customer asset/product already existed in the active layer.
 -	Fixed a Field Service upgrade issue that was throwing error like ‘Property Inspection is required, but the declaration is missing’
@@ -124,7 +145,7 @@ This release is a hotfix on Field Service version [8.8.40.109](https://docs.micr
 
 ## 8.8.40.109 
 
-(Includes Universal Resource Scheduling version [3.12.43.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124371))
+(Includes Universal Resource Scheduling version [3.12.43.71](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124371))
 This version introduces the Field Service 2021 Wave 1 new and updated features outlined as generally available. It also introduces all of the changes from the early access versions of this release. 
 
 This version also introduces the following key capabilities:
@@ -148,14 +169,14 @@ This release is a hotfix on Field Service version [8.8.35.27](#883527).
 -	Reverted the below change: "Updated behavior where estimated duration from agreement booking setup was not carried over to work order. Previously, duration from the resource requirement was not being used to calculate total estimated duration in the work order. This behavior has been updated; if no work order service task or incident is present, total estimated duration is obtained from the Requirement. If requirement duration is null, then we get value from booking setup metadata." 
 
 ## 8.8.39.142 (2021 Wave 1 early access update)
-This release is a hotfix on Field Service version [8.8.39.135](https://docs.microsoft.com/dynamics365/field-service/version-history#8839135).
+This release is a hotfix on Field Service version [8.8.39.135](/dynamics365/field-service/version-history#8839135).
 
 -	Fixed a Field Service upgrade issue when the relationship between knowledge article and customer asset or product already existed in the active layer.
 -	Fixed a Field Service upgrade issue that was throwing error: "Property Inspection is required, but the declaration is missing."
 
 ## 8.8.39.135 (2021 Wave 1 early access update)
 
-(Includes Universal Resource Scheduling version [3.12.43.71](https://docs.microsoft.com/dynamics365/field-service/field-service-version-history-resource-scheduling#3124371))
+(Includes Universal Resource Scheduling version [3.12.43.71](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124371))
 This version introduces the Field Service 2021 Wave 1 new and updated features outlined as generally available. It also introduces all of the changes from the early access versions of this release. 
 
 This version also introduces the following key capabilities:

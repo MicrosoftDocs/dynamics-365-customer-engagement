@@ -1,6 +1,6 @@
 ---
-title: "AccControl Tag | MicrosoftDocs"
-description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility (MSAA)."
+title: "AccControl tag | MicrosoftDocs"
+description: "Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
@@ -15,7 +15,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
 ---
-# AccControl Tag
+# AccControl tag
 The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/accessibility.iaccessible\(v=vs.110\).aspx) interface from Microsoft Active Accessibility (MSAA). The AccControl tag has:  
   
 - `Name` property to define the user-accessible (friendly) name for a control.  
@@ -37,7 +37,7 @@ The `AccControl` tag uses the [IAccessible](https://msdn.microsoft.com/library/a
 ```  
   
 > [!NOTE]
->  Some elements in the `Path` tag have a `<match>` attribute that you can use to add a counter to the search description. Both the following examples return the same search result, but the first example implements the `<match>` tag:  
+> Some elements in the `Path` tag have a `<match>` attribute that you can use to add a counter to the search description. Both the following examples return the same search result, but the first example implements the `<match>` tag:  
 > 
 > - **Example 1**  
 > 

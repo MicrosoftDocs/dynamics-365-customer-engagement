@@ -1,6 +1,6 @@
 ---
 title: "Release history (Unified Service Desk )| MicrosoftDocs"
-description: "This topic provides release history information for the Unified Service Desk Guide."
+description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
 ms.date: 04/05/2021
 ms.topic: article
 author: mh-jaya

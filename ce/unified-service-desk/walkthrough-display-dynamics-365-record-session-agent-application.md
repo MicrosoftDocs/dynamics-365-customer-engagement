@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
+title: "Walkthrough 4: Display session records in your agent applications | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in your agent applications."
 ms.date: 11/12/2019
 ms.topic: article
 author: mh-jaya

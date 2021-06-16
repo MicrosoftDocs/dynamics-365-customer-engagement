@@ -1,8 +1,6 @@
 ---
-title: "Pass Dynamics 365 URL to widget library| Microsoft Docs"
-description: "Read how you can pass the URL of your Dynamics 365 instance to the widget library inside your widget iframe to be able to use CIF's APIs."
-ms.date: 03/05/2021
-ms.topic: get-started-article
+title: "Pass a Dynamics 365 URL to your widget library | MicrosoftDocs"
+description: "Read how you can pass the URL of your Dynamics 365 instance to the widget library inside your widget iframe to be able to use Dynamics 365 Channel Integration Framework 1.0 APIs."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -11,7 +9,7 @@ ms.custom:
   - dyn365-developer
 ---
 
-# Pass a Dynamics 365 URL to a widget library
+# Pass a Dynamics 365 URL to a widget library in Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-pass-url-widget-library](shared/token-pass-url-widget-library.md)]
 

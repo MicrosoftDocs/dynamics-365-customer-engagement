@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough  Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
-description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
+title: "Walkthrough: Create a UII Web Application Adapter in Unified Service Desk | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with web applications in Unified Service Desk."
 ms.date: 01/25/2019
 ms.topic: article
 author: mh-jaya

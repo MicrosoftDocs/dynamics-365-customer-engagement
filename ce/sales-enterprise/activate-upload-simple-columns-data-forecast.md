@@ -1,6 +1,6 @@
 ---
-title: "Activate and upload simple columns data for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Activate and upload simple columns data for a forecast in Dynamics 365 Sales."
+title: "Activate and upload data for a forecast - Sales Enterprise | MicrosoftDocs"
+description: "Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast."
 ms.date: 10/26/2020
 ms.topic: article
 author: udaykirang

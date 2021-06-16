@@ -1,6 +1,6 @@
 ---
-title: "Behavior differences in the Chrome Process and IE Process hosting types  | MicrosoftDocs"
-description: "Learn about the behavior differences in the Chrome Process and IE Process hosting types."
+title: "Behavior differences between the Chrome Process and IE Process | MicrosoftDocs"
+description: "Learn about the behavior differences in the Chrome and IE Process hosting types when you download and view file attachments."
 ms.date: 07/15/2019
 ms.topic: "article"
 author: mh-jaya
