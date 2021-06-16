@@ -1,20 +1,19 @@
 ---
 title: "Session Lines (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about Session Lines type of hosted control in Unified Service Desk."
+description: "Learn to create the Session Lines hosted control. Also find information about the predefined UII actions supported by it."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Session Lines (Hosted Control)
 Use **Session Lines** type of hosted control to configure session overview information for sessions in your agent application. This hosted control reads the overview information that you configure in your agent application using **Session Lines** (**Settings** > **Unified Service Desk** > **Session Lines**), and an instance of this hosted control type must be available in your agent application for the session overview information to be displayed. For more information about session overview, see [Session overview](../unified-service-desk/session-management-unified-service-desk.md#SessionOverview) and [Define session overview information](../unified-service-desk/configure-session-information.md#SessionOverview).  

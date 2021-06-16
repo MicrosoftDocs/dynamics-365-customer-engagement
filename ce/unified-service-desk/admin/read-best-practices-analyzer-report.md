@@ -1,12 +1,11 @@
 ---
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
-description: "Learn about how to read Best Practices Analyzer report."
+description: "Use this topic to understand the layout of the Best Practices Analyzer report and analyze the results of the report."
+ms.date: 05/15/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/15/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 

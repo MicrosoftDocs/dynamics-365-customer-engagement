@@ -1,8 +1,7 @@
 ---
-title: "Define lead qualification experience (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Give your salespeople the flexibility to choose which records to create on lead qualification in Dynamics 365 Sales."
+title: "Define lead qualification experience - Sales Enterprise | MicrosoftDocs"
+description: "Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified."
 ms.date: 02/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,7 +15,7 @@ searchScope:
   - Sales
 ---
 
-# Define lead qualification experience
+# Define the lead qualification experience 
 
 Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
 

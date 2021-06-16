@@ -1,15 +1,14 @@
 ---
-title: "Manage notification templates in Dynamics 365 Channel Integration Framework version 2.0| MicrosoftDocs"
-description: "Learn about managing notification templates in Dynamics 365 Channel Integration Framework version 2.0"
+title: "Manage notification templates using app profile manager | MicrosoftDocs"
+description: "Learn how to manage notification templates in Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 04/05/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
-# Manage notification templates
+# Manage notification templates in Dynamics 365 Channel Integration Framework 2.0
 
 ## Overview
 

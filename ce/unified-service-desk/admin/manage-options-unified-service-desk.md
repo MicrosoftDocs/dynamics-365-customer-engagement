@@ -1,27 +1,26 @@
 ---
-title: "Manage options for Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to change the global settings in Unified Service Desk."
+title: "Options for Unified Service Desk | MicrosoftDocs"
+description: "Learn how to use the Options setting to manage global name or value pairs used by Unified Service Desk components."
+ms.date: 02/15/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/15/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Options for Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] (**Settings** > **Unified Service Desk** > **Options**) to manage global name/value pairs that are used by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components.  
+Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] (**Settings** > **Unified Service Desk** > **Options**) to manage global name or value pairs that are used by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components.  
 
 **To manage [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] options**
 

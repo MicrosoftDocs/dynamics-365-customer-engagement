@@ -1,5 +1,5 @@
 ---
-title: "Make grids (lists) editable by using the editable grid custom control | MicrosoftDocs"
+title: "Make grids (lists) editable by using the editable grid custom control with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to use the editable grid custom control"
 ms.custom: 
 ms.date: 04/10/2020

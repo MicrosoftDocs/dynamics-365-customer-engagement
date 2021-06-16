@@ -1,20 +1,19 @@
 ---
 title: "Configure session information | MicrosoftDocs"
-description: "Learn about configuring session information."
+description: "Learn how to configure the format of the session tab name and session overview information by creating appropriate session line rules."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Configure session information
 

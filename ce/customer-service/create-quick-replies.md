@@ -1,12 +1,9 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
-description: "Instructions to set up quick replies in Omnichannel for Customer Service."
+description: "This topic provides the steps you can perform to set up quick replies in Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create quick replies
@@ -40,8 +37,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | {FirstName{Agent}}| The first name of the agent.|
     | {LastName{Agent}}| The last name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
-
-      For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
+    |||
 
 5. Select **Save**.
 

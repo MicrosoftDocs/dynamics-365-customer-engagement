@@ -1,9 +1,9 @@
 ---
-title: Administrators learning catalog 
-description: Find all the training options for administrators. 
-author: loreleishannonmsft
-ms.topic: article
+title: Administrators learning catalog
+description: Find all the training options for administrators.
 ms.date: 01/08/2020
+ms.topic: article
+author: loreleishannonmsft
 ms.author: v-lshann
 ---
 

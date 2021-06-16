@@ -1,17 +1,19 @@
 ---
 title: "Create queues in Omnichannel Administration | MicrosoftDocs"
 description: "See how you can create and manage queues in Omnichannel Administration"
+ms.date: 05/24/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Create queues in the Omnichannel Administration app
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Introduction
 
@@ -29,8 +31,6 @@ To simplify the routing experience for administrators and supervisors, queues ar
 - **Entity records**: To route cases pertaining to entity records.
 
 The queue types help ensure that issues will be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that will be available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging-type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue and a case to an entity queue.
-
-You can assign priority to queues. A lower value indicates higher priority, and a higher value indicates lower priority. All conversations in a queue take the priority that is defined for the queue; higher priority conversations are allocated first. For example, if two chat conversations are waiting in two queues that have priority defined as 1 and 2 respectively, the chat conversation with priority value 1 will be allocated to an agent first.
 
 ## Create queues in Omnichannel Administration
 
@@ -74,7 +74,7 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 ### See also
 
 [Create workstreams in Omnichannel Administration](create-workstreams-oca.md)  
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
+[Understand routing and work distribution](unified-routing-work-distribution.md)  
 [Create and manage operating hours](create-operating-hours.md)  
 
 

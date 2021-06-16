@@ -1,12 +1,11 @@
 ---
 title: "Create agent and supervisor configurations in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to create and manage agent and supervisor configurations in Unified Service Desk."
+description: "Perform the steps mentioned in the topic to create and manage agent and supervisor configurations in Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Create agent and supervisor configurations in Unified Service Desk

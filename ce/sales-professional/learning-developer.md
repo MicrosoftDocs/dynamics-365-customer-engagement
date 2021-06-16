@@ -1,9 +1,9 @@
 ---
-title: Developers learning catalog 
-description: Find all the training options for developers. 
-author: loreleishannonmsft
-ms.topic: article
+title: Developers learning catalog
+description: Find all the training options for developers.
 ms.date: 01/08/2020
+ms.topic: article
+author: loreleishannonmsft
 ms.author: v-lshann
 ---
 

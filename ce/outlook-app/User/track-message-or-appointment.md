@@ -1,8 +1,8 @@
 ---
-title: "Use set regarding to link an email message or meeting to a row (Dynamics 365 apps) | MicrosoftDocs"
+title: "Link and track an email or appointment to a specific row in your app (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Use set regarding in Dynamics 365 App for Outlook to link an email message or meeting to a specific row in your Dynamics 365 app.
-ms.date: 03/18/2021
+ms.date: 05/20/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,9 @@ search.app:
   - D365Outlook
 ---
 
-# Use set regarding to link an email message or appointment to a row 
+# Link and track an email or appointment to a specific row in your app
 
-Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email message or appointment to a specific row in your app. You can link an email message or appointment to a specific account, opportunity, or case row. This populates the regarding lookup for the email or appointment and tracks it in Dynamics 365.
+Use **Set Regarding** in Dynamics 365 App for Outlook to associate an email message or appointment to a specific row in your app. When you link an email message or appointment to a specific account, opportunity, or case row and the system populates the regarding lookup for the email or appointment and tracks it in your app.
 
 
 ## Link an email message or appointment
@@ -37,9 +37,18 @@ Use **Set Regarding** in Dynamics 365 app for Outlook to associate an email mess
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
 
-5. In the **Set Regarding** textbox, type in your search text and select the row to associate the email or appointment with.
+3. In the **Set Regarding** textbox, type in your search text and select the row to associate the email or appointment with.
 
-   ![Set Regarding](../media/set-regarding.gif)
+    > [!div class="mx-imgBorder"] 
+    > ![Set Regarding](../media/set-regarding.gif)
+    
+    > [!NOTE]
+    > For information on how to use search to look for a row, see [Use the lookup column on a row](/powerapps/user/lookup-field.md).
+   
+4. When the item is successfully tracked and linked to the selected row, you'll see a **Tracked regarding** message.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Item tracked successfully](../media/track-success.png) 
 
 ## View a linked email or appointment in your app
 
@@ -53,7 +62,7 @@ You can easily open your app and see the meeting or appointment that you've link
 
 You can change the row an email or appointment is linked to using the **Change Regarding** feature.
 
-1. Open the email or appointment which you want to link to a different row.
+1. Open the email or appointment that you want to link to a different row.
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
@@ -80,3 +89,7 @@ You can change the row an email or appointment is linked to using the **Change R
   > [!div class="mx-imgBorder"] 
   > ![Untrack a email or appointment](../media/untrack-item.png)  
 
+
+## Track all email in a folder
+
+For more information, see [Configure Outlook or Exchange folder-level tracking](/power-platform/admin/configure-outlook-exchange-folder-level-tracking).

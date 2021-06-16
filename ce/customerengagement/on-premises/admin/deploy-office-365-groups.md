@@ -1,5 +1,6 @@
 ---
 title: "Deploy Office 365 Groups with Dynamics 365 for Customer Engagement| MicrosoftDocs"
+description: "Deploy Office 365 Groups  with Dynamics 365 for Customer Engagement apps, providing a new environment for collaboration."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

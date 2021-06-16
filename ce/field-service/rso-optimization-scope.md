@@ -22,7 +22,7 @@ You can define what Resource Scheduling Optimization optimizes, including resour
 Scope is the Resource Scheduling Optimization mechanism for defining the relevant inputs: resource requirements, resources, and existing resource bookings. It also includes the timeframes to be considered for optimization. Extensible scope leverages Dynamics 365 entity views, providing an easy and flexible way to define what to optimize (resource requirements, resources, and existing resource bookings).
 
 > [!IMPORTANT]
-> Scopes should be as small as possible. Resource scheduling optimization will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for Resource Scheduling Optimization; for instance: 
+> Scopes should be as small as possible. Resource Scheduling Optimization will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for Resource Scheduling Optimization; for instance: 
 > - Temporally defined: optimize technicians who work in the day separately from
     those who work at night.
 > - Geographically defined: neighborhoods, cities.
@@ -38,7 +38,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
     the filter conditions shown in the following screenshot. This is equivalent
     to configuring WA territory as an optimization scope in the previous version
     of Resource Scheduling Optimization. Users can apply more filter conditions as needed to specify
-    resources they need to optimize. Resource scheduling optimization will respect the Optimize Scheduling
+    resources they need to optimize. Resource Scheduling Optimization will respect the Optimize Scheduling
     setting on individual resource records on top of the resource view filters.
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a list of resources](media/4b4f1beede0d89f940677b7df65f80c8.png)
@@ -67,7 +67,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    **Example 1:** You want to have a booking created or moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of optimization range settings](media/62ab888c08dfc0bdd81587535de73d5d.png)
+   > ![Screenshot of optimization range settings_1](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
    - **Range Reference**: The start moment for all subsequent work order range
      calculation (Job current time or Beginning of the Job’s current day).
@@ -81,7 +81,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    **Example 2**: You want to have a booking created/moved into the next two days.
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of optimization range settings](media/6a06b7a1a69c2f493686442af5e44520.png)
+   > ![Screenshot of optimization range settings_2](media/6a06b7a1a69c2f493686442af5e44520.png)
    > [!div class="mx-imgBorder"]
    > ![Image showing range offset and duration](media/5d265da65e27891ebab3319627e9a3fa.png)
 
@@ -93,7 +93,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
 
    - Resource filters on the schedule board are prepopulated from the
         Resource View. The resource list matches the number of resources defined
-        in the Resource View. Resource scheduling optimization will display a lock icon and tooltip to
+        in the Resource View. Resource Scheduling Optimization will display a lock icon and tooltip to
         indicate if a resource is not enabled for optimization (even though it
         was added into Resource View).
    - Requirements under Eligible for Optimization match the records from the

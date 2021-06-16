@@ -1,5 +1,6 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
+description: "Share business objects and collaborate with other people across business units."
 ms.custom: 
 ms.date: 01/10/2020
 ms.reviewer: 
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: 5355ef54-ce27-4383-bf21-1419c71f4cc4
 caps.latest.revision: 29
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Manage teams
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Using teams in Dynamics 365 Customer Engagement (on-premises) is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   

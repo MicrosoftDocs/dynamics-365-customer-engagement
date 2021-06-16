@@ -1,12 +1,11 @@
 ---
 title: "Migrate workstreams | MicrosoftDocs"
 description: "Use the migration tool to migrate workstreams to enable them for unified routing"
+ms.date: 05/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/13/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Migrate workstreams created in Omnichannel Administration
@@ -39,6 +38,7 @@ In Omnichannel for Customer Service, the existing workstreams for routing record
 [Overview of unified routing](overview-unified-routing.md)  
 [Routing and assignment rules](routing-workstream-queues.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
+[Set up record routing](set-up-record-routing.md)  
 [Get started with Omnichannel admin center](oc-admin-center.md)  
 [FAQs on unified routing](unified-routing-faqs.md)  
 

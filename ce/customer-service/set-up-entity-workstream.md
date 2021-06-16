@@ -1,17 +1,19 @@
 ---
-title: "Set up entity work stream | MicrosoftDocs"
-description: "Learn how to set up entity work stream in the Omnichannel for Customer Service."
+title: "Set up workstream for records in Omnichannel Administration | MicrosoftDocs"
+description: "Perform the steps mentioned in the topic to set up record workstream in Omnichannel for Customer Service."
+ms.date: 05/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/28/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create workstreams for record routing in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> If you have upgraded your Omnichannel for Customer service environment to 2021 release wave 1, then we recommend that you use the new Omnichannel admin center app to configure record routing. You can no longer configure record routing in the Omnichannel Administration app because it will not work as expected. If you have existing workstreams for routing records, you'll need to recreate them in the new Omnichannel admin center app. More information: [Migrate workstreams for routing records](migrate-workstreams.md#migrate-workstreams-for-routing-records).
 
 ## Create a record workstream
 
@@ -42,11 +44,11 @@ This topic describes how to create a work stream for an entity that has been ena
 5. Select **Save** to save the work stream.
 
 > [!Note]
-> When you enable an entity for routing, the Omnichannel Administration app creates a default work stream for the entity. If you create a new work stream or update the default work stream according to your business scenario, you need to update the work stream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
+> When you enable an entity for routing, the Omnichannel Administration app creates a default workstream for the entity. If you create a new work stream or update the default work stream according to your business scenario, you need to update the work stream information in **Entity Records distribution Flow**. To learn more, see [Update entity records work distribution flow](multiple-ws-entity-record-routing.md#update-entity-records-work-distribution-flow).
 
 ## Upgrade path for preview users
 
-If you are upgrading from preview release to the latest version, then earlier configured work streams will be obsolete. You need to create a new entity records channel and then redefine the work streams. To learn more, see [Entity records routing](entity-channel.md).
+If you are upgrading to the latest version from a preview version, then earlier configured work streams will be obsolete. You need to create a new entity records channel and then redefine the workstreams.
 
 ## See also
 
