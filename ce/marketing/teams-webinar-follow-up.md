@@ -35,6 +35,18 @@ With just a few steps, you can follow up with webinar participants, even if you 
 
 ## Learn more about the Marketing app
 
+The links below guide you through some of the key features.
 
+- [Create a marketing email and go live](create-marketing-email.md)
+- [Create a dynamic segment](create-segment.md)
+- [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
+- [Create a landing page with a form](create-landing-page.md)
+- [Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)
+
+## Additional resources
+
+- [Explore training on Microsoft Learn](/learn/browse/?products=dynamics-marketing)
+- [Watch videos on the product playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_cV1n1es1YJt_T2A5u-XpR)
+- [Trial FAQ](trial-faq.md)
 
 ## Additional resources
