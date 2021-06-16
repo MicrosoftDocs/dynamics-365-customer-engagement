@@ -21,7 +21,7 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Integrate an Azure bot](configure-bot.md)<br>
+[Integrate an Azure bot](configure-bot.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)  
