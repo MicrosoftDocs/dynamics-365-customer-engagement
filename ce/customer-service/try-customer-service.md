@@ -1,20 +1,19 @@
 ---  
-title: "Sign up for a free trial – Customer Service | MicrosoftDocs"
+title: "Sign up for a free trial–Customer Service | MicrosoftDocs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the apps using embedded tours and videos and get started within a few seconds."
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/30/2021
 ms.topic: get-started
-ms.service: dynamics-365-customerservice
-ms.custom: template-get-started
+ms.custom: template-trial-setup
 ms.reviewer: shujoshi
 ---
 
 # Sign up for a free trial
 
-Dynamics 365 Customer Service offers a free 30-day trial. After a quick setup, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even load your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview)
+Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign up, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview)
 
-**To start the trial**:
+**To sign up for the trial**:
 
 - Go to the [Try Dynamics 365 Customer Service](https://dynamics.microsoft.com/get-started/free-trial/?appname=customerservice) and select the **Get started** button.
 - Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
@@ -25,9 +24,8 @@ The trial will take a few moments to set up, then you will be ready to start usi
 
 The trial environment includes many of the same features as the paid version. The following links will guide you through using some of the key features.
 
-- [Get started with Customer Service](/learn/modules/get-started-with-dynamics-365-for-customer-service/)
-- [Get started with Omnichannel for Customer Service](/dynamics365/customer-service/introduction-omnichannel)
-- [Get started with work assignment](/dynamics365/customer-service/overview-unified-routing)
+- [Work on cases as a customer service representative](csw-overview.md)
+- Try chat experience as an agent and customer
 
 ## Additional resources
 
