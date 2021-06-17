@@ -21,3 +21,20 @@ This is supplemental to the comprehensive [Client API reference docs](/powerapps
 > [!IMPORTANT]
 > - The Client API object model also contains the **Xrm.Internal** namespace, and use of the objects/methods in this namespace isn’t supported. These objects, and any parts of the HTML Document Object Model (DOM), are subject to change without notice. We recommend that you don’t use these functions or any script that depends on the DOM.
 > - Also, while debugging, you may find methods and objects in the Client API object model that aren’t documented. Only documented objects and methods are supported.
+
+See the table below, the list of client APIs methods that are not supported for on-premises instances:
+
+|Client API| Methods/Properties| 
+|----------|-------------------|
+|Xrm.WebAPI|[Xrm.WebAPI.execute](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/execute.md)<br/> [Xrm.WebAPI.executeMultiple](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/executemultiplr.md)|
+|Xrm.Device|[Xrm.Device.captureImage(maximumAllowedFileSize)]()<br/> [Xrm.Device.captureAudio(maximumAllowedFileSize)]()<br/> [Xrm.Device.captureVideo(maximumAllowedFileSize)]()<br/> [Xrm.Device.openARViewer()]|
+|Xrm.Navigation|[Xrm.Navigation.NavigateTo(title)]()<br/> [Xrm.Navigation.NavigateTo(lookupAttributeName)]()|
+|Xrm.Utility|[Xrm.Utility.getGlobalContext().client.isNetworkAvailable]()<br/> [Xrm.Utility.getGlobalContext().getCurrentAppSettings()]() <br/>[Xrm.Utility.getGlobalContext().getFeatureControlSettings()]()<br/> [Xrm.Utility.getGlobalContext().userSettings.securityRolePrivileges]() <br/>[Xrm.Utility.getGlobalContext().userSettings.securityRolePrivilegesInfo]() <br/> [Xrm.Utility.getGlobalContext().organizationSettings.isTrialOrganization]()<br/> [Xrm.Utility.getGlobalContext().organizationSettings.organizationExpiryDate]()|
+|formContext.ui|[formContext.ui.footerSection]()<br/> [formContext.ui.HeaderSection]()|
+|formContext.data.entity|[formContext.data.entity.addOnPostSave()]()<br/> [formContext.data.entity.removeOnPostSave()]()|
+|executionContext.getEventArgs()|[executionContext.getEventArgs().preventDefaultOnError()]()|
+
+
+
+
+
