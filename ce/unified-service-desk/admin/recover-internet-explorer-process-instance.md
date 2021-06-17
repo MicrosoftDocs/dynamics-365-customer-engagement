@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ---
-# Recover an Internet Explorer process instance (deprecated)
+# Recover an Internet Explorer process instance (legacy - discontinued)
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
