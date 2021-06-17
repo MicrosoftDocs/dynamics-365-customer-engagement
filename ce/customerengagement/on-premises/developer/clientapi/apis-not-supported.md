@@ -1,5 +1,5 @@
 ---
-title: "Client API methods and properties not supported in Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
+title: "Client APIs not supported in Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 description: "Learn what Client API methods and properties are not supported for Dynamics 365 Customer Engagement (on-premises)"
 ms.date: 06/17/2021
 ms.service: crm-online
@@ -14,7 +14,7 @@ search.audienceType:
   - developer
 ---
 
-# Client API methods and properties not supported in Dynamics 365 Customer Engagement (on-premises)
+# Client APIs not supported in Dynamics 365 Customer Engagement (on-premises)
 
 This section covers all the client API methods and properties that are not supported in Dynamics 365 Customer Engagement (on-premises). For all the client API methods and properties that works for both online and on-premises environments, see article [Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference)
 
