@@ -1,7 +1,7 @@
 ---
 title: "Use the Edge WebView2 Process hosting method for hosting web applications  | MicrosoftDocs"
 description: "Learn about the Edge WebView2 Process hosting method and its advantages for hosting your controls in Unified Service Desk."
-ms.date: 04/05/2021
+ms.date: 06/21/2021
 ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh

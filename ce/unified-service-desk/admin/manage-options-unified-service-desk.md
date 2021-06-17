@@ -1,7 +1,7 @@
 ---
 title: "Options for Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use the Options setting to manage global name or value pairs used by Unified Service Desk components."
-ms.date: 02/15/2021
+ms.date: 06/21/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -23,7 +23,7 @@ monikerRange: '>= dynamics-usd-4'
 
 Use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] (**Settings** > **Unified Service Desk** > **Options**) to manage global name or value pairs that are used by the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components.  
 
-**To manage [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] options**
+To manage [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] options:
 
 1. Sign in to the Unified Service Desk Administrator app. 
 
