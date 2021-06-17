@@ -31,7 +31,7 @@ The pooling feature is available for the following processes:
 
 - Chrome Process
 
-- IE Process (deprecated)
+- IE Process (legacy - discontinued)
 
 ## Pool process instances for Edge WebView2 Process
 
@@ -41,7 +41,7 @@ By default, the Edge WebView2 Process instance pooling is enabled.
 
 With the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
-#### Enable pooling for Edge WebView2 Process
+### Enable pooling for Edge WebView2 Process
 
 By default, Edge Webview2 Process pooling is enabled. To disable the pooling, a System Administrator must configure the **EdgeWebView2Pooling** option on the **Active UII Options** page and set it to **False**.
 
@@ -69,7 +69,7 @@ To disable Edge WebView2 Process pooling:
 
 If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2PoolingForEntities UII option](#add-the-blockedgewebview2poolingforentities-uii-option)
 
-#### Add the BlockEdgeWebView2PoolingForEntities UII option
+### Add the BlockEdgeWebView2PoolingForEntities UII option
 
 To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
 
@@ -114,7 +114,7 @@ To prevent Unified Service Desk from crashing, you can perform the following:
 
 
 
-#### Add the BlockEdgeWebView2ProcessSecondInlineNavigation UII option
+### Add the BlockEdgeWebView2ProcessSecondInlineNavigation UII option
 
 By default, second inline navigation is blocked when using Edge WebView2 Process. That is, the option is enabled by default. However, if you want to allow the second inline navigation, that is, disable the option, create the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option and set the value as **False**. 
 
@@ -138,7 +138,7 @@ After the adding UII option, and if you set the value as **True**, then the opti
 
 9. Select **Save**.
 
-#### Remove or change the window navigation rule
+### Remove or change the window navigation rule
 
 Window navigation rule for same entity navigation, you can remove or delete the window navigation rule itself as with the Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
@@ -162,7 +162,13 @@ The pooling feature is available for the following processes:
 
 ::: moniker-end
 
-::: moniker range="<=dynamics-usd-4"
+::: moniker range="dynamics-usd-4"
+
+You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
+
+::: moniker-end
+
+::: moniker range<"dynamics-usd-4"
 
 You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
 
@@ -179,7 +185,7 @@ By default, the Chrome Process instance pooling is enabled.
 
 With the Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
-#### Enable pooling for Chrome Process
+### Enable pooling for Chrome Process
 
 By default, Chrome Process pooling is enabled. To disable the pooling, a System Administrator must configure the **ChromeProcessPooling** option on the **Active UII Options** page and set it to **False**.
 
@@ -207,7 +213,7 @@ To disable Chrome Process pooling:
 
 If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockChromeProcessPooling** UII option and enter the entity names as the comma separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option)
 
-#### Add the BlockChromeProcessPooling UII option
+### Add the BlockChromeProcessPooling UII option
 
 To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
 
@@ -310,13 +316,13 @@ To avoid the crash of Unified Service Desk, you can perform the following:
 - Remove or change the window navigation rule
 - Add the **BlockChromeProcessSecondInlineNavigation** UII option
 
-#### Remove or change the window navigation rule
+### Remove or change the window navigation rule
 
 Window navigation rule for same entity navigation, you can remove or delete the window navigation rule itself as with the Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
 Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **In Place** type.
 
-#### Add the BlockChromeProcessSecondInlineNavigation UII option
+### Add the BlockChromeProcessSecondInlineNavigation UII option
 
 By default, second inline navigation is blocked when using Chrome Process. That is, the option is enabled by default. However, if you want to allow the second inline navigation, that is, disable the option, create the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **False**. 
 
@@ -342,11 +348,11 @@ After the adding UII option, and if you set the value as **True**, then the opti
 
 ::: moniker-end
 
-## Pool process instances for IE Process (deprecated)
+## Pool process instances for IE Process (legacy - discontinued)
 
 > [!Note]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been deprecated in Unified Service Desk. For information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11).
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. For information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internetexplorer11).
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control using a pooled Internet Explorer instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
@@ -379,7 +385,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
    ![Enable InternetExplorerPooling option](../../unified-service-desk/unified-interface/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
-## See also
+### See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
