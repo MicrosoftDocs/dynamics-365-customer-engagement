@@ -25,7 +25,7 @@ Use the following steps to get started:
   - Case Resolution entity (resolution type code)
 - **Step 4:** Edit form
 
-## Permissions
+## Prerequisites
 
 The first step is to set your security permission. This is a critical requirement, and must be done before you enable customizable dialog on a form.  
 
