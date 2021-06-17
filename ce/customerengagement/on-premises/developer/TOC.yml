@@ -951,7 +951,7 @@
   - name: Deployment Service 9.x
     href: /dotnet/api/?view=dynamics-deployment-ce-9
   - name: Client API Reference
-    href: /powerapps/developer/model-driven-apps/clientapi/reference
+    href: clientapi/reference.md
   - name: Schemas used in Dynamics 365
     href: schemas-used-dynamics-365.md
   - name: Customization XML reference
