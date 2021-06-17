@@ -10,11 +10,12 @@ manager: shujoshi
 
 # Modify case resolution dialog box
 
-Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
+As an administrator, you can customize the case resolution form to support case resolution entities and edit the dialog box. By customizing the case resolution dialog box, you can help managers identify recurring issues and proven resolution patterns to inform other incident responses. 
+You can customize the dialog box to add fields such as resolution type or other fields to suit your business needs. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
-Customers can go to the form designer and edit and modify fields according to their business needs.
-
-The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
+> [!Note]
+> The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. 
+> More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
 Use the following steps to get started:
 
@@ -27,70 +28,57 @@ Use the following steps to get started:
 
 ## Prerequisites
 
-The first step is to set your security permission. This is a critical requirement, and must be done before you enable customizable dialog on a form.  
+If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
-Permissions must be set per the following example. Otherwise, you will not see the modified Case Resolution dialog box, but the box case resolution instead.
-
-<!--> Remove these graphics and also update the above line based on Swati's response.
-> [!div class=mx-imgBorder]
-> ![Security Role: Customer Service Representative](media/csr-setting-case-resolution.png "Security Role: Customer Service Representative")
-
-> [!div class=mx-imgBorder]
-> ![Security Role: Customer Service Representative (CSR) Manager](media/csr-manager-setting-case-resolution.png "Security Role: Customer Service Representative (CSR) Manager")
-<-->
-
-> [!IMPORTANT]
-> If you've created your own security roles, you'll need to update your roles before you can use the modified Case Resolution dialog.
+Make sure that the Customer Service Manager security role has the following permissions:
+- The **Environment Variable Definition** should be enable to Read.
+- The **Environment Variable Value** should be enable to Create, Read, and Write.
 
 ## Enable customizable dialog
 
-Perform the following steps to enable customizable dialog:  
+The default setting is **Standard dialog**, so be sure to select the **Customizable dialog** option to ensure changes made to the form are displayed at runtime. 
 
-**Step 1:** In the site map, go to **Service Management**.
+To enable customizable dialog:  
 
-**Step 2:** Select **Service Configuration**. 
+1. In the site map, go to **Service Management**.
 
-**Step 3:** In the **Resolve case dialog** drop-down list, select **Customizable dialog**.
+2. Select **Service Configuration**. 
 
-**Step 4:** Select **Save**. 
+3. In the **Resolve case dialog** dropdown list, select **Customizable dialog**.
+
+4. Select **Save**. 
 
   > [!div class=mx-imgBorder]
   > ![Enable customizable dialog](media/case-resolution-entity.png "Enable customizable dialog")
 
-> [!NOTE]
-> The default setting is **Standard dialog**. You must select the **Customizable dialog** option, otherwise changes made to the form will be saved, but will not be displayed at runtime. 
 
 ## Status values 
 
-After you set your permissions and enable customizable dialog, you can create status values in your form. 
-
-When adding custom status values, you must update them in the following two locations:
+After you enable customizable dialog, you can create status values in your form. You should add the custom status values in the following two locations:
 
 - **Case entity** (status code)
 - **Case Resolution entity** (resolution status code)
 
-> [!IMPORTANT]
->
-> - If you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** to match.
-> - If the values do not match, an error message will be displayed when you try to resolve the case.
+> [!Note]
+> - If you change the value in the **Case entity**, be sure to update the value in the **Case Resolution entity** so they match.
 
-You can customize the Case entity and Case Resolution entity through the **Customization** page.
+## Customize Case entity and Case Resolution entity
 
 To go to the **Customization** page:
 
-**Step 1:** On the navigation bar, select the **Settings** icon.
+1. On the navigation bar, select the **Settings** icon.
 
    > [!div class=mx-imgBorder]
    > ![Status Values - select Settings](media/status-values-step-1.PNG "Status Values - select Settings")
 
 
-**Step 2:** In the Power Platform admin center **Settings** page, select **All legacy settings**.
+2. In the Power Platform admin center **Settings** page, select **All legacy settings**.
     
 
    > [!div class=mx-imgBorder]
    > ![Status Values - select All legacy settings](media/status-values-step-2.PNG "Status Values - select All legacy settings")
 
-**Step 3:** Select **Customize the System**.
+3. Select **Customize the System**.
     
    > [!div class=mx-imgBorder]
    > ![Status Values - Customize the System](media/status-values-step-3.PNG "Status Values - Customize the System")
@@ -167,9 +155,7 @@ Now, the Case Resolution entity will appear in the dialog field as an option tha
 
 ## Edit form
 
-The case resolution form allows you to add or remove fields according to the needs of your business model.  
-
-For example, your business model might not require a **Billable Time** field because your case resolutions do not track billable hours, and therefore you would like to remove the corresponding field from the form.  
+The case resolution form lets you add or remove fields based on your business needs. For example, your business model may not require a **Billable Time** field because your case resolutions do not track billable hours, and so you can choose to remove the corresponding field from the form.  
 
 The following section describes how to remove the **Billable Time** field in the Form Editor.
 
