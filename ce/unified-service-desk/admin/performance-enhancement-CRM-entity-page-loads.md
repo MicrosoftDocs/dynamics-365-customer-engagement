@@ -43,7 +43,7 @@ With the Edge WebView2 Process instance pooling, every entity page navigation ha
 
 ### Enable pooling for Edge WebView2 Process
 
-By default, Edge Webview2 Process pooling is enabled. To disable pooling, a System Administrator must configure the **EdgeWebView2Pooling** option on the **Active UII Options** page and set it to **False**.
+By default, Edge Webview2 Process pooling is enabled. To disable pooling, the System Administrator must configure the **EdgeWebView2Pooling** option on the **Active UII Options** page and set it to **False**.
 
 To disable Edge WebView2 Process pooling:
 
@@ -67,11 +67,11 @@ To disable Edge WebView2 Process pooling:
 
 ### Skip inline entity navigation in Edge WebView2 Process pooling
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as comma-separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2PoolingForEntities UII option](#add-the-blockedgewebview2poolingforentities-uii-option)
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as comma-separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockEdgeWebView2PoolingForEntities UII option](#add-the-blockedgewebview2poolingforentities-uii-option).
 
 #### Add the BlockEdgeWebView2PoolingForEntities UII option
 
-To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as comma-separated values (CSV).
+To skip inline navigation for certain entities, the System Administrator must configure the option on the **Active UII Options** page and the entity names as comma-separated values (CSV).
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -183,7 +183,7 @@ With the Chrome Process instance pooling, every entity page navigation happens i
 
 ### Enable pooling for Chrome Process
 
-By default, Chrome Process pooling is enabled. To disable pooling, a System Administrator must configure the **ChromeProcessPooling** option on the **Active UII Options** page and set it to **False**.
+By default, Chrome Process pooling is enabled. To disable pooling, the System Administrator must configure the **ChromeProcessPooling** option on the **Active UII Options** page and set it to **False**.
 
 To disable Chrome Process pooling:
 
@@ -207,11 +207,11 @@ To disable Chrome Process pooling:
 
 ### Skip inline entity navigation in Chrome Process pooling
 
-If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockChromeProcessPooling** UII option and enter the entity names as comma-separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option)
+If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockChromeProcessPooling** UII option and enter the entity names as comma-separated values (CSV). For example: **incident,account,contact**. To learn more, see [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option).
 
 #### Add the BlockChromeProcessPooling UII option
 
-To skip inline navigation for certain entities, a System Administrator must configure the option on the **Active UII Options** page and the entity names as comma-separated values (CSV).
+To skip inline navigation for certain entities, the System Administrator must configure the option on the **Active UII Options** page and the entity names as comma-separated values (CSV).
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -359,7 +359,7 @@ After the adding UII option, and if you set the value as **True**, then the opti
 
 ### Enable pooling for IE Process
 
-By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the option on the **Active UII Options** page and set it to **true**.
+By default, Internet Explorer pooling is disabled. To enable pooling, the System Administrator must configure the option on the **Active UII Options** page and set it to **true**.
 
 1. Sign in to the Dynamics 365 instance.
 
