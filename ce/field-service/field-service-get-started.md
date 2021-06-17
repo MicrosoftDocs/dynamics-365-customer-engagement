@@ -31,7 +31,7 @@ At the heart of the getting started page, you'll see a set of action items that 
 
 For a guided walkthrough of the core Field Service processes, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4OcYB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OcYB]
 
 Finally, at the bottom of the getting started page, you'll find links to release plans to stay up to date with the latest improvements, a support community forum to post questions, and an ideas forum to give product feedback.
 
