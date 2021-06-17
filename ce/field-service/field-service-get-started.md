@@ -3,7 +3,7 @@ title: "Get started with Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to get started with Dynamics 365 Field Service
 ms.custom:
 - dyn365-fieldservice
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 applies_to:
@@ -29,7 +29,14 @@ At the top of the getting started page, you will see Field Service tours and vid
 
 At the heart of the getting started page, you'll see a set of action items that guide you through core Field Service processes, like creating frontline workers (also called technicians), customers, work orders, and scheduling work orders to frontline workers. 
 
+For a guided walkthrough of the core Field Service processes, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4OcYB]
+
 Finally, at the bottom of the getting started page, you'll find links to release plans to stay up to date with the latest improvements, a support community forum to post questions, and an ideas forum to give product feedback.
+
+
+
 
 ## Prerequisites
 
