@@ -32,7 +32,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_2"></a>
 
-## Release history for Unified Service Desk 4.2, April 2021
+## Release history for Unified Service Desk 4.2, June 2021
 
 The list provides an overview of documentation updates made in Unified Service Desk version 4.2.
 
