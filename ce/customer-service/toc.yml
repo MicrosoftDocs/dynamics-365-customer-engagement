@@ -604,6 +604,8 @@
         href: bot-escalate-end-conversation.md
       - name: Download attachments from Azure bot
         href: download-attachments-bot.md
+      - name: Get user details on Teams from Azure bot
+        href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
       - name: Download attachments from Power Virtual Agents bot
