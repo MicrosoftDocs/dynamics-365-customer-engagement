@@ -1,6 +1,6 @@
 ---
-title: "Display custom context | Microsoft Docs"
-description: "Read how you can send display custom context on the UI"
+title: "Display custom context | MicrosoftDocs"
+description: "Use this topic to understand how to display custom context in the Conversation summary section of conversations."
 ms.date: 08/29/2019
 ms.topic: reference
 author: mh-jaya

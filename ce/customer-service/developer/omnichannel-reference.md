@@ -1,6 +1,6 @@
 ---
-title: "Live chat SDK JavaScript API Reference| Microsoft Docs"
-description: ""
+title: "Live chat SDK JavaScript API Reference| MicrosoftDocs"
+description: "Get an overview of the JavaScript methods and events you can use with the live chat widget in Omnichannel for Customer Service."
 ms.date: 07/01/2019
 ms.topic: reference
 author: mh-jaya

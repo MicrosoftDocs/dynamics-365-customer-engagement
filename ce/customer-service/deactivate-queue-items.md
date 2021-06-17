@@ -1,5 +1,5 @@
 ---
-title: "Close live work items or deactivate queue items| Microsoft Docs"
+title: "Close live work items or deactivate queue items| MicrosoftDocs"
 description: "Sample code to close live work items or deactivate queue items"
 ms.date: 04/15/2021
 ms.topic: article

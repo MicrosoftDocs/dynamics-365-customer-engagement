@@ -1,6 +1,6 @@
 ---
-title: "Recovering an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
-description: "Learn about recovering an Internet Explorer process instance"
+title: "Recover Internet Explorer process instances | MicrosoftDocs"
+description: "Learn how to recover Internet Explorer process instances in Unified Service Desk. Also, know how to use keyboard shortcuts to terminate and recover such instances."
 ms.date: 02/06/2018
 ms.topic: article
 author: mh-jaya

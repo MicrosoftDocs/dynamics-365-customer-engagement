@@ -1,6 +1,6 @@
 ---
-title: "Install the Unified Service Desk  client | MicrosoftDocs"
-description: "Learn how  to install the Unified Service Desk  client."
+title: "Install the Unified Service Desk client | MicrosoftDocs"
+description: "Learn how to install and upgrade Unified Service Desk client. Also find the download link to the product."
 ms.date: 01/25/2018
 ms.topic: article
 author: mh-jaya
