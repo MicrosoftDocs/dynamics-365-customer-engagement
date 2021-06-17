@@ -24,9 +24,6 @@ You can use Microsoft Teams to connect with audiences through engaging webinars,
 
 For Dynamics 365 Marketing users who create Teams webinars, following up with participants is a one-click operation. When a webinar is finished, the “Follow up with participants” button automates your follow-up messaging in Marketing. Selecting the button prepares ready-to-use contacts, segments, emails, events, registrations, check-ins, and a journey, tying the webinar data together in the Marketing organization of your choice.
 
-> [!NOTE]
-> Microsoft Teams and Dynamics 365 Marketing each have their own [service-specific licensing terms](https://www.microsoft.com/licensing/terms/productoffering). The service-specific terms that apply depend on which service processes your data. For example, when you transition from Microsoft Teams to Dynamics 365 Marketing, your Microsoft Teams data related to the webinar (such as the attendance report, engagement data, etc.) is transferred to Dynamics 365 Marketing whereupon it becomes Dynamics 365 Marketing data and the Dynamics 365 service-specific terms apply.
-
 ## How to follow up
 
 In just a few steps, you can follow up with webinar participants, even if you are not an existing Dynamics 365 Marketing user. To follow up with participants:
@@ -62,3 +59,6 @@ The links below guide you through some of the key features.
 - [Explore training on Microsoft Learn](/learn/browse/?products=dynamics-marketing)
 - [Watch videos on the product playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_cV1n1es1YJt_T2A5u-XpR)
 - [Trial FAQ](trial-faq.md)
+
+> [!NOTE]
+> Microsoft Teams and Dynamics 365 Marketing each have their own [service-specific licensing terms](https://www.microsoft.com/licensing/terms/productoffering). The service-specific terms that apply depend on which service processes your data. For example, when you transition from Microsoft Teams to Dynamics 365 Marketing, your Microsoft Teams data related to the webinar (such as the attendance report, engagement data, etc.) is transferred to Dynamics 365 Marketing whereupon it becomes Dynamics 365 Marketing data and the Dynamics 365 service-specific terms apply.
