@@ -283,6 +283,8 @@
       href: clientapi/client-scripting.md
     - name: Client scripting reference
       href: clientapi/reference.md
+    - name: Client APIs not supported
+      href: clientapi/apis-not-supported.md
     - name: Web resources for Customer Engagement (on-premises)
       href: web-resources.md
       items:
