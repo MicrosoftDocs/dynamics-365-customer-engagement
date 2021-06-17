@@ -1,6 +1,6 @@
 ---
-title: "Migrate your Unified Service Desk configuration to another instance | MicrosoftDocs"
-description: "Learn how to move a Unified Service Desk  configuration to another instance."
+title: "Migrate Unified Service Desk configuration | MicrosoftDocs"
+description: "Learn how you can migrate your latest Unified Service Desk configuration data from your development or test environment to the production environment."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
@@ -15,13 +15,13 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ---
-# How to migrate a Unified Service Desk configuration 
+# Migrate Unified Service Desk configuration 
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Use this topic to understand how you can migrate your latest [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your development or testing environment to the production environment. 
-
-Migrating your data involves exporting your existing configuration data from the source instance, and then importing it into the target instance. To export your configuration data, you can use the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The default schema file contains information about all the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities, relationships, and uniqueness definitions for each entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  
+After you have completed the development or configuration of your agent application, you might want to migrate your latest [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your development or test environment to your production environment. Migrating your data involves exporting your existing configuration data from the source instance, and then importing it into the target instance.  
+  
+ To export your configuration data, you can use the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)] and the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data schema file (USDDefaultSchema.xml). The default schema file contains information about all the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities, relationships, and uniqueness definitions for each entity. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  
   
  For more information about the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)], see [Manage your configuration data](/dynamics365/customer-engagement/admin/manage-configuration-data).  
   

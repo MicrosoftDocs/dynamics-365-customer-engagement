@@ -1,6 +1,6 @@
 ---
-title: "Use Web Hosted Application browser control to host web applications | MicrosoftDocs"
-description: "Learn about using the Web Hosted Application browser control for hosting web applications in Unified Service Desk."
+title: "Use Web Hosted Application hosting method for your controls | MicrosoftDocs"
+description: "Learn about the Web Hosted application hosting method for hosting your controls in Unified Service Desk."
 ms.date: 12/01/2018
 ms.topic: "article"
 author: mh-jaya

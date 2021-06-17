@@ -1,6 +1,6 @@
 ---
 title: "WinDDA events in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the two types of events used by the Windows DDA&mdash;application events and control events&mdash;and the events raised by the controls or applications."
+description: "Learn about the application and control events used by WinDDA, and the events raised by the controls or applications."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

@@ -1,6 +1,6 @@
 ---
-title: "Update Unified Service Desk  solution | MicrosoftDocs"
-description: "Learn how to update Unified Service Desk ."
+title: "Update Unified Service Desk solution | MicrosoftDocs"
+description: "Learn how to update your existing installation of Unified Service Desk to the latest version. Also, learn how to check the current version before you update."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

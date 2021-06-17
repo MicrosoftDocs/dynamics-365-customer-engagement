@@ -1,8 +1,6 @@
 ---
-title: "Get Dynamics 365 Channel Integration Framework (CIF) version 2.0  | Microsoft Docs"
-description: "Learn how to download, install, and set up Dynamics 365 Channel Integration Framework (CIF) version 2.0."
-ms.date: 11/02/2020
-ms.topic: get-started-article
+title: "Get Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Use this topic to get the download link and prerequisites for Dynamics 365 Channel Integration Framework 2.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

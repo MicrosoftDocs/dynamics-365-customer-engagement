@@ -1,5 +1,5 @@
 ---
-title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Unified Interface App| MicrosoftDocs"
+title: "Unified Interface KM Control (hosted control) for Unified Service Desk | MicrosoftDocs"
 description: "Learn to use the KM Control type of hosted control to display knowledge base articles in your agent application."
 ms.date: 12/31/2019
 ms.topic: article

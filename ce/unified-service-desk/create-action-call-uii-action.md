@@ -1,6 +1,6 @@
 ---
 title: "Create an action call for a UII action | MicrosoftDocs"
-description: "Learn about creating an action call for a UII action."
+description: "Learn two ways to create action calls for UII actions in Unified Service Desk, either by beginning with the action call or with the hosted control."
 ms.date: 12/31/2017
 ms.topic: article
 author: mh-jaya
@@ -32,9 +32,9 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
   
 2. Select **Action Calls** under **Basic Settings**. 
 
-4. Select **+ New Action Call** on the command bar.  
+3. Select **+ New Action Call** on the command bar.  
 
-5. On the **New Action Call** page, specify information for various fields as per the following table.  
+4. On the **New Action Call** page, specify information for various fields as per the following table.  
 
    ![New action call in Unified Service Desk](../unified-service-desk/media/usd-new-action-call.png "New action call in Unified Service Desk")  
 
@@ -46,7 +46,7 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
    |     Action     | The UII action name to call on the hosted control. To call a UII action for a hosted control, the action must be added to the list of UII actions for a hosted control in Microsoft Dataverse.|
    |      Data      | This is the serialized data (string data) that is passed as the data parameter to the action. **Note:**  Some actions interpret multiline input specified here as separate parameters. |
 
-6. Select the **Advanced** tab and specify the following.
+5. Select the **Advanced** tab and specify the following.
 
    |     Field      | Description |
    |----------------|------------------------------------------------------------|

@@ -48,7 +48,7 @@ In order to get access to Resource Scheduling Optimization, you must first have 
 
 ## Option 2: Request trial
 
-Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by filling out the [Resource Scheduling Optimization trial environment form](https://aka.ms/rsotrial). If you are a customer or partner, contact your local Microsoft representative.
+Microsoft employees can request Resource Scheduling Optimization trial environments for themselves or for customers and partners by reaching out to the scheduling team. If you are a customer or partner, contact your local Microsoft representative.
 
 ## Next steps
 

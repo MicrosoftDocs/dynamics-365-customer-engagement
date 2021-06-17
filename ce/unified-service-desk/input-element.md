@@ -1,6 +1,6 @@
 ---
 title: "InputElement in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the elements of <IntputElement>."
+description: "Understand how the <InputElement> element works in Unified Service Desk. Also find a code snippet that shows how to use the element."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

@@ -1,6 +1,6 @@
 ---
-title: "Skill control for routed records| Microsoft Docs"
-description: "Learn how to add a skill control on forms to view skills on any routed record"
+title: "Skill control for routed records| MicrosoftDocs"
+description: "Learn how to add a skill control on forms to view skills of any routed record."
 ms.date: 04/20/2021
 ms.topic: article
 author: mh-jaya
@@ -19,19 +19,19 @@ ms.reviewer: nenellim
 
 # Add a skill control for routed records
 
-Dynamics 365 provides an out-of-the box custom control that you can embed in any of your forms to view the skills of any routed record. To be able to add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
+Dynamics 365 provides an out-of-the box custom control that you can embed on any of your forms to view the skills of any routed record. To be able to add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
 
-In the following example, you add a skill control named **Skills** to a case form:
+In the following example, to add a skill control named **Skills** to the case form:
 
-1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then  select **Customize the System**. 
+1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**. 
 
-2. On the page that appears, on the site map under **Components**, expand **Entities**, select **Case**, and then select **Forms**. 
+2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Forms**. 
 
 3. In the **Active Forms** list that appears on the grid, select the form where you want to add the skill control. In this example, we selected the **Case for Interactive experience** form.
 
 4. On the **Insert** tab, select **Section**, and then select **One Column**. Drag the section to the form.
  
-5. From the **Field Explorer**, select an appropriate field (such as **Case Title**) to add to the section you just created, and then save the form.
+5. From the **Field Explorer**, select a field that supports a single line of text (such as **Case Title**) to add to the section you just created. Save the form.
 
 6. Select the field you just added, and then select **Change Properties**. 
 
@@ -48,7 +48,7 @@ The skill control is now added to the **Case Interactive experience** form.
 > [!NOTE]
 > To customize a form to add the skill control in Customer Service workspace or the Omnichannel admin center, you can add the control to the **Case for Multisession experience** form.
 
-After the skill control has been added to a case form, an agent can view the newly added custom control on all routed records in Customer Service Hub. The agent can view or delete existing skills, and even add new skills from the existing skill set. To enable agents to update skills, go to [Allow agents to update skills](allow-agents-update-skills.md).
+After the skill control has been added to a case form, an agent can view the newly added custom control on all routed records in Customer Service Hub. The agent can view and delete existing skills, or even add new skills from the existing skill set. To enable agents to update skills, go to [Allow agents to update skills](allow-agents-update-skills.md).
 
 
 ### See also

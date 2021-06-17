@@ -1,5 +1,5 @@
 ---
-title: "Use knowledge base management for effective customer engagement in Unified Service Desk | MicrosoftDocs"
+title: "Use knowledge base management for effective customer engagement | MicrosoftDocs"
 description: "Learn how to use knowledge base management for effective customer engagement in Unified Service Desk."
 ms.date: 08/17/2018
 ms.topic: article

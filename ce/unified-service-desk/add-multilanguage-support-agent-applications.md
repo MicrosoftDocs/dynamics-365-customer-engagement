@@ -1,6 +1,6 @@
 ---
-title: "Add multiple language support for your agent applications | MicrosoftDocs"
-description: "Learn about adding multiple language support for your agent applications. "
+title: "Manage language support for your agent applications | MicrosoftDocs"
+description: "Learn how to add localized strings for your user interface controls and enable language support for your agent applications."
 ms.date: 12/31/2019
 ms.topic: article
 author: mh-jaya
@@ -15,11 +15,11 @@ search.app:
 ms.custom: 
   - dyn365-USD
 ---
-# Add and manage multiple language support for your agent applications
+# Manage language support (localized resources) for your agent applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides multiple language support for all components except those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)] such as hosted control tab names.
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The  language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multiple language scenarios. This includes the hosted control tab names.  
 
 Unified Service Desk lets you add localized strings for your user interface controls such that the localized strings appear in the language based on the locale settings of the user’s computer. 
 

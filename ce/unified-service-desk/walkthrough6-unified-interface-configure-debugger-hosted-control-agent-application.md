@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
-description: 
+title: "Walkthrough 6: Configure Debugger hosted control for Unified Interface apps| MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring the Debugger hosted control in Unified Interface apps."
 ms.date: 06/25/2020
 ms.topic: article
 author: mh-jaya
@@ -14,7 +14,7 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 6: Configure the Debugger hosted control in your agent application
+# Walkthrough 6: Configure the Debugger hosted control in agent applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

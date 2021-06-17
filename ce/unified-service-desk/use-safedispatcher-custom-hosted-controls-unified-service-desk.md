@@ -1,6 +1,6 @@
 ---
 title: "Use SafeDispatcher for custom hosted controls in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to use SafeDispatcher to provide out-of-box logging for unhandled exceptions with detailed information about the source and cause of the exception in Unified Service Desk."
+description: "Learn how to use SafeDispatcher to provide out-of-box logging for unhandled exceptions in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

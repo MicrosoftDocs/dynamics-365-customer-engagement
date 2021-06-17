@@ -1,6 +1,6 @@
 ---
-title: "Generate performance data log files Performance data collection using keyboard shortcuts | MicrosoftDocs"
-description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
+title: "Performance data log files to analyze performance issues | MicrosoftDocs"
+description: "Learn about Unified Service Desk performance data collection to analyze both agent and end-to-end performance, using configuration files and keyboard shortcuts."
 ms.date: 10/31/2018
 ms.topic: article
 author: mh-jaya

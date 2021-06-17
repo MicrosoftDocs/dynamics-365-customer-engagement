@@ -71,7 +71,7 @@ In Omnichannel admin center, perform the following steps to configure a workstre
 
 To create a custom channel work stream, use the following steps:
 
-1. Sign in to Omnichannel Administrator.
+1. Sign in to Dynamics 365, and go to the Omnichannel Administration app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
