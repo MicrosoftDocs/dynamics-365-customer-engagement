@@ -1,6 +1,6 @@
 ---  
 title: "Sign up for a free trial–Customer Service | MicrosoftDocs"
-description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the apps using embedded tours and videos and get started within a few seconds."
+description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find additional learning resources."
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/30/2021
@@ -19,6 +19,18 @@ Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign up,
 - Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
 
 The trial will take a few moments to load, then you will be ready to start using Customer Service.
+
+Your free trial home page.
+
+![Free trial home page](media/trial-home.png "Free trial home page")
+
+**What can you do on the home page?**
+
+Voila! Start your journey here. Use the guided tour to get familiar with how the cases flow.
+
+Try out the chat as an agent to know how agents close the loop faster.
+
+Check out the video to see how supervisors monitor the conversations to improve operations.
 
 ## Experience for a trial user
 

@@ -1,6 +1,6 @@
 ---  
 title: "Trial FAQ for Customer Service | MicrosoftDocs"
-description: "Know the answers to your frequently asked questions on the free trial of Customer Service."
+description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/30/2021
