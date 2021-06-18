@@ -4,7 +4,7 @@ description: "Learn how to route records manually using the Save & Route option 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/15/2021
+ms.date: 06/21/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
