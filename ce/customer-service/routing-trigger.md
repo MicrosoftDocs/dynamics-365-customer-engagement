@@ -1,6 +1,6 @@
 ---
 title: "Route records manually using unified routing | MicrosoftDocs"
-description: "Learn how to route records manually using the Save & Route option on the record forms."
+description: "Learn how to route records manually using the Save & Route option on the form command bar and Apply Routing Rule on the home page grid."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -14,9 +14,9 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Route records using the Save & Route or the Apply Routing Rules option
+## Route records manually using unified routing
 
-After you set up and enable a record for routing, you can manually start routing a record either by:
+After you set up and enable a record for routing, you can start routing a record manually, either by:
 - selecting a record on the home page grid and then selecting **Apply Routing Rule** on the toolbar.
 - opening a record form and then selecting  **Save & Route** on the form command bar.
 
