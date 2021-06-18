@@ -14,7 +14,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Route records manually using unified routing
+## Route records using Save & Route or Apply Routing Rule options
 
 After you set up and enable a record for routing, you can start routing a record manually, either by:
 - Selecting a record on the home page grid and then selecting **Apply Routing Rule** on the toolbar.
