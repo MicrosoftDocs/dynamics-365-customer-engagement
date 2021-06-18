@@ -33,15 +33,9 @@ To enable automatic routing of records:
     The **Build an automated cloud flow** dialog box appears.
 
 3. Select **Skip**. A list of all connectors and triggers is displayed.
-<!--
-    > [!div class=mx-imgBorder]
-    > ![List of all connectors and triggers](media/route-trigger1.png "List of all connectors and triggers.")
--->
+
 4. Select **Microsoft Dataverse**. In the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
-<!--
-    > [!div class=mx-imgBorder]
-    > ![Select When a row is added, modified or deleted trigger](media/route-trigger2.png "Select When a row is added, modified or deleted trigger")
--->
+
 5. Specify the following values for the **Change type**, **Table name**, and **Scope** fields.
  
     - **Change type**: Create
@@ -50,29 +44,12 @@ To enable automatic routing of records:
 
     - **Scope**: Organization
 
-<!--
-    | Field | Description | Value |
-    |-------|-------------|---------------|
-    | Change type | Specify the condition to fire the trigger. That is, when you select a trigger condition, based on this state, the record is routed automatically. <br> <br> The list of possible values are: <ul> <li>Create</li> <li>Create or Delete</li> <li>Create or Update</li> <li>Create or Update or Delete</li> <li>Delete</li> <li>Update</li> <li>Update or Delete</li>| Create |
-    | Table name | Specify the entity collection name for which you want to fire the trigger. |  Email Messages |
-    | Scope | Specify where this trigger must be applied. | Organization |
--->
-<!--
-   > [!div class=mx-imgBorder]
-   > ![Specify the trigger conditions](media/route-trigger3.png "Specify the trigger conditions")
--->
 6. Select **+ New step**. The **Choose an operation** dialog box appears.
-<!--
-    > [!div class=mx-imgBorder] 
-    > ![Select Perform an unbound action](media/route-trigger4.png "Select Perform an unbound action")
--->
+
 7. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog box appears.
 
 8. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
-<!--
-    > [!div class=mx-imgBorder] 
-    > ![Enter custom value](media/route-trigger5.png "Specify Action name")
--->
+
 9. In the **Target** field, enter the entity collection name and unique identifier of the record as follows:
 
     **Format:** `<entity collection name>(unique identifier of the entity)`
