@@ -8039,12 +8039,7 @@
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/events-forms-grids.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/events-forms-grids",
       "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/developer/clientapi/reference.md",
-      "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/reference",
-      "redirect_document_id": "false"
-    },
+    },    
     {
       "source_path": "ce/customerengagement/on-premises/developer/clientapi/understand-clientapi-object-model.md",
       "redirect_url": "/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model",
