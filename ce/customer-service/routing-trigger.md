@@ -27,12 +27,12 @@ To manually route records:
 
 1. Sign in to your model-driven app.
 
-2. Select the record you want to route on the home page grid and then select **Apply Routing Rules**. 
+2. Select the record you want to route on the home page grid and then select **Apply Routing Rule**. 
    Alternatively, open the record form and select **Save & Route** on the form command bar. 
 
    The **Route Case** dialog box appears.
 
-3. Select **Route**. The record is routed based on the active routing rule set.
+3. Select **Route**. The record is routed based on the record routing configuration.
 
 
 ### See also

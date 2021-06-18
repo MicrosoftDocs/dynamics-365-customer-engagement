@@ -27,7 +27,7 @@ As an administrator, you can route records automatically using Power Automate. S
 
 To enable the automatic routing of records:
 
-1. Sign in to Power Automate and select the environment for which you want to update the flow.
+1. Sign in to Power Automate and select the environment for which you want to create the flow.
 
 2. Select **My flows** on the site map, then select **New flow**. Under the **Build your own from blank** option, select **Automated cloud flow**.
     The **Build an automated cloud flow** dialog box appears.
@@ -88,7 +88,7 @@ To enable the automatic routing of records:
 
 10. Select **Save**.
 
-Now, based on the flow that is defined, whenever a record (in this example, an email) is created, the flow applies the **ApplyRoutingRuleRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
+Now, based on the flow that is defined, whenever a record (in this example, an email) is created, the flow applies the **msdyn_ApplyRoutingRuleEntityRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
 
 You can also perform other actions in the flow, such as filtering out certain records that you don't want to route, performing data transformation, and more.
 
