@@ -67,9 +67,9 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
             > ![Choose a team](media/teams-create-new-team-4.png "Choose a team")
 
 
-        2. Enter a name for the team and then select **Next**. </br></br>
-           If you have opted in for [early access](/power-platform/admin/opt-in-early-access-updates), then choose a **Sensitivity** label from the list. Hover over the label to see tool tips to get more information about the label. You can also select **Make it a private  team** and make the team private so only the team owner can add additional members. For more information, on how to enable sensitivity labels, see [Use sensitivity labels to protect content in Microsoft Team](sensitivity-labels.md).
-        
+        2. Enter a name for the team and then select **Next**. </br>
+           If your administrator has enabled sensitivity labels for Teams, you will see the **Sensitivity** field. Select a **Sensitivity** label from the list. Hover over the label to see tooltips to get more information about the label. Select **Make it a private  team** to ensure that only the team owner can add additional members.  
+                
             > [!div class="mx-imgBorder"]
             > ![Enter name and select next](media/teams-enter-team-name-5.png "Enter a team name")
 
@@ -95,7 +95,8 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 
 5. When the connection process is complete, the system will open Microsoft Teams and go to channel that you connected.
 
-
+## See also
+- [Enable sensitivity labels to protect content in Microsoft Team](sensitivity-labels.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
