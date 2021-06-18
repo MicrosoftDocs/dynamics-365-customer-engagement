@@ -17,8 +17,8 @@ ms.service: dynamics-365-customerservice
 ## Route records manually using unified routing
 
 After you set up and enable a record for routing, you can start routing a record manually, either by:
-- selecting a record on the home page grid and then selecting **Apply Routing Rule** on the toolbar.
-- opening a record form and then selecting  **Save & Route** on the form command bar.
+- Selecting a record on the home page grid and then selecting **Apply Routing Rule** on the toolbar.
+- Opening a record form and then selecting  **Save & Route** on the form command bar.
 
 > [!Note]
 > The **Apply Routing Rule** button doesn't display on the home page grid of Activities.
