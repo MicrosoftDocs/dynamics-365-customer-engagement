@@ -1,6 +1,6 @@
 ---
 title: "Unified Service Desk release notes | MicrosoftDocs"
-description: "Learn about the known issues and limitations in Unified Service Desk."
+description: "Find information about the known issues and limitations in various versions of Unified Service Desk."
 ms.date: 04/05/2021
 ms.topic: article
 author: mh-jaya

@@ -1,6 +1,6 @@
 ---
 title: "Session Timer (Custom Hosted Control) in Unified Service Desk  | MicrosoftDocs"
-description: "Learn about Session Timer type of hosted control in Unified Service Desk."
+description: "Learn to create the Session Timer hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 12/31/2019
 ms.topic: article
 author: mh-jaya

@@ -1,7 +1,7 @@
 ---
 title: "Cases SLAs in Customer Service Hub | Microsoft Docs"
 description: "Learn about Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 08/24/2020
+ms.date: 06/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -29,10 +29,22 @@ You or the agent working on the case can see the SLA details on the case form.
 
 If your administrator has configured to display the statuses of the configured SLA KPIs by using the SLA Timer control subgrid, the following details are available:
 
-- The different stages that the KPIs go through are displayed.
+- The different statuses that the KPIs go through are displayed.
 - When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable.
 - The icons are updated for the different stages that the KPIs go through.
 - The KPIs are refreshed at the interval that you specify at the time of configuration.
+
+The statuses and their corresponding symbols are as follows.
+
+| Symbol | Status |
+|------|----------|
+| :::image type="icon" source="media/slakpi-in-progress.ico"::: |In progress |
+|:::image type="icon" source="media/slakpi-noncompliant.ico":::| Noncompliant |
+|:::image type="icon" source="media/slakpi-nearing-noncompliance.ico":::| Nearing noncompliance |
+|:::image type="icon" source="media/slakpi-paused.ico":::| Paused |
+| :::image type="icon" source="media/slakpi-succeeded.ico":::| Succeeded |
+| :::image type="icon" source="media/slakpi-canceled.ico":::|Canceled |
+|||
 
 A sample runtime view of the SLA Timer is as follows.
 

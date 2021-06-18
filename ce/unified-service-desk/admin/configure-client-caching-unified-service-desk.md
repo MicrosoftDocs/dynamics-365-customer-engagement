@@ -1,6 +1,6 @@
 ---
 title: "Configure client caching in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to set client caching."
+description: "Learn about client caching, and also how you can configure and enable client caching in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya
@@ -137,7 +137,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
    > [!NOTE]
    > **CRM Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)  
   
-4. On the nav bar, seclect the down arrow next to the **CRM Global Manager** hosted control, and then select **UII Actions**.  
+4. On the nav bar, select the down arrow next to the **CRM Global Manager** hosted control, and then select **UII Actions**.  
   
    ![Navigation to UII Actions for hosted control](../../unified-service-desk/media/usd-hosted-contro-uii-action.png "Navigation to UII Actions for hosted control")  
   
@@ -148,9 +148,9 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 6. Select the **Related** tab, and then select **UII Actions**.  
   
-   ![Navigation to UII Actions for hosted control](../../unified-service-desk/unified-interface/media/usd-hosted-control-uii-action.png "Navigation to UII Actions for hosted control")  
+   ![Navigation to UII Actions for hosted control in Related tab](../../unified-service-desk/unified-interface/media/usd-hosted-control-uii-action.png "Navigation to UII Actions for hosted control in Related tab")  
   
-. Select **+ Add New UII Action**.  
+7. Select **+ Add New UII Action**.  
   
 8. Type **ResetLocalCache** in the **Name** field, and then select **Save** on the **New UII Action** page. Close the UII Action and the hosted control.  
   

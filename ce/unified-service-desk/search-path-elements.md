@@ -1,6 +1,6 @@
 ---
 title: "Search Path Elements in Unified Service Desk | MicrosoftDocs"
-description: "Learn about Search Path Elements in Unified Service Desk."
+description: "Learn about the search path elements you can use in the search path of controls in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
 author: mh-jaya

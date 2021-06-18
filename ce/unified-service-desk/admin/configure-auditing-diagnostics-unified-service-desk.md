@@ -1,5 +1,5 @@
 ---
-title: "Configure auditing and diagnostics in Unified Service Desk | MicrosoftDocs"
+title: "Configure audit and diagnostics in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics."
 ms.date: 02/06/2018
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom:
   - dyn365-admin
 tags: MigrationHO
 ---
-# Auditing and diagnostics overview
+# Audit and diagnostics overview
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
