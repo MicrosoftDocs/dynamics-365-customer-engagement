@@ -1,6 +1,6 @@
 ---
 title: "Client APIs not supported in Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
-description: "Learn what Client API methods and properties are not supported for Dynamics 365 Customer Engagement (on-premises)"
+description: "List of Client APIs not supported in Dynamics 365 Customer Engagement (on-premises)"
 ms.date: 06/17/2021
 ms.service: crm-online
 ms.topic: article
@@ -16,21 +16,19 @@ search.audienceType:
 
 # Client APIs not supported in Dynamics 365 Customer Engagement (on-premises)
 
-This section covers all the client API methods and properties that are not supported in Dynamics 365 Customer Engagement (on-premises). For all the client API methods and properties that works for both online and on-premises environments, see article [Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference)
+This section provides information about client APIs that are not supported in Dynamics 365 Customer Engagement (on-premises). Unless otherwise specified, all the client APIs should works for both online and on-premises environments. For a list of all the client APIs that support both online and on-premises environment, see [Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference).
 
 
-|Client API| Methods/Properties| 
+|Client API| Methods/Properties|
 |----------|-------------------|
-|Xrm.WebAPI|[Xrm.WebAPI.execute](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/execute.md)<br/> [Xrm.WebAPI.executeMultiple](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/executemultiplr.md)<br/> [Xrm.WebAPI.retrieveMultipleRecords().successCallback(fetchXmlPagingCookie)]()|
-|Xrm.Device|[Xrm.Device.captureImage(maximumAllowedFileSize)]()<br/> [Xrm.Device.captureAudio(maximumAllowedFileSize)]()<br/> [Xrm.Device.captureVideo(maximumAllowedFileSize)]()<br/> [Xrm.Device.openARViewer()]()|
-|Xrm.Navigation|[Xrm.Navigation.NavigateTo(title)]()<br/> [Xrm.Navigation.NavigateTo(lookupAttributeName)]()<br/> [Xrm.Navigation.openForm(bpfDisplayStateForCrossEntityNavigation)]()|
-|Xrm.Utility|[Xrm.Utility.getGlobalContext().client.isNetworkAvailable]()<br/> [Xrm.Utility.getGlobalContext().getCurrentAppSettings()]() <br/>[Xrm.Utility.getGlobalContext().getFeatureControlSettings()]()<br/> [Xrm.Utility.getGlobalContext().userSettings.securityRolePrivileges]() <br/>[Xrm.Utility.getGlobalContext().userSettings.securityRolePrivilegesInfo]() <br/> [Xrm.Utility.getGlobalContext().organizationSettings.isTrialOrganization]()<br/> [Xrm.Utility.getGlobalContext().organizationSettings.organizationExpiryDate]()|
-|formContext.ui|[formContext.ui.footerSection]()<br/> [formContext.ui.HeaderSection]()|
-|formContext.data.entity|[formContext.data.entity.addOnPostSave()]()<br/> [formContext.data.entity.removeOnPostSave()]()|
-|executionContext.getEventArgs()|[executionContext.getEventArgs().preventDefaultOnError()]()|
-
+|executionContext.getEventArgs()|[executionContext.getEventArgs().preventDefaultOnError()](/powerapps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventdefaultonerror)|
+|formContext.data.entity|[formContext.data.entity.addOnPostSave()](/powerapps/developer/model-driven-apps/clientapi/reference/controls/addonpostsave)<br/> [formContext.data.entity.removeOnPostSave()](/powerapps/developer/model-driven-apps/clientapi/reference/controls/removeonpostsave)|
+|formContext.ui|[formContext.ui.footerSection](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-ui-footersection)<br/> [formContext.ui.HeaderSection](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-ui-headersection)|
+|Xrm.Navigation|[title](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/navigateto#parameters)<br/>|
+|Xrm.Utility|[Xrm.Utility.getGlobalContext().client.isNetworkAvailable](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-utility/getglobalcontext/client#isnetworkavailable)<br/> [Xrm.Utility.getGlobalContext().userSettings.securityRolePrivileges](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-utility/getglobalcontext/usersettings#securityroleprivileges) <br/> [Xrm.Utility.getGlobalContext().organizationSettings.isTrialOrganization](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-utility/getglobalcontext/organizationsettings#istrialorganization)<br/> [Xrm.Utility.getGlobalContext().organizationSettings.organizationExpiryDate](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-utility/getglobalcontext/organizationsettings#organizationexpirydate)|
+|Xrm.WebAPI|[Xrm.WebAPI.execute](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/execute.md)<br/> [Xrm.WebAPI.executeMultiple](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/executemultiplr.md)|
 
 
 ## See also
 
-[Client scripting in Customer Engagement using JavaScript](client-scripting.md)
+[Client scripting using JavaScript](client-scripting.md)
