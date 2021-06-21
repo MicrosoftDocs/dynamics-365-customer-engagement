@@ -17,10 +17,13 @@ ms.custom:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Use Edge Process to host web applications (legacy - discontinued)
+# Use Edge Process to host web applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
+> [!Note]
+>
+> Because the Edge Process browser control is now replaced by the Edge WebView2 Process browser control, support for the Edge Process is now discontinued.
 
 The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk. You can select **Edge Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 

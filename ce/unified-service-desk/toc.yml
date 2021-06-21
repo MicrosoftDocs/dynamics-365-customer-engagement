@@ -146,7 +146,7 @@
     href: admin/recover-edge-webview2-process-instance.md
   - name: Recover Chrome Process instances
     href: admin/recover-chrome-process-instance.md
-  - name: Recover Internet Explorer process instances (legacy - deprecated)
+  - name: Recover Internet Explorer process instances
     href: admin/recover-internet-explorer-process-instance.md
   - name: Configure close confirmation window
     href: admin/configure-close-confirmation-window.md
@@ -200,11 +200,11 @@
           href: chrome-process.md       
         - name: Use Web Hosted Application to host web applications
           href: web-hosted-application.md
-        - name: Use IE Process to host web applications (legacy - deprecated)
+        - name: Use IE Process to host web applications
           href: ie-process.md
-        - name: Use Internal WPF to host web applications (legacy - deprecated)
+        - name: Use Internal WPF to host web applications
           href: internal-wpf.md
-        - name: Use Edge Process to host web applications (legacy - discontinued)
+        - name: Use Edge Process to host web applications
           href: edge-process.md
         - name: Behavior in Chrome Process and IE Process
           href: hosting-type-differences.md
