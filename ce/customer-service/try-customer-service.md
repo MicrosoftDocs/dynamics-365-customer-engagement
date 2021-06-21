@@ -11,26 +11,14 @@ ms.reviewer: shujoshi
 
 # Sign up for a free trial
 
-Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign up, you will have access to many of the app's key features. The trial allows you to test the app, load sample data, and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview)
+Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign up, you will have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview)
 
 **To sign up for the trial**:
 
-- Go to the [Try Dynamics 365 Customer Service](https://dynamics.microsoft.com/get-started/free-trial/?appname=customerservice) and select the **Get started** button.
-- Then, follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
+1. Go to the [Try Dynamics 365 Customer Service](https://dynamics.microsoft.com/en-us/customer-service/overview/) page and select **Try for free**.
+2. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
 
-The trial will take a few moments to load, then you will be ready to start using Customer Service.
-
-Your free trial home page.
-
-![Free trial home page](media/trial-home.png "Free trial home page")
-
-**What can you do on the home page?**
-
-Voila! Start your journey here. Use the guided tour to get familiar with how the cases flow.
-
-Try out the chat as an agent to know how agents close the loop faster.
-
-Check out the video to see how supervisors monitor the conversations to improve operations.
+The trial will take a few moments to load, then you can start using Customer Service.
 
 ## Experience for a trial user
 
@@ -39,7 +27,7 @@ Customer Service uses a Microsoft Dataverse environment to store and manage data
 This section lists all the functionality that will be restricted until an environment is provisioned. These restrictions apply to only for:
 
 - The default environment.
-- The trial users and the users who purchase Customer Service through Microsoft 365 admin center.
+- The trial users and users who purchase Customer Service through Microsoft 365 admin center.
 
 ### What you can do while an environment is being provisioned?
 

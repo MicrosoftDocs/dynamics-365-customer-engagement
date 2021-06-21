@@ -4,7 +4,7 @@ description: "Solutions to common questions related to Dynamics 365 Customer Ser
 author: neeranelli
 ms.author: nenellim
 ms.date: 06/30/2021
-ms.topic: get-started
+ms.topic: article
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
