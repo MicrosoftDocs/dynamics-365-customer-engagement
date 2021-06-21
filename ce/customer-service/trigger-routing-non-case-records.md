@@ -8,12 +8,11 @@ ms.date: 06/15/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-# Trigger routing for non-case records using a plug-in
+# Route non-case records using a plug-in
 
 The following sample code checks for two conditions&mdash;whether the message is to create a record and whether the record is an email message. If both conditions are met, the sample code triggers the `msdyn_ApplyRoutingRuleEntityRecord` action.
 
-> [!NOTE]
-> You can use the sample code in your Console App (.NET framework) of Visual Studio to trigger routing for non-case records using the `IPlugin` interface.
+You can use the sample code in your Console App (.NET framework) of Visual Studio to trigger routing for non-case records using the `IPlugin` interface.
   
 ```csharp
 public class SamplePlugin : IPlugin 

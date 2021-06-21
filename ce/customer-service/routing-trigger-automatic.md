@@ -20,10 +20,10 @@ ms.service: dynamics-365-customerservice
 As an administrator, you can route records automatically using Power Automate. Set up a custom flow to automatically route records based on certain conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
 
 > [!Note]
-> - For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
-> - If **Route Case** is set to **Yes**, the record is routed upon creation.
-> - If **Route Case** is set to **No**, the record is not routed upon creation.
-> - By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered.
+> By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered. 
+> For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
+> When a case record is created, it is either routed or not routed based on the **Route Case** field value of **Yes** or **No**.
+
 
 To enable automatic routing of records:
 
@@ -56,12 +56,12 @@ To enable automatic routing of records:
     
     **Example:** emails(Email Message)
 
-    > [!Note]
-    > 1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`
-    > For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='email')`.
-    > 2. Search for `LogicalCollectionName` to view the entity collection name for a particular entity.
-    > For example: `"LogicalCollectionName":"emails"`.
-    > Here, `emails` is the entity collection name.
+    To get the entity collection name for a particular entity:
+    1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`.
+    For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='email')`.
+    2. Search for `LogicalCollectionName` to view the entity collection name for a particular entity. <br>
+    For example: `"LogicalCollectionName":"emails"`.<br>
+    Here, `emails` is the entity collection name.
 
 10. Select **Save**.
 
