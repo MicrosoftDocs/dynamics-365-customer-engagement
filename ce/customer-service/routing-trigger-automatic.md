@@ -43,7 +43,7 @@ To enable automatic routing of records:
 
     - **Scope**: Organization
 
-6. Select **+ New step**. The **Choose an operation** dialog box appears.
+6. Select **New step**. The **Choose an operation** dialog box appears.
 
 7. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog box appears.
 
@@ -56,7 +56,7 @@ To enable automatic routing of records:
     To get the entity collection name for a particular entity:
     1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`.
     For example: `https://contoso.dynamics.com/api/data/v9.0/EntityDefinitions(LogicalName='email')`.
-    2. Search for `LogicalCollectionName` to view the entity collection name for a particular entity. <br>
+    1. Search for `LogicalCollectionName` to view the entity collection name for a particular entity. <br>
     For example: `"LogicalCollectionName":"emails"`.<br>
     Here, `emails` is the entity collection name.
 
@@ -74,4 +74,4 @@ You can also perform other actions in the flow, such as filtering out certain re
 [Manually route records](routing-trigger.md)  
 [Sample code to trigger routing for non-case records](trigger-routing-non-case-records.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]  
