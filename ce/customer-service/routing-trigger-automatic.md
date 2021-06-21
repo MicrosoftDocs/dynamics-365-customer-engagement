@@ -52,9 +52,7 @@ To enable automatic routing of records:
 
 9. In the **Target** field, enter the entity collection name and unique identifier of the record as follows:
 
-    **Format:** `<entity collection name>(unique identifier of the entity)`
-    
-    **Example:** emails(Email Message)
+    `<entity collection name>(unique identifier of the entity)`, such as **emails(Email Message)**
 
     To get the entity collection name for a particular entity:
     1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`.
