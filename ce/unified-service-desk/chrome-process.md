@@ -604,10 +604,6 @@ Chrome Process supports the ability to check spelling on webpages within Unified
 
 8. Select **Save**.
 
-## Limitations
-
-To learn about the limitations of Chrome Process, go to [Chrome Process limitations](release-notes.md).
-
 
 ### See also
 

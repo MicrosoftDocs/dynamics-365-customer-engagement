@@ -1,13 +1,11 @@
 ---
 title: "Release history (Unified Service Desk )| MicrosoftDocs"
 description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
-ms.date: 04/05/2021
+ms.date: 06/21/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/31/2021
-ms.topic: article
 ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer

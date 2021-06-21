@@ -272,16 +272,11 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
-## Limitations
-
-To learn about the limitations of the Edge process, see [Edge Process limitations](release-notes.md)
-
-## See also  
+### See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
-
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
-
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
