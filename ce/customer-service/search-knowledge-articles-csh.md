@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 04/20/2021
+ms.date: 06/21/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -53,16 +53,17 @@ Relevance Search uses the scoring concepts as defined by Azure search. To be abl
 The following are required view columns:
 
 - Article Public Number
-- Title 
+- Content
 - Created On 
 - Keywords
 - Knowledge Article Views 
 - Language
 - Major Version Number 
-- Minor Version Number 
+- Minor Version Number
+- Modified On
 - Rating
 - Status
-- Modified On
+- Title
 
 ## Knowledge Base Search control
 
