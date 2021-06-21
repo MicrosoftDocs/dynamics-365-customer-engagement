@@ -43,8 +43,9 @@ The following prerequisites are required before you can turn on Sensitivity labe
 Sensitivity labels are only available when the Enhanced Collaboration Experience is turned on. For more information, see [Install and set up Microsoft Teams integration](teams-install-app.md).
 
 
-1. On the lower right, go to **Change area** and then select, **App Settings**.
-
+1. In the Sales Hub app, select the **Change area** icon
+    ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
+    in the lower-left corner and then select **App Settings**.
    > [!div class="mx-imgBorder"]
    > ![App settings](media/app-settings.png)
 
