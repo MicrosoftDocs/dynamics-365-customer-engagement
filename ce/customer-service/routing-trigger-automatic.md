@@ -24,7 +24,6 @@ As an administrator, you can route records automatically using Power Automate. S
 > For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record. 
 > When a case record is created, it is either routed or not routed based on the **Route Case** field value of **Yes** or **No**.
 
-
 To enable automatic routing of records:
 
 1. Sign in to Power Automate and select the environment for which you want to create the flow.
@@ -65,7 +64,7 @@ To enable automatic routing of records:
 
 Now, based on the flow that is defined, whenever a record (in this example, an email) is created, the flow applies the **msdyn_ApplyRoutingRuleEntityRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
 
-You can also perform other actions in the flow, such as filtering out certain records that you don't want to route, performing data transformation, and more.
+You can also perform other actions in the flow, such as filtering out certain records that you don't want to route and performing data transformation.
 
 
 ### See also
