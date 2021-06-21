@@ -99,8 +99,8 @@ The inbound request from the channel is validated based on the signing key, and 
 
 The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object contains the following attributes:
 
-|    |       |
-|----|  ---  |
+|Attribute    |Description       |
+|-------------|------------------|
 |**From**|This holds channel account information, which consists of ID (unique identifier of the user) and name (combination of first name and last name, separated by a space delimiter).|
 |**ChannelId**| For inbound requests, `ChannelId` would be directline.|
 |**ServiceUrl**| For inbound requests, ServiceUrl would be `https://directline.botframework.com/`.|
@@ -307,7 +307,7 @@ Initiate a conversation with direct line and store the conversation object sent 
      if (directLineConversation.Conversation == null)
      {
          throw new Exception(
-             "An error occured while starting the Conversation with direct line. Please validate the direct line secret in the configuration file.");
+             "An error occurred while starting the Conversation with direct line. Please validate the direct line secret in the configuration file.");
      }
 
      // Adding the Direct Line Conversation object to the lookup dictionary and starting a thread to poll the activities from the direct line bot.
