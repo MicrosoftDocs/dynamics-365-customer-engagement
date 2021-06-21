@@ -48,7 +48,7 @@ Use the following input and output parameters for the Search Resource Availabili
 ### Inputsettings
 
 | Name  | Type | Required  | Description  |
-|-----------------|---|---|---|
+|-------|---|---|---|
 | ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | Specifies if a time slot with less than the required remaining duration should be considered when computing potential time slots. It is false`by default. |
 | ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It is false` by default. |
 | ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots. It is false`by default. |
