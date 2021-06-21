@@ -93,11 +93,11 @@ To skip inline navigation for certain entities, the System Administrator must co
 
 ### Hide command bar in Edge WebView2 Process
 
-In Edge WebView2 Process, the command bar is always shown on the pooled Edge WebView2 process instances. If you want to hide the command bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the **HideCommandBarEdgeWebView2** UII option.
+In Edge WebView2 Process, the command bar is always shown on the pooled Edge WebView2 process instances. If you want to hide the command bar in the Dynamics 365 pages that are loaded in the Edge WebView2 process instances, then you can add the **HideCommandBarEdgeWebView2** UII option.
 
 ### Show nav bar in Edge WebView2 Process
 
-In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebView2 Process instances. If you want to show the nav bar for a specific entity or for all the entities in the Edge WebView2 Process pooled instances, then you can add the **ShowNavBarEdgeWebView2** UII option.
+In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebView2 Process instances. If you want to show the nav bar in the Dynamics 365 pages that are loaded in the Edge WebView2 process instances, then you can add the **ShowNavBarEdgeWebView2** UII option.
 
 ### Block second navigation in Edge WebView2 Process pooling
 
