@@ -1,12 +1,9 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
-description: "Learn about the system requirements of Omnichannel for Customer Service."
+description: "This topic provides information about the system requirements of Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/19/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Omnichannel for Customer Service system requirements
@@ -47,9 +44,9 @@ For hardware and other requirements, see [Model-driven app requirements](/power-
 
 ### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
 
-The following browsers are supported by the live chat widget in Omnichannel for Customer Service:
+The following browsers are supported by the customer-facing live chat widget in Omnichannel for Customer Service:
 
-- **Windows:** Chromium-based Microsoft Edge, Google Chrome, Mozilla Firefox, and Internet Explorer 11
+- **Windows:** Chromium-based Microsoft Edge, Google Chrome, Mozilla Firefox, and Internet Explorer 11 (see the note for Internet Explorer 11)
 - **macOS and iOS:** Safari
 - **Android:** Chromium-based Microsoft Edge and Google Chrome
 

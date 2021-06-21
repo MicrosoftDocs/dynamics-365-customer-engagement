@@ -1,5 +1,6 @@
 ---
 title: "Work with templates (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
+description: "Use templates in Dynamics 365 Customer Engagement (on-premises) in a variety of ways to speed your work and improve consistency."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

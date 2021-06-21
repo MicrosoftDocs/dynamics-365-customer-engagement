@@ -1,12 +1,11 @@
 ---
-title: Suggest similar cases for a case with Dynamics 365 Customer Service | MicrosoftDocs
-description: 
+title: "Suggest similar cases for a case with Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Learn how to use the similarity rules and relevance search in Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 08/14/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -31,7 +30,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
  Set up automatic suggestion of similar cases by creating advanced similarity rules. The rules you create use the Relevance search mechanism.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](/powerapps/user/search-records)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Relevance Search for faster, comprehensive search results](/powerapps/user/relevance-search)
 
 > [!IMPORTANT]
 > It is recommended to enable Relevance search for your org to see the most accurate suggestions for similar cases. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand how relevance search impacts search results](#understand-how-relevance-search-impacts-search-results)
@@ -65,7 +64,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
     - Select **Save** to save the rule.
   
 
-      ![similar case configuration](media/similar-case-config.PNG)
+      ![Similar case configuration](media/similar-case-config.PNG "Similar case configuration")
 
   1. In the **Match Fields** tab:
 
@@ -80,7 +79,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
        | Field (required) | Choose the  field to be used to create a text search rule to find matching target records. <br /><br /> Two types of fields are used for similarity analysis:<br /><br /> **Structured fields**:  Used for exact match on a field to field basis. All fields except Multiple Lines of Text are available for exact match. Each field can be used only once.<br /><br /> **Text fields**: Only fields of type Text or Option Set are available. For Option Set, the  corresponding label in the language of the user is used. Text fields are used for fuzzy match in similarity analysis with keywords/key phrase extraction. Each field can be used only once. |
        |||
 
-       ![similar-case-rule](media/similar-case-rule.PNG)
+       ![Similar case rule](media/similar-case-rule.PNG "Similar case rule")
 
 5. Select **Save** to save the rule.
 

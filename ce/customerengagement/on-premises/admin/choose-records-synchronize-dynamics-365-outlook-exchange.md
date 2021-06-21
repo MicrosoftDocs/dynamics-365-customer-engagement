@@ -1,5 +1,6 @@
 ---
 title: "Choose the records to synchronize between Customer Engagement (on-premises) and Outlook or Exchange | MicrosoftDocs"
+description: "Determine which records to synchronize between Customer Engagement and Outlook or Exchange."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

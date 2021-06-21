@@ -1,8 +1,7 @@
 ---
-title: "Define product pricing with price lists and price list items (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Define what to charge for your products or services in Dynamics 365 Sales."
+title: "Define product pricing - Sales Enterprise | MicrosoftDocs"
+description: "Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory."
 ms.date: 02/10/2021
-ms.service: dynamics-365-sales
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr

@@ -1,20 +1,19 @@
 ---
-title: "Use the Chrome Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
-description: "Learn about the Chrome Process hosting method for your controls in Unified Service Desk."
+title: "Chrome Process hosting method for controls in Unified Service Desk | MicrosoftDocs"
+description: "Learn about the Chrome Process hosting method in Unified Service Desk. Also, learn how to enable the process and recover unresponsive process instances."
+ms.date: 02/15/2021
+ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/15/2021
-ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

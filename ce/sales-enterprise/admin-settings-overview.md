@@ -1,8 +1,8 @@
 ---
 title: "Admin settings overview (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Learn about the settings to configure your Sales Hub app."
+description: "Admin settings provides an organized and unified experience for administrators to easily configure the sales app from a single place."
 ms.date: 04/03/2020
-ms.service: dynamics-365-sales
+ms.custom: intro-internal
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

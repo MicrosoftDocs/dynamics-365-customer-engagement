@@ -1,12 +1,9 @@
 ---
 title: "What's new in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about what's new in Omnichannel for Customer Service."
+description: "This topic provides information about the new updates and features in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/09/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # What's new in Omnichannel for Customer Service

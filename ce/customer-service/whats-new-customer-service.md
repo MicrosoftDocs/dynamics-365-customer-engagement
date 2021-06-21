@@ -1,14 +1,11 @@
 ---
 title: What's new in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently updated or added in Dynamics 365 Customer Service
+ms.date: 04/12/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/12/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # What's new in Dynamics 365 Customer Service

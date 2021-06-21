@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display records in Unified Service Desk."
+title: "Walkthrough 3: Display account and contact records in agent applications | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying account and contact records in your agent applications. "
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough 3: Display records in your agent application
 
@@ -180,7 +179,7 @@ This walkthrough demonstrates how to display records in your agent application. 
    |Button Text|Account|  
    |Order|1<br /><br /> The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
 
-   ![Create a tooolbar button for Account submenu](../unified-service-desk/media/crm-itpro-usd-wt03-05.png "Create a tooolbar button for Account submenu")  
+   ![Create a toolbar button for Search Account submenu](../unified-service-desk/media/crm-itpro-usd-wt03-05.png "Create a toolbar button for Search Account submenu")  
 
 7. Click **Save**.  
 
@@ -204,7 +203,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|Find|  
     |Data|account|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-07.png "Create an action call in Unified Service Desk")  
+    ![New Action Call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-07.png "New Action Call in Unified Service Desk")  
 
 12. Click **Save**. The new action call gets added to the **Contoso Search Account Button** button.  
 
@@ -222,7 +221,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|ShowTab|  
     |Data|Contoso Accounts Search|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-08.png "Create an action call in Unified Service Desk")  
+    ![Create a new action call for Display Account Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-08.png "Create a new action call for Display Account Search toolbar button")  
 
 16. Click **Save**. The new action call gets added to the **Contoso Search Account Button** button.  
 
@@ -260,7 +259,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|Find|  
     |Data|contact|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-10.png "Create an action call in Unified Service Desk")  
+    ![Create a new action call for Search Contact Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-10.png "Create a new action call for Search Contact Search toolbar button")  
 
 25. Click **Save**. The new action call gets added to the **Contoso Search Contact Button** toolbar button.  
 
@@ -278,7 +277,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|ShowTab|  
     |Data|Contoso Contacts Search|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-11.png "Create an action call in Unified Service Desk")  
+    ![Create a new action call for Display Contact Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-11.png "Create a new action call for Display Contact Search toolbar button")  
 
 29. Click **Save**. The new action call gets added to the **Contoso Search Contact Button** toolbar button.  
 

@@ -1,12 +1,9 @@
 ---
-title: "Configure channel provider in Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: "Learn how to configure a channel provider in Microsoft Dynamics 365 Channel Integration Framework (CIF) version 1.0."
+title: "Configure channel providers for your Dynamics 365 organization | MicrosoftDocs"
+description: "Use this topic to understand how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

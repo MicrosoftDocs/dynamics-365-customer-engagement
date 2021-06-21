@@ -1,12 +1,11 @@
 ---
 title: "Communication panel (conversation control) | MicrosoftDocs"
-description: "The left control panel is a communication panel or conversation control that hosts the messages that you exchange with customers. The communication panel provides various options like quick replies, consult, transfer, and internal and public message modes."
+description: "The left control panel is a communication panel that hosts the messages you exchange with customers."
+ms.date: 11/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/12/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View the communication panel
