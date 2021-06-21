@@ -311,7 +311,7 @@ Edge WebView2 Process supports the ability to switch languages on webpages withi
 
 6. For the **Name** field, enter **EdgeWebView2Language**.
 
-7. For the **Value** field, enter the locale code. More information: [Language Codes](../openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a)
+7. For the **Value** field, enter the locale code. More information: [Language Codes](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a)
 
     > [!NOTE]
     > Only the locales available in the path <C:\Program Files\Microsoft Dynamics CRM USD\USD\locales> are supported.
