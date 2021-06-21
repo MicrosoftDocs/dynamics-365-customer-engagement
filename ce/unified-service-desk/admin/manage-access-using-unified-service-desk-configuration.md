@@ -20,9 +20,9 @@ tags: MigrationHO
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-This topic explains how you can create configurations and manage your agents’ access to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components without having to manage their security roles.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration is a great way to filter things that you want your agents to see without having to manage their security roles. Agents can see only those [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added in a configuration assigned to them.
 
-Agents can see only those [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added in a configuration assigned to them. You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in a configuration:  
+You can add the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] components in a configuration:  
   
 -   Action calls  
   
@@ -55,7 +55,7 @@ Agents can see only those [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select **Configuration** under **Advanced Settings** in the site map. 
+4. Select **Configuration** under **Advanced Settings** in the site map. This opens the configuration definition.
   
 5. Select **+ New** on the **Active Configuration** page.  
   

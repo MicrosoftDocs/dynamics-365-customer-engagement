@@ -21,9 +21,6 @@ tags: MigrationHO
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-This topic discusses how you can configure client diagnostic logging, and also lists the logging sources and levels that you can use
-in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
-
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
 - By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of Microsoft Dataverse.  

@@ -18,7 +18,7 @@ monikerRange: '>= dynamics-usd-4.2'
 ---
 
 
-# Recover an Edge WebView2 Process instance
+# Recover Edge WebView2 Process instances
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 

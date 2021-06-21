@@ -100,7 +100,7 @@ search.app:
 ## Search for a resolution  
  To help resolve the case, use the knowledge base articles search window to find a solution.  
   
-1.  On the **KB search** area, enter text to search for published articles that can be used to help resolve the case.  
+1.  In the **KB search** area, enter text to search for published articles that can be used to help resolve the case.  
   
 2.  Send a link via email, link the article to the case, or copy the article link to the clipboard to paste it into another application.  
   

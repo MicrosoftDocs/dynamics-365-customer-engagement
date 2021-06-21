@@ -20,8 +20,6 @@ tags: MigrationHO
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-This topic explains how you can manage your agents’ access to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by assigning appropriate security roles to your users or teams.
-
 You must assign the **USD Administrator** and **USD Agent** security roles to appropriate users or teams. The **USD Administrator** role must be assigned to users who will be configuring the application using Microsoft Dataverse to define an agent application. The **USD Agent** role must be assigned to end users (agents) who will be using the client application to connect to the Dataverse instance with the configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities.  
   
  You must also assign the appropriate the Dataverse security role to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrators and agents along with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] security role to facilitate appropriate access on the Dataverse entities along with the custom [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and UII entities. For example, you should assign the **Customer Service Representative** role along with the **USD Agent** role to the agents.  

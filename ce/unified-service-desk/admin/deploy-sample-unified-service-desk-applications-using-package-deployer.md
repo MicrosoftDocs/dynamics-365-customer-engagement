@@ -19,15 +19,17 @@ ms.custom:
 # Overview of Package Deployer and the sample applications
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
-This topic contains information about the sample applications available in 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and how you can use the Package Deployer to deploy them.
+
+[!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.
+
+ These sample applications are bundled as packages that need to be deployed on a Microsoft Dataverse instance before you can start working. After deployment, which is done by using [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)], the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] become available in the Dataverse instance.  
 
 
 <a name="twodot1apps"></a>
 
 ## Unified Service Desk sample applications
 
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with sample application that are bundled as packages. You need to be deploy the packages on a Microsoft Dataverse instance before you can start working. After deployment, the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] become available in the Dataverse instance.  
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with these sample application packages.
 
 
 |                                                                          Sample application                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |

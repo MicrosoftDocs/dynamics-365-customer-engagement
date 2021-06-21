@@ -21,7 +21,7 @@ monikerRange: '>= dynamics-usd-3'
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Unified Service Desk Performance Analyzer is an executable file that you can run to import performance data log files and generate reports. 
+The Unified Service Desk Performance Analyzer is an executable file that you can download and save on your machine. After downloading, you can run the executable file to import the performance data log files and then generate the reports.
 
 Download [Unified Service Desk Performance Analyzer](https://go.microsoft.com/fwlink/p/?linkid=2034281).
 
