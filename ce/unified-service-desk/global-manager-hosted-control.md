@@ -491,10 +491,10 @@ Param=value
 |name|Name of the event timer to stop.|
 
 ### TriggerEdgeWebView2PoolCleanUp
-Deletes the Edge webview2 pool.
+Cleans up the Edge WebView2 pool.
 
 ### TriggerChromePoolCleanUp
-Deletes the Chrome pool.
+Cleans up the Chrome pool.
 
 <a name="Translate"></a>
 ### Translate
