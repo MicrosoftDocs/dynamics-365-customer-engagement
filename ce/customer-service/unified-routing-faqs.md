@@ -91,7 +91,7 @@ No. It is not possible to pause the assignment of a case.
 
 No, a configuration can't be exported.
 
-### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now re-assign C1 to Q3. 
+### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now re-assign C1 to Q3?
 
 Yes. It is possible to re-assign a case to another queue. Select **Save and route** to trigger reassignment of a work item from one queue to another queue.
 
