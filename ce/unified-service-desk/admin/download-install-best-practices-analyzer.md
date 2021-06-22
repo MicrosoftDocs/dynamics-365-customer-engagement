@@ -19,7 +19,7 @@ search.app:
 
 The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-::: moniker range=">=dynamics-usd-4.2"  
+::: moniker range="=dynamics-usd-4.2"  
 
 |Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
 |---------|-------------|------------------------------------------------------------------------------|------------------|
@@ -27,7 +27,7 @@ The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](
 
 ::: moniker-end
 
-::: moniker range=">=dynamics-usd-4.1"  
+::: moniker range="=dynamics-usd-4.1"  
 
 |Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
 |---------|-------------|------------------------------------------------------------------------------|------------------|
