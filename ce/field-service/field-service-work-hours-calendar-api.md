@@ -1,6 +1,6 @@
 ---
-title: "Edit work hour calendar using APIs in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to edit work order calendars in Field Service using APIs. 
+title: "Edit work hour calendars by using APIs in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to edit work order calendars in Field Service by using APIs. 
 ms.custom:
 - dyn365-fieldservice
 ms.date: 05/27/2021
@@ -19,203 +19,214 @@ search.app:
 - D365FS
 ---
 
-# Edit work hour calendar using APIs 
+# Edit work hour calendars by using APIs 
 
-Organizations often need to programmatically create, edit, or delete work hours on the calendars of their resources. Calendars have working hours, time off, and breaks that determine the availability of their resource to schedule work. Additionally, resources work in specific time zones, may observe business closure, and can have varied capacity. For more information about defining work hours in Field Service using the user interface, see this article: [Add work hours to a bookable resource](/dynamics365/field-service/set-up-bookable-resources#add-work-hours).
+Organizations often need to programmatically create, edit, or delete work hours on the calendars of their resources. Calendars show working hours, time off, and breaks that determine the availability of a resource when work is being scheduled. Those resources must be scheduled in specific time zones, might or might not observe business closures, and can have variable capacity. For information about defining work hours in the Field Service app<!--note from editor: Suggested.-->, go to [Add work hours to a bookable resource](/dynamics365/field-service/set-up-bookable-resources#add-work-hours).<!--note from editor: Edits suggested. I realize the second sentence is passive voice now, but otherwise we had a bit of a misplaced modifier.-->
 
-You can also use the **Save Calendar** and **Delete Calendar API** to modify calendar rules for select record types, similar to what can be achieved on the work hour control linked above.
+In addition to using the Field Service app, you can use the following APIs to modify calendar rules for selected record types:
 
-- The **Save Calendar API** (`msdyn_SaveCalendar`) creates or updates calendar records on a selected entity, based on the inputs passed as the input.
-- The **Delete Calendar API** (`msdyn_DeleteCalendar`) deletes all [inner calendar rules](/dynamics365/customerengagement/on-premises/developer/calendar-entities) of a calendar on a selected entity, based on the inputs passed as the input.
+- The Save Calendar API (`msdyn_SaveCalendar`) creates or updates calendar records on a selected entity, based on the inputs passed as the request.
+- The Delete Calendar API (`msdyn_DeleteCalendar`) deletes all [inner calendar rules](/dynamics365/customerengagement/on-premises/developer/calendar-entities) of a calendar on a selected entity, based on the inputs passed as the request.
 
-This article contains details of each API's input (request) and output (response), and their usage with examples.
+This topic contains details about each API's input (request) and output (response), and their usage, with examples.
 
 ## Prerequisites
 
 - Platform version 9.2.21055 or above with Universal Resource Scheduling version 3.12.45.7.
 - Usage of one of the following record types: 
-  - [Bookable resource](/dynamics365/customer-engagement/web-api/bookableresource?view=dynamics-ce-odata-9&preserve-view=true), 
-  - [Resource requirement](/dynamics365/customer-engagement/web-api/msdyn_resourcerequirement?view=dynamics-ce-odata-9&preserve-view=true), 
-  - [Work hour template](/dynamics365/customer-engagement/web-api/msdyn_workhourtemplate?view=dynamics-ce-odata-9&preserve-view=true), 
-  - [Project](/dynamics365/customer-engagement/web-api/msdyn_project?view=dynamics-ce-odata-9&preserve-view=true).
+  - [Bookable resource](/dynamics365/customer-engagement/web-api/bookableresource?view=dynamics-ce-odata-9&preserve-view=true)
+  - [Resource requirement](/dynamics365/customer-engagement/web-api/msdyn_resourcerequirement?view=dynamics-ce-odata-9&preserve-view=true)
+  - [Work hour template](/dynamics365/customer-engagement/web-api/msdyn_workhourtemplate?view=dynamics-ce-odata-9&preserve-view=true)
+  - [Project](/dynamics365/customer-engagement/web-api/msdyn_project?view=dynamics-ce-odata-9&preserve-view=true)
 
-## Calendar types
+## Calendar event types<!--note from editor: Edit suggested.-->
+
+When you create a calendar, you define how many times a [work hour type](#work-hour-types) will occur&mdash;once, all day, every week, or every day, or you can create a custom recurrence. For more information about these calendar events, go to the [examples later in this topic](#example-scenarios-for-api-usage).<!--note from editor: Suggested, just to give a bit more context and to move the general information references out of the first section, since they apply to all these events.-->
 
 ### Occurrence
 
-When a [work hour type](#work-hour-types) occurs only once in the entity's calendar, it's called an occurrence.
+When a work hour type occurs only once in the entity's calendar, it's called an *occurrence*.
 
-For example, consider a resource working from 5:00 AM to 10:00 AM on 26 May 2021.
-
-This API only supports occurrences that start and end within the same day. Taking another example, one cannot create working hours for an entity from 26 May 2021 8:00 PM to 27 May 2021 10:00 AM using just one call of the ```msdyn_SaveCalendar``` API. You would need to make two calls instead. For more information, see the [example section in this article](#example-scenarios-for-api-usage). The only exception to this rule is when it is an all-day occurrence. 
+For example, consider a resource working from 5:00 AM to 10:00 AM on May 26, 2021.<!--note from editor: Microsoft Writing Style Guide wants us to use the US pattern for dates, and for some reason it pleases me. I realize the API and code samples use ISO format, but in the discussions we don't use the 24-hour format either. I think it's clear that the code takes a different format for both date and time.--> These APIs only support this type of occurrence, which starts and ends within the same day. For another example, consider a resource working from May 26, 2021 at 8:00 PM 10:00 AM on May 27, 2021. You can't create this occurrence by using just one call of the `msdyn_SaveCalendar` API; you need to make two calls instead.  .<!--note from editor: I deleted "The only exception to this rule is when it is an all-day occurrence" because you go right into explaining the rule for all-day occurrences in the next paragraph.-->
 
 ### All-day occurrence
 
-When a work hour type occurs for one or more whole days, starting at 12 AM of the start date, it's an all-day occurrence. The maximum period for an all-day occurrence is five years.
+When a work hour type occurs for one or more whole days, starting at midnight (12:00 AM) of the start date, it's an *all-day occurrence*. The maximum duration for an all-day occurrence is five years.<!--note from editor: Is this what you mean by "maximum period"? I suggest using "duration" unless you mean that all-day occurrences can only be scheduled five years out.-->
 
-For example: a resource works all day from 26 May 2021 to 30 May 2021.
+For example, a resource works all day from May 26, 2021 to the end of the day on May 30, 2021. This is an all-day occurrence that lasts five days.<!--note from editor: Suggested. (If true?) -->
 
 ### Weekly recurrence
 
-When a work hour type occurs at the same times of select days of every week, it's called a weekly recurrence.
+When a work hour type occurs at the same time on selected days of every week, it's called a *weekly recurrence*.
 
-For example: a resource works from 5 AM to 10 AM every Monday, Tuesday, and Wednesday.
+For example, a resource works from 5:00 AM to 10:00 AM every Monday, Tuesday, and Wednesday.
 
 ### Daily recurrence
 
-When a work hour type occurs at the same times every day, it's called a daily recurrence.
+When a work hour type occurs at the same time every day, it's called a *daily recurrence*.<!--note from editor: Just curious, does this really mean seven days a week?-->
 
-For example: a resource works from 5 AM to 10 AM every day of the week.
+For example, a resource works from 5:00 AM to 10:00 AM every day of the week.
 
 ### Custom recurrence
 
-When a work hour type occurs at the same time and day of every week, it's called a custom recurrence. The times across different days can be different.
+When a work hour type occurs at certain times on certain days of the week, but the times are different on different days, you can create a *custom recurrence*.<!--note from editor: Suggested.-->
 
-For example: a resource works from 5 AM to 10 AM every Monday, and 12 PM to 3 PM every Wednesday.
+For example, a resource works from 5:00 AM to 10:00 AM every Monday, and 12:00 PM to 3:00 PM every Wednesday.
 
 ## Work hour types
 
-This API supports the create, update, and delete operations of the following work hour types.
+These APIs<!--note from editor: Here and throughout, is the edit from "this API" to "these APIs" okay? Since this article is talking about two APIs.--> support create, update, and delete operations for the following work hour types:
+
+- [Working hours](#working-hours)
+- [Non-working hours](#non-working-hours)
+- [Breaks](#breaks)
+- [Time off](#time-off)
+- [Business closure](#business-closure)
 
 ### Working hours
 
 Working hours are times during which an entity is available to perform work.
 
-Using this API, you can do the following to working hours:
+Using these APIs, you can do the following:
 
--	Create / Edit / Delete a working hour occurrence.
--	Create / Edit / Delete a working hour daily recurrence.
--	Create / Edit / Delete a working hour weekly recurrence.
--	Create / Edit / Delete a working hour custom recurrence.
--	Create / Edit / Delete all-day working hours.
--	Create / Edit capacity on working hours.
+-	Create, edit, or delete a working hour occurrence.
+-	Create, edit, or delete a working hour daily recurrence.
+-	Create, edit, or delete a working hour weekly recurrence.
+-	Create, edit, or delete a working hour custom recurrence.
+-	Create, edit, or delete all-day working hours.
+-	Create or edit capacity on working hours.
 -	Edit a single working hour occurrence in a recurrence.
 -	Edit *This and Following occurrences* in a recurrence.
 -	Change a working hour occurrence to a recurrence.
 -	Change the time zone of the calendar rule.
 
-Using this API, you _cannot_ do the following to working hours:
+Using this API, you can't do the following:
 
-- Delete a single work hour occurrence from a recurrence.
-- Create occurrence that spans 24 hours but doesn't start and end at 12:00 AM.
-- Create /Edit / Delete an all-day recurrence.
+- Delete a single working hour occurrence from a recurrence.
+- Create an occurrence that spans 24 hours but doesn't start and end at midnight (12:00 AM).
+- Create, edit, or delete an all-day recurrence.<!--note from editor: What is an "all-day recurrence"? It hasn't been defined.-->
 
 ### Non-working hour
 
 These are times during which the entity is unavailable to work due to an unspecified reason.
 
-Using this API, you can do the following to non-working hours:
+Using these APIs, you can do the following:
 
--	Create / Edit all-day non-working hours.
--	Create / Edit non-working hour occurrence.
+-	Create or edit all-day non-working hours.
+-	Create or edit a non-working hour occurrence.
 -	Change the time zone of the calendar rule.
 
-Using this API, you _cannot_ do the following to non-working hours:
+Using these APIs, you can't do the following:
 
-- Create / Edit a non-working hour recurrence.
+- Create or edit a non-working hour recurrence.
 
 ### Break
 
-These are times in a working day during which an entity is taking a break and is unavailable for work. Breaks can't exist without working hours; they have to be next to two working hours of a day. Breaks cannot overlap with working hours.  
+These are times in a working day during which an entity is taking a break and is unavailable for work. Breaks can't exist without working hours; they have to occur between two working hours in a day. Breaks can't overlap with working hours.  
 
-Using this API, you can do the following to breaks:
+Using these APIs, you can do the following:
 
-- Create / Edit breaks on working hours.
+- Create or edit breaks during working hours.
 
-Using this API, you _cannot_ do the following to breaks:
+Using these APIs, you can't do the following:
 
 - Delete only breaks from an occurrence or recurrence of working hours.
 
 
 ### Time off 
+
 These are times during which an entity is unavailable to work due to a vacation. The reason for time off can be specified.
 
-Using this API, you can do the following to time off:
+Using these APIs, you can do the following:
 
--	Create / Edit time off with a label.
+-	Create or edit time off with a label.
 -	Change the time zone of the calendar rule.
 
-Using this API, you _cannot_ do the following to time off: 
+Using these APIs, you can't do the following: 
 
-- Create / Edit a time-off hour recurrence.
+- Create or edit a time-off hour recurrence.
 
 ### Business closure
 
-You can [create business closure entities](/dynamics365/customer-service/set-when-business-closed-csh) and during these times, the business is closed. Using the **Save Calendar API**, every entity can be set to observe or ignore business closure times followed by the organization using the optional [“ObserveClosure”](#calendareventinfo) key. When they are set to observe them, the entity will be unavailable to work due to the holiday.
+You can [create business closure entities](/dynamics365/customer-service/set-when-business-closed-csh) that define the times the business will be closed. Using the `msdyn_SaveCalendar` API, you can set every entity to observe or ignore the organization's business closure times by using the optional [**ObserveClosure**](#calendareventinfo) key. When they're set to observe these closures, the entities will be unavailable for work.
 
-## Save calendar API
+## Save Calendar API
 
 ### Input
 
-The request contains only one attribute – `CalendarEventInfo` and this is a *String* type. It contains several other attributes that are all embedded in this string. 
+The request contains only one attribute&mdash;**CalendarEventInfo**, which is a **String** type. It contains several other attributes that are all embedded in this string.<!--note from editor: I'm going by MWSG, which calls for bold for attributes and data types. The key names and values, I just took a stab at making consistent.-->
 
 > [!NOTE]
-> In the following table, _Type_ represents the format expected to make a successful request. However, it's all parsed as a single string.
+> In the following table, **Type** represents the format expected to make a successful request. However, the whole request is parsed as a single string.
 
 #### CalendarEventInfo
+
 | **Name**     | **Type**   | **Required**     | **Description** |
 | :-------- | :--------- | :--------- | :----- |
 |  EntityLogicalName | String   | Yes   | This key describes the entity from which the API is being called. The calendar of this entity is to be created or edited. |
-| CalendarId  | Guid | Yes| This key contains the calendar ID related to the entity described above. When any of these entities are created, a calendar record is also automatically created. This API is editing that calendar record by adding rules or editing existing rules.|
-|RulesAndRecurrences	| RulesAndRecurrences	| Yes | This key is an array and each element contains multiple attributes as listed in the table below. The size of the array should be at least one.  |
-| IsVaried	|Boolean	|No|	This key should be set to true for custom recurrence scenarios.|
-|IsEdit|	Boolean|	No|	This key should be set to true for editing an existing rule(s).|
-| TimeZoneCode|	Integer|	No|	This key takes an integer value corresponding to the time zone for the calendar rules. Check the [TimeZoneCode](#time-zone-codes) section below for the mapping. Default value – user's time zone.
-| InnerCalendarDescription|	String|	No|	This key is only needed if the calendar rule is for Time Off. It should contain the reason for Time Off.| 
-| ObserveClosure|	Boolean|	No|	This key is specific to recurrences. If it is set to true, the entity will observe business closure.|
-|RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. If the timestamp is 08:00:00 or lesser, the recurrence end date is one day before the specified date. If the timestamp is 08:00:01 or later, the date is respected as is. Default value for occurrences – null. Default value for recurrences - 30 Dec 9999, 23:59:59 hours, UTC.|
-|RecurrenceSplit|	Boolean|	No|	This key is specific to recurrences. It is set to true for editing “This and following occurrences” of a recurrence.|
-|ResourceId	| Guid |	No|	This key contains the SystemUserId or ResourceId and is only to be passed when the entity associated with this call is a bookable resource of type SystemUser. This is necessary to check for OwnCalendar privileges in the **Service Management** tab.
+| CalendarId  | GUID | Yes| This key contains the calendar ID related to the entity described above. When any of these entities are created, a calendar record is also automatically created. These APIs edit that calendar record by adding rules or editing existing rules.|
+|RulesAndRecurrences	| RulesAndRecurrences	| Yes | This key is an array, and each element contains multiple attributes as listed in the table in the following section. The size of the array should be at least one.  |
+| IsVaried	|Boolean	|No|	This key should be set to `true` for custom recurrence scenarios.|
+|IsEdit|	Boolean|	No|	This key should be set to `true` for editing existing rules.|
+| TimeZoneCode|	Integer|	No|	This key takes an integer value corresponding to the time zone for the calendar rules. For the mapping, go to [Time zone codes](#time-zone-codes), later in this topic. The default value is the user's time zone.
+| InnerCalendarDescription|	String|	No|	This key is only needed if the calendar rule is for time off. It should contain the reason for the time off.| 
+| ObserveClosure|	Boolean|	No|	This key is specific to recurrences. If it's set to `true`, the entity will observe business closure.|
+|RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. If the timestamp is 08:00:00 or earlier, the recurrence end date is one day before the specified date. If the timestamp is 08:00:01 or later, the date is respected as-is. The default value for occurrences is null. The default value for recurrences is 30 Dec 9999, 23:59:59 hours, UTC<!--note from editor: Shouldn't this be in ISO 8601 format?-->.|
+|RecurrenceSplit|	Boolean|	No|	This key is specific to recurrences. It's set to `true` for editing "This and following occurrences" of a recurrence.|
+|ResourceId	| GUID |	No|	This key contains the **SystemUserId** or **ResourceId** and is only to be passed when the entity associated with this call is a bookable resource of type **SystemUser**. This is necessary to check for OwnCalendar privileges on the **Service Management** tab.
 
 #### RulesAndRecurrences
+
 |Name | Type | Required | Description |
 | :-------- | :--------- | :--------- | :----- |
-|Rules| Rules |	Yes |	This key is an array and each element contains multiple attributes as listed in the table below. The size of the array should be at least one.
-|RecurrencePattern|	String|	No|	This key is specific to recurrences. We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include lesser days. However, `FREQ` and `INTERVAL` values cannot be changed.| 
-|InnerCalendarId|	GUID|	No|	This is an edit specific key. If a rule is being edited, the InnerCalendarId needs to be passed here. If an InnerCalendarId is not passed, then the API creates a new rule, even if the 'IsEdit' key is set to true. |
-|Action	|Integer|	No|	This is custom recurrence-specific key. If a custom recurrence is being created or edited, one of the following enums should be entered: (1) Adding a day to the recurrence, (2)	Deleting a day from the recurrence, (3) Editing only the start/ end dates or times, or capacity (4) Editing anything apart from the keys mentioned in #3.|
+|Rules| Rules |	Yes |	This key is an array, and each element contains multiple attributes as listed in the table in the following section. The size of the array should be at least one. |
+|RecurrencePattern|	String|	No|	This key is specific to recurrences. We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include fewer days; however, `FREQ` and `INTERVAL` can't be changed.| 
+|InnerCalendarId|	GUID|	No|	This key is specific to editing. If a rule is being edited, the **InnerCalendarId** needs to be passed here. If an **InnerCalendarId** isn't passed, the API creates a new rule, even if the **IsEdit** key is set to true. |
+|Action	|Integer|	No|	This key is specific to custom recurrences. If a custom recurrence is being created or edited, one of the following numbers should be entered:<ul><li>(1) Adding a day to the recurrence</li><li>(2)	Deleting a day from the recurrence</li><li>(3) Editing only the start or end dates or times, or editing capacity</li><li>(4) Editing anything other than the keys mentioned in (3)</li></ul>|
 
 #### Rules
+
 |Name	|Type|	Required|	Description|
 | :-------- | :--------- | :--------- | :------ |
-|StartTime|	DateTime|	Yes|	This key contains a datetime entry of the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, \"2021-05-15T12:00:00.000Z\". The time portion determines the start time of the work hour in the earlier specified time zone. The date portion determines the start date of the work hour. Here, 15 May 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was “BYDAY=TU,WE”, but 15 May (Saturday) is the date, the API will automatically create/edit rules for all Tuesdays and Wednesdays following 15 May. Each rule doesn’t have to have the date corresponding to the day. 
-|EndTime|	DateTime|	Yes|	This contains a datetime entry following the [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, \"2021-05-15T12:00:00.000Z\". The time portion determines the end time of the work hour in the earlier specified time zone. The date portion *must* contain the same date as the date portion of the StartTime. The only exceptions are if it is (a) An All-Day occurrence. In this case, the date portion should reflect the end date of the All-Day occurrence. (b) The occurrence ends at the end of the day. i.e 12 am of the following day. In this case, the date should be \"2021-05-16T00:00:00.000Z\". To specify the end date of the recurrence, please modify the “RecurrenceEndDate” attribute.
-|WorkHourType	|Integer|	Yes	|This key contains an enum corresponding to one of the following options: (0) Working, (1)	Break, (2) Non-working, (3) Time Off |
-| Effort |	Integer	| No |	This key determines the capacity of the entity. It must be whole numbers. Default value = 1|
+|StartTime|	DateTime|	Yes|	This key contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the start time of the work hour in the time zone specified earlier. The date portion determines the start date of the work hour. Here, May 15, 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was `BYDAY=TU,WE`, but May 15 (a Saturday) is the date, the API will automatically create or edit rules for all Tuesdays and Wednesdays following May 15. This is case where the rule doesn't have to have the date corresponding to the day.<!--note from editor: Suggested, if it's accurate. I thought this was a bit ambiguous.--> | 
+|EndTime|	DateTime|	Yes|	This contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the end time of the work hour in the time zone specified earlier. The date portion *must* contain the same date as the date portion of the **StartTime**. The only exceptions are:<ul><li>If it's an all-day occurrence. In this case, the date portion should reflect the end date of the all-day occurrence.</li><li>The occurrence ends at the end of the day, that is, 12:00 AM of the following day. In this case, the date should be `\"2021-05-16T00:00:00.000Z\"`. To specify the end date of the recurrence, modify the **RecurrenceEndDate** attribute.</li></ul><!--note from editor: I'm not sure whether this last sentence should be part of the second bullet or should it be outside of the list entirely?--> |
+|WorkHourType	|Integer|	Yes	|This key contains a number corresponding to one of the following options:<ul><li>(0) Working</li><li>(1) Break</li><li>(2) Non-working</li><li>(3) Time Off</li></ul>|
+| Effort |	Integer	| No |	This key determines the capacity of the entity. It must be a whole number. The default value is 1.<!--note from editor: Might it be good to link to more information about capacity here?-->|
 
 ### Output
-This POST API creates / modifies calendar rule records for the select entity. It also gives the following output.
+
+This POST API creates or modifies calendar rule records for the selected entity. It also gives the following output.
 
 |**Name** |	**Type**|	**Description**|
 |:--|:--|:--|
-| InnerCalendarIds|	String |	An array of InnerCalendarIds GUIDs that are a result of the POST operation. |
+| InnerCalendarIds|	String |	An array of **InnerCalendarIds** GUIDs that are a result of the POST operation. |
 
-## Delete calendar API
+## Delete Calendar API
 
 ### Input
 
 |**Name** |	**Type**|	**Required**|	**Description**|
 |:--|:--|:--|:--|
 |EntityLogicalName|	String|	Yes	|This field describes the entity whose calendar rules are to be deleted.|
-|InnerCalendarId|	Guid|	Yes|	This field describes the ID of the InnerCalendarId that needs to be deleted. If there are multiple InnerCalendarIds associated with a single rule, any one ID is sufficient here. See this document to learn more about inner and outer calendars.
-|CalendarId	|Guid	|Yes|	This field describes the CalendarId of the entity.
-|IsVaried	|Bool	|No	|This field is recurrence-specific and is set to yes if it is a custom recurrence rule being deleted.
+|InnerCalendarId|	GUID|	Yes|	This field describes the ID of the **InnerCalendarId** that needs to be deleted. If there are multiple **InnerCalendarIds** associated with a single rule, any one ID is sufficient here. More information about inner and outer calendars: [Calendar entities](/dynamics365/customerengagement/on-premises/developer/calendar-entities) |
+|CalendarId	|GUID	|Yes|	This field describes the **CalendarId** of the entity. |
+|IsVaried	|Boolean	|No	|This field is specific to recurrences, and is set to `yes` if a custom recurrence rule is being deleted. |
 
 ### Output
 
-This POST API deletes calendar rule records for the select entity. Additionally, it gives the following output.
+This POST API deletes calendar rule records for the selected entity. Additionally, it gives the following output.
 
 |Name |	Type|	Description|
 |:--|:--|:--|
-|InnerCalendarIds|	String|	An array of InnerCalendarIds that are a result of the POST operation.|
+|InnerCalendarIds|	String|	An array of **InnerCalendarIds** GUIDs<!--note from editor: Edit okay? To be parallel.--> that are a result of the POST operation.|
 
-## How to call the API
+## How to call the APIs
 
-This API can be called by using the browser.
+These APIs can be called by using the browser.
 
-1. Open the browser and the org to which you need to make these calendar changes.
-2. Press F12 to open **Developer Tools** (Ctrl+Shift+I for Microsoft Edge and F12 for Google Chrome).
-3. In the console, enter the following function, after replacing [org-name] with org details (for example, http://rstest.crm.dynamics.com):
+1. Open the browser and the org in which you need to make these calendar changes.
+2. Open Developer Tools (select **Ctrl**+**Shift**+**I** in Microsoft Edge, select **F12** in Google Chrome).
+3. In the console, enter the following function, after replacing [org-name] with org details (for example, `http://rstest.crm.dynamics.com`<!--note from editor: Suggest removing the "live" nature of this link. By the way, is there some significance to this URL? Or could it be something like `http://your_org.crm.dynamics.com`?-->):
 
 ```
        function CalendarAction(action, data) {
@@ -240,23 +251,23 @@ This API can be called by using the browser.
        }
 ```
 
-4. Once this function is defined, you can call it to create, edit, or delete calendars using the API. Enter the following call:
+4. After this function is defined, you can call it to create, edit, or delete calendars by using the APIs. Enter the following call:<!--note from editor: What will be the result of this call? Is it just an example? I'm a bit confused by how this step is related to the sentence that follows it.-->
 
 ```
         CalendarAction("msdyn_SaveCalendar", {"CalendarEventInfo":"{\"CalendarId\":\"df0857c4-50f5-4576-8e89-   f236670ad2d5\",\"ObjectTypeCode\":1150,\"TimeZoneCode\":92,\"StartDate\":\"2021-04-25T00:00:00.000Z\",\"IsVaried\":false,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-04-25T08:00:00.000Z\",\"EndTime\":\"2021-04-25T17:00:00.000Z\",\"Duration\":540,\"Effort\":1,\"TimeCode\":0,\"SubCode\":1}]}]}"})
 ```
 
-See the section below to make different calls based on need. Replace the "action" of the call above with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar` and "data" with the relevant `CalendarEventInfo`.
+See the following section for examples of how to make different calls based on your needs. Replace the `action` of the function call in step 3<!--note from editor: Edit okay? I assume this is where they need to look to find "action" and data".--> with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar`, and replace `data` with the relevant `CalendarEventInfo`.
 
 ## Example scenarios for API usage
 
-Let’s walk through some scenarios that this API can be used for.
+Let's walk through some scenarios that you can use these APIs for.
 
-Bob and Tim are delivery truck drivers for Contoso Enterprises in Bellevue, Washington. Their dispatcher, Debbie, is responsible for making changes to their work hour calendars. Debbie makes these changes using the save and delete calendar APIs.
+Bob and Tim are delivery truck drivers for Contoso Enterprises in Bellevue, Washington. Their dispatcher, Debbie, is responsible for making changes to their work hour calendars. Debbie makes these changes by using the `msdyn_SaveCalendar` and `msdyn_DeleteCalendar` APIs.
 
 ### Create a working hour occurrence.
-
-Bob is scheduled to drive around to deliver packages from 9:00 AM to 5:00 PM on 15 May 2021. Debbie uses the `msdyn_SaveCalendar` API.
+<!--note from editor: The terms "working hour" and "work hour" are used a bit inconsistently in this topic, but I can't justify using one over the other so I left it alone.-->
+Bob is scheduled to drive around to deliver packages from 9:00 AM to 5:00 PM on May 15, 2021. Debbie uses the `msdyn_SaveCalendar` API.
 
 **Request**
 
@@ -276,7 +287,7 @@ Bob is scheduled to drive around to deliver packages from 9:00 AM to 5:00 PM on 
 
 ### Edit a working hour occurrence.
 
-Bob's schedule then changes to start from 10:00 AM on 15 May 2021. Debbie uses the `msdyn_SaveCalendar` API.
+Bob's schedule then changes to start at 10:00 AM on May 15, 2021. Debbie uses the `msdyn_SaveCalendar` API.
 
 **Request**
 
@@ -318,7 +329,7 @@ A family emergency comes up, and Bob needs to cancel his entire day of work. Deb
 
 ### Create a working hour daily recurrence
 
-Starting 20 May 2021, Bob decides to work with Contoso all week from 8:00 AM to 5:00 PM. He's going to stop working here on 15 July 2021.
+Starting May 20, 2021, Bob decides to work with Contoso all week from 8:00 AM to 5:00 PM. He's going to stop working there on July 15, 2021.
 
 **Request**
 
@@ -339,7 +350,7 @@ Starting 20 May 2021, Bob decides to work with Contoso all week from 8:00 AM to 
 
 ### Edit a working hour daily recurrence with increased capacity
 
-Bob decides to stop working all week on 15 June 2021 because he needs a break. Until then, he will continue the previously decided all-week schedule. Debbie makes these changes using the `msdyn_SaveCalendar` API.
+Bob decides to stop working for the entire week of June 15, 2021 because he needs a break. Until then, he'll continue the all-week schedule he previously agreed to<!--note from editor: Suggested.-->. Debbie makes these changes by using the `msdyn_SaveCalendar` API.
 
 **Request**
 
@@ -360,7 +371,7 @@ Bob decides to stop working all week on 15 June 2021 because he needs a break. U
 
 ### Create a working hour weekly recurrence
 
-Starting from 16 June 2021, Bob will work from 8:00 AM to 5:00 PM on Wednesdays and Fridays. He takes a break from 12:00 PM to 12:30 PM for lunch. Debbie uses the `msdyn_SaveCalendar` API. But oops, she makes a mistake and schedules the break from 12:00 PM to 1:00 PM.
+Starting from June 16, 2021, Bob will work from 8:00 AM to 5:00 PM on Wednesdays and Fridays. He takes a break from 12:00 PM to 12:30 PM for lunch. Debbie uses the `msdyn_SaveCalendar` API. But oops, she makes a mistake and schedules the break from 12:00 PM to 1:00 PM.
 
 **Request**
 
@@ -380,7 +391,7 @@ Starting from 16 June 2021, Bob will work from 8:00 AM to 5:00 PM on Wednesdays 
 
 ### Edit a break from a working hour weekly recurrence
 
-Debbie then corrects her mistake and changes the break to be from 12:00 PM to 12:30 PM using the `msdyn_SaveCalendar` API.
+Debbie then corrects her mistake and changes the break to occur from 12:00 PM to 12:30 PM by using the `msdyn_SaveCalendar` API.
 
 **Request**
 
@@ -400,7 +411,7 @@ Debbie then corrects her mistake and changes the break to be from 12:00 PM to 12
 
 ### Create a working hour custom recurrence
 
-Tim works for Contoso on Mondays from 8:00 AM to 5:00 PM, and Wednesdays from 11:00 AM to 3:00 PM. He started his role on 16 May 2021. Debbie uses the `msdyn_SaveCalendar` API to create Tim's work hours.
+Tim works for Contoso on Mondays from 8:00 AM to 5:00 PM, and Wednesdays from 11:00 AM to 3:00 PM. He started his role on May 16, 2021. Debbie uses the `msdyn_SaveCalendar` API to create Tim's work hours.
 
 **Request**
 
@@ -442,7 +453,7 @@ Tim's schedule then changes: his work hours are now Wednesdays 5:00 PM to 8:00 P
 
 ### Edit a working hour occurrence in a recurrence
 
-On 26 May 2021, Tim is only able to work from 1:00 PM to 7:00 PM. Debbie uses the ```msdyn_SaveCalendar``` API here.
+On May 26, 2021, Tim is only able to work from 1:00 PM to 7:00 PM. Debbie uses the `msdyn_SaveCalendar` API here.
 
 **Request**
 
@@ -463,7 +474,7 @@ On 26 May 2021, Tim is only able to work from 1:00 PM to 7:00 PM. Debbie uses th
 
 ### Delete a working hour custom recurrence
 
-Tim has to delete his entire schedule as he decides to leave the company. Debbie uses the `msdyn_DeleteCalendar` API here.
+Tim has to delete his entire schedule because he has decided to leave the company. Debbie uses the `msdyn_DeleteCalendar` API here.
 
 **Request**
 
@@ -482,9 +493,9 @@ Tim has to delete his entire schedule as he decides to leave the company. Debbie
 ```
 
 
-### Create a time off
+### Create time off
 
-Tim will be taking three days off for a family vacation starting on 9 June 2021.
+Tim will be taking three days off for a family vacation starting on June 9, 2021.
 
 **Request**
 
@@ -504,7 +515,7 @@ Tim will be taking three days off for a family vacation starting on 9 June 2021.
 
 ### Create all-day working hours
 
-Tim has a 72-hour shift starting 20 May 2021. Debbie uses the `msdyn_SaveCalendar` API to create his work hours.
+Tim has a 72-hour shift starting May 20, 2021. Debbie uses the `msdyn_SaveCalendar` API to create his work hours.
 
 **Request**
 
@@ -526,47 +537,48 @@ Tim has a 72-hour shift starting 20 May 2021. Debbie uses the `msdyn_SaveCalenda
 
 **StartTime cannot be greater or equal to EndTime.**
 
-Make sure there are no overlaps in the time slots of the different calendar rules. Check the dates to make sure **StartTime** is not greater than the **EndTime**. Also check the times - it should follow the 24-hour format. 
+Make sure there are no overlaps in the time slots of the different calendar rules. Check the dates to make sure **StartTime** isn't later than **EndTime**. Also, verify that the times follow the 24-hour format. 
 
-**There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted.** -or- **Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''.**
+**There was an error deserializing the object of type Microsoft.Dynamics.UCICalendar.Plugins.SaveCalendarContract+CalendarEventInfo. The input source is not correctly formatted.**<br>
+or<br>**Expecting state 'Element'.. Encountered 'Text' with name '', namespace ''.**
 
-Make sure that the string is parsed correctly. There might be missing brackets, commas, or semicolons.  
+Make sure that the string is parsed correctly. There might be missing brackets, commas, or semicolons.
 
 **Invalid recurrence pattern. Please refer to the documentation for supported patterns.**
 
-We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include lesser days. However, `FREQ` and `INTERVAL` values cannot be changed. Make sure there are no spaces in the pattern.
+We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include fewer days; however, `FREQ` and `INTERVAL` can't be changed. Make sure there are no spaces in the pattern.
 
 
 ## Time zone codes
-
+<!--note from editor: I removed the extra column delineator from the few entries that had them ("US & Canada," "Rangoon"). If you don't like, we need to add a third column and give it a heading. I can't think of any heading that would work though.-->
 |Enum | Time zone |
 |--|--|
 0                   | (GMT-12:00) International Date Line West
 1                   | (GMT+13:00) Samoa
 2                   | (GMT-10:00) Hawaii
 3                   | (GMT-09:00) Alaska
-4                   | (GMT-08:00) Pacific Time | (US &amp; Canada)
+4                   | (GMT-08:00) Pacific Time (US &amp; Canada)
 5                   | (GMT-08:00) Baja California
 6                   | (GMT-11:00) Coordinated Universal Time-11
 7                   | (GMT-10:00) Aleutian Islands
 8                   | (GMT-09:30) Marquesas Islands
 9                   | (GMT-09:00) Coordinated Universal Time-09
-10                  | (GMT-07:00) Mountain Time | (US &amp; Canada)
+10                  | (GMT-07:00) Mountain Time (US &amp; Canada)
 11                  | (GMT-08:00) Coordinated Universal Time-08
 12                  | (GMT-07:00) Chihuahua, La Paz, Mazatlan
 15                  | (GMT-07:00) Arizona
-20                  | (GMT-06:00) Central Time | (US &amp; Canada)
+20                  | (GMT-06:00) Central Time (US &amp; Canada)
 25                  | (GMT-06:00) Saskatchewan
 29                  | (GMT-06:00) Guadalajara, Mexico City, Monterrey
 33                  | (GMT-06:00) Central America
 34                  | (GMT-06:00) Easter Island
-35                  | (GMT-05:00) Eastern Time | (US &amp; Canada)
-40                  | (GMT-05:00) Indiana | (East)
+35                  | (GMT-05:00) Eastern Time (US &amp; Canada)
+40                  | (GMT-05:00) Indiana (East)
 43                  | (GMT-05:00) Haiti
 44                  | (GMT-05:00) Havana
 45                  | (GMT-05:00) Bogota, Lima, Quito, Rio Branco
 47                  | (GMT-04:00) Caracas
-50                  | (GMT-04:00) Atlantic Time | (Canada)
+50                  | (GMT-04:00) Atlantic Time (Canada)
 51                  | (GMT-05:00) Turks and Caicos
 55                  | (GMT-04:00) Georgetown, La Paz, San Juan
 56                  | (GMT-04:00) Santiago
@@ -631,7 +643,7 @@ We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,W
 197                 | (GMT+06:00) Omsk
 200                 | (GMT+05:30) Sri Jayawardenepura
 201                 | (GMT+07:00) Novosibirsk
-203                 | (GMT+06:30) Yangon | (Rangoon)
+203                 | (GMT+06:30) Yangon (Rangoon)
 205                 | (GMT+07:00) Bangkok, Hanoi, Jakarta
 207                 | (GMT+07:00) Krasnoyarsk
 208                 | (GMT+07:00) Barnaul, Gorno-Altaysk
@@ -671,7 +683,7 @@ We currently only support this pattern - `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,W
 300                 | (GMT+13:00) Nuku'alofa
 301                 | (GMT-05:00) Chetumal
 302                 | (UTC+02:00) Khartoum
-303                 | (GMT-03:00) Punta Arenas
+303                 | (GMT-03:00) Punta Arenas 
 304                 | (GMT+04:00) Volgograd
 305                 | (GMT-07:00) Yukon
 
