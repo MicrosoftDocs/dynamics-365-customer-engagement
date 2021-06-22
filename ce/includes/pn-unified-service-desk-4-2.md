@@ -1,1 +1,1 @@
-Unified Service Desk 4.2 (Preview)
+Unified Service Desk 4.2

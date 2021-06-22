@@ -13,7 +13,7 @@ search.app:
   - D365USD
 ---
 
-# Download and Install Best Practices Analyzer
+# Download and install the Best Practices Analyzer
 
 ## [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support matrix and download location
 
