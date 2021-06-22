@@ -1,12 +1,11 @@
 ---
-title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
-description: "Learn about downloading and installing the Best Practices Analyzer."
+title: "Download and install the Best Practices Analyzer | MicrosoftDocs"
+description: "Use this topic to get the download link to install the Best Practices Analyzer for Unified Service Desk."
+ms.date: 04/05/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -14,7 +13,7 @@ search.app:
   - D365USD
 ---
 
-# Download and Install Best Practices Analyzer
+# Download and install the Best Practices Analyzer
 
 ## [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support matrix and download location
 

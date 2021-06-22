@@ -1,12 +1,11 @@
 ---
 title: "FAQs about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) on the different features in Omnichannel for Customer Service and their requirements."
+ms.date: 05/24/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
@@ -51,9 +50,9 @@ If you would like to try out Chat for Dynamics 365 for free, sign up for a trial
 
 ## Agent experiences
 
-### Can I use Chat for Dynamics 365 in the Customer Service Hub app module or any custom app module?
+### In which apps can I use Chat for Dynamics 365?
 
-No. You can only use Chat in the **Omnichannel for Customer Service** app. The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md).
+You can use Chat in the Omnichannel for Customer Service and Customer Service Workspace apps.
 
 ### Can I work on cases along with chats?
 
@@ -79,29 +78,24 @@ No. You can consult with any available agent in the queue from which the chat or
 
 ### Can an agent who receives a consult also initiate a consult or transfer?
 
-No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent will become primary and can initiate further transfers or consults.
+No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent becomes the primary agent and can initiate further transfers or consults.
 
-### Why are my agents not receiving any new chats?
+### Why are my agents not receiving any new conversations?
 
-New conversation (chat) requests will be assigned to an agent when:
+New conversation requests are assigned to an agent when:
 
-- There is a new incoming chat request.
-- The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and work stream for an incoming chat in the Omnichannel Conversation Dashboard.
-- The agent present is set to an **Allowed Presence** for the workstream.
+- A new chat request comes in.
+- The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and workstream for an incoming chat in the Omnichannel Conversation Dashboard.
+- The agent presence is set to an **Allowed Presence** for the workstream.
 - The agent has capacity to receive the incoming chat from the workstream. Remaining capacity can be checked by tallying up the items assigned on the agent’s dashboard – including **Active** and **Wrap-up** – against the agent’s configured maximum capacity.
-
-If more than one agent meets the above conditions, they will be assigned chats in this order:
-
-- The agent with the most remaining capacity will receive the chat first.
-- If multiple agents have the same remaining capacity, the agent who has not been assigned work item for a longer duration will receive the new conversation request.
 
 ### Who can see internal messages?
 
-Agents and supervisors can see internal messages. The customer can’t see internal messages.
+Only agents and supervisors can see internal messages.
 
 ### What does the timer in the communication panel represent?
 
-The timer in the communication panel represents how long the current session tab has been open. If the chat has moved into a wrap state, the timer will reset and increment accordingly to show the wrap time. If the conversation is closed and reopened later, the timer will reset.
+The timer in the communication panel represents how long the current session tab has been open. If the chat has moved into a wrap-up state, the timer is reset and incremented accordingly to show the wrap-up time. If the conversation is closed and reopened later, the timer is reset.
 
 ### How do I open chats on my dashboard?
 
@@ -109,7 +103,7 @@ For information about managing work items from your dashboard, see [View agent d
 
 ### Where are conversations stored and how can I access them?
 
-Conversations and sessions are stored as activity types within the Model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
+Conversations and sessions are stored as activity types within the model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](oc-view-activity-types.md).
 
 ## Administration
 

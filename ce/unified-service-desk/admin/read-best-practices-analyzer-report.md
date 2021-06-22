@@ -1,12 +1,11 @@
 ---
 title: "Read Best Practices Analyzer Report | MicrosoftDocs"
-description: "Learn about how to read Best Practices Analyzer report."
+description: "Use this topic to understand the layout of the Best Practices Analyzer report and analyze the results of the report."
+ms.date: 05/15/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/15/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -16,9 +15,7 @@ search.app:
 
 # Read Best Practices Analyzer report
 
-This section describes the layout of the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] report and provides information to help you understand the results of the analysis.
-
-![Read Best Practices Analyzer report](../media/bpa-read-report.gif "Read Best Practices Analyzer report")
+This section describes the layout of the Best Practices Analyzer report and provides information to help you understand the results of the analysis.
 
 ![Best Practices Analyzer report](../media/bpa-report.PNG "Best Practices Analyzer report")
 

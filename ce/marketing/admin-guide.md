@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Administrator Guide (Marketing)
+# Administrator guide (Marketing)
 
 <table>
 
@@ -33,7 +33,7 @@ search.app:
 <li><a href="open-settings.md" data-raw-source="[Open the administration settings](open-settings.md)">Open the administration settings</a></li>
 <li><a href="navigation.md" data-raw-source="[Find your way around](navigation.md)">Find your way around</a></li>
 <li><a href="get-ready-email-marketing.md" data-raw-source="[Best practices for email marketing](get-ready-email-marketing.md)">Best practices for email marketing</a></li>
-<li><a href="setup-troubleshooting.md" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.md)">Administration and setup FAQ</a></li>
+<li><a href="setup-troubleshooting.yml" data-raw-source="[Administration and setup FAQ](setup-troubleshooting.yml)">Administration and setup FAQ</a></li>
 
 </td><td>
 

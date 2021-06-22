@@ -1,12 +1,11 @@
 ---
 title: "Azure subscription prerequisites for Connected Customer Service with IoTHub | MicrosoftDocs"
 description: "Learn about prerequisites and considerations for your Azure subscription When deploying and administering Connected Customer Service (CFS) with IoTHub."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Azure subscription prerequisites for Connected Customer Service with IoTHub

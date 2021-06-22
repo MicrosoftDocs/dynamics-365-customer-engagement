@@ -1,12 +1,11 @@
 ---
 title: "Set up record routing | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
+ms.date: 05/31/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Set up record routing
@@ -16,6 +15,11 @@ ms.service: dynamics-365-customerservice
 You can configure routing for records in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
 If you have only Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
+
+> [!IMPORTANT]
+> 
+> - Once you enable the unified routing feature in the configuration settings, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
+> - If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in Omnichannel admin center.
 
 ## Prerequisites
 
@@ -29,16 +33,32 @@ To provision unified routing in Customer Service, do the following:
 
 1. In Customer Service Hub, go to **Service Management**.
 2. In the site map, under **Service Terms**, select **Service Configuration**.
-3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see a message that unified routing is being provisioned.
-   
-> [!IMPORTANT]
-> If you are upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you enable unified routing only after recreating the required workstreams for record routing.
+3. On the page that appears, in **Unified routing**, set the toggle to **Yes** for **Turn on unified routing**. You'll see one of the following:
+
+   - A request to grant consent to access data.
+
+      > [!div class=mx-imgBorder]
+      > ![Consent to allow access to data](media/data-consent.png "Consent to allow access to data")
+
+     The permissions are as follows:
+      - **Access Common data Service as organization users**: Is required by Omnichannel for Customer Service to write conversation data to Dynamics 365 on behalf of the agent.
+      - **Sign in and read user profile**: Is required for the app to acquire an Azure Active Directory token as the user to access Omnichannel for Customer Service back-end applications.
+      - **Read and write all dashboards, Read and write all reports, Read and write all workspaces**: Are required for Omnichannel for Customer Service analytics. The application is used for configuring analytics for the customer using Microsoft Power BI, which requests access to Power BI workspaces or reports.
+
+      Select **Accept**. The provisioning of unified routing starts.
+
+   - A message that unified routing is being provisioned.
+
+   If Omnichannel for Customer Service is available but not provisioned or upgraded to the latest release, one of the following messages will be displayed above the **Turn on unified routing** toggle:
+
+   - "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
+   - "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
 
 After unified routing is provisioned, for Customer Service users, the site map is updated with the **Unified Routing** area.
 
-However, the site map will also be updated with the **Unified Routing** area for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service. This will happen even if you don't enable unified routing.
+However, the site map will also be updated with the **Unified Routing** area for users of Customer Service and Omnichannel for Customer Service if you install or upgrade Omnichannel for Customer Service.
 
-> ![Site map view for unified routing](media/enable-unified-routing.png)
+> ![Site map view for unified routing](media/unified-routing-site-map.png)
 
 ## Configure unified routing for records
 
@@ -79,9 +99,9 @@ Perform the following steps to configure the intake rules:
 1. Select the workstream that you configured for routing records, such as the case.
 2. In the **Intake rules** area, select **Create rule**.
 3. In the **Create intake rule** dialog box, enter a name and define the conditions for the rule.
-   
+
    ![Intake rule](media/ur-intake-rule.png "Intake rule")
-   
+
 4. Select **Create**.
 
 The following screenshot shows a workstream with the required intake rule and route to queues.
@@ -101,37 +121,6 @@ The following screenshot shows a workstream with the required intake rule and ro
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    > [!NOTE]
    > The agent notifications that you configure for routing of records based on unified routing will be displayed only in the Customer Service workspace and Omnichannel for Customer Service apps.
-
-## Create record workstream in Omnichannel Administration
-
-This section describes how to create a workstream for a record that has been enabled for routing. The records that you want to configure routing for should also be enabled in your environment. More information: [Enable records for routing](entity-channel.md#step-3-enable-record-for-routing).
-
-1. Sign in to the Omnichannel Administration app.
-
-2. Select **Work Streams** under **Channels** in the sitemap.
-
-3. Select **New** on the **Active Work Streams** page.
-
-4. Specify the following on the **New Work Stream** page:
-
-   | Tab | Field | Value | Description |
-   |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
-   | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** The value provided is an example.  |
-   | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
-   | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create an entity, select **+ New**. To learn more, see [Enable entity for routing](entity-channel.md#step-3-enable-record-for-routing). |
-   | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** The value provided is an example. |
-   | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
-   | Work Distribution | Allowed Presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** The value provided is an example. |
-   ||||
-
-   > [!div class=mx-imgBorder] 
-   > ![New case workstream](media/case-ws3.png "New case workstream")
-
-5. Select **Save** to save the workstream.
-
-### Upgrade path for preview users
-
-If you're upgrading from preview release to the latest version, then earlier configured workstreams will be obsolete. You'll need to create a new records channel and then redefine the workstreams. To learn more, see [Records routing](entity-channel.md).
 
 ### See also
 

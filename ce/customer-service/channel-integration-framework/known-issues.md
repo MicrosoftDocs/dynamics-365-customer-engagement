@@ -1,18 +1,15 @@
 ---
-title: "Known issues and resolutions for Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: "Learn about known issues and resolutions for Dynamics 365 Channel Integration Framework."
+title: "Known issues for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
+description: "Learn about known issues and workarounds for Dynamics 365 Channel Integration Framework."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# Known issues and resolutions for Dynamics 365 Channel Integration Framework
+# Known issues and workarounds for Dynamics 365 Channel Integration Framework
 
 Here are some common issues that you might encounter while using Dynamics 365 Channel Integration Framework.
 

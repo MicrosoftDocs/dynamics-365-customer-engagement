@@ -1,24 +1,23 @@
 ---
-title: "Use IE Process hosting method for your controls in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the IE process hosting methods for your controls in Unified Service Desk."
+title: "Use the IE Process hosting method for hosting web applications | MicrosoftDocs"
+description: "Learn about the IE Process hosting method and its advantages for hosting your controls in Unified Service Desk."
+ms.date: 12/01/2018
+ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/01/2018
-ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Use IE Process to host web applications (Deprecated)
+# Use IE Process to host web applications 
 
 > [!Note]
 >

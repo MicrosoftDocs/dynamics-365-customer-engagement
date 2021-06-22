@@ -1,20 +1,19 @@
 ---
 title: "Debug your custom code for Unified Service Desk | MicrosoftDocs"
-description: "Learn about debugging your custom code that you create for Unified Service Desk."
+description: "Learn to debug your custom code for Unified Service Desk by setting Visual Studio project properties."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Debug your custom code for Unified Service Desk
 

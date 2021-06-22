@@ -1,5 +1,6 @@
 ---
-title: "Business process flows overview (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Business process flows overview Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to create and add business process flows to your apps
 ms.custom: 
 ms.date: 02/21/2020
 ms.reviewer: 

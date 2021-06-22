@@ -1,12 +1,11 @@
 ---
 title: "Introduction to Customer Service | MicrosoftDocs"
 description: "Learn about Customer Service Hub."
+ms.date: 07/31/2019
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/31/2019
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 ---

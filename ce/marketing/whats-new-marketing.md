@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/13/2021
+ms.date: 06/09/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -22,10 +22,66 @@ search.app:
 
 We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
-Marketing updates are [pushed to all customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
+Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Marketing follows a [phased deployment approach](https://dynamics.wiki/index.php/Dynamics_365_Marketing_Overall_Release_Calendar) aligned with the platform deployment schedule. Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## June 2021 update
+
+The Dynamics 365 Marketing June 2021 update includes improved engagement-tracking for Microsoft Teams events, email editor improvements, an option to include iCalendar files in emails, improved bounce error notifications, performance upgrades, and bug fixes.
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10073.2001 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+### Monthly enhancements
+
+- **Event management**
+    - Seamlessly push webinar attendee data from Microsoft Teams to Dynamics 365 Marketing. Use the data to engage with attendees and gain insights.
+    - Attendee registrations and check-ins for Teams webinars are available in Marketing, regardless of whether the Teams webinar was created through Teams or event management in Marketing.
+    - Create segments, powered by Teams registration and check-in information, to share event summaries and recordings.
+    - Use check-in information segments to gather attendee feedback to better understand what kind of webinars attendees would like to see in the future.
+- **Marketing emails**
+    - “Add to Calendar” email button functionality automatically generates iCalendar files for events and sessions. Event attendees receive a personalized link to download their agenda as a calendar file.
+    - Test send UI improvements.
+    - Ability to set up a physical company address in the email editor.
+    - Improved email rendering and reliability.
+    - More visibility for bounces caused by suppression lists, allowing users to differentiate between new and old bounces.
+    - Detailed bounce error codes are displayed, leading to an improved understanding of bounce causes.
+
+### Bug fixes
+
+- **Customer journeys**
+    - Fixed an issue that prevented date and time input when adding a second **Wait until** tile.
+    - Customer journeys now show an error if segmentation times out while going live.
+    - Fixed an issue that caused an error when attempting to stop a campaign with multiple iterations.
+    - Fixed an error related to the time control on the **Permitted times** setting.
+- **Event management**
+    - Resolved an issue that caused a business process error to appear instead of a "Check-in is already created for this registration" error.
+    - Fixed an error that cause recording and attendance data to disappear when pushing ExtensionData to SchedulingService.
+    - Deactivated registration responses for canceled registrations.
+- **Marketing emails**
+    - Improved rendering in Outlook when adding images to columns with borders.
+    - Fixed an error that caused changes in the HTML editor to not correctly propagate to entities.
+- **Marketing insights**
+    - Improved sorting of segment records.
+- **Marketing pages**
+    - Fixed an issue that sometimes caused a delete button to appear for users without delete and write permissions.
+    - Resolved an error that sometimes led to form double submission when using a redirect URL.
+    - Resolved a form ID error when a form is inserted into a page multiple times.
+- **Settings**
+    - Resolved an error that occasionally prevented the **Versions** page from loading.
+    - Improved language localization in advanced settings.
+- **Shared UX**
+    - Improved rendering of custom controls in forms.
+- **Social posting**
+    - Removed exception on assigning a lead owner when no LinkedIn account is set.
 
 ## May 2021 update
 
@@ -51,7 +107,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
 | Marketing        | 1.35.10072.1070 |
 
 > [!Tip]
-> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 ### Preview features
 
@@ -71,7 +127,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
     - [Docs](real-time-marketing-email.md#ai-driven-image-suggestions)
 - **Author personalized content across email, SMS, and push notifications through a new point-and-click interface**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/author-dynamic-content-ease-through-new-point-and-click-interface)
-    - [Docs](real-time-marketing-email.md#to-add-personalized-data-to-a-real-time-marketing-email)
+    - [Docs](real-time-marketing-email.md#add-personalized-data-to-a-real-time-marketing-email)
 - **Create and send SMS messages to any mobile phone**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/create-send-sms-messages-mobile-phone)
     - [Docs](real-time-marketing-outbound-text-messaging.md)
@@ -163,7 +219,7 @@ This release also includes social posting to Instagram, an API to enable or disa
 | Marketing        | 1.35.10071.2007 |
 
 > [!Tip]
-> To check your current version number, refer to go **Settings** > **Overview** > **Versions**.
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
 
 ### Monthly enhancements
 

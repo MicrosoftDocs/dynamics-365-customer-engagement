@@ -88,8 +88,6 @@
         href: chat-dynamics365-customer-service-demo-data.md
       - name: Quickly configure a chat widget
         href: configure-live-chat.md
-      - name: Understand routing and work distribution
-        href: unified-routing-work-distribution.md
   - name: User management
     items: 
     - name: Create users and assign security roles
@@ -104,6 +102,8 @@
         href: overview-unified-routing.md
       - name: How routing and assignment works
         href: set-up-routing-process.md
+      - name: Routing and assignment rules
+        href: routing-workstream-queues.md
     - name: Administrator experience
       items:
       - name: Create and manage workstreams
@@ -125,13 +125,11 @@
         - name: Configure work classification rulesets for unified routing
           href: configure-work-classification.md
         - name: Set up routing and assignment rules in Omnichannel Administration
-          href: routing-rules.md  
+          href: routing-rules.md
       - name: Configure work assignment
         items:
-        - name: Routing and assignment rules
-          href: routing-workstream-queues.md        
         - name: Configure assignment methods for queues
-          href: assignment-methods.md     
+          href: assignment-methods.md
       - name: Set up record routing
         items: 
         - name: Set up unified routing for records
@@ -140,31 +138,27 @@
           href: set-up-entity-workstream.md
         - name: Create multiple workstreams for records in Omnichannel Administration
           href: multiple-ws-entity-record-routing.md  
-        - name: Automatically route cases using basic routing rulesets
-          href: create-rules-automatically-route-cases.md
-        - name: Enable records for routing
+        - name: Route records in Omnichannel Administration app
           href: entity-channel.md
-        - name: Set up basic routing for records
-          href: routing-trigger.md
+        - name: Automatically route records using custom flow
+          href: routing-trigger-automatic.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
           href: overview-skill-work-distribution.md
-        - name: Enable agents to attach skills, create rating models
-          href: enable-skill-routing-create-rating-model.md
-        - name: Set up skill finder model
-          href: intelligent-skill-model.md
-        - name: Set up skills, assign agents
+        - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Attach skills to conversations in Omnichannel Administration
+        - name: Enable agents to update skills
+          href: allow-agents-update-skills.md
+        - name: Set up skill-based routing for unified routing
+          href: set-up-skill-based-routing.md
+        - name: Set up skill-based routing in Omnichannel Administration
           href: attach-skills.md
-        - name: Add skill control for routed records
-          href: add-skill-control.md
       - name: Configure basic routing
         items:
         - name: Create and manage basic queues for cases
           href: set-up-queues-manage-activities-cases.md
-        - name: Automatically route cases using basic rule sets
+        - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
         - name: Set up routing for conversations in Omnichannel for Customer Service
           href: understand-omnichannel-customer-service-hub.md
@@ -178,12 +172,26 @@
           href: role-persona-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
+      - name: Understand routing and work assignment in Omnichannel Administration
+        href: unified-routing-work-distribution.md  
+    - name: Agent experience
+      items:
+      - name: Route records manually using unified routing
+        href: routing-trigger.md
+      - name: Work with queues
+        href: work-with-queues.md
+      - name: Manage case queues and route cases
+        href: customer-service-hub-user-guide-case-queues-and-routing.md
     - name: Developer experience
       items: 
       - name: How unified routing affects queue items and their APIs
         href: unified-routing-impact-on-APIs.md
+      - name: Add a skill control for routed records
+        href: add-skill-control.md
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
+      - name: Route non-case records using a plug-in
+        href: trigger-routing-non-case-records.md
   - name: Case management
     items: 
     - name: Administrator experience
@@ -200,10 +208,6 @@
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
-      - name: Manage case queues and route cases
-        href: customer-service-hub-user-guide-case-queues-and-routing.md
-      - name: Work with queues
-        href: work-with-queues.md        
       - name: View, block, or deactivate a social profile
         href: view-block-deactivate-social-profile.md
       - name: Convert a case to a knowledge article
@@ -315,6 +319,8 @@
       - name: Create and manage knowledge articles
         href: customer-service-hub-user-guide-knowledge-article.md
       - name: Search for knowledge articles
+        href: csw-search-knowledge-articles.md
+      - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
       - name: Search for knowledge articles on smart assist
         href: oc-search-knowledge-articles.md
@@ -398,9 +404,9 @@
         href: oc-real-time-translation.md
     - name: Developer experience
       items: 
-      - name: Customize a chat widget
+      - name: Customize chat widgets using data tags
         href: customize-chat-widget.md
-      - name: Render live chat widget on mobile app
+      - name: Customize live chat widgets for mobile apps
         href: render-live-chat-widget-mobile.md
       - name: Download transcripts in bulk
         href: download-transcripts-bulk.md
@@ -598,6 +604,8 @@
         href: bot-escalate-end-conversation.md
       - name: Download attachments from Azure bot
         href: download-attachments-bot.md
+      - name: Get user details on Teams from Azure bot
+        href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
       - name: Download attachments from Power Virtual Agents bot
@@ -630,8 +638,12 @@
         href: configure-intraday-dashboard-supervisor.md
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
-      - name: Provide access to Ongoing Conversations dashboard
-        href: configure-ongoing-conversations-dashbaord.md
+      - name: Enable supervisor settings
+        items:
+        - name: Provide access to Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Enable supervisors to monitor, assign, and transfer conversations
+          href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
       - name: Configure Omnichannel Insights dashboards
@@ -680,7 +692,7 @@
           href: omnichannel-insights-dashboard.md
       - name: Monitor conversations
         items: 
-        - name: Monitor and assign conversations
+        - name: Monitor, assign, and transfer conversations
           href: monitor-conversations.md
         - name: Monitor and analyze sentiments
           href: supervisor-sentiment-monitoring.md
@@ -1190,8 +1202,8 @@
       href: troubleshoot-sla-issues.md
     - name: Unable to delete a managed solution
       href: troubleshoot-delete-managed-solution.md
-    - name: Known issues
-      href: omnichannel-readme.md
+    - name: Known issues in Customer Service and Omnichannel for Customer Service
+      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
     - name: Troubleshoot with Solution Health Hub

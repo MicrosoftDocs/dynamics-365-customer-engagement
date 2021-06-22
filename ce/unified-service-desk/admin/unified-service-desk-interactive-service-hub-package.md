@@ -1,20 +1,19 @@
 ---
-title: "Unified Service Desk  - Interactive service hub package | MicrosoftDocs"
-description: "Overview of the Interactive service hub sample application."
+title: "Unified Service Desk&mdash;Interactive service hub package | MicrosoftDocs"
+description: "Learn about the Interactive Service Hub sample application that's part of Unified Service Desk and how you can use it."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Interactive service hub sample application package
 
