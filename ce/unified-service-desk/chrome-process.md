@@ -532,11 +532,10 @@ The Chrome Process provides many options that can be used on the webpages within
 6. For the **Name** field, enter **ChromeProcessParameters**.
 
 7. For the **Value** field, enter a valid Chrome process parameter.
-    
+
     The format to add the parameters is:<br> ` --force-ui-direction:rtl;--force-text-direction:rtl;--log-level:3 `.
-    
-    Note that the parameters are separated by semicolons. 
-    More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189).
+  
+    Note that the parameters are separated by semicolons. More information: [Chromium command-line switches](https://go.microsoft.com/fwlink/p/?linkid=2149189)
 
 8. Select **Save**.
 
@@ -604,10 +603,6 @@ Chrome Process supports the ability to check spelling on webpages within Unified
     > Only the locales available in the path C:\Program Files\Microsoft Dynamics CRM USD\USD\locales are supported.
 
 8. Select **Save**.
-
-## Limitations
-
-To learn about the limitations of Chrome Process, go to [Chrome Process limitations](release-notes.md).
 
 
 ### See also

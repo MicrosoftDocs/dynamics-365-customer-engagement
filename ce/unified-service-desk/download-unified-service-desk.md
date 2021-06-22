@@ -12,6 +12,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+monikerRange: '>= dynamics-usd-4'
 ms.custom: 
   - dyn365-USD
 ---
@@ -31,9 +32,7 @@ This topic provides information about the location from where you can download v
 |------------------|---------------|
 | [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2159819) |
 
-
-::: moniker-end 
-
+::: moniker-end
 
 ::: moniker range="dynamics-usd-4.1"
 
@@ -78,6 +77,5 @@ This section provides information about the tools that help you efficiently admi
 | Best Practices Analyzer 1.0 |  [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
 | Unified Service Desk Performance Analyzer 1.0 |[Download](https://go.microsoft.com/fwlink/p/?linkid=2034281) |
 |||
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
