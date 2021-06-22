@@ -16,7 +16,7 @@ ms.custom:
   - dyn365-USD
 ---
 # WinDDA events
-The [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-driven adapter (DDA) distinguishes between two types of events, application events and control events. This topic describes these two events.  
+The [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-driven adapter (DDA) distinguishes between two types of events&mdash;application events and control events. This topic describes these two events.  
   
 <a name="control"></a>   
 ## Control events  
