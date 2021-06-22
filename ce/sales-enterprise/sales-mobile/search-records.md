@@ -1,7 +1,7 @@
 ---
 title: Search records in the Dynamics 365 Sales mobile app
 description: Learn how to search records in the Dynamics 365 Sales mobile app.
-ms.date: 06/2/2021
+ms.date: 06/22/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
