@@ -1,10 +1,11 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 05/03/2021
+ms.date: 06/22/2021
 ms.topic: article
-author: udaykirang
-ms.author: udag
+ms.service: dynamics-365-sales
+author: sbmjais
+ms.author: shjais
 manager: shujoshi
 ---
 
@@ -103,7 +104,16 @@ The **Recent** option, listed at the top of the site map, displays the records t
 
 Select the bidirectional arrows in the upper-right corner to switch to other menus such as App settings and Sales Insights settings.  
 
-## See also
+## Mobile app settings
+
+The **Settings** panel provides more information about the app, helpful links to submit ideas, report issues, and share feedback, and a sign-out option.
+
+To open the **Settings** panel, tap your profile picture at the upper left of the screen, and then tap **Settings**.
+
+More information: [Dynamics 365 Sales mobile app settings](app-settings.md)
+
+
+### See also
 
 [View meetings](view-agenda.md)    
 [Open a record](open-record.md)
