@@ -16,7 +16,7 @@ search.audienceType:
 
 # Client APIs not supported in Dynamics 365 Customer Engagement (on-premises)
 
-This section provides information about client APIs that are not supported in Dynamics 365 Customer Engagement (on-premises). Unless otherwise specified, all the client APIs should works for both online and on-premises environments. For a list of all the client APIs that support both online and on-premises environment, see [Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference).
+This section provides information about client APIs that are not supported in Dynamics 365 Customer Engagement (on-premises). Unless otherwise specified, all the client APIs should works for both online and on-premises environments. For a list of all the client APIs that support both online and on-premises environment, see [Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference) in Power Apps docs.
 
 
 |Client API| Methods/Properties|
