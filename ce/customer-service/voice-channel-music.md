@@ -22,8 +22,28 @@ ms.service: dynamics-365-customerservice
 
 ## Step 1:
 
+
+
+
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/voice-channel-music-number.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-music-language.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-music-select.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-music-customer-settings.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-music-add-new.png)
 
 
 ## Step 2:
