@@ -21,7 +21,7 @@ search.app:
 
 # Edit work hour calendars by using APIs 
 
-Organizations often need to programmatically create, edit, or delete work hours on the calendars of their resources. Calendars show working hours, time off, and breaks that determine the availability of a resource when work is being scheduled. Those resources must be scheduled in specific time zones, might or might not observe business closures, and can have variable capacity. For information about defining work hours in the Field Service app<!--note from editor: Suggested.-->, go to [Add work hours to a bookable resource](/dynamics365/field-service/set-up-bookable-resources#add-work-hours).<!--note from editor: Edits suggested. I realize the second sentence is passive voice now, but otherwise we had a bit of a misplaced modifier.-->
+Organizations often need to programmatically create, edit, or delete work hours on the calendars of their resources. Calendars show working hours, time off, and breaks that determine the availability of a resource when work is being scheduled. Those resources must be scheduled in specific time zones, might or might not observe business closures, and can have variable capacity. For information about defining work hours in the Field Service app, go to [Add work hours to a bookable resource](/dynamics365/field-service/set-up-bookable-resources#add-work-hours).
 
 In addition to using the Field Service app, you can use the following APIs to modify calendar rules for selected record types:
 
@@ -39,21 +39,21 @@ This topic contains details about each API's input (request) and output (respons
   - [Work hour template](/dynamics365/customer-engagement/web-api/msdyn_workhourtemplate?view=dynamics-ce-odata-9&preserve-view=true)
   - [Project](/dynamics365/customer-engagement/web-api/msdyn_project?view=dynamics-ce-odata-9&preserve-view=true)
 
-## Calendar event types<!--note from editor: Edit suggested.-->
+## Calendar event types
 
-When you create a calendar, you define how many times a [work hour type](#work-hour-types) will occur&mdash;once, all day, every week, or every day, or you can create a custom recurrence. For more information about these calendar events, go to the [examples later in this topic](#example-scenarios-for-api-usage).<!--note from editor: Suggested, just to give a bit more context and to move the general information references out of the first section, since they apply to all these events.-->
+When you create a calendar, you define how many times a [work hour type](#work-hour-types) will occur&mdash;once, all day, every week, or every day, or you can create a custom recurrence. For more information about these calendar events, go to the [examples later in this topic](#example-scenarios-for-api-usage).
 
 ### Occurrence
 
 When a work hour type occurs only once in the entity's calendar, it's called an *occurrence*.
 
-For example, consider a resource working from 5:00 AM to 10:00 AM on May 26, 2021.<!--note from editor: Microsoft Writing Style Guide wants us to use the US pattern for dates, and for some reason it pleases me. I realize the API and code samples use ISO format, but in the discussions we don't use the 24-hour format either. I think it's clear that the code takes a different format for both date and time.--> These APIs only support this type of occurrence, which starts and ends within the same day. For another example, consider a resource working from May 26, 2021 at 8:00 PM 10:00 AM on May 27, 2021. You can't create this occurrence by using just one call of the `msdyn_SaveCalendar` API; you need to make two calls instead.  .<!--note from editor: I deleted "The only exception to this rule is when it is an all-day occurrence" because you go right into explaining the rule for all-day occurrences in the next paragraph.-->
+For example, consider a resource working from 5:00 AM to 10:00 AM on May 26, 2021. These APIs only support this type of occurrence, which starts and ends within the same day. For another example, consider a resource working from May 26, 2021 at 8:00 PM 10:00 AM on May 27, 2021. You can't create this occurrence by using just one call of the `msdyn_SaveCalendar` API; you need to make two calls instead. 
 
 ### All-day occurrence
 
-When a work hour type occurs for one or more whole days, starting at midnight (12:00 AM) of the start date, it's an *all-day occurrence*. The maximum duration for an all-day occurrence is five years.<!--note from editor: Is this what you mean by "maximum period"? I suggest using "duration" unless you mean that all-day occurrences can only be scheduled five years out.-->
+When a work hour type occurs for one or more whole days, starting at midnight (12:00 AM) of the start date, it's an *all-day occurrence*. The maximum duration for an all-day occurrence is five years.
 
-For example, a resource works all day from May 26, 2021 to the end of the day on May 30, 2021. This is an all-day occurrence that lasts five days.<!--note from editor: Suggested. (If true?) -->
+For example, a resource works all day from May 26, 2021 to the end of the day on May 30, 2021. This is an all-day occurrence that lasts five days.
 
 ### Weekly recurrence
 
@@ -63,19 +63,19 @@ For example, a resource works from 5:00 AM to 10:00 AM every Monday, Tuesday, an
 
 ### Daily recurrence
 
-When a work hour type occurs at the same time every day, it's called a *daily recurrence*.<!--note from editor: Just curious, does this really mean seven days a week?-->
+When a work hour type occurs at the same time every day, it's called a *daily recurrence*.
 
 For example, a resource works from 5:00 AM to 10:00 AM every day of the week.
 
 ### Custom recurrence
 
-When a work hour type occurs at certain times on certain days of the week, but the times are different on different days, you can create a *custom recurrence*.<!--note from editor: Suggested.-->
+When a work hour type occurs at certain times on certain days of the week, but the times are different on different days, you can create a *custom recurrence*.
 
 For example, a resource works from 5:00 AM to 10:00 AM every Monday, and 12:00 PM to 3:00 PM every Wednesday.
 
 ## Work hour types
 
-These APIs<!--note from editor: Here and throughout, is the edit from "this API" to "these APIs" okay? Since this article is talking about two APIs.--> support create, update, and delete operations for the following work hour types:
+These APIs support create, update, and delete operations for the following work hour types:
 
 - [Working hours](#working-hours)
 - [Non-working hours](#non-working-hour)
@@ -104,7 +104,7 @@ Using this API, you can't do the following:
 
 - Delete a single working hour occurrence from a recurrence.
 - Create an occurrence that spans 24 hours but doesn't start and end at midnight (12:00 AM).
-- Create, edit, or delete an all-day recurrence.<!--note from editor: What is an "all-day recurrence"? It hasn't been defined.-->
+- Create, edit, or delete an all-day recurrence.
 
 ### Non-working hour
 
@@ -154,7 +154,7 @@ You can [create business closure entities](/dynamics365/customer-service/set-whe
 
 ### Input
 
-The request contains only one attribute&mdash;**CalendarEventInfo**, which is a **String** type. It contains several other attributes that are all embedded in this string.<!--note from editor: I'm going by MWSG, which calls for bold for attributes and data types. The key names and values, I just took a stab at making consistent.-->
+The request contains only one attribute&mdash;**CalendarEventInfo**, which is a **String** type. It contains several other attributes that are all embedded in this string.
 
 > [!NOTE]
 > In the following table, **Type** represents the format expected to make a successful request. However, the whole request is parsed as a single string.
@@ -188,10 +188,10 @@ The request contains only one attribute&mdash;**CalendarEventInfo**, which is a 
 
 |Name	|Type|	Required|	Description|
 | :-------- | :--------- | :--------- | :------ |
-|StartTime|	DateTime|	Yes|	This key contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the start time of the work hour in the time zone specified earlier. The date portion determines the start date of the work hour. Here, May 15, 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was `BYDAY=TU,WE`, but May 15 (a Saturday) is the date, the API will automatically create or edit rules for all Tuesdays and Wednesdays following May 15. This is case where the rule doesn't have to have the date corresponding to the day.<!--note from editor: Suggested, if it's accurate. I thought this was a bit ambiguous.--> | 
-|EndTime|	DateTime|	Yes|	This contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the end time of the work hour in the time zone specified earlier. The date portion *must* contain the same date as the date portion of the **StartTime**. The only exceptions are:<ul><li>If it's an all-day occurrence. In this case, the date portion should reflect the end date of the all-day occurrence.</li><li>The occurrence ends at the end of the day, that is, 12:00 AM of the following day. In this case, the date should be `\"2021-05-16T00:00:00.000Z\"`. To specify the end date of the recurrence, modify the **RecurrenceEndDate** attribute.</li></ul><!--note from editor: I'm not sure whether this last sentence should be part of the second bullet or should it be outside of the list entirely?--> |
+|StartTime|	DateTime|	Yes|	This key contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the start time of the work hour in the time zone specified earlier. The date portion determines the start date of the work hour. Here, May 15, 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was `BYDAY=TU,WE`, but May 15 (a Saturday) is the date, the API will automatically create or edit rules for all Tuesdays and Wednesdays following May 15. This is case where the rule doesn't have to have the date corresponding to the day. | 
+|EndTime|	DateTime|	Yes|	This contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the end time of the work hour in the time zone specified earlier. The date portion *must* contain the same date as the date portion of the **StartTime**. The only exceptions are:<ul><li>If it's an all-day occurrence. In this case, the date portion should reflect the end date of the all-day occurrence.</li><li>The occurrence ends at the end of the day, that is, 12:00 AM of the following day. In this case, the date should be `\"2021-05-16T00:00:00.000Z\"`. To specify the end date of the recurrence, modify the **RecurrenceEndDate** attribute.</li></ul> |
 |WorkHourType	|Integer|	Yes	|This key contains a number corresponding to one of the following options:<ul><li>(0) Working</li><li>(1) Break</li><li>(2) Non-working</li><li>(3) Time Off</li></ul>|
-| Effort |	Integer	| No |	This key determines the capacity of the entity. It must be a whole number. The default value is 1.<!--note from editor: Might it be good to link to more information about capacity here?-->|
+| Effort |	Integer	| No |	This key determines the capacity of the entity. It must be a whole number. The default value is 1. |
 
 ### Output
 
@@ -218,7 +218,7 @@ This POST API deletes calendar rule records for the selected entity. Additionall
 
 |Name |	Type|	Description|
 |:--|:--|:--|
-|InnerCalendarIds|	String|	An array of **InnerCalendarIds** GUIDs<!--note from editor: Edit okay? To be parallel.--> that are a result of the POST operation.|
+|InnerCalendarIds|	String|	An array of **InnerCalendarIds** GUIDs that are a result of the POST operation.|
 
 ## How to call the APIs
 
@@ -226,7 +226,7 @@ These APIs can be called by using the browser.
 
 1. Open the browser and the org in which you need to make these calendar changes.
 2. Open Developer Tools (select **Ctrl**+**Shift**+**I** in Microsoft Edge, select **F12** in Google Chrome).
-3. In the console, enter the following function, after replacing [org-name] with org details (for example, `http://rstest.crm.dynamics.com`<!--note from editor: Suggest removing the "live" nature of this link. By the way, is there some significance to this URL? Or could it be something like `http://your_org.crm.dynamics.com`?-->):
+3. In the console, enter the following function, after replacing [org-name] with org details (for example, `http://your_org.crm.dynamics.com`):
 
 ```
        function CalendarAction(action, data) {
@@ -251,13 +251,13 @@ These APIs can be called by using the browser.
        }
 ```
 
-4. After this function is defined, you can call it to create, edit, or delete calendars by using the APIs. Enter the following call:<!--note from editor: What will be the result of this call? Is it just an example? I'm a bit confused by how this step is related to the sentence that follows it.-->
+4. After this function is defined, you can call it to create, edit, or delete calendars by using the APIs. Enter the following call:
 
 ```
         CalendarAction("msdyn_SaveCalendar", {"CalendarEventInfo":"{\"CalendarId\":\"df0857c4-50f5-4576-8e89-   f236670ad2d5\",\"ObjectTypeCode\":1150,\"TimeZoneCode\":92,\"StartDate\":\"2021-04-25T00:00:00.000Z\",\"IsVaried\":false,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-04-25T08:00:00.000Z\",\"EndTime\":\"2021-04-25T17:00:00.000Z\",\"Duration\":540,\"Effort\":1,\"TimeCode\":0,\"SubCode\":1}]}]}"})
 ```
 
-See the following section for examples of how to make different calls based on your needs. Replace the `action` of the function call in step 3<!--note from editor: Edit okay? I assume this is where they need to look to find "action" and data".--> with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar`, and replace `data` with the relevant `CalendarEventInfo`.
+See the following section for examples of how to make different calls based on your needs. Replace the `action` of the function call in step 3 with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar`, and replace `data` with the relevant `CalendarEventInfo`.
 
 ## Example scenarios for API usage
 
@@ -266,7 +266,7 @@ Let's walk through some scenarios that you can use these APIs for.
 Bob and Tim are delivery truck drivers for Contoso Enterprises in Bellevue, Washington. Their dispatcher, Debbie, is responsible for making changes to their work hour calendars. Debbie makes these changes by using the `msdyn_SaveCalendar` and `msdyn_DeleteCalendar` APIs.
 
 ### Create a working hour occurrence.
-<!--note from editor: The terms "working hour" and "work hour" are used a bit inconsistently in this topic, but I can't justify using one over the other so I left it alone.-->
+
 Bob is scheduled to drive around to deliver packages from 9:00 AM to 5:00 PM on May 15, 2021. Debbie uses the `msdyn_SaveCalendar` API.
 
 **Request**
@@ -350,7 +350,7 @@ Starting May 20, 2021, Bob decides to work with Contoso all week from 8:00 AM to
 
 ### Edit a working hour daily recurrence with increased capacity
 
-Bob decides to stop working for the entire week of June 15, 2021 because he needs a break. Until then, he'll continue the all-week schedule he previously agreed to<!--note from editor: Suggested.-->. Debbie makes these changes by using the `msdyn_SaveCalendar` API.
+Bob decides to stop working for the entire week of June 15, 2021 because he needs a break. Until then, he'll continue the all-week schedule he previously agreed to. Debbie makes these changes by using the `msdyn_SaveCalendar` API.
 
 **Request**
 
@@ -550,7 +550,7 @@ We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE
 
 
 ## Time zone codes
-<!--note from editor: I removed the extra column delineator from the few entries that had them ("US & Canada," "Rangoon"). If you don't like, we need to add a third column and give it a heading. I can't think of any heading that would work though.-->
+
 |Enum | Time zone |
 |--|--|
 0                   | (GMT-12:00) International Date Line West
