@@ -17,7 +17,7 @@ ms.custom:
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Public Preview: Generate Unified Service Desk performance report 
+# Generate Unified Service Desk performance report 
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
