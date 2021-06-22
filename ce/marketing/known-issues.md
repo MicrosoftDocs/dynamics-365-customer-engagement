@@ -1,7 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 01/25/2021
+ms.date: 06/22/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -80,6 +80,7 @@ This document provides important, late-breaking information about known issues a
 - Subscription lists are managed at the *contact* level. If multiple contacts share the same email address, only the specific contact who opted out will stop receiving communications. Other contacts using the same email address will continue to receive communications. If you require opt-outs to be processed at the email level, you will need to create custom processes. More information: [Manage subscriptions at an email level](set-up-subscription-center.md#manage-subscriptions-at-an-email-level).
 - As of March 2021, A/B testing is not yet available in the new email designer.
 - If you have any email editor customizations, your administrator will need to manually recreate them in the new email designer.
+- Due to a limitation in Outlook, the maximum divider height is 10 pixels.
 
 ## Marketing pages and forms
 
