@@ -10,8 +10,6 @@ ms.service: dynamics-365-customerservice
 ---
 
 
-
-
 # Number management
 
 
@@ -37,7 +35,6 @@ Features
 Summary
 
 Purchase Number
-
 
 
 ## Add a number to a workstream
