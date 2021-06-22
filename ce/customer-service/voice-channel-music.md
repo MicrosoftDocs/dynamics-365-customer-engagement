@@ -11,18 +11,19 @@ ms.service: dynamics-365-customerservice
 
 # Manage Music
 
+
+// video
+// https://msit.microsoftstream.com/video/a6dd0840-98dc-869c-1241-f1ebcfc77970
+
 ## Prerequisites
 > [!Note]
 >
 
->[!TIP] 
-> 
 
 
 
-## Step 1:
 
-
+## Select Hold and Wait music
 
 
 
@@ -37,6 +38,7 @@ ms.service: dynamics-365-customerservice
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-music-select.png)
 
+## Add custom music
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-music-customer-settings.png)
@@ -45,8 +47,13 @@ ms.service: dynamics-365-customerservice
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-music-add-new.png)
 
+>[!TIP] 
+> Add musoic that loops well.
 
-## Step 2:
+
 
 ## Configuration considerations
+
+- Wait and hold music can be configured for each language in each workstream.
+
 ## Additional Notes
