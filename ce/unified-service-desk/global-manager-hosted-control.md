@@ -490,6 +490,12 @@ Param=value
 |---------------|-----------------|
 |name|Name of the event timer to stop.|
 
+### TriggerEdgeWebView2PoolCleanUp
+Cleans up the Edge WebView2 pool.
+
+### TriggerChromePoolCleanUp
+Cleans up the Chrome pool.
+
 <a name="Translate"></a>
 ### Translate
  Enables you to perform language translation using [Microsoft Translator](https://datamarket.azure.com/dataset/bing/microsofttranslator).
