@@ -17,7 +17,7 @@ ms.custom:
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# How to change global settings or options in Unified Service Desk
+# Change global settings or options in Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
@@ -61,8 +61,8 @@ To manage [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-d
 | `EdgeWebView2DefaultViewOnKill`| Use this UII option to show the default view of the browser on the Edge WebView2 renderer process kill. |
   | `EdgeWebView2Language`| Use this UII option to set the browser language. More information: [Language Codes](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a). | 
   | `EdgeWebView2MaxPoolSize`| Use this UII option to denote the size of the pool. The default value is 3. |
-  | `EntitySearchPageCount` | Specify an integer value to override the default page count (records displayed per page) value of 50 for the [DoSearch](../../unified-service-desk/global-manager-hosted-control.md#DoSearch) action. |
   | `EdgeWebView2ShowOutside`|  When a window navigation rule is configured with the action as `showoutside` and if this UII option is set to **True**, the target page opens up in a new window with Edge WebView2 browser process. If **False**, it opens up by default in the Edge browser. Default value is **True**.|
+  | `EntitySearchPageCount` | Specify an integer value to override the default page count (records displayed per page) value of 50 for the [DoSearch](../../unified-service-desk/global-manager-hosted-control.md#DoSearch) action. |
    | `EscapeCharacters` | If the channel provider widget passes data that includes special characters to the Unified Service Desk client application, the special characters cause the Dynamics 365 Channel Integration Framework API calls to fail and the data won't be passed to the Unified Service Desk client application. To pass data that includes special characters, use the **EscapeCharacters** UII option. This option is used for encoding and escaping special characters when Dynamics 365 Channel Integration Framework API calls are invoked within Unified Service Desk. The encoding and escaping of characters is enabled if this UII option isn't added or if the value is set as **True**. If this UII option is explicitly set as **False**, the encoding and escaping of characters is disabled. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable the encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-the-encoding-and-escaping-of-special-characters) |
    | `GenericListener`  | Specify a custom URL for the generic listener port. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Change the port of generic listener](../../unified-service-desk/use-generic-listener-adapter-unified-service-desk.md#ChangePort) |
    | `GlobalBrowserMode` | This option is for Unified Service Desk to determine which hosting type to use for hosting web applications for the entire organization. You can use this option only when you want either Chrome or Microsoft Edge to host web applications in Unified Service Desk. Enter `GlobalBrowserMode` for the **Global Option** field and set **Chrome** or **Edge** as the value. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use Edge Process to host web applications](../edge-process.md) and [Use Chrome Process to host web applications](../chrome-process.md) <br>|
