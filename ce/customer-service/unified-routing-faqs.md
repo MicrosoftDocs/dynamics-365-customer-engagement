@@ -79,6 +79,22 @@ No. After upgrade, you'll no longer be able to create workstreams for routing re
 
 No. Basic routing can be used only for cases. To route any record type, use unified routing.
 
+### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the cases assignment?
+
+No. There is no priority amongst queues. However, you can prioritize records within a queue.
+
+### Can I pause the assignment of a case?
+
+No. It is not possible to pause the assignment of a case.
+
+### Can I export a UR configuration and sign in to another environment?
+
+No, a configuration can't be exported.
+
+### I have two workstreams (W1, W2) and four queues (Q1, Q2, Q3, Q4) and a case (C1) is assigned to Q2. Is is possible to now re-assign C1 to Q3. 
+
+Yes. It is possible to re-assign a case to another queue. Select **Save and route** to trigger reassignment of a work item from one queue to another queue.
+
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
