@@ -19,6 +19,14 @@ search.app:
 
 The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
+::: moniker range=">=dynamics-usd-4.2"  
+
+|Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
+|---------|-------------|------------------------------------------------------------------------------|------------------|
+|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Web client sample application | [!INCLUDE[pn-unified-service-desk-4-2](../../includes/pn-unified-service-desk-4-2.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=2159819) |
+
+::: moniker-end
+
 ::: moniker range=">=dynamics-usd-4.1"  
 
 |Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|

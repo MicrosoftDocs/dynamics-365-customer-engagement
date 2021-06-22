@@ -31,7 +31,7 @@ The pooling feature is available for the following processes:
 
 - Chrome Process
 
-- IE Process (legacy - deprecated)
+- IE Process
 
 ## Pool process instances for Edge WebView2 Process
 
@@ -338,7 +338,7 @@ After the adding UII option, and if you set the value as **True**, then the opti
 
 ::: moniker-end
 
-## Pool process instances for IE Process (legacy - deprecated)
+## Pool process instances for IE Process 
 
 > [!Note]
 >
