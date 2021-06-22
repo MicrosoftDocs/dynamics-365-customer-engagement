@@ -98,50 +98,46 @@ To set the case entity for duplicate cases:
 
 2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**. 
 
-4. On the page that appears, select the field you want to update. For this example, select **statuscode**.
+4. On the page that appears, select the field you want to update. For this example, let's select **statuscode**.
 
-  The **Status Reason** in the case window will be displayed.
+  The **Status Reason** in the case window is displayed.
 
-5. In the **Status** dropdown list, select a status. For this example, select **Resolved**. 
+5. In the **Status** dropdown list, select a status. For this example, let's select **Resolved**. 
 
-6. Select **Add**.
+6. Select **Add**. The **Add List Value** dialog box is displayed. 
 
-    When you select **Add**, the **Add List Value** dialog box will appear. 
-
-7.  In the **Label** field, enter **Duplicate**. 
+7. In the **Label** field, enter **Duplicate**. 
 
   > [!div class=mx-imgBorder]
   > ![Enter Duplicate](media/case_resolution_6.png "Enter Duplicate")
 
 You've successfully added a duplicate status to the case entity&mdash;**Status**.  
 
-### Case Resolution entity
+### Case resolution entity
 
 After you've added the duplicate status to the case entity, you must add it to the case resolution entity.
 
-To add the 
+To update the case resolution entity for the changed value of case entity:
 
-1. In the solution explorer, expand **Entities**, and then expand **Case Resolution**.
+1. In the Solution Explorer, expand **Entities**, and then expand **Case Resolution**.
 
-2. Select **Fields**.
-
-3. Select **Resolution Type**.
+2. Select **Fields** and then select **Resolution Type**.
 
   > [!div class=mx-imgBorder]
   > ![Open Resolution Type Code field of Case Resolution entity](media/enable-customizable-dialog-1.png "Open Resolution Type Code field of Case Resolution entity")
   
-4. Under the **Options** section, select the **Plus** icon. This will enable the **Label** and **Value** fields to be populated.
+4. In the **Options** section, select the **Plus** icon. This will enable the **Label** and **Value** fields to be populated.
 
 5. In the **Label** field, enter a value name. For this example, type **Duplicate**.
 
-6. In the **Value** field, confirm that the variable listed matches the value in the Case entity.  
+6. In the **Value** field, confirm that the variable listed matches the value in the case entity.  
 
 7. Select **Save**.
 
   > [!div class=mx-imgBorder]
   > ![Add values to Resolution Type field](media/enable-customizable-dialog-2.png "Add values to Resolution Type field")
 
-Now, the Case Resolution entity will appear in the dialog field as an option that you can select. 
+Now, the Case Resolution entity appears in the dialog box as an option that you can select. 
 
 ## Edit form
 
