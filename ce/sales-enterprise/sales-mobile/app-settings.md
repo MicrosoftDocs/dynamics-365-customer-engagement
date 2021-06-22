@@ -1,7 +1,7 @@
 ---
 title: Modify settings for the Dynamics 365 Sales mobile app
 description: Learn to modify settings for the Dynamics 365 Sales mobile app.
-ms.date: 05/24/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
