@@ -14,7 +14,7 @@ ms.reviewer: lalexms
 For more information on how to use timeline, see [Use timeline](/powerapps/user/add-activities).
 
 
-[Configure Timeline](customer-service-hub-user-guide-timeline-admin.md)  
+[Set up the timeline control](/powerapps/maker/model-driven-apps/set-up-timeline-control)  
 [Frequently Asked Questions about Activities and the Timeline Wall](/powerapps/user/faq-for-timeline-and-activity)  
 
 
