@@ -22,7 +22,7 @@ In Omnichannel Administration, **Entity Records** channel helps you to automatic
 
 ### Automatic distribution of cases and other records
 
-With routing for records, organizations can route cases and other records to omnichannel queues. The cases and other records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their  skill, capacity, and presence.
+With routing for records, organizations can route cases and other records to omnichannel queues. The cases and other records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their skill, capacity, and presence.
 
 ### Routing and queues
 
@@ -64,7 +64,7 @@ Any record you want to enable for routing needs to be enabled for queues.
 7. Select **Publish**.
 
 > [!Note]
-> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the entity customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the entity records. <br><br> ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
+> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the entity customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the records. <br><br> ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
 ## Step 3: Enable record for routing
 
@@ -92,15 +92,15 @@ Create record configuration to enable it for routing.
 
 After creating a record configuration, and enabling the record for routing, you can define routing rules to route these records to appropriate queues.
 
-Routing rules for entity records consists of routing rule sets, which in turn contains rule items.
+Routing rules for records consists of routing rule sets, which in turn contains rule items.
 
-Let's see how to create routing rule set and rule items for entity records. In this procedure, we are adding it for case entity record as example.
+Let's see how to create routing rule set and rule items for records. In this procedure, we are adding it for case record as example.
 
 1. Sign in to the Omnichannel Administration app.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select an entity records channel that you created for routing the records from the **Active Entities** view.
+3. Select a records channel that you created for routing the records from the **Active Entities** view.
 
     > [!div class=mx-imgBorder] 
     > ![Select a case work stream](media/case-entity-channel1.png "Case workstream")
@@ -112,7 +112,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 ### Create routing rule set
 
-   Routing rule set is a collection of rule items, and you can have multiple routing rule sets defined for an entity. However, only one routing rule set can be active at any point in time. The rules items in active routing rule set are used to route the records. To create a new routing rule set, follow steps 5-7.
+Routing rule set is a collection of rule items, and you can have multiple routing rule sets defined for a record. However, only one routing rule set can be active at any point in time. The rules items in active routing rule set are used to route the records. To create a new routing rule set, follow steps 5-7.
 
    > [!Note]
    > You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule set already exists with the same ID, the solution import will fail.
@@ -134,7 +134,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
 
 ### Create rule item
     
-   You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the entity records. Let's see how to define the rule items. To create a new rule item, follow steps 8-13.
+   You can define multiple routing rule items in a routing rule set. A rule item consists of a condition and destination to route the records. Let's see how to define the rule items. To create a new rule item, follow steps 8-13.
 
 8. Select **New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
@@ -169,7 +169,7 @@ Let's see how to create routing rule set and rule items for entity records. In t
     > ![New Rule Item values](media/case-ws-rr-rule-item2.png "New Rule Item values")
 
     > [!Note]
-    > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
+    > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign records to agents.
 
 13. Select **Save** to save the rule item.
 
