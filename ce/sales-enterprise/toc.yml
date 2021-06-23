@@ -596,7 +596,7 @@
       items: 
       - name: Install the mobile app
         href: sales-mobile/install-mobile-app.md
-      - name: Use the Dynamics 365 Sales mobile app
+      - name: Use the mobile app
         href: sales-mobile/use-sales-mobile-app.md
       - name: Learn the basics
         href: sales-mobile/learn-basics-mobile-app.md
@@ -610,3 +610,5 @@
         href: sales-mobile/create-contact.md
       - name: Manage notes
         href: sales-mobile/view-edit-add-note.md
+      - name: App settings
+        href: sales-mobile/app-settings.md

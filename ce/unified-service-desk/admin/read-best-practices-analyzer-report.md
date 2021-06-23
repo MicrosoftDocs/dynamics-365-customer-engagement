@@ -15,9 +15,7 @@ search.app:
 
 # Read Best Practices Analyzer report
 
-This section describes the layout of the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] report and provides information to help you understand the results of the analysis.
-
-![Read Best Practices Analyzer report](../media/bpa-read-report.gif "Read Best Practices Analyzer report")
+This section describes the layout of the Best Practices Analyzer report and provides information to help you understand the results of the analysis.
 
 ![Best Practices Analyzer report](../media/bpa-report.PNG "Best Practices Analyzer report")
 

@@ -1,7 +1,7 @@
 ---
 title: Search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Customer Service Hub.
-ms.date: 08/05/2020
+ms.date: 06/21/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -40,59 +40,56 @@ Use the following input and output parameters for the Search Resource Availabili
 
 | Name  | Type | Required  | Description  |
 |-----------------|---|---|---|
-|Version | String | Yes |The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number. |
-|RequirementGroup | | Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample|
-|RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default|
-| Start | DateTime | No | If left null, respects the targeting requirement group start by default|
-| End |DateTime| No | If left null, respects the targeting requirement group end by default |
-| Fulfillment Preference| | No | respects interval and ResultsPerIntervals fields only. If left null, respects the interval and `ResultPerInterval` fields of the targeting requirement group.|
-|Settings |Integer| No | Settings for the request. Beyond the solution version and requirement details, you can pass along Settings for more filtered results such as retrieving available resources within a specific distance radius. Settings are specified as attributes in an entity bag|
-| ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It is `false` by default|
-| ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots.It is `false` by default|
-| ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | Specifies if a time slot with less than the required remaining duration should be considered when computing potential time slots.It is `false` by default|
-| PageSize |Integer| No | Numbers of item returned in a page. It is 20 by default|
-| PageNumber |Integer| No | Number of page. It is `-1` by default(-1 means using full paging cookie mode, hence return all results).|
-| PageCookie | String | No | Paging cookie retrieved from previous searching result.|
-| OrganizationUnits |EntityCollection|No| A collection of organization unit Ids. A qualified resource must be a member of one of the specified organization units.|
-| RequiredSources |List<EntityReference>|No| Only the timeslots of these passed list of resources will show in the resulted timeslots. |
+|Version | String | Yes |The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number.|
+|RequirementGroup | | Yes | An entity reference to the requirement group entity.|
+|RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default.|
+|Settings |Entity<InputSettings> |No | Sets the settings for the request.|
 
+### Inputsettings
 
-## Output
+| Name  | Type | Required  | Description  |
+|-------|---|---|---|
+| ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | Specifies if a time slot with less than the required remaining duration should be considered when computing potential time slots. It is false by default. |
+| ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It is false by default. 
+| ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots. It is false by default. |
+| MaxResourceTravelRadius | Distance | No | Specifies the maximum travel radius for resources when computing available time slots. |
+| SortOrder | Integer | No | Specifies the requirement group order for the response. |
+| PageSize |Integer | No | Numbers of item returned in a page. It is 20 by default. |
+| PagingCookie | String | No | Paging cookie retrieved from previous searching result.|
+| OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units. |
+| RequiredResources |List&#60;Guid&#62; | No | Only the time slots of the passed list of resources will show in the resulted time slots. |
+
+### Output
 
 |Returns | Name(Type)  | Description |
 |---|---|---|
-|Time slot (Entity collection) |StartTime (DateTime) | The start time.|
+|TimeSlots (List&#60;OutputTimeSlot&#62;)   |StartTime (DateTime) | The start time.|
 |         |EndTime (DateTime)                    |The end time.|
 |         |ArrivalTime (DateTime)                |The arrival time.|
+|         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information.|
 |         |Effort (Double)                       |The effort/capacity.|
 |         |IsDuplicate (Boolean)                 |A Boolean value indicating if the time slot is a duplicate.|
-|         |Resource (Resource)                   |The Resource entity as explained below |
-|         |Location (TimeSlotLocation)           |The entity contains details about the location of a time slot. See the below TimeSlotLocation for more details |
-|         |TimeGroup (TimeSlotTimeGroup)         |The entity contains details about a time group. See the below TimeSlotTimeGroup for more details |
+|         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained below. |
+|         |Location(OutputTimeSlotLocation)<br><br>OutputTimeSlotLocation:<br><ul><li>WorkLocation (Enum):<br><ul><li>Onsite (0)<br><li>Facility (1)<br><li>Location agnostic (2)</ul><br><li>LocationSourceSlot (Enum):<br><ul><li>Common (1)<br><li>Custom GPS entity (2)<br><li>Mobile audit (3)</ul> |The entity contains details about the location of a time slot. For more details, see TimeSlotLocation below. |
+|         |TimeGroup(TimeSlotTimeGroup)<br><br>OutputTimeSlotTimeGroup:<br><ul><li>TimeGroupId (Guid)<br><li>TimeGroupDetail (EntityReference)<br><li>TimeGroupDetailStartTime (DateTime)<br><li>TimeGroupDetailEndTime (DateTime)</ul>  |The entity contains details about a time group. For more details, see TimeSlotTimeGroup below. |
 |         |AvailableIntervals (List<<Guide>OutputTimeSlot>)|A collection of available intervals.|
-|Resource |Resource (EntityReference)|An entity reference to the bookable resource.|
+|Resources (List&#60;OutputResource&#62;)  |Resource (EntityReference)|An entity reference to the bookable resource.|
 |         |BusinessUnit (EntityReference) |An entity reference to the bookable resource group.|
-|         |OrganizationUnit (EntityReference) |An entity reference to the organizational unit.|
+|         |OrganizationalUnit (EntityReference) |An entity reference to the organizational unit.|
 |         |ResourceType (Int)                 |The resource type. See the resourcetype attribute on the BookableResource entity for possible values.|
-|         |PoolID (Guid)                      |The Id of the pool that the resource is a member of for the duration of the time slot.|
-|         |CrewID (Guid)                      |The Id of the crew that the resource is a member of for the duration of the time slot.|
+|         |PoolId (Guid)                      |The Id of the pool that the resource is a member of for the duration of the time slot.|
+|         |CrewId (Guid)                      |The Id of the crew that the resource is a member of for the duration of the time slot.|
 |         |Email (String)                     |The resource’s email address.|
 |         |Phone (String)                     |The resource’s phone number.|
 |         |ImagePath (String)                 |The path to the resource’s image.|
-|Requirements|Requirement (EntityReference)   |An entity reference to the Resource Requirement record|
-|            |ConstrainBag (String)           |Requirement constraint in ufx bag(internal)|
-|            |Resource (List<<EntityReference>EntityReference>)   |Entity reference list of resource that is available to the requirements|
-|ProposalResourceAssignmentSet|IntervalStart (DateTime)|Start Time for each proposal resource assignment set|
-|   |ProposalResourceAssignment (List<<OutputProposalResourceGroup>OutputProposalResourceGroup>)|List of Resource assign to Requirement|
-|Paginginfos |MoreResults (Boolean)|If there are more results or not.|
+|Requirements (List&#60;OutputRequirements&#62;) |Requirement (EntityReference)   |An entity reference to the Resource Requirement record.|
+|            |ConstraintBag (String)           |Requirement constraint in ufx bag(internal)|
+|            |Resources (List<<EntityReference>EntityReference>)   |Entity reference list of resource that is available to the requirements.|
+|ProposalResourceAssignmentSets (List&#60;OutputProposalResourceAssignmentSet&#62;) |IntervalStart (DateTime)|Start time for each proposal resource assignment set.|
+|   |ProposalResourceAssignments (List&#60;OutputProposalResourceAssignments&#62;<br><br>OutputProposalResourceAssignments:<br><ul><li>RequirementId (Guid)<br><li>ResourceId (Guid)</ul> |List of Resources assigned to Requirement.|
+|PagingInfos (OutputPagingInfo)  |MoreResults (Boolean)|If there are more results or not.|
 |            |PagingCookie (String)|Paging cookie that can be used in the future search.|
-|Location	|Entity|	The location has two attributes, Latitude and Longitude|
-|WorkLocation|Integer|The work location<br />- Onsite (0)<br />- Facility (1)<br />Location agnostic (2)|
-|LocationSourceSlot|Integer|The source of the location information<br />- Common (1)<br />- Custom GPS entity (2)<br />Mobile audit (3)|
-|TimeGroupId|	Guid|	The time group Id.|
-|TimeGroupDetail|	EntityReference	|	An entity reference to the time group detail.|
-|TimeGroupDetailStartTime|	Date and Time	|	The time group detail start time.|
-|TimeGroupDetailEndTime|Date and Time	|	The time group detail end time.|
+
 
 ### Example
 
@@ -158,15 +155,15 @@ Use the following input and output parameters for the Create Requirement Group B
 |RequirementGroup | EntityReference  |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample.|
 |Start |DateTime | Yes | Start time of the Timeslot. |
 |Duration | Integer | Yes  | The Duration of the Booking to be created.|
-|ResourceAssignments | GUID | Yes| It is an entity collection of the Resource Assignments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
+|ResourceAssignments | EntityCollection | Yes| It is an entity collection of the Resource Assignments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
 
 **Resource Assignments**
 
 |  Name   | Type  | Required | Description   |
 |---------------------|-------------|---|---------|
-|Requirement| 	GUID|	Yes|	The resource requirement Id of the Requirement for which the booking record is to be created. |
-|Resource | GUID    | Yes | The bookable resource Id of the Resource for which you want to create the booking. |
-| BookingStatusID | GUID  | Yes | The booking status Id of the booking to be created. |
+|RequirementId | 	Guid|	Yes|	The resource requirement Id of the Requirement for which the booking record is to be created. |
+|ResourceId  | Guid    | Yes | The bookable resource Id of the Resource for which you want to create the booking. |
+| BookingStatusId  | Guid  | Yes | The booking status Id of the booking to be created. |
 | Effort | Integer  |  No| The capacity of the Bookable Resource that is consumed by this booking.|
 | TravelTime | Integer  | No| The travel time in minutes.|
 
@@ -383,7 +380,7 @@ To migrate from the legacy Search API and Book API to the Universal Resource Sch
 |TraceInfo | |
 |ExtensionDataObject | | 
 |   |Time Slots|
-|   |Requirements(contraintbag) |
+|   |Requirements(constraintbag) |
 |   |PagingInfos |
 
 ## Example scenarios for migrating from the legacy scheduling API to Universal Resource Scheduling
