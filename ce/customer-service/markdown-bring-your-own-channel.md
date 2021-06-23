@@ -4,12 +4,12 @@ description: "Use this topic to understand how markdown formatting is passed thr
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/28/2021
+ms.date: 06/30/2021
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ---
 # Preview: Markdown format for custom messaging channels
-<!--note from editor: There's only one markdown format, so you don't want to use plural "markdowns". That would be equivalent to using plural "HTMLs" to discuss different HTML tags.-->
+
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
