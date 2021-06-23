@@ -73,20 +73,10 @@ sections:
   
         - question: Why do I get "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
           answer: |
-          Add some test text, just to see.          
-          ![An error message showing Insufficient Permissions in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
+           - Sign Out: User signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile application data that had previously been synced to the device. 
+           - Reconfigure: User remains signed into the app, but will be sent back to the app module picker where they can select an alternate app module, if available. "Reconfigure" will clear Field Service mobile application data that had previously been synced to the device.         
           
-          This error can occur when your environment has multiple Dynamics 365 apps installed, like Dynamics 365 Field Service and Dynamics 365 Customer Service with Omnichannel.
-          
-          To fix this issue:
-          
-          1. Verify your user is assigned the **Field Service - Resource** security role _and_ field security profile
-          2. Edit the **Field Service - Resource** security role and assign read privileges for the **Master Entity Routing Configuration** entity in **Custom Entities**.
-          3. Edit the **Field Service - Resource** security role and assign read privileges for the **Routing Rule Set** entity in the **Service Management** tab.
-          
-          
-          > [!div class="mx-imgBorder"]
-          > ![Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.](./media/fsm-insufficient-permission-faq.png)
+           ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and the "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
 
         - question: Why does the app say "Contact your administrator for access to your organization's mobile apps"?
           answer: |
