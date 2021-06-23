@@ -1,20 +1,19 @@
 ---
-title: "Unified Service Desk  Upgrade package | MicrosoftDocs"
-description: "Overview of the Upgrade sample application."
+title: "Unified Service Desk Upgrade package | MicrosoftDocs"
+description: "Learn about the Upgrade sample application that's part of Unified Service Desk and how you can use it."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Upgrade sample application package

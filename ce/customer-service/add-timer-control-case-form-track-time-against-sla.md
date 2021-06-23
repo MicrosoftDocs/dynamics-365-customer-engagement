@@ -1,14 +1,11 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
+ms.date: 04/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Add a timer control for SLA-enabled entities
@@ -59,11 +58,11 @@ Do the following steps to add the SLA timer control for the case entity.
 
 ## Add an out-of-the-box timer control to the Case form
 
- On a case form, the timer control can show any of the following, depending on the actions of the customer service representative (CSR) and what you specify when you set up the timer control:  
+ On a case form, the timer control can show any of the following, depending on the actions of the customer service representative and what you specify when you set up the timer control:  
   
-- If the CSR completes the task within the remaining time, the control shows the word **Succeeded**.  
+- If the customer service representative completes the task within the remaining time, the control shows the word **Succeeded**.  
   
-- If the CSR doesn’t complete the task within the remaining time, the control shows the word **Expired**.  
+- If the customer service representative doesn’t complete the task within the remaining time, the control shows the word **Expired**.  
   
 - As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed. This behavior is optional.  
   

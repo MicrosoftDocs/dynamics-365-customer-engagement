@@ -1,12 +1,9 @@
 ---
 title: "Configure customer summary page for agents | MicrosoftDocs"
-description: "Learn how to configure customer summary pages for agents using Omnichannel for Customer Service."
+description: "Learn how to configure customer summary pages for agents  using Omnichannel for Customer Service to view customer and conversation details."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

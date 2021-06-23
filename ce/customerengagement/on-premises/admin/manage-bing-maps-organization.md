@@ -1,5 +1,6 @@
 ---
 title: "Manage Bing Maps for your Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
+description: "Manage Bing Maps for your entire Dynamics 365 apps organization."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -14,14 +15,14 @@ author: jimholtz
 ms.assetid: f756b11d-65fc-47ac-8bea-1ba3def724f0
 caps.latest.revision: 29
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Manage Bing Maps for your organization
 
-*This content also applies to the on-premises version.*
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Learn how you can manage [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] for your entire [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization. When [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] is turned on, people see a map of a customer’s location when they view contacts, leads, or accounts.  
   

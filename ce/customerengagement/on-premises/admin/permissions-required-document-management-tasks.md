@@ -1,5 +1,6 @@
 ---
 title: "Permissions required for document management tasks | MicrosoftDocs"
+description: " Perform each document management with SharePoint."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

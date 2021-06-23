@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/intelligent-skill-model.md",
+      "redirect_url": "set-up-skill-based-routing#set-up-intelligent-skill-finder-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/enable-skill-routing-create-rating-model.md",
+      "redirect_url": "allow-agents-update-skills",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/outlook-app/Customizing-the-app.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
@@ -21362,6 +21372,26 @@
     {
       "source_path": "ce/sales-enterprise/embedded-intelligence-overview.md",
       "redirect_url": "/dynamics365/ai/sales/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/install-ios-app.md",
+      "redirect_url": "install-mobile-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales-enterprise/sales-mobile/install-android-app.md",
+      "redirect_url": "install-mobile-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/omnichannel-readme.md",
+      "redirect_url": "https://go.microsoft.com/fwlink/p/?linkid=2165393",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/admin/known-issues-performance-enhancement-CRM-entity-page-loads.md",
+      "redirect_url": "../release-notes",
       "redirect_document_id": false
     }
   ]

@@ -1,20 +1,19 @@
 ---
 title: "Import hosted application from Unified Service Desk  | MicrosoftDocs"
-description: "Learn about importing the hosted application from Unified Service Desk."
+description: "Understand how to import the hosted application from Unified Service Desk into your Visual Studio project."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Import hosted application from Unified Service Desk
 A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project.  

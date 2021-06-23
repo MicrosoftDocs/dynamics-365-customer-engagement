@@ -1,12 +1,11 @@
 ---
-title: "Introduction to the agent interface of Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn about agent interface of Omnichannel for Customer Service app"
+title: "Introduction to agent interface | MicrosoftDocs"
+description: "Learn about the agent interface in the Omnichannel for Customer Service app and the capabilities that it offers to agents."
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Introduction to the agent interface of Omnichannel for Customer Service
@@ -60,7 +59,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 5. Search, quick create, and presence
 
  > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
+ > ![Session panel in Omnichannel for Customer Service app](media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
 
 
 ## 1. Session panel
@@ -68,7 +67,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
  > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
+ > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-agent-interface-session-panel.png "Session panel in the agent interface of Omnichannel for Customer Service app")
 
 ## 2. Communication panel
 

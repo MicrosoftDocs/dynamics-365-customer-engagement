@@ -1,28 +1,29 @@
 ---
-title: "Use Edge Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
-description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
+title: "Use the Edge Process hosting method for hosting web applications  | MicrosoftDocs"
+description: "Learn about the Edge Process hosting method and its advantages for hosting your controls in Unified Service Desk."
+ms.date: 12/19/2018
+ms.topic: "article"
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/19/2018
-ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-4'
 ---
 
-# Use Edge Process to host web applications (deprecated)
+# Use Edge Process to host web applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!Note]
+>
+> Because the Edge Process browser control is now replaced by the Edge WebView2 Process browser control, support for the Edge Process is now discontinued.
 
 The Edge Process browser control hosts your controls in individual Edge process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it will work in Unified Service Desk. You can select **Edge Process** as the hosting method for the **CRM Dialog**, **CRM Page**, **KM Control**, **Unified Interface Page**, **Unified Interface KM Control** and **Standard Web Application** type of hosted controls.
 
@@ -274,16 +275,11 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
-## Limitations
-
-To learn about the limitations of the Edge process, see [Edge Process limitations](release-notes.md)
-
-## See also  
+### See also  
  [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)  
 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
-
- [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
-
+ [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -1,27 +1,26 @@
 ---
-title: "Import Unified Service Desk  configuration data | MicrosoftDocs"
-description: "Learn how configuration data can be imported in to a target instance."
+title: "About configuration data | MicrosoftDocs"
+description: "Learn how you can import the Unified Service Desk configuration into a target instance using the Configuration Migration tool or via the custom package."
+ms.date: 10/29/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/29/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 # About configuration data
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data to the target [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)] by using either of the following ways:  
+You can import configuration data by:  
   
 - Using the [!INCLUDE[pn_configuration_migration_tool](../../includes/pn-configuration-migration-tool.md)]  
   
@@ -30,6 +29,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
   Before you can import the configuration data to the target system, make sure you have exported the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your source system. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  
   
 <a name="ConfigMigration"></a>   
+
 ## Import configuration data by using the Configuration Migration tool  
   
 1. Make sure that the Microsoft Dataverse instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
@@ -47,6 +47,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 7. Click **Exit** to close the tool.  
   
 <a name="CustomPackage"></a>   
+
 ## Import configuration data by using a custom package for Unified Service Desk  
  You can build a custom package to include the configuration data that you exported from your existing instance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. To create a custom package for deploying the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data, you will use all the existing files in one of the default [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] packages, and replace the standard configuration data with your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data that you exported. You can create a custom package for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] using the [!INCLUDE[pn_sdk](../../includes/pn-sdk.md)] template for [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
   

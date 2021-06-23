@@ -1,18 +1,20 @@
 ---
 title: Records routing using records channel | MicrosoftDocs
 description: Learn how you can route cases automatically using records channel in the Omnichannel Administration app.
+ms.date: 11/11/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/11/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 # Route records in Omnichannel Administration app
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Overview
  

@@ -1,15 +1,14 @@
 ---
-title: "Frequently asked questions (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Frequently asked questions for Dynamics 365 Sales"
+title: "Frequently asked questions for Dynamics 365 Sales Enterprise | MicrosoftDocs"
+description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
 ms.date: 09/29/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shubhadaj
 ---
 
-# Frequently asked questions
+# Frequently asked questions for Sales Enterprise
 
 ## Entity: Activity
 

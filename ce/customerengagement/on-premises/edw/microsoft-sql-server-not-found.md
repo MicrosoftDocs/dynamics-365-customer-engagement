@@ -1,5 +1,7 @@
 ---
 title: "Microsoft SQL Server not found | Microsoft Docs"
+description: Environment diagnostics warning that the SQL Server can't be found.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -1,6 +1,6 @@
 ---
-title: "Validate and publish a custom business app using the app designer | MicrosoftDocs"
-description: "Learn how to validate and publish a custom business app"
+title: "Validate and publish a custom business app with Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
+description: "Learn how to validate and publish a custom business app using the app designer"
 keywords: 
 ms.date: 01/11/2019
 ms.service: crm-online
@@ -24,8 +24,6 @@ search.audienceType:
 ---
 
 # Validate and publish an app by using the app designer
-
-
 
 Validate an app to check for asset dependencies that are required for the app to work, but haven't yet been added to the app.  
   

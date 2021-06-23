@@ -1,30 +1,27 @@
 ---
-title: "Add multi-language support for your agent applications | MicrosoftDocs"
-description: "Learn about adding multi-language support for your agent applications. The multi-language support is available for all the components except for those that are surfaced through Customer Care Accelerator, which doesn’t support multi-language scenarios. This includes the hosted control tab names."
+title: "Manage language support for your agent applications | MicrosoftDocs"
+description: "Learn how to add localized strings for your user interface controls and enable language support for your agent applications."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
-# Add and manage multi-language support (localized resources) for your agent applications
+# Manage language support (localized resources) for your agent applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The multi-language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multi-language scenarios. This includes the hosted control tab names.  
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to bundle in localized strings for your controls interface so that they appear in the language based on the locale settings of the user’s computer. The language support is available for all the components except for those that are surfaced through [!INCLUDE[pn_customer_care_accelerator](../includes/pn-customer-care-accelerator.md)], which doesn’t support multiple language scenarios. This includes the hosted control tab names.  
 
-If you use web resource to link the button text to strings, then the web resource chooses the language based on your Dynamics 365 model-driven app environment settings. In addition, the app pages are rendered in the language set on the app environment settings. 
-
-Rest of the strings that is rendered by default on Unified Service Desk client application are rendered in the language set on your operating system.
+If you use a web resource to link the button text to strings, then the web resource chooses the language based on your Dynamics 365 model-driven app environment settings. In addition, the app pages are rendered in the language set on the app environment settings. The rest of the strings rendered by default on Unified Service Desk client application are rendered in the language set on your operating system.
   
  To provide localized resources for your component:  
   
@@ -56,7 +53,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
    ![New web resource](../unified-service-desk/media/usd-new-web-resource.PNG "New web resource")  
   
-   6.  Save and publish the web resource.  
+   6. Save and publish the web resource.  
   
 4. After publishing the web resource for your language resource file, add the web resource to your **Global Manager** hosted control.  
   
@@ -71,7 +68,7 @@ Rest of the strings that is rendered by default on Unified Service Desk client a
   
    3. On the **CRM Global Manager** page, select the **Language Services** tab, select **+ New Language Module** to add a language module record.  
 
-   4.  On the **New Language Module** page, specify the name, LCID, and the name of the web resource that contains the translation file.  
+   4. On the **New Language Module** page, specify the name, LCID, and the name of the web resource that contains the translation file.  
   
         The LCID should be populated with a value that represents the language that this resource represents. [View the list of locale IDs](https://msdn.microsoft.com/library/ms912047\(WinEmbedded.10\).aspx).  
   

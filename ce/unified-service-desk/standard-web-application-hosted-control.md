@@ -1,20 +1,19 @@
 ---
 title: "Standard Web Application hosted control to load a non-model-driven app page | MicrosoftDocs"
-description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
+description: "Learn to create the Standard Web Application hosted control. Also find information about the predefined UII actions supported by it."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Standard Web Application (hosted control)
 

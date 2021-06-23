@@ -1,5 +1,6 @@
 ---
 title: "Error logging for server-side synchronization  | MicrosoftDocs"
+description: "Learn about the error logging tasks performed by server-side synchronization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

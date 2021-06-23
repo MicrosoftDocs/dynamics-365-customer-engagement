@@ -3,7 +3,6 @@ title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
 ms.date: 05/03/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -108,7 +107,7 @@ The following reminder insight cards are supported:
 
 To learn more about insight cards, go to [Insight cards reference](/dynamics365/ai/sales/action-cards-reference).  
 
-## See also
+### See also
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)

@@ -3,7 +3,6 @@ title: View meetings in the Dynamics 365 Sales mobile app
 description: Learn how to view meetings in the Dynamics 365 Sales mobile app.
 ms.date: 05/03/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -126,7 +125,7 @@ The Notes section for a meeting can be used to add notes related to a meeting, s
 
 Any reminders and insights related to the meeting are displayed in the Reminders section. For each card, you can tap the three dots on the left, **More options** (![Options button](media/sm-options-button.png "Options button")), to dismiss, snooze, and like or dislike the card. More information: [Notes and reminders](open-record.md#notes-and-reminders)
 
-## See also   
+### See also   
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Manage contacts](create-contact.md)   

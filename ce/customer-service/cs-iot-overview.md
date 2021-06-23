@@ -1,12 +1,11 @@
 ---
 title: "Connected Customer Service - Overview| MicrosoftDocs"
 description: "Overview of Connected Customer Service."
+ms.date: 07/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 07/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 
