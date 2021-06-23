@@ -22,27 +22,26 @@ ms.service: dynamics-365-customerservice
 
 ## Use number included with the Voice Channel 
 
-Free trial comes with 1 number and 60 minutes of free calling.
+Free trial comes with 1 number and 60 minutes of free calling. There is no need to connect to Azure Communication Services.
 
 After the 60 minutes, purchase a new number. You cannot purchase the trial number. 
 
 ## Create a new phone number
 
+### Connect to Azure Communication Services
+
 ### Prerequisite
 
-You need an Azure subscription
+Before you can create a new number you **need an Azure subscription**. If your Azure subscription is in the same tenant as your Dynamics 365 account **and** you have [insert the the blank] Azure permissions then select **Create New Resource**.
+
+Otherwise, select the **Use Existing Resource** option and copy and paste the relevant information from your Azure subscription. 
+
 
 ### Create a new resource
 
-this only applies if your azure subscription is the same as your dynamics subscription
 
-If Azure is same tenant as D365 and have permissions
-then use create new resource
 
-if same tenant but dont have permissions
-get permissions or copy and paste
 
-### Connect to Azure Communication Services
 
 ### Add a number 
 
