@@ -92,7 +92,7 @@ sections:
           answer: |
            Currently, external users cannot access the Field Service (Dynamics 365) mobile app.
 
-   - name: Entities, forms, views, and fields 
+  - name: Entities, forms, views, and fields 
     questions:
         
       - question: |
