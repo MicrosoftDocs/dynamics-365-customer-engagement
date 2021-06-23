@@ -57,13 +57,11 @@ To enable customizable dialog:
 
 ## Status values
 
-After you enable customizable dialog, you can create status values in your form. You can add the custom status values in the following two locations:
+After you enable customizable dialog, you can create status values in your form. You should add the custom status values in the following two locations. Also, if you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** so they match.
 
-- **Case entity** (status code)
-- **Case Resolution entity** (resolution status code)
+- **Case entity** (statuscode in our example)
+- **Case Resolution entity** (resolution statuscode)
 
-> [!Note]
-> - If you change the value in the **Case entity**, be sure to update the value in the **Case Resolution entity** so they match.
 
 <!-- content appears redundant
 ## Customize Case entity and Case Resolution entity
@@ -94,63 +92,62 @@ You can use case resolution to resolve situations where you receive duplicate ca
 
 To set the case entity for duplicate cases:
 
-1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**. 
+1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
 
-2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**. 
+2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
-4. On the page that appears, select the field you want to update. For this example, let's select **statuscode**.
+3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column.
 
-  The **Status Reason** in the case window is displayed.
+4. Double-click the **statuscode** field. The **General** tab of **Status Reason of Case** is displayed.
 
-5. In the **Status** dropdown list, select a status. For this example, let's select **Resolved**. 
+5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**.
+   The **Add List Value** dialog box is displayed. 
 
-6. Select **Add**. The **Add List Value** dialog box is displayed. 
+6. In the **Label** field, enter **Duplicate** and select **OK**.
 
-7. In the **Label** field, enter **Duplicate**. 
-
-  > [!div class=mx-imgBorder]
-  > ![Enter Duplicate](media/case_resolution_6.png "Enter Duplicate")
-
-You've successfully added a duplicate status to the case entity&mdash;**Status**.  
+You've successfully added a duplicate status to the case entity&mdash;statuscode.  
 
 ### Case resolution entity
 
-After you've added the duplicate status to the case entity, you must add it to the case resolution entity.
+After you've added the duplicate status to the case entity, you must add the same to the case resolution entity.
 
 To update the case resolution entity for the changed value of case entity:
 
-1. In the Solution Explorer, expand **Entities**, and then expand **Case Resolution**.
+1. In the Solution Explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
-2. Select **Fields** and then select **Resolution Type**.
+2. On the page that appears, select the field you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
 
+3. Double-click the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
+
+<!--
   > [!div class=mx-imgBorder]
   > ![Open Resolution Type Code field of Case Resolution entity](media/enable-customizable-dialog-1.png "Open Resolution Type Code field of Case Resolution entity")
-  
-4. In the **Options** section, select the **Plus** icon. This will enable the **Label** and **Value** fields to be populated.
+  -->
+4. In the **Options** section, select the plus icon to automatically populate the **Label** and **Value** fields.
 
-5. In the **Label** field, enter a value name. For this example, type **Duplicate**.
+5. In the **Label** field, enter a value name. For this example, enter **Duplicate**.
 
 6. In the **Value** field, confirm that the variable listed matches the value in the case entity.  
 
-7. Select **Save**.
-
+7. Select **Save and Close**.
+<!--
   > [!div class=mx-imgBorder]
   > ![Add values to Resolution Type field](media/enable-customizable-dialog-2.png "Add values to Resolution Type field")
-
+-->
 Now, the Case Resolution entity appears in the dialog box as an option that you can select. 
 
-## Edit form
+## Edit forms
 
 The case resolution form lets you add or remove fields based on your business needs. For example, your business model may not require a **Billable Time** field because your case resolutions do not track billable hours, and so you can choose to remove the corresponding field from the form.  
 
 As an example, to remove the **Billable Time** field from the form:
 
-1. In the **Solution Explorer**, expand the **Case Resolution** entity, and then select **Forms**.  
+1. In the **Solution Explorer**, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
   > [!div class=mx-imgBorder]
   > ![Select Forms](media/case_resolution_8.png "Select Forms")
 
-2. Open the form you want to edit. In this example, select the **Information** form.
+2. Open the form you want to edit. For this example, let's select the **Information** form.
 
   > [!div class=mx-imgBorder]
   > ![Select the name of the form you want to edit](media/case_resolution_9.png "Select the name of the form you want to edit")
