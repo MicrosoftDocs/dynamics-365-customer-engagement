@@ -118,9 +118,6 @@ By selecting the **Gear** icon, you can add more details for an inspection quest
 
 ### Compact question view
 
-> [!Note]
-> The compact question view feature is currently available as early access. For more information, see the article on [how to opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
-
 Before selecting an individual question, go to the advanced pane to edit the look and feel of the inspection.
 
 Inspection creators can show or hide the title and description of the inspection when inspection performers are viewing it.
