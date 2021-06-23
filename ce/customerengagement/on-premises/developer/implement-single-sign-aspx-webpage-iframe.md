@@ -32,11 +32,11 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
  This scenario is for a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment (IFD) where a separate website hosts a custom ASPX webpage that is optionally displayed in an inline frame of the Dynamics 365 Customer Engagement (on-premises) web application. This scenario uses federated claims. Therefore, you’ll have to set up a security token service (STS) server for identity management. You’ll also need a certificate to be used when making Dynamics 365 Customer Engagement (on-premises) and the website relying parties, which established cross-domain trust between these parties.  
   
 ### Background information  
- For more information about how to configure claims and a relying party, see the following topics in [Deploying and administering Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699811.aspx):  
+ For more information about how to configure claims and a relying party, see the following topics in [Deploying and administering Microsoft Dynamics 365 Customer Engagement (on-premises)](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699811(v=crm.8)):  
   
-- [Post-Installation and Configuration Guidelines](https://technet.microsoft.com/library/hh699726.aspx) - Configure a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment (IFD)  
+- [Post-Installation and Configuration Guidelines](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699726(v=crm.8)) - Configure a Dynamics 365 Customer Engagement (on-premises) Internet-facing deployment (IFD)  
   
-- [System requirements and required technologies](https://technet.microsoft.com/library/hh699831.aspx) - Accessing Dynamics 365 Customer Engagement (on-premises) from the Internet - Claims-based authentication and [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] requirements  
+- [System requirements and required technologies](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699831(v=crm.8)) - Accessing Dynamics 365 Customer Engagement (on-premises) from the Internet - Claims-based authentication and [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] requirements  
   
   For more information about identity management, see [the identity training course](https://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse).  
   
@@ -59,11 +59,11 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
   
 -   [Cross domain calls to the parent CRM 2011 form](https://blogs.msdn.com/b/devkeydet/archive/2012/02/14/cross-domain-calls-to-the-parent-crm-2011-form.aspx)  
   
--   [Cross-Document Messaging and RPC](https://msdn.microsoft.com/magazine/ff800814.aspx)  
+-   [Cross-Document Messaging and RPC](/previous-versions/msdn10/ff800814(v=msdn.10))  
   
 ### See also  
  [Access the Web Services (Authentication) in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
- [Sample: Impersonate Using the ActOnBehalfOf Privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)   
+ [Sample: Impersonate Using the ActOnBehalfOf Privilege](/powerapps/developer/data-platform/impersonate-another-user)   
  [Impersonate Another User](org-service/impersonate-another-user.md)   
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)
 

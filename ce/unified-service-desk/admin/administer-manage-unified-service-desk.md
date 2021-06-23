@@ -1,29 +1,28 @@
 ---
 title: "Administer and manage Unified Service Desk | MicrosoftDocs"
-description: "Unified Service Desk administrators can start here to learn how to manage the application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "As an administrator, use this topic to get started with effectively administering and managing your Unified Service Desk implementation."
 ms.date: 01/25/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: 
   - NoHandoff
   - LinksOnlyTopic
 ---
-# Administer and manage overview
+# How you can administer and manage Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that helps you effectively administer and manage your implementation.  
+This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to effectively administer and manage your implementation.  
   
 ## In this section  
  [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)  

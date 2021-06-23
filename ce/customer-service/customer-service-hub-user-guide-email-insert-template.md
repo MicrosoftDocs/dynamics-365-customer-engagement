@@ -1,11 +1,10 @@
 ---
 title: "Insert email templates in customer engagement apps | MicrosoftDocs"
 description: "Learn how to insert an email template in customer engagement apps."
-author: lalexms
-ms.author: laalexan
 ms.date: 01/18/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: lalexms
+ms.author: laalexan
 ms.reviewer: nenellim
 ---
 
@@ -51,7 +50,7 @@ Once you select **Insert Template**, the following window appears displaying a l
       > If you try to insert an email template on a device with a smaller screen size, you'll only see an option to search and select a template.
 
 
-[Configure email](https://go.microsoft.com/fwlink/p/?linkid=2142941)<br>
+[Configure email](/power-platform/admin/settings-email)<br>
 [Create an email template](customer-service-hub-user-guide-email-create-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>

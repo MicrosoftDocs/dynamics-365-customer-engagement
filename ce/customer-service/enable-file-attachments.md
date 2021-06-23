@@ -1,12 +1,11 @@
 ---
 title: "Enable file attachments | MicrosoftDocs"
 description: "Enable file attachments in messaging channels in Omnichannel for Customer Service."
+ms.date: 08/25/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 08/25/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -37,7 +36,7 @@ You can set the file extension types that customers and agents can share.
 
 To configure the file size limit and file extensions, follow these steps:
 
-1. Sign in to Omnichannel Administrator.
+1. Sign in to Dynamics 365.
 
 2. Select the settings icon in the nav bar, and then select **Advanced Settings**.
 

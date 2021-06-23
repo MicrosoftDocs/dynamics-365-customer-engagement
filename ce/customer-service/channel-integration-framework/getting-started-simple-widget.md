@@ -1,12 +1,9 @@
 ---
-title: "Get started with building a simple communication widget with Dynamics 365 Channel Integration Framework version 1.0 | MicrosoftDocs"
-description: "Read how to develop and host a simple communication widget in Microsoft Dynamics 365 Channel Integration Framework version 1.0."
-author: v-sailab
-ms.author: v-sailab
+title: "Walkthrough: Build a communication widget | MicrosoftDocs"
+description: "Demonstrates how to build a simple communication widget using Dynamics 365 Channel Integration Framework 1.0."
+author: "mh-jaya"
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -62,7 +59,7 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 ## Publish and configure the widget 
 
-1. To publish the sample widget you just created, follow the steps in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You might also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework).
+1. To publish the sample widget you just created, follow the steps in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You might also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](/azure/app-service/app-service-web-get-started-dotnet-framework).
     Once the wizard has published the app on Azure, it provides a site URL that you can use to access your hosted web app.<br />
 
     ![See Site URL of published web app](media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
@@ -79,12 +76,17 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 Now, proceed to the next section of this walkthrough that shows how you can search and open a record in Dynamics 365  on an incoming call.<br />
 
+## How to check if Channel Integration Framework 1.0 is ready for communication
+
+You can check if Channel Integration Framework 1.0 is ready by invoking CIFInitDone event. CIFInitDone event is raised by Channel Integration Framework library after the Channel Integration Framework is loaded. This event determines if the Channel Integration Framework APIs are ready for communication. More information: [Events](reference/client-side-events.md#events)
+
+
 ### See also
 [Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)
 
 [Sample code for softphone integration](sample-softphone-integration.md)
 
-[Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/azure/app-service/app-service-web-get-started-dotnet-framework)
+[Create an ASP.NET Framework web app in Azure](/azure/app-service/app-service-web-get-started-dotnet-framework)
 
 [Frequently asked questions](faq-channel-integration-framework.md)
 

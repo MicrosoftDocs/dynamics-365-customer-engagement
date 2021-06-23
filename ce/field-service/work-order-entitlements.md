@@ -43,7 +43,7 @@ In this article, we will explore entitlements for work orders with two scenarios
 
 - Dynamics 365 Customer Service  
 
-- Recommended: Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
+- Recommended: Knowledge of Dynamics 365 [price lists](/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
 
 
 ## Scenario 1: Entitlement for price list and discount

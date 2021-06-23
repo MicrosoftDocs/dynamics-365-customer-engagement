@@ -1,20 +1,19 @@
 ---
 title: "Configure notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn about configuring notifications in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn how to configure global or session-based notifications in Unified Service Desk to display popup messages to your agents or customers."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # How to configure notifications in Unified Service Desk

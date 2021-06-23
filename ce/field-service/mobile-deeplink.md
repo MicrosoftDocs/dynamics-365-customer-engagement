@@ -42,9 +42,9 @@ You can reference this [sample mobile project template](https://1drv.ms/u/s!AhAj
 
 ## Prerequisites
 
-- Field Service Mobile must be set up for technicians to sign in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet).
+- Field Service Mobile must be set up for technicians to sign in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](./install-field-service.md#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet).
 
-- This article assumes you have a Power App to deep link to. The Parts Order Power App referenced in this article is a simple, custom-built Power App that connects to a SharePoint list. If you are building a Power App for the first time, the [Power App in a day](https://aka.ms/appinaday) guide and the article on [canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started) is helpful.
+- This article assumes you have a Power App to deep link to. The Parts Order Power App referenced in this article is a simple, custom-built Power App that connects to a SharePoint list. If you are building a Power App for the first time, the [Power App in a day](https://aka.ms/appinaday) guide and the article on [canvas apps](/powerapps/maker/canvas-apps/getting-started) is helpful.
 
 
 ## 1. Create custom command
@@ -216,7 +216,7 @@ By editing the **WorkOrder** folder and WorkOrder.js file, you're editing files 
 - [Sample mobile project template](https://1drv.ms/u/s!AhAjbOq5aB_lsUMGyM8rQ1g_IVHY?e=Lg32Nu)
 - [Sample "Parts Order" PowerApp](https://1drv.ms/u/s!AhAjbOq5aB_lsUKadMDMR9zrTVPW?e=LHZari) for guidance in this article.
 - [Power Apps update – Universal links, HTML control improvements, new service connections and more](https://powerapps.microsoft.com/ro-ro/blog/powerapps-560-update/) 
-- [Set URI parameters for your canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
+- [Set URI parameters for your canvas apps](/powerapps/maker/canvas-apps/embed-apps-dev#set-uri-parameters-for-your-app)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

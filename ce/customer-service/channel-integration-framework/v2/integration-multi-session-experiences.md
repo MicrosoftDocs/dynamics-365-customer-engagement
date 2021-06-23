@@ -1,29 +1,28 @@
 ---
-title: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app) | MicrosoftDocs"
-description: "Integrate Dynamics 365 Channel Integration Framework version 2.0 with the Omnichannel for Customer Service app (multi-session app)."
-author: v-sailab
-ms.author: v-sailab
+title: "Integrate with Omnichannel for Customer Service app| MicrosoftDocs"
+description: "Integrate Dynamics 365 Channel Integration Framework 2.0 with Omnichannel for Customer Service app."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
-# Integrate with Omnichannel for Customer Service app (multi-session app)
+# Integrate with Omnichannel for Customer Service app
 
-The Omnichannel for Dynamics 365 Customer Service app enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides a context-rich multitasking experience across different customer sessions.
+The Omnichannel for Customer Service app enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides a context-rich multitasking experience across different customer sessions.
 
 To learn more, see:
 
-- [Agents using Omnichannel for Customer Service app](../../../omnichannel/agent/agent-oc/omnichannel-customer-service-app-agent.md)
+- [Agents using Omnichannel for Customer Service app](../../omnichannel-customer-service-app-agent.md)
 
-- [Introduction to the agent interface of Omnichannel for Customer Service](../../../omnichannel/agent/agent-oc/oc-introduction-agent-interface.md)
+- [Introduction to the agent interface of Omnichannel for Customer Service](../../oc-introduction-agent-interface.md)
 
-- [Manage sessions in Omnichannel for Customer Service](../../../omnichannel/agent/agent-oc/oc-manage-sessions.md)
+- [Manage sessions in Omnichannel for Customer Service](../../oc-manage-sessions.md)
 
-- [Preview: Customer Service Workspace](../../csw-overview.md)
+- [App profile manager](../../../app-profile-manager/overview.md)
+
+- [Customer Service workspace](../../csw-overview.md)
 
 ## See also
 

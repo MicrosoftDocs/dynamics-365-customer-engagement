@@ -1,5 +1,6 @@
 ---
 title: "Work with templates (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
+description: "Use templates in Dynamics 365 Customer Engagement (on-premises) in a variety of ways to speed your work and improve consistency."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -30,7 +31,7 @@ More information: [Create templates for articles](/power-platform/admin/create-t
 
 Knowledge article templates help knowledge authors by simplifying the process of creating knowledge articles. Templates also help knowledge managers and authors in maintaining consistency in branding, language, and structure.
 
-More information: [Create knowledge article template](/dynamics365/customer-service/create-templates-knowledge-article) in Dynamics 365 Customer Service documentation
+More information: [Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md) in Dynamics 365 Customer Service documentation
 
 ## Email templates
 

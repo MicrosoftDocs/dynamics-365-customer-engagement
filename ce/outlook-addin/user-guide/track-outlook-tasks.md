@@ -67,7 +67,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
 
    - To track the task and link it to a particular [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record (for example, a specific opportunity or case), on the **Task** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, click **Add**.
 
-      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the task record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](https://go.microsoft.com/fwlink/p/?LinkID=510100)
+      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the task record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](../../customerengagement/on-premises/basics/basics-guide.md)
 
 6. To save the task, click the down arrow on the **Actions** button, and then click **Save & Close**.
 
@@ -77,7 +77,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
    >  If you want to stop tracking a task, open the task record, and then on the **Task** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Untrack**. It’s best to untrack items one at a time.
 
 ## Assigning tasks
- If you’re using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can also track assigned tasks if your administrator has enabled this capability. [Learn more about enabling tracking of assigned tasks](https://go.microsoft.com/fwlink/p/?LinkID=512487)
+ If you’re using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can also track assigned tasks if your administrator has enabled this capability. [Learn more about enabling tracking of assigned tasks](./system-settings-dialog-box-synchronization-tab.md)
 
  To track a task, you must be the owner of the task. You own a task that you create until you assign it to someone else. After you assign the task, the person you assign it to owns the task. When a task is tracked, the task owner can work on the task in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The person who assigns the task can follow the progress of the task in either tool.
 

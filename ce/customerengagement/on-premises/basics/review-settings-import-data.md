@@ -1,17 +1,19 @@
 ---
 title: "Review settings and import data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: Review settings and import data.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
+ms.service: crm-online
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: mkaur
+author: mduelae
 ms.assetid: 69ee9e50-13cc-428a-9b7c-e0f1c9dae159
 caps.latest.revision: 25
-ms.author: mduelae
+ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
@@ -23,7 +25,7 @@ Set whether the Import Data wizard checks for and handles duplicate data on impo
   
 ### Check for duplicate data  
   
-1.  Make sure there is a duplicate detection rule for the type of information you're importing. By default, the system includes rules for contacts, accounts, and leads. If you're importing a different type of data and need to set up duplicate detection rules, follow the steps in [Enable and Disable duplicate detection](https://docs.microsoft.com/powerapps/developer/common-data-service/enable-disable-duplicate-detection).  
+1.  Make sure there is a duplicate detection rule for the type of information you're importing. By default, the system includes rules for contacts, accounts, and leads. If you're importing a different type of data and need to set up duplicate detection rules, follow the steps in [Enable and Disable duplicate detection](/powerapps/developer/common-data-service/enable-disable-duplicate-detection).  
   
 2.  If it's okay for the Import Data wizard to import duplicate records, in the **Allow Duplicates** section, select **Yes**.  
   

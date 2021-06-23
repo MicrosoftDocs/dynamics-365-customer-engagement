@@ -1,20 +1,19 @@
 ---
 title: "Configure an action for the hosted application | MicrosoftDocs"
-description: "Learn about configuring the actions for the hosted application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn about configuring actions for the hosted application before deploying it to Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Configure an action for the hosted application
 After you have configured your application using the Hosted Application Toolkit (HAT), you must configure actions for the application. The application along with the actions is deployed using the HAT Software Factory.  
@@ -50,13 +49,12 @@ After you have configured your application using the Hosted Application Toolkit 
   
    ![Action configuration in HAT](../unified-service-desk/media/usd-action-config.png "Action configuration in HAT")  
   
-### See also  
+### See also
  [Integrate with external applications and web applications](../unified-service-desk/integrate-external-applications-web-applications.md)   
  [Create a HAT hosted application project](../unified-service-desk/use-hat-software-factory-create-hosted-application.md#Create)   
  [Using UII inspector to create bindings](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md)   
  [Configure the hosted application](../unified-service-desk/configure-hosted-application.md)   
  [Deploy your hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md#deploy)   
  [Import the hosted application from Unified Service Desk](../unified-service-desk/import-hosted-application-from-unified-service-desk.md)
-
-
+s
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

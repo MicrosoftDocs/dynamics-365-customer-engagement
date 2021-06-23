@@ -28,7 +28,7 @@ This topic outlines one way that you could develop an approvals feature for Mark
 <!--## Prerequisites-->
 
 <!--1. Download the [code]() for sample web resources and ribbon customizations.
-2. Sign up for or install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app.
+2. Sign up for or install the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app.
 3. Obtain a license for [Power Automate](https://flow.microsoft.com/) to create a sample approvals feature.-->
 
 ## The approval process
@@ -91,7 +91,7 @@ The only limitations that remain to customize the Marketing solution are:
 
 ### Step 2: Create ribbon buttons
 
-To make our solution to work, we need to create three custom ribbon buttons, as explained below. To create custom ribbon buttons, see [Customize commands and the ribbon](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
+To make our solution to work, we need to create three custom ribbon buttons, as explained below. To create custom ribbon buttons, see [Customize commands and the ribbon](/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
 
 |Ribbon|Enable rules|Action|
 |-----|-------|------|
@@ -114,7 +114,7 @@ For our example, we will need to use two of the extensibility points mentioned a
 
 ### Step 4: Create two system views
 
-To easily identify the entities that are in the **Approval required** and **Approve** states, we suggest creating two system views in the customer journey entity to display all the entities that need approval, and all the entities that are already approved and waiting to **Go live**.  More information: [Create or edit a view](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-and-edit-views)
+To easily identify the entities that are in the **Approval required** and **Approve** states, we suggest creating two system views in the customer journey entity to display all the entities that need approval, and all the entities that are already approved and waiting to **Go live**.  More information: [Create or edit a view](/dynamics365/customer-engagement/customize/create-and-edit-views)
 
 ## See also
 [Build approvals feature using Power Automate](build-approval-feature-using-flow.md)

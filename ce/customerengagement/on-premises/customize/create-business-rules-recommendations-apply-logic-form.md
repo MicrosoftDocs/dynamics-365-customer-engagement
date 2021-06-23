@@ -1,5 +1,5 @@
 ---
-title: "Create business rules and recommendations | MicrosoftDocs"
+title: "Create business rules and recommendations with Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
 description: Learn how to create a business rule
 ms.custom: 
 ms.date: 10/23/2019
@@ -134,7 +134,7 @@ You can create business rules and recommendations to apply form logic without wr
 This section describes common issues that may occur when you use business rules.
 
 ### Composite attributes not supported with Unified Interface apps
-Actions or conditions that use [composite attributes](../developer/clientapi/reference/composite-attributes.md) are not supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions on the attributes that comprise the composite attributes. For example, instead of using the **Full Name** (fullname) attribute, you can use the **First Name** (firstname) and **Last Name** (lastname) attributes. 
+Actions or conditions that use [composite attributes](/powerapps/developer/model-driven-apps/clientapi/reference/composite-attributes) are not supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions on the attributes that comprise the composite attributes. For example, instead of using the **Full Name** (fullname) attribute, you can use the **First Name** (firstname) and **Last Name** (lastname) attributes. 
 
 ### Is your business rule not firing for a form?
 A business rule may not execute because the field referenced in the business rule isn’t included with the form. 

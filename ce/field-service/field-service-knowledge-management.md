@@ -30,8 +30,9 @@ Access to these articles can:
 - Improve first-time fix rate.
 - Guide technicians through procedures and help.
 
-> [!Note]
-> Previously, knowledge management was only available for Field Service through Dynamics 365 Customer Service; it's now built-in to Field Service and no longer requires Dynamics 365 Customer Service. If you're already using Dynamics 365 Customer Service knowledge articles in Field Service, you can still use knowledge management for both. 
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxBzW]
 
 In this article, we'll walk through how to: 
 
@@ -39,6 +40,11 @@ In this article, we'll walk through how to:
 - Associate articles to assets, incident types, or products
 - Associate articles to work orders
 - View knowledge articles from the mobile app
+
+## Prerequisites
+
+> [!Note]
+> Previously, knowledge management was only available for Field Service through Dynamics 365 Customer Service; it's now built in to Field Service and no longer requires Dynamics 365 Customer Service. If you're already using Dynamics 365 Customer Service knowledge articles in Field Service, you can still use knowledge management for both. 
 
 ## Create a knowledge article
 
@@ -50,8 +56,8 @@ Then save and publish the article.
 
 For more information on knowledge articles, visit the following Customer Service documentation:
 
-- [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article)
-- [Set up a search provider](https://docs.microsoft.com/dynamics365/customer-service/set-up-search-providers)
+- [Create and manage knowledge articles](../customer-service/customer-service-hub-user-guide-knowledge-article.md)
+- [Set up a search provider](../customer-service/set-up-search-providers.md)
 
 ## Associate knowledge article to customer assets, incident types, products
 

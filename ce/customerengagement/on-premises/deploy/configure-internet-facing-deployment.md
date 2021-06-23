@@ -49,7 +49,7 @@ You can deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] so th
 
 -   [AD FS 2016 Overview](/windows-server/identity/ad-fs/ad-fs-overview)  
 
--   [Active Directory Federation Services Overview](https://technet.microsoft.com/library/hh831502.aspx) ([!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)])  
+-   [Active Directory Federation Services Overview](/windows-server/identity/active-directory-federation-services) ([!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)])  
   
 <a name="BKMK_Internetfacing"></a>   
 ## Internet-facing server best practices  
@@ -66,7 +66,7 @@ You can deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] so th
   
 <a name="BKMK_ProxyFirewall"></a>   
 ### Advanced network security  
- If you do not have a secure proxy and firewall solution on your network, we recommend that you use a dedicated remote access, proxy, or firewall server, such as the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Remote Access Server role or Windows Firewall with Advanced Security. For more information, see [Remote Access Overview](https://technet.microsoft.com/library/dn636119.aspx) and [Windows Firewall with Advanced Security Overview](https://technet.microsoft.com/library/hh831365.aspx).  
+ If you do not have a secure proxy and firewall solution on your network, we recommend that you use a dedicated remote access, proxy, or firewall server, such as the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Remote Access Server role or Windows Firewall with Advanced Security. For more information, see [Remote Access Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn636119(v=ws.11)) and [Windows Firewall with Advanced Security Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831365(v=ws.11)).  
   
 <a name="BKMK_configIFD"></a>   
 ## Configure IFD  

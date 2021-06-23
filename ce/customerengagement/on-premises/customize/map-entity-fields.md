@@ -1,5 +1,5 @@
 ---
-title: "Map entity fields | MicrosoftDocs"
+title: "Map entity fields with Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
 description: "Learn how to map entity fields"
 ms.custom: 
 ms.date: 12/04/2018
@@ -19,11 +19,10 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-
 ---
 # Map entity fields
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Map table columns](/powerapps/maker/data-platform/map-entity-fields)
 
 <a name="BKMK_mappingEntityFields"></a>   
  

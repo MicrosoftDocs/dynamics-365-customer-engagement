@@ -2,13 +2,13 @@
 title: "Configure a forecast using custom rollup entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure a forecast using custom rollup entity in Dynamics 365 Sales."
 ms.date: 10/26/2020
-ms.service: "dynamics-365-sales"
-ms.custom: "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
   - D365-Entity-msdyn_forecastdefinition
@@ -16,12 +16,11 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Configure forecasts by using a custom rollup entity
 
-Forecasting supports custom and other out-of-the-box rollup entities so you can configure a forecast that's specific to your organizational requirements.
+Forecasting supports custom and other out-of-the-box rollup entities (now known as tables) so you can configure a forecast that's specific to your organizational requirements.
 
 ## How it works
 
@@ -101,11 +100,14 @@ Let's configure this forecast.
 
 ## Opportunity split 
 
+>[!IMPORTANT]
+>The opportunity split is a custom entity and isn't available by default. You must first create the opportunity split custom entity to be able to use as a rollup entity. More information: [Create a custom table](/powerapps/maker/data-platform/data-platform-create-entity).
+
 Use this model to create an opportunity split forecast.
 
-For opportunity split&ndash;based forecasting, the user-level revenue comes from the Opportunity Split entity. Therefore, **Opportunity Split** must be selected as the rollup entity and **User** as the hierarchy entity that has a direct relationship with the rollup entity through the **Owner** attribute. 
+For opportunity split&ndash;based forecasting, the user-level revenue comes from the opportunity split entity. Therefore, **Opportunity Split** must be selected as the rollup entity and **User** as the hierarchy entity that has a direct relationship with the rollup entity through the **Owner** attribute. 
 
-The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in the Opportunity entity that's related to the Opportunity Split rollup entity. 
+The other key attributes for the forecast are **Forecast category** and **Est.Close Date**. These attributes are available in the Opportunity entity that's related to the opportunity split rollup entity. 
 
 So, we're using the following entities to create the forecast:
 

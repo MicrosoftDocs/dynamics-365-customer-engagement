@@ -2,12 +2,12 @@
 title: "Install the LinkedIn Sales Insights solution for accounts (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Install the LinkedIn Sales Insights solution for accounts in Dynamics 365 Sales."
 ms.date: 02/11/2020
-ms.service: "dynamics-365-sales"
-ms.custom: "dyn365-sales"
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Install or delete the LinkedIn Sales Insights solution
@@ -24,9 +24,9 @@ As an administrator, you can install LinkedIn Sales Insights and make it availab
 Before you install LinkedIn Sales Insights, be sure you meet the following requirements:
 
 - You have a **System Administrator** security role in Dynamics 365.
-- You have a [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/) subscription for Dynamics 365.    
+- You have a [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/) subscription for Dynamics 365 and have signed up for [LinkedIn Sales Insights](https://business.linkedin.com/sales-solutions).    
     or     
-    You've signed up your team for **LinkedIn Sales Insights**, **LinkedIn Sales Navigator Team** or **LinkedIn Sales Navigator Enterprise** license. More information: [LinkedIn Sales Solutions](https://business.linkedin.com/sales-solutions)
+    You've **LinkedIn Sales Navigator Team** or **LinkedIn Sales Navigator Enterprise** license, and have signed up your team for **LinkedIn Sales Insights**. More information: [LinkedIn Sales Solutions](https://business.linkedin.com/sales-solutions)
 
     >[!NOTE]
     >We recommend having a Microsoft Relationship Sales solution Plus license. To learn more, see the Dynamics 365 Sales section in the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).

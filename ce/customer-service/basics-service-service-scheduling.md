@@ -1,12 +1,11 @@
 ---
 title: "Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Know the basics of service and service scheduling in Dynamics 365 Customer Service."
+ms.date: 12/15/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/15/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Overview of Service Scheduling
@@ -167,7 +166,7 @@ Scheduling entities are grouped under the following logical groups:
 - **Facilities/Equipment**  </br>
    Facilities and equipment are resources you'd use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
 
 - **Resource Categories** </br>
    With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 

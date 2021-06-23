@@ -1,5 +1,7 @@
 ---
 title: "Not all base and extensionbase tables were merged | Microsoft Docs"
+description: Environment diagnostics warning that not all tables were merged.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,7 +24,7 @@ ms.author: matp
   
  Review the setup log to help determine the cause of the problem. For example, an issue can occur when there are a large number of customizations that cause the total number of columns in both the base and exensionbase tables to exceed 1024 when merged.  
   
- For more information about base and exensionbase table merge, see [Run the base and extension table merge as a separate operation](https://go.microsoft.com/fwlink/p/?LinkId=309240).
+ For more information about base and exensionbase table merge, see [Run the base and extension table merge as a separate operation](/previous-versions/dynamicscrm-2013/implementation-guide/dn531088(v=crm.6)).
  
 
 

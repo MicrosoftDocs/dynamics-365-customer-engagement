@@ -1,85 +1,86 @@
 ---
 title: "Attach skill to an incoming conversation | MicrosoftDocs"
 description: "Learn about how to attach skills to an incoming conversation in Omnichannel for Customer Service app."
+ms.date: 05/17/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
-# Attach skills to conversation
+# Attach skills to conversations in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Understand skill
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
-In the portal, when a customer fills in the prechat survey questions, the system receives them as context variables. The system attaches these variables to the incoming conversation as a skill. The work distribution engine matches the skills of the agents. The skill is matched on exact or closest match. If the agent and conversation skills match, the work distribution engine assigns the conversation to the agent.
+## Understand skill-based routing
+
+When a customer initiates a conversation, the following happens:
+
+- Based on the skill attachment rules, the system attaches the skills to the conversation.
+- Based on the routing rules, the system routes the conversation to the appropriate queue.
+- Now, the assignment system starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the assignment engine assigns the conversation to the agent.
+
+In the portal, when a customer fills in the prechat survey questions, the system receives them as context variables. The system attaches these variables to the incoming conversation as a skill. The assignment engine matches the skills of the agents. The skill is matched on exact or closest match. If the agent and conversation skills match, the assignment engine assigns the conversation to the agent.
 
 For example:
 
-Bert Hair, is a customer from Spain, who uses **Xbox** product. Bert goes to **www.contoso.com** portal to initiate a chat with the Contoso customer service. In the pre-chat survey question, Bert chooses **Xbox**. Because Bert's geolocation is Spain, the system attaches **Xbox** as the product and the **Spanish** language as the skill to the conversation. Then, the work distribution engine assigns the conversation to an agent who matches the skill and language.
+Bert Hair, is a customer from Spain, who uses **Xbox** product. Bert goes to **www.contoso.com** portal to initiate a chat with the Contoso customer service. In the pre-chat survey question, Bert chooses **Xbox**. Because Bert's geolocation is Spain, the system attaches **Xbox** as the product and the **Spanish** language as the skill to the conversation. Then, the assignment engine assigns the conversation to an agent who matches the skill and language.
 
 > [!Note]
 > The system attaches the skills to a conversation based on the skill attachment rules.
 
 ## Match skills
 
-When the skill attachment logic attaches a skill and proficiency level, the work distribution system considers the proficiency level as the minimum requirement. The system assigns the conversation to an agent only if the agent skills meet the criteria.
+When the skill attachment rules attach skills and proficiency levels, the assignment logic matches the required skill with the skills of the agent. The system assigns the conversation to an agent based on the skill criteria that is chosen.
 
-If the minimum proficiency requirements aren't met, then the system searches for the next proficiency level based on the skill-matching criteria.
-
-The two skill-matching types are:
+Admins can achieve the skill matching based on the business requirements:
 
 - Exact skill matching
-- Closest skill matching
- 
+- Closest or nearest skill matching
+
 ### Exact skill matching
 
-In exact skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have. Next, the work distribution system searches for an agent with the required skills and proficiency level. 
+In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency and lists them in the order of highest available capacity by default. The default order can be set to round robin by the administrator.
 
-The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents. 
+If no agent is available with all the required skills and corresponding or higher proficiency, then the conversation remains unassigned in the queue.
 
-- If the minimum proficiency level isn't met, then the system searches for a higher proficiency level. 
-
-- If an agent isn't available with a higher proficiency level, then the conversation remains in the queue.
+Exact match will filter all matching agents whose proficiency is greater than or equal to the required proficiency.
 
 The following table describes how exact skill matching works for a single or multiple-skill scenario.
 
 | Skill scenario | Skill & proficiency criteria  | Description |
 |--------|---------------------|-----------------|
-| Single | Xbox = 4 |<ul><li> First, the system searches for an agent with **Xbox** = **4**, the minimum criteria. </li> <li> When the criteria aren't met, the system searches for an agent with **Xbox** proficiency greater than **4**. </li> <li> If the criteria aren't met, then the conversation (work item) remains in the queue. </li></ul>|
-| Multiple |Xbox = 4 <br> Spanish = 5 |<ul><li> First, the system searches for an agent with **Xbox** = **4** and **Spanish** = **5**, the minimum criteria for each. </li> <li> When the criteria aren't met, the system searches for an agent with **Xbox** proficiency greater than **4**, and **Spanish** proficiency greater than **5**.</li> <li> If the criteria aren't met, then the conversation (work item) remains in the queue. </li></ul> |
+| Single | Xbox = 4 |The system searches for all agents with **Xbox** greater than or equal to **4**. |
+| Multiple |Xbox = 4 <br> Spanish = 5 | The system searches for all agents with **Xbox** skill rating greater than or equal to 4 and **Spanish** skill rating greater than or equal to 5. |
+||||
 
 ### Closest skill matching
 
-In closest skill matching, the skill attachment logic identifies the skills and proficiency level that an agent should have to work on the conversation. Next, the work distribution system searches for an agent with the required skills and proficiency level. 
+If no agent is available with any of the required skills, then the conversation might be assigned to an agent without the required skills.
 
-The skill attachment logic identified proficiency level is set as minimum criteria while searching for the agents, and when the system finds an agent with the necessary skill and proficiency level, it assigns the conversation to that agent.
+The closest skill match will order all agents based on their closeness to the required skill and proficiency. For example, if the required skills are four, then agents with four skills will be put on top (exact qualified), then agent with five skills (overqualified), and then agent with three skills (under qualified). In this scenario where closest match is chosen as the skill matching algorithm at workstream level; if more than one agent with same skill score are there; the system will not order them by round robin or highest capacity. The system will continue to assign all the incoming work items to the same agent till other constraints like capacity and presence are met.
 
-- If the minimum proficiency criteria aren't met, then the system searches for a higher proficiency level. 
-
-- If an agent isn't found with a higher proficiency level, then the system searches for a lower proficiency level than the minimum criteria. System will assign the conversation to an agent if atleast one of the skills is matching the criteria.
-
-- When skill proficiency level criteria are not met, then the work distribution system assigns the conversation based on the capacity and availability of the agent.
-
+> [!NOTE]
+> If you do not intend to use skills based routing model, choose **None** in the **Default skill matching algorithm** option in the workstream settings.
 
 The following table describes how exact skill matching works for a single- or multiple-skill scenario.
 
 | Skill scenario | Skill & proficiency  | Description |
 |--------|---------------------|-----------------|
-| Single | Xbox = 4 | <ul><li>First, the system searches for an agent with Xbox = 4 as this is the minimum criteria. </li> <li> When the criteria aren't met, the system searches for an agent with **Xbox** proficiency greater than **4**. If found, the system assigns the conversation to the agent.</li> <li> When the greater than criteria aren't met, the system searches for an agent with **Xbox** proficiency lesser than **4**. If found, the system assigns the conversation to the agent.</li><li> When the criteria are not met, the system assigns the conversation based on the capacity and availability of the agent. </li></ul>|
-| Multiple |Xbox = 4 <br> Spanish = 5 |<ul><li> First, the system searches for an agent with **Xbox** = **4** and **Spanish** = **5**, the minimum criteria. </li> <li> When the criteria aren't met, the system searches for an agent with **Xbox** proficiency greater than **4**, and **Spanish** proficiency greater than **5**. </li> <li> When the greater than criteria are not met, the system searches for an agent with **Xbox** proficiency lesser than **4**, and **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> <li>  When the lesser than criteria isn't met, the system searches for an agent either with **Xbox** proficiency lesser than **4**, or **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> <li> When the criteria aren't met, the system assigns the conversation based on the capacity and availability of the agent. </li> </ul>|
+| Single | Xbox = 4 | <ul><li> Agents are first ordered by exact qualified match (Xbox equals 4), followed by overqualified match (Xbox is greater than 4), and then underqualified match (Xbox is less than 4)</li> <li> If none of the criteria are met, then the work item might be assigned to an agent who doesn't have the Xbox skill.</li> </ul>|
+| Multiple | Xbox = 4 <br> Spanish = 5 |<ul><li> Agents are first ordered by exact qualified (Xbox equals 4, Spanish equals 5), then overqualified (Xbox is greater than 4, Spanish is greater than 5) and then underqualified (Xbox is less than 4, Spanish is less than 5). </li> <li> If none of the criteria are met, then the work item might be assigned to an agent who doesn't have the Xbox and Spanish skills. </li></ul>|
 
 > [!Note]
-> The system provides a score for the agents against each skill based on the above-mentioned scenarios. The system calculates the average score of the agent considering the skills and then, based on the score, assigns the conversation to the agents.
+> The system provides a score for the agents against each skill based on the scenarios mentioned and rating model. The system calculates the normalised score of the agent by considering the skills and then, based on the score, assigns the conversation to the agents.
 
 ## Prerequisites
 
 To attach skills, you need a workstream record. You can either create or use an existing workstream configuration.
 
-## Create rules to attach a skill
+## Create rules to attach a skill in Omnichannel Administration
 
 1. Sign in to the **Omnichannel Administration** app.
 
@@ -132,7 +133,7 @@ To attach skills, you need a workstream record. You can either create or use an 
 ### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)  
+[Allow agents to update skills](allow-agents-update-skills.md)  
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 
 

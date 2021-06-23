@@ -1,12 +1,9 @@
 ---
-title: "Configure channel provider in Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: "Learn how to configure a channel provider in Microsoft Dynamics 365 Channel Integration Framework (CIF) version 1.0."
-author: v-sailab
-ms.author: v-sailab
+title: "Configure channel providers for your Dynamics 365 organization | MicrosoftDocs"
+description: "Use this topic to understand how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -58,9 +55,9 @@ To configure channel providers:
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)<br />
-[Configure channel provider in Channel Integration Framework version 2.0](v2/configure-channel-provider-channel-integration-framework.md)<br />
+[Configure channel provider in Channel Integration Framework version 2.0](/dynamics365/customer-service/channel-integration-framework/configure-channel-provider-app-profile-manager)<br />
 [FAQs for Channel Integration Framework](faq-channel-integration-framework.md)<br />
-[Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+[Bring your own channel](../bring-your-own-channel.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

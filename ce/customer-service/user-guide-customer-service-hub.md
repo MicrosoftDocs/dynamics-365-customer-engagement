@@ -1,12 +1,11 @@
 ---
 title: "Introduction to Customer Service | MicrosoftDocs"
 description: "Learn about Customer Service Hub."
+ms.date: 07/31/2019
+ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/31/2019
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -31,7 +30,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 
 > [!NOTE]
-> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](user-guide-customer-service.md). To learn more, see [see the Basics Guide](../basics/basics-guide.md).
+> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](user-guide-customer-service.md). To learn more, see [see the Basics Guide](../customerengagement/on-premises/basics/basics-guide.md).
 
 To learn how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
 
@@ -60,8 +59,8 @@ Customer Service Hub advocates inclusive design and accessible content. The app 
 
 Refer below to know how the Customer Service Hub app complies to accessibility and GDPR guidelines:
 
-- [Accessibility features](https://docs.microsoft.com/dynamics365/get-started/accessibility/customer-engagement/accessibility)
-- [Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index)
+- [Accessibility features](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+- [Microsoft Dynamics 365 Customer Service and GDPR](/dynamics365/get-started/gdpr/index)
 - [Keyboard navigation support for the Customer Service Hub](keyboard-navigation-support-customer-service-hub.md)
 
 ### See also

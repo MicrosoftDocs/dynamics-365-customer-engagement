@@ -60,7 +60,7 @@ When generating contacts and leads automatically (such as after a page submissio
 
 You can choose which fields to consider in your matching strategies—the standard settings use just the email address for contacts and both email address and marketing-page ID for leads. You can establish any number of matching strategies and can even use different strategies for different marketing forms. At minimum, you'll have a default set of lead and contact matching strategies (one of each), which is automatically applied to all new marketing forms.
 
-More information: [Configure marketing pages](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings#config-mkt-pages)
+More information: [Configure marketing pages](/dynamics365/customer-engagement/marketing/marketing-settings#config-mkt-pages)
 
 ## Lead nurturing and scoring
 
@@ -70,7 +70,7 @@ The lead represents an expressed interest in that specific campaign or initiativ
 
 After a single interaction, a new lead is usually still considered *unqualified*, which means that you don't have enough confidence in it to ask a salesperson to engage. Marketers typically put contacts with leads like these into a *nurturing campaign*, which seeks to build interest by supplying additional information and new offers.
 
-The [automated scoring system](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/score-manage-leads) enables Marketing to calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event. You can design your segments and customer journeys to react to promising patterns in contacts' behavior, so you can engage them further with targeted messaging and enticing offers that nurture their interest.
+The [automated scoring system](/dynamics365/customer-engagement/marketing/score-manage-leads) enables Marketing to calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event. You can design your segments and customer journeys to react to promising patterns in contacts' behavior, so you can engage them further with targeted messaging and enticing offers that nurture their interest.
 
 Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting teleprospectors or salespeople to pick it up.
 
@@ -94,10 +94,10 @@ The standard process guides users through the following stages:
 4. **Teleprospecting qualification**: When a phone operator gets in contact with the lead, they fill out the fields here to hold important information gathered during the conversation. If the phone operator concludes that the lead is promising, then they select the **Sales ready** check box, which advances the lead to the next stage.
 5. **Sales acceptance**: When a lead gets marked as sales ready, it comes to the attention of a salesperson, for example by showing up on their dashboard or through a generated task. If the lead meets their minimum criteria for qualification, the manager assigns it to a salesperson and selects the **Sales accepted** check box here. The salesperson can then start working on the lead, possibly going on to convert it to an opportunity and eventually closing the sale.
 
-Business processes are highly customizable and can be used to drive further automation. They are a standard feature of many Dynamics 365 apps. You'll typically also customize your system to support other aspects of this process, such as by setting up dashboards and custom views for teleprospectors and salespeople to discover their newly qualified leads, and by setting up workflows that automate other aspects of your internal sales processes. More information: [Business process flows overview](https://docs.microsoft.com/flow/business-process-flows-overview)
+Business processes are highly customizable and can be used to drive further automation. They are a standard feature of many Dynamics 365 apps. You'll typically also customize your system to support other aspects of this process, such as by setting up dashboards and custom views for teleprospectors and salespeople to discover their newly qualified leads, and by setting up workflows that automate other aspects of your internal sales processes. More information: [Business process flows overview](/flow/business-process-flows-overview)
 
 > [!NOTE]
-> If you are integrating Dynamics 365 Marketing with Dynamics 365 Sales, then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. More information: [Understand model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views) and [Create or edit model-driven app dashboards](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-dashboards)
+> If you are integrating Dynamics 365 Marketing with Dynamics 365 Sales, then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. More information: [Understand model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views) and [Create or edit model-driven app dashboards](/powerapps/maker/model-driven-apps/create-edit-dashboards)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -25,7 +25,7 @@ search.app:
 # Upgrade Microsoft Dynamics CRM for Outlook
 Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)].  
   
-1. If you're using a version of CRM for Outlook earlier than [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)], uninstall it and [install Dynamics CRM 2016 for Outlook](https://technet.microsoft.com/library/hh699760.aspx). Then do Step 4.  
+1. If you're using a version of CRM for Outlook earlier than [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)], uninstall it and [install Dynamics CRM 2016 for Outlook](/previous-versions/dynamicscrm-2016/administering-dynamics-365/hh699760(v=crm.8)). Then do Step 4.  
   
 2. Upgrade [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] to Dynamics CRM 2016 for Outlook.  
   

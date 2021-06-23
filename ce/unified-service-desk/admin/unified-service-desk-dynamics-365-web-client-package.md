@@ -1,26 +1,25 @@
 ---
-title: "Unified Service Desk  Web Client package | MicrosoftDocs"
-description: "Overview of the Web Client sample application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Unified Service Desk Web Client package | MicrosoftDocs"
+description: "Learn about the Web Client sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Web Client sample application package
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with Microsoft Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with  Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  This package is best used in the following situations:  
   
@@ -74,9 +73,9 @@ search.app:
   
 - Number of cases resolved. Displays the total number of resolved cases for the agent.  
   
-- Session Time: Displays the accrued time that the session tab it open.  
+- Session Time: Displays the accrued time that the session tab is open.  
   
-  ![unifiedservicedeskcrmwebclientpackage](../../unified-service-desk/media/unifiedservicedeskcrmwebclientpackage.png "unifiedservicedeskcrmwebclientpackage")  
+  ![Unified Service Desk CRM Web Client package](../../unified-service-desk/media/unifiedservicedeskcrmwebclientpackage.png "Unified Service Desk CRM Web Client package")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  

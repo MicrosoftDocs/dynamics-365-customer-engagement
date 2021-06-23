@@ -30,11 +30,12 @@ search.app:
 # Dynamics 365 for Outlook User Guide
 
 > [!IMPORTANT]
-> Effective October 1 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is retired. Customers must transition to the modern [Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/outlook-app/overview) at the earliest. Microsoft will not provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
-> 
-> Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
+> Effective October 1, 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) was retired. Microsoft won’t provide support or any further updates (including security and critical updates) to the Outlook COM Add-in for customer engagement apps (Dynamics 365 Sales, Customer Service, Marketing, and Field Service). 
 >
-> For more information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
+>- Effective December 4, 2020, the legacy Dynamics 365 for Outlook is not available for customer engagement apps (Dynamics 365 Sales, Customer Service, Marketing, and Field Service). Use the modern [Dynamics 365 App for Outlook instead](../../outlook-app/overview.md).
+>- [Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/overview.md) users can continue to use the legacy Dynamics 365 for Outlook and will continue to receive critical security updates. However, we recommend that you transition to the modern Dynamics 365 App for Outlook at the earliest. 
+>
+> For further information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
 
 - For [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)] and later releases, the preferred way to use [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] together with [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] is to use [!INCLUDE[pn_dyn_365_app_outlook](../../includes/pn-dyn-365-app-outlook.md)], a [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] add-in. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Dynamics 365 App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md). 
 - Configuring [!INCLUDE[pn_dyn_365_app_outlook](../../includes/pn-dyn-365-app-outlook.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] for the same Dynamics 365 user is not supported.

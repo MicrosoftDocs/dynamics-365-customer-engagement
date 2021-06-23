@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Upgrade Dynamics 365 Server
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This section shows you how to run the actual in-place upgrade on Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises). If you encounter problems during the upgrade, see [Troubleshooting installation and upgrade](troubleshooting-installation-and-upgrade.md) in this guide.  
   
@@ -48,7 +53,7 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
   
 -   Uninstall Dynamics 365 Reporting Extensions if it’s installed on the same computer where Dynamics 365 Server is installed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Uninstall or repair Microsoft Dynamics 365 Reporting Extensions](uninstall-repair-dynamics-365-reporting-extensions.md)  
   
--   To determine the location of the Dynamics 365 Customer Engagement (on-premises) installation files, see the [Microsoft Dynamics 365, version 9.0 Readme](https://go.microsoft.com/fwlink/?linkid=2020048).  
+-   To determine the location of the Dynamics 365 Customer Engagement (on-premises) installation files, see the [Microsoft Dynamics 365, version 9.0 Readme](/dynamics365-release-plan/2019wave2/).  
   
 ## Run the upgrade  
   
@@ -113,7 +118,6 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
 ## See also  
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)   </br>
  
-
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

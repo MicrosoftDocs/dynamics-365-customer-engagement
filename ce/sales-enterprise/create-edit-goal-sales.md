@@ -1,14 +1,12 @@
 ---
-title: "Create or edit goals (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Keep track of your progress on achieving target revenue by using goals."
+title: "Create or edit goals - Sales Enterprise | MicrosoftDocs"
+description: "Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-goal
   - D365-Entity-metric
@@ -17,7 +15,6 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Create or edit goals (Sales Hub)

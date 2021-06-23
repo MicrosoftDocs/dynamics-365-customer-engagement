@@ -33,7 +33,7 @@ Client applications may need access to a [!INCLUDE[pn_crm_shortest](../../includ
 Organization information is stored in the `Instance` entity of the Discovery service.  To see the kind of information contained in that entity, send an HTTP GET request to the service for one of your instances.  
   
 ```http  
-GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
 ```  
   
 In the above example, the discovery service is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
@@ -69,7 +69,7 @@ On-premise or IFD instances of the Discovery OData V4 RESTful API adopt the auth
 Versioning of the Discovery service for a datacenter or on-premises/IFD is supported and is consistent with version numbering as used by the Organization service. For example:  
   
 ```http  
-GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
 ```  
 
 ### CORS support
@@ -81,25 +81,25 @@ The Discovery service RESTful API supports the CORS standard for cross-origin ac
 -   Get the details of a specific instance. If you leave out the GUID, all instances that the authenticated user has access to are returned.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.0/Instances(<guid>)  
+    GET https://dev.{servername}/api/discovery/v9.1/Instances(<guid>)  
     ```  
   
 -   You can use the UniqueName attribute as an alternate key.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
+    GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
     ```  
   
 -   Retrieve a list of available instances, filtered by production type.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.0/Instances?$select=DisplayName,Description&$filter=Type+eq+0   
+    GET https://dev.{servername}/api/discovery/v9.1/Instances?$select=DisplayName,Description&$filter=Type+eq+0   
     ```  
   
 -   Retrieve a specific instance's ID property value.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')/Id/$value  
+    GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')/Id/$value  
     ```
 ## See also
 

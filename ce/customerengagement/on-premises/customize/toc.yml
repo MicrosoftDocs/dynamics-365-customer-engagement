@@ -1,0 +1,306 @@
+- name: Customize Dynamics 365 Customer Engagement (on-premises)
+  href: overview.md
+- name: Get started with customization
+  href: getting-started-customization.md
+- name: Privileges required
+  href: privileges-required-customization.md
+- name: Supported and unsupported customization
+  href: customizations-supported.md
+- name: Customize or create applications
+  items: 
+  - name: Customize or create applications
+    href: customize-create-applications.md
+  - name: Create a theme
+    href: change-color-scheme-add-logo-match-organizations-brand.md
+  - name: Create and design forms
+    items: 
+    - name: Create and design forms
+      href: create-design-forms.md
+    - name: Use the main form and its components
+      href: use-main-form-and-components.md
+    - name: Assign form order
+      href: assign-form-order.md
+    - name: Control access to forms
+      href: control-access-forms.md
+    - name: How main forms appear in different clients
+      href: main-form-presentations.md
+    - name: Create or edit main forms
+      href: design-considerations-main-forms.md
+    - name: Create or edit quick create forms
+      href: create-edit-quick-create-forms.md
+    - name: Create or edit quick view forms 
+      href: create-edit-quick-view-forms.md
+    - name: Add form navigation for related entities
+      href: add-edit-form-navigation-related-entities.md
+    - name: Disable auto save
+      href: manage-auto-save.md
+    - name: Optimize performance
+      href: optimize-form-performance.md
+    - name: Add custom controls
+      href: use-custom-controls-data-visualizations.md
+    - name: Work with the form editor
+      items: 
+      - name: Work with the form editor
+        href: work-with-form-editor.md
+      - name: Open the form editor
+        href: open-form-editor.md
+      - name: Overview of the form editor user interface
+        href: form-editor-user-interface-legacy.md
+      - name: Show or hide form elements
+        href: visibility-options-legacy.md
+      - name: Change navigation within a form
+        href: use-the-form-editor-legacy.md
+      - name: Add a field to a form
+        href: add-field-form.md
+      - name: Form properties
+        href: form-properties-legacy.md
+      - name: Work with form tabs
+        href: tab-properties-legacy.md
+      - name: Section properties
+        href: section-properties-legacy.md
+      - name: Common field properties
+        href: common-field-properties-legacy.md
+      - name: Special field properties
+        href: special-field-properties-legacy.md
+      - name: Sub-grid properties
+        href: sub-grid-properties-legacy.md
+      - name: Quick view control properties
+        href: quick-view-control-properties-legacy.md
+      - name: iFrame properties
+        href: iframe-properties-legacy.md
+      - name: Set up the Notes control to access information about posts
+        href: notes-control-legacy.md
+      - name: Configure Bing maps
+        href: configure-bing-maps-legacy.md
+      - name: Add a timer control
+        href: timer-control-legacy.md
+      - name: Additional controls for mobile
+        href: additional-controls-for-dynamics-365-for-phones-and-tablets.md
+      - name: Configure event handlers
+        href: configure-event-handlers-legacy.md
+      - name: Publish changes
+        href: publish-changes-for-use-customer-service-hub.md
+  - name: Create or edit views
+    items: 
+    - name: Create or edit views
+      href: create-edit-views.md
+    - name: Access a view definition
+      href: accessing-view-definitions.md
+    - name: Specify a default view
+      href: specify-default-views.md
+    - name: Create or edit a view
+      href: create-and-edit-views.md
+    - name: Choose and configure columns
+      href: choose-and-configure-columns.md
+    - name: Edit filter criteria and change sort order
+      href: edit-filter-criteria.md
+    - name: Sort records
+      href: configure-sorting.md
+    - name: Delete or deactivate a view
+      href: remove-views.md
+    - name: Managed properties
+      href: managed-properties.md
+    - name: Display custom icons instead of values in list views
+      href: display-custom-icons-instead.md
+    - name: Create and edit public or system views by using the app designer
+      href: create-edit-views-app-designer.md
+    - name: Make grids (lists) or subgrids editable
+      href: make-grids-lists-editable-custom-control.md
+    - name: Specify properties for Unified Interface apps
+      href: specify-properties-for-unified-interface-apps.md
+  - name: Create or edit dashboards
+    items: 
+    - name: Create or edit dashboards
+      href: create-edit-dashboards.md
+    - name: Set properties for a chart or list
+      href: set-properties-chart-list-included-dashboard.md
+    - name: Manage components
+      href: manage-dashboard-components.md
+    - name: Configure interactive experience dashboards
+      href: configure-interactive-experience-dashboards.md
+  - name: Create or edit a system chart
+    href: create-edit-system-chart.md
+  - name: Create or edit a report
+    href: customize-organize-reports.md
+  - name: Customize the mobile app
+    items: 
+    - name: Customize the mobile app
+      href: customize-phones-tablets.md
+    - name: iFrame and web resource support
+      href: iframe-web-resource-support-dynamics-365-phones-tablets.md
+    - name: Write modern mobile apps
+      href: /powerapps/developer/model-driven-apps/overview
+  - name: Design an app using App Designer
+    items: 
+    - name: Design an app using App Designer
+      href: design-custom-business-apps-using-app-designer.md
+    - name: Create an app
+      href: create-edit-app.md
+    - name: Create a site map
+      href: create-site-map-app.md
+    - name: Add components
+      href: add-edit-app-components.md
+    - name: Manage properties
+      href: manage-app-properties.md
+    - name: Validate your app
+      href: validate-app.md
+    - name: Publish your app
+      href: publish-an-app.md
+    - name: Secure your app
+      href: manage-access-apps-security-roles.md
+    - name: Export, import, or remove an app
+      href: export-import-remove-app.md
+    - name: Accessibility
+      href: accessibility-app-designer-site-map-designer-my-apps-page.md
+- name: Create custom business logic through processes
+  items: 
+  - name: Create custom business logic through processes
+    href: guide-staff-through-common-tasks-processes.md
+  - name: Work with business process flows
+    items: 
+    - name: Work with business process flows
+      href: business-process-flows-overview.md
+    - name: Create or edit a business process flow
+      href: create-business-process-flow.md
+    - name: Enhance a business process flow with branching
+      href: enhance-business-process-flows-branching.md
+    - name: Ready to use business processes
+      href: add-ready-use-business-processes.md
+    - name: Create or edit a mobile task flow
+      href: create-mobile-task-flow.md
+  - name: Create or edit business rules and recommendations
+    href: create-business-rules-recommendations-apply-logic-form.md
+  - name: Workflows overview
+    items: 
+    - name: Workflows overview
+      href: workflow-processes.md
+    - name: Configure steps
+      href: configure-workflow-steps.md
+    - name: Best practices
+      href: best-practices-workflow-processes.md
+    - name: Monitor/manage workflows
+      href: monitor-manage-processes.md
+    - name: Run bulk operations on workflows
+      href: bulk-sync-operations.md
+  - name: Actions overview
+    items: 
+    - name: Actions overview
+      href: actions.md
+    - name: Configure custom actions from workflow
+      href: configure-actions.md
+    - name: Invoke custom actions from a workflow
+      href: invoke-custom-actions-workflow-dialog.md
+- name: Customize entities, relationships, and fields
+  items: 
+  - name: Customize entities, relationships, and fields
+    href: customize-entities-relationships-fields.md
+  - name: Create or edit entities
+    items: 
+    - name: Create or edit entities
+      href: create-edit-entities.md
+    - name: What is metadata?
+      href: create-edit-metadata.md
+    - name: Type of entities
+      href: types-of-entities.md
+    - name: Create an entity
+      href: create-entities.md
+    - name: Edit an entity
+      href: edit-entities.md
+    - name: Edit system entity messages
+      href: edit-system-entity-messages.md
+    - name: Delete custom entities
+      href: delete-custom-entities.md
+    - name: Create custom entity icons
+      href: change-custom-entity-icons.md
+    - name: Set managed properties
+      href: set-managed-properties.md
+    - name: Enable for feedback
+      href: enable-entity-feedback.md
+  - name: Create or edit fields
+    items: 
+    - name: Create or edit fields
+      href: create-edit-fields.md
+    - name: Types of fields and field data types
+      href: types-of-fields.md
+    - name: Create a rollup field
+      href: define-rollup-fields.md
+    - name: Create a calculated field
+      href: define-calculated-fields.md
+    - name: Work with a Date and Time field
+      href: behavior-format-date-time-field.md
+    - name: Define status reason transitions for Case or custom entities 
+      href: define-status-reason-transitions.md
+    - name: Delete fields
+      href: delete-fields.md
+    - name: Set managed properties for fields
+      href: set-managed-properties-for-field.md
+    - name: Create a global option set (picklist field)
+      href: create-edit-global-option-sets.md
+  - name: Create or edit entity relationships
+    items: 
+    - name: Create or edit entity relationships
+      href: create-edit-entity-relationships.md
+    - name: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships"
+      href: create-and-edit-1n-relationships.md
+    - name: Map entity fields
+      href: map-entity-fields.md
+    - name: "Create N:N (many-to-many) relationships"
+      href: create-and-edit-nn-many-to-many-relationships.md
+    - name: Set managed properties for relationships
+      href: set-managed-properties-relationships.md
+    - name: Configure hierarchical data
+      href: query-visualize-hierarchical-data.md
+  - name: Integrate external data
+    items: 
+    - name: Integrate external data
+      href: integrate-external-data.md
+    - name: Create a virtual entity
+      items: 
+      - name: Create a virtual entity
+        href: create-edit-virtual-entities.md
+      - name: OData v4 Data Provider requirements 
+        href: virtual-entity-odata-provider-requirements.md
+      - name: Virtual entity walkthrough using the OData v4 Data Provider
+        href: virtual-entity-walkthrough-using-odata-provider.md
+      - name: "Preview Feature: Azure Cosmos DB for DocumentDB API Data Provider requirements"
+        href: virtual-entity-documentdb-provider-requirements.md
+    - name: Define alternate keys
+      href: define-alternate-keys-reference-records.md
+- name: Work with solutions
+  items: 
+  - name: Work with solutions
+    href: solutions-overview.md
+  - name: Change prefix for solution publisher
+    href: change-solution-publisher-prefix.md
+  - name: Use a solution to customize
+    href: use-solutions-for-your-customizations.md
+  - name: Navigate to a specific solution
+    href: navigate-specific-solution.md
+  - name: Use the solution explorer
+    href: use-solution-explorer.md
+  - name: Create a solution
+    href: create-solution.md
+  - name: Export solution
+    href: export-solution.md
+  - name: Import or update a solution
+    href: import-update-upgrade-solution.md
+  - name: Distribute solutions and patches
+    href: use-segmented-solutions-patches-simplify-updates.md
+- name: Create or edit a web resource
+  items: 
+  - name: Create or edit a web resource
+    href: create-edit-web-resources.md
+  - name: Web resource properties
+    href: web-resource-properties-legacy.md
+- name: Work with international features
+  items: 
+  - name: Work with international features
+    href: work-with-international-audience.md
+  - name: Enable additional languages
+    href: enable-additional-languages.md
+  - name: Export customized entity and field text for translation
+    href: export-customized-entity-field-text-translation.md
+  - name: Import translated entity and field text
+    href: import-translated-entity-field-text.md
+- name: Developer resources
+  href: view-download-developer-resources.md

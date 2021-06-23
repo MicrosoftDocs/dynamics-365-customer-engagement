@@ -1,5 +1,7 @@
 ---
 title: "Multiple bindings found | Microsoft Docs"
+description: Environment diagnostics warning that multiple bindings were found.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

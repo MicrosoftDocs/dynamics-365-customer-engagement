@@ -49,7 +49,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
 
 <a name="ExploringOutlook"></a>
 ## Explore Dynamics 365 for Outlook
- When you [Install Dynamics 365 for Outlook](https://go.microsoft.com/fwlink/p/?LinkID=512584), the software adds several user interface elements to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] screen.
+ When you [Install Dynamics 365 for Outlook](../../customerengagement/on-premises/basics/basics-guide.md), the software adds several user interface elements to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] screen.
 
  **Navigation pane**
 

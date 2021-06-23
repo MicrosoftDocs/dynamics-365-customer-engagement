@@ -1,20 +1,19 @@
 ---
-title: "Recover a Chrome Process instance in Unified Service Desk | MicrosoftDocs"
-description: "Learn about recovering a Chrome Process instance in Unified Service Desk"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Recover unresponsive Chrome process instances | MicrosoftDocs"
+description: "Learn how to recover Chrome process instances in Unified Service Desk. Also, know how to use keyboard shortcuts to terminate and recover such instances."
 ms.date: 04/10/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -74,7 +73,7 @@ After you end the Chrome Process instance, the [!INCLUDE[pn_unified_service_desk
 
 By default, the keyboard shortcut for terminating an unresponsive Chrome Process instance is **CTRL** + **K**.
 
-To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+To update an additional keyboard shortcut, you must add the UII option and provide the character as the value. To learn about the allowed set of character values, see [Keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 | UII option  | Example character |
 |-------------|-------------------|
@@ -103,7 +102,7 @@ To change the keyboard shortcut:
 
 7. Type **On-DemandChromeProcessTerminationShortcut** for the **Name** field.
 
-8. Type the character value for the **Value** field. <br>See the list of [value keys](https://docs.microsoft.com/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
+8. Type the character value for the **Value** field. <br>See the list of [value keys](/dotnet/api/system.windows.forms.keys?view=netframework-4.7.2#fields).
 
 9. Select **Save**.
 

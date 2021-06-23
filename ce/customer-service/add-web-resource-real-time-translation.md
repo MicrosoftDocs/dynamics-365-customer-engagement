@@ -1,12 +1,11 @@
 ---
 title: "Add a web resource for real-time translation| Microsoft Docs"
 description: "Read how you can add a web resource for real-time translation"
+ms.date: 09/18/2020
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/18/2020
-ms.topic: reference
-ms.service: "dynamics-365-customerservice"
 ---
 # Add a web resource for real-time translation
 

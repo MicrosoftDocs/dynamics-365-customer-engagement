@@ -197,7 +197,7 @@ Here is the customer asset that results from the used work order product. Notice
 > ![Screenshot of customer asset related to work order product](./media/work-order-statuses-customer-asset.png)
 
 
-- Travel charge item is added to work order products, if applicable. For more information, see [this article](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/work-order-customer-account#configuration-considerations).
+- Travel charge item is added to work order products, if applicable. For more information, see [this article](/dynamics365/customer-engagement/field-service/work-order-customer-account#configuration-considerations).
 
 #### Closed – Posted
 - Invoice is generated for used work order products and services billing account 

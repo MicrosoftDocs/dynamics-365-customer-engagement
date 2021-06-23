@@ -44,7 +44,7 @@ An entity attribute is a container for a piece of data in an entity. In this dev
 ### See also  
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Create auto-number attribute](create-auto-number-attributes.md)   
- [Work with Attributes](org-service/work-attribute-metadata.md)   
+ [Work with Attributes](/powerapps/developer/data-platform/org-service/metadata-attributemetadata)   
  [Sample: Work with Attributes](org-service/sample-work-attribute-metadata.md)
 
 

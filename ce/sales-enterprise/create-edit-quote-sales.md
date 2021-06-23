@@ -1,14 +1,12 @@
 ---
-title: "Create or edit quotes (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Quotes include the pricing details of the products your potential customer is interested in."
+title: "Create or edit quotes - Sales Enterprise | MicrosoftDocs"
+description: "Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it."
 ms.date: 02/10/2021
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-quote
   - D365-Entity-salesorder

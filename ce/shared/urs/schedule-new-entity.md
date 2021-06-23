@@ -156,7 +156,11 @@ Select **Hide default requirement panels** if you don’t want to display the ot
 
 Appointments are enabled for scheduling by default when Universal Resource Scheduling is installed.
 
-You can configure the system to automatically create a booking when an appointment is created.
+**(Deprecated)**: You can configure the system to automatically create a booking when an appointment is created.
+
+> [!Note]
+> As of April 01, 2021, this configuration has been deprecated. For more information, see the [deprecation notice](../../common-scheduler/deprecations.md) and plan to move to the [new method](../../field-service/appointment-scheduling.md) of including appointments in resource scheduling, without needing corresponding bookings.
+
 
 Go to **Settings** > **Administration** > **System Settings** > **Calendar** and set **Scheduling Engine** to **Universal Resource Scheduling**.
 
@@ -176,6 +180,9 @@ Once saved, you can see the related booking on the appointment form by going to 
 > ![Screenshot of the schedule board showing an appointment.](../../field-service/media/scheduling-appointments-board.png)
 
 Unlike other entities enabled for scheduling, the appointment form will not have a **Book** button in the top ribbon nor will there be an associated resource requirement. Creating an appointment is inherently like creating a booking.
+
+> [!Note]
+> When an attendee is added to an existing appointment, a new booking is created for the added attendee's bookable resource. However, if an attendee is removed from an existing appointment, the booking for the attendee's bookable resource will not be removed. This scenario is not currently supported.
 
 ## Configuration considerations
 

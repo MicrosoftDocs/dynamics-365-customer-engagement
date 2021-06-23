@@ -1,12 +1,11 @@
 ---
 title: "Unified Interface Page hosted control to load a page from a model-driven app | MicrosoftDocs"
-description: "Learn about the Unified Interface Page hosted control type to load a URL or page from a model-driven app. When a model-driven app page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn to create the Unified Interface Page hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -87,7 +86,7 @@ Fires a user-defined event from this hosted control.
 |-----------|---------------------------------|
 | name      | The name of the user-defined event. |
 
-All subsequent name/value pairs become the parameters to the event. More information: [Create a user-defined event](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/create-user-defined-event)
+All subsequent name/value pairs become the parameters to the event. More information: [Create a user-defined event](/dynamics365/customer-engagement/unified-service-desk/create-user-defined-event)
 
 ### GetSelectedIds
 
@@ -302,7 +301,7 @@ The following predefined events are associated with this hosted control type.
 
 ### ActiveClosed
 
-Occurs when the active hosted control is closed by using the [**CloseActive**](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control#CloseActive) action.  
+Occurs when the active hosted control is closed by using the [**CloseActive**](/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control#CloseActive) action.  
 
 | Parameter | Description                                                          |
 |-----------|----------------------------------------------------------------------|

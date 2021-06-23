@@ -41,7 +41,7 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
 
 1. In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], create an appointment as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].
 
-2. If you want to insert an attachment, click the **Insert** tab, and then select an attachment. Note that some file extensions may be blocked by your system administrator. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System Settings dialog box - General tab](../../admin/system-settings-dialog-box-general-tab.md)
+2. If you want to insert an attachment, click the **Insert** tab, and then select an attachment. Note that some file extensions may be blocked by your system administrator. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System Settings dialog box - General tab](/power-platform/admin/system-settings-dialog-box-general-tab)
 
     [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] doesn’t support inline attachments (attachments included in the body of the message).
 
@@ -56,7 +56,7 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
   
    - To track the task and link it to a particular [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record (for example, a specific account), click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, select **Add**.  
   
-     When you click the **Track** button or the **Set Regarding** button, you’ll see a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) at the bottom of the appointment record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](https://go.microsoft.com/fwlink/p/?LinkID=510100)  
+     When you click the **Track** button or the **Set Regarding** button, you’ll see a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) at the bottom of the appointment record. This pane shows that the record is tracked and provides links to related records. If you set a Regarding value, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the Regarding record. [Tell me more about how tracking works.](../../customerengagement/on-premises/basics/basics-guide.md)  
   
    **Notes**  
   

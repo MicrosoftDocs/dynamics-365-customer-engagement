@@ -1,17 +1,19 @@
 ---
 title: "Create multiple work streams for entity records routing | MicrosoftDocs"
 description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."
+ms.date: 10/25/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/25/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
-# Create multiple work streams for entity records routing
+# Create multiple work streams for entity records routing in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 ## Overview
 
@@ -24,13 +26,13 @@ This walkthrough demonstrates how to set up two work streams, one each for high 
 
 ### In this section
 
-[Step 1: Create work stream](#step-1-create-work stream)
+[Step 1: Create work stream](#step-1-create-work-stream)
 
 [Step 2: Update Entity Record Distribution Flow](#step-2-update-entity-records-distribution-flow)
 
 ## Step 1: Create work stream
 
-Create entity records work stream to define how the records will be distributed. In this walkthrough, let us create two work streams - **High Priority Cases** and **Low Priority Cases**.
+Create entity records work stream to define how the records will be distributed. In this walkthrough, we will create two work streams - **High Priority Cases** and **Low Priority Cases**.
 
 High priority cases work stream is set up to distribute the cases using automatic push, and the capacity required in 60 units.
 

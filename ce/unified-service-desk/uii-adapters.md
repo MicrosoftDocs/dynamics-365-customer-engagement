@@ -1,12 +1,11 @@
 ---
 title: "UII adapters in Unified Service Desk | MicrosoftDocs"
-description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn about UII adapters that you can use to modify the behavior of the application without accessing its source code."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer

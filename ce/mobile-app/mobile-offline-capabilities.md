@@ -56,7 +56,7 @@ These entities and corresponding commands are available in offline mode.
 
 ## Supported  capabilities 
 
-- **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
+- **Business rules**: Business rules are supported in mobile offline. For more information, see [Create business rules and recommendations to apply logic in a model-driven app form](/powerapps/maker/model-driven-apps/create-business-rules-recommendations-apply-logic-form).
 
 - **Business Process Flows**: You can use business process flows in offline mode if the following conditions are met:
 
@@ -70,7 +70,7 @@ These entities and corresponding commands are available in offline mode.
     - Previous stage
     - Set Active stage
 
-For more information, see [Run business process flows offline](https://docs.microsoft.com/power-automate/business-process-flows-overview#run-business-process-flows-offline).
+For more information, see [Run business process flows offline](/power-automate/business-process-flows-overview#run-business-process-flows-offline).
 
 - **Lookup support**: Lookups are supported for the entities that are mobile offline-enabled. All the entities participating in the lookup should also be offline-enabled.
 
@@ -113,6 +113,7 @@ For more information, see [Run business process flows offline](https://docs.micr
 
 - **Add Existing on subgrids**: **Add Existing** is not supported for mobile offline for certain types of relationships. When you are offline, certain relationships such as relationships that are N:N are read only, and the **Add Existing** command will be hidden on subgrids for those relationships. Even if the button is unhidden via customization, the command will not work in offline.
 
+- **Web resources**: Web resources are currently not supported in the iOS platform for mobile offline.
 
 ## Tips
 

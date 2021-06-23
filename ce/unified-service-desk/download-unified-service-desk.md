@@ -1,20 +1,20 @@
 ---
 title: "Download Unified Service Desk  | MicrosoftDocs"
-description: "This topic provides information about how to download Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
-ms.date: 02/04/2020
+description: "Learn how to download Unified Service Desk, client applications, and other tools to manage your Unified Service Desk implementation."
+ms.date: 06/21/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+monikerRange: '>= dynamics-usd-4'
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Download Unified Service Desk and administration tools
@@ -25,6 +25,14 @@ This topic provides information about the location from where you can download U
 This topic provides information about the location from where you can download various versions of Unified Service Desk solutions and the client application. For information about:
 - System requirements to install a version of Unified Service Desk, see [Unified Service Desk System Requirements](admin/unified-service-desk-system-requirements.md)
 - Deploying Unified Service Desk solution or installing the client application, see [Install, deploy, and upgrade Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)
+
+::: moniker range="dynamics-usd-4.2"
+
+|  Version  |  Download Location |
+|------------------|---------------|
+| [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2159819) |
+
+::: moniker-end
 
 ::: moniker range="dynamics-usd-4.1"
 
@@ -69,6 +77,5 @@ This section provides information about the tools that help you efficiently admi
 | Best Practices Analyzer 1.0 |  [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
 | Unified Service Desk Performance Analyzer 1.0 |[Download](https://go.microsoft.com/fwlink/p/?linkid=2034281) |
 |||
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

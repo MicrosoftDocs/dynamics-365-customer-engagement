@@ -40,8 +40,8 @@ Saved queries are business entities that define the parameters and criteria of a
 ### See also  
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)   
  [UserQuery Entity](entities/userquery.md)
- [Building Queries with QueryExpression](org-service/build-queries-with-queryexpression.md)   
- [Fetch XML Schema](org-service/fetchxml-schema.md)
+ [Building Queries with QueryExpression](/powerapps/developer/data-platform/org-service/build-queries-with-queryexpression)   
+ [Fetch XML Schema](/powerapps/developer/data-platform/fetchxml-schema)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

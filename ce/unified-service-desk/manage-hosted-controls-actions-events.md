@@ -1,20 +1,19 @@
 ---
-title: "Manage hosted controls, actions, and events in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
+title: "Manage hosted controls, actions, and events in Unified Service Desk | MicrosoftDocs"
 description: "The section provides information on how you can work with the hosted controls, User Interface Integration (UII) actions, action calls, and events in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Manage hosted controls, actions, and events in Unified Service Desk
 This section provides information on how you can work with the hosted controls, [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions, action calls, and events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

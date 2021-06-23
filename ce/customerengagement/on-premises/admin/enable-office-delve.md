@@ -1,5 +1,6 @@
 ---
 title: "Enable Office Delve with Dynamics 365 for Customer Engagement| MicrosoftDocs"
+description: "Enable Office Delve with Dynamics 365 for Customer Engagement."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -14,16 +15,18 @@ ms.assetid: 4c8755d3-dd1e-480e-b077-88b45c787b92
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
-# About Office Delve/Graph
+# Enable Office Delve with Dynamics 365 for Customer Engagement
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 *This content also applies to the on-premises version.*
 
-Office Graph integration for Dynamics 365 for Customer Engagement apps will be removed on August 31, 2017, at the same time that [Office ends GQL query support](https://msdn.microsoft.com/office/office365/howto/query-office-graph-using-gql-with-search-rest-api). Customers can continue to use Office Graph integration through August 31, 2017. After August 31 that date, the Office Graph trending documents component will cease to function and you’ll see the following error message:
+Office Graph integration for Dynamics 365 for Customer Engagement apps will be removed on August 31, 2017, at the same time that [Office ends GQL query support](/graph/api/resources/social-overview). Customers can continue to use Office Graph integration through August 31, 2017. After August 31 that date, the Office Graph trending documents component will cease to function and you’ll see the following error message:
 
 **We can't get to the trending documents. Try again later.**
 

@@ -1,5 +1,7 @@
 ---
 title: "NTFS file system required | Microsoft Docs"
+description: Environment diagnostics warning that the file system isn't NTFS.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -20,7 +22,7 @@ ms.author: matp
   
  ## Solution
   
- For more information about how to convert a FAT or FAT32 file system to NTFS, see [Reformatting or converting a partition to use NTFS](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc783213(v=ws.10)).
+ For more information about how to convert a FAT or FAT32 file system to NTFS, see [Reformatting or converting a partition to use NTFS](/previous-versions/windows/it-pro/windows-server-2003/cc783213(v=ws.10)).
 
 
 

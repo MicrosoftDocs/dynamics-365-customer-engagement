@@ -1,20 +1,19 @@
 ---
 title: "Deploy sample Unified Service Desk package using Package Deployer | MicrosoftDocs"
-description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn about the Package Deployer and how to use it to import a sample application in Unified Service Desk."
 ms.date: 08/17/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Overview of Package Deployer and the sample applications
@@ -25,16 +24,12 @@ search.app:
 
  These sample applications are bundled as packages that need to be deployed on a Microsoft Dataverse instance before you can start working. After deployment, which is done by using [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)], the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] become available in the Dataverse instance.  
 
-> [!IMPORTANT]
-> - The sample applications are not supported for production use.  
->   - Only one [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package can be deployed in the Dataverse instance to avoid any loss or overlap of functionality. If you want to install another [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, remove the existing one, and then install the other package. For information about removing an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, see [Remove a sample Unified Service Desk package](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#Remove).  
->   - Before deploying a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package on a Production instance, ensure that you test the package on a pre-Production instance, preferably a mirror image of the Production instance. Also, be sure to back up the Production instance before deploying the package.  
->   - You can also use [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../includes/pn-package-deployer-short.md)] to deploy packages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy packages using CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)  
-
 
 <a name="twodot1apps"></a>
+
 ## Unified Service Desk sample applications
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with these sample application packages.
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] comes with these sample application packages.
 
 
 |                                                                          Sample application                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -46,7 +41,14 @@ search.app:
 |                                  [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Unified Interface                                   |                                                                                                                                                                                                                                                                                                                                                                        This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions. It helps you to integrate Unified Interface apps with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] environment. For more information about the scenarios supported in this sample application, see [Unified Service Desk 365 Unified Interface package](../../unified-service-desk/admin/unified-service-desk-dynamics-365-unified-interface-package.md)<br><br> **Note:** The Unified Interface sample application is available for use from [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)].                                                                                                                                                                                                                                                                                                                                                                         |
 | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] |                                                                                                          This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] solutions. [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant rules.<br><br> **Note:** This package is available separately for [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-4-0.md)] or lower versions until [!INCLUDE [pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)]. |
 
+> [!IMPORTANT]
+> - The sample applications are not supported for production use.  
+> - Only one [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package can be deployed in the Dataverse instance to avoid any loss or overlap of functionality. If you want to install another [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, remove the existing one, and then install the other package. For information about removing an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, see [Remove a sample Unified Service Desk package](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#Remove).  
+>  - Before deploying a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package on a Production instance, ensure that you test the package on a pre-Production instance, preferably a mirror image of the Production instance. Also, be sure to back up the Production instance before deploying the package.  
+>  - You can also use [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../includes/pn-package-deployer-short.md)] to deploy packages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy packages using CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)  
+
 <a name="Deploy"></a>
+
 ## Deploy a sample Unified Service Desk package using Package Deployer
 
 1. [Download](https://go.microsoft.com/fwlink/p/?LinkID=2086721) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.
@@ -80,7 +82,9 @@ search.app:
 12. The next screen displays the name and information about the package that you just deployed. Review the information, and choose **Finish** to exit the [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)].
 
 <a name="Remove"></a>   
+
 ## Remove a sample Unified Service Desk package  
+
  When you deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package in Dataverse organization, the following three managed solutions are created:
 
 - UiiforMicrosoftDynamicsCRM
@@ -105,6 +109,7 @@ search.app:
 5. After the solution is removed, repeat the steps for the other two solutions to delete them.
 
 <a name="Logfiles"></a>   
+
 ## Troubleshoot package deployment issues using log files  
  The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] provides logging support to record detailed information about errors that can occur while signing in to the Dynamics 365 instance using the tool and deploying packages. There are three log files generated by the tool that are available at the following location on the computer where you run the tool: `c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Package Deployer\<Version>`.  
 
@@ -115,6 +120,7 @@ search.app:
 - **ComplexImportDetail.log**: This provides detailed information about the data imported in the last deployment using the tool. Each time you deploy a package using this tool, the existing details from the log file are moved to a file called CompelxImportDetail._old.log in the same directory, and the ComplexImportDetail.log file displays information about the latest import done using the tool.
 
 <a name="PostDeployment"></a>
+
 ## Post-deployment step for the package
  If you have deployed the **Customer Service Hub** package, you must manually activate the following records in the **Service Management** area (**Settings** > **Service Management**) that are created by the package:
 

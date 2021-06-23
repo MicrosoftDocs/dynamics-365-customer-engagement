@@ -37,7 +37,7 @@ This section provides example reports that show how to implement common techniqu
   
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
- [Copy reports between Dynamics 365 for Customer Engagement (on-premises) deployments](https://technet.microsoft.com/library/dn531102.aspx)
+ [Copy reports between Dynamics 365 for Customer Engagement (on-premises) deployments](/previous-versions/dynamicscrm-2016/reporting-analytics-dynamics-365/dn531102(v=crm.8))
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

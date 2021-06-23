@@ -1,14 +1,11 @@
 ---
 title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
 description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
+ms.date: 05/13/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/04/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,9 +13,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Issue converting an email to a case
+
+You can use the Activity monitor that is available on the **Record creation and update rules** page, and configure the options to view skipped scenarios, failed scenarios, or all scenarios for a time period. More information: [Use activity monitor to review and track rules](automatically-create-update-records.md#use-activity-monitor-to-review-and-track-rules).
 
 ## Case creation fails when mail is sent from queue address to same queue address on which automatic record creation rule is configured
 
@@ -49,7 +50,7 @@ If the email to case conversion is not working, follow the below troubleshooting
 
 **Step 1**. Check if the email is syncing with the system. </br>
 - **Action**: Navigate to **Activities** and look for Email activity.</br>
-- **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration. 
+- **Comment**: If email is not syncing with the system, there may be an issue with the email router or server-side sync configuration.
 
 **Step 2**.  Notice that an email activity is created but a related QueueItem is not found.  </br>
 
@@ -89,11 +90,11 @@ Given below is a list of some common issue scenarios and their resolutions.
 
 In the Customer field of the Case Details section, **Senders Account (Email)** is set as below value.
 
-![email-case-scenario](media/email-case-scenario.png)
+![Email case scenario](media/email-case-scenario.png "Email case scenario")
 
 This results in the following error in system jobs:
 
-![error-email-case](media/error-email-case.png)
+![Error email case](media/error-email-case.png "Error email case")
 
 To resolve this issue, keep the Customer field blank or set it to **{Sender(Email)}**. This allows the system to automatically create contact for the unknown sender and link it to the case.
 
@@ -101,11 +102,11 @@ To resolve this issue, keep the Customer field blank or set it to **{Sender(Emai
 
 The Customer field is set as **{Senders Account(Email)}** and Contact field as **{Sender(Email)}**.
 
-![error-email-case-contact](media/error-email-case-contact.png)
+![Error email case contact](media/error-email-case-contact.png "Error email case contact")
 
 This results in the following error in system jobs:
 
-![case-email-error](media/case-email-error.png)
+![Case email error](media/case-email-error.png "Case email error")
 
 To resolve this issue, keep the Customer field blank or set it to **{Sender(Email)}**. This allows the system to automatically create contact for the unknown sender and link it to the case.
 
@@ -113,11 +114,11 @@ To resolve this issue, keep the Customer field blank or set it to **{Sender(Emai
 
 The Customer field and Contact field are set as **{Sender(Email)}**.
 
-![case-email-scenario](media/case-email-scenario.png)
+![Case email scenario](media/case-email-scenario.png "Case email scenario")
 
 This results in the following error in system jobs:
 
-![error-system-jobs](media/error-system-jobs.png)
+![Error in system jobs](media/error-system-jobs.png "Error in system jobs")
 
 To resolve this issue, leave contact field blank and set Customer field either to blank or to **{Sender(Email)}**.
 
@@ -139,6 +140,8 @@ You must validate the configuration and validation steps given in the following 
 
  
 ### See also
+
+[Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Automatically create a case from an email](automatically-create-case-from-email.md)  
 
 

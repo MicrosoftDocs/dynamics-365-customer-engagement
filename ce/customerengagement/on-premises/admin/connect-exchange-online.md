@@ -1,6 +1,6 @@
 ---
 title: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online | MicrosoftDocs"
-description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online"
+description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online."
 ms.custom: 
 ms.date: 05/14/2020
 ms.reviewer: 
@@ -15,12 +15,14 @@ ms.assetid: 1b2b7846-5a69-4af7-849d-0c0acc300a7e
 caps.latest.revision: 22
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Online 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] hosted as online services, connecting the two is a simpler, more straightforward configuration.  
   
@@ -38,9 +40,9 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INC
   
 -   [Exchange Online](https://technet.microsoft.com/library/jj200580\(v=exchg.150\).aspx)  
   
--   [Exchange Online Service Description](https://technet.microsoft.com/library/jj819276.aspx)  
+-   [Exchange Online Service Description](/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description)  
   
--   [Office 365 service comparison](https://technet.microsoft.com/office/dn788955)  
+-   [Office 365 service comparison](/office365/servicedescriptions/office-365-service-descriptions-technet-library)  
   
 > [!TIP]
 >  To make sure you’ve got a good connection to [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], run the [Microsoft Remote Connectivity Analyzer](https://testconnectivity.microsoft.com/). For information on what tests to run, see [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx).  

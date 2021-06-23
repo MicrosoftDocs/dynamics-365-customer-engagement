@@ -1,12 +1,11 @@
 ---
 title: "Visualize device readings | MicrosoftDocs"
 description: "Learn how to enable and use device readings in Connected Customer Service for Azure IoT Central."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Visualize device readings
@@ -36,9 +35,9 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > ![Screenshot of the deployment screen showing configuration of Azure resources](./media/cs-iot-device-measurements-deployment.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights Preview deployment.
-- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
+- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
 ).
-- Create the client secret: Follow the steps in [Create a new application secret](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
+- Create the client secret: Follow the steps in [Create a new application secret](/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
 ). 
 
 > [!div class="mx-imgBorder"]

@@ -1,26 +1,26 @@
 ---
-title: "Install the Unified Service Desk  client | MicrosoftDocs"
-description: "Learn how  to install the Unified Service Desk  client."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Install the Unified Service Desk client | MicrosoftDocs"
+description: "Learn how to install and upgrade Unified Service Desk client. Also find the download link to the product."
 ms.date: 01/25/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 
-# Installing the Unified Service Desk client
+# How to install the Unified Service Desk client
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 Make sure your computer meets all requirements before you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
@@ -43,6 +43,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 ::: moniker-end
 
 <a name="BKMK_USDwizard"></a>   
+
 ## Install the Unified Service Desk client using the Setup Wizard  
   
 1. Sign in as a user with local Administrators group membership, and then double-click the downloaded file to begin Setup.  
@@ -66,6 +67,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 7. A confirmation message appears on successful installation of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. Click **X** to exit the installer or click **Launch** to start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
   
 <a name="BKMK_USDupgrade"></a>   
+
 ## Upgrade the Unified Service Desk client using the Setup Wizard  
   
 1. On a computer where a previous version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is installed, sign in to the computer as a user with local Administrators group membership, and then double-click the SetupUnifiedServiceDesk.exe file to begin the upgrade.  
@@ -83,6 +85,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 6. A confirmation message appears on successful upgrade of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. Click **X** to exit the installer or click **Launch** to start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
   
 <a name="BKMK_USDsilent"></a>   
+
 ## Install or upgrade the Unified Service Desk client in silent mode  
  When [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup runs in silent mode, no user interface (UI) is displayed. Instead, you supply the required information at the command prompt.  
   
@@ -119,13 +122,9 @@ SetupUnifiedServiceDesk.exe uninstall
 ## Next Step  
  Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on Microsoft Dataverse. For more information, see [Deploy Unified Service Desk packages to a Dataverse platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
-<a name="knownissues"></a>   
-## Known issues  
+
   
-### Unified Service Desk client setup (SetupUnifiedServiceDesk.exe) hangs after you click Install  
- This can happen when you run setup as a user who does not have local Administrators group membership, using “Run as different user”, and when some Windows User Account Control (UAC) settings have been changed from the default, for example, if the **Admin Approval Mode for the Built-in Administrator account** UAC setting is set to **Disabled** on the local computer where setup runs. By default, Admin Approval Mode for the built-in Administrator account is enabled, but can be disabled through a Group Policy change.  
-  
-## See also  
+### See also
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
  [Update Unified Service Desk](../../unified-service-desk/admin/update-unified-service-desk-solution.md)
 

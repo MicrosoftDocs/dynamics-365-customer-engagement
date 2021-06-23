@@ -60,7 +60,7 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
   
 3. To geocode the account address, on the top command bar, select the **More Commands** button, and then select **Geo Code**.  
   
-4. On the map dialog box, make sure you have the correct address, and then select **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../basics/accounts-contacts.md)  
+4. On the map dialog box, make sure you have the correct address, and then select **Change**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with accounts and contacts](../customerengagement/on-premises/basics/accounts-contacts.md)  
   
 ### See also   
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   

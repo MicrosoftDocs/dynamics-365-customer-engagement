@@ -28,7 +28,7 @@ You need to name the label and apply the directive. If you name the label as `Ne
 
 `<p [appTranslate]="'NewLabel'">this is my new paragraph</p>`
 
-After you add the directive in the code, you need to add the label in your localization files located under `/Localization` folder. This directory contain a JSON file for each language that is supported. The localization files use the [Windows Language Code Identifier (LCID)](https://docs.microsoft.com/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f) as naming schema (e.g. `1033.json`). 
+After you add the directive in the code, you need to add the label in your localization files located under `/Localization` folder. This directory contain a JSON file for each language that is supported. The localization files use the [Windows Language Code Identifier (LCID)](/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f) as naming schema (e.g. `1033.json`). 
 
 To add the translated label, modify the `1033.json` file (this file contains all english translations). It contains the labels in the JSON format, so to add the new label you can append the following to the JSON object:
 
@@ -49,7 +49,7 @@ If you are using [self-hosted](self-hosted.md), then you need to choose a place 
 ## See also
 
 [Custom Event Portal](event-management-web-application.md)<br />
-[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+[Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

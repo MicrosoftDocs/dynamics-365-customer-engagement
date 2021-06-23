@@ -2,7 +2,7 @@
 title: "Knowledge management entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: ""
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 03/09/2021
 ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
@@ -36,8 +36,8 @@ You can set up knowledge management for your Customer Engagement (on-premises) i
   
  Use the `KnowledgeArticle` and `KnowledgeArticleViews` entities to work with the knowledge articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-> [!IMPORTANT]
->  With [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) release, the following entities used for knowledge management are deprecated: `KbArticle`, `KbArticleComment`, and `KbArticleTemplate`. These entities won't be supported in a future major release of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You must use the newer `KnowledgeArticle` entity in your code for knowledge management in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Important changes coming in future releases of Dynamics 365 Customer Engagement (on-premises)](/get-started/whats-new/customer-engagement/important-changes-coming)
+> [!IMPORTANT] 
+>  With [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) release, the following entities used for knowledge management are deprecated: `KbArticle`, `KbArticleComment`, and `KbArticleTemplate`. These entities won't be supported in a future major release of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You must use the newer `KnowledgeArticle` entity in your code for knowledge management in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deprecations in Customer Service](../../../customer-service/deprecations-customer-service.md)
   
   
 ## Reference  

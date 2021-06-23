@@ -1,24 +1,21 @@
 ---
-title: "System requirements of Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: "Learn about the system requirements of Dynamics 365 Channel Integration Framework and how to get started using it."
-author: v-sailab
-ms.author: v-sailab
+title: "System requirements for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about the system requirements for Dynamics 365 Channel Integration Framework 2.0 and how to get started using it."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# System requirements of Dynamics 365 Channel Integration Framework
+# System requirements for Dynamics 365 Channel Integration Framework 2.0
 
-This topic describes the system requirements of Dynamics 365 Channel Integration Framework.
+This topic lists the system requirements for Dynamics 365 Channel Integration Framework 2.0.
 
 ## Dynamics 365
 
-Dynamics 365 (online) version 9.1 and higher versions.
+Dynamics 365 (online) version 9.1 and later.
 
 ## Omnichannel for Dynamics 365 Customer Service or Customer Service Workspace
 
@@ -35,7 +32,7 @@ To have multisession capabilities, your organization must use a multi-session ap
 
 ## Domains
 
-All the URLs must be secure (HTTPS).
+The domain of the channel URL should use HTTPS protocol.
 
 ## See also
 
