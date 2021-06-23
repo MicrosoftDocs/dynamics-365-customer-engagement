@@ -47,10 +47,6 @@ Otherwise, select the **Use Existing Resource** option and copy and paste the re
 ### Create a new resource
 
 
-
-
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-number-mgmt-azure-create-new-resource.png)
 
