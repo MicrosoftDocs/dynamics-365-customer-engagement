@@ -34,8 +34,8 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 2. Select **Personalization**.
 
 3. On the **Personal quick replies** tab, select **New Personal quick reply**, and do the following:
-    - **Message** Enter the text you want to use for your reply.
-    - **Locale** Select the language in which you want to create the quick reply.
+    - **Message**: Enter the text you want to use for your reply.
+    - **Locale**: Select the language in which you want to create the quick reply.
 
         > [!NOTE]
         > - To avoid duplicating quick replies, check the predefined messages before creating a personal quick reply.

@@ -1,6 +1,6 @@
 ---
-title: "Create records | MicrosoftDocs"
-description: "Learn how you can create a record by using the various methods in the Omnichannel for Customer Service app."
+title: "Create records for conversations| MicrosoftDocs"
+description: "Learn how you can create a record by using various methods in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -13,15 +13,15 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a record in one of the following ways:
+When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a record in one of the following ways.
 
-- Create a record from the Customer Summary page
+- Create a record from the Customer summary page
 - Create a record using the quick create option
 - Create a record using the New option
 
-## Create a record from the Customer Summary page
+## Create a record from the Customer summary page
 
-In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
+In the Customer summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
 
 To create a record:
 
@@ -82,7 +82,7 @@ After you save the changes, you can link the record to the conversation. To lear
 
 ## Create a record using the new option
 
-In the Customer Summary page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the quick create pane of the entity appears.
+In the Customer summary page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **New** button to create a record. After you select the button, the quick create pane of the entity appears.
 
 1. Type to search in the search box. The records appear as a list that matches your search criteria.
 
@@ -98,10 +98,10 @@ In the Customer Summary page, when you are trying to search a record in customer
 
 ### See also
 
-- [Search, link, and unlink a record](oc-search-link-unlink-record.md)
-- [View customer summary and know everything about customers](oc-customer-summary.md)
-- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [Search, link, and unlink a record](oc-search-link-unlink-record.md)  
+- [View customer summary and know everything about customers](oc-customer-summary.md)  
+- [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)  
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

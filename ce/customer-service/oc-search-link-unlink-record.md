@@ -1,6 +1,6 @@
 ---
-title: "Search, link, and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to search, link, and unlink a record in Omnichannel for Customer Service, and link the record to a conversation."
+title: "Search, link, and unlink records in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to search, link, and unlink records in Omnichannel for Customer Service. Also learn how to link records to conversations."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation in Omnichannel for Microsoft Dynamics 365 Customer Service.
+The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation in Omnichannel for Customer Service.
 
 You can search for records in two ways:
 
@@ -24,17 +24,17 @@ You can search for records in two ways:
 
 When you accept an incoming conversation request and there's no customer record identified in Omnichannel for Customer Service, use the inline search option in the customer (**Contact** or **Account**) section and **Case** section to search for a contact or account and case, respectively. Inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that are included in the Lookup View and Quick Find View fields.
 
-For the customer (**Contact** or **Account**) section, you can search for a Contact or Account entity. By default, you can search by using the following fields.
+For the customer (**Contact** or **Account**) section, you can search for a Contact or Account record. By default, you can search by using the following fields.
 
-|Entity|Fields|
+|Record |Fields|
 |----------|----------|
 |Account| <ul> <li>Account Name</li> <li>Account Number</li> <li>Email</li> <li>Main Phone</li> </ul>  |
 |Contact| <ul> <li>Company Name </li> <li>Email</li> <li>First Name</li> <li>Last Name</li> <li>Middle Name</li> <li>Full Name</li> <li>Mobile Phone</li> </ul>|
 
 
-For the **Case** section, you can search for a Case (Incident) entity. By default, you can search by using the following fields.
+For the **Case** section, you can search for a Case (Incident) record. By default, you can search by using the following fields.
 
-|Entity|Fields|
+|Record |Fields|
 |--- |--- |
 |Case| <ul> <li>Case Number</li> <li>Case Title</li> </ul>|
 
@@ -61,7 +61,7 @@ You can search for a case, account, contact, and associated fields as enabled by
 
 1. Select **Search** ![Relevance Search icon](media/oceh-oc-search-icon.png "Relevance Search icon"). The **Relevance Search** tab opens.  
 
-2. In the search box, specify the entity or attribute details based on your search requirements, and then select **Search** ![Relevance Search icon](media/oceh-oc-search-icon.png "Relevance Search icon").
+2. In the search box, specify the record or attribute details based on your search requirements, and then select **Search** ![Relevance Search icon](media/oceh-oc-search-icon.png "Relevance Search icon").
 
 ![Search for a case record by using relevance search](media/oceh-oc-search-record-case.png "Search for a case record by using relevance search")
 
