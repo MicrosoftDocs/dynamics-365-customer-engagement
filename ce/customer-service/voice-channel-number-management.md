@@ -63,7 +63,17 @@ Otherwise, select the **Use Existing Resource** option and copy and paste the re
 
 Features
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-number-mgmt-add-features.png)
+
+You cannot remove feature once granted to a phone number, but you can upgrade phone number features.
+
 Summary
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-number-mgmt-add-summary.png)
 
 Purchase Number
 
@@ -78,7 +88,7 @@ Reasons to upgrade:
 - enable Outbound
 - enable SMS
 
-Can only upgrade, cannot remove features.
+You cannot remove feature once granted to a phone number, but you can upgrade phone number features.
 
 ## Release a number
 
