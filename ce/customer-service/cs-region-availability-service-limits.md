@@ -11,6 +11,21 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Regional availability for Customer Service
 
+<-- Neeraja: Consider updating as follows:
+
+# Regional availability of insights in Customer Service
+
+The following insights features are available in all supported geographical regions:
+- Customer Service historical analytics
+- Case Topic Clustering
+- Sentiment analysis
+
+The insights features are not supported in some of the regions as follows:
+- Smart Assist Suggestions: Not supported in India and Switzerland.
+- Omnichannel historical analytics: Not supported in France, Switzerland, and United Arab Emirates.
+- Conversation Topic clustering: Not supported in France, Switzerland, and United Arab Emirates. 
+-->
+
 Customer Service features are available in the following regions.
 
 | Feature | NAM | EUR | APJ | SAM | OCE |JPN | IND | CAN | GBR | FRA | UAE | CHE |
@@ -34,7 +49,7 @@ This article describes the built-in limits to the Customer Service Insights serv
 
 ### Service limits
 
-This following table lists the built-in limits for the embedded version of insights in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service.
+The following table lists the built-in limits for the embedded version of insights in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service.
 
 | Area | Limits | Notes |
 | ------------ | ------------- | ----------------- |
