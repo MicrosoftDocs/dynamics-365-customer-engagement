@@ -43,7 +43,7 @@ Complete the [activation request form for the mobile configurator (Woodford)](ht
 
 ## Previous app versions
 
-For the **Field Service Mobile (2017)** app, you need to [fill out a form](https://aka.ms/fsmlicense) to request access for your users. To understand past Field Service Mobile app versions, see the article on [Field Service Mobile app version history](https://docs.microsoft.com/dynamics365/field-service/version-history#field-service-mobile-app-version-history).
+For the **Field Service Mobile (2017)** app, you need to [fill out a form](https://aka.ms/fsmlicense) to request access for your users. To understand past Field Service Mobile app versions, see the article on [Field Service Mobile app version history](./version-history.md#field-service-mobile-app-version-history).
 
 Each Dynamics 365 Field Service license you purchase from Microsoft allows you to activate mobile access for one user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could activate mobile access for 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at each organization for a total of 200).
 
@@ -65,3 +65,6 @@ To use Dynamics 365 Field Service on a mobile device, use the Field Service Mobi
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

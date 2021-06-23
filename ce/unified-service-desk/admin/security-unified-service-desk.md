@@ -1,20 +1,19 @@
 ---
 title: "Manage access in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to control user access to Unified Service Desk  by using configuration and security roles."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 # Access management in Unified Service Desk
@@ -54,3 +53,6 @@ tags: MigrationHO
  [Manage access using Unified Service Desk security roles](../../unified-service-desk/admin/manage-access-using-unified-service-desk-security-roles.md)  
   
  [Manage access using Unified Service Desk configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Configure toast notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure toast notification for agents in Omnichannel for Customer Service using Unified Service Desk settings."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Configure toast notifications in Unified Service Desk
@@ -50,3 +49,6 @@ The process of configuring toast notification (floating notification) settings i
 - [Step 4: Attach Omnichannel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

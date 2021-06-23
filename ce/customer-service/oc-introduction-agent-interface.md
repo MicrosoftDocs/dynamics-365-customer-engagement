@@ -1,12 +1,11 @@
 ---
-title: "Introduction to agent interface of Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn about agent interface of Omnichannel for Customer Service app"
+title: "Introduction to agent interface | MicrosoftDocs"
+description: "Learn about the agent interface in the Omnichannel for Customer Service app and the capabilities that it offers to agents."
+ms.date: 12/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Introduction to the agent interface of Omnichannel for Customer Service
@@ -19,7 +18,7 @@ The Omnichannel for Customer Service app for Dynamics enables organizations to i
 
 - **Unified experience:** The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
-- **Multi-session and application management:** The app enables agents to handle multiple sessions and manage contextual applications (app tab panel) related to the sessions with ease, which in-turn leads to less errors, faster case resolution, and customer satisfaction.
+- **Multisession and application management:** The app enables agents to handle multiple sessions and manage contextual applications (app tab panel) related to the sessions with ease, which in-turn leads to less errors, faster case resolution, and customer satisfaction.
 
 - **Deployment and upgrade:** The app is available as a web application (thin client), which makes the maintenance easy and the upgrades are seamless.
 
@@ -32,7 +31,7 @@ As an agent, you might engage with several customers simultaneously across diffe
 The Omnichannel for Customer Service provides key capabilities like:
 
 - Agent dashboard
-- Multi-session
+- Multisession
 - Application tabs associated with sessions
 - Customer summary
 - Communication panel
@@ -47,7 +46,7 @@ The Omnichannel for Customer Service provides key capabilities like:
 
 ## Components in the agent interface
 
-When you sign in to the Omnichannel for Customer Service app, the agent interface has the following components:
+When you start a chat session in to the Omnichannel for Customer Service app, the agent interface has the following components:
 
 1. Session panel
 
@@ -60,7 +59,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 5. Search, quick create, and presence
 
  > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
+ > ![Session panel in Omnichannel for Customer Service app](media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
 
 
 ## 1. Session panel
@@ -68,7 +67,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
  > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
+ > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-agent-interface-session-panel.png "Session panel in the agent interface of Omnichannel for Customer Service app")
 
 ## 2. Communication panel
 
@@ -137,3 +136,6 @@ The horizontal bar below the navigation bar is called the application tab panel.
 - [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2107,3 +2107,5 @@ See quote Entity [Quote_QuoteClose](quote.md#BKMK_Quote_QuoteClose) One-To-Many 
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.quoteclose?text=quoteclose EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -41,3 +41,5 @@ To add or remove a contact to/from a static segment using their contact record:
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Define a static segment](segments-static.md)  
 [Manage information about your current and prospective customers](manage-customer-information.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

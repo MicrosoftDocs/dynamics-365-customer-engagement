@@ -106,3 +106,6 @@ A purchase order receipt doesn't need to contain all products requested or all q
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)     
  [Process a return](../field-service/process-return.md)<br>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

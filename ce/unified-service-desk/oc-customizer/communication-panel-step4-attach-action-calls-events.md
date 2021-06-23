@@ -1,12 +1,11 @@
 ---
 title: "Attach communication panel-related action calls to events | MicrosoftDocs"
 description: "Learn how to the attach the communication panel-related action calls to the out-of-the-box events for agents using Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -88,3 +87,6 @@ This topic describes how to attach communication panel-related action calls to t
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
 - [Step 3: Attach communication panel-related action calls to events](communication-panel-step3-create-action-calls.md)
 - [Step 6: Add the hosted control, action calls, window navigation rule, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

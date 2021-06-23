@@ -1,12 +1,11 @@
 ---
-title: "Live chat SDK JavaScript API Reference| Microsoft Docs"
-description: ""
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
+title: "Live chat SDK JavaScript API Reference| MicrosoftDocs"
+description: "Get an overview of the JavaScript methods and events you can use with the live chat widget in Omnichannel for Customer Service."
 ms.date: 07/01/2019
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Live chat SDK JavaScript API Reference
 
@@ -37,3 +36,6 @@ The following JavaScript methods can be used to perform various operations with 
 ### See also
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

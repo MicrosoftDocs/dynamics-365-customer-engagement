@@ -1,12 +1,11 @@
 ---
 title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
-description: "Frequently asked questions about the Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
-ms.date: 11/02/2020
+description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
+ms.date: 04/09/2021
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -17,21 +16,31 @@ ms.custom:
 ## General FAQs
 
 ### What is Dynamics 365 Channel Integration Framework?
-Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Dynamics 365 Unified Interface apps using a browser-based JavaScript API library.
+
+Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party channel providers with Unified Interface apps Dynamics 365 using a browser-based JavaScript API library.
 
 ### Can I integrate a two-way communication channel?
+
 Yes, you can integrate two-way communication that enables you to set the context of inbound and/or outbound according to your business and process workflows.
 
+### Can I synchronize user presence across different providers?
+
+User presence synchronization across providers is not supported.
+
 ### Does Dynamics 365 Channel Integration Framework work with Unified Interface apps?
+
 Dynamics 365 Channel Integration Framework works only with Unified Interface apps. As of now, Dynamics 365 Channel Integration Framework does not support the legacy web client.
 
 ### Is Dynamics 365 Channel Integration Framework a softphone?
+
 No, Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party channel providers (softphones, chat, and SMS) with Dynamics 365 Unified Interface apps.
 
 ### Does Dynamics 365 Channel Integration Framework make calls or send messages?
+
 No, Dynamics 365 Channel Integration Framework provides an extensible framework to configure the channel provider to make inbound or outbound calls or messages.
 
 ### Is Dynamics 365 Channel Integration Framework a server-side API?
+
 No, Dynamics 365 Channel Integration Framework provides a JavaScript library that exposes APIs that you can use to perform the following operations:
 - Create, retrieve, update, and delete entity records.
 - Get and set Click-to-Act functionality.
@@ -41,9 +50,11 @@ No, Dynamics 365 Channel Integration Framework provides a JavaScript library tha
 More information: [Microsoft.CIFramework methods (CIF JavaScript API reference)](reference/microsoft-ciframework.md)
 
 ### Does Dynamics 365 Channel Integration Framework manage call or chat sessions?
+
 No, Dynamics 365 Channel Integration Framework does not manage call or chat sessions.
 
 ### Is Dynamics 365 Channel Integration Framework dependent on operating systems and browsers?
+
 No, Dynamics 365 Channel Integration Framework is operating system- and web browser-agnostic and lets you integrate the cloud-based channels of your choice that are best for your organization's requirements.
 
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
@@ -54,9 +65,11 @@ Microsoft Edge and Google Chrome support Dynamics 365 Channel Integration Framew
 > The widget domain needs to be accorded permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently accord the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
 
 ### Are there any browsers that Dynamics 365 Channel Integration Framework does not support?
+
 Dynamics 365 Channel Integration Framework does not support Internet Explorer and Firefox browsers.
 
 ### Can partners package solutions that have a dependency on the Dynamics 365 Channel Integration Framework solution, together with the Dynamics 365 Channel Integration Framework solution?
+
 No, the Dynamics 365 Channel Integration Framework solution should not be bundled with another solution. Partners can create solutions that add a check to their package looking for the Dynamics 365 Channel Integration Framework solution (also mentioning the minimum supported version), which causes installation to fail in case the Dynamics 365 Channel Integration Framework solution is not present.
 
 Also, you can add Configuration Experience to the acquire flow that will allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution do any additional setup or license acquisition remotely before installing.
@@ -83,7 +96,7 @@ Channel Integration Framework model-driven app is only applicable to configure c
 
 ### Where do I configure voice channel provider for multisession apps?
 
-Organizations can configure voice channel providers from the app profile manager feature.
+Organizations can configure voice channel providers from the [App profile manager](../../app-profile-manager/overview.md).
 
 ### My organization is using Channel Integration Framework version 1.0. Does the change impact my organization?
 
@@ -100,7 +113,7 @@ Yes. From your channel provider record, you will not be able to see the followin
 
 You don't need to choose the Unified Interface apps. The telephony channel providers are associated with app profiles, which works in the context of the multisession apps such as Omnichannel for Customer Service and Customer Service workspace (preview).
 	
-###	How do I select roles for the voice channel provider record?
+### How do I select roles for the voice channel provider record?
 
 Telephony channel providers are associated with app profiles, which in turn are assigned to users in your organization. With the new changes, you need to assign the app profiles to the users who should have access to the telephony channel provider.
 
@@ -122,7 +135,7 @@ You can invoke the `Microsoft.CIFramework.setMode(1)` method from your provider 
 
 Beyond that point, you can listen to `onSessionClosed` Event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
 
-For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](reference/events/onsessionclosed.md) event.
+For more information, see [setMode](reference/microsoft-ciframework/setmode.md) API and [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event.
 
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
@@ -130,7 +143,7 @@ This is to make sure that updated data is available for the agent at all times.
 
 ### Is it possible to integrate custom (in-house) messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
+Yes, you can integrate custom messaging channels using Direct Line Bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md).
 
 ### Is it possible to view the existing channel providers from Channel Integration Framework version 2.0 model-driven app?
 
@@ -142,3 +155,6 @@ No, you will have to navigate to Channel Integration Framework version 2.0 from 
 [What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
 [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
 [Known issues of Dynamics 365 Channel Integration Framework](known-issues.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "Client-side Events (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
 description: "Read about the client side events that you can use to trigger the client-side code."
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
 ms.date: 12/31/2019
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -29,3 +28,6 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onSizeChanged](../reference/events/onSizeChanged.md) | Invoked when the side panel width is changed. |
 | [onSessionSwitched](../reference/events/onSessionSwitched.md) | Invoked when the session is switched. |
 | [onSessionClosed](../reference/events/onSessionClosed.md) | Invoked when the session is closed. |
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

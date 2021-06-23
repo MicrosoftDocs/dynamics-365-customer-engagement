@@ -1,12 +1,11 @@
 ---
-title: "Display custom context | Microsoft Docs"
-description: "Read how you can send display custom context on the UI"
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
+title: "Display custom context | MicrosoftDocs"
+description: "Use this topic to understand how to display custom context in the Conversation summary section of conversations."
 ms.date: 08/29/2019
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Display custom context
 
@@ -22,3 +21,6 @@ For more information, see [setContextProvider method](developer/reference/method
 
 [Manage custom context](send-context-starting-chat.md)<br />
 [setContextProvider](developer/reference/methods/setContextProvider.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

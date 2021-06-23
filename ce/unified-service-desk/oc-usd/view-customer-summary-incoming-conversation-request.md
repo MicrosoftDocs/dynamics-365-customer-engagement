@@ -1,15 +1,14 @@
 ---
-title: "View Customer summary form for an incoming conversation request | MicrosoftDocs"
-description: "Learn about the Customer summary and its behavior when the agent gets and incoming conversation request."
+title: "View Customer summary form for incoming conversations | MicrosoftDocs"
+description: "Learn about the customer summary and its behavior when agents receive incoming conversation requests in Omnichannel for Customer Service on Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
-# View customer summary for an incoming conversation request
+# View customer summary for incoming conversation requests
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -30,3 +29,6 @@ When you get an incoming conversation request, you see a notification and accept
 - [View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

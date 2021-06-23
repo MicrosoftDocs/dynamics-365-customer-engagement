@@ -60,3 +60,6 @@ You can either update the whole series or update an instance of a recurring appo
  [Delete or end a recurring appointment series or instance](delete-or-end-a-recurring-appointment-series-or-instance.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md)   
  [Sample: Reschedule and Cancel Recurring Appointment](sample-reschedule-cancel-recurring-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

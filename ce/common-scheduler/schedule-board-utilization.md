@@ -21,3 +21,6 @@ search.app:
 # Resource utilization on the schedule board in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-schedule-board-utilization.md](../shared/urs/schedule-board-utilization.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

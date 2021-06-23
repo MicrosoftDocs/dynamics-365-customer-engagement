@@ -1,5 +1,6 @@
 ---
 title: "Enhanced service level agreements  | MicrosoftDocs"
+description: "Service level agreements (SLAs) are a formalized method to help organizations meet service levels when they provide customer service and support."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -57,3 +58,6 @@ Dynamics 365 Customer Engagement (on-premises) includes two kinds of SLAs, stand
 ### See also  
  [Video: SLA Enhancements in Microsoft Dynamics CRM 2015](https://youtu.be/rgmPqLsG8WI)   
  [Enable languages](../admin/enable-languages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

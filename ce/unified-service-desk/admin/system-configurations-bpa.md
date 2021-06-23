@@ -1,12 +1,11 @@
 ---
 title: "System configurations | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 04/24/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -21,9 +20,6 @@ In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-p
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks memory on your computer and displays an error or warning when the value is less than 4 GB. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when memory (RAM) is 4 GB or more.
 
-|              | Error         | Warning       |
-|--------------|---------------|---------------|
-| Memory (RAM) | Less than 2 GB | Less than 4 GB |
 
 ### Mitigation
 
@@ -35,9 +31,6 @@ Upgrade the memory (RAM) of your computer to 4 GB or more.
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks available memory (RAM) on your computer and displays the warning when the value is less than 1 GB. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when **Available Memory (RAM)** is 4 GB or more.
 
-|              | Warning       |
-|--------------|---------------|
-| Memory (RAM) | Less than 1 GB |
 
 ### Mitigation
 
@@ -119,3 +112,6 @@ Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

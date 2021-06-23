@@ -1,12 +1,11 @@
 ---
-title: "Add hosted control, action calls, events, and window navigation rule to configurations | MicrosoftDocs"
-description: "Learn how add action calls, events, window navigation rule and hosted control to the configurations."
+title: "Add hosted control, action calls, events, and window navigation rule for search | MicrosoftDocs"
+description: "Learn how add action calls, events, window navigation rule and hosted control for search control in Unified Service Desk."
+ms.date: 10/25/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/25/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -73,3 +72,6 @@ This topic describes how to add action calls, hosted control, window navigation 
 - [Step 4: Attach search-related action calls to events](search-step4-attach-action-calls-events.md)
 - [Step 5: Configure window navigation rule for search](search-step5-configure-window-navigation-rule.md)
 - [Step 6: Create toolbar buttons for search](search-step6-create-toolbar-button.md)]
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

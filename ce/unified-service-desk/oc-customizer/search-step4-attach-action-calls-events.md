@@ -1,12 +1,11 @@
 ---
 title: "Attach search-related action calls to events | MicrosoftDocs"
 description: "Learn how to attach the search-related action calls to events for agents and supervisors using Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -85,3 +84,6 @@ This topic describes how to attach the search-related action calls to out-of-the
 - [Step 3: Attach sub action calls to action calls](search-step3-attach-sub-action-calls.md)
 - [Step 6: Create toolbar buttons for search](search-step6-create-toolbar-button.md)
 - [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](search-step7-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

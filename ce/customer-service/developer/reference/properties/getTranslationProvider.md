@@ -1,12 +1,11 @@
 ---
 title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
 description: 
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # getTranslationProvider
@@ -33,9 +32,9 @@ interface {
 }
 ```
 
-The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](https://docs.microsoft.com/dynamics365/omnichannel/developer/reference/methods/initializenewconversation).
+The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](/dynamics365/omnichannel/developer/reference/methods/initializenewconversation).
 
-The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](https://docs.microsoft.com/dynamics365/omnichannel/developer/reference/methods/translatemessage).
+The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](/dynamics365/omnichannel/developer/reference/methods/translatemessage).
 
 A sample of setting the `getTranslationProvider` property is as follows.
 
@@ -65,3 +64,6 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 ### See also
 
 [Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

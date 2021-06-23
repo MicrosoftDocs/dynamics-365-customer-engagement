@@ -1,5 +1,6 @@
 ---
 title: "Manage security, users, and teams | MicrosoftDocs"
+description: "Information about users, teams, and security in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -25,3 +26,6 @@ The following section contains information about users, teams, and security in D
   
 ### See also  
 [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

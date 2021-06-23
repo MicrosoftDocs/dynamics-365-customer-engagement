@@ -1,5 +1,6 @@
 ---
-title: "Add ready-to-use business processes (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Add ready-to-use business processes Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to add the business process follows included
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -67,3 +68,6 @@ Dynamics 365 Customer Engagement (on-premises) includes several ready-to-use bus
 ### See also    
  [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

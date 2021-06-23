@@ -111,3 +111,6 @@ In Dynamics 365 Customer Engagement (on-premises) the fundamental concept in rol
  [Privilege and Role Entities](../privilege-role-entities.md)     
  [Use record-based security to control access to records](../security-dev/use-record-based-security-control-access-records.md)   
  [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 Customer Engagement (on-premises)](../security-dev/use-field-security-control-access-field-values.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

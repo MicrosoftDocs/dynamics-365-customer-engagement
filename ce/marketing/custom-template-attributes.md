@@ -346,3 +346,6 @@ So, in this example, the `<img>` tag would resolve to something like:
 [Email marketing overview](prepare-marketing-emails.md)  
 [Create a new email and design its content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

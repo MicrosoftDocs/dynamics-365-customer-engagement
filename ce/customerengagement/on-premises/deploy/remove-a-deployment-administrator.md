@@ -36,3 +36,6 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can remove a
  [Deployment Administrators](deployment-administrators.md)   
  [Add a New Deployment Administrator](add-a-new-deployment-administrator.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

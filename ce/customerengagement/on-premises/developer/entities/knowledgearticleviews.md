@@ -707,3 +707,5 @@ See transactioncurrency Entity [transactioncurrency_knowledgearticleviews](trans
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.knowledgearticleviews?text=knowledgearticleviews EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

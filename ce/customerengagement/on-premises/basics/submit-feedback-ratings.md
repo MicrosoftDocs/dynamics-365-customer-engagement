@@ -65,3 +65,6 @@ To improve customer satisfaction, tracking customer feedback for the products an
 6. After you're done, select **Save & Close**.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

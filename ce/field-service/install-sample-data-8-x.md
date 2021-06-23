@@ -105,7 +105,7 @@ To create or configure users, go to **Settings** > **Security** > **Users**, and
 
 4. If you aren't using Spencer Low with username **spencerl**, you need to update an additional file. Open the **DemoDataPreImportConfig.xml** file, and then find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the username of your Spencer Low user. For more information, see the technical notes below.
 
-**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## Run the Package Deployer
 
@@ -268,3 +268,6 @@ For more information, see this [blog](https://blogs.msdn.microsoft.com/crm/2017/
 
 ### See Also  
  [Overview of Field Service](../field-service/overview.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

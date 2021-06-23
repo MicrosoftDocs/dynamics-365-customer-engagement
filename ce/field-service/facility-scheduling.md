@@ -20,3 +20,6 @@ search.app:
 # Facility scheduling
 
 [!INCLUDE[topic-urs-facility-scheduling.md](../shared/urs/facility-scheduling.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -214,3 +214,6 @@ Event, session, and tracks all have a **Status** field, which works the same way
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Design lead-scoring models](score-manage-leads.md)  
 [Set up the event website](set-up-event-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

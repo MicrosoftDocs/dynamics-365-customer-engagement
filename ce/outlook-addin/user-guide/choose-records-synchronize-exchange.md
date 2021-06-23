@@ -52,7 +52,7 @@ search.app:
     ![Online synchronization filters](../media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   
    > [!NOTE]
-   >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
+   >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](/previous-versions/dynamicscrm-2016/developers-guide/gg328205(v=crm.8))  
   
 4. Do one of the following:  
   
@@ -89,3 +89,6 @@ search.app:
   
 ### See also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

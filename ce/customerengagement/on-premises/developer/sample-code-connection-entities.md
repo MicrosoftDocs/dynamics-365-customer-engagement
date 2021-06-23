@@ -45,3 +45,6 @@ This section contains the code examples that show how to use the connection enti
  [Connection Entities](connection-entities.md)  
   
  [Customer Relationship Entities](customer-relationship-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

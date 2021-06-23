@@ -1,5 +1,5 @@
 ---
-title: "Additional controls for Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Additional controls for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "A list of controls available for use with Dynamics 365 for phones and tablets"
 ms.custom: 
 ms.date: 11/08/2018
@@ -253,3 +253,6 @@ search.audienceType:
 |Value|Get or set the value to display on the gauge.|  
 |Step|Set the amount to add or subtract from the current value when entering data with this control.|  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

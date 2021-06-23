@@ -111,3 +111,6 @@ Similar to asynchronous workflows, real-time workflows can be used to model and 
  [Create your own actions](create-own-actions.md)   
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)   
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

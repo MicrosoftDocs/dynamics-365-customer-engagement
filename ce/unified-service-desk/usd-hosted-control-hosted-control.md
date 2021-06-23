@@ -1,20 +1,19 @@
 ---
 title: "USD Hosted Control (Hosted Control) | MicrosoftDocs"
-description: "Learn about the USD Hosted Control."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn about the USD Hosted Control to create custom hosted controls for extending Unified Service Desk."
 ms.date: 04/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # USD Hosted Control (Hosted Control)
 
@@ -28,3 +27,6 @@ Use the **USD Hosted Control** type of hosted control to create custom hosted co
 ### See also
 
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Use the `UserSettings` entity to specify time zone settings for a user in [!INCL
  [Time Zone Entities](time-zone-entities.md)   
  [Behavior and format of the date and time attribute](behavior-format-date-time-attribute.md)   
  [User and Team Entities](user-team-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

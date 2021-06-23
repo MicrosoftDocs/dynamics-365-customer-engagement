@@ -53,3 +53,6 @@ You can delete a recurring appointment series, delete an instance in the series,
  [Link custom attributes of the recurring appointment master and appointment entities](link-custom-attributes-recurring-master-appointment-entities.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Recurring Appointment](sample-create-retrieve-update-delete-recurring-appointment.md)   
  [Sample: End a Recurring Appointment](sample-end-recurring-appointment-series.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

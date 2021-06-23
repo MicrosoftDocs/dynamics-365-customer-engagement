@@ -1,20 +1,19 @@
 ---
-title: "Use Web Hosted Application hosting method for your controls in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the Web Hosted Application hosting methods for your controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Use Web Hosted Application hosting method for your controls | MicrosoftDocs"
+description: "Learn about the Web Hosted application hosting method for hosting your controls in Unified Service Desk."
 ms.date: 12/01/2018
 ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-3'
 ---
 
@@ -28,3 +27,6 @@ monikerRange: '>= dynamics-usd-3'
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
     
  [Manage hosted controls, actions, and events](../unified-service-desk/manage-hosted-controls-actions-events.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

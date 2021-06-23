@@ -37,3 +37,6 @@ Booking statuses allow you to create multiple substatuses mapped to each of your
  [Set up booking rules](../field-service/set-up-booking-rules.md)   
  [Set up territories](../field-service/set-up-territories.md)<br>
  [User's Guide](../field-service/user-guide.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

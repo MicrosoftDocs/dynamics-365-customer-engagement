@@ -43,3 +43,6 @@ Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement and A
  [Sample: Two-way Listener](sample-two-way-listener.md)   
  [Write a One-way, Two-way, or REST Listener](write-listener-application-azure-solution.md#bkmk_writeoneway)   
  <xref:Microsoft.Xrm.Sdk.IServiceEndpointPlugin>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "The account specified for the service is a member of the PrivUserGroup and is used by another service | Microsoft Docs"
+description: Environment diagnostics warning is used by another service
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  For a more secure deployment, we recommend that you specify a separate least-privileged domain user account.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

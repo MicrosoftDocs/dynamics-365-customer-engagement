@@ -1,5 +1,7 @@
 ---
 title: "Active Directory organizational unit cannot be found | Microsoft Docs"
+description: Environment diagnostics warning that the AD OU can't be found
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -36,3 +38,6 @@ ms.author: matp
   
 3.  After you verify you can connect to the organization unit, close [!INCLUDE[pn_Active_Directory_Users_Computers](../includes/pn-active-directory-users-computers.md)], and then continue running Setup.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

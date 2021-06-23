@@ -1,26 +1,23 @@
 ---
-title: "Configure channel provider using app profile manager in Channel Integration Framework (CIF) version 2.0| Microsoft Docs"
-description: "Learn how to configure a channel provider using the app profile manager."
-author: ramana-hyd
-ms.author: v-rmurthy
+title: "Configure channel providers using app profile manager | MicrosoftDocs"
+description: "Learn how to configure a channel provider using the app profile manager in Dynamics 365 Channel Integration Framework 2.0."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# Configure channel provider using app profile manager
+# Configure channel provider using app profile manager in Dynamics 365 Channel Integration Framework 2.0
 
 The app profile manager is an out-of-the-box solution that lets you create targeted app experiences for agents and supervisors. More information: [App profile manager](../../../app-profile-manager/overview.md).
 
-Channel Integration Framework version 2.0 is for multi-session applications such as Omnichannel for Customer Service and Customer Service workspace. Use the app profile manager as follows to configure a third-party voice channel provider with a multi-session application:
+Channel Integration Framework version 2.0 is for multisession applications such as Omnichannel for Customer Service and Customer Service workspace. Use the app profile manager as follows to configure a third-party voice channel provider with a multisession application:
 
 1. Sign in to your [Power Apps](https://make.powerapps.com) portal.
 
-2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer service workspace**.
+2. Under the available apps, select the ellipses to the right of **Omnichannel for Customer Service** or **Customer Service workspace**.
 
 3. On the menu that appears, select **App profile manager**.
 
@@ -61,3 +58,6 @@ Channel Integration Framework version 2.0 is for multi-session applications such
 [App profile manager](../../../app-profile-manager/overview.md)<br />
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](../v2/reference/microsoft-ciframework/getEnvironment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

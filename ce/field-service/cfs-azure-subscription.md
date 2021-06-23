@@ -48,3 +48,6 @@ When deploying and administering Connected Field Service with IoT Hub, there are
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CRM API access](./media/cfs-azure-api-management.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

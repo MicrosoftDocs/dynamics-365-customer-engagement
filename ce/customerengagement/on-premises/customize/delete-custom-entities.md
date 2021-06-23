@@ -1,5 +1,5 @@
 ---
-title: "Delete custom entities | MicrosoftDocs"
+title: "Delete custom entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn how to delete a custom entity"
 ms.custom: 
 ms.date: 12/03/2018
@@ -37,3 +37,6 @@ search.audienceType:
  
 ### See also
 [Create or edit an entity](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

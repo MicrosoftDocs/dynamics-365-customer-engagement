@@ -34,3 +34,6 @@ Creating a custom channel for customer journeys broadly involves the following s
 [Publish custom channel on AppSource](publish-custom-channel-appsource.md)
 
 [Configure and use custom channel](configure-use-custom-channel.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

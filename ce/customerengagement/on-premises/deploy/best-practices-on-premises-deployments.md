@@ -36,3 +36,6 @@ By following some simple rules of administration, you can significantly improve 
 ## See Also  
  [Microsoft Dynamics 365 security model](../admin/security-concepts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

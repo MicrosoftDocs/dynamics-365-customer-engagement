@@ -1,12 +1,11 @@
 ---
 title: "Start chat proactively | Microsoft Docs"
 description: "Read how you can start chat proactively to see if customers need help and thereby improve customer experience"
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
 ms.date: 04/06/2020
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Start chat proactively
 
@@ -299,7 +298,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 ### Sample code
 
-This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](https://docs.microsoft.com/bingmaps/rest-services/locations/).
+This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](/bingmaps/rest-services/locations/).
 
 ```javascript
 <!-- Code to show proactive chat invite if visitor is visiting the page in a particular country or region -->
@@ -412,3 +411,6 @@ The sample code given below shows how you can proactively offer chat invite to a
 [Initiate a chat](initiate-chat-wait-time.md)<br />
 [Display custom context](display-custom-context.md)<br />
 [Live chat JavaScript API reference](developer/omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

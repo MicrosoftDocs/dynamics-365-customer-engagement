@@ -588,3 +588,6 @@ In the above steps, we modified the Filter panel in the Schedule Assistant to sh
 [Universal Fetch XML](universal-fetchxml.md)
 
 [Universal Resource Scheduling extensibility release notes](extensibility-release-notes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

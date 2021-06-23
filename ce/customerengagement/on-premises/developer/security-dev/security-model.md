@@ -66,3 +66,6 @@ search.audienceType:
  [Security concepts for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699698\(v=crm.8\).aspx)  
   
    
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
-title: "Asset management in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Asset servicing in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about asset management in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/04/2020
+ms.date: 01/11/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -15,11 +15,15 @@ search.app:
   - D365FS
 ---
 
-# Asset management in Dynamics 365 Field Service
+# Asset servicing in Dynamics 365 Field Service
 
 Customer assets let you keep track of equipment that you're responsible for inspecting, maintaining, and repairing. At their simplest, customer assets note which products are located at each customer location. But they can also track service history of all past and present work orders for each asset. And if you're using Connected Field Service, you can connect customer assets to sensors that monitor the asset's health and trigger IoT alerts and work orders as needed.
 
 In this article, let's explore creating customer assets and noting them on work orders, agreements, and IoT devices to build out service history.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ly0y]
 
 ## Prerequisites
 
@@ -230,6 +234,11 @@ Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators
 
 - [Booking alerts](./booking-alert.md), which can display helpful reminders on the schedule board, can be related to customer assets, among many other records.
 - Field Service Mobile (Xamarin) supports [adding 3D models to customer assets](../field-service/3D-viewer.md) that serve as three-dimensional knowledge articles. 3D models give technicians a better idea of the asset they're working on.
+- Use the **Check IoT Setup** ribbon button to check for information about the IoT setup such as, is IoT deployed, are there any devices in the environment. Manually doing this refresh may display more CFS ribbon items.
+
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of a the "Check IoT Setup" option in the top ribbon.](./media/cfs-device-check-setup.png)
+
   
 ### See also
 
@@ -238,3 +247,6 @@ Set **Suggest Reparenting Customer Assets** to _Yes_ to give work order creators
 - [Adding 3D models to customer assets](../field-service/3D-viewer.md) 
 - [Asset properties](asset-properties.md)
 - [Define asset locations with functional location](assets-functional-location.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

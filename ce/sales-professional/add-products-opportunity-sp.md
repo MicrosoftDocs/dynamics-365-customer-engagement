@@ -1,18 +1,16 @@
 ---
-title: "Add products an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Develop your opportunity by defining the products your customers are interested in purchasing."
+title: "Add products to opportunity - Sales Professional | MicrosoftDocs"
+description: "Develop your opportunity by defining product bundles that helps you to choose products for upsell and cross-sell."
 ms.date: 02/03/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
 # Add products to an opportunity (Sales Professional)
 
-A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles or product families to make it easier for you to choose products for upsell and cross-sell. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
+A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles to make it easier for you to choose products for upsell and cross-sell. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
 
 1. From the list of opportunities, open the opportunity to which you want to add products.
@@ -72,4 +70,6 @@ Here are the actions you can take on the products added to the **Product Line It
 
 [Create or edit opportunities](manage-opportunities-sales-professional.md)  
 [Develop sales from lead-to-cash process](develop-sales-lead-to-cash-sales-professional.md)   
-[Dynamics 365 Sales troubleshooting guide for administrators](../sales-enterprise/troubleshooting-admin.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

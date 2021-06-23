@@ -1,12 +1,11 @@
 ---
 title: "Configure alert notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure alert notification for agents using Omnichannel for Customer Service in Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Configure alert notifications in Unified Service Desk
@@ -78,3 +77,6 @@ You must define an event and attach action calls so that an agent can accept an 
 - [Step 4: Add the action calls to the events](alertnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

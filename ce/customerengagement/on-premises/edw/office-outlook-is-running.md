@@ -1,5 +1,7 @@
 ---
 title: "Office Outlook is running | Microsoft Docs"
+description: Environment diagnostics warning that Outlook is running.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -30,3 +32,6 @@ ms.author: matp
   
 3.  Close Task Manager.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

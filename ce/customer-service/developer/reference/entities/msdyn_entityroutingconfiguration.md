@@ -1,12 +1,11 @@
 ---
 title: "msdyn_entityroutingconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_entityroutingconfiguration entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 08/18/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -746,7 +745,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream"></a> msdyn_entityroutingconfiguration_msdyn_liveworkstream
 
-Same as msdyn_liveworkstream entity [msdyn_entityroutingconfiguration_msdyn_liveworkstream](msdyn_liveworkstream.md#BKMK_msdyn_entityroutingconfiguration_msdyn_liveworkstream) Many-To-One relationship.
+Same as msdyn_liveworkstream entity [msdyn_entityroutingconfiguration_msdyn_liveworkstream](msdyn_liveworkstream.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -763,3 +762,6 @@ Same as msdyn_liveworkstream entity [msdyn_entityroutingconfiguration_msdyn_live
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement Reporting Extensions must be installed | Microsoft Docs"
+description: Environment diagnostics warning that Reporting Extensions aren't installed.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  Install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)]. For information about how to install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)], see [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](../deploy/install-microsoft-dynamics-365-reporting-extensions.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

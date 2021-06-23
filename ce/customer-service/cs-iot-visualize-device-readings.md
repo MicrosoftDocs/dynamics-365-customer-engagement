@@ -1,12 +1,11 @@
 ---
 title: "Visualize device readings | MicrosoftDocs"
 description: "Learn how to enable and use device readings in Connected Customer Service for Azure IoT Central."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Visualize device readings
@@ -36,9 +35,9 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > ![Screenshot of the deployment screen showing configuration of Azure resources](./media/cs-iot-device-measurements-deployment.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights Preview deployment.
-- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
+- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
 ).
-- Create the client secret: Follow the steps in [Create a new application secret](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
+- Create the client secret: Follow the steps in [Create a new application secret](/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
 ). 
 
 > [!div class="mx-imgBorder"]
@@ -113,3 +112,6 @@ Use the following table to troubleshoot error codes related to device readings.
   - In custom time settings, the time zone is always set as UTC even when another time zone is selected. The time period displayed after applying the setting is always local time. 
   - When deploying immediately after creating a new application (client) ID with the IoT Deployment app, you may see an **unable to deploy TSI with credential** error. Try again after one minute.
 - Azure Time Series Insights (Preview) uses a pay-as-you-go (PAYG) pricing model. The pricing and cost estimate calculator is available at https://azure.microsoft.com/pricing/details/time-series-insights. Select the region where you are planning to deploy TSI to understand the storage and query cost. (Note that TSI uses Azure blob to store the data.) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

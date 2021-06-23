@@ -1,12 +1,11 @@
 ---
 title: "Manage presence status in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to set your presence status in Omnichannel for Customer Service."
+ms.date: 07/16/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/16/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Manage presence status
@@ -71,3 +70,6 @@ Presence status is updated in two ways:
 - [Manage applications](oc-manage-applications.md)
 - [View communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

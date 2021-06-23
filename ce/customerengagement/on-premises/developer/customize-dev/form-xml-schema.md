@@ -1890,3 +1890,6 @@ The following is the schema definition for form customizations for Dynamics 365 
  [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Form XML schema](form-xml-schema.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

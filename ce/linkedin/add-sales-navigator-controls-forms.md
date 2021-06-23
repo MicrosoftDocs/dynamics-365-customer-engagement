@@ -3,7 +3,6 @@ title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 Sales."
 keywords: custom control, sales navigator, linkedin, integration, customization
 ms.date: 03/03/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -19,6 +18,9 @@ search.app:
 
 # Add LinkedIn Sales Navigator controls to forms
 
+>[!NOTE]
+>For Dynamics 365 Sales Professional, the lead and contact forms must be treated as custom forms and add the controls to these forms.
+
 ## Prerequisites
 
 - You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. 
@@ -26,7 +28,7 @@ search.app:
 
 ## Add Sales Navigator controls to a form
 
-You can use the web app to [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) on any form or entity of a Unified Interface app in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
+You can use the web app to [add custom controls](/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) on any form or entity of a Unified Interface app in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
 
 There are different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls which are added automatically when using the latest version of the out-of-box integrations: 
  
@@ -46,7 +48,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Click path to customization area](media/customizations-nav-bar.png "Click path to customization area")
 
-2. Select **Customize the System**. For this example, we'll customize the default solution. [Learn more about customizing Dynamics 365 apps](https://docs.microsoft.com/dynamics365/customer-engagement/customize/solutions-overview).
+2. Select **Customize the System**. For this example, we'll customize the default solution. [Learn more about customizing Dynamics 365 apps](/dynamics365/customer-engagement/customize/solutions-overview).
 
 3. Expand the **Entities** node and select the entity you want to customize. You can use virtually any entity, but for this example, we'll select the **Lead** entity and expand the node.
 
@@ -106,3 +108,6 @@ Select the **First Name** property with the description and select the pencil ic
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)     
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

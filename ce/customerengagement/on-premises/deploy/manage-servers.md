@@ -33,3 +33,6 @@ You can do the following actions in the **Servers** area of [!INCLUDE[pn_deploym
  [Disable or enable a server](disable-or-enable-a-server.md)   
  [Delete (remove) a Microsoft Dynamics 365 Server](delete-remove-a-microsoft-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

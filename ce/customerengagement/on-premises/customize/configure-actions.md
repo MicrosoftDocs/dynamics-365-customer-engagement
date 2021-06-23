@@ -1,5 +1,6 @@
 ---
 title: "Configure actions for workflows in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to configure actions for workflows
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -144,3 +145,6 @@ Actions also have something that workflow processes don’t – input and output
  [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
  [Create your own actions](../developer/create-own-actions.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

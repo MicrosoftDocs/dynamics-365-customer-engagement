@@ -52,3 +52,6 @@ A *lead* entity represents an individual that is identified as someone who is in
  [Sample: Qualify a Lead](sample-qualify-lead.md)   
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Opportunity Entities](opportunity-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

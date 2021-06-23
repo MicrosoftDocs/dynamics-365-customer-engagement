@@ -70,3 +70,6 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
  [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

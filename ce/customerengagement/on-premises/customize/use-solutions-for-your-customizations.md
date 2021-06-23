@@ -45,3 +45,6 @@ There are a few reasons why you shouldn’t create apps and make customizations 
  [Getting started with customization](Getting-started-customization.md)  
  [Privileges required for customization](Privileges-required-customization.md)<br/>
  [Whitepaper: Patterns and Principles for Solution Builders](https://go.microsoft.com/fwlink/p/?LinkID=533946)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ search.audienceType:
 ### See also  
  [Azure integration with Dynamics 365 Customer Engagement (on-premises)](azure-integration.md)   
  [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

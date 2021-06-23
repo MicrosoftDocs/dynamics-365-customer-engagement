@@ -1,12 +1,11 @@
 ---
 title: "msdyn_systemuser_msdyn_omnichannelqueue Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_systemuser_msdyn_omnichannelqueue entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 ---
 # msdyn_systemuser_msdyn_omnichannelqueue Entity Reference
 
@@ -116,3 +115,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

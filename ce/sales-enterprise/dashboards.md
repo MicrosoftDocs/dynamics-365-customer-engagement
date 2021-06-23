@@ -1,13 +1,18 @@
 ---
-title: "Gain insights with dashboards in Dynamics 365 Sales | MicrosoftDocs"
-description: "Get insights into how your sales team is doing by using dashboards in Dynamics 365 Sales."
+title: "Gain insights with dashboards - Sales Enterprise | MicrosoftDocs"
+description: "Get a quick glance of important and actionable business data using pre-built dashboards. Get insights into how your sales team is doing."
 ms.date: 03/24/2019
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-*
+  - D365-UI-Dashboard
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 
 # Gain insights with dashboards in Dynamics 365 Sales
@@ -44,3 +49,6 @@ To see a specific dashboard every time you sign in to Sales Professional, set it
 
 [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

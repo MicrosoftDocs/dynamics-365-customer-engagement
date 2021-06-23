@@ -70,3 +70,6 @@ Display an option to delete the sample data created in [Setup](#setup). The dele
  [Post Entity](entities/post.md)   
  [PostComment Entity](entities/postcomment.md)   
  [PostFollow Entity](entities/postfollow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

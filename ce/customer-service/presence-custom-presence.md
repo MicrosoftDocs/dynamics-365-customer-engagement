@@ -1,12 +1,11 @@
 ---
 title: Configure and manage presence and custom presence | MicrosoftDocs
 description: See how you can configure and manage presence and custom presence in Omnichannel for Customer Service
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2019
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Configure and manage custom presence
 
@@ -23,7 +22,7 @@ The presence status indicates an agent's availability. A presence status consist
   - Away
   - Offline
 
-  Only the base statuses are available for selection in **Allowed Presences** while creating a [work stream](work-streams-introduction.md).
+  Only the base statuses are available for selection in **Allowed Presences** while creating a [work stream](create-workstreams.md).
 
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
 
@@ -54,7 +53,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 Perform the following steps to create a presence record:
 
-1. In the Omnichannel site map, go to **Agent Experience** > **Custom Presence**. The **Active Presences** view is shown.
+1. In the site map of Omnichannel admin center, select **Agent experience** under Advanced settings, and then select **Manage** for **Custom Presence**. If you're using the Omnichannel Administration app, under **Agent Experience**, select **Custom presence**. The **Active Presences** view is displayed.
 
 2. On the command bar, select **New** to create a presence record.
 3. On the **Summary** tab, provide the following information:
@@ -72,5 +71,8 @@ Perform the following steps to create a presence record:
 ### See also
 
 [Manage a user in Omnichannel for Customer Service](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
-[Understand and create work streams](work-streams-introduction.md)  
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
+[Understand and create work streams](create-workstreams.md)  
+[Overview of unified routing](overview-unified-routing.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

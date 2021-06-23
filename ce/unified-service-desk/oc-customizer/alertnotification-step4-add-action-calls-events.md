@@ -1,12 +1,11 @@
 ---
-title: "Add the Omnichannel Alert Notification-related action calls to the events | MicrosoftDocs"
-description: "Learn how to add action calls to the events"
+title: "Add alert notification action calls to events | MicrosoftDocs"
+description: "Learn how to add action calls to the events as part of configuring alert notifications to use in Omnichannel for Customer Service on Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 4: Attach Omnichannel Alert Notification-related action calls to the events
@@ -64,3 +63,6 @@ monikerRange: '>= dynamics-usd-4.1'
 - [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
 - [Step 3: Create Omnichannel Alert Notification-related action calls](alertnotification-step3-create-action-call-display-notification.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

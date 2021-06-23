@@ -19,7 +19,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 - For documentation of earlier on-premises versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
 
-- If you are using our online apps that are built on Dataverse (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Dataverse Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
+- If you are using our online apps that are built on Dataverse (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Dataverse Developer Guide](/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
 
 <table>
 <tr>
@@ -99,8 +99,8 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 <li><a href="about-entity-reference.md" data-raw-source="[Entity Reference](about-entity-reference.md)">Entity Reference</a></li>
 <li><a href="/dynamics365/customer-engagement/web-api/about" data-raw-source="[Web API Reference](/dynamics365/customer-engagement/web-api/about)">Web API Reference</a></li>
-<li><a href="https://docs.microsoft.com/dotnet/api/?view=dynamics-general-ce-9" data-raw-source="[Organization Service Reference](https://docs.microsoft.com/dotnet/api/?view=dynamics-general-ce-9)">Organization Service Reference</a></li>
-<li><a href="clientapi/reference.md" data-raw-source="[Client API Reference](clientapi/reference.md)">Client API Reference</a></li>
+<li><a href="/dotnet/api/?view=dynamics-general-ce-9" data-raw-source="[Organization Service Reference](/dotnet/api/?view=dynamics-general-ce-9)">Organization Service Reference</a></li>
+<li><a href="/powerapps/developer/model-driven-apps/clientapi/reference" data-raw-source="[Client API Reference](/powerapps/developer/model-driven-apps/clientapi/reference)">Client API Reference</a></li>
 </td>
 </tr>
 
@@ -129,3 +129,6 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 [Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

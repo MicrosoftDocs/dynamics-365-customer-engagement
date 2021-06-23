@@ -1,5 +1,5 @@
 ---
-title: "Configure interactive experience dashboards in Dynamics 365 for Customer Engagement | Microsoft Docs"
+title: "Configure interactive experience dashboards in Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
 description: "Know how to configure interactive experience dashboards in Dynamics 365 for Customer Engagement"
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub
 author: Mattp123
@@ -277,3 +277,6 @@ When the **Modify List Value** dialog box opens, choose the color as shown here:
 ### Next steps  
  [Create and edit dashboards](../customize/create-edit-dashboards.md)   
  [Create or edit a chart](../basics/create-edit-chart.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

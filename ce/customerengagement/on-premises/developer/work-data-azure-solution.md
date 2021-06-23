@@ -31,3 +31,6 @@ An internal plug-in named ServiceBusPlugin is provided with [!INCLUDE[pn_dynamic
 [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)  
 [Write a custom Azure-aware plug-in](write-custom-azure-aware-plugin.md)  
 [Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

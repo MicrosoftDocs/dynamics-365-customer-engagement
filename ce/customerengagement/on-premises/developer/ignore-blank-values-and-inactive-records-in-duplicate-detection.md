@@ -68,3 +68,6 @@ You can improve data results by creating duplicate detection rules that ignore b
 ### See also  
  [Detect Duplicate Data in Dynamics 365 Customer Engagement (on-premises)](detect-duplicate-data-for-developers.md)   
  [Enable and Disable duplicate detection](enable-disable-duplicate-detection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

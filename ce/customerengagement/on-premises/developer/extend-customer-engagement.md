@@ -83,3 +83,5 @@ When you develop an application that uses the Dynamics 365 Server, you use Web s
 [Manage your deployment](manage-deployment.md)<br />
 [Sample code directory](sample-code-directory.md)<br />
 [Programming Reference](programming-reference.md)<br />
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

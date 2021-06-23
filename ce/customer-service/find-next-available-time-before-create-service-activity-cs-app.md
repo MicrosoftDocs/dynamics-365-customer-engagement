@@ -1,14 +1,11 @@
 ---
 title: Find the next available time before creating a service activity (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Find the next available time before creating a service activity in Dynamics 365 Customer Service
+ms.date: 06/01/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Find the next available time before creating a service activity (Customer Service app)
@@ -70,3 +69,6 @@ Avoid conflicts while scheduling services by finding the time the resources are 
 ### See also  
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md)   
  [Navigate the service calendar](../customer-service/navigate-service-calendar-cs-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

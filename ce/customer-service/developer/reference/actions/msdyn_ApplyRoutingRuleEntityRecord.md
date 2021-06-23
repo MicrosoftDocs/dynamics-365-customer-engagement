@@ -1,12 +1,11 @@
 ---
 title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
 description: "Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 10/03/2019
 ms.topic: "reference"
-ms.service: dynamics-365-customerservice
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -61,3 +60,6 @@ HTTP 204 No Content
 ### See also
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

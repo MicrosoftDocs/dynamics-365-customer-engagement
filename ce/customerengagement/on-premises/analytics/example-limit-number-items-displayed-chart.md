@@ -1,5 +1,6 @@
 ---
-title: "Example: Limit the number of items displayed in a chart (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Example: Limit the number of items displayed in a chart (Dynamics 365 for Customer Engagement (on-premises))| MicrosoftDocs"
+description: This example illustrates how to limit the number of items displayed in a chart
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -71,3 +72,6 @@ Report Parameter:
  [Sample Reports](../analytics/example-reports.md)   
  [Sample: Display the Top X Values](../analytics/example-display-top-x-values.md)   
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

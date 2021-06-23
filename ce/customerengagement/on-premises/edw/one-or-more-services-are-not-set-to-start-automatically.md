@@ -1,5 +1,7 @@
 ---
 title: "One or more services are not set to start automatically | Microsoft Docs"
+description: Environment diagnostics warning that one are more services aren't set to start automatically.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -33,3 +35,6 @@ Change the startup type for one or more of the services.
 4.  Close the **Services** application.  
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

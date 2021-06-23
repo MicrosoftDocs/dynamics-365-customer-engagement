@@ -79,3 +79,6 @@ That's it! You're ready to take the tutorials.
    
 > [!div class="nextstepaction"]
 > [Step 1: Receive IoT alerts from IoT Central](cfs-iot-central-alerts.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

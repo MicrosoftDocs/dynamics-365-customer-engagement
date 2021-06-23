@@ -1,12 +1,11 @@
 ---
 title: "translateMessage (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: "translateMessage method in Omnichannel for Customer Service"
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # translateMessage
@@ -113,7 +112,7 @@ The `errorCode` parameter in `ErrorObject` represents the errors only from the f
 |UNRECOGNIZED_ERROR|200|Error Code if there is any error other than the listed one.|
 ||||
 
-The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageResponse` interface represents a Locale ID. More information: [Locale ID](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 **Sample response**
 
@@ -141,3 +140,6 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 ### See also
 
 [Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

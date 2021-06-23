@@ -15,18 +15,18 @@ ms.topic: article
 
 The following roles are available with the app profile manager:
 
-- App profile manager administrator
+- App Profile Manager Administrator
 - App profile user
 
-If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can either assign the App profile manager administrator role or manually add the privileges pertaining to the App profile manager administrator role to the custom role.
+If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can either assign the App Profile Manager Administrator role or manually add the privileges pertaining to the App Profile Manager Administrator role to the custom role.
 
 ## Roles for Customer Service workspace
 
-By default, the privileges pertaining to the App profile user role have been added to the Customer Service Representative and Customer Service Manager roles out of the box. You need to manually provide the App profile manger administrator role to the user who'll create app profiles, templates, productivity tools, and channel provider configurations.
+By default, the privileges pertaining to the App Profile User role have been added to the Customer Service Representative and CSR Manager roles out of the box. You need to manually provide the App Profile Manager Administrator role to the user who will create app profiles, templates, productivity tools, and channel provider configurations.
 
 ## Roles for Omnichannel for Customer Service
 
-Out of the box, for the Omnichannel administrator role, the privileges pertaining to the App profile manager administrator role have been added, and for the Omnichannel agent and Omnichannel supervisor roles, the privileges pertaining to the App profile user role have been added.
+Out of the box, for the Omnichannel administrator role, the privileges pertaining to the App Profile Manager Administrator role have been added, and for the Omnichannel agent and Omnichannel supervisor roles, the privileges pertaining to the App Profile User role have been added.
 
 ## Roles and their privileges
 
@@ -34,7 +34,7 @@ The actions and privileges for the roles in app profile manager are as follows.
 
 ### Role: App Profile Manager Administrator
 
-The app profile manager administrator has the following privileges.
+The App Profile Manager Administrator has the following privileges.
 
 | Action | Privileges|
 |----|--------|
@@ -61,7 +61,7 @@ The app profile manager administrator has the following privileges.
 
 ### Role: App Profile User
 
-The app profile user has the following privileges.
+The App Profile User has the following privileges.
 
 |Action|Privileges|
 |-------|-----|----|---|
@@ -82,3 +82,6 @@ The app profile user has the following privileges.
 
 [An overview of app profile manager](overview.md)  
 [Users and roles in Omnichannel for Customer Service](../customer-service/add-users-assign-roles.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

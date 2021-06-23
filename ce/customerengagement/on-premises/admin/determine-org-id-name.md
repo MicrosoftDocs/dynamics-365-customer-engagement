@@ -1,5 +1,6 @@
 ---
 title: "Determine your environment's organization ID and name | MicrosoftDocs"
+description: "Determine your environment's organization ID and name using customization settings."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,12 +15,14 @@ ms.assetid: 8e75866c-0a42-4aca-be45-c59eb2ddfd08
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Determine your environment's organization ID and name
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Follow these steps to determine your organization name and ID.
 
@@ -28,3 +31,5 @@ Follow these steps to determine your organization name and ID.
 
 > [!div class="mx-imgBorder"] 
 > ![Determine org ID and name](media/org-id-name.png "Determine org ID and name")
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

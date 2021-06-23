@@ -1,5 +1,7 @@
 ---
 title: "Could not find file install.xml | Microsoft Docs"
+description: Environment diagnostics warning that Setup can't find install.xml.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  Locate the install.xml file in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation media and copy the file to the path that is specified in the error message.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

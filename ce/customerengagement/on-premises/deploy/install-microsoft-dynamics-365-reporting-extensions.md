@@ -17,7 +17,12 @@ manager: kvivek
 ---
 # Install Microsoft Dynamics 365 Customer Engagement (on-premises) Reporting Extensions
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] has the following requirements:  
   
@@ -26,7 +31,7 @@ manager: kvivek
 -   You must run [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup on a computer that has a supported version of [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] installed.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 Customer Engagement (on-premises) reporting requirements](microsoft-dynamics-365-reporting-requirements.md).  
   
 > [!WARNING]
->  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who use the Report Viewer control included with [!INCLUDE [pn-visual-studio-short](../includes/pn-visual-studio-short.md)] can view information from the reports that they have access to. By using this control, the user can view additional report and session data that is not displayed when running the report in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To reduce the risk of exposing confidential data, we recommend that you configure the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] website where the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] is installed to allow only [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)], also known as Secure HTTP, connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure SSL Connections on a Native Mode Report Server](https://msdn.microsoft.com/library/ms345223.aspx)  
+>  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] users who use the Report Viewer control included with [!INCLUDE [pn-visual-studio-short](../includes/pn-visual-studio-short.md)] can view information from the reports that they have access to. By using this control, the user can view additional report and session data that is not displayed when running the report in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To reduce the risk of exposing confidential data, we recommend that you configure the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] website where the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] is installed to allow only [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)], also known as Secure HTTP, connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure SSL Connections on a Native Mode Report Server](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
 >   
 >  To reduce the risk of certain security vulnerabilities, we strongly recommend that you use different [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] accounts for the application pools used to run the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] websites.  
   
@@ -76,3 +81,6 @@ manager: kvivek
 ## See also  
  [Microsoft Dynamics 365 Server installation](microsoft-dynamics-365-server-installation.md)   
 
+::: moniker-end
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

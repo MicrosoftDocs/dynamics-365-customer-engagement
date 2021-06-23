@@ -2,7 +2,6 @@
 title: "Forecast with multiple data type columns (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Forecast with multiple data type columns"
 ms.date: 10/26/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -131,3 +130,6 @@ You can view the details of the primary data type and selected column (among dup
 
 [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)  
 [Choose layout and columns](choose-layout-and-columns-forecast.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

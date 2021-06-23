@@ -116,3 +116,6 @@ Use Vector Format (SVG) web resources for any icon presented in the application.
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   
  [Using Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

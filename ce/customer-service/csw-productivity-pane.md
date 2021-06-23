@@ -1,14 +1,11 @@
 ---
 title: Overview of productivity pane | MicrosoftDocs
 description: Overview of productivity pane in Dynamics 365 Customer Service workspace.
+ms.date: 10/20/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/20/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Use the productivity pane to help resolve customer issues
@@ -75,3 +74,6 @@ The knowledge base search lets you search for relevant knowledge articles to res
 [Guide customer interaction with agent scripts](oc-agent-scripts.md) <br>
 [Automate tasks with macros](../app-profile-manager/macros.md) <br>
 [Search for knowledge articles](search-knowledge-articles-csh.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

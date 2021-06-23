@@ -1,12 +1,12 @@
 ---
 title: "lcw ready | MicrosoftDocs"
-description: 
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
-ms.date: 07/01/2019
+description: lcw ready (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
+
 # lcw:ready (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
@@ -21,8 +21,11 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                // SDK methods are ready for use now
 });
 
-```
+```  
+
 ### See also
 
-[lcw:error](lcw-error.md)<br />
+[`lcw:error`](lcw-error.md)<br />
 [JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)] 

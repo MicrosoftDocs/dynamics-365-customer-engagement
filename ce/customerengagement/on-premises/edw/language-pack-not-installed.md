@@ -1,5 +1,7 @@
 ---
 title: "Language Pack not installed | Microsoft Docs"
+description: Environment diagnostics warning that a language pack isn't installed.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  Install the language pack that is referenced in the details of this check. This language matches the base language of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

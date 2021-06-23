@@ -1,11 +1,11 @@
 ---
 title: "initializeNewConversation (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
 ms.date: 10/12/2020
 ms.topic: article
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # initializeNewConversation
@@ -46,7 +46,7 @@ interface conversationConfig {
         inviteParams: InviteParams;  // Implements InviteParams interface, Represents the parameters received on a conversation invite  
 }
 ```
-The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](https://docs.microsoft.com/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
+The `inviteLocale` parameter in `InviteParams` interface represents a Locale ID. More information: [Locale ID](/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a).
 
 The `channelType` parameter in `InviteParams` interface represents a supported channel in Omnichannel for Customer Service. The channels are listed as follows.
 
@@ -161,3 +161,6 @@ The `c1Language` parameter in resolved Javascript object represents a Locale ID 
 ### See also
 
 [Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

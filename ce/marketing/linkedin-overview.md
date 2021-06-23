@@ -66,3 +66,6 @@ Dynamics 365 Marketing can schedule and post messages directly through any of yo
 For information for users about how to author and schedule posts on LinkedIn and other social-media sites, see [Schedule and post messages on social media](social-posting.md).
 
 For information for administrators about how to configure each of your organization's social media accounts for use with this feature, see [Configure your social media accounts](mkt-settings-social-media.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

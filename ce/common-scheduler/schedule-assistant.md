@@ -21,3 +21,6 @@ search.app:
 # Overview of the Universal Resource Scheduling schedule assistant
 
 [!INCLUDE[schedule-assistant.md](../shared/urs/schedule-assistant.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

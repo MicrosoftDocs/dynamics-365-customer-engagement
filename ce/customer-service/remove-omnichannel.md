@@ -1,12 +1,9 @@
 ---
 title: "Remove Omnichannel for Customer Service| MicrosoftDocs"
-description: "Learn how to remove Omnichannel for Customer Service and disable all channels on an organization."
+description: "Perform the steps mentioned in the topic to remove Omnichannel for Customer Service and disable all the messaging channels in an organization."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Remove Omnichannel for Customer Service
@@ -52,3 +49,6 @@ After Omnichannel is removed, you can enable it again from the **Manage environm
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Delete Omnichannel solutions](delete-solution.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

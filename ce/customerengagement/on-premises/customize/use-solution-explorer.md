@@ -56,3 +56,5 @@ With managed solutions there will be no commands available and you’ll see the 
 
 ### See also
 [Solutions overview](solutions-overview.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

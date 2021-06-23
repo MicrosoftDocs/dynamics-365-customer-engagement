@@ -66,3 +66,6 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data import enti
  [TransformationParameterMapping Entity](entities/transformationparametermapping.md)   
  <!-- jdaly These links will have content  when we re-gen docs after bug 689487 is checked in. END -->
  [Sample: Export and Import a Data Map](sample-export-import-data-map.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

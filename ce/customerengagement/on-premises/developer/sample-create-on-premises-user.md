@@ -345,3 +345,6 @@ namespace PowerApps.Samples
 ### See also  
  [User and Team Entities](user-team-entities.md)   
  [Sample: Disable a User](sample-disable-user.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

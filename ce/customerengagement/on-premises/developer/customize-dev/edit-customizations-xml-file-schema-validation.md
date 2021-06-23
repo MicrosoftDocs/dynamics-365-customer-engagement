@@ -85,3 +85,6 @@ The customizations.xml file is included within the compressed .zip file exported
  [Form XML schema](form-xml-schema.md)     
  [ISV Configuration File Schema](isv-configuration-file-schema.md)   
  [Build Queries with FetchXML](../org-service/build-queries-fetchxml.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

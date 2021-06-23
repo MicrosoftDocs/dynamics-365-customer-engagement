@@ -1,12 +1,11 @@
 ---
-title: "Initiate a chat | Microsoft Docs"
-description: "Read how you can start a chat using the startChat API"
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
+title: "Initiate a chat | MicrosoftDocs"
+description: "Understand how to start a chat using the startChat API. Also included are code snippets to start a chat and hide the chat button."
 ms.date: 07/15/2019
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Initiate a chat
 
@@ -57,3 +56,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [startChat](developer/reference/methods/startChat.md)<br />
 [JavaScript API reference for Live chat SDK](developer/omnichannel-reference.md)<br />
 [Customize chat widget](customize-chat-widget.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

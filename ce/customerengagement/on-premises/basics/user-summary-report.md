@@ -29,3 +29,6 @@ Get a list of all your users, including their contact information and security r
   
 ### See also  
  [Run a report](../basics/run-report.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

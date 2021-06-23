@@ -1,12 +1,11 @@
 ---
 title: "Show customers their position in a queue | MicrosoftDocs"
 description: "How to show customers their queue position for a chat widget in Omnichannel for Customer Service."
+ms.date: 05/04/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 05/04/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Show customers their position in a queue
@@ -53,3 +52,6 @@ To configure the queue display feature, follow these steps:
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

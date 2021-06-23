@@ -35,3 +35,6 @@ Use the messages listed in the following table to detect duplicates in [!INCLUDE
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)  
  [Running Duplicate Detection](run-duplicate-detection.md)   
  [Duplicate Rule entities](duplicaterule-entities.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

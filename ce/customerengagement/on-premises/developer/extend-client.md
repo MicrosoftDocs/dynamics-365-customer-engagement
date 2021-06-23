@@ -49,3 +49,6 @@ This section contains information about changes developers and customizers can m
 [Customize commands and the ribbon](customize-dev/customize-commands-ribbon.md)
   
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

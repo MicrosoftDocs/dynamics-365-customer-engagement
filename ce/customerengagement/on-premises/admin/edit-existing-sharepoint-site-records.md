@@ -1,5 +1,6 @@
 ---
 title: "Edit existing SharePoint site records | MicrosoftDocs"
+description: "Store documents related to your Dynamics 365 Customer Engagement (on-premises) records."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -75,3 +76,6 @@ Store documents related to your Dynamics 365 Customer Engagement (on-premises) r
 ### See also  
  [Set up SharePoint integration](set-up-sharepoint-integration.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

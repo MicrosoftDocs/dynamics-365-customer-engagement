@@ -1,5 +1,6 @@
 ---
 title: "System and application users | MicrosoftDocs"
+description: "Identifying special system and application users created when the system is provisioned."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -24,3 +25,5 @@ search.audienceType:
 There is a list of special system and application users that is created when the system is provisioned. Special system users are created for integration and support scenarios. Application users are created during system provisioning for setup and configuration management. Application users can also be used for performing back-end services.
 
 For more information, see the content located in the [Administer Power Platform documentation](/power-platform/admin/system-application-users).
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ This section contains code examples that show how to use the workflow (process) 
   
 ## Related Sections  
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

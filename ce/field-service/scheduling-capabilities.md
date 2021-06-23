@@ -80,3 +80,6 @@ In order to achieve the best scheduling outcomes, use a combination of the follo
 - **Workflow**: a general Dynamics 365 capability used to change data values or trigger actions based on events. For example, a workflow could be used to set a “needs reoptimization” attribute on a resource given some business event (like an emergency booking, for instance).
 
 - **Views**: a general Dynamics 365 capability used to select a subset of rows and fields for a given entity (like a requirement or resource).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

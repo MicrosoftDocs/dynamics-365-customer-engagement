@@ -1,20 +1,19 @@
 ---
 title: "Sample bindings in Unified Service Desk | MicrosoftDocs"
-description: "The sample explains sample bindings in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Learn about the sample bindings used by data-driven adapters to identify UI components of hosted applications."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Sample bindings in Unified Service Desk
 A data-driven adapter uses data, named the bindings, to define the way that it identifies a UI component of a hosted application. The following are some sample bindings:  
@@ -143,3 +142,6 @@ A data-driven adapter uses data, named the bindings, to define the way that it i
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

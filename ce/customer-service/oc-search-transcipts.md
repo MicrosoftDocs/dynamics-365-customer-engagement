@@ -1,12 +1,11 @@
 ---
 title: "Search for transcripts in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to search for transcripts in Omnichannel for Customer Service."
+ms.date: 02/03/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Search for transcripts
@@ -32,3 +31,6 @@ You can now view the details in the **Transcript** section.
 ## See also
 
 [Configure relevance search for chat transcript](relevance-search-chat-transcript.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

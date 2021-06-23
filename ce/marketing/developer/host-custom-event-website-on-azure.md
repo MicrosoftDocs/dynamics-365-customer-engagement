@@ -24,7 +24,7 @@ This topic walks you through the process of hosting your custom event website on
 
 1. Download the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) to customize the provided demo website.
 2. Install [Node.js](https://nodejs.org/en/download/) version 10.x or higher.
-3. Download the [Azure Storage Explorer](https://docs.microsoft.com/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
+3. Download the [Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 
 ## Step 1:  Create an Azure storage account
 
@@ -94,3 +94,6 @@ To use event management public API, you need a web application token. The web ap
 ### See also
 
 [Build and host custom event website](event-management-web-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

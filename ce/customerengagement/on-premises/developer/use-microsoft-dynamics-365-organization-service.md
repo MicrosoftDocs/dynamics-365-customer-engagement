@@ -28,3 +28,6 @@ Learn about the techniques available to you when developing managed application 
 [Developer tools](developer-tools.md)
 
 [Use the Dataverse Organization Service](/powerapps/developer/common-data-service/org-service/overview)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

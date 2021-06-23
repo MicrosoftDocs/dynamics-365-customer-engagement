@@ -21,6 +21,8 @@ search.app:
 
 # Concepts to learn before you get started using Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Here are some basic guidelines for game models, key performance indicators (KPIs), awards, prizes, teams, player positions, and more. Familiarize yourself with these concepts to create games that work best for your business.  
   
 ## Game models and sports themes  
@@ -113,3 +115,6 @@ You can also define weekly awards: [Create weekly awards to keep players and fan
  [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)   
  [Set up and run games in Gamification](run-games.md)   
  [Install and configure the Gamification solution in Dynamics 365 apps](manage-gamification-in-dynamics-365-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

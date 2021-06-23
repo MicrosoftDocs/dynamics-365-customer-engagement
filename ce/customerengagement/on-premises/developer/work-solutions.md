@@ -305,3 +305,5 @@ This topic presents specific programming tasks included in [Sample: Work With So
  [Sample: Work With Solutions](sample-work-solutions.md)   
  [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)
  
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

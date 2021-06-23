@@ -37,3 +37,6 @@ The following are frequently asked questions and known issues for [!INCLUDE[pn_o
 ## Why do I get a (500) Internal Server Error when I navigate to the Microsoft 365 Groups page?  
  This is a generic error which could have multiple causes. One common case is that the user who is attempting to view the group doesn't have a valid [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] license.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

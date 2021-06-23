@@ -30,3 +30,6 @@ Bookable resource categories let you group your bookable resources by type. For 
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)<br>
  [User's Guide](../field-service/user-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

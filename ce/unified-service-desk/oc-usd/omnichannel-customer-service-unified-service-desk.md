@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel on Unified Service Desk | MicrosoftDocs"
 description: "Omnichannel for Customer Service solution is an application that you need to deploy on Unified Service Desk client application."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -44,3 +43,6 @@ Make sure you computer meets all requirements before you install the Unified Ser
 - [Customize Customer summary form](../../customer-service/customize-customer-summary.md)
 - [Customize the conversation form](../../customer-service/customize-session-form.md)
 - [Configure notification (Screen pop) for agents](../oc-customizer/configure-notification-screen-pop-agents.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

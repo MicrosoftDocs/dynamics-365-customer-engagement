@@ -364,3 +364,5 @@ See organization Entity organization_entitydatasource One-To-Many relationship.
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.entitydatasource?text=entitydatasource EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

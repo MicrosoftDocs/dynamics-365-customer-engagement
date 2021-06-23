@@ -45,3 +45,6 @@ Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blo
  [Sample: Create a real-time workflow in code](sample-create-real-time-workflow-code.md)   
  [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)   
  [Workflow and Process Entities](workflow-process-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ A *competitor* is another company that offers competing products and services. E
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Opportunity Entities](opportunity-entities.md)   
  [Lead Entity](lead-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

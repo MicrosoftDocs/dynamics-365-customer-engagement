@@ -1,12 +1,11 @@
 ---
 title: "Configure session name information | MicrosoftDocs"
 description: "Learn how to configure session name information when using Omnichannel for Customer Service in Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -76,3 +75,6 @@ The topic describes how to dynamically display the session tab name, you'll conf
 - [Configure notifications for agents](configure-notification-screen-pop-agents.md)
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

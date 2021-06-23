@@ -109,3 +109,6 @@ The same redirect-URL record where you can find the redirecting URL also shows t
 [Design lead-scoring models](score-manage-leads.md)  
 [Set up lead scoring](set-up-lead-scoring.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

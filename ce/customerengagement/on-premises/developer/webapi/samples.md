@@ -44,3 +44,6 @@ The following table lists the topics that cover language specific implementation
 [What is Power Apps?](/powerapps/powerapps-overview)<br/>
 [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br/>
 [Dataverse Developer Guide](/powerapps/developer/common-data-service/overview)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

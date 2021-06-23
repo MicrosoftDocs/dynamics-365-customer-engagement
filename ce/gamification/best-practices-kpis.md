@@ -20,6 +20,8 @@ search.app:
 ---
 # Best practices for new and existing KPIs in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] includes several default KPIs when the solution is installed. For more information about installing [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], see [Install and configure the Gamification solution](manage-gamification-in-dynamics-365-online.md).
 
 You can edit or remove default KPIs according to your organization's requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)
@@ -57,3 +59,6 @@ Let us know what KPIs you find work well, or not so well, on the [Dynamics Commu
  [Configure KPIs for Gamification in Dynamics 365 apps](configure-kpis.md)  
  [Update game scores by using Excel point scoring capabilities in Gamification](update-scores-using-excel-point-scoring.md)  
  [Set up and run games in Gamification](run-games.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

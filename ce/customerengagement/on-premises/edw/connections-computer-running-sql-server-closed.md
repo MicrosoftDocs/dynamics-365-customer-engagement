@@ -1,5 +1,7 @@
 ---
 title: "Connections to the computer running Microsoft SQL Server must be closed | Microsoft Docs"
+description: Environment diagnostics warning that there's open connections to the SQL Server.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  To resolve this problem, specify a different computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] or contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

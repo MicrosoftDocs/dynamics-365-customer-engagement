@@ -57,3 +57,6 @@ Running more than one workflow that updates the same entity can cause resource l
  [Configure workflow processes](../customize/configure-workflow-steps.md)   
  [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)
    
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

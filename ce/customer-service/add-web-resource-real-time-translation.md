@@ -1,12 +1,11 @@
 ---
-title: "Add web resource for real-time translation| Microsoft Docs"
+title: "Add a web resource for real-time translation| Microsoft Docs"
 description: "Learn how you can add a web resource for real-time translation."
+ms.date: 09/18/2020
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/18/2020
-ms.topic: reference
-ms.service: "dynamics-365-customerservice"
 ---
 # Add a web resource for real-time translation
 
@@ -47,3 +46,6 @@ Perform the following steps to upload the web resource file for real-time transl
 
 [Enable real-time translation of conversations](enable-real-time-translation.md)  
 [Real-time translation of conversations](oc-real-time-translation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

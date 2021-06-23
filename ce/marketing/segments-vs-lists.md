@@ -73,3 +73,6 @@ _Evaluation_ is the process of calculating the members of a segment or list base
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Set up subscription lists and subscription centers](set-up-subscription-center.md)  
 [Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,7 +34,7 @@ This tutorial provides an example of how to send marketing email messages to all
 > [!NOTE]
 > This step requires admin privileges, but only needs to be done once per instance. If you're not an admin, then please contact your admin for help with this step if it's not already been done on your instance.
 
-If you don't already have one, then add a custom field to the contact entity to hold a value that identifies each contact that is part of a given spreadsheet. For instructions, see [How to create and edit fields](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields). Later, you'll be able to create a segment that looks for a specific value in this field and thereby finds all contacts that were listed in the original spreadsheet.
+If you don't already have one, then add a custom field to the contact entity to hold a value that identifies each contact that is part of a given spreadsheet. For instructions, see [How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields). Later, you'll be able to create a segment that looks for a specific value in this field and thereby finds all contacts that were listed in the original spreadsheet.
 
 For this example, we'll assume you created a text field called "ImportSegment" for this purpose. Configure the field as follows (these are probably your default settings) and then publish the changes:
 
@@ -93,10 +93,13 @@ Finish designing your journey as needed. When you're done, set the start date an
 
 ### See also
 
-[How to create and edit fields](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-fields)
+[How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields)
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Import data](import-data.md)  
 [Email marketing overview](prepare-marketing-emails.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design dynamic demographic or firmographic segments](segments-profile.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

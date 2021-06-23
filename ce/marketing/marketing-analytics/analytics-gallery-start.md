@@ -87,3 +87,5 @@ for a quick overview of all the data that's available for your marketing analyti
 ### See also
 
 [Data sources for custom analytics](../custom-analytics.md#data-sources)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

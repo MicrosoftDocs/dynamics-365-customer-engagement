@@ -1,12 +1,11 @@
 ---
 title: "Configure reconnection to a chat session | MicrosoftDocs"
 description: "Administrator steps for configuring reconnect chat in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure reconnection to a previous chat session
@@ -68,3 +67,6 @@ You can enable the reconnection options in the chat widget either while setting 
 [Add a chat widget](add-chat-widget.md)  
 [Create a work stream](work-streams-introduction.md)  
 [Slug for reconnection link](../app-profile-manager/automation-dictionary-keys.md#slug-for-reconnection-link)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

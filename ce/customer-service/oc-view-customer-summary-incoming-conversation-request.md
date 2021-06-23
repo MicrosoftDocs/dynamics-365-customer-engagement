@@ -4,9 +4,6 @@ description: "Learn about the Customer Summary and its behavior when the agent g
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # View customer summary for an incoming conversation request
@@ -26,3 +23,6 @@ When you get an incoming conversation request, you see a notification and accept
 - [View customer summary](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_onli
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)  
   
  [Microsoft Azure Platform](https://go.microsoft.com/fwlink/p/?LinkId=237366)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

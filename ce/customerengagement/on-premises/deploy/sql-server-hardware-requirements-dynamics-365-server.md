@@ -39,3 +39,6 @@ You need [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] database 
  [Microsoft Dynamics 365 Server hardware requirements](microsoft-dynamics-365-server-hardware-requirements.md)   
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,5 +1,6 @@
 ---
 title: "Choose the records to synchronize between Customer Engagement (on-premises) and Outlook or Exchange | MicrosoftDocs"
+description: "Determine which records to synchronize between Customer Engagement and Outlook or Exchange."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -74,5 +75,8 @@ Dynamics 365 Customer Engagement (on-premises) uses online synchronization filte
    ![Sync filters dialog box showing grouped criteria](media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
 ### See also  
- [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md) 
+ [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml) 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

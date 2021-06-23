@@ -2,12 +2,12 @@
 title: "Select a template to configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Select a template to define the hierarchy to be used in a forecast in Dynamics 365 Sales."
 ms.date: 08/01/2020
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Select a template
@@ -43,3 +43,6 @@ To select a template, go to the **Forecast configurations** page and select one 
 [Configure forecasts in your organization](configure-forecast.md)
 
 [Configure forecast using custom rollup entity](configure-forecast-using-custom-rollup-entity.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

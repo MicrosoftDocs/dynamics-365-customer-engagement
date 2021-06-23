@@ -1,23 +1,20 @@
 ---
 title: Create a knowledge article using a template (Developer Guide for Dynamics 365 Customer Service) | MicrosoftDocs
 description: "Read how you can create a knowledge article from an existing template using msdyn_GetKAObjectFromTemplate action"
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
 ms.date: 07/30/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 # Create a knowledge article using a template
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use the **msdyn_GetKAObjectFromTemplate** action to create a knowledge article from an existing knowledge article template programmatically.
 
@@ -33,7 +30,7 @@ The **msdyn_GetKAObjectFromTemplate** action requires the following parameters:
 
 | Type | Description |
 | ---- | ---- |
-| [KnowledgeArticle](../developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
+| [KnowledgeArticle](../customerengagement/on-premises/developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
 
 ## Example
 
@@ -75,7 +72,9 @@ OData-Version: 4.0
 }
 ```
 
-## See also
+### See also
 
-[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)<br />
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)  
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

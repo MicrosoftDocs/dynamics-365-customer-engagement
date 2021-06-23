@@ -648,3 +648,5 @@ See businessunit Entity [business_unit_userform](businessunit.md#BKMK_business_u
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.userform?text=userform EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

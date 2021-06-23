@@ -57,3 +57,6 @@ WHERE i.name is not null
  [Operating Microsoft Dynamics 365 Customer Engagement (on-premises)](operating-microsoft-dynamics-365.md) </br>  
  [Microsoft Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

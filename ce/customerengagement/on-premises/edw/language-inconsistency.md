@@ -1,5 +1,7 @@
 ---
 title: "Language inconsistency | Microsoft Docs"
+description: Environment diagnostics warning that there's a language inconsistency with the upgrade.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -24,3 +26,6 @@ ms.author: matp
   
  The exception is upgrading from an International English edition of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to a US English edition of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. This upgrade is supported and recommended.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

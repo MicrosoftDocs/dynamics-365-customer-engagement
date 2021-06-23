@@ -1,5 +1,5 @@
 ---
-title: "Add a customer, location, and related account details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
@@ -18,11 +18,9 @@ search.app:
   - D365FS
 ---
 
-# Add a customer, location, and related account details to a work order
+# Add an account with customer, location, and related details to a work order
 
-Locations are important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
-
-Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order.
+Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order. Locations are important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
 
 **Service accounts** represent **who** is the receiving account of the on-site service (work order), and **where** the field technician will be dispatched.
 
@@ -40,8 +38,8 @@ In this article, we'll explore creating and using accounts on work orders.
 ## Prerequisites
 
 - Any version of Dynamics 365 Field Service
-- Connect to Bing maps and enable map visualizations. For more information, [check out this article.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
-- Enable and test geocoding. For more information, [check out this article.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
+- Connect to Bing maps and enable map visualizations. For more information, [check out this article.](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
+- Enable and test geocoding. For more information, [check out this article.](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
 ## Create a service account
@@ -179,3 +177,6 @@ Though the unit amount price of the travel charge is dictated by the price list,
 > In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

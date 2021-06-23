@@ -25,7 +25,7 @@ A *landing page* is a webpage that functions as a customer touchpoint for one of
 In Dynamics 365 Marketing, a landing page is a type of *marketing page*. Other types of marketing pages include *subscription centers* and *forward-to-a-friend forms*, both of which support email marketing and are more specialized in purpose.
 
 > [!NOTE]
-> This tutorial describes how to create and publish a landing page when you are using a Dynamics 365 Portal to host your landing pages. However, Dynamics 365 Portals are an optional add-on for Dynamics 365 Marketing, so if you don't have a portal, then you must publish your landing pages and other interactive features for Dynamics 365 Marketing on your own webserver or CMS system. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
+> This tutorial describes how to create and publish a landing page when you are using a Power Apps portal to host your landing pages. However, Power Apps portals are an optional add-on for Dynamics 365 Marketing, so if you don't have a portal, then you must publish your landing pages and other interactive features for Dynamics 365 Marketing on your own webserver or CMS system. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md)
 
 To create a landing page and go live:
 
@@ -70,7 +70,7 @@ To create a landing page and go live:
 
    - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
    - **Type**: Make sure this is set to **Landing page**.
-   - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Dynamics 365 Portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
+   - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Power Apps portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
 
     ![Required fields for a new page](media/page-required-fields.png "Required fields for a new page")
 
@@ -104,3 +104,6 @@ To create a landing page and go live:
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

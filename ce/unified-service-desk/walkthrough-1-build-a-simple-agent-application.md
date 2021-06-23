@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough 1  Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
-description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Microsoft Dataverse."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 1: Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application in Unified Service Desk. "
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough 1: Build a simple agent application
 
@@ -167,3 +166,6 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

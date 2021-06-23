@@ -1,10 +1,10 @@
 ---
 title: "lcw onMinimize | MicrosoftDocs"
-description: 
+description: lcw onMinimize (Omnichannel for Customer Service JavaScript API reference)
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.topic: article
 ms.reviewer: nenellim
 ---
 # lcw:onMinimize (Omnichannel for Customer Service JavaScript API reference)
@@ -25,3 +25,6 @@ window.addEventListener("lcw:onMinimize", function handleWidgetMinimizeEvent(){ 
 [lcw:ready](lcw-ready.md)<br />
 [lcw:error](lcw-error.md)<br />
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

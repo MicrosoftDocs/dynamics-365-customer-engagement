@@ -2,18 +2,16 @@
 title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data"
 ms.date: 06/24/2020
-ms.service: 
-  - dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
 ms.topic: reference
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
+ms.custom: 
+  - dyn365-sales
 ---
 # msdyn_ForecastApi action
 
@@ -396,3 +394,5 @@ A list of `UpdateSimpleColumnByEntityResponse` records consisting of `ForecastIn
 ## See also
 
 [Custom actions for forecasting](../custom-actions-manual-forecasting.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

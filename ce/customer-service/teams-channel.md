@@ -1,12 +1,11 @@
 ---
 title: "Teams channel | MicrosoftDocs"
-description: "Information about Teams channel in the agent dashboard for Omnichannel for Customer Service."
+description: "This topic provides an overview about Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Use a Microsoft Teams channel
@@ -54,3 +53,6 @@ In Omnichannel for Customer Service, you can:
 ### See also
 
 [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

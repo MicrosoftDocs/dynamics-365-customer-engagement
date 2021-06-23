@@ -22,3 +22,6 @@ ms.author: matp
   
  You must first upgrade your version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to a suitable version. For more information, see [Plan your upgrade to Microsoft Dynamics 365 Server](../deploy/plan-your-upgrade-to-microsoft-dynamics-365-server.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

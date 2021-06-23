@@ -1,7 +1,7 @@
 ---
 title: "Video overviews and instructions for Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find video-based information about Dynamics 365 Marketing."
-ms.date: 12/09/2020
+ms.date: 02/19/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -39,6 +39,7 @@ More information:
 
 - Tutorial: [Create a marketing email and go live](create-marketing-email.md)
 - [Design your digital content](design-digital-content.md)
+- [Check your work using previews and test sends](email-preview.md)
 - [Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)
 - [Email marketing overview](prepare-marketing-emails.md)
 - [Work with email, page, and form templates](email-templates.md)
@@ -72,3 +73,6 @@ More information:
 ## Browse all Dynamics 365 videos on YouTube
 
 You can always find the latest videos for all Dynamics 365 products by going to our [YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

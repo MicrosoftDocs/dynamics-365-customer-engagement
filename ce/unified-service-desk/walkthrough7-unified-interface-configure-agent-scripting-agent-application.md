@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
-description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 7: Configure agent scripting for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring agent scripting in Unified Interface apps."
 ms.date: 06/25/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -15,7 +14,7 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 7: Configure agent scripting in your agent application
+# Walkthrough 7: Configure agent scripting in agent applications
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -459,3 +458,6 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)
 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

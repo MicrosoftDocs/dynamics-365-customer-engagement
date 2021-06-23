@@ -1,12 +1,11 @@
 ---
 title: "msdyn_macroactiontemplate Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_macroactiontemplate entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -853,7 +852,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_macroactiontemplate_msdyn_actioninput"></a> msdyn_msdyn_macroactiontemplate_msdyn_actioninput
 
-Same as msdyn_actioninputparameter entity [msdyn_msdyn_macroactiontemplate_msdyn_actioninput](msdyn_actioninputparameter.md#BKMK_msdyn_msdyn_macroactiontemplate_msdyn_actioninput) Many-To-One relationship.
+Same as msdyn_actioninputparameter entity [msdyn_msdyn_macroactiontemplate_msdyn_actioninput](msdyn_actioninputparameter.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -895,3 +894,6 @@ See msdyn_macroconnector Entity [msdyn_msdyn_macroconnector_msdyn_macroactiontem
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

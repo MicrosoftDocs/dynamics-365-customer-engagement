@@ -1,6 +1,6 @@
 ---
-title: "Create a record in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to create a record in Omnichannel for Customer Service app."
+title: "Create records | MicrosoftDocs"
+description: "Learn how you can create a record by using the various methods in the Omnichannel for Customer Service app."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Create a record
+# Create a record for conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -21,7 +21,7 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create a record from the Customer Summary page
 
-In the Customer Summary page and on the customer and case form, you see an option to create a record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation. 
+In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **New** option, a corresponding form opens in a new tab. You can fill in the details and save the record, and the record is auto-linked to the conversation.
 
 To create a record:
 
@@ -102,3 +102,6 @@ In the Customer Summary page, when you are trying to search a record in customer
 - [View customer summary and know everything about customers](oc-customer-summary.md)
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

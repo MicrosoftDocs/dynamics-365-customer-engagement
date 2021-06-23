@@ -1,6 +1,6 @@
 ---
-title: "Specify a default view | MicrosoftDocs"
-description: "Learn how to specificy a default view"
+title: "Specify a default view with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Learn how to specify a default view"
 ms.custom: 
 ms.date: 01/09/2019
 ms.reviewer: 
@@ -22,8 +22,6 @@ search.audienceType:
 ---
 # Specify a default view
 
-
-
 <a name="BKMK_SetDefaultView"></a>   
 
 Unless someone has ‘pinned’ a different view in your app as their personal default, they will see the default view that you specify as the app maker. You can set any of the public views as the default view for an entity.  
@@ -40,3 +38,6 @@ Unless someone has ‘pinned’ a different view in your app as their personal d
 
 ### See also
 [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

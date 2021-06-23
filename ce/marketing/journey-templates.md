@@ -95,3 +95,5 @@ To reactivate an inactive template:
     ![The system-view selector](media/journey-templates-inactive.png "The system-view selector")
 
 1. Mark the template that you want to reactivate by selecting any part of the row other than the template name. Then select **Activate** on the command bar. This moves the selected template back to the **Active customer journey templates** system view and will also make it available in the customer journey template gallery.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

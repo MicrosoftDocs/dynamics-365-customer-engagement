@@ -49,3 +49,6 @@ This section contains the code examples that demonstrate how to use the activity
   
 ## Related Sections  
  [Activity Entities](activity-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1352,3 +1352,5 @@ See msdyn_agreement Entity [msdyn_msdyn_agreement_msdyn_agreementinvoicesetup_Ag
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_agreementinvoicesetup?text=msdyn_agreementinvoicesetup EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

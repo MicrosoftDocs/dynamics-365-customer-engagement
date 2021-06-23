@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough  Create a UII Application Adapter in Unified Service Desk | MicrosoftDocs"
-description: "Demonstrates how to host and interact with an external application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough: Create a UII Application Adapter in Unified Service Desk | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with external applications in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough: Create a UII Application Adapter
 
@@ -142,7 +141,7 @@ You can create an application adapter if you want to integrate an external appli
            int intIDCoordY = 126;  
    ```  
   
-5. Add the following code to the definition of `NotifyContextChange` to notify the application that the context has changed. For more information, see [Context)](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange\(microsoft.uii.csr.context\))  
+5. Add the following code to the definition of `NotifyContextChange` to notify the application that the context has changed. For more information, see [Context)](/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange(microsoft.uii.csr.context))  
   
    ```csharp  
    public override bool NotifyContextChange(Context context)  
@@ -207,9 +206,9 @@ You can create an application adapter if you want to integrate an external appli
   
 4. In the Adapter Configuration section, specify the following values:  
   
-   |||  
-   |-|-|  
-   |Field|Value|  
+   
+   |Field |Value |  
+   |----- |------|  
    |Adapter|Use Adapter|  
    |URI|`ExternalApplicationAdapter`|  
    |Type|`ExternalApplicationAdapter.AppAdapter`|  
@@ -243,3 +242,6 @@ You can create an application adapter if you want to integrate an external appli
 
 ### See also
  [Use UII adapters to interact with external and web applications](../unified-service-desk/use-uii-adapters-interact-external-web-applications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

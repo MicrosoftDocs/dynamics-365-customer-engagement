@@ -2447,3 +2447,5 @@ See queue Entity [mailbox_regarding_queue](queue.md#BKMK_mailbox_regarding_queue
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.mailbox?text=mailbox EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

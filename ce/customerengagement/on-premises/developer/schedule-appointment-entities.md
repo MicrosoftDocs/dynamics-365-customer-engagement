@@ -54,3 +54,6 @@ search.audienceType:
  [Service Entity](service-entity.md)  
   
  [Sample Code for Recurring Appointments](sample-code-schedule-appointment-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

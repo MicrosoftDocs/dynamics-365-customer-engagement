@@ -1,5 +1,7 @@
 ---
 title: "Missing database table columns | Microsoft Docs"
+description: Environment diagnostics warning that table columns are missing.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -23,3 +25,6 @@ One or more table columns are missing from the original [!INCLUDE[pn_microsoftcr
   
  This is a warning message. Setup should finish the upgrade. However, to resolve this problem, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

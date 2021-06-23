@@ -39,3 +39,6 @@ Tab display rules control whether a specific tab is displayed for a ribbon or no
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Define Scaling for Ribbon Elements](define-scaling-ribbon-elements.md)   
  [Pass Parameters to a URL By Using the Ribbon](pass-parameters-url-by-using-ribbon.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

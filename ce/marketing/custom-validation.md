@@ -76,3 +76,6 @@ To test your validation pipeline, do the following:
 2. The results will be visible on the **Network** tab.
 
     ![Google Chrome Network tab](media/custom-validation-test2.png "Google Chrome Network tab")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,20 +1,19 @@
 ---
 title: "Encode and escape characters with Channel Integration Framework hosted control | MicrosoftDocs"
 description: "Learn how to create a Channel Integration Framework hosted control in Dataverse for Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -80,3 +79,6 @@ To pass data that includes special characters, use the **EscapeCharacters** UII 
 
 [Channel Integration Framework (Hosted Control)](channel-integration-framework-hosted-control.md)  
 [Integrate a channel provider by using Dynamics 365 Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

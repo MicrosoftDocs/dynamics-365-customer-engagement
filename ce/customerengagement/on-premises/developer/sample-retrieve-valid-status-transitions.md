@@ -168,3 +168,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 0  Active    3    Waiting for Details  
 ```  
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement (on-p
  [Sample Code for Dynamics 365 Customer Engagement (on-premises) and Microsoft Azure Integration](sample-code-azure-integration.md)   
  [Sample: REST Listener](sample-rest-listener.md)   
  <xref:Microsoft.Xrm.Sdk.ITwoWayServiceEndpointPlugin>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

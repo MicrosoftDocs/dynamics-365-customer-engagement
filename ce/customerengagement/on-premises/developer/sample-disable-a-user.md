@@ -41,3 +41,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [User and Team Entities](user-team-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>   
     
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

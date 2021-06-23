@@ -48,3 +48,6 @@ search.audienceType:
  [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md)     
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)   
  [Sample: Audit User Access](sample-audit-user-access.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

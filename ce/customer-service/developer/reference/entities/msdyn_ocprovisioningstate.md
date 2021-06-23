@@ -1,12 +1,11 @@
 ---
 title: "msdyn_ocprovisioningstate Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocprovisioningstate entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 09/14/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -858,7 +857,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Omnichannel – Facebook Solution
 
-See msdyn_ocfbpage Entity [msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate](msdyn_ocfbpage.md#BKMK_msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate) One-To-Many relationship.
+See msdyn_ocfbpage Entity [msdyn_msdyn_ocfbpage_msdyn_ocprovisioningstate](msdyn_ocfbpage.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid"></a> msdyn_oclinechannelconfig_msdyn_ocprovisioningstate_oclinechannelconfigid
 
@@ -882,3 +881,6 @@ See msdyn_ocwhatsappchannelaccount Entity [msdyn_ocwhatsappchannelaccount_msdyn_
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

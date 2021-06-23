@@ -56,3 +56,6 @@ The *opportunity* entity represents a potential sale to new or established custo
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Quote, order, and invoice entities](quote-order-invoice-entities.md)   
  [Set default price level for opportunity, quote, order, invoice](set-default-price-level-for-opportunity-quote-order-invoice.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,11 @@
 ---
 title: "msdyn_oc_geolocationprovider Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_oc_geolocationprovider entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 08/29/2019
 ms.topic: "reference"
-ms.service: dynamics-365-customerservice
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 ---
 # msdyn_oc_geolocationprovider Entity Reference
 
@@ -666,3 +665,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

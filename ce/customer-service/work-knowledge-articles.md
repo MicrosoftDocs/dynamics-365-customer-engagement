@@ -1,13 +1,12 @@
 ---
 title: Work with knowledge articles | MicrosoftDocs
 description: "This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service"
-author: ramana-hyd
-ms.author: v-rmurthy
+ms.date: 03/05/2021
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 05/15/2020
 search.audienceType: 
   - developer
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Work with knowledge articles
@@ -109,7 +108,7 @@ KnowledgeArticle respObject = (KnowledgeArticle)_serviceProxy.Retrieve(Knowledge
   
 - 6: Discarded (after a knowledge article is discarded)  
   
-To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. More information: [Perform specialized operations using Update](../customerengagement/on-premises/developer/org-service/perform-specialized-operations-using-update.md).  
+To change the state of the article, use the `Update` message on the knowledge article record to update the `KnowledgeArticle.StateCode` attribute. For early bound types, use the `KnowledgeArticleState` enumeration to set the possible states. More information: [Perform specialized operations using Update](/powerapps/developer/data-platform/special-update-operation-behavior).  
   
 The following sample code shows how to publish a knowledge article record.  
   
@@ -161,21 +160,19 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
 <a name="Search"></a>   
 ## Search knowledge articles using full-text search  
- Knowledge articles in Dynamics 365 Customer Service, including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](https://docs.microsoft.com/sql/relational-databases/search/full-text-search).  
+ Knowledge articles in Dynamics 365 Customer Service, including their versions and translations, are full-text indexed and support SQL Server full-text search. For more information about full-text search, see [SQL Server: Full-text Search](/sql/relational-databases/search/full-text-search).  
   
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
 
 ## Deprecated knowledge entities  
 
-The Knowledge Management functionality in Dynamics 365 Customer Service has been enhanced resulting in the following legacy entities being deprecated:   
+The following legacy entities have been deprecated. More information: [Deprecated knowledge entities](deprecations-customer-service.md#deprecatedkmentities)
 
-- [KbArticle](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticle) 
-- [KbArticleComment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticlecomment) 
-- [KbArticleTemplate](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/kbarticletemplate)  
+- [KbArticle](../customerengagement/on-premises/developer/entities/kbarticle.md) 
+- [KbArticleComment](../customerengagement/on-premises/developer/entities/kbarticlecomment.md) 
+- [KbArticleTemplate](../customerengagement/on-premises/developer/entities/kbarticletemplate.md)  
 
-Deprecation of the legacy knowledge entities was announced in the [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#some-knowledge-management-entities). 
-
-Legacy knowledge entities will no longer be accessible as of December 1, 2020. It is strongly recommended you move to the new KnowledgeArticle entity now.  For more information about creating a knowledge article in  Unified Interface, see [Create and manage knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/customer-service-hub-user-guide-knowledge-article).  
+Legacy knowledge entities are not accessible as of December 1, 2020. We strongly recommend that you move to the KnowledgeArticle entity.  For more information about creating a knowledge article in Unified Interface, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).  
 
 Use the following for help with migration:  
 - Use SDK, WebAPI, or Microsoft Power Automate depending on your scenarios.  
@@ -194,4 +191,7 @@ Use the following for help with migration:
 - [KnowledgeArticleViews Entity](../customerengagement/on-premises/developer/entities/knowledgearticleviews.md)
 - [KnowledgeBaseRecord Entity](../customerengagement/on-premises/developer/entities/knowledgebaserecord.md)
 - [LanguageLocale Entity](../customerengagement/on-premises/developer/entities/languagelocale.md)
-- [Important changes coming in future releases of Microsoft Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)?redirectedfrom=MSDN#bkmk_CrmKMEntities) 
+- [Important changes coming in future releases of Microsoft Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#bkmk_CrmKMEntities) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

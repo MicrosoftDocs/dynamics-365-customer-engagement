@@ -1,12 +1,11 @@
 ---
-title: "What's new in Dynamics 365 Channel Integration Framework | Microsoft Docs"
-description: "Read about the new features provided in the latest release of Dynamics 365 Channel Integration Framework."
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
+title: "What's new in Dynamics 365 Channel Integration Framework | MicrosoftDocs"
+description: "Read about the new features available in the latest version of Dynamics 365 Channel Integration Framework."
 ms.date: 10/16/2019
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -29,7 +28,7 @@ Dynamics 365 Channel Integration Framework version 2.0 provides multiple enhance
 
 ### Integration with the multisession experiences
 
-Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see [Integration with multisession experiences](integration-multi-session-experiences.md).
+Dynamics 365 Channel Integration Framework version 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see [Integration with multisession experiences](./v2/integration-multi-session-experiences.md).
 
 More information: [Microsoft.CIFramework methods](reference/microsoft-ciframework.md)
 
@@ -45,7 +44,7 @@ More information:
 
 With Dynamics 365 Channel Integration Framework version 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belongs to a different provider.  
 
-More information: [Support for multiple providers](support-multiple-providers.md)
+More information: [Support for multiple providers](./v2/support-multiple-providers.md)
 
 ### Channel Analytics
 
@@ -57,7 +56,7 @@ The contact center analytics need operational and conversational data to provide
 
 Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel related analytics and insights.
 
-More information: [Channel Analytics](channel-analytics.md).
+More information: [Channel Analytics](./v2/channel-analytics.md).
 
 > [!IMPORTANT]
 > For the complete list of features introduced in Dynamics 365 Channel Integration Framework 2.0, see the 2019 release wave 2 plan here: [Dynamics 365 Channel Integration Framework](/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2)
@@ -99,3 +98,6 @@ More information: [Configure channel provider in Dynamics 365 Channel Integratio
 ## See also
 
 [Download Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

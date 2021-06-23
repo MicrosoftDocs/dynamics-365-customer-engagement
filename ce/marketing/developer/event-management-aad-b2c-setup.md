@@ -29,10 +29,10 @@ The event portal is capable of integrating the **Azure Active Directory B2C**. T
 
 ## Creating Azure AD B2C tenant and adding a web application to the tenant
 
-The quick start tutorial explains how to create a new Azure AD B2C tenant here: [Create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant)
+The quick start tutorial explains how to create a new Azure AD B2C tenant here: [Create an Azure AD B2C tenant](/azure/active-directory-b2c/tutorial-create-tenant)
 
 After you have successfully created **Azure AD B2C** tenant, follow the tutorial to add a web application to the newly created tenant:
-[Register a web application with AAD B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-register-applications)
+[Register a web application with AAD B2C](/azure/active-directory-b2c/tutorial-register-applications)
 
 ### Grant API access to the registered web application
 
@@ -61,7 +61,7 @@ To do so, follow the steps below:
 8. Select **Create**.
 
 > [!NOTE]
-> To use a name-based contact matching strategy, you must configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section. More information: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/azure/active-directory-b2c/)
+> To use a name-based contact matching strategy, you must configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section. More information: [How to configure and set it up in the Azure AD B2C](/azure/active-directory-b2c/)
 
 ## Naming
 
@@ -81,7 +81,7 @@ To reduce the clutter while navigating Azure portal we will use the following na
 Follow those steps to register the application with Dynamics 365 Marketing.
 
 1. Open your Dynamics 365 Marketing instance
-1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, follow the steps to [register your web application](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
+1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, follow the steps to [register your web application](/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
 1. Insert your **Application ID** in the **AAD Client ID** field.
 1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
   According to the defined naming assembly, the AAD metadata endpoint looks in this pattern `https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}`
@@ -118,3 +118,6 @@ aadB2CConfig: {
     redirectUri: 'https://localhost:4200'
 }
 ```
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

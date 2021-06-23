@@ -23,8 +23,11 @@ search.app:
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Create a work order](../field-service/create-work-order.md)   
  [Create work order types](../field-service/create-work-order-types.md)   
- [Set up work order sub-statuses](../field-service/set-up-work-order-sub-statuses.md)   
+ [Set up work order sub-statuses](./work-order-status-booking-status.md)   
  [Set up service task types](../field-service/set-up-service-task-types.md)   
  [Configure incident types](../field-service/configure-incident-types.md)   
  [Set priorities](../field-service/set-priorities.md)<br>
  [User's Guide](../field-service/user-guide.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

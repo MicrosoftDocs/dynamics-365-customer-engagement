@@ -220,3 +220,6 @@ The following table explains how the behavior of standard [AttributeMetadata pro
 |SourceType|_invalid_|Always 0, calculated or rollup values not supported.|
 ||||
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

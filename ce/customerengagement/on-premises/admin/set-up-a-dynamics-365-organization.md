@@ -1,5 +1,6 @@
 ---
 title: "Set up an organization | MicrosoftDocs"
+description: "Set up your Dynamics 365 Customer Engagement (on-premises) organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -25,3 +26,6 @@ This section describes how to set up your Dynamics 365 Customer Engagement (on-p
 
 ### See also
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

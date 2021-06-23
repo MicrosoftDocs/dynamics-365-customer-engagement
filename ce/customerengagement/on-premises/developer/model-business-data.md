@@ -30,3 +30,6 @@ Dynamics 365 Customer Engagement (on-premises) provides a robust and customizabl
 [Entity Reference](about-entity-reference.md)
 
 [Browse the metadata for your organization](browse-your-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

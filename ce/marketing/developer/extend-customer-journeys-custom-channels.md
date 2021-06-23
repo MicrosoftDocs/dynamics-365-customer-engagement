@@ -31,3 +31,6 @@ You can create a custom channel, such as text (SMS) or social media, and expose 
 [Customer journey tiles reference](../../marketing/customer-journey-tiles-reference.md)
   
 [Marketing Help & Training](../../marketing/help-hub.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

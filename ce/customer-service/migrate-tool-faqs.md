@@ -1,12 +1,11 @@
 ---
 title: "Migration tool FAQs | MicrosoftDocs"
 description: "Migration tool FAQs for  Automatic record creation rules and service-level agreement items"
+ms.date: 10/05/2020
+ms.topic: article
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ms.reviewer: nenellim
 ---
 
@@ -49,7 +48,7 @@ No. Custom entities, fields, attributes, and configurations are not supported by
 
 ### Do I need a separate license for Power Automate before running migration?
 
- No. For more information on licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications)
+ No. For more information on licensing guidelines, go to [What are Microsoft Power Apps and Power Automate use rights for Dynamics 365 applications?](/power-platform/admin/powerapps-flow-licensing-faq#what-are-microsoft-power-apps-and-power-automate-use-rights-for-dynamics-365-applications)
 
 ### Some of my rules are incomplete or partially migrated. What should I do?
 
@@ -163,7 +162,7 @@ However, there is a limitation with Unified Interface SLA rules, and once a rule
 
 ### Can I migrate deprecated standard SLA rules?
 
- No. The migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool. For more information, go to [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
+ No. The migration tool only supports enhanced SLA rules. Standard SLA rules have been deprecated and are no longer supported in Unified Interface and therefore aren't supported in the migration tool. For more information, go to [Standard SLAs in Dynamics 365 Customer Service are deprecated](/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated). 
 
 
 ## Known flow issues
@@ -215,3 +214,6 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 ### See also
 
 [Migrate automatic record creation rules and SLAs](migrate-automatic-record-creation-and-sla-agreements.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

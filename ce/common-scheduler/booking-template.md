@@ -21,3 +21,5 @@ search.app:
 # Edit schedule board booking template in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-booking-template.md](../shared/urs/booking-template.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

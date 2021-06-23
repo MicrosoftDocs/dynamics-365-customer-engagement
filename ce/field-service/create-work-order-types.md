@@ -27,9 +27,12 @@ A work order type in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-
 ### See also   
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
  [Create a work order](../field-service/create-work-order.md)   
- [Set up work order substatuses](../field-service/set-up-work-order-sub-statuses.md)   
+ [Set up work order substatuses](./work-order-status-booking-status.md)   
  [Set up service task types](../field-service/set-up-service-task-types.md)   
  [Configure incident types](../field-service/configure-incident-types.md)   
  [Set priorities](../field-service/set-priorities.md)   
  [Set up time groups](../field-service/set-up-time-groups.md)<br>
  [User's Guide](../field-service/user-guide.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

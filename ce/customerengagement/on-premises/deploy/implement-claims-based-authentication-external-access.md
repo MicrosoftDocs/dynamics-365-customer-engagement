@@ -34,3 +34,6 @@ To enable claims-based authentication for external access to [!INCLUDE[pn_micros
  [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md)   </br>
  [Dynamics 365 for tablets and IFD](dynamics-365-for-tablets-and-ifd.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

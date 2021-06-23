@@ -149,3 +149,6 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
  [Dynamics 365 for Outlook support](support.md)
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](https://go.microsoft.com/fwlink/p/?LinkID=717230)
  [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-using-group-policy.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

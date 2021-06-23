@@ -852,3 +852,5 @@ See msdyn_transactioncategory Entity [msdyn_msdyn_transactioncategory_msdyn_expe
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_expensecategory?text=msdyn_expensecategory EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

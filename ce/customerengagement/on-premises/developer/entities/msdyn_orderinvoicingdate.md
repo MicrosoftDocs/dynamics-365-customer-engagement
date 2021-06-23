@@ -968,3 +968,5 @@ See salesorder Entity [msdyn_salesorder_msdyn_orderinvoicingdate_Order](salesord
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_orderinvoicingdate?text=msdyn_orderinvoicingdate EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

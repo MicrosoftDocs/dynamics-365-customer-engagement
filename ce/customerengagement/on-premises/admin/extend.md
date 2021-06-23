@@ -1,5 +1,6 @@
 ---
 title: "Extend Customer Engagement (on-premises) | MicrosoftDocs"
+description: "Dynamics 365 Customer Engagement (on-premises) is a very powerful business tool right out of the box."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -26,3 +27,6 @@ Dynamics 365 Customer Engagement (on-premises) is a very powerful business tool 
 1. Integrating Customer Engagement (on-premises) with your email system such as Exchange Online or Gmail.
 2. Adding solutions by Microsoft like Office 365 Groups or solutions from other companies.
 3. Integrating with Office 365 features such as SharePoint, Skype, OneDrive, or OneNote.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,22 +1,21 @@
 ---
-title: "Walkthrough 2  Display an external webpage in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display an external web page in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 2: Display webpages and external URLs in your agent application | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying web pages and external URLs in your agent application. "
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
-# Walkthrough 2: Display an external webpage in your agent application
+# Walkthrough 2: Display webpages and external URLs in your agent application
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -182,7 +181,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Action|ShowTab|  
     |Data|Contoso Help|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "Create an action call in Unified Service Desk")  
+    ![New Action Call page in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "New Action Call page in Unified Service Desk")  
 
 12. Click **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
 
@@ -250,3 +249,6 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

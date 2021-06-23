@@ -1,0 +1,36 @@
+- name: Sync leads from LinkedIn
+  items: 
+  - name: Sync leads from LinkedIn
+    href: sync-linkedin-leads.md
+  - name: Install the LinkedIn Lead Gen solution
+    href: install-linkedin-connector.md
+  - name: Edit lead matching strategy
+    href: configure-matching-strategy.md
+  - name: Connect with LinkedIn
+    href: connect-dynamics-365-linkedin.md
+  - name: Review and analyze leads
+    href: review-leads.md
+- name: Integrate LinkedIn Sales Navigator
+  items: 
+  - name: Integrate LinkedIn Sales Navigator
+    href: integrate-sales-navigator.md
+  - name: Install and enable LinkedIn Sales Navigator
+    href: install-sales-navigator.md
+  - name: Disable LinkedIn Sales Navigator
+    href: disable-sales-navigator.md
+  - name: Uninstall LinkedIn Sales Navigator
+    href: uninstall-sales-navigator.md
+  - name: See profile pictures
+    href: see-profile-pictures.md
+  - name: Data validation capability
+    href: data-validation.md
+  - name: Add Sales Navigator controls to forms
+    href: add-sales-navigator-controls-forms.md
+  - name: View Sales Navigator controls on forms
+    href: view-sales-navigator-forms.md
+  - name: Troubleshooting and FAQs
+    items: 
+    - name: Troubleshooting LinkedIn integration errors
+      href: ts-linkedin-integration.md
+    - name: FAQs
+      href: faqs-linkedin.md

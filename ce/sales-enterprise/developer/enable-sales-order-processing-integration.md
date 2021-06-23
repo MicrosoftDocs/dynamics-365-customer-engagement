@@ -1,15 +1,13 @@
 ---
-title: "Enable sales order processing integration (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Enable sales order processing integration - Sales Enterprise | MicrosoftDocs"
 description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
 ms.date: 07/09/2020
-ms.service: 
-  - dynamics-365-sales
+ms.topic: get-started-article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ms.custom: 
   - dyn365-sales
-ms.topic: get-started-article
-author: susikka
-ms.author: susikka
-manager: shujoshi
 ms.reviewer: susikka
 ---
 # Enable sales order processing integration
@@ -60,3 +58,6 @@ The following table lists the conditions that need to be satisfied before Dynami
 [Organization entity reference](../../customerengagement/on-premises/developer/entities/organization.md)<br />
 [System user entity reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
 [Quote, order, and invoice entities](../../customerengagement/on-premises/developer/quote-order-invoice-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

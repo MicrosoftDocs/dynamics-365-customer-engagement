@@ -72,7 +72,10 @@ After running the QuickStart program or most other SDK console-based samples, th
 ### See also  
  [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)   
  [Sample: Quick Start for Dynamics 365 Customer Engagement](sample-quick-start.md)   
- [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)   
+ [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)   
  [Sample Code Directory for Dynamics 365 Customer Engagement (on-premises)](sample-code-directory.md)   
  [Build a .NET Business Application in 60 Minutes with xRM and SharePoint](https://www.microsoftpdc.com/2009/PR33)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

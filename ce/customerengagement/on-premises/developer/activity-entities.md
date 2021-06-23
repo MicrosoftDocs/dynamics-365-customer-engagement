@@ -61,3 +61,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], ac
  [Server-side Synchronization Entities](server-side-synchronization-entities.md)  
   
  [Customize Entity Metadata](customize-entity-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1108,3 +1108,5 @@ See msdyn_wallsavedquery Entity [msdyn_wallsavedquery_wallsavedqueryusersettings
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_wallsavedqueryusersettings?text=msdyn_wallsavedqueryusersettings EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

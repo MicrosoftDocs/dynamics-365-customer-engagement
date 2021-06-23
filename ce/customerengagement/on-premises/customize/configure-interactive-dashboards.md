@@ -1,23 +1,21 @@
 ---
 title: Configure interactive experience dashboards in Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs
 description: Know how to configure interactive experience dashboards in Microsoft Dynamics 365 for Customer Engagement
-author: neeranelli
-ms.author: nenellim
-manager: sakudes
-ms.date: 09/30/2017
-ms.topic: article
-ms.service: 
-  - crm-online
-search.audienceType: 
-  - customizer
-
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub; Customer Service Hub
+ms.date: 09/30/2017
+ms.service: crm-online
+ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
+author: neeranelli
+ms.author: nenellim
+manager: sakudes
+search.audienceType: 
+  - customizer
 ---
 
-# Configure interactive experience dashboards
+# Configure interactive experience dashboards in Customer Service hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -210,11 +208,11 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
    - **Filter Entity**: The visual filters (interactive charts) and global filter attributes are based on this entity.  
       
-    - **Entity View**: The visual filters (interactive charts) are based on this view.  
+   - **Entity View**: The visual filters (interactive charts) are based on this view.  
       
-    - **Filter By**: The field that the time frame filter applies to.  
+   - **Filter By**: The field that the time frame filter applies to.  
       
-    - **Time Frame**: The default time frame filter value for the **Filter By** field.  
+   - **Time Frame**: The default time frame filter value for the **Filter By** field.  
       
  After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply click on the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
   
@@ -327,3 +325,6 @@ When the **Modify List Value** dialog box opens, choose the color as shown here:
 ### See also  
  [Create and edit dashboards](../customize/create-edit-dashboards.md)   
  [Create or edit a chart](../basics/create-edit-chart.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

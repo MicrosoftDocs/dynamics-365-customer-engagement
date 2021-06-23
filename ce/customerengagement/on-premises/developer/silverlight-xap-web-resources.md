@@ -3,8 +3,7 @@ title: "Silverlight (XAP) web resources (Developer Guide for Dynamics 365 Custom
 description: "Learn about creating and adding Silverlight 4.0 web resources to entity forms. You can display Silverlight 5.0 web resources within an HTML web resource using a hosting <object> element that is configured for that version."
 keywords: 
 ms.date: 10/31/2017
-ms.service: 
-  - crm-online
+ms.service: crm-online
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -17,7 +16,6 @@ ms.suite:
 ms.tgt_pltfrm: 
 search.audienceType: 
   - developer
-
 ---
 
 # Silverlight (XAP) web resources
@@ -49,9 +47,9 @@ search.audienceType:
   
 2. View your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource using an HTML web resource configured to provide context information.  
   
-   If your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource is designed to be viewed in an entity form, the form has an `Xrm.Page.context` object you can use to access contextual information. For more information, see [Client-side context (client-side reference)](https://msdn.microsoft.com/library/gg334511.aspx)  
+   If your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource is designed to be viewed in an entity form, the form has an `Xrm.Page.context` object you can use to access contextual information. For more information, see [Client-side context (client-side reference)](/previous-versions/dynamicscrm-2016/developers-guide/gg334511(v=crm.8))  
   
-   If you need your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application to appear outside the context of the form you must configure an HTML web resource to provide this context information by adding a reference to the [ClientGlobalContext.js.aspx](https://msdn.microsoft.com/library/gg328541.aspx#BKMK_ClientGlobalContext_js_aspx).md#BKMK_ClientGlobalContext_js_aspx) page. After this reference is added, your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application can access contextual information in the same way it can in an entity form. The following sample shows how to call the [getClientUrl](https://msdn.microsoft.com/library/gg334511.aspx#BKMK_getclienturl) function.
+   If you need your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application to appear outside the context of the form you must configure an HTML web resource to provide this context information by adding a reference to the [ClientGlobalContext.js.aspx](/previous-versions/dynamicscrm-2016/developers-guide/gg328541(v=crm.8)#BKMK_ClientGlobalContext_js_aspx).md#BKMK_ClientGlobalContext_js_aspx) page. After this reference is added, your [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] application can access contextual information in the same way it can in an entity form. The following sample shows how to call the [getClientUrl](/previous-versions/dynamicscrm-2016/developers-guide/gg334511(v=crm.8)#BKMK_getclienturl) function.
   
 ```csharp  
 private string clientUrl = "";  
@@ -154,3 +152,6 @@ string entityTypeName = App.Current.Host.InitParams["typename"];
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   
  [Using Image (JPG, PNG, GIF) Web Resources](image-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

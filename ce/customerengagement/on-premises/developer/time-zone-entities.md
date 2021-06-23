@@ -55,3 +55,6 @@ The *time zone* entities can be used when you write code that works in multiple 
  [timezonerule EntityType](entities/timezonerule.md)   
  [Sample: Retrieve Time Zone Information](sample-retrieve-time-zone-information.md)   
  [Transaction Currency (Currency) Entity](transaction-currency-currency-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

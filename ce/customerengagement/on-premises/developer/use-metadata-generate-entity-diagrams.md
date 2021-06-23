@@ -161,3 +161,6 @@ See the [Developer tools](developer-tools.md) article for community developed to
  [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Key to Entity Diagrams](key-entity-diagrams.md)   
  [Dynamics 365 Customer Engagement (on-premises) Entity Relationship Diagrams](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/GenerateEntityDiagram)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

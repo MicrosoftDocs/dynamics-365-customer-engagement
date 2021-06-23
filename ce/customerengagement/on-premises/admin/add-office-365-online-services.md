@@ -1,5 +1,6 @@
 ---
 title: "Add Office 365 Online services | MicrosoftDocs"
+description: Integrating Office 365 apps is a great way to enhance your customer relationship management"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -29,3 +30,6 @@ Integrating [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] with [
 > [!NOTE]
 > [!INCLUDE[cc_Office365PlanRequirement](../includes/cc-office365planrequirement.md)]  
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

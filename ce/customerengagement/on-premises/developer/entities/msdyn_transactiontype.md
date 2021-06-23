@@ -863,3 +863,5 @@ See uomschedule Entity [msdyn_uomschedule_msdyn_transactiontype_UnitGroup](uomsc
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_transactiontype?text=msdyn_transactiontype EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

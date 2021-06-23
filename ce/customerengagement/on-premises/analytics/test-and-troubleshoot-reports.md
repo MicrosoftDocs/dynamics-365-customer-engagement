@@ -70,3 +70,6 @@ After you have created a report, test it to see if it produces the results that 
  [Publish Reports](../analytics/publish-reports.md)   
  [Use Parameters in Reports](../analytics/use-parameters-in-reports.md)   
  [Create Custom Reports Using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,27 +1,53 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
-description: "Learn about the new features for developers and customizers in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
-ms.date: 04/10/2019
+description: "Learn about the new features available for developers and customizers in the latest version of Unified Service Desk."
+ms.date: 06/21/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+monikerRange: '>= dynamics-usd-4'
 ---
 
 # What's new in Unified Service Desk for developers and customizers
 
+::: moniker range="dynamics-usd-4.2"
+
+## What's new in Unified Service Desk 4.2
+
+This topic contains information about changes in [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] for developers and customizers available in this version.
+
+### Use Edge WebView2 Process to host web applications in Unified Service Desk
+
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it'll work in Unified Service Desk.
+
+The advantages of using the Edge WebView2 Process hosting method are:
+
+- Available on supported versions of the Windows operating system.
+- Highly reliable.
+- Easy to configure to host applications in Unified Service Desk.
+- Switch seamlessly from one browser to another for your entire organization.
+- Enhanced performance and memory optimization.
+
+More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](edge-webview2-process.md)
+
+::: moniker-end
+
 ::: moniker range="dynamics-usd-4.1"
 
-##  What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
+## What's new in Unified Service Desk 4.1.1.1433
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region.
+
+## What's new in [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)]
 
 ### Use Chrome Process hosting type to host web applications in Unified Service Desk
 
@@ -41,7 +67,7 @@ More information: [Use Chrome Process to host web applications in Unified Servic
 
 Bring your channel providers and integrate them with Unified Service Desk client application using Channel Integration Framework.
 
-If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](../customer-service/channel-integration-framework/channel-integration-framework.md), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** - for you to host the channel provider within Unified Service Desk client application.
 
@@ -80,8 +106,6 @@ A new hosted control type called **Unified Interface Page** is introduced, which
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of model-driven app windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
-## Preview features
-
 ### Stack notification in Unified Service Desk
 
 You can configure stack notifications in Unified Service Desk to display popup notification messages to your customer service agents that contains general information or some customer or process-related information that the agent can act on.
@@ -113,7 +137,7 @@ Developers and customizers will be able to use the following new features in the
 
 See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
 
-### Public Preview Feature: Support for Unified Interface Apps in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
+### Support for Unified Interface Apps in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
 With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from model-driven app, which is built based on the Unified Interface framework.
 
@@ -251,5 +275,7 @@ More information: [Configure JAWS screen reader support](configure-jaws-screen-r
 ::: moniker-end
 
 ### See also  
- [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)   
- 
+ [What’s New in Unified Service Desk for administrators](admin/whats-new-unified-service-desk-administrators.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

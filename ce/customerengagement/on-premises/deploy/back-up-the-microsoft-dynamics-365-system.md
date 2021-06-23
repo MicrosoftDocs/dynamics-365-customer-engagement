@@ -35,7 +35,7 @@ To recover from any scenario, you must back up all needed information and store 
   
 <a name="BKMK_SelectBackup"></a>   
 ## Selecting a backup technology and type  
- [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] includes Volume Shadow Copy Service (VSS) support that can be used in conjunction with System Center Data Protection Manager to centrally manage the backup and restore operations for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information, see [Microsoft Dynamics 365 VSS Writer](microsoft-dynamics-365-vss-writer-service.md) and [Data Protection Manager](https://technet.microsoft.com/library/hh758173.aspx).  
+ [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] includes Volume Shadow Copy Service (VSS) support that can be used in conjunction with System Center Data Protection Manager to centrally manage the backup and restore operations for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information, see [Microsoft Dynamics 365 VSS Writer](microsoft-dynamics-365-vss-writer-service.md) and [Data Protection Manager](/previous-versions/system-center/system-center-2012-R2/hh758173(v=sc.12)).  
   
  [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Backup in [!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)] supports external and internal hard disks, optical media drives, removable media drives, and [!INCLUDE[pn_Hyper-V](../includes/pn-hyper-v.md)] virtual machines for local storage. Additionally, [!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)] supports online backup by using [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Online Backup. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Azure Backup](https://azure.microsoft.com/services/backup/)  
   
@@ -56,7 +56,7 @@ To recover from any scenario, you must back up all needed information and store 
   
 <a name="BKMK_BackupAD"></a>   
 ## Backing up Active Directory  
- You can use [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Backup to protect your operating system state, volumes, files, and application data. For instructions about how to back up [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], see [Windows Server Backup Feature Overview](https://technet.microsoft.com/library/jj614621.aspx) and [Windows Server 2012: Planning for Active Directory Forest Recovery](https://www.microsoft.com/download/details.aspx?id=16506).  
+ You can use [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Backup to protect your operating system state, volumes, files, and application data. For instructions about how to back up [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], see [Windows Server Backup Feature Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj614621(v=ws.11)) and [Windows Server 2012: Planning for Active Directory Forest Recovery](https://www.microsoft.com/download/details.aspx?id=16506).  
   
  Although we recommend that you back up [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)], the only way to avoid data loss is to have multiple [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain controllers. Then, if a domain controller fails, the other domain controllers will have a complete copy of the directory. With a backup, you have data only as recent as your last backup.  -->
   
@@ -126,3 +126,6 @@ To recover from any scenario, you must back up all needed information and store 
  [Microsoft Dynamics 365 data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md) </br>
  [Exporting and importing customizations and solutions](exporting-and-importing-customizations-and-solutions.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

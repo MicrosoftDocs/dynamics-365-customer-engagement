@@ -1286,3 +1286,5 @@ See msdyn_timegroup Entity [msdyn_msdyn_timegroup_msdyn_timegroupdetail](msdyn_t
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_timegroupdetail?text=msdyn_timegroupdetail EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

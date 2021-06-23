@@ -50,3 +50,6 @@ To obtain support or help to use this program, contact the program publisher.
  [Sample: Export Ribbon Definitions](sample-export-ribbon-definitions.md) 
   
  [Client scripting using JavaScript](../clientapi/client-scripting.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

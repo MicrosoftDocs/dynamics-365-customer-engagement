@@ -1,5 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement website cannot be accessed | Microsoft Docs"
+description: Environment diagnostics warning that a website can't be accessed.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -34,3 +36,6 @@ ms.author: matp
   
  View the details for information about the errors that are listed, correct the problem, and then run Setup again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

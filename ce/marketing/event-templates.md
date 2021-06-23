@@ -64,3 +64,6 @@ To view the event templates available on your system:
 
 [Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -31,3 +31,6 @@ You should now be able to access [!INCLUDE[pn_microsoftcrm_server](../includes/p
 ## See Also  
  [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

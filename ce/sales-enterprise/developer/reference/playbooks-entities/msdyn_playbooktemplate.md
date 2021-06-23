@@ -1,12 +1,10 @@
 ---
-title: "msdyn_playbooktempate EntityType | MicrosoftDocs"
-description: "Entity reference for msdyn_playbooktemplate EntityType"
+title: "msdyn_playbooktempate EntityType - Sales Enterprise | MicrosoftDocs"
+description: "As developer, use this reference information to understand the msdyn_playbooktemplate EntityType and its properties."
 ms.date: 04/08/2019
-ms.service: 
-  - crm-online
 ms.topic: article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # msdyn_playbooktemplate EntityType
@@ -53,3 +51,6 @@ Properties represent fields of data stored in the entity. Some properties are re
 ### See also
 
 [Entity reference for playbooks](../playbook-entity-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

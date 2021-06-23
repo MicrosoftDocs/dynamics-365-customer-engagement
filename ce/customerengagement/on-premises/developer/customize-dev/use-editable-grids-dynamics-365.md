@@ -287,3 +287,6 @@ For a list of FAQs related to editable grids, see [Editable grids FAQs](../../cu
  [Make grids (lists) editable using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)<br/>
  [Use keyboard shortcuts in editable grids](../../basics/keyboard-shortcuts.md#editable-grids-views)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,5 +1,6 @@
 ---
 title: "System Settings dialog box - Outlook tab  | MicrosoftDocs"
+description: "Configure how Outlook interacts with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,12 +15,14 @@ ms.assetid: f9b49c8f-c434-41d3-aa4c-365a4498b4f7
 caps.latest.revision: 13
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # System Settings dialog box - Outlook tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the settings on this page to configure how [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] interacts with Dynamics 365 Customer Engagement (on-premises).  
 
@@ -55,3 +58,6 @@ Use the settings on this page to configure how [!INCLUDE[pn_MS_Outlook_Short](..
 |                                              **Set whether users see Microsoft Dynamics 365 for Customer Engagement apps message**                                              |                                                                                                                                                                                                                 |
 |         Users see “Get [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]” option displayed in the message bar          |                                 Default: Yes. If Yes, the **Get Dynamics 365 for Outlook** button is displayed in Customer Engagement (on-premises).                                  |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

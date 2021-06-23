@@ -96,3 +96,6 @@ You can import an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
  [Manage organizations](manage-organizations.md)   </br>
  [Troubleshoot organization import and upgrade issues](troubleshoot-organization-import-and-upgrade-issues.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

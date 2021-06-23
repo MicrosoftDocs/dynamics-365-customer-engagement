@@ -79,3 +79,6 @@ In the previous screenshot, the requirements Task 1.1, Task 1.2, and Task 1.3 we
 
 
 - If needed, resource scheduling optimization will schedule successive requirements around existing bookings in cases where an existing booking is locked and cannot be moved. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

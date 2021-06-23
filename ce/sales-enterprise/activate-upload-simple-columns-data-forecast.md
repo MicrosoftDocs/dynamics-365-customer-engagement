@@ -1,13 +1,12 @@
 ---
-title: "Activate and upload simple columns data for a forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Activate and upload simple columns data for a forecast in Dynamics 365 Sales."
+title: "Activate and upload data for a forecast - Sales Enterprise | MicrosoftDocs"
+description: "Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast."
 ms.date: 10/26/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-forecast configuration
   - D365-Entity-forecast definition
@@ -99,3 +98,6 @@ You're directed to the **Forecast configuration** home page, where your organiza
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

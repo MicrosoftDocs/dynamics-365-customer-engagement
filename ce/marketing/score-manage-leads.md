@@ -119,7 +119,7 @@ Set up the logic for a condition tile by making the following settings:
     > All expressions belonging to the same condition are combined using an AND operator, which means that all expressions must evaluate to TRUE for the overall condition to be true. To score for all qualifying occurrences (for example, to score for any email open, regardless of message or journey) remove all expressions using their close box (including the expression added by default).
 
     > [!IMPORTANT]
-    > [Calculated and rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/calculated-rollup-attributes) cannot be used in expressions.
+    > [Calculated and rollup fields](../customerengagement/on-premises/developer/calculated-rollup-attributes.md) cannot be used in expressions.
 
 There are two categories of conditions:
 
@@ -193,3 +193,6 @@ To find all the leads that a selected model has scored:
 [Manage customer information](manage-customer-information.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

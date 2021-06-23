@@ -46,3 +46,6 @@ There are several constraints related to the use of the <xref:Microsoft.Xrm.Sdk.
  <xref:Microsoft.Xrm.Sdk.OrganizationResponse>   
  <xref:Microsoft.Crm.Sdk.Messages>   
  [Import data](import-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

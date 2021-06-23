@@ -909,3 +909,5 @@ See bookableresourcecategory Entity [msdyn_bookableresourcecategory_msdyn_roleut
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_roleutilization?text=msdyn_roleutilization EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

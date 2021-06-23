@@ -193,3 +193,6 @@ For more information about viewing, deleting, and registering SPNs using SetSPN.
  [Microsoft Dynamics 365 security best practices](security-best-practices-for-microsoft-dynamics-365.md)   </br>
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

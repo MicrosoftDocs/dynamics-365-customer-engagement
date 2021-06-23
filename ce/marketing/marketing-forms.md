@@ -173,7 +173,7 @@ When a landing page type form is submitted with **Update contact/leads** set to 
     ![No update credit card example](media/marketing-forms-credit-card.png "No update credit card example")
 
 > [!NOTE]
-> Advanced users can create custom [Workflows](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to map form data collected through the **No update** option to custom entities. Learn more: [Map form data to entities with custom Workflows](entity-mapping.md)
+> Advanced users can create custom [Workflows](../customerengagement/on-premises/customize/workflow-processes.md) to map form data collected through the **No update** option to custom entities. Learn more: [Map form data to entities with custom Workflows](entity-mapping.md)
 
 <a name="form-content"></a>
 
@@ -251,3 +251,6 @@ Once your form is part of a live marketing page, it will start to collect inform
 [Design your digital content](design-digital-content.md)  
 [Design elements reference](content-blocks-reference.md)  
 [Create input fields for forms](marketing-fields.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,6 @@
 ---
 title: "Skype for Business and SKype integration with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+description: "Skype for Business and SKype integration with Dynamics 365 for Customer Engagement apps."
 ms.custom: 
 ms.date: 08/07/2020
 ms.reviewer: 
@@ -84,3 +85,6 @@ If your organization uses [!INCLUDE[pn_skype_for_business](../includes/pn-skype-
 ### See also  
  [Set up Dynamics 365 for Customer Engagement apps (online) to use Skype or Skype for Business](../admin/set-up-skype-or-skype-for-business.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

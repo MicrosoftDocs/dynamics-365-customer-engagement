@@ -40,3 +40,6 @@ ms.author: matp
   
 -   Verify that you can connect to the [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server by entering the [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] URL in a web browser. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

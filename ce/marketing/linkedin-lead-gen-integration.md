@@ -32,7 +32,7 @@ To enable leads to be synced from LinkedIn to Dynamics 365:
 
 - At least one LinkedIn member with access to LinkedIn Campaign Manager must [Authorize Dynamics 365 to sync data from LinkedIn Campaign Manager](#authorize-dynamics-365-to-sync-data-from-linkedin-campaign-manager), as described in the following section. In Dynamics 365, this user requires at least a **LinkedIn Lead Gen Forms Connector Salesperson** security role.
 
-For more information about assigning security roles to users, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)
+For more information about assigning security roles to users, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 
 <a name="authorize-sync"></a>
 
@@ -85,3 +85,6 @@ Go to **Marketing** > **LinkedIn Lead Gen** > **Sync Status**, to find
 [Configure LinkedIn Lead Gen](linkedin-configuration.md)  
 [Manage customer information](manage-customer-information.md)  
 [Market to Dynamics 365 Marketing segments on LinkedIn](linkedin-matched-audience.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

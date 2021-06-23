@@ -142,3 +142,6 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
  [Getting started with customization](../customize/getting-started-customization.md)   
  [Privileges you need for customization](../customize/privileges-required-customization.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

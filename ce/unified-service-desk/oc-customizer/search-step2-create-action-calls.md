@@ -1,12 +1,11 @@
 ---
 title: "Create search-related action calls for agents | MicrosoftDocs"
 description: "Learn how to set up the search-related action calls for agents and supervisors using Omnichannel for Customer Service."
+ms.date: 10/25/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/25/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -129,3 +128,6 @@ This topic describes how to create search-related action calls in Unified Servic
 - [Step 5: Configure window navigation rule for search](search-step5-configure-window-navigation-rule.md)
 - [Step 6: Create toolbar buttons for search](search-step6-create-toolbar-button.md)
 - [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](search-step7-add-hosted-control-action-calls-events-configurations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

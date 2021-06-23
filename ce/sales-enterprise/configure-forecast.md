@@ -1,20 +1,18 @@
 ---
-title: "Configure forecasting (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
+title: "Configure forecasting - Sales Enterprise | MicrosoftDocs"
+description: "Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid."
 ms.date: 05/25/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastconfiguration
   - D365-UI-*
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Configure forecasts in your organization
@@ -65,7 +63,7 @@ Also, you can observe the following changes in the **Sales Hub** app:
     > **Forecast category** options consists of **Won** and **Lost** opportunity statuses. If an opportunity is set as **Won** or **Lost**, the forecast category automatically changes status through the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow. <br>
     > To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select **All Processes** view. Search and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements. <br>
     > If you're using a custom option set instead of forecast category, you must create a workflow to automatically sync the opportunity status with your option set to ensure that the forecast is projecting accurate values. <br> 
-    >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes).
+    >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md).
 
     Currently, the **Forecast category** field in the **Opportunity** form can't be hidden through the **Visible by default** option in the form customization. If you don't want to use the **Forecast category** field in opportunity form, remove the field through form customization. To learn more, see [Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field).  
 
@@ -120,4 +118,7 @@ To configure a forecast in your organization, follow these steps:
 [Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)   
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
 [View forecasts](view-forecasts.md)   
-[About premium forecasting](https://docs.microsoft.com/dynamics365/ai/sales/configure-premium-forecasting)
+[About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

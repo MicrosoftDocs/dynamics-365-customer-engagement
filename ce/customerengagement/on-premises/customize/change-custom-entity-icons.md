@@ -78,3 +78,6 @@ When you create a custom entity, it is automatically assigned a default icon, an
 
 ### See also  
  [Create and edit entities](../customize/create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

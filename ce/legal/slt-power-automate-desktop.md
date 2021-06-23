@@ -74,7 +74,7 @@ limitation, you will not (and have no right to):
 export laws and regulations that apply to the software, which include
 restrictions on destinations, end users, and end use. For further information on
 export restrictions, [visit
-https://go.microsoft.com/fwlink/?LinkId=2147444](../../../../aaTest/2100500/visit%20https:/aka.ms/exporting).
+https://go.microsoft.com/fwlink/?LinkId=2147444](https://go.microsoft.com/fwlink/?LinkId=2147444).
 
 **5. SUPPORT SERVICES**. Microsoft is not obligated under this agreement to
 provide any support services for the software. Any support provided is “as is”,
@@ -165,3 +165,5 @@ each case to the extent permitted by applicable law.**
 possibility of the damages. The above limitation or exclusion may not apply to
 you because your state, province, or country may not allow the exclusion or
 limitation of incidental, consequential, or other damages.**
+
+

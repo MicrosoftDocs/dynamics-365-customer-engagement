@@ -75,3 +75,6 @@ Service level agreements (SLAs) in Dynamics 365 Customer Engagement (on-premises
 ### See also  
  [Service entities in Customer Engagement (on-premises)](service-entities.md)   
  [Enhanced service level agreements (SLAs)](../admin/enhanced-service-level-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

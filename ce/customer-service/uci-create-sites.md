@@ -1,14 +1,11 @@
 ---
 title: Use sites to manage your service locations | Microsoft Docs
 description: How to use sites to manage your service locations in Dynamics 365 Customer Service.
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,11 +13,15 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Use sites to manage your service locations
 
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
+
+You can also create a site in Dynamics 365 Customer Engagement (on-premises) 9.1 also. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#support-for-site-entity-in-unified-interface)
 
 ## Create a site
 
@@ -40,7 +41,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 ### See also  
 
-[UCI-based service scheduling overview](uci-scheduling-overview.md)
+[Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 
 [Create or edit a service](uci-create-edit-service.md)
 
@@ -51,3 +52,6 @@ Before you begin, make sure you have the System Administrator or System Customiz
 [Create resource groups](uci-create-resource-groups.md)
 
 [Navigate the service calendar](uci-navigate-service-calendar.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ This section contains the code examples that demonstrate how to use the queue en
   
 ## Related Sections  
  [Queue Entities](queue-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

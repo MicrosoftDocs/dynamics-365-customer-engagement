@@ -1,12 +1,9 @@
 ---
 title: "Embed chat widget in your website or portal | MicrosoftDocs"
-description: "Instructions to embed chat widget in your website or Power Apps portal."
+description: "This topic provides information about the steps to perform to embed a chat widget in your website or Power Apps portal."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 08/04/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Embed chat widget in your website or portal
@@ -21,7 +18,7 @@ To embed a chat widget in your web portal:
 2.	Go to **Channels** &gt; **Chat**.
 3.	Open the chat widget you want to embed in your website.
 4.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
-5.  Paste the chat widget snippet code in the HTML source of your website. 
+5.  Paste the chat widget snippet code in the HTML source of your website.
 
 ## Embed chat widget in your Power Apps portal
 
@@ -33,7 +30,7 @@ To embed a chat widget in Power Apps portals:
 4.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget](media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-5.	[Open the Portal Management app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+5.	[Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
 6.	Go to **Portal** > **Content Snippets**.
 7.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
@@ -83,10 +80,11 @@ After the chat widget is configured, it has the following capabilities:
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
-> For advanced configuration like embedding chat widget on specific web pages, see [Manage portal content](/portals/manage-portal-content.md). 
+> For advanced configuration like embedding chat widget on specific web pages, see [Create and manage portals](/powerapps/maker/portals/portal-templates). 
 
 ### See also
 
+[Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat)  
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Configure agent display name](agent-display-name.md)<br>
@@ -95,3 +93,6 @@ After the chat widget is configured, it has the following capabilities:
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
 [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

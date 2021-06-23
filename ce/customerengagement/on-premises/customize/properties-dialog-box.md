@@ -1,5 +1,7 @@
 ---
 title: "Properties dialog box | MicrosoftDocs"
+description: Understand record properties
+ms.service: crm-online
 ms.custom: 
 ms.date: 11/01/2016
 ms.reviewer: 
@@ -15,7 +17,7 @@ ms.assetid: 53829c2b-77ad-4bf1-a9ae-32d8a9660abc
 caps.latest.revision: 22
 author: matp
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - customizer
 
@@ -27,3 +29,6 @@ search.audienceType:
 Use the **Properties** dialog box to view the date the record was created and last modified and by whom, and the permissions that you have on the record.  
   
  If the current record is integrated with back office systems, information about the relationship is also displayed on this dialog box.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

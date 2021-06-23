@@ -27,3 +27,6 @@ This section contains lists of what you must have before you install [!INCLUDE[p
  [Planning Your Deployment of Microsoft Dynamics 365](planning-your-deployment-of-microsoft-dynamics-365.md)   
  [Security considerations for Microsoft Dynamics 365](security-considerations-for-microsoft-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

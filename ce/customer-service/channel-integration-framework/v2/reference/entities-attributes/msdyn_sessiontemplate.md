@@ -1,12 +1,11 @@
 ---
 title: "msdyn_sessiontemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sessiontemplate entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "jdaly"
 ms.date: 11/03/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "jdaly"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -1006,3 +1005,6 @@ See msdyn_appconfiguration Entity [msdyn_appconfiguration_sessiontemplate](msdyn
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -1,5 +1,6 @@
 ---
 title: "Forward mailbox vs. individual mailboxes  | MicrosoftDocs"
+description: "Use mailbox monitoring to poll one or more mailboxes for incoming email messages."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -47,3 +48,6 @@ By using a forward mailbox, you shift the administrative effort to the task of d
 3. Customer Engagement (on-premises) (by using server-side synchronization or Email Router) retrieves the message from the forward mailbox and creates the appropriate records.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

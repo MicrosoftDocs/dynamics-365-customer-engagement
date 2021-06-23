@@ -1,5 +1,7 @@
 ---
 title: "One or more user mappings are invalid | Microsoft Docs"
+description: Environment diagnostics warning that one or more user mappings aren't valid.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -39,3 +41,6 @@ ms.author: matp
   
 -   If you have cross-mapped users, we recommend that you map together the users that have the same log-on name. After the import is complete you can change the user log-on name in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

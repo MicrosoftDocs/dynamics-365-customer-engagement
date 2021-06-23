@@ -1,16 +1,14 @@
 ---
-title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+title: "Add assets to campaigns using in-app marketing - Sales Enterprise | MicrosoftDocs"
+description: "Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing. "
 ms.date: 10/01/2019
-ms.service: 
-  - "dynamics-365-sales"
+ms.topic: article
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 ms.custom: 
   - "dyn365-sales"
-ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-list
   - D365-Entity-campaign
@@ -18,12 +16,11 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)
 
-Add all items to your campaign that your need in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
+Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.  
 
 1. In the site map, select **Marketing Lists**.
 
@@ -56,3 +53,6 @@ Add all items to your campaign that your need in this marketing context. Usually
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
  [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

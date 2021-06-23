@@ -46,3 +46,6 @@ Use the calendar to view appointments and service activities you need to partici
 >  The calendar shows canceled and completed appointments and service activities. To remove an appointment or service activity from the calendar, delete the record.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

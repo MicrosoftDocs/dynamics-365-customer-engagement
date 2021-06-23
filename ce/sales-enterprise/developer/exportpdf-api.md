@@ -1,12 +1,10 @@
 ---
 title: "exportPdf Action | MicrosoftDocs"
-description: ""
+description: "Use this topic to understand the parameters, and request and response samples for generating a PDF using the exportPDF action."
 ms.date: 09/08/2020
-ms.service: 
-  - crm-online
 ms.topic: article
-author: susikka
-ms.author: susikka
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # exportPdf Action
@@ -54,3 +52,5 @@ This method returns a byte array of contents of the PDF document file which is e
 ## See also
 
 [Developer guide for Dynamics 365 Sales](developer-guide.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

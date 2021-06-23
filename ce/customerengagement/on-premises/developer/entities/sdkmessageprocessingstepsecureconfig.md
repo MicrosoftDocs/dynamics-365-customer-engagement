@@ -389,3 +389,5 @@ See systemuser Entity [createdby_sdkmessageprocessingstepsecureconfig](systemuse
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.sdkmessageprocessingstepsecureconfig?text=sdkmessageprocessingstepsecureconfig EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

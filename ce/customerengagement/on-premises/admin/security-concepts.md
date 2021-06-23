@@ -1,5 +1,6 @@
 ---
 title: "Security concepts  | MicrosoftDocs"
+description: "Protect the data integrity and privacy in a Customer Engagement (on-premises) organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -97,3 +98,6 @@ You combine business units, role-based security, record-based security, and fiel
  [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

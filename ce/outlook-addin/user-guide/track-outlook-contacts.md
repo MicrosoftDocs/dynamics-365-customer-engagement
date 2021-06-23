@@ -45,7 +45,7 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
   
    - To track the contact and link it to a parent (account) record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, choose **Set Parent**, and then search for the parent record in the **Look Up Record** dialog box. After you find the record you want, choose **Add**.  
   
-      When you choose the **Track** button or the **Set Parent** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the contact record. This pane shows that the contact is tracked and provides links to related records. If you choose the **Set Parent** button, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the parent record. [Tell me more about how tracking works](https://go.microsoft.com/fwlink/p/?LinkID=510100)  
+      When you choose the **Track** button or the **Set Parent** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the contact record. This pane shows that the contact is tracked and provides links to related records. If you choose the **Set Parent** button, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the parent record. [Tell me more about how tracking works](../../customerengagement/on-premises/basics/basics-guide.md)  
   
       In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the **Tracked in Dynamics 365 apps** icon ![trackincrm](../media/trackincrm.gif "trackincrm") is displayed next to any tracked contacts.  
   
@@ -84,3 +84,6 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
  [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

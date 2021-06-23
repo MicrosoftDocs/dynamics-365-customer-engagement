@@ -39,3 +39,6 @@ This sample code is for the Dynamics 365 Customer Engagement (on-premises) platf
   
 ### See also  
  [Contract Entities](contract-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

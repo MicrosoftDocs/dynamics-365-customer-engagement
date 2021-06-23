@@ -42,3 +42,5 @@ Each time a customer journey skips sending an expired message, the event is note
 - The message is counted as sent, but blocked (because of the expiration date).
 - In accumulated KPIs and charts, expired messages are counted as blocked.
 - In detailed insights, expired messages are listed under **Blocked** > **Other reasons**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,6 @@
 ---
 title: "Permissions required for document management tasks | MicrosoftDocs"
+description: " Perform each document management with SharePoint."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -42,3 +43,6 @@ The following table shows the default security roles or other permissions that a
  [Manage Your Documents](../admin/manage-documents-using-sharepoint.md) <br /> 
  [Validate and fix SharePoint site URLs](troubleshoot-set-up-sharepoint-online.md#validate-and-fix-sharepoint-site-urls)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

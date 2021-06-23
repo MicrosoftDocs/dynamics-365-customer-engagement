@@ -63,22 +63,22 @@ The following requirements and recommendations apply to new and existing install
     > [!NOTE]
     > [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] sets the collation order at the database level. This setting might differ from that set at the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] level.  
   
--   Review all [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] installation options and be prepared to make the needed selections when you run Setup. For more information, see [SQL Server Installation](https://docs.microsoft.com/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2017).  
+-   Review all [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] installation options and be prepared to make the needed selections when you run Setup. For more information, see [SQL Server Installation](/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2017).  
   
--   If you plan to install [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in a location other than the default file location, see [File Locations for Default and Named Instances of SQL Server](https://docs.microsoft.com/sql/sql-server/install/file-locations-for-default-and-named-instances-of-sql-server?view=sql-server-2017).  
+-   If you plan to install [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in a location other than the default file location, see [File Locations for Default and Named Instances of SQL Server](/sql/sql-server/install/file-locations-for-default-and-named-instances-of-sql-server?view=sql-server-2017).  
   
      You should also consider where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases are located on the server, and the hard-disk configuration that will support them.  
   
     > [!NOTE]
     >  To achieve the best combination of disk fault tolerance and performance, consider the many specifications for redundant array of independent disks (RAID) available from hardware vendors. Format the disks where the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database files reside for the fault-tolerance requirements of the application and performance parameters for the I/O activity occurring on that partition.  
   
--   We recommend that common language runtime (CLR) be enabled on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that hosts the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database. CLR can show a significant improvement in performance for some features such as time zone conversions when you run dashboards, charts, advanced finds, and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CLR Integration - Enabling](https://docs.microsoft.com/sql/relational-databases/clr-integration/clr-integration-enabling?view=sql-server-2017)  
+-   We recommend that common language runtime (CLR) be enabled on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that hosts the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database. CLR can show a significant improvement in performance for some features such as time zone conversions when you run dashboards, charts, advanced finds, and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CLR Integration - Enabling](/sql/relational-databases/clr-integration/clr-integration-enabling?view=sql-server-2017)  
 <!--  
 <a name="sql2016_perf"></a>   
 ## Improve performance when you use  Microsoft Dynamics 365 Customer Engagement (on-premises) with SQL Server 2016  
  The following settings can help improve [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application performance and should be configured on the SQL Server 2016 instance where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization databases are serviced.  
   
--   Make sure you are running SQL Server 2016 with Cumulative Update 2 (CU2). [Server & Tools Blogs: Cumulative Update #2 for SQL Server 2016 RTM](https://blogs.msdn.microsoft.com/sqlreleaseservices/cumulative-update-2-for-sql-server-2016-rtm/)  
+-   Make sure you are running SQL Server 2016 with Cumulative Update 2 (CU2). [Server & Tools Blogs: Cumulative Update #2 for SQL Server 2016 RTM](/archive/blogs/sqlreleaseservices/cumulative-update-2-for-sql-server-2016-rtm)  
   
 -   Configure the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] instance where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database is maintained with trace flag 1224. This setting disables lock escalation based on the number of locks and helps reduce CPU usage on SQL Server 2016.  
   
@@ -88,11 +88,11 @@ The following requirements and recommendations apply to new and existing install
     DBCC TRACESTATUS (1224)  
     ```  
   
-     To set trace flag 1224 as a startup option, add the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database engine startup option `-T1224`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Database Engine Service Startup Options](https://docs.microsoft.com/sql/database-engine/configure-windows/database-engine-service-startup-options?view=sql-server-2017)  
+     To set trace flag 1224 as a startup option, add the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database engine startup option `-T1224`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Database Engine Service Startup Options](/sql/database-engine/configure-windows/database-engine-service-startup-options?view=sql-server-2017)  
   
--   If not already set, configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization databases to use compatibility level **110**, which is the compatibility level for [!INCLUDE[pn_SQL_Server_2012](../includes/pn-sql-server-2012.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View or Change the Compatibility Level of a Database](https://docs.microsoft.com/sql/relational-databases/databases/view-or-change-the-compatibility-level-of-a-database?view=sql-server-2017)  
+-   If not already set, configure [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization databases to use compatibility level **110**, which is the compatibility level for [!INCLUDE[pn_SQL_Server_2012](../includes/pn-sql-server-2012.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View or Change the Compatibility Level of a Database](/sql/relational-databases/databases/view-or-change-the-compatibility-level-of-a-database?view=sql-server-2017)  
   
--   Configure the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database to use indirect checkpoints and a target recovery time  of 60 seconds.  By default, new databases created with SQL Server 2016 use indirect checkpoints and have a default target recover time of 60 seconds. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change the Target Recovery Time of a Database (SQL Server)](https://technet.microsoft.com/library/hh403416.aspx)  
+-   Configure the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database to use indirect checkpoints and a target recovery time  of 60 seconds.  By default, new databases created with SQL Server 2016 use indirect checkpoints and have a default target recover time of 60 seconds. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change the Target Recovery Time of a Database (SQL Server)](/sql/relational-databases/logs/change-the-target-recovery-time-of-a-database-sql-server)  
   
      To determine the existing target recovery time, run the following T-SQL statement, where *\<dbname>* is the name of the organization database. A return value of 0 indicates a target recover time has not been set.  
   
@@ -106,9 +106,12 @@ The following requirements and recommendations apply to new and existing install
     ALTER DATABASE <dbname> SET TARGET_RECOVERY_TIME = 60 seconds;  
     ```  
   
- For information about SQL Server 2016 performance benefits, see [SQL Server Customer Advisory Team blog post: How SQL Server 2016 Cumulative Update 2 (CU2) can improve performance of highly concurrent workloads](https://blogs.msdn.microsoft.com/sqlcat/2016/09/29/sqlsweet16-episode-8-how-sql-server-2016-cumulative-update-2-cu2-can-improve-performance-of-highly-concurrent-workloads/).  
+ For information about SQL Server 2016 performance benefits, see [SQL Server Customer Advisory Team blog post: How SQL Server 2016 Cumulative Update 2 (CU2) can improve performance of highly concurrent workloads](/archive/blogs/sqlcat/sqlsweet16-episode-8-how-sql-server-2016-cumulative-update-2-cu2-can-improve-performance-of-highly-concurrent-workloads).  
 -->
   
 ## See also  
 [Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

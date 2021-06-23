@@ -52,3 +52,6 @@ The calendar entity stores data for customer service calendars and holiday sched
  [Service Entity](service-entity.md)  
   
  [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

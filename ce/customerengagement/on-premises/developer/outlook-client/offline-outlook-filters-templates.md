@@ -62,3 +62,6 @@ Data filters for [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full
  [Sample: Retrieve Outlook Filters](sample-create-retrieve-outlook-filters.md)    
  <xref:Microsoft.Crm.Sdk.Messages.InstantiateFiltersRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.ResetUserFiltersRequest>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

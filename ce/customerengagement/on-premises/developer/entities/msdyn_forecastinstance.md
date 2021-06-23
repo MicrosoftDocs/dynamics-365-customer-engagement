@@ -1479,3 +1479,5 @@ See goal Entity [msdyn_goal_msdyn_forecastinstance](goal.md#BKMK_msdyn_goal_msdy
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_forecastinstance?text=msdyn_forecastinstance EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

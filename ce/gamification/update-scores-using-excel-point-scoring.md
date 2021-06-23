@@ -20,6 +20,8 @@ search.app:
 ---
 # Update game scores by using Excel point scoring capabilities in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 If you plan to run a game that uses one or more KPIs that can't be tracked by using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can update the scores for those KPIs by using an [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template.  
   
 > [!IMPORTANT]
@@ -44,3 +46,6 @@ If you plan to run a game that uses one or more KPIs that can't be tracked by us
 [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md)  
 [Overview for commissioners and game managers in Gamification](for-commissioners-game-managers.md)  
 [Configure KPIs for Gamification](configure-kpis.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

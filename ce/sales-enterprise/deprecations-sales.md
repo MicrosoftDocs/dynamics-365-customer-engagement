@@ -1,14 +1,11 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
 ms.date: 12/18/2020
 ms.topic: article
-ms.service: dynamics-365-sales
-ms.custom: 
-  - dyn365-sales
+author: lavanyakr01
+ms.author: lavanyakr
+manager: annbe
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-sales
 ---
 
 # Deprecations in Dynamics 365 Sales
@@ -42,3 +41,6 @@ Effective June 2, 2020, the Dynamics 365 Sales bot, a feature that enables users
 
 It is our goal to deliver a powerful bot experience that allows users to retrieve and manage information. Based on usage data and feedback from our customers, we'll be working on a powerful, extensible set of capabilities and features that will allow you to intuitively access and interact with sales information—among other entities—through a bot interface. We'll keep you updated on timing for when this will be available.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

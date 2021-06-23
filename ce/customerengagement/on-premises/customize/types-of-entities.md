@@ -1,5 +1,5 @@
 ---
-title: "Types of entities | MicrosoftDocs"
+title: "Types of entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Understand the different types of entities"
 ms.custom: 
 ms.date: 01/10/2019
@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Types of entities
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of tables](/powerapps/maker/data-platform/types-of-entities)
 
 <a name="BKMK_TypesOfEntities"></a>   
 
@@ -76,3 +76,6 @@ search.audienceType:
 
 ### See also
 [Create or edit entities](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

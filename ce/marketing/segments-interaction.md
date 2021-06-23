@@ -41,7 +41,7 @@ Legend:
 5. **Additional restrictions**: These settings work just like they do for demographic and firmographic segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on email messages sent by a particular customer journey (as shown here). As with [demographic and firmographic segments](segments-profile.md), you can add as many clauses and clause groups as you need here.
 
 > [!NOTE]
-> Unlike profile segments, behavioral segments allow for only a single query block, which means that the **Flow view** tab isn't available, and your entire query must contain just a single block. However, you can combine behavioral segments with other interaction or profile segments by [creating a compound segment](segments-compound.md).
+> Unlike profile segments, behavioral segments allow for only a single query block, which means that the **Flow view** tab isn't available, and your entire query must contain just a single block. However, you can combine behavioral segments with other interaction or profile segments by [creating a compound segment](./segmentation-lists-subscriptions.md).
 
 ## View and edit the raw query
 
@@ -64,3 +64,5 @@ Often, you'll want to find interactions associated with a specific form, custome
 
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Generate dynamic segments from customer journey results](generate-segment-from-journey.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

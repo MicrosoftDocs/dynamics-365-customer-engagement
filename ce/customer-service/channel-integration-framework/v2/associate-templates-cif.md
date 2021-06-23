@@ -1,12 +1,9 @@
 ---
-title: "Associate templates with scenarios in Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: "Learn about associating templates with scenarios in Dynamics 365 Channel Integration Framework version 2.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+title: "Associate templates with scenarios  | MicrosoftDocs"
+description: "Learn how to associate templates with scenarios in Dynamics 365 Channel Integration Framework 2.0."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Associate templates with scenarios
@@ -25,3 +22,6 @@ To associate the templates in your scenarios, you must use the `templateName` pa
 [Manage notification templates](notification-templates-cif.md)
 
 [Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

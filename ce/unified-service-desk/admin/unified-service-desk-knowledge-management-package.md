@@ -1,20 +1,19 @@
 ---
-title: "Unified Service Desk  – Knowledge Management package | MicrosoftDocs"
-description: "Overview of the Knowledge Management sample application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Unified Service Desk&mdash;Knowledge Management package | MicrosoftDocs"
+description: "Learn about the Knowledge Management sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Knowledge Management sample application package 
 
@@ -29,7 +28,7 @@ search.app:
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
 > 
->  This sample application is useful only if you have set up knowledge management for Dataverse. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](https://technet.microsoft.com/library/dn946909.aspx)  
+>  This sample application is useful only if you have set up knowledge management for Dataverse. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up knowledge management with a knowledge base](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn946909(v=crm.8))  
   
  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Knowledge Management package, the following components are installed:  
   
@@ -133,3 +132,6 @@ search.app:
   
 ## See also  
  [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Get-CrmSetting -SettingType MonitoringSettings
  [Dynamics 365 PowerShell Reference](/powershell/dynamics365/customer-engagement/overview) </br>  
  [Operating Dynamics 365](operating-microsoft-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

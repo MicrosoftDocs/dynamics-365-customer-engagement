@@ -76,7 +76,10 @@ To enable the preview features:
 
 ## Preview support and feedback
 
-If you wish to report an issue with a preview feature, please [open a support ticket](https://docs.microsoft.com/power-platform/admin/get-help-support) and include the following tags in the **Issue title** of your ticket:
+If you wish to report an issue with a preview feature, please [open a support ticket](/power-platform/admin/get-help-support) and include the following tags in the **Issue title** of your ticket:
 
 - For marketing-contacts monitoring, please include: [PREVIEW][MCM]
 - For social posting, please include: [PREVIEW][SOCIAL]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,13 +1,13 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
+ms.date: 10/05/2020
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
+
 
 # Learn the basics of the Customer Service Hub
 
@@ -114,7 +114,7 @@ When you're viewing a record:
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
 
-More information: [Create and manage queues](https://docs.microsoft.com/dynamics365/customer-service/set-up-queues-manage-activities-cases) and [Create and manage a case](https://docs.microsoft.com/dynamics365/customer-service/user-guide-customer-service#create-and-manage-a-case).
+More information: [Create and manage queues](./set-up-queues-manage-activities-cases.md) and [Create and manage a case](./user-guide-customer-service.md#create-and-manage-a-case).
 
 ## Quickly create new records
   
@@ -204,7 +204,7 @@ To create a new site, you need to go to **Advanced find** ![Advanced find](media
 
 ### Related section
 
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see [Reference Panel in model-driven apps ](https://docs.microsoft.com/powerapps/user/navigation#reference-panel).
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps. For information, see [Reference Panel in model-driven apps ](/powerapps/user/navigation#reference-panel).
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you're working on. 
   
@@ -287,6 +287,8 @@ In the Customer Service Hub site map, select **Service** > **Activities**. The *
 
 While working on an email, you can quickly help customers by searching and selecting a relevant knowledge article to include in your email. You can insert the article and/or share a link to it in the body of your message.
 
+You can insert a knowledge article in an email in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#insert-knowledge-articles-into-an-email)
+
 1. From an email form where you are drafting, place your cursor where you want to place the knowledge article or its link, and then select **Insert Knowledge Article**.
 
    The **Select knowledge article to insert** screen is displayed. 
@@ -349,3 +351,6 @@ To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find
 
 [Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)  
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

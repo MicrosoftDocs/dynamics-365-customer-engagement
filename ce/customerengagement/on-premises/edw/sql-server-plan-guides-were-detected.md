@@ -20,5 +20,8 @@ ms.author: matp
   
 ## Solution
   
- Remove [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] plan guides from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database stored procedures and functions. More information: [Delete a Plan Guide](https://docs.microsoft.com/sql/relational-databases/performance/delete-a-plan-guide?view=sql-server-2017)
+ Remove [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] plan guides from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database stored procedures and functions. More information: [Delete a Plan Guide](/sql/relational-databases/performance/delete-a-plan-guide?view=sql-server-2017)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,12 @@
 ---
-title: Work with form tabs  | MicrosoftDocs
+title: Work with form tabs with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Understand the tab properties for main forms
 Keywords: Tab properties; Dynamics 365 for Customer Engagement; Main forms
-author: matp
+author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
-ms.author: Mattp123
+ms.author: matp
 manager: kvivek
 ms.date: 01/13/2020
 ms.service: crm-online
@@ -14,9 +14,10 @@ ms.topic: article
 ms.assetid: e0790865-c5a4-4e86-bce2-584af2b8ed93
 search.audienceType: 
   - customizer
-
 ---
 # Work with form tabs
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add, configure, move, or delete tabs on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-tabs-on-form)
 
  In the body of a form, tabs provide horizontal separation. Tabs have a label that can be displayed. If the label is displayed, tabs can be expanded or collapsed to show or hide their content by choosing the label.  
 
@@ -25,7 +26,7 @@ search.audienceType:
 ## Tab properties
 You can access **Tab properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the tabs on the form canvas to view tab properties.
 
-![tab-properties](media/tab-properties.png)
+![Tab properties dialog box](media/tab-properties.png)
 
  The following table shows properties that may be set for tabs on the form:
 
@@ -59,3 +60,6 @@ The link below points to an article that shows you how to add a tab to display S
 ### See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

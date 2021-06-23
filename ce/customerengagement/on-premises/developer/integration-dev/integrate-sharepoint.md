@@ -48,3 +48,6 @@ search.audienceType:
 
 [Extend Microsoft Dynamics 365 Customer Engagement (on-premises)](../extend-dynamics-365-server.md)   
 [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with OneNote](integrate-onenote.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

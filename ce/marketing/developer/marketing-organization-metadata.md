@@ -27,3 +27,6 @@ This section provides information about the solutions and entities in a Dynamics
 [Dynamics 365 Marketing solutions](marketing-solutions.md)
 
 [Dynamics 365 Marketing entity reference](marketing-entity-reference.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

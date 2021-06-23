@@ -1,12 +1,11 @@
 ---
 title: "msdyn_entityconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_entityconfig entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -681,9 +680,12 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig"></a> msdyn_msdyn_liveworkstream_msdyn_entityconfig
 
-See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_entityconfig) One-To-Many relationship.
+See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_entityconfig](msdyn_liveworkstream.md) One-To-Many relationship.
 
 ### See also
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

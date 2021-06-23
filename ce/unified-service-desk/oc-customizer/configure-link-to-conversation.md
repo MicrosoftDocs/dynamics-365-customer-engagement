@@ -1,12 +1,11 @@
 ---
 title: "Configure link to conversation button | MicrosoftDocs"
 description: "Learn how to configure link to conversation button for agents using Omnichannel for Customer Service in Unified Service Desk."
+ms.date: 08/29/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/29/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -137,3 +136,6 @@ For this scenario, you must create the following:
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)
 - [Configure session name information using session lines](configure-session-name-information.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: "Edit an entity | MicrosoftDocs"
+title: "Edit an entity with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn the different ways that an entity can be edited"
 ms.custom: 
 ms.date: 11/03/2018
@@ -97,3 +97,6 @@ You can edit any custom entity that you create. System entities or managed custo
 
 ### See also
 [Create or edit an entity (overview)](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

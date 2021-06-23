@@ -21,6 +21,8 @@ search.audienceType:
 ---
 # Create custom business logic through processes
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Apply custom business logic with business rules and flows in model-driven apps](/powerapps/maker/model-driven-apps/guide-staff-through-common-tasks-processes)
+
 Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 Customer Engagement (on-premises). Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
 
 Dynamics 365 Customer Engagement (on-premises) includes four types of processes, each designed for a different purpose:  
@@ -135,3 +137,6 @@ For more information for developers, see the Developer Guide topic [Automate you
  [Create a mobile task flow](../customize/create-mobile-task-flow.md)   
  [Workflow processes](../customize/workflow-processes.md)   
  [Actions](../customize/actions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

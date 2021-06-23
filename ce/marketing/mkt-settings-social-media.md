@@ -1,7 +1,7 @@
 ---
 title: "Configure and authenticate social media accounts  (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Configure and authenticate each social media account where you'd like to author, schedule, and post updates in Dynamics 365 Marketing."
-ms.date: 10/04/2019
+ms.date: 03/23/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,7 +24,7 @@ Social posting enables Dynamics 365 Marketing users to author, schedule, and pub
 
 To add and authenticate a social media account:
 
-1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**. A list view opens showing your existing social media accounts (if any).
+1. Go to **Settings** > **Customer engagement** > **Social media accounts**. A list view opens showing your existing social media accounts (if any).
 1. Select **Create configuration** on the command bar.
 1. A quick-create flyout slides in from the side of the screen. Make the following settings:
     - **Name**: Enter a name that you and others will easily recognize. Choose a name that gives a good idea what type of channel it is what type of content should be posted there, such as "Contoso Electronics LinkedIn."
@@ -37,7 +37,7 @@ To add and authenticate a social media account:
 
 If your sign-in times out, or if the password changes on one of your accounts, you can update an account by doing the following:
 
-1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**.
+1. Go to **Settings** > **Customer engagement** > **Social media accounts**.
 1. Select a social media configuration from the list.
 1. Select **Reauthorize** on the command bar.
 1. Follow the instructions on your screen to update your sign-in details.
@@ -46,5 +46,8 @@ You can delete a social configuration at any time to prevent Dynamics 365 Market
 
 ### See also
 
-[Open the advanced settings](open-advanced-settings.md)  
+[Open the administration settings](open-settings.md)  
 [Schedule and post messages on social media](social-posting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

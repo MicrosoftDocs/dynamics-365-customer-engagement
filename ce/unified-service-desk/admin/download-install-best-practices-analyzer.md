@@ -1,12 +1,11 @@
 ---
-title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
-description: "Learn about downloading and installing the Best Practices Analyzer."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
-ms.date: 04/05/2019
+title: "Download and install the Best Practices Analyzer | MicrosoftDocs"
+description: "Use this topic to get the download link to install the Best Practices Analyzer for Unified Service Desk."
+ms.date: 06/21/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
@@ -14,13 +13,21 @@ search.app:
   - D365USD
 ---
 
-# Download and Install Best Practices Analyzer
+# Download and install the Best Practices Analyzer
 
 ## [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support matrix and download location
 
 The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-::: moniker range=">=dynamics-usd-4.1"  
+::: moniker range="=dynamics-usd-4.2"  
+
+|Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
+|---------|-------------|------------------------------------------------------------------------------|------------------|
+|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Web client sample application | [!INCLUDE[pn-unified-service-desk-4-2](../../includes/pn-unified-service-desk-4-2.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=2159819) |
+
+::: moniker-end
+
+::: moniker range="=dynamics-usd-4.1"  
 
 |Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
 |---------|-------------|------------------------------------------------------------------------------|------------------|
@@ -105,3 +112,6 @@ After deploying the sample package using Package Deployer, perform the walkthrou
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

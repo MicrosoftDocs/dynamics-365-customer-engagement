@@ -1,5 +1,6 @@
 ---
 title: "Behavior and format of the Date and Time field in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn about the format options and behavior when you use the Date and Time data type
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -132,3 +133,6 @@ In Dynamics 365 Customer Engagement (on-premises), the Date and Time data type i
  [Create and edit fields](../customize/create-edit-fields.md)   
  [Define calculated fields](../customize/define-calculated-fields.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

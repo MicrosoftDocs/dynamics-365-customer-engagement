@@ -68,3 +68,6 @@ search.audienceType:
  [Integrate Microsoft Dynamics 365 Customer Engagement with SharePoint](../integration-dev/integrate-sharepoint.md)  
   
  [Integrate Microsoft Dynamics 365 Customer Engagement with OneNote](../integration-dev/integrate-onenote.md) 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

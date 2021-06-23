@@ -44,3 +44,6 @@ Here are some notes and best practices for working with templates:
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Create a new email and design its content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

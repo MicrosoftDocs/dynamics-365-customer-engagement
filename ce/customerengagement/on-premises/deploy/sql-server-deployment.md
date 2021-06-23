@@ -36,9 +36,9 @@ If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-serv
   
 -   **Autogrowth**. By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database files are created to have an autogrowth setting of 1 MB. If you perform intensive database transactions, such as large data imports, consider increasing the autogrowth value to improve performance. For information about how to change the autogrowth setting for a database, see the [!INCLUDE[pn_SQL_Server_Management_Studio](../includes/pn-sql-server-management-studio.md)] Help.  
   
--   **Max server memory.** We recommend that, if you run [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] on a computer that is also running other applications, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max server memory be set to no more than one half of the installed RAM. By default, max server memory is set to 2147483647 megabytes in recent versions of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], which has demonstrated resource issues with [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] during intensive use of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Server Memory Options](https://msdn.microsoft.com/library/ms178067.aspx)  
+-   **Max server memory.** We recommend that, if you run [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] on a computer that is also running other applications, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max server memory be set to no more than one half of the installed RAM. By default, max server memory is set to 2147483647 megabytes in recent versions of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], which has demonstrated resource issues with [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] during intensive use of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Server Memory Options](/sql/database-engine/configure-windows/server-memory-server-configuration-options)  
   
--   **Max degree of parallelism.** We recommend if you experience poor [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] performance, which can occur due to complex index statements, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max degree of parallelism be set to 1 to help improve overall application performance on multiprocessor systems. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Configure max degree of parallelism Option](https://msdn.microsoft.com/library/ms189094.aspx)  
+-   **Max degree of parallelism.** We recommend if you experience poor [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] performance, which can occur due to complex index statements, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max degree of parallelism be set to 1 to help improve overall application performance on multiprocessor systems. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Configure max degree of parallelism Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option)  
   
 -   **RCSI.** Running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that uses a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] configured for read committed snapshot isolation (RCSI) is supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
   
@@ -137,10 +137,13 @@ If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-serv
   
 <a name="OLTP"></a>   
 ## SQL Server In-Memory OLTP  
- Currently, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database tables do not support [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in-memory online transaction processing (OLTP). For more information about OLTP, see [In-Memory OLTP (In-Memory Optimization)](https://technet.microsoft.com/library/dn133186.aspx).  
+ Currently, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database tables do not support [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in-memory online transaction processing (OLTP). For more information about OLTP, see [In-Memory OLTP (In-Memory Optimization)](/sql/relational-databases/in-memory-oltp/in-memory-oltp-in-memory-optimization).  
   
 ## See Also  
  [SQL Server installation and configuration](sql-server-installation-and-configuration.md) </br>
  [SQL Server requirements and recommendations for Microsoft Dynamics 365](sql-server-requirements-recommendations.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

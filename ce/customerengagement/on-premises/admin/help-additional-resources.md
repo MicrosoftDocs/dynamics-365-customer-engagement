@@ -1,5 +1,6 @@
 ---
 title: "Help and additional resources  | MicrosoftDocs"
+description: "Information about covering planning, operating, and using Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -30,3 +31,6 @@ There are several resources available to you covering planning, operating, and u
   
 -   Search the [Microsoft Knowledge Base](https://go.microsoft.com/fwlink/p/?LinkId=203050)  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

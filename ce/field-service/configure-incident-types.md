@@ -3,7 +3,7 @@ title: "Configure incident types in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn about configuring incident types in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 04/01/2021
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.topic: article
@@ -61,6 +61,29 @@ Other important incident type features include:
 The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. For example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, create this service task once and associate it to the relevant incident types. There will then be one list of unique service tasks that are added to incident types, which create **Incident Type Service Task** records. The same is true for products, services, and characteristics.
 
 ## Create an incident type
+
+### From the work order form and work order list view
+
+1. As a Field Service administrator, system administrator, or any user with creation privileges for incident types from the work order form or list view, select **Create Incident Type** in the ribbon.
+
+2. In the dialog that pops up, capture **Incident Type Name**.
+  
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the create incident type form.](./media/work-order-create-from-incident-type.png)
+
+3. **Description** is initially populated from the work order's **Work Order Summary** field. Update as needed.
+
+4. **Work Order Type** is initially copied from the work order. Update as needed.
+
+5. The **Copy Tasks**, **Copy Products**, **Copy Services**, **Copy Characteristics**, and **Copy Articles** toggles will automatically be enabled. If there are any records you do not want copied from the work order, flip the toggle.
+
+6. The **Estimated Duration** value will either be:
+- Read-only, if the duration value is calculated from the related tasks.
+- Editable, if there are no tasks driving a duration value.
+
+When ready, select **Create Incident Type** and the system will create the incident type modeled after the source work order.
+
+### From the incident type form and record list
 
 To create an incident type, go to **Field Service** > **Settings** > **Incident Types** > **+New**.
 
@@ -140,7 +163,7 @@ After adding multiple service tasks, they will display in the incident service t
 Next, you can associate characteristics (skills) to incident types in order to define the skill set needed to perform the incident type. Characteristics are also added to resources (field technicians), which helps the system match work order incidents with the best resources who can do the job. When this incident is added to a work order and scheduled, the schedule assistant and resource scheduling optimization will consider the associated characteristics.
 
 > [!Note]
-> If you want to use **Requirement Groups** with **Incident Types** for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead, you should add required characteristics to the requirement group template. For more information, see the article on [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
+> If you want to use **Requirement Groups** with **Incident Types** for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead, you should add required characteristics to the requirement group template. For more information, see the article on [requirement groups for work orders](/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
 
 Go to **Characteristics** and select **+New Incident Type Characteristic**.
 
@@ -274,7 +297,7 @@ There are a few important notes when using incidents with requirement groups:
 - You can't add characteristics to the incident type or directly to the work order. This is because you should add required characteristics in the requirement group template.
 - The work order can only have one incident.
 
-For more information, see the article on [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
+For more information, see the article on [requirement groups for work orders](/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
 
 > [!Note]
 > **Multiple incidents vs. requirement group templates:** If you know a work order should be performed by multiple resources, we highly recommended using requirement group templates versus multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. When attempting to book the work order, the system will look for a single resource (including crews) to fulfill the job. The scheduler would need to perform extra steps, like editing filters or selecting **Book** twice, to schedule it to two different resources to arrive at the same time. However, if you use a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time. 
@@ -402,3 +425,6 @@ Only one work order incident can be the primary incident and this is either the 
 - [Add account details to work orders](../field-service/work-order-customer-account.md)   
 - [Work order life cycle and statuses](../field-service/work-order-status-booking-status.md)  
 - [Set up service task types](../field-service/set-up-service-task-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

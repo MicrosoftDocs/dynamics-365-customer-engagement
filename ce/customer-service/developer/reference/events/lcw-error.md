@@ -1,10 +1,10 @@
 ---
 title: "lcw error | MicrosoftDocs"
-description: 
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
+description: lcw error (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # lcw:error (Omnichannel for Customer Service JavaScript API reference)
 
@@ -27,3 +27,6 @@ window.addEventListener("lcw:error", function (errorEvent) {
 
 [lcw:ready](lcw-ready.md)<br />
 [JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

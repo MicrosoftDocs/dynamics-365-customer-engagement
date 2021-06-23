@@ -50,3 +50,6 @@ Opportunities, quotes, sales orders, and invoices are all part of the sales proc
  [Quote, Order and Invoice Entities](quote-order-invoice-entities.md)   
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Opportunity Entity](entities/opportunity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -27,10 +27,10 @@ search.app:
 
 
 > [!IMPORTANT]
-> Effective October 1 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is retired. Customers must transition to the modern [Dynamics 365 App for Outlook](https://docs.microsoft.com/dynamics365/outlook-app/overview) at the earliest. Microsoft will not provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
+>Effective October 1, 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) was retired. Microsoft won’t provide support or any further updates (including security and critical updates) to the Outlook COM Add-in for customer engagement apps (Dynamics 365 Sales, Customer Service, Marketing, and Field Service). 
 >
-> 
-> Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
+>- Effective December 4, 2020, the legacy Dynamics 365 for Outlook is not available for customer engagement apps (Dynamics 365 Sales, Customer Service, Marketing, and Field Service). Use the modern [Dynamics 365 App for Outlook instead](../../outlook-app/overview.md).
+>- [Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/overview.md) users can continue to use the legacy Dynamics 365 for Outlook and will continue to receive critical security updates. However, we recommend that you transition to the modern Dynamics 365 App for Outlook at the earliest. 
 >
 > For further information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
 
@@ -68,3 +68,6 @@ search.app:
  [!INCLUDE[cc_privacy_crm_go_offline_in_outlook](../../includes/cc-privacy-crm-go-offline-in-outlook.md)]  
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

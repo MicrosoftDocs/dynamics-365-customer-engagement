@@ -1,5 +1,6 @@
 ---
 title: "Add resources to a site  | MicrosoftDocs"
+description: "Add resources such as users, equipment, or facilities to a site."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: 71cdcd4d-09f8-48e0-b15a-e860dd325169
 caps.latest.revision: 14
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Add resources to a site
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 After you create a site, you can add resources such as users, equipment, or facilities to it.  
   
@@ -42,3 +45,6 @@ After you create a site, you can add resources such as users, equipment, or faci
 ### See also  
  [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Regional and language options for your organization](enable-languages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

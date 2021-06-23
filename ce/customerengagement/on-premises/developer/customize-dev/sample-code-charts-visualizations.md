@@ -44,3 +44,6 @@ This section contains code examples that demonstrate how to use visualization en
  [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md)  
   
  [UserQueryVisualization Entity](../entities/userqueryvisualization.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

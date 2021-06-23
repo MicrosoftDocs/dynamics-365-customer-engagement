@@ -45,3 +45,6 @@ Some client APIs are deprecated in the current release of Dynamics 365 Customer 
 [Web resources for Customer Engagement](../web-resources.md)
 
 [Customize commands and the ribbon](../customize-dev/customize-commands-ribbon.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

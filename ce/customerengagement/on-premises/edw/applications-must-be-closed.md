@@ -1,5 +1,7 @@
 ---
 title: "Applications must be closed | Microsoft Docs"
+description: Environment diagnostics warning that applications must be closed.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -22,3 +24,6 @@ ms.author: matp
   
  Close all applications that are running before you continue installing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

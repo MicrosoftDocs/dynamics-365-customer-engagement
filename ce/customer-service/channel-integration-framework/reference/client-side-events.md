@@ -1,12 +1,11 @@
 ---
 title: "Client-side Events (JavaScript API Reference) for Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
 description: "Read about the client side events that you can use to trigger the client-side code."
-author: ramana-hyd
-ms.author: v-rmurthy
-manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 02/23/2021
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -27,5 +26,9 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onPageNavigate](events/onPageNavigate.md) | Invoked when the main Unified Interface page navigation occurs. |
 | [onSendKBArticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
 | [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
-| [onSessionSwitched](events/onSessionSwitched.md) | Invoked when the session is switched. |
-| [onSessionClosed](events/onSessionClosed.md) | Invoked when the session is closed. |
+| [onSessionSwitched](/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionSwitched) | Invoked when the session is switched. |
+| [onSessionClosed](/dynamics365/customer-servi/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) | Invoked when the session is closed. |
+| [CIFInitDone](events/cifinitdone.md) | Invoked when the Channel Integration framework is loaded to determine if Channel Integration Framework APIs are ready to be consumed. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

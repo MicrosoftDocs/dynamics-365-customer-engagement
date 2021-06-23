@@ -75,3 +75,6 @@ In order to represent that there are no actual *Many-to-One* relationships with 
 
 ### Many-to-Many relationships
 Each Many-to-Many relationship includes <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1LogicalName> and <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2LogicalName>. For this documentation relationship details are only included in the topic for *Entity1*. Each Many-to-Many relationship where the entity is *Entity2* includes only a link to the details found in the topic for *Entity1*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

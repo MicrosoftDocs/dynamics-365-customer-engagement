@@ -45,7 +45,7 @@ In this article, we'll take a quick look at:
 For more detailed information on Universal Resource Scheduling, visit the [Universal Resource Scheduling documentation](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
 ## Components 
-When Dynamics 365 Field Service is installed, Universal Resource SchedulingRS installs automatically, and appears in the menu as shown in the following screenshot.
+When Dynamics 365 Field Service is installed, Universal Resource Scheduling installs automatically, and appears in the menu as shown in the following screenshot.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Screenshot of Universal Resource Scheduling and Field Service apps](media/scheduling-urs-apps.png) 
@@ -187,7 +187,7 @@ The API key will populate automatically and use the Bing Maps API.
 > ![Screenshot of setting Connect to Maps to yes](media/Perform-Initial-Configurations-image7.png)  
 
 > [!Note]
-> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden. 
+> In Field Service version 8.8.10.44+ the Bing Maps API key is hidden, and is unavailable for end users and external parties.   
 
 ### Configure booking statuses
 
@@ -254,3 +254,6 @@ If the work order or requirement doesn't have a latitude or longitude, the locat
 - [Resource Scheduling Optimization overview](rso-overview.md)
 - [Frequently asked questions about the mobile solution](https://www.resco.net/mobilecrm/support.aspx) 
 - [Woodford guide (PDF)](https://www.resco.net/downloads/Woodford_Guide.pdf) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

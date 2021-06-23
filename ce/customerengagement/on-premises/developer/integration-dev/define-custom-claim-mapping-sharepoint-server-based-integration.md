@@ -67,3 +67,6 @@ _serviceProxy.Create(customMapping);
 ### See Also
  [UserMapping Entity](../entities/usermapping.md)   
  [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

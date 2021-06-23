@@ -24,7 +24,7 @@ search.audienceType:
 
 # Sample: Calculate Price plug-in
 
-This sample code is for Dynamics 365 Customer Engagement(on-premises). Download the sample: [Work with custom price plug-in](https://msdn.microsoft.com/library/dn817877.aspx).
+This sample code is for Dynamics 365 Customer Engagement(on-premises). Download the sample: [Work with custom price plug-in](/previous-versions/dynamicscrm-2016/developers-guide/dn817877(v=crm.8)).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -52,3 +52,6 @@ This sample code is for Dynamics 365 Customer Engagement(on-premises). Download 
  [Use custom pricing for products](use-custom-pricing-products.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

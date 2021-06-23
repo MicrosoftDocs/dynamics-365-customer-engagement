@@ -21,3 +21,5 @@ search.app:
 # Enable an entity for scheduling in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-schedule-new-entity.md](../shared/urs/schedule-new-entity.md)]
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

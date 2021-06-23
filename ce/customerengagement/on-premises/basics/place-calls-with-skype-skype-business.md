@@ -37,3 +37,6 @@ If your organization is set up to use [!INCLUDE[pn_skype](../includes/pn-skype.m
   
 ### See also  
  [Set up Dynamics 365 Customer Engagement (on-premises) to make calls with Skype or Skype for Business](../admin/set-up-skype-or-skype-for-business.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

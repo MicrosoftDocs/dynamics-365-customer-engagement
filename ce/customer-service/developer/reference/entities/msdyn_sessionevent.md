@@ -1,12 +1,11 @@
 ---
 title: "msdyn_sessionevent Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_sessionevent entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 03/23/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 ---
 # msdyn_sessionevent Entity Reference
 
@@ -778,3 +777,6 @@ See msdyn_ocsession Entity [msdyn_ocsession_sessionevent_nested](msdyn_ocsession
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

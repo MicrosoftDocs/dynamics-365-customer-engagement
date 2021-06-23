@@ -1,5 +1,6 @@
 ---
 title: "Data query performance  | MicrosoftDocs"
+description: "Index management is executed automatically using Azure SQL Database automatic tuning."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -25,3 +26,6 @@ To improve query performance, index management is executed automatically using A
 
 ### See also  
  [Performance tuning and optimization](../admin/performance-tuning-and-optimization.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

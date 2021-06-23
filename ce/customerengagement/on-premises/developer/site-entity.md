@@ -39,3 +39,6 @@ The *site* entity represents a location or branch office where an organization d
 ### See also  
  [Site Entity](entities/site.md)   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

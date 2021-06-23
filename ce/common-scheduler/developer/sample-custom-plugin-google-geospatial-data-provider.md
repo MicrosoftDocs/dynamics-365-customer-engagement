@@ -45,7 +45,7 @@ This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll*
 
 1. Download or clone the [samples repo](https://github.com/microsoft/Dynamics365-Apps-Samples).
 2. Navigate to the location where you downloaded or cloned the repo on your computer, go to the **field-service/CustomPlugin-FS-Geospatial** folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
-3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
+3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
 ## After running the sample
 
@@ -399,3 +399,6 @@ You may use sample code to interact with third-party services whose privacy and 
 [Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)
 
 [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

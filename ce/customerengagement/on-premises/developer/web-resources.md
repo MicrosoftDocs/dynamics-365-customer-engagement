@@ -87,7 +87,7 @@ $webresource:<name of Web Resource>
 >  When using the `$webresource` directive, Dynamics 365 Customer Engagement (on-premises) will create or update solution dependencies.  
 
 ### Xrm.Navigation.openWebResource  
- The Xrm.Navigation.[openWebResource](clientapi/reference/Xrm-Navigation/openWebResource.md) function will open an HTML web resource in a new window with parameters to pass the name of the web resource, any query string data to be passed in the data parameter, and information about height and width of the window.  
+ The Xrm.Navigation.[openWebResource](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openWebResource) function will open an HTML web resource in a new window with parameters to pass the name of the web resource, any query string data to be passed in the data parameter, and information about height and width of the window.  
 
  The URL generated includes the unique GUID token so that the cached web resource will be loaded.  
 
@@ -124,7 +124,7 @@ $webresource:<name of Web Resource>
 <Microsoft CRM URL>/%7B<version value>%7D/WebResources/<name of web resource>  
 ```  
 
- The version value is updated when you publish customizations and ensures that the browser uses the latest cached version of the web resource. Because of this, use a relative path to a web resource, the Xrm.Navigation.[openWebResource](clientapi/reference/Xrm-Navigation/openWebResource.md) function, or the [$webresource Directive](web-resources.md#BKMK_WebResourceDirective) (when possible) because the version value will automatically be included. For large web resources there can be significant performance implications if you don’t use the cached version of the file.  
+ The version value is updated when you publish customizations and ensures that the browser uses the latest cached version of the web resource. Because of this, use a relative path to a web resource, the Xrm.Navigation.[openWebResource](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openWebResource) function, or the [$webresource Directive](web-resources.md#BKMK_WebResourceDirective) (when possible) because the version value will automatically be included. For large web resources there can be significant performance implications if you don’t use the cached version of the file.  
 
  The following sample shows a URL for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], where `MyOrganization` is the name of your organization, and `new_/test/test.htm` is the name of the web resource:  
 
@@ -141,7 +141,7 @@ https://MyOrganization.crm.dynamics.com/WebResources/new_/test/test.htm
 https://myServer/MyOrganization/WebResources/new_/test/test.htm  
 ```  
 
- When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises Dynamics 365 Customer Engagement (on-premises), you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.
+ When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises Dynamics 365 Customer Engagement (on-premises), you should use the [getClientUrl](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl) function.
 
 ## Community tools
 
@@ -167,3 +167,6 @@ https://myServer/MyOrganization/WebResources/new_/test/test.htm
  [Sample: Importing Files as Web Resources](sample-import-files-web-resources.md)<br />
  [Use Web Service Data in Web Resources (REST and SOAP Endpoint)](work-data-using-web-resources.md)<br />
  [Streamline web resource development using Fiddler AutoResponder](streamline-javascript-development-fiddler-autoresponder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

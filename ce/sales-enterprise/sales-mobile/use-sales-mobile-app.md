@@ -1,9 +1,8 @@
-﻿---
+---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 11/30/2020
+ms.date: 06/22/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -11,13 +10,11 @@ manager: shujoshi
 
 # Use the Dynamics 365 Sales mobile app
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 Use the Dynamics 365 Sales mobile app to plan your day by seeing what it has in store such as upcoming meetings and insights. You can also take post-meeting actions such as adding notes, creating contacts, and updating data in relevant records.
 
-## Sign in and sign out of the app
+## Sign in and sign out from the app
 
-You can sign in to the Dynamics 365 Sales mobile app by using your work email address you use for Dynamics 365. If you need help with your sign-in information, contact your Dynamics 365 administrator.
+You can sign in to the Dynamics 365 Sales mobile app by using the work email address you use for Dynamics 365. If you need help with your sign-in information, contact your Dynamics 365 administrator.
 
 ### Sign in to the app
 
@@ -37,13 +34,46 @@ You can sign in to the Dynamics 365 Sales mobile app by using your work email ad
 
 1. Tap your profile picture at the top left of the screen.
 
-2. Tap **Apps**.
+2. Tap **Settings**.
 
-    ![Tap Apps](media/sm-select-apps.png "Tap Apps")
+    ![Tap Settings](media/sm-select-settings.png "Tap Settings")
 
-3. Tap ![Hamburger menu icon](media/sm-hamburger-menu.png "Hamburger menu icon") at the top left of the screen, and then tap **Sign out**.
+3. Under the **Account** section, tap **Sign out**.
 
-    ![Sign out](media/sm-sign-out.png "Sign out")
+    ![Sign out](media/sm-settings-panel.png "Sign out")
+
+## View non-production apps
+
+By default, the production apps are displayed. If you want to see the apps from your trial or sandbox environment, you must enable the **Show non-production apps** setting.
+
+**If you haven't selected the app to use**
+
+1. Tap your profile picture at the upper left of the screen. 
+
+2. Turn on the **Show non-production apps** toggle.
+
+    ![Show non-production apps toggle](media/non-prod-apps-toggle.png "Show non-production apps toggle")
+
+3. In the confirmation message, tap **Confirm**.
+
+4. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
+
+**If you've selected the app to use**
+
+1. Sign out from the app.
+
+2. Sign in to the app.
+
+3. Tap your profile picture at the upper left of the screen.
+
+4. Turn on the **Show non-production apps** toggle.
+
+    ![Show non-production apps toggle](media/non-prod-apps-toggle.png "Show non-production apps toggle")
+
+5. In the confirmation message, tap **Confirm**.
+
+6. Go to the **Apps** screen, pull down the screen to refresh and wait for at least a few minutes.
+
 
 ## First run experience
 
@@ -59,3 +89,6 @@ The home page is displayed as shown in the following example screen:
 ### See also
 
 [Learn the basics](learn-basics-mobile-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

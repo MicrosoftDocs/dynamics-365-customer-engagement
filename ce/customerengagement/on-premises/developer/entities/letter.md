@@ -2149,3 +2149,5 @@ See systemuser Entity [lk_letter_modifiedonbehalfby](systemuser.md#BKMK_lk_lette
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.letter?text=letter EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

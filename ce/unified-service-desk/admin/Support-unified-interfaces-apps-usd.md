@@ -1,29 +1,28 @@
 ---
-title: "Support for Unified Interface apps in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Support for Unified Interface in Unified Service Desk | MicrosoftDocs"
+description: "Learn about Unified Interface and how Unified Service Desk supports apps built using the Unified Interface framework."
 ms.date: 05/07/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 
 # Support for Unified Interface Apps in Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] now supports the Apps built using Unified Interface framework.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] now supports apps based on Unified Interface.
 
 ## What is Unified Interface?
 
 With the release of latest release, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
-The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
+Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
 
 ## What is Unified Interface supportability in Unified Service Desk?
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from the model-driven app, which is built based on the Unified Interface framework.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports the apps built using the Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from the model-driven app, which is built based on the Unified Interface framework.
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of model-driven app windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
@@ -78,3 +77,6 @@ After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.con
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
  [Walkthrough 7: Configure agent scripting in your agent application](../../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "A server role change requires a Language Pack repair | Microsoft Docs"
+description: Environment diagnostics warning requiring a language pack repair
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -21,3 +23,6 @@ ms.author: matp
   
  In **Settings** > **Apps and Features**, run a repair of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Language Packs that are installed. <!-- For steps, see [Uninstall or repair a Dynamics 365 for Customer Engagement Language Pack](../on-premises/uninstall-repair-dynamics-365-language-pack.md). -->
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,18 +1,16 @@
 ---
-title: "How to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0 | Microsoft Docs"
-description: "Learn how to choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0."
-author: ramana-hyd
-ms.author: v-rmurthy
+title: "Choose between Dynamics 365 Channel Integration Framework 1.0 and 2.0 | MicrosoftDocs"
+description: "Know the feature differences between Dynamics 365 Channel Integration Framework versions 1.0 and 2.0., so you can choose the one that best suits your business needs."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# Choose between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0
+
+# Choose between Dynamics 365 Channel Integration Framework 1.0 and 2.0
 
 This topic explains the key feature differences between Dynamics 365 Channel Integration Framework version 1.0 and version 2.0, and helps you choose the version that suits your business requirements.
 
@@ -41,7 +39,7 @@ Using Dynamics 365 Channel Integration Framework version 2.0 with multi-session 
 More information: [Channel Analytics](v2/channel-analytics.md)  
 More information: [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)
 
-To learn more about multi-session app, see [Omnichannel for Customer Service](../../omnichannel/omnichannel-customer-service-guide.md).
+To learn more about multi-session app, see [Omnichannel for Customer Service](../introduction-omnichannel.md).
 
 ## Version 1.0 and 2.0
 
@@ -57,7 +55,7 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 |Features| Support for one channel provider at any time <br> Communication panel management |Support for multiple telephony channel providers <br> Communication panel management <br> Channel analytics <br> Notification management templates<br> Application tab management templates<br> Session management templates |
 
 > [!NOTE]
-> For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md).
+> For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
 > ![Differences between versions 1.0 and 2.0](media/choose-between-version.png "Differences between versions 1.0 and 2.0")
@@ -67,5 +65,8 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 [Channel Integration Framework version 1.0](overview-channel-integration-framework.md)  
 [Channel Integration Framework version 2.0](v2/overview-channel-integration-framework.md)  
 [Integrate Channel Integration Framework version 2.0 with Omnichannel for Customer Service](v2/integration-multi-session-experiences.md)  
-[Multi-session agent experiences](https://docs.microsoft.com/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)  
-[Bring your own channel](../../omnichannel/developer/how-to/bring-your-own-channel.md)
+[Multi-session agent experiences](/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)  
+[Bring your own channel](../bring-your-own-channel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

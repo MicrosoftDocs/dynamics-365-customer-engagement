@@ -1,12 +1,11 @@
 ---
 title: "Omnichannel for agent using Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent using Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Agents using Omnichannel for Customer Service on Unified Service Desk
@@ -36,3 +35,6 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

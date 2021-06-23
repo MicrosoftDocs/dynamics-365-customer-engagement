@@ -1008,3 +1008,5 @@ See msdyn_callablecontext Entity [msdyn_callablecontext_msdyn_playbooktemplate](
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_playbooktemplate?text=msdyn_playbooktemplate EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

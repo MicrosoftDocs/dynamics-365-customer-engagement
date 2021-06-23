@@ -46,3 +46,6 @@ The calendar entity was modified to support additional types of calendars in [!I
  [Calendar Entities](calendar-entities.md)   
  [Calendar Entity](entities/calendar.md)   
  <xref:Microsoft.Dynamics.CRM.calendarrule>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

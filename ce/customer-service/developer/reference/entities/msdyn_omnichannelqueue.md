@@ -1,12 +1,11 @@
 ---
 title: "msdyn_omnichannelqueue Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_omnichannelqueue entity."
-author: "ramana-hyd"
-ms.author: "v-rmurthy"
-manager: "shujoshi"
 ms.date: 08/20/2020
 ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
+author: "mh-jaya"
+ms.author: v-jmh
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -674,8 +673,6 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid
 
-Same as msdyn_ocliveworkitem entity [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid) Many-To-One relationship.
-
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_ocliveworkitem|
@@ -721,3 +718,6 @@ Same as msdyn_ocsession entity [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_que
 
 [Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

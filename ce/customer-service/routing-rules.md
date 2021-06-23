@@ -1,16 +1,18 @@
 ---
-title: Create and manage routing rules in Omnichannel for Customer Service | MicrosoftDocs
-description: Understand how to create and manage routing rules in Omnichannel for Customer Service
+title: "Set up routing rules and assignment rules in Omnichannel Administration | MicrosoftDocs"
+description: "Understand how to create and manage the routing rules in the Omnichannel Administration app"
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
-# Create and manage routing rules
+# Create and manage routing rules in Omnichannel Administration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
 
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
 
@@ -27,7 +29,7 @@ Routing rules are evaluated from top to bottom. If a rule condition is evaluated
 Routing rule conditions could be based on channel context, pre-chat context, and contact, account, or case context. For example, you can define a routing rule so that chats from high priority customers who have specific queries about investments can be routed to a specific queue.
 
 > [!IMPORTANT]
-> If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Default queue](queues-omnichannel.md#default-queues).
+> If all the rule conditions are evaluated as False for a conversation, it goes to the **Default** queue. For more information, see [Queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 ## Create a routing rule
 
@@ -37,7 +39,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
    1. In the **General information** section of the **General** tab, provide the following information: </br>
       1. **Name**. Name of the rule item </br>
       2. **Work Stream** is auto populated </br>
-      3. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-queue) </br>
+      3. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a queue in Omnichannel for Customer Service](queues-omnichannel.md) </br>
    2. **Description**. A brief description of the rule item.
    3. In the **Condition** section, provide the conditions for the rule. Based on the conditions defined, the conversations are routed to the correct queues. You can define the conditions based on the following:
     - Entity
@@ -57,6 +59,9 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
 
 ### See also
 
-[Understand and create work streams](work-streams-introduction.md)
+[Understand and create work streams](create-workstreams.md)
 
 [Understand unified routing and work distribution](unified-routing-work-distribution.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], th
  [Annotation (Note) Entity](annotation-note-entity.md)  
   
  [UserQuery (Saved View) Entity](userquery-saved-view-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

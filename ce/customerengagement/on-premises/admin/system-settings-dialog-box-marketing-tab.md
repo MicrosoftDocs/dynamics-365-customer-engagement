@@ -1,6 +1,6 @@
 ---
 title: "System Settings dialog box - Marketing tab  | MicrosoftDocs"
-description: ""
+description: "Configure marketing settings for Dynamics 365 Customer Engagement (on-premises)."
 keywords: 
 ms.date: 10/01/2019
 ms.service: crm-online
@@ -20,10 +20,13 @@ caps.latest.revision: 11
 topic-status: Drafting
 search.audienceType: 
   - admin
-
 ---
 
 # System Settings dialog box - Marketing tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the settings on this page to configure marketing settings for Dynamics 365 Customer Engagement (on-premises).  
 
@@ -52,3 +55,6 @@ Use the settings on this page to configure marketing settings for Dynamics 365 C
 |                                      Send acknowledgement to customers when they unsubscribe                                      |                                                 If the previous setting **Set “Do Not Send Marketing Material”** is Yes, you can use this setting to send a response to customers when they unsubscribe.                                                 |
 |                                                Template for Acknowledgement Email                                                 |                                                              If the two previous settings are Yes, you must specify an email template to use to respond to customers when they unsubscribe.                                                              |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

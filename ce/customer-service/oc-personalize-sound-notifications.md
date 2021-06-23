@@ -42,3 +42,6 @@ The personalized settings have precedence over the administrator settings. You c
 
 [View communication panel](oc-conversation-control.md)  
 [View notifications](oc-notifications.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,5 @@ private HttpClient getNewHttpClient(string userName,string password,string domai
 ### See also  
 
 [Use Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

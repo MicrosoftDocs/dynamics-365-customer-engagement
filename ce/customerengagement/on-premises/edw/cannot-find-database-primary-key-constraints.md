@@ -1,5 +1,7 @@
 ---
 title: "Setup cannot find the Dynamics 365 for Customer Engagement database primary key constraints | Microsoft Docs"
+description: Environment diagnostics warning that Setup can't find the database primary key constraints
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -23,3 +25,6 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] previous version
   
  If the upgrade does not successfully complete, contact Microsoft Customer Support Services. For a complete list of Microsoft Customer Support Services telephone numbers and information about support costs, visit the Microsoft [Help and Support Contact](https://go.microsoft.com/fwlink/p/?LinkId=99244) webpage.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

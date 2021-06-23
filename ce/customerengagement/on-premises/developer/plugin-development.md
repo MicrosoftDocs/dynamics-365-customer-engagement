@@ -60,3 +60,6 @@ For on-disk plug-ins or custom workflow activities, place the assemblies in the 
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md) <br/> 
  [Web Service Authentication and Impersonation](authenticate-users.md) <br/>
  [Use plug-ins to extend business processes in Dataverse](/powerapps/developer/common-data-service/plug-ins)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

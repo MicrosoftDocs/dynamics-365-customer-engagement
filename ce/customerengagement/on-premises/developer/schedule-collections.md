@@ -51,3 +51,6 @@ A *schedule* is a logical collection of appointments that contains the availabil
  [Appointment Entity](entities/appointment.md)   
  [Sample: Query the Schedule of a User](sample-query-working-hours-user.md)   
  [Sample: Query the Schedules of Multiple Users](sample-query-working-hours-multiple-users.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

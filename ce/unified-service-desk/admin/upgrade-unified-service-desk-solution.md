@@ -1,20 +1,19 @@
 ---
-title: "Upgrade a Unified Service Desk  solution | MicrosoftDocs"
-description: "Learn how to upgrade Unified Service Desk ."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Upgrade a Unified Service Desk solution | MicrosoftDocs"
+description: "Learn how to upgrade Unified Service Desk sample application package to the latest version using the upgrade procedure."
 ms.date: 02/06/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Upgrading the solution
 You can upgrade an existing Unified Service Desk sample application package to the latest Unified Service Desk by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  
@@ -24,7 +23,7 @@ You can upgrade an existing Unified Service Desk sample application package to t
   
 1. [Download](../download-unified-service-desk.md) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application packages and [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)] tool.  
   
-2. Start [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)], that will be used  to import the Upgrade sample application package. Alternatively, you can use [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] commands. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Import-CrmPackage](https://technet.microsoft.com/library/dn756301.aspx)  
+2. Start [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)], that will be used  to import the Upgrade sample application package. Alternatively, you can use [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] commands. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Import-CrmPackage](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/dn756301(v=crm.8))  
   
 3. In the Package Deployer window, click **Continue**.  
   
@@ -50,3 +49,6 @@ You can upgrade an existing Unified Service Desk sample application package to t
   
 ## See also  
  [Install, upgrade, and deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

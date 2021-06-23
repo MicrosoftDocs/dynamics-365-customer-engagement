@@ -986,3 +986,5 @@ See msdyn_iotdevice Entity [msdyn_msdyn_iotdevice_msdyn_iotdevicedatahistory_Dev
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_iotdevicedatahistory?text=msdyn_iotdevicedatahistory EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

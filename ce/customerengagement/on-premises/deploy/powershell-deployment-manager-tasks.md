@@ -53,3 +53,6 @@ Get-Help Import-CRMOrganization
  [Use Deployment Manager to manage the deployment](use-deployment-manager-to-manage-the-deployment.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

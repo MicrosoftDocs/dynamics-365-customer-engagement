@@ -56,3 +56,6 @@ In this release, there are some limitations to virtual entities that you need to
 - Once created, a virtual entity cannot be changed to be a standard (non-virtual) entity.  The reverse is also true: a standard entity cannot be converted into a virtual entity.
 
 For more information about how these limitations are reflected in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) API, see [API considerations of virtual entities](api-considerations-ve.md). 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

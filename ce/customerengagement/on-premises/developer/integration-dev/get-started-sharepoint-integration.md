@@ -2,7 +2,7 @@
 title: "Get started with SharePoint integration (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "By using SharePoint Server document management capabilities, you can control how documents are created, reviewed, published and disposed or archived"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 01/20/2021
 ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
@@ -29,15 +29,15 @@ search.audienceType:
   
 <a name="StorageConcepts"></a>   
 ## SharePoint storage concepts  
- By using [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] document management capabilities, you can control the life cycle of documents in your organization: how they are created, reviewed, published, and disposed or archived. [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] uses a hierarchical storage model to store and manage documents. Some of the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] storage concepts that you should know are as follows:                  *Site Collection*,                  *Site*,                  *Document Library*, and                  *Document Folder*. These storage objects provide the framework for the content management infrastructure that [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] provides. For more information about these storage concepts, see                  [Storage levels: content storage benefits and considerations](https://go.microsoft.com/fwlink/p/?LinkId=196843).  
+ By using [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] document management capabilities, you can control the life cycle of documents in your organization: how they are created, reviewed, published, and disposed or archived. [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] uses a hierarchical storage model to store and manage documents. Some of the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] storage concepts that you should know are as follows:                  *Site Collection*,                  *Site*,                  *Document Library*, and                  *Document Folder*. These storage objects provide the framework for the content management infrastructure that [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] provides. For more information about these storage concepts, see [Storage levels: content storage benefits and considerations](https://go.microsoft.com/fwlink/p/?LinkId=196843).  
   
 <a name="SupportedSPVersions"></a>   
 ## Software requirements for SharePoint Integration  
- For supported versions of [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699758.aspx).  
+ For supported versions of [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration, see [SharePoint Document Management software requirements for Microsoft Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/admin/sharepoint-document-management-software-requirements).  
   
 <a name="SPIntegration"></a>   
 ## Enable SharePoint integration  
- [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] can only be enabled using the web or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. This isn’t supported through SDK. For more information, see                  [Set up SharePoint integration with Microsoft Dynamics CRM](https://technet.microsoft.com/library/dn531154.aspx).  
+ [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] integration for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] can only be enabled using the web or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. This isn’t supported through SDK. For more information, see [Set up SharePoint integration](/dynamics365/customerengagement/on-premises/admin/manage-documents-using-sharepoint).  
   
  [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] supports two types of integration with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]: client-to-server and server-to-server (server-based).  
   
@@ -76,3 +76,6 @@ search.audienceType:
  [Enable SharePoint Integration for Entities](enable-document-management-entities.md)   
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Define custom claim mapping for SharePoint server-based integration](define-custom-claim-mapping-sharepoint-server-based-integration.md)  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

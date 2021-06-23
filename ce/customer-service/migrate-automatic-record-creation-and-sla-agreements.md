@@ -1,20 +1,19 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
 description: 
+ms.date: 10/05/2020
+ms.topic: article
 author: lerobbin
 ms.author: lerobbin
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - migration
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -302,4 +301,7 @@ In the **Premigration checkup** state, the tool reviews only those rules that we
 [Migration tool FAQs](migrate-tool-faqs.md)  
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  
 [Define service-level agreements](define-service-level-agreements.md)  
-[Important changes (deprecations) coming](https://docs.microsoft.com/power-platform/important-changes-coming)  
+[Important changes (deprecations) coming](/power-platform/important-changes-coming)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

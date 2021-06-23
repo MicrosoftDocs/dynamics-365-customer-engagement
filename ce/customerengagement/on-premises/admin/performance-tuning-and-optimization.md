@@ -1,5 +1,6 @@
 ---
 title: "Performance tuning and optimization | MicrosoftDocs"
+description: "Plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 
@@ -36,3 +37,6 @@ Operations that require intensive database transactions examples:
 [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md) <br />
 [Key preparation and configuration tasks](key-preparation-and-configuration-tasks.md) <br />
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

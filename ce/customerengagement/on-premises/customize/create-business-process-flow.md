@@ -232,3 +232,6 @@ Now, members of Contoso’s salesforce can kick-off the action from the **Opport
  [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)   
  [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)  
  [Workflow processes](../customize/workflow-processes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

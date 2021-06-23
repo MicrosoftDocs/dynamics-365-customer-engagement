@@ -1,12 +1,11 @@
 ---
 title: "Real-time translation in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Overview of language translation for agent and customer chats in the Omnichannel for Customer Service app."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Real-time translation of conversations for agents and customers
@@ -46,3 +45,6 @@ The following image shows a sample screenshot of the customer experience.
 
 [View a customer summary](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

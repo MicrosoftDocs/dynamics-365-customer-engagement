@@ -1,5 +1,6 @@
 ---
-title: "Change the publisher prefix (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
+title: "Change the publisher prefix Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn what a solution publisher is and how to use it for the solutions you distribute
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -40,3 +41,6 @@ search.audienceType:
 4. At the bottom of the form, update the **Prefix** field to change the default value of “new” to something that identifies your organization.  
   
 5. When you change the value, make sure to tab to the next field. The **Option Value Prefix** will automatically generate a number based on the customization prefix. This number is used when you add options to option sets and provides an indicator of which solution was used to add the option.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

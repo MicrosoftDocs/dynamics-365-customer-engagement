@@ -33,3 +33,6 @@ When you have completed the exercises here, you'll be able to:
 - [Track website visits, social media clicks, and banner clicks](track-online-behavior.md) so you can use them to score leads and evaluate the effectiveness of your website and other marketing channels.
 
 The exercises in this chapter assume you are already familiar with the functionality described in the [Basic tutorials](basic-tutorials.md) chapter, but they don't build on each other, so you can pick and choose the exercises that interest you most.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

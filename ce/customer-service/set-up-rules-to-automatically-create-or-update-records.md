@@ -1,14 +1,11 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to set up rules to automatically create or update records in Dynamics 365 Customer Service
+ms.date: 08/25/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 08/25/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Set up rules to automatically create or update records
@@ -158,7 +157,7 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 
     If you don’t select this check box, records are created only for email messages that have a contact or account as the senders.  
 
-    This option, in conjunction with the **Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** option in the rule owner's Personal Options, determines whether a case and contact record is created (see [Set personal options](../basics/set-personal-options.md)).  
+    This option, in conjunction with the **Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]** option in the rule owner's Personal Options, determines whether a case and contact record is created (see [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md)).  
 
 2. **Create case if a valid entitlement exists for the customer**. If you select this check box, a case is created only if an active entitlement exists for the customer.  
 
@@ -364,3 +363,6 @@ Perform the following steps before you upgrade a solution:
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
 [Create or change a queue](set-up-queues-manage-activities-cases.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

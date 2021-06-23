@@ -50,3 +50,6 @@ You need the Dynamics 365 organization ID to complete the request form.
  3. In the **Instance Reference Information** section, locate the ID.
         
   > ![OrgID](media/admin-orgid.png)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

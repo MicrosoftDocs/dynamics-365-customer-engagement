@@ -1,12 +1,11 @@
 ---
 title: "View call scripts, take notes, and search knowledge articles | MicrosoftDocs"
 description: "The right control panel hosts the agent scripts, notes, and knowledge articles search controls."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View call scripts, take notes, and search knowledge articles
@@ -45,3 +44,6 @@ You can search for a KB article and open it as a tab on the Application tab mana
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
