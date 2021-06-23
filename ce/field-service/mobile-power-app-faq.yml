@@ -74,7 +74,7 @@ sections:
         - question: Why do I get "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
           answer: |
           
-           > ![An error message showing Insufficient Permissions in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
+          > ![An error message showing Insufficient Permissions in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
           
           This error can occur when your environment has multiple Dynamics 365 apps installed, like Dynamics 365 Field Service and Dynamics 365 Customer Service with Omnichannel.
           
