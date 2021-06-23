@@ -43,14 +43,11 @@ In just a few steps, you can generate contacts, segments, and a customer journey
 
 1. In Teams, select the **Attendance** tab to view the attendance report.
 1. In the top-right corner, select **Follow up with participants**.
-
     > [!div class="mx-imgBorder"]
     > ![Follow up button](media/teams-follow-up-button.png "Follow up button")
-
 1. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown, then select **Get started**.
 1. If you are not a Marketing customer, you can [sign up for a free Dynamics 365 Marketing trial](trial-signup.md). To sign up, select **Get started**.
 1. After you sign up, a browser tab will open with an automatically generated customer journey and segments that are customized to your webinar data.
-
     > [!div class="mx-imgBorder"]
     > ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
 
