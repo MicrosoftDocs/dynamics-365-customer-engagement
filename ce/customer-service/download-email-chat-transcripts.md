@@ -17,15 +17,20 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
 
 ## Download and email chat transcripts in Omnichannel admin center
 
-Perform the following steps to configure the options to download and email chat transcripts for both customers and agents:
+To configure options to download and email chat transcripts for both customers and agents:
 
 1. In Omnichannel admin center, select the workstream of the chat widget in which you need to configure the settings.
+
 2. Select **Edit** for the chat channel that you need to update, and select the **User features** tab.
+
 3. For **Conversation transcripts**, set the toggle to **On** and select the following check boxes:
    - Allow download of transcripts
    - Allow email of transcripts
+
 4. Select a template in **Email template**.
+
 5. Select a mailbox in **From mailbox**.
+
 6. Select **Save and close**.
 
 ## Download and email chat transcripts in Omnichannel Administration
@@ -74,9 +79,6 @@ Customers can choose to download and email a copy of their chat transcript conve
     1. Enter email address in pop-up window.
         
     2. Select **Send** to receive a copy of the chat transcript once the conversation ends.
-    
-    
-       
 
      > [!div class=mx-imgBorder]
      > ![Email chat transcript](media/oc-chat-transcript-email.png "Email chat transcript")

@@ -1,5 +1,5 @@
 ---
-title: "Configure relevance search for transcripts  | MicrosoftDocs"
+title: "Configure relevance search for transcripts | MicrosoftDocs"
 description: "Learn how to configure relevance search for chat transcript so agents can search in Omnichannel for Customer Service."
 ms.date: 02/03/2020
 ms.topic: article
@@ -13,7 +13,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Overview
 
 In Omnichannel for Customer Service, agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity.
 
@@ -21,13 +20,13 @@ In Omnichannel for Customer Service, agents can search for details in transcript
 
 Ensure that relevance search is enabled in your environment. To learn more, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization#enable-relevance-search).
  
-## Walk-through to configure relevance search
+## Walkthrough to configure relevance search
 
 [Step 1: Configure relevance search for the Note entity](#step1)
 
 [Step 2: Add a Note entity to Omnichannel for Customer Service](#step2)
 
-## Step 1: Configure relevance search for the Note entity<a name="step1"></a>
+### Step 1: Configure relevance search for the Note entity<a name="step1"></a>
 
 1. Sign in to Dynamics 365.
 
@@ -48,7 +47,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 <a name="step2"></a>
 
-## Step 2: Add the Note entity to Omnichannel for Customer Service
+### Step 2: Add the Note entity to Omnichannel for Customer Service
 
 1. Sign in to `https://<org>.dynamics.com/apps`.
 

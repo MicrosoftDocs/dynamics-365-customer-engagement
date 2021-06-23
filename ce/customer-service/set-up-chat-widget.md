@@ -18,7 +18,7 @@ Dynamics 365 Customer Service offers full featured, first-party chat capabilitie
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 
-In this section, you will learn how to:
+In this section, you'll learn how to:
 
 - [Add a chat widget](add-chat-widget.md)
 - [Configure agent display name](agent-display-name.md)
@@ -51,9 +51,9 @@ If your organization is concerned about the data collected by this service, you 
 
 ### Videos
 
-[Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)
+[Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)  
 
-To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
