@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Regional availability for Customer Service
 
-<-- Neeraja: Consider updating as follows:
+<!-- Neeraja: Consider updating as follows:
 
 # Regional availability of insights in Customer Service
 
@@ -24,7 +24,7 @@ The insights features are not supported in some of the regions as follows:
 - Smart Assist Suggestions: Not supported in India and Switzerland.
 - Omnichannel historical analytics: Not supported in France, Switzerland, and United Arab Emirates.
 - Conversation Topic clustering: Not supported in France, Switzerland, and United Arab Emirates. 
--->
+--!>
 
 Customer Service features are available in the following regions.
 
