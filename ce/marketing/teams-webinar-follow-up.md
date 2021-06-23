@@ -1,5 +1,5 @@
 ---
-title: "Incorporate Dynamics 365 Marketing with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Follow up with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to follow up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
 ms.date: 06/23/2021
 ms.service: dynamics-365-marketing
