@@ -30,6 +30,9 @@ After the 60 minutes, purchase a new number. You cannot purchase the trial numbe
 
 ### Connect to Azure Communication Services
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-number-mgmt-create-new-number.png)
+
 ### Prerequisite
 
 Before you can create a new number you **need an Azure subscription**. If your Azure subscription is in the same tenant as your Dynamics 365 account **and** you have [insert the the blank] Azure permissions then select **Create New Resource**.
@@ -37,10 +40,23 @@ Before you can create a new number you **need an Azure subscription**. If your A
 Otherwise, select the **Use Existing Resource** option and copy and paste the relevant information from your Azure subscription. 
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-number-mgmt-connect-azure-service.png)
+
+
 ### Create a new resource
 
 
 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-number-mgmt-azure-create-new-resource.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-number-mgmt-azure-success.png)
 
 
 ### Add a number 
