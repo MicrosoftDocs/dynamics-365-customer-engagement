@@ -13,9 +13,9 @@ search.audienceType:
 
 # Client scripting reference for Dynamics 365 Customer Engagement (on-premises)
 
-All the client APIs that are documented in the [Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference) section in Power Apps docs are available for Dynamics 365 Customer Engagement on-premises *except* the ones listed in the section below.
+All the client APIs that are documented in the [Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference) section in Power Apps docs are available for Dynamics 365 Customer Engagement (on-premises) *except* the ones listed in the section below.
 
-## Client APIs not supported in Dynamics 365 Customer Engagement (on-premises)
+## Client APIs not supported in Customer Engagement (on-premises)
 
 This section provides information about client APIs that are not supported in Dynamics 365 Customer Engagement (on-premises).
 
