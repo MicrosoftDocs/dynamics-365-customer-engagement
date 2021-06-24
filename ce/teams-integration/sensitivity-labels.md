@@ -27,7 +27,7 @@ Users in your organization collaborate with others both inside and outside the o
 Sensitivity labels in Microsoft Teams integration with customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) lets you create teams with sensitivity label and  make the team private so that only the owner of the team can add other members to the team.
 
 > [!div class="mx-imgBorder"]
-> ![Sensitivity labels](media/teams-enter-team-name-5.png)
+> ![Screenshot showing the sensitivity labels drop-down while creating a team](media/teams-enter-team-name-5.png)
 
 ## Prerequisites
 
@@ -41,6 +41,7 @@ The following prerequisites are required before you can turn on sensitivity labe
 ## Turn on sensitivity labels
 
 Sensitivity labels are only available when the Enhanced Collaboration Experience is turned on. For more information, see [Install and set up Microsoft Teams integration](teams-install-app.md).
+
 > [!NOTE]
   > If you are still using the group classification labels instead of sensitivity labels, turning on this option will let you use the classification labels in Teams.
 
@@ -50,9 +51,10 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.
    > [!div class="mx-imgBorder"]
-   > ![App settings](media/app-settings.png)
+   > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)
+
     > [!NOTE]
-    > If you have a custom app, add a subarea with the following URL:  
+    > **App Settings** is only available in the Sales Hub app. If you don't have the Sales Hub app and want to access the settings from your custom app, add a subarea with the following URL:  
         `/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}`  
     > Alternatively, suffix the URL to your Dynamics 365 domain URL to instantly access the settings page mentioned in Step 3:  
    `Example: https://adatum.crm.dynamics.com/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}`
@@ -62,6 +64,6 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
 3. Set the **Enable Confidential Labels** toggle to **Yes**. When you're done, select **Save**. 
 
    > [!div class="mx-imgBorder"]
-   > ![Turn on sensitivity/confidentiality labels.](media/sen-labels.png)  
+   > ![Screenshot highlighting the Enable Confidential Labels option](media/enable-sensitivity-labels.png)  
     
 To learn how to use sensitivity labels, see [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience.md).
