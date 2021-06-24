@@ -19,7 +19,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
 
 ## Configure a chat widget in Omnichannel admin center
 
-Perform the following steps to configure chat in Omnichannel admin center.
+Perform the following steps to configure the chat widget in Omnichannel admin center.
 
 1. In the site map of Omnichannel admin center, select **Workstreams**.
 
@@ -53,7 +53,7 @@ Perform the following steps to configure chat in Omnichannel admin center.
      - **Show average wait time**: Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
    - **Customer location detection**: Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 
-8. On the **User features** page, configure the following options:
+8. On the **User features** page, configure the following options.
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
    - [Conversation transcripts](download-email-chat-transcripts.md)
@@ -167,7 +167,7 @@ Perform the following steps to configure chat in Omnichannel admin center.
     | Offline | Subtitle | Optionally, specify a subtitle. | No agents are available. |
     |||||
     
-8. On the **Location** tab, do the following:
+8. On the **Location** tab, perform the following steps.
 
     1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
     2. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)

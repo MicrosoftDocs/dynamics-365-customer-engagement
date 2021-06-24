@@ -26,8 +26,11 @@ In Omnichannel admin center, go to the workstream of the chat widget in which yo
 ## Enable proactive chat in Omnichannel Administration
 
 1.	Sign in to Omnichannel Administration.
+
 2.	Open the chat widget for which you need to turn on proactive chat.
+
 3.	Go to the **General settings** tab.
+
 4.	Under **Proactive chat**, select **Yes** for **Enable Proactive Chat**. By default, it is set to **No**.
 
 The conditions to trigger the proactive chat are defined in the web page code in which the chat widget is embedded. If the conditions are fulfilled, the proactive chat invitation is displayed with the help of an API.

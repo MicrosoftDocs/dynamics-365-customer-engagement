@@ -29,14 +29,19 @@ The average wait time is calculated based on wait times from the previous 48 hou
 If you're using Omnichannel admin center, do the following:
 
 1. Go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Behaviors** tab.
+
 2. Select **Show average wait time** if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent.
-3. Save and close.
+
+3. Select **Save and Close**.
 
 If you're using Omnichannel Administration, do the following:
 
 1. Go to **Channels** &gt; **Chat**, and open the chat widget in which you need to configure the settings.
+
 2. Select the **General settings** tab.
+
 3. In the **Customer waiting** area, change **Show average wait time** to **Yes**. By default, it is set to **No**.
+
 4. Select **Save**.
 
 ### See also
