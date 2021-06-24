@@ -24,7 +24,7 @@ search.audienceType:
 ---
 # Sample: Delete a queue (early bound)
 
-This sample shows how to delete a simple queue using the [IOrganizationService.Delete](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9) message.
+This sample shows how to delete a simple queue using the [IOrganizationService.Delete](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9) message.
 
 You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DeleteQueue).
 

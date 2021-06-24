@@ -2,7 +2,6 @@
 title: "Troubleshooting LinkedIn integration errors (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with LinkedIn integrations in Dynamics 365 Sales."
 ms.date: 05/26/2020
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,7 +23,7 @@ When enabling the data validation option (**Enable LinkedIn updates**) in the **
 
 ![Error in enabling LinkedIn updates](media/lisn-update-error.png "Error in enabling LinkedIn updates")
 
-For more information about the data validation capability of LinkedIn Sales Navigator, see [Data validation](https://docs.microsoft.com/dynamics365/linkedin/data-validation).
+For more information about the data validation capability of LinkedIn Sales Navigator, see [Data validation](./data-validation.md).
 
 **Resolution**
 
@@ -124,6 +123,29 @@ To resolve this issue, add the **msdyn_linkedinintegrationcommon.js** library an
     > ![LinkedIn library and function added to the form](media/ts-linkedin-contact-form-properties-added.png "LinkedIn library and function added to the form")    
 7. Save and publish the form.    
 
+<a name="solution-missing-configure-lsn"></a>
+## The LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator  
+**Reason**     
+The **LinkedInSalesNavigatorControlsForUnifiedClient** solution will be available only in organizations with LinkedIn Sales Navigator solution version 2.2.0.1 and above. If LinkedIn solution version is less than 2.2.0.1, then install the **LinkedInSalesNavigatorControlsForUnifiedClient** solution manually. 
+
+**Resolution**     
+To resolve this issue, delete the solutions and reinstall them again.    
+>[!NOTE]
+>Deleting and installing the solution can result in loss of data for **li_inmails**, **li_message**, and **li_pointdrivepresentationviewed** entities. Export data from these entities and restore when installed. 
+
+Follow these steps:    
+1.	Delete the LinkedIn Sales Navigator solution. Before deleting the solution verify the dependencies, if exists, contact your System administrator to remove the solutions. To remove the dependencies, follow these steps:   
+    1. Go to **Advanced settings** > **Customization** > **Solutions**.    
+    2. Select the LinkedIn solution and then **Show Dependency**.     
+        > [!div class="mx-imgBorder"]     
+        > ![LinkedIn solution dependencies](media/ts-solution-dependencies.png "LinkedIn solution dependencies")       
+    3. Select **Required by** entity name and the dependent entity opens in a page.    
+    4. Select **Form Properties** and under the **Events** tab go to the **Event Handlers** section.    
+    5. Select and remove the events.    
+    6. Save and publish the customization.   
+2.	Delete the **msdyn_LinkedInSalesNavigatorAnchor** solution.
+3.	Install the **LinkedIn Sales Navigator** solution again and restore the data for the entities.
+ 
 ### See also
 
 [Dynamics 365 Sales troubleshooting guide](../sales-enterprise/troubleshooting.md)

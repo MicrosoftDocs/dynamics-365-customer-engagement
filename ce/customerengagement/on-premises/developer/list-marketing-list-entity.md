@@ -36,8 +36,8 @@ In Dynamics 365 Customer Engagement (on-premises), *list management* and the *li
 ### See also  
 
  [List Entity](entities/list.md)   
- [Use FetchXML to Construct a Query](org-service/use-fetchxml-construct-query.md)   
- [Use FetchXML Aggregation](org-service/use-fetchxml-aggregation.md)   
+ [Use FetchXML to Construct a Query](/powerapps/developer/data-platform/use-fetchxml-construct-query)   
+ [Use FetchXML Aggregation](/powerapps/developer/data-platform/use-fetchxml-aggregation)   
  <xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>   
  [Marketing Entities (Campaign, List)](marketing-entities-campaign-list.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)

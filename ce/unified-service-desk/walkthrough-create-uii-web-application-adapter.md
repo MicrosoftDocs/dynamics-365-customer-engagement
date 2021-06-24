@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough  Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
-description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough: Create a UII Web Application Adapter in Unified Service Desk | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with web applications in Unified Service Desk."
 ms.date: 01/25/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough: Create a UII Web Application Adapter
 
@@ -109,7 +108,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
    ![Screenshot of Web Adapter in Visual Studio](../unified-service-desk/media/usd-web-app-adapter-vs.PNG "Screenshot of Web Adapter in Visual Studio")  
 
-   3. Choose WebAppAdapter.cs and update the definition of **NotifyContextChange** with the following code to populate the text fields from the context information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Context)](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange\(microsoft.uii.csr.context\))  
+   3. Choose WebAppAdapter.cs and update the definition of **NotifyContextChange** with the following code to populate the text fields from the context information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Context)](/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange(microsoft.uii.csr.context))  
 
       ```csharp  
       public override bool NotifyContextChange(Context context)  

@@ -291,7 +291,7 @@ The global duplicate detection rule only applies to the “Email” field.
 > [!div class="mx-imgBorder"]
 > ![Create a duplicate detection rule](media/subscription-duplicate-detection.png)
 
-If you need to create additional duplicate detection rules, for example, for an “Email Address 2” field, you can add another rule by following the instructions in [this Power Platform guide](https://docs.microsoft.com/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean).
+If you need to create additional duplicate detection rules, for example, for an “Email Address 2” field, you can add another rule by following the instructions in [this Power Platform guide](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean).
 
 > [!NOTE]
 > Changing or deleting system rules may cause duplicate detection to not function as expected.
@@ -304,14 +304,14 @@ If you need to create additional duplicate detection rules, for example, for an 
 
 ### Run bulk system jobs to detect email duplication
 
-As some changes to the customer database are not captured by the global duplicate detection rules (for example, when merging contact records or activating them), you can check for duplicates periodically using [scheduled jobs](https://docs.microsoft.com/power-platform/admin/run-bulk-system-jobs-detect-duplicate-records). To create a scheduled job, go to the Power Platform admin center then select **Settings** > **Data management** > **Duplicate detection jobs**. Create a new job, add the email address fields you want to check, and define the schedule.
+As some changes to the customer database are not captured by the global duplicate detection rules (for example, when merging contact records or activating them), you can check for duplicates periodically using [scheduled jobs](/power-platform/admin/run-bulk-system-jobs-detect-duplicate-records). To create a scheduled job, go to the Power Platform admin center then select **Settings** > **Data management** > **Duplicate detection jobs**. Create a new job, add the email address fields you want to check, and define the schedule.
 
 > [!div class="mx-imgBorder"]
 > ![Create a scheduled job](media/subscription-scheduled-job.png)
 
 After detecting duplicate email records, you can choose a master record and merge, delete, or edit other duplicates.
 
-If you need to further customize duplicate email processing, refer to the [Detect duplicate data using code](https://docs.microsoft.com/powerapps/developer/data-platform/detect-duplicate-data-with-code) article.
+If you need to further customize duplicate email processing, refer to the [Detect duplicate data using code](/powerapps/developer/data-platform/detect-duplicate-data-with-code) article.
 
 ### Update consent for all contacts sharing the same email address once one contact has opted out
 

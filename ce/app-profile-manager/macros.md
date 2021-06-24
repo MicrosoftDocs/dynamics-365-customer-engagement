@@ -1,17 +1,16 @@
 ---
 title: "Macros in the Customer Service workspace and Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about macros and how to configure in the Customer Service workspace and Omnichannel Administration app."
+description: "This topic provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/22/2021
+ms.date: 04/09/2021
 ms.service: "dynamics-365-customerservice"
 ms.topic: article
 ---
 
 # Automate tasks with macros 
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Overview of macros
 
@@ -48,7 +47,7 @@ The macros in Omnichannel for Customer Service have the following:
 
 ## Predefined automation actions
 
-In Omnichannel for Customer Service, macros provide three connectors:
+In Customer Service, macros provide three connectors:
 
 - [Productivity automation](#productivity-automation): Provides actions to perform model-driven app operations.
 
@@ -434,23 +433,21 @@ Now, when the agent runs the macro, the actions will be run by fetching the data
 
 As an administrator, you can view the macro run history, which shows how many times a macro has been run, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
 
-1. Sign in to Omnichannel Administration.
+1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Macros**. If you're using the Omnichannel Administration app, under **Agent Experience**, select **Macros**.
 
-2. Under **Agent Experience**, select **Macros**.
+2. Select the macro for which you want to view the history.
 
-3. Select the macro for which you want to view the history.
-
-4. Select **View run history**.
+3. Select **View run history**.
 
    > [!div class=mx-imgBorder] 
    > ![View the run history for a macro](../customer-service/media/macro-run-history.png "View the run history for a macro")
 
-5. Select the macro that failed from the list.
+4. Select the macro that failed from the list.
 
    > [!div class=mx-imgBorder] 
    > ![Select the macro that failed](../customer-service/media/macro-run-history-list.png "Select the macro that failed")
 
-6. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might have been passed incorrectly or slug data parameters that were updated incorrectly.
+5. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might've been passed incorrectly or slug data parameters that were updated incorrectly.
 
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps](../customer-service/media/macro-run-history-fail.png "Review the macro action steps")
@@ -460,7 +457,7 @@ As an administrator, you can view the macro run history, which shows how many ti
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps to understand failure reason](../customer-service/media/macro-run-history-fail-reason.png "Review the macro action steps to understand failure reason")
 
-7. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
+6. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
 
 > [!Note]
 > If the issue persists, contact Microsoft support.

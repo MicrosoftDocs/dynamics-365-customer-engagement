@@ -2,13 +2,11 @@
 title: "Lock or unlock the price for an order or invoice in Dynamics 365 Sales | MicrosoftDocs"
 description: "Define whether the prices on orders and invoices in Dynamics 365 Sales will be locked."
 ms.date: 06/22/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-invoice
   - D365-Entity-salesorder

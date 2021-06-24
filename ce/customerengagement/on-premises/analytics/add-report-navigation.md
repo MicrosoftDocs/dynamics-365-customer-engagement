@@ -1,5 +1,6 @@
 ---
-title: "Add report navigation (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Add report navigation Dynamics 365 for Customer Engagement (on-premises) | MicrosoftDocs"
+description: Learn how to add navigation to your reports
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -25,7 +26,7 @@ search.audienceType:
 Report navigation enables a dynamic and interactive reporting experience. By using various types of actions, reports let the user navigate to detailed reports, records, or other websites.  
   
 > [!NOTE]
->  For more information about report navigation, see [Drillthrough, Drilldown, Subreports, and Nested Data Regions (Report Builder and SSRS)](https://technet.microsoft.com/library/dd207141.aspx) in the [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] documentation. This topic describes report navigation that is specific to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports.  
+>  For more information about report navigation, see [Drillthrough, Drilldown, Subreports, and Nested Data Regions (Report Builder and SSRS)](/sql/reporting-services/report-design/drillthrough-drilldown-subreports-and-nested-data-regions) in the [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] documentation. This topic describes report navigation that is specific to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports.  
   
 ## Dynamic drill through  
  You can drill through a report to navigate to an apps web form. A drill-through report is implemented in the following steps:  

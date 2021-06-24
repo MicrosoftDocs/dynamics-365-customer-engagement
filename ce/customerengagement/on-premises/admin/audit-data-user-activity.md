@@ -1,5 +1,6 @@
 ---
 title: "Audit data and user activity  | MicrosoftDocs"
+description: "Log changes that are made to customer records and user access so you can review the activity later."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -14,17 +15,19 @@ ms.assetid: f8966997-6047-4ff7-b3ae-47cbceea96a2
 caps.latest.revision: 17
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Audit data and user activity for security and compliance
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 The Dynamics 365 Customer Engagement (on-premises) auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
 <!-- 
 > [!NOTE]
-> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](enable-use-comprehensive-auditing.md).
+> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](/power-platform/admin/enable-use-comprehensive-auditing).
 -->
  The audit logs help the Customer Engagement (on-premises) administrator answer questions such as:  
   

@@ -1,26 +1,25 @@
 ---
 title: "Develop customized IoT solutions in Connected Field Service | MicrosoftDocs"
 description: "Connected Field Service integrates Internet of Things (IoT) devices with Dynamics 365 (online) to enable their registration, monitoring and management into established business processes."
+ms.date: 01/05/2018
+ms.service: dynamics-365-customerservice
+ms.topic: get-started-article
+ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
+author: FieldServiceDave
+ms.author: daclar
+ms.reviewer: krbjoran
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 8
+search.audienceType: 
+  - developer
 ms.custom: 
   - dyn365-developer
   - dyn365-fieldservice
-ms.date: 01/05/2018
-ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: get-started-article
-ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
-caps.latest.revision: 8
-author: FieldServiceDave
-ms.author: daclar
-search.audienceType: 
-  - developer
 search.app: 
   - D365CE
   - D365FS
+ms.technology: field-service
 ---
 # Develop customized IoT solutions in Connected Field Service
 

@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 2  Display an external webpage in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display an external web page in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 2: Display external URLs and webpages for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying external URLs and webpages in your agent application. "
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
@@ -15,7 +14,7 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 2: Display an external webpage in your agent application
+# Walkthrough 2: Display external URLs and webpages in your agent application
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 

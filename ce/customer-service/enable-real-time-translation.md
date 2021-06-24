@@ -1,12 +1,11 @@
 ---
 title: "Enable translation settings in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Steps for enabling language translation for customer chats in the Omnichannel for Customer Service app."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Enable real-time translation of conversations
@@ -28,8 +27,7 @@ You must add a web resource and make sure that the required language translation
 
 ## Enable real-time translation for agent and customer conversations
 
-1. Sign in to the Omnichannel Administration app.
-1. Under **Settings**, select **Real Time Translation**.
+1. In the site map of Omnichannel admin center, select **Agent experience**, and then select **Manage** for **Real Time Translation**. If you're using the Omnichannel Administration app, under **Settings**, select **Real Time Translation**.
 1. On the **Omnichannel Configuration·Real Time Translation Settings** page, in the **General Information** area, set the toggle for **Turn on** to **Yes**.
 1. In **Default input language**, select the language for agents to converse with customers. The translation engine translates the customer messages for agents to the language specified. By, default, it's set to English (en-us).
 1. In the **Web resource** area, in the **Web resource URL** box, enter the link of the web resource.

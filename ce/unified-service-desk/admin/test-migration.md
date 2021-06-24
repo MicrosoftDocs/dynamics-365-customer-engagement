@@ -1,20 +1,19 @@
 ---
-title: "Post-migration steps | MicrosoftDocs"
-description: "Test migration of web client configurations to the Unified Interface app."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Post migration steps | MicrosoftDocs"
+description: "Learn about the tasks you must perform after migrating configurations from legacy web client to the Unified Interface app."
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 
 # Post-migration steps

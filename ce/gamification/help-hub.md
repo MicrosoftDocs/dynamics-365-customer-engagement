@@ -23,6 +23,8 @@ search.app:
 
 # Gamification help and training
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 <table>
 <tr>
 <td>
@@ -31,7 +33,7 @@ search.app:
 <li><a href="increase-employee-productivity.md" data-raw-source="[Gamification overview](increase-employee-productivity.md)">Gamification overview</a></li>
 <li><a href="get-started.md" data-raw-source="[Get started](get-started.md)">Get started</a></li>
 <li><a href="glossary.md" data-raw-source="[Terminology](glossary.md)">Terminology</a></li>
-<li><a href="frequently-asked-questions.md" data-raw-source="[Frequently asked questions](frequently-asked-questions.md)">Frequently asked questions</a></li>
+<li><a href="frequently-asked-questions.yml" data-raw-source="[Frequently asked questions](frequently-asked-questions.yml)">Frequently asked questions</a></li>
 </td>
 <td>
 

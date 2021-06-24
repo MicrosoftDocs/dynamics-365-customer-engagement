@@ -1,11 +1,11 @@
 ---
 title: "removeAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 07/01/2019
 ms.topic: article
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # removeAuthTokenProvider
 

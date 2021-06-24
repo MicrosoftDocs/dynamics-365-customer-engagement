@@ -1,24 +1,26 @@
 ---
 title: "System Settings dialog box - Sales tab  | MicrosoftDocs"
-description: ""
+description: "Configure system-level settings for the sales area of Dynamics 365 Customer Engagement (on-premises)."
 keywords: 
 ms.date: 10/01/2019
-ms.service:
-  - crm-online
+ms.service: crm-online
 ms.topic: article
-applies_to:
+applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 08b3057d-03ad-41d0-a6b3-4770add682b2
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 14
 ---
 # System Settings dialog box - Sales tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Use the settings on this page to configure system-level settings for the sales area of Dynamics 365 Customer Engagement (on-premises).  
   

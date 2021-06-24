@@ -50,7 +50,7 @@ search.app:
 > [!IMPORTANT]
 >  [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] or earlier versions are not supported for use with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 > 
->  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock required URLs](../../admin/troubleshooting-unblock-urls-required.md). 
+>  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock required URLs](/power-platform/admin/troubleshooting-unblock-urls-required). 
   
  **Microsoft Office**. One of the following:  
   

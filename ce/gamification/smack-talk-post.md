@@ -20,6 +20,8 @@ search.app:
 ---
 # Post on the smack talk board in Gamification
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 A [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] competition includes lively discussion and lets players claim their bragging rights. Make sure you tell other players when you land a great achievement, or congratulate your peers when they're successful. In the end, don't you want to be the leader of the pack and the most-drafted player on other teams?  
   
 ## Join the discussion with other players and fans  

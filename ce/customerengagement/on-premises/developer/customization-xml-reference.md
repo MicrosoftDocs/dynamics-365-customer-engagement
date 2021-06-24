@@ -36,7 +36,7 @@ The customizations.xml file is one of the files included in an exported unmanage
  [Ribbon WSS schema](customize-dev/ribbon-wss-schema.md)  
  [SiteMap schema](customize-dev/sitemap-schema.md)  
  [Form XML schema](customize-dev/form-xml-schema.md)  
- [FetchXML schema](org-service/fetchxml-schema.md)  
+ [FetchXML schema](/powerapps/developer/data-platform/fetchxml-schema)  
 
 ## Related Sections
 

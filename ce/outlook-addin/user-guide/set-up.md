@@ -62,9 +62,9 @@ search.app:
 ### Step 2: Download the software  
  Before you or your users install [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)], please note the following:  
   
-- Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps](../../customize/overview.md).
+- Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps](../../customerengagement/on-premises/customize/overview.md).
   
-- Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
+- Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753996(v=ws.11))  
   
 - For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn Cached Exchange mode on or off](https://support.office.com/article/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
@@ -123,7 +123,7 @@ search.app:
   
 > [!IMPORTANT]
 > - To install and use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], your organization must be running [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)].
-> - [!INCLUDE[pn_crm_2013_for_outlook_long](../../includes/pn-crm-2013-for-outlook-long.md)] is not compatible with [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)]. At a minimum, you must update [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] to UR1 to use it with [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: Upgrading from CRM 2013 for Outlook to CRM 2015 for Outlook](https://technet.microsoft.com/library/hh699711.aspx)
+> - [!INCLUDE[pn_crm_2013_for_outlook_long](../../includes/pn-crm-2013-for-outlook-long.md)] is not compatible with [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)]. At a minimum, you must update [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] to UR1 to use it with [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: Upgrading from CRM 2013 for Outlook to CRM 2015 for Outlook](/previous-versions/dynamicscrm-2016/administering-dynamics-365/hh699711(v=crm.8))
 
 ### Step 1: Review installation prerequisites
 
@@ -154,7 +154,7 @@ search.app:
   
 - Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps]../../customize/overview.md).  
   
-- Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
+- Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753996(v=ws.11))  
   
 - For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn Cached Exchange mode on or off](https://support.office.com/article/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)    
   
@@ -236,7 +236,7 @@ search.app:
   
 - Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 apps]../../customize/overview.md).  
   
-- Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
+- Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753996(v=ws.11))  
   
 - For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn Cached Exchange mode on or off](https://support.office.com/article/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
@@ -303,7 +303,7 @@ search.app:
 3. In the **Organization** list, select the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization you want to connect to, and then click **OK**. Then click **Close**.
 
    > [!TIP]
-   >  If you have problems installing and configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], try [Configuration Troubleshooting Wizard](https://go.microsoft.com/fwlink/p/?LinkID=394362).
+   >  If you have problems installing and configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], try [Configuration Troubleshooting Wizard](/previous-versions/dynamicscrm-2013/developers-guide/hh547453(v=crm.6)).
 
 ### See also
  [Upgrade Microsoft Dynamics CRM for Outlook](../admin-guide/upgrade.md)

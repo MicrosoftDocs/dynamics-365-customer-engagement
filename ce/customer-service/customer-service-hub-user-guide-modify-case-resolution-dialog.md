@@ -1,19 +1,20 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | Microsoft Docs"
 description: "Understand cases in Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 04/07/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/07/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Modify case resolution dialog box
 
-Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This new functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
+Updates to the case resolution main form dialog box provide customers with additional functionality to support case resolution entities and edit the dialog box. This functionality provides a powerful construct to expand the case resolution entity to support business needs that enable users to add and remove fields instantly without writing a single line of code.
 
-The new main form dialog experience is similar to the old experience, but behind the scenes, this is a form that customers can quickly edit. Customers can go to the form designer and edit and modify fields according to their business needs.
+Customers can go to the form designer and edit and modify fields according to their business needs.
+
+The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
 
 Use the following steps to get started:
 
@@ -36,7 +37,7 @@ Permissions must be set per the following example. Otherwise, you will not see t
 > [!div class=mx-imgBorder]
 > ![Security Role: Customer Service Representative (CSR) Manager](media/csr-manager-setting-case-resolution.png "Security Role: Customer Service Representative (CSR) Manager")
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > If you've created your own security roles, you'll need to update your roles before you can use the modified Case Resolution dialog.
 
 ## Enable customizable dialog
@@ -66,7 +67,8 @@ When adding custom status values, you must update them in the following two loca
 - **Case entity** (status code)
 - **Case Resolution entity** (resolution status code)
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
+>
 > - If you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** to match.
 > - If the values do not match, an error message will be displayed when you try to resolve the case.
 

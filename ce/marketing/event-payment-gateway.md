@@ -103,7 +103,7 @@ To assign a payment gateway to an event:
 
     ![The portal payment gateway setting](media/payment-gateway-setting.png "The portal payment gateway setting")
 
-1. Restart your portal or refresh its server cache to make sure your new setting takes effect right away. For instructions, see [How can I fix occasional portal issues?](setup-troubleshooting.md#restart-portal).
+1. Restart your portal or refresh its server cache to make sure your new setting takes effect right away. For instructions, see [How can I fix occasional portal issues?](setup-troubleshooting.yml#restart-the-portal).
 
 > [!NOTE]
 > The payment gateway is only displayed for events that have at least one event pass configured for them. More information: [Set up event passes](set-up-event.md#event-passes)
@@ -138,7 +138,7 @@ After a contact submits their registration and payment details, the following ev
 
 You'll probably need assistance from a developer to create the custom back-end service. You (or your developer) can use any implementation technology you like to create it.
 
-Your back-end service must authenticate against your Dynamics 365 Marketing instance to enable the service to execute the custom actions needed to finalize the workflow. More information: [Authenticate to Microsoft Dataverse with the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/authenticate-web-api)
+Your back-end service must authenticate against your Dynamics 365 Marketing instance to enable the service to execute the custom actions needed to finalize the workflow. More information: [Authenticate to Microsoft Dataverse with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api)
 
 Depending on your payment provider, your back-end service may also be able to apply additional checks to the transaction. This isn't strictly required to finalize the registration, but it is good practice. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action `msevtmgt_GetPurchaseDetailsAction`. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, and currency symbol.
 
@@ -150,7 +150,7 @@ After your back-end solution has verified payment, it must invoke the `msevtmgt_
 - `ReadableEventId`: A value that uniquely identifies the event. One way that you can see this is by opening the relevant event record, going to the **General** tab and finding the **Readable event ID** field.
 - `UserId`: Identifies the contact who made the purchase. This is the ID for the contact record in Dynamics 365.
 
-For more information about how to execute custom actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+For more information about how to execute custom actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
 ### See also
 

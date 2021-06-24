@@ -28,7 +28,7 @@ This section provides a single location for you to learn about the developer too
 
 - [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) - The tool helps you to create, update, delete, and preview web resources. It also includes support for deploying TypeScript files and Mapping files, allowing client side debugging of TypeScript.
 
-- [FetchXML Builder](https://fxb.xrmtoolbox.com) - Provides a UI to compose FetchXML queries, execute, convert to code, update system views etc. More information: [Build queries with FetchXML](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/build-queries-fetchxml).
+- [FetchXML Builder](https://fxb.xrmtoolbox.com) - Provides a UI to compose FetchXML queries, execute, convert to code, update system views etc. More information: [Build queries with FetchXML](/dynamics365/customer-engagement/developer/org-service/build-queries-fetchxml).
 
 - [View Layout Replicator](https://www.xrmtoolbox.com/plugins/MsCrmTools.ViewLayoutReplicator) - The tool helps you to copy and apply the layout of a particular view to multiple views of the same entity.
 
@@ -50,7 +50,7 @@ This section provides a single location for you to learn about the developer too
 
 - [Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator) - The tool helps you to export and import translation of the content with contextual information.
 
-- [Auto Number Manager](https://anm.xrmtoolbox.com) - Provides a UI to set, update and remove auto number format on new or existing attributes. More information: [Create auto-number attributes](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-auto-number-attributes)
+- [Auto Number Manager](https://anm.xrmtoolbox.com) - Provides a UI to set, update and remove auto number format on new or existing attributes. More information: [Create auto-number attributes](/dynamics365/customer-engagement/developer/create-auto-number-attributes)
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

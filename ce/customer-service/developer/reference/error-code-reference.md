@@ -1,11 +1,11 @@
 ---
 title: "Error code reference for Omnichannel for Customer Service | MicrosoftDocs"
 description: "Read about the error codes and error messages that are returned when using the live chat SDK methods, and how to resolve the errors"
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 10/09/2019
 ms.topic: article
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Error code reference for Omnichannel for Customer Service
 
@@ -20,6 +20,7 @@ Here are the error codes and error messages that are returned when using live ch
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 |7|Live chat widget scripts failed to load|
+|8|Auth function cannot be found on webpage|
 
 > [!Note]
 > The live chat widget script can fail to load for a number of reasons. One possible reason is the user has disabled access to session and local storage in their browser. The reason will be described in the `errorDetail` attribute. 

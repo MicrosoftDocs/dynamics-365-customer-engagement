@@ -22,6 +22,8 @@ search.app:
 
 # How to sign in to the Gamification portal
 
+[!INCLUDE[cc-gamification-deprecation-notice](../includes/cc-gamification-deprecation-notice.md)]
+
 Before we dig into more detail about [!INCLUDE[pn_gamification](../includes/pn-gamification.md)], make sure you can [sign in](https://go.microsoft.com/fwlink/p/?linkid=830344) to the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] portal.
 
 ## Sign in to Gamification from Dynamics 365 apps

@@ -26,7 +26,7 @@ search.audienceType:
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] is part of the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] collaboration and productivity tools. The [Microsoft Office 365 portal](https://www.microsoft.com/office365) provides a single sign-on experience for [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] customers where they can sign in once and access any [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] application, including [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. In addition, system user accounts in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] can be provisioned in the [Microsoft Online Services](https://portal.microsoftonline.com/) admin portal.  
   
- Using federation, applications can connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] using the same system user identities and credentials available in an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] based network. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Single sign-on roadmap](https://technet.microsoft.com/library/hh967643.aspx).  
+ Using federation, applications can connect to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] using the same system user identities and credentials available in an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] based network. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Single sign-on roadmap](/previous-versions/azure/azure-services/hh967643(v=azure.100)).  
   
 ## In This Section  
  [Dynamics 365 Customer Engagement (on-premises) Integration with Office 365](online-integration-office-365.md)  

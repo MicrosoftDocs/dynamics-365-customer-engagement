@@ -1,12 +1,11 @@
 ---
 title: "Enable conversations to be assigned automatically in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Instructions for enabling auto-assign of conversations in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Enable conversations to be assigned automatically
@@ -37,7 +36,7 @@ Perform the following steps:
 
 ### See also
 
-[Manage notification templates](notification-templates.md)  
+[Manage notification templates](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
 [View notifications](oc-notifications.md)  
 
 

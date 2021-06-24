@@ -1,20 +1,19 @@
 ---
-title: "Unified Service Desk  - Interactive service hub package | MicrosoftDocs"
-description: "Overview of the Interactive service hub sample application."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Unified Service Desk&mdash;Interactive service hub package | MicrosoftDocs"
+description: "Learn about the Interactive Service Hub sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Interactive service hub sample application package
 
@@ -27,7 +26,7 @@ search.app:
   
  This package is best used in the following situations:  
   
-- Dataverse environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](https://go.microsoft.com/fwlink/?linkid=857154)  
+- Dataverse environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](../../customer-service/customer-service-hub-user-guide-basics.md)  
   
 - Dataverse environments that are already using the interactive service hub.  
   

@@ -32,14 +32,14 @@ A message *queue* is a repository of messages received at a service bus endpoint
 > [!IMPORTANT]
 >  When writing a queue listener, check each message header action to determine if the message originated from Dynamics 365 Customer Engagement (on-premises). For information on how to do this see [Filter messages](write-listener-application-azure-solution.md#filter).  
   
-You can do a destructive message read using [Receive](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.queueclient.receive.aspx) in [ReceiveAndDelete](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.receivemode.aspx) mode, where the message is read and removed from the queue, or a non-destructive read using [PeekLock](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.receivemode.aspx) mode, where the message is read but still available in the queue. The persistent queue listener sample code provided in this SDK does a destructive read. For more information about reading messages from a queue, see [How to Receive Messages from a Queue](https://azure.microsoft.com/documentation/articles/service-bus-dotnet-how-to-use-queues/#how-to-receive-messages-from-a-queue).  
+You can do a destructive message read using [Receive](/dotnet/api/microsoft.servicebus.messaging.queueclient) in [ReceiveAndDelete](/dotnet/api/microsoft.servicebus.messaging.receivemode) mode, where the message is read and removed from the queue, or a non-destructive read using [PeekLock](/dotnet/api/microsoft.servicebus.messaging.receivemode) mode, where the message is read but still available in the queue. The persistent queue listener sample code provided in this SDK does a destructive read. For more information about reading messages from a queue, see [How to Receive Messages from a Queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues#how-to-receive-messages-from-a-queue).  
   
-A *topic* is similar to a queue but implements a publish/subscribe model. One or more listeners can subscribe to the topic and receive messages from its queue. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Queues, Topics, and Subscriptions](https://msdn.microsoft.com/library/windowsazure/hh367516.aspx)  
+A *topic* is similar to a queue but implements a publish/subscribe model. One or more listeners can subscribe to the topic and receive messages from its queue. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Queues, Topics, and Subscriptions](/previous-versions/azure/hh367516(v=azure.100))  
   
 > [!IMPORTANT]
 >  To use these queue or topic contracts, you must write your listener applications using the [Azure SDK](https://azure.microsoft.com/downloads/archive-net-downloads/) version 1.7 or higher.  
   
-Use of queues and topics in your multisystem software design can result in the decoupling of systems. If the listener application ever becomes unavailable, the message delivery from Dynamics 365 Customer Engagement (on-premises) will still succeed and the listener application can continue processing the queue message when it is back online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Queues, Topics, and Subscriptions](https://msdn.microsoft.com/library/windowsazure/hh367516.aspx)  
+Use of queues and topics in your multisystem software design can result in the decoupling of systems. If the listener application ever becomes unavailable, the message delivery from Dynamics 365 Customer Engagement (on-premises) will still succeed and the listener application can continue processing the queue message when it is back online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Queues, Topics, and Subscriptions](/previous-versions/azure/hh367516(v=azure.100))  
   
 <a name="bkmk_writeoneway"></a>
 
@@ -53,7 +53,7 @@ Writing a listener is structured around what is known as ABC: address, binding, 
   
 - Address: service URI  
   
-- Binding: [WS2007HttpRelayBinding](https://msdn.microsoft.com/library/microsoft.servicebus.ws2007httprelaybinding.aspx)  
+- Binding: [WS2007HttpRelayBinding](/dotnet/api/microsoft.servicebus.ws2007httprelaybinding)  
   
 - Contract: <xref:Microsoft.Xrm.Sdk.IServiceEndpointPlugin>  
   
@@ -63,7 +63,7 @@ After your listener is registered with an endpoint, the listener’s <xref:Micro
   
 - Address: service URI  
   
-- Binding: [WS2007HttpRelayBinding](https://msdn.microsoft.com/library/microsoft.servicebus.ws2007httprelaybinding.aspx)  
+- Binding: [WS2007HttpRelayBinding](/dotnet/api/microsoft.servicebus.ws2007httprelaybinding)  
   
 - Contract: <xref:Microsoft.Xrm.Sdk.ITwoWayServiceEndpointPlugin>  
   
@@ -73,11 +73,11 @@ For this two-way contract, the <xref:Microsoft.Xrm.Sdk.ITwoWayServiceEndpointPlu
   
 - Address: service URI  
   
-- Binding: [WebHttpRelayBinding](https://msdn.microsoft.com/library/microsoft.servicebus.webhttprelaybinding.aspx)  
+- Binding: [WebHttpRelayBinding](/dotnet/api/microsoft.servicebus.webhttprelaybinding)  
   
 - Contract: <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin>  
   
-For the REST contract, the <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin.Execute*>  method returns a string from the method call. Refer to the REST listener sample, [Sample: REST Listener](sample-rest-listener.md), for more information. Notice that in the REST listener sample, a [WebServiceHost](https://msdn.microsoft.com/library/system.servicemodel.web.webservicehost.aspx) is instantiated and not a [ServiceHost](https://msdn.microsoft.com/library/system.servicemodel.servicehost.aspx) as was done in the two-way sample.  
+For the REST contract, the <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin.Execute*>  method returns a string from the method call. Refer to the REST listener sample, [Sample: REST Listener](sample-rest-listener.md), for more information. Notice that in the REST listener sample, a [WebServiceHost](/dotnet/api/system.servicemodel.web.webservicehost) is instantiated and not a [ServiceHost](/dotnet/api/system.servicemodel.servicehost) as was done in the two-way sample.  
   
 > [!NOTE]
 >  When using the out-of-box (ServiceBusPlugin) plug-in with a two-way or REST listener, the plug-in doesn’t use any string data returned from the listener. However, a custom [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)]-aware plug-in could make use of this information.  
@@ -88,7 +88,7 @@ For the REST contract, the <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin
 
 ## Filter messages
 
-There is a property bag of extra information added to each brokered message [Properties](https://msdn.microsoft.com/library/windowsazure/microsoft.servicebus.messaging.brokeredmessage.properties.aspx) property sent from [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The property bag, available with queue, relay, and topic contract endpoints, contains the following information:  
+There is a property bag of extra information added to each brokered message [Properties](/dotnet/api/microsoft.servicebus.messaging.brokeredmessage) property sent from [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The property bag, available with queue, relay, and topic contract endpoints, contains the following information:  
   
 - Organization URI  
   

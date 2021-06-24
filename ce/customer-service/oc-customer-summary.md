@@ -1,15 +1,14 @@
 ---
-title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
+title: "View customer summary in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
+ms.date: 04/19/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/11/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
-# View a customer summary to get available information about a customer
+# View customer summary to get available information about customers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -43,13 +42,13 @@ Use the customer section to search for an existing contact or account record in 
 
 ## Conversation summary
 
-The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The details shown in the **Conversation details** area include the following:
+The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The information shown in the **Conversation details** area includes the following:
 
-- Engagement channel
-- Waiting time
-- Skills
-- Queue
-- Start time
+- **Engagement channel**: The channel, such as live chat or custom channel, through which the conversation is taking place.
+- **Waiting time**: The time the customer had to wait before the conversation was assigned to the agent.
+- **Skills**: The skills that had been attached for routing the conversation. If your administrator has enabled the setting for agents to update skills, you can add or remove skills.
+- **Queue**: The queue through which the conversation has been assigned to you.
+- **Start time**: The time when you started the conversation.
 
   > [!div class='mx-imgBorder']
   > ![Conversation details](media/conversation-details.png "Conversation-details")

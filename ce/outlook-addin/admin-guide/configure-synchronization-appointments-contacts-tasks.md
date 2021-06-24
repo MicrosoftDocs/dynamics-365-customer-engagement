@@ -35,7 +35,7 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
 ## Enable appointment attachment synchronization with Outlook or Exchange
 
 > [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](../../admin/integrate-synchronize-your-email-system.md) 
+>  This section applies to message synchronization done through [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](/power-platform/admin/integrate-synchronize-your-email-system) 
   
  Users can attach documents, pictures, recordings, etc. to the appointments they create in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. By default, appointment attachment synchronization is disabled. To enable:  
   
@@ -58,7 +58,7 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
 ## Address synchronization for Contacts  
   
 > [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](../../admin/integrate-synchronize-your-email-system.md)
+>  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](/power-platform/admin/integrate-synchronize-your-email-system)
 
  Admins have two options they can specify for how contact synchronization occurs.
 
@@ -78,7 +78,7 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
 ## Enable synchronization for tasks that are assigned in Outlook  
   
 > [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](../../admin/integrate-synchronize-your-email-system.md)
+>  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](/power-platform/admin/integrate-synchronize-your-email-system)
 
  By default, task synchronization is disabled. User created tasks in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are not synchronized with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application. To enable:
 

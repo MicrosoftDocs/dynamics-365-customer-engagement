@@ -1,20 +1,19 @@
 ---
-title: "UII computer telephony integration (CTI) framework in Unified Service Desk | MicrosoftDocs"
-description: "Learn information about UII computer telephony integration (CTI) framework in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "UII computer telephony integration (CTI) framework overview | MicrosoftDocs"
+description: "Learn about the UII computer telephony integration (CTI) framework and its components in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # UII computer telephony integration (CTI) framework
 The [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)][!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] framework allows businesses or organizations to connect [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)]-based desktops (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]) with their [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] infrastructure. Although a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] system typically refers to telephony integration with software systems, the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] framework can be used for any communications channel available to an organization.  
@@ -39,7 +38,7 @@ The [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-in
  For more information, see [Create a CTI Connector](../unified-service-desk/create-cti-connector.md).  
   
 ### CTI Desktop Manager  
- [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] provides the business logic for your CTI adapter. It responds to a call when it arrives in the UII desktop (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]), and performs the necessary steps to connect to the [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] and create call management ([ICtiCallStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.icticallstatemanager)) and agent state management ([ICtiAgentStateManager](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatemanager)) objects. The call state and agent state objects collectively manage the state and data of a call as a unique object to isolate information as there can be multiple or concurrent calls. [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] is implemented as a hosted control that communicates between the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop and the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] system to raise events and route calls appropriately in the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop.  
+ [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] provides the business logic for your CTI adapter. It responds to a call when it arrives in the UII desktop (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]), and performs the necessary steps to connect to the [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] and create call management ([ICtiCallStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.icticallstatemanager)) and agent state management ([ICtiAgentStateManager](/dotnet/api/microsoft.uii.desktop.cti.core.ictiagentstatemanager)) objects. The call state and agent state objects collectively manage the state and data of a call as a unique object to isolate information as there can be multiple or concurrent calls. [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] is implemented as a hosted control that communicates between the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop and the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] system to raise events and route calls appropriately in the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] desktop.  
   
  For more information, see [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md).  
   

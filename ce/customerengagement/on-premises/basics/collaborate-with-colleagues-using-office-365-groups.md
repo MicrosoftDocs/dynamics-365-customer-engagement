@@ -1,6 +1,7 @@
 ---
 title: "Collaborate with your colleagues using Microsoft 365 Groups (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
+description: How to collaborate with your colleagues using Microsoft 365 Groups.
 ms.date: 05/05/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -56,7 +57,7 @@ search.audienceType:
 4. In the **Welcome to Microsoft 365 Groups for Dynamics 365 Customer Engagement (on-premises)!** section, select **Create Microsoft 365 Group** or search for an existing group to join.  
   
 > [!NOTE]
-> - As of November 2019, Office Groups with MIP (Microsoft Information Protection) sensitivity labels can't be created from Dynamics 365 (on-premises). You have to create the group outside of Dynamics 365 (on-premises). For more information see, [Learn more about creating new group with Sensitivity Label](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#apply-a-sensitivity-label-to-a-new-group). Once this is done, add the link from Dynamics 365 (on-premises) by [joining the group](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/collaborate-with-colleagues-using-office-365-groups#create--or-join-a-group).
+> - As of November 2019, Office Groups with MIP (Microsoft Information Protection) sensitivity labels can't be created from Dynamics 365 (on-premises). You have to create the group outside of Dynamics 365 (on-premises). For more information see, [Learn more about creating new group with Sensitivity Label](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#apply-a-sensitivity-label-to-a-new-group). Once this is done, add the link from Dynamics 365 (on-premises) by joining the group.
 > - You can only connect to groups returned in search for which you are a member. Hover over the search results to see your status.  
 >   - When you add team members to a project, they will be automatically added to the associated group.  
 >   - You can associate existing groups to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. You don't need to create a new group to create an association.  

@@ -169,10 +169,10 @@ Dynamics 365 Customer Engagement (on-premises) has 271 entities; of these, 98 en
 ### See also  
  [Using Managed Properties](use-managed-properties.md)   
  [Customize Entity Metadata](customize-entity-metadata.md)   
- [Create a Custom Entity](org-service/create-custom-entity.md)   
+ [Create a Custom Entity](/powerapps/developer/data-platform/org-service/create-custom-entity)   
  [Change Entity Icons](modify-icons-entity.md)   
  [Change Entity Messages](modify-messages-entity.md)   
- [Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)
+ [Sample: Create and Update Entity Metadata](/powerapps/developer/data-platform/org-service/create-custom-entity)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -105,7 +105,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
  ![Contact with Job Title form in Dynamics 365 apps](../media/crm-itpro-contactwithjobtitle.png "Contact with Job Title form in Dynamics 365 apps")  
   
 ### See Also  
- [Field level security to control access](../../admin/field-level-security.md)
+ [Field level security to control access](/power-platform/admin/field-level-security)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,5 +1,7 @@
 ---
 title: "Deployment Web service domain user account | Microsoft Docs"
+description: Environment diagnostics warning that there's a problem with the domain user account specified.
+ms.service: crm-online
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -41,7 +43,7 @@ ms.author: matp
   
 -   The user account is not a local system account.  
   
--   The credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup, services, and components](https://go.microsoft.com/fwlink/p/?LinkID=306136).  
+-   The credentials specified in the XML Setup configuration file or on the **Specify Service Accounts** page in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Setup are valid. For information on permissions for service accounts, see [Minimum permissions required for Microsoft Dynamics CRM Setup, services, and components](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699825(v=crm.8)).  
   
 -   The user account is a domain user in the same [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain as the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
   

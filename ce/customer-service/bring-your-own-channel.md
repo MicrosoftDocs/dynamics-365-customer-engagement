@@ -1,12 +1,11 @@
 ---
 title: "Bring your own custom messaging channel  Direct Line Bot | Microsoft Docs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line Bot."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 10/12/2020
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ---
 # Bring your own custom messaging channel: Direct Line Bot
 
@@ -100,8 +99,8 @@ The inbound request from the channel is validated based on the signing key, and 
 
 The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object contains the following attributes:
 
-|    |       |
-|----|  ---  |
+|Attribute    |Description       |
+|-------------|------------------|
 |**From**|This holds channel account information, which consists of ID (unique identifier of the user) and name (combination of first name and last name, separated by a space delimiter).|
 |**ChannelId**| For inbound requests, `ChannelId` would be directline.|
 |**ServiceUrl**| For inbound requests, ServiceUrl would be `https://directline.botframework.com/`.|
@@ -308,7 +307,7 @@ Initiate a conversation with direct line and store the conversation object sent 
      if (directLineConversation.Conversation == null)
      {
          throw new Exception(
-             "An error occured while starting the Conversation with direct line. Please validate the direct line secret in the configuration file.");
+             "An error occurred while starting the Conversation with direct line. Please validate the direct line secret in the configuration file.");
      }
 
      // Adding the Direct Line Conversation object to the lookup dictionary and starting a thread to poll the activities from the direct line bot.
@@ -410,7 +409,7 @@ For information about how to configure a custom messaging channel, see [Configur
 
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  
-[Key concepts in Direct Line API 3.0](https://docs.microsoft.com/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
+[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
 [MessageBird API reference](https://developers.messagebird.com/api)
 
 

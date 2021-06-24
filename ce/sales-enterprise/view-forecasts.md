@@ -2,20 +2,19 @@
 title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
 ms.date: 10/26/2020
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-searchScope:
+ms.custom: 
+  - dyn365-sales
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
   - D365-UI-*
   - Dynamics 365
   - Sales
   - Customer Engagement
-
 ---
 
 # View a forecast
@@ -112,8 +111,7 @@ Using the forecast grid, you can do the following tasks:
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 [Configure a forecast](configure-forecast.md)<br>
-[Analyze revenue outcome by using predictive forecasting](https://docs.microsoft.com/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
-[Retrieve forecast and snapshot data using msdyn_ForecastInstanceActions for GDPR](developer/reference/entities/export-forecast-data.md)
+[Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

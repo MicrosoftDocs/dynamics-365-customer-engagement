@@ -1,6 +1,6 @@
 ---
-title: "Resolving booking conflicts in resource scheduling optimization for Dynamics 365 | MicrosoftDocs"
-description: Learn how to resolve booking conflicts in resource scheduling optimization for Dynamics 365
+title: "Resolving booking conflicts in Resource Scheduling Optimization for Dynamics 365 | MicrosoftDocs"
+description: Learn how to resolve booking conflicts in Resource Scheduling Optimization for Dynamics 365
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 12/05/2018
@@ -18,9 +18,9 @@ search.app:
   - D365FS
 ---
 
-# Resolving booking conflicts in resource scheduling optimization
+# Resolving booking conflicts in Resource Scheduling Optimization
 
-Conflicts will arise when a related resource, requirement, or booking is edited by a dispatcher or field technician during optimization; the resource scheduling optimization solution provides a way to understand these conflicts and resolve them.
+Conflicts will arise when a related resource, requirement, or booking is edited by a dispatcher or field technician during optimization; the Resource Scheduling Optimization solution provides a way to understand these conflicts and resolve them.
 
 In conflict scenarios, the optimization request will have the status **Completed with Conflicts** (in earlier versions, the status showed as **Failed**).
 
@@ -29,7 +29,7 @@ Within the optimization request booking view, you can see the conflicted booking
 The **Operation Details** column shows additional details, like the specific data modified during optimization. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict.png)
+> ![Requirement group with two requirements](./media/scheduling-rso-3-0-booking-conflict.png)
 
 To resolve the issue, select one or more conflicted bookings (with a Simulation status), and choose either:
 
@@ -38,12 +38,12 @@ To resolve the issue, select one or more conflicted bookings (with a Simulation 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict-override.png)
+> ![Screenshot of a requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict-override.png)
 
 After selecting **Apply with Overwrite** or **Discard**, the optimization status changes to **Completed**, and the conflict is resolved. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group with 2 requirements](./media/scheduling-rso-3-0-booking-conflict2.png)
+> ![Screenshot of requirement group with 2 requirements_3](./media/scheduling-rso-3-0-booking-conflict2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

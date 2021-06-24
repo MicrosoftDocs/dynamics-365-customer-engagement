@@ -1,12 +1,10 @@
 ---
-title: "Send email using the enhanced email experience (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the enhanced email experience to compose an email without leaving the context of what you are working on."
+title: "Send email using the enhanced email experience - Sales Enterprise | MicrosoftDocs"
+description: "Use the enhanced email experience to compose and send an email without leaving the context of what you are working on."
 ms.date: 12/02/2020
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 

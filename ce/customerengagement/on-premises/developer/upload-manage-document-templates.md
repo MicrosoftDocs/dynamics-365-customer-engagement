@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Upload and manage document templates in Dynamics 365 Customer Engagement (on-premises)
 
-Use document templates in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to export your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data as [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] files, which can be used as templates to generate [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] documents with standardized and up-to-date [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data for analysis and reporting purposes. Using document templates ensures consistent and standard data representation for your company and customers. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with templates](https://go.microsoft.com/fwlink/p/?LinkID=624118)  
+Use document templates in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to export your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data as [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] files, which can be used as templates to generate [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] documents with standardized and up-to-date [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data for analysis and reporting purposes. Using document templates ensures consistent and standard data representation for your company and customers. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with templates](../admin/work-with-templates.md)  
   
  After you have created a document template using the web client, you can programmatically upload the template file (.xlsx or . docx) to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, update the name or the template file associated with a document template record, retrieve the document template record, and delete the document template record. Use the `DocumentTemplate` entity to upload and manage organization-owned document templates, and the `PersonalDocumentTemplate` entity to upload and manage user-owned or personal document templates. You can share or assign personal document templates to other users.  
   
@@ -52,7 +52,7 @@ DocumentType = new OptionSetValue(2); // For uploading a Word template.
 ### See also  
  [DocumentTemplate Entity](entities/documenttemplate.md)   
  [PersonalDocumentTemplate Entity](entities/personaldocumenttemplate.md)   
- [Work with templates](https://go.microsoft.com/fwlink/p/?LinkID=624118)
+ [Work with templates](../admin/work-with-templates.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

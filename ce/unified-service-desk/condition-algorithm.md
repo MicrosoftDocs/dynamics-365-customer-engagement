@@ -1,20 +1,19 @@
 ---
 title: "Condition Algorithm | MicrosoftDocs"
 description: "The topic describes the groupings of a control that needs to be uniquely identified by specifying some property condition to distinguish it from other controls."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Condition Algorithm
 A control needs to be uniquely identified by specifying some property condition to distinguish it from other controls. This topic describes the groupings that help specify the condition.  
@@ -96,7 +95,7 @@ A control needs to be uniquely identified by specifying some property condition 
   
         -   `System.Windows.Automation.ControlType`  
   
-### See also  
+### See also
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
 

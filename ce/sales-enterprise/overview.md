@@ -1,12 +1,11 @@
 ---
 title: "Dynamics 365 Sales Overview (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 02/15/2021
-ms.service:
-  - "dynamics-365-sales"
+ms.date: 05/04/2021
+ms.custom: intro-internal
 ms.topic: get-started-article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
@@ -28,7 +27,7 @@ Dynamics 365 Sales is available in the following flavors [!INCLUDE[pn-dyn-365-sa
 
   > [!NOTE]
   > 
-  > In addition to these, the new Microsoft Dynamics 365 Sales mobile app (preview) is available. This app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. More information: [Overview of the Dynamics 365 Sales mobile app](/sales-mobile/dynamics-365-sales-mobile-app).
+  > In addition to these, the new Microsoft Dynamics 365 Sales mobile app is available. This app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. More information: [Overview of the Dynamics 365 Sales mobile app](/sales-mobile/dynamics-365-sales-mobile-app).
 
 
 ## What Dynamics 365 Sales offers

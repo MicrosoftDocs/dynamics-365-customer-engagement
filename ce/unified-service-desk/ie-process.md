@@ -1,24 +1,23 @@
 ---
-title: "Use IE Process hosting method for your controls in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the IE process hosting methods for your controls in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Use the IE Process hosting method for hosting web applications | MicrosoftDocs"
+description: "Learn about the IE Process hosting method and its advantages for hosting your controls in Unified Service Desk."
 ms.date: 12/01/2018
 ms.topic: "article"
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Use IE Process to host web applications
+# Use IE Process to host web applications 
 
 > [!Note]
 >
@@ -40,7 +39,7 @@ The `IE Process` browser control hosts your controls in individual [!INCLUDE[pn_
 >
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security zones: adding or removing websites](https://windows.microsoft.com/windows/security-zones-adding-removing-websites#1TC=windows-7)
 >
->  If you do not enable the protected mode for the **Local Intranet** security zone or add the above URLs to the **Restricted Sites** security zone, blank pages with `http://event?eventname=usdreload` in the address bar will pop up for users when they work in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: IE Process mode gives http://event popup](https://blogs.msdn.microsoft.com/usd/2016/01/26/ie-process-mode-gives-httpevent-popup/)
+>  If you do not enable the protected mode for the **Local Intranet** security zone or add the above URLs to the **Restricted Sites** security zone, blank pages with `http://event?eventname=usdreload` in the address bar will pop up for users when they work in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: IE Process mode gives http://event popup](/archive/blogs/usd/ie-process-mode-gives-httpevent-popup)
 
 ## Memory and performance enhancements
 

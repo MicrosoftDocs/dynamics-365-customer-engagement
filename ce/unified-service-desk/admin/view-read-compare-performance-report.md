@@ -1,20 +1,19 @@
 ---
 title: "View, read, and compare Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn on how to view, read, and compare different Unified Service Desk performance report generated using the Unified Service Desk Performance Analyzer."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
 ms.date: 10/31/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: '>= dynamics-usd-3'
 ---
 

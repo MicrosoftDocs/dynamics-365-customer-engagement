@@ -1,14 +1,11 @@
 ---
-title: Understanding dashboards in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
-description: Understand dashboards in Customer Service Hub for Dynamics 365 Customer Service.
+title: "Manage cases using interactive dashboards | Microsoft Docs"
+description: "Understand dashboards in Customer Service Hub in Dynamics 365 Customer Service."
+ms.date: 06/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,9 +13,11 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
-# Manage service cases using interactive dashboards
+# Manage cases using interactive dashboards
 
 Use interactive dashboards to effectively manage service cases in the Customer Service Hub application.
 
@@ -62,7 +61,7 @@ The illustrations given below show multi-stream and single-stream dashboards wit
 - Refresh All
 - Timeframe filter 
   
-![dashboard-header](media/dashboard-header.png "Dashboard header")
+![dashboard header](media/dashboard-header.png "Dashboard header")
   
 ### Multi-stream dashboard standard view  (with visual filter)
  In the multi-stream dashboard, when you select **Show Visual Filter**, you see a row of visual filters at the top with the data streams below.  
@@ -147,7 +146,7 @@ By using a combination of Visual and Global filters, you can drill down from a l
 
 For example, you can choose to view cases created in **This Quarter**, or  **Last Quarter**. You can also apply **Custom Time Frame** filter, where you can choose a particular start and end date to view the records created during a specific timeframe.   
 
-![custom-timeframe](media/custom-timeframe.png "Custom timeframe")
+![custom timeframe](media/custom-timeframe.png "Custom timeframe")
   
   
 
@@ -185,11 +184,11 @@ Select the Bulk Select icon and select multiple records by selecting the check b
 
 In the streams, the color is depicted using the thin vertical line to the left of the work item description. You can work with your administrator to choose the colors you like for your dashboard data.  
 
-![color-streams](media/color-streams.png "Color streams in dashboard")
+![color streams in dashboard](media/color-streams.png "Color streams in dashboard")
 
 
 ## Information for customizers  
- For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
+ For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
   
 
 ### See also

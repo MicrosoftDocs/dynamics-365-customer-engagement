@@ -1,12 +1,11 @@
 ---
 title: "Connected Customer Service - Overview| MicrosoftDocs"
 description: "Overview of Connected Customer Service."
+ms.date: 07/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 07/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 
@@ -44,7 +43,7 @@ Azure IoT Central requires no extensive cloud development or coding skills to ge
 
 With [Power Automate templates](https://preview.flow.microsoft.com/templates/), users can connect their accounts, take advantage of our pre-built templates, and customize their own flows.
 
-Check out our [Connected Customer Service for IoT Central tutorial](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-receive-alerts) to get started.
+Check out our [Connected Customer Service for IoT Central tutorial](./cs-iot-receive-alerts.md) to get started.
 
 ## Connected Customer Service for Azure IoT Hub
 
@@ -58,7 +57,7 @@ After you install Connected Customer Service for Dynamics 365 and provide your A
 The Azure components and services that are involved with Connected Customer Service functionality are described in the following sections.
 
 
-[Service bus queue](https://azure.microsoft.com/documentation/articles/service-bus-dotnet-get-started-with-queues/)
+[Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 
 This provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it will be queued here.
 
@@ -86,7 +85,7 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 
 Queries that Stream Analytics uses are stored to Azure Blob storage.
 
-- [Connected Customer Service Device Readings (Preview)](https://docs.microsoft.com/dynamics365/customer-service/cs-iot-visualize-device-readings) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+- [Connected Customer Service Device Readings (Preview)](./cs-iot-visualize-device-readings.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 > [!NOTE]
 > For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).

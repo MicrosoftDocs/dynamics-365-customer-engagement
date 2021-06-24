@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 1  Build a simple agent application in Unified Service Desk for Unified Interface apps | MicrosoftDocs"
-description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 1: Build an agent application for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application for Unified Interface apps. "
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer

@@ -1,22 +1,21 @@
 ---
-title: "Troubleshoot Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to troubleshoot and resolve issues in Unified Service Desk ."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Debug and troubleshoot | MicrosoftDocs"
+description: "Learn how to troubleshoot and resolve configuration issues using the debugger control in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
-# Debug and troubleshoot
+#  Troubleshoot issues
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides robust debugging support by way of a debugger hosted control that provides real time trace information of the underlying executions and lots of libraries with support for diagnostic logging that can be enabled as required. The debugging support is an important feature that will help you effectively troubleshoot and resolve any issues during the configuration, and afterwards during day-to-day operations.  
   
   

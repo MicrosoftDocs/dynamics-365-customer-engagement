@@ -36,7 +36,7 @@ When you extract the .zip file, you find three projects in it:
    - Creating [custom channel activity interaction](create-custom-channel-activity-interaction.md) from customer journey custom channel activity record.
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 Marketing instance. More information: [Install Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
+> You need to have access to Microsoft Dynamics 365 Marketing instance. More information: [Install Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup).
 
 ## How to run the sample
 

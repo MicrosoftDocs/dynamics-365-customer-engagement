@@ -1,14 +1,11 @@
 ---
 title: "Define service-level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
+ms.date: 04/05/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Define service-level agreements
@@ -36,7 +35,7 @@ Alternatively, you can set up a default SLA for the organization.
 With the SLA feature in Customer Service Hub, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
-- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which helps track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
+- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which help track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
 - In a case lifecycle, multiple SLA KPIs can be triggered at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
 
 ![SLA pause and resume](media/SLA-pause-resume.png "SLA pause and resume")
@@ -102,7 +101,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 7. Select **Activate**. The SLA KPI is saved and activated.
 
-## Create an SLA in Customer Service Hub<a name="create-slas"></a>
+## Create SLAs in Customer Service Hub<a name="create-slas"></a>
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
 
@@ -128,7 +127,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 ### Create an SLA item
 
 1. In **Customer Service Hub** > **Service Management**, select the SLA for which you want to add an SLA item.
- 
+
 2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
 3. On the **General** tab, enter the following details.
@@ -140,17 +139,20 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
   
 4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
-6. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
-7. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+  > [!IMPORTANT]
+  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message will be displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
+
+6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
+7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
 
-8. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
   > [!NOTE]
-  >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
+  > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
 
 8. Select **Save**.
 
@@ -169,22 +171,36 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
      > [!NOTE]
      > We recommend that you don't edit the predefined flow, which can cause breaks in the flow, and the SLA might not work as defined.
 
-   c. Select **Switch**. The following condition steps are displayed:
+   c. Select **Switch**. The following condition steps are displayed for each of which you can configure a required action:
 
      - **Is Nearing Non-Compliance**: Will run when the warning time is reached for the SLA.
      - **Is Succeeded**: Will run when the SLA succeeds.
      - **Is Non-compliant**: Will run when the SLA fails.
-      ![SLA flow in Power Automate](media/sla-default-flow.png "SLA fLow in Power Automate")
 
     d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears, in which you can configure the action that must be performed when the warning time has been reached for the SLA.
 
-      i. Search for an action to add or go to the existing entities, such as **Mail**.
+    e. In **Choose an operation**, search for an action, such as **Perform an unbound action**, and select it.
 
-      ii. Select **Send an email notification**. Update the options to define the information in the mail.
+    f. In **Action Name**, select **msdyn_SendEmailFromTemplate**, and configure the following options that are displayed for the action:
+      - **From**
+      - **To Item**
+      - **Cc Item**
+      - **Regarding**
+      - **Template**
 
-    e. Configure the actions for **Is Succeeded** and **Is Non-compliant**, as required.
+      > [!NOTE]
+      > To obtain the value for the **Template** field, see [Open Data Protocol](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata).
 
-    f. Save and exit Power Automate.
+    g. Repeat the steps to configure the actions for **Is Succeeded** and **Is Non-compliant**.
+
+      A sample screenshot of the configured action is as follows.
+
+      ![Configured action in Power Automate](media/sla-default-flow.png "Configured action in Power Automate")
+
+    h. Save and exit Power Automate.
+
+    > [!NOTE]
+    > More information: [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
 
 4. Select **Save & Close** on the SLA item dialog box.
 
@@ -196,7 +212,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 > [!NOTE]
 >
-> Standard SLAs have been deprecated and replaced with enhanced SLAs. <br><br>More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](https://docs.microsoft.com/power-platform/important-changes-coming#standard-slas-in-dynamics-365-customer-service-are-deprecated)
+> Standard SLAs have been deprecated and replaced with enhanced SLAs. <br><br>More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](deprecations-customer-service.md#standard-slas-in-dynamics-365-customer-service-are-deprecated)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -208,7 +224,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Service Management**. 
+2. Go to **Settings** > **Service Management**.
 
 3. Go to **Service Level Agreements**.  
 
@@ -336,7 +352,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
         If you're creating an SLA for an entity other than the Case entity, this field is automatically set to **Enhanced** and can't be changed.  
 
-   - **Allow Pause and Resume**: Select **Allow** if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for SLA, you can select each status that will be considered "on hold" by using the **Service** tab of the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md)
+   - **Allow Pause and Resume**: Select **Allow** if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for SLA, you can select each status that will be considered "on hold" by using the **Service** tab of the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
@@ -416,20 +432,23 @@ For a Case entity, set an SLA as the default if you want it to apply to all case
 To set an SLA as the default, select an active SLA from the list, and then select **Set as Default** on the command bar.  
 
 > [!NOTE]
->  If you deactivate a default SLA, you must activate it again before resetting it as the default.  
+> If you deactivate a default SLA, you must activate it again before resetting it as the default.  
 
 ## Disable an SLA in Customer Service app
 
-During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md)  
+During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)  
 
-## How an is SLA applied<a name="how-is-the-sla-applied"></a>
+## How an SLA is applied<a name="how-is-the-sla-applied"></a>
 
-When a record is created, the SLA is applied (either by default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change&mdash;that is, when the fields that are added in the **Applicable When** conditions of the SLA change&mdash;the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.  
+When a record is created, the SLA is applied (either by default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change&mdash;that is, when the fields that are added in the **Applicable When** conditions of the SLA change&mdash;the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.
 
-When the SLA is applied again, all the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.  
+When the SLA is applied again, all of the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.
+
 
 > [!NOTE]
->  You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
+>
+> - In Unified Interface, after the SLA moves to a terminal status, which is non-compliant or succeeded, the applicable when and success criteria will not be evaluated again on the SLA.
+> - You can only have one SLA running on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
 
 ## Apply SLAs on demand<a name="apply-sla-on-demand"></a>
 
@@ -448,7 +467,7 @@ The service rep who is working on a case can see the SLA details right on the ca
 
 | Case form with a standard SLA applied |  Case form with an enhanced SLA applied |
 |-------------------------------------|--------------------------------------|
-| Only the failure time is tracked and saved on the case record.<br /><br /> You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer control to the case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md) | When an enhanced SLA is applied to a case, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that case. In the **Enhanced SLA Details** section of the case record, you'll see a timer and the SLA KPI Instances for the case with their status, failure times, and warning times.<br /><br /> When a service rep puts a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time during which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default, but your system customizer can add these fields for you. The on-hold time is the time during which the case was set to a status that you defined as an On-Hold status in the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md)<br /><br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn't violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case has been on hold<br /><br /> If the service rep puts the case on hold after the warning time, the warning time isn't updated when the case is resumed. |
+| Only the failure time is tracked and saved on the case record.<br /><br /> You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer control to the case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md) | When an enhanced SLA is applied to a case, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that case. In the **Enhanced SLA Details** section of the case record, you'll see a timer and the SLA KPI Instances for the case with their status, failure times, and warning times.<br /><br /> When a service rep puts a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time during which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default, but your system customizer can add these fields for you. The on-hold time is the time during which the case was set to a status that you defined as an On-Hold status in the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)<br /><br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn't violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case has been on hold<br /><br /> If the service rep puts the case on hold after the warning time, the warning time isn't updated when the case is resumed. |
 
 > [!IMPORTANT]
 >  To track SLAs for entities other than the Case entity, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)  

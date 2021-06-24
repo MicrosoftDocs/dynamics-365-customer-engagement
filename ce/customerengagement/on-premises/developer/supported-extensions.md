@@ -68,7 +68,7 @@ You can customize Dynamics 365 Customer Engagement (on-premises) by using tools 
   
 - **Web resources and IFRAMEs**: You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources within HTML web resources. IFRAMES configured to allow cross-site scripting, or scripts within HTML web resources included in a form may interact with the documented `Xrm.Page` or `Xrm.Utility` methods within the form via the parent reference.  
   
-  All interaction with Dynamics 365 Customer Engagement (on-premises) application pages must only be performed through the methods with the methods documented in the [Client API Reference](clientapi/reference.md). Directly accessing the Document Object Model (DOM) of any Dynamics 365 Customer Engagement (on-premises) application pages is not supported. The use of jQuery in form scripts and commands is not recommended. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
+  All interaction with Dynamics 365 Customer Engagement (on-premises) application pages must only be performed through the methods with the methods documented in the [Client API Reference](/powerapps/developer/model-driven-apps/clientapi/reference). Directly accessing the Document Object Model (DOM) of any Dynamics 365 Customer Engagement (on-premises) application pages is not supported. The use of jQuery in form scripts and commands is not recommended. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
   
   You can open Dynamics 365 Customer Engagement (on-premises) forms, views, dialogs, and reports using the methods documented in [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md).  
   
@@ -140,7 +140,7 @@ The following supported tasks require this procedure:
   
 - Use of client certificates is not supported. If you configure the Dynamics 365 Customer Engagement (on-premises) website to require IIS client certificates, you will get authentication failures for any applications that were built using the SDK.  
   
-- Modifications to the physical schema of the database, other than adding or updating indexes. This includes any actions performed against the database without using the System Customization capabilities in the web application or using the metadata APIs that are described in this SDK documentation. Modifying tables, stored procedures, or views in the database is not supported. Adding tables, stored procedures, or views to the database is also not supported because of referential integrity or upgrade issues. For Dynamics 365 Customer Engagement (on-premises) on-premises deployments, adding indexes is supported per the guidelines in the [Deploying and administering Microsoft Dynamics 365 Customer Engagement (on-premises)](https://go.microsoft.com/fwlink/p/?LinkID=510793) documentation. This applies to all Dynamics 365 Customer Engagement (on-premises) databases and the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] local database.  
+- Modifications to the physical schema of the database, other than adding or updating indexes. This includes any actions performed against the database without using the System Customization capabilities in the web application or using the metadata APIs that are described in this SDK documentation. Modifying tables, stored procedures, or views in the database is not supported. Adding tables, stored procedures, or views to the database is also not supported because of referential integrity or upgrade issues. For Dynamics 365 Customer Engagement (on-premises) on-premises deployments, adding indexes is supported per the guidelines in the [Deploying and administering Microsoft Dynamics 365 Customer Engagement (on-premises)](/previous-versions/dynamicscrm-2015/deployment-administrators-guide/hh699811(v=crm.7)) documentation. This applies to all Dynamics 365 Customer Engagement (on-premises) databases and the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] local database.  
   
   > [!IMPORTANT]
   > When you change the database without using the support methods for system customization, you run the risk of problems occurring during updates and upgrades.  
@@ -178,7 +178,7 @@ The following supported tasks require this procedure:
   
 - Editing a solutions file to edit any solution components other than ribbons, forms, SiteMap, or saved queries is not supported. For more information, see [Support for Editing the Customization File](customize-dev/when-edit-customization-file.md). Defining new solution components by editing the solutions file is not supported. Editing web resource files exported with a solution is not supported. Except for the steps documented in [Maintain Managed Solutions](maintain-managed-solutions.md), editing the contents of a managed solution is not supported.  
   
-- Silverlight [Application Library Caching](https://msdn.microsoft.com/library/dd833069.aspx) is not supported.  
+- Silverlight [Application Library Caching](/previous-versions/windows/) is not supported.  
   
 - Displaying an entity form within an IFrame embedded in another entity form is not supported.
 

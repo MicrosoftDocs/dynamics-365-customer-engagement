@@ -1,12 +1,11 @@
 ---
 title: "View smart assist suggestions for knowledge articles and similar cases using AI | MicrosoftDocs"
 description: "View smart assist suggestions for knowledge articles and similar cases using AI."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # View smart assist suggestions for knowledge articles and similar cases using AI

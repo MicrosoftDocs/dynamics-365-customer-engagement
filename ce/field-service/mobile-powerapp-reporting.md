@@ -3,7 +3,7 @@ title: "Field Service technician service reporting | MicrosoftDocs"
 description: Learn about setting up service reports for Field Service technicians
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 01/13/2021
+ms.date: 05/21/2021
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-customerservice
@@ -42,14 +42,27 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyFjo]
 
-## Set up mobile reporting
+## Import the reporting solution
 
-1. Download the [reporting solution](https://aka.ms/fsmreporting-solution).
-2. Download sample [reporting PCF control](https://aka.ms/fsmreporting-pcf) source code.
-3. Import the reporting solution into your environment. The import will install a reporting form, ribbon command, and includes a sample report so you can execute functionality within your environment. We recommend that the solution is imported as a managed solution.
-4. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity.
-5. Use your favorite IDE to edit the sample reporting PCF control. Modify this control to change layout, add more branding, updated data, or other updates necessary to meet your reporting requirements.
-6. Import the modified PCF control back into your environment, replacing the sample report. For more information, see this article: [Steps to import a PCF control](https://docs.microsoft.com/powerapps/developer/component-framework/import-custom-controls)
+1. Download the [reporting solution](https://aka.ms/fsmreporting-solution). 
+2. Import the reporting solution into your environment. The import will install a reporting form, ribbon command, and includes a sample report so you can execute functionality within your environment. We recommend that the solution is imported as a managed solution.
+
+> [!div class="mx-imgBorder"]
+> ![List of solutions in Dynamics 365.](./media/mobile-2020-service-reports-import.png)
+
+3. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity. Save and publish your changes. 
+
+> [!div class="mx-imgBorder"]
+> ![The app designer showing Field Service Mobile.](./media/mobile-2020-service-reports-enable-form.png)
+
+4. At this point you'll be able to view functionality of the report in your mobile app and evaluate changes necessary for your organization.
+
+## Create your custom report
+
+1. Download the sample [reporting PCF control](https://aka.ms/fsmreporting-pcf) source code. 
+2. Use your favorite IDE to edit the sample reporting PCF control. Modify this control to change layout, add more branding, updated data, or other updates necessary to meet your reporting requirements. Be sure to rename the report to something descriptive for your organization by updating report name in ```ControlManifest``` and ```index.ts```. Refer to ```ReadMe.pdf``` included with the sample source code for additional details on making customizations. 
+3. Import the modified PCF control into your environment. For more information, see this article: [Steps to import a PCF control](https://docs.microsoft.com/powerapps/developer/component-framework/import-custom-controls)
+4. Update customizations to point to your new PCF template by going to **Customize the System** > **Bookable Resource Booking** > **Forms** > **Reporting** > **ReportView**. Under **Properties**, you'll see your newly named report, which should be enabled for web, phone, and tablet. 
 
 ## Generate reports from mobile
 

@@ -1,14 +1,12 @@
 ---
-title: "Gain insights with dashboards in Dynamics 365 Sales | MicrosoftDocs"
-description: "Get insights into how your sales team is doing by using dashboards in Dynamics 365 Sales."
+title: "Gain insights with dashboards - Sales Enterprise | MicrosoftDocs"
+description: "Get a quick glance of important and actionable business data using pre-built dashboards. Get insights into how your sales team is doing."
 ms.date: 03/24/2019
-ms.service:
-  - "dynamics-365-sales"
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
-searchScope:
+searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-*
   - D365-UI-Dashboard

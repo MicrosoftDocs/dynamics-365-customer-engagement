@@ -41,9 +41,9 @@ search.app:
 
 - [!INCLUDE[cc_feature_included_with_2015_update_1](../../includes/cc-feature-included-with-2015-update-1.md)]
 
-- The tracking folders feature must also be enabled by your administrator. For more information, contact your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] administrator. For admin information on enabling tracked folders, see [Configure Outlook or Exchange folder-level tracking](../../admin/configure-outlook-exchange-folder-level-tracking.md)
+- The tracking folders feature must also be enabled by your administrator. For more information, contact your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] administrator. For admin information on enabling tracked folders, see [Configure Outlook or Exchange folder-level tracking](/power-platform/admin/configure-outlook-exchange-folder-level-tracking)
 
-- Your organization must use server-side synchronization as your email synchronization method. If you don’t know which synchronization method your organization uses, contact your Dynamics 365 apps administrator. For admin information about setting up server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](../../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md) 
+- Your organization must use server-side synchronization as your email synchronization method. If you don’t know which synchronization method your organization uses, contact your Dynamics 365 apps administrator. For admin information about setting up server-side synchronization, see [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks) 
 
 <a name="Setup"></a>
 ### Set up a tracked folder
@@ -133,7 +133,7 @@ search.app:
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
- [Configure Outlook or Exchange folder-level tracking](../../admin/configure-outlook-exchange-folder-level-tracking.md)
+ [Configure Outlook or Exchange folder-level tracking](/power-platform/admin/configure-outlook-exchange-folder-level-tracking)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

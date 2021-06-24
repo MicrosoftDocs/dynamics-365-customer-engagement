@@ -1,18 +1,15 @@
 ---
-title: "Admin settings overview (Dynamics 365 Sales Professional) | MicrosoftDocs"
-description: "Learn about the standard and advanced settings in Dynamics 365 Sales Professional."
+title: "Administrator settings overview - Sales Professional | MicrosoftDocs"
+description: "Learn about the customizations, standard settings, and advanced settings in Dynamics 365 Sales Professional."
 ms.date: 07/03/2020
-ms.service: 
-  - "dynamics-365-sales"
-ms.custom: 
-  - "dyn365-sales"
+ms.custom: intro-internal
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 manager: annbe
 ---
 
-# Overview of admin settings (Sales Professional)
+# Overview of administrator settings (Sales Professional)
 
 Are you the person responsible for getting your sales team onboard?
 

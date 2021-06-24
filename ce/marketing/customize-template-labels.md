@@ -111,7 +111,7 @@ To set the field used to define label options for a template entity:
     ![Segment template fields list](media/customize-segment-template-tag-field.png "Segment template fields list")
 
     > [!NOTE]
-    > If you don't yet have the field you need, then create one as usual. It must be of type option set. You can set your new field to use a [global option set](#global-option-set) if you want to share it's options with other entities, or use a local option set to create unique labels for your current entity. See [Work with fields](https://docs.microsoft.com/powerapps/maker/common-data-service/fields-overview) and its related topics for more information about to create and configure fields.
+    > If you don't yet have the field you need, then create one as usual. It must be of type option set. You can set your new field to use a [global option set](#global-option-set) if you want to share it's options with other entities, or use a local option set to create unique labels for your current entity. See [Work with fields](/powerapps/maker/common-data-service/fields-overview) and its related topics for more information about to create and configure fields.
 
 1. In the left panel, select the template entity itself to open its general setting in the right panel. Then open the **Controls** tab in the right panel.
 
@@ -173,6 +173,6 @@ To set the field used to define label options for a design entity:
 
 ## Make label values and settings visible in lists and forms
 
-If you've customized the fields used to present your labels, then you must also update the relevant template-entity forms to provide the field as a setting for users. Use standard techniques for model-driven apps in Power Apps to make these settings. More information: [Create and design model-driven app forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-design-forms) and [Understand model-driven app views](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views).
+If you've customized the fields used to present your labels, then you must also update the relevant template-entity forms to provide the field as a setting for users. Use standard techniques for model-driven apps in Power Apps to make these settings. More information: [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms) and [Understand model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

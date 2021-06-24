@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough 8  Use knowledge base within your agent application | MicrosoftDocs"
-description: "Demonstrates how to configure a panel in Unified Service Desk to display knowledge base records."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Walkthrough 8: Use knowledge base within your agent application | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring panels to display knowledge base records."
 ms.date: 08/17/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Walkthrough 8: Use knowledge base within your agent application
@@ -171,7 +170,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=true                                                            |
 
-    ![Create action call](../unified-service-desk/media/usd-expandrightpanelaction.png "Create action call")  
+    ![Create a new action call for Expand Right Panel Action](../unified-service-desk/media/usd-expandrightpanelaction.png "Create a new action call for Expand Right Panel Action")  
 
 11. Click **Save and Close**.  
 
@@ -187,7 +186,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=false                                                           |
 
-    ![Create action call](../unified-service-desk/media/usd-collapserightpanelaction.png "Create action call")  
+    ![Create a new action call for Collapse Right Panel Action](../unified-service-desk/media/usd-collapserightpanelaction.png "Create a new action call for Collapse Right Panel Action")  
 
 14. Click **Save and Close**.  
 

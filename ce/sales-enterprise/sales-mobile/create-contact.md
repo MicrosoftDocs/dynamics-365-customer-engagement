@@ -1,17 +1,14 @@
 ---
 title: Manage contacts in the Dynamics 365 Sales mobile app
 description: Learn how to create and manage contacts in the Dynamics 365 Sales mobile app
-ms.date: 12/16/2020
+ms.date: 05/03/2021
 ms.topic: article
-ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
 
 # Manage contacts
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.
 
@@ -73,7 +70,7 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
     
 3.  In the **Create a contact** form, fill in the details, and then tap **Save**.
 
-## See also
+### See also
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)

@@ -39,9 +39,9 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 - SharePoint Integration is not configured, but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
-- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices). 
+- If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices). 
 
-- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
 ### Error when you pin a record or view of any app to a team channel if the enhanced experience is not configured correctly by your customer engagement apps admin.
 
@@ -199,7 +199,7 @@ You need to be a member of the connected team channel to view files. Contact the
 
 ### Embedded Power Apps canvas apps don't work 
 
-You can [embed a canvas app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) as they have the same design and underlying architecture of a [model-driven app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the embedded canvas app won't work. 
+You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) as they have the same design and underlying architecture of a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the embedded canvas app won't work. 
 
 ### Authentication issue in Teams when you have embedded apps within Dynamics 365
 
@@ -230,7 +230,7 @@ A few pages in customer engagement apps in Dynamics 365 can only be opened in a 
 
 To work around this, open the page in your customer engagement app and not in Microsoft Teams.
 
-If the page which is showing the error message, contains a custom resource (JavaScript, custom control etc.), please ensure `window` is not used in the JavaScript as it may cause the page to not load at all or not load properly. For more information, see [Avoid using window top](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top).
+If the page which is showing the error message, contains a custom resource (JavaScript, custom control etc.), please ensure `window` is not used in the JavaScript as it may cause the page to not load at all or not load properly. For more information, see [Avoid using window top](/powerapps/developer/model-driven-apps/best-practices/business-logic/avoid-window-top).
 
 ### Documents can be accessed in your customer engagement app using the Documents tab in an entity record even after user has left the team.
 

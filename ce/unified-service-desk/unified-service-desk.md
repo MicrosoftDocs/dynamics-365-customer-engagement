@@ -1,20 +1,19 @@
 ---
 title: "Unified Service Desk Guide | MicrosoftDocs"
-description: "Unified Service Desk helps you configure call center agent applications that provide customer service agents with immediate and unified access to business critical customer information stored in your instance."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+description: "Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product."
 ms.date: 08/06/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Unified Service Desk Guide
@@ -85,9 +84,9 @@ search.app:
 <td>
 <h2>Related apps & framework</h2>
 
-<li><a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework)">Dynamics 365 Channel Integration Framework Guide</a></li>
+<li><a href="/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](../customer-service/help-hub.md)">Customer Service Hub Help</a></li>
+<li><a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../customer-service/introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
 
 </td>
 </tr>

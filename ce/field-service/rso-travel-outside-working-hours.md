@@ -94,11 +94,11 @@ Note too that in our previous example, if travel time exceeds our time limit out
 
 ### Comparing the end of day for "Schedule within working hours" constraint and "Travel outside working hours"
 
-When travel outside working hours is configured, the end time of the booking will be within working hours and travel time back to the resource's ending location will be outside working hours (end of day travel time is displayed as a blank space).
+When travel outside working hours is configured, the end time of the booking will be within working hours and travel time back to the resource's ending location can be outside working hours (end of day travel time is displayed as a blank space).
 
 When the **Schedule within working hours** constraint is part of the goal, the end time will be within working hours _and_ travel time from the last booking to the resource's ending location will be within working hours.
 
-When the **Schedule within working hours** constraint is *not* part of the goal, the end time of the booking may be near or even slightly after working hours.
+When the **Schedule within working hours** constraint is *not* part of the goal, the end time of the booking will be within working hours, but the travel time of the resource can fall outside of working hours.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

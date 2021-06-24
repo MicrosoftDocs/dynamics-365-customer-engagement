@@ -1,20 +1,19 @@
 ---
-title: "Use HAT Software Factory to create a hosted application in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to HAT Software Factory to create a hosted application in Unified Service Desk."
-author: v-sailab
-ms.author: v-sailab
-manager: shujoshi
+title: "Use HAT Software Factory to create hosted application projects | MicrosoftDocs"
+description: "Learn to install and use the HAT Software Factory to create hosted application projects in Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use HAT Software Factory to create a hosted application in Unified Service Desk
 

@@ -1,11 +1,11 @@
 ---
 title: "linkToConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: "Omnichannel for Customer Service Session API reference"
+ms.date: 10/20/2020
+ms.topic: article
 author: platkat
 ms.author: ktaylor
 manager: shujoshi
-ms.date: 10/20/2020
-ms.topic: article
 ms.reviewer: nenellim
 ---
 # linkToConversation
