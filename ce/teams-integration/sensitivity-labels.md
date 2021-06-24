@@ -31,29 +31,37 @@ Sensitivity labels in Microsoft Teams integration with customer engagement apps 
 
 ## Prerequisites
 
-The following prerequisites are required before you can turn on Sensitivity labels in your app:
+The following prerequisites are required before you can turn on sensitivity labels in your app:
 
  - Azure Information Protection (AIP) P2 Premium license. For more information, see [Azure Information Protection](https://azure.microsoft.com/services/information-protection)
  - Create and configure sensitivity labels in your tenant. For more information, see [Create and configure sensitivity labels and their policies](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide).
 
 
 
-## Turn on Sensitivity labels
+## Turn on sensitivity labels
 
 Sensitivity labels are only available when the Enhanced Collaboration Experience is turned on. For more information, see [Install and set up Microsoft Teams integration](teams-install-app.md).
+> [!NOTE]
+  > If you are still using the group classification labels instead of sensitivity labels, turning on this option will let you use the classification labels in Teams.
 
+**To turn on sensitivity labels**
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.
    > [!div class="mx-imgBorder"]
    > ![App settings](media/app-settings.png)
+    > [!NOTE]
+    > If you have a custom app, add a subarea with the following URL:  
+        `/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}`  
+    > Alternatively, suffix the URL to your Dynamics 365 domain URL to instantly access the settings page mentioned in Step 3:  
+   `Example: https://adatum.crm.dynamics.com/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}`
 
 2. From the site map, under **General Settings**, select **Chat and collaborate**.
 
 3. Set the **Enable Confidential Labels** toggle to **Yes**. When you're done, select **Save**. 
 
    > [!div class="mx-imgBorder"]
-   > ![Turn on sensitivity/confidentiality labels.](media/sen-labels.png)
-
+   > ![Turn on sensitivity/confidentiality labels.](media/sen-labels.png)  
+    
 To learn how to use sensitivity labels, see [Enhanced Collaboration Experience with Microsoft Teams](teams-collaboration-enhanced-experience.md).
