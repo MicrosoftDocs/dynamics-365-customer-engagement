@@ -33,7 +33,7 @@ As an agent, you can start the sessions in two ways:
  
 When you start a session from a notification request that is a Chat or SMS channel, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
 
-### Manually start a session using gestures
+### Manually start a session using the gestures
 
 #### Contact and Case session
 
