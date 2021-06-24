@@ -14,7 +14,7 @@ search.app:
 tags: MigrationHO
 monikerRange: ">=dynamics-usd-4.1"
 ---
-# Client caching overview
+# Client caching
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
