@@ -14,7 +14,7 @@ manager: shujoshi
 
 A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the customer summary page.
 
-Some of the scenarios where you might receive notifications:
+Herea are some scenarios where you might receive notifications.
 
 - Incoming chat conversation
 
@@ -30,7 +30,7 @@ Some of the scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-You'll receive desktop notifications when the Omnichannel for Dynamics 365 Customer Service app isn't in focus. The desktop notification helps ensure that you won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+You'll receive desktop notifications when the Omnichannel for Dynamics 365 Customer Service app isn't in focus. The desktop notification helps ensure that you won't miss any conversation requests. Some scenarios where the app isn't in focus can include:
 
 - You've minimized the app.
 - You're working in another browser window.

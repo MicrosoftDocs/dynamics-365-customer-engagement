@@ -30,7 +30,7 @@ When you select the notes option from the communication panel, the application l
 > ![Notes panel to take the discussion points when interacting with customers](media/oceh-cc-notes.png "Notes panel to take the discussion points when interacting with customers")  
 
 
-## Take notes for multi-session
+## Take notes for multiple sessions
 
 When you are working on multiple customer sessions, and while capturing notes, you might switch the session. In this scenario, even though you did not add the notes, the notes are saved, and **Recent activities** timeline is updated. 
 

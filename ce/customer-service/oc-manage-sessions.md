@@ -17,7 +17,7 @@ The vertical panel on the left side is the session panel that allows you (the ag
 > [!div class=mx-imgBorder]
 > ![Session panel in the agent interface of Omnichannel for Customer Service app](media/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
 
-When a session is started, the following happens:
+When a session is started:
 
 - The presence status is updated as per the configuration set by your administrator.
 - The Communication panel is displayed so you can interact and exchange messages with the customer.
@@ -33,7 +33,7 @@ As an agent, you can start the sessions in two ways:
  
 When you start a session from a notification request that is a Chat or SMS channel, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
 
-### Manually start a session using the gestures
+### Manually start a session using gestures
 
 #### Contact and Case session
 

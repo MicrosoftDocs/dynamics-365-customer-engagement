@@ -370,7 +370,7 @@ Suppose your organization is running a festive season sale between certain dates
 
 ### Sample code
 
-The sample code given below shows how you can proactively offer chat invite to a customer if he/she visits your website between a given time period.
+The following sample code shows how you can proactively offer chat invite to a customer if he/she visits your website between a given time period.
 
 ```javascript
 <!-- Code to show proactive chat invite if visitor visits webpage between given time period -->
@@ -404,7 +404,7 @@ The sample code given below shows how you can proactively offer chat invite to a
 </script>
 ```
 
-## See also
+### See also
 
 [startProactiveChat API](developer/reference/methods/startProactiveChat.md)<br />
 [Manage custom context](send-context-starting-chat.md)<br />

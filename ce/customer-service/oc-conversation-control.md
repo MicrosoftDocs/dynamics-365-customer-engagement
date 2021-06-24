@@ -56,9 +56,9 @@ When you want to send messages to all the participants in the conversation inclu
 
 You can use the keyboard commands to send internal and public messages:
 
-- **/i** – Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
+- **/i**: Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
 
-- **/p** – Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
+- **/p**: Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
 
 ## Send predefined messages in chats
 
@@ -109,7 +109,7 @@ You can use a keyboard command to see the list of agents and/or the supervisor w
 
 After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the names are filtered and displayed to you.
 
-## Transfer the conversation
+## Transfer conversations
 
 In the communication panel, you can transfer the conversation (work item) either to an agent or a queue. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
@@ -132,13 +132,13 @@ When a conversation needs to be transferred from one queue to another, the match
 
 ![Transfer queue list](media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
-### Search agents or queues for the transfer of a conversation request
+### Search agents or queues for transfer of conversation requests
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
 ![Filter transfer queue list](media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
-## Take notes specific to conversation
+## Take notes specific to conversations
 
 Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
 
@@ -158,7 +158,7 @@ From the communication panel, you can search for relevant knowledge articles bas
 
 To learn more, see [Search for and share knowledge articles](oc-search-knowledge-articles.md).
 
-## Link to conversation
+## Link to conversations
 
 When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
 

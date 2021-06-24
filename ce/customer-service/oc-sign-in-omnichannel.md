@@ -30,7 +30,7 @@ To sign in to Omnichannel for Customer Service, do the following:
 > [!div class="nextstepaction"]
 >  
 
-## See also
+### See also
 
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
 - [View communication panel](oc-conversation-control.md)
