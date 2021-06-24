@@ -1,6 +1,6 @@
 ---
-title: "Add a chat widget | MicrosoftDocs"
-description: "Learn to add and configure chat widgets in Omnichannel for Customer Service. Also learn how to enable customer notifications."
+title: "Add a chat channel | MicrosoftDocs"
+description: "Learn to add and configure a chat channel in Omnichannel for Customer Service. Also learn how to enable customer notifications."
 ms.date: 01/06/2021
 ms.topic: article
 author: neeranelli
@@ -39,8 +39,9 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
-     - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
-   - **Only show widget on the provided domains**: Enter the link of the portal.
+         - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
+   - Only show widget on the provided domains
+         - **Domain URL**: Enter the domain link and select **Add Domain URL**.
 
 7. On the **Behaviors** page, configure the following options:
    - [Custom automated messages](configure-automated-message.md)
@@ -48,8 +49,8 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
    - [Post-conversation survey](configure-post-conversation-survey.md)
    - [Authentication settings](create-chat-auth-settings.md)
    - Customer wait time
-     - **Show position in queue**: Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
-     - **Show average wait time**: Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
+         - **Show position in queue**: Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
+         - **Show average wait time**: Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
    - **Customer location detection**: Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 
 8. On the **User features** page, configure the following options:
