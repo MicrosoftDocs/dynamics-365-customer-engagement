@@ -3,7 +3,6 @@ title: "Add a chat widget | MicrosoftDocs"
 description: "Learn to add and configure chat widgets in Omnichannel for Customer Service. Also learn how to enable customer notifications."
 ms.date: 01/06/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -19,7 +18,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
 
 ## Configure a chat widget in Omnichannel admin center
 
-Perform the following steps to configure the chat widget in Omnichannel admin center.
+Perform the following steps to configure the chat widget in Omnichannel admin center:
 
 1. In the site map of Omnichannel admin center, select **Workstreams**.
 
@@ -29,21 +28,21 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
 
 4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
 
-5. On the **Chat Widget** page, enter the following details.
+5. On the **Chat Widget** page, enter the following details:
    - **Title**: Display name for the chat widget.
    - **Subtitle**: Additional title, such as "We're online".
    - **Theme color**: Choose a color from the list.
    - **Logo URL**: Select the default value or enter the link to the logo that you want to be displayed.
    - **Agent display name**: Select a value from the list.
 
-6. Set the toggle to **Yes** to enable the following options.
+6. Set the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
      - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
    - **Only show widget on the provided domains**: Enter the link of the portal.
 
-7. On the **Behaviors** page, configure the following options.
+7. On the **Behaviors** page, configure the following options:
    - [Custom automated messages](configure-automated-message.md)
    - [Pre-conversation survey](configure-pre-chat-survey.md)
    - [Post-conversation survey](configure-post-conversation-survey.md)
@@ -53,7 +52,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
      - **Show average wait time**: Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
    - **Customer location detection**: Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 
-8. On the **User features** page, configure the following options.
+8. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
    - [Conversation transcripts](download-email-chat-transcripts.md)
@@ -66,7 +65,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
 ## Configure a chat widget in Omnichannel Administration
 
 
-1. Sign in to Dynamics 365, and select Omnichannel Administration.
+1. Sign in to Dynamics 365 and select Omnichannel Administration.
 
 2. Go to **Channels** > **Chat**.
 
@@ -90,7 +89,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default a work stream is selected. <br>More information: [Understand and create work streams](create-workstreams.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
+    | **Work distribution** | **Work stream** | Select a work stream from the list. Initially, a default work stream is selected. <br>More information: [Understand and create work streams](create-workstreams.md) <br> **Note:** <br> If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. | Live work stream |
     
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|    
@@ -161,13 +160,13 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
     | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift |
     |Online|Turn on sound notifications|Set to **Yes** if you want your customers to receive a sound notification when the chat widget is minimized or not active||
     |Online|Turn on unread message indicator|Set to **Yes** if you want to display the count of unread messages when the chat widget is minimized or not active for the customer.||
-    | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No; the chat widget will be hidden .|
+    | Offline | Show widget during offline hours | Set to **Yes** to display the chat widget during the offline hours.| Yes. The default is No; the chat widget will be hidden.|
     | Offline | Theme color | Select a color from the list. | Grey |
     |Offline | Title | Specify a title to be displayed. | We're offline. |
     | Offline | Subtitle | Optionally, specify a subtitle. | No agents are available. |
     |||||
     
-8. On the **Location** tab, perform the following steps.
+8. On the **Location** tab, perform the following steps:
 
     1. In the **Widget location** section, select **Add** to specify the website domain where the chat widget must be shown. The domain format should not include the protocol (for example, **http** or **https**).
     2. In the **Visitor location** section, specify whether you need to detect the visitor's location, and then select a **Geo Location Provider**. More information: [Set up location detection](geo-location-provider.md)
@@ -185,11 +184,11 @@ After you configure, agents can get the capabilities while they are in a convers
 
 You can configure visual and sound notifications to be sent to customers when they're interacting with agents through the chat widget on your organization portal. If the chat window is minimized or isn't active, a sound notification is played when a message arrives and a count of the unread messages is displayed.
 
-To enable the customer notifications:
+To enable customer notifications:
 
 1. In Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 
-2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected.
+2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
 
