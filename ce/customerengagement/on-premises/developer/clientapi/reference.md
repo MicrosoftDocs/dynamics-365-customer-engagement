@@ -19,7 +19,7 @@ All the client APIs that are documented in the [Client API reference](/powerapps
 
 This section provides information about client APIs that are not supported in Dynamics 365 Customer Engagement (on-premises).
 
-|Client API/area| MethodspProperties not supported|
+|Client API/area| Methods/parameters not supported|
 |----------|-------------------|
 |executionContext.getEventArgs()|[executionContext.getEventArgs().preventDefaultOnError()](/powerapps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventdefaultonerror)|
 |formContext.data.entity|[formContext.data.entity.addOnPostSave()](/powerapps/developer/model-driven-apps/clientapi/reference/controls/addonpostsave)<br/> [formContext.data.entity.removeOnPostSave()](/powerapps/developer/model-driven-apps/clientapi/reference/controls/removeonpostsave)|
