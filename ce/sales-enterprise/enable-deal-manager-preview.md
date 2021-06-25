@@ -24,7 +24,7 @@ searchScope:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The new deal manger workspace helps your sellers be more productive and efficient. Sellers can get better visibility into their pipeline, drill-into opportunities, view important sales metrics, update information, take action on their opportunities - all from a single interface. 
+The new deal manger workspace helps your sellers be more productive and efficient. Sellers can get better visibility into their pipeline, drill-into opportunities, view important sales metrics, update information, take action on their opportunities - all from a unified interface. 
 
 > [!IMPORTANT]
 >
@@ -38,6 +38,6 @@ The new deal manger workspace helps your sellers be more productive and efficien
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.  
 1. Under **General Settings**, select **Deal manager (preview)**.
-1. Toggle the **Preview disabled** option and select **Get started**.
+1. Select the checkbox for enabling the preview and select **Get started**.
 1. Select **Publish**.
    The deal manager workspace is now available to the administrators. To grant access to other security roles, see [Grant access to deal manager](grant-access-deal-manager.md).

@@ -42,18 +42,19 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**. 
 1. Under **General Settings**, select **Deal manager (preview)**.
-1. In the Manage charts section, edit the **Deal tracker** chart. 
+1. In the **Manage charts** section, edit the **Deal tracker** chart. 
 1. Customize the following elements:
     - **Horizontal (x) axis**
       Select any field of type *DateTime*. For example, you can choose to plot the chart based on delivered date instead of closed date.  
     - **Vertical (y) axis**
       Select any *numerical* field to plot on the vertical axis.   
     - **Segment by**
-        Select how you want to color-code or distinguish the bubbles. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline such as identify, qualify, propose, and so on.   
-    - Size
-        Select a numerical field to indicate the size of the bubble. 
-    - Sort legend
+        Select how you want distinguish the bubbles using different color codes. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline such as identify, qualify, propose, and so on.   
+    - **Size**
+        Select a *numerical* field to indicate the size of the bubble.   
+    - **Sort legend**
+    - Not sure what this is.
+  
         
     - **Tooltips**
-        Select the details that you want to see in the tooltips when you hover each  bubble. You can also delete the existing fields shown in the tooltip. 
-1. 
+        Select the details that you want to see as tooltips when you hover each  bubble. You can also remove the existing fields shown in the tooltip. 
