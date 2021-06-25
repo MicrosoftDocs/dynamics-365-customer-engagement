@@ -32,7 +32,7 @@
         href: enable-pdf-generation-quote.md
       - name: Set up enhanced email
         href: set-up-enhanced-email.md
-     - name: Deal manager overview
+      - name: Deal manager overview
         href: deal-manager-overview.md
         - name: Enable Deal manager preview
           href: enable-deal-manager-preview.md
