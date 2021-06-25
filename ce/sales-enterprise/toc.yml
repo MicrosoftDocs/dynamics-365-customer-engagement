@@ -32,13 +32,15 @@
         href: enable-pdf-generation-quote.md
       - name: Set up enhanced email
         href: set-up-enhanced-email.md
-      - name: Deal manager overview
-        href: deal-manager-overview.md
+      - name: Deal manager
+        items:
+        - name: Deal manager overview
+          href: deal-manager-overview.md
         - name: Enable Deal manager preview
           href: enable-deal-manager-preview.md
         - name: Grant access to Deal manager
           href: grant-access-deal-manager.md
-       - name: Customize to Deal manager
+        - name: Customize to Deal manager
           href: customize-deal-manager.md 
       - name: Enable customization of the Opportunity Close form
         href: enable-opportunity-close-customization.md
@@ -224,8 +226,12 @@
         href: ../sales-enterprise/qualify-lead-convert-opportunity-sales.md
       - name: Create or edit opportunities
         href: ../sales-enterprise/create-edit-opportunity-sales.md
-      - name: Deal manager overview
-        href: deal-manager-overview.md
+      - name: Deal manager
+        items:
+        - name: Deal manager overview
+          href: deal-manager-overview.md
+        - name: Access deal manager
+          href: enable-deal-manager-preview.md 
       - name: Work with opportunities in the Kanban view
         href: opportunity-kanban-view.md
       - name: Reopen leads
