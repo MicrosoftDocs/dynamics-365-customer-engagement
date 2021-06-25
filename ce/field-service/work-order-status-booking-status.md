@@ -237,7 +237,7 @@ Here is the customer asset that results from the used work order product. Notice
 
 
 #### Traveling
-- **Start time** of Bookable Resource Booking ("Booking")is updated to current time.
+- **Start time** of bookable resource booking ("Booking") is updated to current time.
 - **Booking Timestamp** is created.
 
 #### In Progress
