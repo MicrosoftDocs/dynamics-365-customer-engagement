@@ -208,7 +208,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     
     - **Language code**: Select the language for the message.
     
-    - **Localized text**: Write the message in the language specified. You must create a localization for each translation of the message.
+    - **Localized text**: Write the message in the language specified. You must create localized text for each translation of the message.
     
     > [!div class=mx-imgBorder]
     > ![Create WhatsApp message template localized message](media/whatsapp-message-template-new-message-locale.png "Create WhatsApp message template localized message")

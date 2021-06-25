@@ -6,7 +6,6 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 01/04/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Use Facebook channel
@@ -81,7 +80,7 @@ To learn more about the Facebook channel setup, see [Configure a Facebook channe
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-## See also
+### See also
 
 [Configure a Facebook channel](configure-facebook-channel.md)
 
