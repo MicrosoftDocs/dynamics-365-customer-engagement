@@ -32,7 +32,7 @@ With calling options in live chat, you can:
 Make sure that the following prerequisites are met:
 
 - **Browser:** Latest version of Microsoft Edge or Google Chrome. For more information, see the [Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat).
-- **Internet bandwidth**
+- **Internet bandwidth:**
   - **Minimum:** 500 KBps upload speed; 1 MBps download speed
   - **Recommended:** 1 MBps  upload speed; 2 MBps download speed
 
@@ -119,7 +119,7 @@ When you're chatting with a customer, you can initiate a co-browsing or screen s
     > [!div class=mx-imgBorder]
     > ![Agent requests a co-browse session during live chat](media/third-party-co-browse-agent-chat.png "Agent requests a co-browse session during live chat")
 
-Once the customer accepts your invitation, you'll be able to see the customer's screen to diagnose the issue.
+Once the customer accepts your invitation, you'll be able to see the customer's screen and more accurately diagnose the issue.
 
 When you enter a co-browse session, you can:
 

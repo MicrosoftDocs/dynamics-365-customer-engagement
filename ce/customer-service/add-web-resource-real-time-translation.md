@@ -11,7 +11,7 @@ manager: shujoshi
 
 You can use a web resource to implement the logic for enabling real-time translation of messages exchanged in conversations between the customer and the agent.
 
-To add a web resource
+To add a web resource:
 
 1. Download the [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) (webResourceV2.js) file that you can use to implement the logic for enabling real time translation of the conversation messages exchanged between the customer and the agent. More information: [Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources).
 
@@ -21,19 +21,19 @@ To add a web resource
 
 ## Upload the web resource file
 
-Perform the following steps to upload the web resource file for real-time translation.
+Perform the following steps to upload the web resource file for real-time translation:
 
 1. In Omnichannel Administration app, select **Settings**, and select **Advanced Settings**.
 
 2. On the page that appears on a new tab, select **Settings**, and then select **Solutions**.
 
-3. In **All Solutions**, select **New**, and do the following.
+3. In **All Solutions**, select **New**, and do the following:
    1. In the General section of the **Solution: New Solution** page, enter the details for the mandatory fields.
    2. Save the solution and close the form.
 
 4. For the added solution, in the left pane, select **Web Resources** under **Components**.
 
-5. Select **New**, and perform the following steps.
+5. Select **New**, and perform the following steps:
    1. In the **General** section, enter a name for the web resource.
    2. In the **Content** section, select Script (JScript) for **Type**.
    3. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
