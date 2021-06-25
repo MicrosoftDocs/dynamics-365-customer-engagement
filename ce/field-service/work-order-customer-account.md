@@ -3,7 +3,7 @@ title: "Add an account with customer, location, and related details to a work or
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/19/2019
+ms.date: 06/25/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -93,6 +93,10 @@ This value serves as a text note and populates the **Instructions** field on all
 
 > [!Note]
 > Updating these values will not update previous work orders, only future work orders.
+
+### Currency
+
+Work Order Products and Work Order Services will inherit the Currency value noted on the Work Order Service Accounts and Billing Accounts. 
 
 
 ## Create a work order for the service account
