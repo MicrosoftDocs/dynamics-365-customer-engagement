@@ -51,9 +51,10 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 ## For admins: enable Microsoft Teams integration feature 
 
-1. Sign in as a system administrator to your customer engagement app in Dynamics 365 
-2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear. 
+1. Sign in as a system administrator to your customer engagement app in Dynamics 365.  
+1. Select the Settings icon at the top-right corner, and then select **Advanced Settings**. 
+1. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
+1. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear. 
    > [!NOTE]
    >  You can only set **Enable Enhanced Microsoft Teams Integration** to, **Yes** if **Enable Basic Microsoft Teams Integration** is set to, **Yes**. If you don't enable Basic Microsoft Teams Integration then the option **Enable Enhanced Microsoft Teams Integration** is grayed out.  
    >  > [!div class="mx-imgBorder"] 
