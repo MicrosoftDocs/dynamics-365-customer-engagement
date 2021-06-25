@@ -1,6 +1,6 @@
 ---
-title: "Use Inspections without Work Orders | MicrosoftDocs"
-description: Learn how to configure more advanced scenarios for inspections in Dynamics 365 Field Service.
+title: "Use inspections without work orders in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to use inspections without work orders in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 03/17/2021
@@ -18,10 +18,9 @@ search.app:
   - D365FS
 ---
 
+# Use inspections without work orders
 
-# Use Inspections without Work Orders
-
-Oftentimes organizations need to conduct Inspections indepedent of work orders. This allows organziations to conduct inspections without needing to create work orders. Currently, Inspections can be added to Customer Assets.
+Organizations often need to conduct inspections indepedent of work orders. Currently, inspections can be added to customer assets in Field Service.
 
 To enable inspections on customer assets without a work order, an admin must perform the following steps.
 
