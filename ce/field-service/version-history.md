@@ -60,18 +60,18 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.47.98](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124798)).
 
-Includes all content from Field Service version 8.8.44.39
+Includes all content from Field Service version 8.8.44.39.
 
 ## 8.8.44.39 
 
 (Includes Universal Resource Scheduling version [3.12.47.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124762)).
 
-- Fixed an issue in the new mobile app faced with chart creation for Bookable Resource Booking in customization settings.
-- Removed an issue with changing Pricing fields.
-- Corrected an issue where default view for Customer Asset look up field on Work Order Service Task form could not be changed.
-- Fixed an error in Field Service upgrade with the error saying that the element 'tab' has incomplete content.
- -Fixed an issue with sub grids on work order form opening main form instead of quick create form.
-- Removed an issue in Agreement booking where the default system status was getting automatically updated to a different value.
+- Fixed an issue in the new mobile app faced with chart creation for bookable resource booking in customization settings.
+- Fixed an issue with changing pricing fields.
+- Fixed an issue where default view for customer asset lookup field on work order service task form could not be changed.
+- Fixed an error in Field Service upgrade with the error saying that the element "tab" has incomplete content.
+ -Fixed an issue with subgrids on work order form opening main form instead of quick create form.
+- Removed an issue in agreement booking where the default system status was getting automatically updated to a different value.
 
 
 ## 8.8.43.97
@@ -80,7 +80,7 @@ Includes all content from Field Service version 8.8.44.39
 
 This release is a hotfix on Field Service version [8.8.43.93](#884393).
 
-- Sometimes we do not want booking start time to be set to current time when booking status is set to ‘on site’. A new setting  has been added to Field Service advanced settings to take care of this. On adding ‘bookableresourcebooking.disablefsmtravelingcaluclations’=true to the Advanced settings booking start time would not be set to current time.
+- Sometimes, you might not want a booking start time to be set to current time when the booking status is set to "on site". A new setting has been added to Field Service advanced settings to address this. On adding `bookableresourcebooking.disablefsmtravelingcaluclations` set to `true` to the advanced settings, booking start time would not be set to current time.
 
 ## 8.8.43.93
 
@@ -107,7 +107,7 @@ This release is a hotfix on Field Service version [8.8.43.51](#884351).
 
 (Includes Universal Resource Scheduling version [3.12.45.28](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124528).
 
-Includes all content from Field Service version 8.8.42.64
+Includes all content from Field Service version 8.8.42.64.
 
 ## 8.8.42.64 
 
