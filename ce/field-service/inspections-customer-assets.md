@@ -38,11 +38,13 @@ On opening the record, find **Display Option**. This field is set to **Do not Di
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Advanced settings showing the Inspection do not display option with customer asset.](./media/ad-hoc-inspection-display-setting.png)
 
-Inspection are now visible in the **Related** tab for assets. To validate, go to **Service** > **Assets** and create a new asset or open an existing asset. Right-click on the **Related** tab and verify that **Inspections** are now available. You should also see an option to create a **New Inspection**.
+Inspections are now visible in the **Related** tab for assets. To validate, go to **Service** > **Assets** and create a new asset or open an existing asset. Right-click on the **Related** tab and verify that **Inspections** are now available. You should also see an option to create a **New Inspection**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Advanced settings showing the Inspection in the related tab of customer asset.](./media/ad-hoc-inspection-asset-related-tab.jpg)
 
 A new inspection instance can be created and an inspection template can be assigned to it. After saving, the inspection responses can be entered and saved. Upon selecting **Mark Complete** from the ribbon, the inspection becomes read-only and no more responses can be entered or edited.
 
-From the Field Service mobile app, the technician can also go the asset and perform ad hoc inspections in the same way.
+From the Field Service mobile app, the frontline worker can also go the asset and perform ad hoc inspections in the same way.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
