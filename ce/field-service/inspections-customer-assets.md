@@ -31,17 +31,17 @@ There's an entity `InspectionInstance` with a display name **Inspection** with a
 Find the row where **Related Entity** is **Inspection**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Advanced settings showing the Inspection relation with customer asset.](./media/ad-hoc-inspection-customer-asset.png)
+> ![Advanced settings showing the inspection relation with customer asset.](./media/ad-hoc-inspection-customer-asset.png)
 
 On opening the record, find **Display Option**. This field is set to **Do not Display**. Update this value to **Use Plural Name** or **Custom Label**. Once updated, **Save and Close** and **Publish All Customizations**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Advanced settings showing the Inspection do not display option with customer asset.](./media/ad-hoc-inspection-display-setting.png)
+> ![Advanced settings showing the inspection "do not display" option with customer asset.](./media/ad-hoc-inspection-display-setting.png)
 
 Inspections are now visible in the **Related** tab for assets. To validate, go to **Service** > **Assets** and create a new asset or open an existing asset. Right-click on the **Related** tab and verify that **Inspections** are now available. You should also see an option to create a **New Inspection**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Advanced settings showing the Inspection in the related tab of customer asset.](./media/ad-hoc-inspection-asset-related-tab.jpg)
+> ![Advanced settings showing the inspection in the related tab of customer asset.](./media/ad-hoc-inspection-asset-related-tab.jpg)
 
 A new inspection instance can be created and an inspection template can be assigned to it. After saving, the inspection responses can be entered and saved. Upon selecting **Mark Complete** from the ribbon, the inspection becomes read-only and no more responses can be entered or edited.
 
