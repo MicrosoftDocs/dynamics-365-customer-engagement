@@ -45,6 +45,6 @@ Inspections are now visible in the **Related** tab for assets. To validate, go t
 
 A new inspection instance can be created and an inspection template can be assigned to it. After saving, the inspection responses can be entered and saved. Upon selecting **Mark Complete** from the ribbon, the inspection becomes read-only and no more responses can be entered or edited.
 
-From the Field Service mobile app, the frontline worker can also go the asset and perform ad hoc inspections in the same way.
+From the Field Service mobile app, the frontline worker can also go the asset and perform impromptu inspections in the same way.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
