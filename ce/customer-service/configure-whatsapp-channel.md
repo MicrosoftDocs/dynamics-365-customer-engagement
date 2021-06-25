@@ -1,6 +1,6 @@
 ---
-title: "Configure WhatsApp channel through Twilio | MicrosoftDocs"
-description: "Learn about the WhatsApp channel through Twilio and how to configure the channel in Omnichannel for Customer Service."
+title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
+description: "Use this topic to learn how to configure the Whatsapp channel through Twilio in Omnichannel for Customer Service."
 ms.date: 04/09/2021
 ms.topic: article
 author: neeranelli
@@ -187,13 +187,13 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
 
-4. On the **Message templates** tab, you can configure agents' ability to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp approved templates until the customer responds.
+4. On the **Message templates** tab, you can configure agents' ability to send Whatsapp approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp approved templates until the customer responds.
 
     > [!NOTE]
     >
     > Create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
 
-    Click **New** to create a template and complete the following fields:
+    Select **New** to create a template and complete the following fields:
 
     - **Name**: Label the group of messages that will go in this template.
     
@@ -204,7 +204,7 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
     > [!div class=mx-imgBorder]
     > ![Create WhatsApp message template](media/whatsapp-message-template-new-message.png "Create WhatsApp message template")
     
-    Click **Save** and the **Localization Data (Message template)** panel appears. Select **New localization** and complete the following fields:
+    Select **Save** and the **Localization Data (Message template)** panel appears. Select **New localization** and complete the following fields:
     
     - **Language code**: Select the language for the message.
     
