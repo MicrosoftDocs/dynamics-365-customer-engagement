@@ -17,7 +17,7 @@ ms.custom:
 monikerRange: '>= dynamics-usd-3'
 ---
 
-# Use IE Process to host web applications (Deprecated)
+# Use IE Process to host web applications 
 
 > [!Note]
 >

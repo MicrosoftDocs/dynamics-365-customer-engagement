@@ -45,7 +45,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Great Britain</i> |[3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |TBD  | 07/16/2021
 | | <i>Oceania</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |TBD   | 07/16/2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.3.1.38](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |[3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324)  | 06/18/2021
+| | <i>Europe</i> | [3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324) |TBD  | 07/23/2021
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [3.3.1.38](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#33138) |[3.3.2.4](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3324)  | 06/25/2021
 |<strong>Station 6</strong> | |  |  | |

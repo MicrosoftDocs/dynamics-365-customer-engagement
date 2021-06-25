@@ -3,7 +3,7 @@ title: "Add an account with customer, location, and related details to a work or
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 04/19/2019
+ms.date: 06/25/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -94,15 +94,17 @@ This value serves as a text note and populates the **Instructions** field on all
 > [!Note]
 > Updating these values will not update previous work orders, only future work orders.
 
+### Currency
+
+Work order products and work order services will inherit the currency value noted on the work order service accounts and billing accounts. 
 
 ## Create a work order for the service account
 
-Next, go to **Field Service > Work Orders > +New**.
+Next, go to **Field Service** > **Work Orders** > +New**.
 
 Add the account you created as the service account. 
 
-
-Notice the following values are automatically populated:
+The following values are automatically populated:
 
 - **Billing Account**: populated as the billing account specified on the service account record.
 

@@ -21,7 +21,7 @@ monikerRange: '>= dynamics-usd-3'
 
  ## Hosting types
  
-- [Edge WebView2 Process](edge-webview2-process.md)
+- [Edge WebView2 process](edge-webview2-process.md)
 
 - [Chrome process](chrome-process.md)
 
