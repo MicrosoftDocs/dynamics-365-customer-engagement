@@ -96,17 +96,15 @@ This value serves as a text note and populates the **Instructions** field on all
 
 ### Currency
 
-Work Order Products and Work Order Services will inherit the Currency value noted on the Work Order Service Accounts and Billing Accounts. 
-
+Work order products and work order services will inherit the currency value noted on the work order service accounts and billing accounts. 
 
 ## Create a work order for the service account
 
-Next, go to **Field Service > Work Orders > +New**.
+Next, go to **Field Service** > **Work Orders** > +New**.
 
 Add the account you created as the service account. 
 
-
-Notice the following values are automatically populated:
+The following values are automatically populated:
 
 - **Billing Account**: populated as the billing account specified on the service account record.
 
