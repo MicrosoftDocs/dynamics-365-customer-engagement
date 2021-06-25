@@ -1,6 +1,6 @@
 ---
 title: "Show customers their position in a queue | MicrosoftDocs"
-description: "How to show customers their queue position for a chat widget in Omnichannel for Customer Service."
+description: "Learn how to show customers their queue position for a chat widget in Omnichannel for Customer Service."
 ms.date: 05/04/2020
 ms.topic: article
 author: lalexms
@@ -19,7 +19,7 @@ As an administrator, you can turn on the feature that displays a customer’s po
 
 When this feature is turned on, a customer who submits a request when other customers already are waiting is placed in the queue and notified with the following message: **People ahead of you: \<n\>.** 
 
-The number of customers waiting to chat counts down each time a customer in line is served. When no other customers are ahead in the queue, the customer waiting is notified with the following message: **You’re next in line…**.
+The number of customers waiting to chat counts down each time a customer in line is served. When no other customer is ahead in the queue, the customer waiting is notified with the message: **You’re next in line…**.
 
 > [!NOTE]
 >  - The queue position is shown only when there is a queue of customers waiting (for example, when no agents are currently available).
@@ -28,7 +28,7 @@ The number of customers waiting to chat counts down each time a customer in line
 
 ## Enable queue position setting
 
-To configure the queue position setting:
+To configure the queue position setting
 
 1.	Sign in to Omnichannel Administration.
 
@@ -38,7 +38,7 @@ To configure the queue position setting:
 
 4.	Go to the **Basic details** tab.
 
-5.	In **Queue position**, change **Show position in queue** to **Yes** (this feature is set to **No** by default).
+5.	In **Queue position**, change **Show position in queue** to **Yes**. By default, it is set to **No**.
 
 6.  Select **Save**.
 

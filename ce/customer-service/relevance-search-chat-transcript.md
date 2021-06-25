@@ -1,6 +1,6 @@
 ---
 title: "Configure relevance search for transcripts | MicrosoftDocs"
-description: "Learn how to configure relevance search for chat transcript so agents can search in Omnichannel for Customer Service."
+description: "Learn how to configure relevance search for chat transcripts so agents can search in Omnichannel for Customer Service."
 ms.date: 02/03/2020
 ms.topic: article
 author: neeranelli

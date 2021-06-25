@@ -16,19 +16,19 @@ The Omnichannel for Customer Service app for Dynamics enables organizations to i
 
 ## Value propositions of Omnichannel for Customer Service app
 
-- **Unified experience**: The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
+- **Unified experience:** The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
-- **Multiple session and application management**: The app enables agents to handle multiple sessions and manage contextual applications (app tab panel) related to the sessions with ease, which in-turn leads to less errors, faster case resolution, and customer satisfaction.
+- **Multiple session and application management:** The app enables agents to handle multiple sessions and manage contextual applications (app tab panel) related to the sessions with ease, which in turn leads to less errors, faster case resolution, and customer satisfaction.
 
-- **Deployment and upgrade**: The app is available as a web application (thin client), which makes the maintenance easy and the upgrades are seamless.
+- **Deployment and upgrade:** The app is available as a web application (thin client), which makes the maintenance easy and the upgrades are seamless.
 
-- **Extensibility**: The app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the app.
+- **Extensibility:** The app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the app.
 
 ## High-level feature capabilities for the agents
 
 As an agent, you might engage with several customers simultaneously across different channels but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. Omnichannel for Customer Service provides a consistent experience regardless of the support channel and organizations can maximize agent productivity.
 
-The Omnichannel for Customer Service provides the following key capabilities.
+Omnichannel for Customer Service provides the following key capabilities:
 
 - Agent dashboard
 - Multiple sessions
@@ -46,7 +46,7 @@ The Omnichannel for Customer Service provides the following key capabilities.
 
 ## Components in the agent interface
 
-When you start a chat session in the Omnichannel for Customer Service, the agent interface has the following components.
+When you start a chat session in Omnichannel for Customer Service, the agent interface has the following components:
 
 - Session panel
 
@@ -90,7 +90,7 @@ The horizontal bar below the navigation bar is called the application tab panel.
    > [!div class=mx-imgBorder]
    > ![Omnichannel Agent Dashboard shows My work items, Open work items, and closed work items](media/oceh-agent-interface-oceh-dashboard.png "Omnichannel Agent Dashboard")
 
-   The dashboard shows the following work item streams.
+   The dashboard shows the following work items:
     - **My work items**
     - **Open work items**
     - **Closed work items**
@@ -103,19 +103,19 @@ The horizontal bar below the navigation bar is called the application tab panel.
 
    ![Navigation bar buttons of Omnichannel for Customer Service](media/oceh-navigation-bar-buttons.png "Navigation bar buttons of Omnichannel for Customer Service")
 
-   a. **Search**: Do a simple search for records using the advanced search option and open the record in a application tab. Advanced Search is also called as Categorized Search.
+   - **Search:** Do a simple search for records using the advanced search option and open the record in a application tab. Advanced Search is also called Categorized Search.
 
-   b. **Quick create**: Add a new record. The quick-create option provides the list of related records (entities) that you can create. The following are the record types that you can create:
+   - **Quick create:** Add a new record. The quick-create option provides the list of related records that you can create. The following are the record types that you can create:
     
-   - Activities
-   - Appointment
-   - Email
-   - Phone Call
-   - Task
-   - Account
-   - Case
-   - Contact
-   - Knowledge Article
+       - Activities
+       - Appointment
+       - Email
+       - Phone Call
+       - Task
+       - Account
+       - Case
+       - Contact
+       - Knowledge Article
     
      Select the expand button next to Activities to create different activities.
     
@@ -126,7 +126,7 @@ The horizontal bar below the navigation bar is called the application tab panel.
    > [!div class="mx-imgBorder"]
    > ![Quick create account form](media/oceh-quick-create-forms-account.png "Quick create account form")
 
-   c. **Presence**: Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oc-manage-presence-status.md).
+   - **Presence:** Set presence as per your availability. Select the icon to launch the presence dialog and use the dropdown list to select a status. To learn more, see [Manage presence status](oc-manage-presence-status.md).
 
 ### See also
 

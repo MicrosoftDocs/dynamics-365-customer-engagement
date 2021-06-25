@@ -1,6 +1,6 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
+description: "Learn about the scenarios where you might receive notifications in Omnichannel for Customer Service. Also learn about notifications types."
 ms.date: 10/12/2020
 ms.topic: article
 author: neeranelli
@@ -14,7 +14,7 @@ manager: shujoshi
 
 A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the customer summary page.
 
-Herea are some scenarios where you might receive notifications.
+Here are some scenarios where you might receive notifications:
 
 - Incoming chat conversation
 
@@ -30,7 +30,7 @@ Herea are some scenarios where you might receive notifications.
 
 ## Receive notifications when the app is in the background
 
-You'll receive desktop notifications when the Omnichannel for Dynamics 365 Customer Service app isn't in focus. The desktop notification helps ensure that you won't miss any conversation requests. Some scenarios where the app isn't in focus can include:
+You'll receive desktop notifications when the Omnichannel for Customer Service app isn't in focus. The desktop notification helps ensure that you won't miss any conversation requests. Some scenarios where the app isn't in focus include:
 
 - You've minimized the app.
 - You're working in another browser window.
@@ -64,7 +64,7 @@ There are two types of notifications:
 
 - **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with the customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
-## Incoming chat notification
+## Incoming chat notifications
 
 You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
 
@@ -73,22 +73,22 @@ You receive a notification for an incoming chat request. When you accept the cha
 
 The details you'll see for a chat channel are as configured by your administrator.
 
-## Incoming SMS notification
+## Incoming SMS notifications
 
-You receive a notification for an SMS conversation request. When you accept the SMS request, a session is started, and the communication panel appears in which you can exchange messages with the customer.
+When you receive a notification for an SMS conversation request and you accept the SMS request, a session starts, and the communication panel appears in which you can exchange messages with the customer.
 
-The identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 Customer Service. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
+A customer is identified based on the **Mobile Phone** field information stored in the Contact record in Dynamics 365 Customer Service. That is, if the incoming SMS conversation is from a phone number stored in the mobile phone field of a Contact record, the conversation automatically links to that contact record.
 
  > [!div class=mx-imgBorder]
  > ![Incoming SMS notification](media/sms-notification-request.png "Incoming SMS notification")
 
-The details you'll see for a SMS channel are as configured by your administrator.
+The details you see for a SMS channel are as configured by your administrator.
 
 ## Missed notification alerts
 
 > [!IMPORTANT]
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
-> - Missed notifications is not supported in Omnichannel for Customer Service on Unified Service Desk.
+> - Missed notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
 
 When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the work stream. Your supervisor also can reset your presence.
 
@@ -97,7 +97,7 @@ When you don't respond to an incoming conversation notification, you'll see an a
 
 ## Notification time-out and rerouting of conversations
 
-When you don't respond to an incoming conversation notification, it will time out based on the time-out settings configured by your administrator and be rerouted.
+When you don't respond to an incoming conversation notification, it'll time out based on the time-out settings configured by your administrator and be rerouted.
 
 Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system, they are not seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversation is then rerouted after eight minutes.
 

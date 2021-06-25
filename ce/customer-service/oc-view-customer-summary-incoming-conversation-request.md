@@ -1,6 +1,6 @@
 ---
 title: "View customer summary for an incoming conversation request | MicrosoftDocs"
-description: "Learn how to view customer summary for incoming conversation requests for customer records in Omnichannel for Customer Service."
+description: "Learn how to view customer summary of incoming conversation requests for customer records in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

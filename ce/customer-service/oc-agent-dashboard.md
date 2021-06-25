@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel Agent Dashboard in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the Omnichannel Agent Dashboard that shows the work items for the agents using Omnichannel for Customer Service."
+description: "Learn about the Omnichannel Agent Dashboard that shows work items for agents using Omnichannel for Customer Service."
 ms.date: 06/23/2021
 ms.topic: article
 author: neeranelli
@@ -22,26 +22,26 @@ When you sign in to the Omnichannel for Customer Service app, the Omnichannel Ag
 
 ## My work items
 
-In the **My work items** section, you can see the conversations (work items) that you are actively working on. Select the ellipses and select the **Open** option to open the work item in a session.
+In the **My work items** section, you can see the conversations (work items) that you are actively working on. Select the ellipsis and select the **Open** option to open the work item in a session.
 
 ## Open work items
 
-In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you are added as a member. Select the ellipses and select the **Assign to me** option to assign the work item to yourself. When you select a work item, you get a notification, and when you accept it, a session starts and customer summary or case page loads.
+In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you are added as  member. Select the ellipsis and select the **Assign to me** option to assign the work item to yourself. When you select a work item, you get a notification, and when you accept it, a session starts and the customer summary or case page loads.
 
 The work item that you pick is moved from the **Open work items** section to the **My work items** section. If you reject the request, then the work item remains in the **Open work items** section.
 
 ## Closed work items
 
-In the **Closed work items** section, you can see all the conversations that you've closed on the same day. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+In the **Closed work items** section, you can see all the conversations that you've closed on the same day. To view a closed work item, select its ellipsis button (**...**), and then select **Open** to view the details.
 
-When you open a record from the **Closed work items** section, you can view the attributes of the closed conversation record. This will not re-open or re-activate the conversation.
+When you open a record from the **Closed work items** section, you can view the attributes of the closed conversation record. This will not reopen or reactivate the conversation.
 
 ## Sort work items
 
-On the dashboard, you can sort the work items by the following categories:
+On the dashboard, you can sort work items by the following categories:
 
 - Modified On
-- Work distribution mode (For open work items only)
+- Work distribution mode (for open work items only)
 - Customer
 - Work stream
 - Created On

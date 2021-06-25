@@ -13,14 +13,12 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Create personal quick replies
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 You can use the personalization menu that's accessible through the application tab to add *personal quick replies*, also called *predefined messages*. You can create quick replies for the common questions and scenarios that you need to address in your role. You can tag the replies with keywords that help you invoke the quick replies when you're interacting with customers.
 
@@ -34,8 +32,8 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 2. Select **Personalization**.
 
 3. On the **Personal quick replies** tab, select **New Personal quick reply**, and do the following:
-    - **Message**: Enter the text you want to use for your reply.
-    - **Locale**: Select the language in which you want to create the quick reply.
+    - **Message:** Enter the text you want to use for your reply.
+    - **Locale:** Select the language in which you want to create the quick reply.
 
         > [!NOTE]
         > - To avoid duplicating quick replies, check the predefined messages before creating a personal quick reply.
@@ -43,6 +41,7 @@ You can create, edit, and delete the personal quick replies you own. The quick r
 
    > ![Create a personal quick reply](media/create-personal-quick-reply.png "Create a personal quick reply")
 4. In the **Tags** area, enter the keyword you want to associate with the quick reply, and then select ![plus sign](media/plus-sign.png). If you want to use the number sign (#), don't use it anywhere else in the keyword except at the beginning.
+
 5. Select **Save**.
 
 It can take up to 15 minutes for the quick replies to be available for your use.

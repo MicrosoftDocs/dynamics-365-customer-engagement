@@ -1,6 +1,6 @@
 ---
 title: "View customer summary in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Customer summary is a page where you can get all available information about the customer with whom you're going to interact."
+description: "Learn about customer summary, its sections, and how you can view customer information in Omnichannel for Customer Service."
 ms.date: 04/19/2021
 ms.topic: article
 author: neeranelli
@@ -44,11 +44,11 @@ Use the customer section to search for an existing contact or account record in 
 
 The **Conversation summary** section provides detailed information about the conversation between the agent and customer. The information shown in the **Conversation details** area includes the following:
 
-- **Engagement channel**: The channel, such as live chat or custom channel, through which the conversation is taking place.
-- **Waiting time**: The time the customer had to wait before the conversation was assigned to the agent.
-- **Skills**: The skills that had been attached for routing the conversation. If your administrator has enabled the setting for agents to update skills, you can add or remove skills.
-- **Queue**: The queue through which the conversation has been assigned to you.
-- **Start time**: The time when you started the conversation.
+- **Engagement channel:** The channel, such as live chat or custom channel, through which the conversation is taking place.
+- **Waiting time:** The time the customer had to wait before the conversation was assigned to the agent.
+- **Skills:** The skills that had been attached for routing the conversation. If your administrator has enabled the setting for agents to update skills, you can add or remove skills.
+- **Queue:** The queue through which the conversation has been assigned to you.
+- **Start time:** The time when you started the conversation.
 
   > [!div class='mx-imgBorder']
   > ![Conversation details](media/conversation-details.png "Conversation-details")
@@ -68,7 +68,7 @@ The **Pre-chat survey** tab displays the customer's answers to the survey questi
 
 ### Self service
 
-The **Self service** tab displays information about the activities that the customer performed before initiating a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order:
+The **Self service** tab displays information about the activities that the customer performed before initiating a conversation with an agent. This information helps you understand why the customer reached out and helps you provide a personalized service for enhanced customer satisfaction. The activity information, which is categorized into the following action types, appears in reverse chronological order.
 
 | Action type | Description |
 |-------------|-----------------------------------|
@@ -113,7 +113,7 @@ This section displays recent cases related to the customer.
 
 This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on your discussion with the customer. Use the **Linked records** field to switch the timeline based on the case, contact, or account record linked to the conversation.
 
-The **Linked records** field shows the record that's linked to the conversation. For example, if you link a contact and case to the conversation, the **Linked records** drop-down list shows **Contact** and **Case**, respectively.
+The **Linked records** field shows the record that's linked to the conversation. For example, if you link a contact and case to the conversation, the **Linked records** dropdown list shows **Contact** and **Case**, respectively.
 
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down](media/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")

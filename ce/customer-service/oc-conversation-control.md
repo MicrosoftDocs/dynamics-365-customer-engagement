@@ -29,7 +29,7 @@ From a conversation channel, you can do the following tasks:
 
 The communication panel has options that you can use to perform actions, such as see quick replies, consult, and transfer, and launch notes control. You can also use keyboard commands to perform these actions.
 
-In the communication panel, you can see the following options:
+In the communication panel, you can see the following options.
  
 | Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
@@ -56,9 +56,9 @@ When you want to send messages to all the participants in the conversation inclu
 
 You can use the keyboard commands to send internal and public messages:
 
-- **/i**: Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
+- **/i:** Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
 
-- **/p**: Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
+- **/p:** Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
 
 ## Send predefined messages in chats
 
@@ -118,7 +118,7 @@ In the communication panel, you can transfer the conversation (work item) either
 
 You can transfer the request only to agents who are configured in the same queue. If the request belongs to another queue and you transfer the request, the work distribution system assigns the conversation to the appropriate agent in the queue.
 
-Agents whose presence is set to Busy-DND, Away, or Offline will not appear in the agents list of the transfer pane. Also, agents 
+Agents whose presence is set to Busy-DND, Away, or Offline do not appear in the agent list of the transfer pane. Also, agents 
 
 Use the keyboard command to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 

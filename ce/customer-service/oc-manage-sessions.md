@@ -1,6 +1,6 @@
 ---
 title: "Manage sessions in Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to manage sessions using the session panel in Omnichannel for Customer Service app"
+description: "Learn how to start and manage sessions using the session panel in Omnichannel for Customer Service app."
 ms.date: 04/06/2020
 ms.topic: article
 author: neeranelli
@@ -21,7 +21,7 @@ When a session is started:
 
 - The presence status is updated as per the configuration set by your administrator.
 - The Communication panel is displayed so you can interact and exchange messages with the customer.
-- The Customer summary page is loaded with the details of customer such as contact or account name, case, conversation summary and so on.
+- The Customer summary page is loaded with the details of customer such as contact or account name, case, and conversation summary.
 - The KB Search page opens in the app tab panel.
 
 ## Start a session
@@ -31,7 +31,7 @@ As an agent, you can start the sessions in two ways:
 - Manually start a session
 - Automatically start a session using the incoming notification
  
-When you start a session from a notification request that is a Chat or SMS channel, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
+When you start a session from a notification request that is a chat or SMS channel, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
 
 ### Manually start a session using the gestures
 
@@ -88,11 +88,11 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
 ## Title and icon of the session
 
-- **Session Title**
+- **Session title**
 
     By default, the title of session is name of the customer, account, or title of the case. For an unauthenticated conversation request, the title will be displayed as visitor with a number. For example, **Visitor 1**.
     
-    For an authenticated chat, name of the contact, account or title of the case is displayed.
+    For an authenticated chat, name of the contact, account, or title of the case is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Session icon](media/oceh-session-icon.png "Session icon")
@@ -123,9 +123,9 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
 - **Unread message count**
 
-    When you are working on multiple customer sessions, there may be a scenario where a you may receive many messages across different sessions. Since you are working simultaneously on multiple sessions, and if that session is focused, you need a way to identify the number of messages you received for a particular session. 
+    When you're working on multiple customer sessions, there may be a scenario where you may receive many messages across different sessions. Since you are working simultaneously on multiple sessions, and if that session is focused, you need a way to identify the number of messages you received for a particular session. 
 
-    A count of unread messages is displayed on the session icon in the session panel. If the number of messages are 10 or more, then a plus icon (+) is displayed.
+    A count of unread messages is displayed on the session icon in the session panel. If the number of messages is 10 or more, then a plus icon (+) is displayed.
 
     When you hover the cursor on the session icon, you can see a tooltip, which displays a message in the following format: 
     
@@ -144,7 +144,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     > [!div class=mx-imgBorder]
     > ![Unread message count](media/unread-message.png "Session icon")
 
-## See also
+### See also
 
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)

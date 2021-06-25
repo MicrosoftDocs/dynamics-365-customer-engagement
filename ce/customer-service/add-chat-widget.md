@@ -18,7 +18,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
 
 ## Configure a chat widget in Omnichannel admin center
 
-Perform the following steps to configure the chat widget in Omnichannel admin center:
+Perform the following steps to configure the chat widget in Omnichannel admin center
 
 1. In the site map of Omnichannel admin center, select **Workstreams**.
 
@@ -29,19 +29,19 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
 4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
 
 5. On the **Chat Widget** page, enter the following details:
-   - **Title**: Display name for the chat widget.
-   - **Subtitle**: Additional title, such as "We're online".
-   - **Theme color**: Choose a color from the list.
-   - **Logo URL**: Select the default value or enter the link to the logo that you want to be displayed.
-   - **Agent display name**: Select a value from the list.
+   - **Title:** Display name for the chat widget.
+   - **Subtitle:** Additional title, such as "We're online".
+   - **Theme color:** Choose a color from the list.
+   - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
+   - **Agent display name:** Select a value from the list.
 
 6. Set the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
-         - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
+         - **Operation hours name:** Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
    - Only show widget on the provided domains
-         - **Domain URL**: Enter the domain link and select **Add Domain URL**.
+         - **Domain URL:** Enter the domain link and select **Add Domain URL**.
 
 7. On the **Behaviors** page, configure the following options:
    - [Custom automated messages](configure-automated-message.md)
@@ -49,17 +49,17 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
    - [Post-conversation survey](configure-post-conversation-survey.md)
    - [Authentication settings](create-chat-auth-settings.md)
    - Customer wait time
-         - **Show position in queue**: Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
-         - **Show average wait time**: Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
-   - **Customer location detection**: Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
+         - **Show position in queue:** Select if you want to show customers their position in the queue when they're waiting to interact with an agent. More information: [Show customers their queue position](show-queue.md)
+         - **Show average wait time:** Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
+   - **Customer location detection:** Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 
 8. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
    - [Conversation transcripts](download-email-chat-transcripts.md)
-   - **Voice and video calls**: Set the toggle to **On** and select the calling option.
-   - **Screen sharing**: Set the toggle to **On** and select a provider.
-   - **Co-browse**: Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
+   - **Voice and video calls:** Set the toggle to **On** and select the calling option.
+   - **Screen sharing:** Set the toggle to **On** and select a provider.
+   - **Co-browse:** Set the toggle to **On** and select a provider if you want the agents to see and interact with a customer's web browse.
 
 9. Select **Save and close**.
 
@@ -72,7 +72,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **General settings** tab, specify the information for the following fields. The **Customer waiting** and **Chat Reconnect** options are available only for Live chat. Enter the settings in the fields depending on the type of chat you want to configure.
+4. On the **General settings** tab, specify the information for the following fields, depending on the type of chat you want to configure. The **Customer waiting** and **Chat Reconnect** options are available only for live chat. 
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
@@ -113,7 +113,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
 
 
     | Section | Field | Description | Example value |
-    |---------------|------------------------|-----------------------------------|---------------------|            
+    |---------------|------------------------|-----------------------------------|---------------------|
     |**Customer waiting** | **Show position in queue** | Select whether to show customers their position in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their position in a queue](show-queue.md) | Yes |
     | | **Show average wait time**| Select whether to show customers average wait time in the queue when they're waiting to interact with an agent. <br> More information: [Show customers their average wait time in a queue](average-wait-time.md) | Yes |
     |||
@@ -140,7 +140,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
-    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling**: <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling**:<br> Agents can make both voice and video calls. **Note:** Video calling is not available in Unified Service Desk. </ul><br><ul>**Voice only**:<br> Agents can make only voice calls.  </ul>| Video and voice calling |
+    |Voice and video calls | Call options | Select a call option from the list: <ul>**No calling:** <br>Agents can't make voice or video calls. </ul><br> <ul>**Video and voice calling:**<br> Agents can make both voice and video calls. **Note:** Video calling is not available in Unified Service Desk. </ul><br><ul>**Voice only:**<br> Agents can make only voice calls.  </ul>| Video and voice calling |
     | Visual engagement | Screen sharing | Select whether to enable third-party screen sharing. You must install a third-party provider from AppSource to use the feature. | Enabled |
     | Visual engagement | Screen sharing provider | Select the provider from the list.| *Screen sharing provider* |
     | Visual engagement | Co-browse | Select whether to enable third-party co-browse. You must install a third-party provider from AppSource to use the feature. | Enabled |
@@ -155,7 +155,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
     |---------------|------------------------|-----------------------------------|---------------------|
     | Online | Theme color | Select a color from the list for the chat widget. | Blue |
     | Online | Logo | Enter a link for the image that's hosted on a publicly available site. | https://oc-cdn-ocprod.azureedge.net/livechatwidget/images/chat.svg |
-    | Online | Title | Specify the name for the widget that's displayed for customers in the chat widget. | Let's Chat! |        
+    | Online | Title | Specify the name for the widget that's displayed for customers in the chat widget. | Let's Chat! |
     | Online | Subtitle | Specify the name for the widget that's displayed for customers in the chat widget. | We're Online |
     | Online | Position | Specify the position of the widget. | Bottom right |
     | Online | Operating hours | Select an operating hour window for the chat widget from the list. <br> More information: [Create and manage operating hours](create-operating-hours.md) | Regular shift |
@@ -185,7 +185,7 @@ After you configure, agents can get the capabilities while they are in a convers
 
 You can configure visual and sound notifications to be sent to customers when they're interacting with agents through the chat widget on your organization portal. If the chat window is minimized or isn't active, a sound notification is played when a message arrives and a count of the unread messages is displayed.
 
-To enable customer notifications:
+To enable customer notifications
 
 1. In Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 

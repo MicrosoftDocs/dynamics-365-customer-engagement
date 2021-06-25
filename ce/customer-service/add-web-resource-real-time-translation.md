@@ -11,7 +11,7 @@ manager: shujoshi
 
 You can use a web resource to implement the logic for enabling real-time translation of messages exchanged in conversations between the customer and the agent.
 
-To add a web resource:
+To add a web resource
 
 1. Download the [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) (webResourceV2.js) file that you can use to implement the logic for enabling real time translation of the conversation messages exchanged between the customer and the agent. More information: [Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources).
 

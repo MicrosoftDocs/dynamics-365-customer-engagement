@@ -6,14 +6,11 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Personalize sound notification settings
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 You can personalize sound notification settings for incoming conversation requests using the personalization menu available on the application tab panel. The option to personalize is available only when sound notifications are enabled by your administrator. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
@@ -26,13 +23,13 @@ The personalized settings have precedence over the administrator settings. You c
 2. Select **Sound Settings**.
 
 3. Personalize the following settings for the channels:
-   - **Play Sound**: Set the toggle to **Yes**.
-   - **Repeat until answered**: Set the toggle to **Yes** if you want the sound to be played till you respond.
-   - **Sound**: Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to preview the audio.
-   - **Volume**: Accept the default setting or use the slider to adjust the volume.
+   - **Play Sound:** Set the toggle to **Yes**.
+   - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played until you respond.
+   - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to preview the audio.
+   - **Volume:** Accept the default setting or use the slider to adjust the volume.
       > ![Personalize sound notifications](media/oc-personalize-sound-notifications.png "Personalize sound notifications")
    
-   - **Reset to default settings**: When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
+   - **Reset to default settings:** When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
 
 4. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channel.
     > ![Sound notification settings for open sessions](media/sound-notification-open-session.png "Sound notification settings for open sessions")

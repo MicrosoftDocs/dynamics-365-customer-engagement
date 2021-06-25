@@ -1,6 +1,6 @@
 ---
-title: "View omnichannel conversation and session forms | MicrosoftDocs"
-description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in the Model-driven apps."
+title: "View conversation and session forms, and activity types | MicrosoftDocs"
+description: "Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types."
 ms.date: 04/01/2020
 ms.topic: article
 author: neeranelli
@@ -51,7 +51,7 @@ The session activity type displays information about a individual session in a c
 
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
-## See also
+### See also
 
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [View customer summary](oc-customer-summary.md)
