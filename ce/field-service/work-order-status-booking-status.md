@@ -3,7 +3,7 @@ title: "Work order and booking statuses in Dynamics 365 Field Service | Microsof
 description: Learn about work order and booking statuses in Dynamics 365 Field Service
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/01/2020
+ms.date: 06/25/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -237,6 +237,7 @@ Here is the customer asset that results from the used work order product. Notice
 
 
 #### Traveling
+- **Start time** of Bookable Resource Booking ("Booking")is updated to current time.
 - **Booking Timestamp** is created.
 
 #### In Progress
