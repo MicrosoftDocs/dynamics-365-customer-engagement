@@ -51,7 +51,7 @@ When the user enters a message, the adapter API is invoked from the channel. It 
 
 The channel adapter must implement the `IAdapterBuilder` interface. The channel adapter is responsible for processing inbound and outbound activities.
 
-#### I. Process inbound activities
+#### Process inbound activities
 
 The channel adapters do the following steps:
 
@@ -183,7 +183,7 @@ The sample JSON payload is given below.
 
 After building the activity payload, it calls the Message Relay Processor's PostActivityAsync method to send the activity to direct line. The channel adapter should also pass the event handler, which the relay processor will invoke as soon as it receives an outbound message from OmniChannel for Customer Service through direct line.
 
-#### II. Process Outbound Activities
+#### Process Outbound Activities
 
 The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter does the following steps:
 
@@ -281,7 +281,7 @@ public class DirectLineConversation
 }
 ```
 
-I. If conversation is not active for the activity received by the relay processor, it does the following steps:
+If conversation is not active for the activity received by the relay processor, it does the following steps:
 
 Initiate a conversation with direct line and store the conversation object sent by direct line against the user ID in the dictionary.
 
@@ -399,7 +399,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
  }
  ```
 
-II. If the conversation is active for the activity received by the relay processor, it does [step 3](#step3) mentioned above.
+If the conversation is active for the activity received by the relay processor, it does [step 3](#step3).
 
 This page briefly explained how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to OmniChannel for Customer Service. This source code and documentation describe the overall flow of how the channel can connect to OmniChannel for Customer Service through direct line, and doesn't focus on aspects of reliability and scalability.
 

@@ -1,6 +1,6 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
-description: "Instructions for configuring an SMS channel for Twilio in Omnichannel for Customer Service."
+description: "Get instructions for configuring an SMS channel for Twilio in Omnichannel for Customer Service."
 ms.date: 04/09/2021
 ms.topic: article
 author: neeranelli
@@ -77,9 +77,9 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
    - [Quick replies](create-quick-replies.md)
 
 
-### Create a work stream in Omnichannel Administration
+### Create a workstream in Omnichannel Administration
 
-Perform the following steps to create a work stream for the SMS channel for Twilio:
+Perform the following steps to create a workstream for the SMS channel for Twilio:
 
 1. Sign in to Omnichannel Administration and go to **Work Distribution Management** > **Work Streams**.
 
@@ -89,10 +89,10 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     - **Auto-close after inactivity**: Select a value that indicates a duration of eight hours or longer.
     - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
-3. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
+3. In **Work distribution**, specify the necessary details. More information: [Create a workstream](work-streams-introduction.md#create-a-work-stream)
 
    > [!div class=mx-imgBorder]
-   > ![Works stream settings for Twilio](media/sms-twilio.png "Work stream settings for Twilio")
+   > ![Workstream settings for Twilio](media/sms-twilio.png "Workstream settings for Twilio")
 
 4. On the **SMS Settings** tab, enter the following details:
 
@@ -114,7 +114,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
     - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
 
     > [!NOTE]
-    > You can configure only one phone number per work stream.
+    > You can configure only one phone number per workstream.
 
 7. Select **Save**.
 
@@ -125,7 +125,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 10. Configure the routing rules on the **Routing rule items** tab. The routing rule for SMS works on **Mobile Phone** of the **Contact** entity. The customer is identified based on **Mobile Phone**, and the conversation is automatically linked to the contact record.
 
     > [!NOTE]
-    > To configure routing rules and other options in the work stream for Twilio, see the following:
+    > To configure routing rules and other options in the workstream for Twilio, see the following:
     > - [Skill-based routing](overview-skill-work-distribution.md)
     > - [Productivity tools](../app-profile-manager/productivity-tools.md)
     > - [Smart assist](../app-profile-manager/smart-assist.md)
@@ -135,7 +135,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 Perform the following steps to configure the URL in Twilio for the SMS messages from Omnichannel for Customer Service to be processed in Twilio:
 
-1. Copy the value in **Twilio inbound URL** of the work stream for Twilio.
+1. Copy the value in **Twilio inbound URL** of the workstream for Twilio.
 
 2. Go to your Twilio account > **Phone Numbers** > **Active Numbers**, and then select the SMS phone number.
 

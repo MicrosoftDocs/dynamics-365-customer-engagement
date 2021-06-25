@@ -152,7 +152,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
 
   - **Customer name**: The customer name is shown in the format "first name, last name".
   - **Locale**: For a list of locales, see Facebook developer documentation.
-  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”
+  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
   - **User Page Scoped Id**: This is shown as a number string.
 
 ### Modify settings for a specific Facebook page

@@ -13,7 +13,7 @@ manager: shujoshi
 
 ## WeChat channel
 
-Using social messaging channels such as WeChat&mdash;which has a large user base in Asia&mdash;lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
+Using social messaging channels such as WeChat, which has a large user base in Asia, lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
 
   > [!NOTE]
   > The WeChat channel isn't available in the Government Community Cloud (GCC) region.

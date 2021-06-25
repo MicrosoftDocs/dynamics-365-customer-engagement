@@ -1,5 +1,5 @@
 ---
-title: "Asynchronous channel support"
+title: "Asynchronous channel support | MicrosoftDocs" 
 description: "Adaptive card, emojis, and other support in asynchronous channels in Omnichannel for Customer Service."
 ms.date: 04/15/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to configure an SMS channel in Omnichannel for Customer Service."
+description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
 ms.date: 04/15/2021
 ms.topic: article
 author: neeranelli
@@ -69,7 +69,7 @@ To sign up for TeleSign
    1. On the **SMS number** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
    3. On the **Behaviors** page, configure the following options:
-     - **Channel operation hours:** Set the toggle to On, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md).
+     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md).
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
    4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
