@@ -1,6 +1,6 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
-description: "Get instructions for configuring an SMS channel for Twilio in Omnichannel for Customer Service."
+description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
 ms.date: 04/09/2021
 ms.topic: article
 author: neeranelli
@@ -77,9 +77,9 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
    - [Quick replies](create-quick-replies.md)
 
 
-### Create a workstream in Omnichannel Administration
+### Create a work stream in Omnichannel Administration
 
-Perform the following steps to create a workstream for the SMS channel for Twilio:
+Perform the following steps to create a work stream for the SMS channel for Twilio:
 
 1. Sign in to Omnichannel Administration and go to **Work Distribution Management** > **Work Streams**.
 
@@ -89,10 +89,10 @@ Perform the following steps to create a workstream for the SMS channel for Twili
     - **Auto-close after inactivity**: Select a value that indicates a duration of eight hours or longer.
     - **Allow automated messages**: Specify **Yes** to be able to define the business hours.
 
-3. In **Work distribution**, specify the necessary details. More information: [Create a workstream](work-streams-introduction.md#create-a-work-stream)
+3. In **Work distribution**, specify the necessary details. More information: [Create a work stream](work-streams-introduction.md#create-a-work-stream)
 
    > [!div class=mx-imgBorder]
-   > ![Workstream settings for Twilio](media/sms-twilio.png "Workstream settings for Twilio")
+   > ![Work stream settings for Twilio](media/sms-twilio.png "Work stream settings for Twilio")
 
 4. On the **SMS Settings** tab, enter the following details:
 
