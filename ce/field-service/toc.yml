@@ -72,6 +72,8 @@
       href: inspections-advanced.md
     - name: Run reports on inspections
       href: inspections-reporting.md
+    - name: Use Inspections without Work Orders
+      href: inspections-customer-assets.md
   - name: Work order templates (incident types)
     href: configure-incident-types.md
   - name: Predictive work duration and resource proficiency suggestions (Preview)
