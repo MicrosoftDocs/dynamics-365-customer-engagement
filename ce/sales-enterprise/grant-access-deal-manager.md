@@ -22,6 +22,8 @@ searchScope:
 
 # Grant access to deal manager
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 By default, deal manager is enabled only for the administrators. As an administrator, you can grant access to specific security roles or to all security roles in your organization. <!--why should it be restricted? are there performance reasons? Do we have any recommendations on which roles must have access?-->
 
 **To grant access:**

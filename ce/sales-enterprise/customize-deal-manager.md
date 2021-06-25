@@ -22,6 +22,8 @@ searchScope:
 
 # Customize deal manager
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The deal manager workspace is highly customizable. As an administrator, you can customize the workspace to suit your organization's needs. You can customize the following objects in the deal manager:
 - Editable grid
 - Side panel
