@@ -19,15 +19,19 @@ search.app:
 
 # Trial FAQ
 
-## How do I start using the trial?
+[!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
+
+## Dynamics 365 Marketing-specific questions
+
+### How do I start using the trial?
 
 After you sign up for the trial, you will arrive on the app's main screen. The main screen provides links to user guides and tutorials. To learn more, visit the links in the [Additional resources](trial-signup.md#additional-resources) on the trial set up page.
 
-## What features are available in the trial?
+### What features are available in the trial?
 
 <!--App specific. Customize this response to fit your app.-->
 
-## What are the trial limits and quotas?
+### What are the trial limits and quotas?
 
 The following limitations apply for the trial:
 
@@ -35,12 +39,10 @@ The following limitations apply for the trial:
 - The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.
 - You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends.
 
-## How do I remove sample data from the trial?
+### How do I remove sample data from the trial?
 
 <!--App specific. Customize this response to fit your app.-->
 
-## How do I restore sample data?
+### How do I restore sample data?
 
 <!--App specific. Customize this response to fit your app.-->
-
-[!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
