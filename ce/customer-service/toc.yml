@@ -478,7 +478,7 @@
         items: 
         - name: Configure a custom messaging channel
           href: configure-custom-channel.md
-      - name: Support for live chat and asynchronous channels (Preview)
+      - name: Support for live chat and asynchronous channels
         href: asynchronous-channels.md
     - name: Agent experience
       items: 
@@ -500,7 +500,7 @@
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: bring-your-own-channel-sample-html.md
-        - name: Markdown formats for custom messaging channels (Preview)
+        - name: Markdown formats for custom messaging channels
           href: markdown-bring-your-own-channel.md
   - name: Advanced settings for chat and channels
     items: 

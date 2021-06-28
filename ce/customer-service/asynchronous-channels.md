@@ -9,16 +9,10 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Preview: Support for live chat and asynchronous channels
+# Support for live chat and asynchronous channels
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-> [!IMPORTANT]
->
-> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided "as-is," "with all faults," "as available," and without warranty.
-> - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
-> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 ## Support for adaptive cards
 
@@ -145,6 +139,8 @@ With social profiles, you can do the following:
 
 ## Enable formatted messages
 
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 You can allow your agents to send and receive formatted messages by enabling the markdown toggle in Omnichannel admin center.
 
 1. In the site map of Omnichannel admin center, select **Agent settings** under the **Advanced settings** menu.
@@ -154,6 +150,8 @@ You can allow your agents to send and receive formatted messages by enabling the
 3. Set the **Turn on Markdowns** toggle to **Yes**.
 
 ## Support for formatted messages
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Agents can use basic formatting capabilities in their outgoing messages across both asynchronous and live chat channels. However, each channel has its own limitation around the support for markdowns. The following table lists the supported message formats.
 
