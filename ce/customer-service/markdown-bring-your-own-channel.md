@@ -21,12 +21,12 @@ ms.topic: reference
 
 In Omnichannel for Customer Service, you can send and receive messages that you've formatted by using markdown across custom messaging channels. As a developer, understanding how the markdown format is passed through and knowing the details of the format will help you update the HTML styling and tags in your own user interface.
 
-When an agent sends (*outbound*) a message formatted with markdown to a bot, the Direct Line Bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from its customer or the customer's bot, it must be able to appropriately interpret the message that's formatted with markdown. As a developer, you'll need to use markdown appropriately so that the message is formatted correctly for your agents and customers.
+For example, when an agent sends (*outbound*) a message formatted with markdown to a bot, the Direct Line Bot receives the message in a certain format. Now, if a bot receives (*inbound*) a formatted message from its customer or the customer's bot, it must be able to appropriately interpret the message that's formatted with markdown. As a developer, you'll need to use markdown appropriately so that the message is formatted correctly for your agents and customers.
 
 > [!NOTE]
 > To be able to use markdown in your custom messaging channels, your administrator must enable the markdown settings under **Agent experience** in Omnichannel admin center. More information: [Enable formatted messages](asynchronous-channels.md#enable-formatted-messages)
 
-## Markdown formatting
+## Markdown formats
 
 The following table lists the markdown formatting used in inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
 
