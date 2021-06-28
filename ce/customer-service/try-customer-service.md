@@ -50,8 +50,9 @@ The trial environment includes many of the same features as the paid version. Th
 - [View AI-suggested cases and knowledge articles for a conversation](oc-view-ai-suggested-cases-articles.md).
 - [View how supervisors monitor agent conversations](ongoing-conversations-dashboard.md).
 
-## Additional resources
+### Additional resources
 
 [Explore training on Microsoft Learn](/learn/browse/?filter-products=dynamics-customer-service)  
 [Watch videos on the product playlist](https://www.microsoft.com/en-us/videoplayer/embed/RE41po2?maskLevel=0)  
 [Trial FAQ](trial-faq.md)  
+[Try channels in Omnichannel for Customer Service](try-channels.md)  
