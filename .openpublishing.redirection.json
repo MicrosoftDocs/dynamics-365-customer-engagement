@@ -21388,6 +21388,11 @@
       "source_path": "ce/customer-service/omnichannel-readme.md",
       "redirect_url": "https://go.microsoft.com/fwlink/p/?linkid=2165393",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/admin/known-issues-performance-enhancement-CRM-entity-page-loads.md",
+      "redirect_url": "../release-notes",
+      "redirect_document_id": false
     }
   ]
 }

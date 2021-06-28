@@ -16,11 +16,11 @@ ms.custom:
   - dyn365-admin
 tags: MigrationHO
 ---
-# Call center industry concerns
+# How Unified Service Desk helps address the challenges faced by call centers
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)], it’s important to have an overview of the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps address these challenges.  
+This topic discusses the call center industry and its challenges, and how [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you and your service agents address those challenges.  
   
 <a name="Challenges"></a>   
 ## Call center challenges  

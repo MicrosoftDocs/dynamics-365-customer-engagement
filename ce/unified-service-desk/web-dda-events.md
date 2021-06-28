@@ -49,9 +49,8 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
   
  The following table lists the control events that are available with the respective parameters:  
   
-|||  
-|-|-|  
-|`Element`|`Description`|  
+|Element |Description  |
+|--------|-------------|  
 |BeforeNavigate|`flags`, `frame`, `headers`, `navigationcontext`, `postdata`, `url`|  
 |onblur|type|  
 |onchange|type|  
@@ -69,9 +68,8 @@ The Web data-driven adapter (WebDDA) provides a set of events that can be used i
   
  The following table lists the page events that are available with the respective parameters:  
   
-|||  
-|-|-|  
-|**Element**|**Description**|  
+|Element |Description  |
+|--------|-------------|   
 |BeforeNavigate|`flags`, `frame`, `headers`, `navigationcontext`, `postdata`, `url`|  
 |BeforeNewWindow|`flags`, `url`, `urlcontext`|  
 |DocumentCompleted|`Notification`, `flag`, `url`|  

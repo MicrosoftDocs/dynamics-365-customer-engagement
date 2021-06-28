@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 04/20/2021
+ms.date: 06/21/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ ms.custom:
 
 Knowledge base search in the Customer Service Hub app lets you search for relevant knowledge articles to resolve a case. To search for knowledge articles in a case form, select the **Knowledge Base Search** search box in the **Knowledge Base Search control** of the **Related** section.
 
-The search results are automatically populated based on a field your administrator configured in the **Knowledge Base Search** control properties. Out of the box, for a case this is the title of the case record.
+The search results are automatically populated based on a field your administrator configured in the **Knowledge Base Search** control properties. Out of the box, for a case, this is the title of the case record.
 
 For more information, see [Knowledge Base Search control](#knowledge-base-search-control).
 
@@ -53,16 +53,17 @@ Relevance Search uses the scoring concepts as defined by Azure search. To be abl
 The following are required view columns:
 
 - Article Public Number
-- Title 
+- Content
 - Created On 
 - Keywords
 - Knowledge Article Views 
 - Language
 - Major Version Number 
-- Minor Version Number 
+- Minor Version Number
+- Modified On
 - Rating
 - Status
-- Modified On
+- Title
 
 ## Knowledge Base Search control
 
@@ -101,7 +102,7 @@ In the knowledge base search control, you can do the following:
 
 ### Display knowledge article pop outs 
 
-1. In the top right corner, select the ellipsis (...).
+1. In the top-right corner, select the ellipsis (...).
 2. A pop-out option is displayed.
 3. Select **Pop out**.
 4. The article opens in an expanded form in a new window.
@@ -165,7 +166,7 @@ Agents can do knowledge base searches outside of cases using the **Knowledge Sea
 
 Agents can do the following:
 
-- View a article 
+- View an article 
 - Send an article pop out 
 - Copy and send article URLs (when preconfigured)
 
@@ -221,7 +222,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Status | <ul> <li> Draft </li> <li> Approved </li> <li> Published </li> </ul> |
   | Visibility | <ul> <li> Internal </li> <li> External </li> <li> All </li> </ul> |
   | Date | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
-  | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
+  | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
 
 ### Personalize your knowledge search article filters
 
@@ -235,7 +236,7 @@ Only the filters that your administrator has configured are viewable. If your ad
 
 Any personalization you make to your filter selections will also be applicable to the form-based knowledge control and standalone knowledge base search page.
 
-If you deactivate a filter, it will appear as deactivated. If you reactivate the same filter later, the filter will keep its previous configuation.
+If you deactivate a filter, it will appear as deactivated. If you reactivate the same filter later, the filter will keep its previous configuration.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
@@ -280,7 +281,7 @@ Use the **Email** button to send the knowledge article via mail. When you select
 
 ### View the knowledge article inline in the search control
 
-Select a article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about send the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
+Select an article title to see its full content rendered in the same control. The article opens inline and you can scroll to read the complete article. In this view mode, you can perform the actions such as linking the knowledge article to a record and emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, see [Email the knowledge article](#email-the-knowledge-article).
 
   > [!div class=mx-imgBorder]
   > ![Knowledge article inline view](media/km-inline-article-view.png "Knowledge article inline view")
@@ -294,20 +295,20 @@ Select a article title to see its full content rendered in the same control. The
 
 ## View auto-filtered results
 
-As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search the entire knowledge base.  
+As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base.  
 
-An administrator or system customizer must configure this option for you. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
+An administrator or system customizer must configure this option for you. More information: [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client)
 
 To view the auto-filtered results:
 
-1. Search knowledge articles from the case related section. To learn more, see [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub).
+1. Search knowledge articles from the case related section. More information:[Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub)
 
-2. The articles are automatically filtered and displayed to you based on case data.
+2. The articles are automatically filtered and display based on case data.
 
-3. If you want to disable automatic filtering option and search the entire knowledge base for articles, deselect the **Auto-filter results** option.  
+3. If you want to disable the automatic filtering option and search the entire knowledge base for articles, deselect **Auto-filter results**.  
 
     > [!NOTE]
-    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option in order for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the auto-filtered results. More information: [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client). 
+    > Your administrator or system customizer must enable **Users can turn off automatic filtering** option in order for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you'll always see the auto-filtered results. More information: [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client)
 
 Let’s understand this in detail with the help of an example.
 
@@ -315,9 +316,9 @@ In the following illustration, the case subject is **Xbox**. If automatic filter
 
 ![Select Auto filter results](media/ka-select-auto-filter-results.png "Select Auto filter results")   
   
-However, if the Auto filter results checkbox is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
+However, if the **Auto-filter results** checkbox isn't selected, you can see more articles that aren't related to the subject. These are the results from the entire knowledge base.
 
-![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
+![Deselect Auto-filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto-filter results")
 
 ## View search results from external sources
 
