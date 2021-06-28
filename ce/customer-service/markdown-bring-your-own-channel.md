@@ -1,12 +1,12 @@
 ---
-title: "Use markdown format in custom messaging channels | Microsoft Docs"
+title: "Use markdown format in custom messaging channels | MicrosoftDocs"
 description: "Use this topic to understand how markdown formatting is passed through in custom messaging channels in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ms.date: 06/30/2021
 ms.topic: reference
-ms.service: dynamics-365-customerservice
+
 ---
 # Preview: Markdown format for custom messaging channels
 
@@ -35,13 +35,14 @@ The following table lists the markdown formatting used by the inbound messages r
 | bold | \*bold\* | \*bold\* | **text** |
 | italic | \_italics\_ | \_italics\_ | *text* |
 | strikethrough | ~strikethrough~ | ~strikethrough~ | ~~text~~ |
-| heading levels 1 through 4<!--note from editor: Suggested, since "heading" is really the more common term and our example uses "Heading" also.--> | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
+| heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
 | link | [link] (https://www.microsoft.com) |  [link] (https://www.microsoft.com) | <https://www.microsoft.com>|
-| monospace | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```<!--note from editor: Are we sure we want to use three backticks? The markdown spec itself (https://daringfireball.net/projects/markdown/basics) calls for single backticks. The three backticks delineate code blocks, which I can't imagine there will be a lot of call for. -->
+| monospace | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
 
-For inbound messages, set the markdown text to the Activity text field.
+For inbound messages, set the markdown text to the Activity object's `Text` attribute. More information: [Process Inbound activities](https://docs.microsoft.com/en-us/dynamics365/customer-service/bring-your-own-channel#i-process-inbound-activities)
 
-For outbound messages, the markdown text will be received in the Activity text field (similar to a normal message).
+For outbound messages, the markdown text is received in the Activity object's `Text` attribute (similar to a normal message).
+
 
 ### See also
 
