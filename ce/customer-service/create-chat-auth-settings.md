@@ -139,7 +139,7 @@ If you are adding an authenticated chat experience to a custom website, your web
           | Iss   | The issuer of the token. |
           | Iat   | The date the token was issued. This is in numeric date format.  |
           | Exp   | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
-          | SubId   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. |
+          | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. |
           |||
 
      - The lwicontexts: the context variables to pass in as a part of the conversation, either for routing purposes or to display to the agent. To learn more about lwicontexts, see [Manage custom context](send-context-starting-chat.md).
