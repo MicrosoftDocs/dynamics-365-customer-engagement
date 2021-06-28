@@ -15,7 +15,9 @@ The Sales trial offers a straightforward experience for sign-up, login, and usag
 
 [!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
 
-## How do I start using the trial?
+## Dynamics 365 Sales-specific questions
+
+### How do I start using the trial?
 
 When the trial is ready, you can get started with the following resources:
 
@@ -32,7 +34,7 @@ Install the Sales mobile app and explore the functionalities that you can access
 
 If you want to test scenarios beyond the ones covered in the product tour, go ahead and take a plunge. Browse through other capabilities from the sitemap (left pane). Visit the [Help hub](help-hub.md) for assistance.
 
-## What features are available in the trial?
+### What features are available in the trial?
 
 The environment you receive in trial is a fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:  
 
@@ -52,19 +54,30 @@ The environment you receive in trial is a fully functional, Dynamics 365 Sales P
 **Dynamics 365 Power Platform**
 - Administer and customize your Dynamics 365 Sales environment to fit your needs
 
-
 > [!NOTE]
 > Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
 
-## What are the trial limits and quotas?
+### What are the trial limits and quotas?
 
 The following limitations apply for the trial:
 
 - The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
 - The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
-- You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends.    
+- You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends. 
 
-## Why the sample data is not available to all trial users?
+## International availability and language support
+
+### Is the free trial available in all geographical regions?
+
+Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales core functionalities.   
+
+### What are the languages supported for Sales trial?
+
+For a list of supported languages, see the [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages) section.
+
+## Sample data
+
+### Why the sample data is not available to all trial users?
 
 Sample data related to forecasting and Sales accelerator are only available to the user who signed up for the trial. 
 
@@ -75,7 +88,7 @@ Sample data related to forecasting and Sales accelerator are only available to t
 1. In the **Assign to** field, select **User or Team** and then pick the user or team name. 
    If you haven't created the team yet, you can select **New Record** in the **User or Team** drop-down to create a team and add the trial users. You can then come back and perform steps 1 to 3.
 
-## How do I remove sample data from the trial?
+### How do I remove sample data from the trial?
 
 Sample data resembles real-life data and helps you learn how the product works if it was deployed in an organization. In some cases, you may want to remove sample data. For example, the sample data is interfering with the scenarios you want to try out.
 
@@ -87,7 +100,7 @@ Sample data resembles real-life data and helps you learn how the product works i
     > [!NOTE]
     > This action doesn't delete the data that you have added in the trial app.
 
-## How do I restore sample data?
+### How do I restore sample data?
 
 If you have modified the sample data and want to restore it back to the original, you can do so.
 
@@ -97,4 +110,5 @@ If you have modified the sample data and want to restore it back to the original
 1. Scroll down to the **Manage sample data** section and select **Remove sample data**.  
 1. After the existing sample data is completely removed, you'll see **Add sample data**.  
 1. Select **Add sample data** to add the fresh sample data.
+
 
