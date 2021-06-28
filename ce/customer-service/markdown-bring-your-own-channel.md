@@ -31,7 +31,7 @@ When an agent sends (*outbound*) a message formatted with markdown to a bot, the
 The following table lists the markdown formatting used by the inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
 
 |Style |Inbound |Outbound |Example |
-| --- | --- | --- | --- |
+| ---- | ------ | ------- | ------ |
 | bold | \*bold\* | \*bold\* | **text** |
 | italic | \_italics\_ | \_italics\_ | *text* |
 | strikethrough | ~strikethrough~ | ~strikethrough~ | ~~text~~ |
@@ -39,7 +39,7 @@ The following table lists the markdown formatting used by the inbound messages r
 | link | [link] (https://www.microsoft.com) |  [link] (https://www.microsoft.com) | <https://www.microsoft.com>|
 | monospace | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
 
-For inbound messages, set the markdown text to the Activity object's `Text` attribute. More information: [Process Inbound activities](https://docs.microsoft.com/en-us/dynamics365/customer-service/bring-your-own-channel#i-process-inbound-activities)
+For inbound messages, set the markdown text to the Activity object's `Text` attribute. More information: [Process inbound activities](bring-your-own-channel#i-process-inbound-activities)
 
 For outbound messages, the markdown text is received in the Activity object's `Text` attribute (similar to a normal message).
 
