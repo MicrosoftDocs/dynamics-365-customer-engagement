@@ -39,7 +39,7 @@ The following table lists the markdown formatting used in inbound messages recei
 | link                      | [link](https://www.microsoft.com) | [link](https://www.microsoft.com) | <https://www.microsoft.com>|
 | monospace                 | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
 
-For inbound messages, set the markdown text to the Activity object's `Text` attribute. More information: [Process inbound activities](bring-your-own-channel#i-process-inbound-activities)
+For inbound messages, set the markdown text to the Activity object's `Text` attribute. More information: [Process inbound activities](bring-your-own-channel.md#i-process-inbound-activities)
 
 For outbound messages, the markdown text is received in the Activity object's `Text` attribute (similar to a normal message).
 
