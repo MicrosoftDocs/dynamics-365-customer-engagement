@@ -45,7 +45,7 @@ Sample data comes with the trial environment and experience. To get a fresh data
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
-For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md).
+For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md). Additionally, the new trial experience is not supported in Brazil, Government Community Cloud, Norway, and South Africa.
 
 ### Which languages are supported in the trial version of Customer Service and Omnichannel for Customer Service?
 
