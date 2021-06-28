@@ -151,7 +151,7 @@ You can allow your agents to send and receive formatted messages by enabling the
 
 2. Select **Manage** next to **Message Formatting**.
 
-3. Enable the **Turn on Markdowns** toggle to **Yes**.
+3. Set the **Turn on Markdowns** toggle to **Yes**.
 
 ## Support for formatted messages
 
