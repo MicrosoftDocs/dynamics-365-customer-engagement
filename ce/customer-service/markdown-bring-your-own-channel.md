@@ -30,14 +30,14 @@ When an agent sends (*outbound*) a message formatted with markdown to a bot, the
 
 The following table lists the markdown formatting used by the inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
 
-|Style |Inbound |Outbound |Example |
-| ---- | ------ | ------- | ------ |
-| bold | \*bold\* | \*bold\* | **text** |
-| italic | \_italics\_ | \_italics\_ | *text* |
-| strikethrough | ~strikethrough~ | ~strikethrough~ | ~~text~~ |
+|Style                      |Inbound          |Outbound         |Example   |
+| ----                      | ----------------| --------------- | -------- |
+| bold                      | \*bold\*        | \*bold\*        | **text** |
+| italic                    | \_italics\_     | \_italics\_     | *text*   |
+| strikethrough             | ~strikethrough~ | ~strikethrough~ | ~~text~~ |
 | heading levels 1 through 4| # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | # header1 <br> ## header2 <br> ### header3 <br> #### header4 <br> | **Heading Text 3** <br> 
-| link | [link] (https://www.microsoft.com) |  [link] (https://www.microsoft.com) | <https://www.microsoft.com>|
-| monospace | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
+| link                      | [link](https://www.microsoft.com) | [link](https://www.microsoft.com) | <https://www.microsoft.com>|
+| monospace                 | \`\`\`\ntext\n\`\`\`  | \`\`\`\ntext\n\`\`\` | ```text```
 
 For inbound messages, set the markdown text to the Activity object's `Text` attribute. More information: [Process inbound activities](bring-your-own-channel#i-process-inbound-activities)
 
@@ -46,6 +46,7 @@ For outbound messages, the markdown text is received in the Activity object's `T
 
 ### See also
 
+[Support for live chat and asynchronous channels](asynchronous-channels.md)
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  
