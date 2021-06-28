@@ -1,5 +1,5 @@
 ---
-title: "Bring your own custom messaging channel  Direct Line Bot | Microsoft Docs"
+title: "Bring your own custom messaging channel&mdash;Direct Line Bot | MicrosoftDocs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line Bot."
 ms.date: 10/12/2020
 ms.topic: reference
@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels by using Direct Line Bot. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. This sample uses Direct Line API 3.0 as part of .NET SDK to create a direct line client and the channel adapter explained below to build a sample connector.
+Omnichannel for Customer Service allows you to implement a connector to integrate custom messaging channels by using Direct Line Bot. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. This sample uses Direct Line API 3.0 as part of .NET SDK to create a Direct Line client and the channel adapter explained below to build a sample connector.
 
 ## Components
 
@@ -40,7 +40,7 @@ When the user enters a message, the adapter API is invoked from the channel. It 
         catch (Exception ex)
         {
             _logger.LogError($"postactivityasync: {ex}");
-            return StatusCode(500, "An error occurred while handling your request.");
+            return StatusCode(500, "An error occured while handling your request.");
         }
 
         return StatusCode(200);
@@ -51,7 +51,7 @@ When the user enters a message, the adapter API is invoked from the channel. It 
 
 The channel adapter must implement the `IAdapterBuilder` interface. The channel adapter is responsible for processing inbound and outbound activities.
 
-#### I. Process inbound activities
+#### Process inbound activities
 
 The channel adapters do the following steps:
 
@@ -97,7 +97,7 @@ The inbound request from the channel is validated based on the signing key, and 
 
 2. Convert the inbound request to a bot activity.
 
-The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object contains the following attributes:
+The inbound request payload is converted into an activity that the Bot Framework can understand. This Activity object contains the following attributes.
 
 |Attribute    |Description       |
 |-------------|------------------|
@@ -181,15 +181,15 @@ The sample JSON payload is given below.
 
 3. Send the activity to the Message Relay Processor.
 
-After building the activity payload, it calls the Message Relay Processor's PostActivityAsync method to send the activity to direct line. The channel adapter should also pass the event handler, which the relay processor will invoke as soon as it receives an outbound message from OmniChannel for Customer Service through direct line.
+After building the activity payload, it calls the Message Relay Processor's PostActivityAsync method to send the activity to Direct Line. The channel adapter should also pass the event handler, which the relay processor will invoke as soon as it receives an outbound message from OmniChannel for Customer Service through Direct Line.
 
-#### II. Process Outbound Activities
+#### Process Outbound Activities
 
-The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter does following steps:
+The relay processor invokes the event handler to send outbound activities to the respective channel adapter, and the adapter then processes the outbound activities. The channel adapter does the following steps:
 
 1. Convert outbound activities to the channel response model.
 
-The direct line activities are converted to the channel-specific response model.
+The Direct Line activities are converted to the channel-specific response model.
 
 ```javascript
   /// <summary>
@@ -281,9 +281,9 @@ public class DirectLineConversation
 }
 ```
 
-I. If conversation is not active for the activity received by the relay processor, it does following steps:
+If the conversation is not active for the activity received by the relay processor, it does the following steps:
 
-Initiate a conversation with direct line and store the conversation object sent by direct line against the user ID in the dictionary.
+Initiate a conversation with Direct Line and store the conversation object sent by Direct Line against the user ID in the dictionary.
 
 ```javascript
  /// <summary>
@@ -321,7 +321,7 @@ Initiate a conversation with direct line and store the conversation object sent 
  }
  ```
 
-Starts a new thread to poll the outbound activities from the Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from the direct line.
+Starts a new thread to poll the outbound activities from Direct Line based on the polling interval configured in the config file. The polling thread is active until the end of conversation activity is received from Direct Line.
 
 ```javascript
 /// <summary>
@@ -377,7 +377,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
 ```
 
 > [!NOTE]
-> At the heart of the code that receives the message is the GetActivityAsync method, passing the ConversationId and watermark. The purpose of the watermark is to retrieve only the messages that aren't yet delivered by direct line. If the watermark parameter is specified, the conversation replays from the watermark, guaranteeing that no messages are lost.
+> At the heart of the code that receives the message is the GetActivityAsync method, passing the ConversationId and watermark. The purpose of the watermark is to retrieve only the messages that aren't yet delivered by Direct Line. If the watermark parameter is specified, the conversation replays from the watermark, guaranteeing that no messages are lost.
 
 ### Send the activity to Direct Line
 
@@ -399,9 +399,9 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
  }
  ```
 
-II. If the conversation is active for the activity received by the relay processor, it does [step 3](#step3) mentioned above.
+If the conversation is active for the activity received by the relay processor, it does [step 3](#step3) mentioned above.
 
-This page briefly explained how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to OmniChannel for Customer Service. This source code and documentation describe the overall flow of how the channel can connect to OmniChannel for Customer Service through direct line, and doesn't focus on aspects of reliability and scalability.
+This page briefly explained how a channel is connected to the Microsoft Direct Line Bot Framework, which is internally attached to OmniChannel for Customer Service. This source code and documentation describe the overall flow of how the channel can connect to OmniChannel for Customer Service through Direct Line, and doesn't focus on aspects of reliability and scalability.
 
 For information about how to configure a custom messaging channel, see [Configure custom messaging channel](configure-custom-channel.md).
 
