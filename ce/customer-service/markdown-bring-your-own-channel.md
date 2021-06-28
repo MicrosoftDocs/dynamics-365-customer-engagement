@@ -28,7 +28,7 @@ When an agent sends (*outbound*) a message formatted with markdown to a bot, the
 
 ## Markdown formatting
 
-The following table lists the markdown formatting used by the inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
+The following table lists the markdown formatting used in inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
 
 |Style                      |Inbound          |Outbound         |Example   |
 | ----                      | ----------------| --------------- | -------- |
@@ -46,7 +46,7 @@ For outbound messages, the markdown text is received in the Activity object's `T
 
 ### See also
 
-[Support for live chat and asynchronous channels](asynchronous-channels.md)
+[Support for live chat and asynchronous channels](asynchronous-channels.md)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  

@@ -496,7 +496,7 @@
       items: 
       - name: Bring your own custom messaging channel
         items: 
-        - name: Bring your own custom messaging channel&mdash:Direct Line bot
+        - name: "Bring your own custom messaging channel: Direct Line bot"
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: bring-your-own-channel-sample-html.md
