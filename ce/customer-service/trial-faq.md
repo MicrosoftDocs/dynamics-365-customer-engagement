@@ -13,7 +13,9 @@ ms.reviewer: shujoshi
 
 This topic answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
-[!INCLUDE [trial-platform-faqs](../includes/trial-platform-faqs.md)]
+[!INCLUDE [trial-platform-faqs](../shared/trials/trial-faq-platform.md)]
+
+## Customer Service-specific questions
 
 ### What features are available in the trial?
 
@@ -55,3 +57,4 @@ For the list of languages supported in Omnichannel for Customer Service, see [La
 
 [Try Customer Service](try-customer-service.md)  
 [Overview of Customer Service workspace](csw-overview.md)  
+[Try channels in Omnichannel for Customer Service](try-channels.md)  
