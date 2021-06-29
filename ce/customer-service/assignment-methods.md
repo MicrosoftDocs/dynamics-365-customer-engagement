@@ -16,8 +16,8 @@ Assignment methods determine how a work item is assigned. You can use the out-of
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream.
-- **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
+- **Highest capacity**: Assigns work item to the agent with the highest capacity, among those who have the skills identified during the classification stage, and who have the presence as specified in the allowed presence option of the workstream. If more than one agent is available with the same capacity and skills, the work item is assigned in the order in which the agents become available.
+- **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence. The initial order is based on when a user is added to queue. Subsequently, the order gets updated based on assignments.
 
 The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
@@ -108,4 +108,5 @@ Follow these steps to configure the selection criteria for the assignment rulese
 
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
-[Set up entities for unified routing](set-up-record-routing.md)  
+[Set up records for unified routing](set-up-record-routing.md)  
+[Set up skill-based routing for unified routing](set-up-skill-based-routing.md)  
