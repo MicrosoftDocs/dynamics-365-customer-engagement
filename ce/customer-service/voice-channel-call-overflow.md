@@ -94,7 +94,7 @@ If you do not want work hours to influence overflow conditions and actions, then
 > ![Screenshot of ](./media/voice-channel-overflow-business-hours-remove.png)
 
 
-## Enter Overflow action in workstream
+## Configure Overflow action in workstream
 
 
 > [!div class="mx-imgBorder"]
