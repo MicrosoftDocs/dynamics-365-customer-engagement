@@ -20,11 +20,28 @@ Your organization can set conditions for when a call
 2. Lands outside call center operation hours
 
 
-voice-channel-overflow-queue
+## Prerequisites
+- Agents
+- Phone number
+
+> [!Note]
+>
+
+>[!TIP] 
+> 
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-queue.png)
 
 ## Select an existing voice queue or create a new one
 
+Assign agents to the queue
+
 ## Define operation hours (if applicable)
+
+If operation hours are not edited, they will be 24 hours by default. 
 
 ## Define Overflow conditions
 
@@ -38,16 +55,19 @@ this is an OR condition
 
 Default - waits for next available agent
 
-End call - ends call and sends to voicemail.
+End call - ends call and delivers automated message.
 
 Transfer to external number
 
-## Prerequisites
-> [!Note]
->
 
->[!TIP] 
-> 
+## Edit 
+
+Customer settings > automated messages 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-end-call-message.png)
+
 
 
 
