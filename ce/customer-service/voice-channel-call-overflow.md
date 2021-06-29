@@ -17,7 +17,7 @@ ms.service: dynamics-365-customerservice
 Your organization can set conditions for when a call
 
 1. Exceeds a defined number of calls waiting in the queue
-2. lands outside call center operation hours
+2. Lands outside call center operation hours
 
 
 voice-channel-overflow-queue
@@ -43,3 +43,7 @@ voice-channel-overflow-queue
 
 ## Configuration considerations
 ## Additional Notes
+
+### See also
+
+[Azure cognitive services - speech to text](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#features)
