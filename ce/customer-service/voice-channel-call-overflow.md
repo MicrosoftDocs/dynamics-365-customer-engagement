@@ -121,10 +121,11 @@ Transfer to external number
 
 ### Edit automated messages for End Call overflow action
 
-When the End Call overflow action is selected, 
+When the End Call overflow action is executed, an automated message is delivered to the customer notifying them the conversation is ending. 
 
-Customer settings > automated messages 
+To edit the end call automated message go to **Customer settings > Automated messages** and find the automated message for the _Voice call_ channel where the _Message trigger_ is "End Conversation due to overflow". 
 
+Then edit the _Localized text_ as needed.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-overflow-end-call-message.png)
