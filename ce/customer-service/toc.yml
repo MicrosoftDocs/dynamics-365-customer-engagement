@@ -500,8 +500,8 @@
           href: bring-your-own-channel-sample-html.md
         - name: Markdown formats for custom messaging channels
           href: markdown-bring-your-own-channel.md
-      - name: Support for live chat and asynchronous channels
-        href: asynchronous-channels.md
+    - name: Support for live chat and asynchronous channels
+      href: asynchronous-channels.md
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
