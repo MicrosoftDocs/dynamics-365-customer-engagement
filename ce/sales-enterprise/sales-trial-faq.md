@@ -23,6 +23,15 @@ To purchase the license using an existing account, work with the administrator o
 
 After you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
 
+### What are the trial limits and quotas?
+
+The following limitations apply for the trial:
+
+- The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
+- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
+- You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends. 
+
+
 ## Dynamics 365 Sales-specific questions
 
 ### How do I start using the trial?
@@ -98,14 +107,6 @@ If you have modified the sample data and want to restore it back to the original
 1. Scroll down to the **Manage sample data** section and select **Remove sample data**.  
 1. After the existing sample data is completely removed, you'll see **Add sample data**.  
 1. Select **Add sample data** to add the fresh sample data.
-
-### What are the trial limits and quotas?
-
-The following limitations apply for the trial:
-
-- The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
-- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
-- You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends. 
 
 ### Is the Sales trial available in all geographical regions?
 
