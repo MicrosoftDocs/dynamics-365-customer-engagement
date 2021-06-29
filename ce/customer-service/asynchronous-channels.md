@@ -162,7 +162,6 @@ Agents can use basic formatting capabilities in their outgoing messages across b
 | Strikethrough        | ✔     | ✔       | ✔      | ✔         | ✔           | 
 | Blockquote           | ✔     | ✖       | ✖      | ✖         | ✖           |
 | Monospace            | ✔     | ✔       | ✔      | ✔         | ✔           |
-| Code Block           | ✔     | ✔       | ✖      | ✔         | ✖           |
 | Hyperlink with text  | ✔     | ✖       | ✖      | ✔         | ✔           |
 | Hyperlink            | ✔     | ✔       | ✔      | ✔         | ✔           |
 | New line             | ✔     | ✔       | ✔      | ✔         | ✔           |
