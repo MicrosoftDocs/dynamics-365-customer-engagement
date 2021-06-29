@@ -14,9 +14,15 @@ ms.service: dynamics-365-customerservice
 // video 1: https://msit.microsoftstream.com/video/1e910840-98dc-b561-c1ad-f1ebd2b63bf5
 
 
+Your organization can set conditions for when a call
+
+1. Exceeds a defined number of calls waiting in the queue
+2. lands outside call center operation hours
 
 
 voice-channel-overflow-queue
+
+## Select an existing voice queue or create a new one
 
 ## Prerequisites
 > [!Note]
