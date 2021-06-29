@@ -23,19 +23,19 @@ For security, reliability, and performance reasons, Omnichannel for Customer Ser
 
 ### Resolution
 
-Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Click the region in the upper-right corner and select a new region from the drop-down list. 
+Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the drop-down list.
 
    > [!div class=mx-imgBorder]
    > ![Power Platform admin center change region](media/oc-region-menu.png "Power Platform admin center change region")
 
-Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
+The portal will reload when you change the region. After it has finished reloading, go to **Applications** > **Omnichannel for Customer Service**, and then do the provisioning steps.
 
 The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
 
    > [!div class=mx-imgBorder]
    > ![Manage Omnichannel environments](media/oc-region-provision.png "Manage Omnichannel environments")
 
-## Omnichannel provisioning fails due to expired Teams Service Principal
+## Omnichannel provisioning fails due to expired Teams service principal
 
 ### Issue
 
@@ -43,13 +43,15 @@ If your tenant has an expired Microsoft 365 license, then the provisioning of Om
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD). Follow the steps to remove the services.
+To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow the steps to remove the services.
 
-[Step 1: Identify the services in Azure Active Directory](#step-1-identify-the-services-in-azure-active-directory)
+1. Identify the services in Azure AD.
 
-[Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
+2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
+3. Add the service principal back.
 
-#### Step 1: Identify the services in Azure AD
+
+#### Identify the services in Azure AD
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Select **Azure Active Directory** in the left pane.
@@ -69,7 +71,7 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
 
 8. In the result that appears, copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
 
-#### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
+#### Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
 
 1. Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
 ![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
@@ -91,7 +93,7 @@ This establishes a connection with the tenant's Azure Active Directory, so you c
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
 
-#### Add a service principal for the Permission service app
+#### Add the service principal for the Permission service app
 
 After removing the expired Microsoft Teams license from the tenant, you can add the tenant to chat again by doing the following:
 
