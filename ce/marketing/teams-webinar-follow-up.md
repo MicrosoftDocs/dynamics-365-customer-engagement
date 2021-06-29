@@ -1,7 +1,7 @@
 ---
-title: "Follow up with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Take Microsoft Teams data a step further with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to follow up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 06/23/2021
+ms.date: 06/29/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,40 +18,39 @@ search.app:
   - D365Mktg
 ---
 
-# Incorporate Dynamics 365 Marketing with Microsoft Teams
+# Take Microsoft Teams data a step further with Dynamics 365 Marketing
 
-So you've hosted a Microsoft Teams webinar and decided to follow up with participants in Dynamics 365 Marketing. You may have used the Marketing app before, or you may be new to it. Either way, it's handy to know what Marketing offers.
+With Teams and Marketing, you can continue the conversation with webinar participants, using attendance data to build relationships. Let's say you've hosted a Microsoft Teams webinar and are reviewing your [Teams attendance report](/microsoftteams/teams-analytics-and-reports/meeting-attendance-report). Maybe some guests registered but didn't attend, while others canceled their registrations. You wish you could follow up with the guests to get feedback or tell them about an upcoming webinar that is more relevant to their interests.
 
-Using Marketing with Teams participant data, you can:
+Marketing helps you automate and personalize the follow-up process. Using Marketing with Teams data, you can:
 
-- Generate contact information
-- Generate segments of participants who attended, who didn't attend, and who canceled
-- Use prepared follow-up email templates
-- Launch ready-to-use customer journeys
+- Store and manage webinar participant contact information
+- Create groups of participants for targeted messaging (for example, participants who attended, who didn't attend, or who canceled)
+- Use built-in email templates to send personalized emails that look professionally designed
 
-Using the data from Teams and the tools in Marketing, you can close the engagement loop with webinar participants, turning attendees into leads and gathering feedback from those who canceled or didn't attend.
+## Teams versus Marketing terminology
 
-## Marketing terminology
+The following bolded terms are tools that the Marketing app uses to organize, personalize, and automate your webinar participant data.
 
-- **Contact**: In Marketing, participant data such as names, email addresses, company names, and mailing addresses are stored as contacts.
-- **Segment**: A segment is a defined group of people, such as contacts who work at Contoso and attended a webinar. Segments allow you to choose the right audience to market to.
-- **Customer journey**: After you've identified the audience you want to target, you can create a journey to send the contacts within a segment down a series of steps. When you use Teams attendee data in Marketing, a customer journey is automatically created for you. Different journey paths can be triggered depending on contact engagement. You can also create parallel paths called "swimlanes" that start from different segments.
+- **Contact**: In Marketing, participant data such as names, email addresses, company names, and mailing addresses are stored as contacts. You can use other tools, such as segments, to group contacts for targeted messaging.
+- **Segment**: A segment is a defined group of contacts, such as contacts who work at Contoso and attended a webinar. Segments allow you to choose the right audience to market to.
+- **Customer journey**: After you've identified the audience you want to target, you can create a journey that automates a series of communications. For example, you can use a journey to send an email requesting a response from all participants who registered but did not attend a webinar. You may find that the webinar was off topic or was at an inconvenient time, helping you improve your future webinar plans.
+- **Customer journey tile**: Each step in a customer journey is represented by a tile. The [tiles represent actions](customer-journey-tiles-reference.md)) that the Marketing app can take. For example, an email tile automatically sends personalized email messages to a segment of your choosing.
 
 ## Follow up with webinar participants
 
-In just a few steps, you can generate contacts, segments, and a customer journey to follow up with webinar participants, even if you are not an existing Dynamics 365 Marketing user. To follow up with participants:
+In just a few steps, you can use contacts, segments, and a customer journey to follow up with webinar participants, even if you are not an existing Dynamics 365 Marketing user. To follow up with participants:
 
 1. In Teams, select the **Attendance** tab to view the attendance report.
 1. In the top-right corner, select **Follow up with participants**.
+1. Select **Get started**. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown. If you are not a Marketing customer, a window opens that allows you [sign up for a free Dynamics 365 Marketing trial](trial-signup.md).
     > [!div class="mx-imgBorder"]
-    > ![Follow up button](media/teams-follow-up-button.png "Follow up button")
-1. If you are an existing Marketing customer, a window pops up that lists your Dynamics organizations. Select the organization you want to use from the dropdown, then select **Get started**.
-1. If you are not a Marketing customer, you can [sign up for a free Dynamics 365 Marketing trial](trial-signup.md). To sign up, select **Get started**.
-1. After you sign up, a browser tab will open with an automatically generated customer journey and segments that are customized to your webinar data.
+    > ![Follow up button](media/teams-follow-up-get-started.png "Follow up button")
+1. A browser tab then opens with a customer journey and segments that are personalized to your webinar data.
     > [!div class="mx-imgBorder"]
     > ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
 
-## Using the automatically generated customer journey
+## Using your webinar data customer journey
 
 The customer journey uses the power of Dynamics 365 Marketing to follow up with webinar participants on three paths:
 
@@ -59,9 +58,9 @@ The customer journey uses the power of Dynamics 365 Marketing to follow up with 
 - The second path sends an email to registrants who attended the webinar.
 - The third path sends an email to registrants who canceled their webinar registration.
 
-Each path includes an email template to send notification emails. You can customize each email template to suite your branding and company needs. To customize the email, select the **Send an email** tile.
+Each path includes an email template to send notification emails. You can personalize each email template to suit your branding and company needs. To personalize the email, select the **Send an email** tile.
 
-You can also [add tiles](customer-journey-tiles-reference.md) to create more complex paths for your journey. For example, you could try adding a **Wait for** tile and another **Send an email** tile to wait a week before sending a reminder email.
+You can also add tiles to create more complex paths for your journey. For example, you could try adding a **Wait for** tile and another **Send an email** tile to wait a week before sending a reminder email.
 
 Refer to the links below to learn more about Marketing features and how to customize your journey.
 
@@ -72,6 +71,7 @@ The links below guide you through some of the key features of emails, segments, 
 - [Create a marketing email and go live](create-marketing-email.md)
 - [Create a dynamic segment](create-segment.md)
 - [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
+- [Customer journey tiles reference](customer-journey-tiles-reference.md)
 - [Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)
 
 ## Additional resources
