@@ -478,8 +478,6 @@
         items: 
         - name: Configure a custom messaging channel
           href: configure-custom-channel.md
-      - name: Support for live chat and asynchronous channels
-        href: asynchronous-channels.md
     - name: Agent experience
       items: 
       - name: Use SMS channel
@@ -502,12 +500,16 @@
           href: bring-your-own-channel-sample-html.md
         - name: Markdown formats for custom messaging channels
           href: markdown-bring-your-own-channel.md
+      - name: Support for live chat and asynchronous channels
+        href: asynchronous-channels.md
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
       href: create-operating-hours.md
     - name: Enable file attachments
       href: enable-file-attachments.md
+    - name: Enable formatted messages
+      href: enable-formatted-messages.md
     - name: Configure pre-conversation surveys
       href: configure-pre-chat-survey.md
     - name: Configure post-conversation surveys

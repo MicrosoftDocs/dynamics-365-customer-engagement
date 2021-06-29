@@ -51,7 +51,7 @@ For more information, see the following:
 
 Suggested actions are supported fully with the exception that some channels might limit the number of actions allowed. The number of actions supported varies by channel.
 
-| Channel            | Suggested actions support       |
+| Channel            | Supported?                      |
 |--------------------|---------------------------------|
 | Microsoft Teams    | No                              |
 | Facebook           | Yes                             |
@@ -89,7 +89,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 | Channel            | Emoji behavior                                                      |
 |--------------------|---------------------------------------------------------------------|
-| Microsoft Teams    | Yes. Emoji in PNG image                                            |
+| Microsoft Teams    | Yes. Emoji in PNG format                                            |
 | Facebook           | Yes. Emoji in text, like “😀”                                       |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
 | Twitter            | Yes. Emoji in text, like “😀”                                       |
@@ -128,7 +128,7 @@ With social profiles, you can do the following:
 - Display the customer name or phone number with conversations on the agent dashboard
 - Send outbound messages
 
-| Channel            | Social profile support                                              |
+| Channel            | Supported?                                                          |
 |--------------------|---------------------------------------------------------------------|
 | Facebook           | Yes                                                                 |
 | LINE               | Yes                                                                 |
@@ -136,18 +136,6 @@ With social profiles, you can do the following:
 | WeChat             | Yes                                                                 |
 | WhatsApp           | Yes                                                                 |
 | Custom messaging (Telegram) | Yes                                                        |
-
-## Enable formatted messages
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-You can allow your agents to send and receive formatted messages by enabling the Markdown toggle in Omnichannel admin center.
-
-1. In the site map of Omnichannel admin center, select **Agent settings** under the **Advanced settings** menu.
-
-2. Select **Manage** next to **Message formatting**.
-
-3. In the **Markdown settings** area under Omnichannel Configuration, set the **Turn on Markdown** toggle to **Yes**.
 
 ## Support for text formatting
 
