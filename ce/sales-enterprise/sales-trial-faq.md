@@ -3,7 +3,7 @@ title: "Trial FAQ - Sales Enterprise"
 description: "Solutions to common questions related to Dynamics 365 Sales trial signup and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 06/21/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 ms.custom: template-trial-faq
@@ -115,3 +115,5 @@ Though you can sign up for the trial from any region, the Sales Insights functio
 
 For a list of supported languages, see the [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages) section.
 
+## See also
+- [Sign up for a free trial](sign-up-for-sales-trial.md)
