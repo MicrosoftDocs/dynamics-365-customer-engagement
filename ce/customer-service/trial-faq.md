@@ -21,7 +21,7 @@ Yes, you can purchase licenses through direct, credit card purchase at admin.mic
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 
-Once you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
+After you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
 
 ### What are the trial limits and quotas?
 
