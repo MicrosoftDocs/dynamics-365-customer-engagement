@@ -145,9 +145,9 @@ You can allow your agents to send and receive formatted messages by enabling the
 
 1. In the site map of Omnichannel admin center, select **Agent settings** under the **Advanced settings** menu.
 
-2. Select **Manage** next to **Message Formatting**.
+2. Select **Manage** next to **Message formatting**.
 
-3. Set the **Turn on Markdowns** toggle to **Yes**.
+3. In the **Markdown settings** area under Omnichannel Configuration, set the **Turn on Markdown** toggle to **Yes**.
 
 ## Support for formatted messages
 
