@@ -40,28 +40,44 @@ Your organization can set conditions for when a call
 Assign agents to the queue
 
 
-voice-channel-overflow-queue2
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-queue2.png)
 
 ## Define operation hours (if applicable)
 
-voice-channel-overflow-business-hours-create
 
-voice-channel-overflow-business-hours2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-business-hours-create.png)
 
-voice-channel-overflow-business-hours3
 
-voice-channel-overflow-business-hours4
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-business-hours2.png)
 
-voice-channel-overflow-business-hours5
 
-voice-channel-overflow-business-hours6
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-business-hours3.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-business-hours4.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-business-hours5.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-business-hours6.png)
 
 
 If operation hours are not edited, they will be 24 hours by default. 
 
 ## Define Overflow conditions
 
-voice-channel-overflow-condition1
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-condition1.png)
 
 - Work item limit
 
@@ -69,18 +85,33 @@ voice-channel-overflow-condition1
 
 this is an OR condition
 
-voice-channel-overflow-business-hours-remove
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-business-hours-remove.png)
 
 
 ## Enter Overflow action in workstream
 
-voice-channel-overflow-workstream-create
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-workstream-create.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-workstream-rules.png)
+
+
 
 Default - waits for next available agent
 
 End call - ends call and delivers automated message.
 
 Transfer to external number
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/voice-channel-overflow-workstream-rules-overflow-action.png)
 
 ## Configuration considerations
 
@@ -97,8 +128,7 @@ Customer settings > automated messages
 
 ## Step 1:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 
 ## Step 2:
