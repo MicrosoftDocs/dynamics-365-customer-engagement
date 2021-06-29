@@ -12,7 +12,7 @@ This app is a cloud-based service that doesn't require special software other th
 
 ### Is the trial available in all supported geographical regions and languages?
 
-Yes, the trial is available in all regions and languages supported by the app.
+Yes, the trial is available in all regions and languages where the app is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 
@@ -48,11 +48,3 @@ The trial expires if there's no activity for 14 consecutive days. An email notif
 ### How do I extend the trial?
 
 You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](/microsoft-365/commerce/try-or-buy-microsoft-365#extend-your-trial).
-
-### Can I convert the trial to a paid license?
-
-Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing page](https://dynamics.microsoft.com/pricing/) for more information on pricing and purchasing.
-
-To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
-
-Once you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.

@@ -29,7 +29,12 @@ After you sign up for the trial, you will arrive on the app's main screen. The m
 
 ### What features are available in the trial?
 
-<!--App specific. Customize this response to fit your app.-->
+In most ways, Marketing trials are fully functional, but time-limited, production instances. However, there are a few key differences:
+
+- Each Marketing trial comes pre-installed on a dedicated trial instance included with the trial. You can't install a Marketing trial on an existing instance.
+- Marketing trials can't be integrated with a Power Apps portal. Instead, they provide a special mechanism that lets you try out landing pages, forms, the event website, and other interactive features without requiring a Power Apps portal or external CMS system. More information: [Integrate Marketing with a CMS system or Power Apps portal](portal-optional.md).
+- You can't uninstall or re-install trials using the standard tools provided by the Power Platform admin center. Trials are special and are handled differently than production instances.
+- You don't need to run the [setup wizard](purchase-setup.md) when setting up a trial.
 
 ### What are the trial limits and quotas?
 
@@ -39,10 +44,15 @@ The following limitations apply for the trial:
 - The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.
 - You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends.
 
-### How do I remove sample data from the trial?
+Limits and quotas specific to the Marketing trial:
 
-<!--App specific. Customize this response to fit your app.-->
+- Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more.
+- Familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
+- For subscribed (paid) versions, download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544) and visit the [Fair use policy](fair-use-policy.md) page.
+- For trials, see [Dynamics 365 Marketing limits for trials](trial-preview-limits.md).
 
-### How do I restore sample data?
+You can monitor your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 Marketing. More information: [Quota limits](quota-management.md).
 
-<!--App specific. Customize this response to fit your app.-->
+### Can I convert the trial to a paid license?
+
+No, you can't convert a Marketing trial instance to a production instance.
