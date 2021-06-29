@@ -141,7 +141,7 @@ With social profiles, you can do the following:
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can allow your agents to send and receive formatted messages by enabling the markdown toggle in Omnichannel admin center.
+You can allow your agents to send and receive formatted messages by enabling the Markdown toggle in Omnichannel admin center.
 
 1. In the site map of Omnichannel admin center, select **Agent settings** under the **Advanced settings** menu.
 
@@ -149,23 +149,23 @@ You can allow your agents to send and receive formatted messages by enabling the
 
 3. In the **Markdown settings** area under Omnichannel Configuration, set the **Turn on Markdown** toggle to **Yes**.
 
-## Support for formatted messages
+## Support for text formatting
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Agents can use basic formatting capabilities in their outgoing messages across both asynchronous and live chat channels. However, each channel has its own limitation around the support for markdowns. The following table lists the supported message formats.
+Agents can use basic formatting capabilities in their outgoing messages across both asynchronous and live chat channels. However, be aware that some styles are not currently supported across some channels. The following table lists the text styles supported by the Teams, Facebook, WhatsApp, Telegram, and Direct Line channels.
 
 | Style                | Teams | Facebook | WhatsApp | Telegram | Direct Line |
 | -------------------- | ----- | -------- | ------ | -----------| ------------|
-| Bold                 | ✔     | ✔       | ✔      | ✔         | ✔           |
-| Italics              | ✔     | ✔       | ✔      | ✔         | ✔           |
-| Strikethrough        | ✔     | ✔       | ✔      | ✔         | ✔           | 
-| Blockquote           | ✔     | ✖       | ✖      | ✖         | ✖           |
-| Monospace            | ✔     | ✔       | ✔      | ✔         | ✔           |
-| Hyperlink with text  | ✔     | ✖       | ✖      | ✔         | ✔           |
-| Hyperlink            | ✔     | ✔       | ✔      | ✔         | ✔           |
-| New line             | ✔     | ✔       | ✔      | ✔         | ✔           |
-| Headers              | ✔     | ✖       | ✖      | ✖         | ✔           |
+| bold                 | ✔     | ✔       | ✔      | ✔         | ✔           |
+| italics              | ✔     | ✔       | ✔      | ✔         | ✔           |
+| strikethrough        | ✔     | ✔       | ✔      | ✔         | ✔           | 
+| blockquote           | ✔     | ✖       | ✖      | ✖         | ✖           |
+| monospace            | ✔     | ✔       | ✔      | ✔         | ✔           |
+| hyperlink with text  | ✔     | ✖       | ✖      | ✔         | ✔           |
+| hyperlink            | ✔     | ✔       | ✔      | ✔         | ✔           |
+| new line             | ✔     | ✔       | ✔      | ✔         | ✔           |
+| headers              | ✔     | ✖       | ✖      | ✖         | ✔           |
 
 ### See also
 
