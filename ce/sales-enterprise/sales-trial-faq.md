@@ -115,5 +115,5 @@ Though you can sign up for the trial from any region, the Sales Insights functio
 
 For a list of supported languages, see the [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages) section.
 
-## See also
+### See also
 - [Sign up for a free trial](sign-up-for-sales-trial.md)
