@@ -30,7 +30,7 @@ For example, when an agent sends (*outbound*) a message formatted with Markdown 
 
 The following table lists the markdown formatting used in inbound messages received by the customer (or customer's bot) and outbound messages sent by the agent to the customer (or customer's bot).
 
-|Style                      |Inbound          |Outbound         |Example   |
+|          Style            |      Inbound    |    Outbound     |Example   |
 | ----                      | ----------------| --------------- | -------- |
 | bold                      | \*bold\*        | \*bold\*        | **text** |
 | italic                    | \_italics\_     | \_italics\_     | *text*   |
