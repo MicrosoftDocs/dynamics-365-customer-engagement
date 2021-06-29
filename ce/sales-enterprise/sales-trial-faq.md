@@ -15,6 +15,14 @@ The Sales trial offers a straightforward experience for sign-up, login, and usag
 
 [!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
 
+### Can I convert the trial to a paid license?
+
+Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing page](https://dynamics.microsoft.com/pricing/) for more information on pricing and purchasing.
+
+To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
+
+After you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
+
 ## Dynamics 365 Sales-specific questions
 
 ### How do I start using the trial?
@@ -57,26 +65,6 @@ The environment you receive in trial is a fully functional, Dynamics 365 Sales P
 > [!NOTE]
 > Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
 
-### What are the trial limits and quotas?
-
-The following limitations apply for the trial:
-
-- The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
-- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
-- You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends. 
-
-## International availability and language support
-
-### Is the free trial available in all geographical regions?
-
-Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales core functionalities.   
-
-### What are the languages supported for Sales trial?
-
-For a list of supported languages, see the [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages) section.
-
-## Sample data
-
 ### Why the sample data is not available to all trial users?
 
 Sample data related to forecasting and Sales accelerator are only available to the user who signed up for the trial. 
@@ -111,4 +99,19 @@ If you have modified the sample data and want to restore it back to the original
 1. After the existing sample data is completely removed, you'll see **Add sample data**.  
 1. Select **Add sample data** to add the fresh sample data.
 
+### What are the trial limits and quotas?
+
+The following limitations apply for the trial:
+
+- The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
+- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
+- You can have only one active trial per app at any given time. However, you can sign up again after your current trial for the app ends. 
+
+### Is the Sales trial available in all geographical regions?
+
+Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales core functionalities.   
+
+### Which languages are supported for Sales trial?
+
+For a list of supported languages, see the [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages) section.
 
