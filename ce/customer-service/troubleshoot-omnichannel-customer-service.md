@@ -95,7 +95,7 @@ The Microsoft Teams Service and Skype Teams Calling API Service are removed from
 
 #### Add the service principal for the Permission service app
 
-After removing the expired Microsoft Teams license from the tenant, you can add the tenant to chat again by doing the following:
+After removing the expired Microsoft Teams license from the tenant, you can add the chat to the tenant again by doing the following:
 
 1. Run the following commands in the PowerShell window:
 
@@ -109,7 +109,7 @@ After removing the expired Microsoft Teams license from the tenant, you can add 
 
    `Start-Process "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"`
 
-2. In the browser that appears, sign in to your organization as a tenant admin to grant the admin consent.
+2. In the browser window that appears, sign in to your organization as a tenant admin to grant the admin consent.
 
    > [!NOTE]
    > Ignore the error page that appears with the message "no reply URLs configured".
@@ -118,11 +118,11 @@ After removing the expired Microsoft Teams license from the tenant, you can add 
 
 4. Go to **Azure Active Directory** > **Enterprise Applications**.
 
-5. In the search box, enter **6d32b7f8-782e-43e0-ac47-aaad9f4eb839** for the application ID .
+5. In the search box, enter **6d32b7f8-782e-43e0-ac47-aaad9f4eb839** for the application ID. The Permission Service O365 is listed.
 
 6. Select the app, go to the **Properties** tab, and turn on the **Enabled for users to sign-in** toggle.
 
-The tenant is added to chat again.
+The chat is added to the tenant again.
 
 ## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled <a name="oc-csw-errors"></a> 
 
