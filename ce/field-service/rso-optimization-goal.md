@@ -17,62 +17,52 @@ search.app:
 
 # Optimization goals in resource scheduling optimization
 
-A goal is what the resource scheduling optimization solution aims to optimize. An example of a goal is to maximize working hours or minimize travel time. You define how bookings should be optimized (constraints and objectives). The resource scheduling optimization engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
+A goal defines some conditions and expectations that the resource scheduling optimization (RSO) solution should consider when performing an optimization. A goal consists of the following three parts - 
+**Contraints**: Restrictions that are imposed on the bookings to be created. Multiple constraints can be selected. For example - selecting "Meets Required Characteristics" would only allow bookings to be created if the resource has the skills listed in the requirement. All constraints are explained in detail below.
+- **Objectives**: Overall expectations from the resulting routes. Multiple objectives can be selected, but the order matters. The higher it is on the list, the more preference RSO will give to the objective. For example - "Maximize Total Working Hours" would ensure that the resources are allocated with as much work as possible, without giving importance to anything else, such as priority of requirements. All goals are explained in detail below.
+- **Effort level**: Amount of effort resource scheduling optimization puts in to find the best combination of resources, route, and day or time. The effort can be be 'Very Light', 'Light', 'Moderate', 'Intense', or 'Very Intense'. The higher the effort level, the more iterations of possible combinations the resource scheduling optimization engine considers, and therefore, the longer it takes to complete the execution.
+- **Travel Time Calculation**: Method of calculating travel distance between resources and requirements. All possible options are explained in detail below.
+
+Using the above elements of a goal. you define how bookings should be optimized. The RSO engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
-- Have the highest possible score for the company’s objectives.
-
-## Default optimization goal
-
-When resource scheduling optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. Users can modify as needed or create a new optimization goal and associate it as a default goal.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
-
-**Engine Effort Level** determines how much effort resource scheduling optimization makes finding the best combination of resources, route, and day or time. The higher the effort, the longer resource scheduling optimization takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the resource scheduling optimization engine considers.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with resource scheduling optimization_1](media/rso-default-goal-2.png)
-
-The default goal is used when single resource optimization is selected from the schedule board.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of default goal deployed with resource scheduling optimization_2](media/rso-single-resource-1.png)
+- Have the highest possible score for the company’s objectives. (?? should I elaborate on scoring)
  
 
-## Define constraints
+## Defining constraints
 
 ### Schedule Within Working Hours
 
-This creates the booking if it can be completed within the resource’s working hours. Verifies the booking is not scheduled out of the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although it’s not visually displayed on the schedule board.
+This constraint creates the booking if it can be completed (both travel to work location and the work itself) within the resource’s working hours. This includes travel time from the last booking to the resource’s end location, although this travel time is not visually displayed on the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource_1](media/c56516997db07c1f0ef64bdcc507350f.png)
 
-[What happens if I remove the **Schedule within working hours** constraint?](/dynamics365/field-service/rso-faq#what-happens-if-i-remove-the-schedule-within-working-hours-constraint)
+If the constraint is removed from the goal, work will still be scheduled within working hours, but travel to and from bookings _can_ happen outside of the resource's working hours. It might not leave time at the end of the day to travel to the resource's end location. All bookings will end within a resource's working hours. See here for more information on [travel outside working hours.](https://docs.microsoft.com/en-us/dynamics365/field-service/rso-travel-outside-working-hours)
 
 ### Meets Required Characteristics
 
-This verifies the resource has all the required characteristics and should have minimum required skill level.
+This constraint ensures that a resource has all the required characteristics (or skills) and corresponding level of expertise needed to be scheduled to a requirement. The required characteristics are listed on the requirement form and existing characteristics are listed on the resource form.
 
 ### Meets Required Roles
 
-As of **RSO v3.0.19263.1+**, resource scheduling optimization will respect the resource roles added to a requirement. If for example, the requirement calls for a resource with the role "Robotics Engineer", resource scheduling optimization will schedule to a resource who has that role. If the requirement calls for two resource roles, resource scheduling optimization will schedule the requirement to resources that have either of those roles, following "OR" logic.
+As of **RSO v3.0.19263.1+**, RSO will respect the resource roles added to a requirement. If for example, the requirement calls for a resource with the role "Robotics Engineer", RSO will schedule to a resource who has that role. If the requirement calls for two resource roles, resource scheduling optimization will schedule the requirement to resources that have either of those roles, following "OR" logic.
 
-### Scheduling Lock Option
+### Scheduling Lock Options
 
-If marked, resource scheduling optimization will respect lock options configured on a bookable resource booking record.
+Bookings can be assigned to one of the four Scheduling Lock Options -  
+- Time Range - (?? what is this)
+- Resource - The booking is locked to current resource; it cannot be moved to another resource, but can be moved to a different slot within the resource's hours. This is also known as a soft locked booking.
+- Time - The booking is locked to the current time slot; it cannot be moved to another time slot, but can be moved to a different resource for the same time slot. This is also known as a soft locked booking.
+- Resource + Time - The booking is locked to both resource and time. It absolutely cannot be moved. This is also known as a hard locked booking.
 
-- Time Range
-- Resource
-- Time
-- Resource + Time
+When this constraint is selected, RSO will respect the lock option configured on a bookable resource booking record.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource_2](media/rso-scheduling-lock-options.png)
 
 ### Scheduling Windows
 
-If marked, resource scheduling optimization will schedule work to comply within the time window start and end fields on the resource requirement or booking record.
+This constraint ensures that RSO created a booking work within the time window start and end fields of the resource requirement or booking record.
 
 - If **From Date** and **To Date** on resource requirement or **Date Window Start** and **Date Window End** on resource booking are set as shown in the following example, it indicates you want resource scheduling optimization to schedule the booking on 5/24/2018 and time of day doesn’t matter.
  > [!div class="mx-imgBorder"]
@@ -251,5 +241,21 @@ In order to effectively front load optimized bookings, add the **Schedule As Soo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule as soon as possible constraint in correct order](./media/rso-schedule-as-soon-as-possible-objective-order.png)
 
+## Default optimization goal
+
+When resource scheduling optimization is deployed for the first time, the system automatically creates a default goal with some constraints and objectives enabled. Users can modify as needed or create a new optimization goal and associate it as a default goal.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal in scheduling parameters](media/rso-default-goal-1.png)
+
+**Engine Effort Level** determines how much effort resource scheduling optimization makes finding the best combination of resources, route, and day or time. The higher the effort, the longer resource scheduling optimization takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the resource scheduling optimization engine considers.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal deployed with resource scheduling optimization_1](media/rso-default-goal-2.png)
+
+The default goal is used when single resource optimization is selected from the schedule board.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal deployed with resource scheduling optimization_2](media/rso-single-resource-1.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
