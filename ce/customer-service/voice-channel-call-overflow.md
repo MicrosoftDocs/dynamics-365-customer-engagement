@@ -24,6 +24,24 @@ voice-channel-overflow-queue
 
 ## Select an existing voice queue or create a new one
 
+## Define operation hours (if applicable)
+
+## Define Overflow conditions
+
+Work item limit
+
+Out of operation hours 
+
+this is an OR condition
+
+## Enter Overflow action in workstream
+
+Default
+
+End call - ends call.
+
+Transfer to external number
+
 ## Prerequisites
 > [!Note]
 >
@@ -44,6 +62,3 @@ voice-channel-overflow-queue
 ## Configuration considerations
 ## Additional Notes
 
-### See also
-
-[Azure cognitive services - speech to text](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#features)
