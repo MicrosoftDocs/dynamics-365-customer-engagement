@@ -147,3 +147,7 @@ ms.service: dynamics-365-customerservice
 
 ## Configuration considerations
 ## Additional Notes
+
+### See also
+
+[Azure cognitive services - speech to text](https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#features)
