@@ -18,7 +18,7 @@ Sound notifications for incoming conversation requests, such as live chat, that 
 
 > [!IMPORTANT]
 >
-> Make sure that the browser settings allow sounds to be played. In Microsoft Edge, sound is allowed by default. For information on how to enable sound notifications for browsers, see the browser-specific documentation.
+> Make sure that the settings of the browser that the agent uses allow sounds to be played. In Microsoft Edge, sound is allowed by default. For information on how to enable sound notifications for other browsers, see the browser-specific documentation.
 
 ## Enable sound notifications
 
