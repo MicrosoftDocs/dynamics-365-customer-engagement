@@ -62,9 +62,9 @@ sections:
       - question: Is there a way to choose the columns or "fields" that are downloaded as part of a mobile offline profile?
         answer: |
           Offline profiles are filtered at the row level which adjusts the number of records downloaded. There is currently no way to filter columns or "fields."
-      - question: While running the Field Service Mobile application in offline mode with internet connectivity, can I perform a search for content on the server?
+      - question: While running the Field Service mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
-          Search from the offline application will always search the local device database for data which is defined within the Mobile Offline Profile.
+          Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?
