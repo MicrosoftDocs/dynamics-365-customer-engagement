@@ -37,12 +37,14 @@ Your organization can set conditions for when a call
 
 ## Select an existing voice queue or create a new one
 
-Assign agents to the queue
 
 
+Type = Voice
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-overflow-queue2.png)
+
+Assign agents to the queue
 
 ## Define operation hours (if applicable)
 
@@ -83,7 +85,9 @@ If operation hours are not edited, they will be 24 hours by default.
 
 - Out of operation hours 
 
-this is an OR condition
+The overflow condition respects OR logic. If either the work item limit is exceeded OR the call is received outside of working hours then the overflow actions will be taken.
+
+If you do not want work hours to influence overflow conditions and actions, then remove work hours.
 
 
 > [!div class="mx-imgBorder"]
@@ -117,22 +121,12 @@ Transfer to external number
 
 ### Edit automated messages for End Call overflow action
 
+When the End Call overflow action is selected, 
+
 Customer settings > automated messages 
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/voice-channel-overflow-end-call-message.png)
 
-
-
-
-## Step 1:
-
-
-
-
-## Step 2:
-
-## Configuration considerations
-## Additional Notes
 
