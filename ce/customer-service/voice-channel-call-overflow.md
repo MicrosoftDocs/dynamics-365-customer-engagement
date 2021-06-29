@@ -36,9 +36,9 @@ this is an OR condition
 
 ## Enter Overflow action in workstream
 
-Default
+Default - waits for next available agent
 
-End call - ends call.
+End call - ends call and sends to voicemail.
 
 Transfer to external number
 
