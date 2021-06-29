@@ -16,8 +16,8 @@ ms.service: dynamics-365-customerservice
 
 Your organization can set conditions for when a call
 
-1. Exceeds a defined number of calls waiting in the queue
-2. Lands outside call center operation hours
+1. exceeds a defined number of calls waiting in the queue
+2. is recevied outside call center operation hours
 
 
 ## Prerequisites
