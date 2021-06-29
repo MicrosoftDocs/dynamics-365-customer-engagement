@@ -10,6 +10,10 @@ If your company doesn't have an existing relationship with Microsoft or you aren
 
 This app is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply. For the best trial experience, avoid accessing the trial site in incognito mode. [Learn more about web application requirements](/power-platform/admin/web-application-requirements).
 
+### Is the trial available in all supported geographical regions and languages?
+
+Yes, the trial is available in all regions and languages supported by the app.
+
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 
 You can enter a non-work email address and we will create an account and tenant for you.
@@ -52,9 +56,3 @@ Yes, you can purchase licenses through direct, credit card purchase at admin.mic
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 
 Once you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
-
-## International availability and language support
-
-### Is the free trial available in all supported geographical regions?
-
-### Is the free trial available in all supported languages?
