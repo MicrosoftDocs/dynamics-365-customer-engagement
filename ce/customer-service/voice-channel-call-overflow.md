@@ -28,9 +28,9 @@ voice-channel-overflow-queue
 
 ## Define Overflow conditions
 
-Work item limit
+- Work item limit
 
-Out of operation hours 
+- Out of operation hours 
 
 this is an OR condition
 
