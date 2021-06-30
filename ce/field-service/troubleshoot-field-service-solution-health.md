@@ -407,22 +407,6 @@ Fails if the version of Project Service Automation solution installed in the org
 
 The warning message displayed by the rule will indicate which solution needs to be upgraded in order to be compatible with Field Service.
 
-## Verify if there are any work order types
-
-Severity: Low
-
-### What it checks
-
-Checks if there are any work order types defined in the system.
-
-### Why it fails
-
-Fails if there are no work order types defined in the system.
-
-### How to fix
-
-Take advantage of additional functionality by creating work order types.
-
 ## Waiting workflow instances owned by disabled users
 
 Severity: High
