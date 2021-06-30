@@ -110,9 +110,5 @@ If you have modified the sample data and want to restore it back to the original
 
 Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only access the Sales core functionalities.   
 
-### Which languages are supported for Sales trial?
-
-For a list of supported languages, see the [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages) section.
-
 ### See also
 - [Sign up for a free trial](sign-up-for-sales-trial.md)
