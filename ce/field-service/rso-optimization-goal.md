@@ -50,12 +50,12 @@ As of **RSO v3.0.19263.1+**, RSO will respect the resource roles added to a requ
 ### Scheduling Lock Options
 
 Bookings can be assigned to one of the four Scheduling Lock Options -  
-- Time Range - (?? what is this)
+- Time Range - This booking is locked to the time range dictated on the requirement or booking record; it cannot be moved outside the specified time range, but can be moved to a different resource or a different time slot, as long as the time range is respected.   
 - Resource - The booking is locked to current resource; it cannot be moved to another resource, but can be moved to a different slot within the resource's hours. This is also known as a soft locked booking.
 - Time - The booking is locked to the current time slot; it cannot be moved to another time slot, but can be moved to a different resource for the same time slot. This is also known as a soft locked booking.
 - Resource + Time - The booking is locked to both resource and time. It absolutely cannot be moved. This is also known as a hard locked booking.
 
-When this constraint is selected, RSO will respect the lock option configured on a bookable resource booking record.
+When this constraint is selected, RSO will respect the lock option configured on a bookable resource booking record. If this constraint is not selected, the hard lock or soft lock configured on the booking will not be respected.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a booked resource_2](media/rso-scheduling-lock-options.png)
@@ -64,15 +64,15 @@ When this constraint is selected, RSO will respect the lock option configured on
 
 This constraint ensures that RSO created a booking work within the time window start and end fields of the resource requirement or booking record.
 
-- If **From Date** and **To Date** on resource requirement or **Date Window Start** and **Date Window End** on resource booking are set as shown in the following example, it indicates you want resource scheduling optimization to schedule the booking on 5/24/2018 and time of day doesn’t matter.
+- If **From Date** and **To Date** on requirement or **Date Window Start** and **Date Window End** on booking are set as shown in the following example, it indicates you want RSO to schedule the booking on 5/24/2018 and time of day doesn’t matter.
  > [!div class="mx-imgBorder"]
  > ![Screenshot of the date selectors](media/753086631f45017fa9cef8f3795078ba.png)
 
-- If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want resource scheduling optimization to schedule a booking from 2:00 AM to 6:00 AM and the date doesn’t matter.
+- If **Time Window Start** and **Time Window End** are set as shown in the following example, it indicates you want RSO to schedule a booking from 2:00 AM to 6:00 AM and the date doesn’t matter.
  > [!div class="mx-imgBorder"]
  > ![Screenshot of the time window start and time window end fields](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
-- If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want resource scheduling optimization to schedule a booking between 4:00 AM and 8:00 AM on 5/24/2018. It has to be a specific date and specific time range.
+- If **Time From Promised** and **Time To Promised** are set as shown in the following example, it indicates you want RSO to schedule a booking between 4:00 AM and 8:00 AM on 5/24/2018. It has to be a specific date and specific time range.
  > [!div class="mx-imgBorder"]
  > ![Screenshot of the time from promised and time to promised fields](media/f08dd1dd681a4369a2b46a968c08e631.png)
   
@@ -80,8 +80,10 @@ This constraint ensures that RSO created a booking work within the time window s
 > 
 > - If these fields are conflicting, resource scheduling optimization uses **Time From Promised** and **Time To Promised** first. Then it will use one or a combination of other fields.
 > - Resource scheduling optimization will ensure the **Estimated Arrival Time** falls into the window specified above. It does not guarantee that the booking’s end time will fall within the time window.
+
+
   - **Empty time values (v3.0+)** 
-  Resource scheduling optimization will respect scenarios when only a start or end time is defined on a requirement.
+  RSO will respect scenarios where either the start or end time is not defined on a requirement.
      
   In the following example, a requirement has only a time window start value; resource scheduling optimization schedules the requirement anytime after 1:00 PM regardless of date.
 
@@ -104,24 +106,24 @@ This constraint ensures that RSO created a booking work within the time window s
 ### Meets Resource Preferences
 
 Formerly called "Restricted Resources" constraint, the constraint was expanded to include all resource preferences on requirements as of **RSO v3.0.19263.1**.
+Preferred resources can be added to the requirement entity. See (Resource Preferences)[https://docs.microsoft.com/en-us/dynamics365/field-service/resource-preferences] for more information. 
+When this constraint is selected, RSO will respect three different types of resource preferences on a requirement:
 
-If marked, resource scheduling optimization will respect the three different types of resource preferences on a requirement:
-
-- **Preferred** - resource scheduling optimization will give scheduling preference to the resource if the resource is available but will not guarantee as RSO may need to balance overall objectives such as minimizing travel time. 
-- **Restricted** - resource scheduling optimization will not schedule to resources who are added to requirements with this resource preference
-- **Must choose from** - resource scheduling optimization will schedule to this resource given the resource is available during the time range of RSO. You can add multiple resources with a "Must choose from" preference and resource scheduling optimization will schedule to one of them; the first that is available. 
+- **Preferred** - RSO will give scheduling preference to the resource if available but will not guarantee that the requirement is scheduled to them. This can happen if RSO has to choose a different resource for the most optimal schedule. 
+- **Restricted** - RSO will strictly not schedule to the resources added to requirements with this resource preference.
+- **Must choose from** - RSO will schedule to this resource if available during the time range of RSO. You can add multiple resources with a "Must choose from" preference and RSO will schedule to one of them; the first that is available. If none of them are available, this requirement will not be scheduled.
 
 ### Matches Territories
 
-If marked, resource scheduling optimization will respect the Territory field value on the requirement. As a reminder, a requirement can only belong to one territory, but resources can belong to multiple.
+When this constraint is selected, RSO will respect the (Territory field)[https://docs.microsoft.com/en-us/dynamics365/field-service/set-up-territories] values on the requirement and resource records, and schedule bookings only when the territory values on both records match. A requirement can only belong to one territory, but resources can belong to multiple territories.
 
 ### Matches Resource Type
 
-As of **RSO v2.8+**, resource scheduling optimizationSO will match the resource type between requirements and resources to decide which type of resource can fulfill a requirement.
+As of **RSO v2.8+**, RSO will respect the (Resource Type field)[https://docs.microsoft.com/en-us/dynamics365/field-service/set-up-bookable-resources#create-frontline-workers-and-other-bookable-resources-manually] values on the requirement and resource records, and schedule bookings only when the resource type values on both records match.
 
 Bookable resources include these types:
 
-- Generic *
+- Generic
 - Users *
 - Contacts *
 - Accounts *
@@ -141,7 +143,7 @@ Additionally, requirements allow multi-select so you can specify which resource 
 
 ## Define objectives
 
-Add and rank the objectives of resource scheduling optimization scheduling by using the **Move Up** and **Move Down** buttons, as seen in the following screenshot.
+Add and rank the objectives of the RSO goal by using the **Move Up** and **Move Down** buttons, as seen in the following screenshot. The higher an objective is on a list, the more important it is to RSO. In this example, the most important objective is "Maximize Total Working Hours".
 
 
 > [!div class="mx-imgBorder"]
@@ -149,18 +151,18 @@ Add and rank the objectives of resource scheduling optimization scheduling by us
 
 ### Maximize total working hours: The combination of the engine results
 
-Iteration with the total highest aggregate work time will best meet this objective.
+Iteration with the total highest aggregate work time will best meet this objective. Aggregate work is calculated by taking all bookings that were created or updated during the optimization process.
 
 ### Minimize total travel time: The version of the engine results
 
-Iteration with the total lowest aggregate travel time will best meet this objective.
+Iteration with the total lowest aggregate travel time will best meet this objective. The travel time here is calculated based on the "Travel Type Calculation" method chosen above. It also takes into consideration the travel time for resource to get back to their end location after their last booking, although this travel time isn't shown on the schedule board.
 
 > [!NOTE]
-> This cannot be the first objective in the list. Resource scheduling optimization might not schedule anything with the travel time as 0 minutes in order to meet the first objective.
+> This cannot be the first objective in the list. This is because, mathematically speaking, in order to truly minimize travel time, RSO might not schedule any requirement that requires travel time (0 minutes travel) in order to meet the first objective.
 
 ### Locked bookings
 
-Once a booking is created, a lock can be set on the scheduling lock options field in the resource scheduling optimization section of the booking. The options are Time Range, Resource, Time, and Resource and Time. When the locked bookings objective is selected, resource scheduling optimization will try to include locked bookings into the optimal route. For example, the following screenshot shows that Norbert has a booking that starts at 2:30 AM, and this booking is locked to**Time**. When resource scheduling optimization runs, the system detects a 30-minute idle time for Norbert in the morning, but none of the other requirement durations fit into that slot with the locked booking next to it, even though resource scheduling optimization tries to move it to other resources’ time.
+Once a booking is created, a lock can be set on the scheduling lock options field in the resource scheduling optimization section of the booking. The options are Time Range, Resource, Time, and Resource and Time. When the locked bookings objective is selected, RSO will try to include locked bookings into the optimal route. For example, the following screenshot shows that Norbert has a booking that starts at 2:30 AM, and this booking is locked to**Time**. When resource scheduling optimization runs, the system detects a 30-minute idle time for Norbert in the morning, but none of the other requirement durations fit into that slot with the locked booking next to it, even though resource scheduling optimization tries to move it to other resources’ time.
     
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board_1](media/8c6c7de10ed96ca76c884ee41086507b.png)
@@ -170,20 +172,23 @@ If locked booking is a high-ranking objective, resource scheduling optimization 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board_2](media/49561093ec91a28a5961b0be4f892cbf.png)
 
-If locked booking is not a selected objective or is ranked lower in the order of importance for objectives, resource scheduling optimization might ignore this locked booking (exclude this locked booking from the optimal route) and schedule other bookings for Matthew at 2:30 AM in order to achieve the highest score for top-ranking objectives, with the result shown in the following screenshot. It looks as if a booking overlaps, but actually the locked booking was ignored in this case. Resource scheduling optimization would not delete the locked booking because it would lose the lock information defined on the booking record, which can’t be retrieved from the backing requirement.
+If locked booking is not a selected objective or is ranked lower in the order of importance for objectives, RSO might ignore this locked booking (exclude this locked booking from the optimal route) and schedule other bookings for Matthew at 2:30 AM in order to achieve the highest score for top-ranking objectives, with the result shown in the following screenshot. It looks as if a booking overlaps, but actually the locked booking was ignored in this case. RSO would not delete the locked booking because it would lose the lock information defined on the booking record, which can’t be retrieved from the backing requirement.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board optimization](media/rso-edgar-dominquez.png)
 
 ### High priority requirements 
 
-RSO will evaluate this objective and give priority to the resource/booking combination with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. Resource scheduling optimization checks **Level of Importance** on priority to determine how important that priority is—for example, set **Level of Importance** = 10 for urgent priority and set **Level of Importance** = 1 for low priority and resource scheduling optimization will score one urgent requirement the same as 10 low-priority requirements because both scores are 10.
+RSO will evaluate this objective and give priority to creating bookings for requirements with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. RSO checks **Level of Importance** on priority to determine how important that priority is—for example, set **Level of Importance** = 10 for urgent priority and set **Level of Importance** = 1 for low priority. Mathematically speaking, when RSO looks at the importance of one urgent requirement (Level of Importance: 10 x Number of requirements: 1) same as that of 10 low-priority requirements (Level of Importance: 1 x Number of requirements: 10).
+
+> [!NOTE]
+> This objective doesn't optimize to book all high priority requirements ahead of the others within the day. It only optimizes to ensure that the high priority requirements are booked to the earliest possible day, not the earliest possible time slot within the day. 
 
 ### Maximize Preferred Resources (v3.0+):  
 
-Resource scheduling optimization will consider the list of preferred resources noted on related requirements. The optimizer will try to assign bookings to preferred resources first while meeting other constraints and objectives.
+RSO will consider the list of preferred resources noted on related requirements. The optimizer will try to assign bookings to preferred resources first while meeting other constraints and objectives.
 
-This is achieved by adding the "Maximize Preferred Resources" objective to your resource scheduling optimization goal and adding a preferred resource(s) on the requirement that will be optimized.
+This is achieved by adding the "Maximize Preferred Resources" objective to your RSO goal and adding a preferred resource(s) on the requirement that will be optimized.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of maximize preferred resource objective in a goal](./media/scheduling-rso-3-0-maximize-preferred-resources.png)
@@ -204,7 +209,7 @@ After running an optimization schedule, the requirement is scheduled to the pref
 
 ### Best Matching Skill Level (v3.0+)
 
-Resource scheduling optimization will consider the proficiency rating when matching characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the optimization goal.
+RSO will consider the proficiency rating when matching characteristics required by requirements and the resources who possess those characteristics. This is dependent on the **Meets Required Characteristic** constraint within the optimization goal.
 
 If the "Meets Required Characteristics" constraint **is checked**: 
 - Resources without the characteristic (skill) or lower-than-required proficiency ratings are not eligible at all
@@ -229,13 +234,13 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 > ![Screenshot of requirement group with two requirements_5](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 > [!Note]
-> In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with fewer skills first. This is valuable for organizations that have a workforce with varying skillsets. Assigning jobs to resources with fewer skills or more common skills first when there is more capacity than demand allows resource scheduling optimization to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. Resource scheduling optimization will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity; if all the installation jobs were scheduled to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration and is an update to the background algorithm.
+> In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with fewer skills first. This is valuable for organizations that have a workforce with varying skillsets. Assigning jobs to resources with fewer skills or more common skills first when there is more capacity than demand allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. Resource scheduling optimization will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity; if all the installation jobs were scheduled to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration and is available in version (??).
 
 ### Schedule as soon as possible
 
 Occasionally, there may be more resource capacity than there is demand for resources (for example, total time of work orders is less than total available time of resources). In these circumstances, there is a business decision about whether to fully book some resources or leave resources with some capacity as a contingency for emergency or unplanned work.
 
-In order to effectively front load optimized bookings, add the **Schedule As Soon As Possible** objective into your Optimization Goal in the corresponding order:
+In order to effectively front-load optimized bookings, add the **Schedule As Soon As Possible** objective into your optimization goal in the corresponding order:
 
 
 > [!div class="mx-imgBorder"]
