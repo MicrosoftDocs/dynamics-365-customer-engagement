@@ -148,7 +148,7 @@ As an example, to remove the **Billable Time** field from the form:
   > [!div class=mx-imgBorder]
   > ![Select the name of the form you want to edit](media/case_resolution_9.png "Select the name of the form you want to edit")
 
-    The form opens in the form designer.
+  The form opens in the form designer.
 
 3. On the form designer, do the following: 
     1. Select **Billable Time**.
