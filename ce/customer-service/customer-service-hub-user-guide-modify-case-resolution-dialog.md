@@ -3,8 +3,8 @@ title: "Modify case resolution dialog box in Customer Service Hub | MicrosoftDoc
 description: "Learn to customize the case resolution dialog box to expand the case resolution entity to support varied business needs."
 ms.date: 06/30/2021
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ---
 
@@ -139,10 +139,10 @@ The case resolution form lets you add or remove fields based on your business ne
 As an example, to remove the **Billable Time** field from the form:
 
 1. In the **Solution Explorer**, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
-
+<!--
   > [!div class=mx-imgBorder]
   > ![Select Forms](media/case_resolution_8.png "Select Forms")
-
+-->
 2. Open the form you want to edit. For this example, let's select the **Information** form.
 
   > [!div class=mx-imgBorder]
@@ -154,27 +154,27 @@ As an example, to remove the **Billable Time** field from the form:
     1. Select **Billable Time**.
 
     2. On the command bar, select **Remove**. The **Billable Time** field is removed.
-
+<!--
     > [!div class=mx-imgBorder]
     > ![Billable Time field](media/case_resolution_10.png "Billable Time field")
-
+-->
 4. Select **Save** and then select **Publish**.
-
+<!--
   > [!div class=mx-imgBorder]
   > ![Save and publish](media/case_resolution_13a.PNG "Save and publish")
-
+-->
 Now, when the customer service reps try to resolve a case, the case resolution dialog box does not display the removed field.
 
 5. In the **Resolution Type** dropdown list, select **Duplicate**.
-
+<!--
   > [!div class=mx-imgBorder]
   > ![Resolution Type field on the Case Resolution dialog box](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
-
+-->
 You'll know if a case has been successfully resolved per the status bar at the top of the form.
-
+<!--
   > [!div class=mx-imgBorder]
   > ![Status bar](media/case_resolution_15.png "Status bar")
-
+-->
 ### See also
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md) 
