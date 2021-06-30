@@ -25,7 +25,7 @@ Sales offers a 30-day free trial. After a quick sign-up, you'll have access to m
 Your trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
 
 - [Get started](user-guide-learn-basics.md)
-- [How do I start using the trial?](sales-trial-faq#how-do-i-start-using-the-trial)
+- [How do I start using the trial?](sales-trial-faq.md#how-do-i-start-using-the-trial)
 
 
 ## Additional resources
