@@ -10,8 +10,8 @@ manager: shujoshi
 
 # Modify case resolution dialog box
 
-As an administrator, you can customize the case resolution form to edit the dialog box and support case resolution entities. By customizing the case resolution dialog box, you can help managers identify recurring issues and proven resolution patterns to inform other incident responses. 
-You can customize the dialog box to add fields such as resolution type or other fields to suit your business needs. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
+As an administrator, you can customize the case resolution form and support case resolution entities. By customizing the case resolution form, you can help managers identify recurring issues and proven resolution patterns to inform other incident responses. 
+You can customize the case dialog box to add fields such as resolution type to suit your business needs. You can introduce new client-side business validations or remove existing ones. You can also customize the case resolution entity.
 
 > [!Note]
 > The option to customize the case resolution dialog box is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. 
@@ -51,12 +51,12 @@ To enable customizable dialog:
    The Customizable dialog option is now enabled, and any changes you make to your form are now displayed at runtime. 
 
 
-## Status values
+## Create and add custom status values
 
 After you enable customizable dialog, you can create status values in your form. You should add the custom status values in the following two locations. Also, if you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** so they match.
 
 - **Case entity** (**statuscode** in our example)
-- **Case Resolution entity** (**resolution statuscode** in our example)
+- **Case Resolution entity** (**resolutiontypecode** in our example)
 
 
 <!-- content appears redundant
@@ -82,7 +82,7 @@ To go to the **Customization** page:
    > ![Status Values - Customize the System](media/status-values-step-3.PNG "Status Values - Customize the System")
 
 -->
-### Case entity
+### Update case entity
 
 You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases that have the duplicate status.  
 
@@ -99,11 +99,12 @@ To set the case entity for duplicate case:
 5. In the **Status** dropdown list in the **Type** section, select a status. For this example, let's select **Resolved** and then select **Add**.
    The **Add List Value** dialog box is displayed. 
 
-6. In the **Label** field, enter **Duplicate** and select **OK**.
+6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
 
-You've successfully added a duplicate status to the case entity&mdash;statuscode.  
+7. Select **OK**. 
+   You've successfully added a duplicate status to the case entity&mdash;**statuscode**.  
 
-### Case resolution entity
+### Update case resolution entity
 
 After you've added the duplicate status to the case entity, you must add the same to the case resolution entity.
 
@@ -122,8 +123,7 @@ To update the case resolution entity for the changed value of case entity:
 4. In the **Options** section, select the plus icon to automatically populate the **Label** and **Value** fields.
 
 5. In the **Label** field, enter a value name. For this example, enter **Duplicate**.
-
-6. In the **Value** field, confirm that the variable listed matches the value in the case entity.  
+   Check whether the value listed for this field matches the value in the case entity.  
 
 7. Select **Save and Close**.
 <!--
@@ -132,7 +132,7 @@ To update the case resolution entity for the changed value of case entity:
 -->
 Now, the Case Resolution entity appears in the dialog box as an option that you can select. 
 
-## Edit forms
+## Modify case resolution form
 
 The case resolution form lets you add or remove fields based on your business needs. For example, your business model may not require a **Billable Time** field because your case resolutions do not track billable hours, and so you can choose to remove the corresponding field from the form.  
 
