@@ -26,7 +26,7 @@ A goal defines some conditions and expectations that the resource scheduling opt
 Using the above elements of a goal. you define how bookings should be optimized. The RSO engine processes a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route or list of bookings for the resources. Bookings are considered optimally scheduled if they:
 
 - Meet all company constraints.
-- Have the highest possible score for the company’s objectives. (?? should I elaborate on scoring)
+- Have the highest possible score for the company’s objectives.
  
 
 ## Defining constraints
@@ -141,7 +141,7 @@ Additionally, requirements allow multi-select so you can specify which resource 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of multi-select resource type attribute on requirement](media/rso-requirement-resource-type-field.png)
 
-## Define objectives
+## Defining objectives
 
 Add and rank the objectives of the RSO goal by using the **Move Up** and **Move Down** buttons, as seen in the following screenshot. The higher an objective is on a list, the more important it is to RSO. In this example, the most important objective is "Maximize Total Working Hours".
 
@@ -234,7 +234,7 @@ For example, if a characteristic (skill) rating model ranges from 1 to 10, and t
 > ![Screenshot of requirement group with two requirements_5](./media/scheduling-rso-3-0-characteristic-proficiency-objective.png)
 
 > [!Note]
-> In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with fewer skills first. This is valuable for organizations that have a workforce with varying skillsets. Assigning jobs to resources with fewer skills or more common skills first when there is more capacity than demand allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. Resource scheduling optimization will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity; if all the installation jobs were scheduled to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration and is available in version (??).
+> In the 2020 release wave 2 update, the **Best matching skill level** objective was enhanced to prioritize assigning jobs to resources with fewer skills first. This is valuable for organizations that have a workforce with varying skillsets. Assigning jobs to resources with fewer skills or more common skills first when there is more capacity than demand allows RSO to reserve capacity for resources with multiple and unique skills for higher priority emergency situations. For example, imagine one resource has installation skills and another resource has installation _and_ repair skills. Resource scheduling optimization will initially schedule installation jobs to the first resource who only has installation skills. This is advantageous because if a repair job needs to be scheduled later, the second resource will have capacity; if all the installation jobs were scheduled to the second resource, then no one would be available for the repair job since the first resource does not have the skills for repairs. This improvement to the **Best Matching Skill** level objective requires no additional configuration.
 
 ### Schedule as soon as possible
 
