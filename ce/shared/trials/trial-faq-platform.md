@@ -12,7 +12,7 @@ This app is a cloud-based service that doesn't require special software other th
 
 ### Is the trial available in all supported geographical regions and languages?
 
-Yes, the trial is available in all regions and languages where the app is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
+Yes, the trial is available in all regions where the app is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF). For a list of supported languages, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
 
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 
