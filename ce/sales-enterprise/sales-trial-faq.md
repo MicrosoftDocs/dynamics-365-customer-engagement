@@ -29,8 +29,7 @@ The following limitations apply for the trial:
 
 - The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.  
 - The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
-- You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends. 
-
+- You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
 ## Dynamics 365 Sales-specific questions
 
@@ -45,7 +44,6 @@ The trial comes with product tours and videos, highlighting the important scenar
 **Play around with the mobile app**
 
 Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md).
-
 
 **Deep dive into more scenarios**
 
@@ -74,7 +72,7 @@ The environment you receive in trial is a fully functional, Dynamics 365 Sales P
 > [!NOTE]
 > Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
 
-### Why the sample data is not available to all trial users?
+### Why is the sample data not available to all trial users?
 
 Sample data related to forecasting and Sales accelerator are only available to the user who signed up for the trial. 
 
@@ -87,7 +85,7 @@ Sample data related to forecasting and Sales accelerator are only available to t
 
 ### How do I remove sample data from the trial?
 
-Sample data resembles real-life data and helps you learn how the product works if it was deployed in an organization. In some cases, you may want to remove sample data. For example, the sample data is interfering with the scenarios you want to try out.
+Sample data resembles real life data and helps you learn how the product works if it was deployed in an organization. In some cases, you may want to remove sample data. For example, the sample data is interfering with the scenarios you want to try out.
 
 **To remove sample data:**
 
@@ -110,7 +108,7 @@ If you have modified the sample data and want to restore it back to the original
 
 ### Is the Sales trial available in all geographical regions?
 
-Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales core functionalities.   
+Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only access the Sales core functionalities.   
 
 ### Which languages are supported for Sales trial?
 
