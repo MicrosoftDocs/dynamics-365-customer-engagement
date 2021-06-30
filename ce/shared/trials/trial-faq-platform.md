@@ -6,9 +6,6 @@ If your company has an existing relationship with Microsoft and you're allowed t
 
 If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, use your personal email to sign up and we'll create a temporary account for you. You'll be the administrator of the account and for the trial.
 
-> [!NOTE]
-> For the Dynamics 365 Marketing trial, you'll need to use an account that is managed by [Microsoft Azure Active Directory](https://azure.microsoft.com/services/active-directory/). If you cannot sign up for Marketing using a work or school email address, sign up for a [free Office 365 E5 trial](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5), then use the email address associated with your Office 365 E5 trial to sign up for the Marketing trial.
-
 ### What are the system requirements for the trial?
 
 This app is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply. For the best trial experience, avoid accessing the trial site in incognito mode. [Learn more about web application requirements](/power-platform/admin/web-application-requirements).
