@@ -2,6 +2,10 @@
   items: 
   - name: Help resources for Dynamics 365 Sales Enterprise
     href: help-hub.md
+  - name: Sign up for a free Dynamics 365 Sales trial
+    href: sign-up-for-sales-trial.md
+  - name: Dynamics 365 Sales trial FAQ
+    href: sales-trial-faq.md
   - name: Set up Dynamics 365 Sales
     href: set-up-dynamics-365-sales.md
   - name: Overview of Dynamics 365 Sales

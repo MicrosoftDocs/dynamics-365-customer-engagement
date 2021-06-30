@@ -1,14 +1,18 @@
-## Signup
-
+## Sign-up
+<!---
 ### Which email address I should use to sign up?
 
 If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account.
 
-If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, use your personal email to sign up and we'll create a temporary account for you. You'll be the administrator of the account and for the trial.
+If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, use your personal email to sign up and we'll create a temporary account for you. You'll be the administrator of the account and for the trial.-->
 
 ### What are the system requirements for the trial?
 
 This app is a cloud-based service that doesn't require special software other than an up-to-date web browser, though some restrictions apply. For the best trial experience, avoid accessing the trial site in incognito mode. [Learn more about web application requirements](/power-platform/admin/web-application-requirements).
+
+### Is the trial available in all supported geographical regions and languages?
+
+Yes, the trial is available in all regions where the app is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF). For a list of supported languages, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
 
 ### How do I sign up for the trial without a Microsoft 365 tenant?
 

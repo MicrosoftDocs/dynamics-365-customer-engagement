@@ -94,7 +94,7 @@ sections:
           
           To fix this, do one of the following:
           
-          - If you are just setting up a trial of Marketing, then consider creating a new trial tenant and set up the Marketing trial there, as described in [Choose or prepare your Microsoft 365 tenant](trial-signup.md#choose-tenant).
+          - If you are just setting up a trial of Marketing, then consider creating a new trial tenant and set up the Marketing trial there, as described in [Sign up for a free trial](trial-signup.md).
           - If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the Marketing setup wizard again. For instructions on how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](/azure/active-directory/enterprise-users/domains-admin-takeover).
           
           <a name="run-fre"></a>
