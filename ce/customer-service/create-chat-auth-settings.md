@@ -154,12 +154,7 @@ If you are adding an authenticated chat experience to a custom website, your web
           ```JavaScript
           { 
 
-            "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e", 
-            "preferred_username" : "a184fade-d7d0-40e5-9c33-97478491d352", 
-            "phone_number" : "1234567", 
-            "given_name" : "Bert", 
-            "family_name" : "Hair", 
-            "email" : "admin@contosohelp.com", 
+            "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",  
             "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\"}", 
             "iat" : 1542622071, 
             "iss" : "contosohelp.com", 
