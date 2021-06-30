@@ -1,5 +1,5 @@
 ---  
-title: "Sign up for a free trial–Customer Service | MicrosoftDocs"
+title: "Sign up for a free Dynamics 365 Customer Service trial | MicrosoftDocs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find additional learning resources."
 author: neeranelli
 ms.author: nenellim
@@ -9,9 +9,9 @@ ms.custom: template-trial-setup
 ms.reviewer: shujoshi
 ---
 
-# Sign up for a free trial
+# Sign up for a free Dynamics 365 Customer Service trial
 
-Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign up, you will have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview).
+Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up, you will have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about what Customer Service has to offer](/dynamics365/customer-service/overview).
 
 **To sign up for the trial**:
 
