@@ -263,11 +263,11 @@
   - name: Email
     items: 
     - name: Use email
-      href: customer-service-hub-user-guide-email-overview.md
+      href: /powerapps/user/view-create-email.md
     - name: Email templates
       items: 
       - name: Create an email template
-        href: customer-service-hub-user-guide-email-create-template.md
+        href: /powerapps/user/email-template-create.md
       - name: Insert an email template
         href: customer-service-hub-user-guide-email-insert-template.md
       - name: Convert an email to a template
