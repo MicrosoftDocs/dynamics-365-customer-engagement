@@ -9,7 +9,7 @@ ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
 
-# Trial FAQ
+# Dynamics 365 Customer Service trial FAQ
 
 This topic answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
@@ -63,9 +63,7 @@ For the list of geographical regions supported in Customer Service, see [Datacen
 
 For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md). Additionally, the new trial experience is not supported in Brazil, Government Community Cloud, Norway, and South Africa.
 
-### Which languages are supported in the trial version of Customer Service and Omnichannel for Customer Service?
-
-For the list of languages supported in Customer Service, see [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages).
+### Which languages are supported in the trial version of Omnichannel for Customer Service?
 
 For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
 
