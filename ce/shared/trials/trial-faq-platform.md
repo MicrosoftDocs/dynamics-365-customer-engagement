@@ -1,10 +1,10 @@
 ## Sign-up
-
+<!---
 ### Which email address I should use to sign up?
 
 If your company has an existing relationship with Microsoft and you're allowed to do self-service trials, use your company email address. We'll establish your trial on your company’s account.
 
-If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, use your personal email to sign up and we'll create a temporary account for you. You'll be the administrator of the account and for the trial.
+If your company doesn't have an existing relationship with Microsoft or you aren’t allowed to do self-service trials on your company’s existing account, use your personal email to sign up and we'll create a temporary account for you. You'll be the administrator of the account and for the trial.-->
 
 ### What are the system requirements for the trial?
 
