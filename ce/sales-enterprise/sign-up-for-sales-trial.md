@@ -10,9 +10,9 @@ ms.custom: template-get-started
 ms.reviewer: shujoshi
 ---
 
-# Sign up for a free trial
+# Sign up for a free Dynamics 365 Sales trial
 
-Dynamics 365 Sales offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
+Sales offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
 
 **To sign up for the trial**: 
 
