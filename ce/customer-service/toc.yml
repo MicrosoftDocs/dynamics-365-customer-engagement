@@ -548,6 +548,8 @@
         href: create-quick-replies.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
+      - name: Enable consult pane
+        href: enable-consult.md  
       - name: Enable sound notifications
         href: enable-sound-notifications.md
       - name: Enable missed notifications

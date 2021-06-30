@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 01/11/2021
+ms.date: 07/15/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -95,15 +95,17 @@ If the reconnection link is configured by your administrator, you can share the 
 
 ## Consult with agent or supervisor
 
-The communication panel allows you to consult with other agents and/or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
+The communication panel allows you to consult with other agents and or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel and choosing an agent from the list of available agents.
 
  > [!div class=mx-imgBorder]
  > ![Use the consult option to launch the consulting list](media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
 
-You can use a keyboard command to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
+You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
+
+If your administrator has enabled the consult experience, a separate pane will open beside the communication panel when you start a consultation.
 
 > [!Note]
-> We recommend inviting a maximum of five consulting agents when conversing with the customer.
+> We recommend that you invite not more than five consulting agents when conversing with the customer.
 
 ### Search for consulting participants
 
