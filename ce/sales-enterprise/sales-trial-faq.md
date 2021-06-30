@@ -9,7 +9,7 @@ ms.service: dynamics-365-sales
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
-# Trial FAQ
+# Sales Enterprise Trial FAQ
 
 The Sales trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
 
