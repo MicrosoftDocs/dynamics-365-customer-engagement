@@ -24,7 +24,7 @@ Sound notifications for incoming conversation requests, such as live chat, that 
 
 When you enable sound settings, the options to personalize settings are available for all the channels that are provisioned in your environment.
 
-1. In the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
+1. In Omnichannel admin center, under **Advanced settings**, select **Agent experience**, and then select **Manage** for **Notification templates**. If you are using the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
 2. On the Omnichannel Configuration - Notifications page, select **Sound notification settings**.
 3. Set the toggle to **Yes** for **Enable sound notifications**. The **Sound settings** area is displayed.
 
