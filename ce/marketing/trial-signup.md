@@ -24,7 +24,7 @@ Dynamics 365 Marketing offers a free 30-day trial. After a quick sign-up, you'll
 **To sign up for the trial**:
 
 1. Go to the [trial overview page](https://dynamics.microsoft.com/marketing/overview/) and select the **Get started** button.
-1. To sign up for a Marketing trial, you'll need to use a work or school email address. If you don't have a work or school email address, sign up for a [free Office 365 E5 trial](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5), then use the email address associated with your Office 365 E5 trial to sign up for the Marketing trial.
+1. To sign up for a Marketing trial, you'll need to use a work or school email address. If you don't have a work or school email address, or if your school or work account is not [backed by Microsoft AD](https://azure.microsoft.com/services/active-directory/), sign up for a [free Office 365 E5 trial](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5), then use the email address associated with your Office 365 E5 trial to sign up for the Marketing trial.
 
 The trial takes a few moments to load, then you can start using the app.
 
