@@ -27,13 +27,13 @@ Use the following steps to get started:
   - Case Resolution entity (resolution type code)
 - **Step 4:** Edit form
 -->
-## Prerequisites
-
-If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
+## Check permissions
 
 Make sure that the Customer Service Manager security role has the following permissions:
 - **Environment Variable Definition**: Read
 - **Environment Variable Value**: Create, Read, and Write
+
+If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
 ## Enable customizable dialog
 
