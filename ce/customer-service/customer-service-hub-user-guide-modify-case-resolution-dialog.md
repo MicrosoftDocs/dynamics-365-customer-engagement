@@ -1,7 +1,7 @@
 ---
 title: "Modify case resolution dialog box in Customer Service Hub | MicrosoftDocs"
 description: "Learn to customize the case resolution dialog box to expand the case resolution entity to support varied business needs."
-ms.date: 04/07/2020
+ms.date: 06/30/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -32,18 +32,18 @@ Use the following steps to get started:
 If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
 Make sure that the Customer Service Manager security role has the following permissions:
-- The **Environment Variable Definition** - Read.
-- The **Environment Variable Value** - Create, Read, and Write.
+- **Environment Variable Definition**: Read
+- **Environment Variable Value**: Create, Read, and Write
 
 ## Enable customizable dialog
 
-You must enable the Customizable dialog option to be able to make changes to your form. 
+You must enable the Customizable dialog option to be able to make changes to your form. By default, the 
 
 > [!Note]
 
 > **Standard dialog** is the default option.
 
-To enable customizable dialog:  
+To enable customizable dialog  
 
 1. In Customer Service Hub, go to **Service Management**.
 
@@ -90,7 +90,7 @@ To go to the **Customization** page:
 
 You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases that have the duplicate status.  
 
-To set the case entity for duplicate cases:
+To set the case entity for duplicate case
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
 
@@ -111,7 +111,7 @@ You've successfully added a duplicate status to the case entity&mdash;statuscode
 
 After you've added the duplicate status to the case entity, you must add the same to the case resolution entity.
 
-To update the case resolution entity for the changed value of case entity:
+To update the case resolution entity for the changed value of case entity
 
 1. In the Solution Explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
@@ -140,7 +140,7 @@ Now, the Case Resolution entity appears in the dialog box as an option that you 
 
 The case resolution form lets you add or remove fields based on your business needs. For example, your business model may not require a **Billable Time** field because your case resolutions do not track billable hours, and so you can choose to remove the corresponding field from the form.  
 
-As an example, to remove the **Billable Time** field from the form:
+As an example, to remove the **Billable Time** field from the form
 
 1. In the **Solution Explorer**, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
@@ -154,12 +154,13 @@ As an example, to remove the **Billable Time** field from the form:
 
     The form opens in the form designer.
 
-3a: Select **Billable Time**.
+3. On the form designer, do the following: 
+    1. Select **Billable Time**.
 
-3b: On the command bar, select **Remove**. The **Billable Time** field is removed.
+    2. On the command bar, select **Remove**. The **Billable Time** field is removed.
 
-  > [!div class=mx-imgBorder]
-  > ![Billable Time field](media/case_resolution_10.png "Billable Time field")
+    > [!div class=mx-imgBorder]
+    > ![Billable Time field](media/case_resolution_10.png "Billable Time field")
 
 4. Select **Save** and then select **Publish**.
 
@@ -173,7 +174,7 @@ Now, when the customer service reps try to resolve a case, the case resolution d
   > [!div class=mx-imgBorder]
   > ![Resolution Type field on the Case Resolution dialog box](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
 
-You will know if a case has been successfully resolved per the status bar at the top of the form.
+You'll know if a case has been successfully resolved per the status bar at the top of the form.
 
   > [!div class=mx-imgBorder]
   > ![Status bar](media/case_resolution_15.png "Status bar")
