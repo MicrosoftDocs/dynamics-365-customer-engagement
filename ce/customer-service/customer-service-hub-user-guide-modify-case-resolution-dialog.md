@@ -37,13 +37,9 @@ Make sure that the Customer Service Manager security role has the following perm
 
 ## Enable customizable dialog
 
-You must enable the Customizable dialog option to be able to make changes to your form. By default, the 
+You must enable the Customizable dialog option to be able to make changes to your form. **Standard dialog** is the default option.
 
-> [!Note]
-
-> **Standard dialog** is the default option.
-
-To enable customizable dialog  
+To enable customizable dialog:  
 
 1. In Customer Service Hub, go to **Service Management**.
 
@@ -59,8 +55,8 @@ To enable customizable dialog
 
 After you enable customizable dialog, you can create status values in your form. You should add the custom status values in the following two locations. Also, if you change the value in the **Case entity**, you must update the value in the **Case Resolution entity** so they match.
 
-- **Case entity** (statuscode in our example)
-- **Case Resolution entity** (resolution statuscode)
+- **Case entity** (**statuscode** in our example)
+- **Case Resolution entity** (**resolution statuscode** in our example)
 
 
 <!-- content appears redundant
@@ -90,7 +86,7 @@ To go to the **Customization** page:
 
 You can use case resolution to resolve situations where you receive duplicate cases. As an example, let's see how to set the resolution type to display cases that have the duplicate status.  
 
-To set the case entity for duplicate case
+To set the case entity for duplicate case:
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
 
@@ -111,7 +107,7 @@ You've successfully added a duplicate status to the case entity&mdash;statuscode
 
 After you've added the duplicate status to the case entity, you must add the same to the case resolution entity.
 
-To update the case resolution entity for the changed value of case entity
+To update the case resolution entity for the changed value of case entity:
 
 1. In the Solution Explorer, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
@@ -140,7 +136,7 @@ Now, the Case Resolution entity appears in the dialog box as an option that you 
 
 The case resolution form lets you add or remove fields based on your business needs. For example, your business model may not require a **Billable Time** field because your case resolutions do not track billable hours, and so you can choose to remove the corresponding field from the form.  
 
-As an example, to remove the **Billable Time** field from the form
+As an example, to remove the **Billable Time** field from the form:
 
 1. In the **Solution Explorer**, under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
