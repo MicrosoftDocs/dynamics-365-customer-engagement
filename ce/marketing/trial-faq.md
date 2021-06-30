@@ -59,3 +59,5 @@ You can monitor your usage levels by going to  **Settings**  >  **Advanced setti
 ### Can I convert the trial to a paid license?
 
 No, you can't convert a Marketing trial instance to a production instance.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
