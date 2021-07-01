@@ -29,7 +29,7 @@ When you sign up for the trial, you'll receive an email with the trial details. 
 
 ### How do I add more users to a trial?
 
-To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you are adding already has a Microsoft 365 account, assign them an appropriate security role in the trial org. For more information, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles.md#assign-a-security-role-to-a-user).
+To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit. If the user you are adding already has a Microsoft 365 account, assign them an appropriate security role in the trial org. For more information, see [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 ### How do I reset the trial environment?
 
@@ -43,4 +43,4 @@ The trial expires if there's no activity for 14 consecutive days. An email notif
 
 ### How do I extend the trial?
 
-You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](/microsoft-365/commerce/try-or-buy-microsoft-365#extend-your-trial).
+You can extend the trial for another 30 days in the admin center. For instructions, see [Extend your trial](/power-platform/admin/trial-environments#extend-a-trial-standard-environment).
