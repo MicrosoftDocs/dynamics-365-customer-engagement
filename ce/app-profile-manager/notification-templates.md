@@ -1,4 +1,4 @@
----
+ ---
 title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing notification templates in Omnichannel Administration app"
 author: neeranelli
@@ -110,7 +110,7 @@ The out-of-the-box templates are as follows.
 | Microsoft Teams | Teams - consult - default | Teams - incoming authenticated - default | Teams - incoming unauthenticated - default | Teams - transfer - default |
 | Twitter | Twitter - consult - default | Twitter - incoming authenticated - default | Twitter - incoming unauthenticated - default | Twitter -  transfer - default |
 | WeChat | WeChat - consult - default | WeChat - incoming authenticated - default | WeChat -  incoming unauthenticated - default | WeChat - transfer - default |
-| CDS entity |||||Entity record - assign - default |
+| CDS entity |||||CDS entity - Default assigned |
 | Customized ||||| Customized notification template |
 | Sentiment ||||| Sentiment threshold alert - supervisor |
 |||||||
@@ -141,7 +141,7 @@ Perform the following steps to create a notification template:
    | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../customer-service/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
-    > ![Create notification template](../customer-service/media/notification-template1.png "Create notification template")
+    > ![Create notification template](../customer-service/media/notification-template-default-entity.png "Create notification template")
 
 4. Select **Save**. The template is saved, and the **Notification Fields** section appears on the page.
 
