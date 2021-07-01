@@ -1,6 +1,46 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md ",
+      "redirect_url": "/powerapps/user/add-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-overview.md ",
+      "redirect_url": "/powerapps/user/view-create-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/timeline-faqs.md",
+      "redirect_url": "/powerapps/user/faq-for-timeline-and-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-create-template.md",
+      "redirect_url": "/powerapps/user/email-template-create",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-insert-template.md",
+      "redirect_url": "/powerapps/user/insert-email-template",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-convert-template.md",
+      "redirect_url": "/powerapps/user/email-template-convert",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-create-signature.md",
+      "redirect_url": "/powerapps/user/email-signature",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/email-faqs.md",
+      "redirect_url": "/powerapps/user/activities-known-issues",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/intelligent-skill-model.md",
       "redirect_url": "set-up-skill-based-routing#set-up-intelligent-skill-finder-model",
       "redirect_document_id": "false"
