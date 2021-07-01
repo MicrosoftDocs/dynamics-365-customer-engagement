@@ -79,6 +79,9 @@ The details you'll see for a chat channel are as configured by your administrato
 
 If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the accept option. You can't reject the assignment and irrespective of the notification timeout, the case will be assigned to you.
 
+  > ![Case assignment notification](media/case-assignment-notification.png "Case assignment notification")
+
+
 ## Incoming SMS notification
 
 You receive a notification for an SMS conversation request. When you accept the SMS request, a session is started, and the communication panel appears in which you can exchange messages with the customer.
