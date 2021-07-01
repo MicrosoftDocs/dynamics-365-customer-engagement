@@ -4,6 +4,8 @@ description: "This topic provides information and steps to help you learn  how y
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.topic: article
+ms.date: 07/01/2021
 ---
 
 # Create and manage queues for unified routing
