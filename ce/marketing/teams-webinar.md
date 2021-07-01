@@ -45,7 +45,7 @@ After you flip the **Do you want to stream this event** toggle to **Yes**, you w
 
 Use Teams webinars to create online presentations. One or multiple presenters can share content, videos, and audio. Participants can view the content and optionally engage with the presenters. Audience engagement is in the form of reactions, posting in the chat, or answering poll questions. The attendees cannot share their own audio, video, or content.
 
-Webinars are useful for conference keynotes or meetings where a few presenters are presenting to a large audience. Webinars can support up to 1,000 attendees (in an engagement enabled mode) and up to 10,000 attendees in the view-only mode.
+Webinars are useful for conference keynotes or meetings where a few presenters are presenting to a large audience. Webinars can support up to 1,000 attendees.
 
 > [!NOTE]
 > You can only create "public" Teams webinars from Dynamics 365 Marketing. These events are open to anyone who registered for the event.

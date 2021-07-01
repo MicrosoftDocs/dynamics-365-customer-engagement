@@ -38,10 +38,10 @@ Text messages (SMS) allow you to reach customers directly on their mobile device
 
 To generate a phone number to use in real-time marketing, go to **Settings** > **Text messages** and select **+New Number** on the top ribbon.
 
-Once you agree to the *Voice and text message terms* and select your country, you will be provided with a toll-free United States phone number.
+Once you agree to the *Voice and text message terms* and select your country or region, you will be provided with a toll-free United States phone number.
 
 > [!div class="mx-imgBorder"]
-> ![Generate phone number screenshot](media/real-time-marketing-text-number.png)
+> ![Generate phone number screenshot](media/real-time-marketing-text-number.png "Generate phone number screenshot")
 
 Toll-free numbers are usually a good option for transactional A2P messaging, which means sending automated messages to large groups. They do not require template registration, therefore, once you get a number you can immediately start sending messages.
 
@@ -49,30 +49,30 @@ Toll-free numbers are usually a good option for transactional A2P messaging, whi
 > During preview, the text message service is limited to a single toll-free phone number with a limited number of outbound messages per month. The phone number you receive will be your dedicated number for the duration of the preview.
 
 > [!TIP]
-> Carriers, just like email providers, have ways of filtering spam
-messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). We recommend avoiding sending any promotional content or any misleading information. Promotional content includes any free products or discount offers.
+> Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). We recommend you avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
 
 ## Create text messages
 
 After you create your phone number, you start authoring text messages by going to **Real-time marketing** > **Channels** > **Text messages** and selecting **+New text message** in the top ribbon. This will take you to the text messaging editor.
 
 > [!div class="mx-imgBorder"]
-> ![Text editor screenshot](media/real-time-marketing-text-editor2.png)
+> ![Text editor screenshot](media/real-time-marketing-text-editor2.png "Text editor screenshot")
 
 > [!IMPORTANT]
-> In the text messaging editor, the message designation is pre-selected as transactional for numbers that might be prone to carrier filtering if used for promotional or marketing messaging. To make sure that your number is not blocked by carriers, it is highly recommended to use this number for transactional messaging only.
+> In the text messaging editor, the message designation is preselected as transactional for numbers that might be prone to carrier filtering if used for promotional or marketing messaging. To make sure your number isn't blocked by carriers, it's highly recommended to use this number for transactional messaging only.
 
-To test your message, try test sending it to any United States mobile number. You can also add it to a journey to see how it can be triggered by events.
+To test your message, try test-sending it to any United States mobile number. You can also add it to a journey to see how it can be triggered by events.
 
-## Personalize test messages
+## Personalize text messages
 
-Personalizing text messages allows you to insert dynamic data that is unique to each message recipient. You may want to dynamically populate a name, an appointment time, a location, or any other unique data.
+Personalizing text messages allows you to insert dynamic data that is unique to each message recipient. You might want to dynamically populate a name, an appointment time, a location, or any other unique data.
 
 To personalize a text message:
-- Select the **Personalization** button ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
-- Select a **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
-- After choosing the data source, you can search for the specific attribute or event trigger you are looking for.
-- Add a **Label** to quickly identify your token in the message content.
+
+1. Select **Personalization** ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
+1. After choosing the data source, you can search for the specific attribute or event trigger you want.
+1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the text message from a journey, it will automatically populate the token according to the attribute you selected.
 
@@ -81,4 +81,4 @@ When you send the text message from a journey, it will automatically populate th
 You can see how customers reacted to your text messages by checking the text message analytics in the message itself and within journeys.
 
 > [!NOTE]
-> Delivery reports for text messages are received from different carriers in every country. This may result in false positives or negatives from time to time, depending on the carrier. Consider this when you are checking the delivery reports of your text messages.
+> Delivery reports for text messages are received from different carriers in every country or region. This might result in false positives or negatives at times, depending on the carrier. Consider this when you check the delivery reports of your text messages.
