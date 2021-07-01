@@ -1,7 +1,7 @@
 ---
 title: "Generate iCalendar files for events and sessions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to add a button to emails that generates an iCalendar file for an event or session Dynamics 365 Marketing."
-ms.date: 06/23/2021
+ms.date: 06/24/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -35,12 +35,16 @@ To create an **Add to Calendar** button:
 
 1. In the email designer, add a button.
 1. Go to the button **Properties** tab. Select **Add to Calendar** from the **Link to** dropdown.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Add to Calendar option in the button properties](media/add-to-calendar-properties2.png "Screenshot of the Add to Calendar option in the button properties")
+
 1. Choose the information you want to include in the iCalendar file using the **What should be added to calendar** dropdown. The options include:
     - **Only the event**: The iCalendar file will contain only the *event* the contact has registered for.
     - **Only the sessions**: The file will contain only the event *sessions* the contact has registered for.
     - **Both event and associated sessions**: The file will contain information for the *event* and the *sessions* the contact has registered for.
 1. Select the event you want to link to.
-1. Enter the text that appears on the button. You can customize button style in the **Style** section.
+1. Enter the **Button text** that appears on the button. You can customize button style in the **Style** section.
 
 When you send an email with the **Add to Calendar** button, contacts who registered for the event will receive a personalized link to download their agenda as an iCalendar file.
 
@@ -48,9 +52,12 @@ When you send an email with the **Add to Calendar** button, contacts who registe
 
 Each event or session in the iCalendar file contains a configurable description. To configure the description content:
 
-1. Go to the **Events** work area and choose the event you want to configure.
+1. Go to the **Event planning** work area and choose the event you want to configure.
 1. In the event, go to the **Additional information** tab.
 1. To edit the iCalendar information, go to the **Calendar content** section. The left content section allows you to edit content for calendars that support HTML descriptions, such as Outlook. The right content section allows you to edit content for calendars that only support text descriptions, such as Gmail and Apple Calendar. Depending on which calendar the iCalendar file is imported into, either the HTML *or* the text only description will be used.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of calendar content editing](media/add-to-calendar-content.png "Screenshot of calendar content editing")
 
 ## Streamed event check-ins
 
