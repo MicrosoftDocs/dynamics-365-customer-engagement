@@ -1,11 +1,10 @@
- ---
+---
 title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn about managing notification templates in Omnichannel Administration app"
+ms.date: 10/12/2020
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.service: dynamics-365-customerservice
 ms.topic: article
 ---
 
@@ -19,7 +18,7 @@ When a notification is sent to an agent, it displays certain information, such a
 As an administrator, system integrator, or partner, you can use the out-of-the-box templates for notifications or create your own. A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, or consult.
 
 > [!Note]
-> You must associate the notification templates to a session template.
+> You must associate the notification templates with a session template.
 
 ## Desktop notifications
 
@@ -96,7 +95,8 @@ The application supports the following slugs.
 
 ### Out-of-the-box notification templates
 
- For the supported channels, Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on what the notifications display for agents, see [notifications for agents](../customer-service/oc-notifications.md).
+ For the supported channels, Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on the notifications behavior and what the notifications display for agents, see [notifications for agents](../customer-service/oc-notifications.md).
+
 
 The out-of-the-box templates are as follows.
 
