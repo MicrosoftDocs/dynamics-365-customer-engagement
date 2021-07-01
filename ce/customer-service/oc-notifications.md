@@ -75,7 +75,7 @@ You receive a notification for an incoming chat request. When you accept the cha
 
 The details you'll see for a chat channel are as configured by your administrator.
 
-## Incoming case assignment notification
+## Case assignment notification
 
 If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the accept option. You can't reject the assignment and irrespective of the notification timeout, the case will be assigned to you.
 
