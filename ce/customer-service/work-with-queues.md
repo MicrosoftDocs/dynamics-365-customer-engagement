@@ -119,7 +119,7 @@ As soon as the item is released the following updates will happen:
 
 - Your presence will be updated to "Busy" or "Available" based on your available capacity.
 
-## Remove an activity or case from a queue  
+## Remove a record from a queue  
   
 1.  In the **View** list, select one of the views that show the items you want to remove.  
   
