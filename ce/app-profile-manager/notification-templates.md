@@ -116,7 +116,9 @@ The out-of-the-box templates are as follows.
 |||||||
 
   > [!Note]
-  > You can't customize the out-of-the-box notification templates; instead, you'll need to create your own custom templates.
+  >
+  > - You can't customize the out-of-the-box notification templates; instead, you'll need to create your own custom templates.
+  > - If you use custom notification templates for record routing, we recommend that you do not add a reject option. By design, the record will be assigned to the routed agent even if you provide the option to the agent to reject the assignment.
 
 ### Create a notification template
 
