@@ -1,7 +1,7 @@
 ---
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing."
-ms.date: 10/08/2020
+ms.date: 06/30/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -239,9 +239,12 @@ To set up a recurring journey:
 
 ### Add a suppression segment
 
-A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey. 
+A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey.
 
 You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its **General** tab and then choose a segment in the **Suppression segment** lookup field.
+
+> [!IMPORTANT]
+> For best performance, you should specify an exclusion segment on the **Audience** tile to exclude most contacts in the customer journey designer. Only use suppression segments for blocking contacts that may already be partly through long-running journeys. Changes to segment membership are processed asynchronously, which means you cannot predict the order in which changes are processed. You, therefore, cannot rely on suppression segments being updated before the evaluation of the target audience.
 
 ## Go live to start running the journey and processing contacts
 
