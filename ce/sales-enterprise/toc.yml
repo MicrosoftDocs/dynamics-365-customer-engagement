@@ -162,6 +162,12 @@
       items: 
       - name: Install or delete LinkedIn Sales Insights solution
         href: install-lsi-solution.md
+    - name: Integrate ZoomInfo app
+      items: 
+      - name: Install ZoomInfo app
+        href: install-zoominfo-app.md
+
+        
     - name: Configure Microsoft Teams dialer
       href: configure-microsoft-teams-dialer.md
     - name: Reporting

@@ -68,6 +68,17 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 
 4. In the **Anti-Spam Settings** section, enter the frequency cap (in days) for marketing activities directed at any contact. Contacts that have been contacted more recently than this will be excluded from new campaign activity distributions. Enter "0" to disable the limit.
 
+5. (Optional) Select the **Audiences** tab to view the information about users (from account, contact, and lead) who have accepted to receive the campaign activity and users who didn't from the selected marketing lists. 
+
+    >[!NOTE]
+    >To view the **Audiences** tab, select the **Campaign Activity** form.
+    
+    | Option type | Description |
+    |-------------|-------------|
+    | Accepted *table type* | The users listed in this section have opted-in to receive the campaign activities. |
+    | Excluded *table type* | The users in this section have opted not to receive any campaign activities and this is due to the settings users have configured such as, 
+**Marketing Materials** as **Do Not Send** or **Bulk Email** as **Do Not Allow** in the **Details** tab of the record (account, contact, or lead). |  
+    
 5. On the Campaign Activity form, select **Save**.
 
 6. The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing list, select the **More Commands** icon ![More Commands icon](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
