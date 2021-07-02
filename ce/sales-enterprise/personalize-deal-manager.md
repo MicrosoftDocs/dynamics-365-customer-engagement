@@ -24,7 +24,7 @@ As a seller, you can personalize the deal manager workspace to suit your needs. 
 - Save all your personalization changes as a view so that you don't have to modify every time.  
 - Create different views for different purposes and switch between them easily. 
 
-## Personalize metrics 
+## Personalize the metrics 
 
 The deal manager workspace lists important metrics related to the sales pipeline at the top of the workspace. You can personalize this space to view metrics that you want to track.  
 
