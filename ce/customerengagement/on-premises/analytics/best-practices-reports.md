@@ -1,8 +1,8 @@
 ---
-title: "Best practices for reports with Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
-description: Understand the best ways to create reports
+title: "Report best practices for Dynamics 365 Customer Engagement (on-premises)"
+description: "The following best practices can help you produce reports that are easier to write, comply with established standards, and execute with improved efficiency."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
