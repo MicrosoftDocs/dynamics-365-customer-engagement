@@ -8,9 +8,11 @@
     href: whats-new-marketing.md
   - name: Installation and environment management
     items: 
-    - name: Sign up for a free trial
+    - name: Sign up for a free Marketing trial
       href: trial-signup.md
-    - name: Purchase and set up Dynamics 365 Marketing
+    - name: Marketing trial FAQ
+      href: trial-faq.md
+    - name: Purchase and set up Marketing
       href: purchase-setup.md
     - name: Integrate Marketing with a CMS system or Power Apps portals
       href: portal-optional.md
@@ -288,6 +290,8 @@
         href: dynamic-email-content.md
       - name: Set the sender, receiver, language, and legal designation
         href: email-properties.md
+      - name: Generate iCalendar files for events and sessions
+        href: add-to-calendar.md
       - name: Check your work using previews and test sends
         href: email-preview.md
       - name: Email accessibility checker

@@ -6,6 +6,10 @@
     href: overview.md
   - name: Release plans
     href: whats-new-customer-service.md
+  - name: Sign up for a free Customer Service trial
+    href: try-customer-service.md
+  - name: Customer Service trial FAQ
+    href: trial-faq.md  
   - name: Learning Catalog
     items: 
     - name: Learning Catalog
@@ -140,6 +144,8 @@
           href: multiple-ws-entity-record-routing.md  
         - name: Route records in Omnichannel Administration app
           href: entity-channel.md
+        - name: Automatically route records using custom flow
+          href: routing-trigger-automatic.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
@@ -174,7 +180,7 @@
         href: unified-routing-work-distribution.md  
     - name: Agent experience
       items:
-      - name: Route records using unified routing
+      - name: Route records manually using unified routing
         href: routing-trigger.md
       - name: Work with queues
         href: work-with-queues.md
@@ -188,6 +194,8 @@
         href: add-skill-control.md
       - name: Close live work items or deactivate queue items
         href: deactivate-queue-items.md
+      - name: Route non-case records using a plug-in
+        href: trigger-routing-non-case-records.md
   - name: Case management
     items: 
     - name: Administrator experience

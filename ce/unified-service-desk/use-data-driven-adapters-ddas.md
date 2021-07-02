@@ -108,12 +108,12 @@ Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUD
   
 ```csharp  
 DataDrivenAdapter Dda;  
-public overrIDe bool Initialize()  
+public override bool Initialize()  
 {  
    Dda=DataDrivenAdapter.CreateInstance(ApplicationInitString,ApplicationObject);  
    return (Dda != null);  
 }  
-public overrIDe bool DoAction(Action action, ref string data)  
+public override bool DoAction(Action action, ref string data)  
 {  
 if (action.Name == "AddToHistory")  
    {  

@@ -1886,6 +1886,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/cfs-iot-central-setup.md",
+      "redirect_url": "cfs-iot-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/cfs-faq.md",
       "redirect_url": "cfs-troubleshoot",
       "redirect_document_id": "false"
@@ -21387,6 +21392,11 @@
     {
       "source_path": "ce/customer-service/omnichannel-readme.md",
       "redirect_url": "https://go.microsoft.com/fwlink/p/?linkid=2165393",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/admin/known-issues-performance-enhancement-CRM-entity-page-loads.md",
+      "redirect_url": "../release-notes",
       "redirect_document_id": false
     }
   ]
