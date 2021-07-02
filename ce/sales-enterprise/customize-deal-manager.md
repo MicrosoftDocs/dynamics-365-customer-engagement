@@ -17,11 +17,13 @@ manager: shujoshi
 
 As an administrator, you can customize the workspace to enhance your sales team's productivity. For example, depending on the information that your sales team wants to view or update quickly, you can customize the grid or side panel. You can customize the following objects in the deal manager:
 
-- Editable grid
-- Side panel
-- Charts
+- [Editable grid](#customize-the-editable-grid-in-deal-manager)
+- [Side panel](#customize-the-side-panel)
+- [Charts](#customize-the-charts)
 
 ## Customize the editable grid in deal manager
+
+The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they are interested in. You can customize the editable grid to include fields that sellers want to view and update in the list view, or to apply any business rules. 
 
 Customize the editable grid by adding a JavaScript library. These customizations include disabling fields based on a certain logic, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined in [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).  
 
@@ -35,7 +37,7 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
         if (entityName === "opportunity") {
 
-            // Defining the attributes list from opportunity that must be enabled if loaded as part of view.
+            // Defining the attributes list from opportunity that has to be enabled in the editable grid in deal manager workspace.
             var OPTY_ENABLE_ATTRS_LIST = ["name", "msdyn_forecastcategory", "actualvalue", "actualclosedate", "estimatedvalue", "estimatedclosedate"];
 
             executionContext.getFormContext().data.entity.attributes.forEach(
@@ -89,11 +91,7 @@ The side panel helps sellers view quick details about a selected record. It offe
 1. Search for *Opportunity* to view all the opportunity-related entities.
 1. Select the **Opportunity** table and select **Forms**.
 1. Search for the **In Context View** form and edit the form to manage the fields that appear in the side panel.
-
-
-
-
-
+    :::image type="content" source="media/incontexview.PNG" alt-text="In context view form in power apps":::
 
 ## Customize the charts
 

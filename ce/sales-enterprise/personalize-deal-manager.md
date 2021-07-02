@@ -17,12 +17,12 @@ manager: shujoshi
 
 As a seller, you can personalize the deal manager workspace to suit your needs. You can,
 
-- Personalize the grid.
+- Personalize the grid by adding, removing, rearranging, sorting, and grouping columns.
 - Apply filters to view records that are important to you.
 - Change the layout of the workspace to either list (grid only) or combo (grid and chart).  
 - Change the metrics displayed at the top of the workspace.
 - Save all your personalization changes as a view so that you don't have to modify every time.  
-- Create multiple views and switch between them easily. 
+- Create different views for different purposes and switch between them easily. 
 
 ## Personalize metrics 
 
@@ -40,7 +40,7 @@ The deal manager workspace lists important metrics related to the sales pipeline
     1. Select **Create a Metric**.
     1. Select the field and the aggregate function that you want to use for calculating the metric.
        The **Field** list displays all the numerical fields in the opportunity entity. 
-    1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created in this year and are in the **Develop** stage, create a metric with the following values:
+    1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
     - **Field:** Est. Revenue
     - **Aggregate function:** Sum
     - **Filters**
@@ -53,16 +53,16 @@ The deal manager workspace lists important metrics related to the sales pipeline
 ## Personalize the grid
 
 Personalize the grid to include columns that you want to see and update quickly. You can,
-- Add or remove columns from the grid.
-- Show or hide columns.
-- Drag-and-drop columns to rearrange them in the grid.
+- Add or remove columns from the grid
+- Show or hide columns
+- Drag-and-drop columns to rearrange them in the grid
 - Resize, sort, and group records by columns.  
 
 **To personalize the grid**
 
 1. In the deal manager workspace, scroll down to the grid.
-1. Select **Edit columns** to add, remove, hide, show, and rearrange columns. Alternatively, you can select the column drop-down and select **Insert basic column** to add a column to left or right of the selected column.
-    1. To add a basic or a smart column, select **Add column** in the **Edit columns** panel.
+1. Select **Edit columns** to add, remove, hide, show, and rearrange columns.
+    1. To add a column, select **Add column** in the **Edit columns** panel and select the column type as one of the following: 
         - **Basic column**    
           Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
         - **Smart column**
@@ -70,7 +70,10 @@ Personalize the grid to include columns that you want to see and update quickly.
           <!--Need to add a screenshot-->
     2. To show or hide columns, select or clear the checkboxes. You cannot delete the default columns from the grid. However, you can hide them.
     1. To rearrange columns, drag-and-drop the columns in the **Edit columns** panel or in the grid.
-1. To sort 
+1. To sort the columns, select the column drop-down and select the sort option.
+1. To group the records by a column, select **Group by** and then select the column that you want to use for grouping. For example, to group opportunities based on different sales stages, group by the Sales stage column.
+1. Save the changes to a view.
+   
 ### What are Smart columns
 
 A smart column performs certain computations on the existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed, else it displays the estimated revenue. These columns save you the trouble of manual computation and makes it easy for you to look at opportunities that need your attention. For example, the **Next activity** column displays the upcoming and overdue activities so that you can stay on top of your deals.  
@@ -85,9 +88,21 @@ The following smart columns are available:
 |Last activity     |Displays the days elapsed since the last interaction on the opportunity.         |Add activity from the column         |
 |Next activity     |Displays the next activity and its date if all the activities in the past are closed. If any of the activities in the past are still open, this column displays the list of open activities, along with a Overdue warning.          |  View activity, add activity, or change activity status       |
 
-
-
 ## Create views
+Create views to save your personalization. Create multiple views and switch between them depending on the data that you want to see.
+
+**To create a view:**
+1. In the deal manager workspace, select **View > Create Personal View**.
+1. In the View Designer, personalize the columns and apply filters.
+1. Save the changes.
+
+## Switch to a view
+You can create multiple view and switch between them in the views drop-down.
+
+## Edit a view
+Edit an existing view to change the existing personalization in that view. 
+In the deal manager workspace, select **View > Edit Personal View**.
+ 
 
 ### See also
 - [Access deal manager workspace](deal-manager-overview.md)
