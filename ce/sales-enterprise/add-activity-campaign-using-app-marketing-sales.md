@@ -76,8 +76,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
     | Option type | Description |
     |-------------|-------------|
     | Accepted *table type* | The users listed in this section have opted-in to receive the campaign activities. |
-    | Excluded *table type* | The users in this section have opted not to receive any campaign activities and this is due to the settings users have configured such as, 
-**Marketing Materials** as **Do Not Send** or **Bulk Email** as **Do Not Allow** in the **Details** tab of the record (account, contact, or lead). |  
+    | Excluded *table type* | The users in this section have opted not to receive any campaign activities and this is due to the settings users have configured such as, **Marketing Materials** as **Do Not Send** or **Bulk Email** as **Do Not Allow** in the **Details** tab of the record (account, contact, or lead). |  
     
 5. On the Campaign Activity form, select **Save**.
 
