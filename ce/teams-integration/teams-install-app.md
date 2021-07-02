@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Microsoft Teams."
-ms.date: 03/30/2021
+ms.date: 07/02/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,8 +51,32 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 ## For admins: enable Microsoft Teams integration feature 
 
-1. Sign in as a system administrator to your customer engagement app in Dynamics 365.  
-1. Select the Settings icon at the top-right corner, and then select **Advanced Settings**. 
+If you're using the Sales Hub app, use the App Settings page to enable the integration. If you are using a custom app, use Power Apps Settings.
+
+**To enable the integration in the Sales Hub app:**
+1. In the Sales Hub app, select the **Change area** icon
+    ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
+    in the lower-left corner and then select **App Settings**.
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)  
+1. Under **General Settings**, select **Chat and collaborate**.  
+1. Turn on **Enable the linking of Dynamics 365 records to Microsoft Teams channels** to enable [basic collaboration experience](teams-collaboration.md). When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear.  
+1. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn on this option, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
+
+2. On the consent dialog box, select **Accept**.  
+       
+    > [!IMPORTANT]
+    > When you give your consent on behalf of your organization, the app gets full access to all Teams groups and associated content that the users have access to. Though the app has full access, it does not read or write to any of that data. The app just reads the teams/channels list or creates teams/channels for collaborating on the Dynamics 365 data.
+    
+    > [!NOTE]
+    > If you don't select "**Accept**", then when a user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](./teams-troubleshoot.md#error-when-you-pin-a-record-or-view-of-any-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-customer-engagement-apps-system-admin).  
+          
+5. Save the changes.
+    You should now be able to the see the **Collaborate** button when you open a record.
+
+**To enable the integration for a custom app:**
+1. Sign in to [Power Apps](https://make.powerapps.com).  
+1. Select the **Settings** icon at the top-right corner, and then select **Advanced Settings**. 
 1. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 1. To enable [basic collaboration experience](teams-collaboration.md), select **Yes** for **Enable Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on customer engagement app records so you can see the connected team channel or set up a new connection in Microsoft Teams. In addition, in the **Documents** tab on the record page, the connected team channel file library will appear. 
    > [!NOTE]
@@ -64,7 +88,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 4. To enable [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), select **Yes** for **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need Microsoft 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on the record and view page in customer engagement apps. You can set up a connection with any Microsoft Teams collaboration channel within an app.
 
-    1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there is two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialog, then you need to disable the pop-up blocker in your browser.
+    1. When you select **Yes** to **Enable Enhanced Microsoft Teams Integration**, there are two consent permission popup boxes that will display. If you have a pop-up blocker and you don't see the second consent dialog, then you need to disable the pop-up blocker in your browser.
   
         > [!div class="mx-imgBorder"] 
         > ![Disable popup blocker ](media/popupblocker.png "Disable popup blocker")
@@ -78,7 +102,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
         > When you give your consent on behalf of your organization, the app gets full access to all Teams groups and associated content that the users have access to. Though the app has full access, it does not read or write to any of that data. The app just reads the teams/channels list or creates teams/channels for collaborating on the Dynamics 365 data.
     
        > [!NOTE]
-       > If you don't select **Consent on behalf of your organization** option, then when another user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](./teams-troubleshoot.md#error-when-you-pin-a-record-or-view-of-any-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-customer-engagement-apps-system-admin).  
+       > If you don't select **Consent on behalf of your organization** option, then when a user tries to pin an entity record or view to Microsoft Teams and shares the tab with another user, they will get this error message, **The admin has not consented to use user sync feature, you can add them manually**. If you see this error message, see [Error when you pin a record or view to teams channel](./teams-troubleshoot.md#error-when-you-pin-a-record-or-view-of-any-app-to-a-team-channel-if-your-user-role-permission-is-not-configured-correctly-by-your-customer-engagement-apps-system-admin).  
     
           
 5. After the second consent is accepted select, **Finish** and then select **OK** on the **System Settings** screen. If you don't select **OK** on the **System Settings** screen then you will lose your changes. 
