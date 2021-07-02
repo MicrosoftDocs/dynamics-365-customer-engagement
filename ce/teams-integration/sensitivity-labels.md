@@ -2,7 +2,7 @@
 title: "Enable sensitivity labels to protect content in Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: Use sensitivity labels to protect content in Microsoft Teams.
-ms.date: 05/24/2021
+ms.date: 07/02/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
