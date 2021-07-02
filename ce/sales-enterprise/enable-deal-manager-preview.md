@@ -19,24 +19,39 @@ The new deal manger workspace helps sellers be more productive and efficient. Se
 
 As an administrator, you must enable the preview and grant access to specific security roles that will need to access to the deal manager.  
 
-## Enable the preview in the Sales Hub app**
+## Access deal manager settings
+
+Access the deal manager settings page to enable the deal manager preview, grant access to users, and to customize the grid and charts. If you're using the Sales Hub app, use the **App Settings** page to access the deal manager settings. If you are using a custom app, use Power Apps Settings.
+
+**To access deal manager settings in Sales Hub**
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.  
 1. Under **General Settings**, select **Deal manager (preview)**.
-1. Select the checkbox for enabling the preview and select **Get started**.
-1. Select **Publish**.
-   The deal manager workspace is now available to the administrators. To grant access to other security roles, see [Grant access to deal manager](grant-access-deal-manager.md).
 
-## Enable the preview in a custom app
+<a id="dmincustomapp"></a>
+**To access deal manager settings in custom app**
 
+1. Sign in to [Power Apps](https://make.powerapps.com/)
+1. Select the environment and then select **Apps**.
+     :::image type="content" source="media/powerapps-UI.PNG" alt-text="Power Apps UI with Environment and Apps highlighted":::
+1. Select your custom app and select **Edit**.
+1. In the **App Designer**, edit the **Site Map**.
+1. Add a sub-area component, and set the URL to:  
+   `/main.aspx?appid=860f4439-9cf8-ea11-a813-000d3a54419d&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`  
+    :::image type="content" source="media/appdesigner-subarea.PNG" alt-text="Subarea component in the App designer":::
+1. Save and publish the changes.
+1. Open your custom app and access the subarea that you just created.
+   The deal manager settings page appears. 
 
-## Grant access to users and roles
+## Enable the preview
 
-## Customize the side panel
-
-## Customize the grid (web resource?)
-
-
+1. Access the deal manager settings page. 
+1. Select **Get started** to enable the preview.
+1. Select the roles that you want to give access to and select **Publish**.
+   The deal manager workspace is now available to the administrators and the selected roles. 
+ 
+### See also
+- [Deal manager (Preview)](deal-manager-overview.md)
 
