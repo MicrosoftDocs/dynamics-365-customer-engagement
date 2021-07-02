@@ -1,8 +1,8 @@
 ---
-title: "Report writing environment using SQL Server Data Tools (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: Learn about reporting writing in Dynamics 365
+title: "Required tools for report writing in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page explained the tools and privileges that are needed to write and publish reports in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
