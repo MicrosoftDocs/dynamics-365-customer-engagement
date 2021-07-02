@@ -29,11 +29,15 @@ Use the following steps to get started:
 -->
 ## Check permissions
 
-Make sure that the Customer Service Manager security role has the following permissions:
-- **Environment Variable Definition**: Read
-- **Environment Variable Value**: Create, Read, and Write
+Make sure that the Customer Service Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
 
-If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
+- **Customer Service Manager**: Create, Read, and Write
+
+- **Customer Service Representative**: Read
+
+
+> [!Note]
+> If you've created your own security roles, you'll need to update your roles before you can use the modified case resolution dialog.
 
 ## Enable customizable dialog
 
