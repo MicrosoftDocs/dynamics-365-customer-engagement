@@ -94,7 +94,7 @@ To set the case entity for duplicate case:
 
 1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
 
-2. On the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
+2. In the site map of the page that appears, under **Components**, expand **Entities**, select **Case**, and then select **Fields**.
 
 3. On the page that appears, select the field you want to update. For this example, let's select **statuscode** in the **Name** column.
 
