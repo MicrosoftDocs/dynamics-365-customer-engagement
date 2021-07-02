@@ -1,12 +1,12 @@
 {
   "redirections": [
     {
-      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md ",
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md",
       "redirect_url": "/powerapps/user/add-activities",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-overview.md ",
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-email-overview.md",
       "redirect_url": "/powerapps/user/view-create-email",
       "redirect_document_id": "false"
     },
