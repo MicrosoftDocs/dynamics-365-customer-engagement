@@ -53,11 +53,17 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
    > [!div class="mx-imgBorder"]
    > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)
 
-    > [!NOTE]
-    > **App Settings** is only available in the Sales Hub app. If you don't have the Sales Hub app and want to access the settings from your custom app, add a subarea with the following URL:  
-        `/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}`  
-    > Alternatively, suffix the URL to your Dynamics 365 domain URL to instantly access the settings page mentioned in Step 3:  
-   `Example: https://adatum.crm.dynamics.com/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}`
+    > [!Note]
+    > 
+    > App Settings is available only in the Sales Hub app. If you don't have the Sales Hub app and want to access the settings from your custom app, add a subarea with the following URL:
+    > ```
+    > /main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}
+    > Alternatively, suffix the URL to your Dynamics 365 domain URL to instantly access the settings page mentioned in Step 3:
+    > ```
+    > Example:
+    > ``` 
+    > https://adatum.crm.dynamics.com/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings&data={"id":"overview","ismanage":"cnc"}
+    > ```
 
 2. From the site map, under **General Settings**, select **Chat and collaborate**.
 
