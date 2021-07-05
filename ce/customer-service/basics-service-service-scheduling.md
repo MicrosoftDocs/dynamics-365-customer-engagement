@@ -69,7 +69,7 @@ Let's see how Contoso accomplishes the task:
 **Step 5: Create a service record**  </br>
    Contoso now collates all the above inputs to create a bike repair service record for the customer. They also specify the resources/resource groups they will need for the service. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a service in Service Scheduling](create-edit-service-csh.md)
 
-   ![service-csh](media/service-csh.png) 
+   ![service record in Customer Service Hub](media/service-csh.png "service record in Customer Service Hub") 
  
 **Step 6: Create a service activity**  </br>
    A service activity is defined to look for the next available time slot to schedule the service and align resources as per requirement.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)

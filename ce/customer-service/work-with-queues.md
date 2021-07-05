@@ -115,15 +115,15 @@ Route an activity or case to another queue or assign to a different user or team
 
 As soon as the item is released the following updates will happen:
 
-- Your capacity will be updated based on whether capacity profle or capacity units have been configured. 
+- Your capacity will be updated based on whether capacity profile or capacity units have been configured.
 
 - Your presence will be updated to "Busy" or "Available" based on your available capacity.
 
 ## Remove a record from a queue  
   
-1.  In the **View** list, select one of the views that show the items you want to remove.  
+1. In the **View** list, select one of the views that show the items you want to remove.  
   
-2.  Select the activity or case, and on the command bar, select **Remove**.
+2. Select the activity or case, and on the command bar, select **Remove**.
  
 ## Assign an activity to a user or queue
 
@@ -139,11 +139,11 @@ If you want another person in your organization to work on an activity, you can 
   
     If you don’t see the user or team you are looking for, select **Lookup**, and then select **Look Up More Records**. From the **Look for** drop-down list, select **User** or **Team**. In the **Search** box, type the name, select the search button, and then select the name to select it. select **Add**.  
   
-4. Select **Assign**.  
+4. Select **Assign**.
   
-## Add to a queue  
+## Add to a queue
   
-1. In the left pane, go to **Activities**.  
+1. In the left pane, go to **Activities**.
   
 2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
   
