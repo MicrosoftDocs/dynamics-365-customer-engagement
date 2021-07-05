@@ -231,7 +231,7 @@
         - name: Deal manager overview
           href: deal-manager-overview.md
         - name: Access deal manager
-          href: enable-deal-manager-preview.md 
+          href: access-deal-manager.md
         - name: Personalize the deal manager
           href: personalize-deal-manager.md   
       - name: Work with opportunities in the Kanban view

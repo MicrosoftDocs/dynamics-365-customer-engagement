@@ -21,7 +21,7 @@ As an administrator, you must enable the preview and grant access to specific se
 
 ## Access deal manager settings
 
-Access the deal manager settings page to enable the deal manager preview, grant access to users, and to customize the grid and charts. If you're using the Sales Hub app, use the **App Settings** page to access the deal manager settings. If you are using a custom app, use Power Apps Settings.
+Access the deal manager settings page to enable the deal manager preview, grant access to users, and to customize the grid and charts. If you're using the Sales Hub app, use the **App Settings** page to access the deal manager settings. If you're using a custom app, use Power Apps Settings.
 
 **To access deal manager settings in Sales Hub**
 
@@ -31,6 +31,7 @@ Access the deal manager settings page to enable the deal manager preview, grant 
 1. Under **General Settings**, select **Deal manager (preview)**.
 
 <a id="dmincustomapp"></a>
+
 **To access deal manager settings in custom app**
 
 1. Sign in to [Power Apps](https://make.powerapps.com/)
