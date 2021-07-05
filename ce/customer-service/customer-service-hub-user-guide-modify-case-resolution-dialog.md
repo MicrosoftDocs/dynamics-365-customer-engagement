@@ -120,10 +120,10 @@ To update the case resolution entity for the changed value of case entity:
 
 3. Double-click the **resolutiontypecode** field. The **General** tab of **Resolution Type of Case Resolution** is displayed.
 
-<!--
+
   > [!div class=mx-imgBorder]
   > ![Open Resolution Type Code field of Case Resolution entity](media/enable-customizable-dialog-1.png "Open Resolution Type Code field of Case Resolution entity")
-  -->
+
 4. In the **Options** section, select the plus icon to automatically populate the **Label** and **Value** fields.
 
 5. In the **Label** field, enter a value name. For this example, enter **Duplicate**.
@@ -148,10 +148,10 @@ As an example, to remove the **Billable Time** field from the form:
   > ![Select Forms](media/case_resolution_8.png "Select Forms")
 -->
 2. Open the form you want to edit. For this example, let's select the **Information** form.
-
+<!--
   > [!div class=mx-imgBorder]
   > ![Select the name of the form you want to edit](media/case_resolution_9.png "Select the name of the form you want to edit")
-
+-->
   The form opens in the form designer.
 
 3. On the form designer, do the following: 
@@ -175,10 +175,10 @@ Now, when the customer service reps try to resolve a case, the case resolution d
   > ![Resolution Type field on the Case Resolution dialog box](media/case_resolution_14a.PNG "Resolution Type field on the Case Resolution dialog box")
 -->
 You'll know if a case has been successfully resolved per the status bar at the top of the form.
-<!--
+
   > [!div class=mx-imgBorder]
   > ![Status bar](media/case_resolution_15.png "Status bar")
--->
+
 ### See also
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md) 
