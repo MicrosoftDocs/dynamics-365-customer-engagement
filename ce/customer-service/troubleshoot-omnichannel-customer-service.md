@@ -353,21 +353,15 @@ Chat icon doesn't load on the portal. The chat icon URL which was configured as 
 
 ### Resolution
 
-Open Chat Settings, navigate to Design tab and change **Logo** field and use an icon URL of your choice.
-
-1. Sign in to the **Omnichannel Administration** app.
-2. Go to **Administration** > **Chat**.
-3. Select a chat widget from the list.
-4. Select the **Design** tab.
-5. Specify the URL of the icon you want to use in the **Logo** field.
-6. Select **Save** to save the record.
+You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center).
 
 ## Chat not getting initiated on starting a new chat from portal
 
 ### Issue
 
-A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be: 
-- Agents not configured in the Queue.
+A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be one of the following:
+
+- Agents not configured in the queue.
 - Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, does not have **Allowed Presence** values in the work stream.
 
    > [!div class=mx-imgBorder]
@@ -375,23 +369,11 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
 ### Resolution
 
- To configure agents in the queue, follow these steps:
+As an administrator, make sure of the following:
 
- 1. Sign in to the **Omnichannel Administration** app.
- 2. Go to **Queues & Users** > **Queues**
- 3. Select the queue from the list.
- 4. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
- 5. On the **Lookup Records** pane, select the agents to add, and then select **Add**.
- 6. Select **Save** to save the record.
+- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichanne admin center](queues-omnichannel.md#create-a-queue-in-omnichannel-admin-center)
 
-
-To Update default **Allowed Presence** in the Live Work Stream, follow these steps:
-
-1. Sign in to the **Omnichannel Administration** app.
-2. Go to **Work Distribution Management** > **Work Streams**.
-3. Select a record from the list.
-4. In the Work Distribution tab, under the Work Distribution section, type **Available**. Select the check box to add it. Similarly, type **Busy** and then select the check box to add it.
-5. Select **Save** to save the record.
+- For the associated workstream, check that the **Allowed Presence** option has values in the **Work distribution** area. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
 ## Chat widget does not load on the portal
 
@@ -635,9 +617,9 @@ The issue might happen due to the following reasons:
 Perform the following:
 
 - Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
-- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision for Omnichannel for Customer Service](omnichannel-provision-license.md). 
-- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](add-users-assign-roles.md).
-- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
+- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md). 
+- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md).
+- Ensure the agent account has values set for **Capacity** and **Default presence**. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
 
 
 ## Pre-imported Unified Service Desk configurations in Customer Service organization
