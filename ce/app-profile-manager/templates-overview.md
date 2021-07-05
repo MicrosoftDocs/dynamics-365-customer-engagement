@@ -5,8 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 01/31/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.topic: overview
+ms.custom: template-overview
 ---
 
 # Overview of templates in Customer Service
