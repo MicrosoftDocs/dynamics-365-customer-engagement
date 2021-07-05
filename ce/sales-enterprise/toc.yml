@@ -166,8 +166,13 @@
       items: 
       - name: Install ZoomInfo app
         href: install-zoominfo-app.md
+      - name: Configure export preferences
+        href: configure-export-preferences-zoominfo.md
+      - name: Match fields between Dynamics 365 and ZoomInfo
+        href: match-fields-between-dynamics365-zoominfo.md        
+      - name: Customize the ZoomInfo app
+        href: customize-zoominfo-app.md 
 
-        
     - name: Configure Microsoft Teams dialer
       href: configure-microsoft-teams-dialer.md
     - name: Reporting
