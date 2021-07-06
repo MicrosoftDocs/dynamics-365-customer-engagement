@@ -1,7 +1,7 @@
 ---
-title: "createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
+title: "createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: ""
-ms.date: 11/02/2020
+ms.date: 07/06/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,13 +13,11 @@ ms.custom:
 
 # createSession
 
- 
-
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 
 [!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
 
-Creates a session based on the session template defined as part of the template and returns the unique identifier of the session (Id) that was created.
+Creates a session based on the session template defined as part of the template and returns the unique identifier of the session (Id) that was created. This API supports session templates of the type **Generic**. For more information about session templates, see [Manage session templates](../app-profile-manager/session-templates.md).  
 
 ## Syntax
 
@@ -29,11 +27,11 @@ Creates a session based on the session template defined as part of the template 
 
 | **Name**              | **Type** | **Required** | **Description**                                                                                                                      |
 |-----------------------|----------|--------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Input                 | String   | Yes          | JSON string                                                                                                                          |
+| input                 | String   | Yes          | JSON string                                                                                                                          |
 | successCallback       | Function | No           | A function to call when the request is successful. The input to this function is the unique identifier of the newly created session. |
 | errorCallback         | Function | No           | A function to call when the request fails                                                                                            |
 
-The structure of the `Input` parameter JSON is shown below.
+The structure of the `input` parameter JSON is as follows.
 
 ```json
 { 
@@ -73,6 +71,5 @@ Microsoft.CIFramework.createSession(input).then(function success(sessionId) {
     // handle error conditions
 });
 ```
-
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
