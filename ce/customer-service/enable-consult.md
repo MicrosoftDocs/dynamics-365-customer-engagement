@@ -25,7 +25,7 @@ search.app:
 > - This preview feature does not come with technical support and Microsoft Dynamics 365 Technical Support won't be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
-To improve agent productivity, the consult option in the communication panel is now a separate pane. With the consult pane, the agents can conveniently consult another agent or supervisor without getting their messages mixed up with those meant for their customers. When the consult option is turned off, a separate pane will not open when agents select the consult view. Instead, the consulted messages will be flagged as internal and will appear in the communication panel.
+To improve agent productivity, the consult option in the communication panel is now a separate pane. With the consult pane, the agents can conveniently consult another agent or supervisor without getting their messages mixed up with those meant for their customers. When the consult option is turned off, a separate pane will not open when agents select the consult option. Instead, the consulted messages will be flagged as internal and will appear in the communication panel.
 
 Do the following to enable the consult pane for agents:
 
