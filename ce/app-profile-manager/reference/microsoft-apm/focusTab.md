@@ -5,7 +5,6 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 ms.date: 10/12/2020
-ms.service: "dynamics-365-customerservice"
 ms.topic: reference
 ---
 

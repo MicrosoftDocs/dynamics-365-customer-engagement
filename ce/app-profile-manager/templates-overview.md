@@ -6,7 +6,8 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 01/31/2020
 ms.topic: overview
-ms.custom: template-overview
+ms.custom: 
+  - template-overview
 ---
 
 # Overview of templates in Customer Service
