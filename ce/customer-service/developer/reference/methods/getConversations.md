@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This function can be used to fetch a list of conversation (msdyn_ocliveworkitem) records for an agent. 
+This method can be used to fetch a list of conversation (`msdyn_ocliveworkitem`) records for an agent. 
 
 ## Syntax
 

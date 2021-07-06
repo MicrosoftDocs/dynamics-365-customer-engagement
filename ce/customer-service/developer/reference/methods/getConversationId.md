@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This function can be called to fetch the unique GUID of the current ongoing conversation in a session. The conversation ID stays the same post conversation close as well. This ID can be used to fetch the conversation record programmatically.
+This method can be called to fetch the unique GUID of the current ongoing conversation in a session. The conversation ID stays the same post conversation close as well. The identifier can be used to fetch the conversation record programmatically.
 
 ## Syntax
 
