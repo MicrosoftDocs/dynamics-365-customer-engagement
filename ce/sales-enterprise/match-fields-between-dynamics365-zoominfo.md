@@ -13,7 +13,7 @@ manager: shujoshi
 When you try to export the data from the ZoomInfo app to your Dynamics 365 Sales organization, certain corresponding fields may not match and will not display updated values. To avoid such mismatches, you can map the corresponding fields between Dynamics 365 and ZoomInfo for accounts, contacts, and leads.
 
 ## Prerequisites
-Before you start, be sure you have met the following prerequisites:
+Before you start, be sure you've met the following prerequisites:
 -	You must have the system administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
 -	The ZoomInfo app is installed on your Dynamics 365 Sales organization. More information: [Install ZoomInfo app](install-zoominfo-app.md).   
 -	A license to use the ZoomInfo app.
@@ -27,7 +27,7 @@ Before you start, be sure you have met the following prerequisites:
     > [!div class="mx-imgBorder"]
     > ![ZoonInfo sign in page](media/zoominfo-login-page.png "ZoonInfo sign in page")
      
-3.	On the top right corner of the page, select **More** > **Admin Portal**.
+3.	On the top-right corner of the page, select **More** > **Admin Portal**.
 4.	On the **Admin Portal** page, select **Dynamics Settings**.
 
     > [!div class="mx-imgBorder"]

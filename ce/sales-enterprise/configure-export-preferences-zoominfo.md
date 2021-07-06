@@ -10,10 +10,10 @@ manager: shujoshi
 
 # Configure export preferences
 
-As an administrator, you can configure the export preference to choose which record types (accounts, contacts, and leads) to export and limit the number of records that you can export in each record type. Also, you can configure to create new record, allow record duplicate creation, and update existing records for each record type.   
+As an administrator, you configure the export preference to choose which record types (accounts, contacts, and leads) to export and limit the number of records that you export in each record type. Also, you configure to create new record, allow record duplicate creation, and update existing records for each record type.   
 
 ## Prerequisites
-Before you start, be sure you have met the following prerequisites:
+Before you start, be sure you've met the following prerequisites:
 -	You must have the system administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
 -	The ZoomInfo app is installed on your Dynamics 365 Sales organization. More information: [Install ZoomInfo app](install-zoominfo-app.md).   
 -	A license to use the ZoomInfo app.
@@ -27,7 +27,7 @@ Before you start, be sure you have met the following prerequisites:
     > [!div class="mx-imgBorder"]
     > ![ZoonInfo sign in page](media/zoominfo-login-page.png "ZoonInfo sign in page")
      
-3.	On the top right corner of the page, select **More** > **Admin Portal**.
+3.	On the top-right corner of the page, select **More** > **Admin Portal**.
 4.	On the **Admin Portal** page, select **Dynamics Settings**.
 
     > [!div class="mx-imgBorder"]

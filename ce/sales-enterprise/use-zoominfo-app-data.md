@@ -1,6 +1,6 @@
 ---
 title: "How to use ZoomInfo app data (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Match the fields between Dynamics 365 and ZoomInfo to avoid mismatches in the data while exporting."
+description: "Understand how you can use the ZoomInfo app data for your records in Dynamics 365 Sales app."
 ms.date: 07/05/2021
 ms.topic: article
 author: udaykirang

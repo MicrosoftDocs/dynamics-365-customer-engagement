@@ -252,7 +252,7 @@
         href: ../sales-enterprise/create-edit-competitor-record-sales.md
       - name: Manage sales literature
         href: ../sales-enterprise/create-sales-literature.md
-      - name: Use ZoomInfo app
+    - name: Use ZoomInfo app
       items: 
       - name: Use ZoomInfo app data
         href: ../sales-enterprise/use-zoominfo-app-data.md

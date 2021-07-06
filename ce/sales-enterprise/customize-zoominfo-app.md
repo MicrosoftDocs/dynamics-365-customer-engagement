@@ -1,6 +1,6 @@
 ---
 title: "Customize the ZoomInfo app (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Match the fields between Dynamics 365 and ZoomInfo to avoid mismatches between data while exporting data."
+description: " Customize the ZoomInfo app to display in table entities and add site map to your Dynamics 365 sales app."
 ms.date: 07/05/2021
 ms.topic: article
 author: udaykirang
@@ -9,18 +9,18 @@ manager: shujoshi
 ---
 
 # Customize the ZoomInfo app    
-After you install the ZoomInfo app, it is available as a standalone app and every time sellers must come back to the app selection area and choose the ZoomInfo app to view the required information.   
+After you install the ZoomInfo app, it's available as a standalone app and every time sellers must come back to the app selection area and choose the ZoomInfo app to view the required information.   
 As an administrator, you can customize the ZoomInfo app in the following ways:   
 -	**Add ZoomInfo entry to site map**: You can add the ZoomInfo entry to your Dynamics 365 Sales environment on the left navigation site map and providing easy access to ZoomInfo - including Admin Portal and the ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
 -	**Add ZoomInfo form to table entities**: You can add the ZoomInfo form to your standard or custom Account, Contacts, and Leads table entities to provide sellers with inline access to ZoomInfo data. More information: [Add ZoomInfo form to entities](#add-zoominfo-form-to-table-entities).
 
 ## Prerequisites
-Before you start, be sure you have met the following prerequisites:
+Before you start, be sure you've met the following prerequisites:
 -	You must have the system administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
 -	The ZoomInfo app is installed on your Dynamics 365 Sales organization. More information: [Install ZoomInfo app](install-zoominfo-app.md).   
 
 ## Add ZoomInfo entry to site map
-You can add the ZoomInfo entry to your left navigation site map to your Dynamics 365 Sales app lets ales teams can perform searches and administrators can access the Admin Portal to configure export preferences, custom mapping, and other settings. Also, you can add site map entry to ZoomInfo knowledge center.   
+You add the ZoomInfo entry to your left navigation site map to your Dynamics 365 Sales app lets sales teams perform searches and administrators access the Admin Portal to configure export preferences, custom mapping, and other settings. Also, you add site map entry to ZoomInfo knowledge center.   
 
 **To add the entry to site map**  
 
@@ -35,12 +35,12 @@ You can add the ZoomInfo entry to your left navigation site map to your Dynamics
 4.	In the app designer page, under site map section, select the pencil icon to open the site map designer.
     
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")
+    > ![Select the pencil icon to open the site map designer](media/zoominfo-site-map.png "Select the pencil icon to open the site map designer")
  
 5.	Choose an existing area or add new area to the site map and then from the **Component** tab, drag and drop **Group**.
     
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")
+    > ![Drag and drop the group component to an area](media/zoominfo-sitemap-add-group-component.png "Drag and drop the group component to an area")
  
 6.	On the **Properties** tab, under the **General** section, add the following group information:
 
@@ -50,12 +50,12 @@ You can add the ZoomInfo entry to your left navigation site map to your Dynamics
     | ID | Specifies the unique identification number for the group. Use the default value. |
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")
+    > ![Enter title for the group component](media/zoominfo-sitemap-enter-properties.png "Enter title for the group component")
 
 7.	Select the added ZoomInfo group and then on the right pane, under the **Components** tab, drag and drop the **Subarea**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")
+    > ![Drag and drop the subarea component to the group](media/zoominfo-sitemap-add-subgroup-component.png "Drag and drop the subarea component to the group")
  
 8.	Select the added subarea and then on the right pane, under the **Properties** tab, enter the following information to add **ZoomInfo** site map entry:
 
@@ -66,9 +66,9 @@ You can add the ZoomInfo entry to your left navigation site map to your Dynamics
     | Title | ZoomInfo |
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")
+    > ![Enter properties for the subarea component](media/zoominfo-sitemap-enter-subarea-properties.png "Enter properties for the subarea component")
 
-9.	Similarly, repeat the **steps 7-8** for **ZoomInfo Knowledge Center** and enter the following information:
+9.	Similarly, repeat the **steps 7 and 8** for **ZoomInfo Knowledge Center** and enter the following information for subarea:
 
     | Field | Description |
     |-------|-------------|
@@ -76,14 +76,11 @@ You can add the ZoomInfo entry to your left navigation site map to your Dynamics
     | URL | ```https://university.zoominfo.com/pages/knowledge-center-zoominfo-for-sales-home``` |
     | Title | Knowledge Center |
 
-    > [!div class="mx-imgBorder"]
-    > ![](media/ "")
-
 10.	Save and publish the changes.    
 11.	(Optional) To verify the successful addition of ZoomInfo site map, open the Dynamics 365 Sales Hub app and the ZoomInfo Group you added is shown in the left navigation pane.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![ZoomInfo site map is added to the left navigation pane](media/zoominfo-sitemap-added.png "ZoomInfo site map is added to the left navigation pane")   
 
 ## Add ZoomInfo form to table entities    
 You can add the ZoomInfo form to standard or custom Account, Contacts, and Leads table entities to help sellers to access the ZoomInfo data without moving away from records.
@@ -104,99 +101,99 @@ Create a Solution to locate and work with the components you’ve customized and
     |-------|-------------|
     | Display Name | The name shown in the list of solutions. You can change this later. |
     | Name | The unique name of the solution. This is generated using the value you enter in the Display Name column. You can edit this before you save the solution, but after you save the solution, you can’t change it. |
-    | Publisher | You can select the default publisher or create a new publisher. We recommend that you create a publisher for your organization to use consistently across your environments where you will use the solution. See Solution publisher later in this article. |
+    | Publisher | You can select the default publisher or create a new publisher. We recommend that you create a publisher for your organization to use consistently across your environments where you'll use the solution. See Solution publisher later in this article. |
     | Version | Enter a number for the version of your solution. This is only important if you export your solution. The version number will be included in the file name when you export the solution. |
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Enter new solution information](media/zoominfo-solution-add-solution.png "Enter new solution information")   
 
 4.	Select **Create**.  
     The new solution is created and listed in the solutions. Now, you can add the components to the solution.
 
 ### Add solution components to table entity    
-You can add the components that aren’t available in the solution. In this example, we are adding a table component to Account, Contacts, and Leads entities.   
-1.	Open the solution you have created and select **Add existing** > **Table**.    
+You can add the components that aren’t available in the solution. In this example, we're adding a table component to Account, Contacts, and Leads entities.   
+1.	Open the solution you've created and select **Add existing** > **Table**.    
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Select the table option](media/zoominfo-solution-add-table-entity.png "Select the table option")   
 
 2.	On the **Add existing table** pane, add the tables **Account**, **Contacts**, and **Leads**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Add tables Account, Contacts, and Leads](media/zoominfo-solution-add-tables.png "Add tables Account, Contacts, and Leads")   
 
 3.	Select **Next**.    
     The three tables you selected are displayed. Now, you can add form component to each selected table entity.
 
 ### Add form to table entity   
-Now that you have added table entities to the solution component, add the form component for Account, Contacts, and Leads table entity.    
+Now that you've added table entities to the solution component, add the form component for Account, Contacts, and Leads table entity.    
 1.	Under the **Account** section, select **Select components**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Select components in the account section](media/zoominfo-solution-select-component-tables.png "Select components in the account section")   
  
 2.	On the **Accounts** pane, select the **Forms** tab and then select **Account**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Select account from the forms tab](media/zoominfo-solution-select-account-form.png "Select account from the forms tab")   
  
 3.	Select **Add**.   
     Under the **Account** section, you can view the message **1 form selected** indicating that you've added the account form to the **Account** table.   
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Confirmation for successful addition of account form](media/zoominfo-solution-selected-account-form-added.png "Confirmation for successful addition of account form")   
  
-4.	Repeat the steps 1 to 3 for the **Contact** and **Lead** table entities to add the corresponding contact and lead form to each.    
+4.	Repeat the **steps 1 to 3** for the **Contact** and **Lead** table entities to add the corresponding contact and lead form to each.    
 5.	Select **Add**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Account, contacts, and leads tables added to ZoomInfo iframe](media/zoominfo-solution-selected-tables-added-iframe.png "Account, contacts, and leads tables added to ZoomInfo iframe")   
  
     The forms are added to the table entities. Now, you can customize the form components on how the ZoomInfo inline pages should display.
 
 ### Customize form components   
-Now that you have added the forms to the table entities, customize how the ZoomInfo inline pages will display within the standard form component used with your Account, Leads, and Contact pages. Perform the customization in classic mode.
-1.	From the form page of the **Account** form, click **Switch to classic**.
+Now that you've added the forms to the table entities, customize how the ZoomInfo inline pages will display within the standard form component used with your Account, Leads, and Contact pages. Perform the customization in classic mode.
+1.	From the form page of the **Account** form, select **Switch to classic**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Open account form in classic mode](media/zoominfo-solution-account-form-classic-mode.png "Open account form in classic mode")   
  
 2.	Select the **Insert** tab and then select **One column**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Select one column from insert tab](media/zoominfo-solution-select-one-column.png "Select one column from insert tab")   
  
     A new column is added as a **Tab**.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Selected one column added to form](media/zoominfo-solution-one-column-added.png "Selected one column added to form")   
  
 3.	Select the **Tab** and then select **Change Properties**.   
     The **Tab Properties** dialog opens.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Tab properties dialog](media/zoominfo-solution-tab-properties.png "Tab properties dialog")   
   
 4.	Enter the values for **Name** and **Label** as **ZoomInfo**, and then select **OK**.   
     The tab is renamed as **ZoomInfo**.
 5.	Go to the **INSERT** tab, in the **ZoomInfo** tab, select the **Section** area and then select **Web Resource**. 
-    The **Web Resource** dialog opens.
+    The **Add Web Resource** dialog opens.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Add Web Resource dialog](media/zoominfo-solution-add-webresources.png "Add Web Resource dialog")   
  
 6.	Under the **General** tab, enter the following information:   
-    -	In the Web resource section, search and add the zi_InlineIframe.html file that is built into the ZoomInfo for Dynamics 365 app.
-    -	In the Field Name and Properties section, Enter the Name and Label as ZoomInfo.
-    -	In the Web Resource Properties section, check to select the Pass record object-type code and unique identifier as parameters option. This option helps ZoomInfo with the object type passed to perform data matches.
+    -	In the **Web resource** section, search and add the `zi_InlineIframe.html` file that is built into the ZoomInfo for Dynamics 365 app.
+    -	In the **Field Name and Properties** section, Enter the **Name** and **Label** as **ZoomInfo**.
+    -	In the **Web Resource Properties** section, check to select the **Pass record object-type code and unique identifier as parameters** option. This option helps ZoomInfo with the object type passed to perform data matches.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Enter values in general tab](media/zoominfo-solution-enter-values-general-tab.png "Enter values in general tab")   
  
 7.	Under the **Formatting** tab, in the **Row Layout** section, change the **Number of Rows** value to **16** to accommodate the ZoomInfo data.  
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![Enter values in format tab](media/zoominfo-solution-enter-values-format-tab.png "Enter values in format tab")   
  
 8.	Select **OK**.
 9.	Save and publish the form.   
@@ -204,7 +201,7 @@ Now that you have added the forms to the table entities, customize how the ZoomI
     To verify, go to Dynamics 365 Sales Hub app, and open the standard account page for a company. The **ZoomInfo** tab is added to the account.  
 
     > [!div class="mx-imgBorder"]
-    > ![](media/ "")   
+    > ![ZoomInfo home page for an account record](media/zoominfo-solution-account-home-screen.png "ZoomInfo home page for an account record")   
  
 10.	Repeat the **steps 1 to 9** for the **Contact** and **Leads** forms.
 
