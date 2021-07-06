@@ -1187,11 +1187,15 @@
       - name: Methods
         items: 
         - name: getConversationID
-          href: developer/reference/methods/getConversationId.md
+          href: developer/reference/methods/getConversationId.md        
         - name: linkToConversation
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md
+        - name: getConversations
+          href: developer/reference/methods/getConversations.md
+        - name: openConversation
+          href: developer/reference/methods/openConversation.md  
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
