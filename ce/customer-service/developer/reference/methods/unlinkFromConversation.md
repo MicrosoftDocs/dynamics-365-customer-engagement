@@ -22,7 +22,7 @@ This function can be used to unlink an already linked entity record of type cust
 
 | Parameter | Type | Description |
 | ---- | ---- | ---- |
-| entityLogicalName | String | Logical name of the entity (i.e., account, contact, or incident) | 
+| entityLogicalName | String | Logical name of the entity (such as account, contact, or incident) | 
 | recordId | String | Unique identifier for the entity record to be linked |
 
 ## Return Value
@@ -41,7 +41,7 @@ Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a
 }); 
 ```
 
-## See also
+### See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
 
