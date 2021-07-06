@@ -34,7 +34,7 @@ Do the following to enable the consult pane for agents:
 3. On the **Omnichannel configuration** page, on the **Consult** tab, set the toggle to **Yes** for **Enable new consult experience**.
 4. Save and close the page.
 
-When agents use the consult option during their interaction with a customer, the Consult pane will appear beside the communication panel.
+When agents use the consult option during their interaction with a customer, the **Consult** pane will appear beside the communication panel. The public and internal modes are not available when consult pane setting is enabled.
 
 ### See also
 

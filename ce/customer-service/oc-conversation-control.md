@@ -45,6 +45,9 @@ In the communication panel, you can see the following options:
 
 ## Send messages using the Public and Internal modes
 
+> [!IMPORTANT]
+> The public and internal modes are not available if consult pane setting is enabled. More information: [Consult pane setting](enable-consult.md)
+
 The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
 When you want to send messages only to the internal participants like other agents and/or supervisors and not customers, then use the **Internal** option.
@@ -102,7 +105,7 @@ The communication panel allows you to consult with other agents and or superviso
 
 You can also use a keyboard command to see the list of agents and or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
-If your administrator has enabled the consult experience, a separate pane will open beside the communication panel when you start a consultation.
+If your administrator has enabled the consult pane setting, a separate pane will open beside the communication panel when you start a consultation.
 
 > [!Note]
 > We recommend that you invite not more than five consulting agents when conversing with the customer.
