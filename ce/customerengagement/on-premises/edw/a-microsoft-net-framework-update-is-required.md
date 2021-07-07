@@ -1,7 +1,7 @@
 ---
 title: "A Microsoft .NET Framework update is required | Microsoft Docs"
 description: A .NET Framework update is needed
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

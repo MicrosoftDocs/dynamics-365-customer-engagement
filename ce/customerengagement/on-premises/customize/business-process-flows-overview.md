@@ -4,7 +4,7 @@ description: Learn how to create and add business process flows to your apps
 ms.custom: 
 ms.date: 02/21/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

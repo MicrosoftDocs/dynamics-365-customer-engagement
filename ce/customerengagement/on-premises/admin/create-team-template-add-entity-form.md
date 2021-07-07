@@ -4,7 +4,7 @@ description: "Create a team template to control access rights for automatically 
 ms.custom: 
 ms.date: 03/19/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

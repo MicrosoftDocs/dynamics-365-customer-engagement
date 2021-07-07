@@ -4,7 +4,7 @@ description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmCo
 author: Nkrb
 ms.date: 03/27/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

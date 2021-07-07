@@ -4,7 +4,7 @@ description: "The customizations.xml file is included within the compressed .zip
 ms.custom: 
 ms.date: 12/22/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

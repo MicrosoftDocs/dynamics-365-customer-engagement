@@ -4,7 +4,7 @@ description: Integrating Office 365 apps is a great way to enhance your customer
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

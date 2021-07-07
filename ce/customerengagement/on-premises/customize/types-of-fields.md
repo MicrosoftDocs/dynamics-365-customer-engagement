@@ -3,7 +3,7 @@ title: "Types of fields and field data types with Dynamics 365 Customer Engageme
 description: "Understand the different field and data types available for your app"
 keywords: 
 ms.date: 04/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

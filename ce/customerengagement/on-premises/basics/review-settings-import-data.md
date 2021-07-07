@@ -7,7 +7,7 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-ms.service: crm-online
+ms.prod: d365ce-op
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 author: mduelae

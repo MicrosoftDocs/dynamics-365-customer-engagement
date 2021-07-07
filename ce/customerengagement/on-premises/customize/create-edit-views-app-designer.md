@@ -3,7 +3,7 @@ title: "Create and edit public or system views using the app designer with Dynam
 description: "Learn now to create or edit views by using the app designer"
 keywords: 
 ms.date: 11/09/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

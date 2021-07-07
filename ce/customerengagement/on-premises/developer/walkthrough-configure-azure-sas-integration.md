@@ -4,7 +4,7 @@ description: "The walkthrough guides you through configuring the Azure Service B
 ms.custom: 
 ms.date: 05/16/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

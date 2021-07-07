@@ -4,7 +4,7 @@ description: "Keep your organization optimized so that you can focus on what’s
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

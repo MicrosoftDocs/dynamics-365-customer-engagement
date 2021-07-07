@@ -1,7 +1,7 @@
 ---
 title: "Properties dialog box | MicrosoftDocs"
 description: Understand record properties
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 11/01/2016
 ms.reviewer: 

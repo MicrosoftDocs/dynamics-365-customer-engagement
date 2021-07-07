@@ -3,7 +3,7 @@ title: "Sample: Audit entity data changes | MicrosoftDocs"
 description: "Sample demonstrating how to audit entity data changes."
 keywords: 
 ms.date: 03/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: audit
 ms.topic: samples
 applies_to: 

@@ -4,7 +4,7 @@ description: "Learn how to change the color scheme or add a logo to match your o
 s.custom: 
 ms.date: 02/15/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -3,7 +3,7 @@ title: "Use OneDrive for Business to manage your private documents (Dynamics 365
 description: "Store your private or important documents on OneDrive for Business."
 keywords: documents, store, OneDrive, Business
 ms.date: 05/05/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

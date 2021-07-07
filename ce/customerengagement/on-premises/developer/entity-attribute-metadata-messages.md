@@ -4,7 +4,7 @@ description: "An entity attribute is a container for a piece of data in an entit
 ms.custom: 
 ms.date: 05/20/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

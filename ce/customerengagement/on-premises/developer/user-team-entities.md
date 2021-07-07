@@ -3,7 +3,7 @@ title: "User and team entities (Developer Guide for Dynamics 365 Customer Engage
 description: "Learn about user and team management using which you can create and maintain user accounts and profiles."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

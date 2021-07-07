@@ -4,7 +4,7 @@ description: Learn how to customize for the phone and tablet apps
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

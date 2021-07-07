@@ -4,7 +4,7 @@ description: "The following example describes how to author a report that displa
 ms.custom: 
 ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

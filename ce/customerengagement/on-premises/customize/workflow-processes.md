@@ -4,7 +4,7 @@ description: Learn about workflows that can be used to automate business process
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -3,7 +3,7 @@ title: "Add or edit app components with Dynamics 365 Customer Engagement (on-pre
 description: "Use the Dynamics 365 for Customer Engagement app designer to add or edit components"
 keywords: 
 ms.date: 03/04/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

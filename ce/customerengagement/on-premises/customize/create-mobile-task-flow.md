@@ -4,7 +4,7 @@ description: Learn how to create a task flow
 ms.custom: 
 ms.date: 08/19/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

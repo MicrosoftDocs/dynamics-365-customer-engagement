@@ -3,7 +3,7 @@ title: "Export, import, or remove a custom business app with Dynamics 365 for Cu
 description: "Learn you can export, import, or remove a custom business app"
 keywords: 
 ms.date: 02/20/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

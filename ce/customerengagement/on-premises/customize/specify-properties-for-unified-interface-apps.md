@@ -3,7 +3,7 @@ title: "Specify properties for Unified Interface apps with Dynamics 365 Customer
 description: "Learn how to configure the grid control for your app"
 keywords: 
 ms.date: 01/09/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

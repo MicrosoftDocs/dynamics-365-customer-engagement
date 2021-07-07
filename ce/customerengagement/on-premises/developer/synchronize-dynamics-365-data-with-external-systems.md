@@ -4,7 +4,7 @@ description: "Learn how to synchronize and integrate Dynamics 365 Customer Engag
 ms.custom: 
 ms.date: 10/01/2019
 author: Jimdaly 
-ms.prod: dynamicscrm-2016
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

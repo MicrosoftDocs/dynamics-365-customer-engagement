@@ -3,7 +3,7 @@ title: "Deploy and operate Dynamics 365 Customer Engagement (on-premises) | Micr
 description: This document set explains how to deploy and operate Dynamics 365 Customer Engagement (on-premises)
 ms.date: 06/07/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

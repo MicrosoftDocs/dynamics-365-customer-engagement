@@ -4,7 +4,7 @@ description: "Learn how to use solution explorer to create or customize apps"
 ms.custom: 
 ms.date: 01/11/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

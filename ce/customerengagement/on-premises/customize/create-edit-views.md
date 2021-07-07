@@ -3,7 +3,7 @@ title: "Understand views with Dynamics 365 Customer Engagement (on-premises) | M
 description: "Learn about the different types of views"
 keywords: 
 ms.date: 11/09/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

@@ -3,7 +3,7 @@ title: "Create or edit a custom business app using the app designer in Dynamics 
 description: "Learn how to create or edit apps using the app designer"
 keywords: 
 ms.date: 06/20/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

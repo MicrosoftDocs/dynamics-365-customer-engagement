@@ -4,7 +4,7 @@ description: "Set up Dynamics 365 for Customer Engagement to use SharePoint Onli
 ms.custom: 
 ms.date: 06/10/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Deploy and configure AD FS | Microsoft Docs"
 ms.custom: ""
 ms.date: 12/09/2016
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -4,7 +4,7 @@ description: "Learn about how to setup and use AutoResponder in Fiddler for loca
 ms.custom: 
 ms.date: 09/18/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

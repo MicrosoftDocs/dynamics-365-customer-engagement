@@ -4,7 +4,7 @@ description: "Checklist to ensure that you're prepared for transition to Unified
 ms.custom: ""
 ms.date: 05/21/2020
 ms.reviewer: "kvivek"
-ms.service: powerapps
+ms.prod: d365ce-op
 ms.topic: "article"
 author: "Mattp123"
 ms.author: "haybass"

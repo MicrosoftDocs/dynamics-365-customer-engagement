@@ -3,7 +3,7 @@ title: "Publish a Dynamics 365 for Customer Engagement (on-premises) app using t
 description: "Learn how to publish your app"
 keywords: 
 ms.date: 04/30/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

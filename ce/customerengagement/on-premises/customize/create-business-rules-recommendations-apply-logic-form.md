@@ -4,7 +4,7 @@ description: Learn how to create a business rule
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

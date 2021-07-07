@@ -3,7 +3,7 @@ title: "Create a site map for an app with Dynamics 365 Customer Engagement (on-p
 description: "Learn how to create a site map for you app"
 keywords: 
 ms.date: 11/28/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

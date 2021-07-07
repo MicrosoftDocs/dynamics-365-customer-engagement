@@ -3,7 +3,7 @@ title: "Create connections to define relationships between records (Dynamics 365
 description: ""
 keywords: 
 ms.date: 05/05/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
