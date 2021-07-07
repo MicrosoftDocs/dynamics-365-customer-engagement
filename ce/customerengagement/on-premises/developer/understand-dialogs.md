@@ -30,7 +30,7 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
 ## Dialog components  
  The following diagram illustrates a sample dialog page and its components.  
   
- ![Components of a dialog](media/sample-dialog.png "Components of a dialog")  
+ ![Components of a dialog.](media/sample-dialog.png "Components of a dialog")  
   
  Let us look at each component in detail.  
   

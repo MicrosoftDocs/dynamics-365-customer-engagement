@@ -21,7 +21,7 @@ Use the view list and queue list to filter and find items in queues.
 1. Go to **Service** > **Queues**.
 2. Select a view, and then select a filter to see the items you want.
 
-   ![Queues view list](media/queues_view_list.png "Customer Service Hub Queues View List") 
+   ![Queues view list.](media/queues_view_list.png "Customer Service Hub Queues View List") 
 
 3. From the **All items** drop-down, select the pin icon to pin the view that you want to appear on your dashboard.
 
@@ -83,7 +83,7 @@ Use the view list and queue list to filter and find items in queues.
 4. Select the queues from the menu.
 5. Select the checkbox next to the item title to select the item.
 6. Select **Pick** from the command menu. The **Pick** dialog box appears.
-   > ![Pick a work item](media/pick-work-item-csh.png "Pick a work item")
+   > ![Pick a work item.](media/pick-work-item-csh.png "Pick a work item")
 
 7. Optionally, select **No** to change it to **Yes** if you want item from the queue.
 8. Select **Pick**. The item is assigned to you and removed from the queue if you had selected yes in the previous step. Also, the following updates happen:
@@ -133,7 +133,7 @@ If you want another person in your organization to work on an activity, you can 
   
 1. In the left pane, go to **Activities**.  
   
-2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.
+2. In the list of activities, select the activity you want, and on the command bar, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button"), and then select **Assign**.
   
 3. In the **Assign to another user or team** field, select **Lookup**, and select the user or team you want to assign the activity to.  
   
@@ -145,7 +145,7 @@ If you want another person in your organization to work on an activity, you can 
   
 1. In the left pane, go to **Activities**.
   
-2. In the list of activities, select the activity you want, select **More Commands** ![More commands button](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
+2. In the list of activities, select the activity you want, select **More Commands** ![More commands button.](media/crm-ua-not-available.gif "More commands button") on the command bar, and then select **Add to Queue**.
   
 3. In the **Queue** field, select **Lookup**, select the queue you want to route the activity to, and then select **Add**.
 

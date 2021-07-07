@@ -41,7 +41,7 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
  
  
 > [!div class="mx-imgBorder"] 
-> ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
+> ![Features of Microsoft Teams app.](media/teams-intro.png "Features of Microsoft Teams app")
 
 With the Dynamics 365 for Microsoft Teams integration, add app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with your customer information and share files directly from Microsoft Teams.
 

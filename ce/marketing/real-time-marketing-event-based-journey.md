@@ -58,7 +58,7 @@ When creating an event-based journey, you can specify the following properties t
 - **Start date and time**: Customers can start the journey only if they perform the event trigger after this start date and time. Select today's date if you want the journey to start listening to the abandoned cart event trigger immediately after it has been published.  
 
 > [!div class="mx-imgBorder"]
-> ![Create an event-based journey screenshot](media/real-time-marketing-event-based-journey.png "Create an event-based journey screenshot")
+> ![Create an event-based journey screenshot.](media/real-time-marketing-event-based-journey.png "Create an event-based journey screenshot")
 
 Additional configurations for starting the journey can be found in the journey task pane. See [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md). 
 
@@ -67,14 +67,14 @@ Additional configurations for starting the journey can be found in the journey t
 The goal for this journey is to *drive a purchase*. You can use the *Purchase completed* event trigger to track and capture when users meet this goal. The **Amount of people needed for this goal** can be set to 50 percent to indicate that you want at least 50 percent of customers who abandon carts and are targeted by this journey to go on to complete the purchase.
 
 > [!div class="mx-imgBorder"]
-> ![Set the journey goal screenshot](media/real-time-marketing-event-based-journey-goal.png "Set the journey goal screenshot")
+> ![Set the journey goal screenshot.](media/real-time-marketing-event-based-journey-goal.png "Set the journey goal screenshot")
 
 ## Set the journey exit
 
 By default, customers leave the journey when they have completed all the steps. However, you can set additional journey exits by using event triggers. For this journey, you want to make sure you only send the reminder messages if customers have not yet completed their purchase. By setting the journey exit to the *Purchase completed* event, you can ensure that the moment any customer completes the purchase, they will exit the journey and no longer receive the reminder messages. Setting the journey exit to an event trigger provides an easy way to remove customers who perform the event trigger from the journey, ensuring that customers do not receive irrelevant messages from your customer journey.
 
 > [!div class="mx-imgBorder"]
-> ![Set journey exit screenshot](media/real-time-marketing-event-based-journey-exit.png "Set journey exit screenshot")
+> ![Set journey exit screenshot.](media/real-time-marketing-event-based-journey-exit.png "Set journey exit screenshot")
 
 ## Add the abandoned cart reminders
 
@@ -87,7 +87,7 @@ Use the plus sign (**+**) on the journey canvas to add the abandoned cart remind
 1. **Send a push notification**: As the final step, send the *Final push notification* reminder.
 
 > [!div class="mx-imgBorder"]
-> ![Abandoned cart journey screenshot](media/real-time-marketing-event-based-abandoned-cart-journey.png "Abandoned cart journey screenshot")
+> ![Abandoned cart journey screenshot.](media/real-time-marketing-event-based-abandoned-cart-journey.png "Abandoned cart journey screenshot")
 
 ## Publish the journey
 

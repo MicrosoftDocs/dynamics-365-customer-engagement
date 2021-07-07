@@ -134,7 +134,7 @@ In any marketing list record, select the **Members** tab, and on the command bar
 ## Associate campaigns or quick campaigns to a marketing list  
  After you have created a campaign or quick campaign, you can associate it to your marketing list. You can also create a new campaign or quick campaign from your marketing list.  
   
-1.  In the **Campaigns** or **Quick Campaigns** area, select the **Add**![Add button](../sales-enterprise/media/add-button.PNG "Add button") button.  
+1.  In the **Campaigns** or **Quick Campaigns** area, select the **Add**![Add button.](../sales-enterprise/media/add-button.PNG "Add button") button.  
   
 2.  Search for the campaign or quick campaign you want to associate to this marketing list.  
   

@@ -38,13 +38,13 @@ With Dynamics 365 Customer Engagement (on-premises), version 9.1 your system adm
 The easiest way to tell whether you're on Unified Interface or the legacy web client is to look at the site map. In Unified Interface the site map is on the left.
 
 > [!div class="mx-imgBorder"]
-> ![Unified interface for on-prim](media/uci-onprem-interface.png "Unified interface for on-prem")
+> ![Unified interface for on-prim.](media/uci-onprem-interface.png "Unified interface for on-prem")
 
 
 The site map for the legacy web client is at the top.
 
 > [!div class="mx-imgBorder"]
-> ![Web client interface](media/web-client-interface.png "Web client interface")
+> ![Web client interface.](media/web-client-interface.png "Web client interface")
 
 
 ## Find apps in Unified Interface
@@ -55,12 +55,12 @@ Use the app-selector menu to switch between apps.
 2. Select the current app name.
 
    > [!div class="mx-imgBorder"]
-   > ![Select the current app name](media/access-site-map.png "Select the current app name")
+   > ![Select the current app name.](media/access-site-map.png "Select the current app name")
 
 3. On the **Apps** page select an app. You will only see apps for your organization.
 
    > [!div class="mx-imgBorder"]
-   > ![Select an app to use](media/access-site-map-1.png "Select an app to use")
+   > ![Select an app to use.](media/access-site-map-1.png "Select an app to use")
 
 ## Find apps in the legacy web client
 

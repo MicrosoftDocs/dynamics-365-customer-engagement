@@ -51,7 +51,7 @@ Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm]
 ## Dashboard components and FormXML elements  
  The dashboard components are displayed in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] based on the values specified in the FormXML. The following image shows an example of a dashboard. Each dashboard can include multiple tabs. Tabs are a vertical stack separating the body of the dashboard, and can be expanded or collapsed. A tab can contain multiple sections. Sections enable for grouping and layout of dashboard components. 
 
- ![Dashboard components layout](../media/crm-v5s-dashboards-components.png "Dashboard components layout")  
+ ![Dashboard components layout.](../media/crm-v5s-dashboards-components.png "Dashboard components layout")  
 
 <a name="SupportedFormXMLElements"></a>   
 ## FormXML elements supported for dashboards  

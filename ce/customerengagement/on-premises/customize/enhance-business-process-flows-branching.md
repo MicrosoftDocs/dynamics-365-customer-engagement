@@ -25,7 +25,7 @@ Business process flows guide you through various stages of sales, marketing, or 
   
  The following diagram shows a business process flow with branches.  
   
- ![Flowchart showing the steps in the car sales process](../customize/media/example-car-sales-flow-chart.png "Flowchart showing the steps in the car sales process")  
+ ![Flowchart showing the steps in the car sales process.](../customize/media/example-car-sales-flow-chart.png "Flowchart showing the steps in the car sales process")  
   
 <a name="Points"></a>   
 ## What you need to know when designing business process flows with branches  
@@ -80,23 +80,23 @@ Business process flows guide you through various stages of sales, marketing, or 
 > [!TIP]
 >  You can add another condition on the “no” path of an existing condition tile to create more complex branching.  
   
- ![Image showing the created Qualify stage](../customize/media/example-car-sales-qualify-stage.JPG "Image showing the created Qualify stage")  
+ ![Image showing the created Qualify stage.](../customize/media/example-car-sales-qualify-stage.JPG "Image showing the created Qualify stage")  
   
  If the **Car preference** = **New**, the process branches out to the **New Car Sales** stage, otherwise, it jumps to the **Pre-Owned Car Sales** stage, in the second branch, as shown below.  
   
- ![Image showing the New Car Sale stage](../customize/media/example-car-sales-new-stage-1.JPG "Image showing the New Car Sale stage")  
+ ![Image showing the New Car Sale stage.](../customize/media/example-car-sales-new-stage-1.JPG "Image showing the New Car Sale stage")  
   
- ![Pre&#45;owned car sales stage](../customize/media/example-car-sales-pre-owned-stage.JPG "Pre-owned car sales stage")  
+ ![Pre&#45;owned car sales stage.](../customize/media/example-car-sales-pre-owned-stage.JPG "Pre-owned car sales stage")  
   
  After completing all the steps in the **New Car Sales** stage or **Pre-Owned Car Sales** stage, the process returns back to the main flow, with the **Deliver Quote** stage.  
   
- ![Deliver Quote stage](../customize/media/example-car-sales-deliver-quote-stage.JPG "Deliver Quote stage")  
+ ![Deliver Quote stage.](../customize/media/example-car-sales-deliver-quote-stage.JPG "Deliver Quote stage")  
   
 <a name="PreventInformation"></a>   
 ## Prevent information disclosure  
  Consider a business process flow with branches for processing a loan request at a bank, as shown below. The custom entities used in the stages are shown in parenthesis.  
   
- ![Flow chart showing the steps in an example process to prevent information disclosure](../customize/media/example-car-sales-flow-chart-process-prevent-information-disclosure.png "Flow chart showing the steps in an example process to prevent information disclosure")  
+ ![Flow chart showing the steps in an example process to prevent information disclosure.](../customize/media/example-car-sales-flow-chart-process-prevent-information-disclosure.png "Flow chart showing the steps in an example process to prevent information disclosure")  
   
  In this scenario, the bank loan officer needs access to the Request record, but she shouldn’t have any visibility into the investigation of the request. At first glance, it looks that we can easily do this by assigning the loan officer a security role that specifies no access to the Investigation entity. But, let’s look at the example in more detail and see if this is really true.  
   
@@ -106,11 +106,11 @@ Business process flows guide you through various stages of sales, marketing, or 
   
  In this process flow, the loan officer will be able to see the Fraud Investigation and Legal Action stages, which constitutes an improper information disclosure. We recommend paying special attention to the information that may become disclosed due to branching. In our example, split the process into two separate processes, one for the request processing and another one for the fraud investigation, to prevent the information disclosure. The process for the loan officer will look like this:  
   
- ![Flow chart showing additional steps in the process to prevent information disclosure](../customize/media/example-car-sales-flow-chart-additional-steps-prevent-information-disclosure.png "Flow chart showing additional steps in the process to prevent information disclosure")  
+ ![Flow chart showing additional steps in the process to prevent information disclosure.](../customize/media/example-car-sales-flow-chart-additional-steps-prevent-information-disclosure.png "Flow chart showing additional steps in the process to prevent information disclosure")  
   
  The process for the investigation will be self-contained and include the following stages:  
   
- ![Flow chart showing steps for an investigation process for information disclosure cases](../customize/media/example-car-sales-flow-chart-investigation-information-disclosure-case.png "Flow chart showing steps for an investigation process for information disclosure cases")  
+ ![Flow chart showing steps for an investigation process for information disclosure cases.](../customize/media/example-car-sales-flow-chart-investigation-information-disclosure-case.png "Flow chart showing steps for an investigation process for information disclosure cases")  
   
  You will need to provide a workflow to synchronize the Approve/Deny decision from the Investigation record to the Request record.  
   

@@ -56,7 +56,7 @@ Remove apps that are obsolete in your organization.
 3. Select the app that you want to delete, and then select **Delete** on the command bar.
 
    > [!div class="mx-imgBorder"] 
-   > ![Delete an app](media/app-module-solution-window.png "Delete an app")
+   > ![Delete an app.](media/app-module-solution-window.png "Delete an app")
 
 
 4. In the confirmation message that appears, select **Delete**.

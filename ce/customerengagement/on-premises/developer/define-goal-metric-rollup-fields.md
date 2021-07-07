@@ -48,7 +48,7 @@ To specify the goal metric type, participating entities, and whether you track a
   
  Each goal can track actual, in-progress, and custom data as shown in the following diagram.  
   
- ![Goal types](media/goal-types.png "Goal types")  
+ ![Goal types.](media/goal-types.png "Goal types")  
   
  To track actual, in-progress, and custom data, you use the goal entity attributes, referred to as rollup fields. For example, if an opportunity is closed as “Won”, an amount of revenue generated from this opportunity can be rolled into the actual money amount rollup field. Or, if an opportunity is “Open”, the opportunity’s estimated revenue can be added to the in-progress money amount rollup field. The following table lists the relationship between the goal metric type and the rollup fields available for each type.  
   

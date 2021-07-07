@@ -34,12 +34,12 @@ Whether consent is checked before sending emails and text messages depends on th
 
 ## How consent is respected for emails
 
-When creating a new email message, one of the parameters you need to set up is **Message designation**. To set up message designation, select the gear icon ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") in the email header. This will open the **Email header** settings pane on the right side of the page. Navigate to the **Email settings** section.
+When creating a new email message, one of the parameters you need to set up is **Message designation**. To set up message designation, select the gear icon ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") in the email header. This will open the **Email header** settings pane on the right side of the page. Navigate to the **Email settings** section.
 
 The message designation is a dropdown field in which you can choose **Commercial** or **Transactional**. By default, new email messages are designated as commercial.
 
 > [!div class="mx-imgBorder"]
-> ![Message designation settings screenshot](media/real-time-marketing-message-designation2.png "Message designation settings screenshot")
+> ![Message designation settings screenshot.](media/real-time-marketing-message-designation2.png "Message designation settings screenshot")
 
 As required for commercial email, a **Company Address** placeholder and an **Unsubscribe** link are added to the email footer automatically. The company address reflects the value set on the **Compliance** page. The unsubscribe link leads to the Preference page, where customers can review and change communication preferences.
 
@@ -62,7 +62,7 @@ When you initially install real-time marketing, the real-time marketing consent 
 - Load consent information that was already captured for contacts from previous Dynamics 365 Marketing settings.
 
 > [!div class="mx-imgBorder"]
-> ![Email and text consent entry screenshot](media/real-time-marketing-email-text-consent2.png "Email and text consent entry screenshot")
+> ![Email and text consent entry screenshot.](media/real-time-marketing-email-text-consent2.png "Email and text consent entry screenshot")
 
 ## Loading consent from contacts
 
@@ -71,7 +71,7 @@ To load consent from contacts, an administrator must select **Load consent** fro
 The following message will appear:
 
 > [!div class="mx-imgBorder"]
-> ![Load consent records screenshot](media/real-time-marketing-load-consent.png "Load consent records screenshot")
+> ![Load consent records screenshot.](media/real-time-marketing-load-consent.png "Load consent records screenshot")
 
 To load consent from contacts, the following prerequisites must be met:
 
@@ -94,7 +94,7 @@ You can keep a record of all consent-related changes per contact record (who mad
 
 To access auditing features:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 2. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Auditing**.
 3. Select **Global audit settings**, then select the **Start auditing** checkbox. Begin the audit by selecting **OK**.
 4. Select **Entity and Field Audit Settings**. In the left column, in the list of fields, select **Contact Point Consent**. Ensure that auditing for this field is switched on.

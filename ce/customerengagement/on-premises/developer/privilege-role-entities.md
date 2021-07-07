@@ -33,7 +33,7 @@ A *privilege* is a permission to perform an action on a specific entity type in 
   
  The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Key to Entity Diagrams](key-entity-diagrams.md)  
   
- ![Privilege and role entity relationship diagram](media/role.png "Privilege and role entity relationship diagram")  
+ ![Privilege and role entity relationship diagram.](media/role.png "Privilege and role entity relationship diagram")  
   
 ### See also  
  [Role Entity](entities/role.md)   

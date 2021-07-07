@@ -56,7 +56,7 @@ Follow these steps to individually configure the sitemap for forecast grid and f
     e.	(Optional) If required, enter unique IDs for the forecast grid and forecast configuration. You can also use the default IDs.
     
        > [!div class="mx-imgBorder"]
-       > ![Properties tab of sitemap designer](media/forecast-sitemap-properties.png "Properties tab of sitemap designer")
+       > ![Properties tab of sitemap designer.](media/forecast-sitemap-properties.png "Properties tab of sitemap designer")
 
 6.	Save and close the sitemap designer page.
 

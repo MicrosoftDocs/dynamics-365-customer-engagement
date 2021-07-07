@@ -301,12 +301,12 @@ By default, server-based authentication between Customer Engagement (on-premises
 2. On the toolbar, select **…**, and then select **Form Editor**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open editor for user form](media/open-form-editor.png "Open editor for user form")
+   > ![Open editor for user form.](media/open-form-editor.png "Open editor for user form")
 
 3. Find the **SharePoint Email Address** field in the **Field Explorer** pane and drag and drop it on the **User Information** section of the user form.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Add SharePoint email address field on user form](media/add-sharepoint-email-user-form.png "Add SharePoint email address field on user form")
+   > ![Add SharePoint email address field on user form.](media/add-sharepoint-email-user-form.png "Add SharePoint email address field on user form")
 
 4. On the form editor toolbar select **Save**, and then select **Publish**. 
 5. Close the form editor and refresh the web browser tab to display the newly added field on the user record. 

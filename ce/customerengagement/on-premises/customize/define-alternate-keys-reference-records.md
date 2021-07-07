@@ -50,7 +50,7 @@ To learn more about alternate keys programmability, see:
 
 The example below uses the Account Number field in the alternate key definition.  
   
- ![Define alternate key for the account entity](../customize/media/cust-alternatekeys-accountkey.PNG "Define alternate key for the account entity")  
+ ![Define alternate key for the account entity.](../customize/media/cust-alternatekeys-accountkey.PNG "Define alternate key for the account entity")  
   
 > [!NOTE]
 >  You can define up to five different keys for an entity.  

@@ -29,7 +29,7 @@ This topic explains how to fix common issues that may occur with SharePoint docu
 
 If **Documents** is missing from entities such as account, use the following to restore.
 
-![Documents](media/crm-itpro-crmo365tg-seldoc.png "Documents")
+![Documents.](media/crm-itpro-crmo365tg-seldoc.png "Documents")
 
 1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 Customer Engagement (on-premises).
     Check your security role:
@@ -50,7 +50,7 @@ For more information, see [Enable SharePoint document management for specific en
 
 If the Documents associated grid is missing, use the following to restore.
 
-![Documents associated grid](../basics/media/list-of-documents-in-onedrive.png "Documents associated grid")
+![Documents associated grid.](../basics/media/list-of-documents-in-onedrive.png "Documents associated grid")
 
 The most common cause for the Documents associated grid not loading is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
 
@@ -70,7 +70,7 @@ The most common cause for the Documents associated grid not loading is the corru
 11. Search LayoutXml of Document associated grid (search for *Document Associated*).
     
     > [!div class="mx-imgBorder"] 
-    > ![Search for Document Associated](media/sharepoint-document-associated-grid.png "Search for Document Associated")
+    > ![Search for Document Associated.](media/sharepoint-document-associated-grid.png "Search for Document Associated")
 
 12. Make the changes as below for the LayoutXML section:
 
@@ -174,7 +174,7 @@ This error message can occur when the SharePoint site that is configured with do
 2. Open the **SharePoint Site** record that has been renamed and enter the **Absolute URL** with new URL.
 
     > [!div class="mx-imgBorder"] 
-    > ![Enter SharePoint relative URL](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
+    > ![Enter SharePoint relative URL.](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
 
 3. Select **Save & Close**.
 

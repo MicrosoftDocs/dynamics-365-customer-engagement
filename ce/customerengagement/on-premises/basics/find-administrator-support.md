@@ -39,7 +39,7 @@ You may occasionally run across issues that require consultation with your Dynam
   
 6. Enter **System Administrator** in the box that says **Enter Text**. At this point, your screen should look like this:  
   
-   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
+   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises).](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
   
 7. Choose the **Results** button on the ribbon.  
   
@@ -71,7 +71,7 @@ You may occasionally run across issues that require consultation with your Dynam
   
 6. Enter **System Administrator** in the box that says **Enter Text**. At this point, your screen should look like this:  
   
-   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
+   ![Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises).](../basics/media/find-admnistrator-advanced-find-complete.png "Advanced Find dialog box in Dynamics 365 Customer Engagement (on-premises)")  
   
 7. Choose the **Results** button on the ribbon.  
   

@@ -56,7 +56,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INC
   
 2. Select **Active Email Server Profiles** and check that the **Microsoft Exchange Online** profile is in the list.  
   
-   ![Verify the Microsoft Exchange Online profile](../admin/media/exchange-online-profile.png "Verify the Microsoft Exchange Online profile")  
+   ![Verify the Microsoft Exchange Online profile.](../admin/media/exchange-online-profile.png "Verify the Microsoft Exchange Online profile")  
   
     If the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile is missing, verify you have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] subscription and that it exists in the same tenant as your Customer Engagement apps subscription.  
   
@@ -79,7 +79,7 @@ With both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INC
   
    - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router  
   
-   ![System Settings for server-side synchronization](../admin/media/exchange-online-sss-settings.png "System Settings for server-side synchronization")  
+   ![System Settings for server-side synchronization.](../admin/media/exchange-online-sss-settings.png "System Settings for server-side synchronization")  
   
 3. Select **OK**.  
   
@@ -102,7 +102,7 @@ All new users will have these settings applied to their mailbox.
   
 3. Select all the mailboxes that you want to associate with the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] profile, select **Apply Default Email Settings**, verify the settings, and then select **OK**.  
   
-   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")  
+   ![Apply default email settings.](../admin/media/apply-default-email-settings.png "Apply default email settings")  
   
     By default, the mailbox configuration is tested and the mailboxes are enabled when you select **OK**.  
   
@@ -137,7 +137,7 @@ To approve emails for Dynamics 365 for Customer Engagement apps, a Dynamics 365 
 
 Decide which approach you want your organization to follow for mailbox approval.
 
-![Decide on mailbox approval approach](media/approval-flow-chart.png "Decide on mailbox approval approach")
+![Decide on mailbox approval approach.](media/approval-flow-chart.png "Decide on mailbox approval approach")
 
 ### Permission model
 The following table describes the permissions required to approve emails.
@@ -205,7 +205,7 @@ The following table describes the permissions required to approve emails.
 <sup>2</sup> We are updating for Customer Engagement Online/Exchange Online, for Customer Engagement version 9.1.0.5805 or later.  <br />
 <sup>3</sup> We will be updating for Customer Engagement Online/Exchange On-premises. Check back for version information.
 
- To determine your version, sign in to Customer Engagement apps, and in the upper-right corner of the screen, select the **Settings** button (![User profile Settings button](media/user-profile-settings-button.gif)) > **About**.  
+ To determine your version, sign in to Customer Engagement apps, and in the upper-right corner of the screen, select the **Settings** button (![User profile Settings button.](media/user-profile-settings-button.gif)) > **About**.  
 
 ### Require and configure mailbox approval 
 
@@ -221,7 +221,7 @@ To manually assign the **Approve Email Addresses for Users or Queues** privilege
 3. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses for Users or Queues**.
   
 > [!div class="mx-imgBorder"] 
-> ![Approve Email Address for User or Queues](media/approve-email-address-for-user-queues.png "Approve Email Address for User or Queues")
+> ![Approve Email Address for User or Queues.](media/approve-email-address-for-user-queues.png "Approve Email Address for User or Queues")
 
 #### Approve mailboxes
 
@@ -244,7 +244,7 @@ Admins, as described in the Permission model table, can change the settings so m
 3. Select **OK**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Email processing for unapproved user and queues](media/email-processing-for-unapproved.png "Email processing for unapproved user and queues")   
+   > ![Email processing for unapproved user and queues.](media/email-processing-for-unapproved.png "Email processing for unapproved user and queues")   
 
 <a name="BKMK_TestConfiguration"></a>   
 
@@ -257,7 +257,7 @@ Admins, as described in the Permission model table, can change the settings so m
 3. Select the mailboxes you want to test, and then select **Test & Enable Mailbox**.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Test and enable mailboxes](media/test-enable-mailbox85.png "Test and enable mailboxes")
+   > ![Test and enable mailboxes.](media/test-enable-mailbox85.png "Test and enable mailboxes")
   
    This tests the incoming and outgoing email configuration of the selected mailboxes and enables them for email processing. If an error occurs in a mailbox, an alert is shown on the Alerts wall of the mailbox and the profile owner. Depending on the nature of the error, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps tries to process the email again after some time or disables the mailbox for email processing.  
   

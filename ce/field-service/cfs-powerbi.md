@@ -68,7 +68,7 @@ search.app:
   
 6. Copy the IP address when you see this message.  
   
-   ![Microsoft SQL message](../field-service/media/do-not-use3.png "Microsoft SQL message")  
+   ![Microsoft SQL message.](../field-service/media/do-not-use3.png "Microsoft SQL message")  
   
 7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   

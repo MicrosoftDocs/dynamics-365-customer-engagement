@@ -89,7 +89,7 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
    $CRMOrgs  
    ```  
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 Customer Engagement (on-premises) organization information](../media/xrmtooling-powershell-1.png)  
+   > ![Dynamics 365 Customer Engagement (on-premises) organization information.](../media/xrmtooling-powershell-1.png)  
   
    > [!TIP]
    > You can use the variable that was used to store the retrieved  Dynamics 365 Customer Engagement (on-premises) organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to  Dynamics 365 Customer Engagement (on-premises). To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  
@@ -143,7 +143,7 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
    ```  
   
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 Customer Engagement connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 Customer Engagement connection information and status")  
+   > ![Dynamics 365 Customer Engagement connection information and status.](../media/xrm-tooling-powershell-2.png "Dynamics 365 Customer Engagement connection information and status")  
   
 ### See also
 

@@ -94,7 +94,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
 ### Troubleshooting the Exchange Server (Hybrid) profile connection  
  If you’ve run **Test Connection** and have issues with the Exchange Server (Hybrid) profile connection, use the information in the **Test Connection** dialog box to diagnose and fix the connection.  
 
- ![Review the error messages](../admin/media/server-side-sync-exchange-hybrid-troubleshoot.png "Review the error messages")  
+ ![Review the error messages.](../admin/media/server-side-sync-exchange-hybrid-troubleshoot.png "Review the error messages")  
 
  In this case, there’s a problem with Auto Discover. The admin should review the user name and password used for **Authentication Using Impersonation** for the Exchange Server (Hybrid) profile.  
 
@@ -118,7 +118,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
 
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
 
-   ![System Settings for server-side synchronization](../admin/media/exchange-online-server-side-sync-settings-hybrid.png "System Settings for server-side synchronization")  
+   ![System Settings for server-side synchronization.](../admin/media/exchange-online-server-side-sync-settings-hybrid.png "System Settings for server-side synchronization")  
 
 3. Click **OK**.  
 
@@ -138,7 +138,7 @@ With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you ca
 
 3. Select all the mailboxes that you want to associate with the [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.  
 
-   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")  
+   ![Apply default email settings.](../admin/media/apply-default-email-settings.png "Apply default email settings")  
 
     By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.  
 

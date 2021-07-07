@@ -44,21 +44,21 @@ To use survey data in segments:
 
     Interaction-based segment Dynamics 365 Customer Voice options (these may still be listed as Forms Pro options in the menu):
 
-    ![Interaction-based segment Dynamics 365 Customer Voice](media/forms-pro-interaction2.png "Interaction based segment Dynamics 365 Customer Voice")
+    ![Interaction-based segment Dynamics 365 Customer Voice.](media/forms-pro-interaction2.png "Interaction based segment Dynamics 365 Customer Voice")
 
     Profile-based segment Dynamics 365 Customer Voice options:
 
-    ![Profile-based segment Dynamics 365 Customer Voice](media/customer-voice-profile.png "Profile based segment Dynamics 365 Customer Voice")
+    ![Profile-based segment Dynamics 365 Customer Voice.](media/customer-voice-profile.png "Profile based segment Dynamics 365 Customer Voice")
 
 ## Dynamics 365 Customer Voice survey links in email messages
 
 To add a Dynamics 365 Customer Voice survey to an email message, go to the [email content designer](email-design.md). Then go to **Toolbox** > **Advanced elements** > **Dynamics 365 Customer Voice**. Drag and drop the **Customer Voice survey** element into your email.
 
-![Drag and drop Dynamics 365 Customer Voice into an email](media/customer-voice-email-drag.png "Drag and drop Dynamics 365 Customer Voice into an email")
+![Drag and drop Dynamics 365 Customer Voice into an email.](media/customer-voice-email-drag.png "Drag and drop Dynamics 365 Customer Voice into an email")
 
 In the **Properties** tab, choose the survey you would like to use.
 
-![Choose an email survey](media/customer-voice-choose-survey2.png "Choose an email survey")
+![Choose an email survey.](media/customer-voice-choose-survey2.png "Choose an email survey")
 
 After you choose a survey, you can customize the email styling just as you would with any other email message.
 
@@ -72,21 +72,21 @@ Marketing gives you the option to automate customer journey actions based on Dyn
 To add a Dynamics 365 Customer Voice survey to customer journey:
 1. Go to the [customer journey designer](customer-journeys-create-automated-campaigns.md). Then create or choose an existing customer journey with an email tile. Make sure the email tile is associated with an existing email.
 
-    ![Choose a customer journey with an email tile](media/customer-voice-email-journey.png "Choose a customer journey with an email tile")
+    ![Choose a customer journey with an email tile.](media/customer-voice-email-journey.png "Choose a customer journey with an email tile")
 
 1. Select the email tile. In the right pane, go to **Email elements** > **+ Add item** and select **Customer Voice survey** in the dropdown menu.
 
-    ![Add a Dynamics 365 Customer Voice survey](media/customer-voice-add-survey.png "Add a Dynamics 365 Customer Voice survey")
+    ![Add a Dynamics 365 Customer Voice survey.](media/customer-voice-add-survey.png "Add a Dynamics 365 Customer Voice survey")
 
 1. In the **Email elements** section, select a Dynamics 365 Customer Voice survey from the lookup field.
 
-      ![Select a Dynamics 365 Customer Voice survey](media/customer-voice-select-survey.png "Select a Dynamics 365 Customer Voice survey")
+      ![Select a Dynamics 365 Customer Voice survey.](media/customer-voice-select-survey.png "Select a Dynamics 365 Customer Voice survey")
 
 1. In the **Email elements** section, check the **is anonymous** box if you do not want to distribute a named survey.
 
 1. You can add an If/then tile to further understand how contacts engage with the survey.
 
-    ![If/then tile customer journey survey](media/customer-voice-if-then2.png "If/then tile customer journey survey")
+    ![If/then tile customer journey survey.](media/customer-voice-if-then2.png "If/then tile customer journey survey")
 
     You can use following If/then options:
     - If/then based on source (email or survey)

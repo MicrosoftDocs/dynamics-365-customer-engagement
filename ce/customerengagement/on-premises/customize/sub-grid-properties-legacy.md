@@ -24,7 +24,7 @@ You can configure a sub-grid on a form to display a list of records or a chart. 
 
 You can access **Sub-Grid properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select **Sub-Grid** to view sub-grid properties.
 
-![sub-grid properties](media/sub-grid-properties.png)
+![sub-grid properties.](media/sub-grid-properties.png)
 
 
 |      Tab       |           Property            |                                                                                                                                                                                                                                                                                                          Description                                                                                                                                                                                                                                                                                                           |
@@ -52,14 +52,14 @@ You can access **Sub-Grid properties** in solution explorer. Under **Components*
 
 
 ## Show list behavior  
- When displaying a list in forms with the [Updated forms](main-form-presentations.md#updated-forms), each sub-grid displays the **Open View** button ![Open view button](../customize/media/crm-itpro-cust-openview.PNG "Open view button") in the top right corner when the entity is also displayed as one of the entities included in the navigation area of the form editor. Choosing this button will open the view. The behavior will change depending on the option chosen for the **Records** property.  
+ When displaying a list in forms with the [Updated forms](main-form-presentations.md#updated-forms), each sub-grid displays the **Open View** button ![Open view button.](../customize/media/crm-itpro-cust-openview.PNG "Open view button") in the top right corner when the entity is also displayed as one of the entities included in the navigation area of the form editor. Choosing this button will open the view. The behavior will change depending on the option chosen for the **Records** property.  
 
  When you select **Only Related Records** the view will open using one of the associated views in the same window. To return to the form, use the back button or choose the current record primary name value in the navigation bar.  
 
  When you select **All Record Types** the view will open in a new window.  
 
 ## Add record behavior  
- When displaying a list in forms with the [Updated forms](main-form-presentations.md#updated-forms), each sub-grid displays the **Add record** button ![Add button](../customize/media/crm-itpro-cust-subgridadd.PNG "Add button") in the top right side of the sub-grid. Choosing this button will allow you to add a record. This behavior will change depending on the option chosen for the **Records** property and if the lookup is for activity records.  
+ When displaying a list in forms with the [Updated forms](main-form-presentations.md#updated-forms), each sub-grid displays the **Add record** button ![Add button.](../customize/media/crm-itpro-cust-subgridadd.PNG "Add button") in the top right side of the sub-grid. Choosing this button will allow you to add a record. This behavior will change depending on the option chosen for the **Records** property and if the lookup is for activity records.  
 
  When you select **Only Related Records** the default behavior is the behavior to add existing records. People see an in-line lookup to search for an existing record first. This helps prevent creating duplicate records.  If they can’t find an existing record, they can choose the **New** option. When a new record is created any of the field mappings defined in the relationship will be applied. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Map entity fields](map-entity-fields.md)  
 
@@ -68,7 +68,7 @@ You can access **Sub-Grid properties** in solution explorer. Under **Components*
  If the sub-grid displays activities, people will first need to choose the type of activity and then they will see the “add new record” behavior.  
 
 ## Delete record behavior  
- When you select a record in a sub-grid the **Delete** button ![Sublist delete icon](../customize/media/crm-itpro-cust-subgriddelete.PNG "Sublist delete icon") appears on the right side of the row. The behavior of this delete action is different depending on the type of relationship with the current entity.  
+ When you select a record in a sub-grid the **Delete** button ![Sublist delete icon.](../customize/media/crm-itpro-cust-subgriddelete.PNG "Sublist delete icon") appears on the right side of the row. The behavior of this delete action is different depending on the type of relationship with the current entity.  
 
  When the sub-grid uses a 1:N (one-to-many) relationship, the normal record delete behavior is to show a confirmation dialog before deleting the record.  
 

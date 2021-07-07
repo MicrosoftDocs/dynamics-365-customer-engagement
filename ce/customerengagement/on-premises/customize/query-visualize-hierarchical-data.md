@@ -40,15 +40,15 @@ For some entities, such as account and user, the visualizations are provided out
  The following examples illustrate various scenarios for querying hierarchies:  
  Query account hierarchy  
   
- ![Query accounts in the account hierarchy](../customize/media/query-accounts.png "Query accounts in the account hierarchy")  
+ ![Query accounts in the account hierarchy.](../customize/media/query-accounts.png "Query accounts in the account hierarchy")  
   
  Query account hierarchy, including related activities  
   
- ![Query account's related activities](../customize/media/query-account-related-activities.png "Query account's related activities")  
+ ![Query account's related activities.](../customize/media/query-account-related-activities.png "Query account's related activities")  
   
  Query account hierarchy, including related opportunities  
   
- ![Query account's related opportunities](../customize/media/query-account-related-opportunities.png "Query account's related opportunities")  
+ ![Query account's related opportunities.](../customize/media/query-account-related-opportunities.png "Query account's related opportunities")  
   
  To query the data as a hierarchy, you must set one of the entity’s one-to-many (1:N) self-referential relationships as hierarchical. To turn the hierarchy on:  
   
@@ -66,11 +66,11 @@ For some entities, such as account and user, the visualizations are provided out
 ## Visualize hierarchical data  
  The system entities that have visualizations available out-of-the-box include `Account`, `Position`, `Product`, and `User`. In the grid view of these entities, you can see the icon depicting the hierarchy chart, to the left of the record name. The hierarchy icon isn’t present for all records by default. The icon is shown for the records that have a parent record, a child record, or both.  
   
- ![Active accounts](../customize/media/cust-hs-active-account.png "Active accounts")  
+ ![Active accounts.](../customize/media/cust-hs-active-account.png "Active accounts")  
   
  If you select the hierarchy icon, you can view the hierarchy, with the tree view on the left and the tile view on the right, as shown below:  
   
- ![Account tree and tile view](../customize/media/hierachy-security-accounts-tile-view.png "Account tree and tile view")  
+ ![Account tree and tile view.](../customize/media/hierachy-security-accounts-tile-view.png "Account tree and tile view")  
   
  A few other out-of the-box system entities can be enabled for a hierarchy. These entities include `Case`, `Contact`, `Opportunity`, `Order`, `Quote`, `Campaign`, and `Team`. All custom entities can be enabled for a hierarchy.  
   
@@ -89,26 +89,26 @@ For some entities, such as account and user, the visualizations are provided out
 ### Visualization example  
  Let’s look at an example of creating the visualization for a custom entity. We created a custom entity called new_Widget, created a (1:N) self-referential relationship **new_new_widget_new_widget** and marked it as hierarchical, as shown here.  
   
- ![Widget relationship definition](../customize/media/widget-relationship-definition.png "Widget relationship definition")  
+ ![Widget relationship definition.](../customize/media/widget-relationship-definition.png "Widget relationship definition")  
   
  Next, in the **Hierarchy Settings** grid view, we selected the **new_new_widget_new_widget** hierarchical relationship. In the form, we filled in the required fields. If you haven’t yet marked the (1:N) relationship as hierarchical, the link on the form will take you back to the relationship definition form, where you can mark the relationship as hierarchical.  
   
- ![Hierarchy settings](../customize/media/hierarchy-settings.png "Hierarchy settings")  
+ ![Hierarchy settings.](../customize/media/hierarchy-settings.png "Hierarchy settings")  
   
  For the **Quick View Form**, we created a Quick Form called **Widget Hierarchy Tile Form**. In this form, we added four fields to display in each tile.  
   
- ![Create quick form for widget](../customize/media/create-quickf-orm.png "Create quick form for widget")  
+ ![Create quick form for widget.](../customize/media/create-quickf-orm.png "Create quick form for widget")  
   
  After we completed the setup, we created two records: Standard Widget and Premium Widget. After making the Premium Widget a parent of the Standard Widget by using the lookup field, the new_Widget grid view depicted the hierarchy icons, as shown below:  
   
- ![Widget's hierarchy grid](../customize/media/widget-hierarchy-grid.png "Widget's hierarchy grid")  
+ ![Widget's hierarchy grid.](../customize/media/widget-hierarchy-grid.png "Widget's hierarchy grid")  
   
 > [!TIP]
 >  The hierarchy icons don’t appear in the record grid view until the records are paired in the parent – child relationship.  
   
  Choosing the hierarchy icon displays the new_Widget hierarchy with the tree view on the left and the tile view on the right, showing two records. Each tile contains four fields that we provided in the **Widget Hierarchy Tile Form**.  
   
- ![Widget's tree and tiles views](../customize/media/widget-tree-tiles.png "Widget's tree and tiles views")  
+ ![Widget's tree and tiles views.](../customize/media/widget-tree-tiles.png "Widget's tree and tiles views")  
   
 ### See also  
 [Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)

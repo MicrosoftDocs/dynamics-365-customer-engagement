@@ -37,7 +37,7 @@ In Dynamics 365 Field Service, a purchase order (PO) is created to add inventory
   >  In the **Details** section, you can specify a lookup to a work order. Also, from a work order you can go to **Related** > **Purchase Orders**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a purchase order](./media/inventory-purchase-order.png)
+> ![Screenshot of a purchase order.](./media/inventory-purchase-order.png)
 
 ### Ship via
 
@@ -54,7 +54,7 @@ When you create a purchase order, you can track how the order is shipped. This h
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of purchase order products](./media/inventory-purchase-order-products.png)
+> ![Screenshot of purchase order products.](./media/inventory-purchase-order-products.png)
 
 Back on the purchase order, change the **System Status** to **Submitted**.
 
@@ -77,7 +77,7 @@ When the order arrives, you can create a receipt.
 3.  Select **Save**.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a purchase order receipt](./media/inventory-purchase-order-receipt.png)
+> ![Screenshot of a purchase order receipt.](./media/inventory-purchase-order-receipt.png)
 
     
 ## Step 5: Add purchase order receipt products  

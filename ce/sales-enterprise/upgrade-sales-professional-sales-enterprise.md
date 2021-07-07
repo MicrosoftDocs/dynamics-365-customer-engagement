@@ -29,12 +29,12 @@ The upgrade process involves the following steps:
 2.  In the navigation pane, select **Purchase Services**, and then select the Dynamics 365 Sales Enterprise Edition tile. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales Enterprise tile](media/select-dynamics365-sales-enterprise-tile.png "Select Dynamics 365 Sales Enterprise tile") 
+    > ![Select Dynamics 365 Sales Enterprise tile.](media/select-dynamics365-sales-enterprise-tile.png "Select Dynamics 365 Sales Enterprise tile") 
 
 3.  Select **Buy**, and then follow the steps to purchase new licenses. 
 
     > [!div class="mx-imgBorder"]
-    > ![Select Buy](media/buy-sales-enterprise-edition.png "Select Buy") 
+    > ![Select Buy.](media/buy-sales-enterprise-edition.png "Select Buy") 
 
 
 
@@ -47,7 +47,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 2.	Select multiple users, and then select **Manage product licenses**. 
     
     > [!div class="mx-imgBorder"]
-    > ![Assign licenses to multiple users](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
+    > ![Assign licenses to multiple users.](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 
@@ -69,12 +69,12 @@ To install the Sales Enterprise solution on a Dynamics 365 environment:
 3.	Open the environment in which you want to install the Sales Enterprise solution, and select **Dynamics 365 apps**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select Dynamics 365 apps resource](../sales-professional/media/resources-select-dynamics-365-apps.png "Select Dynamics 365 apps resource")
+   > ![Select Dynamics 365 apps resource.](../sales-professional/media/resources-select-dynamics-365-apps.png "Select Dynamics 365 apps resource")
 
 4.	On the command bar, select **Install app**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select Install app](../sales-professional/media/select-install-app-dynamics365-apps-resource.png "Select Install app")
+   > ![Select Install app.](../sales-professional/media/select-install-app-dynamics365-apps-resource.png "Select Install app")
 
 5. In the **Install Dynamics 365 apps** panel, select 'Dynamics 365 Sales, Enterprise Edition app', and select **Next**.
 

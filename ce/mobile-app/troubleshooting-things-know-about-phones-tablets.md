@@ -30,23 +30,23 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
 
 ### Get the session ID from the Setting menu
 
-1. From the navigation bar, select ![Sitemap toggle button](media/sitemap-button.png "Sitemap toggle button") and then the gear icon (**Settings**).
+1. From the navigation bar, select ![Sitemap toggle button.](media/sitemap-button.png "Sitemap toggle button") and then the gear icon (**Settings**).
 
    > [!div class="mx-imgBorder"]
-   > ![Sitemap expanded screenshot, gear icon is at the bottom left](media/sessionid-uci-step-1.png)
+   > ![Sitemap expanded screenshot, gear icon is at the bottom left.](media/sessionid-uci-step-1.png)
 
 2. Select **Session details** (at the bottom of the menu) and then you will see the **Session ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Settings menu screenshot, session details is under the general category](media/sessionid-uci-step-2.png)
-   > ![Session details screenshot, session id is in the middle of the page](media/sessionid-uci-step-3.png)
+   > ![Settings menu screenshot, session details is under the general category.](media/sessionid-uci-step-2.png)
+   > ![Session details screenshot, session id is in the middle of the page.](media/sessionid-uci-step-3.png)
 
 ### Get the session ID from the sign in screen
 
 - On the sign in screen, select the clipboard icon and then select **Copy session ID**.
 
    > [!div class="mx-imgBorder"]
-   > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item](media/sessionid-login-step.jpg)
+   > ![Login screen screenshot, the clipboard menu is expected, copy session id is the second item.](media/sessionid-login-step.jpg)
    
    
 ## Error: On iOS 14, canvas embedding, Power BI dashboards or iframes relying on cookies do not work.
@@ -165,7 +165,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
  Access the **Active** users section in the admin center and verify you have a **Dynamics 365 Customer Engagement Plan** license assigned to your user record.  
   
    > [!div class="mx-imgBorder"]
-   > ![License](media/customer_engagement_lic.png "Dynamics 365 Customer Engagement Plan License")  
+   > ![License.](media/customer_engagement_lic.png "Dynamics 365 Customer Engagement Plan License")  
   
   
 ## Error message: Sorry, something went wrong while initializing the app. Please try again, or restart the app  

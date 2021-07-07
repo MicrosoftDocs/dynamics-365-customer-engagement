@@ -66,7 +66,7 @@ Use the configuration class hierarchy to specify the required connection data fo
 
  The following diagram shows the public members of the configuration class hierarchy.  
 
- ![Dynamics 365 Customer Engagement Web API Helper Library&#45;Configuration Class Diagram](../media/web-api-helper-library-configuration-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Configuration Class Diagram")  
+ ![Dynamics 365 Customer Engagement Web API Helper Library&#45;Configuration Class Diagram.](../media/web-api-helper-library-configuration-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-Configuration Class Diagram")  
 
  **Configuration class**  
 

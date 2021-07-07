@@ -160,7 +160,7 @@ This is the opportunity to rethink the experience in the context of business pro
 -   Provide the **Read** privilege for **Model-driven app** in the **Customization** tab in the **Security Role** dialog box.
 
 -   Enable the **Enable only the Unified Interface** mode if your users don’t need to use the legacy web client. When **Enable only the Unified Interface**is on, all legacy Dynamics 365 Customer Engagement apps such as Dynamics 365 - custom, open in Unified Interface.  Notice that system administrators can still access administration features by selecting **Settings** > **Advanced Settings**.
-   :::image type="content" source="media/use-only-unified.png" alt-text="Enable only the Unified Interface system setting":::
+   :::image type="content" source="media/use-only-unified.png" alt-text="Enable only the Unified Interface system setting.":::
 
 -   Create a simpler app URL. For example: https://\*.crm.contoso.com/apps/MyApp*
 

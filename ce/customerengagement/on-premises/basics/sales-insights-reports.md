@@ -34,7 +34,7 @@ Get a quick view of all the activities associated with opportunities such as pho
   
  When you run the report, choose **Show All** to get a detail view of all the activity. Activities can be grouped by owner or activity type, or by the record the activity is associated to.  
   
- ![Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/activities-report.png "Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/activities-report.png "Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="BKMK_ProgressGoals"></a>   
 ## Progress Against Goals report
@@ -43,7 +43,7 @@ The information in this report helps you see how your sales team is performing a
 > [!NOTE]
 >  The report is generated from data that is rolled up to the goals at a set time. If the data is not up-to-date, then wait until the next time the data is rolled up. For more information, contact your Dynamics 365 Customer Engagement (on-premises)admin.  
   
- ![Progress Against Goals Report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/progress-against-goals-report.png "Progress Against Goals Report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Progress Against Goals Report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/progress-against-goals-report.png "Progress Against Goals Report in Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="BKMK_SalesHistory"></a>   
 ## Sales History report
@@ -51,7 +51,7 @@ Use this report to see how your sales reps have performed and how much revenue t
   
  The report uses data from closed opportunities that were either won or lost and then calculates earned and lost revenue.  
   
- ![Sales History report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/sales-history-report.png "Sales History report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Sales History report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/sales-history-report.png "Sales History report in Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="BKMK_SalesPipeline"></a>   
 ## Sales Pipeline report
@@ -61,7 +61,7 @@ The report helps you see expected potential sales opportunities. The report disp
   
  When you run the report, on the chart, click **Show All** to get a detail view of the report.  
   
- ![Sales Pipeline Report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/sales-pipeline-report.png "Sales Pipeline Report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Sales Pipeline Report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/sales-pipeline-report.png "Sales Pipeline Report in Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="BKMK_LeadSource"></a>   
 ## Lead Source Effectiveness report
@@ -69,7 +69,7 @@ Find out which type of lead is most beneficial in helping you grow your business
   
  The report lists the percentage of qualified leads, and leads that generate revenue for each lead category.  
   
- ![Lead Source Effectiveness report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/lead-source-effectiveness.png "Lead Source Effectiveness report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Lead Source Effectiveness report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/lead-source-effectiveness.png "Lead Source Effectiveness report in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="BKMK_NeglectedLeads"></a>   
 ## Neglected Leads report
@@ -80,7 +80,7 @@ Use this report to have your sales team follow-up on leads that they haven’t c
 The report displays a chart of active leads that have had no activities or notes.   
 Click **Show All** to drill down into the report.  
   
- ![Neglected Leads Report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/neglected-leads-report.png "Neglected Leads Report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Neglected Leads Report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/neglected-leads-report.png "Neglected Leads Report in Dynamics 365 Customer Engagement (on-premises)")  
  
 ### See also  
  [Run a report](../basics/run-report.md)   

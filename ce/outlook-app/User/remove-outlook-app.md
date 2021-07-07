@@ -28,14 +28,14 @@ Follow these steps to remove  Dynamics 365 App for Outlook.
 1. In Outlook go to **Home** and then select **Get Add-ins**.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Go to the Get Add-ins menu](../media/get-addin-menu.png)  
+   > ![Go to the Get Add-ins menu.](../media/get-addin-menu.png)  
 
 2. On the Add-ins page, select **My add-ins**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Go to my add-ins](../media/my-addins.png "Go to my add-ins")  
+   > ![Go to my add-ins.](../media/my-addins.png "Go to my add-ins")  
 
-3. Go to the **Dynamics 365** add-in and select ![More actions](../media/more-outlook-button.png) **More actions** > **Remove**. 
+3. Go to the **Dynamics 365** add-in and select ![More actions.](../media/more-outlook-button.png) **More actions** > **Remove**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Select remove to delete the add-in](../media/remove-addin.png)  
+   > ![Select remove to delete the add-in.](../media/remove-addin.png)  

@@ -29,7 +29,7 @@ search.audienceType:
  You may have a view that you don’t want people to see. Depending on the type of view, you can either delete it or deactivate it.  
   
 ### Delete a view  
- You can delete any custom public view. Use the steps in [Access view definitions](../customize/accessing-view-definitions.md) to find the view you want to delete and use the ![Delete button](../customize/media/delete.gif "Delete button")**Delete** command. Once you verify that you really want to delete it, the view will be permanently deleted.  
+ You can delete any custom public view. Use the steps in [Access view definitions](../customize/accessing-view-definitions.md) to find the view you want to delete and use the ![Delete button.](../customize/media/delete.gif "Delete button")**Delete** command. Once you verify that you really want to delete it, the view will be permanently deleted.  
   
  If you don’t want to delete the view permanently, you can deactivate it instead.  
   

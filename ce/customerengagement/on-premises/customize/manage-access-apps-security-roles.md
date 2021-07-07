@@ -41,7 +41,7 @@ You can choose what users see and access from the **My Apps** page or the [!INCL
     
    b. **Roles**: Choose whether you want to give app access to all security roles or selected roles. If you choose **Give access only to these roles**, select the specific security roles.  
 
-     ![Manage security roles for the app](../customize/media/app-manage-roles.png "Manage security roles for the app")
+     ![Manage security roles for the app.](../customize/media/app-manage-roles.png "Manage security roles for the app")
 
    c. Select **Save**.  
   

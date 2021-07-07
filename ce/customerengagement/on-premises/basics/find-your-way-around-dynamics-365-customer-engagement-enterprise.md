@@ -28,12 +28,12 @@ If you're system administrator hasn't enabled the new interface then you'll see 
 In Unified Interface the site map is on the left.
 
 > [!div class="mx-imgBorder"]
-> ![Unified interface for on-prim](media/uci-onprem-interface.png "Unified interface for on-prem")
+> ![Unified interface for on-prim.](media/uci-onprem-interface.png "Unified interface for on-prem")
 
 The site map in the legacy web client is at the top.
 
 > [!div class="mx-imgBorder"]
-> ![Web client interface](media/web-client-interface.png "Web client interface")
+> ![Web client interface.](media/web-client-interface.png "Web client interface")
 
  
 ## Navigation in Unified Interface
@@ -54,12 +54,12 @@ Use the app-selector menu to switch between apps.
 1. Select the current app name.
 
    > [!div class="mx-imgBorder"]
-   > ![Select the current app name](media/access-site-map.png "Select the current app name")
+   > ![Select the current app name.](media/access-site-map.png "Select the current app name")
 
 2. On the **Apps** page select an app. You will only see apps for your organization.
 
    > [!div class="mx-imgBorder"]
-   > ![Select an app to use](media/access-site-map-1.png "Select an app to use")
+   > ![Select an app to use.](media/access-site-map-1.png "Select an app to use")
 
 
 ### Move between pages and records
@@ -67,7 +67,7 @@ Use the app-selector menu to switch between apps.
 It's easy to get around and get back to your favorite or most-used items. The following illustration shows the primary navigation elements.
 
 
-![Navigation controls showing expanded view](media/onprem-main-nav.png "Navigation controls showing expanded view")  
+![Navigation controls showing expanded view.](media/onprem-main-nav.png "Navigation controls showing expanded view")  
 
 Legend
   
@@ -84,13 +84,13 @@ Use the back button for form, view, and dashboard pages on the command bar to go
 
 To go back to the previous page, select the **Go back** button.
 
-![Go back to the previous page](media/go_back_button.png "Go back to the previous page") 
+![Go back to the previous page.](media/go_back_button.png "Go back to the previous page") 
 
 ### Working with list views
 
 Usually, when you first open an entity, you'll see the list view, which shows a list of records belonging to that entity, formatted as a table. For example, if you open the **Products** entity, you'll see a list of accounts.
 
-![A typical list view](media/onprem-list-view.png "A typical list view")
+![A typical list view.](media/onprem-list-view.png "A typical list view")
 
 Legend:
 
@@ -107,7 +107,7 @@ Legend:
 
 Record views show all the details about a single record and sometimes also provide special features for working with it. Usually you'll open a record view by selecting a record that appears in a list view, but you can also open a record view by following a link from a related record.
 
-![A typical record view](media/onprem-form-view.png "A typical record view")
+![A typical record view.](media/onprem-form-view.png "A typical record view")
 
 Legend:
 
@@ -126,10 +126,10 @@ Navigate through multiple records by using preset views and queries. The record-
 The number of records that you see in the record set navigation pane is based on the number of records that your system administrator has defined for the subgrid.
 
 1. To use record set navigation, open a page with a list of records.
-2. Open a record and then select **Open Record Set** ![Record set navigation button](media/openrecordset_2.png "Record set button button") and then select a record from the list. 
+2. Open a record and then select **Open Record Set** ![Record set navigation button.](media/openrecordset_2.png "Record set button button") and then select a record from the list. 
 
 
-![Select to open record set navigation](media/onprem-record-set.png "Select to open record")   
+![Select to open record set navigation.](media/onprem-record-set.png "Select to open record")   
 
 
 ### Reference panel
@@ -137,7 +137,7 @@ The number of records that you see in the record set navigation pane is based on
 The reference panel is a great way to get work done without moving away from the screen you're on. You can look up other related items&mdash;such as reviews or reservations for a product&mdash;within the context of the record you're viewing, without having to navigate to other screens.
 
 
-![Reference panel](media/ref-panel.png "Reference panel")
+![Reference panel.](media/ref-panel.png "Reference panel")
 
  Watch this video to learn more about the reference panel:
 
@@ -150,21 +150,21 @@ The app message bar shows three types of notifications: informational, warning, 
 
 When you select the error notification, it will take you to the field on the form where the error occurred.
 
-![Example of notifications](media/onprem-notifications.png "Examples of notifications")   
+![Example of notifications.](media/onprem-notifications.png "Examples of notifications")   
 
 
 Legend:
 
-1. **Information notifications** ![Info notifications](media/info_icon.png "Info notification icon"): The notification is informational.
-2. **Warning notifications** ![Warning notifications](media/warning_icon.png "Warning notification icon"): The notification is a warning. 
-3. **Error notifications** ![Error notifications](media/error_icon.png "Error notification icon"): The notification is an error. 
+1. **Information notifications** ![Info notifications.](media/info_icon.png "Info notification icon"): The notification is informational.
+2. **Warning notifications** ![Warning notifications.](media/warning_icon.png "Warning notification icon"): The notification is a warning. 
+3. **Error notifications** ![Error notifications.](media/error_icon.png "Error notification icon"): The notification is an error. 
 
 
 #### Multiple notification
 
 If there is only one notification, you'll see a single line. If there are multiple notifications, you'll see chevron button. Select the chevron to view each message.
 
-![Example of multiple notifications](media/multiple_notification.png "Example of multiple notifications")
+![Example of multiple notifications.](media/multiple_notification.png "Example of multiple notifications")
 
 
 ### Unified Interface navigation for specific apps
@@ -185,7 +185,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
 >  Your Sales or Customer Service app sitemap may be different if your app has been customized.  
   
 ##### Sales app sitemap  
- ![Sales app site map for Dynamics 365 Customer Engagement (on-premises)](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 Customer Engagement (on-premises)")  
+ ![Sales app site map for Dynamics 365 Customer Engagement (on-premises).](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 Customer Engagement (on-premises)")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -230,7 +230,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
  **21**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ##### Customer service app sitemap  
- ![Customer Service app site map](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
+ ![Customer Service app site map.](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -257,7 +257,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ##### Dynamics 365 Customer Engagement (on-premises)- Custom (Settings) sitemap  
- ![Dynamics 365 Customer Engagement (on-premises) Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 Customer Engagement (on-premises) Settings sitemap")  
+ ![Dynamics 365 Customer Engagement (on-premises) Settings sitemap.](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 Customer Engagement (on-premises) Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  
   
@@ -310,7 +310,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
 ##### Navigation bar buttons  
  The navigation bar in each app has the same buttons:  
   
- ![Dynamics 365 Customer Engagement (on-premises) navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 Customer Engagement (on-premises) navigation bar buttons")  
+ ![Dynamics 365 Customer Engagement (on-premises) navigation bar buttons.](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 Customer Engagement (on-premises) navigation bar buttons")  
   
  **1**.  Do a simple search for a record.  
   
@@ -344,7 +344,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
 >  Your Sales or Customer Service app sitemap may be different if your app has been customized.  
   
 ##### Sales app sitemap  
- ![Sales app site map for Dynamics 365 Customer Engagement (on-premises)](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 Customer Engagement (on-premises)")  
+ ![Sales app site map for Dynamics 365 Customer Engagement (on-premises).](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 Customer Engagement (on-premises)")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -389,7 +389,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
  **21**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ##### Customer service app sitemap  
- ![Customer Service app site map](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
+ ![Customer Service app site map.](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -416,7 +416,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ##### Dynamics 365 Customer Engagement (on-premises)- Custom (Settings) sitemap  
- ![Dynamics 365 Customer Engagement (on-premises) Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 Customer Engagement (on-premises) Settings sitemap")  
+ ![Dynamics 365 Customer Engagement (on-premises) Settings sitemap.](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 Customer Engagement (on-premises) Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  
   
@@ -469,7 +469,7 @@ When you open an app, you'll see tiles and icons (called a *sitemap*) for that a
 ##### Navigation bar buttons  
  The navigation bar in each app has the same buttons:  
   
- ![Dynamics 365 Customer Engagement (on-premises) navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 Customer Engagement (on-premises) navigation bar buttons")  
+ ![Dynamics 365 Customer Engagement (on-premises) navigation bar buttons.](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 Customer Engagement (on-premises) navigation bar buttons")  
   
  **1**.  Do a simple search for a record.  
   

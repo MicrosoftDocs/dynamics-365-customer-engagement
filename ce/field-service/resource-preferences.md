@@ -27,7 +27,7 @@ From a requirement, the dispatcher can add one or more resource preferences.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of resource preferences on a requirement](./media/scheduling-resource-preference.png)
+> ![Screenshot of a list of resource preferences on a requirement.](./media/scheduling-resource-preference.png)
 
 
 For each resource added as a resource preference, you can define a **Preference Type**:
@@ -55,7 +55,7 @@ First create a work order.
 Then go to **Related** > **Requirements** to view the requirement that is automatically created when a work order is created. This is where you can add details for the kinds of resources eligible to perform the work order including resource preferences. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order with attention to resource preferences](./media/scheduling-resource-preference-navigate.png)
+> ![Screenshot of a work order with attention to resource preferences.](./media/scheduling-resource-preference-navigate.png)
 
 You can go to **Related** > **Resource Preferences** directly from the work order.
 
@@ -63,7 +63,7 @@ Alongside where you can add skills and resource roles that are required, add a n
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a preferred resource on a requirement](./media/scheduling-resource-preference-requirement.png)
+> ![Screenshot of a preferred resource on a requirement.](./media/scheduling-resource-preference-requirement.png)
 
 Select a resource and choose **Preferred** for **Preference Type**.
 
@@ -72,12 +72,12 @@ In this example, we created a work order (WO-1000000053) and then added Abraham 
 From the schedule board, select and highlight the requirement and choose **Find Availability** to trigger the schedule assistant. You will notice your preferred resource is shown at the top of the list with a heart icon indicating they are preferred.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, showing the heart icon next to a preferred resource](./media/scheduling-resource-preference-preferred.png)
+> ![Screenshot of the schedule board, showing the heart icon next to a preferred resource.](./media/scheduling-resource-preference-preferred.png)
 
 In the schedule assistant grid view, you'll see the same heart icon next to preferred resources as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a list of resources in the schedule assistant, showing the heart icon next to preferred resources](./media/scheduling-resource-preference-preferred-grid.png)
+> ![Screenshot of a list of resources in the schedule assistant, showing the heart icon next to preferred resources.](./media/scheduling-resource-preference-preferred-grid.png)
 
 > [!Note]
 > The preferred resource will only show if it meets the other filter criteria such as location, skills, resource types, etc.
@@ -91,7 +91,7 @@ Following the same steps from the previous section, go to the requirement and ad
 Then trigger the schedule assistant for the requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot highlighting restricted resources in the filter view](./media/scheduling-resource-preference-restricted.png)
+> ![Screenshot highlighting restricted resources in the filter view.](./media/scheduling-resource-preference-restricted.png)
 
 The restricted resource will show as restricted in the filter panel and will not display in results. Dispatchers have the option to edit or delete the resource preference in the filter panel as needed. 
 
@@ -118,7 +118,7 @@ In the schedule assistant grid view, the available time slots for only the "must
 - For resource scheduling optimization to consider restricted and "Must choose from" resource preferences when automatically scheduling, add the **Meets Resource Preferences** constraint to the related optimization goal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the meets resource preferences constraint on an optimization goal](./media/rso-constraints-meets-resource-preferences.png)
+> ![Screenshot of the meets resource preferences constraint on an optimization goal.](./media/rso-constraints-meets-resource-preferences.png)
 
 - For resource scheduling optimization to consider preferred resource preferences, add the **Maximize Preferred Resources** objective to the optimization goal. Preferred resources are considered an objective and not a constraint because resource scheduling optimization does not guarantee requirements are scheduled to preferred resources. Not scheduling to restricted resource and scheduling to "Must choose from" resources are both guaranteed.  
 

@@ -132,7 +132,7 @@ After enabling claims-based authentication, the next step is to add and configur
   
 22. Select **Finish**, and when you have created all three rules, select **OK** to close the Rules Editor.  
   
-     ![Three claims rules](media/crm-itpro-claimswp-3rules.PNG "Three claims rules")  
+     ![Three claims rules.](media/crm-itpro-claimswp-3rules.PNG "Three claims rules")  
   
      This illustration shows the three relying party trust rules you create.  
   
@@ -149,7 +149,7 @@ After enabling claims-based authentication, the next step is to add and configur
   
 4.  Under **Intranet**, enable (check) **Forms Authentication** and then select **OK**.  
   
- ![Enable forms authentication](media/crm-itpro-claimswp-formsauth.PNG "Enable forms authentication")  
+ ![Enable forms authentication.](media/crm-itpro-claimswp-formsauth.PNG "Enable forms authentication")  
   
 ## For Windows Server 2016, run a cmdlet  
  If you're [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server is running [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)], run the following Windows PowerShell cmdlet:  

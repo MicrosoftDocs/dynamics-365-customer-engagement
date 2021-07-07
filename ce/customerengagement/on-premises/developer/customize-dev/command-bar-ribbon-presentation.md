@@ -30,7 +30,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
 ### Updated user experience  
  This is the presentation of the command bar throughout the application and for forms for entities that have the updated user experience.  
   
- ![Account command bar in Dynamics 365 Customer Engagement](../media/customization-account-grid-command-bar.PNG "Account command bar in Dynamics 365 Customer Engagement")  
+ ![Account command bar in Dynamics 365 Customer Engagement.](../media/customization-account-grid-command-bar.PNG "Account command bar in Dynamics 365 Customer Engagement")  
   
  In this experience, only the first seven commands are displayed and any remaining commands are available in a flyout menu.  
   
@@ -38,7 +38,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
  Subgrids have a limited number of controls. Only controls to allow adding records, deleting records, or opening a view of the grid are available. But these commands are still defined by ribbon data and can be customized.  
   
- ![Contact sub&#45;grid in Dynamics 365 Customer Engagement](../media/customization-contract-subgrid.PNG "Contact sub-grid in Dynamics 365 Customer Engagement")  
+ ![Contact sub&#45;grid in Dynamics 365 Customer Engagement.](../media/customization-contract-subgrid.PNG "Contact sub-grid in Dynamics 365 Customer Engagement")  
   
  To perform more actions on the list of records displayed in a subgrid, select the option to open a view of the grid.  
   
@@ -47,7 +47,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
 ### Classic user experience  
  This is the presentation using the ribbon. It is used for lists within the Outlook client and for the forms of entities that do not use the updated user experience.  
   
- ![Article ribbon in Dynamics 365 Customer Engagement](../media/customization-article-ribbon.PNG "Article ribbon in Dynamics 365 Customer Engagement")  
+ ![Article ribbon in Dynamics 365 Customer Engagement.](../media/customization-article-ribbon.PNG "Article ribbon in Dynamics 365 Customer Engagement")  
   
  In this experience tabs are available and groups can define scaling so that all available commands in a tab are shown as the width of the screen changes.  
   
@@ -55,13 +55,13 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
  Subgrid commands are shown in a List Tools contextual tab at the top of the page when the subgrid is selected.  
   
- ![Article Comments sub&#45;grid ribbon in Dynamics 365 Customer Engagement](../media/customization-article-comments-subgrid-ribbon.PNG "Article Comments sub-grid ribbon in Dynamics 365 Customer Engagement")  
+ ![Article Comments sub&#45;grid ribbon in Dynamics 365 Customer Engagement.](../media/customization-article-comments-subgrid-ribbon.PNG "Article Comments sub-grid ribbon in Dynamics 365 Customer Engagement")  
   
 <a name="BKMK_CRMForTablets"></a>   
 ### [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for tablets  
  [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)] presents commands in a manner optimized for touch experiences. Commands appear in the command bar at the bottom right of the screen in order from right to left.  
   
- ![Account form commands for Dynamics 365 for tablets](../media/customization-nobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
+ ![Account form commands for Dynamics 365 for tablets.](../media/customization-nobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
   
 > [!NOTE]
 >  Icons configured for commands will not display and labels that are too long will be truncated.  
@@ -70,7 +70,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
  Subgrid commands are displayed when people tap and press the subgrid control. These commands are shown on the bottom left of the screen in order from left to right.  
   
- ![Activity sub&#45;grid commands in Dynamics 365 for tablets](../media/customization-mobile-app-activity-subgrid.PNG "Activity sub-grid commands in Dynamics 365 for tablets")  
+ ![Activity sub&#45;grid commands in Dynamics 365 for tablets.](../media/customization-mobile-app-activity-subgrid.PNG "Activity sub-grid commands in Dynamics 365 for tablets")  
   
 <a name="BKMK_CommandData"></a>   
 ## Command data  

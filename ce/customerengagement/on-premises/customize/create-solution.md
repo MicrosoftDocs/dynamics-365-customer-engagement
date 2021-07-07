@@ -52,7 +52,7 @@ search.audienceType:
 
  When you do this you may see a **Missing Required Components** dialog.  
 
- ![Add Required Components Dialog](../customize/media/crm-itpro-cust-addrequiredcomponents.PNG "Add Required Components Dialog")  
+ ![Add Required Components Dialog.](../customize/media/crm-itpro-cust-addrequiredcomponents.PNG "Add Required Components Dialog")  
 
  This dialog alerts you that the solution component has dependencies on other solution components. If you select **No, do not include required components**, the solution may fail if you import it into another organization where all those required components do not exist. If the solution import succeeds, the behavior in the other solution may not be identical as the original organization because the components are configured differently than those in the source solution.  
 

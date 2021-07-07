@@ -41,7 +41,7 @@ Workflows automate business processes without a user interface. People usually u
 ## Where do you customize workflow processes?  
  You can see the workflows in your organization by viewing the **Processes** node in the **Default Solution** and filtering on processes that have the **Category** **Workflow**.  
   
- ![Processes filtered by workflow in Dynamics 365 for Customer Engagement](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Processes filtered by workflow in Dynamics 365 for Customer Engagement.](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365 Customer Engagement (on-premises)")  
   
  Depending on how the app is built, users can create or modify their workflows in the app. 
  
@@ -53,7 +53,7 @@ Developers can create workflows using information in the [Dynamics 365 Customer 
   
  When you create a workflow the **Create Process** dialog requires that you set three properties that all processes have:  
   
- ![Creating a workflow in Dynamics 365 for Customer Engagement](../customize/media/create-workflow.PNG "Creating a workflow in Dynamics 365 for Customer Engagement")  
+ ![Creating a workflow in Dynamics 365 for Customer Engagement.](../customize/media/create-workflow.PNG "Creating a workflow in Dynamics 365 for Customer Engagement")  
   
  **Process Name**  
  The name of the workflow process does not need to be unique, but if you expect you will have a lot of workflows, you may want to use a naming convention to clearly differentiate your processes. You may want to apply standard prefixes to the name of the workflow. The prefix may describe the function of the workflow or the department within the company. This will help you group similar items in the list of workflows.  
@@ -71,7 +71,7 @@ Developers can create workflows using information in the [Dynamics 365 Customer 
   
  After you create the Workflow or if you edit an existing one, you will have the following additional properties:  
   
- ![General tab in a workflow](../customize/media/create-workflow-general-tab.PNG "General tab in a workflow")  
+ ![General tab in a workflow.](../customize/media/create-workflow-general-tab.PNG "General tab in a workflow")  
   
  **Activate As**  
  You can choose **Process template** to create an advanced starting point for other templates. If you choose this option, after you activate the workflow it will not be applied but instead it will be available to select in the **Create Process** dialog if you select **Type**: **New process from an existing template (select from list)**  
@@ -90,7 +90,7 @@ Developers can create workflows using information in the [Dynamics 365 Customer 
  **As an on-demand process**  
 Choose this option if you want to allow users to run this workflow manually. You can find on-demand processes under the **Run Workflow** section of the flow. 
 
-![run workflow](media/run-workflow.png)
+![run workflow.](media/run-workflow.png)
   
  **As a child process**  
  Choose this option if you want to allow the workflow to be available to be started from another workflow.  

@@ -75,7 +75,7 @@ Enable languages in your organization to display the user interface and Help in 
 
 1. Sign in to Customer Engagement (on-premises) and open the **Set Personal Options** page, as follows:  
 
-   - If you’re using the Customer Engagement (on-premises) web client, click the **Settings** button ![Settings button](../admin/media/settings-button.png "Settings button"), and then click **Options**.  
+   - If you’re using the Customer Engagement (on-premises) web client, click the **Settings** button ![Settings button.](../admin/media/settings-button.png "Settings button"), and then click **Options**.  
 
    - If you are using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], on the top menu bar, choose **Dynamics 365**, and then click **Options**.  
 

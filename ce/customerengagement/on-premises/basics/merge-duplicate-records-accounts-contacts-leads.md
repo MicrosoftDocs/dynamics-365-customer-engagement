@@ -31,14 +31,14 @@ Duplicate records can creep into your data when you or others enter data manuall
   
  For example, let's say you enter a contact record, Jim Glynn,  along with a mobile phone number.  The duplicate detection rule discovers that you already have a similar record, and displays this dialog box.  
   
- ![Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-detected.png "Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises).](../basics/media/duplicates-detected.png "Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)")  
   
  You're not sure if this is a new record (one that happens to have the  same name as an existing contact) or a duplicate, so you click **Save**.  
   
  Next, you go to the **My Active Contacts** list and see that now you have two records with the same name. After reviewing the records,  you  determine that they're duplicates that need to be merged.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises).](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)")  
  
 Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rules for accounts, contacts, and leads. These rules are automatically turned on, so you don't have to do anything to set up duplicate detection for these record types.  
   
@@ -50,11 +50,11 @@ Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rule
 1. Select the duplicate records, and then click **Merge**.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Merge records button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Merge records button in Dynamics 365 Customer Engagement (on-premises).](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365 Customer Engagement (on-premises)")  
   
 2. In the **Merge Records** dialog box, select the master record (the one you want to keep), and then select any fields in the new record that you want to merge into the master record. Data in these fields may override the existing data in the master record. Click **OK**.  
   
-   ![Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)")  
+   ![Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises).](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)")  
   
 > [!NOTE]
 >  There are three situations when duplicates may be found:  
@@ -87,7 +87,7 @@ Duplicate records can creep into your data when you or others enter data manuall
   
  For example, let's say you enter a contact record, Jim Glynn,  along with a mobile phone number.  The duplicate detection rule discovers that you already have a similar record, and displays this dialog box.  
   
- ![Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-detected.png "Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises).](../basics/media/duplicates-detected.png "Duplicate contact record detectied in Dynamics 365 Customer Engagement (on-premises)")  
   
  You're not sure if this is a new record (one that happens to have the  same name as an existing contact) or a duplicate, so you click **Save**.  
  
@@ -103,7 +103,7 @@ Duplicate records can creep into your data when you or others enter data manuall
  Next, you go to the **My Active Contacts** list and see that now you have two records with the same name. After reviewing the records,  you  determine that they're duplicates that need to be merged.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises).](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)")  
  
 Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rules for accounts, contacts, and leads. These rules are automatically turned on, so you don't have to do anything to set up duplicate detection for these record types.  
   
@@ -115,11 +115,11 @@ Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rule
 1. Select the duplicate records, and then click **Merge**.  
   
    > [!div class="mx-imgBorder"] 
-   > ![Merge records button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365 Customer Engagement (on-premises)")  
+   > ![Merge records button in Dynamics 365 Customer Engagement (on-premises).](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365 Customer Engagement (on-premises)")  
   
 2. In the **Merge Records** dialog box, select the master record (the one you want to keep), and then select any fields in the new record that you want to merge into the master record. Data in these fields may override the existing data in the master record. Click **OK**.  
   
-   ![Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)")  
+   ![Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises).](../basics/media/merge-records-dialog.png "Dialog box for merging records in Dynamics 365 Customer Engagement (on-premises)")  
   
 > [!NOTE]
 >  The fields that show in the merge dialog come from the default form for the entity. There are three situations where fields from that form will still not show:  

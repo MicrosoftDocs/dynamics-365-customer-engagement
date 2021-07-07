@@ -25,7 +25,7 @@ Dynamics 365 Customer Engagement (on-premises) includes many system reports that
 Keep user information up to date by running a User Summary report.   
 Get a list of all your users, including their contact information and security role in Dynamics 365 Customer Engagement (on-premises).  
   
- ![Default User Summary report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Default User Summary report in Dynamics 365 Customer Engagement (on-premises).](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 Customer Engagement (on-premises)")  
   
 ### See also  
  [Run a report](../basics/run-report.md)   

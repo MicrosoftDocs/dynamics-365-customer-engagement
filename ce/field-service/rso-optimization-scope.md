@@ -30,9 +30,9 @@ Scope is the Resource Scheduling Optimization mechanism for defining the relevan
 
 After opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If a personal view is selected, it is shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the scheduling optimization scope](media/92069616c79fb0f7fe9c4adc6683f50b.png)
+> ![Screenshot of the scheduling optimization scope.](media/92069616c79fb0f7fe9c4adc6683f50b.png)
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a modal with system view options](media/e7dd89ff112dcae60489d52534c564f2.png)
+> ![Screenshot of a modal with system view options.](media/e7dd89ff112dcae60489d52534c564f2.png)
 
 1. Using **Resource View** for example, 0_WA Resources has been defined with
     the filter conditions shown in the following screenshot. This is equivalent
@@ -41,15 +41,15 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
     resources they need to optimize. Resource Scheduling Optimization will respect the Optimize Scheduling
     setting on individual resource records on top of the resource view filters.
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of a list of resources](media/4b4f1beede0d89f940677b7df65f80c8.png)
+    > ![Screenshot of a list of resources.](media/4b4f1beede0d89f940677b7df65f80c8.png)
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of bookable resource territories](media/349c0ca23d3c32edb227b78430c95d46.png)
+    > ![Screenshot of bookable resource territories.](media/349c0ca23d3c32edb227b78430c95d46.png)
 
 2. Select at least one requirement or booking view for what needs to be
     optimized.
     
    > [!div class="mx-imgBorder"]
-   > ![Screenshot showing that users must select on requirement or booking view](media/843748f6ea067de2163318e71ac4851d.png)
+   > ![Screenshot showing that users must select on requirement or booking view.](media/843748f6ea067de2163318e71ac4851d.png)
 
 3. If you select booking view, you can set it to **Now or After**. For example,
     maybe you want to optimize bookings for the next five days, from 2 hours on
@@ -59,7 +59,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
     whatever filter conditions are defined for that booking view.
     
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of Bookings for this Optimization](media/322f8b809e438d032b150b13fde88148.png)
+   > ![Screenshot of Bookings for this Optimization.](media/322f8b809e438d032b150b13fde88148.png)
 
 4. **Optimization Range Settings** is the time range where bookings can be created,
     updated, and deleted.
@@ -67,7 +67,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    **Example 1:** You want to have a booking created or moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of optimization range settings_1](media/62ab888c08dfc0bdd81587535de73d5d.png)
+   > ![Screenshot of optimization range settings_1.](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
    - **Range Reference**: The start moment for all subsequent work order range
      calculation (Job current time or Beginning of the Job’s current day).
@@ -76,14 +76,14 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
    - **Range Duration (days)**: Number of days added to the range reference.
   
      > [!div class="mx-imgBorder"]
-     > ![Screenshot of range duration](media/06e5a506621a550cc2d05df234a3dbde.png)
+     > ![Screenshot of range duration.](media/06e5a506621a550cc2d05df234a3dbde.png)
 
    **Example 2**: You want to have a booking created/moved into the next two days.
   
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of optimization range settings_2](media/6a06b7a1a69c2f493686442af5e44520.png)
+   > ![Screenshot of optimization range settings_2.](media/6a06b7a1a69c2f493686442af5e44520.png)
    > [!div class="mx-imgBorder"]
-   > ![Image showing range offset and duration](media/5d265da65e27891ebab3319627e9a3fa.png)
+   > ![Image showing range offset and duration.](media/5d265da65e27891ebab3319627e9a3fa.png)
 
    > [!NOTE]
    > If bookings or resource requirements are defined in the Requirement/Booking view, but the promised date/time windows are outside the optimization range, Resource Scheduling Optimization won't create or update these requirements or bookings after respecting the scheduling window constraint. If the promised date/time windows are overlapping the optimization range, Resource Scheduling Optimization will create/update these requirements/bookings after respecting the scheduling window constraint.
@@ -100,7 +100,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
         Requirement View.
         
      > [!div class="mx-imgBorder"]
-     > ![Screenshot of the schedule board](media/9b12b09d64d881041edd3d93f27be00c.png)
+     > ![Screenshot of the schedule board.](media/9b12b09d64d881041edd3d93f27be00c.png)
 
 6. You can modify filters on the left panel and save it into scope:
 
@@ -112,7 +112,7 @@ After opening the **Scheduling Optimization Scope** form, users can select exist
         same personal view.
         
      > [!div class="mx-imgBorder"]
-     > ![Screenshot of the schedule board with modified filters](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
+     > ![Screenshot of the schedule board with modified filters.](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
 
 
 

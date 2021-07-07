@@ -27,7 +27,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 ## Create an order from a quote  
  Typically, you convert a quote that you have won into an order. Start with an active quote. Note that after a quote is accepted, you won't be able to revise it.  
   
-1. In the Sales Hub app, select the Site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
+1. In the Sales Hub app, select the Site map icon ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
   
 2. Select the quote you want to create an order from.  
 
@@ -57,7 +57,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 ## Create an order  
  You can create an order that is based on your communication with a customer instead of an accepted quote.  
   
-1. In the Sales Hub app, select the Site map icon![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
+1. In the Sales Hub app, select the Site map icon![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
   
 2. Select **New**.  
   

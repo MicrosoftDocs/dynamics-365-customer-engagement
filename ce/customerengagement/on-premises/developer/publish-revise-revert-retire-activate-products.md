@@ -25,7 +25,7 @@ By default, a product record is in the **Draft** state when you create it, and i
   
  Furthermore, you can revise, revert, retire, and activate your product records to maintain your product catalog as per your business requirements. The following illustration shows the state transitions of a product when you perform various operations on a product record in Dynamics 365 Customer Engagement (on-premises).  
   
- ![Product lifecycle and state transitions](media/crm-sdk-product-life-cycle.png "Product lifecycle and state transitions")  
+ ![Product lifecycle and state transitions.](media/crm-sdk-product-life-cycle.png "Product lifecycle and state transitions")  
   
  ***Activate\\**** : The activate operation is applicable for certain type of product records only. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate a product or kit record](publish-revise-revert-retire-activate-products.md#Activate)  
   
