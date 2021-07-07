@@ -1,7 +1,7 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the scenarios where you might receive notifications in Omnichannel for Customer Service. Also learn about notifications types."
-ms.date: 10/12/2020
+description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
+ms.date: 07/01/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,6 +15,8 @@ manager: shujoshi
 A notification is a visual alert that appears each time you get a chat or SMS conversation request from a customer. When you get a notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the customer summary page.
 
 Here are some scenarios where you might receive notifications:
+
+- Case assignment if record routing is configured using unified routing
 
 - Incoming chat conversation
 
@@ -45,7 +47,7 @@ If you select the notification message body and not a button, the Omnichannel fo
 
 The wait time that's configured by your administrator applies to the desktop notification, but doesn't display the wait time on the desktop notification.
 
-That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. [Manage notification templates and settings](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you've 90 seconds to take action. More information: [Manage notification templates and settings](/dynamics365/app-profile-manager/notification-templates)
 
 The desktop notification theme is based on the Windows operating system theme and settings.
 
@@ -73,7 +75,14 @@ You receive a notification for an incoming chat request. When you accept the cha
 
 The details you'll see for a chat channel are as configured by your administrator.
 
-## Incoming SMS notifications
+## Case assignment notification
+
+If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment and irrespective of the notification timeout, the case will be assigned to you.
+
+  > ![Case assignment notification](media/case-assignment-notification.png "Case assignment notification")
+
+
+## Incoming SMS notification
 
 When you receive a notification for an SMS conversation request and you accept the SMS request, a session starts, and the communication panel appears in which you can exchange messages with the customer.
 

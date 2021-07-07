@@ -118,6 +118,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure a chat channel](set-up-chat-widget.md)  
 [Configure an SMS channel](configure-sms-channel.md)  
 [Configure a Facebook channel](configure-facebook-channel.md)  
-
+[Try Customer Service](try-customer-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

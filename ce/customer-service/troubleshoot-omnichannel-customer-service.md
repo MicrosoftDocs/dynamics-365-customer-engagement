@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to troubleshoot the issues you may face while working on Omnichannel for Customer Service."
-ms.date: 04/02/2021
+ms.date: 06/29/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -15,41 +15,43 @@ manager: shujoshi
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
-## The instance is not available to select on the provisioning application <a name="provision"></a>
+## The instance isn't available to select on the provisioning application <a name="provision"></a>
 
 ### Issue
 
-For security, reliability, and performance reasons, Omnichannel is separated by geographical locations known as regions. The provisioning web page only displays instances in the same region, so you might experience issues that you don’t see all the instances from the Organization selector if you have instances in more than one region and provision Omnichannel without selecting the correct region.
+For security, reliability, and performance reasons, Omnichannel for Customer Service is separated by geographical locations known as "regions". The provisioning webpage only displays instances in the same region, so you might experience issues where you don’t see all the instances from the Organization selector if you have instances in more than one region, and you provision Omnichannel for Customer Service without selecting the correct region.
 
 ### Resolution
 
-Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Click the region in the upper-right corner and select a new region from the drop-down list. 
+Go to the Power Platform admin center (https://admin.powerplatform.microsoft.com/). Expand Resources, and select Dynamics 365. Select the region in the upper-right corner and select a new region from the drop-down list.
 
    > [!div class=mx-imgBorder]
    > ![Power Platform admin center change region](media/oc-region-menu.png "Power Platform admin center change region")
 
-Changing the region causes the portal to reload. When it has finished reloading, proceed to **Applications** > **Omnichannel for Customer Service**, and then proceed with the usual provisioning steps.
+The portal will reload when you change the region. After it has finished reloading, go to **Applications** > **Omnichannel for Customer Service**, and then do the provisioning steps.
 
 The provisioning application you are directed to is associated with the region you chose, and all instances located in that region are displayed as options for provisioning.
 
    > [!div class=mx-imgBorder]
    > ![Manage Omnichannel environments](media/oc-region-provision.png "Manage Omnichannel environments")
 
-## Omnichannel provisioning fails due to expired Teams Service Principal
+## Omnichannel provisioning fails due to expired Teams service principal
 
 ### Issue
 
-If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service fails in your organization.
+If your tenant has an expired Microsoft 365 license, then the provisioning of Omnichannel for Customer Service will fail in your organization.
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the Teams Service Principal and Skype Teams Calling API Service in Azure Active Directory. Follow the steps to remove the services.
+To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow the steps to remove the services.
 
-[Step 1: Identify the services in Azure Active Directory](#step-1-identify-the-services-in-azure-active-directory)
+1. Identify the services in Azure AD.
 
-[Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service](#step-2-use-powershell-to-remove-microsoft-teams-and-skype-teams-calling-api-service)
+2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
+3. Add the service principal back.
 
-#### Step 1: Identify the services in Azure Active Directory
+
+#### Identify the services in Azure AD
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Select **Azure Active Directory** in the left pane.
@@ -69,7 +71,7 @@ To avoid the provisioning failure, you must remove the Teams Service Principal a
 
 8. In the result that appears, copy the **Object ID**. Make sure that the application ID is `26a18ebc-cdf7-4a6a-91cb-beb352805e81`.
 
-#### Step 2: Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
+#### Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service
 
 1. Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
 ![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
@@ -90,6 +92,37 @@ This establishes a connection with the tenant's Azure Active Directory, so you c
    > Right click in the PowerShell window to paste the Object ID.
 
 The Microsoft Teams Service and Skype Teams Calling API Service are removed from your organization. You can try to provision Omnichannel for Customer Service again.
+
+#### Add the service principal for the Permission service app
+
+After removing the expired Microsoft Teams license from the tenant, you can add the chat to the tenant again by doing the following:
+
+1. Run the following commands in the PowerShell window:
+
+   `Login-AzureRmAccount`
+
+   `$appId="6d32b7f8-782e-43e0-ac47-aaad9f4eb839"`
+
+   `$sp=Get-AzureRmADServicePrincipal -ServicePrincipalName $appId`
+   
+   `if ($sp -eq $null) { New-AzureRmADServicePrincipal -ApplicationId $appId }`
+
+   `Start-Process "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"`
+
+2. In the browser window that appears, sign in to your organization as a tenant admin to grant the admin consent.
+
+   > [!NOTE]
+   > Ignore the error page that appears with the message "no reply URLs configured".
+
+3. Sign in to the [Azure portal](https://portal.azure.com/) as a tenant admin to enable Azure AD for user sign-in.
+
+4. Go to **Azure Active Directory** > **Enterprise Applications**.
+
+5. In the search box, enter **6d32b7f8-782e-43e0-ac47-aaad9f4eb839** for the application ID. The Permission Service O365 is listed.
+
+6. Select the app, go to the **Properties** tab, and turn on the **Enabled for users to sign-in** toggle.
+
+The chat is added to the tenant again.
 
 ## Errors occur when I try to open Omnichannel for Customer Service or Customer Service workspace with Omnichannel enabled <a name="oc-csw-errors"></a> 
 
@@ -320,21 +353,15 @@ Chat icon doesn't load on the portal. The chat icon URL which was configured as 
 
 ### Resolution
 
-Open Chat Settings, navigate to Design tab and change **Logo** field and use an icon URL of your choice.
-
-1. Sign in to the **Omnichannel Administration** app.
-2. Go to **Administration** > **Chat**.
-3. Select a chat widget from the list.
-4. Select the **Design** tab.
-5. Specify the URL of the icon you want to use in the **Logo** field.
-6. Select **Save** to save the record.
+You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center).
 
 ## Chat not getting initiated on starting a new chat from portal
 
 ### Issue
 
-A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be: 
-- Agents not configured in the Queue.
+A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be one of the following:
+
+- Agents not configured in the queue.
 - Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, does not have **Allowed Presence** values in the work stream.
 
    > [!div class=mx-imgBorder]
@@ -342,23 +369,11 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
 ### Resolution
 
- To configure agents in the queue, follow these steps:
+As an administrator, make sure of the following:
 
- 1. Sign in to the **Omnichannel Administration** app.
- 2. Go to **Queues & Users** > **Queues**
- 3. Select the queue from the list.
- 4. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
- 5. On the **Lookup Records** pane, select the agents to add, and then select **Add**.
- 6. Select **Save** to save the record.
+- Check that agents have been added to the queues. For information on adding agents to queues, see [Create queues in Omnichanne admin center](queues-omnichannel.md#create-a-queue-in-omnichannel-admin-center)
 
-
-To Update default **Allowed Presence** in the Live Work Stream, follow these steps:
-
-1. Sign in to the **Omnichannel Administration** app.
-2. Go to **Work Distribution Management** > **Work Streams**.
-3. Select a record from the list.
-4. In the Work Distribution tab, under the Work Distribution section, type **Available**. Select the check box to add it. Similarly, type **Busy** and then select the check box to add it.
-5. Select **Save** to save the record.
+- For the associated workstream, check that the **Allowed Presence** option has values in the **Work distribution** area. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
 ## Chat widget does not load on the portal
 
@@ -602,9 +617,9 @@ The issue might happen due to the following reasons:
 Perform the following:
 
 - Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
-- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision for Omnichannel for Customer Service](omnichannel-provision-license.md). 
-- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users for Omnichannel](add-users-assign-roles.md).
-- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
+- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. For more information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md). 
+- Ensure the agent account has the **Omnichannel Agent** role assigned. For more information, see [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md).
+- Ensure the agent account has values set for **Capacity** and **Default presence**. To learn more, see [Create and manage users and user profiles](users-user-profiles.md).
 
 
 ## Pre-imported Unified Service Desk configurations in Customer Service organization
