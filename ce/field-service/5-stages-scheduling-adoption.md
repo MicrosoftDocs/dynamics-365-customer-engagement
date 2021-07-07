@@ -63,10 +63,10 @@ What organizations choose to measure and track depends on their business goals. 
 4.  How many jobs weren't scheduled
 
 > [!div class="mx-imgBorder"]
-![Screenshot of resource scheduling optimization results bar graph comparing working time to travel time of optimized requirements](media/scheduling-adoption-guide-rso-working-time-vs-travel-time.png)
+![Screenshot of resource scheduling optimization results bar graph comparing working time to travel time of optimized requirements.](media/scheduling-adoption-guide-rso-working-time-vs-travel-time.png)
 
 > [!div class="mx-imgBorder"]
-![Screenshot of resource scheduling optimization results stacked bar graph comparing priorities of optimized requirements](media/scheduling-adoption-guide-rso-bar-graph-priorities.png)
+![Screenshot of resource scheduling optimization results stacked bar graph comparing priorities of optimized requirements.](media/scheduling-adoption-guide-rso-bar-graph-priorities.png)
 
 After optimization, analysts can then review:
 

@@ -294,7 +294,7 @@ Dynamics 365 will show the following values:
 To: Brian LaMee; Hugo Garcia; George Li; Henry Ross
 
 > [!div class="mx-imgBorder"] 
->![Example of email To field values](../media/faq-about-tracking.png)
+>![Example of email To field values.](../media/faq-about-tracking.png)
 
 **Email addresses do not resolve to rows only in the default email
 address fields**. If you have a custom Single Line of Text field with

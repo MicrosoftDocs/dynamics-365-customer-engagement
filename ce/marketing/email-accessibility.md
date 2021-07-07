@@ -24,15 +24,15 @@ The accessibility checker helps you make the content easy for people of all abil
 
 Once you are done designing your email content, just click the **Accessibility checker** listed under **Email checker** in the **Designer** tab. The checker will run the content against Microsoft Accessibility Standards to find any issues.
 
-![Accessibility checker menu location](./media/accessibility-checker-entry.png "Accessibility checker menu location")
+![Accessibility checker menu location.](./media/accessibility-checker-entry.png "Accessibility checker menu location")
 
 The accessibility checker will list any issues it finds that do not conform with Microsoft Accessibility Standards.
 
-![Accessibility checker issues list](./media/accessibility-checker-panel.png "Accessibility checker issues list")
+![Accessibility checker issues list.](./media/accessibility-checker-panel.png "Accessibility checker issues list")
 
 You can drill down into any of the accessibility issues found to get help on how to fix the particular issue.
 
-![Accessibility checker drill-down](./media/accessibility-checker-issue-drill.png "Accessibility checker drill down")
+![Accessibility checker drill-down.](./media/accessibility-checker-issue-drill.png "Accessibility checker drill down")
 
 Once you have made an update, you can hit the button at the end "Check it again" to ensure your fix has passed the accessibility requirements.
 

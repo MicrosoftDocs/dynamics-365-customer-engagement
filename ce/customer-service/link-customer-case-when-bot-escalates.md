@@ -24,7 +24,7 @@ A sample screenshot is as follows that outlines how the variables need to be set
 
 You do not need to select the **External sources can set values** check box in the variable properties.
 
-![Set context variables for Power Virtual Agents bot](media/set-context-variables-pva.png "Set context variables for Power Virtual Agents bot")
+![Set context variables for Power Virtual Agents bot.](media/set-context-variables-pva.png "Set context variables for Power Virtual Agents bot")
 
 To create context variables for Azure bot and set the values to "string", see [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md).
 

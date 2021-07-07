@@ -4,7 +4,7 @@ description: "Enable folder-level tracking for Exchange folders to map an Exchan
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -41,7 +41,7 @@ You can enable folder-level tracking for [!INCLUDE[pn_Microsoft_Exchange](../inc
   
 5. Configure other tracking options on this page, and then click **OK**.  
   
-Once you’ve enabled folder-level tracking, users will need to configure folder-tracking rules in Customer Engagement (on-premises) with Settings (![Gear button](../admin/media/selection-rule-gear.gif "Select rule gear button")) > **Options** > **Email** > **Configure Folder Tracking Rules**.  
+Once you’ve enabled folder-level tracking, users will need to configure folder-tracking rules in Customer Engagement (on-premises) with Settings (![Gear button.](../admin/media/selection-rule-gear.gif "Select rule gear button")) > **Options** > **Email** > **Configure Folder Tracking Rules**.  
   
 ## Some important points about folder-level tracking  
   

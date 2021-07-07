@@ -22,13 +22,13 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases to help you better understand how different case types and topic areas are impacting your organization’s support performance.
 
-![Topics dashboard](media/topics-dashboard-analytics-cs.png "Topics dashboard")
+![Topics dashboard.](media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
 To view the Topics dashboard, go to customer service historical analytics and select **Topics** at the top of the workspace. 
 
 ## Key insights card
 
-![Topics Key insights discovery card](media/topics-key-insights-card.png "Topics Key insights discovered card")
+![Topics Key insights discovery card.](media/topics-key-insights-card.png "Topics Key insights discovered card")
 
 The Key insights discovered card has three areas:
 
@@ -71,7 +71,7 @@ The case topics drill down view provides supervisors with a holistic look into i
 To access the case topics drill down, select any metric value for the required topic and select **Details**.
 
 > [!div class="mx-imgBorder"] 
-> ![Case topics drill down view](media/case-topics-drill-down-view.png "Case topics drill view")
+> ![Case topics drill down view.](media/case-topics-drill-down-view.png "Case topics drill view")
 
 ### Automation of case topics for Power Virtual Agents bots
 

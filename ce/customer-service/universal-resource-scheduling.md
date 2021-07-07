@@ -177,7 +177,7 @@ In the following scenario, you schedule a requirement group via API. You'll need
 
 ### Service configuration 
 
-![Service configuration](media/ur-scheduling-1-new.png "Service configuration")
+![Service configuration.](media/ur-scheduling-1-new.png "Service configuration")
 
   1. In the site map, under **Scheduling**, select **Service**.
   2. Go to **Resource Requirements**.
@@ -185,7 +185,7 @@ In the following scenario, you schedule a requirement group via API. You'll need
 
 ### Service Activity configuration  
 
-![Service Activity configuration](media/ur-scheduling-2-new.png "Service Activity configuration")
+![Service Activity configuration.](media/ur-scheduling-2-new.png "Service Activity configuration")
 
   1. In the site map, under **Scheduling**, select **Service Activities**.
   5. Go to **Service Activities**.
@@ -201,7 +201,7 @@ Now you have a requirement group automatically created that has one technician (
 
 The following image is an example configuration of the Resource Requirement Group page. 
 
-![Active Requirements Group](media/ur-scheduling-3-new.png "Active Requirements Group")
+![Active Requirements Group.](media/ur-scheduling-3-new.png "Active Requirements Group")
 
 > [!NOTE] 
 > To access the **Requirement Group** page from the Customer Service Hub app, you need to navigate there via a URL. 
@@ -210,7 +210,7 @@ The following image is an example configuration of the Resource Requirement Grou
 > Use the following URL to reach the **Resource Requirements Group** page: <<YourOrgURL>YourOrgURL>?appid=guid&pagetype=entitylist&etn=msdyn_requirementgroupr.
 
 
-![Test Requirements Group](media/ur-scheduling-4-new.png "Test Requirements Group")
+![Test Requirements Group.](media/ur-scheduling-4-new.png "Test Requirements Group")
 
 3. Go to **General**.
 4. Name field **Test Requirement Group**.
@@ -234,23 +234,23 @@ To execute this search against your organization, you need to download the [samp
 
 1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, organizational unit).    
 
-![Modify the hard-coded input parameters to reflect record GUIDs](media/ur-scheduling-5.PNG)
+![Modify the hard-coded input parameters to reflect record GUIDs.](media/ur-scheduling-5.PNG)
 
 [Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
 
 2. Add the files in the sample folder as web resources in your organization 
 
-![Modify the hard-coded input parameters to add the files in the sample folder](media/ur-scheduling-6-new.png)
+![Modify the hard-coded input parameters to add the files in the sample folder.](media/ur-scheduling-6-new.png)
 
-![Modify the hard-coded input parameters for the sample folder](media/ur-scheduling-7-new.PNG)
+![Modify the hard-coded input parameters for the sample folder.](media/ur-scheduling-7-new.PNG)
 
 3. Navigate to the newly added new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm page. Example: <<YourOrgURL>>//WebResources/new_msdyn_SearchResourceAvailabilityForRequirementGroupSample.htm   
 
-![Navigate to the newly added page](media/ur-scheduling-8.PNG)
+![Navigate to the newly added page.](media/ur-scheduling-8.PNG)
 
 4. Open the browser's developer tools by using the F12 function key. Set breakpoints as needed, and inspect the request/responses in the developer tool's console.  
 
-![Open the browser developer tools](media/ur-scheduling-9.PNG)
+![Open the browser developer tools.](media/ur-scheduling-9.PNG)
 
   We can see there are multiple sets of time slots that are returned with each Set corresponding to a matching available Resource mapped to the underlying Requirement of the Requirement Group.   
 
@@ -258,26 +258,26 @@ To execute this search against your organization, you need to download the [samp
 
 5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group as shown in the example below:    
 
-![Update web resource to pass resource assignments](media/ur-scheduling-10-new.PNG)
+![Update web resource to pass resource assignments.](media/ur-scheduling-10-new.PNG)
 
 > [!IMPORTANT]
 > Find the complete sample code here: [Create Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings).
 
-![Find the sample code](media/ur-scheduling-11-new.png)
+![Find the sample code.](media/ur-scheduling-11-new.png)
 
 6. Navigate to the newly added new_ msdyn_CreateRequirementGroupBookingsSample.htm page. (Example: <<YourOrgURL>>//WebResources/new_msdyn_CreateRequirementGroupBookingsSample.htm) to invoke a call to the Booking API and create the booking.
 
-![Invoke a call to the Booking API](media/ur-scheduling-12.png)
+![Invoke a call to the Booking API.](media/ur-scheduling-12.png)
 
 7. Open the browser's developer tools by using the F12 function key. Here you'll see that the Handler executed value is set to True, indicating that the bookings were created successfully.    
 
-![Handler executed value set to True](media/ur-scheduling-13.png)
+![Handler executed value set to True.](media/ur-scheduling-13.png)
 
   We can also verify this by going back into the organization and checking the associated bookings of the Service/Requirement group we created, as shown in the following illustrations.    
 
-![Check the associated bookings](media/ur-scheduling-14-new.png)
+![Check the associated bookings.](media/ur-scheduling-14-new.png)
 
-![Verify bookings were created successfully](media/ur-scheduling-15-new.png)
+![Verify bookings were created successfully.](media/ur-scheduling-15-new.png)
 
 Other possible scenarios that might leverage these APIs are:   
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
@@ -391,7 +391,7 @@ The scenario-based examples in this section add more details about mapping from 
 
 *The following screenshot from the legacy API is provided for reference in this scenario.*
 
-![Legacy setup screenshot for reference for scenario 1](media/ur-scheduling-16-new.png "Legacy screenshot for reference for scenario 1")
+![Legacy setup screenshot for reference for scenario 1.](media/ur-scheduling-16-new.png "Legacy screenshot for reference for scenario 1")
 
 1. Create one site (**Site1**), one user (**User1**), and one equipment resource (**Facility/Equipment** tab), with the name **Eq1**, with the site set to **Site1**. 
 
@@ -399,7 +399,7 @@ The scenario-based examples in this section add more details about mapping from 
 
 3. Create a new service (**Service1**), and then add **required resources** as **Choose 2** from User1, Eq1. Save and close the service.
 
-![Schedule Service Activity screenshot for scenario 1](media/ur-scheduling-17-new.png "Service Activity screenshot for scenario 1")
+![Schedule Service Activity screenshot for scenario 1.](media/ur-scheduling-17-new.png "Service Activity screenshot for scenario 1")
 
 4. Go to the homepage and schedule a service activity and then, select **Service1**, and then select **Schedule** > **Find available slots**. 
 
@@ -444,7 +444,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 *The following screenshot from the legacy API is provided for reference in this scenario.* 
 
-![Legacy setup screenshot for reference for scenario 2](media/ur-scheduling-18-new.png "Legacy setup screenshot for reference for scenario 2")
+![Legacy setup screenshot for reference for scenario 2.](media/ur-scheduling-18-new.png "Legacy setup screenshot for reference for scenario 2")
 
 1. Create the following: 
   - Two sites: Micr0s0ftSite1 and Site2
@@ -455,7 +455,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 3. Create a new service with status **Reserved** and required resources as **Choose 2** from **same site** from User1, User2, Eq1, Eq2. Save and close the service. 
 
-![Service Activity screenshot for scenario 2](media/ur-scheduling-19-new.png "Service Activity screenshot for scenario 2")
+![Service Activity screenshot for scenario 2.](media/ur-scheduling-19-new.png "Service Activity screenshot for scenario 2")
 
 4. Go to the homepage > **Service Activity** > **Schedule**, and then select the service you created in step 3. Select the site as **Site1**, and then click on **Find available time**. 
 
@@ -496,7 +496,7 @@ response.Dump();
 
 ### Scenario 3: Get proposed schedules that occur within the working hours for an equipment resource
 
-![Legacy setup screenshot for reference for scenario 3](media/ur-scheduling-20-new.png "Legacy setup screenshot for reference for scenario 3")
+![Legacy setup screenshot for reference for scenario 3.](media/ur-scheduling-20-new.png "Legacy setup screenshot for reference for scenario 3")
 
 1. Create two sites (Site1, Site2), and then create three equipment resources (Eq1, Eq2, Eq3). 
 
@@ -504,7 +504,7 @@ response.Dump();
 
 3. Create a new service (**Service1**) Choose 1 from (Random) Eq1, Eq2, #q3.
 
-![Service Activity screenshot for scenario 3](media/ur-scheduling-21-new.png "Service Activity screenshot for scenario 3")
+![Service Activity screenshot for scenario 3.](media/ur-scheduling-21-new.png "Service Activity screenshot for scenario 3")
 
 4. In the **Schedule Service Activity** dialog box, search for proposals for Service1 by adding a required resource as **Eq1** for a specific date range. 
 

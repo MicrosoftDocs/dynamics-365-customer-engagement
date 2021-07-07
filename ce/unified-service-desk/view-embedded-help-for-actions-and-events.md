@@ -26,7 +26,7 @@ ms.custom:
 ## Embedded help for actions  
  When you create an action call for a UII action, the help is displayed below the data field. For information about creating an action call, see [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md).  
   
- ![Embedded help for action](../unified-service-desk/media/crm-itpro-usd-embeddedhelpaction.png "Embedded help for action")  
+ ![Embedded help for action.](../unified-service-desk/media/crm-itpro-usd-embeddedhelpaction.png "Embedded help for action")  
   
 <a name="Events"></a>   
 
@@ -39,7 +39,7 @@ ms.custom:
   
 3. Select an event name from the list and view the event definition. The help is displayed in the lower part of the event definition page.  
   
-   ![Embedded help for events](../unified-service-desk/media/crm-itpro-usd-embeddedhelpevents.png "Embedded help for events")  
+   ![Embedded help for events.](../unified-service-desk/media/crm-itpro-usd-embeddedhelpevents.png "Embedded help for events")  
   
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)

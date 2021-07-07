@@ -76,7 +76,7 @@ process flow:
 
 3.  Under **Customization**, select **Business Process Flows**.
 
-    ![Business Process Flow in site map](media/business-process-flow-sitemap.png "Business Process Flow in site map")
+    ![Business Process Flow in site map.](media/business-process-flow-sitemap.png "Business Process Flow in site map")
 
 4.  On the **Business Process Flows** page, select **Create New**.
 
@@ -93,7 +93,7 @@ process flow:
 
     The new process is created, and the business-process flow designer opens with a single stage already created for you.  
 
-    ![Business Process Flow designer](media/business-flow-designer.png "Business Process Flow designer")
+    ![Business Process Flow designer.](media/business-flow-designer.png "Business Process Flow designer")
 
   
 ### Add stages to your business process flow
@@ -102,7 +102,7 @@ If your users will progress from one business stage to another in the process:
 
 1.  Drag a **Stage** component from the **Components** tab, and drop it on a **+** sign in the designer.
 
-    ![Add stage to a business process flow](media/add-stage-to-bpf.png "Add stage to a business process flow")
+    ![Add stage to a business process flow.](media/add-stage-to-bpf.png "Add stage to a business process flow")
 
 2.  To set the properties for a stage, select the stage, and then set the
     properties in the **Properties** tab on the right side of the screen:
@@ -143,7 +143,7 @@ If your users will progress from one business stage to another in the process:
 
 1.  To see the **Data Steps** in a stage, choose **Details** in the lower-right corner of the stage.
 
-    ![Stage details](media/stage-details-bpf.png "Stage details")
+    ![Stage details.](media/stage-details-bpf.png "Stage details")
 
 2.  To add more steps, drag the **Data Step** component to the stage from the **Components** tab.
 
@@ -163,7 +163,7 @@ If your users will progress from one business stage to another in the process:
 
 1.  To add a branching condition, drag the **Condition** component from the **Components** tab to a **+** sign between two stages.
 
-    ![Add condition to business-process-flow](media/add-condition-bpf.png "Add condition to business-process-flow")
+    ![Add condition to business-process-flow.](media/add-condition-bpf.png "Add condition to business-process-flow")
 
 2.  Select the condition, and then set properties in the **Properties** tab.
 

@@ -1,7 +1,7 @@
 ---
 title: "Setup cannot find the Dynamics 365 for Customer Engagement database primary key constraints | Microsoft Docs"
 description: Environment diagnostics warning that Setup can't find the database primary key constraints
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -18,7 +18,7 @@ monikerRange: ">=dynamics-usd-4"
 
 Unified Interface Settings is a new configuration element introduced under **Advanced Settings** in the Unified Service Desk Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the Unified Service Desk sign-in experience.  
 
-![Unified Interface Settings](../unified-interface/media/usd-crm-unified-interface-settings.PNG "Unified Interface Settings") 
+![Unified Interface Settings.](../unified-interface/media/usd-crm-unified-interface-settings.PNG "Unified Interface Settings") 
 
 In addition, you can now configure the settings like theme, Unified Interface app, and assign users (agents) to the Unified Interface Settings record. After creating a Unified Interface Settings record, you can assign this record to a configuration, so that when the users (agents) sign in to Unified Service Desk client, the system authenticates the users (agents) straight away without showing the application selection window.
 
@@ -43,7 +43,7 @@ In addition, you can now configure the settings like theme, Unified Interface ap
     | Unified Interface App | Select a Unified Interface App for the record. </br> For example, **Customer Service Hub**.|
     | Owner | Add the user profile for the record by choosing the search icon. |
     
-    ![New Unified Interface Settings record](../unified-interface/media/usd-crm-unified-new-record-interface-settings.PNG "New Unified Interface Settings record")
+    ![New Unified Interface Settings record.](../unified-interface/media/usd-crm-unified-new-record-interface-settings.PNG "New Unified Interface Settings record")
 
 7. Select **Save & Close**.
 
@@ -59,14 +59,14 @@ you can add the Unified Interface Settings record to a configuration in two ways
 1. Go to the Unified Interface Setting record for which you want to attach the configuration.
 
 2. Choose **Related** > **Configuration**.<br>
-   ![Add configuration to the unified interface setting record in the Related tab](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the unified interface setting records in the Related tab")
+   ![Add configuration to the unified interface setting record in the Related tab.](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the unified interface setting records in the Related tab")
 
 3. In the **Configuration** tab, select **Add Existing Configuration**.<br>
   > [!Note]
   > You can select **Add New Configuration** to create and then add the configuration to the Unified Interface Settings record. In this walkthrough, we are attaching an already created configuration,**Test Configuration**, to the Unified Interface Settings record.
   
 4. In the **Lookup Records** pane, specify the name of the configuration, and choose search icon.<br> The configuration appears, choose the configuration and then choose **Add**.<br>
-   ![Add configuration to the unified interface setting record](../unified-interface/media/usd-crm-add-configuration-unified-interface-record.PNG "Add configuration to the unified interface setting records")
+   ![Add configuration to the unified interface setting record.](../unified-interface/media/usd-crm-add-configuration-unified-interface-record.PNG "Add configuration to the unified interface setting records")
 
 The configuration is added successfully and appears in the **Configuration** tab.
 
@@ -81,7 +81,7 @@ The configuration is added successfully and appears in the **Configuration** tab
 4. In the **New Configuration** page, specify the required details for the fields. 
 
 5. In the **Unified Interface Settings** field, type the name of the existing Unified Interface record you want to assign, and choose the search icon.<br> Select the record when it appears..<br>
-   ![Add unified interface setting record to the configuration](../unified-interface/media/usd-crm-add-unified-interface-record-configuration.PNG "Add unified interface setting record to the configuration")<br>
+   ![Add unified interface setting record to the configuration.](../unified-interface/media/usd-crm-add-unified-interface-record-configuration.PNG "Add unified interface setting record to the configuration")<br>
     >[!Note]
     > In the above step, we added an existing Unified Interface Settings record to the configuration. To create a new Unified Interface Settings record, see [How to create Unified Interface Setting record](#create-unified-interface-settings-record).
 

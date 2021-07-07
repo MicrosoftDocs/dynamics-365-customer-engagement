@@ -3,7 +3,7 @@ title: "Software requirements for Dynamics 365 Server | Microsoft Docs"
 description: "This article lists the required software requirements for Dynamics 365 Server"
 ms.custom: ""
 ms.date: "05/15/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -104,7 +104,40 @@ This topic lists the software and application requirements for this version of [
 >   
 >  In order for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] to successfully connect to a new deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must run a Repair of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on the server running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] role is installed *after* the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] is successfully completed. <!-- For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md).  -->
 
-## See also  
+
+-   The computer where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is installed must have access to a [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)] service, such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] federation server. [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] supports the following [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] versions: 
+    - [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] 2.1 ([!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)])  
+    - [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)]  Windows Server 2012 R2 AD FS ([!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)])
+    - [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] Windows Server 2016 AD FS.
+    - Active Directory Federation Services for Windows Server 2019 (Windows Server 2019 AD FS).
+  
+-   Note the following conditions for the web components before you configure [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)]:  
+  
+    -   If you are installing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in a single server configuration, be aware that [!INCLUDE[pn_Active_Directory_Fed_Svc2](../includes/pn-active-directory-fed-svc2.md)] installs on the default website. Therefore, you must create a new website for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+  
+    -   When you run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)], [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] must be running on a website that is configured to use [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)]. [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] will not configure the website for [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)].  
+  
+    -   We recommend that the [!INCLUDE[pn_iis](../includes/pn-iis.md)] website where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application will be installed requires [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)].  
+  
+    -   The website should have a single binding. Multiple IIS bindings, such as a website with an HTTPS and an HTTP binding or two HTTPS or two HTTP bindings, are not supported for running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+  
+    -   Access to the [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] federation metadata file from the computer where the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] is run. Note the following:  </br>
+  
+        -   The federation metadata endpoint must use the web services trust model (WS-Trust) 1.3 standard. Endpoints that use a previous standard, such as the WS-Trust 2005 standard, are not supported. In [!INCLUDE[pn_Active_Directory_Fed_Svc2](../includes/pn-active-directory-fed-svc2.md)], all WS-Trust 1.3 endpoints contain /trust/13/ in the URL path.  
+  
+    -   Encryption certificates. The following encryption certificates are required. You can use the same encryption certificate for both purposes, such as when you use a wildcard certificate:  
+  
+        > [!IMPORTANT]
+        >  If you use a certificate that is created by using a custom certificate request, the template that was used must be the **Legacy key** template. Custom certificate requests created by using the **CNG key** template are incompatible with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about custom certificate request templates, see [Create a Custom Certificate Request](https://technet.microsoft.com/library/cc730929.aspx).  
+  
+        -   Claims encryption. Claims-based authentication requires identities to provide an encryption certificate for authentication. This certificate should be trusted by the computer where you are installing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] so it must be located in the local Personal store where the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] is running.  
+  
+        -   [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] (HTTPS) encryption. The certificates for [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] encryption should be valid for host names similar to org.contoso.com, auth.contoso.com, and dev.contoso.com. To satisfy this requirement, you can use a single wildcard certificate (*.contoso.com), a certificate that supports Subject Alternative Names, or individual certificates for each name. Individual certificates for each host name are only valid if you use different servers for each web server role. Multiple [!INCLUDE[pn_iis](../includes/pn-iis.md)] bindings, such as a website with two HTTPS or two HTTP bindings, aren’t supported for running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about available options, contact your certification authority service company or your certification authority administrator.  
+  
+-   The **[!INCLUDE[ui_CRMAppPool](../includes/ui-crmapppool.md)]** account of each Microsoft Dynamics 365 Customer Engagement (on-premises) website must have read permission to the private key of the encryption certificate specified when configuring claims-based authentication. You can use the Certificates [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in to edit permissions for the encryption certificate found in the Personal store of the local computer account.
+
+## See also
+
  [Microsoft SQL Server hardware requirements for Microsoft Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)   
  [Microsoft Dynamics 365 Customer Engagement (on-premises) reporting requirements](microsoft-dynamics-365-reporting-requirements.md)
 

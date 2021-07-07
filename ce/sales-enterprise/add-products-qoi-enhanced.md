@@ -69,7 +69,7 @@ If you've created a quote from an opportunity, the products added to the opportu
 3. In the **Products** grid, select **Add products**.
    The **Add products** dialog box opens.
  
-   ![Screenshot showing the enhanced Add products dialog box](media/enhancedAddProductsDialog.png)
+   ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
 
    > [!NOTE]
    > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview. 

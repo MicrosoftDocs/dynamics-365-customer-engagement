@@ -125,7 +125,7 @@ Perform the steps in this section to set up the intelligent skill finder model. 
     - **Filters**: Optionally, apply filters to conditionally select the relevant records.
     - **Date range**: Select a value to set the time period for which the records need to be loaded.
     
-    ![Configure skill finder model](media/ur-skill-model.png "Configure skill finder model")
+    ![Configure skill finder model.](media/ur-skill-model.png "Configure skill finder model")
 
 4. Select **Save**, and then select **Load training data**. The **Training data** tab appears and displays the data load status.
 5. After the load is complete, review the load, and edit the records if you want to modify the tags.
@@ -137,7 +137,7 @@ Perform the steps in this section to set up the intelligent skill finder model. 
 
 You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. Define the conditions as seen in the following screenshot.
 
-  ![Conditions to fetch data for retraining the model](media/retrain-conditions.png "Conditions to fetch data for retraining the model")
+  ![Conditions to fetch data for retraining the model.](media/retrain-conditions.png "Conditions to fetch data for retraining the model")
 
 ### Use training data imported from Excel file
 
@@ -179,7 +179,7 @@ Perform the following steps to upload the data for training your model:
 2. Select the **Training data** tab, and select **Import Excel**.
 3. Select the .csv files to upload in the import tool.
    
-   ![Import data file using Excel](media/skill-finder-excel.png "Import data file using Excel")
+   ![Import data file using Excel.](media/skill-finder-excel.png "Import data file using Excel")
 
 4. Review the upload settings, and select **Finish** after you go through the stages. The data upload starts. The time taken for the data upload depends on the number of records.
 5. Optionally, you can select **Refresh** to see the updated status of the data upload.

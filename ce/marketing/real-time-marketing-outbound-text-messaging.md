@@ -41,7 +41,7 @@ To generate a phone number to use in real-time marketing, go to **Settings** > *
 Once you agree to the *Voice and text message terms* and select your country or region, you will be provided with a toll-free United States phone number.
 
 > [!div class="mx-imgBorder"]
-> ![Generate phone number screenshot](media/real-time-marketing-text-number.png "Generate phone number screenshot")
+> ![Generate phone number screenshot.](media/real-time-marketing-text-number.png "Generate phone number screenshot")
 
 Toll-free numbers are usually a good option for transactional A2P messaging, which means sending automated messages to large groups. They do not require template registration, therefore, once you get a number you can immediately start sending messages.
 
@@ -56,7 +56,7 @@ Toll-free numbers are usually a good option for transactional A2P messaging, whi
 After you create your phone number, you start authoring text messages by going to **Real-time marketing** > **Channels** > **Text messages** and selecting **+New text message** in the top ribbon. This will take you to the text messaging editor.
 
 > [!div class="mx-imgBorder"]
-> ![Text editor screenshot](media/real-time-marketing-text-editor2.png "Text editor screenshot")
+> ![Text editor screenshot.](media/real-time-marketing-text-editor2.png "Text editor screenshot")
 
 > [!IMPORTANT]
 > In the text messaging editor, the message designation is preselected as transactional for numbers that might be prone to carrier filtering if used for promotional or marketing messaging. To make sure your number isn't blocked by carriers, it's highly recommended to use this number for transactional messaging only.
@@ -69,7 +69,7 @@ Personalizing text messages allows you to insert dynamic data that is unique to 
 
 To personalize a text message:
 
-1. Select **Personalization** ![The Personalization button](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+1. Select **Personalization** ![The Personalization button.](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
 1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
 1. After choosing the data source, you can search for the specific attribute or event trigger you want.
 1. Add a **Label** to quickly identify your token in the message content.

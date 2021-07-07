@@ -33,7 +33,7 @@ You can see a list of all your event records by [opening the **Events** work are
 If you often run similar events, you can save time by creating one or more [event templates](event-templates.md) and then choosing an appropriate template when you first create a new event.
 
 > [!div class="mx-imgBorder"]
-> ![Example of an event record](media/event-record2.png)
+> ![Example of an event record.](media/event-record2.png)
 
 As with other forms in Dynamics 365, the event form provides a summary of its most important settings at the top, where you'll also find the business workflow timeline, which helps organize your work at each stage of the event-management process. A standard business workflow for events is provided out of the box, but you can customize it to match the process in place at your organization.
 
@@ -128,7 +128,7 @@ The **Room reservations** tab provides a calendar that shows the rooms assigned 
 The **Recovery items** tab allows system administrators to track customization errors, improving the event workflow creation process. This tab contains a grid with customization errors and gives administrators options to handle them. For events, typical errors occur during registration on event websites.
 
 > [!div class="mx-imgBorder"]
-> ![List of event recovery items](media/event-recovery-items.png)
+> ![List of event recovery items.](media/event-recovery-items.png)
 
 After selecting rows in the Recovery items tab, you can delete the items (which will delete them from blob storage), or you can fix the issue and "recover" any item, which will replay the previously failed functionality.
 

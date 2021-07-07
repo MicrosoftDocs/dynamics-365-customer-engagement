@@ -38,7 +38,7 @@ To manage keywords:
 1. Go to **Marketing** > **Marketing content** > **Keywords**. You now see a list of all existing keywords.
 
 1. On the command bar, select **New** to create a new keyword. Its only setting is **Name**.  
-    ![Enter the keyword name](media/keyword-name.png "Enter the keyword name")
+    ![Enter the keyword name.](media/keyword-name.png "Enter the keyword name")
 
 1. Select **Save** to save your keyword.
 
@@ -51,7 +51,7 @@ To view and edit your image library:
 2. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
 
 3. Either drag a file from File Explorer to this dialog box or choose **browse** to locate and choose an image by using a file browser window.  
-    ![The Upload Files dialog](media/files-upload.png "The Upload Files dialog box")
+    ![The Upload Files dialog.](media/files-upload.png "The Upload Files dialog box")
 
 4. While working here, you can:
     - Drag several images to add more than one image at a time.

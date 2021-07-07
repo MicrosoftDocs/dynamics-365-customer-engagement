@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement system database table is missing | Microsoft Docs"
 description: Environment diagnostics warning that the system database table is missing.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

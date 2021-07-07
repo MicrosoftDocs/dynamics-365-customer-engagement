@@ -35,7 +35,7 @@ A service requires at least one selection rule and one or more resources, resour
 
 3. Select **Services**.
   
-   ![Select Services](media/uci-services-navigation.png "Services selection on the left-hand panel")
+   ![Select Services.](media/uci-services-navigation.png "Services selection on the left-hand panel")
 
 4. Do one of the following:
   - To create a new service, select **New**.
@@ -52,11 +52,11 @@ A service requires at least one selection rule and one or more resources, resour
     
     d. In **Beginning At**, select the time when the service activities must begin.
   
-   ![Edit scheduling details](media/uci-new-service.png "Edit scheduling details such as start times and duration")
+   ![Edit scheduling details.](media/uci-new-service.png "Edit scheduling details such as start times and duration")
    
 6. On the **Required Resources** tab, define a selection rule.
   
-   ![Define selection rule](media/uci-define-selection-rule.png "Define a selection rule on the Required Resources tab")
+   ![Define selection rule.](media/uci-define-selection-rule.png "Define a selection rule on the Required Resources tab")
    
     |Option  |Description|
     |---------|---------|
@@ -73,7 +73,7 @@ A service requires at least one selection rule and one or more resources, resour
 
 You can make a service available or unavailable for scheduling by activating or deactivating it.
   
-   ![Activate or deactivate service](media/uci-activate-deactivate-service.png "Activate or deactivate a service")
+   ![Activate or deactivate service.](media/uci-activate-deactivate-service.png "Activate or deactivate a service")
 
 
 ### See also  

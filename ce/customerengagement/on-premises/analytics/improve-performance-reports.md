@@ -4,7 +4,7 @@ description: "This page offers guidelines that can help you improve the performa
 ms.custom: 
 ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
