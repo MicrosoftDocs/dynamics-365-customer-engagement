@@ -1,7 +1,8 @@
 ---
-title: "Example: Display the top X values (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Display top X values in Dynamics 365 Customer Engagement (on-premises)"
+description: "The following example describes how to author a report that displays the top X items of an entity in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
