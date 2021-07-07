@@ -77,8 +77,8 @@ Work is routed to the default queues that act as a safety net in the following s
 - Work item encounters an error when running a route to queue rule
 - Work item does not match any route to queue rules
 
- > [NOTE]
- > When you configure route to queues for work classification, we recommend that you don't select the default queues.
+> [!NOTE]
+> When you configure route to queues for work classification, we recommend that you don't select the default queues.
 
 The default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues. Therefore, the membership of these default queues also can't be changed.
 
