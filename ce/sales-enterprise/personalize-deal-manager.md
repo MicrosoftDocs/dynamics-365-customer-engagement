@@ -32,7 +32,9 @@ The deal manager workspace lists important metrics related to the sales pipeline
 1. In the Sales Hub sitemap, select **Deal manager (preview)**.
 1. Select **Combo** > **Edit Metrics**.
    In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
+
     :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics" lightbox="media/deal-manager-editmetrics.png":::
+
 1. To create a metric,
     1. Select **Create a Metric**.
     1. Select the field and the aggregate function that you want to use for calculating the metric.
@@ -65,6 +67,7 @@ Personalize the grid to include columns that you want to see and update quickly.
           Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are Smart columns](#what-are-smart-columns). 
 
           :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating Edit columns option and the side panel " lightbox="media/deal-manager-editcolumns.png":::
+
     2. To show or hide columns, select or clear the checkboxes. You cannot delete the default columns from the grid. However, you can hide them.
     1. To rearrange columns, drag-and-drop the columns in the **Edit columns** panel or in the grid.
 1. To sort the columns, select the column drop-down and select the sort option.
