@@ -1,7 +1,7 @@
 ---
 title: "Configure the email experience in customer engagement apps | MicrosoftDocs"
 description: "Learn how to configure the email experience in customer engagement apps."
-ms.date: 04/05/2021
+ms.date: 06/25/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -13,6 +13,9 @@ ms.reviewer: nenellim
 
 The email configuration experience enables users to be more effective and efficient when using email to communicate with customers. This topic discusses how to configure the email editor, email template builder, and email signature builder, which accepts the full configuration capability of the Rich Text Editor control.
 
+> [!NOTE]
+> If you're using the Activity Editor control, we recommend that you use the rich text editor control instead, as the Activity Editor control has been deprecated. For details, see [Use the rich text editor control in Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
+
 Each instance of the email editor or builder can be configured independently, enabling you to:
 
 - Choose the fonts you want
@@ -21,7 +24,7 @@ Each instance of the email editor or builder can be configured independently, en
 - Adjust the toolbar location and buttons
 - Automatically increase the editor height to fit the content
 - Access HTML
-- Configure [CKEditor-supported properties](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops) in email experiences (including email editor, email template builder, and signature builder)
+- Configure [the rich text editor control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control) in email experiences (including email editor, email template builder, and signature builder)
 
 ## Configure the Email form by using a web resource file
 

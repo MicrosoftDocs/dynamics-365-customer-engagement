@@ -18,13 +18,13 @@ Sound notifications for incoming conversation requests, such as live chat, that 
 
 > [!IMPORTANT]
 >
-> Make sure that the browser settings allow sounds to be played. In Microsoft Edge, sound is allowed by default. For information on how to enable sound notifications for browsers, see the browser-specific documentation.
+> Make sure that the settings of the browser that the agent uses allow sounds to be played. In Microsoft Edge, sound is allowed by default. For information on how to enable sound notifications for other browsers, see the browser-specific documentation.
 
 ## Enable sound notifications
 
 When you enable sound settings, the options to personalize settings are available for all the channels that are provisioned in your environment.
 
-1. In the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
+1. In Omnichannel admin center, under **Advanced settings**, select **Agent experience**, and then select **Manage** for **Notification templates**. If you are using the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
 2. On the Omnichannel Configuration - Notifications page, select **Sound notification settings**.
 3. Set the toggle to **Yes** for **Enable sound notifications**. The **Sound settings** area is displayed.
 
