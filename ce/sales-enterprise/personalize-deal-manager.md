@@ -1,6 +1,6 @@
 ---
 title: "Personalize deal manager workspace - Sales Enterprise | MicrosoftDocs"
-description: "As a seller, personalize the grid and apply filters to suit your needs. You can then save your changes as a new view that you can switch to quickly."
+description: "As a seller, personalize the grid and apply filters to suit your needs."
 ms.date: 06/30/2021
 ms.topic: article
 author: lavanyakr01
@@ -21,21 +21,18 @@ As a seller, you can personalize the deal manager workspace to suit your needs. 
 - Apply filters to view records that are important to you.
 - Change the layout of the workspace to either list (grid only) or combo (grid and chart).  
 - Change the metrics displayed at the top of the workspace.
-- Save all your personalization changes as a view so that you don't have to modify every time.  
-- Create different views for different purposes and switch between them easily. 
+
 
 ## Personalize the metrics 
 
 The deal manager workspace lists important metrics related to the sales pipeline at the top of the workspace. You can personalize this space to view metrics that you want to track.  
-
-> [!NOTE]
-> After you personalize the metrics, save the changes as a view. Otherwise, the metrics will be lost if you switch to a different page or refresh the browser.
 
 **To personalize metrics:**
 
 1. In the Sales Hub sitemap, select **Deal manager (preview)**.
 1. Select **Combo** > **Edit Metrics**.
    In the **Edit metrics** side panel, you can create, update, remove, or delete a metric.
+    :::image type="content" source="media/deal-manager-editmetrics.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics":::
 1. To create a metric,
     1. Select **Create a Metric**.
     1. Select the field and the aggregate function that you want to use for calculating the metric.
@@ -44,11 +41,10 @@ The deal manager workspace lists important metrics related to the sales pipeline
     - **Field:** Est. Revenue
     - **Aggregate function:** Sum
     - **Filters**
-        - **Created On**: This year
-        - **Sales Stage**: Develop 
+        - **Created On**: This year  
+        - **Sales Stage**: Develop  
 2. To edit a metric, hover over the metric and select the **Edit** icon.
 3. To remove a metric temporarily, clear the checkbox against the metric.
-1. Save the changes to a view so that the personalized metrics are available even after you navigate away from the page.
 
 ## Personalize the grid
 
@@ -67,16 +63,15 @@ Personalize the grid to include columns that you want to see and update quickly.
           Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
         - **Smart column**
           Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see (What are Smart columns?)[#smart-columns] 
-          <!--Need to add a screenshot-->
+          :::image type="content" source="media/deal-manager-editcolumns.png" alt-text="Screenshot illustrating Edit columns option and the side panel ":::
     2. To show or hide columns, select or clear the checkboxes. You cannot delete the default columns from the grid. However, you can hide them.
     1. To rearrange columns, drag-and-drop the columns in the **Edit columns** panel or in the grid.
 1. To sort the columns, select the column drop-down and select the sort option.
 1. To group the records by a column, select **Group by** and then select the column that you want to use for grouping. For example, to group opportunities based on different sales stages, group by the Sales stage column.
-1. Save the changes to a view.
    
 ### What are Smart columns
 
-A smart column performs certain computations on the existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed, else it displays the estimated revenue. These columns save you the trouble of manual computation and makes it easy for you to look at opportunities that need your attention. For example, the **Next activity** column displays the upcoming and overdue activities so that you can stay on top of your deals.  
+A smart column performs certain computations on the existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed, else it displays the estimated revenue. These columns save you the trouble of manual computation and makes it easy for you to look at opportunities that need your attention. 
 
 The following smart columns are available:
 
@@ -85,23 +80,8 @@ The following smart columns are available:
 |---------|---------|---------|
 |Close date     | Displays the actual close date if the opportunity is closed, else it displays the estimated close date.         |None         |
 |Revenue     |Displays the actual revenue if the opportunity is closed, else it displays the estimated revenue.         |None         |
-|Last activity     |Displays the days elapsed since the last interaction on the opportunity.         |Add activity from the column         |
-|Next activity     |Displays the next activity and its date if all the activities in the past are closed. If any of the activities in the past are still open, this column displays the list of open activities, along with a Overdue warning.          |  View activity, add activity, or change activity status       |
 
-## Create views
-Create views to save your personalization. Create multiple views and switch between them depending on the data that you want to see.
 
-**To create a view:**
-1. In the deal manager workspace, select **View > Create Personal View**.
-1. In the View Designer, personalize the columns and apply filters.
-1. Save the changes.
-
-## Switch to a view
-You can create multiple view and switch between them in the views drop-down.
-
-## Edit a view
-Edit an existing view to change the existing personalization in that view. 
-In the deal manager workspace, select **View > Edit Personal View**.
  
 
 ### See also

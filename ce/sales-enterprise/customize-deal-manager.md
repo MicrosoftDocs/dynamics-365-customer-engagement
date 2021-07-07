@@ -17,9 +17,36 @@ manager: shujoshi
 
 As an administrator, you can customize the workspace to enhance your sales team's productivity. For example, depending on the information that your sales team wants to view or update quickly, you can customize the grid or side panel. You can customize the following objects in the deal manager:
 
+- [Charts](#customize-the-charts)
 - [Editable grid](#customize-the-editable-grid-in-deal-manager)
 - [Side panel](#customize-the-side-panel)
-- [Charts](#customize-the-charts)
+
+## Customize the charts
+
+The deal manager charts help sellers visualize their pipeline better. As an administrator, you can customize various elements in the bubble chart such as, the data on x and y-axis, size of the bubble, sort order, and tool tips.
+
+> [!NOTE]
+> Customization of the sales funnel chart is not supported in this release.  
+ 
+**To customize the bubble chart:**
+
+1. Access the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page.
+1. In the **Manage charts** section, edit the **Deal tracker** chart. 
+1. Customize the following elements:
+    - **Horizontal (x) axis**
+      Select any field of type *DateTime*. For example, you can choose to plot the chart based on delivered date instead of closed date.  
+    - **Vertical (y) axis**
+      Select any *numerical* field to plot on the vertical axis.   
+    - **Segment by**
+        Select how you want distinguish the bubbles using different color codes. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline such as identify, qualify, propose, and so on.   
+    - **Size**
+        Select a *numerical* field to indicate the size of the bubble.   
+    - **Sort legend**
+    - Not sure what this is.  
+    - **Tooltips**
+        Select the details that you want to see as tooltips when you hover each  bubble.  
+1. Save the changes. Access the deal manager workspace to verify if the changes are effective.
+
 
 ## Customize the editable grid in deal manager
 
@@ -75,7 +102,10 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
 ## Customize the side panel
 
-The side panel helps sellers view quick details about a selected record. It offers more details about the record, notes and tasks, and activities associated with the record. The following customizations are supported for side panel:
+The side panel helps sellers view quick details about a selected record. It offers more details about the record, and displays notes and tasks, and activities associated with the record. 
+
+**Supported customizations**
+The following customizations are supported for side panel:
 
 - Define (add/remove) fields in the header
 -	Define (add/remove) fields in the **Key Details** section
@@ -83,6 +113,16 @@ The side panel helps sellers view quick details about a selected record. It offe
 -	Set field requirement (for example, read-only)
 -	Enable or disable tabs
 -	Rearrange tabs
+
+**Unsupported customizations**
+The following customizations are not supported for side panel in this release:
+
+-	Adding custom tabs or sections
+-	Adding a web resource
+-	Adding a subgrid
+-	Changing the format or layout for header, tabs, sections, and fields
+-	Changing certain properties for header, tabs, sections, and fields. For example, the available on phone property cannot be changed. 
+
 
 **To customize the side panel:**
 1. Sign in to [Power Apps](https://make.powerapps.com/)
@@ -93,28 +133,6 @@ The side panel helps sellers view quick details about a selected record. It offe
 1. Search for the **In Context View** form and edit the form to manage the fields that appear in the side panel.
     :::image type="content" source="media/incontexview.PNG" alt-text="In context view form in power apps":::
 
-## Customize the charts
-
-The deal manager charts help sellers visualize their pipeline better. As an administrator, you can customize various elements in the chart such as, the data on x and y-axis, size of the bubble, sort order, and tool tips. 
- 
-**To customize the bubble chart:**
-
-1. Access the [deal manager settings](enable-deal-manager-preview.md#access-deal-manager-settings) page.
-1. In the **Manage charts** section, edit the **Deal tracker** chart. 
-1. Customize the following elements:
-    - **Horizontal (x) axis**
-      Select any field of type *DateTime*. For example, you can choose to plot the chart based on delivered date instead of closed date.  
-    - **Vertical (y) axis**
-      Select any *numerical* field to plot on the vertical axis.   
-    - **Segment by**
-        Select how you want distinguish the bubbles using different color codes. For example, select **Pipeline Phase** to distinguish the bubbles based on the different phases of the pipeline such as identify, qualify, propose, and so on.   
-    - **Size**
-        Select a *numerical* field to indicate the size of the bubble.   
-    - **Sort legend**
-    - Not sure what this is.  
-    - **Tooltips**
-        Select the details that you want to see as tooltips when you hover each  bubble.  
-1. Save the changes. Access the deal manager workspace to verify if the changes are effective.
 
 
 ### See also
