@@ -1,7 +1,7 @@
 ---
 title: "Enable sound notifications for conversations in Omnichannel for Customer Service | MicrosoftDocs"
 description: "How to enable sound notifications for conversations in Omnichannel for Customer Service."
-ms.date: 10/12/2020
+ms.date: 07/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,9 +16,9 @@ manager: shujoshi
 
 Sound notifications for incoming conversation requests, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows agents to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
-> [!IMPORTANT]
->
-> Make sure that the settings of the browser that the agent uses allow sounds to be played. In Microsoft Edge, sound is allowed by default. For information on how to enable sound notifications for other browsers, see the browser-specific documentation.
+## Prerequisite for sound notifications
+
+Make sure the browser used by agents use allow sounds to be played. In Microsoft Edge, sound is allowed by default. However, if for some reason, sound settings are turned off, you can enable them by going to the [media autoplay](edge://settings/content/mediaAutoplay) setting in Microsoft Edge. For information on how to enable sound notifications for other browsers, see the browser-specific documentation.
 
 ## Enable sound notifications
 
