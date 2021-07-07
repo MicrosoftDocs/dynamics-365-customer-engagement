@@ -1,7 +1,7 @@
 ---
 title: "Email bounce categories (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A comprehensive list of email bounce categories and definitions for Dynamics 365 Marketing."
-ms.date: 12/14/2020
+ms.date: 06/29/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -75,6 +75,13 @@ Policy-related errors may also indicate that the recipient’s server can't iden
 **message-expired** – This category results when, within the lifecycle of the email message, it was not able to be delivered to the recipient because of sending limitations or transient errors. If this error occurs frequently, you should open a support ticket to resolve it.
 
 **other** – This category stands for uncategorized or atypical errors. We review and categorize such errors regularly.
+
+## Analyze detailed bounce error messages
+
+You can investigate bounce error details in your customer journey to correct any errors. To review bounce errors details, select the contact that bounced, or open your customer journey and go to the **Delivery** tab.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing email bounce details](media/email-bounce-categories-errors.png "Screenshot showing email bounce details")
 
 ### See also
 

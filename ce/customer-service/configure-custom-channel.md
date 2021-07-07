@@ -90,7 +90,7 @@ To configure other options in the work stream, see the following:
 - [Skill-based routing](overview-skill-work-distribution.md)
 - [Productivity tools](../app-profile-manager/productivity-tools.md)
 - [Smart assist](../app-profile-manager/smart-assist.md)
-- [Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)
+- [Templates](/dynamics365/app-profile-manager/templates-overview)
 
 ## Step 4: Create a custom messaging account
 
@@ -225,7 +225,7 @@ For more information, see the developer guide, [Bring your own custom messaging 
 [Skill-based routing](overview-skill-work-distribution.md)  
 [Productivity tools](../app-profile-manager/productivity-tools.md)  
 [Smart assist](../app-profile-manager/smart-assist.md)  
-[Templates](/dynamics365/customer-servi/app-profile-manager/templates-overview)  
+[Templates](/dynamics365/app-profile-manager/templates-overview)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
