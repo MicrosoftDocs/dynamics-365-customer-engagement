@@ -19,7 +19,7 @@ manager: kvivek
 
 This topic describes how to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint Online. <!-- The following diagram illustrates the communication between Dynamics 365 (on-premises), [Azure AD Domain Services](/azure/active-directory-domain-services/overview), and SharePoint Online. -->
 
-<!-- ![Dynamics 365 (on-premises) and SharePoint Online](images/Mt171421.7ec0a85e-1bfd-43f8-a0bc-f01cf8163275(CRM.8).jpeg "Customer Engagement (on-premises) and SharePoint Online")  -->
+<!-- ![Dynamics 365 (on-premises) and SharePoint Online.](images/Mt171421.7ec0a85e-1bfd-43f8-a0bc-f01cf8163275(CRM.8).jpeg "Customer Engagement (on-premises) and SharePoint Online")  -->
 
 ## Permissions required
 

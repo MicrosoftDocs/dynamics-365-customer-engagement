@@ -69,11 +69,11 @@ The following capabilities are available in the different app experiences, depen
 
 If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here:
 
-![open-sitemap](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
+![open-sitemap.](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
 If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the app tiles in the app switcher as shown here:
 
-![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
+![csh-mobile.](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
 > Looking forward to upgrade to the Customer Service Workspace or Customer Service Hub app? See [Upgrade to Customer Service Hub](upgrade-ish-csh.md)

@@ -32,17 +32,17 @@ When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.
   
 - Get Presence information for members of the same email domain you are signed in with in [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
   
-  ![Call a contact with Skype](../admin/media/crm-itpro-crmo365tg2-kimpresence.png "Call a contact with Skype")  
+  ![Call a contact with Skype.](../admin/media/crm-itpro-crmo365tg2-kimpresence.png "Call a contact with Skype")  
   
 ## Set up Skype in Microsoft Dynamics 365 for Customer Engagement apps (online)  
   
 1. Verify that IM presence is enabled in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Go to **Settings** > **Administration** > **System Settings** > **General tab**.  
   
-   ![Set the IM presence option](../admin/media/crm-itpro-crmo365tg2-presencesetting.png "Set the IM presence option")  
+   ![Set the IM presence option.](../admin/media/crm-itpro-crmo365tg2-presencesetting.png "Set the IM presence option")  
   
 2. In **System Settings**, set the telephony provider to [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
   
-   ![Select Skype or Lync as the provider](../admin/media/crm-itpro-crmo365tg2-lyncprovider.png "Select Skype or Lync as the provider")  
+   ![Select Skype or Lync as the provider.](../admin/media/crm-itpro-crmo365tg2-lyncprovider.png "Select Skype or Lync as the provider")  
   
 3. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
@@ -62,12 +62,12 @@ When you use [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.
   
 6. Choose the **external communications** tab. Review and set the **external access** and public **IM connectivity** settings.  
   
-   ![Lync admin center external communications settings](../admin/media/crm-itpro-crmo365tg2-lyncsettingsexternal.png "Lync admin center external communications settings")  
+   ![Lync admin center external communications settings.](../admin/media/crm-itpro-crmo365tg2-lyncsettingsexternal.png "Lync admin center external communications settings")  
   
 ## Tracking Skype  
  Now that [!INCLUDE[pn_skype](../includes/pn-skype.md)] is setup, your [!INCLUDE[pn_skype](../includes/pn-skype.md)] calls are tracked as activities.  
   
- ![Lync calls tracked as activities](../admin/media/crm-itpro-crmo365tg2-lynctrack.png "Lync calls tracked as activities")  
+ ![Lync calls tracked as activities.](../admin/media/crm-itpro-crmo365tg2-lynctrack.png "Lync calls tracked as activities")  
   
 ### See also 
  [Skype for Business and Skype integration with Microsoft Dynamics 365 for Customer Engagement](skype-business-integration.md)   

@@ -30,14 +30,14 @@ search.audienceType:
 > [!IMPORTANT]
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
   
- ![Dashboard of an Microsoft 365 group](../basics/media/office-groups-dashboard.png "Dashboard of an Microsoft 365 group")  
+ ![Dashboard of an Microsoft 365 group.](../basics/media/office-groups-dashboard.png "Dashboard of an Microsoft 365 group")  
   
  Collaborate through meetings, conversations, notes, or documents.  
   
 > [!NOTE]
 >  Check out the following for a quick introduction to [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
 > 
-> - [![Video symbol](../basics/media/video-button.png "Video symbol")](https://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=723955).  
+> - [![Video symbol](../basics/media/video-button.png "Video symbol."](https://go.microsoft.com/fwlink/p/?LinkId=404225) Video: [Introducing Groups in Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkID=723955).  
 >   -   [Learn more about groups](https://support.office.com/article/Learn-more-about-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2?ct=t\(GS_SPO1_11_2015\)&ui=en-US&rs=en-US&ad=US).  
   
 ## Prerequisites  

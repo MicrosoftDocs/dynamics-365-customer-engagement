@@ -26,7 +26,7 @@ You can create categories to classify playbooks. For example, categories could b
 
 1.  Make sure you have a Playbook manager role or equivalent permissions.
 
-2.  In the site map, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
+2.  In the site map, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**. 
 
 3.  Select **Playbook categories**.
 

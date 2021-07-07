@@ -34,7 +34,7 @@ Set whether the Import Data wizard checks for and handles duplicate data on impo
   
 ### Set who owns the imported data  
   
-1.  To set who owns the imported records, in the **Select Owner for the Imported Records** section, click or tap the **Lookup** button ![Lookup button](../basics/media/lookup-button-4.gif "Lookup button").  
+1.  To set who owns the imported records, in the **Select Owner for the Imported Records** section, click or tap the **Lookup** button ![Lookup button.](../basics/media/lookup-button-4.gif "Lookup button").  
   
     > [!IMPORTANT]
     >  Who should "own" the imported data? Most security roles allow people to view the data. However, the owner is also allowed to edit and share it. Here's an example: If your import file contains contacts you collected at a trade show and you want to assign a user to follow up with these contacts, select that person for the owner.  
@@ -43,7 +43,7 @@ Set whether the Import Data wizard checks for and handles duplicate data on impo
     >   
     >  Also, if applicable, ownership is assigned to the person defined in the data map metadata and users.csv file.  
   
-2.  In the search box, type the person's name, then click or tap the **Lookup** button ![Lookup button](../basics/media/lookup-button-4.gif "Lookup button").  
+2.  In the search box, type the person's name, then click or tap the **Lookup** button ![Lookup button.](../basics/media/lookup-button-4.gif "Lookup button").  
   
 3.  Select the name, then click or tap **Add**.  
   

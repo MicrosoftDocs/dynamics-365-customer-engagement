@@ -21,7 +21,7 @@ manager: kvivek
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on-premises deployments require Internet Facing Deployment (IFD) for users to access their data on their tablets. If you have your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] website available over the internet but it is not using the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] IFD configuration, **it is not supported**.  To verify that your on-premises deployment is configured for IFD, open [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)] on your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Server.  The Authentication Summary section should show that both Claims-Based Authentication and Internet-Facing Deployment are enabled.  
   
- ![Dynamics 365 IFD settings](media/crm-ua-moca-claims.png "Dynamics 365 IFD settings")  
+ ![Dynamics 365 IFD settings.](media/crm-ua-moca-claims.png "Dynamics 365 IFD settings")  
   
 > [!IMPORTANT]
 >  For [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] to successfully connect to a new deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must run a Repair of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on the server running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] role is installed *after* the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] is successfully completed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Uninstall, change, or repair Microsoft Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md).  

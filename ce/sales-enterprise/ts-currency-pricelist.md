@@ -60,12 +60,12 @@ You can change the currency and price list for the entities in the following sta
 2. For an opportunity: go to the **Product Line Items** tab, and then delete the products from the list.
 
     > [!div class="mx-imgBorder"]
-    > ![Delete products from the product list in an opportunity form](media/ts-currency-opportunity-product-list.png "Delete products from the product list in an opportunity form")
+    > ![Delete products from the product list in an opportunity form.](media/ts-currency-opportunity-product-list.png "Delete products from the product list in an opportunity form")
 
     For a quote, order, or invoice: On the **Summary** tab, go to the **PRODUCTS** section, and delete the products from the list.
 
     > [!div class="mx-imgBorder"]
-    > ![Delete products from the product list in quote, order, or invoice forms](media/ts-currency-qoi-product-list.png "Delete products from the product list in quote, order, or invoice forms")
+    > ![Delete products from the product list in quote, order, or invoice forms.](media/ts-currency-qoi-product-list.png "Delete products from the product list in quote, order, or invoice forms")
 
 3. On the **Summary** tab, change the currency to the value you want, and then save the form. 
 

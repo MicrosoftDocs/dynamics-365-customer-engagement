@@ -25,7 +25,7 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
   
  When a user starts a business process flow, the stages and steps of the process are displayed in the process bar at the top of a form:  
   
- ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
+ ![Business process with stages.](../customize/media/business-process-stages.png "Business process with stages")  
   
  Dynamics 365 Customer Engagement (on-premises) comes with several ready-to-use business process flows for common business scenarios. Add them to your system and use as is, or modify them to fit your business needs. To find out how to add ready-to-use business process flows, see [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).  
   
@@ -56,13 +56,13 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
   
      The new process is created, and the business process flow designer opens with a single stage already created for you.  
   
-   ![Business process flow window showing main elements](../customize/media/business-process-flow-window-showing-main-elements.png "Business process flow window showing main elements")  
+   ![Business process flow window showing main elements.](../customize/media/business-process-flow-window-showing-main-elements.png "Business process flow window showing main elements")  
   
 7. **Add stages.** If your users will progress from one business stage to another in the  process:  
   
     1.  Drag a **Stage** component from the **Components** tab and drop it on a + sign in the designer.  
   
-        ![Drag a business process stage](../customize/media/drag-business-process-stage.png "Drag a business process stage")  
+        ![Drag a business process stage.](../customize/media/drag-business-process-stage.png "Drag a business process stage")  
   
     2.  To set the properties for a stage, select the stage, and then set the properties in the **Properties** tab on the right side of the screen:  
   
@@ -70,7 +70,7 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
   
         -   If desired, select a category for the stage.  The category  (such as **Qualify** or **Develop**) appears as a chevron in the process bar.  
   
-            ![Business process bar chevron](../customize/media/business-process-bar-chevron.png "Business process bar chevron")  
+            ![Business process bar chevron.](../customize/media/business-process-bar-chevron.png "Business process bar chevron")  
   
         -   When you're done changing properties, select the **Apply** button.  
   
@@ -78,7 +78,7 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
   
     1.  Drag the **Step** component to the stage from the **Components** tab.  
   
-        ![Add step to a stage in a business process](../customize/media/add-step-stage-business-process.png "Add step to a stage in a business process")  
+        ![Add step to a stage in a business process.](../customize/media/add-step-stage-business-process.png "Add step to a stage in a business process")  
   
     2.  Select the step, and then set properties in the **Properties** tab:  
   
@@ -94,7 +94,7 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
   
     1.  Drag the **Condition** component from the **Components** tab to a + sign between two stages.  
   
-        ![Add a Condition to a business process flow](../customize/media/add-condition-business-process-flow.png "Add a Condition to a business process flow")  
+        ![Add a Condition to a business process flow.](../customize/media/add-condition-business-process-flow.png "Add a Condition to a business process flow")  
   
     2.  Select the condition, and then set properties in the **Properties** tab. For more information on branching properties, see [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md). When you're finished setting properties for the condition, select **Apply**.  
   
@@ -134,7 +134,7 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
      > [!NOTE]
      > The **System Administrator** and **System Customizer** security roles have access to new business process flows by default.
 
-     ![Assign privileges for your business process flow](media/bpf-assign-privileges.png)
+     ![Assign privileges for your business process flow.](media/bpf-assign-privileges.png)
 
      Specify privileges by selecting the appropriate radio buttons, and click **Save**. For more information about privileges, see [Business process flow privileges](business-process-flows-overview.md#business-process-flow-privileges).
 
@@ -153,7 +153,7 @@ This topic shows how to create a business process flow with Dynamics 365 Custome
   
  When you select the name  of the business process flow you want to edit from the list of processes, it opens in the designer, where you can make any updates you want. Expand **Details** under the name of the process to rename it or add a description, and view additional information.  
   
- ![Expanded details section of a business process flow](../customize/media/business-process-flow-details.png "Expanded details section of a business process flow")  
+ ![Expanded details section of a business process flow.](../customize/media/business-process-flow-details.png "Expanded details section of a business process flow")  
   
   
  ## Other things to know about business process flows

@@ -39,7 +39,7 @@ search.audienceType:
   
  The definition for the 1:N relationship has four parts: **Relationship Definition**, **Lookup Field**, **Navigation Pane Item for Primary Entity**, and **Relationship Behavior**.  
   
- ![1:N Entity Relationship](../customize/media/cust-1n-relationship-properties.png "1:N Entity Relationship")  
+ ![1:N Entity Relationship.](../customize/media/cust-1n-relationship-properties.png "1:N Entity Relationship")  
   
 ## Create or edit 1:N relationships between entities  
   

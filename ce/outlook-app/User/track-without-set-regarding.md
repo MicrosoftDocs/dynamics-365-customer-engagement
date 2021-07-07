@@ -33,24 +33,24 @@ Use **Track without Regarding** in Dynamics 365 App for Outlook to track an emai
 2. Select **Dynamics 365** to open the **Dynamics 365** pane.  
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane](../media/open-pane-appforoutlook.png)  
+   > ![Open App for Outlook pane.](../media/open-pane-appforoutlook.png)  
 
 3. Next to **Not tracked**, select **More commands** > **Track without Regarding**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select track without linking the item to a specific row in your app](../media/track-without-regarding.gif)
+   > ![Select track without linking the item to a specific row in your app.](../media/track-without-regarding.gif)
    
 4. The status of the meeting invitation changes to **Processing, please wait** for both the user and the delegated user. Don't close the Outlook item until the status changes to **Track pending**. If you close it too early, then the item may not track successfully. Once the email has finished synchronizing in Microsoft Dataverse, the status of the meeting invitation changes to **Tracked** for both the user and the delegated user.
 
 
 ### View the linked item using Track without Regarding in your app 
 
-1. To see the item in your app, next to **Tracked regarding**, select **More commands** ![More commands for tracked regarding](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
+1. To see the item in your app, next to **Tracked regarding**, select **More commands** ![More commands for tracked regarding.](../media/more-command-button-tracked-regarding.png) > **View in Dynamics 365**.
 
    > [!div class="mx-imgBorder"] 
-   > ![View the tracked item in Dynamics 365](../media/view-in-app.png)  
+   > ![View the tracked item in Dynamics 365.](../media/view-in-app.png)  
 
 2. The item is created as an email activity in  Dynamics 365 and isn't linked to a specific row.
 
    > [!div class="mx-imgBorder"] 
-   > ![See the track without regarding item in your app](../media/track-without-regarding-in-app.png)
+   > ![See the track without regarding item in your app.](../media/track-without-regarding-in-app.png)

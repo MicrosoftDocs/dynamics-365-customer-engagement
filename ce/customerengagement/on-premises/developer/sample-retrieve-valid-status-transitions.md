@@ -54,7 +54,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
   
    When status reason transitions for the incident entity are configured in the following way:  
   
-   ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+   ![Example of status reason transitions for case.](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
    The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
   

@@ -66,7 +66,7 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
   > [!NOTE]
   >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
   
-  ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+  ![Example of status reason transitions for case.](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
 ### See Also  
  [Create and edit fields](../customize/create-edit-fields.md)   

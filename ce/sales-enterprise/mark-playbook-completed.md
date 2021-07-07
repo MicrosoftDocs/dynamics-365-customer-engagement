@@ -44,7 +44,7 @@ When you complete all the activities created for a playbook, you must mark the p
     > A system administrator or customizer can add custom values to this field.
 
     > [!div class="mx-imgBorder"]
-    > ![complete as button on playbook record](media/complete-playbook-as.png "Complete as button on playbook record")
+    > ![complete as button on playbook record.](media/complete-playbook-as.png "Complete as button on playbook record")
 
 ### See also
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  

@@ -74,7 +74,7 @@ $wellKnownApp.Update()
    > [!NOTE]
    >  This privilege is visible in the Security Roles dialog only after [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] is enabled.  
   
-   ![Toggle availability of OneDrive for Business](../../../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
+   ![Toggle availability of OneDrive for Business.](../../../admin/media/onedrive-business-privileges.png "Toggle availability of OneDrive for Business")  
   
 ### See also  
  [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](/power-platform/admin/set-up-sharepoint-integration)   

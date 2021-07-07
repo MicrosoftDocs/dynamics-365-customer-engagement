@@ -37,7 +37,7 @@ To use this feature, you can enable **Webpage (HTML)** and image types of web re
 
 Additionally, for these types of web resources, you can select the **Available Offline** check box to make a web resource available to users of mobile clients while working in the offline mode. The `WebResource.IsAvailableForMobileOffline` attribute stores this data.  
 
-![Enable a web resource for mobile clients](media/web-resource-enable-for-mobile.png)  
+![Enable a web resource for mobile clients.](media/web-resource-enable-for-mobile.png)  
 
 > [!NOTE]
 > If your **Webpage (HTML)** web resources reference on any other type of web resource which is not enabled for offline use, you must set those web resources as dependences for the HTML web resource so that they will be enabled for use offline. More information: [Web resource dependencies](web-resource-dependencies.md)
@@ -49,7 +49,7 @@ Additionally, for these types of web resources, you can select the **Available O
 When you add an IFrame or a web resource to a form or dashboard, you must select the **Enable for mobile** check box in the **Add Web Resource** dialog box. 
  This sets the `<ShowOnMobileClient>` parameter value for the control.  
   
- ![Select Enable for mobile check box](media/enable-mobile-web-resource-control.PNG)  
+ ![Select Enable for mobile check box.](media/enable-mobile-web-resource-control.PNG)  
   
 <a name="BKMK_KnownIssues"></a>
 

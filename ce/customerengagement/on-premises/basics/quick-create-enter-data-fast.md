@@ -40,16 +40,16 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 - Activities: tasks, phone calls, email, or appointments  
   <!--In [!INCLUDE[pn_crm_2015_and_online_full](../includes/pn-crm-2015-and-online-full.md)] or later, when you add a new sales opportunity to the system by using the **Create** command on the nav bar, you can now create a contact at the same time. In previous versions, you had to create the contact before using the Quick Create command to add an opportunity.  
   -->  
-1.  On the nav bar, select the **plus sign**![Quick Create button](../basics/media/filter-button.png "Quick Create button"), and then click the item you want.  
+1.  On the nav bar, select the **plus sign**![Quick Create button.](../basics/media/filter-button.png "Quick Create button"), and then click the item you want.  
   
 2.  Fill in the fields, and then click **Save**.  
   
 3.  If you would like to continue adding information, select **View Record**. To create another one, select **Create Another**.  
   
 > [!NOTE]
-> ![Required Field button](../basics/media/required-field-button.png "Required Field button") next to the field on the screen means it is a **Required** field.  
+> ![Required Field button.](../basics/media/required-field-button.png "Required Field button") next to the field on the screen means it is a **Required** field.  
 >   
-> ![Recommended Field button](../basics/media/recommended-field-button.png "Recommended Field button") next to the field on the screen means it is a **Recommended** field.  
+> ![Recommended Field button.](../basics/media/recommended-field-button.png "Recommended Field button") next to the field on the screen means it is a **Recommended** field.  
   
 ### See also  
  [Work with accounts and contacts](../basics/accounts-contacts.md)   
@@ -78,16 +78,16 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 - Activities: tasks, phone calls, email, or appointments  
   <!--In [!INCLUDE[pn_crm_2015_and_online_full](../includes/pn-crm-2015-and-online-full.md)] or later, when you add a new sales opportunity to the system by using the **Create** command on the nav bar, you can now create a contact at the same time. In previous versions, you had to create the contact before using the Quick Create command to add an opportunity.  
   -->  
-1.  On the nav bar, select the **plus sign**![Quick Create button](../basics/media/filter-button.png "Quick Create button"), and then click the item you want.  
+1.  On the nav bar, select the **plus sign**![Quick Create button.](../basics/media/filter-button.png "Quick Create button"), and then click the item you want.  
   
 2.  Fill in the fields, and then click **Save**.  
   
 3.  If you would like to continue adding information, select **View Record**. To create another one, select **Create Another**.  
   
 > [!NOTE]
-> ![Required Field button](../basics/media/required-field-button.png "Required Field button") next to the field on the screen means it is a **Required** field.  
+> ![Required Field button.](../basics/media/required-field-button.png "Required Field button") next to the field on the screen means it is a **Required** field.  
 >   
-> ![Recommended Field button](../basics/media/recommended-field-button.png "Recommended Field button") next to the field on the screen means it is a **Recommended** field.  
+> ![Recommended Field button.](../basics/media/recommended-field-button.png "Recommended Field button") next to the field on the screen means it is a **Recommended** field.  
   
 ### See also  
  [Work with accounts and contacts](../basics/accounts-contacts.md)   

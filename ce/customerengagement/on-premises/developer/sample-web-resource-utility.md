@@ -53,7 +53,7 @@ Manually creating Web resources one at a time using the customization tools can 
 ## Web Resource Utility  
  The following screenshot shows the Web Resource Utility user interface:  
   
- ![The Web Resource Utility user interface](media/web-resource-utility.png "The Web Resource Utility user interface")  
+ ![The Web Resource Utility user interface.](media/web-resource-utility.png "The Web Resource Utility user interface")  
   
 ### See also  
  [Sample: Importing Files as Web Resources](sample-import-files-web-resources.md)   

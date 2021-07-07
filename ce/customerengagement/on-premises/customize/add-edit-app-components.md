@@ -32,20 +32,20 @@ The app designer refers to existing metadata in the default solution. You can us
 ## App designer layout  
  The app designer has two main areas. On the left side is the canvas where you add app components.  
   
- ![App designer canvas](../customize/media/app-designer-canvas-pane.png "App designer canvas")  
+ ![App designer canvas.](../customize/media/app-designer-canvas-pane.png "App designer canvas")  
   
  On the right side are tabs that you'll use to select components and set component properties.  
   
- ![App designer components](../customize/media/app-designer-canvas-components-tab.png "App designer components")  
+ ![App designer components.](../customize/media/app-designer-canvas-components-tab.png "App designer components")  
   
  On the canvas, you'll see areas for the site map, business process flow, dashboard, and entities. When you select a dashboard or business process flow, or configure a site map, the app designer automatically adds the entities that are used in these components to the canvas. After the entities are in place, all you need to do is select each entity and add required entity assets such as forms, views, and charts to it.
  
  You can also use **Search Canvas** to search for components on the canvas. When you select **Search Canvas**, a new search tab opens to the right of the tabs in the rightmost pane.   
   
- ![Canvas search option](media/app-designer-search-tab.png "Canvas search")
+ ![Canvas search option.](media/app-designer-search-tab.png "Canvas search")
 
 ## Add an artifact (entity, dashboard, or business process flow)  
- When you add a dashboard or business process flow to an app, the entities they use are automatically added to the app. When you add an entity, the tiles for its assets are automatically added. There are two ways you can add artifacts to the designer canvas: by using the **Add** button ![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the command bar or by using the tiles on the **Components** tab.  
+ When you add a dashboard or business process flow to an app, the entities they use are automatically added to the app. When you add an entity, the tiles for its assets are automatically added. There are two ways you can add artifacts to the designer canvas: by using the **Add** button ![Add button on the designer.](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer") on the command bar or by using the tiles on the **Components** tab.  
 
 > [!NOTE]
 > Unlike business process flows, you don't add task flows to an app.  For more information about task flows, see [Create a mobile task flow](create-mobile-task-flow.md). Also, task flows are not app aware. When you activate task flows, they become available across all model driven apps.
@@ -59,7 +59,7 @@ The app designer refers to existing metadata in the default solution. You can us
    > [!TIP]
    >  Alternatively, you can also do one of the following:  
    >   
-   > - Select **Add**![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and then select **Dashboards**.  
+   > - Select **Add**![Add button on the designer.](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and then select **Dashboards**.  
    > - On the **Components** tab, under **Artifacts**, select **Dashboards**.  
   
 2. In the **search** box, type a few keywords for the dashboard name you're looking for.  
@@ -74,11 +74,11 @@ The app designer refers to existing metadata in the default solution. You can us
   
      All entities the dashboard uses are also added to the **Entity View** area. For example, if you add the Customer Service Manager dashboard, the Case, Entitlement, and Queue Item entities are added to the Entity View area. For each entity, tiles for its assets are also added. You can use these tiles to add forms, views, and charts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add entity assets (forms, views, or charts)](../customize/add-edit-app-components.md#bkmk_AddEntityAssets)  
   
-   ![Add entity to the app designer canvas](../customize/media/add-entity-app-designer-canvas.png "Add an entity to the app designer canvas")  
+   ![Add entity to the app designer canvas.](../customize/media/add-entity-app-designer-canvas.png "Add an entity to the app designer canvas")  
   
 4. If the dashboard you want doesn't exist in the default solution, create a dashboard by selecting **Create New** on the **Components** tab to the right of the canvas.  
   
-    ![Create New link on the Components tab of app designer](../customize/media/app-designer-components-tab-create-new.png "Create New link on the Components tab of the app designer")  
+    ![Create New link on the Components tab of app designer.](../customize/media/app-designer-components-tab-create-new.png "Create New link on the Components tab of the app designer")  
   
     The dashboard designer opens. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit dashboards](../customize/create-edit-dashboards.md)  
   
@@ -102,7 +102,7 @@ The app designer refers to existing metadata in the default solution. You can us
    > [!NOTE]
    >  Alternatively, you can also do one of the following:  
    >   
-   > - Select **Add**![Add button on the designer](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and then select **Forms**.  
+   > - Select **Add**![Add button on the designer.](../customize/media/dynamics365-designer-addbutton.PNG "Add button on the designer"), and then select **Forms**.  
    > - On the **Components** tab, under **Entity Assets**, select **Forms**.  
   
    > [!TIP]
@@ -112,7 +112,7 @@ The app designer refers to existing metadata in the default solution. You can us
  
     The form tile of the selected entity will display the number of forms added.  
   
-    ![Form tile for case entity](../customize/media/add-forms-entity.png "Form tile for case entity")  
+    ![Form tile for case entity.](../customize/media/add-forms-entity.png "Form tile for case entity")  
   
     For example, if you don't select any form for an entity, all the forms for that entity will be displayed to end users while they use the app. This behavior is similar for views and charts also, if no view or chart is selected. This helps to create apps quickly when you need to work with all available components; there's no need to select each component during app design.  
 
@@ -135,9 +135,9 @@ The app designer refers to existing metadata in the default solution. You can us
    > [!NOTE]
    >  When you're adding a view, you can reference only public views that are listed under the **Views** node in the solution explorer.  
   
-4. Select the down arrow ![Drop down icon](../customize/media/drop-down-icon.png "down arrow") to expand the tile and see a list of forms that have been added.  
+4. Select the down arrow ![Drop down icon.](../customize/media/drop-down-icon.png "down arrow") to expand the tile and see a list of forms that have been added.  
   
-     ![Form tile expanded in app designer](../customize/media/app-designer-expanded-form-tile.png "Form tile expanded in the app designer")  
+     ![Form tile expanded in app designer.](../customize/media/app-designer-expanded-form-tile.png "Form tile expanded in the app designer")  
   
 5. Repeat these steps to add entity views and charts to the app.  
   
@@ -145,11 +145,11 @@ The app designer refers to existing metadata in the default solution. You can us
   
 ## Edit or remove artifacts  
   
-- To edit a dashboard or a business process flow, select the down arrow ![Drop down icon](../customize/media/drop-down-icon.png "down arrow") to expand the tile, and then select the site map designer button ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") corresponding to the dashboard or business process flow that you want to edit.  
+- To edit a dashboard or a business process flow, select the down arrow ![Drop down icon.](../customize/media/drop-down-icon.png "down arrow") to expand the tile, and then select the site map designer button ![Open Site Map Designer button.](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button") corresponding to the dashboard or business process flow that you want to edit.  
   
      The designer for the selected artifact opens.  
   
-- To remove a dashboard or a business process flow, select the down arrow ![Drop down icon](../customize/media/drop-down-icon.png "down arrow") to expand the tile, and then select the dashboard or business process flow that you want to remove. On the command bar, select **Remove**.  
+- To remove a dashboard or a business process flow, select the down arrow ![Drop down icon.](../customize/media/drop-down-icon.png "down arrow") to expand the tile, and then select the dashboard or business process flow that you want to remove. On the command bar, select **Remove**.  
 
     Another way to remove a dashboard or business process flow is by clearing the corresponding check box on the **Components** tab.
   
@@ -164,7 +164,7 @@ The app designer refers to existing metadata in the default solution. You can us
 
 ### Edit entity assets
   
-1. Select the down arrow ![Drop down icon](../customize/media/drop-down-icon.png "down arrow") to expand the tile for forms, views, charts, or dashboards.  
+1. Select the down arrow ![Drop down icon.](../customize/media/drop-down-icon.png "down arrow") to expand the tile for forms, views, charts, or dashboards.  
   
 2. Select the form, view, chart, or dashboard that you want to edit.  
   

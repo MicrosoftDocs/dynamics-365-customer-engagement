@@ -55,11 +55,11 @@ manager: kvivek
   
      Relying party trust for claims: internalcrm.contoso.com  
   
-     ![Relying party trust for claims](media/crm-itpro-claimswp-identintern.PNG "Relying party trust for claims")  
+     ![Relying party trust for claims.](media/crm-itpro-claimswp-identintern.PNG "Relying party trust for claims")  
   
      Relying party trust for IFD: auth.contoso.com  
   
-     ![Dynamics 365 IFD Relying Party](media/crm-itpro-claimswp-identauth.PNG "Dynamics 365 IFD Relying Party")  
+     ![Dynamics 365 IFD Relying Party.](media/crm-itpro-claimswp-identauth.PNG "Dynamics 365 IFD Relying Party")  
   
  If your identifiers aren’t similar to the above examples, check the path entered for the relying party’s federation metadata URL on the **Monitoring** tab and check your DNS records.  
   

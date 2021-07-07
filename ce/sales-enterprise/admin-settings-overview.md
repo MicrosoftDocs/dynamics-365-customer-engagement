@@ -13,14 +13,14 @@ manager: annbe
 
 System administrators in Dynamics 365 Sales are the users who have the System Administrator role or equivalent permissions assigned. Dynamics 365 Sales offers an organized and unified experience to administrators so they can quickly and easily configure their sales app from a single place.
 
-To go to this new area of app settings, at the bottom of the site map, select the **Change area** ![Change area](media/change-area-icon.png "Change area") icon, and then select **App Settings**.
+To go to this new area of app settings, at the bottom of the site map, select the **Change area** ![Change area.](media/change-area-icon.png "Change area") icon, and then select **App Settings**.
 
 
-![Select the Change area icon to go to App Settings](media/change-area-app-settings.png "Select the Change area icon to go to App Settings")
+![Select the Change area icon to go to App Settings.](media/change-area-app-settings.png "Select the Change area icon to go to App Settings")
 
 The Overview page opens. The Overview page is a landing page that consolidates all the sales settings in one place. You can go to individual feature settings right from here. The site map is also logically arranged so it is easier to find the settings in the site map.  
 
-![Admin settings overview page](media/overview-page-admin-settings.png "Admin settings overview page")
+![Admin settings overview page.](media/overview-page-admin-settings.png "Admin settings overview page")
 
 
 > [!NOTE]

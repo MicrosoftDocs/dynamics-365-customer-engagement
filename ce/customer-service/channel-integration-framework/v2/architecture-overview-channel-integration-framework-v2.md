@@ -14,7 +14,7 @@ ms.custom:
 Dynamics 365 Channel Integration Framework version 2.0 provides an extensible framework to integrate third-party Computer Telephony Integration (CTI) systems to serve your customers with more focus and agility.
 
 > [!div class="mx-imgBorder"]
-> ![High-level architecture diagram of Dynamics 365 Channel Integration Framework](../media/cif-high-level-architecture-v2.png "High-level architecture diagram of Dynamics 365 Channel Integration Framework")
+> ![High-level architecture diagram of Dynamics 365 Channel Integration Framework.](../media/cif-high-level-architecture-v2.png "High-level architecture diagram of Dynamics 365 Channel Integration Framework")
 
 **1 - Microsoft Dynamics 365**<br>
 Dynamics 365 environment where the Dynamics 365 Channel Integration Framework app is present to create and manage the configurations required for a telephony channel to interact with the Dynamics 365 model-driven app.

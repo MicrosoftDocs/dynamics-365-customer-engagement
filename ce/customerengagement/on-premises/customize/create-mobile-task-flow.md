@@ -56,7 +56,7 @@ Task flows can use multi-entity forms and logic, and can have form logic that ru
   
      The task flow designer opens in a new window.  
   
-   ![Task flow designer window](../customize/media/task-flow-designer-window.png "Task flow designer window")  
+   ![Task flow designer window.](../customize/media/task-flow-designer-window.png "Task flow designer window")  
   
 7. If your users will progress from one page to another in order, drag the **Page** component from the **Components** tab on the right side of the screen and drop it on the + sign in the appropriate spot. To add a name for a page, select the page, select the **Properties** tab, type a new name, and then select **Apply**.  
   

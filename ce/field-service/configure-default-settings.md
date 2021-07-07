@@ -20,7 +20,7 @@ The Field Service Settings page allows system administrators to set default sett
  1. In the Unified Interface framework app, navigate to **Field Service** > **Field Service Settings**. Or, in earlier web browser versions, navigate to **Field Service** > **Administration** > **Field Service Settings**.
 
  > [!div class="mx-imgBorder"]
-> ![Screenshot showing location of field service settings in the Unified Interface framework app](./media/admin-FS-settings-uci.png)
+> ![Screenshot showing location of field service settings in the Unified Interface framework app.](./media/admin-FS-settings-uci.png)
   
 2.  Fill in the information, as required.  Refer to the following table for a description of the settings.  
   

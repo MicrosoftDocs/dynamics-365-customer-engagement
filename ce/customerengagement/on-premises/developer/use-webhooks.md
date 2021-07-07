@@ -49,7 +49,7 @@ Use the Plug-in Registration tool to register a webhook. To get the Plug-in regi
 
 In the Plug-in Registration tool there is a new **Register New Web Hook** option to select.
 
-![Shows the menu option to register a new web hook. The keyboard shortcut is Ctrl+W](media/register-new-web-hook.PNG)
+![Shows the menu option to register a new web hook. The keyboard shortcut is Ctrl+W.](media/register-new-web-hook.PNG)
 
 When you register a webhook you must provide three items of information:
 
@@ -111,7 +111,7 @@ Registering a step for a webhook is like registering a step for a plugin. The ma
 
 Just like a plugin, you specify the message, and information about entities when appropriate. You can also specify where in the event pipeline to execute the web hook, the execution mode and whether to delete any **AsyncOperation** when the operation succeeds. 
 
-![Plugin Registration dialog to register a new webhook step](media/Plugin-registration-register-webhook-step.PNG)
+![Plugin Registration dialog to register a new webhook step.](media/Plugin-registration-register-webhook-step.PNG)
 
 Information about the **Step Name**, and **Description** will be auto-populated based on the options you choose, but you can change them. If you do not set some **Filtering Attributes** for a message that supports them, you will be prompted to do so as a performance best practices.
 
@@ -235,7 +235,7 @@ Before you move on to create or configure a service to consume web hooks, you sh
 5. Use the [!INCLUDE [Dynamics 365 Customer Engagement](../includes/pn-dyn-365.md)] app to perform the operation to trigger the event.
 6. After you trigger the event, return to the RequestBin page from step 2. You should discover a page similar to the following:
 
-    ![An example of the request logged on the request bin web site](media/request-bin-example.png)
+    ![An example of the request logged on the request bin web site.](media/request-bin-example.png)
 
 > [!NOTE]
 > The results viewed on this site do not necessarily represent the capitalization of the values sent. Http headers are case-insensitive and the RequestBin site appears to apply some formatting rules to make the values easier to read. However, values sent by [!INCLUDE [Dynamics 365 Customer Engagement](../includes/pn-dyn-365.md)] are all lower-case regardless of what is displayed here. More information: [Header Data](#header-data)

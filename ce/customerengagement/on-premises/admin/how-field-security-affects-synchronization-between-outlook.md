@@ -38,7 +38,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
 ### Set field level security  
  John, the Customer Engagement (on-premises) admin for Contoso, sets security on several fields.  
   
- ![Job Title field ](../admin/media/job-title-field.png "Job Title field")  
+ ![Job Title field .](../admin/media/job-title-field.png "Job Title field")  
   
  He did the following steps:  
   
@@ -61,7 +61,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
 ### Create and configure a field security profile  
  John creates a field security profile and assigns sales team members to the profile.  
   
- ![Field Security Profile](../admin/media/field-security-profile.png "Field Security Profile")  
+ ![Field Security Profile.](../admin/media/field-security-profile.png "Field Security Profile")  
   
  He did the following to create the field security profile:  
   
@@ -80,7 +80,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
 ### Set field permissions  
  With a field security profile created and users added to the profile, John can now set permissions on the fields to match his organization’s requirements.  
   
- ![Edit Field Security form](../admin/media/edit-field-security.png "Edit Field Security form")  
+ ![Edit Field Security form.](../admin/media/edit-field-security.png "Edit Field Security form")  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
@@ -93,17 +93,17 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] 
 ### What the user sees  
  Nancy, a salesperson at Contoso, uses [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and creates a new contact and tracks it in Customer Engagement (on-premises).  
   
- ![Contact Rene Valdes form in Customer Engagement (on-premises)](../admin/media/contact-form-example.png "Contact Rene Valdes form in Customer Engagement (on-premises)")  
+ ![Contact Rene Valdes form in Customer Engagement (on-premises).](../admin/media/contact-form-example.png "Contact Rene Valdes form in Customer Engagement (on-premises)")  
   
  When Nancy synchronizes with Customer Engagement (on-premises), she notices that the Job Title field is gone from the contact. This is because Nancy doesn’t have update rights for the Job Title field.  
   
- ![Rene contact with no Job Title in Customer Engagement (on-premises)](../admin/media/contact-no-job-title.png "Rene contact with no Job Title in Customer Engagement (on-premises)")  
+ ![Rene contact with no Job Title in Customer Engagement (on-premises).](../admin/media/contact-no-job-title.png "Rene contact with no Job Title in Customer Engagement (on-premises)")  
   
  Nancy’s manager, with update rights to the Job Title field, fills in the field with the correct job title: Construction Manager.  
   
  Nancy synchronizes again with Customer Engagement (on-premises) and now the Job Title field is in the contact with the correct title.  
   
- ![Contact with Job Title form in Customer Engagement (on-premises)](../admin/media/contact-job-title.png "Contact with Job Title form in Customer Engagement (on-premises)")  
+ ![Contact with Job Title form in Customer Engagement (on-premises).](../admin/media/contact-job-title.png "Contact with Job Title form in Customer Engagement (on-premises)")  
   
 ### See also  
  [Field level security](../admin/field-level-security.md)

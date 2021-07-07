@@ -24,11 +24,11 @@ search.audienceType:
 
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], available with [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)] apps, provides a new environment for collaboration with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users who don’t use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. For example, use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] when a sales team has a major opportunity requiring input from several people who don’t have access to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] provides a single location to share documents, conversations, meetings, and notes. You can enable [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for any entity.  
   
- ![Use Office 365 Groups to collaborate with others](../admin/media/office-groups-venn.png "Use Office 365 Groups to collaborate with others")  
+ ![Use Office 365 Groups to collaborate with others.](../admin/media/office-groups-venn.png "Use Office 365 Groups to collaborate with others")  
   
  Collaborate with people inside and outside of your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization.  
   
- ![Use Office 365 Groups to collaborate](../admin/media/crm-itpro-officegroups1.png "Use Office 365 Groups to collaborate")  
+ ![Use Office 365 Groups to collaborate.](../admin/media/crm-itpro-officegroups1.png "Use Office 365 Groups to collaborate")  
   
  Share information in multiple ways.  
   
@@ -101,7 +101,7 @@ search.audienceType:
   
 1. In Customer Engagement apps, click **Settings** > **Office 365 Groups**.  
   
-2. On the **Office 365 Groups Settings** page, click ![Add properties button](../admin/media/add-properties-button.png "Add properties button")**Add entity** and choose an entity from the drop-down list. Repeat this step for each entity you want to enable, including custom entities.  
+2. On the **Office 365 Groups Settings** page, click ![Add properties button.](../admin/media/add-properties-button.png "Add properties button")**Add entity** and choose an entity from the drop-down list. Repeat this step for each entity you want to enable, including custom entities.  
   
 3. Optionally, you can click **Auto-create** for an entity to have a new group automatically created when a new record for that entity is created. However, we recommend you choose this option only for entities that typically require large groups to collaborate.  
   
@@ -132,15 +132,15 @@ search.audienceType:
   
 6. Choose the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps record you want to connect this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group to, and then click **Save**.  
   
-   ![Add Office 365 Groups records to connect](../admin/media/add-office-365-groups-records-to-connect.png "Add Office 365 Groups records to connect")  
+   ![Add Office 365 Groups records to connect.](../admin/media/add-office-365-groups-records-to-connect.png "Add Office 365 Groups records to connect")  
   
    Once connected, the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps connector shows up at the top of the connection list with a summary of connected records.  
   
-   ![Office 365 Groups records in connector](../admin/media/office-365-groups-records-in-connector.png "Office 365 Groups records in connector")  
+   ![Office 365 Groups records in connector.](../admin/media/office-365-groups-records-in-connector.png "Office 365 Groups records in connector")  
   
    To delete a connected record, click **View**, and then click **Remove**.  
   
-   ![Delete Office 365 Groups records from connect](../admin/media/delete-office-365-groups-records-from-connect.png "Delete Office 365 Groups records from connect")  
+   ![Delete Office 365 Groups records from connect.](../admin/media/delete-office-365-groups-records-from-connect.png "Delete Office 365 Groups records from connect")  
   
 > [!NOTE]
 >  Note the following about the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Connectors for Groups:  

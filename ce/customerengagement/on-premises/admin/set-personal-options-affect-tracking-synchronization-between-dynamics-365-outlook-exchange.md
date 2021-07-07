@@ -26,7 +26,7 @@ You can use the **Set Personal Options** dialog box in Dynamics 365 Customer Eng
   
  To open the **Set Personal Options** dialog box:  
   
-- In Customer Engagement (on-premises), click the **Settings** button ![Options button for Dynamics 365 for Customer Engagement](media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement") in the upper-right corner of the screen, and then click **Options**.  
+- In Customer Engagement (on-premises), click the **Settings** button ![Options button for Dynamics 365 for Customer Engagement.](media/optionsbutton.png "Options button for Dynamics 365 for Customer Engagement") in the upper-right corner of the screen, and then click **Options**.  
   
   The following table summarizes the tracking and synchronization options available in the **Set Personal Options** dialog box. The **Available** column indicates whether the option is available in Customer Engagement (on-premises). This column also indicates if the option is available for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronization, server-side synchronization (also known as “[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] synchronization”), or both. More information: [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml)  
   

@@ -32,7 +32,7 @@ You can send the same message to multiple recipients using email templates. This
   
 3.  In the list of records, select the contacts you want to send email to.  
   
-4.  In the web app: Select the **More Commands** button ![Ellipsis button](../basics/media/ellipsis-button.gif "Ellipsis button"), and then select **Send Direct Email**.  
+4.  In the web app: Select the **More Commands** button ![Ellipsis button.](../basics/media/ellipsis-button.gif "Ellipsis button"), and then select **Send Direct Email**.  
   
 
 5.  In the **Send Direct Email** dialog box, select the template you want to use.  
@@ -57,7 +57,7 @@ You can send the same message to multiple recipients using email templates. This
   
 3.  In the list of records, select the contacts you want to send email to.  
   
-4.  In the web app: Select the **More Commands** button ![Ellipsis button](../basics/media/ellipsis-button.gif "Ellipsis button"), and then select **Send Direct Email**.  
+4.  In the web app: Select the **More Commands** button ![Ellipsis button.](../basics/media/ellipsis-button.gif "Ellipsis button"), and then select **Send Direct Email**.  
   
 
 5.  In the **Send Direct Email** dialog box, select the template you want to use.  

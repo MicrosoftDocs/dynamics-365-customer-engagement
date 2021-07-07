@@ -25,11 +25,11 @@ Channel Integration Framework version 2.0 is for multisession applications such 
 
 5. Select the **Channels** tab.
 
-  > ![Select app profiles](../media/channel-app-profile-manager.PNG "Select app profiles")
+  > ![Select app profiles.](../media/channel-app-profile-manager.PNG "Select app profiles")
 
 6. Select **Add channel providers** and then, select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
 
-  > ![Create new channel provider](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
+  > ![Create new channel provider.](../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
 7. Fill in all the required details to configure a new channel provider.
 
@@ -46,7 +46,7 @@ Channel Integration Framework version 2.0 is for multisession applications such 
 |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
 |Enable Analytics|Select `Yes` if you wish to enable analytics for your channel provider.|
 
-  > ![Configure channel provider](../media/channel-provider-app-profile.png "Configure channel provider")
+  > ![Configure channel provider.](../media/channel-provider-app-profile.png "Configure channel provider")
 
   > [!NOTE]
   > The `Api Version` field is set to `2` when you navigate from the app profile manager.

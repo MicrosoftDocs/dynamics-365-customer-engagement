@@ -49,7 +49,7 @@ The new schedule board provides the foundation for future releases that will pro
 Go to the schedule board and use the toggle button in the top right of the schedule board to switch between the current and new schedule boards. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On."](../../field-service/media/schedule-board-new-enable-preview.png)
+> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](../../field-service/media/schedule-board-new-enable-preview.png)
 
 ## Select and filter resources
 
@@ -251,7 +251,7 @@ The next snippet is what it looks like after:
 ​
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the sitemap after](../../field-service/media/schedule-board-new-sitemap-after.png)
+> ![Screenshot of the sitemap after.](../../field-service/media/schedule-board-new-sitemap-after.png)
 
 **URL:**
 

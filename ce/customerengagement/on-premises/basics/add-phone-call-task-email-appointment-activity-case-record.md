@@ -29,7 +29,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 All activities that you add from within a record appear in the **Activities** area. If the **Regarding** field of an activity is set, the activity appears in the activity wall of the regarding record. You can filter the list to show just the activities that are in progress or the ones that are overdue. Select the inline **Complete** link to close the activity as **Completed**.  
   
- ![Add activities in Dynamics 365 Customer Engagement (on-premises)](media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Add activities in Dynamics 365 Customer Engagement (on-premises).](media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 Customer Engagement (on-premises)")  
 
   
 ## Add a phone call  
@@ -70,7 +70,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
 1. Open the record you want to add the activity to.  
   
-2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity](media/MoreButton.png "More Commands button in Appointment Activity") > **Email**.  
+2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity.](media/MoreButton.png "More Commands button in Appointment Activity") > **Email**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -92,7 +92,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
 1. Open the record you want to add the activity to.  
   
-2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity](media/MoreButton.png "More Commands button in Appointment Activity") > **Appointment**.  
+2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity.](media/MoreButton.png "More Commands button in Appointment Activity") > **Appointment**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -103,7 +103,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
  This doesn't replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
- ![Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)](media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises).](media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)")  
   
 1.  Open the record you want to add the activity to.  
   
@@ -113,7 +113,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
 - In the **OneNote** area, select a notebook to make entries.  
   
-  ![Add Meeting Notes in OneNote](media/addonenotenotes.png "Add Meeting Notes in OneNote")  
+  ![Add Meeting Notes in OneNote.](media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
   >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)app](../admin/set-up-onenote-integration-in-dynamics-365.md).  
@@ -146,7 +146,7 @@ The activity and notes area helps you keep track of all the interactions with yo
   
 All activities that you add from within a record appear in the **Activities** area. If the **Regarding** field of an activity is set, the activity appears in the activity wall of the regarding record. You can filter the list to show just the activities that are in progress or the ones that are overdue. Select the inline **Complete** link to close the activity as **Completed**.  
   
- ![Add activities in Dynamics 365 Customer Engagement (on-premises)](media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Add activities in Dynamics 365 Customer Engagement (on-premises).](media/add-activities-dynamics-crm.png "Add activities in Dynamics 365 Customer Engagement (on-premises)")  
 
   
 ## Add a phone call  
@@ -187,7 +187,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
 1. Open the record you want to add the activity to.  
   
-2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity](media/MoreButton.png "More Commands button in Appointment Activity") > **Email**.  
+2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity.](media/MoreButton.png "More Commands button in Appointment Activity") > **Email**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -209,7 +209,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
 1. Open the record you want to add the activity to.  
   
-2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity](media/MoreButton.png "More Commands button in Appointment Activity") > **Appointment**.  
+2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity.](media/MoreButton.png "More Commands button in Appointment Activity") > **Appointment**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -220,7 +220,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
  This doesn't replace the current Notes feature, but gives you another way to access notes stored in OneNote.  
   
- ![Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)](media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises).](media/addnotesoronenotenotes.png "Add notes or OneNote notes in Dynamics 365 Customer Engagement (on-premises)")  
   
 1.  Open the record you want to add the activity to.  
   
@@ -230,7 +230,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
 - In the **OneNote** area, select a notebook to make entries.  
   
-  ![Add Meeting Notes in OneNote](media/addonenotenotes.png "Add Meeting Notes in OneNote")  
+  ![Add Meeting Notes in OneNote.](media/addonenotenotes.png "Add Meeting Notes in OneNote")  
   
   > [!NOTE]
   >  The notebook is stored in the associated SharePoint folder for the record. If there is more than one associated folder, the notebook is created in the first folder. For more information see, [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)app](./collaborate-with-team.md).  

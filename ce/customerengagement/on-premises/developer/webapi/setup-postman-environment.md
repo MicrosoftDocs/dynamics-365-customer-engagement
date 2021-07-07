@@ -62,7 +62,7 @@ To connect with an online environment, see the information provided in this Powe
   |`version`|`9.1`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 
-  ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
+  ![Create a new Postman environment to connect with On-premise instance.](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
 
 5. Replace the instance URL placeholder value with your Dynamics 365 Customer Engagement (on-premises) instance URL, and select **Add** to save the environment.
 6. Close the **Manage environments** dialog box.
@@ -77,7 +77,7 @@ To connect with an online environment, see the information provided in this Powe
 
 Your authentication might look like this if you are logging in as an administrator.<br>
 
-![Click on Authorization tab, and select NTLM Authentication](../media/postman-ntlm-auth.png "Click on Authorization tab, and select NTLM Authentication")
+![Click on Authorization tab, and select NTLM Authentication.](../media/postman-ntlm-auth.png "Click on Authorization tab, and select NTLM Authentication")
 
 
 
@@ -85,7 +85,7 @@ Your authentication might look like this if you are logging in as an administrat
 
 Create a new Web API request to test the connection with your Dynamics 365 Customer Engagement (on-premises) instance. Use the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI function" />:
 1. Select `GET` as the HTTP method and add `{{webapiurl}}WhoAmI` in the editing space.
-  ![WhoAmI function request](../media/postman-whoami-request.png "WhoAmI function request")
+  ![WhoAmI function request.](../media/postman-whoami-request.png "WhoAmI function request")
 2. Select **Send** to send this request.
 3. If your request is successful, you see the data from the <xref href="Microsoft.Dynamics.CRM.WhoAmIResponse?text=WhoAmIResponse ComplexType" /> that is returned by the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI Function" />.
 

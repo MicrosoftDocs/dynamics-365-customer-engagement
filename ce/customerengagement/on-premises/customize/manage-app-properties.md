@@ -31,7 +31,7 @@ App properties define important details about the app, like its title or URL. Yo
 
 1. In the app designer, on the right side, select the **Properties** tab.  
 
-   ![App designer Properties pane](../customize/media/app-designer-properties-tab.png "App designer Properties pane")  
+   ![App designer Properties pane.](../customize/media/app-designer-properties-tab.png "App designer Properties pane")  
 
 2. Change the information, as required:  
 

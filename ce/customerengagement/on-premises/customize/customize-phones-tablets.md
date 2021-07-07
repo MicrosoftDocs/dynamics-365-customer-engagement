@@ -39,15 +39,15 @@ With Dynamics 365 Customer Engagement (on-premises), you can design once and dep
 
  **Web app**  
 
- ![Dynamics 365 for Customer Engagement form reflow from web app](../customize/media/custon-reflow-web-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow from web app")  
+ ![Dynamics 365 for Customer Engagement form reflow from web app.](../customize/media/custon-reflow-web-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow from web app")  
 
  **Tablet app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to tablet app](../customize/media/reflow-tablet-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to tablet app")  
+ ![Dynamics 365 for Customer Engagement form reflow to tablet app.](../customize/media/reflow-tablet-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to tablet app")  
 
  **Phone app**  
 
- ![Dynamics 365 for Customer Engagement form reflow to phone app](../customize/media/custon-reflow-phone-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to phone app")  
+ ![Dynamics 365 for Customer Engagement form reflow to phone app.](../customize/media/custon-reflow-phone-app.png "Dynamics 365 Customer Engagement (on-premises) form reflow to phone app")  
 
  Dynamics 365 for phones and tablets does not provide the capability to switch between forms. If you have more than one main form for an entity, the one displayed depends on the form order set and which security roles are assigned to the form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Multiple forms](../customize/main-form-presentations.md#BKMK_MultipleForms)  
 
@@ -82,7 +82,7 @@ That way, if you think phone users need to focus only on the primary information
 
  Custom entities use a fixed custom entity icon.  
 
- ![Dynamics 365 for tablets nav bar](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Tablets nav bar")  
+ ![Dynamics 365 for tablets nav bar.](../customize/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for Tablets nav bar")  
 
 See [Change application navigation using the SiteMap](../developer/customize-dev/change-application-navigation-using-sitemap.md) for more information. 
 
@@ -90,7 +90,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 ## Change commands for Dynamics 365 for phones and tablets  
  Dynamics 365 for phones and tablets uses the same ribbon definitions to provide commands as the web application except that it is optimized for presentation in the mobile apps. You can set the ribbon definitions to display based on the type of client. For example, you can set commands so they appear in the web app but not the phone or tablet apps. Some default commands are set to appear only in the web app, which is why you won’t see them in the mobile apps.  
 
- ![Account form commands for Dynamics 365 for tablets](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
+ ![Account form commands for Dynamics 365 for tablets.](../customize/media/mobile-app-account-form-command.PNG "Account form commands for Dynamics 365 for tablets")  
 
 > [!NOTE]
 >  Icons configured for commands aren’t displayed, and labels that are too long are truncated.  

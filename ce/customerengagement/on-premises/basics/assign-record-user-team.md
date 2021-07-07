@@ -32,7 +32,7 @@ If you would like another person in your organization to handle an account or co
   
 2. In the list of records, select the record that you want.  
   
-    In the command bar, select the **More Commands** button ![More commands button](media/MoreButton.png "More commands button"), and then select **Assign**.  
+    In the command bar, select the **More Commands** button ![More commands button.](media/MoreButton.png "More commands button"), and then select **Assign**.  
 
   
 3. In the **Assign** dialog box, select:  
@@ -66,7 +66,7 @@ If you would like another person in your organization to handle an account or co
   
 2. In the list of records, select the record that you want.  
   
-    In the command bar, select the **More Commands** button ![More commands button](media/MoreButton.png "More commands button"), and then select **Assign**.  
+    In the command bar, select the **More Commands** button ![More commands button.](media/MoreButton.png "More commands button"), and then select **Assign**.  
 
   
 3. In the **Assign** dialog box, select:  

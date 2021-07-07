@@ -34,11 +34,11 @@ Replacement parameters can be used throughout the application to pull data from 
   
 2. In the main screen of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, click the down arrow next to the gear on the top-right corner, and select **Debug**. The Debugger appears.  
   
-   ![Debug option to open Debugger](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
+   ![Debug option to open Debugger.](../unified-service-desk/media/usd-view-debugger.png "Debug option to open Debugger")  
   
 3. In the Debugger, click **Data Parameters** to view the replacement parameters.  
   
-   ![Replacement parameters on Data Parameters tab](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
+   ![Replacement parameters on Data Parameters tab.](../unified-service-desk/media/usd-replacement-parameters.PNG "Replacement parameters on Data Parameters tab")  
   
    A tree view is used to represent the available variables. When specifying the variable, specify the name at the root level, followed by a period (.), and then the name in the list. Here are some examples:  
   

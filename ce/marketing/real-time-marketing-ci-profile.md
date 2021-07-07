@@ -29,7 +29,7 @@ For example, let's say you have an e-commerce website. You capture information a
 To target visitors with abandoned carts, you first need to define a [custom event trigger](real-time-marketing-custom-events.md) for any shopper who abandons a cart. You'll need to set the **Data type** field for the event trigger's **Customer Data** property to **Profile (Customer Insights)**. You'll then need to set up an [event-based journey](real-time-marketing-event-based-journey.md) using the abandoned cart trigger.
 
 > [!div class="mx-imgBorder"]
-> ![Cart custom event screenshot](media/real-time-marketing-ci-profile-cart-event.png)
+> ![Cart custom event screenshot.](media/real-time-marketing-ci-profile-cart-event.png)
 
 Alternately, you can create a scheduled journey targeting the customers in an abandoned cart segment. When creating your journey, you'll be able to see segments from both Marketing and Customer Insights in the **Audience** dropdown list.
 
@@ -50,13 +50,13 @@ Marketing can automatically discover Customer Insights data and make it availabl
 1. If you’ve already enabled real-time marketing in the Marketing app prior to setting up Customer Insights as described above, the automatic discovery won't take place. In this case, **Settings** > **Data management** > **Customer Insights connector** shows the following screen:
 
 > [!div class="mx-imgBorder"]
-> ![Customer Insights setup screenshot](media/real-time-marketing-ci-setup.png)
+> ![Customer Insights setup screenshot.](media/real-time-marketing-ci-setup.png)
 
   - To retry Customer Insights discovery, complete the [above-listed steps](real-time-marketing-ci-profile.md#set-up-your-ci-environment-for-real-time-marketing) in your Customer Insights environment, and then return to **Settings** > **Data management** > **Customer Insights connector** and select **Connect**.
   - If the setup is correct, Marketing will be able to discover Customer Insights and you should see the success indicator.
 
 > [!div class="mx-imgBorder"]
-> ![Customer Insights setup success screenshot](media/real-time-marketing-ci-profile-success2.png)
+> ![Customer Insights setup success screenshot.](media/real-time-marketing-ci-profile-success2.png)
 
 ## Set up default properties for unified customer profiles
 

@@ -57,7 +57,7 @@ This sample is available to download from [Sample: Work with business process fl
 
      Here is the output of the sample:  
 
-    ![Sample output](media/work-with-bpf-sample-output.png "Sample output")  
+    ![Sample output.](media/work-with-bpf-sample-output.png "Sample output")  
 
 <a name="BKMK_runSample"></a>   
 ## Run the sample  

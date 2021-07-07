@@ -30,7 +30,7 @@ To create a behavioral segment, create a segment and then select the **Behaviora
 
 The following image shows an example of typical behavioral segment query and outlines key features of the designer user interface.
 
-![Segment designer UI elements for behavioral segments](media/segment-interaction-callouts2.png "Segment designer UI elements for behavioral segments")
+![Segment designer UI elements for behavioral segments.](media/segment-interaction-callouts2.png "Segment designer UI elements for behavioral segments")
 
 Legend:
 

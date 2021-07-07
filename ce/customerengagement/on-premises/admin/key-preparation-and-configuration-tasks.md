@@ -66,7 +66,7 @@ If your Customer Engagement (on-premises) performance is slower in Internet Expl
   
 3. Expand **Internet Explorer** > **JavaScript Timer Frequency**, for **On battery** and **Plugged in**, choose **Maximum Performance**.  
   
-   ![Internet Explorer power options](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
+   ![Internet Explorer power options.](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
   
 **Increase data storage limits for websites**  
   

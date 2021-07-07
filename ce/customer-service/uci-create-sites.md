@@ -31,11 +31,11 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
 2. Select **Sites**
 
-   ![Select Sites](media/uci-site-scheduling.png "Select Sites on the Scheduling tab")
+   ![Select Sites.](media/uci-site-scheduling.png "Select Sites on the Scheduling tab")
 
 3. Select **New.**
 
-   ![New site](media/uci-new-site.png "Enter a name and other details for the new site")
+   ![New site.](media/uci-new-site.png "Enter a name and other details for the new site")
 
 4. Enter a name and any other details you want, and then click **Save**.
 

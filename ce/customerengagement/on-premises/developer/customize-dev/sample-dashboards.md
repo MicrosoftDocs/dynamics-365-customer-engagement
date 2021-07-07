@@ -27,7 +27,7 @@ This topic contains sample dashboards along with the respective FormXML strings.
 ## Dashboard with charts and grids  
  The following is a sample dashboard that has four components: three charts and a grid. This is one of the default organization-owned dashboards, **Microsoft Dynamics 365 Customer Engagement Overview**, available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
- ![Sample dashboard: Microsoft Dynamics 365 Customer Engagement Overview](../media/dashboard-sample.png "Sample dashboard: Microsoft Dynamics 365 Customer Engagement Overview")  
+ ![Sample dashboard: Microsoft Dynamics 365 Customer Engagement Overview.](../media/dashboard-sample.png "Sample dashboard: Microsoft Dynamics 365 Customer Engagement Overview")  
   
 ### FormXML  
  The following sample shows the FormXML for this dashboard.  

@@ -37,7 +37,7 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
 3. On the nav bar, select the arrow next to the record name, and then select **Feedback**.  
   
-   ![Go to the list of associated records](../basics/media/v8-1-associatedlist.png "Go to the list of associated records")  
+   ![Go to the list of associated records.](../basics/media/v8-1-associatedlist.png "Go to the list of associated records")  
   
 4. On the Action toolbar, select **Add New Feedback**.  
   

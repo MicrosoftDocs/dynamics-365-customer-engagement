@@ -34,7 +34,7 @@ Solutions let you create and package customizations as a single unit of software
   
  The following diagram describes selected attributes of the solution entities.  
   
- ![Solution entities object model](media/solution-object-model.png "Solution entities object model")  
+ ![Solution entities object model.](media/solution-object-model.png "Solution entities object model")  
   
 ## In This Section  
  [Publisher Entity](entities/publisher.md)  

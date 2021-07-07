@@ -47,12 +47,12 @@ For application ribbons and updated entity form ribbons there is no scaling. Sca
  The following diagram shows how `MaxSize`, `Scale`, `Group`, `Layout` and `OverflowSection` elements must reference each other to enable scaling 
  when you are using a `<OverflowSection>` element.  
   
- ![Element relationships with OverflowSection](../media/ribbon-ui-definition.png "Element relationships with OverflowSection")  
+ ![Element relationships with OverflowSection.](../media/ribbon-ui-definition.png "Element relationships with OverflowSection")  
   
  The following diagram shows how `MaxSize`, `Scale`, `Group`, `Layout` and `ControlRef` elements must reference each other to enable scaling when you 
  are using a `<Section>` element.  
   
- ![Element Relationships with Section](../media/ui-definition.png "Element Relationships with Section")  
+ ![Element Relationships with Section.](../media/ui-definition.png "Element Relationships with Section")  
   
 ### Use existing group templates  
  When creating a new group, instead of defining new group templates, you can re-use existing `GroupTemplate` elements.  

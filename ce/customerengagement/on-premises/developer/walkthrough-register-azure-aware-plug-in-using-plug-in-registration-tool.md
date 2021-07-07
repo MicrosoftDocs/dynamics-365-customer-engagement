@@ -75,7 +75,7 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 3. Fill out the **Register New Step** dialog box for an account create event as shown in the following figure.  
 
-   ![Creating a service endpoint step](media/crm-v6s-pr-service-endpoint-step.png "Creating a service endpoint step")  
+   ![Creating a service endpoint step.](media/crm-v6s-pr-service-endpoint-step.png "Creating a service endpoint step")  
 
 4. Click **Register New Step**.  
 
@@ -87,7 +87,7 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 1. Open the Dynamics 365 Customer Engagement (on-premises) web application for the same organization that you registered the service endpoint under.  
 
-2. Click the **Create** button ![Create button](media/crm-v6s-wa-create-icon.PNG "Create button"), and then click **Account**.  
+2. Click the **Create** button ![Create button.](media/crm-v6s-wa-create-icon.PNG "Create button"), and then click **Account**.  
 
 3. Enter an account name, for example `Adventure Works Cycle`, into the **Account Name** field, and then click **Save**.  
 

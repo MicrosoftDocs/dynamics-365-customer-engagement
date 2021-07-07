@@ -116,7 +116,7 @@ SetAdvancedSettings.ps1 -ConfigurationEntityName ServerSettings -SettingName WSF
 
 Sample:
 
-![SetAdvancedSettings.ps1](media/ps_setadvancedsettings.png)
+![SetAdvancedSettings.ps1.](media/ps_setadvancedsettings.png)
 
 -OR- 
 
@@ -134,7 +134,7 @@ Get-CrmOrganization
         
 Sample:
 
-![Example Organization ID](media/ps_orgid.png)
+![Example Organization ID.](media/ps_orgid.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
