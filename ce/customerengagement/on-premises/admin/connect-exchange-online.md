@@ -4,7 +4,7 @@ description: "Connect Dynamics 365 for Customer Engagement apps (online) to Exch
 ms.custom: 
 ms.date: 05/14/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

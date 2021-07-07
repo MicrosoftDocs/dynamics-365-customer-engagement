@@ -3,7 +3,7 @@ title: "Manage app properties in the app designer with Dynamics 365 Customer Eng
 description: "Learn how to manage the properties for your app"
 keywords: 
 ms.date: 02/21/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

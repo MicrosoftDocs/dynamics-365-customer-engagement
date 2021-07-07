@@ -3,7 +3,7 @@ title: "Stay up-to-date with customer news with the activity feed (Dynamics 365 
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

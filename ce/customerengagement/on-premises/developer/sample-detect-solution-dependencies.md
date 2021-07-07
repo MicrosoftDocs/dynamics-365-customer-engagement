@@ -3,7 +3,7 @@ title: "Sample: Detect solution dependencies | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 04/02/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

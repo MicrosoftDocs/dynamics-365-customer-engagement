@@ -4,7 +4,7 @@ description: Learn how to Perform bulk operations like cancel, pause and resume 
 ms.custom: ""
 ms.date: 05/20/2019
 ms.reviewer: ""
-ms.service: flow
+ms.prod: d365ce-op
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"

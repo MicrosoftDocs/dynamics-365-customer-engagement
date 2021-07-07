@@ -4,7 +4,7 @@ description: "Share business objects and collaborate with other people across bu
 ms.custom: 
 ms.date: 01/10/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

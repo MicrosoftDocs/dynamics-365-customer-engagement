@@ -8,7 +8,7 @@ ms.author: mkaur
 manager: kvivek
 ms.date: 03/24/2021
 ms.topic: article
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
   - enduser

@@ -4,7 +4,7 @@ description: "Find information related to users on their profile card."
 ms.custom: 
 ms.date: 06/03/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Deploy Office 365 Groups  with Dynamics 365 for Customer Engagemen
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

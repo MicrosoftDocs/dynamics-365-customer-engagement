@@ -4,7 +4,7 @@ description: "Welcome to the Dynamics 365 Customer Engagement (on-premises) Help
 ms.custom: on-premises
 ms.date: 06/07/2021
 ms.reviewer: "kvivek"
-ms.service: crm
+ms.prod: d365ce-op
 ms.topic: "article"
 author: "kvivek"
 ms.author: "KumarVivek"

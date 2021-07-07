@@ -3,7 +3,7 @@ title: "Create or edit an appointment (Dynamics 365 Customer Engagement (on-prem
 ms.custom: 
 ms.date: 10/31/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

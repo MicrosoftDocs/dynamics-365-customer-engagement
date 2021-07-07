@@ -4,7 +4,7 @@ description: "The sample demonstrates how to programmatically work with business
 ms.custom: 
 ms.date: 04/05/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

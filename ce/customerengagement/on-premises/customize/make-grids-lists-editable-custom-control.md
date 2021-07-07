@@ -4,7 +4,7 @@ description: "Learn how to use the editable grid custom control"
 ms.custom: 
 ms.date: 04/10/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

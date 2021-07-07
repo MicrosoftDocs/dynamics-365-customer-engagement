@@ -4,7 +4,7 @@ description: "This topic explains how to fix common issues that may occur with S
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

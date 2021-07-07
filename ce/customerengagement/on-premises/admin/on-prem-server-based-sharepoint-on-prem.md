@@ -3,7 +3,7 @@ title: Configure server-based authentication with Customer Engagement (on-premis
 description: "Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises."
 ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
 ms.date: 10/01/2019
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

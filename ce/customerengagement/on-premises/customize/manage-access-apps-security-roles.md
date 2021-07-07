@@ -3,7 +3,7 @@ title: "Manage access to Power Apps apps by using security roles with Dynamics 3
 description: "Learn how to control access to your Power Apps apps"
 keywords: 
 ms.date: 12/04/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
   - dyn365-deflc
 ms.topic: article

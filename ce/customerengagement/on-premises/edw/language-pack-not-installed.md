@@ -1,7 +1,7 @@
 ---
 title: "Language Pack not installed | Microsoft Docs"
 description: Environment diagnostics warning that a language pack isn't installed.
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

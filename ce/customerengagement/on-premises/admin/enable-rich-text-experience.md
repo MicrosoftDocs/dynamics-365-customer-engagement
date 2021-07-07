@@ -4,7 +4,7 @@ description: "Enable the rich text experience for appointment activities."
 ms.custom: 
 ms.date: 10/28/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

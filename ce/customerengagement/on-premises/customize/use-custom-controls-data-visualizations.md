@@ -4,7 +4,7 @@ description: "Learn how to use custom controls for fields"
 ms.custom: 
 ms.date: 01/10/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

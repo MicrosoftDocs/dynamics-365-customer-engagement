@@ -4,7 +4,7 @@ description: "Learn how to invoke a custom action from a workflow"
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

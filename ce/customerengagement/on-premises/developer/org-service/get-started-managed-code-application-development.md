@@ -4,7 +4,7 @@ description: "This guide shows you how to write application code that connects t
 ms.custom: on-premise
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: 
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

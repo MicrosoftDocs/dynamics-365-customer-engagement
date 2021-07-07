@@ -8,7 +8,7 @@ ms.author: renwe
 manager: renwe
 ms.date: 05/05/2020
 ms.topic: article
-ms.service: dynamics-365-cross-app
+ms.prod: d365ce-op
 ms.assetid: 5424660b-743b-434f-9993-fb64ae4e776a
 ms.custom: 
   - dyn365-a11y

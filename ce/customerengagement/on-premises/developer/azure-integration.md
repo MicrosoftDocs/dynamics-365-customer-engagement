@@ -4,7 +4,7 @@ description: "Learn about connecting Dynamics 365 Customer Engagement (on-premis
 ms.custom: 
 ms.date: 09/19/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

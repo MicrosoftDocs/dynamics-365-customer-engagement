@@ -3,7 +3,7 @@ title: "Sample: Assign a user-owned dashboard to another user (Developer Guide f
 description: "The sample shows how to assign a user-owned dashboard to another user by using the AssignRequest message. Because you can’t delete a user-owned dashboard that is assigned to another user, this sample shows how to use impersonation to delete the user-owned dashboard. "
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

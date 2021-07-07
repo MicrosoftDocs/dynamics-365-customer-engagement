@@ -4,7 +4,7 @@ description: "Dialogs contain pages, and each page can contain multiple sets of 
 ms.custom: 
 ms.date: 05/24/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

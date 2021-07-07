@@ -4,7 +4,7 @@ description: "Configure server-based authentication with Dynamics 365 for Custom
 ms.custom: 
 ms.date: 07/11/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

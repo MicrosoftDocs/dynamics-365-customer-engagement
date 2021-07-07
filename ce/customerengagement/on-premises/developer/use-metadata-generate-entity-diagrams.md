@@ -4,7 +4,7 @@ description: "Learn about Metadata Diagram entity to create a diagram that shows
 ms.custom: 
 ms.date: 08/09/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

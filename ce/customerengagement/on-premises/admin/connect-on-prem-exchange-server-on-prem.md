@@ -4,7 +4,7 @@ description: "Connect Dynamics 365 (on-premises) with Microsoft Exchange Server 
 ms.custom: ""
 ms.date: 11/28/2018
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.prod: d365ce-op
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"

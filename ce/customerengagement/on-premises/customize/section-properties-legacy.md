@@ -9,7 +9,7 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 01/08/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 search.audienceType: 

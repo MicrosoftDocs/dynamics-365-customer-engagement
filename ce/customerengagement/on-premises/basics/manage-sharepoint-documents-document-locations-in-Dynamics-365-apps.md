@@ -3,7 +3,7 @@ title: "Manage SharePoint documents in Dynamics 365 Customer Engagement (on-prem
 description: "Store your documents on SharePoint, and manage them from within your app."
 keywords: document, SharePoint, share, manage
 ms.date: 05/05/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)

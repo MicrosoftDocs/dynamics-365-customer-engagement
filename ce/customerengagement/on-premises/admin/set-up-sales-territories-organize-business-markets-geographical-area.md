@@ -3,7 +3,7 @@ title: "Set up sales territories to organize business markets by geographical ar
 description: "Create territories for customer and market segments in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 03/30/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)

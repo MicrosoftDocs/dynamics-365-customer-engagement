@@ -4,7 +4,7 @@ description: "SQL Server Data Tools let you create or edit reports in Visual Stu
 ms.custom: 
 ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

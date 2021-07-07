@@ -4,7 +4,7 @@ description: "Understand the different ways you can write code to change how a D
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

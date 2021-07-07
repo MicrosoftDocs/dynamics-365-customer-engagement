@@ -3,7 +3,7 @@ title: "Validate and publish a custom business app with Dynamics 365 Customer En
 description: "Learn how to validate and publish a custom business app using the app designer"
 keywords: 
 ms.date: 01/11/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 

@@ -4,7 +4,7 @@ description: "Learn how to display custom icon graphics in a view"
 ms.custom: 
 ms.date: 11/20/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

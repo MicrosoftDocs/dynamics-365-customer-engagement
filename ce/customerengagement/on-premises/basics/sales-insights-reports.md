@@ -3,7 +3,7 @@ title: "Sales insights reports (Dynamics 365 Customer Engagement (on-premises)) 
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

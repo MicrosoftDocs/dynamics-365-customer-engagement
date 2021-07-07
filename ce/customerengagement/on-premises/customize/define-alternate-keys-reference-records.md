@@ -4,7 +4,7 @@ description: "Learn how to define alternate keys that can be used to reference r
 ms.custom: 
 ms.date: 04/03/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
