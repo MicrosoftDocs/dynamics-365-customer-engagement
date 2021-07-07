@@ -14,26 +14,36 @@ search.app:
   - D365FS
 ---
 
-# Activate Field Service mobile configurator
-   
-The mobile configurator (Woodford) allows your organization to use, administer, and customize the Field Service Mobile app for your field workers.
 
-## Fill out an activation form
-
-A 30-day trial automatically starts when you install the mobile configuration tool for your Dynamics 365 instance. Submit a request to activate the trial before the trial period ends. Activate the configurator to continue using and customizing the Field Service Mobile app.
-
-Complete the [activation request form for the mobile configurator (Woodford)](https://aka.ms/fsmlicense). You need the Dynamics 365 organization ID to complete the request form.
+> [!IMPORTANT]
+> Field Service Mobile - Xamarin will be end of life on **June 30th, 2022**. Mobile configurator licenses will no longer be granted to new Tenants onboarding with Dynamics 365 Field Service as of **June 30th, 2021**. New Tenants coming online should start with the new Dynamics 365 Field Service Mobile application: https://docs.microsoft.com/en-us/dynamics365/field-service/mobile-power-app-get-started. 
 
 
-## Additional notes
+## Requesting Field Service Mobile - Xamarin mobile configurator licenses
+Eligable Orgs may request to activate mobile configurator licenses by completing the  [request form for the mobile configurator (Woodford)](https://aka.ms/fsmlicense). You need the Dynamics 365 organization ID to complete the request form.
 
-- To find out your **trial end date**, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
+
+## Frequently Asked Questions
+
+### **How long is Field Service Mobile - Xamarin supported?
+Field Service Mobile - Xamarin is slated to reach End of Life on June 30th, 2022. Current customers will be required to migrate onto the new Dynamics 365 Field Service Mobile application by that date. For more information see https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/
+
+
+### **Can I use Resco MobileCRM application with Field Service Mobile licenses?**
+No. Resco MobileCRM is a 3rd party ISV application which is not eligable for use with licenses aquired through Field Service Mobile - Xamarin licensing form. 
+
+### **Why can I can no longer request individual licenses for Field Service Mobile - Xamarin?**
+With the latest versions of Field Service Mobile - Xamarin you only require a project license and individual user licenses are granted by enabling the users as "mobile enabled bookable resources" in CRM. 
+
+### **How do I find my Mobile Configuration Trial End Date?**
+
+To find out your **trial end date**, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
   > ![OrgID](media/woodford-expiration.png)  
 
 - If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile configurator for the organization.
 
-**To find your organization ID**:
+### **How do I find my Organization ID?**
 
  1. Go to **Settings** > **Customizations** > **Developer Resources**.
  2. In the **Instance Reference Information** section, locate the ID.
@@ -41,22 +51,8 @@ Complete the [activation request form for the mobile configurator (Woodford)](ht
   > ![OrgID](media/admin-orgid.png)  
   
 
-## Previous app versions
 
-For the **Field Service Mobile (2017)** app, you need to [fill out a form](https://aka.ms/fsmlicense) to request access for your users. To understand past Field Service Mobile app versions, see the article on [Field Service Mobile app version history](./version-history.md#field-service-mobile-app-version-history).
-
-Each Dynamics 365 Field Service license you purchase from Microsoft allows you to activate mobile access for one user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could activate mobile access for 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at each organization for a total of 200).
-
-## Field Service on the Dynamics 365 mobile app 
-
-To use Dynamics 365 Field Service on a mobile device, use the Field Service Mobile app, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dynamics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our article on [Field Service Mobile](field-service-mobile-overview.md). 
-
-
-
-
-
-
-        
+       
 
 
 
