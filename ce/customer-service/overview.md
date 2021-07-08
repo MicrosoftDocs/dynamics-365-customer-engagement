@@ -12,6 +12,8 @@ ms.custom:
 
 # Overview of Dynamics 365 Customer Service
 
+*<a href="https://dynamics.microsoft.com/en-us/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+
 Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life. 
 
 The agent experience is the heart of Dynamics 365 Customer Service. The key to improving satisfaction in service delivery is enabling agents to take customer requests from any channel, handle multiple sessions at a time, interact with multiple apps without losing context, and enhance their workflow with productivity tools.  
