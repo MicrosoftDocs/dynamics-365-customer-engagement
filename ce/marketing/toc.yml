@@ -306,7 +306,7 @@
         href: email-a-b-testing.md
       - name: Disable auto-adjustment of HTML
         href: email-postprocessing.md
-      - name: Troubleshoot + FAQs
+      - name: Email troubleshoot + FAQ
         href: email-troubleshoot.md
     - name: Marketing pages and forms
       items: 
@@ -328,6 +328,8 @@
         href: set-up-subscription-center.md
       - name: Edit and resubmit form submissions
         href: failed-submissions.md
+      - name: Forms and pages troubleshoot + FAQ
+        href: pages-forms-troubleshoot.md
     - name: Marketing content library management
       items: 
       - name: Upload and use images and files
@@ -590,5 +592,5 @@
       href: learning-sales.md
   - name: Troubleshoot with Solution Health Hub
     href: troubleshoot-marketing-solution-health.md
-  - name: General FAQs
+  - name: General FAQ
     href: troubleshoot-faq.md
